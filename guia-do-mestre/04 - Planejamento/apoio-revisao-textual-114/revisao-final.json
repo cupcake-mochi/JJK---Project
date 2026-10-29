@@ -1,0 +1,176 @@
+{
+  "registro": 114,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-114/output/pdf/Ciclo-Maldito-Capitulos-6-e-7-e-Arata-Revisao-Textual.pdf",
+  "pdf_sha256": "300a7f211c1d05def297137b036689e2c5f9f6889eb07511e1ab70558a63eb25",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral dos capítulos 6–7 e do caso original, seguida de revisão.",
+      "alteracoes_registradas": 35
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das 17 páginas da primeira prova; oito ajustes e releitura dos trechos alterados.",
+      "alteracoes_registradas": 8
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-01.png",
+      "imagem_sha256": "373bc1911d4d90a59f40e81f6fc85d7ec5d41fc1f8bae015270981dd75763119",
+      "pixels_sha256": "3cc56d57d2173de22fcd8b0cf5695db8fa11b4cd6d60121b4e9284299933a0b9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: abertura e orientações legíveis, sem corte ou sobreposição visível."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-02.png",
+      "imagem_sha256": "836bad5cd9981d0226e7307a4a787b1bcb1c05727b19960a6cedc4f539efbc29",
+      "pixels_sha256": "d35cd6c8ea338fa04b46f816cc36069f64be8d8d68761e2ab7f57d4fa2f806b1",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: tabelas e texto cabem nas colunas; hierarquia de títulos preservada."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-03.png",
+      "imagem_sha256": "ad1e81cc2d80e050be6291f4cd36d6b531faff889e6d2dead11ce1e20ca5bd55",
+      "pixels_sha256": "a231cbe5bdb7fdc23634b6a27c78f6d0421363222c8be7a96203c0d91e4a7eb4",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: continuidade de leitura e apresentação das referências legíveis."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-04.png",
+      "imagem_sha256": "88c2c98abdec80e6a03f4fd409677d96e91d21d0d6d60e9ca8f0abbf30e67bc6",
+      "pixels_sha256": "b43ac66b132a2b31a3e1a5ed02c29ca62b310c3fa0a52bc7f112b61288bcfbe0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: texto, consultas e tabelas sem transbordamento visível."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-05.png",
+      "imagem_sha256": "3f0b9c3c91b96181c036b280512426896a0bfbe58a38421523398fd313784967",
+      "pixels_sha256": "a0ed418d5f99c0a6fbd311953ef83f745b093ed749642f335e2669e769eaa071",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: colunas e títulos legíveis; referências continuam identificadas como experimentais."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-06.png",
+      "imagem_sha256": "3f4dcd294031b43b2aef723f78abf168fe971c7936af89da7b5a7e778fb14f5c",
+      "pixels_sha256": "9c1312b16bbaf76298e3e8a41459047891d44997015f158bdd7636fdf94e5039",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Capítulo 6: fluxo e espaçamento conferidos, sem elemento sobreposto."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-07.png",
+      "imagem_sha256": "6200b3dc1f8418a8ce74ac168420d6b0f05d50fa2b27d5279a1eed7cbac5b8bc",
+      "pixels_sha256": "93d555bfd0f2217949b454060925257b6f4098388c3adae520eb7c7b1cb83fea",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Final do capítulo 6: espaço remanescente de fim de capítulo; redistribuição reservada à integração."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-08.png",
+      "imagem_sha256": "d92e71c0247929b4e3fac6d32451ea2c26350f1ae5167a4b3938e1573f3622c0",
+      "pixels_sha256": "c422c64c441d67d8f8a9f2796ef1078b0580fa1fc969c376653362c4d4589e91",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Abertura do capítulo 7; título e colunas legíveis. A abertura do Receptáculo foi mantida inteira na página seguinte."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-09.png",
+      "imagem_sha256": "c1f163c29681493812ff669f66d27cefc03be68c45fc03c18a3060d769bf210d",
+      "pixels_sha256": "b725b856186c0fcaad25745045c882b4d5f92cf1acc0146f37f2b6745453126d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Receptáculo e Encarnado: aberturas reunidas e papel do jogador explícito; texto legível."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-10.png",
+      "imagem_sha256": "21f95fc2373656bb11b1b63f93626e390eb8aac8dce183ba90c38dab21ec83c2",
+      "pixels_sha256": "30b8cb90f47b3f50b61bc5ea8bc72ce8a457d4d365c4d86a18096c966efab03c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; pixels idênticos após os ajustes nas páginas posteriores",
+      "observacao": "Cuidados e personalização: tabela legível; Reserva limitada aos campos publicados, sem parâmetros descartados."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-11.png",
+      "imagem_sha256": "b7c313d2f599228fdd7ac7180b3c2a078e0868b74d1f2f7b587e041fad7d98af",
+      "pixels_sha256": "488cb93f815f1ef8ab1430984acea97bfbc19f07e692f3fcc78e660e8a9e8ddc",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Capacidades: tabela e lista de conferência legíveis. Toque passa inteiro à página 12, sem separar a montagem corrigida."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-12.png",
+      "imagem_sha256": "5e21c6c166e32b818a1d6cf896b14f15317d86fd9638a26accfa42be160680d8",
+      "pixels_sha256": "bf212aa96e1669b9e401eb50dce7b32ff8ce6d82439cf250e9840d776bef80d3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Toque inteiro na coluna esquerda; comparação de Máximas ocupa a largura da página. Exemplos numéricos começam juntos na página seguinte."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-13.png",
+      "imagem_sha256": "e74fc50211d2bba74043733bed9f7a6cfefddbe4f38314289c021b813f834e02",
+      "pixels_sha256": "4e773a95c8b932040e0e80946c00466523283f3b829914abc82f7c7a9ede7ac4",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Exemplos de Liberação e Técnica Máxima sem quebra interna entre páginas; Domínio e CE4 distribuídos sem título isolado."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-14.png",
+      "imagem_sha256": "e20ad5575230c4d996bc212aec005be40db3a1943531703e99c28e26f54c59d2",
+      "pixels_sha256": "5fecff4a005dea47c2eef2354e60c07a5a4e8fab867bf8e8408f4646f90681ef",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Registro e acompanhamento: tabela legível e exemplo de subida inteiro. Espaço final de capítulo será reavaliado na integração."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-15.png",
+      "imagem_sha256": "125586401ffc1988e3aa68bf61e8095a2b1930628647cc3bdfee6d9cbad02042",
+      "pixels_sha256": "7549b3dbbe800f9f0c205abb38455be3da4b9f688bb239f61808a88e0056433d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Arata: comparação de vida em tabela larga; contas sem quebra e indicação de variante e proposta."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-16.png",
+      "imagem_sha256": "13c1da22a86921ed276342fb333e4a63cba463c1f89e0adb22c6556d6ee5c8c2",
+      "pixels_sha256": "81d28e20c88cbb47b41dee2f321d8ece0b55c1715a04ca3c979cd104486e86f9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Arata: tabela de escolhas e duas menores legíveis. Preparação do teste passa inteira à página seguinte."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-114/pagina-17.png",
+      "imagem_sha256": "4d9e11ab487ff58c06c208a31a2de65efa8baa8e91206c94aa5dc22c3f6c6322",
+      "pixels_sha256": "6f4e68a24afc62ca5c707f1a72abfdb2b8a56b9fb3680cd7b74df5a92fb52408",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após a última alteração",
+      "observacao": "Arata: preparação, quatro passos do exemplo e estado final legíveis; espaço de encerramento da consulta."
+    }
+  ],
+  "limites": [
+    "Prova parcial da etapa 6; não conclui a revisão visual do livro integrado nem sua comparação com o livro-base.",
+    "Sem terceira leitura integral, teste humano ou novo equilíbrio demonstrado."
+  ]
+}

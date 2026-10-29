@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Registro e revisão
+Guarde junto da ficha: a aquisição por espaço;
+atributos e escolha de Defesa de Tala; Famílias;
+uma básica e as duas especiais com suas Classes
+conhecidas; versões ampliadas permitidas; texto
+integral do talento proposto; avaliação e condições
+de uma eventual aprovação. Na guilda, outro mestre
+precisa conseguir distinguir a proposta em
+avaliação de um poder aceito para aquela ficha.
+Ao usar em mesa, anote se o retrato permitiu
+apenas conservar o que foi visto ou se surgiram
+pedidos de informação adicional; se registrar e
+exibir disputaram a básica com outras tarefas; e
+quais requisitos das agulhas geraram dúvida. Anote
+também vida atual, Integridade, condições e
+recursos gastos. As tabelas de evolução apresentam
+máximos, não uma declaração de que a criatura está
+recuperada.
+Para avaliar outra entidade, use o mesmo caminho:
+função, aquisição, corpo, números, Famílias,
+habilidades, situações de uso e evolução. Uma
+habilidade com texto curto ainda precisa ter
+resultado, custo e limite claros.
+Consulta do Livro de Regras 1.0: atributos,
+progressão, Famílias, especiais, efeitos reduzidos,
+características próprias e ampliação.
+9.12 · Transporte com
+entidades
+Exemplo experimental para a pré-1.0. Use esta
+seção para conferir uma entidade de transporte,
+transportar passageiros e resolver o que permanece
+quando o invocador deixa de agir. As regras gerais
+vêm do Livro de Regras 1.0. A Mula de dobra e seu
+talento de transporte são uma proposta original do
+Guia, não uma autorização automática para toda
+criatura grande carregar pessoas.
+O que precisa caber na ficha
+Uma entidade pode segurar objetos com as mãos e
+vestir equipamento compatível. Sem mãos, não
+recebe automaticamente a capacidade de segurar:
+outro meio precisa estar previsto na ficha. Para
+transportar carga adicional ou personagens, precisa
+de uma característica própria que ocupe um de
+seus talentos. Descreva a acomodação, o número de
+passageiros, a capacidade e o custo de Movimento.
+A capacidade usa 5 + Força, em Volume. Volume
+considera peso, tamanho e dificuldade de
+transporte. Não crie duas reservas independentes: o
+equipamento da entidade e o que ela transporta
+entram na mesma conta. Força alta não fornece
+compartimentos nem uma sela por si.
+Para o corpo de uma pessoa, divida a massa em
+quilogramas por 12. Depois some o Volume dos
+itens que ela leva, o equipamento da entidade e as
+outras cargas. A conversão por massa vale para
+corpos; itens usam seu Volume tabelado ou
+previamente definido. Uma bolsa entregue ao
+passageiro continua na soma.
+A Mula de dobra
+Ren, nível 2, possui uma técnica que cria animais de
+papel. Usa um espaço conhecido válido para esta
+entidade. Tem Maestria 1 e escolheu Essência para
+a Defesa de suas entidades; sua Essência atual é 2.
+A Mula é um shikigami de técnica Grande, com
+alma, quatro patas, boca e o dorso largo necessário
+à acomodação de um passageiro. Não tem mãos.
+Possui visão e audição comuns; entende ordens
+faladas de Ren e responde por movimentos e ruídos.
+Caminha 9 m. Não voa, atravessa paredes,
+compartilha visão ou fala por telepatia.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+3
+1
+3
+1
+1
+Campo
+Valor no nível 2
+Vida máxima
+5 + 3 + (3 + 3) × 1 = 14 PV.
+Integridade máxima
+Metade de 14 = 7.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+284

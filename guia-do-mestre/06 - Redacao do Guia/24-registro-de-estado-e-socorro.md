@@ -1,6 +1,6 @@
 # Registro de estado e socorro
 
-Use como apoio à ficha durante a missão e na passagem entre mestres. Os procedimentos estão em [Acompanhar recursos](21-acompanhar-recursos.md), [Quedas e socorro](22-quedas-e-socorro.md) e [Retirada e recuperação](23-retirada-e-recuperacao.md).
+Use como apoio à ficha durante a missão e na passagem entre mestres. Consulte as regras em [Acompanhar recursos](21-acompanhar-recursos.md), [Quedas e socorro](22-quedas-e-socorro.md) e [Retirada e recuperação](23-retirada-e-recuperacao.md).
 
 ## Estado atual
 
@@ -30,7 +30,7 @@ Use como apoio à ficha durante a missão e na passagem entre mestres. Os proced
 
 ## Se houver queda em andamento
 
-**Causa:** vida a zero, Integridade a zero ou outra. Conferir primeiro o procedimento aplicável.
+**Causa:** vida a zero, Integridade a zero ou outra. Conferir primeiro a regra aplicável.
 
 **Máximo de vida de referência da queda:**
 

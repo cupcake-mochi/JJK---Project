@@ -1,0 +1,96 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Exemplo: Mei cai com máximo de referência 23,
+sem Sequelas, e escolhe Insistir pela primeira vez
+na cena. Seu tratamento é 8, considerando Classe 1.
+Recebe 5 de cura: continua a zero, com 5 de
+tratamento acumulado. O grupo derrota o inimigo,
+mas Mei ainda precisa de socorro. Encerrar os
+ataques não completa os 3 pontos que faltam nem
+apaga o prazo em andamento. Use Quedas e
+socorro (p. 73) para resolver a continuidade.
+Mostre o perigo e prepare saídas
+Mostre o que permite ao grupo reconhecer o
+perigo. Marcas de golpe, uma posição de tiro e o
+gesto necessário à conjuração ajudam a escolher
+aproximação, cobertura ou retirada. Descrever um
+gesto durante a ação não concede, por si, uma
+interrupção gratuita. Uma capacidade que anuncie
+um ataque para um momento futuro precisa definir
+esse intervalo e o que pode alterá-lo.
+Prepare como a criatura escolhe alvos e quando
+muda de conduta. Registre se persegue, foge, aceita
+negociar ou abandona um objetivo. Deixe claro o
+que o grupo consegue perceber e o que ainda
+precisaria descobrir. Uma saída fisicamente
+acessível pode exigir Desengajar, transporte de um
+companheiro ou outra ação para ser usada sob
+ameaça.
+Para grandes confrontos, comece por essa mesma
+leitura. Fases, partes destrutíveis e ações fora do
+turno exigem regras próprias. Trocar a descrição ao
+perder metade da vida não autoriza recuperar
+recursos, remover condições ou ganhar outra
+iniciativa. A importância do antagonista na história
+não concede essas permissões.
+Antes e depois do encontro
+Antes da sessão, deixe disponíveis a ficha completa,
+o lugar, as prioridades, os recursos iniciais, os
+sinais e os desfechos possíveis. Se houver perigos
+do ambiente, registre seus gatilhos e resolução
+separadamente. Um incêndio descrito no cenário só
+causa o dano recorrente que uma regra definida
+estabelecer.
+Depois, registre duração, quedas, participação
+durante Insistir, socorros, retirada e estado final.
+Anote o que veio dos dados, do terreno, das
+escolhas e de uma dúvida de regra. Compare com
+sua previsão para revisar o próximo preparo.
+Se uma boa solução abreviar o confronto, resolva o
+resultado. Acrescentar vida ou uma imunidade
+durante a luta para prolongá-la retira o efeito
+daquela escolha. Se houver erro na ficha ou na
+aplicação de regra, esclareça o problema e combine
+sua correção; registre o que foi corrigido para a
+próxima mesa.
+Livro de Regras 1.0 para consulta: preparar uma
+missão, turnos, Bloquear, Integridade, vida a zero e
+socorro.
+5.2 · PE, recarga e limites
+de uso
+Para ler ao criar ou adaptar uma ameaça. Esta
+seção continua Criar inimigos e preparar encontros
+(p. 82). Ensina a escolher o que limita uma
+capacidade. Os exemplos de alteração são
+experimentais; o Livro de Regras 1.0 e as fichas do
+piloto conservam suas regras. As comparações
+completas estão no registro 64.
+Primeiro, escolha a habilidade
+Antes de dar uma reserva de energia ao inimigo,
+defina o que ele faz e como o grupo pode responder.
+Uma capacidade pode ser usada livremente, exigir
+uma condição, precisar de preparo ou ter um limite
+próprio. Ter energia amaldiçoada não significa
+pagar pontos de energia em toda ação: Canalizar
+Energia, por exemplo, não cobra esse gasto no
+Livro de Regras 1.0.
+Pontos de energia, ou PE, são uma reserva que
+algumas capacidades consomem. A reserva mostra
+quanto o inimigo ainda pode gastar. Um intervalo
+diz quando uma capacidade pode voltar. Uma
+condição de uso diz o que precisa estar
+acontecendo para executá-la. Essas funções podem
+aparecer separadas ou combinadas, conforme a
+ficha.
+Não acrescente todos os controles por precaução.
+Use apenas os limites que fazem diferença na luta e
+que valem o trabalho de acompanhar. Conservar
+um feitiço publicado exige respeitar suas regras;
+substituir seu preço por outro limite é uma
+adaptação, que precisa ser identificada e conferida.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+86

@@ -1,14 +1,14 @@
-# Base pequena de inimigos para o piloto da R53
+# Base pequena de inimigos para o piloto do Livro de Regras 1.0
 
 Versão piloto 1, de 21 de outubro de 2026. Três maldições originais para desenvolver e avaliar exemplos do Guia, autorizadas por Mizuki. Os números novos são propostas de trabalho desta base. O Bestiário antigo não foi usado como referência numérica.
 
-O encontro principal de [As batidas no anexo](13-piloto-editorial-ocorrencia-sobrenatural.md) usa **um Amontoado do depósito**. A referência inicial é um grupo de três personagens de nível 2, com fichas válidas da R53, recursos disponíveis e sem Sequelas. A [verificação](15-verificacao-da-base-e-do-piloto.md) mostra também condições diferentes. A escolha não estabelece uma dificuldade universal por nível ou Grau.
+O encontro principal de [As batidas no anexo](13-piloto-editorial-ocorrencia-sobrenatural.md) usa **um Amontoado do depósito**. A referência inicial é um grupo de três personagens de nível 2, com fichas válidas do Livro de Regras 1.0, recursos disponíveis e sem Sequelas. A [verificação](15-verificacao-da-base-e-do-piloto.md) mostra também condições diferentes. A escolha não estabelece uma dificuldade universal por nível ou Grau.
 
-## O que vem da R53 e o que está sendo proposto
+## O que vem do Livro de Regras 1.0 e o que está sendo proposto
 
 Aplicam-se as regras atuais de turnos, testes, ataques, Bloquear, crítico, dano, Integridade, socorro e derrota. O nível 2 fornece Maestria 1; ataque físico usa Força, a Defesa sem proteção usa Destreza e as conjurações usam o atributo registrado. As montagens ofensivas de Classe 1 têm três pontos, custo de 3 PE e nenhuma Melhoria ou Restrição: os três pontos viram 3d8. Toque não produz um quarto dado quando não há Melhoria paga para recuperar.
 
-**Escolhas novas desta base:** os totais de vida, as reservas de PE dos inimigos, as distribuições de atributos, treinos, anatomias e comportamentos. A R53 não fornece aqui uma fórmula geral de vida ou orçamento de inimigo que justifique esses totais como escala oficial. Eles serão avaliados para estes exemplos. Os nove pontos de atributos e o conjunto restrito de perícias são escolhas de organização desta base; não impõem um construtor universal aos inimigos futuros.
+**Escolhas novas desta base:** os totais de vida, as reservas de PE dos inimigos, as distribuições de atributos, treinos, anatomias e comportamentos. O Livro de Regras 1.0 não fornece aqui uma fórmula geral de vida ou orçamento de inimigo que justifique esses totais como escala oficial. Eles serão avaliados para estes exemplos. Os nove pontos de atributos e o conjunto restrito de perícias são escolhas de organização desta base; não impõem um construtor universal aos inimigos futuros.
 
 O nível das fichas serve aos efeitos que comparam nível, inclusive aquisição. Ele não concede patente nem garante equivalência a um personagem jogador. **Integridade dos inimigos = metade da vida máxima, para baixo**, conforme Dano na alma. Os estágios de Integridade se aplicam; o aumento de custo das conjurações pode reduzir a quantidade de usos disponíveis.
 
@@ -20,9 +20,9 @@ Os quadros abaixo e as conversões são gerados da mesma [fonte de produção](a
 - Podem usar as ações gerais que sua anatomia e percepção permitirem. Agarrar, Derrubar e Empurrar substituem o ataque da Ação Atacar e não causam o dano da Pancada. Precisam cumprir alcance, tamanho e requisitos de mãos.
 - Bloquear é gratuito, escolhido antes do ataque e não gasta Reação. Aparar e Brecha conservam seus gatilhos e custos; um revide usa a Pancada, nunca a conjuração sem permissão.
 - Têm visão e audição comuns. Não têm visão no escuro, percepção através de paredes, voo, teleporte ou capacidade de atravessar objetos. Compreendem frases simples no idioma usado pelo grupo; comunicam-se por gestos e ruídos, sem fala ou telepatia.
-- Têm alma. Não recebem resistência, vulnerabilidade, imunidade ou Redução de Dano adicional por esta ficha. A aparência não concede imunidades a condições. Energia Reversa contra maldições conserva os requisitos e a resolução da R53.
+- Têm alma. Não recebem resistência, vulnerabilidade, imunidade ou Redução de Dano adicional por esta ficha. A aparência não concede imunidades a condições. Energia Reversa contra maldições conserva os requisitos e a resolução do Livro de Regras 1.0.
 - Não carregam equipamento nem possuem Ofícios. Sua forma permite segurar objetos compatíveis, abrir portas comuns e executar o Selo descrito. Uma mão ocupada numa contenção não fica livre para outra exigência.
-- Ao chegar a zero de vida ou de Integridade, são derrotados. Não escolhem Insistir nem recebem janela de socorro de personagem jogador. O desfecho respeita a intenção da ação e os procedimentos de aquisição e destruição pertinentes.
+- Ao chegar a zero de vida ou de Integridade, são derrotados. Não escolhem Insistir nem recebem janela de socorro de personagem jogador. O desfecho respeita a intenção da ação e as regras de aquisição e destruição.
 
 **Leitura, Talento CE1 presente nas três fichas:** identifica Classe e Forma de feitiços conjurados a até 18 m. Não revela montagem, pensamentos ou alvos ocultos. Não causa dano, não concede ação e não faz uma reação acontecer sem gatilho.
 
@@ -38,7 +38,7 @@ Os quadros abaixo e as conversões são gerados da mesma [fonte de produção](a
 
 Um corpo pequeno de papel amassado, com duas pernas, dois braços e mãos articuladas. Procura abrigo e golpeia quem o encurrala.
 
-Demonstra uma ameaça frágil. Pode ser usado sozinho numa ocorrência menor. Dois exemplares permitem observar o efeito de haver mais turnos inimigos. Não aparece junto do Amontoado no encontro principal do piloto.
+Demonstra uma ameaça frágil. Pode ser usado sozinho numa ocorrência menor. Dois exemplares permitem observar o efeito de haver mais turnos inimigos. Não aparece junto do Amontoado no encontro principal de As batidas no anexo.
 
 **Tamanho:** Pequeno. **Iniciativa:** d20 + 3.
 
@@ -60,7 +60,7 @@ Demonstra uma ameaça frágil. Pode ser usado sozinho numa ocorrência menor. Do
 
 Uma figura de papelões dobrados e fitas, com duas pernas e dois braços terminados em mãos. Acumula caixas no depósito e as empurra com o corpo; os ruídos vêm dessas ações.
 
-É o inimigo do piloto. Primeiro observa a invasão do seu espaço. Quando atacado ou quando alguém tenta desmontar sua pilha, combate a criatura consciente mais próxima; em empate, prioriza quem o atacou por último. Não golpeia pessoas inconscientes. Pode perseguir dentro do anexo, mas não sai dele nesta ocorrência. Essa preferência não torna a área externa uma barreira.
+É o inimigo de As batidas no anexo. Primeiro observa a invasão do seu espaço. Quando atacado ou quando alguém tenta desmontar sua pilha, combate a criatura consciente mais próxima; em empate, prioriza quem o atacou por último. Não golpeia pessoas inconscientes. Pode perseguir dentro do anexo, mas não sai dele nesta ocorrência. Essa preferência não torna a área externa uma barreira.
 
 **Tamanho:** Médio. **Iniciativa:** d20 + 1.
 
@@ -86,7 +86,7 @@ Com a reserva inicial de 6 PE, são no máximo dois usos pelo custo normal. Os P
 
 Uma figura estreita de madeira e papel, com dois braços, mãos articuladas e duas pernas. Dispara farpas pela sua técnica e procura conservar distância.
 
-Demonstra uma ameaça à distância. Com PE, dispara; sem PE suficiente, pode Desengajar, recuar ou usar a Pancada se for alcançado. Não tem projétil gratuito nem ataques adicionais. Não aparece no encontro principal do piloto.
+Demonstra uma ameaça à distância. Com PE, dispara; sem PE suficiente, pode Desengajar, recuar ou usar a Pancada se for alcançado. Não tem projétil gratuito nem ataques adicionais. Não aparece no encontro principal de As batidas no anexo.
 
 **Tamanho:** Médio. **Iniciativa:** d20 + 3.
 
@@ -110,9 +110,9 @@ Com a reserva inicial de 6 PE, são no máximo dois usos pelo custo normal. Os P
 
 ## Conversões conhecidas para maldições domadas
 
-Estas conversões permitem mostrar o resultado antes de uma tentativa de submissão. Elas mantêm identidade e funções dentro da escala de Construir invocações. Não transferem a vida ampliada do encontro nem o orçamento pessoal de Fundamento. A aquisição exige nível permitido, derrota sem destruição e o TR Espírito previsto na R53. O sucesso no TR exorciza; a falha permite domar. Não se repete a tentativa sobre o mesmo alvo até conseguir uma falha.
+Estas conversões permitem mostrar o resultado antes de uma tentativa de submissão. Elas mantêm identidade e funções dentro da escala de Construir invocações. Não transferem a vida ampliada do encontro nem o orçamento pessoal de Fundamento. A aquisição exige nível permitido, derrota sem destruição e o TR Espírito previsto no Livro de Regras 1.0. O sucesso no TR exorciza; a falha permite domar. Não se repete a tentativa sobre o mesmo alvo até conseguir uma falha.
 
-**Regras comuns da conversão:** conservam nível 2, atributos, tamanho, anatomia, comunicação, sentidos, deslocamento e Leitura. Usam a Maestria do invocador. A Defesa sem equipamento é **10 + Destreza da entidade + metade da Essência ou Inteligência escolhida pelo invocador, para baixo**. Denominaremos essa última parcela **B** e a Maestria **M**. Conservam o TR treinado e as perícias indicadas; substitua o +1 de treino por M. Outros TRs usam apenas o atributo da criatura.
+**Regras comuns da conversão:** conservam nível 2, atributos, tamanho, anatomia, comunicação, sentidos, deslocamento e Leitura. Usam a Maestria do invocador. A Defesa sem equipamento é **10 + Destreza da entidade + metade da Essência ou Inteligência escolhida pelo invocador, para baixo**. Chamaremos essa última parcela de **B** e a Maestria **M**. Conservam o TR treinado e as perícias indicadas; substitua o +1 de treino por M. Outros TRs usam apenas o atributo da criatura.
 
 | Domada | Vida máxima | Integridade | Defesa | Ataque da básica | Reserva própria máxima |
 |---|---|---|---|---|---|
@@ -134,12 +134,12 @@ Famílias abertas e Livre para cada conversão:
 
 Os máximos da conversão não restauram reservas nem removem a queda. Registre valores atuais sem exceder os novos máximos e aplique Queda e destruição e Retorno e corpos caídos quando pertinentes. Cura comum de entidade não funciona a zero de vida. A aquisição não permite voltar à cena ignorando os custos de entrada ou retorno.
 
-**Antes do golpe final para aquisição:** a R53 manda conferir destruição. Uma ocorrência direta que alcance a vida máxima ou cujo excedente além de zero supere metade da máxima destrói a entidade; dano em área não destrói por si. No Amontoado, os limites de referência do encontro são 48 e metade 24; igualar o excedente de 24 não é superar. Essa conferência usa a ficha do encontro, antes da conversão. A equipe deve conhecer essa diferença ao tentar capturar.
+**Antes do golpe final para aquisição:** o Livro de Regras 1.0 manda conferir destruição. Uma ocorrência direta que alcance a vida máxima ou cujo excedente além de zero supere metade da máxima destrói a entidade; dano em área não destrói por si. No Amontoado, os limites de referência do encontro são 48 e metade 24; igualar o excedente de 24 não é superar. Essa conferência usa a ficha do encontro, antes da conversão. A equipe deve conhecer essa diferença ao tentar capturar.
 
 ## Uso e revisão
 
-Use o Amontoado isolado no piloto. Os outros dois inimigos fornecem comparações; reuni-los com ele cria outro encontro. Não multiplique vida ou ataques silenciosamente para compensar decisões boas do grupo. Para outros tamanhos de equipe, faixas de nível, reservas já gastas ou composições com entidades, reavalie o encontro usando as fichas reais.
+Use o Amontoado isolado em As batidas no anexo. Os outros dois inimigos fornecem comparações; reuni-los com ele cria outro encontro. Não multiplique vida ou ataques silenciosamente para compensar decisões boas do grupo. Para outros tamanhos de equipe, faixas de nível, reservas já gastas ou composições com entidades, reavalie o encontro usando as fichas reais.
 
-Registrar em jogo: recursos iniciais, duração até neutralizar a ameaça, quedas, ações durante Insistir, socorros, retirada, dúvidas de regra e estado no encerramento. Números conferidos ou simulados não equivalem a teste de mesa realizado.
+Registre em jogo: recursos iniciais, duração até neutralizar a ameaça, quedas, ações durante Insistir, socorros, retirada, dúvidas de regra e estado no encerramento. Números conferidos ou simulados não equivalem a teste de mesa realizado.
 
-Referência principal: [texto completo da R53](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md>), em Atributos, Turnos, Ataques, Dano na alma, Vida a zero, Fundamento, Invocações em campo e Construir invocações. O [relatório de verificação](15-verificacao-da-base-e-do-piloto.md) registra os cálculos, hipóteses e limites.
+Referência principal: [texto completo do Livro de Regras 1.0](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md>), em Atributos, Turnos, Ataques, Dano na alma, Vida a zero, Fundamento, Invocações em campo e Construir invocações. O [relatório de verificação](15-verificacao-da-base-e-do-piloto.md) registra os cálculos, hipóteses e limites.

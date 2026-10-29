@@ -1,0 +1,160 @@
+{
+  "registro": 119,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-119/output/pdf/Ciclo-Maldito-Energia-Habilidades-e-Chefes-Revisao-Textual.pdf",
+  "pdf_sha256": "6c6392f4f1385cfdd40538a75a0b1cc1151c3616c87c2e815c1448e8bbe4af85",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 56,
+      "escopo": "Leitura integral das cinco fontes; cinco cópias/remissões, 48 ajustes e três remissões ao método atual."
+    },
+    {
+      "passagem": 2,
+      "registros": 20,
+      "escopo": "Leitura das 18 páginas da primeira prova; 17 ajustes e três subtítulos relidos após inspeção."
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-01.png",
+      "imagem_sha256": "820c237ac62bdfbb57b41b674afd7e1c3a7b4eac3e17adfea2a8888584711580",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Abertura e escolha do limite: corpo, títulos e quadro largo legíveis."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-02.png",
+      "imagem_sha256": "95720cb01de8b911fc91e6fe29edd78451e2370fa1eafed467ba116b75a07eef",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Preparo e reserva disputada: exemplos e custos legíveis; fluxo em duas colunas sem sobreposição."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-03.png",
+      "imagem_sha256": "416be564e0a5b5acacb4ebd9724238bf19bdb13eec9daf0fb401f7470ddfdb25",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Fechamento de limites e começo de habilidades no mesmo fluxo; títulos e aviso experimental distintos."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-04.png",
+      "imagem_sha256": "233d04b5c8f84248b0d4e9272ab56b997d2636752a89da5e09b245f0ef2b19c9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Conservar, adaptar ou criar: quadro, explicação dos tipos e custos legíveis."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-05.png",
+      "imagem_sha256": "cd91a724ef8646f85efbc3b4c004d712430029ff19924cf04bd32cdcdd8c8dbf",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Custo dispensado e interações: tabela larga, linhas completas e nota sobre Contramedida em largura inteira."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-06.png",
+      "imagem_sha256": "40bde5e0858e570d9ec31600bcc0b887ecc62fc50ee02da4a7547386db974afd",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Três exemplos: subtítulos curtos, fórmula da CD inteira e requisitos completos; sem cabeçalho isolado."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-07.png",
+      "imagem_sha256": "7340ee81cbe70140bc3117434a4360d43c2136496590b6d9ee71c3da2311980d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Números: abertura em largura inteira e quadro de funções; espaço antes da tabela seguinte preserva o quadro completo."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-08.png",
+      "imagem_sha256": "afb8503effe2a52cadee836752a1b8866bc19ce5c1512b6bda3d59a34ffd8b6f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Fórmulas e valores iniciais: tabelas legíveis; origem dos candidatos continua como texto corrido."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-09.png",
+      "imagem_sha256": "2464342dd50a8d935efe3edcd07f7ab837a44d463ac6764173fbab486c6ee836",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Comparação entre Carregador e Sineiro inteira; precisão e sobrevivência com cabeçalhos e porcentagens legíveis."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-10.png",
+      "imagem_sha256": "08658c1528b372fb5433e52b0fb2d6ae89c972ff83ddd50c1c4dab4d140dcf91",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Remissão às outras faixas em largura inteira, reduzindo espaço lateral; dano, condições e frequência legíveis."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-11.png",
+      "imagem_sha256": "4df5b88a4138224759478d7f5cadd43d9b80841775a24fae98a99ba5415d927b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Fechamento de números e início de outras faixas; perfis, atributos e hipótese de comparação legíveis."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-12.png",
+      "imagem_sha256": "7717398c6438d1679959fa307b5f51d0aa8190260a562c5889513d3e195d4520",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Tabelas de sete e seis colunas: números e rótulos legíveis, sem corte de linhas; conjuntos não apresentados como rodadas."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-13.png",
+      "imagem_sha256": "b64cef322c92a58d287cd47cd46f985775f0dd5ed3884386f73d9330c9228ec8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Duro de Matar, apoio e Alma em blocos legíveis; consulta por faixa em largura inteira."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-14.png",
+      "imagem_sha256": "e5af6b013014c19997d1f414a4dcdf931bb8374303031733896d785d7da07d20",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Limites da comparação e começo de chefes no mesmo fluxo; título e introdução legíveis."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-15.png",
+      "imagem_sha256": "09573045594556dd49922c8844fc73ca07722f89cc0ee474e9f381a0269eeb1f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Ajustes de confronto e ações fora do turno: dois quadros largos, sem linhas cortadas."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-16.png",
+      "imagem_sha256": "b39af5c6a6031ea766c386fa7feae766109ae6b6a32a797ff29155beece2519f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Sinal, tempo de resposta e fases: exemplo de iniciativa inteiro; quadro de mudanças legível."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-119/pagina-17.png",
+      "imagem_sha256": "00f6fa8991d98df02071364e9eadc39a53c69db674f2f6adca01ee690b39d97a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 3; imagem final idêntica",
+      "observacao": "Continuidade, derrota, partes e aliados: fechamento legível, com espaço final de conjunto."
+    }
+  ],
+  "limites": [
+    "Duas passagens completas e releitura dos refinamentos; sem leitor humano independente.",
+    "Espaços antes de quadros inteiros serão reavaliados na integração.",
+    "Não encerra a revisão visual global ou a comparação do livro completo."
+  ]
+}

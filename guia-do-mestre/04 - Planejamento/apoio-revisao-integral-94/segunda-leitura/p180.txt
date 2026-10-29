@@ -1,0 +1,80 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+ou permitir uma repetição seria outro acordo, que
+precisaria ser declarado.
+A campanha começa no nível 2. Kaori é Bastião e
+tem Constituição 2. Ela registra 9 no dado do
+primeiro nível e 4 no segundo. Mais tarde, tira 10 ao
+chegar ao nível 3.
+Momento
+Método fixo do Livro de Regras 1.0
+Variante declarada neste exemplo
+Nível 1
+12 + 2 = 14 PV
+9 + 2 = 11 PV
+Nível 2
+14 + 7 + 2 = 23 PV
+11 + 4 + 2 = 17 PV
+Nível 3
+23 + 7 + 2 = 32 PV
+17 + 10 + 2 = 29 PV
+As colunas são uma comparação, não duas reservas
+entre as quais escolher. Kaori da campanha rolada
+usa 29. Outra sequência poderia superar o resultado
+fixo; a variação é parte da opção. Na guilda, registre
+qual método é aceito e como conferir os dados, para
+que um mestre não refaça a decisão de outro a cada
+missão.
+Subir de nível não é descansar. Kaori estava com 7
+de seus 17 PV. Sem a permissão de recuperação
+completa, o aumento de máximo é 12; seu saldo
+passa a 7 + 12 = 19 de 29, conservando os 10 PV que
+faltavam. Se estivesse a zero, continuaria a zero e
+precisaria de socorro.
+Se Constituição aumentar permanentemente para
+3, mantenha os dados 9, 4 e 10 e recalcule a
+contribuição do atributo nos três níveis: 9 + 4 + 10 +
+3 × 3 = 32 PV máximos. Não role novamente os
+níveis antigos. O ajuste do saldo depende de como
+ocorreu a mudança, conforme Conferir
+personagens (p. 171) e Progressão; o novo máximo
+não é uma cura automática.
+A família Arata
+Exemplo original sujeito à aprovação da mesa. A
+família conserva arquivos de manutenção de locais
+usados pelo meio jujutsu. Sua formação valoriza
+registros, cuidados com o trabalho e compromissos
+de serviço. Alguns membros trabalham em campo;
+outros atendem oficinas e arquivos. Isso não
+concede acesso a qualquer documento nem
+determina uma técnica hereditária.
+Ren quer investigar problemas em instalações e
+negociar com seus responsáveis. O mestre e o
+jogador escolhem esta combinação de Origem:
+Parte
+Escolha do exemplo
+Origem e rota
+Descendente; Fundamento. A técnica terá sua própria montagem.
+Base
+Conserva a base publicada do Descendente, sem acrescentar vagas. História
+é a perícia da Origem; Investigação é a livre. Ofícios: Forja e Alfaiate. TR da
+Origem: Intelecto.
+Conferência com o Caminho
+Vanguarda: Acrobacia e Percepção são os treinos fixos; o TR escolhido é
+Físico, com Destreza. As cinco perícias livres do Caminho precisam ser
+distintas das já recebidas.
+Marcante
+Modalidade publicada Kamo: Execução Ensaiada e Contingência Estudada,
+integralmente, com seus estoques separados. O nome Arata não concede
+outra marcante.
+Duas menores propostas
+Consulta Preparada e Conferência de Oficina, descritas abaixo.
+Traço e relações
+Ren procura uma antiga responsável por um arquivo. Essa ligação permite
+conversas; não concede equipamento, treino ou sucesso automático.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+180

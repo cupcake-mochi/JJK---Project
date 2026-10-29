@@ -1,0 +1,77 @@
+{
+  "registro": 114,
+  "capitulos": [
+    {
+      "id": "c06",
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "titulo": "Inimigos e perigos",
+      "sha256": "48564bb6f162e62539c7be60aa75d5f629d7db8a3404a30682380f843357a6ef",
+      "paginas_lidas_na_segunda_passagem": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "estado": "duas passagens locais; conferência global do livro pendente",
+      "paginas_na_prova_final": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "c07",
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "titulo": "Personagens e técnicas",
+      "sha256": "673cddfdc7de123108b8d8b7156f00222a2247f8e113a94056a4104ca79f7409",
+      "paginas_lidas_na_segunda_passagem": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "estado": "duas passagens locais; conferência global do livro pendente",
+      "paginas_na_prova_final": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "arata",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "titulo": "Vida rolada e uma família própria",
+      "sha256": "4ec35ca11403716b5a92b7cc2c2cd280de700fcccf170b56b859ac88aaafc9b8",
+      "paginas_lidas_na_segunda_passagem": [
+        15,
+        16,
+        17
+      ],
+      "estado": "duas passagens locais; conferência global do livro pendente",
+      "paginas_na_prova_final": [
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "prova_da_segunda_passagem": "04 - Planejamento/apoio-revisao-textual-114/prova-1/prova.pdf",
+  "prova_da_segunda_passagem_sha256": "9496bf5affeffcecbe024185bdcd78b263162e7dc70878504037b67685429148",
+  "escopo": "Leitura integral dos dois capítulos e do caso original, revisão, leitura das 17 páginas da primeira prova e releitura dos trechos alterados. Inspeção visual registrada separadamente.",
+  "limite": "Duas passagens locais; sem terceira leitura integral ou teste humano.",
+  "prova_final_sha256": "300a7f211c1d05def297137b036689e2c5f9f6889eb07511e1ab70558a63eb25"
+}

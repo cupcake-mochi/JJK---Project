@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+3.6 · Movimento, saltos e
+quedas
+Leia estes casos para preparar uma travessia e
+resolver o que acontece ao chegar ou perder o
+apoio. Eles complementam O cenário e as ideias
+dos jogadores (p. 58) e A passarela e o guincho (p.
+121). As situações são independentes desses pilotos.
+As regras e capacidades vêm do Livro de Regras 1.0.
+Posições, correnteza e riscos de piso são escolhas
+locais destes exemplos, anunciadas antes da
+tentativa. CD é a Classe de Dificuldade: igualar ou
+superar o número basta para passar. Os exemplos
+mostram apenas a parte da ficha usada em cada
+ação.
+Atravessar uma correnteza
+Um canal separa dois acessos de manutenção. A
+travessia mede 4,5 m. A água está livre de detritos;
+a correnteza exige controle, mas o trecho não foi
+classificado como terreno difícil. Há uma grade
+firme junto à margem inicial, 1,5 m adiante no
+sentido da corrente. Neste caso, ela permite
+segurar-se e manter a cabeça fora d'água.
+Aoi tem 9 m de movimento disponível, Atletismo +5
+e nenhum deslocamento próprio de natação. Cada
+1,5 m nadado consome 3 m: a travessia de 4,5 m
+exige 9 m de movimento. O mestre informa:
+“Atravessar a corrente pede Atletismo CD 14. Uma
+rolagem resolve este trecho. Se falhar, você gasta os
+nove metros reservados e é levado até a grade na
+margem inicial, 1,5 m adiante do ponto de partida no
+sentido da corrente. Fica segurando a grade, sem
+concluir a travessia. Não há dano adicional nesse
+desfecho.”
+Aoi escolhe tentar. Com dado 9, soma 9 + 5 = 14:
+cruza e termina no acesso oposto. Gastou o
+movimento, mas não uma Ação Padrão adicional
+pelo teste. Com dado 8, somaria 13 e terminaria na
+grade conforme a consequência anunciada. O grupo
+precisaria decidir como continuar a partir dali.
+A posição da grade e o gasto integral na falha
+pertencem a este obstáculo. Outra correnteza pode
+ter outro desfecho, apresentado antes do dado. Não
+peça mais dois testes só porque o canal ocupa três
+quadrados.
+Condição da travessia de 4,5 m
+Movimento necessário
+Natação comum, trecho regular
+3 trechos × 3 m = 9 m
+Deslocamento próprio de natação, trecho regular
+3 × 1,5 m = 4,5 m
+Natação comum, trecho difícil
+3 × 4,5 m = 13,5 m
+Deslocamento próprio de natação, trecho difícil
+3 × 3 m = 9 m
+Ter deslocamento próprio de natação retira o custo
+adicional de nadar; não elimina automaticamente a
+correnteza ou seu teste. Se os meios de Aoi
+mudarem, anuncie o custo e a consequência
+compatíveis antes de outra tentativa. Nadar
+também não permite respirar debaixo d'água.
+Saltar até um piso escorregadio
+Haru tem Força 1, Maestria 2 e treino com
+especialização em Atletismo: bônus 1 + 2 + 1 = +4.
+Tem 9 m de movimento disponível. Está a 3 m da
+borda de um vão de 6 m, com chegada no mesmo
+nível. O apoio de chegada está escorregadio. Um
+piso inferior livre fica 3 m abaixo, sob o vão; o
+mestre marca nele o espaço de chegada de uma
+eventual queda.
+Com impulso, o salto normal de Haru alcança 3 +
+1,5 × 1 = 4,5 m. A extensão de esforço permite
+tentar mais 1,5 m: 6 m, com Atletismo CD 14. O
+risco do piso foi definido como CD 18. Há os dois
+fatores, então é uma rolagem contra a maior CD:
+18.
+Antes da escolha, o mestre aponta o espaço de
+queda, sob a parte final do vão, a 4,5 m da borda de
+partida:
+“Você gasta três metros no impulso e reserva seis para
+o salto. No sucesso, chega em pé ao patamar oposto.
+Na falha, não firma a chegada e cai no espaço marcado
+do piso inferior, três metros abaixo. Os nove metros
+ficam gastos. Essa é a consequência combinada do
+esforço e do piso.”
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+62

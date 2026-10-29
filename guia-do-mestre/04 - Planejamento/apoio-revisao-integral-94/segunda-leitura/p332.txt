@@ -1,0 +1,54 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Momento
+Declaração e consequência
+Próximo turno do
+Carregador
+A Reação volta normalmente. O inimigo pode escolher outra ação,
+considerando o que ocorreu. A parada concluída continua válida.
+Se gastar a Reação em outra coisa antes do clique, a
+preparação termina. Se o clique não ocorrer antes
+do próximo turno, expira sem devolver a Padrão. Se
+estiver Agarrado quando for responder, seu
+deslocamento estará zero; o gatilho não o solta.
+Com Integridade no estágio 2, o deslocamento será
+4,5 m: pode alcançar um espaço a 1,5 m de P pelo
+corredor de 6 m, sem atravessar os 6 m completos.
+Alcance e espaço livre precisam ser conferidos no
+mapa.
+O exemplo mostra uma troca: esperar permite
+aproximar-se depois da ação de Mei, mas custa a
+atuação ofensiva daquela Padrão e a Reação. Se a
+cena exigir atacar no turno e também se
+reposicionar depois, Preparar não oferece ambos
+gratuitamente. Essa diferença é uma razão concreta
+para estudar uma capacidade própria, se o papel do
+futuro chefe exigir isso.
+Quem recebe um turno para
+responder?
+Mantenha a ordem Rina → Carregador → Mei →
+Akira. Os quadros abaixo comparam apenas a
+posição de um anúncio e de sua consequência. Não
+criam um ataque novo nem concedem ações
+durante a espera.
+Anúncio
+Resolução prevista
+Turnos do grupo entre os dois momentos
+No turno do Carregador
+Fim da mesma rodada
+Mei e Akira. Rina já agiu.
+No turno do Carregador
+Começo do próximo turno dele
+Mei, Akira e Rina, nessa ordem.
+Antes do primeiro turno da
+cena
+Fim da primeira rodada
+completa
+Rina, Mei e Akira. Essa é a convenção
+de abertura do portão.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+332

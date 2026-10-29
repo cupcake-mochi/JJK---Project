@@ -2,13 +2,13 @@
 
 Versão piloto 3, de 21 de outubro de 2026. Exemplo acompanhado de preparação, investigação, confronto e fechamento, para avaliar o modo de ensinar do Guia. Acrescenta caminhos de consulta e um contato de apoio definido, preservando as fichas e contas do confronto. Situação original, sem revelações da trama de Jujutsu Kaisen. Pode acompanhar A entrega trocada ou ser usada como exemplo independente.
 
-**Estado de desenvolvimento:** o roteiro está completo para avaliação e uso experimental com a [base pequena de inimigos](14-base-pequena-de-inimigos-r53.md). O encontro principal tem um Amontoado do depósito e considera três personagens de nível 2, com fichas conferidas, recursos disponíveis e sem Sequelas iniciais. A [verificação](15-verificacao-da-base-e-do-piloto.md) informa hipóteses e limites. Houve conferência e simulação, sem teste de mesa. Os números novos continuam propostas desta base piloto; o Bestiário antigo não fornece seus valores.
+**Exemplo experimental.** O encontro usa um Amontoado do depósito, apresentado em [Três maldições para a missão](14-base-pequena-de-inimigos-r53.md), contra três personagens de nível 2, com fichas conferidas, recursos disponíveis e sem Sequelas iniciais. As contas e a simulação foram conferidas; ainda não houve teste de mesa. Os números novos são propostas para este encontro.
 
-**Para consultar durante a sessão:** usar [As batidas no anexo para consulta](<../06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md>) e manter a ficha do inimigo aberta. Para aprender a preparar outra situação, começar pelo [procedimento de preparação](<../06 - Redacao do Guia/01-preparar-uma-missao.md>). A leitura abaixo acompanha o raciocínio do mestre e um resultado possível dos dados; não exige seguir essa sequência de ações ou rolagens.
+**Para consultar durante a sessão:** usar [Missão: As batidas no anexo](<../06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md>) e manter a ficha do inimigo aberta. Para aprender a preparar outra situação, começar pelos passos de [preparação](<../06 - Redacao do Guia/01-preparar-uma-missao.md>). A leitura abaixo acompanha o raciocínio do mestre e um resultado possível dos dados; não exige seguir essa sequência de ações ou rolagens.
 
 ## As batidas no anexo
 
-Ana, responsável pela recepção de um centro cultural, pede ajuda depois de ouvir golpes no depósito. Quando um funcionário abriu a porta, viu caixas se moverem e tombarem, sem enxergar quem as tocava, e recuou. O prédio tem gente trabalhando, e Ana quer saber como proceder sem mandar outra pessoa até lá.
+Ana, responsável pela recepção de um centro cultural, pede ajuda depois de ouvir golpes no depósito. Quando um funcionário abriu a porta, viu caixas se moverem e tombarem, sem enxergar quem as tocava, e recuou. O prédio tem gente trabalhando, e Ana quer saber o que fazer sem mandar outra pessoa até lá.
 
 O pedido pode surgir durante uma visita dos personagens ou chegar por um contato da organização que os apoia. Escolha a ligação que faz sentido para o grupo. Uma equipe de guilda pode receber um chamado; personagens de uma campanha fechada podem conhecer Ana e decidir como responder.
 
@@ -20,15 +20,15 @@ Separe os fatos que você conhece dos relatos que cada pessoa consegue fornecer.
 
 - Todos os funcionários já saíram do anexo e estão sem ferimentos. Ana ainda não conferiu isso com cada um.
 - O funcionário Davi viu as caixas se moverem do batente do depósito. Ele conhece aquele caminho e não observou o restante do anexo.
-- Um Amontoado do depósito ocupa a sala. É uma maldição de papelões e fitas com mãos articuladas, que move as caixas com o próprio corpo. Sua ficha está na base pequena de inimigos. Não há outro inimigo oculto, objeto possuído ou fonte contínua que mantenha as batidas depois de sua retirada ou neutralização.
+- Um Amontoado do depósito ocupa a sala. É uma maldição de papelões e fitas com mãos articuladas, que move as caixas com o próprio corpo. Sua ficha está em Três maldições para a missão. Não há outro inimigo oculto, objeto possuído ou fonte contínua que mantenha as batidas depois de sua retirada ou neutralização.
 - As batidas ouvidas por Ana vieram do depósito. Ela receia que alguém esteja preso, mas não viu uma pessoa lá dentro.
 - A recepção tem uma lista dos funcionários presentes. Davi consegue conferir quem saiu com ele; o contato com os demais completa a verificação.
 
 O receio de Ana explica a urgência do pedido. Ele não comprova que há alguém preso. Se os personagens verificarem a informação, deixe a descoberta orientar a resposta.
 
-Na R53, pessoas comuns normalmente não veem maldições. Ana e Davi são pessoas comuns neste exemplo: relatam sons e objetos em movimento. A presença da maldição é um fato do preparo do mestre; a descrição aos personagens depende do que cada um consegue perceber pelas regras e pela ficha.
+No Livro de Regras 1.0, pessoas comuns normalmente não veem maldições. Ana e Davi são pessoas comuns neste exemplo: relatam sons e objetos em movimento. A presença da maldição é um fato do preparo do mestre; a descrição aos personagens depende do que cada um consegue perceber pelas regras e pela ficha.
 
-## Dar um lugar às decisões
+## Preparar o lugar
 
 O prédio principal liga a recepção a um pátio. Do pátio, chega-se à porta do anexo. Uma entrada de serviço dá acesso ao mesmo corredor por outro lado. O depósito abre para esse corredor.
 
@@ -41,7 +41,7 @@ Para este exemplo, use a organização abaixo. Os espaços estão iluminados. O 
 | Pátio | 6 m por 6 m, entre recepção e entrada principal do anexo | Dá acesso ao corredor e permite recuar em direção ao prédio principal |
 | Corredor do anexo | 9 m por 3 m; entrada principal numa ponta e entrada de serviço na outra | A porta do depósito fica no meio, a 4,5 m de cada ponta |
 | Depósito | 6 m por 6 m; porta no meio da parede voltada ao corredor | No início, a maldição está a 4,5 m da porta, junto à pilha da parede oposta |
-| Caixas e pilha | Caixas baixas junto às paredes laterais; pilha de 1,5 m de altura ao fundo | A faixa central está livre. Uma caixa que realmente se interponha pode dar cobertura Parcial, conforme a R53 |
+| Caixas e pilha | Caixas baixas junto às paredes laterais; pilha de 1,5 m de altura ao fundo | A faixa central está livre. Uma caixa que realmente se interponha pode dar cobertura Parcial, conforme o Livro de Regras 1.0 |
 
 A entrada de serviço oferece outra aproximação pelo corredor; não abre uma segunda porta para dentro do depósito. Entre informar um caminho e considerá-lo seguro, ainda há a observação do grupo. Antes da sessão, marque essas medidas no mapa usado pela mesa e confira como os personagens percebem e conseguem atingir a maldição. Não conceda visão ou equipamento que suas fichas não possuem.
 
@@ -54,7 +54,7 @@ A entrada de serviço oferece outra aproximação pelo corredor; não abre uma s
 
 Mina é um contato original acessível no início desta ocorrência. Pode atender chamados da guilda ou ser uma colega que organiza apoio numa campanha fechada. Ana consegue colocar o grupo em contato. Mina recebe a localização, a conferência das pessoas e o risco observado; aceita acompanhar o encaminhamento enquanto o anexo permanece sem uso. Sua confirmação de recebimento não promete a chegada imediata de uma equipe. Ela não entra em combate neste exemplo.
 
-## Abrir a ocorrência
+## Abrir a cena
 
 > Ana encontra vocês junto à recepção. Há pessoas reunidas perto da saída para a rua. Ela aponta para a porta que leva ao pátio.
 >
@@ -70,7 +70,7 @@ A abertura oferece uma preocupação, pessoas acessíveis e um lugar a investiga
 
 **Mestre:** “Ana entrega o registro. Davi aponta os colegas com quem voltou. Vocês encontram alguns no grupo e conseguem falar com os outros. Todos os funcionários registrados estão fora do anexo.”
 
-**Comentário de mestragem:** neste exemplo, as pessoas estão acessíveis e colaboram. Conferir essas informações dispensa rolagem. Se houver incerteza e consequência relevante numa outra situação, use Tarefas e testes da R53. Não mantenha uma pessoa desaparecida apenas porque esse era o receio inicial de Ana.
+**Comentário de mestragem:** neste exemplo, as pessoas estão acessíveis e colaboram. Conferir essas informações dispensa rolagem. Se houver incerteza e consequência relevante numa outra situação, use Tarefas e testes do Livro de Regras 1.0. Não mantenha uma pessoa desaparecida apenas porque esse era o receio inicial de Ana.
 
 **Jogador:** “Então ninguém precisa correr até o depósito para buscar um funcionário. Pergunto ao Davi o que ele realmente viu.”
 
@@ -94,15 +94,15 @@ A abertura oferece uma preocupação, pessoas acessíveis e um lugar a investiga
 
 **Entrar antes de conferir as pessoas.** Respeite a escolha. A lista e os testemunhos continuam disponíveis, mas o grupo estará agindo com menos informação. Resolva o avanço conforme o lugar e a ameaça preparados; não acrescente um funcionário em perigo como punição pela abordagem.
 
-## Preparar a passagem para o confronto
+## Quando começa o confronto
 
 A investigação muda a decisão: o grupo já sabe que não precisa atravessar o corredor para retirar um funcionário conhecido. Pode avaliar reconhecimento, intervenção, retirada ou apoio segundo seus recursos e responsabilidades. Isso não decide sozinho o destino da ameaça nem a segurança do prédio.
 
-A maldição observa quem entra e protege sua pilha. Aproximar-se da porta não causa um ataque gratuito. Se alguém a atacar ou tentar desmontar a pilha, ela reage hostilmente: organize a iniciativa antes de resolver as ações de confronto. A mera existência da entrada de serviço não concede surpresa. Este piloto não utiliza uma regra nova de surpresa.
+A maldição observa quem entra e protege sua pilha. Aproximar-se da porta não causa um ataque gratuito. Se alguém a atacar ou tentar desmontar a pilha, ela reage hostilmente: organize a iniciativa antes de resolver as ações de confronto. A mera existência da entrada de serviço não concede surpresa. Este exemplo não utiliza uma regra nova de surpresa.
 
-**Sinais para descrever:** mãos achatando as caixas antes de uma pancada; palmas que se encostam e brilham antes de Impacto concentrado; marcas do corpo que perdem o brilho quando a reserva se esgota. São sinais da ação descrita. Não criam uma rodada gratuita para interrompê-la; respostas dependem de seus gatilhos normais. Estudar pode buscar informação pelo procedimento da R53; pergunte o que o jogador quer compreender, sem exigir que adivinhe a pergunta exata do preparo.
+**Sinais para descrever:** mãos achatando as caixas antes de uma pancada; palmas que se encostam e brilham antes de Impacto concentrado; marcas do corpo que perdem o brilho quando a reserva se esgota. São sinais da ação descrita. Não criam uma rodada gratuita para interrompê-la; respostas dependem de seus gatilhos normais. Estudar pode buscar informação pelas regras do Livro de Regras 1.0; pergunte o que o jogador quer compreender, sem exigir que adivinhe a pergunta exata do preparo.
 
-**Condução do inimigo:** prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Se estiver perto e puder conjurar, usa Impacto concentrado. Sem PE suficiente ou impedido de executar o Selo, usa Pancada ou uma ação geral pertinente. Não golpeia inconscientes nem ganha ataques adicionais porque os personagens ficaram fortes. Usa Bloquear se o mestre escolher, antes do ataque, com todas as consequências da R53. No exemplo numérico abaixo, todos mantêm a Defesa estática para facilitar o acompanhamento.
+**Condução do inimigo:** prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Se estiver perto e puder conjurar, usa Impacto concentrado. Sem PE suficiente ou impedido de executar o Selo, usa Pancada ou uma ação geral pertinente. Não golpeia inconscientes nem ganha ataques adicionais porque os personagens ficaram fortes. Usa Bloquear se o mestre escolher, antes do ataque, com todas as consequências do Livro de Regras 1.0. No exemplo numérico abaixo, todos mantêm a Defesa estática para facilitar o acompanhamento.
 
 **Retirada:** Desengajar, movimento e oportunidades seguem as regras gerais. A maldição pode perseguir dentro do anexo; nesta situação, prefere sua pilha e para de perseguir quando todos saem do anexo. Isso é seu comportamento preparado, que o grupo pode observar. Portas, corredor e pátio não são barreiras mágicas. Se houver outra pessoa exposta, informe essa posição antes da decisão. Não acrescente velocidade, alcance ou teleporte para impedir uma retirada que funcionou.
 
@@ -112,13 +112,13 @@ A maldição observa quem entra e protege sua pilha. Aproximar-se da porta não 
 
 As regras atuais de derrota fazem parte dessa avaliação. Ao escolher Insistir, um personagem jogador a zero de vida pode conservar as ações e os recursos disponíveis, sujeito à janela de socorro. O tempo, o dano posterior e as Sequelas interferem nessa janela. O tratamento pode encerrar Morrendo; depois de Derrotado, a cura comum não devolve participação naquela cena. Um inimigo, em regra, é derrotado a zero de vida ou de Integridade. Aplicar a mesma expectativa de permanência aos dois lados distorceria o exemplo.
 
-Por isso, acompanhe separadamente quando alguém chega a zero, quais ações ainda consegue realizar, o socorro necessário e quando o objetivo do encontro termina. A duração resultante dependerá das fichas e das escolhas. O roteiro a seguir tem resultados escolhidos para demonstrar o procedimento; não prevê as rolagens da mesa nem exige que a situação dure três rodadas.
+Por isso, acompanhe separadamente quando alguém chega a zero, quais ações ainda consegue realizar, o socorro necessário e quando o objetivo do encontro termina. A duração resultante dependerá das fichas e das escolhas. O roteiro a seguir tem resultados escolhidos para explicar as regras; não prevê as rolagens da mesa nem exige que a situação dure três rodadas.
 
 ## Acompanhar um confronto com socorro
 
 O grupo decide intervir. Para esta demonstração, a personagem da frente já entrou no depósito e está a 1,5 m da maldição; o apoio e a conjuradora estão próximos da porta, a até 6 m dela e com linha de visão. O Amontoado tem 48 PV, 24 de Integridade, Defesa 11 e 6 PE. Todos os ataques deste roteiro causam dano à vida, sem Alma.
 
-Usaremos três referências parciais de cálculo, descritas na verificação. Elas não são personagens prontos completos: na mesa, use as fichas conferidas dos jogadores.
+Usaremos os três perfis resumidos no quadro abaixo. Elas não são personagens prontos completos: na mesa, use as fichas conferidas dos jogadores.
 
 | Referência | Recursos iniciais | Capacidades usadas |
 |---|---|---|
@@ -168,30 +168,30 @@ A conjuradora usa seu terceiro Projétil por 3 PE. Ataque **11 + 4 = 15**, acert
 
 **O que mudaria se a Pancada tivesse acertado:** naquele ponto, a frente estava a zero e tinha uma rodada de janela. Dano positivo que alcançasse sua vida consumiria essa última rodada e ela ficaria Derrotada imediatamente. Na campanha padrão, estando viva, os 7 de tratamento acumulados seriam convertidos em vida; a cura posterior de 5 a levaria a 12 PV. Ela continuaria Derrotada: essa cura comum não devolveria sua participação naquela cena. Não haveria outra janela ao desabar.
 
-O roteiro não precisa terminar com uma queda para ensinar o procedimento. Se as rolagens ou decisões da mesa evitarem esse risco, mantenha o resultado. O exemplo serve para consulta quando a situação ocorrer.
+O roteiro não precisa terminar com uma queda para ensinar as regras. Se as rolagens ou decisões da mesa evitarem esse risco, mantenha o resultado. O exemplo serve para consulta quando a situação ocorrer.
 
 ## Resolver a ameaça e fechar a missão
 
-Depois da derrota, resolva o destino da maldição conforme o que a equipe tentou fazer. Se o grupo pretendia exorcizar e o procedimento usado permitir esse desfecho, descreva a dissolução do corpo de papel e o fim das batidas. Se pretendia adquirir uma maldição domada, confira os limites de destruição e a conversão previamente conhecida na base de inimigos, depois faça a submissão da R53. Chegar a zero não torna a maldição automaticamente domada. Não acrescente outro inimigo para prolongar a cena depois de o objetivo ter sido alcançado.
+Depois da derrota, resolva o destino da maldição conforme o que a equipe tentou fazer. Se o grupo pretendia exorcizar e a regra usada permitir esse desfecho, descreva a dissolução do corpo de papel e o fim das batidas. Se pretendia adquirir uma maldição domada, confira os limites de destruição e a conversão previamente conhecida na base de inimigos, depois faça a submissão do Livro de Regras 1.0. Chegar a zero não torna a maldição automaticamente domada. Não acrescente outro inimigo para prolongar a cena depois de o objetivo ter sido alcançado.
 
 Antes de liberar o anexo, o grupo verifica se há pessoas, caixas instáveis ou outro problema concreto remanescente. Objetos quebrados não se reparam com a derrota da criatura. Ana pode recolher os relatos e organizar o retorno dos funcionários quando a situação permitir.
 
-No roteiro numérico, a frente termina com **12/23 PV, 2/8 PE e duas Sequelas**; o apoio, **17/17 PV e 1/10 PE**; a conjuradora, **14/14 PV e 3/12 PE**. Não houve dano à Integridade. Depois da segunda queda, verificar com a jogadora a Cicatriz prevista pela R53 e a escolha correspondente; não impor uma penalidade nova pela descrição do ferimento.
+No roteiro numérico, a frente termina com **12/23 PV, 2/8 PE e duas Sequelas**; o apoio, **17/17 PV e 1/10 PE**; a conjuradora, **14/14 PV e 3/12 PE**. Não houve dano à Integridade. Depois da segunda queda, verifique com a jogadora a Cicatriz prevista pelo Livro de Regras 1.0 e a escolha correspondente; não imponha uma penalidade nova pela descrição do ferimento.
 
 Concluir a luta não recupera recursos automaticamente. Confirme se houve uma pausa segura ou se a missão terminou e o grupo pôde parar, distinguindo descanso curto e longo. Se for necessário socorro depois de outro resultado da mesa, continue acompanhando tratamento e prazo. Na campanha padrão, Derrotado não significa morte automática. Uma opção de morte permanente teria de estar definida antes da missão.
 
 Se o grupo recuou ou passou a ocorrência adiante, o encerramento registra essa decisão e quem assumiu o acompanhamento; o anexo continua sem liberação até a resposta efetiva. A missão pode terminar para aquela equipe sem que o problema tenha desaparecido do mundo.
 
-Confira progressão e eventual remuneração conforme a R53 e a política previamente escolhida pela campanha ou guilda. O exemplo não concede item, bônus ou recompensa adicional por ter usado uma entrada específica ou escolhido Insistir.
+Confira progressão e eventual remuneração conforme o Livro de Regras 1.0 e a política previamente escolhida pela campanha ou guilda. O exemplo não concede item, bônus ou recompensa adicional por ter usado uma entrada específica ou escolhido Insistir.
 
 ## Registrar o que foi descoberto
 
-Ao interromper ou passar a ocorrência para outra equipe, registrar observações, providências e dúvidas. Uma passagem ainda na investigação pode dizer: todos os funcionários conferidos estão fora; Davi viu caixas se moverem no depósito sem enxergar quem as tocava; os acessos são conhecidos; as pessoas foram orientadas a manter distância. Nesse momento, a causa da movimentação, a posição atual da ameaça e suas capacidades ainda precisam de confirmação pelos personagens. Depois da intervenção, atualizar o registro com o desfecho efetivo, os recursos, as Sequelas, eventuais aquisições e os problemas remanescentes.
+Ao interromper ou passar a missão para outra equipe, registre observações, providências e dúvidas. Uma passagem ainda na investigação pode dizer: todos os funcionários conferidos estão fora; Davi viu caixas se moverem no depósito sem enxergar quem as tocava; os acessos são conhecidos; as pessoas foram orientadas a manter distância. Nesse momento, a causa da movimentação, a posição atual da ameaça e suas capacidades ainda precisam de confirmação pelos personagens. Depois da intervenção, atualize o registro com o desfecho efetivo, os recursos, as Sequelas, eventuais aquisições e os problemas remanescentes.
 
 Na guilda, esse registro ajuda outra equipe ou outro mestre a continuar com a mesma informação. Na campanha fechada, ele orienta a próxima decisão do grupo. Se o prédio ainda não estiver seguro, a anotação precisa conservar essa pendência.
 
-## Critérios para a revisão
+## Ao adaptar esta missão
 
-O leitor deve conseguir distinguir fatos, receios e testemunhos; oferecer meios diferentes de obter informação; reconhecer quando uma conversa dispensa teste; deixar descobertas mudarem prioridades; conduzir o inimigo pela ficha; acompanhar quedas, socorro e encerramento; e registrar o que permanece. A revisão com leitores e o uso em mesa avaliarão se a extensão e os comentários ajudam na consulta.
+Prepare os fatos e o que cada testemunha sabe. Ofereça caminhos diferentes para investigar e deixe as descobertas mudarem as prioridades do grupo. Durante um confronto, acompanhe as fichas, as quedas e o socorro. Ao encerrar, registre o que mudou e o que ainda precisa ser resolvido.
 
-Referência de regras: [R53 editável](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md>), especialmente Ver e perceber, Tarefas e testes, Percepção e visibilidade, Vida a zero, Insistir, Socorro, Sequelas, Derrota e morte e Preparar uma missão. Houve conferência textual; leitura com público e teste de mesa permanecem por realizar.
+Referência de regras: [Livro de Regras 1.0 editável](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md>), especialmente Ver e perceber, Tarefas e testes, Percepção e visibilidade, Vida a zero, Insistir, Socorro, Sequelas, Derrota e morte e Preparar uma missão. Houve conferência textual; leitura com público e teste de mesa permanecem por realizar.

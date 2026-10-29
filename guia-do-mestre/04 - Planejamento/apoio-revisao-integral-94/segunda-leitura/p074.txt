@@ -1,0 +1,95 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Escolha
+O que acontece
+Tratamento necessário
+Aguentar
+Fica Inconsciente e aguarda socorro
+1/4 do máximo de referência, para cima,
+sem teto
+Primeiro Insistir da cena
+Continua consciente, com as ações e
+recursos ainda disponíveis
+1/3 do máximo de referência, para cima,
+limitado a 15 × sua maior Classe
+Segundo Insistir ou
+posterior na cena
+Continua consciente, com as ações e
+recursos ainda disponíveis
+1/2 do máximo de referência, para cima,
+com o mesmo teto
+Classe é a categoria usada para feitiços e outras
+aplicações do sistema. Não é o nível do
+personagem. Confira na ficha qual é sua maior
+Classe. O teto de tratamento de Insistir não reduz a
+vida máxima nem limita quanto uma cura válida
+pode entregar.
+Exemplo: máximo de referência 93 e maior Classe
+3. Aguentar exige 93 ÷ 4 = 23,25 → 24. Primeiro
+Insistir exige 93 ÷ 3 = 31. Outro Insistir na cena
+exigiria 93 ÷ 2 = 46,5 → 47, mas o teto é 15 × 3 = 45;
+o necessário fica em 45.
+Aguentar ou Insistir
+Aguentar deixa o personagem Inconsciente. Ele
+não age para se tratar, mas pode receber cura ou
+estabilização. Não pode mudar para Insistir depois
+naquela queda. Se já estava Inconsciente antes de
+perder o último ponto de vida, Aguenta; Insistir não
+remove outra causa de inconsciência.
+Insistir conserva as ações, recursos e respostas que
+ainda puder usar. A escolha não cria ação, não
+devolve algo gasto e não consome uma rodada da
+janela como custo inicial. Outras condições
+continuam valendo. O personagem pode tratar a si
+mesmo se cumprir os requisitos da habilidade ou do
+recurso de cura.
+Conte uma escolha de Insistir por queda, não uma
+por turno ou golpe recebido. Uma queda em que
+Aguente não aumenta nem zera essa contagem. Na
+próxima cena, a contagem de Insistir volta a zero,
+enquanto Sequelas e recursos mantêm seus
+próprios prazos.
+Pode passar de Insistir para Aguentar sem ação.
+Conserva o tratamento necessário daquela queda, o
+que recebeu e a janela restante. Não pode voltar a
+Insistir nessa mesma queda. A mudança permite
+ficar Inconsciente para receber estabilização, sem
+recalcular a exigência como se tivesse escolhido
+Aguentar no início.
+Como contar as rodadas
+Marque a posição exata na iniciativa em que a
+queda aconteceu. Cada volta completa até esse
+ponto consome uma rodada da janela. A contagem
+não espera o turno do ferido se a queda ocorreu em
+outro turno.
+Quando a janela chega a zero, o personagem fica
+Derrotado. Uma ação de socorro que só começaria
+naquele ponto chega tarde demais. Capacidades
+com gatilho próprio conservam seu momento de
+resolução; consulte a regra antes de negar ou
+antecipar uma resposta.
+Exemplo: a queda ocorreu durante a ação do
+inimigo, antes do turno da vítima e do apoio. Na
+volta seguinte àquele ponto, consuma uma rodada
+antes da ação que começaria ali. O turno de apoio
+que vem depois não pode ser puxado para antes
+desse marco só porque a cura faria diferença.
+Se a queda ocorrer fora de combate, organize turnos
+pelas regras de Iniciativa e marque o começo da
+primeira rodada como ponto da queda. A primeira
+volta completa consome uma rodada. Socorro e
+capacidades mantêm seus custos; não trate a
+ausência de combate como prazo infinito.
+Receber dano enquanto está
+Morrendo
+Cada ocorrência posterior de dano positivo que
+alcance a vida, depois de defesas e vida temporária,
+consome mais uma rodada da janela. Um golpe com
+vários tipos conta uma vez; ataques separados
+contam separadamente.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+74

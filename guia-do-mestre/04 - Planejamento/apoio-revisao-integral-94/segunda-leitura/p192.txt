@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Resultado
+Como comunicar
+A montagem precisa de ajuste.
+“O deslocamento está comprado; impedir ações ainda não.
+Podemos conservar só o deslocamento ou montar outra função.”
+A proposta ultrapassa a opção escolhida.
+“Essa Aptidão acrescenta dados de dano, o que a descrição proíbe.
+Vamos procurar outra aquisição para o resultado desejado.”
+Existe uma mudança de campanha a
+decidir.
+“Esta versão altera a regra publicada. Vamos registrar a alteração e
+quem poderá usá-la antes de tratá-la como parte da campanha.”
+Uma recusa útil identifica o problema e oferece um
+próximo passo. Pode ser reduzir a abrangência,
+usar uma peça existente ou reformular a aquisição.
+Não prometa que acrescentar qualquer custo
+tornará uma proposta aceitável: certas opções têm
+proibições expressas.
+Registre e acompanhe
+Guarde a versão aceita, a referência de comparação
+e as escolhas fixas na ficha de avaliação (p. 313). Um
+exemplo aprovado numa campanha não autoriza
+todas as variações do mesmo tema.
+Na guilda, deixe o texto disponível aos mestres que
+receberão a ficha. Registre se a decisão vale para
+aquele personagem, para uma campanha ou para o
+conjunto da guilda, conforme a organização
+combinada. Não atribua a um mestre autoridade
+geral que o grupo não lhe deu. Na campanha
+fechada, o mesmo registro pode ficar junto da ficha
+do personagem.
+As Restrições têm uma revisão prevista: depois de
+três sessões em que o feitiço tenha sido usado,
+compare a dificuldade esperada com os usos
+ocorridos. Substitua a exigência se nunca tiver
+dificultado o uso, deixando a montagem válida
+antes da próxima aplicação. Três tentativas na
+mesma sessão não são três sessões de uso.
+Anote o que aconteceu, sem criar obstáculos
+artificiais apenas para justificar uma devolução. Se
+a proposta usa uma condição sempre garantida
+naquela campanha, a comparação precisa
+reconhecer isso.
+As outras mudanças respeitam as permissões de
+revisão da ficha. Ao subir de nível, Ampliar e
+reescrever não significam a mesma coisa: Ampliar
+conserva as compras e recalcula seus valores;
+mudar peças exige a revisão apropriada. Correções
+por mudança das regras seguem a concessão
+específica do Livro de Regras 1.0. Confira também
+Conferir personagens (p. 171).
+Em Ampliar uma mescla e trocar sua Forma (p.
+201), as linhas de Classes 3 e 4 conservam as
+compras, registram as parcelas e mostram quem
+recebe dano e cura. A troca por Forma Fluida é
+conferida separadamente.
+7.2 · Exemplos de avaliação
+de poderes
+Estes casos mostram como explicar uma avaliação.
+As contas usam o Livro de Regras 1.0. Montagens
+feitas apenas com opções publicadas demonstram
+essas opções; propostas novas são identificadas
+como propostas. Nenhuma destas situações
+representa um teste realizado com jogadores.
+Dano por Toque
+Pedido. “Meu golpe é Classe 1, por Toque. Tenho 3
+pontos e ganho mais 1 pela proximidade, então
+causo 4d8.”
+Conferência. Toque concede devolução Leve, mas
+ela só compensa pontos pagos em Melhorias. Esta
+ficha não comprou nenhuma. A devolução
+aproveitável é zero: 3 - 0 + 0 = 3d8.
+Conclusão. A versão simples pode causar 3d8, com
+Ação Padrão, 3 PE, Selo, ataque de conjuração e
+alcance de 1,5 m. O erro não causa dano e gasta os
+PE. A proximidade não cria um quarto dado.
+Se Mira estiver disponível e a Regra comportar a
+aplicação, o jogador pode comprar Precisão. Na
+Classe 1 ela custa 1 ponto; Toque devolve esse
+ponto gasto. A ficha mantém 3 - 1 + 1 = 3d8 e
+recebe +2 no ataque. Conta uma Melhoria,
+nenhuma Restrição. Se atributo for 3 e Maestria 1, o
+ataque será d20 + 6, considerando Precisão.
+O ajuste preserva a ideia de um golpe preciso de
+perto e mostra onde a devolução é aproveitada. Não
+transforma o bônus de Precisão em dano.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+192

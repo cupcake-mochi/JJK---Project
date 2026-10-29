@@ -1,0 +1,75 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Rina trabalha 20 horas no primeiro ciclo e 12 no
+segundo. Como fabrica Classe 3 sendo de Classe 4,
+a CD é 8 + 4 + 2 - 2 = 12. No teste d20 + 6, tira 5:
+total 11, falha. A criatura ainda não funciona.
+Ela conserva as partes aproveitáveis, repõe ¥6.000 e
+dedica 16 horas de retrabalho, metade do trabalho
+inicial. Na tentativa autorizada seguinte, com
+vantagem, tira 2 e 8; usa 8, total 14: sucesso. O total
+é 48 horas e ¥36.000. Se houver ajuda válida para
+conceder vantagem, o ajudante precisa cumprir o
+mesmo tempo da operação em que ajuda; não
+divide essas horas com Rina.
+O cronograma de três ciclos da consulta Tempo e
+materiais para criar entidades (p. 262) é possível
+porque Rina escolheu dedicar até 20 horas por ciclo
+a esse projeto. Não é um prazo obrigatório de três
+semanas. Com tempo na história e 28 horas
+disponíveis no segundo ciclo, ela poderia terminar
+nele as 12 horas iniciais restantes e as 16 de
+retomada.
+Campo de entrega
+Registro
+Aquisição
+Criada por Rina para Kaito; Classe 3, nível 9; Caligrafia.
+Ficha
+Atributos, Famílias, básica, especial e talentos acima.
+Estado
+Recolhida no talismã, 56/56 PV e 28/28 Integridade, sem condição
+persistente neste caso.
+Talismã
+0,5 de Volume; sem carga.
+Recursos
+Sem reserva própria; nenhum uso limitado por descanso foi adquirido
+nesta ficha.
+Trabalho
+32 h + 16 h; falha 11, depois sucesso 14; ¥36.000.
+Limite de evolução
+Acompanha Kaito até nível 12; para chegar ao 13, exige reconstrução para
+Classe 4.
+A primeira manifestação
+No nível 9, a entrada normal custa 3 PE. Em
+combate, Kaito usa Bônus para manifestar em
+espaço livre adequado a até 1,5 m. A entrada
+comum não concede básica naquele ciclo. Dar a
+primeira tarefa exige outra Bônus; ele pode
+converter sua Padrão para isso, conservando os
+demais requisitos.
+Uma tarefa executável é: “Vigie esta porta e me
+avise em voz alta se alguém entrar.” A criatura
+precisa perceber a entrada normalmente. A tarefa
+não concede percepção infalível nem um ataque
+fora da janela permitida. Fora de combate, entradas
+e saídas dispensam a ação, conservando energia; o
+comando de especial mantém suas regras.
+Durante um descanso longo, Kaito pode adiantar 1
+PE, retirado do saldo anterior à recuperação, para
+deixar uma carga no talismã. Depois, uma entrada
+comum carregada custa 2 PE: 1 + 2 = 3. O
+adiantamento distribui o pagamento; não é energia
+gratuita. Não acumule duas cargas no mesmo
+talismã. A criação bem-sucedida não forneceu essa
+carga inicial.
+Até o limite da Classe
+Esta evolução conserva Essência 4 de Kaito e os
+atributos do Vigia, salvo o aumento de Constituição
+no nível 10. A Maestria de Kaito sobe para 2 nesse
+nível.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+292

@@ -1,0 +1,32 @@
+{
+  "registro": 111,
+  "fontes_antigas_preservadas": 104,
+  "casos_preservados": 59,
+  "casos_por_grupo": {
+    "B1": 9,
+    "B2": 23,
+    "B3": 9,
+    "B4": 6,
+    "B5": 12
+  },
+  "pontos_preservados": 130,
+  "competencias_preservadas": 20,
+  "estados_de_cobertura": "históricos, preservados sem promoção",
+  "links_locais_conferidos": 677,
+  "pdf_das_folhas_preservado": "c6de19920cf0cd42ac7524e1b3e609738b12a30cacbbedf514824e2e53aa247f",
+  "corpo_imprimivel_das_folhas_preservado": true,
+  "pdf_integrado_preservado": true,
+  "pendencias": [
+    {
+      "id": "Arata-CD",
+      "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+      "constatacao": "CD 16 fora da coluna fixa publicada; não há criador indicado para justificar CD variável.",
+      "tratamento": "Aviso no índice; corrigir na consolidação textual da etapa 6, conservando condições e resultado do exemplo. Nenhum valor foi substituído neste lote."
+    }
+  ],
+  "limites": [
+    "Conferência documental dos 130 pontos/20 competências; não é releitura semântica de todas as evidências.",
+    "Leitura dirigida de P14–P20 registrada em leitura-dirigida.json.",
+    "Sem teste interativo de navegador, teste humano ou validação geral de equilíbrio."
+  ]
+}

@@ -1,0 +1,815 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Livro de Regras 1.0 | Consultas</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'CAPÍTULOS 6 E 7 / CASO ARATA';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}}main{max-width:900px;padding:30px;background:white}section{border-top:1px solid #ded4d9;padding:15px 0}article{margin-bottom:30px}</style><main><p><a href="prova-textual.html">Voltar à prova</a></p><h1>Livro de Regras 1.0</h1><p>Trechos publicados, sem reescrita. Modelos e números experimentais permanecem identificados no Guia.</p><article id="inimigos"><h2>Inimigos e perigos</h2><section class="consulta-regra" id="r6--regra-1"><h4>Maestria</h4>
+<p>A maestria é o bônus que acompanha o avanço de nível. Ela entra nos ataques e nas CDs que a incluem. Em perícias, ofícios e Testes de Resistência, você só a soma quando tem o treino correspondente. Maestria não é acrescentada à Defesa.</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>Maestria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 a 9</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>10 a 17</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>18 a 25</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>26 a 30</td>
+<td>+4</td>
+</tr>
+</tbody>
+</table>
+<p>A criação comum começa no <strong>nível 2</strong>. Campanhas que usem o nível 1 seguem a opção de criação própria; a maestria inicial também é 1.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem Destreza 3 e maestria 1. Em Furtividade, na qual é treinada, soma 4 ao d20. Numa perícia de Destreza sem treino, soma apenas 3. No nível 10, sua maestria passa a 2; se mantiver Destreza 3, o bônus treinado passa a 5.</p>
+</blockquote></section><section class="consulta-regra" id="r6--regra-2"><h4>Testes</h4>
+<p>Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela descrição.</p>
+<blockquote>
+<p><strong>Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.</strong></p>
+</blockquote>
+<p>O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras próprias de acerto e crítico.</p>
+<h5>Dificuldade</h5>
+<p>Tarefas comuns e conhecimento sem nível próprio usam a coluna <strong>CD fixa</strong> da tabela abaixo. Uma fechadura não fica mais difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a dificuldade ou a forma de calculá-la.</p>
+<table>
+<thead>
+<tr>
+<th>Dificuldade</th>
+<th>CD fixa</th>
+<th>Ajuste à CD do criador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fácil</td>
+<td>6</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>10</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Difícil</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Muito difícil</td>
+<td>18</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Extrema</td>
+<td>22</td>
+<td>Não definido nesta escala.</td>
+</tr>
+<tr>
+<td>Quase impossível</td>
+<td>26</td>
+<td>+6</td>
+</tr>
+</tbody>
+</table>
+<p>Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Para uma avaliação geral de algo com nível, calcule <strong>8 + atributo do criador + maestria do criador</strong>. São os valores de quem criou o efeito, e não de quem faz o teste. O mestre classifica a dificuldade da tarefa e aplica o ajuste da última coluna a essa base, em vez de usar a CD fixa. Assim, uma tarefa fácil ligada a um criador poderoso pode ter uma CD maior que a de uma tarefa fácil comum. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.</p>
+<p>Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se um efeito já fornece sua CD, use-a.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é <strong>8 + 4 + 2 = 14</strong>. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será <strong>16</strong>.</p>
+</blockquote>
+<h5>Sucesso e falha</h5>
+<p>Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pericias -->
+<p><a id="r6--geral--pericias"></a></p></section><section class="consulta-regra" id="r6--regra-3"><h4>Preparar</h4>
+<p><strong>Preparar custa uma Ação Padrão agora e sua Reação ao executar a resposta.</strong> Use para esperar alguém cruzar uma porta ou aguardar um sinal para correr.</p>
+<h5>Escolha o gatilho e a resposta</h5>
+<p>No seu turno, declare um <strong>evento perceptível</strong>, como alguém entrar ao seu alcance, e sua <strong>resposta</strong>: uma ação que custe Padrão ou um deslocamento. Conjurações seguem a regra abaixo.</p>
+<p>Você mantém uma preparação por vez. Ela dura até o <strong>começo do seu próximo turno</strong>. Se preparar outra, a anterior termina.</p>
+<h5>Espere o evento terminar</h5>
+<p>Quando o gatilho acontecer, você pode gastar sua <strong>Reação imediatamente depois de ele terminar</strong>. Confira então alcance, alvo, percurso e os demais requisitos da resposta. Custos adicionais são pagos quando ela é executada.</p>
+<p>Preparar não interrompe o evento. Se o gatilho for um ataque, espere esse ataque terminar, sem precisar esperar os outros da mesma ação. Para “entrar ao meu alcance”, responda depois que a criatura entrar.</p>
+<p>Você pode ignorar o gatilho e continuar esperando. Gastar a Reação em outra coisa <strong>encerra a preparação</strong>. Se o prazo acabar sem resposta, perde a Padrão investida, mas não gasta a Reação.</p>
+<h5>Atacar ou se mover</h5>
+<p>Ao preparar <strong>Atacar</strong>, realize a ação com os ataques que suas habilidades permitem, respeitando seus limites por rodada. Preparar não renova uma permissão de ataque já utilizada nem libera efeitos restritos ao seu próprio turno. Você não recebe junto uma Ação Bônus ou uma Ação de Movimento.</p>
+<p>O deslocamento preparado concede metros adicionais iguais ao seu deslocamento <strong>no momento da resposta</strong>. Não usa o saldo do turno anterior, não renova limites próprios de movimento nem inclui ataque. Terreno, condições e ataques de oportunidade continuam valendo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina prepara Agarrar quem entrar ao seu alcance pela porta. Quando isso acontece, gasta a Reação e resolve a manobra. Se já tivesse gasto a Reação para um ataque de oportunidade, a preparação teria terminado.</p>
+</blockquote>
+<h5>Conjuração preparada</h5>
+<p>Conjurar como resposta exige uma montagem ou habilidade que conceda essa permissão. Use os custos, o gatilho e o prazo dela, sem acrescentar uma Ação Padrão em Preparar. O procedimento comum não torna qualquer feitiço reativo. Confira as opções em <strong>Catálogo de criação</strong>, na família Tempo.</p>
+<p>Um feitiço deixado à espera de um evento também usa sua própria montagem.</p>
+<p>Para entidades, consulte <strong>Invocações em campo</strong>: Preparar não concede comandos ou ações adicionais a outro corpo.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#oportunidade -->
+<p><a id="r6--geral--oportunidade"></a></p></section><section class="consulta-regra" id="r6--regra-4"><h4>Bloquear</h4>
+<p><strong>Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.</strong> Essa escolha é feita contra cada ataque, <strong>antes da rolagem de acerto do atacante</strong>, sem conhecer seu resultado. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.</p>
+<blockquote>
+<p><strong>Bloquear = 2d10 + (sua Defesa - 11)</strong>.</p>
+</blockquote>
+<p>Bloquear é gratuito, <strong>não gasta Reação</strong> e está disponível tanto para personagens quanto para inimigos. Não exige arma ou escudo. Você pode usá-lo novamente contra outro ataque, mesmo que já tenha gasto sua Reação.</p>
+<h5>Resolução</h5>
+<ol>
+<li>Use sua Defesa contra aquele ataque, incluindo cobertura, bônus e penalidades aplicáveis. Subtraia 11 para encontrar o modificador de Bloquear.</li>
+<li>Role dois d10 e some esse modificador. Confira antes os resultados <strong>duplo 10 e duplo 1</strong>, explicados em <a href="#r6--geral--aparar">Aparar e Brecha</a>.</li>
+<li>Fora desses extremos, compare o ataque com o total obtido. Se o ataque igualar ou superar Bloquear, acerta. Se ficar abaixo, erra.</li>
+</ol>
+<p><strong>O resultado substitui a Defesa, mesmo se for menor.</strong> Você não escolhe o maior dos dois depois de rolar. A ficha pode trazer a conta pronta: <strong>Defesa 17; Bloquear 2d10 + 6</strong>.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma maldição declara um ataque contra Rina, cuja Defesa é 17. Antes da rolagem da maldição, Rina escolhe Bloquear. A maldição obtém 18 no ataque. Rina tira 7 e 4: <strong>7 + 4 + 6 = 17</strong>. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.</p>
+</blockquote>
+<h5>Limites</h5>
+<p><strong>Guarda Aberta impede Bloquear.</strong> Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.</p>
+<p>Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade que use os dados dessa rolagem continua seguindo seu próprio texto.</p>
+<p>A propriedade <strong>Talha</strong> aplica <strong>-1 ao resultado de Bloquear</strong> contra a arma que a possui. Ela não reduz sua Defesa estática nem muda os resultados naturais dos dois d10.</p>
+<p>Quando um efeito impuser desvantagem a Bloquear, role o conjunto completo duas vezes. Mantenha Brecha se ela sair em qualquer conjunto. Sem Brecha, mantenha um resultado comum em vez de Aparar; entre dois comuns, use o menor total. Só há Aparar se ambos os conjuntos mostrarem duplo 10. Os dados descartados não produzem efeito.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#aparar -->
+<p><a id="r6--geral--aparar"></a></p></section><section class="consulta-regra" id="r6--regra-5"><h4>Agarrar, derrubar e empurrar</h4>
+<p>Um golpe pode servir para impedir a fuga, tirar alguém do caminho ou colocá-lo no chão. Ao realizar a <strong>Ação Atacar</strong>, você pode substituir um de seus ataques por uma das manobras abaixo.</p>
+<h5>Faça a manobra</h5>
+<p>Escolha uma criatura <strong>ao alcance do seu ataque desarmado</strong>, normalmente 1,5 m, e de <strong>até uma categoria de tamanho maior que você</strong>. Você precisa conseguir alcançá-la fisicamente. Depois, declare a manobra. As categorias de tamanho, da menor para a maior, são <strong>Minúsculo, Pequeno, Médio, Grande, Imenso e Colossal</strong>. Um humano comum é Médio; o tamanho do alvo é o indicado em sua ficha.</p>
+<p>O alvo faz um <strong>TR Físico contra CD 8 + sua Força + sua maestria</strong>. Ele usa o atributo de TR Físico escolhido na criação. Igualar ou superar a CD evita a manobra; falhar aplica o efeito escolhido.</p>
+<table>
+<thead>
+<tr>
+<th>Manobra</th>
+<th>Efeito na falha do alvo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Agarrar</strong></td>
+<td>O alvo fica <strong>Agarrado por você</strong>, com deslocamento zero. Você precisa de uma mão livre, que fica ocupada enquanto mantiver a contenção.</td>
+</tr>
+<tr>
+<td><strong>Derrubar</strong></td>
+<td>O alvo fica <strong>Derrubado</strong>.</td>
+</tr>
+<tr>
+<td><strong>Empurrar</strong></td>
+<td>O alvo é afastado <strong>1,5 m de você</strong>, por um percurso possível. Uma parede ou outro obstáculo sólido interrompe o movimento.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cada tentativa substitui um ataque, mesmo quando o alvo resiste.</strong> Se sua Ação Atacar permite dois ataques, você pode tentar agarrar com um e golpear com o outro, ou fazer duas manobras.</p>
+<p>A manobra substitui o dano: não há rolagem de ataque, crítico nem adicionais de dano de ataque. Ela não conta como acerto ou erro e não ativa efeitos que dependem deles, como um benefício por acertar. Proteções contra TR Físico provocado por ataque podem se aplicar; defesas que exijam rolagem de ataque ou acerto não. Ainda faz parte da <strong>Ação Atacar</strong>.</p>
+<h5>Mãos, armas e alcance</h5>
+<p>Cada mão pode manter uma criatura agarrada. Você pode atacar com outra mão, uma arma disponível ou outras partes do corpo. A contenção comum não prende uma arma ou um membro específico do alvo.</p>
+<p>Uma arma que permita agarrar informa seu alcance e como fica ocupada em <strong>Equipamento</strong>.</p>
+<p>Essas opções pertencem à Ação Atacar. Um ataque concedido por <strong>Ação Bônus ou ataque de oportunidade</strong> não pode ser trocado por elas sem uma permissão específica. Uma habilidade que já empurra, derruba ou agarra usa seus próprios requisitos e efeitos.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem Força 3 e maestria 1: sua CD é 12. Ela troca um ataque por Agarrar. A maldição soma 10 no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar outro ataque disponível para golpeá-la.</p>
+</blockquote>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#contencoes -->
+<p><a id="r6--geral--contencoes"></a></p></section><section class="consulta-regra" id="r6--regra-6"><h4>Escapar de uma contenção</h4>
+<p><strong>Agarrado</strong> deixa seu deslocamento em zero. Você ainda pode atacar, conjurar e Bloquear, respeitando as exigências de cada ação. Prender uma arma ou impedir um ataque exige um efeito que diga isso.</p>
+<h5>Escapar</h5>
+<p>No seu turno, gaste uma <strong>Ação Padrão</strong> e faça um <strong>TR Físico contra a CD da contenção</strong>. Use a CD com que ela foi aplicada: normalmente <strong>8 + Força + maestria de quem agarrou você</strong>. No sucesso, a contenção termina; na falha, você permanece agarrado. Se duas criaturas o seguram, escolha de qual contenção tenta escapar.</p>
+<p>Escapar não concede ataque nem movimento. Depois do sucesso, você pode usar o movimento que ainda tiver disponível. Contenções criadas por feitiços ou habilidades seguem as formas de saída indicadas nelas.</p>
+<p>Quem agarrou pode soltar o alvo <strong>sem gastar ação</strong>. A contenção também termina se essa pessoa ficar com a Guarda Aberta ou Inconsciente, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.</p>
+<h5>Arrastar</h5>
+<p>Você pode mover uma criatura agarrada dentro dos limites de <strong>Arrastar e transportar</strong>, mantendo o alcance e as exigências da contenção. A vítima não gasta movimento e não provoca oportunidade por ser arrastada. Seus próprios movimentos podem provocar.</p>
+<h5>No chão e sob ataque</h5>
+<p>Estar Agarrado não impede gastar sua <strong>Ação de Movimento para se levantar</strong> da condição Derrubado comum. Você continua agarrado e no mesmo espaço. Uma habilidade que permita levantar de outro modo conserva essa permissão.</p>
+<p>Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#movimento -->
+<p><a id="r6--geral--movimento"></a></p></section><section class="consulta-regra" id="r6--regra-7"><h4>Dano na alma</h4>
+<p><strong>Integridade</strong> acompanha o dano de Alma. Anote seu máximo e valor atual separadamente da vida.</p>
+<blockquote>
+<p><strong>Integridade máxima do personagem = 20 + (Essência + 5) × (nível − 1).</strong></p>
+</blockquote>
+<p>Criaturas que não sejam personagens jogadores usam metade da vida máxima, arredondada para baixo, com mínimo 1 quando a vida máxima for positiva, salvo uma regra própria de sua ficha. Uma criatura sem alma só recebe dano de Alma se alguma regra permitir.</p>
+<h5>Receber dano de Alma</h5>
+<p>Cada ponto desconta <strong>1 de vida e 1 de Integridade</strong>. Um efeito que diga atingir somente Integridade conserva essa exceção. Vida temporária absorve a parte que iria à vida, mas não protege Integridade.</p>
+<p>Dano de Alma não recebe a redução pela metade própria do TR ou de resistência. Reduções numéricas aplicáveis ao golpe entram antes de descontar as reservas. Imunidade expressa a Alma continua impedindo esse dano. Um efeito que seja inteiramente evitado por um TR bem-sucedido não causa dano por essa regra.</p>
+<p>Anote as perdas e compare a Integridade atual com os limites de <strong>Estágios de Integridade</strong>. Não há um teste adicional para avançar estágio além dessa perda.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> um golpe de 8 de Alma atinge Rina. Uma redução aplicável diminui o golpe para 5. Ela possui 3 de vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.</p>
+</blockquote>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#integridade -->
+<p><a id="r6--dano--integridade"></a></p></section><section class="consulta-regra" id="r6--regra-8"><h4>Estágios de Integridade</h4>
+<p>O estágio depende de quanto falta para sua Integridade máxima. Use o estágio mais alto cujo limite tenha sido atingido. Os efeitos dos anteriores continuam valendo.</p>
+<table>
+<thead>
+<tr>
+<th>Integridade perdida</th>
+<th>Estágio</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menos de 1/4</td>
+<td>0</td>
+<td>Nenhuma penalidade.</td>
+</tr>
+<tr>
+<td>Pelo menos 1/4</td>
+<td>1</td>
+<td>Desvantagem em testes de perícia.</td>
+</tr>
+<tr>
+<td>Pelo menos 1/2</td>
+<td>2</td>
+<td>Deslocamento pela metade. Cada feitiço custa +1 PE por Classe.</td>
+</tr>
+<tr>
+<td>Pelo menos 3/4</td>
+<td>3</td>
+<td>Desvantagem em ataques e TRs. Classe máxima de conjuração cai à metade, para baixo, com mínimo 1 se já possuir Classe 1.</td>
+</tr>
+<tr>
+<td>Toda</td>
+<td>4</td>
+<td>Você fica Inconsciente e Derrotado, conforme <strong>Derrota e morte</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Compare frações exatas. Com Integridade máxima 26, perder 6 ainda não chega a 1/4. Perder 7 alcança estágio 1. Corrija as distâncias reduzidas para a escala de 1,5 m pelas regras de Movimento.</p>
+<h5>Recuperar Integridade</h5>
+<p>Cura de vida não recupera Integridade. Uma capacidade que restaure essa reserva e o descanso longo seguem seus próprios valores. <strong>Ao recuperar Integridade, recalcule o estágio.</strong> A recuperação pode retirar penalidades dos estágios que você deixou.</p>
+<p>Chegar ao estágio 4 encerra sua participação naquela cena, mesmo que alguém restaure pontos logo depois. A recuperação permite o socorro e a recuperação posterior, conforme Derrota e morte. Ela não restaura um personagem morto nem desfaz uma consequência permanente.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Kaori tem máximo 26. Está com 12 de Integridade e perdeu 14, por isso está no estágio 2. Recuperar 5 a deixa com 17. Faltam 9 para o máximo, menos da metade, e seu estágio cai para 1. Recuperar mais 3 a deixaria com 20, no estágio 0.</p>
+</blockquote>
+<p>Vida e Integridade são acompanhadas separadamente. Se a mesma ocorrência zerar as duas, resolva a derrota por Integridade. Escolher Insistir não permite agir com Integridade a zero.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#condicoes -->
+<p><a id="r6--dano--condicoes"></a></p></section><section class="consulta-regra" id="r6--regra-9"><h5>Leitura de Reservas</h5>
+<p>Ao passar num exame de fluxo com <strong>Sentir Energia</strong>, descubra também os <strong>PE atuais e máximos</strong> do alvo naquele momento. Mantenha o procedimento normal; esta é uma informação adicional do exame.</p></section></article><article id="personagens"><h2>Personagens e técnicas</h2><section class="consulta-regra" id="r7--regra-1"><h3>Ficha pronta</h3>
+<p>Antes da primeira missão, confira suas escolhas com o mestre. Use esta lista também quando transferir a ficha para outra ferramenta.</p>
+<ul>
+<li><strong>Identidade:</strong> nome, aparência, história, motivo para acompanhar o grupo, Origem, marcante, duas menores e Legados de história.</li>
+<li><strong>Atributos:</strong> nove pontos na criação padrão, entre 0 e 3 em cada atributo.</li>
+<li><strong>Treinos:</strong> perícias, ofícios, dois TR diferentes, atributo permanente do TR Físico e treino com armas.</li>
+<li><strong>Caminho:</strong> características, Trilha e todas as escolhas recebidas no nível inicial.</li>
+<li><strong>Capacidades:</strong> rota, aplicações completas, espaços ocupados, custos, requisitos e usos limitados.</li>
+<li><strong>Valores:</strong> vida, energia, Integridade, Defesa, deslocamento, carga, Maestria e Refino ou Lapidação.</li>
+<li><strong>Inventário:</strong> uniforme com a situação, o TR e as perícias do Traje, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.</li>
+</ul>
+<h4>Capacidades na ficha</h4>
+<p>Uma capacidade que você pretende usar precisa informar <strong>quando pode ser usada, o que gasta e o que acontece</strong>. Anote também alcance, alvos, duração e término quando forem necessários. Use o nome da entrada do livro como referência para detalhes que não couberem na ficha.</p>
+<p>Mantenha os valores atuais separados dos máximos. Depois de sofrer 5 de dano, uma personagem com 23 PV máximos fica com 18 atuais. Seu máximo continua 23. A mesma distinção vale para energia e outros recursos que a ficha acompanhar.</p>
+<h4>Registro da missão</h4>
+<p>Ao terminar, registre as recompensas, os gastos e as consequências que persistem. Confira descanso e recuperação antes de restaurar recursos. Se jogar numa guilda, use o procedimento de registro da comunidade para que a próxima mesa receba a ficha atualizada.</p>
+<p>As escolhas de crescimento estão em Progressão. Quando receber uma habilidade, prepare suas opções e confira as mudanças na ficha antes de usá-la na próxima missão.</p>
+<p><a id="r7--capitulo-5"></a></p></section><section class="consulta-regra" id="r7--regra-2"><h3>Personalizar sua Origem</h3>
+<p>Você pode criar com o mestre menores compatíveis com sua Origem, usando as entradas publicadas como referência. A marcante segue as opções publicadas para sua Origem; a exceção é a criação prevista em <strong>Criar sua Restrição</strong>, no ramo <strong>Restrição corporal</strong>. Registrem o pacote antes da primeira sessão: <strong>base, uma marcante e duas menores</strong>. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.</p>
+<p>Definam o que cada menor criada faz, quando funciona, ação, custo, frequência, limites e escolhas fixas. Comparem seu alcance com uma capacidade de função semelhante, incluindo as condições necessárias para usá-la. A história pode variar sem modificar a regra: outra aparência, material ou personalidade não concede benefícios extras.</p>
+<h4>Famílias próprias</h4>
+<p>Para um Descendente de uma família criada para a campanha, descrevam sua formação, relações e obrigações. Construam com o mestre uma versão coerente da base e menores próprias, usando os quatro clãs apresentados como referência. Para a marcante, adotem uma das modalidades publicadas do Descendente. A família define as opções disponíveis; seu nome não custa uma escolha adicional de marcante. Mantenham uma única base, uma marcante e duas menores elegíveis, sem reunir automaticamente os benefícios de vários clãs.</p>
+<h4>Rever a Origem</h4>
+<p>Uma perda duradoura pode tornar uma escolha incompatível com a história ou impedir seu funcionamento. <strong>Entre missões</strong>, jogador e mestre podem rever a escolha afetada para manter um pacote coerente. Isso não concede vagas extras nem permite trocar livremente toda a Origem a cada situação.</p>
+<p>A revisão não altera por si só sua técnica, Aptidões, Lapidação ou rota. Capacidades dessas partes da ficha seguem suas próprias permissões de mudança, em Progressão.</p>
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#legados-exemplos -->
+<p><a id="r7--origens--legados-exemplos"></a></p></section><section class="consulta-regra" id="r7--regra-3"><h5>Conselho Interior</h5>
+<p><strong>Requisito: Coexistência. Uma vez por cena</strong>, após falhar em Intuição ou Ocultismo, repita o teste e aceite o segundo resultado. As duas perícias compartilham o uso. A presença interpreta os indícios disponíveis; não lê pensamentos nem oferece conhecimento infalível.</p></section><section class="consulta-regra" id="r7--regra-4"><h4>Disputa pelo corpo</h4>
+<p>A disputa entre hospedeiro e ocupante é conduzida pela história combinada na mesa. Não há rotina automática de testes, limite de vida ou PE, ou falha desta Origem que entregue o controle do personagem. O livro de mestres aprofundará essa relação. Registre os acordos e mudanças que acontecerem na campanha sem acrescentar poderes à ficha por conta própria.</p>
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-descendente -->
+<p><a id="r7--origens--origem-descendente"></a></p></section><section class="consulta-regra" id="r7--regra-5"><h4>Reparo do corpo</h4>
+<p>Durante um <strong>descanso curto</strong>, uma pessoa treinada no <strong>ofício compatível anotado na sua ficha</strong>, com ferramentas e materiais adequados, pode reparar você. Pode ser outro personagem ou você mesmo, se estiver capaz de trabalhar. Há <strong>uma tentativa por corpo a cada descanso curto</strong>, mesmo com vários reparadores disponíveis.</p>
+<p>Use o procedimento e a tabela de <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#campo--inv-reparo">Reparar, em Cura e reparo</a>. Para um personagem desta Origem, compare as <strong>Classes máximas permitidas pelo nível</strong> de quem repara e de quem é reparado, sem depender das capacidades conhecidas.</p>
+<p>A CD é <strong>8 + atributo usado no ofício + Maestria do reparador + ajuste da comparação</strong>. No sucesso, um corpo da mesma Classe ou de Classe inferior recupera <strong>metade da vida máxima</strong>; uma Classe acima, <strong>um terço</strong>; duas ou mais acima, <strong>um quarto</strong>. Arredonde para baixo e não ultrapasse o máximo. A falha consome a tentativa. Especialização altera a rolagem, sem aumentar a base da CD.</p>
+<p>Manutenção Precisa permite a repetição descrita na marcante. Reparo Autônomo conserva sua própria ação, frequência e recuperação de 30%. Descanso longo e vida a zero seguem suas regras, sem exceção concedida por este reparo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e Maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.</p>
+</blockquote>
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-ninhada-gemeos -->
+<p><a id="r7--origens--corpo-ninhada-gemeos"></a></p></section><section class="consulta-regra" id="r7--regra-6"><h5>Reserva Condensada</h5>
+<p>Você aprendeu a preservar uma parcela de sua energia, reunindo aos poucos uma reserva para necessidades futuras. Ela permanece guardada até você decidir recorrer ao que acumulou.</p>
+<p>Jogador e mestre definem <strong>quanto pode ser guardado em cada ocasião, quando e em quais condições o armazenamento pode ocorrer e o máximo acumulável</strong>. Registre esses limites e condições na ficha.</p></section><section class="consulta-regra" id="r7--regra-7"><h4>Pontos e preços</h4>
+<p>A <strong>Classe</strong> define os pontos, o custo em PE e o limite de peças. Escolha uma Classe disponível, de 1 até a sua maior. Feitiços de Classe 0 têm regras próprias.</p>
+<table>
+<thead>
+<tr>
+<th>Classe</th>
+<th>Nível mínimo</th>
+<th>Pontos / PE</th>
+<th>Leve</th>
+<th>Média</th>
+<th>Pesada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>5</td>
+<td>6</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>9</td>
+<td>9</td>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4</td>
+<td>13</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>5</td>
+<td>17</td>
+<td>15</td>
+<td>3</td>
+<td>5</td>
+<td>8</td>
+</tr>
+<tr>
+<td>6</td>
+<td>21</td>
+<td>18</td>
+<td>3</td>
+<td>6</td>
+<td>9</td>
+</tr>
+<tr>
+<td>7</td>
+<td>26</td>
+<td>21</td>
+<td>4</td>
+<td>7</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<p>Os pontos e o PE são <strong>3 × Classe</strong>. Uma peça Leve custa metade da Classe; Média custa a Classe; Pesada custa uma vez e meia a Classe. Arredonde os preços para cima. Aplique depois o desconto das Famílias Livres às Melhorias.</p>
+<h5>Quantidade de peças</h5>
+<table>
+<thead>
+<tr>
+<th>Classe</th>
+<th>Melhorias</th>
+<th>Restrições</th>
+<th>Devolução máxima</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 e 2</td>
+<td>Até 2</td>
+<td>Até 2</td>
+<td>2 × Classe</td>
+</tr>
+<tr>
+<td>3 e 4</td>
+<td>Até 3</td>
+<td>Até 2</td>
+<td>2 × Classe</td>
+</tr>
+<tr>
+<td>5 a 7</td>
+<td>Até 4</td>
+<td>Até 2</td>
+<td>2 × Classe</td>
+</tr>
+</tbody>
+</table>
+<p>O limite de Melhorias conta cada compra separadamente, incluindo Efeito Próprio. A base da função e a Forma ficam fora dele. Para comprar a mesma Melhoria mais de uma vez, siga a permissão de sua entrada; uma criação própria exige acordo com o mestre antes do uso. Reunir duas Melhorias em uma descrição conserva o custo e a contagem de ambas. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.</p>
+<h5>Cálculo dos pontos</h5>
+<p>Faça a conta depois de escolher as funções e a Forma:</p>
+<ol>
+<li><strong>Base:</strong> pague a maior base exigida pelas funções e acrescente o custo da Forma. A tabela seguinte apresenta as bases Leve e Média e seu compartilhamento.</li>
+<li><strong>Melhorias:</strong> some os preços realmente pagos, depois dos descontos de Família Livre.</li>
+<li><strong>Devolução:</strong> some as devoluções das Restrições válidas e a devolução Leve de Toque, quando aplicável. Aproveite no máximo o gasto em Melhorias e no máximo 2 × Classe. O excedente se perde.</li>
+<li><strong>Saldo:</strong> dos pontos iniciais, retire a base e as Melhorias, depois acrescente a devolução aproveitada.</li>
+</ol>
+<p><strong>Saldo = 3 × Classe − base − Melhorias + devolução aproveitada.</strong></p>
+<p>A montagem deve terminar com saldo igual ou maior que zero. Distribua os pontos disponíveis entre as funções escolhidas na criação, respeitando seus limites. Você também pode deixar pontos sem uso.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Um feitiço de Classe 3 tem 9 pontos. Sua base de cura individual custa 3 pontos, e Guarda custa mais 3. Os 3 pontos restantes fornecem 3d8 de cura ao aliado, que também recebe +2 Defesa. Essa montagem tem uma Melhoria e nenhuma Restrição; cada conjuração custa 9 PE.</p>
+</blockquote>
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#funcoes -->
+<p><a id="r7--fundamento--funcoes"></a></p></section><section class="consulta-regra" id="r7--regra-8"><h5>Toque, Aura e proximidade</h5>
+<p><strong>Toque</strong> tem custo zero e concede uma devolução Leve nas montagens comuns de Classes 1 a 7. Essa devolução compensa pontos pagos em Melhorias, respeitando o teto geral de 2 × Classe junto das Restrições. Ela fica fora das duas vagas de Restrição. Uma ficha que só possa afetar você fica sem a devolução por proximidade.</p>
+<p><strong>Aura custa Leve</strong> pela área centrada em você. Essa Forma não concede devolução por proximidade. Toque e Aura não podem escolher <strong>Queima-Roupa</strong>.</p>
+<p><strong>Queima-Roupa</strong> ocupa uma das duas vagas de Restrição. Em Projétil, limita os alvos a 1,5 m e devolve Média. Em Explosão, Cone ou Linha, fixa a origem da área em você e devolve Leve. O tamanho da área permanece igual: um Cone de 4,5 m continua se estendendo por 4,5 m. Consulte a entrada da Restrição para as incompatibilidades.</p>
+<p><strong>Longe</strong> amplia o alcance até um alvo ou uma origem escolhida. <strong>Maior</strong> amplia as dimensões da área. Toque e Aura mantêm suas medidas de alcance; Queima-Roupa também impede ampliar a distância até seus alvos ou sua origem.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Na Classe 3, Toque com Precisão de preço normal custa 2 pontos em Melhorias e devolve Leve, que vale 2. O saldo é 9 − 2 + 2 = <strong>9d8 de dano</strong>, com o bônus de Precisão e alcance de 1,5 m. A montagem usa uma Melhoria e nenhuma Restrição.</p>
+</blockquote></section><section class="consulta-regra" id="r7--regra-9"><h4>Efeito Próprio</h4>
+<p><strong>Família: definida com o mestre.</strong></p>
+<p><strong>Preço: definido com o mestre, antes da sessão.</strong></p>
+<p>Esta Melhoria cria uma capacidade que não existe no catálogo. Cada compra conta no limite normal de Melhorias da Classe, sem um limite adicional só para peças próprias.</p>
+<p>Confira se uma entrada existente atende à proposta. Passo, por exemplo, permite um deslocamento durante a conjuração. Você pode adaptar a aparência desse movimento à técnica usando a mesma compra.</p>
+<h5>Uma capacidade nova</h5>
+<p>Escreva o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique também o que encerra o efeito e uma situação em que ele não funciona. Compare esses campos com as peças de função mais próxima; o mestre define o preço em pontos e registra o motivo na ficha.</p>
+<p>Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Essa escolha determina o acesso e o desconto de Livre da rota. Se nenhuma Família for adequada, registrem o preço integral, sem desconto de Família. A criação deve respeitar as proibições das Famílias Fechadas. Quando houver benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.</p>
+<p><strong>Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.</strong> Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Aprovar a peça uma vez não aprova sua repetição. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.</p>
+<p>Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Compare o funcionamento das propostas: uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.</p>
+<h5>Limites da técnica</h5>
+<p>A capacidade deve respeitar as funções permitidas pela Descrição e pela Regra do Fundamento. Qualquer recurso ou ação concedida precisa estar expressamente definido e pago. A aquisição de entidades e os espaços de repertório continuam seguindo suas próprias regras.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> para transportar uma aliada sobre uma plataforma de papel, registre a distância percorrida e a quantidade de pessoas que ela suporta. Defina se o movimento depende do chão e como a plataforma interage com obstáculos. Use essas informações para resolver o deslocamento em jogo.</p>
+</blockquote>
+<p>Os procedimentos e os exemplos completos estão em <strong>Efeitos próprios</strong>, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.</p>
+<!-- fonte:catalogo/lote-01/CATALOGO.md#cat-restricoes -->
+<p><a id="r7--catalogo--cat-restricoes"></a></p></section><section class="consulta-regra" id="r7--regra-10"><h4>Talento Próprio</h4>
+<p>Você continua livre para criar com o mestre fora dos exemplos deste capítulo; os campos abaixo ajudam a registrar a proposta.</p>
+<p><strong>Categoria de Efeito 1, 2 ou 3. Custos e níveis da Categoria escolhida.</strong> Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Talentos pagos.</p>
+<h5>Defina a aplicação</h5>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Pergunta que a ficha responde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Função</td>
+<td>Qual benefício concreto ela concede?</td>
+</tr>
+<tr>
+<td>Gatilho</td>
+<td>Quando funciona? O efeito é permanente ou depende de um acontecimento?</td>
+</tr>
+<tr>
+<td>Uso</td>
+<td>Há ação, Reação, PE ou limite por cena, dia ou descanso?</td>
+</tr>
+<tr>
+<td>Alvos</td>
+<td>Quem é afetado, a que distância e com quais requisitos?</td>
+</tr>
+<tr>
+<td>Resolução</td>
+<td>Há teste, CD, duração ou forma de encerrar?</td>
+</tr>
+<tr>
+<td>Comparação</td>
+<td>Qual Talento da mesma Categoria oferece um benefício semelhante?</td>
+</tr>
+</tbody>
+</table>
+<p>Informação limitada ou um efeito pequeno e condicional costuma caber na Categoria de Efeito 1. Na Categoria de Efeito 2, compare o benefício e o seu gatilho: nem todo Talento precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Categoria de Efeito 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.</p>
+<h5>Limites</h5>
+<p>Uma criação própria não pode conceder bônus de acerto ou dano permanente e sem condição, uma ação extra por rodada, imunidade completa a um tipo de dano ou condição, cura ilimitada ou redução fixa do dano de todo golpe recebido. Exceções expressas do catálogo, como Raiz, não liberam versões gerais desses benefícios.</p>
+<p>A proposta precisa respeitar a Regra e as Famílias disponíveis. Não use um Talento próprio para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.</p>
+<p>Talento Próprio e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de <strong>Invocações</strong>.</p>
+<p>A Expressão da técnica reúne detalhes de aparência e expressão pessoal. Benefícios funcionais exigem uma escolha paga adequada, mesmo quando forem descritos sem números. Isso inclui revelar informação protegida ou vencer um obstáculo sem o teste exigido.</p>
+<p><a id="r7--capitulo-12"></a></p></section><section class="consulta-regra" id="r7--regra-11"><h4>Regra Própria</h4>
+<p>Você continua livre para criar com o mestre fora dos exemplos deste capítulo; os campos abaixo ajudam a registrar a proposta.</p>
+<p>Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma <strong>Regra Própria</strong>, definida com o mestre antes da campanha. Ela é um Talento específico, com aquisição diferente das demais.</p>
+<table>
+<thead>
+<tr>
+<th>Categoria de Efeito</th>
+<th>Nível mínimo</th>
+<th>Espaços ocupados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>Nenhum. É a versão inicial.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>7</td>
+<td>1 espaço no total.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>13</td>
+<td>2 espaços no total.</td>
+</tr>
+</tbody>
+</table>
+<p>Ao melhorar de Categoria de Efeito 2 para 3, ocupe somente <strong>mais um espaço</strong>. Regra Própria não conta no máximo de cinco Talentos pagos. O nome se refere a este efeito. A <strong>Regra do Fundamento</strong> continua sendo a frase que define o funcionamento da técnica inteira.</p>
+<h5>Escreva o efeito</h5>
+<p>Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:</p>
+<ul>
+<li><strong>Gatilho verificável.</strong> O grupo identifica quando acontece.</li>
+<li><strong>Simetria.</strong> A mesma consequência pode valer contra você, nas mesmas condições.</li>
+<li><strong>Sem dano direto.</strong> Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.</li>
+<li><strong>Limite por cena.</strong> Escreva quantas vezes a consequência pode ser aplicada.</li>
+</ul>
+<p>Compare seu resultado com os Talentos da mesma Categoria. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Categoria de Efeito 1.</p>
+<h5>Exemplo: aposta entre dois</h5>
+<p><strong>Regra:</strong> uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.</p>
+<p>Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado e mantenham a disputa genuína, com o vencedor ainda por decidir. Empate consome a aposta da cena sem conceder vantagem. As ações disponíveis e os testes já resolvidos permanecem inalterados. Esta proposta original de <strong>Categoria de Efeito 1</strong> depende da aprovação da mesa.</p>
+<p>Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.</p>
+<!-- fonte:catalogo/lote-01/CATALOGO.md#cat-passiva-propria -->
+<p><a id="r7--catalogo--cat-passiva-propria"></a></p></section><section class="consulta-regra" id="r7--regra-12"><h4>Aptidão Própria</h4>
+<p><strong>Uma única vez na ficha. Categoria de Efeito 1 ou 2.</strong> Você cria uma aptidão com o mestre antes da sessão; <strong>ele define o tamanho do efeito</strong>. Ela representa um aprendizado específico de energia que o catálogo ainda não cobre.</p>
+<p>Escreva uma frase de regra. Ela precisa dizer <strong>quando funciona, quem afeta e o que permite fazer</strong>. Acrescente ação, custo, distância e encerramento quando forem necessários. A descrição pode ser curta, mas deve bastar para outra mesa aplicar a mesma regra.</p>
+<h5>Limites</h5>
+<p>A proposta não pode copiar uma aptidão existente com outro nome, dispensar seus requisitos ou acrescentar dados de dano. Aptidão Própria de Categoria de Efeito 2 também precisa de um limite por cena.</p>
+<p>Avalie a frequência real de uso no tipo de missão da campanha. Compare também a magnitude, o custo de ação, os alvos e o alcance com os Talentos da mesma Categoria de Efeito. Efeitos pequenos ou de informação costumam caber na Categoria 1. Intervenções mais relevantes podem exigir Categoria 2 e seu limite por cena. Permanência, sozinha, não transforma um benefício pequeno em Categoria 3. Efeitos que precisem dessa terceira Categoria ficam fora desta opção.</p>
+<h5>Exemplos</h5>
+<p>A comparação abaixo serve como apoio. Quem define o tamanho da Aptidão Própria é o mestre.</p>
+<table>
+<thead>
+<tr>
+<th>Proposta</th>
+<th>Apoio à avaliação do mestre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Com uma Ação Padrão examinando um objeto que toca, identificar se ele recebeu energia amaldiçoada nas últimas 24 horas.</td>
+<td>Categoria 1, se esse vestígio específico for relevante raramente na campanha. Não revela autor, intenção ou identidade da técnica.</td>
+</tr>
+<tr>
+<td>Uma vez por cena, depois que um aliado a até 9 m falha em um TR, usar sua Reação para ele rolar de novo, conservando o segundo resultado.</td>
+<td>Categoria 2. Tem gatilho, alcance, custo de ação e limite.</td>
+</tr>
+<tr>
+<td>Receber um ataque adicional em toda rodada, sem gastar ações.</td>
+<td>Recusada: concede ações adicionais contínuas, fora dos limites das criações próprias.</td>
+</tr>
+</tbody>
+</table>
+<p>Aptidão Própria usa uma escolha de aptidão. Uma concessão da criação que já preencha essa opção também consome a escolha única da ficha. Mudanças posteriores precisam ficar registradas junto da regra aprovada.</p>
+<p><a id="r7--capitulo-13"></a></p></section><section class="consulta-regra" id="r7--regra-13"><h4>Bênção Própria</h4>
+<p>Você pode desenvolver <strong>uma Bênção Própria por personagem</strong>, de Categoria de Efeito 1 ou 2. Crie-a com o mestre antes da sessão e adquira-a por uma escolha de Bênção, respeitando a Lapidação mínima da Categoria de Efeito.</p>
+<p>Escreva primeiro uma frase que diga o que o corpo consegue fazer. Depois, registre gatilho, alcance, duração e limites necessários. A mesa deve conseguir decidir quando o efeito aconteceu sem discutir novamente a proposta a cada uso.</p>
+<h5>Limites</h5>
+<p>A Bênção segue a orientação de <strong>Aptidões e Refino — Aptidão Própria</strong>. Ela não acrescenta dados de dano. Se for Categoria de Efeito 2, precisa de um limite por cena. Não pode copiar uma Bênção existente ou fornecer uma capacidade cujo requisito você não alcançou.</p>
+<p>Uma proposta com requisito de Força ou Constituição deve conceder um feito corporal específico, ligado à sobrevivência, à recuperação ou a outra capacidade física. Bônus, vantagem ou repetição de uma perícia não bastam para representar esse feito.</p>
+<p>Efeitos de Categoria de Efeito 3 ficam fora desta opção. Se a mesa não conseguir limitar a proposta à Categoria de Efeito 1 ou 2, reduza seu alcance ou escolha outra ideia.</p>
+<h5>Exemplo: Marca do pulso</h5>
+<p><strong>Proposta de Categoria de Efeito 1:</strong> ao encostar a mão numa estrutura que acabou de sofrer um impacto perceptível, você distingue qual parte conectada a ela recebeu esse impacto, até 3 m do ponto tocado.</p>
+<p>O efeito usa a vibração que ainda está ocorrendo. Um piso atingido pode indicar o degrau que acabou de ceder. Uma parede pode indicar a porta que foi golpeada. A Bênção não identifica quem provocou a vibração nem percebe um acontecimento silencioso encerrado antes do contato.</p>
+<p>Essa proposta revela uma informação específica por meio do tato. Não substitui Faro, não revela uma criatura atrás da parede e não permite escolher alvos sem visão. Sua aprovação e seus limites devem ficar registrados na ficha. Outros exemplos são avaliados pelo efeito concreto, não apenas pelo nome.</p>
+<p><a id="r7--capitulo-14"></a></p></section><section class="consulta-regra" id="r7--regra-14"><h4>Liberação Máxima</h4>
+<p>Uma <strong>Liberação Máxima</strong> concentra mais dano num feitiço preparado. Você recebe uma no nível <strong>10</strong>, outra no <strong>20</strong> e outra no <strong>30</strong>. Elas não ocupam espaços de feitiços conhecidos.</p>
+<p>Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use o procedimento comum e acrescente <strong>+Classe em d8</strong> ao dano da montagem. Ela não serve para cura.</p>
+<h5>Custo e uso</h5>
+<p>O custo é <strong>3 × Classe de PE, aumentado em 50%</strong>, arredondado para cima. A Liberação exige <strong>Ação Completa</strong>. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, conforme Turnos.</p>
+<p>Escolha também um destes preços a cada uso:</p>
+<table>
+<thead>
+<tr>
+<th>Preço</th>
+<th>Consequência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vazio</td>
+<td>Você não conjura no próximo turno.</td>
+</tr>
+<tr>
+<td>Sangue</td>
+<td>Sofre 4 × Classe de dano irredutível, direto na vida.</td>
+</tr>
+<tr>
+<td>Peso</td>
+<td>Fica Lento e tem desvantagem em TR até o fim do próximo turno.</td>
+</tr>
+</tbody>
+</table>
+<p>Os preços da tabela são consequências obrigatórias do uso da Liberação e ficam fora da devolução de pontos. A ação permanece Completa, mesmo com Rápido ou Reação. Atrasar e Parado ficam sem devolução porque essa ação já exige o turno. Se a ficha tiver Sem Volta, escolha Sangue ou Peso: Vazio repetiria a proibição de conjurar já registrada.</p>
+<h5>Exemplo: Corte de ruptura</h5>
+<p>Uma Liberação de Classe 3 usa <strong>Linha</strong>, que custa 2 pontos. Sem Melhorias ou Restrições, sobram <strong>9 − 2 = 7d8</strong>. A Liberação acrescenta 3d8: <strong>10d8</strong> numa linha de 18 m por 1,5 m, com origem escolhida a até 18 m.</p>
+<p>Seu custo é <strong>9 + 4,5 = 13,5</strong>, arredondado para <strong>14 PE</strong>. O alvo faz o TR registrado na ficha: recebe o dano na falha ou metade do resultado do dano no sucesso. O usuário paga Ação Completa e escolhe Vazio, Sangue ou Peso.</p>
+<p>A Linha continua exigindo seu custo, pois Atrasar repete uma exigência da Liberação e fica sem devolução. Uma Restrição que acrescente uma dificuldade válida pode devolver pontos gastos em Melhorias, dentro dos limites comuns.</p>
+<h5>Progressão</h5>
+<p>Você pode Ampliar uma Liberação ou reescrevê-la pela troca de nível, mantendo as permissões da técnica e as incompatibilidades das peças. O acréscimo de dados desta seção se aplica à Liberação Máxima. A Técnica Máxima usa a tabela de dano de sua própria seção.</p>
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#maxima -->
+<p><a id="r7--fundamento--maxima"></a></p></section><section class="consulta-regra" id="r7--regra-15"><h4>Técnica Máxima</h4>
+<p>No nível <strong>17</strong>, você desenvolve uma aplicação excepcional da técnica. Pode concentrar um ataque, restaurar aliados ou realizar um Efeito próprio de grande alcance. Escreva o resultado e seus limites antes da sessão, com o mestre.</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>Dados de dano ou cura</th>
+<th>Pontos de montagem</th>
+<th>PE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17 a 20</td>
+<td>24d8</td>
+<td>8</td>
+<td>25</td>
+</tr>
+<tr>
+<td>21 a 25</td>
+<td>28d8</td>
+<td>12</td>
+<td>30</td>
+</tr>
+<tr>
+<td>26 a 30</td>
+<td>32d8</td>
+<td>16</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+<p>Use a coluna de <strong>pontos de montagem</strong> para pagar a Forma e as Melhorias. A quantidade de dados permanece igual ao valor indicado na tabela para sua faixa de nível. Descarte os pontos que sobrarem após as compras.</p>
+<h5>Montagem</h5>
+<p>Escolha a Forma e até <strong>quatro Melhorias</strong>, usando os preços da sua maior Classe. Essa Classe também define as medidas e os valores das peças. Famílias Livres dão seu desconto normal; Fechadas continuam indisponíveis. A Forma não recebe desconto.</p>
+<p>Escolha durante a criação se a Máxima causará dano, recuperará vida ou produzirá uma aplicação sem dano. Registre essa escolha e mantenha-a em todos os usos. Você recebe a Máxima pela progressão; ela fica fora dos espaços comuns e da troca por invocações.</p>
+<h5>Ação e recarga</h5>
+<p>A Máxima custa <strong>Ação Completa</strong> e <strong>5 × sua maior Classe em PE</strong>. Você a usa <strong>uma vez por cena</strong>. O mestre pode permitir outro uso depois de <strong>3 rodadas</strong>, sem contar a rodada em que a usou.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Mei usa a Máxima na rodada 1. Por padrão, só poderá usá-la de novo em outra cena. Se o mestre permitir a recarga, espera as rodadas 2, 3 e 4 e pode usá-la novamente na rodada 5, se tiver os recursos.</p>
+</blockquote>
+<h5>Restrições</h5>
+<p>A Máxima <strong>não aceita Restrições que devolvam pontos</strong>, incluindo Queima-Roupa. Toque mantém 1,5 m e não concede sua devolução automática nesta montagem. Aura conserva o custo e a origem no conjurador. Rápido e Reação não reduzem a Ação Completa.</p>
+<p>Você pode escrever um requisito necessário à ideia, como preparar duas marcas. Ele precisa constar da ficha e ser cumprido. Não amplia o orçamento. O Selo e os requisitos normais da rota continuam valendo.</p>
+<h5>Ataque, cura e utilidade</h5>
+<h5>Dano ou cura</h5>
+<p>Use os dados da faixa da Técnica Máxima. Na criação, registre dano ou cura e a Forma que entrega o resultado. A cura paga sua base Média; a aplicação coletiva paga também a Forma de área e exige Amparo e Área. Os dados de cura da Máxima não usam o teto comum. A cura coletiva alcança cada aliado elegível na região.</p>
+<p>Quando o alvo passa no TR de uma Máxima de dano, recebe <strong>três quartos do dano</strong>. Aplique depois as demais defesas e o arredondamento de Dano. Frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa.</p>
+<h5>Um ataque com outra função</h5>
+<p>Mei monta <strong>Fenda de Arrasto</strong>, na faixa 17 a 20: Projétil (0), Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre). São <strong>2 dos 8 pontos</strong> e duas Melhorias. Os pontos restantes se perdem. O dano continua <strong>24d8 de Cortante</strong>.</p>
+<blockquote>
+<p><strong>Na ficha:</strong> Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.</p>
+</blockquote>
+<p>Mei pode usar o movimento de Passo para se retirar depois do ataque. Empurrão também permite afastar o inimigo de um aliado.</p>
+<h5>Aplicação sem dano</h5>
+<p>Para criar uma Máxima de utilidade, defina sua função e descarte os dados de dano ou cura. O orçamento de montagem permanece o da tabela. O reforço de Controle dos feitiços comuns fica indisponível nessa aplicação.</p>
+<p>Uma Máxima benéfica pode aplicar as Melhorias escolhidas em um aliado disposto. Para conceder uma proteção especial em pontos de vida, crie um Efeito Próprio com quantidade definida. Os dados descartados e os pontos restantes da montagem ficam sem uso.</p>
+<p>Compare o efeito pretendido com um feitiço comum e confira o custo em PE das duas opções. Se o feitiço comum já atender à proposta com menor custo, ele pode ocupar essa função no repertório. Os exemplos seguintes apresentam Passagem de Papel, preparada fora de combate, e Retirada de Emergência, usada durante uma luta.</p>
+<h5>Melhorias da Técnica Máxima</h5>
+<p>Consulte a tabela abaixo antes de escolher as Melhorias de uma Técnica Máxima. Ela apresenta as permissões e os limites específicos dessa montagem.</p>
+<table>
+<thead>
+<tr>
+<th>Peça ou efeito</th>
+<th>Uso na Máxima</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Salto, Queima, Estilhaço, Acúmulo e Remate</td>
+<td>Não disponíveis: acrescentariam, repetiriam ou multiplicariam o dano fixado pela tabela.</td>
+</tr>
+<tr>
+<td>Quebra Coisa</td>
+<td>Permitida: dobra o dano inicial contra objetos, estruturas e barreiras que a ficha possa afetar.</td>
+</tr>
+<tr>
+<td>Fica e Inescapável</td>
+<td>Não disponíveis nesta montagem. Fica não repete dano, estados ou movimentos nem prolonga automaticamente uma duração própria. Inescapável dispensaria as formas normais de resistir ao dano.</td>
+</tr>
+<tr>
+<td>Armado e Segura</td>
+<td>Não podem preparar ou adiar uma Técnica Máxima. Sua ação e sua recarga pertencem ao uso que resolve o efeito.</td>
+</tr>
+<tr>
+<td>Rajada e Mais Um</td>
+<td>Dividem os dados entre os ataques ou alvos, sem copiar a quantidade.</td>
+</tr>
+<tr>
+<td>Mais Um com benefícios</td>
+<td>Reparte cura e vida temporária; Guarda, Impulso e Firmeza seguem a permissão expressa da peça. Não copia todo benefício.</td>
+</tr>
+<tr>
+<td>Resolução por TR</td>
+<td>É escolhida na montagem sem comprar uma peça. No sucesso, o alvo recebe três quartos do dano, pela regra da Técnica Máxima.</td>
+</tr>
+<tr>
+<td>Precisão, Fura e outras peças de aplicação</td>
+<td>Funcionam pelos próprios requisitos. Não concedem dados adicionais por sobra de pontos.</td>
+</tr>
+<tr>
+<td>Toca a Alma</td>
+<td>Conserva a redução à metade e os requisitos próprios. Não permite descartar a redução por se tratar de Máxima.</td>
+</tr>
+</tbody>
+</table>
+<p>Áreas aplicam os dados a cada alvo. A mesma criatura não recebe duas aplicações por ocupar mais de um quadrado. Críticos, resistência, vulnerabilidade e RD seguem as regras gerais. Concentrada e Duradoura podem prolongar estados compatíveis, mas não repetem o dano nem reaplicam uma condição que já terminou.</p>
+<h5>Efeito próprio em combate</h5>
+<p>Uma Máxima sem dano nem cura pode usar <strong>uma aplicação própria de utilidade em combate</strong> quando seu Efeito Próprio autorizar esse uso e definir alvos, resolução, duração e limites. Essa permissão vale apenas para a aplicação registrada. Não libera o procedimento de Efeito fora de combate dos feitiços comuns durante uma luta.</p>
+<p>Uma capacidade criada com requisito de Técnica Máxima fica restrita a essa modalidade, mesmo quando seu preço cabe no orçamento de uma Classe comum. Para usar uma versão comum, prepare uma capacidade separada e adequada à Classe.</p>
+<h5>Progressão</h5>
+<p>Ao atingir os níveis 21 e 26, atualize dados, pontos, preços e PE. Conserve as peças da aplicação. Se houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse momento. A mudança entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso.</p>
+<p>Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feitiço ao subir de nível. Uma correção exigida por mudança das regras não gasta essa revisão. Efeitos próprios só aumentam alvos, distâncias ou duração quando a ficha disser isso: mais pontos disponíveis não ampliam esses valores sozinhos.</p>
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#passagem -->
+<p><a id="r7--fundamento--passagem"></a></p></section><section class="consulta-regra" id="r7--regra-16"><h3>Expansão de Domínio</h3>
+<p>Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Ciclo Maldito para usar esse poder.</p>
+<p>A montagem de Liberação e Técnica Máxima está em <strong>Fundamento</strong>. As rotas Sem Técnica e Técnica Marcial não recebem Expansão por terem acesso à progressão de Classes.</p>
+<p>Você adquire Expansão com <strong>espaços de feitiços conhecidos</strong>. Os requisitos de nível e refino precisam ser atendidos juntos. Cada degrau aperfeiçoa o mesmo domínio; os espaços já gastos continuam contando para o custo total.</p>
+<table>
+<thead>
+<tr>
+<th>Degrau</th>
+<th>Espaços no total</th>
+<th>Requisitos</th>
+<th>Acerto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Incompleta</td>
+<td>2</td>
+<td>Nível 10 e refino 4</td>
+<td>Quando houver Acerto, rola como um feitiço.</td>
+</tr>
+<tr>
+<td>Completa</td>
+<td>3</td>
+<td>Incompleta, nível 14 e refino 5</td>
+<td>Garantido, sem ataque nem TR.</td>
+</tr>
+<tr>
+<td>Sem Barreiras</td>
+<td>5</td>
+<td>Completa, refino 10 e especialização em Ocultismo</td>
+<td>Garantido; permite escolher o modo aberto.</td>
+</tr>
+</tbody>
+</table>
+<p>Quem já possui Incompleta gasta <strong>mais um espaço</strong> para adquirir Completa. Quem possui Completa gasta <strong>mais dois</strong> para adquirir Sem Barreiras. O último degrau conserva os requisitos dos anteriores; a ausência de um novo requisito de nível não permite saltá-los.</p>
+<p>A Incompleta não fecha uma barreira. A Completa fecha. Quem adquiriu Sem Barreiras escolhe, a cada abertura, entre o domínio fechado e o aberto. Abrir fechado conserva todas as regras da Completa.</p>
+<h4>Registro</h4>
+<p>Anote o degrau, a Regra da técnica, o <strong>Acerto</strong>, quando houver, e o <strong>Efeito</strong> do domínio. Registre também o tipo de dano, quando houver, os alvos, a resolução da Incompleta e qualquer limite necessário para executar essas duas capacidades.</p>
+<p>Acerto é a aplicação que o domínio produz ao abrir e durante sua permanência. Efeito é a capacidade especial que você pode usar enquanto ele permanece. As próximas páginas separam essas funções.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Yuri alcança o nível 14 com refino 5 e uma Incompleta. Ela reserva mais um espaço conhecido para completar seu domínio. Passa de dois para três espaços ocupados, sem pagar os três novamente.</p>
+</blockquote>
+<p>Expansões não ocupam as vagas de Liberação Máxima e não aumentam os limites de montagem dos outros feitiços.</p>
+<!-- fonte:poderes-avancados/lote-01/PODERES-AVANCADOS.md#criardominio -->
+<p><a id="r7--poderes--criardominio"></a></p></section><section class="consulta-regra" id="r7--regra-17"><h3>Criar um domínio</h3>
+<p>Comece pela Regra da sua técnica e escolha o que ela estabelece sobre o lugar. Escreva o Acerto, quando houver, e o Efeito de modo que possam ser usados sem inventar uma regra nova a cada turno.</p>
+<h4>Acerto</h4>
+<p>O Acerto pode causar dano, transmitir uma informação definida ou estabelecer uma regra comum para o ambiente. Um Acerto de dano segue a quantidade indicada em <a href="#r7--poderes--acerto">Acerto do domínio</a>. Uma regra de ambiente precisa ser curta, verificável e aplicada igualmente aos sujeitos que ela descreve. <strong>Ela não vale contra você</strong>, salvo se a ficha do domínio disser que vale.</p>
+<p>“Enquanto estiverem aqui, criaturas não podem causar dano a outras criaturas” descreve uma proibição verificável. “Meus inimigos perdem porque estão no meu território” não informa uma resolução. Um Acerto informativo transmite apenas o conteúdo registrado: explicar uma regra não revela pensamentos, segredos ou fatos desconhecidos.</p>
+<h4>Efeito</h4>
+<p>Escolha uma capacidade ligada à técnica e descreva seu uso: quem pode ser afetado, de onde parte, que ação exige, quanto custa e quando termina. Ela pode mudar a origem de um feitiço ou permitir que você proteja alguém do Acerto, por exemplo.</p>
+<p>O Efeito não concede outro Acerto a cada turno nem libera Melhorias gratuitas. Quando ele permite usar um feitiço, você continua precisando conhecê-lo e pagar sua ação e PE. Permanecem os limites de Classe, dano, Famílias e resolução que a ficha não altera expressamente. Uma exceção deve estar escrita no Efeito e ter uma função delimitada; “amplifica tudo” não basta.</p>
+<p>Cura, proteção e controle com quantidades próprias precisam de uma aplicação definida; o dano do Acerto não pode ser convertido livremente nesses benefícios.</p>
+<p>Antes de registrar, mestre e jogador conferem se outra mesa conseguiria executar a ficha. Se uma capacidade ainda precisa de uma decisão para produzir seu resultado, essa decisão deve ser tomada na preparação.</p>
+<!-- fonte:poderes-avancados/lote-01/PODERES-AVANCADOS.md#acerto -->
+<p><a id="r7--poderes--acerto"></a></p></section><section class="consulta-regra" id="r7--regra-18"><h3>Acerto do domínio</h3>
+<p>Monte o Acerto de dano como um feitiço pela régua de <strong>Inescapável</strong>: são <strong>3 × sua maior Classe em pontos</strong>, menos o preço Médio dessa Melhoria. Cada ponto restante vira 1d8 em cada criatura afetada. Registre um tipo de dano compatível com a técnica. O desconto de Família Livre vale normalmente. O Acerto é o feitiço inteiro e não aceita outra peça.</p>
+<p>Por padrão, esse Acerto afeta as criaturas com energia amaldiçoada na área, <strong>exceto você</strong>. Aliados não são poupados automaticamente. Poupar alguém só é possível se o Efeito do domínio disser como fazê-lo. Objetos e criaturas sem energia só podem ser atingidos quando a ficha registrar uma aplicação da técnica capaz de alcançá-los; essa permissão não altera a quantidade de dados.</p>
+<h4>Completa</h4>
+<p>O Acerto acontece sem rolagem de ataque e sem Teste de Resistência. Defesa, cobertura e desvantagem em ataques não o fazem errar. O Acerto garantido ignora Redução de Dano, resistência e imunidade. Proteções contra o Acerto seguem suas próprias regras. Como não há ataque rolado, o Acerto não produz crítico.</p>
+<h4>Incompleta</h4>
+<p>O Acerto da Incompleta <strong>resolve por rolagem, como um feitiço</strong>. Se causar dano, escolha na criação entre ataque contra a Defesa e TR do alvo, registrando o teste na ficha. O ataque que erra não causa dano; quem passa no TR recebe metade do resultado do dano.</p>
+<p>Se o Acerto estabelecer uma regra de ambiente, quem estiver dentro faz o TR registrado para resistir, como num feitiço. Se o domínio tiver apenas Efeito, como um reforço para o dono ou uma capacidade que não atinja inimigos, não há Acerto nem rolagem.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Maior Classe 4, sem desconto de Família Livre, produz 12 − 4 = <strong>8d8</strong>. Na Completa, o Acerto ignora Redução de Dano, resistência e imunidade. Na Incompleta com TR, role os 8d8: um resultado de 36 causa <strong>18 de dano</strong> a quem passar. Completar o domínio remove esse teste; não dobra os dados.</p>
+</blockquote>
+<!-- fonte:poderes-avancados/lote-01/PODERES-AVANCADOS.md#protecao -->
+<p><a id="r7--poderes--protecao"></a></p></section><section class="consulta-regra" id="r7--regra-19"><h3>Atualizar a ficha</h3>
+<p>Faça a atualização no encerramento da missão, fora da resolução de um combate. Primeiro pague o XP e anote o novo nível. Depois siga esta ordem:</p>
+<ol>
+<li>Confira os valores comuns, aplique o marco quando houver e registre os benefícios do novo nível para a ficha atual.</li>
+<li>Calcule o crescimento dos máximos de vida e PE produzido por esse nível e marco, <strong>antes de qualquer troca de Trilha</strong>. Atualize os saldos conforme a regra abaixo.</li>
+<li>Se quiser e tiver alcançado um nível que permita, faça a troca de Trilha. Retire os benefícios antigos, receba os novos e confira seus requisitos.</li>
+<li>Preencha vagas novas e, se quiser, use a revisão de uma aplicação ou espaço.</li>
+<li>Recalcule os demais valores e limites afetados, incluindo os das entidades. Ajustes posteriores dos máximos não acrescentam vida ou PE ao saldo.</li>
+</ol>
+<h4>Vida e energia</h4>
+<p>Use os valores fixos do Caminho, antes de somar Constituição. Acrescente sua <strong>Constituição atual uma vez em cada nível</strong>:</p>
+<p><strong>Vida máxima = vida inicial fixa do Caminho + Constituição + (ganho fixo por nível do Caminho + Constituição) × (nível − 1).</strong></p>
+<p><strong>PE máximo = PE por nível do Caminho × nível</strong>, acrescido dos benefícios específicos. Um aumento permanente de Constituição recalcula toda a vida, não somente a parcela do nível recém-adquirido. Na variante de rolar a vida, use os resultados dos dados do Caminho no lugar dos valores fixos.</p>
+<p>A subida não é um descanso. <strong>Com permissão do mestre na mesa, ela pode recuperar vida e PE por completo.</strong> Integridade, Sequelas, condições e usos continuam fora dessa recuperação. <strong>Sem essa permissão, somente o aumento de máximo produzido pelo novo nível e seu marco acrescenta a diferença ao saldo atual</strong>, calculada com a ficha anterior à troca de Trilha. Assim, conserva o dano ou o PE que faltavam antes desse crescimento. Quem está a zero de vida permanece a zero e precisa do socorro apropriado. Essa exceção é da vida: PE atual zero recebe o aumento correspondente.</p>
+<p><strong>Troca de Trilha e outros ajustes da ficha não aumentam os saldos atuais.</strong> Se alterarem um máximo, conserve o saldo e apenas limite-o ao novo máximo. Com 40 de vida em um máximo de 100, reduzir o máximo a 90 deixa 40; voltar a 100 continua deixando 40.</p>
+<p>Condições, perdas de Integridade e outros custos não desaparecem. Usos por cena, combate ou descanso não são renovados pela subida.</p>
+<p><strong>Exemplo.</strong> Uma personagem com vida máxima 40 e atual 25 aumenta o máximo para 48. Fica com <strong>33 de vida</strong>, conservando os 15 pontos que faltavam. Só volta a 48 se o mestre permitir a recuperação completa de vida e PE.</p>
+<p>A Origem, sua marcante e as duas menores são escolhas da criação; subir de nível não concede novas vagas. Efeitos que dependam de nível acompanham sua própria regra. Uma perda duradoura pode permitir rever a escolha afetada entre missões, com jogador e mestre, conforme <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#origens--legado-criar">Rever a Origem</a>, sem troca livre ou vagas extras.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-trilhas -->
+<p><a id="r7--progressao--prog-trilhas"></a></p></section></article></main></html>

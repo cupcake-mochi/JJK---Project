@@ -1,0 +1,119 @@
+{
+  "registro": 115,
+  "fontes": [
+    {
+      "id": "c08",
+      "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "titulo": "Entre missões",
+      "sha256": "ea8ebc5206526fb95f4855f267aff5d2e6ed4406664b52ab175a38ec15a2e813"
+    },
+    {
+      "id": "c09",
+      "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "titulo": "Pactos e entidades",
+      "sha256": "ae2a7e819642d56cc78ae6994cd0f4e89d72c4be309b8b3c1102621d518b6ee0"
+    },
+    {
+      "id": "c10",
+      "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "titulo": "Jogar em guilda",
+      "sha256": "da97fe919d663a11c68b48861f34fb854e91fb825449c4f1430964546abeacd8"
+    }
+  ],
+  "consultas": [
+    {
+      "fonte": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "sha256": "d6db8ba6e5d2a7cfa690bd93114d6c492ac3adb1f99c82dc4b9175048486fd63",
+      "secoes": 20
+    },
+    {
+      "fonte": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "sha256": "f36a147dc1cb0d9a6f5ca22763b5971b6b26d460900bb3ea0719f49905f531f1",
+      "secoes": 18
+    },
+    {
+      "fonte": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "sha256": "6a66569c9954b356c7e1516ab0efaa79e1c3d154bf19ec9336bc4c03c1f4cdd1",
+      "secoes": 10
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html",
+  "html_sha256": "f9e02141538b9070a9216abd863a41819f1abdb71f51d2acd441b5314abb6d3a",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-115/output/pdf/Ciclo-Maldito-Capitulos-8-a-10-Revisao-Textual.pdf",
+  "pdf_sha256": "61a99c94b55d594eec77ed238baf155a08cdd2c7538b35254c3cda137e1b6fdb",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 582
+    },
+    {
+      "pagina": 2,
+      "palavras": 702
+    },
+    {
+      "pagina": 3,
+      "palavras": 649
+    },
+    {
+      "pagina": 4,
+      "palavras": 621
+    },
+    {
+      "pagina": 5,
+      "palavras": 624
+    },
+    {
+      "pagina": 6,
+      "palavras": 650
+    },
+    {
+      "pagina": 7,
+      "palavras": 545
+    },
+    {
+      "pagina": 8,
+      "palavras": 598
+    },
+    {
+      "pagina": 9,
+      "palavras": 644
+    },
+    {
+      "pagina": 10,
+      "palavras": 700
+    },
+    {
+      "pagina": 11,
+      "palavras": 630
+    },
+    {
+      "pagina": 12,
+      "palavras": 593
+    },
+    {
+      "pagina": 13,
+      "palavras": 698
+    },
+    {
+      "pagina": 14,
+      "palavras": 608
+    },
+    {
+      "pagina": 15,
+      "palavras": 664
+    },
+    {
+      "pagina": 16,
+      "palavras": 601
+    },
+    {
+      "pagina": 17,
+      "palavras": 607
+    },
+    {
+      "pagina": 18,
+      "palavras": 85
+    }
+  ],
+  "limite": "Prova parcial. Revisão das folhas e casos, conferência global e integração ainda pendentes. Fontes antigas preservadas."
+}

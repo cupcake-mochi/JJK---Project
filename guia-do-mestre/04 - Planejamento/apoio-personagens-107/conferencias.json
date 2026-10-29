@@ -1,0 +1,738 @@
+{
+  "registro": 107,
+  "pdf_sha256": "83b45b1e80fa097ea6eae91cf44a85dd809a048da65eab4a0f17c265a014305d",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 558
+    },
+    {
+      "pagina": 2,
+      "palavras": 652
+    },
+    {
+      "pagina": 3,
+      "palavras": 628
+    },
+    {
+      "pagina": 4,
+      "palavras": 619
+    },
+    {
+      "pagina": 5,
+      "palavras": 668
+    },
+    {
+      "pagina": 6,
+      "palavras": 648
+    },
+    {
+      "pagina": 7,
+      "palavras": 398
+    }
+  ],
+  "links_locais_conferidos": 112,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#71-conferir-a-ficha"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#72-personagens-e-seus-cuidados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#73-personalizar-escolhas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#75-poderes-avancados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#76-registrar-e-acompanhar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s027"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s026"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s091"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s089"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s092"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s089--declare-o-metodo-de-vida-antes-da-criacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s093"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s033"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s095"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s094"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s039"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "capitulo-7.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-14"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-15"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-16"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-17"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-18"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-19"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#campo--inv-reparo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#poderes--acerto"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#origens--legado-criar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../28-ficha-de-convivencia.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../27-convivencia-do-receptaculo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../26-vinculos-e-mudancas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../90-reparar-personagem-de-corpo-construido.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../91-restricao-corporal-e-cuidados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../89-vida-rolada-e-familia-propria.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../92-reserva-condensada-proposta-e-comparacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../89-vida-rolada-e-familia-propria.md#escolha-como-calcular-a-vida"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../30-pareceres-de-criacoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../93-ampliar-mesclas-e-trocar-formas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../33-casos-especificos-de-avaliacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../31-avaliar-poderes-avancados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../95-efeitos-de-cena-e-cancelamento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../94-compras-repetidas-e-restricoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../39-atividades-e-tempo-entre-missoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "apoio-personagens-107/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "04 - Planejamento/107-personagens-tecnicas-e-escolhas.md",
+      "destino": "87-correcao-de-escopo-da-reserva.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/107-personagens-tecnicas-e-escolhas.md"
+    }
+  ],
+  "palavras_html_conferidas": 4059,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 19,
+  "contas_e_parametros_conferidos": [
+    {
+      "caso": "Atributos",
+      "trecho": "3 + 2 + 2 + 1 + 1 = 9",
+      "resultado": 9,
+      "esperado": 9
+    },
+    {
+      "caso": "Ena: bônus",
+      "trecho": "bônus +4",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "Ena: recuperação",
+      "trecho": "recuperação de 20 PV",
+      "resultado": 20,
+      "esperado": 20
+    },
+    {
+      "caso": "Ena: saldo",
+      "trecho": "29/41",
+      "resultado": 29,
+      "esperado": 29
+    },
+    {
+      "caso": "Toque sem gasto",
+      "trecho": "3 − 0 + 0 = 3d8",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Toque com Precisão",
+      "trecho": "3 − 1 + 1 = 3d8",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Ataque treinado",
+      "trecho": "dado 10 alcança Defesa 14",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Ataque com Precisão",
+      "trecho": "chegando a +6",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "Liberação: dano",
+      "trecho": "total 10d8",
+      "resultado": 10,
+      "esperado": 10
+    },
+    {
+      "caso": "Liberação: custo",
+      "trecho": "Custa 14 PE",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Máxima: dados, pontos e PE",
+      "trecho": "24d8, 8 pontos e 25 PE",
+      "resultado": [
+        24,
+        8,
+        25
+      ],
+      "esperado": [
+        24,
+        8,
+        25
+      ]
+    },
+    {
+      "caso": "Subida: saldo",
+      "trecho": "saldo 33",
+      "resultado": 33,
+      "esperado": 33
+    },
+    {
+      "caso": "Subida: dano conservado",
+      "trecho": "conservando os 15 que faltavam",
+      "resultado": 15,
+      "esperado": 15
+    }
+  ],
+  "fontes_antigas_preservadas": 104,
+  "fontes_novas_anteriores_preservadas": 12,
+  "fontes_relacionadas_ao_capitulo": [
+    {
+      "id": "s025",
+      "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+      "sha256": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+      "destino_principal": "N07.1",
+      "usos_complementares": [
+        "N01.2",
+        "N07.6"
+      ]
+    },
+    {
+      "id": "s026",
+      "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+      "sha256": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+      "destino_principal": "N05.2",
+      "usos_complementares": [
+        "N02.4",
+        "N07.2"
+      ]
+    },
+    {
+      "id": "s027",
+      "fonte": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+      "sha256": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N05.2",
+        "A5.4"
+      ]
+    },
+    {
+      "id": "s089",
+      "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+      "sha256": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.3"
+      ]
+    },
+    {
+      "id": "s090",
+      "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N08.3",
+        "B3"
+      ]
+    },
+    {
+      "id": "s091",
+      "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "sha256": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N02.4",
+        "B3"
+      ]
+    },
+    {
+      "id": "s092",
+      "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+      "sha256": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+      "destino_principal": "N07.3",
+      "usos_complementares": [
+        "A5.5"
+      ]
+    },
+    {
+      "id": "s029",
+      "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+      "sha256": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+      "destino_principal": "N07.4",
+      "usos_complementares": [
+        "N07.6",
+        "A5.5"
+      ]
+    },
+    {
+      "id": "s030",
+      "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "sha256": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+      "destino_principal": "N07.4",
+      "usos_complementares": [
+        "B3"
+      ]
+    },
+    {
+      "id": "s031",
+      "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "sha256": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+      "destino_principal": "N07.5",
+      "usos_complementares": [
+        "B3"
+      ]
+    },
+    {
+      "id": "s033",
+      "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+      "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.3",
+        "N07.4",
+        "N07.5"
+      ]
+    },
+    {
+      "id": "s093",
+      "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+      "sha256": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.4",
+        "N07.5"
+      ]
+    },
+    {
+      "id": "s094",
+      "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+      "sha256": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.4"
+      ]
+    },
+    {
+      "id": "s095",
+      "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+      "sha256": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.5",
+        "N04.5"
+      ]
+    },
+    {
+      "id": "s028",
+      "fonte": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+      "destino_principal": "A5.4",
+      "usos_complementares": [
+        "N07.2"
+      ]
+    },
+    {
+      "id": "s032",
+      "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+      "destino_principal": "A5.5",
+      "usos_complementares": [
+        "N07.4",
+        "N07.6"
+      ]
+    }
+  ],
+  "pdf_integrado_preservado": true,
+  "limite": "Conferência de texto, contas herdadas e arquivos; não é nova simulação integral, teste de aprendizagem ou validação de equilíbrio."
+}

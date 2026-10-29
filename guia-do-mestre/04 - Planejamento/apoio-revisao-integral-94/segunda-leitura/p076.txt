@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Exemplo: duas quedas no mesmo
+combate
+As referências abaixo são os valores parciais já
+usados no confronto do anexo. A personagem tem
+máximo 23 e maior Classe 1. Os resultados não são
+uma previsão de mesa; o roteiro completo e seus
+custos estão no piloto comentado (p. 340).
+Momento
+Tratamento e janela
+Resultado
+Primeira queda, sem Sequelas
+Primeiro Insistir: 8 necessários;
+janela 3
+Conserva recursos e ações
+disponíveis
+Apoio entrega 8 de cura
+Total alcança 8
+Fica com 8 de vida e 1 Sequela
+Segunda queda na mesma cena
+Segundo Insistir: 12 necessários;
+janela 2
+Nova queda: fixe de novo o máximo
+de referência, 23 neste caso, e marque
+o ponto de contagem
+Apoio entrega 7 de cura
+Total 7 de 12; janela não se
+renova
+Continua a zero e Insistindo
+Iniciativa retorna ao ponto da
+segunda queda
+Janela de 2 para 1
+Consome antes da ação futura
+daquele ponto
+Na sequência principal, apoio
+entrega mais 5 antes de a janela
+acabar
+Total 7 + 5 = 12
+Fica com 12 de vida e 2 Sequelas
+Na outra versão do exemplo, o inimigo acerta um
+golpe posterior quando resta uma rodada. O dano
+chega à vida e a janela termina: o personagem fica
+Derrotado. Na campanha padrão, se estiver vivo, os
+7 de tratamento viram vida; uma cura posterior de 5
+pode deixá-lo com 12. Ele continua Derrotado e
+não volta à participação ativa naquela cena.
+Sequelas, Cicatrizes e derrota
+Sair de Morrendo por socorro deixa uma Sequela,
+inclusive nas saídas excepcionais. Ela reduz a janela
+da próxima queda, mas não impõe desvantagem em
+ataques, perícias ou Testes de Resistência. Cura
+comum não a remove. Se a queda terminou em
+Derrotado, registre a Sequela ao sair desse estado,
+contando apenas uma para a queda que envolveu
+vida a zero.
+Depois da segunda queda na mesma missão,
+registre com o jogador se houve uma Cicatriz e
+como ficou. Ele escolhe se ela concede vantagem
+em Intimidação e desvantagem em Persuasão, ou
+nenhum dos dois. Não acrescente outra penalidade
+só pela descrição do ferimento.
+Quando a janela acaba ou a Integridade chega a
+zero, Derrotado encerra a participação ativa e deixa
+o personagem Inconsciente. A campanha padrão
+não causa morte automática: resolva o destino
+conforme os acontecimentos, sem imunidade ao
+perigo ou garantia de que o inimigo ignore o corpo.
+Uma campanha pode adotar morte permanente
+pelos critérios previstos no Livro de Regras 1.0,
+definidos antes da missão e iguais para os
+participantes. Não mude isso retroativamente. Uma
+consequência física que impeça qualquer socorro
+também exige o risco apresentado antes de uma
+decisão que o personagem possa tomar; não se
+confunde com a redução comum da vida a zero.
+Para retirar, atender e recuperar alguém depois de
+Derrotado, siga Retirada e recuperação (p. 77). A
+causa da inconsciência e as reservas necessárias
+continuam importando fora do confronto.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+76

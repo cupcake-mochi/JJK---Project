@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Situação
+Como escolher a dificuldade
+A ação, capacidade ou tarefa já fornece CD ou
+cálculo.
+Use essa referência e suas exceções.
+Tarefa comum sem dificuldade própria.
+Escolha pela escala fixa, conforme o obstáculo; o nível de
+quem tenta não aumenta a CD.
+Avaliação ligada ao poder de um criador.
+Quando couber essa escala, use os valores do criador e o
+ajuste indicado. Não use os valores de quem examina.
+Na escala do criador, a base é 8 + atributo +
+Maestria. Atributo 4 e Maestria 2 dão 14; uma
+avaliação classificada como Muito difícil recebe +2
+e fica em CD 16. Uma tarefa comum Muito difícil
+usa CD fixa 18. Esses ajustes de avaliação não
+aumentam automaticamente a CD de um feitiço. A
+escala do criador não tem o degrau Extremo.
+Para a tabela completa, consulte Testes -
+Dificuldade, no Livro de Regras 1.0. Preparar
+perigos ambientais (p. 104) aplica essa escolha a
+fontes do cenário.
+Sucesso com um custo
+Se a regra permitir, você pode oferecer o resultado
+desejado acompanhado de um custo ou
+complicação coerente. Essa possibilidade não
+substitui um resultado que a regra já determinou.
+Você também não deve cobrar esse custo depois de
+um sucesso normal.
+No exemplo, Aoi procura o destino de uma caixa
+em registros de remessa parcialmente borrados. A
+informação está nos documentos disponíveis. É
+possível cruzar suas cópias, mas separar as entradas
+rapidamente é incerto.
+Às 17h40, antes da tentativa, o mestre apresenta o
+trabalho:
+“A conferência leva dez minutos, com Investigação
+CD 14. Se não conseguir separar as entradas nesse
+prazo, você poderá concluir comparando as cópias por
+mais vinte minutos, sem outro teste. O arquivo fica
+aberto até 18h30; o último transporte organizado sai
+às 18h00.”
+Aoi é treinada em Investigação, tem Inteligência 3
+e Maestria 1: bônus +4. Ela aceita fazer a
+conferência e tira 9: 9 + 4 = 13, uma falha.
+Às 17h50, os dez minutos da tentativa já passaram.
+O mestre retoma a oferta. A jogadora escolhe
+dedicar os vinte minutos adicionais. Às 18h10, Aoi
+identifica o depósito correto, mas perdeu aquele
+transporte. Agora precisa decidir como chegar ao
+destino.
+O custo muda uma escolha concreta. Não invente
+uma multa, retire PE ou cause dano porque o
+resultado foi baixo. Se Aoi recusar o tempo
+adicional, a tentativa permanece sem identificar o
+destino: os dez minutos já passaram, mas os vinte
+não são gastos. Ela pode procurar outra abordagem
+conforme os meios disponíveis.
+Se tivesse tirado 10, o total seria 14: encontraria a
+informação às 17h50, pelo sucesso normal. Não
+acrescente os vinte minutos a esse resultado apenas
+para manter o atraso imaginado.
+Por que não há outra rolagem na oferta? O tempo
+adicional é o custo para concluir essa tentativa
+como foi combinado antes. Pedir outro teste e
+permitir a mesma falha depois de cobrar o custo
+mudaria o combinado. Uma nova tentativa comum,
+quando for o caso, segue a regra própria de
+repetição e seus custos.
+Também não invente uma resposta que os
+documentos não contêm. Sucesso com custo não
+cria acesso a um fato inacessível.
+Quando a regra já determina o resultado
+Em Esconder, falhar contra um observador permite
+que ele localize o personagem conforme a regra.
+Não ofereça “pague um PE para continuar oculto”
+sem uma capacidade que conceda essa opção. Da
+mesma forma, um ataque errado não se torna acerto
+mediante um preço improvisado.
+As consequências publicadas permanecem. Uma
+capacidade que permita repetir, modificar ou
+substituir o resultado funciona pelos próprios
+requisitos; segue o que está escrito na própria
+habilidade.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+47

@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Na falha, a entidade continua onde está; outra
+tentativa depende da permissão do mestre e tem
+vantagem. Não trate reconstrução como reparo de
+vida nem como meio de recuperar uma entidade
+destruída: para a destruída, é preciso criar outra.
+Transferir ou herdar
+Transferir um talismã ou corpo criado exige o
+mesmo teste de criação, fora de combate, com
+consentimento do dono anterior ou após a morte
+dele. O novo invocador precisa ter Classe igual ou
+superior à da entidade. Posse do objeto não
+transfere o vínculo automaticamente.
+Não use na transferência a redução de dificuldade
+própria da reconstrução. Para a calígrafa de Classe
+4 transferir uma entidade de Classe 3, a CD do
+exemplo continua 12 porque ela está uma Classe
+abaixo; uma transferência de entidade da mesma
+Classe teria CD 14.
+No sucesso, registre o novo invocador e atualize os
+valores que dependem dele, preservando Classe,
+ficha, vida atual, usos gastos, queda e carga do
+talismã. A entidade acompanha o novo invocador
+dentro da Classe dela. Transferir não recupera
+energia, não concede outra atuação no ciclo e não
+religa um corpo Desligado.
+Exemplo de continuidade. Um talismã de Classe 3,
+com entidade ferida e um uso já gasto, é transferido
+entre dois invocadores de nível 9. Depois do
+sucesso, a nova pessoa recebe a mesma entidade
+ferida, com aquele uso gasto e a carga que o talismã
+tinha. A troca de nome no registro não produz uma
+criatura nova com recursos completos.
+Na falha, o vínculo anterior permanece ou o objeto
+continua sem invocador vivo. A nova tentativa
+autorizada tem vantagem.
+Acompanhar a entidade entre
+cenas
+Uma tarefa deve indicar algo que a entidade
+consiga reconhecer: vigiar aquela porta, seguir a
+pessoa apontada ou proteger a escada. O vínculo
+não concede mensagens que ela não pode receber.
+Uma ordem recebida pode continuar quando a
+comunicação falha; uma ordem nova precisa chegar
+e ser compreendida.
+Manifestar em entrada comum não dá básica
+naquele ciclo. Comandar uma especial
+normalmente usa a Padrão do invocador e a básica
+da entidade. Trocar, recolher e trazer de volta não
+renovam recursos gastos. O ciclo de atuação das
+entidades vai do começo de um turno do invocador
+ao começo do próximo; não é o ciclo de sete dias da
+guilda.
+Confira também transporte. Uma entidade precisa
+de característica própria, ocupando um talento,
+para transportar carga adicional ou personagens.
+Quantidade de passageiros, anatomia e Movimento
+devem constar da montagem. Objetos carregados
+para outra pessoa ou apanhados pelo caminho caem
+quando a entidade é recolhida, salvo permissão
+expressa; corpos que permanecem no campo
+conservam seus objetos no lugar.
+Corpos inativos não substituem trabalhadores
+treinados: falham em rolagens, não agem e não
+recebem tarefas. O Livro de Regras 1.0 permite
+interpretação e trabalhos extremamente simples
+que dispensem rolagem, sem transformar esse
+estado em fabricação autônoma de entidades.
+Transporte com entidades (p. 284) mostra uma ficha
+completa de montaria, um talento experimental
+com capacidade delimitada, a conta de um
+passageiro e o registro da retirada. Use o exemplo
+também para distinguir a continuação de uma
+tarefa recebida da emissão de ordens novas.
+Quando o invocador deixa de agir
+Inconsciência e morte seguem regras diferentes.
+Enquanto o personagem está inconsciente, as
+entidades que permanecem em campo podem
+continuar suas tarefas e executar ordens anteriores
+válidas, respeitando os recursos. Ele não dá
+comandos novos. Estar a zero de vida não basta
+para antecipar inconsciência ou morte: confira as
+regras do personagem.
+Depois da morte confirmada, ordens e preparações
+terminam; as entidades saem de campo, e as que
+não podem ser recolhidas ficam Desligadas no
+lugar. Aplique então o destino de sua origem:
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+261

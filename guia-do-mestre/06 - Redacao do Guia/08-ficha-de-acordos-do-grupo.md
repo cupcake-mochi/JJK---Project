@@ -1,6 +1,6 @@
 # Ficha de acordos do grupo
 
-Preencha com os participantes antes do início e retome quando os acordos mudarem. Use [Preparar o grupo](07-preparar-o-grupo.md) para conduzir a conversa. Na guilda, registre o que já vem dos procedimentos da comunidade e o que foi combinado para esta mesa.
+Preencha com os participantes antes do início e retome quando os acordos mudarem. Use [A sessão zero](07-preparar-o-grupo.md) para conduzir a conversa. Na guilda, registre o que já vem das regras da comunidade e o que foi combinado para esta mesa.
 
 ## Proposta e participação
 
@@ -8,7 +8,7 @@ Preencha com os participantes antes do início e retome quando os acordos mudare
 
 **Participantes e meio de contato:**
 
-**Formato:** guilda, campanha fechada ou outro. Indicar a organização e os procedimentos que se aplicam.
+**Formato:** guilda, campanha fechada ou outro. Indicar a organização e as regras que se aplicam.
 
 **Proposta em poucas frases:** que personagens acompanharemos e quais situações terão espaço?
 
@@ -40,7 +40,7 @@ Preencha com os participantes antes do início e retome quando os acordos mudare
 
 **Revisão das regras e das fichas usadas:**
 
-**Recursos e consequências de entrada que precisam ser conferidos:**
+**Recursos e consequências no início da campanha que precisam ser conferidos:**
 
 **Acordos específicos de interpretação:** presenças, pessoas ligadas às Origens e relações entre personagens. Indicar os limites das regras e quem interpreta cada parte.
 

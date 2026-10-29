@@ -1,0 +1,22 @@
+{
+  "registro": 118,
+  "lote": "B1-02",
+  "casos": [
+    "s084",
+    "s085",
+    "s022",
+    "s023",
+    "s081"
+  ],
+  "prova_parcial": "04 - Planejamento/apoio-revisao-textual-118/output/pdf/Ciclo-Maldito-Movimento-Socorro-e-Continuidade-Revisao-Textual.pdf",
+  "paginas": 20,
+  "casos_revisto_total": 10,
+  "casos_pendentes": 49,
+  "lotes_pendentes": 12,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-01",
+  "modelo_recomendado": "GPT-6.1 Sol",
+  "esforco_recomendado": "alto",
+  "integrado_anterior": "preservado; não substituído"
+}

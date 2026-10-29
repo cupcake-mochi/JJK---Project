@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+SINEIRO · POSIÇÕES INICIAIS
+A
+B
+C
+D
+E
+F
+G
+H
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+S
+R
+M
+A
+0
+Porta: C–F · 6 m
+Recinto: 12 × 18 m.
+Cada célula mede 1,5 m.
+A linha 0 fica no exterior.
+S · Sineiro: D6, E6, D7 e E7.
+Quadrado · Caixa: C6.
+R · Rina: C0.
+M · Mei: D0.
+A · Akira: F0.
+De C0 à caixa: 9 m.
+Linhas negativas continuam para fora do recinto.
+R: Rina, C0. M: Mei, D0. A: Akira, F0. □: caixa, C6.
+O caminho de C0 à caixa mede 9 m. Espaços
+externos usados na retirada estão livres. Uma
+pessoa permite a passagem de seus aliados;
+ninguém termina sobre o espaço de outra criatura.
+Marque a zona de cada preparação antes de
+resolver as respostas. Seu centro fica sob o centro
+do corpo de 3 × 3 m do Sineiro, e não em uma célula
+escolhida depois para alcançar um alvo. Os alvos
+dos impactos deste exemplo estão claramente
+dentro da zona. A preparação interrompida não
+exige resolver casos na borda.
+Personagens usados
+Estes são perfis de personagens de nível 6, Maestria
+1, Refino 2 e Classe máxima 2. As capacidades
+usadas estão registradas abaixo; os perfis não
+substituem fichas completas. Todos começam sem
+Sequelas, com Integridade cheia, deslocamento de 9
+m, Traje 1 e Defesa 13. Nas duas alternativas, as
+escolhas de técnica e de Caminho permanecem
+iguais.
+Personagem
+Caminho e Trilha
+Força / Destreza /
+Constituição /
+Inteligência / Essência
+Vida
+PE
+Integridade
+TR Físico
+Rina
+Bastião / Muro
+4 / 2 / 3 / 1 / 1
+65
+24
+50
++5, Força
+treinada
+Mei
+Emanador /
+Catalisador
+0 / 2 / 3 / 4 / 2
+44
+36
+55
++3, Destreza
+treinada
+Akira
+Guia / Socorrista
+0 / 2 / 3 / 2 / 4
+51
+30
+65
++2, Destreza
+sem treino
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+142

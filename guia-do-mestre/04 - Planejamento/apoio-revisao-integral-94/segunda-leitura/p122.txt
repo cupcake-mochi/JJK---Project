@@ -1,0 +1,69 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Prepare a situação
+Durante a vistoria de uma oficina abandonada, a
+equipe precisa desligar um guincho defeituoso e
+impedir que alguém volte a usar uma passarela
+comprometida. A guilda pode ter recebido o
+chamado dos responsáveis pelo prédio. Em
+campanha fechada, a oficina pode pertencer a um
+contato do grupo. As pessoas comuns já evacuaram;
+a ocorrência não exige ficha de civil nem uma
+segunda ameaça escondida.
+O guincho puxa uma ligação presa indevidamente
+ao suporte móvel da passarela. Um freio mecânico
+independente segura o conjunto quando a
+transmissão é interrompida. Essa propriedade é
+parte do cenário e pode ser reconhecida pela
+observação; não significa que cortar qualquer cabo
+de sustentação seja seguro em outras situações.
+Há três resultados distintos: parar a tração, retirar
+quem estiver em risco e interditar a passagem.
+Parar o motor não conserta a estrutura. Se ela
+romper, ainda pode ser necessário desligar o
+equipamento e prestar socorro. A missão termina
+quando você anotar como o grupo resolveu cada
+uma dessas tarefas, mesmo que a passarela precise
+permanecer inutilizada.
+Confira as fichas reais: deslocamento, Força, meios
+de voo ou travessia, Reações de proteção contra
+queda, ferramentas, acesso a ataques contra objetos
+e socorro. A situação não foi dimensionada como
+desafio de uma faixa de nível. Um grupo capaz de
+resolver rapidamente o problema encontrou uma
+solução válida.
+Desenhe o lugar
+O lugar tem dois patamares firmes, Oeste e Leste,
+separados por um vão. Uma passarela liga suas
+bordas. Um piso inferior firme fica 6 m abaixo,
+iluminado e sem água, fogo ou máquinas sob a área
+de queda.
+Ponto ou percurso
+Medida e uso
+Grupo, na abertura
+Patamar Oeste, a 3 m da borda; chão regular, fora da parte móvel.
+Travessia superior
+3 m até a borda + 3 m de passarela + 3 m até a alavanca no Leste: 9 m.
+Alavanca de parada
+No Leste, em apoio firme; acessível com uma mão disponível. A posição
+final do percurso de 9 m já permite operá-la.
+Ligação de transmissão
+Pequeno pino de madeira, exposto num acoplamento junto da posição
+inicial do grupo. Pode ser atingido a até 1,5 m de um espaço firme no
+Oeste. Não é o suporte que sustenta pessoas.
+Rota inferior
+Da posição inicial: 3 m até escada Oeste; descer 6 m; andar 9 m pelo piso
+inferior; subir 6 m pela escada Leste; andar 3 m até a alavanca. 27 m
+físicos; 39 m de movimento com escalada comum.
+Escadas
+Fixas, com apoios utilizáveis, secas e firmes; cada uma tem largura para
+uma criatura Média por vez. Sem teste nas condições iniciais.
+Áreas de chegada
+Patamares com espaço livre para o grupo; o piso inferior permite alcançar
+a projeção da passarela pelas escadas.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+122

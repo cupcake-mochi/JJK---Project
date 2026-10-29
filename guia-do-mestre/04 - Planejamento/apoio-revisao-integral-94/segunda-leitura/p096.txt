@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Escolha dano junto da frequência
+Considere cada aplicação, não apenas o maior dado
+disponível na Classe. As linhas seguintes são
+referências de golpes corporais, com Defesa 13 no
+alvo e crítico normal. A média inclui erros; não
+inclui resistência, Bloquear ou redução de dano.
+Aplicação
+Ataque
+Dano normal / crítico
+Dano médio por tentativa
+Pancada do Carregador, nível 2
++4
+1d4 + 3 / 2d4 + 3
+3,43
+Alternativa ofensiva de nível 2,
+proposta
++4
+1d8 + 3 / 2d8 + 3
+4,73
+Pancada do Sineiro, nível 6
++5
+2d6 + 4 / 4d6 + 4
+7,50
+A primeira linha já serve a uma criatura cuja
+pressão principal é conter. A segunda é uma
+alternativa para estudar um atacante, não uma
+atualização do Carregador. A terceira pode orientar
+uma aplicação de nível 6; não importa
+automaticamente os dois ataques ou o restante da
+ficha do Sineiro. Armas, Canalizar e outras
+capacidades, quando aplicáveis à nova criatura,
+entram explicitamente no cálculo; não são
+acréscimos presumidos nestas linhas.
+Quantidade importa. Contra uma personagem com
+14 PV e Defesa 13, duas Pancadas do Carregador
+têm cerca de 4,9% de chance de levá-la a zero. Duas
+aplicações da alternativa 1d8 + 3 elevam isso para
+27,0%. Começando com 7 PV, as chances passam a
+50,3% e 67,3%. São duas tentativas de ataque, sem
+cura ou proteção entre elas: podem vir de dois
+inimigos ou de turnos diferentes. O Carregador não
+ganhou um segundo ataque.
+Chegar a zero exige resolver a queda de jogador, e
+não declarar morte. Porém, o dano posterior
+durante Morrendo pode reduzir o tempo disponível
+para socorro. Conferir somente a chance de um
+golpe derrubar alguém não basta para avaliar uma
+sequência concentrada.
+Dano em área merece outra conta. O sino usa 5d8
+com TR Físico CD 13, metade no sucesso,
+preparação visível e possibilidade de interrupção.
+Não coloque esse dano como ataque comum
+imediato só porque cabe numa montagem de Classe
+2. Área, quantidade de alvos, aviso, resposta e
+frequência precisam ser avaliados juntos. Guarda
+Aberta depois do impacto também faz parte do
+custo daquela capacidade.
+Controle e recursos
+Contra os TRs Físicos +4, +3 e +2 do exemplo de
+nível 2, CD 12 produz falha em 35%, 40% e 45%. No
+exemplo de nível 6, CD 13 contra +5, +3 e +2 produz
+35%, 45% e 50%. São chances de aplicação, sem
+vantagem ou desvantagem. Duração e saída da
+condição podem importar mais que essa primeira
+chance.
+Se Agarrar substitui o único ataque, a criatura abre
+mão do dano naquela Padrão. Se substitui um de
+dois ataques, ainda há uma Pancada disponível.
+Não trate as duas contenções como a mesma
+pressão só porque têm a mesma CD.
+Para capacidades próprias, escolha o recurso pelo
+funcionamento desejado, conforme Recursos e
+ritmo (p. 86). PE podem limitar uma sequência, mas
+não fazem um inimigo de uma única luta poupar
+espontaneamente. Preparação, intervalo, condição
+de uso e disputa pela mesma ação também podem
+organizar a frequência. Nem toda habilidade
+especial precisa desses limites.
+Ao usar PE, escreva reserva, custo e interações
+reais. Ao usar outra forma de limitar a habilidade,
+escreva início, término, repetição e o que
+interrompe. Uma criatura com 0/0 PE pode
+conservar energia perceptível e capacidades
+corporais. Isso não autoriza apresentar uma
+conjuração como corporal apenas para ignorar as
+interações do Livro de Regras 1.0.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+96

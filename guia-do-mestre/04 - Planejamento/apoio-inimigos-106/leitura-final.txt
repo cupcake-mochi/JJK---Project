@@ -1,0 +1,475 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                    INIMIGOS E PERIGOS
+
+
+
+CAPÍTULO 6
+
+
+Inimigos e perigos
+Um inimigo dá vida à oposição: pode guardar uma
+                                                        Papel possível   Pergunta para preparar
+passagem, perseguir alguém, defender seu abrigo
+ou tentar concluir um trabalho. Prepare o que ele       Pressionar de    Como alcança o alvo e o que ele
+quer, como age e quais escolhas oferece ao grupo.       perto            pode fazer para se afastar?
+O confronto começa por essa situação; os números
+                                                        Vigiar uma       O que consegue perceber, atingir e
+ajudam a resolvê-la.
+                                                        passagem         impedir? Há outro acesso?
+Este capítulo ensina a escolher, adaptar e criar
+                                                        Conter ou        Como aplica a contenção, mantém o
+ameaças. A ficha de inimigo e encontro reúne o          transportar      percurso e permite a fuga ou ajuda?
+preparo; as fichas completas e os estudos citados
+permitem acompanhar aplicações. O catálogo              Apoiar outras    Quem recebe o benefício e o que
+amplo de criaturas, com suas descrições e histórias,    criaturas        muda se o apoio for interrompido?
+fica para o Livro de Inimigos.                          Disputar um      O que tenta obter enquanto o grupo
+As regras usadas aqui estão disponíveis para            objetivo         age?
+consulta.
+                                                       Ren e Sora mostram atacante e apoio: Ren ocupa o
+Os valores e as habilidades próprias propostos         caminho e ameaça de perto; Sora escolhe entre
+pelo Guia são experimentais. As contas e os            favorecer um ataque e curar. Ambos podem
+percursos escritos permitem conferir o                 negociar. O objetivo é retirar o estojo de
+funcionamento; a dificuldade ainda precisa ser         documentos, e a saída continua acessível. As fichas
+observada em mesas diferentes. Use fichas              da dupla definem seus meios; o papel apenas
+compatíveis com o Livro de Regras 1.0. Os números      orienta as escolhas.
+do Bestiário antigo precisam de revisão antes de
+servir como referência.
+                                                       6.2 Preparar a ficha
+6.1 Objetivos e adversários                            Procure primeiro uma ficha compatível com as
+                                                       regras e com a função pretendida. Abra suas
+Comece por três perguntas: o que o grupo quer, o       capacidades completas. Vida, Defesa e dano não
+que a oposição quer e como a situação pode             dizem tudo: sentidos, corpo, movimento, ações e
+terminar? Retirar uma pessoa, abrir caminho ou         destino na derrota também mudam o encontro.
+recuperar um objeto pode encerrar a missão sem
+eliminar todos os inimigos.                            Se uma ficha já serve, conserve-a e indique sua
+                                                       versão. Mudar nome e aparência pode bastar. Uma
+O Amontoado protege uma pilha de caixas no             maldição de sacos pode usar o Amontoado
+anexo de um centro cultural. A equipe precisa          enquanto mantiver os mesmos membros, sentidos,
+conferir os funcionários e avaliar o risco. Se todos   deslocamento e capacidades. A nova aparência não
+estiverem fora, manter o lugar fechado e               permite atravessar frestas ou ignorar perfurações.
+encaminhar uma intervenção é um resultado
+possível. Entrar para lutar é uma escolha do grupo.    Se mudar posições ou prioridades, confira a nova
+                                                       situação. Um vigia no alto exige meios de
+Anote o que a criatura sabe e percebe. Ela reage a     aproximação e linhas de ataque diferentes dos que
+sinais acessíveis, sem conhecer conversas privadas     teria no chão. Se mudar uma capacidade ou um
+ou acompanhar alguém que perdeu de vista.              número, registre a alteração, seu motivo e as regras
+Prepare também o que a faria negociar, abandonar       afetadas. Compare uma mudança de cada vez.
+um objetivo ou se retirar.
+
+O que cada criatura faz
+O papel descreve sua contribuição ao encontro. Ele
+ajuda a escolher comportamento e capacidades;
+não concede bônus ou ações.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                       1
+CICLO MALDITO / GUIA DO MESTRE                                                                           INIMIGOS E PERIGOS
+
+
+
+                                                                 também não concede seu Caminho, Origem ou
+O que a ficha precisa trazer                                     todas as habilidades que normalmente a
+                                                                 acompanham.
+ Campo                  O que deixar definido
+
+ Corpo e                Tamanho, membros, mãos, massa,           Agarrar: um exemplo
+ sentidos               alma, deslocamentos, percepção e
+                                                                 Considere o Carregador Médio, com Força 3,
+                        comunicação
+                                                                 Maestria 1 e uma mão livre. Ao usar Atacar, troca
+ Testes e               Atributos, Maestria, treinos, quatro     seu único ataque por Agarrar contra uma criatura
+ progressão             Testes de Resistência e, quando          ao alcance de 1,5 m e de até uma categoria maior.
+                        couber, Refino e Classe máxima
+                                                                 O alvo faz TR Físico contra 8 + 3 + 1 = CD 12. Um
+ Reservas e             Vida, Integridade, PE, usos, Defesa      total 12 evita; 11 aplica Agarrado, com
+ defesas                com seus componentes, Bloquear e         deslocamento zero. A manobra substitui o dano,
+                        proteções
+                                                                 não rola acerto e não cobra PE. O alvo conserva
+ Capacidades            Tipo, ação, alvo, alcance, requisitos,   ataques, conjuração e Bloquear conforme seus
+                        resolução, custo, prazo e saídas         requisitos. Para tentar escapar no próprio turno,
+                                                                 pode gastar Padrão e repetir o TR contra a CD 12.
+ Conduta                O que sabe, quem procura, o que
+                        protege e quando muda de intenção        O tilintar dos sinos pode anunciar a intenção do
+                                                                 Carregador, mas não concede outro ataque ou
+ Continuidade           Derrota, efeitos restantes, retirada e
+                        possível aquisição
+                                                                 transporte gratuito. Arrastar exige carga, percurso
+                                                                 e movimento. Outras saídas da contenção seguem
+Integridade acompanha o dano de Alma e fica                      suas regras. A consulta do Carregador traz a ficha
+registrada separadamente da vida. Criaturas que                  completa e a conversão de aquisição.
+não sejam personagens jogadores usam metade da
+vida máxima, para baixo, com mínimo 1 quando a                   6.3 Habilidades e recursos
+vida máxima for positiva, salvo regra própria. A
+                                                                 Escolha primeiro o efeito e a resposta possível do
+fórmula dos personagens é outra. Confira também
+                                                                 grupo; depois, o limite de uso. PE mostram quanto
+se a criatura possui alma e como suas exceções
+                                                                 resta para gastar. Um intervalo diz quando a
+funcionam.
+                                                                 capacidade volta. Um preparo oferece tempo para
+Escolha uma localização principal para a ficha.                  interferir. Use os controles que cumprem uma
+Cada inimigo em jogo precisa de seu próprio                      função na luta.
+estado de recursos, condições e usos, mesmo
+                                                                 Ter energia amaldiçoada não obriga toda ação a
+quando vários usam a mesma ficha.
+                                                                 gastar PE. Canalizar Energia, por exemplo, não
+                                                                 cobra esse gasto. Conservar um feitiço publicado
+Escolha a regra da capacidade
+                                                                 exige cumprir seu preço e suas regras; trocar esse
+Comece pelas ações existentes. Um inimigo que                    preço por outro limite é uma adaptação a
+retira intrusos pode usar Agarrar e transporte. Uma              identificar e avaliar.
+capacidade publicada conserva custos, requisitos e
+saídas. Uma adaptação identifica a regra original e              O Amontoado original tem 6 PE e Impacto de 3 PE.
+cada mudança. Uma habilidade própria precisa de                  Em condições normais, paga duas tentativas. Se
+texto completo e comparação com efeitos                          não houver outra utilidade para a reserva, gastar
+semelhantes.                                                     logo pode fazer sentido. Alterar o saldo muda a
+                                                                 quantidade; não cria sozinho uma escolha entre
+Escreva se a aplicação é ataque com arma,                        atacar e esperar.
+manobra, feitiço, aptidão ou outra ação definida.
+Indique sua ligação com corpo, equipamento ou                    Recarga não garante uma pausa: pode permitir usos
+Técnica Inata. Um “soco de energia” pode                         consecutivos ou demorar a retornar. Usar cedo
+continuar sendo feitiço: renomeá-lo não muda sua                 pode continuar sendo a melhor escolha, pois a
+defesa, seu crítico ou seus requisitos.                          habilidade começa a ter chances de voltar. Para
+                                                                 incentivar espera, posição, alvos, risco ou objetivo
+Classe, Categoria de Efeito e nível têm funções                  precisam tornar outro momento mais interessante.
+diferentes. Não deduza uma classificação da outra.
+Conceder uma capacidade de jogador ao inimigo                    Uma criatura simples pode ter uma rotina simples.
+                                                                 Evite acrescentar defesas ou contagens apenas para
+                                                                 justificar uma decisão que não aparece em jogo.
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                             2
+CICLO MALDITO / GUIA DO MESTRE                                                                           INIMIGOS E PERIGOS
+
+
+
+                                                                pertence à variante, não ao Amontoado original ou
+Escolher um limite                                              aos personagens jogadores. O estudo de
+                                                                habilidades acompanha as contas e as interações.
+ Você quer…              Use e confira…
+                                                                Confira também Selo, mãos, voz, Rescaldo,
+ Repetição               Uso livre: o efeito continua
+                                                                cancelamento, manutenção e contenções. Agarrado
+ simples                 adequado quando repetido?
+                                                                não silencia ou prende automaticamente todas as
+ Quantidade de           Usos limitados: o que gasta o uso e    mãos; uma habilidade própria não ganha
+ tentativas              quando ele retorna?                    imunidade a cancelamento por ser própria. Se
+ Pausa                   Intervalo fixo: quando volta e o que
+                                                                puder ser adquirida por Doma, prepare a conversão
+ garantida               faz durante a espera?                  antes da oportunidade: permissões exclusivas do
+                                                                inimigo não passam automaticamente à entidade.
+ Retorno                 Recarga: quando rola, quais
+ incerto                 resultados recuperam e se permite
+                         repetição no turno seguinte?           6.4 Escolher os números
+ Chance de               Preparo ou condição: há sinal,         Comece pela função e pelas regras usadas. O nível
+ impedir                 tempo e meios reais de resposta?       localiza progressão e requisitos; não garante a
+                                                                dificuldade. Grau no cenário, nível e papel no
+ Escolha entre           Reserva compartilhada: gastar numa
+                                                                encontro não são medidas equivalentes.
+ opções                  opção limita outra útil?
+                                                                Use as contas do Livro de Regras 1.0 quando forem
+Quando a reserva cria uma escolha                               aplicáveis:
+
+Ren tem 8 PE: pode pagar duas Fendas de 3 PE e                   Campo       Referência
+um Cobrir-se de 2 PE. Sora tem 12 PE: quatro Fios
+                                                                 Ataque      Atributo correspondente + Maestria,
+de 3 PE, dois Remendos de 6 PE ou dois Fios e um
+                                                                 comum       com modificadores aplicáveis
+Remendo cabem antes de outras despesas. A
+mesma reserva também paga proteção.                              CD de       8 + Força + Maestria, com os requisitos
+                                                                 manobra     da manobra
+Além da energia, Sora disputa sua Padrão: curar
+toma o lugar de conceder Fio naquele turno. A                    Defesa      10 + Destreza + proteção, com limites de
+escolha existe dentro do combate, sem depender de                            equipamento e outros modificadores
+outra missão. Usos compartilhados também podem                   Bloquear    2d10 + Defesa − 11; escolha antes da
+oferecer escolha; os PE permitem preços diferentes                           rolagem de ataque
+e interagem com efeitos que alterem energia e
+custos.                                                          TR          Atributo apropriado; some Maestria
+                                                                             quando treinado
+Energia, custos e outras regras
+                                                                Bloquear é gratuito e não gasta Reação; não
+Se Leitura de Reservas se aplicar, forneça saldo e              substitui TR ou efeito Automático. Revides e outras
+máximo reais pelo exame exigido. O resultado não                respostas mantêm seus custos próprios. Registre os
+revela automaticamente recarga, custos ou                       quatro TRs — Físico, Vigor, Intelecto e Espírito —
+intenção. Uma capacidade sem gasto não precisa                  com os treinos identificados.
+apagar a energia perceptível da criatura.
+Os estágios de Integridade são cumulativos. No                  Valores para começar
+estágio 2, cada feitiço custa mais 1 PE por Classe;             Os valores abaixo preservam os estudos para níveis
+isso não se estende automaticamente a toda                      2 e 6, ambos com Maestria 1. São candidatos
+manobra ou aptidão. O Impacto de Classe 1 passa                 experimentais comparados com três perfis de
+de 3 para 4 PE. Depois de gastar 3 dos 6, a reserva             personagens, não uma escala geral. A referência de
+restante já não paga outro. As demais penalidades               partida é a vida central, uma ação ofensiva na
+dos estágios continuam valendo, inclusive para                  Padrão e ausência de defesa excepcional. Complete
+habilidades sem gasto.                                          o restante da ficha antes de usá-la.
+Ao adaptar um feitiço, diferencie custo-base e
+pagamento dispensado. Na hipótese experimental
+de recarga do Impacto, dispensar o custo normal
+não dispensa os acréscimos: a proposta conserva a
+base e cobra o adicional aplicável. Essa exceção
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                             3
+CICLO MALDITO / GUIA DO MESTRE                                                                                 INIMIGOS E PERIGOS
+
+
+
+                                                                        Os estudos numéricos mostram as premissas e as
+ Campo                                      Nível 2         Nível 6
+                                                                        probabilidades. As sequências de três ou seis
+ Vida central / Integridade                    24 / 12       72 / 36    ataques ali não são rodadas completas: deixam de
+                                                                        fora várias ações e respostas. A comparação de
+ Vida menor / Integridade                       16 / 8       48 / 24    outras faixas amplia os recortes sem criar uma
+ Vida maior / Integridade                      32 / 16      108 / 54    escala aprovada para todos os níveis. Não interpole
+                                                                        os níveis ausentes ou multiplique as reservas para
+ Ataque / CD de referência                     +4 / 12       +5 / 13    chegar a outro patamar.
+ Defesa central                                    13              13
+
+ Outras Defesas para comparar              11 ou 15        11 ou 15
+                                                                        6.5 O grupo e o lugar
+                                                                        Use as fichas reais do grupo e seu estado de
+A Defesa precisa de componentes válidos. Ren e                          entrada. Confira vida, Integridade, PE, condições,
+Sora têm 13 por 10 + Destreza 2 + Traje 1. Ataque                       Sequelas, alcance, percepção e meios de socorro.
++4 e CD 12 podem vir de atributo 3 e Maestria 1;                        Numa análise anterior à escolha dos personagens,
+elevar o atributo também altera outras contas que o                     identifique os perfis supostos e aquilo que não
+usam. Não esconda um bônus próprio no total.                            representam.
+Use Padrão, Movimento, Bônus e Reação conforme                          Conte oportunidades reais de agir. Padrão,
+as regras, com um ataque em Atacar como partida                         Movimento, Bônus e Reação não equivalem a
+destas referências. Outro ataque exige permissão e                      quatro ataques. Uma Padrão usada para escapar,
+avaliação próprias. Não some automaticamente as                         operar um mecanismo ou atender alguém não está
+alternativas mais fortes da tabela.                                     disponível para atacar. Entidades conservam suas
+                                                                        regras de atuação e comando; não as conte como
+Vida, defesa, dano e frequência                                         personagens completos sem conferir esses limites.
+Compare esses campos juntos. Mais Defesa reduz                          Dois inimigos podem oferecer duas tentativas de
+os acertos recebidos repetidamente; mais vida                           ataque enquanto ambos agirem e alcançarem um
+prolonga a resistência aos que acertam.                                 alvo. Quando um cai, a pressão muda. Concentrar a
+Acrescentar ambos pode mudar bastante o                                 mesma vida num corpo só não reproduz esse
+encontro. Uma criatura que sobrevive, mas não                           funcionamento; uma área que atinja os dois
+alcança ninguém, continua sem cumprir sua                               também pesa de outra forma.
+função.
+                                                                        Prepare uma escolha de alvo
+ Golpe                         Ataque   Dano             Crítico
+                                                                        Sora pode curar Ren ou a si mesma enquanto
+ Carregador, nível 2               +4   1d4 + 3          2d4 + 3        estiver ativa, dentro do alcance e com recursos.
+ Alternativa                       +4   1d8 + 3          2d8 + 3        Pressioná-la pode tomar ações que seriam gastas no
+ ofensiva, nível 2                                                      atacante. Quando ela cai, cessa o apoio futuro, mas
+                                                                        benefícios já entregues conservam seus prazos.
+ Sineiro, nível 6                  +5   2d6 + 4          4d6 + 4
+                                                                        Quando Ren cai, Sora perde seu principal meio de
+                                                                        pressão e procura negociar ou sair. O confronto da
+A alternativa ofensiva não atualiza o Carregador. A                     dupla acompanha essas escolhas; o preenchimento
+linha do Sineiro não importa seus dois ataques nem                      da ficha mostra como registrá-las.
+o restante da ficha. Armas, Canalizar, proteções e
+propriedades entram explicitamente quando forem                         Faça o lugar importar
+aplicáveis; os dados corporais diferentes dos
+comuns precisam estar escritos como exceção.                            Marque acessos, posições, cobertura, distâncias,
+                                                                        objetivo e locais de retirada. Mostre o que se
+Um golpe mais forte repetido antes de alguém agir                       percebe antes da escolha. Um atirador alto, uma
+pesa de modo diferente de um golpe anunciado e                          passagem estreita e uma porta que pode fechar
+interrompível. Para área, controle ou cura, compare                     exigem conferências diferentes.
+também alvos, duração, saídas e ações disputadas.
+Bloquear não responde a uma área resolvida por                          Na variante do portão, os números do Carregador
+TR; sucesso num TR só reduz o dano pela metade                          são mantidos. Uma saída curta pode fechar, mas o
+quando a regra disser isso.                                             corredor de serviço continua disponível. Alcançar e
+                                                                        operar a parada disputa ações com pegar a caixa ou
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                                   4
+CICLO MALDITO / GUIA DO MESTRE                                                                 INIMIGOS E PERIGOS
+
+
+
+socorrer alguém. O mecanismo não ganha dano,           Comece pela permissão específica que falta. Se a
+mais vida para a criatura ou um prazo menor            ameaça não alcança o alvo, confira posição e
+porque o grupo dividiu bem o trabalho.                 movimento. Se precisa responder entre turnos,
+                                                       examine um gatilho e o custo da resposta. Mais
+Para comparar a alteração, separe o mapa original,
+                                                       dano não resolve esses problemas.
+o novo mapa com motor desligado e o mesmo mapa
+com fechamento ativo. Assim é possível distinguir
+                                                       Sinal, intervalo e resposta
+a mudança de espaço da pressão do prazo. O estudo
+de composição fornece percursos e custos.              Prepare quatro coisas: o sinal, quando aparece,
+                                                       como o grupo pode responder e o que essa
+Quando o grupo corre risco                             resposta muda. Um gesto descrito durante o golpe
+                                                       não concede uma interrupção anterior a ele.
+Pergunte o que ocorre se dois golpes acertarem a
+mesma pessoa antes de ela agir, se o socorrista        No exemplo do Sineiro, a ordem é Rina → Sineiro →
+estiver longe ou se a retirada exigir transportar      Mei → Akira. Ele prepara o impacto em seu turno e
+alguém. Uma contenção e um caminho maior               só pode executá-lo no próprio turno seguinte. Mei,
+podem dificultar o socorro sem aumentar o dano.        Akira e Rina terão um turno no intervalo. Se o
+                                                       golpe viesse no fim da rodada atual, Rina não teria
+As regras de queda dos personagens mudam essa
+                                                       esse próximo turno. Reações continuam
+leitura. Chegar a zero de vida pode permitir
+                                                       dependendo de gatilhos e recursos.
+Insistir, conservando ações e recursos disponíveis;
+Aguentar deixa Inconsciente. O inimigo comum é         O Sineiro marca uma área fixa, pode perder a
+derrotado a zero de vida ou Integridade, salvo regra   preparação por certas intervenções e fica com
+própria. Não conceda a ele o socorro de jogador por    Guarda Aberta depois do impacto. Dano sozinho
+presumir que as fichas são iguais.                     não interrompe essa preparação corporal; Derrubar
+                                                       interrompe, mas não solta automaticamente uma
+Vida zero, fim da participação e fim da oposição
+                                                       presa. A ficha completa diferencia essas respostas,
+são momentos diferentes. A janela de socorro é
+                                                       custos e prazos. Seus valores continuam
+prazo de atendimento, não rodadas extras a somar à
+                                                       experimentais, e o ensaio guiado é um percurso de
+luta. Depois que o inimigo cai, alguém ainda pode
+                                                       ensino, não uma sessão observada.
+estar Morrendo. Consulte Combate, socorro e
+retirada e conserve os dados no registro de estado.
+                                                       Fases, condições e partes
+                                                       Uma fase é uma mudança reconhecível nas
+6.6 Chefes e grandes confrontos                        escolhas, como o inimigo abandonar a caixa ou uma
+Um chefe é a ameaça central daquela situação.          saída fechar. Ela não se confunde com os estágios
+Pode ser uma criatura sozinha, um líder                de Integridade. Defina gatilho, momento e o que
+acompanhado ou uma oposição ligada ao lugar. Sua       permanece: vida, PE, Integridade, condições,
+importância não concede outra iniciativa,              concentração e usos não são renovados por outra
+imunidades ou cura.                                    descrição.
+Escolha uma característica que organize as             Mudar de comportamento não fornece movimento
+decisões: disputa de posição, apoio dos aliados,       gratuito. Uma transformação que cure, remova
+partes expostas ou uma mudança no ambiente.            condições ou interfira na derrota precisa declarar
+Desenvolva essa característica antes de acumular       essas exceções, incluindo dano excedente e formas
+outras. Vida adicional pode prolongar uma              de interrupção. Uma segunda barra na ficha ainda
+repetição sem tornar a luta mais interessante.         precisa dessas regras.
+                                                       O controle que funciona produz seu resultado. Ser
+Oportunidades de agir
+                                                       chefe não concede saída automática de Agarrado
+Preparar usa a Padrão de agora para uma resposta       ou imunidade à solução do grupo. Se houver ajuda
+posterior, com gatilho, Reação disponível e prazo.     de aliados ou reforços previstos, prepare sua
+Uma capacidade de Reação disputa essa Reação           atuação e chegada desde o início.
+com as demais opções. Uma ação adicional própria
+                                                       Para partes atacáveis, diga se são objetos, criaturas
+exige uma regra nova. Outro turno completo muda
+                                                       ou alvos de uma regra específica. Defina vida, o que
+também efeitos de começo e fim de turno; precisa
+                                                       se perde a zero, compartilhamento de dano, área,
+de uma revisão maior.
+                                                       Alma e aquisição. Um sino descrito no corpo não
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                   5
+CICLO MALDITO / GUIA DO MESTRE                                                                       INIMIGOS E PERIGOS
+
+
+
+ganha automaticamente estatísticas próprias. Use a            Dano de Veneno e condição Envenenado são
+conferência de chefes para aprofundar essas                   efeitos distintos. Fogo não aplica por si só dano
+escolhas.                                                     recorrente; fumaça não bloqueia automaticamente
+                                                              flechas. Escreva cada consequência. Confira corpo
+6.7 Perigos do ambiente                                       e imunidades: dispensar respiração não protege de
+                                                              toda substância por contato, e imunidade à
+Um perigo do lugar precisa dizer quem se expõe,               condição não é imunidade ao tipo de dano.
+quando a consequência ocorre e como intervir.
+Comece pelas regras existentes: uma queda real já             Depois de sair da área
+tem resolução. Quando faltar um dano ou prazo
+                                                              Na sala de conservação, fechar a alimentação e ligar
+necessário ao caso, prepare uma proposta
+                                                              o exaustor são tarefas separadas. A nuvem leva o
+específica; a escala de CD não é uma tabela de dano
+                                                              prazo preparado para desaparecer. Sair dela evita
+ambiental.
+                                                              novas exposições conforme a regra do caso; uma
+ Defina               Pergunta para deixar resolvida          condição recebida conserva sua duração e suas
+                                                              saídas.
+ Exposição            É contato, permanência numa área,
+                      um acontecimento ou um processo         Envenenado é uma condição Pesada: permite o TR
+                      prolongado?                             de saída no fim do turno, sem ação. Seu prejuízo
+                                                              em ataques e perícias não impõe desvantagem ao
+ Sinal                O que pode ser percebido e quais
+                                                              próprio TR de Vigor. Curar vida não remove a
+                      limites da área são conhecidos?
+                                                              condição; remover a condição não encerra
+ Momento              Quando começa, quem verifica e com      Morrendo. Se houver Concentração, confira
+                      que frequência?                         separadamente o teste exigido depois do dano. O
+                                                              ambiente não pausa para o socorro.
+ Resolução            Há tarefa, ataque ou TR? Qual CD,
+                      dano, condição e resultado de sucesso   Uma doença precisa ainda de transmissão, tempo
+                      e falha?                                até os sintomas, sinais, intervalo de avaliação,
+ Intervenção          Como sair, parar a fonte, limpar o      tratamento e término. Encerrar um sintoma pode
+                      lugar ou atender alguém?                deixar a doença ativa; encerrar a doença não
+                                                              recupera automaticamente a vida perdida. A febre
+ Continuidade         O que termina e o que permanece após
+                                                              dos fios mostra um caso específico, sem criar tabela
+                      a intervenção?
+                                                              universal de doenças.
+Separe reconhecer o mecanismo, operá-lo e resistir            Fora de combate, acompanhe o tempo da história.
+à exposição. Conhecer a função de uma válvula não             Use turnos quando ordem, posição ou urgência
+concede alcance para fechá-la. Um comando                     exigirem precisão. Uma fase ambiental por rodada
+identificado e acessível pode exigir apenas a ação            não ocorre outra vez porque há mais participantes,
+de operá-lo. Informações evidentes ficam                      Reações ou entidades. Para aprofundar gatilhos,
+disponíveis sem teste.                                        condições e atendimento, consulte Preparar
+                                                              perigos ambientais.
+Quando houver dificuldade específica, use-a. Para
+tarefa comum sem referência própria, a escala fixa
+é 6, 10, 14, 18, 22 ou 26; ela não aumenta só porque          6.8 Antes e depois do encontro
+o grupo avançou. Avaliações ligadas ao poder de               Antes da sessão, percorra uma aproximação, uma
+um criador seguem a fórmula e os ajustes                      sequência comum e uma situação desfavorável.
+pertinentes àquela regra.                                     Você consegue resolver alcance, ação, custo, dano,
+                                                              controle e saída? O grupo tem sinais
+Exposição, dano e condição                                    compreensíveis e meios de intervenção? Complete
+Um impacto isolado não se repete por permanecer               uma pendência que impeça a resolução antes de
+no piso. Uma área verificada no fim da rodada pode            apresentar a ameaça.
+permitir entrar e sair antes da exposição; verificar
+                                                              A ficha de encontro organiza seis blocos: situação e
+ao entrar produz outro efeito. Defina a frequência
+                                                              grupo; cada ameaça; capacidades novas ou
+antes do uso e não cobre retroativamente um
+                                                              alteradas; lugar e sinais; conferência; resultado e
+contato que sua regra não incluía.
+                                                              continuidade. Registre apenas o que precisa
+                                                              desenvolver e aponte capacidades prontas por
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                         6
+CICLO MALDITO / GUIA DO MESTRE                                                               INIMIGOS E PERIGOS
+
+
+
+referências completas. As conferências de             Na guilda, deixe composição, estados e versões
+habilidade e chefe são aprofundamentos opcionais,     disponíveis ao próximo mestre. Numa campanha
+sem repetir o mesmo preparo em três folhas.           fechada, conserve os mesmos dados nas notas. Use
+                                                      Retomar a missão para o resumo e mantenha os
+Regras e escolhas da missão                           estados completos quando houver urgência.
+Separe regra publicada, conselho de preparo,
+parâmetro experimental e escolha local. O objetivo    Rever o encontro
+de proteger um estojo é local; a reserva de PE        Anote o que veio dos dados, do terreno, das
+proposta para Ren é experimental; a conta de          capacidades e das decisões. Uma boa solução pode
+Defesa vem das regras. Uma montagem legal não         abreviar a luta. Não acrescente vida, imunidade ou
+certifica o conjunto do inimigo.                      outra leva de inimigos durante a cena para apagar
+                                                      essa conquista. Se houver erro, esclareça-o,
+Depois do encontro, registre duração, recursos
+                                                      combinem a correção e registrem a mudança.
+gastos, quedas, tempo sem agir, socorro, retirada e
+objetivo. Confira separadamente: a oposição           Para comparar versões, mantenha as demais
+terminou, o lugar ficou seguro e todas as pessoas     condições e altere um elemento por vez. Identifique
+saíram? Essas respostas podem ser diferentes.         se a evidência foi leitura de regra, conta, percurso
+                                                      com resultados escolhidos ou sessão realmente
+O fim de uma ameaça não desliga um mecanismo
+                                                      jogada. Depois de uma mesa, recolha dificuldades
+independente. O fim dos ataques não completa um
+                                                      concretas: os sinais foram entendidos? Houve
+tratamento. A derrota de um inimigo também
+                                                      oportunidade de responder? Quem ficou sem
+precisa de desfecho definido: incapacitação,
+                                                      participar, por quanto tempo e por quê?
+destruição ou outra consequência cabível não são a
+mesma coisa. Reserve atendimento, custódia e          O índice de casos leva às fichas, confrontos e
+aquisição para a resolução pertinente.                perigos completos. Use-o para estudar a dúvida
+                                                      pertinente, sem precisar ler todos os exemplos
+                                                      antes de preparar o próximo encontro.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                 7
+

@@ -1,0 +1,91 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Entre cenas, sem efeito mantido ou urgência, Hana
+pode esperar e aproveitar um Refluxo ainda
+disponível. Se estiver sustentando uma proteção que
+vence a cada turno, será necessário acompanhar a
+oscilação e os pagamentos; a espera não garante que a
+proteção permaneça.
+Quando a mesa retomar uma sequência precisa
+depois de uma passagem de tempo resumida, não
+conserve um resultado alto escolhido durante o
+resumo. Abra o limite inicial, sem uma marca
+gratuita de Refluxo. Conserve saldo, usos
+consumidos e consequências já resolvidas. Uma
+sequência que apenas continua, sem essa passagem
+de tempo, conserva seu estado normal.
+Na guilda, registre o uso junto da ficha e informe o
+próximo mestre. Terminar uma sessão, mudar de
+mestre ou passar um ciclo administrativo não é
+automaticamente um descanso. Um descanso
+realmente ocorrido na ficção segue o Livro de
+Regras 1.0. Essas regras também funcionam numa
+campanha fechada, sem concessão semanal de
+energia.
+Descanso, adesão e encerramento
+Um descanso curto ou longo efetivamente
+concluído renova o uso de Refluxo para um, sem
+acumular. Apague a preparação anterior e encerre a
+contagem de gasto anterior ao descanso; quando
+outra sequência relevante começar, abra o limite
+inicial. O descanso recupera recursos conforme a
+própria regra, sem ativar Refluxo automaticamente.
+Não trate uma pausa contínua como vários
+descansos.
+A adesão é combinada fora de uma cena em
+andamento, respeitando as vagas e os requisitos do
+Livro de Regras 1.0. Ela não recupera PE. No
+primeiro estabelecimento do Pacto, o uso começa
+disponível; uma reentrada conserva o registro do
+uso desde o último descanso real, sem recarregá-lo
+pela troca de ficha.
+Saída voluntária: peça fora de cena. O Pacto
+termina ao concluir o próximo descanso longo. Até
+lá, a limitação e a vaga permanecem, e o benefício
+conserva seu funcionamento. Ao terminar, apague
+o percentual, o gasto e a preparação; cesse a
+limitação e libere a vaga. A energia já recuperada
+permanece no saldo, sujeita ao máximo normal.
+Para uma nova adesão depois dessa saída, aguarde
+outro descanso longo efetivamente concluído; o
+mesmo descanso não serve para encerrar e refazer o
+Pacto. Esse prazo deixa claro quando o Pacto
+termina e impede alternar a limitação por cena.
+Hana pede para sair antes de iniciar a missão. Um
+descanso curto no trajeto renova o uso de Refluxo,
+mas mantém o Pacto. Depois de concluir a missão e o
+descanso longo, a saída se efetiva: perde o benefício,
+deixa de sortear limites e libera a vaga. Esse mesmo
+descanso não permite firmar Liberação irregular
+novamente; precisará concluir outro descanso longo
+antes da nova adesão.
+Essas orientações tratam do encerramento
+voluntário. Uma perda imposta por outra regra
+segue essa regra; o exemplo não concede proteção
+contra ela nem inventa uma punição universal de
+quebra.
+Registro de mesa
+Campo
+Anotação
+Máximo e saldo atuais
+Inclua energia temporária em campo separado.
+Percentual vigente
+Inicial ou resultado do começo do turno.
+Total pago no intervalo
+Some todas as parcelas pagas pelo portador.
+Teto e restante
+Recalcule se o máximo mudar; restante nunca menor que zero.
+Refluxo
+Uso disponível/gasto; preparação ausente, aguardando positivo ou
+utilizável neste turno.
+Manutenções
+Custo, vencimento, fonte pagadora e consequência de não pagar.
+Descanso e saída
+Último descanso real; pedido e condição de encerramento, quando
+houver.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+251

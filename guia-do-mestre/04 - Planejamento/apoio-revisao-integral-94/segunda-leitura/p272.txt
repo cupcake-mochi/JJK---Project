@@ -1,0 +1,87 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Durante a prova, cura de um aliado, ataque de outra
+criatura, orientação tática transmitida por
+personagem, ajuda em teste, contenção ou
+benefício externo que altere a disputa encerram a
+tentativa como interrompida. O mesmo vale para
+uma entidade de Kaito contribuindo. A intenção de
+ajudar ou prejudicar não transforma intervenção
+em vitória individual.
+Resolva uma ação externa já iniciada com seus
+requisitos e custos; ela não fica anulada
+gratuitamente por encerrar a prova. Uma entrada
+de socorrista no quadrado também interrompe
+antes de novas ações do cão. Não há punição
+sobrenatural adicional para quem ajuda. Uma
+intervenção pode salvar Kaito sem liberar a
+entidade.
+Kaito pode desistir sem gastar ação enquanto
+estiver consciente e conseguir comunicar a decisão.
+A tentativa termina e o cão sai de campo. Não
+aguarde outra mordida como cobrança pela
+desistência. Os gastos e ferimentos já sofridos
+permanecem.
+Os estágios de Integridade se aplicam aos dois
+combatentes. No cão, perder 2 pontos já causa
+desvantagem em perícias; perder 3 reduz seu
+deslocamento a 4,5 m; perder 5 também causa
+desvantagem em ataques e TRs. A Integridade zero
+provoca sua queda pelas regras de entidade.
+Se Kaito chegar a zero de vida, a tentativa termina
+mesmo que uma capacidade permita que ele
+continue agindo. Isso não declara Kaito Derrotado:
+aplique Vida a zero, capacidades de queda,
+Aguentar ou Insistir e a janela de socorro do Livro
+de Regras 1.0. Insistir permite as ações previstas
+pelo sistema, mas não reabre uma prova encerrada.
+Se a Integridade de Kaito também chegar a zero,
+prevalece a derrota por Integridade; Insistir não a
+supera.
+Por exemplo, sem Sequelas anteriores, uma queda
+dispõe da janela normal de três rodadas. O cão sair
+de campo não pausa essa contagem nem cura Kaito.
+Colegas podem aproximar-se e prestar socorro
+pagando as ações e cumprindo os requisitos
+normais. Estabilizar exige alvo Inconsciente e
+Morrendo, meios adequados, uma mão livre,
+distância de 1,5 m, Ação Padrão e Medicina CD 14.
+Não funciona enquanto ele continuar Insistindo;
+ele pode escolher Aguentar sem ação.
+Se ambos chegarem a zero na mesma resolução,
+confira primeiro destruição e os efeitos daquela
+resolução. Sem Kaito satisfazer a condição de
+permanecer acima de zero, Kaito não conquista a
+entidade. Não transforme a ordem em que os
+números foram anotados em um desempate
+favorável.
+Depois da prova
+Resultado
+Registro e continuação
+Vitória por vida a zero, sem
+destruição
+Entrada conquistada; cão recolhido e caído, com 0 PV. Conserve
+Integridade, efeitos e usos. Não se manifesta automaticamente.
+Vitória por Integridade a zero
+Entrada conquistada, mas caída por Integridade. Precisa recuperar ao
+menos 1 de Integridade para poder retornar. Conserve a vida atual.
+Desistência, saída, intervenção ou
+queda de Kaito
+Entrada ainda não conquistada; conserve os estados reais do
+participante e do cão. A próxima tentativa depende do descanso longo
+previsto e das condições de participação.
+Destruição do cão
+Entrada perdida. Não recrie a mesma identidade no próximo descanso.
+Nova entidade exigiria a permissão escrita da técnica e outra ficha, não
+uma tentativa repetida sobre a destruída.
+Após uma vitória por vida a zero, com Integridade positiva, Kaito pode usar o retorno: o cão de nível 2 tem
+entrada normal de 1 PE; retornar custa 2 PE e concede 6 PV, metade de 12. Em combate, custa sua Bônus e
+respeita posição, teto de ativos e recursos de atuação. O retorno não concede uma básica própria naquele
+ciclo. Um descanso longo recupera a vida inteira e, quando pertinente, Integridade; a próxima entrada
+normal continua tendo seu custo.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+272

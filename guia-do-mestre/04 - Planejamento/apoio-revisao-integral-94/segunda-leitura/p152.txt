@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Akira derrota Sora. De F6, ela continua ao alcance
+de 18 m. A proximidade de Ren não dá a ele uma
+oportunidade contra qualquer conjuração; a
+desvantagem comum de armas de projétil também
+não é aplicada a este feitiço. Ele paga Padrão e 6
+PE, tira 12 + 5 = 17 e causa 2 + 3 + 3 + 4 + 4 + 5 = 21.
+Sora chega a zero. Pelo desfecho preparado, fica
+incapacitada, Inconsciente e Derrubada em H12,
+soltando o estojo ali. Não recebe Insistir nem outro
+turno ativo.
+Akira usa Bônus e 1 PE para oferecer Avançar a
+Rina, indicando D6 e Ren como ameaça. Fica com
+16 PE. Rina já gastou sua Reação para interceptar:
+não se move agora. A abertura estará disponível no
+começo do turno dela.
+Rodada 3 - Ren fica sem apoio
+Sora continua Derrotada. Rina recupera sua Reação
+e consome Avançar no próprio turno, sem outra
+ação: C4 → D5 → D6, 3 m. Com seu Movimento,
+anda mais 1,5 m até E6. Ren, em F7, está ao alcance
+da espada. A Padrão dá 12 + 5 = 17 e causa 6 + 4 + 3 =
+13. Ren fica com 46 PV e 1 PE. Ele não recebe cura,
+benefício novo ou redução sem poder pagá-los.
+Ren escolhe sair. Usa a Padrão para Desengajar.
+Seu Movimento percorre F7 → G6 → G5 → G4 → F3 →
+F2 → F1, 9 m, contornando Akira em F6. Converte a
+Bônus em outro Movimento e chega a F-1 por F0,
+gastando mais 3 m. Desengajar evita as
+oportunidades aplicáveis durante esse turno. Não
+atravessou o espaço de um inimigo nem recebeu
+fuga automática por estar ferido.
+Mei e Akira ainda podem agir. Neste exemplo, o
+grupo decide não perseguir Ren, pois quer os
+documentos e o fim da oposição imediata. Ele
+continua alcançável por alguns ataques; cruzar a
+porta não impede que outra escolha fosse feita.
+Akira recolhe o estojo. Anda F6 → G7 → G8 → G9 →
+G10 → G11 → G12, 9 m. De G12, alcança o objeto
+solto em H12 e o pega com a mão esquerda usando
+a interação simples gratuita. Não termina sobre o
+corpo de Sora. O grupo controla os documentos e a
+área; ainda é preciso cuidar de Sora, decidir o que
+fazer com ela e sair do local. Seu transporte não
+acontece automaticamente.
+Estado ao encerrar a
+oposição
+Vida
+PE
+Integridade
+Posição e resultado
+Rina
+52/65
+24/24
+50/50
+E6; sem Sequelas.
+Mei
+44/44
+24/36
+55/55
+D4; sem Sequelas.
+Akira
+51/51
+16/30
+65/65
+G12, com o estojo.
+Ren
+46/72
+1/8
+36/36
+F-1; retirou-se porque o grupo
+não o perseguiu.
+Sora
+0/48
+1/12
+24/24
+H12, incapacitada.
+O grupo gastou 26 PE; a dupla, 18 PE. Essas
+quantidades são resultados deste exemplo. Não
+houve crítico, Kokusen, dano de Alma ou queda de
+jogador. Nenhum gasto foi recuperado ao terminar
+a oposição.
+Ren ou Sora: quem atacar
+primeiro?
+Depois do primeiro turno de Ren, os dois
+adversários estão com Ren 67 PV/6 PE e Sora 48
+PV/9 PE. Faltam os ataques de Mei e Akira:
+respectivamente 5d8 e 6d8, ataque +5 contra Defesa
+13. Nesse momento, cada um consegue alcançar o
+alvo escolhido. Considere que o alvo usa Cobrir-se
+no primeiro dano positivo, reduzindo três e
+pagando Reação/2 PE; nenhum outro atendimento
+acontece antes do próximo turno de Sora.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+152

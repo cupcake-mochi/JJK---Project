@@ -1,0 +1,62 @@
+{
+  "registro": 114,
+  "pdf_sha256": "300a7f211c1d05def297137b036689e2c5f9f6889eb07511e1ab70558a63eb25",
+  "fontes_conferidas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "numeros_preservados": true,
+      "excecao": null,
+      "tabelas": 7
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "numeros_preservados": true,
+      "excecao": null,
+      "tabelas": 6
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "numeros_preservados": false,
+      "excecao": "História CD 16 → 18",
+      "tabelas": 2
+    }
+  ],
+  "tabelas_conferidas": 15,
+  "rotulos_de_tabelas_simplificados": {
+    "Conduta": "Comportamento",
+    "Resolução": "Efeito",
+    "Intervenção": "Como agir",
+    "Ultrapassa a aquisição": "Não é permitido por essa opção"
+  },
+  "correcao_arata": {
+    "cd_anterior": 16,
+    "cd_atual": 18,
+    "escala_fixa": [
+      6,
+      10,
+      14,
+      18,
+      22,
+      26
+    ],
+    "total_preservado": 19,
+    "resultado": "sucesso",
+    "limite": "Muda a exigência desta tarefa em 2; não define a CD de toda leitura nem demonstra equilíbrio das menores."
+  },
+  "links_locais_conferidos": 378,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_preservados": 59,
+  "casos_com_destino_atualizado": [
+    "s089"
+  ],
+  "corpo_e_pdf_das_folhas_preservados": true,
+  "pdf_integrado_preservado": true,
+  "provas_112_e_113_preservadas": true,
+  "base_de_regras_preservada": true,
+  "limites": [
+    "Conferência de texto, números e documentos; sem nova simulação ou avaliação humana.",
+    "Revisão integral do livro e avaliação de equilíbrio continuam pendentes."
+  ]
+}

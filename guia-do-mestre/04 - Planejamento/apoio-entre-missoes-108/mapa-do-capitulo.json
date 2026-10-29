@@ -1,0 +1,265 @@
+{
+  "registro": 108,
+  "secoes": [
+    {
+      "destino": "N08.1",
+      "titulo_planejado": "8.1 Rotina, descanso e compromissos",
+      "titulo_de_leitura": "8.1 Rotina e descanso",
+      "ancora": "81-rotina-e-descanso",
+      "fontes_preservadas": [
+        {
+          "id": "s006",
+          "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "sha256": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+          "destino_principal": "N02.1",
+          "usos_complementares": [
+            "N01.1",
+            "N02.2",
+            "N02.4",
+            "N02.6",
+            "N08.1"
+          ]
+        },
+        {
+          "id": "s023",
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "id": "s103",
+          "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+          "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N08.1"
+          ]
+        },
+        {
+          "id": "s039",
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N08.2",
+      "titulo_planejado": "8.2 Trabalho, dedicação e espera",
+      "titulo_de_leitura": "8.2 Tempo para as atividades",
+      "ancora": "82-tempo-para-as-atividades",
+      "fontes_preservadas": [
+        {
+          "id": "s039",
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        },
+        {
+          "id": "s034",
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "id": "s045",
+          "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "sha256": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+          "destino_principal": "N09.5",
+          "usos_complementares": [
+            "B5",
+            "N08.2"
+          ]
+        },
+        {
+          "id": "s040",
+          "fonte": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+          "sha256": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+          "destino_principal": "A5.7",
+          "usos_complementares": [
+            "N08.2",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N08.3",
+      "titulo_planejado": "8.3 Ofícios, fabricação e reparos",
+      "titulo_de_leitura": "8.3 Ofícios, fabricação e reparos",
+      "ancora": "83-oficios-fabricacao-e-reparos",
+      "fontes_preservadas": [
+        {
+          "id": "s090",
+          "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+          "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N08.3",
+            "B3"
+          ]
+        },
+        {
+          "id": "s034",
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "id": "s036",
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "id": "s096",
+          "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+          "sha256": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.3",
+            "N08.5"
+          ]
+        },
+        {
+          "id": "s038",
+          "fonte": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+          "sha256": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+          "destino_principal": "A5.6",
+          "usos_complementares": [
+            "N08.3",
+            "N08.4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N08.4",
+      "titulo_planejado": "8.4 Comprar, emprestar e contratar",
+      "titulo_de_leitura": "8.4 Comprar, emprestar e contratar",
+      "ancora": "84-comprar-emprestar-e-contratar",
+      "fontes_preservadas": [
+        {
+          "id": "s035",
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "id": "s097",
+          "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+          "sha256": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.4"
+          ]
+        },
+        {
+          "id": "s038",
+          "fonte": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+          "sha256": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+          "destino_principal": "A5.6",
+          "usos_complementares": [
+            "N08.3",
+            "N08.4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N08.5",
+      "titulo_planejado": "8.5 Ferramentas e objetos amaldiçoados",
+      "titulo_de_leitura": "8.5 Ferramentas e objetos amaldiçoados",
+      "ancora": "85-ferramentas-e-objetos-amaldicoados",
+      "fontes_preservadas": [
+        {
+          "id": "s036",
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "id": "s096",
+          "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+          "sha256": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.3",
+            "N08.5"
+          ]
+        },
+        {
+          "id": "s098",
+          "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+          "sha256": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.5"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N08.6",
+      "titulo_planejado": "8.6 Recompensas e progressão",
+      "titulo_de_leitura": "8.6 Recompensas e progressão",
+      "ancora": "86-recompensas-e-progressao",
+      "fontes_preservadas": [
+        {
+          "id": "s037",
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "id": "s099",
+          "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+          "sha256": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.6"
+          ]
+        }
+      ]
+    }
+  ],
+  "casos_completos": "04 - Planejamento/apoio-consultas-105/casos-completos.html#B4",
+  "limite": "Localiza fontes preservadas e exposição nova; não declara revisão semântica integral de cada estudo ou adota exemplos experimentais como regras gerais."
+}

@@ -1,0 +1,107 @@
+{
+  "registro": 105,
+  "pdf": "04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf",
+  "pdf_sha256": "c6de19920cf0cd42ac7524e1b3e609738b12a30cacbbedf514824e2e53aa247f",
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "sha256": "5a16cf51ec031ca1bb13ab92a5b7442137c53b76cba685d363470dbe38b389dd",
+      "id": "preparar",
+      "tipo": "formulario",
+      "titulo": "Preparar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "sha256": "b1de38a4425460144b5a9ce2095413ccc499a10c86b15aba9ebdf541d98a6450",
+      "id": "conduzir",
+      "tipo": "consulta",
+      "titulo": "Conduzir a sessão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "sha256": "7bad228a4ae52f3697b975c524f7d0104c4dcb56ac19e0bd10739de48e32eecb",
+      "id": "retomar",
+      "tipo": "formulario",
+      "titulo": "Retomar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "sha256": "900d311737d1afd5f33a59375f5f31a9bd32666e8098c51cff0c5528e746b19e",
+      "id": "exemplo-preparo",
+      "tipo": "exemplo",
+      "titulo": "Preparo preenchido: a despedida"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "d4b9ed6b39267e5f184bfc0116185c822646096f3c90437de83fb1f9a5a4f84b",
+      "id": "exemplo-retomada",
+      "tipo": "exemplo",
+      "titulo": "Retomada preenchida: a sala"
+    }
+  ],
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Comparação com as fontes de preparo, condução, continuidade, estado e passagem; alinhamento das cinco perguntas e separação de preparo e resultado.",
+      "ajustes": "Lembretes limitados ao uso à mesa; remissão à resolução completa; mesmos títulos nas folhas e nos preenchimentos."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Releitura nas cinco páginas: clareza, remissões, estado e próximo ponto do caso de Mei, horários e escolha na despedida.",
+      "ajustes": "Abertura e conferência da retomada encurtadas; nenhum dado do registro de socorro retirado. Distinção entre resumo e estado completo mantida."
+    }
+  ],
+  "ajustes_visuais": [
+    "Linhas explícitas substituem fundo repetido que não renderizava consistentemente.",
+    "Espaço de referência reduzido nos dois campos de apontamento da retomada, permitindo manter o aviso final na mesma folha.",
+    "Linha acrescentada às referências de fichas no preparo. Corpo permanece 10,25/13,2 pt; sem compressão da fonte para caber.",
+    "Âncora do exemplo de despedida corrigida para a folha própria da amostra. A renderização das cinco páginas permaneceu idêntica, conferida pelos hashes das imagens."
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-consultas-105/visual-final/p-1.png",
+      "imagem_sha256": "d86ea67560d316c3e7970f8890591feda94e394bebe0ed92d14b2bdfed8dc95d",
+      "inspecionada": true,
+      "inalterada_apos_ultimo_ajuste_da_pagina_1": false,
+      "observacao": "Folha de preparo inteira numa página. Quinze linhas para anotações, incluindo referência às fichas. Metadados, perguntas e acesso ao fechamento legíveis; espaço branco reservado à escrita."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-consultas-105/visual-final/p-2.png",
+      "imagem_sha256": "62d3678b265b10bd62e1975e7021d26efa7f06822a15a1548cd947c98dda6ac5",
+      "inspecionada": true,
+      "inalterada_apos_ultimo_ajuste_da_pagina_1": true,
+      "observacao": "Lembretes de condução em duas colunas. Títulos e primeiro parágrafo ficam juntos; mudança de coluna ocorre entre parágrafos da orientação sobre conversa. Acesso direto à explicação de socorro e ao registro completo."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-consultas-105/visual-final/p-3.png",
+      "imagem_sha256": "d864ae13f012c0a848bc6494630a464931d2bec4c849589f687ca4a04c145f9c",
+      "inspecionada": true,
+      "inalterada_apos_ultimo_ajuste_da_pagina_1": true,
+      "observacao": "Resumo de retomada inteiro numa página. Campos que apenas apontam o estado e as referências têm uma linha; demais campos conservam duas. Aviso final na mesma página, com distância suficiente do rodapé."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-consultas-105/visual-final/p-4.png",
+      "imagem_sha256": "86bd2107670df767b096489ac96f6b47bb29d23f3283168a57678a7708617fbc",
+      "inspecionada": true,
+      "inalterada_apos_ultimo_ajuste_da_pagina_1": true,
+      "observacao": "Exemplo da despedida em duas colunas. Diálogo destacado e inteiro; título, pessoas e horários legíveis. O parágrafo sobre o lugar continua no topo da coluna direita, mantendo três linhas depois da quebra."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-consultas-105/visual-final/p-5.png",
+      "imagem_sha256": "263ee870fd6487e0dcb96937f62f1d04d73ac8c8258aac263e2de648c2a6ddfb",
+      "inspecionada": true,
+      "inalterada_apos_ultimo_ajuste_da_pagina_1": true,
+      "observacao": "Pausa com socorro: tabela inteira e legível; tratamento, janela e ponto da contagem próximos na coluna direita. Dados de estado não se confundem com resultado posterior. Referências e aviso sobre fichas parciais visíveis."
+    }
+  ],
+  "limites": [
+    "Pacote separado; PDF integrado de 357 páginas preservado.",
+    "Reorganização dos capítulos técnicos 6–10 ainda pendente.",
+    "Sem teste com leitores externos ou mesa realizada."
+  ]
+}

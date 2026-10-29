@@ -1,0 +1,160 @@
+{
+  "registro": 121,
+  "grupos": {
+    "B1": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-113/prova-textual.html#c04",
+      "folhas": [
+        "s024"
+      ]
+    },
+    "B2": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c06",
+      "folhas": [
+        "s058",
+        "s061",
+        "s068"
+      ]
+    },
+    "B3": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c07",
+      "folhas": [
+        "s028",
+        "s032"
+      ],
+      "consulta_publicada": "s092"
+    },
+    "B4": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c08",
+      "folhas": [
+        "s038",
+        "s040"
+      ]
+    },
+    "B5": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c09",
+      "folhas": [
+        "s042",
+        "s044"
+      ]
+    }
+  },
+  "guilda": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c10",
+  "avisos": {},
+  "casos_revisados": {
+    "s089": {
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#arata",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "motivo": "CD de História corrigida de 16 para 18 da escala fixa; demais valores e capacidades preservados."
+    },
+    "s014": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#aviso",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s082": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#testes",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s083": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#pistas",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s011": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#cenario",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s084": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#movimento",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+    },
+    "s085": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#ferramentas",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+    },
+    "s022": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#socorro",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+    },
+    "s023": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#recuperacao",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+    },
+    "s081": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#passagem",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+    },
+    "s059": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#energia",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+    },
+    "s060": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#habilidades",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+    },
+    "s074": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#numeros",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+    },
+    "s100": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#faixas",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+    },
+    "s067": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#chefes",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+    },
+    "s078": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#perigos",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+    },
+    "s057": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#amontoado",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+    },
+    "s062": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#corredor",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+    },
+    "s063": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#doma",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+    },
+    "s064": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#passarela",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+    },
+    "s065": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#combinar",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+    },
+    "s066": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#portao",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+    },
+    "s071": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#sineiro",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+    }
+  }
+}

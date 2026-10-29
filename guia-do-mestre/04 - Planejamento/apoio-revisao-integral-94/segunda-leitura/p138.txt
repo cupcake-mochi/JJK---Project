@@ -1,0 +1,74 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+No confronto
+Depois da Doma
+Nível 6, corpo Grande, duas mãos, 180 kg.
+Conserva nível, corpo, atributos, alma, sentidos e
+comunicação.
+108 PV e 54 de Integridade.
+38 PV e 19 de Integridade, pela construção. Não cura na
+aquisição.
+Atacar com duas Pancadas de 2d6 + 4.
+Uma básica, com um ataque de 2d6, sem atributo no dano.
+Agarrar pode substituir essa atuação.
+Condução eficiente usando Movimento.
+Transporte comum pelo talento; a especial Condução
+urgente acrescenta um percurso pago.
+Bônus prepara; Padrão no turno seguinte
+causa 5d8.
+Padrão do invocador, básica e PE iniciam Carregar; outra
+básica libera 3d8 no turno seguinte, sem novo comando.
+Impacto exclui apenas o próprio corpo.
+A montagem paga Escolher, permitindo selecionar os
+atingidos percebidos.
+Mudar de posição ou ficar Derrubado
+interrompe a preparação corporal.
+Carregar usa seus próprios testes ao sofrer dano; movimento
+e Derrubado não o cancelam por si.
+Guarda Aberta até começar o próximo turno
+após bater.
+Recuo mantém Guarda Aberta até o fim do próximo turno do
+invocador após a liberação.
+Essas diferenças fazem parte da oferta de aquisição.
+Não prometa uma cópia da ficha inimiga e só
+depois anuncie os limites.
+Aquisição
+Exige candidato de nível 6 ou maior. A rota deste
+exemplo é derrotar a maldição sem destruí-la e
+tentar fora de combate. Este exemplo não define
+um ponto para tentar a Doma antes da derrota.
+Confira destruição usando os 108 PV máximos da
+ficha do confronto. Uma ocorrência de dano direto
+de pelo menos 108, ou um excedente além de zero
+maior que 54, destrói. Excedente igual a 54 não
+basta. Dano em área derrota, mas não destrói por si.
+A partir de 5 PV, dano direto 59 produz excedente
+54; 60 produz 55 e destrói.
+A maldição faz um TR Espírito, normalmente +1,
+contra a CD da rota do candidato: falha doma;
+sucesso exorciza. Igualar a CD é sucesso. Aplique
+suas condições atuais, incluindo desvantagem do
+estágio 3 de Integridade quando presente. Não
+repita o teste até obter o resultado desejado.
+Ficha da entidade
+M é a Maestria do invocador. B é metade, para
+baixo, de sua Essência ou Inteligência, conforme a
+escolha usada na Defesa das entidades.
+Campo
+Registro
+Atributos
+Força 4, Destreza 1, Constituição 3, Inteligência 1, Essência 1. Os nove
+pontos iniciais são 3/1/3/1/1; o ganho do nível 6 foi para Força.
+Vida máxima
+38 = 5 + 3 + (3 + 3) × (6 - 1).
+Integridade máxima
+19. Calcule os estágios de Integridade a partir deste máximo,
+conforme o livro de regras.
+Defesa / Bloquear
+11 + B / 2d10 + B.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+138

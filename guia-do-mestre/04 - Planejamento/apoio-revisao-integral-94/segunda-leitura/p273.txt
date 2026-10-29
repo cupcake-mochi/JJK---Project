@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Conquistar não recupera os PE de Kaito. Se ele
+começou com 8 e gastou apenas 1 no início da
+prova, termina com 7. Se depois puder pagar o
+retorno de 2, fica com 5. Manifestar o cão
+novamente não lhe devolve uma Ação Padrão já
+gasta.
+A entidade acompanha o nível de Kaito. Não aplica
+o limite de Classe e a reconstrução das entidades
+fabricadas, nem o nível fixo das maldições
+domadas. A lista segue ocupando seu espaço
+conhecido quando o cão está recolhido, caído ou
+indisponível.
+Registro preenchido de uma
+vitória
+• Aquisição: lista de ritual da técnica de animais de
+sombra; entrada Cão de sombra, nível 2, Classe 1.
+Alternativa ao espaço dedicado usado no exemplo
+original do Livro de Regras 1.0.
+• Prova: quadrado de 9 m, posições separadas por 6
+m; custo inicial de 1 PE; disputa individual
+conforme os termos desta seção.
+• Desfecho registrado: cão de 6 a 0 PV após 6 de
+dano direto; não destruído; Integridade 6. Kaito
+terminou consciente, com vida positiva e sem
+contribuição de outra criatura.
+• Estado da entrada: conquistada; cão recolhido e
+caído, ainda não retornou. Sem condição
+persistente neste registro.
+• Invocador: anotar vida e Integridade atuais, PE
+restantes, usos e condições da ficha real. Os 7 PE do
+exemplo só valem se o saldo inicial e os gastos
+tiverem sido aqueles.
+• Continuidade: para voltar agora, conferir retorno
+de 2 PE, 6 PV e demais requisitos; depois de
+descanso longo válido, atualizar o que efetivamente
+recuperou.
+Na guilda, este registro acompanha a ficha e
+informa quem conduziu a prova. Outro mestre não
+deve pedir que ela seja refeita porque não assistiu à
+cena. Em campanha fechada, o mesmo registro
+pode ficar com a lista da técnica.
+Como preparar outra prova
+Escolha primeiro a entidade e a capacidade que o
+desafio pretende exigir. Escreva o objetivo, início,
+formas de encerramento e estado recebido na
+vitória. Se usar disputa sem combate, diga qual
+realização concreta libera a entrada e quais testes a
+resolvem. Nem todo ritual exige derrotar a entidade
+causando dano.
+Esta prova usa uma entidade de nível 2 sem sua
+especial durante o confronto. Isso não estabelece
+dificuldade adequada para todo personagem de
+nível 2. Antes de utilizá-la, confira alcance, dano,
+defesa e recursos da ficha participante. Um
+confronto fácil para uma técnica pode ser difícil
+para outra. Alterar vida, condições ou ações durante
+a disputa para forçar dificuldade prejudica a clareza
+do acordo.
+Consulta do Livro de Regras 1.0: Cão de sombra,
+lista de ritual, queda e destruição, retorno e Vida a
+zero.
+9.10 · Domar o Amontoado
+do depósito
+Exemplo experimental para a pré-1.0. Esta seção
+desenvolve a aquisição de uma maldição usando As
+batidas no anexo (p. 22) e a base pequena de
+inimigos (p. 346). As fichas experimentais de
+inimigo e de entidade foram construídas com
+referência no Livro de Regras 1.0.
+Na doma, o grupo pode ajudar a derrotar a
+maldição. Depois, ela faz o teste de submissão: se
+falhar, é domada; se passar, é exorcizada. Não
+confunda essa aquisição com o desafio individual
+de uma lista de ritual.
+Antes da luta
+A equipe encontra um Amontoado de nível 2 no
+depósito do centro cultural. Os funcionários estão
+fora. A criatura protege uma pilha de caixas e fica
+hostil se for atacada ou se tentarem desmontar sua
+pilha. A ocorrência não exige atacar
+imediatamente; o grupo pode investigar, retirar-se
+ou encaminhar o problema, como no preparo
+original.
+Nara pretende obter a maldição. Neste exemplo, ela
+tem nível 2, Maestria 1, Essência 3 e CD de
+conjuração 12, calculada por 8 + 3 + 1 na sua
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+273

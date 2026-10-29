@@ -1,0 +1,78 @@
+{
+  "registro": 115,
+  "capitulos": [
+    {
+      "id": "c08",
+      "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "titulo": "Entre missões",
+      "sha256": "cf97be06ff9845b7f8ad610e95e6350f45460fcc173f41728160243a2b387a3a",
+      "paginas_lidas_na_segunda_passagem": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "paginas_na_prova_final": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "estado": "duas passagens locais; consultas e conferência global ainda pendentes"
+    },
+    {
+      "id": "c09",
+      "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "titulo": "Pactos e entidades",
+      "sha256": "a603553c748c0304d1767178ee8dfc65ef54313a37aa3bcf863d3bf9dc2c6cad",
+      "paginas_lidas_na_segunda_passagem": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "paginas_na_prova_final": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "estado": "duas passagens locais; consultas e conferência global ainda pendentes"
+    },
+    {
+      "id": "c10",
+      "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "titulo": "Jogar em guilda",
+      "sha256": "e998d74363a974201c64ca0b992a90e96cb608900354ebfa0dfb98dece64fbb2",
+      "paginas_lidas_na_segunda_passagem": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "paginas_na_prova_final": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "estado": "duas passagens locais; consultas e conferência global ainda pendentes"
+    }
+  ],
+  "prova_da_segunda_passagem": "04 - Planejamento/apoio-revisao-textual-115/prova-1/prova.pdf",
+  "prova_da_segunda_passagem_sha256": "61a99c94b55d594eec77ed238baf155a08cdd2c7538b35254c3cda137e1b6fdb",
+  "prova_final_sha256": "fbc77e87b489c0c1d3e76f63ab3b2633ad0d0fb840036dbba0918e338271cb0c",
+  "escopo": "Leitura integral dos capítulos 8–10, revisão, leitura das 18 páginas da primeira prova, sete ajustes e cinco cortes posteriores, todos relidos. Inspeção visual separada.",
+  "limite": "Duas passagens locais; sem terceira leitura integral ou teste humano."
+}

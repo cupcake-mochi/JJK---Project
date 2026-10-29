@@ -1,0 +1,38 @@
+{
+  "registro": 115,
+  "pdf_sha256": "fbc77e87b489c0c1d3e76f63ab3b2633ad0d0fb840036dbba0918e338271cb0c",
+  "fontes_conferidas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_preservadas": 9
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_preservadas": 7
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_preservadas": 4
+    }
+  ],
+  "tabelas_preservadas": 20,
+  "trechos_de_regras_preservados": 48,
+  "links_locais_conferidos": 423,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_preservados": 59,
+  "corpo_e_pdf_das_folhas_preservados": true,
+  "arata_revisado_114_preservado": true,
+  "pdf_integrado_preservado": true,
+  "provas_112_a_114_preservadas": true,
+  "base_de_regras_preservada": true,
+  "contas_dos_exemplos": "Conferidas; nenhuma nova rolagem ou simulação.",
+  "limites": [
+    "Conferência de texto, números e documentos; sem avaliação humana ou demonstração de equilíbrio.",
+    "Revisão das folhas e casos e conferência global ainda pendentes."
+  ]
+}

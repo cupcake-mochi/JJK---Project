@@ -1,0 +1,81 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+metade da vida nem penalidade automática no TR
+por estar ferida.
+Domar o Amontoado do depósito (p. 273) conduz a
+aquisição completa: apresenta a conversão, mostra
+a derrota sem destruição, resolve o TR e registra o
+estado recebido. Também compara a tentativa
+antecipada, sem definir uma quantidade de vida
+que sirva para toda Doma.
+Criar uma entidade
+Shikigamis de criação usam talismãs; corpos
+amaldiçoados de criação usam peças. O mestre
+define a oportunidade e o custo de tempo e
+materiais. O responsável precisa ser treinado no
+ofício compatível registrado na ficha e pode criar
+para si ou para outro invocador, identificado antes
+do teste.
+Confira os seguintes pontos na ficha de projeto (p.
+314):
+Ponto
+Decisão a registrar
+Resultado
+Ficha da entidade e invocador que a receberá. Cada entidade pede tentativa
+própria.
+Acesso
+Conhecimento, ferramentas, local e materiais que tornam o trabalho possível.
+Classe
+Não pode superar a de quem cria nem a do invocador.
+Nível inicial
+Nível do invocador, limitado ao último nível da Classe escolhida.
+Dedicação
+Horas de trabalho exigidas, tarefas que podem ser interrompidas e eventual
+ajuda.
+Espera
+Entrega de materiais, liberação de local ou outro prazo separado do trabalho.
+Teste
+Responsável, atributo adequado, Maestria, Classe comparada e modificadores
+válidos.
+Falha
+Entidade ainda sem funcionar; condições para autorizar outra tentativa,
+incluindo trabalho ou materiais necessários.
+As horas disponíveis no ciclo não definem quanto
+tempo leva para criar uma entidade. Um projeto
+não passa a custar 28 horas porque esse é o
+orçamento semanal. Depois de combinado o prazo
+do projeto, distribua seu trabalho nos registros de
+cada participante, conforme Tempo entre missões
+(p. 211).
+Não cobre uma hora duas vezes da mesma ficha.
+Quando houver ajudante válido, cada personagem
+registra o tempo que efetivamente dedicou. Duas
+fichas da mesma pessoa têm disponibilidades
+independentes; isso não transforma o saldo de uma
+em horas trabalhadas pela outra.
+O Guia oferece referências de trabalho, orçamento
+e retomada em Tempo e materiais para criar
+entidades (p. 262), com uma opção simples e outra
+detalhada. Use-as para preencher o projeto antes do
+início.
+Resolva o teste de criação
+Depois de cumprir o trabalho combinado, o
+responsável rola d20 + atributo adequado ao ofício
++ Maestria, com os modificadores que se aplicarem.
+A base da CD usa 8 + esse atributo + essa Maestria.
+Compare a Classe escolhida para a entidade com a
+de quem cria:
+Classe da entidade
+Ajuste à CD
+Igual à de quem cria
+0
+Uma abaixo
+-2
+Duas ou mais abaixo
+-4
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+259

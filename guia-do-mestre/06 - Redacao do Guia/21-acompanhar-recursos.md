@@ -1,14 +1,14 @@
-# Acompanhar recursos e consequências
+# Vida, energia e outros recursos
 
-Antes de uma missão, confira o estado dos personagens. Durante o jogo, registre custos, perdas e efeitos no momento em que ocorrem. Na saída, atualize apenas o que as regras de recuperação e os acontecimentos realmente permitirem.
+Antes de uma missão, confira como estão os personagens. Durante o jogo, registre custos, perdas e efeitos no momento em que ocorrem. Ao terminar a missão, confira o que cada personagem recupera pelas regras e o que ainda precisa de cuidado.
 
-Use esta seção para organizar o acompanhamento. [Quedas e socorro](22-quedas-e-socorro.md) desenvolve vida a zero e derrota; [Retirada e recuperação](23-retirada-e-recuperacao.md) trata da saída do perigo e da retomada. O [registro de estado e socorro](24-registro-de-estado-e-socorro.md) reúne os campos de consulta.
+Use os campos abaixo para acompanhar o que cada personagem ainda tem. [Quedas e socorro](22-quedas-e-socorro.md) explica o que acontece ao chegar a zero de vida ou ficar Derrotado; [Retirada e recuperação](23-retirada-e-recuperacao.md) trata da saída do perigo e da retomada. O [registro de estado e socorro](24-registro-de-estado-e-socorro.md) reúne os campos de consulta.
 
-## Separe máximos e valores atuais
+## Máximo e valor atual
 
 O **máximo** é o limite de uma reserva naquele momento. O **valor atual** é quanto resta dela. Vida, pontos de energia (PE) e Integridade precisam de registros separados.
 
-**Exemplo:** uma personagem tem 23 de vida máxima e perde 5. Sua vida atual fica em **23 − 5 = 18**; o máximo continua 23. Uma regra que reduza o máximo deve ser registrada à parte, com sua duração ou forma de saída.
+**Exemplo:** uma personagem tem 23 de vida máxima e perde 5. Sua vida atual fica em **23 − 5 = 18**; o máximo continua 23. Uma regra que reduza o máximo deve ser registrada à parte, com sua duração ou condição para voltar ao normal.
 
 | Registro | O que acompanhar |
 |---|---|
@@ -20,31 +20,31 @@ O **máximo** é o limite de uma reserva naquele momento. O **valor atual** é q
 | Equipamento | Itens, munição, consumíveis, carga e alterações relevantes |
 | Sequelas, Cicatrizes e Exaustão | Quantidades e consequências conforme suas regras |
 
-O nome de uma reserva não substitui o que a ficha permite fazer. No ramo Sem Energia de Restrição Celestial, os PE são Pontos de Esforço; gastá-los não cria energia amaldiçoada. Corpos e entidades podem ter exceções próprias. Confira a entrada correspondente em vez de preencher todos os campos por analogia.
+O nome de uma reserva não substitui o que a ficha permite fazer. No ramo Sem Energia de Restrição Celestial, os PE são Pontos de Esforço; gastá-los não cria energia amaldiçoada. Corpos e entidades podem ter exceções próprias. Confira a entrada correspondente antes de usar os mesmos campos para todos.
 
-## Resolva o dano antes de alterar reservas
+## Como descontar o dano
 
-Confira o dano do efeito, os tipos, as defesas e as reduções permitidas. Depois aplique o resultado às reservas. Resistência, Redução de Dano e vida temporária não são o mesmo procedimento.
+Confira o dano do efeito, os tipos, as defesas e as reduções permitidas. Depois aplique o resultado às reservas. Resistência, Redução de Dano e vida temporária entram em momentos diferentes da conta.
 
 **Exemplo:** um golpe causa 21 de Fogo. Resistência reduz à metade: **21 ÷ 2 = 10,5**, arredondado para **11** de dano recebido. Uma redução aplicável retira 4: restam **7**. Com 3 de vida temporária, a personagem perde esses 3 e mais **4 de vida comum**. Se tinha 18 de vida, fica com 14.
 
 Um dano reduzido a zero não retira vida nem cura. Um ataque que acertou continua sendo um acerto; efeitos que dependem de acertar e efeitos que dependem de causar dano precisam ser conferidos separadamente.
 
-Dano de Alma usa sua regra própria. Cada ponto afeta vida e Integridade, salvo exceção expressa. A metade por resistência ou TR não se aplica a esse dano; um efeito inteiramente evitado por um TR continua podendo causar zero. Vida temporária absorve a parcela que iria à vida, sem proteger a Integridade. Consulte [Dano na alma, R53](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--alma>) para as reduções e demais condições.
+Dano de Alma usa sua regra própria. Cada ponto afeta vida e Integridade, a menos que uma regra diga o contrário. A metade por resistência ou TR não se aplica a esse dano; um efeito inteiramente evitado por um TR continua podendo causar zero. Vida temporária absorve a parcela que iria à vida, sem proteger a Integridade. Consulte [Dano na alma, Livro de Regras 1.0](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--alma>) para as reduções e demais condições.
 
 ## Vida e energia temporárias
 
 Registre cada reserva temporária separada da comum. O teto normal é metade do máximo do recurso, arredondada para baixo, mínimo 1 quando esse máximo for positivo. Máximo zero não cria reserva temporária.
 
-Reservas temporárias do mesmo recurso não se somam: compare o que resta com a nova concessão, limitada pelo teto, e conserve o maior. Elas são consumidas antes da reserva comum conforme a regra e normalmente terminam com a cena, salvo duração própria.
+Reservas temporárias do mesmo recurso não se somam: compare o que resta com a quantidade recebida, limitada pelo teto, e conserve o maior. Elas são consumidas antes da reserva comum conforme a regra e normalmente terminam com a cena, salvo duração própria.
 
 **Exemplo:** vida máxima 23 permite até **11 temporários**. Restam 3 e uma nova capacidade concede 9: o saldo passa a **9 temporários**, não 12. Receber vida temporária não recupera vida nem conta como tratamento para sair de Morrendo.
 
-Se uma proteção for preparada imediatamente antes da situação em que será usada, confirme sua continuidade naquele momento, conforme a R53. Isso pode conservar o saldo até a situação correspondente, sem repor pontos já gastos.
+Se uma proteção for preparada imediatamente antes da situação em que será usada, confirme sua continuidade naquele momento, conforme o Livro de Regras 1.0. Isso pode conservar o saldo até a situação correspondente, sem repor pontos já gastos.
 
-## Integridade e penalidades
+## Perder Integridade
 
-**Integridade** é a reserva usada pelas regras de dano de Alma. Compare quanto foi perdido com seu máximo e aplique o estágio mais alto alcançado, conservando os efeitos anteriores.
+**Integridade** é a reserva usada pelas regras de dano de Alma. Compare quanto foi perdido com seu máximo e aplique as penalidades de todos os estágios que a perda atingiu.
 
 | Perda em relação ao máximo | Efeito do estágio |
 |---|---|
@@ -60,15 +60,15 @@ Se vida e Integridade chegarem a zero na mesma ocorrência, resolva a derrota po
 
 ## Condições e durações
 
-Registre o efeito e seu prazo ao aplicá-lo. Quando uma regra indicar uma rodada, confira de quem é o turno de referência e em que ponto termina. Condições com saídas diferentes mantêm seus próprios procedimentos.
+Registre o efeito e seu prazo ao aplicá-lo. Quando uma regra indicar uma rodada, confira de quem é o turno de referência e em que ponto termina. Condições com saídas diferentes seguem suas próprias regras.
 
 Receber a mesma condição novamente não intensifica seus efeitos por padrão. Registre fontes e durações; a condição permanece enquanto houver uma aplicação válida. Remover uma delas pode não remover as demais.
 
 **Exemplo:** uma personagem encerra Atordoado no fim do turno. Isso não devolve a Ação Padrão que perdeu naquele turno. Da mesma forma, sair de uma queda não devolve uma ação já gasta nem coloca o personagem automaticamente de pé.
 
-Quando houver dúvida de duração, leia a capacidade antes de continuar uma tentativa que depende dela. Use o procedimento de dúvidas de [Conduzir uma sessão](04-conduzir-uma-sessao.md) se a interpretação continuar aberta.
+Quando houver dúvida de duração, leia a capacidade antes de continuar uma tentativa que depende dela. Siga as orientações de dúvidas de regra em [Conduzir uma sessão](04-conduzir-uma-sessao.md) se a interpretação continuar aberta.
 
-## Recupere usos pelo prazo certo
+## Quando recuperar os usos
 
 | Limite da capacidade | Quando recuperar o uso |
 |---|---|
@@ -81,12 +81,12 @@ Uma habilidade que diga apenas “por descanso”, sem especificar qual, precisa
 
 Uma cena termina quando a pressão daquele trecho acaba: inimigo vencido, grupo que escapou ou problema imediato resolvido. O mestre anuncia a mudança quando ela afetar recursos. Trocar de sala durante a mesma perseguição não cria outra cena por si só.
 
-A sessão é o encontro real para jogar. Seu término não encerra automaticamente a missão nem todos os efeitos. Uma missão pode durar vários dias ficcionais e várias sessões; dormir renova os usos por dia, enquanto os demais mantêm suas condições próprias.
+A sessão é o encontro real para jogar. Seu término não encerra automaticamente a missão nem todos os efeitos. Uma missão pode durar vários dias da história e várias sessões; dormir renova os usos por dia, enquanto os demais mantêm suas condições próprias.
 
-## Faça uma passagem que outro mestre consiga usar
+## Registre para continuar depois
 
 Ao encerrar ou interromper, confira alterações com os jogadores. Preserve valores atuais, máximos alterados, usos gastos, condições, equipamento, consequências e prazos em andamento. Separe o que foi observado da decisão provisória de regra adotada pela mesa.
 
-Na guilda, use os registros compartilhados e informe os responsáveis pelas pendências. Em campanha fechada, as mesmas informações podem ficar nas notas do grupo. O nível de detalhe depende do que precisa ser retomado, sem apagar o que ainda produz efeito.
+Na guilda, use os registros compartilhados e informe os responsáveis pelas pendências. Em campanha fechada, as mesmas informações podem ficar nas notas do grupo. Anote o que será necessário para continuar, incluindo os efeitos que ainda estão ativos.
 
-*Base: Dano e recuperação, Percepção de energia, Origens e Cena e usos de habilidades da R53. O [registro de estado e socorro](24-registro-de-estado-e-socorro.md) organiza a consulta; os textos completos permanecem na referência de regras.*
+*Base: Dano e recuperação, Percepção de energia, Origens e Cena e usos de habilidades do Livro de Regras 1.0. O [registro de estado e socorro](24-registro-de-estado-e-socorro.md) organiza a consulta; os textos completos permanecem na referência de regras.*

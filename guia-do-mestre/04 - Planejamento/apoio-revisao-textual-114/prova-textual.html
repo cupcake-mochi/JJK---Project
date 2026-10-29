@@ -1,0 +1,750 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inimigos, personagens e Arata | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'CAPÍTULOS 6 E 7 / CASO ARATA';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}}</style></head><body><nav><a href="#c06">Inimigos e perigos</a><a href="#c07">Personagens e técnicas</a><a href="#arata">Vida rolada e uma família própria</a><a href="consulta-de-regras.html">Regras para consulta</a></nav><p class="aviso-edicao">Prova parcial da etapa 6: capítulos 6–7 e caso Arata revisado. Modelos próprios conservam o caráter experimental. <a href="../apoio-revisao-textual-113/prova-textual.html">Capítulos 4 e 5</a>.</p><main><article class="folha" id="c06"><header><p class="numero">CAPÍTULO 6</p><h1>Inimigos e perigos</h1></header><div class="colunas">
+<p>Um inimigo dá vida à oposição: pode guardar uma passagem, perseguir alguém, defender seu abrigo ou tentar concluir um trabalho. Prepare o que ele quer, como age e quais escolhas oferece ao grupo. O confronto começa por essa situação; os números ajudam a resolvê-la.</p>
+<p>Este capítulo ensina a escolher, adaptar e criar ameaças. A <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha de inimigo e encontro</a> reúne o preparo; as fichas completas e os estudos citados permitem acompanhar aplicações. O catálogo amplo de criaturas, com suas descrições e histórias, fica para o Livro de Inimigos.</p>
+<p>As <a href="consulta-de-regras.html#inimigos">regras usadas aqui</a> estão disponíveis para consulta.</p>
+<p><strong>Os valores e as habilidades próprias propostos pelo Guia são experimentais.</strong> As contas e as sequências dos exemplos permitem conferir o funcionamento; a dificuldade ainda precisa ser observada em mesas diferentes. Use fichas compatíveis com o Livro de Regras 1.0. Os números do Bestiário antigo precisam de revisão antes de servir como referência.</p>
+<h2 id="c06--61-objetivos-e-adversarios">6.1 Objetivos e adversários</h2>
+<p>Comece por três perguntas: <strong>o que o grupo quer, o que a oposição quer e como a situação pode terminar?</strong> Retirar uma pessoa, abrir caminho ou recuperar um objeto pode encerrar a missão sem eliminar todos os inimigos.</p>
+<p>O <a href="../apoio-revisao-textual-112/prova-textual.html#c01--amontoado-do-deposito">Amontoado</a> protege uma pilha de caixas no anexo de um centro cultural. A equipe precisa conferir os funcionários e avaliar o risco. Se todos estiverem fora, manter o lugar fechado e pedir ajuda para resolver a ameaça é um resultado possível. Entrar para lutar é uma escolha do grupo.</p>
+<p>Anote o que a criatura sabe e percebe. Ela reage a sinais acessíveis, sem conhecer conversas privadas ou acompanhar alguém que perdeu de vista. Prepare também o que a faria negociar, abandonar um objetivo ou se retirar.</p>
+<h3 id="c06--o-que-cada-criatura-faz">O que cada criatura faz</h3>
+<p>O papel descreve sua contribuição ao encontro. Ele ajuda a escolher comportamento e capacidades; não concede bônus ou ações.</p>
+<table>
+<thead>
+<tr>
+<th>Papel possível</th>
+<th>Pergunta para preparar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pressionar de perto</td>
+<td>Como alcança o alvo e o que ele pode fazer para se afastar?</td>
+</tr>
+<tr>
+<td>Vigiar uma passagem</td>
+<td>O que consegue perceber, atingir e impedir? Há outro acesso?</td>
+</tr>
+<tr>
+<td>Conter ou transportar</td>
+<td>Como aplica a contenção, mantém o percurso e permite a fuga ou ajuda?</td>
+</tr>
+<tr>
+<td>Apoiar outras criaturas</td>
+<td>Quem recebe o benefício e o que muda se o apoio for interrompido?</td>
+</tr>
+<tr>
+<td>Disputar um objetivo</td>
+<td>O que tenta obter enquanto o grupo age?</td>
+</tr>
+</tbody>
+</table>
+<p>Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataque e curar. Ambos podem negociar. O objetivo é retirar o estojo de documentos, e a saída continua acessível. As <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s075">fichas da dupla</a> definem seus meios; o papel apenas orienta as escolhas.</p>
+<h2 id="c06--62-preparar-a-ficha">6.2 Preparar a ficha</h2>
+<p>Procure primeiro uma ficha compatível com as regras e com a função pretendida. Abra suas capacidades completas. Vida, Defesa e dano não dizem tudo: sentidos, corpo, movimento, ações e destino na derrota também mudam o encontro.</p>
+<p>Se uma ficha já serve, conserve-a e indique sua versão. Mudar nome e aparência pode bastar. Uma maldição de sacos pode usar o Amontoado enquanto mantiver os mesmos membros, sentidos, deslocamento e capacidades. A nova aparência não permite atravessar frestas ou ignorar perfurações.</p>
+<p>Se mudar posições ou prioridades, confira a nova situação. Um vigia no alto exige meios de aproximação e linhas de ataque diferentes dos que teria no chão. Se mudar uma capacidade ou um número, registre a alteração, seu motivo e as regras afetadas. <strong>Compare uma mudança de cada vez.</strong></p>
+<h3 id="c06--o-que-a-ficha-precisa-trazer">O que a ficha precisa trazer</h3>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>O que deixar definido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Corpo e sentidos</td>
+<td>Tamanho, membros, mãos, massa, alma, deslocamentos, percepção e comunicação</td>
+</tr>
+<tr>
+<td>Testes e progressão</td>
+<td>Atributos, Maestria, treinos, quatro Testes de Resistência e, quando couber, Refino e Classe máxima</td>
+</tr>
+<tr>
+<td>Reservas e defesas</td>
+<td>Vida, Integridade, PE, usos, Defesa com seus componentes, Bloquear e proteções</td>
+</tr>
+<tr>
+<td>Capacidades</td>
+<td>Tipo, ação, alvo, alcance, requisitos, resolução, custo, prazo e saídas</td>
+</tr>
+<tr>
+<td>Comportamento</td>
+<td>O que sabe, quem procura, o que protege e quando muda de intenção</td>
+</tr>
+<tr>
+<td>Continuidade</td>
+<td>Derrota, efeitos restantes, retirada e possível aquisição</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Integridade</strong> acompanha o dano de Alma e fica registrada separadamente da vida. Criaturas que não sejam personagens jogadores usam metade da vida máxima, para baixo, com mínimo 1 quando a vida máxima for positiva, salvo regra própria. A fórmula dos personagens é outra. Confira também se a criatura possui alma e como suas exceções funcionam.</p>
+<p>Escolha uma localização principal para a ficha. Cada inimigo em jogo precisa de seu próprio estado de recursos, condições e usos, mesmo quando vários usam a mesma ficha.</p>
+<h3 id="c06--escolha-a-regra-da-capacidade">Escolha a regra da capacidade</h3>
+<p>Comece pelas ações existentes. Um inimigo que retira intrusos pode usar Agarrar e transporte. Uma capacidade publicada conserva custos, requisitos e saídas. Uma adaptação identifica a regra original e cada mudança. Uma habilidade própria precisa de texto completo e comparação com efeitos semelhantes.</p>
+<p>Escreva se a aplicação é ataque com arma, manobra, feitiço, aptidão ou outra ação definida. Indique sua ligação com corpo, equipamento ou Técnica Inata. Um “soco de energia” pode continuar sendo feitiço: renomeá-lo não muda sua defesa, seu crítico ou seus requisitos.</p>
+<p><strong>Classe, Categoria de Efeito e nível têm funções diferentes.</strong> Não deduza uma classificação da outra. Conceder uma capacidade de jogador ao inimigo também não concede seu Caminho, Origem ou todas as habilidades que normalmente a acompanham.</p>
+<h3 id="c06--agarrar-um-exemplo">Agarrar: um exemplo</h3>
+<p>Considere o Carregador Médio, com Força 3, Maestria 1 e uma mão livre. Ao usar Atacar, troca seu único ataque por Agarrar contra uma criatura ao alcance de 1,5 m e de até uma categoria maior.</p>
+<p>O alvo faz TR Físico contra <strong class="formula">8 + 3 + 1 = CD 12</strong>. Um total 12 evita; 11 aplica Agarrado, com deslocamento zero. A manobra substitui o dano, não rola acerto e não cobra PE. O alvo conserva ataques, conjuração e Bloquear conforme seus requisitos. Para tentar escapar no próprio turno, pode gastar Padrão e repetir o TR contra a CD 12.</p>
+<p>O tilintar dos sinos pode anunciar a intenção do Carregador, mas não concede outro ataque ou transporte gratuito. Arrastar exige carga, percurso e movimento. Outras saídas da contenção seguem suas regras. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s063">consulta do Carregador</a> traz a ficha completa e a conversão de aquisição.</p>
+<h2 id="c06--63-habilidades-e-recursos">6.3 Habilidades e recursos</h2>
+<p>Escolha primeiro o efeito e a resposta possível do grupo; depois, o limite de uso. <strong>PE mostram quanto resta para gastar. Um intervalo diz quando a capacidade volta. Uma habilidade que exige preparação oferece tempo para interferir.</strong> Escolha esses limites pelo que mudam nas decisões da luta.</p>
+<p>Ter energia amaldiçoada não obriga toda ação a gastar PE. Canalizar Energia, por exemplo, não cobra esse gasto. Conservar um feitiço publicado exige cumprir seu preço e suas regras; trocar esse preço por outro limite é uma adaptação a identificar e avaliar.</p>
+<p>O Amontoado original tem 6 PE e Impacto de 3 PE. Em condições normais, paga duas tentativas. Se não houver outra utilidade para a reserva, gastar logo pode fazer sentido. Alterar o saldo muda a quantidade; não cria sozinho uma escolha entre atacar e esperar.</p>
+<p>Recarga não garante uma pausa: pode permitir usos consecutivos ou demorar a retornar. Usar cedo pode continuar sendo a melhor escolha, pois a habilidade começa a ter chances de voltar. Para incentivar espera, posição, alvos, risco ou objetivo precisam tornar outro momento mais interessante.</p>
+<p>Uma criatura simples pode ter uma rotina simples. Evite acrescentar defesas ou contagens apenas para justificar uma decisão que não aparece em jogo.</p>
+<h3 id="c06--escolher-um-limite">Escolher um limite</h3>
+<table>
+<thead>
+<tr>
+<th>Você quer…</th>
+<th>Use e confira…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repetição simples</td>
+<td><strong>Uso livre:</strong> o efeito continua adequado quando repetido?</td>
+</tr>
+<tr>
+<td>Quantidade de tentativas</td>
+<td><strong>Usos limitados:</strong> o que gasta o uso e quando ele retorna?</td>
+</tr>
+<tr>
+<td>Pausa garantida</td>
+<td><strong>Intervalo fixo:</strong> quando volta e o que faz durante a espera?</td>
+</tr>
+<tr>
+<td>Retorno incerto</td>
+<td><strong>Recarga:</strong> quando rola, quais resultados recuperam e se permite repetição no turno seguinte?</td>
+</tr>
+<tr>
+<td>Chance de impedir</td>
+<td><strong>Preparo ou condição:</strong> há sinal, tempo e meios reais de resposta?</td>
+</tr>
+<tr>
+<td>Escolha entre opções</td>
+<td><strong>Reserva compartilhada:</strong> gastar numa opção limita outra útil?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="c06--quando-a-reserva-cria-uma-escolha">Quando a reserva cria uma escolha</h3>
+<p>Ren tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sora tem 12 PE: quatro Fios de 3 PE, dois Remendos de 6 PE ou dois Fios e um Remendo cabem antes de outras despesas. A mesma reserva também paga proteção.</p>
+<p>Além da energia, Sora disputa sua Padrão: curar toma o lugar de conceder Fio naquele turno. A escolha existe dentro do combate, sem depender de outra missão. Usos compartilhados também podem oferecer escolha; os PE permitem preços diferentes e interagem com efeitos que alterem energia e custos.</p>
+<h3 id="c06--energia-custos-e-outras-regras">Energia, custos e outras regras</h3>
+<p>Se Leitura de Reservas se aplicar, forneça saldo e máximo reais pelo exame exigido. O resultado não revela automaticamente recarga, custos ou intenção. Uma capacidade sem gasto não precisa apagar a energia perceptível da criatura.</p>
+<p>Os estágios de Integridade são cumulativos. No estágio 2, cada <strong>feitiço</strong> custa mais 1 PE por Classe; isso não se estende automaticamente a toda manobra ou aptidão. O Impacto de Classe 1 passa de 3 para 4 PE. Depois de gastar 3 dos 6, a reserva restante já não paga outro. As demais penalidades dos estágios continuam valendo, inclusive para habilidades sem gasto.</p>
+<p>Ao adaptar um feitiço, diferencie custo-base e pagamento dispensado. Na variante experimental de recarga do Impacto, dispensar o custo normal não dispensa os acréscimos: a proposta conserva a base e cobra o adicional aplicável. Essa exceção pertence à variante, não ao Amontoado original ou aos personagens jogadores. O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s060">estudo de habilidades</a> acompanha as contas e as interações.</p>
+<p>Confira também Selo, mãos, voz, Rescaldo, cancelamento, manutenção e contenções. Agarrado não silencia ou prende automaticamente todas as mãos; uma habilidade própria não ganha imunidade a cancelamento por ser própria. Se puder ser adquirida por Doma, prepare a conversão antes da oportunidade: permissões exclusivas do inimigo não passam automaticamente à entidade.</p>
+<h2 id="c06--64-escolher-os-numeros">6.4 Escolher os números</h2>
+<p>Comece pela função e pelas regras usadas. O nível indica a progressão e os requisitos da ficha, mas não garante a dificuldade do encontro. Grau no cenário, nível e papel no encontro não são medidas equivalentes.</p>
+<p>Use as contas do Livro de Regras 1.0 quando forem aplicáveis:</p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Referência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataque comum</td>
+<td>Atributo correspondente + Maestria, com modificadores aplicáveis</td>
+</tr>
+<tr>
+<td>CD de manobra</td>
+<td>8 + Força + Maestria, com os requisitos da manobra</td>
+</tr>
+<tr>
+<td>Defesa</td>
+<td>10 + Destreza + proteção, com limites de equipamento e outros modificadores</td>
+</tr>
+<tr>
+<td>Bloquear</td>
+<td>2d10 + Defesa − 11; escolha antes da rolagem de ataque</td>
+</tr>
+<tr>
+<td>TR</td>
+<td>Atributo apropriado; some Maestria quando treinado</td>
+</tr>
+</tbody>
+</table>
+<p>Bloquear é gratuito e não gasta Reação; não substitui TR ou efeito Automático. Revides e outras respostas mantêm seus custos próprios. Registre os quatro TRs — Físico, Vigor, Intelecto e Espírito — com os treinos identificados.</p>
+<h3 id="c06--valores-para-comecar">Valores para começar</h3>
+<p>Os valores abaixo preservam os estudos para <strong>níveis 2 e 6</strong>, ambos com Maestria 1. São candidatos experimentais comparados com três perfis de personagens, não uma escala geral. A referência de partida é a vida central, uma ação ofensiva na Padrão e ausência de defesa excepcional. Complete o restante da ficha antes de usá-la.</p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th style="text-align: right;">Nível 2</th>
+<th style="text-align: right;">Nível 6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida central / Integridade</td>
+<td style="text-align: right;">24 / 12</td>
+<td style="text-align: right;">72 / 36</td>
+</tr>
+<tr>
+<td>Vida menor / Integridade</td>
+<td style="text-align: right;">16 / 8</td>
+<td style="text-align: right;">48 / 24</td>
+</tr>
+<tr>
+<td>Vida maior / Integridade</td>
+<td style="text-align: right;">32 / 16</td>
+<td style="text-align: right;">108 / 54</td>
+</tr>
+<tr>
+<td>Ataque / CD de referência</td>
+<td style="text-align: right;">+4 / 12</td>
+<td style="text-align: right;">+5 / 13</td>
+</tr>
+<tr>
+<td>Defesa central</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Outras Defesas para comparar</td>
+<td style="text-align: right;">11 ou 15</td>
+<td style="text-align: right;">11 ou 15</td>
+</tr>
+</tbody>
+</table>
+<p>A Defesa precisa de componentes válidos. Ren e Sora têm 13 por <strong class="formula">10 + Destreza 2 + Traje 1</strong>. Ataque +4 e CD 12 podem vir de atributo 3 e Maestria 1; elevar o atributo também altera outras contas que o usam. Não esconda um bônus próprio no total.</p>
+<p>Use Padrão, Movimento, Bônus e Reação conforme as regras, com um ataque em Atacar como partida destas referências. Outro ataque exige permissão e avaliação próprias. Não some automaticamente as alternativas mais fortes da tabela.</p>
+<h3 id="c06--vida-defesa-dano-e-frequencia">Vida, defesa, dano e frequência</h3>
+<p>Compare esses campos juntos. Mais Defesa reduz os acertos recebidos repetidamente; mais vida prolonga a resistência aos que acertam. Acrescentar ambos pode mudar bastante o encontro. Uma criatura que sobrevive, mas não alcança ninguém, continua sem cumprir sua função.</p>
+<table class="golpes">
+<thead>
+<tr>
+<th>Golpe</th>
+<th style="text-align: right;">Ataque</th>
+<th>Dano</th>
+<th>Crítico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carregador, nível 2</td>
+<td style="text-align: right;">+4</td>
+<td>1d4 + 3</td>
+<td>2d4 + 3</td>
+</tr>
+<tr>
+<td>Alternativa ofensiva, nível 2</td>
+<td style="text-align: right;">+4</td>
+<td>1d8 + 3</td>
+<td>2d8 + 3</td>
+</tr>
+<tr>
+<td>Sineiro, nível 6</td>
+<td style="text-align: right;">+5</td>
+<td>2d6 + 4</td>
+<td>4d6 + 4</td>
+</tr>
+</tbody>
+</table>
+<p>A alternativa ofensiva não atualiza o Carregador. Usar o dano da linha do Sineiro não concede seus dois ataques nem as outras capacidades da ficha. Armas, Canalizar, proteções e propriedades entram explicitamente quando forem aplicáveis; os dados corporais diferentes dos comuns precisam estar escritos como exceção.</p>
+<p>Um golpe mais forte repetido antes de alguém agir pesa de modo diferente de um golpe anunciado e interrompível. Para área, controle ou cura, compare também alvos, duração, saídas e ações disputadas. Bloquear não responde a uma área resolvida por TR; sucesso num TR só reduz o dano pela metade quando a regra disser isso.</p>
+<p>Os <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s074">estudos numéricos</a> mostram as premissas e as probabilidades. As sequências de três ou seis ataques ali não são rodadas completas: deixam de fora várias ações e respostas. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s100">comparação de outras faixas</a> amplia os recortes sem criar uma escala aprovada para todos os níveis. Não deduza os números dos níveis ausentes a partir desses recortes nem multiplique as reservas para chegar a outro nível.</p>
+<h2 id="c06--65-o-grupo-e-o-lugar">6.5 O grupo e o lugar</h2>
+<p>Use as fichas reais do grupo e seu estado de entrada. Confira vida, Integridade, PE, condições, Sequelas, alcance, percepção e meios de socorro. Numa análise anterior à escolha dos personagens, identifique os perfis supostos e aquilo que não representam.</p>
+<p>Conte oportunidades reais de agir. Padrão, Movimento, Bônus e Reação não equivalem a quatro ataques. Uma Padrão usada para escapar, operar um mecanismo ou atender alguém não está disponível para atacar. Entidades conservam suas regras de atuação e comando; não as conte como personagens completos sem conferir esses limites.</p>
+<p>Dois inimigos podem oferecer duas tentativas de ataque enquanto ambos agirem e alcançarem um alvo. Quando um cai, a pressão muda. Concentrar a mesma vida num corpo só não reproduz esse funcionamento; uma área que atinja os dois também pesa de outra forma.</p>
+<h3 id="c06--prepare-uma-escolha-de-alvo">Prepare uma escolha de alvo</h3>
+<p>Sora pode curar Ren ou a si mesma enquanto estiver ativa, dentro do alcance e com recursos. O grupo pode gastar ações pressionando Sora em vez de atacar Ren. Quando ela cai, cessa o apoio futuro, mas benefícios já entregues conservam seus prazos. Quando Ren cai, Sora perde seu principal meio de pressão e procura negociar ou sair. O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s076">confronto da dupla</a> acompanha essas escolhas; o <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077">preenchimento da ficha</a> mostra como registrá-las.</p>
+<h3 id="c06--faca-o-lugar-importar">Faça o lugar importar</h3>
+<p>Marque acessos, posições, cobertura, distâncias, objetivo e locais de retirada. Mostre o que se percebe antes da escolha. Um atirador alto, uma passagem estreita e uma porta que pode fechar exigem conferências diferentes.</p>
+<p>Na <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s066">variante do portão</a>, os números do Carregador são mantidos. Uma saída curta pode fechar, mas o corredor de serviço continua disponível. Chegar ao comando de parada e acioná-lo toma ações que poderiam ser usadas para pegar a caixa ou socorrer alguém. O mecanismo não ganha dano, mais vida para a criatura ou um prazo menor porque o grupo dividiu bem o trabalho.</p>
+<p>Para comparar a alteração, separe o mapa original, o novo mapa com motor desligado e o mesmo mapa com fechamento ativo. Assim é possível distinguir a mudança de espaço da pressão do prazo. O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s065">estudo de composição</a> fornece percursos e custos.</p>
+<h3 id="c06--quando-o-grupo-corre-risco">Quando o grupo corre risco</h3>
+<p>Pergunte o que ocorre se dois golpes acertarem a mesma pessoa antes de ela agir, se o socorrista estiver longe ou se a retirada exigir transportar alguém. Uma contenção e um caminho maior podem dificultar o socorro sem aumentar o dano.</p>
+<p>As regras de queda dos personagens mudam essa leitura. Chegar a zero de vida pode permitir Insistir, conservando ações e recursos disponíveis; Aguentar deixa Inconsciente. O inimigo comum é derrotado a zero de vida ou Integridade, salvo regra própria. Não conceda a ele o socorro de jogador por presumir que as fichas são iguais.</p>
+<p><strong>Vida zero, fim da participação e fim da oposição são momentos diferentes.</strong> A janela de socorro é prazo de atendimento, não rodadas extras a somar à luta. Depois que o inimigo cai, alguém ainda pode estar Morrendo. Consulte <a href="../apoio-revisao-textual-113/prova-textual.html#c04--47-combate-socorro-e-retirada">Combate, socorro e retirada</a> e conserve os dados no <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024">registro de estado</a>.</p>
+<h2 id="c06--66-chefes-e-grandes-confrontos">6.6 Chefes e grandes confrontos</h2>
+<p>Um chefe é a ameaça central daquela situação. Pode ser uma criatura sozinha, um líder acompanhado ou uma oposição ligada ao lugar. Sua importância não concede outra iniciativa, imunidades ou cura.</p>
+<p>Escolha uma característica que organize as decisões: disputa de posição, apoio dos aliados, partes expostas ou uma mudança no ambiente. Desenvolva essa característica antes de acumular outras. Vida adicional pode prolongar uma repetição sem tornar a luta mais interessante.</p>
+<h3 id="c06--oportunidades-de-agir">Oportunidades de agir</h3>
+<p><strong>Preparar</strong> usa a Padrão de agora para uma resposta posterior, com gatilho, Reação disponível e prazo. Uma capacidade de Reação disputa essa Reação com as demais opções. Uma ação adicional própria exige uma regra nova. Outro turno completo muda também efeitos de começo e fim de turno; precisa de uma revisão maior.</p>
+<p>Comece pela permissão específica que falta. Se a ameaça não alcança o alvo, confira posição e movimento. Se precisa responder entre turnos, examine um gatilho e o custo da resposta. Mais dano não resolve esses problemas.</p>
+<h3 id="c06--sinal-intervalo-e-resposta">Sinal, intervalo e resposta</h3>
+<p>Prepare quatro coisas: <strong>o sinal, quando aparece, como o grupo pode responder e o que essa resposta muda</strong>. Um gesto descrito durante o golpe não concede uma interrupção anterior a ele.</p>
+<p>No exemplo do Sineiro, a ordem é Rina → Sineiro → Mei → Akira. Ele prepara o impacto em seu turno e só pode executá-lo no próprio turno seguinte. Mei, Akira e Rina terão um turno no intervalo. Se o golpe viesse no fim da rodada atual, Rina não teria esse próximo turno. Reações continuam dependendo de gatilhos e recursos.</p>
+<p>O Sineiro marca uma área fixa, pode perder a preparação por certas intervenções e fica com Guarda Aberta depois do impacto. Dano sozinho não interrompe essa preparação corporal; Derrubar interrompe, mas não solta automaticamente uma presa. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s071">ficha completa</a> diferencia essas respostas, custos e prazos. Seus valores continuam experimentais, e o <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s073">ensaio guiado</a> é um percurso de ensino, não uma sessão observada.</p>
+<h3 id="c06--fases-condicoes-e-partes">Fases, condições e partes</h3>
+<p>Uma fase é uma mudança reconhecível nas escolhas, como o inimigo abandonar a caixa ou uma saída fechar. Ela não se confunde com os estágios de Integridade. Defina gatilho, momento e o que permanece: vida, PE, Integridade, condições, concentração e usos não são renovados por outra descrição.</p>
+<p>Mudar de comportamento não fornece movimento gratuito. Uma transformação que cure, remova condições ou interfira na derrota precisa declarar essas exceções, incluindo dano excedente e formas de interrupção. Uma segunda barra na ficha ainda precisa dessas regras.</p>
+<p>O controle que funciona produz seu resultado. Ser chefe não concede saída automática de Agarrado ou imunidade à solução do grupo. Se houver ajuda de aliados ou reforços previstos, prepare sua atuação e chegada desde o início.</p>
+<p>Para partes atacáveis, diga se são objetos, criaturas ou alvos de uma regra específica. Defina vida, o que se perde a zero, compartilhamento de dano, área, Alma e aquisição. Um sino descrito no corpo não ganha automaticamente estatísticas próprias. Use a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068">conferência de chefes</a> para aprofundar essas escolhas.</p>
+<h2 id="c06--67-perigos-do-ambiente">6.7 Perigos do ambiente</h2>
+<p>Um perigo do lugar precisa dizer <strong>quem se expõe, quando a consequência ocorre e como intervir</strong>. Comece pelas regras existentes: uma queda real já tem resolução. Quando faltar um dano ou prazo necessário ao caso, prepare uma proposta específica; a escala de CD não é uma tabela de dano ambiental.</p>
+<table>
+<thead>
+<tr>
+<th>Defina</th>
+<th>Pergunta para deixar resolvida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exposição</td>
+<td>É contato, permanência numa área, um acontecimento ou um processo prolongado?</td>
+</tr>
+<tr>
+<td>Sinal</td>
+<td>O que pode ser percebido e quais limites da área são conhecidos?</td>
+</tr>
+<tr>
+<td>Momento</td>
+<td>Quando começa, quem verifica e com que frequência?</td>
+</tr>
+<tr>
+<td>Efeito</td>
+<td>Há tarefa, ataque ou TR? Qual CD, dano, condição e resultado de sucesso e falha?</td>
+</tr>
+<tr>
+<td>Como agir</td>
+<td>Como sair, parar a fonte, limpar o lugar ou atender alguém?</td>
+</tr>
+<tr>
+<td>Continuidade</td>
+<td>O que termina e o que permanece após a intervenção?</td>
+</tr>
+</tbody>
+</table>
+<p>Separe reconhecer o mecanismo, operá-lo e resistir à exposição. Conhecer a função de uma válvula não concede alcance para fechá-la. Um comando identificado e acessível pode exigir apenas a ação de operá-lo. Informações evidentes ficam disponíveis sem teste.</p>
+<p>Quando houver dificuldade específica, use-a. Para tarefa comum sem referência própria, a escala fixa é 6, 10, 14, 18, 22 ou 26; ela não aumenta só porque o grupo avançou. Avaliações ligadas ao poder de um criador seguem a fórmula e os ajustes pertinentes àquela regra.</p>
+<h3 id="c06--exposicao-dano-e-condicao">Exposição, dano e condição</h3>
+<p>Um impacto isolado não se repete por permanecer no piso. Uma área verificada no fim da rodada pode permitir entrar e sair antes da exposição; verificar ao entrar produz outro efeito. Defina a frequência antes do uso e não cobre retroativamente um contato que sua regra não incluía.</p>
+<p>Dano de Veneno e condição Envenenado são efeitos distintos. Fogo não aplica por si só dano recorrente; fumaça não bloqueia automaticamente flechas. Escreva cada consequência. Confira corpo e imunidades: dispensar respiração não protege de toda substância por contato, e imunidade à condição não é imunidade ao tipo de dano.</p>
+<h3 id="c06--depois-de-sair-da-area">Depois de sair da área</h3>
+<p>Na <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s079">sala de conservação</a>, fechar a alimentação e ligar o exaustor são tarefas separadas. A nuvem leva o prazo preparado para desaparecer. Sair dela evita novas exposições conforme a regra do caso; uma condição recebida conserva sua duração e suas saídas.</p>
+<p>Envenenado é uma condição Pesada: permite o TR de saída no fim do turno, sem ação. Seu prejuízo em ataques e perícias não impõe desvantagem ao próprio TR de Vigor. Curar vida não remove a condição; remover a condição não encerra Morrendo. Se houver Concentração, confira separadamente o teste exigido depois do dano. O ambiente não pausa para o socorro.</p>
+<p>Uma doença precisa ainda de transmissão, tempo até os sintomas, sinais, intervalo de avaliação, tratamento e término. Encerrar um sintoma pode deixar a doença ativa; encerrar a doença não recupera automaticamente a vida perdida. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s103">febre dos fios</a> mostra um caso específico, sem criar tabela universal de doenças.</p>
+<p>Fora de combate, acompanhe o tempo da história. Use turnos quando ordem, posição ou urgência exigirem precisão. Uma fase ambiental por rodada não ocorre outra vez porque há mais participantes, Reações ou entidades. Para aprofundar gatilhos, condições e atendimento, consulte <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s078">Preparar perigos ambientais</a>.</p>
+<h2 id="c06--68-antes-e-depois-do-encontro">6.8 Antes e depois do encontro</h2>
+<p>Antes da sessão, percorra uma aproximação, uma sequência comum e uma situação desfavorável. Você consegue resolver alcance, ação, custo, dano, controle e saída? O grupo entende os sinais e tem meios de agir? Resolva o que faltar para usar a ficha antes de apresentar a ameaça.</p>
+<p>A ficha de encontro organiza seis blocos: situação e grupo; cada ameaça; capacidades novas ou alteradas; lugar e sinais; conferência; resultado e continuidade. Registre apenas o que precisa desenvolver e aponte capacidades prontas por referências completas. As conferências de habilidade e chefe são aprofundamentos opcionais, sem repetir o mesmo preparo em três folhas.</p>
+<h3 id="c06--regras-e-escolhas-da-missao">Regras e escolhas da missão</h3>
+<p>Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão; a reserva de PE proposta para Ren é experimental; a conta de Defesa vem das regras. Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.</p>
+<p>Depois do encontro, registre duração, recursos gastos, quedas, tempo sem agir, socorro, retirada e objetivo. Confira separadamente: <strong>a oposição terminou, o lugar ficou seguro e todas as pessoas saíram?</strong> Essas respostas podem ser diferentes.</p>
+<p>O fim de uma ameaça não desliga um mecanismo independente. O fim dos ataques não completa um tratamento. Diga o que aconteceu ao inimigo derrotado: ficou incapacitado, foi destruído ou teve outro destino? Depois, resolva atendimento, guarda da criatura e possível aquisição pelas regras de cada caso.</p>
+<p>Na guilda, deixe participantes, estado das fichas e versões usadas disponíveis ao próximo mestre. Numa campanha fechada, conserve os mesmos dados nas notas. Use <a href="../apoio-consultas-105/folhas-para-a-mesa.html#retomar">Retomar a missão</a> para o resumo e mantenha os estados completos quando houver urgência.</p>
+<h3 id="c06--rever-o-encontro">Rever o encontro</h3>
+<p>Anote o que veio dos dados, do terreno, das capacidades e das decisões. Uma boa solução pode abreviar a luta. Não acrescente vida, imunidade ou outra leva de inimigos durante a cena para apagar essa conquista. Se houver erro, esclareça-o, combinem a correção e registrem a mudança.</p>
+<p>Para comparar versões, mantenha as demais condições e altere um elemento por vez. Identifique se a evidência foi leitura de regra, conta, percurso com resultados escolhidos ou sessão realmente jogada. Depois de uma mesa, recolha dificuldades concretas: os sinais foram entendidos? Houve oportunidade de responder? Quem ficou sem participar, por quanto tempo e por quê?</p>
+<p>O <a href="../apoio-consultas-105/casos-completos.html#B2">índice de casos</a> leva às fichas, confrontos e perigos completos. Use-o para estudar a dúvida pertinente, sem precisar ler todos os exemplos antes de preparar o próximo encontro.</p></div></article><article class="folha" id="c07"><header><p class="numero">CAPÍTULO 7</p><h1>Personagens e técnicas</h1></header><div class="colunas">
+<p>Antes da missão, conheça as capacidades da personagem, seus recursos e o que o jogador quer explorar. Essa conversa ajuda a corrigir erros, completar escolhas e preparar sua participação.</p>
+<p>O Livro de Regras 1.0 ensina a criar a ficha. Aqui, vamos conferir escolhas, cuidar das necessidades das Origens e avaliar capacidades novas, com as <a href="consulta-de-regras.html#personagens">regras usadas aqui</a> disponíveis para consulta. Os exemplos não exigem conhecer a trama de Jujutsu Kaisen.</p>
+<h2 id="c07--71-conferir-a-ficha">7.1 Conferir a ficha</h2>
+<p>Comece pela proposta da campanha, nível, patente, opções disponíveis e versão das regras. A criação padrão começa no nível 2, Grau 4; uma campanha que use nível 1 segue essa opção de criação. Um sobrenome importante ou uma presença antiga não antecipa benefícios da progressão.</p>
+<p>Pergunte o que o jogador quer fazer. Talvez dependa de um equipamento, de um contato ou de um meio de comunicação que ainda precise ser preparado. Conhecer essa necessidade permite explicar como a personagem entra na missão e quais escolhas estarão disponíveis.</p>
+<table>
+<thead>
+<tr>
+<th>Parte da ficha</th>
+<th>O que conferir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identidade</td>
+<td>Lugar no grupo, relações e interesses do jogador</td>
+</tr>
+<tr>
+<td>Atributos</td>
+<td>Na criação, 9 pontos, de 0 a 3 por atributo; origem dos aumentos</td>
+</tr>
+<tr>
+<td>Origem</td>
+<td>Base, uma marcante, duas menores elegíveis, modalidade ou ramo e escolhas fixas</td>
+</tr>
+<tr>
+<td>Treinos</td>
+<td>Perícias, Ofícios, armas, dois TRs diferentes e atributo do TR Físico</td>
+</tr>
+<tr>
+<td>Caminho e Trilha</td>
+<td>Escolhas e benefícios do nível atual</td>
+</tr>
+<tr>
+<td>Capacidades</td>
+<td>Aplicações completas, aquisição, espaços, requisitos, custos e prazos</td>
+</tr>
+<tr>
+<td>Valores e itens</td>
+<td>Reservas, Defesa, movimento, carga, equipamento, consumíveis e limites</td>
+</tr>
+</tbody>
+</table>
+<p>O atributo anotado já é o bônus quando a regra pede esse atributo. <strong class="formula">3 + 2 + 2 + 1 + 1 = 9</strong> é uma distribuição válida; não há outra conversão em modificadores. Um treino explicado pela história ocupa uma vaga recebida, sem acrescentar outra.</p>
+<h3 id="c07--um-uso-e-um-limite">Um uso e um limite</h3>
+<p>Peça ao jogador que descreva uma aplicação e uma situação em que ela não funciona. Confiram ação, alvo, alcance, resultado, custo e término. A conversa serve para tornar a ficha utilizável, sem testar memória.</p>
+<p>Se o poder puxa um objeto, encontrem o alcance e os alvos permitidos. Mover uma criatura resistente pode exigir outra função. Se faltar um campo necessário, completem antes de alguém depender do resultado. Uma capacidade publicada, adquirida e usada conforme sua regra não precisa de nova aprovação a cada uso.</p>
+<h3 id="c07--corrigir-ou-escolher-algo-novo">Corrigir ou escolher algo novo</h3>
+<p>Identifique a causa da diferença. Um número copiado errado pede correção e revisão dos valores que dependem dele. Para completar uma escolha ausente, confira o que as regras de criação ou de atualização permitem. Um benefício novo precisa de aquisição e avaliação; não entra na ficha como simples correção.</p>
+<p>Quando a dúvida surgir durante a sessão, sigam a orientação de <a href="../apoio-revisao-textual-113/prova-textual.html#c04--48-duvidas-e-fim-da-sessao">Na mesa de jogo</a>. Registrem a decisão e os afetados. Corrigir um campo não restaura automaticamente recursos ou permite reescrever toda a ficha.</p>
+<h2 id="c07--72-personagens-e-seus-cuidados">7.2 Personagens e seus cuidados</h2>
+<p>Conheça as necessidades junto com as capacidades. Prepare reparadores, apoio, transporte ou comunicação quando a ficha depender deles. Registre o que já foi obtido, para que o jogador não precise negociar a mesma necessidade com cada mestre.</p>
+<div class="abertura-secao"><h3 id="c07--a-outra-voz-do-receptaculo">A outra voz do Receptáculo</h3><p>O jogador de um Receptáculo interpreta o hospedeiro que divide o corpo com outra presença. <strong>O caminho recomendado é o mestre interpretar a outra voz, mediante acordo com o jogador.</strong> O jogador conserva as decisões da personagem dentro das regras. Interpretar a presença não concede controle, poderes ou turnos extras.</p></div>
+
+<p>Se preferirem, o jogador pode interpretar ambas as vozes, alternar a distribuição por acordo ou resumir a conversa. Combinem quem fala, o que cada identidade sabe, como a comunicação aparece e quem pode percebê-la. Uma conversa interna não fornece telepatia aos colegas.</p>
+<p><strong>Coexistência</strong> comporta opiniões diferentes mesmo com a presença aceitando o hospedeiro à frente. <strong>Conflito</strong> comporta cooperação pontual mesmo quando a presença deseja tomar o corpo. Uma discussão, vida baixa ou poucos PE não acionam tomada automática. A modalidade e as menores escolhidas fornecem os efeitos mecânicos.</p>
+<p>Maia, de Coexistência, quer examinar um símbolo. Taru lembra algo parecido e sugere comparar o traço central. Se a tarefa exigir Ocultismo e Maia falhar, <strong>Conselho Interior</strong>, caso escolhido e disponível, permite repetir e aceitar o segundo resultado. Intuição e Ocultismo compartilham esse uso por cena. Taru não faz um teste independente nem entrega conhecimento infalível depois de outra falha.</p>
+<p>Uma conversa também pode terminar com um pedido aceito, recusado ou adiado. Alterne o foco com os demais participantes e respeite a urgência da cena. Guarde o desejo da presença, seus conhecimentos e os acordos na <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028">ficha de convivência</a>. O <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s027">caso de Maia e Taru</a> desenvolve modalidades e capacidades sem criar um medidor obrigatório da relação.</p>
+<div class="abertura-secao"><h3 id="c07--o-encarnado-e-a-vida-recebida">O Encarnado e a vida recebida</h3><p>O jogador de um Encarnado interpreta quem voltou a viver no corpo de outra pessoa. Combinem a situação dessa vida, os conhecimentos da personagem, quem pode reconhecê-la e quais encontros o jogador deseja explorar. Não presuma a mesma convivência do Receptáculo para todos os Encarnados.</p></div>
+
+<p>Uma antiga colega pode procurar a personagem esperando a identidade anterior. O mestre apresenta o pedido com base nos fatos combinados; o jogador decide o que conta. Memórias e relações não concedem todos os treinos ou todas as menores da Origem. Uma capacidade como Memória Testemunha conserva seu uso e os limites do que poderia ter sido percebido. <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s026">Vínculos e mudanças</a> amplia essas situações.</p>
+<div class="abertura-secao"><h3 id="c07--corpo-amaldicoado-reparar-e-descansar">Corpo Amaldiçoado: reparar e descansar</h3><p>O personagem tem consciência, vontades e relações próprias. Ninhada e Gêmeos compartilham ficha, ações, recursos e condições; trocar de voz não fornece outra tentativa ou reserva. Combinem a interpretação com o jogador, sem aplicar automaticamente a distribuição de vozes do Receptáculo.</p></div>
+
+<p>Registre o Ofício compatível com a estrutura. Ena tem madeira, metal e pano, mas seu atendimento foi definido com Entalhador porque esse trabalho recompõe a estrutura de madeira. Os materiais precisam servir ao reparo concreto; a mistura de componentes não impõe automaticamente vários Ofícios.</p>
+<p>O reparo durante descanso curto permite <strong>uma tentativa por corpo</strong>, com pessoa treinada e meios adequados. Pode ser o próprio personagem, se capaz de trabalhar. Compare as Classes máximas permitidas pelos níveis de reparador e corpo, não o grau do material ou as capacidades conhecidas. A regra define CD e fração recuperada.</p>
+<p>No <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s090">atendimento de Ena</a>, ela tem 41 PV máximos e 9 atuais. O reparador é da mesma Classe, usa Inteligência 3 e Maestria 1: <strong>CD 12</strong>, bônus <strong class="formula">+4</strong> e recuperação de <strong>20 PV</strong> no sucesso. Termina com <strong>29/41</strong>. Uma repetição permitida por Manutenção Precisa continua dentro desse atendimento; trocar o reparador não abre outra tentativa naquele descanso.</p>
+<p>Reparo Autônomo é outra menor, com ação e frequência próprias. Reparar uma criatura também difere de fabricar um objeto. O descanso conserva seus requisitos, e a zero de vida valem queda e socorro: o personagem não é uma entidade Desligada que retorna por um pagamento. Energia Reversa e curas derivadas dela não reparam sua estrutura. Os meios compatíveis precisam estar disponíveis.</p>
+<h3 id="c07--restricao-corporal-participacao-e-apoio">Restrição corporal: participação e apoio</h3>
+<p>Conversem sobre como a personagem acompanha a equipe e recebe cuidados. Corpo Debilitado, Corpo Quebradiço e Corpo Exaurido são alternativas completas; não somem suas penalidades por analogia. Um abrigo só é propício quando cumpre as necessidades daquele corpo.</p>
+<table>
+<thead>
+<tr>
+<th>Corpo escolhido</th>
+<th>Preparo a conferir com o jogador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debilitado</td>
+<td>Estrutura protegida, assistência e cobertura opaca de toda a pele que ficaria exposta ao sol ou luar</td>
+</tr>
+<tr>
+<td>Quebradiço</td>
+<td>Apoio para o corpo, materiais e atendimento compatível; autocuidado quando for viável</td>
+</tr>
+<tr>
+<td>Exaurido</td>
+<td>Cuidados registrados na ficha, objetos acessíveis e ajuda ou transporte quando o deslocamento chegar a zero</td>
+</tr>
+</tbody>
+</table>
+<p>Nilo usa Rede Remota e um intermediário de sua técnica. O vínculo alcança a missão, mas não fornece automaticamente visão compartilhada ou telepatia. No exemplo, comunicação por equipamento, transporte do intermediário e apoio ao corpo real foram preparados antes. Recursos do corpo e da entidade ficam separados.</p>
+<p>Uma especial de 18 m continua medindo 18 m a partir do intermediário; o vínculo remoto não transforma seu ataque em alcance entre cidades. Comandos, atuação, percepção e custos continuam exigindo suas permissões. Se o meio de comunicação falhar, o poder não cria outro canal por conta própria.</p>
+<p>O <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s091">caso de Nilo</a> explica atendimento e diferenças entre os três corpos. Use-o para preparar participação e cuidados, mantendo as decisões com o jogador. Uma pessoa que auxilia a personagem não recebe controle sobre sua ficha.</p>
+<h2 id="c07--73-personalizar-escolhas">7.3 Personalizar escolhas</h2>
+<p>História, aparência e relações dão identidade à personagem. Um Legado de história registra uma ligação ou lembrança, sem ocupar uma menor ou conceder benefícios mecânicos por si. Para acrescentar uma capacidade à ficha, siga suas regras de aquisição.</p>
+<h3 id="c07--menores-e-familias-proprias">Menores e famílias próprias</h3>
+<p>O Livro de Regras 1.0 permite criar menores compatíveis com a Origem, usando referências publicadas. A personalização pode alcançar ambas as escolhas. Registrem efeito, ação, frequência, limites e escolhas fixas, mantendo <strong>uma base, uma marcante e duas menores elegíveis</strong>.</p>
+<p>Para uma família original do Descendente, descrevam formação, relações e obrigações. Construam uma base coerente e adotem uma modalidade publicada da marcante. O nome da família não reúne benefícios de vários clãs nem fornece outra marcante. A exceção de criação de marcante pertence à Restrição corporal, com suas regras específicas.</p>
+<p>Se a intenção for usar Fundamento Incorporado, preserve a declaração antes do dado, a perícia da base e o uso diário. Permitir a troca depois de uma falha ou estendê-la a qualquer teste muda a proposta. A <a href="#arata--a-familia-arata">família Arata</a> oferece duas menores experimentais para comparação; não as acrescenta automaticamente ao catálogo.</p>
+<h3 id="c07--combinar-os-limites">Combinar os limites</h3>
+<p>Algumas entradas deixam campos para jogador e mestre definirem. <strong>Reserva Condensada é uma menor específica da Restrição corporal</strong>, escolhida pela ficha. Confira os quatro campos previstos, sem copiar um acordo particular como regra geral:</p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>O que deve constar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quantidade por ocasião</td>
+<td>Quanto pode ser guardado naquela ocasião</td>
+</tr>
+<tr>
+<td>Momento</td>
+<td>Quando o armazenamento pode ocorrer</td>
+</tr>
+<tr>
+<td>Condições</td>
+<td>O que precisa estar satisfeito</td>
+</tr>
+<tr>
+<td>Máximo acumulável</td>
+<td>O limite da reserva guardada</td>
+</tr>
+</tbody>
+</table>
+<p>Se um campo estiver ausente, concluam o acordo antes de usar a parte indefinida. O Guia não fornece números substitutos. A <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s092">consulta</a> ajuda a registrar o acordo por personagem. A proibição expressa de armazenar os PE temporários de Último Fôlego de Energia continua valendo.</p>
+<h3 id="c07--vida-rolada-e-escolhas-de-campanha">Vida rolada e escolhas de campanha</h3>
+<p>O método de vida fixa continua sendo a referência do Guia. Com permissão do mestre, a variante publicada usa o dado do Caminho no lugar do valor fixo, somando Constituição normalmente. Definam o método e como registrar os dados antes de conhecer os resultados.</p>
+<p>O <a href="#arata--escolha-como-calcular-a-vida">exemplo de Kaori</a> compara os métodos, a subida sem descanso e o recálculo por Constituição. As colunas não são duas reservas entre as quais escolher. Na guilda, a opção aceita e o registro acompanham a ficha; outro mestre não refaz a escolha a cada missão.</p>
+<p>Uma perda duradoura pode permitir rever <strong>a escolha de Origem afetada</strong>, entre missões, com o jogador. Uma mudança de relação, sozinha, não desativa a consciência de um Corpo Amaldiçoado nem exige outra Origem. Confiram a regra e a perda funcional antes da revisão, sem vagas extras ou troca livre de toda a ficha.</p>
+<h2 id="c07--74-avaliar-uma-capacidade">7.4 Avaliar uma capacidade</h2>
+<p>Comece pelo resultado desejado. “Minha técnica controla fios” apresenta o tema; “quero puxar uma criatura para longe da porta” apresenta uma função. Pergunte quem age, sobre o quê e o que muda. Ajude a localizar as peças sem exigir que o jogador saiba os nomes de montagem.</p>
+<p>Um fio pode puxar, prender ou procurar informação. Esses resultados precisam de suas permissões; o mesmo nome não compra todos. Uso Livre e Expressão resolvem manifestações pequenas dentro de seus limites. Uma sombra apontando para uma porta pode ser descrição; descobrir qual porta esconde alguém pede uma capacidade de informação.</p>
+<h3 id="c07--como-obter-a-capacidade">Como obter a capacidade</h3>
+<p><strong>Classe</strong> organiza feitiços; <strong>Categoria de Efeito, ou CE</strong>, classifica certas capacidades. Confiram também se a capacidade vem de técnica, Manejo ou Kata: cada opção tem requisitos próprios.</p>
+<table>
+<thead>
+<tr>
+<th>Opção</th>
+<th>O que conferir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Efeito Próprio</td>
+<td>Melhoria com preço e Família definidos; cada compra conta no limite</td>
+</tr>
+<tr>
+<td>Talento Próprio</td>
+<td>CE1, CE2 ou CE3; espaços e limite de cinco Talentos pagos</td>
+</tr>
+<tr>
+<td>Regra Própria</td>
+<td>Gatilho verificável, simetria, ausência de dano direto e limite por cena; aquisição específica</td>
+</tr>
+<tr>
+<td>Aptidão Própria</td>
+<td>Escolha única na ficha, CE1 ou CE2, com os limites da entrada</td>
+</tr>
+<tr>
+<td>Bênção Própria</td>
+<td>Uma por personagem, CE1 ou CE2, escolha de Bênção e Lapidação mínima</td>
+</tr>
+<tr>
+<td>Menor de Origem</td>
+<td>Uma das duas escolhas elegíveis; comparação com menores compatíveis</td>
+</tr>
+<tr>
+<td>CE4 da Restrição corporal</td>
+<td>Exceção da marcante desse ramo, com efeito e condição corporal definidos</td>
+</tr>
+</tbody>
+</table>
+<p>Cada opção tem sua própria forma de aquisição e seus limites. Aptidão e Bênção Próprias não acrescentam dados de dano; suas versões CE2 precisam de limite por cena. Talento Próprio tem proibições próprias, incluindo ação extra por rodada, imunidade completa a dano ou condição e cura ilimitada. Acrescentar qualquer custo não torna uma proposta permitida por essa entrada.</p>
+<p>Para uma Regra Própria, a consequência precisa poder valer contra o usuário nas mesmas condições. Aposta com vencedor combinado não é a disputa real do exemplo publicado. Esse Talento específico também não é a frase de Regra que define o Fundamento da técnica.</p>
+<h3 id="c07--conferir-a-montagem">Conferir a montagem</h3>
+<p>Siga esta ordem:</p>
+<ol>
+<li><strong>Acesso:</strong> nível, Classe, rota, Regra, Famílias e escolhas ocupadas. Uma Família Fechada não abre porque o efeito recebeu outra aparência.</li>
+<li><strong>Conta:</strong> orçamento, base, Forma, Melhorias, descontos e devoluções. Sobras não aumentam automaticamente qualquer função.</li>
+<li><strong>Uso:</strong> ação, Selo, alvo, alcance, resolução, custo, duração e saída. Confira acerto, erro ou resistência conforme a ficha.</li>
+<li><strong>Limite:</strong> resolva um caso provável em que faltem alcance, alvo, informação ou requisito.</li>
+<li><strong>Combinação:</strong> examine uma escolha que a personagem realmente possui e que possa alterar o resultado.</li>
+</ol>
+<p>Uma devolução só compensa pontos pagos em Melhorias, dentro do teto compartilhado de <strong class="formula">2 × Classe</strong>. Base e Forma não entram nessa compensação. Uma exigência já obrigatória não devolve pontos outra vez.</p>
+<p>Para um Efeito Próprio, compare função, ação, alvos, alcance, duração, frequência e saídas. O mestre define o preço e registra o motivo. Se houver Família adequada, registrem-na para acesso e desconto; se nenhuma servir, usem preço integral, sem desconto de Família. Benefícios independentes são pagos e contados separadamente, salvo redução específica avaliada e registrada.</p>
+<div class="abertura-secao exemplo-toque"><h3 id="c07--exemplo-completo-o-golpe-por-toque">Exemplo completo: o golpe por Toque</h3><p><strong>Pedido:</strong> “Tenho um feitiço Classe 1 por Toque. São 3 pontos e mais 1 pela proximidade: 4d8.”</p><p><strong>Conferência:</strong> Toque concede devolução Leve, mas esta montagem não pagou Melhorias. Não há gasto que a devolução possa compensar. O saldo é <strong class="formula">3 − 0 + 0 = 3d8</strong>.</p><p><strong>Versão corrigida:</strong> Ação Padrão, 3 PE, Selo e ataque de conjuração contra alvo válido a até 1,5 m; 3d8 do tipo registrado na técnica. No erro, não causa dano e gasta os PE. Com atributo 3 e Maestria 1, o ataque é <strong class="formula">+4</strong>: dado 10 alcança Defesa 14. Um alvo a 3 m está fora do alcance enquanto o conjurador permanecer onde está. Proteções e estados do alvo continuam aplicáveis.</p><p>Se Mira estiver disponível e a Regra comportar a aplicação, Precisão pode ser comprada por 1 ponto. Toque compensa esse gasto: <strong class="formula">3 − 1 + 1 = 3d8</strong>, agora com +2 no ataque, chegando a <strong class="formula">+6</strong> nos atributos do exemplo. Conta uma Melhoria e nenhuma Restrição. O bônus de ataque não vira outro dado de dano.</p><p>Registrem qual das versões foi escolhida. A avaliação explica a conta publicada, sem criar desconto especial. Os <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s030">outros pareceres</a> mostram contenção, informação, cura e menores; a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032">ficha de avaliação</a> reúne o texto e a decisão.</p></div>
+
+
+
+
+
+<h3 id="c07--repeticoes-e-mudancas-durante-o-uso">Repetições e mudanças durante o uso</h3>
+<p>Aprovar um Efeito Próprio uma vez não aprova compras repetidas. Definam quantas são permitidas, o preço e o acréscimo de cada uma. Mudar o nome da segunda compra não contorna essa conferência. Firmeza permite categorias distintas conforme sua regra; isso não autoriza repetir a mesma categoria.</p>
+<p><strong>Ampliar</strong> conserva as compras e recalcula a mesma montagem em outra Classe. Não compra uma função nova. Uma mescla mantém suas parcelas registradas; a cura não vira dano ao surgir outro alvo. O <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s093">caso de Yara</a> acompanha duas Classes e a troca de Forma separadamente.</p>
+<p>O Desdobramento do Emanador vale para a conjuração e exige a escolha no momento previsto. Não permite inventar Efeito Próprio ou gatilho de Reação durante o uso. Para trocar uma peça, confira preço, resultado retirado, custo adicional e limites. O <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s033">estudo de casos específicos</a> desenvolve também Cortina, Traje, Manejos e Katas.</p>
+<p>Em Manejos, preserve a semente; em Katas, o estilo e o equipamento. PE pode representar esforço numa rota sem energia, sem conceder sentidos ou Aptidões ausentes. O compartilhamento da montagem não apaga as exigências da rota.</p>
+<h2 id="c07--75-poderes-avancados">7.5 Poderes avançados</h2>
+<p>Liberação Máxima, Técnica Máxima e Expansão de Domínio têm aquisições e montagens diferentes. A descrição da obra pode inspirar o acontecimento; a ficha precisa dizer quem paga, quem é afetado e como termina. A progressão de Classes não concede todas essas opções a qualquer rota.</p>
+<div class="larga"><h3 id="c07--liberacao-e-tecnica-maxima">Liberação e Técnica Máxima</h3><table>
+<thead>
+<tr>
+<th>Confira</th>
+<th>Liberação Máxima</th>
+<th>Técnica Máxima</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aquisição</td>
+<td>Uma nos níveis 10, 20 e 30, fora dos espaços comuns</td>
+<td>A partir do nível 17, fora dos espaços comuns</td>
+</tr>
+<tr>
+<td>Resultado</td>
+<td>Montagem comum de Classe 3 ou maior disponível, com +Classe em d8 de dano; não serve para cura</td>
+<td>Dano, cura ou utilidade definidos na criação; dados e pontos separados</td>
+</tr>
+<tr>
+<td>Uso</td>
+<td>Ação Completa, custo normal +50%, para cima, e preço adicional</td>
+<td>Ação Completa, PE e dados da faixa; uma vez por cena como padrão</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Precisam acrescentar dificuldade; Atrasar e Parado não devolvem</td>
+<td>Sem devolução de Restrições ou de Toque; até quatro Melhorias</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Nas duas, conserve Selo, Regra, Famílias e rota. Rápido e Reação não reduzem a Ação Completa. Movimento concedido por uma peça segue essa permissão específica, sem devolver o Movimento consumido.</p>
+<p class="exemplo-numerico"><strong>Liberação:</strong> Corte de ruptura em Classe 3 paga Linha 2 dos 9 pontos, ficando com 7d8; acrescenta 3d8, total <strong>10d8</strong>. Custa <strong>14 PE</strong>, pois 9 × 1,5 arredonda para cima. Escolhe ainda Vazio, Sangue ou Peso por uso, com suas consequências; esses preços não devolvem pontos.</p>
+<p class="exemplo-numerico"><strong>Técnica Máxima:</strong> na faixa 17–20, são <strong>24d8, 8 pontos e 25 PE</strong>. Forma e Melhorias usam os pontos; sobras são descartadas. Gastar só 2 não transforma o dano em 30d8. Cura paga sua base, conserva acesso e impedimentos; utilidade descarta os dados para produzir o efeito definido.</p>
+<p>O TR também difere: na Liberação, o sucesso recebe metade do dano salvo regra específica; na Técnica Máxima de dano, recebe três quartos, com o arredondamento aplicável. Não troque essas frações pela semelhança dos nomes.</p>
+<p>A recarga de Máxima após três rodadas, sem contar a de uso, é uma opção de autorização do mestre prevista no livro. Não é o padrão automático da guilda. O <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s031">caso completo de poderes avançados</a> mostra preços, cura, utilidade e a contagem de retorno.</p>
+<h3 id="c07--avaliar-um-dominio">Avaliar um Domínio</h3>
+<p>Separe <strong>aparência, Acerto e Efeito</strong>. O lugar descrito não ganha cobertura, armas ou conhecimento ilimitado só pelo tema. O Acerto, quando existir, é aplicado conforme as regras de abertura e permanência do Domínio. O Efeito é a capacidade especial que pode ser usada enquanto ele estiver ativo.</p>
+<p>Confira aquisição e requisitos juntos. Incompleta ocupa dois espaços, com nível 10 e Refino 4. Completa exige o degrau anterior, nível 14 e Refino 5, passando a três espaços no total. Sem Barreiras exige Completa, Refino 10 e especialização em Ocultismo, passando a cinco espaços no total. Não se paga outra vez o total a cada degrau nem se salta a aquisição anterior.</p>
+<p>O Acerto de dano usa <strong>3 × maior Classe em pontos, menos o preço Médio de Inescapável</strong>, com desconto de Família Livre quando aplicável. O saldo vira d8; o Acerto é a aplicação inteira e não aceita outra peça para acrescentar uma condição.</p>
+<p>Por padrão, esse Acerto afeta criaturas com energia na área, exceto o dono; aliados não são poupados automaticamente. Registre alvos, resolução e exceções. A Completa tem Acerto garantido, com as regras e defesas específicas; a Incompleta usa a resolução registrada. Uma proteção contra Acerto garantido não neutraliza automaticamente todo Efeito do Domínio.</p>
+<p>Em Galeria de Vidro, o Efeito protege uma criatura disposta enquanto o dono mantém uma mão em contato com ela. O contato precisa ser possível e ocupa a mão. Outro aliado na área não fica protegido por preferência do usuário. Sala de Trégua, por sua vez, inclui expressamente o dono na proibição de causar dano. A redação dos alvos permite resolver as duas propostas.</p>
+<p>Antes da sessão, confiram abertura, custo, área, duração, cada Acerto, uso do Efeito e encerramento. Incluam um aliado, uma defesa específica e uma disputa, se couber à campanha. A ficha continua precisando da seção completa de Expansão para resolver sobreposição e término; adquirir Completa não garante vencer todo rival.</p>
+<p>Ao terminar, o Rescaldo deixa a Técnica Inata indisponível pelo restante da cena, com a exceção dos feitiços de Classe 0. Encerrar voluntariamente não devolve o custo nem elimina Rescaldo. As permissões específicas de recuperação seguem seus requisitos.</p>
+<h3 id="c07--o-ce4-da-restricao-corporal">O CE4 da Restrição corporal</h3>
+<p>O CE4 desse ramo é uma exceção recebida na criação, com funcionamento extraordinário num aspecto delimitado. Não é Classe de feitiço ou autorização geral para aumentar números. Registrem o que a exceção permite e o que continua limitado, junto da condição corporal e dos cuidados.</p>
+<p>Rede Remota ilustra um vínculo ampliado conservando capacidades, sentidos, ações e custos. O caso de Nilo mostra por que distância do vínculo, alcance de ataque e comunicação são conferências diferentes. Uma limitação corporal mais severa não compra automaticamente mais ganhos. Saída Elevada mantém os usos previstos na regra. A ligação com a técnica não estende o benefício a Máximas, Manejos ou à entidade.</p>
+<p>O <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s095">caso de efeitos de cena e cancelamento</a> ajuda a conferir outro limite: encerrar uma aplicação não apaga resultados já concluídos. Categoria de Efeito não vira Classe universal, e Desarma o Feitiço não pode cancelar Domínios.</p>
+<h2 id="c07--76-registrar-e-acompanhar">7.6 Registrar e acompanhar</h2>
+<p>Explique primeiro o resultado da avaliação e o motivo. Se faltar informação, indique o campo; se a montagem precisar mudar, apresente uma alternativa que preserve a intenção quando possível. Uma recusa útil permite entender a regra e o próximo passo.</p>
+<table>
+<thead>
+<tr>
+<th>Resultado</th>
+<th>O que deixar claro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atende às regras</td>
+<td>Versão utilizável, referências, custos e limites</td>
+</tr>
+<tr>
+<td>Falta informação</td>
+<td>Campo necessário e como completá-lo antes do uso</td>
+</tr>
+<tr>
+<td>Precisa de ajuste</td>
+<td>Diferença encontrada e montagem possível</td>
+</tr>
+<tr>
+<td>Não é permitido por essa opção</td>
+<td>Proibição ou requisito e outra opção a examinar</td>
+</tr>
+<tr>
+<td>Muda a campanha</td>
+<td>Alteração proposta e quem pode autorizá-la</td>
+</tr>
+</tbody>
+</table>
+<p>Guarde a versão aceita, escolhas fixas, repetições permitidas, exceções e alcance da decisão: personagem, campanha ou guilda. Um exemplo aceito para uma ficha não autoriza todas as variações do tema. Na guilda, o texto precisa estar acessível a quem receber a personagem; numa campanha fechada, pode acompanhar a ficha.</p>
+<h3 id="c07--restricoes-depois-de-jogar">Restrições depois de jogar</h3>
+<p>Uma Restrição precisa impor a dificuldade que justificou sua devolução. Registre exigência, momento e compatibilidade. Algo já obrigatório no Selo ou na Regra não paga outra vez. Uma proposta que reúna dificuldades independentes precisa respeitar o número de compras, e uma Restrição Própria não devolve Pesada.</p>
+<p>Depois de <strong>três sessões em que o feitiço tenha sido usado</strong>, comparem a dificuldade prevista com o ocorrido, conforme a regra de revisão. Três tentativas na mesma sessão não são três sessões de uso. Acompanhe também a frequência de Condicional: uma fonte que os recursos da personagem passaram a garantir pode mudar essa avaliação.</p>
+<p>Substitua a exigência que nunca atrapalhou, mantendo a ficha válida antes do próximo uso. Não crie obstáculos artificiais só para preservar pontos. Os <a href="../../07 - Edicao de Leitura/capitulos/c07.html#s094">casos de Melhorias e Restrições</a> mostram repetições, exigência concreta, consumo de preparo e revisão; a ficha de avaliação conserva o registro.</p>
+<div class="abertura-secao"><h3 id="c07--ao-subir-de-nivel">Ao subir de nível</h3><p>Subir de nível não é descansar. Aplique ganhos e marcos antes da eventual troca de Trilha. Sem a permissão de recuperação completa prevista no livro, o crescimento dos máximos por nível e marco acrescenta essa diferença aos saldos. Vida zero permanece zero e exige socorro; PE zero recebe o crescimento correspondente.</p></div>
+
+<p><strong>Exemplo:</strong> máximo de vida 40 e saldo 25 passam a máximo 48 e saldo <strong>33</strong>, conservando os 15 que faltavam. Uma troca de Trilha ou outro ajuste posterior de máximo não concede esse aumento ao saldo. Integridade, Sequelas, condições e usos não se renovam pela subida.</p>
+<p>Ampliar, reescrever uma aplicação e trocar escolhas antigas têm permissões diferentes. Use a revisão permitida pelas regras e registre a versão final; não abra uma troca livre de toda a ficha. Aprendizados exigidos por Aptidões precisam de sua fonte registrada, sem substituir requisitos ou impor um professor obrigatório a capacidades que não o pedem.</p>
+<p>Antes da próxima missão, o jogador destaca o que mudou e o mestre confere os dados relevantes ao preparo. Guarde dificuldades de leitura e decisões que precisem chegar à próxima mesa. Os <a href="../apoio-consultas-105/casos-completos.html#B3">casos por assunto</a> ficam disponíveis para aprofundar a dúvida concreta. <a href="../../07 - Edicao de Leitura/capitulos/c08.html#s039">Atividades fora de missão</a> têm sua orientação própria; acrescente benefícios de treinamento apenas quando uma regra os conceder.</p></div></article><article class="folha" id="arata"><header><p class="numero">ESTUDO DE CASO</p><h1>Vida rolada e uma família própria</h1></header><div class="colunas">
+<p>Esta consulta mostra uma variante publicada e um exemplo de personalização. A variante de vida depende da escolha prévia da mesa. A família Arata e suas duas menores são <strong>propostas experimentais do Guia</strong>, escritas para demonstrar a avaliação; não foram acrescentadas ao catálogo do Livro de Regras 1.0.</p>
+<h2 id="arata--escolha-como-calcular-a-vida">Escolha como calcular a vida</h2>
+<p>O método fixo usa os valores do Caminho. A variante autorizada no Livro de Regras 1.0 substitui os valores pelos resultados do dado de vida, somando Constituição normalmente. Registre quais dados entraram na conta e não escolha o método depois de conhecer o resultado.</p>
+<p><strong>Declaração do exemplo:</strong> “Nesta campanha usaremos vida rolada, inclusive no primeiro nível: um d12 de Bastião por nível, sem repetir dados ou substituir resultados pelo ganho fixo. Constituição será somada em cada nível. Os resultados ficam registrados.” Essa é a escolha desta campanha; o Guia continua apresentando o método fixo como referência. Preservar o máximo no primeiro nível ou permitir uma repetição seria outro acordo, que precisaria ser declarado.</p>
+<p>A campanha começa no nível 2. Kaori é Bastião e tem Constituição 2. Ela registra 9 no dado do primeiro nível e 4 no segundo. Mais tarde, tira 10 ao chegar ao nível 3.</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Momento</th>
+<th>Método fixo do Livro de Regras 1.0</th>
+<th>Variante declarada neste exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nível 1</td>
+<td>12 + 2 = <strong>14 PV</strong></td>
+<td>9 + 2 = <strong>11 PV</strong></td>
+</tr>
+<tr>
+<td>Nível 2</td>
+<td>14 + 7 + 2 = <strong>23 PV</strong></td>
+<td>11 + 4 + 2 = <strong>17 PV</strong></td>
+</tr>
+<tr>
+<td>Nível 3</td>
+<td>23 + 7 + 2 = <strong>32 PV</strong></td>
+<td>17 + 10 + 2 = <strong>29 PV</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>As colunas são uma comparação, não duas reservas entre as quais escolher. Kaori da campanha rolada usa 29. Outra sequência poderia superar o resultado fixo; a variação é parte da opção. Na guilda, registre qual método é aceito e como conferir os dados, para que um mestre não refaça a decisão de outro a cada missão.</p>
+<p><strong>Subir de nível não é descansar.</strong> Kaori estava com 7 de seus 17 PV. Sem a permissão de recuperação completa, o aumento de máximo é 12; seu saldo passa a <strong class="formula">7 + 12 = 19 de 29</strong>, conservando os 10 PV que faltavam. Se estivesse a zero, continuaria a zero e precisaria de socorro.</p>
+<p>Se Constituição aumentar permanentemente para 3, mantenha os dados 9, 4 e 10 e recalcule a contribuição do atributo nos três níveis: <strong class="formula">9 + 4 + 10 + 3 × 3 = 32 PV máximos</strong>. Não role novamente os níveis antigos. O ajuste do saldo depende de como ocorreu a mudança, conforme <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s025">Conferir personagens</a> e Progressão; o novo máximo não é uma cura automática.</p>
+<h2 id="arata--a-familia-arata">A família Arata</h2>
+<p><strong>Exemplo original sujeito à aprovação da mesa.</strong> A família conserva arquivos de manutenção de locais usados pelo meio jujutsu. Sua formação valoriza registros, cuidados com o trabalho e compromissos de serviço. Alguns membros trabalham em campo; outros atendem oficinas e arquivos. Isso não concede acesso a qualquer documento nem determina uma técnica hereditária.</p>
+<p>Ren quer investigar problemas em instalações e negociar com seus responsáveis. O mestre e o jogador escolhem esta combinação de Origem:</p>
+<table>
+<thead>
+<tr>
+<th>Parte</th>
+<th>Escolha do exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Origem e rota</td>
+<td>Descendente; Fundamento. A técnica terá sua própria montagem.</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Conserva a base publicada do Descendente, sem acrescentar vagas. História é a perícia da Origem; Investigação é a livre. Ofícios: Forja e Alfaiate. TR da Origem: Intelecto.</td>
+</tr>
+<tr>
+<td>Conferência com o Caminho</td>
+<td>Vanguarda: Acrobacia e Percepção são os treinos fixos; o TR escolhido é Físico, com Destreza. As cinco perícias livres do Caminho precisam ser distintas das já recebidas.</td>
+</tr>
+<tr>
+<td>Marcante</td>
+<td>Modalidade publicada Kamo: <strong>Execução Ensaiada e Contingência Estudada</strong>, integralmente, com seus estoques separados. O nome Arata não concede outra marcante.</td>
+</tr>
+<tr>
+<td>Duas menores propostas</td>
+<td><strong>Consulta Preparada</strong> e <strong>Conferência de Oficina</strong>, descritas abaixo.</td>
+</tr>
+<tr>
+<td>Traço e relações</td>
+<td>Ren procura uma antiga responsável por um arquivo. Essa ligação permite conversas; não concede equipamento, treino ou sucesso automático.</td>
+</tr>
+</tbody>
+</table>
+<p>A família pode dar outros nomes à tradição que ensina a marcante. Na ficha, conserve a referência mecânica Kamo para evitar misturar componentes de modalidades diferentes. Este exemplo não recebe a exclusiva Ensaio Partilhado: suas duas vagas estão ocupadas pelas menores próprias.</p>
+<h3 id="arata--consulta-preparada">Consulta Preparada</h3>
+<p><strong>Menor proposta da família Arata.</strong> Uma vez por cena, antes de um teste de História ou Ocultismo para interpretar um registro escrito que esteja disponível e que você possa ler, receba vantagem. As duas perícias compartilham esse uso. A tarefa conserva seu tempo e sua ação; ativar a menor não exige ação ou PE adicionais.</p>
+<p>É necessário ter acesso ao documento e o documento precisa conter informações que permitam responder à pergunta. A menor não traduz um idioma desconhecido, não lê conteúdo oculto, não descobre mentiras automaticamente nem concede treino. Um teste de Ocultismo para agir sobre uma manifestação, sem interpretar um registro, não é elegível.</p>
+<p class="comparacao"><strong>Comparação.</strong> Notas de Família, publicada, atua depois de uma falha e concede informação parcial que possa constar das anotações. Consulta Preparada atua antes e modifica a chance do teste; não entrega informação na falha. Fundamento Incorporado troca um d20 por 10 uma vez por dia na perícia da base. A proposta troca essa previsibilidade por vantagem na leitura de documentos com duas perícias, uma vez por cena. Frequência de documentos na campanha importa para a avaliação.</p>
+<h3 id="arata--conferencia-de-oficina">Conferência de Oficina</h3>
+<p><strong>Menor proposta da família Arata.</strong> Escolha na criação um dos dois Ofícios recebidos pela base; a escolha fica fixa. Uma vez por dia, quando falhar num teste desse Ofício para diagnosticar a causa de um defeito num objeto que possa examinar, você pode obter uma informação verdadeira e parcial sobre a causa, dentro do que o exame permitiria descobrir.</p>
+<p>A tentativa original conserva ação, tempo, ferramentas e custos. Usar a menor não exige outra ação nem PE. A falha no diagnóstico completo permanece. A informação não conserta o objeto, não reduz o trabalho de reparo, não revela seu proprietário nem identifica uma técnica desconhecida. Fabricação, reparo, ataque, cura, exame de uma criatura e aquisição de entidades ficam fora deste benefício.</p>
+<p class="comparacao"><strong>Comparação.</strong> A referência é Notas de Família: informação parcial após a falha, limitada ao acesso possível. A proposta troca História/Ocultismo por diagnóstico material num único Ofício, reduz a frequência para uma vez por dia e exige exame do objeto. Não oferece o treino e as ferramentas improvisadas de Gambiarra nem um novo resultado de teste.</p>
+<h2 id="arata--as-capacidades-da-familia-em-jogo">As capacidades da família em jogo</h2>
+<p>Ren está no nível 2, com Maestria 1, Inteligência 3 e treino em História e Forja. Os dois testes usam bônus <strong class="formula">3 + 1 = +4</strong> nos testes deste exemplo; o atributo de Forja foi definido como Inteligência para o diagnóstico. Na criação, Ren vinculou Conferência de Oficina a Forja.</p>
+<p class="exemplo-numerico">No último descanso longo, Execução Ensaiada foi preparada para História e Forja. Ren rolou 5, 12 e 17, guardando <strong>12 e 17</strong>. Chega a um arquivo com acesso autorizado a um relatório legível sobre a tranca do depósito. O documento usa referências antigas à construção do mecanismo; Ren precisa relacioná-las para entender seu funcionamento.</p>
+<ol>
+<li>O exame pede História CD 18, Muito Difícil na escala fixa. Essa dificuldade foi escolhida para a interpretação técnica deste relatório, não para toda leitura de documento nem para a menor da família. Ren usa Consulta Preparada e o resultado reservado 12, declarando ambos antes dos dados.</li>
+<li>Vantagem ainda exige o outro d20. Ele tira 15 e usa o maior: <strong class="formula">15 + 4 = 19</strong>, sucesso. O 12 é consumido; o 17 permanece. A menor não produziu dois dados novos além do reservado.</li>
+<li>Depois, Ren examina a tranca. O diagnóstico de Forja tem CD 18 neste caso. Ele conserva o 17 para outra tarefa, rola 9 e alcança <strong class="formula">9 + 4 = 13</strong>, falha.</li>
+<li>Ren usa Conferência de Oficina. O mestre informa: “O defeito está no conjunto de molas; este exame não identificou qual peça cedeu.” A tranca permanece defeituosa. Não foi concedido reparo nem uma segunda tentativa.</li>
+</ol>
+<p class="estado-final"><strong>Registro ao fim:</strong> Consulta Preparada usada nesta cena; Conferência de Oficina usada neste dia; dado 17 disponível no ensaio até o próximo descanso longo; Contingência Estudada ainda disponível conforme seus próprios usos. O caso não testou ataques, então não consumiu esse componente da marcante.</p>
+<h2 id="arata--o-que-observar-ao-jogar">O que observar ao jogar</h2>
+<p>As menores propostas favorecem investigação documental e diagnóstico, sem melhorar dano ou TRs. A combinação com o ensaio pode tornar certos testes mais confiáveis, mas continua consumindo resultados e usos. Verifique se a campanha oferece documentos e defeitos com frequência suficiente para ambas terem função; muitas cenas breves de arquivo também podem tornar o uso por cena frequente demais.</p>
+<p>A ficha completa ainda deve registrar atributos, cinco perícias livres do Caminho, técnica, equipamentos e demais campos. Este é um exemplo de escolhas de Origem, não um personagem pronto para jogar. Se a mesa aprovar alterações, registre o texto final e os motivos em <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032">Avaliação de capacidade</a>. A aprovação deste caso não libera menores equivalentes para todas as famílias.</p></div></article></main><p class="rodape-tela"><a href="../114-revisao-textual-de-inimigos-e-personagens.md">Registro da revisão</a></p></body></html>

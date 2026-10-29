@@ -1,0 +1,90 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Quando Haru usa a técnica
+Haru prefere a Classe 4 quando alcança dois
+adversários relevantes ou alguém que continua
+operando o arquivo. Se a faixa ficar vazia, escolhe
+espada, manobra, reposicionamento ou negociação.
+Um jogador que saiu da faixa realmente evitou o
+golpe; Haru não muda sua direção no último
+instante.
+Com 26 PE, duas Fitas de Classe 4 deixam 2 para
+um Cobrir-se. Usar primeiro dois Cobrir-se deixa
+22: já não cabem duas Fitas de 12. O mestre não
+precisa guardar energia apenas porque a ficha tem
+PE; guarda quando existe uma opção futura que
+vale esse custo. Se não houver, pode gastá-la. A
+contenção anunciada, o objetivo e a Padrão
+compartilhada continuam criando escolhas.
+Vigia
+Vigia mantém um adversário longe de Tessa e do
+arquivo. Usa Atacar com um golpe da mesma
+espada: +6, 1d8 + 4 + 2d4 de Cortante; crítico 2d8 + 4
++ 2d4, antes de Kokusen. Pode trocar esse golpe por
+manobra comum, CD 14, com seus requisitos. Não
+possui Fita, feitiço ofensivo ou segundo ataque
+nesta ficha.
+Sua função depende de posição e oportunidade.
+Não recebe ataque gratuito porque alguém
+conjurou perto. Se Tessa cair, tenta negociar ou se
+retirar; Desengajar usa sua Padrão. Guardar os 14
+PE para reduções é uma escolha direta, não uma
+obrigação de inventar um gasto ofensivo só para
+esvaziar a reserva.
+Tessa
+Sua técnica recompõe tecido vivo e ajusta o
+movimento de um aliado. Usa Essência; Amparo e
+Auxiliares Livres; Castigo, Controle e Marca
+Fechadas. Selo: palavra audível e gesto de uma mão
+livre. Os dois feitiços usam Projétil, alcançam um
+aliado disposto, visível e compatível a 9 m, inclusive
+a própria Tessa, com aplicação automática.
+Feitiço
+Ação, custo e efeito
+Montagem
+Remendo firme
+Padrão, Classe 4, 12 PE. Cura 8d8, até o máximo.
+Não remove condição, recupera Integridade ou
+PE, nem reabre participação após Derrotado.
+12 pontos - base Média 4 = 8; teto
+individual de 8d8. Sem Melhorias ou
+Restrições.
+Orientar o golpe
+Padrão, Classe 1, 3 PE. Impulso: vantagem no
+próximo ataque até o fim do próximo turno do
+beneficiário. Termina após a tentativa, acertando
+ou errando.
+Impulso Leve 1; os 2 pontos restantes
+ficam sem uso. Sem base de cura ou
+vida temporária.
+Impulso não favorece dano, TR ou Bloquear; não
+exige Concentração ou manutenção. A distância é
+conferida na concessão. A queda de Tessa não
+apaga antecipadamente um Impulso já concedido.
+Remendo é cura de sua técnica, sem conceder a
+aptidão Energia Reversa.
+Com vida positiva e ferida, Tessa prioriza curar a si.
+Estando inteira, cura Vigia se ele estiver ativo e
+ferido; se ambos estiverem inteiros ou não puder
+pagar cura, oferece Impulso quando tiver um
+ataque útil para favorecer. Emprega a mesma
+Padrão: não cura e concede Impulso juntos. Pode
+recusar uma cura pequena para proteger-se com
+Cobrir-se ou preservar uma conjuração posterior;
+registre essa escolha se comparar resultados.
+26 PE permitem dois Remendos e um Cobrir-se, ou
+um Remendo, quatro Impulsos e um Cobrir-se.
+Dois Cobrir-se antes do segundo Remendo já
+mudam a conta. Não há recuperação automática
+por rodada ou pela queda do parceiro.
+Se precisar atacar, dá um golpe desarmado a 1,5 m:
++2, 1d4 + 2d4 de Concussão; crítico 2d4 + 2d4,
+antes de Kokusen. Pode substituir o golpe por
+manobra comum, CD 10. Seu ataque modesto é
+uma saída, não sua contribuição principal.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+156

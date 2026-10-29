@@ -1,0 +1,73 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+A básica própria de cada conversão é Toque, 1,5 m,
+ataque pelo atributo indicado, 1d6 de Concussão,
+sem somar atributo, sem Melhoria ou Restrição e
+sem PE. Consome a atuação básica da entidade. No
+Vigia, a básica usa Essência como atributo de
+acerto da entidade; isso não modifica o acerto de
+uma arma que ele venha a empunhar.
+Cada conversão tem uma vaga de especial de nível 2
+e um Talento CE1, Leitura. O Rastejante deixa a
+vaga de especial vazia; não ganha uma especial
+nova por ser adquirido. No Amontoado e no Vigia,
+a especial conhecida usa dois pontos, sem Melhoria
+ou Restrição, causando 2d8 do tipo e pela Forma da
+conjuração original: Toque 1,5 m no Amontoado;
+Projétil 18 m no Vigia. Ataque pelo atributo
+registrado + M. Sem Selo, atributo no dano, TR ou
+condição. No crítico, 4d8. O custo total é 3 PE.
+Comandar uma especial custa a Padrão do
+invocador e a atuação básica da entidade. O
+invocador paga 2 PE e a domada paga 1, enquanto
+houver reserva; se faltar, ele cobre o restante. A
+reserva máxima segue nível × (1 + Essência ÷ 3,
+para baixo). Entrada, retorno e a Reação coletiva
+seguem Invocações em campo. A domada não
+conserva um turno independente de inimigo nem
+ganha uma especial além da básica no mesmo ciclo
+por esta ficha.
+Famílias abertas e Livre para cada conversão:
+• Rastejante: Alcance, Mira, Controle; Alcance
+Livre. As outras seis ficam Fechadas.
+• Amontoado do depósito: Castigo, Mira, Controle;
+Castigo Livre. As outras seis ficam Fechadas.
+• Vigia das farpas: Mira, Alcance, Castigo; Mira
+Livre. As outras seis ficam Fechadas.
+Os máximos da conversão não restauram reservas
+nem removem a queda. Registre valores atuais sem
+exceder os novos máximos e aplique Queda e
+destruição e Retorno e corpos caídos quando
+pertinentes. Cura comum de entidade não funciona
+a zero de vida. A aquisição não permite voltar à
+cena ignorando os custos de entrada ou retorno.
+Antes do golpe final para aquisição: o Livro de
+Regras 1.0 manda conferir destruição. Uma
+ocorrência direta que alcance a vida máxima ou
+cujo excedente além de zero supere metade da
+máxima destrói a entidade; dano em área não
+destrói por si. No Amontoado, os limites de
+referência do encontro são 48 e metade 24; igualar o
+excedente de 24 não é superar. Essa conferência usa
+a ficha do encontro, antes da conversão. A equipe
+deve conhecer essa diferença ao tentar capturar.
+Uso e revisão
+Use o Amontoado isolado no piloto. Os outros dois
+inimigos fornecem comparações; reuni-los com ele
+cria outro encontro. Não multiplique vida ou
+ataques silenciosamente para compensar decisões
+boas do grupo. Para outros tamanhos de equipe,
+faixas de nível, reservas já gastas ou composições
+com entidades, reavalie o encontro usando as fichas
+reais.
+Registre em jogo: recursos iniciais, duração até
+neutralizar a ameaça, quedas, ações durante
+Insistir, socorros, retirada, dúvidas de regra e
+estado no encerramento. Números conferidos ou
+simulados não equivalem a teste de mesa realizado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+350

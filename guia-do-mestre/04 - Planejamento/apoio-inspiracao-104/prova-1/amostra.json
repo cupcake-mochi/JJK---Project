@@ -1,0 +1,53 @@
+{
+  "registro": 104,
+  "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+  "fonte_sha256": "27b90228ca79dce4dbabea62ec10adb922520d9562c53d34cb26d7f174ce6ebb",
+  "palavras_markdown": 3039,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Testes",
+      "id": "regra-1",
+      "inicio_linha": 151,
+      "fim_linha": 183
+    },
+    {
+      "titulo": "Ajudar",
+      "id": "regra-2",
+      "inicio_linha": 323,
+      "fim_linha": 346
+    },
+    {
+      "titulo": "Terreno, escalada e natação",
+      "id": "regra-3",
+      "inicio_linha": 739,
+      "fim_linha": 759
+    },
+    {
+      "titulo": "Saltos",
+      "id": "regra-4",
+      "inicio_linha": 814,
+      "fim_linha": 851
+    },
+    {
+      "titulo": "Carga",
+      "id": "regra-5",
+      "inicio_linha": 970,
+      "fim_linha": 1008
+    },
+    {
+      "titulo": "Percepção de energia",
+      "id": "regra-6",
+      "inicio_linha": 1206,
+      "fim_linha": 1330
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "mapa": "04 - Planejamento/apoio-inspiracao-104/canal-das-hortas.svg",
+  "mapa_sha256": "cbec0f40113c0d8afe32ebc7766da797e15a3040bea7584e5a1e987e5533927d",
+  "pdf": "04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf",
+  "pdf_sha256": "cb953287aa83b561f906faf1d81a7a7189a4c24a50ed375bf614f8496bbddf4b",
+  "limite": "Amostra isolada. Ideias curtas requerem preparo; dois exemplos têm escopo definido. Sem novo equilíbrio de combate."
+}

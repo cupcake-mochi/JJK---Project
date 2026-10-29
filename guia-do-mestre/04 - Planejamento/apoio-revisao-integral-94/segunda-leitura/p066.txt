@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+3.7 · Ferramentas e
+improvisação
+Use estes casos para conferir a direção de um
+ataque, preparar equipamentos e resolver o uso de
+um objeto fora de sua função habitual. Eles
+complementam O cenário e as ideias dos jogadores
+(p. 58) e Movimento, saltos e quedas (p. 62).
+As situações são independentes dos pilotos. As
+habilidades e regras vêm do Livro de Regras 1.0;
+dificuldades de cenário, objetos comparados e
+riscos anunciados pertencem a estes exemplos. CD
+significa Classe de Dificuldade. Os exemplos usam
+apenas os valores da ficha necessários para explicar
+cada ação.
+Ricochete
+Sora é Incursora da Trilha Malabarista e possui
+Ricochete. Está na sua vez, tem a Ação Padrão
+disponível, uma Fluidez guardada e um Chakram já
+na mão. Percebe o alvo, não está junto de outro
+inimigo e não há outras fontes de vantagem ou
+desvantagem neste recorte.
+O Chakram usa uma mão e tem faixas de 6 m e 18
+m. Um alvo com Defesa 14 está protegido de Sora
+por uma mureta, com Cobertura Parcial. Pela
+direção direta, sua Defesa seria 14 + 2 = 16.
+Há uma parede sólida ao lado. Sora indica um ponto
+a 6 m de sua posição; desse ponto até o alvo são
+mais 6 m, chegando pelo lado desprotegido. Ambos
+os trechos estão livres. Para desenhar o exemplo
+num mapa de 1,5 m, use estas posições:
+Ponto
+Posição no mapa
+Sora
+Coluna 0, linha 0
+Ponto de ricochete
+Coluna 4, linha 0
+Alvo
+Coluna 4, linha 4
+Mureta
+Junto da coluna 2, linha 2, protegendo da direção direta; sem
+bloquear os dois trechos do ricochete
+A disposição da mureta deve deixar o alvo
+perceptível. Não transforme o exemplo de
+Cobertura Parcial em uma parede que bloqueia
+toda a visão. As medidas usam a convenção do
+Livro de Regras 1.0: cada passo adjacente, inclusive
+diagonal, mede 1,5 m.
+Sora escolhe alvo e ponto antes do dado, gasta a
+Fluidez e usa a Ação Atacar. Ricochete modifica
+esse ataque; não concede outro. As faixas do
+percurso completo aumentam uma vez em 6 m:
+• Normal: 6 + 6 = 12 m.
+• Longa: 18 + 6 = 24 m.
+• Percurso escolhido: 6 + 6 = 12 m. O primeiro
+trecho está na faixa normal original, e o total está
+na faixa normal ampliada.
+Não há desvantagem por distância nesse percurso.
+A cobertura é determinada pelo último trecho, da
+parede até o alvo. Como esse trecho chega pelo lado
+livre, a mureta não dá seus +2; a Defesa usada é 14.
+O alvo decide usar sua Defesa normal antes da
+rolagem. Sora tem Destreza 4 e Maestria 1: ataque
++5. Dado 9 + 5 = 14, um acerto. O Chakram causa
+1d4 Cortante; com Força 2 e resultado 3 no dado,
+causa 3 + 2 = 5 de dano, antes de eventuais defesas.
+Fineza não troca Força por Destreza no dano do
+arremesso.
+A arma fica onde o ataque a deixou; não retorna à
+mão. Neste exemplo, Sora ainda não tinha obtido
+Fluidez entre o começo deste turno e o próximo,
+então esse acerto permite recuperá-la. Ela precisou
+possuir e gastar a Fluidez antes do ataque para
+realizar o ricochete.
+Compare os percursos
+Estes são percursos alternativos para uma arma
+com faixas originais 6/18 m. Cada um ainda
+precisaria de superfície, alvo percebido e caminho
+livre:
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+66

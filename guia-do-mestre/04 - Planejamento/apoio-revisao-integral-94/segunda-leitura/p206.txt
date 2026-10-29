@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+A comparação hipotética usa margem de canal e
+passagem por córrego como as duas situações com
+fonte; arquivo interno, apartamento, corredor seco
+e quadra seca como as quatro sem ela. Não são
+resultados de sessões já observadas.
+As medidas e a estimativa pertencem ao exemplo.
+Não definem uma distância universal para
+Condicional. Uma fonte artificial pode satisfazer a
+ficha se cumprir o registro; se os recursos da
+personagem passarem a garanti-la em todas as
+cenas, é preciso rever a devolução.
+Montagem e uso
+A ficha de Classe 3 usa Projétil + Precisão + Fura +
+Condicional, com Mira a preço normal. São duas
+Melhorias e uma Restrição. Precisão custa Leve, 2;
+Fura custa Média, 3. Condicional devolve Média, 3,
+dentro do gasto de 5 em Melhorias e do teto geral
+de 6.
+Saldo: 9 - 2 - 3 + 3 = 7d8 de Cortante. Custa Ação
+Padrão e 9 PE. Projétil alcança 18 m. Fura ignora
+até 6 de Redução de Dano aplicável ao golpe, sem
+transformar redução inexistente em dano adicional.
+Precisão aumenta o ataque em 2.
+Davi tem atributo da técnica 3 e Maestria 1: ataque
+3 + 1 + 2 = +6. A 2 m de um canal elegível, escolhe
+um alvo válido a 12 m, paga 9 PE e rola 12: total 18.
+Contra Defesa 16, sem outra resposta, acerta. Os
+sete dados mostram 3, 4, 2, 5, 1, 6 e 4: 25 de
+Cortante, antes das defesas e da aplicação
+pertinente de Fura.
+Em outra posição, a 4 m do canal, Davi não satisfaz
+a Condicional. Se puder caminhar 1,5 m em direção
+à borda, chega a 2,5 m e pode conferir novamente a
+conjuração; esse movimento usa seus recursos
+normais. A Restrição não inclui Parado. Se a
+passagem estiver bloqueada, ele precisa escolher
+outra opção.
+Acrescentar Uma Vez ou Aquecer não compra
+outra devolução: as três pertencem ao mesmo grupo
+de frequência. Um nome diferente para a mesma
+exigência também não a paga duas vezes.
+Se a campanha estimasse impedimento real em
+menos de metade das cenas, a devolução seria Leve,
+2, e o saldo ficaria em 6d8, mantendo as mesmas
+compras. Se nunca impedisse o uso, a devolução
+seria zero e o saldo 4d8. A diferença de dano vem
+da conta; não é um prêmio decidido durante o
+ataque.
+Restrição Própria: Matriz de chão
+Proposta experimental de um caso local. Lia usa
+uma técnica de traçados que normalmente não
+exige uma superfície preparada. Quer uma
+aplicação vinculada a uma matriz que precise
+refazer após cada tentativa. Antes de aprová-la na
+mesa, o mestre precisa confirmar que preparar
+locais fixos realmente dificulta suas missões.
+Campo
+Texto proposto
+Preparo
+Fora de combate, Lia dedica um minuto contínuo a desenhar
+pessoalmente a matriz com giz disponível, numa superfície fixa e acessível
+de pelo menos 1,5 m por 1,5 m. Preparar não gasta PE.
+Interrupção
+Se não puder concluir o minuto contínuo, não há matriz pronta. A
+tentativa pode ser recomeçada quando houver condições.
+Quantidade e permanência
+No máximo uma matriz pronta para este feitiço. Preparar outra invalida a
+anterior. Ela permanece até ser usada, apagada ou ter a superfície
+deslocada ou rompida.
+Exigência de uso
+Lia precisa estar a até 1,5 m da matriz íntegra ao iniciar a conjuração e
+pagar seus custos. A superfície não pode ser carregada como amuleto.
+Consumo
+Ao iniciar uma conjuração válida, a matriz se apaga e fica consumida,
+mesmo se o ataque errar ou o alvo resistir. A tentativa seguinte exige novo
+preparo.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+206

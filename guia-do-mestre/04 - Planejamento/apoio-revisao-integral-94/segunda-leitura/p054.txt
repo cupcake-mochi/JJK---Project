@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+O personagem quer…
+Regra
+O que pode revelar
+Descobrir algo aproveitável do
+lugar
+Ler o Ambiente; Ação Bônus,
+uma vez por cena
+Objeto, caminho, posição ou risco.
+Interpretar um comportamento
+Intuição, pela regra adequada à
+situação
+Indícios de intenção ou
+inconsistência.
+Recuperar detalhes de uma cena
+presenciada
+Capacidade própria, quando
+houver
+O que poderia ter sido percebido
+naquela ocasião.
+Uma ação não precisa passar por todas essas linhas.
+Se os meios já permitem responder à tarefa,
+resolva-a sem cobrar uma sequência obrigatória de
+detectar, estudar e investigar. Informação evidente
+pode ser entregue diretamente.
+Esconder de várias pessoas
+Nao quer atravessar entre estantes durante um
+confronto. Sua postura e o percurso escondem o
+corpo; ele também tenta reduzir os ruídos. Há
+penumbra, mas ninguém o vê claramente. No
+próprio turno, gasta a Ação Padrão de Esconder e
+tira 11 com Furtividade +5: 11 + 5 = 16. A travessia
+ainda usa seu movimento; Esconder não fornece
+metros adicionais.
+O mestre já definiu quais sinais alcançam cada
+observador:
+Observador
+Sinal acessível
+CD de percepção
+Resultado de Nao, total 16
+Vigia, Percepção +4
+Pode ouvir o percurso
+normalmente
+10 + 4 = 14
+Passa; fica oculto dele.
+Sora, Percepção +7
+Também pode ouvir o percurso
+normalmente
+10 + 7 = 17
+Falha; Sora localiza seu
+espaço.
+Operadora, Percepção
++8
+Só sinais visuais incertos do
+percurso, de dentro da cabine,
+que bloqueia o som
+10 + 8 - 5 = 13
+Passa; fica oculto dela.
+Funcionário na sala
+fechada
+Nenhum sinal acessível neste
+caso
+Sem comparação
+Não o descobre só só só
+por estar perto.
+A operadora tem desvantagem na percepção visual
+pela penumbra; isso reduz a CD passiva em 5. O
+vigia e Sora podem ouvir normalmente, por isso não
+recebem essa redução. Se um efeito concedesse
+vantagem na percepção relevante do vigia, sua CD
+seria 10 + 4 + 5 = 19, suficiente para localizar Nao
+nessa versão do exemplo. Aplique somente os
+modificadores que existirem na situação.
+Sora sabe onde Nao está, mas as estantes
+continuam impedindo que o enxergue. Localizar é
+conhecer o espaço ocupado; enxergar é conseguir
+vê-lo com clareza suficiente para acompanhar suas
+ações. A ocultação acabou em relação a Sora. Isso
+não retira obstáculos nem concede um ataque
+gratuito.
+Guarde Furtividade 16. Não peça novo dado a cada
+turno ou estante enquanto Nao mantiver as
+condições de ocultação. Se sair em visão livre, será
+visto por quem tiver acesso; o resultado guardado
+não apaga essa exposição.
+Quando o vigia procura
+No turno do vigia, ele decide procurar entre as
+estantes. Gasta Ação Padrão de Vasculhar, com
+Percepção +4. Tira 12: 12 + 4 = 16. Igualou a
+Furtividade guardada e localizou Nao. Com dado
+11, o total 15 seria insuficiente; a ação ainda estaria
+gasta. Nao não recebe outro teste de Esconder
+porque foi procurado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+54

@@ -1,0 +1,72 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Exemplo de entrada proporcional
+Uma ficha nova é liberada no quinto dia do ciclo.
+Contando os dias 5, 6 e 7, recebe 3 × 4 = 12 horas. Se
+outra ficha da mesma pessoa já participou do ciclo
+inteiro, ela mantém seu próprio registro de 28 horas
+novas. As 12 pertencem somente à ficha nova, que
+não herda saldo da anterior.
+Exemplo de conferência pendente
+Uma ficha fecha com dez horas confirmadas, oito
+reservadas para conferência e dez livres,
+totalizando 28. Só as dez livres passam como saldo
+disponível. A abertura seguinte tem 38 horas livres,
+além do registro separado das oito reservadas.
+Confirmar essas oito converte seu estado de
+reservado para confirmado; não acrescenta horas
+novas.
+O resultado pendente não pode ser utilizado antes
+da conferência. Se uma revisão liberar uma parcela,
+preserve sua origem e validade. Registre a correção
+para que o próximo mestre não a conte duas vezes.
+A.12 · Registro de Pactos e
+Promessas
+Use esta folha junto de Pactos e Promessas (p. 236).
+Preencha os termos antes da aceitação. O registro
+identifica uma troca concreta; não substitui a
+conferência dos limites do Livro de Regras 1.0.
+Folha em branco
+Campo
+Registro
+Nome e forma
+Permanente, temporário, Promessa ou pacto de restrição.
+Personagem ou partes
+Quem assume a obrigação; autoridade de quem representa uma
+organização; autonomia para aceitar.
+Aceitação
+Acordo voluntário das partes e dos jogadores envolvidos.
+Benefício
+Regra completa, capacidade afetada, alvos, alcance e limite da
+alteração.
+Preço ou obrigações
+O que cada parte entrega, perde, faz ou deixa de fazer.
+Compensações anteriores
+Onde essa limitação já foi considerada; como se evita usá-la duas
+vezes.
+Início e acionamento
+Data, condição, ação e gatilho percebido, quando houver.
+Prazo do ganho
+Quando começa e termina.
+Prazo do preço
+Quando é pago, por quanto tempo permanece e como uma
+recuperação o afeta.
+Encerramento
+Pedido, marco de término e consequências que continuam depois;
+não confundir suspensão do ganho com fim do Pacto.
+Situação da regra
+Regra publicada, proposta experimental ou aprovação local; versão e
+ficha às quais se aplica.
+Vaga
+Se ocupa; Essência e quantidade total ocupada.
+Cláusulas
+Exceções, pessoas protegidas e circunstâncias incluídas.
+Descumprimento
+Fato verificável e consequência previamente definida; distinguir as
+regras da forma escolhida.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+317

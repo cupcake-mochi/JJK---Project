@@ -1,8 +1,8 @@
 # Retirar a caixa, proteger a equipe
 
-Leia este exemplo para acompanhar **uma missão que termina sem derrotar o chefe**. Depois, consulte o segundo percurso para ver como uma interrupção mal sucedida pode levar ao socorro. A [ficha do Sineiro](71-sineiro-do-recolhimento.md) traz suas capacidades; a [consulta e Doma](72-sineiro-consulta-e-doma.md) continua separada.
+Leia este exemplo para acompanhar **uma missão que termina sem derrotar o chefe**. Depois, consulte o segundo exemplo para ver como uma interrupção malsucedida pode levar ao socorro. A [ficha do Sineiro](71-sineiro-do-recolhimento.md) traz suas capacidades; a [consulta e Doma](72-sineiro-consulta-e-doma.md) continua separada.
 
-**Ensaio escrito da versão 2 experimental, com 108 PV e 54 de Integridade.** Os resultados dos dados foram escolhidos para explicar decisões e regras. Não representam uma sessão jogada, uma estratégia ideal ou uma frequência esperada de sucesso. Aqui não se decide que 108 PV seja a referência definitiva de um chefe de nível 6.
+**Exemplo escrito com a ficha experimental, com 108 PV e 54 de Integridade.** Os resultados dos dados foram escolhidos para explicar decisões e regras. Não representam uma sessão jogada, a melhor estratégia possível ou uma frequência esperada de sucesso. Os 108 PV não são uma referência obrigatória para chefes de nível 6.
 
 ## Preparar a mesa
 
@@ -34,7 +34,7 @@ Marque a zona de cada preparação **antes** de resolver as respostas. Seu centr
 
 ### Personagens usados
 
-Estes são recortes de personagens de nível 6, Maestria 1, Refino 2 e Classe máxima 2. As capacidades usadas estão registradas abaixo; os recortes não substituem fichas completas. Todos começam sem Sequelas, com Integridade cheia, deslocamento de 9 m, Traje 1 e Defesa 13. Nas duas alternativas, as escolhas de técnica e de Caminho permanecem iguais.
+Estes são perfis de personagens de nível 6, Maestria 1, Refino 2 e Classe máxima 2. As capacidades usadas estão registradas abaixo; os perfis não substituem fichas completas. Todos começam sem Sequelas, com Integridade cheia, deslocamento de 9 m, Traje 1 e Defesa 13. Nas duas alternativas, as escolhas de técnica e de Caminho permanecem iguais.
 
 | Personagem | Caminho e Trilha | Força / Destreza / Constituição / Inteligência / Essência | Vida | PE | Integridade | TR Físico |
 |---|---|---|---:|---:|---:|---:|
@@ -48,15 +48,15 @@ Rina pesa 72 kg. Traje e espada somam 1,3 Volume. Para o Sineiro conduzi-la sem 
 
 **Mei.** Sua técnica de pressão usa Inteligência; tem Alcance Livre e Mira Livre, com Amparo, Castigo e Marca fechados. Conhece **Arremesso de pressão**: Classe 2, Padrão, 6 PE, Projétil a 18 m, ataque +5, 5d8 de Concussão e Empurrão de até 6 m após acertar. O orçamento é seis pontos, menos um de Empurrão, deixando cinco dados. Seu Selo é bater as palmas; as mãos estão livres.
 
-Com **Remodelar**, Mei paga mais 1 PE e troca Empurrão por **Passo**. Ambos custam um ponto nesta montagem; o dano permanece 5d8. Passo permite mover até 6 m antes ou depois da aplicação, sem oportunidade. Não remove Agarrado nem atravessa obstáculos. Resolver essa versão com Padrão concede um Impulso Técnico até o fim do próximo turno de Mei; ele não concede uma ação gratuita. Não é gasto neste ensaio.
+Com **Remodelar**, Mei paga mais 1 PE e troca Empurrão por **Passo**. Ambos custam um ponto nesta montagem; o dano permanece 5d8. Passo permite mover até 6 m antes ou depois da aplicação, sem oportunidade. Não remove Agarrado nem atravessa obstáculos. Resolver essa versão com Padrão concede um Impulso Técnico até o fim do próximo turno de Mei; ele não concede uma ação gratuita. Não é gasto neste exemplo.
 
-**Akira.** Usa Abrir Caminho com Bônus e 1 PE: prepara uma oportunidade para um aliado percebido a até 18 m que veja ou ouça sua orientação. **Avançar** permite até 3 m em direção ao espaço indicado, sem oportunidade da ameaça escolhida. No próprio turno do beneficiário, não exige outra ação; fora dele, exige sua Reação. A abertura dura até o começo do próximo turno de Akira. **Resguardar**, usado no segundo percurso, dá vantagem a um TR provocado pela ameaça indicada.
+**Akira.** Usa Abrir Caminho com Bônus e 1 PE: prepara uma oportunidade para um aliado percebido a até 18 m que veja ou ouça sua orientação. **Avançar** permite até 3 m em direção ao espaço indicado, sem oportunidade da ameaça escolhida. No próprio turno do beneficiário, não exige outra ação; fora dele, exige sua Reação. A abertura dura até o começo do próximo turno de Akira. **Resguardar**, usado no segundo exemplo, dá vantagem a um TR provocado pela ameaça indicada.
 
 Conhece **Sutura de emergência**, aplicação de sua técnica de recomposição, com Amparo Livre: cura individual de Classe 2 a 9 m, Padrão, 6 PE, 4d8, compatível com os três personagens. São seis pontos, menos dois da base de cura. O Selo é um gesto com a mão direita; pode segurar a caixa com a esquerda. Cuidado Preparado usa Essência 4, mas exige vida positiva e inferior à metade: **não é a fonte de socorro a zero** deste exemplo. Capacidades de níveis 11 ou 19 não foram concedidas ao perfil de nível 6.
 
 Role iniciativa. Os resultados escolhidos são Rina 14 + 2 = **16**, Sineiro 13 + 1 = **14**, Mei 10 + 2 = **12** e Akira 8 + 2 = **10**. Essa ordem permanece. Cada Reação volta no começo do turno de seu dono; começar uma nova rodada, sozinho, não devolve todas ao mesmo tempo.
 
-## Primeiro percurso: abrir uma saída
+## Primeiro exemplo: abrir uma saída
 
 ### Rodada 1 — a captura
 
@@ -103,11 +103,11 @@ Depois da aplicação, Passo a leva de D6 a D2, 6 m, sem oportunidade. Com seu M
 | Akira | 51/51 | 28/30 | 65/65 | Fora, com a caixa. |
 | Sineiro | 52/108 | 0 | 54/54 | Continua no recinto. |
 
-Encerrar a oposição não recupera PE ou vida automaticamente. Registre os efeitos ainda ativos e seus prazos. A equipe usou **dois feitiços, ambos de Mei**, uma espada e duas aberturas de Akira. Este é um percurso de menor gasto ofensivo que a sequência de seis feitiços comparada no planejamento. Mostra uma saída viável; não mede quanto duraria uma luta até a derrota do Sineiro.
+Encerrar a oposição não recupera PE ou vida automaticamente. Registre os efeitos ainda ativos e seus prazos. A equipe usou **dois feitiços, ambos de Mei**, uma espada e duas aberturas de Akira. Este exemplo gasta menos recursos ofensivos que a sequência de seis feitiços comparada no planejamento. Mostra uma saída viável; não mede quanto duraria uma luta até a derrota do Sineiro.
 
-## Segundo percurso: a interrupção falha
+## Segundo exemplo: a interrupção falha
 
-Recomece o encontro. **Mei entra com 18/44 PV**, por ferimentos anteriores, mas com PE e Integridade cheios, sem Sequelas e sem ter escolhido Insistir nessa cena. As outras fichas começam iguais. Não transporte os gastos ou as posições finais do primeiro percurso para cá.
+Recomece o encontro. **Mei entra com 18/44 PV**, por ferimentos anteriores, mas com PE e Integridade cheios, sem Sequelas e sem ter escolhido Insistir nessa cena. As outras fichas começam iguais. Não transporte os gastos ou as posições finais do primeiro exemplo para cá.
 
 Rina e o Sineiro repetem seus primeiros turnos: ele termina em D10:E11 com **97 PV**, segurando Rina em C10, que tem **59 PV**, e prepara o impacto.
 
@@ -115,19 +115,19 @@ Rina e o Sineiro repetem seus primeiros turnos: ele termina em D10:E11 com **97 
 
 Akira busca a caixa e volta a C0 pelo mesmo percurso do primeiro caso. Desta vez, usa a Bônus e 1 PE para oferecer **Resguardar a Rina**, contra o Sineiro. Avançar não a soltaria enquanto continuasse Agarrada.
 
-### A fuga não protege automaticamente quem ficou
+### Rina escapa, mas Mei continua em risco
 
 No turno seguinte, Rina gasta a **Padrão** para escapar. Consome Resguardar nesse TR: tira 4 e 15, usa 15 + 5 = **20**, contra CD 13, e se solta. Anda de C10 a C4 com seu Movimento e converte a Bônus em outro Movimento, chegando a C−2. Ao sair do alcance do Sineiro, provoca uma oportunidade: ele gasta a Reação numa única Pancada, tira 5 + 5 = **10**, contra Defesa 13, e erra. A oportunidade não inclui Agarrar nem toda a Ação Atacar.
 
 **Mei continua exposta em C11.** No turno do Sineiro, ele recupera sua Reação e usa a Padrão no impacto preparado: os cinco d8 dão 6, 6, 6, 6 e 6, total **30**. Mei falha no TR Físico: 5 + 3 = **8**, contra CD 13. Não pode Bloquear essa área. Gasta Reação e **2 PE** em Cobrir-se de Energia; Refino 2 reduz 3. Sofre **27**, chegando a **zero de vida**, com **28 PE**. O Traje conserva sua proteção; essa redução não impede a queda.
 
-O Sineiro fica com Guarda Aberta até o começo do próximo turno dele. Não tem outro impacto imediato nem pode armar outro sino enquanto estiver nessa condição. Neste percurso, permanece no fundo, diante de Mei, sem usar o Movimento ou a Bônus restantes. Essa escolha faz parte do percurso; Guarda Aberta não proíbe essas ações.
+O Sineiro fica com Guarda Aberta até o começo do próximo turno dele. Não tem outro impacto imediato nem pode armar outro sino enquanto estiver nessa condição. Neste exemplo, permanece no fundo, diante de Mei, sem usar o Movimento ou a Bônus restantes. Essa escolha faz parte do exemplo; Guarda Aberta não proíbe essas ações.
 
 ### Insistir permite agir; não encerra Morrendo
 
 Mei escolhe **Insistir pela primeira vez**. Com máximo de referência 44, precisa de **15 de tratamento**: 44 ÷ 3, para cima, abaixo do teto 15 × Classe 2 = 30. A janela começa com **três rodadas**, pois ela não tem Sequelas. Marque a queda no momento do impacto, na iniciativa 14 desta rodada. O excesso do golpe inicial não consome uma segunda rodada.
 
-No turno de Mei, sua Reação volta, mas o prazo de socorro não recomeça. Ela ainda pode agir. Usa a Padrão no feitiço Remodelado com Passo, paga **7 PE**, restando **21**, acerta com 8 + 5 = **13** e causa **23**, como no primeiro percurso. O Sineiro vai de 97 a **74 PV**. Guarda Aberta não transforma esse Projétil em crítico.
+No turno de Mei, sua Reação volta, mas o prazo de socorro não recomeça. Ela ainda pode agir. Usa a Padrão no feitiço Remodelado com Passo, paga **7 PE**, restando **21**, acerta com 8 + 5 = **13** e causa **23**, como no primeiro exemplo. O Sineiro vai de 97 a **74 PV**. Guarda Aberta não transforma esse Projétil em crítico.
 
 Passo a leva C11 → C7, 6 m, sem oportunidade. O Movimento comum a leva C7 → C1, 9 m. Converte a Bônus em outro Movimento e chega a C−5, mais 9 m. Passa pelo aliado em C0 com sua permissão. Está fora do alcance do chefe, mas continua **Morrendo, a zero de vida**. Seu Impulso Técnico dura até o fim do próximo turno; não é recuperação.
 
@@ -146,12 +146,12 @@ Mei aguarda socorro em seu turno; seu Impulso expira ao final dele. No turno de 
 | Akira | 51/51 | 17/30 | 65/65 | Fora, com a caixa. |
 | Sineiro | 74/108 | 0 | 54/54 | Continua no recinto. |
 
-**Se Mei tivesse escolhido Aguentar**, precisaria de 11 de tratamento, mas ficaria Inconsciente e Derrubada. Não poderia conjurar Passo nem executar a retirada descrita. Akira, em C0, estaria a 16,5 m dela em C11, fora do alcance dessa cura. Seria preciso reposicionar o socorrista ou transportar Mei e resolver a oposição restante. Essa alternativa exige outro percurso; reduzir o tratamento não concede gratuitamente a fuga do caso acima. Os procedimentos de [quedas e socorro](22-quedas-e-socorro.md) orientam esse resgate.
+**Se Mei tivesse escolhido Aguentar**, precisaria de 11 de tratamento, mas ficaria Inconsciente e Derrubada. Não poderia conjurar Passo nem executar a retirada descrita. Akira, em C0, estaria a 16,5 m dela em C11, fora do alcance dessa cura. Seria preciso reposicionar o socorrista ou transportar Mei e resolver a oposição restante. Essa alternativa exige outro percurso; reduzir o tratamento não concede gratuitamente a fuga do caso acima. As regras de [quedas e socorro](22-quedas-e-socorro.md) orientam esse resgate.
 
 ## O que observar ao usar o exemplo
 
-O primeiro percurso resolve a captura com controle e separação, conserva a Reação de Rina para uma interceptação e usa a abertura seguinte no turno correto. O segundo mostra o custo de falhar numa resposta e terminar perto do impacto. O aviso do golpe oferece uma escolha; não garante que a equipe consiga ou decida aproveitá-la.
+O primeiro exemplo resolve a captura com controle e separação, conserva a Reação de Rina para uma interceptação e usa a abertura seguinte no turno correto. O segundo mostra o custo de falhar ao tentar impedir o golpe e terminar perto do impacto. O aviso do golpe oferece uma escolha; não garante que a equipe consiga ou decida aproveitá-la.
 
-Os resultados dependem da geometria, das capacidades escolhidas, do estado inicial, dos dados e do comportamento informado do guardião. Uma técnica sem deslocamento, uma porta estreita, mais inimigos ou outra ordem de iniciativa pedem nova avaliação. Não esconda essas mudanças dentro da mesma etiqueta de dificuldade.
+Os resultados dependem das posições e distâncias, das capacidades escolhidas, do estado inicial, dos dados e do comportamento informado do guardião. Uma técnica sem deslocamento, uma porta estreita, mais inimigos ou outra ordem de iniciativa pedem nova avaliação. Não esconda essas mudanças dentro da mesma classificação de dificuldade.
 
 Na guilda, passe ao próximo mestre os recursos restantes, a Sequela, o resultado da missão e os prazos relevantes. A janela de socorro deve ser resolvida pela ordem de iniciativa; não a converta em dias reais por a missão ter ocorrido em uma guilda.

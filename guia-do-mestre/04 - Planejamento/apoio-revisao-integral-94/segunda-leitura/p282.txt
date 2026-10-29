@@ -1,0 +1,99 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Campo
+Texto proposto
+Limites
+Não amplia detalhes, traduz, lê o que era ilegível, identifica a pessoa, revela a
+técnica ou desfaz disfarces e ilusões. Não dá bônus em teste por si.
+A imagem é apresentada como um registro no
+painel, sem se passar pelo objeto ou pela pessoa
+original. Não cria luz para iluminar a sala, um
+documento físico destacável ou um inventário de
+provas. Um objeto comum que o Escriba recolha
+com as mãos continua seguindo as regras de carga;
+não entra no registro visual.
+Uso válido. O Escriba vê a marca grande e legível
+na face externa de uma caixa aberta, a 3 m. Tala
+orienta que a registre. Ele gasta a básica para
+guardar a imagem e, em outra oportunidade com
+básica disponível, exibe o painel ao grupo. A marca
+pode ser comparada a outra pista; reconhecer seu
+significado ainda exige o conhecimento ou teste
+pertinente.
+Uso impedido. Tala aponta para uma carta fechada
+e pede uma imagem do texto dentro dela. O Escriba
+enxerga o envelope, não seu conteúdo. O talento
+não abre a carta nem oferece uma segunda
+percepção através do papel. Uma fotografia de um
+rosto disfarçado conservaria a aparência percebida,
+sem identificar quem está sob o disfarce.
+O ganho proposto é conservar e apresentar uma
+observação limitada. A comparação com Registro
+de cena não prova equivalência automática entre
+som e imagem. Se os usos reais mostrarem que o
+retrato elimina dificuldades além desses limites,
+revise a proposta pelos critérios de avaliação de
+poderes, em vez de atribuir novas funções ao texto.
+Ela não foi aprovada como talento universal do
+sistema.
+Quando o pedido excede os limites
+O jogador pede: “Quero que Agulha perfurante
+também alcance 36 m, mantenha +2 no ataque e
+ignore proteção, causando 3d8 por 6 PE.”
+Para ir de 18 m a 36 m, Longe de um degrau é uma
+Melhoria Leve de Alcance. Na Classe 2, custa 1;
+Alcance está aberta, mas não é Livre. A montagem
+teria Precisão + Fura + Longe, três Melhorias onde
+o limite é duas. Além disso, seu saldo seria 4 - 1 - 1 -
+1 = 1d8, não 3d8.
+Avaliação: reduzir somente o dano não resolve a
+quantidade de Melhorias. Nesta ficha, conserve
+Agulha perfurante como registrada, com Precisão e
+Fura, 2d8 e 18 m. Se a prioridade for distância,
+outra montagem pode trocar Fura por Longe:
+Precisão + Longe, 2d8, ataque +6 e 36 m, por 6 PE,
+sem ignorar Redução de Dano.
+Essa troca não acontece no momento do disparo. É
+outra montagem, que precisa ocupar uma vaga
+disponível ou usar a reescrita permitida na
+evolução. As duas vagas do nível 5 já estão
+ocupadas. Uma Restrição não cria uma terceira
+vaga de Melhoria nem abre uma Família Fechada.
+Outro pedido seria “a imagem do inimigo dá
+vantagem automática contra ele”. Isso acrescenta
+um benefício de combate ausente do talento. Não
+entra gratuitamente na proposta CE1 por combinar
+com o nome Retrato. Avalie a aquisição
+correspondente, os requisitos e as Famílias; retratar
+alguém não é marcá-lo com todas as peças de
+Marca.
+Um turno com a ficha
+Considere o Escriba já em campo, com tarefa
+recebida e básica disponível. Tala tem 8 PE e
+manda usar Agulha perfurante contra um alvo
+válido a 12 m do Escriba. Paga sua Padrão e 6 PE,
+ficando com 2. O Escriba consome a básica.
+O d20 mostra 10: 10 + 6 = 16. Contra Defesa 15, sem
+Bloquear ou outra resposta, acerta. Os dados de
+dano mostram 5 e 4: 9 de Perfurante. O alvo possui
+Redução de Dano 3 aplicável ao ataque e nenhuma
+outra proteção. Fura ignora 2 dessa redução,
+restando 1: o alvo recebe 8 de dano.
+O Escriba não pode, depois disso, registrar uma
+imagem ou disparar Agulha de tinta com a mesma
+básica. Seu Movimento continua separado, se ainda
+disponível. Outra entidade de Tala conserva seus
+próprios recursos; a Padrão já usada por Tala não
+está disponível para outro comando comum.
+Se o Escriba tivesse acabado de entrar sem
+substituição, não receberia uma básica naquele
+ciclo. Manifestar custa Bônus e 2 PE no nível 5; a
+primeira tarefa exige outra Bônus. Pagar entrada
+não autoriza ignorar essas etapas para realizar o
+turno acima.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+282

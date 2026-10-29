@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+agarrão termina. Foi a separação que soltou Rina,
+não o dano.
+Akira recolhe a caixa. Anda F0 → E1 → D2 → C3 →
+C4 → C5 → C6: seis passos, 9 m. Pega a caixa com a
+mão esquerda, usando a interação simples gratuita.
+Com Bônus e 1 PE, prepara Avançar para Rina,
+indicando C8 e o Sineiro como ameaça. Depois da
+resolução dessa Bônus, Rina gasta sua Reação para
+andar de C10 a C8, 3 m.
+Akira usa sua Padrão para Correr e anda mais 9 m,
+de C6 a C0. Está fora com a caixa. Não conjurou
+nem recebeu outra Padrão por terminar o objetivo
+material.
+Rodada 2 - proteger quem ficou
+Rina permanece perto de Mei. No começo do
+turno, recupera sua Reação e termina a provocação
+inicial; a área de Olhos Em Mim continua. Anda de
+C8 a C4, 6 m, e usa a Padrão para Esquivar. Até o
+começo de seu próximo turno, ataques contra ela
+têm desvantagem. Ela guarda a Reação para
+proteger Mei, em vez de sair imediatamente.
+O Sineiro tenta uma nova captura. Anda de
+E10:F11 até D7:E8, 4,5 m: a célula de referência
+passa por D9, D8 e D7. Usa Atacar. Mei passa no
+Agarrar: 14 + 3 = 17, contra CD 13. A Pancada
+seguinte é declarada contra ela, que está em D6, ao
+alcance.
+Antes da rolagem, Rina assume o golpe com sua
+Reação. Mei está a 3 m de Rina e dentro da área de
+proteção. A interceptação conserva o alcance já
+conferido contra Mei; Rina não precisa se deslocar.
+Escolhe Bloquear antes dos dados do ataque: 4 + 6 +
+2 = 12. O ataque tem desvantagem por Esquivar: 17
+e 9; usa 9 + 5 = 14 e acerta. O dano 3 + 4 + 4 = 11 vira
+6 por Alicerce. Rina fica com 53 PV. Não pode
+gastar essa mesma Reação também em Cobrir-se de
+Energia.
+Com Bônus, o Sineiro prepara outro impacto. Mei
+está na zona; Rina, em C4, está fora. Ninguém
+precisa estar Agarrado para ele preparar o sino.
+Mei escolhe mobilidade. Paga 7 PE para conjurar
+Arremesso de pressão Remodelado, trocando
+Empurrão por Passo. Restam 23 PE. Tira 8 + 5 = 13
+e causa 2 + 4 + 5 + 6 + 6 = 23; o Sineiro fica com 52
+PV. O dano não cancela a preparação.
+Depois da aplicação, Passo a leva de D6 a D2, 6 m,
+sem oportunidade. Com seu Movimento comum,
+anda de D2 a D-4, mais 9 m, atravessando a porta.
+Recebe um Impulso Técnico pela Padrão
+Remodelada, válido até o fim de seu próximo turno;
+não o transforma em conjuração extra.
+Akira prepara a última saída. De C0, gasta Bônus e
+1 PE, restando 28, para oferecer Avançar a Rina, em
+direção a C2. Rina já gastou sua Reação na
+interceptação. Portanto, não se move agora. A
+abertura ficará disponível no turno dela, que vem
+antes do próximo turno de Akira. Ele não usa a
+Padrão.
+Rodada 3 - encerrar a oposição
+Rina sai no próprio turno. Recupera sua Reação;
+Esquivar termina. Consome Avançar sem outra
+ação e anda C4 → C2, 3 m. Usa 4,5 m de seu
+Movimento para chegar a C-1, passando pelo aliado
+em C0. Todos estão fora com a caixa. A preparação
+do Sineiro ficou sem alvos; ele pode desistir. Seu
+comportamento não inclui perseguir além da
+entrada.
+Estado da retirada
+Vida
+PE
+Integridade
+Observação
+Rina
+53/65
+24/24
+50/50
+Fora; sem Sequelas.
+Mei
+44/44
+23/36
+55/55
+Fora; Impulso ainda tem seu
+prazo.
+Akira
+51/51
+28/30
+65/65
+Fora, com a caixa.
+Sineiro
+52/108
+0
+54/54
+Continua no recinto.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+144

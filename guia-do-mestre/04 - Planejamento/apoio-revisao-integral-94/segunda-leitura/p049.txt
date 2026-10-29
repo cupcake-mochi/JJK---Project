@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+No caso alternativo em que Emi tira 9, seu total é
+13: seriam dois sucessos, insuficientes. Resolva a
+consequência anunciada e apresente a situação
+atual. A partir daí, a equipe decide se responde,
+recua ou propõe outra ação. Se começar um
+combate, organize a iniciativa antes de resolver
+ações de combate disputadas.
+Usando Contribuição Decisiva
+Se Aoi possuir Contribuição Decisiva, tiver treino
+em Furtividade e ainda puder usá-la na cena, pode
+aplicar a menor depois das rolagens e antes da
+consequência. Na versão com dois sucessos, o
+sucesso dela passa a contar como dois: 2 + 1 = 3,
+suficiente para a equipe.
+Isso não refaz os dados nem transforma a falha de
+Emi em sucesso pessoal. Continuam cinco
+participantes, e o grupo ainda precisa de três
+sucessos. Há no máximo uma aplicação dessa
+menor por teste coletivo, mesmo com vários
+portadores; quem a usa gasta sua utilização da cena,
+sem ação ou PE adicional. Quem não a aplicou
+conserva o uso.
+Esconder durante o combate
+Compare com outro caso, já em combate, usando os
+mesmos totais apenas para demonstrar a diferença.
+Cada personagem tem condições para se esconder
+daquele vigia e gasta sua Ação Padrão de Esconder,
+no próprio turno. Aoi, Haru e Emi ficam ocultos
+dele; Nao e Tomo são localizados. Não há contagem
+de três sucessos que esconda os cinco.
+Anote o total de Furtividade de cada tentativa para
+buscas posteriores. Posição, sinais e outros
+observadores continuam seguindo Esconder. Quem
+está claramente visível precisa primeiro obter
+condições para tentar; um número alto não
+substitui esse requisito.
+O mesmo cuidado vale para outros efeitos
+individuais. Uma explosão que pede um TR de cada
+alvo mantém cada resultado. Não a transforme em
+teste de grupo para que metade da equipe proteja os
+demais sem uma capacidade que faça isso.
+Empates na iniciativa
+Na iniciativa comum, role d20 + Destreza,
+acrescentando os modificadores ativos. Ordene do
+maior total para o menor. Resolva um empate nesta
+sequência:
+1. Maior Destreza age primeiro.
+2. Se a Destreza também empatar entre personagem
+de jogador e inimigo, o personagem do jogador age
+primeiro.
+3. Entre personagens de jogadores ainda
+empatados, os envolvidos escolhem a ordem. Entre
+inimigos ainda empatados, você escolhe.
+Registre a ordem uma vez para o combate. Não
+peça outra rolagem de desempate nem refaça a
+escolha a cada rodada. Capacidades que alterem
+turnos conservam suas permissões específicas.
+Cinco participantes, todos com total 14
+O quadro mostra apenas a ordem dos turnos; para
+jogar um combate, você ainda precisa das fichas
+completas. Não há outros modificadores ativos de
+iniciativa:
+Participante
+Quem controla
+Destreza
+d20
+Total
+Haste
+Mestre, inimigo
+3
+11
+14
+Aoi
+Jogadora
+2
+12
+14
+Nao
+Jogador
+2
+12
+14
+Trinco
+Mestre, inimigo
+2
+12
+14
+Dobra
+Mestre, inimigo
+2
+12
+14
+Haste age primeiro: sua Destreza 3 supera a dos demais. A prioridade de jogador ainda não se aplica a esse
+empate, porque as Destrezas são diferentes.
+Aoi e Nao vêm antes de Trinco e Dobra, pois empatam com eles tanto no total quanto na Destreza. Os
+jogadores escolhem Aoi antes de Nao. Entre os dois inimigos restantes, o mestre escolhe Trinco antes de
+Dobra.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+49

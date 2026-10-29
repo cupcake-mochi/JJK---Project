@@ -1,0 +1,81 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Defina o tipo de ação
+Escreva a natureza da ação: ataque com arma ou
+desarmado, manobra, feitiço, aptidão ou outra ação
+com regras próprias. Escreva também sua ligação
+com corpo, equipamento ou técnica. Essa
+informação ajuda a decidir o que pode impedi-la.
+Um golpe descrito como “soco de energia” ainda
+pode ser um feitiço de Toque. Nesse caso,
+conservar o ataque de conjuração preserva suas
+defesas e seus requisitos. Renomeá-lo não o
+transforma em ataque desarmado, não concede
+Canalizar em Golpe e não muda a regra de crítico.
+Classe, Categoria de Efeito e nível têm funções
+diferentes. Um feitiço informa sua Classe. Um
+talento usa Categoria de Efeito quando sua regra
+estabelece essa classificação. O nível pertence à
+criatura. Não deduza um desses valores a partir de
+outro sem uma regra que faça essa ligação. Uma
+Classe atribuída para resolver um cancelamento
+específico também não concede acesso geral a
+feitiços daquela Classe.
+Escolha como limitar o uso
+Use os critérios da seção anterior: repetição livre,
+quantidade limitada, intervalo, recarga, preparo,
+condição ou reserva compartilhada. Registre o
+motivo da escolha em uma frase.
+Exemplo. “Este golpe precisa dar ao grupo uma
+chance de afastar a criatura antes de atingir o alvo.”
+Isso aponta para um preparo perceptível ou um
+requisito de posição. Apenas reduzir a reserva de PE
+não produz essa chance.
+Se acrescentar dois controles, explique a função de
+cada um. Uma reserva de PE pode obrigar o
+inimigo a escolher entre atacar e se proteger; um
+intervalo pode impedir ataques consecutivos. Não
+acrescente uma terceira contagem de usos quando
+ela só repetir o mesmo limite do saldo.
+Um gatilho tampouco concede uma ação por conta
+própria. “Quando o alvo se aproxima” precisa vir
+acompanhado de quem pode responder, qual
+recurso gasta e em que momento age. Descrever o
+brilho do golpe enquanto ele já acerta não abre uma
+oportunidade anterior de intervenção.
+Explique os custos
+Para um feitiço adaptado, diferencie o custo-base
+da Classe do pagamento desta aplicação. A
+distinção importa quando outro efeito calcula um
+acréscimo usando aquele custo-base.
+O Impacto concentrado original é de Classe 1 e
+custa três PE. Na hipótese de recarga do estudo, a
+proposta passa a dispensar somente esse custo
+normal na aplicação de Classe 1, conservando a
+base de três para regras que a consultem. É uma
+exceção experimental de inimigo, sem aprovação
+como regra geral.
+Situação da hipótese
+Pagamento
+Uso comum com a dispensa
+0 PE
+Estágio 2 de Integridade
+0 + 1 pela Classe = 1 PE
+Se uma regra válida acrescentar 2 PE
+independentes
+0 + 2 = 2 PE
+Os dois acréscimos juntos
+0 + 1 + 2 = 3 PE
+Os acréscimos só existem quando uma regra efetivamente os concede. A tabela não dá ao inimigo novos
+talentos ou opções de conjuração. A dispensa não altera a Classe, não concede Ampliação, não paga ação e
+não modifica automaticamente outra capacidade.
+No ensaio, falta de saldo para o pagamento final impede a tentativa antes de gastar a ação ou gastar o uso
+disponível. Uma tentativa legal que erre mantém os custos e consome o uso ou preparo conforme sua ficha.
+Outras regras podem prever a devolução de recursos: não substitua essas exceções por uma proibição geral
+de devolver recursos.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+90

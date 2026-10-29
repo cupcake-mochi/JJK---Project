@@ -1,0 +1,112 @@
+{
+  "registro": 117,
+  "fontes": [
+    {
+      "id": "aviso",
+      "fonte_id": "s014",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+      "fonte_original": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+      "titulo": "O aviso de reabertura",
+      "sha256": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf",
+      "sha256_original": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d"
+    },
+    {
+      "id": "testes",
+      "fonte_id": "s082",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "fonte_original": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "titulo": "Exemplos de testes e iniciativa",
+      "sha256": "c186389b5a2179ccc5eff35355b1bed6d398ab1202494b891441272b0e7d1f1b",
+      "sha256_original": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d"
+    },
+    {
+      "id": "pistas",
+      "fonte_id": "s083",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "fonte_original": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+      "titulo": "Percepção e pistas",
+      "sha256": "c4abeeb18310aeb7fa124ff6ba07e0aac491d78dd9b2c722a55241a7137cd819",
+      "sha256_original": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579"
+    },
+    {
+      "id": "cenario",
+      "fonte_id": "s011",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+      "fonte_original": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+      "titulo": "O cenário e as ideias dos jogadores",
+      "sha256": "0133e97f5cc2d344285bf6143bb5340519cd861ea10a2cd2ee41bd3159cf2bd5",
+      "sha256_original": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html",
+  "html_sha256": "61be0baff19c0d74bf5800f616df6c5b9ee8222349d600744d1f11c091984aa9",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-117/output/pdf/Ciclo-Maldito-Casos-de-Preparo-e-Conducao-Revisao-Textual.pdf",
+  "pdf_sha256": "d654b8a674e35414d73de5f64fa6dfa9b88c0a5b765f7ed0d56f868c6fd14f47",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 509
+    },
+    {
+      "pagina": 2,
+      "palavras": 502
+    },
+    {
+      "pagina": 3,
+      "palavras": 640
+    },
+    {
+      "pagina": 4,
+      "palavras": 244
+    },
+    {
+      "pagina": 5,
+      "palavras": 586
+    },
+    {
+      "pagina": 6,
+      "palavras": 606
+    },
+    {
+      "pagina": 7,
+      "palavras": 529
+    },
+    {
+      "pagina": 8,
+      "palavras": 367
+    },
+    {
+      "pagina": 9,
+      "palavras": 467
+    },
+    {
+      "pagina": 10,
+      "palavras": 717
+    },
+    {
+      "pagina": 11,
+      "palavras": 679
+    },
+    {
+      "pagina": 12,
+      "palavras": 660
+    },
+    {
+      "pagina": 13,
+      "palavras": 509
+    },
+    {
+      "pagina": 14,
+      "palavras": 673
+    },
+    {
+      "pagina": 15,
+      "palavras": 662
+    },
+    {
+      "pagina": 16,
+      "palavras": 700
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas complementares, conferência global e integração continuam pendentes."
+}

@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+cheias, fica com 36 de vida e 12 de Integridade.
+Perdeu metade da Integridade: está no estágio 2,
+com os efeitos acumulados dos estágios 1 e 2. O
+movimento 9 m passa a 4,5 m; a conjuração de
+Classe 1 passa de 3 para 4 PE. Se ainda tiver 6 PE,
+pode pagar uma dessas conjurações e fica com 2. A
+previsão de dois Impactos já não descreve esse
+estado.
+A possibilidade de atingir Alma depende da
+capacidade usada. O exemplo mostra como uma
+regra disponível muda a avaliação; não concede
+esse dano a todo ataque do grupo.
+Vida semelhante não produz o
+mesmo encontro
+Dois Rastejantes somam 24 de vida, como um
+Vigia, mas ocupam dois corpos e duas posições de
+iniciativa. Enquanto ambos conseguirem agir e
+alcançar alvos, cada um pode usar sua Padrão.
+Derrubar um deles retira parte dessa pressão. Um
+ataque em área que alcance os dois também afeta a
+comparação.
+Um Amontoado acompanhado de um Rastejante
+reúne 60 de vida em dois corpos, com um atacante
+adicional de curto alcance. O perigo não cresceu
+apenas pelos 12 pontos acrescentados: a nova
+criatura pode ocupar passagem, pressionar um
+socorrista e causar mais uma aplicação de dano.
+Isso exige preparar posições, prioridades e sinais do
+encontro diferente.
+No piloto continua havendo um Amontoado
+isolado. Reforços não aparecem porque a luta
+acabou depressa.
+A queda muda as prioridades
+Considere uma personagem com máximo de
+referência 23 e Classe 1. Ao cair sem Sequelas, ela
+dispõe de três rodadas de janela, contadas a partir
+do ponto da queda na iniciativa. Aguentar pede 6
+de tratamento; o primeiro Insistir da cena pede 8; o
+segundo e os seguintes pedem 12. A escolha de
+Insistir não devolve uma ação que ela já gastou.
+Uma cura válida de 2d8 pode chegar de 2 a 16. Se o
+primeiro resultado for 5, a personagem permanece
+a zero. Os 5 ficam registrados como tratamento.
+Ainda faltam 1, 3 ou 7, conforme a escolha da
+queda. O tempo continua correndo.
+O Amontoado deste preparo prioriza a criatura
+consciente mais próxima, com desempate por quem
+o atacou por último. Não golpeia inconscientes.
+Uma personagem que Insiste continua consciente e
+pode ser escolhida por esse critério. Cada
+ocorrência posterior de dano positivo que alcance
+sua vida reduz a janela em uma rodada, sem retirar
+tratamento acumulado. A escolha de alvos,
+portanto, faz parte da pressão do encontro.
+Esse comportamento não é uma proteção geral para
+quem escolhe Aguentar. Outros inimigos podem
+agir de outra forma, e uma área ou perigo do lugar
+também pode alcançar um inconsciente. Prepare e
+comunique o risco perceptível de cada situação.
+Se a criatura for derrotada enquanto alguém ainda
+estiver Morrendo, prossiga com o atendimento e
+seu prazo. Não trate o fim dos ataques como um
+descanso concluído. A folha de estado e socorro (p.
+311) conserva o que falta resolver.
+Resultados das simulações
+O relatório do piloto usou perfis parciais, escolhas
+de ação predefinidas e alcance de socorro
+simplificado. Eles não representam fichas
+completas de jogadores.
+Na comparação com Defesa fixa e escolha de
+Insistir, o Amontoado isolado contra o trio de
+referência teve mediana de duas rodadas até o
+critério de encerramento do ensaio: em pelo menos
+metade das execuções, o confronto já havia
+terminado até ali. A queda de ao menos uma pessoa
+ocorreu em 20,36% das execuções. Com o mesmo
+trio entrando com metade da vida, arredondada
+para baixo, e duas Sequelas por pessoa, a mediana
+permaneceu em duas rodadas, mas as quedas
+chegaram a 60,50%.
+Use essa diferença para reconhecer o limite de
+avaliar apenas duração. Ela não transforma os
+percentuais numa previsão para sua mesa:
+capacidades completas, mapa, acesso ao socorro e
+decisões livres podem mudar os resultados. No
+ensaio, “encerrado” também podia significar
+ausência de personagens conscientes capazes de
+agir; a situação final ainda precisava distinguir
+Morrendo de Derrotado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+109

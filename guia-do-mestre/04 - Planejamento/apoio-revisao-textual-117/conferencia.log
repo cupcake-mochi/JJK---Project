@@ -1,0 +1,61 @@
+{
+  "registro": 117,
+  "pdf_sha256": "d654b8a674e35414d73de5f64fa6dfa9b88c0a5b765f7ed0d56f868c6fd14f47",
+  "casos_conferidos": [
+    {
+      "id": "s014",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s082",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s083",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "numeros_preservados": true,
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s011",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+      "numeros_preservados": true,
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 13,
+  "rotulos_simplificados": {
+    "Acesso e limite": "Onde está e como ajuda",
+    "Fontes preparadas": "Onde encontrar",
+    "Acesso e conclusão": "O que permite concluir",
+    "O que ainda não se sabe": "Limites da descoberta",
+    "Conferência": "Como afeta a ação"
+  },
+  "links_locais_conferidos": 381,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 5,
+  "casos_pendentes": 54,
+  "lotes_pendentes": 13,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "cd16": "Mantida como ajuste à base do criador; não é CD fixa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

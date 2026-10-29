@@ -1,6 +1,6 @@
-# Uma noite com o registro
+# A Promessa do arquivo
 
-**Exemplo experimental para a pré-1.0.** Este acordo completa a negociação de Lia apresentada em [Pactos e Promessas](41-pactos-e-promessas.md). As partes, o documento e as situações abaixo são fictícios. Obrigações e cláusulas são uma elaboração para o Guia. A consequência deste acordo é a perda de PE com bloqueio até uma reparação definida. As condições abaixo pertencem a este exemplo; não são punições universais da R53. O modelo não teve seu equilíbrio avaliado em mesa.
+**Exemplo experimental para a pré-1.0.** Este acordo completa a negociação de Lia apresentada em [Pactos e Promessas](41-pactos-e-promessas.md). As partes, o documento e as situações abaixo são fictícios. As obrigações e as regras do acordo foram criadas para este exemplo. A consequência deste acordo é a perda de PE com bloqueio até uma reparação definida. As condições abaixo pertencem a este exemplo; não são punições universais do Livro de Regras 1.0. O modelo não teve seu equilíbrio avaliado em mesa.
 
 ## Por que fazer uma Promessa
 
@@ -22,13 +22,13 @@ Use **Dia 1** e **Dia 2** como datas da ficção, preenchidas no calendário da 
 | Obrigação de Lia | Das 17h às 18h do Dia 1, manter R-17 disponível para entrega a Akira e permitir consulta acompanhada às caixas G1 e G2, na sala 2. Entregar quando Akira comparecer nesse intervalo. |
 | O que a consulta entrega | Acesso aos documentos dessas duas caixas. Lia acompanha e explica sua organização; não promete encontrar uma pista específica, resolver o mistério ou saber responder a toda pergunta. |
 | Obrigação de Akira | Se receber o original, devolver o mesmo R-17, completo e legível, até as 18h do Dia 2, sem alteração intencional do conteúdo. Não entregar o original a outra pessoa, salvo para transportá-lo diretamente à devolução autorizada. |
-| Cópias | Anotações e fotografias do material autorizado são permitidas e podem ser conservadas. Ao receber R-17, Akira faz e confere uma cópia legível das 12 folhas, para ter uma referência de restituição se o original for perdido. A Promessa não concede acesso a outras caixas nem exige apagar lembranças. |
+| Cópias | Anotações e fotografias do material autorizado são permitidas e podem ser conservadas. Ao receber R-17, Akira faz e confere uma cópia legível das 12 folhas, para ter uma referência para repor o material se o original for perdido. A Promessa não concede acesso a outras caixas nem exige apagar lembranças. |
 | Devolução | Entregar a Lia na sala 2 ou depositar o dossiê completo na caixa de devolução lacrada R, acessível pelo corredor externo do arquivo. Lia apresenta e verifica essa caixa antes da aceitação. |
 | Entrega por terceiro | Akira pode pedir que alguém leve o dossiê diretamente ao ponto de devolução. A pessoa precisa aceitar; não vira parte da Promessa. O cumprimento só ocorre com a entrega, não ao passar o pacote ao mensageiro. |
 | Integridade do material | Capa e 12 folhas corretas, com texto e imagens legíveis. Desgaste comum que preserve a leitura não viola o acordo. Substituir uma folha por outra não é devolver a original. |
 | Término normal | Quando Lia tiver disponibilizado a consulta e, havendo empréstimo, R-17 tiver sido devolvido nos termos e no prazo. Não há obrigação sobrenatural posterior de apagar as cópias autorizadas. |
-| Reparação previamente definida | Akira: restituir o material pelos critérios abaixo. Lia: entregar cópias integrais dos documentos autorizados e de R-17, com índice, na caixa A de Akira. Identificar as listas e a caixa antes de aceitar. |
-| Quebra e exceções | Procedimentos abaixo, explicados antes da aceitação. |
+| Reparação previamente definida | Akira: devolver ou repor o material pelos critérios abaixo. Lia: entregar cópias integrais dos documentos autorizados e de R-17, com índice, na caixa A de Akira. Identificar as listas e a caixa antes de aceitar. |
+| Quebra e exceções | Regras abaixo, explicadas antes da aceitação. |
 
 **Leia o prazo em voz alta:** “devolver até as 18h do Dia 2” permite uma entrega concluída às 18h; às 18h01, já passou. Estar no caminho ou ter deixado o pacote com um colega não equivale à entrega.
 
@@ -49,11 +49,11 @@ O primeiro trabalho do mestre é comparar o fato com a obrigação escrita. Uma 
 | Uma parte cria deliberadamente o impedimento para não cumprir | Quebra pelo ato de criar o impedimento; não recebe a exceção. |
 | As partes desejam mudar um termo | Ambas precisam aceitar a alteração antes da quebra. Reescrever o registro; não basta uma delas anunciar uma prorrogação. |
 
-**A exceção de impossibilidade é uma cláusula deste exemplo.** Ela não está sendo atribuída a todas as Promessas da R53. Captura que realmente impede a devolução, inconsciência ou perda involuntária sem possibilidade de recuperação no prazo podem acioná-la. Um atraso comum que ainda permite outra forma de entrega não basta. Havendo um mensageiro disponível e disposto, examine essa alternativa sem presumir que alguém é obrigado a ajudar.
+**A exceção de impossibilidade é uma cláusula deste exemplo.** Ela não está sendo atribuída a todas as Promessas do Livro de Regras 1.0. Captura que realmente impede a devolução, inconsciência ou perda involuntária sem possibilidade de recuperação no prazo podem acioná-la. Um atraso comum que ainda permite outra forma de entrega não basta. Havendo um mensageiro disponível e disposto, examine essa alternativa sem presumir que alguém é obrigado a ajudar.
 
-Uma personagem não fabrica fraude apenas por aceitar uma missão arriscada. Destruir o dossiê para alegar que não pode devolvê-lo é diferente de perdê-lo num acontecimento que não provocou para evitar o acordo. Quando a intenção importar, esclareça o que foi declarado e estabelecido na cena; não transforme um julgamento incerto sobre intenção numa armadilha de leitura.
+Aceitar uma missão arriscada não significa tentar enganar a outra parte. Destruir o dossiê para alegar que não pode devolvê-lo é diferente de perdê-lo num acontecimento que não provocou para evitar o acordo. Quando a intenção importar, esclareça o que foi declarado e estabelecido na cena; não transforme um julgamento incerto sobre intenção numa armadilha de leitura.
 
-Ao ocorrer uma impossibilidade involuntária prevista antes de qualquer quebra, o vínculo sobrenatural termina para as obrigações restantes, sem iniciar bloqueio energético. Essa exceção não apaga uma punição já iniciada por uma quebra anterior. Isso não torna Akira dono do dossiê ou apaga a necessidade comum de devolver o que ainda tiver consigo. A restituição material, a confiança e outras consequências da história continuam podendo ser tratadas sem inventar uma segunda punição mágica.
+Ao ocorrer uma impossibilidade involuntária prevista antes de qualquer quebra, o vínculo sobrenatural termina para as obrigações restantes, sem iniciar bloqueio energético. Essa exceção não apaga uma punição já iniciada por uma quebra anterior. Isso não torna Akira dono do dossiê ou apaga a necessidade comum de devolver o que ainda tiver consigo. A devolução ou reposição do material, a confiança e outras consequências da história continuam podendo ser tratadas sem inventar uma segunda punição mágica.
 
 Lia recusar uma entrega que Akira solicitar durante a janela, podendo fazê-la, viola sua obrigação; a simples ausência de Akira não é uma recusa de Lia. Se Lia descumprir primeiro, Akira não recebe punição por não devolver algo que ela não entregou.
 
@@ -61,15 +61,15 @@ Se um termo comportar leituras incompatíveis que não foram resolvidas antes, e
 
 ## Consequência de quebra
 
-A R53 diz que a quebra de uma Promessa custa a energia amaldiçoada de quem quebra e pode custar a vida. Ela permite definir a punição na criação. Neste exemplo, a consequência escolhida é:
+O Livro de Regras 1.0 diz que a quebra de uma Promessa custa a energia amaldiçoada de quem quebra e pode custar a vida. Essa regra permite definir a punição na criação. Neste exemplo, a consequência escolhida é:
 
 **Quem quebra perde todos os PE comuns e temporários que possui e fica impedido de recuperar ou receber PE até cumprir a reparação definida para sua obrigação.** O máximo da ficha não muda. Não há prazo fixo: esperar ou descansar não encerra o bloqueio.
 
-A perda acontece uma vez por parte que efetivamente quebre este acordo. A quebra encerra a troca original para as obrigações ainda não cumpridas, **mas conserva a cláusula de reparação e o bloqueio de quem quebrou**. Não cobrar novas perdas pelo mesmo atraso a cada turno. Se ambas cometerem quebras simultâneas independentes, cada uma recebe a consequência e precisa reparar sua própria obrigação. A falta de cumprimento provocada pela primeira quebra, depois de encerrada a troca, não pune automaticamente a outra parte.
+A perda acontece uma vez por parte que efetivamente quebre este acordo. A quebra encerra a troca original para as obrigações ainda não cumpridas, **mas conserva a cláusula de reparação e o bloqueio de quem quebrou**. Não cobre novas perdas pelo mesmo atraso a cada turno. Se ambas cometerem quebras simultâneas independentes, cada uma recebe a consequência e precisa reparar sua própria obrigação. A falta de cumprimento provocada pela primeira quebra, depois de encerrada a troca, não pune automaticamente a outra parte.
 
-A energia perdida não é um custo pago por uma capacidade. Não permite resolver um feitiço nem ativar um benefício que exija gastar os últimos PE. Não é dano: não rolar redução de dano contra a perda. Efeitos que respondam simplesmente a estar sem energia continuam tendo suas condições conferidas.
+A energia perdida não é um custo pago por uma capacidade. Não permite resolver um feitiço nem ativar um benefício que exija gastar os últimos PE. Não é dano: não role redução de dano contra a perda. Efeitos que respondam simplesmente a estar sem energia continuam tendo suas condições conferidas.
 
-Durante o bloqueio, descansos, Refluxo, Overtime, concessões de energia temporária e outras fontes não conseguem acrescentar PE à pessoa punida. Esses eventos conservam os demais efeitos de suas regras: um descanso ainda pode recuperar outros recursos e renovar usos. Não acumular energia negada para recebê-la depois.
+Durante o bloqueio, descansos, Refluxo, Overtime, concessões de energia temporária e outras fontes não conseguem acrescentar PE à pessoa punida. Esses eventos conservam os demais efeitos de suas regras: um descanso ainda pode recuperar outros recursos e renovar usos. Não acumule energia negada para recebê-la depois.
 
 A punição não apaga automaticamente efeitos já pagos, não cancela concentração por si só e não esvazia a reserva própria de entidades. Manutenções que dependam de PE da pessoa punida podem falhar nos seus vencimentos, com as consequências normais. Capacidades sem custo de PE continuam possíveis quando os demais requisitos forem cumpridos.
 
@@ -85,7 +85,7 @@ Akira entrega R-17 à Lia ou à caixa R, com capa e 12 folhas corretas e legíve
 
 Se o original estiver destruído ou fora de seu alcance, a substituição previamente permitida é **um exemplar físico legível, com capa identificada como reposição e as mesmas 12 folhas de conteúdo**, produzido a partir da cópia de referência. Não basta depositar uma folha com um endereço eletrônico ou prometer reconstruir depois. Se o original estiver em sua posse, deve entregá-lo: a cópia não permite conservar o original como prêmio pela quebra.
 
-O exemplar substituto encerra o bloqueio conforme esta cláusula, mas não torna Akira dono de um original que venha a recuperar depois. A restituição de bens continua sendo um assunto da história. Desgaste comum que preserve legibilidade e conteúdo não exige uma obra melhor que a emprestada.
+O exemplar substituto encerra o bloqueio conforme esta cláusula, mas não torna Akira dono de um original que venha a recuperar depois. A devolução dos bens continua sendo um assunto da história. Desgaste comum que preserve legibilidade e conteúdo não exige uma obra melhor que a emprestada.
 
 ### Se Lia quebrar
 
@@ -93,11 +93,11 @@ Lia entrega a Akira, ou deposita na **caixa A** indicada por ele antes da aceita
 
 Este conjunto é o equivalente acordado para a consulta que ela deixou de oferecer. Entrega informação já existente e autorizada; não obriga Lia a criar pistas, descobrir uma resposta ou garantir sucesso na investigação. A caixa A fica em um ponto acessível verificado pelos dois. Depositar o conjunto completo basta, mesmo que Akira não queira lê-lo ou se recuse a falar com Lia. A caixa é um meio de entrega, não uma pessoa vinculada ao acordo.
 
-### Conferência e retorno da recuperação
+### Depois de cumprir a reparação
 
 A reparação é cumprida quando a entrega posterior à quebra satisfaz seus critérios. Não exige um novo ritual nem um teste de aprovação da parte prejudicada. É permitido receber ajuda de alguém disposto, sem obrigá-lo a colaborar ou puni-lo por este acordo. Preparar uma cópia antes da quebra não é crédito de reparação: é preciso realizar a entrega devida depois dela.
 
-No instante em que a reparação se completa, o impedimento cessa. **Os PE continuam zerados até uma fonte válida recuperá-los.** Não repetir uma recuperação anteriormente bloqueada nem voltar no tempo para pagar manutenção vencida. Se uma recuperação ocorrer exatamente no instante da entrega válida, confira-a depois de encerrar o bloqueio.
+No instante em que a reparação se completa, o impedimento cessa. **Os PE continuam zerados até uma fonte válida recuperá-los.** Não repita uma recuperação anteriormente bloqueada nem volte no tempo para pagar manutenção vencida. Se uma recuperação ocorrer exatamente no instante da entrega válida, confira-a depois de encerrar o bloqueio.
 
 Uma última cláusula também é combinada desde o início: **a parte prejudicada pode dispensar expressamente a reparação, de forma voluntária e registrada**. A dispensa encerra o bloqueio, sem devolver energia por si só; ninguém é obrigado a concedê-la. Ela não permite que o mestre acrescente exigências novas para uma reparação que já foi objetivamente cumprida.
 
@@ -105,7 +105,7 @@ Se o conteúdo necessário tiver se tornado irrecuperável, a reparação por en
 
 A duração pode ser curta se a pessoa reparar logo, ou atravessar várias missões. Uma reparação rápida pode encerrar o bloqueio no mesmo dia; uma reparação demorada pode prolongá-lo por tempo indefinido. O calendário, a mudança de sessão e o descanso não substituem a condição.
 
-## Três cenas resolvidas
+## Três exemplos de desfecho
 
 ### O acordo é cumprido
 
@@ -127,13 +127,13 @@ Antes do prazo, uma situação o deixa inconsciente, sem possibilidade real de d
 
 Se tivesse destruído o dossiê de propósito para alegar impossibilidade, a exceção não se aplicaria. Se apenas preferisse continuar outra tarefa enquanto podia devolver, seria o caso de quebra, não de impossibilidade.
 
-**A responsabilidade é bilateral.** Se Lia pudesse entregar R-17 às 17h do Dia 1, mas recusasse por vontade própria, sofreria a perda de energia e o bloqueio até entregar o conjunto de cópias e índice previsto, ou receber dispensa expressa de Akira. Akira seria liberado das obrigações restantes da troca original, sem assumir uma devolução que nunca recebeu. Lia não tem uma proteção especial por ser uma personagem do mestre.
+**A responsabilidade vale para os dois.** Se Lia pudesse entregar R-17 às 17h do Dia 1, mas recusasse por vontade própria, sofreria a perda de energia e o bloqueio até entregar o conjunto de cópias e índice previsto, ou receber dispensa expressa de Akira. Akira seria liberado das obrigações restantes da troca original, sem assumir uma devolução que nunca recebeu. Lia não tem uma proteção especial por ser uma personagem do mestre.
 
 ## O que registrar para outra mesa
 
 Anote os dias e horários reais da ficção no lugar de Dia 1 e Dia 2; as partes e sua autoridade; a identificação do dossiê e da caixa de devolução; o que já foi cumprido; e o estado atual do vínculo. Se houver punição, registre quem a recebeu, o instante de início, a reparação pendente e, quando acontecer, a entrega válida ou dispensa que a encerrou, além do saldo de PE.
 
-Passar para outra sessão ou outro mestre não reinicia o prazo. Na guilda, um evento já ocorrido na ficção precisa acompanhar a ficha. Em campanha fechada, o mesmo registro pode ficar no diário do grupo. Não converter o bloqueio em “uma sessão sem energia”. O relógio acompanha os prazos do empréstimo; o retorno da recuperação depende da reparação ou dispensa registrada.
+Passar para outra sessão ou outro mestre não reinicia o prazo. Na guilda, um evento já ocorrido na ficção precisa acompanhar a ficha. Em campanha fechada, o mesmo registro pode ficar no diário do grupo. Não converta o bloqueio em “uma sessão sem energia”. O relógio acompanha os prazos do empréstimo; o retorno da recuperação depende da reparação ou dispensa registrada.
 
 ## Como adaptar o exemplo
 

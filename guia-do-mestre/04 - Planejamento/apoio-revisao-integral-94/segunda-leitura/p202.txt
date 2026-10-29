@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Prepare as duas Classes
+Yara registra as linhas antes da sessão. Escolhe
+reservar dois pontos de dano e um de cura na Classe
+3; na Classe 4, três de dano e um de cura. A
+proporção poderia ser outra numa ficha
+previamente válida, mas não muda durante a
+conjuração.
+Campo
+Classe 3
+Classe 4
+Orçamento: 3 × Classe
+9
+12
+Base Média de cura
+3
+4
+Aura, Leve
+2
+2
+Escolher, Média
+3
+4
+Gesto, devolução Leve
++2
++2
+Saldo
+9 - 3 - 2 - 3 + 2 = 3
+12 - 4 - 2 - 4 + 2 = 4
+Parcela de dano
+2d8
+3d8
+Parcela de cura
+1d8 para um aliado
+1d8 para um aliado
+Ação e custo
+Padrão; 9 PE
+Padrão; 12 PE
+A devolução de Gesto compensa pontos
+efetivamente pagos em Melhorias: 2 de 3 na Classe
+3, ou 2 de 4 na Classe 4. Não recupera base nem
+Forma. Também cabe no teto de 2 × Classe. A
+montagem conserva uma Melhoria e uma Restrição
+nas duas linhas, dentro dos limites.
+As parcelas de cura cabem nos tetos pertinentes: 1
+ponto é inferior aos limites individuais e coletivos
+dessas Classes. Nenhum ponto é contado duas
+vezes. As medidas básicas de Aura das Classes 3 e 4
+continuam em 3 m; Ampliar não compra Maior.
+Escolher não se transforma em outra Melhoria, e o
+TR continua Físico CD 14.
+Conclusão. As duas linhas cabem na montagem
+publicada. Ampliar não concede uma compra nova
+nem libera a troca de cura por dano quando Yara
+perceber um alvo mais conveniente. Cada linha
+continua ocupando o mesmo espaço do feitiço.
+Exemplo de Ampliação
+Yara escolhe a linha de Classe 4. Ela tem duas mãos
+livres, pode falar e possui 20 PE; paga 12, ficando
+com 8. Há dois inimigos e uma aliada a até 3 m.
+Yara distingue os presentes, seleciona apenas os
+inimigos para a parte nociva e escolhe a aliada para
+a cura.
+Os 3d8 de dano mostram 4, 5 e 2: 11 de Cortante. O
+primeiro inimigo totaliza 13 no TR e falha contra
+CD 14; recebe 11 antes de outras defesas. O
+segundo totaliza 16 e passa; recebe 6, metade
+arredondada para cima, antes de suas defesas. A
+aliada fica excluída do dano e recupera 5, resultado
+do d8 de cura, até seu máximo e respeitando
+impedimentos.
+A rolagem de dano é única para a área. Não se
+dividem os 3d8 entre os inimigos. Se ambos
+tivessem resistido, a cura de 5 continuaria. Se não
+houvesse aliado elegível, esse d8 não viraria um
+quarto dado de dano.
+Dano e cura são instantâneos neste feitiço. Ele não
+tem Fica, não se mantém ao redor de Yara e não
+afeta quem entrar depois. A cura também não
+remove condições por associação.
+Trocar Aura por Explosão
+Em outra situação, Yara quer alcançar um grupo
+afastado. Forma Fluida, recebida no nível 15,
+permite Remodelar a Forma em vez de uma
+Melhoria. Ela troca Aura por Explosão,
+conservando Escolher, Gesto, as funções, o tipo de
+dano e o TR.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+202

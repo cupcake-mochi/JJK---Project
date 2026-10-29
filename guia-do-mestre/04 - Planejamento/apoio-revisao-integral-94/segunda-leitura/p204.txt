@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Registro para outro mestre: “Pulso de remendo:
+linhas preparadas de Classes 3 e 4; cura de um
+aliado independente do dano; Gesto obrigatório.
+Explosão é uso por Forma Fluida, com parcelas
+reduzidas e +2 PE nos dois casos. Não há efeito
+persistente nem alteração definitiva do espaço.”
+7.6 · Repetir Melhorias e
+definir Restrições
+Esta consulta mostra como contar duas compras da
+mesma Melhoria e como registrar uma limitação
+que realmente possa impedir ou dificultar o uso.
+Firmeza e Condicional seguem as permissões
+publicadas. Matriz de chão é uma Restrição
+Própria experimental, criada para demonstrar a
+avaliação; não faz parte do catálogo de regras.
+Firmeza para perícias e Ofícios
+Iara usa uma técnica que organiza a atenção de um
+aliado. Auxiliares está disponível a preço normal.
+Ela prepara Foco de trabalho, Classe 2, com
+Projétil e duas compras de Firmeza: uma para
+perícias e outra para Ofícios.
+Firmeza permite comprar categorias diferentes
+separadamente. Cada compra ocupa uma vaga; a
+categoria fica fixa na criação. Não é possível
+comprar a mesma categoria duas vezes.
+Compra na Classe 2
+Preço
+Acréscimo
+Firmeza: perícias
+Leve, 1 ponto
+Vantagem no próximo teste de perícia do alvo
+dentro do prazo
+Firmeza: Ofícios
+Leve, 1 ponto
+Vantagem no próximo teste de Ofício do alvo
+dentro do prazo
+Total
+2 pontos; duas Melhorias
+Dois benefícios de categorias diferentes, cada um
+com seu próprio consumo
+Projétil custa zero e o apoio é individual, portanto
+não há base coletiva. O orçamento é 6; após as duas
+compras, sobram 6 - 2 = 4 pontos, deixados sem
+uso. A ficha não tem dano, cura ou vida temporária
+para recebê-los.
+Acordo deste exemplo: duas compras, uma por
+categoria indicada; preço Leve de cada uma;
+nenhuma repetição da mesma categoria; nenhum
+desconto especial de pontos ou de vagas. Na Classe
+2, as duas vagas de Melhoria estão ocupadas.
+A aplicação custa Ação Padrão e 6 PE, cumprindo
+o Selo da técnica. Escolha um aliado disposto e
+válido a até 9 m. Ele recebe os dois benefícios
+automaticamente. Cada um termina no primeiro
+teste de sua categoria ou no começo do próximo
+turno de Iara, o que ocorrer antes. Um teste de
+outra categoria não recebe nem consome esses
+benefícios.
+Exemplo de uso
+Iara conjura com 14 PE e fica com 8. Rui, a 6 m,
+recebe os dois benefícios. Ele dirige um veículo que
+conhece e tem treino em Condução, Destreza 3 e
+Maestria 1. Ainda antes do próximo turno de Iara,
+precisa fazer uma manobra permitida para
+contornar um obstáculo; o mestre já informou um
+teste de Condução CD 14. Rui rola 5 e 14, usa 14 e
+soma seu bônus normal de 4: 18, sucesso na
+manobra. A compra de Ofícios foi consumida; isso
+também ocorreria se o total falhasse. A compra de
+perícias permanece até um teste elegível ou seu
+prazo.
+Se Rui fizer depois um TR, ele não recebe vantagem
+dessas compras. Se precisar de ferramenta ou treino
+para a tarefa, Firmeza não os fornece. No começo
+do próximo turno de Iara, qualquer benefício não
+usado termina. Não se guarda a vantagem para o
+descanso seguinte.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+204

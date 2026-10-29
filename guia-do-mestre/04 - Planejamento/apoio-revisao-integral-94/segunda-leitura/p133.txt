@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+alimentação e para na posição atual. Destruir o
+comando depois de o portão fechar não o reabre. O
+comando não Bloqueia; efeitos destinados apenas a
+criaturas não o atingem.
+Abrir passagem pela destruição: a folha metálica
+do portão é um objeto maior resistente: Defesa 18,
+40 PV, sem RD adicional. Defina a folha como a
+parte atacada. A zero, perde sua função de bloqueio
+e libera o vão de 3 m; os restos permanecem presos
+lateralmente, sem dano adicional ou terreno difícil
+neste caso. O mecanismo deixa de conseguir
+fechá-lo. Esses resultados pertencem à construção
+declarada do cenário, não a todo portão do sistema.
+Ataques contra esses objetos seguem o Livro de
+Regras 1.0, inclusive crítico, dano acumulado e
+adequação ao material. Os valores vêm das tabelas
+de objetos, com porte e material escolhidos para o
+exemplo. Não dão ao Carregador um novo ataque
+capaz de destruir tudo por descrição. Se alguém
+atingir outra parte da construção, informe alvo,
+consequência e regra antes do gasto; não atribua
+automaticamente o resultado de um dos dois alvos
+preparados.
+Para a retirada imediata, basta usar o serviço ou
+uma passagem já liberada. Reabrir o portão intacto
+e reparar o conjunto depois da ocorrência exige
+preparar a tarefa pertinente; não é um teste
+obrigatório para conseguir sair deste encontro.
+Exemplos de escolhas
+Os exemplos abaixo não são uma simulação
+completa. Começam nas posições e estados
+declarados, sem outra interferência, para expor
+custos.
+Parar antes de enfrentar. Mei, com deslocamento
+de 9 m e mão livre, começa em A. Usa Movimento e
+Bônus convertida: 18 m. Percorre A → Q → P por 12
+m e usa a Padrão na parada. Sobram 6 m; pode
+chegar a C se o trajeto continuar válido. Não
+conserva a Padrão para atacar ao chegar. Conforme
+a iniciativa, o Carregador pode agir antes ou depois
+dessa intervenção; parar o motor não lhe retira o
+turno.
+Escolher entre correr e sair protegida. Uma
+personagem livre em C, sem excesso de carga, leva
+a caixa e pretende chegar a A. Com o portão aberto,
+um Movimento de 9 m paga os 6 m, preservando
+Bônus. Fechado, Movimento e Bônus convertida
+pagam os 18 m do serviço. Nos dois casos, a Padrão
+pode ser Desengajar se ainda estiver disponível. Se
+gastar essa mesma Padrão para atacar ou escapar de
+uma contenção, não ganha Desengajar junto.
+Retirar um aliado. Mei tem Força 2, leva 1 Volume
+próprio e arrasta um aliado de 72 kg com 2 Volume
+de itens: carga conjunta 1 + 72 ÷ 12 + 2 = 9, dentro
+do teto de arrasto 14. O aliado está disposto ou
+inconsciente, ao alcance em C; há mãos, apoio e
+passagem. Com duas ações de Movimento de 9 m e
+a Padrão reservada, percorre os 6 m do atalho por
+custo 12 num turno. Pelo serviço, são 36 m de
+movimento: dois turnos de 18. A Padrão pode
+proteger o próprio movimento por Desengajar em
+cada turno; a pessoa arrastada não provoca
+oportunidade por esse transporte. Se o aliado
+estiver agarrado pelo inimigo, essa conta não
+dispensa encerrar a contenção.
+Preparar antes do fechamento. Uma pessoa em C
+pode gastar Padrão para preparar deslocamento ao
+ver o segundo sinal luminoso e ouvir o aviso
+sonoro, no fim da rodada 2. Se a preparação ainda
+estiver válida e a Reação disponível, move até seu
+deslocamento depois do sinal. Com 9 m, paga os 6
+m até A pelo portão ainda aberto. O movimento
+continua podendo provocar oportunidade. Preparar
+“quando o portão já fechar” não faz a resposta
+acontecer antes do fechamento nem concede
+atravessar o metal.
+Ocupação que muda o resultado. No terceiro
+avanço, Kaito permanece na faixa G: o portão
+aguarda aberto. Se o Carregador o agarrar e arrastar
+para fora na rodada seguinte, confira a carga e todo
+o trajeto. Outros ocupantes ainda podem impedir a
+passagem ao estado fechado. Se ao fim dessa rodada
+a faixa estiver livre e o motor ligado, o portão fecha.
+O Carregador não ganhou uma ação ambiental; foi
+sua ação comum que mudou uma condição do
+cenário.
+A iniciativa altera a ordem das oportunidades. Não
+escreva uma sequência de resgate como se todos
+pudessem agir entre Agarrar e o arrasto do mesmo
+turno. Reações preparadas e permissões específicas
+seguem seus gatilhos; ações comuns esperam seu
+turno.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+133

@@ -1,8 +1,8 @@
 # Reconstruir, transferir e herdar entidades
 
-Use esta seção quando uma entidade criada precisar passar à Classe seguinte ou mudar de invocador. Os prazos abaixo são referências do Guia para completar os procedimentos da R53. Materiais e eventual complexidade adicional usam o [orçamento por projeto](45-tempo-materiais-e-retomada-de-entidades.md), combinado antes do trabalho.
+Use esta seção quando uma entidade criada precisar passar à Classe seguinte ou mudar de invocador. Os prazos abaixo são referências do Guia para completar as regras do Livro de Regras 1.0. Materiais e eventual complexidade adicional usam o [orçamento por projeto](45-tempo-materiais-e-retomada-de-entidades.md), combinado antes do trabalho.
 
-Reconstrução, transferência e reparo resolvem necessidades diferentes. Reconstruir permite passar à Classe seguinte. Transferir altera o vínculo com o invocador. Reparar recupera vida conforme o procedimento próprio. Uma entidade destruída exige criar outra; uma maldição domada conserva o nível de aquisição e não recebe a evolução das criadas por estas regras.
+Reconstrução, transferência e reparo resolvem necessidades diferentes. Reconstruir permite passar à Classe seguinte. Transferir altera o vínculo com o invocador. Reparar recupera vida conforme suas regras próprias. Uma entidade destruída exige criar outra; uma maldição domada conserva o nível de aquisição e não recebe a evolução das criadas por estas regras.
 
 ## Reconstruir para a Classe seguinte
 
@@ -27,7 +27,7 @@ Reconstruir uma Classe exige menos trabalho-base que criar outra entidade daquel
 
 ### Teste e resultado
 
-Uma pessoa treinada no ofício compatível conduz o trabalho. A nova Classe não pode superar a de quem reconstrói nem a do invocador. Compare a nova Classe com a do responsável e aplique a redução de dificuldade prevista na R53:
+Uma pessoa treinada no ofício compatível conduz o trabalho. A nova Classe não pode superar a de quem reconstrói nem a do invocador. Compare a nova Classe com a do responsável e aplique a redução de dificuldade prevista no Livro de Regras 1.0:
 
 | Nova Classe em relação ao responsável | Ajuste à base da CD |
 |---|---:|
@@ -37,9 +37,9 @@ Uma pessoa treinada no ofício compatível conduz o trabalho. A nova Classe não
 
 A CD é **8 + atributo usado no ofício + Maestria + ajuste**. A rolagem usa d20 + atributo + Maestria, com os outros modificadores permitidos. Especialização altera o teste, sem aumentar novamente a base da CD.
 
-No sucesso, atualize a entidade conforme a nova Classe e o nível permitido. Na falha, a reconstrução não se conclui e a entidade continua onde está. Conserve o registro do que permaneceu aproveitável, cumpra o retrabalho e reponha os consumíveis anunciados. A nova tentativa depende de autorização do mestre e tem vantagem pela R53.
+No sucesso, atualize a entidade conforme a nova Classe e o nível permitido. Na falha, a reconstrução não se conclui e a entidade continua onde está. Conserve o registro do que permaneceu aproveitável, cumpra o retrabalho e reponha os consumíveis anunciados. A nova tentativa depende de autorização do mestre e tem vantagem pelo Livro de Regras 1.0.
 
-Reconstrução não concede uma recuperação adicional apenas porque houve investimento de tempo. Vida e outros valores seguem a evolução da ficha e os procedimentos de recuperação aplicáveis.
+Reconstrução não concede uma recuperação adicional apenas porque houve investimento de tempo. Vida e outros valores seguem a evolução da ficha e as regras de recuperação correspondentes.
 
 ### Exemplo: continuar com a mesma entidade
 
@@ -63,7 +63,7 @@ Uma falha não apaga passagens concluídas. Também não autoriza usar a ficha f
 
 ## Transferir ou herdar
 
-Transferir um talismã ou corpo criado exige o procedimento da R53, fora de combate, com consentimento do dono anterior ou após a morte dele. O novo invocador precisa ter Classe igual ou superior à da entidade. Posse do objeto não altera o vínculo automaticamente.
+Transferir um talismã ou corpo criado segue as regras do Livro de Regras 1.0, fora de combate, com consentimento do dono anterior ou após a morte dele. O novo invocador precisa ter Classe igual ou superior à da entidade. Posse do objeto não altera o vínculo automaticamente.
 
 A referência é **um oitavo do tempo de criação da Classe da entidade, arredondado para cima em horas inteiras, com mínimo de duas horas**:
 
@@ -81,15 +81,15 @@ Para uma entidade de Classe 5, a criação de referência tem 72 horas: **72 ÷ 
 
 O projeto identifica os meios necessários para alterar o vínculo e os consumíveis utilizados. Aproveite a estrutura existente. Transferir não exige comprar outra vez todas as peças, mas pode exigir serviços ou materiais específicos informados antes do trabalho.
 
-### Quem dedica o tempo
+### Quem registra as horas
 
-Quem conduz a operação registra seu trabalho. Se houver ajudante para conceder vantagem por essa via, ele precisa de treino compatível, permissão do mestre e o mesmo tempo de dedicação do responsável, conforme a R53. Uma transferência de quatro horas consome quatro horas de cada um nessa situação.
+Quem faz a transferência registra seu trabalho. Se houver ajudante para conceder vantagem por essa via, ele precisa de treino compatível, permissão do mestre e o mesmo tempo de dedicação do responsável, conforme o Livro de Regras 1.0. Uma transferência de quatro horas consome quatro horas de cada um nessa situação.
 
 Quando o processo exigir participação ativa do destinatário, escreva a etapa e o tempo correspondente no projeto. Receber o vínculo não significa, por si, que o novo invocador trabalhou todas as horas do responsável. O mesmo critério permite identificar a contribuição do dono anterior quando ela for necessária ao processo.
 
 A vantagem da tentativa posterior à falha já vem da regra própria. Não é necessário outro ajudante apenas para obter uma segunda fonte do mesmo benefício; participantes exigidos pelo processo continuam necessários.
 
-### Teste e preservação do estado
+### Teste e resultado da transferência
 
 Use o teste de criação, com os requisitos e a comparação de Classes correspondentes. **A transferência não recebe a redução de dificuldade própria da reconstrução.**
 
@@ -103,7 +103,7 @@ Kaito quer transferir a Mei uma entidade criada de Classe 3. Os dois têm nível
 
 O projeto pede **32 ÷ 8 = quatro horas**, com ¥2.000 de consumíveis por tentativa. Estrutura, ferramentas e acesso já estão disponíveis. Não há etapa ativa adicional dos donos neste exemplo. O valor dos materiais é apenas o orçamento ilustrativo deste caso.
 
-Neste caso, use o Vigia do depósito no ramo de nível 9: 40/56 PV, 28/28 Integridade, uma carga no talismã e nenhuma condição persistente. A ficha não possui usos limitados por descanso. Rina registra esse estado, executa o trabalho e faz o teste. A entidade está uma Classe abaixo dela: **CD 8 + 4 + 2 − 2 = 12**. O ajuste vem da comparação de Classes. Se a entidade fosse da mesma Classe de Rina, a CD seria 14.
+Neste caso, use o Vigia do depósito na versão de nível 9: 40/56 PV, 28/28 Integridade, uma carga no talismã e nenhuma condição persistente. A ficha não possui usos limitados por descanso. Rina registra esse estado, executa o trabalho e faz o teste. A entidade está uma Classe abaixo dela: **CD 8 + 4 + 2 − 2 = 12**. O ajuste vem da comparação de Classes. Se a entidade fosse da mesma Classe de Rina, a CD seria 14.
 
 Rina tira 2 e soma 6: total 8, falha. Kaito continua sendo o invocador. Ela decide retomar, cumpre **duas horas** e repõe os ¥2.000 de consumíveis. Na tentativa autorizada com vantagem, tira 4 e 9; usa 9, total 15, sucesso.
 
@@ -111,13 +111,13 @@ Rina tira 2 e soma 6: total 8, falha. Kaito continua sendo o invocador. Ela deci
 
 ### Quando o dono morreu
 
-Herança usa o mesmo procedimento de transferência. A morte substitui a exigência de consentimento do dono anterior prevista nessa via; não substitui o projeto, o teste ou os requisitos do novo invocador.
+A herança segue as mesmas regras da transferência. A morte substitui a exigência de consentimento do dono anterior prevista nessa via; não substitui o projeto, o teste ou os requisitos do novo invocador.
 
 Se o teste falhar, o objeto continua sem invocador vivo. Se tiver sucesso, um corpo Desligado continua precisando do retorno próprio. Um talismã conserva a carga e o estado da entidade. A oportunidade de herdar não a transforma em uma criação nova com recursos completos.
 
-Não antecipe esse procedimento quando o personagem ainda estiver apenas inconsciente ou tiver oportunidades de recuperação pelas regras de morte. Para os destinos de técnica, criação e maldição domada, consulte [Aquisição e projetos de entidades](43-aquisicao-e-projetos-de-entidades.md).
+Não antecipe a herança quando o personagem ainda estiver apenas inconsciente ou tiver oportunidades de recuperação pelas regras de morte. Para os destinos de técnica, criação e maldição domada, consulte [Obter e criar entidades](43-aquisicao-e-projetos-de-entidades.md).
 
-## Ajustes e passagem entre mestres
+## Adaptar e registrar o projeto
 
 O mestre pode preparar um projeto mais detalhado, identificando etapas, materiais, acesso e um prazo diferente justificado antes do início. Dividir uma operação em etapas não multiplica automaticamente seus testes nem cobra a mesma tarefa duas vezes.
 

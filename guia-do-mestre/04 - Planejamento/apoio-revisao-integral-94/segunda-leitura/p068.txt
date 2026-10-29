@@ -1,0 +1,80 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+da fechadura. Gazuas mecânicas também não se
+tornam equipamento de acesso eletrônico.
+Algemas e cordas
+Depois de uma luta, o grupo pretende colocar
+algemas num adversário humano que permanece
+inconsciente durante todo o minuto necessário. O
+material é compatível com seus pulsos. Haru tem
+duas mãos livres e acesso a eles: dedica um minuto
+e conclui a contenção.
+Se o adversário voltasse a resistir antes do fim, não
+haveria algema concluída por essa tentativa. Estar
+somente Agarrado, Derrubado, Atordoado ou com
+Guarda Aberta não satisfaz o requisito. Uma forma
+corporal sem pulsos compatíveis também exigiria
+outro meio adequado, em vez de aproveitar
+automaticamente a algema do catálogo.
+Com as mãos presas, o adversário não pode
+empunhar armas nem manipular itens com elas.
+Ainda pode andar, falar e usar capacidades que não
+dependam dessas mãos. A algema não suprime
+Pontos de Energia (PE) nem impede todo feitiço.
+Para abrir a algema comum, uma chave acessível
+usa manipulação simples. Gazuas seguem CD 14,
+um minuto e duas mãos, se alguém realmente
+conseguir manipulá-las. Romper a algema pela
+força usa Ação Padrão e Atletismo CD 24; mãos
+presas não impedem essa tentativa. Com bônus +5 e
+dado 18, o total 23 falha e a algema permanece; com
+dado 19, o total 24 a rompe.
+Cordas seguem outras regras: escapar por
+Acrobacia usa Padrão e CD 14; romper por
+Atletismo usa Padrão e CD 20. Uma lâmina
+adequada pode cortar uma corda acessível com
+Padrão, sem causar dano automático ao prisioneiro.
+Os casos do Carregador (p. 110) desenvolvem a
+contenção e o transporte após o confronto.
+Improvisar uma arma parecida
+com outra
+Antes de rolar, compare o modo de uso do objeto
+com o catálogo. Considere formato, resistência,
+mãos, treino e propriedades que ele pode ter. O
+Volume continua sendo o do objeto transportado.
+Kaito encontra ao alcance um cabo curto e
+resistente, manejável com uma mão. Neste
+exemplo, o objeto já foi registrado com Volume 0,5.
+O mestre usa Bastão como referência para o golpe,
+preservando o treino de Porrete e retirando
+propriedades que esse cabo não comporta. A
+decisão é informada antes do ataque:
+Campo do objeto neste exemplo
+Aplicação
+Referência
+Bastão, categoria Porrete; requer seu treino.
+Mãos
+Uma.
+Alcance corpo a corpo
+1,5 m; o cabo curto não recebe Alcance 3 m.
+Dano
+1d6 Concussão + Força.
+Propriedades mantidas
+Nenhuma propriedade especial neste recorte; não recebe Versátil
+ou Rompe por copiar o dado.
+Volume
+0,5, conservando o valor do objeto; não vira o Volume 1 do
+Bastão.
+Quebra
+Não há desgaste automático a cada golpe para este cabo
+resistente.
+Kaito é treinado em Porrete, tem Força 2 e Maestria 1. Com uma mão livre e a manipulação gratuita ainda
+disponível, recolhe o cabo. Usa sua Ação Atacar contra um alvo visível a 1,5 m, que mantém Defesa 14; não
+há outros modificadores. Dado 11 + ataque 3 = 14: acerta. O d6 mostra 4, causando 4 + 2 = 6 de Concussão
+antes das defesas.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+68

@@ -1,0 +1,368 @@
+{
+  "registro": 120,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Média de 3d8 e três/quatro aplicações",
+      "resultado": [
+        13.5,
+        40.5,
+        54.0
+      ],
+      "esperado": [
+        13.5,
+        40.5,
+        54.0
+      ]
+    },
+    {
+      "conta": "Acerto +4 contra Defesa 11 e 13",
+      "resultado": [
+        0.7,
+        0.6
+      ],
+      "esperado": [
+        0.7,
+        0.6
+      ]
+    },
+    {
+      "conta": "Alma: saldos e custo",
+      "resultado": [
+        36,
+        12,
+        4.5,
+        4,
+        1,
+        2
+      ],
+      "esperado": [
+        36,
+        12,
+        4.5,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "conta": "Tratamento para PV máximos 23",
+      "resultado": [
+        6,
+        8,
+        12
+      ],
+      "esperado": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "conta": "Restante depois de tratamento 5",
+      "resultado": [
+        1,
+        3,
+        7
+      ],
+      "esperado": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "conta": "Vida nos dois agrupamentos",
+      "resultado": [
+        24,
+        60
+      ],
+      "esperado": [
+        24,
+        60
+      ]
+    },
+    {
+      "conta": "Rota direta: distância/andar/arrastar",
+      "resultado": [
+        18,
+        24,
+        42
+      ],
+      "esperado": [
+        18,
+        24,
+        42
+      ]
+    },
+    {
+      "conta": "Rota lateral: distância/andar/arrastar",
+      "resultado": [
+        24,
+        24,
+        48
+      ],
+      "esperado": [
+        24,
+        24,
+        48
+      ]
+    },
+    {
+      "conta": "Arrasto por trecho 1,5 regular/difícil",
+      "resultado": [
+        3.0,
+        4.5
+      ],
+      "esperado": [
+        3.0,
+        4.5
+      ]
+    },
+    {
+      "conta": "Arrasto turno inicial: recursos/gasto/percurso/sobra",
+      "resultado": [
+        18,
+        16.5,
+        7.5,
+        1.5
+      ],
+      "esperado": [
+        18,
+        16.5,
+        7.5,
+        1.5
+      ]
+    },
+    {
+      "conta": "Turno seguinte: recursos/custo/sobra",
+      "resultado": [
+        27,
+        25.5,
+        1.5
+      ],
+      "esperado": [
+        27,
+        25.5,
+        1.5
+      ]
+    },
+    {
+      "conta": "Desengajar mantém só dois movimentos",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Estágio 2: movimento total e arrasto regular",
+      "resultado": [
+        9.0,
+        4.5
+      ],
+      "esperado": [
+        9,
+        4.5
+      ]
+    },
+    {
+      "conta": "Carga de personagem 72 kg com itens 2",
+      "resultado": 8.0,
+      "esperado": 8
+    },
+    {
+      "conta": "Limites Força 3 e resgate Força 2",
+      "resultado": [
+        8,
+        16,
+        9.0,
+        14
+      ],
+      "esperado": [
+        8,
+        16,
+        9,
+        14
+      ]
+    },
+    {
+      "conta": "Cargas exatas e excesso decimal",
+      "resultado": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "conta": "Conversão: vida e Integridade",
+      "resultado": [
+        14,
+        7
+      ],
+      "esperado": [
+        14,
+        7
+      ]
+    },
+    {
+      "conta": "Conversão M1 B1: acerto/CD/Defesa/Bloquear",
+      "resultado": [
+        4,
+        12,
+        12,
+        1
+      ],
+      "esperado": [
+        4,
+        12,
+        12,
+        1
+      ]
+    },
+    {
+      "conta": "Especial disponível no nível 2",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "conta": "Domada: arrasto regular/difícil/Correr",
+      "resultado": [
+        4.5,
+        3.0,
+        9.0
+      ],
+      "esperado": [
+        4.5,
+        3,
+        9.0
+      ]
+    },
+    {
+      "conta": "Destruição: a partir de PV5, golpes 21/22",
+      "resultado": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "esperado": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "conta": "Doma a zero: saldos limitados aos novos máximos",
+      "resultado": [
+        0,
+        7
+      ],
+      "esperado": [
+        0,
+        7
+      ]
+    },
+    {
+      "conta": "Retorno nível 2: dobro da entrada e metade da vida",
+      "resultado": [
+        2,
+        7
+      ],
+      "esperado": [
+        2,
+        7
+      ]
+    },
+    {
+      "conta": "Histórico: queda e mediana de cada cenário",
+      "resultado": [
+        [
+          0.2036,
+          2.0
+        ],
+        [
+          0.605,
+          2.0
+        ]
+      ],
+      "esperado": [
+        [
+          0.2036,
+          2.0
+        ],
+        [
+          0.605,
+          2.0
+        ]
+      ]
+    }
+  ],
+  "simulacao_historica": {
+    "fonte": "04 - Planejamento/apoio-piloto/resultado-validacao.json",
+    "sha256": "00feea4f6d11d433110079947c71c133a5b155b7d2fc0998e1603fc26630d1e5",
+    "execucao_nova": false,
+    "configuracoes_conferidas": [
+      {
+        "caso": "amontoado",
+        "politica": "Insistir",
+        "bloquear": false,
+        "n": 5000,
+        "neutralizacao": 0.9994,
+        "ic95": [
+          0.99823726209947,
+          0.9997959290391145
+        ],
+        "mediana_rodadas": 2.0,
+        "p10_rodadas": 1,
+        "p90_rodadas": 3,
+        "alguma_queda": 0.2036,
+        "algum_derrotado": 0.0034,
+        "morrendo_ao_encerrar": 0.1064,
+        "acoes_insistindo_media": 0.1468,
+        "curas_media": 0.1594,
+        "censurados": 0
+      },
+      {
+        "caso": "amontoado_desgastado",
+        "politica": "Insistir",
+        "bloquear": false,
+        "n": 5000,
+        "neutralizacao": 0.9814,
+        "ic95": [
+          0.9772686637995099,
+          0.9847921656240276
+        ],
+        "mediana_rodadas": 2.0,
+        "p10_rodadas": 2,
+        "p90_rodadas": 4,
+        "alguma_queda": 0.605,
+        "algum_derrotado": 0.244,
+        "morrendo_ao_encerrar": 0.1734,
+        "acoes_insistindo_media": 0.463,
+        "curas_media": 0.5528,
+        "censurados": 0
+      }
+    ]
+  },
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Testes e Concentração",
+      "Corpo Debilitado — Pele e repouso",
+      "Manobras, contenções, Carga e arrasto",
+      "Invocações em campo — Entrada, tarefas, queda, retorno e Carga e equipamento",
+      "Construir invocações — Doma, ficha e progressão"
+    ]
+  },
+  "limites": [
+    "Contas e consulta das regras existentes, sem nova simulação ou equilíbrio comprovado.",
+    "Talento CE1 permanece experimental; não foi promovido a regra geral."
+  ]
+}

@@ -1,6 +1,6 @@
 # Sineiro do Recolhimento
 
-**Protótipo experimental de chefe, versão 2.** Use esta seção para preparar o confronto e consultar a ficha. Os números e as capacidades próprias ainda precisam de avaliação; nível 6 não garante uma dificuldade contra qualquer grupo desse nível. A [conversão para Doma](72-sineiro-consulta-e-doma.md) deve ser apresentada antes de oferecer sua aquisição.
+**Exemplo experimental de chefe.** Use esta seção para preparar o confronto e consultar a ficha. Os números e as capacidades próprias ainda precisam de avaliação; nível 6 não garante uma dificuldade contra qualquer grupo desse nível. A [conversão para Doma](72-sineiro-consulta-e-doma.md) deve ser apresentada antes de oferecer sua aquisição.
 
 O Sineiro tenta separar uma pessoa do grupo, levá-la para o fundo do recinto e esmagar o chão ao redor dela. Para desferir esse impacto, precisa parar e mostrar a preparação. O grupo pode abandonar a área, soltar a presa ou impedir que ele conclua o movimento. Depois de bater, fica exposto aos golpes de quem permaneceu perto.
 
@@ -20,7 +20,7 @@ Maldição **de nível 6, Maestria 1**, com alma. Tamanho Grande: ocupa 3 × 3 m
 
 | Campo | Valor |
 |---|---|
-| Vida / Integridade | **108 PV / 54**. Vida escolhida para este ensaio; Integridade é metade. |
+| Vida / Integridade | **108 PV / 54**. Vida escolhida para este exemplo; Integridade é metade. |
 | Reserva própria | **0 PE**. Sua energia amaldiçoada continua perceptível; as ações abaixo não exigem reserva gastável. |
 | Defesa / Bloquear | **11 / 2d10**. Escolher antes da rolagem de ataque; não gasta Reação. |
 | Iniciativa / deslocamento | **d20 + 1 / 9 m**. |
@@ -33,7 +33,7 @@ Maldição **de nível 6, Maestria 1**, com alma. Tamanho Grande: ocupa 3 × 3 m
 
 **Pancada.** Ataque desarmado a 1,5 m, **+5**, dano **2d6 + 4 de Concussão**; crítico **4d6 + 4**. Os dados são uma exceção desta ficha de inimigo, não o dano desarmado geral de Maestria 1. Resolva cada ataque antes de iniciar o seguinte. Um ataque de oportunidade usa uma Pancada, nunca toda a Ação Atacar.
 
-**Agarrar, Empurrar ou Derrubar.** Em cada Ação Atacar, pode substituir **no máximo um** dos dois ataques por uma dessas manobras. Usa **TR Físico CD 13**, alcance e requisitos comuns da R53. Agarrar exige mão livre; Empurrar afasta 1,5 m; Derrubar aplica Derrubado. Não acrescentam dano. O alvo pode ser até uma categoria maior, mas a condução especial abaixo aceita somente uma criatura Média ou menor.
+**Agarrar, Empurrar ou Derrubar.** Em cada Ação Atacar, pode substituir **no máximo um** dos dois ataques por uma dessas manobras. Usa **TR Físico CD 13**, alcance e requisitos comuns do Livro de Regras 1.0. Agarrar exige mão livre; Empurrar afasta 1,5 m; Derrubar aplica Derrubado. Não acrescentam dano. O alvo pode ser até uma categoria maior, mas a condução especial abaixo aceita somente uma criatura Média ou menor.
 
 Quem estiver Agarrado pode gastar sua Padrão e repetir o TR Físico contra a CD original 13 para escapar. Guarda Aberta ou Inconsciente no agarrador, soltura, perda da mão ocupada ou separação além do alcance encerram o agarrão. **Derrubar o Sineiro ou causar dano não solta a presa automaticamente.** Estar Agarrado também não impede, por si, atacar, conjurar ou Bloquear.
 
@@ -69,7 +69,7 @@ A caixa pode sair enquanto alguém distrai a maldição. Não feche a porta para
 
 Para negociar, ele pode aceitar a saída dos intrusos sem a caixa; outra proposta depende de algo que consiga compreender e valorizar. Não há teste que obrigue uma concessão impossível. O confronto termina quando o objetivo for alcançado com o grupo fora, houver acordo ou a oposição for encerrada; deixar alguém para trás mantém uma consequência a resolver.
 
-## Uma rodada com escolha
+## Exemplo de rodada
 
 Considere a ordem **Rina → Sineiro → Mei → Akira**. O Sineiro substitui um ataque por Agarrar Rina; ela falha no TR. Pode usar o outro ataque como Pancada. Conduz Rina 6 m com seu Movimento e gasta a Bônus para dobrar o sino. Marca a área, sem causar ainda o impacto.
 
@@ -77,10 +77,10 @@ Considere a ordem **Rina → Sineiro → Mei → Akira**. O Sineiro substitui um
 
 Se derrubarem o chefe, a carga acaba, mas Rina continua Agarrada até resolver uma causa real de soltura. Se lhe aplicarem Guarda Aberta, acabam **tanto a preparação quanto o agarrão**. Se ninguém impedir, no próximo turno ele gasta a Padrão no impacto; depois fica exposto e solta Rina. Os personagens decidem se aproveitam a abertura para atacar, socorrer ou sair.
 
-## Ferimentos e continuidade
+## Ferimentos e derrota
 
-Integridade: **54–41**, estágio 0; **40–28**, estágio 1; **27–14**, estágio 2; **13–1**, estágio 3; **0**, derrota. As penalidades são cumulativas: perícias, depois deslocamento reduzido para **4,5 m**, depois ataques e TRs. Nada nessa progressão inventa PE para as ações corporais. Lento também reduz deslocamento e impede Bônus, portanto impede iniciar a preparação por Bônus mesmo que a criatura ainda tenha uma Padrão para converter.
+Integridade: **54–41**, estágio 0; **40–28**, estágio 1; **27–14**, estágio 2; **13–1**, estágio 3; **0**, derrota. As penalidades são cumulativas: perícias, depois deslocamento reduzido para **4,5 m**, depois ataques e TRs. Essas penalidades não passam a cobrar PE pelas ações corporais. Lento também reduz deslocamento e impede Bônus, portanto impede iniciar a preparação por Bônus mesmo que a criatura ainda tenha uma Padrão para converter.
 
-A **0 PV ou Integridade**, pare a atuação e cancele a preparação. Não resta um impacto automático após a derrota. A ficha não recebe Insistir, Socorro, recuperação de vida ou nova fase. Domar exige preservar a maldição e seguir o procedimento da seção seguinte.
+A **0 PV ou Integridade**, pare a atuação e cancele a preparação. Não resta um impacto automático após a derrota. A ficha não recebe Insistir, Socorro, recuperação de vida ou nova fase. Domar exige preservar a maldição e seguir as regras da seção seguinte.
 
-**Para avaliar o protótipo:** observar se a captura muda decisões, se o aviso é compreensível e se interromper o impacto oferece uma vitória que vale a ação gasta. A [comparação com referências de nível 6](<../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>) levou a elevar a vida de 72 para **108 PV**, com **54 de Integridade**, preservando dois ataques e 5d8. O ajuste procura dar mais tempo de atuação contra concentração de feitiços de Classe 2. Com uma arma e dois feitiços, a versão anterior já durava mais; não trate 108 como exigência para qualquer trio. A interrupção continua válida, e a preparação pode terminar sem atingir ninguém. O [ensaio guiado](73-ensaio-guiado-do-sineiro.md) acompanha dois percursos com posições, recursos e socorro. Seus resultados foram escolhidos para ensino; estes números continuam sem declaração de equilíbrio.
+**Ao testar em mesa:** observe se a captura muda decisões, se o aviso é compreensível e se interromper o impacto oferece uma vitória que vale a ação gasta. A [comparação com referências de nível 6](<../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>) levou a elevar a vida de 72 para **108 PV**, com **54 de Integridade**, preservando dois ataques e 5d8. O ajuste procura dar mais tempo de atuação contra concentração de feitiços de Classe 2. Com uma arma e dois feitiços, a versão anterior já durava mais; não trate 108 como exigência para qualquer trio. A interrupção continua válida, e a preparação pode terminar sem atingir ninguém. O [ensaio guiado](73-ensaio-guiado-do-sineiro.md) acompanha dois percursos com posições, recursos e socorro. Seus resultados foram escolhidos para ensinar as regras. Ainda é preciso testar o equilíbrio da ficha em mesa.

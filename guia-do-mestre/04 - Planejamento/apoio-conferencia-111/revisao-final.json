@@ -1,0 +1,59 @@
+{
+  "registro": 111,
+  "tipo": "Inspeção visual de prova estática de navegação, não do PDF final do livro.",
+  "pdf_intermediario": "04 - Planejamento/apoio-conferencia-111/prova-estatica.pdf",
+  "pdf_sha256": "25c9386b444b2f41c577ef365c960cf9a034430e2e7b8a0747d74a16b0b3d343",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-1.png",
+      "sha256": "f862c6caafb067abb5824bd1fb25a2a264cb8912e66952d7df040c6e9dd2b632",
+      "inspecionada": true,
+      "observacao": "Abertura, navegação, explicação dos caminhos e primeiro grupo legíveis."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-2.png",
+      "sha256": "2e40ac1d9e694613e5a4d3ea7ff962130e63eadc6afa44aa1289ebc0f983d570",
+      "inspecionada": true,
+      "observacao": "Casos de confrontos e personagens; consulta vigente de Reserva e aviso de Arata visíveis."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-3.png",
+      "sha256": "20a27ed26e7f5bae065f4b9ad7591512f273c402423f9cd560fdd99f1a79726f",
+      "inspecionada": true,
+      "observacao": "Objetos, recompensas e Pactos com títulos e links legíveis."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-4.png",
+      "sha256": "97e1182e9f449bfc4b6f998a1402b5c4ca77ecb0acbfa08ce24937a036960941",
+      "inspecionada": true,
+      "observacao": "Duas últimas entradas de Pactos legíveis; página de continuação residual desta prova estática."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-5.png",
+      "sha256": "b9978f8111a53c75cc47dc5986756058302bcfe6b0656c77c6657126d027c653",
+      "inspecionada": true,
+      "observacao": "Guia de escolha e tabelas legíveis, sem corte."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-6.png",
+      "sha256": "e5c0581231c8029e7ceeaf66769b6c80afa40212bb8f024344d6b009c0f56b47",
+      "inspecionada": true,
+      "observacao": "Continuação de formulários, exemplos e novos caminhos de capítulos legíveis."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-conferencia-111/visual/p-7.png",
+      "sha256": "3556cfd927021110a394f213bc635bd5aa329aae1ccea26c5221f9d434865ccf",
+      "inspecionada": true,
+      "observacao": "Últimos exemplos e delimitação experimental legíveis; espaço final da prova intermediária."
+    }
+  ],
+  "navegador_interativo": "Não testado: abertura file bloqueada; nenhuma tentativa de contorno.",
+  "limite": "Não substitui revisão visual integral da etapa 7. PDFs entregues e corpo imprimível das folhas preservados."
+}

@@ -1,0 +1,831 @@
+{
+  "registro": 106,
+  "pdf_sha256": "a87f7ec4e2c9551a98d5d09dcfc7aa059b0363e7c1373b09a39878d3d7244acb",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 579
+    },
+    {
+      "pagina": 2,
+      "palavras": 658
+    },
+    {
+      "pagina": 3,
+      "palavras": 605
+    },
+    {
+      "pagina": 4,
+      "palavras": 675
+    },
+    {
+      "pagina": 5,
+      "palavras": 712
+    },
+    {
+      "pagina": 6,
+      "palavras": 626
+    },
+    {
+      "pagina": 7,
+      "palavras": 334
+    }
+  ],
+  "links_locais_conferidos": 103,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#61-objetivos-e-adversarios"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#62-preparar-a-ficha"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#63-habilidades-e-recursos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#64-escolher-os-numeros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#65-o-grupo-e-o-lugar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#66-chefes-e-grandes-confrontos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#67-perigos-do-ambiente"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#68-antes-e-depois-do-encontro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/piloto-comentado.html#x002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s075"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s063"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s060"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s074"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s100"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s076"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s066"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s065"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s071"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s078"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/folhas-para-a-mesa.html#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "capitulo-6.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#geral--aparar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../75-ren-e-sora-atacante-e-apoio.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../63-carregador-consulta-e-doma.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../60-montar-habilidades-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../74-regua-inicial-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../100-comparar-inimigos-em-outras-faixas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../76-confronto-de-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../77-ficha-preenchida-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../66-o-carregador-e-a-saida-que-fecha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../65-comparar-confronto-e-pressao-ambiental.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../71-sineiro-do-recolhimento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../73-ensaio-guiado-do-sineiro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../68-ficha-e-comparacao-de-chefes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../78-preparar-perigos-ambientais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "consultas/A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "apoio-inimigos-106/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/106-inimigos-perigos-e-consultas.md",
+      "destino": "apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/106-inimigos-perigos-e-consultas.md"
+    }
+  ],
+  "palavras_html_conferidas": 4060,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 9,
+  "linhas_numericas_preservadas": [
+    {
+      "fonte": [
+        "Vida central / Integridade",
+        "24 / 12",
+        "72 / 36"
+      ],
+      "capitulo": [
+        "Vida central / Integridade",
+        "24 / 12",
+        "72 / 36"
+      ]
+    },
+    {
+      "fonte": [
+        "Vida menor / Integridade",
+        "16 / 8",
+        "48 / 24"
+      ],
+      "capitulo": [
+        "Vida menor / Integridade",
+        "16 / 8",
+        "48 / 24"
+      ]
+    },
+    {
+      "fonte": [
+        "Vida maior / Integridade",
+        "32 / 16",
+        "108 / 54"
+      ],
+      "capitulo": [
+        "Vida maior / Integridade",
+        "32 / 16",
+        "108 / 54"
+      ]
+    },
+    {
+      "fonte": [
+        "Ataque e CD de referência",
+        "+4 e CD 12",
+        "+5 e CD 13"
+      ],
+      "capitulo": [
+        "Ataque / CD de referência",
+        "+4 / 12",
+        "+5 / 13"
+      ]
+    },
+    {
+      "fonte": [
+        "Defesa central para comparar",
+        "13, com componentes válidos.",
+        "13, com componentes válidos."
+      ],
+      "capitulo": [
+        "Defesa central",
+        "13",
+        "13"
+      ]
+    },
+    {
+      "fonte": [
+        "Defesa menor ou maior para comparar",
+        "11 ou 15.",
+        "11 ou 15."
+      ],
+      "capitulo": [
+        "Outras Defesas para comparar",
+        "11 ou 15",
+        "11 ou 15"
+      ]
+    },
+    {
+      "fonte": [
+        "Pancada do Carregador, nível 2",
+        "+4",
+        "1d4 + 3 / 2d4 + 3"
+      ],
+      "capitulo": [
+        "Carregador, nível 2",
+        "+4",
+        "1d4 + 3",
+        "2d4 + 3"
+      ]
+    },
+    {
+      "fonte": [
+        "Alternativa ofensiva de nível 2, proposta",
+        "+4",
+        "1d8 + 3 / 2d8 + 3"
+      ],
+      "capitulo": [
+        "Alternativa ofensiva, nível 2",
+        "+4",
+        "1d8 + 3",
+        "2d8 + 3"
+      ]
+    },
+    {
+      "fonte": [
+        "Pancada do Sineiro, nível 6",
+        "+5",
+        "2d6 + 4 / 4d6 + 4"
+      ],
+      "capitulo": [
+        "Sineiro, nível 6",
+        "+5",
+        "2d6 + 4",
+        "4d6 + 4"
+      ]
+    }
+  ],
+  "fontes_antigas_preservadas": 104,
+  "fontes_novas_anteriores_preservadas": 11,
+  "fontes_relacionadas_ao_capitulo": [
+    {
+      "id": "s018",
+      "fonte": "06 - Redacao do Guia/18-preparar-antagonistas.md",
+      "sha256": "84d7a0c75207656b3ee1281ace88f4a5b3f7805bf613ea692a9061a54107cb02",
+      "destino_principal": "N05.5",
+      "usos_complementares": [
+        "N06.1"
+      ]
+    },
+    {
+      "id": "s056",
+      "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+      "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+      "destino_principal": "N06.1",
+      "usos_complementares": [
+        "N06.2",
+        "N06.5",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s059",
+      "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+      "sha256": "580e3ee7b0e0c857a96eee2dfab42ffcd2b1f6f22e5d0da934525dc414441f47",
+      "destino_principal": "N06.3",
+      "usos_complementares": [
+        "B2"
+      ]
+    },
+    {
+      "id": "s060",
+      "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+      "sha256": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d",
+      "destino_principal": "N06.2",
+      "usos_complementares": [
+        "N06.3",
+        "B2"
+      ]
+    },
+    {
+      "id": "s074",
+      "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+      "sha256": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+      "destino_principal": "N06.4",
+      "usos_complementares": [
+        "B2"
+      ]
+    },
+    {
+      "id": "s100",
+      "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+      "sha256": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.4"
+      ]
+    },
+    {
+      "id": "s067",
+      "fonte": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+      "sha256": "a209c7602234bc304ba1bb5165eba40b835f89b8ebeca1fc1f3845cd56dd9813",
+      "destino_principal": "N06.6",
+      "usos_complementares": [
+        "B2"
+      ]
+    },
+    {
+      "id": "s078",
+      "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "sha256": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+      "destino_principal": "N06.7",
+      "usos_complementares": [
+        "B2"
+      ]
+    },
+    {
+      "id": "s057",
+      "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s062",
+      "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ]
+    },
+    {
+      "id": "s063",
+      "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "sha256": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.2",
+        "N09.4"
+      ]
+    },
+    {
+      "id": "s064",
+      "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "sha256": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7"
+      ]
+    },
+    {
+      "id": "s065",
+      "fonte": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb",
+      "destino_principal": "N06.5",
+      "usos_complementares": [
+        "B2"
+      ]
+    },
+    {
+      "id": "s066",
+      "fonte": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ]
+    },
+    {
+      "id": "s071",
+      "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "sha256": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.6"
+      ]
+    },
+    {
+      "id": "s073",
+      "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "sha256": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.6",
+        "N04.7"
+      ]
+    },
+    {
+      "id": "s075",
+      "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.2",
+        "N06.3"
+      ]
+    },
+    {
+      "id": "s076",
+      "fonte": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "sha256": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ]
+    },
+    {
+      "id": "s101",
+      "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "sha256": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.3",
+        "N06.5"
+      ]
+    },
+    {
+      "id": "s102",
+      "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s079",
+      "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7",
+        "N10.3"
+      ]
+    },
+    {
+      "id": "s103",
+      "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7",
+        "N08.1"
+      ]
+    },
+    {
+      "id": "s058",
+      "fonte": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "sha256": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+      "destino_principal": "A5.10",
+      "usos_complementares": [
+        "N06.2",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s077",
+      "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "sha256": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "A5.10",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s061",
+      "fonte": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+      "destino_principal": "A5.11",
+      "usos_complementares": [
+        "N06.2",
+        "N06.8"
+      ]
+    },
+    {
+      "id": "s068",
+      "fonte": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "sha256": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207",
+      "destino_principal": "A5.12",
+      "usos_complementares": [
+        "N06.6",
+        "B2"
+      ]
+    },
+    {
+      "id": "x002",
+      "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+      "sha256": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+      "destino_principal": "N01.5",
+      "usos_complementares": [
+        "N06.2",
+        "N09.4"
+      ]
+    }
+  ],
+  "pdf_integrado_preservado": true,
+  "limite": "Conferência de texto, contas herdadas e arquivos; não é nova simulação integral, teste de aprendizagem ou validação de equilíbrio."
+}

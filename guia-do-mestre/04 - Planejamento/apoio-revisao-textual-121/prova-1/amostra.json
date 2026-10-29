@@ -1,0 +1,108 @@
+{
+  "registro": 121,
+  "fontes": [
+    {
+      "id": "passarela",
+      "fonte_id": "s064",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+      "fonte_original": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "titulo": "A passarela e o guincho",
+      "sha256": "7299bf60f21f647db29ea2f1fea8a8d321fb169d355c8c7264a2174e713f2def",
+      "sha256_original": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247"
+    },
+    {
+      "id": "combinar",
+      "fonte_id": "s065",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "fonte_original": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "titulo": "Inimigos e perigos juntos",
+      "sha256": "0891a2972cd609dfcb801e330384605fbd022b0e12f1dae9871305050605a135",
+      "sha256_original": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb"
+    },
+    {
+      "id": "portao",
+      "fonte_id": "s066",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "fonte_original": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "titulo": "O portão do depósito",
+      "sha256": "95b1b2efead833532ffe2dca73c4a5f7144832ab1527007e9b4024396060518e",
+      "sha256_original": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909"
+    },
+    {
+      "id": "sineiro",
+      "fonte_id": "s071",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+      "fonte_original": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "titulo": "Sineiro do Recolhimento",
+      "sha256": "340836330cdf9648dcf3f7cf2928d89c8193168d4e34bd29098aa209ce77c533",
+      "sha256_original": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html",
+  "html_sha256": "2b38363c9f72b5da6257b8eff1311ec9e5b6e7793e2628883735a199150ac471",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-121/output/pdf/Ciclo-Maldito-Terreno-Saida-e-Sineiro-Revisao-Textual.pdf",
+  "pdf_sha256": "c270c9914b351442c957d29a4ec4520db7781897a2d1b83fa27b208114430686",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 569
+    },
+    {
+      "pagina": 2,
+      "palavras": 445
+    },
+    {
+      "pagina": 3,
+      "palavras": 660
+    },
+    {
+      "pagina": 4,
+      "palavras": 778
+    },
+    {
+      "pagina": 5,
+      "palavras": 599
+    },
+    {
+      "pagina": 6,
+      "palavras": 547
+    },
+    {
+      "pagina": 7,
+      "palavras": 716
+    },
+    {
+      "pagina": 8,
+      "palavras": 438
+    },
+    {
+      "pagina": 9,
+      "palavras": 458
+    },
+    {
+      "pagina": 10,
+      "palavras": 654
+    },
+    {
+      "pagina": 11,
+      "palavras": 791
+    },
+    {
+      "pagina": 12,
+      "palavras": 483
+    },
+    {
+      "pagina": 13,
+      "palavras": 533
+    },
+    {
+      "pagina": 14,
+      "palavras": 764
+    },
+    {
+      "pagina": 15,
+      "palavras": 416
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

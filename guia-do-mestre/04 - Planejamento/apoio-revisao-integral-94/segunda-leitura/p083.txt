@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Regras e escolhas do mestre
+Regra do Livro de Regras 1.0 é uma regra
+publicada: ações, fórmulas, requisitos e limites
+continuam valendo. Orientação do Guia ensina a
+preparar e conduzir; por exemplo, comparar uma
+alteração de cada vez. Proposta experimental é um
+número ou uma habilidade que o Guia está
+desenvolvendo. Escolha desta missão define mapa,
+prioridades ou desfechos dentro das permissões
+existentes.
+Essas origens podem aparecer na mesma ficha. Em
+Ren e Sora, a conta de Defesa e as peças de seus
+feitiços vêm do Livro de Regras 1.0; as reservas
+inimigas de 8 e 12 PE são propostas do exemplo;
+proteger o estojo é uma intenção local. Montar o
+feitiço corretamente não aprova automaticamente o
+conjunto da criatura. Ao adaptar uma ficha, anote o
+que mudou e confira o resultado em jogo antes de
+usar os novos números como padrão.
+O papel do inimigo
+Comece pelo que o grupo precisa resolver e pelo
+que a ameaça faz para dificultar isso. Um inimigo
+pode guardar uma passagem, perseguir uma
+testemunha, proteger o próprio abrigo ou tentar
+concluir uma tarefa. Essa intenção orienta suas
+escolhas quando o grupo negocia, contorna o lugar
+ou recua.
+Exemplo: o Amontoado protege uma pilha de
+caixas no anexo de um centro cultural. A equipe
+precisa conferir os funcionários e avaliar o risco. Se
+todos estiverem fora, manter o anexo fechado e
+encaminhar a intervenção é um resultado possível.
+A missão não exige que alguém entre
+imediatamente para lutar.
+Anote também o que o inimigo sabe. Ele reage a
+pessoas, sons, ataques e descobertas que consegue
+perceber. Um comportamento bem definido
+permite decidir sem dar à criatura acesso às
+conversas privadas dos jogadores ou à localização
+de quem ela não encontrou.
+O papel no encontro é o que a criatura costuma
+fazer: vigiar à distância, pressionar quem se
+aproxima, impedir uma passagem ou sustentar um
+aliado, por exemplo. Esse nome ajuda a preparar
+seu comportamento. Um papel descrito no preparo
+não concede bônus, ataques ou capacidades por si.
+Comece por uma ficha
+Procure uma ficha compatível com a versão das
+regras, com o nível pretendido e com a função
+desejada. Abra sua descrição completa. Vida,
+Defesa e dano não bastam para conduzir uma
+criatura: você também precisa saber como ela
+percebe, se move, usa recursos e deixa de lutar.
+Confira os seguintes campos antes de escolher:
+Campo
+O que conferir
+Corpo e sentidos
+Tamanho, membros utilizáveis, deslocamentos, alma, visão, audição e
+formas de comunicação. A aparência precisa corresponder às possibilidades
+da ficha.
+Reservas e defesas
+Vida, Integridade, pontos de energia (PE), Defesa, Bloquear e proteções
+próprias. Integridade é a reserva afetada pelo dano de Alma.
+Testes
+Atributos, Maestria, perícias e Testes de Resistência (TRs), com os treinos
+identificados.
+Capacidades
+Ação, alvo, alcance, acerto ou TR, dano, custo, duração e limites de cada
+aplicação.
+Continuidade
+Como a criatura é derrotada, o que pode acontecer com ela e quais regras
+permitem sua aquisição ou retorno.
+Confira separadamente cada reserva. Um inimigo com alma normalmente tem Integridade igual à metade
+da vida máxima, arredondada para baixo, com mínimo 1 quando a vida máxima for positiva, salvo regra
+própria. Os personagens jogadores usam outra fórmula. Dano de Alma pode chegar à Integridade mesmo
+quando a vida ainda permite outros golpes; por isso, uma estimativa feita apenas com vida fica incompleta.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+83

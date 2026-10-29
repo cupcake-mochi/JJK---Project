@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Caso do Livro de Regras 1.0
+Diferença para conferir
+Corpo Amaldiçoado, Existência
+Artificial
+Qualquer local conta como ambiente propício para seus próprios
+descansos. Ainda precisa de pausa segura no curto e de missão encerrada
+com oportunidade de repouso no longo. Não adquire Exaustão. Energia
+Reversa e suas curas derivadas não recuperam sua vida
+Restrição corporal e cuidados
+O ambiente propício depende da estrutura, assistência e cuidados da
+condição escolhida, registrados na ficha
+Corpo Exaurido
+Curas recuperam metade da quantidade normal, para baixo, mínimo 1
+quando positiva. O longo propício soma 25% da vida máxima ao saldo,
+até o máximo, sem dividir novamente. Fora de ambiente propício, o
+longo não recupera vida. Os demais recursos seguem suas regras
+Recuperação Abundante, se
+escolhida
+O curto em ambiente propício para a Restrição recupera 40% dos PE
+máximos, para baixo, mínimo 1, respeitando impedimentos específicos.
+Fora desse ambiente, conserva a recuperação normal
+Esses são casos relevantes para a consulta, não uma
+lista de todas as exceções possíveis. Reparo do
+corpo, Núcleo Dependente e outras condições
+seguem suas próprias regras. Consulte Vínculos e
+mudanças (p. 173) para o cotidiano e o cuidado, e a
+entrada completa da Origem no Livro de Regras 1.0
+para conferir suas regras.
+Veja Restrição corporal: participação e cuidados (p.
+184) para preparar cada uma das três condições e
+acompanhar suas recuperações. O reparo de Ena (p.
+182) demonstra o atendimento de um Corpo
+Amaldiçoado.
+Descanso curto
+Normalmente recupera 25% dos PE máximos,
+arredondados para baixo, mínimo 1 quando a fração
+for positiva, sem ultrapassar o máximo. Vida e
+Integridade não voltam por essa pausa sozinha.
+Capacidades de cura ou reparo e saídas
+excepcionais do socorro seguem suas próprias
+regras.
+Exemplo: máximo 10 PE e saldo 1. A recuperação é
+10 × 25% = 2,5 → 2; fica com 3 PE. Se o saldo fosse 9,
+ficaria com 10, sem guardar o excedente.
+Fora de ambiente propício, a porcentagem depende
+da Exaustão. Em ambiente propício, a pausa curta
+recupera 25% em qualquer degrau, mas não remove
+Exaustão por isso.
+Exaustão e combates do dia
+Da quarta luta do dia em diante, cada luta
+acrescenta um degrau de Exaustão, até três, salvo
+exceção da ficha. Registre o total ao terminar o
+confronto. As três primeiras lutas não acrescentam
+degraus por essa regra.
+O mestre identifica o que contou como luta:
+oposição, fuga com uso de recursos ou contenção
+sob ataque podem contar. Rolar iniciativa, sozinho,
+não decide isso. Um treino ou ameaça encerrada
+sem esforço relevante normalmente não conta.
+Explique por que o esforço daquele confronto conta
+como luta, usando o que aconteceu na cena.
+Degrau
+Efeito acumulado
+PE recuperados no descanso curto fora de
+ambiente propício
+0
+Nenhum
+25% do máximo
+1
+Desvantagem em perícias e Ofícios
+15% do máximo
+2
+Deslocamento limitado a 4,5 m
+5% do máximo
+3
+Desvantagem em ataques e Testes de
+Resistência
+Nada
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+79

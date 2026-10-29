@@ -1,8 +1,8 @@
-# Ferramentas, objetos e contenção
+# Ferramentas e objetos amaldiçoados
 
-Consulte esta seção ao entregar uma ferramenta amaldiçoada ou preparar um objeto perigoso para uma missão. Ferramenta e objeto amaldiçoado têm funções distintas na R53: a primeira serve como equipamento; o segundo pode continuar produzindo perigo enquanto está guardado.
+Consulte esta seção ao entregar uma ferramenta amaldiçoada ou preparar um objeto perigoso para uma missão. Ferramenta e objeto amaldiçoado têm funções distintas no Livro de Regras 1.0: a primeira serve como equipamento; o segundo pode continuar produzindo perigo enquanto está guardado.
 
-## Entregue uma ferramenta utilizável
+## Apresente a ferramenta
 
 Uma ferramenta parte de um item comum e pode carregar um efeito especial. O grau expressa a importância do efeito. Não acrescenta automaticamente ataque, dano, Defesa ou outra propriedade.
 
@@ -12,7 +12,7 @@ O nível exigido pertence ao efeito: ferramentas de grau 2 exigem nível 7; grau
 
 O mestre decide quando o item aparece, pode ser emprestado ou está à venda. Cumprir o nível mínimo permite usar o efeito, mas não garante aquisição. Um preço comum do catálogo também não inclui uma versão amaldiçoada.
 
-## Confira como a peça é usada
+## Usar a ferramenta
 
 Armas e escudos respeitam as mãos exigidas. Há até dois itens vestidos com efeitos especiais, sendo no máximo uma vestimenta: roupa, Traje ou Revestimento. O outro pode ser um acessório; sem vestimenta com efeito, podem ser dois acessórios.
 
@@ -30,7 +30,7 @@ Prepare informações que possam ser descobertas por meios concretos. A origem, 
 
 Separe o que já é evidente do que precisa ser investigado. Uma testemunha pode saber que a arma voltou à mão de alguém sem conhecer todas as condições do retorno. Um registro do fabricante pode esclarecer a mão livre e os obstáculos. Não transforme uma hipótese da personagem em regra verdadeira do objeto.
 
-Use testes quando houver incerteza e consequência. Se o responsável conhece a peça e entrega sua ficha, não imponha um descanso de identificação: a R53 não exige esse procedimento para toda ferramenta.
+Use testes quando houver incerteza e consequência. Se o responsável conhece a peça e entrega sua ficha, não imponha um descanso de identificação: o Livro de Regras 1.0 não exige isso para toda ferramenta.
 
 Quando houver risco de experimentar, apresente o que a personagem pode reconhecer antes da decisão. A descrição pode sinalizar energia instável ou uma contenção danificada sem revelar todos os detalhes. O risco vem da ficha preparada; não deve ser inventado depois de descobrir como o jogador testou o item.
 
@@ -48,7 +48,7 @@ O reparo também distingue material e poder. Reconstituir uma lâmina não recup
 
 [Anel de Testemunho](96-fabricar-e-identificar-o-anel.md) reúne ficha experimental, comparação de grau, pistas de identificação e processo de fabricação completo. A marca da ferramenta registra uma abertura; não contém objetos amaldiçoados.
 
-## Desgaste acompanha o objeto
+## Acompanhar o Desgaste
 
 Desgaste é uma propriedade registrada na ficha que permite antecipar o uso de um efeito antes do nível mínimo. O portador não a acrescenta por iniciativa própria. Grau 2 permite duas missões de uso; grau 1 ou especial, três. No grau 3, uma missão torna o efeito temporário, pois não há nível mínimo a dispensar. Grau 4 não recebe Desgaste.
 
@@ -58,7 +58,7 @@ Marque uma missão no primeiro uso do efeito dentro dela. O efeito permanece dis
 
 Defina antes da entrega se a peça vira item comum ou se quebra ao esgotar. Não faça sua perda depender de uma regra anunciada apenas no último uso. Sessões adicionais dentro da mesma missão não consomem novas missões de Desgaste.
 
-## Prepare o objeto da missão
+## Preparar um objeto perigoso
 
 Objetos amaldiçoados possuem efeitos próprios. Eles não recebem automaticamente o catálogo de ferramentas. Para uma missão de guarda, escolta ou contenção, prepare:
 
@@ -71,7 +71,7 @@ Objetos amaldiçoados possuem efeitos próprios. Eles não recebem automaticamen
 | Entrega | Pessoa autorizada a receber e local adequado. |
 | Intervenção | O que examinar, remover ou destruir realmente permite e exige. |
 
-Um objeto sem selo atrai maldições para suas proximidades, mas a R53 não fornece distância ou frequência universal de encontros. Defina a situação com base no objeto, lugar e maldições presentes. Uma caixa comum não substitui o selo.
+Um objeto sem selo atrai maldições para suas proximidades, mas o Livro de Regras 1.0 não fornece distância ou frequência universal de encontros. Defina a situação com base no objeto, lugar e maldições presentes. Uma caixa comum não substitui o selo.
 
 Um objeto preparado como amuleto pode usar um selo para afastar maldições. A proteção enfraquece; seus limites precisam ser definidos. Ela não concede imunidade a ataques nem proíbe automaticamente qualquer aproximação.
 
@@ -79,6 +79,6 @@ Um objeto preparado como amuleto pode usar um selo para afastar maldições. A p
 
 Ingerir um objeto desconhecido não concede automaticamente poderes, nova Origem ou controle da presença contida. Se essa possibilidade estiver no cenário, prepare suas consequências e comunique os riscos acessíveis à personagem. Uma alteração da ficha deve respeitar o acordo e as regras pertinentes; a ingestão não substitui esse processo.
 
-Destruir o recipiente e destruir o objeto também são coisas distintas. Condições próprias de destruição precisam constar da preparação. Não use o procedimento de quebrar um item comum como solução automática para qualquer objeto amaldiçoado.
+Destruir o recipiente e destruir o objeto também são coisas distintas. Condições próprias de destruição precisam constar da preparação. Não use as regras de quebrar um item comum como solução automática para qualquer objeto amaldiçoado.
 
 A [Pastilha do Último Aviso](98-objeto-selado-e-risco-de-ingestao.md) é uma preparação experimental completa: alcance e prazo locais, aviso de risco, renovação, ingestão e neutralização. Suas consequências e formas de encerramento são conhecidas antes da escolha.

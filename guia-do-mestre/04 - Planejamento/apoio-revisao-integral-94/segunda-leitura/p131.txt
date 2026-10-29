@@ -1,0 +1,74 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+SAÍDA CURTA E CORREDOR DE SERVIÇO
+A · PÁTIO
+G · PORTÃO
+C · TRABALHO / CAIXA
+3 m
+3 m
+6 m
+6 m
+6 m pelo serviço
+Q
+P · PARADA
+PAREDE ENTRE AS ROTAS
+De C ao recuo: direta 18 m (6 m difíceis) ou lateral 24 m regulares.
+Esquema sem escala. Corredores novos com 3 m de largura livre.
+Este é um esquema de percursos, não uma planta em escala. Paredes sólidas separam o atalho do corredor
+de serviço: não existe diagonal atravessando a parede. Todos os corredores novos têm 3 m de largura livre,
+teto, piso firme e iluminação. Marque a faixa de segurança do portão, com 1,5 m de comprimento ao longo
+do caminho e os 3 m de largura do vão. Os 6 m do atalho já incluem essa faixa; não acrescente outro trecho à
+distância.
+Percurso
+Andar
+Arrastar pelo piso
+C → A pelo portão aberto
+6 m
+12 m
+C → P → Q → A pelo serviço
+18 m
+36 m
+A → Q → P, para operar a parada
+12 m
+Não é um percurso de resgate obrigatório.
+C → P, para operar a parada
+6 m
+12 m, se houver transporte permitido.
+As paredes limitam visão e acesso. De C é possível
+ver P pelo trecho reto de 6 m; do pátio, a parede
+impede enxergar P através do interior. Quem está
+em A vê a placa com o percurso e pode seguir pelo
+serviço. A ficha do alvo e a Forma de um feitiço
+continuam determinando se uma aplicação pode
+alcançá-lo; distância de caminhada não é
+automaticamente alcance de uma conjuração
+através de parede.
+O pátio A é a saída para os dois percursos. A
+preferência do Carregador por não perseguir além
+da entrada passa a usar esse mesmo limite nas duas
+rotas. Ele pode circular pelo serviço enquanto
+estiver dentro, com seu movimento normal. Não
+atravessa uma porta fechada, não conhece posições
+ocultas nem aciona o mecanismo com uma ação
+gratuita.
+Apresente a situação
+Na versão ativa, o temporizador defeituoso acaba
+de iniciar um ciclo de fechamento quando o grupo
+chega a A. Apresente isso antes de qualquer
+avanço: o aviso sonoro, a contagem visível, o
+desenho do serviço e a parada identificada. O
+Carregador aponta para o pátio e para a caixa, como
+no encontro original.
+Explique: “O portão pode fechar depois de três
+rodadas completas. A passagem de serviço continua
+aberta. O comando em P interrompe o motor. O
+sensor mantém o vão aberto enquanto sua faixa está
+ocupada.” Role iniciativa; todos começam nas
+posições indicadas e recebem seus turnos antes do
+primeiro avanço ambiental. Esta abertura é uma
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+131

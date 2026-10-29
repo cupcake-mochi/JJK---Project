@@ -1,0 +1,57 @@
+import sys;sys.path.insert(0,'/tmp');from revisar_guia94 import *
+headings(56,[('# Preparar inimigos e avaliar encontros','# Criar inimigos e preparar encontros'),('## Um percurso de preparo','## Os passos da preparação'),('## Reconheça a origem de cada escolha','## Regras e escolhas do mestre'),('## O trabalho da ameaça','## O papel do inimigo'),('## Escolha uma ficha de partida','## Comece por uma ficha'),('## Confira o grupo que vai entrar','## Conheça as fichas do grupo'),('## Compare ações, alcance e recursos','## O que cada lado consegue fazer'),('## Observe mais que o dano médio','## Acertos, dano e controle'),('## Confira participação e informação','## O que os jogadores podem fazer'),('## Separe queda, participação e encerramento','## Vida a zero e fim do combate'),('## Prepare sinais, respostas e saídas','## Mostre o perigo e prepare saídas'),('## Feche o preparo e registre o resultado','## Antes e depois do encontro')])
+edit(source(56),[
+('Esta seção reúne o procedimento principal.','Siga os passos abaixo para começar.'),
+('**Estado da pré-1.0:** o procedimento usa o Livro de Regras 1.0, as fichas experimentais do piloto e os exemplos posteriores.','**Os inimigos deste capítulo são exemplos em teste.** Eles usam as regras do Livro de Regras 1.0, mas seus números ainda precisam ser avaliados em mesas diferentes.'),
+('oferece a primeira régua de rascunho nos níveis 2 e 6. A escala geral continua em desenvolvimento; os valores propostos não estabelecem dificuldade nem o padrão de todo inimigo daquele nível.','oferece valores iniciais para os níveis 2 e 6. Eles ajudam a montar uma primeira ficha, mas não garantem a dificuldade do encontro nem servem a todo inimigo desses níveis.'),
+('estado real dos participantes','recursos atuais dos personagens'),
+('origem dos parâmetros e função de cada corpo','base dos números e papel de cada criatura'),
+('Procedimento, limite útil, custo, duração e respostas','Efeito, limite de uso, custo, duração e formas de reagir'),
+('Conferir a composição','Conferir o encontro'),
+('ações disputadas','ações disponíveis'),
+('Ações disputadas','Ações disponíveis'),
+('sequências adversas e continuidade','o que pode dar errado e como continuar'),
+('Registrar a aplicação','Registrar o resultado'),
+('estados finais, objetivos e revisão necessária','recursos restantes, objetivos alcançados e o que precisa melhorar'),
+('é um procedimento publicado','é uma regra publicada'),
+('um parâmetro ou uma capacidade','um número ou uma habilidade'),
+('**Escolha desta ocorrência**','**Escolha desta missão**'),
+('Registre o alcance de qualquer decisão autoral, sem tratar autorização para continuar escrevendo como aprovação dos números.','Ao adaptar uma ficha, anote o que mudou e confira o resultado em jogo antes de usar os novos números como padrão.'),
+('O **papel no encontro** é a tarefa que a criatura tende a cumprir','O **papel no encontro** é o que a criatura costuma fazer'),
+('a mesma anatomia funcional','os mesmos membros e formas de usá-los'),
+('o [procedimento de avaliação de capacidades]','as [orientações para avaliar técnicas e criações]'),
+('Confira participação e informação','O que os jogadores podem fazer'),
+('duas possíveis ocorrências de dano','duas chances de causar dano'),
+('produz outra dinâmica','muda o ritmo da luta'),
+('essa pressão diminui','o grupo passa a receber menos ataques'),
+('escolha o mecanismo pela função que precisa cumprir','escolha o limite de uso conforme o efeito que deseja na luta'),
+('sequência desfavorável plausível','sequência em que as coisas deem errado para o grupo'),
+('procedimentos próprios','regras próprias'),
+('registre aplicação, duração e saída','anote como começa, quanto dura e como termina'),
+('participação ativa termina','participação ativa termina'),
+('use [Quedas','use [Quedas')
+])
+headings(59,[('# Recursos e ritmo dos inimigos','# PE, recarga e limites de uso'),('## Comece pela capacidade','## Primeiro, escolha a habilidade'),('## Quando gastar tudo cedo é a resposta','## Por que o inimigo gastaria tudo de uma vez'),('## Escolha o limite pelo resultado','## Qual limite de uso escolher'),('## Uma oportunidade de resposta','## Dê tempo para o grupo reagir'),('## Quando uma reserva produz escolha','## Atacar ou se proteger'),('## Informação de energia e pagamento','## Perceber energia e pagar custos'),('## Faça a conferência da rotina','## Confira como o inimigo luta'),('## Continuar a construção','## Complete as habilidades'),('## Aplicação em outra faixa','## Outro exemplo: Haru e Tessa')])
+edit(source(59),[
+('Os procedimentos completos de ensaio estão','As comparações completas estão'),
+('Eles dizem quanto ainda pode ser pago.','A reserva mostra quanto o inimigo ainda pode gastar.'),
+('Cada um deve produzir um resultado que compense acompanhá-lo.','Use apenas os limites que fazem diferença na luta e que valem o trabalho de acompanhar.'),
+('aumentar ou diminuir os PE','aumentar ou diminuir os PE'),
+('Uma quantidade finita de tentativas','Um número limitado de tentativas'),
+('Um efeito que componha a rotina','Um efeito que possa se repetir'),
+('O efeito precisa suportar repetição','O efeito precisa continuar adequado mesmo se for repetido'),
+('Uma disputa entre capacidades','Uma escolha entre habilidades'),
+('um mecanismo possível; não institui recarga em todos os inimigos','uma opção; nem todo inimigo precisa de recarga'),
+('mecanismo é organizar sua repetição com incerteza','limite é tornar incerto quando a habilidade poderá ser repetida'),
+('Para criar uma escolha de momento','Para dar ao inimigo um motivo para esperar'),
+('Aqui, a limitação dá ao grupo algo para observar e enfrentar.','O grupo pode perceber o preparo e escolher como reagir.'),
+('O [ensaio completo]','A [comparação completa]'),
+('com seu próprio procedimento','com regras próprias'),
+('No segundo ensaio','Em outra variante experimental'),
+('Usos compartilhados também podem produzir essa disputa','Usos compartilhados também podem criar essa escolha'),
+('montagem do feitiço','montagem do feitiço'),
+('Registre o que foi apenas calculado e o que foi observado em jogo. Os ensaios deste Guia verificam disponibilidade e estados; ainda não medem a facilidade real de conduzir essas variantes ou seu equilíbrio entre diferentes grupos.','Anote o que você calculou antes da sessão e o que aconteceu ao jogar. Os exemplos deste Guia conferem custos e ações possíveis. Ainda precisam de partidas para avaliar a facilidade de uso e a dificuldade contra grupos diferentes.'),
+('Os dois caminhos continuam experimentais como conjuntos de inimigo.','As duas fichas ainda são exemplos em teste.'),
+('outro procedimento','outras regras')
+])
+print('C05: fontes 56 e 59 revistas.')

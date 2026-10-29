@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+mostram 4, 3 e 5: 12 de dano. O Amontoado passa
+de 48 para 36 PV. A escolha de Insistir não gastou
+uma ação nem criou outra.
+O apoio gasta 3 PE e sua Padrão para curar: 3 + 5 =
+8. O total alcança o tratamento necessário. A frente
+encerra Morrendo com 8 PV e uma Sequela. O
+requisito não é subtraído da cura.
+A conjuradora usa seu Projétil por 3 PE: 10 + 4 = 14,
+acerto. Dano 6 + 3 + 5 = 14. O Amontoado passa de
+36 para 22 PV.
+Segunda rodada
+O Amontoado usa seus últimos 3 PE no Impacto
+concentrado. Ataque 11 + 4 = 15, contra Defesa 13;
+dano 4 + 4 + 4 = 12. A frente tinha 8 PV e cai
+novamente. Escolhe Insistir pela segunda vez na
+cena.
+Agora a janela começa com duas rodadas, devido à
+Sequela anterior. O tratamento necessário é 12:
+metade de 23, para cima, abaixo do teto de 15 da
+Classe 1. O máximo de referência continua 23.
+Marque o novo ponto da queda nesta iniciativa; não
+conserve o prazo da queda já encerrada.
+No turno, a frente usa outro Toque por 3 PE.
+Ataque 6 + 4 = 10, contra Defesa 11: erra. O PE e a
+ação continuam gastos. Ela tem 2 PE restantes.
+O apoio cura por 3 PE e obtém 4 + 3 = 7. Registre 7
+de tratamento acumulado. A frente permanece
+com zero de vida, ainda Insistindo; faltam 5. Essa
+cura insuficiente não devolve tempo.
+A conjuradora gasta 3 PE. Ataque 9 + 4 = 13, acerto;
+dano 4 + 3 + 4 = 11. O Amontoado passa de 22 para
+11 PV.
+Terceira rodada
+Antes de resolver a ação do Amontoado, a iniciativa
+volta ao ponto da segunda queda. Uma rodada da
+janela é consumida: restava 2, agora resta 1. O
+apoio não pode antecipar uma ação futura de
+socorro para antes desse prazo.
+Sem PE, o inimigo usa Pancada. Ataque 7 + 4 = 11,
+contra Defesa 13: erra. Não há dano nem perda
+adicional de prazo.
+A frente ainda pode agir, mas seus 2 PE não pagam
+o Toque. Ataca com a espada: 5 + 4 = 9, erro. O
+apoio gasta mais 3 PE e cura 2 + 3 = 5. Somados aos
+7 anteriores, são 12 de tratamento. A frente encerra
+Morrendo com 12 PV e uma segunda Sequela.
+A conjuradora usa seu terceiro Projétil por 3 PE.
+Ataque 11 + 4 = 15, acerto; dano 3 + 5 + 4 = 12. O
+Amontoado estava com 11 PV e chega a zero: está
+derrotado. Ele não recebe as opções de socorro de
+personagem jogador.
+O que mudaria se a Pancada tivesse acertado:
+naquele ponto, a frente estava a zero e tinha uma
+rodada de janela. Dano positivo que alcançasse sua
+vida consumiria essa última rodada e ela ficaria
+Derrotada imediatamente. Na campanha padrão,
+estando viva, os 7 de tratamento acumulados seriam
+convertidos em vida; a cura posterior de 5 a levaria
+a 12 PV. Ela continuaria Derrotada: essa cura
+comum não devolveria sua participação naquela
+cena. Não haveria outra janela ao desabar.
+O roteiro não precisa terminar com uma queda para
+ensinar as regras. Se as rolagens ou decisões da
+mesa evitarem esse risco, mantenha o resultado. O
+exemplo serve para consulta quando a situação
+ocorrer.
+Resolver a ameaça e fechar a
+missão
+Depois da derrota, resolva o destino da maldição
+conforme o que a equipe tentou fazer. Se o grupo
+pretendia exorcizar e a regra usada permitir esse
+desfecho, descreva a dissolução do corpo de papel e
+o fim das batidas. Se pretendia adquirir uma
+maldição domada, confira os limites de destruição e
+a conversão previamente conhecida na base de
+inimigos, depois faça a submissão do Livro de
+Regras 1.0. Chegar a zero não torna a maldição
+automaticamente domada. Não acrescente outro
+inimigo para prolongar a cena depois de o objetivo
+ter sido alcançado.
+Antes de liberar o anexo, o grupo verifica se há
+pessoas, caixas instáveis ou outro problema
+concreto remanescente. Objetos quebrados não se
+reparam com a derrota da criatura. Ana pode
+recolher os relatos e organizar o retorno dos
+funcionários quando a situação permitir.
+No roteiro numérico, a frente termina com 12/23
+PV, 2/8 PE e duas Sequelas; o apoio, 17/17 PV e
+1/10 PE; a conjuradora, 14/14 PV e 3/12 PE. Não
+houve dano à Integridade. Depois da segunda
+queda, verifique com a jogadora a Cicatriz prevista
+pelo Livro de Regras 1.0 e a escolha
+correspondente; não imponha uma penalidade nova
+pela descrição do ferimento.
+Concluir a luta não recupera recursos
+automaticamente. Confirme se houve uma pausa
+segura ou se a missão terminou e o grupo pôde
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+345

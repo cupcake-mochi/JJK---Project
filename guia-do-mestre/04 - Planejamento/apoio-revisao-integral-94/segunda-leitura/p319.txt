@@ -1,0 +1,61 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+A.13 · Registro de aquisição
+e estado de entidade
+Use uma folha por entidade, junto da ficha
+completa de Construir invocações, no Livro de
+Regras 1.0. Esta folha acompanha aquisição, projeto
+e continuidade. Não substitui atributos, habilidades
+e demais campos da ficha.
+Identificação e aquisição
+Campo
+Registro
+Nome e definição
+O que é e qual função cumpre.
+Origem e corpo
+Técnica, criação ou domada; talismã, corpo e outras características
+pertinentes.
+Invocador
+Personagem responsável; nível, Classe e rota.
+Forma de aquisição
+Espaço, lista de ritual, criação ou doma.
+Nível e Classe da entidade
+Valores atuais e limite de evolução.
+Requisito usado
+Espaço ocupado, entrada da lista, projeto ou ficha resultante da
+doma.
+Ficha conferida
+Onde consultar a montagem e quem a conferiu.
+Ofício compatível
+Ofício registrado na criação, quando exigido; materiais do corpo ou
+talismã.
+Comunicação
+Como recebe ordens e transmite informações; sentidos e limites.
+Controle e transporte
+Teto de ativos, corpos mantidos, Volume e talentos de carga
+aplicáveis.
+Projeto de criação, reconstrução ou transferência
+Campo
+Registro
+Operação
+Criar, reconstruir para qual Classe ou transferir para quem.
+Permissão e requisitos
+Oportunidade, responsáveis habilitados e consentimento na
+transferência ou morte do dono anterior.
+Trabalho
+Horas combinadas, partes concluídas e interrupções admitidas.
+Espera
+O que precisa acontecer além da dedicação.
+Materiais e ferramentas
+O que está disponível, consumido ou ainda necessário.
+Responsável e ajuda
+Treino, atributo, Maestria e contribuição; ajudante treinado dedica o
+mesmo tempo.
+Teste
+Classes comparadas, CD, modificadores e origem válida da vantagem.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+319

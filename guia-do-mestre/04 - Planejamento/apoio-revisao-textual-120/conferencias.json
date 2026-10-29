@@ -1,0 +1,1820 @@
+{
+  "registro": 120,
+  "pdf_sha256": "9b9e256298784b902f69030835b58dd525ce5d74dd37418db5e88cef58ef9c89",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 624
+    },
+    {
+      "pagina": 2,
+      "palavras": 643
+    },
+    {
+      "pagina": 3,
+      "palavras": 702
+    },
+    {
+      "pagina": 4,
+      "palavras": 551
+    },
+    {
+      "pagina": 5,
+      "palavras": 746
+    },
+    {
+      "pagina": 6,
+      "palavras": 512
+    },
+    {
+      "pagina": 7,
+      "palavras": 628
+    },
+    {
+      "pagina": 8,
+      "palavras": 374
+    },
+    {
+      "pagina": 9,
+      "palavras": 633
+    },
+    {
+      "pagina": 10,
+      "palavras": 550
+    },
+    {
+      "pagina": 11,
+      "palavras": 696
+    },
+    {
+      "pagina": 12,
+      "palavras": 639
+    },
+    {
+      "pagina": 13,
+      "palavras": 451
+    },
+    {
+      "pagina": 14,
+      "palavras": 572
+    },
+    {
+      "pagina": 15,
+      "palavras": 611
+    },
+    {
+      "pagina": 16,
+      "palavras": 734
+    }
+  ],
+  "casos_conferidos": [
+    {
+      "id": "s078",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s057",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "numeros_preservados": true,
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s062",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "numeros_preservados": true,
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s063",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "numeros_preservados": true,
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 14,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 424,
+  "links": [
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "22-quedas-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "22-quedas-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../64-a-passarela-e-o-guincho.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "destino": "../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "destino": "../../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "destino": "../../52-domar-o-amontoado.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "destino": "60-montar-habilidades-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "destino": "63-carregador-consulta-e-doma.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "destino": "22-quedas-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "destino": "62-o-carregador-e-o-corredor-de-entulho.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "destino": "../../54-transporte-e-continuidade-das-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#perigos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#amontoado"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#corredor"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#doma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "guia-de-consulta.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s064"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../apoio-revisao-textual-112/prova-textual.html#c01--as-batidas-no-anexo-preparo-para-consulta"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/piloto-comentado.html#x002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#habilidades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#doma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "#corredor"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s054"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+      "destino": "../120-revisao-de-perigos-e-do-carregador.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "guia-de-consulta.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "#B1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "#B4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "#B5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-113/prova-textual.html#c04"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#aviso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#testes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#pistas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#cenario"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#movimento"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#ferramentas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#recuperacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#passagem"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c06"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#energia"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#habilidades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#numeros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#faixas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#chefes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "prova-textual.html#perigos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "prova-textual.html#amontoado"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "prova-textual.html#corredor"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "prova-textual.html#doma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s064"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s065"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s066"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s071"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s072"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s075"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s076"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s101"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s102"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c07"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s092"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#arata"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s091"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s033"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s093"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s094"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s095"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c08"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s034"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s036"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s098"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c09"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s047"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s048"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s049"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s043"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s045"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s046"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s051"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s053"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s054"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html#preparar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html#conduzir"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-113/prova-textual.html#c04"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s012"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html#exemplo-preparo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-116/prova-textual.html#exemplo-retomada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c06"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c07"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c08"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c09"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#aviso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#cenario"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#testes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#pistas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#movimento"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#ferramentas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#recuperacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#passagem"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#energia"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#habilidades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#numeros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#faixas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#chefes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "prova-textual.html#perigos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "prova-textual.html#amontoado"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "prova-textual.html#corredor"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "prova-textual.html#doma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s102"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-113/prova-textual.html#c04"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#aviso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#testes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#pistas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-117/prova-textual.html#cenario"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#movimento"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#ferramentas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#recuperacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-118/prova-textual.html#passagem"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c06"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#energia"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#habilidades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#numeros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#faixas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-119/prova-textual.html#chefes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "prova-textual.html#perigos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "prova-textual.html#amontoado"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "prova-textual.html#corredor"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "prova-textual.html#doma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s064"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s065"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s066"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s071"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s072"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s075"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s076"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s101"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s102"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#c07"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-114/prova-textual.html#arata"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s091"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s033"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s093"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s094"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s095"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c08"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s034"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s036"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s098"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../apoio-revisao-textual-115/prova-textual.html#c09"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s047"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s048"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s049"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s043"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s045"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s046"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s051"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s053"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s054"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/destinos-dos-casos.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/02-ficha-de-preparacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/05-folha-de-conducao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/12-registro-de-descobertas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/20-ficha-de-faccao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/28-ficha-de-convivencia.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/88-indice-de-termos-do-mundo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-112/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-112/output/pdf/Ciclo-Maldito-Abertura-e-Capitulos-1-a-3-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/113-revisao-textual-da-mesa-e-da-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-113/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-113/output/pdf/Ciclo-Maldito-Capitulos-4-e-5-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "casos/89-vida-rolada-e-familia-propria.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/114-revisao-textual-de-inimigos-e-personagens.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-114/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-114/output/pdf/Ciclo-Maldito-Capitulos-6-e-7-e-Arata-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/115-revisao-textual-de-atividades-pactos-e-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-115/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-115/output/pdf/Ciclo-Maldito-Capitulos-8-a-10-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/116-revisao-das-folhas-e-fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-116/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-116/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-116/fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/117-revisao-de-preparo-testes-pistas-e-cenario.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "casos/14-o-aviso-de-reabertura.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "casos/83-perceber-procurar-e-interpretar-sinais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "casos/11-espaco-e-usos-criativos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-117/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-117/output/pdf/Ciclo-Maldito-Casos-de-Preparo-e-Conducao-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-117/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-117/guia-de-consulta.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-117/fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/118-revisao-de-movimento-socorro-e-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-118/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-118/output/pdf/Ciclo-Maldito-Movimento-Socorro-e-Continuidade-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-118/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-118/guia-de-consulta.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-118/fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/119-revisao-de-energia-habilidades-e-chefes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-119/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-119/output/pdf/Ciclo-Maldito-Energia-Habilidades-e-Chefes-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-119/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-119/guia-de-consulta.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-119/fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-120/prova-textual.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-120/output/pdf/Ciclo-Maldito-Perigos-e-Carregador-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-120/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-120/guia-de-consulta.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-revisao-textual-120/fila-dos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "00-como-usar-este-livro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/108-rotina-trabalho-e-recompensas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-pactos-entidades-109/output/pdf/Ciclo-Maldito-Pactos-e-Entidades-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/109-pactos-projetos-e-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-guilda-110/capitulo-10.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-guilda-110/output/pdf/Ciclo-Maldito-Jogar-em-Guilda-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/110-guilda-registros-e-passagem.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/111-conferencia-conjunta-das-consultas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A1-preparar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../02-ficha-de-preparacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A2-conduzir-a-sessao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../12-registro-de-descobertas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../08-ficha-de-acordos-do-grupo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../20-ficha-de-faccao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../28-ficha-de-convivencia.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../42-registro-de-pactos-e-promessas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../44-registro-de-aquisicao-e-estado-de-entidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../61-ficha-de-habilidade-de-inimigo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../68-ficha-e-comparacao-de-chefes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A1-exemplo-despedida.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A4-exemplo-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../../04 - Planejamento/apoio-revisao-textual-120/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/14-o-aviso-de-reabertura.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/11-espaco-e-usos-criativos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/82-testes-trabalho-em-grupo-e-iniciativa.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/83-perceber-procurar-e-interpretar-sinais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/84-percursos-apoios-e-quedas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/85-trajetorias-ferramentas-e-improvisacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/22-quedas-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/23-retirada-e-recuperacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/81-passar-a-missao-entre-mestres.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/59-recursos-e-ritmo-dos-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/60-montar-habilidades-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/74-regua-inicial-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/100-comparar-inimigos-em-outras-faixas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/67-preparar-chefes-e-confrontos-maiores.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/78-preparar-perigos-ambientais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/57-avaliar-o-encontro-do-amontoado.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/62-o-carregador-e-o-corredor-de-entulho.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../casos/63-carregador-consulta-e-doma.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../77-ficha-preenchida-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../73-ensaio-guiado-do-sineiro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../102-o-arquivo-e-as-oportunidades-de-agir.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../30-pareceres-de-criacoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../31-avaliar-poderes-avancados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../96-fabricar-e-identificar-o-anel.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../99-limiar-feitos-e-promocao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../50-promessa-do-arquivo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../52-domar-o-amontoado.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/output/pdf/Ciclo-Maldito-Perigos-e-Carregador-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/prova-textual.html"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/fila-dos-casos.md"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/alteracoes.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/contas-conferidas.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/mapa-selecionado.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/conferencias.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/leitura-por-caso.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/revisao-final.json"
+    },
+    {
+      "origem": "04 - Planejamento/120-revisao-de-perigos-e-do-carregador.md",
+      "destino": "apoio-revisao-textual-120/destinos-e-fontes.json"
+    }
+  ],
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 19,
+  "casos_pendentes": 40,
+  "lotes_pendentes": 10,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "mapa": "Esquema ASCII preservado na fonte; figura existente selecionada para a prova e conferida visualmente.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

@@ -1,0 +1,2764 @@
+{
+  "registro": 111,
+  "fontes_antigas_preservadas": 104,
+  "casos_preservados": 59,
+  "casos_por_grupo": {
+    "B1": 9,
+    "B2": 23,
+    "B3": 9,
+    "B4": 6,
+    "B5": 12
+  },
+  "pontos_preservados": 130,
+  "competencias_preservadas": 20,
+  "estados_de_cobertura": "históricos, preservados sem promoção",
+  "links_locais_conferidos": 677,
+  "links": [
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../75-ren-e-sora-atacante-e-apoio.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../63-carregador-consulta-e-doma.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../60-montar-habilidades-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../74-regua-inicial-de-inimigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../100-comparar-inimigos-em-outras-faixas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../76-confronto-de-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../77-ficha-preenchida-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../66-o-carregador-e-a-saida-que-fecha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../65-comparar-confronto-e-pressao-ambiental.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../71-sineiro-do-recolhimento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../73-ensaio-guiado-do-sineiro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../68-ficha-e-comparacao-de-chefes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../78-preparar-perigos-ambientais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "consultas/A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#61-objetivos-e-adversarios"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#62-preparar-a-ficha"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#63-habilidades-e-recursos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#64-escolher-os-numeros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#65-o-grupo-e-o-lugar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#66-chefes-e-grandes-confrontos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#67-perigos-do-ambiente"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "#68-antes-e-depois-do-encontro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/piloto-comentado.html#x002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s075"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s063"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s060"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s074"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s100"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s076"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s066"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s065"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s071"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s078"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/folhas-para-a-mesa.html#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "destino": "../106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "capitulo-6.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "destino": "#geral--aparar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../28-ficha-de-convivencia.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../27-convivencia-do-receptaculo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../26-vinculos-e-mudancas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../90-reparar-personagem-de-corpo-construido.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../91-restricao-corporal-e-cuidados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../89-vida-rolada-e-familia-propria.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../92-reserva-condensada-proposta-e-comparacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../89-vida-rolada-e-familia-propria.md#escolha-como-calcular-a-vida"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../30-pareceres-de-criacoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../93-ampliar-mesclas-e-trocar-formas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../33-casos-especificos-de-avaliacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../31-avaliar-poderes-avancados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../95-efeitos-de-cena-e-cancelamento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../94-compras-repetidas-e-restricoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "destino": "../39-atividades-e-tempo-entre-missoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#71-conferir-a-ficha"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#72-personagens-e-seus-cuidados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#73-personalizar-escolhas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#75-poderes-avancados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "#76-registrar-e-acompanhar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s027"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s026"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s091"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s089"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s092"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s089--declare-o-metodo-de-vida-antes-da-criacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s093"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s033"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s095"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s094"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s039"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "destino": "../107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "capitulo-7.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-14"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-15"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-16"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-17"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-18"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#regra-19"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#campo--inv-reparo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "#poderes--acerto"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#origens--legado-criar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../23-retirada-e-recuperacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../90-reparar-personagem-de-corpo-construido.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../97-emprestimo-familiar-e-negociacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../97-emprestimo-familiar-e-negociacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../96-fabricar-e-identificar-o-anel.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../98-objeto-selado-e-risco-de-ingestao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../37-recompensas-e-fechamento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "07-personagens-e-tecnicas.md#ao-subir-de-nivel"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../99-limiar-feitos-e-promocao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#81-rotina-e-descanso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#83-oficios-fabricacao-e-reparos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#84-comprar-emprestar-e-contratar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#85-ferramentas-e-objetos-amaldicoados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#86-recompensas-e-progressao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s023"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s034--caso-etiquetas-para-um-deposito"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s098"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s037"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#ao-subir-de-nivel"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../108-rotina-trabalho-e-recompensas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "capitulo-8.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-14"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-15"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-16"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-17"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-18"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-19"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-20"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#dano--exaustao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#pericias--tarefas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eqf-desgaste"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#equip--eqf-uso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eq-manipular"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../../04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../48-pacifismo-impraticavel-minuta.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../49-liberacao-irregular-minuta.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../47-desenvolver-uma-ideia-de-pacto.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../50-promessa-do-arquivo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../42-registro-de-pactos-e-promessas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../53-construir-e-evoluir-o-escriba.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../44-registro-de-aquisicao-e-estado-de-entidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../51-ritual-do-cao-de-sombra.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../52-domar-o-amontoado.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "08-entre-missoes.md#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../46-reconstruir-transferir-e-herdar-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../54-transporte-e-continuidade-das-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+      "destino": "../43-aquisicao-e-projetos-de-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#91-preco-e-beneficio"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#92-desenvolver-uma-troca"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#93-promessas-entre-pessoas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#94-obter-uma-entidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#95-trabalho-e-novas-tentativas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "#96-evolucao-e-continuidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s048"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s049"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s047"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s053"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s051"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s046"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s054"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s043"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "destino": "../109-pactos-projetos-e-continuidade.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "capitulo-9.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-14"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-15"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-16"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-17"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#regra-18"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#ritual--pacto-exemplos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#ritual--pacto-exemplos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#fabricacao--fab-conclusao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "#construcao--entidade-cao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#construcao--entidade-vigia"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#fabricacao--fab-entidades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#construcao--entidades-ampliacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#dano--condicoes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#catalogo--cat-restricoes"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../../04 - Planejamento/apoio-guilda-110/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "05-criar-uma-campanha.md#51-a-sessao-zero"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "08-entre-missoes.md#86-recompensas-e-progressao"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "08-entre-missoes.md#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "consultas/A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../81-passar-a-missao-entre-mestres.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../12-registro-de-descobertas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "consultas/A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../42-registro-de-pactos-e-promessas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../44-registro-de-aquisicao-e-estado-de-entidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "../80-escolher-e-usar-as-ferramentas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+      "destino": "04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "#101-compartilhar-o-mundo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "#102-calendario-e-atividades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "#103-passar-a-missao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "#104-escolher-e-manter-os-registros"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "#105-ouvir-o-grupo-e-dividir-o-trabalho"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-campanha-103/capitulo-5.html#51-a-sessao-zero"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-campanha-103/capitulo-5.html#capitulo-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html#86-recompensas-e-progressao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-consultas-105/folhas-para-a-mesa.html#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c10.html#s081"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s012"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-consultas-105/folhas-para-a-mesa.html#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c10.html#s080"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+      "destino": "../110-guilda-registros-e-passagem.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "capitulo-10.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html",
+      "destino": "#dano--exaustao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "folhas-para-a-mesa.html#escolher"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "#B1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "#B2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "#B3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "#B4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "#B5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-guilda-110/capitulo-10.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c02.html#s014"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s082"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s083"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s011"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s085"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s022"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s023"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c10.html#s081"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s059"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s060"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s074"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s100"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s067"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s078"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s057"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s062"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s063"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s064"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s065"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s066"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s071"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s072"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s075"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s076"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s101"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s102"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s092"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s089"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s091"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s033"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s093"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s094"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s095"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s034"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s036"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s098"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../apoio-pactos-entidades-109/capitulo-9.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s047"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s048"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s049"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s043"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s045"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s046"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s051"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s053"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s054"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/casos-completos.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#preparar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#conduzir"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#exemplo-preparo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#exemplo-retomada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#escolher"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-mundo-e-preparo-101/capitulos-2-e-3.html#capitulo-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#capitulo-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s082"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s083"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s085"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-mundo-e-preparo-101/capitulos-2-e-3.html#folha-despedida"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#43-interpretar-e-negociar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c10.html#s081"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c10.html#s081"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#preparar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s002"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#conduzir"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html#capitulo-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#retomar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s012"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s028"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#exemplo-preparo"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "#exemplo-retomada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-inimigos-106/capitulo-6.html#capitulo-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#capitulo-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html#capitulo-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-pactos-entidades-109/capitulo-9.html#capitulo-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../apoio-guilda-110/capitulo-10.html#capitulo-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s082"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s083"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s085"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s073"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s079"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s102"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s030"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c07.html#s031"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s050"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s052"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c09.html#s055"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+      "destino": "../105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/14-o-aviso-de-reabertura.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/11-espaco-e-usos-criativos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/84-percursos-apoios-e-quedas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/22-quedas-e-socorro.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/23-retirada-e-recuperacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/74-regua-inicial-de-inimigos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/78-preparar-perigos-ambientais.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/63-carregador-consulta-e-doma.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/64-a-passarela-e-o-guincho.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/71-sineiro-do-recolhimento.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/72-sineiro-consulta-e-doma.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/76-confronto-de-ren-e-sora.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/101-haru-vigia-e-tessa.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/30-pareceres-de-criacoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/31-avaliar-poderes-avancados.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/99-limiar-feitos-e-promocao.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../apoio-pactos-entidades-109/capitulo-9.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/49-liberacao-irregular-minuta.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/50-promessa-do-arquivo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/52-domar-o-amontoado.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-consultas-105/destinos-dos-casos.md",
+      "destino": "../../06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A1-preparar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../02-ficha-de-preparacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A2-conduzir-a-sessao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../12-registro-de-descobertas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../08-ficha-de-acordos-do-grupo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../20-ficha-de-faccao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../28-ficha-de-convivencia.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../32-ficha-de-avaliacao-de-capacidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../42-registro-de-pactos-e-promessas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../44-registro-de-aquisicao-e-estado-de-entidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../58-ficha-de-inimigo-e-encontro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../61-ficha-de-habilidade-de-inimigo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../68-ficha-e-comparacao-de-chefes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A1-exemplo-despedida.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "A4-exemplo-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../82-testes-trabalho-em-grupo-e-iniciativa.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../83-perceber-procurar-e-interpretar-sinais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../84-percursos-apoios-e-quedas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../85-trajetorias-ferramentas-e-improvisacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../77-ficha-preenchida-ren-e-sora.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../73-ensaio-guiado-do-sineiro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../102-o-arquivo-e-as-oportunidades-de-agir.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../30-pareceres-de-criacoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../31-avaliar-poderes-avancados.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../96-fabricar-e-identificar-o-anel.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../99-limiar-feitos-e-promocao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../50-promessa-do-arquivo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../52-domar-o-amontoado.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "destino": "../../55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/108-rotina-trabalho-e-recompensas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-pactos-entidades-109/output/pdf/Ciclo-Maldito-Pactos-e-Entidades-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/109-pactos-projetos-e-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-guilda-110/capitulo-10.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-guilda-110/output/pdf/Ciclo-Maldito-Jogar-em-Guilda-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/110-guilda-registros-e-passagem.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/111-conferencia-conjunta-das-consultas.md"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-consultas-105/folhas-para-a-mesa.html#escolher"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-conferencia-111/leitura-dirigida.json"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-conferencia-111/cobertura-e-destinos.json"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-conferencia-111/conferencias.json"
+    },
+    {
+      "origem": "04 - Planejamento/111-conferencia-conjunta-das-consultas.md",
+      "destino": "apoio-conferencia-111/revisao-final.json"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "destino": "../03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "destino": "../../02-ficha-de-preparacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "destino": "A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../../82-testes-trabalho-em-grupo-e-iniciativa.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../../83-perceber-procurar-e-interpretar-sinais.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../../84-percursos-apoios-e-quedas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../../85-trajetorias-ferramentas-e-improvisacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "destino": "A4-retomar-a-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "destino": "../../16-linha-de-continuidade.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "destino": "../../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "destino": "../03-preparar-aventuras.md#antes-que-o-trem-parta"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "destino": "../04-na-mesa-de-jogo.md#43-interpretar-e-negociar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "destino": "../../81-passar-a-missao-entre-mestres.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "destino": "../../81-passar-a-missao-entre-mestres.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "destino": "../../79-o-po-na-sala-de-conservacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "destino": "../../73-ensaio-guiado-do-sineiro.md"
+    }
+  ],
+  "capitulos_e_derivados_preservados": [
+    "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+    "04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf",
+    "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+    "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+    "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+    "04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf",
+    "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+    "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+    "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf",
+    "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+    "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+    "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "04 - Planejamento/apoio-pactos-entidades-109/output/pdf/Ciclo-Maldito-Pactos-e-Entidades-Amostra.pdf",
+    "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+    "04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html",
+    "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "04 - Planejamento/apoio-guilda-110/output/pdf/Ciclo-Maldito-Jogar-em-Guilda-Amostra.pdf",
+    "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+    "04 - Planejamento/apoio-guilda-110/consulta-de-regras.html"
+  ],
+  "pdf_das_folhas_preservado": "c6de19920cf0cd42ac7524e1b3e609738b12a30cacbbedf514824e2e53aa247f",
+  "corpo_imprimivel_das_folhas_preservado": true,
+  "pdf_integrado_preservado": true,
+  "pendencias": [
+    {
+      "id": "Arata-CD",
+      "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+      "constatacao": "CD 16 fora da coluna fixa publicada; não há criador indicado para justificar CD variável.",
+      "tratamento": "Aviso no índice; corrigir na consolidação textual da etapa 6, conservando condições e resultado do exemplo. Nenhum valor foi substituído neste lote."
+    }
+  ],
+  "limites": [
+    "Conferência documental dos 130 pontos/20 competências; não é releitura semântica de todas as evidências.",
+    "Leitura dirigida de P14–P20 registrada em leitura-dirigida.json.",
+    "Sem teste interativo de navegador, teste humano ou validação geral de equilíbrio."
+  ]
+}

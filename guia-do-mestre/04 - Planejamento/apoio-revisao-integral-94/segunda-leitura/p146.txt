@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Mei aguarda socorro em seu turno; seu Impulso
+expira ao final dele. No turno de Akira, outra Sutura
+custa 6 PE, deixando 17, e cura 1 + 1 + 2 + 4 = 8. O
+tratamento acumulado chega a 18, supera os 15
+exigidos e encerra Morrendo. Mei fica com 18/44
+PV e uma Sequela. O requisito não é subtraído da
+cura: ela não fica com apenas três PV.
+Estado após o
+socorro
+Vida
+PE
+Integridade
+Observação
+Rina
+59/65
+24/24
+50/50
+Fora; sem Sequelas.
+Mei
+18/44
+21/36
+55/55
+Fora; uma Sequela; uma
+escolha de Insistir nesta cena.
+Akira
+51/51
+17/30
+65/65
+Fora, com a caixa.
+Sineiro
+74/108
+0
+54/54
+Continua no recinto.
+Se Mei tivesse escolhido Aguentar, precisaria de 11
+de tratamento, mas ficaria Inconsciente e
+Derrubada. Não poderia conjurar Passo nem
+executar a retirada descrita. Akira, em C0, estaria a
+16,5 m dela em C11, fora do alcance dessa cura.
+Seria preciso reposicionar o socorrista ou
+transportar Mei e resolver a oposição restante. Essa
+alternativa exige outro percurso; reduzir o
+tratamento não concede gratuitamente a fuga do
+caso acima. As regras de quedas e socorro (p. 73)
+orientam esse resgate.
+O que observar ao usar o exemplo
+O primeiro exemplo resolve a captura com controle
+e separação, conserva a Reação de Rina para uma
+interceptação e usa a abertura seguinte no turno
+correto. O segundo mostra o custo de falhar ao
+tentar impedir o golpe e terminar perto do impacto.
+O aviso do golpe oferece uma escolha; não garante
+que a equipe consiga ou decida aproveitá-la.
+Os resultados dependem da posições e distâncias,
+das capacidades escolhidas, do estado inicial, dos
+dados e do comportamento informado do guardião.
+Uma técnica sem deslocamento, uma porta estreita,
+mais inimigos ou outra ordem de iniciativa pedem
+nova avaliação. Não esconda essas mudanças
+dentro da mesma classificação de dificuldade.
+Na guilda, passe ao próximo mestre os recursos
+restantes, a Sequela, o resultado da missão e os
+prazos relevantes. A janela de socorro deve ser
+resolvida pela ordem de iniciativa; não a converta
+em dias reais por a missão ter ocorrido em uma
+guilda.
+5.17 · Ren e Sora: atacante e
+apoio
+Duas fichas experimentais de inimigos de nível 6.
+Este exemplo aplica a referências iniciais de valores
+(p. 93): Ren mantém a pressão próxima; Sora
+escolhe entre favorecer um ataque e reparar
+ferimentos. Consulte o confronto comentado (p.
+150) para acompanhar os recursos e comparar os
+alvos.
+São humanos com Técnica Inata, contratados para
+impedir a retirada de um estojo de documentos.
+Agem por interesse, aceitam discutir uma proposta
+plausível e não precisam morrer para a oposição
+terminar. Não é necessário conhecer personagens
+ou acontecimentos da obra para usá-los.
+O que estas fichas representam
+Os totais de vida e energia são valores propostos
+para inimigos, não reservas calculadas por um
+Caminho de jogador. As fichas não recebem
+habilidades ocultas de Caminho, Trilha ou Origem.
+Para este confronto, use somente as capacidades
+registradas e as ações comuns aplicáveis.
+Transformá-las em personagens jogadores exigiria
+reconstruí-las pela criação de personagem.
+Ambos são Médios, com alma, dois braços e duas
+mãos, visão e audição comuns, fala e sentidos de
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+146

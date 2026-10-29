@@ -1,0 +1,22 @@
+{
+  "registro": 119,
+  "conferencias": [
+    "Precisão: oito chances conferidas por enumeração do d20.",
+    "Sobrevivência de níveis 2/6: 24 porcentagens confrontadas com resultados arquivados.",
+    "Dano médio, pressão em duas tentativas e chances de TR preservados e conferidos.",
+    "Outras faixas: seis linhas de perfis e 24 médias/porcentagens confrontadas com as contas arquivadas.",
+    "Duro de Matar recontado sem redução média; apoio, Alma, custos e exemplos simples conferidos."
+  ],
+  "duro_de_matar_medias_recontadas": [
+    12.625,
+    12.30725,
+    1.812443359375
+  ],
+  "novos_parametros": false,
+  "nova_simulacao_de_combate": false,
+  "limites": [
+    "Tabelas de sobrevivência comparadas aos resultados arquivados, sem executar outro confronto.",
+    "Enumeração independente somente do recorte de Duro de Matar e da precisão.",
+    "Não demonstra equilíbrio, duração de combate ou aprendizagem."
+  ]
+}

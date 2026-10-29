@@ -1,0 +1,13 @@
+{
+  "paginas": 359,
+  "paginas_visualmente_alteradas": [
+    1
+  ],
+  "paginas_2_a_359": "Renderização pixel a pixel idêntica à entrega anterior.",
+  "sha256_pdf": "05d2f7f9690b31106053844bb842082f90287ff5021e1109d0cc8d6b69a900be",
+  "inspecao_visual": "Capa final renderizada com Poppler e examinada ampliada: título à direita preservado, subtítulo e selo removidos, marca v1.0 da base novamente visível.",
+  "verificacao_pdf": {
+    "links": 2380,
+    "problemas": []
+  }
+}

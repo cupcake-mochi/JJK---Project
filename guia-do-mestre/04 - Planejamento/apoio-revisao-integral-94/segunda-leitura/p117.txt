@@ -1,0 +1,83 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Resultado
+Estado a registrar
+Consulta negociada, caixa permanece
+Informação obtida e acordo concreto. Não registrar entrega da caixa.
+O contratante pode aceitar outro desfecho ou pedir continuação.
+Personagem chega ao recuo agarrada
+Contenção e posição continuam; não é derrota automática nem
+término da participação.
+Mudar de cena não renova vida, Integridade,
+equipamento, condições ou efeitos. Registre saldos,
+horários e recuperação efetivamente realizada. Se o
+Carregador reaparecer, use o último estado e as
+regras pertinentes; preparar um reencontro não
+exige fingir que ele voltou inteiro. Se continuar
+derrotado, não se levanta apenas para reabrir a luta.
+No fechamento da guilda, anote caixa e portador,
+destino da criatura, feridos, contenções, riscos
+restantes e pessoas avisadas. Em campanha
+fechada, o mesmo registro pode ficar no diário da
+missão. A remuneração segue o acordo já existente;
+este encontro não cria tabela de recompensa.
+O que observar ao jogar
+Os exemplos permitem conferir ações, alcance,
+carga, formas de escapar, percursos e Doma. Ainda
+é preciso jogar para avaliar a clareza da cena e seu
+equilíbrio. Observe em mesa quanto tempo os
+jogadores passam sem escolher, quais informações
+precisaram ser repetidas, o que mudou a decisão de
+rota e se o objetivo fez diferença em relação a
+apenas atacar.
+O princípio aplicado é simples: a função de retirar
+um intruso pode resultar de regras já existentes.
+Sua identidade está na intenção, no corpo, no lugar
+e nas escolhas que produz. Acrescentar PE, recarga
+ou dano não era necessário para escrever esta
+ocorrência.
+5.10 · Carregador de sinos:
+ficha e Doma
+Ficha experimental, versão 1. A situação completa
+está em O Carregador e o corredor de entulho (p.
+110). Os valores deste exemplo não são uma escala
+geral de inimigos. Nível, atributos, vida, massa,
+treinos e comportamento foram escolhidos para a
+proposta; Agarrar e as demais ações comuns
+seguem o Livro de Regras 1.0.
+Ficha do encontro
+Maldição de nível 2, Maestria 1, tamanho Médio,
+com alma. Corpo sólido de 72 kg, duas pernas, dois
+braços e duas mãos. Sinos incorporados ao corpo
+não são equipamento removível, recompensa ou
+capacidade sonora. Visão e audição comuns;
+compreende frases simples, responde com gestos e
+ruídos. Sem visão especial, fala, telepatia, voo ou
+passagem através de matéria.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+3
+1
+3
+1
+1
+Campo
+Valor e limite
+Vida
+32/32 PV, total experimental escolhido para o encontro.
+Integridade
+16/16, metade da vida máxima.
+Reserva gastável
+0/0 PE. Não tem Técnica Inata, conjurações ou talento com gasto. Isso não
+retira sua energia amaldiçoada perceptível.
+Defesa / Bloquear
+11 / 2d10 + 0. Bloquear é escolhido antes do ataque e não gasta Reação.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+117

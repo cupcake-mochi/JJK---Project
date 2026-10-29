@@ -1,0 +1,105 @@
+{
+  "registro": 113,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-113/output/pdf/Ciclo-Maldito-Capitulos-4-e-5-Revisao-Textual.pdf",
+  "pdf_sha256": "157bce5f666379fef886adabdecaade4368aaae5947edaace2e0e175dfbb46b4",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral dos dois textos e revisão de clareza, títulos e remissões.",
+      "alteracoes_registradas": 20
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das onze páginas da primeira prova; mais doze ajustes, releitura dos trechos alterados e conferência da prova resultante.",
+      "alteracoes_registradas": 12
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-01.png",
+      "imagem_sha256": "a2eb5507c7cd22716fa550c42621c8dac978bb93d443c165bf7c8b61eb644fd7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Capítulo 4: abertura, escolhas do mestre e tabela de CD legíveis, sem títulos isolados."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-02.png",
+      "imagem_sha256": "6dcc8022988063e6c8f9b49634be6f5870a7bd791f5d5f07943eb9f193815a90",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Sucesso com custo, ajuda e negociação; falas e comentário distintos, regras com requisitos preservados."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-03.png",
+      "imagem_sha256": "490a3e8462b7ca05d039a30628ea9725480acfceac278b573cc657c782bf8884",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Investigação e ideias dos jogadores; colunas contínuas e consultas acessíveis."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-04.png",
+      "imagem_sha256": "3b791f871778675a1c34a07d69d3b48ce71a478729d099d98f7e1708f26a4beb",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Participação, cenas e início de combate; títulos simplificados com explicação no ponto de uso."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-05.png",
+      "imagem_sha256": "f797ce520ab366d34d89f42250d419c97aa653b7a69275275c79373b0cb40c06",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Queda e tratamento; lista e tabela completas. Texto de estabilização continua na página seguinte, sem omissão de conteúdo."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-06.png",
+      "imagem_sha256": "09aace0bdcd84f99cc6a40b1c0a0eea6c5b8eb02b29f168c3072b5432b4d98c5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Estabilidade e descanso explícitos; retirada, dúvidas e encerramento. Registros de pausa conservados."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-07.png",
+      "imagem_sha256": "2391591169e1d22def620c1ace0fa6b1b231ecabbabb4a6c59bd479fddb56b3f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Capítulo 5: proposta, sessão zero e acordos; Receptáculo distingue voz e controle do corpo."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-08.png",
+      "imagem_sha256": "ca55d2e6ce9384dc9dcc496c9a16309380fbda86b85ccebade68ffedd5473d04",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Vínculos e arco da campanha; tabela com seu contexto segue na página seguinte. Espaço inferior permite preservar a tabela inteira."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-09.png",
+      "imagem_sha256": "e5f337d8b42a822d844e41d1900a3df698000ef3fa9a99d7fec8dc845091256f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Tabela do arco e facções legíveis; objetivos, meios e informação de cada organização distintos."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-113/pagina-10.png",
+      "imagem_sha256": "58c548e582d5d7dddfa11276249e9c08315633c41c5e5b3c242fa5f1d0f4685c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Antagonistas e finais; exemplos, epílogo e próximos encontros completos. Página residual eliminada."
+    }
+  ],
+  "alteracoes_mecanicas": "Nenhuma regra nova ou rebalanceamento; requisito publicado de estabilidade explicitado no resumo.",
+  "limites": [
+    "Duas passagens locais; revisão integral da etapa 6 ainda em andamento.",
+    "Inspeção desta prova parcial não substitui a revisão visual do livro inteiro.",
+    "Sem leitor humano independente, sessão real ou nova validação de equilíbrio."
+  ]
+}

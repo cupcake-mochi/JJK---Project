@@ -1,0 +1,674 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Perigos e Carregador | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'PERIGOS E CARREGADOR';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}#c09 .colunas p{margin-bottom:5pt}#c09 table th,#c09 table td{padding:3pt 4pt}#c10 .colunas p{margin-bottom:4.5pt}#c10 table th,#c10 table td{padding:3pt 4pt}#c10 .colunas h3{margin:8pt 0 5pt}#c10 .colunas h2{margin:10pt 0 6pt}#c10 .larga th:first-child{width:20%}#c10 .fechamento-exemplo{column-span:all;break-inside:avoid;margin:2pt 0 6pt}}@media print{.larga th{white-space:normal}.colunas p.conta{break-inside:avoid}.colunas table{break-inside:avoid}.abertura-caso{break-inside:avoid}.numero-curto{white-space:nowrap}.abertura-texto,.nota-inteira{column-span:all;break-inside:avoid}.abertura-texto{margin-bottom:8pt}#perigos,#corredor{break-after:auto}#amontoado,#doma{padding-top:12pt}.bloco-mapa{break-inside:avoid;margin:9pt 0}.mapa-rota{margin:0}.mapa-rota img{display:block;width:100%;height:auto}.registro-final ul{column-count:2;column-gap:7mm}.registro-final{font-size:9.2pt;line-height:11.5pt;margin-top:5pt}.registro-final h2{margin:0 0 5pt!important}.registro-final ul{margin:0}.registro-final li{margin:0 0 1pt}.registro-final p{margin-top:4pt}#doma table th,#doma table td{padding:3pt 4pt}.larga.continua{break-inside:auto}.larga.continua table,.tabela-fluida table{break-inside:auto}.tabela-fluida{break-inside:auto;margin:8pt 0}#doma p{margin-bottom:4pt}#doma .colunas h2{margin:9pt 0 6pt}#doma .colunas h3{margin:8pt 0 5pt}}</style></head><body><nav><a href="#perigos">Perigos do ambiente</a><a href="#amontoado">O encontro do Amontoado</a><a href="#corredor">O Carregador no depósito</a><a href="#doma">Carregador: ficha e Doma</a><a href="casos-completos.html">Casos por assunto</a><a href="guia-de-consulta.html">Folhas e capítulos</a></nav><p class="aviso-edicao">Prova parcial: lote B2-02. As fontes antigas e a edição integrada anterior continuam preservadas.</p><main><article class="folha" id="perigos"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Perigos do ambiente</h1></header><div class="colunas">
+<p>Um piso que cede, uma sala contaminada ou uma superfície quente podem ameaçar o grupo. Ao preparar um perigo do ambiente, deixe claro quem corre risco, quando ele age e o que as personagens podem fazer. Registre essas escolhas no bloco 4 da <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha de inimigo e encontro</a>. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s079">sala de conservação</a> apresenta um caso completo de exposição repetida.</p>
+<p>Comece pelas regras do Livro de Regras 1.0. O dano de uma queda real, por exemplo, já tem regras. Quando o livro não fornecer o dano, a frequência ou o prazo daquele perigo, esses valores precisam ser preparados e identificados como escolhas do exemplo. A escala de dificuldade de testes não é uma tabela de dano ambiental.</p>
+<h2 id="perigos--quem-corre-risco">Quem corre risco?</h2>
+<p>Escreva o que coloca alguém em risco: estar sobre um apoio quando ele rompe, tocar uma superfície, permanecer numa área, respirar uma substância ou consumir algo. Essas situações podem exigir respostas diferentes.</p>
+<table>
+<thead>
+<tr>
+<th>Forma de exposição</th>
+<th>O que preparar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Um acontecimento</td>
+<td>O que provoca o perigo e o que acontece uma única vez, como a perda de apoio da passarela. Permanecer no piso depois da queda não repete o impacto.</td>
+</tr>
+<tr>
+<td>Permanência numa área</td>
+<td>Limites visíveis, momento de verificar a exposição e frequência. Dizer “enquanto estiver aqui” ainda não informa quantas vezes aplicar o efeito.</td>
+</tr>
+<tr>
+<td>Um contato</td>
+<td>O que conta como contato e se a repetição produz outro efeito. Vestir uma proteção precisa impedir o contato relevante.</td>
+</tr>
+<tr>
+<td>Um processo prolongado</td>
+<td>Intervalo de avaliação, primeiros sinais, consequências e formas de interromper ou recuperar-se. Não transforme um teste diário em testes a cada turno.</td>
+</tr>
+</tbody>
+</table>
+<p>Confira as características de quem está exposto. Não precisar respirar protege da falta de ar; não protege, por si só, do calor ou de uma substância que danifique o corpo por contato. Imunidade à condição Envenenado também não protege, por si só, do dano de Veneno. Consulte a ficha da criatura e a regra do perigo.</p>
+<p><strong>Exemplo publicado:</strong> Corpo Debilitado sofre 1d4 de Radiante ao fim do próprio turno se houver pele exposta ao sol ou ao luar, sem TR; fora de combate, a regra usa cada rodada de exposição contínua. Uma cobertura opaca completa evita essa consequência. É uma regra daquela Restrição, não uma referência de dano solar para todos os personagens.</p>
+<p>Confira também os recursos que o grupo já possui. Uma capacidade apropriada pode eliminar o risco. Se isso acontecer, deixe a solução funcionar; você não precisa acrescentar outra ameaça para compensar.</p>
+<h2 id="perigos--testes-e-dificuldade">Testes e dificuldade</h2>
+<p>A <strong>Classe de Dificuldade, ou CD</strong>, é o número que o resultado do teste precisa igualar ou superar. Quando houver teste, role d20 e some o bônus indicado. A regra define se a pessoa está executando uma tarefa ou resistindo a um efeito.</p>
+<table>
+<thead>
+<tr>
+<th>Situação</th>
+<th>Referência no Livro de Regras 1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A regra já fornece a CD</td>
+<td>Use essa CD e suas exceções.</td>
+</tr>
+<tr>
+<td>Tarefa comum ou perigo sem autor, sem dificuldade específica</td>
+<td>Escolha na escala fixa: 6, 10, 14, 18, 22 ou 26, conforme a tarefa.</td>
+</tr>
+<tr>
+<td>Avaliação ligada ao poder de um criador</td>
+<td>Quando a regra mandar, use 8 + atributo do criador + Maestria e o ajuste da tarefa. Não use os valores de quem enfrenta o perigo.</td>
+</tr>
+<tr>
+<td>Evitar ou encerrar uma consequência</td>
+<td>Escreva o Teste de Resistência, ou TR, a CD e o resultado de sucesso e falha.</td>
+</tr>
+</tbody>
+</table>
+<p>A escala fixa corresponde a Fácil, Média, Difícil, Muito difícil, Extrema e Quase impossível. Ela não aumenta só porque o grupo avançou de nível. Para a escala do criador, consulte a tabela completa do Livro de Regras 1.0: seus ajustes não são os mesmos números da coluna fixa e ela não define um valor para a dificuldade Extrema.</p>
+<p>Separe as tarefas. Reconhecer um vazamento, fechar uma válvula e resistir à exposição podem pedir testes diferentes. Se a personagem sabe usar um comando, ele funciona e está ao alcance, pode bastar acioná-lo. Estudar pode esclarecer como o mecanismo funciona; saber a resposta não permite controlá-lo de longe.</p>
+<p class="conta"><strong>Exemplo:</strong> uma investigação de CD 10 esclarece a função de um comando. Mei tira 7 e soma Inteligência 4: total 11, suficiente mesmo sem treino nessa perícia. Isso responde à pergunta formulada. Se o comando está a 18 m, ela ainda precisa alcançá-lo ou usar uma capacidade que permita operá-lo de outro modo.</p>
+<p>Num TR, sucesso pode evitar tudo, reduzir uma parcela ou encerrar uma condição. <strong>Não existe metade de dano universal por passar no teste.</strong> Bloquear só substitui a Defesa contra uma rolagem de ataque; não substitui esse TR.</p>
+<h2 id="perigos--o-que-acontece">O que acontece?</h2>
+<p>Prepare cada consequência com seu próprio funcionamento.</p>
+<table>
+<thead>
+<tr>
+<th>Consequência</th>
+<th>O que precisa estar escrito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dano</td>
+<td>Quantidade, tipo, momento, frequência e resultado do TR, se houver.</td>
+</tr>
+<tr>
+<td>Condição</td>
+<td>Nome, gatilho, duração e saídas.</td>
+</tr>
+<tr>
+<td>Alteração do lugar</td>
+<td>Espaços afetados, movimento, visão, acessos e momento da mudança.</td>
+</tr>
+<tr>
+<td>Dano a objeto</td>
+<td>Parte atingida, material, porte, ataque compatível e consequência de chegar a zero.</td>
+</tr>
+<tr>
+<td>Consequência prolongada</td>
+<td>Como começa, como se acompanha, quando termina e qual tratamento ou intervenção realmente a encerra.</td>
+</tr>
+</tbody>
+</table>
+<p>Dano de Fogo não aplica queimadura contínua só pelo nome. Veneno não concede Envenenado automaticamente. Fumaça pode dificultar a visão sem causar dano ou bloquear flechas. Se o caso reunir esses efeitos, descreva cada um.</p>
+<p>Ao criar um perigo que causa dano, considere quantas pessoas ele atinge, quantas vezes age antes que alguém possa responder e como evitá-lo. Um dado pequeno repetido muitas vezes pode pressionar mais que um impacto isolado. A vida atual dos participantes importa; o nível não substitui essa leitura.</p>
+<p><strong>Exemplo experimental:</strong> a sala de conservação oferece um TR por pessoa exposta em cada fase ambiental. Falhar causa 1d6 de Veneno e pode aplicar Envenenado. A condição depende da falha no TR, não de o dano atravessar as proteções. Por isso, alguém imune ao dano ainda pode receber a condição; alguém imune apenas à condição ainda pode perder vida.</p>
+<p>Esse 1d6 pertence ao exemplo. Não é o dano de todo pó, veneno ou sala contaminada do sistema.</p>
+<h2 id="perigos--quando-o-perigo-age">Quando o perigo age?</h2>
+<p>Use um momento que a mesa consiga acompanhar: começo ou fim do turno de alguém, um acontecimento perceptível, ou uma fase ambiental após a rodada. Uma “fase ambiental” é apenas o momento escolhido para resolver os efeitos do lugar; a ameaça não ganha outro turno por isso.</p>
+<p>Defina antes da aplicação:</p>
+<ul>
+<li>quando começa a primeira contagem;</li>
+<li>quem é considerado exposto naquele ponto;</li>
+<li>o que acontece uma vez e o que pode se repetir;</li>
+<li>o que interrompe a fonte e o que encerra seus efeitos restantes.</li>
+</ul>
+<p><strong>Escolha o momento:</strong> se o perigo só afeta quem termina a rodada na área, alguém pode atravessá-la e sair antes da verificação. Se ele afeta quem entra, a travessia já põe a pessoa em risco. Se o contato breve precisa importar, prepare essa regra desde o início; não cobre uma exposição retroativa porque alguém cruzou depressa.</p>
+<p>Turnos adicionais, entidades e Reações não fazem uma fase por rodada ocorrer outra vez. Se a própria fonte disser “ao fim de cada turno”, conserve esse funcionamento. Ao combinar vários efeitos, marque seus momentos separadamente.</p>
+<p>Fora de combate, continue contando o tempo da ficção. Uma rodada do Livro de Regras 1.0 corresponde a seis segundos. Use iniciativa quando posição, ordem das ações, resgate ou socorro precisarem dessa precisão; não cronometre a conversa dos jogadores pelo relógio real. Quando nada relevante depender de cada turno, avance o tempo acordado conservando prazos, recursos e consequências. Encerrar uma sessão da guilda não tira o personagem do perigo.</p>
+<h2 id="perigos--mostre-o-perigo-e-as-saidas">Mostre o perigo e as saídas</h2>
+<p>Apresente o que uma pessoa no lugar consegue perceber: posição da área afetada, vazamento, deformação, aviso de operação ou relato de uma testemunha. Não esconda todas as saídas atrás de um teste que pode falhar. Uma informação evidente continua disponível.</p>
+<p>Mostre o que cada solução pode resolver. Sair da área pode impedir novas exposições; fechar a fonte pode impedir que o perigo piore; ventilar ou remover o material pode tornar o lugar seguro; atender alguém cuida dos efeitos que permaneceram no corpo. Confira o que cada tentativa exige: posição, ação, ferramentas ou uma capacidade adequada.</p>
+<p class="conta"><strong>Exemplo:</strong> na sala de conservação, fechar a alimentação e ligar o exaustor exige operar dois comandos em posições diferentes. O grupo pode dividir essas tarefas ou realizá-las em sequência. A nuvem leva o intervalo escrito para desaparecer, e uma condição já aplicada conserva suas saídas.</p>
+<p>A improvisação usa a mesma lógica. Confira o efeito concreto da capacidade, o que ela alcança e como altera o risco. Uma técnica de vento não limpa automaticamente toda substância; uma barreira não filtra tudo por se chamar barreira. Se a capacidade realmente separar a fonte das pessoas, registre essa solução e sua duração.</p>
+<h2 id="perigos--condicoes-e-doencas">Condições e doenças</h2>
+<p>Uma <strong>condição persistente</strong> continua depois do instante em que foi aplicada, pelo prazo de seu efeito. Sair da área só a encerra se a regra disser isso. No Livro de Regras 1.0, condições Pesadas permitem tentar o TR de saída no fim de cada turno do alvo, sem ação. Envenenado é Pesada: prejudica ataques e testes de perícia, mas não impõe desvantagem ao TR de Vigor por si.</p>
+<p>Condições Leves e Médias não recebem essa tentativa repetida automaticamente. A mesma condição também não fica mais forte ao ser aplicada outra vez: acompanhe as aplicações e suas durações. Se uma fonte nova tiver uma regra própria para não reaplicar enquanto sua condição estiver ativa, declare essa escolha.</p>
+<p class="conta"><strong>Exemplo:</strong> Mei sai da nuvem Envenenada. Falha no TR ao fim do turno e continua com a condição. Akira cura sua vida; isso não remove Envenenado. No turno seguinte, ela passa no TR de saída e encerra aquela aplicação. Não precisa pagar PE por essa tentativa gratuita.</p>
+<p>Uma doença fictícia exige uma descrição maior que “fica Envenenado”. Antes de usá-la, escreva como se transmite, quando surgem os primeiros sintomas, quais são os sinais, quando fazer os testes, o que acontece, como tratar e como termina. Se ela aplicar uma condição publicada, preserve as saídas dessa condição. Passar no TR para encerrar o sintoma não elimina automaticamente a doença; eliminar a doença também não cura automaticamente toda vida perdida. Explique essas relações nas regras da doença.</p>
+<p>Esta seção não traz prazos, danos ou tratamentos que sirvam para qualquer doença. Quando isso faltar no Livro de Regras 1.0 e for necessário ao caso, prepare uma proposta específica para revisão. Uma falha num exame não autoriza inventar depois uma consequência permanente que não fazia parte do risco.</p>
+<p>A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s103">febre dos fios</a> traz um caso completo: como a doença começa, quando os sintomas surgem, suas crises, tentativas de atendimento, recuperação natural e o registro para outro mestre continuar. Curar PV, remover Envenenado e encerrar a doença têm resultados distintos.</p>
+<h2 id="perigos--dano-concentracao-e-socorro">Dano, Concentração e socorro</h2>
+<p>Dano ambiental pode exigir TR para manter Concentração. Num perigo sem autor, prepare sua CD pela escala de Testes. Esse teste ocorre <strong>depois do dano</strong> e é diferente do TR que tentou evitar a exposição, mesmo que ambos usem Vigor e a mesma CD.</p>
+<p>Se o dano foi zerado pelas defesas, não há esse teste de Concentração. Dano absorvido pela vida temporária ainda o exige. Se o perigo também aplicar uma condição, resolva esse efeito pela regra dele. Inconsciente encerra Concentração sem depender de uma nova tentativa.</p>
+<p>Quando um personagem jogador chega a zero de vida, confira sua Integridade, as Sequelas e a janela de socorro antes de resolver a queda. Aplique Aguentar ou Insistir quando essas opções estiverem disponíveis, conforme <a href="../apoio-revisao-textual-118/prova-textual.html#socorro">Quedas e socorro</a>. O ambiente não para nesse momento. Cada aplicação posterior de dano positivo que alcance a vida reduz o prazo de socorro em uma rodada; dano totalmente absorvido pela vida temporária não a reduz. Continue contando o tempo a partir do momento da queda.</p>
+<p>Retirar alguém da área pode ser mais urgente que outra tentativa de tratamento no mesmo lugar. Verifique alcance, carga, corpo e percurso. Remover Envenenado não encerra Morrendo; Estabilizar exige seus próprios requisitos e não cura. O <a href="../apoio-revisao-textual-118/prova-textual.html#socorro">socorro</a> continua valendo depois de desligar a fonte.</p>
+<h2 id="perigos--depois-do-perigo">Depois do perigo</h2>
+<p>Antes de encerrar, confira o estado do lugar e o de cada pessoa separadamente. Fonte desligada, passagem utilizável, efeito encerrado e atendimento concluído podem acontecer em momentos diferentes.</p>
+<p>Na guilda, registre a área interditada, a intervenção feita, o risco restante, os responsáveis e os estados das fichas que passam ao próximo mestre. Em campanha fechada, conserve as mesmas informações no registro da campanha. Use o bloco 6 da ficha única e o <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024">registro de estado e socorro</a> quando houver prazos ativos.</p>
+<p>Para uma ruptura única, consulte <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s064">A passarela e o guincho</a>. Para exposição repetida, condição após a retirada e limpeza do lugar, continue com <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s079">O pó na sala de conservação</a>.</p></div></article><article class="folha" id="amontoado"><header><p class="numero">CONSULTA DO MESTRE</p><h1>O encontro do Amontoado</h1></header><div class="colunas">
+<p><strong>Exemplo comentado para a pré-1.0.</strong> O preparo completo está em <a href="../apoio-revisao-textual-112/prova-textual.html#c01--as-batidas-no-anexo-preparo-para-consulta">As batidas no anexo</a>, e as três fichas completas estão em <a href="../../07 - Edicao de Leitura/consultas/piloto-comentado.html#x002">Três maldições para a missão</a>. Aqui você acompanha por que foi escolhido um Amontoado isolado e como reavaliar o confronto quando suas condições mudam. Esta comparação não modifica o encontro já preparado.</p>
+<h2 id="amontoado--o-grupo-e-a-missao">O grupo e a missão</h2>
+<p>O grupo precisa conferir os funcionários do centro cultural e avaliar a ocorrência no anexo. Todos já saíram; o preparo oferece meios de confirmar isso. A equipe pode enfrentar a maldição, manter as pessoas afastadas ou encaminhar uma intervenção. Não há um refém escondido que force combate.</p>
+<p>A referência inicial é de <strong>três personagens de nível 2, com vida e energia completas e sem Sequelas</strong>. Sequelas são consequências de quedas anteriores. Antes de usar o exemplo, confira como as fichas reais percebem e atingem uma maldição, seus meios de socorro e o que conseguem fazer no espaço. Se esses recursos forem diferentes dos previstos, reavalie o encontro.</p>
+<p>O Amontoado está no depósito, a 4,5 m da porta. A sala mede 6 m por 6 m, com faixa central livre e caixas junto às paredes. Ele protege a pilha e torna-se hostil ao ser atacado ou quando tentam desmontá-la. Persegue dentro do anexo e volta à pilha quando todos saem. Esses comportamentos pertencem a esta ocorrência; a porta não possui uma proteção mágica.</p>
+<div class="larga"><h2 id="amontoado--tres-inimigos-do-mesmo-nivel">Três inimigos do mesmo nível</h2><p>Os três inimigos abaixo possuem nível 2 e rotina comum de ações, sem ataques adicionais. Mesmo assim, seus recursos e alcances mudam a luta. Na tabela, PE significa pontos de energia.</p><table>
+<thead>
+<tr>
+<th>Ficha experimental</th>
+<th>Vida / Integridade</th>
+<th>Defesa / Bloquear</th>
+<th>Ataque comum</th>
+<th>Conjuração</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rastejante</td>
+<td class="numero-curto">12 / 6</td>
+<td>13 / 2d10 + 2</td>
+<td>+3; 1d4 + 2 de Concussão, 1,5 m</td>
+<td>Nenhuma; 0 PE.</td>
+</tr>
+<tr>
+<td>Amontoado do depósito</td>
+<td class="numero-curto">48 / 24</td>
+<td>11 / 2d10</td>
+<td>+4; 1d4 + 3 de Concussão, 1,5 m</td>
+<td>Impacto: +4; 3d8 de Concussão, 1,5 m; 3 PE. Reserva 6.</td>
+</tr>
+<tr>
+<td>Vigia das farpas</td>
+<td class="numero-curto">24 / 12</td>
+<td>13 / 2d10 + 2</td>
+<td>+1; 1d4 de Concussão, 1,5 m</td>
+<td>Estalo: +4; 3d8 de Cortante, 18 m; 3 PE. Reserva 6.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Esta tabela serve à comparação. As fichas completas incluem anatomia, treinos, Selos e demais requisitos. Sem aumento de custo, Amontoado e Vigia têm energia para duas conjurações cada; ser inimigo não lhes dá usos ilimitados.</p>
+<p>O Rastejante oferece um corpo frágil para estudar ataques e deslocamento. O Amontoado suporta mais dano, mas precisa se aproximar. O Vigia pode atacar de longe enquanto conseguir pagar seu feitiço; isso torna acesso e cobertura relevantes. Trocar o Amontoado pelo Vigia dentro da mesma sala não demonstra, sozinho, o efeito de uma posição de tiro distante.</p>
+<p><strong>Por que usar o Amontoado:</strong> o Amontoado reúne um golpe simples, um golpe mais forte com recurso finito, comportamento observável e retirada possível. Assim, é possível ensinar esses elementos preparando apenas uma iniciativa inimiga. Confira se ele serve ao seu trio de nível 2.</p>
+<h2 id="amontoado--o-que-as-contas-mostram">O que as contas mostram</h2>
+<p class="conta">O Impacto de 3d8 pode produzir de 3 a 24 antes de crítico e proteções. A média é <strong class="formula">3 × 4,5 = 13,5</strong>. A vida 48 do Amontoado fica entre três médias, <strong>40,5</strong>, e quatro, <strong>54</strong>. Essa comparação ajuda a enxergar sua diferença para o Rastejante de 12 de vida.</p>
+<p>Ela não significa “quatro rodadas” nem “quatro ataques sempre vencem”. Três personagens podem atacar na mesma rodada; alguns ataques erram; uma pessoa pode gastar sua Padrão em socorro. A Defesa e Bloquear afetam o acerto, e a ficha real pode ter outras fontes de dano.</p>
+<p>Contra Defesa fixa 11, um ataque +4 acerta com 7 ou mais no d20: <strong>14 resultados em 20, ou 70%</strong>, sem vantagem, desvantagem ou modificadores. Contra Defesa fixa 13, precisa de 9: <strong>12 em 20, ou 60%</strong>. Esses percentuais não são a chance contra Bloquear; essa escolha usa outra regra, inclusive resultados próprios dos dois d10.</p>
+<p class="conta"><strong>Dano de Alma:</strong> o Amontoado tem Integridade 24. Um golpe que cause 12 de dano final de Alma retira 12 de vida e 12 de Integridade. Partindo de reservas cheias, fica com <strong>36 de vida e 12 de Integridade</strong>. Perdeu metade da Integridade: está no estágio 2, com os efeitos acumulados dos estágios 1 e 2. O movimento 9 m passa a 4,5 m; a conjuração de Classe 1 passa de 3 para <strong>4 PE</strong>. Se ainda tiver 6 PE, pode pagar uma dessas conjurações e fica com 2. A previsão de dois Impactos já não descreve esse estado.</p>
+<p>A possibilidade de atingir Alma depende da capacidade usada. O exemplo mostra como uma regra disponível muda a avaliação; não concede esse dano a todo ataque do grupo.</p>
+<h2 id="amontoado--um-inimigo-ou-varios">Um inimigo ou vários?</h2>
+<p>Dois Rastejantes somam 24 de vida, como um Vigia, mas ocupam dois corpos e duas posições de iniciativa. Enquanto ambos conseguirem agir e alcançar alvos, cada um pode usar sua Padrão. Derrubar um deles retira parte dessa pressão. Um ataque em área que alcance os dois também afeta a comparação.</p>
+<p>Um Amontoado acompanhado de um Rastejante reúne <strong>60 de vida em dois corpos</strong>, com um atacante adicional de curto alcance. O perigo não cresceu apenas pelos 12 pontos acrescentados: a nova criatura pode ocupar passagem, pressionar um socorrista e causar mais uma aplicação de dano. Antes de usar essa outra formação, prepare suas posições, o que cada criatura tenta fazer e os sinais que o grupo pode perceber.</p>
+<p>Neste encontro continua havendo <strong>um Amontoado isolado</strong>. Reforços não aparecem porque a luta acabou depressa.</p>
+<h2 id="amontoado--a-queda-muda-as-prioridades">A queda muda as prioridades</h2>
+<p>Considere uma personagem com vida máxima 23 e Classe 1. Ao cair sem Sequelas, ela dispõe de três rodadas de janela, contadas a partir do ponto da queda na iniciativa. Aguentar pede <strong>6 de tratamento</strong>; o primeiro Insistir da cena pede <strong>8</strong>; o segundo e os seguintes pedem <strong>12</strong>. A escolha de Insistir não devolve uma ação que ela já gastou.</p>
+<p>Uma cura válida de 2d8 pode recuperar de 2 a 16 pontos. Se o primeiro resultado for 5, a personagem permanece a zero. Os 5 ficam registrados como tratamento. Ainda faltam 1, 3 ou 7, conforme a escolha da queda. O tempo continua correndo.</p>
+<p>O Amontoado deste preparo prioriza a criatura consciente mais próxima, com desempate por quem o atacou por último. Não golpeia inconscientes. Uma personagem que Insiste continua consciente e pode ser escolhida por esse critério. Cada ocorrência posterior de dano positivo que alcance sua vida reduz a janela em uma rodada, sem retirar tratamento acumulado. A escolha de alvos, portanto, faz parte da pressão do encontro.</p>
+<p>Esse comportamento não é uma proteção geral para quem escolhe Aguentar. Outros inimigos podem agir de outra forma, e uma área ou perigo do lugar também pode alcançar um inconsciente. Prepare e comunique o risco perceptível de cada situação.</p>
+<p>Se a criatura for derrotada enquanto alguém ainda estiver Morrendo, prossiga com o atendimento e seu prazo. Não trate o fim dos ataques como um descanso concluído. A <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024">folha de estado e socorro</a> conserva o que falta resolver.</p>
+<h2 id="amontoado--o-que-a-simulacao-mostrou">O que a simulação mostrou</h2>
+<p>A simulação feita para este exemplo usou fichas incompletas, escolhas de ação fixadas antes das execuções e alcance de socorro simplificado. Seus resultados não representam fichas completas nem decisões livres de jogadores.</p>
+<p>Na comparação com Defesa fixa e escolha de Insistir, o Amontoado isolado contra o trio de referência teve duração mediana de duas rodadas: em pelo menos metade das execuções, o programa já considerava o confronto encerrado até ali. A queda de ao menos uma pessoa ocorreu em 20,36% das execuções. Com o mesmo trio entrando com metade da vida, arredondada para baixo, e duas Sequelas por pessoa, a mediana permaneceu em duas rodadas, mas as quedas chegaram a 60,50%.</p>
+<p>As duas situações duraram o mesmo número mediano de rodadas, mas o grupo ferido caiu muito mais. Por isso, não avalie o risco apenas pela duração. Esses percentuais não preveem o que acontecerá na sua mesa: capacidades completas, mapa, acesso ao socorro e decisões livres podem mudar os resultados. O programa também encerrava a luta quando não restavam personagens conscientes capazes de agir. Isso não significava que todos estavam Derrotados: ainda era necessário distinguir quem estava Morrendo de quem estava Derrotado.</p>
+<div class="larga"><h2 id="amontoado--reavalie-antes-de-comecar">Reavalie antes de começar</h2><table>
+<thead>
+<tr>
+<th>O que mudou</th>
+<th>O que conferir</th>
+<th>O que fazer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Só duas pessoas poderão participar</td>
+<td>Quantas ações ficam disponíveis para atacar, cumprir o objetivo e socorrer; acesso aos meios de cura e retirada.</td>
+<td>Rever o preparo com essas fichas. A ocorrência permite manter o anexo sem uso e encaminhar apoio; não obriga a luta imediata.</td>
+</tr>
+<tr>
+<td>A equipe chega ferida ou com Sequelas</td>
+<td>Reservas atuais, prazo de socorro de cada pessoa, recursos de tratamento e possibilidade real de descanso.</td>
+<td>Apresentar a situação e as opções do grupo. Se o preparo for alterado antes da cena, registrar a nova versão.</td>
+</tr>
+<tr>
+<td>Há uma entidade no grupo</td>
+<td>Custo de entrada, comandos, atuação, alcance, energia e meios de recuperação.</td>
+<td>Avaliar sua contribuição pelas regras próprias; não somá-la como uma quarta ficha de jogador.</td>
+</tr>
+<tr>
+<td>O grupo quer adquirir a maldição</td>
+<td>Requisitos de Doma, derrota sem destruição e ficha convertida conhecida antes da tentativa.</td>
+<td>Usar o <a href="../../07 - Edicao de Leitura/capitulos/c09.html#s052">caso de Doma do Amontoado</a>. A aquisição muda o que a equipe precisa preservar.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Ao fechar a sessão, registre a composição que realmente jogou, os recursos disponíveis no início, o destino da criatura, os objetivos resolvidos e as condições e os recursos restantes. Anote separadamente as rodadas da luta e o tempo necessário para encerrar socorro ou retirada. Essa informação permite ao próximo mestre continuar a história e revisar sua previsão.</p></div></article><article class="folha" id="corredor"><header><p class="numero">CONSULTA DO MESTRE</p><h1>O Carregador no depósito</h1></header><div class="colunas">
+<p><strong>Encontro experimental da pré-1.0.</strong> O Carregador disputa uma caixa com o grupo. O caso aplica <a href="../apoio-revisao-textual-119/prova-textual.html#habilidades">Montar habilidades</a>: uma ameaça usa Agarrar, carga e movimento do Livro de Regras 1.0 para disputar um objetivo. Os números, o lugar e o comportamento foram preparados para esta cena. Ela não substitui a missão do Amontoado nem serve como escala de dificuldade por nível. A <a href="#doma">consulta de mesa</a> reúne ficha, percurso e conversão por Doma.</p>
+<h2 id="corredor--o-que-preparar">O que preparar</h2>
+<p>A guilda recebeu um pedido para recuperar uma caixa de registros de manutenção num antigo depósito de sinos. Uma maldição passou a expulsar quem tenta removê-la. Os trabalhadores já se retiraram; não há civis escondidos nem reforços previstos. A caixa permitirá conferir quais peças foram levadas para outros prédios. Em campanha fechada, o pedido pode vir de uma oficina conhecida pelo grupo, com o mesmo objetivo e sem mudar as recompensas já combinadas.</p>
+<p>Uma <strong>maldição</strong> é uma criatura sobrenatural ligada à energia amaldiçoada. Não é necessário conhecer a trama de Jujutsu Kaisen para conduzir esta missão. O Carregador tem corpo sólido com mãos; o som vem dos sinos incorporados a ele. Não há canto que controle pensamentos, dano sonoro, aura ou efeito de medo nesta ficha.</p>
+<p>O objetivo recomendado é <strong>retirar a caixa e sair com todos os integrantes</strong>. Derrotar a criatura, afastá-la da caixa ou conseguir uma passagem negociada são meios possíveis. Também há uma ficha preparada para quem quiser tentar Doma e tiver o nível necessário. Mostre como a maldição ficará depois de domada antes de o jogador decidir correr esse risco.</p>
+<p>Use como ponto de partida três personagens de nível 2 com suas fichas e recursos reais. Essa referência não garante uma luta fácil nem uma duração fixa. Confira quem consegue perceber a criatura, meios de causar dano, efeitos de deslocamento, entidades, carga de cada personagem e recursos de socorro. Para quem não a percebe, aplique as regras correspondentes: ouvir um sino não substitui automaticamente enxergar um alvo. A ficha tem corpo alcançável; não recebe imunidade ao dano comum por ser chamada de maldição.</p>
+<p>Antes da sessão, desenhe os dois percursos abaixo, anote as posições iniciais e deixe à vista as maneiras de escapar de Agarrar. As informações indispensáveis não dependem de uma sequência obrigatória de testes.</p>
+<h2 id="corredor--o-deposito-e-as-rotas">O depósito e as rotas</h2>
+<p>O galpão é iluminado, térreo e tem piso firme. A passagem de entrada está aberta. Não há queda, teto em desabamento ou porta que se feche sozinha. Entre a entrada e a área de trabalho há <strong>6 m de chão regular</strong>. O grupo começa junto da entrada; o Carregador está na área de trabalho, ao lado da caixa, com ambas as mãos livres.</p>
+<p>Do ponto de trabalho até uma área aberta no fundo do galpão, chamada aqui de <strong>recuo</strong>, há duas rotas. É para lá que ele tenta levar os intrusos:</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Rota</th>
+<th>Trechos, na ordem</th>
+<th style="text-align: right;">Distância física</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Direta</td>
+<td>6 m regulares; 6 m de entulho; 6 m regulares</td>
+<td style="text-align: right;"><strong>18 m</strong></td>
+</tr>
+<tr>
+<td>Lateral</td>
+<td>Passagem regular que contorna a pilha</td>
+<td style="text-align: right;"><strong>24 m</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>As duas comportam dois corpos Médios lado a lado, sem apertos: largura livre mínima de <strong>3 m</strong>. Pilhas de materiais delimitam os caminhos; a lateral contorna a pilha central, sem atravessar seu interior. Marque também a volta do recuo à área de trabalho pelas mesmas rotas e os 6 m adicionais até a entrada. Caminhos oblíquos que atravessem a pilha continuam sujeitos ao entulho e aos obstáculos do lugar; não invente uma terceira passagem curta de chão limpo entre as rotas. Agarrar uma criatura Grande pode ser permitido, mas isso não garante passagem simultânea para ela e o Carregador: confira a ocupação dos dois corpos antes do arrasto.</p>
+
+</div><div class="bloco-mapa"><p>O esquema mostra a ordem dos trechos e liga as duas rotas ao mesmo destino. Não está em escala:</p><figure class="mapa-rota"><img alt="Entrada a seis metros da área de trabalho. Rota direta: seis metros regulares, seis de entulho e seis regulares até o recuo aberto. Rota lateral: vinte e quatro metros regulares até o mesmo recuo. Desenho sem escala." src="imagens/rotas-do-carregador.png"/></figure></div><div class="colunas">
+<p>O recuo é uma área aberta de <strong>6 m por 6 m</strong>, no mesmo nível do piso. Chegar ali não tranca, paralisa, exorciza nem retira uma personagem do jogo. Há espaço para a pessoa contida, para o Carregador e para aliados que a alcancem. Ele pode tentar manter a contenção, mas a vítima conserva suas ações e suas saídas.</p>
+<p>A caixa está visível sobre um banco baixo. Foi definida para este cenário como <strong>1 Volume</strong>, com alça para uma mão, sem tranca e sem efeito mágico. Recolhê-la ao alcance é uma manipulação simples, se houver mão disponível. Manipulações adicionais seguem seus custos normais. Carregá-la ocupa a mão e soma carga; guardar, passar ou abandonar a caixa não ganha uma ação gratuita nova por fazer parte do objetivo.</p>
+<h3 id="corredor--atravessar-o-entulho">Atravessar o entulho</h3>
+<p>São fragmentos de madeira e argamassa espalhados no trecho de 6 m, com apoios irregulares entre eles. Trate-o como <strong>terreno difícil</strong> e informe isso antes da escolha de caminho. Ele não bloqueia a visão nem concede cobertura nesta disposição.</p>
+<table>
+<thead>
+<tr>
+<th>Quem atravessa 1,5 m</th>
+<th style="text-align: right;">Movimento consumido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Criatura andando em chão regular</td>
+<td style="text-align: right;">1,5 m</td>
+</tr>
+<tr>
+<td>Criatura andando no entulho</td>
+<td style="text-align: right;">3 m</td>
+</tr>
+<tr>
+<td>Criatura arrastando outra em chão regular</td>
+<td style="text-align: right;">3 m</td>
+</tr>
+<tr>
+<td>Criatura arrastando outra no entulho</td>
+<td style="text-align: right;">4,5 m</td>
+</tr>
+</tbody>
+</table>
+<p>O último valor já combina arrasto e terreno difícil. Não dobre novamente por haver um agarrão. Sem carga que imponha outra penalidade, andar pela rota direta custa <strong>24 m de movimento</strong>; arrastar por ela custa <strong>42 m</strong>. Pela lateral, os custos são <strong>24 m</strong> e <strong>48 m</strong>, respectivamente. A lateral percorre mais chão, mas cada trecho consome menos movimento que o entulho. Ela pode facilitar o acesso a uma posição intermediária ou permitir contornar um trecho ocupado. Compare onde cada rota permite chegar, além do custo total.</p>
+<p>Não há teste automático de equilíbrio, dano ao entrar ou perda de ação por estar sobre os fragmentos. Uma habilidade que ignore terreno difícil, forneça voo ou permita saltar segue seu próprio texto, incluindo o transporte de outro corpo. O mestre não acrescenta estilhaços danosos para recuperar uma dificuldade perdida.</p>
+<p>Retirar uma pequena peça não limpa os 6 m. Para abrir passagem, primeiro delimite o trecho e descreva o trabalho necessário; informe ação e tempo antes da tentativa. Não há uma ação universal de “limpar todo o entulho” neste exemplo. Contornar o entulho ou usar uma capacidade já disponível também pode resolver o obstáculo.</p>
+<h2 id="corredor--o-que-o-carregador-quer">O que o Carregador quer</h2>
+<p>Ele procura manter objetos e pessoas na disposição que reconhece. A caixa pertence ao banco; intrusos que insistem em mexer nela devem ir para o recuo. A sua figura se parece com um trabalhador encurvado, com dois braços e sinos presos ao próprio corpo. Compreende frases simples e aponta lugares, mas não fala nem se comunica por telepatia.</p>
+<p>Ao notar o grupo, aponta para a saída e para o banco. Qualquer tentativa de Agarrar segue a ordem de ações. Se alguém retira a caixa, avança para ela ou o ataca, role iniciativa antes da primeira ação disputada. O aviso é comportamento, não uma rodada de surpresa nem uma Reação gratuita.</p>
+<p>Na luta, escolha conforme o que ele percebe:</p>
+<ol>
+<li><strong>Há alguém levando a caixa?</strong> Aproxima-se por um trajeto possível e tenta Agarrar essa pessoa. Sem esse alvo, prioriza quem mexeu nela; depois, quem o atacou por último ao alcance. Empates ficam com o mais próximo.</li>
+<li><strong>Conseguiu agarrar?</strong> Confere carga e percurso, depois tenta arrastar ao recuo com movimento ainda disponível. Não causa dano só por arrastar. Mantém uma única vítima como prioridade de comportamento; ter duas mãos não lhe dá dois ataques na mesma Atacar. Outra tentativa num turno posterior ainda exigiria a ação e as contas de ambos os corpos.</li>
+<li><strong>Não consegue transportar?</strong> Não recebe força extra. Pode manter o agarrão, soltar para perseguir a caixa ou usar Empurrar num turno posterior, com o TR e o deslocamento publicados. Se estiver sendo ferido e não houver contenção útil, usa Pancada contra uma ameaça consciente alcançável.</li>
+<li><strong>Chegou ao recuo?</strong> Mantém a pessoa enquanto vê nela o risco de voltar à caixa. Se a caixa for levada por outra pessoa, solta o alvo sem ação e muda a perseguição pelos recursos que ainda tem. Dizer “larguei a caixa” não transfere o objeto sem resolver a manipulação e sua posição.</li>
+<li><strong>O grupo recuou?</strong> Não persegue além da entrada nesta ocorrência. Volta a cuidar do banco; isso é uma preferência observável, não uma barreira que impeça ataques a distância. Se atacado de fora, procura abrigo no galpão, sem cura ou nova ficha. A missão ainda exige retirar todos os companheiros.</li>
+</ol>
+<p>Não ataca deliberadamente alguém inconsciente. Essa conduta não pausa Socorro nem protege a pessoa de efeitos já ativos. Ao perceber que está muito ferido — <strong>8 PV ou menos</strong>, ponto de retirada escolhido para o exemplo — solta quem segura e tenta se retirar ao recuo, usando Desengajar quando houver ameaça de oportunidade. Isso não concede deslocamento fora do turno, invulnerabilidade ou fuga garantida.</p>
+</div><div class="tabela-fluida"><h2 id="corredor--o-que-o-grupo-pode-descobrir">O que o grupo pode descobrir</h2><p>Ao entrar, apresente o banco, a caixa, os dois caminhos e o entulho. Descreva o tilintar, as mãos vazias e o gesto entre saída e banco para quem puder perceber esses sinais. A distância e o chão difícil são informações evidentes. Quem reconhece a manobra pode conhecer suas regras; a personagem não precisa falhar num agarrão para o jogador receber a explicação de como sair dele.</p><table>
+<thead>
+<tr>
+<th>Ação do grupo</th>
+<th>Informação disponível</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ouvir os trabalhadores, antes de entrar</td>
+<td>A criatura tenta levar quem mexe na caixa para o recuo; os trabalhadores que largaram o serviço conseguiram sair. É relato de comportamento passado, sem garantia de próximo turno.</td>
+</tr>
+<tr>
+<td>Observar o piso e o recuo</td>
+<td>Marcas de arrasto chegam a uma área aberta. Não há cela, alçapão ou amarra esperando lá.</td>
+</tr>
+<tr>
+<td>Estudar os gestos e a disposição dos objetos</td>
+<td>Se ainda houver dúvida, <strong>Intuição CD 10</strong>, escolha local da escala do Livro de Regras 1.0, identifica a preocupação com a caixa no banco. Em combate, Padrão. Falha gasta a ação e não autoriza novas tentativas idênticas sem outra pista.</td>
+</tr>
+<tr>
+<td>Examinar sua energia</td>
+<td>Estudar com Sentir Energia, quando acessível, pode responder sobre o sinal percebido; use <strong>CD 10</strong> para o exame simples desta ocorrência. Não fornece toda a ficha ou intenção futura.</td>
+</tr>
+<tr>
+<td>Aplicar Leitura de Reservas num exame válido</td>
+<td>Informa <strong>0/0 PE</strong>, conforme a capacidade. A criatura ainda tem energia perceptível e pode fazer manobras; zero reserva gastável não significa ausência de energia amaldiçoada.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>As duas CDs são escolhas deste cenário, não uma resistência universal das maldições. Use resultados já garantidos por uma capacidade sem exigir o teste adicional desta tabela.</p>
+<p>Uma proposta concreta de retirada pode resolver a ocorrência por conversa. Por exemplo, o grupo se oferece para mostrar os registros aos responsáveis ali mesmo e devolvê-los ao banco. O Carregador pode aceitar algo que preserve sua intenção, se compreender a proposta. Se o resultado continuar incerto, use <strong>Influenciar com Persuasão, Padrão em combate, CD 14</strong> como dificuldade local anunciada; sucesso obtém a permissão específica negociada, falha mantém a recusa. Não cria obediência geral. Uma proposta que exija entregar tudo e abandonar o local não se torna possível por um número alto. Examinar os registros no lugar é progresso, mas não cumpre sozinho o objetivo de retirar a caixa; registre a diferença com o contratante.</p>
+<h2 id="corredor--agarrar-e-arrastar">Agarrar e arrastar</h2>
+<p>O Carregador é Médio, tem Força 3, Maestria 1 e um ataque. Com mão livre, usa <strong>Atacar</strong> e substitui esse ataque por <strong>Agarrar</strong>: alvo alcançável a até 1,5 m e no máximo Grande; <strong>TR Físico CD 12</strong>. Igualar evita. Falhar aplica Agarrado e ocupa a mão do Carregador. Não há rolagem de ataque, dano, crítico, PE ou recarga.</p>
+<p>Agarrado tem deslocamento zero, mas continua podendo atacar, conjurar e Bloquear conforme os requisitos. Não foi amarrado, silenciado ou impedido de usar as mãos. A fuga comum é <strong>Padrão e TR Físico CD 12</strong>; só depois do sucesso pode usar o movimento que ainda tiver. Ajudar não concede vantagem a esse TR por padrão.</p>
+<p>Para arrastar, use <strong class="formula">5 + Força = 8 Volume</strong> de limite normal e <strong>16 Volume</strong> como teto de arrasto, descontando o equipamento que o Carregador leve. Nesta ficha inicial ele não leva equipamento: os sinos integram o corpo. Some o corpo da vítima, em kg ÷ 12, aos itens dela. <strong>Exemplo de inventário:</strong> corpo de 72 kg e itens de 2 Volume somam 8; podem ser arrastados. Total 16 ainda cabe; 16,1 não cabe, sem arredondar. A contenção pode permanecer mesmo quando o transporte é impossível.</p>
+<p class="conta">Use o custo de movimento do arrasto. Ultrapassar o limite normal de 8 com o corpo arrastado não reduz também o deslocamento à metade. Se ele erguer a vítima para carregá-la, mudam as regras: acima de 8 e até 16, aplicam-se deslocamento pela metade e desvantagem em TR Físico. A anatomia, o apoio e a manutenção da contenção continuam necessários. O comportamento preparado usa arrasto pelo piso, sem converter a descrição em carregamento mais eficiente.</p>
+<div class="larga"><h3 id="corredor--dois-turnos-de-arrasto">Dois turnos de arrasto</h3><p>O exemplo começa num turno <strong>na área de trabalho</strong>, depois da aproximação: o Carregador está ao lado de uma personagem de corpo Médio, 72 kg e 2 Volume de itens. Ambos têm espaço para seguir lado a lado; nenhum deles bloqueia o caminho do outro. Se ele ainda estiver longe do alvo na sua cena, desconte primeiro o movimento necessário para alcançá-lo.</p><table>
+<thead>
+<tr>
+<th>Passo</th>
+<th>Recursos e resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tenta Agarrar</td>
+<td>Padrão/único ataque. O alvo obtém total 11 e fica Agarrado. Não sofre dano.</td>
+</tr>
+<tr>
+<td>Converte sua Bônus em Movimento</td>
+<td>Tem 9 + 9 = <strong>18 m</strong> de movimento neste turno; a Bônus foi gasta.</td>
+</tr>
+<tr>
+<td>Segue pela rota direta</td>
+<td>Arrasta 6 m regulares por 12 m de movimento, depois 1,5 m no entulho por 4,5 m. Gastou <strong>16,5 m</strong>, percorreu <strong>7,5 m</strong> e mantém 1,5 m que não paga o próximo trecho de arrasto.</td>
+</tr>
+<tr>
+<td>Outras pessoas agem em suas iniciativas</td>
+<td>A vítima pode tentar escapar, atacar ou usar outra capacidade válida; aliados podem intervir. Não se cria turno extra entre Agarrar e o arrasto, mas Reações preparadas ou outros gatilhos válidos podem ocorrer.</td>
+</tr>
+<tr>
+<td>Próximo turno do Carregador, se nada mudou</td>
+<td>Pode usar Movimento 9 m, converter Bônus para mais 9 m e usar Padrão para Correr: <strong>27 m</strong>. Faltam 4,5 m difíceis e 6 m regulares: custo <strong>25,5 m</strong>. Chega ao recuo sem atacar nem Desengajar nesse turno.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p class="conta">Também poderia converter a Padrão em Bônus e depois Movimento, obtendo os mesmos 27 m; não soma essa conversão a Correr com a mesma Padrão. Se escolher Desengajar, terá 18 m pelas outras duas ações e não completará nesse turno os 25,5 m restantes. A escolha entre alcançar o destino e evitar oportunidades aparece nas ações e na posição, sem uma reserva de PE.</p>
+<p class="conta">No estágio 2 de Integridade, cada deslocamento de 9 m cai para <strong>4,5 m</strong>. Agarrar continua sem PE. No primeiro turno da sequência, Movimento e Bônus convertida somariam 9 m: apenas 4,5 m de arrasto em chão regular. A CD não cai por ter sido ferido. No estágio 3, a desvantagem em ataques e TRs é do Carregador; não se transfere ao TR de quem ele tenta agarrar. A vítima aplica as próprias penalidades, se tiver.</p>
+<h2 id="corredor--como-enfrentar-o-carregador">Como enfrentar o Carregador</h2>
+<p><strong>Escapar por conta própria.</strong> Padrão e TR Físico contra a CD original da contenção. Falhar não apaga Bônus ou Reação ainda disponíveis. A pessoa Agarrada pode escolher outras ações além de tentar escapar.</p>
+<p><strong>Separar os corpos.</strong> Um aliado pode usar Empurrar ou uma capacidade apropriada. A manobra comum afasta o alvo 1,5 m do executor, após o TR. Confira a posição: um empurrão lateral pode manter os corpos ao alcance e não encerrar nada. Um aliado posicionado do lado da vítima pode empurrar o Carregador para longe dela; se a distância ultrapassar 1,5 m, o agarrão termina. O empurrão não leva automaticamente a vítima junto. Também é possível deslocar a vítima por uma capacidade válida; Agarrado impede seu deslocamento próprio, não todo movimento imposto.</p>
+<p><strong>Fazer o Carregador soltar.</strong> Guarda Aberta, Inconsciente, deixar de manter a mão ou separação além do alcance encerram o agarrão comum. Causar dano, por si, não solta a mão. Derrubar o Carregador também não o faz soltar a vítima automaticamente; resolva o que a condição realmente diz. Atingir a mão não cria desmembramento sem regra.</p>
+<p><strong>Disputar a caixa.</strong> Enquanto o Carregador ocupa uma mão e percorre o galpão, outra pessoa pode retirar o objeto. Ele precisa perceber a mudança e usar seus próprios recursos para responder. Largar o alvo é gratuito; alcançar a caixa ou agarrar outra pessoa não é. Não use conhecimento do mestre para detectar uma retirada bem ocultada.</p>
+<p><strong>Intervir no caminho.</strong> Ocupar uma passagem, preparar uma resposta ou usar uma habilidade de deslocamento pode mudar a rota. Confira espaço, linha de visão, gatilho e Reação. Uma parede ou corpo que bloqueie o percurso continua bloqueando, mesmo que a carga esteja dentro do limite. O movimento voluntário do Carregador pode provocar oportunidade; a vítima arrastada não provoca por esse movimento. Um ataque de oportunidade comum não pode ser trocado por Agarrar ou Empurrar.</p>
+<h2 id="corredor--prisioneiros-e-feridos">Prisioneiros e feridos</h2>
+<p>Agarrar alguém não permite amarrá-lo automaticamente. <strong>Cordas ou algemas exigem 1 minuto, duas mãos e acesso aos pulsos</strong>, com alvo permitindo, inconsciente ou impedido de resistir durante toda a tarefa. Só Agarrado, Derrubado, Atordoado ou Guarda Aberta não basta. A equipe precisa trazer material compatível; a cena não fornece uma corda invisível nem transforma os sinos em algemas.</p>
+<p>Mãos amarradas não eliminam energia, voz ou movimento das pernas. Amarrar também os tornozelos impede deslocamento pela amarra; conte tempo e material suficientes e confirme compatibilidade. Para sair, gaste Padrão e faça Acrobacia CD 14 para escapar da corda, ou Atletismo CD 20 para rompê-la; romper uma algema exige CD 24. Com as mãos livres, desfazer um nó ao alcance exige Padrão, sem teste. Cortar uma corda ao alcance exige lâmina adequada e Padrão. Chave e gazuas seguem Fechaduras e contenção. Registre qual contenção existe, em vez de escrever apenas “capturado”.</p>
+<p>Para retirar um aliado disposto ou inconsciente, não é necessário agarrá-lo. Seu corpo e equipamentos ainda contam na carga; a rota e os metros permanecem. Uma pessoa com Força 2, limite 7 e 1 Volume próprio que leve um aliado de 72 kg com 2 Volume de itens totaliza <strong>9 Volume</strong>: carregamento acima do limite, mas dentro de 14, com as penalidades publicadas. Arrastar é outra escolha, com custo por trecho e teto próprios.</p>
+<p>Dois carregadores podem dividir essa carga, desde que todos tenham apoio, mãos e espaço. Distribua o Volume antes de começar, conte o equipamento de cada um e use o menor movimento disponível, cobrando o trecho de ambos. Em combate, deslocamento simultâneo exige Preparar ou outra permissão; não entregue movimento fora do turno a um aliado só porque ele aceitou ajudar.</p>
+<h2 id="corredor--encerrar-a-missao">Encerrar a missão</h2>
+<p>O grupo pode recuar pela entrada. Para sair sem provocar oportunidades pelo próprio movimento, cada participante usa os meios que tiver, como Desengajar; a preferência do Carregador por ficar dentro não cancela Reações válidas. Uma vítima agarrada precisa sair da contenção ou receber transporte que realmente a separe do agarrador. O limite do galpão não a teleporta para a equipe.</p>
+<p>Se alguém chegar a zero de vida, use <strong>Insistir, Aguentar, Socorro e Sequelas</strong> do Livro de Regras 1.0 e <a href="../apoio-revisao-textual-118/prova-textual.html#socorro">Quedas e socorro</a>. Chegar a zero, parar de participar, receber socorro e terminar o encontro são acontecimentos diferentes. O Carregador, como inimigo deste exemplo, é derrotado a zero de vida ou Integridade, sem Insistir ou janela de socorro de personagem. A queda encerra sua contenção; a equipe ainda pode precisar tratar ou retirar alguém.</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Resultado</th>
+<th>Estado a registrar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Caixa recuperada e todos fora de perigo</td>
+<td>Objetivo de retirada cumprido. O Carregador pode continuar vivo no galpão; comunicar isso antes de liberar trabalhadores para voltar.</td>
+</tr>
+<tr>
+<td>Criatura derrotada</td>
+<td>Confirmar se houve destruição, interesse em Doma e necessidade de socorro. A caixa ainda precisa ser retirada.</td>
+</tr>
+<tr>
+<td>Grupo retira-se sem a caixa</td>
+<td>Missão incompleta, com pistas, percurso e comportamento conhecidos. Registrar quem continua no local.</td>
+</tr>
+<tr>
+<td>Consulta negociada, caixa permanece</td>
+<td>Informação obtida e acordo concreto. Não registrar entrega da caixa. O contratante pode aceitar outro desfecho ou pedir continuação.</td>
+</tr>
+<tr>
+<td>Personagem chega ao recuo agarrada</td>
+<td>Contenção e posição continuam; não é derrota automática nem término da participação.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Mudar de cena não renova vida, Integridade, equipamento, condições ou efeitos. Registre saldos, horários e recuperação efetivamente realizada. Se o Carregador reaparecer, use o último estado e as regras pertinentes; preparar um reencontro não exige fingir que ele voltou inteiro. Se continuar derrotado, não se levanta apenas para reabrir a luta.</p>
+<p>No fechamento da guilda, anote caixa e portador, destino da criatura, feridos, contenções, riscos restantes e pessoas avisadas. Em campanha fechada, o mesmo registro pode ficar no diário da missão. A remuneração segue o acordo já existente; este encontro não cria tabela de recompensa.</p>
+<h2 id="corredor--o-que-conferir-em-mesa">O que conferir em mesa</h2>
+<p>A leitura e as contas ajudam a conferir ações, alcance, carga, formas de escapar, percursos e Doma. Jogar a cena ainda é necessário para saber como essas escolhas funcionam na mesa e avaliar seu equilíbrio. Observe em mesa quanto tempo os jogadores passam sem escolher, quais informações precisaram ser repetidas, o que mudou a decisão de rota e se o objetivo fez diferença em relação a apenas atacar.</p>
+<p>A lição do encontro é simples: regras já existentes permitem criar um inimigo que tenta retirar intrusos do caminho. Sua intenção, seu corpo e o depósito dão identidade à cena e criam escolhas para o grupo. Acrescentar PE, recarga ou dano não era necessário para escrever esta ocorrência.</p></div></article><article class="folha" id="doma"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Carregador: ficha e Doma</h1></header><div class="colunas">
+<p><strong>Ficha experimental.</strong> A situação completa está em <a href="#corredor">O Carregador no depósito</a>. Números e comportamento foram escolhidos para este encontro, sem criar uma escala geral de inimigos. Agarrar e as demais ações comuns seguem o Livro de Regras 1.0.</p>
+<div class="larga"><h2 id="doma--ficha-do-encontro">Ficha do encontro</h2><p><strong>Maldição de nível 2, Maestria 1, tamanho Médio, com alma.</strong> Corpo sólido de 72 kg, duas pernas, dois braços e duas mãos. Sinos incorporados ao corpo não são equipamento removível, recompensa ou capacidade sonora. Visão e audição comuns; compreende frases simples, responde com gestos e ruídos. Sem visão especial, fala, telepatia, voo ou passagem através de matéria.</p><table>
+<thead>
+<tr>
+<th style="text-align: right;">Força</th>
+<th style="text-align: right;">Destreza</th>
+<th style="text-align: right;">Constituição</th>
+<th style="text-align: right;">Inteligência</th>
+<th style="text-align: right;">Essência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto" style="text-align: right;">3</td>
+<td class="numero-curto" style="text-align: right;">1</td>
+<td class="numero-curto" style="text-align: right;">3</td>
+<td class="numero-curto" style="text-align: right;">1</td>
+<td class="numero-curto" style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valor e limite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida</td>
+<td><strong>32/32 PV</strong>, total experimental escolhido para o encontro.</td>
+</tr>
+<tr>
+<td>Integridade</td>
+<td><strong>16/16</strong>, metade da vida máxima.</td>
+</tr>
+<tr>
+<td>Reserva gastável</td>
+<td><strong>0/0 PE</strong>. Não tem Técnica Inata, conjurações ou talento com gasto. Isso não retira sua energia amaldiçoada perceptível.</td>
+</tr>
+<tr>
+<td>Defesa / Bloquear</td>
+<td><strong>11</strong> / <strong class="formula">2d10 + 0</strong>. Bloquear é escolhido antes do ataque e não gasta Reação.</td>
+</tr>
+<tr>
+<td>Iniciativa / deslocamento</td>
+<td><strong class="formula">d20 + 1</strong> / <strong>9 m</strong> no chão, antes de penalidades.</td>
+</tr>
+<tr>
+<td>TRs</td>
+<td>Físico <strong class="formula">+4</strong> por Força, treinado; Vigor <strong class="formula">+3</strong>; Intelecto <strong class="formula">+1</strong>; Espírito <strong class="formula">+1</strong>.</td>
+</tr>
+<tr>
+<td>Perícias treinadas</td>
+<td>Atletismo <strong class="formula">+4</strong>, Furtividade <strong class="formula">+2</strong>, Percepção <strong class="formula">+2</strong>, Intuição <strong class="formula">+2</strong>. As demais usam só o atributo e respeitam acesso/requisitos.</td>
+</tr>
+<tr>
+<td>Equipamento / Ofícios</td>
+<td>Nenhum; zero Volume inicial de itens. Os sinos no corpo não fornecem ferramentas.</td>
+</tr>
+<tr>
+<td>Carga</td>
+<td>Normal <strong>8 Volume</strong>; teto de arrasto <strong>16</strong>, descontados os itens próprios que passe a levar. Corpo próprio não é carga que ele leva.</td>
+</tr>
+<tr>
+<td>Ações</td>
+<td>Uma Padrão, Movimento, Bônus e Reação, pelas regras comuns. Um ataque em Atacar. Pode converter ações pelo Livro de Regras 1.0; não tem Bônus ofensiva própria.</td>
+</tr>
+<tr>
+<td>Proteções</td>
+<td>Sem resistência, vulnerabilidade, imunidade ou RD concedida pela ficha. Capacidades válidas contra maldições conservam suas regras.</td>
+</tr>
+<tr>
+<td>Talentos / capacidades especiais</td>
+<td>Nenhum. A identidade deste inimigo usa corpo, manobras e intenção.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pancada — Atacar, um ataque desarmado a 1,5 m.</strong> +4 para acertar, <strong class="formula">1d4 + 3 de Concussão</strong>; crítico <strong class="formula">2d4 + 3</strong>. Sem PE e sem condição adicional. Pode usar parte livre do corpo compatível com o golpe. Aparar e Brecha, quando permitidos, conservam seus gatilhos, custos e limites; não oferecem agarrão em revide.</p>
+<p><strong>Agarrar — substitui esse único ataque.</strong> Mão livre; alvo alcançável a até 1,5 m e até Grande; <strong>TR Físico CD 12</strong>. Falha: Agarrado, mão ocupada; sucesso: sem efeito. Sem rolagem de ataque, crítico, dano, PE, recarga ou deslocamento incluído. A fuga é Padrão/TR Físico contra a CD original 12. Guarda Aberta ou Inconsciente no agarrador, soltura, perda da mão ocupada ou separação além do alcance encerram. Agarrado não impede automaticamente atacar, conjurar, Bloquear ou levantar de Derrubado.</p>
+<p><strong>Derrubar / Empurrar — alternativas de Atacar.</strong> Mesmos requisitos comuns de alcance e tamanho e <strong>TR Físico CD 12</strong>; substituem a Pancada. Na falha, Derrubado ou afastamento de <strong>1,5 m</strong> por caminho possível, respectivamente. Não somam dano. Não podem substituir oportunidade comum ou ataque de Bônus sem permissão específica.</p>
+<p><strong>O que pode interromper as manobras.</strong> São manobras corporais, sem depender de Técnica Inata. Rescaldo não remove seus braços nem inventa cobrança. Desarma o Feitiço não cancela automaticamente um agarrão comum: confira o alvo e o momento permitidos pelo poder. Esta ficha não cria efeito energético persistente.</p>
+<p><strong>Integridade:</strong> de 16 a 13, estágio 0; de 12 a 9, estágio 1; de 8 a 5, estágio 2; de 4 a 1, estágio 3; zero, estágio 4. Penalidades cumulativas: perícias; depois deslocamento 4,5 m; depois ataques/TRs. O aumento no custo de feitiços não acrescenta gasto de energia às manobras. A zero de vida ou Integridade, fica derrotado e para de atuar; não usa Insistir nem Socorro de personagem jogador.</p>
+<p><strong>Comportamento:</strong> protege a caixa; tenta levar quem mexe nela para o recuo. Não golpeia inconscientes. Não persegue além da entrada; se atacado de fora, busca abrigo. Com 8 PV ou menos, solta a contenção e tenta se afastar no próprio turno. São escolhas de condução, sem ações adicionais ou invulnerabilidade.</p>
+<div class="larga"><h2 id="doma--o-lugar-em-resumo">O lugar em resumo</h2><table>
+<thead>
+<tr>
+<th>Informação</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entrada → área de trabalho</td>
+<td>6 m regulares; grupo na entrada, Carregador e caixa na área.</td>
+</tr>
+<tr>
+<td>Área → recuo pela direta</td>
+<td>6 m regulares + 6 m difíceis + 6 m regulares. 18 m físicos; andar custa 24 m; arrastar custa 42 m.</td>
+</tr>
+<tr>
+<td>Área → recuo pela lateral</td>
+<td>24 m regulares; andar custa 24 m; arrastar custa 48 m.</td>
+</tr>
+<tr>
+<td>Largura / destino</td>
+<td>Rotas com pelo menos 3 m livres; recuo aberto de 6 × 6 m.</td>
+</tr>
+<tr>
+<td>Caixa</td>
+<td>1 Volume, uma mão, sem tranca. Recolher segue manipulação simples; demais manipulações conservam custos.</td>
+</tr>
+<tr>
+<td>Entulho</td>
+<td>Custo de movimento, sem dano, cobertura ou teste automático.</td>
+</tr>
+<tr>
+<td>Informação garantida na descrição</td>
+<td>Rotas, distâncias, entulho e caixa. Sinais da criatura dependem dos sentidos disponíveis.</td>
+</tr>
+<tr>
+<td>Investigar / negociar</td>
+<td>Estudar Intuição ou Sentir Energia CD 10 para as perguntas delimitadas no encontro; Persuasão CD 14 para acordo plausível e específico, como escolha local. Capacidades com resultado garantido têm prioridade.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p><strong>Lembretes para a mesa:</strong> a Bônus pode virar Movimento. Agarrar não pausa o turno antes do arrasto. A vítima arrastada não provoca oportunidade por esse movimento; o Carregador pode provocar. Não conte dano como soltura, nem Ajudar como vantagem automática ao TR de fuga. Reavaliar carga e posição quando alguém pegar ou largar a caixa.</p>
+<h2 id="doma--se-alguem-quiser-domar">Se alguém quiser domar</h2>
+<p>Mostre a ficha resultante antes de o jogador escolher tentar Doma. Abaixo está a <strong>conversão experimental deste caso</strong>, com um talento próprio de transporte. Sua Categoria de Efeito (CE) e seus limites ainda precisam de avaliação em mesa. Se usar outra montagem, prepare e mostre a substituta antes da tentativa.</p>
+<p><strong>Requisito:</strong> invocador de nível 2 ou maior. O grupo pode ajudar a derrotar a maldição. A rota recomendada aqui é tentar fora do combate, depois de derrotá-la sem destruí-la. Não foi definido um ponto para tentar a Doma antes da derrota; a permissão do Livro de Regras 1.0 não estabelece metade da vida como padrão.</p>
+<p class="conta">Antes do golpe final, confira o dano recebido após defesas na <strong>ficha do encontro</strong>, que tem 32 PV máximos. Uma ocorrência direta que alcance 32, ou excedente além de zero que <strong>supere 16</strong>, destrói. Igualar o excedente 16 não basta. Dano em área derruba, mas não destrói por si. Exemplo a partir de 5 PV: dano direto 21 deixa excedente 16, sem atingir os limites de destruição; dano direto 22 deixa excedente 17 e destrói. Efeitos posteriores precisam ser acompanhados.</p>
+<p>Fora do combate, a maldição faz <strong>um TR Espírito</strong>, aqui +1 antes das penalidades aplicáveis, contra a CD de conjuração da rota do candidato. <strong>Falha doma; sucesso exorciza.</strong> Igualar a CD é sucesso: a maldição é exorcizada, em vez de permitir outra tentativa até falhar. Use as condições atuais: um dano de Alma que a leve ao estágio 3 impõe desvantagem ao próprio TR; estar ferida só em PV não cria essa penalidade.</p>
+<div class="larga"><h3 id="doma--a-ficha-depois-da-doma">A ficha depois da Doma</h3><p>Conserva nível 2, corpo, massa, atributos, alma, sentidos, comunicação e deslocamento. Depois da Doma, o transporte segue os limites de entidade descritos abaixo. <strong>M</strong> é a Maestria atual do invocador; <strong>B</strong> é metade, para baixo, do atributo Essência ou Inteligência escolhido por ele para a Defesa das entidades.</p><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Domada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida máxima / Integridade máxima</td>
+<td><strong>14 / 7</strong>. Vida: 5 + Constituição 3 + (3 + Constituição 3) × (2 − 1).</td>
+</tr>
+<tr>
+<td>Defesa / Bloquear sem equipamento</td>
+<td><strong class="formula">11 + B</strong> / <strong class="formula">2d10 + B</strong>.</td>
+</tr>
+<tr>
+<td>Acerto / CD corporal</td>
+<td><strong class="formula">3 + M</strong> / <strong class="formula">11 + M</strong>. Com M = 1: +4 / CD 12.</td>
+</tr>
+<tr>
+<td>TRs</td>
+<td>Físico por Força <strong class="formula">3 + M</strong>; Vigor +3; Intelecto +1; Espírito +1.</td>
+</tr>
+<tr>
+<td>Perícias</td>
+<td>Atletismo <strong class="formula">3 + M</strong>; Furtividade, Percepção e Intuição <strong class="formula">1 + M</strong>. Outros usos respeitam acesso e atributo.</td>
+</tr>
+<tr>
+<td>Famílias</td>
+<td>Alcance Livre; Mira e Controle abertas; outras seis Fechadas. Não concede capacidades por si.</td>
+</tr>
+<tr>
+<td>Básica conhecida</td>
+<td><strong>Pancada</strong>, Classe 0, Toque 1,5 m, ataque 3 + M, <strong>1d6 Concussão</strong>, crítico <strong>2d6</strong>, sem atributo no dano, PE, Melhoria ou Restrição.</td>
+</tr>
+<tr>
+<td>Especial</td>
+<td>Uma vaga, <strong>vazia</strong>. Não recebe conjuração ofensiva por ser domada.</td>
+</tr>
+<tr>
+<td>Talento</td>
+<td><strong>Conduzir pelo chão</strong>, proposta própria CE1 descrita abaixo; ocupa a única escolha de talento do nível.</td>
+</tr>
+<tr>
+<td>Técnica / reserva própria</td>
+<td>Não tem Técnica Inata própria; <strong>nenhuma reserva própria, 0/0 PE</strong>. Existir como maldição não basta para ganhar a reserva destinada à domada com técnica.</td>
+</tr>
+<tr>
+<td>Iniciativa e atuação</td>
+<td>Usa a iniciativa do invocador, Movimento próprio e uma básica por ciclo. Reação coletiva das entidades, separada da Reação pessoal do invocador.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p><strong>Exemplo de Defesa:</strong> invocador de Maestria 1 e Essência escolhida 2 dá B = 1: Defesa 12 e Bloquear 2d10 + 1. O invocador não substitui a Força da entidade pela própria nem lhe concede seus ataques adicionais.</p>
+<p><strong>Agarrar depois da Doma:</strong> gaste a básica em Atacar e substitua o ataque por Agarrar. Confira mão, alcance, tamanho e TR Físico CD 11 + M. Não causa dano nem gasta PE ou vaga de especial: segue as manobras e a condição Leve Agarrado do Livro de Regras 1.0. Essa básica não pode também pagar Pancada, Correr ou Desengajar no mesmo ciclo.</p>
+<h3 id="doma--conduzir-pelo-chao">Conduzir pelo chão</h3>
+<p><strong>Proposta de Talento Próprio CE1, de transporte.</strong> Permite arrastar <strong>uma criatura de tamanho Médio ou menor</strong> com uma mão adequada, pelo chão, conservando corpo, apoio e alcance. O alvo precisa estar disposto, inconsciente ou sob um Agarrar válido. O talento não aplica Agarrado nem impede fuga. Um alvo que resiste continua resistindo.</p>
+<p>A capacidade é <strong class="formula">5 + Força = 8 Volume</strong>, somando o corpo transportado, seus itens e o equipamento da entidade. O teto geral de arrasto de 16 não aumenta a capacidade do talento, que permanece 8. Acima disso, redistribua a carga ou use outro meio. Agarrar ainda pode alcançar uma criatura Grande pelos requisitos comuns; <strong>o talento não permite transportá-la</strong>.</p>
+<p>Cada 1,5 m de arrasto custa 3 m de Movimento, ou 4,5 m em terreno difícil. Só permite arrastar pelo chão, sem montaria, assento, elevação, voo, escadas incompatíveis ou armazenamento fora de campo. Sustentar o transporte não gasta PE nem básica; Agarrar e outras ações mantêm seus custos. Não concede Bônus independente, básica adicional ou Reação extra.</p>
+<p>Se a entidade sair de campo, o passageiro e seus objetos ficam onde chegaram, com os mesmos recursos e condições. O equipamento próprio segue Carga e equipamento. O talento não sustenta alguém sem apoio nem ignora obstáculos. Sem recolhimento, corpo e carga continuam no mundo.</p>
+<p class="conta"><strong>Caso permitido:</strong> pessoa de 72 kg com itens de 2 Volume, transportada pela entidade sem equipamento: total 8. Com 9 m de Movimento, pode arrastar 4,5 m regulares ou 3 m difíceis. Se usar a básica para Correr, terá 18 m e poderá arrastar 9 m regulares; não usa a mesma básica para Agarrar. Se a entrada comum não lhe deu básica naquele ciclo, só dispõe do Movimento ainda válido e não pode aplicar uma nova contenção.</p>
+<p class="conta"><strong>Caso impedido:</strong> os mesmos 8 mais um item de 0,1 totalizam 8,1. O transporte pelo talento não pode começar; segurar a pessoa no lugar por Agarrar continua possível. Entregar o item à pessoa transportada não reduz a soma. Explique esse limite antes da Doma: o inimigo arrastava até 16, mas o talento da entidade tem a capacidade menor descrita acima.</p>
+<h3 id="doma--depois-da-doma">Depois da Doma</h3>
+<p>Registre posição, vida, Integridade, condições e dano excedente relevante. Doma não cura: mantenha os pontos atuais, limitados aos novos máximos. Zero continua zero. Capturada sem vida e com Integridade cheia, fica com <strong>0/14 PV e 7/7 de Integridade</strong>, não 14 PV. Se a Integridade estiver zero, precisa recuperar pelo menos 1 antes do retorno.</p>
+<p>Sem capacidade do invocador que permita recolher uma maldição domada, ela permanece no mundo. Não ofereça armazenamento ou manifestação à distância por analogia com um shikigami. Caída e sem recolhimento, fica <strong>Desligada</strong> no lugar, conforme o Livro de Regras 1.0.</p>
+<p>Quando os requisitos de retorno forem atendidos, religar a entidade caída de nível 2 custa <strong>Bônus e 2 PE do invocador</strong>, no lugar do corpo; volta com <strong>7/14 PV</strong>, sem recuperar Integridade por esse pagamento e sem básica criada pelo retorno. A entrada comum, quando uma capacidade permitir recolhimento e manifestação, custa <strong>Bônus e 1 PE</strong>, não fornece básica naquele ciclo e exige outra Bônus para a primeira tarefa. Respeite o teto de duas entidades ativas e qualquer exceção efetivamente possuída.</p>
+<p>Você pode ordenar: “Mantenha aquela pessoa no lugar” ou “leve este aliado até a entrada pelo chão livre”. Dar ou mudar a tarefa custa a Bônus do invocador; agir e percorrer o caminho usam a básica e o Movimento da entidade. Ela não ganha a Bônus do inimigo nem os 18 m do turno de agarrão do encontro. Inconsciência e morte confirmada do invocador têm consequências diferentes; consulte <a href="../../07 - Edicao de Leitura/capitulos/c09.html#s054">Transporte e continuidade</a>.</p>
+
+
+</div><div class="larga registro-final"><h2 id="doma--registro-para-a-mesa">Registro para a mesa</h2><ul>
+<li>Objetivo e portador da caixa:</li>
+<li>Posições e rota escolhida:</li>
+<li>Carregador: PV, Integridade, condições, mão ocupada e movimento restante:</li>
+<li>Vítima: massa, itens, contenção/CD e recursos disponíveis:</li>
+<li>Socorro: estado, janela, atendimento e responsável:</li>
+<li>Fim da oposição / fim do perigo / retirada de todos:</li>
+<li>Doma: candidato, nível, CD, condições do TR, resultado e ficha mostrada:</li>
+<li>Reencontro ou providência posterior:</li>
+</ul><p><strong>Exemplo experimental:</strong> as regras e as contas foram conferidas. A ficha ainda precisa ser testada em mesa; seu equilíbrio não está confirmado.</p></div></article></main><p class="rodape-tela"><a href="../120-revisao-de-perigos-e-do-carregador.md">Registro da revisão</a></p></body></html>

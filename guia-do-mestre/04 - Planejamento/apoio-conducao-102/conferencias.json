@@ -1,0 +1,312 @@
+{
+  "pdf_sha256": "e5c833907320f5ddd3b14e54dc086330b1243873920cf87a0fdc18823b40e870",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 585,
+      "fim_corpo": 786.258357
+    },
+    {
+      "pagina": 2,
+      "palavras": 665,
+      "fim_corpo": 782.933358
+    },
+    {
+      "pagina": 3,
+      "palavras": 590,
+      "fim_corpo": 734.958357
+    },
+    {
+      "pagina": 4,
+      "palavras": 668,
+      "fim_corpo": 772.658358
+    },
+    {
+      "pagina": 5,
+      "palavras": 656,
+      "fim_corpo": 756.358357
+    },
+    {
+      "pagina": 6,
+      "palavras": 589,
+      "fim_corpo": 708.208357
+    }
+  ],
+  "links_locais_conferidos": 66,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#41-descrever-ouvir-e-responder"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#42-quando-pedir-um-teste"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#43-interpretar-e-negociar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#44-conduzir-uma-investigacao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#45-as-ideias-dos-jogadores-e-o-cenario"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#46-atencao-ritmo-e-mudanca-de-cena"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#47-combate-socorro-e-retirada"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "#48-duvidas-e-fim-da-sessao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s082"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s083"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s085"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s022"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s023"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "destino": "../102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "capitulo-4.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--ler"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#geral--ocultacao-ataque"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "destino": "#dano--exaustao"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s082"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s083"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s085"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s022"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s023"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "99-sumario-comentado-e-caminhos-de-leitura.md"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "apoio-conducao-102/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "97-comparacao-critica-com-guias-de-mestre.md"
+    },
+    {
+      "origem": "04 - Planejamento/102-conducao-participacao-e-ritmo.md",
+      "destino": "apoio-conducao-102/amostra.json"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    }
+  ],
+  "palavras_html_conferidas": 3657,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_posicionadas": 3753,
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 13,
+  "fontes_antigas_preservadas": 104,
+  "capitulos_novos_anteriores_preservados": 3,
+  "pdf_integrado_preservado": true,
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "limite": "Presença textual e integridade não substituem revisão visual e leitura externa."
+}

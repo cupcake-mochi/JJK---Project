@@ -1,0 +1,50 @@
+{
+  "registro": 115,
+  "grupos": {
+    "B1": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-113/prova-textual.html#c04",
+      "folhas": [
+        "s024"
+      ]
+    },
+    "B2": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c06",
+      "folhas": [
+        "s058",
+        "s061",
+        "s068"
+      ]
+    },
+    "B3": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c07",
+      "folhas": [
+        "s028",
+        "s032"
+      ],
+      "consulta_publicada": "s092"
+    },
+    "B4": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c08",
+      "folhas": [
+        "s038",
+        "s040"
+      ]
+    },
+    "B5": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c09",
+      "folhas": [
+        "s042",
+        "s044"
+      ]
+    }
+  },
+  "guilda": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c10",
+  "avisos": {},
+  "casos_revisados": {
+    "s089": {
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#arata",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "motivo": "CD de História corrigida de 16 para 18 da escala fixa; demais valores e capacidades preservados."
+    }
+  }
+}

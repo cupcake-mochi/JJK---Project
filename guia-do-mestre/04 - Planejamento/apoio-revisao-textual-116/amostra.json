@@ -1,0 +1,71 @@
+{
+  "registro": 116,
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "sha256": "98ea70686273456e305ebf198d838cef3396e13d6306ae7b0e74534467cab637",
+      "id": "preparar",
+      "tipo": "formulario",
+      "titulo": "Preparar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "sha256": "3468395357951570251f443372f60fd93d38a061f4e541986c3377559737ad86",
+      "id": "conduzir",
+      "tipo": "consulta",
+      "titulo": "Conduzir a sessão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "sha256": "2180d66e65ea40959624ac6942d7a9b5c1d9a90e95c59c65c8ced9c96a5bc729",
+      "id": "retomar",
+      "tipo": "formulario",
+      "titulo": "Retomar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "sha256": "13b46c3c8a40ce8542fa2b222114ac2574df1d0b7e9d5d13f2af99b80b975496",
+      "id": "exemplo-preparo",
+      "tipo": "exemplo",
+      "titulo": "Preparo preenchido: a despedida"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "8aa851ba49732eaff8b2d033484a95ceb7b382a4d5885eadd10641da80900b83",
+      "id": "exemplo-retomada",
+      "tipo": "exemplo",
+      "titulo": "Retomada preenchida: a sala de conservação"
+    }
+  ],
+  "guia_de_escolha": {
+    "fonte": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+    "sha256": "6297285bcc76dce41c639bf20f14b13479deae6acde6b55ac79e3510e4ac8189"
+  },
+  "html": "04 - Planejamento/apoio-revisao-textual-116/prova-textual.html",
+  "html_sha256": "70343d41cae5588f61b0811fccd80a8fa807f1e2e20a77b06eb4c293e75289c5",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-116/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa-Revisao-Textual.pdf",
+  "pdf_sha256": "49e8d09756276aa25437f1f16fdca49376d1779c5a8b4805a8d10ddb84e37ac7",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 254
+    },
+    {
+      "pagina": 2,
+      "palavras": 540
+    },
+    {
+      "pagina": 3,
+      "palavras": 277
+    },
+    {
+      "pagina": 4,
+      "palavras": 499
+    },
+    {
+      "pagina": 5,
+      "palavras": 530
+    }
+  ],
+  "limite": "Cinco folhas revistas; casos extensos, demais consultas e conferência global ainda pendentes. Pacote 105 preservado como histórico."
+}

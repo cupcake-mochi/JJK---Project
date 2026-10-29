@@ -1,0 +1,421 @@
+[
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "O curto normalmente recupera",
+    "depois": "O descanso curto normalmente recupera"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Fora de ambiente propício, confira a porcentagem de Exaustão.",
+    "depois": "Fora de um lugar propício, a recuperação pode ser menor: use a porcentagem indicada pelo degrau de Exaustão."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Uma entrega no dia seguinte não executa o trabalho restante.",
+    "depois": "Esperar até o dia seguinte não substitui as horas de trabalho que faltam."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "se aceitar interrupção.",
+    "depois": "se o trabalho puder ser interrompido."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "um trabalho extenso com resultado persistente conserva a dedicação exigida mesmo quando narrado em duas frases.",
+    "depois": "um trabalho demorado continua exigindo suas horas, mesmo quando é resumido em duas frases."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Uma ficha liberada tem acesso sem mínimo de missões ou postagens.",
+    "depois": "Toda ficha liberada recebe suas horas, sem exigir um mínimo de missões ou postagens."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Separe horas **confirmadas, reservadas e livres**.",
+    "depois": "Anote separadamente as horas de trabalho já conferidas, as que ainda aguardam conferência e as que podem ser usadas: **confirmadas, reservadas e livres**."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Informe o prazo de envio dos registros; aceitar atividades num envio conjunto não exige presença diária nem autoriza voltar no tempo.",
+    "depois": "Informe até quando os registros devem ser enviados. O jogador pode reunir várias atividades num único envio, sem precisar postar todos os dias; isso não permite mudar o que aconteceu antes."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Anuncie o intervalo maior para gastar e essa concentração de horas.",
+    "depois": "Explique que o ciclo maior dá mais tempo para usar as horas, mas também permite concentrar mais trabalho de uma vez."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "O treino permite a prática aprendida, com materiais, ferramentas e acesso adequados.",
+    "depois": "O treino no Ofício permite realizar os trabalhos aprendidos, com materiais, ferramentas e acesso adequados."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "A retomada respeita o que foi preservado.",
+    "depois": "Ao retomar, aproveite as partes que não foram perdidas."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Compras posteriores de armas de fogo usam o preço correspondente, não repetem a condição de criação.",
+    "depois": "Ao comprar armas de fogo depois da criação da personagem, use o preço de compra, sem repetir a condição inicial."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Permite uma ferramenta por vez, até a patente reconhecida e com teto de grau 1; trocar exige voltar e devolver.",
+    "depois": "Permite retirar uma ferramenta por vez, conforme a patente reconhecida, até grau 1; trocar exige voltar e devolver."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Nível e requisitos do efeito continuam separados da patente.",
+    "depois": "A patente permite a retirada; o nível e os outros requisitos continuam determinando se a personagem pode usar o efeito."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Forneça **base, grau, efeito, requisitos, Volume e usos**.",
+    "depois": "Entregue a ficha com **base, grau, efeito, requisitos, Volume e usos**."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Armas e escudos respeitam mãos.",
+    "depois": "Confira quantas mãos as armas e os escudos exigem."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Para frequência por descanso, o item acompanha o portador na pausa indicada.",
+    "depois": "Para recuperar usos por descanso, o item precisa acompanhar o portador na pausa indicada."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Marque no primeiro uso do efeito na missão.",
+    "depois": "No primeiro uso do efeito na missão, marque uma missão consumida."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Aplique falha e demais ajustes antes de arredondar somente o XP final para baixo.",
+    "depois": "Aplique a redução por falha e os demais ajustes. Só então arredonde o XP final para baixo."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Outro participante pode estar na primeira posição: na última linha, recebe 100.",
+    "depois": "Outro participante pode estar concluindo sua primeira missão da semana: na última linha, ele recebe 100."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "O feito não paga XP; sua confirmação permite aplicar, no encerramento, quantos níveis o XP guardado pagar.",
+    "depois": "O feito não substitui o custo em XP. Ao confirmá-lo no encerramento, a personagem pode avançar quantos níveis o XP guardado permitir."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Uma entidade acrescenta outra criatura à atuação do personagem.",
+    "depois": "Entidades são criaturas que a personagem pode criar, conquistar ou obter por uma capacidade."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "O nome da proposta não fornece uma regra pronta.",
+    "depois": "Dar um nome à ideia ainda não define como ela funciona."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "### Um preço que faz diferença",
+    "depois": "### O preço precisa fazer diferença"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "A régua do Livro de Regras 1.0 mede o ganho:",
+    "depois": "O Livro de Regras 1.0 divide os ganhos nesta escala:"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Essa régua não converte qualquer sacrifício em qualquer capacidade.",
+    "depois": "Essa escala não permite obter qualquer capacidade em troca de qualquer sacrifício."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "## 9.2 Desenvolver uma troca",
+    "depois": "## 9.2 Criar um Pacto"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "ele precisa estar compreendido antes da adesão.",
+    "depois": "todos precisam entendê-lo antes de firmar o Pacto."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "### Mostrar a mão",
+    "depois": "### Revelar a própria técnica"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Isso é diferente de rever os acordos entre jogadores fora da ficção quando uma experiência deixa de ser desejada.",
+    "depois": "Se o jogador não quiser continuar com essa experiência, conversem fora da cena e revejam o acordo entre os participantes."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "A oportunidade termina ao fim desse primeiro turno positivo.",
+    "depois": "Se não usar Refluxo até o fim desse primeiro turno positivo, perde a oportunidade preparada."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Conferir o fato e o texto distingue uma recusa voluntária, um atraso com meios para cumprir e um impedimento realmente previsto.",
+    "depois": "Confira o que aconteceu e o que foi combinado: a personagem se recusou a cumprir, atrasou mesmo tendo meios ou encontrou um impedimento previsto no acordo?"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Ainda exige aquisição e uso regulares.",
+    "depois": "Ainda é preciso cumprir os requisitos para obter e usar a entidade."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Registre anatomia, comunicação e Ofício compatível quando exigido.",
+    "depois": "Anote como o corpo é formado, como se comunica e qual Ofício é exigido, quando for o caso."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "## 9.5 Trabalho e novas tentativas",
+    "depois": "## 9.5 Projetos de entidades"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "As horas de dedicação disponíveis não determinam o prazo de criação.",
+    "depois": "Ter horas disponíveis não reduz o trabalho necessário para criar uma entidade."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Use etapas para explicar e horas para contar.",
+    "depois": "Descreva as etapas do trabalho e conte a dedicação em horas."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "### Teste e ajuda",
+    "depois": "### Testar e ajudar"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "O percentual não diminui a cada tentativa.",
+    "depois": "Calcule sempre sobre o trabalho inicial da operação; o percentual não diminui a cada tentativa."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Manifestar ainda exige o custo normal.",
+    "depois": "Ainda é preciso pagar o custo normal para manifestá-la."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Uma criada de Classe 3 acompanha o invocador nos níveis 9–12;",
+    "depois": "Uma entidade criada de Classe 3 acompanha o invocador nos níveis 9–12;"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Não há recuperação, outra atuação no ciclo ou religamento de corpo Desligado pela transferência.",
+    "depois": "A transferência não recupera recursos, não renova as ações do ciclo e não religa um corpo Desligado."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "Manifestação comum não fornece básica naquele ciclo. Comandar especial normalmente usa a Padrão do invocador e a básica da entidade.",
+    "depois": "A manifestação comum não concede uma ação básica à entidade naquele ciclo. Comandar uma capacidade especial normalmente usa a Ação Padrão do invocador e a ação básica da entidade."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "e os lugares dos registros.",
+    "depois": "e onde encontrar os registros."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Um chamado aceito não confirma que a intervenção ocorreu.",
+    "depois": "Aceitar um chamado não significa que o problema já foi resolvido."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Outra mesa pode assumir a intervenção se combinar essa continuidade.",
+    "depois": "Outra mesa pode lidar com o caso, desde que combine como a história continua a partir desse ponto."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Se a mesma ficha entrar em outra missão enquanto a anterior ainda está aberta, combinem a ordem na história e identifiquem as dependências.",
+    "depois": "Se a mesma ficha entrar em outra missão enquanto a anterior ainda está aberta, combinem qual vem primeiro na história e o que ainda depende do resultado dela."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Registre o prazo na unidade e no ponto que sua regra usa.",
+    "depois": "Anote quanto o prazo dura, quando começa e em qual momento ele é contado, conforme a regra."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "## 10.3 Passar a missão",
+    "depois": "## 10.3 Continuar com outro mestre"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Uma passagem precisa permitir que outra pessoa continue sem reconstruir tudo de memória.",
+    "depois": "Ao trocar de mestre, deixe informações suficientes para que a outra pessoa possa continuar sem reconstruir tudo de memória."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Uma lacuna que muda esse resultado deve ser conferida antes da próxima declaração.",
+    "depois": "Se faltar uma informação que mude essas respostas, confira antes da próxima ação."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "O requisito não é subtraído da cura para deixá-la com 1 PV.",
+    "depois": "Os pontos de cura usados para completar o tratamento também recuperam vida; não subtraia deles o requisito para deixá-la com 1 PV."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "## 10.4 Escolher e manter os registros",
+    "depois": "## 10.4 Anotar o que importa"
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Confira antes de lançar recompensas.",
+    "depois": "Confira esses dados antes de calcular recompensas."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Na mesa, confirme a revisão efetiva da ficha, capacidades completas, usos e condições.",
+    "depois": "Na mesa, confira qual versão da ficha está em uso, com capacidades completas, usos e condições."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "sem a comunicação pertinente.",
+    "depois": "sem avisar quem será afetado."
+  },
+  {
+    "passagem": 1,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Ao encerrar, recolha uma dificuldade de leitura ou condução e algo que o grupo queira retomar.",
+    "depois": "Ao encerrar, pergunte o que foi difícil de entender ou conduzir e o que o grupo gostaria de retomar."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Use horas diretamente.",
+    "depois": "Conte o trabalho em horas."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "antes": "Se usar mensalidade a cada X missões, a marca fecha com o Grau daquele momento, sem adiá-la para cobrar num Grau maior.",
+    "depois": "Se a política pagar o valor mensal a cada X missões mestradas, registre o Grau ao completar esse total. Não adie o fechamento para cobrar num Grau maior."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "O modelo publicado exige revelar uma informação nova e verdadeira sobre a técnica a uma criatura que ouça e entenda.",
+    "depois": "**Mostrar a mão**, o modelo publicado, exige revelar uma informação nova e verdadeira sobre a técnica a uma criatura que ouça e entenda."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "antes": "permite a um feitiço de corte alcançar uma parte de objeto já vista e de posição atual conhecida, por um caminho sólido tocado de até **18 m**.",
+    "depois": "permite a um feitiço de corte alcançar uma parte de objeto já vista e cuja posição atual seja conhecida. O feitiço percorre um caminho sólido de até **18 m**, a partir do toque da personagem."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Isso é uma duração deste perigo, não de toda condição Envenenado.",
+    "depois": "Esse prazo pertence ao perigo preparado; não é a duração de toda aplicação de Envenenado."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Uma sugestão não é tarefa assumida.",
+    "depois": "Sugerir uma tarefa não significa aceitar fazê-la."
+  },
+  {
+    "passagem": 2,
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Na sala, quem fecha confere recompensas; quem prepara a continuação acompanha o aviso à oficina.",
+    "depois": "Na sala de conservação, quem encerra a missão confere as recompensas; quem prepara a continuação acompanha o aviso à oficina."
+  },
+  {
+    "passagem": "após a segunda prova",
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Comece pela informação que precisa continuar. Uma missão simples pode caber em notas breves. Acrescente uma folha quando ela ajudar a acompanhar algo que não cabe bem nessas notas. Não é preciso preencher todos os formulários em toda mesa.",
+    "depois": "Uma missão simples pode caber em notas breves. Use uma folha quando ela ajudar a guardar o que se perderia nessas notas; não é preciso preencher todos os formulários.",
+    "motivo": "Corte de repetição com preservação da orientação; trecho relido após a mudança."
+  },
+  {
+    "passagem": "após a segunda prova",
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "A [consulta de ferramentas](../80-escolher-e-usar-as-ferramentas.md) localiza também facções, convivência do Receptáculo, inimigos, habilidades e chefes. Use as folhas completas para trabalhos que precisam delas; a consulta rápida serve para encontrar o que levar.",
+    "depois": "Para facções, convivência do Receptáculo, inimigos, habilidades e chefes, a [consulta de ferramentas](../80-escolher-e-usar-as-ferramentas.md) indica quais folhas completas usar.",
+    "motivo": "Corte de repetição com preservação da orientação; trecho relido após a mudança."
+  },
+  {
+    "passagem": "após a segunda prova",
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Nome e nível não identificam todas as escolhas de uma personagem. Os exemplos usam versões diferentes de Mei e de outras pessoas para ensinar situações distintas. Na mesa, confira qual versão da ficha está em uso, com capacidades completas, usos e condições. Não importe uma habilidade ou obrigação de outro exemplo porque o nome coincide.",
+    "depois": "Os exemplos usam versões diferentes de Mei e de outras personagens. Nome e nível não bastam para identificar a ficha: confirme a versão, capacidades, usos e condições antes de jogar. Não acrescente uma habilidade ou obrigação de outro exemplo só porque o nome é igual.",
+    "motivo": "Corte de repetição com preservação da orientação; trecho relido após a mudança."
+  },
+  {
+    "passagem": "após a segunda prova",
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Na sala de conservação, quem encerra a missão confere as recompensas; quem prepara a continuação acompanha o aviso à oficina. A máquina ainda precisa de reparo. Uma pendência sem responsável continua registrada, sem prometer que será resolvida.",
+    "depois": "Na sala de conservação, registrem quem confere as recompensas e quem acompanha o pedido de reparo à oficina. Sem alguém que aceite, a tarefa permanece pendente.",
+    "motivo": "Corte de repetição com preservação da orientação; trecho relido após a mudança."
+  },
+  {
+    "passagem": "após a segunda prova",
+    "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "antes": "Informe a quem fez a observação o que mudou e onde encontrar a versão atual. Depois, observe se o grupo consegue localizar e usar a informação. Registre o resultado dessa aplicação antes de considerar o problema resolvido.",
+    "depois": "Avise quem apontou a dificuldade sobre o ajuste e onde encontrá-lo. Na próxima aplicação, observe se o grupo consegue usar a informação e registre o resultado antes de considerar o problema resolvido.",
+    "motivo": "Corte de repetição com preservação da orientação; trecho relido após a mudança."
+  }
+]

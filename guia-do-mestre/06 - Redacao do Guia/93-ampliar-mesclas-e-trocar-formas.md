@@ -1,8 +1,8 @@
 # Ampliar uma mescla e trocar sua Forma
 
-Use esta consulta para conferir duas operações diferentes: **Ampliar** usa uma Classe maior da mesma montagem; **Forma Fluida** permite ao Emanador trocar a Forma durante um Desdobramento. O exemplo adapta Pulso de renovação, publicado na R53. Os nomes, personagens e resultados dos dados são ilustrativos; os procedimentos e preços são os do livro-base.
+Use esta consulta para conferir duas formas de alterar um feitiço: **Ampliar** usa uma Classe maior da mesma montagem; **Forma Fluida** permite ao Emanador trocar a Forma durante um Desdobramento. O exemplo adapta Pulso de renovação, publicado no Livro de Regras 1.0. Os nomes, personagens e resultados dos dados são ilustrativos; as regras e os preços são os do livro-base.
 
-## A ficha antes da escolha
+## O feitiço de Yara
 
 Yara é Emanadora de nível 15, com Inteligência 4, Maestria 2 e Classe máxima 4. Sua técnica produz fios que cortam e recompõem tecido vivo. Área e Amparo estão disponíveis, a preço normal nas peças desta consulta. O feitiço não está entre os escolhidos para Afinidade Técnica, e nenhuma outra capacidade reduz os custos apresentados.
 
@@ -10,11 +10,11 @@ Seu Selo comum usa um gesto simples de uma mão. A Restrição **Gesto** deste f
 
 **Pulso de remendo, Classe 3:** Aura + base de cura + Escolher + Gesto. Ocupa um espaço conhecido, com uma Melhoria e uma Restrição. As funções são dano Cortante e cura direta; a resolução nociva usa TR Físico. A CD de Yara é **8 + Inteligência 4 + Maestria 2 = 14**.
 
-A Aura é uma esfera de raio **3 m centrada em Yara**. Escolher permite selecionar, por percepção válida, as criaturas presentes que receberão a parte nociva. As demais ficam excluídas dessa parte. Depois do dano, **um único aliado disposto e válido na área**, incluindo Yara se escolhida, recebe a cura registrada. Essa limitação de destinatário conserva o recorte do exemplo publicado.
+A Aura é uma esfera de raio **3 m centrada em Yara**. Escolher permite selecionar, por percepção válida, as criaturas presentes que receberão a parte nociva. As demais ficam excluídas dessa parte. Depois do dano, **um único aliado disposto e válido na área**, incluindo Yara se escolhida, recebe a cura registrada. Essa limitação de destinatário segue o exemplo publicado.
 
 A cura independe do dano: acontece mesmo se todos os adversários passarem no TR ou não houver inimigo válido. A parcela de dano sem destinatário fica sem uso. Os dados não mudam de função.
 
-## Prepare duas linhas de Ampliação
+## Prepare as duas Classes
 
 Yara registra as linhas antes da sessão. Escolhe reservar dois pontos de dano e um de cura na Classe 3; na Classe 4, três de dano e um de cura. A proporção poderia ser outra numa ficha previamente válida, mas não muda durante a conjuração.
 
@@ -34,9 +34,9 @@ A devolução de Gesto compensa pontos efetivamente pagos em Melhorias: 2 de 3 n
 
 As parcelas de cura cabem nos tetos pertinentes: 1 ponto é inferior aos limites individuais e coletivos dessas Classes. Nenhum ponto é contado duas vezes. As medidas básicas de Aura das Classes 3 e 4 continuam em 3 m; Ampliar não compra Maior. Escolher não se transforma em outra Melhoria, e o TR continua Físico CD 14.
 
-**Parecer.** As duas linhas cabem na montagem publicada. Ampliar não concede uma compra nova nem libera a troca de cura por dano quando Yara perceber um alvo mais conveniente. Cada linha continua ocupando o mesmo espaço do feitiço.
+**Conclusão.** As duas linhas cabem na montagem publicada. Ampliar não concede uma compra nova nem libera a troca de cura por dano quando Yara perceber um alvo mais conveniente. Cada linha continua ocupando o mesmo espaço do feitiço.
 
-## Uma aplicação ampliada
+## Exemplo de Ampliação
 
 Yara escolhe a linha de Classe 4. Ela tem duas mãos livres, pode falar e possui **20 PE**; paga **12**, ficando com **8**. Há dois inimigos e uma aliada a até 3 m. Yara distingue os presentes, seleciona apenas os inimigos para a parte nociva e escolhe a aliada para a cura.
 
@@ -46,13 +46,13 @@ A rolagem de dano é única para a área. Não se dividem os 3d8 entre os inimig
 
 Dano e cura são instantâneos neste feitiço. Ele não tem Fica, não se mantém ao redor de Yara e não afeta quem entrar depois. A cura também não remove condições por associação.
 
-## Forma Fluida muda a entrega
+## Trocar Aura por Explosão
 
 Em outra situação, Yara quer alcançar um grupo afastado. **Forma Fluida**, recebida no nível 15, permite Remodelar a Forma em vez de uma Melhoria. Ela troca Aura por Explosão, conservando Escolher, Gesto, as funções, o tipo de dano e o TR.
 
 Explosão custa Média. Seu centro pode ser escolhido a até **18 m**, com raio de **3 m**, respeitando percepção, trajeto e cobertura. O ganho é colocar a área longe do corpo; não acrescentar dados ou beneficiários.
 
-A diferença positiva de preço precisa sair das parcelas de resultado já registradas. Para estas versões, Yara retira os pontos necessários da parcela de dano e conserva o ponto de cura. Nenhuma função ganha pontos com a troca.
+O aumento de preço precisa sair das parcelas de resultado já registradas. Para estas versões, Yara retira os pontos necessários da parcela de dano e conserva o ponto de cura. Nenhuma função ganha pontos com a troca.
 
 | Conferência | Classe 3 | Classe 4 |
 |---|---:|---:|
@@ -69,7 +69,7 @@ A nova conta confirma os resultados reduzidos, sem recuperar pontos que antes es
 
 **Escolha antes de resolver.** Yara define a Classe e a troca antes de escolher alvos e rolar. A troca vale para aquela conjuração. Na próxima, o feitiço conhecido continua tendo Aura; usar Explosão de novo exige a permissão e o pagamento correspondentes.
 
-## Uma situação com a Forma trocada
+## Exemplo com Forma Fluida
 
 Considere outra aplicação, com **22 PE disponíveis**. Yara escolhe Classe 3 e Forma Fluida, paga 11 e fica com **11 PE**. Coloca o centro da Explosão num ponto válido a 12 m, incluindo um inimigo e uma aliada no raio de 3 m. Escolher exclui a aliada da parte nociva.
 

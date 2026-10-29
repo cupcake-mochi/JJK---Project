@@ -1,0 +1,8 @@
+Python 3.12.14
+reportlab==4.4.9
+beautifulsoup4==4.15.0
+Markdown==3.11.2
+Pillow==12.3.0
+PyMuPDF==2.0
+
+Poppler: pdftoppm disponível no PATH. Executar os geradores com Python -X utf8 no Windows.

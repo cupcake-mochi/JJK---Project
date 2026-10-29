@@ -1,0 +1,57 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Rina termina este exemplo com 33 PV, sem doença,
+Envenenado ou Sequela; o exemplo não incluiu cura
+ou descanso entre os horários. O profissional
+dedicou quatro horas, e a espera entre tentativas foi
+de seis horas. Uma cura ou um descanso válidos
+durante a continuidade usariam suas regras e
+mudariam as reservas; não os apague para
+conservar a tabela.
+Sem a segunda tentativa: se Rina obtivesse sucesso
+também na crise das 02h do dia 2, completaria dois
+sucessos consecutivos e encerraria a doença ali. Se
+falhasse, receberia os efeitos e voltaria a zero
+sucessos consecutivos. Ainda haveria o término
+máximo no dia 3 às 08h, antes de uma crise naquele
+ponto. O término da doença encerra também
+qualquer Envenenado desta fonte ainda vigente,
+mas não devolve PV perdidos ou socorre
+automaticamente uma queda.
+Acompanhar a doença entre
+missões
+Registre horário de contato, próxima crise, sucessos
+consecutivos, prazo máximo, condições ativas,
+reservas e trabalho já realizado. Na guilda, o
+calendário aproximadamente acompanha os dias
+reais, mas a doença e seu tratamento são resolvidos
+na história. Combine com quem acompanha a ficha
+como resolver os horários que passam entre
+sessões; use somente o tempo efetivamente
+avançado na história.
+Se for preciso resolver várias crises depois, faça-as
+em ordem, conservando tratamentos, descansos e
+decisões já registrados. Ao surgir uma escolha de
+proteção, socorro ou atendimento que ainda não foi
+feita, pare nesse ponto para resolvê-la com a
+pessoa. Não acumule uma morte fora de cena por
+silêncio no chat nem invente ações retroativas do
+personagem. Esse acompanhamento não muda a
+quantidade de horas de dedicação recebidas pela
+ficha.
+Descanso longo continua dependendo de a missão
+terminar e de poder parar de trabalhar; não equivale
+automaticamente a dormir seis horas. A doença não
+acrescenta Exaustão nem proíbe por si os
+descansos. Recuperar vida pelo descanso não cura
+sua causa sem uma permissão específica.
+Na troca de mestre, entregue as regras da doença e
+o registro preenchido. O próximo responsável
+precisa saber o que falta para terminar, sem
+reconstruir o perigo a partir do nome da doença.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+170

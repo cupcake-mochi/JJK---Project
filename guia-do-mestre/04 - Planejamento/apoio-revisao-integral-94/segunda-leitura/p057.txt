@@ -1,0 +1,103 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Fonte no trecho declarado
+Condição
+Dificuldade aplicável
+Resultado 18
+Feiticeiro a 9 m
+Furtividade 16; está com
+zero PE
+Maior entre 18 e 16: 18
+Localiza a fonte e seu
+espaço atual.
+Outra criatura a 15 m
+Furtividade 19
+Maior entre 18 e 19: 19
+Continua oculta de
+Rina.
+Ferramenta no chão a 6
+m
+Sem ocultação, mas dentro
+da interferência
+18
+Localiza a ferramenta.
+Fonte a 4,5 m, atrás de
+porta sólida fechada
+Completamente bloqueada
+pelo obstáculo
+Sem teste capaz de obter
+sua posição por essa
+busca
+Não informa o espaço.
+Não some 18 + 16 ou 18 + 19. Não acrescente Refino
+nem peça outra rolagem para “suprimir energia”. A
+mesma busca resolve as fontes alcançadas pelas
+condições anunciadas.
+Zero PE não significa ausência de energia
+amaldiçoada. O primeiro feiticeiro continua
+detectável. Uma criatura que realmente não possua
+energia segue sua exceção; seus passos e corpo
+ainda podem ser percebidos, e uma ferramenta
+amaldiçoada carregada pode denunciar o espaço
+dela. A ocultação de um portador também vale para
+sua carga; uma mochila comum não apaga a
+emissão.
+A ferramenta no chão localiza apenas a si mesma.
+Seu antigo portador pode estar longe. Se nenhuma
+fonte fosse localizada, o resultado também não
+provaria que o depósito está vazio: pode haver
+fontes bloqueadas ou que a tentativa não alcançou.
+Rina pode comunicar a posição descoberta, mas a
+leitura é instantânea. Se a criatura se mover depois,
+a informação anterior não acompanha esse
+deslocamento. A fumaça continua impedindo
+enxergá-la. Um ataque que dispense visão ainda
+exige alcance, trajetória e os modificadores
+adequados; uma capacidade que exija ver o alvo
+conserva esse requisito.
+Sem ocultação nem interferência, uma fonte
+alcançada seria localizada sem dado depois de
+gastar a Ação Padrão. Diferentemente do caso sem
+informação de Ler o Ambiente, dispensar a rolagem
+aqui não devolve a ação.
+Sinais de energia à distância
+Prepare o sinal antes da busca: o que chega, quem
+pode percebê-lo e qual informação ele fornece.
+Um pulso percebido além dos 18 m não amplia
+automaticamente a busca local nem torna toda
+criatura detectável através de paredes.
+O pulso da escadaria
+Neste exemplo, o preparo estabelece pulsos
+incertos perceptíveis nos dois primeiros patamares.
+O piso e as paredes impedem localizar a fonte; ela
+está a mais de 18 m. Um exame bem-sucedido só
+distingue que os pulsos vêm do subsolo. Não revela
+quantidade, sala ou espaço ocupado.
+Mika e Rina têm acesso a Sentir Energia e estão nas
+mesmas condições. Ambas têm bônus +6. Fora de
+combate, o mestre anuncia um minuto de
+observação, CD 14, consumindo tempo enquanto a
+equipe decide como entrar. Mika tira 8 e Rina tira
+11: 8 + 6 = 14; 11 + 6 = 17. Ambas recebem a mesma
+pista do subsolo. O resultado 17 não acrescenta um
+mapa da fonte nem uma informação que o sinal não
+carrega.
+Uma falha não distinguiria o pulso; o minuto ainda
+passaria. Se o sinal fosse evidente, sua percepção
+dispensaria teste. Durante combate, examinar o
+sinal incerto custaria Ação Padrão.
+Andar ao redor do prédio e repetir a pergunta não
+transforma esse pulso em novas direções para
+calcular a posição da fonte pelo cruzamento de
+direções. Enquanto sinal e condições
+permanecerem iguais, a pista continua a mesma.
+Abrir o acesso ao subsolo pode permitir uma busca
+local que alcance a fonte; uma planta, um
+testemunho ou outro indício independente pode ser
+cruzado por Investigação. Fora de combate, uma
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+57

@@ -31,11 +31,11 @@ Comece pelo [encontro original](62-o-carregador-e-o-corredor-de-entulho.md). Par
 | Um Carregador usando Preparar | Investe sua Padrão e responde depois com Reação. | Atuação fora do turno obtida com recursos existentes. |
 | Um corpo com ação adicional ou novo turno | Depende de uma capacidade ainda não construída. | O que justificaria a exceção e quais interações ela teria. Não usar esta linha como regra pronta. |
 
-Os dois corpos somam 64 PV e 32 Integridade apenas como informação contábil. Não têm uma reserva conjunta. Contra eles, a escolha de alvo e a derrota de cada corpo importam. Um só corpo com 64 PV, 32 Integridade e dois turnos não é uma conversão equivalente: seria outra ficha, com outras interações e possibilidades de Doma.
+Os dois corpos somam 64 PV e 32 Integridade apenas como soma dos valores individuais. Não têm uma reserva conjunta. Contra eles, a escolha de alvo e a derrota de cada corpo importam. Um só corpo com 64 PV, 32 Integridade e dois turnos não é uma conversão equivalente: seria outra ficha, com outras interações e possibilidades de Doma.
 
 ## Uma resposta fora do turno já possível
 
-Este recorte muda a escolha de comportamento, conservando a ficha. Use o [mapa do portão](66-o-carregador-e-a-saida-que-fecha.md) e a ordem ilustrativa **Rina → Carregador → Mei → Akira**. O Carregador está em C, sem segurar ninguém; o comando está em P, a 6 m por corredor regular e visível a partir de C. Mei começa em A. Não há obstáculo adicional nesse percurso nem personagem ameaçando o trajeto do Carregador neste recorte.
+Este exemplo muda a escolha de comportamento, conservando a ficha. Use o [mapa do portão](66-o-carregador-e-a-saida-que-fecha.md) e a ordem ilustrativa **Rina → Carregador → Mei → Akira**. O Carregador está em C, sem segurar ninguém; o comando está em P, a 6 m por corredor regular e visível a partir de C. Mei começa em A. Não há obstáculo adicional nesse percurso nem personagem ameaçando o trajeto do Carregador neste exemplo.
 
 | Momento | Declaração e consequência |
 |---|---|
@@ -67,7 +67,7 @@ Uma ação adicional no fim do turno de Mei, seguida de outra no fim do turno de
 |---|---|---|
 | Carregador passa de 10 para 7 PV | Atinge o limiar de retirada; solta quem segura e tenta recuar com suas ações. | Reservas restantes, Integridade, condições, iniciativa e gastos. Sem deslocamento gratuito. |
 | Carregador passa de 10 para 0 PV | Resolve sua derrota normal. | O portão segue suas próprias regras; não aparece outra vida da criatura. |
-| Integridade do Carregador chega a 8 | Estágio 2: deslocamento básico passa a 4,5 m, com os efeitos cumulativos da R53. | Seus PV não precisam estar em 8. Agarrar continua sem PE. |
+| Integridade do Carregador chega a 8 | Estágio 2: deslocamento básico passa a 4,5 m, com os efeitos cumulativos do Livro de Regras 1.0. | Seus PV não precisam estar em 8. Agarrar continua sem PE. |
 | Portão chega ao terceiro avanço com faixa livre | Fecha o atalho; o serviço continua acessível. | Ficha, ações e condições da criatura. |
 | Faixa ocupada no terceiro avanço | O mecanismo aguarda, conforme [o funcionamento do portão](66-o-carregador-e-a-saida-que-fecha.md). | Não surge um ataque de esmagamento nem uma ação adicional de chefe. |
 
@@ -78,7 +78,5 @@ A passagem de guarda para retirada é uma mudança de conduta. A passagem de ata
 O Carregador acima ensina a distinguir recursos já existentes: corpo adicional, Preparar, mudança de comportamento e mudança do lugar. Ele conserva a ficha comum e não demonstra, sozinho, a construção de um chefe completo.
 
 Para uma ameaça construída em torno de captura, isolamento e impacto anunciado, use o [Sineiro do Recolhimento](71-sineiro-do-recolhimento.md), sua [conversão conhecida antes da Doma](72-sineiro-consulta-e-doma.md) e o [ensaio de retirada e socorro](73-ensaio-guiado-do-sineiro.md). Para um atacante acompanhado de apoio, use [Ren e Sora](75-ren-e-sora-atacante-e-apoio.md) e o [confronto da dupla](76-confronto-de-ren-e-sora.md); a composição ensina a distribuir funções sem transformar automaticamente um dos dois em chefe.
-
-O estudo posterior de reposicionamento do [Carregador vigilante](69-carregador-vigilante-prototipo-de-chefe.md) foi reavaliado e retirado da recomendação de exemplo principal. Continua acessível como histórico, com [comparação e Doma propostas](70-comparar-a-vigilia-e-preparar-a-doma.md). Não é uma etapa que você precise preencher ou aprovar antes de preparar outro confronto.
 
 Uma ficha completa permite comparar a proposta. As contas e os percursos escritos ainda não demonstram equilíbrio para todos os grupos nem facilidade de condução por leitores reais.

@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Se houver outras criaturas ocultas com sinais
+acessíveis no trecho declarado, compare o total
+dessa mesma rolagem com a Furtividade guardada
+de cada uma. Não role uma busca separada por alvo.
+Um novo observador também exige conferir o
+acesso aos sinais. Ao chegar ao corredor e poder
+ouvir, um guarda com Percepção +6 tem CD 10 + 6
+= 16: Nao continua oculto dele, pois seu resultado
+guardado iguala a CD. Um guarda com +7 teria CD
+17 e o localizaria. Essa comparação não gasta uma
+nova ação de Nao nem substitui uma busca ativa do
+guarda, caso ele decida fazê-la depois.
+Depois de descoberto, Nao pode escolher outro
+momento para Esconder, inclusive atrás das
+mesmas estantes, se estiver fora da visão direta e
+conseguir disfarçar seus sinais. Precisa pagar a
+ação ou usar uma permissão própria; o novo
+resultado substitui o anterior, mesmo se for menor.
+Usando visão às cegas
+Em outro caso, Yui tem Percepção de Contorno,
+uma menor do Encarnado. Com Maestria 2, possui
+visão às cegas a 3 m × 2 = 6 m. Dentro desse limite,
+o sentido substitui a visão conforme suas regras;
+Sentir Energia, por si só, não faz isso.
+Uma criatura a 4,5 m, em fumaça densa e sem
+obstáculo sólido bloqueando o sentido, conserva
+Furtividade 16. Neste exemplo, conseguiu ocultar
+os sinais alcançados pelo sentido de Yui. Com
+Percepção +4 e sem outros modificadores, Yui não a
+localiza passivamente: CD 14, menor que a
+Furtividade 16. Ela pode usar Vasculhar; dado 12 +
+4 = 16 localiza a criatura, que então pode perceber
+pela visão às cegas dentro desse alcance.
+O sentido continua limitado a 6 m e bloqueado por
+obstáculos sólidos. Não permite ler uma etiqueta
+fina, perceber a alma ou cumprir uma exigência que
+peça especificamente o uso dos olhos. A capacidade
+não encontra automaticamente tudo o que estiver
+no raio.
+Ler o Ambiente
+Durante um confronto no arquivo, Emi procura um
+caminho que contorne as mesas tombadas. A
+preparação estabeleceu uma faixa de piso livre atrás
+dos armários, alcançável pela lateral; um painel
+deslocado dificulta notar a abertura. Ninguém está
+claramente mostrando esse caminho.
+O mestre informa Percepção CD 14 para Ler o
+Ambiente. Emi ainda tem o uso da cena e sua Ação
+Bônus. Escolhe tentar: dado 9 + Percepção 5 = 14.
+Gasta a Bônus e o uso, e recebe a informação:
+“A abertura ao lado do painel leva à faixa livre atrás
+dos armários. Você pode chegar até ela pela lateral
+desta mesa.”
+Mostre o percurso no mapa ou explique suas
+medidas antes de Emi escolher o movimento. A
+descoberta não a transporta, não concede Defesa
+nem garante que o destino esteja seguro. Ela pode
+usar a informação para escolher sua próxima ação.
+Se tivesse tirado 8, somaria 13: falharia e gastaria a
+Bônus e o uso. Aqui existia informação
+aproveitável, mas a tentativa não a revelou. A regra
+não devolve o uso por uma rolagem baixa.
+Quando não há nada novo a descobrir
+Em outra sala, Emi ainda não usou Ler o Ambiente.
+A equipe já recebeu a descrição completa dos
+acessos e posições úteis; naquele recorte não existe
+outro objeto, caminho ou risco que essa ação possa
+revelar. O mestre responde antes de pedir o dado:
+“Não há outra informação aproveitável por Ler o
+Ambiente aqui. Você conserva a Ação Bônus e o uso
+da cena.”
+Emi pode escolher outra ação e conserva o uso se
+surgir informação útil depois. Ausência de
+informação e falha num teste são casos diferentes.
+Não invente um detalhe irrelevante para justificar
+consumir o recurso.
+Se a pergunta for “onde está a criatura escondida?”,
+esclareça que a ação adequada é Vasculhar. Ler o
+Ambiente não oferece uma busca por criatura com
+custo menor.
+Estudar e Intuição
+No portão de uma oficina, a equipe vê o
+encarregado olhar repetidamente para uma porta
+lateral. Ele diz que todos já saíram, mas interrompe
+a conversa sempre que alguém se aproxima daquela
+porta. O olhar e as interrupções foram percebidos; a
+dúvida é o que esse comportamento indica.
+O preparo estabelece que ele teme expor uma
+colega escondida ali. Essa explicação é conhecida
+pelo mestre. Ela não será entregue inteira só
+porque alguém passou em Intuição.
+Haru pergunta: “Ele está tentando nos afastar
+daquela porta?” Fora de combate, o mestre resolve
+a interpretação durante a conversa com Intuição
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+55

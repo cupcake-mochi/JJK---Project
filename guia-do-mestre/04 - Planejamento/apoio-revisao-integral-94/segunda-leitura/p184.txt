@@ -1,0 +1,67 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+hoje; conjunto de encaixe e resina consumido;
+ferramentas com Rui; nenhum núcleo destruído.”
+Confira separadamente energia, Integridade,
+condições e usos que não foram alterados pelo
+reparo.
+6.6 · Restrição corporal:
+participação e cuidados
+Ao preparar uma missão, considere tanto as
+capacidades quanto os cuidados de que um
+personagem com Restrição corporal precisa. O caso
+principal combina Rede Remota e Corpo
+Quebradiço, exemplos publicados no Livro de
+Regras 1.0. A escolha de técnica, os contatos e a
+organização do atendimento pertencem ao caso. As
+alternativas de corpo não são penalidades
+acumuladas.
+A ficha de Nilo
+Nilo tem uma técnica que cria figuras de papel e
+usa uma delas para acompanhar a equipe. Seu corpo
+fica num posto de apoio. Ele deseja participar das
+decisões, receber informações e comandar
+capacidades à distância. A disponibilidade desses
+meios é conferida antes da missão.
+Parte da ficha usada no caso
+Registro
+Caminho e nível
+Emanador, nível 5; Maestria 1; Classe máxima 2; Refino básico 1; quatro
+espaços comuns. Nenhum benefício adicional de Trilha ou equipamento
+altera as contas apresentadas.
+Atributos
+Força 0, Destreza 1, Constituição 2, Inteligência 3 e Essência 3: 9 pontos.
+Origem e rota
+Restrição Celestial, ramo Restrição corporal; Fundamento.
+Base da Origem
+Tecnologia; Medicina como perícia livre; Ofícios Alfaiate e Forja; TR
+Vigor. Os treinos do Caminho completam a ficha, com outro TR distinto.
+Marcante
+Rede Remota + Saída Elevada + Corpo Quebradiço. O CE4 vem desta
+marcante, fora dos espaços conhecidos e dos cinco Talentos pagos.
+Duas menores
+Reserva Excedente e Leitura de Reservas, com seus textos publicados.
+Vida
+Antes da condição: 6 + 2 + (4 + 2) × 4 = 32 PV. Corpo Quebradiço: metade =
+16 PV máximos.
+Energia
+6 × 5 + 2 × Essência 3 = 36 PE máximos. Reserva Excedente amplia o
+máximo; não é estoque separado.
+Corpo real
+Defesa 0, sem Bloquear; deslocamento próprio 0 m. Falhas físicas e
+manipulações leves seguem Corpo Quebradiço.
+Meio de participação
+Um espaço dedicado à versão de nível 5 do Escriba de campo (p. 279),
+transportado até o local; comunicação por equipamento comum enquanto
+houver conexão.
+O Escriba conserva sua ficha e seu estado experimental, incluindo o talento proposto naquela seção. Neste
+caso, sua Defesa é recalculada com Inteligência 3 de Nilo: 10 + Destreza 2 + metade de 3, para baixo = 13.
+Bloquear acompanha essa Defesa: 2d10 + 13 - 11 = 2d10 + 2. Sua vida continua 27, o deslocamento 9 m e as
+contas de ataque, CD e perícias conservam os atributos da entidade. O corpo de Nilo não transmite Defesa
+0, vida reduzida ou impedimento de andar à entidade.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+184

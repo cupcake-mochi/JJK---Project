@@ -1,0 +1,80 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+registro marca a queda, posição, socorro e saídas;
+terminar a tração não conclui o resgate.
+Resumo do perigo
+Campo
+Registro pronto para este exemplo
+Gatilho
+Acionamento deliberado do teste, depois dos sinais. Sem acionamento,
+não há contagem.
+Alvo do risco
+Quem depender dos 3 m de apoio móvel no momento da ruptura.
+Ritmo
+Um avanço ao fim da rodada completa; ruptura no terceiro; uma
+ocorrência.
+Sinal
+Cabo tensiona; fixação sai; última fixação deforma; apoio se perde. Prazo
+informado.
+Interrupção
+Padrão na alavanca; ou destruir pino adequado, Defesa 14, 5 PV; freio
+segura.
+Resolução
+Queda real de 6 m: 2d6 Concussão, sem Bloquear; Derrubado se sofrer
+dano do impacto.
+Alternativas
+Travessia antes da ruptura; salto publicado; rota inferior; habilidade
+apropriada; retirada.
+Encerramento
+Tração resolvida, todos fora de risco, socorro encaminhado e acesso
+interditado.
+Continuidade
+Marcador alcançado, motor, transmissão, estrutura, posições, recursos,
+feridos e responsável pela interdição.
+Registre o que aconteceu antes de mudar a
+descrição de cena. Na guilda, comunique a
+interdição para a próxima equipe; numa campanha
+fechada, conserve a mesma informação no diário.
+Ao jogar, anote também quanto tempo levou para
+consultar as regras, quais escolhas o grupo fez e
+quais dúvidas surgiram.
+As regras e as contas desta preparação foram
+conferidas. Não houve teste humano, simulação
+integral de resgate ou validação de dificuldade. O
+prazo de três rodadas é uma proposta de
+apresentação deste mecanismo, sem adoção como
+regra geral de perigo. Este caso desenvolve um
+desfecho por queda. O preparo de perigos
+ambientais (p. 104) e a sala de conservação (p. 161)
+ampliam a preparação para exposição recorrente e
+condições persistentes. Para uma doença
+prolongada, consulte A febre dos fios (p. 166).
+Perigos como fogo ainda precisam de exemplos
+próprios.
+Para comparar essas regras em outras situações,
+consulte Movimento, saltos e quedas (p. 62): esforço
+e risco no mesmo salto, passagem com
+equipamento e queda sobre criatura dentro e fora
+da faixa de tamanhos. Os novos casos têm cenários
+próprios; não acrescentam correnteza, piso
+escorregadio ou vítimas à passarela deste piloto.
+5.12 · Combinar inimigos e
+perigos do cenário
+Para ler ao combinar uma criatura, um objetivo e
+uma mudança no cenário. O Carregador (p. 110) já
+disputa uma caixa e transporta intrusos. A
+passarela (p. 121) mostra um perigo que evolui sem
+inimigo. Combinar inimigos e perigos exige
+preparar a situação resultante: os dois exemplos
+isolados não fornecem uma dificuldade que possa
+ser simplesmente somada.
+Comece com uma pergunta: o que o grupo
+precisará decidir quando o ambiente mudar? Se a
+resposta for apenas “receber mais dano”, examine
+se isso ensina ou produz o confronto pretendido.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+127

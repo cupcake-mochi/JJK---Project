@@ -1,0 +1,593 @@
+{
+  "04 - Planejamento/12-piloto-editorial-cotidiano.md": {
+    "encerrar-a-cena": "fechar-e-conservar-o-que-importa",
+    "levar-o-exemplo-para-sua-mesa": "o-que-este-piloto-permite-avaliar"
+  },
+  "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md": {
+    "preparar-o-lugar": "dar-um-lugar-as-decisoes",
+    "abrir-a-cena": "abrir-a-ocorrencia",
+    "quando-comeca-o-confronto": "preparar-a-passagem-para-o-confronto",
+    "ao-adaptar-esta-missao": "criterios-para-a-revisao"
+  },
+  "04 - Planejamento/14-base-pequena-de-inimigos-r53.md": {
+    "o-que-vem-do-livro-de-regras-10-e-o-que-esta-sendo-proposto": "o-que-vem-da-r53-e-o-que-esta-sendo-proposto"
+  },
+  "06 - Redacao do Guia/01-preparar-uma-missao.md": {
+    "o-que-preparar": "o-que-voce-tera-ao-terminar",
+    "conheca-seu-grupo": "conheca-o-grupo-e-o-tempo-disponivel",
+    "escolha-o-problema-e-o-objetivo": "escreva-a-situacao-e-o-objetivo-apresentado",
+    "fatos-e-suspeitas": "separe-os-fatos-das-suspeitas",
+    "crie-as-pessoas-da-missao": "de-a-cada-pessoa-uma-funcao-na-situacao",
+    "prepare-os-lugares": "organize-lugares-que-permitam-escolher",
+    "prepare-as-pistas": "prepare-descobertas-e-meios-de-acesso",
+    "prepare-os-perigos": "tenha-os-perigos-prontos-antes-de-comecar",
+    "pense-nas-consequencias": "prepare-consequencias-e-um-caminho-de-retorno",
+    "comece-a-cena": "abra-com-informacao-suficiente-para-agir",
+    "quando-falta-tempo-para-preparar": "quando-o-tempo-de-preparacao-for-curto",
+    "confira-antes-de-jogar": "confira-se-o-preparo-responde-ao-grupo"
+  },
+  "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md": {
+    "o-chamado": "abertura-e-objetivo",
+    "o-que-aconteceu": "fatos-para-responder-ao-grupo",
+    "pessoas-envolvidas": "pessoas-disponiveis",
+    "o-anexo": "lugares-e-aproximacao",
+    "pistas-e-descobertas": "informacao-que-muda-as-decisoes",
+    "o-amontoado": "perigo-e-conducao",
+    "depois-da-missao": "consequencias-e-encerramento"
+  },
+  "06 - Redacao do Guia/04-conduzir-uma-sessao.md": {
+    "a-conversa-da-mesa": "da-descricao-a-proxima-escolha",
+    "descreva-a-cena": "descreva-o-suficiente-para-agir",
+    "entenda-o-que-o-jogador-quer-fazer": "entenda-a-intencao-e-os-meios",
+    "quando-pedir-um-teste": "escolha-como-resolver",
+    "sucesso-com-custo-e-testes-em-grupo": "resultado-com-custo-e-trabalho-em-grupo",
+    "quando-o-grupo-surpreende-voce": "responda-ao-inesperado",
+    "interprete-as-outras-pessoas": "interprete-pessoas-pelo-que-querem-e-sabem",
+    "de-espaco-a-todos": "distribua-a-atencao",
+    "quando-passar-a-proxima-cena": "avance-quando-a-situacao-permitir",
+    "quando-comeca-o-combate": "passe-ao-confronto-com-posicoes-claras",
+    "duvidas-de-regra": "resolva-duvidas-e-registre-o-combinado",
+    "no-fim-da-sessao": "encerre-registrando-o-que-mudou"
+  },
+  "06 - Redacao do Guia/06-mundo-e-cotidiano.md": {
+    "maldicoes-no-dia-a-dia": "o-sobrenatural-no-lugar-comum",
+    "feiticeiros-e-tecnicas": "feiticeiros-capacidades-e-recursos",
+    "a-obra-as-regras-e-sua-campanha": "tres-referencias-para-responder-a-uma-pergunta",
+    "escolas-familias-e-contatos": "pessoas-e-instituicoes",
+    "guildas-e-campanhas-fechadas": "guilda-e-campanha-fechada",
+    "entre-uma-missao-e-outra": "uma-vida-que-continua-entre-missoes",
+    "as-origens-no-dia-a-dia": "cotidianos-de-origens-diferentes",
+    "onde-saber-mais": "consulte-conforme-a-necessidade",
+    "crie-a-primeira-situacao": "transforme-contexto-em-uma-situacao"
+  },
+  "06 - Redacao do Guia/07-preparar-o-grupo.md": {
+    "proponha-a-campanha": "apresente-uma-proposta-concreta",
+    "escolha-como-usar-jujutsu-kaisen": "defina-a-relacao-com-a-obra",
+    "combine-o-tom-e-os-limites": "combine-o-tom-e-os-limites-de-conteudo",
+    "conecte-os-personagens": "de-aos-personagens-razoes-para-participar",
+    "confira-as-fichas-iniciais": "confira-a-criacao-e-os-recursos-de-entrada",
+    "quem-interpreta-cada-personagem": "combine-quem-interpreta-e-decide",
+    "organize-os-encontros": "organize-as-sessoes-e-a-continuidade",
+    "prepare-o-primeiro-encontro": "termine-com-algo-pronto-para-jogar"
+  },
+  "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md": {
+    "tom-e-revelacoes-da-trama": "obra-e-tom",
+    "vinculos-dos-personagens": "ligacoes-possiveis",
+    "revendo-os-combinados": "retomada-dos-acordos"
+  },
+  "06 - Redacao do Guia/10-investigacao-em-andamento.md": {
+    "o-que-o-grupo-quer-descobrir": "comece-pela-pergunta-atual",
+    "diga-o-que-a-pista-revela": "entregue-a-descoberta-com-seu-alcance",
+    "escolha-a-regra-para-a-busca": "escolha-o-procedimento-pela-intencao",
+    "exemplos-de-busca-e-percepcao": "casos-para-consultar",
+    "se-a-busca-falhar": "quando-uma-tentativa-falha",
+    "se-uma-pista-ficar-inacessivel": "quando-uma-fonte-se-perde",
+    "se-o-grupo-suspeitar-de-outra-causa": "quando-a-hipotese-aponta-para-outro-caminho",
+    "reuna-as-descobertas": "registre-o-que-ja-pode-orientar-uma-decisao"
+  },
+  "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md": {
+    "o-que-muda-em-cada-faixa-de-nivel": "marcos-que-exigem-nova-leitura-da-ficha",
+    "use-as-comparacoes-para-preparar-o-encontro": "transforme-a-comparacao-em-uma-preparacao"
+  },
+  "06 - Redacao do Guia/101-haru-vigia-e-tessa.md": {
+    "caracteristicas-dos-tres-guardas": "consulta-comum",
+    "quando-haru-usa-a-tecnica": "decisao-de-uso"
+  },
+  "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md": {
+    "o-perigo-da-fita-de-contencao": "pressao-protecao-e-resposta",
+    "socorrer-ou-atacar": "socorro-ocupa-acoes-que-poderiam-atacar"
+  },
+  "06 - Redacao do Guia/103-a-febre-dos-fios.md": {
+    "tratar-a-doenca-e-isolar-o-casulo": "atendimento-e-isolamento-da-fonte",
+    "exemplo-do-contato-a-recuperacao": "percurso-com-horarios",
+    "acompanhar-a-doenca-entre-missoes": "continuidade-entre-mestres-e-missoes"
+  },
+  "06 - Redacao do Guia/11-espaco-e-usos-criativos.md": {
+    "exemplos-de-movimento-e-improvisacao": "casos-para-consultar",
+    "mostre-onde-cada-um-esta": "estabeleca-a-posicao-antes-da-decisao",
+    "deslocamento-e-alcance": "separe-movimento-de-alcance",
+    "quanto-custa-atravessar-o-terreno": "mostre-os-custos-do-percurso",
+    "visao-e-cobertura": "diferencie-visao-cobertura-e-passagem",
+    "entenda-a-ideia-do-jogador": "um-uso-criativo-comeca-pelo-efeito-desejado",
+    "carregar-arrastar-e-arremessar": "mover-um-objeto-nao-equivale-a-atacar-com-ele",
+    "objetos-como-armas": "quando-o-objeto-sera-usado-como-arma",
+    "ajudar-e-distrair": "ajuda-e-distracao-precisam-de-uma-contribuicao",
+    "ate-onde-vai-uma-habilidade": "preserve-os-limites-de-uma-capacidade",
+    "depois-da-acao": "feche-a-resolucao-antes-de-ampliar-outra"
+  },
+  "06 - Redacao do Guia/13-preparar-uma-investigacao.md": {
+    "decida-o-que-aconteceu": "defina-a-verdade-antes-das-pistas",
+    "o-que-o-grupo-precisa-descobrir": "escolha-as-perguntas-que-permitem-decidir",
+    "ofereca-caminhos-ate-as-pistas": "distribua-meios-de-descoberta",
+    "como-encontrar-cada-pista": "estabeleca-acesso-e-resolucao",
+    "o-que-acontece-se-o-grupo-demorar": "mostre-a-pressao-e-suas-condicoes",
+    "prepare-as-reacoes-das-pessoas": "prepare-reacoes-sem-fixar-as-escolhas",
+    "confira-as-opcoes-do-grupo": "confira-caminhos-diferentes",
+    "encerre-a-investigacao": "encerre-a-pergunta-resolvida-e-conserve-o-restante"
+  },
+  "06 - Redacao do Guia/14-o-aviso-de-reabertura.md": {
+    "antes-da-missao": "ponto-de-partida",
+    "pessoas-e-lugares": "pessoas-e-acesso",
+    "as-pistas": "informacoes-e-caminhos",
+    "conversas-e-testes": "como-resolver-as-tentativas",
+    "o-que-os-jogadores-podem-fazer": "caminhos-possiveis",
+    "se-o-grupo-demorar": "demora-e-consequencias",
+    "depois-da-investigacao": "fechamento-e-continuidade"
+  },
+  "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md": {
+    "retome-o-que-aconteceu": "comece-pelo-resultado-efetivo",
+    "encontre-a-proxima-missao": "escolha-uma-ligacao-que-faca-diferenca",
+    "escolha-a-questao-central": "formule-uma-pergunta-maior",
+    "prepare-os-proximos-passos": "prepare-possibilidades-proximas",
+    "como-o-mundo-reage": "faca-pessoas-e-organizacoes-reagirem",
+    "de-espaco-a-vida-dos-personagens": "mantenha-espaco-para-interesses-pessoais",
+    "o-mundo-alem-do-grupo": "acompanhe-o-mundo-sem-impor-o-final",
+    "encerre-o-arco": "encerre-uma-questao-e-escolha-o-que-continua",
+    "quando-muda-o-mestre": "continuidade-entre-mestres"
+  },
+  "06 - Redacao do Guia/16-linha-de-continuidade.md": {
+    "sugestoes-e-tarefas-de-revisao": "retorno-e-tarefas-de-revisao",
+    "exemplo-entre-tres-missoes": "exemplo-de-uma-continuidade-possivel"
+  },
+  "06 - Redacao do Guia/17-faccoes-e-reacoes.md": {
+    "comece-com-um-grupo-pequeno": "comece-pela-parte-que-participa-da-campanha",
+    "defina-o-objetivo": "de-um-objetivo-que-possa-mudar",
+    "aliados-rivais-e-parceiros": "relacione-os-grupos-por-algo-concreto",
+    "como-a-faccao-reage": "prepare-a-reacao-com-a-informacao-disponivel",
+    "exemplo-dois-grupos-uma-sala": "um-exemplo-de-atualizacao",
+    "quando-agir": "escolha-quando-atualizar",
+    "mostre-as-consequencias": "mostre-o-efeito-das-escolhas",
+    "nem-todos-pensam-igual": "preserve-divergencias-internas-uteis",
+    "atualize-suas-notas": "registre-mudancas-e-retire-o-que-perdeu-funcao"
+  },
+  "06 - Redacao do Guia/18-preparar-antagonistas.md": {
+    "o-que-ele-quer-e-como-age": "de-forma-a-oposicao",
+    "exemplo-o-dono-do-relatorio": "um-exemplo-de-oposicao-por-informacao",
+    "deixe-o-grupo-agir-contra-o-plano": "permita-descobrir-e-afetar-o-plano",
+    "apresente-o-antagonista": "escolha-como-apresentar-a-oposicao",
+    "fuga-e-rendicao": "prepare-retirada-como-uma-tentativa",
+    "quando-o-grupo-vence-cedo": "deixe-a-vitoria-eficiente-valer",
+    "alem-de-vencer-ou-perder": "varie-os-resultados-possiveis",
+    "respeite-os-limites-da-mesa": "preserve-os-acordos-da-mesa"
+  },
+  "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md": {
+    "o-que-falta-resolver": "retome-a-questao-do-arco",
+    "ouca-os-jogadores": "converse-sobre-o-que-merece-espaco",
+    "prepare-o-momento-decisivo": "prepare-a-situacao-decisiva",
+    "mostre-o-que-mudou": "mostre-consequencias-na-escala-certa",
+    "a-cena-depois-do-final": "ofereca-uma-cena-depois-do-resultado",
+    "um-olhar-para-o-futuro": "escolha-o-alcance-do-epilogo",
+    "quando-o-grupo-precisa-parar": "quando-a-campanha-termina-por-disponibilidade",
+    "antes-de-encerrar": "conferencia-de-fechamento"
+  },
+  "06 - Redacao do Guia/21-acompanhar-recursos.md": {
+    "maximo-e-valor-atual": "separe-maximos-e-valores-atuais",
+    "como-descontar-o-dano": "resolva-o-dano-antes-de-alterar-reservas",
+    "perder-integridade": "integridade-e-penalidades",
+    "quando-recuperar-os-usos": "recupere-usos-pelo-prazo-certo",
+    "registre-para-continuar-depois": "faca-uma-passagem-que-outro-mestre-consiga-usar"
+  },
+  "06 - Redacao do Guia/22-quedas-e-socorro.md": {
+    "quanto-tempo-resta-para-o-socorro": "confira-a-causa-e-a-janela",
+    "o-que-anotar-quando-alguem-cai": "registre-os-dados-da-queda",
+    "aguentar-ou-insistir": "explique-a-escolha-sem-decidir-pelo-jogador",
+    "como-contar-as-rodadas": "conte-o-tempo-pelo-ponto-da-queda",
+    "receber-dano-enquanto-esta-morrendo": "dano-posterior-tambem-consome-janela",
+    "quanto-falta-para-se-recuperar": "acumule-cura-valida",
+    "estabilizar": "estabilize-quando-a-cura-nao-for-a-resposta-disponivel",
+    "exemplo-duas-quedas-no-mesmo-combate": "duas-quedas-no-confronto-do-piloto"
+  },
+  "06 - Redacao do Guia/23-retirada-e-recuperacao.md": {
+    "mostre-os-caminhos-de-saida": "torne-a-saida-compreensivel",
+    "movimento-e-ataques-de-oportunidade": "resolva-movimento-e-respostas",
+    "carregar-um-aliado": "transporte-quem-nao-consegue-sair",
+    "socorro-durante-a-retirada": "se-o-socorro-continua-conserve-o-prazo",
+    "recuperar-se-da-derrota": "recupere-depois-de-derrotado",
+    "quando-o-grupo-pode-descansar": "confirme-o-descanso-pela-situacao",
+    "corpos-e-cuidados-diferentes": "confira-as-excecoes-da-ficha",
+    "o-que-acontece-depois-da-derrota": "de-destino-as-consequencias-da-missao",
+    "antes-da-proxima-missao": "prepare-a-retomada"
+  },
+  "06 - Redacao do Guia/25-conferir-personagens.md": {
+    "comece-pela-proposta-da-campanha": "confira-a-proposta-e-a-versao",
+    "confira-cada-parte-da-ficha": "percorra-a-ficha-na-ordem-da-criacao",
+    "deixe-as-capacidades-prontas-para-usar": "torne-cada-capacidade-utilizavel",
+    "corrija-o-que-for-necessario": "separe-erros-escolhas-e-alteracoes",
+    "subir-de-nivel-nao-e-descansar": "confira-a-atualizacao-sem-confundir-com-descanso",
+    "registre-como-o-personagem-aprendeu": "registre-o-aprendizado-que-a-regra-exige",
+    "antes-da-proxima-missao": "confira-o-estado-de-entrada"
+  },
+  "06 - Redacao do Guia/26-vinculos-e-mudancas.md": {
+    "quem-faz-parte-da-historia": "de-ao-vinculo-uma-pessoa-e-um-assunto",
+    "traga-as-relacoes-para-a-mesa": "escolha-como-o-vinculo-entra-na-sessao",
+    "de-espaco-a-todos-os-personagens": "distribua-espaco-entre-os-personagens",
+    "o-que-um-vinculo-oferece": "diferencie-conhecimento-acesso-e-beneficio",
+    "quando-uma-perda-afeta-a-ficha": "rever-uma-escolha-depois-de-uma-perda-duradoura",
+    "encarnado-a-vida-de-outra-pessoa": "encarnado-relacoes-de-uma-vida-recebida"
+  },
+  "06 - Redacao do Guia/27-convivencia-do-receptaculo.md": {
+    "quem-interpreta-cada-voz": "combine-a-distribuicao-das-vozes",
+    "quem-e-a-outra-presenca": "prepare-a-presenca-como-uma-interlocutora",
+    "coexistencia-ou-conflito": "respeite-a-modalidade-da-ficha",
+    "capacidades-em-jogo": "exemplos-de-capacidade-e-limite",
+    "divida-o-tempo-de-cena": "de-espaco-a-relacao-sem-ocupar-toda-a-mesa",
+    "quando-a-relacao-muda": "registre-mudancas-sem-trocar-beneficios-automaticamente",
+    "a-presenca-em-mesas-com-outros-mestres": "passe-a-convivencia-para-outro-mestre"
+  },
+  "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md": {
+    "o-que-o-jogador-esta-pedindo": "identifique-o-tipo-de-pedido",
+    "confira-a-capacidade-passo-a-passo": "faca-a-conferencia-em-ordem",
+    "2-custos-e-limites": "2-custo-e-capacidade",
+    "3-um-exemplo-de-uso": "3-uso-completo",
+    "4-limites-e-combinacoes": "4-um-limite-e-uma-combinacao",
+    "explique-a-decisao": "apresente-o-parecer"
+  },
+  "06 - Redacao do Guia/30-pareceres-de-criacoes.md": {
+    "dano-por-toque": "o-toque-que-ganhou-um-dado-a-mais",
+    "prender-com-fios": "a-rede-que-pretendia-impedir-qualquer-acao",
+    "obter-informacoes-de-um-objeto": "a-proposta-de-informacao-que-cresceu",
+    "sentir-vibracoes": "uma-bencao-sem-sentidos-completos-atraves-da-parede",
+    "imunidade-e-cura": "um-talento-que-eliminaria-todas-as-dificuldades",
+    "uma-aposta-real": "uma-aposta-que-precisa-ser-uma-disputa",
+    "criar-menores-de-origem": "uma-menor-e-o-pacote-de-origem",
+    "restricoes-que-fazem-diferenca": "uma-restricao-que-nunca-cobrou-nada"
+  },
+  "06 - Redacao do Guia/31-avaliar-poderes-avancados.md": {
+    "exemplo-de-liberacao": "conferencia-de-uma-liberacao",
+    "maxima-de-dano": "conferencia-de-uma-maxima-de-dano",
+    "maxima-de-cura": "conferencia-de-uma-maxima-de-cura",
+    "maxima-de-utilidade": "conferencia-de-uma-maxima-de-utilidade",
+    "exemplo-galeria-de-vidro": "leia-uma-ficha-em-funcionamento",
+    "exemplo-sala-de-tregua": "uma-regra-de-ambiente-tambem-precisa-de-limites",
+    "o-ce4-da-restricao-corporal": "ce4-delimite-a-excecao"
+  },
+  "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md": {
+    "como-funciona": "operacao",
+    "avaliacao-e-registro": "parecer-e-passagem"
+  },
+  "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md": {
+    "comprar-uma-melhoria-mais-de-uma-vez": "repeticao-e-beneficios-independentes",
+    "definir-os-limites-de-uma-cortina": "cortina-delimitar-antes-de-fechar"
+  },
+  "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md": {
+    "treino-ferramentas-e-materiais": "conhecimento-e-meios",
+    "combine-o-projeto-antes-de-comecar": "combine-o-projeto-antes-do-gasto"
+  },
+  "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md": {
+    "antes-de-comprar": "separe-dinheiro-acesso-e-uso",
+    "repor-os-suprimentos": "suprimentos-com-continuidade"
+  },
+  "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md": {
+    "apresente-a-ferramenta": "entregue-uma-ferramenta-utilizavel",
+    "usar-a-ferramenta": "confira-como-a-peca-e-usada",
+    "acompanhar-o-desgaste": "desgaste-acompanha-o-objeto",
+    "preparar-um-objeto-perigoso": "prepare-o-objeto-da-missao"
+  },
+  "06 - Redacao do Guia/37-recompensas-e-fechamento.md": {
+    "registre-o-resultado-da-missao": "entregue-a-continuidade"
+  },
+  "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md": {
+    "quanto-tempo-cada-ficha-recebe": "disponibilidade-na-guilda",
+    "quem-pode-usar-as-horas": "acesso-entrada-e-afastamento",
+    "o-que-cada-atividade-oferece": "atividades-com-resultados-diferentes",
+    "descanso-e-troca-de-mestre": "recuperacao-e-passagem"
+  },
+  "06 - Redacao do Guia/41-pactos-e-promessas.md": {
+    "pactos-permanentes": "permanentes-espaco-na-ficha-e-regra-completa",
+    "pactos-temporarios": "temporarios-declare-antes-da-consequencia",
+    "pactos-de-restricao": "restricao-registrada-sem-beneficio-duplicado",
+    "overtime-jornada-e-hora-extra": "overtime-acompanhe-a-jornada-certa",
+    "promessas-combine-as-obrigacoes": "promessas-torne-as-obrigacoes-verificaveis"
+  },
+  "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+    "prepare-a-ficha-antes-da-tentativa": "confira-a-ficha-antes-de-cobrar-a-aquisicao",
+    "preparar-uma-lista-de-ritual": "prepare-a-submissao-de-uma-lista-de-ritual",
+    "domar-uma-maldicao": "doma-anuncie-o-resultado-possivel-antes-da-tentativa",
+    "criar-uma-entidade": "criacao-combine-o-projeto-antes-de-comecar",
+    "acompanhar-a-entidade-entre-cenas": "conserve-o-estado-entre-cenas-e-mestres"
+  },
+  "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md": {
+    "calcule-os-materiais-antes-de-comecar": "orce-materiais-antes-do-trabalho",
+    "o-que-acontece-na-falha": "de-consequencia-a-falha",
+    "trabalhar-com-ajuda": "ajuda-e-dedicacao-de-outra-pessoa",
+    "exemplo-falhar-e-tentar-de-novo": "exemplo-uma-criacao-com-falha-e-retomada"
+  },
+  "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md": {
+    "quem-registra-as-horas": "quem-dedica-o-tempo",
+    "teste-e-resultado-da-transferencia": "teste-e-preservacao-do-estado",
+    "adaptar-e-registrar-o-projeto": "ajustes-e-passagem-entre-mestres"
+  },
+  "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+    "explique-o-que-o-pacto-muda": "escreva-a-mudanca-que-precisa-acontecer",
+    "as-ideias-desenvolvidas-neste-guia": "o-recorte-desta-edicao",
+    "pacifismo-impraticavel": "pacifismo-impraticavel-explique-a-contradicao",
+    "liberacao-irregular": "liberacao-irregular-separe-saldo-e-disponibilidade",
+    "energia-alternada": "energia-alternada-diga-o-que-fica-indisponivel",
+    "magnetismo-energetico": "magnetismo-energetico-acompanhe-o-ataque-inteiro",
+    "fragmentacao": "fragmentacao-acompanhe-consequencias-nao-apenas-o-total",
+    "despertar-do-corpo": "despertar-do-corpo-diferencie-capacidade-maxima-e-recurso-atual",
+    "reserva-vital": "reserva-vital-resolva-perdas-e-recuperacao-na-ordem-certa",
+    "teste-o-funcionamento-antes-de-aprovar": "confira-uma-sequencia-completa-antes-de-aprovar"
+  },
+  "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+    "o-que-o-impedimento-bloqueia": "limites-de-execucao",
+    "quando-a-obrigacao-e-cumprida": "reconhecer-o-cumprimento",
+    "o-beneficio-de-cada-personagem": "um-beneficio-proprio-da-capacidade",
+    "conducao-pela-materia": "a-mudanca",
+    "prazo-e-suspensao-do-beneficio": "trinta-dias-e-tres-dias",
+    "antes-de-usar-este-pacto": "antes-da-adocao"
+  },
+  "06 - Redacao do Guia/50-promessa-do-arquivo.md": {
+    "depois-de-cumprir-a-reparacao": "conferencia-e-retorno-da-recuperacao",
+    "tres-exemplos-de-desfecho": "tres-cenas-resolvidas"
+  },
+  "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md": {
+    "dois-ataques-de-kaito": "um-trecho-resolvido",
+    "depois-da-prova": "o-resultado-que-acompanha-a-ficha"
+  },
+  "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md": {
+    "quando-o-pedido-excede-os-limites": "a-proposta-que-nao-cabe",
+    "os-proximos-niveis": "os-proximos-marcos"
+  },
+  "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md": {
+    "montar-e-sair-de-perigo": "montar-e-retirar-se"
+  },
+  "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md": {
+    "os-passos-da-preparacao": "um-percurso-de-preparo",
+    "regras-e-escolhas-do-mestre": "reconheca-a-origem-de-cada-escolha",
+    "o-papel-do-inimigo": "o-trabalho-da-ameaca",
+    "comece-por-uma-ficha": "escolha-uma-ficha-de-partida",
+    "conheca-as-fichas-do-grupo": "confira-o-grupo-que-vai-entrar",
+    "o-que-cada-lado-consegue-fazer": "compare-acoes-alcance-e-recursos",
+    "acertos-dano-e-controle": "observe-mais-que-o-dano-medio",
+    "o-que-os-jogadores-podem-fazer": "confira-participacao-e-informacao",
+    "vida-a-zero-e-fim-do-combate": "separe-queda-participacao-e-encerramento",
+    "mostre-o-perigo-e-prepare-saidas": "prepare-sinais-respostas-e-saidas",
+    "antes-e-depois-do-encontro": "feche-o-preparo-e-registre-o-resultado"
+  },
+  "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md": {
+    "o-grupo-e-a-missao": "objetivo-e-condicoes-de-entrada",
+    "tres-inimigos-do-mesmo-nivel": "por-que-essas-fichas-produzem-situacoes-diferentes",
+    "o-que-as-contas-mostram": "leia-as-contas-no-alcance-que-elas-tem",
+    "resultados-das-simulacoes": "o-que-os-ensaios-anteriores-mostraram"
+  },
+  "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": {
+    "5-antes-de-jogar": "5-conferencia-antes-da-aplicacao"
+  },
+  "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md": {
+    "primeiro-escolha-a-habilidade": "comece-pela-capacidade",
+    "por-que-o-inimigo-gastaria-tudo-de-uma-vez": "quando-gastar-tudo-cedo-e-a-resposta",
+    "qual-limite-de-uso-escolher": "escolha-o-limite-pelo-resultado",
+    "de-tempo-para-o-grupo-reagir": "uma-oportunidade-de-resposta",
+    "atacar-ou-se-proteger": "quando-uma-reserva-produz-escolha",
+    "perceber-energia-e-pagar-custos": "informacao-de-energia-e-pagamento",
+    "confira-como-o-inimigo-luta": "faca-a-conferencia-da-rotina",
+    "complete-as-habilidades": "continuar-a-construcao",
+    "outro-exemplo-haru-e-tessa": "aplicacao-em-outra-faixa"
+  },
+  "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md": {
+    "defina-o-tipo-de-acao": "diga-o-que-esta-sendo-resolvido",
+    "escolha-como-limitar-o-uso": "escolha-o-menor-controle-util",
+    "explique-os-custos": "escreva-os-custos-sem-apagar-a-referencia",
+    "tres-exemplos": "tres-aplicacoes",
+    "carregador-de-sinos-agarrar-pelas-regras-comuns": "carregador-de-sinos-uma-intencao-ja-atendida-pela-base",
+    "confira-a-habilidade-antes-de-jogar": "quando-a-ficha-esta-pronta-para-o-encontro"
+  },
+  "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md": {
+    "atravessar-o-entulho": "o-elemento-ambiental-entulho-baixo",
+    "o-que-o-grupo-pode-descobrir": "informacao-antes-da-consequencia",
+    "exemplo-de-agarrao-e-arrasto": "uma-sequencia-conferida",
+    "como-enfrentar-o-carregador": "respostas-que-permanecem-disponiveis",
+    "amarrar-prisioneiros-e-transportar-feridos": "contencao-depois-da-luta-e-transporte-de-feridos",
+    "encerrar-a-missao": "retirada-continuidade-e-encerramento",
+    "o-que-observar-ao-jogar": "o-que-o-exemplo-permite-avaliar"
+  },
+  "06 - Redacao do Guia/63-carregador-consulta-e-doma.md": {
+    "o-lugar-em-resumo": "consulta-do-espaco",
+    "depois-da-doma": "estado-depois-da-aquisicao"
+  },
+  "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md": {
+    "desenhe-o-lugar": "desenhe-apoios-e-percursos",
+    "tres-rodadas-ate-a-ruptura": "escalada-e-momento-de-resolucao",
+    "como-impedir-a-ruptura": "informacao-e-intervencoes",
+    "desligar-o-guincho": "operar-a-parada",
+    "socorrer-e-retirar-o-grupo": "socorro-retirada-e-continuidade",
+    "resumo-do-perigo": "consulta-e-fechamento"
+  },
+  "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md": {
+    "compare-o-que-cada-acao-permite": "localize-a-disputa-nas-acoes",
+    "confira-como-os-riscos-se-combinam": "examine-as-combinacoes-que-mudam-o-risco",
+    "confira-o-que-ainda-falta-resolver": "separe-os-encerramentos"
+  },
+  "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md": {
+    "apresente-a-situacao": "abertura-e-informacao",
+    "como-agir-sobre-o-portao": "intervencoes",
+    "exemplos-de-escolhas": "compare-decisoes-concretas",
+    "encerrar-a-missao": "encerramento-e-continuidade"
+  },
+  "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md": {
+    "escolha-o-que-precisa-melhorar": "identifique-o-problema-antes-do-recurso",
+    "anuncie-o-perigo-e-de-tempo-para-reagir": "de-tempo-para-usar-a-informacao",
+    "mudancas-durante-a-luta": "fases-que-preservam-o-progresso"
+  },
+  "06 - Redacao do Guia/71-sineiro-do-recolhimento.md": {
+    "exemplo-de-rodada": "uma-rodada-com-escolha",
+    "ferimentos-e-derrota": "ferimentos-e-continuidade"
+  },
+  "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md": {
+    "o-que-muda-com-a-doma": "o-que-se-conserva",
+    "recuperar-e-comandar-o-sineiro": "estado-e-comando",
+    "o-que-acompanhar-durante-a-luta": "consulta-durante-o-confronto"
+  },
+  "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md": {
+    "primeiro-exemplo-abrir-uma-saida": "primeiro-percurso-abrir-uma-saida",
+    "segundo-exemplo-a-interrupcao-falha": "segundo-percurso-a-interrupcao-falha",
+    "rina-escapa-mas-mei-continua-em-risco": "a-fuga-nao-protege-automaticamente-quem-ficou"
+  },
+  "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md": {
+    "rodada-3-ren-fica-sem-apoio": "rodada-3-a-composicao-perde-uma-funcao",
+    "ren-ou-sora-quem-atacar-primeiro": "comparar-o-alvo-sem-prometer-uma-solucao-unica"
+  },
+  "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md": {
+    "5-antes-de-jogar": "5-conferencia-antes-da-aplicacao"
+  },
+  "06 - Redacao do Guia/78-preparar-perigos-ambientais.md": {
+    "defina-quando-o-perigo-age": "escreva-o-relogio-do-perigo",
+    "mostre-o-perigo-e-as-formas-de-agir": "mostre-sinais-e-intervencoes",
+    "anote-o-que-ficou-para-depois": "feche-o-registro"
+  },
+  "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md": {
+    "parar-a-maquina-e-limpar-a-sala": "intervencoes-e-limpeza",
+    "exemplo-sair-da-sala-e-receber-ajuda": "percurso-sair-curar-e-encerrar-a-condicao",
+    "o-que-anotar-ao-terminar": "registre-a-continuidade"
+  },
+  "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md": {
+    "prepare-a-proxima-sessao": "passe-o-estado-e-a-informacao-certa",
+    "ouca-o-grupo-e-divida-as-tarefas": "retorno-e-divisao-do-trabalho"
+  },
+  "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md": {
+    "resumo-da-missao": "resumo-que-acompanha-a-entrega",
+    "como-estao-os-personagens": "estado-que-acompanha-as-fichas",
+    "o-lugar-e-o-proximo-perigo": "estado-do-lugar-e-proximo-risco",
+    "antes-de-retomar": "conferencia-ao-receber",
+    "depois-do-socorro": "fechamento-atualizado",
+    "melhorar-o-registro-com-o-grupo": "retorno-que-vira-uma-providencia"
+  },
+  "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md": {
+    "escolha-a-dificuldade": "comece-pela-regra-da-tarefa",
+    "sucesso-com-um-custo": "quando-oferecer-sucesso-com-custo",
+    "quando-a-regra-ja-determina-o-resultado": "quando-conservar-o-resultado-fechado",
+    "ajudar-um-aliado": "uma-pessoa-age-outra-ajuda",
+    "testes-de-grupo": "todos-precisam-superar-a-tarefa-juntos",
+    "usando-contribuicao-decisiva": "uma-capacidade-pode-modificar-a-contagem",
+    "esconder-durante-o-combate": "durante-o-combate-ocultacao-e-individual",
+    "empates-na-iniciativa": "resolva-o-empate-na-iniciativa",
+    "o-que-anotar": "o-que-guardar-para-a-retomada"
+  },
+  "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md": {
+    "o-que-o-personagem-quer-descobrir": "escolha-pela-pergunta",
+    "esconder-de-varias-pessoas": "uma-tentativa-de-esconder-observadores-diferentes",
+    "quando-o-vigia-procura": "a-busca-posterior",
+    "usando-visao-as-cegas": "um-sentido-que-substitui-a-visao",
+    "ler-o-ambiente": "ler-o-ambiente-aproveitar-o-lugar",
+    "quando-nao-ha-nada-novo-a-descobrir": "quando-nao-ha-informacao-a-oferecer",
+    "estudar-e-intuicao": "estudar-e-intuicao-responder-ao-que-foi-observado",
+    "memoria-testemunha": "memoria-testemunha-voltar-a-uma-cena-presenciada",
+    "sentir-energia-com-interferencia": "busca-energetica-com-interferencia",
+    "sinais-de-energia-a-distancia": "sinais-distantes-e-assinaturas",
+    "o-que-anotar": "informacao-que-precisa-continuar"
+  },
+  "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md": {
+    "atravessar-uma-correnteza": "nadar-atraves-de-uma-correnteza",
+    "saltar-ate-um-piso-escorregadio": "salto-com-esforco-e-piso-escorregadio",
+    "passagens-estreitas-e-bagagem": "uma-passagem-que-o-corpo-permite-mas-a-bagagem-nao",
+    "se-o-alvo-desviar": "se-o-alvo-evitar-o-corpo",
+    "se-os-tamanhos-forem-muito-diferentes": "se-os-tamanhos-estiverem-fora-da-faixa",
+    "criar-uma-ponte-com-obras-de-apoio": "obras-de-apoio-uma-ponte-com-requisitos",
+    "parkour-alcancar-e-segurar-uma-borda": "parkour-alcancar-uma-borda-e-sustentar-se"
+  },
+  "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md": {
+    "ricochete": "ricochete-e-a-direcao-da-cobertura",
+    "compare-os-percursos": "confira-os-dois-trechos",
+    "instalar-uma-corda": "instalar-uma-corda-e-preparar-o-kit",
+    "abrir-uma-fechadura": "uma-fechadura-uma-tentativa-completa",
+    "algemas-e-cordas": "conter-exige-mais-do-que-vencer-um-agarrao",
+    "improvisar-uma-arma-parecida-com-outra": "objeto-semelhante-a-uma-arma",
+    "improvisar-uma-arma-a-garrafa": "objeto-sem-referencia-a-garrafa",
+    "o-que-anotar": "o-que-deixar-registrado"
+  },
+  "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md": {
+    "quem-pode-ajudar-o-grupo": "uma-sociedade-que-aparece-em-acoes",
+    "quem-manda-e-em-quem-confiar": "autoridade-influencia-e-confianca",
+    "familia-professores-e-profissao": "familias-formacao-e-trabalho",
+    "estudo-trabalho-e-vida-pessoal": "cotidianos-diferentes-na-mesma-ocorrencia",
+    "o-que-as-pessoas-comuns-veem": "testemunhas-e-vida-publica",
+    "onde-e-quando-jogar": "regiao-epoca-e-organizacao-das-mesas",
+    "exemplo-a-reabertura-do-deposito": "preparo-preenchido-o-deposito-vai-reabrir"
+  },
+  "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md": {
+    "ordens-em-conflito": "autoridade-em-crise",
+    "quem-tem-a-resposta": "conhecimento-especializado",
+    "aliados-independentes": "aliado-fora-da-hierarquia",
+    "historias-e-desencontros": "vida-anterior-e-informacao-incompleta"
+  },
+  "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md": {
+    "por-onde-comecar": "encontrar-a-consulta",
+    "exemplos-de-consulta": "uma-consulta-resolvida"
+  },
+  "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md": {
+    "escolha-como-calcular-a-vida": "declare-o-metodo-de-vida-antes-da-criacao",
+    "as-capacidades-da-familia-em-jogo": "confira-o-conjunto-em-uma-situacao",
+    "o-que-observar-ao-jogar": "o-que-ainda-precisa-ser-avaliado-na-mesa"
+  },
+  "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md": {
+    "reparar-ou-descansar": "quem-recebe-o-descanso",
+    "reparadores-de-classes-diferentes": "outras-comparacoes-de-classe",
+    "reparo-em-combate-e-socorro": "reparacao-em-combate-e-vida-a-zero"
+  },
+  "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md": {
+    "a-ficha-de-nilo": "o-pacote-de-nilo",
+    "participar-a-distancia": "o-que-a-excecao-faz",
+    "cuidados-com-cada-condicao": "tres-resolucoes-que-nao-se-confundem",
+    "recuperacao-no-corpo-exaurido": "retomada-no-corpo-exaurido"
+  },
+  "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md": {
+    "o-feitico-de-yara": "a-ficha-antes-da-escolha",
+    "prepare-as-duas-classes": "prepare-duas-linhas-de-ampliacao",
+    "exemplo-de-ampliacao": "uma-aplicacao-ampliada",
+    "trocar-aura-por-explosao": "forma-fluida-muda-a-entrega",
+    "exemplo-com-forma-fluida": "uma-situacao-com-a-forma-trocada"
+  },
+  "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md": {
+    "firmeza-para-pericias-e-oficios": "uma-melhoria-duas-categorias-pagas",
+    "exemplo-de-uso": "resolucao-e-termino",
+    "os-limites-da-repeticao": "a-terceira-compra-e-o-nome-novo",
+    "combinar-efeitos": "reunir-efeitos-conserva-seus-precos",
+    "condicional-uma-fonte-de-agua": "condicional-perto-de-qual-agua",
+    "reveja-as-restricoes-depois-de-jogar": "registre-o-que-aconteceu-nas-sessoes"
+  },
+  "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md": {
+    "quando-a-investigacao-vira-combate": "da-investigacao-para-a-iniciativa",
+    "cancelar-um-efeito-sem-classe-definida": "uma-aplicacao-sem-classe-de-feitico",
+    "o-que-desarma-o-feitico-nao-pode-cancelar": "quando-o-cancelamento-nao-cabe"
+  },
+  "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md": {
+    "exemplo-de-uso": "uso-e-limite",
+    "contratar-a-fabricacao": "aprovar-a-ficha-e-contratar-o-projeto"
+  },
+  "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md": {
+    "usar-palavra-empenhada": "palavra-empenhada-e-uma-escolha-real",
+    "cumprir-o-acordo-e-receber": "cumprimento-e-saldo",
+    "devolver-a-kunai-e-registrar-a-venda": "devolucao-e-passagem-entre-mestres"
+  },
+  "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md": {
+    "o-selo-e-o-chamado-da-pastilha": "selo-e-atracao-deste-caso",
+    "o-que-o-grupo-sabe": "informacao-disponivel-antes-da-escolha"
+  },
+  "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md": {
+    "o-resgate-de-mako": "o-acontecimento-a-conferir",
+    "fazer-mako-voltar-a-agir": "o-socorro-que-devolve-a-participacao",
+    "quando-o-socorro-nao-conta-como-feito": "situacoes-que-mudariam-o-parecer",
+    "decidir-a-promocao-de-grau": "um-parecer-separado-de-promocao"
+  }
+}

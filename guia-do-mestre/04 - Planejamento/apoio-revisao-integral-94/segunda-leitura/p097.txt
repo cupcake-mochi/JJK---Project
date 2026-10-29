@@ -1,0 +1,82 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Termine a ficha antes da mesa
+Registre corpo, tamanho, atributos, sentidos,
+movimento, carga e comunicação. Complete vida,
+Integridade, Defesa/Bloquear, os quatro TRs,
+perícias relevantes, ações, custos, alcance, dano,
+condições e saídas. Cada proteção ou exceção
+precisa de texto e origem. Uma fraqueza não
+compra automaticamente uma imunidade:
+confirme se o grupo tem meios de reconhecer e
+usar essa fraqueza.
+Depois escreva sinais, alvo preferido, objetivo,
+reação à perda de posição e condições de retirada.
+Acrescente o mapa e o estado esperado do grupo.
+Para uma criatura adquirível, prepare
+separadamente a ficha de entidade e seus custos
+antes de oferecer a aquisição; as reservas de
+inimigo não passam automaticamente para a Doma.
+Experimente alterar um elemento por vez. Para
+tornar uma ameaça mais persistente, compare
+primeiro a vida; para tornar exposição mais
+perigosa, examine precisão, dano e oportunidades;
+para criar outra decisão, trabalhe a capacidade e
+suas respostas. Não corrija um exemplo pouco
+interessante aumentando todos os campos.
+Na guilda, registre para quais fichas, recursos
+disponíveis no início e objetivo o encontro foi
+preparado. Esses dados permitem a outro mestre
+adaptar a missão. O registro não garante a mesma
+dificuldade com outra composição.
+Exemplo de criação: Ren e Sora (p. 146)
+transformam duas referências em fichas com
+funções distintas. O confronto comentado (p. 150)
+acompanha suas escolhas de energia, a disputa de
+alvos e a perda de uma função quando um deles cai.
+Os parâmetros continuam experimentais.
+Preenchimento de referência: a ficha de Ren e Sora
+(p. 324) conecta origem dos números, capacidades,
+grupo, lugar e resultado; as fichas completas
+continuam na consulta Ren e Sora: atacante e apoio
+(p. 146).
+5.5 · Inimigos de níveis mais
+altos
+Consulta de preparação. Use depois de Escolher os
+números de um inimigo (p. 93). Os níveis 10, 15, 20,
+22, 26 e 30 ampliam os exemplos anteriores de
+níveis 2 e 6. Eles mostram como conferir uma
+ameaça contra capacidades concretas do Livro de
+Regras 1.0. Não constituem uma tabela de
+dificuldade ou valores obrigatórios de vida por
+nível.
+Comece pela ficha do grupo. Anote seus ataques,
+defesas, recursos de controle, cura e formas de
+alcançar o objetivo. Em seguida, compare o inimigo
+com essas capacidades. Um nível indica acessos
+possíveis; não informa sozinho o que cada
+personagem comprou ou consegue realizar nesta
+cena.
+Perfis usados na comparação
+Retomamos três referências: Bastião, Emanador e
+Guia. São perfis usados no estudo, não personagens
+prontos para jogar. Todos usam vida fixa e os
+marcos de Corpo, sem aumentos de Origem, Trilha
+ou equipamento além do Traje 1. A escolha
+conserva uma base comum; não é uma
+recomendação de construção.
+No nível 2, os atributos
+Força/Destreza/Constituição/Inteligência/Essência
+são, respectivamente, 3/2/2/1/1, 0/2/2/3/2 e 0/2/2/2/3.
+Nos marcos 6, 10 e 14, cada um aumenta o atributo
+principal e Constituição. No 18, aumenta
+Constituição e Destreza. Nos marcos 22, 26 e 30,
+aumenta Destreza e um atributo secundário:
+Inteligência para Bastião e Guia, Essência para
+Emanador. Nenhum supera 6.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+97

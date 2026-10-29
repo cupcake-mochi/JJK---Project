@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+O lugar em resumo
+Informação
+Registro
+Entrada → área de trabalho
+6 m regulares; grupo na entrada, Carregador e caixa na área.
+Área → recuo pela direta
+6 m regulares + 6 m difíceis + 6 m regulares. 18 m físicos; andar custa
+24 m; arrastar custa 42 m.
+Área → recuo pela lateral
+24 m regulares; andar custa 24 m; arrastar custa 48 m.
+Largura / destino
+Rotas com pelo menos 3 m livres; recuo aberto de 6 × 6 m.
+Caixa
+1 Volume, uma mão, sem tranca. Recolher segue manipulação simples;
+demais manipulações conservam custos.
+Entulho
+Custo de movimento, sem dano, cobertura ou teste automático.
+Informação garantida na descrição
+Rotas, distâncias, entulho e caixa. Sinais da criatura dependem dos
+sentidos disponíveis.
+Investigar / negociar
+Estudar Intuição ou Sentir Energia CD 10 para as perguntas
+delimitadas no encontro; Persuasão CD 14 para acordo plausível e
+específico, como escolha local. Capacidades com resultado garantido
+têm prioridade.
+Lembretes de condução: a Bônus pode virar
+Movimento. Agarrar não pausa o turno antes do
+arrasto. A vítima arrastada não provoca
+oportunidade por esse movimento; o Carregador
+pode provocar. Não conte dano como soltura, nem
+Ajudar como vantagem automática ao TR de fuga.
+Reavaliar carga e posição quando alguém pegar ou
+largar a caixa.
+Se alguém quiser domar
+A aquisição é opcional e deve ter seu resultado
+conhecido antes da tentativa. Abaixo está a
+conversão experimental preparada para este caso,
+incluindo um talento próprio de transporte. Sua
+Categoria de Efeito (CE) e seus limites foram
+propostos para este exemplo; ainda precisam de
+avaliação em mesa. Se esta montagem não for a
+usada na sessão, prepare e mostre a substituta antes
+de oferecer a tentativa.
+Requisito: invocador de nível 2 ou maior. O grupo
+pode ajudar a derrotar a maldição. A rota
+recomendada aqui é tentar fora do combate, depois
+de derrotá-la sem destruí-la. Não foi definido um
+ponto para tentar a Doma antes da derrota; a
+permissão do Livro de Regras 1.0 não estabelece
+metade da vida como padrão.
+Antes do golpe final, confira o dano recebido após
+defesas na ficha do encontro, que tem 32 PV
+máximos. Uma ocorrência direta que alcance 32, ou
+excedente além de zero que supere 16, destrói.
+Igualar o excedente 16 não basta. Dano em área
+derruba, mas não destrói por si. Exemplo a partir de
+5 PV: dano direto 21 deixa excedente 16, sem
+atingir os limites de destruição; dano direto 22
+deixa excedente 17 e destrói. Efeitos posteriores
+precisam ser acompanhados.
+Fora do combate, a maldição faz um TR Espírito,
+aqui +1 antes das penalidades aplicáveis, contra a
+CD de conjuração da rota do candidato. Falha
+doma; sucesso exorciza. Igualar é sucesso e não
+permite insistir até obter falha. Use as condições
+atuais: um dano de Alma que a leve ao estágio 3
+impõe desvantagem ao próprio TR; estar ferida só
+em PV não cria essa penalidade.
+Ficha convertida
+Conserva nível 2, corpo, massa, atributos, alma,
+sentidos, comunicação e deslocamento. A força que
+usava para transportar intrusos passa a operar com
+os limites de entidade. M é a Maestria atual do
+invocador; B é metade, para baixo, do atributo
+Essência ou Inteligência escolhido por ele para a
+Defesa das entidades.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+119

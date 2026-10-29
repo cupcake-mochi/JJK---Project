@@ -1,0 +1,64 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+DO TRABALHO AO RECUO: DOIS CAMINHOS
+ENTRADA
+6 m regulares
+ÁREA DE
+TRABALHO
+CAIXA
+RECUO
+ABERTO
+6 m × 6 m
+ROTA DIRETA · 18 m EM TRÊS TRECHOS
+6 m
+piso regular
+6 m
+ENTULHO
+6 m
+piso regular
+ROTA LATERAL · 24 m DE PISO REGULAR
+As duas rotas ligam a área de trabalho ao mesmo recuo, com ida e volta.
+Distâncias físicas. Desenho sem escala; o entulho altera o custo de movimento.
+O recuo é uma área aberta de 6 m por 6 m, no
+mesmo nível do piso. Chegar ali não tranca,
+paralisa, exorciza nem retira uma personagem do
+jogo. Há espaço para a pessoa contida, para o
+Carregador e para aliados que a alcancem. Ele pode
+tentar manter a contenção, mas a vítima conserva
+suas ações e suas saídas.
+A caixa está visível sobre um banco baixo. Foi
+definida para este cenário como 1 Volume, com
+alça para uma mão, sem tranca e sem efeito mágico.
+Recolhê-la ao alcance é uma manipulação simples,
+se houver mão disponível. Manipulações adicionais
+seguem seus custos normais. Carregá-la ocupa a
+mão e soma carga; guardar, passar ou abandonar a
+caixa não ganha uma ação gratuita nova por fazer
+parte do objetivo.
+Atravessar o entulho
+São fragmentos de madeira e argamassa espalhados
+no trecho de 6 m, com apoios irregulares entre eles.
+Trate-o como terreno difícil e informe isso antes da
+escolha de caminho. Ele não bloqueia a visão nem
+concede cobertura nesta disposição.
+Quem atravessa 1,5 m
+Movimento consumido
+Criatura andando em chão regular
+1,5 m
+Criatura andando no entulho
+3 m
+Criatura arrastando outra em chão regular
+3 m
+Criatura arrastando outra no entulho
+4,5 m
+O último valor já combina arrasto e terreno difícil. Não dobre novamente por haver um agarrão. Sem carga
+que imponha outra penalidade, andar pela rota direta custa 24 m de movimento; arrastar por ela custa 42 m.
+Pela lateral, os custos são 24 m e 48 m, respectivamente. A lateral é mais longa, mas seus trechos são mais
+baratos: pode ser melhor para alcançar uma posição intermediária ou quando o entulho estiver ocupado.
+Nenhuma rota vence todas as situações.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+112

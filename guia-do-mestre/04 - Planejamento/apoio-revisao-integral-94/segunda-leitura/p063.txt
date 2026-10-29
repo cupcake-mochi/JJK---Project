@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Etapa
+Movimento gasto
+Impulso sem parar
+3 m
+Salto tentado
+6 m
+Total reservado
+9 m
+Com dado 14, Haru soma 14 + 4 = 18 e chega ao
+patamar. Com dado 13, soma 13 + 4 = 17: falha no
+teste que reúne os dois riscos. Não separe esse total
+em “passou no esforço, agora role para o piso”.
+Resolva a queda anunciada.
+Os 3 m reais até o piso causam 1d6 de Concussão.
+Num resultado 3, sem defesas aplicáveis, Haru
+perde 3 de Vida e termina Derrubado. O arco do
+salto não acrescenta altura. A consequência
+combinada substitui a falha simples de esforço; o
+mestre não escolhe outro destino depois de ver o
+dado.
+Se a distância fosse normal e os apoios firmes, o
+salto dispensaria teste. Correr fornece movimento,
+sem aumentar a distância que o corpo consegue
+saltar. Uma capacidade que amplie essa distância
+precisa dizer isso.
+Passagens estreitas e bagagem
+Nao já está Derrubado diante de um duto
+horizontal de 1,5 m, com piso regular e saída livre.
+O mestre conferiu seu corpo e equipamento: ele
+precisa rastejar e se espremer. Sua maleta rígida é
+larga demais para passar, embora esteja dentro do
+limite de carga.
+Antes de começar, Nao deixa a maleta na entrada e
+combina que um aliado ficará com ela. Neste
+exemplo, soltá-la da mão é gratuito; ela permanece
+naquele espaço. A travessia exige 1,5 m normais +
+1,5 m por rastejar + 1,5 m por espremer = 4,5 m de
+movimento. Com 9 m disponíveis, Nao sai do outro
+lado e conserva 4,5 m.
+Enquanto estiver na passagem, seus ataques e TRs
+Físicos têm desvantagem, e ataques contra ele têm
+vantagem. Ao sair, essas penalidades da passagem
+terminam. Elas não valem para um ataque feito
+depois da saída. A travessia não o levanta: ele
+continua Derrubado. Levantar usa a Ação de
+Movimento inteira conforme a condição; não use
+para isso a mesma ação parcialmente gasta na
+travessia.
+Com entulho que tornasse o duto difícil, o trecho
+custaria 6 m, somando mais 1,5 m ao custo. Não
+dobre 4,5 m para chegar a 9 m. Limpar o entulho
+retiraria somente esse acréscimo, sem alargar o
+duto para a maleta.
+Também é preciso haver espaço livre ao terminar.
+Um aliado disposto pode dar passagem com custo
+normal; atravessar outra criatura normalmente
+exige diferença de pelo menos duas categorias de
+tamanho e passagem física. Nenhuma dessas
+permissões faz a bagagem atravessar uma abertura
+pequena demais. Registre que Nao saiu e que a
+maleta ficou com o aliado; ela não o acompanha por
+estar na lista de equipamentos.
+Cair sobre outra criatura
+Ema é Média e está num apoio 9 m acima de uma
+criatura Grande. A trajetória da queda passa pelo
+espaço ocupado pela criatura, e há chão livre junto
+ao ponto de chegada. Para tentar atingir alguém de
+propósito, Ema gasta Ação Padrão antes de cair.
+Essa ação não concede movimento lateral nem
+permite mudar de direção no ar.
+Médio e Grande diferem em uma categoria: as
+regras de queda sobre criaturas se aplicam. O alvo
+faz TR Físico CD 14, sem gastar uma Reação por
+esse teste. Com bônus +4 e dado 9, soma 13,
+falhando.
+Role o dano de 9 m uma vez: 3d6. Os dados 2, 4 e 5
+somam 11. A divisão acontece antes das defesas:
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+63

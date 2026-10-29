@@ -1,0 +1,82 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Integridade e encerramento
+Estágio
+Haru, máximo 140
+Vigia, máximo 60
+Tessa, máximo 40
+0
+140-106
+60-46
+40-31
+1
+105-71
+45-31
+30-21
+2
+70-36
+30-16
+20-11
+3
+35-1
+15-1
+10-1
+4
+0
+0
+0
+As penalidades são cumulativas. Estágio 1:
+desvantagem em perícias. Estágio 2: deslocamento
+pela metade e +1 PE por Classe nos feitiços.
+Estágio 3: desvantagem em ataques e TRs; Classe
+máxima cai de 4 para 2. Estágio 4: Derrotado.
+No estágio 2, Haru paga 8 ou 16 PE por Fita. Com
+26, já não cabem duas aplicações de Classe 4; no
+estágio 3, só a versão de Classe 2 continua
+disponível. Tessa paga 16 por Remendo e 4 por
+Impulso. No estágio 3, Remendo de Classe 4 fica
+indisponível: não há versão menor preparada nesta
+ficha. Cobrir-se continua custando 2 PE. Os
+ataques físicos conservam seus dados, com as
+penalidades pertinentes.
+A zero de PV ou Integridade, cada inimigo fica
+Derrotado e deixa de atuar. O desfecho preparado é
+incapacitação, com inconsciência e queda dos itens
+segurados. Não recebem Aguentar, Insistir ou
+janela de socorro de jogador. Cura não restaura a
+participação de quem já foi Derrotado; o
+atendimento e o destino dos guardas precisam ser
+resolvidos depois.
+Se os documentos forem retirados, os guardas
+aceitam interromper a luta para registrar quem
+assumirá responsabilidade. Não há reforço ou
+bloqueio da saída criado depois dessa vitória.
+Feridos, recursos gastos, efeitos ainda ativos e
+danos ao arquivo permanecem no registro.
+5.20 · Disputa pelo arquivo
+Exemplo experimental para preparar e comparar
+um confronto. As fichas de Haru, Vigia e Tessa (p.
+153) usam nível 15. A análise amplia a consulta de
+números (p. 97), mas não estabelece uma
+dificuldade geral para grupos desse nível.
+O grupo precisa recuperar um registro de contratos
+antes de voltar à base. Os guardas querem
+conservá-lo até receberem autorização do
+contratante. Há informação suficiente para
+negociar quem ficará com os documentos; o
+conflito não precisa começar com um ataque.
+O lugar e o objetivo
+Prepare uma sala iluminada de 9 m por 18 m, piso
+regular, sem civis. Use seis colunas A-F e doze
+linhas 1-12, com espaços de 1,5 m; as linhas 0 e 13
+são áreas de passagem com piso firme. Todas as
+colunas têm passagem livre para essas áreas. As
+paredes laterais fecham a sala. Não há cobertura
+inicial ou terreno difícil; deslocamentos diagonais
+seguem a mesma medida do Livro de Regras 1.0.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+157

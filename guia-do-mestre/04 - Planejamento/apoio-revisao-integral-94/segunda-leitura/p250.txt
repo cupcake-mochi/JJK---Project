@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Com máximo 40 e saldo 6, Hana recebe um resultado
+positivo depois de zero. Refluxo recupera 10: saldo 16.
+Uma Liberação Máxima de Classe 3 custa 14, mas não
+pode ser usada nesse mesmo turno porque a Bônus já
+foi comprometida. Uma aplicação comum continua
+possível se houver Padrão, saldo, teto e requisitos.
+A limitação de gasto continua depois que o uso de
+Refluxo acaba. O Pacto não se desliga quando deixa
+de oferecer recuperações naquele período.
+Manutenção e efeitos já pagos
+Zero não encerra automaticamente uma barreira,
+proteção ou efeito que já foi pago. Confira seu
+prazo, concentração e demais requisitos. Se chegar
+um vencimento de manutenção e o pagamento não
+couber, aplique a consequência própria de não
+pagar.
+Na manutenção de talentos de entidades que o
+Livro de Regras 1.0 suspende por falta de
+pagamento, não faça cobrança parcial. O efeito
+espera o próximo vencimento normal para tentar
+pagar outra vez; não acumula dívida. Refluxo usado
+depois do vencimento não o religa retroativamente.
+Hana tem saldo 6, máximo 40 e manutenção de 3 PE
+no começo do turno. Sorteia zero: o pagamento não
+cabe e o efeito segue sua regra de suspensão. No turno
+seguinte, sai 2: teto 10. Paga a manutenção, ficando
+com saldo 3 e limite restante 7. Usa Refluxo e vai a
+saldo 13; o limite continua 7. Um feitiço de Classe 2
+por 6 deixa saldo 7 e limite 1. O de Classe 3 por 9 não
+caberia.
+Um feitiço Armado ou adiado e já pago pode
+resolver num intervalo de zero se cumprir seus
+requisitos e não exigir novo pagamento. Isso segue
+as regras da montagem; o Pacto não concede
+Armado, Segura ou outras peças gratuitamente.
+Efeitos passivos sem custo de PE também
+conservam sua regra.
+Mudanças de máximo
+Guarde o percentual sorteado e o gasto do
+intervalo, não apenas o limite restante. Se o
+máximo de PE mudar, recalcule o teto com o
+mesmo percentual e subtraia o gasto já realizado.
+Não role novamente.
+Se o novo teto ficar abaixo do gasto, o restante fica
+zero. Não cobre dívida nem desfaça ações
+concluídas. Se o máximo voltar a subir, continue
+descontando o mesmo gasto registrado. Um
+resultado zero permanece zero mesmo com um
+aumento de máximo.
+Hana sorteou 50%, com máximo 40, e já gastou 12.
+Teto 20, restante 8. Se uma capacidade elevar
+legitimamente o máximo a 60, o teto passa a 30 e o
+restante a 18. Se depois o máximo cair a 20, o teto será
+10 e o restante zero: os 12 gastos continuam
+registrados. Voltar ao máximo 40 devolve o restante a
+8, não a 20.
+O saldo acompanha a regra da capacidade que
+mudou o máximo. Um ajuste de ficha não recupera
+PE automaticamente; permissões expressas, como a
+transição de Overtime, conservam seu próprio
+efeito. Mesmo uma recuperação expressa não apaga
+o gasto do intervalo. Para Refluxo, calcule os 25%
+no momento da ativação, com o máximo então
+vigente.
+Essas combinações mudam o peso do benefício.
+Confira a ficha completa antes de adotar este
+modelo; não trate os cálculos com reservas básicas
+como avaliação de todas as combinações de Pactos.
+Fora de combate
+Quando a ordem, a urgência ou a duração de um
+efeito importar, acompanhe turnos em rodadas de
+seis segundos, como no Livro de Regras 1.0. A
+personagem recebe sua vez; no começo dela, sorteia
+normalmente. Não crie turnos extras por anunciar
+tentativas sucessivas. Se houver uma situação
+anterior à primeira vez da personagem, use o limite
+inicial descrito acima.
+Sem prazo relevante, manutenção em risco ou
+efeitos temporários dos quais a tarefa dependa, o
+mestre pode resumir a espera pela liberação
+necessária. Descreva a passagem de tempo, resolva
+a oportunidade e registre o pagamento. Para usar
+Refluxo, a passagem resumida precisa comportar
+zero seguido de resultado positivo e sua ação; ela
+gasta o uso normal. A abreviação não promete um
+resultado favorável num número exato de segundos.
+Se houver manutenção que possa falhar durante
+essa espera, efeito prestes a terminar ou outra
+consequência relevante, volte à contagem. Esperar
+um resultado favorável não autoriza pular os
+resultados desfavoráveis entre vencimentos. Uma
+tarefa cujo custo ultrapasse o próprio máximo não
+se torna pagável por esperar: até 100% do máximo
+continuará insuficiente.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+250

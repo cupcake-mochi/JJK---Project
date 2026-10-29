@@ -1,0 +1,88 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+possibilidades. Explique o problema e peça outro
+preço.
+Limitação já compensada. Uma Restrição devolveu
+pontos à montagem do feitiço. O jogador propõe
+receber também um benefício de Pacto apenas por
+manter essa mesma exigência. Identifique a
+compensação que já existe. O nome de Pacto não
+permite cobrar novamente a mesma limitação.
+Preço relevante, benefício ainda incompleto. Mei
+aceita perder o uso da técnica pelo restante da
+missão para prolongar uma passagem durante uma
+retirada. Ainda é preciso escrever qual aplicação
+será prolongada, quando termina, como a travessia
+é reconhecida e o que acontece se alguém desistir
+de atravessar. A proposta não prolonga todos os
+feitiços da técnica.
+O tamanho do ganho orienta a avaliação: Pequeno
+muda uma conjuração ou vale uma cena; Médio
+muda permanentemente um feitiço ou uma ação;
+Grande muda permanentemente a energia ou um
+Estilo; Enorme rompe um limite uma vez. Essa
+classificação do Livro de Regras 1.0 não converte
+qualquer perda em qualquer poder. Verifique
+também a frequência real do preço nas missões da
+campanha.
+Pactos permanentes
+Pactos permanentes e de restrição compartilham o
+limite de metade da Essência, arredondada para
+baixo. Temporários e Promessas ficam fora desse
+limite. Com Essência 0 ou 1, não há vaga; a
+permissão do mestre para um pacto de restrição
+sem vaga é uma exceção própria.
+Hana tem Essência 5: duas vagas. Mantém um
+permanente e um pacto de restrição, portanto
+ambas estão ocupadas. Pode assumir uma
+Promessa, mas não outro permanente. Se sua
+Essência cair, os pactos existentes não
+desaparecem; ela só pode estabelecer outro quando
+o total couber no limite. Uma vaga volta quando o
+pacto que a ocupa se perde.
+O benefício permanente é uma mecânica única,
+escrita com o mestre. Não concede Estilo, bônus
+numérico a ataques, Defesa ou perícias, nem pacto
+por dano. Também não fornece níveis de Caminho
+ou Trilha ou escolhas extras de Origem. Um pacto
+de energia usa uma porcentagem do máximo
+combinada com o mestre, quando houver
+quantidade, em vez de um valor fixo.
+Exemplo publicado: Movimento direcional. O
+personagem só se desloca em linha reta, até gastar
+os metros ou bater em algo, sem curva nem parada
+no meio. Esse movimento não provoca ataque de
+oportunidade. A troca ocupa uma vaga e muda uma
+decisão visível: em um corredor com uma curva, o
+jogador não pode conservar o benefício e ignorar a
+limitação. Confira o deslocamento anunciado antes
+de resolver suas consequências.
+Pactos temporários
+No próprio turno, o personagem usa Ação Bônus
+para propor e firmar o Pacto. Fora dele, precisa de
+Reação a um gatilho percebido. Nesse segundo
+caso, a janela ocorre depois de rolar os dados do
+gatilho e antes de aplicar suas consequências. O
+Pacto não refaz nem altera a rolagem.
+Antes de aprovar, diga em voz alta o ganho, o preço
+e seus prazos separados. Um benefício que dura
+uma cena pode ter um preço permanente. O fim do
+combate não devolve energia gasta nem cura
+ferimentos por si.
+Quando a discussão for longa, o grupo pode
+preparar modelos fora da sessão. Isso ajuda a
+localizar a ação e a consequência pretendidas, mas
+o mestre ainda confere se o preço tem efeito
+naquela situação. Uma aplicação excepcional não
+vira autorização geral para romper outros limites.
+Mostrar a mão, turno a turno
+Este exemplo usa o Pacto publicado no Livro de
+Regras 1.0. Mei explica sua técnica a uma criatura
+com a Ação Bônus. A criatura precisa ouvir e
+entender uma informação nova e verdadeira.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+237

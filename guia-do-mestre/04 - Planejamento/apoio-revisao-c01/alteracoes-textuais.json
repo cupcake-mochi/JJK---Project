@@ -1,0 +1,122 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+    "antes": "Quando uma tentativa precisar de teste, a regra indica o bônus e a dificuldade. Você rola um dado de vinte faces (**d20**), soma o bônus e compara o total com a **Classe de Dificuldade (CD)**. Se igualar ou superar a CD, consegue o resultado de sucesso daquela tarefa. Por exemplo, **10 no dado + 4 de bônus = 14** supera uma CD 12. Custos e consequências vêm do procedimento usado; ataques têm também suas regras próprias. Uma conversa pode terminar quando o pedido estiver resolvido, enquanto um combate acompanha turnos e ações até seu desfecho. Veja [Conduzir uma sessão](04-conduzir-uma-sessao.md) para aplicar essa sequência.",
+    "depois": "Peça um teste quando houver incerteza e a falha puder mudar a situação. Abrir uma porta destrancada normalmente se resolve pela descrição; arrombá-la sob pressão pode exigir uma rolagem. A regra indica qual bônus usar e como determinar a dificuldade. Quem faz o teste rola um dado de vinte faces (**d20**), soma o bônus e compara o total com a **Classe de Dificuldade (CD)**. Igualar ou superar a CD é sucesso: **10 no dado + 4 de bônus = 14** alcança uma CD 14. Se a ficha já traz o bônus completo, some-o uma vez. Custos e consequências seguem o procedimento usado; ataques têm regras próprias. Veja [Conduzir uma sessão](04-conduzir-uma-sessao.md) para acompanhar a resolução em jogo.",
+    "motivo": "Explicar quando rolar, identificar quem rola e usar o exemplo de igualdade da R53; retirar mudança abrupta para turnos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+    "antes": "**Feiticeiros** lidam com o jujutsu e aprendem a enfrentar suas ameaças. A energia amaldiçoada participa de muitas capacidades, mas os personagens jogáveis do Ciclo Maldito têm formas diferentes de atuação, inclusive uma rota sem energia amaldiçoada pessoal.",
+    "depois": "**Feiticeiros** lidam com o jujutsu, as práticas sobrenaturais deste mundo. A **energia amaldiçoada** alimenta muitas de suas capacidades e permite enfrentar maldições. Os personagens jogáveis do Ciclo Maldito têm formas diferentes de atuação, inclusive uma rota sem energia amaldiçoada pessoal.",
+    "motivo": "Apresentar jujutsu e energia antes de usar os termos como conhecimento pressuposto."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+    "antes": "**Exemplo:** se a técnica de um personagem envolve fios, pergunte qual aplicação ele usa para alcançar uma chave. Cortar, prender e puxar podem exigir efeitos diferentes. Consulte a aplicação declarada antes de decidir o resultado.",
+    "depois": "**Exemplo:** o jogador quer puxar uma chave com fios. Peça que indique o feitiço e confira se ele permite puxar esse objeto, a essa distância, com os custos descritos. Uma aplicação que apenas corta não passa a puxar por compartilhar a aparência de fios. Se faltar esse efeito, o jogador pode escolher outro meio disponível.",
+    "motivo": "Completar o exemplo com intenção, consulta e limite, sem criar uma aplicação ou benefício."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+    "antes": "**Exemplo:** Mina recebe a ocorrência do centro cultural. Na guilda, a organização informa quem pode participar da mesa e como registrar o resultado. Dentro da história, Mina pode ser a pessoa responsável por encaminhar chamados. São duas funções que precisam estar claras, mesmo se forem exercidas por pessoas relacionadas.",
+    "depois": "**Exemplo:** dentro da história, Mina recebe a ocorrência do centro cultural e encaminha o chamado. Fora da história, a organização da guilda informa aos jogadores quais fichas podem participar e onde registrar o resultado. Mina é uma personagem; a inscrição da mesa é uma tarefa da comunidade.",
+    "motivo": "Distinguir personagem e organização real no mesmo exemplo, eliminando a ambiguidade de funções."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+    "antes": "Você pode pular essa leitura e seguir com o preparo abaixo.",
+    "depois": "Você pode pular essa leitura e seguir com o preparo a seguir.",
+    "motivo": "Tornar a remissão independente da posição na coluna."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Ijichi apoia missões com transporte, Cortinas, orientação e administração;",
+    "depois": "Ijichi apoia missões com transporte, barreiras chamadas Cortinas, orientação e administração;",
+    "motivo": "Apresentar Cortina antes de usar o termo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Nara, coordenadora da ocorrência",
+    "depois": "Sílvia, coordenadora da ocorrência",
+    "motivo": "Distinguir a coordenadora da Nara que cuida da oficina nos pilotos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Davi, motorista",
+    "depois": "Otávio, motorista",
+    "motivo": "Distinguir o motorista da testemunha Davi do centro cultural."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "São pessoas e organizações originais deste exemplo.",
+    "depois": "São pessoas e organizações originais deste exemplo de apoio. Sílvia coordena a vistoria e Otávio dirige; Nara continua responsável pela oficina dos pilotos, e Davi é a testemunha do centro cultural.",
+    "motivo": "Explicitar a continuidade dos nomes apresentados no capítulo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Nara autoriza a vistoria",
+    "depois": "Sílvia autoriza a vistoria",
+    "motivo": "Manter a identidade da coordenadora."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "“Nara pode liberar a van até as 20h”. Evite uma anotação vaga como “Nara manda em tudo”.",
+    "depois": "“Sílvia pode liberar a van até as 20h”. Evite uma anotação vaga como “Sílvia manda em tudo”.",
+    "motivo": "Manter a identidade da coordenadora."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Nara quer concluir a vistoria",
+    "depois": "Sílvia quer concluir a vistoria",
+    "motivo": "Manter a identidade da coordenadora."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "Uma negociação não concede poderes que o NPC não possui.",
+    "depois": "Uma negociação não amplia a autoridade de quem participa dela.",
+    "motivo": "Remover sigla não apresentada e esclarecer que o limite é de autoridade."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "transporte de ida e volta combinado com Davi",
+    "depois": "transporte de ida e volta combinado com Otávio",
+    "motivo": "Manter a identidade do motorista."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+    "antes": "O grupo ainda não sabe a causa. A abertura é uma intenção do administrador, não um desfecho predeterminado.",
+    "depois": "O grupo ainda não sabe a causa. Este recorte ensina a organizar relatos, apoio e acesso; para conduzir a investigação completa, prepare também a causa e os vestígios com [Preparar uma investigação](13-preparar-uma-investigacao.md). A abertura é uma intenção do administrador, não um desfecho predeterminado.",
+    "motivo": "Delimitar o preparo social preenchido e indicar o que falta para transformá-lo numa investigação jogável."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+    "antes": "Use a [ficha de acordos](08-ficha-de-acordos-do-grupo.md) para guardar o resultado.",
+    "depois": "Percorra proposta, relação com a obra, limites de conteúdo, personagens e organização; termine com uma situação inicial e as pendências identificadas. Use a [ficha de acordos](08-ficha-de-acordos-do-grupo.md) para guardar o resultado.",
+    "motivo": "Dar ao iniciante um percurso da conversa antes dos detalhes."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+    "antes": "Confira as fichas pelo procedimento do Livro do Jogador: escolhas de Origem e Caminho, capacidades completas, valores, equipamento e recursos.",
+    "depois": "Confira as fichas pelo procedimento do Livro do Jogador: escolhas de Origem e Caminho, capacidades completas, valores, equipamento e recursos. Use [Conferir personagens](25-conferir-personagens.md) como roteiro dessa revisão.",
+    "motivo": "Ligar a recomendação ao procedimento desenvolvido no Guia."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+    "antes": "use o procedimento de [dúvidas de regra](04-conduzir-uma-sessao.md)",
+    "depois": "use o procedimento de [dúvidas de regra](04-conduzir-uma-sessao.md#resolva-duvidas-e-registre-o-combinado)",
+    "motivo": "Apontar para o procedimento específico, com âncora conferida."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+    "antes": "As fichas fornecem o que os personagens sabem e podem fazer; experiência do jogador com a obra não substitui essas escolhas.",
+    "depois": "A história combinada orienta o que cada personagem conhece; a ficha e as regras definem suas capacidades. O mestre explica o contexto que o personagem saberia, mesmo quando o jogador não conhece a obra.",
+    "motivo": "Evitar reduzir todo conhecimento do personagem a uma informação escrita na ficha."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+    "antes": "Não se adotam aqui novos bônus de treino nem se fixa uma duração de ciclo de atividades. Para jogar esses assuntos com efeitos mecânicos, é preciso o procedimento correspondente.",
+    "depois": "O exemplo não escolhe um ciclo próprio para a campanha fechada. Antes de contabilizar projetos, o grupo define como aplicar [Atividades e tempo entre missões](39-atividades-e-tempo-entre-missoes.md), que já apresenta a referência de dedicação por ficha para a guilda. Treinamentos novos continuam sem benefícios mecânicos definidos.",
+    "motivo": "Distinguir a decisão local não preenchida do procedimento já existente, sem impor adoção à campanha fechada."
+  }
+]

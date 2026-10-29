@@ -1,0 +1,201 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jogar em guilda | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'JOGAR EM GUILDA';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{.colunas p:has(>strong:first-child){break-inside:auto}.colunas table{font-size:9.2pt;line-height:11.5pt}.colunas th,.colunas td{padding:4pt 5pt}.ref-curta,.formula{white-space:nowrap}}</style></head><body><nav><a href="#101-compartilhar-o-mundo">10.1 Compartilhar o mundo</a><a href="#102-calendario-e-atividades">10.2 Calendário e atividades</a><a href="#103-passar-a-missao">10.3 Passar a missão</a><a href="#104-escolher-e-manter-os-registros">10.4 Escolher e manter os registros</a><a href="#105-ouvir-o-grupo-e-dividir-o-trabalho">10.5 Ouvir o grupo e dividir o trabalho</a></nav><p class="aviso-edicao">Amostra do capítulo 10 na nova estrutura. <a href="consulta-de-regras.html">Consultar regras</a> · <a href="../apoio-consultas-105/casos-completos.html#B1">Casos completos</a>.</p><main><article class="folha" id="capitulo-10"><header><p class="numero">CAPÍTULO 10</p><h1>Jogar em guilda</h1></header><div class="colunas">
+<p>Numa guilda, mestres diferentes oferecem missões e os jogadores levam suas personagens de uma mesa para outra. A próxima equipe precisa saber o que mudou: pessoas ajudadas, recursos gastos e assuntos por resolver.</p>
+<p>Ciclo Maldito favorece esse modo de jogar, e os mesmos cuidados servem a uma campanha fechada. A guilda organiza o jogo; dentro da história, os personagens podem pertencer a escolas, famílias ou grupos independentes.</p>
+<p>As <a class="ref-curta" href="consulta-de-regras.html">regras usadas aqui</a> ficam disponíveis para conferir os exemplos e a continuidade das fichas.</p>
+<h2 id="101-compartilhar-o-mundo">10.1 Compartilhar o mundo</h2>
+<p>Comece pelos acordos da comunidade. Antes de anunciar uma mesa, confira proposta, época, lugar, opções de ficha e regras usadas. Comunique o que aquela missão exige e o que os participantes podem esperar. A <a class="ref-curta" href="../apoio-campanha-103/capitulo-5.html#51-a-sessao-zero">sessão zero</a> ajuda a combinar tom, participação, conflitos e revelações da obra.</p>
+<p>Conhecer o mangá inteiro não é requisito para jogar ou mestrar. Respeite o limite de revelações da mesa. O conhecimento do jogador não chega automaticamente à personagem; explique à pessoa iniciante o que sua personagem teria aprendido.</p>
+<h3 id="o-que-combinar-em-comum">O que combinar em comum</h3>
+<p>Deixem acessíveis a versão das regras, as opções autorizadas, as condições para participar e os lugares dos registros. Combinem quem confere fichas, quem acompanha dúvidas e como comunicar mudanças que afetam outras mesas. Esses trabalhos podem ser divididos entre pessoas que aceitem realizá-los.</p>
+<p>Uma decisão precisa mostrar seu alcance: <strong>esta sessão, esta personagem, esta campanha ou toda a guilda</strong>. Aceitar uma capacidade experimental numa ficha não a inclui automaticamente no catálogo. Quem mantém os arquivos não recebe, apenas por isso, autoridade para aprovar poderes ou recompensas.</p>
+<p>O mestre apresenta situações e conduz suas consequências; os jogadores escolhem as ações de suas personagens dentro das regras. Conflitos entre personagens dependem dos acordos da comunidade e dos participantes. Uma discussão entre pessoas é tratada por conversa, não por uma disputa de dados para impor uma decisão.</p>
+<p>Qualquer participante pode pedir pausa ou mudança de conteúdo. Interrompa, esclareça o necessário e ajuste com o grupo. Limites comunicados em particular não precisam ser expostos às demais mesas: compartilhe o cuidado a respeitar com quem precisa conhecê-lo, sem exigir uma justificativa pessoal.</p>
+<h3 id="de-uma-mesa-para-outra">De uma mesa para outra</h3>
+<p>Separe o que aconteceu, o que alguém pretende fazer e o que ainda é hipótese. Um chamado aceito não confirma que a intervenção ocorreu. Uma sala interditada não está reparada apenas porque outra equipe quer usá-la.</p>
+<p>No anexo do centro cultural, Mina aceitou acompanhar o chamado, mas a criatura continua no depósito na versão sem confronto. Outra mesa pode assumir a intervenção se combinar essa continuidade. Não deve abrir com “a ameaça foi resolvida” apenas porque o caso foi encaminhado. A <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016">linha de continuidade</a> conserva essas diferenças.</p>
+<p>Quando duas mesas puderem afetar o mesmo lugar, combinem a ordem dos acontecimentos e quem avisa sobre o resultado. O próximo mestre parte do que foi confirmado, preservando escolhas e soluções anteriores. Uma alteração ampla precisa chegar a quem usa aquela parte do mundo antes de ser tratada como fato comum.</p>
+<p>Um arco não encerra automaticamente a história pessoal de uma personagem ausente. Registre quem aceitou acompanhar a continuação; o que ninguém assumiu permanece pendente. <a class="ref-curta" href="../apoio-campanha-103/capitulo-5.html#capitulo-5">Criar uma campanha</a> desenvolve vínculos, facções e arcos.</p>
+<h2 id="102-calendario-e-atividades">10.2 Calendário e atividades</h2>
+<p>O calendário do mundo acompanha aproximadamente os dias reais, conforme o combinado da guilda. Ainda é preciso saber quando cada missão ocorre e quanto tempo ela representa. Uma noite jogada em três sessões continua sendo uma noite. O intervalo entre encontros não consome sozinho rodadas de socorro.</p>
+<table>
+<thead>
+<tr>
+<th>Registro</th>
+<th>O que acompanha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agenda das mesas</td>
+<td>Dia, horário, participantes e duração prevista</td>
+</tr>
+<tr>
+<td>Tempo da história</td>
+<td>Data ou intervalo da missão, último acontecimento e prazos em curso</td>
+</tr>
+<tr>
+<td>Dedicação</td>
+<td>Horas por ficha no ciclo comum e trabalho que cabe na história</td>
+</tr>
+<tr>
+<td>XP semanal</td>
+<td>Missões concluídas por jogador, mesmo usando fichas diferentes</td>
+</tr>
+<tr>
+<td>Salário, se adotado</td>
+<td>Participações e fechamento próprios da política opcional</td>
+</tr>
+</tbody>
+</table>
+<p>Informe abertura, fechamento e fuso dos ciclos. O padrão é <strong>28 horas novas por ficha a cada sete dias</strong>, com saldo válido só no ciclo seguinte e gasto das antigas primeiro. Não exige postagem diária nem aumenta com a participação em missões.</p>
+<p>O XP semanal é contado por jogador, na conclusão da missão; uma longa de várias sessões ocupa uma posição. Salário e recompensa por mestrar são opcionais. Veja as contas em <a class="ref-curta" href="../apoio-entre-missoes-108/capitulo-8.html#86-recompensas-e-progressao">Entre missões</a>.</p>
+<h3 id="missoes-e-trabalhos-que-se-cruzam">Missões e trabalhos que se cruzam</h3>
+<p>Antes de confirmar um projeto, confira se a personagem estava disponível, onde trabalhava e quais meios tinha. Ter horas livres não a coloca na oficina durante uma viagem incompatível. Uma espera pode permitir outra atividade, se não exigir supervisão.</p>
+<p>Se a mesma ficha entrar em outra missão enquanto a anterior ainda está aberta, combinem a ordem na história e identifiquem as dependências. Um item fabricado depois não aparece retroativamente na primeira missão. Um resultado que ainda depende de uma queda, perda ou gasto não resolvido fica pendente até ser possível conferi-lo.</p>
+<p>Separe <strong>horas confirmadas, reservadas e livres</strong>, sem contar duas vezes. Use a <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040">folha de dedicação</a> e guarde o progresso no projeto. Entrada, afastamento, retorno e mudança de ciclo seguem <a class="ref-curta" href="../apoio-entre-missoes-108/capitulo-8.html#82-tempo-para-as-atividades">Tempo para as atividades</a>.</p>
+<h3 id="prazos-que-continuam">Prazos que continuam</h3>
+<p>Pacto, uso por descanso, prazo de selo e janela de socorro têm condições próprias. Fechar a semana administrativa não recupera a personagem ou encerra essas obrigações. A jornada de Overtime também não é o saldo de dedicação.</p>
+<p>Registre o prazo na unidade e no ponto que sua regra usa. “Três rodadas, contadas na fase ambiental” permite retomar uma urgência. “Resolve na semana seguinte” não informa o estado da cena. Em campanha fechada, use o mesmo cuidado com o intervalo vivido pelo grupo, sem precisar adotar um ciclo administrativo.</p>
+<h2 id="103-passar-a-missao">10.3 Passar a missão</h2>
+<p>Uma passagem precisa permitir que outra pessoa continue sem reconstruir tudo de memória. Use a <a class="ref-curta" href="../apoio-consultas-105/folhas-para-a-mesa.html#retomar">folha de retomada</a> para um resumo curto e aponte os registros completos quando houver recursos ou efeitos em andamento.</p>
+<p>Escreva o último evento resolvido e o próximo a resolver. Inclua fichas e versões, posições, ações e respostas gastas, recursos atuais e efeitos com fonte, prazo e saída. Separe a informação dos personagens da que ainda pertence ao preparo do mestre.</p>
+<p>Antes de continuar, quem recebe confere o ponto e os estados com os envolvidos. Precisa conseguir dizer <strong>quem age agora, o que pode gastar e qual urgência vem depois</strong>. Uma lacuna que muda esse resultado deve ser conferida antes da próxima declaração.</p>
+<h3 id="uma-pausa-na-sala-de-conservacao">Uma pausa na sala de conservação</h3>
+<p>Mei entrou ferida e chegou a zero de vida pelo pó. Use o <a class="ref-curta" href="../../07 - Edicao de Leitura/capitulos/c05.html#s079">mapa e a ficha do perigo</a>, as capacidades do <a class="ref-curta" href="../../07 - Edicao de Leitura/capitulos/c10.html#s081">caso completo de passagem</a> e o registro de estado. Este exemplo usa partes de fichas; numa mesa real, envie as fichas completas usadas.</p>
+<p><strong>Ponto da pausa:</strong> toda a fase ambiental da rodada 1 já foi resolvida. O próximo evento é o começo do turno de Mei na rodada 2; depois vêm Akira e a fase ambiental 2. Nenhum desses eventos aconteceu durante a troca de mestre.</p>
+<p>A0 é a entrada limpa da faixa de Mei, a 18 m de A12. Na rodada 1, ela usou Padrão para fechar a alimentação e Movimento com Bônus convertida para chegar ao fundo. Akira usou Padrão para ligar o exaustor. As Reações não foram gastas. As próximas ações pertencem aos turnos ainda não iniciados; a passagem não fornece uma atuação extra.</p>
+<table>
+<thead>
+<tr>
+<th>O que continua</th>
+<th>Estado na pausa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lugar</td>
+<td>Alimentação fechada, exaustor ligado, limpeza em um de dois avanços; a nuvem permanece</td>
+</tr>
+<tr>
+<td>Mei</td>
+<td>No fundo, em A12; 0/44 PV, 36/36 PE, 55/55 Integridade; Morrendo, consciente por Insistir, e Envenenada; sem Sequela anterior</td>
+</tr>
+<tr>
+<td>Akira</td>
+<td>Na entrada limpa, em B0; 51/51 PV, 30/30 PE, 65/65 Integridade; sem condição aplicada no percurso</td>
+</tr>
+<tr>
+<td>Próxima decisão</td>
+<td>Retirada e atendimento antes da volta ao ponto que conta a janela de socorro</td>
+</tr>
+</tbody>
+</table>
+<h3 id="a-urgencia-de-mei">A urgência de Mei</h3>
+<p>O registro da queda tem <strong>máximo de referência 44</strong>, primeira escolha de Insistir na cena e Classe máxima 2. Um terço de 44, arredondado para cima, exige <strong>15 de tratamento</strong>, abaixo do teto de 30. Ainda recebeu <strong>0 de tratamento</strong>. Tem <strong>três rodadas de janela</strong>, contadas na fase ambiental, no ponto em que caiu. Não está estável.</p>
+<p>O dano que iniciou a queda não consumiu outra rodada pelo excesso. Antes da fase 2, ainda não houve uma volta completa. Se uma nota disser “duas rodadas”, confira o acontecimento e corrija a nota; não escolha um valor pela ordem dos arquivos. A <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024">folha de socorro</a> conserva esses campos.</p>
+<p>Envenenado vem do pó. Neste perigo, a saída é <strong>TR Vigor CD 14 no fim de cada turno de Mei</strong>; a primeira tentativa será no fim de Mei 2. Sem saída anterior, a aplicação termina na fase da rodada 11, antes de verificar outra exposição. Isso é uma duração deste perigo, não de toda condição Envenenado.</p>
+<p>O grupo sabe onde ficam os comandos, como interromper a alimentação e que o pó age por contato. Não descobriu a causa técnica do defeito. A passagem conserva esse limite, sem acrescentar uma pista que ninguém obteve.</p>
+<h3 id="uma-retomada-possivel">Uma retomada possível</h3>
+<p>Mei usa Movimento e Bônus convertida para percorrer 18 m até A0. Insistir conserva sua capacidade de agir, e Envenenado não reduz seu deslocamento. No fim do turno, tira <strong class="formula">9 + 3 = 12</strong> no TR e continua Envenenada.</p>
+<p>De B0, Akira usa Padrão e <strong>6 PE</strong> em Sutura, compatível com Mei. Os quatro d8 dão <strong class="formula">2 + 3 + 4 + 6 = 15</strong>. Completa o tratamento antes da fase 2: Mei fica com <strong>15 PV</strong>, sai de Morrendo e recebe <strong>uma Sequela</strong>. Akira fica com <strong>24 PE</strong>. O requisito não é subtraído da cura para deixá-la com 1 PV.</p>
+<p>Na fase 2, ambos estão fora da área contaminada. Não há nova exposição; o segundo avanço elimina a nuvem. Isso não remove Envenenado. No fim de Mei 3, <strong class="formula">12 + 3 = 15</strong> supera CD 14 e encerra a condição, sem ação ou PE por esse TR.</p>
+<p>Esse é um caminho possível, não a escolha obrigatória da jogadora. Outro plano precisa partir dos mesmos estados e meios. Se Mei tivesse escolhido Aguentar, a passagem registraria Inconsciente e o tratamento correspondente; não receberia esta caminhada como se tivesse escolhido Insistir.</p>
+<table>
+<thead>
+<tr>
+<th>Ao fim do percurso</th>
+<th>O que registrar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mei</td>
+<td>A0; 15/44 PV, 36/36 PE, 55/55 Integridade; uma Sequela; sem Morrendo ou Envenenado do perigo; uma escolha de Insistir nesta cena</td>
+</tr>
+<tr>
+<td>Akira</td>
+<td>B0; 51/51 PV, 24/30 PE, 65/65 Integridade; sem efeito aplicado no percurso</td>
+</tr>
+<tr>
+<td>Lugar e pendência</td>
+<td>Nuvem eliminada; alimentação fechada e exaustor ligado; equipamento interditado; aviso à oficina e reparo pendentes</td>
+</tr>
+</tbody>
+</table>
+<p>Nenhum descanso foi concluído. Este exemplo não traz o tamanho anunciado da missão, a posição semanal dos jogadores ou a política de remuneração. Confira antes de lançar recompensas. Limpar a nuvem, tratar a pessoa, reparar a máquina e fechar recompensas são tarefas diferentes.</p>
+<h2 id="104-escolher-e-manter-os-registros">10.4 Escolher e manter os registros</h2>
+<p>Comece pela informação que precisa continuar. Uma missão simples pode caber em notas breves. Acrescente uma folha quando ela ajudar a acompanhar algo que não cabe bem nessas notas. Não é preciso preencher todos os formulários em toda mesa.</p>
+<table>
+<thead>
+<tr>
+<th>Necessidade</th>
+<th>Registro a usar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preparar e conduzir uma missão</td>
+<td><a class="ref-curta" href="../apoio-consultas-105/folhas-para-a-mesa.html">Folhas para a mesa</a> e fichas de perigos necessárias</td>
+</tr>
+<tr>
+<td>Guardar pistas e seus limites</td>
+<td><a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s012">Descobertas</a>, quando uma nota no preparo não bastar</td>
+</tr>
+<tr>
+<td>Continuar uma cena ou uma consequência</td>
+<td><a class="ref-curta" href="../apoio-consultas-105/folhas-para-a-mesa.html#retomar">Retomada</a>, com a <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016">linha de continuidade</a> para assuntos extensos</td>
+</tr>
+<tr>
+<td>Acompanhar recursos e queda</td>
+<td><a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024">Estado e socorro</a>, junto da ficha completa</td>
+</tr>
+<tr>
+<td>Executar trabalho fora de missão</td>
+<td><a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038">Projeto</a> e <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040">dedicação</a>, ligados pelo trabalho correspondente</td>
+</tr>
+<tr>
+<td>Manter acordos e aquisições</td>
+<td>Registros de <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s032">capacidade</a>, <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s042">Pacto</a> ou <a class="ref-curta" href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s044">entidade</a>, conforme o assunto</td>
+</tr>
+</tbody>
+</table>
+<p>A <a class="ref-curta" href="../../07 - Edicao de Leitura/capitulos/c10.html#s080">consulta de ferramentas</a> localiza também facções, convivência do Receptáculo, inimigos, habilidades e chefes. Use as folhas completas para trabalhos que precisam delas; a consulta rápida serve para encontrar o que levar.</p>
+<h3 id="atualizar-sem-duplicar">Atualizar sem duplicar</h3>
+<p>Escolha onde cada informação é atualizada e aponte essa localização nas outras notas. Identifique data ou momento, versão e quem conferiu. Uma cópia sem atualização não pode competir com a ficha atual só porque foi mais fácil encontrá-la.</p>
+<p>O projeto do Traje registra quatro horas de reparo e os materiais. A folha de dedicação indica quais horas Rina trabalhou nesse projeto. O inventário mostra quem está com a peça e se a entrega ocorreu. Confirmar o trabalho não devolve horas ao saldo nem entrega outra cópia do item.</p>
+<p>Nome e nível não identificam todas as escolhas de uma personagem. Os exemplos usam versões diferentes de Mei e de outras pessoas para ensinar situações distintas. Na mesa, confirme a revisão efetiva da ficha, capacidades completas, usos e condições. Não importe uma habilidade ou obrigação de outro exemplo porque o nome coincide.</p>
+<h3 id="corrigir-ou-mudar-uma-regra">Corrigir ou mudar uma regra</h3>
+<p>Quando surgir divergência, confira a capacidade e a regra geral, o último evento resolvido e o registro da mudança. Um cálculo copiado errado pede correção. Uma decisão ainda incerta precisa de consulta e, durante a sessão, do combinado provisório previsto em <a class="ref-curta" href="../apoio-conducao-102/capitulo-4.html#48-duvidas-e-fim-da-sessao">Na mesa de jogo</a>.</p>
+<p>Guarde caso concreto, trecho consultado, decisão usada, quem vai conferir e o resultado posterior. Comunique a correção aos afetados. Mudar o texto de um registro não refaz silenciosamente uma sessão concluída, e uma decisão local não se torna regra comum sem a comunicação pertinente.</p>
+<p>Mantenha separado o que ocorreu na história do que foi decidido sobre a regra. Se uma proposta alterar aquisição, custo, recuperação ou outra condição, identifique-a como proposta e avalie seu alcance. Corrigir uma referência difícil de encontrar não exige mudar a mecânica que ela explica.</p>
+<h2 id="105-ouvir-o-grupo-e-dividir-o-trabalho">10.5 Ouvir o grupo e dividir o trabalho</h2>
+<p>Ao encerrar, recolha uma dificuldade de leitura ou condução e algo que o grupo queira retomar. Uma conversa breve pode bastar. Pessoas novas precisam localizar regras sem conhecer a obra ou todo o histórico da guilda.</p>
+<p>Registre primeiro o relato. “Não encontramos quando a Reação volta” pede localizar ou esclarecer a regra. “A Reação deveria voltar em outro momento” propõe mudá-la. São trabalhos diferentes.</p>
+<p>Se alguém confundir o fim da nuvem com o de Envenenado, use dois marcadores com seus prazos: um do lugar e outro da condição. Observe na próxima aplicação se isso ajuda, antes de propor outra duração.</p>
+<h3 id="tarefas-com-responsaveis">Tarefas com responsáveis</h3>
+<p>Divida trabalhos conforme interesse e disponibilidade: atualizar o estado, guardar notas públicas, conferir dúvida ou preparar missão. Anote quem aceitou, o que falta e quando pretende fazer. Uma sugestão não é tarefa assumida.</p>
+<p>Na sala, quem fecha confere recompensas; quem prepara a continuação acompanha o aviso à oficina. A máquina ainda precisa de reparo. Uma pendência sem responsável continua registrada, sem prometer que será resolvida.</p>
+<p>Informe a quem fez a observação o que mudou e onde encontrar a versão atual. Depois, observe se o grupo consegue localizar e usar a informação. Registre o resultado dessa aplicação antes de considerar o problema resolvido.</p></div></article></main><p class="rodape-tela"><a href="../110-guilda-registros-e-passagem.md">Registro de revisão</a></p></body></html>

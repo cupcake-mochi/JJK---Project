@@ -1,0 +1,4 @@
+from revisar_guia94 import *
+headings(46,[('### Quem dedica o tempo','### Quem registra as horas'),('### Teste e preservação do estado','### Teste e resultado da transferência'),('## Ajustes e passagem entre mestres','## Adaptar e registrar o projeto')])
+edit(source(46),[
+('completar os procedimentos','completar as regras'),('conforme o procedimento próprio','conforme suas regras próprias'),('os procedimentos de recuperação aplicáveis','as regras de recuperação correspondentes'),('exige o procedimento do Livro de Regras 1.0','segue as regras do Livro de Regras 1.0'),('Quem conduz a operação','Quem faz a transferência'),('no ramo de nível 9','na versão de nível 9'),('Herança usa o mesmo procedimento de transferência','A herança segue as mesmas regras da transferência'),('Não antecipe esse procedimento','Não antecipe a herança')])

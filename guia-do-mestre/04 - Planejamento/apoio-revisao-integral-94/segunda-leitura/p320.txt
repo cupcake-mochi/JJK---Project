@@ -1,0 +1,81 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Campo
+Registro
+Resultado
+Dados, total, sucesso ou falha.
+Nova tentativa
+Condição de autorização, trabalho ou materiais adicionais e
+vantagem prevista após falha.
+Dedicação por participante
+Ligações com os registros individuais de tempo; horas confirmadas e
+reservadas.
+Antes de iniciar: conheça o resultado pretendido e
+as condições do projeto. Antes de rolar: confirme
+que o trabalho foi cumprido. Antes de usar: confira
+se a aquisição foi concluída e pague os custos de
+entrada ou ativação devidos.
+Exemplo de conferência do teste
+Este quadro retoma os números publicados da
+calígrafa no Livro de Regras 1.0. Mostra os
+requisitos e o resultado do teste; não define um
+prazo-padrão ou preço de materiais.
+Campo
+Caso
+Operação
+Criar um shikigami de talismã de Classe 3.
+Responsável
+Caligrafia treinada; nível 13, Classe 4, Destreza 4, Maestria 2.
+Destinatário
+Invocador de nível 9, Classe 3.
+Ficha
+Preparada antes do teste, no nível 9, com ofício Caligrafia.
+Comparação
+Entidade uma Classe abaixo da responsável.
+Dificuldade
+8 + 4 + 2 - 2 = 12.
+Rolagem
+d20 + 6; resultado 6 no dado totaliza 12 e tem sucesso.
+Entrega
+Entidade com vida máxima, recolhida em talismã sem carga; 0,5 de
+Volume.
+Evolução
+Acompanha o invocador até o nível 12; Classe 4 exige reconstrução.
+Este quadro resolve o teste. Tempo e materiais para
+criar entidades (p. 262) acrescenta um orçamento e
+uma linha de trabalho com falha; reconstrução e
+transferência (p. 265) exemplifica as operações
+posteriores. Para executar um projeto, mantenha
+também a ficha completa da entidade vinculada ao
+registro; CD e horas não a substituem.
+Estado para passagem entre
+mesas
+• Vida atual e máxima, Integridade quando
+aplicável e excedente de queda quando houver.
+• Ativa, recolhida, inativa, caída, Desligada,
+destruída ou outro estado pertinente; posição
+quando permanece no mundo.
+• Condições, efeitos e respectivos prazos; auras ou
+efeitos que dependem de presença.
+• Carga do talismã; reserva própria somente
+quando o tipo permitir; usos gastos e recuperação
+exigida.
+• Tarefa atual e forma pela qual foi recebida.
+• Básica, Movimento e Reação coletiva disponíveis,
+se a mesma cena continuar.
+• Ordem pendente, requisitos, custos já pagos e
+prazo.
+• Equipamento próprio, objetos transportados para
+terceiros e passageiros previstos na ficha.
+• Nova pessoa responsável após transferência
+bem-sucedida, sem apagar estados ou usos.
+Ao encerrar uma missão, registre o estado real e as
+recuperações que aconteceram. Fechar o ciclo
+administrativo da guilda ou mudar de mestre não
+recupera a entidade por si.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+320

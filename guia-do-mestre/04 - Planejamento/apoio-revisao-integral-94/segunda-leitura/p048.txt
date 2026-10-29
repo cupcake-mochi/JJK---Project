@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Ajudar um aliado
+Ajudar favorece uma tentativa de um aliado; não
+soma os bônus das duas fichas. A contribuição
+precisa ser possível e útil. A regra permite um
+ajudante por teste ou ataque.
+Considere outra versão da conferência do arquivo.
+Antes da rolagem de Aoi, Haru mantém abertas e
+alinhadas as cópias frágeis enquanto ela examina o
+registro, algo que Aoi não consegue fazer sozinha
+ao mesmo tempo. O mestre reconhece essa
+contribuição como ajuda válida. Haru não precisa
+conhecer Investigação para executar essa parte
+física do trabalho.
+Aoi faz uma tentativa com vantagem: rola dois d20,
+obtém 9 e 15 e usa o maior. 15 + 4 = 19, suficiente
+contra CD 14. Haru não faz um segundo teste para
+acrescentar seu resultado. A conferência termina
+em dez minutos; ajudar não reduz automaticamente
+esse prazo.
+Essa é uma alternativa preparada antes do dado,
+não uma ajuda oferecida depois da rolagem para
+apagar a falha do caso anterior. Sem a contribuição
+concreta, não há vantagem apenas porque Haru
+está presente.
+Em combate, Ajudar custa Ação Padrão e beneficia
+o próximo teste correspondente até o começo do
+próximo turno de quem ajudou. Fora dele, a
+contribuição acompanha aquela tentativa: a
+vantagem não fica guardada para outra tarefa
+depois que o ajudante saiu. Requisitos de
+ferramentas, conhecimentos ou sentidos continuam
+valendo quando a contribuição precisar deles.
+Na criação, reconstrução e transferência de
+entidades, há uma exceção própria para a
+vantagem: confira treino, autorização, dedicação e
+fontes permitidas em Obter e criar entidades (p.
+257). Confira essa exceção antes de permitir a
+mesma ajuda num teste de entidades.
+Testes de grupo
+Num teste de grupo, cada participante rola e pelo
+menos metade precisa passar. Com quatro pessoas,
+bastam duas; com cinco, são necessárias três. Não
+some os totais das rolagens nem calcule sua média.
+A travessia do corredor de serviço
+Cinco personagens querem cruzar juntos um
+corredor de serviço sem serem notados pelo vigia.
+Estão fora de combate, têm um percurso contínuo
+entre anteparos que escondem seus corpos e
+conseguem reduzir os sinais da passagem. O vigia
+pode ouvir a aproximação; ninguém está em visão
+livre. Não há vantagem ou desvantagem aplicável
+neste recorte.
+O mestre apresenta a travessia, que leva cerca de
+um minuto naquele lugar, como teste coletivo de
+Furtividade. O vigia tem Percepção +4: a referência
+de Esconder é CD 10 + 4 = 14. No sucesso coletivo,
+a equipe cruza sem ser notada. Na falha coletiva, o
+vigia percebe a passagem e chama pela equipe. Essa
+consequência não o torna capaz de atacar ou
+prender todos gratuitamente.
+Os bônus abaixo já incluem os modificadores
+pertinentes de cada ficha:
+Participante
+d20
+Bônus de Furtividade
+Total
+Resultado contra CD 14
+Aoi
+13
++3
+16
+Sucesso
+Nao
+9
++3
+12
+Falha
+Haru
+11
++3
+14
+Sucesso
+Tomo
+7
++1
+8
+Falha
+Emi
+10
++4
+14
+Sucesso
+São três sucessos entre cinco participantes. A travessia coletiva funciona. Os valores 12 e 8 não são
+somados aos outros nem impõem que cada pessoa também passe sozinha no teste.
+Todos os cinco estão fazendo a travessia. Deixar Nao e Tomo fora da lista apenas porque têm resultados
+menores mudaria quem participa da tarefa. Se eles realmente ficarem para trás antes da tentativa, a proposta
+e seus participantes serão outros; não terão atravessado junto com o restante por essa rolagem.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+48

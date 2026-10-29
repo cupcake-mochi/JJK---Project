@@ -1,0 +1,241 @@
+{
+  "registro": 112,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-112/output/pdf/Ciclo-Maldito-Abertura-e-Capitulos-1-a-3-Revisao-Textual.pdf",
+  "pdf_sha256": "31bae7ab6b7960b2350817994af0b2e8ccba327f07cea8fa11bfa09165a788f5",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-01.png",
+      "imagem_sha256": "40ef19917d7226535cfbba1107f3c715b1b69eac60a9d35975ce8a2cfae40234",
+      "pixels_sha256": "95584ad00c7e6850e7d952046a41477b727f6419f97c5ef2f832132b3d76f251",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Abertura com quatro caminhos; hierarquia e links legíveis. Espaço de abertura mantido."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-02.png",
+      "imagem_sha256": "5dba28fca80132e1f19d1e39272d738e19450b484889c1f176b6d35fed1529f0",
+      "pixels_sha256": "a4c329756b52c3a990908335439eaba2d71c42269513973d9ec94aa75034dbdd",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Contexto, ações do mestre, dados e acordos em duas colunas; TR explicado."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-03.png",
+      "imagem_sha256": "20675489af8ccd50da60c7202134d517930e9465216379160e382783d86019af",
+      "pixels_sha256": "2dc28ed9e75a913c53840ba4d916798f143e40ce0dd709cd9056d6e5545f3555",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Cena cotidiana e preparo; falas e comentários distintos. Próxima página dedicada à planta."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-04.png",
+      "imagem_sha256": "84675572c922bc93a21644b6e6bd2ba5543833d02b2a269fed2e0a2bb4a85430",
+      "pixels_sha256": "924500b5324c849679387fd60a0d8ee256ab73f41904cbc8e7af14d1cbc35577",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Tabela de pessoas e planta inteiras; portas, medidas e legenda legíveis."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-05.png",
+      "imagem_sha256": "73fc118d8552eb24a300d4850ac82a710c5e55fa8dd1025dd5800752ce04d83f",
+      "pixels_sha256": "0655b828929df8686303bef98ccdaa98c39ad5c0ed42086851fbd31996e2199c",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Ficha inteira com tabelas acima das colunas; montagem e CE explicadas; capacidades completas."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-06.png",
+      "imagem_sha256": "093e21894283cb13d0c210edd5d09590df1196d7f07616d9dff74e05e9c4086c",
+      "pixels_sha256": "bc024d6b6c6051db53c35693c1252634d72033baa1454c6a25a1b249254a7069",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Investigação, termos e início do combate; blocos de fala e comentário legíveis."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-07.png",
+      "imagem_sha256": "a0b8c3d01d701f0b2cfb1ba0c2a0b5481d7af9e778ff1581b14b9bdee894dbef",
+      "pixels_sha256": "8f6461ea40ea380c277472dd2df23a43115ed68e045c491a3fa64d96474836cc",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Perfis e primeira rodada; tabela legível e ordem do exemplo identificada."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-08.png",
+      "imagem_sha256": "9b878acaaf7c9894cbd195b7091135fd844c9a59d8733dedf2290dd66dd6e072",
+      "pixels_sha256": "0910dd2cbf78ff683940b015e6f0e1adb2cb13ee2650d87a8321fb6278fdda05",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Socorro, segunda rodada e alternativas; comentário longo transferido inteiro para a página seguinte."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-09.png",
+      "imagem_sha256": "314e318010d43e1c0cbbc6a5899a586014c46c69449eb5b89017014200805eb3",
+      "pixels_sha256": "c090a59c1112aeb13929e920d5ba8663929ce8f4ea063a0fc6411a94080fe650",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Comentário integral, retirada, apoio e encerramento; nenhuma continuação de comentário sem rótulo."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-10.png",
+      "imagem_sha256": "475a3cf1c1acc5f1fcd80111603f9eee9243c009194074f306dff61ca55674ac",
+      "pixels_sha256": "05d8ccf43208322feaff4b557980427657085da27a701e6ff3779bad9bcbc71d",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Estado final e continuação da campanha; tabela e registro completos. Espaço final separa narrativa e resumo de consulta, sujeito à composição integrada."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-11.png",
+      "imagem_sha256": "7495a1a4a4c1bfeabfe059db7ff9607c542dfb857c3697a90302d04a12339e21",
+      "pixels_sha256": "8924dc066e40c7e672ee5a6003d77e9c6e058b5610966d74938d81b0fd1c6d77",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Resumo completo em uma página de consulta; tabela e notas preservadas."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-12.png",
+      "imagem_sha256": "68c9ff079010a1ea1bb31e21763e52cef998b26101d609c00bb1d3eeb4efd021",
+      "pixels_sha256": "01f23b01210e53d1354d21d220a26353fb3a5e6a3c2c21257cfaaddf7027338b",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Mundo, maldições e início de energia; títulos com texto, sem revelações."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-13.png",
+      "imagem_sha256": "19605a58fde1de0208ff4488b3ab37f728ea020026864f1f52c697126a6e0957",
+      "pixels_sha256": "ca1df9f78a0eb0246ef32da21231916da5a0d57e86b93bd57985b2c64ed3dc29",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Técnicas, pessoas e contatos; hierarquia das explicações preservada."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-14.png",
+      "imagem_sha256": "c0192134d3df20016c1f2e31ac12e8acf9eab33b8ef14ad030be9aeae9349568",
+      "pixels_sha256": "262d9d266a85ceea1b800b129b9007826650b342cfe3b0661ef5f2d55967ca4e",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Origens e perguntas de cotidiano; Receptáculo e Sem Técnica distintos."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-15.png",
+      "imagem_sha256": "031989a8611d7a745457bb3662d1a692716893868f020596ce06ce09338bd446",
+      "pixels_sha256": "e657d0cc4fdefa52ddb0ea700d15bf43f9e8c3f81bdbe5645e31b68d492e2581",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Compromissos, época e formato da campanha; acesso a aprofundamento sinalizado como revelações."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-16.png",
+      "imagem_sha256": "5665b1ab921110d31e1ba2c14f7d7fa6034bb0cf3a03ee4a914016ff38ab8af7",
+      "pixels_sha256": "bac5a4002d1200c4519170c17c67baf0b2fef33994da323e2e72677e6e1ce5d1",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Cinco perguntas de preparo e pessoas; lista legível e exemplos localizados."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-17.png",
+      "imagem_sha256": "3cf8ab74373522263b47c82847fcb0e3e7b1a84b317f754f013641878e4805bd",
+      "pixels_sha256": "dfb8307bbeeca8574ac3f56650a52a191feb19222118f5fd4a447510d2b552c1",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Lugares, negociação e pistas; colunas com leitura contínua e títulos acompanhados de texto."
+    },
+    {
+      "pagina": 18,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-18.png",
+      "imagem_sha256": "eabfe10303c88df438adcd2dafeabfdc29746e1e8a7b89992a6309ba1bb72924",
+      "pixels_sha256": "6902f9184d9d8dfddbbe23ec0485dd1b6d976155db5047e2a6a5057ee6b267a0",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Investigação, consequências e pouco tempo; ligações com o complemento visíveis."
+    },
+    {
+      "pagina": 19,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-19.png",
+      "imagem_sha256": "880856f165a2691ce26d64d6515aacce590ec54314949e70a0ddeb91104ff507",
+      "pixels_sha256": "7a54d2fa7fc6f4cf467a44fd8cee3c4beb8a941e8aa78756fca5015b31edb93d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após o último ajuste",
+      "observacao": "Fim do método seguido da folha preenchida; linha em toda a largura marca a mudança e evita confusão entre os dois conjuntos de colunas."
+    },
+    {
+      "pagina": 20,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-20.png",
+      "imagem_sha256": "4cf19fc5667638b0a82ae7a60984307b98bdd2cc0d2218bfaffcce382a91a2b9",
+      "pixels_sha256": "0e76f326a1c8a035249a1accf256308c01cb687655c5445b78023a0cc17457aa",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após o último ajuste",
+      "observacao": "Situações curtas com título e texto juntos; sem quebrar a terceira ideia entre colunas."
+    },
+    {
+      "pagina": 21,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-21.png",
+      "imagem_sha256": "6775404bb33a1da7a95f2e5c6ccfef2a1bb04a942682d78b65d78195e4913b15",
+      "pixels_sha256": "9b9c53840bd1a2f5a4f4475d63e85f200b5c7a79bad79a94b84583d697c5563b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após o último ajuste",
+      "observacao": "Situações e perfis completos em blocos curtos; sem fragmentar perfis entre páginas."
+    },
+    {
+      "pagina": 22,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-22.png",
+      "imagem_sha256": "fd8f0c62cf306274ea013a79cf8210989eb766fd5f6bbeb65b9da5279f712d8d",
+      "pixels_sha256": "3aa810e7b73b4d613c164d557d9203121f606e781cbb2537264427f22f21ec0a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após o último ajuste",
+      "observacao": "Lugares e complicações completos; primeiro exemplo começa com descrição e fala."
+    },
+    {
+      "pagina": 23,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-23.png",
+      "imagem_sha256": "06056fb741da1227da9699d154e2dcc587de28c2dd4499226df65b78ef853834",
+      "pixels_sha256": "6cc533055ff45e441e77d6368f3b9107481fc06fdb5afb90db799132c300e36f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final após o último ajuste",
+      "observacao": "Investigação e início da travessia; espaço antes do mapa mantém o desenho legível e junto da resolução na página seguinte."
+    },
+    {
+      "pagina": 24,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-112/pagina-24.png",
+      "imagem_sha256": "cb5bf6f29544499d8353db2bed7f2765710cd0b66607f036e4070e2cdb838340",
+      "pixels_sha256": "0b396d6e218e604e70f0d1efb202dd8beed5deaa486a58408c8ded606bb200a8",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada e confirmada idêntica por pixels após o último ajuste",
+      "observacao": "Mapa em largura inteira e legenda legíveis; regras da travessia e ensaio completos, sem página residual."
+    }
+  ],
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral dos quatro textos, comparação com a organização prevista e criação/revisão da abertura.",
+      "alteracoes_registradas": 21
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das 26 páginas da primeira prova, mais sete ajustes e releitura dos trechos alterados. Inspeção da prova resultante de 24 páginas registrada separadamente.",
+      "alteracoes_registradas": 7
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "limites": [
+    "Duas passagens locais deste lote, sem encerramento da etapa 6 integral.",
+    "A inspeção desta prova parcial não substitui a etapa 7 do livro integrado.",
+    "Sem leitor humano independente, nova avaliação de aprendizagem ou equilíbrio."
+  ]
+}

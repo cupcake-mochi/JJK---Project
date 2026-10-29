@@ -1,0 +1,76 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Próxima ação: Aline pede aos personagens o
+contato de quem faz a reserva. Se o receber,
+pretende apresentar uma proposta de horário.
+Sinal: contato direto com o grupo e posterior
+resposta da pessoa responsável. Anotar a resposta
+quando for recebida.
+Ainda em aberto: disponibilidade, autorização e
+condições de uso. Um pedido não equivale a uma
+reserva.
+Atualize o exemplo com os resultados da sessão se
+adotar essa facção. A ficha é uma ferramenta de
+descrição, sem pontos de influência, turnos ou
+benefícios automáticos.
+A.7 · Registro de estado e
+socorro
+Use como apoio à ficha durante a missão e na
+passagem entre mestres. Consulte as regras em
+Acompanhar recursos (p. 70), Quedas e socorro (p.
+73) e Retirada e recuperação (p. 77).
+Estado atual
+Personagem, jogador, revisão da ficha e momento
+do registro:
+Reserva
+Máximo atual
+Saldo atual
+Temporários, quando aplicáveis
+Vida
+Energia
+Integridade, se possuir
+Não se aplica
+Alterações do máximo e forma de encerrá-las:
+Condições e efeitos: nome, fonte, momento de
+término e saída.
+Usos limitados gastos: capacidade, a quem
+pertence o limite e quando recupera.
+Equipamento, munição, consumíveis e carga
+relevantes:
+Sequelas atuais:
+Quantidade de escolhas de Insistir nesta cena:
+Exaustão e lutas do dia:
+Cicatrizes, escolha de efeitos e outras
+consequências permanentes:
+Se houver queda em andamento
+Causa: vida a zero, Integridade a zero ou outra.
+Conferir primeiro a regra aplicável.
+Máximo de vida de referência da queda:
+Sequelas que tinha ao cair:
+Escolha e estado atual: Aguentar, Insistir, estável
+ou Derrotado. Registrar outras causas de
+inconsciência separadamente.
+Tratamento necessário e cálculo usado:
+Tratamento válido acumulado:
+Janela restante:
+Ponto da iniciativa que conta o tempo:
+Estável: sim/não; se a estabilidade terminar por
+dano, atualizar janela e ponto de contagem.
+Evento ou atendimento
+Momento
+Tratamento ou perda de janela
+Estado depois
+Impedimentos, compatibilidade de cura e exceções da ficha:
+Ao encerrar a queda: registrar nova vida, Sequela no momento correto e condições restantes. Limpar os
+campos da ocorrência encerrada; conservar consequências e contagem de Insistir pelo prazo pertinente.
+Saída e recuperação
+Posição, meios de retirada e quem precisa de transporte:
+Se a sessão interrompeu uma situação em turnos: iniciativa, último evento resolvido, próximo ponto a
+resolver, ações e respostas já gastas, posições e efeitos com prazo. Registrar separadamente fases do
+ambiente e pontos de contagem do socorro.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+311

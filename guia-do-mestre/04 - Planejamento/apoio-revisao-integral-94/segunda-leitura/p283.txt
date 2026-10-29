@@ -1,0 +1,107 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+A evolução para o nível 6
+Quando Tala chega ao nível 6, o Escriba a
+acompanha. O marco permite acrescentar 1 a um
+atributo; neste exemplo, Constituição sobe de 2
+para 3. Recalcule a vida inteira:
+5 + 3 + (3 + 3) × (6 - 1) = 8 + 30 = 38 PV máximos.
+Não basta acrescentar os pontos de um nível à
+conta antiga: o aumento de Constituição altera
+todos os níveis. A Integridade máxima passa a 19.
+As outras escolhas de atributos permanecem,
+somando agora 10 pontos.
+No nível 6, a Maestria de Tala ainda é 1. Mantida
+sua Inteligência 4, Defesa 14, ataques +4 ou +6 e CD
+12 não mudam. Vigor sobe para +3. O Escriba
+continua com uma básica, duas especiais e Classe
+máxima 2.
+Ele recebe sua segunda escolha de talento, até
+CE1. Neste exemplo, aprende Leitura, da lista
+permitida: identifica Classe e Forma de
+conjurações a até 18 m, sem revelar a montagem
+completa ou a localização de alvo oculto. O
+benefício pertence à entidade. Como ela não fala
+nem tem telepatia, Tala precisa de sinais
+compreensíveis para receber essa informação. O
+painel do Retrato não vira um editor de mensagens
+ou mostrador de números por causa dessa escolha.
+Retrato de referência permanece CE1, com uma
+imagem, os mesmos 9 m e os mesmos custos de
+básica. A evolução não amplia automaticamente o
+poder próprio. A possibilidade de reescrever uma
+especial no ganho de nível também não é permissão
+para acrescentar qualquer função ao talento.
+Os próximos níveis
+Esta projeção conserva a Constituição 3 escolhida
+no nível 6, a Maestria de Tala em 1 e sua
+Inteligência em 4. Mostra capacidade disponível,
+não escolhas de poderes já realizadas.
+Nível da entidade
+PV
+máximos
+Integridade
+máxima
+Classe
+máxima
+Básicas
+conhecidas
+Vagas de
+especiais
+Escolhas de talento
+5, Constituição 2
+27
+13
+2
+1
+2
+1, até CE1
+6, Constituição 3
+38
+19
+2
+1
+2
+2, ambas até CE1
+8, Constituição 3
+50
+25
+2
+1
+3
+2, ambas até CE1
+9, Constituição 3
+56
+28
+3
+1
+3
+2, ambas até CE1
+A vaga do nível 8 permite aprender outra especial válida; não é um poder automático. No nível 9, as
+especiais conhecidas podem ser ampliadas para Classe 3, conservando as peças:
+Uso
+Pontos e compras
+Resultado
+PE
+Agulha guiada em Classe 3
+6 - Precisão 1
+5d8, ataque +6, 18 m
+9
+Agulha perfurante em Classe
+3
+6 - Precisão 1 - Fura 2
+3d8, ataque +6, 18 m; ignora
+até 4 RD
+9
+Na Classe 3, Leve custa 2 e o desconto Livre é 1: Precisão fica em 1. Fura é Média, custa 3 e cai para 2 com
+Mira Livre. Seu efeito usa Classe reduzida 2, portanto ignora 4 RD. A ampliação não muda Projétil para
+área, não acrescenta Longe e não permite usar essa Classe antes do nível 9.
+Esta evolução pertence ao shikigami adquirido por espaço conhecido. Uma entidade fabricada de Classe 2
+pararia no nível 8 até reconstrução para a Classe seguinte. Uma maldição domada conservaria seu nível de
+aquisição. Não copie a coluna de níveis para essas origens sem aplicar suas diferenças.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+283

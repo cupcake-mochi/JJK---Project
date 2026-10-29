@@ -1,10 +1,10 @@
-# Recompensas e fechamento
+# Encerrar a missão e entregar recompensas
 
 Consulte esta seção ao anunciar uma missão, fechar seus resultados e registrar o que acompanha os personagens para outra mesa. Experiência, dinheiro, equipamento, patente e informação são resultados diferentes. Entregar um deles não concede automaticamente os demais.
 
 ## Anuncie o tamanho da missão
 
-A R53 usa quatro referências de XP base: curta, 50; padrão, 100; longa, 200; final de arco, 300. Quem anuncia informa o tamanho antes de começar. Duração ajuda a escolher, mas importância e risco também contam. Um encerramento de arco pode acontecer por conversa.
+O Livro de Regras 1.0 usa quatro referências de XP base: curta, 50; padrão, 100; longa, 200; final de arco, 300. Quem anuncia informa o tamanho antes de começar. Duração ajuda a escolher, mas importância e risco também contam. Um encerramento de arco pode acontecer por conversa.
 
 O pagamento é por missão, sem contar inimigos abatidos. Investigar, negociar, escoltar ou resolver uma ameaça por outro meio pode cumprir o objetivo. Evite apresentar um caminho pacífico como válido e depois retirar a recompensa apenas porque não houve combate.
 
@@ -14,11 +14,11 @@ Uma missão longa pode ocupar várias sessões. Ela conta uma vez no encerrament
 
 ## Falha e resultados parciais
 
-Na falha da missão, a R53 permite ao mestre conceder metade da recompensa ou nada, conforme o que aconteceu. Essa decisão vem antes do desconto semanal de cada participante. Uma recompensa de zero permanece zero.
+Na falha da missão, o Livro de Regras 1.0 permite ao mestre conceder metade da recompensa ou nada, conforme o que aconteceu. Essa decisão vem antes do desconto semanal de cada participante. Uma recompensa de zero permanece zero.
 
 Compare o objetivo anunciado ao resultado. Registre o que foi alcançado, o que se perdeu e o motivo da escolha. Não use uma única rolagem malsucedida como sinônimo automático de missão fracassada: talvez a equipe ainda tenha resolvido o problema por outro meio.
 
-**Exemplo de metade, decidido para o caso.** Uma missão longa pretendia recuperar registros e impedir sua entrega a um comprador. A equipe recuperou parte dos documentos, mas não impediu a entrega. O mestre considera a atuação e o resultado parcial e atribui metade: **100 XP antes do desconto semanal**. O critério pertence a esse parecer, não estabelece que todo fracasso parcial pague necessariamente metade.
+**Exemplo de metade, decidido para o caso.** Uma missão longa pretendia recuperar registros e impedir sua entrega a um comprador. A equipe recuperou parte dos documentos, mas não impediu a entrega. O mestre considera a atuação e o resultado parcial e atribui metade: **100 XP antes do desconto semanal**. O critério pertence a essa avaliação, não estabelece que todo fracasso parcial pague necessariamente metade.
 
 **Exemplo de zero, decidido para o caso.** Uma missão curta foi encerrada como malsucedida após a desistência, sem resultado relevante para o objetivo; o mestre informa a decisão de não conceder XP. Quem participou ainda registra a posição semanal dessa missão. Isso não é uma punição extra escolhida depois: é uma consequência da contagem publicada, inclusive para missões sem XP.
 
@@ -50,17 +50,17 @@ Se uma missão ocupar uma posição com recompensa zero, a seguinte usa a próxi
 
 Depois de determinar o XP, confira o custo para sair do nível atual. O personagem avança no máximo um nível por missão concluída, guardando o excedente. A passagem do nível 20 ao 21 também exige o feito de Limiar, com sua exceção própria de XP guardado; consulte a seção correspondente.
 
-**Exemplo.** Uma ficha de nível 2 tinha 150 XP e recebe 100. Fica com 250, paga 200 para alcançar o nível 3 e conserva **50 XP**. Atualize os ganhos e recursos pelo procedimento de Progressão, sem transformar a subida em descanso. Consulte [Conferir personagens](25-conferir-personagens.md).
+**Exemplo.** Uma ficha de nível 2 tinha 150 XP e recebe 100. Fica com 250, paga 200 para alcançar o nível 3 e conserva **50 XP**. Atualize os ganhos e recursos pelas regras de Progressão, sem transformar a subida em descanso. Consulte [Conferir personagens](25-conferir-personagens.md).
 
 Registre feitos no momento em que acontecerem, com informação suficiente para avaliação posterior. O feito precisa atender à descrição publicada. Inventar uma conquista equivalente ou mudar os requisitos exige uma decisão identificada; não decorre do fechamento comum.
 
 Patente depende do reconhecimento de feitos pela organização ou mestre, não da subida de nível. Registre Grau, motivo e momento da promoção. Possuir uma ferramenta de grau elevado não promove automaticamente seu portador.
 
-[Reconhecer um feito e registrar uma promoção](99-limiar-feitos-e-promocao.md) confere o socorro de Aoi contra os requisitos do Limiar, aplica o XP guardado e registra separadamente o parecer institucional de Grau. O exemplo usa a queda atual da R53.
+[Feitos do Limiar e promoção de Grau](99-limiar-feitos-e-promocao.md) confere o socorro de Aoi contra os requisitos do Limiar, aplica o XP guardado e registra separadamente a decisão de promoção de Grau. O exemplo usa a queda atual do Livro de Regras 1.0.
 
 ## Remuneração opcional
 
-Salário e recompensa por mestrar são políticas opcionais. A tabela institucional da R53 oferece referências mensais: Grau 4, ¥150.000; Grau 3, ¥300.000; Grau 2, ¥600.000; Grau 1, ¥1.200.000; Especial, ¥2.400.000. São valores do jogo para esse modelo de instituição.
+Salário e recompensa por mestrar são políticas opcionais. A tabela institucional do Livro de Regras 1.0 oferece referências mensais: Grau 4, ¥150.000; Grau 3, ¥300.000; Grau 2, ¥600.000; Grau 1, ¥1.200.000; Especial, ¥2.400.000. São valores do jogo para esse modelo de instituição.
 
 A campanha pode adotar remuneração ou outra forma de sustento, incluindo moradia, transporte e acesso a recursos. Informe o que está disponível. Não some um salário que a campanha não adotou nem um pagamento por missão que não foi combinado.
 
@@ -74,13 +74,13 @@ A contagem de participação salarial, a posição semanal de XP e a disponibili
 
 ## Recompensa por mestrar
 
-A R53 recomenda um registro separado da experiência da ficha. Uma guilda pode usar moeda própria, recursos ou bônus por uma quantidade anunciada de missões mestradas. Defina a política antes de aplicá-la.
+O Livro de Regras 1.0 recomenda um registro separado da experiência da ficha. Uma guilda pode usar moeda própria, recursos ou bônus por uma quantidade anunciada de missões mestradas. Defina a política antes de aplicá-la.
 
-Se escolher uma mensalidade extra a cada X missões, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois num Grau maior. A quantidade X precisa ser definida pela política; o Guia não a preenche silenciosamente.
+Se escolher uma mensalidade extra a cada X missões, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois num Grau maior. A guilda precisa definir quantas missões completam essa marca antes de adotar a recompensa.
 
 Uma campanha fechada também pode distribuir o trabalho de organizar e mestrar sem adotar remuneração. A existência de uma opção de recompensa não torna o pagamento obrigatório.
 
-## Entregue a continuidade
+## Registre o resultado da missão
 
 Ao encerrar, registre o suficiente para que outra mesa possa continuar:
 

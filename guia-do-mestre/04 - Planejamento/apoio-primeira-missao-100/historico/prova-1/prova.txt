@@ -1,0 +1,629 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                 SUA PRIMEIRA MISSÃO
+
+
+
+
+Sua primeira missão
+Uma recepcionista pede ajuda. Há caixas se
+movendo num depósito e ninguém sabe o que as             1.2 Antes de começar
+empurra. Antes de enfrentar a causa, os
+personagens podem ouvir as pessoas, procurar             Reúna o grupo, as fichas, dados ou um aplicativo e
+outro acesso ou chamar apoio. Você vai                   o Livro de Regras 1.0. d20 é um dado de vinte faces;
+acompanhar essas escolhas e descobrir com o              3d8 significa rolar três dados de oito faces e somar
+grupo como a situação termina.                           os resultados. Tenha onde anotar vida, energia e
+                                                         condições.
+Este capítulo reúne o preparo de uma missão e
+mostra uma forma de conduzi-la. Leia o que               Conversem sobre quatro pontos:
+aconteceu antes de jogar; durante a sessão, use a
+                                                          • A proposta: investigar uma ocorrência
+planta, a ficha da ameaça e o resumo de preparo no
+                                                            sobrenatural num centro cultural, com espaço
+final. As falas e os dados do exemplo ajudam a
+                                                            para conversar, agir e recuar.
+aprender. Na sua mesa, os jogadores escolhem e os
+dados podem produzir outro resultado.                     • O tom: quais cenas de violência e terror podem
+                                                            aparecer e como pedir pausa ou mudança.
+                                                            Qualquer participante pode fazer esse pedido.
+1.1 O que faz o mestre
+                                                          • Os personagens: por que estão juntos, o que os
+Você apresenta o lugar, interpreta as pessoas e             liga ao lugar e quem interpreta cada um. Os
+criaturas e responde às ações dos personagens. Os           jogadores escolhem as ações de seus
+jogadores dizem o que querem fazer. Quando o                personagens; você interpreta as demais pessoas
+resultado é incerto e a falha faz diferença, as regras      e criaturas.
+ajudam a descobri-lo. Depois, descreva o que              • As fichas e os recursos: quais opções estão
+mudou e pergunte o que fazem a seguir.                      disponíveis e como cada personagem está ao
+Descreva → ouça a escolha → resolva → mostre o              chegar.
+resultado. Uma resposta pode caber numa frase.
+                                                         O sistema foi pensado principalmente para guildas,
+Uma conversa importante pode ocupar uma cena
+                                                         com vários mestres e personagens compartilhando
+inteira.
+                                                         o mundo. Aqui, a guilda pode encaminhar o
+Ciclo Maldito se inspira em Jujutsu Kaisen. Neste        chamado. Numa campanha fechada, Ana pode
+mundo, emoções negativas humanas estão na                conhecer os personagens ou pedir ajuda durante
+origem de seres sobrenaturais chamados                   uma visita deles ao bairro.
+maldições. Pessoas comuns normalmente não os
+                                                         O encontro foi preparado para três personagens de
+enxergam, mas percebem seus efeitos: caixas
+                                                         nível 2, com recursos completos e sem Sequelas.
+tombando, portas amassadas, alguém ferido.
+                                                         Confira como enxergam e atingem a maldição. Use
+Feiticeiros e outros personagens preparados para
+                                                         fichas completas criadas pelo Livro de Regras. Os
+esse mundo podem investigar e enfrentar tais
+                                                         valores de combate apresentados adiante mostram
+ameaças com suas capacidades, ferramentas e
+                                                         apenas as capacidades usadas na demonstração.
+conhecimentos.
+                                                         Exemplo experimental: a ficha do Amontoado é
+Isso basta para entender a missão deste capítulo.
+                                                         uma criação deste Guia. Seus números ainda
+Ela usa pessoas e acontecimentos originais, sem
+                                                         precisam de avaliação em mesas. Se o grupo tiver
+exigir conhecer a trama da obra.
+                                                         outro tamanho, outras capacidades ou recursos já
+                                                         gastos, reveja o encontro antes de usá-lo.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                     1
+CICLO MALDITO / GUIA DO MESTRE                                                                SUA PRIMEIRA MISSÃO
+
+
+
+
+1.3 Uma cena do cotidiano
+Antes do chamado, um personagem vai buscar seu         O cotidiano oferece motivos para os personagens
+uniforme na oficina de Nara. O conserto ficou          se encontrarem e criarem relações. Nem toda visita
+pronto, mas o entregador trocou duas etiquetas. A      precisa terminar numa tarefa perigosa. Quando
+roupa foi parar na recepção do centro cultural.        Ana apresentar o problema do depósito, o grupo
+                                                       poderá decidir se quer ajudar.
+   Nara tira duas etiquetas amassadas de cima da
+   bancada.                                            1.4 Prepare As batidas no anexo
+   — O conserto ficou pronto. O Rui levou junto
+   com as encomendas da manhã, mas parece que          Ana ouviu pancadas no depósito. Davi chegou até a
+   trocou as entregas. Deixa eu conferir o recibo.     porta, viu caixas se arrastarem sem ninguém tocá-
+                                                       las e recuou. Funcionários esperam perto da
+   Ela procura o telefone. Você pretendia fazer o      recepção. Ana receia que alguém tenha ficado no
+   quê depois de passar aqui?                          anexo.
+                                                       O que você sabe: todos os funcionários saíram e
+Jogadora: “Ia encontrar o grupo. Posso olhar a lista   estão sem ferimentos. Um Amontoado do depósito
+das entregas?”                                         ocupa a sala. A criatura junta caixas, empurra-as
+Mestre: “Pode. Há um centro cultural duas ruas         com o próprio corpo e protege sua pilha. Há só essa
+adiante e o telefone da recepção. Nara tem a foto da   maldição na ocorrência preparada.
+etiqueta da sua embalagem.”                            O que os personagens recebem: o relato de Ana,
+  Decisão do mestre. A informação está disponível      Davi disponível para conversar, o registro de
+  e Nara quer ajudar. Entregue-a pela conversa.        presença e uma planta. Eles podem confirmar quem
+  Não é necessário pedir Investigação para toda        saiu, descobrir os acessos e observar a causa das
+  leitura de um documento.                             batidas.
+
+Jogadora: “Ligo para a recepção. Se a embalagem        O objetivo inicial: conferir as pessoas e entender o
+estiver lá, vou buscar e aviso os outros.”             que aconteceu. Depois disso, enfrentar a ameaça,
+                                                       recuar ou procurar ajuda são escolhas do grupo.
+Mestre: “Ana atende, confere o recibo com Nara e
+confirma que o uniforme está guardado. Pode            Enquanto o anexo estiver fechado, as atividades
+esperar você chegar. O que diz aos colegas?”           que dependem dele ficam suspensas. Se ninguém
+                                                       intervier, a criatura continua movendo caixas e
+O personagem pode buscar a roupa, pedir que Rui
+                                                       danificando materiais. A demora não acrescenta
+corrija a entrega ou cuidar primeiro de outro
+                                                       uma pessoa presa que antes não existia.
+compromisso. Se os participantes quiserem
+conversar com Nara, dê espaço. Se só querem
+recuperar a peça, resuma a troca e siga.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                   2
+CICLO MALDITO / GUIA DO MESTRE                                                                                          SUA PRIMEIRA MISSÃO
+
+
+
+Pessoas e lugar
+
+ Pessoa                          O que quer                           O que oferece
+
+ Ana, recepcionista              Proteger os funcionários e           Registro de presença, planta e contato de Mina
+                                 saber o que fazer
+
+ Davi, funcionário               Evitar outra entrada                 Relato do que viu da porta e caminho até a entrada de serviço
+                                 desprevenida
+
+ Mina, contato por               Receber um relato e                  Acompanha o chamado e procura quem possa assumir o
+ telefone                        encaminhar ajuda                     próximo passo; não promete reforço imediato
+
+Ana e Davi são pessoas comuns: viram ou ouviram efeitos, sem enxergar a criatura. Mina não está no local.
+Ela pode ser um contato da guilda ou uma colega que organiza apoio à campanha.
+
+       UMA SALA, DOIS ACESSOS AO CORREDOR
+
+                                                                                                     Pilha ao fundo:
+                                                                                                     1,5 m de altura.
+                                                                               A                     A: posição inicial
+                                                                                                     do Amontoado.
+                                                                        DEPÓSITO
+                                                                          6m×6m
+                                                                                                     Traços rosa:
+                                                                                                     portas de 1,5 m.
+                                                                                        4,5 m
+                                                                                                     Caixas baixas
+                                                                                                     nas laterais.
+                                           Entrada
+                                           principal
+                        PÁTIO
+                       6m×6m                                                                                     Entrada
+                                                                       CORREDOR                                  de serviço
+                                                                          9m×3m
+
+
+
+
+                                                              4,5 m                       4,5 m
+
+
+
+            Recepção (fora da planta)
+
+Leia o mapa: o pátio mede 6 × 6 m; o corredor, 9 × 3 m; o depósito, 6 × 6 m. Da entrada principal ou da
+entrada de serviço até a porta do depósito são 4,5 m. A entrada de serviço chega ao mesmo corredor. Há
+uma só porta para dentro da sala.
+Os espaços estão iluminados. O teto tem 3 m; as portas estão destrancadas e têm 1,5 m de abertura. Caixas
+baixas ficam junto às paredes laterais, deixando uma faixa central livre. A pilha ao fundo tem 1,5 m de
+altura. O Amontoado começa a 4,5 m da porta do depósito.
+Uma caixa pode conceder cobertura quando estiver entre o alvo e o ataque. Pela regra de cobertura Parcial,
+o benefício é +2 à Defesa e ao TR Físico contra o que vem daquele lado. A posição decide se a proteção
+existe.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                                             3
+CICLO MALDITO / GUIA DO MESTRE                                                                           SUA PRIMEIRA MISSÃO
+
+
+
+Amontoado do depósito
+Uma figura de papelões dobrados e fitas, com duas pernas, dois braços e mãos articuladas. Acumula caixas
+e as move pelo chão.
+
+ Nível / tamanho                 Vida    Integridade         Energia       Defesa        Bloquear   Deslocamento
+
+ 2 / Médio                       48 PV   24                  6 PE          11            2d10 + 0   9m
+
+
+ Força                Destreza                Constituição                Inteligência              Essência
+
+ 3                    1                       3                           1                         1
+
+
+Iniciativa: d20 + 1. Maestria: 1. Testes de                         Sentidos e comunicação. Visão e audição comuns.
+Resistência: Físico +4, usando Força e treino; Vigor                Entende frases simples no idioma usado pelo grupo
++3; Intelecto +1; Espírito +1. Perícias treinadas:                  e responde com gestos e ruídos. Pode segurar
+Atletismo +4, Furtividade +2, Percepção +2 e                        objetos compatíveis e abrir portas. Não tem visão
+Intuição +2. As demais usam o atributo,                             no escuro, voo, teleporte ou passagem por paredes.
+respeitando requisitos. Não tem equipamento nem
+                                                                    Ações e defesas. Uma Padrão, um Movimento, uma
+Ofícios.
+                                                                    Bônus e uma Reação, com as conversões normais.
+Pancada. Ação Atacar, um ataque corpo a corpo a                     Um ataque por Ação Atacar. Pode usar ações gerais
+até 1,5 m. Ataque +4. No acerto, 1d4 + 3 de                         compatíveis com o corpo e os sentidos. Bloquear é
+Concussão; no crítico, 2d4 + 3. Sem custo de PE ou                  gratuito, escolhido antes do ataque e não gasta
+condição adicional. Pode substituir o ataque por                    Reação; Aparar e Brecha mantêm as regras do Livro
+Agarrar, Derrubar ou Empurrar, cumprindo as                         de Regras.
+regras da manobra; a CD é 12 e a Pancada não
+                                                                    Corpo e derrota. Tem alma; não recebe resistência,
+causa dano nessa substituição.
+                                                                    vulnerabilidade, imunidade ou Redução de Dano
+Impacto concentrado. Feitiço de Classe 1, Ação                      própria desta ficha. Energia Reversa conserva as
+Padrão, 3 PE, Toque a até 1,5 m. O Selo exige                       regras contra maldições. Integridade acompanha o
+encostar as duas palmas antes de tocar o alvo.                      dano de Alma e seus estágios. A zero de vida ou de
+Precisa enxergá-lo. Ataque de técnica +4; no acerto,                Integridade, fica derrotado; não escolhe Insistir
+3d8 de Concussão; no crítico, 6d8. Não soma                         nem recebe a janela de socorro de um personagem
+atributo ou Pancada ao dano. O erro gasta a ação e                  jogador.
+os PE; não produz outro efeito. Não há área, TR ou
+                                                                    Como age. Observa quem se aproxima. Ao ser
+condição.
+                                                                    atacado ou quando tentam desmontar sua pilha,
+Fundamento: Força; Concussão; Livres Mira e                         fica hostil. Prioriza a criatura consciente mais
+Castigo; Fechadas Amparo, Tempo e Marca.                            próxima; em empate, quem o atacou por último.
+Conhece somente o feitiço acima. As marcas que                      Não golpeia inconscientes. Usa Impacto quando
+brilham no corpo são sua aparência, sem efeito                      estiver ao alcance e puder conjurar; sem PE
+adicional.                                                          suficiente ou sem cumprir o Selo, recorre à Pancada
+                                                                    ou às ações gerais. A reserva paga dois Impactos
+Leitura, Talento CE1. Identifica Classe e Forma de
+                                                                    pelo custo normal e não se renova a cada rodada. Se
+feitiços conjurados a até 18 m. Não revela sua
+                                                                    o custo mudar, use o valor atual.
+montagem ou pensamentos e não concede ação ou
+resposta adicional.                                                 Perseguição. Pode perseguir dentro do anexo.
+                                                                    Quando todos saem, volta à pilha nesta ocorrência.
+                                                                    Essa preferência permite uma saída; não
+                                                                    transforma a porta numa barreira mágica.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                              4
+CICLO MALDITO / GUIA DO MESTRE                                                             SUA PRIMEIRA MISSÃO
+
+
+
+
+1.5 Jogue a missão
+                                                     Jogadora: “Peço à Ana para manter as pessoas
+Abra com algo que permita agir                       longe do anexo. Quero olhar a sala antes de decidir
+                                                     se vamos entrar.”
+   Ana encontra vocês junto à recepção. Há
+   funcionários perto da saída para a rua. Ela       Mestre: “Ana concorda e avisa aos funcionários.
+   aponta para a passagem que leva ao pátio.         Vocês atravessam o pátio e chegam à entrada do
+                                                     corredor. Quem vai à frente e de onde pretende
+   — O Davi disse que as caixas começaram a se       observar?”
+   mexer e saiu correndo. Eu ouvi umas batidas
+                                                      Decisão do mestre. A pergunta agora importa: a
+   depois. Não sei se ficou alguém lá.
+                                                      posição e os sentidos dos personagens definem o
+   Davi está com os colegas, ao lado do registro      que podem perceber. Explique os sinais evidentes
+   de presença. O que vocês fazem primeiro?           antes de exigir testes. Para uma busca incerta ou
+                                                      um uso de capacidade, abra a regra que resolve
+                                                      aquela tentativa.
+A descrição apresenta o problema e pessoas
+acessíveis. Aguarde a resposta. O grupo pode         Nesta demonstração, os três têm meios válidos para
+começar por Davi, pelos funcionários, pela planta    enxergar o Amontoado. Ao observá-lo pela porta,
+ou por uma proposta própria.                         veem a figura de papelão e fitas junto à pilha. Ela
+                                                     empurra uma caixa, produzindo outra pancada, e se
+Acompanhe uma investigação                           vira para eles. Ainda não atacou.
+Jogadora: “Antes de entrar, quero saber quem ficou   Se um personagem não puder enxergá-la, descreva
+lá. Peço a lista e pergunto ao Davi quem saiu com    o que seus sentidos e suas capacidades permitem
+ele.”                                                perceber: a caixa se deslocando, o ruído ou a
+Mestre: “Ana entrega o registro. Davi aponta os      informação fornecida por um colega. Prepare a
+colegas. Vocês conferem quem está aqui e             missão considerando essa diferença antes da
+conseguem falar com os demais. Todos os              sessão.
+funcionários estão fora do anexo.”
+                                                     Quando os jogadores quiserem entender
+  Decisão do mestre. As pessoas colaboram e a
+  conferência é possível. A conversa resolve a
+                                                     mais
+  dúvida sem rolagem. A descoberta muda a            Uma pergunta pode ser respondida pelo que já está
+  prioridade: já não há motivo para correr até o     evidente: a criatura está juntando caixas. Para
+  depósito procurando um funcionário conhecido.      compreender um sinal incerto, use Estudar, com
+                                                     uma pergunta concreta sobre algo que o
+Jogador: “Pergunto ao Davi o que ele viu e peço
+                                                     personagem consegue observar. Em combate, custa
+para mostrar na planta.”
+                                                     Ação Padrão. O mestre indica a perícia e a
+Mestre: “Ele chegou até a porta do depósito. Viu     dificuldade conforme a regra. O sucesso fornece
+uma caixa tombar e outras se arrastarem, mas não     uma informação útil sustentada pelos sinais; na
+viu quem as tocava. Recuou pelo corredor. Mostra     falha, a ação é gasta. Repetir a mesma pergunta
+também a entrada de serviço, na outra ponta.”        exige nova pista ou mudança de abordagem.
+  Decisão do mestre. Davi oferece o que
+  testemunhou. O mapa informa os acessos;
+  observar o local permite descobrir como ele está
+  agora. Cada fonte responde a uma parte do
+  problema.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                5
+CICLO MALDITO / GUIA DO MESTRE                                                                    SUA PRIMEIRA MISSÃO
+
+
+
+Quando começa o combate
+O grupo decide enfrentar a criatura. A personagem
+                                                        Personagem    Recursos        Capacidade usada, com
+da frente se aproxima e anuncia que vai atacá-la.
+                                                                      iniciais        Ação Padrão
+Antes de resolver o golpe, organize a iniciativa. A
+declaração não concede um ataque gratuito.              Frente        23 PV, 8 PE,    Toque de Classe 1: ataque
+                                                                      Defesa 13       +4, 3 PE, 3d8 de
+Peça d20 + Destreza, com os modificadores ativos, e                                   Concussão, 1,5 m
+registre a ordem do maior para o menor. Em
+                                                        Apoio         17 PV, 10 PE,   Cura de Classe 1: 3 PE,
+empate, maior Destreza primeiro; se ela também
+                                                                      Defesa 13       2d8, até 9 m
+empatar, personagem jogador antes do inimigo.
+Jogadores escolhem entre si e o mestre entre            Conjuradora   14 PV, 12 PE,   Projétil de Classe 1: ataque
+inimigos ainda empatados.                                             Defesa 13       +4, 3 PE, 3d8 de
+                                                                                      Concussão, até 18 m
+Cada participante tem Ação Padrão, Movimento,
+Bônus e Reação. A Padrão pode pagar Atacar ou o        As aplicações têm Selos e demais requisitos
+feitiço que declare esse custo. O Movimento            cumpridos. A frente usa uma mão livre e Selo
+permite percorrer o deslocamento da ficha e pode       verbal; os demais também executam seus Selos. A
+ser dividido ao longo do turno. A Reação exige um      cura é válida sobre a aliada disposta: os dados
+gatilho e se renova no começo do próprio turno. As     determinam a quantidade, sem rolagem de ataque.
+conversões e outras ações continuam disponíveis        Nenhum desses feitiços soma atributo ao dano ou à
+pelas regras normais.                                  cura. Todos têm meios válidos para perceber seus
+Para acertar: role d20 e some o bônus de ataque        alvos e usar suas capacidades. Não há perda de
+uma vez. O total precisa alcançar a Defesa. Em 12 +    Integridade nesta sequência.
+4 = 16, são 12 no dado e bônus +4; o resultado é 16.   Posições: a frente está a 1,5 m do Amontoado, na
+Para causar dano, role os dados da capacidade que      faixa central. Os outros dois estão dentro da sala,
+acertou.                                               próximos da porta e afastados para lados
+Antes do ataque, o alvo pode escolher Bloquear em      diferentes, com visão livre dos alvos. Estão a até 6
+lugar da Defesa: 2d10 + Defesa − 11. A escolha é       m da criatura e a menos de 9 m da frente. Nenhum
+gratuita e não gasta Reação. Ela precisa ser feita     corpo ou caixa se interpõe aos ataques da
+antes de conhecer o acerto; o resultado substitui a    conjuradora. Essas posições são alcançadas antes
+Defesa mesmo quando for menor. Aparar e Brecha         da declaração de ataque.
+têm suas próprias consequências. Para acompanhar       Iniciativa sorteada: Amontoado 20; frente 17; apoio
+as contas abaixo, todos escolhem manter a Defesa       14; conjuradora 10. A ordem permanece nas duas
+fixa.                                                  rodadas abaixo. Os resultados foram escolhidos
+                                                       para explicar o jogo; não são resultados exigidos da
+Quem participa deste exemplo                           mesa.
+Os valores a seguir são recortes de fichas para
+acompanhar a demonstração. Use as fichas
+completas dos jogadores na sua sessão.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                         6
+CICLO MALDITO / GUIA DO MESTRE                                                                      SUA PRIMEIRA MISSÃO
+
+
+
+Primeira rodada: agir enquanto o socorro chega
+Amontoado. Encosta as palmas, as marcas brilham          Decisão do mestre. Cura válida recebida
+e ele tenta Impacto concentrado. Gasta 3 PE. Sai 20      enquanto Morrendo é acumulada separadamente.
+natural, um crítico: os 3d8 básicos viram 6d8. Os        A personagem só sai desse estado quando
+dados mostram 5, 4, 3, 4, 3 e 5: 24 de dano. A frente    completar o necessário ou receber uma
+tinha 23 PV e chega a zero.                              capacidade que permita encerrá-lo
+                                                         expressamente. Uma cura insuficiente não
+Frente: “Vou Insistir. Ainda quero tentar meu
+                                                         devolve tempo.
+Toque.”
+                                                        Turno da conjuradora. Ela gasta 3 PE e a Padrão
+Mestre: “Você continua consciente. Tem três
+                                                        no Projétil. Acerto 10 + 4 = 14. Dano 6 + 3 + 5 = 14.
+rodadas para receber socorro, porque não tinha
+                                                        O Amontoado passa de 36 para 22 PV.
+Sequelas. Marco o momento da queda na iniciativa
+do Amontoado. É seu primeiro Insistir nesta cena:
+precisa acumular 8 de tratamento, um terço de 23
+                                                        O que anotar quando alguém cai
+arredondado para cima.”                                  Informação              Nesta queda
+  Decisão do mestre. A zero de vida, a personagem        Vida máxima de          23, sem vida temporária
+  está Morrendo. Insistir permite conservar as           referência
+  ações e recursos ainda disponíveis; não devolve
+                                                         Escolha                 Primeiro Insistir da cena
+  uma ação gasta. O golpe que causou a queda
+  inicia a janela de socorro. Seu excesso de dano        Tratamento              8/5
+  não consome outra rodada.                              necessário / recebido
+
+Turno da frente. Ela gasta 3 PE e sua Padrão no          Janela restante         3 rodadas
+Toque: 12 + 4 = 16, contra Defesa 11. Acerta. O
+                                                         Ponto da queda          Iniciativa do Amontoado, antes
+dano é 4 + 3 + 5 = 12. O Amontoado passa de 48                                   dos turnos dos três personagens
+para 36 PV.
+Turno do apoio. Ele usa a Padrão e 3 PE para curar.     Sem Sequelas anteriores, a janela começa com três
+Os dados dão 3 + 2 = 5.                                 rodadas. Cada Sequela anterior tira uma rodada;
+                                                        com três ou mais, ocorre Derrota imediata. Cada
+Mestre: “Anoto 5 de tratamento. Você continua a         volta completa até o ponto marcado consome uma
+zero de vida; faltam 3 para completar os 8. A janela    rodada. Dano posterior que alcance a vida consome
+continua correndo.”                                     outra, depois das defesas e da vida temporária. Ele
+                                                        não apaga o tratamento recebido. Quando o prazo
+                                                        acaba, o personagem fica Derrotado.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                         7
+CICLO MALDITO / GUIA DO MESTRE                                                               SUA PRIMEIRA MISSÃO
+
+
+
+Segunda rodada: completar o atendimento
+Amontoado. A iniciativa volta ao ponto da queda.       Para máximo 23, são 6. Se ela já estava Inconsciente
+Passou uma volta completa: a janela da frente cai      ao cair, Aguenta. Depois não pode mudar para
+de 3 para 2 rodadas. A criatura usa seus últimos 3     Insistir nessa queda.
+PE em outro Impacto. Ataque 4 + 4 = 8, contra
+                                                       Insistir outra vez na mesma cena. O tratamento
+Defesa 13: erra. A ação e os PE são gastos. A frente
+                                                       passa a metade do máximo de referência, para
+não recebe dano e conserva as duas rodadas
+                                                       cima. Tanto no primeiro quanto nos seguintes
+restantes.
+                                                       Insistir, existe teto de 15 × a maior Classe da
+Turno da frente. Ainda Insistindo, ela usa outro       personagem. Pode passar para Aguentar sem ação,
+Toque por 3 PE. Acerto 9 + 4 = 13; dano 4 + 5 + 3 =    conservando o requisito, o tratamento e o prazo
+12. O Amontoado passa de 22 para 10 PV.                daquela queda.
+Turno do apoio. Outra cura, com Padrão e 3 PE, dá      Estabilizar. Uma pessoa a até 1,5 m, com acesso ao
+2 + 1 = 3. Somada aos 5 anteriores, completa 8 de      alvo, uma mão livre e meios adequados, gasta
+tratamento.                                            Padrão e faz Medicina CD 14. O alvo precisa estar
+                                                       Inconsciente e Morrendo; para um corpo
+Mestre: “Você sai de Morrendo com 8 PV e uma
+                                                       construído, usa-se o Ofício compatível. No sucesso,
+Sequela. Encerramos a contagem dessa queda.”
+                                                       o tempo para de consumir a janela, sem curar ou
+  Decisão do mestre. Todo o tratamento                 acordar. Dano positivo à vida desfaz a estabilidade
+  acumulado se transforma em vida, até o máximo        e consome uma rodada. Uma pessoa estável, fora de
+  atual. Os 8 necessários não são subtraídos da        perigo, que conclua descanso curto recupera 1 de
+  cura. A Sequela encurta uma próxima janela; não      vida e encerra Morrendo: some o tratamento
+  impõe penalidade a ataques ou perícias. Nesta        anterior, até o máximo, respeitando impedimentos
+  missão, ela permanece até o descanso longo           de cura. Recebe uma Sequela.
+  conforme as regras.
+                                                       Derrota. Encerra a participação ativa naquela cena.
+Turno da conjuradora. Ela gasta 3 PE no Projétil:      Na campanha padrão não significa morte
+11 + 4 = 15, acerto. Os dados 3 + 4 + 4 = 11 deixam    automática. A cura comum posterior não reabre
+o Amontoado a zero de vida. O inimigo está             essa participação. Se ainda houver uma queda em
+derrotado. Na próxima seção, o grupo decide como       andamento quando a luta terminar, continue o
+lidar com o resultado e com o lugar.                   atendimento e sua contagem. Consulte Vida a zero
+                                                       e Socorro no Livro de Regras para as exceções das
+Se alguém cair de outra forma                          capacidades e a recuperação completa.
+Aguentar. A personagem fica Inconsciente. O
+tratamento necessário é um quarto da vida máxima
+de referência, arredondado para cima, sem teto.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  8
+CICLO MALDITO / GUIA DO MESTRE                                                             SUA PRIMEIRA MISSÃO
+
+
+
+
+1.6 Se o grupo escolher outro caminho
+                                                      Desengajar custa Padrão e protege os movimentos
+Conversar com a criatura                              de quem usou a ação até o fim daquele turno. O
+Jogador: “Em vez de atacar, digo que viemos           personagem ainda usa seu Movimento para
+conferir se alguém precisa de ajuda. Quero ver        caminhar. Carga, mãos, posição e deslocamento
+como ela reage.”                                      importam ao transportar um aliado; confiram o que
+                                                      as fichas permitem antes de resolver.
+Mestre: “Ela acompanha sua voz, bate a mão na
+pilha e aponta para a porta. Continua junto das       O Amontoado pode acompanhar o grupo dentro do
+caixas.”                                              anexo. Quando todos saem, volta à pilha. Descreva
+                                                      essa reação quando acontecer. A equipe pode
+  Decisão do mestre. O Amontoado entende frases       seguir até o pátio e a recepção, continuar um
+  simples e se comunica por gestos. Como ninguém      atendimento ou falar com Mina.
+  o atacou ou tentou desmontar a pilha, ele mantém
+  o comportamento preparado. A conversa revelou       Chamar apoio e manter o anexo fechado
+  uma reação e deu ao grupo outra decisão. Se
+  propuserem uma troca ou outro acordo, considere     Jogadora: “Todos os funcionários saíram. Não
+  o pedido, o que a criatura quer e o que as regras   quero arriscar o grupo aqui. Ligo para a Mina e
+  permitem resolver por conversa.                     explico o que vimos.”
+                                                      Mestre: “Mina pede a localização, confirma quem
+Usar a entrada de serviço                             já está a salvo e anota a descrição da criatura.
+Mostre o caminho na planta. O grupo chega à outra     Aceita acompanhar o chamado e procurar ajuda.
+ponta do corredor e ainda precisa alcançar a mesma    Ana mantém o acesso ao anexo suspenso.”
+porta do depósito. Descreva de onde pode observar,     Decisão do mestre. Essa escolha protege as
+o que encontra e como tenta se aproximar. Para se      pessoas e encaminha o problema. A ameaça
+esconder ou procurar algo que ainda não percebeu,      permanece no depósito até uma intervenção
+use a regra pertinente. Entrar por outro lado muda     efetiva. Combine quem acompanha a pendência e
+a aproximação, sem decidir sozinho se o                o que será informado ao grupo; receber o
+Amontoado percebe alguém.                              chamado não significa que outra equipe já
+                                                       chegou.
+Sair de um combate
+Informe o caminho disponível e ouça o plano. Sair     Propor algo que você não preparou
+do alcance corpo a corpo de um inimigo que            Peça somente a informação que falta: o que querem
+enxerga a saída pode provocar ataque de               conseguir, com quais meios e de onde. Use os fatos
+oportunidade: ele gasta Reação e usa um ataque        que conhece e a regra adequada. Uma capacidade
+corpo a corpo com arma ou desarmado, antes da         pode resolver uma parte da missão; descreva o
+saída. Isso não concede Impacto concentrado como      resultado e siga a partir dele. Se faltar uma
+resposta.                                             informação de regra, faça uma pausa breve,
+                                                      consulte o Livro de Regras e registre a decisão que
+                                                      precisar continuar depois.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                9
+CICLO MALDITO / GUIA DO MESTRE                                                                         SUA PRIMEIRA MISSÃO
+
+
+
+
+1.7 Depois da missão
+Quando a oposição terminar, pergunte o que os                     Livro de Regras e nos acordos da campanha. Se
+personagens fazem com o lugar e com as pessoas.                   houver atendimento pendente, resolva-o antes de
+Ainda pode haver caixas instáveis, material                       avançar o tempo.
+quebrado ou alguém precisando de atendimento.
+                                                                  Guarde o que precisa continuar
+Se pretendiam exorcizar a maldição e a ação
+permite esse desfecho, descreva o corpo se                        Um registro curto pode bastar:
+desfazendo em papelões e fitas e o fim das batidas.
+Se alguém quer adquirir a criatura por Doma,                        Funcionários conferidos, todos fora e sem
+apresente antes da tentativa a ficha convertida e                   ferimentos. Ana recebeu o relato. Amontoado
+confira os requisitos de nível, derrota sem                         exorcizado neste desfecho; depósito ainda
+destruição e submissão. A Doma tem regras                           precisa de vistoria dos materiais. Frente com
+próprias; o capítulo de Pactos e entidades explica                  8/23 PV, 2/8 PE e uma Sequela; apoio com 4/10
+seu uso. A ficha de inimigo não vira                                PE; conjuradora com 6/12 PE. Sem descanso
+automaticamente a ficha da entidade adquirida.                      realizado. Ana acompanha a vistoria.
+
+Ana pode receber o relato, organizar a vistoria e
+planejar a retomada das atividades. Os jogadores                  Use essa anotação somente se essas coisas
+também podem voltar à oficina ou falar sobre o                    aconteceram. Se o grupo encaminhou o chamado,
+risco que correram. Dê espaço à reação que                        registre Mina como contato e a ameaça ainda no
+quiserem desenvolver. Quando não houver outra                     depósito. Se o atendimento continuar, acrescente
+decisão a acompanhar, resuma o restante e encerre.                tratamento, janela e ponto da iniciativa.
+                                                                  Na guilda, o próximo mestre recebe o estado das
+Confira o estado do grupo                                         fichas e as informações necessárias. Numa
+Depois das duas rodadas desta demonstração:                       campanha fechada, essas notas ajudam você e os
+                                                                  jogadores a retomar a sessão. Pergunte se houve
+ Participante       Vida         Energia   Estado
+                                                                  algum momento em que faltou informação para
+ Frente             8/23         2/8 PE    Uma Sequela; saiu de   decidir e anote uma ideia que queiram desenvolver
+                    PV                     Morrendo               depois.
+ Apoio              17/17        4/10 PE   Sem queda
+                    PV
+                                                                  Sua próxima aventura
+                                                                  Para criar outra missão, comece com uma pessoa
+ Conjuradora        14/14        6/12 PE   Sem queda
+                    PV
+                                                                  que quer algo, um lugar e uma mudança que
+                                                                  permita agir. Prepare informação suficiente para o
+ Amontoado          0/48         0/6 PE    Derrotado; destino     grupo escolher e o que as pessoas farão diante de
+                    PV                     conforme a ação e a
+                                                                  suas ações. O capítulo Preparar aventuras
+                                           intenção resolvidas
+                                                                  desenvolve esse trabalho; Na mesa de jogo ajuda a
+                                                                  conduzir as novas situações.
+Ninguém perdeu Integridade no exemplo. A
+derrota da criatura não recupera os recursos do                   Você não precisa repetir o depósito. Um encontro
+grupo. Confira as condições para descansar e para                 com uma professora, uma relação depois da missão
+receber progressão e eventual remuneração no                      ou um pedido inesperado de um vizinho já pode
+                                                                  oferecer uma nova cena.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                           10
+CICLO MALDITO / GUIA DO MESTRE                                                                                    SUA PRIMEIRA MISSÃO
+
+
+
+
+As batidas no anexo: preparo para consulta
+Grupo de referência: três personagens de nível 2, recursos completos, sem Sequelas; conferir meios de
+percepção e combate. Ameaça experimental: um Amontoado. Use sua ficha completa neste capítulo.
+
+ Assunto                   Preparo
+
+ Situação inicial          Ana ouviu batidas; Davi viu caixas se moverem e recuou. Funcionários estão reunidos.
+
+ O que aconteceu           Todos saíram sem ferimentos. O Amontoado move caixas e protege a pilha do depósito.
+
+ Objetivo inicial          Conferir as pessoas e descobrir a causa; depois decidir como intervir.
+
+ Abertura                  Ana apresenta o receio de alguém ter ficado. Davi, registro e planta estão acessíveis. Pergunte o
+                           que fazem.
+
+ Pessoas                   Ana fornece registro, planta e contato. Davi descreve o que viu e os acessos. Mina recebe o
+                           chamado por telefone.
+
+ Informações               Registro, conversas e contatos confirmam os funcionários fora; Davi e planta mostram as duas
+                           entradas do corredor; observação acessível revela sinais do depósito.
+
+ Lugar                     Pátio 6 × 6 m; corredor 9 × 3 m; depósito 6 × 6 m. Porta do depósito a 4,5 m de cada entrada do
+                           corredor; criatura a 4,5 m dessa porta.
+
+ Condições                 Iluminado; portas destrancadas de 1,5 m; teto de 3 m. Caixas laterais e faixa central livre. Usar
+                           cobertura conforme a posição.
+
+ Amontoado                 48 PV, 24 de Integridade, 6 PE, Defesa 11, deslocamento 9 m. Pancada +4, 1d4 + 3; Impacto +4, 3d8,
+                           3 PE. Ambos a até 1,5 m.
+
+ Comportamento             Observa até ser atacado ou ter a pilha desmontada. Prioriza consciente mais próximo; em empate,
+                           último agressor. Não golpeia inconscientes. Persegue no anexo e volta à pilha quando todos saem.
+
+ Respostas                 Conversar, observar por outro acesso, intervir, recuar ou pedir apoio. Iniciativa antes dos ataques.
+ possíveis
+
+ Se demorarem              Materiais continuam sendo danificados. O uso do anexo fica suspenso; Ana procura ajuda.
+
+ Encerramento              Confirmar destino da ameaça e riscos restantes. Anotar recursos, quedas, Sequelas, eventual
+                           aquisição e pendência com responsável.
+
+Quando alguém cair: máximo de referência; Aguentar ou qual Insistir da cena; tratamento necessário/
+recebido; janela restante; ponto da queda na iniciativa. Continue o atendimento se o combate terminar
+antes dele.
+No grupo real: anote participantes, recursos iniciais e a data da ficha usada. Tenha abertas as regras de
+testes, percepção, turnos, ataques, cobertura e socorro. A conversa pode resolver informação disponível; use
+testes quando houver incerteza e consequência.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                                       11
+

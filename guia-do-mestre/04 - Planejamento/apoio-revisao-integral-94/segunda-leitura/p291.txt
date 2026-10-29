@@ -1,0 +1,87 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Campo
+Valor
+Defesa sem equipamento
+10 + Destreza 2 + metade da Essência 4 de Kaito = 14.
+Bloquear
+2d10 + Defesa - 11 = 2d10 + 3.
+Atributo de acerto
+Inteligência; ataque +4, CD 12.
+TR treinado
+Intelecto +4.
+Outros TRs
+Físico por Destreza +2, Vigor +3, Espírito +2.
+Perícias treinadas
+Furtividade +3, Investigação +4, Percepção +3, Intuição +4,
+Sobrevivência +4.
+Famílias
+Mira Livre; Alcance e Controle abertas; outras seis Fechadas.
+Básicas
+Uma, Agulha de tinta.
+Especiais
+Três vagas: uma ocupada por Agulha precisa de Classe 3; duas
+vazias.
+Talentos
+Duas escolhas CE1: Instinto e Farejador.
+Reserva própria
+Nenhuma; Kaito paga os custos exigidos.
+As perícias são cinco: 4 + metade de Inteligência 3,
+arredondada para baixo. Percepção usa Essência;
+Intuição, Investigação e Sobrevivência usam
+Inteligência. Vagas vazias são escolhas ainda não
+preenchidas, não poderes que o mestre possa
+improvisar durante uma missão.
+Agulha de tinta
+Básica de Classe 0; Projétil, 9 m; ataque +4; 2d6 de
+Perfurante. Sem Melhorias, Restrições ou PE. Não
+soma atributo ao dano; no crítico, 4d6. Consome a
+atuação básica. Não marca o alvo nem deixa tinta
+com função de rastreamento.
+Agulha precisa
+Especial conhecida de Classe 3; Projétil e
+Precisão; 18 m; ataque +6; 5d8 de Perfurante; 9
+PE. No crítico, 10d8. Sem condição, Restrição ou
+Selo.
+A entidade tem seis pontos na Classe 3. Precisão
+custa Leve 2; Mira Livre desconta 1, deixando custo
+1. Projétil custa zero: 6 - 1 = 5d8. O +2 de Precisão
+se soma ao ataque normal +4. Não ignore Redução
+de Dano: esta montagem não possui Fura.
+Kaito usa a Padrão de comando e paga os 9 PE. A
+criatura precisa receber a ordem, ter básica
+disponível e alcançar um alvo válido. A especial
+consome essa básica. Não existe uma versão de
+Classe 1 conhecida nesta ficha: ampliação permite
+subir a Classe de uma montagem conhecida, não
+reduzi-la livremente.
+Instinto e Farejador
+Instinto, CE1: enquanto acordado, o Vigia está
+protegido contra surpresa. Não revela criaturas
+escondidas nem muda iniciativa ou ações
+disponíveis.
+Farejador, CE1: percebe se houve conjuração no
+local onde está nas últimas 24 horas e reconhece as
+Classes dos vestígios. Não revela autor, montagem,
+hora exata ou rota posterior. O Vigia pode contar
+em voz alta o que percebeu, desde que consiga
+comunicar-se com quem o escuta. Kaito não recebe
+a informação à distância pelo vínculo.
+Uso válido: Kaito manda examinar a entrada do
+depósito. O Vigia vai até lá e informa que
+reconhece vestígios de Classe 2. Descobrir quem
+conjurou exige outras pistas. Uso impedido: pedir
+que identifique a pessoa escondida atrás da parede;
+nenhum dos talentos fornece essa percepção.
+Trabalho, falha e entrega
+O projeto mantém 32 horas, ¥24.000 em partes
+aproveitáveis e ¥6.000 de consumíveis por tentativa.
+Ferramentas e local já estão disponíveis. Os valores
+são ilustrativos; não acrescentam uma taxa geral de
+PE à fabricação.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+291

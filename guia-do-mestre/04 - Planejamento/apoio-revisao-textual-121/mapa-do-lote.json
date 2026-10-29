@@ -1,0 +1,21 @@
+{
+  "registro": 121,
+  "lote": "B2-03",
+  "casos": [
+    "s064",
+    "s065",
+    "s066",
+    "s071"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-121/output/pdf/Ciclo-Maldito-Terreno-Saida-e-Sineiro-Revisao-Textual.pdf",
+  "paginas": 15,
+  "casos_revistos_total": 23,
+  "casos_pendentes": 36,
+  "lotes_pendentes": 9,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-04",
+  "modelo_recomendado": "GPT-6.1 Sol",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

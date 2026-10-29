@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Efeitos ofensivos passivos, efeitos anteriores ainda
+ativos e outra vontade capaz de assumir o corpo
+exigem compatibilidade escrita antes da adesão.
+Não se presume que possam executar violência no
+lugar do portador. Este modelo não concede
+domínio sobre outra consciência nem imunidade a
+controle externo.
+Quando a obrigação é cumprida
+Confira a morte efetiva, a condição de pessoa e a
+ligação relevante entre uma ação da personagem e o
+desfecho indireto permitido. Ela não precisa saber
+da morte nem ser a única causa. Estar presente,
+fazer um favor genérico ou reivindicar crédito não
+estabelece essa ligação por si só. Registre qual ação
+contribuiu e como.
+A obrigação não exige usar Condução pela matéria.
+O benefício pode servir para outros fins, e um
+cumprimento pode decorrer de outra ação
+permitida.
+Como registrar: anote a janela, o momento da
+morte, a relação causal e o que a personagem sabe.
+Informações confirmadas apenas pelo mestre
+podem ficar em registro reservado. Conte a morte
+na janela em que aconteceu, mesmo que a
+confirmação administrativa chegue depois. Um
+desfecho exatamente no fechamento pertence
+somente à janela que termina. Corrija erros de
+registro sem inventar mortes ou refazer
+silenciosamente uma sessão concluída.
+A comparação 47 detalha os casos. Esse registro
+não permite que a personagem descubra
+automaticamente identidades ou mortes.
+O benefício de cada personagem
+O ganho é particular de uma capacidade que a
+personagem já possua, fixo por ficha. A direção
+escolhida é trocar a impossibilidade de violência
+direta por uma forma excepcional de atuar no
+ambiente. Cada portador precisa ter sua alteração
+escrita; o exemplo a seguir não concede o mesmo
+poder a qualquer técnica.
+Exemplo escolhido: Condução pela matéria. A
+matéria inanimada passa a servir de caminho para
+um feitiço que já corta objetos. Assim, o ganho e o
+impedimento alteram a mesma relação: a técnica
+deixa de poder exercer violência diretamente sobre
+criaturas e recebe outra maneira de alcançar o
+ambiente.
+A obrigação periódica mantém a exigência de
+produzir consequências letais por via indireta. Usar
+o benefício não garante uma morte nem cumpre a
+obrigação sozinho. Mortes adicionais não
+aumentam a capacidade.
+A aplicação antes do Pacto
+Nara conhece Fio de Corte, uma aplicação
+demonstrativa do Fundamento Fios de Tensão. O
+Fundamento está no Livro de Regras 1.0; este
+feitiço foi montado para o exemplo do Guia. Ele
+precisa ser aprendido normalmente, sem uma
+concessão gratuita pelo Pacto.
+Fio de Corte
+Regra do exemplo
+Classe e montagem
+Classe 1; Projétil, sem Melhorias ou Restrições. Os 3 pontos restantes dão
+3d8 de Cortante.
+Uso
+Ação Padrão e 3 PE. Selo: deslizar o polegar contra o indicador.
+Alvo e alcance
+Uma criatura ou uma parte de objeto comum inanimado a até 18 m, com
+visão e trajetória válidas. Não inclui equipamento vestido ou carregado nem
+barreira de energia.
+Resolução
+Ataque de conjuração contra Defesa; no acerto, 3d8 de Cortante. No erro,
+nenhum dano. O custo é pago nos dois casos.
+Duração
+Instantânea. Não deixa um fio para puxar ou controlar o alvo.
+Contra objetos, o mestre determina a parte atingida e se o corte pode danificá-la. Usa a ficha do objeto ou as
+referências do Livro de Regras 1.0. Atingir uma parte não destrói automaticamente toda a estrutura. A
+descrição do feitiço permite objetos; a Forma Projétil, sozinha, não oferece essa permissão.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+245

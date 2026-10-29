@@ -1,6 +1,6 @@
 # Registro de aquisição e estado de entidade
 
-Use uma folha por entidade, junto da ficha completa de **Construir invocações**, na R53. Esta folha acompanha aquisição, projeto e continuidade. Não substitui atributos, habilidades e demais campos da ficha.
+Use uma folha por entidade, junto da ficha completa de **Construir invocações**, no Livro de Regras 1.0. Esta folha acompanha aquisição, projeto e continuidade. Não substitui atributos, habilidades e demais campos da ficha.
 
 ## Identificação e aquisição
 
@@ -36,7 +36,7 @@ Use uma folha por entidade, junto da ficha completa de **Construir invocações*
 
 ## Exemplo de conferência do teste
 
-Este quadro retoma os números publicados da calígrafa na R53. Mostra requisitos e resolução; não define um prazo-padrão ou preço de materiais.
+Este quadro retoma os números publicados da calígrafa no Livro de Regras 1.0. Mostra os requisitos e o resultado do teste; não define um prazo-padrão ou preço de materiais.
 
 | Campo | Caso |
 |---|---|
@@ -50,7 +50,7 @@ Este quadro retoma os números publicados da calígrafa na R53. Mostra requisito
 | Entrega | Entidade com vida máxima, recolhida em talismã sem carga; 0,5 de Volume. |
 | Evolução | Acompanha o invocador até o nível 12; Classe 4 exige reconstrução. |
 
-Este quadro resolve o teste. [Tempo, materiais e retomada](45-tempo-materiais-e-retomada-de-entidades.md) acrescenta um orçamento e uma linha de trabalho com falha; [reconstrução e transferência](46-reconstruir-transferir-e-herdar-entidades.md) exemplifica as operações posteriores. Para executar um projeto, mantenha também a ficha completa da entidade vinculada ao registro; CD e horas não a substituem.
+Este quadro resolve o teste. [Tempo e materiais para criar entidades](45-tempo-materiais-e-retomada-de-entidades.md) acrescenta um orçamento e uma linha de trabalho com falha; [reconstrução e transferência](46-reconstruir-transferir-e-herdar-entidades.md) exemplifica as operações posteriores. Para executar um projeto, mantenha também a ficha completa da entidade vinculada ao registro; CD e horas não a substituem.
 
 ## Estado para passagem entre mesas
 
@@ -76,12 +76,12 @@ Ao encerrar uma missão, registre o estado real e as recuperações que acontece
 
 ## Construção e evolução
 
-[O Escriba de campo](53-construir-e-evoluir-o-escriba.md) mostra quais campos revisar ao ganhar nível: atributos, vida e Integridade máximas, treinos, vagas, talentos e versões ampliadas. Guarde também o texto e o estatuto de aprovação de capacidades próprias. Uma projeção de vagas não significa que todos os poderes futuros já foram escolhidos.
+[O Escriba de campo](53-construir-e-evoluir-o-escriba.md) mostra quais campos revisar ao ganhar nível: atributos, vida e Integridade máximas, treinos, vagas, talentos e versões ampliadas. Guarde também o texto e as condições de aprovação de capacidades próprias. Uma projeção de vagas não significa que todos os poderes futuros já foram escolhidos.
 
 ## Transporte e continuidade
 
-[A Mula de dobra](54-transporte-e-continuidade-das-entidades.md) inclui o registro preenchido de embarque e retirada: um passageiro, 8/8 Volume, custo de montar, básica, metros gastos e término da tarefa. Ao recolher, anote onde ficaram passageiro e objetos. Se o invocador deixar de agir, registre a situação concreta e a última tarefa válida; inconsciência e morte confirmada exigem procedimentos diferentes.
+[A Mula de dobra](54-transporte-e-continuidade-das-entidades.md) inclui o registro preenchido de embarque e retirada: um passageiro, 8/8 Volume, custo de montar, básica, metros gastos e término da tarefa. Ao recolher, anote onde ficaram passageiro e objetos. Se o invocador deixar de agir, registre a situação concreta e a última tarefa válida; inconsciência e morte confirmada seguem regras diferentes.
 
 ## Fabricação completa
 
-[O Vigia do depósito](55-fabricar-e-evoluir-o-vigia-do-deposito.md) reúne ficha, orçamento, horas, testes, entrega sem carga e evolução. A transferência é um ramo alternativo no nível 9; não misture seus valores com a reconstrução posterior ao nível 13.
+[O Vigia do depósito](55-fabricar-e-evoluir-o-vigia-do-deposito.md) reúne ficha, orçamento, horas, testes, entrega sem carga e evolução. A transferência é um exemplo alternativo no nível 9; não misture seus valores com a reconstrução posterior ao nível 13.

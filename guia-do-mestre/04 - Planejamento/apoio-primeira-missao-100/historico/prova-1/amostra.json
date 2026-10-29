@@ -1,0 +1,87 @@
+{
+  "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+  "fonte_sha256": "293816abdfc542bfac55b582800968867364bc6c78eab321018c5cbec0064d7f",
+  "base": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "base_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas_de_regras": [
+    {
+      "titulo": "Primeira sessão",
+      "ancora": "primeira-sess-o"
+    },
+    {
+      "titulo": "Mundo jujutsu",
+      "ancora": "mundo-jujutsu"
+    },
+    {
+      "titulo": "Turnos",
+      "ancora": "turnos"
+    },
+    {
+      "titulo": "Reações e ataques de oportunidade",
+      "ancora": "rea-es-e-ataques-de-oportunidade"
+    },
+    {
+      "titulo": "Ataques",
+      "ancora": "ataques"
+    },
+    {
+      "titulo": "Dano e crítico",
+      "ancora": "dano-e-cr-tico"
+    },
+    {
+      "titulo": "Defesa e cobertura",
+      "ancora": "defesa-e-cobertura"
+    },
+    {
+      "titulo": "Bloquear",
+      "ancora": "bloquear"
+    },
+    {
+      "titulo": "Aparar e Brecha",
+      "ancora": "aparar-e-brecha"
+    },
+    {
+      "titulo": "Estudar",
+      "ancora": "estudar"
+    },
+    {
+      "titulo": "Vida a zero",
+      "ancora": "vida-a-zero"
+    },
+    {
+      "titulo": "Janela de socorro",
+      "ancora": "janela-de-socorro"
+    },
+    {
+      "titulo": "Aguentar",
+      "ancora": "aguentar"
+    },
+    {
+      "titulo": "Insistir",
+      "ancora": "insistir"
+    },
+    {
+      "titulo": "Socorro",
+      "ancora": "socorro"
+    },
+    {
+      "titulo": "Sequelas e Cicatrizes",
+      "ancora": "sequelas-e-cicatrizes"
+    },
+    {
+      "titulo": "Derrota e morte",
+      "ancora": "derrota-e-morte"
+    },
+    {
+      "titulo": "Dano na alma",
+      "ancora": "dano-na-alma"
+    },
+    {
+      "titulo": "Estágios de Integridade",
+      "ancora": "est-gios-de-integridade"
+    }
+  ],
+  "pdf": "04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf",
+  "pdf_sha256": "5221501ccbb5b2631dff7ca36d94c36edc411440e03d07760f022f211218fec6",
+  "limite": "Amostra isolada; não altera o PDF integrado de 357 páginas."
+}

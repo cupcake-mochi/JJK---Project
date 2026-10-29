@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+CD 14. Haru tem Inteligência 3, Maestria 1 e treino:
+bônus +4. Dado 10 + 4 = 14. O mestre responde:
+“Sim. Ele muda de assunto quando vocês chegam
+perto e tenta manter a conversa longe da porta. O
+comportamento indica preocupação com o que vocês
+podem encontrar ali.”
+Essa resposta orienta uma decisão sem revelar o
+nome da colega, o que há na sala ou todas as razões
+do encarregado. Medo, vergonha ou proteção de
+outra pessoa podem produzir sinais semelhantes. O
+grupo pode perguntar diretamente, buscar outro
+acesso ou propor uma ação diferente. Não precisa
+rolar Percepção antes para receber sinais que já
+eram evidentes.
+Se o mesmo exame de uma pessoa observável
+ocorrer durante combate, use Estudar e gaste Ação
+Padrão. Com dado 9 + 4 = 13, a tentativa contra CD
+14 falha: a observação não basta para responder
+com segurança. Isso não confirma que o
+encarregado diga a verdade nem autoriza o mestre a
+inventar uma conclusão falsa. Repetir a mesma
+pergunta sem nova pista ou mudança de abordagem
+não permite outra tentativa de Estudar.
+O teste também não faz o encarregado colaborar.
+Um pedido para abrir a porta é uma interação
+diferente, resolvida pela abordagem e pelas regras
+pertinentes.
+Memória Testemunha
+Yui possui Memória Testemunha. Antes da sessão,
+mestre e jogadora estabeleceram que seu
+hospedeiro presenciou a entrega de uma
+encomenda na recepção: viu o remetente deixar
+uma caixa fechada e falar com a atendente. Não viu
+o interior da caixa nem o que aconteceu depois que
+saiu.
+Yui dedica um minuto àquela cena e gasta o uso de
+uma vez por dia ao iniciar a consulta. Pode fazer
+até três perguntas, sem teste de lembrança. Neste
+exemplo, pergunta:
+Pergunta
+Resposta possível
+“Qual porta o entregador usou?”
+“A entrada lateral, identificada pelo número 2, visível da
+recepção.”
+“O que ele disse à atendente?”
+“Pediu que guardasse a caixa até a abertura do arquivo.” A frase
+era audível naquela ocasião.
+“O que havia dentro da caixa?”
+“Seu hospedeiro viu uma caixa fechada. A lembrança não mostra
+o conteúdo.”
+As três perguntas pertencem à mesma cena. A
+terceira resposta não devolve o uso já gasto; a
+habilidade recupera detalhes que o hospedeiro
+poderia ter percebido, sem abrir o que estava
+fechado. Ela também não transforma a impressão
+“parecia uma entrega comum” em certeza sobre a
+intenção real do entregador.
+Ao decidir a próxima ação, o grupo dispõe da
+entrada utilizada e do pedido ouvido. Ainda precisa
+de outro meio para conhecer o conteúdo. Se um
+jogador apenas esqueceu uma informação que seu
+personagem já recebeu na sessão, relembre-a
+normalmente; não cobre esta capacidade para
+recapitular o que já foi estabelecido.
+Sentir Energia com interferência
+Rina examina um trecho de depósito tomado por
+fumaça. Pode usar Sentir Energia, tem bônus +6 e
+está a até 18 m das fontes indicadas abaixo. O
+preparo estabeleceu energia residual misturada
+naquele trecho: CD 18 de interferência, anunciada
+antes do dado. Esse número é uma escolha local de
+dificuldade; não é uma CD universal para fumaça
+ou depósitos.
+Rina gasta Ação Padrão, sem PE, e tira 12: 12 + 6 =
+18. Para uma fonte oculta, use a maior dificuldade
+entre a interferência e a Furtividade guardada:
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+56

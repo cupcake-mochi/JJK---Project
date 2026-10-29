@@ -1,0 +1,861 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Energia, habilidades e chefes | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'ENERGIA, HABILIDADES E CHEFES';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}#c09 .colunas p{margin-bottom:5pt}#c09 table th,#c09 table td{padding:3pt 4pt}#c10 .colunas p{margin-bottom:4.5pt}#c10 table th,#c10 table td{padding:3pt 4pt}#c10 .colunas h3{margin:8pt 0 5pt}#c10 .colunas h2{margin:10pt 0 6pt}#c10 .larga th:first-child{width:20%}#c10 .fechamento-exemplo{column-span:all;break-inside:avoid;margin:2pt 0 6pt}}@media print{.larga th{white-space:normal}.colunas p.conta{break-inside:avoid}.colunas table{break-inside:avoid}.abertura-caso{break-inside:avoid}.numero-curto{white-space:nowrap}#energia,#numeros{break-after:auto}#habilidades,#faixas{padding-top:12pt}}</style></head><body><nav><a href="#energia">PE, recarga e limites de uso</a><a href="#habilidades">Montar as habilidades de um inimigo</a><a href="#numeros">Escolher os números de um inimigo</a><a href="#faixas">Inimigos de níveis mais altos</a><a href="#chefes">Preparar chefes e confrontos maiores</a><a href="casos-completos.html">Casos por assunto</a><a href="guia-de-consulta.html">Folhas e capítulos</a></nav><p class="aviso-edicao">Prova parcial: lote B2-01. As fontes antigas e a edição integrada anterior continuam preservadas.</p><main><article class="folha" id="energia"><header><p class="numero">CONSULTA DO MESTRE</p><h1>PE, recarga e limites de uso</h1></header><div class="colunas">
+<p>Use esta seção ao criar ou adaptar uma ameaça, depois de ler <a href="../apoio-revisao-textual-114/prova-textual.html#c06">Inimigos e perigos</a>. Aqui você escolhe o que limita cada capacidade. As alterações sugeridas aqui são experimentais. Elas não mudam as regras nem as fichas apresentadas no exemplo de missão.</p>
+<h2 id="energia--primeiro-escolha-a-habilidade">Primeiro, escolha a habilidade</h2>
+<p>Antes de dar uma reserva de energia ao inimigo, defina o que ele faz e como o grupo pode responder. Uma capacidade pode ser usada livremente, exigir uma condição, precisar de preparo ou ter um limite próprio. Ter energia amaldiçoada não significa pagar pontos de energia em toda ação: Canalizar Energia, por exemplo, não cobra esse gasto no Livro de Regras 1.0.</p>
+<p><strong>Pontos de energia, ou PE, são uma reserva que algumas capacidades consomem.</strong> A reserva mostra quanto o inimigo ainda pode gastar. Um <strong>intervalo</strong> diz quando uma capacidade pode voltar. Uma <strong>condição de uso</strong> diz o que precisa estar acontecendo para executá-la. Essas funções podem aparecer separadas ou combinadas, conforme a ficha.</p>
+<p>Não acumule limites por precaução. Use apenas os limites que fazem diferença na luta e que valem o trabalho de acompanhar. Conservar um feitiço publicado exige respeitar suas regras; substituir seu preço por outro limite é uma adaptação, que precisa ser identificada e conferida.</p>
+<h2 id="energia--gastar-tudo-no-comeco">Gastar tudo no começo</h2>
+<p>O Amontoado do depósito possui seis PE e um Impacto concentrado que custa três. Se alcançar um alvo, pode tentar o feitiço no primeiro turno e novamente no segundo. Se não houver outro uso para os PE, guardar energia pode significar ser derrotado antes de gastá-la.</p>
+<p>Esse começo agressivo pode servir à ameaça. Porém, se você queria uma pausa entre os golpes, a reserva não a garante. Se queria que o inimigo escolhesse entre atacar e se proteger, falta uma alternativa útil. Aumentar ou diminuir os PE altera quantas tentativas cabem; não cria sozinho essas experiências.</p>
+<p>Uma ficha simples pode funcionar bem com uma rotina previsível. Não é necessário fabricar uma decisão difícil em todo turno. Só vale acompanhar uma reserva se ela fizer diferença nas escolhas ou nos limites da criatura.</p>
+<div class="larga"><h2 id="energia--qual-limite-de-uso-escolher">Qual limite de uso escolher</h2><table>
+<thead>
+<tr>
+<th>Você quer…</th>
+<th>Examine…</th>
+<th>Confira antes de usar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Um efeito que possa se repetir</td>
+<td>Uso livre</td>
+<td>O efeito precisa continuar adequado mesmo se for repetido; não basta retirar um preço de uma capacidade forte.</td>
+</tr>
+<tr>
+<td>Um número limitado de tentativas</td>
+<td>Usos limitados</td>
+<td>Defina o que consome o uso e como ele retorna. Erro e mudança de cena não devolvem usos automaticamente.</td>
+</tr>
+<tr>
+<td>Uma pausa garantida entre aplicações</td>
+<td>Intervalo fixo</td>
+<td>Escreva o momento exato de retorno e o que a criatura faz enquanto espera.</td>
+</tr>
+<tr>
+<td>Um retorno incerto</td>
+<td>Recarga</td>
+<td>Defina quando rolar, quais resultados devolvem o uso e se é possível repetir no turno seguinte.</td>
+</tr>
+<tr>
+<td>Uma oportunidade de impedir o golpe</td>
+<td>Preparo ou condição</td>
+<td>O grupo precisa perceber o sinal e ter meios de agir antes da consequência.</td>
+</tr>
+<tr>
+<td>Uma escolha entre habilidades</td>
+<td>Reserva compartilhada</td>
+<td>Gastar numa opção deve limitar outra que realmente possa ser útil.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p><strong>Recarga não é sinônimo de pausa.</strong> Uma proposta com d6, voltando em 5 ou 6 no começo do turno, pode permitir dois usos consecutivos. Também pode passar vários turnos sem retornar. Esse exemplo descreve uma opção; nem todo inimigo precisa de recarga.</p>
+<p>Usar cedo uma habilidade com recarga pode continuar sendo a melhor escolha, pois ela começa a ter chances de voltar. O ganho desse limite é tornar incerto quando a habilidade poderá ser repetida. Para dar ao inimigo um motivo para esperar, também pode ser necessário que posição, alvos, riscos ou objetivos mudem.</p>
+<h2 id="energia--de-tempo-para-o-grupo-reagir">Dê tempo para o grupo reagir</h2>
+<p>Imagine uma variante experimental do Amontoado que precisa gastar a Ação Padrão firmando as pernas e comprimindo as placas. Só pode descarregar o golpe no turno seguinte. Mover-se, ser deslocado ou ficar Derrubado desfaz esse preparo.</p>
+<p>Você descreve as placas se comprimindo antes do golpe. Os personagens podem sair do alcance ou tentar deslocar a criatura por uma capacidade que realmente permita isso. Se ninguém interferir e houver alvo válido, ela usa sua próxima Padrão para atacar. O preparo não dá uma ação extra.</p>
+<p>O grupo pode perceber o preparo e escolher como reagir. Também tem custos: o mestre acompanha o preparo, a criatura pode perder a oportunidade e o padrão pode ficar repetitivo. Este exemplo apresenta a ideia. Antes de usá-la, complete a ficha com início, prazo, interrupção e custo, conforme <a href="#habilidades">Montar as habilidades de um inimigo</a>.</p>
+<p>O Livro de Regras 1.0 já oferece a Restrição <strong>Carregar</strong>, com regras próprias: paga os PE ao iniciar e pode perder a carga ao falhar no TR Espírito exigido pelo dano recebido. Esse é um caminho publicado para preparação. O ensaio acima compara outra forma de interrupção; não altera Carregar nem concede sua devolução de pontos.</p>
+<h2 id="energia--atacar-ou-se-proteger">Atacar ou se proteger</h2>
+<p>Em outra variante experimental, o Amontoado pode gastar três PE no Impacto ou dois PE e sua Reação numa proteção própria que reduz quatro de dano de um ataque. Essa proteção é uma proposta para comparação; não foi acrescentada à ficha original.</p>
+<p class="conta">Depois de um Impacto, restam três PE. Um ataque causaria seis de dano. Se ainda tiver cinco pontos de vida, usar a proteção faz receber dois e continuar com três de vida. Sobrou um PE, insuficiente para outro Impacto. Guardar a reserva faria chegar a zero de vida e ficar derrotado.</p>
+<p>Se estivesse com vinte pontos de vida, a mesma decisão teria outro peso. Proteger-se preservaria quatro pontos, enquanto guardar os PE conservaria o próximo Impacto. O objetivo e as ameaças seguintes ajudariam a escolher. <strong>A reserva importa agora, sem depender de outra missão.</strong></p>
+<p>Um limite de usos compartilhados também cria essa escolha: com duas ativações, o inimigo pode gastar cada uma em ataque ou proteção. Os PE permitem cobrar preços diferentes. Com seis PE, cabem três proteções de dois; com duas ativações, cabem duas. Não são resultados equivalentes, embora ambos ofereçam decisões.</p>
+<p>Não acrescente uma defesa a toda criatura apenas para justificar PE. Primeiro confira se a capacidade combina com a ameaça e se sua presença melhora o confronto.</p>
+<h2 id="energia--energia-percebida-e-custos">Energia percebida e custos</h2>
+<p>O que uma criatura possui de energia e o que cada capacidade cobra são informações relacionadas, mas diferentes. Uma habilidade sem gasto não precisa apagar a energia da criatura, nem se tornar automaticamente um feitiço.</p>
+<p>Quando Leitura de Reservas se aplicar, respeite seu resultado publicado: saldo e máximo reais, pelos requisitos da capacidade. Não invente os números ao ser questionado. O saldo também não revela por si só todos os custos, uma recarga ou a intenção do inimigo.</p>
+<p>Registre se cada capacidade é feitiço, manobra ou outro tipo de habilidade. No Livro de Regras 1.0, o estágio 2 de Integridade aumenta o preço de <strong>cada feitiço</strong> em um PE por Classe. Isso não cria o mesmo acréscimo para toda manobra ou aptidão. No Impacto original, de Classe 1, o preço sobe de três para quatro. Se já tiver gasto três dos seis PE, os três restantes não pagam outro.</p>
+<p class="conta">Por isso, o resumo “normalmente dois Impactos” ajuda a consulta, mas não substitui o saldo em qualquer situação. Recuperação, alteração de energia ou custo podem mudar a quantidade. Se criar uma habilidade própria sem gasto ou alterar um feitiço para usar recarga, registre a mudança e confira suas interações. Trocar apenas o nome não resolve essa etapa.</p>
+<h2 id="energia--confira-como-o-inimigo-luta">Confira como o inimigo luta</h2>
+<p>Antes de levar a ameaça à mesa, descreva uma sequência curta e uma prolongada. Observe o primeiro golpe, a repetição, o esgotamento ou retorno e a resposta possível do grupo. Faça também um caso em que o inimigo precise se proteger, não encontre alvo ou seja interrompido.</p>
+<p>Se a mesma ação for escolhida sempre, decida se essa simplicidade serve à criatura. Se não servir, altere a situação ou o repertório. Não imponha ao mestre que escolha uma ação pior apenas para fingir que o recurso oferece decisões.</p>
+<p>Na retirada, conserve recursos, condições e preparos conforme seus prazos. Uma nova descrição de cena não restaura a ficha. Avalie o encontro inteiro: inimigos que continuam pressionando, personagens que ainda precisam de socorro e objetivos não resolvidos podem manter a situação em andamento depois da queda de uma criatura.</p>
+<p>Anote o que você calculou antes da sessão e o que aconteceu ao jogar. Os exemplos deste Guia conferem custos e ações possíveis. Ainda precisam de partidas para avaliar a facilidade de uso e a dificuldade contra grupos diferentes.</p>
+<h2 id="energia--complete-as-habilidades">Complete as habilidades</h2>
+<p><a href="#habilidades">Montar as habilidades</a> aplica esses critérios a regras conservadas, adaptações e capacidades próprias. Ela explica a diferença entre o custo-base da Classe e o que se paga ao usar o feitiço. Também mostra como conferir Integridade, energia percebida, cancelamento e Doma. Registre a escolha no bloco 3 da <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha única</a>. As <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061">conferências de habilidade</a> são um aprofundamento opcional para interações difíceis. Para comparar uma reserva realmente disputada no mesmo combate, consulte <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s075">Ren e Sora</a>; para uma capacidade com preparação e sem PE, consulte o <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s071">Sineiro</a>. As duas fichas ainda são exemplos em teste.</p>
+<h2 id="energia--outro-exemplo-haru-e-tessa">Outro exemplo: Haru e Tessa</h2>
+<p><a href="../../07 - Edicao de Leitura/capitulos/c05.html#s101">Haru e Tessa</a> usam PE reais nos feitiços e em Cobrir-se. Haru também anuncia a área e respeita um intervalo entre conjurações; Tessa escolhe entre cura e Impulso na mesma Padrão. Esses recursos resolvem problemas diferentes. O exemplo não torna PE obrigatórios para capacidades próprias que usem outras regras.</p></div></article><article class="folha" id="habilidades"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Montar as habilidades de um inimigo</h1></header><div class="colunas">
+<p><strong>Para ler depois de <a href="#energia">PE, recarga e limites de uso</a>.</strong> Comece pelo que a criatura tenta fazer na cena. Depois escolha a regra que realiza essa intenção e o limite que organiza seu uso. Registre a capacidade no bloco 3 da <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha única</a> e use a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s061">ficha de habilidade</a> quando precisar aprofundar interações.</p>
+<p>As habilidades novas e as adaptações desta seção são experimentais. Use-as para comparar possibilidades; seus custos ainda precisam ser testados em mesa.</p>
+<div class="larga"><h2 id="habilidades--conservar-adaptar-ou-criar">Conservar, adaptar ou criar</h2><p>Procure primeiro uma ação ou capacidade que já realize a função pretendida. Um inimigo que retira intrusos pode começar por Agarrar e pelas regras de transporte; a aparência de uma criatura diferente não exige uma regra nova para cada movimento.</p><table>
+<thead>
+<tr>
+<th>Caminho</th>
+<th>Como trabalhar</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conservar uma regra</td>
+<td>Siga a regra completa, incluindo custos, requisitos e saídas. Mudar apenas a aparência não altera esses campos.</td>
+<td>Agarrar pelas regras comuns; um feitiço montado com peças do Livro de Regras 1.0.</td>
+</tr>
+<tr>
+<td>Adaptar uma capacidade</td>
+<td>Anote a regra original e cada alteração. Confira também o que dependia do campo alterado.</td>
+<td>Uma versão experimental de Impacto troca seu pagamento normal por um limite de repetição.</td>
+</tr>
+<tr>
+<td>Criar uma habilidade própria</td>
+<td>Escreva a capacidade inteira e compare o que ela faz com habilidades semelhantes. Decida como ela interage com as outras regras.</td>
+<td>Trançar placas, a proteção proposta no ensaio anterior.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Esses são caminhos de criação. <strong>“Habilidade própria” não é uma classificação que ignore feitiços, energia ou defesas.</strong> O texto ainda precisa dizer como a capacidade funciona. Uma ideia nova pode ser construída como feitiço usando Efeito Próprio e continuar sujeita às regras de conjuração.</p>
+<p>Também não é necessário montar o inimigo inteiro como personagem jogador para usar uma regra publicada. Conceder uma capacidade não concede automaticamente a Origem, o Caminho, as outras aptidões ou os ataques adicionais de uma personagem que poderia aprendê-la.</p>
+<h2 id="habilidades--defina-o-tipo-de-acao">Defina o tipo de ação</h2>
+<p>Diga se a capacidade é ataque com arma ou desarmado, manobra, feitiço, aptidão ou outra ação com regras próprias. Registre também se depende do corpo, do equipamento ou da técnica. Essa informação ajuda a decidir o que pode impedi-la.</p>
+<p>Um golpe descrito como “soco de energia” ainda pode ser um feitiço de Toque. Nesse caso, conservar o ataque de conjuração preserva suas defesas e seus requisitos. Renomeá-lo não o transforma em ataque desarmado, não concede Canalizar em Golpe e não muda a regra de crítico.</p>
+<p><strong>Classe, Categoria de Efeito e nível têm funções diferentes.</strong> Um feitiço informa sua Classe. Um talento usa Categoria de Efeito quando sua regra indicar isso. O nível pertence à criatura. Não deduza um desses valores a partir de outro sem uma regra que faça essa ligação. Uma Classe atribuída para resolver um cancelamento específico também não concede acesso geral a feitiços daquela Classe.</p>
+<h2 id="habilidades--escolha-o-limite-de-uso">Escolha o limite de uso</h2>
+<p>Use os critérios da seção anterior: repetição livre, quantidade limitada, intervalo, recarga, preparo, condição ou reserva compartilhada. Registre o motivo da escolha em uma frase.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> “Este golpe precisa dar ao grupo uma chance de afastar a criatura antes de atingir o alvo.” Isso aponta para um preparo perceptível ou um requisito de posição. Apenas reduzir a reserva de PE não produz essa chance.</p>
+</blockquote>
+<p>Se acrescentar dois controles, explique a função de cada um. Uma reserva de PE pode obrigar o inimigo a escolher entre atacar e se proteger; um intervalo pode impedir ataques consecutivos. Não acrescente uma terceira contagem de usos quando ela só repetir o mesmo limite do saldo.</p>
+<p>Um gatilho não concede uma ação por si só. “Quando o alvo se aproxima” precisa vir acompanhado de quem pode responder, qual recurso gasta e em que momento age. Descrever o brilho do golpe enquanto ele já acerta não abre uma oportunidade anterior de intervenção.</p>
+<h2 id="habilidades--quanto-a-habilidade-custa">Quanto a habilidade custa</h2>
+<p>Num feitiço adaptado, registre <strong>o custo-base da Classe</strong> e <strong>quanto se paga neste uso</strong>. Uma adaptação pode dispensar o pagamento normal sem mudar a base que outras regras consultam.</p>
+<p class="conta">O Impacto concentrado original é de Classe 1 e custa três PE. Na hipótese de recarga do estudo, a proposta passa a <strong>dispensar somente esse custo normal na aplicação de Classe 1</strong>, conservando a base de três para regras que a consultem. É uma exceção experimental de inimigo, sem aprovação como regra geral.</p>
+<table>
+<thead>
+<tr>
+<th>Situação da hipótese</th>
+<th style="text-align: right;">Pagamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Uso comum com a dispensa</td>
+<td style="text-align: right;">0 PE</td>
+</tr>
+<tr>
+<td>Estágio 2 de Integridade</td>
+<td style="text-align: right;">0 + 1 pela Classe = 1 PE</td>
+</tr>
+<tr>
+<td>Se uma regra válida acrescentar 2 PE independentes</td>
+<td style="text-align: right;">0 + 2 = 2 PE</td>
+</tr>
+<tr>
+<td>Os dois acréscimos juntos</td>
+<td style="text-align: right;">0 + 1 + 2 = 3 PE</td>
+</tr>
+</tbody>
+</table>
+<p>Os acréscimos só existem quando uma regra efetivamente os concede. A tabela não dá ao inimigo novos talentos ou opções de conjuração. A dispensa não altera a Classe, não concede Ampliação, não paga ação e não modifica automaticamente outra capacidade.</p>
+<p>Neste exemplo, se os PE não bastarem para o pagamento final, a tentativa não começa. A criatura ainda não gastou a ação nem o uso disponível. Uma tentativa legal que erre mantém os custos e consome o uso ou preparo conforme sua ficha. Outras regras podem prever a devolução de recursos: não substitua essas exceções por uma proibição geral de devolver recursos.</p>
+<div class="larga"><h2 id="habilidades--confira-as-outras-regras">Confira as outras regras</h2><table>
+<thead>
+<tr>
+<th>Regra ou situação</th>
+<th>O que precisa continuar claro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataque, defesa e resistência</td>
+<td>Se há rolagem de ataque, informe bônus, dano e crítico. Se há Teste de Resistência, informe qual, a CD e os dois resultados. Bloquear não substitui um TR.</td>
+</tr>
+<tr>
+<td>Mãos, voz e Selo</td>
+<td>Cumpra os requisitos escritos. Calado impede a voz exigida; Agarrado não prende automaticamente as mãos nem proíbe conjurar.</td>
+</tr>
+<tr>
+<td>Ações e Reações</td>
+<td>Gatilhos, momento de pagamento e ordem de resolução. Uma Reação gasta só volta no começo do próximo turno próprio, salvo regra específica.</td>
+</tr>
+<tr>
+<td>Integridade</td>
+<td>Os estágios são cumulativos: o primeiro prejudica perícias; o segundo reduz deslocamento e aumenta custos de feitiços; o terceiro prejudica ataques e TRs e reduz a Classe máxima de conjuração. Uma capacidade sem PE não evita essas consequências. A zero, aplique Inconsciente e Derrotado.</td>
+</tr>
+<tr>
+<td>Energia percebida</td>
+<td>Sentir Energia não revela a ficha inteira. Leitura de Reservas acrescenta saldo e máximo no exame bem-sucedido, sem revelar automaticamente usos, recargas ou intenções.</td>
+</tr>
+<tr>
+<td>Rescaldo</td>
+<td>Se a capacidade depende da Técnica Inata, confira sua indisponibilidade. Ser própria ou ter custo zero não cria uma exceção. Capacidades independentes seguem suas regras.</td>
+</tr>
+<tr>
+<td>Cancelamento</td>
+<td>Confira o alvo e o momento de uma capacidade como Desarma o Feitiço. Não existe cancelamento universal só porque um efeito parece sobrenatural. Uma capacidade própria também não ganha imunidade automática.</td>
+</tr>
+<tr>
+<td>Duração e manutenção</td>
+<td>Informe término, interrupção e consequência de não pagar. Carregar e Concentração usam regras diferentes; não troque um pelo outro.</td>
+</tr>
+<tr>
+<td>Retirada e retorno</td>
+<td>Mantenha os recursos gastos e as condições da criatura. Escreva como um limite avança fora da iniciativa antes de usar a criatura como ameaça recorrente. Mudar a cena não basta para restaurar a ficha.</td>
+</tr>
+<tr>
+<td>Doma</td>
+<td>Prepare a ficha convertida antes da tentativa. Funções e identidade permanecem, com os limites de construção e atuação da entidade. Ações adicionais e exceções exclusivas do exemplo não passam automaticamente.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>O nome <strong>Contramedida</strong>, por exemplo, não significa anular o ataque inimigo: o talento publicado aumenta em dois a CD do feitiço de outra criatura, com seus requisitos e custos. Leia a regra da capacidade usada, em vez de decidir apenas pelo nome.</p>
+<h2 id="habilidades--tres-exemplos">Três exemplos</h2>
+<h3 id="habilidades--impacto-um-feitico-continua-sendo-feitico">Impacto: um feitiço continua sendo feitiço</h3>
+<p>Na ficha original, o Amontoado junta as palmas, paga três PE e faz um ataque de conjuração de +4 contra um alvo visível a até 1,5 m. O acerto causa 3d8 de Concussão; o crítico, 6d8. O erro conserva o gasto.</p>
+<p>Na variante com recarga, mudar o pagamento não apaga a Classe 1, o Selo, a necessidade de alvo ou as regras de conjuração. Mesmo disponível, o golpe não sai se a criatura não conseguir juntar as palmas. Leitura de Reservas pode informar seis PE restantes, sem prometer que o golpe está disponível naquele instante.</p>
+<p>Essa recarga é experimental e vale apenas para a variante descrita. Não dispensa o custo dos demais feitiços nem se aplica automaticamente a personagens jogadores.</p>
+<h3 id="habilidades--carregador-de-sinos-agarrar-pelas-regras-comuns">Carregador de sinos: Agarrar pelas regras comuns</h3>
+<p>Para examinar a função do Carregador, considere uma criatura Média com mãos, Força 3 e maestria 1. Ela quer conter um intruso ao alcance de 1,5 m. Usa Atacar e substitui seu único ataque por Agarrar. Precisa de uma mão livre e pode tentar contra um alvo de até uma categoria de tamanho maior.</p>
+<p>O alvo faz um <strong>Teste de Resistência Físico (TR Físico)</strong>: rola um d20, soma o bônus desse TR e compara com a <strong>Classe de Dificuldade (CD), 8 + 3 + 1 = 12</strong>. Com total 11, fica Agarrado, com deslocamento zero; com 12, evita. A tentativa não causa dano, não rola acerto e não cobra PE. O alvo agarrado conserva ataques, conjuração e Bloquear conforme seus requisitos. Para escapar no próprio turno, pode gastar a Padrão e repetir TR Físico contra CD 12. Há também outras saídas previstas na contenção, como separar os corpos além do alcance ou fazer o agarrador perder a mão que a mantém.</p>
+<p>O tilintar dos sinos dá identidade à criatura e pode anunciar sua intenção. Não concede um segundo agarrão, transporte gratuito ou controle da personagem. Arrastar ainda precisa cumprir carga, movimento e alcance. Este exemplo ensina uma capacidade. Para a aplicação com ficha completa e percurso, consulte <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s062">O Carregador e o corredor de entulho</a> e sua <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s063">consulta com Doma</a>; os valores novos permanecem experimentais.</p>
+<h3 id="habilidades--trancar-placas-pagar-pe-nao-transforma-uma-protecao-em-feitico">Trançar placas: pagar PE não transforma uma proteção em feitiço</h3>
+<p>No exemplo anterior, esta habilidade própria gasta <strong>Reação e dois PE</strong>, depois de determinar o dano de um ataque que acertou, antes de descontá-lo. Reduz quatro desse dano. A proteção não muda a Defesa nem impede outros efeitos do acerto. Vale somente para aquele ataque.</p>
+<p>Para este exemplo, sua fonte é um reforço energético do corpo independente da Técnica Inata. Essa definição é parte da proposta, não um atributo automático de toda proteção. Não recebe o acréscimo por Classe do estágio 2, pois não foi escrita como feitiço; ainda precisa dos dois PE e da Reação. As demais consequências da Integridade continuam valendo.</p>
+<p class="conta">Com cinco pontos de vida, diante de seis de dano, pagar a proteção deixa <strong class="formula">5 − (6 − 4) = 3 PV</strong>. Se já gastou a Reação, não pode utilizá-la. Ela também não responde a uma queda ou a um feitiço resolvido por TR, porque seu gatilho exige um ataque que acertou.</p>
+<p>Esse caso não prova que dois PE sejam o preço certo de toda redução de quatro. É uma comparação de funcionamento. Sua possível conversão por Doma precisa de classificação, regras de aquisição e adaptação aos recursos da entidade antes de ser oferecida.</p>
+<h2 id="habilidades--confira-a-habilidade-antes-de-jogar">Confira a habilidade antes de jogar</h2>
+<p>O texto precisa informar custo, alvos e formas de encerrar o efeito antes de a capacidade entrar em jogo. Confira um caso normal, uma tentativa impedida e uma interrupção. Se o inimigo puder voltar ao encontro, confira com quais recursos e condições ele retorna. Se houver condição aplicada, indique o que o alvo ainda pode fazer e como pode sair.</p>
+<p>Decida o que será observado pelo grupo e o que requer exame. Preserve soluções distintas quando o objetivo do encontro pedir isso: afastar-se de um golpe preparado, impedir sua execução e cumprir o objetivo por outro caminho não precisam ter o mesmo custo ou chance de sucesso.</p>
+<p>Conferir o texto e as contas prepara a habilidade para um teste em mesa. Só o uso em jogo permite avaliar sua clareza e seu equilíbrio. Apresente-a como experimental enquanto esses testes não forem feitos.</p></div></article><article class="folha" id="numeros"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Escolher os números de um inimigo</h1></header><div class="colunas">
+<p>Use esta seção para montar os primeiros valores da ficha e reconhecer o que precisa de revisão. Registre os campos na <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha de inimigo e encontro</a> e siga <a href="../apoio-revisao-textual-114/prova-textual.html#c06">Inimigos e perigos</a>. As referências abaixo são <strong>propostas experimentais para os níveis 2 e 6</strong>, estudadas contra três perfis de personagens. Não são uma escala de dificuldade validada, uma tabela para todos os níveis ou fichas prontas para entrar em jogo.</p>
+<div class="larga"><h2 id="numeros--comece-pelo-que-ele-faz">Comece pelo que ele faz</h2><p>Escreva uma frase com a ação que torna esse inimigo relevante: “leva quem toca na caixa para outro lugar”, “mantém uma passagem sob tiro” ou “prepara um golpe que obriga a equipe a sair de perto”. Essa frase orienta os números. Ser importante na história não concede automaticamente mais ataques, defesa, dano e imunidades.</p><table>
+<thead>
+<tr>
+<th>Função desejada</th>
+<th>O que precisa funcionar</th>
+<th>O que conferir antes de aumentar números</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conter e separar</td>
+<td>Alcançar alguém, aplicar a contenção e manter um percurso possível.</td>
+<td>Tempo disponível para reagir, tamanho, carga, distância e saídas da condição.</td>
+</tr>
+<tr>
+<td>Ferir quem se expõe</td>
+<td>Conseguir atacar uma pessoa que se aproximou ou ficou numa posição arriscada.</td>
+<td>Precisão, dano de um golpe e sequência antes de a pessoa conseguir reagir.</td>
+</tr>
+<tr>
+<td>Proteger uma posição</td>
+<td>Continuar relevante enquanto o grupo disputa o acesso.</td>
+<td>Vida junto da defesa, cobertura, alcance e formas de contornar a posição.</td>
+</tr>
+<tr>
+<td>Apoiar outras criaturas</td>
+<td>Produzir uma vantagem que os aliados realmente conseguem usar.</td>
+<td>Quantidade de beneficiários, frequência e possibilidade de interromper o apoio.</td>
+</tr>
+<tr>
+<td>Sustentar o centro de um confronto</td>
+<td>Apresentar decisões e continuar agindo tempo suficiente para desenvolvê-las.</td>
+<td>Oportunidades de agir, sinais das habilidades, efeitos que podem impedi-lo e objetivo do grupo.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Essas funções descrevem o trabalho da criatura; não são categorias que concedem regras. Um chefe pode conter, atirar ou apoiar. Uma criatura comum também pode ter uma habilidade especial.</p>
+<h2 id="numeros--regras-e-numeros-escolhidos">Regras e números escolhidos</h2>
+<p>O nível define Maestria e permissões que o citam, incluindo as de aquisição. <strong>Nível 2 e nível 6 têm Maestria 1.</strong> Isso não torna suas reservas, ações ou golpes iguais. Patente, Grau, nível e função no encontro não são medidas equivalentes.</p>
+<p>Preserve as contas do Livro de Regras 1.0 quando usar suas regras:</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Como preencher</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataque comum</td>
+<td>Atributo correspondente + Maestria; equipamento e capacidades conservam suas alterações.</td>
+</tr>
+<tr>
+<td>CD de manobra</td>
+<td>8 + atributo aplicável + Maestria, com requisitos da manobra.</td>
+</tr>
+<tr>
+<td>Defesa</td>
+<td>10 + Destreza + proteção, com os limites de equipamento e outros modificadores.</td>
+</tr>
+<tr>
+<td>Bloquear</td>
+<td>2d10 + Defesa − 11; escolher antes da rolagem de ataque.</td>
+</tr>
+<tr>
+<td>TR</td>
+<td>Atributo apropriado; acrescentar Maestria somente quando treinado. Registrar os quatro TRs.</td>
+</tr>
+<tr>
+<td>Integridade de inimigo com alma</td>
+<td>Metade da vida máxima, conforme o livro de regras. As propostas abaixo usam PV pares.</td>
+</tr>
+<tr>
+<td>Ações</td>
+<td>As ações comuns e as permissões escritas na ficha. “Chefe” não concede outra iniciativa.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Escolha vida e capacidades próprias para o resultado pretendido, identificando a proposta. Se um ataque corporal usar dados diferentes do desarmado comum, escreva essa exceção, como foi feito na Pancada do Sineiro. Não mude apenas o total final de Defesa e deixe seus componentes incompatíveis.</p>
+<p class="conta"><strong>Exemplo:</strong> ataque +4 e CD 12 correspondem a atributo 3 e Maestria 1. Elevar o atributo para 4 leva esses campos a +5 e CD 13, mas também afeta outras contas desse atributo. Para aumentar apenas a precisão de uma capacidade, seria necessário um modificador próprio explicado e avaliado; não esconda o acréscimo na ficha.</p>
+<div class="larga"><h2 id="numeros--primeiros-valores-para-comparar">Primeiros valores para comparar</h2><p>Comece pela referência de vida central, com <strong>uma ação ofensiva na Padrão</strong> e sem defesa excepcional. Depois ajuste pelo papel e pelo grupo. Não some automaticamente todas as alternativas mais fortes.</p><table>
+<thead>
+<tr>
+<th>Campo de rascunho</th>
+<th>Referência no nível 2</th>
+<th>Referência no nível 6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida central / Integridade</td>
+<td class="numero-curto"><strong>24 / 12</strong></td>
+<td class="numero-curto"><strong>72 / 36</strong></td>
+</tr>
+<tr>
+<td>Vida menor / Integridade</td>
+<td class="numero-curto">16 / 8</td>
+<td class="numero-curto">48 / 24</td>
+</tr>
+<tr>
+<td>Vida maior / Integridade</td>
+<td class="numero-curto">32 / 16</td>
+<td class="numero-curto">108 / 54</td>
+</tr>
+<tr>
+<td>Ataque e CD de referência</td>
+<td>+4 e CD 12</td>
+<td>+5 e CD 13</td>
+</tr>
+<tr>
+<td>Defesa central para comparar</td>
+<td>13, com componentes válidos.</td>
+<td>13, com componentes válidos.</td>
+</tr>
+<tr>
+<td>Defesa menor ou maior para comparar</td>
+<td>11 ou 15.</td>
+<td>11 ou 15.</td>
+</tr>
+<tr>
+<td>Ações de partida</td>
+<td>Uma Padrão, Movimento, Bônus e Reação comuns; um ataque em Atacar.</td>
+<td>Mesma rotina. Um segundo ataque exige permissão e avaliação próprias.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p><strong>De onde vêm esses valores?</strong> O Carregador já fornece uma referência local de 32 PV; 16 e 24 permitem examinar reservas menores. No nível 6, 72 e 108 foram comparados para o Sineiro; 48 acrescenta uma alternativa menor. São candidatos escolhidos para estudo, não uma fórmula descoberta no Livro de Regras 1.0. Não calcule os níveis 3–5 pela diferença entre essas linhas, nem multiplique os valores para chegar ao nível 30.</p>
+<p>“Vida maior” também não significa “chefe”. O Carregador tem 32 PV, Defesa 11 e escolhe entre uma Pancada e uma manobra. O Sineiro tem 108 PV, Defesa 11, dois ataques limitados por sua ficha e um impacto anunciado. Reduzir ambos a uma coluna de vida apagaria suas diferenças.</p>
+<div class="larga"><h3 id="numeros--precisao-e-defesa">Precisão e defesa</h3><p>Esta tabela usa ataques normais, sem vantagem, cobertura ou Bloquear, incluindo o acerto crítico de 20 natural:</p><table>
+<thead>
+<tr>
+<th>Ataque</th>
+<th style="text-align: right;">Contra Defesa 11</th>
+<th style="text-align: right;">Contra Defesa 13</th>
+<th style="text-align: right;">Contra Defesa 15</th>
+<th style="text-align: right;">Contra Defesa 16</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto">+4</td>
+<td class="numero-curto" style="text-align: right;">70%</td>
+<td class="numero-curto" style="text-align: right;">60%</td>
+<td class="numero-curto" style="text-align: right;">50%</td>
+<td class="numero-curto" style="text-align: right;">45%</td>
+</tr>
+<tr>
+<td class="numero-curto">+5</td>
+<td class="numero-curto" style="text-align: right;">75%</td>
+<td class="numero-curto" style="text-align: right;">65%</td>
+<td class="numero-curto" style="text-align: right;">55%</td>
+<td class="numero-curto" style="text-align: right;">50%</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Entre esses valores, acrescentar dois pontos de Defesa reduz o acerto em dez pontos percentuais. Isso se repete a cada ataque recebido. Aumentar defesa e vida juntos costuma ter mais efeito do que alterar só um campo. A cobertura deve ser considerada quando existir no espaço; não está embutida nestas linhas.</p>
+<p>Bloquear substitui a defesa por uma rolagem, com Aparar e Brecha. Ele não consome Reação, mas os revides correspondentes podem consumi-la. O estudo completo também calcula Bloquear. A tabela acima mostra apenas ataques contra Defesa estática.</p>
+<div class="larga"><h3 id="numeros--vida-e-tempo-para-agir">Vida e tempo para agir</h3><p>A comparação usa três perfis que conseguem tentar um ataque cada, na ordem Bastião, Emanador e Guia. Cada ataque pode errar. O segundo conjunto repete essa ordem, totalizando seis ataques do grupo. A tabela mostra a chance de o inimigo ainda ter PV depois desses ataques, com <strong>Defesa 13</strong>:</p><table>
+<thead>
+<tr>
+<th>Nível / PV do inimigo</th>
+<th style="text-align: right;">Após 3 feitiços</th>
+<th style="text-align: right;">Após 6 feitiços</th>
+<th style="text-align: right;">Após espada + 2 feitiços</th>
+<th style="text-align: right;">Após repetir o conjunto misto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto">2 / 16</td>
+<td class="numero-curto" style="text-align: right;">25,2%</td>
+<td class="numero-curto" style="text-align: right;">2,9%</td>
+<td class="numero-curto" style="text-align: right;">29,1%</td>
+<td class="numero-curto" style="text-align: right;">3,6%</td>
+</tr>
+<tr>
+<td class="numero-curto">2 / 24</td>
+<td class="numero-curto" style="text-align: right;">43,4%</td>
+<td class="numero-curto" style="text-align: right;">7,1%</td>
+<td class="numero-curto" style="text-align: right;">50,1%</td>
+<td class="numero-curto" style="text-align: right;">9,4%</td>
+</tr>
+<tr>
+<td class="numero-curto">2 / 32</td>
+<td class="numero-curto" style="text-align: right;">65,4%</td>
+<td class="numero-curto" style="text-align: right;">15,5%</td>
+<td class="numero-curto" style="text-align: right;">73,0%</td>
+<td class="numero-curto" style="text-align: right;">19,8%</td>
+</tr>
+<tr>
+<td class="numero-curto">6 / 48</td>
+<td class="numero-curto" style="text-align: right;">34,6%</td>
+<td class="numero-curto" style="text-align: right;">3,8%</td>
+<td class="numero-curto" style="text-align: right;">55,5%</td>
+<td class="numero-curto" style="text-align: right;">9,7%</td>
+</tr>
+<tr>
+<td class="numero-curto">6 / 72</td>
+<td class="numero-curto" style="text-align: right;">70,1%</td>
+<td class="numero-curto" style="text-align: right;">13,5%</td>
+<td class="numero-curto" style="text-align: right;">88,0%</td>
+<td class="numero-curto" style="text-align: right;">28,9%</td>
+</tr>
+<tr>
+<td class="numero-curto">6 / 108</td>
+<td class="numero-curto" style="text-align: right;">96,5%</td>
+<td class="numero-curto" style="text-align: right;">44,2%</td>
+<td class="numero-curto" style="text-align: right;">99,5%</td>
+<td class="numero-curto" style="text-align: right;">70,3%</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p class="conta">No nível 2, os feitiços são Classe 1, +4, 3d8 e 3 PE; a espada tem +4, 1d8 + 3 e 1d4 de Canalizar. No nível 6, são Classe 2, +5, 6d8 e 6 PE; a espada tem +5, 1d8 + 4 e 1d4 de Canalizar. As duas conjurações por pessoa cabem nas reservas cheias dos perfis usados. Não foram incluídos Kokusen, respostas de Caminho, propriedades da arma, socorro, controle ou ações do inimigo. A conta parte da hipótese de que todos conseguem alcançar o alvo e agir.</p>
+<p><strong>Não leia essas colunas como rodadas de combate.</strong> Uma personagem pode gastar a Padrão para fugir de um agarrão, socorrer alguém ou cumprir o objetivo. A criatura pode ser interrompida ou a missão acabar antes de ela cair. O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s073">ensaio do Sineiro</a> mostra essas diferenças com posições e ações.</p>
+<p class="conta"><strong>Exemplo de ajuste:</strong> com 108 PV, o inimigo de referência sobrevive às seis ações do conjunto misto em 55,3% com Defesa 11, 70,3% com Defesa 13 e 81,4% com Defesa 15. Dar mais defesa ao Sineiro sem rever sua vida aumentaria suas chances de sobreviver a essa sequência. Isso é motivo para comparar antes de alterar; não é recomendação de garantir que um chefe sobreviva a seis ataques.</p>
+<p>Para avançar além dos níveis 2 e 6, consulte <a href="#faixas">outras faixas e capacidades</a>. Os candidatos de vida e Defesa são comparações experimentais; não devem ser interpolados como escala aprovada.</p>
+<div class="larga"><h2 id="numeros--escolha-dano-junto-da-frequencia">Escolha dano junto da frequência</h2><p>Considere cada aplicação, não apenas o maior dado disponível na Classe. As linhas seguintes são <strong>referências de golpes corporais</strong>, com Defesa 13 no alvo e crítico normal. A média inclui erros; não inclui resistência, Bloquear ou redução de dano.</p><table>
+<thead>
+<tr>
+<th>Aplicação</th>
+<th style="text-align: right;">Ataque</th>
+<th>Dano normal / crítico</th>
+<th style="text-align: right;">Dano médio por tentativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pancada do Carregador, nível 2</td>
+<td class="numero-curto" style="text-align: right;">+4</td>
+<td>1d4 + 3 / 2d4 + 3</td>
+<td class="numero-curto" style="text-align: right;">3,43</td>
+</tr>
+<tr>
+<td>Alternativa ofensiva de nível 2, proposta</td>
+<td class="numero-curto" style="text-align: right;">+4</td>
+<td>1d8 + 3 / 2d8 + 3</td>
+<td class="numero-curto" style="text-align: right;">4,73</td>
+</tr>
+<tr>
+<td>Pancada do Sineiro, nível 6</td>
+<td class="numero-curto" style="text-align: right;">+5</td>
+<td>2d6 + 4 / 4d6 + 4</td>
+<td class="numero-curto" style="text-align: right;">7,50</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>A primeira linha já serve a uma criatura cuja pressão principal é conter. A segunda é uma alternativa para estudar um atacante, não uma atualização do Carregador. A terceira pode orientar uma aplicação de nível 6; não importa automaticamente os dois ataques ou o restante da ficha do Sineiro. Armas, Canalizar e outras capacidades, quando aplicáveis à nova criatura, entram explicitamente no cálculo; não são acréscimos presumidos nestas linhas.</p>
+<p><strong>Quantidade importa.</strong> Contra uma personagem com 14 PV e Defesa 13, duas Pancadas do Carregador têm cerca de <strong>4,9%</strong> de chance de levá-la a zero. Duas aplicações da alternativa 1d8 + 3 elevam isso para <strong>27,0%</strong>. Começando com 7 PV, as chances passam a <strong>50,3%</strong> e <strong>67,3%</strong>. São duas tentativas de ataque, sem cura ou proteção entre elas: podem vir de dois inimigos ou de turnos diferentes. O Carregador não ganhou um segundo ataque.</p>
+<p>Chegar a zero exige resolver a queda do personagem jogador, e não declarar morte. Porém, o dano posterior durante Morrendo pode reduzir o tempo disponível para socorro. Conferir somente a chance de um golpe derrubar alguém não basta para avaliar uma sequência concentrada.</p>
+<p><strong>Dano em área merece outra conta.</strong> O sino usa 5d8 com TR Físico CD 13, metade no sucesso, preparação visível e possibilidade de interrupção. Não transforme esse dano em ataque comum imediato apenas porque ele cabe numa montagem de Classe 2. Área, quantidade de alvos, aviso, resposta e frequência precisam ser avaliados juntos. Guarda Aberta depois do impacto também faz parte do custo daquela capacidade.</p>
+<h2 id="numeros--controle-e-recursos">Controle e recursos</h2>
+<p>Contra os TRs Físicos +4, +3 e +2 do exemplo de nível 2, CD 12 produz falha em <strong>35%, 40% e 45%</strong>. No exemplo de nível 6, CD 13 contra +5, +3 e +2 produz <strong>35%, 45% e 50%</strong>. São chances de aplicação, sem vantagem ou desvantagem. Duração e saída da condição podem importar mais que essa primeira chance.</p>
+<p>Se Agarrar substitui o único ataque, a criatura abre mão do dano naquela Padrão. Se substitui um de dois ataques, ainda há uma Pancada disponível. Não trate as duas contenções como a mesma pressão só porque têm a mesma CD.</p>
+<p>Para capacidades próprias, escolha o recurso pelo funcionamento desejado, conforme <a href="#energia">PE, recarga e limites de uso</a>. PE podem limitar uma sequência, mas não fazem um inimigo de uma única luta poupar espontaneamente. Preparação, intervalo, condição de uso e disputa pela mesma ação também podem organizar a frequência. Nem toda habilidade especial precisa desses limites.</p>
+<p>Ao usar PE, escreva reserva, custo e interações reais. Ao usar outra forma de limitar a habilidade, escreva início, término, repetição e o que interrompe. Uma criatura com 0/0 PE pode conservar energia perceptível e capacidades corporais. Isso não autoriza apresentar uma conjuração como corporal apenas para ignorar as interações do Livro de Regras 1.0.</p>
+<h2 id="numeros--termine-a-ficha-antes-da-mesa">Termine a ficha antes da mesa</h2>
+<p>Registre corpo, tamanho, atributos, sentidos, movimento, carga e comunicação. Complete vida, Integridade, Defesa/Bloquear, os quatro TRs, perícias relevantes, ações, custos, alcance, dano, condições e saídas. Cada proteção ou exceção precisa de texto e origem. Uma fraqueza não compra automaticamente uma imunidade: confirme se o grupo tem meios de reconhecer e usar essa fraqueza.</p>
+<p>Depois escreva sinais, alvo preferido, objetivo, reação à perda de posição e condições de retirada. Acrescente o mapa e o estado esperado do grupo. Para uma criatura adquirível, prepare separadamente a ficha de entidade e seus custos antes de oferecer a aquisição; as reservas de inimigo não passam automaticamente para a Doma.</p>
+<p>Experimente alterar <strong>um elemento por vez</strong>. Para tornar uma ameaça mais persistente, compare primeiro a vida; para tornar exposição mais perigosa, examine precisão, dano e oportunidades; para criar outra decisão, trabalhe a capacidade e suas respostas. Não corrija um exemplo pouco interessante aumentando todos os campos.</p>
+<p>Na guilda, registre para quais fichas, recursos disponíveis no início e objetivo o encontro foi preparado. Esses dados permitem a outro mestre adaptar a missão. O registro não garante a mesma dificuldade com outra composição.</p>
+<p><strong>Exemplo de criação:</strong> <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s075">Ren e Sora</a> transformam duas referências em fichas com funções distintas. O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s076">confronto comentado</a> acompanha suas escolhas de energia, a disputa de alvos e a perda de uma função quando um deles cai. Os parâmetros continuam experimentais.</p>
+<p><strong>Exemplo de ficha preenchida:</strong> a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s077">ficha de Ren e Sora</a> conecta origem dos números, capacidades, grupo, lugar e resultado; as fichas completas continuam na consulta <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s075">Ren e Sora: atacante e apoio</a>.</p></div></article><article class="folha" id="faixas"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Inimigos de níveis mais altos</h1></header><div class="colunas">
+<p>Use esta comparação depois de <a href="#numeros">Escolher os números de um inimigo</a>. Os níveis 10, 15, 20, 22, 26 e 30 ampliam os exemplos anteriores de níveis 2 e 6. Eles mostram como conferir uma ameaça contra capacidades concretas do Livro de Regras 1.0. Não constituem uma tabela de dificuldade ou valores obrigatórios de vida por nível.</p>
+<p>Comece pela ficha do grupo. Anote seus ataques, defesas, recursos de controle, cura e formas de alcançar o objetivo. Em seguida, compare o inimigo com essas capacidades. Um nível indica acessos possíveis; não informa sozinho o que cada personagem comprou ou consegue realizar nesta cena.</p>
+<h2 id="faixas--os-tres-perfis">Os três perfis</h2>
+<p>Retomamos três referências: <strong>Bastião</strong>, <strong>Emanador</strong> e <strong>Guia</strong>. São perfis usados no estudo, não personagens prontos para jogar. Todos usam vida fixa e os marcos de Corpo, sem aumentos de Origem, Trilha ou equipamento além do Traje 1. Essa escolha mantém a mesma base de comparação. Não é uma recomendação para montar personagens.</p>
+<p class="conta">No nível 2, os atributos Força/Destreza/Constituição/Inteligência/Essência são, respectivamente, 3/2/2/1/1, 0/2/2/3/2 e 0/2/2/2/3. Nos marcos 6, 10 e 14, cada um aumenta o atributo principal e Constituição. No 18, aumenta Constituição e Destreza. Nos marcos 22, 26 e 30, aumenta Destreza e um atributo secundário: Inteligência para Bastião e Guia, Essência para Emanador. Nenhum supera 6.</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>PV do Bastião</th>
+<th>PV do Emanador</th>
+<th>PV do Guia</th>
+<th>Classe máxima</th>
+<th>Ataque principal dos três</th>
+<th>Defesa dos três</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto">10</td>
+<td class="numero-curto">115</td>
+<td class="numero-curto">82</td>
+<td class="numero-curto">93</td>
+<td class="numero-curto">3</td>
+<td class="numero-curto">7</td>
+<td class="numero-curto">13</td>
+</tr>
+<tr>
+<td class="numero-curto">15</td>
+<td class="numero-curto">185</td>
+<td class="numero-curto">137</td>
+<td class="numero-curto">153</td>
+<td class="numero-curto">4</td>
+<td class="numero-curto">8</td>
+<td class="numero-curto">13</td>
+</tr>
+<tr>
+<td class="numero-curto">20</td>
+<td class="numero-curto">265</td>
+<td class="numero-curto">202</td>
+<td class="numero-curto">223</td>
+<td class="numero-curto">5</td>
+<td class="numero-curto">9</td>
+<td class="numero-curto">14</td>
+</tr>
+<tr>
+<td class="numero-curto">22</td>
+<td class="numero-curto">291</td>
+<td class="numero-curto">222</td>
+<td class="numero-curto">245</td>
+<td class="numero-curto">6</td>
+<td class="numero-curto">9</td>
+<td class="numero-curto">15</td>
+</tr>
+<tr>
+<td class="numero-curto">26</td>
+<td class="numero-curto">343</td>
+<td class="numero-curto">262</td>
+<td class="numero-curto">289</td>
+<td class="numero-curto">7</td>
+<td class="numero-curto">10</td>
+<td class="numero-curto">16</td>
+</tr>
+<tr>
+<td class="numero-curto">30</td>
+<td class="numero-curto">395</td>
+<td class="numero-curto">302</td>
+<td class="numero-curto">333</td>
+<td class="numero-curto">7</td>
+<td class="numero-curto">10</td>
+<td class="numero-curto">17</td>
+</tr>
+</tbody>
+</table></div>
+<p class="conta">Calcule a vida de todos os níveis com a Constituição atual. Por exemplo, o Bastião 15 tem 12 + 5 + 14 × (7 + 5) = <strong>185 PV</strong>. Os PE máximos são 4, 6 e 5 por nível, respectivamente. A Integridade do personagem é 20 + (Essência + 5) × (nível − 1); a do inimigo comum é metade dos PV máximos, para baixo, mínimo 1. Não troque essas duas contas.</p>
+<p>Para comparar os níveis 2 e 6, consulte <a href="#numeros">Escolher os números de um inimigo</a>.</p>
+<div class="larga"><h2 id="faixas--compare-acoes-nao-apenas-dados-de-dano">Compare ações, não apenas dados de dano</h2><p>Um <strong>conjunto ofensivo</strong> abaixo reúne três Ações Padrão, uma de cada personagem. Ele não representa automaticamente uma rodada: alcance, iniciativa, socorro, controle e objetivo podem impedir essas ações.</p><table>
+<thead>
+<tr>
+<th>Conjunto</th>
+<th>O que os três fazem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Três feitiços</td>
+<td>Cada um usa um feitiço individual de dano da maior Classe, Projétil sem Melhorias ou Restrições: 3 × Classe em d8, pelo mesmo número de PE. Os atributos de suas técnicas são os principais registrados.</td>
+</tr>
+<tr>
+<td>Misto</td>
+<td>O Bastião usa Atacar com Espada Longa de uma mão: 1d8 + Força + Canalizar por golpe. A partir do nível 7, acrescenta o ataque simples de Ataque Extra, uma vez naquela rodada. Emanador e Guia usam seus feitiços.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Para repetir o conjunto, o Bastião precisa de outra rodada que permita novamente Ataque Extra; um turno adicional na mesma rodada não o renova. Os dois feitiços de cada personagem cabem em seus PE iniciais. Nenhum perfil recebe ações adicionais para justificar as contas.</p>
+<p>O alvo deste exemplo tem <strong>Defesa estática 16</strong>, sem redução, cobertura, cura ou reação. Os ataques incluem erro e crítico natural; Canalizar não dobra no crítico. O alvo começa com a vida indicada. A coluna final de cada conjunto mostra a chance de ele conservar vida positiva <strong>depois de dois conjuntos</strong>, sem converter isso em duração de combate.</p>
+<div class="larga"><table>
+<thead>
+<tr>
+<th>Nível do grupo</th>
+<th>PV / Integridade do alvo usado na comparação</th>
+<th>Dano médio: três feitiços</th>
+<th>Vivo após dois conjuntos</th>
+<th>Dano médio: misto</th>
+<th>Vivo após dois conjuntos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto">10</td>
+<td class="numero-curto">140 / 70</td>
+<td class="numero-curto">78,97</td>
+<td class="numero-curto">39,0%</td>
+<td class="numero-curto">70,50</td>
+<td class="numero-curto">49,6%</td>
+</tr>
+<tr>
+<td class="numero-curto">15</td>
+<td class="numero-curto">200 / 100</td>
+<td class="numero-curto">113,40</td>
+<td class="numero-curto">34,4%</td>
+<td class="numero-curto">96,20</td>
+<td class="numero-curto">53,9%</td>
+</tr>
+<tr>
+<td class="numero-curto">20</td>
+<td class="numero-curto">260 / 130</td>
+<td class="numero-curto">151,88</td>
+<td class="numero-curto">29,5%</td>
+<td class="numero-curto">123,40</td>
+<td class="numero-curto">57,5%</td>
+</tr>
+<tr>
+<td class="numero-curto">22</td>
+<td class="numero-curto">320 / 160</td>
+<td class="numero-curto">182,25</td>
+<td class="numero-curto">33,1%</td>
+<td class="numero-curto">147,15</td>
+<td class="numero-curto">62,6%</td>
+</tr>
+<tr>
+<td class="numero-curto">26</td>
+<td class="numero-curto">360 / 180</td>
+<td class="numero-curto">226,80</td>
+<td class="numero-curto">19,2%</td>
+<td class="numero-curto">178,65</td>
+<td class="numero-curto">53,1%</td>
+</tr>
+<tr>
+<td class="numero-curto">30</td>
+<td class="numero-curto">360 / 180</td>
+<td class="numero-curto">226,80</td>
+<td class="numero-curto">19,2%</td>
+<td class="numero-curto">178,65</td>
+<td class="numero-curto">53,1%</td>
+</tr>
+</tbody>
+</table></div>
+<p class="conta"><strong>Exemplo de leitura:</strong> contra o alvo de 200 PV, os personagens de referência de nível 15 deixam o alvo vivo em 34,4% dos resultados com seis feitiços, ou 53,9% com dois conjuntos mistos. Isso não diz que o encontro durará duas rodadas: ainda faltam as ações do inimigo, o percurso e todas as decisões que substituem ataques.</p>
+<p>Os valores de vida foram escolhidos para comparar os resultados. Ainda não formam uma escala de dificuldade validada. Ao preparar sua ficha, compare valores diferentes de vida e Defesa. Se ela só funcionar contra uma combinação específica do grupo, registre essa dependência antes de usá-la.</p>
+<h2 id="faixas--capacidades-mudam-a-comparacao">Capacidades mudam a comparação</h2>
+<p><strong>Duro de Matar muda o efeito de golpes pequenos.</strong> No nível 15, o Bastião desta referência tem Constituição 5. Contra um ataque +8 de 1d8 + 6 + 2d4, sua Defesa estática 13 resulta em média de <strong>12,63 de dano</strong> por tentativa. Bloquear sozinho resulta em <strong>12,31</strong>. Com Duro de Matar, a média cai para <strong>1,81</strong>. A conta usa a soma real dos dois d10 em cada Bloquear que falha, inclusive críticos; não substitui os dados por uma redução média.</p>
+<p>Isso não torna o Bastião invulnerável. Áreas e outros TRs não usam Bloquear; Duro de Matar não entra neles. Uma defesa pode cumprir muito bem sua função contra ataques pequenos e ter outro resultado contra poucos golpes maiores. Avalie a ameaça que você pretende preparar, preservando as capacidades conquistadas pelo jogador.</p>
+<p><strong>Apoio pode mudar a chance de um ataque, sem multiplicar a ação inteira.</strong> No conjunto misto de nível 15 contra Defesa 16, conceder vantagem a apenas um ataque da espada aumenta a média do conjunto de <strong>96,20 para 99,94</strong>. Esse exemplo pode representar Executar, de uma Abertura do Guia: ele age antes, paga Bônus e 1 PE e mantém sua Padrão. Precisa perceber o aliado e respeitar o alcance da capacidade; o aliado precisa ver ou ouvir a orientação. Não aplique a vantagem aos dois golpes. As tabelas principais não presumem essa abertura; mostram o efeito separado para permitir a comparação.</p>
+<p><strong>Dano de Alma também reduz a Integridade.</strong> Um Emanador com Regra que alcance a alma e Toca a Alma que cumpra os requisitos pode atacar PV e Integridade ao mesmo tempo. No nível 15, pagar a Melhoria Leve a preço normal deixa 12 − 2 = 10 pontos; substituir metade dos dados produz <strong>5d8 de Alma</strong>. Dois desses ataques e quatro feitiços comuns contra o alvo de 200 PV, 100 de Integridade e Defesa 16 deixam-no ativo em <strong>60,4%</strong> dos resultados. Em <strong>7,0% de todos os resultados</strong>, ele continua ativo, mas já está no estágio 2 ou 3 de Integridade. São probabilidades do conjunto inteiro, não percentuais somente entre os sobreviventes.</p>
+<p>O dano de Alma menor pode deixar mais PV que a sequência de dano comum e ainda afetar custos, movimento e Classe. A conta termina nesse ponto. Ela não acompanha as próximas ações do inimigo com essas penalidades. Não conceda Toca a Alma a todas as técnicas para preencher uma tabela.</p>
+<h2 id="faixas--o-que-muda-em-cada-faixa-de-nivel">O que muda em cada faixa de nível</h2>
+<table>
+<thead>
+<tr>
+<th>Faixa comparada</th>
+<th>O que conferir além da vida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="numero-curto">10</td>
+<td>Classe 3, Maestria 2, Ataque Extra do Bastião, apoio do Guia e acessos reais a Alma.</td>
+</tr>
+<tr>
+<td class="numero-curto">15</td>
+<td>Classe 4 e Duro de Matar. Confira também as capacidades de nível 15 de cada Caminho e Trilha, não só os dados do feitiço.</td>
+</tr>
+<tr>
+<td class="numero-curto">20</td>
+<td>Classe 5 e Maestria 3; alcance, áreas, Liberações e repertório podem oferecer soluções que estas comparações não incluem.</td>
+</tr>
+<tr>
+<td class="numero-curto">22</td>
+<td>Classe 6 e Refino 6. Canalizar passa a 3d4. Confira as medidas e permissões próprias das Classes 6–7 antes de ampliar uma ficha.</td>
+</tr>
+<tr>
+<td class="numero-curto">26</td>
+<td>Classe 7, Maestria 4 e capacidades já obtidas no nível 23. Chega Mais, por exemplo, amplia a área do Bastião e reage a entradas voluntárias.</td>
+</tr>
+<tr>
+<td class="numero-curto">30</td>
+<td>Compare as capacidades finais. Passa Pra Mim pode evitar que um aliado chegue a zero; o Emanador e o Guia também têm recursos que não aparecem em um ataque básico.</td>
+</tr>
+</tbody>
+</table>
+<p>Os conjuntos simples dos níveis 26 e 30 deram os mesmos resultados ofensivos porque usam os mesmos valores de atributo, Maestria, Classe e dados de Canalizar. <strong>Isso é um limite da comparação, não uma conclusão de que os níveis sejam equivalentes.</strong> As habilidades finais, Domínios, Liberações, Técnica Máxima, Origem, Trilha, Kokusen, deslocamento e coordenação completa ficaram fora dessas contas. Na mesa, conservam todas as suas regras.</p>
+<h2 id="faixas--use-as-comparacoes-para-preparar-o-encontro">Use as comparações para preparar o encontro</h2>
+<p>Escolha primeiro a função do inimigo. Confira se ele consegue atuar antes de ser derrotado ou impedido de agir, se sua ação atinge os alvos pretendidos e como o grupo pode responder. Depois, varie um elemento por vez: vida, Defesa, distância, companhia ou ritmo da capacidade. Preserve o resultado anterior para entender o que mudou.</p>
+<p>O <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s101">arquivo guardado por Haru</a> apresenta três fichas de nível 15. A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s102">comparação do confronto</a> mostra por que concentrar 200 PV numa criatura e repartir 120/80 PV em duas não produz o mesmo encontro. O exemplo conserva PE reais nos feitiços e acrescenta um intervalo próprio à capacidade de Haru: energia e ritmo cumprem funções diferentes.</p></div></article><article class="folha" id="chefes"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Preparar chefes e confrontos maiores</h1></header><div class="colunas">
+<p>Um chefe é a ameaça central de um confronto: sua presença organiza o conflito. Esse papel pode caber a uma criatura sozinha, a um líder acompanhado ou a uma ameaça ligada ao lugar. O nome não concede ações, imunidades ou uma quantidade de vida.</p>
+<p>Comece pelo <a href="../apoio-revisao-textual-114/prova-textual.html#c06">preparo de inimigos</a>. Depois use esta seção para decidir do que o confronto precisa e registre a escolha na <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha única</a>. A <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s068">comparação de chefes</a> aprofunda ações, sinais e fases quando necessário, sem exigir outra folha completa de preparo. <strong>Na pré-1.0, este é um método de preparo. Os valores de referência para chefes e suas habilidades adicionais ainda estão em desenvolvimento.</strong></p>
+<h2 id="chefes--o-que-torna-este-confronto-importante">O que torna este confronto importante</h2>
+<p>Escreva o objetivo do grupo, a intenção da oposição e a consequência de abandonar a situação. Recuperar alguém, interromper um trabalho ou convencer um adversário pode encerrar a missão sem derrotar todos os presentes. Se a proposta da cena for escapar de uma ameaça que o grupo ainda não consegue enfrentar, apresente esse objetivo antes de tratar a cena como uma luta vencível.</p>
+<p>Escolha uma característica que organize as decisões: um oponente que disputa posições, um líder que depende dos aliados, uma criatura que protege partes expostas ou um lugar que muda enquanto todos agem. Desenvolva essa característica antes de acumular outras.</p>
+<p class="conta"><strong>Exemplo:</strong> o Carregador tenta conservar os registros no depósito. Na variante da saída que fecha, retirar a caixa e os companheiros é mais importante do que permanecer atacando. O portão pode tornar a retirada mais trabalhosa, mesmo com os números da criatura preservados. Isso ainda não transforma a ficha em um chefe capaz de enfrentar qualquer grupo.</p>
+<div class="larga"><h2 id="chefes--o-que-mudar-no-confronto">O que mudar no confronto</h2><table>
+<thead>
+<tr>
+<th>O que apareceu no preparo</th>
+<th>Primeira comparação útil</th>
+<th>Cuidado ao alterar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A ameaça não alcança quem precisa pressionar.</td>
+<td>Posições, rotas e ações de aproximação.</td>
+<td>Mais dano não resolve falta de acesso.</td>
+</tr>
+<tr>
+<td>A criatura permanece passiva enquanto todos agem.</td>
+<td>Preparar, uma Reação compatível ou um aliado com tarefa própria.</td>
+<td>Cada opção tem custos e responde em momentos diferentes.</td>
+</tr>
+<tr>
+<td>O grupo repete a mesma escolha sem precisar observar a cena.</td>
+<td>Objetivo, alvos, terreno e mudança de comportamento.</td>
+<td>Vida adicional pode apenas prolongar a repetição.</td>
+</tr>
+<tr>
+<td>Vários golpes atingem a mesma pessoa antes de ela poder responder.</td>
+<td>Ordem dos ataques e intervenções disponíveis aos companheiros.</td>
+<td>Espalhar ações pela rodada ainda pode concentrá-las antes do turno da vítima.</td>
+</tr>
+<tr>
+<td>Uma condição impede o plano do inimigo.</td>
+<td>O efeito exato da condição, outras ações legais e ajuda dos aliados.</td>
+<td>Ser chefe não fornece remoção automática de condições.</td>
+</tr>
+<tr>
+<td>A ameaça cai antes de cumprir sua função.</td>
+<td>Acesso, iniciativa, vida, Integridade e recursos do grupo no início do encontro.</td>
+<td>Examine separadamente cada reserva; não conclua apenas pelo dano médio.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Uma resposta simples pode bastar. Se a posição explica o problema, compare primeiro outra posição. Se falta atuação entre turnos, examine esse intervalo. Se combinar mudanças, anote o que cada uma tenta resolver. Isso ajuda a revisar o resultado depois.</p>
+<h2 id="chefes--quem-pode-agir-e-quando">Quem pode agir e quando</h2>
+<p>Uma rodada contém os turnos dos participantes. Em seu turno comum, a criatura dispõe de Padrão, Movimento e Bônus; sua Reação volta no começo do próprio turno. Cada recurso só permite as opções que suas regras autorizam.</p>
+<p>Conte as ações disponíveis e escreva como cada participante pode usá-las. Uma Padrão usada para escapar de um agarrão, Desengajar ou operar um mecanismo não está disponível para atacar. Uma Bônus sem ataque permitido não representa um golpe adicional. Entidades invocadas seguem suas regras de atuação e comando; não equivalem automaticamente a outro personagem completo.</p>
+<p class="conta"><strong>Exemplo:</strong> três personagens e um Carregador têm, numa rodada inteira em que todos recebam seu turno, três Padrões do lado do grupo e uma da criatura. Isso não prova vantagem de três para um: alcance, qualidade das ações, condições, Reações e objetivo ainda faltam na comparação. Com dois Carregadores, seriam duas Padrões inimigas, distribuídas entre dois corpos que podem ser afastados ou derrotados separadamente.</p>
+<div class="larga"><h3 id="chefes--agir-fora-do-turno">Agir fora do turno</h3><table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>O que permite comparar</th>
+<th>O que precisa ficar escrito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Preparar</strong>, pelo Livro de Regras 1.0</td>
+<td>Trocar a Padrão de agora por uma resposta posterior.</td>
+<td>Gatilho perceptível, resposta legal, Reação disponível e prazo. Não acrescenta uma Padrão de ataque ao turno de origem.</td>
+</tr>
+<tr>
+<td><strong>Uma capacidade que use Reação</strong></td>
+<td>Criar outra escolha para a Reação já existente.</td>
+<td>Gatilho, momento, custo e efeito. Compete com as outras opções que gastem essa mesma Reação.</td>
+</tr>
+<tr>
+<td><strong>Uma ação adicional própria</strong></td>
+<td>Permitir uma ação específica sem usar os recursos comuns, se a nova regra disser isso.</td>
+<td>Frequência, recuperação, opções permitidas e condições que impedem seu uso. É uma regra nova.</td>
+</tr>
+<tr>
+<td><strong>Outro turno completo</strong></td>
+<td>Repetir um conjunto amplo de recursos.</td>
+<td>Também altera efeitos de começo/fim de turno e prazos ligados ao próximo turno. Exige uma revisão muito maior.</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Preparar resolve a resposta depois do evento escolhido. Um ataque de oportunidade tem seu próprio gatilho e ocorre antes da saída do alcance. Descrever um gesto ameaçador não cria uma terceira forma de interrupção.</p>
+<p>Se for preciso criar uma capacidade, comece pela ação específica que falta. “Mover-se sob este gatilho” é mais fácil de avaliar do que “ganhar um turno”. Complete a capacidade com regras, limites e custos antes de compará-la com o restante da ficha.</p>
+<p>A <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s102">comparação do arquivo</a> separa um guarda único de uma dupla de atacante/apoio. Aumentar a vida do guarda muda sua sobrevivência, enquanto concentrar ataques no apoio pode impedir sua primeira cura. Os cálculos explicam quais situações consideram; não preveem a duração completa da luta.</p>
+<h2 id="chefes--anuncie-o-perigo-e-de-tempo-para-reagir">Anuncie o perigo e dê tempo para reagir</h2>
+<p>Um sinal ajuda quando o grupo consegue percebê-lo e fazer algo relevante antes da consequência. Registre quatro coisas: <strong>o sinal, quando ele acontece, as respostas possíveis e o resultado de uma resposta bem-sucedida</strong>. Mostre o que mudou quando a preparação for interrompida.</p>
+<p>Uma descrição feita enquanto o golpe acontece pode informar a próxima escolha; ela não garante uma ação antes daquele golpe. Para permitir que todos tenham um turno entre anúncio e consequência, use um intervalo que realmente contenha esses turnos. “No fim desta rodada” não garante isso se parte do grupo já agiu.</p>
+<p><strong>Exemplo de ordem, sem criar uma habilidade:</strong> Rina → inimigo → Mei → Akira. Um anúncio durante o turno inimigo, resolvido no fim daquela rodada, deixa turnos para Mei e Akira, mas não para Rina. Se a resolução estiver marcada para o começo do próximo turno inimigo, Rina também terá passado por seu próximo turno. Reações continuam dependendo de gatilhos e recursos próprios. Essa comparação não autoriza atrasar gratuitamente qualquer ataque da ficha.</p>
+<p>Confira quem consegue reagir ao sinal. Um personagem Agarrado pode precisar gastar sua Padrão para tentar escapar antes de se mover. Um socorrista pode ter movimento suficiente para sair sozinho, mas não para arrastar alguém. Ter um turno no intervalo não significa ter resposta garantida.</p>
+<p>Se o sinal anuncia uma área ou alvo, defina se essa escolha fica fixada ou pode mudar. Trocar silenciosamente o alvo para acompanhar quem evitou o perigo esvazia a informação oferecida. Uma preparação que acompanhe o alvo pode existir, mas esse funcionamento deve fazer parte da regra e dos sinais.</p>
+<div class="larga"><h2 id="chefes--mudancas-durante-a-luta">Mudanças durante a luta</h2><p>Uma <strong>fase do confronto</strong> é uma situação reconhecível que muda as escolhas disponíveis. Ela pode resultar da conduta do inimigo, do ambiente ou de uma capacidade específica. Não se confunde com os <strong>estágios de Integridade</strong>, que aplicam as penalidades do Livro de Regras 1.0.</p><table>
+<thead>
+<tr>
+<th>Mudança</th>
+<th>Exemplo</th>
+<th>Resultado que precisa de regra própria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Comportamento</td>
+<td>Ferido, o Carregador abandona a caixa e tenta fugir.</td>
+<td>Movimento imediato ou fuga garantida.</td>
+</tr>
+<tr>
+<td>Ambiente</td>
+<td>O portão fecha e a rota de saída fica maior.</td>
+<td>Novos ataques ou recuperação da criatura.</td>
+</tr>
+<tr>
+<td>Capacidade ou corpo</td>
+<td>Uma transformação altera como a ameaça atua.</td>
+<td>Novas estatísticas, cura, remoção de condições ou novas ações.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Não é necessário usar todas as formas nem fixar três fases. A cena pode terminar antes de uma mudança ocorrer. Uma solução do grupo pode impedir a passagem à situação seguinte.</p>
+<p>Para cada mudança de fase, escreva o que a provoca, quando acontece e o que continua em vigor. Vida, Integridade, pontos de energia, condições, concentração, usos gastos e efeitos em andamento precisam de continuidade. Uma nova descrição não limpa o registro. Trocar de fase dentro da mesma luta também não inaugura outra cena nem renova recursos limitados por cena.</p>
+<p class="conta"><strong>Exemplo:</strong> o Carregador tem 10 PV e sofre 3 de dano, ficando com 7. Isso alcança seu ponto de retirada, definido em 8 PV: ele solta quem segura e passa a tentar se retirar. O deslocamento depende das ações disponíveis; não acontece gratuitamente na transição. Se o mesmo ataque o levar a zero de vida, resolva sua derrota. Esse ponto de retirada não cria uma segunda vida.</p>
+<p>Se quiser escrever uma transformação que interfira na derrota, será necessário definir expressamente essa exceção: gatilho, reservas, destino de dano excedente, condições, usos e possibilidade de impedir a transformação. Até essa regra estar completa, aplique a derrota normal. Uma segunda barra desenhada na ficha não resolve essas perguntas.</p>
+<h2 id="chefes--condicoes-partes-e-aliados">Condições, partes e aliados</h2>
+<p>Confira o que as condições realmente impedem. Agarrado reduz o deslocamento a zero, mas não proíbe toda ação. Derrubar não encerra um agarrão automaticamente. Uma ameaça controlada pode continuar perigosa dentro de seus limites; se a condição impediu justamente sua principal atuação, esse é um resultado da escolha dos jogadores.</p>
+<p>Uma resistência própria pode fazer parte de um futuro chefe, com justificativa, limites e avaliação. Não a acrescente durante a luta porque o grupo encontrou uma solução. Se outro inimigo for ajudar, use suas ações e as regras correspondentes; sua presença aumenta a oposição e precisa entrar na comparação desde o preparo.</p>
+<p>Ao oferecer partes atacáveis, indique se são criaturas, objetos separados ou alvos de uma regra específica. Defina o que cada parte perde a zero, se compartilha dano com o corpo e como Alma, efeitos em área e aquisição interagem com ela. Um sino preso ao Carregador não ganha vida própria nem vulnerabilidade destacada só porque foi descrito. O comando do portão, por sua vez, já tem uma regra de objeto separada no <a href="../../07 - Edicao de Leitura/capitulos/c05.html#s066">exemplo do portão</a>.</p>
+<p>Com vários inimigos, deixe visíveis suas funções e registros individuais. Um líder e seus apoios podem criar decisões de alvo sem que todos tenham várias capacidades reativas. Registre qualquer reforço previsto, sua chegada e a possibilidade de impedir essa chegada. Não acrescente uma nova leva para substituir retroativamente uma oposição vencida depressa.</p>
+<h2 id="chefes--confira-o-fim-da-luta">Confira o fim da luta</h2>
+<p>Anote separadamente se os inimigos foram vencidos, a segurança do lugar e o cumprimento do objetivo. O mecanismo da saída pode continuar ativo depois da derrota do Carregador. Desligá-lo não derrota a criatura. Um personagem ainda pode precisar de socorro em qualquer desses casos.</p>
+<p>Para uma ameaça que possa ser adquirida, prepare a conversão antes da oportunidade de aquisição. Elementos do cenário, aliados, ações e recursos exclusivos do chefe não se tornam automaticamente capacidades da entidade. Use as regras da rota e mostre a ficha resultante; não retire uma capacidade prometida apenas depois do sucesso.</p>
+<p>Na guilda, registre os participantes e os recursos e condições considerados ao preparar o confronto. Em campanha fechada, inclua o desgaste anterior. Ao comparar as fichas, anote o que ainda precisa ser testado; quando houver uma sessão, anote onde o grupo compreendeu os sinais, conseguiu intervir ou ficou sem participação. Se uma boa escolha resolver o confronto depressa, não prolongue a luta apenas para cumprir a duração prevista.</p></div></article></main><p class="rodape-tela"><a href="../119-revisao-de-energia-habilidades-e-chefes.md">Registro da revisão</a></p></body></html>

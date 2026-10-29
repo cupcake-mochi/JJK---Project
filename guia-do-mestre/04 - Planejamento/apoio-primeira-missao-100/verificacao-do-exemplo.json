@@ -1,0 +1,60 @@
+{
+  "registro": 100,
+  "confronto": [
+    {
+      "rodada": 1,
+      "amontoado": {
+        "pv": 22,
+        "pe": 3
+      },
+      "frente": {
+        "pv": 0,
+        "pe": 5,
+        "tratamento": 5,
+        "janela": 3
+      },
+      "apoio_pe": 7,
+      "conjuradora_pe": 9
+    },
+    {
+      "rodada": 2,
+      "amontoado": {
+        "pv": 0,
+        "pe": 0
+      },
+      "frente": {
+        "pv": 8,
+        "pe": 2,
+        "morrendo": false,
+        "sequelas": 1
+      },
+      "apoio_pe": 4,
+      "conjuradora_pe": 6
+    }
+  ],
+  "rodadas_do_roteiro": 2,
+  "quedas_do_roteiro": 1,
+  "posicoes_possiveis_em_metros": {
+    "amontoado": [
+      3,
+      4.5
+    ],
+    "frente": [
+      4.5,
+      4.5
+    ],
+    "apoio": [
+      4,
+      0.75
+    ],
+    "conjuradora": [
+      2.5,
+      0.75
+    ]
+  },
+  "links_locais_conferidos": 35,
+  "problemas_de_links": [],
+  "fontes_integradas_preservadas": 104,
+  "regras_preservadas": true,
+  "limite": "Conferência determinística do roteiro e dos arquivos; sem teste externo ou certificação de equilíbrio."
+}

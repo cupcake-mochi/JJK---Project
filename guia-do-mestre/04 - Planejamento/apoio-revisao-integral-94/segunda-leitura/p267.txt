@@ -1,0 +1,99 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+oito horas, metade das dezesseis. Depois do sucesso
+nessa retomada, ainda faltam as 24 horas e o teste
+da passagem para Classe 4. Com sucesso ao final,
+serão 56 horas de reconstrução nesse exemplo.
+Uma falha não apaga passagens concluídas.
+Também não autoriza usar a ficha final antes de
+concluir as restantes. Os tetos de Classe precisam
+ser atendidos em cada passagem, mesmo quando o
+personagem já puder receber o resultado final.
+Transferir ou herdar
+Transferir um talismã ou corpo criado segue as
+regras do Livro de Regras 1.0, fora de combate, com
+consentimento do dono anterior ou após a morte
+dele. O novo invocador precisa ter Classe igual ou
+superior à da entidade. Posse do objeto não altera o
+vínculo automaticamente.
+A referência é um oitavo do tempo de criação da
+Classe da entidade, arredondado para cima em
+horas inteiras, com mínimo de duas horas:
+Classe da entidade
+Trabalho de transferência
+Retomada após cada falha
+1
+2 h
+1 h
+2
+2 h
+1 h
+3
+4 h
+2 h
+4
+6 h
+3 h
+5
+9 h
+5 h
+6
+12 h
+6 h
+7
+16 h
+8 h
+Para uma entidade de Classe 5, a criação de
+referência tem 72 horas: 72 ÷ 8 = nove horas de
+transferência. Se falhar, metade de nove são 4,5
+horas, arredondadas para cima: cinco horas de
+retomada.
+O projeto identifica os meios necessários para
+alterar o vínculo e os consumíveis utilizados.
+Aproveite a estrutura existente. Transferir não
+exige comprar outra vez todas as peças, mas pode
+exigir serviços ou materiais específicos informados
+antes do trabalho.
+Quem registra as horas
+Quem faz a transferência registra seu trabalho. Se
+houver ajudante para conceder vantagem por essa
+via, ele precisa de treino compatível, permissão do
+mestre e o mesmo tempo de dedicação do
+responsável, conforme o Livro de Regras 1.0. Uma
+transferência de quatro horas consome quatro
+horas de cada um nessa situação.
+Quando o processo exigir participação ativa do
+destinatário, escreva a etapa e o tempo
+correspondente no projeto. Receber o vínculo não
+significa, por si, que o novo invocador trabalhou
+todas as horas do responsável. O mesmo critério
+permite identificar a contribuição do dono anterior
+quando ela for necessária ao processo.
+A vantagem da tentativa posterior à falha já vem da
+regra própria. Não é necessário outro ajudante
+apenas para obter uma segunda fonte do mesmo
+benefício; participantes exigidos pelo processo
+continuam necessários.
+Teste e resultado da transferência
+Use o teste de criação, com os requisitos e a
+comparação de Classes correspondentes. A
+transferência não recebe a redução de dificuldade
+própria da reconstrução.
+Na falha, o vínculo anterior permanece, ou o objeto
+continua sem invocador vivo. Depois do retrabalho
+e dos requisitos, o mestre pode autorizar a tentativa
+seguinte com vantagem. Não repita rolagens antes
+de cumprir essas condições.
+No sucesso, registre o novo invocador e confira os
+valores que dependem dele. A transferência
+conserva Classe, ficha, vida atual, usos gastos,
+queda e carga do talismã. A entidade acompanha o
+nível do novo invocador dentro de sua Classe.
+Transferir não recupera energia, não concede outra
+atuação no ciclo e não religa um corpo Desligado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+267

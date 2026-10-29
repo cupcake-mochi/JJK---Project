@@ -1,0 +1,11 @@
+{
+  "paginas": 357,
+  "mudaram": [
+    1,
+    313,
+    314,
+    351
+  ],
+  "identicas": 353,
+  "metodo": "Comparação pixel a pixel, PyMuPDF, 72 dpi, entre a prova visual integral e o PDF final."
+}

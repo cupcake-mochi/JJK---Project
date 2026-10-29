@@ -1,0 +1,104 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+A cada pagamento, confira as duas coisas: precisa
+haver saldo e espaço no teto. O limite restante é o
+teto menos o gasto do intervalo, com mínimo zero.
+Recuperar PE aumenta o saldo, mas não apaga o
+gasto registrado.
+Hana tem máximo 40, saldo 24 e sorteia 2: teto de 10
+PE. Paga 9 por um feitiço de Classe 3. Fica com saldo
+15 e limite restante 1. Mesmo tendo energia, não pode
+pagar Amortecer por 2 PE antes da próxima
+renovação.
+Confira o custo completo antes de iniciar a
+capacidade. Se não puder pagar, escolha outra
+opção; anunciar um pagamento conhecido como
+impossível não consome a ação nem cobra uma
+parcela. Não divida o custo de uma única ativação
+entre intervalos, salvo permissão expressa da
+própria capacidade. Custos adicionais de
+Integridade, Restrições e outras regras entram na
+conta.
+Energia temporária também conta como gasto,
+seguindo a prioridade de consumo do Livro de
+Regras 1.0. O teto considera o máximo de PE
+comuns; temporários não aumentam esse máximo.
+Limite zero com saldo positivo também não ativa
+consequências que exijam esgotar a reserva, como a
+inatividade de Núcleo Dependente por falta de PE.
+Uma entidade com reserva própria válida segue
+suas regras: conte no teto somente a parcela paga
+pelo portador, incluindo o que ele precisar cobrir.
+Começo da sequência e começo do
+turno
+Quando uma sequência com iniciativa começar,
+sorteie um limite inicial antes da primeira ação,
+para resolver possíveis Reações anteriores ao seu
+primeiro turno. Registre percentual e gasto inicial
+zero. Esse sorteio inicial não prepara Refluxo; o
+gatilho do benefício é zero no começo de um turno
+próprio.
+No começo de cada turno próprio:
+1. Role o d6, substitua o percentual anterior e zere o
+gasto do intervalo. O limite antigo não se soma ao
+novo.
+2. Se sair zero e ainda houver uso de Refluxo,
+marque-o como preparado. Zeros seguidos
+conservam uma única marca. Se sair positivo depois
+de uma marca, abra a oportunidade de ativar
+Refluxo até o fim deste turno.
+3. Resolva os pagamentos e efeitos de começo de
+turno. Depois, escolha suas ações, incluindo a
+Bônus de Refluxo quando disponível.
+Para pagamentos que vencem juntos e não tenham
+uma ordem própria, escolha a ordem antes de pagar
+qualquer um. Cada custo precisa ser pago
+integralmente e consome saldo e teto; o que não
+couber segue a consequência da respectiva
+capacidade. Essa escolha não permite adiar um
+vencimento para depois da Bônus.
+Se a cena continuar sob contagem de turnos, mudar
+de lugar, retirar-se e voltar ou reorganizar a
+iniciativa não concede outro limite inicial. Preserve
+o intervalo em curso até o próximo começo de turno
+próprio. Quando a iniciativa começar no meio de
+uma sequência já acompanhada, conserve esse
+estado; não faça um sorteio extra pela mudança de
+apresentação.
+Refluxo
+Um zero sorteado no começo do seu turno prepara
+Refluxo. No primeiro turno próprio posterior com
+resultado positivo, você pode gastar Ação Bônus e
+seu uso para recuperar 25% dos PE máximos
+atuais. O máximo e o teto de gasto não aumentam
+por isso.
+Ao terminar esse primeiro turno positivo, apague a
+preparação, tenha usado o benefício ou não. Deixar
+de usar conserva o uso disponível, mas exige outro
+zero para preparar uma nova oportunidade. O gasto
+que leva o limite restante a zero não prepara
+Refluxo: precisa sair 1 no d6. Um resultado
+positivo, para essa sequência, é uma face de 2 a 6; o
+máximo da ficha continua limitando o que pode ser
+gasto ou recuperado.
+Recuperação parcial também gasta o uso. Se faltar
+apenas 1 PE, recuperar esse ponto consome a
+ativação. Com reserva cheia, a ativação não entrega
+energia adicional. Você pode preferir conservar o
+uso e deixar a oportunidade expirar. Impedimentos
+à recuperação continuam valendo; a habilidade não
+afasta inconsciência, derrota ou outra condição por
+si só.
+A conversão de Padrão em Bônus do Livro de
+Regras 1.0 pode pagar a ativação, se essa ação ainda
+estiver disponível. Ela não permite uma segunda
+recuperação com o mesmo uso. Refluxo não cabe
+no mesmo turno de uma Ação Completa, como
+Liberação Máxima ou Técnica Máxima: a Completa
+exige Padrão, Bônus e Movimento.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+249

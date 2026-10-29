@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+não pode ser recriado como atalho para uma
+aplicação de combate. O grupo pode usar uma
+lanterna disponível, outra fonte comum ou uma
+capacidade apropriada da ficha. A falta de
+iluminação pode importar; seus efeitos seguem as
+regras de visão.
+Se a criatura apenas conversar e não houver
+combate, a aplicação conserva seu prazo. Uma
+iniciativa organizada somente para resolver um
+socorro fora de combate não é, por si, a condição de
+término aqui registrada.
+Conclusão. A aplicação tem custo, extensão,
+resultado e saída identificáveis. Seu encerramento
+em combate pertence a esta ficha; não estabelece
+que toda luz ou todo efeito sobrenatural deva
+desaparecer quando alguém rolar iniciativa. Uma
+proposta de continuidade diferente precisa ser
+registrada e avaliada antes do uso.
+Preparar Desarma o Feitiço
+Mina conhece Interromper fluxo, Classe 1: Projétil
++ Desarma o Feitiço, com Controle a preço normal.
+Na criação, escolheu cancelar efeitos contínuos.
+Não recebeu simultaneamente as modalidades
+barreira, item e Selo.
+Campo
+Classe 1
+Mesma montagem Ampliada para
+Classe 2
+Orçamento
+3
+6
+Projétil
+0
+0
+Desarma o Feitiço, Média
+1
+2
+Saldo descartado
+2
+4
+Ação e custo normal
+Padrão; 3 PE
+Padrão; 6 PE
+A função escolhida é encerrar a aplicação; não há
+dano, cura ou outra função variável para receber o
+saldo. São uma Melhoria e nenhuma Restrição. A
+montagem usa alcance de 18 m, com percepção e
+acesso válidos pela Forma.
+Desarma não pede uma rolagem de ataque contra o
+criador só para cancelar a aplicação. Se a Classe do
+alvo for igual ou menor que a usada, o
+cancelamento é automático. Se for maior, Mina rola
+d20 + atributo da técnica, sem Maestria, contra a
+CD de quem criou. A opção sem dano não
+acrescenta +2 a essa rolagem e não repete o
+cancelamento.
+Cancelar um efeito que já tem
+Classe
+Antes de qualquer luta, Mina percebe a Luz de
+Oficina de Rei e tem acesso válido à sua origem, a 9
+m, sem obstáculo. A aplicação é contínua e sua
+ficha já registra Classe 2. Rei possui atributo da
+técnica 3 e Maestria 1: sua CD é 8 + 3 + 1 = 12. Mina
+tem atributo da técnica 3 e também Maestria 1.
+Mina pode escolher entre duas formas de uso, antes
+de pagar:
+• Usar Classe 1: paga 3 PE e testa contra CD 12.
+Com 8 no dado, totaliza 8 + 3 = 11, falha. Não soma
+Maestria; somá-la indevidamente mudaria o
+resultado para sucesso. A luz continua e os 3 PE
+foram gastos.
+• Ampliar para Classe 2, se disponível à sua ficha:
+paga 6 PE e cancela automaticamente essa
+aplicação de Classe 2, satisfeitos os requisitos. Não
+precisa vencer a Defesa de Rei nem apagar todas as
+capacidades dele.
+São alternativas da mesma decisão, não duas
+resoluções cobradas na mesma ação. Com 10 PE
+antes da escolha, Mina terminaria com 7 na
+tentativa de Classe 1 ou 4 no uso de Classe 2.
+Quando o cancelamento tem sucesso, a iluminação
+termina. Documentos vistos, cópias feitas e
+alterações materiais já concluídas permanecem. O
+cancelamento também não retira o espaço
+conhecido de Rei nem impede outra conjuração
+futura que cumpra suas condições.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+209

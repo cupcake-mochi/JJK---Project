@@ -1,0 +1,99 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+equipamento. Não há suporte mágico para quem
+ficar sem apoio nem passagem gratuita de um
+obstáculo. O corpo sólido também conserva a carga
+quando a entidade não pode ser recolhida.
+Caso permitido: pessoa de 72 kg, itens de 2 Volume
+e nenhum equipamento próprio: total 8. Com 9 m
+de Movimento, pode arrastar 4,5 m regulares ou 3 m
+difíceis. Se usar a básica para Correr, terá 18 m e
+poderá arrastar 9 m regulares; não usa a mesma
+básica para Agarrar. Se a entrada comum não lhe
+deu básica naquele ciclo, só dispõe do Movimento
+ainda válido e não pode aplicar uma nova
+contenção.
+Caso impedido: os mesmos 8 mais um item de 0,1
+totalizam 8,1. O transporte pelo talento não pode
+começar; segurar a pessoa no lugar por Agarrar
+continua possível. Entregar o item à pessoa
+transportada não reduz a soma. Esta diferença em
+relação aos 16 do inimigo é expressa antes da
+aquisição, preservando a função dentro do limite de
+construção da entidade.
+Depois da Doma
+Registre posição, vida, Integridade, condições e
+dano excedente ainda relevante. Domar não cura a
+criatura: conserve saldos sem ultrapassar os novos
+máximos, e zero continua zero. Uma captura a zero
+de vida e com Integridade cheia resulta em 0/14 PV
+e 7/7 de Integridade; não em 14 PV. Se a
+Integridade estiver zero, ela precisa voltar a pelo
+menos 1 para o retorno.
+Sem capacidade do invocador que permita recolher
+uma maldição domada, ela permanece no mundo.
+Não ofereça armazenamento ou manifestação à
+distância por analogia com um shikigami. Caída e
+sem recolhimento, fica Desligada no lugar,
+conforme o Livro de Regras 1.0.
+Com requisitos satisfeitos, religar a caída de nível 2
+custa Bônus e 2 PE do invocador, no lugar do
+corpo; volta com 7/14 PV, sem recuperar
+Integridade por esse pagamento e sem básica criada
+pelo retorno. A entrada comum, quando uma
+capacidade permitir recolhimento e manifestação,
+custa Bônus e 1 PE, não fornece básica naquele
+ciclo e exige outra Bônus para a primeira tarefa.
+Respeite o teto de duas entidades ativas e qualquer
+exceção efetivamente possuída.
+A tarefa pode ser: “Mantenha aquela pessoa no
+lugar”, ou “leve este aliado até a entrada pelo chão
+livre”. Dar ou mudar a tarefa segue a Bônus do
+invocador. A entidade usa sua própria básica para o
+que precisar e Movimento para o trajeto. Não
+recebe a Bônus independente do antigo inimigo: os
+18 m do turno de agarrão do encontro não passam
+automaticamente para a domada. Inconsciência do
+invocador e morte confirmada têm consequências
+distintas; consulte Transporte e continuidade (p.
+284).
+Registro para a mesa
+• Objetivo e portador da caixa:
+• Posições e rota escolhida:
+• Carregador: PV, Integridade, condições, mão
+ocupada e movimento restante:
+• Vítima: massa, itens, contenção/CD e recursos
+disponíveis:
+• Socorro: estado, janela, atendimento e
+responsável:
+• Fim da oposição / fim do perigo / retirada de
+todos:
+• Doma: candidato, nível, CD, condições do TR,
+resultado e ficha mostrada:
+• Reencontro ou providência posterior:
+Exemplo experimental: as regras e as contas foram
+conferidas. A ficha ainda precisa ser testada em
+mesa; seu equilíbrio não está confirmado. O
+registro 66 guarda fontes, histórico e alcance da
+conferência.
+5.11 · A passarela e o
+guincho
+Perigo experimental da pré-1.0. Este caso ensina a
+preparar um perigo que muda com o tempo,
+apresentar os sinais e resolver as ações do grupo.
+Continua O Carregador e o corredor de entulho (p.
+110), mas é outra situação, sem inimigos. Use a
+ficha de encontro (p. 321) para anotar o perigo.
+O dano de queda, os saltos, a escalada, as ações e os
+objetos vêm do Livro de Regras 1.0. O mecanismo,
+as posições e a ruptura após três rodadas são
+escolhas deste exemplo, ainda sujeitas à avaliação.
+Não existe aqui uma tabela universal de
+desabamento ou dano por nível. O registro de
+produção e as conferências estão no documento 67.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+121

@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Nas duas, mantenha a Regra, o Selo, os requisitos
+da rota e as Famílias. Rápido e Reação não reduzem
+sua Ação Completa. O movimento concedido por
+uma capacidade específica, quando permitido,
+segue essa capacidade; não devolve a Ação de
+Movimento consumida.
+Exemplo de Liberação
+Use a montagem de Linha do exemplo Corte de
+ruptura, do Livro de Regras 1.0. Na Classe 3, são 9
+pontos. A Forma custa 2; sobram 7d8, aos quais a
+Liberação acrescenta 3d8. Resultado: 10d8, Ação
+Completa e 14 PE, pois 9 × 1,5 = 13,5, arredondado
+para cima.
+O usuário ainda escolhe Vazio, Sangue ou Peso a
+cada uso. Esses preços não devolvem pontos. Com
+Sangue, por exemplo, a consequência é 12 de dano
+irredutível, direto na vida, pela conta 4 × Classe. A
+ficha deve permitir localizar esse custo antes da
+declaração.
+Se alguém apresentar a mesma Linha com 12d8
+porque somou devolução de Atrasar, mostre os dois
+problemas: a Ação Completa já é obrigatória e a
+Forma não é uma Melhoria que possa ser
+compensada. O ajuste retorna aos 10d8 dessa
+montagem.
+No TR da Liberação, o sucesso recebe metade do
+resultado do dano, salvo regra específica. Não
+aplique a fração da Técnica Máxima por associação
+entre os nomes.
+Máxima de dano
+Na faixa de níveis 17 a 20, a Técnica Máxima tem
+24d8, 8 pontos de montagem e custo de 25 PE. Os
+pontos pagam a Forma e as Melhorias; o saldo não
+compra dados.
+O Livro de Regras 1.0 exemplifica Fenda de
+Arrasto: Projétil (0), Passo (1) e Empurrão (1), ambos
+com Alcance Livre. Gasta 2 pontos; descarta os
+outros 6; mantém 24d8. Não são 30d8. O
+movimento de Passo e o deslocamento do alvo
+conservam suas permissões e obstáculos.
+Se a intenção for uma versão resolvida por TR,
+escolha essa resolução na criação. Na Técnica
+Máxima, quem passa recebe três quartos do dano;
+quem evita uma condição pelo TR continua
+evitando essa condição. Com uma rolagem de dano
+de 101, a parcela do sucesso é 76, antes das demais
+defesas, pelo arredondamento para cima. Um
+ataque que erre continua sem dano, salvo permissão
+expressa.
+Consulte a tabela própria de Melhorias da Máxima.
+Ela exclui, entre outras peças, Salto, Queima,
+Estilhaço, Acúmulo e Remate. Rajada e Mais Um
+dividem os dados, sem duplicar a quantidade por
+alvo. Escolher uma peça de repetição e prometer
+gastar mais PE não substitui essa conferência.
+Máxima de cura
+Suponha uma técnica compatível, com Amparo
+disponível e preço normal de Auxiliares. Na faixa
+17 a 20, prepare cura direta + Projétil + Guarda. A
+maior Classe é 5: base Média de cura custa 5,
+Projétil custa zero e Guarda custa 5. O total 10
+excede os 8 pontos de montagem.
+Há duas comparações úteis. Retirando Guarda, a
+cura individual cabe: base 5, saldo 3 descartado,
+24d8 de cura, até o máximo de vida e respeitando
+impedimentos, para um aliado disposto a até 9 m.
+Custa Ação Completa e 25 PE, com Selo e recarga.
+A cura da Máxima não usa o teto comum de 2 ×
+Classe.
+Se Auxiliares já for Livre na técnica, Guarda custa 5
+- 3 = 2; a montagem conjunta custa 7 e cabe. O
+aliado recebe a cura e +2 Defesa até o fim de seu
+próximo turno. Resta 1 ponto, descartado. A
+avaliação precisa informar qual dessas condições
+foi usada; o jogador não troca sua Família para
+Livre durante a conjuração.
+Curar uma pessoa Morrendo continua seguindo
+Quedas e socorro (p. 73). Uma quantidade alta de
+cura não elimina por si só todos os estados nem
+devolve participação a alguém Derrotado.
+Máxima de utilidade
+O exemplo publicado Passagem de Papel serve
+como comparação completa de Efeito Próprio. Na
+faixa inicial, sua peça Pesada custa 8 pontos, sem
+desconto de Família, e ocupa o orçamento
+disponível. Os dados de dano e cura são
+descartados. O efeito exige a modalidade Técnica
+Máxima, mesmo que seu preço pareça caber em
+outra montagem.
+O resultado depende de duas marcas preparadas
+pessoalmente, em superfícies estáveis da mesma
+cidade, a até 1.500 m entre si. A abertura, o espaço
+livre, a concentração, a retirada das marcas, as
+barreiras sobrenaturais e o início de combate têm
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+196

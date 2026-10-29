@@ -1,8 +1,8 @@
-# Restrição corporal, meios de agir e cuidados
+# Restrição corporal: participação e cuidados
 
-Esta consulta reúne o ganho extraordinário e a condição corporal numa mesma conferência. O caso principal combina **Rede Remota e Corpo Quebradiço, exemplos publicados na R53**. A escolha de técnica, os contatos e a organização do atendimento pertencem ao caso. As alternativas de corpo não são penalidades acumuladas.
+Ao preparar uma missão, considere tanto as capacidades quanto os cuidados de que um personagem com Restrição corporal precisa. O caso principal combina **Rede Remota e Corpo Quebradiço, exemplos publicados no Livro de Regras 1.0**. A escolha de técnica, os contatos e a organização do atendimento pertencem ao caso. As alternativas de corpo não são penalidades acumuladas.
 
-## O pacote de Nilo
+## A ficha de Nilo
 
 Nilo tem uma técnica que cria figuras de papel e usa uma delas para acompanhar a equipe. Seu corpo fica num posto de apoio. Ele deseja participar das decisões, receber informações e comandar capacidades à distância. A disponibilidade desses meios é conferida antes da missão.
 
@@ -21,9 +21,9 @@ Nilo tem uma técnica que cria figuras de papel e usa uma delas para acompanhar 
 
 O Escriba conserva sua ficha e seu estado experimental, incluindo o talento proposto naquela seção. Neste caso, sua Defesa é recalculada com Inteligência 3 de Nilo: **10 + Destreza 2 + metade de 3, para baixo = 13**. Bloquear acompanha essa Defesa: **2d10 + 13 − 11 = 2d10 + 2**. Sua vida continua 27, o deslocamento 9 m e as contas de ataque, CD e perícias conservam os atributos da entidade. O corpo de Nilo não transmite Defesa 0, vida reduzida ou impedimento de andar à entidade.
 
-A ficha completa de Nilo ainda precisa das escolhas restantes do Caminho, da Trilha, dos espaços e do equipamento. Esta consulta fecha o pacote de Origem e a participação examinada; não pretende entregar outro personagem pronto.
+A ficha completa de Nilo ainda precisa das escolhas restantes do Caminho, da Trilha, dos espaços e do equipamento. Esta consulta apresenta as escolhas de Origem e uma forma de participar à distância; não pretende entregar outro personagem pronto.
 
-## O que a exceção faz
+## Participar à distância
 
 Rede Remota mantém o vínculo com intermediários da técnica até **3.000 km do corpo real**. É passiva, sem PE adicionais apenas pela distância. Conserva quantidade, duração, custos, ações, sentidos e capacidades que já existam na técnica. O intermediário precisa chegar ao local e pode ser enfrentado ou destruído.
 
@@ -45,7 +45,7 @@ Mesmo a distância, efeitos que exigem um teste do próprio Nilo usam sua ficha.
 
 **Vigor continua normal neste corpo.** Nilo tem Constituição 2 e Maestria 1 pelo treino: **+3**. Se uma ocorrência de dano no corpo real exigir Concentração com Vigor CD 14, um resultado 11 alcança **11 + 3 = 14**. Não aplique a falha automática de Vigor pertencente às outras condições corporais.
 
-Ao criar outro CE4 ou outra condição, registre a exceção, a operação e os cuidados com esse mesmo nível de precisão. A R53 permite essa criação, mas exige impacto corporal equivalente ou maior ao dos exemplos; uma penalidade mais severa não compra mais ganhos. Não use o caso de Nilo para somar três condições ou receber todos os CE4.
+Ao criar outro CE4 ou outra condição, explique o que muda nas regras, como funciona e quais cuidados são necessários com esse mesmo nível de precisão. O Livro de Regras 1.0 permite essa criação, mas exige impacto corporal equivalente ou maior ao dos exemplos; uma penalidade mais severa não compra mais ganhos. Não use o caso de Nilo para somar três condições ou receber todos os CE4.
 
 ## Prepare o cuidado de cada corpo
 
@@ -57,11 +57,11 @@ Os preparos abaixo são exemplos ficcionais de atendimento. Não são instruçõ
 | Corpo Quebradiço | Apoio que acomoda o corpo sem exigir que sustente o próprio peso; materiais de atendimento; transporte; profissional treinado em Medicina ou autocuidado quando viável | Quem presta o atendimento? A personagem alcança os materiais se for cuidar de si? O apoio permanece durante a pausa? |
 | Corpo Exaurido | Abrigo com os materiais e cuidados registrados para a condição; acesso aos objetos de uso; ajuda ou transporte disponível quando o deslocamento cair a zero | O cuidado combinado pode ser prestado? O saldo de vida permite o deslocamento leve? Como continuar se for necessário transportar? |
 
-No posto de Nilo, o apoio está instalado e os materiais ficam ao alcance das mãos. Como é treinado em Medicina e está capaz, pode fazer seu atendimento quando essas condições bastarem ao trabalho. Em outra situação, alguém treinado pode atendê-lo. A entrada não exige automaticamente um teste, uma tarifa ou horas extras para reconhecer todo cuidado; descreva a necessidade concreta antes de impor uma resolução adicional.
+No posto de Nilo, o apoio está instalado e os materiais ficam ao alcance das mãos. Como é treinado em Medicina e está capaz, pode fazer seu atendimento quando essas condições bastarem ao trabalho. Em outra situação, alguém treinado pode atendê-lo. A regra não exige automaticamente um teste, uma tarifa ou horas extras para reconhecer todo cuidado; descreva a necessidade concreta antes de exigir um teste ou outro gasto.
 
 **Alternativa em viagem.** O grupo prepara um veículo com o apoio e os meios correspondentes. Ele pode servir como ambiente propício se a situação realmente permitir repouso. Estar dentro do veículo em perseguição não transforma o intervalo em descanso seguro. A casa de uma escola também pode deixar de ser propícia se faltar o atendimento exigido.
 
-## Três resoluções que não se confundem
+## Cuidados com cada condição
 
 ### Exposição no Corpo Debilitado
 
@@ -73,11 +73,11 @@ A cobertura é um recurso real do preparo; não se presume perfeita após rasgar
 
 Nilo está com **8 de 16 PV**. Um efeito compatível cura 6; ele passa a **14 de 16**, sem dividir a cura novamente. Um descanso longo propício restaura seu máximo reduzido de 16, não os 32 anteriores à condição. Cura comum não remove a limitação congênita.
 
-### Retomada no Corpo Exaurido
+### Recuperação no Corpo Exaurido
 
 Para comparar, uma personagem de Corpo Exaurido tem máximo **32 PV** e saldo **8**. Ao concluir um descanso longo propício, recupera **25% de 32 = 8 PV**: fica com **16**. A recuperação do descanso não é dividida outra vez.
 
-O limite de deslocamento é metade do máximo, **16 PV**. Com 16 ou menos, seu deslocamento próprio é zero. Depois, uma cura compatível de 7 recupera **metade, para baixo = 3 PV**; ela chega a **19** e volta a poder caminhar até 4,5 m nas condições da entrada.
+O limite de deslocamento é metade do máximo, **16 PV**. Com 16 ou menos, seu deslocamento próprio é zero. Depois, uma cura compatível de 7 recupera **metade, para baixo = 3 PV**; ela chega a **19** e volta a poder caminhar até 4,5 m nas condições descritas pela habilidade.
 
 Se aquele descanso longo ocorrer fora de ambiente propício, os 8 PV iniciais permanecem: o corpo não recupera vida pela pausa. Os demais recursos seguem suas regras, inclusive PE. Isso não transforma Corpo Exaurido num degrau permanente de Exaustão, não impõe Atordoado e não retira decisões ou consciência.
 

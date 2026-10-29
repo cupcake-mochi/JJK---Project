@@ -1,0 +1,90 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Campo
+Texto proposto
+Momento e ação
+O feitiço ainda usa sua Ação Padrão e seu PE normal. O preparo não
+conjura, não guarda um ataque e não elimina Selo.
+Devolução em avaliação
+Leve: há dificuldade real nas cenas móveis previstas, sem evidência
+suficiente para classificar a perda como presente em pelo menos metade.
+Compatibilidade
+Uma vaga de Restrição. Não se soma à exigência idêntica já presente no
+Selo, na Regra ou em outra Restrição.
+A dificuldade avaliada é ter de preparar no local a
+matriz consumida pela tentativa. A proposta atribui
+uma única devolução Leve a esse preparo; não soma
+pontos pelo minuto, pelo desenho e pela distância.
+Se a proposta acrescentar outra dificuldade
+independente, ela precisará ser registrada como
+outra Restrição. Ela não concede uma capacidade
+nova à matriz: o desenho não ataca, ilumina,
+protege ou detecta criaturas. Giz e superfície
+precisam existir; não se impõe aqui preço de
+mercado, Ofício ou regra de fabricação nova.
+Comparação com as entradas publicadas. Atrasar
+compromete Padrão, Bônus e Movimento no
+próprio turno da conjuração. Carregar paga PE e
+exige liberação no turno seguinte. Matriz de chão
+permite preparar antes, exige um local fixo e
+consome esse preparo ao tentar; cada uma dessas
+Restrições funciona de um modo diferente. O Livro
+de Regras 1.0 esclarece que uma exigência de
+preparo não entra no grupo de frequência apenas
+por acontecer antes da conjuração. Acrescentar
+uma limitação equivalente a Uma Vez exigiria
+conferir esse grupo.
+Para demonstrar a conta, use Projétil + Precisão +
+Fura, na Classe 3 e a preço normal, com Matriz de
+chão como única Restrição. São 9 - 2 - 3 + 2 = 6d8,
+duas Melhorias, uma Restrição, Padrão e 9 PE. O
+preparo não altera o alcance de 18 m do Projétil;
+apenas limita onde Lia pode começar essa
+aplicação.
+Lia prepara a matriz na sala e depois inicia a
+conjuração a 1 m dela. Com atributo 3 e Maestria 1,
+seu ataque recebe +6 por Precisão. Ela paga 9 PE e
+consome a matriz; rola 8, totaliza 14 e erra Defesa
+16. Não causa dano, não recebe o PE de volta e não
+conserva a matriz. Mesmo ainda estando na sala,
+não pode repetir esse feitiço sem outro preparo. Seu
+repertório restante continua disponível.
+Se o uso real permitir deixar a mesma preparação
+sempre pronta, sem perda de tempo, acesso ou
+oportunidade, a devolução não está justificada. O
+exemplo serve para examinar essa dificuldade, não
+para garantir uma nova Restrição a toda ficha.
+Reveja as Restrições depois de
+jogar
+Para uma Restrição Própria, o Livro de Regras 1.0
+pede a revisão depois de três sessões em que o
+feitiço foi usado. Compare a dificuldade prevista
+com as situações vividas. Condicional também pede
+conferir sua estimativa nas sessões seguintes; o
+mesmo registro ajuda nessa avaliação. Anote casos
+em que a exigência impediu uma escolha ou exigiu
+preparo relevante; não registre como prejuízo
+apenas ter lido a condição em voz alta.
+Uma exigência que nunca atrapalhou deve ser
+substituída, mantendo a montagem válida antes do
+próximo uso. Mudanças de devolução exigem
+recalcular o saldo registrado. Nenhuma Restrição
+Própria devolve Pesada, e uma limitação já
+obrigatória não recebe pontos outra vez.
+7.7 · Efeitos de cena e
+cancelamento
+Use esta consulta para preparar uma aplicação
+comum fora de combate e conferir o que outro
+poder pode encerrar. Luz de Oficina vem do
+exemplo do Livro de Regras 1.0; o local e seu
+encerramento ao começar uma luta são escolhas
+expressas desta demonstração. A classificação de
+uma exibição do Escriba para cancelamento é um
+avaliação experimental para este caso, sem
+converter Categoria de Efeito em Classe universal.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+207

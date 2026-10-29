@@ -1,0 +1,94 @@
+{
+  "registro": 100,
+  "paginas": 10,
+  "pdf_sha256": "58850d83c61631e42872a5a16ac94725d6774e055ba4e7307a8db09f89c07355",
+  "revisao_textual": [
+    "primeira leitura da redação e conferência mecânica",
+    "segunda leitura da prova e correções de clareza/referências"
+  ],
+  "inspecao": [
+    {
+      "pagina": 1,
+      "imagem": "visual-final/p-01.png",
+      "sha256": "3e215043def55a285886be24f3c96e1f0713e7bea9cf44b7080c87a78dcf7012",
+      "inspecao_visual": "examinada",
+      "nota": "Entrada, abreviações, contexto e acordos lidos; título de 1.2 conserva um parágrafo antes da mudança de coluna.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 2,
+      "imagem": "visual-final/p-02.png",
+      "sha256": "c4ae96b4a7c75d0f0e05ce313604983a5582367a8ce747f0cfe8eee85d94e8b2",
+      "inspecao_visual": "examinada",
+      "nota": "Cena cotidiana e preparo; espaço inferior preserva a planta na página seguinte e evita fracionar sua leitura.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 3,
+      "imagem": "visual-final/p-03.png",
+      "sha256": "e8abf6da3e093ec87699e8f1b50ddf0e4950d3d970e6ecd8842585743394705f",
+      "inspecao_visual": "examinada",
+      "nota": "Planta e acessos conferidos; cota vertical reposicionada, sem cruzar o rótulo do depósito ou das caixas.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 4,
+      "imagem": "visual-final/p-04.png",
+      "sha256": "dc3d520e814c8cc363df2aabac01aadb3a571eeb906748173a2a7c6980534959",
+      "inspecao_visual": "examinada",
+      "nota": "Ficha completa; tabelas de números juntas e demais informações em duas colunas.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 5,
+      "imagem": "visual-final/p-05.png",
+      "sha256": "45c77501daecec81d51e555adc1835cf83646f2f686503c9c8a79192f70ccd52",
+      "inspecao_visual": "examinada",
+      "nota": "Falas e comentários distinguíveis; início da condução de combate segue o fluxo.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 6,
+      "imagem": "visual-final/p-06.png",
+      "sha256": "1631cff60564f969d796519052d803932f393846aff4d83119ec388509fb76e2",
+      "inspecao_visual": "examinada",
+      "nota": "Referências dos participantes e primeira rodada; tabela íntegra, requisitos e posições legíveis.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 7,
+      "imagem": "visual-final/p-07.png",
+      "sha256": "ed68684c1d30925afa69a54e5979c5ca897f8867c769e9bc1c8107cf7aaee6ee",
+      "inspecao_visual": "examinada",
+      "nota": "Registro da queda, segunda rodada e saídas de socorro conferidos; introdução de alternativas no fluxo.",
+      "alterada_na_ultima_correcao": false
+    },
+    {
+      "pagina": 8,
+      "imagem": "visual-final/p-08.png",
+      "sha256": "bef59a8138d055ae3794a8bbdf7c39990b7d85df9f0febc7d9b9320876669ac3",
+      "inspecao_visual": "examinada",
+      "nota": "Alternativas e fechamento; título da tabela de estado foi movido com a própria tabela para a página 9.",
+      "alterada_na_ultima_correcao": true
+    },
+    {
+      "pagina": 9,
+      "imagem": "visual-final/p-09.png",
+      "sha256": "a907e12dbf895e17e87a1ff94bda6885370060f06aab63bb06d0b7f727eeadee",
+      "inspecao_visual": "examinada",
+      "nota": "Título, introdução e tabela de estado juntos; encerramento do capítulo mantém área livre antes da folha independente.",
+      "alterada_na_ultima_correcao": true
+    },
+    {
+      "pagina": 10,
+      "imagem": "visual-final/p-10.png",
+      "sha256": "d822f5e9888aec97add88e78e30b22497556346bab00cf6b3a02e10e885b0aea",
+      "inspecao_visual": "examinada",
+      "nota": "Preparo preenchido para consulta em uma página; tamanho de letra e linhas conferidos.",
+      "alterada_na_ultima_correcao": false
+    }
+  ],
+  "ultima_correcao": "Título, introdução e tabela de estado mantidos juntos; páginas 8–9 examinadas novamente. Outras oito páginas idênticas à prova já examinada.",
+  "problemas_graves_conhecidos": [],
+  "limite": "Amostra editorial; não é teste externo de aprendizado nem avaliação de equilíbrio."
+}

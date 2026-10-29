@@ -688,3 +688,141 @@ Registro91 e apoio-edicao-leitura guardam integração, cobertura e verificaçã
 **Atualização de 26/10/2026 — edição diagramada:** corpo abaixo histórico. Plano81, pauta75, matriz18, competências21; [registro92](<../../04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>). Abra a [edição de leitura 2](<../../07 - Edicao de Leitura/index.html>) ou o [PDF pré-1.0](<../../08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>). A revisão estrutural e dirigida, as opções de imagens e as provas visuais estão documentadas. A correção do balanceamento que fragmentava parágrafos foi incorporada após observação do autor. Próximo: retorno e revisão dirigida — Sol alto; contradições mecânicas — Astra extra alto. Decisão87 preservada, R53 intacta. Não afirmar teste humano ou equilíbrio certificado. CONFERIR-SALVAMENTO.py verifica o acervo local. Esta edição ainda não foi enviada ao GitHub.
 
 A ordem da leitura mudou; os números de produção foram preservados. Conferir o registro92 e o relatório visual antes de editar. As instruções anteriores sobre iniciar a diagramação ou ainda aguardar a primeira revisão são históricas. Não reintroduzir o detalhamento de Reserva. As fontes devem ser editadas antes da regeneração.
+
+
+## Registro 101 - mundo e preparo na nova estrutura
+
+Capítulos 2 e 3 escritos em `06 - Redacao do Guia/revisao-98`. Amostra isolada de oito páginas, com contexto sem revelações da trama, preparo em cinco perguntas e encontro original de despedida. Ver `../101-mundo-e-preparacao-de-aventuras.md`. A etapa 3 segue em andamento; próxima tarefa: capítulo 4, Na mesa de jogo, com GPT-6.1 Sol, esforço alto. O PDF integrado de 357 páginas, as 104 fontes antigas e as regras foram preservados.
+
+
+## Registro 102 - condução, participação e ritmo
+
+Capítulo 4, Na mesa de jogo, escrito em `06 - Redacao do Guia/revisao-98`. Amostra isolada de seis páginas, com condução, testes, negociação, investigação, improvisação, ritmo, participação, socorro e encerramento. Ver `../102-conducao-participacao-e-ritmo.md`. Regras e fontes anteriores preservadas. Etapa 3 em andamento; próxima tarefa: capítulo 5, Criar uma campanha, com GPT-6.1 Sol, esforço alto.
+
+
+## Registro 103 - campanha e conclusão do núcleo
+
+Capítulo 5, Criar uma campanha, escrito em `06 - Redacao do Guia/revisao-98`; amostra isolada de quatro páginas. Ver `../103-campanha-e-conferencia-do-nucleo.md`. Etapa 3 concluída como redação do núcleo e conferência interna, com os capítulos 1-5 e sete casos de condução. Operação completa da guilda, consultas técnicas, integração e revisão global permanecem nas etapas seguintes. O PDF anterior de 357 páginas não foi substituído. Próxima tarefa: etapa 4, variedade e inspiração, com GPT-6.1 Sol, esforço alto.
+
+
+## Registro 104 — variedade e inspiração
+
+Etapa 4 entregue em `06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md`: oito situações, seis pessoas, quatro lugares, seis complicações, duas combinações desenvolvidas e um ensaio que pode encerrar no cotidiano. Amostra de cinco páginas; mapa vetorial original e contas conferidas. Ver [registro 104](../104-ideias-combinaveis-e-exemplos.md). As ideias com ameaças ainda exigem fichas e preparo; os exemplos desenvolvidos cobrem investigação e percurso, sem novo equilíbrio de combate. As 104 fontes antigas, capítulos 1–5, regras e PDF integrado de 357 páginas foram preservados.
+
+**Próxima tarefa:** etapa 5, separar consulta rápida e aprofundamento. Começar pelas folhas de missão e condução e pelos destinos dos exemplos extensos; reorganizar os capítulos técnicos 6–10 sem rebalancear. Conferir P14–P20 e os 130 pontos. **GPT-6.1 Sol, esforço alto**; Astra extra alto apenas para contradição mecânica com várias dependências. Esta entrega foi salva localmente; não houve envio ao GitHub.
+
+
+## Registro 105 — folhas curtas e acesso aos casos
+
+Primeiro lote da etapa 5 em `06 - Redacao do Guia/revisao-98/consultas`: preparar, conduzir e retomar, com exemplos de despedida e pausa na sala de conservação. PDF de cinco páginas e HTML em `apoio-consultas-105`. [Entrega 105](../105-folhas-para-a-mesa-e-acesso-aos-casos.md). O índice por assunto localiza 59 textos; os destinos das 104 fontes e as referências dos 130 pontos e 20 competências foram preservados. Trata-se de conferência documental, sem nova validação semântica integral ou leitura externa. O socorro continua no capítulo e no registro completo; o resumo não reinicia seus estados.
+
+**Etapa 5 em andamento. Próximo:** capítulo 6, Inimigos e perigos; reunir método, ficha e casos conforme mapa 99, sem rebalanceamento. Depois capítulos 7–10 e conferência das remissões. **GPT-6.1 Sol, esforço alto**; Astra extra alto apenas se uma contradição mecânica com várias dependências exigir análise própria. Fontes, regras e PDF integrado anterior preservados. Nenhum envio ao GitHub nesta entrega.
+
+
+## Registro 106 — capítulo 6, Inimigos e perigos
+
+Segundo lote da etapa 5 entregue em `06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md`. Amostra de sete páginas, com oito seções: objetivos, ficha, recursos, números, grupo/lugar, chefes, ambiente e conferência. Ver [registro 106](../106-inimigos-perigos-e-consultas.md). Nove trechos do Livro de Regras 1.0 para consulta. Linhas de vida, Integridade, ataque, CD, Defesa e dano comparadas com a fonte 74; fichas completas e estudos antigos preservados. PE não são obrigatórios para toda habilidade; recarga, intervalo, preparo e reserva conservam funções diferentes. Sem rebalanceamento, escala geral adotada, atualização do Bestiário ou sessão humana.
+
+**Etapa 5 em andamento. Próxima tarefa:** capítulo 7, Personagens e técnicas; reunir método, cuidados das Origens, avaliação de criações e poderes avançados, com casos extensos acessíveis. Preservar decisão 87 e o escopo atual de Reserva Condensada. **GPT-6.1 Sol, esforço alto**; Astra extra alto apenas para contradição mecânica com várias dependências. Depois capítulos 8–10 e conferência conjunta das consultas. PDF integrado anterior de 357 páginas preservado. Sem envio ao GitHub nesta entrega.
+
+
+## Registro 107 — capítulo 7, Personagens e técnicas
+
+Terceiro lote da etapa 5 entregue em `06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md`. Amostra de sete páginas e dezenove trechos de regras em `apoio-personagens-107`. [Entrega 107](../107-personagens-tecnicas-e-escolhas.md). Ficha, cuidados das Origens, personalização, avaliação, poderes avançados e acompanhamento. Exemplo completo de Toque e comparação de Máximas; remissões aos casos preservados. Receptáculo mantém mestre para a outra voz mediante acordo; Reserva conserva apenas a habilidade existente e os quatro campos, sem parâmetros descartados. CD 16 do caso Arata permanece pendência específica, sem reprodução como escala geral ou mudança na fonte.
+
+**Etapa 5 em andamento. Próxima tarefa:** capítulo 8, Entre missões; depois capítulos 9–10 e conferência conjunta das consultas. Preservar 28 h por sete dias por ficha, saldo no ciclo seguinte e o escopo de treinamento já decidido. **GPT-6.1 Sol, esforço alto**; Astra extra alto somente para contradição mecânica nova com várias dependências. Fontes antigas, capítulos anteriores, regras e PDF integrado de 357 páginas preservados. Revisão interna, sem declaração de aprendizagem ou equilíbrio; sem envio ao GitHub.
+
+
+## Registro 108 — capítulo 8, Entre missões
+
+Quarto lote da etapa 5 entregue em `06 - Redacao do Guia/revisao-98/08-entre-missoes.md`. Amostra de sete páginas e vinte consultas de regras em `apoio-entre-missoes-108`. [Entrega 108](../108-rotina-trabalho-e-recompensas.md). Rotina e descanso, dedicação, Ofícios, compras/serviços, ferramentas/objetos e recompensas. Tabela de XP em duas colunas com contas inteiras; salário em tabela. Preservados 28 h por sete dias por ficha, saldo somente no ciclo seguinte, proporcionalidade e afastamento. XP semanal por jogador; salário e recompensa por mestrar opcionais. Sem benefícios novos de treinamento, parâmetros descartados de Reserva ou mudança nos Pactos. Casos experimentais do Anel, negociação, Pastilha e Limiar permanecem identificados.
+
+**Etapa 5 em andamento. Próxima tarefa:** capítulo 9, Pactos e entidades; depois capítulo 10 e conferência conjunta das consultas. **GPT-6.1 Sol, esforço alto**; Astra extra alto somente para contradição mecânica nova com várias dependências. Fontes antigas, capítulos anteriores, regras e PDF integrado de 357 páginas preservados. Revisão interna; sem declaração de aprendizagem ou equilíbrio, sem envio ao GitHub.
+
+
+## Registro 109 — capítulo 9, Pactos e entidades
+
+Quinto lote da etapa 5 em `06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md`. Amostra de seis páginas e dezoito consultas em `apoio-pactos-entidades-109`. [Entrega 109](../109-pactos-projetos-e-continuidade.md). Formas, preço real, vagas, janela de temporário, Mostrar a mão e Overtime. Pacifismo, Liberação irregular e Promessa do arquivo resumidos com remissões completas, sem reabrir decisões. Aquisição por espaço, lista, criação e doma; tabela conjunta de trabalho por operação e ajustes de CD; exemplo de Rina, reconstrução, transferência e estado. Sem criar bônus ou recuperar automaticamente a entidade.
+
+**Etapa 5 em andamento. Próxima tarefa:** capítulo 10, Jogar em guilda; depois conferência conjunta das consultas e dos casos. **GPT-6.1 Sol, esforço alto**; Astra extra alto somente para contradição mecânica nova com várias dependências. Fontes anteriores, treinamento, dedicação, decisão 87, regras e PDF integrado de 357 páginas preservados. Revisão interna, sem alegar aprendizagem observada ou equilíbrio. Sem envio ao GitHub.
+
+
+## Registro 110 — capítulo 10, Jogar em guilda
+
+Sexto lote da etapa 5 em `06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md`; amostra de quatro páginas e dez consultas em `apoio-guilda-110`. [Entrega 110](../110-guilda-registros-e-passagem.md). Acordos comuns, calendário, passagem da sala de conservação, escolha de registros, correção e retorno do grupo. Reservas antes/depois comparadas à fonte 81; tratamento 15, janela 3, cura 15, Akira 24 PE, nuvem e condição com términos separados. Sem descanso ou recompensa inventada. A prova inicial de cinco páginas foi enxugada mantendo fonte e dados.
+
+**Etapa 5 em andamento. Próxima tarefa:** conferência conjunta de capítulos 6–10, consultas, remissões, destinos dos casos, 130 pontos e 20 competências. Manter decisões e localizar pendências específicas, incluindo Arata, sem rebalanceamento silencioso. **GPT-6.1 Sol, esforço alto**; Astra extra alto somente para contradição mecânica nova com várias dependências. Depois: conclusão da etapa 5 e duas passagens textuais integrais. Fontes anteriores, regras e PDF integrado de 357 páginas preservados. Sem sessão humana, equilíbrio declarado ou envio ao GitHub.
+
+## 28/10/2026 — registro 111: conferência conjunta
+
+Etapa 5 concluída no escopo de organização e conferência dirigida: métodos 6–10, folhas e 59 casos ligados; 104 fontes, 130 pontos e 20 competências preservados. O índice sinaliza a CD 16 do exemplo Arata para correção na etapa 6. PDFs anteriores mantidos. [Relatório](<../111-conferencia-conjunta-das-consultas.md>).
+
+Próxima tarefa: revisão textual integral em duas passagens, começando pela entrada e capítulos 1–3. **GPT-6.1 Sol, esforço alto.** Integração, revisão visual global e parecer final ainda pendentes.
+
+## 28/10/2026 — registro 112: primeiro lote da revisão textual
+
+Abertura criada e capítulos 1–3, incluindo Ideias para aventuras, revistos em duas passagens locais. [Relatório e prova parcial](<../112-revisao-textual-da-abertura-e-primeiros-capitulos.md>). As amostras 100, 101 e 104 retratam a redação anterior; usar a prova 112 para este lote. Regras, números e 104 fontes antigas preservados. A etapa 6 continua em andamento.
+
+Próximo lote: capítulos 4–5, com **GPT-6.1 Sol, esforço alto**. Depois, capítulos 6–10, folhas, casos e conferência integral. Arata permanece na fila do lote técnico. PDF integrado e revisão visual final ainda pendentes.
+
+## 28/10/2026 — registro 113: mesa e campanha
+
+Capítulos 4–5 revistos em duas passagens locais; [relatório e prova parcial](<../113-revisao-textual-da-mesa-e-da-campanha.md>). Prova de dez páginas inspecionadas; estabilidade explicitada conforme o Livro de Regras. Índice de casos e guia de escolha apontam as explicações revisadas. As amostras 102 e 103 retratam a redação anterior; a prova 112 permanece atual para abertura e capítulos 1–3.
+
+Próximo lote: capítulos 6–7, com **GPT-6.1 Sol, esforço alto**. Depois, 8–10, folhas e casos, conferência integral, integração e revisão visual global. Arata permanece no lote técnico. Etapa 6 em andamento; PDF integrado preservado.
+
+
+## 28/10/2026 — registro 114: inimigos, personagens e Arata
+
+Capítulos 6–7 e cópia do caso Arata revistos em duas passagens locais; [relatório e prova parcial](<../114-revisao-textual-de-inimigos-e-personagens.md>). Dezessete páginas inspecionadas, com Toque e explicações numéricas reunidos. Preservados números dos capítulos e quatro mudanças de rótulos de tabelas. História CD 16 foi corrigida para 18, Muito Difícil, numa tarefa técnica específica de Arata; total 19 ainda tem sucesso. Demais números e benefícios do caso preservados.
+
+A fonte original de Arata está intacta entre as 104 fontes; a cópia revisada fica em `06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md`. Índice mantém 59 casos e aponta a cópia corrigida; capítulos e seletor apontam os métodos revistos. PDF integrado de 357 páginas, base de regras, provas 112–113 e PDF das folhas curtas preservados. Nenhum modelo descartado de Reserva Condensada foi reinserido.
+
+**Etapa 6 em andamento. Próximo lote: capítulos 8–10, GPT-6.1 Sol, esforço alto.** Depois, folhas e casos, conferência integral, integração e revisão visual global. Sem novo equilíbrio demonstrado, teste humano ou envio ao GitHub.
+
+
+## 28/10/2026 — registro 115: atividades, Pactos e guilda
+
+Capítulos 8–10 revistos em duas passagens locais; [relatório e prova parcial](<../115-revisao-textual-de-atividades-pactos-e-guilda.md>). Primeira prova de 18 páginas lida por inteiro; sete ajustes posteriores e cinco cortes de repetição relidos. Prova final de dezessete páginas, com tabelas de estado largas, Vigia reunido e sem a página residual. Números, tabelas, decisões de dedicação, recompensas, Pactos, Promessa e projetos preservados. Sem nova mecânica de treinamento ou Reserva.
+
+Índice e guia de escolha apontam métodos revistos; corpo e PDF das cinco folhas curtas mantidos. Os 59 casos, 104 fontes, 130 pontos e 20 competências não perderam entradas ou mudaram de estado. Provas 112–114 e Arata revisado preservados; PDF integrado anterior ainda com 357 páginas.
+
+**Etapa 6 em andamento. Próxima tarefa: revisar as cinco folhas curtas e avançar pela fila dos casos extensos, com GPT-6.1 Sol, esforço alto.** Depois, conferir o conjunto, integrar e revisar visualmente o livro completo. Não declarar a revisão integral concluída apenas pelas passagens locais dos capítulos. Sem teste humano, novo equilíbrio demonstrado ou envio ao GitHub.
+
+
+## 28/10/2026 — registro 116: folhas curtas e fila dos casos
+
+Cinco folhas curtas e guia de escolha revistos em duas passagens locais; [relatório e prova](<../116-revisao-das-folhas-e-fila-dos-casos.md>). PDF de cinco páginas inspecionadas. Campos mais diretos, nomes consistentes nos exemplos e referência ao capítulo 10 revisto. Números, tabela e linhas de preenchimento preservados. Pacote 105 congelado como histórico; para os textos atuais, usar gerador e conferidor 116.
+
+Fila em `apoio-revisao-textual-116/fila-dos-casos.json` e `.md`: 59 casos únicos, Arata já revisto no 114, 58 pendentes em 14 lotes. Outras 17 consultas completas e aprofundamentos listados sem afirmar revisão. Filas não são conteúdo revisado. Não alterar as 104 fontes; criar cópias em `revisao-98/casos` e atualizar destinos somente após revisar. Provas 112–115 e PDF integrado de 357 páginas preservados.
+
+**Etapa 6 em andamento. Próxima tarefa: B1-01, com GPT-6.1 Sol, esforço alto.** Casos s014, s082, s083 e s011: preparo, testes, pistas e ideias dos jogadores. Depois, seguir os demais lotes e consultas, conferir o conjunto, integrar e revisar visualmente o livro completo. Sem treinamento novo, Reserva descartada, equilíbrio declarado ou envio ao GitHub.
+
+
+## 28/10/2026 — registro 117: lote B1-01
+
+Quatro casos revistos em cópias: s014, s082, s083 e s011. [Relatório e prova](<../117-revisao-de-preparo-testes-pistas-e-cenario.md>). Duas passagens, primeira prova de 18 páginas lida, final de 16 páginas inspecionada. Números preservados; CD16 continua válida pela escala do criador, CD fixa Muito difícil18. Cinco rótulos de tabela simplificados e vocabulário do chamado esclarecido; não houve nova mecânica.
+
+Índice e guia atuais em `apoio-revisao-textual-117`; pacotes 105 e 116 ficam preservados como históricos. Cinco casos revistos contando Arata, 54 casos em 13 lotes e 17 consultas complementares pendentes. Fontes originais preservadas; cópias em `revisao-98/casos`. PDF integrado anterior ainda tem 357 páginas.
+
+**Etapa 6 em andamento. Próximo: B1-02, GPT-6.1 Sol, esforço alto.** Casos s084, s085, s022, s023 e s081: movimento, improvisação, quedas, socorro, retirada, recuperação e passagem. Conferir registro completo de socorro junto dos casos pertinentes. Depois dos lotes e consultas, conferir conjunto, integrar e revisar visualmente o livro completo. Sem teste humano, nova simulação, equilíbrio declarado ou envio ao GitHub.
+
+
+## Registro 118 — movimento, socorro e continuidade
+
+B1-02 concluído localmente: cinco cópias revistas em duas passagens, com conferência de regras e inspeção da prova de 20 páginas. Originais e edição integrada preservados. [Registro e destinos atuais](../118-revisao-de-movimento-socorro-e-continuidade.md). Dez casos revistos; 49 casos em 12 lotes e 17 consultas complementares pendentes. Próximo B2-01: energia, habilidades, referências numéricas e chefes; GPT-6.1 Sol, esforço alto. Etapa 6 em andamento. Sem envio ao GitHub.
+
+
+## Registro 119 — energia, habilidades e chefes
+
+B2-01 concluído localmente: cinco cópias em duas passagens e prova de 17 páginas inspecionada. Valores experimentais preservados, apoio corrigido para ver ou ouvir conforme Abrir Caminho. Contas comparadas aos resultados históricos e Duro de Matar recontado independentemente. [Registro e destinos atuais](../119-revisao-de-energia-habilidades-e-chefes.md). Quinze casos revistos; 44 casos em 11 lotes e 17 consultas complementares pendentes. Próximo B2-02: perigos e Carregador; GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; integrado preservado e sem envio ao GitHub.
+
+
+## Registro 120 — perigos e Carregador
+
+B2-02 concluído localmente: quatro cópias, duas passagens e refinamentos relidos; prova de 16 páginas inspecionada. Títulos e explicações simplificados, link completo das três maldições restaurado, queda sem falsa garantia de Aguentar/Insistir. Rotas ilustradas pelo desenho já corrigido, sem alterar distâncias ou custos. Contas e resultados históricos conferidos; Doma e talento CE1 continuam experimentais. [Registro e destinos atuais](../120-revisao-de-perigos-e-do-carregador.md). Dezenove casos revistos; 40 casos em 10 lotes e 17 consultas complementares pendentes. Próximo B2-03: terreno, saída e Sineiro; GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; integrado preservado e sem envio ao GitHub.
+
+
+## Registro 121 — terreno, saída e Sineiro
+
+B2-03 concluído localmente: quatro cópias em duas passagens e refinamento relido. Prova de 15 páginas inspecionada. Prazos do guincho e do portão, gatilho da resposta preparada e preparação corporal do Sineiro mais claros. Mapas existentes da passarela e do portão exportados como vetores; mapa s073 reservado ao ensaio seguinte. Contas e tabelas conferidas, sem novos parâmetros. [Registro e destinos atuais](../121-revisao-de-terreno-saida-e-sineiro.md). Vinte e três casos revistos; 36 casos em 9 lotes e 17 consultas complementares pendentes. Próximo B2-04: Sineiro, retirada e dupla de inimigos; GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.

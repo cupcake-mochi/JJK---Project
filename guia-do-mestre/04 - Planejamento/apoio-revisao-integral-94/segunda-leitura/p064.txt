@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Participante
+Parcela do impacto
+Defesa já presente na ficha
+Dano recebido
+Criatura atingida
+Metade para baixo: 5
+Nenhuma aplicável neste caso
+5
+Ema
+Restante: 6
+Resistência a Concussão já ativa
+3
+A resistência de Ema não reduz os 11 antes da
+divisão. Ambas sofrem dano e terminam
+Derrubadas. Coloque Ema no espaço livre mais
+próximo do ponto de chegada. Nenhuma termina
+dentro de uma parede ou recebe metros extras para
+escolher um destino distante.
+Se o alvo desviar
+Com dado 10 + 4 = 14, o alvo passa. Evita o impacto
+e não recebe dano nem fica Derrubado por ele.
+Usando os mesmos 11 de dano apenas para
+comparar os casos, Ema recebe a queda inteira; sua
+resistência reduz para 6, pois 11 ÷ 2 = 5,5 é
+arredondado para cima. Ela termina Derrubada no
+espaço livre mais próximo.
+Se os tamanhos forem muito diferentes
+Se o alvo fosse Imenso, haveria duas categorias
+entre ele e Ema. A queda não repartiria dano por
+essa regra. Ema receberia o dano da própria queda,
+com suas defesas; o mestre resolveria o espaço livre
+de chegada e qualquer perigo próprio já preparado.
+Não atribua automaticamente metade do dano ao
+Imenso nem role o TR como se a faixa de tamanhos
+fosse irrelevante.
+Uma queda involuntária não exige que a vítima
+tenha a Padrão disponível. Se atingir alguém por
+acidente dentro da faixa de tamanhos, segue a
+mesma regra. O impacto alcança uma criatura por
+queda, não todas as que estiverem próximas. Esse
+dano não é ataque, não recebe dano de arma, não
+causa crítico e não permite Bloquear. Se alguém
+chegar a zero de Vida, siga Quedas e socorro (p. 73)
+e o Livro de Regras 1.0.
+Criar uma ponte com Obras de
+Apoio
+Ren é Guia da Trilha Arquiteto, nível 2, com
+Maestria 1 e Essência 3 escolhida para suas obras.
+Ele tem Obras de Apoio, nenhuma obra ativa e os
+PE necessários. Está num patamar, a 3 m da borda.
+Um vão de 3 m separa dois apoios firmes no mesmo
+nível. Ren enxerga todo o espaço livre onde
+pretende criar a Passarela, dentro dos 9 m da
+capacidade.
+Mina é uma aliada voluntária que pode ouvi-lo, está
+junto à borda e dentro dos 18 m de Abrir Caminho.
+Na sua vez, Ren usa Ação Bônus e 2 PE ao todo
+para criar a obra e preparar uma Abertura de
+Avançar para Mina, indicando o espaço livre do
+outro lado. Não paga 1 PE de Abrir Caminho mais
+outros 2: o custo conjunto é 2.
+Característica da obra criada
+Conta
+Limite simultâneo de Ren
+2 + metade de 3 para baixo = 3 obras
+Duração
+10 minutos × 3 = 30 minutos
+Vida
+10 + nível 2 + 5 × 3 = 27
+Defesa
+10 + Maestria 1 = 11
+Carga total suportada
+100 kg × 3 = 300 kg
+Passarela básica
+Até 3 m de comprimento e 1,5 m de largura, ligando
+apoios firmes
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+64

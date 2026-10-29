@@ -1,8 +1,33 @@
 {
-  "data": "2026-10-26",
-  "edicao": "pré-1.0 — revisão de leitura 2",
-  "paginas": 358,
-  "sha256_pdf": "82518e1e34b9cebe5827e493a5dfcd607f6a19e9824c7f1fe28e428662803b34",
+  "pdf_sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b",
+  "paginas": 357,
+  "primeira_inspecao": "visual-prova-2/inspecao.json",
+  "comparacao": "comparacao-final.json",
+  "reinspecao": {
+    "1": {
+      "sha256_png": "e329d06bee63ed9652685affa0e4fb0cbf255a504efb6e509ae4f4ebe8ed2935",
+      "conferida": true
+    },
+    "2": {
+      "sha256_png": "7557ab9da1be955a4c768a6595482d8bcfe2dfd4de849e81e1dd4e83c447fd10",
+      "conferida": true
+    },
+    "313": {
+      "sha256_png": "b39ab0ffc0162833e878ac9083f4f7f0cfcda15eca8c276143c3d475fcf41877",
+      "conferida": true
+    },
+    "314": {
+      "sha256_png": "c4713d07d0f14a282c86dcd1cd2e31204231f91dd57aa1b2698ce153c3a88698",
+      "conferida": true
+    },
+    "351": {
+      "sha256_png": "a73b80cbb9538159ca9ced4e87beffa35f870447dc237b763e512ff30e322100",
+      "conferida": true
+    }
+  },
+  "resultado": "As 357 páginas foram examinadas. Na prova final, 353 páginas ficaram idênticas pixel a pixel; as quatro alteradas foram renderizadas e examinadas novamente. A p2 recebeu ampliação adicional. Nenhum corte ou sobreposição permaneceu nas verificações. Espaços de encerramento preservam unidades de leitura; tentativas de recompor duas, três e quatro páginas não reduziram a extensão sem alterar o padrão.",
+  "data": "2026-10-28",
+  "edicao": "pré-1.0 — revisão textual integral e visual; registro 96",
   "paginas_inspecionadas": [
     1,
     2,
@@ -360,84 +385,8 @@
     354,
     355,
     356,
-    357,
-    358
+    357
   ],
-  "pranchas_inspecionadas": 60,
-  "metodo": "Todas as páginas renderizadas pelo Poppler a 100 dpi e observadas em pranchas de seis páginas. Páginas selecionadas examinadas em imagem individual a 1,7 vezes a dimensão do PDF. Após cada ajuste final, comparação visual renderizada entre PDFs identificou as páginas alteradas, renderizadas novamente e reexaminadas.",
-  "paginas_examinadas_ampliadas": [
-    3,
-    4,
-    8,
-    17,
-    44,
-    74,
-    96,
-    104,
-    113,
-    118,
-    124,
-    132,
-    143,
-    163,
-    187,
-    188,
-    211,
-    218,
-    251,
-    252,
-    331,
-    332,
-    333,
-    334,
-    352,
-    358
-  ],
-  "mapas_ampliados": [
-    113,
-    124,
-    132,
-    143,
-    163
-  ],
-  "referencia_visual": "A4; margens de 19 mm; colunas com intervalo de 7 mm; Spectral 10,25/13,2 pt; Barlow Condensed e Bree Serif; cores e tabelas derivadas da R53.",
-  "correcoes": [
-    "Parágrafos curtos preservados durante balanceamento de colunas.",
-    "Títulos e introduções de aberturas ilustradas com percurso contínuo.",
-    "Faixas curtas em largura útil para evitar duas minicolunas.",
-    "Cabeçalhos de tabela repetidos apenas em continuações de página.",
-    "Títulos de tabelas mantidos com o cabeçalho e as primeiras linhas.",
-    "Cinco mapas em desenho vetorial; primeira tentativa do Carregador refeita após crítica do autor.",
-    "Remissões por nome e página; separação de palavras e medidas na comparação de chefes."
-  ],
-  "auditoria_geometrica": {
-    "problemas": 0,
-    "links_pdf": 2374,
-    "links_pdf_invalidos": 0,
-    "links_html": 1044,
-    "links_html_invalidos": 0
-  },
-  "preservacao": {
-    "unidades_textuais_amostradas": 4990,
-    "pontos_de_controle": 14279,
-    "excecoes_automaticas": 6,
-    "excecoes_conferidas_visualmente": 6,
-    "pendencias_nessas_excecoes": 0
-  },
-  "paginas_com_espaco_intencional": [
-    {
-      "pagina": 3,
-      "motivo": "Sumário; organização em dois percursos."
-    },
-    {
-      "pagina": 357,
-      "motivo": "Última página do índice; não preenchida com material artificial."
-    }
-  ],
-  "limites": [
-    "Inspeção visual não certifica compreensão por leitores reais.",
-    "A revisão crítica foi estrutural e dirigida; não é nova auditoria semântica integral de cada linha.",
-    "Sem teste humano ou de mesa nesta entrega; propostas conservam seus limites experimentais."
-  ],
-  "problemas_visuais_identificados_pendentes": []
+  "evidencias": "04 - Planejamento/apoio-revisao-integral-94",
+  "relatorio": "04 - Planejamento/96-revisao-textual-integral-e-visual.md"
 }

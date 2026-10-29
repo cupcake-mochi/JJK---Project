@@ -2,7 +2,7 @@
 
 **Para ler ao preparar um confronto importante.** Um chefe é uma ameaça central daquela situação: alguém cuja presença organiza o conflito. Esse papel pode caber a uma criatura sozinha, a um líder acompanhado ou a uma ameaça ligada ao lugar. O nome não concede ações, imunidades ou uma quantidade de vida.
 
-Comece pelo [preparo de inimigos](56-preparar-inimigos-e-avaliar-encontros.md). Depois use esta seção para decidir o que o confronto precisa e registre a escolha na [ficha única](58-ficha-de-inimigo-e-encontro.md). A [comparação de chefes](68-ficha-e-comparacao-de-chefes.md) aprofunda ações, sinais e fases quando necessário, sem exigir outra folha completa de preparo. **Na pré-1.0, este é um método de preparo. A escala numérica de chefes e suas capacidades adicionais continuam em desenvolvimento.**
+Comece pelo [preparo de inimigos](56-preparar-inimigos-e-avaliar-encontros.md). Depois use esta seção para decidir do que o confronto precisa e registre a escolha na [ficha única](58-ficha-de-inimigo-e-encontro.md). A [comparação de chefes](68-ficha-e-comparacao-de-chefes.md) aprofunda ações, sinais e fases quando necessário, sem exigir outra folha completa de preparo. **Na pré-1.0, este é um método de preparo. Os valores de referência para chefes e suas habilidades adicionais ainda estão em desenvolvimento.**
 
 ## O que torna este confronto importante
 
@@ -12,7 +12,7 @@ Escolha uma característica que organize as decisões: um oponente que disputa p
 
 **Exemplo:** o Carregador tenta conservar os registros no depósito. Na variante da saída que fecha, retirar a caixa e os companheiros é mais importante do que permanecer atacando. O portão pode tornar a retirada mais trabalhosa, mesmo com os números da criatura preservados. Isso ainda não transforma a ficha em um chefe capaz de enfrentar qualquer grupo.
 
-## Identifique o problema antes do recurso
+## Escolha o que precisa melhorar
 
 | O que apareceu no preparo | Primeira comparação útil | Cuidado ao alterar |
 |---|---|---|
@@ -21,7 +21,7 @@ Escolha uma característica que organize as decisões: um oponente que disputa p
 | O grupo repete a mesma escolha sem precisar observar a cena. | Objetivo, alvos, terreno e mudança de comportamento. | Vida adicional pode apenas prolongar a repetição. |
 | Vários golpes atingem a mesma pessoa antes de ela poder responder. | Ordem dos ataques e intervenções disponíveis aos companheiros. | Espalhar ações pela rodada ainda pode concentrá-las antes do turno da vítima. |
 | Uma condição impede o plano do inimigo. | O efeito exato da condição, outras ações legais e ajuda dos aliados. | Ser chefe não fornece remoção automática de condições. |
-| A ameaça cai antes de cumprir sua função. | Acesso, iniciativa, vida, Integridade e recursos de entrada do grupo. | Examine separadamente cada reserva; não conclua apenas pelo dano médio. |
+| A ameaça cai antes de cumprir sua função. | Acesso, iniciativa, vida, Integridade e recursos do grupo no início do encontro. | Examine separadamente cada reserva; não conclua apenas pelo dano médio. |
 
 Uma resposta simples pode bastar. Se a posição explica o problema, compare primeiro outra posição. Se falta atuação entre turnos, examine esse intervalo. Ao combinar mudanças, anote o que cada uma tenta resolver para conseguir revisar o resultado depois.
 
@@ -29,7 +29,7 @@ Uma resposta simples pode bastar. Se a posição explica o problema, compare pri
 
 Uma rodada contém os turnos dos participantes. Em seu turno comum, a criatura dispõe de Padrão, Movimento e Bônus; sua Reação volta no começo do próprio turno. Cada recurso só permite as opções que suas regras autorizam.
 
-Conte primeiro essas oportunidades e depois escreva o uso provável delas. Uma Padrão usada para escapar de um agarrão, Desengajar ou operar um mecanismo não está disponível para atacar. Uma Bônus sem ataque permitido não representa um golpe adicional. Entidades invocadas conservam seu procedimento de atuação e comando; não equivalem automaticamente a outro personagem completo.
+Conte primeiro essas oportunidades e depois escreva o uso provável delas. Uma Padrão usada para escapar de um agarrão, Desengajar ou operar um mecanismo não está disponível para atacar. Uma Bônus sem ataque permitido não representa um golpe adicional. Entidades invocadas seguem suas regras de atuação e comando; não equivalem automaticamente a outro personagem completo.
 
 **Exemplo:** três personagens e um Carregador têm, numa rodada inteira em que todos recebam seu turno, três Padrões do lado do grupo e uma da criatura. Isso não prova vantagem de três para um: alcance, qualidade das ações, condições, Reações e objetivo ainda faltam na comparação. Com dois Carregadores, seriam duas Padrões inimigas, distribuídas entre dois corpos que podem ser afastados ou derrotados separadamente.
 
@@ -37,22 +37,22 @@ Conte primeiro essas oportunidades e depois escreva o uso provável delas. Uma P
 
 | Recurso | O que permite comparar | O que precisa ficar escrito |
 |---|---|---|
-| **Preparar**, pela R53 | Trocar a Padrão de agora por uma resposta posterior. | Gatilho perceptível, resposta legal, Reação disponível e prazo. Não acrescenta uma Padrão de ataque ao turno de origem. |
+| **Preparar**, pelo Livro de Regras 1.0 | Trocar a Padrão de agora por uma resposta posterior. | Gatilho perceptível, resposta legal, Reação disponível e prazo. Não acrescenta uma Padrão de ataque ao turno de origem. |
 | **Uma capacidade que use Reação** | Criar outra escolha para a Reação já existente. | Gatilho, momento, custo e efeito. Compete com as outras opções que gastem essa mesma Reação. |
-| **Uma ação adicional própria** | Permitir uma atuação delimitada sem usar os recursos comuns, se a nova regra disser isso. | Frequência, recuperação, opções permitidas e condições que impedem seu uso. É uma regra nova. |
+| **Uma ação adicional própria** | Permitir uma ação específica sem usar os recursos comuns, se a nova regra disser isso. | Frequência, recuperação, opções permitidas e condições que impedem seu uso. É uma regra nova. |
 | **Outro turno completo** | Repetir um conjunto amplo de recursos. | Também altera efeitos de começo/fim de turno e prazos ligados ao próximo turno. Exige uma revisão muito maior. |
 
 Preparar resolve a resposta depois do evento escolhido. Um ataque de oportunidade tem seu próprio gatilho e ocorre antes da saída do alcance. Descrever um gesto ameaçador não cria uma terceira forma de interrupção.
 
 Quando for necessária uma capacidade nova, prefira começar pela permissão específica que falta. “Mover-se sob este gatilho” é mais fácil de avaliar do que “ganhar um turno”. Isso é uma recomendação de desenvolvimento: a nova capacidade ainda precisa de montagem, limites e comparação com o restante da ficha.
 
-A [comparação do arquivo](102-o-arquivo-e-as-oportunidades-de-agir.md) separa um guarda único de uma dupla de atacante/apoio. Aumentar a vida do guarda muda sua sobrevivência, enquanto concentrar ataques no apoio pode impedir sua primeira cura. Os cálculos têm hipóteses declaradas e não são previsão integral de duração.
+A [comparação do arquivo](102-o-arquivo-e-as-oportunidades-de-agir.md) separa um guarda único de uma dupla de atacante/apoio. Aumentar a vida do guarda muda sua sobrevivência, enquanto concentrar ataques no apoio pode impedir sua primeira cura. Os cálculos explicam quais situações consideram; não preveem a duração completa da luta.
 
-## Dê tempo para usar a informação
+## Anuncie o perigo e dê tempo para reagir
 
-Um sinal ajuda quando o grupo consegue percebê-lo e fazer algo relevante antes da consequência. Registre quatro coisas: **o sinal, o momento da resolução, as respostas possíveis e o resultado de uma resposta bem-sucedida**. Mostre o que mudou quando a preparação for interrompida.
+Um sinal ajuda quando o grupo consegue percebê-lo e fazer algo relevante antes da consequência. Registre quatro coisas: **o sinal, quando ele acontece, as respostas possíveis e o resultado de uma resposta bem-sucedida**. Mostre o que mudou quando a preparação for interrompida.
 
-Uma descrição feita durante a resolução do golpe pode informar a próxima escolha; ela não garante uma ação antes daquele golpe. Para permitir que todos tenham um turno entre anúncio e consequência, use um intervalo que realmente contenha esses turnos. “No fim desta rodada” não garante isso se parte do grupo já agiu.
+Uma descrição feita enquanto o golpe acontece pode informar a próxima escolha; ela não garante uma ação antes daquele golpe. Para permitir que todos tenham um turno entre anúncio e consequência, use um intervalo que realmente contenha esses turnos. “No fim desta rodada” não garante isso se parte do grupo já agiu.
 
 **Exemplo de ordem, sem criar uma habilidade:** Rina → inimigo → Mei → Akira. Um anúncio durante o turno inimigo, resolvido no fim daquela rodada, deixa turnos para Mei e Akira, mas não para Rina. Se a resolução estiver marcada para o começo do próximo turno inimigo, Rina também terá passado por seu próximo turno. Reações continuam dependendo de gatilhos e recursos próprios. Essa comparação não autoriza atrasar gratuitamente qualquer ataque da ficha.
 
@@ -60,9 +60,9 @@ Confira também quem consegue aproveitar a abertura. Um personagem Agarrado pode
 
 Se o sinal anuncia uma área ou alvo, defina se essa escolha fica fixada ou pode mudar. Trocar silenciosamente o alvo para acompanhar quem evitou o perigo esvazia a informação oferecida. Uma preparação que acompanhe o alvo pode existir, mas esse funcionamento deve fazer parte da regra e dos sinais.
 
-## Fases que preservam o progresso
+## Mudanças durante a luta
 
-Uma **fase do confronto** é uma situação reconhecível que muda as escolhas disponíveis. Ela pode resultar da conduta do inimigo, do ambiente ou de uma capacidade específica. Não se confunde com os **estágios de Integridade**, que aplicam as penalidades da R53.
+Uma **fase do confronto** é uma situação reconhecível que muda as escolhas disponíveis. Ela pode resultar da conduta do inimigo, do ambiente ou de uma capacidade específica. Não se confunde com os **estágios de Integridade**, que aplicam as penalidades do Livro de Regras 1.0.
 
 | Mudança | Exemplo | Resultado que precisa de regra própria |
 |---|---|---|
@@ -74,7 +74,7 @@ Não é necessário usar todas as formas nem fixar três fases. A cena pode term
 
 Para cada transição, escreva o que a dispara, quando ocorre e o que permanece. Vida, Integridade, pontos de energia, condições, concentração, usos gastos e efeitos em andamento precisam de continuidade. Uma nova descrição não limpa o registro. Trocar de fase dentro da mesma luta também não inaugura outra cena nem renova recursos limitados por cena.
 
-**Exemplo:** o Carregador tem 10 PV e sofre 3 de dano, ficando com 7. Isso alcança seu limiar comportamental de 8 PV: ele solta quem segura e passa a tentar se retirar. O deslocamento depende das ações disponíveis; não acontece gratuitamente na transição. Se o mesmo ataque o levar a zero de vida, resolva sua derrota. O limiar de retirada não cria uma segunda vida.
+**Exemplo:** o Carregador tem 10 PV e sofre 3 de dano, ficando com 7. Isso alcança seu ponto de retirada, definido em 8 PV: ele solta quem segura e passa a tentar se retirar. O deslocamento depende das ações disponíveis; não acontece gratuitamente na transição. Se o mesmo ataque o levar a zero de vida, resolva sua derrota. Esse ponto de retirada não cria uma segunda vida.
 
 Se quiser escrever uma transformação que interfira na derrota, será necessário definir expressamente essa exceção: gatilho, reservas, destino de dano excedente, condições, usos e possibilidade de impedir a transformação. Até essa regra estar completa, aplique a derrota normal. Uma segunda barra desenhada na ficha não resolve essas perguntas.
 
@@ -82,7 +82,7 @@ Se quiser escrever uma transformação que interfira na derrota, será necessár
 
 Confira o que as condições realmente impedem. Agarrado reduz o deslocamento a zero, mas não proíbe toda ação. Derrubar não encerra um agarrão automaticamente. Uma ameaça controlada pode continuar perigosa dentro de seus limites; se a condição impediu justamente sua principal atuação, esse é um resultado da escolha dos jogadores.
 
-Uma resistência própria pode fazer parte de um futuro chefe, com justificativa, limites e avaliação. Não a acrescente durante a luta porque o grupo encontrou uma solução. Se outro inimigo for ajudar, use suas ações e os procedimentos válidos; sua presença aumenta a oposição e precisa entrar na comparação desde o preparo.
+Uma resistência própria pode fazer parte de um futuro chefe, com justificativa, limites e avaliação. Não a acrescente durante a luta porque o grupo encontrou uma solução. Se outro inimigo for ajudar, use suas ações e as regras correspondentes; sua presença aumenta a oposição e precisa entrar na comparação desde o preparo.
 
 Ao oferecer partes atacáveis, indique se são criaturas, objetos separados ou alvos de uma regra específica. Defina o que cada parte perde a zero, se compartilha dano com o corpo e como Alma, efeitos em área e aquisição interagem com ela. Um sino preso ao Carregador não ganha vida própria nem vulnerabilidade destacada só porque foi descrito. O comando do portão, por sua vez, já tem uma regra de objeto separada no [exemplo do portão](66-o-carregador-e-a-saida-que-fecha.md).
 
@@ -90,8 +90,8 @@ Com vários inimigos, deixe visíveis suas funções e registros individuais. Um
 
 ## Confira o fim da luta
 
-Registre separadamente a neutralização da oposição, a segurança do lugar e o cumprimento do objetivo. O mecanismo da saída pode continuar ativo depois da derrota do Carregador. Desligá-lo não derrota a criatura. Um personagem ainda pode precisar de socorro em qualquer desses casos.
+Anote separadamente se os inimigos foram vencidos, a segurança do lugar e o cumprimento do objetivo. O mecanismo da saída pode continuar ativo depois da derrota do Carregador. Desligá-lo não derrota a criatura. Um personagem ainda pode precisar de socorro em qualquer desses casos.
 
-Para uma ameaça que possa ser adquirida, prepare a conversão antes da oportunidade de aquisição. Recursos do cenário, aliados e uma economia especial de chefe não se tornam automaticamente capacidades da entidade. Use as regras da rota e mostre a ficha resultante; não retire uma capacidade prometida apenas depois do sucesso.
+Para uma ameaça que possa ser adquirida, prepare a conversão antes da oportunidade de aquisição. Elementos do cenário, aliados, ações e recursos exclusivos do chefe não se tornam automaticamente capacidades da entidade. Use as regras da rota e mostre a ficha resultante; não retire uma capacidade prometida apenas depois do sucesso.
 
-Na guilda, registre os participantes e os estados para os quais o confronto foi preparado. Em campanha fechada, inclua o desgaste anterior. A comparação documental deve registrar as dúvidas remanescentes; quando houver uma sessão, anote onde o grupo compreendeu os sinais, conseguiu intervir ou ficou sem participação. Um confronto curto resolvido por uma boa escolha não precisa ser alongado para cumprir uma duração prevista.
+Na guilda, registre os participantes e os recursos e condições considerados ao preparar o confronto. Em campanha fechada, inclua o desgaste anterior. Ao comparar as fichas, anote o que ainda precisa ser testado; quando houver uma sessão, anote onde o grupo compreendeu os sinais, conseguiu intervir ou ficou sem participação. Um confronto curto resolvido por uma boa escolha não precisa ser alongado para cumprir uma duração prevista.

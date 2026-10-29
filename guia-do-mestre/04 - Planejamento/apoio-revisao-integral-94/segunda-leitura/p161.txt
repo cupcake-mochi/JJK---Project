@@ -1,0 +1,87 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+painel. A opção exige menos tratamento, mas muda
+sua participação e o objetivo. Estabilizar também
+exige seus próprios requisitos e não a faria voltar a
+operar imediatamente.
+Queda não é derrota
+Outra comparação mostra o perigo de insistir sob
+vários golpes. Um alvo começa com 24 PV,
+Integridade positiva, Defesa estática 13, sem
+reduções, vida temporária ou cura. Recebe quatro
+ataques legais de +6, cada um causando 1d8 + 4 +
+2d4; escolhe Insistir na queda e permanece
+consciente. Não passa uma volta completa da janela
+entre esses ataques. Kokusen ficou fora da conta.
+Sequelas anteriores
+Chance de chegar a zero até o quarto
+ataque
+Chance de estar Derrotado até esse ponto
+Nenhuma
+87,1%
+0,1%
+Duas
+87,1%
+58,2%
+A chance de perder os 24 PV é igual. A janela
+posterior é que muda: três rodadas disponíveis ou
+somente uma. Cada golpe posterior com dano que
+alcance a vida desconta uma; o golpe da primeira
+queda não desconta outra. Se uma volta completa
+da iniciativa ocorrer, também haverá perda por
+tempo, ausente desta comparação. Os quatro
+ataques precisam existir na cena; a tabela não
+concede quatro golpes a Haru. Podem vir de quatro
+atacantes em turnos sucessivos antes do retorno ao
+ponto da queda.
+Registro para outro mestre
+Anote a versão escolhida, posições, retirada
+combinada, estado do painel e do fecho, operador e
+passos concluídos. Nas fichas, conserve PV,
+Integridade, PE, Reações, bônus acumulado de
+Kokusen e condições. Para Haru, registre faixa
+avisada, turno em que pode conjurar e intervalo
+restante. Para Tessa, registre Impulso concedido e
+seu término.
+Registre também quem entrou em Morrendo,
+máximo de referência, tratamento necessário e
+acumulado, janela, ponto da queda e Sequelas. Um
+inimigo com PV positivos, um personagem ainda
+insistindo e a caixa já recuperada são três estados
+diferentes. Nenhum substitui os outros.
+5.21 · O pó na sala de
+conservação
+Exemplo experimental de perigo ambiental. Use
+com Preparar perigos ambientais (p. 104) e o bloco 4
+da ficha única (p. 321). O caso ensina exposição
+repetida, condição após a retirada, limpeza do lugar
+e socorro. Não há inimigos ou civis presos no
+recinto.
+A sala pertence a uma oficina que conserva objetos
+usados por feiticeiros. Um alimentador defeituoso
+espalhou um reagente fictício em forma de pó. O
+grupo precisa interromper a alimentação, limpar a
+área e registrar a interdição do equipamento. A
+guilda pode ter recebido o chamado da oficina;
+numa campanha fechada, ela pode pertencer a um
+contato da equipe.
+Origem das regras: ações, testes, visão, dano,
+condições e socorro seguem o Livro de Regras 1.0.
+Área, CD 14, 1d6, frequência, duração máxima e
+tempo de limpeza são escolhas propostas para esta
+ocorrência. Não formam uma tabela de
+contaminação ou dano por nível.
+Prepare a área e apresente o risco
+A sala tem 3 m de largura e 18 m de comprimento,
+com piso regular, iluminação e uma porta aberta
+para um espaço de entrada limpo. Não há outras
+saídas, obstáculos no piso ou riscos de
+desabamento.
+Use duas faixas de 1,5 m, A e B, e linhas internas
+1-12. A linha 0 fica na entrada. Da posição A0 até
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+161

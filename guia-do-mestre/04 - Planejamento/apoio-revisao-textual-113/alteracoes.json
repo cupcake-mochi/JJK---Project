@@ -1,0 +1,198 @@
+{
+  "registro": 113,
+  "alteracoes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "apoio-conducao-102/consulta-de-regras.html",
+      "depois": "apoio-revisao-textual-113/consulta-de-regras.html#conducao",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Use a conversa, uma ação da ficha ou a regra pertinente.",
+      "depois": "Use a conversa, uma ação da ficha ou a regra daquela tentativa.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Resistência ou outra incerteza pode pedir teste.",
+      "depois": "Se ainda houver dúvida sobre a resposta, confira se a tentativa pede um teste.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Se houver uma tentativa incerta de obter uma resposta cabível, use **Influenciar**, com a abordagem e a CD pertinentes. Em combate, custa Ação Padrão. Um sucesso obtém a resposta cabível, sem controlar a vontade ou decidir por um personagem jogador.",
+      "depois": "Quando o pedido puder ser atendido, mas houver dúvida sobre a resposta, use **Influenciar**. Confira a abordagem e a CD na regra. Em combate, custa Ação Padrão. Um sucesso consegue a resposta que aquela pessoa pode dar, sem controlar sua vontade ou decidir por um personagem jogador.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "## 4.5 As ideias dos jogadores e o cenário",
+      "depois": "<span id=\"45-as-ideias-dos-jogadores-e-o-cenario\"></span>\n\n## 4.5 As ideias dos jogadores",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Mover caixas usa carga, força, ações e percurso; causar um desabamento com dano exige resolução própria.",
+      "depois": "Para mover caixas, confira carga, força, ações e percurso. Para causar um desabamento com dano, defina também como resolver seus efeitos pelas regras.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "## 4.6 Atenção, ritmo e mudança de cena",
+      "depois": "<span id=\"46-atencao-ritmo-e-mudanca-de-cena\"></span>\n\n## 4.6 Participação e ritmo",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "A **sessão** é o encontro real para jogar. Uma **cena** acompanha uma situação em andamento e termina quando a pressão daquele trecho acaba. A **missão** pode atravessar várias cenas e sessões.",
+      "depois": "A **sessão** é o encontro real para jogar. Uma **cena** acompanha uma situação em andamento e termina quando a pressão daquele trecho acaba. Na despedida, a partida de Helena pode marcar esse fim. A **missão** pode atravessar várias cenas e sessões.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Uma ação que começaria nesse ponto não antecipa o prazo já esgotado; capacidades com gatilho próprio conservam seu momento.",
+      "depois": "Se a janela acabou, uma ação que começaria naquele ponto já chega tarde. Capacidades com um momento próprio de uso seguem o que está escrito nelas.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Depois de sair do perigo, concluir um descanso curto permite a saída excepcional: recupera 1 de vida,",
+      "depois": "Depois de sair do perigo, um alvo estável que conclua um descanso curto recupera 1 de vida,",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "mas reservas positivas não o devolvem à cena.",
+      "depois": "mas ter vida ou outros pontos acima de zero não permite voltar a agir naquela cena.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Confira ação, alvo, alcance, resolução e prazo.",
+      "depois": "Confira a ação, o alvo, o alcance, como resolver o efeito e quanto tempo ele dura.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Criar uma campanha mostra como reunir essas escolhas ao longo do tempo.",
+      "depois": "[Criar uma campanha](05-criar-uma-campanha.md) mostra como reunir essas escolhas ao longo do tempo.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Prepare suas missões conforme Preparar aventuras.",
+      "depois": "Use [Preparar aventuras](03-preparar-aventuras.md) para desenvolver as missões.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Isso não concede controle do corpo; as modalidades e os efeitos seguem suas regras.",
+      "depois": "Isso não concede controle do corpo; as opções da ficha e seus efeitos seguem as regras do Receptáculo.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Uma visita pode acompanhar outro compromisso em paralelo, como explicado em Na mesa de jogo.",
+      "depois": "Uma visita pode acontecer enquanto outros personagens cuidam de outro compromisso, como explicado em [Na mesa de jogo](04-na-mesa-de-jogo.md#46-participacao-e-ritmo).",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Use o perigo resolvido e as soluções diferentes que surgirem.",
+      "depois": "Se o perigo foi resolvido, parta desse resultado. Acompanhe também as soluções diferentes que surgirem.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Esta ferramenta descritiva não exige ação a cada encontro nem acrescenta pontos, turnos ou benefícios automáticos.",
+      "depois": "As notas ajudam a acompanhar a organização, sem obrigá-la a agir a cada encontro nem acrescentar pontos, turnos ou benefícios automáticos.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Para um confronto, prepare a ficha e as regras pertinentes; posição importante na história não substitui capacidades.",
+      "depois": "Se houver confronto, prepare a ficha e as regras que ele usará. Ser importante na história não dá ao antagonista poderes ausentes da ficha.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "A derrota segue sua ficha e as regras, sem participação extra por um corte de descrição.",
+      "depois": "Se for derrotado, aplique as regras da ficha. Mudar a cena narrada não lhe concede outra ação ou uma fuga.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Quando a regra deixar espaço, ofereça sucesso com custo coerente. No caso do arquivo, a tentativa leva dez minutos. Antes do teste, o mestre oferece conclusão com mais vinte minutos se ela falhar.",
+      "depois": "Quando a regra permitir, você pode oferecer um sucesso que exija um custo adicional. No caso do arquivo, a tentativa leva dez minutos. Antes do teste, o mestre avisa que, em caso de falha, a personagem poderá terminar a tarefa gastando mais vinte minutos.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Se a mesa terminou, resuma a saída.",
+      "depois": "Se ninguém quiser acrescentar algo, resuma a saída.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "organize a iniciativa antes das ações disputadas.",
+      "depois": "organize a iniciativa antes de resolver as ações do confronto.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": " Os acordos podem acompanhar a experiência do grupo.",
+      "depois": "",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Registre o que mudou: um pedido aceito, uma informação compartilhada ou uma promessa cumprida. Uma relação estável pode oferecer convivência e apoio. Uma discordância pode levar a novos termos ou ao fim daquele contato. O jogador continua escolhendo como sua personagem se sente e responde.",
+      "depois": "Registre pedidos aceitos, informações compartilhadas e promessas cumpridas. Uma relação estável pode oferecer convivência e apoio; uma discordância pode levar a outro acordo ou ao fim do contato. O jogador escolhe como sua personagem se sente e responde.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Defina a causa do perigo, suas pistas e a ameaça antes de usar a investigação. A pergunta do arco orienta o preparo; a verdade da ocorrência precisa estar preparada para que as descobertas façam sentido.",
+      "depois": "Antes de jogar a investigação, defina a causa do perigo, as pistas e a ameaça. A pergunta do arco orienta as aventuras; os fatos preparados sustentam as descobertas.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Se o perigo foi resolvido, parta desse resultado. Acompanhe também as soluções diferentes que surgirem.",
+      "depois": "Continue a partir dos problemas resolvidos e das soluções que o grupo encontrar.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Acompanhe as organizações em foco quando houver tempo, informação ou oportunidade relevante. Seus integrantes podem discordar, cumprir acordos ou encerrar assuntos. As notas ajudam a acompanhar a organização, sem obrigá-la a agir a cada encontro nem acrescentar pontos, turnos ou benefícios automáticos.",
+      "depois": "Retome as organizações quando tempo, informação ou oportunidade permitirem uma ação. Seus integrantes podem discordar, cumprir acordos ou encerrar assuntos. As notas não obrigam a organização a agir a cada encontro nem acrescentam pontos, turnos ou benefícios automáticos.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Uma vitória antecipada também pode encerrar o assunto. Releia o que resta e prepare suas consequências, em vez de acrescentar outra fase para prolongar a disputa. Se alguém voltar depois, explique como sobreviveu, o que conservou e o que quer agora. Uma relação pode mudar ou terminar sem revanche.",
+      "depois": "Uma vitória antecipada pode encerrar o assunto. Prepare as consequências do que restou, sem acrescentar uma fase só para prolongar a disputa. Se alguém voltar depois, explique como sobreviveu, o que conservou e o que quer agora. A relação pode mudar ou terminar sem revanche.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Quando um assunto se aproximar do fim, retome sua pergunta e ouça o que os jogadores desejam concluir. Prepare as oportunidades de agir sobre esses assuntos.",
+      "depois": "Quando um assunto se aproximar do fim, retome sua pergunta e o que os jogadores desejam concluir. Prepare oportunidades para agir.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "antes": "Deixe soluções rápidas ou diferentes mudarem o desfecho. O final mostra o resultado das escolhas, mesmo quando diverge do que você imaginou.",
+      "depois": "Deixe soluções rápidas ou diferentes mudarem o desfecho, mesmo quando você imaginou outro final.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "antes": "Explique antes da escolha que depende da resposta, sempre que possível.",
+      "depois": "Se possível, esclareça a dúvida antes de o jogador escolher como agir.",
+      "passagem": 2
+    }
+  ],
+  "limite": "Revisão editorial; estabilidade explicitada conforme a regra publicada; sem regra nova ou rebalanceamento."
+}

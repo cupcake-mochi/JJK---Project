@@ -1,0 +1,22 @@
+{
+  "registro": 119,
+  "lote": "B2-01",
+  "casos": [
+    "s059",
+    "s060",
+    "s074",
+    "s100",
+    "s067"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-119/output/pdf/Ciclo-Maldito-Energia-Habilidades-e-Chefes-Revisao-Textual.pdf",
+  "paginas": 17,
+  "casos_revistos_total": 15,
+  "casos_pendentes": 44,
+  "lotes_pendentes": 11,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-02",
+  "modelo_recomendado": "GPT-6.1 Sol",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

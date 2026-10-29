@@ -1,0 +1,152 @@
+{
+  "registro": 120,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-120/output/pdf/Ciclo-Maldito-Perigos-e-Carregador-Revisao-Textual.pdf",
+  "pdf_sha256": "9b9e256298784b902f69030835b58dd525ce5d74dd37418db5e88cef58ef9c89",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 63,
+      "escopo": "Leitura integral das quatro fontes, quatro cópias e primeira revisão de clareza/remissões."
+    },
+    {
+      "passagem": 2,
+      "registros": 35,
+      "escopo": "Leitura integral do texto da prova completa de 17 páginas; pente fino e refinamentos posteriores relidos nos trechos afetados."
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-01.png",
+      "imagem_sha256": "8b3cdc39f52b282b15389f00a2dd2095c0a6ef246dca38039c43c75f4276c02e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Abertura, títulos e duas tabelas em coluna legíveis; sem células cortadas."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-02.png",
+      "imagem_sha256": "6a550d64a22f134c15a6483ba1868834dfacb7ef7ce75964b21c0ffed5868674",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Quadro de consequências e contagem por rodada; títulos, lista e texto legíveis."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-03.png",
+      "imagem_sha256": "9869993030f8da5a930466fd88bad1ef8bcd60b26af3066bfd72cefaf0f85f0b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Condições, doenças, Concentração e queda; subtítulos claros e sem título isolado."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-04.png",
+      "imagem_sha256": "cce0aecabb73395247d911366ab6438e418eaeb2e969bc9cd96d753dab90223d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Fechamento dos perigos e início do Amontoado; tabela de três inimigos larga e completa."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-05.png",
+      "imagem_sha256": "8f1850a1b772eab7188b853508a30f693955cecbbf8a53c04ea88adabf061555",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Médias, precisão, Alma e socorro; número de nível não fica isolado; exemplos e resultados legíveis."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-06.png",
+      "imagem_sha256": "3af3b825d987d559a15ab9f8dfaedbd4a1e0e59c4306c71001898f70c0d59a92",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Resultados históricos e quadro de reavaliação; linhas inteiras e encerramento distinto."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-07.png",
+      "imagem_sha256": "a67d62cd6ad3620bdbc9f4b6398706178e62e3360eca20d00a191de131b4a5ae",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Abertura do depósito, rotas e posições; tabela de distâncias legível."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-08.png",
+      "imagem_sha256": "e01b8768eda30a8595a437230e1dca2a2fe0cedc597fa2b13e633fa93331f067",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Mapa em largura inteira, entrada separada e duas rotas até o mesmo recuo; entulho destacado. Quadro distingue movimento e distância."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-09.png",
+      "imagem_sha256": "8ee0041ac2cb159a4ca3b7d3a21bb775ee3806e5bb2a9626ee5881dcbb55d56a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Comportamento completo e abertura de descobertas; título, introdução e duas primeiras linhas da tabela na mesma página."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-10.png",
+      "imagem_sha256": "ffa63b0c2cbfd86a07c3d86c862606b275a78838d960cc595270b632da5655c5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Continuação com cabeçalho repetido e três linhas completas; negociação e arrasto legíveis. Espaço antes do exemplo inteiro seguinte."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-11.png",
+      "imagem_sha256": "90709c836300b6bc22d2fd33df991a3f512df8a6692e74f97956ae8e0f98a13d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Exemplo de dois turnos em quadro largo; custos e alternativas legíveis, sem célula dividida."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-12.png",
+      "imagem_sha256": "972ec83dcb55b72d62c5dc7fbb00cd3422123e99947bc283b7a9c6cf9d8d850a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Prisioneiros, feridos e encerramento; quadro de resultados largo e legível."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-13.png",
+      "imagem_sha256": "1d0161a1a3e82697f479620c5176de3b4c21b24a4751d85cc322a6da74604a06",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Conferência em mesa e ficha do Carregador; atributos e tabela de estado inteiros e alinhados."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-14.png",
+      "imagem_sha256": "f3ba15b5a253ca788bcc883bd37ad24645a5228d7299b1304ef1cbb7d1b0ff4a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Manobras e resumo do lugar; títulos e tabela legíveis, sem corte de linha."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-15.png",
+      "imagem_sha256": "a39ee04fa17d2ee933dda96fc8014c23511e9584a7cf3a9d675131badedff687",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Requisitos e destruição antes da tabela da domada; fórmulas e valores legíveis."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-120/pagina-16.png",
+      "imagem_sha256": "afb5976b30eede0db002dfb39a7f4fc4e50f86f212a721170dc1a3828faefd1e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova de 16 páginas; imagem final idêntica",
+      "observacao": "Transporte e retorno; resumo final completo, sem página residual. Tamanho de consulta do quadro final legível."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Espaços de fechamento e antes de quadros inteiros serão reavaliados na integração.",
+    "Inspeção parcial, sem declarar revisão visual global ou comparação final concluída."
+  ]
+}

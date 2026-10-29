@@ -1,0 +1,119 @@
+{
+  "registro": 112,
+  "capitulos": [
+    {
+      "id": "c00",
+      "fonte": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "titulo": "Como usar este livro",
+      "sha256": "e57a7ea5106f9da38b6abc505e34f920ac84b36c863bd7520ba83b980926a871",
+      "primeira_passagem": "Redação e conferência da abertura",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        1
+      ],
+      "paginas_da_prova_atual": [
+        1
+      ],
+      "estado": "duas passagens locais; conferência geral do livro pendente"
+    },
+    {
+      "id": "c01",
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Sua primeira missão",
+      "sha256": "633c3e83f0ecc2493afb1bfbb341c2e29659c1508c3e040098428b4dd4f9a3e4",
+      "primeira_passagem": "Leitura integral da fonte anterior e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "paginas_da_prova_atual": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "estado": "duas passagens locais; conferência geral do livro pendente"
+    },
+    {
+      "id": "c02",
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "O mundo dos feiticeiros",
+      "sha256": "5512a6300c8f22c81c731bbe20a756ced4bc52ba7992fab7852faf0dc16698a1",
+      "primeira_passagem": "Leitura integral da fonte anterior e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "paginas_da_prova_atual": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "estado": "duas passagens locais; conferência geral do livro pendente"
+    },
+    {
+      "id": "c03",
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Preparar aventuras",
+      "sha256": "663fea4d636c584ab4950080e42baa7f2f5793472117142168634910be0cff56",
+      "primeira_passagem": "Leitura integral da fonte anterior e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "paginas_da_prova_atual": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "estado": "duas passagens locais; conferência geral do livro pendente"
+    },
+    {
+      "id": "c03a",
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Ideias para aventuras",
+      "sha256": "0a1fcf249ee8697110364c51eb31d00893bde16ce164d49944527579a08e9855",
+      "primeira_passagem": "Leitura integral da fonte anterior e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "paginas_da_prova_atual": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "estado": "duas passagens locais; conferência geral do livro pendente"
+    }
+  ],
+  "prova_da_segunda_passagem": "04 - Planejamento/apoio-revisao-textual-112/prova-1/prova.pdf",
+  "prova_da_segunda_passagem_sha256": "e5879970be5f1eced504b9c306c122b29c9ab5a493568fdcb27834f41c176484",
+  "regra_consultada": "Categoria de Efeito: base publicada, definição na seção de montagem de entidades; TR: regras gerais.",
+  "limite": "Registro do trabalho editorial do assistente; não avaliação humana independente."
+}

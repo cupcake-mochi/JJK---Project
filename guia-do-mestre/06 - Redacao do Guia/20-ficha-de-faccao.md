@@ -1,10 +1,10 @@
 # Ficha de facção
 
-Use para grupos cujas ações terão continuidade. Para um contato isolado, uma nota de pessoa na ficha de missão pode bastar. [Facções e reações](17-faccoes-e-reacoes.md) explica o preenchimento; a [linha de continuidade](16-linha-de-continuidade.md) registra os efeitos entre missões.
+Use para grupos cujas ações terão continuidade. Para um contato isolado, uma nota de pessoa na ficha de missão pode bastar. [Facções](17-faccoes-e-reacoes.md) explica o preenchimento; a [linha de continuidade](16-linha-de-continuidade.md) registra os efeitos entre missões.
 
 ## Modelo
 
-**Nome e recorte:** que parte da organização importa para esta campanha?
+**Nome e grupo acompanhado:** que parte da organização importa para esta campanha?
 
 **Objetivo atual e sinal de que foi alcançado:**
 
@@ -23,13 +23,13 @@ Use para grupos cujas ações terão continuidade. Para um contato isolado, uma 
 
 **Como os personagens podem perceber ou receber essa ação:**
 
-**O que ainda depende de resolução em jogo:**
+**O que ainda precisa ser resolvido em jogo:**
 
 **Última atualização e responsável pela continuidade:**
 
 ## Exemplo preenchido
 
-**Nome e recorte:** Roda das Oficinas, profissionais que compartilham um espaço no bairro. Organização original para este exemplo; não participa automaticamente dos pilotos anteriores.
+**Nome e grupo acompanhado:** Roda das Oficinas, profissionais que compartilham um espaço no bairro. Organização original para este exemplo; não participa automaticamente das missões anteriores.
 
 **Objetivo atual:** obter um espaço temporário para serviços interrompidos. Estará alcançado quando houver reserva confirmada e condições de uso combinadas.
 

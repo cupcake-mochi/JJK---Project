@@ -1,12 +1,12 @@
 # Conduzir uma sessão
 
-Durante a sessão, apresente a situação, ouça o que os personagens tentam fazer, resolva a tentativa e mostre o que mudou. Essa sequência liga o [preparo da missão](01-preparar-uma-missao.md) às escolhas dos jogadores.
+Durante a sessão, apresente a situação, ouça o que os jogadores querem fazer, descubra o resultado e mostre o que mudou. Essa sequência liga o [preparo da missão](01-preparar-uma-missao.md) às escolhas dos jogadores.
 
 Leia esta seção para aprender a conduzir essa conversa. A [folha de condução](05-folha-de-conducao.md) reúne os lembretes para usar durante o jogo. Os exemplos retomam **As batidas no anexo**: uma maldição move caixas num depósito; Ana, a recepcionista, pede ajuda. Todos os funcionários saíram, mas ela ainda não confirmou isso. Pessoas comuns, como Ana, normalmente não enxergam maldições e relatam os efeitos que perceberam.
 
-Uma **cena** é um trecho do jogo organizado em torno de uma situação. Conversar com os funcionários, examinar o anexo e enfrentar a criatura podem formar cenas. Sua duração depende do que acontece. Mudar a descrição ou encerrar uma conversa não recupera recursos automaticamente: cada capacidade e regra de recuperação conserva suas condições.
+Uma **cena** é um trecho do jogo organizado em torno de uma situação. Conversar com os funcionários, examinar o anexo e enfrentar a criatura podem formar cenas. Sua duração depende do que acontece. Mudar a descrição ou encerrar uma conversa não recupera recursos automaticamente: confira as condições de recuperação de cada recurso.
 
-## Da descrição à próxima escolha
+## A conversa da mesa
 
 Use esta sequência como orientação. Numa conversa simples, algumas etapas cabem na mesma resposta.
 
@@ -14,7 +14,7 @@ Use esta sequência como orientação. Numa conversa simples, algumas etapas cab
 |---|---|
 | Apresentar | Descreva o que os personagens percebem e o que exige atenção |
 | Entender | Esclareça o que o jogador quer conseguir e como tenta |
-| Resolver | Confira os meios e use a descrição ou a regra pertinente |
+| Resolver | Confira os meios e use a descrição ou a regra adequada |
 | Atualizar | Diga o resultado, registre custos e efeitos e apresente a situação atual |
 | Devolver a escolha | Ouça a próxima decisão e dê espaço aos demais participantes |
 
@@ -22,7 +22,7 @@ Use esta sequência como orientação. Numa conversa simples, algumas etapas cab
 
 O resultado muda a decisão seguinte. Conservar o medo de Ana como se ainda houvesse uma pessoa desaparecida apagaria o que os personagens acabaram de descobrir.
 
-## Descreva o suficiente para agir
+## Descreva a cena
 
 Comece pelo lugar, pelas pessoas acessíveis e pelo que chama atenção. Acrescente posições e distâncias quando elas interferirem numa escolha. Dê outros detalhes conforme o grupo pergunta ou examina o ambiente.
 
@@ -30,19 +30,19 @@ Comece pelo lugar, pelas pessoas acessíveis e pelo que chama atenção. Acresce
 
 A descrição oferece pessoas com quem falar e um lugar para investigar. Não precisa explicar toda a história do centro cultural. Também não revela a criatura a quem ainda não tem como percebê-la.
 
-Mantenha distintas três situações:
+Ao descrever, considere três tipos de informação:
 
 | Informação | Como apresentar |
 |---|---|
 | Evidente para aquele personagem | Descreva sem exigir que o jogador adivinhe uma pergunta |
-| Incerta, mas acessível por uma tentativa | Explique o que pode ser examinado e resolva pelo procedimento adequado |
-| Fora do alcance dos sentidos ou conhecimentos disponíveis | Explique o impedimento perceptível; uma rolagem não elimina esse requisito |
+| Incerta, mas acessível por uma tentativa | Explique o que pode ser examinado e use a regra adequada |
+| Fora do alcance dos sentidos ou conhecimentos disponíveis | Explique a limitação que o personagem consegue perceber; uma rolagem não elimina esse requisito |
 
 No exemplo, Ana aponta o caminho para o pátio. A planta mostra as duas entradas do corredor. Já a posição atual da maldição não aparece na planta: precisa ser descoberta por meios que permitam localizá-la.
 
 Se uma decisão parecer estranha, confira primeiro se a descrição foi entendida. “A entrada de serviço chega ao outro lado do corredor; o depósito continua tendo uma única porta. É por ali que você quer entrar?” Esse esclarecimento permite escolher com a informação que o personagem já teria.
 
-## Entenda a intenção e os meios
+## Entenda o que o jogador quer fazer
 
 “Quero investigar” ainda deixa dúvidas sobre o alvo e a abordagem. Pergunte apenas o que falta para resolver: “Você quer conferir quem saiu ou examinar de onde vieram as batidas?” Depois, estabeleça como o personagem tenta fazer isso.
 
@@ -50,13 +50,13 @@ Evite transformar o esclarecimento num interrogatório. Se o jogador disser que 
 
 Quando alguém nomear uma capacidade, peça também o que pretende descobrir ou conseguir. Isso ajuda a consultar o efeito correto. O jogador pode conhecer a obra e imaginar uma aplicação que sua ficha não oferece; confira o texto da capacidade para explicar o que ela permite no sistema.
 
-**Exemplo:** “Uso percepção de energia para saber todos os poderes da criatura.” Você consulta a capacidade declarada e explica quais informações ela entrega. Localizar uma fonte, enxergar seu corpo e compreender seus poderes são resultados diferentes. Resolva o que a capacidade efetivamente permite e pergunte o que o personagem faz com essa informação.
+**Exemplo:** “Uso percepção de energia para saber todos os poderes da criatura.” Você consulta a capacidade declarada e explica quais informações ela entrega. Localizar uma fonte, enxergar seu corpo e compreender seus poderes são resultados diferentes. Aplique o efeito descrito na habilidade e pergunte o que o personagem faz com essa informação.
 
-## Escolha como resolver
+## Quando pedir um teste
 
 **Peça um teste quando houver incerteza e a falha puder mudar a situação.** Sem obstáculo ou consequência relevante, a descrição pode bastar. Se houver uma regra específica, ela orienta os requisitos e o resultado.
 
-| Proposta no anexo | Encaminhamento |
+| O que o jogador propõe | Como resolver |
 |---|---|
 | Pedir a planta a Ana, que quer ajudar | Ela entrega; não há resistência que exija Persuasão |
 | Conferir os funcionários disponíveis e dispostos a responder | Resolva a conversa e a conferência; informe o que foi confirmado |
@@ -64,23 +64,23 @@ Quando alguém nomear uma capacidade, peça também o que pretende descobrir ou 
 | Compreender um sinal que a criatura apresenta | Confira se o personagem pode observá-lo e se a tentativa usa Estudar |
 | Atacar a criatura | Organize o confronto e use as regras de ataque e a capacidade declarada |
 
-Para um teste, consulte o bônus e a dificuldade indicados pelo procedimento. A **Classe de Dificuldade (CD)** é o valor a alcançar: role um d20 e some o bônus; igualar ou superar a CD é sucesso. Ataques e Testes de Resistência têm suas regras próprias. A seção [Testes da R53](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#geral--testes>) explica como escolher a dificuldade quando a tarefa não fornece uma.
+Para um teste, consulte o bônus e a dificuldade indicados pela regra. A **Classe de Dificuldade (CD)** é o valor a alcançar: role um d20 e some o bônus; igualar ou superar a CD é sucesso. Ataques e Testes de Resistência têm suas regras próprias. A seção [Testes do Livro de Regras 1.0](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#geral--testes>) explica como escolher a dificuldade quando a tarefa não fornece uma.
 
 **Exemplo de conta:** numa tarefa de CD 14, um personagem com bônus +4 tira 10: **10 + 4 = 14**, um sucesso. Essa conta ilustra a resolução; não estabelece CD 14 para as investigações do anexo.
 
-Antes da tentativa, informe os custos e consequências que o personagem pode prever. Ele pode saber que precisa se expor para observar a sala, sem conhecer todos os poderes de quem está lá. Esse cuidado oferece uma decisão informada sem revelar segredos inacessíveis.
+Antes da tentativa, informe os custos e consequências que o personagem pode prever. Ele pode saber que precisa se expor para observar a sala, sem conhecer todos os poderes de quem está lá. Assim, o jogador escolhe sabendo o que seu personagem sabe, sem receber informações que ainda não poderia ter.
 
 Depois da rolagem, aplique a consequência prevista. Quando a regra deixar margem, você pode interpretar como uma falha muda a situação. Se ela já disser o que acontece, preserve esse resultado.
 
-**Exemplo de limite:** em combate, Estudar custa uma Ação Padrão e busca responder uma pergunta concreta sobre algo observável. Na falha, a ação foi gasta e a observação não respondeu com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não permite outra tentativa. Esse limite pertence a Estudar; confira o procedimento correspondente para outras tarefas.
+**Exemplo de limite:** em combate, Estudar custa uma Ação Padrão e busca responder uma pergunta concreta sobre algo observável. Na falha, a ação foi gasta e a observação não respondeu com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não permite outra tentativa. Esse limite pertence a Estudar; confira as regras de outras tarefas antes de aplicar o mesmo limite.
 
-### Resultado com custo e trabalho em grupo
+### Sucesso com custo e testes em grupo
 
-Quando o procedimento deixar margem, você pode oferecer sucesso com custo ou complicação. Apresente uma consequência coerente e preserve resultados já fechados pela regra. O [caso do arquivo](82-testes-trabalho-em-grupo-e-iniciativa.md) mostra uma investigação concluída com atraso, a opção de recusar esse custo e um resultado que não pode ser substituído dessa forma.
+Quando a regra permitir, você pode oferecer sucesso com custo ou complicação. Apresente uma consequência coerente e preserve resultados que a regra já determina. O [caso do arquivo](82-testes-trabalho-em-grupo-e-iniciativa.md) mostra uma investigação concluída com atraso, a opção de recusar esse custo e um resultado que não pode ser substituído dessa forma.
 
-Se uma pessoa conduz a tarefa e outra contribui, confira **Ajudar**. Se todos precisam superar uma tarefa juntos, cada participante faz o teste e **pelo menos metade precisa passar**: duas pessoas em quatro, três em cinco. Ocultação durante combate é individual. Os [casos de ajuda e travessia](82-testes-trabalho-em-grupo-e-iniciativa.md) comparam esses procedimentos sem somar os bônus dos participantes.
+Se uma pessoa conduz a tarefa e outra contribui, confira **Ajudar**. Se todos precisam superar uma tarefa juntos, cada participante faz o teste e **pelo menos metade precisa passar**: duas pessoas em quatro, três em cinco. Ocultação durante combate é individual. Os [casos de ajuda e travessia](82-testes-trabalho-em-grupo-e-iniciativa.md) comparam essas regras sem somar os bônus dos participantes.
 
-## Responda ao inesperado
+## Quando o grupo surpreende você
 
 Use os fatos preparados para avaliar uma proposta nova. Primeiro confira se ela é possível com os meios presentes. Depois procure a regra que resolve seu efeito. Se faltar um detalhe comum, complete-o de maneira coerente e anote quando ele importar para a continuidade.
 
@@ -88,13 +88,13 @@ Use os fatos preparados para avaliar uma proposta nova. Primeiro confira se ela 
 
 **Mestre:** “Você quer tirá-la do caminho ou descobrir como reage ao papel? De onde pretende fazer isso?”
 
-A resposta permite conferir distância, posição e o objeto usado. A criatura foi preparada para proteger a pilha; não foi definida como alguém que persegue qualquer papel. A proposta pode ser tentada pelos procedimentos aplicáveis, mas não ganha um efeito automático de controle. Se a jogada depender de uma manobra ou capacidade, consulte seus limites antes de resolver.
+A resposta permite conferir distância, posição e o objeto usado. A criatura foi preparada para proteger a pilha; não foi definida como alguém que persegue qualquer papel. A proposta pode ser tentada pelas regras adequadas, mas não ganha um efeito automático de controle. Se a jogada depender de uma manobra ou capacidade, consulte seus limites antes de resolver.
 
 Uma ideia também pode funcionar diretamente. Se Ana tem a planta e aceita mostrá-la, o grupo descobre o acesso de serviço. Você não precisa esconder a planta ou trancar a entrada para preservar o percurso que imaginou.
 
 Quando faltar uma regra para o efeito desejado, trate a dúvida com a mesa. Distinguir o detalhe que você pode completar de um benefício que precisa de regra evita transformar improvisação em uma capacidade nova permanente.
 
-## Interprete pessoas pelo que querem e sabem
+## Interprete as outras pessoas
 
 Consulte o desejo, o conhecimento e os limites de cada pessoa. Você pode falar como ela ou resumir a conversa. A voz escolhida não muda o que ela sabe.
 
@@ -106,7 +106,7 @@ Use a fala direta quando o grupo quiser explorar a relação. Use o resumo para 
 
 Se houver resistência, considere seu motivo. Davi pode descrever o caminho sem aceitar voltar ao depósito. A ajuda que ele oferece não implica concordância com qualquer pedido. Uma hipótese dos jogadores também não se torna o testemunho dele: se perguntarem quem estava movendo as caixas, ele continua sem ter visto essa pessoa ou criatura.
 
-## Distribua a atenção
+## Dê espaço a todos
 
 Fora de combate, aproveite pausas naturais para ouvir os demais. Depois de esclarecer uma proposta, pergunte o que os outros fazem enquanto ela acontece. Resolva respeitando o tempo necessário e o que cada personagem pode saber.
 
@@ -120,31 +120,31 @@ Convide quem teve menos espaço: “Quer fazer algo enquanto os colegas conversa
 
 Se o grupo se separar, registre quem está onde e quais informações foram compartilhadas. Alterne em pontos de decisão, sem presumir que alguém conhece o que aconteceu longe dele. Em combate, essa alternância de conversa continua respeitando a iniciativa e as ações disponíveis.
 
-## Avance quando a situação permitir
+## Quando passar à próxima cena
 
-Quando o grupo já decidiu o que fazer, confira se alguém ainda quer conversar, preparar algo ou tomar outra providência. Se o percurso seguinte não trouxer obstáculo ou escolha relevante, você pode resumir o deslocamento e apresentar a próxima situação.
+Quando o grupo já decidiu o que fazer, confira se alguém ainda quer conversar, preparar algo ou resolver uma pendência. Se o percurso seguinte não trouxer obstáculo ou escolha relevante, você pode resumir o deslocamento e apresentar a próxima situação.
 
 **Exemplo:** o grupo conferiu os funcionários e decidiu olhar o anexo pela entrada principal. Pergunte se há algo a fazer antes de sair da recepção. Se não houver, descreva a chegada ao pátio e o acesso ao corredor. Pare antes de resolver a aproximação do perigo, pois posições e meios de observação podem importar ali.
 
-Uma conversa calma também pode importar: um personagem quer tranquilizar Ana ou falar com um colega sobre seu receio de entrar. Dê espaço a essa intenção. O critério para avançar é o que ainda está em decisão, inclusive nas relações entre personagens.
+Uma conversa calma também pode importar: um personagem quer tranquilizar Ana ou falar com um colega sobre seu receio de entrar. Dê espaço a essa intenção. O critério para avançar é o que ainda precisa ser decidido, inclusive nas relações entre personagens.
 
 Se os jogadores parecerem sem direção, retome brevemente o que sabem e o que continua incerto. “Todos os funcionários estão fora. Vocês conhecem os acessos, mas ainda não viram o que move as caixas. Podem examinar o local ou falar com Mina; também podem propor outro caminho.” Oferecer opções conhecidas ajuda a começar sem fechar a escolha.
 
 Ao resumir tempo, confira efeitos em andamento, riscos e recursos. Uma mudança de cena não equivale por si só a descanso. Se você avançar além de uma providência que alguém pretendia tomar, esclareça o momento e ajuste com a mesa antes de resolver consequências que dependam dela.
 
-## Passe ao confronto com posições claras
+## Quando começa o combate
 
 No anexo, o Amontoado fica hostil se for atacado ou se tentarem desmontar sua pilha. Quando o confronto começar, organize a iniciativa antes de resolver suas ações. Declare as posições conhecidas, confira distâncias e mantenha a ficha do inimigo disponível.
 
-O relato de uma intenção de ataque não concede um golpe gratuito antes da iniciativa. Da mesma forma, a entrada de serviço oferece outra aproximação, mas não concede surpresa automaticamente. Aplique as regras e capacidades que a situação realmente permite.
+Dizer “eu ataco” não concede um golpe gratuito antes da iniciativa. Da mesma forma, a entrada de serviço oferece outra aproximação, mas não concede surpresa automaticamente. Aplique as regras e capacidades que a situação realmente permite.
 
 Na iniciativa comum, compare os totais de d20 + Destreza e demais modificadores ativos. Em empate, maior Destreza vem primeiro. Se ela também empatar, personagem de jogador vem antes de inimigo; entre jogadores, eles escolhem a ordem, e entre inimigos você escolhe. Registre uma vez para o combate. O [quadro de cinco participantes](82-testes-trabalho-em-grupo-e-iniciativa.md) demonstra a sequência.
 
-Durante o confronto, acompanhe a ordem dos turnos, os recursos gastos e os efeitos com duração. A Reação é recuperada no começo do turno do participante, conforme a R53. Termine a resolução em curso, incluindo as respostas permitidas por seus gatilhos, antes de seguir para outra tentativa.
+Durante o confronto, acompanhe a ordem dos turnos, os recursos gastos e os efeitos com duração. A Reação é recuperada no começo do turno do participante, conforme o Livro de Regras 1.0. Termine a ação e todas as respostas que as regras permitem antes de passar à próxima ação.
 
-Se alguém cair a zero de vida, consulte o procedimento de queda antes de assumir que deixou de agir. Insistir pode manter o personagem ativo dentro da janela de socorro. Derrotado encerra sua participação ativa naquela cena. O [confronto acompanhado do piloto](<../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) mostra duas quedas e o tratamento passo a passo; os resultados dos dados foram escolhidos para ensinar, e não previstos para uma sessão real.
+Se alguém cair a zero de vida, consulte as regras de queda antes de assumir que deixou de agir. Insistir pode manter o personagem ativo dentro da janela de socorro. Derrotado encerra sua participação ativa naquela cena. O [confronto comentado](<../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) mostra duas quedas e o tratamento passo a passo; os resultados dos dados foram escolhidos para ensinar, e não previstos para uma sessão real.
 
-## Resolva dúvidas e registre o combinado
+## Dúvidas de regra
 
 Procure primeiro a capacidade declarada e a regra geral que ela modifica. Confira ação, alvo, alcance, resolução e prazo. Ler apenas o nome costuma deixar de fora o requisito que decide o caso.
 
@@ -152,18 +152,18 @@ Procure primeiro a capacidade declarada e a regra geral que ela modifica. Confir
 
 Se a dúvida persistir, combine uma decisão para aquela sessão e registre o trecho que causou interpretações diferentes. Explique a resolução antes da escolha que depende dela, sempre que possível. Depois da conferência, comunique a correção aos envolvidos.
 
-Na guilda, encaminhe a dúvida conforme o procedimento compartilhado e identifique a decisão provisória no registro. Em campanha fechada, guarde-a nas notas do grupo. Um acordo para resolver aquela sessão não se torna automaticamente uma regra para todas as mesas.
+Na guilda, encaminhe a dúvida pelo canal indicado pela comunidade e identifique a decisão provisória no registro. Em campanha fechada, guarde-a nas notas do grupo. Um acordo para resolver aquela sessão não se torna automaticamente uma regra para todas as mesas.
 
-## Encerre registrando o que mudou
+## No fim da sessão
 
-Quando a participação do grupo chegar a um desfecho, confirme o resultado com os jogadores. Registre o que foi feito, recursos restantes, consequências das quedas, aquisições e pendências. Preserve socorro em andamento e outros prazos relevantes. Descanso, recuperação, progressão e recompensas seguem seus procedimentos.
+Quando a participação do grupo chegar a um desfecho, confirme o resultado com os jogadores. Registre o que foi feito, recursos restantes, consequências das quedas, aquisições e pendências. Preserve socorro em andamento e outros prazos relevantes. Descanso, recuperação, progressão e recompensas seguem suas regras.
 
-**Exemplo sem confronto:** o grupo confirma que todos saíram, combina com Ana o fechamento do anexo e transmite a ocorrência a Mina. Ela aceita acompanhar o encaminhamento. Vocês podem encerrar essa participação registrando a ameaça ainda no depósito e quem cuidará do próximo passo. A ocorrência continua pendente até uma intervenção efetiva.
+**Exemplo sem confronto:** o grupo confirma que todos saíram, combina com Ana o fechamento do anexo e transmite a ocorrência a Mina. Ela aceita acompanhar o encaminhamento. Vocês podem encerrar essa participação registrando a ameaça ainda no depósito e quem cuidará do próximo passo. A ocorrência continua pendente até que alguém resolva a ameaça.
 
-Se a sessão precisar terminar no meio de uma situação, registre onde todos estão e o que falta resolver. Em combate, conserve também iniciativa, efeitos, ações e recursos já gastos. Retomar em outro dia não reinicia esses dados por si.
+Se a sessão precisar terminar no meio de uma situação, registre onde todos estão e o que falta resolver. Em combate, conserve também iniciativa, efeitos, ações e recursos já gastos. Ao retomar em outro dia, continue de onde pararam; os recursos gastos não voltam só por isso.
 
 Ao final, peça um retorno concreto: “Em que momento faltou informação para você decidir?” Anote a resposta e o trecho relacionado. Ela orientará a revisão do preparo ou da explicação para a próxima sessão.
 
-Para aprofundar situações específicas, consulte [Conduzir uma investigação](10-investigacao-em-andamento.md) e [Espaço e usos criativos](11-espaco-e-usos-criativos.md).
+Para aprofundar situações específicas, consulte [Conduzir uma investigação](10-investigacao-em-andamento.md) e [O cenário e as ideias dos jogadores](11-espaco-e-usos-criativos.md).
 
-*Base: [Mestrar uma sessão, R53](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#consulta--consulta-conduzir>), Testes, Turnos, percepção, Estudar e Vida a zero. Consulte as [referências](REFERENCIAS.md) para o apoio à orientação de ritmo e o [piloto completo](<../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) para acompanhar a ocorrência.*
+*Base: [Mestrar uma sessão, Livro de Regras 1.0](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#consulta--consulta-conduzir>), Testes, Turnos, percepção, Estudar e Vida a zero. Consulte as [referências](REFERENCIAS.md) para o apoio à orientação de ritmo e o [piloto completo](<../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) para acompanhar a ocorrência.*

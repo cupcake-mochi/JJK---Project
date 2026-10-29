@@ -1,0 +1,38 @@
+{
+  "registro": 112,
+  "pdf_sha256": "31bae7ab6b7960b2350817994af0b2e8ccba327f07cea8fa11bfa09165a788f5",
+  "fontes_revisadas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    }
+  ],
+  "links_locais_conferidos": 103,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "pdf_integrado_preservado": true,
+  "amostras_100_101_104_preservadas": true,
+  "cobertura": "130 pontos e 20 competências documentais preservados; estados não promovidos.",
+  "base_de_regras_preservada": true,
+  "limites": [
+    "Conferência de texto, números e arquivos; não é teste humano ou validação de equilíbrio.",
+    "Primeiro lote da etapa 6; revisão integral do livro ainda em andamento."
+  ]
+}

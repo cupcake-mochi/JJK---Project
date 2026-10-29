@@ -1,0 +1,483 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                             ENTRE MISSÕES
+
+
+
+CAPÍTULO 8
+
+
+Entre missões
+O fim de uma missão abre espaço para cuidar do                  também comporta encontros que terminam bem.
+corpo, procurar pessoas, trabalhar e escolher o                 As ideias para aventuras oferecem situações que
+próximo compromisso. Pergunte o que cada                        podem crescer ou permanecer pequenas.
+personagem quer fazer e quais condições ainda
+precisam de atenção. Uma tarde comum pode                       A pausa que a ficha precisa
+merecer uma cena, sem precisar terminar numa                    Descanso curto é uma pausa segura entre
+nova ameaça.                                                    confrontos, sem perseguição naquele momento.
+Este capítulo reúne descanso, dedicação, Ofícios,               Descanso longo exige que a missão tenha
+equipamento e recompensas. O Livro de Regras 1.0                terminado e que os personagens possam parar de
+fornece suas regras; o ciclo de dedicação é a                   trabalhar. O livro não fixa uma quantidade de horas
+recomendação deste Guia para a guilda. As                       para esses descansos. Uma pausa contínua conta
+regras usadas aqui e os casos completos ficam                   uma vez.
+disponíveis para consulta.                                      O lugar propício oferece abrigo, suprimentos e
+                                                                meios de atendimento. Confira o que existe ali: a
+8.1 Rotina e descanso                                           escola sob ataque pode não ser segura; outro abrigo
+                                                                pode oferecer o cuidado necessário. A Origem e as
+Comece pelo que aconteceu: onde a equipe
+                                                                capacidades podem mudar o que o personagem
+terminou, quem precisa de atendimento, quais
+                                                                precisa.
+recursos restaram e que compromissos continuam
+abertos. Entregar o relatório pode encerrar a                   O curto normalmente recupera 25% dos PE
+missão sem curar uma doença; recuperar-se pode                  máximos, para baixo, mínimo 1 quando a fração for
+permitir uma nova saída sem resolver o objetivo                 positiva, até o máximo. Vida e Integridade não
+perdido.                                                        voltam pela pausa sozinha. Com 10 PE máximos e
+                                                                saldo 1, recupera 2 e fica com 3. Fora de ambiente
+Depois, pergunte o que os personagens procuram.
+                                                                propício, confira a porcentagem de Exaustão.
+Alguém quer visitar uma amiga, outra pessoa
+precisa buscar o uniforme e alguém deseja                        Descanso      Em lugar propício   Fora dele
+entender um símbolo. Escolha o que merece                        longo
+atenção junto dos jogadores. Não transforme toda
+                                                                 Vida e PE     Voltam ao           Ficam no mínimo
+conversa em teste nem toda dificuldade cotidiana                               máximo              na metade do
+em missão.                                                                                         máximo
+
+ O que está em jogo              Como conduzir                   Integridade   Volta ao máximo;    Mesmo resultado
+                                                                               limpa os estágios
+ Tarefa simples, com             Resuma e registre o gasto ou
+ meios e resultado               a mudança relevante             Exaustão      É removida          Permanece
+ claros
+                                                                 Sequelas      São removidas       Mesmo resultado
+ Relação ou escolha              Faça uma cena curta, com                      depois da
+ importante                      espaço para aceitar, recusar                  recuperação
+                                 ou propor outro caminho
+
+ Trabalho continuado             Combine um projeto, seus       Fora de lugar propício, a metade é um mínimo, não
+                                 recursos e seu prazo           uma parcela somada ao saldo. Arredonde para
+                                                                baixo, mínimo 1 quando o máximo for positivo.
+ Busca com obstáculos            Apresente a possibilidade de   Com máximo de vida 23, saldo 3 passa a 11; saldo
+ e consequências                 uma missão antes de começar
+                                                                18 continua 18. Aplique primeiro a recuperação e a
+ amplos
+                                                                Sequela que ela gerar por uma queda; depois
+                                                                remova as Sequelas.
+Uma visita à oficina pode ser uma conversa sobre
+uma amizade ou apenas a retirada de uma peça. Se                Essas são as regras gerais. Corpo Exaurido,
+o jogador quer somente buscar o uniforme pronto e               Existência Artificial e outras capacidades
+não há impedimento, resolva a entrega. O cotidiano              conservam suas exceções. A
+                                                                consulta de recuperação inclui cuidados, Exaustão
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                           1
+CICLO MALDITO / GUIA DO MESTRE                                                                   ENTRE MISSÕES
+
+
+
+e saída de derrota. Uma doença pode exigir seu       Uma ficha liberada tem acesso sem mínimo de
+tratamento mesmo depois de recuperar reservas; a     missões ou postagens. Ainda precisa dos
+febre dos fios mostra um caso preparado com          conhecimentos, meios, condições físicas e tempo
+prazos próprios.                                     na história. Receber 28 horas não permite trabalhar
+                                                     numa oficina durante uma viagem incompatível.
+Trabalhar não é descansar. Uma espera pode
+permitir repouso se as condições forem cumpridas;
+                                                     Entrada, retorno e afastamento
+não concede recuperação por si. Dormir durante
+uma missão renova usos por dia conforme sua          Na entrada no meio do ciclo, conceda quatro horas
+regra, mas não equivale automaticamente a            por dia restante, incluindo a data de entrada. Uma
+descanso longo. Registre o que efetivamente voltou   ficha liberada no quinto dia recebe 3 × 4 = 12 horas,
+antes de preparar outra saída.                       pelos dias 5, 6 e 7. Só pode trabalhar depois da
+                                                     entrada. Uma ficha nova não herda saldo ou
+                                                     projetos de outra; reabrir a mesma ficha conserva
+8.2 Tempo para as atividades                         seu registro, sem nova concessão pelos dias já
+Separe dedicação, o tempo de trabalho da             cobertos.
+personagem, de espera, o prazo em que algo precisa
+                                                     O afastamento formal interrompe novas concessões
+acontecer sem trabalho contínuo. O projeto
+                                                     a partir do ciclo seguinte. A parcela atual mantém
+informa se a espera exige supervisão. Aguardar
+                                                     sua validade, e o trabalho ainda precisa ser possível
+uma peça pode permitir outra tarefa; acompanhar
+                                                     na história. No retorno, aplique a proporção dos
+um processo que não pode ficar sozinho pode
+                                                     dias restantes, sem crédito pelo afastamento. Um
+impedir uma viagem.
+                                                     saldo anterior só pode ser usado se continuar
+Use horas diretamente. Um reparo de quatro horas     válido; retornar não renova seu vencimento.
+pode ser dividido em duas tardes de duas horas, se
+                                                     Anote quais fichas estão abrangidas pelo
+aceitar interrupção. Uma entrega no dia seguinte
+                                                     afastamento. A falta de mensagens não cria
+não executa o trabalho restante. Também não
+                                                     afastamento formal automático nem prova que a
+acrescente outro dia obrigatório a um serviço que
+                                                     personagem deixou de praticar. O controle de horas
+já cabe hoje.
+                                                     não retira capacidades adquiridas.
+O ciclo da guilda                                    O que passa para o ciclo seguinte
+O padrão recomendado é 28 horas novas por ficha
+                                                     Transfira apenas a parte livre da concessão nova.
+a cada ciclo comum de sete dias. O mundo
+                                                     Ela vale somente no ciclo seguinte. Use primeiro a
+acompanha aproximadamente os dias reais. A
+                                                     parcela antiga e deixe sua origem visível.
+organização informa abertura, fechamento, fuso e
+os intervalos correspondentes na história. O ciclo    Fechamento               Abertura seguinte
+organiza registros; não exige sessão semanal,
+                                                      Usou as 28 horas novas   28 novas
+postagem diária ou quatro horas de trabalho em
+cada dia.                                             Deixou 10 novas livres   28 novas + 10 antigas = 38
+Rina e Mei pertencem à mesma pessoa, mas são          Deixou 28 novas livres   28 novas + 28 antigas = 56
+personagens diferentes. Cada ficha elegível recebe
+suas próprias 28 horas, com gastos e saldo           O restante antigo expira no próximo fechamento.
+separados. Uma não transfere horas livres para a     Não passa novamente nem forma um banco sem
+outra. Trabalhar juntas exige registrar a            limite. Rina abre com 10 antigas e 28 novas;
+contribuição de cada personagem.                     trabalha 20, usando primeiro as 10 antigas. Restam
+As horas não representam toda a vida comum. Uma      18 novas para transferir. Se abrisse com 18 antigas
+conversa breve continua possível; um trabalho        e gastasse só 12, as 6 antigas restantes expirariam;
+extenso com resultado persistente conserva a         as 28 novas livres poderiam passar.
+dedicação exigida mesmo quando narrado em duas       O progresso realizado fica no projeto. Ele não
+frases. Jogar mais missões não dá horas extras, e    expira com o saldo e não volta a ser hora livre. A
+não jogar uma missão não retira a disponibilidade    folha de dedicação mostra Rina e Mei em três
+básica.                                              ciclos, com entrada proporcional e conferência
+                                                     pendente.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                2
+CICLO MALDITO / GUIA DO MESTRE                                                                         ENTRE MISSÕES
+
+
+
+                                                         significado pode pedir outro conhecimento. Um
+Trabalho ainda em conferência                            pedido bem preenchido por Burocracia ainda
+Separe horas confirmadas, reservadas e livres. As        precisa ser aprovado por quem tem essa autoridade.
+reservadas ficam vinculadas à atividade; não podem       O treino permite a prática aprendida, com
+também financiar outro projeto ou aparecer como          materiais, ferramentas e acesso adequados. Não
+saldo transferido. O resultado pendente ainda não        fornece oficina ou receita ausente. Sem treino,
+pode ser usado.                                          normalmente não há tentativa; uma improvisação
+Mei fecha com 10 horas confirmadas, 8 reservadas e       simples depende de autorização e condições
+10 livres: total 28. Transfere as 10 livres e abre com   anunciadas, usando só o atributo. Ela não concede
+38 disponíveis. As 8 continuam no registro original.     todas as aplicações do Ofício.
+Confirmá-las muda seu estado, sem acrescentar            No teste treinado, some
+horas. Se a revisão liberar alguma parcela, preserve     atributo da tarefa + Maestria ao d20. Use o
+sua origem e validade.                                   atributo padrão; se a tarefa exigir outro, informe
+Uma missão jogada em três sessões pode                   antes do dado. Essa flexibilidade é dos Ofícios, não
+representar uma noite. Uma missão que ocupa dias         uma troca livre do atributo de perícias.
+na história pode impedir o acesso à oficina.             Rina tem Arrombamento, Destreza 4, Inteligência 2
+Registre o intervalo vivido e as dependências antes      e Maestria 1. Manipular a tranca mecânica dá +5;
+de confirmar trabalho posterior. Um item fabricado       analisar o mecanismo eletrônico com meios
+depois não entra retroativamente numa missão             adequados pode dar +3. Contra CD 14, precisa de 9
+anterior.                                                ou 11 no dado. A tarefa mudou, não apenas o bônus
+                                                         preferido pela jogadora.
+Outro ciclo ou campanha fechada
+Para outro ciclo comum, preserve o ritmo de              Combinar o trabalho
+quatro horas por dia de calendário: 14 dias dão 56
+                                                          Parte do projeto   O que definir antes do gasto
+horas novas; 15 dão 60. O saldo vale uma concessão
+e somente no ciclo seguinte. Num ciclo de 15 dias,        Entrega            Produto, quantidade, função e
+a abertura pode chegar a 120 horas. Anuncie o                                versão da ficha, se houver
+intervalo maior para gastar e essa concentração de        Conhecimentos      Ofício, treino, modelo, receita ou
+horas. A transição não conta dias duas vezes nem                             informação
+renova saldos antigos.
+                                                          Recursos           Materiais, ferramentas, oficina,
+Na campanha fechada, comece pelo intervalo da                                acesso e orçamento
+história: quantas tardes ou dias realmente existem
+antes do próximo compromisso? Distribua o                 Trabalho e         Dedicação, etapas, interrupções e
+                                                          espera             prazo de entrega
+trabalho que cabe e mantenha as esperas. O grupo
+pode adotar o ciclo, mas não precisa dele para            Risco              Obstáculo, teste quando necessário,
+conduzir atividades.                                                         falha e nova tentativa
+
+Praticar algo conhecido, estudar ou procurar uma
+                                                         O preço de compra não determina o custo de
+professora pode desenvolver cenas e atender
+                                                         produção. Combine o orçamento, sem desconto
+requisitos publicados. Não concede
+                                                         universal ou lucro garantido. Para um prazo sem
+automaticamente treino, XP ou bônus. Aplique
+                                                         referência, compare um projeto semelhante e
+benefícios de treinamento apenas quando uma
+                                                         explique o que mudou: quantidade, precisão,
+regra os fornecer; ausência de postagem não
+                                                         material ou partes aproveitáveis. Uma decisão local
+demonstra abandono da prática pela personagem.
+                                                         ajuda a manter consistência; não vira tabela geral.
+
+8.3 Ofícios, fabricação e reparos                        Trabalho rotineiro, com meios adequados e sem
+                                                         risco relevante, termina ao cumprir o projeto.
+Pergunte pelo resultado: “Quero substituir a             Quando houver incerteza, o teste resolve um
+dobradiça para fechar a caixa” informa mais que          obstáculo declarado. Não role por hora para
+“Vou usar Forja”. Escolha o Ofício pelo trabalho.        multiplicar falhas. Só separe testes quando
+Copiar um traço usa Caligrafia; entender seu             existirem obstáculos distintos com resultados
+                                                         próprios.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                       3
+CICLO MALDITO / GUIA DO MESTRE                                                                    ENTRE MISSÕES
+
+
+
+Na falha, aplique o risco anunciado. Atraso, perda
+                                                       Equipamento           Acesso publicado
+de consumível e repetição de uma etapa são
+consequências diferentes; não destroem                 Armas de fogo e       Grau 2 ou superior, ou
+automaticamente todo o estoque. A retomada             munição               autorização prévia
+respeita o que foi preservado. O retrabalho e a
+                                                       Revestimento 2        Grau 3 ou superior
+vantagem próprios da criação de entidades não se
+tornam regras gerais de fabricação.                    Revestimento 3        Grau 2 ou superior
+
+O Traje de Rina                                       Grau 1 é uma patente superior a Grau 2. Combine
+O reparo publicado pede Alfaiate, ferramentas,        autorização de arma de fogo antes da compra e
+tecido e fechos de ¥3.000, com quatro horas de        registre o que abrange. Uma autorização comum
+trabalho. Recupera a função anterior, sem             não concede a versão amaldiçoada. Informe os
+aumentar a proteção. É rotina sem risco relevante:    canais disponíveis sem exigir uma missão para cada
+não exige teste.                                      compra comum.
+
+Rina trabalha duas horas e interrompe. A peça e os    Na criação padrão, a ficha recebe Traje 1 e
+materiais ficam guardados; faltam duas horas. Na      ¥150.000. Comprar Traje 2 por ¥90.000 e Katana
+retomada, confira se os meios continuam               por ¥48.000 deixa ¥12.000. O Traje recebido ainda
+disponíveis e conclua o restante. O projeto inteiro   precisa de destino; se for levado, ocupa Volume.
+conserva ¥3.000 de materiais, sem cobrança            Proteções sobrepostas não somam benefícios.
+automática por trocar de mestre. A                    Compras posteriores de armas de fogo usam o
+ficha preenchida mostra o acompanhamento; as          preço correspondente, não repetem a condição de
+etiquetas do depósito mostram teste, falha e          criação.
+retrabalho local.
+                                                      Repor e emprestar
+Ajuda não divide automaticamente o prazo por
+dois. Registre quem executa cada parte e se pode      Anote munição, alimento, pilhas e cargas
+trabalhar ao mesmo tempo. Use Ajudar quando           consumidas. Uma lanterna com oito horas, usada
+cumprir seus requisitos e houver um teste             por três, fica com cinco; mudar de cena não a
+pertinente; não some todos os bônus. Um               recarrega. Três carregadores de Rifle, lanterna e
+equipamento único pode impedir tarefas                pilhas custam ¥8.000 e acrescentam 1,2 Volume no
+simultâneas.                                          exemplo publicado. Os carregadores dão nove
+                                                      ataques de reserva, além da munição já na arma.
+Reparo recupera a função combinada. Melhoria          Confira acesso e recarga.
+exige avaliar a alteração permitida antes de outro
+projeto. Um remendo provisório precisa trazer         Ao transferir uma peça, atualize os dois
+duração e limites claros. Consertar uma peça não      inventários. Registre proprietário, portador, estado,
+renova usos gastos nem restaura um efeito             usos, consumíveis e devolução. Ela não fica
+encerrado por Desgaste.                               disponível para ambos. Informe consequências de
+                                                      perda ou dano antes do empréstimo, sem inventar
+Um corpo tem regras de tratamento próprias. O         uma multa no retorno.
+reparo de Ena usa a Origem de Corpo
+Amaldiçoado, não uma conversão geral de PV em         Cofre da Família é uma capacidade do
+horas. Atendimento, oficina e recuperação da ficha    Descendente Zenin, não a regra de todo arsenal.
+precisam ser conferidos separadamente.                Permite uma ferramenta por vez, até a patente
+                                                      reconhecida e com teto de grau 1; trocar exige
+                                                      voltar e devolver. Armas de grau 1 ainda pedem
+8.4 Comprar, emprestar e contratar                    feitos e autorização; especiais ficam fora. Nível e
+Antes de descontar dinheiro, confira preço, acesso    requisitos do efeito continuam separados da
+e uso. Ter saldo não garante fornecedor ou            patente.
+autorização; obter a peça não elimina requisitos de   No empréstimo de Kenji, nível 7 e Grau 3 permitem
+treino, Força, mãos e carga.                          retirar a Kunai Fiel de grau 3 pela capacidade
+                                                      escolhida. O nível não amplia a retirada para grau
+                                                      2. Ele registra a devolução da arma separadamente
+                                                      da venda de seu anel.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                 4
+CICLO MALDITO / GUIA DO MESTRE                                                                        ENTRE MISSÕES
+
+
+
+                                                            Abaixo do nível, a base conserva suas
+Serviço e negociação                                        características; Desgaste pode antecipar o efeito
+Combine entrega, recursos incluídos, prazo e                conforme a ficha. Patente não substitui esse nível
+preço. Um contrato pode incluir trabalho e                  nem garante a aquisição. Uma especial tem poder
+material ou só o trabalho: identifique para não             singular e limites próprios, sem segundo efeito
+cobrar ambos novamente. Se surgir outro dano,               automático.
+explique antes de aumentar o orçamento; o cliente           Armas e escudos respeitam mãos. São permitidos
+decide entre as alternativas possíveis.                     até dois itens vestidos com efeitos especiais, sendo
+O catálogo não garante comprador ou valor de                no máximo uma vestimenta: roupa, Traje ou
+revenda. Um teste social resolve a negociação               Revestimento. Sem vestimenta com efeito, podem
+viável anunciada, sem fornecer dinheiro ou                  ser dois acessórios. Confira os tempos de sacar e
+dispensar autorização. Registre receita apenas              vestir; roupa ou acessório com efeito pede Ação
+quando o acordo for concluído.                              Padrão para vestir e preparar e outra para retirar,
+                                                            resolvendo impedimentos físicos.
+Palavra Empenhada, se escolhida e disponível,
+funciona uma vez por descanso longo após falhar             Não há sintonização, descanso de identificação ou
+em Persuasão numa negociação viável. O mestre               custo geral de PE para habilitar ferramentas. A
+apresenta condição concreta; o jogador aceita ou            ficha informa seus usos. Eles acompanham a peça,
+recusa. Cumpri-la conclui o acordo sem repetir o            e cópias do mesmo efeito compartilham o limite
+teste. Isso não cria uma Promessa sobrenatural.             por personagem: outra cópia não repete um uso já
+                                                            gasto naquela cena. Para frequência por descanso, o
+No caso de Kenji, duas horas de instrução e a               item acompanha o portador na pausa indicada.
+entrega no prazo concluem a venda do anel por               Efeitos iguais não se somam.
+¥24.000. A peça custou ¥38.000: vendeu por ¥14.000
+a menos, sem lucro. Seu saldo anterior de ¥2.000            Descobrir e fabricar
+passa a ¥26.000; as 22 horas disponíveis passam a
+                                                            Uma peça conhecida chega com ficha. Uma
+20. O caso completo também resolve a recusa e a
+                                                            desconhecida pode ser examinada, pesquisada ou
+devolução da kunai.
+                                                            apresentada a alguém que a conheça. Separe
+                                                            indício de confirmação: perceber energia não revela
+8.5 Ferramentas e objetos                                   o funcionamento completo. Um manual legível não
+amaldiçoados                                                pede teste só para entregar informação já acessível.
+
+Uma ferramenta é equipamento com energia                    Para criar uma ferramenta, escolha função e base,
+própria, utilizável mesmo por quem não tem                  compare o efeito e registre seus limites. Depois
+energia amaldiçoada. Um objeto amaldiçoado pode             prepare a fabricação: aprovar a ficha não entrega o
+manter seu perigo enquanto guardado. Prepare                objeto. Produzir a base física usa o Ofício; fixar o
+cada um por suas regras; o catálogo de ferramentas          poder exige fonte de energia, conhecimentos,
+não define os efeitos de todo objeto.                       materiais, prazo e riscos do processo especial.
+                                                            No Anel de Testemunho, exemplo experimental,
+Entregar uma ferramenta                                     Kenji fabrica a base em 6 horas. Aya executa o
+Forneça base, grau, efeito, requisitos, Volume e            processo especial contratado: 8 horas iniciais e,
+usos. O grau não acrescenta automaticamente                 após a falha prevista, 4 de retomada. O sucesso
+ataque, dano ou proteção. Um Traje 1 de grau 2              ainda exige 12 horas de secagem, sem dedicação
+continua oferecendo proteção de Traje 1; uma                ativa.
+roupa comum com efeito continua sem proteção de             O projeto com uma falha custa ¥38.000. Kenji usa 6
+Traje.                                                      horas próprias, não as 12 trabalhadas por Aya; de
+ Grau                  Nível mínimo do efeito
+                                                            28, restam 22. O calendário precisa comportar
+                                                            trabalho, agenda e secagem. A receita pertence
+ 4                     Nenhum; não possui efeito especial   àquela peça; treino em Forja não autoriza fixar
+                                                            qualquer poder. O anel avisa que um fecho abriu,
+ 3                     Nenhum
+                                                            sem identificar quem abriu ou conter maldições.
+ 2                     7
+
+ 1 ou especial         13
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                     5
+CICLO MALDITO / GUIA DO MESTRE                                                                   ENTRE MISSÕES
+
+
+
+
+Missões de Desgaste                                    Missão anunciada                           XP base
+
+Desgaste pertence à ficha; o portador não o            Curta                                             50
+acrescenta. Permite uma missão de uso no grau 3,
+                                                       Padrão                                           100
+duas no grau 2 e três no grau 1 ou especial. Grau 4
+não recebe essa propriedade. No grau 3, ela torna      Longa                                            200
+temporário um efeito sem nível mínimo.
+                                                       Final de arco                                    300
+Marque no primeiro uso do efeito na missão. Ele
+funciona até o fim dela, dentro da frequência         O tamanho considera duração, importância e risco
+própria. Receber um benefício permanente conta;       e deve ser anunciado antes. Uma missão de várias
+só transportar a peça guardada não conta. Várias      sessões conta uma vez. Na falha, o mestre concede
+sessões ou troca de portador não cobram outra         metade ou nada conforme o resultado; explique a
+missão.                                               decisão. Uma rolagem perdida não significa
+                                                      necessariamente missão fracassada.
+Uma ferramenta de grau 2 usa o efeito na missão A
+e fica com uma missão depois dela. Na B,
+                                                      A semana de cada jogador
+permanece guardada e conserva essa última. Usado
+na C, o efeito funciona até seu encerramento e        O desconto é por jogador, dentro da campanha.
+então se esgota. A ficha já deve dizer se vira item   Trocar de ficha não reinicia a contagem. As duas
+comum ou quebra. Conserto comum não refaz o           primeiras missões pagam integralmente; terceira
+poder perdido.                                        paga metade, quarta um quarto, quinta um oitavo,
+                                                      seguindo pela metade da parcela anterior.
+Guardar e transportar objetos perigosos               Use a conclusão para definir a semana, com
+Defina objeto, recipiente, Volume, perigo, sinais     reinício no dia e horário da campanha. Missão sem
+reconhecíveis, selo, duração, alcance, entrega e      XP também ocupa posição; sessões intermediárias
+meios de intervenção. Um objeto sem selo atrai        não ocupam outras. Aplique falha e demais ajustes
+maldições às proximidades; não há raio ou             antes de arredondar somente o XP final para baixo.
+frequência universal. Atração também depende do       Resultado positivo menor que 1 dá 1 XP; zero
+lugar e das ameaças presentes, sem gerar inimigos     continua zero.
+automaticamente.
+                                                       Caso                        Conta                XP
+Caixa e selo são diferentes. Abrir a caixa pode                                                       final
+expor o selo sem retirá-lo. Informe o que rompe a
+                                                       Terceira missão padrão      100 × 1/2             50
+proteção e o risco acessível antes da escolha. Um
+amuleto que afasta maldições não concede               Quinta missão longa         200 × 1/8             25
+imunidade nem impede toda aproximação.
+                                                       Quinta missão padrão        100 × 1/8 =           12
+A Pastilha do Último Aviso tem prazos e alcances                                   12,5
+experimentais próprios. Seu selo concluído às 9h
+                                                       Terceira longa, falha com   200 × 1/2 ×           50
+termina às 17h; entrega às 15h30 deixa uma hora e
+                                                       metade                      1/2
+meia, sem reiniciar o prazo. Ingestão, perda de
+audição e chamado têm consequências e saídas
+                                                      Outro participante pode estar na primeira posição:
+distintas. Ingerir o objeto não concede poder ou
+                                                      na última linha, recebe 100. Não copie a fração de
+troca de Origem automática. Quebrar o recipiente
+                                                      quem organizou o registro para todos. A
+também não equivale a neutralizar o conteúdo.
+                                                      consulta de fechamento reúne outros exemplos e os
+                                                      campos de continuidade.
+8.6 Recompensas e progressão
+Feche o objetivo anunciado antes de calcular
+                                                      Nível, feito e patente
+recompensas. XP, dinheiro, equipamento, patente e     Confira o custo para sair do nível atual. A regra
+informação são resultados diferentes. Uma solução     comum permite no máximo um nível por missão
+por conversa pode cumprir a missão; não               concluída, guardando o excedente. Nível 2 com 150
+acrescente combate como condição de pagamento         XP recebe 100: chega a 250, paga 200, alcança nível
+depois de aceitar outra abordagem.                    3 e conserva 50 XP. A subida segue a atualização
+                                                      explicada em Personagens e técnicas, sem equivaler
+                                                      a descanso.
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  6
+CICLO MALDITO / GUIA DO MESTRE                                                                     ENTRE MISSÕES
+
+
+
+Do nível 20 ao 21, também é necessário um dos sete      Com três exigidas, zero, uma, duas e três ou mais
+feitos de Limiar, realizado entre níveis 15 e 20 e      participações pagam 25%, 50%, 75% e 100%. Use o
+confirmado pelos requisitos publicados. Não             Grau do fechamento mensal e arredonde o
+substitua a lista por outra façanha. O feito não paga   pagamento final para baixo. Grau 3 com duas
+XP; sua confirmação permite aplicar, no                 participações recebe 75% de ¥300.000 = ¥225.000
+encerramento, quantos níveis o XP guardado pagar.       nesse modelo. Duas sessões da mesma missão
+                                                        longa não duplicam participações.
+No socorro de Aoi, o atendimento devolve a
+capacidade de agir sob ameaça real e atende ao          Uma longa ocupa uma posição semanal de XP,
+feito. Com 4.000 XP disponíveis, paga 1.500 para o      conta duas participações nesse salário e não
+nível 21 e 1.500 para o 22; guarda 1.000. É a exceção   aumenta a dedicação. Mantenha esses registros
+do Limiar, não o avanço comum de toda missão.           separados. Recompensa por mestrar também fica
+                                                        em registro próprio, conforme política anunciada;
+Patente depende dos feitos reconhecidos pelo
+                                                        se usar mensalidade a cada X missões, a marca
+mestre ou organização, com Grau, motivo e data
+                                                        fecha com o Grau daquele momento, sem adiá-la
+registrados. Aoi pode ter feito e nível confirmados
+                                                        para cobrar num Grau maior.
+enquanto a promoção continua pendente. Nível
+alto, socorro válido ou ferramenta de grau elevado
+                                                        Preparar a próxima saída
+não concedem promoção automática.
+                                                        Registre objetivo e data de conclusão, XP de cada
+Sustento e políticas opcionais                          jogador, dinheiro recebido, itens e portadores, usos,
+                                                        Desgaste, feitos e promoção confirmada ou
+Salário e recompensa por mestrar são opcionais. A
+                                                        pendente. Acrescente recursos atuais, atendimento,
+campanha informa se usa dinheiro, moradia,
+                                                        trabalhos em andamento e compromissos que
+transporte ou outro apoio. As referências mensais
+                                                        importam. Renove apenas o que teve sua condição
+de salário são ¥150.000 no Grau 4, ¥300.000 no 3,
+                                                        de recuperação cumprida.
+¥600.000 no 2, ¥1.200.000 no 1 e ¥2.400.000 no
+Especial. São valores do jogo para essa política.       O registro pode ser curto quando a situação for
+                                                        simples. Use a ficha de projeto, a
+Se adotar salário por participação, a parcela
+                                                        folha de dedicação e o registro de estado e socorro
+mínima é um quarto. A campanha define quantas
+                                                        quando esses assuntos exigirem continuidade. O
+participações completam o mês; a recomendação
+                                                        próximo mestre deve conseguir saber o que foi
+publicada é três. Curta e padrão contam uma, longa
+                                                        concluído, o que continua faltando e quando um
+duas e final de arco três.
+                                                        resultado pode ser usado.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  7
+

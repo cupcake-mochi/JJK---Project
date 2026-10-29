@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+O que observar ao jogar
+As menores propostas favorecem investigação
+documental e diagnóstico, sem melhorar dano ou
+TRs. A combinação com o ensaio pode tornar
+certos testes mais confiáveis, mas continua
+consumindo resultados e usos. Verifique se a
+campanha oferece documentos e defeitos com
+frequência suficiente para ambas terem função;
+muitas cenas breves de arquivo também podem
+tornar o uso por cena frequente demais.
+A ficha completa ainda deve registrar atributos,
+cinco perícias livres do Caminho, técnica,
+equipamentos e demais campos. Este é um exemplo
+de escolhas de Origem, não um personagem pronto
+para jogar. Se a mesa aprovar alterações, registre o
+texto final e os motivos em Avaliação de capacidade
+(p. 313). A aprovação deste caso não libera menores
+equivalentes para todas as famílias.
+6.5 · Reparar um
+personagem de corpo
+construído
+Use esta consulta para preparar o atendimento de
+um personagem de Origem Corpo Amaldiçoado. O
+teste e a recuperação vêm do Livro de Regras 1.0. O
+material, o estoque e as pessoas abaixo são escolhas
+locais do exemplo; não estabelecem um preço ou
+consumo universal de reparo.
+Escolha o Ofício pelo trabalho
+necessário
+Ena é uma Corpo Amaldiçoado com estrutura
+principal de madeira, articulações metálicas e
+revestimento de pano. Na criação, o grupo registrou
+Entalhador como Ofício compatível: reparar sua
+estrutura exige recompor e ajustar as peças de
+madeira. A presença de metal e pano não impõe
+automaticamente três Ofícios.
+Para este atendimento, o defeito está numa placa
+externa e numa junção. O reparador precisa de
+ferramentas de entalhe, um encaixe de madeira e
+resina compatível. Essas peças foram obtidas e
+anotadas no inventário antes da missão. O
+orçamento da oficina pagou um conjunto para este
+reparo; não há taxa nova em PE ou dinheiro
+cobrada no momento do teste.
+Consumo anunciado neste caso: o encaixe e a
+resina são usados durante a tentativa; as
+ferramentas permanecem. Uma eventual repetição
+por Manutenção Precisa faz parte desse mesmo
+atendimento e não cobra outro conjunto. Esse
+consumo é local. Se outro projeto tiver risco de
+estragar uma peça cara, anuncie isso antes de
+começar o trabalho.
+O atendimento de Ena
+Ena é Bastião de nível 4, Constituição 2, usando a
+vida fixa e sem alteração adicional de máximo. Sua
+vida máxima é 12 + 2 + (7 + 2) × 3 = 41 PV. Ela
+começa o atendimento com 9 PV.
+O grupo consegue uma pausa segura. Rui, o
+reparador, também está no nível 4, é treinado em
+Entalhador. O atributo usado é Inteligência 3; sua
+Maestria é 1. Os dois níveis permitem Classe
+máxima 1. Compare essas Classes permitidas, não
+as capacidades que conhecem ou o grau do
+material.
+Campo
+Conta
+Comparação
+Mesma Classe; ajuste de dificuldade 0
+CD do reparo
+8 + Inteligência 3 + Maestria 1 + 0 = 12
+Bônus de Rui
+Inteligência 3 + Maestria 1 = +4
+Recuperação no sucesso
+Metade de 41, para baixo = 20 PV
+Saldo após sucesso
+9 + 20 = 29 de 41 PV
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+182

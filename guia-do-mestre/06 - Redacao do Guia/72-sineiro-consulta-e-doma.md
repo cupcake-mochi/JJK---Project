@@ -1,10 +1,10 @@
-# Sineiro — consulta e Doma
+# Sineiro: ficha após a Doma
 
-**Conversão experimental preparada para a versão 2 do [Sineiro do Recolhimento](71-sineiro-do-recolhimento.md).** Use esta seção para conferir a aquisição e apresentar ao jogador o resultado antes da tentativa. Os preços próprios e a classificação do talento de transporte são propostas; ainda não são regras gerais aprovadas para o Guia.
+**Conversão experimental preparada para a ficha do [Sineiro do Recolhimento](71-sineiro-do-recolhimento.md).** Use esta seção para conferir a aquisição e apresentar ao jogador o resultado antes da tentativa. Os preços próprios e a classificação do talento de transporte são propostas; ainda não são regras gerais aprovadas para o Guia.
 
-## O que se conserva
+## O que muda com a Doma
 
-O Sineiro domado continua capaz de agarrar, transportar e preparar um impacto. A versão adquirida usa a construção e os comandos de entidade da R53. Ter enfrentado dois ataques ou uma preparação por Bônus não concede esses recursos ao personagem.
+O Sineiro domado continua capaz de agarrar, transportar e preparar um impacto. A versão adquirida usa a construção e os comandos de entidade do Livro de Regras 1.0. Ter enfrentado dois ataques ou uma preparação por Bônus não concede esses recursos ao personagem.
 
 | No confronto | Depois da Doma |
 |---|---|
@@ -21,7 +21,7 @@ Essas diferenças fazem parte da oferta de aquisição. Não prometa uma cópia 
 
 ## Aquisição
 
-Exige candidato de **nível 6 ou maior**. A rota deste exemplo é derrotar a maldição sem destruí-la e tentar fora de combate. Não foi concedido um limiar de aquisição antecipada.
+Exige candidato de **nível 6 ou maior**. A rota deste exemplo é derrotar a maldição sem destruí-la e tentar fora de combate. Este exemplo não define um ponto para tentar a Doma antes da derrota.
 
 Confira destruição usando os **108 PV máximos da ficha do confronto**. Uma ocorrência de dano direto de pelo menos 108, ou um excedente além de zero **maior que 54**, destrói. Excedente igual a 54 não basta. Dano em área derrota, mas não destrói por si. A partir de 5 PV, dano direto 59 produz excedente 54; 60 produz 55 e destrói.
 
@@ -35,7 +35,7 @@ A maldição faz **um TR Espírito**, normalmente +1, contra a CD da rota do can
 |---|---|
 | Atributos | Força 4, Destreza 1, Constituição 3, Inteligência 1, Essência 1. Os nove pontos iniciais são 3/1/3/1/1; o ganho do nível 6 foi para Força. |
 | Vida máxima | **38** = 5 + 3 + (3 + 3) × (6 − 1). |
-| Integridade máxima | **19**. Use os limiares de perda da R53 a partir deste máximo. |
+| Integridade máxima | **19**. Calcule os estágios de Integridade a partir deste máximo, conforme o livro de regras. |
 | Defesa / Bloquear | **11 + B / 2d10 + B**. |
 | Ataque / CD das capacidades | **4 + M / 12 + M**, por Força. M = 1 produz +5 e CD 13. |
 | TRs | Físico **4 + M**, treinado; Vigor +3, Intelecto +1, Espírito +1. |
@@ -54,17 +54,17 @@ A maldição faz **um TR Espírito**, normalmente +1, contra a CD da rota do can
 
 **Instinto, CE1 publicada.** Enquanto acordado, protegido contra surpresa. Não percebe automaticamente escondidos nem recebe ações extras.
 
-**Conduzir pelo chão, Talento Próprio CE1 proposto.** Usa o mesmo recorte de [transporte do Carregador](63-carregador-consulta-e-doma.md), com sua Força atual: uma criatura Média ou menor, disposta, inconsciente ou legalmente Agarrada, conduzida com mão adequada, alcance e apoio pelo chão. Soma de itens próprios, corpo transportado em kg ÷ 12 e itens dele de até **9 Volume**. O teto comum de arrasto não aumenta essa capacidade autorizada.
+**Conduzir pelo chão, Talento Próprio CE1 proposto.** Usa as mesmas regras de [transporte do Carregador](63-carregador-consulta-e-doma.md), com sua Força atual: uma criatura Média ou menor, disposta, inconsciente ou Agarrada pelas regras comuns, conduzida com mão adequada, alcance e apoio pelo chão. Soma de itens próprios, corpo transportado em kg ÷ 12 e itens dele de até **9 Volume**. O teto comum de arrasto não aumenta essa capacidade autorizada.
 
 Cada 1,5 m custa **3 m em piso regular ou 4,5 m em terreno difícil**. Sustentar o transporte não gasta PE nem básica; obter o agarrão custa a atuação normal. Não concede assento, elevação, montaria, voo, passagem por escadas incompatíveis, Bônus ou ação extra. Na saída de campo, a pessoa e seus objetos ficam no mundo, na posição e no estado alcançados. A CE1 permanece proposta de transporte limitado; não inclui a eficiência permanente do chefe.
 
 ### Condução urgente
 
-**Especial de Classe 2, 6 PE.** Comando por Padrão do invocador e uma básica disponível da entidade. Ela precisa já estar conduzindo legalmente a pessoa pelo talento. Não pode gastar a mesma básica para agarrar e executar esta especial.
+**Especial de Classe 2, 6 PE.** Comando por Padrão do invocador e uma básica disponível da entidade. Ela precisa já estar conduzindo a pessoa conforme as regras do talento. Não pode gastar a mesma básica para agarrar e executar esta especial.
 
 A entidade recebe **6 m de movimento para usar imediatamente neste transporte**, com passos regulares de 1,5 m custando 1,5 m, ou 3 m em terreno difícil. O movimento normal que ainda tiver permanece separado e paga os preços normais do talento. O saldo especial não usado acaba com a execução. Esse percurso não concede voo, teleporte, passagem por obstáculos ou imunidade a oportunidades. A entidade pode provocar; o passageiro levado não provoca por esse movimento imposto.
 
-Conserve os 9 Volume conjuntos, tamanho Médio ou menor e espaço para ambos. Agarrado na entidade impede seu deslocamento. Distâncias concedidas também sofrem Lento e reduções de deslocamento aplicáveis, antes do arredondamento da R53; os preços de terreno continuam incidindo sobre o percurso. Se o agarrão de uma pessoa resistente acabar durante o trajeto, ela fica onde foi solta e a condução especial termina. Não se aplica uma nova condição nem há novo TR para uma contenção que já foi obtida.
+Conserve os 9 Volume conjuntos, tamanho Médio ou menor e espaço para ambos. Agarrado na entidade impede seu deslocamento. Distâncias concedidas também sofrem Lento e reduções de deslocamento aplicáveis, antes do arredondamento do Livro de Regras 1.0; os preços de terreno continuam incidindo sobre o percurso. Se o agarrão de uma pessoa resistente acabar durante o trajeto, ela fica onde foi solta e a condução especial termina. Não se aplica uma nova condição nem há novo TR para uma contenção que já foi obtida.
 
 **Montagem proposta:** função de utilidade, base zero; Forma Toque; uma Melhoria **Efeito Próprio: Condução urgente**, Família Alcance, preço **Médio = 2 pontos**, sem desconto. A devolução Leve de Toque recupera 1 ponto pago: **4 − 2 + 1 = 3 pontos sem uso**. Não produzem dano, cura ou distância adicional. Sem Restrições. A capacidade afeta a entidade e seu passageiro, portanto não é exclusivamente pessoal.
 
@@ -84,21 +84,21 @@ Na liberação, **Escolher** define quais criaturas percebidas recebem o dano; p
 
 **Montagem:** 4 pontos iniciais; base de dano zero; Aura custa Leve, **1 ponto**; Escolher custa Médio 2, reduzido a **1** pela Família Área Livre. Carregar é Restrição Média e Recuo com Guarda Aberta é Leve. Há duas Restrições e uma Melhoria. Das devoluções nominais 2 + 1, aproveita somente **1**, o gasto em Melhoria. A conta é **4 − 1 − 1 + 1 = 3d8**. A devolução não paga a Forma. As Restrições permanecem obrigatórias mesmo sem aproveitar toda a devolução.
 
-A ficha da entidade usa o procedimento de especial da R53; não mantém o uso corporal gratuito da ficha inimiga. O preço comum é 6 PE. Se o estágio de Integridade aplicável aumentar o custo por Classe, uma especial de Classe 2 passa a **8 PE**. Confira também o teto de Classe reduzido do estágio 3: esta ficha não tem uma versão de Classe 1 preparada e não a inventa durante o uso.
+A ficha da entidade usa as regras de especial do Livro de Regras 1.0; não mantém o uso corporal gratuito da ficha inimiga. O preço comum é 6 PE. Se o estágio de Integridade aplicável aumentar o custo por Classe, uma especial de Classe 2 passa a **8 PE**. Confira também o teto de Classe reduzido do estágio 3: esta ficha não tem uma versão de Classe 1 preparada e não a inventa durante o uso.
 
-## Estado e comando
+## Recuperar e comandar o Sineiro
 
 Conserve os recursos atuais, limitados aos novos máximos; **zero continua zero**. Se a aquisição ocorrer a 0 PV e com Integridade cheia, fica em **0/38 PV e 19/19 de Integridade**. Se a Integridade estiver zero, precisa voltar a pelo menos 1 antes do retorno.
 
-Sem permissão de recolhimento, permanece no mundo; caída, fica Desligada no local. Com os requisitos satisfeitos, religar custa **Bônus e 2 PE**, no lugar do corpo, e devolve **19/38 PV**, sem recuperar Integridade ou criar básica. Quando houver permissão de manifestação comum, a entrada de Classe máxima 2 custa **Bônus e 2 PE**, não oferece básica naquele ciclo e exige outra Bônus para a primeira tarefa. São procedimentos diferentes, ainda que os custos coincidam neste nível.
+Sem permissão de recolhimento, permanece no mundo; caída, fica Desligada no local. Com os requisitos satisfeitos, religar custa **Bônus e 2 PE**, no lugar do corpo, e devolve **19/38 PV**, sem recuperar Integridade ou criar básica. Quando houver permissão de manifestação comum, a entrada de Classe máxima 2 custa **Bônus e 2 PE**, não oferece básica naquele ciclo e exige outra Bônus para a primeira tarefa. São ações diferentes, ainda que os custos coincidam neste nível.
 
-Atua na iniciativa do invocador. No começo do turno dele renovam-se Movimento e básica, além da coletiva de Reação compartilhada. Não tem Bônus independente. Dar ou mudar tarefa, comandar especial, preparar e usar respostas conservam os procedimentos de Invocações em campo; esta ficha não aumenta o limite de entidades ativas. Uma ordem antecipada conserva seus custos e sua primeira oportunidade válida, sem criar básica ou transporte imediato.
+Atua na iniciativa do invocador. No começo do turno dele renovam-se Movimento e básica, além da coletiva de Reação compartilhada. Não tem Bônus independente. Dar ou mudar tarefa, comandar especial, preparar e usar respostas seguem as regras de Invocações em campo; esta ficha não aumenta o limite de entidades ativas. Uma ordem antecipada conserva seus custos e sua primeira oportunidade válida, sem criar básica ou transporte imediato.
 
-## Consulta durante o confronto
+## O que acompanhar durante a luta
 
 Registre PV, Integridade, condições, mão ocupada, vítima e carga conjunta. Para o inimigo, acrescente o centro da zona e o turno em que poderá bater. Para a domada, registre a especial pendente, PE pagos, básica usada e prazo da exposição.
 
-O ganho de desenho do novo chefe é verificável sem fingir um teste de equilíbrio: a condução apoia a captura; a preparação dá tempo de resposta; interromper muda o resultado; concluir abre uma oportunidade contra ele. **Quanto isso ameaça um grupo concreto ainda precisa ser medido.** A comparação numérica deve considerar também quanto o chefe perde ao ser controlado e quantas tentativas de contenção consegue realizar antes de cair.
+As habilidades do chefe se complementam: ele captura e transporta a vítima, anuncia o golpe e dá tempo para o grupo reagir. Interromper a preparação evita o impacto; se ele conseguir bater, fica exposto. **Ainda é preciso testar em mesa o perigo que isso representa para cada grupo.** A comparação numérica deve considerar também quanto o chefe perde ao ser controlado e quantas tentativas de contenção consegue realizar antes de cair.
 
 **Revisão numérica do confronto:** [registro 73](<../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>). A vida inimiga mudou de 72 para 108, mas a construção domada continua em 38 PV e 19 de Integridade; o nível e suas escolhas foram preservados.
 

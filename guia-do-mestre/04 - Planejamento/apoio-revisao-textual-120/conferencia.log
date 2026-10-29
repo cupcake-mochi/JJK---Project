@@ -1,0 +1,56 @@
+{
+  "registro": 120,
+  "pdf_sha256": "9b9e256298784b902f69030835b58dd525ce5d74dd37418db5e88cef58ef9c89",
+  "casos_conferidos": [
+    {
+      "id": "s078",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s057",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "numeros_preservados": true,
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s062",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "numeros_preservados": true,
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s063",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "numeros_preservados": true,
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 14,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 424,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 19,
+  "casos_pendentes": 40,
+  "lotes_pendentes": 10,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "mapa": "Esquema ASCII preservado na fonte; figura existente selecionada para a prova e conferida visualmente.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

@@ -1,0 +1,72 @@
+CICLO MALDITO / GUIA DO MESTRE
+REGISTROS DA CAMPANHA
+Como estão os personagens
+Campo
+Mei
+Akira
+Posição
+A12, dentro da nuvem.
+B0, no vestíbulo limpo.
+Vida atual/máxima
+0/44. Começou este ramo com 3 PV e
+recebeu 4 no d6 da primeira exposição.
+51/51.
+Energia atual/máxima
+36/36 PE.
+30/30 PE.
+Integridade atual/máxima
+55/55.
+65/65.
+Temporários
+Nenhum no percurso.
+Nenhum no percurso.
+Condições
+Morrendo, consciente por Insistir;
+Envenenado pelo pó.
+Nenhuma aplicada no percurso.
+Sequelas
+Zero antes desta queda; nenhuma nova
+ainda.
+Nenhuma neste exemplo.
+Recursos usados na rodada 1
+Padrão para fechar; Movimento e Bônus
+convertida para percorrer 18 m.
+Padrão para ligar o exaustor.
+Reação
+Não foi gasta no percurso.
+Não foi gasta no percurso.
+A próxima Padrão, o próximo Movimento e a próxima Bônus pertencem aos respectivos turnos da rodada 2,
+ainda não iniciados. A Reação segue sua recuperação no começo do turno do dono. A passagem não cria
+uma atuação entre esses momentos.
+O socorro de Mei
+Campo
+Registro
+Causa
+Vida a zero pela exposição; não foi queda de Integridade.
+Máximo de referência
+44 PV.
+Escolha
+Insistir pela primeira vez nesta cena; continua consciente e
+conserva os recursos disponíveis.
+Tratamento necessário
+arredonde para cima (44 ÷ 3) = 15. Classe máxima 2 permite teto 30;
+o resultado permanece 15.
+Tratamento acumulado
+Zero. Ainda não houve cura.
+Janela restante
+Três rodadas. O dano que iniciou a queda não descontou outra pelo
+excesso.
+Ponto da contagem
+Fase ambiental, no ponto em que recebeu o dano da rodada 1. A
+próxima volta completa ocorre na fase 2, depois dos turnos dos
+dois.
+Estabilidade
+Não está estável.
+Contagem de Insistir
+Uma escolha nesta cena; continuar a zero não acrescenta outra.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+299

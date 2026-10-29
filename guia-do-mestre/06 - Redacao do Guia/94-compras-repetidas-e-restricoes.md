@@ -1,8 +1,8 @@
-# Compras repetidas e Restrições verificáveis
+# Repetir Melhorias e definir Restrições
 
-Esta consulta mostra como contar duas compras da mesma Melhoria e como registrar uma limitação que realmente possa impedir ou dificultar o uso. Firmeza e Condicional seguem as permissões publicadas. **Matriz de chão é uma Restrição Própria experimental**, criada apenas para demonstrar o parecer; não foi acrescentada ao catálogo nem aprovada como padrão pelo autor.
+Esta consulta mostra como contar duas compras da mesma Melhoria e como registrar uma limitação que realmente possa impedir ou dificultar o uso. Firmeza e Condicional seguem as permissões publicadas. **Matriz de chão é uma Restrição Própria experimental**, criada para demonstrar a avaliação; não faz parte do catálogo de regras.
 
-## Uma Melhoria, duas categorias pagas
+## Firmeza para perícias e Ofícios
 
 Iara usa uma técnica que organiza a atenção de um aliado. Auxiliares está disponível a preço normal. Ela prepara **Foco de trabalho**, Classe 2, com Projétil e duas compras de Firmeza: uma para **perícias** e outra para **Ofícios**.
 
@@ -16,17 +16,17 @@ Firmeza permite comprar categorias diferentes separadamente. Cada compra ocupa u
 
 Projétil custa zero e o apoio é individual, portanto não há base coletiva. O orçamento é 6; após as duas compras, sobram **6 − 2 = 4 pontos**, deixados sem uso. A ficha não tem dano, cura ou vida temporária para recebê-los.
 
-**Registro aprovado pelo mestre do exemplo dentro da permissão publicada:** duas compras, uma por categoria indicada; preço Leve de cada uma; nenhuma repetição da mesma categoria; nenhum desconto especial de pontos ou de vagas. Na Classe 2, as duas vagas de Melhoria estão ocupadas.
+**Acordo deste exemplo:** duas compras, uma por categoria indicada; preço Leve de cada uma; nenhuma repetição da mesma categoria; nenhum desconto especial de pontos ou de vagas. Na Classe 2, as duas vagas de Melhoria estão ocupadas.
 
 A aplicação custa **Ação Padrão e 6 PE**, cumprindo o Selo da técnica. Escolha um aliado disposto e válido a até **9 m**. Ele recebe os dois benefícios automaticamente. Cada um termina no primeiro teste de sua categoria ou **no começo do próximo turno de Iara**, o que ocorrer antes. Um teste de outra categoria não recebe nem consome esses benefícios.
 
-### Resolução e término
+### Exemplo de uso
 
 Iara conjura com 14 PE e fica com **8**. Rui, a 6 m, recebe os dois benefícios. Ele dirige um veículo que conhece e tem treino em Condução, Destreza 3 e Maestria 1. Ainda antes do próximo turno de Iara, precisa fazer uma manobra permitida para contornar um obstáculo; o mestre já informou um teste de Condução CD 14. Rui rola 5 e 14, usa 14 e soma seu bônus normal de 4: **18**, sucesso na manobra. **A compra de Ofícios foi consumida**; isso também ocorreria se o total falhasse. A compra de perícias permanece até um teste elegível ou seu prazo.
 
 Se Rui fizer depois um TR, ele não recebe vantagem dessas compras. Se precisar de ferramenta ou treino para a tarefa, Firmeza não os fornece. No começo do próximo turno de Iara, qualquer benefício não usado termina. Não se guarda a vantagem para o descanso seguinte.
 
-### A terceira compra e o nome novo
+### Os limites da repetição
 
 Iara pede uma terceira compra para TRs na mesma ficha de Classe 2. Ter pontos suficientes, por si só, não resolve: seriam **três Melhorias**, ultrapassando as duas permitidas.
 
@@ -34,19 +34,19 @@ Ampliar o feitiço para Classe 3 conserva suas duas compras e suas categorias. N
 
 Chamar outra compra de “Mente firme” não permite repetir Firmeza: perícias no mesmo alvo. O funcionamento continua sendo o mesmo benefício, sujeito à regra publicada.
 
-## Reunir efeitos conserva seus preços
+## Combinar efeitos
 
 Outro pedido é chamar **Firmeza: Ofícios + Guarda** de “Postura de oficina”. Na Classe 2, com preço normal, Firmeza custa **1**, Guarda custa **2**: total **3 pontos e duas Melhorias**. Projétil e apoio individual não cobram base adicional; os outros 3 pontos do orçamento ficam sem uso.
 
 Ação Padrão, 6 PE, um aliado disposto e válido a até 9 m. Ele recebe vantagem no próximo Ofício até o começo do próximo turno do conjurador e **+2 Defesa até o fim do próximo turno do próprio aliado**. Os prazos pertencem a pessoas diferentes; anote ambos. Nenhuma das compras muda automaticamente o outro benefício.
 
-O nome unificado não transforma isso numa única Melhoria Leve. Uma redução específica exige parecer próprio do mestre; ela não foi concedida neste caso. Uma criação original também precisa dizer quantas compras aceita e o resultado de cada repetição antes de ser usada.
+O nome unificado não transforma isso numa única Melhoria Leve. Uma redução específica precisa ser avaliada pelo mestre; ela não foi concedida neste caso. Uma criação original também precisa dizer quantas compras aceita e o resultado de cada repetição antes de ser usada.
 
-## Condicional: perto de qual água?
+## Condicional: uma fonte de água
 
 Davi usa uma técnica capaz de produzir lâminas de água com sua energia, sem depender de uma fonte externa pela Regra comum. Ele propõe que **Lâmina de canal**, e somente esse feitiço, dependa de água corrente próxima. Isso acrescenta uma limitação real; se a própria técnica já exigisse a mesma fonte, não haveria nova devolução.
 
-**Definição local de Condicional, escrita antes da sessão:**
+### A condição de Lâmina de canal
 
 | Campo | Registro do exemplo |
 |---|---|
@@ -92,9 +92,9 @@ Se a campanha estimasse impedimento real em menos de metade das cenas, a devolu�
 | Devolução em avaliação | **Leve**: há dificuldade real nas cenas móveis previstas, sem evidência suficiente para classificar a perda como presente em pelo menos metade. |
 | Compatibilidade | Uma vaga de Restrição. Não se soma à exigência idêntica já presente no Selo, na Regra ou em outra Restrição. |
 
-A dificuldade avaliada é ter de preparar no local a matriz consumida pela tentativa. O parecer atribui uma única devolução Leve a esse procedimento; não soma pontos pelo minuto, pelo desenho e pela distância. Se a proposta acrescentar outra dificuldade independente, ela precisará ser registrada como outra Restrição. Ela não concede uma capacidade nova à matriz: o desenho não ataca, ilumina, protege ou detecta criaturas. Giz e superfície precisam existir; não se impõe aqui preço de mercado, Ofício ou procedimento de fabricação novo.
+A dificuldade avaliada é ter de preparar no local a matriz consumida pela tentativa. A proposta atribui uma única devolução Leve a esse preparo; não soma pontos pelo minuto, pelo desenho e pela distância. Se a proposta acrescentar outra dificuldade independente, ela precisará ser registrada como outra Restrição. Ela não concede uma capacidade nova à matriz: o desenho não ataca, ilumina, protege ou detecta criaturas. Giz e superfície precisam existir; não se impõe aqui preço de mercado, Ofício ou regra de fabricação nova.
 
-**Comparação com as entradas publicadas.** Atrasar compromete Padrão, Bônus e Movimento no próprio turno da conjuração. Carregar paga PE e exige liberação no turno seguinte. Matriz de chão permite preparar antes, exige um local fixo e consome esse preparo ao tentar; nenhum desses procedimentos substitui o outro. A R53 esclarece que uma exigência de preparo não entra no grupo de frequência apenas por acontecer antes da conjuração. Acrescentar uma limitação equivalente a Uma Vez exigiria conferir esse grupo.
+**Comparação com as entradas publicadas.** Atrasar compromete Padrão, Bônus e Movimento no próprio turno da conjuração. Carregar paga PE e exige liberação no turno seguinte. Matriz de chão permite preparar antes, exige um local fixo e consome esse preparo ao tentar; cada uma dessas Restrições funciona de um modo diferente. O Livro de Regras 1.0 esclarece que uma exigência de preparo não entra no grupo de frequência apenas por acontecer antes da conjuração. Acrescentar uma limitação equivalente a Uma Vez exigiria conferir esse grupo.
 
 Para demonstrar a conta, use Projétil + Precisão + Fura, na Classe 3 e a preço normal, com Matriz de chão como única Restrição. São **9 − 2 − 3 + 2 = 6d8**, duas Melhorias, uma Restrição, Padrão e **9 PE**. O preparo não altera o alcance de 18 m do Projétil; apenas limita onde Lia pode começar essa aplicação.
 
@@ -102,8 +102,8 @@ Lia prepara a matriz na sala e depois inicia a conjuração a 1 m dela. Com atri
 
 Se o uso real permitir deixar a mesma preparação sempre pronta, sem perda de tempo, acesso ou oportunidade, a devolução não está justificada. O exemplo serve para examinar essa dificuldade, não para garantir uma nova Restrição a toda ficha.
 
-## Registre o que aconteceu nas sessões
+## Reveja as Restrições depois de jogar
 
-Para uma Restrição Própria, a R53 pede a revisão depois de **três sessões em que o feitiço foi usado**. Compare a dificuldade prevista com as situações vividas. Condicional também pede conferir sua estimativa nas sessões seguintes; o mesmo registro ajuda nessa avaliação. Anote casos em que a exigência impediu uma escolha ou exigiu preparo relevante; não registre como prejuízo apenas ter lido a condição em voz alta.
+Para uma Restrição Própria, o Livro de Regras 1.0 pede a revisão depois de **três sessões em que o feitiço foi usado**. Compare a dificuldade prevista com as situações vividas. Condicional também pede conferir sua estimativa nas sessões seguintes; o mesmo registro ajuda nessa avaliação. Anote casos em que a exigência impediu uma escolha ou exigiu preparo relevante; não registre como prejuízo apenas ter lido a condição em voz alta.
 
 Uma exigência que nunca atrapalhou deve ser substituída, mantendo a montagem válida antes do próximo uso. Mudanças de devolução exigem recalcular o saldo registrado. Nenhuma Restrição Própria devolve Pesada, e uma limitação já obrigatória não recebe pontos outra vez.

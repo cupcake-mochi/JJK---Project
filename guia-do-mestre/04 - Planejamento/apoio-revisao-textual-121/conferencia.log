@@ -1,0 +1,60 @@
+{
+  "registro": 121,
+  "pdf_sha256": "a9611cb15a7c7706d278948899b476c521d0716c193fa3b299d207c0eda51510",
+  "casos_conferidos": [
+    {
+      "id": "s064",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s065",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s066",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s071",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+      "numeros_preservados": true,
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 11,
+  "rotulos_simplificados": {
+    "O Carregador e o corredor de entulho": "O Carregador no depósito",
+    "Isola a mudança de espaço.": "Permite comparar só o espaço.",
+    "Isola a pressão ambiental.": "Permite comparar o efeito do prazo."
+  },
+  "links_locais_conferidos": 446,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 23,
+  "casos_pendentes": 36,
+  "lotes_pendentes": 9,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "mapa": "Dois esquemas em caracteres preservados; desenhos vetoriais existentes usados na prova e conferidos visualmente.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

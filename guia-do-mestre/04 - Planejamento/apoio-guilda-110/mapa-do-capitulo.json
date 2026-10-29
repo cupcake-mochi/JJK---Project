@@ -1,0 +1,201 @@
+{
+  "registro": 110,
+  "secoes": [
+    {
+      "destino": "N10.1",
+      "titulo_planejado": "10.1 Mesas diferentes, mundo compartilhado",
+      "titulo_de_leitura": "10.1 Compartilhar o mundo",
+      "ancora": "101-compartilhar-o-mundo",
+      "fontes_preservadas": [
+        {
+          "id": "s007",
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "id": "s015",
+          "fonte": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+          "sha256": "f1fb0669012ee8798ac16394812eefd3d9c2165f4c76805c86d1f6dbc1bc6721",
+          "destino_principal": "N05.3",
+          "usos_complementares": [
+            "N10.1",
+            "N10.3"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N10.2",
+      "titulo_planejado": "10.2 Calendário e atividades",
+      "titulo_de_leitura": "10.2 Calendário e atividades",
+      "ancora": "102-calendario-e-atividades",
+      "fontes_preservadas": [
+        {
+          "id": "s039",
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        },
+        {
+          "id": "s040",
+          "fonte": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+          "sha256": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+          "destino_principal": "A5.7",
+          "usos_complementares": [
+            "N08.2",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N10.3",
+      "titulo_planejado": "10.3 Passar uma missão para outro mestre",
+      "titulo_de_leitura": "10.3 Passar a missão",
+      "ancora": "103-passar-a-missao",
+      "fontes_preservadas": [
+        {
+          "id": "s015",
+          "fonte": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+          "sha256": "f1fb0669012ee8798ac16394812eefd3d9c2165f4c76805c86d1f6dbc1bc6721",
+          "destino_principal": "N05.3",
+          "usos_complementares": [
+            "N10.1",
+            "N10.3"
+          ]
+        },
+        {
+          "id": "s079",
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        },
+        {
+          "id": "s081",
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        },
+        {
+          "id": "s002",
+          "fonte": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+          "sha256": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5",
+          "destino_principal": "A1",
+          "usos_complementares": [
+            "N03.1",
+            "N10.3"
+          ]
+        },
+        {
+          "id": "s012",
+          "fonte": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+          "sha256": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436",
+          "destino_principal": "A5.2",
+          "usos_complementares": [
+            "N04.4",
+            "N10.3"
+          ]
+        },
+        {
+          "id": "s016",
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        },
+        {
+          "id": "s024",
+          "fonte": "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+          "sha256": "351e3004f85eef842ae23888cd7ec70c1bc6f988de01d0d5450ea636cdbc018c",
+          "destino_principal": "A3",
+          "usos_complementares": [
+            "N04.7",
+            "N10.3"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N10.4",
+      "titulo_planejado": "10.4 Fichas, decisões e registros",
+      "titulo_de_leitura": "10.4 Escolher e manter os registros",
+      "ancora": "104-escolher-e-manter-os-registros",
+      "fontes_preservadas": [
+        {
+          "id": "s037",
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "id": "s080",
+          "fonte": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+          "sha256": "e416206de56ff63b0acbe7ac3855f84662f0e2f156d3cef94c9ccf047b49a48f",
+          "destino_principal": "N10.4",
+          "usos_complementares": [
+            "N10.5",
+            "C2",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N10.5",
+      "titulo_planejado": "10.5 Ouvir o grupo e dividir o trabalho",
+      "titulo_de_leitura": "10.5 Ouvir o grupo e dividir o trabalho",
+      "ancora": "105-ouvir-o-grupo-e-dividir-o-trabalho",
+      "fontes_preservadas": [
+        {
+          "id": "s080",
+          "fonte": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+          "sha256": "e416206de56ff63b0acbe7ac3855f84662f0e2f156d3cef94c9ccf047b49a48f",
+          "destino_principal": "N10.4",
+          "usos_complementares": [
+            "N10.5",
+            "C2",
+            "A4"
+          ]
+        },
+        {
+          "id": "s016",
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        }
+      ]
+    }
+  ],
+  "folhas_para_a_mesa": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+  "limite": "Localiza exposição e fontes preservadas; a conferência conjunta de capítulos 6–10, consultas e cobertura ainda é a próxima tarefa."
+}

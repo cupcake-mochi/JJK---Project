@@ -1,0 +1,77 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Campo
+Registro
+Conferência
+Responsável, texto aprovado e data.
+Estado atual
+Ativo, cumprido, encerrado ou outra situação prevista; recursos e
+consequências ainda pendentes.
+Não aplique a punição de quebra de uma Promessa
+automaticamente a todo Pacto. A forma escolhida e
+o texto aprovado determinam as regras da troca.
+Exemplo preenchido: Overtime
+Exemplo de aplicação do Pacto publicado no Livro
+de Regras 1.0, sem acrescentar efeitos.
+Campo
+Registro
+Personagem e forma
+Ren; permanente de energia.
+Vagas
+Essência 4: duas vagas. Não tem outro permanente ou pacto de restrição;
+este passa a ocupar uma.
+Aceitação
+Jogador e mestre concordaram com a troca e a jornada fixa.
+Jornada
+Oito horas de trabalho, contadas desde o começo das missões do dia.
+Preço
+PE máximo reduzido em 20% durante a jornada; começa o dia de missões
+com esse máximo reduzido.
+Benefício
+Na hora extra, máximo elevado em 20%; recebe imediatamente a
+diferença entre os máximos, arredondada para baixo.
+Contagem
+Descanso curto fica fora das horas de trabalho. Descanso longo encerra a
+hora extra e zera a contagem.
+Compensações
+A redução não foi usada para obter outro benefício da ficha.
+Exceções adicionais
+Nenhuma acrescentada neste exemplo.
+Situação acompanhada
+Máximo normal 40; durante a jornada 32; na hora extra 48. Tem 12 PE
+imediatamente antes da passagem; recebe 16 e fica com 28.
+Continuidade
+Registrar horas efetivamente trabalhadas, pausas, máximo vigente e PE
+atual. O saldo semanal de dedicação não ativa o Pacto.
+Conferência rápida de uma
+Promessa
+Antes da assinatura, peça a cada parte que explique
+o que deve fazer e o que receberá. Se as explicações
+divergirem, o texto ainda precisa de ajuste.
+1. Quem pode cumprir cada obrigação e quem tem
+autoridade para assumi-la?
+2. O que será considerado entrega, cumprimento
+parcial ou atraso?
+3. Quais datas, pessoas e objetos estão
+identificados?
+4. Qual fato rompe o acordo e qual consequência foi
+compreendida?
+5. Há uma cláusula que pressupõe a concordância
+de alguém ausente?
+Não complete um campo desconhecido com uma
+ameaça vaga. Volte à negociação e resolva o ponto
+antes de aceitar.
+Exemplo de Promessa preenchida
+A Promessa do arquivo (p. 252) apresenta partes,
+autorização, acesso, empréstimo, cópias, prazo,
+devolução e consequências. O quadro pode ser
+usado como modelo de registro. O exemplo é
+experimental: a punição permanece até uma
+reparação definida no próprio acordo. Não é uma
+regra universal do Livro de Regras 1.0.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+318

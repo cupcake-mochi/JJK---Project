@@ -1,0 +1,93 @@
+{
+  "registro": 110,
+  "pdf": "04 - Planejamento/apoio-guilda-110/output/pdf/Ciclo-Maldito-Jogar-em-Guilda-Amostra.pdf",
+  "pdf_sha256": "01371d9d32aa087f14c9ddebc0e1b598206d1d140cee0a838f45060a95b1d373",
+  "fonte_sha256": "696607d27188eba756477668861166eadc6c243a8184b2f7d48de11c41813a8f",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Conferência da nova redação com fontes 07,15,80,81, formulários e regras pertinentes; leitura das cinco páginas da primeira prova.",
+      "resultado": "Cinco assuntos e exemplo de passagem reunidos; identificada quinta página residual e explicações repetidas."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Pente fino e leitura da prova de quatro páginas, conferindo números, requisitos, títulos, consultas e continuidade.",
+      "ajustes": "Abertura e repetições encurtadas; subtítulos simplificados; arredondamento por extenso; estado final do lugar explícito. Depois, o parágrafo de posições e ações mudou de lugar para corrigir espaço antes da tabela; páginas 2–4 reabertas e página 1 confirmada idêntica por pixels."
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "contas_conferidas": 8,
+  "estados_comparados": [
+    {
+      "personagem": "Mei",
+      "reservas_antes": [
+        "0/44",
+        "36/36",
+        "55/55"
+      ],
+      "reservas_depois": [
+        "15/44",
+        "36/36",
+        "55/55"
+      ],
+      "posicao_final": "A0",
+      "comparada_com": "fonte 81"
+    },
+    {
+      "personagem": "Akira",
+      "reservas_antes": [
+        "51/51",
+        "30/30",
+        "65/65"
+      ],
+      "reservas_depois": [
+        "51/51",
+        "24/30",
+        "65/65"
+      ],
+      "posicao_final": "B0",
+      "comparada_com": "fonte 81"
+    }
+  ],
+  "trechos_de_regras_conferidos": 10,
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-guilda-110/visual-final/p-1.png",
+      "imagem_sha256": "03901edf6b949e15db55b3214898ea1670492b2fdf0f7128b3722fdba2eb7ecd",
+      "inspecionada": true,
+      "metodo": "Inspeção da prova 2 e confirmação de identidade de pixels na versão final",
+      "observacao": "Abertura mais curta e hierarquia legível. Acordos, alcance das decisões e mundo compartilhado em duas colunas; calendário começa com explicação suficiente. Página inspecionada na prova 2 e confirmada idêntica por pixels na composição final."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-guilda-110/visual-final/p-2.png",
+      "imagem_sha256": "ab1791985d680d30935d1362eb18ddf9ad358bacc787f4dbf986b882f896e467",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente",
+      "observacao": "Tabela de calendário inteira. Dedicação e XP distinguidos; passagem abre com referências, ponto da pausa, posições e ações anteriores. Esse parágrafo foi colocado antes da tabela para aproveitar o espaço; restante não comporta a tabela inteira, que começa na página 3."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-guilda-110/visual-final/p-3.png",
+      "imagem_sha256": "1c56ded92bf23644c957fe6d7153e113d5519b34b1fe58f1245603f2c68bc63c",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente",
+      "observacao": "Tabelas de estado na pausa e no encerramento inteiras. Arredondamento do tratamento escrito por extenso; contas da cura e TRs inteiras. Nuvem, condição e socorro têm términos distintos. Seção 10.4 abre com introdução completa, sem fragmento residual na página seguinte."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-guilda-110/visual-final/p-4.png",
+      "imagem_sha256": "9f5a4a5c96d2f76df99ea6f9009a38d040bb6e9a0e2ca9454e21c164a2ada6aa",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente",
+      "observacao": "Tabela de escolha de registros inteira no topo. Atualização, correção de regra, retorno e tarefas em fluxo de duas colunas. Fechamento legível; quinta página residual eliminada sem redução de fonte. Sem corte de tabela, sobreposição ou título isolado."
+    }
+  ],
+  "limites": [
+    "Amostra isolada; integração e revisão textual global ainda pendentes.",
+    "A etapa 5 ainda requer conferência conjunta das consultas e dos casos.",
+    "Exemplo didático sem sessão humana ou leitura externa; não demonstra aprendizagem observada.",
+    "Decisões de dedicação, treinamento, Pactos e Reserva preservadas."
+  ]
+}

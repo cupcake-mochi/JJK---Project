@@ -14,7 +14,7 @@ Use um registro separado para cada personagem, mesmo quando várias fichas perte
 - **Total livre na abertura:**
 - **Reservas pendentes de ciclos anteriores, registradas separadamente:**
 
-Horas reservadas não integram o saldo livre. Ter disponibilidade reconhecida não dispensa tempo compatível, materiais, ferramentas ou conhecimentos.
+As horas reservadas não entram no saldo livre. Mesmo com horas disponíveis, o personagem precisa de tempo na história, materiais, ferramentas e conhecimentos para trabalhar.
 
 ## Atividades
 
@@ -60,7 +60,7 @@ Rina e Mei estão liberadas desde o início. Cada uma tem 28 horas novas por cic
 
 Rina abre o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar o saldo de Mei. Na abertura do quarto ciclo, cada uma poderá ter 56 horas: 28 novas e 28 que passaram do terceiro.
 
-O encerramento do terceiro ciclo elimina apenas as parcelas antigas não usadas. Não desfaz os projetos em que Rina e Mei trabalharam, não remove capacidades da R53 e não determina regressão de treino por ausência de postagem.
+O encerramento do terceiro ciclo elimina apenas as parcelas antigas não usadas. Não desfaz os projetos em que Rina e Mei trabalharam, não remove capacidades do Livro de Regras 1.0 e não determina regressão de treino por ausência de postagem.
 
 ## Exemplo de entrada proporcional
 

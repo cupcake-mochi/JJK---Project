@@ -1,0 +1,128 @@
+# Liberação irregular
+
+**Exemplo experimental para a pré-1.0.** A direção do benefício, os números e a saída incorporam as escolhas do autor. Os procedimentos complementares foram redigidos para tornar o exemplo utilizável e estão identificados no [planejamento 52](<../04 - Planejamento/52-procedimento-da-liberacao-irregular.md>). Antes de adotar, mestre e jogador conferem a compatibilidade da ficha e registram a troca. O modelo não teve seu equilíbrio avaliado em mesa.
+
+## A troca
+
+Sua energia não sai no ritmo desejado. Mesmo com a reserva cheia, pode haver um intervalo em que você não consiga gastar nenhum ponto. Quando o fluxo volta depois de uma interrupção total, **Refluxo** permite recompor parte da reserva.
+
+O Pacto é permanente e ocupa uma vaga enquanto existir. Mestre e jogador conferem a ficha e registram a troca antes da adesão, conforme a R53. A limitação não concede outro benefício se já tiver sido compensada na Origem ou num pacto de restrição.
+
+## Consulta rápida
+
+| Campo | Funcionamento deste exemplo |
+|---|---|
+| Sorteio | Um d6 no começo de cada turno próprio. |
+| Teto | 1: zero; 2: 25%; 3: 50%; 4: 75%; 5 ou 6: 100% dos PE máximos. |
+| Intervalo | Do começo do seu turno até o começo do próximo; inclui Reações e manutenção pagas por você. |
+| Ganho | Após um zero sorteado no começo do seu turno, Refluxo fica preparado até o fim do primeiro turno próprio posterior com resultado positivo. |
+| Ativação | Nesse turno, Ação Bônus para recuperar 25% dos PE máximos atuais, limitada ao que falta. |
+| Uso | Uma vez por descanso curto ou longo. Descansar renova um uso, sem acumular. |
+| Zero | Impede novos pagamentos de PE; conserva saldo e efeitos já pagos, salvo seus próprios requisitos e manutenções. |
+| Saída | Pedido fora de cena; encerra ao concluir o próximo descanso longo. Nova adesão somente após outro descanso longo. |
+
+Arredonde teto positivo e recuperação para baixo, com mínimo 1 quando o máximo e a porcentagem forem positivos. Zero permanece zero. Máximo zero não produz PE por arredondamento.
+
+## Reserva e limite de gasto
+
+**Saldo** é a energia que ainda está na ficha. **Teto** é quanto você pode pagar naquele intervalo. **Gasto do intervalo** é a soma do que já pagou desde a abertura do limite inicial ou o último sorteio de começo de turno.
+
+A cada pagamento, confira as duas coisas: precisa haver saldo e espaço no teto. O **limite restante** é o teto menos o gasto do intervalo, com mínimo zero. Recuperar PE aumenta o saldo, mas não apaga o gasto registrado.
+
+> Hana tem máximo 40, saldo 24 e sorteia 2: teto de 10 PE. Paga 9 por um feitiço de Classe 3. Fica com saldo 15 e limite restante 1. Mesmo tendo energia, não pode pagar Amortecer por 2 PE antes da próxima renovação.
+
+Confira o custo completo antes de iniciar a capacidade. Se não puder pagar, escolha outra opção; anunciar um pagamento conhecido como impossível não consome a ação nem cobra uma parcela. Não dividir o custo de uma única ativação entre intervalos, salvo permissão expressa da própria capacidade. Custos adicionais de Integridade, Restrições e outras regras entram na conta.
+
+Energia temporária também conta como gasto, seguindo a prioridade de consumo da R53. O teto considera o máximo de PE comuns; temporários não aumentam esse máximo. Limite zero com saldo positivo também não ativa consequências que exijam esgotar a reserva, como a inatividade de Núcleo Dependente por falta de PE. Uma entidade com reserva própria válida conserva seu procedimento: conte no teto somente a parcela paga pelo portador, incluindo o que ele precisar cobrir.
+
+## Começo da sequência e começo do turno
+
+Quando uma sequência com iniciativa começar, **sorteie um limite inicial antes da primeira ação**, para resolver possíveis Reações anteriores ao seu primeiro turno. Registre percentual e gasto inicial zero. Esse sorteio inicial não prepara Refluxo; o gatilho do benefício é zero no começo de um turno próprio.
+
+No começo de cada turno próprio:
+
+1. Role o d6, substitua o percentual anterior e zere o gasto do intervalo. O limite antigo não se soma ao novo.
+2. Se sair zero e ainda houver uso de Refluxo, marque-o como preparado. Zeros seguidos conservam uma única marca. Se sair positivo depois de uma marca, abra a oportunidade de ativar Refluxo até o fim deste turno.
+3. Resolva os pagamentos e efeitos de começo de turno. Depois, escolha suas ações, incluindo a Bônus de Refluxo quando disponível.
+
+Para pagamentos que vencem juntos e não tenham uma ordem própria, escolha a ordem antes de pagar qualquer um. Cada custo precisa ser pago integralmente e consome saldo e teto; o que não couber segue a consequência da respectiva capacidade. Essa escolha não permite adiar um vencimento para depois da Bônus.
+
+Se a cena continuar sob contagem de turnos, mudar de lugar, retirar-se e voltar ou reorganizar a iniciativa não concede outro limite inicial. Preserve o intervalo em curso até o próximo começo de turno próprio. Quando a iniciativa começar no meio de uma sequência já acompanhada, conserve esse estado; não faça um sorteio extra pela mudança de apresentação.
+
+## Refluxo
+
+**Um zero sorteado no começo do seu turno prepara Refluxo. No primeiro turno próprio posterior com resultado positivo, você pode gastar Ação Bônus e seu uso para recuperar 25% dos PE máximos atuais.** O máximo e o teto de gasto não aumentam por isso.
+
+Ao terminar esse primeiro turno positivo, apague a preparação, tenha usado o benefício ou não. Deixar de usar conserva o uso disponível, mas exige outro zero para preparar uma nova oportunidade. O gasto que leva o limite restante a zero não prepara Refluxo: precisa sair 1 no d6. Um resultado positivo, para essa sequência, é uma face de 2 a 6; o máximo da ficha continua limitando o que pode ser gasto ou recuperado.
+
+Recuperação parcial também gasta o uso. Se faltar apenas 1 PE, recuperar esse ponto consome a ativação. Com reserva cheia, a ativação não entrega energia adicional. Você pode preferir conservar o uso e deixar a oportunidade expirar. Impedimentos à recuperação continuam valendo; a habilidade não afasta inconsciência, derrota ou outra condição por si só.
+
+A conversão de Padrão em Bônus da R53 pode pagar a ativação, se essa ação ainda estiver disponível. Ela não permite uma segunda recuperação com o mesmo uso. **Refluxo não cabe no mesmo turno de uma Ação Completa**, como Liberação Máxima ou Técnica Máxima: a Completa exige Padrão, Bônus e Movimento.
+
+> Com máximo 40 e saldo 6, Hana recebe um resultado positivo depois de zero. Refluxo recupera 10: saldo 16. Uma Liberação Máxima de Classe 3 custa 14, mas não pode ser usada nesse mesmo turno porque a Bônus já foi comprometida. Uma aplicação comum continua possível se houver Padrão, saldo, teto e requisitos.
+
+A limitação de gasto continua depois que o uso de Refluxo acaba. O Pacto não se desliga quando deixa de oferecer recuperações naquele período.
+
+## Manutenção e efeitos já pagos
+
+Zero não encerra automaticamente uma barreira, proteção ou efeito que já foi pago. Confira seu prazo, concentração e demais requisitos. Se chegar um vencimento de manutenção e o pagamento não couber, aplique a consequência própria de não pagar.
+
+Na manutenção de talentos de entidades que a R53 suspende por falta de pagamento, não faça cobrança parcial. O efeito espera o próximo vencimento normal para tentar pagar outra vez; não acumula dívida. Refluxo usado depois do vencimento não o religa retroativamente.
+
+> Hana tem saldo 6, máximo 40 e manutenção de 3 PE no começo do turno. Sorteia zero: o pagamento não cabe e o efeito segue sua regra de suspensão. No turno seguinte, sai 2: teto 10. Paga a manutenção, ficando com saldo 3 e limite restante 7. Usa Refluxo e vai a saldo 13; o limite continua 7. Um feitiço de Classe 2 por 6 deixa saldo 7 e limite 1. O de Classe 3 por 9 não caberia.
+
+Um feitiço Armado ou adiado e já pago pode resolver num intervalo de zero se cumprir seus requisitos e não exigir novo pagamento. Isso conserva o procedimento da montagem; o Pacto não concede Armado, Segura ou outras peças gratuitamente. Efeitos passivos sem custo de PE também conservam sua regra.
+
+## Mudanças de máximo
+
+Guarde **o percentual sorteado e o gasto do intervalo**, não apenas o limite restante. Se o máximo de PE mudar, recalcule o teto com o mesmo percentual e subtraia o gasto já realizado. Não role novamente.
+
+Se o novo teto ficar abaixo do gasto, o restante fica zero. Não cobre dívida nem desfaça ações concluídas. Se o máximo voltar a subir, continue descontando o mesmo gasto registrado. Um resultado zero permanece zero mesmo com um aumento de máximo.
+
+> Hana sorteou 50%, com máximo 40, e já gastou 12. Teto 20, restante 8. Se uma capacidade elevar legitimamente o máximo a 60, o teto passa a 30 e o restante a 18. Se depois o máximo cair a 20, o teto será 10 e o restante zero: os 12 gastos continuam registrados. Voltar ao máximo 40 devolve o restante a 8, não a 20.
+
+O saldo acompanha a regra da capacidade que mudou o máximo. Um ajuste de ficha não recupera PE automaticamente; permissões expressas, como a transição de Overtime, conservam seu próprio efeito. Mesmo uma recuperação expressa não apaga o gasto do intervalo. Para Refluxo, calcule os 25% no momento da ativação, com o máximo então vigente.
+
+Essas combinações mudam o peso do benefício. Confira a ficha completa antes de adotar este modelo; não trate os cálculos com reservas básicas como avaliação de todas as combinações de Pactos.
+
+## Fora de combate
+
+Quando a ordem, a urgência ou a duração de um efeito importar, acompanhe turnos em rodadas de seis segundos, como na R53. A personagem recebe sua vez; no começo dela, sorteia normalmente. Não crie turnos extras por anunciar tentativas sucessivas. Se houver uma situação anterior à primeira vez da personagem, use o limite inicial descrito acima.
+
+**Sem prazo relevante, manutenção em risco ou efeitos temporários dos quais a tarefa dependa, o mestre pode resumir a espera pela liberação necessária.** Descreva a passagem de tempo, resolva a oportunidade e registre o pagamento. Para usar Refluxo, a passagem resumida precisa comportar zero seguido de resultado positivo e sua ação; ela gasta o uso normal. A abreviação não promete um resultado favorável num número exato de segundos.
+
+Se houver manutenção que possa falhar durante essa espera, efeito prestes a terminar ou outra consequência relevante, volte à contagem. Esperar um resultado favorável não autoriza pular os resultados desfavoráveis entre vencimentos. Uma tarefa cujo custo ultrapasse o próprio máximo não se torna pagável por esperar: até 100% do máximo continuará insuficiente.
+
+> Entre cenas, sem efeito mantido ou urgência, Hana pode esperar e aproveitar um Refluxo ainda disponível. Se estiver sustentando uma proteção que vence a cada turno, será necessário acompanhar a oscilação e os pagamentos; a espera não garante que a proteção permaneça.
+
+Quando a mesa retomar uma sequência precisa depois de uma passagem de tempo resumida, não conserve um resultado alto escolhido durante o resumo. Abra o limite inicial, sem uma marca gratuita de Refluxo. Conserve saldo, usos consumidos e consequências já resolvidas. Uma sequência que apenas continua, sem essa passagem de tempo, conserva seu estado normal.
+
+Na guilda, registre o uso junto da ficha e informe o próximo mestre. Terminar uma sessão, mudar de mestre ou passar um ciclo administrativo não é automaticamente um descanso. Um descanso realmente ocorrido na ficção segue a R53. O procedimento também funciona numa campanha fechada, sem concessão semanal de energia.
+
+## Descanso, adesão e encerramento
+
+Um descanso curto ou longo efetivamente concluído renova o uso de Refluxo para um, sem acumular. Apague a preparação anterior e encerre a contagem de gasto anterior ao descanso; quando outra sequência relevante começar, abra o limite inicial. O descanso recupera recursos conforme a própria regra, sem ativar Refluxo automaticamente. Não trate uma pausa contínua como vários descansos.
+
+A adesão é combinada fora de uma cena em andamento, respeitando as vagas e os requisitos da R53. Ela não recupera PE. No primeiro estabelecimento do Pacto, o uso começa disponível; uma reentrada conserva o registro do uso desde o último descanso real, sem recarregá-lo pela troca de ficha.
+
+**Saída voluntária:** peça fora de cena. O Pacto termina ao concluir o próximo descanso longo. Até lá, a limitação e a vaga permanecem, e o benefício conserva seu funcionamento. Ao terminar, apague o percentual, o gasto e a preparação; cesse a limitação e libere a vaga. A energia já recuperada permanece no saldo, sujeita ao máximo normal.
+
+Para uma nova adesão depois dessa saída, aguarde outro descanso longo efetivamente concluído; o mesmo descanso não serve para encerrar e refazer o Pacto. Essa referência dá um marco de saída verificável e impede alternar a limitação por cena.
+
+> Hana pede para sair antes de iniciar a missão. Um descanso curto no trajeto renova o uso de Refluxo, mas mantém o Pacto. Depois de concluir a missão e o descanso longo, a saída se efetiva: perde o benefício, deixa de sortear limites e libera a vaga. Esse mesmo descanso não permite firmar Liberação irregular novamente; precisará concluir outro descanso longo antes da nova adesão.
+
+Este procedimento trata de encerramento voluntário. Uma perda imposta por outra regra segue essa regra; o exemplo não concede proteção contra ela nem inventa uma punição universal de quebra.
+
+## Registro de mesa
+
+| Campo | Anotação |
+|---|---|
+| Máximo e saldo atuais | Inclua energia temporária em campo separado. |
+| Percentual vigente | Inicial ou resultado do começo do turno. |
+| Total pago no intervalo | Some todas as parcelas pagas pelo portador. |
+| Teto e restante | Recalcule se o máximo mudar; restante nunca menor que zero. |
+| Refluxo | Uso disponível/gasto; preparação ausente, aguardando positivo ou utilizável neste turno. |
+| Manutenções | Custo, vencimento, fonte pagadora e consequência de não pagar. |
+| Descanso e saída | Último descanso real; pedido e condição de encerramento, quando houver. |
+
+Para avaliar o modelo, observe se a personagem continua tendo escolhas úteis nos resultados baixos, se o ganho encontra espaço real na reserva e se as manutenções tornam o preço desproporcional. O percentual pesa de formas diferentes em reservas pequenas e grandes. Registre os problemas observados antes de alterar os valores; este texto é uma opção experimental, não uma compensação universal validada.

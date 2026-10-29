@@ -1,0 +1,79 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+zero. Teleportar para fora ou ser retirado por um
+aliado tem o mesmo resultado para a aquisição.
+A prova começa sem vantagem concedida por um
+ataque preparado contra a aparição. Equipamento
+pessoal válido e capacidades próprias continuam
+disponíveis. Não inicie com uma ajuda externa
+ainda atuando sobre os combatentes: por exemplo,
+um benefício de outra criatura que altere ataque,
+Defesa ou cura durante o desafio. Tratamento
+concluído antes da prova não conta como
+participação atual, e não restaura recursos além do
+que realmente recuperou.
+Antes de começar, resolva os casos particulares da
+ficha e registre-os. O mestre não deve descobrir no
+golpe final uma proibição que poderia ter explicado
+na preparação.
+Ficha do cão
+O cão tem tamanho Médio, quatro patas e uma
+boca capaz de segurar objetos compatíveis; não tem
+mãos. Possui visão, audição e olfato comuns.
+Entende as ordens faladas de Kaito e se comunica
+por latidos e gestos. Não fala, não compartilha
+visão, não atravessa paredes nem viaja dentro de
+sombras.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+3
+2
+2
+1
+1
+Campo
+Valor no nível 2
+Vida máxima
+5 + 2 + (3 + 2) × (2 - 1) = 12 PV.
+Integridade máxima
+Metade de 12 = 6.
+Defesa sem equipamento
+10 + Destreza 2 + metade da Essência 2 de Kaito = 13.
+Bloquear
+2d10 + Defesa - 11 = 2d10 + 2. Escolhido antes do ataque, quando
+permitido.
+Movimento terrestre
+9 m.
+Ataque e CD
+Força 3 + Maestria 1 = +4; CD 8 + 3 + 1 = 12.
+TR treinado
+Físico, usando Força: +4.
+Outros TRs
+Vigor +2, Intelecto +1, Espírito +1.
+Perícias treinadas
+Atletismo +4, Furtividade +3, Percepção +2, Sobrevivência +2.
+Famílias
+Mira Livre; Alcance e Controle abertas; as outras seis Fechadas.
+Vagas e talentos
+Uma básica, uma especial de Classe 1 e um talento CE1.
+Reserva própria
+Não possui. Depois da conquista, os custos saem de Kaito.
+Equipamento e carga adicional
+Nenhum. Não possui talento para transportar passageiros ou
+carga adicional.
+Percepção usa Essência; Sobrevivência usa Inteligência. Os dois atributos valem 1, somado à Maestria 1. As
+demais perícias seguem seus atributos normais. O cão tem quatro treinos: 4 + metade da Inteligência 1,
+arredondada para baixo. Os valores dependentes de Kaito devem ser recalculados se a ficha usada for outra.
+Não mantenha Defesa 13 por conveniência quando a parcela do invocador for diferente.
+Mordida
+Básica de Classe 0; Toque, 1,5 m; ataque +4; dano 1d6 Perfurante. Não soma Força ao dano, não custa PE e
+não impõe condição. No crítico, role 2d6. Uma execução consome sua atuação básica.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+270

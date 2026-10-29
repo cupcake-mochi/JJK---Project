@@ -1,0 +1,67 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Confira as interações
+Regra ou situação
+O que precisa continuar claro
+Ataque, defesa e resistência
+Se há rolagem de ataque, informe bônus, dano e crítico. Se há Teste de
+Resistência, informe qual, a CD e os dois resultados. Bloquear não substitui um
+TR.
+Mãos, voz e Selo
+Cumpra os requisitos escritos. Calado impede a voz exigida; Agarrado não
+prende automaticamente as mãos nem proíbe conjurar.
+Ações e Reações
+Gatilhos, momento de pagamento e ordem de resolução. Uma Reação gasta só
+volta no começo do próximo turno próprio, salvo regra específica.
+Integridade
+Os estágios são cumulativos: o primeiro prejudica perícias; o segundo reduz
+deslocamento e aumenta custos de feitiços; o terceiro prejudica ataques e TRs e
+reduz a Classe máxima de conjuração. Uma capacidade sem PE não evita essas
+consequências. A zero, aplique Inconsciente e Derrotado.
+Energia percebida
+Sentir Energia não revela a ficha inteira. Leitura de Reservas acrescenta saldo e
+máximo no exame bem-sucedido, sem revelar automaticamente usos, recargas
+ou intenções.
+Rescaldo
+Se a capacidade depende da Técnica Inata, confira sua indisponibilidade. Ser
+própria ou ter custo zero não cria uma exceção. Capacidades independentes
+seguem suas regras.
+Cancelamento
+Confira o alvo e o momento de uma capacidade como Desarma o Feitiço. Não
+existe cancelamento universal só porque um efeito parece sobrenatural. Uma
+capacidade própria também não ganha imunidade automática.
+Duração e manutenção
+Informe término, interrupção e consequência de não pagar. Carregar e
+Concentração usam regras diferentes; não troque um pelo outro.
+Retirada e retorno
+Mantenha os recursos gastos e as condições da criatura. Escreva como um
+limite avança fora da iniciativa antes de usar a criatura como ameaça
+recorrente. Mudar a cena não basta para restaurar a ficha.
+Doma
+Prepare a ficha convertida antes da tentativa. Funções e identidade
+permanecem, com os limites de construção e atuação da entidade. Ações
+adicionais e exceções exclusivas do ensaio não passam automaticamente.
+O nome Contramedida, por exemplo, não significa
+anular o ataque inimigo: o talento publicado
+aumenta em dois a CD do feitiço de outra criatura,
+com seus requisitos e custos. Leia a regra da
+capacidade usada, em vez de decidir apenas pelo
+nome.
+Três exemplos
+Impacto: um feitiço continua sendo feitiço
+Na ficha original, o Amontoado junta as palmas,
+paga três PE e faz um ataque de conjuração de +4
+contra um alvo visível a até 1,5 m. O acerto causa
+3d8 de Concussão; o crítico, 6d8. O erro conserva o
+gasto.
+Na variante com recarga, mudar o pagamento não
+apaga a Classe 1, o Selo, a necessidade de alvo ou as
+regras de conjuração. Mesmo disponível, o golpe
+não sai se a criatura não conseguir juntar as palmas.
+Leitura de Reservas pode informar seis PE
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+91

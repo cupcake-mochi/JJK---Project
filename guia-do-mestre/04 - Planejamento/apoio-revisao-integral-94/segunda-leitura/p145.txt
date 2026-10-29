@@ -1,0 +1,104 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Encerrar a oposição não recupera PE ou vida
+automaticamente. Registre os efeitos ainda ativos e
+seus prazos. A equipe usou dois feitiços, ambos de
+Mei, uma espada e duas aberturas de Akira. Este
+exemplo gasta menos recursos ofensivos que a
+sequência de seis feitiços comparada no
+planejamento. Mostra uma saída viável; não mede
+quanto duraria uma luta até a derrota do Sineiro.
+Segundo exemplo: a interrupção
+falha
+Recomece o encontro. Mei entra com 18/44 PV, por
+ferimentos anteriores, mas com PE e Integridade
+cheios, sem Sequelas e sem ter escolhido Insistir
+nessa cena. As outras fichas começam iguais. Não
+transporte os gastos ou as posições finais do
+primeiro exemplo para cá.
+Rina e o Sineiro repetem seus primeiros turnos: ele
+termina em D10:E11 com 97 PV, segurando Rina
+em C10, que tem 59 PV, e prepara o impacto.
+Mei se aproxima demais. Anda de D0 por C1, C2,
+C3, C4, C5 até C6, gastando 9 m. Converte sua
+Bônus em outro Movimento e anda até C11, mais
+7,5 m, sem atravessar o Sineiro ou sair de seu
+alcance depois de entrar nele. Usa a Padrão e paga 6
+PE para Arremesso de pressão. Tira 2 + 5 = 7 e erra.
+Não há dano, Empurrão ou devolução de energia.
+Ela fica dentro da zona, com 30 PE. Essa exposição
+é a escolha arriscada que o exemplo quer examinar;
+o mestre não precisa fazê-la acontecer.
+Akira busca a caixa e volta a C0 pelo mesmo
+percurso do primeiro caso. Desta vez, usa a Bônus e
+1 PE para oferecer Resguardar a Rina, contra o
+Sineiro. Avançar não a soltaria enquanto
+continuasse Agarrada.
+Rina escapa, mas Mei continua em risco
+No turno seguinte, Rina gasta a Padrão para
+escapar. Consome Resguardar nesse TR: tira 4 e 15,
+usa 15 + 5 = 20, contra CD 13, e se solta. Anda de
+C10 a C4 com seu Movimento e converte a Bônus
+em outro Movimento, chegando a C-2. Ao sair do
+alcance do Sineiro, provoca uma oportunidade: ele
+gasta a Reação numa única Pancada, tira 5 + 5 = 10,
+contra Defesa 13, e erra. A oportunidade não inclui
+Agarrar nem toda a Ação Atacar.
+Mei continua exposta em C11. No turno do
+Sineiro, ele recupera sua Reação e usa a Padrão no
+impacto preparado: os cinco d8 dão 6, 6, 6, 6 e 6,
+total 30. Mei falha no TR Físico: 5 + 3 = 8, contra
+CD 13. Não pode Bloquear essa área. Gasta Reação
+e 2 PE em Cobrir-se de Energia; Refino 2 reduz 3.
+Sofre 27, chegando a zero de vida, com 28 PE. O
+Traje conserva sua proteção; essa redução não
+impede a queda.
+O Sineiro fica com Guarda Aberta até o começo do
+próximo turno dele. Não tem outro impacto
+imediato nem pode armar outro sino enquanto
+estiver nessa condição. Neste exemplo, permanece
+no fundo, diante de Mei, sem usar o Movimento ou
+a Bônus restantes. Essa escolha faz parte do
+exemplo; Guarda Aberta não proíbe essas ações.
+Insistir permite agir; não encerra Morrendo
+Mei escolhe Insistir pela primeira vez. Com
+máximo de referência 44, precisa de 15 de
+tratamento: 44 ÷ 3, para cima, abaixo do teto 15 ×
+Classe 2 = 30. A janela começa com três rodadas,
+pois ela não tem Sequelas. Marque a queda no
+momento do impacto, na iniciativa 14 desta rodada.
+O excesso do golpe inicial não consome uma
+segunda rodada.
+No turno de Mei, sua Reação volta, mas o prazo de
+socorro não recomeça. Ela ainda pode agir. Usa a
+Padrão no feitiço Remodelado com Passo, paga 7
+PE, restando 21, acerta com 8 + 5 = 13 e causa 23,
+como no primeiro exemplo. O Sineiro vai de 97 a 74
+PV. Guarda Aberta não transforma esse Projétil em
+crítico.
+Passo a leva C11 → C7, 6 m, sem oportunidade. O
+Movimento comum a leva C7 → C1, 9 m. Converte a
+Bônus em outro Movimento e chega a C-5, mais 9
+m. Passa pelo aliado em C0 com sua permissão.
+Está fora do alcance do chefe, mas continua
+Morrendo, a zero de vida. Seu Impulso Técnico
+dura até o fim do próximo turno; não é recuperação.
+Duas curas, um mesmo prazo
+Akira está em C0, a 7,5 m de Mei, dentro dos 9 m de
+Sutura de emergência. No turno dele, usa a Padrão,
+paga 6 PE e cura 1 + 2 + 3 + 4 = 10. Fica com 23 PE.
+Anote 10 de 15 de tratamento; zero de vida; três
+rodadas restantes. Cuidado Preparado não
+substitui essa conjuração: Mei tem zero de vida.
+Mantenha a contagem para resolver o socorro,
+mesmo com a equipe fora. Na volta seguinte ao
+ponto da queda, na iniciativa 14, a janela passa de
+três para duas, antes de uma ação que começasse
+ali. O Sineiro permanece no recinto. Não ocorre
+novo dano.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+145

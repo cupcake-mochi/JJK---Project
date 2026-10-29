@@ -1,6 +1,6 @@
-# Escolher e usar as ferramentas
+# Registros para a campanha
 
-**Consulta de ferramentas e registros.** Comece pela situação que precisa resolver. As folhas deste Guia guardam decisões e estados; os procedimentos completos continuam nos capítulos correspondentes e na R53. Uma missão breve pode caber em poucas notas. Acrescente um registro específico quando a informação precisar ser acompanhada, consultada ou passada a outra pessoa.
+**Consulta de ferramentas e registros.** Comece pela situação que precisa resolver. As folhas deste Guia ajudam a anotar decisões, recursos e acontecimentos. Consulte as regras completas nos capítulos indicados e no Livro de Regras 1.0. Uma missão breve pode caber em poucas notas. Acrescente um registro específico quando a informação precisar ser acompanhada, consultada ou passada a outra pessoa.
 
 Para uma primeira missão, use a [ficha de preparação](02-ficha-de-preparacao.md) e a [folha de condução](05-folha-de-conducao.md). Se houver recursos ou efeitos que precisem continuar, mantenha o [registro de estado](24-registro-de-estado-e-socorro.md). Ao interromper ou encerrar, atualize a [linha de continuidade](16-linha-de-continuidade.md). O [exemplo de passagem da sala de conservação](81-passar-a-missao-entre-mestres.md) mostra esses registros trabalhando juntos.
 
@@ -10,7 +10,7 @@ Para ocultação, busca, interpretação ou lembranças, use os [casos de percep
 
 ## Antes e durante a missão
 
-| Preciso de… | Ferramenta e uso | Exemplo ou procedimento |
+| Preciso de… | Ferramenta e uso | Onde consultar |
 |---|---|---|
 | Combinar proposta, participação e limites | [Acordos do grupo](08-ficha-de-acordos-do-grupo.md); retome quando o combinado mudar. | [Exemplo preenchido](09-exemplo-de-acordos-do-grupo.md). |
 | Preparar uma situação com pessoas, acessos e consequências | [Ficha de preparação](02-ficha-de-preparacao.md). Uma pessoa de participação breve pode ficar na tabela de pessoas dessa ficha. | [As batidas no anexo](03-as-batidas-no-anexo-consulta.md). |
@@ -20,16 +20,16 @@ Para ocultação, busca, interpretação ou lembranças, use os [casos de percep
 
 ## Pessoas, fichas e decisões
 
-| Preciso de… | Ferramenta e uso | Exemplo ou procedimento |
+| Preciso de… | Ferramenta e uso | Onde consultar |
 |---|---|---|
-| Retomar uma organização com atuação própria | [Ficha de facção](20-ficha-de-faccao.md); para um contato isolado, os campos de pessoas do preparo podem bastar. | [Facções e reações](17-faccoes-e-reacoes.md); exemplo Roda das Oficinas na ficha. |
+| Retomar uma organização com atuação própria | [Ficha de facção](20-ficha-de-faccao.md); para um contato isolado, os campos de pessoas do preparo podem bastar. | [Facções](17-faccoes-e-reacoes.md); exemplo Roda das Oficinas na ficha. |
 | Conservar recursos, condições, queda e recuperação | [Registro de estado e socorro](24-registro-de-estado-e-socorro.md), vinculado à ficha do personagem. | [Quedas e socorro](22-quedas-e-socorro.md) e [passagem preenchida](81-passar-a-missao-entre-mestres.md). |
 | Acompanhar a convivência com outra presença | [Ficha de convivência](28-ficha-de-convivencia.md). | [Convivência do Receptáculo](27-convivencia-do-receptaculo.md); exemplo Maia e Taru na ficha. |
-| Examinar uma criação ou registrar um parecer | [Ficha de avaliação de capacidade](32-ficha-de-avaliacao-de-capacidade.md). | [Pareceres comparados](30-pareceres-de-criacoes.md); a ficha inclui um ajuste de Toque. |
+| Examinar uma criação ou registrar uma avaliação | [Ficha de avaliação de capacidade](32-ficha-de-avaliacao-de-capacidade.md). | [Exemplos de avaliação](30-pareceres-de-criacoes.md); a ficha inclui um ajuste de Toque. |
 
 ## Projetos, tempo e aquisições
 
-| Preciso de… | Ferramenta e uso | Exemplo ou procedimento |
+| Preciso de… | Ferramenta e uso | Onde consultar |
 |---|---|---|
 | Fabricar, reparar, contratar ou emprestar uma peça | [Projeto e entrega](38-ficha-de-projeto-e-entrega.md). O registro curto de empréstimo identifica portador e estado. | Reparo do Traje de Rina na própria folha; [Ofícios e fabricação](34-oficios-fabricacao-e-reparos.md). |
 | Distribuir dedicação fora de missão | [Registro por ficha](40-registro-de-dedicacao-por-ficha.md), vinculado aos projetos correspondentes. | [Atividades e tempo](39-atividades-e-tempo-entre-missoes.md); exemplos de saldo e entrada proporcional na folha. |
@@ -40,7 +40,7 @@ Para medidas, apoio e chegada, consulte [percursos e quedas](84-percursos-apoios
 
 ## Ameaças e ambiente
 
-Use a [ficha única de construção e encontro](58-ficha-de-inimigo-e-encontro.md) para escolher ou construir a ameaça, registrar o grupo, o lugar e a aplicação. O [preenchimento de Ren e Sora](77-ficha-preenchida-ren-e-sora.md) demonstra os seis blocos. Para um perigo sem criaturas, preencha os campos pertinentes do lugar e consulte [Perigos ambientais](78-preparar-perigos-ambientais.md).
+Use a [ficha de inimigo e encontro](58-ficha-de-inimigo-e-encontro.md) para escolher ou construir a ameaça, registrar o grupo, o lugar e a aplicação. O [preenchimento de Ren e Sora](77-ficha-preenchida-ren-e-sora.md) demonstra os seis blocos. Para um perigo sem criaturas, preencha os campos pertinentes do lugar e consulte [Perigos ambientais](78-preparar-perigos-ambientais.md).
 
 As conferências de [habilidade](61-ficha-de-habilidade-de-inimigo.md) e [chefe](68-ficha-e-comparacao-de-chefes.md) aprofundam interações específicas. Elas não exigem repetir o preparo inteiro em outras duas folhas. Os exemplos de inimigos e os valores próprios dos perigos continuam com o estado de proposta indicado em seus textos.
 
@@ -52,17 +52,17 @@ Escolha uma localização principal para cada informação que precisa continuar
 
 **Exemplo:** o projeto do Traje registra quatro horas de reparo e seus materiais. O registro de dedicação de Rina mostra quais horas foram confirmadas para esse projeto. O inventário marca quem está com a peça e se a entrega já ocorreu. Confirmar o trabalho não acrescenta quatro horas ao saldo nem entrega a mesma peça a duas pessoas.
 
-O nome do personagem não basta para identificar uma ficha. Os exemplos do Guia usam recortes de níveis e escolhas diferentes. Ao passar uma mesa real, envie a versão efetivamente utilizada, com suas capacidades completas. Um parecer aprovado para uma versão também precisa informar seu alcance: personagem, campanha ou guilda.
+O nome do personagem não basta para identificar uma ficha. Os exemplos do Guia mostram personagens em níveis diferentes e com escolhas diferentes. Ao passar uma mesa real, envie a versão efetivamente utilizada, com suas capacidades completas. Uma aprovação também precisa dizer a quem se aplica: personagem, campanha ou guilda.
 
 ## Três momentos de conferência
 
-**Antes de começar**, confirme as versões das fichas, os recursos de entrada, as opções autorizadas e os textos das propostas locais usadas na ocorrência. Abra as regras necessárias. Uma pendência que impede resolver a situação precisa ser concluída antes de apresentá-la ao grupo.
+**Antes de começar**, confirme as versões das fichas, os recursos no início da missão, as opções autorizadas e os textos das propostas locais usadas na missão. Abra as regras necessárias. Uma pendência que impede resolver a situação precisa ser concluída antes de apresentá-la ao grupo.
 
-**Durante a sessão**, atualize a mudança quando ela acontecer. Anote custos, condições, prazos e informação descoberta antes de avançar para outra resolução. Se houver dúvida de regra, use a nota curta da folha de condução: trecho consultado, caso concreto, decisão usada, responsável e resultado da revisão. A combinação para aquela sessão não se torna automaticamente regra de toda a guilda.
+**Durante a sessão**, atualize a mudança quando ela acontecer. Anote custos, condições, prazos e informação descoberta antes de resolver a próxima ação. Se houver dúvida de regra, use a nota curta da folha de condução: trecho consultado, caso concreto, decisão usada, responsável e resultado da revisão. A combinação para aquela sessão não se torna automaticamente regra de toda a guilda.
 
-**Ao encerrar ou interromper**, confira com os jogadores as alterações que os afetam. Na interrupção, registre o próximo turno ou evento e os recursos já gastos; numa conclusão, resolva recuperação e recompensas pelos procedimentos próprios. Em ambos os casos, separe o que aconteceu daquilo que foi apenas cogitado.
+**Ao encerrar ou interromper**, confira com os jogadores as alterações que os afetam. Na interrupção, registre o próximo turno ou evento e os recursos já gastos; numa conclusão, resolva recuperação e recompensas pelas regras correspondentes. Em ambos os casos, separe o que aconteceu daquilo que foi apenas cogitado.
 
-## Passe o estado e a informação certa
+## Prepare a próxima sessão
 
 Use os campos de passagem da [linha de continuidade](16-linha-de-continuidade.md) para reunir o resumo e as referências. O próximo mestre deve conseguir identificar:
 
@@ -71,11 +71,11 @@ Use os campos de passagem da [linha de continuidade](16-linha-de-continuidade.md
 - quais reservas, efeitos, prazos e ações precisam continuar;
 - quem acompanha cada pendência e qual é a próxima providência possível.
 
-Na guilda, use o meio de registro adotado pela comunidade. Reserve informação do preparo e limites pessoais aos destinatários pertinentes. Numa campanha fechada, a mesma pessoa pode consultar essas notas na sessão seguinte; não é necessário simular uma entrega a outra equipe.
+Na guilda, use o meio de registro adotado pela comunidade. Compartilhe informações do preparo e limites pessoais somente com quem precisa conhecê-los. Numa campanha fechada, a mesma pessoa pode consultar essas notas na sessão seguinte; não é necessário simular uma entrega a outra equipe.
 
 Uma missão em várias sessões pode representar uma única noite. Diferencie a data do registro e o tempo vivido pelos personagens. O calendário aproximadamente ligado aos dias reais da guilda não transforma um intervalo entre sessões em rodadas de socorro já resolvidas. Consulte [Atividades e tempo](39-atividades-e-tempo-entre-missoes.md) para cruzar o intervalo da missão com projetos e dedicação.
 
-## Retorno e divisão do trabalho
+## Ouça o grupo e divida as tarefas
 
 Ao fechar, pergunte por um momento em que faltou informação ou uma consulta ficou difícil. Se houver interesse, recolha também algo que o grupo quer retomar. Não é necessário transformar toda sessão em um questionário extenso.
 
@@ -83,6 +83,6 @@ Registre a observação antes de escolher a solução. “Não localizamos quand
 
 **Exemplo:** alguém relata que confundiu o fim da nuvem com o fim de Envenenado. A mudança de apresentação pode ser manter dois marcadores, um do lugar e outro da condição. Compare esse uso na próxima sessão antes de concluir que a condição precisa de outra duração.
 
-Divida tarefas concretas conforme o interesse e a disponibilidade das pessoas: atualizar o próprio estado, conservar notas públicas, conferir uma dúvida ou preparar a próxima ocorrência. Registre quem aceitou e o que falta. Guardar o mapa não transfere a autoridade para aprovar capacidades ou recompensas.
+Divida tarefas concretas conforme o interesse e a disponibilidade das pessoas: atualizar o próprio estado, conservar notas públicas, conferir uma dúvida ou preparar a próxima missão. Registre quem aceitou e o que falta. Guardar o mapa não transfere a autoridade para aprovar capacidades ou recompensas.
 
-Use os campos de retorno e tarefas da linha de continuidade para ligar cada observação a uma providência. Só registre como observado em leitura ou mesa o que realmente aconteceu com pessoas; um percurso escrito pode ajudar a conferir o procedimento, mas ainda não demonstra sua compreensão pelo grupo.
+Use os campos de retorno e tarefas da linha de continuidade para ligar cada observação a uma providência. Só registre como observado em leitura ou mesa o que realmente aconteceu com pessoas; um exemplo escrito pode ajudar a conferir as regras, mas ainda não demonstra sua compreensão pelo grupo.

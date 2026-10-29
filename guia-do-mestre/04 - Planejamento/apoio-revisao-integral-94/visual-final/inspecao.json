@@ -1,0 +1,29 @@
+{
+  "pdf_sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b",
+  "paginas": 357,
+  "primeira_inspecao": "visual-prova-2/inspecao.json",
+  "comparacao": "comparacao-final.json",
+  "reinspecao": {
+    "1": {
+      "sha256_png": "e329d06bee63ed9652685affa0e4fb0cbf255a504efb6e509ae4f4ebe8ed2935",
+      "conferida": true
+    },
+    "2": {
+      "sha256_png": "7557ab9da1be955a4c768a6595482d8bcfe2dfd4de849e81e1dd4e83c447fd10",
+      "conferida": true
+    },
+    "313": {
+      "sha256_png": "b39ab0ffc0162833e878ac9083f4f7f0cfcda15eca8c276143c3d475fcf41877",
+      "conferida": true
+    },
+    "314": {
+      "sha256_png": "c4713d07d0f14a282c86dcd1cd2e31204231f91dd57aa1b2698ce153c3a88698",
+      "conferida": true
+    },
+    "351": {
+      "sha256_png": "a73b80cbb9538159ca9ced4e87beffa35f870447dc237b763e512ff30e322100",
+      "conferida": true
+    }
+  },
+  "resultado": "As 357 páginas foram examinadas. Na prova final, 353 páginas ficaram idênticas pixel a pixel; as quatro alteradas foram renderizadas e examinadas novamente. A p2 recebeu ampliação adicional. Nenhum corte ou sobreposição permaneceu nas verificações. Espaços de encerramento preservam unidades de leitura; tentativas de recompor duas, três e quatro páginas não reduziram a extensão sem alterar o padrão."
+}

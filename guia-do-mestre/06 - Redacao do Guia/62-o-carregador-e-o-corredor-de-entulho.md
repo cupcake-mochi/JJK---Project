@@ -1,16 +1,16 @@
 # O Carregador e o corredor de entulho
 
-**Encontro experimental da pré-1.0.** Este caso aplica [Montar habilidades](60-montar-habilidades-de-inimigos.md): uma ameaça usa Agarrar, carga e movimento da R53 para disputar um objetivo. A ficha numérica, o lugar e o comportamento são propostas deste exemplo. Não substituem o piloto do Amontoado nem definem dificuldade por nível. A [consulta de mesa](63-carregador-consulta-e-doma.md) reúne ficha, percurso e conversão por Doma.
+**Encontro experimental da pré-1.0.** Este caso aplica [Montar habilidades](60-montar-habilidades-de-inimigos.md): uma ameaça usa Agarrar, carga e movimento do Livro de Regras 1.0 para disputar um objetivo. A ficha numérica, o lugar e o comportamento são propostas deste exemplo. Não substituem o piloto do Amontoado nem definem dificuldade por nível. A [consulta de mesa](63-carregador-consulta-e-doma.md) reúne ficha, percurso e conversão por Doma.
 
 ## O que preparar
 
-A guilda recebeu um pedido para recuperar uma caixa de registros de manutenção num antigo depósito de sinos. Uma maldição passou a expulsar quem tenta removê-la. Os trabalhadores já se retiraram; não há civis escondidos nem reforços previstos. A caixa permitirá conferir quais peças foram levadas para outros prédios. Em campanha fechada, o pedido pode vir de uma oficina conhecida pelo grupo, com o mesmo objetivo e sem política de recompensa nova.
+A guilda recebeu um pedido para recuperar uma caixa de registros de manutenção num antigo depósito de sinos. Uma maldição passou a expulsar quem tenta removê-la. Os trabalhadores já se retiraram; não há civis escondidos nem reforços previstos. A caixa permitirá conferir quais peças foram levadas para outros prédios. Em campanha fechada, o pedido pode vir de uma oficina conhecida pelo grupo, com o mesmo objetivo e sem mudar as recompensas já combinadas.
 
-Uma **maldição** é uma criatura sobrenatural ligada à energia amaldiçoada. Não é necessário conhecer a trama de Jujutsu Kaisen para conduzir esta ocorrência. O Carregador tem corpo sólido com mãos; o som vem dos sinos incorporados a ele. Não há canto que controle pensamentos, dano sonoro, aura ou efeito de medo nesta ficha.
+Uma **maldição** é uma criatura sobrenatural ligada à energia amaldiçoada. Não é necessário conhecer a trama de Jujutsu Kaisen para conduzir esta missão. O Carregador tem corpo sólido com mãos; o som vem dos sinos incorporados a ele. Não há canto que controle pensamentos, dano sonoro, aura ou efeito de medo nesta ficha.
 
 O objetivo recomendado é **retirar a caixa e sair com todos os integrantes**. Derrotar a criatura, afastá-la da caixa ou conseguir uma passagem negociada são meios possíveis. A aquisição por Doma também está preparada, para um personagem que queira tentar e cumpra o nível necessário. Explique sua ficha resultante antes de assumir esse risco.
 
-Use como ponto de partida editorial três personagens de nível 2 com suas fichas e recursos reais. Isso delimita a discussão, sem prometer encontro fácil ou duração fixa. Confira quem consegue perceber a criatura, meios de causar dano, efeitos de deslocamento, entidades, carga de cada personagem e recursos de socorro. Para quem não a percebe, aplique as regras correspondentes: ouvir um sino não substitui automaticamente enxergar um alvo. A ficha tem corpo alcançável; não recebe imunidade ao dano comum por ser chamada de maldição.
+Use como ponto de partida três personagens de nível 2 com suas fichas e recursos reais. Essa referência não garante uma luta fácil nem uma duração fixa. Confira quem consegue perceber a criatura, meios de causar dano, efeitos de deslocamento, entidades, carga de cada personagem e recursos de socorro. Para quem não a percebe, aplique as regras correspondentes: ouvir um sino não substitui automaticamente enxergar um alvo. A ficha tem corpo alcançável; não recebe imunidade ao dano comum por ser chamada de maldição.
 
 Antes da sessão, desenhe os dois percursos abaixo, anote as posições iniciais e deixe à vista as saídas da contenção. As informações indispensáveis não dependem de uma sequência obrigatória de testes.
 
@@ -25,7 +25,7 @@ Do ponto de trabalho ao recuo onde ele tenta deixar intrusos há duas rotas:
 | Direta | 6 m regulares; 6 m de entulho; 6 m regulares | **18 m** |
 | Lateral | Passagem regular que contorna a pilha | **24 m** |
 
-As duas comportam dois corpos Médios lado a lado, sem apertos: largura livre mínima de **3 m**. Pilhas de materiais delimitam os caminhos; a lateral contorna a pilha central, sem atravessar seu interior. Marque também a volta do recuo à área de trabalho pelas mesmas rotas e os 6 m adicionais até a entrada. Caminhos oblíquos que atravessem a pilha continuam sujeitos ao entulho ou ao obstáculo efetivo; não invente uma terceira passagem curta de chão limpo entre as rotas. Agarrar uma criatura Grande pode ser permitido, mas isso não garante passagem simultânea para ela e o Carregador: confira a ocupação dos dois corpos antes do arrasto.
+As duas comportam dois corpos Médios lado a lado, sem apertos: largura livre mínima de **3 m**. Pilhas de materiais delimitam os caminhos; a lateral contorna a pilha central, sem atravessar seu interior. Marque também a volta do recuo à área de trabalho pelas mesmas rotas e os 6 m adicionais até a entrada. Caminhos oblíquos que atravessem a pilha continuam sujeitos ao entulho e aos obstáculos do lugar; não invente uma terceira passagem curta de chão limpo entre as rotas. Agarrar uma criatura Grande pode ser permitido, mas isso não garante passagem simultânea para ela e o Carregador: confira a ocupação dos dois corpos antes do arrasto.
 
 Este é um esquema de percursos medidos, não uma planta em escala:
 
@@ -43,7 +43,7 @@ O recuo é uma área aberta de **6 m por 6 m**, no mesmo nível do piso. Chegar 
 
 A caixa está visível sobre um banco baixo. Foi definida para este cenário como **1 Volume**, com alça para uma mão, sem tranca e sem efeito mágico. Recolhê-la ao alcance é uma manipulação simples, se houver mão disponível. Manipulações adicionais seguem seus custos normais. Carregá-la ocupa a mão e soma carga; guardar, passar ou abandonar a caixa não ganha uma ação gratuita nova por fazer parte do objetivo.
 
-### O elemento ambiental: entulho baixo
+### Atravessar o entulho
 
 São fragmentos de madeira e argamassa espalhados no trecho de 6 m, com apoios irregulares entre eles. Trate-o como **terreno difícil** e informe isso antes da escolha de caminho. Ele não bloqueia a visão nem concede cobertura nesta disposição.
 
@@ -58,7 +58,7 @@ O último valor já combina arrasto e terreno difícil. Não dobre novamente por
 
 Não há teste automático de equilíbrio, dano ao entrar ou perda de ação por estar sobre os fragmentos. Uma habilidade que ignore terreno difícil, forneça voo ou permita saltar segue seu próprio texto, incluindo o transporte de outro corpo. O mestre não acrescenta estilhaços danosos para recuperar uma dificuldade perdida.
 
-Retirar uma pequena peça não limpa os 6 m. Para abrir passagem, primeiro delimite o trecho e descreva o trabalho necessário; informe ação e tempo antes da tentativa. Não há uma ação universal de “limpar todo o entulho” neste exemplo. Contornar ou usar uma capacidade já disponível resolve o obstáculo sem criar esse procedimento. O caso ensina terreno; não pretende cobrir todo o projeto de perigos ambientais.
+Retirar uma pequena peça não limpa os 6 m. Para abrir passagem, primeiro delimite o trecho e descreva o trabalho necessário; informe ação e tempo antes da tentativa. Não há uma ação universal de “limpar todo o entulho” neste exemplo. Contornar o entulho ou usar uma capacidade já disponível também pode resolver o obstáculo.
 
 ## O que o Carregador quer
 
@@ -74,21 +74,21 @@ Na luta, escolha conforme o que ele percebe:
 4. **Chegou ao recuo?** Mantém a pessoa enquanto vê nela o risco de voltar à caixa. Se a caixa for levada por outra pessoa, solta o alvo sem ação e muda a perseguição pelos recursos que ainda tem. Dizer “larguei a caixa” não transfere o objeto sem resolver a manipulação e sua posição.
 5. **O grupo recuou?** Não persegue além da entrada nesta ocorrência. Volta a cuidar do banco; isso é uma preferência observável, não uma barreira que impeça ataques a distância. Se atacado de fora, procura abrigo no galpão, sem cura ou nova ficha. A missão ainda exige retirar todos os companheiros.
 
-Não ataca deliberadamente alguém inconsciente. Essa conduta não pausa Socorro nem protege a pessoa de efeitos já ativos. Ao perceber que está muito ferido — **8 PV ou menos**, limiar comportamental proposto — solta quem segura e tenta se retirar ao recuo, usando Desengajar quando houver ameaça de oportunidade. Isso não concede deslocamento fora do turno, invulnerabilidade ou fuga garantida.
+Não ataca deliberadamente alguém inconsciente. Essa conduta não pausa Socorro nem protege a pessoa de efeitos já ativos. Ao perceber que está muito ferido — **8 PV ou menos**, ponto de retirada escolhido para o exemplo — solta quem segura e tenta se retirar ao recuo, usando Desengajar quando houver ameaça de oportunidade. Isso não concede deslocamento fora do turno, invulnerabilidade ou fuga garantida.
 
-## Informação antes da consequência
+## O que o grupo pode descobrir
 
-Ao entrar, apresente o banco, a caixa, os dois caminhos e o entulho. Descreva o tilintar, as mãos vazias e o gesto entre saída e banco para quem puder perceber esses sinais. A distância e o chão difícil são informações evidentes. Quem reconhece a manobra pode conhecer seu procedimento; a personagem não precisa falhar num agarrão para o jogador receber a explicação de como sair dele.
+Ao entrar, apresente o banco, a caixa, os dois caminhos e o entulho. Descreva o tilintar, as mãos vazias e o gesto entre saída e banco para quem puder perceber esses sinais. A distância e o chão difícil são informações evidentes. Quem reconhece a manobra pode conhecer suas regras; a personagem não precisa falhar num agarrão para o jogador receber a explicação de como sair dele.
 
 | Ação do grupo | Informação disponível |
 |---|---|
 | Ouvir os trabalhadores, antes de entrar | A criatura tenta levar quem mexe na caixa para o recuo; os trabalhadores que largaram o serviço conseguiram sair. É relato de comportamento passado, sem garantia de próximo turno. |
 | Observar o piso e o recuo | Marcas de arrasto chegam a uma área aberta. Não há cela, alçapão ou amarra esperando lá. |
-| Estudar os gestos e a disposição dos objetos | Se ainda houver dúvida, **Intuição CD 10**, escolha local da escala da R53, identifica a preocupação com a caixa no banco. Em combate, Padrão. Falha gasta a ação e não autoriza novas tentativas idênticas sem outra pista. |
+| Estudar os gestos e a disposição dos objetos | Se ainda houver dúvida, **Intuição CD 10**, escolha local da escala do Livro de Regras 1.0, identifica a preocupação com a caixa no banco. Em combate, Padrão. Falha gasta a ação e não autoriza novas tentativas idênticas sem outra pista. |
 | Examinar sua energia | Estudar com Sentir Energia, quando acessível, pode responder sobre o sinal percebido; use **CD 10** para o exame simples desta ocorrência. Não fornece toda a ficha ou intenção futura. |
 | Aplicar Leitura de Reservas num exame válido | Informa **0/0 PE**, conforme a capacidade. A criatura ainda tem energia perceptível e pode fazer manobras; zero reserva gastável não significa ausência de energia amaldiçoada. |
 
-As duas CDs são parâmetros de cenário, não uma resistência universal das maldições. Use resultados já garantidos por uma capacidade sem exigir o teste adicional desta tabela.
+As duas CDs são escolhas deste cenário, não uma resistência universal das maldições. Use resultados já garantidos por uma capacidade sem exigir o teste adicional desta tabela.
 
 Uma proposta concreta de retirada pode resolver a ocorrência por conversa. Por exemplo, o grupo se oferece para mostrar os registros aos responsáveis ali mesmo e devolvê-los ao banco. O Carregador pode aceitar algo que preserve sua intenção, se compreender a proposta. Se o resultado continuar incerto, use **Influenciar com Persuasão, Padrão em combate, CD 14** como dificuldade local anunciada; sucesso obtém a permissão específica negociada, falha mantém a recusa. Não cria obediência geral. Uma proposta que exija entregar tudo e abandonar o local não se torna possível por um número alto. Examinar os registros no lugar é progresso, mas não cumpre sozinho o objetivo de retirar a caixa; registre a diferença com o contratante.
 
@@ -100,9 +100,9 @@ Agarrado tem deslocamento zero, mas continua podendo atacar, conjurar e Bloquear
 
 Para arrastar, use **5 + Força = 8 Volume** de limite normal e **16 Volume** como teto de arrasto, descontando o equipamento que o Carregador leve. Nesta ficha inicial ele não leva equipamento: os sinos integram o corpo. Some o corpo da vítima, em kg ÷ 12, aos itens dela. **Exemplo de inventário:** corpo de 72 kg e itens de 2 Volume somam 8; podem ser arrastados. Total 16 ainda cabe; 16,1 não cabe, sem arredondar. A contenção pode permanecer mesmo quando o transporte é impossível.
 
-O arrasto cobra seus metros próprios; o fato de superar 8 não acrescenta outra metade de deslocamento apenas pelo corpo arrastado. Se ele erguer a vítima para carregá-la, muda o procedimento: acima de 8 e até 16, aplicam-se deslocamento pela metade e desvantagem em TR Físico. A anatomia, o apoio e a manutenção da contenção continuam necessários. O comportamento preparado usa arrasto pelo piso, sem converter a descrição em carregamento mais eficiente.
+O arrasto cobra seus metros próprios; o fato de superar 8 não acrescenta outra metade de deslocamento apenas pelo corpo arrastado. Se ele erguer a vítima para carregá-la, mudam as regras: acima de 8 e até 16, aplicam-se deslocamento pela metade e desvantagem em TR Físico. A anatomia, o apoio e a manutenção da contenção continuam necessários. O comportamento preparado usa arrasto pelo piso, sem converter a descrição em carregamento mais eficiente.
 
-### Uma sequência conferida
+### Exemplo de agarrão e arrasto
 
 Considere o começo de um turno **na área de trabalho**, depois de já haver aproximação em turno anterior: o Carregador está ao lado de uma personagem de corpo Médio, 72 kg e 2 Volume de itens. Ambos têm espaço para seguir lado a lado; nenhum deles bloqueia o caminho do outro. O exemplo não concede essa posição na abertura: vindo de longe, desconte os metros de aproximação.
 
@@ -118,19 +118,19 @@ Também poderia converter a Padrão em Bônus e depois Movimento, obtendo os mes
 
 No estágio 2 de Integridade, cada deslocamento de 9 m cai para **4,5 m**. Agarrar continua sem PE. No primeiro turno da sequência, Movimento e Bônus convertida somariam 9 m: apenas 4,5 m de arrasto em chão regular. A CD não cai por ter sido ferido. No estágio 3, a desvantagem em ataques e TRs é do Carregador; não se transfere ao TR de quem ele tenta agarrar. A vítima aplica as próprias penalidades, se tiver.
 
-## Respostas que permanecem disponíveis
+## Como enfrentar o Carregador
 
 **Escapar por conta própria.** Padrão e TR Físico contra a CD original da contenção. Falhar não apaga Bônus ou Reação ainda disponíveis. Estar Agarrado não reduz o repertório à tentativa de fuga.
 
 **Separar os corpos.** Um aliado pode usar Empurrar ou uma capacidade apropriada. A manobra comum afasta o alvo 1,5 m do executor, após o TR. Confira a posição: um empurrão lateral pode manter os corpos ao alcance e não encerrar nada. Um aliado posicionado do lado da vítima pode empurrar o Carregador para longe dela; se a distância ultrapassar 1,5 m, o agarrão termina. O empurrão não leva automaticamente a vítima junto. Também é possível deslocar a vítima por uma capacidade válida; Agarrado impede seu deslocamento próprio, não todo movimento imposto.
 
-**Fazer o agarrador perder a contenção.** Guarda Aberta, Inconsciente, deixar de manter a mão ou separação além do alcance encerram o agarrão comum. Causar dano, por si, não solta a mão. Derrubar o Carregador também não contém uma soltura automática; resolva o que a condição realmente diz. Atingir a mão não cria desmembramento sem regra.
+**Fazer o agarrador perder a contenção.** Guarda Aberta, Inconsciente, deixar de manter a mão ou separação além do alcance encerram o agarrão comum. Causar dano, por si, não solta a mão. Derrubar o Carregador também não o faz soltar a vítima automaticamente; resolva o que a condição realmente diz. Atingir a mão não cria desmembramento sem regra.
 
 **Disputar a caixa.** Enquanto o Carregador ocupa uma mão e percorre o galpão, outra pessoa pode retirar o objeto. Ele precisa perceber a mudança e usar seus próprios recursos para responder. Largar o alvo é gratuito; alcançar a caixa ou agarrar outra pessoa não é. Não use conhecimento do mestre para detectar uma retirada bem ocultada.
 
-**Intervir no caminho.** Ocupar uma passagem, preparar uma resposta ou usar uma habilidade de deslocamento pode mudar a rota. Confira espaço, linha de visão, gatilho e Reação. Uma parede ou corpo que bloqueie o percurso não é atravessado porque a conta de Volume passou. O movimento voluntário do Carregador pode provocar oportunidade; a vítima arrastada não provoca por esse movimento. Um ataque de oportunidade comum não pode ser trocado por Agarrar ou Empurrar.
+**Intervir no caminho.** Ocupar uma passagem, preparar uma resposta ou usar uma habilidade de deslocamento pode mudar a rota. Confira espaço, linha de visão, gatilho e Reação. Uma parede ou corpo que bloqueie o percurso continua bloqueando, mesmo que a carga esteja dentro do limite. O movimento voluntário do Carregador pode provocar oportunidade; a vítima arrastada não provoca por esse movimento. Um ataque de oportunidade comum não pode ser trocado por Agarrar ou Empurrar.
 
-## Contenção depois da luta e transporte de feridos
+## Amarrar prisioneiros e transportar feridos
 
 Amarrar não é continuação automática do agarrão. **Cordas ou algemas exigem 1 minuto, duas mãos e acesso aos pulsos**, com alvo permitindo, inconsciente ou impedido de resistir durante toda a tarefa. Só Agarrado, Derrubado, Atordoado ou Guarda Aberta não basta. A equipe precisa trazer material compatível; a cena não fornece uma corda invisível nem transforma os sinos em algemas.
 
@@ -140,11 +140,11 @@ Para retirar um aliado disposto ou inconsciente, não é necessário agarrá-lo.
 
 Dois carregadores podem dividir essa carga, desde que todos tenham apoio, mãos e espaço. Distribua o Volume antes de começar, conte o equipamento de cada um e use o menor movimento disponível, cobrando o trecho de ambos. Em combate, deslocamento simultâneo exige Preparar ou outra permissão; não entregue movimento fora do turno a um aliado só porque ele aceitou ajudar.
 
-## Retirada, continuidade e encerramento
+## Encerrar a missão
 
 O grupo pode recuar pela entrada. Para sair sem provocar oportunidades pelo próprio movimento, cada participante usa os meios que tiver, como Desengajar; a preferência do Carregador por ficar dentro não cancela Reações válidas. Uma vítima agarrada precisa sair da contenção ou receber transporte que realmente a separe do agarrador. O limite do galpão não a teleporta para a equipe.
 
-Se alguém chegar a zero de vida, use **Insistir, Aguentar, Socorro e Sequelas** da R53 e [Quedas e socorro](22-quedas-e-socorro.md). Chegar a zero, parar de participar, receber socorro e terminar o encontro são acontecimentos diferentes. O Carregador, como inimigo deste exemplo, é derrotado a zero de vida ou Integridade, sem Insistir ou janela de socorro de personagem. A queda encerra sua contenção; a equipe ainda pode precisar tratar ou retirar alguém.
+Se alguém chegar a zero de vida, use **Insistir, Aguentar, Socorro e Sequelas** do Livro de Regras 1.0 e [Quedas e socorro](22-quedas-e-socorro.md). Chegar a zero, parar de participar, receber socorro e terminar o encontro são acontecimentos diferentes. O Carregador, como inimigo deste exemplo, é derrotado a zero de vida ou Integridade, sem Insistir ou janela de socorro de personagem. A queda encerra sua contenção; a equipe ainda pode precisar tratar ou retirar alguém.
 
 | Resultado | Estado a registrar |
 |---|---|
@@ -158,8 +158,8 @@ Mudar de cena não renova vida, Integridade, equipamento, condições ou efeitos
 
 No fechamento da guilda, anote caixa e portador, destino da criatura, feridos, contenções, riscos restantes e pessoas avisadas. Em campanha fechada, o mesmo registro pode ficar no diário da missão. A remuneração segue o acordo já existente; este encontro não cria tabela de recompensa.
 
-## O que o exemplo permite avaliar
+## O que observar ao jogar
 
-As contas e os casos conferem ações, alcance, carga, saídas, percurso e conversão. Eles não mostram como pessoas reais compreenderão a situação nem comprovam equilíbrio. Observe em mesa quanto tempo os jogadores passam sem escolher, quais informações precisaram ser repetidas, o que mudou a decisão de rota e se o objetivo fez diferença em relação a apenas atacar.
+Os exemplos permitem conferir ações, alcance, carga, formas de escapar, percursos e Doma. Ainda é preciso jogar para avaliar a clareza da cena e seu equilíbrio. Observe em mesa quanto tempo os jogadores passam sem escolher, quais informações precisaram ser repetidas, o que mudou a decisão de rota e se o objetivo fez diferença em relação a apenas atacar.
 
 O princípio aplicado é simples: a função de retirar um intruso pode resultar de regras já existentes. Sua identidade está na intenção, no corpo, no lugar e nas escolhas que produz. Acrescentar PE, recarga ou dano não era necessário para escrever esta ocorrência.

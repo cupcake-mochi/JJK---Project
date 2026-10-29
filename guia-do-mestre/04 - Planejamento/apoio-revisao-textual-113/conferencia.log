@@ -1,0 +1,31 @@
+{
+  "registro": 113,
+  "pdf_sha256": "157bce5f666379fef886adabdecaade4368aaae5947edaace2e0e175dfbb46b4",
+  "fontes_revisadas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    }
+  ],
+  "links_locais_conferidos": 340,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "pdf_integrado_preservado": true,
+  "amostras_102_103_e_prova_112_preservadas": true,
+  "cobertura": "130 pontos e 20 competências documentais preservados; estados não promovidos.",
+  "base_de_regras_preservada": true,
+  "casos_preservados": 59,
+  "texto_e_estilo_dos_indices_preservados": true,
+  "corpo_e_pdf_das_folhas_preservados": true,
+  "limites": [
+    "Conferência de texto, números e arquivos; não é teste humano ou validação de equilíbrio.",
+    "Segundo lote da etapa 6; revisão integral do livro ainda em andamento."
+  ]
+}

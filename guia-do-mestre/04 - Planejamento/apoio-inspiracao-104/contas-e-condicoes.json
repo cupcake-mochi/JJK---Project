@@ -1,0 +1,73 @@
+{
+  "registro": 104,
+  "natureza": "Contas, ordem temporal e condições do exemplo; não é teste de equilíbrio de combate.",
+  "contas": {
+    "carga_de_dara": {
+      "massa_kg": 60,
+      "divisor_regra": 12,
+      "equipamento_volume": 1,
+      "total_volume": 6.0
+    },
+    "natacao_comum": {
+      "distancia_m": 4.5,
+      "custo_por_1_5_m": 3,
+      "movimento_m": 9.0
+    },
+    "natacao_propria": {
+      "distancia_m": 4.5,
+      "movimento_m": 4.5
+    },
+    "salto": {
+      "forca": 1,
+      "alcance_m": 4.5,
+      "impulso_m": 3,
+      "gasto_m": 7.5,
+      "deslocamento_m": 9
+    },
+    "contorno": {
+      "partida_minutos": 1065,
+      "duracao_minutos": 20,
+      "chegada": "18h05",
+      "ensaio": "18h00"
+    },
+    "direto": {
+      "duracao_travessia": "Depende das ações na história",
+      "caminhada_apos_travessia_min": 5,
+      "chegada_fixa": false
+    }
+  },
+  "investigacao": {
+    "treino": "17h00–17h10",
+    "foto": "17h05; fita presente, banco inteiro",
+    "queda": "17h20",
+    "fonte_energetica": "O preparo estabelece resíduos ainda presentes; não fixa duração geral.",
+    "vasculhar": "Ação Padrão e alcance da regra, sem ocultação, interferência ou obstáculo que esconda a fita. Não identifica portador nem causa."
+  },
+  "condicoes": {
+    "canal_m": 4.5,
+    "impulso_livre_m": 3,
+    "grade_abaixo_da_partida_m": 1.5,
+    "margens": "Firmes e no mesmo nível",
+    "agua": "Sem detritos e sem terreno difícil neste caso",
+    "teste_natacao": "Um Atletismo CD 14 cobre a travessia individual; igualar a CD basta.",
+    "falha": "Gasta o movimento reservado e chega à grade da margem inicial, sem dano adicional; consequência preparada para este caso, não regra universal.",
+    "ajuda": "Depende de contribuição concreta segundo Ajudar.",
+    "escolha_de_dara": "Pode ir pelo contorno e reencontrar o grupo; não precisa entrar na água."
+  },
+  "geometria_svg": {
+    "agua_x": [
+      430,
+      670
+    ],
+    "largura_svg": 240,
+    "largura_real_m": 4.5,
+    "impulso_svg": 160,
+    "impulso_real_m": 3,
+    "grade_y": 280,
+    "partida_y": 200,
+    "distancia_grade_svg": 80,
+    "distancia_grade_m": 1.5,
+    "escala_uniforme_de_referencia": 53.333333333333336,
+    "desenho_geral": "Sem escala; cotas controlam a leitura."
+  }
+}

@@ -1,0 +1,265 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Regras de inimigos e perigos | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'INIMIGOS E PERIGOS';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{.colunas p:has(>strong:first-child){break-inside:auto}.colunas table{font-size:9.2pt;line-height:11.5pt}.colunas th,.colunas td{padding:4pt 5pt}}main{max-width:900px;background:white;padding:30px}h4{font:22px Bree,serif}h5{font-size:19px}</style></head><body><main><p><a href="capitulo-6.html">Voltar ao capítulo</a></p><h1>Livro de Regras 1.0</h1><p>Trechos da base sem reescrita. Os valores de referência e as exceções das fichas inimigas permanecem identificados no Guia.</p><ul><li><a href="#regra-1">Maestria</a></li><li><a href="#regra-2">Testes</a></li><li><a href="#regra-3">Preparar</a></li><li><a href="#regra-4">Bloquear</a></li><li><a href="#regra-5">Agarrar, derrubar e empurrar</a></li><li><a href="#regra-6">Escapar de uma contenção</a></li><li><a href="#regra-7">Dano na alma</a></li><li><a href="#regra-8">Estágios de Integridade</a></li><li><a href="#regra-9">Leitura de Reservas</a></li></ul><section class="consulta-regra" id="regra-1"><h4>Maestria</h4>
+<p>A maestria é o bônus que acompanha o avanço de nível. Ela entra nos ataques e nas CDs que a incluem. Em perícias, ofícios e Testes de Resistência, você só a soma quando tem o treino correspondente. Maestria não é acrescentada à Defesa.</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>Maestria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 a 9</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>10 a 17</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>18 a 25</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>26 a 30</td>
+<td>+4</td>
+</tr>
+</tbody>
+</table>
+<p>A criação comum começa no <strong>nível 2</strong>. Campanhas que usem o nível 1 seguem a opção de criação própria; a maestria inicial também é 1.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem Destreza 3 e maestria 1. Em Furtividade, na qual é treinada, soma 4 ao d20. Numa perícia de Destreza sem treino, soma apenas 3. No nível 10, sua maestria passa a 2; se mantiver Destreza 3, o bônus treinado passa a 5.</p>
+</blockquote></section><section class="consulta-regra" id="regra-2"><h4>Testes</h4>
+<p>Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela descrição.</p>
+<blockquote>
+<p><strong>Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.</strong></p>
+</blockquote>
+<p>O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras próprias de acerto e crítico.</p>
+<h5>Dificuldade</h5>
+<p>Tarefas comuns e conhecimento sem nível próprio usam a coluna <strong>CD fixa</strong> da tabela abaixo. Uma fechadura não fica mais difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a dificuldade ou a forma de calculá-la.</p>
+<table>
+<thead>
+<tr>
+<th>Dificuldade</th>
+<th>CD fixa</th>
+<th>Ajuste à CD do criador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fácil</td>
+<td>6</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>10</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Difícil</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Muito difícil</td>
+<td>18</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Extrema</td>
+<td>22</td>
+<td>Não definido nesta escala.</td>
+</tr>
+<tr>
+<td>Quase impossível</td>
+<td>26</td>
+<td>+6</td>
+</tr>
+</tbody>
+</table>
+<p>Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Para uma avaliação geral de algo com nível, calcule <strong>8 + atributo do criador + maestria do criador</strong>. São os valores de quem criou o efeito, e não de quem faz o teste. O mestre classifica a dificuldade da tarefa e aplica o ajuste da última coluna a essa base, em vez de usar a CD fixa. Assim, uma tarefa fácil ligada a um criador poderoso pode ter uma CD maior que a de uma tarefa fácil comum. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.</p>
+<p>Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se um efeito já fornece sua CD, use-a.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é <strong>8 + 4 + 2 = 14</strong>. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será <strong>16</strong>.</p>
+</blockquote>
+<h5>Sucesso e falha</h5>
+<p>Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pericias -->
+<p><a id="geral--pericias"></a></p></section><section class="consulta-regra" id="regra-3"><h4>Preparar</h4>
+<p><strong>Preparar custa uma Ação Padrão agora e sua Reação ao executar a resposta.</strong> Use para esperar alguém cruzar uma porta ou aguardar um sinal para correr.</p>
+<h5>Escolha o gatilho e a resposta</h5>
+<p>No seu turno, declare um <strong>evento perceptível</strong>, como alguém entrar ao seu alcance, e sua <strong>resposta</strong>: uma ação que custe Padrão ou um deslocamento. Conjurações seguem a regra abaixo.</p>
+<p>Você mantém uma preparação por vez. Ela dura até o <strong>começo do seu próximo turno</strong>. Se preparar outra, a anterior termina.</p>
+<h5>Espere o evento terminar</h5>
+<p>Quando o gatilho acontecer, você pode gastar sua <strong>Reação imediatamente depois de ele terminar</strong>. Confira então alcance, alvo, percurso e os demais requisitos da resposta. Custos adicionais são pagos quando ela é executada.</p>
+<p>Preparar não interrompe o evento. Se o gatilho for um ataque, espere esse ataque terminar, sem precisar esperar os outros da mesma ação. Para “entrar ao meu alcance”, responda depois que a criatura entrar.</p>
+<p>Você pode ignorar o gatilho e continuar esperando. Gastar a Reação em outra coisa <strong>encerra a preparação</strong>. Se o prazo acabar sem resposta, perde a Padrão investida, mas não gasta a Reação.</p>
+<h5>Atacar ou se mover</h5>
+<p>Ao preparar <strong>Atacar</strong>, realize a ação com os ataques que suas habilidades permitem, respeitando seus limites por rodada. Preparar não renova uma permissão de ataque já utilizada nem libera efeitos restritos ao seu próprio turno. Você não recebe junto uma Ação Bônus ou uma Ação de Movimento.</p>
+<p>O deslocamento preparado concede metros adicionais iguais ao seu deslocamento <strong>no momento da resposta</strong>. Não usa o saldo do turno anterior, não renova limites próprios de movimento nem inclui ataque. Terreno, condições e ataques de oportunidade continuam valendo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina prepara Agarrar quem entrar ao seu alcance pela porta. Quando isso acontece, gasta a Reação e resolve a manobra. Se já tivesse gasto a Reação para um ataque de oportunidade, a preparação teria terminado.</p>
+</blockquote>
+<h5>Conjuração preparada</h5>
+<p>Conjurar como resposta exige uma montagem ou habilidade que conceda essa permissão. Use os custos, o gatilho e o prazo dela, sem acrescentar uma Ação Padrão em Preparar. O procedimento comum não torna qualquer feitiço reativo. Confira as opções em <strong>Catálogo de criação</strong>, na família Tempo.</p>
+<p>Um feitiço deixado à espera de um evento também usa sua própria montagem.</p>
+<p>Para entidades, consulte <strong>Invocações em campo</strong>: Preparar não concede comandos ou ações adicionais a outro corpo.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#oportunidade -->
+<p><a id="geral--oportunidade"></a></p></section><section class="consulta-regra" id="regra-4"><h4>Bloquear</h4>
+<p><strong>Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.</strong> Essa escolha é feita contra cada ataque, <strong>antes da rolagem de acerto do atacante</strong>, sem conhecer seu resultado. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.</p>
+<blockquote>
+<p><strong>Bloquear = 2d10 + (sua Defesa - 11)</strong>.</p>
+</blockquote>
+<p>Bloquear é gratuito, <strong>não gasta Reação</strong> e está disponível tanto para personagens quanto para inimigos. Não exige arma ou escudo. Você pode usá-lo novamente contra outro ataque, mesmo que já tenha gasto sua Reação.</p>
+<h5>Resolução</h5>
+<ol>
+<li>Use sua Defesa contra aquele ataque, incluindo cobertura, bônus e penalidades aplicáveis. Subtraia 11 para encontrar o modificador de Bloquear.</li>
+<li>Role dois d10 e some esse modificador. Confira antes os resultados <strong>duplo 10 e duplo 1</strong>, explicados em <a href="#geral--aparar">Aparar e Brecha</a>.</li>
+<li>Fora desses extremos, compare o ataque com o total obtido. Se o ataque igualar ou superar Bloquear, acerta. Se ficar abaixo, erra.</li>
+</ol>
+<p><strong>O resultado substitui a Defesa, mesmo se for menor.</strong> Você não escolhe o maior dos dois depois de rolar. A ficha pode trazer a conta pronta: <strong>Defesa 17; Bloquear 2d10 + 6</strong>.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma maldição declara um ataque contra Rina, cuja Defesa é 17. Antes da rolagem da maldição, Rina escolhe Bloquear. A maldição obtém 18 no ataque. Rina tira 7 e 4: <strong>7 + 4 + 6 = 17</strong>. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.</p>
+</blockquote>
+<h5>Limites</h5>
+<p><strong>Guarda Aberta impede Bloquear.</strong> Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.</p>
+<p>Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade que use os dados dessa rolagem continua seguindo seu próprio texto.</p>
+<p>A propriedade <strong>Talha</strong> aplica <strong>-1 ao resultado de Bloquear</strong> contra a arma que a possui. Ela não reduz sua Defesa estática nem muda os resultados naturais dos dois d10.</p>
+<p>Quando um efeito impuser desvantagem a Bloquear, role o conjunto completo duas vezes. Mantenha Brecha se ela sair em qualquer conjunto. Sem Brecha, mantenha um resultado comum em vez de Aparar; entre dois comuns, use o menor total. Só há Aparar se ambos os conjuntos mostrarem duplo 10. Os dados descartados não produzem efeito.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#aparar -->
+<p><a id="geral--aparar"></a></p></section><section class="consulta-regra" id="regra-5"><h4>Agarrar, derrubar e empurrar</h4>
+<p>Um golpe pode servir para impedir a fuga, tirar alguém do caminho ou colocá-lo no chão. Ao realizar a <strong>Ação Atacar</strong>, você pode substituir um de seus ataques por uma das manobras abaixo.</p>
+<h5>Faça a manobra</h5>
+<p>Escolha uma criatura <strong>ao alcance do seu ataque desarmado</strong>, normalmente 1,5 m, e de <strong>até uma categoria de tamanho maior que você</strong>. Você precisa conseguir alcançá-la fisicamente. Depois, declare a manobra. As categorias de tamanho, da menor para a maior, são <strong>Minúsculo, Pequeno, Médio, Grande, Imenso e Colossal</strong>. Um humano comum é Médio; o tamanho do alvo é o indicado em sua ficha.</p>
+<p>O alvo faz um <strong>TR Físico contra CD 8 + sua Força + sua maestria</strong>. Ele usa o atributo de TR Físico escolhido na criação. Igualar ou superar a CD evita a manobra; falhar aplica o efeito escolhido.</p>
+<table>
+<thead>
+<tr>
+<th>Manobra</th>
+<th>Efeito na falha do alvo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Agarrar</strong></td>
+<td>O alvo fica <strong>Agarrado por você</strong>, com deslocamento zero. Você precisa de uma mão livre, que fica ocupada enquanto mantiver a contenção.</td>
+</tr>
+<tr>
+<td><strong>Derrubar</strong></td>
+<td>O alvo fica <strong>Derrubado</strong>.</td>
+</tr>
+<tr>
+<td><strong>Empurrar</strong></td>
+<td>O alvo é afastado <strong>1,5 m de você</strong>, por um percurso possível. Uma parede ou outro obstáculo sólido interrompe o movimento.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cada tentativa substitui um ataque, mesmo quando o alvo resiste.</strong> Se sua Ação Atacar permite dois ataques, você pode tentar agarrar com um e golpear com o outro, ou fazer duas manobras.</p>
+<p>A manobra substitui o dano: não há rolagem de ataque, crítico nem adicionais de dano de ataque. Ela não conta como acerto ou erro e não ativa efeitos que dependem deles, como um benefício por acertar. Proteções contra TR Físico provocado por ataque podem se aplicar; defesas que exijam rolagem de ataque ou acerto não. Ainda faz parte da <strong>Ação Atacar</strong>.</p>
+<h5>Mãos, armas e alcance</h5>
+<p>Cada mão pode manter uma criatura agarrada. Você pode atacar com outra mão, uma arma disponível ou outras partes do corpo. A contenção comum não prende uma arma ou um membro específico do alvo.</p>
+<p>Uma arma que permita agarrar informa seu alcance e como fica ocupada em <strong>Equipamento</strong>.</p>
+<p>Essas opções pertencem à Ação Atacar. Um ataque concedido por <strong>Ação Bônus ou ataque de oportunidade</strong> não pode ser trocado por elas sem uma permissão específica. Uma habilidade que já empurra, derruba ou agarra usa seus próprios requisitos e efeitos.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem Força 3 e maestria 1: sua CD é 12. Ela troca um ataque por Agarrar. A maldição soma 10 no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar outro ataque disponível para golpeá-la.</p>
+</blockquote>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#contencoes -->
+<p><a id="geral--contencoes"></a></p></section><section class="consulta-regra" id="regra-6"><h4>Escapar de uma contenção</h4>
+<p><strong>Agarrado</strong> deixa seu deslocamento em zero. Você ainda pode atacar, conjurar e Bloquear, respeitando as exigências de cada ação. Prender uma arma ou impedir um ataque exige um efeito que diga isso.</p>
+<h5>Escapar</h5>
+<p>No seu turno, gaste uma <strong>Ação Padrão</strong> e faça um <strong>TR Físico contra a CD da contenção</strong>. Use a CD com que ela foi aplicada: normalmente <strong>8 + Força + maestria de quem agarrou você</strong>. No sucesso, a contenção termina; na falha, você permanece agarrado. Se duas criaturas o seguram, escolha de qual contenção tenta escapar.</p>
+<p>Escapar não concede ataque nem movimento. Depois do sucesso, você pode usar o movimento que ainda tiver disponível. Contenções criadas por feitiços ou habilidades seguem as formas de saída indicadas nelas.</p>
+<p>Quem agarrou pode soltar o alvo <strong>sem gastar ação</strong>. A contenção também termina se essa pessoa ficar com a Guarda Aberta ou Inconsciente, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.</p>
+<h5>Arrastar</h5>
+<p>Você pode mover uma criatura agarrada dentro dos limites de <strong>Arrastar e transportar</strong>, mantendo o alcance e as exigências da contenção. A vítima não gasta movimento e não provoca oportunidade por ser arrastada. Seus próprios movimentos podem provocar.</p>
+<h5>No chão e sob ataque</h5>
+<p>Estar Agarrado não impede gastar sua <strong>Ação de Movimento para se levantar</strong> da condição Derrubado comum. Você continua agarrado e no mesmo espaço. Uma habilidade que permita levantar de outro modo conserva essa permissão.</p>
+<p>Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#movimento -->
+<p><a id="geral--movimento"></a></p></section><section class="consulta-regra" id="regra-7"><h4>Dano na alma</h4>
+<p><strong>Integridade</strong> acompanha o dano de Alma. Anote seu máximo e valor atual separadamente da vida.</p>
+<blockquote>
+<p><strong>Integridade máxima do personagem = 20 + (Essência + 5) × (nível − 1).</strong></p>
+</blockquote>
+<p>Criaturas que não sejam personagens jogadores usam metade da vida máxima, arredondada para baixo, com mínimo 1 quando a vida máxima for positiva, salvo uma regra própria de sua ficha. Uma criatura sem alma só recebe dano de Alma se alguma regra permitir.</p>
+<h5>Receber dano de Alma</h5>
+<p>Cada ponto desconta <strong>1 de vida e 1 de Integridade</strong>. Um efeito que diga atingir somente Integridade conserva essa exceção. Vida temporária absorve a parte que iria à vida, mas não protege Integridade.</p>
+<p>Dano de Alma não recebe a redução pela metade própria do TR ou de resistência. Reduções numéricas aplicáveis ao golpe entram antes de descontar as reservas. Imunidade expressa a Alma continua impedindo esse dano. Um efeito que seja inteiramente evitado por um TR bem-sucedido não causa dano por essa regra.</p>
+<p>Anote as perdas e compare a Integridade atual com os limites de <strong>Estágios de Integridade</strong>. Não há um teste adicional para avançar estágio além dessa perda.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> um golpe de 8 de Alma atinge Rina. Uma redução aplicável diminui o golpe para 5. Ela possui 3 de vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.</p>
+</blockquote>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#integridade -->
+<p><a id="dano--integridade"></a></p></section><section class="consulta-regra" id="regra-8"><h4>Estágios de Integridade</h4>
+<p>O estágio depende de quanto falta para sua Integridade máxima. Use o estágio mais alto cujo limite tenha sido atingido. Os efeitos dos anteriores continuam valendo.</p>
+<table>
+<thead>
+<tr>
+<th>Integridade perdida</th>
+<th>Estágio</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menos de 1/4</td>
+<td>0</td>
+<td>Nenhuma penalidade.</td>
+</tr>
+<tr>
+<td>Pelo menos 1/4</td>
+<td>1</td>
+<td>Desvantagem em testes de perícia.</td>
+</tr>
+<tr>
+<td>Pelo menos 1/2</td>
+<td>2</td>
+<td>Deslocamento pela metade. Cada feitiço custa +1 PE por Classe.</td>
+</tr>
+<tr>
+<td>Pelo menos 3/4</td>
+<td>3</td>
+<td>Desvantagem em ataques e TRs. Classe máxima de conjuração cai à metade, para baixo, com mínimo 1 se já possuir Classe 1.</td>
+</tr>
+<tr>
+<td>Toda</td>
+<td>4</td>
+<td>Você fica Inconsciente e Derrotado, conforme <strong>Derrota e morte</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>Compare frações exatas. Com Integridade máxima 26, perder 6 ainda não chega a 1/4. Perder 7 alcança estágio 1. Corrija as distâncias reduzidas para a escala de 1,5 m pelas regras de Movimento.</p>
+<h5>Recuperar Integridade</h5>
+<p>Cura de vida não recupera Integridade. Uma capacidade que restaure essa reserva e o descanso longo seguem seus próprios valores. <strong>Ao recuperar Integridade, recalcule o estágio.</strong> A recuperação pode retirar penalidades dos estágios que você deixou.</p>
+<p>Chegar ao estágio 4 encerra sua participação naquela cena, mesmo que alguém restaure pontos logo depois. A recuperação permite o socorro e a recuperação posterior, conforme Derrota e morte. Ela não restaura um personagem morto nem desfaz uma consequência permanente.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Kaori tem máximo 26. Está com 12 de Integridade e perdeu 14, por isso está no estágio 2. Recuperar 5 a deixa com 17. Faltam 9 para o máximo, menos da metade, e seu estágio cai para 1. Recuperar mais 3 a deixaria com 20, no estágio 0.</p>
+</blockquote>
+<p>Vida e Integridade são acompanhadas separadamente. Se a mesma ocorrência zerar as duas, resolva a derrota por Integridade. Escolher Insistir não permite agir com Integridade a zero.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#condicoes -->
+<p><a id="dano--condicoes"></a></p></section><section class="consulta-regra" id="regra-9"><h5>Leitura de Reservas</h5>
+<p>Ao passar num exame de fluxo com <strong>Sentir Energia</strong>, descubra também os <strong>PE atuais e máximos</strong> do alvo naquele momento. Mantenha o procedimento normal; esta é uma informação adicional do exame.</p></section></main></body></html>

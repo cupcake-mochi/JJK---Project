@@ -1,0 +1,112 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Precisão e defesa
+Esta tabela usa ataques normais, sem vantagem,
+cobertura ou Bloquear, incluindo o acerto crítico de
+20 natural:
+Ataque
+Contra Defesa 11
+Contra Defesa 13
+Contra Defesa 15
+Contra Defesa 16
++4
+70%
+60%
+50%
+45%
++5
+75%
+65%
+55%
+50%
+Entre esses valores, acrescentar dois pontos de
+Defesa reduz o acerto em dez pontos percentuais.
+Isso se repete a cada ataque recebido. Aumentar
+defesa e vida juntos costuma ter mais efeito do que
+alterar só um campo. A cobertura deve ser
+considerada quando existir no espaço; não está
+embutida nestas linhas.
+Bloquear substitui a defesa por uma rolagem, com
+Aparar e Brecha. Ele não consome Reação, mas os
+revides correspondentes podem consumi-la. A
+análise de apoio também calcula Bloquear; a tabela
+simplificada acima não inclui suas respostas.
+Vida e tempo para agir
+Para conferir as reservas, foram comparados três
+personagens que conseguem tentar um ataque cada,
+na ordem Bastião, Emanador e Guia. Cada ataque
+pode errar. O segundo conjunto repete essa ordem,
+totalizando seis ataques do grupo. A tabela mostra
+a chance de o inimigo ainda ter PV depois delas,
+com Defesa 13:
+Nível / PV do inimigo
+Após 3 feitiços
+Após 6 feitiços
+Após espada + 2
+feitiços
+Após repetir o conjunto
+misto
+2 / 16
+25,2%
+2,9%
+29,1%
+3,6%
+2 / 24
+43,4%
+7,1%
+50,1%
+9,4%
+2 / 32
+65,4%
+15,5%
+73,0%
+19,8%
+6 / 48
+34,6%
+3,8%
+55,5%
+9,7%
+6 / 72
+70,1%
+13,5%
+88,0%
+28,9%
+6 / 108
+96,5%
+44,2%
+99,5%
+70,3%
+No nível 2, os feitiços são Classe 1, +4, 3d8 e 3 PE; a
+espada tem +4, 1d8 + 3 e 1d4 de Canalizar. No nível
+6, são Classe 2, +5, 6d8 e 6 PE; a espada tem +5, 1d8
++ 4 e 1d4 de Canalizar. As duas conjurações por
+pessoa cabem nas reservas cheias dos perfis usados.
+Não foram incluídos Kokusen, respostas de
+Caminho, propriedades da arma, socorro, controle
+ou ações do inimigo. A conta parte da hipótese de
+que todos conseguem alcançar o alvo e agir.
+Não leia essas colunas como rodadas de combate.
+Uma personagem pode gastar a Padrão para fugir
+de um agarrão, socorrer alguém ou cumprir o
+objetivo. A criatura pode ser interrompida ou a
+missão acabar antes de ela cair. O ensaio do Sineiro
+(p. 141) mostra essas diferenças com posições e
+ações.
+Exemplo de ajuste: com 108 PV, o inimigo de
+referência sobrevive às seis ações do conjunto
+misto em 55,3% com Defesa 11, 70,3% com Defesa
+13 e 81,4% com Defesa 15. Dar mais defesa ao
+Sineiro sem rever sua vida aumentaria suas chances
+de sobreviver a essa sequência. Isso é motivo para
+comparar antes de alterar; não é recomendação de
+garantir que um chefe sobreviva a seis ataques.
+Para avançar além dos níveis 2 e 6, consulte outras
+faixas e capacidades (p. 97). Os candidatos de vida e
+Defesa são comparações experimentais; não devem
+ser interpolados como escala aprovada.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+95

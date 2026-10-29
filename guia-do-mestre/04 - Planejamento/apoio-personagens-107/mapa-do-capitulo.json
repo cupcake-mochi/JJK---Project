@@ -1,0 +1,272 @@
+{
+  "registro": 107,
+  "secoes": [
+    {
+      "destino": "N07.1",
+      "titulo_planejado": "7.1 Conferir uma ficha",
+      "titulo_de_leitura": "7.1 Conferir a ficha",
+      "ancora": "71-conferir-a-ficha",
+      "fontes_preservadas": [
+        {
+          "id": "s025",
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N07.2",
+      "titulo_planejado": "7.2 Convivências e cuidados",
+      "titulo_de_leitura": "7.2 Personagens e seus cuidados",
+      "ancora": "72-personagens-e-seus-cuidados",
+      "fontes_preservadas": [
+        {
+          "id": "s026",
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        },
+        {
+          "id": "s027",
+          "fonte": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+          "sha256": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N05.2",
+            "A5.4"
+          ]
+        },
+        {
+          "id": "s090",
+          "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+          "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N08.3",
+            "B3"
+          ]
+        },
+        {
+          "id": "s091",
+          "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "sha256": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N02.4",
+            "B3"
+          ]
+        },
+        {
+          "id": "s028",
+          "fonte": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+          "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+          "destino_principal": "A5.4",
+          "usos_complementares": [
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N07.3",
+      "titulo_planejado": "7.3 Escolhas próprias do personagem",
+      "titulo_de_leitura": "7.3 Personalizar escolhas",
+      "ancora": "73-personalizar-escolhas",
+      "fontes_preservadas": [
+        {
+          "id": "s089",
+          "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "sha256": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3"
+          ]
+        },
+        {
+          "id": "s092",
+          "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "sha256": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+          "destino_principal": "N07.3",
+          "usos_complementares": [
+            "A5.5"
+          ]
+        },
+        {
+          "id": "s033",
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N07.4",
+      "titulo_planejado": "7.4 Avaliar uma criação",
+      "titulo_de_leitura": "7.4 Avaliar uma capacidade",
+      "ancora": "74-avaliar-uma-capacidade",
+      "fontes_preservadas": [
+        {
+          "id": "s029",
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "id": "s030",
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "id": "s033",
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "id": "s093",
+          "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+          "sha256": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "id": "s094",
+          "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+          "sha256": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4"
+          ]
+        },
+        {
+          "id": "s032",
+          "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "sha256": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+          "destino_principal": "A5.5",
+          "usos_complementares": [
+            "N07.4",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N07.5",
+      "titulo_planejado": "7.5 Poderes avançados",
+      "titulo_de_leitura": "7.5 Poderes avançados",
+      "ancora": "75-poderes-avancados",
+      "fontes_preservadas": [
+        {
+          "id": "s031",
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "id": "s033",
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "id": "s093",
+          "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+          "sha256": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "id": "s095",
+          "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+          "sha256": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.5",
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N07.6",
+      "titulo_planejado": "7.6 Registrar e rever uma decisão",
+      "titulo_de_leitura": "7.6 Registrar e acompanhar",
+      "ancora": "76-registrar-e-acompanhar",
+      "fontes_preservadas": [
+        {
+          "id": "s025",
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "id": "s029",
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "id": "s032",
+          "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "sha256": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+          "destino_principal": "A5.5",
+          "usos_complementares": [
+            "N07.4",
+            "N07.6"
+          ]
+        }
+      ]
+    }
+  ],
+  "casos_completos": "04 - Planejamento/apoio-consultas-105/casos-completos.html#B3",
+  "limite": "Localização das fontes preservadas e exposição reorganizada; os casos numéricos experimentais não são aprovados como regra geral. CD 16 do caso Arata permanece pendência específica do mapa 99."
+}

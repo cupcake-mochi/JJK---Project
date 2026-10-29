@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Confira o que ainda falta resolver
+Registre três perguntas: a oposição terminou, o
+mecanismo parou e todas as pessoas saíram? Elas
+podem ter respostas diferentes.
+Derrotar o Carregador não desliga um aparelho
+independente. Parar o aparelho não obriga a
+criatura a entregar a caixa. Chegar ao pátio com o
+objeto não retira um aliado do recuo. Uma
+negociação que resolva a oposição tampouco reabre
+automaticamente um portão já fechado.
+A cada mudança, atualize posições, condição de
+contenção, vida, Integridade, recursos e estado do
+mecanismo. Evite encerrar a iniciativa enquanto
+houver escolhas urgentes cujo custo depende dessa
+ordem. Depois, continue o tempo ficcional e a
+recuperação pelas regras correspondentes.
+O que observar na avaliação
+Use o mesmo grupo, fichas e recursos e condições
+iniciais quando quiser comparar versões. Registre a
+ordem de iniciativa e quais resultados foram
+escolhidos apenas para demonstrar uma regra.
+Repetir um roteiro não equivale a observar decisões
+reais.
+Registro
+Pergunta que ele ajuda a responder
+Ação usada para intervir e posição final
+A intervenção criou uma escolha compreensível ou uma
+obrigação sem alternativa?
+Recursos da vítima e saídas disponíveis
+Agarrar mudou a decisão ou deixou a pessoa esperando sem
+opção?
+Rota usada antes e depois do fechamento
+O percurso maior teve consequência ou era irrelevante para
+aquelas fichas?
+Informação que precisou ser repetida
+Os sinais e os momentos ficaram claros?
+Momento da derrota, atendimento e retirada
+O fim da oposição foi confundido com segurança de todos?
+As contas do exemplo mostram custos e estados
+possíveis. O uso por leitores e mesas poderá
+mostrar dificuldade de consulta, repetição ou
+desequilíbrio. Deixe essa diferença clara na
+avaliação: uma ficha completa permite avaliar a
+proposta; não certifica seu equilíbrio.
+5.13 · O Carregador e a saída
+que fecha
+Variante experimental para comparação. Use a
+ficha do Carregador e sua Doma (p. 117), sem
+alterar números, e as orientações para combinar
+inimigos e perigos (p. 127). O objetivo continua
+sendo recuperar a caixa e sair com todos. A
+alteração é um portão automático na saída curta e
+um corredor de serviço permanentemente acessível.
+O prazo, o mecanismo e o corredor são escolhas
+deste cenário. Este caso não combina o dano de
+queda da passarela com o Carregador. Não concede
+poder de chefe, PE ou ataque adicional à criatura.
+Prepare a versão que será usada
+Para comparar, use primeiro este mapa com o
+motor desligado; depois examine o mesmo mapa
+com o fechamento ativo. A versão original da
+consulta O Carregador e o corredor de entulho (p.
+110) continua disponível, com seu próprio espaço.
+O grupo começa no pátio A, logo fora do limite da
+entrada. O Carregador está no ponto de trabalho C,
+junto da caixa. As rotas entre C e o recuo
+continuam exatamente como antes: direta de 18 m
+com 6 m difíceis, lateral de 24 m regulares. Nenhum
+dos trechos novos tem entulho, queda ou dano
+ambiental.
+Mapa da saída
+O caminho curto de C até o pátio tem 6 m. O portão
+fica no meio, no ponto G, a 3 m de cada
+extremidade. O corredor de serviço contorna uma
+parede e liga os mesmos pontos por três trechos
+regulares de 6 m. A parada está em P, no primeiro
+canto a partir de C; Q é o outro canto.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+130

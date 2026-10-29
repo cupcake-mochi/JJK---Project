@@ -1,0 +1,70 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Campo
+Valor no nível 2
+Defesa sem equipamento
+10 + Destreza 1 + metade da Essência 2 de Ren = 12.
+Bloquear
+2d10 + 1.
+Ataque e CD
+Força 3 + Maestria 1 = +4; CD 12.
+TR treinado
+Físico, usando Força: +4.
+Outros TRs
+Vigor +3, Intelecto +1, Espírito +1.
+Perícias treinadas
+Atletismo +4, Percepção +2, Sobrevivência +2, Intuição +2.
+Famílias
+Alcance Livre; Mira e Controle abertas; outras seis Fechadas.
+Habilidades
+Uma básica; uma vaga de especial vazia; um talento até CE1.
+Reserva própria
+Nenhuma. Ren paga os custos exigidos.
+Coice - básica de Classe 0, Toque, 1,5 m. Ataque
++4, dano 1d6 de Concussão; no crítico, 2d6. Não
+soma Força ao dano, não empurra, não derruba e
+não custa PE. Consome a básica, a mesma
+oportunidade usada por Correr ou Desengajar.
+Parecer uma mula não fornece outro ataque
+gratuito.
+A vaga de especial está vazia. O transporte vem do
+talento; não se completa a ficha inventando uma
+especial que ela ainda não conhece. Ela também
+não recebe Ofício ou treino em armas.
+Talento proposto: Albarda de
+papel
+Proposta de Talento Próprio, Categoria de Efeito
+1 (CE1). Ocupa a escolha de talento da Mula. A
+estrutura de papel forma um apoio para montar e
+compartimentos laterais abertos. Não é um espaço
+extradimensional.
+Campo
+Texto proposto
+Passageiros
+Uma criatura voluntária, de tamanho Médio ou menor, com corpo
+compatível com a posição montada. Precisa caber na capacidade total.
+Capacidade conjunta
+5 + Força da Mula: atualmente 8 de Volume, somando passageiro,
+equipamentos e cargas.
+Acomodação
+Apoio sobre o dorso e dois compartimentos laterais. Os objetos precisam
+caber fisicamente e poder ser colocados ou retirados por alguém com os
+meios necessários.
+Movimento
+Em chão regular, cada 1,5 m percorrido custa 1,5 m do Movimento da Mula,
+dentro da capacidade. Terreno, condições e obstáculos conservam seus custos
+normais.
+Montar e desmontar
+Seguem Combate montado do Livro de Regras 1.0. A entidade precisa estar ao
+alcance, o passageiro precisa pagar o movimento e terminar numa posição
+válida.
+Energia e atuação
+O talento não cobra PE nem básica apenas para sustentar uma carga válida.
+Não concede Movimento, básicas ou Reações adicionais. Manifestação e
+demais capacidades conservam seus custos.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+285

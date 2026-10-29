@@ -30,7 +30,7 @@ Para um projeto sobrenatural preenchido, consulte [Anel de Testemunho](96-fabric
 
 **Local atual da peça, materiais e ferramentas:**
 
-**Próxima etapa possível e dependências:**
+**Próxima etapa e o que falta para iniciá-la:**
 
 ## Entrega
 
@@ -43,7 +43,7 @@ Para um projeto sobrenatural preenchido, consulte [Anel de Testemunho](96-fabric
 
 ## Exemplo preenchido: Traje de Rina
 
-Exemplo de reparo publicado na R53, reorganizado para acompanhamento. Os valores pertencem a esse serviço.
+Exemplo de reparo publicado no Livro de Regras 1.0, reorganizado para acompanhamento. Os valores pertencem a esse serviço.
 
 **Estado inicial:** rasgo na parte que prende a proteção. **Entrega:** recuperar a função anterior, sem aumentar o degrau. **Conhecimentos:** Alfaiate. **Recursos:** ferramentas, tecido e fechos de ¥3.000. **Trabalho:** quatro horas. **Teste:** dispensado, por ser rotina sem risco relevante. **Espera adicional:** nenhuma prevista neste exemplo.
 

@@ -1,3 +1,30 @@
+ATUALIZAÇÃO DE 28/10/2026 — LEIA PRIMEIRO
+A revisão textual integral e a revisão visual foram concluídas no registro 96. PDF atual: 357 páginas, SHA-256 0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b. Consulte 04 - Planejamento/96-revisao-textual-integral-e-visual.md. O texto abaixo registra estados anteriores; não retome a revisão do capítulo 2 como se estivesse pendente. Próximo: retorno de leitores e correções dirigidas; há uma questão técnica isolada sobre CD 16 no exemplo da família Arata. Esta entrega é local, sem novo envio ao GitHub.
+
+ATUALIZAÇÃO DE CONTINUIDADE — REGISTRO 95
+
+Correção expressa do autor: remover também o título grande Guia do Mestre à direita, mostrado na nova imagem. Este pedido prevalece sobre a interpretação do registro 94. Capa final com arte original, identificação na faixa esquerda e marca v1.0. Leia 04 - Planejamento/95-remocao-do-titulo-adicional-da-capa.md. PDF atual: 359 páginas, SHA-256 87c87f78612c2ce5d8a968d8ef1a51f030dae5f89fb0f78ccf401b7b30047ac1. Somente a página 1 mudou em relação ao registro 94; a próxima tarefa continua o capítulo 2 (p. 18), GPT-6.1 Sol, esforço alto. Este hash prevalece sobre os anteriores preservados abaixo.
+
+----- ESTADO ANTERIOR PRESERVADO -----
+
+ATUALIZAÇÃO DE CONTINUIDADE — REGISTRO 94
+
+Capa ajustada a pedido do autor: remover Edição de leitura e selo Pré-1.0; manter Guia do Mestre à direita e a marca v1.0 original da arte. Leia 04 - Planejamento/94-ajuste-da-capa.md. PDF atual: 359 páginas, SHA-256 05d2f7f9690b31106053844bb842082f90287ff5021e1109d0cc8d6b69a900be. Somente a página 1 mudou em relação ao registro 93; a próxima tarefa continua o capítulo 2 (p. 18), GPT-6.1 Sol, esforço alto. Este hash prevalece sobre os anteriores preservados abaixo.
+
+----- ESTADO ANTERIOR PRESERVADO -----
+
+ATUALIZAÇÃO DE CONTINUIDADE — REGISTRO 93, 26/10/2026
+
+Capítulo 1 revisado. Leia primeiro 04 - Planejamento/93-revisao-editorial-do-capitulo-1.md e 08 - Diagramacao do Guia/revisao/revisao-visual.json. O estado anterior está preservado em 04 - Planejamento/apoio-revisao-c01/historico/antes-da-revisao/.
+
+Produção neste Windows: E:/Claude/Pesquisa de Campo - Mestragem/. Os caminhos Linux abaixo identificam a produção original. Compare antes de sincronizar.
+
+PDF atual: 359 páginas; capítulo 1 nas páginas 4–17; capítulo 2 começa na 18. SHA-256: e44fa4c294c9994096330ff37038a4380ec6792cd77b43082d8196ae8e7cf864.
+
+Próxima tarefa, sem outra prioridade do autor: capítulo 2 — Preparar missões e campanhas. GPT-6.1 Sol, esforço alto; Astra extra alto para contradições mecânicas amplas. No Windows, executar geradores com Python -X utf8. Não usar a contagem e o hash históricos abaixo para validar a entrega atual.
+
+----- PROMPT ANTERIOR PRESERVADO COMO CONTEXTO; A FILA E O PDF ACIMA PREVALECEM -----
+
 Continue o projeto do Guia do Mestre de Ciclo Maldito a partir da pré-1.0 diagramada, sem reiniciar o planejamento nem reabrir decisões já respondidas. Sou Mizuki; priorizo clareza, compreensão e exemplos utilizáveis.
 
 ACESSO E ESTADO ATUAL

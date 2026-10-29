@@ -1,6 +1,6 @@
 # Domar o Amontoado do depósito
 
-**Exemplo experimental para a pré-1.0.** Esta seção desenvolve a aquisição de uma maldição usando [As batidas no anexo](03-as-batidas-no-anexo-consulta.md) e a [base pequena de inimigos](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>). As fichas de encontro e de entidade já estavam preparadas nessa base com referência na R53. Não foram extraídas do Bestiário antigo.
+**Exemplo experimental para a pré-1.0.** Esta seção desenvolve a aquisição de uma maldição usando [As batidas no anexo](03-as-batidas-no-anexo-consulta.md) e a [Três maldições para a missão](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>). As fichas experimentais de inimigo e de entidade foram construídas com referência no Livro de Regras 1.0.
 
 **Na doma, o grupo pode ajudar a derrotar a maldição. Depois, ela faz o teste de submissão: se falhar, é domada; se passar, é exorcizada.** Não confunda essa aquisição com o desafio individual de uma lista de ritual.
 
@@ -10,7 +10,7 @@ A equipe encontra um Amontoado de nível 2 no depósito do centro cultural. Os f
 
 Nara pretende obter a maldição. Neste exemplo, ela tem **nível 2, Maestria 1, Essência 3 e CD de conjuração 12**, calculada por 8 + 3 + 1 na sua técnica. Usa Essência na parcela de Defesa das entidades, não possui outras entidades e não tem capacidade para recolher uma maldição. Esses são os campos necessários à demonstração, não uma ficha completa de personagem.
 
-Antes de conduzir a luta, confira as fichas reais da equipe, seus meios de perceber e atingir a criatura e seus recursos. A referência do piloto é um grupo de três personagens de nível 2; isso não garante a mesma dificuldade para qualquer composição.
+Antes de conduzir a luta, confira as fichas reais da equipe, seus meios de perceber e atingir a criatura e seus recursos. A referência deste encontro é um grupo de três personagens de nível 2; isso não garante a mesma dificuldade para qualquer composição.
 
 Apresente a Nara a ficha que poderá receber. Ela precisa saber que os **48 PV do encontro não serão os PV da entidade domada**. Conhecer a conversão para decidir a aquisição não fornece à personagem um sentido novo, visão através de obstáculos ou informação que ainda precise descobrir na ficção.
 
@@ -47,19 +47,19 @@ A entidade tem uma básica, uma vaga de especial ocupada por Impacto e um talent
 
 ## Conduza o encontro
 
-Use o depósito de 6 m por 6 m do piloto. A criatura começa junto à pilha, a 4,5 m da porta; a faixa central está livre. Caixas junto às paredes só fornecem cobertura quando realmente se interpõem. A abertura da porta mede 1,5 m. A ficha completa da base continua sendo a referência de suas ações.
+Use o depósito de 6 m por 6 m do encontro. A criatura começa junto à pilha, a 4,5 m da porta; a faixa central está livre. Caixas junto às paredes só fornecem cobertura quando realmente se interpõem. A abertura da porta mede 1,5 m. A ficha completa da base continua sendo a referência de suas ações.
 
 Quando começar o confronto, role Iniciativa. O Amontoado prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Procura usar Impacto quando puder cumprir alcance, Selo e custo. Com 6 PE, consegue dois usos de 3 pelo custo normal. Errar também consome os PE. Sem energia suficiente, continua com Pancada e ações gerais compatíveis. A mudança de rodada não recupera sua reserva.
 
 Os aliados de Nara podem atacar, proteger uns aos outros, tratar feridos e colaborar. Não precisam deixar que Nara cause todo o dano nem que dê o último golpe. Quem fará a submissão precisa estar identificado, com nível permitido e CD conferida.
 
-Diga ao grupo que pretende capturar o que seus personagens conseguem avaliar: a criatura está ferida, há espaço para recuar, um efeito persistente pode continuar atingindo-a. Explique também os limites de destruição como regra de jogo. Não prometa um dano exato antes de rolar nem revele uma informação de cena que ninguém percebeu.
+Se o grupo pretende capturar a maldição, descreva o que seus personagens conseguem avaliar: a criatura está ferida, há espaço para recuar, um efeito persistente pode continuar atingindo-a. Explique também os limites de destruição como regra de jogo. Não prometa um dano exato antes de rolar nem revele uma informação de cena que ninguém percebeu.
 
-Se uma personagem cair, aplique Vida a zero e Socorro da R53. A aquisição não pausa uma janela de atendimento. O Amontoado desta base não recebe Aguentar ou Insistir: a zero de vida ou Integridade, é derrotado, com destruição conferida quando aplicável.
+Se uma personagem cair, aplique Vida a zero e Socorro do Livro de Regras 1.0. A aquisição não pausa uma janela de atendimento. O Amontoado desta base não recebe Aguentar ou Insistir: a zero de vida ou Integridade, é derrotado, com destruição conferida quando aplicável.
 
 ## O golpe que permite a tentativa
 
-O trecho seguinte começa num **estado ilustrativo**, não num resultado garantido: o Amontoado tem **8 dos 48 PV, Integridade 24 e 0 dos 6 PE**, depois de ter usado dois Impactos. Não há dano persistente, outra ameaça ativa ou personagem aguardando socorro neste ramo.
+O trecho seguinte começa num **estado ilustrativo**, não num resultado garantido: o Amontoado tem **8 dos 48 PV, Integridade 24 e 0 dos 6 PE**, depois de ter usado dois Impactos. Não há dano persistente, outra ameaça ativa ou personagem aguardando socorro neste exemplo.
 
 Um aliado acerta e causa **12 de dano direto**, já depois das proteções. A criatura chega a zero; sobram **12 − 8 = 4 de excedente**. Confira as duas causas de destruição:
 
@@ -75,7 +75,7 @@ Portanto, ela foi derrotada **sem ser destruída**. O grupo pode encerrar o conf
 | 33 | 25 | Destruição: excedente maior que 24. |
 | 48 | 40 | Destruição: a ocorrência também alcançou a vida máxima. |
 
-Dano em área pode derrubar, mas não destrói por si. Isso não torna inofensivos os efeitos que continuam atingindo uma criatura caída: acompanhe o excedente e os danos posteriores pelo procedimento de Queda e destruição. Não altere o tipo de uma aplicação depois de conhecer seus dados.
+Dano em área pode derrubar, mas não destrói por si. Isso não torna inofensivos os efeitos que continuam atingindo uma criatura caída: acompanhe o excedente e os danos posteriores pelas regras de Queda e destruição. Não altere o tipo de uma aplicação depois de conhecer seus dados.
 
 ## A submissão
 
@@ -95,16 +95,16 @@ A ajuda do grupo na luta não concede automaticamente vantagem a Nara nem desvan
 
 ## Depois de conseguir domar
 
-Neste ramo, o resultado foi 11: a maldição falhou. Registre Nara como invocadora e aplique a ficha de entidade conhecida antes da tentativa.
+Neste exemplo, o resultado foi 11: a maldição falhou. Registre Nara como invocadora e aplique a ficha de entidade conhecida antes da tentativa.
 
 | Recurso ou estado | Antes da conversão | Registro adquirido |
 |---|---|---|
 | Vida | 0 de 48 | **0 de 14**: continua caída. |
 | Integridade | 24 de 24 | **7 de 7**, limitada ao novo máximo. |
 | Reserva própria | 0 de 6 | **0 de 2**: não se preenche ao adquirir. |
-| Excedente da queda | 4 | Conservar **4** até o retorno ou outro procedimento que o zere. |
+| Excedente da queda | 4 | Conservar **4** até o retorno ou outra regra que o zere. |
 | Posição | Chão do depósito | Permanece ali, **Desligada**. |
-| Efeitos persistentes | Nenhum neste ramo | Nenhum. Em outra sessão, registrar os que realmente existirem. |
+| Efeitos persistentes | Nenhum neste exemplo | Nenhum. Em outra sessão, registrar os que realmente existirem. |
 
 Os limites de destruição do ataque anterior foram verificados com a ficha do encontro. Não volte ao golpe de 12 para compará-lo retroativamente com 14 PV ou com metade de 14. **Daqui em diante**, use a ficha atual. Neste caso, mais 4 de dano direto no corpo Desligado levariam o excedente de 4 a 8, superando a metade atual, 7, e o destruiriam.
 
@@ -128,15 +128,15 @@ Impacto custa 3 PE. Normalmente, Nara paga 2 e a maldição paga 1. Como a reser
 
 Se Nara tiver 5 PE antes de religar, o retorno custa 2 e deixa 3. Uma execução posterior válida de Impacto, ainda com a reserva da domada vazia, gasta esses 3. Os gastos de Nara durante a luta precisam ser registrados à parte; esse exemplo começa com o saldo declarado de 5.
 
-Um descanso curto válido pode recuperar 1 PE da reserva própria: um quarto de 2 arredondado para baixo daria zero, mas a regra usa mínimo 1 para reserva positiva. Isso não cura automaticamente a entidade nem repete a recuperação várias vezes dentro da mesma pausa. Um descanso longo recupera sua reserva inteira, conforme a R53.
+Um descanso curto válido pode recuperar 1 PE da reserva própria: um quarto de 2 arredondado para baixo daria zero, mas a regra usa mínimo 1 para reserva positiva. Isso não cura automaticamente a entidade nem repete a recuperação várias vezes dentro da mesma pausa. Um descanso longo recupera sua reserva inteira, conforme o Livro de Regras 1.0.
 
 ## Tentar antes da derrota
 
-**Caminho recomendado para ensinar o procedimento:** primeiro conduza a tentativa fora de combate, depois da derrota sem destruição. Assim o grupo distingue o fim da luta, o TR e o estado adquirido.
+**Caminho recomendado para ensinar a Doma:** primeiro conduza a tentativa fora de combate, depois da derrota sem destruição. Assim o grupo distingue o fim da luta, o TR e o estado adquirido.
 
 O mestre pode autorizar a tentativa durante o combate e definir a quantidade de vida que abre essa oportunidade. O personagem gasta **Ação Padrão**; o TR Espírito e seus resultados continuam os mesmos. Passar no TR exorciza a maldição mesmo que ela ainda tenha vida.
 
-Ao preparar essa opção, compare três questões: quanto da luta o grupo precisará resolver antes; que ações precisará abrir mão para tentar; e como a entidade será registrada se ainda estiver em campo. Ferimentos não reduzem automaticamente o TR. Um limiar mais alto abre a tentativa mais cedo, não garante maior chance de aquisição naquele teste.
+Ao preparar essa opção, compare três questões: quanto da luta o grupo precisará resolver antes; de quais ações precisará abrir mão para tentar; e como a entidade será registrada se ainda estiver em campo. Ferimentos não reduzem automaticamente o TR. Permitir a tentativa com mais vida restante a antecipa, não garante maior chance de aquisição naquele teste.
 
 | Escolha de condução | O que exige do preparo |
 |---|---|
@@ -144,25 +144,25 @@ Ao preparar essa opção, compare três questões: quanto da luta o grupo precis
 | Autorizar com pouca vida restante | Anunciar a quantidade e permitir que o grupo reconheça quando ela for atingida. Aproxima a tentativa do fim da luta e oferece uma saída antes do golpe final. |
 | Autorizar mais cedo | Explicar que se está abrindo outra forma de encerrar o encontro; conferir se a equipe terá oportunidade de agir antes de sofrer novas ofensivas. Não compensar secretamente com bônus no TR. |
 
-**Demonstração condicional:** se o mestre anunciar “pode tentar com 12 PV ou menos”, um Amontoado a 13 ainda não permite a tentativa. A 12, Nara pode usar sua Padrão. A criatura continua com TR Espírito +1 contra CD 12, salvo modificador válido. Esse 12 é uma escolha ilustrativa local, **não uma referência adotada para toda maldição nem uma regra de um quarto da vida**.
+**Exemplo:** se o mestre anunciar “pode tentar com 12 PV ou menos”, um Amontoado a 13 ainda não permite a tentativa. A 12, Nara pode usar sua Padrão. A criatura continua com TR Espírito +1 contra CD 12, salvo modificador válido. Esse 12 é uma escolha ilustrativa local, **não uma referência adotada para toda maldição nem uma regra de um quarto da vida**.
 
-Se a doma ocorrer com 12 PV, o novo registro tem **12 de 14 PV**, preservando os demais recursos dentro dos máximos. Não recebe 14 nem sofre a queda que o ramo principal exigiu. Como não pode ser recolhida, permanece onde está. Sua atuação passa a seguir as regras de entidade e o teto de ativos; não mantenha o turno independente do inimigo nem conceda ataque imediato como prêmio pela conversão.
+Se a doma ocorrer com 12 PV, o novo registro tem **12 de 14 PV**, preservando os demais recursos dentro dos máximos. Não recebe 14 nem sofre a queda que o exemplo principal exigiu. Como não pode ser recolhida, permanece onde está. Sua atuação passa a seguir as regras de entidade e o teto de ativos; não mantenha o turno independente do inimigo nem conceda ataque imediato como prêmio pela conversão.
 
-Antes de permitir essa variante, registre como a entrada em atuação respeitará os recursos já usados no combate e o ciclo do invocador. **Condução conservadora proposta:** a aquisição não fornece básica ou Movimento novos naquele instante; a entidade começa a renovar esses recursos no próximo turno de Nara, depois de cumpridos os requisitos de ativação e tarefa. Se houver dúvida sobre um recurso específico, resolva-a no preparo. Essa orientação é uma proposta de integração da conversão ao combate, não um trecho publicado da R53.
+Antes de permitir essa variante, registre como a entrada em atuação respeitará os recursos já usados no combate e o ciclo do invocador. **Regra proposta para este caso:** a aquisição não fornece básica ou Movimento novos naquele instante; a entidade começa a renovar esses recursos no próximo turno de Nara, depois de cumpridos os requisitos de ativação e tarefa. Se houver dúvida sobre um recurso específico, resolva-a no preparo. Essa orientação é uma proposta de integração da conversão ao combate, não um trecho publicado do Livro de Regras 1.0.
 
 ## Registro para a próxima mesa
 
-No ramo principal, a folha fica assim:
+No exemplo principal, a folha fica assim:
 
-- **Origem e aquisição:** maldição domada; Amontoado do depósito, nível 2, Classe 1; obtida por Nara, nível 2. Conversão da base pequena apresentada antes do teste.
+- **Origem e aquisição:** maldição domada; Amontoado do depósito, nível 2, Classe 1; obtida por Nara, nível 2. Conversão da ficha de inimigo apresentada antes do teste.
 - **Submissão:** fora de combate; d20 10 + Espírito 1 = 11 contra CD 12; falha da maldição, aquisição concluída.
-- **Estado imediato:** 0/14 PV, 7/7 Integridade, 0/2 PE próprios; Desligada no depósito; excedente 4; sem efeitos persistentes neste ramo. Ainda não foi religada.
+- **Estado imediato:** 0/14 PV, 7/7 Integridade, 0/2 PE próprios; Desligada no depósito; excedente 4; sem efeitos persistentes neste exemplo. Ainda não foi religada.
 - **Atuação futura:** básica, especial e talento da ficha convertida; iniciativa de Nara e Reação coletiva; sem turno independente de inimigo.
 - **Controle e comunicação:** não pode ser recolhida; ocupa o registro de corpo mantido; compreende frases simples e responde por gestos e ruídos.
 - **Invocadora:** conferir separadamente recursos atuais, quedas, Sequelas e recuperações reais de Nara. A captura não limpa a ficha dela.
 
 Depois de religar ou descansar, atualize o registro com o que realmente aconteceu. Ao subir de nível, Nara não aumenta o nível do Amontoado: a domada conserva o nível 2. Valores que dependem da invocadora, como Maestria e a parcela de Defesa, seguem suas regras próprias.
 
-Na guilda, informe o local e o estado da criatura ao passar a ocorrência para outro mestre. Em campanha fechada, registre com a equipe como vão retirá-la ou mantê-la no local. Domar não libera automaticamente o centro cultural: ainda é preciso verificar os riscos, retirar a criatura por meios válidos e comunicar o resultado a Ana.
+Na guilda, informe o local e o estado da criatura ao passar a missão para outro mestre. Em campanha fechada, registre com a equipe como vão retirá-la ou mantê-la no local. Domar não libera automaticamente o centro cultural: ainda é preciso verificar os riscos, retirar a criatura por meios válidos e comunicar o resultado a Ana.
 
-**Consulta da R53:** [doma](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-domar>), [conferência da conversão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-conferencia>), [queda e destruição](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-queda>), [retorno](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-retorno>), [corpos mantidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>) e [energia das entidades](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-energia>).
+**Consulta do Livro de Regras 1.0:** [doma](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-domar>), [conferência da conversão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-conferencia>), [queda e destruição](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-queda>), [retorno](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-retorno>), [corpos mantidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>) e [energia das entidades](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-energia>).

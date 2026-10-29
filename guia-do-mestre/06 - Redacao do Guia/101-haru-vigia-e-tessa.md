@@ -1,14 +1,14 @@
 # Haru, Vigia e Tessa
 
-**Fichas experimentais de nível 15.** Leia com a [comparação de faixas](100-comparar-inimigos-em-outras-faixas.md) e o [confronto do arquivo](102-o-arquivo-e-as-oportunidades-de-agir.md). Prepare **Haru sozinho ou Vigia e Tessa juntos**. Colocar os três no mesmo encontro é outra composição, que ainda precisa ser avaliada.
+**Fichas experimentais de nível 15.** Leia com a [comparação entre níveis](100-comparar-inimigos-em-outras-faixas.md) e o [confronto do arquivo](102-o-arquivo-e-as-oportunidades-de-agir.md). Prepare **Haru sozinho ou Vigia e Tessa juntos**. Colocar os três no mesmo encontro é outra composição, que ainda precisa ser avaliada.
 
 São humanos contratados para guardar um arquivo de contratos. A disputa pode terminar por autorização, acordo, retirada ou incapacitação. Nenhum precisa morrer para os documentos serem recuperados.
 
-As capacidades de energia e as montagens dos feitiços usam a R53. **Vida, reservas de PE, combinação de capacidades e comportamento são propostas próprias destas fichas.** Haru tem dois ataques expressamente escritos; isso não concede Ataque Extra a todo inimigo de nível 15. Não recebem habilidades ocultas de Caminho, Trilha ou Origem, nem podem ser convertidos em jogadores apenas copiando estes valores.
+As capacidades de energia e as montagens dos feitiços usam o Livro de Regras 1.0. **Vida, reservas de PE, combinação de capacidades e comportamento são propostas próprias destas fichas.** A ficha de Haru permite dois ataques; isso não concede Ataque Extra a todo inimigo de nível 15. Não recebem habilidades ocultas de Caminho, Trilha ou Origem, nem podem ser convertidos em personagens jogadores apenas copiando estes valores.
 
-## Consulta comum
+## Características dos três guardas
 
-Todos são Médios, têm alma, dois braços e mãos, fala, visão e audição comuns e sentidos de energia da R53. Haru pesa 78 kg, Vigia 74 kg e Tessa 62 kg. Não possuem resistência, imunidade, cura passiva, Domínio, invocação ou redução permanente. Não são alvos de Doma.
+Todos são Médios, têm alma, dois braços e mãos, fala, visão e audição comuns e sentidos de energia do Livro de Regras 1.0. Haru pesa 78 kg, Vigia 74 kg e Tessa 62 kg. Não possuem resistência, imunidade, cura passiva, Domínio, invocação ou redução permanente. Não são alvos de Doma.
 
 | Campo | Haru — guarda do arquivo | Vigia — atacante | Tessa — apoio |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Todos são Médios, têm alma, dois braços e mãos, fala, visão e audição co
 
 A Defesa é 10 + Destreza 3 + Traje 1. Demais perícias conservam seus atributos e requisitos, sem treino adicional presumido; não há Ofício treinado relevante. A espada é comum. Canalizar permite ferir maldições com ela, sem transformá-la em ferramenta permanente.
 
-Cada ficha recebe Padrão, Movimento, Bônus e Reação comuns. A Reação renova no começo do próprio turno. Antes de cada ataque rolado, pode escolher Defesa estática ou Bloquear. Bloquear não gasta Reação e não substitui um TR. Na comparação numérica isolada, foi escolhida Defesa estática; a ficha de mesa conserva as duas opções.
+Cada ficha recebe Padrão, Movimento, Bônus e Reação comuns. A Reação se renova no começo do próprio turno. Antes de cada ataque rolado, pode escolher Defesa estática ou Bloquear. Bloquear não gasta Reação e não substitui um TR. Na comparação numérica isolada, foi escolhida Defesa estática; a ficha de mesa conserva as duas opções.
 
 ## Energia e respostas
 
@@ -74,7 +74,7 @@ Depois de conjurar, deve passar **um turno próprio inteiro sem usar Fita**. Pod
 
 Haru pode anunciar uma faixa sem gastar a Padrão que usou para atacar. Ao efetivamente conjurar, porém, gasta a Padrão e abre mão dos dois golpes daquela ação. Não existe ataque grátis no anúncio ou na resolução.
 
-### Decisão de uso
+### Quando Haru usa a técnica
 
 Haru prefere a Classe 4 quando alcança dois adversários relevantes ou alguém que continua operando o arquivo. Se a faixa ficar vazia, escolhe espada, manobra, reposicionamento ou negociação. Um jogador que saiu da faixa realmente evitou o golpe; Haru não muda sua direção no último instante.
 
@@ -117,6 +117,6 @@ As penalidades são cumulativas. Estágio 1: desvantagem em perícias. Estágio 
 
 No estágio 2, Haru paga **8 ou 16 PE** por Fita. Com 26, já não cabem duas aplicações de Classe 4; no estágio 3, só a versão de Classe 2 continua disponível. Tessa paga **16** por Remendo e **4** por Impulso. No estágio 3, Remendo de Classe 4 fica indisponível: não há versão menor preparada nesta ficha. Cobrir-se continua custando 2 PE. Os ataques físicos conservam seus dados, com as penalidades pertinentes.
 
-A zero de PV ou Integridade, cada inimigo fica Derrotado e deixa de atuar. **O desfecho preparado é incapacitação**, com inconsciência e queda dos itens segurados. Não recebem Aguentar, Insistir ou janela de socorro de jogador. Cura não restaura a participação de quem já foi Derrotado; atendimento e custódia seguem na continuidade.
+A zero de PV ou Integridade, cada inimigo fica Derrotado e deixa de atuar. **O desfecho preparado é incapacitação**, com inconsciência e queda dos itens segurados. Não recebem Aguentar, Insistir ou janela de socorro de jogador. Cura não restaura a participação de quem já foi Derrotado; o atendimento e o destino dos guardas precisam ser resolvidos depois.
 
 Se os documentos forem retirados, os guardas aceitam interromper a luta para registrar quem assumirá responsabilidade. Não há reforço ou bloqueio da saída criado depois dessa vitória. Feridos, recursos gastos, efeitos ainda ativos e danos ao arquivo permanecem no registro.

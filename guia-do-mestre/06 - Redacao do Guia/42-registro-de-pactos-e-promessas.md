@@ -1,6 +1,6 @@
 # Registro de Pactos e Promessas
 
-Use esta folha junto de [Pactos e Promessas](41-pactos-e-promessas.md). Preencha os termos antes da aceitação. O registro identifica uma troca concreta; não substitui a conferência dos limites da R53.
+Use esta folha junto de [Pactos e Promessas](41-pactos-e-promessas.md). Preencha os termos antes da aceitação. O registro identifica uma troca concreta; não substitui a conferência dos limites do Livro de Regras 1.0.
 
 ## Folha em branco
 
@@ -16,18 +16,18 @@ Use esta folha junto de [Pactos e Promessas](41-pactos-e-promessas.md). Preencha
 | Prazo do ganho | Quando começa e termina. |
 | Prazo do preço | Quando é pago, por quanto tempo permanece e como uma recuperação o afeta. |
 | Encerramento | Pedido, marco de término e consequências que continuam depois; não confundir suspensão do ganho com fim do Pacto. |
-| Estatuto do texto | Regra publicada, proposta experimental ou aprovação local; versão e ficha às quais se aplica. |
+| Situação da regra | Regra publicada, proposta experimental ou aprovação local; versão e ficha às quais se aplica. |
 | Vaga | Se ocupa; Essência e quantidade total ocupada. |
 | Cláusulas | Exceções, pessoas protegidas e circunstâncias incluídas. |
 | Descumprimento | Fato verificável e consequência previamente definida; distinguir as regras da forma escolhida. |
 | Conferência | Responsável, texto aprovado e data. |
 | Estado atual | Ativo, cumprido, encerrado ou outra situação prevista; recursos e consequências ainda pendentes. |
 
-Não aplique a punição de quebra de uma Promessa automaticamente a todo Pacto. A forma escolhida e o texto aprovado determinam o procedimento.
+Não aplique a punição de quebra de uma Promessa automaticamente a todo Pacto. A forma escolhida e o texto aprovado determinam as regras da troca.
 
 ## Exemplo preenchido: Overtime
 
-Exemplo de aplicação do Pacto publicado na R53, sem acrescentar efeitos.
+Exemplo de aplicação do Pacto publicado no Livro de Regras 1.0, sem acrescentar efeitos.
 
 | Campo | Registro |
 |---|---|
@@ -57,4 +57,4 @@ Não complete um campo desconhecido com uma ameaça vaga. Volte à negociação 
 
 ## Exemplo de Promessa preenchida
 
-[Uma noite com o registro](50-promessa-do-arquivo.md) apresenta partes, autorização, acesso, empréstimo, cópias, prazo, devolução e consequências. O quadro pode ser usado como modelo de registro. O exemplo é experimental: a punição permanece até uma reparação definida no próprio acordo. Não é uma regra universal da R53.
+[A Promessa do arquivo](50-promessa-do-arquivo.md) apresenta partes, autorização, acesso, empréstimo, cópias, prazo, devolução e consequências. O quadro pode ser usado como modelo de registro. O exemplo é experimental: a punição permanece até uma reparação definida no próprio acordo. Não é uma regra universal do Livro de Regras 1.0.

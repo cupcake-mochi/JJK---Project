@@ -1,43 +1,43 @@
 # Passar a missão entre mestres
 
-**Exemplo preenchido de passagem entre mestres.** Use com a [linha de continuidade](16-linha-de-continuidade.md) e o [registro de estado e socorro](24-registro-de-estado-e-socorro.md). A situação vem de [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md), no ramo em que Mei começa ferida e chega a zero de vida. Os dados e resultados foram escolhidos para ensino; não houve uma sessão jogada ou uma passagem real entre pessoas.
+**Exemplo preenchido de passagem entre mestres.** Use com a [linha de continuidade](16-linha-de-continuidade.md) e o [registro de estado e socorro](24-registro-de-estado-e-socorro.md). A situação vem de [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md), no exemplo em que Mei começa ferida e chega a zero de vida. Os dados e resultados foram escolhidos para ensino; não houve uma sessão jogada ou uma passagem real entre pessoas.
 
 A entrega ocorre **depois de resolver toda a fase ambiental da rodada 1, antes de começar o turno de Mei na rodada 2**. A cena permanece nesse instante. A data da próxima sessão não é uma quantidade de rodadas transcorridas na história.
 
-## Resumo que acompanha a entrega
+## Resumo da missão
 
 | Campo da linha de continuidade | Registro deste exemplo |
 |---|---|
-| Missão e versão | Sala de conservação, ramo ferido da consulta [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md); usar o procedimento local de pó material registrado ali. |
+| Missão e versão | Sala de conservação, exemplo com Mei ferida de [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md); usar as regras do pó material apresentadas ali. |
 | Situação | Alimentação fechada e extração ligada; limpeza em um de dois avanços. Nuvem ainda presente. |
 | Objetivo | Eliminar o risco da área e registrar a interdição do equipamento. Atendimento de Mei em andamento. |
 | Mudança confirmada | Mei chegou a zero e escolheu Insistir; os dois comandos já foram operados. |
 | Próximo ponto | Começo do turno de Mei 2, depois Akira 2 e a fase ambiental 2. |
 | Pendência imediata | Decidir retirada e atendimento antes de voltar ao ponto que conta a janela de socorro. |
-| Referências | Mapa e perigo da consulta [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md); capacidades e recortes da consulta [Retirar a caixa, proteger a equipe](73-ensaio-guiado-do-sineiro.md); estado abaixo, vinculado à ficha utilizada. |
+| Referências | Mapa e perigo da consulta [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md); capacidades usadas no exemplo [Retirar a caixa, proteger a equipe](73-ensaio-guiado-do-sineiro.md); estado abaixo, vinculado à ficha utilizada. |
 | Quem recebe | Mestre que retoma e jogadores conferem os dados pertinentes. As informações do preparo que os personagens não aprenderam ficam no registro do mestre. |
 
-Os personagens dos ensaios são recortes. Numa mesa real, a entrega precisa incluir as fichas completas e suas revisões atuais. Nome e nível não substituem capacidades, usos e condições efetivamente escolhidos.
+Os exemplos mostram apenas parte das fichas dos personagens. Numa mesa real, a entrega precisa incluir as fichas completas e suas revisões atuais. Nome e nível não substituem capacidades, usos e condições efetivamente escolhidos.
 
 **Informação conhecida pelos personagens:** localização do fecho e do exaustor, nuvem por contato, meios de interromper a alimentação e necessidade de limpeza. O funcionamento foi apresentado antes da entrada. Não foi estabelecido que eles descobriram a causa técnica do defeito. Não acrescente essa descoberta ao resumo.
 
-## Estado que acompanha as fichas
+## Como estão os personagens
 
 | Campo | Mei | Akira |
 |---|---|---|
-| Posição | A12, dentro da nuvem. | B0, no vestíbulo limpo. |
+| Posição | A12, dentro da nuvem. | B0, no entrada limpa. |
 | Vida atual/máxima | **0/44**. Começou este ramo com 3 PV e recebeu 4 no d6 da primeira exposição. | **51/51**. |
 | Energia atual/máxima | **36/36 PE**. | **30/30 PE**. |
 | Integridade atual/máxima | **55/55**. | **65/65**. |
 | Temporários | Nenhum no percurso. | Nenhum no percurso. |
 | Condições | Morrendo, consciente por Insistir; Envenenado pelo pó. | Nenhuma aplicada no percurso. |
-| Sequelas | Zero antes desta queda; nenhuma nova ainda. | Nenhuma no recorte. |
+| Sequelas | Zero antes desta queda; nenhuma nova ainda. | Nenhuma neste exemplo. |
 | Recursos usados na rodada 1 | Padrão para fechar; Movimento e Bônus convertida para percorrer 18 m. | Padrão para ligar o exaustor. |
 | Reação | Não foi gasta no percurso. | Não foi gasta no percurso. |
 
 A próxima Padrão, o próximo Movimento e a próxima Bônus pertencem aos respectivos turnos da rodada 2, ainda não iniciados. A Reação segue sua recuperação no começo do turno do dono. A passagem não cria uma atuação entre esses momentos.
 
-**Queda de Mei, na folha de estado:**
+### O socorro de Mei
 
 | Campo | Registro |
 |---|---|
@@ -55,7 +55,7 @@ A próxima Padrão, o próximo Movimento e a próxima Bônus pertencem aos respe
 
 Não há Concentração ou manutenção neste percurso. Entidades, empréstimos e Pactos não foram acrescentados a este recorte; num registro real, confira esses campos nas fichas e nos registros próprios. Não importe uma obrigação de outro exemplo só porque o nome do personagem é igual.
 
-## Estado do lugar e próximo risco
+## O lugar e o próximo perigo
 
 A alimentação está fechada pelo comando manual; o pino de cerâmica continua intacto. O exaustor está ligado. A nuvem ocupa A1–A12 e B1–B12; A0 e B0 estão limpos. O primeiro avanço já foi registrado.
 
@@ -65,17 +65,17 @@ Na próxima fase, resolva primeiro a exposição de quem permanecer dentro. Depo
 
 Esse registro informa o que está em andamento. Não obriga a jogadora a escolher a retirada do percurso escrito. Outra declaração precisa ser resolvida com os meios, posições e prazos atuais.
 
-## Conferência ao receber
+## Antes de retomar
 
 Antes da primeira declaração, quem retoma lê o ponto e os estados com os envolvidos. A partir deles, precisa conseguir responder: quem age agora, onde pode chegar, o que ainda pode gastar e qual consequência ocorrerá se ninguém resolver a urgência.
 
 **Exemplo de divergência na nota:** o resumo curto trouxe “duas rodadas de janela”, mas a folha de queda trouxe três. Não escolha um número pela ordem dos arquivos. Confira o evento: houve apenas a aplicação que iniciou a queda, sem uma volta completa ou dano posterior. O valor correto neste ponto é três. Corrija a nota, identifique a fonte da divergência e informe os afetados antes de continuar.
 
-Essa correção usa Vida a zero da R53. Não concede uma rodada extra de benefício nem altera o que já aconteceu. Se uma divergência real depender de uma regra ainda em dúvida, use a [nota da folha de condução](05-folha-de-conducao.md), registre a decisão da sessão e quem vai conferir depois.
+Essa correção usa Vida a zero do Livro de Regras 1.0. Não concede uma rodada extra de benefício nem altera o que já aconteceu. Se uma divergência real depender de uma regra ainda em dúvida, use a [nota da folha de condução](05-folha-de-conducao.md), registre a decisão da sessão e quem vai conferir depois.
 
 ## Uma retomada possível
 
-O percurso abaixo conserva as escolhas do ramo ferido e usa, no encerramento da condição, o mesmo resultado do exemplo principal da consulta [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md).
+O percurso abaixo conserva as escolhas do exemplo com Mei ferida e usa, no encerramento da condição, o mesmo resultado do exemplo principal da consulta [O pó na sala de conservação](79-o-po-na-sala-de-conservacao.md).
 
 | Momento | Resolução |
 |---|---|
@@ -86,7 +86,7 @@ O percurso abaixo conserva as escolhas do ramo ferido e usa, no encerramento da 
 
 Se Mei tivesse escolhido Aguentar ao cair, a entrega registraria Inconsciente e o tratamento correspondente. Ela não receberia esta caminhada como se ainda tivesse escolhido Insistir. Transporte e atendimento exigiriam outro percurso válido.
 
-## Fechamento atualizado
+## Depois do socorro
 
 **Resultado confirmado:** nuvem eliminada, alimentação fechada, exaustor ligado e atendimento da queda concluído. O equipamento permanece interditado, com reparo a preparar separadamente.
 
@@ -97,11 +97,11 @@ Se Mei tivesse escolhido Aguentar ao cair, a entrega registraria Inconsciente e 
 
 Encerre os campos da queda resolvida e conserve a Sequela. Nenhum descanso foi declarado ou concluído. A equipe ainda precisa comunicar a interdição à pessoa responsável pela oficina e decidir como encaminhar o reparo. O pedido ou projeto de reparo, quando existir, usa a [ficha de projeto](38-ficha-de-projeto-e-entrega.md).
 
-**Recompensas e atualização administrativa:** o recorte não fornece classificação anunciada da missão, posição semanal dos jogadores ou políticas de remuneração adotadas. Registre essa conferência como pendência, com responsável, e use [Recompensas e fechamento](37-recompensas-e-fechamento.md). Não invente um valor para preencher a lacuna nem credite de novo algo que outro registro já confirmou.
+**Recompensas e atualização administrativa:** o exemplo não fornece classificação anunciada da missão, posição semanal dos jogadores ou políticas de remuneração adotadas. Registre essa conferência como pendência, com responsável, e use [Encerrar a missão e entregar recompensas](37-recompensas-e-fechamento.md). Não invente um valor para preencher a lacuna nem credite de novo algo que outro registro já confirmou.
 
-Uma pendência precisa dizer o que falta e quem aceitou acompanhá-la. Neste exemplo didático, o mestre que fecha confere a classificação e os históricos com os jogadores antes de lançar a recompensa; quem prepara a próxima ocorrência acompanha a comunicação à oficina. Esses papéis ilustram a divisão do trabalho, sem atribuir uma tarefa a alguém real.
+Uma pendência precisa dizer o que falta e quem aceitou acompanhá-la. Neste exemplo didático, o mestre que fecha confere a classificação e os históricos com os jogadores antes de lançar a recompensa; quem prepara a próxima missão acompanha a comunicação à oficina. Esses papéis ilustram a divisão do trabalho, sem atribuir uma tarefa a alguém real.
 
-## Retorno que vira uma providência
+## Melhorar o registro com o grupo
 
 **Observação ilustrativa, sem leitor real consultado:** “Entendi que tirar a nuvem também retirava Envenenado.” O problema apontado é a distinção entre o estado do lugar e o estado da pessoa.
 
@@ -110,4 +110,4 @@ Uma pendência precisa dizer o que falta e quem aceitou acompanhá-la. Neste exe
 | Manter um marcador da limpeza e outro da condição, com seus próprios pontos de término. | Quem conduzir a próxima aplicação, durante o preparo. | O grupo consegue identificar o que terminou e o que ainda precisa de resolução? |
 | Preservar o aviso nos registros enviados à próxima mesa. | Quem atualiza a linha de continuidade, antes da entrega. | O destinatário localiza fonte, prazo e próxima tentativa sem pedir nova reconstrução? |
 
-As perguntas descrevem uma avaliação futura. O ensaio permite conferir estados e remissões; a compreensão por jogadores e mestres ainda precisa ser observada em uso.
+As perguntas descrevem uma avaliação futura. O ensaio permite conferir recursos, condições e referências; a compreensão por jogadores e mestres ainda precisa ser observada em uso.

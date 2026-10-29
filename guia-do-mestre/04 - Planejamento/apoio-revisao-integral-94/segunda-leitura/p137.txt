@@ -1,0 +1,93 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+intruso; um impacto em área continua perigoso
+para todos que ainda estejam ali. Declare essa
+conduta na preparação e respeite os acordos do
+grupo sobre captura e perigo para personagens
+caídos.
+Para negociar, ele pode aceitar a saída dos intrusos
+sem a caixa; outra proposta depende de algo que
+consiga compreender e valorizar. Não há teste que
+obrigue uma concessão impossível. O confronto
+termina quando o objetivo for alcançado com o
+grupo fora, houver acordo ou a oposição for
+encerrada; deixar alguém para trás mantém uma
+consequência a resolver.
+Exemplo de rodada
+Considere a ordem Rina → Sineiro → Mei → Akira.
+O Sineiro substitui um ataque por Agarrar Rina; ela
+falha no TR. Pode usar o outro ataque como
+Pancada. Conduz Rina 6 m com seu Movimento e
+gasta a Bônus para dobrar o sino. Marca a área, sem
+causar ainda o impacto.
+Mei, Akira e Rina terão um turno antes de ele
+poder bater. Encerrar a rodada depois de Akira não
+dispara o golpe. Rina pode tentar escapar e, se
+conseguir, andar para fora. Mei pode usar uma
+capacidade válida que mova o chefe e interrompa a
+preparação; Empurrar comum só funciona se
+cumprir também seu requisito de tamanho. Akira
+pode retirar a caixa ou ajudar a criar uma saída.
+Nenhuma opção é sucesso automático.
+Se derrubarem o chefe, a carga acaba, mas Rina
+continua Agarrada até resolver uma causa real de
+soltura. Se lhe aplicarem Guarda Aberta, acabam
+tanto a preparação quanto o agarrão. Se ninguém
+impedir, no próximo turno ele gasta a Padrão no
+impacto; depois fica exposto e solta Rina. Os
+personagens decidem se aproveitam a abertura para
+atacar, socorrer ou sair.
+Ferimentos e derrota
+Integridade: 54-41, estágio 0; 40-28, estágio 1;
+27-14, estágio 2; 13-1, estágio 3; 0, derrota. As
+penalidades são cumulativas: perícias, depois
+deslocamento reduzido para 4,5 m, depois ataques e
+TRs. Essas penalidades não passam a cobrar PE
+pelas ações corporais. Lento também reduz
+deslocamento e impede Bônus, portanto impede
+iniciar a preparação por Bônus mesmo que a
+criatura ainda tenha uma Padrão para converter.
+A 0 PV ou Integridade, pare a atuação e cancele a
+preparação. Não resta um impacto automático após
+a derrota. A ficha não recebe Insistir, Socorro,
+recuperação de vida ou nova fase. Domar exige
+preservar a maldição e seguir as regras da seção
+seguinte.
+Ao testar em mesa: observe se a captura muda
+decisões, se o aviso é compreensível e se
+interromper o impacto oferece uma vitória que vale
+a ação gasta. A comparação com referências de
+nível 6 levou a elevar a vida de 72 para 108 PV, com
+54 de Integridade, preservando dois ataques e 5d8.
+O ajuste procura dar mais tempo de atuação contra
+concentração de feitiços de Classe 2. Com uma
+arma e dois feitiços, a versão anterior já durava
+mais; não trate 108 como exigência para qualquer
+trio. A interrupção continua válida, e a preparação
+pode terminar sem atingir ninguém. O ensaio
+guiado (p. 141) acompanha dois percursos com
+posições, recursos e socorro. Seus resultados foram
+escolhidos para ensinar as regras. Ainda é preciso
+testar o equilíbrio da ficha em mesa.
+5.15 · Sineiro: ficha após a
+Doma
+Conversão experimental preparada para a versão 2
+do Sineiro do Recolhimento (p. 134). Use esta
+seção para conferir a aquisição e apresentar ao
+jogador o resultado antes da tentativa. Os preços
+próprios e a classificação do talento de transporte
+são propostas; ainda não são regras gerais
+aprovadas para o Guia.
+O que muda com a Doma
+O Sineiro domado continua capaz de agarrar,
+transportar e preparar um impacto. A versão
+adquirida usa a construção e os comandos de
+entidade do Livro de Regras 1.0. Ter enfrentado
+dois ataques ou uma preparação por Bônus não
+concede esses recursos ao personagem.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+137

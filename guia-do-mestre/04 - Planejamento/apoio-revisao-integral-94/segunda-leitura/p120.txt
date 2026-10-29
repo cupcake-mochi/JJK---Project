@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Campo
+Domada
+Vida máxima / Integridade máxima
+14 / 7. Vida: 5 + Constituição 3 + (3 + Constituição 3) × (2 - 1).
+Defesa / Bloquear sem equipamento
+11 + B / 2d10 + B.
+Acerto / CD corporal
+3 + M / 11 + M. Com M = 1: +4 / CD 12.
+TRs
+Físico por Força 3 + M; Vigor +3; Intelecto +1; Espírito +1.
+Perícias
+Atletismo 3 + M; Furtividade, Percepção e Intuição 1 + M. Outros usos
+respeitam acesso e atributo.
+Famílias
+Alcance Livre; Mira e Controle abertas; outras seis Fechadas. Não
+concede capacidades por si.
+Básica conhecida
+Pancada, Classe 0, Toque 1,5 m, ataque 3 + M, 1d6 Concussão, crítico
+2d6, sem atributo no dano, PE, Melhoria ou Restrição.
+Especial
+Uma vaga, vazia. Não recebe conjuração ofensiva por ser domada.
+Talento
+Conduzir pelo chão, proposta própria CE1 descrita abaixo; ocupa a
+única escolha de talento do nível.
+Técnica / reserva própria
+Não tem Técnica Inata própria; nenhuma reserva própria, 0/0 PE.
+Existir como maldição não basta para ganhar a reserva destinada à
+domada com técnica.
+Iniciativa e atuação
+Usa a iniciativa do invocador, Movimento próprio e uma básica por
+ciclo. Reação coletiva das entidades, separada da Reação pessoal do
+invocador.
+Exemplo de Defesa: invocador de Maestria 1 e
+Essência escolhida 2 dá B = 1: Defesa 12 e Bloquear
+2d10 + 1. O invocador não substitui a Força da
+entidade pela própria nem lhe concede seus ataques
+adicionais.
+Agarrar conservado na conversão: a entidade gasta
+sua básica para Atacar e troca o ataque por Agarrar,
+cumprindo mão, alcance, tamanho e TR Físico CD
+11 + M. Sem dano ou PE. A manobra não exige criar
+uma especial nova; segue a permissão de manobras
+e a condição Leve Agarrado do Livro de Regras 1.0.
+A básica usada nessa tentativa não sobra para
+Pancada, Correr ou Desengajar no mesmo ciclo.
+Conduzir pelo chão
+Proposta de Talento Próprio CE1, de transporte.
+Permite arrastar uma criatura de tamanho Médio
+ou menor com uma mão adequada, pelo chão,
+conservando corpo, apoio e alcance. O alvo precisa
+estar disposto, inconsciente ou sob um Agarrar
+válido. O talento não aplica Agarrado, não impede
+fuga e não transforma resistência em
+consentimento.
+A capacidade conjunta é 5 + Força = 8 Volume,
+incluindo corpo transportado, equipamentos dele e
+da entidade. Não aumenta para 16 pelo teto geral de
+arrasto: o transporte autorizado por este talento
+tem seu limite próprio de 8. Acima disso,
+redistribua carga ou escolha outro meio. Uma
+criatura Grande ainda pode ser alvo legal de
+Agarrar quando os requisitos comuns forem
+atendidos, mas não é passageiro autorizado pelo
+talento.
+Cada 1,5 m de arrasto custa 3 m de Movimento, ou
+4,5 m em terreno difícil. O talento só permite essa
+acomodação pelo chão: não dá montaria, assento,
+elevação, voo, transporte por escadas incompatíveis
+ou armazenamento fora de campo. Não cobra PE ou
+básica apenas para sustentar o transporte válido;
+aplicar Agarrar e executar outras ações conserva
+seus custos. Não concede Bônus independente,
+segunda básica ou Reação extra.
+Ao sair de campo, a pessoa transportada e seus
+objetos ficam no mundo, no lugar alcançado,
+conservando recursos e condições. O próprio
+equipamento segue as regras de Carga e
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+120

@@ -1,0 +1,432 @@
+{
+  "registro": 106,
+  "secoes": [
+    {
+      "destino": "N06.1",
+      "titulo_planejado": "6.1 Objetivos e papéis no encontro",
+      "titulo_de_leitura": "6.1 Objetivos e adversários",
+      "ancora": "61-objetivos-e-adversarios",
+      "fontes_preservadas": [
+        {
+          "id": "s018",
+          "fonte": "06 - Redacao do Guia/18-preparar-antagonistas.md",
+          "sha256": "84d7a0c75207656b3ee1281ace88f4a5b3f7805bf613ea692a9061a54107cb02",
+          "destino_principal": "N05.5",
+          "usos_complementares": [
+            "N06.1"
+          ]
+        },
+        {
+          "id": "s056",
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.2",
+      "titulo_planejado": "6.2 Escolher, adaptar e criar uma ficha",
+      "titulo_de_leitura": "6.2 Preparar a ficha",
+      "ancora": "62-preparar-a-ficha",
+      "fontes_preservadas": [
+        {
+          "id": "s056",
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s060",
+          "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+          "sha256": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d",
+          "destino_principal": "N06.2",
+          "usos_complementares": [
+            "N06.3",
+            "B2"
+          ]
+        },
+        {
+          "id": "s063",
+          "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+          "sha256": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N09.4"
+          ]
+        },
+        {
+          "id": "s075",
+          "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+          "sha256": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N06.3"
+          ]
+        },
+        {
+          "id": "s058",
+          "fonte": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+          "sha256": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+          "destino_principal": "A5.10",
+          "usos_complementares": [
+            "N06.2",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s061",
+          "fonte": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+          "sha256": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+          "destino_principal": "A5.11",
+          "usos_complementares": [
+            "N06.2",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "x002",
+          "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+          "sha256": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+          "destino_principal": "N01.5",
+          "usos_complementares": [
+            "N06.2",
+            "N09.4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.3",
+      "titulo_planejado": "6.3 Habilidades, energia e recarga",
+      "titulo_de_leitura": "6.3 Habilidades e recursos",
+      "ancora": "63-habilidades-e-recursos",
+      "fontes_preservadas": [
+        {
+          "id": "s059",
+          "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+          "sha256": "580e3ee7b0e0c857a96eee2dfab42ffcd2b1f6f22e5d0da934525dc414441f47",
+          "destino_principal": "N06.3",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "id": "s060",
+          "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+          "sha256": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d",
+          "destino_principal": "N06.2",
+          "usos_complementares": [
+            "N06.3",
+            "B2"
+          ]
+        },
+        {
+          "id": "s075",
+          "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+          "sha256": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N06.3"
+          ]
+        },
+        {
+          "id": "s101",
+          "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+          "sha256": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.3",
+            "N06.5"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.4",
+      "titulo_planejado": "6.4 Escolher os números",
+      "titulo_de_leitura": "6.4 Escolher os números",
+      "ancora": "64-escolher-os-numeros",
+      "fontes_preservadas": [
+        {
+          "id": "s074",
+          "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+          "sha256": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+          "destino_principal": "N06.4",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "id": "s100",
+          "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+          "sha256": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.5",
+      "titulo_planejado": "6.5 Grupo, terreno e composição",
+      "titulo_de_leitura": "6.5 O grupo e o lugar",
+      "ancora": "65-o-grupo-e-o-lugar",
+      "fontes_preservadas": [
+        {
+          "id": "s056",
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s057",
+          "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+          "sha256": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s062",
+          "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+          "sha256": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5"
+          ]
+        },
+        {
+          "id": "s065",
+          "fonte": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+          "sha256": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb",
+          "destino_principal": "N06.5",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "id": "s066",
+          "fonte": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+          "sha256": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5"
+          ]
+        },
+        {
+          "id": "s076",
+          "fonte": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+          "sha256": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5"
+          ]
+        },
+        {
+          "id": "s101",
+          "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+          "sha256": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.3",
+            "N06.5"
+          ]
+        },
+        {
+          "id": "s102",
+          "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+          "sha256": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.6",
+      "titulo_planejado": "6.6 Chefes e confrontos maiores",
+      "titulo_de_leitura": "6.6 Chefes e grandes confrontos",
+      "ancora": "66-chefes-e-grandes-confrontos",
+      "fontes_preservadas": [
+        {
+          "id": "s067",
+          "fonte": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+          "sha256": "a209c7602234bc304ba1bb5165eba40b835f89b8ebeca1fc1f3845cd56dd9813",
+          "destino_principal": "N06.6",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "id": "s071",
+          "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+          "sha256": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.6"
+          ]
+        },
+        {
+          "id": "s073",
+          "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+          "sha256": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.6",
+            "N04.7"
+          ]
+        },
+        {
+          "id": "s068",
+          "fonte": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+          "sha256": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207",
+          "destino_principal": "A5.12",
+          "usos_complementares": [
+            "N06.6",
+            "B2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.7",
+      "titulo_planejado": "6.7 Perigos ambientais",
+      "titulo_de_leitura": "6.7 Perigos do ambiente",
+      "ancora": "67-perigos-do-ambiente",
+      "fontes_preservadas": [
+        {
+          "id": "s078",
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "id": "s064",
+          "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "sha256": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7"
+          ]
+        },
+        {
+          "id": "s079",
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        },
+        {
+          "id": "s103",
+          "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+          "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N08.1"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N06.8",
+      "titulo_planejado": "6.8 Conferir antes e depois de jogar",
+      "titulo_de_leitura": "6.8 Antes e depois do encontro",
+      "ancora": "68-antes-e-depois-do-encontro",
+      "fontes_preservadas": [
+        {
+          "id": "s056",
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s057",
+          "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+          "sha256": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s102",
+          "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+          "sha256": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s058",
+          "fonte": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+          "sha256": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+          "destino_principal": "A5.10",
+          "usos_complementares": [
+            "N06.2",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s077",
+          "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+          "sha256": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "A5.10",
+            "N06.8"
+          ]
+        },
+        {
+          "id": "s061",
+          "fonte": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+          "sha256": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+          "destino_principal": "A5.11",
+          "usos_complementares": [
+            "N06.2",
+            "N06.8"
+          ]
+        }
+      ]
+    }
+  ],
+  "limite": "O mapa localiza as fontes mantidas e a exposição nova; não declara revisão semântica nova de cada estudo completo."
+}

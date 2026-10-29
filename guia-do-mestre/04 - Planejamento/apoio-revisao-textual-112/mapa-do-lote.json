@@ -1,0 +1,590 @@
+{
+  "registro": 112,
+  "secoes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "titulo": "Como usar este livro",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c00"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "titulo": "Por onde começar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c00--por-onde-comecar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "titulo": "Durante a leitura e o jogo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c00--durante-a-leitura-e-o-jogo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Sua primeira missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.1 O que faz o mestre",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--11-o-que-faz-o-mestre"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.2 Antes de começar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--12-antes-de-comecar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.3 Uma cena do cotidiano",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--13-uma-cena-do-cotidiano"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.4 Prepare a missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--14-prepare-a-missao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Pessoas e lugar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--pessoas-e-lugar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Amontoado do depósito",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--amontoado-do-deposito"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.5 Jogue a missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--15-jogue-a-missao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Abra com algo que permita agir",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--abra-com-algo-que-permita-agir"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Acompanhe uma investigação",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--acompanhe-uma-investigacao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Quando os jogadores quiserem entender mais",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--quando-os-jogadores-quiserem-entender-mais"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Quando começa o combate",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--quando-comeca-o-combate"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Quem participa deste exemplo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--quem-participa-deste-exemplo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Primeira rodada: agir enquanto o socorro chega",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--primeira-rodada-agir-enquanto-o-socorro-chega"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "O que anotar quando alguém cai",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--o-que-anotar-quando-alguem-cai"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Segunda rodada: completar o atendimento",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--segunda-rodada-completar-o-atendimento"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Se alguém cair de outra forma",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--se-alguem-cair-de-outra-forma"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.6 Se o grupo escolher outro caminho",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--16-se-o-grupo-escolher-outro-caminho"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Conversar com a criatura",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--conversar-com-a-criatura"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Usar a entrada de serviço",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--usar-a-entrada-de-servico"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Sair de um combate",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--sair-de-um-combate"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Chamar apoio e manter o anexo fechado",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--chamar-apoio-e-manter-o-anexo-fechado"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Propor algo que você não preparou",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--propor-algo-que-voce-nao-preparou"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "1.7 Depois da missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--17-depois-da-missao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Confira o estado do grupo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--confira-o-estado-do-grupo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Guarde o que precisa continuar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--guarde-o-que-precisa-continuar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Sua próxima aventura",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--sua-proxima-aventura"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "As batidas no anexo: preparo para consulta",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c01--as-batidas-no-anexo-preparo-para-consulta"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "O mundo dos feiticeiros",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.1 Maldições na vida comum",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--21-maldicoes-na-vida-comum"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Lugares e pessoas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--lugares-e-pessoas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Depois da ocorrência",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--depois-da-ocorrencia"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.2 Feiticeiros, energia e técnicas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--22-feiticeiros-energia-e-tecnicas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Os poderes em ação",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--os-poderes-em-acao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Da ideia à ficha",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--da-ideia-a-ficha"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.3 Escolas, famílias e contatos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--23-escolas-familias-e-contatos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Quem o grupo conhece",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--quem-o-grupo-conhece"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Autoridade e confiança",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--autoridade-e-confianca"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Relações que continuam",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--relacoes-que-continuam"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.4 Diferentes formas de viver",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--24-diferentes-formas-de-viver"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Latente",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--latente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Receptáculo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--receptaculo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Descendente",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--descendente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Encarnado",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--encarnado"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Híbrido",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--hibrido"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Corpo Amaldiçoado",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--corpo-amaldicoado"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Restrição Celestial",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--restricao-celestial"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.5 Trabalho, estudo e relações",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--25-trabalho-estudo-e-relacoes"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "2.6 A época e o lugar da sua campanha",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--26-a-epoca-e-o-lugar-da-sua-campanha"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Guilda e campanha fechada",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--guilda-e-campanha-fechada"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "Começar a jogar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c02--comecar-a-jogar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Preparar aventuras",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.1 O que preparar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--31-o-que-preparar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Uma despedida",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--uma-despedida"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Escolhas do grupo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--escolhas-do-grupo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.2 Pessoas que dão vida à aventura",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--32-pessoas-que-dao-vida-a-aventura"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Pedidos e acordos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--pedidos-e-acordos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.3 Lugares e caminhos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--33-lugares-e-caminhos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Caminhos alternativos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--caminhos-alternativos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.4 Pistas e investigações",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--34-pistas-e-investigacoes"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Encontrar as pistas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--encontrar-as-pistas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Depois da descoberta",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--depois-da-descoberta"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.5 Perigos e consequências",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--35-perigos-e-consequencias"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Os objetivos da missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--os-objetivos-da-missao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "As consequências",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--as-consequencias"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.6 Ideias para sua próxima missão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--36-ideias-para-sua-proxima-missao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "3.7 Quando há pouco tempo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--37-quando-ha-pouco-tempo"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Antes que o trem parta",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--antes-que-o-trem-parta"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "O começo",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--o-comeco"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "As pessoas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--as-pessoas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "O lugar e as informações",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--o-lugar-e-as-informacoes"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "O que pode mudar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--o-que-pode-mudar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Para encerrar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03--para-encerrar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Ideias para aventuras",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Oito situações para começar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--oito-situacoes-para-comecar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "1. Luz na sala de projeção",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--1-luz-na-sala-de-projecao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "2. Depois do primeiro chamado",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--2-depois-do-primeiro-chamado"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "3. A assinatura no coreto",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--3-a-assinatura-no-coreto"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "4. O que ficou no cinema",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--4-o-que-ficou-no-cinema"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "5. Uma canção para cada um",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--5-uma-cancao-para-cada-um"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "6. Ensaio na outra margem",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--6-ensaio-na-outra-margem"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "7. O último ônibus",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--7-o-ultimo-onibus"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "8. Um pedido vindo da água",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--8-um-pedido-vindo-da-agua"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Seis pessoas para encontrar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--seis-pessoas-para-encontrar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Rei, feiticeira independente",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--rei-feiticeira-independente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Nori, cuidador do coreto",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--nori-cuidador-do-coreto"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Dara, musicista de corpo construído",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--dara-musicista-de-corpo-construido"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Joana, conhecedora das hortas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--joana-conhecedora-das-hortas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Caio, aprendiz fora de um clã",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--caio-aprendiz-fora-de-um-cla"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Leda, antiga projecionista",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--leda-antiga-projecionista"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Quatro lugares para usar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--quatro-lugares-para-usar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O coreto da praça",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-coreto-da-praca"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O canal das hortas",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-canal-das-hortas"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O cinema fechado",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-cinema-fechado"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O pequeno terminal",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-pequeno-terminal"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Seis complicações possíveis",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--seis-complicacoes-possiveis"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Um acesso ficou indisponível",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--um-acesso-ficou-indisponivel"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "A pessoa precisa sair",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--a-pessoa-precisa-sair"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Duas vontades pedem espaço",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--duas-vontades-pedem-espaco"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Outra equipe já esteve aqui",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--outra-equipe-ja-esteve-aqui"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O horário mudou",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-horario-mudou"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O relato mistura fato e conclusão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-relato-mistura-fato-e-conclusao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Combinação 1: A assinatura no coreto",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--combinacao-1-a-assinatura-no-coreto"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O que aconteceu",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-que-aconteceu"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Para começar",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--para-comecar"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Caminhos até os fatos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--caminhos-ate-os-fatos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "A próxima decisão",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--a-proxima-decisao"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Combinação 2: Ensaio na outra margem",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--combinacao-2-ensaio-na-outra-margem"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O começo e os caminhos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-comeco-e-os-caminhos"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "O trecho de água",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--o-trecho-de-agua"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Resolver a travessia",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--resolver-a-travessia"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Chegada e fechamento",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--chegada-e-fechamento"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Um ensaio entre amigos",
+      "destino": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html#c03a--um-ensaio-entre-amigos"
+    }
+  ],
+  "cobertura_herdada": "04 - Planejamento/apoio-conferencia-111/cobertura-e-destinos.json",
+  "cobertura_herdada_sha256": "04458682c4cba76f42771fd4f14b840b49881f8a184687fc481f1444b9f87101",
+  "pontos": 130,
+  "competencias": 20,
+  "estados": "preservados sem promoção; destinos deste lote complementam o mapa anterior"
+}

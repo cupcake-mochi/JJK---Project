@@ -1,0 +1,450 @@
+{
+  "registro": 103,
+  "conclusao": "Etapa 3 concluída como redação do núcleo e conferência interna. Integração, consulta geral, revisão global e avaliação externa são trabalhos distintos.",
+  "fontes_novas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "sha256": "88beaf314efa29d0017452a8857441ce6ac5115066ef535e8f5a9e6daf9f3112"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "sha256": "8a5dd944e2dd084c9682fc2f17d335f12d751b1c2c7da0acf6df8147bc50db25"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "sha256": "6299320b527f0af644f9a2d2f382ffac734ca040dd6f6b612b52765f6a508f94"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "sha256": "3b8d0dc3797d63d884fd283a6db2cd21268304a788803bd43db54e65f82d2c74"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "sha256": "a460686199ca8521bae6cda3ac99f8fdae6c3a4d83b754b5a9f0443242e594dc"
+    }
+  ],
+  "competencias_conferidas": [
+    {
+      "id": "P01",
+      "competencia": "Começar a mestrar",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.1",
+          "titulo": "1.1 O que faz o mestre"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.4",
+          "titulo": "1.4 Prepare As batidas no anexo"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.5",
+          "titulo": "1.5 Jogue a missão"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.7",
+          "titulo": "1.7 Depois da missão"
+        }
+      ],
+      "observacao_editorial": "Primeira missão reúne preparo, decisão, exemplo e fechamento.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P02",
+      "competencia": "Consultar o mundo",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+          "secao": "2.1",
+          "titulo": "2.1 Maldições na vida comum"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+          "secao": "2.2",
+          "titulo": "2.2 Feiticeiros, energia e técnicas"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+          "secao": "2.3",
+          "titulo": "2.3 Escolas, famílias e contatos"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+          "secao": "2.6",
+          "titulo": "2.6 A época e o lugar da sua campanha"
+        }
+      ],
+      "observacao_editorial": "Vocabulário apresentado por situações; entrada sem revelações e contexto opcional.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P03",
+      "competencia": "Transformar cotidiano em jogo",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.3",
+          "titulo": "1.3 Uma cena do cotidiano"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+          "secao": "2.5",
+          "titulo": "2.5 Trabalho, estudo e relações"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.1",
+          "titulo": "3.1 O preparo necessário"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.2",
+          "titulo": "5.2 Vínculos e interesses dos personagens"
+        }
+      ],
+      "observacao_editorial": "Convivência, interesses e despedida podem terminar sem combate.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P04",
+      "competencia": "Combinar grupo e campanha",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.2",
+          "titulo": "1.2 Antes de começar"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.1",
+          "titulo": "5.1 A sessão zero"
+        }
+      ],
+      "observacao_editorial": "Acordos, limites, opções, vínculos e organização do grupo.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P05",
+      "competencia": "Preparar com esforço viável",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.1",
+          "titulo": "3.1 O preparo necessário"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.7",
+          "titulo": "3.7 Quando há pouco tempo"
+        }
+      ],
+      "observacao_editorial": "Cinco perguntas de preparo e redução do alcance da sessão.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P06",
+      "competencia": "Criar missão com caminhos possíveis",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.1",
+          "titulo": "3.1 O preparo necessário"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.3",
+          "titulo": "3.3 Lugares e caminhos"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.5",
+          "titulo": "3.5 Perigos e consequências"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.6",
+          "titulo": "3.6 Ideias para sua próxima missão"
+        }
+      ],
+      "observacao_editorial": "Pessoas, lugares, caminhos, perigos e exemplos para desenvolver.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P07",
+      "competencia": "Investigar sem depender de pista única",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.4",
+          "titulo": "3.4 Pistas e investigações"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.4",
+          "titulo": "4.4 Conduzir uma investigação"
+        }
+      ],
+      "observacao_editorial": "Fatos, fontes independentes, falha e retomada da investigação.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P08",
+      "competencia": "Descrever para decisões informadas",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.1",
+          "titulo": "4.1 Descrever, ouvir e responder"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.4",
+          "titulo": "4.4 Conduzir uma investigação"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.5",
+          "titulo": "4.5 As ideias dos jogadores e o cenário"
+        }
+      ],
+      "observacao_editorial": "Informação perceptível, intenção, posição e resultado compreensível.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P09",
+      "competencia": "Abrir e encerrar cenas com ritmo",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.7",
+          "titulo": "1.7 Depois da missão"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.6",
+          "titulo": "4.6 Atenção, ritmo e mudança de cena"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.8",
+          "titulo": "4.8 Dúvidas e fim da sessão"
+        }
+      ],
+      "observacao_editorial": "Escolhas relevantes, resumo, mudança de cena e pausa no horário.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P10",
+      "competencia": "Distribuir atenção",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.6",
+          "titulo": "4.6 Atenção, ritmo e mudança de cena"
+        }
+      ],
+      "observacao_editorial": "Convite sem imposição, retomada de fala e grupo separado.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P11",
+      "competencia": "Improvisar com consistência",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+          "secao": "1.6",
+          "titulo": "1.6 Se o grupo escolher outro caminho"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.2",
+          "titulo": "4.2 Quando pedir um teste"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.5",
+          "titulo": "4.5 As ideias dos jogadores e o cenário"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.8",
+          "titulo": "4.8 Dúvidas e fim da sessão"
+        }
+      ],
+      "observacao_editorial": "Soluções que funcionam, regras pertinentes e dúvida provisória registrada.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P12",
+      "competencia": "Interpretar NPCs e negociar",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+          "secao": "3.2",
+          "titulo": "3.2 Pessoas que dão vida à aventura"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.3",
+          "titulo": "4.3 Interpretar e negociar"
+        }
+      ],
+      "observacao_editorial": "Desejo, apresentação e reação de pessoas; negociação com resistência real.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P13",
+      "competencia": "Fazer facções e antagonistas reagirem",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.4",
+          "titulo": "5.4 Facções"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.5",
+          "titulo": "5.5 Antagonistas"
+        }
+      ],
+      "observacao_editorial": "Reação por informação e meios; oposição pode perder seu recurso ou terminar.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P17",
+      "competencia": "Conectar missões e encerrar campanhas",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.2",
+          "titulo": "5.2 Vínculos e interesses dos personagens"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.3",
+          "titulo": "5.3 De uma missão à próxima"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.6",
+          "titulo": "5.6 Arcos, finais e epílogos"
+        }
+      ],
+      "observacao_editorial": "Vínculos e consequências ligam aventuras; arco e epílogo reconhecem o resultado.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": []
+    },
+    {
+      "id": "P18",
+      "competencia": "Manter continuidade entre mesas",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.3",
+          "titulo": "5.3 De uma missão à próxima"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.6",
+          "titulo": "5.6 Arcos, finais e epílogos"
+        }
+      ],
+      "observacao_editorial": "Apoio de continuidade: informação comunicada, tempo da missão, alcance e responsável por pendência.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": [
+        "N10.1",
+        "N10.2",
+        "N10.3",
+        "N10.4"
+      ]
+    },
+    {
+      "id": "P19",
+      "competencia": "Receber retorno e dividir trabalho",
+      "evidencias": [
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+          "secao": "4.8",
+          "titulo": "4.8 Dúvidas e fim da sessão"
+        },
+        {
+          "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+          "secao": "5.6",
+          "titulo": "5.6 Arcos, finais e epílogos"
+        }
+      ],
+      "observacao_editorial": "Perguntas concretas de retorno e tarefas divididas por aceitação.",
+      "estado": "apoio central reescrito; conferência interna",
+      "complementos_posteriores": [
+        "N04.8",
+        "N10.5"
+      ]
+    }
+  ],
+  "casos_previstos": [
+    {
+      "caso": "Negociação com resistência",
+      "secao": "4.3",
+      "evidencia": "Helena recusa disponibilidade irrestrita e avalia outro pedido."
+    },
+    {
+      "caso": "Grupo sem rumo",
+      "secao": "4.4",
+      "evidencia": "Retomar fatos, hipóteses e meios conhecidos sem escolher pelo grupo."
+    },
+    {
+      "caso": "Cena repetida",
+      "secao": "4.6",
+      "evidencia": "Retomar o que foi resolvido e perguntar pelo interesse restante."
+    },
+    {
+      "caso": "Pessoa que participa pouco",
+      "secao": "4.6",
+      "evidencia": "Convidar, respeitar observação e retomar quem foi interrompido."
+    },
+    {
+      "caso": "Grupo separado",
+      "secao": "4.6",
+      "evidencia": "Alternar decisões, preservando tempo, posição e conhecimento."
+    },
+    {
+      "caso": "Encerrar no horário",
+      "secao": "4.8",
+      "evidencia": "Pausa combinada e registro do estado para retomar."
+    },
+    {
+      "caso": "Expectativas diferentes",
+      "secao": "4.6",
+      "evidencia": "Conversa fora da história e ajuste da proposta."
+    }
+  ],
+  "complementos_preservados": [
+    "N07.2: modalidades, vozes e capacidades de personagens",
+    "N08.1: recuperação e tempo entre missões",
+    "N10.1-N10.5: operação da guilda, passagem entre mestres e ferramentas completas de retorno"
+  ],
+  "fora_desta_conclusao": [
+    "Novos capítulos técnicos 6-10 na ordem proposta",
+    "Conjunto completo da etapa 4",
+    "Consolidação das consultas e formulários da etapa 5",
+    "Revisão textual e visual global das etapas 6-7",
+    "Comparação final da etapa 8",
+    "Aprendizagem observada ou equilíbrio certificado"
+  ]
+}

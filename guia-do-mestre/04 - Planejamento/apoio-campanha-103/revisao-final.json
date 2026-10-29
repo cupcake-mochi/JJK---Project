@@ -1,0 +1,66 @@
+{
+  "registro": 103,
+  "pdf_sha256": "a238afffb8c0331cf31b3106e9eb1a46a199f788548f15aa58987975f7be0141",
+  "fonte_sha256": "a460686199ca8521bae6cda3ac99f8fdae6c3a4d83b754b5a9f0443242e594dc",
+  "primeira_passagem_textual": {
+    "estado": "concluída",
+    "escopo": "Fontes e seis seções do capítulo; acordos, escolhas, mundo e regras",
+    "palavras_iniciais_markdown": 2823
+  },
+  "segunda_passagem_textual": {
+    "estado": "concluída",
+    "escopo": "Releitura nas provas e nova leitura após cortes e mudança de campos",
+    "palavras_finais_markdown": 2328,
+    "ajustes": [
+      "Subtítulos simplificados e repetições reduzidas",
+      "Acordo em campos curtos, preservando os seis assuntos",
+      "Nilo identificado como caso separado",
+      "Vera e Sora com objetivos, informação e autoridade coerentes",
+      "Regras de início e Legados conferidas diretamente na referência"
+    ]
+  },
+  "revisao_visual": [
+    {
+      "pagina": 1,
+      "arquivo": "visual-final/p-1.png",
+      "imagem_sha256": "b83e3fcc1d60a77caf1330c18d228a9f25f5383b6f6aad6d063637a2b88edc61",
+      "estado": "inspecionada",
+      "observacao": "Abertura e sessão zero; campos curtos de acordo legíveis e sem tabela longa bloqueando o fluxo."
+    },
+    {
+      "pagina": 2,
+      "arquivo": "visual-final/p-2.png",
+      "imagem_sha256": "d4befc431a9952db448c9ffe796173a6b219f6c246dc5eaf50bf7e7df7c10c36",
+      "estado": "inspecionada",
+      "observacao": "Vínculos e início do arco; parágrafo de orientação permanece com a pergunta que explica."
+    },
+    {
+      "pagina": 3,
+      "arquivo": "visual-final/p-3.png",
+      "imagem_sha256": "09ab21459767f005fe7f00f2491cb92c9ef2537bcfbe665a204b39de197197cc",
+      "estado": "inspecionada",
+      "observacao": "Tabela de condições inteira; facções, pessoas, informação e reações com hierarquia visível."
+    },
+    {
+      "pagina": 4,
+      "arquivo": "visual-final/p-4.png",
+      "imagem_sha256": "04d0e495ed4d0cf3df16463dc5ffd616310353830033277589d48671addc590d",
+      "estado": "inspecionada",
+      "observacao": "Antagonista, desfecho e epílogo; encerramento cabe junto do capítulo, sem página final isolada."
+    }
+  ],
+  "problemas_visuais_conhecidos_pendentes": [],
+  "historico": [
+    "Primeira prova: cinco páginas, com fechamento curto em página isolada",
+    "Redução de repetição e mudança da tabela de acordos para campos curtos",
+    "Tabela de situações mantida inteira; orientação anterior livre para acompanhar o texto",
+    "Prova final: quatro páginas, com a mesma fonte e margens; todas inspecionadas após o último ajuste"
+  ],
+  "limites": [
+    "Conferência editorial interna",
+    "Sem leitura externa observada ou sessão de jogadores",
+    "Sem avaliação de equilíbrio nova",
+    "PDF integrado de 357 páginas preservado",
+    "Etapas 4-8 e capítulos técnicos ainda precisam de desenvolvimento ou consolidação"
+  ]
+}

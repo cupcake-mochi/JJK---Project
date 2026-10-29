@@ -1,8 +1,8 @@
 # A passarela e o guincho
 
-**Perigo experimental da pré-1.0.** Este caso ensina a preparar um perigo que muda com o tempo, apresentar os sinais e conduzir intervenções. Continua [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md), mas é outra situação, sem inimigos. Use a [ficha de encontro](58-ficha-de-inimigo-e-encontro.md) para registrar a aplicação.
+**Perigo experimental da pré-1.0.** Este caso ensina a preparar um perigo que muda com o tempo, apresentar os sinais e resolver as ações do grupo. Continua [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md), mas é outra situação, sem inimigos. Use a [ficha de encontro](58-ficha-de-inimigo-e-encontro.md) para anotar o perigo.
 
-O dano de queda, os saltos, a escalada, as ações e os objetos vêm da R53. **O mecanismo, as posições e a ruptura após três rodadas são escolhas locais deste exemplo**, ainda sujeitas à avaliação. Não existe aqui uma tabela universal de desabamento ou dano por nível. O registro de produção e as conferências estão no [documento 67](<../04 - Planejamento/67-perigo-da-passarela-e-do-guincho.md>).
+O dano de queda, os saltos, a escalada, as ações e os objetos vêm do Livro de Regras 1.0. **O mecanismo, as posições e a ruptura após três rodadas são escolhas deste exemplo**, ainda sujeitas à avaliação. Não existe aqui uma tabela universal de desabamento ou dano por nível.
 
 ## Prepare a situação
 
@@ -10,11 +10,11 @@ Durante a vistoria de uma oficina abandonada, a equipe precisa desligar um guinc
 
 O guincho puxa uma ligação presa indevidamente ao suporte móvel da passarela. Um freio mecânico independente segura o conjunto quando a transmissão é interrompida. Essa propriedade é parte do cenário e pode ser reconhecida pela observação; não significa que cortar qualquer cabo de sustentação seja seguro em outras situações.
 
-Há três resultados distintos: **parar a tração**, **retirar quem estiver em risco** e **interditar a passagem**. Parar o motor não conserta a estrutura. Se ela romper, ainda pode ser necessário desligar o equipamento e prestar socorro. A missão termina quando esses resultados tiverem destino registrado, mesmo que a passarela precise permanecer inutilizada.
+Há três resultados distintos: **parar a tração**, **retirar quem estiver em risco** e **interditar a passagem**. Parar o motor não conserta a estrutura. Se ela romper, ainda pode ser necessário desligar o equipamento e prestar socorro. A missão termina quando você anotar como o grupo resolveu cada uma dessas tarefas, mesmo que a passarela precise permanecer inutilizada.
 
 Confira as fichas reais: deslocamento, Força, meios de voo ou travessia, Reações de proteção contra queda, ferramentas, acesso a ataques contra objetos e socorro. A situação não foi dimensionada como desafio de uma faixa de nível. Um grupo capaz de resolver rapidamente o problema encontrou uma solução válida.
 
-## Desenhe apoios e percursos
+## Desenhe o lugar
 
 O lugar tem dois patamares firmes, Oeste e Leste, separados por um vão. Uma passarela liga suas bordas. Um piso inferior firme fica **6 m abaixo**, iluminado e sem água, fogo ou máquinas sob a área de queda.
 
@@ -46,11 +46,11 @@ Ao chegar à posição inicial, o grupo vê o guincho **ainda parado**, a ligaç
 
 Se alguém acionar o teste, informe antes que o cabo está ligado ao suporte e que há risco de arrancá-lo. A pessoa pode corrigir a declaração. Se seguir, o acionamento é uma manipulação simples, dentro dos limites de Sacar e guardar; resolva seu custo e posição. Inicie a ordem de turnos com o motor começando a tracionar e todos conscientes do ruído. Não cobre uma rodada inteira retroativamente pelo ato de acionar fora do combate.
 
-Role iniciativa como na R53 para organizar os participantes. **A primeira rodada completa depois do acionamento é a rodada 1 do perigo.** Todos recebem seu turno nela, inclusive quem acionou antes da iniciativa. Essa organização inicial é uma convenção local anunciada para o exemplo; ativar uma máquina durante um combate existente exige combinar previamente a contagem a partir daquele momento, sem oferecer outro turno a quem a ligou.
+Role iniciativa como no Livro de Regras 1.0 para organizar os participantes. **A primeira rodada completa depois do acionamento é a rodada 1 do perigo.** Todos recebem seu turno nela, inclusive quem acionou antes da iniciativa. Essa organização inicial é uma escolha anunciada para o exemplo; ativar uma máquina durante um combate existente exige combinar previamente a contagem a partir daquele momento, sem oferecer outro turno a quem a ligou.
 
 Sem ativação, não há contagem secreta. O mestre não liga o motor por conta própria porque o grupo encontrou uma maneira segura de resolver o chamado.
 
-## Escalada e momento de resolução
+## Três rodadas até a ruptura
 
 Use um marcador visível, de **0 a 3**, apenas enquanto a transmissão estiver puxando o suporte. O marcador avança **uma vez ao fim de cada rodada completa**, depois dos turnos e efeitos de fim de turno, com uma única fase ambiental. Turnos extras, entidades, Reações e mudanças de narrador não o avançam novamente.
 
@@ -65,15 +65,15 @@ Use um marcador visível, de **0 a 3**, apenas enquanto a transmissão estiver p
 
 **Intervir no próprio turno da rodada 3 ainda pode impedir a ruptura**, se a ação terminar antes da fase ambiental. Anuncie e resolva a fase separadamente, sem escondê-la entre ações. Não encerre a rodada antes de alguém jogar porque demorou na descrição.
 
-Quando todos estiverem fora de risco e as escolhas imediatas acabarem, pode encerrar a iniciativa. Se o motor continuar ligado, resolva o tempo que ainda falta: sair da iniciativa não interrompe o mecanismo. Como cada rodada tem seis segundos, três rodadas completas representam **18 segundos** neste procedimento. Não cronometre a fala dos jogadores pelo relógio real.
+Quando todos estiverem fora de risco e as escolhas imediatas acabarem, pode encerrar a iniciativa. Se o motor continuar ligado, resolva o tempo que ainda falta: sair da iniciativa não interrompe o mecanismo. Como cada rodada tem seis segundos, três rodadas completas representam **18 segundos** neste exemplo. Não cronometre a fala dos jogadores pelo relógio real.
 
-## Informação e intervenções
+## Como impedir a ruptura
 
 As posições da alavanca, do pino, do apoio inferior e das escadas são visíveis. A tração e os sinais de ruptura são informações da descrição. Não cobre testes para descobrir essas saídas depois de tê-las apresentado.
 
-Se houver dúvida sobre o funcionamento, uma pergunta concreta por **Estudar**, com Investigação **CD 10**, pode identificar o pino que transmite o esforço e a função do freio. Custa Padrão em combate; o teste resolve essa dúvida, sem fornecer controle à distância ou vantagem em todo ataque posterior. A CD é escolha local na escala da R53. Falhar gasta a ação; a alavanca identificada e as rotas continuam conhecidas. Uma descrição evidente ou capacidade que garanta a informação dispensa o teste.
+Se houver dúvida sobre o funcionamento, uma pergunta concreta por **Estudar**, com Investigação **CD 10**, pode identificar o pino que transmite o esforço e a função do freio. Custa Padrão em combate; o teste resolve essa dúvida, sem fornecer controle à distância ou vantagem em todo ataque posterior. A CD é escolha local na escala do Livro de Regras 1.0. Falhar gasta a ação; a alavanca identificada e as rotas continuam conhecidas. Uma descrição evidente ou capacidade que garanta a informação dispensa o teste.
 
-### Operar a parada
+### Desligar o guincho
 
 Ao alcance da alavanca no Leste, com mão disponível, use **Usar objeto, Ação Padrão**, sem teste: é um comando firme e identificado, que exige puxar e sustentar até completar o desligamento. Esse custo de operação é definição do dispositivo neste cenário. Não é apenas recolher ou guardar um item.
 
@@ -87,13 +87,13 @@ A zero PV, o pino deixa de transmitir a tração e o freio segura o conjunto. A 
 
 Errar ou causar menos de 5 de dano não fornece outro ataque além dos que a ficha permitir. Conserve os PV restantes: danos efetivos de 2 e 3 em ocorrências sucessivas quebram a peça. Atributos, crítico e defesas aplicáveis são resolvidos normalmente; não use apenas o número natural do dado como dano.
 
-Feitiços só podem atingir o objeto quando seu texto permitir. Ele ignora efeitos de mente ou alma e Veneno conforme a R53; o tipo de dano de outra capacidade precisa ser adequado ao material. Cortar o cabo que realmente sustenta a passarela é **outro alvo**, com outra consequência física: não recebe o resultado seguro atribuído ao pino de transmissão. Se alguém propuser isso, esclareça a diferença antes do gasto.
+Feitiços só podem atingir o objeto quando seu texto permitir. Ele ignora efeitos de mente ou alma e Veneno conforme o Livro de Regras 1.0; o tipo de dano de outra capacidade precisa ser adequado ao material. Cortar o cabo que realmente sustenta a passarela é **outro alvo**, com outra consequência física: não recebe o resultado seguro atribuído ao pino de transmissão. Se alguém propuser isso, esclareça a diferença antes do gasto.
 
 ### Evitar o trecho móvel
 
 Pode-se usar a rota inferior, saltar inteiramente o vão entre apoios firmes ou empregar uma capacidade apropriada. Não é necessário simular falha para valorizar o mecanismo.
 
-As escadas fixas usam escalada comum: cada 1,5 m custa 3 m de movimento. Andar 15 m e escalar 12 m totaliza **39 m de movimento** na rota inferior. Ter deslocamento de escalada muda o custo conforme a R53. Correr acrescenta metros, mas usa Padrão; se ela foi gasta, não sobra para puxar a alavanca naquele turno. A Bônus pode virar Movimento.
+As escadas fixas usam escalada comum: cada 1,5 m custa 3 m de movimento. Andar 15 m e escalar 12 m totaliza **39 m de movimento** na rota inferior. Ter deslocamento de escalada muda o custo conforme o Livro de Regras 1.0. Correr acrescenta metros, mas usa Padrão; se ela foi gasta, não sobra para puxar a alavanca naquele turno. A Bônus pode virar Movimento.
 
 Saltar o vão de **3 m**, de um apoio firme ao outro, pode dispensar teste: Força 0 já permite essa distância com os **3 m de impulso**; sem impulso, Força 0 ou 1 chega só a 1,5 m, enquanto Força 2 chega a 3 m. Conte impulso e salto no Movimento. Com Força 1 sem impulso, a extensão de 1,5 m pode ser tentada com Atletismo CD 14. Se falhar apenas nesse esforço, alcança sua distância normal e cai por não encontrar apoio. Informe isso antes da rolagem. As bordas estáveis deste cenário são firmes e secas; não acrescente teste de equilíbrio oculto.
 
@@ -105,17 +105,17 @@ Confira quem está efetivamente sustentado pelo trecho removido. Quem já alcan�
 
 Quem cai os 6 m recebe **2d6 de Concussão** pela altura. A queda não é um ataque: não rola acerto e não permite Bloquear. Aplique Vida temporária, resistência a Concussão e outras proteções que realmente alcancem esse dano. Se receber dano de impacto, termina Derrubado. Não acrescente dano de Alma, dano adicional de “desabamento” ou outra ocorrência pelos mesmos seis metros.
 
-Nesta disposição, o trecho bascula preso à lateral, deixando a trajetória de queda livre; o piso inferior sob ele está desocupado na abertura. **Não há soterramento nem ataque de escombros preparado.** Se os jogadores colocarem uma criatura sob outra, use Queda sobre uma criatura da R53 para a possibilidade de impacto, tamanhos e divisão do dano, em vez de duplicar os 2d6. Uma capacidade que retire ou sustente alguém antes da perda de apoio resolve o que efetivamente permitir.
+Nesta disposição, o trecho gira preso à lateral, deixando a trajetória de queda livre; o piso inferior sob ele está desocupado na abertura. **Não há soterramento nem ataque de escombros preparado.** Se os jogadores colocarem uma criatura sob outra, use Queda sobre uma criatura do Livro de Regras 1.0 para a possibilidade de impacto, tamanhos e divisão do dano, em vez de duplicar os 2d6. Uma capacidade que retire ou sustente alguém antes da perda de apoio resolve o que efetivamente permitir.
 
 Ter Reação disponível não concede uma tentativa universal de agarrar a borda ou apanhar um companheiro que já caiu. Preparar responde **depois do gatilho terminar**, com alcance e ação válidos: “quando o pino começar a sair, corro para o patamar” permite uma resposta antes da ruptura; “quando ela cair, seguro antes da queda” não retrocede um impacto já resolvido. Descreva gatilhos que os participantes possam perceber e cumpra seus prazos. Aptidões específicas de proteção conservam seus próprios momentos.
 
-Uma queda de 6 m resolve o impacto imediatamente. Não abra um turno comum no ar para curar ou decidir o destino. Se a queda levar a zero de vida, use as escolhas e procedimentos de [Quedas e socorro](22-quedas-e-socorro.md): **zero de vida, participação, atendimento e derrota são acontecimentos distintos**.
+Uma queda de 6 m resolve o impacto imediatamente. Não abra um turno comum no ar para curar ou decidir o destino. Se a queda levar a zero de vida, siga as regras de [Quedas e socorro](22-quedas-e-socorro.md): **zero de vida, participação, atendimento e derrota são acontecimentos distintos**.
 
-## Socorro, retirada e continuidade
+## Socorrer e retirar o grupo
 
 O piso inferior permite atendimento; chegar até uma vítima ainda exige trajeto, ações e alcance. Quem está em cima deve descer por uma escada ou usar outro meio válido. Não use o fim da contagem como recuperação nem transporte instantâneo.
 
-Uma pessoa que Insiste pode continuar agindo dentro de seus limites. Aguentar, inconsciência ou derrota mudam o que ela pode fazer. A janela de socorro e o dano posterior seguem a R53; não são pausados enquanto outra pessoa busca uma corda. O impacto acontece uma vez por queda, e estar deitado no piso inferior não causa novas parcelas de 2d6 a cada rodada.
+Uma pessoa que Insiste pode continuar agindo dentro de seus limites. Aguentar, inconsciência ou derrota mudam o que ela pode fazer. A janela de socorro e o dano posterior seguem o Livro de Regras 1.0; não são pausados enquanto outra pessoa busca uma corda. O impacto acontece uma vez por queda, e estar deitado no piso inferior não causa novas parcelas de 2d6 a cada rodada.
 
 Para retirar alguém disposto ou inconsciente, conte corpo em kg ÷ 12, itens e equipamento de quem transporta. Ajudar não fornece capacidade ilimitada. A escada vertical não admite o arrasto pelo chão: carregar um corpo nela exige meios de segurá-lo e manter apoios, além dos limites de carga e custo de escalada. Se isso não for executável, não faça uma rolagem para autorizar mãos ou suporte inexistentes. Organize atendimento no piso firme e busque um meio apropriado, como capacidade de transporte compatível ou equipamento de resgate real.
 
@@ -131,7 +131,7 @@ Depois da parada, não ligue o guincho novamente para estender a cena. Uma reati
 
 **Fracasso e resgate.** Se a tração chegar ao terceiro avanço, uma pessoa ainda sobre o trecho móvel cai. Num resultado ilustrativo de 3 e 4, recebe **7 de Concussão**, antes das proteções. Com 10 PV e nenhuma proteção aplicável, termina com 3 PV e Derrubada. Com 5 PV, chega a zero e aplica Vida a zero, sem converter isso em morte automática. O registro marca a queda, posição, socorro e saídas; terminar a tração não conclui o resgate.
 
-## Consulta e fechamento
+## Resumo do perigo
 
 | Campo | Registro pronto para este exemplo |
 |---|---|
@@ -139,14 +139,14 @@ Depois da parada, não ligue o guincho novamente para estender a cena. Uma reati
 | Alvo do risco | Quem depender dos 3 m de apoio móvel no momento da ruptura. |
 | Ritmo | Um avanço ao fim da rodada completa; ruptura no terceiro; uma ocorrência. |
 | Sinal | Cabo tensiona; fixação sai; última fixação deforma; apoio se perde. Prazo informado. |
-| Interrupção | Padrão na alavanca; ou destruir pino adequado, Defesa14/PV5; freio segura. |
+| Interrupção | Padrão na alavanca; ou destruir pino adequado, Defesa 14, 5 PV; freio segura. |
 | Resolução | Queda real de 6 m: 2d6 Concussão, sem Bloquear; Derrubado se sofrer dano do impacto. |
 | Alternativas | Travessia antes da ruptura; salto publicado; rota inferior; habilidade apropriada; retirada. |
 | Encerramento | Tração resolvida, todos fora de risco, socorro encaminhado e acesso interditado. |
 | Continuidade | Marcador alcançado, motor, transmissão, estrutura, posições, recursos, feridos e responsável pela interdição. |
 
-Registre o que aconteceu antes de mudar a descrição de cena. Na guilda, comunique a interdição para a próxima equipe; numa campanha fechada, conserve a mesma informação no diário. O cronograma da ficção, o tempo de consulta, as escolhas dos jogadores e as dúvidas observadas serão informações distintas quando o caso for usado em mesa.
+Registre o que aconteceu antes de mudar a descrição de cena. Na guilda, comunique a interdição para a próxima equipe; numa campanha fechada, conserve a mesma informação no diário. Ao jogar, anote também quanto tempo levou para consultar as regras, quais escolhas o grupo fez e quais dúvidas surgiram.
 
-Esta preparação recebeu conferência documental e de contas. **Não houve teste humano, simulação integral de resgate ou validação de dificuldade.** O prazo de três rodadas é uma proposta de apresentação deste mecanismo, sem adoção como regra geral de perigo. Este caso desenvolve um desfecho por queda. O [procedimento ambiental](78-preparar-perigos-ambientais.md) e a [sala de conservação](79-o-po-na-sala-de-conservacao.md) ampliam a preparação para exposição recorrente e condições persistentes. Outros perigos, como fogo e doenças prolongadas, ainda precisam de exemplos próprios.
+As regras e as contas desta preparação foram conferidas. **Não houve teste humano, simulação integral de resgate ou validação de dificuldade.** O prazo de três rodadas é uma proposta de apresentação deste mecanismo, sem adoção como regra geral de perigo. Este caso desenvolve um desfecho por queda. O [preparo de perigos ambientais](78-preparar-perigos-ambientais.md) e a [sala de conservação](79-o-po-na-sala-de-conservacao.md) ampliam a preparação para exposição recorrente e condições persistentes. Para uma doença prolongada, consulte [A febre dos fios](103-a-febre-dos-fios.md). Perigos como fogo ainda precisam de exemplos próprios.
 
-Para comparar os procedimentos fora deste perigo, consulte [Percursos, apoios e quedas](84-percursos-apoios-e-quedas.md): esforço e risco no mesmo salto, passagem com equipamento e queda sobre criatura dentro e fora da faixa de tamanhos. Os novos casos têm cenários próprios; não acrescentam correnteza, piso escorregadio ou vítimas à passarela deste piloto.
+Para comparar essas regras em outras situações, consulte [Movimento, saltos e quedas](84-percursos-apoios-e-quedas.md): esforço e risco no mesmo salto, passagem com equipamento e queda sobre criatura dentro e fora da faixa de tamanhos. Os novos casos têm cenários próprios; não acrescentam correnteza, piso escorregadio ou vítimas à passarela deste piloto.

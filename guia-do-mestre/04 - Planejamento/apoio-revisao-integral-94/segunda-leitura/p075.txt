@@ -1,0 +1,96 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Ocorrência
+Efeito na janela
+Golpe que levou a zero, inclusive seu excesso
+Inicia a queda; o excesso não tira outra rodada
+Dano posterior reduzido a zero
+Não consome rodada
+Dano posterior inteiramente absorvido pela vida
+temporária
+Não consome rodada
+Dano posterior positivo que chega à vida
+Consome uma rodada por ocorrência
+O dano posterior não apaga tratamento recebido
+nem aumenta o tratamento necessário. Se restam
+duas rodadas e o personagem acumula 18 de
+tratamento para um requisito de 31, um golpe
+posterior que alcance a vida deixa uma rodada.
+Continuam faltando 31 - 18 = 13 de tratamento.
+A cura insuficiente também não renova a janela.
+Acompanhar o tratamento e o tempo em campos
+diferentes evita confundir avanço do tratamento
+com aumento do prazo.
+Quanto falta para se recuperar
+Confira de onde vem a cura, a ação que ela exige,
+seu alcance, seus alvos e se funciona naquele corpo.
+Impedimentos como Sem Cura continuam valendo;
+uma cura impedida não fica guardada para depois
+nem entra no total. Vida temporária não é
+tratamento.
+Some toda cura válida recebida durante Morrendo,
+inclusive de fontes e turnos diferentes. Quando
+alcançar o necessário, encerre Morrendo e converta
+todo o tratamento acumulado em vida, até o
+máximo atual. Não subtraia o requisito como custo.
+Exemplo: com máximo de referência 23, o primeiro
+Insistir pede 8. O personagem recebe 5 de cura e
+depois mais 4. O total é 9: encerra Morrendo com 9
+de vida, limitado pelo máximo atual, e recebe uma
+Sequela. Não fica com apenas 1.
+Sair de Morrendo encerra a contagem daquela
+queda. A inconsciência causada apenas por
+Aguentar termina com esse socorro. Outras
+condições continuam por suas regras; o
+personagem não fica automaticamente de pé nem
+recupera ações gastas.
+Uma habilidade que remove condições só encerra
+Morrendo se disser isso expressamente. Uma
+capacidade que diga expressamente permitir sua
+saída abaixo do tratamento necessário conserva
+essa permissão, com custos, alvos, frequência e
+impedimentos próprios. Essa exceção não reabre
+participação depois de Derrotado, salvo se também
+autorizar expressamente esse resultado.
+Estabilizar
+Para Estabilizar, o alvo precisa estar Inconsciente e
+Morrendo. Quem atende deve estar a até 1,5 m, com
+acesso físico, uma mão livre e meios adequados.
+Gaste uma Ação Padrão e faça Medicina CD 14.
+Para corpo construído, use o Ofício compatível em
+lugar de Medicina, respeitando seus requisitos.
+No sucesso, a pessoa fica estável: o tempo para de
+diminuir a janela. Ela não cura, não acorda, não
+reduz o requisito e conserva o tratamento
+acumulado e as rodadas restantes. Na falha, a ação
+foi gasta; outra tentativa é possível enquanto
+houver tempo.
+Se dano positivo alcançar a vida, a estabilidade
+termina e uma rodada é consumida. Marque esse
+novo ponto para contar as rodadas, com a janela
+que restar. Estabilizar novamente não devolve
+rodadas.
+Depois de sair do perigo, uma pessoa estável que
+conclua um descanso curto recupera 1 de vida e
+encerra Morrendo, com uma Sequela. Some o
+tratamento válido anterior a esse ponto, até o
+máximo atual; impedimentos de cura continuam
+valendo. Essa é uma saída especial, mesmo abaixo
+do requisito.
+Caso separado para comparação: uma personagem
+de máximo 93, no primeiro Insistir, precisa de 31 e
+já recebeu 18 de tratamento. Ela passa para
+Aguentar e é estabilizada enquanto ainda tem
+janela. Sem novo dano e depois de sair do perigo,
+conclui o descanso curto com atendimento
+compatível e sem impedimento de cura. Encerra
+Morrendo com 18 + 1 = 19 de vida, até o máximo
+atual, e uma nova Sequela. O exemplo mostra a
+saída excepcional, não uma cura comum que tenha
+alcançado 31.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+75

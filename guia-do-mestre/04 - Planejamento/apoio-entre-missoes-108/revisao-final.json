@@ -1,0 +1,85 @@
+{
+  "registro": 108,
+  "pdf": "04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf",
+  "pdf_sha256": "213f0ad5168e6af39c4a353b0295edc8c0ce9ba8087d9976a46b271c7ad2b647",
+  "fonte_sha256": "60f064d3ebbd61070d247c82cfa62e1897b0066a82b9addb9b174218b36818cd",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Redação comparada aos textos centrais 34–40, casos 96–99 e trechos de regras pertinentes; leitura das sete páginas da primeira prova.",
+      "resultado": "Seis assuntos reunidos, distinções entre trabalho, espera, descanso, XP e salário preservadas. Identificadas fórmulas partidas na tabela de XP e enumeração extensa de salários."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Pente fino de clareza, títulos, condições, contas e remissões; leitura das sete páginas finais.",
+      "ajustes": "Concessão substituída por horas novas ou recebidas; limite de 56 horas explícito; Anel sem aviso remoto; tabela de XP em duas colunas com contas inteiras; salários em tabela; recompensa por mestrar em parágrafo próprio."
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "contas_conferidas": 30,
+  "trechos_de_regras_conferidos": 20,
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-1.png",
+      "imagem_sha256": "91839f2a2446c1ad7172c8ee37f5048d694aa7e783c9308a43beb04d8ad56409",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Abertura, rotina e descanso em duas colunas. Duas tabelas inteiras, com cabeçalhos e exemplos legíveis. Título Descansar e se recuperar direto. Continuação da consulta segue na página 2 sem corte de texto ou rodapé."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-2.png",
+      "imagem_sha256": "3471c430926008b9f44076a49790fc4e3f3048f1d2048b1e3005867f12b0040d",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Ciclo de sete dias, horas por ficha, entrada e afastamento legíveis. Tabela de saldo inteira; limite de 56 horas explícito. Conta de entrada proporcional fica numa linha. Espaço final de coluna não cria página residual."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-3.png",
+      "imagem_sha256": "39c2c3693bf4c1c99db10fcc62049dfec77877d6dd2c58339a985c05294c6d73",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Progresso e pendências à esquerda; Ofícios à direita. Cálculo de atributo e Maestria inteiro. Tabela do projeto inteira, com requisitos e risco. Seção 8.3 abre com texto suficiente, sem título isolado."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-4.png",
+      "imagem_sha256": "96d0fe365dd84759677d9642eca17d29d323e7dba442097efd20eb619842ce59",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Rotina e falha de fabricação, reparo de Rina e ajuda à esquerda. Acesso e compras à direita, com tabela inteira. Custos, referências de projetos e termos de empréstimo legíveis, sem sobreposição."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-5.png",
+      "imagem_sha256": "101a0b3c3998980d873d0e2843ea0b51c69078564c1316f527ed529612e26288",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Empréstimo, serviço e ferramenta em fluxo contínuo. Tabela de níveis no topo da coluna direita, sem ser cortada. Distinções de usos, cópias, identificação e fabricação legíveis. Anel começa com um parágrafo completo antes da mudança de página."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-6.png",
+      "imagem_sha256": "4892d0456053e2e78a7aced99eda6dd684214b46b12485b3684c935cb06fe4e7",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Anel, Desgaste e objeto perigoso à esquerda. Recompensas e XP à direita; tabelas inteiras. Tabela de XP em duas colunas mantém cada expressão matemática inteira; arredondamento e falha com metade são distinguíveis."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-entre-missoes-108/visual-final/p-7.png",
+      "imagem_sha256": "5b70e8b437072156addf99b697ebaefa5612c869cbf90f50eb6b0fcbae5e866e",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Nível, Limiar e patente à esquerda, com tabela completa de salários. Participações e registro final à direita. Fórmula de 75% fica inteira e as três contagens estão separadas. Área livre abaixo do fecho é de fim de capítulo; sem página residual."
+    }
+  ],
+  "limites": [
+    "Amostra isolada; integração e revisão global do livro ainda pendentes.",
+    "Treinamentos conservam o escopo decidido; nenhuma retomada de parâmetros descartados de Reserva.",
+    "Anel, Pastilha e condições comerciais continuam exemplos locais, sem adoção como regra geral.",
+    "Sem leitura externa, sessão humana ou comprovação de equilíbrio."
+  ]
+}

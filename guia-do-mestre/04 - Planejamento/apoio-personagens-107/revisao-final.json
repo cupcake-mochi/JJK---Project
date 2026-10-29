@@ -1,0 +1,84 @@
+{
+  "registro": 107,
+  "pdf": "04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf",
+  "pdf_sha256": "83b45b1e80fa097ea6eae91cf44a85dd809a048da65eab4a0f17c265a014305d",
+  "fonte_sha256": "cac3a71a3367206bad131ae83cc1ba9bf6e4902d8827ced9e8ce3c49c10c04c9",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Nova redação comparada às fontes 25–33 e 89–95 e às regras pertinentes; leitura das sete páginas da primeira prova.",
+      "resultado": "Método e casos separados, escolhas autorais preservadas; identificados espaço na abertura, remissões partidas e fórmula quebrada."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Pente fino das sete páginas: clareza, contas, requisitos, consequências, títulos e remissões.",
+      "ajustes": "Abertura e primeira tabela compactadas; referências e fórmulas curtas inteiras; subtítulos simplificados; título e introdução sobre nível mantidos juntos. As sete páginas da prova 2 foram lidas; páginas 3, 4 e 7 reabertas após ajuste final, demais páginas confirmadas idênticas por pixels."
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "trechos_de_regras_conferidos": 19,
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-1.png",
+      "imagem_sha256": "b152cbce84915e24de8b379be668283c24464c502b8aeeb00332e87eba980eb7",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada na prova 2; identidade de pixels da renderização final conferida",
+      "observacao": "Abertura mais curta; tabela de conferência inteira na coluna esquerda, sem o vazio excessivo da primeira prova. Conta de atributos inteira; títulos, texto e rodapés legíveis."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-2.png",
+      "imagem_sha256": "0cc13af0b65024a7617a592481b6b7d3a1188b270bb7dcbe7f8ca18900269b34",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada na prova 2; identidade de pixels da renderização final conferida",
+      "observacao": "Receptáculo e Encarnado à esquerda; reparo e cuidados à direita. Referência à ficha de convivência fica inteira. Exemplo de Ena e distinções de reparo/socorro legíveis, sem sobreposição."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-3.png",
+      "imagem_sha256": "ad6b19ca7fd3d18a025f1eb061432f0cde4dfbb58c0e0f9d8e91ecb5672cc87f",
+      "inspecionada": true,
+      "metodo": "Imagem final inspecionada diretamente",
+      "observacao": "Tabela de cuidados inteira; vínculo remoto e alcance separados. Título Combinar os limites mais direto; quatro campos de Reserva inteiros e consulta sem quebra. Personalização e vida rolada conservam hierarquia."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-4.png",
+      "imagem_sha256": "141b8c8beb8371603dd914c60e9adbf7ee22fc0500e98f87ccb4d9bac4444e92",
+      "inspecionada": true,
+      "metodo": "Imagem final inspecionada diretamente",
+      "observacao": "Tabela das aquisições inteira e título Como obter a capacidade direto. Ordem de conferência e exemplo por Toque legíveis; a fórmula 3 − 0 + 0 = 3d8 permanece numa linha."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-5.png",
+      "imagem_sha256": "7cc5bc2c2955405055faf5550494e93e4564d69c33aea353f7303fd3775d27e9",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada na prova 2; identidade de pixels da renderização final conferida",
+      "observacao": "Continuação do exemplo e fórmula com Precisão inteiras. Tabela de Liberação e Técnica Máxima inteira, com três colunas legíveis. Exemplos de dano, custo e faixa de Máxima próximos da comparação."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-6.png",
+      "imagem_sha256": "4a1d54e5ad0aa42cb08d09b6f37662206b8fc55f84bf97b9e5bf18452034bd23",
+      "inspecionada": true,
+      "metodo": "Imagem inspecionada na prova 2; identidade de pixels da renderização final conferida",
+      "observacao": "Domínio em fluxo de duas colunas, com requisitos e efeitos separados. CE4 e cancelamento legíveis. Tabela de resultados da avaliação inteira; começo da seção final com texto suficiente."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-personagens-107/visual-final/p-7.png",
+      "imagem_sha256": "fc8ce8bd288f1fdce52e6b6bc74cd002f78e35b8f54aab0251ac5500a5552aa4",
+      "inspecionada": true,
+      "metodo": "Imagem final inspecionada diretamente",
+      "observacao": "Restrições à esquerda e Ao subir de nível no topo direito. Título e primeira explicação mantidos juntos. Exemplo 40/25 para 48/33 legível; espaço após encerramento é de fim de capítulo, sem página residual."
+    }
+  ],
+  "pendencia_preservada": "CD 16 do caso experimental Arata, fonte 89, a conferir separadamente; não reproduzida como escala geral.",
+  "limites": [
+    "Amostra isolada; integração do livro ainda pendente.",
+    "Não foram criados benefícios de treinamento ou retomados parâmetros descartados de Reserva.",
+    "Sem leitura externa, sessão humana ou validação de equilíbrio."
+  ]
+}

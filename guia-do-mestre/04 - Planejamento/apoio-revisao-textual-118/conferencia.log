@@ -1,0 +1,73 @@
+{
+  "registro": 118,
+  "pdf_sha256": "8deb8ecc3111f558182c32395e568119455601a2837a98c6edd6f35a6f1e5e08",
+  "casos_conferidos": [
+    {
+      "id": "s084",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+      "numeros_preservados": true,
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s085",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "numeros_preservados": true,
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s022",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s023",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+      "numeros_preservados": true,
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s081",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+      "numeros_preservados": true,
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 23,
+  "rotulos_simplificados": {
+    "⌈44 ÷ 3⌉ = 15": "44 ÷ 3, para cima = 15",
+    "no entrada limpa.": "na entrada limpa.",
+    "Providência aceita no exemplo": "O que mudar no registro",
+    "Responsável e momento": "Quem faz e quando",
+    "Resultado a conferir": "O que conferir depois",
+    "Houve uma escolha de Insistir nesta cena, cujo prazo próprio deve ser respeitado.": "Houve uma escolha de Insistir nesta cena; conserve essa contagem até a cena terminar.",
+    "Quem conduzir a próxima aplicação, durante o preparo.": "Quem mestrar a próxima sessão, durante o preparo.",
+    "O destinatário localiza fonte, prazo e próxima tentativa sem pedir nova reconstrução?": "Quem recebe encontra a fonte, o prazo e a próxima tentativa sem precisar refazer as contas?"
+  },
+  "links_locais_conferidos": 420,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 10,
+  "casos_pendentes": 49,
+  "lotes_pendentes": 12,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "manejo_de_combate": "Escolha de Força para o dano explicitada; conta original preservada.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

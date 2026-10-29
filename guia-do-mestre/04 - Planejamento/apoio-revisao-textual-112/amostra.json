@@ -1,0 +1,140 @@
+{
+  "registro": 112,
+  "fontes": [
+    {
+      "id": "c00",
+      "fonte": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "titulo": "Como usar este livro",
+      "sha256": "e57a7ea5106f9da38b6abc505e34f920ac84b36c863bd7520ba83b980926a871"
+    },
+    {
+      "id": "c01",
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "titulo": "Sua primeira missão",
+      "sha256": "633c3e83f0ecc2493afb1bfbb341c2e29659c1508c3e040098428b4dd4f9a3e4"
+    },
+    {
+      "id": "c02",
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "titulo": "O mundo dos feiticeiros",
+      "sha256": "5512a6300c8f22c81c731bbe20a756ced4bc52ba7992fab7852faf0dc16698a1"
+    },
+    {
+      "id": "c03",
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "titulo": "Preparar aventuras",
+      "sha256": "663fea4d636c584ab4950080e42baa7f2f5793472117142168634910be0cff56"
+    },
+    {
+      "id": "c03a",
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "titulo": "Ideias para aventuras",
+      "sha256": "0a1fcf249ee8697110364c51eb31d00893bde16ce164d49944527579a08e9855"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+  "html_sha256": "3845d40b3042bffd79e1dbc07909d245a48fc592574c236b25bf9ff2c9037217",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-112/output/pdf/Ciclo-Maldito-Abertura-e-Capitulos-1-a-3-Revisao-Textual.pdf",
+  "pdf_sha256": "31bae7ab6b7960b2350817994af0b2e8ccba327f07cea8fa11bfa09165a788f5",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 477
+    },
+    {
+      "pagina": 2,
+      "palavras": 632
+    },
+    {
+      "pagina": 3,
+      "palavras": 438
+    },
+    {
+      "pagina": 4,
+      "palavras": 319
+    },
+    {
+      "pagina": 5,
+      "palavras": 576
+    },
+    {
+      "pagina": 6,
+      "palavras": 671
+    },
+    {
+      "pagina": 7,
+      "palavras": 678
+    },
+    {
+      "pagina": 8,
+      "palavras": 675
+    },
+    {
+      "pagina": 9,
+      "palavras": 611
+    },
+    {
+      "pagina": 10,
+      "palavras": 335
+    },
+    {
+      "pagina": 11,
+      "palavras": 394
+    },
+    {
+      "pagina": 12,
+      "palavras": 618
+    },
+    {
+      "pagina": 13,
+      "palavras": 692
+    },
+    {
+      "pagina": 14,
+      "palavras": 611
+    },
+    {
+      "pagina": 15,
+      "palavras": 565
+    },
+    {
+      "pagina": 16,
+      "palavras": 639
+    },
+    {
+      "pagina": 17,
+      "palavras": 660
+    },
+    {
+      "pagina": 18,
+      "palavras": 697
+    },
+    {
+      "pagina": 19,
+      "palavras": 543
+    },
+    {
+      "pagina": 20,
+      "palavras": 570
+    },
+    {
+      "pagina": 21,
+      "palavras": 677
+    },
+    {
+      "pagina": 22,
+      "palavras": 642
+    },
+    {
+      "pagina": 23,
+      "palavras": 487
+    },
+    {
+      "pagina": 24,
+      "palavras": 506
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "limite": "Prova parcial da revisão textual; não substitui o PDF integrado nem conclui a etapa 6 ou 7."
+}

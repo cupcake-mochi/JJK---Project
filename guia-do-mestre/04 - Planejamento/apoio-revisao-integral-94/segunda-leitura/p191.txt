@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Confira a capacidade passo a
+passo
+1. Acesso e funcionamento
+Confira nível, Classe disponível, escolhas ocupadas,
+Regra, Famílias, rota e requisitos específicos. Uma
+Família Fechada continua impedindo sua função
+quando ela recebe outra aparência. “Costurar
+ferimentos com fios” ainda exige acesso à cura
+direta.
+Separe os benefícios independentes. Se o poder
+identifica uma pessoa, informa sua posição e
+permite atacá-la sem visão, há três resultados a
+examinar. Um nome único não resolve as
+permissões dos três.
+2. Custos e limites
+Para uma montagem pessoal comum, confira
+pontos, base, Forma, Melhorias, descontos e
+devoluções. Depois confira os limites de cada
+função. Sobras não aumentam automaticamente
+uma parede, um bônus ou a duração de uma
+condição.
+Uma devolução só aproveita pontos gastos em
+Melhorias, dentro do teto compartilhado de 2 ×
+Classe. A base e a Forma ficam fora dessa
+compensação. Uma restrição que repita algo já
+obrigatório não devolve pontos por essa parte.
+Em uma proposta própria, escolha referências pela
+função. Compare a força do efeito, ação, alvos,
+distância, duração, frequência e formas de resistir
+ou encerrar. Anote o que a proposta oferece a mais
+e o que exige a mais. Ter o mesmo custo em PE não
+basta para tornar dois efeitos equivalentes.
+O mestre define o preço do Efeito Próprio pela
+avaliação prevista no Livro de Regras 1.0. Se uma
+Família representar sua função, registrem essa
+escolha para acesso e desconto. Se nenhuma servir,
+registrem preço integral, sem desconto de Família.
+Uma redução específica de pontos ou de espaço
+autorizada pelo mestre deve constar da avaliação,
+com sua justificativa e alcance.
+3. Um exemplo de uso
+Escreva uma utilização com os valores da ficha.
+Confira quem paga, em qual momento e o que
+ocorre no acerto, no erro ou no sucesso do TR.
+Ataque usa o atributo da técnica e Maestria; a CD
+comum é 8 + atributo + Maestria. O TR
+correspondente ao efeito fica escolhido na criação.
+Registre duração e saída. “Uma rodada”, sem
+momento mais específico, termina no começo do
+próximo turno do usuário. Uma duração vinculada
+ao turno do alvo mantém esse momento. Verifique
+Concentração e as saídas próprias da peça.
+Confira também o turno inteiro. A ação de uma
+capacidade e o limite de conjuração são requisitos
+diferentes. Converter ações não permite conjurar
+repetidamente acima da Classe 0 no mesmo turno.
+4. Limites e combinações
+Escolha um caso provável da campanha. A cura
+encontra alguém Morrendo? A parede bloqueia a
+única passagem? O efeito informativo é usado num
+objeto sem o vestígio procurado? Resolva com a
+ficha escrita.
+Depois combine a capacidade com uma escolha que
+o personagem realmente possui. Procure benefícios
+que eliminem todas as dificuldades de uma
+Restrição, repetições indevidas ou uma concessão
+de ação escondida no texto. Essa conferência deve
+refletir a ficha concreta, sem exigir que todo
+jogador catalogue todas as combinações do livro.
+Uma capacidade de informação merece atenção
+mesmo sem dano. Descobrir automaticamente o
+autor de qualquer vestígio pode resolver o problema
+central de muitas missões. Avalie a frequência
+nesse tipo de campanha e a informação exata
+entregue.
+Explique a decisão
+Diga primeiro o que acontece com o pedido e
+explique o motivo com a referência pertinente.
+Resultado
+Como comunicar
+A ficha atende às regras.
+“Pode registrar esta versão: aqui estão ação, custo, resultado e
+limite.”
+A ideia cabe, mas falta informação.
+“Precisamos definir quando termina; sem isso a próxima mesa não
+saberá encerrar o efeito.”
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+191

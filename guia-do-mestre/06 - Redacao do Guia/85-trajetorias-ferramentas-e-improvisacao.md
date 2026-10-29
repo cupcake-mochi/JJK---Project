@@ -1,12 +1,12 @@
-# Trajetórias, ferramentas e improvisação
+# Ferramentas e improvisação
 
-Use estes casos para conferir a direção de um ataque, preparar equipamentos e resolver o uso de um objeto fora de sua função habitual. Eles complementam [Espaço e usos criativos](11-espaco-e-usos-criativos.md) e [Percursos, apoios e quedas](84-percursos-apoios-e-quedas.md).
+Use estes casos para conferir a direção de um ataque, preparar equipamentos e resolver o uso de um objeto fora de sua função habitual. Eles complementam [O cenário e as ideias dos jogadores](11-espaco-e-usos-criativos.md) e [Movimento, saltos e quedas](84-percursos-apoios-e-quedas.md).
 
-As situações são independentes dos pilotos. As capacidades e procedimentos vêm da R53; dificuldades de cenário, objetos comparados e riscos anunciados pertencem a estes exemplos. **CD** significa Classe de Dificuldade. Os números das fichas são recortes para ensinar a resolução.
+As situações são exemplos separados. As habilidades e regras vêm do Livro de Regras 1.0; dificuldades de cenário, objetos comparados e riscos anunciados pertencem a estes exemplos. **CD** significa Classe de Dificuldade. Os exemplos usam apenas os valores da ficha necessários para explicar cada ação.
 
-## Ricochete e a direção da cobertura
+## Ricochete
 
-Sora é Incursora da Trilha Malabarista e possui Ricochete. Está no próprio turno, tem a Ação Padrão disponível, uma Fluidez guardada e um **Chakram já na mão**. Percebe o alvo, não está junto de outro inimigo e não há outras fontes de vantagem ou desvantagem neste recorte.
+Sora é Incursora da Trilha Malabarista e possui Ricochete. Está na sua vez, tem a Ação Padrão disponível, uma Fluidez guardada e um **Chakram já na mão**. Percebe o alvo, não está junto de outro inimigo e não há outras fontes de vantagem ou desvantagem neste exemplo.
 
 O Chakram usa uma mão e tem faixas de **6 m e 18 m**. Um alvo com Defesa 14 está protegido de Sora por uma mureta, com Cobertura Parcial. Pela direção direta, sua Defesa seria **14 + 2 = 16**.
 
@@ -19,7 +19,7 @@ Há uma parede sólida ao lado. Sora indica um ponto a **6 m** de sua posição;
 | Alvo | Coluna 4, linha 4 |
 | Mureta | Junto da coluna 2, linha 2, protegendo da direção direta; sem bloquear os dois trechos do ricochete |
 
-A disposição da mureta deve deixar o alvo perceptível. Não transforme o exemplo de Cobertura Parcial em uma parede que bloqueia toda a visão. As medidas usam a convenção da R53: cada passo adjacente, inclusive diagonal, mede 1,5 m.
+A disposição da mureta deve deixar o alvo perceptível. Não transforme o exemplo de Cobertura Parcial em uma parede que bloqueia toda a visão. As medidas usam a convenção do Livro de Regras 1.0: cada passo adjacente, inclusive diagonal, mede 1,5 m.
 
 Sora escolhe alvo e ponto **antes do dado**, gasta a Fluidez e usa a **Ação Atacar**. Ricochete modifica esse ataque; não concede outro. As faixas do percurso completo aumentam uma vez em 6 m:
 
@@ -29,11 +29,11 @@ Sora escolhe alvo e ponto **antes do dado**, gasta a Fluidez e usa a **Ação At
 
 Não há desvantagem por distância nesse percurso. A cobertura é determinada pelo **último trecho**, da parede até o alvo. Como esse trecho chega pelo lado livre, a mureta não dá seus +2; a Defesa usada é **14**.
 
-O alvo escolhe manter sua Defesa normal antes da rolagem. Sora tem Destreza 4 e Maestria 1: ataque **+5**. Dado 9 + 5 = **14**, um acerto. O Chakram causa 1d4 Cortante; com Força 2 e resultado 3 no dado, causa **3 + 2 = 5 de dano**, antes de eventuais defesas. Fineza não troca Força por Destreza no dano do arremesso.
+O alvo decide usar sua Defesa normal antes da rolagem. Sora tem Destreza 4 e Maestria 1: ataque **+5**. Dado 9 + 5 = **14**, um acerto. O Chakram causa 1d4 Cortante; com Força 2 e resultado 3 no dado, causa **3 + 2 = 5 de dano**, antes de eventuais defesas. Fineza não troca Força por Destreza no dano do arremesso.
 
 A arma fica onde o ataque a deixou; não retorna à mão. Neste exemplo, Sora ainda não tinha obtido Fluidez entre o começo deste turno e o próximo, então esse acerto permite recuperá-la. Ela precisou possuir e gastar a Fluidez antes do ataque para realizar o ricochete.
 
-### Confira os dois trechos
+### Compare os percursos
 
 Estes são percursos alternativos para uma arma com faixas originais 6/18 m. Cada um ainda precisaria de superfície, alvo percebido e caminho livre:
 
@@ -47,13 +47,13 @@ Estes são percursos alternativos para uma arma com faixas originais 6/18 m. Cad
 
 Uma parede que bloqueie um dos trechos continua impedindo o ataque. Se a cobertura também proteger da direção final, aplique-a normalmente. O ricochete resolve um único ataque contra o alvo; não exige atacar a parede e não ignora o bloqueio só por mudar de direção.
 
-## Instalar uma corda e preparar o kit
+## Instalar uma corda
 
 Uma equipe precisa descer **6 m** até uma plataforma de manutenção. Há um apoio acessível e firme junto à borda. Antes do preparo, o mestre confirma que ele suporta a carga da pessoa com seu equipamento e que corda e kit são adequados ao percurso.
 
 Mina deixa as armas guardadas e mantém **duas mãos disponíveis**. Dedica **um minuto** à instalação acessível: prende a corda e prepara a ligação do arnês ao ponto firme. É um nó simples, fora de perigo, portanto não há teste. Se a instalação exigisse trabalho difícil, o mestre indicaria o ofício adequado, a CD e o risco antes da tentativa.
 
-A ligação já está pronta quando Mina começa a descer. Descer com apoio e controle usa Escalar: sem deslocamento especial, **6 m físicos custam 12 m de movimento**. Em turnos, ela precisaria de movimento suficiente, usando seus recursos próprios; fora de combate, acompanhe o tempo pertinente. O kit não fornece uma descida gratuita.
+A ligação já está pronta quando Mina começa a descer. Descer com apoio e controle usa Escalar: sem deslocamento especial, **6 m físicos custam 12 m de movimento**. Em turnos, ela precisaria de movimento suficiente, usando seus recursos próprios; fora de combate, acompanhe o tempo necessário. O kit não fornece uma descida gratuita.
 
 Neste exemplo, a folga máxima deixada permite uma queda de **1,5 m** antes de a corda sustentá-la. Se perder o apoio, fica suspensa nesse limite, enquanto a instalação suportar a carga. Essa altura não causa dano pela regra comum de queda. Ainda será necessário retomar um apoio ou receber ajuda para continuar.
 
@@ -61,7 +61,7 @@ Com 3 m ou mais de queda efetiva, a altura já entraria no cálculo de dano. Nã
 
 Soltar uma conexão acessível é uma manipulação simples. Instalar outro ponto exige o preparo novamente. Registre apoio usado, ligação e folga; “está com kit” não descreve tudo isso.
 
-## Uma fechadura, uma tentativa completa
+## Abrir uma fechadura
 
 Às **16h00**, Emi está diante de uma fechadura mecânica reforçada. Tem treino em Arrombamento, Destreza 4, Maestria 1, gazuas apropriadas e duas mãos livres. A lanterna já está apoiada numa posição que ilumina o mecanismo, sem ocupar uma dessas mãos.
 
@@ -69,25 +69,25 @@ A referência publicada é **CD 18**, com **um minuto por tentativa**. O mestre 
 
 Emi escolhe tentar. Seu bônus é **4 + 1 = +5**. Com dado 12, soma **17**, falhando. Às **16h01**, a porta permanece trancada e o vigia ouviu o estalo. As gazuas continuam utilizáveis. O mestre passa a conduzir a resposta do vigia; não precisa mantê-lo parado enquanto Emi insiste.
 
-Se Emi ainda tiver oportunidade de fazer outra tentativa, ela exigirá **outro minuto inteiro**. Num ramo em que consegue esse tempo e tira 13, o total é **13 + 5 = 18**: a fechadura abre às **16h02**. A primeira falha não concede vantagem nem destrói ferramentas automaticamente.
+Se Emi ainda tiver oportunidade de fazer outra tentativa, ela exigirá **outro minuto inteiro**. Se conseguir esse tempo e tirar 13, o total é **13 + 5 = 18**: a fechadura abre às **16h02**. A primeira falha não concede vantagem nem destrói ferramentas automaticamente.
 
 Se o grupo usar um pé de cabra numa fresta adequada, estará tentando forçar a estrutura: **Ação Padrão e Atletismo**, contra a CD daquele obstáculo. A ferramenta não dá vantagem automática, e a dificuldade não precisa ser igual à da fechadura. Gazuas mecânicas também não se tornam equipamento de acesso eletrônico.
 
-## Conter exige mais do que vencer um agarrão
+## Algemas e cordas
 
-Depois de uma luta, o grupo pretende colocar algemas num adversário humano que permanece inconsciente durante todo o procedimento. O material é compatível com seus pulsos. Haru tem duas mãos livres e acesso a eles: dedica **um minuto** e conclui a contenção.
+Depois de uma luta, o grupo pretende colocar algemas num adversário humano que permanece inconsciente durante todo o minuto necessário. O material é compatível com seus pulsos. Haru tem duas mãos livres e acesso a eles: dedica **um minuto** e conclui a contenção.
 
-Se o adversário voltasse a resistir antes do fim, não haveria algema concluída por essa tentativa. Estar somente Agarrado, Derrubado, Atordoado ou com Guarda Aberta não satisfaz o requisito. Uma forma corporal sem pulsos compatíveis também exigiria outro meio adequado, em vez de aproveitar automaticamente a algema do catálogo.
+Se o adversário voltasse a resistir antes do fim, a tentativa não teria terminado de prendê-lo. Estar somente Agarrado, Derrubado, Atordoado ou com Guarda Aberta não satisfaz o requisito. Uma forma corporal sem pulsos compatíveis também exigiria outro meio adequado, em vez de aproveitar automaticamente a algema do catálogo.
 
 Com as mãos presas, o adversário não pode empunhar armas nem manipular itens com elas. Ainda pode andar, falar e usar capacidades que não dependam dessas mãos. A algema não suprime Pontos de Energia (PE) nem impede todo feitiço.
 
 Para abrir a algema comum, uma chave acessível usa manipulação simples. Gazuas seguem **CD 14, um minuto e duas mãos**, se alguém realmente conseguir manipulá-las. Romper a algema pela força usa **Ação Padrão e Atletismo CD 24**; mãos presas não impedem essa tentativa. Com bônus +5 e dado 18, o total **23** falha e a algema permanece; com dado 19, o total **24** a rompe.
 
-Cordas têm outro procedimento: escapar por Acrobacia usa Padrão e CD 14; romper por Atletismo usa Padrão e CD 20. Uma lâmina adequada pode cortar uma corda acessível com Padrão, sem causar dano automático ao prisioneiro. Os [casos do Carregador](62-o-carregador-e-o-corredor-de-entulho.md) desenvolvem a contenção e o transporte após o confronto.
+Cordas seguem outras regras: escapar por Acrobacia usa Padrão e CD 14; romper por Atletismo usa Padrão e CD 20. Uma lâmina adequada pode cortar uma corda acessível com Padrão, sem causar dano automático ao prisioneiro. Os [casos do Carregador](62-o-carregador-e-o-corredor-de-entulho.md) desenvolvem a contenção e o transporte após o confronto.
 
-## Objeto semelhante a uma arma
+## Improvisar uma arma parecida com outra
 
-Antes de rolar, compare o modo de uso do objeto com o catálogo. Considere formato, resistência, mãos, treino e propriedades que ele realmente comporta. O Volume continua sendo o do objeto transportado.
+Antes de rolar, compare o modo de uso do objeto com o catálogo. Considere formato, resistência, mãos, treino e propriedades que ele pode ter. O Volume continua sendo o do objeto transportado.
 
 Kaito encontra ao alcance um **cabo curto e resistente**, manejável com uma mão. Neste exemplo, o objeto já foi registrado com Volume 0,5. O mestre usa Bastão como referência para o golpe, preservando o treino de Porrete e retirando propriedades que esse cabo não comporta. A decisão é informada antes do ataque:
 
@@ -97,7 +97,7 @@ Kaito encontra ao alcance um **cabo curto e resistente**, manejável com uma mã
 | Mãos | Uma. |
 | Alcance corpo a corpo | **1,5 m**; o cabo curto não recebe Alcance 3 m. |
 | Dano | **1d6 Concussão + Força**. |
-| Propriedades mantidas | Nenhuma propriedade especial neste recorte; não recebe Versátil ou Rompe por copiar o dado. |
+| Propriedades mantidas | Nenhuma propriedade especial neste exemplo; não recebe Versátil ou Rompe por copiar o dado. |
 | Volume | **0,5**, conservando o valor do objeto; não vira o Volume 1 do Bastão. |
 | Quebra | Não há desgaste automático a cada golpe para este cabo resistente. |
 
@@ -105,18 +105,18 @@ Kaito é treinado em Porrete, tem Força 2 e Maestria 1. Com uma mão livre e a 
 
 O treino aplicado é o da referência aprovada para esse modo de uso. Isso não concede treino geral com qualquer objeto nem transforma o cabo em ferramenta amaldiçoada. Um cabo mais frágil, longo ou pesado precisaria de outra avaliação antes do dado.
 
-## Objeto sem referência: a garrafa
+## Improvisar uma arma: a garrafa
 
 Rina tem Força 2, Destreza 4 e Maestria 1. Já segura uma garrafa comum, manejável com uma mão. O mestre não encontra referência adequada no catálogo e anuncia o perfil de improvisação para esse objeto:
 
 | Uso | Ataque | Dano e alcance |
 |---|---|---|
-| Corpo a corpo | d20 + Força 2 + Maestria 1 = **+3** | **1d4 + 2**, Concussão, a **1,5 m**. |
-| Arremesso | d20 + Destreza 4 + Maestria 1 = **+5** | **1d4 + 2**, Concussão; faixas **6/18 m**. |
+| Corpo a corpo | d20 **+3** (Força 2 + Maestria 1) | **1d4 + 2**, Concussão, a **1,5 m**. |
+| Arremesso | d20 **+5** (Destreza 4 + Maestria 1) | **1d4 + 2**, Concussão; faixas **6/18 m**. |
 
 O tipo Concussão foi escolhido para o impacto da garrafa intacta. Rina não possui treino que cite armas improvisadas, então ataca com **desvantagem**. Maestria continua no bônus; ela não é retirada pela falta desse treino. O objeto não recebe Fineza nem qualquer propriedade especial.
 
-O mestre informa antes da escolha que a garrafa se quebrará no impacto deste arremesso. Rina percebe um adversário corpóreo a **9 m**, com trajeto livre. Não há restrição especial de dano desse alvo no recorte. Ele mantém Defesa 14. Rina usa a **Ação Atacar** e arremessa:
+O mestre informa antes da escolha que a garrafa se quebrará no impacto deste arremesso. Rina percebe um adversário corpóreo a **9 m**, com trajeto livre. Não há restrição especial de dano desse alvo neste exemplo. Ele mantém Defesa 14. Rina usa a **Ação Atacar** e arremessa:
 
 - Está na faixa longa, o que também dá desvantagem. Duas fontes de desvantagem continuam usando **dois d20 e o menor**, sem um terceiro dado.
 - Os dados mostram 17 e 9. Usa 9: **9 + 5 = 14**, acertando.
@@ -130,12 +130,12 @@ Ter treino com improvisadas retiraria a desvantagem por falta de treino, mas o a
 
 Golpear com a coronha de uma arma de fogo ou arremessar uma arma sem Longo Alcance também exige conferir a improvisação. O treino habitual não cobre automaticamente esse uso, e o dano do disparo não vira dano da coronhada.
 
-## O que deixar registrado
+## O que anotar
 
-Para trajetórias, guarde origem, ponto de mudança e direção final. Para equipamentos instalados, anote apoio, carga pertinente, ligação e tempo de preparo. Para contenções, registre o material, a parte presa e quais ações continuam possíveis. Para um objeto improvisado recorrente, conserve o perfil combinado e o risco anunciado, evitando que ele mude de dano entre mestres sem revisão.
+Para trajetórias, guarde origem, ponto de mudança e direção final. Para equipamentos instalados, anote apoio, carga suportada, ligação e tempo de preparo. Para contenções, registre o material, a parte presa e quais ações continuam possíveis. Para um objeto improvisado recorrente, conserve o perfil combinado e o risco anunciado, evitando que ele mude de dano entre mestres sem revisão.
 
-Na guilda, vincule esse registro ao objeto e à ficha que o transporta. Numa campanha fechada, a mesma nota cabe no inventário e no preparo. Os perfis do cabo e da garrafa são exemplos locais; não exigem aprovar uma nova tabela geral de armas improvisadas.
+Na guilda, guarde esse registro junto ao objeto e à ficha que o transporta. Numa campanha fechada, a mesma nota cabe no inventário e no preparo. Os perfis do cabo e da garrafa são exemplos locais; não exigem aprovar uma nova tabela geral de armas improvisadas.
 
 **Para praticar:** mude o primeiro trecho do ricochete de 6 m para 9 m e mantenha o total abaixo de 12 m. Depois dê a Rina treino com improvisadas, conservando o alvo a 9 m. Identifique qual fonte de desvantagem permanece em cada caso.
 
-*Base: R53, Ataques; Dano e crítico; Defesa e cobertura; Sacar e guardar; Ricochete e Fluidez; catálogo de Porrete e Arremesso; Exploração e ferramentas; Fechaduras e contenção; Armas improvisadas. Identificação da fonte em [REFERENCIAS](REFERENCIAS.md). Os casos receberam conferência documental e de contas, sem avaliação de aprendizagem com pessoas.*
+*Base: Livro de Regras 1.0, Ataques; Dano e crítico; Defesa e cobertura; Sacar e guardar; Ricochete e Fluidez; catálogo de Porrete e Arremesso; Exploração e ferramentas; Fechaduras e contenção; Armas improvisadas. Identificação da fonte em [REFERENCIAS](REFERENCIAS.md). Os casos receberam conferência documental e de contas, sem avaliação de aprendizagem com pessoas.*

@@ -1,0 +1,74 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Compra
+Conta na Classe 2
+Orçamento da entidade
+4 pontos
+Projétil
+0
+Precisão, Leve em Mira Livre
+1
+Fura, Média em Mira Livre
+2 - 1 = 1
+Saldo para dano
+4 - 1 - 1 = 2d8
+São duas Melhorias, o máximo da Classe 2. O preço
+de Fura usa a Classe real, mas seu efeito na especial
+de entidade usa uma Classe a menos, com mínimo
+de 1: 2 × Classe efetiva 1 = 2 de redução ignorada.
+Não use os 4 pontos de redução de uma aplicação
+pessoal de Classe 2.
+Escolha visível: contra um alvo sem Redução de
+Dano, Tala pode preferir Agulha guiada ampliada:
+3d8 por 6 PE. Contra proteção apropriada, pode
+escolher Agulha perfurante: 2d8 pelo mesmo custo,
+ignorando até 2. Nenhuma delas é sempre superior;
+o alvo e os recursos importam.
+Executar uma especial
+Tala gasta Ação Padrão de comando; o Escriba
+precisa receber e entender a ordem e ter sua básica
+disponível, que será consumida. Tala paga os PE,
+pois um shikigami de técnica não recebe reserva
+própria. Errar gasta a execução e a energia; não
+produz o dano indicado.
+As agulhas precisam de alvo válido, percepção e
+trajeto permitidos. O alcance parte do Escriba.
+Precisão não faz a agulha perseguir um alvo, dobrar
+esquinas ou atravessar uma parede. A entidade não
+tem Selo por padrão; seus movimentos de papel são
+aparência, sem devolução de pontos.
+O poder próprio: Retrato de
+referência
+Proposta de Talento Próprio, CE1. Ocupa a única
+escolha de talento disponível nesta ficha de nível 5.
+Não usa vaga de especial nem pontos das agulhas.
+A referência de comparação é Registro de cena,
+proposta de CE1 do Livro de Regras 1.0 que
+conserva sons realmente ouvidos.
+Campo
+Texto proposto
+Registro
+Com uma atuação básica, o Escriba conserva uma imagem estática de um
+rosto ou de uma face visível de um objeto, escolhido a até 9 m.
+Percepção exigida
+Precisa enxergar o detalhe normalmente. Só conserva o que estava visível e
+discernível daquele ponto, com aquela luz e distância.
+Capacidade
+Uma imagem por vez. Registrar outra substitui a anterior. Não guarda
+sequência, ângulos alternativos ou som.
+Exibição
+Com uma atuação básica, mostra a imagem no painel do próprio corpo por
+até 1 minuto. Não custa PE. Quem quiser examinar precisa conseguir ver o
+painel.
+Término da exibição
+Pode interromper sem ação; termina também quando sai de campo ou fica
+Desligada. Não projeta a imagem à distância.
+Permanência do registro
+A imagem guardada permanece até ser substituída ou a entidade ser
+destruída. Encerrar a exibição ou recolher não apaga o registro.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+281

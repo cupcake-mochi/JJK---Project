@@ -1,0 +1,330 @@
+{
+  "registro": 121,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Travessia superior",
+      "resultado": [
+        9,
+        2.0
+      ],
+      "esperado": [
+        9,
+        2.0
+      ]
+    },
+    {
+      "conta": "Rota inferior: metros físicos e movimento",
+      "resultado": [
+        27,
+        39
+      ],
+      "esperado": [
+        27,
+        39
+      ]
+    },
+    {
+      "conta": "Três rodadas em segundos",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "conta": "Parada pela rota inferior: metros iniciais/restantes/segunda rodada",
+      "resultado": [
+        27,
+        12,
+        18
+      ],
+      "esperado": [
+        27,
+        12,
+        18
+      ]
+    },
+    {
+      "conta": "Pino de madeira: soma de danos e PV restantes",
+      "resultado": [
+        5,
+        3
+      ],
+      "esperado": [
+        5,
+        3
+      ]
+    },
+    {
+      "conta": "Queda 6m: dados/intervalo/exemplo",
+      "resultado": [
+        2,
+        2,
+        12,
+        7,
+        3,
+        0
+      ],
+      "esperado": [
+        2,
+        2,
+        12,
+        7,
+        3,
+        0
+      ]
+    },
+    {
+      "conta": "Salto sem impulso, Força 0/1/2",
+      "resultado": [
+        1.5,
+        1.5,
+        3.0
+      ],
+      "esperado": [
+        1.5,
+        1.5,
+        3.0
+      ]
+    },
+    {
+      "conta": "Salto Força 1 com extensão",
+      "resultado": 3.0,
+      "esperado": 3.0
+    },
+    {
+      "conta": "Atalho por G: andar/arrastar",
+      "resultado": [
+        6,
+        12
+      ],
+      "esperado": [
+        6,
+        12
+      ]
+    },
+    {
+      "conta": "Serviço por P e Q: andar/arrastar",
+      "resultado": [
+        18,
+        36
+      ],
+      "esperado": [
+        18,
+        36
+      ]
+    },
+    {
+      "conta": "A até P e saldo para ir a C",
+      "resultado": [
+        12,
+        6,
+        6
+      ],
+      "esperado": [
+        12,
+        6,
+        6
+      ]
+    },
+    {
+      "conta": "Carga do resgate e teto Força 2",
+      "resultado": [
+        9.0,
+        14
+      ],
+      "esperado": [
+        9.0,
+        14
+      ]
+    },
+    {
+      "conta": "Turnos de resgate a partir de C, com 18m por turno",
+      "resultado": [
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        2
+      ]
+    },
+    {
+      "conta": "Recuo até pátio: custos por turno",
+      "resultado": [
+        16.5,
+        16.5,
+        18,
+        3
+      ],
+      "esperado": [
+        16.5,
+        16.5,
+        18,
+        3
+      ]
+    },
+    {
+      "conta": "Recuo até pátio: custo e divisão idealizada",
+      "resultado": [
+        54.0,
+        3.0,
+        4
+      ],
+      "esperado": [
+        54.0,
+        3.0,
+        4
+      ]
+    },
+    {
+      "conta": "Objetos da passarela e portão: madeira/metal, PV por porte",
+      "resultado": [
+        14,
+        5,
+        14,
+        10,
+        18,
+        40
+      ],
+      "esperado": [
+        14,
+        5,
+        14,
+        10,
+        18,
+        40
+      ]
+    },
+    {
+      "conta": "Sineiro: CD, acerto, carga normal/arrasto",
+      "resultado": [
+        13,
+        5,
+        9,
+        18
+      ],
+      "esperado": [
+        13,
+        5,
+        9,
+        18
+      ]
+    },
+    {
+      "conta": "Sineiro: mínimo/máximo de Pancada e crítico",
+      "resultado": [
+        6,
+        16,
+        8,
+        28
+      ],
+      "esperado": [
+        6,
+        16,
+        8,
+        28
+      ]
+    },
+    {
+      "conta": "Sineiro: Integridade e deslocamento",
+      "resultado": [
+        54.0,
+        4.5
+      ],
+      "esperado": [
+        54,
+        4.5
+      ]
+    },
+    {
+      "conta": "Faixas exatas dos estágios",
+      "resultado": [
+        [
+          41,
+          54
+        ],
+        [
+          28,
+          40
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "esperado": [
+        [
+          41,
+          54
+        ],
+        [
+          28,
+          40
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "conta": "Condução especial: carga e distâncias",
+      "resultado": [
+        7.0,
+        9.0,
+        4.5
+      ],
+      "esperado": [
+        7,
+        9.0,
+        4.5
+      ]
+    },
+    {
+      "conta": "Impacto: dados e limites de dano, sucesso arredondado para cima",
+      "resultado": [
+        5,
+        40,
+        3,
+        20
+      ],
+      "esperado": [
+        5,
+        40,
+        3,
+        20
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Preparar — prazo, gatilho e deslocamento",
+      "Movimento, escalada, saltos, quedas e queda sobre criaturas",
+      "Usar objeto, Danificar objetos e adequação de efeitos",
+      "Carga, arrasto e manobras",
+      "Lento, Guarda Aberta e estágios exatos de Integridade"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e das regras existentes. Sem simulação de combate ou resgate.",
+    "O prazo de três rodadas, as capacidades próprias e o chefe continuam experimentais.",
+    "Não inclui aprovação da dificuldade ou atualização do bestiário completo."
+  ]
+}

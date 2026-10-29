@@ -1,0 +1,1576 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+CONSULTA DO MESTRE
+
+A passarela e o guincho
+Perigo experimental da pré-1.0. Este caso mostra
+como anunciar um perigo que piora com o tempo e
+resolver as tentativas de detê-lo. Leia depois de O
+Carregador no depósito; aqui, o grupo enfrenta
+outra situação, sem inimigos. Use a ficha de
+encontro para anotar o perigo.
+O dano de queda, os saltos, a escalada, as ações e os
+objetos vêm do Livro de Regras 1.0. O mecanismo,
+as posições e a ruptura após três rodadas são
+escolhas deste exemplo, ainda sujeitas à avaliação.
+Não existe aqui uma tabela universal de
+desabamento ou dano por nível.
+
+O chamado
+Durante a vistoria de uma oficina abandonada, a
+equipe precisa desligar um guincho defeituoso e
+impedir que alguém volte a usar uma passarela
+comprometida. A guilda pode ter recebido o
+chamado dos responsáveis pelo prédio. Em
+campanha fechada, a oficina pode pertencer a um
+contato do grupo. As pessoas comuns já
+evacuaram; a ocorrência não exige ficha de civil
+nem uma segunda ameaça escondida.
+
+O guincho está ligado por engano ao suporte da
+parte móvel da passarela. Quando começa a puxar,
+pode arrancá-lo. Um freio independente segura o
+conjunto se essa ligação for interrompida. O grupo
+pode reconhecer esse funcionamento ao observar o
+mecanismo. Cortar um cabo que sustenta pessoas é
+outra coisa: o freio não torna esse corte seguro.
+Há três resultados distintos: parar a tração, retirar
+quem estiver em risco e interditar a passagem.
+Parar o motor não conserta a estrutura. Se ela
+romper, ainda pode ser necessário desligar o
+equipamento e prestar socorro. Ao encerrar a
+missão, anote o resultado de cada tarefa. A
+passarela pode continuar inutilizada.
+Confira as fichas reais: deslocamento, Força, meios
+de voo ou travessia, Reações de proteção contra
+queda, ferramentas, acesso a ataques contra objetos
+e socorro. O nível do grupo não indica, sozinho, a
+dificuldade desta situação. Se as fichas permitem
+resolvê-la depressa, deixe a solução funcionar.
+
+O lugar e os caminhos
+O lugar tem dois patamares firmes, Oeste e Leste, separados por um vão. Uma passarela liga suas bordas.
+Um piso inferior firme fica 6 m abaixo, iluminado e sem água, fogo ou máquinas sob a área de queda.
+Ponto ou
+percurso
+
+Medida e uso
+
+Grupo, na
+abertura
+
+Patamar Oeste, a 3 m da borda; chão regular, fora da parte móvel.
+
+Travessia
+superior
+
+3 m até a borda + 3 m de passarela + 3 m até a alavanca no Leste: 9 m.
+
+Alavanca de
+parada
+
+No Leste, em apoio firme; acessível com uma mão disponível. A posição final do percurso de 9 m
+já permite operá-la.
+
+Ligação de
+transmissão
+
+Pequeno pino de madeira, exposto num acoplamento junto da posição inicial do grupo. Pode ser
+atingido a até 1,5 m de um espaço firme no Oeste. Não é o suporte que sustenta pessoas.
+
+Rota inferior
+
+Da posição inicial: 3 m até escada Oeste; descer 6 m; andar 9 m pelo piso inferior; subir 6 m pela
+escada Leste; andar 3 m até a alavanca. 27 m físicos; 39 m de movimento com escalada comum.
+
+Escadas
+
+Fixas, com apoios utilizáveis, secas e firmes; cada uma tem largura para uma criatura Média por
+vez. Sem teste nas condições iniciais.
+
+Áreas de
+chegada
+
+Patamares com espaço livre para o grupo; o piso inferior permite alcançar a projeção da passarela
+pelas escadas.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Use uma faixa de 3 m de largura para a passarela e
+indique os espaços que ficam sobre sua parte
+móvel. Marque os dois patamares como apoios
+estáveis. A ligação de transmissão fica ao lado do
+acesso, separada da passagem: quem a golpeia não
+
+TERRENO, SAÍDA E SINEIRO
+
+precisa ficar sobre a passarela. As rotas superior e
+inferior são percursos diferentes, com entradas e
+saídas marcadas; não some suas distâncias como se
+todos tivessem de passar pelos mesmos pontos.
+
+O esquema indica percursos, sem representar escala. A rota inferior passa ao redor da área sob o trecho móvel. Quem
+cai chega ao piso abaixo da passarela, não ao pé de uma escada. Marque onde a pessoa caiu e meça de onde cada
+socorrista precisa partir para alcançá-la.
+
+Avise antes de ligar
+Ao chegar à posição inicial, o grupo vê o guincho
+ainda parado, a ligação presa ao suporte e o
+comando de teste ao alcance. Uma placa indica o
+acionamento de teste e a alavanca de parada no
+outro lado. O grupo pode examinar o mecanismo,
+interditar o acesso ou romper a transmissão antes
+de ligá-lo. Não é obrigatório ativar o perigo para
+cumprir a missão.
+Se alguém acionar o teste, informe antes que o cabo
+está ligado ao suporte e que há risco de arrancá-lo.
+A pessoa pode corrigir a declaração. Se seguir, o
+acionamento é uma manipulação simples, dentro
+dos limites de Sacar e guardar; resolva seu custo e
+posição. Inicie a ordem de turnos com o motor
+começando a tracionar e todos conscientes do
+
+ruído. Se o acionamento ocorreu fora do combate,
+não desconte uma rodada antes de todos entrarem
+na iniciativa.
+Role iniciativa como no Livro de Regras 1.0 para
+organizar os participantes. A primeira rodada
+completa depois do acionamento é a rodada 1 do
+perigo. Todos recebem seu turno nela, inclusive
+quem acionou antes da iniciativa. Essa abertura foi
+escolhida para o exemplo e precisa ser anunciada.
+Se a máquina for ligada durante um combate,
+defina antes da ação como contar o prazo dali em
+diante, sem dar outro turno a quem a ligou.
+Sem ativação, não há contagem secreta. O mestre
+não liga o motor por conta própria porque o grupo
+encontrou uma maneira segura de resolver o
+chamado.
+
+Três rodadas até a ruptura
+Use um marcador visível, de 0 a 3, apenas enquanto a transmissão estiver puxando o suporte. O marcador
+avança uma vez ao fim de cada rodada completa, depois dos turnos e efeitos de fim de turno, com uma
+única fase ambiental. Turnos extras, entidades, Reações e mudanças de narrador não o avançam novamente.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+Estado
+
+Descreva e resolva
+
+Ativação, marcador 0
+
+Cabo fica tenso e o suporte começa a mover. Diga: “Se continuar puxando, essa parte vai
+perder o apoio; vocês têm três rodadas completas para interromper ou sair dela.” A passarela
+ainda suporta a travessia.
+
+Fim da rodada 1,
+marcador 1
+
+Um pino do suporte sai parcialmente; metal raspa. Sem dano, teste ou mudança de custo de
+movimento. Atualize o prazo: restam duas rodadas.
+
+Fim da rodada 2,
+marcador 2
+
+A fixação restante se deforma. Avise que a ruptura ocorrerá no próximo avanço. Ainda não há
+dano nem queda.
+
+Fim da rodada 3,
+marcador 3
+
+A parte móvel perde o apoio. Remova seus espaços de sustentação. Quem ainda depender
+deles cai os 6 m reais até o piso inferior. A ruptura acontece uma vez; não se repete por
+rodada.
+
+Tração interrompida
+antes de 3
+
+Congele o marcador no valor atingido; não resolva a ruptura programada. O freio sustenta a
+posição restante. A passarela continua avariada e deve ser interditada.
+
+Tração interrompida
+depois de 3
+
+O guincho para; o vão permanece aberto. Não reaparecem piso, apoio ou vítimas no patamar.
+
+Intervir no próprio turno da rodada 3 ainda pode
+impedir a ruptura, se a ação terminar antes da fase
+ambiental. Anuncie e resolva a fase separadamente,
+sem escondê-la entre ações. Não encerre a rodada
+antes de alguém jogar porque demorou na
+descrição.
+Quando todos estiverem fora de risco e as escolhas
+imediatas acabarem, pode encerrar a iniciativa. Se
+o motor continuar ligado, resolva o tempo que
+ainda falta: sair da iniciativa não interrompe o
+mecanismo. Como cada rodada tem seis segundos,
+três rodadas completas representam 18 segundos
+neste exemplo. Não cronometre a fala dos
+jogadores pelo relógio real.
+
+Como parar o perigo
+As posições da alavanca, do pino, do apoio inferior
+e das escadas são visíveis. A tração e os sinais de
+ruptura são informações da descrição. Não cobre
+testes para descobrir essas saídas depois de tê-las
+apresentado.
+Se houver dúvida sobre o funcionamento, uma
+pergunta concreta por Estudar, com Investigação
+CD 10, pode identificar o pino que transmite o
+esforço e a função do freio. Custa Padrão em
+combate; o teste resolve essa dúvida, sem fornecer
+controle à distância ou vantagem em todo ataque
+posterior. A CD é escolha local na escala do Livro
+de Regras 1.0. Falhar gasta a ação; a alavanca
+identificada e as rotas continuam conhecidas. Uma
+descrição evidente ou capacidade que garanta a
+informação dispensa o teste.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Desligar o guincho
+Ao alcance da alavanca no Leste, com mão
+disponível, use Usar objeto, Ação Padrão, sem
+teste: é um comando firme e identificado, que exige
+puxar e sustentar até completar o desligamento.
+Esse custo de operação é definição do dispositivo
+neste cenário. Não é apenas recolher ou guardar um
+item.
+Ao concluir, motor e tração param. Não cobra PE
+nem outra ação para o freio funcionar. Movimento
+restante continua disponível. Uma habilidade que
+manipule objetos à distância precisa permitir
+aquela tarefa, alcance, força e ação; conhecer a
+localização não basta.
+
+Quebrar o pino
+O pino de transmissão é uma pequena peça
+resistente de madeira: Defesa 14, 5 PV, sem RD
+adicional. Esses valores vêm da tabela de objetos.
+Use ataques permitidos pela ação, alcance e
+ferramenta capaz de danificá-lo. O objeto não
+Bloqueia. Crítico e propriedades da arma seguem
+suas regras. Estar em iniciativa sem inimigos não
+concede um ataque gratuito.
+A zero PV, o pino deixa de transmitir a tração e o
+freio segura o conjunto. A intervenção encerra a
+contagem, embora o motor continue girando sem
+puxar o suporte. Ainda é preciso desligar o motor
+pela alavanca para deixá-lo seguro, mas ele já não
+ameaça arrancar o suporte.
+Errar ou causar menos de 5 de dano não fornece
+outro ataque além dos que a ficha permitir.
+Conserve os PV restantes: danos efetivos de 2 e 3
+em ocorrências sucessivas quebram a peça.
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Atributos, crítico e defesas aplicáveis são
+resolvidos normalmente; não use apenas o número
+natural do dado como dano.
+Feitiços só podem atingir o objeto quando seu texto
+permitir. Ele ignora efeitos de mente ou alma e
+Veneno conforme o Livro de Regras 1.0; o tipo de
+dano de outra capacidade precisa ser adequado ao
+material. Cortar o cabo que realmente sustenta a
+passarela é outro alvo, com outra consequência
+física: não recebe o resultado seguro atribuído ao
+pino de transmissão. Se alguém propuser isso,
+esclareça a diferença antes do gasto.
+
+Usar outro caminho
+Pode-se usar a rota inferior, saltar inteiramente o
+vão entre apoios firmes ou empregar uma
+capacidade apropriada. Não force uma falha para
+fazer o mecanismo parecer mais perigoso.
+As escadas fixas usam escalada comum: cada 1,5 m
+custa 3 m de movimento. Andar 15 m e escalar 12 m
+totaliza 39 m de movimento na rota inferior. Ter
+deslocamento de escalada muda o custo conforme o
+Livro de Regras 1.0. Correr acrescenta metros, mas
+usa Padrão; se ela foi gasta, não sobra para puxar a
+alavanca naquele turno. A Bônus pode virar
+Movimento.
+Saltar o vão de 3 m, de um apoio firme ao outro,
+pode dispensar teste: Força 0 já permite essa
+distância com os 3 m de impulso; sem impulso,
+Força 0 ou 1 chega só a 1,5 m, enquanto Força 2
+chega a 3 m. Conte impulso e salto no Movimento.
+Com Força 1 sem impulso, a extensão de 1,5 m
+pode ser tentada com Atletismo CD 14. Se falhar
+apenas nesse esforço, alcança sua distância normal
+e cai por não encontrar apoio. Informe isso antes
+da rolagem. As bordas estáveis deste cenário são
+firmes e secas; não acrescente teste de equilíbrio
+oculto.
+Um voo válido pode resolver a travessia, mas não
+transporta automaticamente aliados. Confira carga,
+corpo e, para entidades, o talento de transporte
+necessário. Uma pessoa que caia já consumiu seu
+movimento ou ação conforme a tentativa; não
+reaparece com recursos renovados no piso inferior.
+
+Se a passarela romper
+Confira quem ainda depende do trecho que perdeu
+apoio. Quem já chegou ao patamar, está no piso
+inferior fora da área de queda ou se sustenta por
+voo ou outro apoio válido não cai só por estar perto.
+A queda não espalha uma área de dano pelo galpão.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+TERRENO, SAÍDA E SINEIRO
+
+Quem cai os 6 m recebe 2d6 de Concussão pela
+altura. A queda não é um ataque: não rola acerto e
+não permite Bloquear. Aplique Vida temporária,
+resistência a Concussão e outras proteções que
+realmente alcancem esse dano. Se receber dano de
+impacto, termina Derrubado. Não acrescente dano
+de Alma, dano adicional de “desabamento” ou
+outra ocorrência pelos mesmos seis metros.
+Nesta disposição, o trecho gira preso à lateral,
+deixando a trajetória de queda livre; o piso inferior
+sob ele está desocupado na abertura. Não há
+soterramento nem ataque de escombros
+preparado. Se os jogadores colocarem uma criatura
+sob outra, use Queda sobre uma criatura do Livro
+de Regras 1.0 para a possibilidade de impacto,
+tamanhos e divisão do dano, em vez de duplicar os
+2d6. Uma capacidade que retire ou sustente alguém
+antes da perda de apoio resolve o que efetivamente
+permitir.
+Ter Reação disponível não concede uma tentativa
+universal de agarrar a borda ou apanhar um
+companheiro que já caiu. Preparar responde depois
+do gatilho terminar, com alcance e ação válidos:
+“quando o pino começar a sair, corro para o
+patamar” permite uma resposta antes da ruptura;
+“quando ela cair, seguro antes da queda” não
+retrocede um impacto já resolvido. Descreva
+gatilhos que os participantes possam perceber e
+cumpra seus prazos. Aptidões específicas de
+proteção conservam seus próprios momentos.
+Uma queda de 6 m resolve o impacto
+imediatamente. Não dê um turno no ar antes de
+resolver esse impacto. Se a queda levar a zero de
+vida, siga as regras de Quedas e socorro: zero de
+vida, participação, atendimento e derrota são
+acontecimentos distintos.
+
+Socorrer e retirar o grupo
+O piso inferior permite atendimento; chegar até
+uma vítima ainda exige trajeto, ações e alcance.
+Quem está em cima deve descer por uma escada ou
+usar outro meio válido. Não use o fim da contagem
+como recuperação nem transporte instantâneo.
+Uma pessoa que Insiste pode continuar agindo
+dentro de seus limites. Aguentar, inconsciência ou
+derrota mudam o que ela pode fazer. A janela de
+socorro e o dano posterior seguem o Livro de
+Regras 1.0; não são pausados enquanto outra
+pessoa busca uma corda. O impacto acontece uma
+vez por queda, e estar deitado no piso inferior não
+causa novas parcelas de 2d6 a cada rodada.
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Para retirar alguém que aceite ajuda ou esteja
+inconsciente, some o corpo em kg ÷ 12 aos itens da
+vítima e ao equipamento de quem a transporta.
+Ajudar não dispensa os limites de carga. A escada
+vertical não admite o arrasto pelo chão: carregar
+um corpo nela exige meios de segurá-lo e manter
+apoios, além dos limites de carga e custo de
+escalada. Se faltarem mãos ou apoio para essa
+subida, uma rolagem não os fornece. Organize
+atendimento no piso firme e busque um meio
+apropriado, como capacidade de transporte
+compatível ou equipamento de resgate real.
+O grupo pode voltar ao Oeste pela rota disponível
+sem recuperar a peça ou a passagem. Se alguém
+estiver do outro lado do vão após a ruptura, registre
+uma rota de saída própria: salto válido, escadas ou
+habilidade. Não descreva todos como retirados
+quando alguém continua no piso inferior
+precisando de atendimento.
+Depois da parada, não ligue o guincho novamente
+para estender a cena. Uma reativação deliberada
+precisa de nova avaliação do estado da estrutura; o
+marcador não retorna a zero como se fosse reparo.
+Desligar o motor ou trocar o pino não restaura o
+suporte já deformado. Reparos exigem seu próprio
+projeto e responsável; este caso termina com
+interdição e registro, sem conceder reparo
+instantâneo ou tabela nova de fabricação.
+
+TERRENO, SAÍDA E SINEIRO
+
+Três desfechos possíveis
+Parada antes da ruptura. Uma personagem sem
+penalidades, deslocamento 9 m e mão livre, começa
+na posição inicial. Já sabe onde está a alavanca. Em
+seu turno, percorre os 9 m pela travessia superior e
+usa Padrão para desligar. Os apoios ainda existem.
+A contagem congela em zero, se isso ocorrer na
+rodada 1 antes da fase ambiental. Ela não precisa
+saltar nem rolar um teste para cruzar a passarela
+intacta. A equipe interdita a passagem avariada; a
+solução rápida é válida.
+Pela rota inferior. Uma personagem com
+deslocamento 9 m usa Movimento, Bônus
+convertida e Correr na rodada 1: 27 m de
+movimento, sem operar a parada. Na rodada 2,
+faltam 12 m dos 39; Movimento e Bônus convertida
+oferecem 18 m. A Padrão continua disponível para
+puxar a alavanca. Interrompe a tração antes da
+segunda fase ambiental. Esse exemplo presume a
+escada livre e mãos/apoios adequados; ninguém
+recebe movimento simultâneo automático para
+acompanhá-la.
+Queda e resgate. Se a tração chegar ao terceiro
+avanço, uma pessoa ainda sobre o trecho móvel cai.
+Num resultado ilustrativo de 3 e 4, recebe 7 de
+Concussão, antes das proteções. Com 10 PV e
+nenhuma proteção aplicável, termina com 3 PV e
+Derrubada. Com 5 PV, chega a zero e aplica Vida a
+zero, sem converter isso em morte automática. O
+registro marca a queda, posição, socorro e saídas;
+terminar a tração não conclui o resgate.
+
+Resumo do perigo
+Campo
+
+Registro pronto para este exemplo
+
+Gatilho
+
+Acionamento deliberado do teste, depois dos sinais. Sem acionamento, não há contagem.
+
+Alvo do risco
+
+Quem depender dos 3 m de apoio móvel no momento da ruptura.
+
+Ritmo
+
+Um avanço ao fim da rodada completa; ruptura no terceiro; uma ocorrência.
+
+Sinal
+
+Cabo tensiona; fixação sai; última fixação deforma; apoio se perde. Prazo informado.
+
+Interrupção
+
+Padrão na alavanca; ou destruir pino adequado, Defesa 14, 5 PV; freio segura.
+
+Resolução
+
+Queda real de 6 m: 2d6 Concussão, sem Bloquear; Derrubado se sofrer dano do impacto.
+
+Alternativas
+
+Travessia antes da ruptura; salto publicado; rota inferior; habilidade apropriada; retirada.
+
+Encerramento
+
+Tração resolvida, todos fora de risco, socorro encaminhado e acesso interditado.
+
+Continuidade
+
+Marcador alcançado, motor, transmissão, estrutura, posições, recursos, feridos e responsável pela
+interdição.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Registre o que aconteceu antes de mudar a
+descrição de cena. Na guilda, comunique a
+interdição para a próxima equipe; numa campanha
+fechada, conserve a mesma informação no diário.
+Ao jogar, anote também quanto tempo levou para
+consultar as regras, quais escolhas o grupo fez e
+quais dúvidas surgiram.
+As regras e as contas desta preparação foram
+conferidas. Não houve teste humano, simulação
+integral de resgate ou validação de dificuldade. As
+três rodadas foram escolhidas para este
+mecanismo; não são o prazo padrão de todo perigo.
+Este caso desenvolve um desfecho por queda. O
+
+TERRENO, SAÍDA E SINEIRO
+
+preparo de perigos ambientais e a sala de
+conservação ampliam a preparação para exposição
+recorrente e condições persistentes. Para uma
+doença prolongada, consulte A febre dos fios.
+Perigos como fogo ainda precisam de exemplos
+próprios.
+Para comparar essas regras em outras situações,
+consulte Movimento, saltos e quedas: esforço e
+risco no mesmo salto, passagem com equipamento
+e queda sobre criatura dentro e fora da faixa de
+tamanhos. Os novos casos têm cenários próprios;
+não acrescentam correnteza, piso escorregadio ou
+vítimas à passarela deste piloto.
+
+CONSULTA DO MESTRE
+
+Inimigos e perigos juntos
+Uma criatura pode disputar um objetivo enquanto
+o cenário muda. O Carregador já disputa uma caixa
+e transporta intrusos. A passarela mostra um
+perigo que evolui sem inimigo. Ao reunir esses
+elementos, prepare o encontro completo. Não há
+um valor de dificuldade dos dois exemplos que você
+possa simplesmente somar.
+Comece com uma pergunta: o que o grupo
+precisará decidir quando o ambiente mudar? Se a
+resposta for apenas “receber mais dano”, examine
+se isso ensina ou produz o confronto pretendido.
+Posição, acesso e tempo também podem mudar
+uma escolha.
+
+Compare uma mudança de cada vez
+Na variante do portão, conservamos a ficha do
+Carregador e acrescentamos uma saída que pode
+fechar. Um corredor de serviço continua disponível.
+O portão muda o caminho disponível, sem causar
+dano ou aumentar os atributos da criatura.
+Há três referências úteis:
+
+Referência
+
+O que está sendo examinado
+
+Encontro original, O
+Carregador e o
+corredor de entulho
+
+Carregador, caixa, entulho e
+duas rotas até o recuo.
+
+Novo mapa, motor
+desligado
+
+O mesmo encontro com
+corredor de serviço e portão
+aberto. Isola a mudança de
+espaço.
+
+Mesmo mapa,
+fechamento ativo
+
+O que muda quando há prazo
+para preservar a saída curta.
+Isola a pressão ambiental.
+
+O corredor novo também pode mudar as posições,
+mesmo com o motor desligado. Por isso, comparar
+apenas a versão original com a versão ativa não
+permite atribuir toda diferença ao prazo. Use as
+três referências quando avaliar o caso.
+Na primeira comparação, mantenha a vida, o dano
+e a quantidade de ataques. Se depois alterar algum
+desses campos, registre a mudança e o motivo. Um
+caso que termina depressa pode ter permitido uma
+boa solução; isso não obriga a acrescentar outra
+ameaça.
+
+Escolhas no mesmo turno
+Anote onde o perigo atua, quando começa, seus
+sinais, quando age, como pará-lo e o que fica
+depois. Dizer apenas “a sala fica mais perigosa a
+cada rodada” não explica o que acontece na mesa.
+No novo mapa, a parada fica a 12 m da posição
+inicial. Uma personagem com deslocamento de 9 m
+pode usar Movimento, converter Bônus em outro
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Movimento e gastar a Padrão na parada.
+Interrompe o fechamento e ainda conserva 6 m
+para andar. A Padrão usada no comando não sobra
+para atacar, libertar alguém por uma ação ou
+prestar atendimento naquele turno. Sua Reação
+continua sujeita aos gatilhos normais.
+Essa é uma escolha concreta. Também é válido que
+uma pessoa pare o motor enquanto as outras
+cuidam da caixa. O mecanismo não recebe
+imunidade ou um prazo menor porque o grupo
+dividiu bem o trabalho.
+Necessidade
+imediata
+
+O que compete com ela
+
+Parar o
+mecanismo
+
+Alcançar o comando, ter mão
+disponível e gastar a Padrão.
+
+Retirar a caixa
+
+Alcançá-la, pagar a manipulação,
+ocupar uma mão e suportar sua
+carga.
+
+Sair de um
+agarrão
+
+Usar uma saída da contenção; a
+fuga comum consome Padrão e
+pede TR.
+
+Proteger uma
+retirada
+
+Desengajar, Preparar ou outra
+capacidade, com seus momentos e
+custos.
+
+Atender um
+ferido
+
+Chegar ao local e cumprir Socorro;
+o fechamento não pausa a janela.
+
+Nem toda tarefa exige escolher entre duas ações da
+mesma pessoa. Um aliado pode agir no próprio
+turno; uma entidade conserva a atuação permitida
+por suas regras. Não entregue um turno extra ao
+mecanismo por haver mais participantes.
+
+Quando um risco piora o outro
+Uma capacidade moderada pode produzir outro
+resultado quando o espaço muda. Agarrar impede o
+deslocamento próprio da vítima; fechar a saída
+curta aumenta o caminho para sair. A combinação
+pode exigir ações de fuga e depois mais
+movimento. Ela não precisa aumentar o dano para
+dificultar o socorro.
+
+TERRENO, SAÍDA E SINEIRO
+
+• O mecanismo é parado, e a criatura continua
+defendendo a caixa.
+Exemplo de retirada. Do ponto de trabalho ao
+pátio, andar custa 6 m pela saída curta ou 18 m pelo
+serviço. Arrastar um aliado custa 12 m ou 36 m.
+Com duas ações de Movimento de 9 m, reservando
+a Padrão, o transporte passa de um turno para dois,
+nas condições descritas. Isso não é previsão da
+duração do combate: começa com o aliado já
+acessível, disposto ou inconsciente, e pressupõe
+caminho livre e ausência de nova interferência.
+Quando houver terreno difícil, confira os trechos
+de 1,5 m e os metros que sobram em cada turno.
+Dividir o custo total pelo movimento disponível
+pode esconder uma sobra que não paga o próximo
+trecho. Não guarde metros para a rodada seguinte.
+Do recuo até o pátio pelo caminho direto, o arrasto
+custa 54 m no total. Com 18 m disponíveis por
+turno, os trechos exigem quatro turnos: gastos de
+16,5; 16,5; 18; e 3. Dividir 54 ÷ 18 daria três turnos,
+mas as sobras de movimento não bastam para o
+trecho seguinte nem passam para outro turno.
+
+Mostre as opções
+Explique o efeito e as alternativas antes de cobrar a
+consequência. No portão, o grupo recebe o prazo, a
+localização da parada, a faixa que impede o
+fechamento e a rota de serviço. Estudar pode
+esclarecer outra dúvida, mas não é necessário para
+conhecer uma saída já visível.
+O inimigo também depende do que consegue
+perceber. O Carregador reage ao que percebe; não
+sabe que a caixa mudou de portador atrás de uma
+parede só porque o mestre viu a ação. O portão
+fechado bloqueia a visão pelo vão, afetando os dois
+lados. Não apaga sons ou energia por uma regra
+inventada durante a cena.
+
+Confira ao menos estas situações antes de jogar:
+
+Conserve as soluções permitidas pelas fichas. Uma
+manipulação remota válida pode alcançar a parada;
+um deslocamento apropriado pode levar alguém à
+outra rota. Confira ação, alcance, alvo e requisitos.
+Resolver o mecanismo por um recurso existente é
+uso do sistema, não falha do encontro.
+
+• Alguém está livre, junto da caixa, quando o
+portão fecha.
+
+O que ainda falta resolver?
+
+• Alguém está agarrado, e um aliado precisa
+decidir entre ajudar e parar o mecanismo.
+
+Registre três perguntas: a oposição terminou, o
+mecanismo parou e todas as pessoas saíram? Elas
+podem ter respostas diferentes.
+
+• Alguém precisa ser transportado, com corpo,
+itens e equipamento de quem o leva contados.
+• O Carregador é derrotado antes do fechamento,
+mas o motor continua ligado.
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Derrotar o Carregador não desliga um aparelho
+independente. Parar o aparelho não obriga a
+criatura a entregar a caixa. Chegar ao pátio com o
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+objeto não retira um aliado do recuo. Uma
+negociação que resolva a oposição tampouco reabre
+automaticamente um portão já fechado.
+A cada mudança, atualize posições, condição de
+contenção, vida, Integridade, recursos e estado do
+mecanismo. Evite encerrar a iniciativa enquanto
+houver escolhas urgentes cujo custo depende dessa
+ordem. Depois, continue o tempo ficcional e a
+recuperação pelas regras correspondentes.
+
+O que observar em mesa
+Use o mesmo grupo, as mesmas fichas e os mesmos
+recursos e condições iniciais quando quiser
+comparar versões. Registre a ordem de iniciativa e
+quais resultados foram escolhidos apenas para
+demonstrar uma regra. Um roteiro demonstra uma
+regra; ele não mostra como jogadores escolheriam
+agir.
+
+TERRENO, SAÍDA E SINEIRO
+
+Registro
+
+Pergunta que ele ajuda a
+responder
+
+Ação usada para
+intervir e posição
+final
+
+A intervenção criou uma
+escolha compreensível ou uma
+obrigação sem alternativa?
+
+Recursos da vítima e
+saídas disponíveis
+
+Agarrar mudou a decisão ou
+deixou a pessoa esperando sem
+opção?
+
+Rota usada antes e
+depois do
+fechamento
+
+O percurso maior teve
+consequência ou era irrelevante
+para aquelas fichas?
+
+Informação que
+precisou ser
+repetida
+
+Os sinais e os momentos
+ficaram claros?
+
+Momento da
+derrota,
+atendimento e
+retirada
+
+O fim da oposição foi
+confundido com segurança de
+todos?
+
+As contas do exemplo mostram custos e estados
+possíveis. O uso por leitores e mesas poderá
+mostrar dificuldade de consulta, repetição ou
+desequilíbrio. Deixe essa diferença clara na
+avaliação: uma ficha completa permite avaliar a
+proposta; não certifica seu equilíbrio.
+CONSULTA DO MESTRE
+
+O portão do depósito
+Variante experimental para comparação. Use a
+ficha do Carregador e sua Doma, sem alterar
+números, e as orientações para combinar inimigos
+e perigos. O objetivo continua sendo recuperar a
+caixa e sair com todos. Esta versão acrescenta um
+portão automático na saída curta e um corredor de
+serviço que permanece aberto.
+O prazo, o mecanismo e o corredor são escolhas
+deste cenário. Este caso não combina o dano de
+queda da passarela com o Carregador. Não concede
+poder de chefe, PE ou ataque adicional à criatura.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Escolha a versão
+Para comparar, use primeiro este mapa com o
+motor desligado; depois examine o mesmo mapa
+com o fechamento ativo. A versão original da
+consulta O Carregador no depósito continua
+disponível, com seu próprio espaço.
+O grupo começa no pátio A, logo fora do limite da
+entrada. O Carregador está no ponto de trabalho C,
+junto da caixa. De C ao recuo, use os caminhos já
+preparados: direta de 18 m com 6 m difíceis, lateral
+de 24 m regulares. Nenhum dos trechos novos tem
+entulho, queda ou dano ambiental.
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+Mapa da saída
+O caminho curto de C até o pátio tem 6 m. O portão fica no meio, no ponto G, a 3 m de cada extremidade. O
+corredor de serviço contorna uma parede e liga os mesmos pontos por três trechos regulares de 6 m. A
+parada está em P, no primeiro canto a partir de C; Q é o outro canto.
+
+Este é um esquema de percursos, não uma planta em escala. Uma parede separa o atalho do corredor de serviço. Não é
+possível cortar caminho em diagonal através dela. Todos os corredores novos têm 3 m de largura livre, teto, piso firme e
+iluminação. Marque a faixa de segurança do portão, com 1,5 m de comprimento ao longo do caminho e os 3 m de largura
+do vão. Os 6 m do atalho já incluem essa faixa; não acrescente outro trecho à distância.
+Percurso
+
+Andar
+
+Arrastar pelo piso
+
+C → A pelo portão aberto
+
+6m
+
+12 m
+
+C → P → Q → A pelo serviço
+
+18 m
+
+36 m
+
+A → Q → P, para operar a parada
+
+12 m
+
+Não é um percurso de resgate obrigatório.
+
+C → P, para operar a parada
+
+6m
+
+12 m, se houver transporte permitido.
+
+As paredes limitam visão e acesso. De C é possível
+ver P pelo trecho reto de 6 m; do pátio, a parede
+impede enxergar P através do interior. Quem está
+em A vê a placa com o percurso e pode seguir pelo
+serviço. A ficha do alvo e a Forma de um feitiço
+continuam determinando se uma aplicação pode
+alcançá-lo; o comprimento do caminho não define
+se um feitiço alcança o outro lado da parede.
+O pátio A é a saída para os dois percursos. A
+preferência do Carregador por não perseguir além
+da entrada passa a usar esse mesmo limite nas duas
+rotas. Ele pode circular pelo serviço enquanto
+estiver dentro, com seu movimento normal. Não
+atravessa uma porta fechada, não conhece posições
+ocultas nem aciona o mecanismo com uma ação
+gratuita.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Apresente a situação
+Na versão ativa, o temporizador defeituoso acaba
+de iniciar um ciclo de fechamento quando o grupo
+chega a A. Apresente isso antes de qualquer
+avanço: o aviso sonoro, a contagem visível, o
+desenho do serviço e a parada identificada. O
+Carregador aponta para o pátio e para a caixa,
+como no encontro original.
+Explique: “O portão pode fechar depois de três
+rodadas completas. A passagem de serviço continua
+aberta. O comando em P interrompe o motor. O
+sensor mantém o vão aberto enquanto sua faixa
+está ocupada.” Role iniciativa; todos começam nas
+posições indicadas e recebem seus turnos antes do
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+primeiro avanço ambiental. Esta abertura é uma
+convenção do exemplo, não regra para ligar
+máquinas durante um combate já iniciado.
+Não há agressão automática pelo relógio. O
+Carregador conserva seus gatilhos de oposição da
+consulta O Carregador no depósito. A equipe pode
+
+parar o motor antes de mexer na caixa, conversar
+ou retirar-se. Na versão com motor desligado, não
+inicie a contagem quando alguém conseguir uma
+solução rápida.
+
+Três rodadas até fechar
+Use um marcador de 0 a 3. Com motor funcionando, aumente-o uma vez, até o máximo de 3, ao fim de cada
+rodada completa, depois dos turnos e efeitos de fim de turno. Não avance por participante, entidade ou
+Reação. Até o estado 2, todo o vão permanece transitável pelo custo normal.
+Estado
+
+Sinal e resolução
+
+0, abertura
+
+Aviso sonoro e três rodadas anunciadas. Portão aberto.
+
+1, fim da primeira rodada
+
+Primeiro sinal luminoso; faltam dois avanços.
+
+2, fim da segunda rodada
+
+Segundo sinal; avise que o próximo avanço tentará fechar o vão.
+
+3, a partir do fim da terceira
+
+Se a faixa estiver livre, fecha. Se estiver ocupada, aguarda aberto no estado 3.
+
+Motor parado antes de fechar
+
+Mantém-se aberto no estado alcançado; a contagem não recomeça sozinha.
+
+Motor parado depois de fechar
+
+Permanece fechado. A passagem de serviço continua disponível.
+
+Faixa ocupada: qualquer criatura de corpo sólido
+ou um objeto de pelo menos 1 Volume, colocado na
+faixa, impede o fechamento. É assim que o sensor
+deste portão funciona. Uma projeção sem corpo
+não ocupa a faixa; uma entidade de corpo sólido
+pode ocupá-la, cumprindo suas regras de presença
+e atuação. O aparelho não exige que o ocupante
+gaste uma ação por rodada apenas para permanecer
+ali.
+No estado 3, se o motor continuar funcionando,
+confira a faixa ao fim de cada rodada seguinte. O
+portão fecha na primeira dessas fases em que ela
+estiver livre, não no instante em que alguém sai. O
+sensor não empurra, esmaga, agarra, causa dano ou
+separa corpos contidos. Um agarrão que atravesse a
+faixa a mantém ocupada. Se o grupo deixar a caixa
+ali, seu 1 Volume também serve; ainda será preciso
+retirá-la para cumprir o objetivo.
+Fechado, o portão bloqueia passagem e visão
+comum pelo vão nos dois sentidos. Não cria
+silêncio, apagamento de energia ou impedimento
+de toda capacidade sobrenatural. Consulte a regra
+usada para perceber, alcançar ou atravessar o
+obstáculo. O Carregador pode ser obrigado a usar o
+serviço tanto quanto os personagens.
+A derrota da criatura não para a contagem. Parar o
+motor não remove a criatura. Se a iniciativa
+terminar com motor ativo, resolva o tempo
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+ficcional restante e a ocupação da faixa; não
+congele o mundo pela mudança de descrição. O
+marcador não mede tempo de fala dos jogadores.
+
+Como manter a saída aberta
+Operar a parada em P: ao alcance de 1,5 m, com
+uma mão disponível, use Usar objeto, Ação Padrão,
+sem teste. O comando exige puxar até travar,
+conforme a construção deste cenário. A posição P
+já oferece esse acesso. O motor para; não é
+necessário sustentar o comando nem pagar outro
+recurso. Uma capacidade que permita a
+manipulação remota conserva seus requisitos.
+Ocupar a faixa: alcançar G e permanecer pode
+preservar a saída curta. A pessoa ainda pode agir,
+mas precisa considerar o alcance do Carregador,
+suas mãos e a posição da caixa. Um efeito que a
+remova só permite o fechamento na fase definida,
+depois de conferir todos os ocupantes. Não aplique
+dano ou uma cobrança de Força adicional para
+recuperar a pressão perdida.
+Destruir o comando: a pequena caixa de comando
+em P é um objeto de mão resistente, de madeira:
+Defesa 14, 10 PV, sem RD adicional. Um ataque
+capaz de danificá-la usa ações, alvo, visão, alcance e
+dano normais. A zero PV, o motor perde
+alimentação e para na posição atual. Destruir o
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+comando depois de o portão fechar não o reabre. O
+comando não Bloqueia; efeitos destinados apenas a
+criaturas não o atingem.
+Destruir o portão: a folha metálica do portão é um
+objeto maior resistente: Defesa 18, 40 PV, sem RD
+adicional. Defina a folha como a parte atacada. A
+zero, perde sua função de bloqueio e libera o vão de
+3 m; os restos permanecem presos lateralmente,
+sem dano adicional ou terreno difícil neste caso. O
+mecanismo deixa de conseguir fechá-lo. Esses
+resultados pertencem à construção declarada do
+cenário, não a todo portão do sistema.
+Ataques contra esses objetos seguem o Livro de
+Regras 1.0, inclusive crítico, dano acumulado e
+adequação ao material. Os valores vêm das tabelas
+de objetos, com porte e material escolhidos para o
+exemplo. Não dão ao Carregador um novo ataque
+capaz de destruir tudo por descrição. Se alguém
+atingir outra parte da construção, informe alvo,
+consequência e regra antes do gasto; não atribua
+automaticamente o resultado de um dos dois alvos
+preparados.
+Para a retirada imediata, basta usar o serviço ou
+uma passagem já liberada. Reabrir o portão intacto
+e reparar o conjunto depois da ocorrência exige
+preparar a tarefa pertinente; não é um teste
+obrigatório para conseguir sair deste encontro.
+
+Cinco escolhas possíveis
+Os exemplos começam nas posições e condições
+descritas, sem outras interferências. Eles mostram
+custos, não uma simulação completa do confronto.
+Parar antes de enfrentar. Mei, com deslocamento
+de 9 m e mão livre, começa em A. Usa Movimento e
+Bônus convertida: 18 m. Percorre A → Q → P por 12
+m e usa a Padrão na parada. Sobram 6 m; pode
+chegar a C se o trajeto continuar válido. Não
+conserva a Padrão para atacar ao chegar. Conforme
+a iniciativa, o Carregador pode agir antes ou depois
+dessa intervenção; parar o motor não lhe retira o
+turno.
+Sair sem provocar oportunidades. Uma
+personagem livre em C, sem excesso de carga, leva
+a caixa e pretende chegar a A. Com o portão aberto,
+um Movimento de 9 m paga os 6 m, preservando
+Bônus. Fechado, Movimento e Bônus convertida
+pagam os 18 m do serviço. Nos dois casos, a Padrão
+pode ser Desengajar se ainda estiver disponível. Se
+gastar essa mesma Padrão para atacar ou escapar
+de uma contenção, não ganha Desengajar junto.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+TERRENO, SAÍDA E SINEIRO
+
+Retirar um aliado. Mei tem Força 2, leva 1 Volume
+próprio e arrasta um aliado de 72 kg com 2 Volume
+de itens: carga conjunta 1 + 72 ÷ 12 + 2 = 9, dentro
+do teto de arrasto 14. O aliado está disposto ou
+inconsciente, ao alcance em C; há mãos, apoio e
+passagem. Com duas ações de Movimento de 9 m e
+a Padrão reservada, percorre os 6 m do atalho por
+custo 12 num turno. Pelo serviço, são 36 m de
+movimento: dois turnos de 18. A Padrão pode
+proteger o próprio movimento por Desengajar em
+cada turno; a pessoa arrastada não provoca
+oportunidade por esse transporte. Se o aliado
+estiver agarrado pelo inimigo, essa conta não
+dispensa encerrar a contenção.
+Preparar antes do fechamento. Uma pessoa em C
+pode gastar Padrão para preparar deslocamento ao
+ver o segundo sinal luminoso e ouvir o aviso
+sonoro, no fim da rodada 2. Se a preparação ainda
+estiver válida e a Reação disponível, move até seu
+deslocamento depois do sinal. Com 9 m, paga os 6
+m até A pelo portão ainda aberto. O movimento
+continua podendo provocar oportunidade. Preparar
+“quando o portão já fechar” não faz a resposta
+acontecer antes do fechamento nem concede
+atravessar o metal.
+Ocupação que muda o resultado. No terceiro
+avanço, Kaito permanece na faixa G: o portão
+aguarda aberto. Se o Carregador o agarrar e
+arrastar para fora na rodada seguinte, confira a
+carga e todo o trajeto. Outros ocupantes ainda
+podem impedir a passagem ao estado fechado. Se
+ao fim dessa rodada a faixa estiver livre e o motor
+ligado, o portão fecha. O Carregador não ganhou
+uma ação ambiental; foi sua ação comum que
+mudou uma condição do cenário.
+A iniciativa altera a ordem das oportunidades. Não
+escreva uma sequência de resgate como se todos
+pudessem agir entre Agarrar e o arrasto do mesmo
+turno. Reações preparadas e permissões específicas
+seguem seus gatilhos; ações comuns esperam seu
+turno.
+
+Encerrar a missão
+Fechar o portão muda o caminho, sem encerrar a
+missão. Quem está dentro ainda pode usar o
+serviço, alcançar a parada, escapar de um agarrão
+ou tentar uma capacidade própria. Quem está fora
+pode voltar pelo serviço. Alcance e visão entre as
+pessoas mudam com as paredes: não permita
+Socorro ou alvo de poder apenas porque a distância
+em linha reta parece pequena.
+
+11
+
+
+=== PÁGINA 12 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+Siga as regras de queda a zero, atendimento e
+retirada da consulta O Carregador no depósito. Um
+ferido no recuo não aparece em C para usar o
+exemplo de transporte acima. Meça o trajeto real,
+pague o entulho e registre a janela de Socorro. O
+motor não causa dano recorrente; o risco adicional
+vem das decisões e do tempo de acesso.
+
+A Doma conserva a ficha experimental da consulta
+Carregador: ficha e Doma, incluindo seu limite
+próprio de transporte. O portão é parte do cenário,
+não capacidade que a entidade passa a possuir.
+Uma domada não recebe a Bônus independente do
+inimigo para reproduzir o movimento que ele
+conseguia somar no turno.
+
+O que terminou
+
+O que ainda pode faltar
+
+Motor interrompido
+
+Caixa, oposição, feridos e retirada.
+
+Carregador derrotado ou acordo
+obtido
+
+Fechamento, socorro e transporte da caixa.
+
+Caixa no pátio
+
+Companheiros no recuo ou no serviço.
+
+Todos no pátio
+
+Informar o estado da criatura, do motor e dos acessos antes de liberar
+trabalhadores.
+
+Registre portão aberto ou fechado, marcador,
+motor, PV dos objetos, ocupantes, caixa e portador,
+criatura, feridos e rotas ainda válidas. O
+encerramento não repara objetos, cura corpos ou
+
+renova recursos. A comparação com a versão sem
+contagem deve registrar o que mudou nas escolhas,
+e não apenas quem venceu.
+
+CONSULTA DO MESTRE
+
+Sineiro do Recolhimento
+Exemplo experimental de chefe. Use esta seção
+para preparar o confronto e consultar a ficha. Os
+números e as capacidades próprias ainda precisam
+de avaliação; ser de nível 6 não indica, sozinho, o
+risco para um grupo desse nível. A conversão para
+Doma deve ser apresentada antes de oferecer sua
+aquisição.
+O Sineiro tenta separar uma pessoa do grupo, levála para o fundo do recinto e esmagar o chão ao
+redor dela. Para desferir esse impacto, precisa parar
+e mostrar a preparação. O grupo pode abandonar a
+área, soltar a presa ou impedir que ele conclua o
+movimento. Depois de bater, fica exposto aos
+golpes de quem permaneceu perto.
+
+preparação, finca os pés, inclina o sino e faz a
+poeira saltar em um círculo. Marque a área afetada
+e informe que o golpe poderá vir no próximo
+turno dele. O aviso inclui o perigo para quem
+continuar ali e a exposição do Sineiro depois da
+pancada.
+O som acompanha a preparação, mas o impacto é
+corporal. Tapar os ouvidos ou deixá-lo Calado não o
+impede. Os sinais visuais permitem reconhecer a
+área sem ouvir; a descrição não concede visão a
+quem não a possui. Na preparação do encontro,
+ofereça sinais que o grupo tenha condições de
+perceber. Os sinos incorporados não são itens
+removíveis com estatísticas de equipamento.
+
+O que mostrar aos jogadores
+Descreva um corpo largo, com um sino oco no
+lugar do tórax e duas mãos pesadas. Ele arrasta
+marcas compridas no chão. Quando começa a
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+12
+
+
+=== PÁGINA 13 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TERRENO, SAÍDA E SINEIRO
+
+Ficha do Sineiro
+Maldição de nível 6, Maestria 1, com alma. Tamanho Grande: ocupa 3 × 3 m. Corpo sólido de 180 kg, dois
+braços, duas mãos e duas pernas. Anda no chão; visão e audição comuns. Compreende frases simples e
+responde por gestos. Não tem Técnica Inata, voo ou passagem através de matéria.
+Força
+
+Destreza
+
+Constituição
+
+Inteligência
+
+Essência
+
+4
+
+1
+
+3
+
+1
+
+1
+
+Campo
+
+Valor
+
+Vida / Integridade
+
+108 PV / 54. Vida escolhida para este exemplo; Integridade é metade.
+
+Reserva própria
+
+0 PE. Sua energia amaldiçoada continua perceptível; as ações abaixo não exigem reserva
+gastável.
+
+Defesa / Bloquear
+
+11 / 2d10. Escolher antes da rolagem de ataque; não gasta Reação.
+
+Iniciativa /
+deslocamento
+
+d20 + 1 / 9 m.
+
+TRs
+
+Físico por Força +5, treinado; Vigor +3, Intelecto +1, Espírito +1.
+
+Perícias treinadas
+
+Atletismo +5; Percepção, Intuição e Furtividade +2. Demais usos seguem atributo e
+requisitos.
+
+Carga / equipamento
+
+Normal 9 Volume, arrasto máximo 18. Começa sem equipamento; seu corpo não conta como
+carga própria.
+
+Ações
+
+Padrão, Movimento, Bônus e Reação comuns. Atacar permite dois ataques, com a limitação
+de manobras abaixo.
+
+Proteções
+
+Sem RD, resistência, vulnerabilidade ou imunidade concedidas por esta ficha.
+
+Instinto
+
+Enquanto acordado, protegido contra surpresa. Não revela escondidos, altera iniciativa ou
+concede ações.
+
+Pancada. Ataque desarmado a 1,5 m, +5, dano
+2d6 + 4 de Concussão; crítico 4d6 + 4. Os dados são
+uma exceção desta ficha de inimigo, não o dano
+desarmado geral de Maestria 1. Resolva cada ataque
+antes de iniciar o seguinte. Um ataque de
+oportunidade usa uma Pancada, nunca toda a Ação
+Atacar.
+Agarrar, Empurrar ou Derrubar. Em cada Ação
+Atacar, pode substituir no máximo um dos dois
+ataques por uma dessas manobras. Usa TR Físico
+CD 13, alcance e requisitos comuns do Livro de
+Regras 1.0. Agarrar exige mão livre; Empurrar
+afasta 1,5 m; Derrubar aplica Derrubado. Não
+acrescentam dano. O alvo pode ser até uma
+categoria maior, mas a forma especial de arrasto
+abaixo só permite levar uma criatura Média ou
+menor.
+Quem estiver Agarrado pode gastar sua Padrão e
+repetir o TR Físico contra a CD original 13 para
+escapar. Guarda Aberta ou Inconsciente no
+agarrador, soltura, perda da mão ocupada ou
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+separação além do alcance encerram o agarrão.
+Derrubar o Sineiro ou causar dano não solta a
+presa automaticamente. Estar Agarrado também
+não impede, por si, atacar, conjurar ou Bloquear.
+
+Arrastar a presa
+Enquanto mantém uma criatura Média ou menor
+Agarrada, pode arrastá-la pelo chão usando seu
+próprio movimento. Com essa capacidade, cada 1,5
+m custa 1,5 m em piso regular ou 3 m em terreno
+difícil. Não ganha deslocamento, ação ou
+imunidade a oportunidades.
+A soma de itens próprios, corpo da vítima em kg ÷
+12 e equipamentos dela deve caber nos 9 Volume
+de carga normal. Esse custo menor só vale para
+uma presa dentro do limite normal. Fora desse
+limite, o arrasto comum continua possível até o
+teto de 18 Volume, pagando 3 m por passo regular
+ou 4,5 m por passo difícil. Não misture os dois
+preços no mesmo trecho sem que a carga ou o
+terreno realmente mude.
+
+13
+
+
+=== PÁGINA 14 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Os dois corpos precisam caber na passagem, com a
+vítima ao alcance da mão ocupada. A permissão
+não atravessa pessoas, paredes ou vãos. A vítima
+sofre movimento imposto e não provoca
+oportunidade por isso; o Sineiro pode provocar. O
+corpo da vítima não vira escudo nem recebe dano
+por ser arrastado neste piso.
+Exemplo: uma pessoa de 72 kg com 1 Volume de
+itens pesa 7 Volume para essa conta. O Sineiro
+pode conduzi-la 9 m regulares usando seu
+Movimento. Se gastar a Bônus como outro
+Movimento, pode continuar, mas perde a Bônus
+que usaria para preparar o impacto.
+
+Dobrar o sino
+Preparação — Bônus no próprio turno. Em pé,
+com apoio no chão e sem Guarda Aberta, o Sineiro
+pode iniciar uma preparação. Marque uma zona de
+3 m de raio, centrada no ponto do chão sob o
+centro de seu corpo. A zona fica fixa. Só pode
+manter uma preparação.
+Interrupção. A preparação acaba se ele mudar de
+posição, voluntariamente ou à força; ficar
+Derrubado, com Guarda Aberta ou Inconsciente;
+perder o apoio; ou for derrotado. Agarrado,
+sozinho, não a encerra. Dano, sozinho, também não
+exige teste de manutenção: esta preparação
+corporal não é Carregar nem Concentração. Esses
+critérios são próprios desta capacidade, não novas
+regras gerais.
+Impacto — Padrão no próprio turno seguinte. Se
+manteve a preparação, pode bater o sino no chão.
+Cada outra criatura na zona faz TR Físico CD 13:
+falha recebe 5d8 de Concussão; sucesso recebe
+metade, arredondada para cima. Role uma vez e
+aplique o mesmo total. Não há Bloquear nem
+crítico nessa resolução. Aliados também são
+atingidos; só o Sineiro fica excluído. Obstáculos e
+cobertura conservam seus efeitos aplicáveis. O
+golpe não destrói automaticamente piso, prédio ou
+equipamento.
+O impacto encerra a preparação e deixa o Sineiro
+com Guarda Aberta até o começo do próximo
+turno dele. Ele não pode Bloquear; ataques corpo a
+corpo com arma ou desarmados que acertem
+causam crítico, conforme a condição. Sua Defesa e
+suas ações restantes continuam existindo. Guarda
+Aberta também encerra os agarrões que mantinha:
+resolva o impacto e então solte a presa. Não pode
+iniciar outra preparação enquanto estiver nessa
+condição.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+TERRENO, SAÍDA E SINEIRO
+
+Pode desistir sem ação. Se não usar o impacto até o
+fim do turno seguinte à preparação, ela acaba.
+Cancelar ou interromper não causa a exposição do
+impacto e não devolve a Bônus investida. Se perder
+a Padrão, não ganha outra ação para desferir o
+impacto. Não existe carga pronta antes do primeiro
+turno, recarga aleatória, reserva de usos ou ataque
+adicional fora do turno.
+
+O salão e a caixa
+Use um salão de 12 × 18 m, piso regular, sem
+obstáculos que causem dano. A entrada tem 6 m de
+largura e leva para uma área externa livre. Marque
+uma caixa de registros de 1 Volume a 9 m da
+entrada e o Sineiro ao lado dela; deixe passagem
+para circular ao redor de ambos. O fundo do salão
+fica a 18 m da entrada. A caixa pode ser recolhida
+pela manipulação simples permitida, com uma mão
+livre, sem tranca.
+O objetivo é retirar a caixa e sair com todo o
+grupo. O Sineiro considera quem toca nela um
+intruso a ser recolhido. Leva sua presa para longe
+da entrada, mas não a arrasta através de outro
+corpo nem exige chegar ao fundo para preparar o
+impacto. Se perder a presa, pode tentar agarrar
+outra pessoa ou ameaçar quem ficou perto. Não
+segue além da entrada; quem atacar de fora pode
+fazê-lo procurar abrigo dentro. Essas escolhas não
+concedem ações gratuitas.
+A caixa pode sair enquanto alguém distrai a
+maldição. Mantenha a entrada disponível; não a
+feche para forçar um desfecho. Se uma pessoa ficar
+inconsciente, o Sineiro para de usá-la como alvo
+deliberado e tenta recolher outro intruso; um
+impacto em área continua perigoso para todos que
+ainda estejam ali. Declare essa conduta na
+preparação e respeite os acordos do grupo sobre
+captura e perigo para personagens caídos.
+Para negociar, ele pode aceitar a saída dos intrusos
+sem a caixa; outra proposta depende de algo que
+consiga compreender e valorizar. Não há teste que
+obrigue uma concessão impossível. O confronto
+termina quando o objetivo for alcançado com o
+grupo fora, houver acordo ou a oposição for
+encerrada; deixar alguém para trás mantém uma
+consequência a resolver.
+
+Uma rodada para responder
+Considere a ordem Rina → Sineiro → Mei → Akira.
+O Sineiro substitui um ataque por Agarrar Rina; ela
+falha no TR. Pode usar o outro ataque como
+
+14
+
+
+=== PÁGINA 15 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Pancada. Conduz Rina 6 m com seu Movimento e
+gasta a Bônus para dobrar o sino. Marca a área, sem
+causar ainda o impacto.
+Mei, Akira e Rina terão um turno antes de ele
+poder bater. Encerrar a rodada depois de Akira não
+dispara o golpe. Rina pode tentar escapar e, se
+conseguir, andar para fora. Mei pode usar uma
+capacidade válida que mova o chefe e interrompa a
+preparação; Empurrar comum só funciona se
+cumprir também seu requisito de tamanho. Akira
+pode retirar a caixa ou ajudar a criar uma saída.
+Nenhuma opção é sucesso automático.
+Se derrubarem o chefe, a preparação acaba, mas
+Rina continua Agarrada até resolver uma causa real
+de soltura. Se lhe aplicarem Guarda Aberta, acabam
+tanto a preparação quanto o agarrão. Se ninguém
+impedir, no próximo turno ele gasta a Padrão no
+impacto; depois fica exposto e solta Rina. Os
+personagens decidem se aproveitam a abertura
+para atacar, socorrer ou sair.
+
+Ferimentos e derrota
+
+TERRENO, SAÍDA E SINEIRO
+
+A 0 PV ou Integridade, pare a atuação e cancele a
+preparação. Não resta um impacto automático após
+a derrota. A ficha não recebe Insistir, Socorro,
+recuperação de vida ou nova fase. Domar exige
+preservar a maldição e seguir as regras da seção
+seguinte.
+Ao testar em mesa: observe se a captura muda
+decisões, se o aviso é compreensível e se
+interromper o impacto oferece uma vitória que vale
+a ação gasta. A comparação com referências de
+nível 6 levou a elevar a vida de 72 para 108 PV, com
+54 de Integridade, preservando dois ataques e 5d8.
+O ajuste busca dar tempo para ele agir quando
+vários feitiços de Classe 2 o atingem. Com uma
+arma e dois feitiços, a versão anterior já durava
+mais; não trate 108 como exigência para qualquer
+trio. A interrupção continua válida, e a preparação
+pode terminar sem atingir ninguém. O ensaio
+guiado acompanha dois percursos com posições,
+recursos e socorro. Seus resultados foram
+escolhidos para ensinar as regras. Ainda é preciso
+testar o equilíbrio da ficha em mesa.
+
+Integridade: 54–41, estágio 0; 40–28, estágio 1; 27–
+14, estágio 2; 13–1, estágio 3; 0, derrota. As
+penalidades são cumulativas: perícias, depois
+deslocamento reduzido para 4,5 m, depois ataques
+e TRs. Essas penalidades não passam a cobrar PE
+pelas ações corporais. Lento também reduz
+deslocamento e impede Bônus, portanto impede
+iniciar a preparação por Bônus mesmo que a
+criatura ainda tenha uma Padrão para converter.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+15
+

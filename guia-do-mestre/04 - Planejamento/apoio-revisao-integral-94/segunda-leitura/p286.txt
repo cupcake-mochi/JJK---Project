@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Campo
+Texto proposto
+Suporte do passageiro
+O apoio não prende automaticamente o corpo. Passageiro inconsciente cai se
+não houver um suporte adequado que o mantenha, conforme Combate
+montado.
+Saída de campo
+Passageiro e carga alheia não acompanham o recolhimento. Siga as regras
+abaixo.
+A classificação CE1 é uma proposta: a capacidade
+de acomodar passageiro e carga é o benefício. Ela
+usa o limite do Livro de Regras 1.0, não aumenta a
+velocidade, não concede voo ou proteção e não
+conserva passageiros fora de campo. Esses são os
+limites da proposta, que ainda precisa ser avaliada
+em jogo.
+Uma vaga continua sendo uma vaga. Duas
+criaturas pequenas não passam a ser um único
+passageiro por caberem no Volume. Se quiser outra
+disposição de assentos, prepare outra proposta
+antes de usar. Aumentar a Força amplia a
+capacidade calculada, não a quantidade de pessoas
+autorizada.
+O limite de 8 também não significa “mais 8 além do
+que a Mula já veste”. A regra geral permite carregar
+certos excessos com penalidades, mas não amplia
+por si a acomodação deste talento. Nesta proposta,
+a capacidade autorizada da albarda é o limite
+normal de 5 + Força. Carga acima disso exige
+reduzir o que será acomodado ou avaliar outra
+montagem; não presuma que o talento comporte 16
+Volume.
+A conta de um passageiro
+Iori tem tamanho Médio e massa corporal de 72 kg.
+Seu equipamento soma 1 de Volume. A equipe quer
+levar também uma carga de 1 de Volume nos
+compartimentos. A Mula não veste nem leva
+equipamento próprio neste caso. Os totais dos itens
+são hipóteses de inventário para a conta, não novos
+valores universais para mochilas ou kits.
+Parcela
+Volume
+Corpo de Iori: 72 ÷ 12
+6
+Equipamento de Iori
+1
+Carga da equipe
+1
+Equipamento próprio da Mula
+0
+Total
+8
+Tudo cabe exatamente. Acrescentar um objeto de
+0,1 levaria a 8,1, acima da capacidade desta
+proposta. Entregá-lo a Iori não resolve: ele e seus
+itens continuam sendo carregados pela Mula.
+Redistribua pelo menos 0,1 para alguém que vá a pé
+ou deixe o objeto no local.
+Se Iori tivesse 84 kg, seu corpo ocuparia 7; com os
+mesmos dois conjuntos de itens, o total seria 9.
+Mesmo sendo um único passageiro e havendo
+assento, seria preciso redistribuir 1 de Volume para
+caber. Não arredonde a massa para baixo nem
+ignore equipamentos vestidos.
+Montar e sair de perigo
+No início desta sequência, a Mula já está
+manifestada e recebeu a tarefa: “Leve Iori pela
+passagem aberta até a porta que apontei; pare
+junto dela.” O percurso tem 9 m de chão regular,
+espaço para o corpo Grande e nenhum obstáculo
+que impeça a passagem. A carga já foi conferida e
+colocada nos compartimentos.
+No turno de Iori, ele está a até 1,5 m da Mula e
+possui deslocamento 9 m. Montar custa metade do
+deslocamento, arredondada para baixo em
+múltiplos de 1,5 m: 4,5 m. Não é um movimento
+gratuito oferecido pela montaria.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+286

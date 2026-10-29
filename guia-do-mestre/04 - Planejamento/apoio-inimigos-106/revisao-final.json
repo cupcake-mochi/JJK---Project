@@ -1,0 +1,77 @@
+{
+  "registro": 106,
+  "pdf": "04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf",
+  "pdf_sha256": "a87f7ec4e2c9551a98d5d09dcfc7aa059b0363e7c1373b09a39878d3d7244acb",
+  "fonte_sha256": "680f7c2aab960997c1b2e9a49c772613f83f710140789ce036593086e3a3a20b",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Conferência da nova redação com método, recursos, habilidades, números, composição, chefes e perigos; leitura da primeira prova de sete páginas.",
+      "resultado": "Oito assuntos preservados, distinção de regra e proposta, consultas completas vinculadas; identificado excesso de extensão em títulos e dificuldade nas tabelas."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Releitura das sete páginas finais e conferência dos números herdados, regras selecionadas, condições e fontes.",
+      "ajustes": "Títulos encurtados; abertura reduzida; exemplos de recursos aproximados da explicação; tabela de limite em duas colunas; dano e crítico separados sem mudar valores."
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "linhas_numericas_comparadas": 9,
+  "trechos_de_regras_conferidos": 9,
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-1.png",
+      "imagem_sha256": "c64ac1322e0ecdc86c5c34d13c00446650afb6fafc6cb943252df9869ee8dc25",
+      "inspecionada": true,
+      "observacao": "Abertura e objetivos em duas colunas; tabela de papéis inteira. Título Preparar a ficha cabe numa linha; links de ficha e Amontoado visíveis. Corpo e rodapé sem corte."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-2.png",
+      "imagem_sha256": "f6bbc7413ecb90397c8838c5287bb905724776bbf82f6e75b558c778d4d3cb49",
+      "inspecionada": true,
+      "observacao": "Tabela dos campos inteira; exemplo de Agarrar mantém CD e resultado legíveis. Exemplos sobre PE e recarga preenchem o espaço que antes ficava livre à direita. Continuação de parágrafo no topo respeita linhas mínimas."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-3.png",
+      "imagem_sha256": "0154f1204aa53e363aabaa4cbbb06e5eb751f496661df7bb0d21162061b195bf",
+      "inspecionada": true,
+      "observacao": "Tabela de seis formas de limitar o uso agora tem duas colunas, com nomes destacados. Exemplo de reserva e custos ao lado das interações. Tabela de fórmulas inteira; valores iniciais são introduzidos antes de continuar na página seguinte."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-4.png",
+      "imagem_sha256": "70a2a16282926738150e3d25266959316e5fd0f4fb2e92879832bacb7a38532d",
+      "inspecionada": true,
+      "observacao": "Tabelas de vida/Integridade e de golpes inteiras. Dano e crítico em colunas separadas e sem quebra das fórmulas. Grupo, apoio e terreno retomam o método, com títulos próximos do texto."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-5.png",
+      "imagem_sha256": "bb1d45024fe0d08c11178059856de51f20772da7d81c592048ef605e5acd1218",
+      "inspecionada": true,
+      "observacao": "Risco, socorro e chefes em fluxo de duas colunas. Ordem do Sineiro e diferença entre turno seguinte e fim da rodada legíveis. Nenhum título isolado; continuação sobre partes permanece identificável."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-6.png",
+      "imagem_sha256": "af79693d7468a410e597b98f4daa3b7f415cee7f6f74f50b352b48f9743fccc8",
+      "inspecionada": true,
+      "observacao": "Tabela de perigos na mesma coluna que sua introdução. Distinções entre dano, condição, limpeza, doença e socorro legíveis. Seção final começa com espaço para a explicação, sem título no rodapé."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-inimigos-106/visual-final/p-7.png",
+      "imagem_sha256": "fc77c8b0bbdbe16e14ebc40222c2dfe121d770b0548d175a1ae06b475df9c742",
+      "inspecionada": true,
+      "observacao": "Fechamento do capítulo em duas colunas equilibradas, com revisão e referências completas. Espaço livre depois do fecho é de fim de capítulo; reavaliar na integração com o restante do livro. Sem parágrafo ou aviso residual em outra página."
+    }
+  ],
+  "limites": [
+    "Amostra isolada; integração do livro ainda pendente.",
+    "Fichas e valores propostos continuam experimentais; sem nova escala ou teste de equilíbrio.",
+    "Sem sessão humana ou leitura externa nesta entrega."
+  ]
+}

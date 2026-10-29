@@ -1,0 +1,16 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+    "antes": "Ensaio escrito da versão 2 experimental",
+    "depois": "Exemplo escrito com a ficha experimental",
+    "ocorrencias": 1,
+    "motivo": "Clareza e linguagem direta"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "**Estado:** exemplo experimental de nível 6, na versão estudada em 26/10/2026. Os números foram preservados. O resultado registrado é um ensaio escrito com dados escolhidos, sem sessão humana ou dificuldade atribuída.",
+    "depois": "**Exemplo experimental de nível 6.** Os dados foram escolhidos para explicar o encontro; não representam uma sessão jogada nem definem sua dificuldade.",
+    "ocorrencias": 1,
+    "motivo": "Clareza e linguagem direta"
+  }
+]

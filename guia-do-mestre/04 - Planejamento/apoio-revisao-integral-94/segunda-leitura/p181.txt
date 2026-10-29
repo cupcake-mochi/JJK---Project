@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+A família pode dar outros nomes à tradição que
+ensina a marcante. Na ficha, conserve a referência
+mecânica Kamo para evitar misturar componentes
+de modalidades diferentes. Este exemplo não
+recebe a exclusiva Ensaio Partilhado: suas duas
+vagas estão ocupadas pelas menores próprias.
+Consulta Preparada
+Menor proposta da família Arata. Uma vez por
+cena, antes de um teste de História ou Ocultismo
+para interpretar um registro escrito que esteja
+disponível e que você possa ler, receba vantagem.
+As duas perícias compartilham esse uso. A tarefa
+conserva seu tempo e sua ação; ativar a menor não
+exige ação ou PE adicionais.
+É necessário ter acesso ao documento e a
+informação procurada precisa poder ser obtida
+dele. A menor não traduz idioma desconhecido, lê
+conteúdo oculto, descobre uma mentira
+automaticamente nem concede treino. Um teste de
+Ocultismo para agir sobre uma manifestação, sem
+interpretar um registro, não é elegível.
+Comparação. Notas de Família, publicada, atua
+depois de uma falha e concede informação parcial
+que possa constar das anotações. Consulta
+Preparada atua antes e modifica a chance do teste;
+não entrega informação na falha. Fundamento
+Incorporado troca um d20 por 10 uma vez por dia
+na perícia da base. A proposta troca essa
+previsibilidade por vantagem na leitura de
+documentos com duas perícias, uma vez por cena.
+Frequência de documentos na campanha importa
+para a avaliação.
+Conferência de Oficina
+Menor proposta da família Arata. Escolha na
+criação um dos dois Ofícios recebidos pela base; a
+escolha fica fixa. Uma vez por dia, quando falhar
+num teste desse Ofício para diagnosticar a causa de
+um defeito num objeto que possa examinar, você
+pode obter uma informação verdadeira e parcial
+sobre a causa, dentro do que o exame permitiria
+descobrir.
+A tentativa original conserva ação, tempo,
+ferramentas e custos. Usar a menor não exige outra
+ação nem PE. A falha no diagnóstico completo
+permanece. A informação não conserta o objeto,
+reduz o trabalho de reparo, revela seu proprietário
+ou identifica uma técnica desconhecida.
+Fabricação, reparo, ataque, cura, exame de uma
+criatura e aquisição de entidades ficam fora deste
+benefício.
+Comparação. A referência é Notas de Família:
+informação parcial após a falha, limitada ao acesso
+possível. A proposta troca História/Ocultismo por
+diagnóstico material num único Ofício, reduz a
+frequência para uma vez por dia e exige exame do
+objeto. Não oferece o treino e as ferramentas
+improvisadas de Gambiarra nem um novo resultado
+de teste.
+As capacidades da família em jogo
+Ren está no nível 2, com Maestria 1, Inteligência 3 e
+treino em História e Forja. Ambos têm bônus 3 + 1
+= +4 nos testes deste exemplo; o atributo de Forja
+foi definido como Inteligência para o diagnóstico.
+Na criação, Ren vinculou Conferência de Oficina a
+Forja.
+No último descanso longo, Execução Ensaiada foi
+preparada para História e Forja. Ren rolou 5, 12 e
+17, guardando 12 e 17. Chega a um arquivo com
+acesso autorizado a um relatório legível sobre a
+tranca do depósito.
+1. O exame do relatório pede História CD 16,
+dificuldade local anunciada pelo mestre. Ren usa
+Consulta Preparada e o resultado reservado 12,
+declarando ambos antes dos dados.
+2. Vantagem ainda exige o outro d20. Ele tira 15 e
+usa o maior: 15 + 4 = 19, sucesso. O 12 é consumido;
+o 17 permanece. A menor não produziu dois dados
+novos além do reservado.
+3. Depois, Ren examina a tranca. O diagnóstico de
+Forja tem CD 18 neste caso. Ele conserva o 17 para
+outra tarefa, rola 9 e alcança 9 + 4 = 13, falha.
+4. Ren usa Conferência de Oficina. O mestre
+informa: “O defeito está no conjunto de molas; este
+exame não identificou qual peça cedeu.” A tranca
+permanece defeituosa. Não foi concedido reparo
+nem uma segunda tentativa.
+Registro ao fim: Consulta Preparada usada nesta
+cena; Conferência de Oficina usada neste dia; dado
+17 disponível no ensaio até o próximo descanso
+longo; Contingência Estudada ainda disponível
+conforme seus próprios usos. O caso não testou
+ataques, então não consumiu esse componente da
+marcante.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+181

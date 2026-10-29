@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Exemplo: Sala de Trégua
+Sala de Trégua, outro exemplo publicado, impede
+dano entre criaturas dentro da sala. Sua ficha inclui
+expressamente o dono, aliados e inimigos. Isso não
+obriga acordo, não impede toda ação hostil e não
+cura ninguém automaticamente.
+Uma criatura ainda pode tentar agarrar outra. Uma
+pessoa fora da sala pode atacar a barreira. A voz do
+dono alcança quem aceita ouvi-lo, mas não força
+resposta nem muda testes sociais. Essas diferenças
+permitem resolver a proposta sem decidir de novo o
+significado de “trégua” em cada ação.
+A Regra Própria do catálogo exige simetria. Já a
+regra de ambiente de um domínio não alcança seu
+dono por padrão, salvo se a ficha disser que alcança.
+Sala de Trégua faz essa inclusão expressamente.
+Não transfira a exigência de uma aquisição para a
+outra só porque ambas escrevem uma regra.
+Na avaliação, prepare ao menos um caso com
+aliado, um com proteção específica e um com
+encerramento. Se dois domínios puderem se
+sobrepor, consulte as regras de disputa e a área
+efetivamente afetada antes de prever um resultado.
+Ter adquirido Completa não garante vencer
+qualquer outro domínio.
+O CE4 da Restrição corporal
+O CE4 da Restrição corporal permite um
+funcionamento extraordinário em um aspecto
+específico. É recebido na criação desse ramo, junto
+do restante da marcante. Não representa uma
+Classe de feitiço nem uma autorização geral para
+aumentar números.
+Rede Remota, exemplo do Livro de Regras 1.0,
+amplia o vínculo com intermediários da técnica até
+3.000 km a partir do corpo. Conserva as
+capacidades, os sentidos, a quantidade de
+intermediários, as ações e os custos que a técnica já
+oferece. Não fornece marionetes por si só.
+Se o corpo estiver a 800 km da missão e a marionete
+tiver um disparo de 18 m, o vínculo alcança a
+missão; o disparo continua medindo 18 m a partir
+da marionete. O usuário não pode atingir qualquer
+pessoa na cidade pela mesma permissão. O
+intermediário precisa chegar ao local e pode ser
+enfrentado ou destruído.
+Para outra proposta, escreva a exceção com a
+mesma precisão: o que ultrapassa a escala habitual,
+como se usa e o que continua limitado. Arquitetura
+Microscópica, Manifestação Colossal e Geografia
+Interior são referências de conceito que ainda
+precisam ter seu funcionamento combinado. Não
+atribua a elas números ausentes nem reúna os
+quatro exemplos num único benefício.
+Confira a condição corporal e os cuidados da ficha
+em conjunto com o CE4. Os três corpos publicados
+são alternativas completas; não se somam
+penalidades para comprar benefícios indefinidos.
+Uma Restrição corporal própria exige comparar os
+benefícios e as limitações escolhidos, dentro da
+exceção de criação prevista no Livro de Regras 1.0.
+Saída Elevada tem outra função: oferece pontos
+adicionais apenas para Melhorias de feitiços
+comuns da técnica de Classe 1 ou maior. Seus
+pontos não usados se perdem, e ela não se aplica a
+Máximas ou Manejos. Não use o CE4 como
+justificativa para aplicar esse benefício a
+montagens que sua descrição exclui.
+Em Restrição corporal: participação e cuidados (p.
+184), Nilo reúne Rede Remota, Corpo Quebradiço,
+entidade e comunicação num caso completo. O
+exemplo conserva os limites de sentidos, ações e
+atendimento.
+7.4 · Dúvidas sobre técnicas
+e capacidades
+Consulte estes casos quando a proposta envolver
+uma permissão particular da ficha. Eles
+complementam Avaliar técnicas e criações (p. 189);
+as capacidades completas continuam nas seções
+correspondentes do Livro de Regras 1.0.
+A troca do Emanador
+Desdobramento Técnico permite Remodelar uma
+parte de um feitiço conhecido de Classe 1 ou maior
+ou Forçar uma Modulação. A escolha acontece
+antes dos alvos e das rolagens. Ela vale para aquela
+conjuração, mantendo o Fundamento, as Famílias,
+as incompatibilidades e os limites.
+Pedido. “Vou retirar esta Melhoria e inventar agora
+uma que resolve o problema.”
+Conclusão. A troca não permite criar uma peça
+durante o uso. Um Efeito Próprio ou gatilho de
+Reação precisa estar registrado previamente. Classe
+0, Talentos, Liberações, Técnica Máxima e
+Domínio não recebem Desdobramento.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+198

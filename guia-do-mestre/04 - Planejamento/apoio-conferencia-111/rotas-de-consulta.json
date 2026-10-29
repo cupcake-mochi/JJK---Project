@@ -1,0 +1,45 @@
+{
+  "registro": 111,
+  "grupos": {
+    "B1": {
+      "metodo": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+      "folhas": [
+        "s024"
+      ]
+    },
+    "B2": {
+      "metodo": "04 - Planejamento/apoio-inimigos-106/capitulo-6.html",
+      "folhas": [
+        "s058",
+        "s061",
+        "s068"
+      ]
+    },
+    "B3": {
+      "metodo": "04 - Planejamento/apoio-personagens-107/capitulo-7.html",
+      "folhas": [
+        "s028",
+        "s032"
+      ],
+      "consulta_publicada": "s092"
+    },
+    "B4": {
+      "metodo": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "folhas": [
+        "s038",
+        "s040"
+      ]
+    },
+    "B5": {
+      "metodo": "04 - Planejamento/apoio-pactos-entidades-109/capitulo-9.html",
+      "folhas": [
+        "s042",
+        "s044"
+      ]
+    }
+  },
+  "guilda": "04 - Planejamento/apoio-guilda-110/capitulo-10.html",
+  "avisos": {
+    "s089": "CD de História em revisão: o exemplo usa 16, fora da escala fixa publicada. Esse valor será corrigido na consolidação; não o use como referência da escala. As menores continuam experimentais."
+  }
+}

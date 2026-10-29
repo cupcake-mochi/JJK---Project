@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+ENTRE MISSÕES
+a desistência, sem resultado relevante para o
+objetivo; o mestre informa a decisão de não
+conceder XP. Quem participou ainda registra a
+posição semanal dessa missão. Isso não é uma
+punição extra escolhida depois: é uma
+consequência da contagem publicada, inclusive
+para missões sem XP.
+Quando houver desacordo sobre o resultado,
+explique a leitura e registre a questão para revisão.
+Mudar o objetivo anunciado apenas no fechamento
+impede os jogadores de entenderem o que estavam
+tentando cumprir.
+Calcule a experiência semanal
+A contagem é por jogador, dentro da campanha.
+Trocar de ficha não reinicia a semana. As duas
+primeiras missões pagam integralmente; a terceira,
+metade; a quarta, um quarto; a quinta, um oitavo; e
+assim por diante.
+Use a conclusão para determinar a semana, no dia e
+horário de reinício definidos pela campanha. Uma
+missão que começa numa semana e termina na
+outra entra na semana do término. Sessões
+intermediárias não ocupam posições extras.
+Aplique os ajustes anunciados e a fração semanal
+sem arredondar os percentuais. Arredonde somente
+o XP final para baixo. Resultado positivo menor que
+1 recebe 1; uma recompensa zero não ganha esse
+mínimo.
+Caso
+Conta
+XP recebido
+Primeira missão padrão da semana
+100
+100
+Terceira missão padrão
+100 × 1/2
+50
+Quinta missão longa
+200 × 1/8
+25
+Quinta missão padrão
+100 × 1/8 = 12,5
+12
+Terceira missão longa, falha com metade
+200 × 1/2 × 1/2
+50
+Mesma missão de falha, participante em sua
+primeira posição
+200 × 1/2
+100
+Missão sem recompensa em qualquer posição
+0 × fração semanal
+0
+No caso de falha, os participantes podem receber
+valores diferentes porque têm posições diferentes.
+Não copie o desconto de quem organizou o registro
+para todas as fichas.
+Se uma missão ocupar uma posição com
+recompensa zero, a seguinte usa a próxima posição.
+Um jogador que encerrou duas missões, sendo uma
+sem XP, está na terceira ao concluir a próxima.
+Essa missão receberá a metade pertinente, se tiver
+recompensa positiva.
+Atualize a ficha e registre os feitos
+Depois de determinar o XP, confira o custo para
+sair do nível atual. O personagem avança no
+máximo um nível por missão concluída, guardando
+o excedente. A passagem do nível 20 ao 21 também
+exige o feito de Limiar, com sua exceção própria de
+XP guardado; consulte a seção correspondente.
+Exemplo. Uma ficha de nível 2 tinha 150 XP e
+recebe 100. Fica com 250, paga 200 para alcançar o
+nível 3 e conserva 50 XP. Atualize os ganhos e
+recursos pelas regras de Progressão, sem
+transformar a subida em descanso. Consulte
+Conferir personagens (p. 171).
+Registre feitos no momento em que acontecerem,
+com informação suficiente para avaliação posterior.
+O feito precisa atender à descrição publicada.
+Inventar uma conquista equivalente ou mudar os
+requisitos exige uma decisão identificada; não
+decorre do fechamento comum.
+Patente depende do reconhecimento de feitos pela
+organização ou mestre, não da subida de nível.
+Registre Grau, motivo e momento da promoção.
+Possuir uma ferramenta de grau elevado não
+promove automaticamente seu portador.
+Feitos do Limiar e promoção de Grau (p. 232)
+confere o socorro de Aoi contra os requisitos do
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+231

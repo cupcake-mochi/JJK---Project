@@ -1,0 +1,63 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+meios, sem contato direto com a pele, evita a
+exposição. O conjunto pronto pesa 1 Volume,
+incluindo o casulo; quem transporta registra esse
+Volume em sua carga. Colocá-lo na caixa e fechá-la
+exige uma Padrão com duas mãos disponíveis, sem
+teste nas condições apresentadas. A pinça permite
+manter o corpo afastado. Não há nuvem, ataque do
+casulo ou relógio secreto enquanto se observa a
+sala.
+Transmissão e evolução
+Campo
+Como funciona neste exemplo
+Quem pode desenvolver a
+doença
+Humanos e outros corpos de tecido vivo compatível definidos na preparação.
+Corpos construídos e maldições não a desenvolvem neste caso. Isso não lhes
+concede imunidade geral a doença ou Veneno.
+Contato capaz de transmitir
+Pele exposta tocando o casulo ou seus fios ainda ligados a ele. Respirar perto,
+olhar, tocar a caixa fechada ou tocar uma pessoa afetada não transmite.
+Exposição
+Ao primeiro contato de uma aproximação, TR de Vigor CD 14. Sucesso evita a
+fixação; falha fixa os fios no corpo e inicia a contagem do tempo. Contato
+contínuo não exige testes por segundo. Depois de afastar o corpo do casulo e
+encerrar o contato, tocá-lo novamente é nova exposição, se ainda não estiver
+afetado.
+Nova exposição de quem já
+está afetado
+Não empilha doença, dano ou prazo. A entrada já registrada continua.
+Incubação
+Seis horas a partir do contato que falhou. Até lá não há dano, condição, redução
+de PE ou impedimento de descanso. Fios finos visíveis no ponto de contato
+permitem reconhecer a fixação.
+Crises
+A primeira acontece seis horas depois do contato; as seguintes, a cada seis
+horas. Faça um TR de Vigor CD 14 por crise. Sucesso evita todo o efeito
+daquela crise e conta para o término natural. Falha causa 2d6 de Veneno e
+aplica Envenenado, independentemente de o dano atravessar as proteções.
+Duração de cada
+Envenenado
+No máximo dez rodadas a partir da aplicação; permite TR de Vigor CD 14 no
+fim de cada turno, sem ação, para terminar antes. Um efeito que remova a
+condição também encerra essa aplicação.
+Término natural
+Dois sucessos consecutivos nos TRs das crises encerram a doença. Uma falha
+zera essa sequência. Ela também termina 48 horas após o contato, antes de
+resolver uma crise nesse horário.
+Tratamento específico
+Duas horas de atendimento com o conjunto disponível na enfermaria e
+Medicina CD 14 ao concluir. Sucesso remove os fios, encerra a doença e o
+Envenenado desta fonte; falha conserva o estado anterior, sem dano extra.
+Esta doença não passa de uma pessoa para outra. Roupas e objetos retirados do casulo não se tornam
+reservatórios ocultos; fios que se separam dele e não se fixaram num corpo perdem essa capacidade.
+Pacientes podem receber ajuda sem contaminar quem cuida. Não acrescente uma epidemia depois de o
+grupo aceitar transportar alguém.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+167

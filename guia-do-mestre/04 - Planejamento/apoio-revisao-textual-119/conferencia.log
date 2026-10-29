@@ -1,0 +1,70 @@
+{
+  "registro": 119,
+  "pdf_sha256": "6c6392f4f1385cfdd40538a75a0b1cc1151c3616c87c2e815c1448e8bbe4af85",
+  "casos_conferidos": [
+    {
+      "id": "s059",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "numeros_preservados": true,
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s060",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s074",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+      "numeros_preservados": true,
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s100",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "numeros_preservados": true,
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s067",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "numeros_preservados": true,
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 17,
+  "rotulos_simplificados": {
+    "Examine…": "Limite de uso",
+    "Confira antes de usar": "O que conferir",
+    "no ensaio anterior.": "no exemplo anterior.",
+    "exceções exclusivas do ensaio": "exceções exclusivas do exemplo",
+    "Vivo após dois conjuntos": "PV positivos após dois conjuntos"
+  },
+  "links_locais_conferidos": 439,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 15,
+  "casos_pendentes": 44,
+  "lotes_pendentes": 11,
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados.",
+  "abrir_caminho": "Requisito de ver ou ouvir corrigido; valores e custo preservados.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

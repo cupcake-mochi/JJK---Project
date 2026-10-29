@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Destino das duas ofensivas
+Chance de derrotar esse alvo
+antes de Sora agir outra vez
+Se sobreviver ferido
+Sora, com 48 PV
+23,9%
+Pode ter de curar a si, gastando a Padrão que
+poderia oferecer Fio.
+Ren, com 67 PV
+4,5%
+Pode receber Remendo se continuar ativo, ao
+alcance e na faixa de vida escolhida.
+São probabilidades condicionadas a esse ponto do
+encontro, incluindo erros e críticos dos feitiços.
+Não são chances de vencer a missão. Se o primeiro
+ataque já derrotar o alvo, a segunda personagem
+pode redirecionar sua ação; o cálculo da derrota
+desse alvo não exige atacá-lo depois de cair.
+A decisão também depende de quem está
+ameaçando o grupo. Atacar Sora pode cortar os
+próximos benefícios, mas deixa Ren ativo. Atacar
+Ren pode demorar mais nesse estado e, se
+funcionar, retira o principal atacante. Um aliado
+prestes a cair, um apoio inacessível ou a
+necessidade de interromper uma capacidade podem
+mudar a prioridade.
+Quanto o apoio acrescenta
+Contra Defesa 13, a espada de Ren acerta em 65%
+sem vantagem e 87,75% com Impulso. O dano
+médio por tentativa passa de 7,39 para 10,12,
+considerando o primeiro teste possível de Kokusen,
+Refino 2 e bônus acumulado zero. Contra a
+resistência a Cortante de Alicerce, nas mesmas
+condições, passa de 3,86 para 5,28. Esses valores
+não incluem Bloquear ou outra redução.
+O reforço também oferece três temporários, mas
+custa a Padrão e 3 PE de Sora. Não dobra a
+quantidade de ataques. Se ela precisar curar, não
+concede um novo Fio naquela Padrão. Se Ren já
+tiver outra vantagem, Impulso não fornece outra
+vantagem; Sora precisa avaliar se vale pagar apenas
+pelos temporários ou escolher outra ação.
+Se Sora cair depois de conceder Fio e antes de Ren
+consumir Impulso, o benefício já concedido
+conserva seu prazo. O efeito da derrota é impedir as
+próximas conjurações. Se Ren cair, Sora ainda tem
+recursos e escolhas; sua ofensiva desarmada,
+porém, é bem menor: cerca de 2,38 de dano por
+tentativa contra Defesa 13 nas mesmas condições
+do primeiro teste de Kokusen. Por isso, sua
+prioridade de retirada faz parte do encontro.
+Esta dupla soma 120 PV e duas iniciativas. Isso não
+a torna equivalente a um Sineiro de 108 PV. Parte
+da pressão desaparece quando um cai; cura, apoio,
+movimento e escolha de alvo disputam ações
+diferentes. Use o conjunto para revisar a
+composição, em vez de transformar a soma de vida
+em dificuldade automática.
+5.19 · Haru, Vigia e Tessa
+Fichas experimentais de nível 15. Leia com a
+comparação entre níveis (p. 97) e o confronto do
+arquivo (p. 157). Prepare Haru sozinho ou Vigia e
+Tessa juntos. Colocar os três no mesmo encontro é
+outra composição, que ainda precisa ser avaliada.
+São humanos contratados para guardar um arquivo
+de contratos. A disputa pode terminar por
+autorização, acordo, retirada ou incapacitação.
+Nenhum precisa morrer para os documentos serem
+recuperados.
+As capacidades de energia e as montagens dos
+feitiços usam o Livro de Regras 1.0. Vida, reservas
+de PE, combinação de capacidades e
+comportamento são propostas próprias destas
+fichas. A ficha de Haru permite dois ataques; isso
+não concede Ataque Extra a todo inimigo de nível
+15. Não recebem habilidades ocultas de Caminho,
+Trilha ou Origem, nem podem ser convertidos em
+personagens jogadores apenas copiando estes
+valores.
+Características dos três guardas
+Todos são Médios, têm alma, dois braços e mãos,
+fala, visão e audição comuns e sentidos de energia
+do Livro de Regras 1.0. Haru pesa 78 kg, Vigia 74 kg
+e Tessa 62 kg. Não possuem resistência, imunidade,
+cura passiva, Domínio, invocação ou redução
+permanente. Não são alvos de Doma.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+153

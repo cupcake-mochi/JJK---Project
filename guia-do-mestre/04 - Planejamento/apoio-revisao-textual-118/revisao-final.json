@@ -1,0 +1,184 @@
+{
+  "registro": 118,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-118/output/pdf/Ciclo-Maldito-Movimento-Socorro-e-Continuidade-Revisao-Textual.pdf",
+  "pdf_sha256": "8deb8ecc3111f558182c32395e568119455601a2837a98c6edd6f35a6f1e5e08",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral dos cinco originais; cópias/remissões e 49 ajustes editoriais.",
+      "registros": 54
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das 21 páginas da primeira prova; 16 ajustes mais dois refinamentos relidos após inspeção.",
+      "registros": 18
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-01.png",
+      "imagem_sha256": "47094928a3ddcb0c5faafecbcc05884c249bdd0ca647aef498b659424ed9e69d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Travessia e salto: títulos, fala, custos e tabela legíveis; sem sobreposição."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-02.png",
+      "imagem_sha256": "d6c5eb8a46a1353c41f3c9382fb5195c85855d24c0b66871d1a1491330a88a0d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Duto e queda: regras de passagem e divisão do impacto; quadro de quatro colunas legível."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-03.png",
+      "imagem_sha256": "e8e3b2c5a67edc51a3b880aa4df2d7990ad17dcaf51ef027738922c4caee9413",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Queda e ponte: parcelas, defesa e características da obra legíveis; abertura de Parkour junto da apresentação."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-04.png",
+      "imagem_sha256": "3bdfdbe8ff76ee6fe099c14f888e3f9f87d285f452889fba3ce0c6cb7dfd161f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Parkour: descrição do percurso junto da tabela, em largura inteira; requisito de aproximação reunido. Espaço de encerramento do conjunto."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-05.png",
+      "imagem_sha256": "7e546bdc9d17b4b573bcbc0c708de95eac62065d38f9ed66689f31edfac2a308",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Ricochete: posições, duas faixas e escolha de Força explicadas; sem título isolado."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-06.png",
+      "imagem_sha256": "99c4e661bffaff6a40c0b9a845d498d6276ee318a7e51eb0c1201eddc44d5d3d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Comparação das trajetórias: medidas e unidades na mesma linha; título e introdução acompanham a tabela. Corda e fechadura legíveis."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-07.png",
+      "imagem_sha256": "fdcb896b59046994ecc67984a0a9f513349b6562e4e0f03cd8aec2b43361cd27",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Algemas e cabo: tabela de perfil legível, requisitos e conta preservados."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-08.png",
+      "imagem_sha256": "e130309d146cd44a8b9e3d5654353d2090816ee407ca0e57841f1dc64f3f7ce0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Garrafa: quadro, desvantagens, crítico e alcance legíveis; exemplo de treino mantido inteiro."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-09.png",
+      "imagem_sha256": "309201cdb7c3126c62f2894363b56965b60905584f8487d27c6a288858e68ff3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Socorro: definição e fórmula da janela inteiras; escolhas e cálculo do tratamento legíveis."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-10.png",
+      "imagem_sha256": "42b0e9132a9109daeb1ae4717cdc0e5e3565424a02ec375166999ebdb905dc49",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Aguentar, Insistir, prazo e dano: cabeçalhos e tabela legíveis. Texto corrido pode continuar entre colunas."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-11.png",
+      "imagem_sha256": "c0bc83f15986a87a5eeaf27768fce27b313ea4a1a581c85ae4118d0b056be00f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Tratamento e estabilidade: comparação do descanso e quadro de duas quedas legíveis, com título e introdução juntos."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-12.png",
+      "imagem_sha256": "19d26ccdfc0075a721e37ca20a8e9086bbe21895e101ef717502195646c7ee66",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Sequelas e derrota: fechamento junto do início da retirada; distinção visual clara entre os dois textos."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-13.png",
+      "imagem_sha256": "aaadf1a3c6f29eb2b3f9dedb435aedfbcbe8ca1ea7ebf2853e76a91cb72d1a42",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Transporte e derrota: conta de carga inteira e estados distintos; sem corte de tabela."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-14.png",
+      "imagem_sha256": "ba25ceb2b7aa26f24814f51b49b00f7bf42d2889997190a7d1eb83d2c42436c3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Descansos: título junto do quadro curto e cuidados em largura inteira; exceções podem ser lidas sem coluna estreita. Espaço entre blocos reavaliável na integração."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-15.png",
+      "imagem_sha256": "7b3e743bc46026514486b2ae7c7f91f3ec498a1f190c2c16ac3726a08b520eff",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Exaustão e descanso longo: duas tabelas largas; comparação com Integridade mantida inteira."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-16.png",
+      "imagem_sha256": "457ef7c51deadcfabe15d64c4689b603409fbbf0fa194d368a313834bccb34e8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Recuperação, consequências e próxima missão: fechamento e fonte juntos; espaço de fim de conjunto."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-17.png",
+      "imagem_sha256": "e3217ff01fe9ac99e05b273666a71b24ca35b5a6c5799395fff1f51e3c32185d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Passagem: resumo e informações conhecidas legíveis; próximo quadro preservado inteiro na página seguinte."
+    },
+    {
+      "pagina": 18,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-18.png",
+      "imagem_sha256": "2ec174cfebca59f0f139d0023d0d52a3cf98d9d9a5874f47322ebb1c89a122ec",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Estado e socorro de Mei: tabelas legíveis; arredondamento por extenso e nota final sem sobra na página seguinte."
+    },
+    {
+      "pagina": 19,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-19.png",
+      "imagem_sha256": "675528e7bb6539780d7c99e8c8a54290cd379f56df31cad741c4841dd9524471",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Perigo, divergência e retomada: cenário e estado pessoal separados; sequência em tabela larga legível."
+    },
+    {
+      "pagina": 20,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-118/pagina-20.png",
+      "imagem_sha256": "e6b328ae509da8483aede32a3b8ddf712ccd7a64838a9e3fffbff656f38111bc",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da prova 5; imagem final idêntica",
+      "observacao": "Depois do socorro: saldos e dúvidas futuras legíveis; referência de recompensa no mesmo parágrafo e coluna. Espaço de encerramento."
+    }
+  ],
+  "limites": [
+    "Duas leituras completas e releitura dos ajustes; sem leitor humano independente.",
+    "Prova parcial; ainda há espaços de fim de conjunto e antes de quadros que devem permanecer inteiros.",
+    "Integração e revisão visual do livro completo continuam pendentes."
+  ]
+}

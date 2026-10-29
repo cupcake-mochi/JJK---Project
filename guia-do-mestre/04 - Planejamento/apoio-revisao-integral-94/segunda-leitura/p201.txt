@@ -1,0 +1,87 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Campo
+O que precisa ficar resolvido no acordo
+Entrada
+De onde vêm os pontos e qual saldo é alterado.
+Ocasião
+Quando pode guardar, quanto por vez e se repetir é permitido.
+Teto
+Máximo acumulado e o destino de um excedente.
+Retirada
+Quando pode acessar, se exige ação e como altera os recursos.
+Continuidade
+O que persiste entre cenas, missões, descansos e revisões da ficha.
+Interações
+Recuperação, reduções de custo e outros estoques relevantes.
+Essas perguntas ajudam a explicar como a proposta
+funciona; não fixam suas respostas. Compare com
+Reserva Excedente, que aumenta o máximo em 2 ×
+Essência, e Recuperação Abundante, que modifica a
+recuperação curta sob suas condições. Acumular
+uma reserva para depois pode produzir
+disponibilidade diferente das duas.
+Antes de aceitar, acompanhe um ciclo completo:
+estado inicial, armazenamento, descanso, novo
+armazenamento e retirada. Se o acordo permitir
+repetir etapas, faça essa repetição na conferência.
+Mostre o total efetivamente utilizável e o que
+limitou seu crescimento.
+Acordo por personagem. Reserva Condensada
+conserva a entrada do Livro de Regras 1.0. A menor
+pertence à Restrição corporal e depende de escolha.
+As perguntas acima ajudam a esclarecer uma
+proposta individual; o Guia não define valores para
+substituí-la. A consulta Reserva Condensada:
+acordo por personagem (p. 187) apresenta os quatro
+campos publicados, uma folha de registro e um
+caso de conferência.
+7.5 · Ampliar uma mescla e
+trocar sua Forma
+Use esta consulta para conferir duas formas de
+alterar um feitiço: Ampliar usa uma Classe maior
+da mesma montagem; Forma Fluida permite ao
+Emanador trocar a Forma durante um
+Desdobramento. O exemplo adapta Pulso de
+renovação, publicado no Livro de Regras 1.0. Os
+nomes, personagens e resultados dos dados são
+ilustrativos; as regras e os preços são os do
+livro-base.
+O feitiço de Yara
+Yara é Emanadora de nível 15, com Inteligência 4,
+Maestria 2 e Classe máxima 4. Sua técnica produz
+fios que cortam e recompõem tecido vivo. Área e
+Amparo estão disponíveis, a preço normal nas
+peças desta consulta. O feitiço não está entre os
+escolhidos para Afinidade Técnica, e nenhuma
+outra capacidade reduz os custos apresentados.
+Seu Selo comum usa um gesto simples de uma mão.
+A Restrição Gesto deste feitiço acrescenta duas
+mãos livres e voz audível, portanto exige algo além
+do Selo. Se a personagem não puder cumprir as
+duas partes, não pode conjurá-lo. A aparência dos
+fios não dispensa essa exigência.
+Pulso de remendo, Classe 3: Aura + base de cura +
+Escolher + Gesto. Ocupa um espaço conhecido,
+com uma Melhoria e uma Restrição. As funções são
+dano Cortante e cura direta; a resolução nociva usa
+TR Físico. A CD de Yara é 8 + Inteligência 4 +
+Maestria 2 = 14.
+A Aura é uma esfera de raio 3 m centrada em Yara.
+Escolher permite selecionar, por percepção válida,
+as criaturas presentes que receberão a parte nociva.
+As demais ficam excluídas dessa parte. Depois do
+dano, um único aliado disposto e válido na área,
+incluindo Yara se escolhida, recebe a cura
+registrada. Essa limitação de destinatário segue o
+exemplo publicado.
+A cura independe do dano: acontece mesmo se
+todos os adversários passarem no TR ou não houver
+inimigo válido. A parcela de dano sem destinatário
+fica sem uso. Os dados não mudam de função.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+201

@@ -1,0 +1,81 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Configuração
+Atuação e pressão
+O que ela permite estudar
+Mesmo mapa com motor
+ativo
+Mesmas ações; um avanço do
+mecanismo no fim de cada rodada,
+conforme o funcionamento do
+portão (p. 130).
+Tarefas concorrentes, saída e
+transporte. O avanço não é uma ação
+do inimigo.
+Mesmo encontro original
+com dois Carregadores
+Duas Padrões inimigas em turnos
+distintos; duas fichas independentes.
+Distribuição de alvos, acesso e perda de
+atuação quando um corpo é
+neutralizado. É uma composição
+hipotética, sem recomendação de
+dificuldade.
+Um Carregador usando
+Preparar
+Investe sua Padrão e responde
+depois com Reação.
+Atuação fora do turno obtida com
+recursos existentes.
+Um corpo com ação
+adicional ou novo turno
+Depende de uma capacidade ainda
+não construída.
+O que justificaria a exceção e quais
+interações ela teria. Não usar esta linha
+como regra pronta.
+Os dois corpos somam 64 PV e 32 Integridade
+apenas como soma dos valores individuais. Não têm
+uma reserva conjunta. Contra eles, a escolha de alvo
+e a derrota de cada corpo importam. Um só corpo
+com 64 PV, 32 Integridade e dois turnos não é uma
+conversão equivalente: seria outra ficha, com outras
+interações e possibilidades de Doma.
+Uma resposta fora do turno já
+possível
+Este exemplo muda a escolha de comportamento,
+conservando a ficha. Use o mapa do portão (p. 130)
+e a ordem ilustrativa Rina → Carregador → Mei →
+Akira. O Carregador está em C, sem segurar
+ninguém; o comando está em P, a 6 m por corredor
+regular e visível a partir de C. Mei começa em A.
+Não há obstáculo adicional nesse percurso nem
+personagem ameaçando o trajeto do Carregador
+neste exemplo.
+Momento
+Declaração e consequência
+Turno do Carregador
+Ele observa o comando e usa Padrão para Preparar deslocamento: depois de
+perceber o clique da parada, aproximar-se de quem a operou pelo corredor.
+Descreva sua atenção ao comando e sua postura de espera. Ele não usa essa
+mesma Padrão para Agarrar ou golpear.
+Turno de Mei
+Usa Movimento de 9 m e Bônus convertida em Movimento de 9 m. Percorre os
+12 m de A até P e usa Padrão para acionar a parada, com mão livre. O motor
+para na posição atual.
+Depois da operação
+O clique perceptível dispara a preparação. Com Reação disponível, o
+Carregador pode gastá-la para se deslocar até 9 m. O caminho de C até P exige
+6 m; a aproximação pode terminar em espaço livre a até 1,5 m de Mei. Não há
+ataque incluído.
+Restante do turno de Mei
+Ela ainda dispõe dos 6 m não gastos de seu movimento. Agora deve conferir a
+posição do inimigo. Se essa resposta foi a única Reação dele, já foi consumida;
+ele não tem outra para uma oportunidade antes do próximo turno. Isso não
+protege Mei contra outros efeitos ou ameaças.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+331

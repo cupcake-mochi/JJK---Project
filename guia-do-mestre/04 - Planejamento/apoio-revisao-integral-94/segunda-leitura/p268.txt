@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Exemplo: mudar o invocador
+Kaito quer transferir a Mei uma entidade criada de
+Classe 3. Os dois têm nível 9 e Classe 3, e Kaito
+consente. Rina, de Classe 4, conduz o trabalho fora
+de combate, com ofício compatível treinado,
+Destreza 4 e Maestria 2.
+O projeto pede 32 ÷ 8 = quatro horas, com ¥2.000 de
+consumíveis por tentativa. Estrutura, ferramentas e
+acesso já estão disponíveis. Não há etapa ativa
+adicional dos donos neste exemplo. O valor dos
+materiais é apenas o orçamento ilustrativo deste
+caso.
+Neste caso, use o Vigia do depósito na versão de
+nível 9: 40/56 PV, 28/28 Integridade, uma carga no
+talismã e nenhuma condição persistente. A ficha
+não possui usos limitados por descanso. Rina
+registra esse estado, executa o trabalho e faz o teste.
+A entidade está uma Classe abaixo dela: CD 8 + 4 +
+2 - 2 = 12. O ajuste vem da comparação de Classes.
+Se a entidade fosse da mesma Classe de Rina, a CD
+seria 14.
+Rina tira 2 e soma 6: total 8, falha. Kaito continua
+sendo o invocador. Ela decide retomar, cumpre
+duas horas e repõe os ¥2.000 de consumíveis. Na
+tentativa autorizada com vantagem, tira 4 e 9; usa 9,
+total 15, sucesso.
+Total: seis horas de Rina e ¥4.000 em materiais.
+Mei recebe o vínculo, com os 40/56 PV, 28/28
+Integridade e a carga conservados. Não recebe uma
+cópia nova da entidade nem recursos restaurados
+pela mudança de nome no registro.
+Quando o dono morreu
+A herança segue as mesmas regras da transferência.
+A morte substitui a exigência de consentimento do
+dono anterior prevista nessa via; não substitui o
+projeto, o teste ou os requisitos do novo invocador.
+Se o teste falhar, o objeto continua sem invocador
+vivo. Se tiver sucesso, um corpo Desligado continua
+precisando do retorno próprio. Um talismã
+conserva a carga e o estado da entidade. A
+oportunidade de herdar não a transforma em uma
+criação nova com recursos completos.
+Não antecipe a herança quando o personagem
+ainda estiver apenas inconsciente ou tiver
+oportunidades de recuperação pelas regras de
+morte. Para os destinos de técnica, criação e
+maldição domada, consulte Obter e criar entidades
+(p. 257).
+Adaptar e registrar o projeto
+O mestre pode preparar um projeto mais detalhado,
+identificando etapas, materiais, acesso e um prazo
+diferente justificado antes do início. Dividir uma
+operação em etapas não multiplica
+automaticamente seus testes nem cobra a mesma
+tarefa duas vezes.
+Conserve o que já foi concluído e o que ainda falta
+na folha da entidade (p. 319). Registre trabalho,
+orçamento, resultado de cada tentativa, invocador e
+estado atual. Outro mestre continua desse acordo;
+uma mudança de responsável pela sessão não
+renova recursos, reduz o retrabalho ou desfaz uma
+passagem já concluída.
+A ficha e a evolução do Vigia (p. 290) conectam
+esses projetos a um resultado concreto e mostram
+quais valores mudam na transferência para Mei.
+9.9 · A prova do Cão de
+sombra
+Exemplo experimental para a pré-1.0. Leia esta
+seção para preparar uma entrada de lista de ritual e
+conduzir sua tentativa. A ficha do cão vem do Livro
+de Regras 1.0. O espaço e as condições da prova são
+uma proposta do Guia, descrita antes do jogo; não
+formam uma regra obrigatória para todo ritual.
+No Livro de Regras 1.0, Kaito obtém o Cão de
+sombra por um espaço conhecido dedicado à
+criatura. Aqui, examinamos outra montagem: uma
+técnica de animais de sombra com um feitiço de
+lista de ritual. São alternativas de aquisição. A
+segunda não acrescenta gratuitamente uma lista à
+primeira nem concede dois cães.
+A entrada da lista
+Kaito está no nível 2, tem Maestria 1 e escolheu
+Essência para calcular a Defesa das suas entidades.
+Sua Essência atual é 2. O feitiço de lista ocupa um
+espaço conhecido válido da técnica. Nesta
+montagem, a lista contém somente o Cão de
+sombra; novas entradas precisam da permissão
+escrita da técnica.
+Objetivo da prova: sozinho, levar o cão a zero de
+vida ou de Integridade, sem destruí-lo e antes de
+cair ou interromper a tentativa. Integridade mede
+a resistência da alma e só é afetada por capacidades
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+268

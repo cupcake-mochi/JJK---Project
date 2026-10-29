@@ -1,0 +1,78 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Na preparação do ambiente, registre também quais
+recursos o grupo já possui. Uma capacidade
+apropriada pode eliminar o risco. Encontrar essa
+solução não obriga você a acrescentar outra ameaça
+para compensar.
+Escolha a regra e a dificuldade
+A Classe de Dificuldade, ou CD, é o número que o
+resultado do teste precisa igualar ou superar.
+Quando houver teste, role d20 e some o bônus
+indicado. A regra define se a pessoa está
+executando uma tarefa ou resistindo a um efeito.
+Situação
+Referência no Livro de Regras 1.0
+A regra já fornece a CD
+Use essa CD e suas exceções.
+Tarefa comum ou perigo sem autor, sem
+dificuldade específica
+Escolha na escala fixa: 6, 10, 14, 18, 22 ou 26, conforme a
+tarefa.
+Avaliação ligada ao poder de um criador
+Quando a regra mandar, use 8 + atributo do criador +
+Maestria e o ajuste da tarefa. Não use os valores de quem
+enfrenta o perigo.
+Evitar ou encerrar uma consequência
+Escreva o Teste de Resistência, ou TR, a CD e o resultado de
+sucesso e falha.
+A escala fixa corresponde a Fácil, Média, Difícil,
+Muito difícil, Extrema e Quase impossível. Ela não
+aumenta só porque o grupo avançou de nível. Para a
+escala do criador, consulte a tabela completa do
+Livro de Regras 1.0: seus ajustes não são os mesmos
+números da coluna fixa e ela não define um valor
+para a dificuldade Extrema.
+Separe as tarefas. Reconhecer um vazamento,
+fechar uma válvula e resistir à exposição não
+precisam usar o mesmo teste. Um comando
+identificado, funcional e ao alcance pode exigir
+apenas a ação de operá-lo. Uma dúvida sobre o
+mecanismo pode ser resolvida por Estudar;
+conhecer a resposta não concede controle à
+distância.
+Exemplo: uma investigação de CD 10 esclarece a
+função de um comando. Mei tira 7 e soma
+Inteligência 4: total 11, suficiente mesmo sem
+treino nessa perícia. Isso responde à pergunta
+formulada. Se o comando está a 18 m, ela ainda
+precisa alcançá-lo ou usar uma capacidade que
+permita operá-lo de outro modo.
+Num TR, sucesso pode evitar tudo, reduzir uma
+parcela ou encerrar uma condição. Não existe
+metade de dano universal por passar no teste.
+Bloquear só substitui a Defesa contra uma rolagem
+de ataque; não substitui esse TR.
+Separe as consequências
+Prepare cada consequência com seu próprio
+funcionamento.
+Consequência
+O que precisa estar escrito
+Dano
+Quantidade, tipo, momento, frequência e resultado do TR, se houver.
+Condição
+Nome, gatilho, duração e saídas.
+Alteração do lugar
+Espaços afetados, movimento, visão, acessos e momento da mudança.
+Dano a objeto
+Parte atingida, material, porte, ataque compatível e consequência de
+chegar a zero.
+Consequência prolongada
+Como começa, como se acompanha, quando termina e qual
+tratamento ou intervenção realmente a encerra.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+105

@@ -1,6 +1,6 @@
 # Piloto editorial de uma situação de cotidiano
 
-21 de outubro de 2026. Primeiro trecho para avaliar o modo de ensinar do Guia. A situação, os nomes e os acontecimentos são originais. O piloto usa orientações de Tarefas e testes, Ofícios, Reparos e Mestrar da R53; não desenvolve a mecânica futura dos treinamentos.
+21 de outubro de 2026. Primeiro trecho para avaliar o modo de ensinar do Guia. A situação, os nomes e os acontecimentos são originais. O piloto usa orientações de Tarefas e testes, Ofícios, Reparos e Mestrar do Livro de Regras 1.0; não desenvolve a mecânica futura dos treinamentos.
 
 ## A entrega trocada
 
@@ -14,7 +14,7 @@ Você pode usar uma oficina que presta serviços à instituição do grupo, uma 
 
 **Necessidade:** o personagem quer recuperar o uniforme e decidir se ainda consegue cumprir seu próximo compromisso como pretendia. Pergunte ao jogador o que ele planejava fazer depois, em vez de determinar que uma autoridade está obrigatoriamente esperando.
 
-**Fatos da situação:**
+### Fatos da situação
 
 - Nara terminou o conserto conforme o projeto combinado.
 - Rui recolheu várias encomendas e trocou duas etiquetas de entrega.
@@ -53,7 +53,7 @@ A descrição informa o problema, oferece meios de agir e devolve uma pergunta a
 
 **Mestre:** “Ana confirma que recebeu uma embalagem com uma etiqueta que parece ter sido trocada. Ela pede o número do recibo e a descrição do remetente. Você tem os dois. Depois de conferir com Nara, diz que pode guardar o volume até você chegar.”
 
-**Comentário de mestragem:** explique o que a outra pessoa precisa. Apresentar informação suficiente pode resolver o pedido. Persuasão será pertinente quando houver uma incerteza social real e uma consequência para a tentativa, segundo o procedimento aplicável.
+**Comentário de mestragem:** explique o que a outra pessoa precisa. Apresentar informação suficiente pode resolver o pedido. Persuasão será pertinente quando houver uma incerteza social real e uma consequência para a tentativa, conforme a regra usada.
 
 **Jogadora:** “Peço à Nara para confirmar a troca e vou buscar. Aviso meu contato de que posso me atrasar.”
 
@@ -79,16 +79,14 @@ Se o grupo só quer buscar o uniforme, a troca pode ser resolvida numa breve des
 
 Uma conversa pode abrir outro assunto, mas não precisa gerar uma missão. Um pedido de Nara, uma informação de Ana ou uma iniciativa do jogador pode ser retomado quando interessar ao grupo.
 
-## Fechar e conservar o que importa
+## Encerrar a cena
 
 Registre que o uniforme foi recuperado e conserva o resultado do conserto combinado. Anote apenas as mudanças de relação ou os compromissos que o grupo realmente estabeleceu: um pedido para voltar, um contato trocado ou uma tarefa aceita.
 
 Na guilda, esse registro ajuda outro mestre a retomar a pessoa e o serviço. Na campanha fechada, a mesma informação pode ficar nas notas de sessão. O tamanho do registro depende do que precisa permanecer.
 
-## O que este piloto permite avaliar
+## Levar o exemplo para sua mesa
 
-O trecho demonstra necessidade cotidiana, NPCs com objetivos, informação acessível, iniciativa dos jogadores, mais de um meio de resolução e fechamento. Serve para avaliar clareza, tom e utilidade dos comentários de mestragem.
+O exemplo mostra como partir de uma necessidade cotidiana, dar objetivos às pessoas e oferecer mais de um caminho para resolver um problema. Ao adaptá-lo, deixe os jogadores escolherem o que merece uma cena e o que pode ser resolvido brevemente.
 
-O exemplo usa uma situação cotidiana sem ameaça de combate. [As batidas no anexo](13-piloto-editorial-ocorrencia-sobrenatural.md) apresenta uma ocorrência sobrenatural acompanhada até o fechamento, com uma base pequena de inimigos proposta a partir da R53 e confronto comentado. O leitor deve conseguir perceber a diferença entre resolver uma necessidade, desenvolver uma relação e receber uma missão. Reutilizar o centro cultural nos dois exemplos é uma possibilidade editorial; buscar o uniforme não obriga o personagem a receber essa missão.
-
-As próximas revisões devem verificar se o texto é compreensível para quem nunca mestrou, se os comentários ajudam sem interromper a leitura e se a situação tem espaço adequado dentro do capítulo. Não houve aplicação com leitores nem teste de mesa deste piloto nesta rodada.
+[As batidas no anexo](13-piloto-editorial-ocorrencia-sobrenatural.md) acompanha uma ocorrência sobrenatural até o fechamento, com inimigos e confronto comentado. Você pode reutilizar o centro cultural nos dois exemplos. Buscar o uniforme, porém, não obriga o personagem a aceitar essa missão.

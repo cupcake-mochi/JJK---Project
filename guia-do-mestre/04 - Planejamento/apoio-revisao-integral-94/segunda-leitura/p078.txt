@@ -1,0 +1,82 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Socorro durante a retirada
+Vencer o inimigo não encerra Morrendo. Se alguém
+ainda tem janela e tratamento em andamento,
+conserve esses dados e resolva o atendimento. Uma
+troca de cena não oferece novas rodadas de socorro
+para a mesma queda.
+Quem foi estabilizado permanece Inconsciente e a
+zero até a saída correspondente. Seu prazo está
+parado pelo tempo, mas dano positivo que alcance a
+vida rompe a estabilidade e consome uma rodada.
+Retirar do perigo continua sendo necessário antes
+da recuperação segura.
+Quem está Derrotado segue outras regras de
+socorro. Se estiver vivo, o tratamento acumulado se
+converte em vida até o máximo atual; curas
+posteriores recuperam vida normalmente. Ele
+continua sem participação ativa naquela cena. Essa
+distinção também vale quando o grupo recebeu
+cura suficiente para ter reservas positivas antes de
+sair.
+Recuperar-se da derrota
+Depois de sair do perigo, um personagem vivo pode
+recuperar a consciência ao concluir um descanso
+curto com atendimento, desde que tenha pelo
+menos 1 de vida e 1 de Integridade. Se ainda estiver
+a zero de vida, use o teste de Estabilizar durante a
+pausa: no sucesso, recupera 1 de vida ao concluí-la.
+Uma nova pausa permite outra tentativa. Esse
+atendimento não restaura Integridade. É a
+aplicação do teste prevista para a recuperação
+depois da derrota; não reabre uma janela de
+Morrendo.
+Uma derrota por Integridade exige uma fonte que a
+recupere ou descanso longo. Um Corpo
+Amaldiçoado com Núcleo Dependente não possui
+essa reserva e conserva sua exceção. Outras causas
+de inconsciência seguem as saídas
+correspondentes.
+Ao sair da derrota, recebe uma Sequela se aquela
+queda envolveu vida a zero; conte só uma para a
+queda, mesmo se houve mais dano enquanto estava
+Derrotado. Derrota apenas por Integridade não
+gera essa Sequela.
+Comparação: na outra versão do combate do anexo,
+a personagem Derrotada chegou a 12 de vida depois
+do tratamento e da cura posterior. Isso não a faz
+voltar à luta. Se sair do perigo, tiver Integridade
+positiva e concluir o descanso curto com
+atendimento, pode recuperar a consciência pelas
+regras do Livro de Regras 1.0. A Sequela da segunda
+queda será registrada nessa saída, em vez de
+antecipar uma volta à cena anterior.
+Um morto não recupera vida por cura comum,
+descanso ou estabilização. Ressurreição exige uma
+permissão expressa da campanha; não é uma
+consequência presumida da retirada.
+Quando o grupo pode descansar
+O Livro de Regras 1.0 não fixa uma quantidade de
+horas para os dois descansos. Confira as condições:
+Descanso
+Quando cabe
+Curto
+Pausa segura entre confrontos; o grupo parou e não está sendo perseguido
+naquele momento
+Longo
+A missão terminou e os personagens puderam parar de trabalhar
+Um ambiente propício oferece abrigo, suprimentos e meios de atendimento. O nome do lugar não basta:
+uma escola sob ataque pode não ser segura; outro abrigo pode ter os recursos necessários. Uma pausa
+contínua é um descanso, não vários porque o grupo o anunciou repetidamente.
+A retirada pode permitir uma pausa curta sem concluir a missão. Dormir durante uma missão não equivale
+automaticamente a descanso longo, embora possa renovar usos por dia conforme a regra.
+Corpos e cuidados diferentes
+As regras gerais abaixo podem ser modificadas pela Origem e por capacidades. Leia essas entradas antes de
+recuperar os valores.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+78

@@ -1,0 +1,4 @@
+from revisar_guia94 import *
+edit(source(18),[('**Exemplo:** Nilo intermedeia','Nilo intermedeia'),('**Exemplo com o piloto:**','**Exemplo:**'),('Para fugir, ele precisa','Para fugir, ela precisa'),('mas continua sujeita aos limites','mas continua sujeito aos limites')],'Segundo pente-fino, páginas 37–39')
+edit(source(19),[('Pedir o que desejam explorar não garante uma vitória ou muda o resultado das regras.','Ouvir o que desejam explorar não garante uma vitória nem altera o resultado das regras.'),('Quando os personagens continuarão em jogo,','Se os personagens continuarem em jogo,'),('Um personagem pode não querer narrar um futuro distante. Ele pode encerrar','Um jogador pode não querer narrar um futuro distante. Pode encerrar')],'Segundo pente-fino, páginas 40–41')
+edit(source(4),[('conversar, preparar algo ou tomar outra coisa.','conversar, preparar algo ou resolver uma pendência.')],'Segundo pente-fino, página 45: expressão sem sentido após a reescrita')

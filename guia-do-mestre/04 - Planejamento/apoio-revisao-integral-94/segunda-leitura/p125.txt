@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Desligar o guincho
+Ao alcance da alavanca no Leste, com mão
+disponível, use Usar objeto, Ação Padrão, sem
+teste: é um comando firme e identificado, que exige
+puxar e sustentar até completar o desligamento.
+Esse custo de operação é definição do dispositivo
+neste cenário. Não é apenas recolher ou guardar um
+item.
+Ao concluir, motor e tração param. Não cobra PE
+nem outra ação para o freio funcionar. Movimento
+restante continua disponível. Uma habilidade que
+manipule objetos à distância precisa permitir
+aquela tarefa, alcance, força e ação; conhecer a
+localização não basta.
+Romper a transmissão
+O pino acessível é uma pequena peça resistente de
+madeira: Defesa 14, 5 PV, sem RD adicional, pelos
+valores publicados de objetos. Use ataques
+permitidos pela ação, alcance e ferramenta capaz de
+danificá-lo. O objeto não Bloqueia. Crítico e
+propriedades da arma seguem suas regras. Não se
+concede um ataque gratuito por haver iniciativa
+sem inimigos.
+A zero PV, o pino deixa de transmitir a tração e o
+freio segura o conjunto. A intervenção encerra a
+contagem, embora o motor continue girando sem
+puxar o suporte. Desligá-lo pela alavanca continua
+sendo providência de manutenção; já não há prazo
+de ruptura causado por esta tração.
+Errar ou causar menos de 5 de dano não fornece
+outro ataque além dos que a ficha permitir.
+Conserve os PV restantes: danos efetivos de 2 e 3
+em ocorrências sucessivas quebram a peça.
+Atributos, crítico e defesas aplicáveis são resolvidos
+normalmente; não use apenas o número natural do
+dado como dano.
+Feitiços só podem atingir o objeto quando seu texto
+permitir. Ele ignora efeitos de mente ou alma e
+Veneno conforme o Livro de Regras 1.0; o tipo de
+dano de outra capacidade precisa ser adequado ao
+material. Cortar o cabo que realmente sustenta a
+passarela é outro alvo, com outra consequência
+física: não recebe o resultado seguro atribuído ao
+pino de transmissão. Se alguém propuser isso,
+esclareça a diferença antes do gasto.
+Evitar o trecho móvel
+Pode-se usar a rota inferior, saltar inteiramente o
+vão entre apoios firmes ou empregar uma
+capacidade apropriada. Não é necessário simular
+falha para valorizar o mecanismo.
+As escadas fixas usam escalada comum: cada 1,5 m
+custa 3 m de movimento. Andar 15 m e escalar 12 m
+totaliza 39 m de movimento na rota inferior. Ter
+deslocamento de escalada muda o custo conforme o
+Livro de Regras 1.0. Correr acrescenta metros, mas
+usa Padrão; se ela foi gasta, não sobra para puxar a
+alavanca naquele turno. A Bônus pode virar
+Movimento.
+Saltar o vão de 3 m, de um apoio firme ao outro,
+pode dispensar teste: Força 0 já permite essa
+distância com os 3 m de impulso; sem impulso,
+Força 0 ou 1 chega só a 1,5 m, enquanto Força 2
+chega a 3 m. Conte impulso e salto no Movimento.
+Com Força 1 sem impulso, a extensão de 1,5 m pode
+ser tentada com Atletismo CD 14. Se falhar apenas
+nesse esforço, alcança sua distância normal e cai
+por não encontrar apoio. Informe isso antes da
+rolagem. As bordas estáveis deste cenário são
+firmes e secas; não acrescente teste de equilíbrio
+oculto.
+Um voo válido pode resolver a travessia, mas não
+transporta automaticamente aliados. Confira carga,
+corpo e, para entidades, o talento de transporte
+necessário. Uma pessoa que caia já consumiu seu
+movimento ou ação conforme a tentativa; não
+reaparece com recursos renovados no piso inferior.
+Se a ruptura acontecer
+Confira quem está efetivamente sustentado pelo
+trecho removido. Quem já alcançou o patamar, está
+no piso inferior fora da projeção, ou se mantém por
+voo ou apoio independente válido não cai por estar
+próximo. A queda não espalha uma área de dano
+pelo galpão.
+Quem cai os 6 m recebe 2d6 de Concussão pela
+altura. A queda não é um ataque: não rola acerto e
+não permite Bloquear. Aplique Vida temporária,
+resistência a Concussão e outras proteções que
+realmente alcancem esse dano. Se receber dano de
+impacto, termina Derrubado. Não acrescente dano
+de Alma, dano adicional de “desabamento” ou outra
+ocorrência pelos mesmos seis metros.
+Nesta disposição, o trecho gira preso à lateral,
+deixando a trajetória de queda livre; o piso inferior
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+125

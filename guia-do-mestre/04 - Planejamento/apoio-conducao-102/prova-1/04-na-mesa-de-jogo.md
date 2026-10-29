@@ -1,0 +1,250 @@
+# Na mesa de jogo
+
+Você preparou a situação. Agora os jogadores vão conversar com as pessoas, examinar o lugar e propor caminhos que talvez você não tenha imaginado. Ouça o que querem fazer, use o preparo e as regras para descobrir o resultado e apresente a próxima escolha.
+
+Este capítulo ajuda a conduzir essa conversa. Os exemplos retomam o anexo e a despedida de Helena, apresentados nos capítulos anteriores. Você pode consultar as [regras usadas aqui](<../../04 - Planejamento/apoio-conducao-102/consulta-de-regras.html>) sem interromper a leitura para procurar cada termo no livro completo.
+
+## 4.1 Descrever, ouvir e responder
+
+Comece pelo que os personagens percebem: onde estão, quem está perto e o que chama atenção. Acrescente posições, distâncias e sinais de risco quando puderem mudar uma escolha. Os demais detalhes podem aparecer conforme o grupo pergunta ou examina o lugar.
+
+> “Helena está à mesa perto da janela, com uma mala ao lado. Nina olha na direção dela, ensaia uma pergunta e se cala quando vocês chegam. Raul acena do balcão. O que vocês fazem?”
+
+Os jogadores têm pessoas com quem conversar e algo que podem querer conhecer melhor. Cada um decide como sua personagem reage. A descrição apresenta a hesitação de Nina; a razão dela será conhecida se a conversa permitir.
+
+### A próxima escolha
+
+**Ouça a intenção.** Se alguém disser “vou falar com Nina”, pergunte apenas o necessário: quer chamá-la para a mesa, saber o que houve ou tratar de outro assunto? Uma proposta que já explica isso pode ser resolvida diretamente.
+
+**Escolha como resolver.** Use a conversa, uma ação da ficha ou a regra pertinente. Se Nina quer contar sua preocupação e pode conversar à vontade, ela conta. Quando existir resistência ou outra incerteza, confira como a tentativa será resolvida.
+
+**Mostre o resultado.** Diga o que a pessoa respondeu, o que foi descoberto e o que mudou. Registre custos e efeitos quando houver. Depois, ouça a próxima iniciativa e dê espaço aos outros participantes.
+
+Se uma escolha parecer estranha, confira a descrição antes de resolvê-la. No anexo: “A entrada de serviço chega ao outro lado do corredor; o depósito continua tendo uma única porta. É esse o caminho que você quer usar?” O jogador pode ter entendido uma ligação diferente entre os lugares.
+
+## 4.2 Quando pedir um teste
+
+Peça um teste quando houver **incerteza e a falha puder mudar a situação**. Uma ação sem obstáculo relevante pode ser resolvida pela descrição. Custos e requisitos próprios continuam valendo mesmo quando não há rolagem.
+
+Para um teste, role um d20 e some o bônus indicado. Igualar ou superar a **Classe de Dificuldade, ou CD**, é sucesso. Ataques e Testes de Resistência têm suas regras próprias; use o texto da ação para escolher a resolução.
+
+### Escolher a dificuldade
+
+Confira primeiro se a tarefa já fornece CD ou cálculo. Para uma tarefa comum sem referência própria, use a escala fixa do Livro de Regras 1.0:
+
+| Dificuldade | CD fixa |
+|---|---:|
+| Fácil | 6 |
+| Média | 10 |
+| Difícil | 14 |
+| Muito difícil | 18 |
+| Extrema | 22 |
+| Quase impossível | 26 |
+
+A dificuldade acompanha o obstáculo. Uma fechadura comum conserva sua CD quando o personagem sobe de nível. Quando a avaliação depende do poder de quem criou um efeito, use a regra correspondente: a base geral é **8 + atributo do criador + Maestria do criador**, com os ajustes próprios dessa escala. Consulte a tabela de Testes antes de aplicá-los; ela não usa todos os degraus da escala fixa.
+
+**Exemplo:** numa tarefa comum de CD 14, bônus +4 e resultado 10 no dado dão **10 + 4 = 14**, um sucesso. Esse cálculo ensina a comparação; cada tarefa ainda precisa de sua dificuldade adequada.
+
+### Antes e depois do dado
+
+Informe os custos e as consequências que a personagem consegue prever. Depois do dado, aplique o resultado da regra. Uma falha pode gastar a ação, deixar uma pergunta sem resposta ou expor uma tentativa. Preserve também as descobertas anteriores.
+
+Quando a regra deixar espaço, você pode oferecer sucesso com um custo coerente. No caso do arquivo, já preparado entre as consultas, a tentativa leva dez minutos. Antes do teste, o mestre oferece a possibilidade de concluir a conferência com mais vinte minutos se ela falhar. A jogadora aceita o tempo adicional depois da falha e encontra o destino da remessa, mas perde o transporte que sairia antes. Pode também recusar o custo e procurar outro meio. Um sucesso normal não recebe esse atraso extra.
+
+Essa oferta resolve a tarefa como foi combinada; não pede outro dado depois de cobrar o tempo. Para ações com resultado já definido, aplique esse resultado: um ataque errado continua errado, salvo capacidade que permita alterá-lo. O [caso completo de testes](<../../07 - Edicao de Leitura/capitulos/c03.html#s082>) mostra horários, contas e alternativas.
+
+### Ajuda e trabalho em grupo
+
+Quando uma pessoa ajuda outra numa tarefa, confira **Ajudar**: a contribuição precisa ser possível e útil. A tentativa do aliado recebe vantagem, sem somar os bônus das fichas. Há um ajudante por teste ou ataque. Em combate, a ação custa uma Padrão e tem prazo até o começo do próximo turno de quem ajudou. Fora dele, a ajuda acompanha aquela tentativa concreta. Requisitos e exceções da tarefa continuam valendo.
+
+Quando todos precisam superar uma tarefa juntos, use **teste de grupo**: cada participante rola e pelo menos metade precisa passar. São dois sucessos entre quatro pessoas ou três entre cinco. Já a ocultação durante combate é individual, assim como um Teste de Resistência pedido a cada alvo. A contagem coletiva só se aplica às tarefas que usam essa regra.
+
+## 4.3 Interpretar e negociar
+
+Para interpretar uma pessoa, retome o que ela quer, sabe e pode oferecer. Você pode falar como ela ou resumir sua resposta. Uma voz diferente é opcional; um desejo claro ajuda a manter a conversa coerente.
+
+O jogador também pode descrever o pedido sem fazer um discurso. Descubra o que deseja obter e como tenta convencer. A partir daí, avalie a resposta possível e se há incerteza que exija teste.
+
+### Um pedido encontra resistência
+
+Na despedida, Nina teme ficar sem alguém a quem recorrer. O grupo pede que Helena aceite ligações a qualquer hora.
+
+**Helena:** “Quero continuar falando com vocês. Mas estou mudando de trabalho e não consigo prometer que vou atender sempre.”
+
+**Jogadora:** “Pergunto se ela poderia marcar uma conversa com Nina depois de se instalar.”
+
+**Helena:** “Isso eu consigo combinar. Posso mandar uma mensagem quando organizar meus horários. Você quer que a gente procure também alguém por aqui?”
+
+**Na condução.** A primeira resposta apresenta um limite real. A nova proposta pode ser aceita porque cabe nesse limite. Nina ainda pode dizer o que deseja desse contato, e os personagens escolhem se vão oferecer outra ajuda. Você resolve pelas vontades e possibilidades das pessoas; não precisa rolar para cada frase da conversa.
+
+Se houver uma tentativa incerta de obter uma resposta cabível, use **Influenciar**, com a abordagem e a CD pertinentes. Em combate, custa Ação Padrão. Um sucesso obtém a resposta possível naquela situação; não controla a vontade nem decide por um personagem jogador. Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.
+
+### Conversas que importam
+
+Dê espaço quando o grupo quiser viver uma despedida, reencontro ou discordância. Ouça o que interessa naquela relação e permita respostas. Quando uma conversa apenas transmite informação conhecida, resumi-la pode ser suficiente.
+
+Um NPC não precisa esconder algo para ser interessante. Helena pode gostar das personagens e ainda assim ir embora. Raul pode oferecer companhia sem ter outra missão para entregar. Essas pessoas passam a importar pelo que compartilham com o grupo.
+
+## 4.4 Conduzir uma investigação
+
+Durante a investigação, acompanhe **o que foi descoberto, por qual meio e o que ainda falta responder**. Apresente a informação obtida com clareza. Se uma conferência confirmou que todos os funcionários saíram do anexo, essa pergunta está respondida.
+
+Uma pista oferece informação; uma hipótese tenta explicá-la. Davi viu caixas se moverem, mas não enxergou a causa. Se o grupo concluir que um objeto está possuído, explique o alcance do relato: ele não viu algo entrando ou saindo das caixas. Depois, ouça como querem verificar a hipótese.
+
+### A pergunta e o meio
+
+Ajude o jogador a encontrar a regra para o que deseja fazer. **Vasculhar** procura uma presença ou pista; **Estudar** ajuda a compreender algo observável; **Ler o Ambiente** procura algo aproveitável do lugar. Cada opção conserva seus requisitos, custo e resultado. A [consulta de percepção](<../../07 - Edicao de Leitura/capitulos/c03.html#s083>) compara os casos.
+
+Localizar uma fonte por som ou energia informa o que aquele meio permite. Isso não concede automaticamente visão, identidade ou conhecimento de seus poderes. Confira sentidos, obstáculos e alcance antes do dado. Quando uma ação dispensa rolagem, seu custo pode permanecer: Vasculhar com Sentir Energia, por exemplo, ainda exige Ação Padrão para localizar uma fonte acessível e sem ocultação ou interferência.
+
+Se a tentativa falhar, resolva sua consequência e apresente o que continua disponível. Estudar em combate gasta a Padrão e deixa a pergunta sem resposta segura; repeti-la exige nova pista ou mudança de abordagem. Outras ações têm suas condições próprias de repetição. Uma busca sem alcance para examinar o que está atrás de uma porta precisa de outro meio, não de um dado maior.
+
+### Quando o grupo perde o rumo
+
+Pare para reunir os fatos com os jogadores. No anexo, você pode dizer:
+
+> “Vocês confirmaram que os funcionários estão fora e conhecem os dois acessos ao corredor. Davi viu caixas se moverem. Ainda não observaram a causa. O que querem descobrir agora?”
+
+Se a confusão veio de uma frase sua, esclareça-a. Se o grupo entendeu os fatos, mas não sabe como agir, retome os meios conhecidos: falar com alguém, examinar um sinal acessível, procurar outro acesso ou pedir apoio. Os jogadores escolhem o caminho.
+
+Use as fontes alternativas preparadas e aceite outras que façam sentido. Uma planta pode mostrar o acesso de serviço; ela continua sem informar a posição atual da maldição. Se faltou preparar uma informação necessária, complete o detalhe coerente ou reconheça a necessidade de buscar outro meio. O registro de descobertas pode ser uma nota curta enquanto isso bastar para continuar.
+
+## 4.5 As ideias dos jogadores e o cenário
+
+Uma proposta inesperada pode abrir um caminho melhor. Entenda **o efeito desejado e o meio usado**. Depois, confira posição, percurso, alcance, ações e recursos que resolvem a tentativa.
+
+### Uma solução funciona
+
+O grupo pede a planta e procura a entrada de serviço. Ana aceita ajudar e tem essa informação. Mostre o caminho; a aproximação passa a ser outra. Você ainda conhece o estado do corredor e do depósito, e pode continuar a partir dali.
+
+Outro personagem quer puxar uma chave visível com seu feitiço. Se a aplicação move objetos, alcança a chave e tem passagem suficiente, use seu efeito. Ele paga os custos e recebe o resultado permitido. A capacidade torna aquela solução possível e merece funcionar.
+
+### Quando falta um detalhe
+
+Alguém pergunta se há uma janela no café para acenar a Helena. Isso é compatível com o lugar já descrito: confirme a posição e acompanhe a ação. Complete detalhes comuns a partir do cenário e anote os que precisarão continuar verdadeiros depois.
+
+Se a proposta acrescentar dano, uma condição ou um efeito que a ficha não oferece, confira a regra antes de resolver. Uma pilha de caixas pode ser movida conforme carga, força, ações e percurso; causar um desabamento com dano exige uma resolução própria. Explique o que já pode ser feito e prepare o efeito que ainda falta, se a mesa quiser segui-lo. Uma pausa curta pode ser necessária.
+
+Para escolher a regra, use a ação descrita: atacar com um objeto remete a armas improvisadas; carregar alguém remete a carga e transporte; ajudar num ataque remete a Ajudar. Os [casos de movimento](<../../07 - Edicao de Leitura/capitulos/c03.html#s084>) e de [ferramentas e improvisação](<../../07 - Edicao de Leitura/capitulos/c03.html#s085>) oferecem exemplos completos.
+
+### Atualize o lugar
+
+Uma porta aberta, uma caixa movida ou uma corda instalada muda a próxima decisão. Diga onde as pessoas e os objetos ficaram e quais efeitos continuam. Use medidas quando alcance e deslocamento importarem. Uma ideia de ação conjunta também precisa caber nos turnos: Preparar ou outra capacidade pode permitir agir no momento necessário.
+
+## 4.6 Atenção, ritmo e mudança de cena
+
+O ritmo acompanha o interesse da mesa e o que ainda há para decidir. Algumas conversas merecem tempo; outras podem ser resumidas. Observe se os participantes estão fazendo novas escolhas ou apenas repetindo o que já foi resolvido.
+
+### Quem ainda não falou
+
+Depois de ouvir uma proposta, convide os demais: “Enquanto vocês conversam com Helena, quer fazer algo ou prefere acompanhar?” A pessoa pode observar e participar depois. Quem está em silêncio pode estar gostando de ouvir; se a dúvida continuar, converse com ela durante uma pausa.
+
+Se alguém for interrompido, retome sua fala: “Você estava dizendo o que queria perguntar a Nina. Pode continuar.” Numa mesa online, nomear a pessoa a quem você devolve a vez ajuda a organizar as falas.
+
+Se uma pessoa decidir por todo o grupo repetidamente, interrompa com clareza: “Já entendi seu plano. Vou ouvir o que os outros querem fazer antes de resolver.” Depois, dê esse espaço e acompanhe as decisões de cada jogador.
+
+### Quando a cena se repete
+
+O grupo já combinou contato com Helena, mas continua refazendo o mesmo pedido. Retome o resultado: “A conversa futura está combinada. Há algo novo que querem propor ou dizer antes da partida?” Se alguém quiser uma despedida pessoal, acompanhe. Se a mesa já terminou, resuma a saída.
+
+Você pode passar por um trajeto tranquilo em uma frase. Antes, confira se alguém pretende agir no caminho e mantenha o tempo que decorreu. Pare na próxima escolha relevante. Resumir a caminhada não impede um encontro que o grupo ainda queira viver.
+
+### Grupo separado
+
+Anote onde cada pessoa está e o que sabe. Alterne depois de uma escolha ou resposta suficiente para que os outros possam agir, em vez de concluir uma longa sequência com uma única pessoa.
+
+No café, um personagem conversa com Nina ao fundo; outro acompanha Helena até a saída. Ouça o pedido a Nina e sua resposta, depois volte à outra conversa. Os personagens só conhecem o que puderam perceber ou o que lhes foi contado. Essa alternância organiza a atenção; a duração de cada ação determina quais acontecimentos podem coincidir.
+
+Quando houver combate, use a iniciativa e as regras de turno, inclusive para quem está distante. A mudança de foco da narração não oferece ações extras nem apressa uma tarefa em andamento.
+
+### Expectativas diferentes
+
+Uma jogadora quer continuar a conversa, enquanto outra pessoa reclama que esperava um confronto. Faça uma pausa breve fora da história: “Esta cena foi preparada como despedida. Podemos fechá-la agora ou ouvir quem ainda quer conversar. Depois, vamos rever o espaço que cada tipo de situação terá nas sessões.”
+
+Ouça os participantes e ajustem o próximo passo. Talvez uma cena curta atenda ao grupo; talvez a proposta da campanha precise mudar. Evite responder à frustração criando uma emboscada ou uma punição para as personagens. O assunto é a experiência que as pessoas querem compartilhar. Os acordos mais amplos são tratados em Criar uma campanha.
+
+### Cena, sessão e missão
+
+A **sessão** é o encontro real para jogar. Uma **cena** acompanha uma situação em andamento e termina quando a pressão daquele trecho acaba. A **missão** pode atravessar várias cenas e sessões. Resumir uma conversa ou mudar de sala não encerra automaticamente a situação para renovar recursos.
+
+Anuncie a mudança quando ela afetar usos de habilidades. Uma perseguição continua sendo a mesma situação ao atravessar outra sala. Um descanso exige suas condições próprias. Assim, o ritmo da conversa pode mudar sem apagar o estado das fichas.
+
+## 4.7 Combate, socorro e retirada
+
+Quando começar um confronto, apresente as posições conhecidas, confira as fichas e organize a iniciativa antes das ações disputadas. Declarar um ataque primeiro não concede um golpe gratuito. Uma aproximação diferente também não oferece surpresa por si só; aplique o que as regras e capacidades permitirem.
+
+### Acompanhar o combate
+
+Na iniciativa comum, role **d20 + Destreza**, com os modificadores ativos, e ordene do maior total para o menor. Em empate, compare a Destreza. Se ela também empatar, personagem de jogador vem antes de inimigo; entre jogadores, os envolvidos escolhem a ordem; entre inimigos, você escolhe. Registre a ordem para o combate.
+
+Resolva cada ação e suas respostas antes de seguir. A Reação volta no começo do turno de seu dono. Mantenha posições, vida, PE, Integridade, condições e usos atualizados, respeitando as exceções de cada ficha. Confira também o objetivo: alguém pode estar tentando escapar ou retirar uma pessoa, em vez de derrotar todos os inimigos.
+
+### Quando um personagem cai
+
+Estas regras de queda são dos personagens jogadores. Inimigos e entidades seguem suas próprias regras. Quando a vida de um personagem chegar a zero, faça o seguinte antes de passar à próxima ação:
+
+1. **Confira a Integridade.** Se chegou a zero, resolva Derrotado por essa reserva. Insistir não permite agir com Integridade zerada; fichas sem essa reserva conservam sua exceção.
+2. **Anote o máximo de referência.** É a vida máxima no momento da queda, sem vida temporária. Ele fica fixado para calcular o tratamento daquela queda.
+3. **Abra a janela de socorro.** Começa com três rodadas, menos uma por Sequela anterior. Sem rodadas, o personagem fica Derrotado imediatamente. Uma capacidade disparada pela queda só supera isso se disser expressamente.
+4. **Com janela, resolva capacidades da queda.** Se encerrarem Morrendo, siga sua regra. Caso contrário, o jogador escolhe Aguentar ou Insistir. Quem já estava Inconsciente Aguenta.
+5. **Registre tratamento e prazo separadamente.** Marque o ponto da iniciativa em que ocorreu a queda e acompanhe os dois registros.
+
+### Aguentar ou Insistir
+
+| Escolha | Tratamento necessário |
+|---|---|
+| Aguentar: fica Inconsciente | 1/4 do máximo de referência, para cima, sem teto |
+| Primeiro Insistir da cena: conserva ações e recursos disponíveis | 1/3 do máximo de referência, para cima, até 15 × sua maior Classe |
+| Segundo Insistir ou posterior na cena | 1/2 do máximo de referência, para cima, com o mesmo teto |
+
+A maior Classe é a categoria indicada na ficha, diferente do nível. Insistir não devolve ações ou recursos gastos, não encerra outras condições e não consome uma rodada como preço inicial. Conte uma escolha por queda. Quem escolheu Aguentar não pode mudar para Insistir naquela queda. Quem Insiste pode passar a Aguentar sem ação, mantendo requisito, tratamento e prazo; não pode voltar a Insistir naquela queda.
+
+### Tempo, dano e cura
+
+Cada volta completa até o ponto da queda consome uma rodada da janela. Quando chegar a zero, fica Derrotado. Uma ação que começaria nesse ponto não antecipa o prazo já esgotado; capacidades com gatilho próprio conservam seu momento. Fora de combate, organize turnos e marque o começo da primeira rodada como ponto da queda.
+
+Cada ocorrência posterior de dano positivo que alcance a vida também consome uma rodada. O excesso do golpe que iniciou a queda não faz isso; dano reduzido a zero ou totalmente absorvido pela vida temporária também não. Esse dano posterior conserva o tratamento já recebido e a exigência da queda.
+
+Enquanto estiver Morrendo, a vida atual permanece zero. Some separadamente a **cura válida**, depois dos impedimentos e modificadores da fonte. Ao alcançar o necessário, todo o tratamento vira vida, até o máximo atual. O requisito não é descontado. Encerre a queda e registre uma Sequela. Cura insuficiente não renova a janela; vida temporária não é tratamento.
+
+**Exemplo:** máximo de referência 23 e maior Classe 1 pedem 8 no primeiro Insistir. Uma cura de 5 deixa 5 de tratamento e vida zero. Outra cura de 3, antes de a janela acabar, completa 8: sai de Morrendo com 8 de vida e uma Sequela. Outras condições e ações já gastas continuam valendo.
+
+### Estabilizar e Derrotado
+
+Para **Estabilizar**, o alvo precisa estar Inconsciente e Morrendo. Quem atende fica a até 1,5 m, com acesso físico, uma mão livre e meios adequados. Gasta Ação Padrão e faz Medicina CD 14; em corpo construído, usa o Ofício compatível e seus requisitos.
+
+No sucesso, o tempo para de consumir a janela; não cura nem acorda o alvo. Dano positivo que alcance a vida rompe a estabilidade, consome uma rodada e marca novo ponto para a contagem. Depois de sair do perigo, concluir um descanso curto permite a saída excepcional: recupera 1 de vida, soma o tratamento válido anterior até o máximo atual e encerra Morrendo com uma Sequela, respeitando impedimentos de cura.
+
+**Derrotado** encerra a participação ativa naquela cena e deixa o personagem Inconsciente. Na campanha padrão, isso não causa morte automática. Resolva o destino pelos acontecimentos e pelos critérios de morte já definidos antes da missão. Se vivo, o tratamento acumulado vira vida e curas posteriores funcionam normalmente, mas reservas positivas não o devolvem à cena.
+
+Depois de sair do perigo, a recuperação da consciência depende de atendimento, descanso e reservas conforme a causa da derrota. Consulte a regra completa, incluindo corpos e capacidades com exceções. Depois da segunda queda na missão, registre também com o jogador se houve Cicatriz e a escolha de seus efeitos. Os [casos de quedas e socorro](<../../07 - Edicao de Leitura/capitulos/c04.html#s022>) reúnem essas diferenças e o exemplo de duas quedas.
+
+### Sair do perigo
+
+Mostre os acessos e riscos que os personagens podem conhecer. Para carregar alguém, confira carga, mãos, percurso e ações. Um aliado disposto ou Inconsciente dispensa Agarrar para o transporte, mas continua contando na carga. Movimentos conjuntos precisam caber nos turnos.
+
+**Desengajar** normalmente custa Ação Padrão e protege os movimentos de quem usou a ação naquele turno contra oportunidades. Uma oportunidade exige saída do alcance corpo a corpo, percepção adequada do alvo e Reação disponível, além dos requisitos do ataque. Confira as regras de movimento imposto e transportes antes de aplicá-la.
+
+A retirada pode permitir uma pausa segura sem resolver toda a missão. Quem ainda está Morrendo conserva tratamento, janela e estabilidade; vencer o inimigo não encerra esse estado. Para descansar e recuperar quem está Derrotado, consulte [Retirada e recuperação](<../../07 - Edicao de Leitura/capitulos/c04.html#s023>). A ameaça e o objetivo pendente também precisam de continuidade.
+
+## 4.8 Dúvidas e fim da sessão
+
+Quando surgir uma dúvida, leia a capacidade e a regra geral que ela modifica. Confira ação, alvo, alcance, resolução e prazo. Explique a resposta antes da escolha que depende dela, sempre que possível.
+
+Se a dúvida persistir, combinem uma decisão para aquela sessão e anotem o trecho que causou interpretações diferentes. Depois, confiram e comuniquem a correção a quem foi afetado. Na guilda, encaminhem pelo canal da comunidade; uma decisão provisória de mesa não vira regra comum automaticamente.
+
+### Encerrar no horário
+
+Avise quando estiverem se aproximando do fim do encontro. Pergunte o que o grupo ainda quer resolver e procure um ponto de pausa. Se a situação continuar em andamento, registre-a nesse estado; não é necessário derrotar a ameaça ou concluir a missão para guardar o jogo.
+
+Se restam poucos minutos e o grupo quer iniciar um confronto, apresente o tempo disponível: vocês podem preparar a aproximação e continuar o combate no próximo encontro, ou combinar outra duração se todos puderem. A decisão sobre o horário é feita entre as pessoas.
+
+Ao interromper um combate, anote a ordem, o próximo ponto de ação, as posições, as reservas, os efeitos e as respostas pendentes. Para alguém Morrendo, inclua máximo de referência, escolha, tratamento, janela, estabilidade e ponto da queda. Esses dados permitem retomar sem refazer resultados.
+
+### Guardar o que mudou
+
+Confirme com os jogadores as alterações nas fichas, os resultados e os compromissos assumidos. Registre também quem sabe o quê e o que será feito depois. Uma nota pode bastar para a despedida: Helena partiu; Nina e ela combinaram contato; uma personagem quer visitá-la no futuro.
+
+Na guilda, compartilhe o necessário para que outro mestre possa continuar. Numa campanha fechada, mantenha essas notas acessíveis ao grupo. Recuperação, progressão e recompensas seguem suas regras.
+
+Termine com uma pergunta concreta, como “Em que momento faltou informação para você decidir?” ou “O que você gostaria de retomar na próxima sessão?”. Use a resposta para preparar o próximo encontro. Criar uma campanha mostra como reunir essas escolhas ao longo do tempo.

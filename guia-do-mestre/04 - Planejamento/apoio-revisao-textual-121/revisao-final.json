@@ -1,0 +1,144 @@
+{
+  "registro": 121,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-121/output/pdf/Ciclo-Maldito-Terreno-Saida-e-Sineiro-Revisao-Textual.pdf",
+  "pdf_sha256": "a9611cb15a7c7706d278948899b476c521d0716c193fa3b299d207c0eda51510",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 78,
+      "escopo": "Leitura integral das quatro fontes, quatro cópias, atualização de remissões e revisão de clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 25,
+      "escopo": "Leitura integral das quinze páginas da primeira prova completa, pente fino e um refinamento de título relido."
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-01.png",
+      "imagem_sha256": "5c8edf7627f3e9a28a0f802647a5f8f9a5ddd9301e75202cf87aa721cf3fb525",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Abertura, chamado e tabela dos percursos completos e legíveis."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-02.png",
+      "imagem_sha256": "304b8075b2c295d5192cc0c10cfc0d04fbcaeb6f8150aa192192fd41afbe2c79",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Mapa vetorial nítido e sem margem branca excedente; bordas, escadas, altura e distâncias distinguíveis. Abertura do relógio legível."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-03.png",
+      "imagem_sha256": "da90218b9ee5540a5c93f51b27c21fd2ed91a07e8224a9e5fde20dda4fa2cbd3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Título, introdução e tabela dos três avanços juntos; linhas completas e regras de parada legíveis."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-04.png",
+      "imagem_sha256": "822253c4eabcce542e7d0473692f2fce3fa81d70f18052abeead4029d3827001",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Saltos, objetos, queda e respostas preparadas; títulos e exemplos sem sobreposição."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-05.png",
+      "imagem_sha256": "56482cdb3d7f5c3a602845c9a2a9e2152ba413e4b21cdf0cbaeadcb4c3d43d0e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Socorro, três exemplos e começo do resumo; linhas inteiras."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-06.png",
+      "imagem_sha256": "19fd29f20c55a51ceba855b5bcf35b315e9cd31c680f5277b3536c6f487120a6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Resumo com cabeçalho repetido; fechamento da passarela e começo do método. Quadro de três versões em largura inteira, com título e introdução."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-07.png",
+      "imagem_sha256": "3567bf68918b268248118c565463bcb4b26d571df047ecd8479af9b27dae0c82",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Ações concorrentes, lista e cálculo por trechos; quadro em coluna legível."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-08.png",
+      "imagem_sha256": "88c801c4b39282dc58449945e4a61b15336835df84bac87bd3d69c87aa209a9a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Consulta de avaliação legível; cabeçalho e abertura do portão distintos."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-09.png",
+      "imagem_sha256": "452e222276b093015bd8f2c29c709b4a38a0802869b85cf062f3b31be477edfe",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Mapa vetorial com A/G/C/P/Q e parede, sem corte; legenda e tabela dos caminhos legíveis."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-10.png",
+      "imagem_sha256": "0c9e39fef9039ba8c49124517cd53640e23d13ad7fa273627368ec1159a0a9f6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Relógio e sensor do portão em quadro largo; operar e ocupar a faixa legíveis."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-11.png",
+      "imagem_sha256": "3ca93debba1b9cbd5cea1d05a30f719174919286efff59889b3195af1ed6b9c8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta; imagem final idêntica à última versão inspecionada",
+      "observacao": "Destruir comando e portão em definições inteiras; exemplos, Padrão e Reação completos e legíveis."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-12.png",
+      "imagem_sha256": "067b1b859df071bee58635de96bfd85831da6d8b5f2de1dd7de1f12441725723",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Fechamento do portão, abertura do Sineiro e sinais; aviso corporal em largura inteira, sem continuação solta na página seguinte."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-13.png",
+      "imagem_sha256": "028a3070c796d69c27ca160db859a3606b023e55ccae3263a7fafa9ab3d4c201",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Ficha do chefe e manobras legíveis; fórmula de massa e faixas não se partem indevidamente."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-14.png",
+      "imagem_sha256": "6f514e1bc2249779bd2a88a71a6d7dfa58c722d65f98aa27ec5e4a8ffddbbde1",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Preparação, interrupção, impacto e exposição consultáveis na mesma página; salão e comportamento legíveis."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-121/pagina-15.png",
+      "imagem_sha256": "4e4f8f45f8ce07d613c66e624e11490f3131296dfd83f2d1217d6447316cfcb0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Título e início do exemplo de rodada juntos; ferimentos e derrota em coluna, faixas numéricas inteiras. Espaço de fechamento do conjunto."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Espaços de fechamento e antes de quadros reunidos serão reavaliados na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

@@ -1,5 +1,7 @@
 # Guia do Mestre — edição diagramada pré-1.0
 
+**Atualização vigente — registro 93, 26/10/2026:** capítulo 1 revisado; PDF com 359 páginas, inspeção de todas as páginas após a repaginação. Próxima tarefa: capítulo 2, GPT-6.1 Sol, esforço alto. Consulte o [relatório da revisão](<../04 - Planejamento/93-revisao-editorial-do-capitulo-1.md>). As descrições anteriores registram a entrega 92.
+
 Abra o [livro em PDF](output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf). Ele usa o padrão tipográfico da R53, com duas colunas, tabelas na largura útil, sumário, remissões e índice clicáveis. O aprofundamento da obra fica no apêndice D, sinalizado por conter revelações.
 
 O [relatório de revisão crítica](<../04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>) informa as mudanças e os limites. Esta é uma edição para leitura e avaliação, não uma declaração de equilíbrio em mesa.

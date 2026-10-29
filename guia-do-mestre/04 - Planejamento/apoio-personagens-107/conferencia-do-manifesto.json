@@ -1,0 +1,19 @@
+{
+  "registro": 107,
+  "entradas_anteriores": 1509,
+  "entradas_anteriores_preservadas": 1500,
+  "controles_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "LEIA-ME.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md"
+  ],
+  "arquivos_ausentes_ou_alterados_fora_do_lote": [],
+  "metodo": "Todas as entradas anteriores conferidas; atualização por união restrita aos nove controles e aos arquivos da entrega 107.",
+  "limite": "Verificação de integridade documental, não teste de aprendizagem ou equilíbrio."
+}

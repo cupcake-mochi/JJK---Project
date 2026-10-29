@@ -1,0 +1,16 @@
+{
+  "data": "2026-10-28",
+  "registro": 98,
+  "etapas_planejadas": 8,
+  "estado": "planejamento entregue; execucao editorial pendente",
+  "links_ausentes": [],
+  "indices_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "pdf_inalterado": true,
+  "pdf_sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b"
+}

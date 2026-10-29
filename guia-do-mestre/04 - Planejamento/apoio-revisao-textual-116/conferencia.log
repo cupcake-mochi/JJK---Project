@@ -1,0 +1,64 @@
+{
+  "registro": 116,
+  "pdf_sha256": "49e8d09756276aa25437f1f16fdca49376d1779c5a8b4805a8d10ddb84e37ac7",
+  "fontes_conferidas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+      "alteracoes_reproduzidas": true,
+      "numeros_e_tabelas_preservados": true,
+      "linhas_de_preenchimento_preservadas": true
+    }
+  ],
+  "links_locais_conferidos": 284,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_distintos": 59,
+  "casos_pendentes": 58,
+  "lotes_planejados": 14,
+  "consultas_complementares_pendentes": 17,
+  "socorro": {
+    "maximo_referencia": 44,
+    "classe": 2,
+    "tratamento_necessario": 15,
+    "tratamento_acumulado": 0,
+    "janela_na_pausa": 3
+  },
+  "pdf_integrado_e_pdf_105_preservados": true,
+  "cobertura": "130 pontos e 20 competências mantidos sem promoção; preservação completa por conferência final do manifesto.",
+  "limites": [
+    "Fila é planejamento, não nova revisão dos 59 casos.",
+    "Sem teste humano ou nova simulação.",
+    "Revisão textual e visual integrada ainda pendente."
+  ]
+}

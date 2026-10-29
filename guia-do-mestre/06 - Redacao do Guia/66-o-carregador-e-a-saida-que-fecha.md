@@ -1,8 +1,8 @@
 # O Carregador e a saída que fecha
 
-**Variante experimental para comparação.** Use a [ficha do Carregador e sua Doma](63-carregador-consulta-e-doma.md), sem alterar números, e o procedimento de [comparação de pressões](65-comparar-confronto-e-pressao-ambiental.md). O objetivo continua sendo recuperar a caixa e sair com todos. A alteração é um portão automático na saída curta e um corredor de serviço permanentemente acessível.
+**Variante experimental para comparação.** Use a [ficha do Carregador e sua Doma](63-carregador-consulta-e-doma.md), sem alterar números, e as orientações para [combinar inimigos e perigos](65-comparar-confronto-e-pressao-ambiental.md). O objetivo continua sendo recuperar a caixa e sair com todos. A alteração é um portão automático na saída curta e um corredor de serviço permanentemente acessível.
 
-O prazo, o mecanismo e o corredor são propostas locais de cenário. Este caso não combina o dano de queda da passarela com o Carregador. Não concede poder de chefe, PE ou ataque adicional à criatura.
+O prazo, o mecanismo e o corredor são escolhas deste cenário. Este caso não combina o dano de queda da passarela com o Carregador. Não concede poder de chefe, PE ou ataque adicional à criatura.
 
 ## Prepare a versão que será usada
 
@@ -35,7 +35,7 @@ As paredes limitam visão e acesso. De C é possível ver P pelo trecho reto de 
 
 O pátio A é a saída para os dois percursos. A preferência do Carregador por não perseguir além da entrada passa a usar esse mesmo limite nas duas rotas. Ele pode circular pelo serviço enquanto estiver dentro, com seu movimento normal. Não atravessa uma porta fechada, não conhece posições ocultas nem aciona o mecanismo com uma ação gratuita.
 
-## Abertura e informação
+## Apresente a situação
 
 Na versão ativa, **o temporizador defeituoso acaba de iniciar um ciclo de fechamento quando o grupo chega a A**. Apresente isso antes de qualquer avanço: o aviso sonoro, a contagem visível, o desenho do serviço e a parada identificada. O Carregador aponta para o pátio e para a caixa, como no encontro original.
 
@@ -60,11 +60,11 @@ Use um marcador de **0 a 3**. Com motor funcionando, aumente-o uma vez, até o m
 
 No estado 3, faça outra verificação somente ao fim da rodada seguinte se o motor continuar funcionando. Quando a faixa estiver livre, fecha nessa fase. Não fecha no instante em que alguém sai. O sensor não empurra, esmaga, agarra, causa dano ou separa corpos contidos. Um agarrão que atravesse a faixa a mantém ocupada. Se o grupo deixar a caixa ali, seu 1 Volume também serve; ainda será preciso retirá-la para cumprir o objetivo.
 
-Fechado, o portão bloqueia passagem e visão comum pelo vão nos dois sentidos. Não cria silêncio, apagamento de energia ou impedimento de toda capacidade sobrenatural. Consulte o procedimento utilizado para perceber, alcançar ou atravessar o obstáculo. O Carregador pode ser obrigado a usar o serviço tanto quanto os personagens.
+Fechado, o portão bloqueia passagem e visão comum pelo vão nos dois sentidos. Não cria silêncio, apagamento de energia ou impedimento de toda capacidade sobrenatural. Consulte a regra usada para perceber, alcançar ou atravessar o obstáculo. O Carregador pode ser obrigado a usar o serviço tanto quanto os personagens.
 
 A derrota da criatura não para a contagem. Parar o motor não remove a criatura. Se a iniciativa terminar com motor ativo, resolva o tempo ficcional restante e a ocupação da faixa; não congele o mundo pela mudança de descrição. O marcador não mede tempo de fala dos jogadores.
 
-## Intervenções
+## Como agir sobre o portão
 
 **Operar a parada em P:** ao alcance de 1,5 m, com uma mão disponível, use **Usar objeto, Ação Padrão**, sem teste. O comando exige puxar até travar, conforme a construção deste cenário. A posição P já oferece esse acesso. O motor para; não é necessário sustentar o comando nem pagar outro recurso. Uma capacidade que permita a manipulação remota conserva seus requisitos.
 
@@ -74,13 +74,13 @@ A derrota da criatura não para a contagem. Parar o motor não remove a criatura
 
 **Abrir passagem pela destruição:** a folha metálica do portão é um objeto maior resistente: **Defesa 18, 40 PV**, sem RD adicional. Defina a folha como a parte atacada. A zero, perde sua função de bloqueio e libera o vão de 3 m; os restos permanecem presos lateralmente, sem dano adicional ou terreno difícil neste caso. O mecanismo deixa de conseguir fechá-lo. Esses resultados pertencem à construção declarada do cenário, não a todo portão do sistema.
 
-Ataques contra esses objetos seguem a R53, inclusive crítico, dano acumulado e adequação ao material. Os valores vêm das tabelas de objetos, com porte e material escolhidos para o exemplo. Não dão ao Carregador um novo ataque capaz de destruir tudo por descrição. Se alguém atingir outra parte da construção, informe alvo, consequência e procedimento antes do gasto; não atribua automaticamente o resultado de um dos dois alvos preparados.
+Ataques contra esses objetos seguem o Livro de Regras 1.0, inclusive crítico, dano acumulado e adequação ao material. Os valores vêm das tabelas de objetos, com porte e material escolhidos para o exemplo. Não dão ao Carregador um novo ataque capaz de destruir tudo por descrição. Se alguém atingir outra parte da construção, informe alvo, consequência e regra antes do gasto; não atribua automaticamente o resultado de um dos dois alvos preparados.
 
 Para a retirada imediata, basta usar o serviço ou uma passagem já liberada. Reabrir o portão intacto e reparar o conjunto depois da ocorrência exige preparar a tarefa pertinente; não é um teste obrigatório para conseguir sair deste encontro.
 
-## Compare decisões concretas
+## Exemplos de escolhas
 
-Os recortes abaixo não são uma simulação completa. Começam nas posições e estados declarados, sem outra interferência, para expor custos.
+Os exemplos abaixo não são uma simulação completa. Começam nas posições e estados declarados, sem outra interferência, para expor custos.
 
 **Parar antes de enfrentar.** Mei, com deslocamento de 9 m e mão livre, começa em A. Usa Movimento e Bônus convertida: 18 m. Percorre A → Q → P por 12 m e usa a Padrão na parada. Sobram 6 m; pode chegar a C se o trajeto continuar válido. Não conserva a Padrão para atacar ao chegar. Conforme a iniciativa, o Carregador pode agir antes ou depois dessa intervenção; parar o motor não lhe retira o turno.
 
@@ -88,19 +88,19 @@ Os recortes abaixo não são uma simulação completa. Começam nas posições e
 
 **Retirar um aliado.** Mei tem Força 2, leva 1 Volume próprio e arrasta um aliado de 72 kg com 2 Volume de itens: carga conjunta **1 + 72 ÷ 12 + 2 = 9**, dentro do teto de arrasto 14. O aliado está disposto ou inconsciente, ao alcance em C; há mãos, apoio e passagem. Com duas ações de Movimento de 9 m e a Padrão reservada, percorre os 6 m do atalho por custo 12 num turno. Pelo serviço, são 36 m de movimento: dois turnos de 18. A Padrão pode proteger o próprio movimento por Desengajar em cada turno; a pessoa arrastada não provoca oportunidade por esse transporte. Se o aliado estiver agarrado pelo inimigo, essa conta não dispensa encerrar a contenção.
 
-**Preparar antes do fechamento.** Uma pessoa em C pode gastar Padrão para preparar deslocamento ao ouvir o segundo sinal luminoso acompanhado do aviso sonoro, no fim da rodada 2. Se a preparação ainda estiver válida e a Reação disponível, move até seu deslocamento depois do sinal. Com 9 m, paga os 6 m até A pelo portão ainda aberto. O movimento continua podendo provocar oportunidade. Preparar “quando o portão já fechar” não faz a resposta acontecer antes do fechamento nem concede atravessar o metal.
+**Preparar antes do fechamento.** Uma pessoa em C pode gastar Padrão para preparar deslocamento ao ver o segundo sinal luminoso e ouvir o aviso sonoro, no fim da rodada 2. Se a preparação ainda estiver válida e a Reação disponível, move até seu deslocamento depois do sinal. Com 9 m, paga os 6 m até A pelo portão ainda aberto. O movimento continua podendo provocar oportunidade. Preparar “quando o portão já fechar” não faz a resposta acontecer antes do fechamento nem concede atravessar o metal.
 
 **Ocupação que muda o resultado.** No terceiro avanço, Kaito permanece na faixa G: o portão aguarda aberto. Se o Carregador o agarrar e arrastar para fora na rodada seguinte, confira a carga e todo o trajeto. Outros ocupantes ainda podem impedir a passagem ao estado fechado. Se ao fim dessa rodada a faixa estiver livre e o motor ligado, o portão fecha. O Carregador não ganhou uma ação ambiental; foi sua ação comum que mudou uma condição do cenário.
 
 A iniciativa altera a ordem das oportunidades. Não escreva uma sequência de resgate como se todos pudessem agir entre Agarrar e o arrasto do mesmo turno. Reações preparadas e permissões específicas seguem seus gatilhos; ações comuns esperam seu turno.
 
-## Encerramento e continuidade
+## Encerrar a missão
 
 O portão fechado muda o caminho, sem encerrar a missão por decreto. Quem está dentro ainda tem serviço, parada, contenção e capacidades próprias para considerar. Quem está fora pode voltar pelo serviço. Alcance e visão entre as pessoas mudam com as paredes: não permita Socorro ou alvo de poder apenas porque a distância em linha reta parece pequena.
 
-Conserve os procedimentos de queda a zero, atendimento e retirada da consulta [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md). Um ferido no recuo não aparece em C para usar o exemplo de transporte acima. Meça o trajeto real, pague o entulho e registre a janela de Socorro. O motor não causa dano recorrente; o risco adicional vem das decisões e do tempo de acesso.
+Siga as regras de queda a zero, atendimento e retirada da consulta [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md). Um ferido no recuo não aparece em C para usar o exemplo de transporte acima. Meça o trajeto real, pague o entulho e registre a janela de Socorro. O motor não causa dano recorrente; o risco adicional vem das decisões e do tempo de acesso.
 
-A Doma conserva a ficha experimental da consulta [Carregador de sinos — consulta e Doma](63-carregador-consulta-e-doma.md), incluindo seu limite próprio de transporte. O portão é parte do cenário, não capacidade que a entidade passa a possuir. Uma domada não recebe a Bônus independente do inimigo para reproduzir seus orçamentos de movimento.
+A Doma conserva a ficha experimental da consulta [Carregador de sinos: ficha e Doma](63-carregador-consulta-e-doma.md), incluindo seu limite próprio de transporte. O portão é parte do cenário, não capacidade que a entidade passa a possuir. Uma domada não recebe a Bônus independente do inimigo para reproduzir o movimento que ele conseguia somar no turno.
 
 | O que terminou | O que ainda pode faltar |
 |---|---|

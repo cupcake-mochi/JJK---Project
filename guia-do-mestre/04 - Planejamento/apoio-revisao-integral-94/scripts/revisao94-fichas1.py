@@ -1,0 +1,10 @@
+from revisar_guia94 import *
+edit(source(8),[('dos procedimentos da comunidade','das regras da comunidade'),('a organização e os procedimentos que se aplicam','a organização e as regras que se aplicam'),('Recursos e consequências de entrada','Recursos e consequências no início da campanha')])
+edit(source(2),[('O procedimento de [preparação]','O capítulo [Preparar uma missão]'),('**Estado de entrada relevante:**','**Como os personagens começam a missão:**'),('procedimentos compartilhados','regras compartilhadas'),('Requisitos e procedimento','Requisitos e regra'),('seu tempo e o procedimento','seu tempo e a regra'),('**Procedimentos a manter abertos para consulta:**','**Regras para consultar durante o jogo:**'),('pelo procedimento usado','pelas regras usadas'),('os procedimentos do Livro de Regras 1.0','as regras do Livro de Regras 1.0')])
+edit(source(5),[('os procedimentos completos','as regras completas'),('confira o sinal acessível e o procedimento','confira o sinal acessível e a regra'),('O procedimento deixa margem','A regra deixa margem'),('**Frases úteis:**','### Frases úteis'),('a capacidade ou o procedimento correspondente','a capacidade ou a regra correspondente'),('a capacidade e o procedimento geral','a capacidade e a regra geral')])
+headings(16,[('## Retorno e tarefas de revisão','## Sugestões e tarefas de revisão'),('## Exemplo de uma continuidade possível','## Exemplo entre três missões')])
+edit(source(16),[('o ponto e os estados','o ponto da interrupção, os recursos e as condições'),('**Próximo preparo escolhido e por quê:**','**O que preparar para a próxima missão e por quê:**')])
+edit(source(20),[('**Nome e recorte:**','**Nome e grupo acompanhado:**'),('dos pilotos anteriores','das missões anteriores'),('depende de resolução em jogo','precisa ser resolvido em jogo')])
+edit(source(24),[('Os procedimentos estão em','Consulte as regras em'),('o procedimento aplicável','a regra aplicável')])
+headings(32,[('## Operação','## Como funciona'),('## Parecer e passagem','## Avaliação e registro')])
+edit(source(32),[('**Parecer:**','**Avaliação:**'),('este parecer corrige','esta avaliação corrige')])

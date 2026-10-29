@@ -1,0 +1,70 @@
+{
+  "registro": 106,
+  "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+  "fonte_sha256": "9bf5872484ba9f294bfd39f4e2ec3b2f16132d3c7a041d26168b0d9972b44531",
+  "palavras_markdown": 4309,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Maestria",
+      "id": "regra-1",
+      "inicio_linha": 128,
+      "fim_linha": 142
+    },
+    {
+      "titulo": "Testes",
+      "id": "regra-2",
+      "inicio_linha": 151,
+      "fim_linha": 183
+    },
+    {
+      "titulo": "Preparar",
+      "id": "regra-3",
+      "inicio_linha": 373,
+      "fim_linha": 408
+    },
+    {
+      "titulo": "Bloquear",
+      "id": "regra-4",
+      "inicio_linha": 605,
+      "fim_linha": 634
+    },
+    {
+      "titulo": "Agarrar, derrubar e empurrar",
+      "id": "regra-5",
+      "inicio_linha": 667,
+      "fim_linha": 698
+    },
+    {
+      "titulo": "Escapar de uma contenção",
+      "id": "regra-6",
+      "inicio_linha": 699,
+      "fim_linha": 722
+    },
+    {
+      "titulo": "Dano na alma",
+      "id": "regra-7",
+      "inicio_linha": 1424,
+      "fim_linha": 1443
+    },
+    {
+      "titulo": "Estágios de Integridade",
+      "id": "regra-8",
+      "inicio_linha": 1444,
+      "fim_linha": 1469
+    },
+    {
+      "titulo": "Leitura de Reservas",
+      "id": "regra-9",
+      "inicio_linha": 3223,
+      "fim_linha": 3226
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "pdf": "04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf",
+  "pdf_sha256": "7150cc529f2d507744ffb332e2f500a7649e086c30847f808188434c4eacbaa9",
+  "paginas": 7,
+  "limite": "Capítulo reorganizado sem alterar fichas ou criar uma escala nova. Parâmetros e habilidades próprios continuam experimentais."
+}

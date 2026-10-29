@@ -1,0 +1,110 @@
+{
+  "registro": 114,
+  "fontes": [
+    {
+      "id": "c06",
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "titulo": "Inimigos e perigos",
+      "sha256": "48564bb6f162e62539c7be60aa75d5f629d7db8a3404a30682380f843357a6ef"
+    },
+    {
+      "id": "c07",
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "titulo": "Personagens e técnicas",
+      "sha256": "673cddfdc7de123108b8d8b7156f00222a2247f8e113a94056a4104ca79f7409"
+    },
+    {
+      "id": "arata",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "titulo": "Vida rolada e uma família própria",
+      "sha256": "4ec35ca11403716b5a92b7cc2c2cd280de700fcccf170b56b859ac88aaafc9b8"
+    }
+  ],
+  "consultas": [
+    {
+      "fonte": "04 - Planejamento/apoio-inimigos-106/consulta-de-regras.html",
+      "sha256": "0c486ab85f42b9c8cd7aa88770d24c1f696d14e667198611771381f232cb2549",
+      "secoes": 9
+    },
+    {
+      "fonte": "04 - Planejamento/apoio-personagens-107/consulta-de-regras.html",
+      "sha256": "05901e638081a6965b9c0374bd51b96149d5f6893759eaa0901dec22817dd75b",
+      "secoes": 19
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html",
+  "html_sha256": "622f40c6cbb634c1080ff8eec5ddf6c4ded2a20a86fb4960b2ee56e290b28dde",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-114/output/pdf/Ciclo-Maldito-Capitulos-6-e-7-e-Arata-Revisao-Textual.pdf",
+  "pdf_sha256": "300a7f211c1d05def297137b036689e2c5f9f6889eb07511e1ab70558a63eb25",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 587
+    },
+    {
+      "pagina": 2,
+      "palavras": 643
+    },
+    {
+      "pagina": 3,
+      "palavras": 616
+    },
+    {
+      "pagina": 4,
+      "palavras": 681
+    },
+    {
+      "pagina": 5,
+      "palavras": 721
+    },
+    {
+      "pagina": 6,
+      "palavras": 662
+    },
+    {
+      "pagina": 7,
+      "palavras": 355
+    },
+    {
+      "pagina": 8,
+      "palavras": 533
+    },
+    {
+      "pagina": 9,
+      "palavras": 696
+    },
+    {
+      "pagina": 10,
+      "palavras": 630
+    },
+    {
+      "pagina": 11,
+      "palavras": 553
+    },
+    {
+      "pagina": 12,
+      "palavras": 567
+    },
+    {
+      "pagina": 13,
+      "palavras": 729
+    },
+    {
+      "pagina": 14,
+      "palavras": 530
+    },
+    {
+      "pagina": 15,
+      "palavras": 541
+    },
+    {
+      "pagina": 16,
+      "palavras": 607
+    },
+    {
+      "pagina": 17,
+      "palavras": 392
+    }
+  ],
+  "limite": "Prova parcial. Capítulos 8–10, consultas e conferência global ainda pendentes; fonte original de Arata preservada."
+}

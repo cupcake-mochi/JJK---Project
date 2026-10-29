@@ -11,7 +11,7 @@ Use este registro para uma criação própria ou uma decisão que precise acompa
 - **Regra da técnica, rota e Famílias pertinentes:**
 - **Referências comparadas e diferenças:**
 
-## Operação
+## Como funciona
 
 | Campo | Registro |
 |---|---|
@@ -27,7 +27,7 @@ Use este registro para uma criação própria ou uma decisão que precise acompa
 | Um uso resolvido | |
 | Uma situação de limite | |
 
-## Parecer e passagem
+## Avaliação e registro
 
 - **Resultado:** aceita nesta versão / precisa de complemento / precisa de ajuste / fora da opção de aquisição / mudança de campanha a decidir.
 - **Motivo e referência:**
@@ -39,7 +39,7 @@ Use este registro para uma criação própria ou uma decisão que precise acompa
 
 ## Acompanhamento de Restrição
 
-Preencha quando existir uma Restrição cuja dificuldade será acompanhada. A R53 manda revê-la depois de três sessões em que o feitiço tenha sido usado.
+Preencha quando existir uma Restrição cuja dificuldade será acompanhada. O Livro de Regras 1.0 manda revê-la depois de três sessões em que o feitiço tenha sido usado.
 
 | Sessão de uso | Exigência e situação | Como dificultou o uso ou por que não dificultou |
 |---|---|---|
@@ -55,8 +55,8 @@ Preencha quando existir uma Restrição cuja dificuldade será acompanhada. A R5
 
 **Referência:** Fundamento — Pontos e preços; Toque, Aura e proximidade. A devolução só compensa gasto em Melhorias. Nenhuma foi comprada.
 
-**Parecer:** ajustar para **3d8**. Ação Padrão, 3 PE, alcance 1,5 m, Selo e ataque de conjuração. O tipo de dano será o registrado na técnica; a ficha deve indicá-lo. No erro, não causa dano e gasta o custo. Não há Restrição nem devolução aproveitável.
+**Avaliação:** ajustar para **3d8**. Ação Padrão, 3 PE, alcance 1,5 m, Selo e ataque de conjuração. O tipo de dano será o registrado na técnica; a ficha deve indicá-lo. No erro, não causa dano e gasta o custo. Não há Restrição nem devolução aproveitável.
 
 **Demonstração parcial:** atributo 3 e Maestria 1 produzem ataque +4. Contra Defesa 14, dado 10 totaliza 14 e acerta. Rola 3d8; as defesas e os estados do alvo continuam aplicáveis. Um alvo a 3 m está fora do alcance desse uso enquanto o conjurador permanecer onde está.
 
-**Registro para outra mesa:** este parecer corrige a conta de Toque. Não concede desconto especial nem uma peça própria. Precisão seria uma compra adicional, conforme o [caso comparado](30-pareceres-de-criacoes.md).
+**Registro para outra mesa:** esta avaliação corrige a conta de Toque. Não concede desconto especial nem uma peça própria. Precisão seria uma compra adicional, conforme o [caso comparado](30-pareceres-de-criacoes.md).

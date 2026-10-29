@@ -1,0 +1,293 @@
+CICLO MALDITO / GUIA DO MESTRE                                                             CRIAR UMA CAMPANHA
+
+
+
+CAPÍTULO 5
+
+
+Criar uma campanha
+Numa campanha, as escolhas de uma sessão             Explique o que a personagem sabe pela história
+importam nas seguintes: pessoas se reencontram,      combinada, mesmo quando o jogador desconhece a
+lugares mudam e surgem motivos para agir.            obra. Quem já a conhece também precisa distinguir
+Comece com uma missão e desenvolva o que a           os dois conhecimentos.
+mesa quiser acompanhar.
+                                                     Conversem sobre violência, terror, sofrimento e
+A festa da ponte é o esboço original usado neste     conflito entre personagens: o que aparece, o que
+capítulo. Prepare suas missões conforme Preparar     será apenas mencionado e o que fica fora. Permita
+aventuras.                                           comunicar limites em particular, sem exigir
+                                                     justificativa pessoal.
+5.1 A sessão zero                                    Combinem como pedir pausa ou mudança de
+                                                     conteúdo e como retomar. Tratem pedidos e
+A sessão zero é a conversa sobre o jogo que
+                                                     divergências entre participantes por conversa, sem
+desejam compartilhar, num encontro próprio ou
+                                                     rolagem. Roubo, ataque ou controle entre
+pelos meios do grupo. Combinem a proposta, como
+                                                     personagens dependem das permissões da
+participar e quais acordos serão usados.
+                                                     comunidade e dos acordos da mesa.
+Na guilda, esclareça os acordos da comunidade que
+valem para a mesa. Numa campanha fechada,            Personagens e encontros
+combine com os participantes. O sistema favorece
+                                                     Informe opções e recursos iniciais. O Livro de
+guildas; o preparo e a condução também atendem a
+                                                     Regras 1.0 usa nível inicial padrão 2, podendo
+grupos fixos.
+                                                     começar no nível 1, e patente inicial Grau 4. Nível e
+                                                     patente têm funções diferentes. Confira fichas,
+Uma proposta para conversar
+                                                     equipamento e capacidades antes de preparar
+Diga onde e quando a história acontece, quem são     ameaças.
+os personagens e que situações pretende oferecer.
+                                                     Combine quem interpreta as pessoas ligadas às
+Em seguida, ouça o que interessa aos jogadores.
+                                                     Origens e o que cada uma sabe. Para o Receptáculo,
+   “Vamos acompanhar feiticeiros ligados a um        a recomendação é o mestre dar voz à outra
+   bairro que prepara uma festa. Haverá              presença mediante acordo com o jogador. Isso não
+   ocorrências sobrenaturais, investigação e         concede controle do corpo; as modalidades e os
+   convivência. Podemos receber chamados,            efeitos seguem suas regras. Os casos específicos
+   ajudar moradores e seguir os interesses das       ficam em Personagens e técnicas.
+   personagens.”                                     Organizem duração, agenda, comunicação, faltas e
+                                                     acesso às fichas e notas. Combinem o que acontece
+Uma jogadora quer interpretar alguém da              com a personagem ausente e como aplicar as regras
+vizinhança; outra chega por trabalho. Pergunte por   de participação e recompensas.
+que cooperam e o que cada pessoa deseja explorar.
+Ajustem expectativas diferentes antes da primeira
+                                                     Exemplo de acordo
+missão.                                              Estes acordos propõem um começo para A festa da
+                                                     ponte. Ajustem com o grupo.
+Mundo, tom e limites                                 Lugar e obra: bairro contemporâneo original, com
+Combinem época, lugar e relação com Jujutsu          apresentação essencial do mundo e sem revelações
+Kaisen: seguir seu contexto, jogar em paralelo ou    da trama.
+adotar mudanças. Registrem até onde podem
+                                                     Experiência: investigações e riscos sobrenaturais,
+comentar revelações da trama, inclusive quem
+                                                     amizades e preparação da festa.
+conhece o mangá inteiro.
+                                                     Conteúdo: violência breve; pausa ou ajuste por
+                                                     pedido de qualquer participante. Conflitos entre
+                                                     personagens precisam de acordo.
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                1
+CICLO MALDITO / GUIA DO MESTRE                                                            CRIAR UMA CAMPANHA
+
+
+
+Personagens: cada um escolhe um vínculo com o        novos termos ou ao fim daquele contato. O jogador
+bairro e um motivo para cooperar. Fichas             continua escolhendo como sua personagem se
+conferidas no começo combinado.                      sente e responde.
+Organização: agenda, duração e faltas decididas      Se uma perda afetar o funcionamento de uma
+pelo grupo; notas acessíveis para retomar.           escolha da ficha, confiram sua possível revisão
+                                                     entre missões. Uma mudança de relação, sozinha,
+Primeiro encontro: Vera convida os personagens a
+                                                     não desliga todas as capacidades nem permite troca
+conhecer os preparativos na praça. Cada jogador
+                                                     livre da Origem. As consultas de vínculos e
+combina por que irá.
+                                                     mudanças desenvolvem os limites.
+Use a ficha de acordos quando quiser guardar mais
+detalhes. Depois das primeiras sessões, retomem o
+que funcionou e o que desejam mudar. Os acordos
+                                                     5.3 De uma missão à próxima
+podem acompanhar a experiência do grupo.             Antes de preparar a continuação, releia o resultado
+                                                     da sessão e pergunte o que o grupo quer retomar.
+5.2 Vínculos e interesses dos                        Separe o que aconteceu, o que alguém pretende
+                                                     fazer e o que permanece como hipótese. Isso ajuda
+personagens                                          a partir do estado real da história.
+Peça a cada jogador uma pessoa, um lugar ou um
+                                                     Encontre uma ligação
+compromisso que sua personagem queira
+reencontrar. Pergunte o que aconteceu entre eles e   Consequência: após neutralizar uma ameaça, as
+o que ainda interessa agora. Acrescente a vontade    pessoas querem voltar ao lugar. Prepare o retorno e
+da outra pessoa para preparar a conversa.            os cuidados restantes.
+
+Um Legado de história registra relações,             Vínculo: alguém quer cumprir uma promessa ou
+lembranças e particularidades da vida. Oferece       visitar uma pessoa. Prepare o encontro e uma
+motivos e pessoas para procurar, sem ocupar          oportunidade de agir.
+escolhas da Origem ou conceder benefícios            Iniciativa: o grupo procura a causa de um
+mecânicos. Aprendizados, itens e efeitos na ficha    problema. Prepare meios de investigação e riscos
+seguem suas regras.                                  do caminho escolhido.
+
+Um vínculo entra em cena                             Desenvolva a próxima situação escolhida com a
+                                                     mesa. Guarde outras possibilidades em poucas
+Lia quer visitar Ema, com quem aprendeu a cuidar
+                                                     notas, para ajustá-las quando as escolhas mudarem
+de ferramentas. Ema quer saber como foi a missão
+                                                     o rumo.
+e se Lia cumprirá um trabalho combinado. Prepare
+a oficina; a jogadora escolhe o que conta e que
+                                                     Uma pergunta para o arco
+compromisso aceita.
+                                                     Um arco reúne aventuras em torno de uma questão
+Na festa, uma personagem quer tocar com antigos      mais ampla. Para a festa, você pode perguntar:
+colegas; outra ajuda Vera; uma terceira acompanha    como o bairro vai voltar a celebrar enquanto lida
+alguém que nunca participou. Pergunte o que          com o perigo numa passagem próxima? Essa
+querem desenvolver: uma cena breve ou um motivo      pergunta comporta investigação, intervenção,
+para escolher a missão.                              mudança do local e convivência.
+
+Mudanças nos vínculos                                Defina a causa do perigo, suas pistas e a ameaça
+                                                     antes de usar a investigação. A pergunta do arco
+Alterne interesses pessoais e comuns. Uma visita
+                                                     orienta o preparo; a verdade da ocorrência precisa
+pode acompanhar outro compromisso em paralelo,
+                                                     estar preparada para que as descobertas façam
+como explicado em Na mesa de jogo. Nem todo
+                                                     sentido.
+vínculo precisa reunir a equipe.
+Registre o que mudou: um pedido aceito, uma
+informação compartilhada ou uma promessa
+cumprida. Uma relação estável pode oferecer
+convivência e apoio. Uma discordância pode levar a
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                              2
+CICLO MALDITO / GUIA DO MESTRE                                                                     CRIAR UMA CAMPANHA
+
+
+
+ Situação e condição             Escolha que oferece        Rede da Ponte. Moradores e voluntários querem
+                                                            realizar a festa. Vera rege o coral e reúne propostas;
+ Conhecer os preparativos, se    Em que ajudar e quais      precisa consultar os responsáveis antes de
+ o grupo aceitar o convite de    interesses pessoais
+                                                            prometer algo em nome de todos. Com as pessoas e
+ Vera                            retomar
+                                                            os materiais já combinados, quer saber quais
+ Examinar a passagem, se         Como investigar e que      atividades podem acontecer longe da passagem
+ houver relatos acessíveis e     meios levar                perigosa.
+ interesse em apurar o perigo
+                                                            Equipe do Portão. Feiticeiros apuram os relatos da
+ Preparar a intervenção,         Objetivo, participantes,   passagem. Sora coordena a equipe e quer evitar
+ depois de compreender o         recursos e caminho de      exposição ao perigo antes da avaliação. Pode
+ perigo e aceitar enfrentá-lo    retirada
+                                                            propor uma vistoria e explicar o risco conhecido;
+ Acompanhar a festa, quando      Como participar e o que    ainda precisa apurar os relatos e receber as
+ houver condições conhecidas     dizer às pessoas           descobertas dos personagens.
+ para realizá-la                 reencontradas
+                                                            Esses grupos originais querem proteger a
+                                                            vizinhança, mas podem discordar sobre lugar e
+As condições ligam essas possibilidades, sem impor
+                                                            momento da festa. Um espaço alternativo pode
+uma ordem. Use o perigo resolvido e as soluções
+                                                            atender aos dois; outras propostas podem surgir da
+diferentes que surgirem. A festa pode acontecer em
+                                                            mesa.
+outro lugar, deixando a ameaça para outra ocasião
+ou equipe.
+                                                            As facções agem
+Uma campanha mais aberta                                    Os personagens contam a Vera que pretendem
+                                                            examinar a passagem. Ela pode oferecer contato
+Para interesses variados, mantenha alguns assuntos
+                                                            com quem presenciou os acontecimentos e
+em andamento e escolham o próximo ao fim da
+                                                            perguntar quando terá notícias. Essa conversa
+sessão. Pessoas e lugares recorrentes ligam
+                                                            oferece ajuda e cria uma expectativa que o grupo
+aventuras mesmo com causas diferentes.
+                                                            pode aceitar ou ajustar.
+Na guilda, combine o alcance das mudanças e quem
+                                                            Se Sora receber o mesmo relato, pode propor
+as acompanha. O calendário pode acompanhar
+                                                            acompanhar a visita, conforme os meios
+aproximadamente os dias reais; confira quando a
+                                                            disponíveis. Sem essa comunicação, ela segue com
+missão ocorreu e quanto tempo passou antes de
+                                                            as informações que possui. Para cada reação
+narrar reações. Guarde o que foi comunicado e o
+                                                            importante, confira quem soube, o que mudou e o
+que falta resolver numa nota ou na linha de
+                                                            que essa pessoa consegue tentar.
+continuidade.
+                                                            Acompanhe as organizações em foco quando
+5.4 Facções                                                 houver tempo, informação ou oportunidade
+                                                            relevante. Seus integrantes podem discordar,
+Uma facção é um grupo que age de forma                      cumprir acordos ou encerrar assuntos. Esta
+organizada por um interesse. Pode colaborar,                ferramenta descritiva não exige ação a cada
+disputar recursos ou se opor aos personagens.               encontro nem acrescenta pontos, turnos ou
+Prepare-a quando suas ações forem voltar a                  benefícios automáticos.
+importar; para um contato isolado, uma nota de
+pessoa pode bastar.
+                                                            5.5 Antagonistas
+Comece pela parte da organização que entra na
+                                                            Um antagonista é uma pessoa, criatura ou
+campanha. Uma equipe de feiticeiros tem pessoas e
+                                                            organização que se opõe ao objetivo dos
+meios próprios. Você pode prepará-la sem definir
+                                                            personagens. Defina suas ações: o que tenta
+toda a escola ou família à qual pertence.
+                                                            impedir, quais meios usa e que sinais deixa.
+Pessoas, desejos e meios                                    Comece por objetivo, ação atual, meios e limites.
+Anote o objetivo atual, quem representa o grupo, o          Saiba também o que pode encerrar a oposição: um
+que pode usar e o que sabe. Depois, escolha seu             acordo, a perda de um recurso, rendição, retirada
+próximo passo e como os personagens poderão                 ou derrota. Para um confronto, prepare a ficha e as
+percebê-lo. A ficha de facção ajuda quando essas            regras pertinentes; posição importante na história
+relações precisarem de um registro maior.                   não substitui capacidades.
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                       3
+CICLO MALDITO / GUIA DO MESTRE                                                               CRIAR UMA CAMPANHA
+
+
+
+                                                       deixando a passagem para uma intervenção
+O relatório de Nilo                                    posterior. Diga qual problema foi resolvido e qual
+Num exemplo separado, Nilo possui uma cópia de         permanece, conforme o que aconteceu.
+um relatório e afirma ser o único caminho para         Prepare a decisão final com fichas e sinais quando
+consultá-lo. Ele condiciona o acesso à contratação     houver perigo. Deixe soluções rápidas ou diferentes
+de seus serviços. A autora conserva outra cópia e      mudarem o desfecho. O final mostra o resultado
+pode ser procurada por um contato acessível,           das escolhas, mesmo quando diverge do que você
+definido no preparo.                                   imaginou.
+Os personagens podem negociar, aceitar a oferta,
+procurar a autora ou abandonar aquela busca. Se        Depois do momento decisivo
+conseguirem a outra cópia, Nilo perde o controle       Pergunte o que cada personagem faz: ouvir o coral
+da negociação. Ele pode oferecer algo que ainda        de Vera, agradecer a um colega ou voltar para casa.
+possua ou deixar de ser relevante. O resultado da      Acompanhe o que interessar e resuma o restante.
+escolha precisa valer na continuação.
+                                                       Um epílogo mostra a vida depois desse desfecho.
+                                                       Pode acontecer no dia seguinte ou num futuro mais
+Apresente o antagonista
+                                                       distante, conforme o interesse do grupo. O jogador
+Apresente o antagonista pelos efeitos de suas          pode escolher apenas uma ação presente e deixar o
+ações, por relatos ou contato direto. Prepare o que    restante em aberto.
+cada fonte sabe e caminhos para os personagens
+agirem contra o plano.                                 Se as personagens continuarem em jogo, preserve
+                                                       os compromissos e as regras de suas fichas. Um
+Defina como o oponente reage à mudança da              relato de estudo não concede capacidades novas
+situação. A fuga usa rotas, ações e recursos           por si só. Em mundo compartilhado, combinem o
+disponíveis; a rendição pode encerrar a oposição. A    alcance de um salto de tempo antes de mudar
+derrota segue sua ficha e as regras, sem               acontecimentos que afetem outras mesas.
+participação extra por um corte de descrição.
+Uma vitória antecipada também pode encerrar o          Quando é preciso parar
+assunto. Releia o que resta e prepare suas             Se precisarem parar antes do desfecho, combinem
+consequências, em vez de acrescentar outra fase        um encontro final, conversa breve ou pausa com
+para prolongar a disputa. Se alguém voltar depois,     notas. Registrem onde a história parou e o que
+explique como sobreviveu, o que conservou e o que      querem preservar, sem decidir disputas
+quer agora. Uma relação pode mudar ou terminar         importantes por quem não pôde participar.
+sem revanche.
+                                                       Na guilda, o fim da campanha de um mestre não
+                                                       encerra automaticamente as fichas ou todos os
+5.6 Arcos, finais e epílogos                           assuntos do mundo. Indique quem aceitou
+                                                       acompanhar cada pendência; o que ainda não tiver
+Quando um assunto se aproximar do fim, retome
+                                                       responsável continua assim registrado.
+sua pergunta e ouça o que os jogadores desejam
+concluir. Prepare as oportunidades de agir sobre
+                                                       Preparar a continuação
+esses assuntos. O resultado pode vir de confronto,
+negociação, retirada ou mudança de objetivo.           Anote o resultado, compromissos e interesses
+                                                       futuros. Confira fichas, recompensas, progressão e
+Reconhecer o resultado                                 recuperação pelas regras.
+Na festa, o grupo pode ter neutralizado a ameaça e     Conversem sobre o que funcionou e o que mudar.
+ajudado a preparar a celebração. Outra                 Dividam tarefas aceitas, como conferir uma
+possibilidade é realizar o encontro em lugar seguro,   referência ou guardar notas. Registrem quem
+                                                       assumiu e o combinado para o próximo encontro.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                 4
+

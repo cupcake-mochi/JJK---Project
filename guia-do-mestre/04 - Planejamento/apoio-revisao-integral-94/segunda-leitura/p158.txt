@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Elemento
+Posição inicial
+Grupo do exemplo
+Bastião em B0, Emanador em C0, Guia em D0
+Painel do arquivo
+Fixado na parede junto de C12; acessível de B12, C12 ou D12. Não
+ocupa essas células.
+Haru, na versão com guarda único
+D10
+Vigia e Tessa, na versão com dupla
+Vigia C8; Tessa E11
+Retirada
+Qualquer saída para a linha 0 ou 13; sair da sala não concede
+Desengajar nem imunidade a oportunidades.
+Escolha uma das versões antes da sessão. Não
+coloque a dupla depois da queda de Haru como
+reforço automático. O grupo pode observar a
+disposição e conversar da entrada; não há surpresa
+preparada.
+Operar o arquivo: instruções legíveis explicam
+como retirar os registros com segurança, sem teste.
+Uma pessoa adjacente ao painel, com uma mão
+livre, precisa gastar três Padrões em três turnos
+próprios sucessivos, mantendo contato e posição
+entre eles. No terceiro, retira a caixa de registros,
+de 1 Volume, com os dados preservados. Não exige
+Concentração de feitiço ou PE.
+Receber dano ou Prende não interrompe sozinho o
+trabalho. Perder a consciência, soltar o comando ou
+sair das células de acesso antes de concluir reinicia
+os três passos; a informação permanece
+recuperável. Outra pessoa pode recomeçar, mas não
+terminar os passos em nome do operador. Esses
+requisitos pertencem a este equipamento, visíveis
+antes da escolha. A operação não recebe um limite
+secreto de tempo.
+Forçar o acesso: o fecho externo é um objeto
+pequeno de aço, Defesa 18, 5 PV, pelas tabelas de
+objetos do Livro de Regras 1.0. Está separado da
+caixa de dados. Quebrá-lo abre a tampa; depois,
+uma Padrão com mão livre retira a caixa,
+dispensando os três turnos de operação. Rompe se
+aplica a um ataque capaz de danificá-lo. O fecho
+não Bloqueia; Veneno e efeitos mentais/de alma
+não o danificam. Registre previamente os ajustes de
+outros tipos pelo material. Não há dano
+misteriosamente transferido à caixa. A marca de
+arrombamento ficará como consequência
+identificável, explicada ao grupo antes da tentativa.
+Resolver pela conversa: se o grupo apresentar
+autorização verificável da escola responsável, os
+guardas permitem a operação e registram a
+retirada, sem exigir teste para negar um direito já
+comprovado. Sem autorização, aceitam uma
+proposta que permita acompanhar a entrega:
+identificar quem receberá os documentos e
+permitir que um guarda acompanhe a entrega. Isso
+pode encerrar a oposição sem combate. Uma
+mentira ou condição contestada segue as regras de
+interação social do Livro de Regras 1.0, com a
+informação e a resistência reais; não há um único
+número que torne qualquer pedido aceitável.
+Como os guardas usam o espaço
+Haru procura alcançar o operador ou avisar uma
+Fita sobre o painel. A área de 18 m por 1,5 m pode
+começar num ponto válido a até 18 m dele e segue
+os obstáculos. Marque todas as células afetadas
+antes da resposta do grupo. Ele continua sujeito a
+alcance, Provocar, controle e impedimentos de
+conjuração; não recebe imunidade por ser a figura
+central da cena.
+O aviso oferece uma escolha: manter a operação,
+procurar proteção, interromper Haru, sair e
+recomeçar ou forçar o fecho. Se todos saírem da
+faixa, Fita pode deixar de ser uma boa ação. Isso é
+resultado da informação oferecida, não falha a
+corrigir com um golpe escondido. Haru pode usar
+sua Padrão de outro modo, conforme a ficha.
+Na dupla, Vigia ocupa o caminho e Tessa procura
+ficar a até 9 m dele, com visão e espaço para sair.
+Atacar Tessa pode cortar a cura e o Impulso;
+ignorá-la preserva essas opções. Ainda é preciso
+chegar até ela e agir. Não trate a prioridade de alvo
+da conta abaixo como movimento gratuito por
+outras criaturas.
+Encerramento: recuperar a caixa e conseguir sair
+com ela cumpre o objetivo. Os guardas aceitam
+cessar a oposição para acompanhar a
+responsabilidade pela entrega. Derrotá-los também
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+158

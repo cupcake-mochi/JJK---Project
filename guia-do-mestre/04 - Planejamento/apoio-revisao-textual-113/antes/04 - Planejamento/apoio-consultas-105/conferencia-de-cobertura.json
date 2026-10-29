@@ -1,0 +1,3983 @@
+{
+  "registro": 105,
+  "mapa_99_sha256": "3230ad203a073148cc0185514a79db2f652c30df91d007194e1d4c22b662c712",
+  "cobertura_anterior_sha256": "116ce93e5c99efdde38207fcba46976642e05e7a284921eba0b1874a185a25a7",
+  "tipo_conferencia": "Localização dos arquivos, hashes atuais e destinos; sem nova validação semântica dos 130 pontos, aprendizagem ou equilíbrio.",
+  "pontos": [
+    {
+      "id": "M001",
+      "assunto": "Época, lugar e relação com a obra",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+          "sha256_atual": "6d1b993f5a31771b9f37bf891008a49a13a80d3d36cefeaa92f6a76293b5d62e",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M002",
+      "assunto": "Conteúdos e conflitos entre personagens",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+          "sha256_atual": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6",
+          "destino_principal": "A5.1",
+          "usos_complementares": [
+            "N05.1",
+            "N01.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M003",
+      "assunto": "Nível, patente e recursos de entrada",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M004",
+      "assunto": "Participação e continuidade na guilda",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M005",
+      "assunto": "Vínculos, organizações e contatos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+          "sha256_atual": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4",
+          "destino_principal": "A5.3",
+          "usos_complementares": [
+            "N05.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M006",
+      "assunto": "Objetivo e classificação da missão",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "sha256_atual": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+          "destino_principal": "N03.1",
+          "usos_complementares": [
+            "N03.2",
+            "N03.3",
+            "N03.5",
+            "N03.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M007",
+      "assunto": "Quando pedir uma rolagem",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M008",
+      "assunto": "Escolha da dificuldade",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M009",
+      "assunto": "Intenção, tempo e consequências",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "sha256_atual": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1",
+          "destino_principal": "A2",
+          "usos_complementares": [
+            "N04.2",
+            "N04.4",
+            "N04.7",
+            "N04.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M010",
+      "assunto": "Falha e sucesso com custo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "sha256_atual": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+          "destino_principal": "N04.2",
+          "usos_complementares": [
+            "N04.7",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "sha256_atual": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+          "destino_principal": "N04.2",
+          "usos_complementares": [
+            "N04.7",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M011",
+      "assunto": "Repetir uma tentativa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "sha256_atual": "b3297b607fb58a7971a43257758c8e164ca3cc106f03b569958d8b1acffdd1f2",
+          "destino_principal": "N04.4",
+          "usos_complementares": [
+            "N03.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M012",
+      "assunto": "Perícia, ofício e atributo da tarefa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M013",
+      "assunto": "Improvisação sem treino",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M014",
+      "assunto": "Ajudar e tarefas coletivas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "sha256_atual": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+          "destino_principal": "N04.2",
+          "usos_complementares": [
+            "N04.7",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "sha256_atual": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+          "destino_principal": "N04.2",
+          "usos_complementares": [
+            "N04.7",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M015",
+      "assunto": "Ações propostas fora das opções prontas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "sha256_atual": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M016",
+      "assunto": "Influência social e negociação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+          "sha256_atual": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M017",
+      "assunto": "Perigos sem autor",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M018",
+      "assunto": "Distâncias e método de medição",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "sha256_atual": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+          "destino_principal": "N04.5",
+          "usos_complementares": [
+            "N03.3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "sha256_atual": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+          "destino_principal": "N04.5",
+          "usos_complementares": [
+            "N03.3",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M019",
+      "assunto": "Terreno, escalada e natação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M020",
+      "assunto": "Saltos com risco adicional",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M021",
+      "assunto": "Passagens, espaços e quedas sobre criaturas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M022",
+      "assunto": "Cobertura e direção do ataque",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M023",
+      "assunto": "Volume de objetos sem tabela",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "sha256_atual": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+          "destino_principal": "N04.5",
+          "usos_complementares": [
+            "N03.3",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M024",
+      "assunto": "Luz e sinais disponíveis",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "sha256_atual": "b3297b607fb58a7971a43257758c8e164ca3cc106f03b569958d8b1acffdd1f2",
+          "destino_principal": "N04.4",
+          "usos_complementares": [
+            "N03.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256_atual": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M025",
+      "assunto": "Esconder, buscar e sentidos alternativos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "sha256_atual": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M026",
+      "assunto": "Ler o Ambiente",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "sha256_atual": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M027",
+      "assunto": "Estudar, Intuição e lembranças",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "sha256_atual": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M028",
+      "assunto": "Busca energética com interferência",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "sha256_atual": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M029",
+      "assunto": "Pressão, vestígios e assinatura",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "sha256_atual": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M030",
+      "assunto": "Desfecho dos inimigos derrotados",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+          "sha256_atual": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M031",
+      "assunto": "Retirada de Derrotados e morte",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M032",
+      "assunto": "Socorro fora da iniciativa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "sha256_atual": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M033",
+      "assunto": "Corpos e fontes de tratamento compatíveis",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "sha256_atual": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M034",
+      "assunto": "Cicatrizes e marcas de história",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "sha256_atual": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M035",
+      "assunto": "Reservas preparadas antes da cena",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "sha256_atual": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "sha256_atual": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M036",
+      "assunto": "Descanso e ambiente propício",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M037",
+      "assunto": "Exaustão e o que conta como luta",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M038",
+      "assunto": "Mudança de cena e usos diários",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "sha256_atual": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256_atual": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M039",
+      "assunto": "Conferência inicial da ficha",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M040",
+      "assunto": "Vida rolada como variante",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "sha256_atual": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M041",
+      "assunto": "Treino livre e história",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M042",
+      "assunto": "Legados de história",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M043",
+      "assunto": "Menores personalizadas e famílias novas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "sha256_atual": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M044",
+      "assunto": "Rever uma Origem depois de uma perda",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M045",
+      "assunto": "Receptáculo e controle do hospedeiro",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+          "sha256_atual": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N05.2",
+            "A5.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+          "sha256_atual": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+          "destino_principal": "A5.4",
+          "usos_complementares": [
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M046",
+      "assunto": "Encarnado e a pessoa do corpo recebido",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M047",
+      "assunto": "Consciências e manutenção do Corpo Amaldiçoado",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M048",
+      "assunto": "Ofício compatível e reparo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+          "sha256_atual": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N08.3",
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M049",
+      "assunto": "Restrição corporal e CE4",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "sha256_atual": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N02.4",
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M050",
+      "assunto": "Cuidados das limitações corporais",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "sha256_atual": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N02.4",
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M051",
+      "assunto": "Armazenamento de energia próprio",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "sha256_atual": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+          "destino_principal": "N07.3",
+          "usos_complementares": [
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "sha256_atual": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+          "destino_principal": "N07.3",
+          "usos_complementares": [
+            "A5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M052",
+      "assunto": "Concessão familiar de ferramentas e negociação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+          "sha256_atual": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M053",
+      "assunto": "Caminho com arma de fogo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M054",
+      "assunto": "Obras, saltos e ricochetes",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "sha256_atual": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M055",
+      "assunto": "Trocas e alterações do Emanador",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+          "sha256_atual": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.6",
+            "N04.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+          "sha256_atual": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M056",
+      "assunto": "Projeto de fabricação comum",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M057",
+      "assunto": "Falha de fabricação e nova tentativa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M058",
+      "assunto": "Receitas e produtos sobrenaturais",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+          "sha256_atual": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.3",
+            "N08.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M059",
+      "assunto": "Conserto, oficina e reconstrução",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "sha256_atual": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+          "destino_principal": "N08.3",
+          "usos_complementares": [
+            "N08.2",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M060",
+      "assunto": "Uso criativo de objetos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "sha256_atual": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+          "destino_principal": "N04.5",
+          "usos_complementares": [
+            "N03.3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "sha256_atual": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M061",
+      "assunto": "Situação de proteção de Traje",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M062",
+      "assunto": "Armas de fogo e equipamento restrito",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M063",
+      "assunto": "Baterias, consumíveis e autonomia",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M064",
+      "assunto": "Cordas, kits, fechaduras e contenção",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M065",
+      "assunto": "Danificar objetos e materiais",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256_atual": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M066",
+      "assunto": "Armas improvisadas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "sha256_atual": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M067",
+      "assunto": "Revenda, serviços e itens sem preço",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+          "sha256_atual": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M068",
+      "assunto": "Aquisição de ferramentas amaldiçoadas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M069",
+      "assunto": "Ferramentas novas e identificação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+          "sha256_atual": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.3",
+            "N08.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M070",
+      "assunto": "Objetos amaldiçoados e selos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+          "sha256_atual": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M071",
+      "assunto": "Ingerir um objeto desconhecido",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "sha256_atual": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+          "destino_principal": "N08.5",
+          "usos_complementares": [
+            "N08.3",
+            "B4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+          "sha256_atual": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M072",
+      "assunto": "XP em missão malsucedida",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M073",
+      "assunto": "Semana e fechamento das missões",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256_atual": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M074",
+      "assunto": "Feitos do Limiar",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+          "sha256_atual": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M075",
+      "assunto": "Recuperação ao subir de nível",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M076",
+      "assunto": "Reescrita e troca de Trilha",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M077",
+      "assunto": "Salário e remuneração por mestrar",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M078",
+      "assunto": "Promoções de patente",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "sha256_atual": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+          "destino_principal": "N08.6",
+          "usos_complementares": [
+            "N01.7",
+            "N10.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+          "sha256_atual": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M079",
+      "assunto": "Conceito e limites da técnica",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M080",
+      "assunto": "Famílias Livres e Fechadas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256_atual": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M081",
+      "assunto": "Selo e exigências adicionais",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M082",
+      "assunto": "Expressão e Uso Livre",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M083",
+      "assunto": "Resolução, TR e tipos de dano",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M084",
+      "assunto": "Mesclas e Ampliação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+          "sha256_atual": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N06.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+          "sha256_atual": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M085",
+      "assunto": "Efeito Próprio: operação e preço",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+          "sha256_atual": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M086",
+      "assunto": "Família e desconto da criação própria",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M087",
+      "assunto": "Repetir ou reunir Melhorias",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+          "sha256_atual": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M088",
+      "assunto": "Restrições próprias e Condicional",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+          "sha256_atual": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M089",
+      "assunto": "Revisão após três sessões",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "sha256_atual": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+          "destino_principal": "A5.5",
+          "usos_complementares": [
+            "N07.4",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M090",
+      "assunto": "Efeito fora de combate",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+          "sha256_atual": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.5",
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M091",
+      "assunto": "Controle próprio e cancelamento de outros efeitos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+          "sha256_atual": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.5",
+            "N04.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M092",
+      "assunto": "Conferência prática antes da sessão",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "sha256_atual": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+          "destino_principal": "A5.5",
+          "usos_complementares": [
+            "N07.4",
+            "N07.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M093",
+      "assunto": "Talento Próprio",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256_atual": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M094",
+      "assunto": "Regra Própria",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M095",
+      "assunto": "Aptidão Própria e semente de Sem Técnica",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M096",
+      "assunto": "Bênção Própria",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "sha256_atual": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M097",
+      "assunto": "Manejos, Katas e equipamento de origem",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "sha256_atual": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+          "destino_principal": "N08.4",
+          "usos_complementares": [
+            "A5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M098",
+      "assunto": "Cortina: condição e bordas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M099",
+      "assunto": "Máxima de ataque, cura ou utilidade",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M100",
+      "assunto": "Recarga opcional de Máxima",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M101",
+      "assunto": "Criação do domínio e execução em outra mesa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M102",
+      "assunto": "Domínio, aliados e proteções",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "sha256_atual": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+          "destino_principal": "N07.5",
+          "usos_complementares": [
+            "B3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M103",
+      "assunto": "Aprovação de uma troca",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "sha256_atual": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+          "destino_principal": "N09.2",
+          "usos_complementares": [
+            "B5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M104",
+      "assunto": "Permanente e pacto de energia",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+          "sha256_atual": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M105",
+      "assunto": "Temporário em resposta a gatilho",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M106",
+      "assunto": "Revelação de informação como preço",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M107",
+      "assunto": "Promessa e autoridade das partes",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "sha256_atual": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+          "destino_principal": "N09.3",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "sha256_atual": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+          "destino_principal": "N09.3",
+          "usos_complementares": [
+            "B5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M108",
+      "assunto": "Cláusulas e quebra da Promessa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "sha256_atual": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+          "destino_principal": "N09.3",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "sha256_atual": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+          "destino_principal": "N09.3",
+          "usos_complementares": [
+            "B5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M109",
+      "assunto": "Pacto de restrição na criação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M110",
+      "assunto": "Ideias ainda sem procedimento e Overtime",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "sha256_atual": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+          "destino_principal": "N09.2",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "sha256_atual": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+          "destino_principal": "N09.2",
+          "usos_complementares": [
+            "B5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M111",
+      "assunto": "Aquisição e definição da entidade",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "sha256_atual": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+          "destino_principal": "N09.4",
+          "usos_complementares": [
+            "N09.6",
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256_atual": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M112",
+      "assunto": "Lista de ritual e submissão individual",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+          "sha256_atual": "073874080ae38f16be4665142fd27a954587aed3f49157b408622daa5573bada",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M113",
+      "assunto": "Doma e ficha jogável resultante",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "sha256_atual": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+          "sha256_atual": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N09.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M114",
+      "assunto": "Doma antes da derrota",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "sha256_atual": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M115",
+      "assunto": "Famílias e poderes próprios da entidade",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256_atual": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256_atual": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M116",
+      "assunto": "Transporte, passageiros e armazenamento",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256_atual": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256_atual": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M117",
+      "assunto": "Tarefa e autonomia em campo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256_atual": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256_atual": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M118",
+      "assunto": "Morte do invocador e entidades livres",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256_atual": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "sha256_atual": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+          "destino_principal": "N09.4",
+          "usos_complementares": [
+            "N09.6",
+            "B5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M119",
+      "assunto": "Autorização, custo e tempo de criação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "sha256_atual": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+          "destino_principal": "N09.5",
+          "usos_complementares": [
+            "B5",
+            "N08.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256_atual": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M120",
+      "assunto": "Ajuda e vantagem nos testes de criação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "sha256_atual": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+          "destino_principal": "N09.4",
+          "usos_complementares": [
+            "N09.6",
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "sha256_atual": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+          "destino_principal": "N09.5",
+          "usos_complementares": [
+            "B5",
+            "N08.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M121",
+      "assunto": "Reconstrução, transferência e novas tentativas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+          "sha256_atual": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191",
+          "destino_principal": "N09.6",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+          "sha256_atual": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191",
+          "destino_principal": "N09.6",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256_atual": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M122",
+      "assunto": "Conferência e evolução da ficha de invocação",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256_atual": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256_atual": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "sha256_atual": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M123",
+      "assunto": "Situação, lugares e pistas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "sha256_atual": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+          "destino_principal": "N03.1",
+          "usos_complementares": [
+            "N03.2",
+            "N03.3",
+            "N03.5",
+            "N03.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "sha256_atual": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N03.4",
+            "N04.3",
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M124",
+      "assunto": "Fichas de perigos e encontros",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256_atual": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+          "sha256_atual": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+          "destino_principal": "N06.4",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+          "sha256_atual": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "A5.10",
+            "N06.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+          "sha256_atual": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+          "sha256_atual": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.3",
+            "N06.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+          "sha256_atual": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M125",
+      "assunto": "Informação e ritmo na mesa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M126",
+      "assunto": "Dúvida de regra durante a sessão",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "sha256_atual": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1",
+          "destino_principal": "A2",
+          "usos_complementares": [
+            "N04.2",
+            "N04.4",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M127",
+      "assunto": "Fechamento e passagem entre mestres",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256_atual": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M128",
+      "assunto": "Empates entre inimigos na iniciativa",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "sha256_atual": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+          "destino_principal": "N04.2",
+          "usos_complementares": [
+            "N04.7",
+            "B1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M129",
+      "assunto": "Perigos ambientais e efeitos não tabelados",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256_atual": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+          "sha256_atual": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N08.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M130",
+      "assunto": "Aprendizado narrativo de aptidões",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "sha256_atual": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+          "destino_principal": "N07.1",
+          "usos_complementares": [
+            "N01.2",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "sha256_atual": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3",
+            "N07.4",
+            "N07.5"
+          ]
+        }
+      ]
+    }
+  ],
+  "competencias": [
+    {
+      "id": "P01",
+      "assunto": "Começar a mestrar e explicar o necessário para jogar",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "sha256_atual": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+          "destino_principal": "N02.1",
+          "usos_complementares": [
+            "N01.1",
+            "N02.2",
+            "N02.4",
+            "N02.6",
+            "N08.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "sha256_atual": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+          "destino_principal": "N03.1",
+          "usos_complementares": [
+            "N03.2",
+            "N03.3",
+            "N03.5",
+            "N03.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+          "sha256_atual": "611968c8afca9a821de5fb1cbf2db1c63671b4f655173865f420437218e4c2c6",
+          "destino_principal": "N01.4",
+          "usos_complementares": [
+            "N01.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "assunto": "Consultar o mundo sem depender de conhecimento da obra",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "sha256_atual": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+          "destino_principal": "N02.1",
+          "usos_complementares": [
+            "N01.1",
+            "N02.2",
+            "N02.4",
+            "N02.6",
+            "N08.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+          "sha256_atual": "593b563a817c5af06f3618b00ecb1e6b8fcaba7e10aa1e125540a36633e1f4b8",
+          "destino_principal": "N02.3",
+          "usos_complementares": [
+            "N02.4",
+            "N02.5",
+            "N02.6",
+            "N03.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+          "sha256_atual": "b5de7fe6710bcb6d14874ff0f2c204d6510caeb9b6ff22f0e8f6ad4138606ca3",
+          "destino_principal": "D1",
+          "usos_complementares": [
+            "N02.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+          "sha256_atual": "4b16d0d7c285ce9dcba7abdd2c33d544a5ede852aad0e9649883964d3356973e",
+          "destino_principal": "C1",
+          "usos_complementares": [
+            "N02.1",
+            "N02.2",
+            "N02.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "assunto": "Transformar o cotidiano de diferentes feiticeiros em jogo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "sha256_atual": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+          "destino_principal": "N02.1",
+          "usos_complementares": [
+            "N01.1",
+            "N02.2",
+            "N02.4",
+            "N02.6",
+            "N08.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "sha256_atual": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+          "destino_principal": "N08.2",
+          "usos_complementares": [
+            "N08.1",
+            "N10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "assunto": "Combinar o funcionamento do grupo e seu formato de campanha",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "sha256_atual": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2",
+            "N10.1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+          "sha256_atual": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6",
+          "destino_principal": "A5.1",
+          "usos_complementares": [
+            "N05.1",
+            "N01.2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+          "sha256_atual": "6d1b993f5a31771b9f37bf891008a49a13a80d3d36cefeaa92f6a76293b5d62e",
+          "destino_principal": "N05.1",
+          "usos_complementares": [
+            "N01.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "assunto": "Preparar material suficiente com esforço viável",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "sha256_atual": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+          "destino_principal": "N03.1",
+          "usos_complementares": [
+            "N03.2",
+            "N03.3",
+            "N03.5",
+            "N03.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+          "sha256_atual": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5",
+          "destino_principal": "A1",
+          "usos_complementares": [
+            "N03.1",
+            "N10.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+          "sha256_atual": "611968c8afca9a821de5fb1cbf2db1c63671b4f655173865f420437218e4c2c6",
+          "destino_principal": "N01.4",
+          "usos_complementares": [
+            "N01.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "assunto": "Criar uma missão com objetivos e caminhos possíveis",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "sha256_atual": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+          "destino_principal": "N03.1",
+          "usos_complementares": [
+            "N03.2",
+            "N03.3",
+            "N03.5",
+            "N03.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "sha256_atual": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N03.4",
+            "N04.3",
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "assunto": "Preparar e conduzir investigação sem depender de uma única pista",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/13-preparar-uma-investigacao.md",
+          "sha256_atual": "bbf006f43478cca0a234542edef8f1583cdaeb99b37cb4e8fd516990c4aa7d18",
+          "destino_principal": "N03.4",
+          "usos_complementares": [
+            "N04.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "sha256_atual": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N03.4",
+            "N04.3",
+            "N04.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+          "sha256_atual": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436",
+          "destino_principal": "A5.2",
+          "usos_complementares": [
+            "N04.4",
+            "N10.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "assunto": "Descrever o que importa para decisões informadas",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "sha256_atual": "b3297b607fb58a7971a43257758c8e164ca3cc106f03b569958d8b1acffdd1f2",
+          "destino_principal": "N04.4",
+          "usos_complementares": [
+            "N03.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "assunto": "Abrir, desenvolver e encerrar cenas com ritmo",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+          "sha256_atual": "575a822c85398f5cf654c0126cf3e3cf7feb48d6699517cc69020840c8d50fe4",
+          "destino_principal": "N05.6",
+          "usos_complementares": [
+            "N01.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "assunto": "Distribuir atenção entre personagens e jogadores",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "sha256_atual": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+          "destino_principal": "N05.2",
+          "usos_complementares": [
+            "N02.4",
+            "N07.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "assunto": "Improvisar e arbitrar ações mantendo consistência",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "sha256_atual": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+          "destino_principal": "N04.5",
+          "usos_complementares": [
+            "N03.3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "sha256_atual": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1",
+          "destino_principal": "A2",
+          "usos_complementares": [
+            "N04.2",
+            "N04.4",
+            "N04.7",
+            "N04.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "assunto": "Interpretar NPCs e conduzir conversas com objetivos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "sha256_atual": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+          "destino_principal": "N04.1",
+          "usos_complementares": [
+            "N01.1",
+            "N04.2",
+            "N04.3",
+            "N04.6",
+            "N04.7",
+            "N04.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+          "sha256_atual": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5",
+          "destino_principal": "A1",
+          "usos_complementares": [
+            "N03.1",
+            "N10.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "sha256_atual": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+          "destino_principal": "B1",
+          "usos_complementares": [
+            "N03.4",
+            "N04.3",
+            "N04.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "assunto": "Fazer instituições, facções e antagonistas reagirem",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/17-faccoes-e-reacoes.md",
+          "sha256_atual": "3755945bd06a9ba9350c53e53f5e13889cb76602c454da7bf2ae47d28e7d1415",
+          "destino_principal": "N05.4",
+          "usos_complementares": [
+            "N03.2",
+            "A5.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+          "sha256_atual": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4",
+          "destino_principal": "A5.3",
+          "usos_complementares": [
+            "N05.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "assunto": "Criar e adaptar inimigos, preparar encontros e conduzir grandes confrontos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "sha256_atual": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+          "destino_principal": "N06.1",
+          "usos_complementares": [
+            "N06.2",
+            "N06.5",
+            "N06.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+          "sha256_atual": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+          "destino_principal": "N06.4",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+          "sha256_atual": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "A5.10",
+            "N06.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+          "sha256_atual": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+          "sha256_atual": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.3",
+            "N06.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+          "sha256_atual": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.5",
+            "N06.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "assunto": "Preparar perigos com intervenção e resolução claras",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "sha256_atual": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+          "destino_principal": "N06.7",
+          "usos_complementares": [
+            "B2"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "sha256_atual": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N10.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "sha256_atual": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+          "sha256_atual": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.7",
+            "N08.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "assunto": "Acompanhar recursos, derrota, retirada e retomada",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "sha256_atual": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "sha256_atual": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N01.5",
+            "A3",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "sha256_atual": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+          "destino_principal": "N04.7",
+          "usos_complementares": [
+            "N08.1",
+            "N01.6",
+            "B1"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "assunto": "Conectar missões, desenvolver arcos e preparar encerramentos",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+          "sha256_atual": "f1fb0669012ee8798ac16394812eefd3d9c2165f4c76805c86d1f6dbc1bc6721",
+          "destino_principal": "N05.3",
+          "usos_complementares": [
+            "N10.1",
+            "N10.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+          "sha256_atual": "575a822c85398f5cf654c0126cf3e3cf7feb48d6699517cc69020840c8d50fe4",
+          "destino_principal": "N05.6",
+          "usos_complementares": [
+            "N01.7"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256_atual": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "assunto": "Manter continuidade em mesas online e com vários mestres",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+          "sha256_atual": "e416206de56ff63b0acbe7ac3855f84662f0e2f156d3cef94c9ccf047b49a48f",
+          "destino_principal": "N10.4",
+          "usos_complementares": [
+            "N10.5",
+            "C2",
+            "A4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256_atual": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "assunto": "Recolher retorno e compartilhar o trabalho de mestrar",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "sha256_atual": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+          "destino_principal": "A4",
+          "usos_complementares": [
+            "N05.3",
+            "N10.3",
+            "N10.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "sha256_atual": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+          "destino_principal": "N10.3",
+          "usos_complementares": [
+            "B1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "assunto": "Avaliar personagens, poderes, projetos, Pactos e entidades",
+      "estado_anterior": "E",
+      "fontes_preservadas": [
+        {
+          "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "sha256_atual": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+          "destino_principal": "N07.4",
+          "usos_complementares": [
+            "N07.6",
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "sha256_atual": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+          "destino_principal": "A5.5",
+          "usos_complementares": [
+            "N07.4",
+            "N07.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256_atual": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256_atual": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "sha256_atual": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "sha256_atual": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+          "destino_principal": "N07.2",
+          "usos_complementares": [
+            "N02.4",
+            "B3"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "sha256_atual": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+          "destino_principal": "N07.3",
+          "usos_complementares": [
+            "A5.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+          "sha256_atual": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4",
+            "N07.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+          "sha256_atual": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+          "sha256_atual": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+          "destino_principal": "B3",
+          "usos_complementares": [
+            "N07.5",
+            "N04.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+          "sha256_atual": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.3",
+            "N08.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+          "sha256_atual": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.4"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+          "sha256_atual": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.5"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+          "sha256_atual": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+          "destino_principal": "B4",
+          "usos_complementares": [
+            "N08.6"
+          ]
+        },
+        {
+          "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "sha256_atual": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+          "destino_principal": "N07.3",
+          "usos_complementares": [
+            "A5.5"
+          ]
+        }
+      ]
+    }
+  ]
+}

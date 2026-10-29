@@ -1,0 +1,98 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Condições Leves e Médias não recebem essa
+tentativa repetida automaticamente. A mesma
+condição também não fica mais forte ao ser
+aplicada outra vez: acompanhe as aplicações e suas
+durações. Se uma fonte nova tiver uma regra
+própria para não reaplicar enquanto sua condição
+estiver ativa, declare essa escolha.
+Exemplo: Mei sai da nuvem Envenenada. Falha no
+TR ao fim do turno e continua com a condição.
+Akira cura sua vida; isso não remove Envenenado.
+No turno seguinte, ela passa no TR de saída e
+encerra aquela aplicação. Não precisa pagar PE por
+essa tentativa gratuita.
+Uma doença fictícia exige uma descrição maior que
+“fica Envenenado”. Antes de usá-la, defina
+transmissão, tempo até surgirem os primeiros
+sintomas, sinais, intervalo de avaliação,
+consequências, tratamento e término. Se ela aplicar
+uma condição publicada, preserve as saídas dessa
+condição. Passar no TR para encerrar o sintoma
+não elimina automaticamente a doença; eliminar a
+doença também não cura automaticamente toda
+vida perdida. Explique essas relações nas regras da
+doença.
+Não há nesta seção uma tabela universal de
+incubação, dano de doença ou tratamento. Quando
+isso faltar no Livro de Regras 1.0 e for necessário ao
+caso, prepare uma proposta específica para revisão.
+Uma falha num exame não autoriza inventar depois
+uma consequência permanente que não fazia parte
+do risco.
+A febre dos fios (p. 166) demonstra contato,
+incubação, crises, atendimento falho e retomado,
+término natural e registro entre mestres. Curar PV,
+remover Envenenado e encerrar a doença têm
+resultados distintos.
+Concentração, queda e socorro
+Dano ambiental pode exigir TR para manter
+Concentração. Num perigo sem autor, prepare sua
+CD pela escala de Testes. Esse teste ocorre depois
+do dano e é diferente do TR que tentou evitar a
+exposição, mesmo que ambos usem Vigor e a
+mesma CD.
+Se o dano foi zerado pelas defesas, não há esse teste
+de Concentração. Dano absorvido pela vida
+temporária ainda o exige. Uma condição aplicada
+junto do dano segue sua própria regra. Inconsciente
+encerra Concentração sem depender de uma nova
+tentativa.
+A zero de vida, o personagem jogador resolve
+Aguentar ou Insistir conforme o tempo de socorro
+ainda disponível. O ambiente não para nesse
+momento. Cada aplicação posterior de dano
+positivo que alcance a vida reduz o prazo de socorro
+em uma rodada; dano totalmente absorvido pela
+vida temporária não a reduz. Continue contando o
+tempo a partir do momento da queda.
+Retirar alguém da área pode ser mais urgente que
+outra tentativa de tratamento no mesmo lugar.
+Verifique alcance, carga, corpo e percurso.
+Remover Envenenado não encerra Morrendo;
+Estabilizar exige seus próprios requisitos e não
+cura. O socorro (p. 73) continua valendo depois de
+desligar a fonte.
+Anote o que ficou para depois
+Antes de encerrar, confira o estado do lugar e o de
+cada pessoa separadamente. Fonte desligada,
+passagem utilizável, efeito encerrado e atendimento
+concluído podem acontecer em momentos
+diferentes.
+Na guilda, registre a área interditada, a intervenção
+feita, o risco restante, os responsáveis e os estados
+das fichas que passam ao próximo mestre. Em
+campanha fechada, conserve as mesmas
+informações no registro da campanha. Use o bloco
+6 da ficha única e o registro de estado e socorro (p.
+311) quando houver prazos ativos.
+Para uma ruptura única, consulte A passarela e o
+guincho (p. 121). Para exposição repetida, condição
+após a retirada e limpeza do lugar, continue com O
+pó na sala de conservação (p. 161).
+5.8 · Avaliar o encontro do
+Amontoado
+Exemplo comentado para a pré-1.0. O preparo
+completo está em As batidas no anexo (p. 22), e as
+fichas estão na base experimental (p. 346). Aqui
+você acompanha por que foi escolhido um
+Amontoado isolado e como reavaliar o confronto
+quando suas condições mudam. Esta comparação
+não modifica o encontro já preparado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+107

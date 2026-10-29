@@ -70,6 +70,7 @@ class Item:
  original:object=None
  first:bool=True
  last:bool=True
+ keep_next:bool=False
 
 def para(text,kind='body',key=None,source='',level=0):
  st=styles[kind];return Item(Paragraph(text,st),st.spaceBefore,st.spaceAfter,key,kind,source,re.sub('<[^>]+>','',text),level)
@@ -133,16 +134,16 @@ def clean_section(sec,k):
    old=p.get_text(' ',strip=True)
    p.clear();p.append('Os casos usam referências até o volume 18 e as sinopses oficiais dos episódios 48–55. Para preparar sem revelações, use ')
    a=s.new_tag('a',href='../capitulos/c01.html#s086') if hasattr(s,'new_tag') and callable(s.new_tag) else BeautifulSoup('', 'html.parser').new_tag('a',href='../capitulos/c01.html#s086')
-   a.string='Sociedade, apoio e modos de vida';p.append(a);p.append('.')
+   a.string='A sociedade jujutsu';p.append(a);p.append('.')
    LOG.append({'consulta':k,'antes':old,'depois':p.get_text(' ',strip=True),'motivo':'O aviso de revelações e sua localização cronológica já aparecem na abertura do apêndice; evita repeti-los na seção.'})
  # Update stale title and repeated production-only references without altering content.
  if k=='x001':s.h2.string='As batidas no anexo: missão comentada'
- if k=='x002':s.h2.string='Fichas do piloto: três inimigos'
+ if k=='x002':s.h2.string='Três maldições para a missão'
  if k=='x003':
-  s.h2.string='A entrega trocada: cotidiano acompanhado'
+  s.h2.string='A entrega trocada'
   p=s.find('p',recursive=False)
   if p and p.get_text().startswith('21 de outubro'):
-   old=p.get_text(' ',strip=True);p.string='Situação original de cotidiano. Aplica tarefas, testes, ofícios e reparos da R53; não acrescenta benefícios de treinamento.'
+   old=p.get_text(' ',strip=True);p.string='Situação original de cotidiano. Aplica tarefas, testes, ofícios e reparos do Livro de Regras 1.0; não acrescenta benefícios de treinamento.'
    LOG.append({'consulta':k,'antes':old,'depois':p.string,'motivo':'Substitui a data e a nota de produção pela apresentação do exemplo; conserva seu alcance mecânico.'})
  return s
 
@@ -162,6 +163,7 @@ def section_items(k):
     prefix=(str(i)+'. ') if node.name=='ol' else '• '
     children=[c for c in li.children if not isinstance(c,Tag) or c.name not in ['ul','ol']]
     out.append(para(prefix+''.join(inline(c) for c in children),source=k))
+    if k=='s032' and 'Alcance da decisão:' in li.get_text():out[-1].keep_next=True
     for nested in li.find_all(['ul','ol'],recursive=False):
      for nj,nli in enumerate(nested.find_all('li',recursive=False),1):out.append(para('    '+('– ' if nested.name=='ul' else str(nj)+'. ')+inline(nli),source=k))
    continue
@@ -213,7 +215,7 @@ def fill(items,w,capacity,split=True):
  q=list(items);placed=[];used=0
  while q:
   item=q[0];b=item.before if used else 0;h=height(item,w);needed=b+h+item.after
-  if item.kind in ['h1','h2','h3'] and len(q)>1:
+  if (item.kind in ['h1','h2','h3'] or item.keep_next) and len(q)>1:
    # Keep a heading chain with the complete first paragraph, including its
    # trailing space; reserving only glyph height could orphan the heading.
    follow=0
@@ -249,7 +251,10 @@ def normal(items,ch,title):
    y-=used;q=rest
    if q:newpage(ch,title)
    continue
-  left,remain,lh=fill(q,CW,available,split=not TAIL_WHOLE);right,rest,rh=fill(remain,CW,available,split=not TAIL_WHOLE)
+  # Chapter 1 has been reviewed as complete teaching units. Keep its short
+  # paragraphs whole even at ordinary column overflow, not just balancing.
+  allow_split=not TAIL_WHOLE and ch!='C01'
+  left,remain,lh=fill(q,CW,available,split=allow_split);right,rest,rh=fill(remain,CW,available,split=allow_split)
   if not left and not right:
    if abs(y-TOP)<.1:raise ValueError(('unplaceable',q[0].text,available))
    newpage(ch,title);continue
@@ -302,6 +307,13 @@ def compose_items(items,ch,title):
   held=[]
   while pending and pending[-1].kind in ['h1','h2','h3']:held.insert(0,pending.pop())
   if pending:
+   # In the reviewed first chapter, bind a table's trailing heading and
+   # sole lead paragraph to the table, even after a longer prose sequence.
+   if ch=='C01' and item.kind=='table' and len(pending)>=2 and pending[-1].kind in ['body','note'] and pending[-2].key in ['s086--preparo-preenchido-o-deposito-vai-reabrir','s007--organize-as-sessoes-e-a-continuidade','s009--ligacoes-possiveis']:
+    cut=len(pending)-2
+    while cut and pending[cut-1].kind in ['h1','h2','h3']:cut-=1
+    if cut:
+     normal(pending[:cut],ch,title);pending=pending[cut:]
    # Keep an illustrated introduction together; preceding prose finishes first.
    if item.kind in ['image','diagram']:
     heads=[i for i,a in enumerate(pending) if a.kind=='h1']
@@ -311,11 +323,13 @@ def compose_items(items,ch,title):
      pending=pending[cut:]
      hs=[height(a,CW)+a.before+a.after for a in pending[1:]]
      band=min((max(sum(hs[:j]),sum(hs[j:])) for j in range(len(hs)+1)),default=0)
+     if ch=='C01' and len(pending)==2 and pending[1].kind in ['body','note'] and height(pending[1],AW)+pending[1].before+pending[1].after<=140:
+      band=height(pending[1],AW)+pending[1].before+pending[1].after
      need=height(pending[0],AW)+pending[0].before+pending[0].after+band+item.before+height(item,AW)+item.after
      if need<=TOP-BOTTOM and need>y-BOTTOM:newpage(ch,title)
      wide(pending.pop(0),ch,title)
    # A short heading and its sole lead paragraph use the figure/table width.
-   shortlead=(pending and pending[-1].kind in ['body','note'] and
+   shortlead=(item.kind=='image' and item.source=='s087') or (pending and pending[-1].kind in ['body','note'] and
               all(a.kind in ['h1','h2','h3'] for a in pending[:-1]) and
               sum(height(a,AW)+a.before+a.after for a in pending)<=140)
    if shortlead:
@@ -338,17 +352,38 @@ def rebalance_tail(ch,title,start_index):
  last=pages[-1]
  area=sum(v.w*v.h for v in last.items)/(AW*(TOP-base))
  if area>=.45:return
- saved=list(pages[-2:]);prefix=list(pages[:-2]);raw=[v.item for pp in saved for v in pp.items];seq=[]
- # Reunite original paragraph pieces when all pieces lie inside this tail.
- i=0
- while i<len(raw):
-  a=raw[i];j=i+1
-  if a.original is not None and a.first:
-   while j<len(raw) and raw[j].original is a.original:j+=1
-   if raw[j-1].last:a=replace(a,f=a.original,original=None,first=True,last=True)
-   else:j=i+1
-  seq.append(a);i=j
+ original_pages=list(pages);original_y=y
+ def reunite(raw):
+  seq=[];i=0
+  while i<len(raw):
+   a=raw[i];j=i+1
+   if a.original is not None and a.first:
+    while j<len(raw) and raw[j].original is a.original:j+=1
+    if raw[j-1].last:a=replace(a,f=a.original,original=None,first=True,last=True)
+    else:j=i+1
+   seq.append(a);i=j
+  return seq
+ for count in [4,3,2]:
+  if len(original_pages)-start_index<count:continue
+  prefix=list(original_pages[:-count]);seq=reunite([v.item for pp in original_pages[-count:] for v in pp.items])
+  pages=list(prefix);BOTTOM=base;TAIL_WHOLE=False;newpage(ch,title)
+  try:compose_items(seq,ch,title)
+  except ValueError:continue
+  if len(pages)<len(original_pages):return
+ pages=original_pages;current=pages[-1];y=original_y
+ saved=list(pages[-2:]);prefix=list(pages[:-2])
+ seq=reunite([v.item for pp in saved for v in pp.items])
  TAIL_WHOLE=True
+ # First try to close the chapter on one page. Balancing two pages before
+ # this test can preserve an avoidable near-empty ending.
+ original_y=y
+ pages=list(prefix);BOTTOM=base;newpage(ch,title)
+ try:compose_items(seq,ch,title)
+ except ValueError:pass
+ else:
+  if len(pages)-len(prefix)==1:
+   TAIL_WHOLE=False;return
+ pages=prefix+saved;current=pages[-1];y=original_y
  best=saved;best_y=y;lo=base;hi=TOP-220
  for _ in range(9):
   mid=(lo+hi)/2;pages=list(prefix);BOTTOM=mid;newpage(ch,title)
@@ -360,13 +395,26 @@ def rebalance_tail(ch,title,start_index):
  BOTTOM=base;TAIL_WHOLE=False;pages=prefix+best;current=pages[-1];y=best_y
 
 def front_items():
- return [para('Como usar este Guia','major','inicio'),para('Pré-1.0 · edição de leitura diagramada · 26 de outubro de 2026','small'),para('Este livro ensina a preparar e conduzir mesas de Ciclo Maldito. A guilda é a referência principal de organização: mestres, personagens e missões podem compartilhar continuidade. Os procedimentos também servem a campanhas fechadas.'),para('Você não precisa conhecer a trama de Jujutsu Kaisen para começar. O primeiro capítulo explica o contexto; quem já conhece a obra pode seguir diretamente para os acordos do grupo. O apêndice D contém revelações e é opcional.'),para('O jogo em uma conversa','h2'),para('Apresente uma situação e o que os personagens percebem. Ouça o que querem fazer e quais meios usam. Quando houver incerteza relevante, aplique o procedimento da R53. Num teste comum, role um dado de vinte faces (d20), some o bônus indicado e compare com a Classe de Dificuldade (CD): igualar ou superar é sucesso. Ataques e testes de resistência (TRs) conservam suas regras próprias.'),para('Descreva o resultado e a próxima decisão. Uma conversa pode terminar com um acordo; um combate acompanha turnos e ações até seu desfecho. A ficha registra escolhas de Origem e Caminho, atributos, perícias, capacidades, equipamento e recursos, como pontos de vida (PV) e pontos de energia (PE).'),para('Escolha seu percurso','h2'),para('Para a primeira missão, leia <link href="#s007" color="#9e2358">Preparar o grupo</link>, <link href="#s001" color="#9e2358">Preparar uma missão</link> e <link href="#s004" color="#9e2358">Conduzir uma sessão</link>. Acompanhe depois <link href="#x001" color="#9e2358">As batidas no anexo</link>, no apêndice C. Para consulta durante o jogo, use as folhas do apêndice A.'),para('Reconheça o alcance do texto','h2'),para('<b>Regra publicada.</b> A R53 é a referência mecânica. O Guia explica sua aplicação e identifica as seções relevantes.<br/><b>Orientação do Guia.</b> Métodos de preparação e referências administrativas podem ser ajustados conforme a campanha; anuncie os ajustes que afetem outras pessoas.<br/><b>Exemplo experimental.</b> Fichas novas, parâmetros e casos originais são modelos para avaliação. A identificação acompanha o exemplo. Contas e percursos escritos não certificam equilíbrio em mesa.'),para('Navegação e leitura','h2'),para('O sumário, as remissões e os botões do rodapé são clicáveis. As páginas citadas pertencem a este PDF; referências à R53 indicam o volume separado. O índice reúne os assuntos pelo título. Leia as orientações de cada capítulo e abra os exemplos conforme a necessidade.')]
+ return [
+  para('Como usar este livro','major','inicio'),
+  para('Pré-1.0 · edição de leitura · 28 de outubro de 2026','small'),
+  para('Este livro ensina você a mestrar Ciclo Maldito: preparar uma missão, apresentar o mundo e acompanhar as escolhas dos jogadores. O sistema foi pensado principalmente para guildas, onde vários mestres e personagens compartilham a mesma história. Você também pode usar estas orientações numa campanha fechada.'),
+  para('Não é preciso conhecer Jujutsu Kaisen. O primeiro capítulo apresenta o mundo e a vida de um feiticeiro. Se você já conhece a obra, pode seguir para os acordos do grupo. O apêndice D traz exemplos com revelações da trama; sua leitura é opcional.'),
+  para('Como funciona uma sessão','h2'),
+  para('Você descreve a situação e o que os personagens percebem. Os jogadores dizem o que querem fazer. Se o resultado for incerto e a falha fizer diferença, consulte a regra no Livro de Regras 1.0. Num teste comum, role um dado de vinte faces (d20) e some o bônus indicado. O teste tem sucesso se alcançar ou superar a Classe de Dificuldade (CD). Ataques e testes de resistência (TRs) seguem suas próprias regras.'),
+  para('Depois, descreva o resultado e dê espaço à próxima escolha. Nem tudo exige dados: uma conversa pode resolver um problema. Num combate, use os turnos e as ações de cada participante. Consulte a ficha para saber quais capacidades, equipamentos e recursos cada personagem possui, como pontos de vida (PV) e pontos de energia (PE).'),
+  para('Por onde começar','h2'),
+  para('Para sua primeira missão, leia <link href="#s007" color="#9e2358">A sessão zero</link>, <link href="#s001" color="#9e2358">Preparar uma missão</link> e <link href="#s004" color="#9e2358">Conduzir uma sessão</link>. Depois, acompanhe <link href="#x001" color="#9e2358">As batidas no anexo</link>, no apêndice C. Durante o jogo, as fichas do apêndice A ajudam a consultar e anotar o que importa.'),
+  para('Regras, dicas e exemplos','h2'),
+  para('<b>Regras do jogo.</b> Estão no Livro de Regras 1.0. Este Guia mostra como usá-las em situações de jogo e onde consultá-las.<br/><b>Dicas para o mestre.</b> Ajudam a preparar e conduzir a sessão. Adapte-as ao seu grupo e avise quando uma mudança afetar os jogadores.<br/><b>Exemplos experimentais.</b> São inimigos, perigos e outras criações que ainda precisam ser avaliados em jogo. Seus avisos indicam o que está sendo proposto. Os exemplos não são regras obrigatórias para toda a guilda.'),
+  para('Encontre o que precisa','h2'),
+  para('O sumário, as referências e os botões no rodapé são clicáveis. As páginas indicadas levam a trechos deste PDF. O Livro de Regras 1.0 é um volume separado. Use o índice para procurar um assunto e leia os exemplos conforme sua necessidade.')]
 
 def build():
  global pages,current,y,LOG
  pages=[];LOG=[]
  newpage('CAPA','Ciclo Maldito','cover')
- newpage('INÍCIO','Como usar este Guia');compose_items(front_items(),'INÍCIO','Como usar este Guia')
+ newpage('INÍCIO','Como usar este livro');compose_items(front_items(),'INÍCIO','Como usar este livro')
  newpage('SUMÁRIO','Sumário');toc=[para('Sumário','major','sumario')]
  for ch in chapters:
   label=(str(int(ch['codigo'][1:])) if ch['codigo'].startswith('C') and ch['codigo'][1:].isdigit() else {'FICHAS':'A','TERMOS':'B','PILOTO':'C','OBRA':'D'}[ch['codigo']])
@@ -374,7 +422,7 @@ def build():
   toc.append(para('<b><link href="#'+key+'" color="#9e2358">'+label+' · '+escape(title)+' · '+p+'</link></b>','h3'))
   text=' · '.join(escape(source_titles[k]) for k in ch['consultas'])
   # The chapter opening and index provide the complete section-level list.
-  summaries={'C01':'Contexto, cotidiano e acordos do grupo.','C02':'Situações, investigação, facções e continuidade.','C03':'Testes, informação, espaço e improvisação.','C04':'Recursos, quedas, socorro e recuperação.','C05':'Criação, comparação e condução de ameaças.','C06':'Fichas, vínculos, Origens e cuidados.','C07':'Pareceres, montagem e poderes avançados.','C08':'Dedicação, projetos, equipamento e recompensas.','C09':'Trocas, aquisição e continuidade de entidades.','C10':'Ferramentas de registro e retomada.','FICHAS':'Folhas prontas para consultar e preencher.','TERMOS':'Vocabulário do mundo sem revelações.','PILOTO':'A entrega trocada, As batidas no anexo e fichas.','OBRA':'Aprofundamento opcional com revelações.'}
+  summaries={'C01':'Contexto, cotidiano e acordos do grupo.','C02':'Situações, investigação, facções e continuidade.','C03':'Testes, informação, espaço e improvisação.','C04':'Recursos, quedas, socorro e recuperação.','C05':'Criação, comparação e condução de ameaças.','C06':'Fichas, vínculos, Origens e cuidados.','C07':'Avaliação, montagem e poderes avançados.','C08':'Dedicação, projetos, equipamento e recompensas.','C09':'Trocas, aquisição e continuidade de entidades.','C10':'Ferramentas de registro e retomada.','FICHAS':'Folhas prontas para consultar e preencher.','TERMOS':'Vocabulário do mundo sem revelações.','PILOTO':'A entrega trocada, As batidas no anexo e fichas.','OBRA':'Aprofundamento opcional com revelações.'}
   toc.append(para(summaries[ch['codigo']],'small'))
  toc.append(para('<link href="#indice" color="#9e2358">Índice de assuntos</link> · '+str(PAGEMAP.get('indice','000')),'h3'))
  toc.append(para('<link href="#creditos" color="#9e2358">Créditos e notas da edição</link> · '+str(PAGEMAP.get('creditos','000')),'h3'));compose_items(toc,'SUMÁRIO','Sumário')
@@ -382,7 +430,7 @@ def build():
   code=ch['codigo'];title=ch['titulo'];chapter_start=len(pages);newpage(code,title)
   label=('CAPÍTULO '+str(int(code[1:]))) if code.startswith('C') and code[1:].isdigit() else 'APÊNDICE '+{'FICHAS':'A','TERMOS':'B','PILOTO':'C','OBRA':'D'}[code]
   head=[para(label,'small'),para(escape(title),'major','ch-'+code)]
-  if code=='OBRA':head.append(para('<b>REVELAÇÕES IMPORTANTES.</b> Os casos a seguir discutem acontecimentos posteriores a Shibuya e o Jogo do Abate. Esta leitura é opcional; os procedimentos do Guia não exigem conhecer esses desfechos.','note'))
+  if code=='OBRA':head.append(para('<b>REVELAÇÕES IMPORTANTES.</b> Os casos a seguir discutem acontecimentos posteriores a Shibuya e o Jogo do Abate. Esta leitura é opcional; as orientações do Guia não exigem conhecer esses desfechos.','note'))
   desc=BeautifulSoup((E/ch['pagina']).read_text(),'html.parser').select_one('p.abertura').get_text()
   if code!='OBRA':head.append(para(escape(desc)))
   head.append(para('Neste capítulo: '+ ' · '.join('<link href="#'+k+'" color="#9e2358">'+numbers[k]+' '+escape(source_titles[k])+'</link>' for k in ch['consultas']),'small'))
@@ -396,7 +444,7 @@ def build():
  for k in sorted(sections,key=lambda k:unicodedata.normalize('NFKD',source_titles[k]).encode('ascii','ignore').decode().casefold()):
   index.append(para('<link href="#'+k+'" color="#9e2358">'+escape(source_titles[k])+'</link> · '+numbers[k]+' · '+str(PAGEMAP.get(k,'000')),'toc'))
  compose_items(index,'ÍNDICE','Índice de assuntos')
- newpage('NOTAS','Créditos e notas da edição');notes=[para('Créditos e notas da edição','major','creditos'),para('<b>Ciclo Maldito | Guia do Mestre</b><br/>Criação e coordenação: Mizuki_sama. Pré-1.0, 2026.'),para('Referência de regras','h2'),para('Livro de regras Ciclo Maldito, revisão R53. O Guia conserva a separação entre regras publicadas, orientações da campanha e exemplos experimentais. O Bestiário antigo não forneceu os números das novas fichas. Os procedimentos de dedicação e os exemplos aprovados permanecem no escopo registrado pelo autor.'),para('Obra e imagens','h2'),para('Ciclo Maldito é um RPG de fãs inspirado em Jujutsu Kaisen. É uma publicação independente. JUJUTSU KAISEN © 2018 by Gege Akutami / SHUEISHA Inc. Os quadros usados provêm do acervo da R53; seus capítulos aparecem nas legendas. Não há autorização de reprodução registrada. Os créditos identificam a autoria e não constituem licença de reutilização.'),para('A base visual da capa foi fornecida por Mizuki_sama para a R53. Esta edição aplica identificação própria em composição vetorial. Esquemas de consulta foram produzidos para o Guia e não representam páginas da obra.'),para('Tipografia e formato','h2'),para('Spectral (The Spectral Project Authors), Barlow Condensed (The Barlow Project Authors), Bree Serif e IBM Plex Mono. Fontes de licença aberta, conforme os arquivos que acompanham o projeto. Página A4, margens de 19 mm, duas colunas com intervalo de 7 mm. Texto principal: Spectral 10,25 pt, entrelinha 13,2 pt, conforme o perfil de densidade da R53.'),para('Alcance desta edição','h2'),para('A revisão organiza o percurso, corrige remissões e distingue procedimentos concluídos de expansões ainda pendentes. As notas de pesquisa e produção ficam no acervo que acompanha o livro; os exemplos conservam suas hipóteses e limitações. O relatório de revisão identifica as passagens confrontadas com a R53 e os controles de diagramação.'),para('Treinamentos específicos, atualização integral do Bestiário e uma eventual escala geral de dificuldade continuam sendo trabalhos próprios. Esta pré-1.0 recebe observações de leitores e de mesa antes de uma candidata à 1.0.'),para('Fontes e continuidade','h2'),para('O mapa editorial relaciona cada seção ao manuscrito numerado, ao histórico e às referências usadas. O texto editável e os registros permanecem nas pastas de redação e planejamento do projeto. Ao relatar uma dúvida, indique a página, o título, a passagem e a situação em que tentou usá-la.')]
+ newpage('NOTAS','Créditos e notas da edição');notes=[para('Créditos e notas da edição','major','creditos'),para('<b>Ciclo Maldito | Guia do Mestre</b><br/>Criação e coordenação: Mizuki_sama. Pré-1.0, 2026.'),para('Referência de regras','h2'),para('Ciclo Maldito — Livro de Regras 1.0. Este Guia distingue as regras do jogo, as orientações para a campanha e os exemplos experimentais. Os inimigos novos usam fichas próprias, preparadas a partir do livro de regras; seus números não vêm do Bestiário antigo.'),para('Obra e imagens','h2'),para('Ciclo Maldito é um RPG de fãs inspirado em Jujutsu Kaisen. É uma publicação independente. JUJUTSU KAISEN © 2018 by Gege Akutami / SHUEISHA Inc. Os quadros usados provêm do acervo do Livro de Regras 1.0; seus capítulos aparecem nas legendas. Não há autorização de reprodução registrada. Os créditos identificam a autoria e não constituem licença de reutilização.'),para('A base visual da capa foi fornecida por Mizuki_sama para o Livro de Regras 1.0. Esta edição aplica identificação própria em composição vetorial. Esquemas de consulta foram produzidos para o Guia e não representam páginas da obra.'),para('Tipografia e formato','h2'),para('Spectral (The Spectral Project Authors), Barlow Condensed (The Barlow Project Authors), Bree Serif e IBM Plex Mono. Fontes de licença aberta, conforme os arquivos que acompanham o projeto. Página A4, margens de 19 mm, duas colunas com intervalo de 7 mm. Texto principal: Spectral 10,25 pt, entrelinha 13,2 pt, conforme o formato do Livro de Regras 1.0.'),para('Alcance desta edição','h2'),para('A revisão simplifica a linguagem, organiza os títulos e confere as referências. As notas de pesquisa e produção ficam no acervo que acompanha o livro; os exemplos conservam suas hipóteses e limitações. O relatório de revisão identifica as conferências de texto e os controles de diagramação.'),para('Treinamentos específicos, atualização integral do Bestiário e uma eventual escala geral de dificuldade continuam sendo trabalhos próprios. Esta pré-1.0 recebe observações de leitores e de mesa antes de uma candidata à 1.0.'),para('Fontes e continuidade','h2'),para('O mapa editorial relaciona cada seção ao manuscrito numerado, ao histórico e às referências usadas. O texto editável e os registros permanecem nas pastas de redação e planejamento do projeto. Ao relatar uma dúvida, indique a página, o título, a passagem e a situação em que tentou usá-la.')]
  compose_items(notes,'NOTAS','Créditos e notas da edição')
  result={}
  for n,p in enumerate(pages,1):
@@ -413,7 +461,7 @@ for attempt in range(7):
  PAGEMAP=newmap
 else:raise RuntimeError('Pagination did not converge')
 
-c=Canvas(str(OUT),pagesize=A4,pageCompression=1,invariant=1);c.setTitle('Ciclo Maldito - Guia do Mestre - pré-1.0');c.setAuthor('Mizuki_sama');c.setSubject('Guia de preparação, condução e continuidade de mesas; referência R53')
+c=Canvas(str(OUT),pagesize=A4,pageCompression=1,invariant=1);c.setTitle('Ciclo Maldito - Guia do Mestre - pré-1.0');c.setAuthor('Mizuki_sama');c.setSubject('Guia de preparação, condução e continuidade de mesas; referência Livro de Regras 1.0')
 geometry=[];drawlog=[]
 for num,p in enumerate(pages,1):
  if p.kind=='cover':
@@ -425,8 +473,7 @@ for num,p in enumerate(pages,1):
    if ch==' ':yy-=15;continue
    c.drawCentredString(W*174/1024,yy,ch);yy-=38
   c.setFont('Head',12);c.drawCentredString(W*174/1024,H*0.279,'GUIA DO MESTRE')
-  c.setFillColor(HexColor('#f4e2c2'));c.setFont('Strong',40);c.drawRightString(W-49,H-155,'GUIA');c.drawRightString(W-49,H-198,'DO MESTRE');c.setFont('Head',13);c.drawRightString(W-49,H-225,'EDIÇÃO DE LEITURA')
-  c.setFillColor(HexColor('#4b1d34'));c.roundRect(W-170,42,130,36,3,fill=1,stroke=0);c.setFillColor(HexColor('#f4e2c2'));c.setFont('Head',16);c.drawCentredString(W-105,54,'PRÉ-1.0')
+  # Preserve the supplied cover and the user-approved version mark (record 95).
   c.showPage();continue
  c.setFillColor(ACC);c.setFont('Head',8.5);c.drawString(M,H-34,'CICLO MALDITO / GUIA DO MESTRE')
  short=p.title.upper()

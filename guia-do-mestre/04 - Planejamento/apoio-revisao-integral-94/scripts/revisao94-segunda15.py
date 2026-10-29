@@ -1,0 +1,2 @@
+from revisar_guia94 import *
+edit(source(98),[('Use esta preparação para preparar o transporte, o exame e uma escolha arriscada sem improvisar o perigo depois da ação.','Este exemplo mostra como preparar o transporte e o exame de um objeto perigoso, com seus riscos definidos antes das escolhas do grupo.'),('Não define como forçar a ingestão','Elas não definem como forçar a ingestão')],'Segundo pente-fino, páginas 228–229: repetição e concordância')

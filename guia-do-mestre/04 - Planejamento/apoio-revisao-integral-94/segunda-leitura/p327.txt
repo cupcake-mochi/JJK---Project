@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Campo
+Preenchimento
+Informação e término
+Leitura de Reservas consulta PE reais quando seus requisitos forem atendidos.
+Afastar Ren depois da aplicação ou incapacitar Sora não apaga o que já foi
+concedido: seguir os prazos de cada benefício.
+Falha ou impedimento: sem alvo ou requisitos
+válidos, não há aplicação legal. Um ataque
+posterior de Ren que erre consome Impulso e não
+devolve o pagamento de Sora. Impedir outra
+conjuração não desfaz esse gasto nem a vida
+temporária restante. Não há dano ou vantagem em
+TR acrescentados pelo nome do feitiço.
+4. Lugar, sinais e mudanças
+Mapa: recinto de 12 × 18 m, células de 1,5 m,
+colunas A-H e linhas internas 1-12; porta aberta
+entre C e F na face sul. Linha 0 e linhas negativas
+ficam fora. Piso regular e visão livre; sem cobertura,
+armadilha ou perigo ambiental recorrente. A
+consulta Escolher quem enfrentar primeiro (p. 150)
+mostra os percursos completos.
+Elemento
+Posição inicial
+Sinal
+Consequência e intervenção
+Grupo
+Rina C0; Mei D0;
+Akira F0.
+Entrada e oposição
+visíveis.
+Aproximar, conversar ou retirar-se com
+as ações disponíveis.
+Ren
+D5.
+Espada e posição entre
+o grupo e Sora.
+Pressão próxima; disputa de ações entre
+dano, contenção e retirada.
+Sora e
+objetivo
+F8; estojo na mão
+esquerda.
+Estojo e, ao conjurar,
+palavra, gesto e fios.
+Apoio a até 9 m; afastamento anterior à
+próxima aplicação pode exigir
+reposicionamento.
+Porta e estojo
+solto
+Porta C-F; estojo
+conforme a posição
+da portadora.
+Acesso aberto; queda do
+objeto quando ocorrer.
+Saída não encerra alcance
+automaticamente. Objeto solto ao
+alcance permite interação simples;
+objeto segurado exige resolver a disputa.
+Fases, partes e reforços: não se aplicam neste
+encontro. A queda de um aliado muda prioridades e
+a disponibilidade das próximas ações; não renova
+recursos nem inicia uma fase adicional. O estojo é
+um objeto da missão, sem cobertura ou capacidade
+de combate própria.
+Transporte e atendimento: precisam considerar o
+corpo de Sora, o portador dos documentos e o
+trajeto de saída. O percurso termina antes dessas
+providências; não se concede transporte ou
+tratamento gratuito por terem cessado os ataques.
+5. Antes de jogar
+Os textos das capacidades, o mapa e os estados
+estão disponíveis. A comparação considera duas
+iniciativas inimigas, os custos concorrentes e a
+perda de pressão quando um deles cai. Não usa a
+soma de 120 PV como equivalência a um chefe de
+108 PV.
+Questões conferidas: cura ocupa a Padrão que daria
+apoio; Cobrir-se compete por PE; Impulso não
+concede ataque extra; a reação de cada pessoa volta
+no início do próprio turno; afastar Sora interfere em
+aplicações futuras sem apagar benefícios já
+entregues. As penalidades de Integridade e o
+destino a zero estão escritos, mesmo sem redução
+de Integridade no percurso escolhido.
+Sequência estudada: apoio inicial, pressão sobre
+Sora, reposicionamento e autocura, nova
+concentração de ataques, derrota do apoio e
+retirada de Ren. O confronto comentado (p. 150)
+também compara a hipótese de concentrar duas
+declarações em Ren. Essa comparação é
+condicionada a um estado específico: não é chance
+de vitória de toda a missão.
+Risco principal: a defesa de Rina foi preparada
+contra os dois tipos de dano usados por Ren. O
+mesmo percurso não representa um grupo sem essa
+proteção, outro mapa ou outra ordem de iniciativa.
+Reavalie essas condições antes de reutilizar a cena.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+327

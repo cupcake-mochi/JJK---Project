@@ -1,0 +1,69 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Atua na iniciativa do invocador. No começo do
+turno dele renovam-se Movimento e básica, além
+da coletiva de Reação compartilhada. Não tem
+Bônus independente. Dar ou mudar tarefa,
+comandar especial, preparar e usar respostas
+seguem as regras de Invocações em campo; esta
+ficha não aumenta o limite de entidades ativas.
+Uma ordem antecipada conserva seus custos e sua
+primeira oportunidade válida, sem criar básica ou
+transporte imediato.
+O que acompanhar durante a luta
+Registre PV, Integridade, condições, mão ocupada,
+vítima e carga conjunta. Para o inimigo, acrescente
+o centro da zona e o turno em que poderá bater.
+Para a domada, registre a especial pendente, PE
+pagos, básica usada e prazo da exposição.
+As habilidades do chefe se complementam: ele
+captura e transporta a vítima, anuncia o golpe e dá
+tempo para o grupo reagir. Interromper a
+preparação evita o impacto; se ele conseguir bater,
+fica exposto. Ainda é preciso testar em mesa o
+perigo que isso representa para cada grupo. A
+comparação numérica deve considerar também
+quanto o chefe perde ao ser controlado e quantas
+tentativas de contenção consegue realizar antes de
+cair.
+Exemplo de condução: Retirar a caixa, proteger a
+equipe (p. 141), com captura, interrupção, retirada e
+socorro. O exemplo preserva esta conversão; não é
+teste da versão domada.
+5.16 · Retirar a caixa,
+proteger a equipe
+Leia este exemplo para acompanhar uma missão
+que termina sem derrotar o chefe. Depois, consulte
+o segundo exemplo para ver como uma interrupção
+mal sucedida pode levar ao socorro. A ficha do
+Sineiro (p. 134) traz suas capacidades; a consulta e
+Doma (p. 137) continua separada.
+Exemplo escrito com a ficha experimental, com
+108 PV e 54 de Integridade. Os resultados dos
+dados foram escolhidos para explicar decisões e
+regras. Não representam uma sessão jogada, a
+melhor estratégia possível ou uma frequência
+esperada de sucesso. Os 108 PV não são uma
+referência obrigatória para chefes de nível 6.
+Preparar a mesa
+A equipe precisa retirar uma caixa do recinto. O
+Sineiro protege esse objeto, tenta levar intrusos
+para o fundo e não persegue além da entrada. Essas
+informações podem ser descobertas antes do
+confronto. A caixa pesa 1 Volume, pode ser
+segurada em uma mão e não protege contra
+ataques. Não há outros inimigos ou perigos ativos.
+Use um recinto de 12 × 18 m, com piso regular,
+visão livre e porta de 6 m. Neste mapa, cada célula
+mede 1,5 m, inclusive para um passo diagonal. As
+colunas vão de A a H, as linhas internas de 1 a 12. A
+porta ocupa C-F. A linha 0 marca o espaço externo
+junto à entrada; linhas negativas continuam para
+fora. Nas anotações, D6:E7 significa que o Sineiro
+ocupa D6, E6, D7 e E7.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+141

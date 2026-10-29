@@ -1,0 +1,76 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+Estalo de farpas - Classe 1, Ação Padrão, 3 PE,
+Projétil, 18 m. Selo: estalar os dedos de uma mão
+livre. Precisa enxergar o alvo e cumprir o alcance.
+Ataque de técnica +4; acerto causa 3d8 de Cortante.
+Crítico: 6d8. Não soma atributo ao dano nem o
+dano da Pancada. Não há TR, condição, área ou
+efeito no erro. O erro gasta ação e PE.
+Fundamento registrado: atributo Essência; dano
+Cortante; Livres: Alcance, Mira; Fechadas: Amparo,
+Tempo, Marca. Expressão visual: as marcas do
+corpo se acendem brevemente, sem efeito
+mecânico. A ficha conhece apenas a aplicação
+acima. Não recebe repertório, Aptidões, Caminho
+ou recursos adicionais por analogia a um
+personagem jogador.
+Com a reserva inicial de 6 PE, são no máximo dois
+usos pelo custo normal. Os PE não se renovam por
+rodada. Se algum efeito mudar o custo ou impedir a
+execução, use o custo atual. Sem poder conjurar,
+continua dispondo da Pancada e das ações gerais.
+Conversões conhecidas para
+maldições domadas
+Estas conversões permitem mostrar o resultado
+antes de uma tentativa de submissão. Elas mantêm
+identidade e funções dentro da escala de Construir
+invocações. Não transferem a vida ampliada do
+encontro nem o orçamento pessoal de Fundamento.
+A aquisição exige nível permitido, derrota sem
+destruição e o TR Espírito previsto no Livro de
+Regras 1.0. O sucesso no TR exorciza; a falha
+permite domar. Não se repete a tentativa sobre o
+mesmo alvo até conseguir uma falha.
+Regras comuns da conversão: conservam nível 2,
+atributos, tamanho, anatomia, comunicação,
+sentidos, deslocamento e Leitura. Usam a Maestria
+do invocador. A Defesa sem equipamento é 10 +
+Destreza da entidade + metade da Essência ou
+Inteligência escolhida pelo invocador, para baixo.
+Chamaremos essa última parcela de B e a Maestria
+M. Conservam o TR treinado e as perícias
+indicadas; substitua o +1 de treino por M. Outros
+TRs usam apenas o atributo da criatura.
+Domada
+Vida máxima
+Integridade
+Defesa
+Ataque da básica
+Reserva própria
+máxima
+Rastejante
+10
+5
+13 + B
++2 + M
+0 PE
+Amontoado do
+depósito
+14
+7
+11 + B
++3 + M
+2 PE
+Vigia das farpas
+10
+5
+13 + B
++3 + M
+4 PE
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+349

@@ -1,0 +1,78 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Condução pela matéria
+Ao usar Fio de Corte contra um objeto permitido,
+você pode conduzi-lo por matéria inanimada
+sólida que toque diretamente. Escolha uma parte
+específica que já tenha visto pessoalmente e cuja
+posição atual conheça. Um caminho material
+contínuo de até 18 m deve ligar seu toque à parte
+escolhida. Você pode afetá-la mesmo sem
+enxergá-la agora. Resolva o ataque e o dano
+normais somente contra essa parte.
+O toque integra a mesma Ação Padrão e deve
+permitir executar o Selo. O custo continua sendo 3
+PE. As partes intermediárias transmitem o feitiço
+sem receber dano. A personagem não recebe
+percepção através delas.
+Para consultar durante o uso
+Aplicação
+Caminho
+Pode passar por partes sólidas de materiais diferentes em contato, como
+piso, parede e porta. Conte os metros pelo percurso, incluindo curvas. Use a
+medida aproximada da cena.
+Interrupção
+Uma separação sem contato material interrompe o percurso. Criaturas,
+itens vestidos ou carregados, líquidos, gases e efeitos de energia não servem
+como trechos do caminho.
+Alvo conhecido
+É preciso já ter visto a parte e conhecer sua posição atual. A capacidade não
+descobre uma peça oculta nem localiza um objeto que foi movido.
+Visão e cobertura
+A modalidade dispensa visão atual e substitui a trajetória pelo caminho
+material. Cobertura apenas no trajeto pelo espaço livre não a impede; falta
+de contato material com o alvo impede.
+Resolução
+Um ataque contra uma parte, com Defesa, Vida e adequação normais. Não
+aumenta o dano nem destrói automaticamente o alvo.
+Informação
+Não revela ocupantes, objetos, caminhos, Vida restante ou sucesso. A
+personagem só conhece os sinais que perceber normalmente.
+Criaturas e equipamento
+Não podem ser alvos ou condutores desta modalidade. Um corpo com ficha
+de criatura continua criatura, mesmo construído ou inativo.
+Barreiras sobrenaturais
+Não são alvo ou condutor desta aplicação. O ganho não atravessa
+automaticamente uma barreira que proíba o efeito; consulte sua regra.
+Se a personagem já sabe que não cumpre os
+requisitos, o mestre esclarece isso antes do gasto.
+Se tenta com informação plausível, mas
+desatualizada, paga a ação e os 3 PE: um objeto
+removido ou um caminho desconectado faz o uso
+não produzir efeito. Não há seleção automática de
+outro alvo. Essa regra faz parte da proposta, não
+uma regra geral nova.
+A personagem conserva a modalidade comum
+contra objetos visíveis. Assumir o Pacto impede os
+ataques diretos contra criaturas, inclusive pela
+modalidade comum. O benefício não devolve essa
+possibilidade.
+Na mesa
+Nara sabe onde está uma porta de madeira que
+examinou antes, mas agora não consegue vê-la. O
+mestre confirma um caminho de 12 m pela
+estrutura tocada até a porta. O corte é adequado; a
+porta tem Defesa 14 e 20 de Vida.
+Ela escolhe Condução pela matéria e gasta a Ação
+Padrão e 3 PE. Sua Destreza 3 e Maestria 1 somam
++4. Um 10 no d20 totaliza 14 e acerta. Os 3d8
+mostram 3, 4 e 5: são 12 de dano, deixando a porta
+com 8 de Vida. Ela não abre automaticamente; a
+parede intermediária fica intacta. Nara não recebe
+uma percepção sobrenatural do resultado.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+246

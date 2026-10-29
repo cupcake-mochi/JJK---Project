@@ -1,0 +1,72 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Três rodadas até a ruptura
+Use um marcador visível, de 0 a 3, apenas enquanto
+a transmissão estiver puxando o suporte. O
+marcador avança uma vez ao fim de cada rodada
+completa, depois dos turnos e efeitos de fim de
+turno, com uma única fase ambiental. Turnos
+extras, entidades, Reações e mudanças de narrador
+não o avançam novamente.
+Estado
+Descreva e resolva
+Ativação, marcador 0
+Cabo fica tenso e o suporte começa a mover. Diga: “Se continuar
+puxando, essa parte vai perder o apoio; vocês têm três rodadas
+completas para interromper ou sair dela.” A passarela ainda suporta a
+travessia.
+Fim da rodada 1, marcador 1
+Um pino do suporte sai parcialmente; metal raspa. Sem dano, teste ou
+mudança de custo de movimento. Atualize o prazo: restam duas
+rodadas.
+Fim da rodada 2, marcador 2
+A fixação restante se deforma. Avise que a ruptura ocorrerá no próximo
+avanço. Ainda não há dano nem queda.
+Fim da rodada 3, marcador 3
+A parte móvel perde o apoio. Remova seus espaços de sustentação.
+Quem ainda depender deles cai os 6 m reais até o piso inferior. A
+ruptura acontece uma vez; não se repete por rodada.
+Tração interrompida antes de 3
+Congele o marcador no valor atingido; não resolva a ruptura
+programada. O freio sustenta a posição restante. A passarela continua
+avariada e deve ser interditada.
+Tração interrompida depois de 3
+O guincho para; o vão permanece aberto. Não reaparecem piso, apoio ou
+vítimas no patamar.
+Intervir no próprio turno da rodada 3 ainda pode
+impedir a ruptura, se a ação terminar antes da fase
+ambiental. Anuncie e resolva a fase separadamente,
+sem escondê-la entre ações. Não encerre a rodada
+antes de alguém jogar porque demorou na
+descrição.
+Quando todos estiverem fora de risco e as escolhas
+imediatas acabarem, pode encerrar a iniciativa. Se o
+motor continuar ligado, resolva o tempo que ainda
+falta: sair da iniciativa não interrompe o
+mecanismo. Como cada rodada tem seis segundos,
+três rodadas completas representam 18 segundos
+neste exemplo. Não cronometre a fala dos
+jogadores pelo relógio real.
+Como impedir a ruptura
+As posições da alavanca, do pino, do apoio inferior
+e das escadas são visíveis. A tração e os sinais de
+ruptura são informações da descrição. Não cobre
+testes para descobrir essas saídas depois de tê-las
+apresentado.
+Se houver dúvida sobre o funcionamento, uma
+pergunta concreta por Estudar, com Investigação
+CD 10, pode identificar o pino que transmite o
+esforço e a função do freio. Custa Padrão em
+combate; o teste resolve essa dúvida, sem fornecer
+controle à distância ou vantagem em todo ataque
+posterior. A CD é escolha local na escala do Livro
+de Regras 1.0. Falhar gasta a ação; a alavanca
+identificada e as rotas continuam conhecidas. Uma
+descrição evidente ou capacidade que garanta a
+informação dispensa o teste.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+124

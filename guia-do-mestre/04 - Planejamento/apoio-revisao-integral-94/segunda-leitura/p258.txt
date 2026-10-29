@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+• O corpo consegue fazer isso? Uma boca pode
+segurar algo compatível, mas não fornece mãos
+para qualquer manobra.
+• A ficha possui a capacidade? Parecer uma ave
+não concede automaticamente todos os sentidos e
+poderes imaginados pelo jogador.
+• Como a informação chega ao invocador? A
+criatura pode perceber uma pista sem conseguir
+descrevê-la por fala ou telepatia.
+O Cão de sombra e o Vigia de papel, no Livro de
+Regras 1.0, são exemplos completos de construção.
+Use-os para conferir o caminho entre definição e
+números, sem transferir seus talentos
+gratuitamente a outras entidades.
+Construir e evoluir o Escriba de campo (p. 279)
+percorre uma ficha original, compara as compras,
+propõe um talento de informação e acompanha a
+evolução. Use o caso junto das orientações de
+avaliação de criações (p. 189).
+Preparar uma lista de ritual
+Antes de liberar a tentativa, escreva a entrada da
+lista: ficha, condição para começar, espaço do
+desafio, objetivo, resultado da vitória e como a
+tentativa termina. Confira também o que acontece
+se houver interrupção ou falha. O jogador precisa
+conhecer esses termos antes de investir recursos.
+O desafio é individual. Ajuda de outra criatura não
+conta como vitória individual. Se aliados intervêm,
+resolva a intervenção e aplique o resultado previsto
+na ficha do ritual; não declare que a participação
+ficou invisível para o requisito. Uma intervenção
+pode salvar o personagem sem conquistar a
+entidade.
+A prova do Cão de sombra (p. 268) apresenta uma
+entrada completa, com ficha do Livro de Regras 1.0
+e condições locais propostas: espaço, começo,
+vitória, ajuda, falha e estado da entidade ao
+terminar.
+A lista de ritual não é o uso dos Pontos de Ritual
+para preparar uma conjuração. Uma não concede os
+benefícios da outra. A autorização de trocar um
+espaço por entidade também não cria uma lista
+ilimitada.
+Domar uma maldição
+Na doma de uma maldição, o grupo pode ajudar na
+luta. O personagem só pode obter uma maldição de
+nível igual ou inferior ao seu. Derrotá-la sem
+destruí-la permite, fora de combate, um TR
+Espírito da maldição contra a CD de conjuração
+da rota do personagem.
+Resultado da maldição
+Consequência
+Falha no TR
+É domada.
+Iguala ou supera a CD
+É exorcizada.
+Esse resultado impede repetir o teste sobre a
+mesma maldição até ela falhar. Com CD 12, total 11
+permite domar; total 12 exorciza.
+Apresente previamente a ficha jogável que resultará
+da aquisição. Conserve identidade e funções,
+ajustando a construção à escala de entidade. Não
+transfira automaticamente ações extras de inimigo
+nem um turno independente. As conversões da base
+pequena do piloto (p. 346) mostram três resultados
+experimentais preparados com o Livro de Regras
+1.0; seus valores ainda precisam de avaliação em
+mesa.
+Antes do golpe final. Confira destruição com a
+ficha do encontro. No exemplo publicado do Livro
+de Regras 1.0, uma entidade com 52 PV máximos e
+8 atuais recebe 30 de dano direto: o excedente é 22,
+abaixo de metade do máximo, e ela cai sem ser
+destruída. Com 35 de dano direto, o excedente é 27,
+acima da metade, e ela é destruída. Uma ocorrência
+direta que alcance a vida máxima também destrói.
+Dano em área pode derrubar, mas não destrói por
+si; dano posterior em um corpo Desligado exige
+acompanhar o excedente pelas regras próprias.
+A Doma não faz uma criatura caída se levantar nem
+restaura seus recursos. Registre o estado na ficha
+resultante, respeitando os máximos e o retorno
+aplicável.
+O mestre pode autorizar uma tentativa durante o
+combate, antes da derrota. Nesse caso, define a
+quantidade de vida que permite tentar; o
+personagem gasta Ação Padrão e resolve o mesmo
+TR, com os mesmos resultados. Informe a condição
+autorizada antes da tentativa. Não há regra geral de
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+258

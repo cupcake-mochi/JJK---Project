@@ -1,0 +1,310 @@
+{
+  "registro": 114,
+  "alteracoes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "apoio-inimigos-106/consulta-de-regras.html",
+      "depois": "apoio-revisao-textual-114/consulta-de-regras.html#inimigos",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "As contas e os percursos escritos permitem conferir o funcionamento;",
+      "depois": "As contas e as sequências dos exemplos permitem conferir o funcionamento;",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "manter o lugar fechado e encaminhar uma intervenção",
+      "depois": "manter o lugar fechado e pedir ajuda para resolver a ameaça",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "| Conduta |",
+      "depois": "| Comportamento |",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Use os controles que cumprem uma função na luta.",
+      "depois": "Escolha esses limites pelo que mudam nas decisões da luta.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Na hipótese experimental de recarga do Impacto,",
+      "depois": "Na variante experimental de recarga do Impacto,",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "A linha do Sineiro não importa seus dois ataques nem o restante da ficha.",
+      "depois": "Usar o dano da linha do Sineiro não concede seus dois ataques nem as outras capacidades da ficha.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Não interpole os níveis ausentes ou multiplique as reservas para chegar a outro patamar.",
+      "depois": "Não deduza os números dos níveis ausentes a partir desses recortes nem multiplique as reservas para chegar a outro nível.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Alcançar e operar a parada disputa ações com pegar a caixa ou socorrer alguém.",
+      "depois": "Chegar ao comando de parada e acioná-lo toma ações que poderiam ser usadas para pegar a caixa ou socorrer alguém.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "| Resolução | Há tarefa, ataque ou TR?",
+      "depois": "| Efeito | Há tarefa, ataque ou TR?",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "| Intervenção | Como sair,",
+      "depois": "| Como agir | Como sair,",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "O grupo tem sinais compreensíveis e meios de intervenção? Complete uma pendência que impeça a resolução antes de apresentar a ameaça.",
+      "depois": "O grupo entende os sinais e tem meios de agir? Resolva o que faltar para usar a ficha antes de apresentar a ameaça.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Separe regra publicada, conselho de preparo, parâmetro experimental e escolha local. O objetivo de proteger um estojo é local;",
+      "depois": "Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão;",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Uma montagem legal não certifica o conjunto do inimigo.",
+      "depois": "Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "A derrota de um inimigo também precisa de desfecho definido: incapacitação, destruição ou outra consequência cabível não são a mesma coisa. Reserve atendimento, custódia e aquisição para a resolução pertinente.",
+      "depois": "Diga o que aconteceu ao inimigo derrotado: ficou incapacitado, foi destruído ou teve outro destino? Depois, resolva atendimento, guarda da criatura e possível aquisição pelas regras de cada caso.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Na guilda, deixe composição, estados e versões disponíveis ao próximo mestre.",
+      "depois": "Na guilda, deixe participantes, estado das fichas e versões usadas disponíveis ao próximo mestre.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "apoio-personagens-107/consulta-de-regras.html",
+      "depois": "apoio-revisao-textual-114/consulta-de-regras.html#personagens",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Uma escolha ausente pede a permissão de criação ou atualização pertinente.",
+      "depois": "Para completar uma escolha ausente, confira o que as regras de criação ou de atualização permitem.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "O Receptáculo interpreta o hospedeiro que divide o corpo com outra presença.",
+      "depois": "O jogador de um Receptáculo interpreta o hospedeiro que divide o corpo com outra presença.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "O Encarnado interpreta quem voltou a viver no corpo de outra pessoa.",
+      "depois": "O jogador de um Encarnado interpreta quem voltou a viver no corpo de outra pessoa.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Se a conexão comum falhar, o poder não substitui o canal ausente por uma capacidade nova.",
+      "depois": "Se o meio de comunicação falhar, o poder não cria outro canal por conta própria.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "História, aparência e relações permitem tornar a personagem própria do jogador.",
+      "depois": "História, aparência e relações dão identidade à personagem.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "A criação de opções funcionais segue a aquisição correspondente.",
+      "depois": "Para acrescentar uma capacidade à ficha, siga suas regras de aquisição.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "../89-vida-rolada-e-familia-propria.md",
+      "depois": "casos/89-vida-rolada-e-familia-propria.md",
+      "ocorrencias": 2,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Confiram também a rota: técnica, Manejo e Kata têm requisitos próprios.",
+      "depois": "Confiram também se a capacidade vem de técnica, Manejo ou Kata: cada opção tem requisitos próprios.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Essas aquisições não são intercambiáveis.",
+      "depois": "Cada opção tem sua própria forma de aquisição e seus limites.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "| Ultrapassa a aquisição |",
+      "depois": "| Não é permitido por essa opção |",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Use a revisão cabível e registre a versão final;",
+      "depois": "Use a revisão permitida pelas regras e registre a versão final;",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "(25-conferir-personagens.md)",
+      "depois": "(../../25-conferir-personagens.md)",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "(32-ficha-de-avaliacao-de-capacidade.md)",
+      "depois": "(../../32-ficha-de-avaliacao-de-capacidade.md)",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "A menor não traduz idioma desconhecido, lê conteúdo oculto, descobre uma mentira automaticamente nem concede treino.",
+      "depois": "A menor não traduz um idioma desconhecido, não lê conteúdo oculto, não descobre mentiras automaticamente nem concede treino.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "a informação procurada precisa poder ser obtida dele.",
+      "depois": "o documento precisa conter informações que permitam responder à pergunta.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "Chega a um arquivo com acesso autorizado a um relatório legível sobre a tranca do depósito.",
+      "depois": "Chega a um arquivo com acesso autorizado a um relatório legível sobre a tranca do depósito. O documento usa referências antigas à construção do mecanismo; Ren precisa relacioná-las para entender seu funcionamento.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "O exame do relatório pede História CD 16, dificuldade local anunciada pelo mestre.",
+      "depois": "O exame pede História CD 18, Muito Difícil na escala fixa. Essa dificuldade foi escolhida para a interpretação técnica deste relatório, não para toda leitura de documento nem para a menor da família.",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "[Amontoado](<../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>)",
+      "depois": "[Amontoado](01-sua-primeira-missao.md#amontoado-do-deposito)",
+      "ocorrencias": 1,
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Um preparo oferece tempo para interferir.",
+      "depois": "Uma habilidade que exige preparação oferece tempo para interferir.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "O nível localiza progressão e requisitos; não garante a dificuldade.",
+      "depois": "O nível indica a progressão e os requisitos da ficha, mas não garante a dificuldade do encontro.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+      "antes": "Pressioná-la pode tomar ações que seriam gastas no atacante.",
+      "depois": "O grupo pode gastar ações pressionando Sora em vez de atacar Ren.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Acerto, quando houver, é a aplicação da abertura e permanência; Efeito é a capacidade especial utilizável enquanto o Domínio permanece.",
+      "depois": "O Acerto, quando existir, é aplicado conforme as regras de abertura e permanência do Domínio. O Efeito é a capacidade especial que pode ser usada enquanto ele estiver ativo.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "Saída Elevada também conserva seu campo próprio: não é ampliada a Máximas, Manejos ou à entidade por associação.",
+      "depois": "Saída Elevada mantém os usos previstos na regra. A ligação com a técnica não estende o benefício a Máximas, Manejos ou à entidade.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "A informação não conserta o objeto, reduz o trabalho de reparo, revela seu proprietário ou identifica uma técnica desconhecida.",
+      "depois": "A informação não conserta o objeto, não reduz o trabalho de reparo, não revela seu proprietário nem identifica uma técnica desconhecida.",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "antes": "Ambos têm bônus",
+      "depois": "Os dois testes usam bônus",
+      "ocorrencias": 1,
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+      "antes": "[família Arata](casos/89-vida-rolada-e-familia-propria.md)",
+      "depois": "[família Arata](casos/89-vida-rolada-e-familia-propria.md#a-familia-arata)",
+      "ocorrencias": 1,
+      "passagem": 2
+    }
+  ],
+  "caso_original": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+  "caso_revisado": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+  "correcao_numerica_autorizada": "Uma ocorrência: História CD 16 para CD 18 da escala fixa. Resultado 19 continua sucesso; ganhos, estoques e demais números preservados.",
+  "limite": "Revisão editorial e correção local de aplicação da escala; sem regra nova ou declaração de equilíbrio."
+}

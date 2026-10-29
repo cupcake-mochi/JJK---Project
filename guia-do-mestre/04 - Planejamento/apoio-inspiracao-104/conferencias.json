@@ -1,0 +1,287 @@
+{
+  "pdf_sha256": "bfcfb248fe6a7c3ce880b713700091042bd80cf4b5916d534c8260bd3649af30",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 563,
+      "fim_corpo": 708.058357
+    },
+    {
+      "pagina": 2,
+      "palavras": 676,
+      "fim_corpo": 780.158358
+    },
+    {
+      "pagina": 3,
+      "palavras": 596,
+      "fim_corpo": 753.758358
+    },
+    {
+      "pagina": 4,
+      "palavras": 541,
+      "fim_corpo": 616.058358
+    },
+    {
+      "pagina": 5,
+      "palavras": 505,
+      "fim_corpo": 775.103239
+    }
+  ],
+  "links_locais_conferidos": 61,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#oito-situacoes-para-comecar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#seis-pessoas-para-encontrar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#quatro-lugares-para-usar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#seis-complicacoes-possiveis"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#combinacao-1-a-assinatura-no-coreto"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#combinacao-2-ensaio-na-outra-margem"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "#um-ensaio-entre-amigos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "../apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html",
+      "destino": "../104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "ideias-para-aventuras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#geral--quedas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#geral--buscar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#geral--ler"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "#geral--pressao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--procurar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--estudar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-inspiracao-104/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--estudar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/variedade.md"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/variedade.json"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "apoio-inspiracao-104/contas-e-condicoes.json"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "97-comparacao-critica-com-guias-de-mestre.md"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "../02 - PDFs baixados/1 - Guias e ensaios de mestragem/Cairn 2e - Wardens Guide.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "../02 - PDFs baixados/2 - Ferramentas de preparo e mesa/Sly Flourish - The Lazy GM's Resource Document, CC BY 4.0 (copia offline).pdf"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "../02 - PDFs baixados/4 - SRDs e regras de referencia/Worlds Without Number - Free Edition (Kevin Crawford).pdf"
+    },
+    {
+      "origem": "04 - Planejamento/104-ideias-combinaveis-e-exemplos.md",
+      "destino": "../06 - Redacao do Guia/84-percursos-apoios-e-quedas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    }
+  ],
+  "palavras_html_conferidas": 2746,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_posicionadas": 2881,
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 6,
+  "fontes_antigas_preservadas": 104,
+  "capitulos_novos_anteriores_preservados": 5,
+  "pdf_integrado_preservado": true,
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "limite": "Presença textual e integridade não substituem revisão visual e leitura externa."
+}

@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Igualar a CD é sucesso. Especialização e outros
+modificadores alteram a rolagem conforme suas
+regras; não aumentam novamente a base da CD.
+Exemplo do Livro de Regras 1.0. Uma calígrafa de
+nível 13, Destreza 4 e Maestria 2 prepara uma
+entidade de Classe 3 para um invocador de nível 9.
+A Classe da calígrafa é 4, portanto a entidade está
+uma abaixo. A CD é 8 + 4 + 2 - 2 = 12. O teste é d20
++ 6: resultado 6 no dado basta. A entidade começa
+no nível 9. O nível da calígrafa não a faz começar no
+nível 13.
+Ajuda e nova tentativa
+Nos testes de criação, reconstrução e transferência,
+a vantagem pode vir de um ajudante treinado no
+ofício compatível, com permissão do mestre e
+dedicando o mesmo tempo que o responsável, ou
+de uma habilidade que dê vantagem permanente
+nesse teste. Vantagem temporária, ativada ou por
+cena não serve. A vantagem da tentativa seguinte a
+uma falha vem da regra própria e continua válida.
+O ajudante não fornece outra tentativa para a
+mesma entidade nem reduz automaticamente o
+prazo pela metade. A ajuda precisa corresponder ao
+trabalho registrado.
+Se a calígrafa do exemplo tirar 5, seu total será 11: a
+entidade ainda não funciona. A nova tentativa
+ocorre quando o mestre permitir e tem vantagem.
+Se, nessa tentativa autorizada, os dados forem 2 e 8,
+use 8: total 14, sucesso. Essa resolução não define
+quantas horas ou quais materiais foram necessários
+entre as tentativas; tais exigências pertencem ao
+projeto, comunicadas previamente.
+A falha não autoriza inventar depois uma perda
+total de materiais, destruição da ficha ou rolagens
+gratuitas até funcionar. Preserve o resultado do
+Livro de Regras 1.0 e use as condições de retomada
+registradas para o projeto.
+Conclua e acompanhe a evolução
+Uma entidade nova começa com vida máxima. O
+shikigami fica recolhido no talismã, sem carga; o
+corpo permanece inativo onde foi construído. O
+talismã ocupa 0,5 de Volume. Aquisição concluída
+não paga manifestação nem ativa o corpo à
+distância.
+A criada acompanha o invocador até o último nível
+de sua Classe:
+Classe
+Níveis
+1
+1-4
+2
+5-8
+3
+9-12
+4
+13-16
+5
+17-20
+6
+21-25
+7
+26-30
+Quando o invocador da entidade de Classe 3 chegar
+ao nível 12, ela poderá acompanhá-lo. Ao chegar ao
+13, ela permanece limitada ao 12 até ser
+reconstruída para Classe 4. A maldição domada não
+usa essa evolução: conserva o nível de aquisição.
+Reconstruir
+Os prazos de referência e os projetos completos
+estão em Reconstruir, transferir e herdar entidades
+(p. 265).
+A reconstrução usa o teste de criação, comparando
+a nova Classe com a de quem reconstrói, e reduz a
+dificuldade em um degrau. Classe igual passa a
+ajuste -2; uma abaixo passa a -4; duas ou mais
+abaixo continuam em -4. A nova Classe não pode
+superar a do responsável nem a do invocador. É um
+teste por Classe.
+Se a mesma calígrafa de Classe 4 reconstruir a
+entidade para Classe 4, quando o invocador
+também puder recebê-la, a CD será 8 + 4 + 2 - 2 =
+12. Criar do zero uma entidade dessa Classe teria
+CD 14. Essa diferença de dificuldade não determina
+um desconto universal no tempo ou nos materiais.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+260

@@ -1,0 +1,30 @@
+{
+  "registro": 99,
+  "fontes_integradas": 104,
+  "fontes_sem_destino": [],
+  "ids_duplicados": [],
+  "destinos_invalidos": [],
+  "recortes_com_titulo_conferido": 32,
+  "competencias_mapeadas": 20,
+  "historicos_excluidos": 2,
+  "fontes_inalteradas": true,
+  "pdf_inalterado": true,
+  "pdf_sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b",
+  "acoes_planejadas": {
+    "condensar": 43,
+    "complementar": 5,
+    "mover": 39,
+    "manter": 17
+  },
+  "etapa_1": "entregue; reorganização do livro ainda pendente",
+  "capitulos_planejados": 10,
+  "apendices_planejados": 4,
+  "caminhos_de_leitura": 4,
+  "links_locais_conferidos": 115,
+  "links_locais_ausentes": [],
+  "destinos_sem_fonte_atual": {
+    "ENT": "Abertura gerada e novo acesso por necessidade",
+    "N03.6": "Conjunto novo de inspiração previsto na etapa 4"
+  },
+  "livro_nova_estrutura_aplicada": false
+}

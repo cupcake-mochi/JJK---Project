@@ -1,6 +1,6 @@
 # Ficha de preparação de missão
 
-Use este modelo para consulta durante o jogo. O procedimento de [preparação](01-preparar-uma-missao.md) explica como preenchê-lo. Preencha os campos que a situação exige e marque os que não se aplicam. Abra as fichas e regras citadas antes da sessão. Há um [exemplo preenchido](03-as-batidas-no-anexo-consulta.md).
+Use este modelo para consulta durante o jogo. O capítulo [Preparar uma missão](01-preparar-uma-missao.md) explica como preenchê-lo. Preencha os campos que a situação exige e marque os que não se aplicam. Abra as fichas e regras citadas antes da sessão. Há um [exemplo preenchido](03-as-batidas-no-anexo-consulta.md).
 
 ## Antes da sessão
 
@@ -10,9 +10,9 @@ Use este modelo para consulta durante o jogo. O procedimento de [preparação](0
 
 **Participantes e fichas usadas:**
 
-**Estado de entrada relevante:** vida, energia, Integridade, Sequelas, recursos e usos já gastos, equipamento ou compromissos que afetem a situação.
+**Como os personagens começam a missão:** vida, energia, Integridade, Sequelas, recursos e usos já gastos, equipamento ou compromissos que afetem a situação.
 
-**Regras de campanha pertinentes:** opções de risco e morte, progressão, recompensas e procedimentos compartilhados que já estejam combinados.
+**Regras de campanha pertinentes:** opções de risco e morte, progressão, recompensas e regras compartilhadas que já estejam combinadas.
 
 ## Situação e abertura
 
@@ -54,7 +54,7 @@ Use este modelo para consulta durante o jogo. O procedimento de [preparação](0
 
 ## Informação e descoberta
 
-| Informação importante | Fontes ou meios plausíveis | Requisitos e procedimento | O que permite concluir e o que continua incerto |
+| Informação importante | Fontes ou meios plausíveis | Requisitos e regra | O que permite concluir e o que continua incerto |
 |---|---|---|---|
 | | | | |
 | | | | |
@@ -62,7 +62,7 @@ Use este modelo para consulta durante o jogo. O procedimento de [preparação](0
 
 **Caminho alternativo se uma informação necessária não for obtida:**
 
-**Testes que podem ser necessários:** indicar a tarefa, seu tempo e o procedimento da R53; usar a Classe de Dificuldade (CD), o valor que o teste precisa alcançar, indicada pela regra quando existir. Não transformar informação evidente em teste obrigatório.
+**Testes que podem ser necessários:** indicar a tarefa, seu tempo e a regra do Livro de Regras 1.0; usar a Classe de Dificuldade (CD), o valor que o teste precisa alcançar, indicada pela regra quando existir. Não transformar informação evidente em teste obrigatório.
 
 ## Perigos e intervenção
 
@@ -76,7 +76,7 @@ Use este modelo para consulta durante o jogo. O procedimento de [preparação](0
 
 **Ficha que a criatura usará se puder ser adquirida pelo grupo, e requisitos dessa aquisição:**
 
-**Procedimentos a manter abertos para consulta:**
+**Regras para consultar durante o jogo:**
 
 ## Consequências
 
@@ -103,12 +103,12 @@ Percorra uma busca de informação, uma aproximação alternativa e uma retirada
 
 **Condições de descanso e recuperação efetivamente cumpridas:**
 
-**Progressão, remuneração e aquisições resolvidas pelo procedimento usado:**
+**Progressão, remuneração e aquisições resolvidas pelas regras usadas:**
 
 **O que continua, quem acompanha e quem precisa saber:**
 
 **Dúvida de regra ou de apresentação a revisar:**
 
-Na guilda, passe os registros pertinentes ao próximo mestre. Na campanha fechada, conserve o necessário nas notas de continuidade. Este modelo organiza informação; os procedimentos da R53 continuam determinando os resultados.
+Na guilda, passe os registros pertinentes ao próximo mestre. Na campanha fechada, conserve o necessário nas notas de continuidade. Este modelo organiza informação; as regras do Livro de Regras 1.0 continuam determinando os resultados.
 
-**Ferramentas complementares:** [Escolher e usar as ferramentas](80-escolher-e-usar-as-ferramentas.md) orienta quando acrescentar cada registro. Para retomar a missão, vincule o [estado das fichas](24-registro-de-estado-e-socorro.md) à [linha de continuidade](16-linha-de-continuidade.md); o resumo da missão pode apontar essas folhas sem transcrever seus campos.
+**Ferramentas complementares:** [Registros para a campanha](80-escolher-e-usar-as-ferramentas.md) orienta quando acrescentar cada registro. Para retomar a missão, vincule o [estado das fichas](24-registro-de-estado-e-socorro.md) à [linha de continuidade](16-linha-de-continuidade.md); o resumo da missão pode apontar essas folhas sem transcrever seus campos.

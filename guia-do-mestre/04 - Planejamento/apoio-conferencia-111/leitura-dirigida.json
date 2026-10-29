@@ -1,0 +1,117 @@
+{
+  "registro": 111,
+  "escopo": "Conferência dirigida das relações entre método, ferramenta e caso; não revisão semântica integral de todas as evidências.",
+  "rotas": [
+    {
+      "competencia": "P14",
+      "secoes_consultadas": [
+        "06.3",
+        "06.6",
+        "06.8"
+      ],
+      "fontes_relacionadas": [
+        "s056",
+        "s074",
+        "s077",
+        "s100",
+        "s101",
+        "s102"
+      ],
+      "observacao": "PE opcional, custo adicional por Integridade, intervalo por turno próprio e ausência de ação extra; números mantidos experimentais."
+    },
+    {
+      "competencia": "P15",
+      "secoes_consultadas": [
+        "06.7",
+        "10.3"
+      ],
+      "fontes_relacionadas": [
+        "s078",
+        "s079",
+        "s081",
+        "s103"
+      ],
+      "observacao": "Folha curta do perigo confrontada com a retomada: ambiente, criatura e socorro permanecem registros distintos."
+    },
+    {
+      "competencia": "P16",
+      "secoes_consultadas": [
+        "06.8",
+        "10.3"
+      ],
+      "fontes_relacionadas": [
+        "s021",
+        "s022",
+        "s023",
+        "s081"
+      ],
+      "observacao": "Exemplo curto A4 lido integralmente: 0/44, tratamento 15, três rodadas; capítulo 10 conserva progressão e reservas."
+    },
+    {
+      "competencia": "P17",
+      "secoes_consultadas": [
+        "05.6"
+      ],
+      "fontes_relacionadas": [
+        "s015",
+        "s016",
+        "s019"
+      ],
+      "observacao": "Seção de encerramento lida; encerramento possível sem nova tarefa. Preservação das evidências antigas não equivale a releitura integral das três fontes."
+    },
+    {
+      "competencia": "P18",
+      "secoes_consultadas": [
+        "10.3",
+        "10.4"
+      ],
+      "fontes_relacionadas": [
+        "s080",
+        "s081"
+      ],
+      "observacao": "Resumo aponta para estado completo e próxima decisão; capítulos e folha não criam nova recuperação por pausa."
+    },
+    {
+      "competencia": "P19",
+      "secoes_consultadas": [
+        "10.5"
+      ],
+      "fontes_relacionadas": [
+        "s016",
+        "s081"
+      ],
+      "observacao": "Seção lida integralmente: retorno e divisão do trabalho têm destino; registros preservados."
+    },
+    {
+      "competencia": "P20",
+      "secoes_consultadas": [
+        "07.4",
+        "07.6",
+        "08.2",
+        "08.3",
+        "09.5"
+      ],
+      "fontes_relacionadas": [
+        "s032",
+        "s089",
+        "s092",
+        "s096",
+        "s095"
+      ],
+      "observacao": "Toque e seus 3d8, saldo 25→33 na subida 40→48, limites publicados de Reserva, horas por ficha, retrabalho de entidades e receita local do Anel. Arata: CD16 fora da escala fixa, sinalizada."
+    }
+  ],
+  "leituras_especificas": [
+    "Capítulo 6: 6.3 e 6.6, trechos de 6.8; conferência dirigida de recursos e chefe.",
+    "Capítulo 7: 7.4 e 7.6; Combinar os limites de Reserva Condensada.",
+    "Capítulo 8: 8.2 integral e exemplo do Anel em 8.3.",
+    "Capítulo 9: 9.5 integral.",
+    "Capítulo 5: 5.6 integral.",
+    "Capítulo 10: 10.5 integral e retomada 10.3.",
+    "A4-exemplo-sala-de-conservacao.md integral.",
+    "Fonte 32: exemplo de ajuste de montagem.",
+    "Fonte 96: trabalho local de Aya, trabalho de Kenji e orçamento.",
+    "Fonte 89: capacidades da família em jogo; regra primária de Dificuldade, linhas 159–175."
+  ],
+  "limite": "Os identificadores relacionados localizam evidências preservadas; não afirmam leitura integral nova de cada arquivo."
+}

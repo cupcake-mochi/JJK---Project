@@ -1,0 +1,66 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+4.2 · Quedas e socorro
+Quando alguém chega a zero de vida, resolva a
+queda antes de seguir para a próxima ação. Confira
+se ele pode continuar agindo e quanto tempo resta
+para o socorro. Anote a escolha do jogador. Depois,
+conte separadamente a cura recebida e o tempo que
+ainda resta.
+Esta seção explica as regras de queda dos
+personagens dos jogadores, conforme o Livro de
+Regras 1.0. Entidades seguem Invocações em
+campo. Inimigos normalmente são derrotados a
+zero de vida ou de Integridade, salvo regra própria
+da ficha; o mestre descreve o resultado conforme
+essas regras. Não lhes conceda automaticamente a
+janela dos personagens.
+Mantenha o registro de estado e socorro (p. 311)
+disponível. O confronto do anexo (p. 340) mostra
+essas regras numa sequência de três rodadas, com
+resultados escolhidos para ensinar.
+Socorro: acompanhe duas contas
+QUEDA
+Registre o máximo e a escolha
+TRATAMENTO
+Some apenas cura válida
+JANELA
+Conte tempo e dano posterior
+O tratamento completo encerra Morrendo; janela zero encerra a participação. Integridade a zero tem seu próprio desfecho.
+Quanto tempo resta para o socorro
+Se a Integridade chegou a zero, resolva a derrota
+por essa reserva. Isso vale também se a mesma
+ocorrência zerou vida e Integridade. Insistir não
+permite continuar agindo com Integridade a zero.
+Ao chegar a zero de vida, o personagem entra em
+Morrendo. Confira quantas Sequelas já tinha: o
+prazo para receber socorro, chamado de janela,
+começa com 3 rodadas menos 1 por Sequela. Com
+três ou mais, fica Derrotado imediatamente. Uma
+habilidade ativada pela queda só supera essa
+derrota se disser expressamente que pode fazê-lo.
+Se ainda houver janela, resolva primeiro as
+habilidades ativadas pela própria queda. Se alguma
+encerrar Morrendo, não é necessário escolher entre
+Aguentar e Insistir. Caso contrário, faça essa
+escolha. Uma cura que não encerre Morrendo
+expressamente entra no tratamento; confira se
+basta depois de definir a escolha.
+O que anotar quando alguém cai
+Anote a vida máxima que o personagem tinha ao
+cair, sem vida temporária. Esse máximo de
+referência fica fixado até aquela queda terminar.
+Registre também Sequelas anteriores, escolha,
+tratamento necessário, tratamento acumulado,
+janela restante e ponto da iniciativa.
+Enquanto o personagem está Morrendo, sua vida
+atual permanece zero. O tratamento é um registro
+separado, não uma vida negativa a ser preenchida
+nem um saldo de vida que o personagem já possa
+gastar.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+73

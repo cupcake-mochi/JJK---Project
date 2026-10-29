@@ -1,0 +1,54 @@
+{
+  "registro": 113,
+  "capitulos": [
+    {
+      "id": "c04",
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "sha256": "567f2c369a6272e17a467a1f2deeecd8d6f69c568be3ee0c952a984fd15b5b77",
+      "titulo": "Na mesa de jogo",
+      "primeira_passagem": "Leitura integral da fonte e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "paginas_da_prova_atual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "estado": "duas passagens locais; conferência global pendente"
+    },
+    {
+      "id": "c05",
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "sha256": "dc6e494825f4549bac90c07b4d343550f9829c55f2bce548c5f38987fe582bc0",
+      "titulo": "Criar uma campanha",
+      "primeira_passagem": "Leitura integral da fonte e revisão editorial",
+      "segunda_passagem_paginas_da_primeira_prova": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "paginas_da_prova_atual": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "estado": "duas passagens locais; conferência global pendente"
+    }
+  ],
+  "prova_da_segunda_passagem": "04 - Planejamento/apoio-revisao-textual-113/prova-1/prova.pdf",
+  "prova_da_segunda_passagem_sha256": "08b19b702ece2cb9ca567e9d06125eef55657645ec47f455df99401d4cae88dd",
+  "consulta_primaria": "Socorro: pessoa estável, fora do perigo, concluindo descanso curto; base publicada preservada.",
+  "limite": "Revisão editorial do assistente; não é teste de aprendizagem ou mesa independente."
+}

@@ -1,0 +1,860 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Regras de atividades e recompensas | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'ENTRE MISSÕES';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{.colunas p:has(>strong:first-child){break-inside:auto}.colunas table{font-size:9.2pt;line-height:11.5pt}.colunas th,.colunas td{padding:4pt 5pt}.ref-curta,.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}}main{max-width:900px;background:white;padding:30px}h4{font:22px Bree,serif}h5{font-size:19px}</style></head><body><main><p><a href="capitulo-8.html">Voltar ao capítulo</a></p><h1>Livro de Regras 1.0</h1><p>Trechos da base sem reescrita. Aquisições e permissões conservam seus limites publicados; os acordos por personagem e os exemplos do Guia permanecem identificados.</p><ul><li><a href="#regra-1">Descansos</a></li><li><a href="#regra-2">Ofícios</a></li><li><a href="#regra-3">Fabricação</a></li><li><a href="#regra-4">Reparos</a></li><li><a href="#regra-5">Equipamento restrito</a></li><li><a href="#regra-6">Equipamento inicial</a></li><li><a href="#regra-7">Equipamento amaldiçoado</a></li><li><a href="#regra-8">Graus das ferramentas</a></li><li><a href="#regra-9">Itens em uso</a></li><li><a href="#regra-10">Aquisição e criação</a></li><li><a href="#regra-11">Desgaste</a></li><li><a href="#regra-12">Objetos amaldiçoados</a></li><li><a href="#regra-13">Experiência e Progressão</a></li><li><a href="#regra-14">Recompensas e custos</a></li><li><a href="#regra-15">Experiência semanal</a></li><li><a href="#regra-16">Limiar do nível 20</a></li><li><a href="#regra-17">Recompensas da guilda</a></li><li><a href="#regra-18">Patentes</a></li><li><a href="#regra-19">Cofre da Família</a></li><li><a href="#regra-20">Palavra Empenhada</a></li></ul><section class="consulta-regra" id="regra-1"><h3>Descansos</h3>
+<p>O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.</p>
+<p><strong>Descanso curto:</strong> uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele momento. <strong>Descanso longo:</strong> a missão terminou e você pôde parar de trabalhar.</p>
+<p>O mestre confirma quando o descanso acontece e se o lugar é propício. Uma pausa contínua conta como um descanso; anunciar a mesma pausa várias vezes não repete a recuperação.</p>
+<h4>Ambiente propício</h4>
+<p>Um lugar propício oferece abrigo, suprimentos e meios de atendimento. Exemplos incluem a escola, um posto oficial equipado, um hospital, a casa de um clã que recebe o grupo ou um veículo de apoio com kit.</p>
+<p>Confira as condições reais: a escola sob ataque pode não oferecer descanso seguro; outro abrigo pode ter os recursos necessários. Sempre que possível, o mestre apresenta essas opções antes da missão para o grupo planejar o retorno.</p>
+<h4>Descanso curto</h4>
+<p>Recupere <strong>25% dos PE máximos</strong>, sem ultrapassar o máximo. Vida e Integridade não voltam por esse descanso sozinho. Habilidades que curem ou permitam reparos durante a pausa continuam funcionando conforme suas regras.</p>
+<p>Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. Fora de ambiente propício, use a porcentagem do seu degrau de <a href="#dano--exaustao">Exaustão</a>. Um resultado que diga <strong>nada</strong> continua sendo zero.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera <strong>2 PE</strong> no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.</p>
+</blockquote>
+<h4>Descanso longo</h4>
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>Em ambiente propício</th>
+<th>Fora dele</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida e PE</td>
+<td>Voltam ao máximo.</td>
+<td>Ficam, no mínimo, na metade do máximo.</td>
+</tr>
+<tr>
+<td>Integridade</td>
+<td>Volta ao máximo; estágios são limpos.</td>
+<td>Volta ao máximo; estágios são limpos.</td>
+</tr>
+<tr>
+<td>Exaustão</td>
+<td>É removida.</td>
+<td>Permanece.</td>
+</tr>
+<tr>
+<td>Sequelas</td>
+<td>São removidas depois da recuperação.</td>
+<td>São removidas depois da recuperação.</td>
+</tr>
+</tbody>
+</table>
+<p>Resolva primeiro a recuperação. Se ela encerrar uma queda ou uma derrota por vida a zero, registre a Sequela correspondente; depois, remova todas as Sequelas, inclusive essa.</p>
+<p>Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a <strong>11</strong>, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a <strong>30 PE</strong>.</p>
+</blockquote>
+<p>Dormir durante uma missão ainda em andamento renova usos <strong>por dia</strong>; não equivale automaticamente ao descanso longo descrito aqui.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#exaustao -->
+<p><a id="dano--exaustao"></a></p>
+<h4>Exaustão</h4>
+<p><strong>Da quarta luta do dia em diante, cada luta acrescenta um degrau de Exaustão, até o máximo de três.</strong> Registre o total ao terminar cada confronto. A primeira, a segunda e a terceira luta não acrescentam degraus por essa regra.</p>
+<p>O mestre identifica o que contou como luta. Um combate com oposição, uma fuga que exigiu recursos ou uma contenção sob ataque podem contar. Um treino ou uma ameaça encerrada sem esforço relevante normalmente não contam. A decisão não depende apenas de ter rolado iniciativa.</p>
+<h5>Efeitos</h5>
+<p>Os efeitos dos degraus anteriores continuam valendo. A última coluna vale para descanso curto <strong>fora de ambiente propício</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Degrau</th>
+<th>Efeito</th>
+<th>Recuperação de PE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Nenhuma penalidade.</td>
+<td>25% do máximo.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Desvantagem em perícias e ofícios.</td>
+<td>15% do máximo.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Deslocamento limitado a 4,5 m.</td>
+<td>5% do máximo.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Desvantagem em ataques e TRs.</td>
+<td>Nada.</td>
+</tr>
+</tbody>
+</table>
+<p>Em ambiente propício, o descanso curto devolve <strong>25% em qualquer degrau</strong>. Ele não remove a Exaustão por isso. O limite de 4,5 m não aumenta um deslocamento que já esteja menor ou zerado.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, conforme esteja nos degraus 0, 1, 2 ou 3. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.</p>
+</blockquote>
+<h5>Recuperação</h5>
+<p>Descanso longo em ambiente propício remove toda a Exaustão. Fora dele, ela permanece. O mestre também pode retirar um degrau quando a situação justificar, como após uma noite de recuperação adequada; não acrescenta degraus fora dos gatilhos da regra.</p>
+<p>Recomeçar a contagem de lutas de um novo dia não remove os degraus que você já tinha.</p>
+<h5>Exaustão e Integridade</h5>
+<p>Quando ambas impõem a mesma penalidade, use a pior, sem multiplicar esses cortes entre si. Desvantagem continua sem se acumular. Para movimento, compare o limite da Exaustão com metade do deslocamento pela Integridade e use o menor; ajuste o resultado à escala de 1,5 m.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com deslocamento 9 m, Exaustão 2 limita a 4,5 m; Integridade no estágio 2 também resulta em 4,5 m. A combinação mantém <strong>4,5 m</strong>. Com deslocamento 6 m, a metade da Integridade é 3 m, então usa <strong>3 m</strong>.</p>
+</blockquote>
+<p>As consequências que só uma das duas impõe permanecem: o custo adicional de PE e o teto de Classe são da Integridade. Recuperar PE não remove essas penalidades.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#usos -->
+<p><a id="dano--usos"></a></p>
+<h4>Cena e usos de habilidades</h4>
+<p>O texto de uma habilidade informa quando seus usos voltam. Marque cada uso gasto na ficha e apague a marca quando cumprir a recuperação indicada. Recuperar um uso não devolve os PE pagos anteriormente.</p>
+<table>
+<thead>
+<tr>
+<th>Limite</th>
+<th>Quando o uso volta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Por cena</td>
+<td>Quando aquela cena termina.</td>
+</tr>
+<tr>
+<td>Por descanso curto</td>
+<td>Ao concluir esse descanso.</td>
+</tr>
+<tr>
+<td>Por dia</td>
+<td>Depois de dormir para começar um novo dia.</td>
+</tr>
+<tr>
+<td>Por descanso longo</td>
+<td>Ao concluir esse descanso, no fim da missão.</td>
+</tr>
+</tbody>
+</table>
+<p>Siga o nome completo do limite. Uma habilidade que recarrega apenas em descanso longo não volta por fazer uma pausa curta. Se disser só “por descanso”, sem especificar qual, a descrição precisa ser completada antes de entrar em jogo.</p>
+<h5>Cena</h5>
+<p>Uma <strong>cena</strong> é um trecho de jogo com uma situação em andamento. Pode abranger uma sala, várias salas ou um combate. Ela termina quando a pressão daquele trecho acaba: o inimigo foi vencido, o grupo escapou ou o problema imediato foi resolvido. O mestre anuncia a mudança quando ela afetar recursos.</p>
+<p>Mudar de cômodo durante a mesma perseguição não cria, por si só, outra cena. Da mesma forma, terminar uma luta não garante uma pausa segura se ainda houver perseguidores próximos.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma capacidade pode atender cada aliado uma vez por cena. Trocar de usuário não permite repeti-la no mesmo alvo se o limite for por alvo. A descrição precisa informar a quem pertence o limite.</p>
+</blockquote>
+<h5>Missões longas</h5>
+<p>Uma missão pode atravessar vários dias. Dormir renova os usos por dia; o descanso longo depende de encerrar a missão e poder parar. Não renove todas as habilidades só porque a mesa terminou a sessão.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> em uma missão de três dias, Rina pode renovar uma habilidade por dia após cada noite de sono. Uma habilidade por descanso longo permanece gasta até o descanso de encerramento da missão. Se uma pausa segura no segundo dia contar como descanso curto, apenas os usos com essa recuperação voltam por causa dela.</p>
+</blockquote>
+<h5>Conferência da ficha</h5>
+<p>Ao concluir um descanso, atualize vida, PE e Integridade. Confira máximos reduzidos, estágios, Sequelas e Exaustão. Depois, renove os usos correspondentes. Cicatrizes permanecem. Vida e energia temporárias seguem a duração de suas fontes e o fim da cena, não uma recuperação automática pelo descanso.</p>
+<p>Consequências permanentes continuam registradas. A recuperação das reservas não desfaz uma morte ou restaura automaticamente uma entidade destruída.</p>
+<!-- parte:2 --></section><section class="consulta-regra" id="regra-2"><h3>Ofícios</h3>
+<p>Um ofício permite executar trabalhos aprendidos. Seu treino vale para a prática indicada, dentro dos meios disponíveis. Uma oficina completa, um estojo portátil e ferramentas improvisadas podem permitir tarefas diferentes.</p>
+<table>
+<thead>
+<tr>
+<th>Ofício</th>
+<th>Atributo padrão</th>
+<th>Aplicações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Condução</td>
+<td>Destreza</td>
+<td>Dirigir e manobrar veículos. Familiaridade e meios de controle continuam necessários.</td>
+</tr>
+<tr>
+<td>Arrombamento</td>
+<td>Destreza</td>
+<td>Abrir fechaduras, contornar alarmes e outros dispositivos de acesso.</td>
+</tr>
+<tr>
+<td>Herbalismo</td>
+<td>Inteligência</td>
+<td>Preparar substâncias de origem vegetal, com ingredientes e procedimento conhecidos.</td>
+</tr>
+<tr>
+<td>Forja</td>
+<td>Força</td>
+<td>Fabricar e manter armas e peças de metal com ferramentas adequadas.</td>
+</tr>
+<tr>
+<td>Caligrafia</td>
+<td>Destreza</td>
+<td>Produzir escrita, inscrições, cópias e documentos; reproduzir um traço.</td>
+</tr>
+<tr>
+<td>Burocracia</td>
+<td>Inteligência</td>
+<td>Preparar relatórios, requisições e registros conforme os procedimentos de uma organização.</td>
+</tr>
+<tr>
+<td>Entalhador</td>
+<td>Destreza</td>
+<td>Trabalhar madeira, pedra ou osso para produzir peças e recipientes.</td>
+</tr>
+<tr>
+<td>Alfaiate</td>
+<td>Destreza</td>
+<td>Cortar, costurar, ajustar e remendar roupas e uniformes.</td>
+</tr>
+<tr>
+<td>Culinária</td>
+<td>Inteligência</td>
+<td>Preparar alimentos, combinar ingredientes e conservar refeições.</td>
+</tr>
+<tr>
+<td>Instrumento</td>
+<td>Essência</td>
+<td>Tocar um instrumento escolhido ao adquirir o treino.</td>
+</tr>
+<tr>
+<td>Jogatina</td>
+<td>Essência</td>
+<td>Jogar e avaliar uma partida de cartas, dados ou outro jogo conhecido.</td>
+</tr>
+</tbody>
+</table>
+<h4>Conhecimento e execução</h4>
+<p>Saber o significado de uma inscrição pode pedir Religião ou Ocultismo; reproduzir seu traço usa Caligrafia. Conhecer a autoridade responsável é Hierarquia; preparar o pedido no formato exigido usa Burocracia. Uma tarefa não exige as duas rolagens quando uma delas já estiver resolvida.</p>
+<p>Um documento bem preenchido não obriga sua aprovação. Uma falsificação pode imitar a escrita, mas ser desmentida por seu conteúdo. O teste entrega o resultado declarado, dentro do que aquele trabalho permite.</p>
+<h4>Atributo padrão</h4>
+<p>Use o atributo da tabela na aplicação habitual. Se o procedimento exigir outra capacidade, o mestre informa a troca antes do dado. Isso não altera permanentemente o ofício na ficha.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> preparar a proporção de uma receita usa Culinária com Inteligência. Se o desafio for moldar à mão uma decoração delicada já planejada, o mestre pode pedir Destreza no mesmo ofício. Ter Destreza alta não muda o atributo do preparo da receita inteira.</p>
+</blockquote>
+<h4>Materiais e ferramentas</h4>
+<p>Treino não fornece ingredientes, peças, oficina ou informações ausentes. Confira esses requisitos antes de começar. Comprar um estojo permite os trabalhos que ele comporte; não substitui o treino nem concede vantagem automática.</p>
+<!-- fonte:pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md#fabricacao -->
+<p><a id="pericias--fabricacao"></a></p></section><section class="consulta-regra" id="regra-3"><h3>Fabricação</h3>
+<p>Para produzir um item, escolha o resultado e combine um <strong>projeto</strong> com o mestre. O projeto reúne o que será feito, os recursos necessários e o tempo de trabalho. Isso vale para uma arma, um uniforme, um documento ou um preparado de uso específico.</p>
+<h4>Definir o projeto</h4>
+<p>Registre os pontos abaixo antes de gastar dinheiro ou materiais.</p>
+<table>
+<thead>
+<tr>
+<th>Parte</th>
+<th>O que definir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resultado</td>
+<td>Qual item será produzido, sua quantidade e suas características.</td>
+</tr>
+<tr>
+<td>Conhecimentos</td>
+<td>Ofício, treino e qualquer receita ou informação necessária.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>Materiais, ferramentas, local de trabalho e seu custo.</td>
+</tr>
+<tr>
+<td>Prazo</td>
+<td>Tempo de trabalho efetivo e eventuais períodos de espera.</td>
+</tr>
+<tr>
+<td>Risco</td>
+<td>O que pode falhar, qual teste será feito e suas consequências.</td>
+</tr>
+</tbody>
+</table>
+<p>O preço de compra de um item não determina, por si só, seu custo de produção. O mestre informa o orçamento do projeto. Não há desconto universal de fabricação nem renda garantida pela diferença entre materiais e preço de venda.</p>
+<h4>Realizar o trabalho</h4>
+<p>Anote os materiais consumidos e o tempo trabalhado. Se a tarefa for rotineira, com os meios adequados e sem risco relevante, conclua-a ao cumprir o projeto. Quando houver incerteza, o teste resolve o obstáculo declarado; não role a cada hora apenas para acrescentar chances de falha.</p>
+<p>No sucesso, entregue o resultado combinado. Na falha, aplique a consequência anunciada: atraso, necessidade de refazer uma etapa ou perda de material, conforme o risco. Uma falha não destrói automaticamente todos os recursos. Outra tentativa segue <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#pericias--tarefas">Tarefas e testes</a>.</p>
+<p>Ajuda pode tornar uma etapa possível, mas não divide automaticamente o prazo. Se o trabalho puder ser repartido, defina no projeto as tarefas e o tempo de cada participante. Materiais ou conhecimentos que faltam a todos continuam faltando.</p>
+<h4>Ferramentas amaldiçoadas</h4>
+<p>Produzir a base física de uma ferramenta usa o ofício adequado ao material. Acrescentar ou restaurar seu efeito exige um <strong>processo especial definido para o projeto</strong>. Esse processo informa a fonte da energia, quem pode trabalhar com ela, os materiais, o prazo e os riscos necessários.</p>
+<p>Treino em Forja, Alfaiate ou outro ofício não concede sozinho a capacidade de criar poderes. Uma receita precisa definir o efeito final e cumprir as regras de Equipamento amaldiçoado. O mestre pode fazer da obtenção dos materiais ou do processo uma parte da campanha.</p>
+<p>Uma descrição de efeito aprovada para a ficha não substitui esse processo. Copiar a aparência de uma relíquia também não copia seu poder.</p>
+<!-- fonte:pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md#reparos -->
+<p><a id="pericias--reparos"></a></p></section><section class="consulta-regra" id="regra-4"><h3>Reparos</h3>
+<p>Um reparo recupera uma função que o objeto tinha antes de ser danificado. Examine o defeito, escolha o ofício adequado e defina os materiais e o tempo necessários. Aplique o procedimento de Fabricação ao trabalho que precisa ser feito.</p>
+<h4>Estado da peça</h4>
+<p>Desgaste comum pode exigir limpeza, afiação, costura ou substituição de uma parte simples. Se o defeito for evidente e o trabalho rotineiro, não é necessário um teste só para confirmar que o personagem sabe fazê-lo.</p>
+<p>Uma peça partida, queimada ou incompleta pode exigir componentes novos, uma oficina ou reconstrução. O mestre informa o que ainda pode ser aproveitado. Ter um estojo de ferramentas não garante consertar qualquer dano durante um descanso.</p>
+<h4>Resultado do reparo</h4>
+<p>O conserto restaura as características combinadas no projeto. Não aumenta dado de dano, proteção, alcance ou grau. Alterar essas características exige outro projeto, quando as regras do equipamento permitirem essa alteração.</p>
+<p>Uma solução provisória deve dizer o que voltou a funcionar, por quanto tempo e em quais condições. Ela não recebe o funcionamento completo de um item apenas por ter passado num teste.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> o Traje de Rina rasgou numa parte que prende sua proteção. O mestre informa que um reparo com Alfaiate exige tecido e fechos de <strong>¥3.000</strong>, ferramentas e <strong>4 horas de trabalho</strong>. É um serviço conhecido, sem risco relevante; não exige teste. Depois de 2 horas, ainda faltam <strong>2 horas</strong>. Ao concluir, ela recupera o funcionamento da peça, sem aumentar a proteção. Esses valores pertencem a esse reparo, não a todos os Trajes.</p>
+</blockquote>
+<h4>Poder e material</h4>
+<p>Uma ferramenta amaldiçoada pode ter sua base física reparada pelo ofício apropriado. Se o dano também comprometeu o efeito, o projeto precisa prever o processo especial para restaurá-lo. Costurar uma capa não recupera automaticamente um poder perdido.</p>
+<p>Conserto não renova usos gastos nem recupera uma ferramenta esgotada por Desgaste. Também não transforma munição disparada em munição nova: recuperação e reposição seguem Munição.</p>
+<h4>Tratamento de criaturas</h4>
+<p>As regras de objetos não servem para recuperar Vida ou remover condições de uma criatura. Medicina e Herbalismo têm aplicações próprias; tratamento, socorro e recuperação seguem seus procedimentos. Um projeto de reparo não substitui essas regras.</p>
+<p><a id="capitulo-8"></a></p></section><section class="consulta-regra" id="regra-5"><h4>Equipamento restrito</h4>
+<table>
+<thead>
+<tr>
+<th>Equipamento</th>
+<th>Acesso necessário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Armas de fogo e sua munição</td>
+<td>Grau 2 ou superior, ou autorização prévia.</td>
+</tr>
+<tr>
+<td>Revestimento 2</td>
+<td>Grau 3 ou superior.</td>
+</tr>
+<tr>
+<td>Revestimento 3</td>
+<td>Grau 2 ou superior.</td>
+</tr>
+</tbody>
+</table>
+<p>Nesta tabela, uma patente superior é a de maior posição na instituição: Grau 1 está acima de Grau 2, e Especial está acima de ambos. A autorização para armas de fogo deve ser combinada com o mestre ou com a organização da guilda antes da compra; registre seu alcance na ficha.</p>
+<p>Cumprir o acesso permite procurar o equipamento pelos canais da campanha. A tabela não garante que qualquer loja tenha o item disponível. O mestre informa o fornecedor e eventuais condições para obtê-lo.</p></section><section class="consulta-regra" id="regra-6"><h3>Equipamento inicial</h3>
+<p>Na criação padrão, você começa no <strong>Grau 4</strong>, recebe um <strong>Traje 1</strong> e dispõe de <strong>¥150.000</strong> para comprar os demais itens. Escolha suas compras livremente dentro do orçamento e dos requisitos; não há pacote obrigatório por Caminho.</p>
+<p>Se a campanha começar em outra patente, o fundo inicial corresponde a <strong>uma mensalidade padrão dessa patente</strong>, indicada em Recompensas da guilda. O mestre define a patente inicial. Começar em nível mais alto não concede uma patente por conta própria. Campanhas com outra forma de sustento definem o fundo antes das compras.</p>
+<h4>Montar o inventário</h4>
+<ol>
+<li>Escolha armas e proteção. Confira o acesso, o treino, a Força e as mãos necessárias para usá-las.</li>
+<li>Use o preço de criação para armas de fogo e o preço comum para os demais itens. Desconte cada compra; o dinheiro que sobrar continua com você.</li>
+<li>Acrescente o estoque inicial de munição indicado em Munição. Anote as quantidades na arma e na reserva; esse fornecimento não se repete em compras futuras.</li>
+<li>Escolha ferramentas e suprimentos. Some o Volume de tudo que vai levar, incluindo a proteção e os recipientes. Separe o que ficará guardado em outro local.</li>
+</ol>
+<h4>Exemplos de compras</h4>
+<p>Os conjuntos abaixo incluem o Traje 1 gratuito na carga. O dinheiro indicado é apenas o gasto com as compras; você pode usar o restante em outros itens.</p>
+<table>
+<thead>
+<tr>
+<th>Compra</th>
+<th>Preço (¥)</th>
+<th>Volume total</th>
+<th>Força sem penalidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Katana e Broquel</td>
+<td>60.000</td>
+<td>1,8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Hankyū e 20 flechas</td>
+<td>40.000</td>
+<td>1,8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Naginata</td>
+<td>36.000</td>
+<td>2,3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Pistola e duas reservas</td>
+<td>125.000</td>
+<td>1,2</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Força sem penalidade</strong> indica o valor necessário para carregar e usar o conjunto sem as penalidades por falta de Força ou excesso de carga, com os demais requisitos atendidos. Abaixo desse valor, siga Treino e Força, Proteção e Carga. A Pistola está carregada e inclui duas reservas; exige autorização para quem começa no Grau 4. Os exemplos não incluem mochila, alimento, telefone ou ferramentas. Receber munição não aumenta a capacidade de carga.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina compra Katana e Broquel por ¥60.000. Acrescenta mochila, corda, lanterna, pilhas e cantil por ¥13.000. Gasta <strong>¥73.000</strong>, guarda <strong>¥77.000</strong> e leva <strong>3,1 Volume</strong>, incluindo o Traje 1. Com Força 0, seu limite é 5.</p>
+</blockquote>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqc-compras -->
+<p><a id="equip--eqc-compras"></a></p></section><section class="consulta-regra" id="regra-7"><h3>Equipamento amaldiçoado</h3>
+<p>Uma corrente que se alonga durante o golpe, um uniforme que muda de aparência ou um escudo que protege enquanto flutua podem mudar as escolhas de um personagem. Esses itens são <strong>ferramentas amaldiçoadas</strong>: equipamentos que carregam energia própria. Você pode usá-los mesmo sem ter energia amaldiçoada.</p>
+<p>Cada ferramenta parte de um item comum e pode carregar <strong>um efeito especial</strong>. O grau indica a importância desse efeito. Ele não acrescenta automaticamente bônus ao ataque, dano, Defesa, atributos ou CD.</p>
+<h4>Tipos de ferramenta</h4>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Base e funcionamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arma</td>
+<td>Conserva a ficha da arma e pode ferir maldições. O efeito funciona enquanto ela é empunhada, salvo exceção escrita.</td>
+</tr>
+<tr>
+<td>Traje</td>
+<td>Conserva proteção, situação, requisitos e demais características do Traje escolhido.</td>
+</tr>
+<tr>
+<td>Revestimento</td>
+<td>Conserva proteção, teto de Destreza e requisitos do Revestimento escolhido.</td>
+</tr>
+<tr>
+<td>Roupa</td>
+<td>Uniforme comum, casaco, capa ou outra vestimenta sem proteção. Concede apenas o efeito descrito.</td>
+</tr>
+<tr>
+<td>Escudo</td>
+<td>Conserva a ficha do escudo. Precisa estar preparado e empunhado, salvo exceção do efeito.</td>
+</tr>
+<tr>
+<td>Acessório</td>
+<td>Anel, cordão, medalhão ou peça semelhante. Funciona enquanto estiver vestido no lugar apropriado.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Roupa comum não é Traje.</strong> Um uniforme sem proteção pode receber um poder sem passar a conceder Defesa, situação de Traje ou qualquer outro benefício de armadura. Ele também não substitui a proteção passiva da sua rota.</p>
+<h4>Características da base</h4>
+<p>O item conserva Volume, mãos necessárias, dano, proteção, teto de Destreza e requisitos. Altere uma característica apenas quando o efeito disser que faz isso. Uma arma não recebe a propriedade Leve por ser amaldiçoada; um escudo continua ocupando a mão até uma regra permitir soltá-lo.</p>
+<p><strong>Degrau de proteção e grau amaldiçoado são diferentes.</strong> Um Traje 1 de grau 2 continua concedendo a proteção de Traje 1. Ele recebe o efeito de grau 2 que está em sua ficha. O grau também não transforma a situação escolhida para o Traje.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Kaori recebe um uniforme comum que muda de aparência. Sua Defesa permanece igual à que tinha antes de vesti-lo. Se recebesse um Traje 2 com o mesmo efeito, usaria a proteção e os requisitos de Traje 2, além da mudança de aparência.</p>
+</blockquote>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqf-graus -->
+<p><a id="equip--eqf-graus"></a></p></section><section class="consulta-regra" id="regra-8"><h3>Graus das ferramentas</h3>
+<p>O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o jogo.</p>
+<table>
+<thead>
+<tr>
+<th>Grau</th>
+<th>Efeito esperado</th>
+<th>Nível mínimo para o efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td>Energia no item, sem efeito especial</td>
+<td>Nenhum</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Utilidade simples, informação ou conveniência</td>
+<td>Nenhum</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Uma opção de combate ou exploração com limites definidos</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Uma capacidade que muda o uso habitual do equipamento</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Especial</td>
+<td>Um poder singular, com limites próprios</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<p>O nível mínimo vale para o <strong>efeito</strong>, sem exigência de Refino. Antes dele, o item conserva suas características básicas. Uma arma ainda fere maldições; um escudo ainda fornece sua proteção. Uma ferramenta com <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eqf-desgaste">Desgaste</a> permite antecipar o uso do efeito.</p>
+<h4>Grau e patente</h4>
+<p>Sua patente representa o reconhecimento no meio jujutsu. Ela não substitui o nível exigido pelo efeito, e possuir uma ferramenta não muda sua patente. O mestre decide quando cada item pode aparecer, ser emprestado ou estar à venda.</p>
+<p>Uma ferramenta de grau 1 pode ser tão útil quanto uma especial em determinada situação. No jogo, as especiais são peças únicas, com história própria. Não ganham um segundo efeito só por serem especiais.</p>
+<h4>Efeito e aparência</h4>
+<p>Um efeito tem nome, tipos de item compatíveis e uma descrição completa. Ele pode aparecer em outra ferramenta compatível: o efeito de uma arma pode ser usado em outra arma, se sua descrição permitir. O mestre define a ficha final antes de entregá-la.</p>
+<p>O formato precisa comportar o efeito. Uma corrente extensível exige elos ou estrutura flexível; transferir esse efeito para um anel não transforma os ataques do portador em ataques de longo alcance. Também não se pode costurar acessórios numa armadura para contornar os limites de <a href="#equip--eqf-uso">itens em uso</a>.</p>
+<h4>Números e progressão</h4>
+<p>Ao criar uma ferramenta de grau maior, procure uma nova possibilidade de ação, uma forma de explorar o ambiente ou uma exceção limitada. Aumentar o grau não permite ampliar livremente alcance, frequência ou alvos de um efeito já escrito.</p>
+<p>As características comuns do item continuam sendo a referência. Um efeito que economiza uma mão ou permite atravessar uma barreira já pode ser valioso sem acrescentar dano.</p>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqf-uso -->
+<p><a id="equip--eqf-uso"></a></p></section><section class="consulta-regra" id="regra-9"><h3>Itens em uso</h3>
+<p>As armas e os escudos são limitados pelas mãos necessárias para usá-los. Você também pode usar <strong>até dois itens vestidos com efeitos especiais</strong>. Nesse limite entram roupas, Trajes, Revestimentos e acessórios.</p>
+<p>Entre esses dois itens, <strong>apenas um pode ser uma vestimenta com efeito</strong>: roupa, Traje ou Revestimento. O outro pode ser um acessório. Se não usar vestimenta com efeito, pode usar dois acessórios. Uma peça comum sem efeito não ocupa esse limite, mas continua sujeita às regras de Proteção.</p>
+<p>Roupas comuns podem compor sua aparência sob uma proteção. Isso não permite ativar o efeito de uma roupa e o de um Traje ou Revestimento ao mesmo tempo. Escolha a peça que funcionará como sua vestimenta amaldiçoada.</p>
+<table>
+<thead>
+<tr>
+<th>Conjunto em uso</th>
+<th>Efeitos disponíveis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arma, escudo, Traje com efeito e anel</td>
+<td>Até quatro</td>
+</tr>
+<tr>
+<td>Arma de duas mãos, roupa com efeito e colar</td>
+<td>Até três</td>
+</tr>
+<tr>
+<td>Duas armas de uma mão e dois acessórios</td>
+<td>Até quatro</td>
+</tr>
+</tbody>
+</table>
+<h4>Preparar e retirar</h4>
+<p>Não há sintonização, descanso ou custo de PE para habilitar uma ferramenta. Sacar armas segue <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eq-manipular">Sacar e guardar</a>. Trajes, Revestimentos e escudos seguem os tempos de <strong>Vestir e retirar equipamento</strong>.</p>
+<p>Vestir e preparar uma roupa ou acessório com efeito exige <strong>uma Ação Padrão</strong>; retirá-lo exige outra. Se a peça tiver fechos ou obstáculos que impeçam isso, primeiro resolva o impedimento. Não pode preparar um terceiro item vestido com efeito sem retirar um dos anteriores.</p>
+<p>A ferramenta guardada não concede seu efeito. Efeitos que dependem de mantê-la em uso terminam quando você a guarda ou retira, salvo uma exceção expressa. Isso não apaga sua energia nem desfaz instantaneamente uma consequência já resolvida, como um ataque.</p>
+<h4>Usos e cópias</h4>
+<p>Os usos gastos acompanham o item. Guardar, sacar, emprestar ou trocar de roupa não os recupera. Quando a frequência for por descanso, o item precisa acompanhar seu portador durante o descanso indicado para recuperar os usos.</p>
+<p><strong>Cópias do mesmo efeito compartilham o limite por personagem.</strong> Se você já usou uma vez um efeito de uma vez por cena, outra cópia não permite usá-lo novamente nessa cena. Ao ativar, marque o uso na ferramenta e na sua ficha. O efeito fica disponível novamente quando ambos tiverem recuperado o uso.</p>
+<p>Efeitos iguais não se somam. Vários itens também não concedem Reações adicionais: cada ativação usa os recursos normais do personagem.</p>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqf-aquisicao -->
+<p><a id="equip--eqf-aquisicao"></a></p></section><section class="consulta-regra" id="regra-10"><h3>Aquisição e criação</h3>
+<p>Ferramentas podem ser recompensas, empréstimos da instituição, heranças ou achados de uma missão. O mestre decide quais estão disponíveis. Cumprir o nível mínimo permite usar o efeito; não garante encontrar a peça.</p>
+<p>Os preços do catálogo comum não incluem versões amaldiçoadas. Quando houver uma ferramenta à venda, o mestre informa o valor, as condições de aquisição e o que se sabe sobre ela. Uma peça emprestada continua pertencendo a quem a cedeu; registre as condições de devolução.</p>
+<h4>Conhecer o item</h4>
+<p>Ao entregar uma ferramenta conhecida, o mestre fornece sua ficha: base, grau, efeito, requisitos, Volume e usos. Se ela tiver Desgaste, registre as missões restantes e o que acontece quando acaba.</p>
+<p>Um item desconhecido pode exigir pesquisa sobre sua origem, exame ou ajuda de alguém que o conheça. Perceber energia não revela automaticamente todos os poderes e riscos. A investigação segue as regras comuns e as informações disponíveis na cena; não existe um descanso obrigatório de identificação para toda ferramenta.</p>
+<h4>Criar uma ferramenta</h4>
+<p>Comece pela função que ela terá na campanha e escolha uma base compatível. Depois, escolha um efeito deste catálogo ou escreva um novo com o mestre. Defina o grau, os requisitos, a ação, o gatilho, o alcance, a duração e a recuperação de usos que forem necessários.</p>
+<p>A aparência pode variar sem mudar o funcionamento. Um efeito de roupa pode estar num casaco ou uniforme comum; um efeito restrito a escudo precisa continuar em um escudo. Se a alteração mudar o que a ferramenta faz, ela precisa de uma nova avaliação.</p>
+<p><strong>Montar a ficha não fabrica o item.</strong> Produzi-lo durante o jogo exige os conhecimentos, materiais e condições tratados em Ofícios. Comprar a base também não concede o direito de acrescentar um efeito gratuitamente.</p>
+<h4>Volume</h4>
+<p>Armas, Trajes, Revestimentos e escudos usam o Volume de sua base. Para os exemplos deste catálogo, uma roupa completa ou capa ocupa <strong>0,3 Volume</strong>, e um acessório pequeno ocupa <strong>0,1 Volume</strong>. Peças maiores precisam de Volume próprio.</p>
+<p>O efeito não aumenta a capacidade de transporte nem reduz o Volume de outros itens, salvo se disser isso expressamente. A munição é consumida normalmente nos disparos. Seus recipientes seguem as regras de Munição, inclusive depois de vazios.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma espada com efeito de retorno conserva suas propriedades. Esse efeito não lhe concede Longo Alcance, não muda o dado e não dispensa munição de outra arma. A ficha precisa dizer o que realmente volta para a mão e em qual situação.</p>
+</blockquote>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqf-armas -->
+<p><a id="equip--eqf-armas"></a></p></section><section class="consulta-regra" id="regra-11"><h3>Desgaste</h3>
+<p>Uma ferramenta com <strong>Desgaste</strong> permite usar seu efeito antes do nível mínimo. Em troca, esse poder dura um número limitado de missões. A propriedade faz parte da ficha do item; o portador não pode acrescentá-la por conta própria.</p>
+<table>
+<thead>
+<tr>
+<th>Grau</th>
+<th>Missões em que o efeito pode ser usado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>1 ou especial</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>Grau 4 não recebe Desgaste, pois não tem efeito especial. No grau 3, a propriedade apenas torna o item temporário: não há nível mínimo a dispensar.</p>
+<h4>Missões de uso</h4>
+<p>No primeiro uso do efeito em uma missão, marque uma missão consumida. O efeito permanece disponível até o fim dela. Usá-lo outras vezes nessa missão não consome mais missões, mas <strong>seus limites de cena ou descanso continuam valendo</strong>.</p>
+<p>Para um efeito permanente, receber o benefício conta como uso. Apenas transportar o item guardado não consome uma missão. Trocar de portador não reinicia o contador nem cobra novamente a mesma missão. Uma missão pode durar várias sessões; a mudança de sessão não encerra o uso disponível.</p>
+<h4>Esgotamento</h4>
+<p>Depois de terminar a última missão de uso, a ferramenta perde seu poder e fica como item comum, ou se quebra, conforme o destino registrado na ficha. Conserto não recupera o poder esgotado. Se permanecer inteira, sua proteção, propriedades e demais características comuns continuam valendo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma ferramenta de grau 1 começa com três missões. O grupo registra cada missão em que o efeito foi usado, mesmo se outra pessoa receber o item emprestado.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Missão</th>
+<th>Uso do efeito</th>
+<th>Missões restantes depois dela</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primeira</td>
+<td>Vários usos, dentro da frequência do efeito</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Segunda</td>
+<td>Item guardado; nenhum uso</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Terceira</td>
+<td>Uso por outro portador</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Quarta</td>
+<td>Última missão de uso</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>O efeito funciona durante toda a quarta missão. Depois, o item perde a propriedade amaldiçoada. Seu grau e seu efeito não mudam gradualmente durante essa contagem.</p>
+<!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqf-objetos -->
+<p><a id="equip--eqf-objetos"></a></p></section><section class="consulta-regra" id="regra-12"><h3>Objetos amaldiçoados</h3>
+<p>Restos de um feiticeiro podem conservar uma maldição muito depois de sua morte. Os dedos de Sukuna são um exemplo: atraem maldições e carregam o risco de encarnação. Esses objetos podem motivar uma missão de busca, escolta ou contenção.</p>
+<p><strong>Objetos amaldiçoados têm efeitos próprios.</strong> Eles não recebem poderes pelo catálogo de ferramentas. Uma ferramenta serve como equipamento, empunhada ou vestida; os perigos de um objeto podem continuar presentes enquanto ele está guardado.</p>
+<h4>Atração e selos</h4>
+<p>No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.</p>
+<p>Um objeto preparado como amuleto usa um selo para afastar maldições. Essa proteção enfraquece com o tempo; se o selo perde o efeito ou é retirado, o objeto volta a atraí-las. O mestre define a duração e o alcance dessa proteção para o objeto da missão. Isso não concede imunidade a ataques nem impede automaticamente que uma maldição se aproxime.</p>
+<p>Uma caixa comum protege o conteúdo de danos e olhares, mas não substitui um selo. Ao transportar um objeto, mantenha o invólucro e as condições de contenção informadas pelo responsável pela missão. O Volume deve ser registrado junto do recipiente necessário ao transporte.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> o grupo precisa levar um objeto selado a um depósito protegido. O mestre informa que o selo deve resistir até a entrega. Se o grupo decidir removê-lo para investigar o conteúdo, perde essa proteção e passa a lidar com a atração do objeto.</p>
+</blockquote>
+<h4>Encarnação</h4>
+<p>Certos objetos permitem que um ser do passado ganhe corpo ao ser incorporado por alguém. A compatibilidade do corpo e o objeto envolvido afetam o resultado. O caso de Yuji, que abriga Sukuna, não garante que outra pessoa consiga fazer o mesmo.</p>
+<p>Ingerir um objeto desconhecido não concede automaticamente poderes, uma nova Origem ou controle sobre o que ele contém. Se essa possibilidade fizer parte da campanha, o mestre apresenta os riscos que o personagem pode conhecer e define as consequências conforme o objeto. As opções de personagem ligadas à encarnação são tratadas em Origens.</p>
+<h4>Guarda</h4>
+<p>As escolas jujutsu mantêm objetos perigosos sob contenção. Para a missão, o mestre informa quem pode recebê-los, onde fica o local de entrega e quais cuidados o transporte exige. Destruir um objeto também pode exigir condições próprias; não presuma que os procedimentos para quebrar itens comuns resolvam qualquer objeto amaldiçoado.</p>
+<p><a id="capitulo-9"></a></p></section><section class="consulta-regra" id="regra-13"><h3>Experiência e Progressão</h3>
+<p>Missões dão experiência. Ao reunir XP suficiente, seu personagem sobe de nível, amplia o repertório e recebe as habilidades previstas para sua ficha. Algumas conquistas também podem mudar seu reconhecimento dentro da instituição, mas <strong>nível e Grau são registros diferentes</strong>.</p>
+<p>Uma ficha nova começa no <strong>nível 2</strong>. O nível 1 é uma opção de campanha para jogar o período anterior às primeiras habilidades de Caminho e Trilha. Nesse caso, a mesa define quando essa etapa termina; a curva de XP começa no nível 2.</p>
+<h4>Registro de missão</h4>
+<p>Anote o nome da missão, sua data de conclusão, a recompensa, o desconto semanal e o XP recebido. Conserve também os feitos e as aquisições que precisem ser reconhecidos em outras mesas.</p>
+<p>Uma missão padrão concede <strong>100 XP antes dos ajustes</strong>, independentemente do nível ou do Grau dos participantes. A recompensa não é calculada por inimigo abatido. Investigações, escoltas e negociações também podem ser missões.</p>
+<p>Você avança <strong>no máximo um nível por missão concluída</strong>. Desconte o preço desse avanço do XP disponível e guarde o restante. No fim de outra missão, confira novamente o saldo. O excedente não desaparece nem permite subir vários níveis no mesmo encerramento, salvo o XP guardado até cumprir o feito do Limiar do nível 20.</p>
+<p><strong>Exemplo.</strong> Uma personagem de nível 2 recebe 300 XP. Gasta 200 para alcançar o nível 3 e conserva 100. O próximo avanço custa 300: ainda faltam 200, antes da recompensa da missão seguinte.</p>
+<p>Do nível <strong>20 para o 21</strong>, é preciso também um dos feitos de <strong>Limiar do nível 20</strong>. O nível <strong>30</strong> encerra esta progressão.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-xp -->
+<p><a id="progressao--prog-xp"></a></p></section><section class="consulta-regra" id="regra-14"><h3>Recompensas e custos</h3>
+<p>Quem anuncia a missão informa seu tamanho antes de começar. A duração ajuda a escolhê-lo, mas a importância e o risco também contam. Um final de arco pode ser resolvido por conversa.</p>
+<table>
+<thead>
+<tr>
+<th>Missão</th>
+<th style="text-align: right;">XP base</th>
+<th>Referência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Curta</td>
+<td style="text-align: right;">50</td>
+<td>Uma cena, entrevista ou escolta breve.</td>
+</tr>
+<tr>
+<td>Padrão</td>
+<td style="text-align: right;">100</td>
+<td>Uma missão de sessão.</td>
+</tr>
+<tr>
+<td>Longa</td>
+<td style="text-align: right;">200</td>
+<td>Duas ou mais sessões ou uma sessão extensa.</td>
+</tr>
+<tr>
+<td>Final de arco</td>
+<td style="text-align: right;">300</td>
+<td>Encerramento de uma linha de missões.</td>
+</tr>
+</tbody>
+</table>
+<p>Na falha, o mestre concede <strong>metade ou nada</strong>, conforme o que aconteceu. Depois, cada participante aplica seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o mínimo de XP das recompensas positivas.</p>
+<h4>Subir de nível</h4>
+<p>A tabela informa quanto custa <strong>sair do nível atual</strong>. Ela não mostra o XP acumulado desde a criação.</p>
+<table>
+<thead>
+<tr>
+<th>Nível atual</th>
+<th style="text-align: right;">XP para o próximo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td style="text-align: right;">200</td>
+</tr>
+<tr>
+<td>3–4</td>
+<td style="text-align: right;">300</td>
+</tr>
+<tr>
+<td>5–7</td>
+<td style="text-align: right;">500</td>
+</tr>
+<tr>
+<td>8–10</td>
+<td style="text-align: right;">700</td>
+</tr>
+<tr>
+<td>11–13</td>
+<td style="text-align: right;">900</td>
+</tr>
+<tr>
+<td>14–16</td>
+<td style="text-align: right;">1.100</td>
+</tr>
+<tr>
+<td>17–19</td>
+<td style="text-align: right;">1.300</td>
+</tr>
+<tr>
+<td>20–22</td>
+<td style="text-align: right;">1.500</td>
+</tr>
+<tr>
+<td>23–29</td>
+<td style="text-align: right;">1.700</td>
+</tr>
+<tr>
+<td>30</td>
+<td style="text-align: right;">Não há outro nível.</td>
+</tr>
+</tbody>
+</table>
+<p>Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-semana -->
+<p><a id="progressao--prog-semana"></a></p></section><section class="consulta-regra" id="regra-15"><h3>Experiência semanal</h3>
+<p>As <strong>duas primeiras missões da semana</strong> pagam a recompensa inteira. A partir da terceira, cada posição paga metade da anterior. O desconto é por jogador, dentro da campanha: participantes da mesma missão podem estar em posições diferentes na própria semana. Usar outra ficha não reinicia sua contagem.</p>
+<table>
+<thead>
+<tr>
+<th>Missão na semana</th>
+<th style="text-align: right;">Parcela recebida</th>
+<th style="text-align: right;">Missão padrão de 100 XP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1ª e 2ª</td>
+<td style="text-align: right;">100%</td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr>
+<td>3ª</td>
+<td style="text-align: right;">50%</td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr>
+<td>4ª</td>
+<td style="text-align: right;">25%</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr>
+<td>5ª</td>
+<td style="text-align: right;">12,5%</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr>
+<td>6ª</td>
+<td style="text-align: right;">6,25%</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>7ª</td>
+<td style="text-align: right;">3,125%</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Seguintes</td>
+<td style="text-align: right;">Metade da parcela anterior.</td>
+<td style="text-align: right;">Mínimo de 1 XP, se a recompensa for positiva.</td>
+</tr>
+</tbody>
+</table>
+<p>Faça a conta com a fração inteira e <strong>arredonde para baixo somente o XP final</strong>. Não arredonde o percentual entre etapas. Uma quinta missão longa paga <strong>200 ÷ 8 = 25 XP</strong>, e não 24.</p>
+<p>Se houver recompensa de falha, evento de dobro ou outro ajuste anunciado, aplique-os antes do arredondamento final. Quando o resultado for positivo e menor que 1, receba <strong>1 XP</strong>. Isso não transforma uma missão sem recompensa em missão paga.</p>
+<p>A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a <strong>conclusão da missão</strong> para atribuí-la à semana. Uma missão de várias sessões conta uma vez, quando terminar. Participação numa missão sem XP ainda ocupa sua posição semanal.</p>
+<p><strong>Exemplo.</strong> Sua terceira missão da semana era longa e terminou em falha com metade da recompensa. A conta é <strong>200 × ½ × ½ = 50 XP</strong>. Outra pessoa, em sua primeira missão da semana, recebe 100.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-limiar -->
+<p><a id="progressao--prog-limiar"></a></p></section><section class="consulta-regra" id="regra-16"><h3>Limiar do nível 20</h3>
+<p>Para avançar do nível <strong>20 para o 21</strong>, reúna o XP necessário e registre <strong>um dos sete feitos abaixo</strong>, realizado entre os níveis <strong>15 e 20</strong>. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.</p>
+<table>
+<thead>
+<tr>
+<th>Feito</th>
+<th>Registro necessário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Derrotar um Chefe de nível superior ao seu.</td>
+<td>Níveis do personagem e do Chefe na missão.</td>
+</tr>
+<tr>
+<td>Sair de pé de uma Expansão de Domínio completa.</td>
+<td>Estar consciente e capaz de agir ao sair da Expansão completa ou quando ela terminar. Ter caído e recebido socorro antes disso não invalida o feito.</td>
+</tr>
+<tr>
+<td>Concluir uma missão de final de arco.</td>
+<td>Categoria anunciada antes da missão.</td>
+</tr>
+<tr>
+<td>Levantar alguém que estava a zero de vida.</td>
+<td>O socorro devolveu a capacidade de agir pelas regras de queda.</td>
+</tr>
+<tr>
+<td>Voltar do estágio 4 de dano na alma.</td>
+<td>Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte.</td>
+</tr>
+<tr>
+<td>Cumprir uma Promessa até o fim, pagando sua parte.</td>
+<td>Termos do pacto e seu cumprimento.</td>
+</tr>
+<tr>
+<td>Trazer à guilda uma ferramenta de Grau 1 ou Especial.</td>
+<td>Ferramenta obtida e Grau de sua ficha.</td>
+</tr>
+</tbody>
+</table>
+<p>A lista é fechada. O mestre confirma se o feito aconteceu e registra a evidência; não precisa avaliar se outra façanha parece equivalente. Os feitos de socorro, dano na alma e saída de Domínio precisam decorrer de uma ameaça hostil real na missão. Treinos e quedas provocadas pelo grupo apenas para cumprir essa lista não contam. Em uma campanha sem guilda, a instituição ou o grupo da campanha recebe a ferramenta do sétimo feito.</p>
+<p>O feito <strong>não concede XP nem um nível gratuito</strong>. Sem ele, você continua no nível 20 e acumula a experiência recebida. Ao reconhecê-lo, aplique o XP guardado no encerramento da missão e receba, <strong>de uma vez, quantos níveis ele pagar</strong>.</p>
+<p><strong>Exemplo.</strong> Você tem 4.000 XP guardados no nível 20 e conclui o feito. Gasta 1.500 para chegar ao 21 e outros 1.500 para chegar ao 22, de uma vez. Guarda os <strong>1.000 XP</strong> restantes.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-tabela-inicial -->
+<p><a id="progressao--prog-tabela-inicial"></a></p></section><section class="consulta-regra" id="regra-17"><h3>Recompensas da guilda</h3>
+<p>Salário e recompensas por mestrar são <strong>políticas opcionais da campanha</strong>. A tabela oferece uma escala do Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.</p>
+<table>
+<thead>
+<tr>
+<th>Grau</th>
+<th style="text-align: right;">Salário mensal de referência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td style="text-align: right;">¥150.000</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">¥300.000</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">¥600.000</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align: right;">¥1.200.000</td>
+</tr>
+<tr>
+<td>Especial</td>
+<td style="text-align: right;">¥2.400.000</td>
+</tr>
+</tbody>
+</table>
+<p>A guilda pode pagar em dinheiro ou substituir parte da recompensa por ferramentas, moradia, transporte e acesso a recursos. O que estiver disponível deve ser informado aos participantes. Subir de nível não altera automaticamente o Grau.</p>
+<h4>Participação no mês</h4>
+<p>Se usar salário por participação, a parcela mínima é <strong>um quarto</strong> da referência. A guilda define quantas participações completam o mês; a recomendação é <strong>três</strong>. Missão curta ou padrão conta uma, longa conta duas e final de arco conta três.</p>
+<p>Divida os três quartos restantes igualmente pelo número exigido, até completar o salário. Com três participações exigidas, quem fez zero recebe 25%, uma recebe 50%, duas recebem 75% e três ou mais recebem 100%. Use o Grau registrado no fechamento mensal e arredonde o pagamento final para baixo.</p>
+<h4>Recompensa por mestrar</h4>
+<p>Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.</p>
+<p>Se escolher uma mensalidade extra a cada <strong>X missões</strong>, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau.</p>
+<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-patentes -->
+<p><a id="progressao--prog-patentes"></a></p></section><section class="consulta-regra" id="regra-18"><h3>Patentes</h3>
+<p>A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus <strong>4, 3, 2, 1 e Especial</strong>, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.</p>
+<p>Na criação padrão, você começa no <strong>Grau 4</strong>, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme <strong>Equipamento inicial</strong>, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.</p>
+<p>A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os feitos do Limiar não concedem uma patente por conta própria.</p>
+<p><strong>Nível</strong> determina a progressão da ficha. <strong>Patente</strong> registra a posição do personagem. <strong>Grau de ferramenta</strong> classifica um equipamento. Ter uma ferramenta de Grau maior não promove seu portador; ser promovido não substitui os requisitos de uso da ferramenta.</p>
+<p>Se a campanha usar remuneração, consulte <strong>Recompensas da guilda</strong>. Registre a patente vigente no fechamento indicado por aquele procedimento.</p>
+<!-- parte:3 --></section><section class="consulta-regra" id="regra-19"><h5>Cofre da Família</h5>
+<p><strong>Exclusiva Zenin.</strong> Receba <strong>uma ferramenta amaldiçoada emprestada por vez</strong>, de grau igual ou inferior à sua patente reconhecida, até grau 1. Para trocar, volte ao cofre e devolva a anterior.</p>
+<p><strong>Armas de grau 1 exigem feitos que justifiquem o acesso e autorização do mestre.</strong> Ferramentas especiais ficam fora da concessão. Mantenha os requisitos próprios da ferramenta; nível não substitui patente.</p></section><section class="consulta-regra" id="regra-20"><h5>Palavra Empenhada</h5>
+<p><strong>Uma vez por descanso longo</strong>, após falhar em Persuasão numa negociação viável, ofereça sua palavra e reputação como garantia. O mestre apresenta uma condição adicional concreta: pagamento, serviço ou concessão. Você pode aceitar ou recusar; cumprir a condição conclui o acordo sem repetir aquele teste.</p>
+<p>Não torna um pedido inviável aceitável nem fornece dinheiro para pagar a condição.</p></section></main></body></html>

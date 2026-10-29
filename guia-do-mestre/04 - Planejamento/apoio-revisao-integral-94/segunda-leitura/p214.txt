@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+ENTRE MISSÕES
+Campanha fechada
+Um grupo com uma única linha de tempo pode
+começar pelo intervalo da história: quantas tardes,
+dias ou outros períodos realmente estão disponíveis
+antes do compromisso seguinte? Distribua o
+trabalho que cabe neles e conserve os prazos de
+espera.
+O grupo pode adotar o mesmo ciclo da guilda se
+preferir essa organização. O necessário é que a
+disponibilidade seja compreensível e que os
+compromissos não se contradigam. Não é preciso
+simular cada hora da vida comum quando isso não
+muda uma escolha.
+O que cada atividade oferece
+Fabricar produz o item combinado. Pesquisar
+procura uma informação pelos meios disponíveis.
+Encontrar uma professora pode atender a uma
+exigência de aprendizado de aptidão, quando a
+descrição permitir. Cada atividade segue suas
+condições e a aquisição correspondente.
+Praticar um feitiço conhecido pode ajudar o
+jogador a entender suas escolhas. Isso não cria
+outro espaço conhecido nem uma reescrita extra.
+Estudar um Ofício não concede automaticamente
+treino permanente fora das vias do Livro de Regras
+1.0.
+Os treinamentos específicos desejados para o Guia
+terão benefícios graduais, manutenção e retomada,
+mas sua mecânica permanece para
+desenvolvimento posterior. Esta seção não cria
+bônus, estágios ou perda de capacidades já
+adquiridas. Ausência de postagem do jogador não
+deve ser tratada automaticamente como inatividade
+da personagem.
+Descanso e troca de mestre
+Trabalhar não é descansar. Uma espera também
+não garante uma pausa segura ou o encerramento
+da missão. Use os requisitos de Retirada e
+recuperação (p. 77) para determinar o que foi
+recuperado.
+Ao passar um projeto para outro mestre, informe o
+acordo, os meios disponíveis, o trabalho concluído,
+os consumos, a próxima etapa e os prazos
+relevantes. A ficha de projeto (p. 314) reúne esses
+campos.
+Ao registrar dedicação em períodos, declare sua
+equivalência e mantenha os tempos menores que
+importem ao projeto. Um reparo parcialmente
+concluído não perde progresso por ocupar uma
+fração da unidade usada pela campanha. Os prazos
+de espera continuam registrados separadamente.
+8.2 · Ofícios, fabricação e
+reparos
+Leia esta seção para conduzir um trabalho: fabricar
+uma peça, preparar um documento, prestar um
+serviço ou recuperar um objeto danificado. Use a
+ficha de projeto (p. 314) para trabalhos que
+precisem continuar entre cenas ou mestres.
+Comece pelo resultado que o personagem procura.
+“Vou usar Forja” informa o conhecimento. “Quero
+substituir a dobradiça partida para a caixa fechar
+novamente” permite verificar o material, as
+ferramentas e o trabalho necessário.
+Treino, ferramentas e materiais
+O treino em Ofício permite executar a prática
+aprendida, dentro dos meios disponíveis.
+Ferramentas, materiais, informações e acesso ao
+local continuam necessários. Um estojo portátil e
+uma oficina completa podem permitir trabalhos
+diferentes.
+Escolha o Ofício pelo trabalho necessário.
+Caligrafia pode reproduzir uma inscrição; conhecer
+o significado dela pode depender de Ocultismo ou
+Religião. Burocracia prepara um pedido no formato
+exigido; isso não obriga uma instituição a
+aprová-lo. Se a informação necessária já foi obtida,
+não peça outro teste apenas para passar por todas
+as competências relacionadas.
+No teste de Ofício treinado, some atributo da
+tarefa + Maestria ao d20, com os demais
+modificadores aplicáveis. Use o atributo padrão nas
+aplicações habituais. Quando a tarefa exigir outra
+capacidade, informe a mudança antes da rolagem.
+A perícia conserva seu atributo fixo; essa
+flexibilidade pertence aos Ofícios.
+Exemplo do Livro de Regras 1.0. Rina tem
+Arrombamento treinado, Destreza 4, Inteligência 2
+e Maestria 1. Manipular uma tranca mecânica usa
+bônus +5. Analisar seu mecanismo eletrônico com
+ferramentas adequadas pode usar Inteligência,
+resultando em +3. Contra CD 14, precisa tirar 9 ou
+11, respectivamente. A abordagem muda o trabalho
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+214

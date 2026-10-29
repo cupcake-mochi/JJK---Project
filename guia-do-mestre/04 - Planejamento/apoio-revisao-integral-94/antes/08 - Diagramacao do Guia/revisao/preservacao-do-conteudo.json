@@ -1,0 +1,45 @@
+{
+  "unidades_textuais_amostradas": 4990,
+  "pontos_de_controle": 14279,
+  "amostras_a_examinar": [
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    },
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    },
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    },
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    },
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    },
+    {
+      "consulta": "s092",
+      "amostra": "_ _ _ _ _ _____",
+      "texto": "_ _ _ _ _ _____"
+    }
+  ],
+  "links_pdf": 2374,
+  "links_invalidos": [],
+  "nota": "Conferência de preservação por amostras de cada unidade textual; não substitui revisão semântica.",
+  "conferencia_manual": {
+    "pagina": 188,
+    "resultado": "As seis linhas de preenchimento foram examinadas visualmente. Todas estão presentes; a discrepância vem da segmentação dos sublinhados na extração textual. Nenhuma unidade de conteúdo ausente identificada nessas ocorrências.",
+    "ocorrencias_resolvidas": 6,
+    "ocorrencias_pendentes": 0
+  }
+}

@@ -1,0 +1,116 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Campo
+Haru - guarda do arquivo
+Vigia - atacante
+Tessa - apoio
+Nível / Maestria / Refino /
+Classe máxima
+15 / 2 / 4 / 4
+15 / 2 / 4 / 4
+15 / 2 / 4 / 4
+Força / Destreza /
+Constituição / Inteligência /
+Essência
+4 / 3 / 4 / 5 / 3
+4 / 3 / 4 / 2 / 2
+0 / 3 / 3 / 3 / 5
+PV / Integridade
+280 / 140
+120 / 60
+80 / 40
+PE atuais / máximos
+26 / 26
+14 / 14
+26 / 26
+Defesa / Bloquear
+14 / 2d10 + 3
+14 / 2d10 + 3
+14 / 2d10 + 3
+Iniciativa / movimento
+d20 + 3 / 9 m
+d20 + 3 / 9 m
+d20 + 3 / 9 m
+TR Físico
++6, Força treinada
++6, Força treinada
++5, Destreza treinada
+TR Vigor
++6, treinado
++6, treinado
++3, sem treino
+TR Intelecto
++5, sem treino
++2, sem treino
++3, sem treino
+TR Espírito
++3, sem treino
++2, sem treino
++7, treinado
+Perícias treinadas
+relevantes
+Atletismo +6, Percepção
++5, Sentir Energia +5,
+Intuição +7
+Atletismo +6, Percepção
++4, Sentir Energia +4,
+Intimidação +4
+Percepção +7, Sentir
+Energia +7, Intuição +5,
+Persuasão +7
+Carga normal / arrasto
+máximo
+9 / 18 Volume
+9 / 18 Volume
+5 / 10 Volume
+Equipamento
+Espada Longa de uma
+mão, 1 Volume; Traje 1,
+0,3
+A mesma combinação
+Traje 1, 0,3 Volume;
+mãos livres
+A Defesa é 10 + Destreza 3 + Traje 1. Demais
+perícias conservam seus atributos e requisitos, sem
+treino adicional presumido; não há Ofício treinado
+relevante. A espada é comum. Canalizar permite
+ferir maldições com ela, sem transformá-la em
+ferramenta permanente.
+Cada ficha recebe Padrão, Movimento, Bônus e
+Reação comuns. A Reação se renova no começo do
+próprio turno. Antes de cada ataque rolado, pode
+escolher Defesa estática ou Bloquear. Bloquear não
+gasta Reação e não substitui um TR. Na
+comparação numérica isolada, foi escolhida Defesa
+estática; a ficha de mesa conserva as duas opções.
+Energia e respostas
+Canalizar Energia: os ataques físicos compatíveis
+acrescentam 2d4, sem ação ou PE. Os dados já
+constam abaixo. Não dobram no crítico e não
+entram nos feitiços.
+Cobrir-se de Energia: depois de determinar o dano
+de um golpe contra si, antes de descontá-lo, paga
+Reação e 2 PE para reduzir 6. O Traje conserva sua
+proteção; a proteção passiva de energia não se soma
+a ele. Sem Reação ou sem 2 PE, essa redução fica
+indisponível.
+Kokusen: num crítico corpo a corpo com arma ou
+desarmado, role d100; o limite inicial é 8, por
+Refino 4. Cada teste de Kokusen fracassado
+acrescenta +2 até o descanso longo. Se ocorrer,
+acrescente 50% ao dano final após as defesas, para
+cima. As fichas começam sem bônus acumulado.
+Feitiços não recebem Kokusen. A comparação
+numérica não inclui essa ocorrência; durante a
+sessão ela continua válida.
+Leitura de Reservas consulta os PE efetivos. Não
+transforme os resumos de usos em cargas
+separadas. Vigia, por exemplo, tem energia para
+sete Cobrir-se somente se não gastar PE de outra
+forma e tiver sete oportunidades com Reação
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+154

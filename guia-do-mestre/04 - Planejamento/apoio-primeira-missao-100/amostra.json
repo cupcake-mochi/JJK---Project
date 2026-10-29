@@ -1,0 +1,67 @@
+{
+  "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+  "fonte_sha256": "88beaf314efa29d0017452a8857441ce6ac5115066ef535e8f5a9e6daf9f3112",
+  "base": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "base_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas_de_regras": [
+    {
+      "titulo": "Primeira sessão",
+      "ancora": "primeira-sess-o"
+    },
+    {
+      "titulo": "Mundo jujutsu",
+      "ancora": "mundo-jujutsu"
+    },
+    {
+      "titulo": "Turnos",
+      "ancora": "turnos"
+    },
+    {
+      "titulo": "Ataques",
+      "ancora": "ataques"
+    },
+    {
+      "titulo": "Estudar",
+      "ancora": "estudar"
+    },
+    {
+      "titulo": "Vida a zero",
+      "ancora": "vida-a-zero"
+    },
+    {
+      "titulo": "Janela de socorro",
+      "ancora": "janela-de-socorro"
+    },
+    {
+      "titulo": "Aguentar",
+      "ancora": "aguentar"
+    },
+    {
+      "titulo": "Insistir",
+      "ancora": "insistir"
+    },
+    {
+      "titulo": "Socorro",
+      "ancora": "socorro"
+    },
+    {
+      "titulo": "Sequelas e Cicatrizes",
+      "ancora": "sequelas-e-cicatrizes"
+    },
+    {
+      "titulo": "Derrota e morte",
+      "ancora": "derrota-e-morte"
+    },
+    {
+      "titulo": "Dano na alma",
+      "ancora": "dano-na-alma"
+    },
+    {
+      "titulo": "Estágios de Integridade",
+      "ancora": "est-gios-de-integridade"
+    }
+  ],
+  "pdf": "04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf",
+  "pdf_sha256": "58850d83c61631e42872a5a16ac94725d6774e055ba4e7307a8db09f89c07355",
+  "limite": "Amostra isolada; não altera o PDF integrado de 357 páginas."
+}

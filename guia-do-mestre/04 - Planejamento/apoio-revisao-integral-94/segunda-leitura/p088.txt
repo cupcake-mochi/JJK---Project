@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+padrão pode ficar repetitivo. A comparação
+completa define início, prazo, interrupção e preço
+experimental; este parágrafo não substitui aquela
+ficha.
+O Livro de Regras 1.0 já oferece a Restrição
+Carregar, com regras próprias: paga os PE ao
+iniciar e pode perder a carga ao falhar no TR
+Espírito exigido pelo dano recebido. Esse é um
+caminho publicado para preparação. O ensaio
+acima compara outra forma de interrupção; não
+altera Carregar nem concede sua devolução de
+pontos.
+Atacar ou se proteger
+Em outra variante experimental, o Amontoado
+pode gastar três PE no Impacto ou dois PE e sua
+Reação numa proteção própria que reduz quatro de
+dano de um ataque. Essa proteção é uma proposta
+para comparação; não foi acrescentada à ficha
+original.
+Depois de um Impacto, restam três PE. Um ataque
+causaria seis de dano. Se ainda tiver cinco pontos
+de vida, usar a proteção faz receber dois e continuar
+com três de vida. Sobrou um PE, insuficiente para
+outro Impacto. Guardar a reserva faria chegar a
+zero de vida e ficar derrotado.
+Se estivesse com vinte pontos de vida, a mesma
+decisão teria outro peso. Proteger-se preservaria
+quatro pontos, enquanto guardar os PE conservaria
+o próximo Impacto. O objetivo e as ameaças
+seguintes ajudariam a escolher. A reserva importa
+agora, sem depender de outra missão.
+Usos compartilhados também podem criar essa
+escolha: duas ativações, cada uma gasta em ataque
+ou proteção, já obrigam a escolher. Os PE
+permitem cobrar preços diferentes. Com seis PE,
+cabem três proteções de dois; com duas ativações,
+cabem duas. Não são resultados equivalentes,
+embora ambos ofereçam decisões.
+Não acrescente uma defesa a toda criatura apenas
+para justificar PE. Primeiro confira se a capacidade
+combina com a ameaça e se sua presença melhora o
+confronto.
+Perceber energia e pagar custos
+O que uma criatura possui de energia e o que cada
+capacidade cobra são informações relacionadas,
+mas diferentes. Uma habilidade sem gasto não
+precisa apagar a energia da criatura, nem se tornar
+automaticamente um feitiço.
+Quando Leitura de Reservas se aplicar, respeite seu
+resultado publicado: saldo e máximo reais, pelos
+requisitos da capacidade. Não invente os números
+ao ser questionado. O saldo também não revela por
+si só todos os custos, uma recarga ou a intenção do
+inimigo.
+Conserve a classificação das capacidades. No Livro
+de Regras 1.0, o estágio 2 de Integridade aumenta o
+preço de cada feitiço em um PE por Classe. Isso
+não cria o mesmo acréscimo para toda manobra ou
+aptidão. No Impacto original, de Classe 1, o preço
+sobe de três para quatro. Se já tiver gasto três dos
+seis PE, os três restantes não pagam outro.
+Por isso, o resumo “normalmente dois Impactos”
+ajuda a consulta, mas não substitui o saldo em
+qualquer situação. Recuperação, alteração de
+energia ou custo podem mudar a quantidade. Se
+criar uma habilidade própria sem gasto ou alterar
+um feitiço para usar recarga, registre a mudança e
+confira suas interações. Trocar apenas o nome não
+resolve essa etapa.
+Confira como o inimigo luta
+Antes de levar a ameaça à mesa, descreva uma
+sequência curta e uma prolongada. Observe o
+primeiro golpe, a repetição, o esgotamento ou
+retorno e a resposta possível do grupo. Faça
+também um caso em que o inimigo precise se
+proteger, não encontre alvo ou seja interrompido.
+Se a mesma ação for escolhida sempre, decida se
+essa simplicidade serve à criatura. Se não servir,
+altere a situação ou o repertório. Não imponha ao
+mestre que escolha uma ação pior apenas para
+fingir que o recurso oferece decisões.
+Na retirada, conserve recursos, condições e
+preparos conforme seus prazos. Uma nova
+descrição de cena não restaura a ficha. Avalie o
+encontro inteiro: inimigos que continuam
+pressionando, personagens que ainda precisam de
+socorro e objetivos não resolvidos podem manter a
+situação em andamento depois da queda de uma
+criatura.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+88

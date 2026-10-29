@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+Demora ou abandono: continuam os ruídos e a
+movimentação de caixas, com danos aos materiais
+guardados. O centro suspende suas atividades no
+anexo e procura outra ajuda. Não há contagem
+oculta de rodadas, funcionário acrescentado
+retroativamente ou morte inevitável esperando uma
+rolagem. Se o mestre desenvolver uma escalada
+diferente para outra versão, deve preparar seus
+sinais e consequências antes de usá-la.
+As regras atuais de derrota fazem parte dessa
+avaliação. Ao escolher Insistir, um personagem
+jogador a zero de vida pode conservar as ações e os
+recursos disponíveis, sujeito à janela de socorro. O
+tempo, o dano posterior e as Sequelas interferem
+nessa janela. O tratamento pode encerrar
+Morrendo; depois de Derrotado, a cura comum não
+devolve participação naquela cena. Um inimigo, em
+regra, é derrotado a zero de vida ou de Integridade.
+Aplicar a mesma expectativa de permanência aos
+dois lados distorceria o exemplo.
+Por isso, acompanhe separadamente quando
+alguém chega a zero, quais ações ainda consegue
+realizar, o socorro necessário e quando o objetivo
+do encontro termina. A duração resultante
+dependerá das fichas e das escolhas. O roteiro a
+seguir tem resultados escolhidos para explicar as
+regras; não prevê as rolagens da mesa nem exige
+que a situação dure três rodadas.
+Acompanhar um confronto com
+socorro
+O grupo decide intervir. Para esta demonstração, a
+personagem da frente já entrou no depósito e está a
+1,5 m da maldição; o apoio e a conjuradora estão
+próximos da porta, a até 6 m dela e com linha de
+visão. O Amontoado tem 48 PV, 24 de Integridade,
+Defesa 11 e 6 PE. Todos os ataques deste roteiro
+causam dano à vida, sem Alma.
+Usaremos três referências parciais de cálculo,
+descritas na verificação. Elas não são personagens
+prontos completos: na mesa, use as fichas
+conferidas dos jogadores.
+Referência
+Recursos iniciais
+Capacidades usadas
+Frente, valores de Bastião nível 2
+23 PV, 8 PE, Defesa 13, sem
+Sequelas
+Ataque +4; Toque de Classe 1, 3 PE, 3d8 de
+Concussão; espada longa +4, 1d8 + 3 + 1d4
+de Canalizar
+Apoio, valores de Guia nível 2
+17 PV, 10 PE, Defesa 13
+Cura de Classe 1, 3 PE, 2d8, alcance 9 m
+Conjuradora, valores de
+Emanador nível 2
+14 PV, 12 PE, Defesa 13
+Ataque +4; Projétil de Classe 1, 3 PE, 3d8
+de Concussão, alcance 18 m
+As aplicações têm seus requisitos cumpridos. O
+Toque da frente usa uma mão livre e um Selo
+verbal; a espada fica na outra. O apoio e a
+conjuradora também cumprem seus Selos antes de
+aplicar as fichas. O resultado da cura é automático
+sobre a aliada disposta; os dados determinam sua
+quantidade. Não se soma atributo aos d8. As
+referências têm Refino 1 e Canalizar Energia:
+podem ferir maldições com golpes mundanos ou
+desarmados, acrescentando 1d4 nos ataques físicos,
+sem dobrá-lo no crítico nem somá-lo aos feitiços.
+As habilidades adicionais de Origem, Caminho e
+Trilha não são usadas nesta demonstração restrita.
+Iniciativa: Amontoado 19 + 1 = 20; frente 15 + 2 = 17;
+apoio 12 + 2 = 14; conjuradora 8 + 2 = 10. Essa ordem
+permanece. A Reação se renova no começo do turno
+de cada participante.
+Primeira rodada
+O Amontoado encosta as palmas e usa Impacto
+concentrado por 3 PE. O ataque mostra 20 natural:
+acerto crítico. Seus 3d8 viram 6d8, com resultados
+5, 4, 3, 4, 3 e 5: 24 de dano. A personagem da frente
+tinha 23 PV e chega a zero. O excesso de 1 não
+consome outra rodada da janela.
+Frente: “Vou Insistir. Quero abrir espaço para
+terminarmos isso.”
+Mestre: “Você continua consciente, com os
+recursos e ações que ainda tiver. Sem Sequelas
+anteriores, sua janela é de três rodadas. Marco este
+ponto da iniciativa. Para encerrar a queda, precisa
+acumular 8 de tratamento: um terço de 23, para
+cima.”
+No turno da frente, ela gasta 3 PE no Toque.
+Ataque 12 + 4 = 16, contra Defesa 11. Os d8
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+344

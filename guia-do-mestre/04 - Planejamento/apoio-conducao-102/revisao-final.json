@@ -1,0 +1,81 @@
+{
+  "registro": 102,
+  "pdf_sha256": "e5c833907320f5ddd3b14e54dc086330b1243873920cf87a0fdc18823b40e870",
+  "fonte_sha256": "3b8d0dc3797d63d884fd283a6db2cd21268304a788803bd43db54e65f82d2c74",
+  "leitura_textual_1": {
+    "estado": "concluída",
+    "escopo": "Oito seções completas; fatos, conselhos, exemplos e regras",
+    "achados_tratados": [
+      "Identificação explícita de Morrendo ao chegar a zero",
+      "Aguentar não permite voltar para Insistir naquela queda",
+      "Falha em Estabilizar gasta a ação e permite nova tentativa enquanto houver prazo",
+      "PE explicado como energia ou esforço conforme a ficha",
+      "Termo NPC substituído por expressão clara"
+    ]
+  },
+  "leitura_textual_2": {
+    "estado": "concluída",
+    "escopo": "Releitura das provas e dos cortes, incluindo critérios de teste, fonte da informação e estado das fichas",
+    "palavras_iniciais_markdown": 4060,
+    "palavras_finais_markdown": 3749,
+    "observacao": "As reduções removeram repetições; não reduziram fonte, margens ou regras de queda."
+  },
+  "paginas_inspecionadas": [
+    {
+      "pagina": 1,
+      "arquivo": "visual-final/p-1.png",
+      "sha256": "22222c7805c8f6ffd3d4efc233a7c9b9fd9824dbe249772763efe918b0ceb740",
+      "estado": "inspecionada",
+      "observacao": "Abertura, descrição e testes com hierarquia visível; tabela fixa inteira e sem colisões."
+    },
+    {
+      "pagina": 2,
+      "arquivo": "visual-final/p-2.png",
+      "sha256": "3672fbecc580099cf07d9bd170c64b5a41d25307491e71142b743eb4621bee72",
+      "estado": "inspecionada",
+      "observacao": "Ajuda, trabalho em grupo, diálogo e comentário distintos; falas individuais inteiras."
+    },
+    {
+      "pagina": 3,
+      "arquivo": "visual-final/p-3.png",
+      "sha256": "5e1788e0c4ece263bf157d8b8f510f667deb148c67c16577650b3db0e6459640",
+      "estado": "inspecionada",
+      "observacao": "Investigação e improvisação; quadro de recapitulação inteiro, colunas e links legíveis."
+    },
+    {
+      "pagina": 4,
+      "arquivo": "visual-final/p-4.png",
+      "sha256": "d255da52eea8361d4a7a957db63cbd1b571499c6338605d7bb88631f6101bbf2",
+      "estado": "inspecionada",
+      "observacao": "Participação, ritmo e passagem ao combate; início da iniciativa ligado ao texto."
+    },
+    {
+      "pagina": 5,
+      "arquivo": "visual-final/p-5.png",
+      "sha256": "e19e04d31dbe087def6baaf76fb850f12ce2b038ac481f81e6f02268877504d3",
+      "estado": "inspecionada",
+      "observacao": "Queda em cinco passos, tabela de escolhas, janela e atendimento; tabela inteira, exemplo sem corte."
+    },
+    {
+      "pagina": 6,
+      "arquivo": "visual-final/p-6.png",
+      "sha256": "d1457d3d1d45fcfb594d7b6c1fe41b71ac604f04d7459bb1a2e6e3cf794ed3ef",
+      "estado": "inspecionada",
+      "observacao": "Derrota, retirada e encerramento; resumo cabe no capítulo, sem página final isolada."
+    }
+  ],
+  "historico_visual": [
+    "Provas iniciais com sete páginas, incluindo uma página final quase vazia",
+    "Distinção entre parágrafo que começa com destaque e destaque no meio de um parágrafo, para evitar blocos desnecessariamente inteiros",
+    "Cortes de repetição e conservação de falas, comentários e tabelas; final com seis páginas",
+    "Todas as seis páginas da versão final examinadas, após a última alteração do texto"
+  ],
+  "problemas_visuais_conhecidos_pendentes": [],
+  "limites": [
+    "Sem leitura externa observada",
+    "Sem sessão de jogadores",
+    "Sem certificação de equilíbrio",
+    "Etapa 3 ainda em andamento",
+    "Edição de 357 páginas ainda não substituída"
+  ]
+}

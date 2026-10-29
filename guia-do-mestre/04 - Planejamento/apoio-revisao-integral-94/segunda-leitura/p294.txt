@@ -1,0 +1,81 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Agulha precisa continua conhecida em Classe 3,
+podendo ser ampliada para Classe 4: orçamento 9;
+Precisão Leve 2 menos desconto Livre 2, com preço
+mínimo 1. Resultado 8d8, ataque +7, 18 m e 12 PE;
+crítico 16d8. Não ganha área, Fura ou outra peça. A
+versão de Classe 3 continua 5d8 por 9 PE.
+A entrada normal agora custa 4 PE. Uma carga
+preparada nessa Classe adianta 2 PE e deixa 2 para
+a entrada comum. Para esta comparação, considere
+o talismã sem carga antes de preparar o novo
+adiantamento; não estamos convertendo uma carga
+antiga por suposição.
+Transferir sem fabricar outra
+criatura
+Este é um exemplo alternativo no nível 9, antes da
+evolução acima. Kaito consente em transferir o
+Vigia a Mei, também nível 9 e Classe 3. Rina
+conduz quatro horas de trabalho fora de combate,
+com ¥2.000 de consumíveis por tentativa. O estado
+inicial é 40/56 PV, 28/28 Integridade, uma carga no
+talismã e nenhuma condição persistente. Esta
+ficha não tem uso por descanso a renovar.
+A CD é 12 pela diferença entre Classes 4 e 3, sem
+desconto adicional de reconstrução. Rina tira 2 + 6 =
+8, falha: Kaito conserva o vínculo. Após duas horas
+de retrabalho e mais ¥2.000, dados 4 e 9 com
+vantagem dão 15: sucesso. Total: seis horas e
+¥4.000.
+Mei escolheu Essência para a Defesa das suas
+entidades e tem Essência 2, Maestria 1. O Vigia
+conserva nível, ficha, 40/56 PV, 28/28 Integridade e
+a carga. Sua Defesa passa a 10 + 2 + 1 = 13 e
+Bloquear a 2d10 + 2. Ataque, CD e perícias não
+mudam neste exemplo porque a Maestria é a
+mesma. Posse e vínculo mudaram; não surgiu uma
+criatura com vida cheia.
+A herança segue suas próprias regras após a morte
+confirmada. A morte substitui o consentimento do
+dono anterior nessa via, sem dispensar requisitos,
+trabalho e teste. Não use essas regras se Kaito
+estiver apenas inconsciente.
+Se fosse um corpo de criação
+O projeto teria de identificar peças, corpo, alma e
+anatomia compatíveis. Caligrafia e o orçamento do
+talismã não viram automaticamente o Ofício e o
+preço de fabricar um corpo.
+Com os mesmos atributos e nível 9, um corpo
+amaldiçoado de criação teria 5 + 3 + (4 + 3) × 8 = 64
+PV, Integridade 32 se tiver alma. No nível 13, com
+Constituição 4, seriam 9 + 8 × 12 = 105 PV,
+Integridade 52. Essa fórmula adicional pertence ao
+corpo de criação, não ao shikigami do projeto nem
+a todo corpo de técnica.
+O corpo fica inativo no local ao ser concluído.
+Ativar custa Bônus e entrada no próprio lugar; não
+o teletransporta. Ele ocupa o limite de corpos
+mantidos: com Essência 4 escolhida para Defesa e
+capacidade de duas entidades ativas, Kaito mantém
+até seis corpos. Atingir o limite não aumenta a
+capacidade de atuação. O corpo não usa talismã de
+0,5 Volume nem sua carga; transporte precisa
+respeitar sua presença física.
+Conferência para a próxima mesa
+Mantenha juntos a ficha, o orçamento, os
+resultados e o estado atual. Diferencie criação,
+evolução, reconstrução, recuperação e
+transferência. Na guilda, registre o tempo de cada
+ficha envolvida; em campanha fechada, distribua o
+trabalho pelo tempo disponível na história. A
+mudança de sessão não conclui um projeto nem
+repõe recursos.
+Livro de Regras 1.0 para consulta: construção,
+talentos, criação e transferência, talismãs e corpos.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+294

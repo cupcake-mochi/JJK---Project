@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Quando ocorrer, acrescente 50% ao dano final já
+resolvido com as defesas, arredondando para cima.
+Os feitiços não o acionam. Ambos começam com
+bônus acumulado zero.
+Essas capacidades seguem o Livro de Regras 1.0.
+Não existem usos de cura ou energia recuperados
+automaticamente porque um aliado caiu. Leitura de
+Reservas, quando aplicada validamente, revela os
+valores efetivos de PE; registre os gastos.
+Ren
+Ren procura manter um adversário perto de sua
+lâmina e ficar entre Sora e a ameaça mais próxima.
+Sua presença deve tornar custoso ignorá-lo; ele não
+recebe um ataque gratuito sempre que alguém
+conjura perto.
+Espada Longa
+Atacar, um golpe a 1,5 m, +5. Dano 1d8 + 4 + 1d4
+de Cortante; crítico 2d8 + 4 + 1d4, antes do possível
+Kokusen. Usa a espada em uma mão, com treino. A
+propriedade Rompe segue suas regras quando
+aplicável; não conceda dano extra contra pessoas
+por ela. O exemplo não muda para a empunhadura
+de duas mãos.
+Pode substituir seu único ataque por Agarrar,
+Empurrar ou Derrubar, com os requisitos comuns e
+TR Físico CD 13. Agarrar exige mão livre. A
+manobra substitui o dano. Uma oportunidade
+comum usa um ataque físico, não a manobra ou o
+feitiço.
+Fenda em marcha
+Sua técnica produz impulsos de pressão a partir de
+seus movimentos. Usa Força, Alcance Livre e Mira
+Livre; Amparo, Castigo e Marca estão fechados. O
+Selo desta aplicação é pronunciar uma palavra curta
+e audível. Estar Calado impede cumpri-lo; segurar a
+espada não o impede.
+Classe 1, Padrão, 3 PE. Projétil a 18 m, ataque +5,
+2d8 de Concussão; crítico 4d8. Orçamento: três
+pontos, menos um de Passo, deixando dois dados.
+Sem Restrições. Canalizar não acrescenta dados a
+essa conjuração.
+Antes ou depois de resolver a aplicação, Ren pode
+usar Passo para andar até 6 m, sem oportunidade.
+Esse movimento continua possível se o ataque
+errar, pois não depende de acerto. Não atravessa
+paredes ou pessoas, não transporta Sora e não
+remove Agarrado. O movimento comum do turno
+continua disponível, com seus próprios riscos de
+oportunidade.
+Esta ficha usa a aplicação em Classe 1. Não
+apresenta uma versão ampliada pronta; prepará-la
+exigiria registrar sua nova conta antes da sessão. A
+Classe máxima 2 conserva seus efeitos nas demais
+regras que a citam.
+Prioridades e escolhas
+Quando consegue golpear um alvo útil sem se expor
+desnecessariamente, prefere a espada. Usa Fenda
+em marcha para mudar de posição sem
+oportunidades, cobrir uma retirada ou alcançar
+uma ameaça fora de sua lâmina. Não soma os dois
+ataques na mesma Padrão.
+Com 8 PE, pode pagar duas Fendas e um Cobrir-se,
+ou uma Fenda e dois Cobrir-se, restando 1 PE. São
+alternativas de gasto, não reservas separadas. Após
+duas reduções e uma Fenda, não consegue pagar
+outra dessas capacidades. A espada e as ações
+comuns continuam disponíveis.
+Se Sora cair ou a dupla perder o estojo, Ren tenta se
+afastar e negociar ou fugir. Se precisar usar
+Desengajar, paga a Padrão e abre mão da ofensiva.
+Não recebe imunidade a ataques depois de cruzar
+uma porta.
+Sora
+Sora mantém o estojo na mão esquerda e conjura
+com uma palavra audível e um gesto da mão direita.
+Esses sinais são seu Selo, sem desconto de
+Restrição. Impedir o gesto da mão livre, impedir a
+fala ou bloquear o alcance pode afetar a conjuração
+conforme o impedimento real. Agarrá-la não ocupa
+automaticamente suas duas mãos nem a silencia.
+Sua técnica usa fios de energia para sustentar a
+postura e recompor tecido vivo. O atributo é
+Essência, com Amparo Livre e Auxiliares Livre;
+Castigo, Controle e Marca estão fechados. Seus
+benefícios são compatíveis com Ren e com ela
+mesma. Ela não possui uma versão ofensiva desses
+feitiços nesta ficha.
+Fio de impulso
+Classe 1, Padrão, 3 PE. Benefício individual
+automático para um aliado disposto, visível, a até 9
+m, inclusive a própria Sora. Concede:
+• Impulso: vantagem no próximo ataque do
+beneficiário até o fim do próximo turno dele.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+148

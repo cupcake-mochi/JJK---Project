@@ -1,0 +1,103 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Para um teste, consulte o bônus e a dificuldade
+indicados pela regra. A Classe de Dificuldade (CD)
+é o valor a alcançar: role um d20 e some o bônus;
+igualar ou superar a CD é sucesso. Ataques e Testes
+de Resistência têm suas regras próprias. A seção
+Testes do Livro de Regras 1.0 explica como escolher
+a dificuldade quando a tarefa não fornece uma.
+Exemplo de conta: numa tarefa de CD 14, um
+personagem com bônus +4 tira 10: 10 + 4 = 14, um
+sucesso. Essa conta ilustra a resolução; não
+estabelece CD 14 para as investigações do anexo.
+Antes da tentativa, informe os custos e
+consequências que o personagem pode prever. Ele
+pode saber que precisa se expor para observar a
+sala, sem conhecer todos os poderes de quem está
+lá. Assim, o jogador escolhe sabendo o que seu
+personagem sabe, sem receber informações que
+ainda não poderia ter.
+Depois da rolagem, aplique a consequência
+prevista. Quando a regra deixar margem, você pode
+interpretar como uma falha muda a situação. Se ela
+já disser o que acontece, preserve esse resultado.
+Exemplo de limite: em combate, Estudar custa uma
+Ação Padrão e busca responder uma pergunta
+concreta sobre algo observável. Na falha, a ação foi
+gasta e a observação não respondeu com segurança.
+Repetir a mesma pergunta sem nova pista ou
+mudança de abordagem não permite outra
+tentativa. Esse limite pertence a Estudar; confira as
+regras de outras tarefas antes de aplicar o mesmo
+limite.
+Sucesso com custo e testes em grupo
+Quando a regra permitir, você pode oferecer
+sucesso com custo ou complicação. Apresente uma
+consequência coerente e preserve resultados que a
+regra já determina. O caso do arquivo (p. 46) mostra
+uma investigação concluída com atraso, a opção de
+recusar esse custo e um resultado que não pode ser
+substituído dessa forma.
+Se uma pessoa conduz a tarefa e outra contribui,
+confira Ajudar. Se todos precisam superar uma
+tarefa juntos, cada participante faz o teste e pelo
+menos metade precisa passar: duas pessoas em
+quatro, três em cinco. Ocultação durante combate é
+individual. Os casos de ajuda e travessia (p. 46)
+comparam essas regras sem somar os bônus dos
+participantes.
+Quando o grupo surpreende você
+Use os fatos preparados para avaliar uma proposta
+nova. Primeiro confira se ela é possível com os
+meios presentes. Depois procure a regra que resolve
+seu efeito. Se faltar um detalhe comum, complete-o
+de maneira coerente e anote quando ele importar
+para a continuidade.
+Jogador: “Quero jogar mais papel para longe da
+pilha. Talvez ela vá atrás.”
+Mestre: “Você quer tirá-la do caminho ou descobrir
+como reage ao papel? De onde pretende fazer isso?”
+A resposta permite conferir distância, posição e o
+objeto usado. A criatura foi preparada para
+proteger a pilha; não foi definida como alguém que
+persegue qualquer papel. A proposta pode ser
+tentada pelas regras adequadas, mas não ganha um
+efeito automático de controle. Se a jogada depender
+de uma manobra ou capacidade, consulte seus
+limites antes de resolver.
+Uma ideia também pode funcionar diretamente. Se
+Ana tem a planta e aceita mostrá-la, o grupo
+descobre o acesso de serviço. Você não precisa
+esconder a planta ou trancar a entrada para
+preservar o percurso que imaginou.
+Quando faltar uma regra para o efeito desejado,
+trate a dúvida com a mesa. Distinguir o detalhe que
+você pode completar de um benefício que precisa
+de regra evita transformar improvisação em uma
+capacidade nova permanente.
+Interprete as outras pessoas
+Consulte o desejo, o conhecimento e os limites de
+cada pessoa. Você pode falar como ela ou resumir a
+conversa. A voz escolhida não muda o que ela sabe.
+Fala direta: “Eu ouvi as batidas. Foi o Davi que
+chegou até a porta. Posso chamar ele.”
+Resumo: Ana explica que só ouviu os ruídos e
+chama Davi para contar o que viu.
+Use a fala direta quando o grupo quiser explorar a
+relação. Use o resumo para transmitir informação
+conhecida ou passar por uma conversa rotineira.
+Pergunte pelo conteúdo de um pedido quando ele
+importar; o jogador não precisa fazer uma atuação
+teatral para explicar o que seu personagem tenta.
+Se houver resistência, considere seu motivo. Davi
+pode descrever o caminho sem aceitar voltar ao
+depósito. A ajuda que ele oferece não implica
+concordância com qualquer pedido. Uma hipótese
+dos jogadores também não se torna o testemunho
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+44

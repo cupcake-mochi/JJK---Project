@@ -1,0 +1,89 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Ação do grupo
+Informação disponível
+Ouvir os trabalhadores, antes de
+entrar
+A criatura tenta levar quem mexe na caixa para o recuo; os
+trabalhadores que largaram o serviço conseguiram sair. É relato de
+comportamento passado, sem garantia de próximo turno.
+Observar o piso e o recuo
+Marcas de arrasto chegam a uma área aberta. Não há cela, alçapão ou
+amarra esperando lá.
+Estudar os gestos e a disposição dos
+objetos
+Se ainda houver dúvida, Intuição CD 10, escolha local da escala do
+Livro de Regras 1.0, identifica a preocupação com a caixa no banco.
+Em combate, Padrão. Falha gasta a ação e não autoriza novas
+tentativas idênticas sem outra pista.
+Examinar sua energia
+Estudar com Sentir Energia, quando acessível, pode responder sobre o
+sinal percebido; use CD 10 para o exame simples desta ocorrência.
+Não fornece toda a ficha ou intenção futura.
+Aplicar Leitura de Reservas num
+exame válido
+Informa 0/0 PE, conforme a capacidade. A criatura ainda tem energia
+perceptível e pode fazer manobras; zero reserva gastável não significa
+ausência de energia amaldiçoada.
+As duas CDs são escolhas deste cenário, não uma
+resistência universal das maldições. Use resultados
+já garantidos por uma capacidade sem exigir o teste
+adicional desta tabela.
+Uma proposta concreta de retirada pode resolver a
+ocorrência por conversa. Por exemplo, o grupo se
+oferece para mostrar os registros aos responsáveis
+ali mesmo e devolvê-los ao banco. O Carregador
+pode aceitar algo que preserve sua intenção, se
+compreender a proposta. Se o resultado continuar
+incerto, use Influenciar com Persuasão, Padrão em
+combate, CD 14 como dificuldade local anunciada;
+sucesso obtém a permissão específica negociada,
+falha mantém a recusa. Não cria obediência geral.
+Uma proposta que exija entregar tudo e abandonar
+o local não se torna possível por um número alto.
+Examinar os registros no lugar é progresso, mas
+não cumpre sozinho o objetivo de retirar a caixa;
+registre a diferença com o contratante.
+Agarrar e transportar, passo a
+passo
+O Carregador é Médio, tem Força 3, Maestria 1 e
+um ataque. Com mão livre, usa Atacar e substitui
+esse ataque por Agarrar: alvo alcançável a até 1,5 m
+e no máximo Grande; TR Físico CD 12. Igualar
+evita. Falhar aplica Agarrado e ocupa a mão do
+Carregador. Não há rolagem de ataque, dano,
+crítico, PE ou recarga.
+Agarrado tem deslocamento zero, mas continua
+podendo atacar, conjurar e Bloquear conforme os
+requisitos. Não foi amarrado, silenciado ou
+impedido de usar as mãos. A fuga comum é Padrão
+e TR Físico CD 12; só depois do sucesso pode usar
+o movimento que ainda tiver. Ajudar não concede
+vantagem a esse TR por padrão.
+Para arrastar, use 5 + Força = 8 Volume de limite
+normal e 16 Volume como teto de arrasto,
+descontando o equipamento que o Carregador leve.
+Nesta ficha inicial ele não leva equipamento: os
+sinos integram o corpo. Some o corpo da vítima, em
+kg ÷ 12, aos itens dela. Exemplo de inventário:
+corpo de 72 kg e itens de 2 Volume somam 8;
+podem ser arrastados. Total 16 ainda cabe; 16,1 não
+cabe, sem arredondar. A contenção pode
+permanecer mesmo quando o transporte é
+impossível.
+O arrasto cobra seus metros próprios; o fato de
+superar 8 não acrescenta outra metade de
+deslocamento apenas pelo corpo arrastado. Se ele
+erguer a vítima para carregá-la, mudam as regras:
+acima de 8 e até 16, aplicam-se deslocamento pela
+metade e desvantagem em TR Físico. A anatomia, o
+apoio e a manutenção da contenção continuam
+necessários. O comportamento preparado usa
+arrasto pelo piso, sem converter a descrição em
+carregamento mais eficiente.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+114

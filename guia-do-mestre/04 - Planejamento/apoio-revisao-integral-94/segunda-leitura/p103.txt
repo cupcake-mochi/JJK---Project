@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+existir, mas esse funcionamento deve fazer parte da
+regra e dos sinais.
+Mudanças durante a luta
+Uma fase do confronto é uma situação
+reconhecível que muda as escolhas disponíveis. Ela
+pode resultar da conduta do inimigo, do ambiente
+ou de uma capacidade específica. Não se confunde
+com os estágios de Integridade, que aplicam as
+penalidades do Livro de Regras 1.0.
+Mudança
+Exemplo
+Resultado que precisa de regra própria
+Comportamento
+Ferido, o Carregador abandona a
+caixa e tenta fugir.
+Movimento imediato ou fuga garantida.
+Ambiente
+O portão fecha e a rota de saída fica
+maior.
+Novos ataques ou recuperação da
+criatura.
+Capacidade ou corpo
+Uma transformação altera como a
+ameaça atua.
+Novas estatísticas, cura, remoção de
+condições ou novas ações.
+Não é necessário usar todas as formas nem fixar
+três fases. A cena pode terminar antes de uma
+mudança ocorrer. Uma solução do grupo pode
+impedir a passagem à situação seguinte.
+Para cada transição, escreva o que a dispara,
+quando ocorre e o que permanece. Vida,
+Integridade, pontos de energia, condições,
+concentração, usos gastos e efeitos em andamento
+precisam de continuidade. Uma nova descrição não
+limpa o registro. Trocar de fase dentro da mesma
+luta também não inaugura outra cena nem renova
+recursos limitados por cena.
+Exemplo: o Carregador tem 10 PV e sofre 3 de
+dano, ficando com 7. Isso alcança seu ponto de
+retirada, definido em 8 PV: ele solta quem segura e
+passa a tentar se retirar. O deslocamento depende
+das ações disponíveis; não acontece gratuitamente
+na transição. Se o mesmo ataque o levar a zero de
+vida, resolva sua derrota. Esse ponto de retirada não
+cria uma segunda vida.
+Se quiser escrever uma transformação que interfira
+na derrota, será necessário definir expressamente
+essa exceção: gatilho, reservas, destino de dano
+excedente, condições, usos e possibilidade de
+impedir a transformação. Até essa regra estar
+completa, aplique a derrota normal. Uma segunda
+barra desenhada na ficha não resolve essas
+perguntas.
+Controle, partes e aliados
+Confira o que as condições realmente impedem.
+Agarrado reduz o deslocamento a zero, mas não
+proíbe toda ação. Derrubar não encerra um agarrão
+automaticamente. Uma ameaça controlada pode
+continuar perigosa dentro de seus limites; se a
+condição impediu justamente sua principal
+atuação, esse é um resultado da escolha dos
+jogadores.
+Uma resistência própria pode fazer parte de um
+futuro chefe, com justificativa, limites e avaliação.
+Não a acrescente durante a luta porque o grupo
+encontrou uma solução. Se outro inimigo for
+ajudar, use suas ações e as regras correspondentes;
+sua presença aumenta a oposição e precisa entrar
+na comparação desde o preparo.
+Ao oferecer partes atacáveis, indique se são
+criaturas, objetos separados ou alvos de uma regra
+específica. Defina o que cada parte perde a zero, se
+compartilha dano com o corpo e como Alma,
+efeitos em área e aquisição interagem com ela. Um
+sino preso ao Carregador não ganha vida própria
+nem vulnerabilidade destacada só porque foi
+descrito. O comando do portão, por sua vez, já tem
+uma regra de objeto separada no exemplo do portão
+(p. 130).
+Com vários inimigos, deixe visíveis suas funções e
+registros individuais. Um líder e seus apoios podem
+criar decisões de alvo sem que todos tenham várias
+capacidades reativas. Registre qualquer reforço
+previsto, sua chegada e a possibilidade de impedir
+essa chegada. Não acrescente uma nova leva para
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+103

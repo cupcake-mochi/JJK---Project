@@ -1,0 +1,71 @@
+{
+  "pdf_sha256": "e5c1fe305bc8bf14c32b696b8e5ce6f51a33ec7d80bd22b7438b6defda724b51",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 617,
+      "topo_corpo": 53.858267,
+      "fim_corpo": 777.108357
+    },
+    {
+      "pagina": 2,
+      "palavras": 688,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 770.608357
+    },
+    {
+      "pagina": 3,
+      "palavras": 602,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 739.058358
+    },
+    {
+      "pagina": 4,
+      "palavras": 559,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 662.108358
+    },
+    {
+      "pagina": 5,
+      "palavras": 614,
+      "topo_corpo": 53.858267,
+      "fim_corpo": 774.708357
+    },
+    {
+      "pagina": 6,
+      "palavras": 658,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 769.408357
+    },
+    {
+      "pagina": 7,
+      "palavras": 644,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 757.408357
+    },
+    {
+      "pagina": 8,
+      "palavras": 588,
+      "topo_corpo": 52.6586,
+      "fim_corpo": 782.858358
+    }
+  ],
+  "links_html_conferidos": 9,
+  "links": [
+    "#capitulo-2",
+    "#capitulo-3",
+    "#folha-despedida",
+    "../apoio-primeira-missao-100/capitulo-1.html",
+    "#capitulo-3",
+    "#capitulo-3",
+    "../apoio-primeira-missao-100/capitulo-1.html",
+    "../../07 - Edicao de Leitura/capitulos/c02.html#s014",
+    "../101-mundo-e-preparacao-de-aventuras.md"
+  ],
+  "palavras_html_conferidas_por_contagem": 4855,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_posicionadas": 4970,
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "limite": "Conferência de presença de texto, links e limites; revisão visual registrada separadamente."
+}

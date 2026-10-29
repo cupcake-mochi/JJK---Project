@@ -1,0 +1,516 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                 PERSONAGENS E TÉCNICAS
+
+
+
+CAPÍTULO 7
+
+
+Personagens e técnicas
+Conferir uma personagem é conhecer o que ela
+                                                        Parte da ficha   O que conferir
+pode fazer, com quais recursos chega à missão e
+que assuntos o jogador quer explorar. Faça essa         Identidade       Motivo para acompanhar o grupo,
+conversa antes do jogo. Ela ajuda a encontrar erros,                     relações e interesses do jogador
+completar escolhas e preparar situações em que o
+                                                        Atributos        Na criação padrão, 9 pontos entre
+personagem possa participar.
+                                                                         cinco atributos, de 0 a 3; fonte dos
+O Livro de Regras 1.0 ensina a criar a ficha. Este                       aumentos posteriores
+capítulo mostra como conferi-la, cuidar das             Origem           Base, uma marcante, duas menores
+particularidades das Origens e avaliar pedidos de                        elegíveis, modalidade ou ramo e
+criação. As regras usadas aqui ficam disponíveis                         escolhas fixas
+para consulta. Os exemplos são originais ou
+                                                        Treinos          Perícias, Ofícios, armas, dois TRs
+retomam aplicações do livro, sem exigir
+                                                                         diferentes e atributo escolhido para
+conhecimento da trama de Jujutsu Kaisen.                                 TR Físico
+
+7.1 Conferir a ficha                                    Caminho e
+                                                        Trilha
+                                                                         Escolhas do nível atual, com os
+                                                                         benefícios da versão efetivamente
+Comece pela proposta da campanha, nível, patente,                        usada
+opções disponíveis e versão das regras. A criação       Capacidades      Aplicações completas, aquisição,
+padrão começa no nível 2, Grau 4; uma campanha                           espaços, requisitos, custos e prazos
+que use nível 1 segue essa opção de criação. Um
+sobrenome importante ou uma presença antiga não         Valores e        Reservas, Defesa, movimento, carga,
+                                                        itens            equipamento, consumíveis e seus
+antecipa benefícios da progressão.
+                                                                         limites
+Pergunte o que o jogador quer fazer. Talvez
+dependa de um equipamento, de um contato ou de         O atributo anotado já é o bônus quando a regra
+um meio de comunicação que ainda precise ser           pede esse atributo. 3 + 2 + 2 + 1 + 1 = 9 é uma
+preparado. Conhecer essa necessidade permite           distribuição válida; não há outra conversão em
+explicar como a personagem entra na missão e           modificadores. Um treino explicado pela história
+quais escolhas estarão disponíveis.                    ocupa uma vaga recebida, sem acrescentar outra.
+
+                                                       Um uso e um limite
+                                                       Peça ao jogador que descreva uma aplicação e uma
+                                                       situação em que ela não funciona. Confiram ação,
+                                                       alvo, alcance, resultado, custo e término. A
+                                                       conversa serve para tornar a ficha utilizável, sem
+                                                       testar memória.
+                                                       Se o poder puxa um objeto, encontrem o alcance e
+                                                       os alvos permitidos. Mover uma criatura resistente
+                                                       pode exigir outra função. Se faltar um campo
+                                                       necessário, completem antes de alguém depender
+                                                       do resultado. Uma capacidade publicada, adquirida
+                                                       e usada conforme sua regra não precisa de nova
+                                                       aprovação a cada uso.
+
+                                                       Corrigir ou escolher algo novo
+                                                       Identifique a causa da diferença. Um número
+                                                       copiado errado pede correção e revisão dos valores
+                                                       que dependem dele. Uma escolha ausente pede a
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                        1
+CICLO MALDITO / GUIA DO MESTRE                                                            PERSONAGENS E TÉCNICAS
+
+
+
+permissão de criação ou atualização pertinente. Um     convivência. O caso de Maia e Taru desenvolve
+benefício novo precisa de aquisição e avaliação; não   modalidades e capacidades sem criar um medidor
+entra na ficha como simples correção.                  obrigatório da relação.
+Quando a dúvida surgir durante a sessão, sigam a
+                                                       O Encarnado e a vida recebida
+orientação de Na mesa de jogo. Registrem a decisão
+e os afetados. Corrigir um campo não restaura          O Encarnado interpreta quem voltou a viver no
+automaticamente recursos ou permite reescrever         corpo de outra pessoa. Combinem a situação dessa
+toda a ficha.                                          vida, os conhecimentos da personagem, quem pode
+                                                       reconhecê-la e quais encontros o jogador deseja
+                                                       explorar. Não presuma a mesma convivência do
+7.2 Personagens e seus cuidados                        Receptáculo para todos os Encarnados.
+Conheça as necessidades junto com as capacidades.
+                                                       Uma antiga colega pode procurar a personagem
+Prepare reparadores, apoio, transporte ou
+                                                       esperando a identidade anterior. O mestre
+comunicação quando a ficha depender deles.
+                                                       apresenta o pedido com base nos fatos combinados;
+Registre o que já foi obtido, para que o jogador não
+                                                       o jogador decide o que conta. Memórias e relações
+precise negociar a mesma necessidade com cada
+                                                       não concedem todos os treinos ou todas as menores
+mestre.
+                                                       da Origem. Uma capacidade como Memória
+                                                       Testemunha conserva seu uso e os limites do que
+A outra voz do Receptáculo
+                                                       poderia ter sido percebido. Vínculos e mudanças
+O Receptáculo interpreta o hospedeiro que divide o     amplia essas situações.
+corpo com outra presença. O caminho
+recomendado é o mestre interpretar a outra voz,        Corpo Amaldiçoado: reparar e descansar
+mediante acordo com o jogador. O jogador
+                                                       O personagem tem consciência, vontades e relações
+conserva as decisões da personagem dentro das
+                                                       próprias. Ninhada e Gêmeos compartilham ficha,
+regras. Interpretar a presença não concede
+                                                       ações, recursos e condições; trocar de voz não
+controle, poderes ou turnos extras.
+                                                       fornece outra tentativa ou reserva. Combinem a
+Se preferirem, o jogador pode interpretar ambas as     interpretação com o jogador, sem aplicar
+vozes, alternar a distribuição por acordo ou resumir   automaticamente a distribuição de vozes do
+a conversa. Combinem quem fala, o que cada             Receptáculo.
+identidade sabe, como a comunicação aparece e
+                                                       Registre o Ofício compatível com a estrutura. Ena
+quem pode percebê-la. Uma conversa interna não
+                                                       tem madeira, metal e pano, mas seu atendimento
+fornece telepatia aos colegas.
+                                                       foi definido com Entalhador porque esse trabalho
+Coexistência comporta opiniões diferentes mesmo        recompõe a estrutura de madeira. Os materiais
+com a presença aceitando o hospedeiro à frente.        precisam servir ao reparo concreto; a mistura de
+Conflito comporta cooperação pontual mesmo             componentes não impõe automaticamente vários
+quando a presença deseja tomar o corpo. Uma            Ofícios.
+discussão, vida baixa ou poucos PE não acionam
+                                                       O reparo durante descanso curto permite uma
+tomada automática. A modalidade e as menores
+                                                       tentativa por corpo, com pessoa treinada e meios
+escolhidas fornecem os efeitos mecânicos.
+                                                       adequados. Pode ser o próprio personagem, se
+Maia, de Coexistência, quer examinar um símbolo.       capaz de trabalhar. Compare as Classes máximas
+Taru lembra algo parecido e sugere comparar o          permitidas pelos níveis de reparador e corpo, não o
+traço central. Se a tarefa exigir Ocultismo e Maia     grau do material ou as capacidades conhecidas. A
+falhar, Conselho Interior, caso escolhido e            regra define CD e fração recuperada.
+disponível, permite repetir e aceitar o segundo
+                                                       No atendimento de Ena, ela tem 41 PV máximos e 9
+resultado. Intuição e Ocultismo compartilham esse
+                                                       atuais. O reparador é da mesma Classe, usa
+uso por cena. Taru não faz um teste independente
+                                                       Inteligência 3 e Maestria 1: CD 12, bônus +4 e
+nem entrega conhecimento infalível depois de
+                                                       recuperação de 20 PV no sucesso. Termina com
+outra falha.
+                                                       29/41. Uma repetição permitida por Manutenção
+Uma conversa também pode terminar com um               Precisa continua dentro desse atendimento; trocar
+pedido aceito, recusado ou adiado. Alterne o foco      o reparador não abre outra tentativa naquele
+com os demais participantes e respeite a urgência      descanso.
+da cena. Guarde o desejo da presença, seus
+conhecimentos e os acordos na ficha de
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  2
+CICLO MALDITO / GUIA DO MESTRE                                                                     PERSONAGENS E TÉCNICAS
+
+
+
+Reparo Autônomo é outra menor, com ação e
+frequência próprias. Reparar uma criatura também
+difere de fabricar um objeto. O descanso conserva
+                                                              7.3 Personalizar escolhas
+seus requisitos, e a zero de vida valem queda e               História, aparência e relações permitem tornar a
+socorro: o personagem não é uma entidade                      personagem própria do jogador. Um Legado de
+Desligada que retorna por um pagamento. Energia               história registra uma ligação ou lembrança, sem
+Reversa e curas derivadas dela não reparam sua                ocupar uma menor ou conceder benefícios
+estrutura. Os meios compatíveis precisam estar                mecânicos por si. A criação de opções funcionais
+disponíveis.                                                  segue a aquisição correspondente.
+
+Restrição corporal: participação e apoio                      Menores e famílias próprias
+Conversem sobre como a personagem acompanha a                 O Livro de Regras 1.0 permite criar menores
+equipe e recebe cuidados. Corpo Debilitado, Corpo             compatíveis com a Origem, usando referências
+Quebradiço e Corpo Exaurido são alternativas                  publicadas. A personalização pode alcançar ambas
+completas; não somem suas penalidades por                     as escolhas. Registrem efeito, ação, frequência,
+analogia. Um abrigo só é propício quando cumpre               limites e escolhas fixas, mantendo uma base, uma
+as necessidades daquele corpo.                                marcante e duas menores elegíveis.
+
+ Corpo               Preparo a conferir com o jogador
+                                                              Para uma família original do Descendente,
+ escolhido                                                    descrevam formação, relações e obrigações.
+                                                              Construam uma base coerente e adotem uma
+ Debilitado          Estrutura protegida, assistência e       modalidade publicada da marcante. O nome da
+                     cobertura opaca de toda a pele que
+                                                              família não reúne benefícios de vários clãs nem
+                     ficaria exposta ao sol ou luar
+                                                              fornece outra marcante. A exceção de criação de
+ Quebradiço          Apoio para o corpo, materiais e          marcante pertence à Restrição corporal, com suas
+                     atendimento compatível; autocuidado      regras específicas.
+                     quando for viável
+                                                              Se a intenção for usar Fundamento Incorporado,
+ Exaurido            Cuidados registrados na ficha, objetos   preserve a declaração antes do dado, a perícia da
+                     acessíveis e ajuda ou transporte         base e o uso diário. Permitir a troca depois de uma
+                     quando o deslocamento chegar a zero
+                                                              falha ou estendê-la a qualquer teste muda a
+                                                              proposta. A família Arata oferece duas menores
+Nilo usa Rede Remota e um intermediário de sua                experimentais para comparação; não as acrescenta
+técnica. O vínculo alcança a missão, mas não                  automaticamente ao catálogo.
+fornece automaticamente visão compartilhada ou
+telepatia. No exemplo, comunicação por                        Acordos de uma capacidade publicada
+equipamento, transporte do intermediário e apoio
+ao corpo real foram preparados antes. Recursos do             Algumas entradas deixam campos para jogador e
+corpo e da entidade ficam separados.                          mestre definirem. Reserva Condensada é uma
+                                                              menor específica da Restrição corporal, escolhida
+Uma especial de 18 m continua medindo 18 m a                  pela ficha. Confira os quatro campos previstos, sem
+partir do intermediário; o vínculo remoto não                 copiar um acordo particular como regra geral:
+transforma seu ataque em alcance entre cidades.
+Comandos, atuação, percepção e custos continuam                Campo               O que deve constar
+exigindo suas permissões. Se a conexão comum
+                                                               Quantidade por      Quanto pode ser guardado
+falhar, o poder não substitui o canal ausente por              ocasião             naquela ocasião
+uma capacidade nova.
+                                                               Momento             Quando o armazenamento pode
+O caso de Nilo explica atendimento e diferenças                                    ocorrer
+entre os três corpos. Use-o para preparar
+participação e cuidados, mantendo as decisões com              Condições           O que precisa estar satisfeito
+o jogador. Uma pessoa que auxilia a personagem                 Máximo              O limite da reserva guardada
+não recebe controle sobre sua ficha.                           acumulável
+
+                                                              Se um campo estiver ausente, concluam o acordo
+                                                              antes de usar a parte indefinida. O Guia não
+                                                              fornece números substitutos. A consulta dessa
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                           3
+CICLO MALDITO / GUIA DO MESTRE                                                               PERSONAGENS E TÉCNICAS
+
+
+
+menor ajuda a registrar o acordo por personagem.
+                                                      Opção             O que conferir
+A proibição expressa de armazenar os PE
+temporários de Último Fôlego de Energia continua      Efeito Próprio    Melhoria com preço e Família
+valendo.                                                                definidos; cada compra conta no
+                                                                        limite
+Vida rolada e escolhas de campanha
+                                                      Talento           CE1, CE2 ou CE3; espaços e limite de
+O método de vida fixa continua sendo a referência     Próprio           cinco Talentos pagos
+do Guia. Com permissão do mestre, a variante
+                                                      Regra Própria     Gatilho verificável, simetria, ausência
+publicada usa o dado do Caminho no lugar do valor
+                                                                        de dano direto e limite por cena;
+fixo, somando Constituição normalmente. Definam                         aquisição específica
+o método e como registrar os dados antes de
+conhecer os resultados.                               Aptidão           Escolha única na ficha, CE1 ou CE2,
+                                                      Própria           com os limites da entrada
+O exemplo de Kaori compara os métodos, a subida
+sem descanso e o recálculo por Constituição. As       Bênção            Uma por personagem, CE1 ou CE2,
+                                                      Própria           escolha de Bênção e Lapidação
+colunas não são duas reservas entre as quais
+                                                                        mínima
+escolher. Na guilda, a opção aceita e o registro
+acompanham a ficha; outro mestre não refaz a          Menor de          Uma das duas escolhas elegíveis;
+escolha a cada missão.                                Origem            comparação com menores
+                                                                        compatíveis
+Uma perda duradoura pode permitir rever a
+escolha de Origem afetada, entre missões, com o       CE4 da            Exceção da marcante desse ramo,
+jogador. Uma mudança de relação, sozinha, não         Restrição         com efeito e condição corporal
+                                                      corporal          definidos
+desativa a consciência de um Corpo Amaldiçoado
+nem exige outra Origem. Confiram a regra e a
+                                                     Essas aquisições não são intercambiáveis. Aptidão
+perda funcional antes da revisão, sem vagas extras
+                                                     e Bênção Próprias não acrescentam dados de dano;
+ou troca livre de toda a ficha.
+                                                     suas versões CE2 precisam de limite por cena.
+                                                     Talento Próprio tem proibições próprias, incluindo
+7.4 Avaliar uma capacidade                           ação extra por rodada, imunidade completa a dano
+Comece pelo resultado desejado. “Minha técnica       ou condição e cura ilimitada. Acrescentar qualquer
+controla fios” apresenta o tema; “quero puxar uma    custo não torna uma proposta permitida por essa
+criatura para longe da porta” apresenta uma          entrada.
+função. Pergunte quem age, sobre o quê e o que       Para uma Regra Própria, a consequência precisa
+muda. Ajude a localizar as peças sem exigir que o    poder valer contra o usuário nas mesmas
+jogador saiba os nomes de montagem.                  condições. Aposta com vencedor combinado não é
+Um fio pode puxar, prender ou procurar               a disputa real do exemplo publicado. Esse Talento
+informação. Esses resultados precisam de suas        específico também não é a frase de Regra que
+permissões; o mesmo nome não compra todos. Uso       define o Fundamento da técnica.
+Livre e Expressão resolvem manifestações
+pequenas dentro de seus limites. Uma sombra          Conferir a montagem
+apontando para uma porta pode ser descrição;         Siga esta ordem:
+descobrir qual porta esconde alguém pede uma
+                                                     1. Acesso: nível, Classe, rota, Regra, Famílias e
+capacidade de informação.
+                                                        escolhas ocupadas. Uma Família Fechada não
+                                                        abre porque o efeito recebeu outra aparência.
+Escolher a aquisição
+                                                     2. Conta: orçamento, base, Forma, Melhorias,
+Classe organiza feitiços; Categoria de Efeito, ou
+                                                        descontos e devoluções. Sobras não aumentam
+CE, classifica certas capacidades. Confiram
+                                                        automaticamente qualquer função.
+também a rota: técnica, Manejo e Kata têm
+requisitos próprios.                                 3. Uso: ação, Selo, alvo, alcance, resolução, custo,
+                                                        duração e saída. Confira acerto, erro ou
+                                                        resistência conforme a ficha.
+                                                     4. Limite: resolva um caso provável em que faltem
+                                                        alcance, alvo, informação ou requisito.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                      4
+CICLO MALDITO / GUIA DO MESTRE                                                                PERSONAGENS E TÉCNICAS
+
+
+
+ 5. Combinação: examine uma escolha que a              essa conferência. Firmeza permite categorias
+    personagem realmente possui e que possa            distintas conforme sua regra; isso não autoriza
+    alterar o resultado.                               repetir a mesma categoria.
+
+Uma devolução só compensa pontos pagos em              Ampliar conserva as compras e recalcula a mesma
+Melhorias, dentro do teto compartilhado de 2 ×         montagem em outra Classe. Não compra uma
+Classe. Base e Forma não entram nessa                  função nova. Uma mescla mantém suas parcelas
+compensação. Uma exigência já obrigatória não          registradas; a cura não vira dano ao surgir outro
+devolve pontos outra vez.                              alvo. O caso de Yara acompanha duas Classes e a
+                                                       troca de Forma separadamente.
+Para um Efeito Próprio, compare função, ação,
+alvos, alcance, duração, frequência e saídas. O        O Desdobramento do Emanador vale para a
+mestre define o preço e registra o motivo. Se          conjuração e exige a escolha no momento previsto.
+houver Família adequada, registrem-na para acesso      Não permite inventar Efeito Próprio ou gatilho de
+e desconto; se nenhuma servir, usem preço integral,    Reação durante o uso. Para trocar uma peça,
+sem desconto de Família. Benefícios independentes      confira preço, resultado retirado, custo adicional e
+são pagos e contados separadamente, salvo redução      limites. O estudo de casos específicos desenvolve
+específica avaliada e registrada.                      também Cortina, Traje, Manejos e Katas.
+                                                       Em Manejos, preserve a semente; em Katas, o estilo
+Exemplo completo: o golpe por Toque                    e o equipamento. PE pode representar esforço
+Pedido: “Tenho um feitiço Classe 1 por Toque. São      numa rota sem energia, sem conceder sentidos ou
+3 pontos e mais 1 pela proximidade: 4d8.”              Aptidões ausentes. O compartilhamento da
+                                                       montagem não apaga as exigências da rota.
+Conferência: Toque concede devolução Leve, mas
+esta montagem não pagou Melhorias. Não há gasto
+que a devolução possa compensar. O saldo é 3 − 0 +     7.5 Poderes avançados
+0 = 3d8.                                               Liberação Máxima, Técnica Máxima e Expansão de
+Versão corrigida: Ação Padrão, 3 PE, Selo e ataque     Domínio têm aquisições e montagens diferentes. A
+de conjuração contra alvo válido a até 1,5 m; 3d8 do   descrição da obra pode inspirar o acontecimento; a
+tipo registrado na técnica. No erro, não causa dano    ficha precisa dizer quem paga, quem é afetado e
+e gasta os PE. Com atributo 3 e Maestria 1, o          como termina. A progressão de Classes não
+ataque é +4: dado 10 alcança Defesa 14. Um alvo a 3    concede todas essas opções a qualquer rota.
+m está fora do alcance enquanto o conjurador
+permanecer onde está. Proteções e estados do alvo      Liberação e Técnica Máxima
+continuam aplicáveis.                                   Confira      Liberação Máxima         Técnica Máxima
+Se Mira estiver disponível e a Regra comportar a
+                                                        Aquisição    Uma nos níveis 10, 20    A partir do nível
+aplicação, Precisão pode ser comprada por 1 ponto.                   e 30, fora dos espaços   17, fora dos
+Toque compensa esse gasto: 3 − 1 + 1 = 3d8, agora                    comuns                   espaços comuns
+com +2 no ataque, chegando a +6 nos atributos do
+exemplo. Conta uma Melhoria e nenhuma                   Resultado    Montagem comum de        Dano, cura ou
+                                                                     Classe 3 ou maior        utilidade
+Restrição. O bônus de ataque não vira outro dado
+                                                                     disponível, com          definidos na
+de dano.                                                             +Classe em d8 de         criação; dados e
+Registrem qual das versões foi escolhida. A                          dano; não serve para     pontos separados
+                                                                     cura
+avaliação explica a conta publicada, sem criar
+desconto especial. Os outros pareceres mostram          Uso          Ação Completa, custo     Ação Completa,
+contenção, informação, cura e menores; a ficha de                    normal +50%, para        PE e dados da
+avaliação reúne o texto e a decisão.                                 cima, e preço            faixa; uma vez
+                                                                     adicional                por cena como
+Repetições e mudanças durante o uso                                                           padrão
+
+Aprovar um Efeito Próprio uma vez não aprova            Restrições   Precisam acrescentar     Sem devolução
+compras repetidas. Definam quantas são                               dificuldade; Atrasar e   de Restrições ou
+permitidas, o preço e o acréscimo de cada uma.                       Parado não devolvem      de Toque; até
+                                                                                              quatro Melhorias
+Mudar o nome da segunda compra não contorna
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                      5
+CICLO MALDITO / GUIA DO MESTRE                                                            PERSONAGENS E TÉCNICAS
+
+
+
+Nas duas, conserve Selo, Regra, Famílias e rota.       exceções. A Completa tem Acerto garantido, com
+Rápido e Reação não reduzem a Ação Completa.           as regras e defesas específicas; a Incompleta usa a
+Movimento concedido por uma peça segue essa            resolução registrada. Uma proteção contra Acerto
+permissão específica, sem devolver o Movimento         garantido não neutraliza automaticamente todo
+consumido.                                             Efeito do Domínio.
+Liberação: Corte de ruptura em Classe 3 paga           Em Galeria de Vidro, o Efeito protege uma criatura
+Linha 2 dos 9 pontos, ficando com 7d8; acrescenta      disposta enquanto o dono mantém uma mão em
+3d8, total 10d8. Custa 14 PE, pois 9 × 1,5 arredonda   contato com ela. O contato precisa ser possível e
+para cima. Escolhe ainda Vazio, Sangue ou Peso         ocupa a mão. Outro aliado na área não fica
+por uso, com suas consequências; esses preços não      protegido por preferência do usuário. Sala de
+devolvem pontos.                                       Trégua, por sua vez, inclui expressamente o dono
+                                                       na proibição de causar dano. A redação dos alvos
+Técnica Máxima: na faixa 17–20, são 24d8, 8
+                                                       permite resolver as duas propostas.
+pontos e 25 PE. Forma e Melhorias usam os
+pontos; sobras são descartadas. Gastar só 2 não        Antes da sessão, confiram abertura, custo, área,
+transforma o dano em 30d8. Cura paga sua base,         duração, cada Acerto, uso do Efeito e
+conserva acesso e impedimentos; utilidade descarta     encerramento. Incluam um aliado, uma defesa
+os dados para produzir o efeito definido.              específica e uma disputa, se couber à campanha. A
+                                                       ficha continua precisando da seção completa de
+O TR também difere: na Liberação, o sucesso
+                                                       Expansão para resolver sobreposição e término;
+recebe metade do dano salvo regra específica; na
+                                                       adquirir Completa não garante vencer todo rival.
+Técnica Máxima de dano, recebe três quartos, com
+o arredondamento aplicável. Não troque essas           Ao terminar, o Rescaldo deixa a Técnica Inata
+frações pela semelhança dos nomes.                     indisponível pelo restante da cena, com a exceção
+                                                       dos feitiços de Classe 0. Encerrar voluntariamente
+A recarga de Máxima após três rodadas, sem contar
+                                                       não devolve o custo nem elimina Rescaldo. As
+a de uso, é uma opção de autorização do mestre
+                                                       permissões específicas de recuperação seguem seus
+prevista no livro. Não é o padrão automático da
+                                                       requisitos.
+guilda. O caso completo de poderes avançados
+mostra preços, cura, utilidade e a contagem de
+                                                       O CE4 da Restrição corporal
+retorno.
+                                                       O CE4 desse ramo é uma exceção recebida na
+Avaliar um Domínio                                     criação, com funcionamento extraordinário num
+                                                       aspecto delimitado. Não é Classe de feitiço ou
+Separe aparência, Acerto e Efeito. O lugar descrito
+                                                       autorização geral para aumentar números.
+não ganha cobertura, armas ou conhecimento
+                                                       Registrem o que a exceção permite e o que
+ilimitado só pelo tema. Acerto, quando houver, é a
+                                                       continua limitado, junto da condição corporal e dos
+aplicação da abertura e permanência; Efeito é a
+                                                       cuidados.
+capacidade especial utilizável enquanto o Domínio
+permanece.                                             Rede Remota ilustra um vínculo ampliado
+                                                       conservando capacidades, sentidos, ações e custos.
+Confira aquisição e requisitos juntos. Incompleta
+                                                       O caso de Nilo mostra por que distância do vínculo,
+ocupa dois espaços, com nível 10 e Refino 4.
+                                                       alcance de ataque e comunicação são conferências
+Completa exige o degrau anterior, nível 14 e Refino
+                                                       diferentes. Uma limitação corporal mais severa não
+5, passando a três espaços no total. Sem Barreiras
+                                                       compra automaticamente mais ganhos. Saída
+exige Completa, Refino 10 e especialização em
+                                                       Elevada também conserva seu campo próprio: não é
+Ocultismo, passando a cinco espaços no total. Não
+                                                       ampliada a Máximas, Manejos ou à entidade por
+se paga outra vez o total a cada degrau nem se salta
+                                                       associação.
+a aquisição anterior.
+                                                       O caso de efeitos de cena e cancelamento ajuda a
+O Acerto de dano usa 3 × maior Classe em pontos,
+                                                       conferir outro limite: encerrar uma aplicação não
+menos o preço Médio de Inescapável, com
+                                                       apaga resultados já concluídos. Categoria de Efeito
+desconto de Família Livre quando aplicável. O
+                                                       não vira Classe universal, e Desarma o Feitiço não
+saldo vira d8; o Acerto é a aplicação inteira e não
+                                                       pode cancelar Domínios.
+aceita outra peça para acrescentar uma condição.
+Por padrão, esse Acerto afeta criaturas com energia
+na área, exceto o dono; aliados não são poupados
+automaticamente. Registre alvos, resolução e
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  6
+CICLO MALDITO / GUIA DO MESTRE                                                                       PERSONAGENS E TÉCNICAS
+
+
+
+                                                                 tentativas na mesma sessão não são três sessões de
+7.6 Registrar e acompanhar                                       uso. Acompanhe também a frequência de
+                                                                 Condicional: uma fonte que os recursos da
+Explique primeiro o resultado da avaliação e o                   personagem passaram a garantir pode mudar essa
+motivo. Se faltar informação, indique o campo; se a              avaliação.
+montagem precisar mudar, apresente uma
+                                                                 Substitua a exigência que nunca atrapalhou,
+alternativa que preserve a intenção quando
+                                                                 mantendo a ficha válida antes do próximo uso. Não
+possível. Uma recusa útil permite entender a regra
+                                                                 crie obstáculos artificiais só para preservar pontos.
+e o próximo passo.
+                                                                 Os casos de Melhorias e Restrições mostram
+ Resultado                     O que deixar claro                repetições, exigência concreta, consumo de preparo
+                                                                 e revisão; a ficha de avaliação conserva o registro.
+ Atende às regras              Versão utilizável, referências,
+                               custos e limites
+                                                                 Atualizar sem apagar o estado
+ Falta informação              Campo necessário e como           Subir de nível não é descansar. Aplique ganhos e
+                               completá-lo antes do uso
+                                                                 marcos antes da eventual troca de Trilha. Sem a
+ Precisa de ajuste             Diferença encontrada e montagem   permissão de recuperação completa prevista no
+                               possível                          livro, o crescimento dos máximos por nível e marco
+                                                                 acrescenta essa diferença aos saldos. Vida zero
+ Ultrapassa a                  Proibição ou requisito e outra
+                                                                 permanece zero e exige socorro; PE zero recebe o
+ aquisição                     opção a examinar
+                                                                 crescimento correspondente.
+ Muda a                        Alteração proposta e quem pode
+ campanha                      autorizá-la
+                                                                 Exemplo: máximo de vida 40 e saldo 25 passam a
+                                                                 máximo 48 e saldo 33, conservando os 15 que
+Guarde a versão aceita, escolhas fixas, repetições               faltavam. Uma troca de Trilha ou outro ajuste
+permitidas, exceções e alcance da decisão:                       posterior de máximo não concede esse aumento ao
+personagem, campanha ou guilda. Um exemplo                       saldo. Integridade, Sequelas, condições e usos não
+aceito para uma ficha não autoriza todas as                      se renovam pela subida.
+variações do tema. Na guilda, o texto precisa estar              Ampliar, reescrever uma aplicação e trocar escolhas
+acessível a quem receber a personagem; numa                      antigas têm permissões diferentes. Use a revisão
+campanha fechada, pode acompanhar a ficha.                       cabível e registre a versão final; não abra uma troca
+                                                                 livre de toda a ficha. Aprendizados exigidos por
+Restrições depois de jogar                                       Aptidões precisam de sua fonte registrada, sem
+Uma Restrição precisa impor a dificuldade que                    substituir requisitos ou impor um professor
+justificou sua devolução. Registre exigência,                    obrigatório a capacidades que não o pedem.
+momento e compatibilidade. Algo já obrigatório no                Antes da próxima missão, o jogador destaca o que
+Selo ou na Regra não paga outra vez. Uma proposta                mudou e o mestre confere os dados relevantes ao
+que reúna dificuldades independentes precisa                     preparo. Guarde dificuldades de leitura e decisões
+respeitar o número de compras, e uma Restrição                   que precisem chegar à próxima mesa. Os casos por
+Própria não devolve Pesada.                                      assunto ficam disponíveis para aprofundar a dúvida
+Depois de três sessões em que o feitiço tenha sido               concreta. Atividades fora de missão têm sua
+usado, comparem a dificuldade prevista com o                     orientação própria; acrescente benefícios de
+ocorrido, conforme a regra de revisão. Três                      treinamento apenas quando uma regra os conceder.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                             7
+

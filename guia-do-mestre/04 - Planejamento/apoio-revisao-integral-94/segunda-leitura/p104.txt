@@ -1,0 +1,80 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+substituir retroativamente uma oposição vencida
+depressa.
+Confira o fim da luta
+Anote separadamente se os inimigos foram
+vencidos, a segurança do lugar e o cumprimento do
+objetivo. O mecanismo da saída pode continuar
+ativo depois da derrota do Carregador. Desligá-lo
+não derrota a criatura. Um personagem ainda pode
+precisar de socorro em qualquer desses casos.
+Para uma ameaça que possa ser adquirida, prepare
+a conversão antes da oportunidade de aquisição.
+Recursos do cenário, aliados e ações e recursos
+exclusivos do chefe não se tornam
+automaticamente capacidades da entidade. Use as
+regras da rota e mostre a ficha resultante; não retire
+uma capacidade prometida apenas depois do
+sucesso.
+Na guilda, registre os participantes e os recursos e
+condições considerados ao preparar o confronto.
+Em campanha fechada, inclua o desgaste anterior.
+Ao comparar as fichas, anote o que ainda precisa
+ser testado; quando houver uma sessão, anote onde
+o grupo compreendeu os sinais, conseguiu intervir
+ou ficou sem participação. Um confronto curto
+resolvido por uma boa escolha não precisa ser
+alongado para cumprir uma duração prevista.
+5.7 · Preparar perigos
+ambientais
+Para ler ao preparar um risco que vem do lugar.
+Um perigo ambiental precisa dizer quem está
+exposto, quando a consequência acontece e como é
+possível intervir. Registre essas escolhas no bloco 4
+da ficha única de construção e encontro (p. 321). A
+sala de conservação (p. 161) apresenta um caso
+completo de exposição repetida.
+Comece pelas regras do Livro de Regras 1.0. O dano
+de uma queda real, por exemplo, já tem regras.
+Quando o livro não fornecer o dano, a frequência ou
+o prazo daquele perigo, esses valores precisam ser
+preparados e identificados como escolhas do
+exemplo. A escala de dificuldade de testes não é
+uma tabela de dano ambiental.
+Defina a exposição
+Escreva o que coloca alguém em risco: estar sobre
+um apoio quando ele rompe, tocar uma superfície,
+permanecer numa área, respirar uma substância ou
+consumir algo. Essas situações podem exigir
+respostas diferentes.
+Forma de exposição
+O que preparar
+Um acontecimento
+O que provoca o perigo e o que acontece uma única vez, como a perda de
+apoio da passarela. Permanecer no piso depois da queda não repete o
+impacto.
+Permanência numa área
+Limites visíveis, momento de verificar a exposição e frequência. Dizer
+“enquanto estiver aqui” ainda não informa quantas vezes aplicar o efeito.
+Um contato
+O que conta como contato e se a repetição produz outro efeito. Vestir
+uma proteção precisa impedir o contato relevante.
+Um processo prolongado
+Intervalo de avaliação, primeiros sinais, consequências e formas de
+interromper ou recuperar-se. Não transforme um teste diário em testes a
+cada turno.
+Confira as características de quem está exposto. Dispensar respiração protege da falta de ar; não impede
+automaticamente calor ou uma substância que danifique a estrutura por contato. Uma imunidade à
+condição Envenenado tampouco é imunidade ao dano de Veneno. Consulte a ficha da criatura e a regra do
+perigo.
+Exemplo publicado: Corpo Debilitado sofre 1d4 de Radiante ao fim do próprio turno se houver pele exposta
+ao sol ou ao luar, sem TR; fora de combate, a regra usa cada rodada de exposição contínua. Uma cobertura
+opaca completa evita essa consequência. É uma regra daquela Restrição, não uma referência de dano solar
+para todos os personagens.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+104

@@ -1,0 +1,91 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+As penalidades são cumulativas: estágio 1 prejudica
+perícias; estágio 2 reduz deslocamento à metade e
+acrescenta 1 PE por Classe aos feitiços; estágio 3
+impõe desvantagem em ataques/TRs e limita a
+Classe máxima à metade, para baixo, mínimo 1. Ren
+passa a pagar 4 PE por Fenda. Sora paga 4 por Fio e
+8 por Remendo; no estágio 3, Remendo de Classe 2
+fica indisponível. Cobrir-se conserva seu custo de
+aptidão. Use também os limites de movimento das
+condições efetivamente presentes.
+A zero de PV ou Integridade, o inimigo fica
+Derrotado e para de atuar. O desfecho preparado
+desta ocorrência é incapacitação, com
+inconsciência e queda dos objetos segurados, não
+morte automática. Não há Insistir ou janela de
+socorro de jogador concedidos a estas fichas.
+Remendo não oferece permissão para reabrir a
+participação de quem foi Derrotado. Atendimento
+posterior e o que fazer com o adversário
+incapacitado precisam ser resolvidos depois,
+conforme o desfecho estabelecido.
+Quando Ren cai, Sora perde seu principal meio de
+pressionar o grupo e tenta negociar ou sair com os
+documentos. Quando Sora cai, Ren perde as
+próximas aplicações de apoio, mas continua
+podendo usar seus recursos. Registre benefícios já
+concedidos, PE restantes e efeitos vigentes antes de
+decidir a próxima ação.
+5.18 · Escolher quem
+enfrentar primeiro
+Este exemplo acompanha Ren e Sora (p. 146) contra
+Rina, Mei e Akira. Leia a ficha da dupla antes de
+usar o exemplo. Os dados foram escolhidos para
+ensinar as interações; o resultado não é uma sessão
+jogada, uma estratégia obrigatória ou uma medida
+de dificuldade.
+O espaço e as informações
+O grupo quer recuperar um estojo de documentos
+que Sora segura e encerrar a oposição à retirada. O
+recinto mede 12 × 18 m, com piso regular, visão
+livre e uma única porta aberta de 6 m na face sul.
+Não há armadilhas, reforços ou cobertura nesta
+disposição. A porta não dá invulnerabilidade a
+quem sai.
+Use colunas A-H e linhas internas 1-12, com células
+de 1,5 m. A porta fica entre C e F; a linha 0 e as
+negativas são externas. Os passos diagonais
+também custam 1,5 m. As posições iniciais são:
+Participante
+Espaço
+Rina
+C0
+Mei
+D0
+Akira
+F0
+Ren
+D5
+Sora, com o estojo
+F8
+O estojo pesa 1 Volume, cabe numa mão e não
+protege contra dano. Recuperá-lo quando estiver
+solto e ao alcance usa a interação simples comum.
+Tomá-lo de Sora enquanto ela o segura exigiria uma
+solução válida para a disputa; proximidade não o
+entrega automaticamente.
+Mostre a espada de Ren, a posição recuada de Sora
+e o estojo. Quando ela usar Fio, descreva os fios que
+sustentam o movimento dele e anuncie os efeitos
+visíveis relevantes. Deslocar o beneficiário depois
+da aplicação não desfaz o benefício; afastá-lo antes
+da próxima conjuração pode obrigar Sora a se
+reposicionar.
+Os perfis do exemplo anterior (p. 141) fornecem
+atributos, reservas e capacidades de Rina, Mei e
+Akira. Começam com vida, PE e Integridade
+cheios, sem Sequelas. Rina já escolheu Cortante e
+Concussão para Alicerce no descanso anterior. Para
+este exemplo, Akira também conhece Corte de
+sutura: uma aplicação ofensiva de sua técnica,
+Classe 2, Padrão, 6 PE, Projétil a 18 m, ataque +5 e
+6d8 de Cortante, sem Melhorias ou Restrições. Usa
+o gesto da mão direita como Selo. A Regra dessa
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+150

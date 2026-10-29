@@ -1,0 +1,26 @@
+# Guia do Mestre — edição diagramada pré-1.0
+
+Abra o [livro em PDF](output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf). Ele usa o padrão tipográfico da R53, com duas colunas, tabelas na largura útil, sumário, remissões e índice clicáveis. O aprofundamento da obra fica no apêndice D, sinalizado por conter revelações.
+
+O [relatório de revisão crítica](<../04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>) informa as mudanças e os limites. Esta é uma edição para leitura e avaliação, não uma declaração de equilíbrio em mesa.
+
+## Arquivos que acompanham o livro
+
+- `MAPAS.py`: cinco diagramas vetoriais; revisar junto aos exemplos quando mudarem medidas ou posições.
+- `fontes/`: fontes utilizadas e licenças.
+- `imagens/`: capa e quatro referências selecionadas do acervo da R53; autoria e capítulo nas legendas.
+- `revisao/selecao-visual.json`: opções comparadas e razões de escolha.
+- `revisao/alteracoes-textuais.json`: alterações nas fontes editáveis.
+- `revisao/composicao.json`: páginas, remissões, fontes e notas transferidas.
+- `revisao/revisao-visual.json` e `revisao/pranchas/`: registro da revisão e provas reduzidas de todas as páginas.
+- `revisao/preservacao-do-conteudo.json`: comparação por amostras textuais e controle de links.
+
+## Atualização
+
+Corrija primeiro as fontes numeradas em `06 - Redacao do Guia` ou o piloto correspondente em `04 - Planejamento`. Regere a edição HTML pelo programa da pasta07; depois execute `GERAR-PDF.py` desta pasta. O programa usa Python, ReportLab, BeautifulSoup e Pillow. Para os controles adicionais, use PyMuPDF e Poppler. As fontes locais evitam depender das fontes instaladas no computador.
+
+A composição estabiliza automaticamente as remissões paginadas. Qualquer mudança pode deslocar páginas: gere novas imagens com Poppler e examine todas as páginas alteradas, inclusive a continuação do capítulo. Não considere a ausência de sobreposição como prova de boa leitura. Verifique a unidade de parágrafos, títulos, exemplos e tabelas; evite dividir um parágrafo curto apenas para nivelar duas colunas.
+
+As provas em pranchas servem para conferir o conjunto. Para avaliar tamanho e leitura, amplie a página no PDF ou renderize uma imagem de página inteira. As fichas de registro são modelos impressos, sem campos eletrônicos interativos.
+
+**Próxima tarefa:** incorporar retorno e revisar os pontos identificados — GPT-6.1 Sol, esforço alto. Contradições mecânicas amplas — GPT-6 Astra, esforço extra alto.

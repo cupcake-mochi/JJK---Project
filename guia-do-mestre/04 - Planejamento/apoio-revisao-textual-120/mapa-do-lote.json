@@ -1,0 +1,21 @@
+{
+  "registro": 120,
+  "lote": "B2-02",
+  "casos": [
+    "s078",
+    "s057",
+    "s062",
+    "s063"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-120/output/pdf/Ciclo-Maldito-Perigos-e-Carregador-Revisao-Textual.pdf",
+  "paginas": 16,
+  "casos_revistos_total": 19,
+  "casos_pendentes": 40,
+  "lotes_pendentes": 10,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-03",
+  "modelo_recomendado": "GPT-6.1 Sol",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

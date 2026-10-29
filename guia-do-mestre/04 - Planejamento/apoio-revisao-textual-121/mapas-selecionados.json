@@ -1,0 +1,26 @@
+{
+  "registro": 121,
+  "mapas": [
+    {
+      "id": "s064",
+      "figura": "04 - Planejamento/apoio-revisao-textual-121/imagens/passarela.svg",
+      "sha256": "186f2f8487ae0357559bffbe49eeb955a2ecc859122b45c54c2f1624df4c07e1",
+      "origem": "08 - Diagramacao do Guia/MAPAS.py",
+      "altura_pontos": 260
+    },
+    {
+      "id": "s066",
+      "figura": "04 - Planejamento/apoio-revisao-textual-121/imagens/portao.svg",
+      "sha256": "51eac5205cab05132b9fa01de347f5a192013f387c4c0c44bcc5deef33c6bd83",
+      "origem": "08 - Diagramacao do Guia/MAPAS.py",
+      "altura_pontos": 245
+    }
+  ],
+  "origem_sha256": "3c1db39f19af00d02edded50582e0f4d6ee6fd8537e85191801144f3d84ba76d",
+  "criterios": [
+    "Conferidos os esquemas em caracteres e os mapas de referência da passarela, do portão e do Sineiro.",
+    "Escolhidos os desenhos vetoriais existentes da passarela e do portão, exportados com a altura do próprio desenho e sem a margem branca da página de referência.",
+    "Mapa do Sineiro reservado ao ensaio s073: contém posições de Rina, Mei e Akira não fixadas no caso s071. Não foi misturado a esta ficha."
+  ],
+  "limites": "Sem nova geometria, novo cenário ou edição de bitmap; reutilização das instruções vetoriais existentes."
+}

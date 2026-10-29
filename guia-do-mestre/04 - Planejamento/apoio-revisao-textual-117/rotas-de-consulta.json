@@ -1,0 +1,70 @@
+{
+  "registro": 117,
+  "grupos": {
+    "B1": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-113/prova-textual.html#c04",
+      "folhas": [
+        "s024"
+      ]
+    },
+    "B2": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c06",
+      "folhas": [
+        "s058",
+        "s061",
+        "s068"
+      ]
+    },
+    "B3": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c07",
+      "folhas": [
+        "s028",
+        "s032"
+      ],
+      "consulta_publicada": "s092"
+    },
+    "B4": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c08",
+      "folhas": [
+        "s038",
+        "s040"
+      ]
+    },
+    "B5": {
+      "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c09",
+      "folhas": [
+        "s042",
+        "s044"
+      ]
+    }
+  },
+  "guilda": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c10",
+  "avisos": {},
+  "casos_revisados": {
+    "s089": {
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#arata",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+      "motivo": "CD de História corrigida de 16 para 18 da escala fixa; demais valores e capacidades preservados."
+    },
+    "s014": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#aviso",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s082": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#testes",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s083": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#pistas",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    },
+    "s011": {
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+      "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#cenario",
+      "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+    }
+  }
+}

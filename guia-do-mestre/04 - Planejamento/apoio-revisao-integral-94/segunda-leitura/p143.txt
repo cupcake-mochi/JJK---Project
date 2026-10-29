@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Rina. Usa Espada Longa em uma mão: ataque +5,
+dano 1d8 + 4, mais 1d4 de Canalizar. A outra mão
+começa livre. Treinou Provocar e usa Força, total
++5. No descanso longo anterior, escolheu
+Concussão e Cortante para Alicerce: enquanto
+Olhos Em Mim estiver ativo, recebe metade desses
+danos, arredondada para cima. Ativa Olhos Em
+Mim com Bônus; a área de proteção acompanha
+Rina por 6 m. Assumir um ataque rolado contra um
+aliado nessa área gasta sua Reação, antes dos dados.
+Não transfere manobras por TR nem áreas.
+Rina pesa 72 kg. Traje e espada somam 1,3 Volume.
+Para o Sineiro conduzi-la sem a caixa, a carga é 72 ÷
+12 + 1,3 = 7,3 Volume, dentro dos 9 permitidos. O
+arrasto não causa dano neste piso.
+Mei. Sua técnica de pressão usa Inteligência; tem
+Alcance Livre e Mira Livre, com Amparo, Castigo e
+Marca fechados. Conhece Arremesso de pressão:
+Classe 2, Padrão, 6 PE, Projétil a 18 m, ataque +5,
+5d8 de Concussão e Empurrão de até 6 m após
+acertar. O orçamento é seis pontos, menos um de
+Empurrão, deixando cinco dados. Seu Selo é bater
+as palmas; as mãos estão livres.
+Com Remodelar, Mei paga mais 1 PE e troca
+Empurrão por Passo. Ambos custam um ponto
+nesta montagem; o dano permanece 5d8. Passo
+permite mover até 6 m antes ou depois da
+aplicação, sem oportunidade. Não remove Agarrado
+nem atravessa obstáculos. Resolver essa versão com
+Padrão concede um Impulso Técnico até o fim do
+próximo turno de Mei; ele não concede uma ação
+gratuita. Não é gasto neste exemplo.
+Akira. Usa Abrir Caminho com Bônus e 1 PE:
+prepara uma oportunidade para um aliado
+percebido a até 18 m que veja ou ouça sua
+orientação. Avançar permite até 3 m em direção ao
+espaço indicado, sem oportunidade da ameaça
+escolhida. No próprio turno do beneficiário, não
+exige outra ação; fora dele, exige sua Reação. A
+abertura dura até o começo do próximo turno de
+Akira. Resguardar, usado no segundo exemplo, dá
+vantagem a um TR provocado pela ameaça
+indicada.
+Conhece Sutura de emergência, aplicação de sua
+técnica de recomposição, com Amparo Livre: cura
+individual de Classe 2 a 9 m, Padrão, 6 PE, 4d8,
+compatível com os três personagens. São seis
+pontos, menos dois da base de cura. O Selo é um
+gesto com a mão direita; pode segurar a caixa com a
+esquerda. Cuidado Preparado usa Essência 4, mas
+exige vida positiva e inferior à metade: não é a
+fonte de socorro a zero deste exemplo. Capacidades
+de níveis 11 ou 19 não foram concedidas ao perfil de
+nível 6.
+Role iniciativa. Os resultados escolhidos são Rina
+14 + 2 = 16, Sineiro 13 + 1 = 14, Mei 10 + 2 = 12 e
+Akira 8 + 2 = 10. Essa ordem permanece. Cada
+Reação volta no começo do turno de seu dono;
+começar uma nova rodada, sozinho, não devolve
+todas ao mesmo tempo.
+Primeiro exemplo: abrir uma saída
+Rodada 1 - a captura
+Rina chega à caixa. Anda de C0 a C6, gastando seus
+9 m. Usa a interação simples gratuita do turno para
+pegá-la e a larga ali, sem outra ação. Isso chama a
+atenção do guardião; não é uma regra geral de
+provocação. Com a Bônus, ativa Olhos Em Mim.
+Sua provocação inicial dá 11 + 5 = 16; o Sineiro tira
+14 + 1 = 15 e falha. Até o começo do próximo turno
+de Rina, seus ataques têm vantagem contra ela e
+desvantagem contra outros alvos, conforme
+Provocar.
+Com a Padrão, Rina ataca uma vez: 12 + 5 = 17,
+contra Defesa 11. O dano é 5 + 4 + 2 = 11. O Sineiro
+passa de 108 para 97 PV. Rina ainda não tem o
+Ataque Extra de nível 7.
+O Sineiro captura e conduz. Usa Atacar. Substitui
+o primeiro ataque por Agarrar: Rina tira 5 + 5 = 10,
+abaixo da CD 13, e fica Agarrada. O segundo ataque
+é uma Pancada com vantagem pela provocação: 8 e
+14; usa 14 + 5 = 19, contra Defesa 13. O dano 4 + 4 +
+4 = 12 vira 6 por Alicerce. Rina fica com 59 PV.
+Ele anda 6 m, de D6:E7 para D10:E11, conduzindo
+Rina de C6 a C10. O trajeto e os corpos cabem. A
+Bônus prepara o sino; o mestre marca a zona de 3 m
+de raio. O impacto poderá ocorrer na Padrão do
+próximo turno do Sineiro. Rina está dentro dela.
+Mei interrompe o preparo. Anda de D0 a D6, 9 m.
+Usa Arremesso de pressão: paga 6 PE, restando 30,
+e tira 7 + 5 = 12, contra Defesa 11. Os dados 3, 4, 4, 5
+e 6 causam 22; o Sineiro fica com 75 PV.
+Mei escolhe empurrá-lo só 1,5 m para a direita, até
+E10:F11. O deslocamento cancela a preparação.
+Rina permanece em C10: não é levada
+automaticamente por esse movimento imposto ao
+agarrador. A distância até o espaço mais próximo
+dele passa a 3 m, além do alcance de 1,5 m; o
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+143

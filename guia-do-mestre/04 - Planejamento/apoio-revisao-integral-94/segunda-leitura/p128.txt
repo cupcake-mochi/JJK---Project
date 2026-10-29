@@ -1,0 +1,60 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Posição, acesso e tempo também podem mudar
+uma escolha.
+Compare uma mudança de cada
+vez
+Na variante do portão (p. 130), conservamos a ficha
+do Carregador e acrescentamos uma saída que pode
+fechar. Um corredor de serviço continua disponível.
+O efeito ambiental muda o percurso; não causa
+dano nem aumenta os atributos da criatura.
+Há três referências úteis:
+Referência
+O que está sendo examinado
+Encontro original, O Carregador e o corredor
+de entulho (p. 110)
+Carregador, caixa, entulho e duas rotas até o recuo.
+Novo mapa, motor desligado
+O mesmo encontro com corredor de serviço e portão aberto.
+Isola a mudança de espaço.
+Mesmo mapa, fechamento ativo
+O que muda quando há prazo para preservar a saída curta.
+Isola a pressão ambiental.
+O corredor novo também pode mudar as posições,
+mesmo com o motor desligado. Por isso, comparar
+apenas a versão original com a versão ativa não
+permite atribuir toda diferença ao prazo. Use as
+três referências quando avaliar o caso.
+Não aumente vida, dano ou quantidade de ataques
+junto com o primeiro ensaio. Se depois alterar
+algum desses campos, registre a mudança e o
+motivo. Um caso que termina depressa pode ter
+permitido uma boa solução; isso não obriga a
+acrescentar outra ameaça.
+Compare o que cada ação permite
+O perigo do cenário deve ter uma ficha: onde atua,
+quando começa, o que anuncia, quando age, como
+pode ser interrompida e o que permanece depois.
+Uma frase como “a sala fica mais perigosa a cada
+rodada” ainda não informa como jogar.
+No novo mapa, a parada fica a 12 m da posição
+inicial. Uma personagem com deslocamento de 9 m
+pode usar Movimento, converter Bônus em outro
+Movimento e gastar a Padrão na parada.
+Interrompe o fechamento e ainda conserva 6 m para
+andar. A Padrão usada no comando não sobra para
+atacar, libertar alguém por uma ação ou prestar
+atendimento naquele turno. Sua Reação continua
+sujeita aos gatilhos normais.
+Essa é uma escolha concreta. Também é válido que
+uma pessoa pare o motor enquanto as outras
+cuidam da caixa. O mecanismo não recebe
+imunidade ou um prazo menor porque o grupo
+dividiu bem o trabalho.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+128

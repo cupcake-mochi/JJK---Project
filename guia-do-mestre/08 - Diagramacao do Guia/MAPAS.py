@@ -118,5 +118,5 @@ class Mapa(Flowable):
         self.note(128,188,340,'<b>Área com pó:</b> A1–A12 e B1–B12.<br/>Sala de 3 × 18 m; cada célula mede 1,5 m. As paredes laterais impedem sair pelas bordas.')
         self.label(x+sz/2,y-17,'M',10,'Head');self.label(x+1.5*sz,y-17,'A',10,'Head');self.label(x-9,y-17,'0',9.5,'Body','right')
         self.line([(x+2*sz,y-13),(112,y-13)])
-        self.note(128,79,340,'<b>Vestíbulo limpo:</b> Mei em A0; Akira em B0. Exaustor junto de B0.')
+        self.note(128,79,340,'<b>Entrada limpa:</b> Mei em A0; Akira em B0. Exaustor junto de B0.')
         self.label(14,12,'Posições indicadas. O desenho não representa o tamanho dos controles.',9.5,'Body','left')

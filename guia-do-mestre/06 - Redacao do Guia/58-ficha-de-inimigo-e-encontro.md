@@ -1,6 +1,6 @@
-# Ficha única de construção e encontro
+# Ficha de inimigo e encontro
 
-**Use esta ficha para registrar o preparo e a aplicação.** Ela acompanha o [método principal](56-preparar-inimigos-e-avaliar-encontros.md). O [exemplo preenchido com Ren e Sora](77-ficha-preenchida-ren-e-sora.md) usa os mesmos seis blocos.
+**Use esta ficha para preparar o encontro e registrar o resultado.** Ela acompanha o [método principal](56-preparar-inimigos-e-avaliar-encontros.md). O [exemplo preenchido com Ren e Sora](77-ficha-preenchida-ren-e-sora.md) usa os mesmos seis blocos.
 
 Preencha uma vez a situação, o grupo e o lugar. Repita o bloco 2 por tipo de ameaça e mantenha um estado separado para cada corpo. Use o bloco 3 para capacidades novas ou alteradas; uma referência completa e acessível pode substituir a transcrição de uma ficha já pronta. Num perigo sem criaturas, marque o bloco 2 como não aplicável e desenvolva o bloco 4. “Não se aplica” e “ainda falta decidir” têm significados diferentes.
 
@@ -30,12 +30,12 @@ Se conservar uma ficha existente, indique onde consultá-la e destaque apenas as
 | Identificação e função | Nome, quantidade, versão da ficha, nível e função no encontro; grau no cenário, se usado. |
 | Corpo e percepção | Tamanho, membros, mãos, massa, sentidos, comunicação e alma. |
 | Progressão e testes | Atributos, Maestria, Refino e Classe máxima quando aplicáveis; ataques, CDs, perícias e TRs com treinos identificados. |
-| Reservas de entrada | Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada corpo. |
+| Recursos iniciais | Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada corpo. |
 | Defesas e movimento | Defesa com componentes, Bloquear, proteções, deslocamentos, carga e equipamento. |
 | Atuação | Padrão, Movimento, Bônus e Reação; número de ataques, capacidades completas e o que disputa o mesmo recurso. |
 | Prioridades | Alvos, informação disponível, negociação, perseguição, retirada e mudanças de comportamento. |
 | Derrota e aquisição | O que ocorre a zero de PV ou Integridade; destino dos efeitos; destruição, retorno e conversão de aquisição, quando cabíveis. |
-| Origem e alterações | O que vem da R53, o que é escolha local e quais parâmetros ou capacidades são propostas. Para cada mudança, registrar motivo e referência anterior. |
+| Origem e alterações | O que vem do Livro de Regras 1.0, o que é escolha local e quais parâmetros ou capacidades são propostas. Para cada mudança, registrar motivo e referência anterior. |
 
 **Ficha completa para consulta:**  
 **Pendência que impede usar esta versão:**
@@ -46,7 +46,7 @@ Repita somente para o que precisa ser desenvolvido. Para uma capacidade pronta, 
 
 | Campo | Preenchimento |
 |---|---|
-| Identificação e origem | Nome, função, procedimento — arma, manobra, feitiço, aptidão ou regra própria — e dependência de corpo, equipamento ou técnica. Fonte, alteração e estado de aprovação. |
+| Identificação e origem | Nome, função e tipo — arma, manobra, feitiço, aptidão ou regra própria — e dependência de corpo, equipamento ou técnica. Fonte, alteração e estado de aprovação. |
 | Uso | Ação, momento, gatilho e requisitos; alvo, alcance, visão, trajeto, mãos, voz, Selo e preparação. |
 | Resolução | Ataque e crítico, ou TR/CD e resultados; dano, condição, deslocamento e demais efeitos. |
 | Pagamento e limite | Custo-base e custo pago, quando diferentes; quando pagar, o que consome disponibilidade e o motivo de cada limite adicional. |
@@ -67,11 +67,11 @@ Para desenvolver uma fonte sem autor, consulte [Preparar perigos ambientais](78-
 | Objetivo ou pessoa em risco | | | | |
 | Perigo ambiental, se houver | | | | |
 
-**Resolução do perigo:** área, tempo/frequência, teste ou TR/CD, dano/condição, término e fonte de cada regra. Se algo não tiver resolução mecânica, não deduzir dano só da descrição.  
+**Resolução do perigo:** área, tempo/frequência, teste ou TR/CD, dano/condição, término e fonte de cada regra. Se algo não tiver resolução mecânica, não deduza dano só da descrição.  
 **Retirada, transporte e lugar de atendimento:**  
 **Mudanças de fase ou chegada de aliados, se houver:** gatilho, momento, alvos, ações, registros preservados e encerramento. Partes atacáveis precisam de regras de alvo e compartilhamento de dano. O [aprofundamento de chefes](68-ficha-e-comparacao-de-chefes.md) ajuda a comparar essas escolhas.
 
-## 5. Conferência antes da aplicação
+## 5. Antes de jogar
 
 - [ ] Fichas completas e versões disponíveis; estados de cada corpo separados.
 - [ ] Capacidades com ação, custo, requisitos e resolução; nenhum benefício concedido só pelo nome ou pela aparência.

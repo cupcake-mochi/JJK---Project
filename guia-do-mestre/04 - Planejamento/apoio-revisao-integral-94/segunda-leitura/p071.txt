@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+perde esses 3 e mais 4 de vida comum. Se tinha 18
+de vida, fica com 14.
+Um dano reduzido a zero não retira vida nem cura.
+Um ataque que acertou continua sendo um acerto;
+efeitos que dependem de acertar e efeitos que
+dependem de causar dano precisam ser conferidos
+separadamente.
+Dano de Alma usa sua regra própria. Cada ponto
+afeta vida e Integridade, a menos que uma regra
+diga o contrário. A metade por resistência ou TR
+não se aplica a esse dano; um efeito inteiramente
+evitado por um TR continua podendo causar zero.
+Vida temporária absorve a parcela que iria à vida,
+sem proteger a Integridade. Consulte Dano na
+alma, Livro de Regras 1.0 para as reduções e demais
+condições.
+Vida e energia temporárias
+Registre cada reserva temporária separada da
+comum. O teto normal é metade do máximo do
+recurso, arredondada para baixo, mínimo 1 quando
+esse máximo for positivo. Máximo zero não cria
+reserva temporária.
+Reservas temporárias do mesmo recurso não se
+somam: compare o que resta com a quantidade
+recebida, limitada pelo teto, e conserve o maior.
+Elas são consumidas antes da reserva comum
+conforme a regra e normalmente terminam com a
+cena, salvo duração própria.
+Exemplo: vida máxima 23 permite até 11
+temporários. Restam 3 e uma nova capacidade
+concede 9: o saldo passa a 9 temporários, não 12.
+Receber vida temporária não recupera vida nem
+conta como tratamento para sair de Morrendo.
+Se uma proteção for preparada imediatamente
+antes da situação em que será usada, confirme sua
+continuidade naquele momento, conforme o Livro
+de Regras 1.0. Isso pode conservar o saldo até a
+situação correspondente, sem repor pontos já
+gastos.
+Perder Integridade
+Integridade é a reserva usada pelas regras de dano
+de Alma. Compare quanto foi perdido com seu
+máximo e aplique as penalidades de todos os
+estágios que a perda atingiu.
+Perda em relação ao máximo
+Efeito do estágio
+Menos de 1/4
+Sem penalidade de estágio
+Pelo menos 1/4
+Desvantagem em testes de perícia
+Pelo menos 1/2
+Deslocamento pela metade; feitiços custam +1 PE por Classe
+Pelo menos 3/4
+Desvantagem em ataques e Testes de Resistência; Classe máxima
+de conjuração cai à metade, para baixo, mínimo 1 se já possuía
+Classe 1
+Toda a Integridade
+Inconsciente e Derrotado
+Compare as frações exatas. Com máximo 26, perder
+6 não alcança 1/4; perder 7 alcança. Recuperar
+Integridade pode reduzir o estágio, mas cura de
+vida não restaura essa reserva. Se a perda de toda a
+Integridade já encerrou a participação na cena,
+restaurá-la não reabre essa participação por si só.
+Se vida e Integridade chegarem a zero na mesma
+ocorrência, resolva a derrota por Integridade.
+Insistir não permite agir com Integridade a zero.
+Para quem não possui essa reserva por regra
+própria, como um Corpo Amaldiçoado com Núcleo
+Dependente, use a exceção aplicável.
+Condições e durações
+Registre o efeito e seu prazo ao aplicá-lo. Quando
+uma regra indicar uma rodada, confira de quem é o
+turno de referência e em que ponto termina.
+Condições com saídas diferentes seguem suas
+próprias regras.
+Receber a mesma condição novamente não
+intensifica seus efeitos por padrão. Registre fontes
+e durações; a condição permanece enquanto houver
+uma aplicação válida. Remover uma delas pode não
+remover as demais.
+Exemplo: uma personagem encerra Atordoado no
+fim do turno. Isso não devolve a Ação Padrão que
+perdeu naquele turno. Da mesma forma, sair de
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+71

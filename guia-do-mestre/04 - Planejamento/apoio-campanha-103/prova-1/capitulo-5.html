@@ -1,0 +1,168 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Criar uma campanha | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'CRIAR UMA CAMPANHA';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    </style></head><body><nav aria-label="Conteúdo"><a href="#51-a-sessao-zero">5.1 A sessão zero</a><a href="#52-vinculos-e-interesses-dos-personagens">5.2 Vínculos e interesses dos personagens</a><a href="#53-de-uma-missao-a-proxima">5.3 De uma missão à próxima</a><a href="#54-faccoes">5.4 Facções</a><a href="#55-antagonistas">5.5 Antagonistas</a><a href="#56-arcos-finais-e-epilogos">5.6 Arcos, finais e epílogos</a></nav><p class="aviso-edicao">Amostra do capítulo 5 da nova estrutura. <a href="../apoio-conducao-102/capitulo-4.html">Na mesa de jogo</a>. <a href="consulta-de-regras.html">Consultar as regras</a>. A edição integrada anterior continua preservada.</p><main><article class="folha" id="capitulo-5"><header><p class="numero">CAPÍTULO 5</p><h1>Criar uma campanha</h1></header><div class="colunas">
+<p>Uma campanha se forma quando as escolhas de uma sessão passam a importar nas seguintes. As pessoas se reencontram, os lugares mudam e os personagens encontram novos motivos para agir. Você pode começar com uma missão e desenvolver o restante a partir do que a mesa quiser acompanhar.</p>
+<p>Este capítulo mostra como combinar a proposta, ligar aventuras e preparar as pessoas e organizações que voltam a aparecer. <strong>A festa da ponte</strong> é um esboço original usado para demonstrar esse trabalho. As missões que nascerem dele ainda precisam do preparo explicado em Preparar aventuras.</p>
+<h2 id="51-a-sessao-zero">5.1 A sessão zero</h2>
+<p>Antes de começar, conversem sobre o jogo que desejam compartilhar. Essa conversa é chamada de <strong>sessão zero</strong>. Pode acontecer num encontro próprio ou pelos meios de comunicação do grupo. Ao final, cada pessoa deve saber a proposta da campanha, como participar e quais acordos serão usados.</p>
+<p>Na guilda, parta dos acordos da comunidade e esclareça o que vale para aquela mesa. Numa campanha fechada, combine com os participantes. O sistema favorece a organização em guilda; os ensinamentos de preparo e condução também atendem a um grupo fixo.</p>
+<h3 id="uma-proposta-para-conversar">Uma proposta para conversar</h3>
+<p>Diga onde e quando a história acontece, quem são os personagens e que situações pretende oferecer. Em seguida, ouça o que interessa aos jogadores.</p>
+<blockquote>
+<p>“Vamos acompanhar feiticeiros ligados a um bairro que se prepara para uma festa. Alguns querem ajudar moradores; outros têm compromissos pessoais ali. Haverá ocorrências sobrenaturais, investigação e convivência. Podemos receber chamados e também seguir os interesses das personagens.”</p>
+</blockquote>
+<p>Uma jogadora pode querer interpretar alguém da vizinhança; outra prefere chegar por trabalho. Pergunte o que faz esses personagens cooperarem e que parte da proposta cada pessoa deseja explorar. Se alguém espera um jogo muito diferente, ajustem a proposta antes da primeira missão.</p>
+<h3 id="mundo-tom-e-limites">Mundo, tom e limites</h3>
+<p>Combinem época, lugar e relação com Jujutsu Kaisen: seguir o contexto da obra, jogar em paralelo ou adotar mudanças próprias. Registrem até onde podem comentar revelações da trama. O limite do grupo também vale para quem já conhece o mangá inteiro.</p>
+<p>O jogador pode conhecer menos do mundo que sua personagem. Explique o que ela teria aprendido pela história combinada. Quem conhece a obra também precisa distinguir esse conhecimento do que sua personagem sabe.</p>
+<p>Conversem sobre violência, terror, sofrimento e conflitos entre personagens. Decidam o que pode aparecer, o que será apenas mencionado e o que ficará fora. Ofereça também um meio de comunicar limites em particular. Uma pessoa pode pedir ajuste sem justificar uma experiência pessoal.</p>
+<p>Combinem como pedir uma pausa ou mudança de conteúdo e como retomar depois. Esses pedidos são tratados entre os participantes. Uma divergência entre jogadores também pede conversa, sem rolagem. Para roubo, ataque ou controle entre personagens, confiram as permissões da comunidade e os acordos específicos da mesa.</p>
+<h3 id="personagens-e-encontros">Personagens e encontros</h3>
+<p>Informe as opções, os recursos e o começo usados. O Livro de Regras 1.0 apresenta nível inicial padrão 2, com possibilidade de começar no nível 1, e patente inicial Grau 4. Confira as fichas, o equipamento e as capacidades antes de preparar uma ameaça que dependa deles. Nível e patente têm funções diferentes.</p>
+<p>Combine quem interpreta as pessoas ligadas às Origens e o que cada uma sabe. Para o Receptáculo, a recomendação é o mestre dar voz à outra presença mediante acordo com o jogador. Isso não concede controle do corpo; as modalidades e os efeitos seguem suas regras. Os casos específicos ficam em Personagens e técnicas.</p>
+<p>Organizem duração, agenda, comunicação, tratamento de faltas e acesso às fichas e notas. Decidam também o que acontece com a personagem de quem faltar. Composição da equipe, recompensas e participação em outras mesas seguem os acordos e as regras aplicáveis.</p>
+<div class="grupo-tabela"><h3 id="um-acordo-preenchido">Um acordo preenchido</h3><p>O quadro mostra uma proposta para <strong>A festa da ponte</strong>. Ajuste-a com quem for jogar.</p><table>
+<thead>
+<tr>
+<th>Assunto</th>
+<th>Acordo do exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lugar e obra</td>
+<td>Bairro contemporâneo original; apresentação essencial do mundo, sem revelações da trama</td>
+</tr>
+<tr>
+<td>Experiência</td>
+<td>Investigações e riscos sobrenaturais, com espaço para amizades e preparação da festa</td>
+</tr>
+<tr>
+<td>Conteúdo</td>
+<td>Violência breve; pausa ou ajuste por pedido de qualquer participante; conflitos entre personagens precisam de acordo</td>
+</tr>
+<tr>
+<td>Personagens</td>
+<td>Cada um escolhe um vínculo com o bairro e um motivo para cooperar; fichas conferidas no começo combinado</td>
+</tr>
+<tr>
+<td>Organização</td>
+<td>Agenda, duração e faltas decididas pelo grupo; notas acessíveis para retomar</td>
+</tr>
+<tr>
+<td>Primeiro encontro</td>
+<td>Vera convida os personagens a conhecer os preparativos na praça; cada jogador combina por que irá</td>
+</tr>
+</tbody>
+</table></div>
+
+
+<p>Use a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008">ficha de acordos</a> quando quiser guardar mais detalhes. Depois das primeiras sessões, retomem o que funcionou e o que desejam mudar. Os acordos podem acompanhar a experiência do grupo.</p>
+<h2 id="52-vinculos-e-interesses-dos-personagens">5.2 Vínculos e interesses dos personagens</h2>
+<p>Peça a cada jogador uma pessoa, um lugar ou um compromisso que sua personagem queira reencontrar. Pergunte o que aconteceu entre eles e o que ainda interessa agora. Acrescente a vontade da outra pessoa para preparar a conversa.</p>
+<p>Um <strong>Legado de história</strong>, no Livro de Regras 1.0, registra relações, lembranças e particularidades da vida. Ele oferece motivos e pessoas para procurar, sem ocupar escolhas de capacidades da Origem ou conceder benefício mecânico por si só. Aprendizados, itens e efeitos na ficha seguem suas próprias regras.</p>
+<h3 id="um-vinculo-entra-em-cena">Um vínculo entra em cena</h3>
+<p>Lia aprendeu a cuidar de ferramentas com Ema e quer visitá-la depois de uma missão. Ema deseja ouvir como ela está e saber se poderá cumprir um trabalho que haviam combinado. Prepare a situação atual da oficina e apresente o encontro. A jogadora escolhe o que conta e qual compromisso aceita.</p>
+<p>Na festa, uma personagem pode querer tocar com antigos colegas; outra deseja ajudar Vera; uma terceira acompanha alguém que nunca participou de uma celebração assim. Pergunte o que os jogadores querem desenvolver. Um interesse pode sustentar uma cena breve ou ajudar a escolher uma missão.</p>
+<h3 id="relacoes-que-acompanham-o-grupo">Relações que acompanham o grupo</h3>
+<p>Alterne interesses pessoais e assuntos comuns. Uma visita pode acontecer enquanto outra personagem cuida de seu próprio compromisso, seguindo as orientações de atenção em Na mesa de jogo. Nem todo vínculo precisa reunir a equipe inteira.</p>
+<p>Registre o que mudou: um pedido aceito, uma informação compartilhada ou uma promessa cumprida. Uma relação estável pode oferecer convivência e apoio. Uma discordância pode levar a novos termos ou ao fim daquele contato. O jogador continua escolhendo como sua personagem se sente e responde.</p>
+<p>Se houver uma perda que realmente afete o funcionamento de uma escolha da ficha, confira a regra com o jogador entre missões. Ela pode permitir rever a escolha atingida, dentro de seus limites. Uma mudança de relação, sozinha, não desliga todas as capacidades nem autoriza uma troca livre da Origem. As <a href="../../07 - Edicao de Leitura/capitulos/c06.html#s026">consultas de vínculos e mudanças</a> desenvolvem esses casos.</p>
+<h2 id="53-de-uma-missao-a-proxima">5.3 De uma missão à próxima</h2>
+<p>Antes de preparar a continuação, releia o resultado da sessão e pergunte o que o grupo quer retomar. Separe <strong>o que aconteceu</strong>, <strong>o que alguém pretende fazer</strong> e <strong>o que permanece como hipótese</strong>. Isso ajuda a partir do estado real da história.</p>
+<h3 id="encontre-uma-ligacao">Encontre uma ligação</h3>
+<p class="bloco-curto"><strong>Consequência:</strong> uma ameaça foi neutralizada e as pessoas querem voltar a usar o lugar. Prepare esse retorno e o que ainda precisa de cuidado.</p>
+<p class="bloco-curto"><strong>Vínculo:</strong> alguém deseja cumprir uma promessa, visitar uma pessoa ou resolver um assunto próprio. Prepare quem encontrará e a oportunidade de agir.</p>
+<p class="bloco-curto"><strong>Iniciativa:</strong> o grupo procura a causa de um problema ou decide oferecer ajuda. Prepare os meios de investigação e os riscos pertinentes ao caminho escolhido.</p>
+<p>Escolha a ligação com a mesa e desenvolva a próxima situação. Outras possibilidades podem ficar em poucas notas. Preparar um futuro distante em detalhe costuma deixar material sem uso quando as escolhas mudam o rumo.</p>
+<h3 id="uma-pergunta-para-o-arco">Uma pergunta para o arco</h3>
+<p>Um <strong>arco</strong> reúne aventuras em torno de uma questão mais ampla. Para a festa, você pode perguntar: <strong>como o bairro vai voltar a celebrar enquanto lida com o perigo numa passagem próxima?</strong> Essa pergunta comporta investigação, intervenção, mudança do local e convivência.</p>
+<div class="grupo-tabela"><p>Defina a causa do perigo, suas pistas e a ameaça antes de usar a investigação. A pergunta do arco orienta o preparo; a verdade da ocorrência precisa estar preparada para que as descobertas façam sentido.</p><table>
+<thead>
+<tr>
+<th>Situação e condição</th>
+<th>Escolha que oferece</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conhecer os preparativos, se o grupo aceitar o convite de Vera</td>
+<td>Em que ajudar e quais interesses pessoais retomar</td>
+</tr>
+<tr>
+<td>Examinar a passagem, se houver relatos acessíveis e interesse em apurar o perigo</td>
+<td>Como investigar e que meios levar</td>
+</tr>
+<tr>
+<td>Preparar a intervenção, depois de compreender o perigo e aceitar enfrentá-lo</td>
+<td>Objetivo, participantes, recursos e caminho de retirada</td>
+</tr>
+<tr>
+<td>Acompanhar a festa, quando houver condições conhecidas para realizá-la</td>
+<td>Como participar e o que dizer às pessoas reencontradas</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Essas são possibilidades ligadas por condições, não uma ordem obrigatória. Se o perigo já foi resolvido, use o resultado. Se o grupo encontrar uma solução diferente, atualize as notas. Uma festa em outro lugar pode atender ao interesse da comunidade mesmo deixando a ameaça original para outra ocasião ou equipe.</p>
+<h3 id="uma-campanha-mais-aberta">Uma campanha mais aberta</h3>
+<p>O grupo pode preferir seguir interesses variados, sem uma pergunta central duradoura. Mantenha alguns assuntos em andamento e escolham o próximo ao fim da sessão. Pessoas e lugares recorrentes podem ligar as aventuras mesmo quando elas têm causas diferentes.</p>
+<p>Na guilda, combine o alcance das mudanças e quem acompanha cada assunto. O calendário pode acompanhar aproximadamente os dias reais, mas confira quando cada missão ocorreu e quanto tempo passou naquela situação antes de narrar uma reação. Outra equipe precisa saber o que foi comunicado e o que ainda falta resolver. Uma nota curta ou a <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016">linha de continuidade</a> pode guardar isso.</p>
+<h2 id="54-faccoes">5.4 Facções</h2>
+<p>Uma <strong>facção</strong> é um grupo que age de forma organizada por um interesse. Pode colaborar, disputar recursos ou se opor aos personagens. Prepare-a quando suas ações forem voltar a importar; para um contato isolado, uma nota de pessoa pode bastar.</p>
+<p>Comece pela parte da organização que entra na campanha. Uma equipe de feiticeiros tem pessoas e meios próprios. Você pode prepará-la sem definir toda a escola ou família à qual pertence.</p>
+<h3 id="pessoas-desejos-e-meios">Pessoas, desejos e meios</h3>
+<p>Anote o objetivo atual, quem representa o grupo, o que pode usar e o que sabe. Depois, escolha seu próximo passo e como os personagens poderão percebê-lo. A <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020">ficha de facção</a> ajuda quando essas relações precisarem de um registro maior.</p>
+<p class="bloco-curto"><strong>Rede da Ponte.</strong> Moradores e voluntários querem realizar a festa e reencontrar a vizinhança. Vera rege o coral, reúne propostas e conhece quem organiza cada atividade. Dispõem das pessoas, dos contatos e dos materiais já combinados; Vera precisa conversar com os responsáveis antes de prometer algo em nome de todos. Agora quer ouvir quais atividades podem acontecer longe da passagem perigosa.</p>
+<p class="bloco-curto"><strong>Equipe do Portão.</strong> Um pequeno grupo de feiticeiros apura os relatos naquela passagem. Sora coordena a atuação da equipe e quer evitar que alguém se exponha antes da avaliação. Conhece os relatos recebidos, mas ainda precisa examiná-los. Pode propor uma vistoria e explicar o risco conhecido; não conhece por antecipação o que os personagens descobrirão.</p>
+<p>Os dois grupos e suas pessoas são criações deste exemplo. Compartilham o interesse em proteger a vizinhança, mas podem discordar sobre o lugar e o momento da festa. Um espaço alternativo pode atender parte dos dois objetivos; outra proposta cabível também pode surgir da mesa.</p>
+<h3 id="a-reacao-chega-ao-jogo">A reação chega ao jogo</h3>
+<p>Os personagens contam a Vera que pretendem examinar a passagem. Ela pode oferecer contato com quem presenciou os acontecimentos e perguntar quando terá notícias. Essa conversa oferece ajuda e cria uma expectativa que o grupo pode aceitar ou ajustar.</p>
+<p>Se Sora receber o mesmo relato, pode propor acompanhar a visita, conforme os meios disponíveis. Sem essa comunicação, ela segue com as informações que possui. Para cada reação importante, confira <strong>quem soube, o que mudou e o que essa pessoa consegue tentar</strong>.</p>
+<p>Acompanhe as organizações em foco quando houver tempo, informação ou oportunidade relevante. Não é preciso inventar uma ação para cada uma a cada encontro. Seus integrantes podem discordar, cumprir um acordo ou encerrar um assunto. A ferramenta é descritiva: não acrescenta pontos, turnos ou benefícios automáticos de facção.</p>
+<h2 id="55-antagonistas">5.5 Antagonistas</h2>
+<p>Um <strong>antagonista</strong> se opõe a algo que os personagens querem conseguir. Pode ser pessoa, criatura ou organização. Sua oposição precisa aparecer em ações: o que tenta impedir, quais meios usa e que sinais deixa.</p>
+<p>Comece por objetivo, ação atual, meios e limites. Saiba também o que pode encerrar a oposição: um acordo, a perda de um recurso, rendição, retirada ou derrota. Para um confronto, prepare a ficha e as regras pertinentes; posição importante na história não substitui capacidades.</p>
+<h3 id="uma-vantagem-que-pode-ser-perdida">Uma vantagem que pode ser perdida</h3>
+<p>Num exemplo separado, Nilo possui uma cópia de um relatório e afirma ser o único caminho para consultá-lo. Ele condiciona o acesso à contratação de seus serviços. A autora conserva outra cópia e pode ser procurada por um contato acessível, definido no preparo.</p>
+<p>Os personagens podem negociar, aceitar a oferta, procurar a autora ou abandonar aquela busca. Se conseguirem a outra cópia, Nilo perde o controle da negociação. Ele pode oferecer algo que ainda possua ou deixar de ser relevante. O resultado da escolha precisa valer na continuação.</p>
+<h3 id="apresentar-e-desenvolver-a-oposicao">Apresentar e desenvolver a oposição</h3>
+<p>O grupo pode conhecer um antagonista pelos efeitos de suas ações, por um relato ou por contato direto. Prepare o que cada fonte sabe. Isso permite construir a relação antes de um encontro, conservando caminhos para os personagens agirem contra o plano.</p>
+<p>Se houver confronto, defina o que o oponente pretende fazer quando a situação mudar. Uma fuga usa rotas, ações e recursos disponíveis. Uma rendição pode encerrar a oposição naquele momento. Quando ele for derrotado, siga sua ficha e as regras; um corte de descrição não devolve participação ativa.</p>
+<p>Uma vitória antecipada também pode encerrar o assunto. Releia o que resta e prepare suas consequências, em vez de acrescentar outra fase para prolongar a disputa. Se alguém voltar depois, explique como sobreviveu, o que conservou e o que quer agora. Uma relação pode mudar ou terminar sem revanche.</p>
+<h2 id="56-arcos-finais-e-epilogos">5.6 Arcos, finais e epílogos</h2>
+<p>Quando um assunto se aproximar do fim, retome sua pergunta e ouça o que os jogadores desejam concluir. Prepare as oportunidades de agir sobre esses assuntos. O resultado pode vir de confronto, negociação, retirada ou mudança de objetivo.</p>
+<h3 id="reconhecer-o-resultado">Reconhecer o resultado</h3>
+<p>Na festa, o grupo pode ter neutralizado a ameaça e ajudado a preparar a celebração. Outra possibilidade é realizar o encontro em lugar seguro, deixando a passagem para uma intervenção posterior. Diga qual problema foi resolvido e qual permanece, conforme o que aconteceu.</p>
+<p>Prepare a decisão final com os mesmos cuidados das demais aventuras. Se houver perigo, use as fichas e os sinais preparados. Se o grupo encontrar uma solução rápida ou diferente, deixe que ela mude o desfecho. O final precisa mostrar o resultado das escolhas, mesmo quando ele diverge do que você imaginou.</p>
+<h3 id="depois-do-momento-decisivo">Depois do momento decisivo</h3>
+<p>Pergunte o que cada personagem faz. Alguém quer ouvir o coral de Vera; outra pessoa procura um colega para agradecer; alguém prefere voltar para casa. Acompanhe as cenas que interessarem ou resuma o que já não pede decisão.</p>
+<p>Um <strong>epílogo</strong> mostra a vida depois desse desfecho. Pode acontecer no dia seguinte ou num futuro mais distante, conforme o interesse do grupo. O jogador pode escolher apenas uma ação presente e deixar o restante em aberto.</p>
+<p>Se as personagens continuarem em jogo, preserve os compromissos e as regras de suas fichas. Um relato de estudo não concede capacidades novas por si só. Em mundo compartilhado, combinem o alcance de um salto de tempo antes de mudar acontecimentos que afetem outras mesas.</p>
+<h3 id="quando-e-preciso-parar">Quando é preciso parar</h3>
+<p>Às vezes, o grupo precisa encerrar antes de resolver o arco. Conversem sobre um encontro final, uma conversa breve ou uma pausa com notas para retomar. Se não puderem jogar a decisão, registrem onde a história parou e o que cada participante quer preservar, sem decidir disputas importantes por quem não pôde participar.</p>
+<p>Na guilda, o fim da campanha de um mestre não encerra automaticamente as fichas ou todos os assuntos do mundo. Indique quem aceitou acompanhar cada pendência; o que ainda não tiver responsável continua assim registrado.</p>
+<h3 id="preparar-a-continuacao">Preparar a continuação</h3>
+<p>Ao guardar o arco, anote a pergunta respondida, o que mudou, os compromissos e os interesses futuros. Confira os estados das fichas e aplique recompensas, progressão e recuperação conforme suas regras.</p>
+<p>Por fim, conversem sobre o que funcionou e o que desejam mudar. Uma observação concreta pode virar tarefa: alguém aceita conferir uma referência, guardar as notas ou preparar uma ajuda para o próximo encontro. Registrem quem assumiu e o que ficou combinado. A experiência da campanha ajuda a escolher o próximo passo.</p></div></article></main><p class="rodape-tela"><a href="../103-campanha-e-conferencia-do-nucleo.md">Registro de revisão</a></p></body></html>

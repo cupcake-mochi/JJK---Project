@@ -1,0 +1,7 @@
+from revisar_guia94 import *
+headings(36,[('# Ferramentas, objetos e contenção','# Ferramentas e objetos amaldiçoados'),('## Entregue uma ferramenta utilizável','## Apresente a ferramenta'),('## Confira como a peça é usada','## Usar a ferramenta'),('## Desgaste acompanha o objeto','## Acompanhar o Desgaste'),('## Prepare o objeto da missão','## Preparar um objeto perigoso')])
+edit(source(36),[
+('não exige esse procedimento para toda ferramenta','não exige isso para toda ferramenta'),('Não use o procedimento de quebrar um item comum','Não use as regras de quebrar um item comum')])
+headings(96,[('### Uso e limite','### Exemplo de uso'),('## Aprovar a ficha e contratar o projeto','## Contratar a fabricação')])
+edit(source(96),[
+('exigiria outro parecer','exigiria outra avaliação'),('um procedimento geral de encantamento','uma regra geral para encantar itens'),('Acordo local, conhecido antes do gasto','Acordo feito antes do gasto'),('Não se importou o retrabalho de 50% dos projetos de entidades como regra de ferramentas. As quatro horas foram orçadas para esta limpeza e reinscrição. Também não se concedeu a vantagem da repetição própria da criação de entidades.','As quatro horas foram escolhidas pelo trabalho de limpar o anel e refazer a inscrição. O retrabalho de 50% e a vantagem na repetição dos projetos de entidades não são regras gerais de fabricação de ferramentas.'),('Etapa | Resolução','Etapa | O que acontece'),('Não se debitam as 18 horas','Não se descontam as 18 horas'),('Registro de continuidade','Registro do projeto')])

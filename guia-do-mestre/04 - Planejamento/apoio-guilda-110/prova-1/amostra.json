@@ -1,0 +1,76 @@
+{
+  "registro": 110,
+  "fonte": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+  "fonte_sha256": "d3a758d6caa4f5eb37b6c9715d03e69796019dc1b675d259ca846df8db175ce8",
+  "palavras_markdown": 2729,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Campanhas e guildas",
+      "id": "regra-1",
+      "inicio_linha": 25,
+      "fim_linha": 36
+    },
+    {
+      "titulo": "Combinados do grupo",
+      "id": "regra-2",
+      "inicio_linha": 47,
+      "fim_linha": 52
+    },
+    {
+      "titulo": "Reações e ataques de oportunidade",
+      "id": "regra-3",
+      "inicio_linha": 409,
+      "fim_linha": 432
+    },
+    {
+      "titulo": "Envenenado",
+      "id": "regra-4",
+      "inicio_linha": 1594,
+      "fim_linha": 1597
+    },
+    {
+      "titulo": "Vida a zero",
+      "id": "regra-5",
+      "inicio_linha": 1663,
+      "fim_linha": 1829
+    },
+    {
+      "titulo": "Descansos",
+      "id": "regra-6",
+      "inicio_linha": 1830,
+      "fim_linha": 1941
+    },
+    {
+      "titulo": "Experiência semanal",
+      "id": "regra-7",
+      "inicio_linha": 8708,
+      "fim_linha": 8731
+    },
+    {
+      "titulo": "Recompensas da guilda",
+      "id": "regra-8",
+      "inicio_linha": 8932,
+      "fim_linha": 8959
+    },
+    {
+      "titulo": "Dúvidas de regra",
+      "id": "regra-9",
+      "inicio_linha": 14782,
+      "fim_linha": 14785
+    },
+    {
+      "titulo": "Continuidade da guilda",
+      "id": "regra-10",
+      "inicio_linha": 14786,
+      "fim_linha": 14791
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "pdf": "04 - Planejamento/apoio-guilda-110/output/pdf/Ciclo-Maldito-Jogar-em-Guilda-Amostra.pdf",
+  "pdf_sha256": "e7263156c941f5dbf83917f1e753bba5a5b6baf99bb4e2c0c943af2fa81b2c0d",
+  "paginas": 5,
+  "limite": "Capítulo reorganizado sem nova regra de treinamento, criação de poderes ou progressão. Exemplos próprios mantêm sua identificação e as decisões existentes foram preservadas."
+}

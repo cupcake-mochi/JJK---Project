@@ -1,0 +1,873 @@
+{
+  "registro": 108,
+  "pdf_sha256": "213f0ad5168e6af39c4a353b0295edc8c0ce9ba8087d9976a46b271c7ad2b647",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 574
+    },
+    {
+      "pagina": 2,
+      "palavras": 653
+    },
+    {
+      "pagina": 3,
+      "palavras": 643
+    },
+    {
+      "pagina": 4,
+      "palavras": 622
+    },
+    {
+      "pagina": 5,
+      "palavras": 636
+    },
+    {
+      "pagina": 6,
+      "palavras": 636
+    },
+    {
+      "pagina": 7,
+      "palavras": 499
+    }
+  ],
+  "links_locais_conferidos": 118,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#81-rotina-e-descanso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#82-tempo-para-as-atividades"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#83-oficios-fabricacao-e-reparos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#84-comprar-emprestar-e-contratar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#85-ferramentas-e-objetos-amaldicoados"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "#86-recompensas-e-progressao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-consultas-105/casos-completos.html#B4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c04.html#s023"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c05.html#s103"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s034--caso-etiquetas-para-um-deposito"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s090"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s097"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s096"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s098"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s037"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../apoio-personagens-107/capitulo-7.html#ao-subir-de-nivel"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c08.html#s099"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s038"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s040"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s024"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html",
+      "destino": "../108-rotina-trabalho-e-recompensas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "capitulo-8.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-4"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-5"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-6"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-7"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-8"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-9"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-10"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-11"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-12"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-13"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-14"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-15"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-16"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-17"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-18"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-19"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#regra-20"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#dano--exaustao"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#pericias--tarefas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eqf-desgaste"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "#equip--eqf-uso"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#equip--eq-manipular"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../23-retirada-e-recuperacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../103-a-febre-dos-fios.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../90-reparar-personagem-de-corpo-construido.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../97-emprestimo-familiar-e-negociacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../97-emprestimo-familiar-e-negociacao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../96-fabricar-e-identificar-o-anel.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../98-objeto-selado-e-risco-de-ingestao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../37-recompensas-e-fechamento.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "07-personagens-e-tecnicas.md#ao-subir-de-nivel"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../99-limiar-feitos-e-promocao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../38-ficha-de-projeto-e-entrega.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../40-registro-de-dedicacao-por-ficha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+      "destino": "../24-registro-de-estado-e-socorro.md"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/08-entre-missoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "apoio-entre-missoes-108/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/108-rotina-trabalho-e-recompensas.md",
+      "destino": "apoio-consultas-105/casos-completos.html#B4"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/ideias-para-aventuras.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/104-ideias-combinaveis-e-exemplos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/105-folhas-para-a-mesa-e-acesso-aos-casos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/capitulo-6.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-inimigos-106/output/pdf/Ciclo-Maldito-Inimigos-e-Perigos-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/106-inimigos-perigos-e-consultas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/capitulo-7.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/107-personagens-tecnicas-e-escolhas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/capitulo-8.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/108-rotina-trabalho-e-recompensas.md"
+    }
+  ],
+  "palavras_html_conferidas": 4191,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 20,
+  "contas_e_parametros_conferidos": [
+    {
+      "caso": "Curto: recuperação e saldo",
+      "trecho": "recupera 2 e fica com 3",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Longo: metade mínima",
+      "trecho": "saldo 3 passa a 11",
+      "resultado": 11,
+      "esperado": 11
+    },
+    {
+      "caso": "Longo: saldo acima da metade",
+      "trecho": "saldo 18 continua 18",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "caso": "Entrada proporcional",
+      "trecho": "3 × 4 = 12 horas",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Ciclo de sete dias",
+      "trecho": "28 horas novas por ficha",
+      "resultado": 28,
+      "esperado": 28
+    },
+    {
+      "caso": "Limite na abertura",
+      "trecho": "no máximo 56 horas",
+      "resultado": 56,
+      "esperado": 56
+    },
+    {
+      "caso": "Rina: saldo novo",
+      "trecho": "Restam 18 novas",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "caso": "Rina: saldo que expira",
+      "trecho": "6 antigas restantes expirariam",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "Mei: horas distintas",
+      "trecho": "10 horas confirmadas, 8 reservadas e 10 livres",
+      "resultado": 28,
+      "esperado": 28
+    },
+    {
+      "caso": "Mei: abertura seguinte",
+      "trecho": "abre com 38 disponíveis",
+      "resultado": 38,
+      "esperado": 38
+    },
+    {
+      "caso": "Ciclo de quinze dias",
+      "trecho": "15 dão 60",
+      "resultado": 60,
+      "esperado": 60
+    },
+    {
+      "caso": "Abertura de quinze dias",
+      "trecho": "chegar a 120 horas",
+      "resultado": 120,
+      "esperado": 120
+    },
+    {
+      "caso": "Arrombamento mecânico",
+      "trecho": "dá +5",
+      "resultado": 5,
+      "esperado": 5
+    },
+    {
+      "caso": "Arrombamento eletrônico",
+      "trecho": "dar +3",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Dados para CD 14",
+      "trecho": "precisa de 9 ou 11",
+      "resultado": [
+        9,
+        11
+      ],
+      "esperado": [
+        9,
+        11
+      ]
+    },
+    {
+      "caso": "Traje: dedicação",
+      "trecho": "faltam duas horas",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Compra: saldo",
+      "trecho": "deixa ¥12.000",
+      "resultado": 12000,
+      "esperado": 12000
+    },
+    {
+      "caso": "Reposição: custo",
+      "trecho": "custam ¥8.000",
+      "resultado": 8000,
+      "esperado": 8000
+    },
+    {
+      "caso": "Anel: custo com retomada",
+      "trecho": "falha custa ¥38.000",
+      "resultado": 38000,
+      "esperado": 38000
+    },
+    {
+      "caso": "Anel: dedicação pessoal",
+      "trecho": "de 28, restam 22",
+      "resultado": 22,
+      "esperado": 22
+    },
+    {
+      "caso": "Venda: diferença",
+      "trecho": "¥14.000 a menos",
+      "resultado": 14000,
+      "esperado": 14000
+    },
+    {
+      "caso": "Venda: saldo financeiro",
+      "trecho": "passa a ¥26.000",
+      "resultado": 26000,
+      "esperado": 26000
+    },
+    {
+      "caso": "Instrução: dedicação",
+      "trecho": "22 horas disponíveis passam a 20",
+      "resultado": 20,
+      "esperado": 20
+    },
+    {
+      "caso": "Pastilha: duração restante",
+      "trecho": "uma hora e meia",
+      "resultado": 90,
+      "esperado": 90
+    },
+    {
+      "caso": "XP: quinta longa",
+      "trecho": "200 × 1/8",
+      "resultado": 25,
+      "esperado": 25
+    },
+    {
+      "caso": "XP: quinta padrão",
+      "trecho": "100 × 1/8 = 12,5",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "XP: terceira longa, falha com metade",
+      "trecho": "200 × 1/2 × 1/2",
+      "resultado": 50,
+      "esperado": 50
+    },
+    {
+      "caso": "Nível 2: saldo",
+      "trecho": "conserva 50 XP",
+      "resultado": 50,
+      "esperado": 50
+    },
+    {
+      "caso": "Limiar: saldo",
+      "trecho": "guarda 1.000",
+      "resultado": 1000,
+      "esperado": 1000
+    },
+    {
+      "caso": "Salário: duas participações",
+      "trecho": "75% de ¥300.000 = ¥225.000",
+      "resultado": 225000.0,
+      "esperado": 225000
+    }
+  ],
+  "tabelas_comparadas": [
+    "Três aberturas de dedicação: valores preservados da fonte 39",
+    "Quatro recompensas base iguais à regra publicada",
+    "Cinco referências de salário iguais à regra publicada",
+    "Níveis de efeitos iguais à regra; graus 1 e especial reunidos sem alterar o mínimo"
+  ],
+  "fontes_antigas_preservadas": 104,
+  "fontes_novas_anteriores_preservadas": 13,
+  "fontes_relacionadas_ao_capitulo": [
+    {
+      "id": "s006",
+      "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+      "sha256": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+      "destino_principal": "N02.1",
+      "usos_complementares": [
+        "N01.1",
+        "N02.2",
+        "N02.4",
+        "N02.6",
+        "N08.1"
+      ]
+    },
+    {
+      "id": "s023",
+      "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+      "sha256": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+      "destino_principal": "N04.7",
+      "usos_complementares": [
+        "N08.1",
+        "N01.6",
+        "B1"
+      ]
+    },
+    {
+      "id": "s103",
+      "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7",
+        "N08.1"
+      ]
+    },
+    {
+      "id": "s090",
+      "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N08.3",
+        "B3"
+      ]
+    },
+    {
+      "id": "s039",
+      "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+      "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+      "destino_principal": "N08.2",
+      "usos_complementares": [
+        "N08.1",
+        "N10.2"
+      ]
+    },
+    {
+      "id": "s034",
+      "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+      "sha256": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+      "destino_principal": "N08.3",
+      "usos_complementares": [
+        "N08.2",
+        "B4"
+      ]
+    },
+    {
+      "id": "s035",
+      "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+      "sha256": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+      "destino_principal": "N08.4",
+      "usos_complementares": [
+        "A5.6"
+      ]
+    },
+    {
+      "id": "s036",
+      "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+      "sha256": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+      "destino_principal": "N08.5",
+      "usos_complementares": [
+        "N08.3",
+        "B4"
+      ]
+    },
+    {
+      "id": "s096",
+      "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+      "sha256": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.3",
+        "N08.5"
+      ]
+    },
+    {
+      "id": "s097",
+      "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+      "sha256": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.4"
+      ]
+    },
+    {
+      "id": "s098",
+      "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+      "sha256": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.5"
+      ]
+    },
+    {
+      "id": "s037",
+      "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+      "sha256": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+      "destino_principal": "N08.6",
+      "usos_complementares": [
+        "N01.7",
+        "N10.4"
+      ]
+    },
+    {
+      "id": "s099",
+      "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+      "sha256": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.6"
+      ]
+    },
+    {
+      "id": "s045",
+      "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+      "destino_principal": "N09.5",
+      "usos_complementares": [
+        "B5",
+        "N08.2"
+      ]
+    },
+    {
+      "id": "s038",
+      "fonte": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "sha256": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+      "destino_principal": "A5.6",
+      "usos_complementares": [
+        "N08.3",
+        "N08.4"
+      ]
+    },
+    {
+      "id": "s040",
+      "fonte": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+      "destino_principal": "A5.7",
+      "usos_complementares": [
+        "N08.2",
+        "N10.2"
+      ]
+    }
+  ],
+  "pdf_integrado_preservado": true,
+  "limite": "Conferência de texto, contas herdadas e arquivos; não é nova simulação integral, teste de aprendizagem ou validação de equilíbrio."
+}

@@ -1,0 +1,98 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Para arrastar pelo chão, cada trecho de 1,5 m custa
+3 m de movimento; se houver terreno difícil,
+acrescente também esse custo. Se uma criatura
+resistir, capacidade de carga não substitui os
+requisitos de Agarrar.
+Transportar em grupo também tem regras de carga,
+mãos, percurso e momento de agir. Em combate,
+compartilhar um objeto não permite mover todos
+fora da vez de cada um agir sem Preparar ou outra
+permissão. A solução deve caber nos recursos dos
+envolvidos.
+Objetos como armas
+Escolha o perfil antes do ataque. Se funcionar como
+uma arma do catálogo, use a referência com seu
+treino, mãos e requisitos, conservando apenas
+propriedades compatíveis. Sem referência
+adequada, confira o perfil de improvisação do Livro
+de Regras 1.0: 1d4, atributos e faixas próprios,
+Maestria e desvantagem sem treino específico. O
+Volume permanece o do objeto. Os casos do cabo e
+da garrafa (p. 66) mostram ataque, dano e quebra
+anunciada.
+Ajudar e distrair
+Use Ajudar quando o personagem contribui de
+maneira possível para a tentativa de um aliado. A
+ação tem custo e prazo próprios; narrar incentivo
+não concede vantagem por si só.
+Exemplo de teste: uma pessoa segura uma lanterna
+na posição necessária para o colega examinar um
+mecanismo. Confira se a luz muda o acesso ao
+detalhe e se a contribuição é possível. Quem
+oferece luz não precisa necessariamente ter o
+mesmo treino de quem examina, mas deve cumprir
+os requisitos da ajuda que realmente presta.
+Para ajudar num ataque, o Livro de Regras 1.0 exige
+um inimigo ao alcance corpo a corpo de quem
+ajuda, capaz de perceber sua intervenção. Gaste a
+Ação Padrão de Ajudar e indique o aliado. O
+benefício vale para o próximo ataque daquele aliado
+contra o alvo dentro do prazo, até o começo do
+próximo turno de quem ajudou. Não causa dano
+nem concede ataques extras.
+Se o personagem quiser provocar a criatura para
+mudar os modificadores dos ataques dela, confira
+Provocar. Se for um pedido ou ameaça para obter
+uma resposta social possível, confira Influenciar.
+Uma fala descrita como distração não acumula
+automaticamente os benefícios de todas essas
+ações.
+Até onde vai uma habilidade
+Antes de aceitar uma aplicação incomum, leia o que
+a ficha permite fazer. Confira o efeito, os alvos, o
+alcance, a execução e o término. Uma técnica cujo
+conceito envolve puxar pode ter aplicações com
+alvos e forças diferentes. Mover um objeto não
+implica poder mover qualquer criatura, prédio ou
+efeito.
+Exemplo: um personagem quer puxar uma chave
+que consegue ver. Confira se sua aplicação pode
+atingir objetos, se tem alcance e passagem
+suficientes e como executa o efeito. Se puder, a
+chave pode chegar às suas mãos conforme aquela
+regra. A mesma descrição não autoriza puxar uma
+parede inteira no lugar dela.
+Quando a proposta está dentro da capacidade, deixe
+o recurso funcionar. Quando falta um efeito,
+explique o limite no ponto em que ele interfere:
+“Esse feitiço move objetos, mas não criaturas.” Isso
+dá ao jogador informação para escolher outro meio
+ou, depois da cena, criar um novo efeito pelas
+regras de criação.
+Depois da ação
+Depois de resolver, anote onde cada um ficou, quais
+recursos gastou e o que mudou no lugar. Uma caixa
+movida pode liberar passagem e alterar cobertura.
+Diga o que mudou e confira quem consegue
+perceber isso. Não aplique um efeito extra que
+ninguém declarou nem uma consequência
+automática sem regra.
+Anote o que será necessário para continuar a cena.
+Numa cena breve, uma nota sobre a porta aberta
+pode bastar. Num confronto, mantenha o mapa ou
+as posições coerentes e registre os efeitos com
+duração. Na guilda, passe adiante as mudanças que
+outra mesa precisará conhecer.
+Conferência rápida: um colega conseguiria dizer de
+onde a ação partiu, qual regra a resolveu e onde os
+envolvidos ficaram? Se faltar uma dessas respostas,
+esclareça antes da próxima tentativa que depende
+dela.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+61

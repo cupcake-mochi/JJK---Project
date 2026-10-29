@@ -1,0 +1,59 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Explique a exposição antes da entrada: quem
+permanecer dentro da nuvem na fase ambiental fará
+TR de Vigor CD 14. Falhar pode causar dano e
+Envenenado. O material age por contato com o
+corpo, inclusive estruturas construídas; prender a
+respiração não impede esse contato. Uma proteção
+que realmente isole o corpo pode impedir a
+exposição, se sua descrição cumprir essa função. Os
+perfis do exemplo não possuem essa proteção.
+Ficha do perigo
+Campo
+Como funciona neste exemplo
+Fonte
+Pó material no recinto, mantido pelo alimentador. Não é um feitiço em
+andamento.
+Quem fica exposto
+Cada criatura que estiver numa célula contaminada na fase ambiental, sujeita às
+proteções e imunidades aplicáveis.
+Momento
+Uma fase depois de todos os turnos e efeitos de fim de turno da rodada. Uma
+verificação por criatura nessa fase.
+TR
+Vigor CD 14. Sucesso: nenhum dano ou condição desta exposição. Falha: 1d6 de
+Veneno e aplicação de Envenenado, conforme a linha seguinte.
+Condição
+Se a criatura ainda não tiver Envenenado desta fonte, a falha aplica a condição.
+Enquanto essa aplicação estiver ativa, novas falhas causam o dano, mas não
+acrescentam outra aplicação nem renovam seu prazo.
+Saída da condição
+TR de Vigor CD 14 no fim de cada turno do alvo, sem ação, como condição
+Pesada. A aplicação também termina dez rodadas completas após começar, no
+mesmo ponto da fase ambiental.
+Exposição futura
+Depois que a aplicação terminar, outra falha pode aplicar a condição
+novamente. Sair da nuvem impede novas exposições, mas não encerra uma
+condição já aplicada.
+Concentração
+Cada aplicação de dano positivo exige seu TR próprio de Vigor, CD 14, depois
+do dano, enquanto houver Concentração. Essa CD foi escolhida para o perigo
+sem autor.
+Limpeza
+Alimentação fechada e exaustor ligado permitem dois avanços de limpeza, um
+por fase. A exposição daquela fase ocorre antes do avanço. Depois do segundo, a
+nuvem desaparece.
+Começo da contagem: a equipe pode observar e decidir suas primeiras ações na entrada. Quando alguém for
+entrar ou começar as intervenções, organize a iniciativa. A primeira fase acontece depois de todos terem
+recebido o primeiro turno. Se a sala for encontrada durante um combate já em andamento, preserve a ordem
+existente e informe o momento da próxima fase antes de alguém entrar.
+O critério é estar na área naquele ponto. Cruzar e sair antes da fase não provoca um teste de contato
+adicional neste exemplo. Não acrescente uma cobrança retroativa por passagem rápida. Turnos adicionais e
+entidades não repetem a fase ambiental.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+163

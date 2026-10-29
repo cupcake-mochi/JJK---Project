@@ -1,0 +1,170 @@
+{
+  "registro": 115,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-115/output/pdf/Ciclo-Maldito-Capitulos-8-a-10-Revisao-Textual.pdf",
+  "pdf_sha256": "fbc77e87b489c0c1d3e76f63ab3b2633ad0d0fb840036dbba0918e338271cb0c",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral dos três capítulos, conferências dirigidas e revisão.",
+      "alteracoes_registradas": 57
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das 18 páginas da primeira prova e releitura dos sete ajustes.",
+      "alteracoes_registradas": 7
+    }
+  ],
+  "polimento_posterior": {
+    "alteracoes_registradas": 5,
+    "escopo": "Cinco cortes de repetição relidos; sem terceira leitura integral."
+  },
+  "ajustes_de_diagramacao": [
+    "Vigia completo na mesma coluna",
+    "Introdução de Liberação irregular inteira",
+    "Tabelas de estados e aviso de descanso em largura total",
+    "Espaço entre parágrafos e preenchimento de células ajustados nos capítulos 9–10, sem redução da fonte",
+    "Página residual eliminada"
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-01.png",
+      "imagem_sha256": "5a978a429c5dff44e7bed8c78de02e6fed97b475784c61a43bb72afd3b19fce4",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Abertura de Entre missões; tabela de situações e tabela de descanso legíveis. Texto corrido continua entre colunas e páginas."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-02.png",
+      "imagem_sha256": "a6704a09fe2589bab0fa0639a35b5e3ad8b4df95661c3bb44c31f6cd38a5bf54",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Dedicação, entrada e afastamento; contas de proporção e saldo legíveis, com horas antigas e novas distintas."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-03.png",
+      "imagem_sha256": "bbec047c868b50aede96384a743263202e698156381d6c59232ce44ae469185e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Horas pendentes, outros ciclos e Ofícios; tabela do projeto legível, sem redução das letras."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-04.png",
+      "imagem_sha256": "0246735528566c3e2b8a1b0b3d22ba290869dd07858852aa27cc628e45747e79",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Reparo de Rina reunido; compras e reposição legíveis. O texto corrido de Cofre da Família continua na página seguinte."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-05.png",
+      "imagem_sha256": "33cbb299d4cb650de10903ba2b6551efe82d45b46dccf50ec31b9225404a3eb0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Negociação e ferramentas: exemplo de Kenji, grau e requisitos legíveis; tabela inteira na coluna."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-06.png",
+      "imagem_sha256": "e68e2ba95de2b653bc8286ea90af02ebe05ffd8d349a0e61a65a6083c5b39d4b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Anel, Desgaste e XP: contas preservadas e tabelas sem divisão de linha; texto do objeto continua entre colunas."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-07.png",
+      "imagem_sha256": "fd987ac457c5d348b8c3594907090e94837e52e4f1568308ab73502cd7a25033",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Limiar, salário e fechamento: tabelas e fórmulas legíveis. Espaço de fim de capítulo será reavaliado na integração."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-08.png",
+      "imagem_sha256": "7412d58e4835be715990f5add11b4ba973081f87a604ecc182c8d1b6d541e50d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Abertura de Pactos e entidades; tabelas de formas e ganhos legíveis. Exemplo do golpe e do braço permanece inteiro."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-09.png",
+      "imagem_sha256": "fdde821b711e04a10cfe89ca51b2beb44a378388429f42ed39c00fe81be1b6e2",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Criar um Pacto, Mostrar a mão, Overtime e Pacifismo: tabela e contas legíveis. A introdução de Liberação foi levada inteira à página seguinte."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-10.png",
+      "imagem_sha256": "af18313c667d7345dcbba28d1e6d8d9d75402d97a3eea1f2e34297645c65560d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Liberação irregular: teto, intervalo e zero no mesmo parágrafo; Promessa e condições de reparação legíveis."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-11.png",
+      "imagem_sha256": "3988cf3997714bab6bec08163d38a0f9f44766363bf405ee60e997056e4d7f99",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Aquisição, ritual, doma e tabela de horas: quatro colunas legíveis; texto continua sem perda de tabela."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-12.png",
+      "imagem_sha256": "ff3ffef7a45a3b9a970c4d09a46f9996c2384fcc19e6b6d3650c602b10cc4a9f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Teste, ajuda e retrabalho: ajustes de CD legíveis. Exemplo completo do Vigia reunido na coluna direita, incluindo 48 horas e ¥36.000."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-13.png",
+      "imagem_sha256": "36b41c52021db5c94f8269fa72051ecb482ed0da9fc8d22f6bd913c5e15ff634",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem após a última geração",
+      "observacao": "Reconstrução, transferência e estados da entidade: tabela inteira e explicações legíveis. Encerramento de capítulo, sem página residual."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-14.png",
+      "imagem_sha256": "7936062b5da053b8e130ca0fa904802fe8aaeb6044dbbda359559fc10d2caa31",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Abertura da guilda: acordo, revelações e continuidade legíveis; títulos não isolados."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-15.png",
+      "imagem_sha256": "030537c786de3fa2123ff0cfd9d05862f831e53d91681de03e5d1f874ec44f87",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Calendário e troca de mestre: tabela e preparação do ponto de pausa legíveis."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-16.png",
+      "imagem_sha256": "2550f8caf5e042d8f2732936a5c839ab4c1f1c0e94356ecd1668884bee990e7b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Mei e Akira: tabelas largas de antes e depois, urgência e retomada distintas; aviso final inteiro, sem quebrar entre colunas."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-115/pagina-17.png",
+      "imagem_sha256": "ec2cad3e7a6085abbdb0bd19bb67565df6b18c034a856d302b31266c9e44edaa",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após os ajustes posteriores",
+      "observacao": "Registros, dúvidas e responsáveis: tabela e textos cabem nas duas colunas; os dois parágrafos antes isolados na página 18 agora encerram a página 17."
+    }
+  ],
+  "limites": [
+    "Prova parcial da etapa 6. Revisão das consultas e do conjunto e diagramação integrada continuam pendentes.",
+    "Sem leitor humano independente, nova simulação ou declaração de equilíbrio."
+  ]
+}

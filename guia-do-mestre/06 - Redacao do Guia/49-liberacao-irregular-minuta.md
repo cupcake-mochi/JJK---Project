@@ -1,12 +1,12 @@
 # Liberação irregular
 
-**Exemplo experimental para a pré-1.0.** A direção do benefício, os números e a saída incorporam as escolhas do autor. Os procedimentos complementares foram redigidos para tornar o exemplo utilizável e estão identificados no [planejamento 52](<../04 - Planejamento/52-procedimento-da-liberacao-irregular.md>). Antes de adotar, mestre e jogador conferem a compatibilidade da ficha e registram a troca. O modelo não teve seu equilíbrio avaliado em mesa.
+**Pacto experimental.** Este modelo limita o gasto de energia e permite recuperar parte dela depois de uma interrupção total. Antes de usá-lo, mestre e jogador precisam conferir a ficha e registrar a troca. Seu equilíbrio ainda não foi testado em mesa. 
 
 ## A troca
 
 Sua energia não sai no ritmo desejado. Mesmo com a reserva cheia, pode haver um intervalo em que você não consiga gastar nenhum ponto. Quando o fluxo volta depois de uma interrupção total, **Refluxo** permite recompor parte da reserva.
 
-O Pacto é permanente e ocupa uma vaga enquanto existir. Mestre e jogador conferem a ficha e registram a troca antes da adesão, conforme a R53. A limitação não concede outro benefício se já tiver sido compensada na Origem ou num pacto de restrição.
+O Pacto é permanente e ocupa uma vaga enquanto existir. Mestre e jogador conferem a ficha e registram a troca antes da adesão, conforme o Livro de Regras 1.0. A limitação não concede outro benefício se já tiver sido compensada na Origem ou num pacto de restrição.
 
 ## Consulta rápida
 
@@ -31,9 +31,9 @@ A cada pagamento, confira as duas coisas: precisa haver saldo e espaço no teto.
 
 > Hana tem máximo 40, saldo 24 e sorteia 2: teto de 10 PE. Paga 9 por um feitiço de Classe 3. Fica com saldo 15 e limite restante 1. Mesmo tendo energia, não pode pagar Amortecer por 2 PE antes da próxima renovação.
 
-Confira o custo completo antes de iniciar a capacidade. Se não puder pagar, escolha outra opção; anunciar um pagamento conhecido como impossível não consome a ação nem cobra uma parcela. Não dividir o custo de uma única ativação entre intervalos, salvo permissão expressa da própria capacidade. Custos adicionais de Integridade, Restrições e outras regras entram na conta.
+Confira o custo completo antes de iniciar a capacidade. Se não puder pagar, escolha outra opção; anunciar um pagamento conhecido como impossível não consome a ação nem cobra uma parcela. Não divida o custo de uma única ativação entre intervalos, salvo permissão expressa da própria capacidade. Custos adicionais de Integridade, Restrições e outras regras entram na conta.
 
-Energia temporária também conta como gasto, seguindo a prioridade de consumo da R53. O teto considera o máximo de PE comuns; temporários não aumentam esse máximo. Limite zero com saldo positivo também não ativa consequências que exijam esgotar a reserva, como a inatividade de Núcleo Dependente por falta de PE. Uma entidade com reserva própria válida conserva seu procedimento: conte no teto somente a parcela paga pelo portador, incluindo o que ele precisar cobrir.
+Energia temporária também conta como gasto, seguindo a prioridade de consumo do Livro de Regras 1.0. O teto considera o máximo de PE comuns; temporários não aumentam esse máximo. Limite zero com saldo positivo também não ativa consequências que exijam esgotar a reserva, como a inatividade de Núcleo Dependente por falta de PE. Uma entidade com reserva própria válida segue suas regras: conte no teto somente a parcela paga pelo portador, incluindo o que ele precisar cobrir.
 
 ## Começo da sequência e começo do turno
 
@@ -57,7 +57,7 @@ Ao terminar esse primeiro turno positivo, apague a preparação, tenha usado o b
 
 Recuperação parcial também gasta o uso. Se faltar apenas 1 PE, recuperar esse ponto consome a ativação. Com reserva cheia, a ativação não entrega energia adicional. Você pode preferir conservar o uso e deixar a oportunidade expirar. Impedimentos à recuperação continuam valendo; a habilidade não afasta inconsciência, derrota ou outra condição por si só.
 
-A conversão de Padrão em Bônus da R53 pode pagar a ativação, se essa ação ainda estiver disponível. Ela não permite uma segunda recuperação com o mesmo uso. **Refluxo não cabe no mesmo turno de uma Ação Completa**, como Liberação Máxima ou Técnica Máxima: a Completa exige Padrão, Bônus e Movimento.
+A conversão de Padrão em Bônus do Livro de Regras 1.0 pode pagar a ativação, se essa ação ainda estiver disponível. Ela não permite uma segunda recuperação com o mesmo uso. **Refluxo não cabe no mesmo turno de uma Ação Completa**, como Liberação Máxima ou Técnica Máxima: a Completa exige Padrão, Bônus e Movimento.
 
 > Com máximo 40 e saldo 6, Hana recebe um resultado positivo depois de zero. Refluxo recupera 10: saldo 16. Uma Liberação Máxima de Classe 3 custa 14, mas não pode ser usada nesse mesmo turno porque a Bônus já foi comprometida. Uma aplicação comum continua possível se houver Padrão, saldo, teto e requisitos.
 
@@ -67,11 +67,11 @@ A limitação de gasto continua depois que o uso de Refluxo acaba. O Pacto não 
 
 Zero não encerra automaticamente uma barreira, proteção ou efeito que já foi pago. Confira seu prazo, concentração e demais requisitos. Se chegar um vencimento de manutenção e o pagamento não couber, aplique a consequência própria de não pagar.
 
-Na manutenção de talentos de entidades que a R53 suspende por falta de pagamento, não faça cobrança parcial. O efeito espera o próximo vencimento normal para tentar pagar outra vez; não acumula dívida. Refluxo usado depois do vencimento não o religa retroativamente.
+Na manutenção de talentos de entidades que o Livro de Regras 1.0 suspende por falta de pagamento, não faça cobrança parcial. O efeito espera o próximo vencimento normal para tentar pagar outra vez; não acumula dívida. Refluxo usado depois do vencimento não o religa retroativamente.
 
 > Hana tem saldo 6, máximo 40 e manutenção de 3 PE no começo do turno. Sorteia zero: o pagamento não cabe e o efeito segue sua regra de suspensão. No turno seguinte, sai 2: teto 10. Paga a manutenção, ficando com saldo 3 e limite restante 7. Usa Refluxo e vai a saldo 13; o limite continua 7. Um feitiço de Classe 2 por 6 deixa saldo 7 e limite 1. O de Classe 3 por 9 não caberia.
 
-Um feitiço Armado ou adiado e já pago pode resolver num intervalo de zero se cumprir seus requisitos e não exigir novo pagamento. Isso conserva o procedimento da montagem; o Pacto não concede Armado, Segura ou outras peças gratuitamente. Efeitos passivos sem custo de PE também conservam sua regra.
+Um feitiço Armado ou adiado e já pago pode resolver num intervalo de zero se cumprir seus requisitos e não exigir novo pagamento. Isso segue as regras da montagem; o Pacto não concede Armado, Segura ou outras peças gratuitamente. Efeitos passivos sem custo de PE também conservam sua regra.
 
 ## Mudanças de máximo
 
@@ -87,7 +87,7 @@ Essas combinações mudam o peso do benefício. Confira a ficha completa antes d
 
 ## Fora de combate
 
-Quando a ordem, a urgência ou a duração de um efeito importar, acompanhe turnos em rodadas de seis segundos, como na R53. A personagem recebe sua vez; no começo dela, sorteia normalmente. Não crie turnos extras por anunciar tentativas sucessivas. Se houver uma situação anterior à primeira vez da personagem, use o limite inicial descrito acima.
+Quando a ordem, a urgência ou a duração de um efeito importar, acompanhe turnos em rodadas de seis segundos, como no Livro de Regras 1.0. A personagem recebe sua vez; no começo dela, sorteia normalmente. Não crie turnos extras por anunciar tentativas sucessivas. Se houver uma situação anterior à primeira vez da personagem, use o limite inicial descrito acima.
 
 **Sem prazo relevante, manutenção em risco ou efeitos temporários dos quais a tarefa dependa, o mestre pode resumir a espera pela liberação necessária.** Descreva a passagem de tempo, resolva a oportunidade e registre o pagamento. Para usar Refluxo, a passagem resumida precisa comportar zero seguido de resultado positivo e sua ação; ela gasta o uso normal. A abreviação não promete um resultado favorável num número exato de segundos.
 
@@ -97,21 +97,21 @@ Se houver manutenção que possa falhar durante essa espera, efeito prestes a te
 
 Quando a mesa retomar uma sequência precisa depois de uma passagem de tempo resumida, não conserve um resultado alto escolhido durante o resumo. Abra o limite inicial, sem uma marca gratuita de Refluxo. Conserve saldo, usos consumidos e consequências já resolvidas. Uma sequência que apenas continua, sem essa passagem de tempo, conserva seu estado normal.
 
-Na guilda, registre o uso junto da ficha e informe o próximo mestre. Terminar uma sessão, mudar de mestre ou passar um ciclo administrativo não é automaticamente um descanso. Um descanso realmente ocorrido na ficção segue a R53. O procedimento também funciona numa campanha fechada, sem concessão semanal de energia.
+Na guilda, registre o uso junto da ficha e informe o próximo mestre. Terminar uma sessão, mudar de mestre ou passar um ciclo administrativo não é automaticamente um descanso. Um descanso realmente ocorrido na ficção segue o Livro de Regras 1.0. Essas regras também funcionam numa campanha fechada, sem concessão semanal de energia.
 
 ## Descanso, adesão e encerramento
 
 Um descanso curto ou longo efetivamente concluído renova o uso de Refluxo para um, sem acumular. Apague a preparação anterior e encerre a contagem de gasto anterior ao descanso; quando outra sequência relevante começar, abra o limite inicial. O descanso recupera recursos conforme a própria regra, sem ativar Refluxo automaticamente. Não trate uma pausa contínua como vários descansos.
 
-A adesão é combinada fora de uma cena em andamento, respeitando as vagas e os requisitos da R53. Ela não recupera PE. No primeiro estabelecimento do Pacto, o uso começa disponível; uma reentrada conserva o registro do uso desde o último descanso real, sem recarregá-lo pela troca de ficha.
+A adesão é combinada fora de uma cena em andamento, respeitando as vagas e os requisitos do Livro de Regras 1.0. Ela não recupera PE. No primeiro estabelecimento do Pacto, o uso começa disponível; uma reentrada conserva o registro do uso desde o último descanso real, sem recarregá-lo pela troca de ficha.
 
 **Saída voluntária:** peça fora de cena. O Pacto termina ao concluir o próximo descanso longo. Até lá, a limitação e a vaga permanecem, e o benefício conserva seu funcionamento. Ao terminar, apague o percentual, o gasto e a preparação; cesse a limitação e libere a vaga. A energia já recuperada permanece no saldo, sujeita ao máximo normal.
 
-Para uma nova adesão depois dessa saída, aguarde outro descanso longo efetivamente concluído; o mesmo descanso não serve para encerrar e refazer o Pacto. Essa referência dá um marco de saída verificável e impede alternar a limitação por cena.
+Para uma nova adesão depois dessa saída, aguarde outro descanso longo efetivamente concluído; o mesmo descanso não serve para encerrar e refazer o Pacto. Esse prazo deixa claro quando o Pacto termina e impede alternar a limitação por cena.
 
 > Hana pede para sair antes de iniciar a missão. Um descanso curto no trajeto renova o uso de Refluxo, mas mantém o Pacto. Depois de concluir a missão e o descanso longo, a saída se efetiva: perde o benefício, deixa de sortear limites e libera a vaga. Esse mesmo descanso não permite firmar Liberação irregular novamente; precisará concluir outro descanso longo antes da nova adesão.
 
-Este procedimento trata de encerramento voluntário. Uma perda imposta por outra regra segue essa regra; o exemplo não concede proteção contra ela nem inventa uma punição universal de quebra.
+Essas orientações tratam do encerramento voluntário. Uma perda imposta por outra regra segue essa regra; o exemplo não concede proteção contra ela nem inventa uma punição universal de quebra.
 
 ## Registro de mesa
 

@@ -1,10 +1,10 @@
 # Fabricar e evoluir o Vigia do depósito
 
-**Exemplo para a pré-1.0.** Esta seção completa o projeto de Rina apresentado em [Tempo, materiais e retomada](45-tempo-materiais-e-retomada-de-entidades.md). A ficha é original, montada com regras e talentos publicados na R53. Horas e materiais seguem a referência do Guia e o orçamento ilustrativo daquele projeto. O exemplo não estabelece preço universal nem dificuldade de encontro.
+**Exemplo para a pré-1.0.** Esta seção completa o projeto de Rina apresentado em [Tempo e materiais para criar entidades](45-tempo-materiais-e-retomada-de-entidades.md). A ficha é original, montada com regras e talentos publicados no Livro de Regras 1.0. Horas e materiais seguem a referência do Guia e o orçamento ilustrativo daquele projeto. O exemplo não estabelece preço universal nem dificuldade de encontro.
 
 ## O resultado antes do trabalho
 
-Kaito quer uma criatura capaz de vigiar um depósito, comunicar acontecimentos percebidos e defender uma passagem. Rina vai criar um **shikigami ligado a talismã de Classe 3**, para Kaito no nível 9. Não é o Vigia de papel publicado na R53 nem o Escriba adquirido por espaço conhecido.
+Kaito quer uma criatura capaz de vigiar um depósito, comunicar acontecimentos percebidos e defender uma passagem. Rina vai criar um **shikigami ligado a talismã de Classe 3**, para Kaito no nível 9. Não é o Vigia de papel publicado no Livro de Regras 1.0 nem o Escriba adquirido por espaço conhecido.
 
 **Definição:** uma pequena figura de papel inscrito que observa o local, reconhece vestígios de conjuração e lança agulhas de tinta contra alvos indicados.
 
@@ -12,7 +12,7 @@ Tem tamanho Pequeno, alma, duas pernas, dois braços e mãos. Caminha 9 m, possu
 
 O Ofício compatível do projeto é **Caligrafia**. Isso é requisito de quem fabrica, não treino concedido à criatura. Rina tem nível 13, Classe 4, Destreza 4, Maestria 2 e Caligrafia treinada. Kaito tem nível 9, Classe 3, Maestria 1 e usa Essência 4 na parcela de Defesa das entidades. Somente esses campos dos personagens são definidos para a demonstração.
 
-A aquisição não exige técnica de invocação e não ocupa espaço conhecido. Em compensação, depende do projeto, teste, talismã e limite de Classe. Não aplicar a evolução irrestrita de uma entidade de técnica.
+A aquisição não exige técnica de invocação e não ocupa espaço conhecido. Em compensação, depende do projeto, teste, talismã e limite de Classe. Não use a evolução sem limite de Classe das entidades de técnica.
 
 ## Ficha entregue no nível 9
 
@@ -65,7 +65,7 @@ Rina trabalha 20 horas no primeiro ciclo e 12 no segundo. Como fabrica Classe 3 
 
 Ela conserva as partes aproveitáveis, repõe ¥6.000 e dedica **16 horas de retrabalho**, metade do trabalho inicial. Na tentativa autorizada seguinte, com vantagem, tira 2 e 8; usa 8, total 14: sucesso. O total é **48 horas e ¥36.000**. Se houver ajuda válida para conceder vantagem, o ajudante precisa cumprir o mesmo tempo da operação em que ajuda; não divide essas horas com Rina.
 
-O cronograma de três ciclos da consulta [Tempo, materiais e retomada de entidades](45-tempo-materiais-e-retomada-de-entidades.md) é possível porque Rina escolheu dedicar até 20 horas por ciclo a esse projeto. Não é um prazo obrigatório de três semanas. Com tempo na história e 28 horas disponíveis no segundo ciclo, ela poderia terminar nele as 12 horas iniciais restantes e as 16 de retomada.
+O cronograma de três ciclos da consulta [Tempo e materiais para criar entidades](45-tempo-materiais-e-retomada-de-entidades.md) é possível porque Rina escolheu dedicar até 20 horas por ciclo a esse projeto. Não é um prazo obrigatório de três semanas. Com tempo na história e 28 horas disponíveis no segundo ciclo, ela poderia terminar nele as 12 horas iniciais restantes e as 16 de retomada.
 
 | Campo de entrega | Registro |
 |---|---|
@@ -81,7 +81,7 @@ O cronograma de três ciclos da consulta [Tempo, materiais e retomada de entidad
 
 No nível 9, a entrada normal custa **3 PE**. Em combate, Kaito usa Bônus para manifestar em espaço livre adequado a até 1,5 m. A entrada comum não concede básica naquele ciclo. Dar a primeira tarefa exige outra Bônus; ele pode converter sua Padrão para isso, conservando os demais requisitos.
 
-Uma tarefa executável é: “Vigie esta porta e me avise em voz alta se alguém entrar.” A criatura precisa perceber a entrada normalmente. A tarefa não concede percepção infalível nem um ataque fora da janela permitida. Fora de combate, entradas e saídas dispensam a ação, conservando energia; o comando de especial mantém seu procedimento.
+Uma tarefa executável é: “Vigie esta porta e me avise em voz alta se alguém entrar.” A criatura precisa perceber a entrada normalmente. A tarefa não concede percepção infalível nem um ataque fora da janela permitida. Fora de combate, entradas e saídas dispensam a ação, mas mantêm seu custo de energia; o comando de especial mantém suas regras.
 
 Durante um descanso longo, Kaito pode adiantar **1 PE**, retirado do saldo anterior à recuperação, para deixar uma carga no talismã. Depois, uma entrada comum carregada custa **2 PE**: 1 + 2 = 3. O adiantamento distribui o pagamento; não é energia gratuita. Não acumule duas cargas no mesmo talismã. A criação bem-sucedida não forneceu essa carga inicial.
 
@@ -119,13 +119,13 @@ A entrada normal agora custa 4 PE. Uma carga preparada nessa Classe adianta 2 PE
 
 ## Transferir sem fabricar outra criatura
 
-Este é um **ramo alternativo no nível 9**, antes da evolução acima. Kaito consente em transferir o Vigia a Mei, também nível 9 e Classe 3. Rina conduz quatro horas de trabalho fora de combate, com ¥2.000 de consumíveis por tentativa. O estado inicial é **40/56 PV, 28/28 Integridade, uma carga no talismã e nenhuma condição persistente**. Esta ficha não tem uso por descanso a renovar.
+Este é um **exemplo alternativo no nível 9**, antes da evolução acima. Kaito consente em transferir o Vigia a Mei, também nível 9 e Classe 3. Rina conduz quatro horas de trabalho fora de combate, com ¥2.000 de consumíveis por tentativa. O estado inicial é **40/56 PV, 28/28 Integridade, uma carga no talismã e nenhuma condição persistente**. Esta ficha não tem uso por descanso a renovar.
 
 A CD é 12 pela diferença entre Classes 4 e 3, sem desconto adicional de reconstrução. Rina tira 2 + 6 = 8, falha: Kaito conserva o vínculo. Após duas horas de retrabalho e mais ¥2.000, dados 4 e 9 com vantagem dão 15: sucesso. Total: **seis horas e ¥4.000**.
 
-Mei escolheu Essência para a Defesa das suas entidades e tem Essência 2, Maestria 1. O Vigia conserva nível, ficha, **40/56 PV, 28/28 Integridade e a carga**. Sua Defesa passa a **10 + 2 + 1 = 13** e Bloquear a **2d10 + 2**. Ataque, CD e perícias não mudam neste ramo porque a Maestria é a mesma. Posse e vínculo mudaram; não surgiu uma criatura com vida cheia.
+Mei escolheu Essência para a Defesa das suas entidades e tem Essência 2, Maestria 1. O Vigia conserva nível, ficha, **40/56 PV, 28/28 Integridade e a carga**. Sua Defesa passa a **10 + 2 + 1 = 13** e Bloquear a **2d10 + 2**. Ataque, CD e perícias não mudam neste exemplo porque a Maestria é a mesma. Posse e vínculo mudaram; não surgiu uma criatura com vida cheia.
 
-Herança usa o procedimento próprio após morte confirmada. A morte substitui o consentimento do dono anterior nessa via, sem dispensar requisitos, trabalho e teste. Não aplicar esse desfecho à mera inconsciência de Kaito.
+A herança segue suas próprias regras após a morte confirmada. A morte substitui o consentimento do dono anterior nessa via, sem dispensar requisitos, trabalho e teste. Não use essas regras se Kaito estiver apenas inconsciente.
 
 ## Se fosse um corpo de criação
 
@@ -139,4 +139,4 @@ O corpo fica inativo no local ao ser concluído. Ativar custa Bônus e entrada n
 
 Mantenha juntos a ficha, o orçamento, os resultados e o estado atual. Diferencie criação, evolução, reconstrução, recuperação e transferência. Na guilda, registre o tempo de cada ficha envolvida; em campanha fechada, distribua o trabalho pelo tempo disponível na história. A mudança de sessão não conclui um projeto nem repõe recursos.
 
-**R53 para consulta:** [construção](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-criar>), [talentos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passivas>), [criação e transferência](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#fabricacao--fab-conclusao>), [talismãs](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-talisma>) e [corpos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>).
+**Livro de Regras 1.0 para consulta:** [construção](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-criar>), [talentos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passivas>), [criação e transferência](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#fabricacao--fab-conclusao>), [talismãs](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-talisma>) e [corpos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>).

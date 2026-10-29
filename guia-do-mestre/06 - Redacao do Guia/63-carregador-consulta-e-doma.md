@@ -1,6 +1,6 @@
-# Carregador de sinos — consulta e Doma
+# Carregador de sinos: ficha e Doma
 
-**Ficha experimental, versão 1.** A situação completa está em [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md). Os parâmetros deste exemplo não são uma escala geral de inimigos. Nível, atributos, vida, massa, treinos e comportamento foram escolhidos para a proposta; Agarrar e as demais ações comuns conservam a R53.
+**Ficha experimental.** A situação completa está em [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md). Os valores deste exemplo não são uma escala geral de inimigos. Nível, atributos, vida, massa, treinos e comportamento foram escolhidos para a proposta; Agarrar e as demais ações comuns seguem o Livro de Regras 1.0.
 
 ## Ficha do encontro
 
@@ -19,15 +19,15 @@
 | Iniciativa / deslocamento | **d20 + 1** / **9 m** no chão, antes de penalidades. |
 | TRs | Físico **+4** por Força, treinado; Vigor **+3**; Intelecto **+1**; Espírito **+1**. |
 | Perícias treinadas | Atletismo **+4**, Furtividade **+2**, Percepção **+2**, Intuição **+2**. As demais usam só o atributo e respeitam acesso/requisitos. |
-| Equipamento / Ofícios | Nenhum; zero Volume inicial de itens. Não inventar ferramental a partir do corpo. |
+| Equipamento / Ofícios | Nenhum; zero Volume inicial de itens. Os sinos no corpo não fornecem ferramentas. |
 | Carga | Normal **8 Volume**; teto de arrasto **16**, descontados os itens próprios que passe a levar. Corpo próprio não é carga que ele leva. |
-| Ações | Uma Padrão, Movimento, Bônus e Reação, pelas regras comuns. Um ataque em Atacar. Pode converter ações pela R53; não tem Bônus ofensiva própria. |
+| Ações | Uma Padrão, Movimento, Bônus e Reação, pelas regras comuns. Um ataque em Atacar. Pode converter ações pelo Livro de Regras 1.0; não tem Bônus ofensiva própria. |
 | Proteções | Sem resistência, vulnerabilidade, imunidade ou RD concedida pela ficha. Capacidades válidas contra maldições conservam suas regras. |
 | Talentos / capacidades especiais | Nenhum. A identidade deste inimigo usa corpo, manobras e intenção. |
 
 **Pancada — Atacar, um ataque desarmado a 1,5 m.** +4 para acertar, **1d4 + 3 de Concussão**; crítico **2d4 + 3**. Sem PE e sem condição adicional. Pode usar parte livre do corpo compatível com o golpe. Aparar e Brecha, quando permitidos, conservam seus gatilhos, custos e limites; não oferecem agarrão em revide.
 
-**Agarrar — substitui esse único ataque.** Mão livre; alvo alcançável a até 1,5 m e até Grande; **TR Físico CD 12**. Falha: Agarrado, mão ocupada; sucesso: sem efeito. Sem ataque rolado, crítico, dano, PE, recarga ou deslocamento incluído. A fuga é Padrão/TR Físico contra a CD original 12. Guarda Aberta ou Inconsciente no agarrador, soltura, perda da mão ocupada ou separação além do alcance encerram. Agarrado não impede automaticamente atacar, conjurar, Bloquear ou levantar de Derrubado.
+**Agarrar — substitui esse único ataque.** Mão livre; alvo alcançável a até 1,5 m e até Grande; **TR Físico CD 12**. Falha: Agarrado, mão ocupada; sucesso: sem efeito. Sem rolagem de ataque, crítico, dano, PE, recarga ou deslocamento incluído. A fuga é Padrão/TR Físico contra a CD original 12. Guarda Aberta ou Inconsciente no agarrador, soltura, perda da mão ocupada ou separação além do alcance encerram. Agarrado não impede automaticamente atacar, conjurar, Bloquear ou levantar de Derrubado.
 
 **Derrubar / Empurrar — alternativas de Atacar.** Mesmos requisitos comuns de alcance e tamanho e **TR Físico CD 12**; substituem a Pancada. Na falha, Derrubado ou afastamento de **1,5 m** por caminho possível, respectivamente. Não somam dano. Não podem substituir oportunidade comum ou ataque de Bônus sem permissão específica.
 
@@ -37,7 +37,7 @@
 
 **Comportamento:** protege a caixa; tenta levar quem mexe nela para o recuo. Não golpeia inconscientes. Não persegue além da entrada; se atacado de fora, busca abrigo. Com 8 PV ou menos, solta a contenção e tenta se afastar no próprio turno. São escolhas de condução, sem ações adicionais ou invulnerabilidade.
 
-## Consulta do espaço
+## O lugar em resumo
 
 | Informação | Registro |
 |---|---|
@@ -54,9 +54,9 @@
 
 ## Se alguém quiser domar
 
-A aquisição é opcional e deve ter seu resultado conhecido antes da tentativa. Abaixo está a **conversão experimental preparada para este caso**, incluindo um talento próprio de transporte. Sua CE e seu recorte são propostas locais, não escolhas autorais universais. Se esta montagem não for a usada na sessão, prepare e mostre a substituta antes de oferecer a tentativa.
+A aquisição é opcional e deve ter seu resultado conhecido antes da tentativa. Abaixo está a **conversão experimental preparada para este caso**, incluindo um talento próprio de transporte. Sua Categoria de Efeito (CE) e seus limites foram propostos para este exemplo; ainda precisam de avaliação em mesa. Se esta montagem não for a usada na sessão, prepare e mostre a substituta antes de oferecer a tentativa.
 
-**Requisito:** invocador de nível 2 ou maior. O grupo pode ajudar a derrotar a maldição. A rota recomendada aqui é tentar fora do combate, depois de derrotá-la sem destruí-la. Não foi escolhido limiar de Doma antecipada; a permissão da R53 não estabelece metade da vida como padrão.
+**Requisito:** invocador de nível 2 ou maior. O grupo pode ajudar a derrotar a maldição. A rota recomendada aqui é tentar fora do combate, depois de derrotá-la sem destruí-la. Não foi definido um ponto para tentar a Doma antes da derrota; a permissão do Livro de Regras 1.0 não estabelece metade da vida como padrão.
 
 Antes do golpe final, confira o dano recebido após defesas na **ficha do encontro**, que tem 32 PV máximos. Uma ocorrência direta que alcance 32, ou excedente além de zero que **supere 16**, destrói. Igualar o excedente 16 não basta. Dano em área derruba, mas não destrói por si. Exemplo a partir de 5 PV: dano direto 21 deixa excedente 16, sem atingir os limites de destruição; dano direto 22 deixa excedente 17 e destrói. Efeitos posteriores precisam ser acompanhados.
 
@@ -82,7 +82,7 @@ Conserva nível 2, corpo, massa, atributos, alma, sentidos, comunicação e desl
 
 **Exemplo de Defesa:** invocador de Maestria 1 e Essência escolhida 2 dá B = 1: Defesa 12 e Bloquear 2d10 + 1. O invocador não substitui a Força da entidade pela própria nem lhe concede seus ataques adicionais.
 
-**Agarrar conservado na conversão:** a entidade gasta sua básica para Atacar e troca o ataque por Agarrar, cumprindo mão, alcance, tamanho e TR Físico CD 11 + M. Sem dano ou PE. A manobra não exige criar uma especial nova; segue a permissão de manobras e a condição Leve Agarrado da R53. A básica usada nessa tentativa não sobra para Pancada, Correr ou Desengajar no mesmo ciclo.
+**Agarrar conservado na conversão:** a entidade gasta sua básica para Atacar e troca o ataque por Agarrar, cumprindo mão, alcance, tamanho e TR Físico CD 11 + M. Sem dano ou PE. A manobra não exige criar uma especial nova; segue a permissão de manobras e a condição Leve Agarrado do Livro de Regras 1.0. A básica usada nessa tentativa não sobra para Pancada, Correr ou Desengajar no mesmo ciclo.
 
 ### Conduzir pelo chão
 
@@ -92,17 +92,17 @@ A capacidade conjunta é **5 + Força = 8 Volume**, incluindo corpo transportado
 
 Cada 1,5 m de arrasto custa 3 m de Movimento, ou 4,5 m em terreno difícil. O talento só permite essa acomodação pelo chão: não dá montaria, assento, elevação, voo, transporte por escadas incompatíveis ou armazenamento fora de campo. Não cobra PE ou básica apenas para sustentar o transporte válido; aplicar Agarrar e executar outras ações conserva seus custos. Não concede Bônus independente, segunda básica ou Reação extra.
 
-Ao sair de campo, a pessoa transportada e seus objetos ficam no mundo, no lugar alcançado, com seus estados. O próprio equipamento segue as regras de Carga e equipamento. Não há suporte mágico para quem ficar sem apoio nem passagem gratuita de um obstáculo. O corpo sólido também conserva a carga quando a entidade não pode ser recolhida.
+Ao sair de campo, a pessoa transportada e seus objetos ficam no mundo, no lugar alcançado, conservando recursos e condições. O próprio equipamento segue as regras de Carga e equipamento. Não há suporte mágico para quem ficar sem apoio nem passagem gratuita de um obstáculo. O corpo sólido também conserva a carga quando a entidade não pode ser recolhida.
 
 **Caso permitido:** pessoa de 72 kg, itens de 2 Volume e nenhum equipamento próprio: total 8. Com 9 m de Movimento, pode arrastar 4,5 m regulares ou 3 m difíceis. Se usar a básica para Correr, terá 18 m e poderá arrastar 9 m regulares; não usa a mesma básica para Agarrar. Se a entrada comum não lhe deu básica naquele ciclo, só dispõe do Movimento ainda válido e não pode aplicar uma nova contenção.
 
 **Caso impedido:** os mesmos 8 mais um item de 0,1 totalizam 8,1. O transporte pelo talento não pode começar; segurar a pessoa no lugar por Agarrar continua possível. Entregar o item à pessoa transportada não reduz a soma. Esta diferença em relação aos 16 do inimigo é expressa antes da aquisição, preservando a função dentro do limite de construção da entidade.
 
-### Estado depois da aquisição
+### Depois da Doma
 
-Registre posição, vida, Integridade, condições e dano excedente ainda relevante. O procedimento de Doma não é cura: conserve saldos sem ultrapassar os novos máximos, e zero continua zero. Uma captura a zero de vida e com Integridade cheia resulta em **0/14 PV e 7/7 de Integridade**; não em 14 PV. Se a Integridade estiver zero, ela precisa voltar a pelo menos 1 para o retorno.
+Registre posição, vida, Integridade, condições e dano excedente ainda relevante. Domar não cura a criatura: conserve saldos sem ultrapassar os novos máximos, e zero continua zero. Uma captura a zero de vida e com Integridade cheia resulta em **0/14 PV e 7/7 de Integridade**; não em 14 PV. Se a Integridade estiver zero, ela precisa voltar a pelo menos 1 para o retorno.
 
-Sem capacidade do invocador que permita recolher uma maldição domada, ela permanece no mundo. Não ofereça armazenamento ou manifestação à distância por analogia com um shikigami. Caída e sem recolhimento, fica **Desligada** no lugar, conforme a R53.
+Sem capacidade do invocador que permita recolher uma maldição domada, ela permanece no mundo. Não ofereça armazenamento ou manifestação à distância por analogia com um shikigami. Caída e sem recolhimento, fica **Desligada** no lugar, conforme o Livro de Regras 1.0.
 
 Com requisitos satisfeitos, religar a caída de nível 2 custa **Bônus e 2 PE do invocador**, no lugar do corpo; volta com **7/14 PV**, sem recuperar Integridade por esse pagamento e sem básica criada pelo retorno. A entrada comum, quando uma capacidade permitir recolhimento e manifestação, custa **Bônus e 1 PE**, não fornece básica naquele ciclo e exige outra Bônus para a primeira tarefa. Respeite o teto de duas entidades ativas e qualquer exceção efetivamente possuída.
 
@@ -119,4 +119,4 @@ A tarefa pode ser: “Mantenha aquela pessoa no lugar”, ou “leve este aliado
 - Doma: candidato, nível, CD, condições do TR, resultado e ficha mostrada:
 - Reencontro ou providência posterior:
 
-**Verificação realizada:** leitura dirigida da R53, contas de ações, percurso, carga, construção e limites, com casos determinísticos. Não houve sessão humana, simulação integral de combate ou comprovação de equilíbrio. O [registro 66](<../04 - Planejamento/66-encontro-do-carregador-de-sinos.md>) guarda fontes, histórico e alcance da conferência.
+**Exemplo experimental:** as regras e as contas foram conferidas. A ficha ainda precisa ser testada em mesa; seu equilíbrio não está confirmado.

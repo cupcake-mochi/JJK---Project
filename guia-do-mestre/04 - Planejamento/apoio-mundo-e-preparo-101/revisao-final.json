@@ -1,0 +1,96 @@
+{
+  "registro": 101,
+  "pdf_sha256": "e5c1fe305bc8bf14c32b696b8e5ce6f51a33ec7d80bd22b7438b6defda724b51",
+  "passagem_textual_1": {
+    "estado": "concluída",
+    "escopo": "Capítulos 2 e 3 completos; definições, instruções, regras e coerência do encontro original",
+    "ajustes": [
+      "Explicitada a percepção de pessoas comuns diante de maldições",
+      "Separadas a referência de regras e a criação original do encontro",
+      "Preservada a orientação acordada para voz do Receptáculo",
+      "Sem Técnica apresentada separadamente das sete Origens"
+    ]
+  },
+  "passagem_textual_2": {
+    "estado": "concluída",
+    "escopo": "Releitura integral nas provas; referências, cortes de repetição e contexto de cada exemplo",
+    "ajustes": [
+      "249 palavras de explicações repetidas retiradas do capítulo 3",
+      "Horário de Helena distingue tempo da história e conversa fora de cena",
+      "Método de preparo segue as necessidades da situação, sem sequência obrigatória de escolhas",
+      "Subtítulos encurtados na última passagem, com releitura e nova inspeção das oito páginas"
+    ]
+  },
+  "revisao_visual": [
+    {
+      "pagina": 1,
+      "imagem": "visual-final/p-1.png",
+      "estado": "inspecionada",
+      "observacao": "Abertura e definições com hierarquia visível; continuação entre colunas preserva três linhas do parágrafo.",
+      "imagem_sha256": "88cf093c1ae512bcf263f4d2926d915332c428a8f28d1be9a1724dff951b86a2"
+    },
+    {
+      "pagina": 2,
+      "imagem": "visual-final/p-2.png",
+      "estado": "inspecionada",
+      "observacao": "Técnicas, instituições e autoridade com subtítulos curtos; parágrafos e títulos legíveis.",
+      "imagem_sha256": "1eb51f2df47b3c8ca8340a4fe9e411458daca9baa4ba886799b0a8a2a6c0ffbb"
+    },
+    {
+      "pagina": 3,
+      "imagem": "visual-final/p-3.png",
+      "estado": "inspecionada",
+      "observacao": "Origens com títulos e perguntas identificáveis; sem perfis cortados no fim de página.",
+      "imagem_sha256": "1da8fdda53e7a865964c0f994325ca1eb5a3f5d7cb2cc0027290692a7a9e2b2b"
+    },
+    {
+      "pagina": 4,
+      "imagem": "visual-final/p-4.png",
+      "estado": "inspecionada",
+      "observacao": "Cotidiano e definição de campanha; fechamento e remissão legíveis.",
+      "imagem_sha256": "a15a316e122d20de0c154bf947ed7b8c56655355a198ee2efcddba1af23cda8d"
+    },
+    {
+      "pagina": 5,
+      "imagem": "visual-final/p-5.png",
+      "estado": "inspecionada",
+      "observacao": "Cinco perguntas e exemplo; perfis breves de Helena e Nina agora inteiros.",
+      "imagem_sha256": "49bce1eaf1be3aa70a93312789f618c1822c53b42dc7cdd8126a7e347b027521"
+    },
+    {
+      "pagina": 6,
+      "imagem": "visual-final/p-6.png",
+      "estado": "inspecionada",
+      "observacao": "Perfil de Raul, espaço e investigação; títulos ligados ao texto e margens preservadas.",
+      "imagem_sha256": "dab87b54e16f21c12c4c4b36518b1b1c76b75f2634df4dc9e9e1057d0f962ab8"
+    },
+    {
+      "pagina": 7,
+      "imagem": "visual-final/p-7.png",
+      "estado": "inspecionada",
+      "observacao": "Investigação, risco e novas ideias; exemplos destacados inteiros.",
+      "imagem_sha256": "f00f33a6016e26f419d736d1d833f8e6dcc37c5f236fd6f9ed1199dc6c41aed5"
+    },
+    {
+      "pagina": 8,
+      "imagem": "visual-final/p-8.png",
+      "estado": "inspecionada",
+      "observacao": "Preparo reduzido e folha preenchida separados por traço; duas colunas em cada bloco, sem página vazia intermediária.",
+      "imagem_sha256": "532c3a2b95c312c520297adfcdd8970ab1aced2218d480027d8b511a248cfb24"
+    }
+  ],
+  "problemas_visuais_conhecidos_sem_correcao": [],
+  "historico": [
+    "Prova inicial de nove páginas preservada em prova-1",
+    "Compactação textual e proteção de perfis ainda resultaram em nove páginas",
+    "Removida a quebra obrigatória antes da folha; conclusão e consulta passaram a ocupar a mesma página final, total de oito páginas",
+    "Subtítulos encurtados; oito páginas finais novamente inspecionadas. Prova anterior preservada em prova-antes-dos-titulos."
+  ],
+  "nao_equivale_a": [
+    "leitura humana externa",
+    "sessão observada",
+    "certificação de equilíbrio",
+    "conclusão integral da etapa 3",
+    "integração das novas fontes no PDF de 357 páginas"
+  ]
+}

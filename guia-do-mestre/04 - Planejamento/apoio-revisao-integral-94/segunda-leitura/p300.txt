@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+REGISTROS DA CAMPANHA
+Envenenado: fonte pó da sala, TR de saída Vigor
+CD 14 no fim de cada turno de Mei. A primeira
+tentativa será no fim de Mei 2. Se não terminar
+antes, essa aplicação expira na fase da rodada 11,
+antes de verificar outra exposição. Não causa dano
+por si e não impõe desvantagem ao Vigor.
+Não há Concentração ou manutenção neste
+percurso. Entidades, empréstimos e Pactos não
+foram acrescentados a este recorte; num registro
+real, confira esses campos nas fichas e nos registros
+próprios. Não importe uma obrigação de outro
+exemplo só porque o nome do personagem é igual.
+O lugar e o próximo perigo
+A alimentação está fechada pelo comando manual;
+o pino de cerâmica continua intacto. O exaustor
+está ligado. A nuvem ocupa A1-A12 e B1-B12; A0 e
+B0 estão limpos. O primeiro avanço já foi
+registrado.
+Na próxima fase, resolva primeiro a exposição de
+quem permanecer dentro. Depois, mantendo os
+dois comandos no estado correto, o segundo avanço
+elimina a nuvem. Limpar a área não recupera vida
+ou janela de socorro e não encerra
+automaticamente Envenenado.
+Se Mei continuar dentro e sem atendimento: a
+volta ao ponto da queda reduz a janela de três para
+duas; uma nova aplicação de dano positivo que
+alcance sua vida pode reduzi-la para uma. O
+próximo mestre precisa saber disso antes de pedir a
+decisão da personagem.
+Esse registro informa o que está em andamento.
+Não obriga a jogadora a escolher a retirada do
+percurso escrito. Outra declaração precisa ser
+resolvida com os meios, posições e prazos atuais.
+Antes de retomar
+Antes da primeira declaração, quem retoma lê o
+ponto e os estados com os envolvidos. A partir
+deles, precisa conseguir responder: quem age agora,
+onde pode chegar, o que ainda pode gastar e qual
+consequência ocorrerá se ninguém resolver a
+urgência.
+Exemplo de divergência na nota: o resumo curto
+trouxe “duas rodadas de janela”, mas a folha de
+queda trouxe três. Não escolha um número pela
+ordem dos arquivos. Confira o evento: houve
+apenas a aplicação que iniciou a queda, sem uma
+volta completa ou dano posterior. O valor correto
+neste ponto é três. Corrija a nota, identifique a
+fonte da divergência e informe os afetados antes de
+continuar.
+Essa correção usa Vida a zero do Livro de Regras
+1.0. Não concede uma rodada extra de benefício
+nem altera o que já aconteceu. Se uma divergência
+real depender de uma regra ainda em dúvida, use a
+nota da folha de condução (p. 305), registre a
+decisão da sessão e quem vai conferir depois.
+Uma retomada possível
+O percurso abaixo conserva as escolhas do exemplo
+com Mei ferida e usa, no encerramento da
+condição, o mesmo resultado do exemplo principal
+da consulta O pó na sala de conservação (p. 161).
+Momento
+Resolução
+Mei 2
+Usa Movimento e Bônus convertida para percorrer 18 m até A0. Insistir permite
+essa atuação; Envenenado não reduz o deslocamento. No fim do turno, tira 9 + 3 =
+12 no TR de saída e continua Envenenada.
+Akira 2
+De B0, usa Padrão e 6 PE em Sutura, compatível com Mei. Os quatro d8 dão 2, 3, 4 e
+6: 15 de cura. Completa o tratamento antes da fase 2. Mei passa a 15 PV e recebe
+uma Sequela. Akira fica com 24 PE.
+Fase 2
+Os dois estão fora da área contaminada; não há nova exposição. O segundo avanço
+elimina a nuvem. Mei já saiu de Morrendo: não há janela dessa queda a reduzir
+neste ponto.
+Mei 3
+No fim do turno, tira 12 + 3 = 15 e encerra Envenenado. Não paga ação ou PE por
+esse TR.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+300

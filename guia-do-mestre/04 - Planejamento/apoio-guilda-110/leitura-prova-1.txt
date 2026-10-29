@@ -1,0 +1,346 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                JOGAR EM GUILDA
+
+
+
+CAPÍTULO 10
+
+
+Jogar em guilda
+Numa guilda, mestres diferentes oferecem missões      Quem mantém os arquivos não recebe, apenas por
+e os jogadores continuam suas personagens de uma      isso, autoridade para aprovar poderes ou
+mesa para outra. As escolhas precisam deixar          recompensas.
+marcas que a próxima equipe consiga conhecer:
+                                                      O mestre apresenta situações e conduz suas
+quem foi ajudado, o que mudou no lugar, quais
+                                                      consequências; os jogadores escolhem as ações de
+recursos foram gastos e o que continua por
+                                                      suas personagens dentro das regras. Conflitos entre
+resolver.
+                                                      personagens dependem dos acordos da comunidade
+Ciclo Maldito favorece esse modo de jogar. Os         e dos participantes. Uma discussão entre pessoas é
+mesmos cuidados servem a uma campanha fechada,        tratada por conversa, não por uma disputa de dados
+com menos pessoas dividindo os registros. A guilda    para impor uma decisão.
+organiza o jogo; dentro da história, os personagens
+                                                      Qualquer participante pode pedir pausa ou
+podem pertencer a escolas, famílias ou grupos
+                                                      mudança de conteúdo. Interrompa, esclareça o
+independentes. Não precisam trabalhar para uma
+                                                      necessário e ajuste com o grupo. Limites
+única instituição.
+                                                      comunicados em particular não precisam ser
+As regras usadas aqui ficam disponíveis para          expostos às demais mesas: compartilhe o cuidado a
+conferir os exemplos e a continuidade das fichas.     respeitar com quem precisa conhecê-lo, sem exigir
+                                                      uma justificativa pessoal.
+10.1 Compartilhar o mundo                             Mudanças que chegam a outra mesa
+Comece pelos acordos da comunidade. Antes de
+                                                      Separe o que aconteceu, o que alguém pretende
+anunciar uma mesa, confira proposta, época, lugar,
+                                                      fazer e o que ainda é hipótese. Um chamado aceito
+opções de ficha e regras usadas. Comunique o que
+                                                      não confirma que a intervenção ocorreu. Uma sala
+aquela missão exige e o que os participantes podem
+                                                      interditada não está reparada apenas porque outra
+esperar. A sessão zero ajuda a combinar tom,
+                                                      equipe quer usá-la.
+participação, conflitos e revelações da obra.
+                                                      No anexo do centro cultural, Mina aceitou
+Conhecer o mangá inteiro não é requisito para
+                                                      acompanhar o chamado, mas a criatura continua no
+jogar ou mestrar. Informe o contexto que os
+                                                      depósito na versão sem confronto. Outra mesa
+personagens teriam aprendido e respeite o limite
+                                                      pode assumir a intervenção se combinar essa
+de revelações combinado para aquela mesa. Um
+                                                      continuidade. Não deve abrir com “a ameaça foi
+conhecimento do jogador não chega
+                                                      resolvida” apenas porque o caso foi encaminhado.
+automaticamente à personagem; uma iniciante
+                                                      A linha de continuidade conserva essas diferenças.
+pode receber a explicação que sua personagem
+experiente conheceria.                                Quando duas mesas puderem afetar o mesmo lugar,
+                                                      combinem a ordem dos acontecimentos e quem
+O que combinar em comum                               avisa sobre o resultado. O próximo mestre parte do
+                                                      que foi confirmado, preservando escolhas e
+Deixem acessíveis a versão das regras, as opções
+                                                      soluções anteriores. Uma alteração ampla precisa
+autorizadas, as condições para participar e os
+                                                      chegar a quem usa aquela parte do mundo antes de
+lugares dos registros. Combinem quem confere
+                                                      ser tratada como fato comum.
+fichas, quem acompanha dúvidas e como
+comunicar mudanças que afetam outras mesas.           Um arco de uma equipe também não encerra
+Esses trabalhos podem ser divididos entre pessoas     automaticamente a história pessoal de uma
+que aceitem realizá-los.                              personagem ausente. Registre os interesses
+                                                      envolvidos e quem aceitou acompanhar a
+Uma decisão precisa mostrar seu alcance: esta
+                                                      continuação. O que ninguém assumiu permanece
+sessão, esta personagem, esta campanha ou toda a
+                                                      como pendência, sem prometer um resultado em
+guilda. Aceitar uma capacidade experimental numa
+                                                      nome de outra pessoa. Criar uma campanha
+ficha não a inclui automaticamente no catálogo.
+                                                      desenvolve vínculos, facções e arcos.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                1
+CICLO MALDITO / GUIA DO MESTRE                                                                            JOGAR EM GUILDA
+
+
+
+                                                                Separe horas confirmadas, reservadas e livres, sem
+10.2 Calendário e atividades                                    usar a mesma parcela duas vezes. A
+                                                                folha de dedicação acompanha a ficha; o projeto
+O calendário do mundo acompanha                                 conserva o trabalho já realizado. Entrada,
+aproximadamente os dias reais, conforme o                       afastamento, retorno e mudanças de ciclo seguem
+combinado da guilda. Ainda é preciso saber quando               Tempo para as atividades.
+cada missão ocorre e quanto tempo ela representa.
+Uma noite jogada em três sessões continua sendo                 Prazos que continuam
+uma noite. O intervalo entre encontros não
+                                                                Pacto, uso por descanso, prazo de selo e janela de
+consome sozinho rodadas de socorro.
+                                                                socorro têm condições próprias. Fechar a semana
+ Registro              O que acompanha                          administrativa não recupera a personagem ou
+                                                                encerra essas obrigações. A jornada de Overtime
+ Agenda das            Dia, horário, participantes e previsão   também não é o saldo de dedicação.
+ mesas                 do encontro
+                                                                Registre o prazo na unidade e no ponto que sua
+ Tempo da              Data ou intervalo da missão, último      regra usa. “Três rodadas, contadas na fase
+ história              acontecimento e prazos em curso
+                                                                ambiental” permite retomar uma urgência.
+ Dedicação             Horas por ficha no ciclo comum e         “Resolve na semana seguinte” não informa o estado
+                       trabalho que cabe na história            da cena. Em campanha fechada, use o mesmo
+                                                                cuidado com o intervalo vivido pelo grupo, sem
+ XP semanal            Missões concluídas por jogador,
+                                                                precisar adotar um ciclo administrativo.
+                       mesmo usando fichas diferentes
+
+ Salário, se
+ adotado
+                       Participações e fechamento próprios
+                       da política opcional
+                                                                10.3 Passar a missão
+                                                                Uma passagem precisa permitir que outra pessoa
+Informe abertura, fechamento e fuso dos ciclos. O               continue sem reconstruir tudo de memória. Use a
+padrão do Guia continua sendo 28 horas novas por                folha de retomada para um resumo curto e aponte
+ficha a cada sete dias, com saldo válido somente no             os registros completos quando houver recursos ou
+ciclo seguinte e gasto das horas antigas primeiro.              efeitos em andamento.
+Essas horas não exigem postagem diária e não
+                                                                Escreva o último evento resolvido e o próximo a
+aumentam porque o jogador participa de mais
+                                                                resolver. Inclua fichas e versões, posições, ações e
+missões.
+                                                                respostas gastas, recursos atuais e efeitos com
+O desconto semanal de XP é por jogador e usa a                  fonte, prazo e saída. Separe a informação dos
+conclusão da missão. Uma missão longa de várias                 personagens da que ainda pertence ao preparo do
+sessões ocupa uma posição, não uma por encontro.                mestre.
+Salário e recompensa por mestrar continuam
+                                                                Antes de continuar, quem recebe confere o ponto e
+opcionais. Essas contagens e seus exemplos estão
+                                                                os estados com os envolvidos. Precisa conseguir
+em Entre missões.
+                                                                dizer quem age agora, o que pode gastar e qual
+                                                                urgência vem depois. Uma lacuna que muda esse
+Missões e trabalhos que se cruzam
+                                                                resultado deve ser conferida antes da próxima
+Antes de confirmar um projeto, confira se a                     declaração.
+personagem estava disponível, onde trabalhava e
+quais meios tinha. Ter horas livres não a coloca na             Uma pausa na sala de conservação
+oficina durante uma viagem incompatível. Uma
+                                                                Este percurso retoma o exemplo em que Mei entrou
+espera pode permitir outra atividade, se não exigir
+                                                                ferida e chegou a zero de vida pelo pó. Use o
+supervisão.
+                                                                mapa e a ficha do perigo, as capacidades referidas
+Se a mesma ficha entrar em outra missão enquanto                no caso completo de passagem e o registro de
+a anterior ainda está aberta, combinem a ordem na               estado. O exemplo usa recortes de ficha; numa
+história e identifiquem as dependências. Um item                mesa real, envie as fichas completas efetivamente
+fabricado depois não aparece retroativamente na                 usadas.
+primeira missão. Um resultado que ainda depende
+de uma queda, perda ou gasto não resolvido fica
+pendente até ser possível conferi-lo.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                           2
+CICLO MALDITO / GUIA DO MESTRE                                                                          JOGAR EM GUILDA
+
+
+
+Ponto da pausa: toda a fase ambiental da rodada 1             O grupo sabe onde ficam os comandos, como
+já foi resolvida. O próximo evento é o começo do              interromper a alimentação e que o pó age por
+turno de Mei na rodada 2; depois vêm Akira e a fase           contato. Não descobriu a causa técnica do defeito.
+ambiental 2. Nenhum desses eventos aconteceu                  A passagem conserva esse limite, sem acrescentar
+durante a troca de mestre.                                    uma pista que ninguém obteve.
+
+ O que             Estado na pausa                            Uma retomada possível
+ continua
+                                                              Mei usa Movimento e Bônus convertida para
+ Lugar             Alimentação fechada, exaustor ligado,      percorrer 18 m até A0. Insistir conserva sua
+                   limpeza em um de dois avanços; a nuvem     capacidade de agir, e Envenenado não reduz seu
+                   permanece
+                                                              deslocamento. No fim do turno, tira 9 + 3 = 12 no
+ Mei               No fundo, em A12; 0/44 PV, 36/36 PE,       TR e continua Envenenada.
+                   55/55 Integridade; Morrendo, consciente
+                   por Insistir, e Envenenada; sem Sequela
+                                                              De B0, Akira usa Padrão e 6 PE em Sutura,
+                   anterior                                   compatível com Mei. Os d8 dão 2 + 3 + 4 + 6 = 15.
+                                                              Completa o tratamento antes da fase 2: Mei fica
+ Akira             Na entrada limpa, em B0; 51/51 PV, 30/30   com 15 PV, sai de Morrendo e recebe uma Sequela.
+                   PE, 65/65 Integridade; sem condição
+                                                              Akira fica com 24 PE. O requisito não é subtraído
+                   aplicada no percurso
+                                                              da cura para deixá-la com 1 PV.
+ Próxima           Retirada e atendimento antes da volta ao
+                                                              Na fase 2, ambos estão fora da área contaminada.
+ decisão           ponto que conta a janela de socorro
+                                                              Não há nova exposição; o segundo avanço elimina a
+                                                              nuvem. Isso não remove Envenenado. No fim de
+A0 é a entrada limpa da faixa de Mei, a 18 m de
+                                                              Mei 3, 12 + 3 = 15 supera CD 14 e encerra a
+A12. Na rodada 1, ela usou Padrão para fechar a
+                                                              condição, sem ação ou PE por esse TR.
+alimentação e Movimento com Bônus convertida
+para chegar ao fundo. Akira usou Padrão para ligar            Esse é um caminho possível, não a escolha
+o exaustor. As Reações não foram gastas. As                   obrigatória da jogadora. Outro plano precisa partir
+próximas ações pertencem aos turnos ainda não                 dos mesmos estados e meios. Se Mei tivesse
+iniciados; a passagem não fornece uma atuação                 escolhido Aguentar, a passagem registraria
+extra.                                                        Inconsciente e o tratamento correspondente; não
+                                                              receberia esta caminhada como se tivesse escolhido
+A urgência de Mei                                             Insistir.
+O registro da queda tem máximo de referência 44,               Ao fim do    O que registrar
+primeira escolha de Insistir na cena e Classe                  percurso
+máxima 2. O tratamento necessário é ⌈44 ÷ 3⌉ = 15,
+abaixo do teto de 30. Ainda recebeu 0 de                       Mei          A0; 15/44 PV, 36/36 PE, 55/55
+tratamento. Tem três rodadas de janela, contadas                            Integridade; uma Sequela; sem
+                                                                            Morrendo ou Envenenado do perigo;
+na fase ambiental, no ponto em que caiu. Não está
+                                                                            uma escolha de Insistir nesta cena
+estável.
+                                                               Akira        B0; 51/51 PV, 24/30 PE, 65/65
+O dano que iniciou a queda não consumiu outra                               Integridade; sem efeito aplicado no
+rodada pelo excesso. Antes da fase 2, ainda não                             percurso
+houve uma volta completa. Se uma nota disser
+“duas rodadas”, confira o acontecimento e corrija a            Lugar e      Nuvem eliminada; comandos no estado
+                                                               pendência    indicado; equipamento interditado;
+nota; não escolha um valor pela ordem dos
+                                                                            comunicar a oficina e preparar o reparo
+arquivos. A folha de socorro conserva esses
+campos.
+                                                              Nenhum descanso foi concluído. O recorte não
+Envenenado vem do pó. Neste perigo, a saída é TR              informa o tamanho anunciado da missão, a posição
+Vigor CD 14 no fim de cada turno de Mei; a                    semanal dos jogadores ou a política de
+primeira tentativa será no fim de Mei 2. Sem saída            remuneração. Quem fecha confere esses dados
+anterior, a aplicação termina na fase da rodada 11,           antes de lançar a recompensa, sem inventar valores
+antes de verificar outra exposição. Isso é uma                ou duplicar um lançamento. Limpar a nuvem, tratar
+duração deste perigo, não de toda condição                    a pessoa, reparar a máquina e fechar recompensas
+Envenenado.                                                   são tarefas diferentes.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                          3
+CICLO MALDITO / GUIA DO MESTRE                                                                                JOGAR EM GUILDA
+
+
+
+                                                                    condições. Não importe uma habilidade ou
+10.4 Escolher e manter os registros                                 obrigação de outro exemplo porque o nome
+                                                                    coincide.
+Comece pela informação que precisa continuar.
+Uma missão simples pode caber em notas breves.                      Corrigir ou mudar uma regra
+Acrescente uma folha quando ela ajudar a
+                                                                    Quando surgir divergência, confira a capacidade e
+acompanhar algo que não cabe bem nessas notas.
+                                                                    a regra geral, o último evento resolvido e o registro
+Não é preciso preencher todos os formulários em
+                                                                    da mudança. Um cálculo copiado errado pede
+toda mesa.
+                                                                    correção. Uma decisão ainda incerta precisa de
+ Necessidade                     Registro a usar                    consulta e, durante a sessão, do combinado
+                                                                    provisório previsto em Na mesa de jogo.
+ Preparar e conduzir             Folhas para a mesa e fichas de
+ uma missão                      perigos necessárias                Guarde caso concreto, trecho consultado, decisão
+                                                                    usada, quem vai conferir e o resultado posterior.
+ Guardar pistas e                Descobertas, quando uma nota       Comunique a correção aos afetados. Mudar o texto
+ seus limites                    no preparo não bastar
+                                                                    de um registro não refaz silenciosamente uma
+ Continuar uma cena              Retomada, com a                    sessão concluída, e uma decisão local não se torna
+ ou uma                          linha de continuidade para         regra comum sem a comunicação pertinente.
+ consequência                    assuntos extensos
+                                                                    Mantenha separado o que ocorreu na história do
+ Acompanhar                      Estado e socorro, junto da ficha   que foi decidido sobre a regra. Se uma proposta
+ recursos e queda                completa                           alterar aquisição, custo, recuperação ou outra
+ Executar trabalho               Projeto e dedicação, ligados
+                                                                    condição, identifique-a como proposta e avalie seu
+ fora de missão                  pelo trabalho correspondente       alcance. Corrigir uma referência difícil de
+                                                                    encontrar não exige mudar a mecânica que ela
+ Manter acordos e                Registros de capacidade, Pacto     explica.
+ aquisições                      ou entidade, conforme o
+                                 assunto
+                                                                    10.5 Ouvir o grupo e dividir o trabalho
+A consulta de ferramentas localiza também facções,                  Ao encerrar, recolha uma dificuldade concreta de
+convivência do Receptáculo, inimigos, habilidades                   leitura ou condução e, se houver interesse, algo que
+e chefes. Use as folhas completas para trabalhos                    o grupo deseja retomar. Uma conversa breve pode
+que precisam delas; a consulta rápida serve para                    bastar. Pessoas novas devem conseguir localizar
+encontrar o que levar.                                              regras e entender decisões sem depender de
+                                                                    conhecer a obra ou o histórico inteiro da guilda.
+Um lugar para o estado atual
+                                                                    Registre primeiro o que foi relatado. “Não
+Escolha onde cada informação é atualizada e
+                                                                    encontramos quando a Reação volta” pede localizar
+aponte essa localização nas outras notas.
+                                                                    ou esclarecer a regra. “A Reação deveria voltar em
+Identifique data ou momento, versão e quem
+                                                                    outro momento” propõe mudá-la. As duas
+conferiu. Uma cópia sem atualização não pode
+                                                                    observações merecem atenção, mas pedem
+competir com a ficha atual só porque foi mais fácil
+                                                                    trabalhos diferentes.
+encontrá-la.
+                                                                    Se alguém confundir o fim da nuvem com o fim de
+O projeto do Traje registra quatro horas de reparo
+                                                                    Envenenado, experimente dois marcadores: um do
+e os materiais. A folha de dedicação indica quais
+                                                                    lugar e outro da condição, com seus próprios
+horas Rina trabalhou nesse projeto. O inventário
+                                                                    prazos. Confira na próxima aplicação se isso ajudou
+mostra quem está com a peça e se a entrega
+                                                                    a distinguir os efeitos. Não conclua de imediato que
+ocorreu. Confirmar o trabalho não devolve horas ao
+                                                                    a duração da condição precisa mudar.
+saldo nem entrega outra cópia do item.
+Nome e nível não identificam todas as escolhas de                   Tarefas com responsáveis
+uma personagem. Os exemplos usam versões                            Divida trabalhos concretos conforme interesse e
+diferentes de Mei e de outras pessoas para ensinar                  disponibilidade: atualizar o próprio estado, guardar
+situações distintas. Na mesa, confirme a revisão                    notas públicas, conferir uma dúvida ou preparar
+efetiva da ficha, capacidades completas, usos e                     outra missão. Anote quem aceitou, o que falta e
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                               4
+CICLO MALDITO / GUIA DO MESTRE                                                               JOGAR EM GUILDA
+
+
+
+quando pretende fazer. Uma sugestão sem              nova oportunidade; um exemplo escrito ajuda a
+responsável não deve aparecer como tarefa já         conferir a regra, mas não prova que pessoas já
+assumida.                                            conseguiram aprendê-la.
+Na passagem da sala, quem fecha confere              Num grupo fixo, as mesmas notas podem ser
+recompensas com os jogadores; quem preparar a        consultadas pelo próprio mestre na sessão seguinte.
+continuação acompanha o aviso à oficina. Isso não    Numa guilda, outras pessoas precisam recebê-las.
+afirma que a máquina já foi consertada. Se ninguém   Em ambos, o próximo encontro começa do que
+puder cuidar da pendência agora, mantenha seu        realmente aconteceu, com espaço para os jogadores
+estado e combinem como retomá-la.                    escolherem o que vem depois.
+Uma melhoria também precisa voltar a quem fez a
+observação. Informe o que mudou e onde encontrar
+a versão atual. Compare seu uso quando houver
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                              5
+

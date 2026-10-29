@@ -1,0 +1,93 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+O treino aplicado é o da referência aprovada para
+esse modo de uso. Isso não concede treino geral
+com qualquer objeto nem transforma o cabo em
+ferramenta amaldiçoada. Um cabo mais frágil,
+longo ou pesado precisaria de outra avaliação antes
+do dado.
+Improvisar uma arma: a garrafa
+Rina tem Força 2, Destreza 4 e Maestria 1. Já segura
+uma garrafa comum, manejável com uma mão. O
+mestre não encontra referência adequada no
+catálogo e anuncia o perfil de improvisação para
+esse objeto:
+Uso
+Ataque
+Dano e alcance
+Corpo a corpo
+d20 + Força 2 + Maestria 1 = +3
+1d4 + 2, Concussão, a 1,5 m.
+Arremesso
+d20 + Destreza 4 + Maestria 1 = +5
+1d4 + 2, Concussão; faixas 6/18 m.
+O tipo Concussão foi escolhido para o impacto da
+garrafa intacta. Rina não possui treino que cite
+armas improvisadas, então ataca com desvantagem.
+Maestria continua no bônus; ela não é retirada pela
+falta desse treino. O objeto não recebe Fineza nem
+qualquer propriedade especial.
+O mestre informa antes da escolha que a garrafa se
+quebrará no impacto deste arremesso. Rina percebe
+um adversário corpóreo a 9 m, com trajeto livre.
+Não há restrição especial de dano desse alvo neste
+exemplo. Ele mantém Defesa 14. Rina usa a Ação
+Atacar e arremessa:
+• Está na faixa longa, o que também dá
+desvantagem. Duas fontes de desvantagem
+continuam usando dois d20 e o menor, sem um
+terceiro dado.
+• Os dados mostram 17 e 9. Usa 9: 9 + 5 = 14,
+acertando.
+• O d4 mostra 3: 3 + 2 = 5 de Concussão, antes das
+defesas do alvo.
+A garrafa quebra conforme o aviso. Ela não volta à
+mão nem pode ser recolhida intacta. Usar um caco
+depois exigiria conferir se ele serve para a nova
+tentativa, seu tipo de dano, mãos e riscos; o perfil
+anterior não acompanha automaticamente os
+pedaços.
+Num crítico válido, os dados básicos seriam 2d4 +
+2, somando Força uma vez. Com desvantagem,
+obter 20 num dos dados não basta se o dado
+escolhido for menor. Um total 20 depois do bônus
+também não é um 20 natural.
+Ter treino com improvisadas retiraria a
+desvantagem por falta de treino, mas o arremesso a
+9 m ainda estaria na faixa longa. A 6 m, restaria
+somente a penalidade por falta de treino, se
+presente; a 19,5 m, o objeto não alcançaria. Exigir
+duas mãos por causa do tamanho de outro objeto
+ocuparia ambas sem aumentar seu dano
+automaticamente.
+Golpear com a coronha de uma arma de fogo ou
+arremessar uma arma sem Longo Alcance também
+exige conferir a improvisação. O treino habitual
+não cobre automaticamente esse uso, e o dano do
+disparo não vira dano da coronhada.
+O que anotar
+Para trajetórias, guarde origem, ponto de mudança
+e direção final. Para equipamentos instalados,
+anote apoio, carga suportada, ligação e tempo de
+preparo. Para contenções, registre o material, a
+parte presa e quais ações continuam possíveis. Para
+um objeto improvisado recorrente, conserve o perfil
+combinado e o risco anunciado, evitando que ele
+mude de dano entre mestres sem revisão.
+Na guilda, guarde esse registro junto ao objeto e à
+ficha que o transporta. Numa campanha fechada, a
+mesma nota cabe no inventário e no preparo. Os
+perfis do cabo e da garrafa são exemplos locais; não
+exigem aprovar uma nova tabela geral de armas
+improvisadas.
+Para praticar: mude o primeiro trecho do ricochete
+de 6 m para 9 m e mantenha o total abaixo de 12 m.
+Depois dê a Rina treino com improvisadas,
+conservando o alvo a 9 m. Identifique qual fonte de
+desvantagem permanece em cada caso.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+69

@@ -1,0 +1,65 @@
+{
+  "registro": 104,
+  "pdf": "04 - Planejamento/apoio-inspiracao-104/output/pdf/Ciclo-Maldito-Ideias-para-Aventuras-Amostra.pdf",
+  "pdf_sha256": "bfcfb248fe6a7c3ce880b713700091042bd80cf4b5916d534c8260bd3649af30",
+  "fonte_sha256": "653088fdeea9dc4fa840cfcd78b8cde187532f53d1efefcafbf0627460f8ee8e",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-inspiracao-104/visual-final/p-1.png",
+      "imagem_sha256": "5aba8a3bdbd886ba976600c35a1bdf1b5a61ddb4b36e84707e2062d76ebde52b",
+      "inspecionada": true,
+      "observacao": "Cabeçalho, título e introdução claros; seis primeiras ideias visíveis. Cada título permanece com seu bloco. Espaço final conserva os cartões inteiros, sem reduzir fonte."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-inspiracao-104/visual-final/p-2.png",
+      "imagem_sha256": "fc3618be198d50f3712ad9017fe8669bd1537e47a98b47516e0fe04d1d834dc5",
+      "inspecionada": true,
+      "observacao": "Últimas duas situações, seis pessoas e primeiros dois lugares em duas colunas. Perfis completos sem título isolado ou corte de bloco."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-inspiracao-104/visual-final/p-3.png",
+      "imagem_sha256": "c2345b7813047fe5b5d5f2c0fa5fdde0406fd9faad976c080e104e7ecb1a5d9f",
+      "inspecionada": true,
+      "observacao": "Dois lugares restantes, seis complicações e início do primeiro exemplo. Hierarquia visual diferencia listas e combinação; linha temporal do caso fica legível."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-inspiracao-104/visual-final/p-4.png",
+      "imagem_sha256": "ad295640a8fd63d3fb2a3b375be07249402d70827f04642627a2172964d59dd2",
+      "inspecionada": true,
+      "observacao": "Diálogo destacado, fontes de informação, leitura energética e começo da travessia. Conta de Carga explícita. A parte inferior fica livre para manter mapa e resolução juntos na página seguinte; conferir novamente na integração global."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-inspiracao-104/visual-final/p-5.png",
+      "imagem_sha256": "9efd227d98d5beae3f58467bccdb48d47555b61717792145c6702c37b6730c8c",
+      "inspecionada": true,
+      "observacao": "Mapa original seguido da resolução em duas colunas. Rótulo de 1,5 m separado da corrente; margens, grade e percurso legíveis. Ensaio e encerramento cabem integralmente, sem página residual."
+    }
+  ],
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral da redação e das seis páginas iniciais; distinção entre ideia curta e exemplo preenchido; condições de regras e autonomia das pessoas.",
+      "ajustes": "Cortes de avisos repetidos e frases longas, título Um ensaio entre amigos, conta de transporte explícita."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Releitura integral do texto final nas cinco páginas, depois dos cortes e da mudança de altura do mapa; horários, física do percurso, meios de investigação e remissões.",
+      "resultado": "Condições e escolhas preservadas. A investigação não exige Sentir Energia; o contorno é seguro e pode ser escolhido por Dara. Sem benefícios ou regras gerais novas."
+    }
+  ],
+  "ajustes_visuais": [
+    "Rótulo de 1,5 m deslocado à esquerda da medida vertical; não cruza a indicação da corrente.",
+    "Mapa com altura máxima de 85 mm, conservando rótulos legíveis.",
+    "Cortes textuais e ajuste de imagem evitam sexta página residual. Corpo permanece Spectral 10,25/13,2 pt."
+  ],
+  "limites": [
+    "Amostra separada, ainda não inserida no PDF integrado de 357 páginas.",
+    "Quebras e espaço restante serão conferidos novamente após a integração.",
+    "Revisão editorial interna; sem leitura externa ou sessão observada nesta entrega."
+  ]
+}

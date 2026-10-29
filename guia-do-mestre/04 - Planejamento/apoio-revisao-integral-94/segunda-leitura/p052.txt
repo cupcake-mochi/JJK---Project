@@ -1,0 +1,104 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Localizar não é enxergar
+Uma criatura pode ser localizada por um som ou
+uma busca energética sem ser vista. Isso informa
+onde está naquele momento, dentro do alcance da
+busca. Não concede automaticamente visão,
+identidade ou compreensão de sua técnica.
+Exemplo de busca energética: num caso separado
+do piloto, Rina examina uma sala com Sentir
+Energia +6. Uma criatura oculta, alcançada pela
+busca a 9 m e sem obstáculo sólido que a esconda
+completamente, tem Furtividade guardada 16. Rina
+gasta a Ação Padrão e tira 10: 10 + 6 = 16. Ela
+localiza aquela fonte porque igualou o resultado
+necessário. A descoberta informa o espaço atual;
+não acompanha o movimento seguinte.
+A mesma rolagem não localizaria outra fonte
+completamente escondida por uma porta fechada.
+O impedimento precisa mudar para que essa busca
+possa determinar sua posição. Sinais de energia que
+atravessem um obstáculo dependem do que a cena
+ou uma capacidade realmente estabelece; não trate
+toda criatura como se emitisse esse aviso.
+Uma fonte dentro do alcance, sem ocultação nem
+interferência, é localizada sem rolagem depois de
+gastar a ação de Vasculhar com Sentir Energia.
+Dispensar o dado nesse caso não dispensa a Ação
+Padrão. Confira o texto completo da ação para as
+demais condições.
+Uma caixa com resíduos pode ser localizada sem
+que seu antigo portador esteja perto. Separar fonte,
+objeto e pessoa evita entregar uma resposta que a
+busca não fornece.
+Quando houver interferência e ocultação, compare
+a busca à maior entre a CD anunciada da
+interferência e a Furtividade guardada, sem somar
+ambas. Gastar o último PE não torna um feiticeiro
+sem energia amaldiçoada. O exemplo do depósito
+(p. 53) aplica esses limites a fontes acessíveis e a
+uma porta fechada.
+Se a busca falhar
+Aplique primeiro a consequência da regra usada.
+Em Estudar durante o combate, por exemplo, a
+Ação Padrão foi gasta e a observação não
+respondeu com segurança. Uma interpretação
+narrativa não substitui esse resultado por uma
+revelação gratuita.
+Depois, apresente a situação atual. O grupo ainda
+possui as descobertas anteriores, os meios que não
+perdeu e a possibilidade de mudar de abordagem.
+Falhar ao examinar um detalhe não apaga o registro
+de presença nem faz Davi esquecer o caminho que
+conhece.
+Para tentar de novo, confira o que a regra da ação
+exige. Fora de combate, Vasculhar permite nova
+tentativa com nova abordagem, informação ou
+consequência pelo tempo gasto. Para Estudar,
+repetir a mesma pergunta sem nova pista ou
+mudança de abordagem não permite outra
+tentativa. Se o sentido não alcança o alvo, obter um
+número maior também não elimina o obstáculo.
+Jogadora: “Não consegui localizar a fonte atrás da
+porta. Tento de novo.”
+Mestre: “A porta fechada impede essa busca de
+determinar o espaço atrás dela. Vocês podem
+procurar um acesso ou outro sinal que consigam
+examinar. O que pretendem fazer?”
+Essa resposta identifica o impedimento. Não decide
+que abrir a porta será seguro, nem oferece o
+resultado de uma nova busca antes de a situação
+mudar.
+Se uma pista ficar inacessível
+Retome os meios que foram preparados e os que os
+personagens podem propor de forma coerente.
+Procure o que ainda permite responder à pergunta,
+respeitando as condições de acesso.
+Se Davi não estiver disponível para acompanhar o
+grupo, Ana ainda pode mostrar a planta. Se um
+nome da lista estiver ilegível, falar com os colegas e
+contatar a pessoa pode permitir a conferência.
+Esses meios respondem ao que realmente
+conseguem comprovar; não precisam revelar toda a
+ocorrência.
+O Livro de Regras 1.0 recomenda preparar
+maneiras diferentes de descobrir informação
+necessária para continuar. Ao conduzir, ofereça os
+outros caminhos preparados. Mantenha as pistas
+em lugares que façam sentido. Uma planta não
+passa a mostrar a posição atual da maldição só
+porque o grupo deixou de usar outro meio.
+Se faltou preparar algo necessário, avalie o que
+pode ser acrescentado com coerência e que não
+contradiga fatos já usados. Se o grupo precisar de
+uma informação que ainda não consegue alcançar,
+o grupo pode precisar procurar apoio, voltar com
+outros meios ou reconhecer que ainda não
+consegue avançar. Explique o impedimento que
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+52

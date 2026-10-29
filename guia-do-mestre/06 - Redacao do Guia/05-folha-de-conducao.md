@@ -1,6 +1,6 @@
 # Folha de condução
 
-Consulte durante a sessão, depois de ler [Conduzir uma sessão](04-conduzir-uma-sessao.md). Mantenha o preparo, as fichas e as regras necessárias disponíveis. Esta folha organiza a condução; os procedimentos completos continuam na R53.
+Consulte durante a sessão, depois de ler [Conduzir uma sessão](04-conduzir-uma-sessao.md). Mantenha o preparo, as fichas e as regras necessárias disponíveis. Esta folha organiza a condução; as regras completas continuam no Livro de Regras 1.0.
 
 ## Para cada tentativa
 
@@ -18,7 +18,7 @@ Consulte durante a sessão, depois de ler [Conduzir uma sessão](04-conduzir-uma
 
 **Informação:** entregue o que é evidente; resolva o que pode ser investigado; preserve os requisitos para alcançar o que ainda está inacessível. Um resultado não revela mais do que os meios permitem descobrir.
 
-**Percepção:** confira o sinal acessível e o procedimento. Localizar um espaço não concede visão; conhecer uma posição anterior não acompanha o próximo movimento. Ler o Ambiente conserva ação e uso quando não há informação a oferecer. Na busca energética, use a maior dificuldade entre interferência e Furtividade. Consulte os [casos de percepção e informação](83-perceber-procurar-e-interpretar-sinais.md) para os requisitos e exemplos.
+**Percepção:** confira o sinal acessível e a regra. Localizar um espaço não concede visão; conhecer uma posição anterior não acompanha o próximo movimento. Ler o Ambiente conserva ação e uso quando não há informação a oferecer. Na busca energética, use a maior dificuldade entre interferência e Furtividade. Consulte os [casos de percepção e informação](83-perceber-procurar-e-interpretar-sinais.md) para os requisitos e exemplos.
 
 **Espaço e objetos:** informe apoio, movimento necessário e chegada na falha antes da tentativa. Esforço e risco num salto usam uma rolagem contra a maior CD. Na queda sobre criatura, confira tamanhos e divida o dano antes das defesas. Uma trajetória alterada usa a direção final para conferir cobertura. Consulte [percursos e quedas](84-percursos-apoios-e-quedas.md) e [trajetórias e ferramentas](85-trajetorias-ferramentas-e-improvisacao.md) para os casos completos.
 
@@ -27,18 +27,18 @@ Consulte durante a sessão, depois de ler [Conduzir uma sessão](04-conduzir-uma
 | Caso | Lembrete |
 |---|---|
 | Há resultado definido na regra | Aplique-o; não troque falha por sucesso mediante preço improvisado. |
-| O procedimento deixa margem | Pode oferecer sucesso com custo ou complicação coerente; deixe claro o que muda e o que acontece se a oferta for recusada. |
+| A regra deixa margem | Pode oferecer sucesso com custo ou complicação coerente; deixe claro o que muda e o que acontece se a oferta for recusada. |
 | Uma pessoa tenta, outra contribui | Confira Ajudar: contribuição possível, vantagem e um ajudante por teste; requisitos e exceções permanecem. |
 | Todos precisam superar juntos | Cada participante rola; pelo menos metade precisa passar. Quatro participantes exigem dois sucessos; cinco exigem três. |
 | Ocultação em combate ou TR individual | Resolva separadamente; não substitua por uma contagem coletiva. |
 
-Exemplos e limites em [Testes, trabalho em grupo e iniciativa](82-testes-trabalho-em-grupo-e-iniciativa.md). A criação de entidades conserva sua exceção de ajuda; uma capacidade como Contribuição Decisiva conserva seu limite próprio.
+Exemplos e limites em [Exemplos de testes e iniciativa](82-testes-trabalho-em-grupo-e-iniciativa.md). A criação de entidades conserva sua exceção de ajuda; uma capacidade como Contribuição Decisiva conserva seu limite próprio.
 
 ## Se a conversa parar
 
 Retome os fatos conhecidos e a dúvida atual. Apresente opções que os personagens conhecem e deixe espaço para outra proposta. Confira se falta informação ou se alguém quer desenvolver uma conversa antes de avançar.
 
-**Frases úteis:**
+### Frases úteis
 
 - “O que você quer descobrir com isso?”
 - “De onde pretende observar?”
@@ -47,7 +47,7 @@ Retome os fatos conhecidos e a dúvida atual. Apresente opções que os personag
 
 ## Se surgir uma proposta inesperada
 
-Confira os fatos, os meios e a regra que resolve o efeito. Complete detalhes comuns com coerência. Para um benefício mecânico, confira a capacidade ou o procedimento correspondente. Uma boa solução pode encerrar um obstáculo: registre a mudança e siga a partir dela.
+Confira os fatos, os meios e a regra que resolve o efeito. Complete detalhes comuns com coerência. Para um benefício mecânico, confira a capacidade ou a regra correspondente. Uma boa solução pode encerrar um obstáculo: registre a mudança e siga a partir dela.
 
 ## Ao avançar a cena
 
@@ -63,17 +63,17 @@ Se alguém cair, consulte [Vida a zero](</home/mizuki/CHAT-GPT/RPG -JJK/entregas
 
 ## Se houver dúvida de regra
 
-Leia a capacidade e o procedimento geral: **ação, alvo, alcance, resolução e prazo**. Se a dúvida persistir, combine uma resolução para aquela sessão e registre a nota abaixo. Na guilda, use o encaminhamento adotado para conferir e comunicar a correção.
+Leia a capacidade e a regra geral: **ação, alvo, alcance, resolução e prazo**. Se a dúvida persistir, combine uma resolução para aquela sessão e registre a nota abaixo. Na guilda, use o encaminhamento adotado para conferir e comunicar a correção.
 
 | Nota de dúvida | Registro curto |
 |---|---|
 | Pergunta e situação | Qual declaração ou efeito está sendo resolvido? |
-| Referência | Versão da R53, capacidade e trecho consultados; texto de criação própria, quando houver. |
+| Referência | Versão do Livro de Regras 1.0, capacidade e trecho consultados; texto de criação própria, quando houver. |
 | Leituras e decisão da sessão | O que gerou dúvida, qual leitura foi usada e quem foi afetado. |
 | Conferência | Quem vai verificar e onde ficará a resposta. |
 | Resultado e comunicação | Correção, manutenção ou ponto ainda aberto; pessoas informadas e registros atualizados. |
 
-**Exemplo de consulta:** surgiu a dúvida se Bloquear gasta Reação. A R53 diz que a rolagem é gratuita e não gasta esse recurso. A consulta resolve a questão; não é necessário criar uma decisão provisória diferente. Se um gasto indevido já tiver afetado a cena, identifique o ocorrido e combine a correção, registrando quais estados foram ajustados.
+**Exemplo de consulta:** surgiu a dúvida se Bloquear gasta Reação. O Livro de Regras 1.0 diz que a rolagem é gratuita e não gasta esse recurso. A consulta resolve a questão; não é necessário criar uma decisão provisória diferente. Se um gasto indevido já tiver afetado a cena, identifique o ocorrido e combine a correção, registrando quais estados foram ajustados.
 
 Quando o texto realmente permitir leituras diferentes, preserve na nota a interpretação usada até a revisão. Uma decisão para esta sessão não altera automaticamente todas as fichas da guilda. A resposta posterior precisa chegar a quem foi afetado; o próximo mestre também precisa saber se a nota ainda está aberta.
 

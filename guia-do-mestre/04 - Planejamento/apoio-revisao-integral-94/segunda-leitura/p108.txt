@@ -1,0 +1,106 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+O grupo e a missão
+O grupo precisa conferir os funcionários do centro
+cultural e avaliar a ocorrência no anexo. Todos já
+saíram; o preparo oferece meios de confirmar isso.
+A equipe pode enfrentar a maldição, manter as
+pessoas afastadas ou encaminhar uma intervenção.
+Não há um refém escondido que force combate.
+A referência inicial é de três personagens de nível
+2, vida e energia completas e nenhuma Sequela,
+consequência deixada por uma queda anterior.
+Antes de usar o exemplo, confira como as fichas
+reais percebem e atingem uma maldição, seus
+meios de socorro e o que conseguem fazer no
+espaço. Essa conferência pode alterar a escolha do
+encontro.
+O Amontoado está no depósito, a 4,5 m da porta. A
+sala mede 6 m por 6 m, com faixa central livre e
+caixas junto às paredes. Ele protege a pilha e
+torna-se hostil ao ser atacado ou quando tentam
+desmontá-la. Persegue dentro do anexo e volta à
+pilha quando todos saem. Esses comportamentos
+pertencem a esta ocorrência; a porta não possui
+uma proteção mágica.
+Três inimigos do mesmo nível
+Os três inimigos abaixo possuem nível 2 e rotina
+comum de ações, sem ataques adicionais. Mesmo
+assim, seus recursos e alcances mudam a luta. Na
+tabela, PE significa pontos de energia.
+Ficha experimental
+Vida / Integridade
+Defesa / Bloquear
+Ataque comum
+Conjuração
+Rastejante
+12 / 6
+13 / 2d10 + 2
++3; 1d4 + 2 de
+Concussão, 1,5 m
+Nenhuma; 0 PE.
+Amontoado do
+depósito
+48 / 24
+11 / 2d10
++4; 1d4 + 3 de
+Concussão, 1,5 m
+Impacto: +4; 3d8 de
+Concussão, 1,5 m; 3 PE.
+Reserva 6.
+Vigia das farpas
+24 / 12
+13 / 2d10 + 2
++1; 1d4 de Concussão,
+1,5 m
+Estalo: +4; 3d8 de
+Cortante, 18 m; 3 PE.
+Reserva 6.
+Esta tabela serve à comparação. As fichas
+completas incluem anatomia, treinos, Selos e
+demais requisitos. Nas condições normais,
+Amontoado e Vigia pagam duas conjurações; não
+recebem usos ilimitados por serem inimigos.
+O Rastejante oferece um corpo frágil para estudar
+ataques e deslocamento. O Amontoado suporta
+mais dano, mas precisa se aproximar. O Vigia pode
+atacar de longe enquanto conseguir pagar seu
+feitiço; isso torna acesso e cobertura relevantes.
+Trocar o Amontoado pelo Vigia dentro da mesma
+sala não demonstra, sozinho, o efeito de uma
+posição de tiro distante.
+Escolha do piloto: o Amontoado reúne um golpe
+simples, um golpe mais forte com recurso finito,
+comportamento observável e retirada possível.
+Permite ensinar esses elementos sem preparar
+várias iniciativas inimigas. Isso explica a escolha
+didática; não declara que ele seja adequado a
+qualquer trio de nível 2.
+O que as contas mostram
+O Impacto de 3d8 pode produzir de 3 a 24 antes de
+crítico e proteções. A média é 3 × 4,5 = 13,5. A vida
+48 do Amontoado fica entre três médias, 40,5, e
+quatro, 54. Essa comparação ajuda a enxergar sua
+diferença para o Rastejante de 12 de vida.
+Ela não significa “quatro rodadas” nem “quatro
+ataques sempre vencem”. Três personagens podem
+atacar na mesma rodada; alguns ataques erram;
+uma pessoa pode gastar sua Padrão em socorro. A
+Defesa e Bloquear afetam o acerto, e a ficha real
+pode ter outras fontes de dano.
+Contra Defesa fixa 11, um ataque +4 acerta com 7
+ou mais no d20: 14 resultados em 20, ou 70%, sem
+vantagem, desvantagem ou modificadores. Contra
+Defesa fixa 13, precisa de 9: 12 em 20, ou 60%.
+Esses percentuais não são a chance contra
+Bloquear; essa escolha usa outra regra, inclusive
+resultados próprios dos dois d10.
+Dano de Alma: o Amontoado tem Integridade 24.
+Um golpe que cause 12 de dano final de Alma retira
+12 de vida e 12 de Integridade. Partindo de reservas
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+108

@@ -1,0 +1,550 @@
+{
+  "registro": 112,
+  "pdf_sha256": "31bae7ab6b7960b2350817994af0b2e8ccba327f07cea8fa11bfa09165a788f5",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 477
+    },
+    {
+      "pagina": 2,
+      "palavras": 632
+    },
+    {
+      "pagina": 3,
+      "palavras": 439
+    },
+    {
+      "pagina": 4,
+      "palavras": 319
+    },
+    {
+      "pagina": 5,
+      "palavras": 577
+    },
+    {
+      "pagina": 6,
+      "palavras": 671
+    },
+    {
+      "pagina": 7,
+      "palavras": 678
+    },
+    {
+      "pagina": 8,
+      "palavras": 677
+    },
+    {
+      "pagina": 9,
+      "palavras": 611
+    },
+    {
+      "pagina": 10,
+      "palavras": 335
+    },
+    {
+      "pagina": 11,
+      "palavras": 394
+    },
+    {
+      "pagina": 12,
+      "palavras": 618
+    },
+    {
+      "pagina": 13,
+      "palavras": 692
+    },
+    {
+      "pagina": 14,
+      "palavras": 611
+    },
+    {
+      "pagina": 15,
+      "palavras": 566
+    },
+    {
+      "pagina": 16,
+      "palavras": 639
+    },
+    {
+      "pagina": 17,
+      "palavras": 660
+    },
+    {
+      "pagina": 18,
+      "palavras": 697
+    },
+    {
+      "pagina": 19,
+      "palavras": 544
+    },
+    {
+      "pagina": 20,
+      "palavras": 570
+    },
+    {
+      "pagina": 21,
+      "palavras": 677
+    },
+    {
+      "pagina": 22,
+      "palavras": 642
+    },
+    {
+      "pagina": 23,
+      "palavras": 487
+    },
+    {
+      "pagina": 24,
+      "palavras": 506
+    }
+  ],
+  "fontes_revisadas": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "numeros_na_mesma_ordem": true,
+      "tabelas_iguais": true
+    }
+  ],
+  "links_locais_conferidos": 103,
+  "links": [
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "08-entre-missoes.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "../../04 - Planejamento/apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "destino": "../../04%20-%20Planejamento/apoio-primeira-missao-100/planta-do-anexo.svg"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "destino": "../../07 - Edicao de Leitura/aprofundamentos/casos-da-obra-com-revelacoes.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c02.html#s014"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "destino": "03a-ideias-para-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "destino": "../../04 - Planejamento/apoio-inspiracao-104/canal-das-hortas.svg"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c00"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c01"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c02"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03a"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c01"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c02"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/08-entre-missoes.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../apoio-consultas-105/casos-completos.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "planta-do-anexo.svg"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/aprofundamentos/casos-da-obra-com-revelacoes.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c01"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c02.html#s014"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "#c03a"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../apoio-inspiracao-104/canal-das-hortas.svg"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c03.html#s084"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/prova-textual.html",
+      "destino": "../112-revisao-textual-da-abertura-e-primeiros-capitulos.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "prova-textual.html#c01"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#primeira-sess-o"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#mundo-jujutsu"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#turnos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#ataques"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#estudar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#vida-a-zero"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#janela-de-socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#aguentar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#insistir"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#socorro"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#sequelas-e-cicatrizes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#derrota-e-morte"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#dano-na-alma"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#est-gios-de-integridade"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#conversoes-domadas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#geral--bloquear"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#geral--defesa"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "#geral--aparar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--procurar"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/apoio-revisao-textual-112/consulta-de-regras.html",
+      "destino": ""
+    },
+    {
+      "origem": "04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md",
+      "destino": "apoio-revisao-textual-112/prova-textual.html"
+    },
+    {
+      "origem": "04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md",
+      "destino": "apoio-revisao-textual-112/output/pdf/Ciclo-Maldito-Abertura-e-Capitulos-1-a-3-Revisao-Textual.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md",
+      "destino": "apoio-revisao-textual-112/alteracoes.json"
+    },
+    {
+      "origem": "04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md",
+      "destino": "apoio-revisao-textual-112/revisao-final.json"
+    },
+    {
+      "origem": "04 - Planejamento/112-revisao-textual-da-abertura-e-primeiros-capitulos.md",
+      "destino": "apoio-revisao-textual-112/conferencias.json"
+    }
+  ],
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "pdf_integrado_preservado": true,
+  "amostras_100_101_104_preservadas": true,
+  "cobertura": "130 pontos e 20 competências documentais preservados; estados não promovidos.",
+  "base_de_regras_preservada": true,
+  "limites": [
+    "Conferência de texto, números e arquivos; não é teste humano ou validação de equilíbrio.",
+    "Primeiro lote da etapa 6; revisão integral do livro ainda em andamento."
+  ]
+}

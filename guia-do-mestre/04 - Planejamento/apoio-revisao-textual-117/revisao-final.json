@@ -1,0 +1,152 @@
+{
+  "registro": 117,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-117/output/pdf/Ciclo-Maldito-Casos-de-Preparo-e-Conducao-Revisao-Textual.pdf",
+  "pdf_sha256": "d654b8a674e35414d73de5f64fa6dfa9b88c0a5b765f7ed0d56f868c6fd14f47",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral das quatro fontes; quatro cópias/remissões e 33 ajustes editoriais.",
+      "registros": 37
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das 18 páginas da primeira prova; dez ajustes e releitura dos trechos.",
+      "registros": 10
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-01.png",
+      "imagem_sha256": "97fab19036dd31fddc22cccbe7f59f6b47eaaef45a26fa99a991529357cc6508",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Aviso: abertura, situação e sequência do mal-entendido legíveis; sem título isolado."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-02.png",
+      "imagem_sha256": "47a6245dcc1a20bf299aef97e08d71d948ae6d0ee423915fd5bee42ed038a955",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Aviso: tabelas largas de pessoas e pistas; título As pistas acompanha o quadro. Mensagens distintas do comentário."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-03.png",
+      "imagem_sha256": "90d56dfb32b8f8974dc15e0d7a1b37d33a8f780ecda6dc547f7bba7a0e779081",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Aviso: abertura de cena e alternativas legíveis. O primeiro parágrafo de alternativas continua entre colunas, como texto corrido."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-04.png",
+      "imagem_sha256": "2423f732a680be4ee4cd175bc282ff33f733d86f5f3cc1cbac3ceff85e5d63ca",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Aviso: resultados e registro final legíveis. Espaço de encerramento do caso será reavaliado na integração."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-05.png",
+      "imagem_sha256": "87abeba03ea481f2884e1f10d212bab6f972e278f9c2781106e6338d4554349e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Testes: fórmula identifica criador; CD16 e CD fixa18 distintas. Horários e oferta de custo completos."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-06.png",
+      "imagem_sha256": "8f9a3822cc548d6ffa8d1765643612535fefd59c5859a5491974e1e0264d0087",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Ajuda: contribuição, uso de vantagem e exceção de entidades legíveis; requisitos preservados."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-07.png",
+      "imagem_sha256": "461afeca5c97bf0d0cdc98946aa6998fa127b4457ddc152169665b0a9637635b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Teste coletivo e iniciativa: quadro largo; abertura de Esconder em combate reunida, sem cortar Ação Padrão de Esconder entre colunas."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-08.png",
+      "imagem_sha256": "19cc80ecd86a8a14b900a8b41aee2db9ff2f745de0da766fdf6b5c7cda3cba0f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Iniciativa: título e introdução junto da tabela; desempates e ordem final legíveis. Espaço de fim de caso."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-09.png",
+      "imagem_sha256": "680764f24d76d8a6f9394f8aab47c7b084e43b19a40943746102a67fb4437a1b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Percepção: tabelas largas de ações e observadores legíveis; sinais e dificuldades conservados."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-10.png",
+      "imagem_sha256": "96cf20939063bc2590ec05aed9e6aa34dfc197aa46d27f200306a2c8f65c8883",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Busca ativa, visão às cegas e Ler o Ambiente: contas e custos legíveis; ausência de sobreposição."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-11.png",
+      "imagem_sha256": "7b96037dc8774bcc765abfc1ddab3daec10911568cb51c0b0c1175529c91c1e2",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Intuição e Memória Testemunha: fala distinta do comentário; tabela inteira e usos legíveis."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-12.png",
+      "imagem_sha256": "a7d8cb13c429a5add698ef29bff6b0cbf82ffb8cd41a7a397b8e4d52978387ed",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Interferência: quadro largo com fontes e dificuldades; zero PE e informação instantânea destacados."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-13.png",
+      "imagem_sha256": "61d7fb52496d6b1a8ace47a9f76c1580801fa66a5c943142fa6db7ec0fff4da5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Assinatura e limites: tabela de descobertas e exercícios cabem na página; notas de fonte não criam página residual."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-14.png",
+      "imagem_sha256": "aed646ba319e291acc19bc9e9adb96935a25748bf41b9bfd4a891d41f6480caa",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Cenário: posições, deslocamento e terreno legíveis. Exemplos de conta mantidos inteiros."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-15.png",
+      "imagem_sha256": "7d7a245e67f5f9ad7b6084abe1abf97d92f271f625a24528ffacffc49f52671e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Cobertura e carga: tabela legível, cálculos inteiros e diálogo separado em falas."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-117/pagina-16.png",
+      "imagem_sha256": "233b9dc67212fe4959cf03c840c6477a2ae7ca4e1bb4513a13e0987a5851c5b9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta anterior; imagem idêntica após o último ajuste",
+      "observacao": "Objetos, ajuda e limites: fechamento e referências cabem na mesma página, sem página apenas com fonte."
+    }
+  ],
+  "limites": [
+    "Duas passagens locais; sem terceira leitura integral ou teste humano.",
+    "Cada caso começa em nova página nesta prova; integração precisa reavaliar os espaços de encerramento.",
+    "Não conclui a revisão visual do livro integrado."
+  ]
+}

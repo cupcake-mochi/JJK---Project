@@ -1,0 +1,565 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Livro de Regras 1.0 | Consultas</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'CAPÍTULOS 4 E 5';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.comentario{break-inside:avoid!important}.colunas li{break-inside:avoid}.colunas p.bloco-curto{break-inside:avoid!important}}main{max-width:900px;padding:30px;background:white}section{border-top:1px solid #ded4d9;padding:15px 0}article{margin-bottom:30px}</style><main><p><a href="prova-textual.html">Voltar aos capítulos 4 e 5</a></p><h1>Livro de Regras 1.0</h1><p>Trechos publicados preservados das consultas anteriores; exemplos e orientações do Guia estão na prova.</p><article id="conducao"><h2>Condução</h2><section class="consulta-regra" id="r4--regra-1"><h4>Testes</h4>
+<p>Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela descrição.</p>
+<blockquote>
+<p><strong>Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.</strong></p>
+</blockquote>
+<p>O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras próprias de acerto e crítico.</p>
+<h5>Dificuldade</h5>
+<p>Tarefas comuns e conhecimento sem nível próprio usam a coluna <strong>CD fixa</strong> da tabela abaixo. Uma fechadura não fica mais difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a dificuldade ou a forma de calculá-la.</p>
+<table>
+<thead>
+<tr>
+<th>Dificuldade</th>
+<th>CD fixa</th>
+<th>Ajuste à CD do criador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fácil</td>
+<td>6</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>10</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Difícil</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Muito difícil</td>
+<td>18</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Extrema</td>
+<td>22</td>
+<td>Não definido nesta escala.</td>
+</tr>
+<tr>
+<td>Quase impossível</td>
+<td>26</td>
+<td>+6</td>
+</tr>
+</tbody>
+</table>
+<p>Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Para uma avaliação geral de algo com nível, calcule <strong>8 + atributo do criador + maestria do criador</strong>. São os valores de quem criou o efeito, e não de quem faz o teste. O mestre classifica a dificuldade da tarefa e aplica o ajuste da última coluna a essa base, em vez de usar a CD fixa. Assim, uma tarefa fácil ligada a um criador poderoso pode ter uma CD maior que a de uma tarefa fácil comum. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.</p>
+<p>Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se um efeito já fornece sua CD, use-a.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é <strong>8 + 4 + 2 = 14</strong>. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será <strong>16</strong>.</p>
+</blockquote>
+<h5>Sucesso e falha</h5>
+<p>Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pericias -->
+<p><a id="r4--geral--pericias"></a></p></section><section class="consulta-regra" id="r4--regra-2"><h5>Testes de grupo</h5>
+<p>Quando todos precisam superar uma tarefa em conjunto, cada participante faz o teste. <strong>Pelo menos metade precisa passar</strong> para o grupo conseguir. Num grupo de cinco, são necessários três sucessos. Use isso para travessias e outras tarefas coletivas; em combate, a ocultação de cada personagem é resolvida separadamente.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#resistencia -->
+<p><a id="r4--geral--resistencia"></a></p></section><section class="consulta-regra" id="r4--regra-3"><h4>Iniciativa</h4>
+<p>Role <strong>d20 + Destreza</strong>, com os modificadores ativos nessa rolagem. Quem obtiver o maior total age primeiro.</p>
+<p>Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a ordem; entre inimigos, o mestre escolhe. Registre a ordem uma vez para o combate. Uma habilidade que antecipe ou altere um turno segue suas próprias regras.</p></section><section class="consulta-regra" id="r4--regra-4"><h4>Recursos do turno</h4>
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Uma Ação Padrão</strong></td>
+<td>Atacar, conjurar e outras tarefas indicadas nas ações.</td>
+</tr>
+<tr>
+<td><strong>Uma Ação de Movimento</strong></td>
+<td>Percorrer seu deslocamento ou pagar uma tarefa que consuma essa ação.</td>
+</tr>
+<tr>
+<td><strong>Uma Ação Bônus</strong></td>
+<td>Usar uma opção que declare esse custo.</td>
+</tr>
+<tr>
+<td><strong>Uma Reação</strong></td>
+<td>Responder ao gatilho de uma regra; recuperada no começo do seu turno.</td>
+</tr>
+</tbody>
+</table>
+<p>Esses recursos são separados: gastar um não consome os demais, salvo quando a regra pedir mais de um. A Reação pode ser usada dentro ou fora do seu turno, quando houver um gatilho válido. <strong>Ela não volta na passagem de uma rodada para outra.</strong></p></section><section class="consulta-regra" id="r4--regra-5"><h4>Ajudar</h4>
+<p><strong>Ação Padrão.</strong> Escolha um aliado e a tentativa em que vai ajudá-lo. Descreva uma contribuição possível naquela situação. No próximo teste correspondente, ele terá vantagem. O benefício termina no <strong>começo do seu próximo turno</strong>, se não for usado antes.</p>
+<h5>Ajudar num teste</h5>
+<p>Você precisa alcançar o que vai manipular ou conseguir se comunicar de modo útil. Pode segurar a escada enquanto alguém sobe ou orientar a leitura de um mecanismo que conhece. Torcer pelo aliado não basta.</p>
+<p>A ajuda precisa ser possível para quem a oferece. Se ela exigir um ofício, ferramenta, idioma ou sentido, cumpra esse requisito. Não é necessário ter o mesmo treino do aliado para uma contribuição diferente: segurar uma lanterna pode ser útil sem saber abrir a fechadura.</p>
+<p>Fora de combate, a contribuição acompanha uma tentativa concreta. Não guarde a vantagem para outra sala ou uma tarefa futura depois de abandonar a ajuda.</p>
+<h5>Ajudar num ataque</h5>
+<p>Escolha um inimigo <strong>ao seu alcance corpo a corpo</strong> e um aliado. Você distrai ou pressiona esse inimigo, concedendo vantagem ao próximo ataque do aliado contra ele dentro do prazo. Precisa poder agir e alcançar o inimigo, que deve perceber sua intervenção. Isso não causa dano nem exige que o aliado esteja ao seu lado.</p>
+<p>A ajuda se consome na rolagem escolhida, acertando ou errando. Se o aliado atacar outro alvo, conserve o benefício para o inimigo indicado até o prazo acabar.</p>
+<p><strong>Um ajudante por teste ou ataque.</strong> Várias ajudas não acumulam vantagens. Ajudar não permite um Teste de Resistência adicional nem dá vantagem a ele por padrão.</p>
+<p><strong>Exemplo.</strong> Rina se aproxima do vigia e usa Ajudar, pressionando-o com a arma para abrir espaço a Kaito. O próximo ataque de Kaito contra esse vigia tem vantagem antes do próximo turno de Rina. Ela gastou sua Padrão, sem realizar um ataque próprio.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#interacao -->
+<p><a id="r4--geral--interacao"></a></p></section><section class="consulta-regra" id="r4--regra-6"><h5>Influenciar</h5>
+<p><strong>Ação Padrão em combate.</strong> Diga o que quer obter e sua abordagem. O mestre avalia se ela é possível e informa a CD. Use Persuasão, Enganação, Intimidação ou Atuação, todas com Essência, conforme a tentativa.</p>
+<p>Um sucesso obtém a resposta cabível à situação. Não controla a vontade do alvo nem obriga um personagem jogador a tomar uma decisão. Uma conversa extensa pode exigir tempo além de uma ação. Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#preparar -->
+<p><a id="r4--geral--preparar"></a></p></section><section class="consulta-regra" id="r4--regra-7"><h4>Reações e ataques de oportunidade</h4>
+<p>Uma <strong>Reação</strong> responde ao gatilho de uma regra. Depois de gastá-la, você a recupera no começo do seu próximo turno. Ter a Reação disponível não concede uma interrupção ou ataque livre.</p>
+<h5>Ataque de oportunidade</h5>
+<p>Quando uma criatura que você <strong>enxerga ou acompanha por um sentido equivalente à visão</strong> sai do seu alcance corpo a corpo, pode gastar sua Reação para realizar <strong>um ataque corpo a corpo com arma ou desarmado</strong> contra ela. Resolva o ataque <strong>imediatamente antes de ela sair</strong>.</p>
+<p>Use o alcance da arma ou ataque escolhido. Com alcances diferentes, cada saída pode oferecer um gatilho válido, mas você precisa de uma Reação disponível para responder. Permanecer no mesmo alcance ou apenas entrar nele não provoca esse ataque.</p>
+<p>O ataque precisa cumprir seus requisitos. Uma informação anterior sobre o espaço da criatura não basta para perceber sua saída. Ouvir um ruído ou localizar energia não substitui a visão por padrão. Feitiços e manobras que substituam ataques da Ação Atacar precisam de permissão própria para serem usados nessa resposta.</p>
+<h5>Movimento que não provoca</h5>
+<p><strong>Desengajar</strong> protege os movimentos de quem usou essa ação até o fim do turno. Também não provocam oportunidade o teleporte, a queda e o movimento imposto por outra criatura, como um empurrão. Uma habilidade pode conceder proteção adicional.</p>
+<p>Uma ordem que obrigue alguém a caminhar usando seu próprio movimento pode provocar oportunidade. Ser levado por um empurrão não usa esse movimento. Montarias têm uma regra própria em <strong>Combate montado</strong>.</p>
+<p><strong>Exemplo.</strong> Rina vê uma maldição sair do alcance de sua espada e gasta a Reação. O ataque acontece antes da saída. Se acertar, a criatura continua o movimento, salvo um efeito que a impeça. A passagem para outra rodada não devolve a Reação de Rina: ela espera seu próximo turno.</p>
+<p>Reações com momentos diferentes seguem o gatilho escrito: antes da rolagem, depois do acerto e depois do ataque não são o mesmo momento.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#concentracao -->
+<p><a id="r4--geral--concentracao"></a></p></section><section class="consulta-regra" id="r4--regra-8"><h4>Vasculhar</h4>
+<p><strong>Ação Padrão.</strong> Diga o que procura e em qual lugar. Use <strong>Percepção</strong> para notar uma presença ou detalhe e <strong>Investigação</strong> para examinar pistas. Uma habilidade pode permitir outra perícia ou outro sentido. <strong>Ler o Ambiente</strong> informa sobre o lugar; não substitui procurar criaturas.</p>
+<p>Percepção depende de sinais que alcancem seus sentidos. Investigação pode exigir abrir uma gaveta, tocar o objeto ou aproximar-se. Uma rolagem alta não encontra alguém numa sala que você não procurou nem atravessa um obstáculo que bloqueie o sentido usado.</p>
+<p>Faça <strong>uma rolagem por busca</strong> e compare-a aos resultados de Furtividade guardados de todas as criaturas com sinais acessíveis no lugar declarado. Você localiza aquelas cuja CD alcançar, encerrando a ocultação em relação a você. Escuridão, invisibilidade e cobertura continuam valendo. As demais permanecem ocultas; em combate, a ação foi gasta. Se o total necessário estiver fora do alcance da rolagem, outra tentativa idêntica não resolve: procure outra pista ou exponha o esconderijo.</p>
+<p>Fora do combate, o mestre informa o tempo e o risco da busca. Repita o teste apenas com nova abordagem, nova informação ou uma nova consequência pelo tempo gasto. Quem se esconde também não recebe uma rolagem nova simplesmente porque foi procurado.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> o vigia procura Rina atrás das caixas. Ela guardou Furtividade 15. Ele tem Percepção +4 e tira 11: total 15, suficiente para localizá-la. Pode avisar um aliado onde ela está. O aviso informa o espaço de Rina naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqueando ataques que precisem de passagem livre.</p>
+</blockquote>
+<h5>Qual procedimento usar</h5>
+<table>
+<thead>
+<tr>
+<th>Sua intenção</th>
+<th>Onde resolver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encontrar uma presença ou pista pelos sentidos comuns</td>
+<td>Vasculhar, nesta seção.</td>
+</tr>
+<tr>
+<td>Localizar uma fonte de energia</td>
+<td><a href="#r4--regra-9">Vasculhar com Sentir Energia</a>.</td>
+</tr>
+<tr>
+<td>Compreender uma criatura, um objeto ou um sinal que já observa</td>
+<td><a href="#r4--regra-10">Estudar</a>.</td>
+</tr>
+<tr>
+<td>Reconstruir um acontecimento ou seguir resíduos</td>
+<td><a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--ler">Examinar vestígios</a>.</td>
+</tr>
+</tbody>
+</table>
+<p>Uma habilidade de percepção informa o que seu texto permitir. Para os limites de visão e ataques, consulte <a href="#r4--geral--ocultacao-ataque">Ataques e ocultação</a>.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#ocultacao-ataque -->
+<p><a id="r4--geral--ocultacao-ataque"></a></p></section><section class="consulta-regra" id="r4--regra-9"><h4>Vasculhar com Sentir Energia</h4>
+<p>Na sala tomada por fumaça, você procura a energia do feiticeiro que se escondeu entre as mesas. Encontrá-la pode indicar onde atacar. Para acompanhar seus gestos ou reconhecer seu rosto, ainda precisa de visão ou de uma habilidade apropriada.</p>
+<p><strong>Ação Padrão, sem custo em PE.</strong> Declare o trecho que vai examinar, como a sala, o corredor à frente ou a parte de baixo da escada. A busca alcança fontes de energia a <strong>até 18 m de você</strong>, medidos em linha reta, dentro do trecho declarado. Não precisa enxergar a fonte nem encontrar antes uma pista mundana.</p>
+<p>Escuridão, fumaça e invisibilidade não bloqueiam esta busca. Um obstáculo sólido que esconda completamente a fonte, como parede, porta fechada ou compartimento rígido fechado, impede obter sua posição exata. A busca não contorna uma esquina para alcançar outra sala. Cobertura que deixe a fonte parcialmente exposta não impede a tentativa.</p>
+<p>Roupa, bainha, mochila e estojo de equipamento carregado, mesmo rígido, não contam como divisórias do ambiente nem apagam a energia da carga. A carga pode denunciar o espaço de quem a leva, sem revelar qual item emite energia. Guardar algo que deixa de emanar energia exige uma permissão específica que suprima sua emissão.</p>
+<h5>Resolva a busca</h5>
+<p>Role <strong>d20 + seu bônus completo de Sentir Energia</strong>, incluindo Essência, treino, especialização e modificadores aplicáveis. Compare uma única rolagem à <strong>Furtividade guardada</strong> de cada criatura oculta alcançada pela busca. Empatar basta para localizar sua energia.</p>
+<p>Furtividade representa também a dificuldade de distinguir aquela presença escondida. Não faça um segundo teste de supressão, não some Refino à CD e não refaça a Furtividade só porque alguém procurou. Um efeito que realmente impeça detectar a fonte conserva essa proteção.</p>
+<p>Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem <strong>depois de gastar a ação</strong>. Se houver interferência, o mestre anuncia sua dificuldade antes do dado. Para uma fonte também oculta, compare a mesma rolagem à <strong>maior entre a CD da interferência e a Furtividade</strong>, sem somá-las. Se nenhum sinal for encontrado, isso não comprova que o lugar esteja vazio.</p>
+<h5>Resultados</h5>
+<p>Você conhece o <strong>espaço atual da fonte</strong> e pode indicá-lo a um aliado. Se ela for uma criatura ou algo que a criatura carrega, encontrar esse sinal encerra a ocultação dela em relação a você. Um resíduo abandonado localiza apenas o vestígio: não revela seu antigo portador. A busca não fornece visão, identidade, grau, valores da ficha ou conhecimento da técnica.</p>
+<p>A leitura desta ação é <strong>instantânea</strong>: não acompanha movimentos futuros, mesmo dentro dos 18 m. Você conserva a última posição conhecida. Para atualizá-la, precisa de outra busca, de outros sinais percebidos normalmente ou de uma habilidade de acompanhamento. Isso não concede uma nova rolagem de Esconder nem apaga o que acabou de observar.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pressao -->
+<p><a id="r4--geral--pressao"></a></p></section><section class="consulta-regra" id="r4--regra-10"><h4>Estudar</h4>
+<p>Estudar permite compreender algo que você consegue observar: reconhecer um selo, avaliar um ferimento ou identificar um sinal da energia de uma criatura. <strong>Em combate, custa uma Ação Padrão.</strong></p>
+<h5>Diga o que procura entender</h5>
+<p>Escolha uma criatura ou objeto que você consiga enxergar, ou perceber por um sentido que substitua a visão, e faça uma pergunta concreta. O mestre indica a perícia adequada ao assunto. A distância só importa se impedir observar os detalhes necessários.</p>
+<table>
+<thead>
+<tr>
+<th>Perícia</th>
+<th>Exemplos do que examinar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sentir Energia</strong></td>
+<td>A manifestação de energia que você consegue perceber e os sinais que ela apresenta.</td>
+</tr>
+<tr>
+<td><strong>Ocultismo</strong></td>
+<td>A função reconhecível de um símbolo, selo ou procedimento de feitiçaria.</td>
+</tr>
+<tr>
+<td><strong>Medicina</strong></td>
+<td>Um ferimento, sintoma ou indício da condição física de alguém.</td>
+</tr>
+<tr>
+<td><strong>História</strong></td>
+<td>Um emblema, objeto ou referência que você possa reconhecer pelo conhecimento do passado.</td>
+</tr>
+</tbody>
+</table>
+<p>Estudar não amplia os seus sentidos. Conhecer somente o espaço de uma criatura escondida não basta: você precisa conseguir observá-la. Uma superfície opaca continua impedindo examinar o que há atrás dela.</p>
+<h5>Resolva a pergunta</h5>
+<p>Quando houver incerteza, role a perícia contra a CD indicada pelo mestre. Conhecimento e tarefas sem nível usam a escala de CD <strong>6, 10, 14, 18, 22 e 26</strong>. Entender um efeito cuja dificuldade dependa do poder de seu criador usa a CD correspondente, conforme as regras de testes.</p>
+<p>No sucesso, o mestre responde com <strong>uma informação útil que os sinais ou seu conhecimento permitam descobrir</strong>. Ela pode explicar um risco ou orientar sua próxima decisão. Uma informação evidente ou já conhecida não exige teste apenas por ter sido mencionada em combate.</p>
+<p>Na falha, a Ação Padrão foi gasta e a observação não basta para responder com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não dá outra tentativa.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Kaito encontra alguém caído ao lado de um frasco vazio e pergunta se a pessoa parece envenenada. O mestre pede Medicina. Com sucesso, descreve os sinais identificáveis e o que eles indicam. O teste não revela automaticamente quem deixou o frasco nem prevê o que a vítima fará ao acordar.</p>
+</blockquote>
+<h5>Encontrar, compreender ou explorar o lugar</h5>
+<p><strong><a href="#r4--regra-8">Vasculhar</a></strong> procura uma criatura, um objeto ou uma pista. <strong>Estudar</strong> procura compreender aquilo que você já observa. <strong>Ler o Ambiente</strong> procura algo aproveitável do lugar, seguindo seu custo e limite próprios.</p>
+<p>Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. Uma habilidade que forneça informação ou benefícios adicionais conserva seus custos e limites.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#mundo -->
+<p><a id="r4--geral--mundo"></a></p></section><section class="consulta-regra" id="r4--regra-11"><h3>Vida a zero</h3>
+<p>Ao chegar a <strong>zero de vida</strong>, você entra na condição <strong>Morrendo</strong>. Confira sua janela de socorro: se não restar nenhuma rodada, fica <strong>Derrotado imediatamente</strong>. Uma capacidade disparada pela queda só supera essa derrota se disser expressamente que pode fazê-lo.</p>
+<p>Se ainda houver janela, resolva primeiro as capacidades disparadas pela própria queda. Se uma delas encerrar Morrendo, não precisa escolher; caso contrário, escolha <strong>Aguentar</strong> ou <strong>Insistir</strong>. Cura que não encerre Morrendo por uma permissão expressa entra no tratamento; confira se ela basta depois de definir sua escolha.</p>
+<p>Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.</p>
+<p>Anote a vida máxima que tinha ao cair, sem vida temporária. Esse é o <strong>máximo de referência</strong> até aquela queda terminar. Registre também o tratamento necessário, o tratamento já recebido e sua janela de socorro.</p>
+<table>
+<thead>
+<tr>
+<th>Escolha</th>
+<th>Estado</th>
+<th>Tratamento necessário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aguentar</td>
+<td>Fica Inconsciente e espera socorro.</td>
+<td>1/4 do máximo de referência, para cima, sem teto.</td>
+</tr>
+<tr>
+<td>Insistir pela primeira vez na cena</td>
+<td>Permanece consciente e conserva as ações e os recursos disponíveis.</td>
+<td>1/3 do máximo de referência, para cima, até 15 × sua maior Classe.</td>
+</tr>
+<tr>
+<td>Insistir pela segunda vez ou mais na cena</td>
+<td>Permanece consciente e conserva as ações e os recursos disponíveis.</td>
+<td>1/2 do máximo de referência, para cima, até 15 × sua maior Classe.</td>
+</tr>
+</tbody>
+</table>
+<p>As duas escolhas conservam sua vida máxima. Insistir não consome uma rodada como custo; o tempo e o dano continuam reduzindo a janela normalmente.</p>
+<h4>Janela de socorro</h4>
+<p>A janela começa com <strong>3 rodadas, menos 1 por Sequela que você já tenha</strong>. As duas escolhas usam essa mesma janela. Com três ou mais Sequelas, você fica Derrotado imediatamente, conforme <strong>Derrota e morte</strong>.</p>
+<p>Marque o ponto da iniciativa em que caiu. Cada volta completa até esse ponto consome uma rodada da janela. A janela não concede turnos extras e não muda a iniciativa. Quando chegar a zero, você fica Derrotado. Uma ação de socorro que só começaria naquele ponto não antecede o prazo já esgotado; capacidades com gatilho próprio conservam seu momento de resolução.</p>
+<p>Se a queda ocorrer fora de combate, organize turnos pelas regras de Iniciativa para resolver o socorro. Marque o começo dessa primeira rodada como ponto da queda. A primeira volta completa consome uma rodada da janela; uma tentativa de atendimento segue seus custos normais.</p>
+<p>Cada <strong>ocorrência posterior de dano</strong> que alcance sua vida consome mais <strong>uma rodada da janela</strong>, depois das defesas e da vida temporária. Um mesmo golpe com vários tipos de dano conta uma vez. Ataques distintos contam separadamente. Dano reduzido a zero ou totalmente absorvido pela vida temporária não consome uma rodada.</p>
+<p>O golpe que levou sua vida a zero inicia a queda. Seu excesso não consome outra rodada. <strong>Dano posterior não desconta tratamento acumulado nem aumenta o tratamento necessário.</strong> Isso vale tanto para Aguentar quanto para Insistir.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> você precisa de 31 de tratamento e já recebeu 18. Tem duas rodadas restantes. Sofre 7 de dano depois das proteções: conserva os 18 de tratamento e passa a ter uma rodada. Ainda faltam 13 de tratamento, mas há menos tempo para recebê-los.</p>
+</blockquote>
+<h4>Aguentar</h4>
+<p>Você fica Inconsciente. Pode receber cura ou ser estabilizado conforme <strong>Socorro</strong>, mas não age para se proteger ou tratar os próprios ferimentos.</p>
+<p>Escolher Aguentar não permite mudar para Insistir mais tarde naquela queda. Se já estava Inconsciente antes de perder o último ponto de vida, você Aguenta. Insistir não remove outra causa de inconsciência.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#insistir -->
+<p><a id="r4--dano--insistir"></a></p>
+<h4>Insistir</h4>
+<p>Ao escolher Insistir, você continua a zero de vida e conserva as ações, os recursos e as respostas que ainda puder usar. A escolha não devolve uma ação já gasta nem encerra outras condições. Pode tratar a si mesmo enquanto conseguir agir e cumprir os requisitos da fonte.</p>
+<p>Conte <strong>uma escolha de Insistir por queda</strong>. Continuar agindo ou sofrer dano nessa mesma queda não aumenta a contagem. Uma queda em que escolha Aguentar não aumenta nem zera essa contagem. Na próxima cena, a contagem de Insistir volta a zero; as Sequelas e os recursos gastos conservam seus próprios prazos.</p>
+<p>Na primeira escolha de Insistir da cena, o tratamento necessário é <strong>1/3 do máximo de referência</strong>. Na segunda e nas seguintes, é <strong>1/2</strong>. Arredonde para cima. Se o resultado superar <strong>15 × sua maior Classe</strong>, use esse teto. Esse limite não reduz sua vida máxima nem limita a quantidade de cura recebida.</p>
+<p>Pode passar de Insistir para Aguentar <strong>sem ação</strong>. Fica Inconsciente, mas conserva o tratamento necessário definido na queda, o que já acumulou e o tempo restante. Não pode voltar a Insistir naquela ocorrência.</p>
+<h5>Socorro durante Insistir</h5>
+<p>Acumule a cura conforme <strong>Socorro</strong>. Recuperar apenas 1 de vida não encerra essa queda, salvo uma capacidade com permissão expressa para encerrar Morrendo abaixo do tratamento necessário.</p>
+<p>Quando a janela termina, você fica Derrotado. Não recebe uma segunda janela por desabar. Dano à vida enquanto Insiste também consome rodadas dessa janela.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com máximo de referência 93 e maior Classe 3, Aguentar pede 24 de tratamento. A primeira escolha de Insistir na cena pede 31. Na segunda e nas seguintes, metade daria 47, mas o teto de 45 reduz a exigência para 45. Se escolher Insistir e depois desistir de agir, conserva o requisito daquela queda. Sua vida máxima permanece 93.</p>
+<p><strong>Exemplo do teto:</strong> com máximo de referência 395 e maior Classe 7, Aguentar pede 99. O primeiro Insistir daria 132 e o segundo, 198; ambos ficam limitados a 105. Mesmo com a mesma exigência de tratamento, as Sequelas de quedas anteriores encurtam a janela de socorro. Sua vida máxima continua 395.</p>
+</blockquote>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#socorro -->
+<p><a id="r4--dano--socorro"></a></p>
+<h4>Socorro</h4>
+<p>Uma pessoa Morrendo pode ser curada ou estabilizada antes de sua janela acabar. Vida temporária não conta como tratamento.</p>
+<h5>Cura</h5>
+<p>Enquanto estiver Morrendo, sua vida permanece zero. Acumule separadamente toda <strong>cura válida</strong> recebida. Ela pode vir de várias fontes, pessoas e turnos, inclusive durante Insistir. Calcule a quantidade pelo efeito usado, com seus modificadores e impedimentos, antes de aplicar o limite da vida máxima.</p>
+<p>Ao alcançar o tratamento necessário para sua escolha, encerre Morrendo e transforme <strong>todo o tratamento acumulado em vida</strong>, até o máximo atual. O requisito não é um custo subtraído dessa quantidade. O excesso sobre a vida máxima é perdido. A contagem daquela queda termina e você recebe uma Sequela.</p>
+<p>A inconsciência causada apenas por Aguentar termina com esse socorro. Outras condições conservam suas regras. Sair de Morrendo não devolve ações, não coloca você automaticamente de pé nem reabre um efeito que terminou na queda.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Mei caiu com máximo 23 e escolheu Aguentar. Precisa de 6. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6: sai de Morrendo com 6 de vida e uma Sequela. Se tivesse escolhido Insistir pela primeira vez na cena, precisaria de 8 e ainda faltariam 2.</p>
+</blockquote>
+<p>Cura insuficiente não renova o prazo nem devolve rodadas. Vida temporária protege contra dano, mas não conta como tratamento. Uma fonte impedida ou incompatível não entra no total. Uma capacidade que exige vida positiva, como Regeneração Orgânica, continua indisponível a zero.</p>
+<h5>Resgates expressos</h5>
+<p><strong>Morrendo só termina pelo procedimento desta condição ou por uma capacidade que diga expressamente que permite encerrá-lo.</strong> Remoção genérica de condições, incluindo Limpa Fundo, não substitui esse socorro. Morrendo não entra na lista de condições compráveis.</p>
+<p>Uma capacidade que permita levantar abaixo do tratamento necessário, como <strong>Levanta</strong> ou <strong>Ainda Há Tempo</strong>, conserva essa permissão mesmo para quem escolheu Insistir. Use o valor de cura da capacidade, some o tratamento válido já recebido e aplique o máximo atual. A saída concede a Sequela normalmente.</p>
+<p>Cada capacidade conserva alvos, alcance, ação, frequência, preparação e impedimentos próprios. Essa permissão não ressuscita alguém morto nem reabre participação na cena depois de Derrotado, salvo regra que diga isso expressamente.</p>
+<h5>Estabilizar</h5>
+<p>Uma criatura a até <strong>1,5 m</strong>, com acesso físico ao alvo, pode gastar <strong>Ação Padrão</strong>, com uma mão livre e meios adequados de atendimento, para fazer <strong>Medicina CD 14</strong>. Para um corpo construído, use o ofício compatível com o corpo em lugar de Medicina, respeitando seus requisitos. O alvo precisa estar <strong>Inconsciente e Morrendo</strong>. Quem Insiste pode escolher Aguentar antes do atendimento, conservando seu requisito de tratamento.</p>
+<p>No sucesso, a pessoa fica <strong>estável</strong>: o tempo deixa de diminuir a janela. Não recupera vida, não acorda, não reduz o requisito e conserva o tratamento acumulado e o prazo restante. Uma falha apenas gasta a ação. Outra tentativa é possível enquanto houver tempo.</p>
+<p>Dano positivo que alcance a vida encerra a estabilidade e consome uma rodada. Marque esse novo ponto para retomar a contagem temporal com o prazo que restar. Estabilizar de novo não devolve rodadas.</p>
+<p>Depois de sair do perigo, uma pessoa estável que conclua um descanso curto recupera <strong>1 de vida</strong> e encerra Morrendo, recebendo uma Sequela. Essa é uma saída excepcional, mesmo abaixo do tratamento necessário. Some o tratamento válido anterior a esse ponto de vida, até o máximo atual. Impedimentos de cura continuam valendo. Estabilizar, por si só, não é cura.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#sequelas -->
+<p><a id="r4--dano--sequelas"></a></p>
+<h4>Sequelas e Cicatrizes</h4>
+<p>Sair de uma queda por chegar a zero de vida deixa <strong>uma Sequela</strong>. Registre-a quando o socorro encerrar a queda, inclusive com cura própria, uma exceção ao tratamento necessário ou a recuperação segura depois de estabilizar. A Sequela nova afeta a próxima queda. Se ficar Derrotado, registre-a ao sair desse estado, conforme Derrota e morte.</p>
+<table>
+<thead>
+<tr>
+<th>Sequelas antes de cair</th>
+<th>Janela de Aguentar ou Insistir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>3 rodadas.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2 rodadas.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1 rodada.</td>
+</tr>
+<tr>
+<td>3 ou mais</td>
+<td>Fica Derrotado imediatamente.</td>
+</tr>
+</tbody>
+</table>
+<p>Sequelas não penalizam ataques, perícias ou TRs. Elas são removidas no descanso longo: resolva primeiro a recuperação e registre a Sequela se ela encerrar a queda ou a derrota por vida a zero; depois, remova todas as Sequelas, inclusive essa. Cura comum não as remove. Receber mais cura quando já está acima de zero não acrescenta Sequela.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.</p>
+</blockquote>
+<h5>Cicatrizes</h5>
+<p>Ferimentos graves podem deixar marcas duradouras. Depois da segunda queda na mesma missão, registre com o mestre se houve uma cicatriz e como ela ficou. Ela faz parte da aparência e da história do personagem.</p>
+<p>Você escolhe se a Cicatriz concede <strong>vantagem em Intimidação e desvantagem em Persuasão</strong>, ou <strong>nenhum dos dois</strong>.</p>
+<p>A recuperação da vida não apaga uma cicatriz já estabelecida. Mudar uma marca permanente depende de uma possibilidade da história e de uma regra ou procedimento capaz de fazê-lo.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#derrota -->
+<p><a id="r4--dano--derrota"></a></p>
+<h4>Derrota e morte</h4>
+<p>Você fica <strong>Derrotado</strong> quando sua janela de socorro termina ou sua Integridade chega a zero. Sua participação ativa naquela cena termina. Você fica Inconsciente e precisa ser retirado do perigo.</p>
+<p>Na regra de campanha padrão, derrota não causa morte automática. O mestre resolve o destino conforme os acontecimentos: resgate, captura, perda do objetivo ou outra consequência da missão. Ela não concede imunidade a perigos nem obriga inimigos a ignorar seu corpo.</p>
+<h5>Missões com morte permanente</h5>
+<p>A campanha pode adotar morte ao esgotar a janela de socorro ou chegar a zero de Integridade. Essa regra precisa estar definida antes da missão. Use o mesmo critério para todos os personagens participantes. Não transforme uma derrota em morte retroativamente por preferência de quem está mestrando.</p>
+<p>A morte também pode decorrer de uma consequência física que impeça qualquer socorro, estabelecida na cena. Não é uma redução comum de vida a zero. O mestre deve apresentar o risco antes de uma decisão que o personagem possa tomar.</p>
+<h5>Recuperação depois da derrota</h5>
+<p>Se o personagem estiver vivo, converta o tratamento acumulado em vida, até seu máximo atual. Depois disso, a cura recupera vida normalmente, sem exigir o tratamento necessário para sair de Morrendo. O personagem continua Derrotado: recuperar reservas não devolve sua participação naquela cena nem abre outra janela de socorro.</p>
+<p>Depois de sair do perigo, pode recuperar a consciência ao concluir um descanso curto com atendimento, desde que tenha pelo menos <strong>1 de vida e 1 de Integridade</strong>. Se ainda estiver a zero de vida, use o teste de Estabilizar durante a pausa. No sucesso, recupera 1 de vida ao concluí-la. Uma nova pausa permite outra tentativa. Esse atendimento não restaura Integridade.</p>
+<p>Ao sair da derrota, recebe uma Sequela se essa queda envolveu vida a zero. Conte apenas uma, mesmo que tenha recebido mais dano enquanto estava Derrotado. A derrota apenas por Integridade não gera essa Sequela.</p>
+<p>Uma derrota por Integridade exige uma fonte que a recupere ou o descanso longo. <strong>Concluir um descanso longo também encerra a inconsciência causada pela derrota</strong>, desde que as duas reservas voltem a pelo menos 1. Resolva primeiro a recuperação, registrando a Sequela se essa derrota envolveu vida a zero; depois, remova todas as Sequelas, inclusive a recebida nessa recuperação. Outras causas de inconsciência conservam suas saídas próprias.</p>
+<p>Um personagem morto não recupera vida por cura comum, descanso, estabilização ou remoção de condição. Voltar à vida exige uma regra expressa da campanha. Também não se transforma automaticamente numa maldição.</p>
+<p><strong>Núcleo Dependente.</strong> Um Corpo Amaldiçoado com essa menor não possui Integridade; a exigência de recuperar essa reserva não se aplica a ele. Queda por vida, outras causas de inconsciência e as demais condições de recuperação continuam valendo. Receber PE encerra a inatividade por energia, não essas outras causas.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#inconsciente -->
+<p><a id="r4--dano--inconsciente"></a></p>
+<h4>Inconsciente</h4>
+<p>Enquanto estiver Inconsciente, você não percebe o que ocorre à sua volta, não age, não se move por vontade própria, não usa Reações e não escolhe Bloquear. Concentrações e contenções que dependam de sua atuação terminam.</p>
+<p>Se estiver de pé sem apoio que o sustente, cai e fica Derrubado. Sua Defesa estática permanece. Ataques contra você seguem sua posição e as demais condições presentes. A inconsciência não concede um crítico automático por si só.</p>
+<p>Faça os TRs exigidos por efeitos com os modificadores aplicáveis, mesmo sem poder agir. Você falha automaticamente num teste cuja tarefa dependa de uma ação consciente, como observar uma passagem ou sustentar uma conversa.</p>
+<h5>Recuperar a consciência</h5>
+<p>A causa determina a saída. Vida a zero usa Socorro. Derrota exige o atendimento e a pausa definidos em Derrota e morte. Uma capacidade que faça alguém dormir indica como acordar.</p>
+<p>Estar Inconsciente com vida acima de zero não inicia sozinho uma janela de Morrendo. Receber cura não encerra toda causa de inconsciência. Use a saída da regra que a provocou.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#descansos -->
+<p><a id="r4--dano--descansos"></a></p></section><section class="consulta-regra" id="r4--regra-12"><h3>Descansos</h3>
+<p>O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.</p>
+<p><strong>Descanso curto:</strong> uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele momento. <strong>Descanso longo:</strong> a missão terminou e você pôde parar de trabalhar.</p>
+<p>O mestre confirma quando o descanso acontece e se o lugar é propício. Uma pausa contínua conta como um descanso; anunciar a mesma pausa várias vezes não repete a recuperação.</p>
+<h4>Ambiente propício</h4>
+<p>Um lugar propício oferece abrigo, suprimentos e meios de atendimento. Exemplos incluem a escola, um posto oficial equipado, um hospital, a casa de um clã que recebe o grupo ou um veículo de apoio com kit.</p>
+<p>Confira as condições reais: a escola sob ataque pode não oferecer descanso seguro; outro abrigo pode ter os recursos necessários. Sempre que possível, o mestre apresenta essas opções antes da missão para o grupo planejar o retorno.</p>
+<h4>Descanso curto</h4>
+<p>Recupere <strong>25% dos PE máximos</strong>, sem ultrapassar o máximo. Vida e Integridade não voltam por esse descanso sozinho. Habilidades que curem ou permitam reparos durante a pausa continuam funcionando conforme suas regras.</p>
+<p>Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. Fora de ambiente propício, use a porcentagem do seu degrau de <a href="#r4--dano--exaustao">Exaustão</a>. Um resultado que diga <strong>nada</strong> continua sendo zero.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera <strong>2 PE</strong> no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.</p>
+</blockquote>
+<h4>Descanso longo</h4>
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>Em ambiente propício</th>
+<th>Fora dele</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida e PE</td>
+<td>Voltam ao máximo.</td>
+<td>Ficam, no mínimo, na metade do máximo.</td>
+</tr>
+<tr>
+<td>Integridade</td>
+<td>Volta ao máximo; estágios são limpos.</td>
+<td>Volta ao máximo; estágios são limpos.</td>
+</tr>
+<tr>
+<td>Exaustão</td>
+<td>É removida.</td>
+<td>Permanece.</td>
+</tr>
+<tr>
+<td>Sequelas</td>
+<td>São removidas depois da recuperação.</td>
+<td>São removidas depois da recuperação.</td>
+</tr>
+</tbody>
+</table>
+<p>Resolva primeiro a recuperação. Se ela encerrar uma queda ou uma derrota por vida a zero, registre a Sequela correspondente; depois, remova todas as Sequelas, inclusive essa.</p>
+<p>Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a <strong>11</strong>, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a <strong>30 PE</strong>.</p>
+</blockquote>
+<p>Dormir durante uma missão ainda em andamento renova usos <strong>por dia</strong>; não equivale automaticamente ao descanso longo descrito aqui.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#exaustao -->
+<p><a id="r4--dano--exaustao"></a></p>
+<h4>Exaustão</h4>
+<p><strong>Da quarta luta do dia em diante, cada luta acrescenta um degrau de Exaustão, até o máximo de três.</strong> Registre o total ao terminar cada confronto. A primeira, a segunda e a terceira luta não acrescentam degraus por essa regra.</p>
+<p>O mestre identifica o que contou como luta. Um combate com oposição, uma fuga que exigiu recursos ou uma contenção sob ataque podem contar. Um treino ou uma ameaça encerrada sem esforço relevante normalmente não contam. A decisão não depende apenas de ter rolado iniciativa.</p>
+<h5>Efeitos</h5>
+<p>Os efeitos dos degraus anteriores continuam valendo. A última coluna vale para descanso curto <strong>fora de ambiente propício</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Degrau</th>
+<th>Efeito</th>
+<th>Recuperação de PE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Nenhuma penalidade.</td>
+<td>25% do máximo.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Desvantagem em perícias e ofícios.</td>
+<td>15% do máximo.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Deslocamento limitado a 4,5 m.</td>
+<td>5% do máximo.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Desvantagem em ataques e TRs.</td>
+<td>Nada.</td>
+</tr>
+</tbody>
+</table>
+<p>Em ambiente propício, o descanso curto devolve <strong>25% em qualquer degrau</strong>. Ele não remove a Exaustão por isso. O limite de 4,5 m não aumenta um deslocamento que já esteja menor ou zerado.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, conforme esteja nos degraus 0, 1, 2 ou 3. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.</p>
+</blockquote>
+<h5>Recuperação</h5>
+<p>Descanso longo em ambiente propício remove toda a Exaustão. Fora dele, ela permanece. O mestre também pode retirar um degrau quando a situação justificar, como após uma noite de recuperação adequada; não acrescenta degraus fora dos gatilhos da regra.</p>
+<p>Recomeçar a contagem de lutas de um novo dia não remove os degraus que você já tinha.</p>
+<h5>Exaustão e Integridade</h5>
+<p>Quando ambas impõem a mesma penalidade, use a pior, sem multiplicar esses cortes entre si. Desvantagem continua sem se acumular. Para movimento, compare o limite da Exaustão com metade do deslocamento pela Integridade e use o menor; ajuste o resultado à escala de 1,5 m.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com deslocamento 9 m, Exaustão 2 limita a 4,5 m; Integridade no estágio 2 também resulta em 4,5 m. A combinação mantém <strong>4,5 m</strong>. Com deslocamento 6 m, a metade da Integridade é 3 m, então usa <strong>3 m</strong>.</p>
+</blockquote>
+<p>As consequências que só uma das duas impõe permanecem: o custo adicional de PE e o teto de Classe são da Integridade. Recuperar PE não remove essas penalidades.</p>
+<!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#usos -->
+<p><a id="r4--dano--usos"></a></p>
+<h4>Cena e usos de habilidades</h4>
+<p>O texto de uma habilidade informa quando seus usos voltam. Marque cada uso gasto na ficha e apague a marca quando cumprir a recuperação indicada. Recuperar um uso não devolve os PE pagos anteriormente.</p>
+<table>
+<thead>
+<tr>
+<th>Limite</th>
+<th>Quando o uso volta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Por cena</td>
+<td>Quando aquela cena termina.</td>
+</tr>
+<tr>
+<td>Por descanso curto</td>
+<td>Ao concluir esse descanso.</td>
+</tr>
+<tr>
+<td>Por dia</td>
+<td>Depois de dormir para começar um novo dia.</td>
+</tr>
+<tr>
+<td>Por descanso longo</td>
+<td>Ao concluir esse descanso, no fim da missão.</td>
+</tr>
+</tbody>
+</table>
+<p>Siga o nome completo do limite. Uma habilidade que recarrega apenas em descanso longo não volta por fazer uma pausa curta. Se disser só “por descanso”, sem especificar qual, a descrição precisa ser completada antes de entrar em jogo.</p>
+<h5>Cena</h5>
+<p>Uma <strong>cena</strong> é um trecho de jogo com uma situação em andamento. Pode abranger uma sala, várias salas ou um combate. Ela termina quando a pressão daquele trecho acaba: o inimigo foi vencido, o grupo escapou ou o problema imediato foi resolvido. O mestre anuncia a mudança quando ela afetar recursos.</p>
+<p>Mudar de cômodo durante a mesma perseguição não cria, por si só, outra cena. Da mesma forma, terminar uma luta não garante uma pausa segura se ainda houver perseguidores próximos.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma capacidade pode atender cada aliado uma vez por cena. Trocar de usuário não permite repeti-la no mesmo alvo se o limite for por alvo. A descrição precisa informar a quem pertence o limite.</p>
+</blockquote>
+<h5>Missões longas</h5>
+<p>Uma missão pode atravessar vários dias. Dormir renova os usos por dia; o descanso longo depende de encerrar a missão e poder parar. Não renove todas as habilidades só porque a mesa terminou a sessão.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> em uma missão de três dias, Rina pode renovar uma habilidade por dia após cada noite de sono. Uma habilidade por descanso longo permanece gasta até o descanso de encerramento da missão. Se uma pausa segura no segundo dia contar como descanso curto, apenas os usos com essa recuperação voltam por causa dela.</p>
+</blockquote>
+<h5>Conferência da ficha</h5>
+<p>Ao concluir um descanso, atualize vida, PE e Integridade. Confira máximos reduzidos, estágios, Sequelas e Exaustão. Depois, renove os usos correspondentes. Cicatrizes permanecem. Vida e energia temporárias seguem a duração de suas fontes e o fim da cena, não uma recuperação automática pelo descanso.</p>
+<p>Consequências permanentes continuam registradas. A recuperação das reservas não desfaz uma morte ou restaura automaticamente uma entidade destruída.</p>
+<!-- parte:2 --></section><section class="consulta-regra" id="r4--regra-13"><h3>Mestrar uma sessão</h3>
+<p>Descreva primeiro o que os personagens podem perceber e o que exige atenção imediata. Inclua posições, acessos e riscos visíveis quando ajudarem a escolher uma ação. Dê detalhes adicionais conforme o grupo examina o lugar ou faz perguntas.</p>
+<p>Depois que alguém propuser uma ação, identifique sua intenção. Escolha o procedimento que resolve a tentativa: descrição, teste, ataque, capacidade da ficha ou outra regra pertinente. Informe custos e consequências que o personagem já teria condições de prever. Resolva o resultado e descreva o que mudou.</p>
+<h4>Informação e ritmo</h4>
+<p>Alterne o foco entre os participantes. Fora de combate, pergunte o que os demais fazem enquanto uma pessoa investiga ou conversa. Em combate, mantenha visíveis a iniciativa, as posições e os efeitos com duração. Terminar uma rolagem antes de começar outra reduz dúvidas sobre quando uma resposta pode ser usada.</p>
+<p>Uma maldição pode ter intenções que os jogadores desconhecem. Os personagens só agem sobre o que perceberam ou descobriram. O mesmo cuidado vale para capacidades de investigação: elas entregam a informação descrita em sua regra, sem revelar toda a ficha de uma criatura.</p>
+<h4>Dúvidas de regra</h4>
+<p>Procure a capacidade usada e o procedimento geral que ela modifica. Confira ação, alvo, alcance, resolução e prazo. Se a dúvida persistir, combine uma decisão para aquela sessão e registre o trecho que permitiu interpretações diferentes. A correção posterior deve ser comunicada a quem foi afetado.</p>
+<h4>Continuidade da guilda</h4>
+<p>Antes da missão, confira a versão da ficha, os recursos de entrada e as opções que a organização autoriza. Quando vários mestres compartilham personagens, usem o mesmo registro para recompensas, empréstimos, Pactos e consequências.</p>
+<p>Ao terminar, confiram as alterações com os jogadores. Separar o que foi observado na aventura do que foi decidido sobre uma regra ajuda o próximo mestre a continuar. As regras de progressão e recuperação permanecem nos capítulos correspondentes; trocar de mesa não renova recursos por si.</p>
+<h4>História da campanha</h4>
+<p>Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a época e o quanto pretendem seguir essa história. O mestre pode usar uma situação original sem exigir que todos conheçam revelações do mangá.</p>
+<p><a id="r4--capitulo-19"></a></p></section></article><article id="campanha"><h2>Campanha</h2><section class="consulta-regra" id="r5--regra-1"><h4>Campanhas e guildas</h4>
+<p>Uma <strong>sessão</strong> é um encontro para jogar. Várias sessões ligadas pelos mesmos personagens e acontecimentos formam uma <strong>campanha</strong>. Vocês podem jogar presencialmente ou pela internet.</p>
+<p>Este sistema foi preparado também para <strong>guildas</strong>: comunidades, muitas vezes organizadas em um servidor, nas quais diferentes mestres oferecem missões e os jogadores continuam usando os mesmos personagens. Nesse formato, a ficha, os recursos gastos e as consequências de cada missão precisam permanecer registrados. A organização informa quais personagens podem participar de cada mesa e como registrar os resultados.</p>
+<p>Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da história pode ser uma escola, um grupo independente ou outra organização definida pela campanha.</p>
+<blockquote>
+<p>Ciclo Maldito é um material de fã baseado em Jujutsu Kaisen, de Gege Akutami.</p>
+</blockquote>
+<!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-primeira-sessao -->
+<p><a id="r5--ab--ab-primeira-sessao"></a></p></section><section class="consulta-regra" id="r5--regra-2"><h3>Primeira sessão</h3>
+<p>Para jogar, reúna o grupo, uma ficha por personagem e acesso a este livro. Use lápis e papel ou ferramentas digitais para anotar vida, energia, equipamento e condições durante a missão.</p>
+<h4>Dados</h4>
+<p>O jogo usa dados de <strong>4, 6, 8, 10, 12 e 20 faces</strong>, abreviados como d4, d6, d8, d10, d12 e d20. Um aplicativo de dados também serve.</p>
+<p><strong>3d8</strong> significa rolar três dados de oito faces e somar os resultados. <strong>1d6 + 2</strong> significa rolar um dado de seis faces e acrescentar 2. A regra que pede a rolagem informa quais modificadores entram. Em Testes, você encontrará o procedimento completo para resolver uma tentativa.</p>
+<h4>Combinados do grupo</h4>
+<p>Antes de criar as fichas, conversem sobre a campanha: onde e quando ela acontece, quem reúne os personagens e qual será a primeira missão. Combinem também quais cenas de violência, terror e conflito entre personagens podem aparecer na campanha. Qualquer participante pode pedir uma pausa ou a mudança de um conteúdo que o incomode. Acordos entre jogadores não precisam ser resolvidos com dados.</p>
+<p>O mestre informa o nível e os recursos iniciais. O padrão deste livro é <strong>nível 2</strong>, com personagens que já escolheram sua primeira Trilha. Uma campanha pode começar no nível 1, antes dessas habilidades. A patente inicial padrão é Grau 4. Nível e patente têm funções diferentes, explicadas em Progressão.</p>
+<h4>Seu começo</h4>
+<p>Se você está conhecendo o universo, leia <strong>Mundo jujutsu</strong>. Para preencher a ficha, siga <strong>Criar um personagem</strong>, consultando as opções nos capítulos de Origens e Caminhos. O exemplo <strong>Resgate na ala oeste</strong> mostra uma cena resolvida com dados e recursos já anotados.</p>
+<p>Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens. As regras para montar uma técnica ficam no Fundamento. Você pode aprender suas próprias escolhas primeiro e consultar os demais catálogos quando precisar deles.</p>
+<!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-mundo -->
+<p><a id="r5--ab--ab-mundo"></a></p></section><section class="consulta-regra" id="r5--regra-3"><h3>Legados de história</h3>
+<p>Uma pessoa que guardou seu segredo, uma promessa antiga ou uma oficina para onde você sempre volta: um Legado de história liga sua vida anterior às aventuras do grupo. Ele pode desenvolver seu traço ou registrar outra relação, lembrança, instituição ou particularidade da sua existência. Use as sugestões da Origem ou escreva as suas com o mestre; elas são pontos de partida, sem uma compra obrigatória.</p>
+<p>Dê a essa ligação um lugar na campanha: quem está envolvido, o que aconteceu entre vocês e que assunto continua aberto. Isso oferece alguém para procurar, um motivo para aceitar uma missão ou uma conversa que você vem adiando. Os Legados de história <strong>não ocupam suas escolhas de marcante ou menores e não concedem benefícios mecânicos por si só</strong>.</p>
+<p>Conhecer quem guarda um arquivo dá ao grupo alguém para procurar, mas o guardião conserva seus interesses e pode negar os documentos. Uma ferramenta herdada ainda precisa ser obtida pelos recursos e requisitos de Equipamento antes de entrar no inventário.</p>
+<p>Algumas histórias permitem escolher capacidades específicas. <strong>Manutenção</strong>, por exemplo, dá acesso a duas menores do Corpo Amaldiçoado: registre a história e a capacidade que escolher. A história não gasta vaga; cada menor escolhida ocupa uma das duas vagas normais.</p>
+<h4>Usar as capacidades da Origem</h4>
+<p>Cada entrada informa seu momento e sua frequência: por cena, por dia, por descanso curto ou por descanso longo. Use os períodos definidos em Testes e Descansos. Uma nova luta não renova automaticamente um uso por descanso longo. Quem dispensa sono ainda passa pelo repouso que renova usos por dia.</p>
+<p>Declare vantagem antes de rolar. Quando uma capacidade permitir repetir uma falha, use-a depois de conhecer o resultado e antes das consequências, salvo momento próprio da entrada. Repita o procedimento com os mesmos modificadores e vantagem ou desvantagem aplicáveis, aceitando o novo resultado. Uma entrada que mande repetir apenas um dado conserva essa exceção.</p>
+<p>A progressão não fornece novas escolhas de Origem. Capacidades que dependam de nível, Maestria ou outro valor acompanham a fórmula que apresentam. Para mudanças duradouras na história, consulte <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#origens--legado-criar">Rever a Origem</a>.</p>
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-latente -->
+<p><a id="r5--origens--origem-latente"></a></p></section></article></main></html>

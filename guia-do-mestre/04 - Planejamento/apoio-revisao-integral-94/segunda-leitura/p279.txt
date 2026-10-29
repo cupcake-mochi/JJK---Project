@@ -1,0 +1,90 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Depois de religar ou descansar, atualize o registro
+com o que realmente aconteceu. Ao subir de nível,
+Nara não aumenta o nível do Amontoado: a domada
+conserva o nível 2. Valores que dependem da
+invocadora, como Maestria e a parcela de Defesa,
+seguem suas regras próprias.
+Na guilda, informe o local e o estado da criatura ao
+passar a missão para outro mestre. Em campanha
+fechada, registre com a equipe como vão retirá-la
+ou mantê-la no local. Domar não libera
+automaticamente o centro cultural: ainda é preciso
+verificar os riscos, retirar a criatura por meios
+válidos e comunicar o resultado a Ana.
+Consulta do Livro de Regras 1.0: doma,
+conferência da conversão, queda e destruição,
+retorno, corpos mantidos e energia das entidades.
+9.11 · Construir e evoluir o
+Escriba de campo
+Exemplo experimental para a pré-1.0. Esta seção
+mostra como criar uma ficha e acompanhá-la ao
+longo dos níveis. As contas e as peças de combate
+seguem o Livro de Regras 1.0. A entidade é original
+do Guia; seu talento Retrato de referência é uma
+proposta de Categoria de Efeito 1 (CE1), ainda
+sujeita à avaliação do grupo. O exemplo não declara
+esse poder equilibrado por ter uma ficha
+preenchida.
+Comece pela função
+Tala quer uma entidade que conserve a aparência
+de uma pista para mostrar à equipe e participe de
+confrontos à distância. Sua técnica já prevê figuras
+de papel animadas. No nível 5, ela dedica um
+espaço conhecido válido ao Escriba de campo, que
+começa no mesmo nível e acompanha sua evolução.
+Definição: uma figura de papel que registra uma
+imagem observada e lança agulhas de tinta contra
+alvos indicados.
+Essa descrição orienta a montagem. Não concede
+fotografia, dano, voo ou qualquer sentido antes de
+adquirir a capacidade correspondente. Para esta
+ficha, Tala tem Maestria 1, escolheu Inteligência
+para a Defesa de suas entidades e possui
+Inteligência 4. Esses são os campos da invocadora
+usados nas contas; use sua ficha completa para
+recursos e ações pessoais.
+O Escriba é um shikigami de técnica, Pequeno,
+com alma, duas pernas, dois braços e mãos.
+Caminha 9 m, tem visão e audição comuns,
+compreende ordens faladas de Tala e responde por
+gestos. Não fala. Seu painel de papel mostra uma
+imagem apenas pelo talento descrito adiante. Não
+tem Ofício, equipamento, voo, telepatia, visão
+compartilhada, armazenamento ou capacidade de
+transportar passageiros.
+O espaço de Tala continua ocupado quando a
+entidade estiver recolhida. Esta aquisição não exige
+fabricar um talismã nem vencer um ritual. Usar
+outra forma de aquisição exigiria conferir os
+requisitos e a evolução correspondentes.
+A ficha no nível 5
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+0
+2
+2
+3
+2
+A soma é 9 pontos, todos entre 0 e 3. Inteligência será o atributo de acerto: o Escriba calcula o trajeto das
+agulhas. A escolha é fixa na ficha, não uma troca para o melhor atributo a cada ataque.
+Campo
+Conta e resultado
+Ataque e CD das habilidades
+Inteligência 3 + Maestria 1 = +4; CD 8 + 3 + 1 = 12.
+Vida máxima
+5 + Constituição 2 + (3 + 2) × (5 - 1) = 27 PV.
+Integridade máxima
+Metade de 27, para baixo: 13.
+Defesa sem equipamento
+10 + Destreza 2 + metade da Inteligência 4 de Tala = 14.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+279

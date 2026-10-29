@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+energia conforme o Livro de Regras 1.0. Ren pesa 72
+kg; Sora, 60 kg. Não possuem invocações, Domínio,
+cura passiva, resistência, imunidade ou redução
+permanente de dano. Não são maldições
+disponíveis para Doma.
+Campo
+Ren - atacante
+Sora - apoio
+Nível / Maestria / Refino / Classe
+máxima
+6 / 1 / 2 / 2
+6 / 1 / 2 / 2
+Força / Destreza / Constituição /
+Inteligência / Essência
+4 / 2 / 3 / 1 / 1
+0 / 2 / 3 / 2 / 4
+Vida / Integridade
+72 PV / 36
+48 PV / 24
+PE atuais / máximos
+8 / 8
+12 / 12
+Defesa / Bloquear
+13 / 2d10 + 2
+13 / 2d10 + 2
+Origem da Defesa
+10 + Destreza 2 + Traje 1
+A mesma conta.
+Iniciativa / movimento
+d20 + 2 / 9 m
+d20 + 2 / 9 m
+TR Físico
++5, Força treinada
++3, Destreza treinada
+TR Vigor
++4, treinado
++3, sem treino
+TR Intelecto
++1, sem treino
++2, sem treino
+TR Espírito
++1, sem treino
++5, treinado
+Perícias treinadas usadas na
+ocorrência
+Atletismo +5, Percepção +2,
+Sentir Energia +2, Intuição +2
+Percepção +5, Sentir Energia +5,
+Intuição +3, Persuasão +5
+Carga normal / arrasto máximo
+9 / 18 Volume
+5 / 10 Volume
+Itens iniciais
+Espada Longa de uma mão, 1
+Volume; Traje 1, 0,3.
+Traje 1, 0,3 Volume; estojo, 1
+Volume, na mão esquerda.
+Demais perícias usam seus atributos e requisitos,
+sem treino adicional presumido; não há Ofícios
+treinados relevantes nesta ficha. Ambos começam
+abaixo da carga normal. Equipamento obtido ou
+perdido atualiza as contas. A espada é uma arma
+comum; pode ferir maldições quando revestida por
+Canalizar, mas não se torna uma Ferramenta
+Amaldiçoada permanente.
+Cada um tem Padrão, Movimento, Bônus e Reação
+comuns; um ataque em Atacar. Não há ataque
+extra de Bônus, ataque extra de nível 7 ou iniciativa
+compartilhada. Reações voltam no começo do turno
+do próprio dono. As fichas podem escolher Defesa
+estática ou Bloquear antes de cada ataque rolado;
+Bloquear não impede áreas ou TRs.
+Recursos que os dois possuem
+Canalizar Energia. Acrescenta 1d4 aos ataques com
+arma ou desarmados compatíveis, sem PE ou ação
+adicional. O dado não dobra no crítico e não entra
+nos feitiços abaixo. Os ataques já apresentam esse
+acréscimo.
+Cobrir-se de Energia. Depois de determinar o dano
+de um golpe contra si, antes de descontá-lo, gasta
+Reação e 2 PE para reduzir 3. Funciona também
+contra dano de feitiço. O Traje continua
+fornecendo sua proteção; não some a proteção
+passiva de energia sobre ele. Sem Reação ou sem 2
+PE, a redução fica indisponível.
+Kokusen. Um crítico corpo a corpo com arma ou
+desarmado pede d100. O limite inicial é 4, por
+Refino 2; cada teste de Kokusen que falhar
+acrescenta +2 aos seguintes até o descanso longo.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+147

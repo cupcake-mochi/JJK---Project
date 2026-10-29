@@ -1,0 +1,82 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+Um resultado “nada” continua zero. Máximo zero
+também não cria pontos pelo mínimo de
+recuperação. O limite de deslocamento não
+aumenta um valor que já esteja menor ou zerado.
+Com máximo 8 PE, as recuperações fora de
+ambiente propício são 2, 1, 1 e 0, conforme o
+degrau. A coincidência dos valores 1 nos dois
+degraus intermediários vem do arredondamento e
+do mínimo; as penalidades continuam diferentes.
+Quando Integridade e Exaustão impuserem a
+mesma penalidade, use a pior sem multiplicar os
+cortes entre si. Desvantagens não se acumulam.
+Para movimento, compare a metade pela
+Integridade com o limite de Exaustão:
+deslocamento 9 m fica em 4,5 m nas duas regras;
+deslocamento 6 m fica em 3 m, por ser o menor
+resultado. Os custos de feitiços e o teto de Classe da
+Integridade permanecem quando aplicáveis.
+Recomeçar a contagem de lutas num novo dia não
+remove degraus existentes. Descanso longo em
+ambiente propício remove a Exaustão; fora dele, ela
+permanece. O Livro de Regras 1.0 também permite
+ao mestre retirar um degrau quando a situação
+justificar, como após uma noite de recuperação
+adequada. Essa possibilidade serve para remover
+um degrau. Ela não cria uma nova causa de
+Exaustão.
+Descanso longo
+A tabela apresenta as regras gerais; aplique as
+exceções da ficha, incluindo as descritas acima.
+Recurso ou estado
+Em ambiente propício
+Fora dele
+Vida e PE
+Voltam ao máximo
+Ficam no mínimo na metade do
+máximo
+Integridade
+Volta ao máximo e os estágios são
+limpos
+Mesmo resultado
+Exaustão
+Removida
+Permanece
+Sequelas
+Removidas depois da recuperação
+Mesmo resultado
+Fora de ambiente propício, metade é o mínimo que
+deve restar depois da pausa, não uma quantidade
+somada ao saldo. Arredonde para baixo, mínimo 1
+quando o máximo for positivo. Não reduza uma
+reserva que já esteja acima da metade.
+Exemplo: máximo de vida 23, saldo 3: fica em 11. Se
+o saldo fosse 18, conservaria 18. Com máximo 60
+PE e saldo 8, fica em 30 PE.
+Resolva primeiro a recuperação. Se ela encerrar
+queda ou derrota por vida a zero, registre a Sequela
+correspondente; depois remova todas as Sequelas,
+inclusive essa. O descanso longo também encerra a
+inconsciência causada pela derrota quando as
+reservas exigidas voltarem a pelo menos 1,
+respeitando exceções como Núcleo Dependente.
+Outras causas de inconsciência conservam suas
+saídas próprias.
+Cicatrizes e consequências permanentes não
+desaparecem por restaurar reservas. Vida e energia
+temporárias seguem a duração de suas fontes, sem
+serem refeitas pelo descanso. Entidades destruídas
+também não são restauradas automaticamente pela
+recuperação do invocador.
+O que acontece depois da derrota
+Depois de resolver os estados e o socorro, retome o
+objetivo. A sobrevivência, a participação ativa e o
+resultado da missão são questões diferentes.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+80

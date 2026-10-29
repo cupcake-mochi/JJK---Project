@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Recurso ou estado
+Antes da conversão
+Registro adquirido
+Vida
+0 de 48
+0 de 14: continua caída.
+Integridade
+24 de 24
+7 de 7, limitada ao novo máximo.
+Reserva própria
+0 de 6
+0 de 2: não se preenche ao adquirir.
+Excedente da queda
+4
+Conservar 4 até o retorno ou outra regra que
+o zere.
+Posição
+Chão do depósito
+Permanece ali, Desligada.
+Efeitos persistentes
+Nenhum neste exemplo
+Nenhum. Em outra sessão, registrar os que
+realmente existirem.
+Os limites de destruição do ataque anterior foram
+verificados com a ficha do encontro. Não volte ao
+golpe de 12 para compará-lo retroativamente com
+14 PV ou com metade de 14. Daqui em diante, use a
+ficha atual. Neste caso, mais 4 de dano direto no
+corpo Desligado levariam o excedente de 4 a 8,
+superando a metade atual, 7, e o destruiriam.
+Ao converter, conserve reservas atuais sem
+ultrapassar os novos máximos. Isso não autoriza
+aumentar um saldo baixo até o máximo: se restasse
+1 PE, ficaria com 1 de 2. Confira os estágios de
+Integridade com o saldo e o máximo resultantes.
+Uma condição com duração própria não acaba só
+porque houve aquisição.
+Nara não possui meio para recolher a maldição. Ela
+não vira um talismã nem desaparece dentro de
+Nara. A domada segue o modo dos corpos
+mantidos, sem mudar sua origem para corpo
+amaldiçoado nem ganhar imunidade a Envenenado.
+Com Essência 3 e capacidade de duas entidades
+ativas, o limite de corpos mantidos de Nara é 3 + 2 =
+5. A maldição é seu primeiro corpo; estar Desligada
+não a faz atuar.
+Religar e dar uma tarefa
+A entidade de nível 2 tem entrada de Classe 1: 1 PE.
+Como caiu, precisa do retorno, por 2 PE, para ficar
+com 7 PV, metade de 14. Nara paga esse custo
+inteiro; a reserva própria da maldição não o divide.
+O corpo é religado onde está, sem ser
+teletransportado, e o excedente da queda é zerado.
+Em combate, religar usa a Bônus de Nara e não
+concede uma básica própria naquele ciclo. Dar a
+primeira tarefa requer a Bônus correspondente e
+comunicação válida. Fora de combate, a dispensa
+de ação das entradas e saídas não apaga o custo de
+energia. O grupo também pode esperar uma
+recuperação válida por descanso, respeitando a
+situação da história.
+Cura comum de entidade não funciona a zero de
+vida. Se a aquisição tivesse acontecido com
+Integridade zero, seria necessário recuperar pelo
+menos 1 desse recurso antes do retorno. Não use os
+7 PV concedidos por religar para substituir essa
+exigência.
+Uma tarefa possível é “acompanhe Nara pelo
+corredor”. A criatura entende a frase e consegue
+andar. “Avise tudo o que descobrir em qualquer
+lugar” não lhe concede telepatia, fala ou visão
+compartilhada.
+Usar a especial com a reserva vazia
+Impacto custa 3 PE. Normalmente, Nara paga 2 e a
+maldição paga 1. Como a reserva adquirida está
+vazia, Nara paga os 3. Também precisa gastar sua
+Ação Padrão, comunicar o comando e ter a básica
+da entidade disponível. A especial consome essa
+básica e não se soma a uma Pancada gratuita.
+Se Nara tiver 5 PE antes de religar, o retorno custa
+2 e deixa 3. Uma execução posterior válida de
+Impacto, ainda com a reserva da domada vazia,
+gasta esses 3. Os gastos de Nara durante a luta
+precisam ser registrados à parte; esse exemplo
+começa com o saldo declarado de 5.
+Um descanso curto válido pode recuperar 1 PE da
+reserva própria: um quarto de 2 arredondado para
+baixo daria zero, mas a regra usa mínimo 1 para
+reserva positiva. Isso não cura automaticamente a
+entidade nem repete a recuperação várias vezes
+dentro da mesma pausa. Um descanso longo
+recupera sua reserva inteira, conforme o Livro de
+Regras 1.0.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+277

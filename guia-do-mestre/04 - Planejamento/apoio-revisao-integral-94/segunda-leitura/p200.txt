@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+capaz de afetá-la. As regras de passagem da rota
+sem energia continuam valendo; objetos e
+equipamentos carregados precisam ser conferidos
+separadamente. O corpo atravessar não transporta
+automaticamente um item bloqueado.
+Concluir outra Barreira Simples ou Cortina encerra
+a anterior. Mantenha essa consequência visível
+quando alguém propuser uma segunda proteção.
+A situação do Traje
+A situação própria de um Traje precisa ser física,
+reconhecível e ocasional. “Quando estiver me
+escondendo” é uma tarefa, e não atende a esse
+critério. “Quando eu quiser me proteger” tampouco
+delimita uma condição de cena.
+Compare a intenção com as situações publicadas
+antes de criar outra. Água e chuva, Escuro, Vão
+apertado e Terreno instável já oferecem referências
+concretas. Escolher uma situação não retira suas
+dificuldades: Escuro não fornece visão no escuro.
+Exemplo. Maestria 2 permite registrar duas
+perícias, além de um tipo de TR. Uma personagem
+escolheu Atletismo, Furtividade e TR Físico; seu
+Traje tem Água e chuva. Sob chuva, tem vantagem
+nessas rolagens, respeitando seus requisitos. Não
+recebe vantagem em ataques, Ofícios ou TR de
+Vigor.
+As escolhas de perícias e TR acompanham a
+personagem e valem para qualquer Traje que vestir;
+a situação acompanha a peça. Trocar de uniforme
+não permite escolher novamente todos esses
+benefícios. A situação não altera a proteção
+numérica nem transforma roupa comum em Traje.
+Sem Técnica e Técnica Marcial
+A montagem compartilhada não apaga os
+requisitos da rota. Um Manejo precisa desenvolver
+sua semente; uma Kata precisa caber no estilo e no
+equipamento definidos. Usar uma função permitida
+pela tabela não basta se ela não corresponde ao
+funcionamento da ficha.
+Caso. Uma semente de Energia Reversa sustenta
+cura. Transformá-la em leitura de memórias exige
+um funcionamento que essa semente não fornece.
+Explique a diferença e volte à intenção do jogador:
+talvez o objetivo seja cuidar de alguém ou descobrir
+uma informação, que são problemas diferentes.
+Sem Técnica recebe a aptidão escolhida como
+semente no nível 2 pela concessão da rota, sem
+gastar marco nem cumprir seus requisitos comuns
+de nível e refino. As demais exigências e regras de
+uso permanecem. Se a semente for uma Aptidão
+Própria, confira também a escolha única dessa
+opção na ficha.
+Usar a aptidão e conjurar um Manejo são usos
+diferentes. Cada um tem ação e custo. A semente
+não precisa estar ativa para todo Manejo, salvo
+exigência da Regra ou da aplicação. Não acrescente
+uma ativação obrigatória universal.
+Para uma Kata de alguém sem energia, PE
+representa esforço. Usar equipamento amaldiçoado
+ou pagar PE não concede sentidos de energia,
+Refino ou Aptidões ausentes da Origem. O Corpo
+Amaldiçoado que usa Técnica Marcial conserva sua
+energia e suas próprias regras.
+Armazenamento de energia
+Reserva Condensada, menor da Restrição corporal,
+deixa para o acordo entre jogador e mestre a
+quantidade guardada por ocasião, os momentos e
+condições de armazenamento e o máximo
+acumulável. A descrição não fornece números
+universais para preencher esses campos.
+Para avaliar uma proposta, escreva também como a
+energia entra e sai da reserva. Isso torna possível
+verificar se o texto pretende transferir PE
+existentes, produzir recuperação ou criar outra
+disponibilidade. Não trate essas possibilidades
+como equivalentes.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+200

@@ -1,0 +1,76 @@
+CICLO MALDITO / GUIA DO MESTRE
+ENTRE MISSÕES
+A função da peça
+Kenji quer conferir se uma caixa foi aberta depois
+de fechada. A proposta é deixar um aviso na própria
+caixa. O anel não transmite notícias a distância, não
+impede a abertura e não identifica quem mexeu no
+recipiente.
+Anel de Testemunho - acessório pequeno, grau 3
+proposto. Efeito: Marca de abertura. A base é um
+anel comum de metal, com 0,1 Volume. Não
+concede proteção nem bônus de atributo, ataque ou
+teste. O grau 3 não exige nível mínimo para seu
+efeito. É preciso vesti-lo e prepará-lo com Ação
+Padrão, respeitando o limite de dois itens vestidos
+com efeitos especiais; apenas um desses dois pode
+ser vestimenta.
+Campo
+Ficha experimental
+Ativação
+Com o anel preparado, dedique um minuto contínuo a tocar o fecho de um
+recipiente fechado e acessível. Não gasta PE. Se interrompido, não cria a
+marca.
+Destinatário
+Um único fecho que você consiga tocar. A marca atravessa a junção entre
+tampa e recipiente. Não afeta criaturas nem objetos cuja posse esteja sendo
+disputada naquele momento.
+Resultado
+Aparece um traço pálido. Se a junção marcada se separar, o traço fica escuro,
+mesmo que o recipiente seja fechado novamente.
+Informação
+Quem examinar o traço visível distingue pálido de escuro. Não recebe horário,
+identidade, conteúdo da caixa ou informação sobre outras aberturas.
+Duração
+Até 24 horas, enquanto o anel continuar vestido e preparado por quem fez a
+marca.
+Encerramento
+Termina ao retirar o anel, destruir o fecho marcado, concluir outra marca ou
+alcançar as 24 horas. O traço desaparece.
+Quantidade
+Uma marca ativa por anel e por personagem. Concluir outra com esse efeito
+encerra a anterior, mesmo usando uma cópia; não existe reserva de marcas.
+Retomada
+Pode repetir o minuto quando cumprir os requisitos. A ficha não tem usos por
+descanso.
+Desgaste
+Não tem. O efeito não recebe missões de uso temporário.
+A distância não transmite um aviso ao portador. Ele
+precisa voltar a observar a marca ou receber o relato
+de alguém. Uma perfuração por outro lado da caixa
+não separa a junção marcada e não muda sua cor.
+Uma tinta ou pano pode esconder o traço. O poder
+também não certifica que um desenho comum
+apresentado por outra pessoa seja uma marca
+verdadeira.
+Marca não é selo de contenção. Ela registra a
+abertura daquele fecho; não afasta maldições nem
+protege um objeto amaldiçoado. Esse limite deve
+acompanhar a peça quando mudar de portador.
+Por que propor grau 3
+O Medalhão de Presságio publicado fornece um
+aviso limitado de presença. Marca de abertura
+também entrega uma informação simples, mas
+exige preparo e consulta ao próprio objeto. Não
+revela identidades nem melhora uma rolagem. Essa
+comparação sustenta propor grau 3; não prova
+equilíbrio ou aprova outras capacidades de
+vigilância. Acrescentar aviso remoto, múltiplas
+marcas ou identificação de intrusos exigiria outra
+avaliação.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+223

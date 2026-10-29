@@ -1,0 +1,51 @@
+{
+  "registro": 105,
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "sha256": "9741ed993694493d514704be3d5a58288ee195a4db7407127cf866e2af76392c",
+      "id": "preparar",
+      "tipo": "formulario",
+      "titulo": "Preparar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "sha256": "b1de38a4425460144b5a9ce2095413ccc499a10c86b15aba9ebdf541d98a6450",
+      "id": "conduzir",
+      "tipo": "consulta",
+      "titulo": "Conduzir a sessão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "sha256": "8429eaf86cdda06fe5867b4c78cca2354f40510bedf2ebf9df045d1badef433d",
+      "id": "retomar",
+      "tipo": "formulario",
+      "titulo": "Retomar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "sha256": "900d311737d1afd5f33a59375f5f31a9bd32666e8098c51cff0c5528e746b19e",
+      "id": "exemplo-preparo",
+      "tipo": "exemplo",
+      "titulo": "Preparo preenchido: a despedida"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "d4b9ed6b39267e5f184bfc0116185c822646096f3c90437de83fb1f9a5a4f84b",
+      "id": "exemplo-retomada",
+      "tipo": "exemplo",
+      "titulo": "Retomada preenchida: a sala"
+    }
+  ],
+  "guia_de_escolha": {
+    "fonte": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+    "sha256": "8b22e97b54b911ea5d242cbd55d2f1b8d3a085bdf2b8dc35630411a10b053886"
+  },
+  "estilo": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "html": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+  "pdf": "04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf",
+  "pdf_sha256": "aacc92ba4444c21638b9aa86bba16964bb78891342219a3a51626837d06afe49",
+  "paginas": 6,
+  "limite": "Primeiro lote da etapa 5. Reorganização dos capítulos técnicos e consolidação final de remissões ainda pendentes."
+}

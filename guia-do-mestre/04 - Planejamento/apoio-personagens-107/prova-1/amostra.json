@@ -1,0 +1,130 @@
+{
+  "registro": 107,
+  "fonte": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+  "fonte_sha256": "1067e1d8787588bac05d1f6d3c4749eede9ab84cde460e358cb56c8a1481cb80",
+  "palavras_markdown": 4253,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Ficha pronta",
+      "id": "regra-1",
+      "inicio_linha": 2182,
+      "fim_linha": 2206
+    },
+    {
+      "titulo": "Personalizar sua Origem",
+      "id": "regra-2",
+      "inicio_linha": 3255,
+      "fim_linha": 3272
+    },
+    {
+      "titulo": "Conselho Interior",
+      "id": "regra-3",
+      "inicio_linha": 2432,
+      "fim_linha": 2435
+    },
+    {
+      "titulo": "Disputa pelo corpo",
+      "id": "regra-4",
+      "inicio_linha": 2442,
+      "fim_linha": 2447
+    },
+    {
+      "titulo": "Reparo do corpo",
+      "id": "regra-5",
+      "inicio_linha": 2853,
+      "fim_linha": 2866
+    },
+    {
+      "titulo": "Reserva Condensada",
+      "id": "regra-6",
+      "inicio_linha": 3201,
+      "fim_linha": 3206
+    },
+    {
+      "titulo": "Pontos e preços",
+      "id": "regra-7",
+      "inicio_linha": 9244,
+      "fim_linha": 9286
+    },
+    {
+      "titulo": "Toque, Aura e proximidade",
+      "id": "regra-8",
+      "inicio_linha": 9360,
+      "fim_linha": 9371
+    },
+    {
+      "titulo": "Efeito Próprio",
+      "id": "regra-9",
+      "inicio_linha": 10886,
+      "fim_linha": 10915
+    },
+    {
+      "titulo": "Talento Próprio",
+      "id": "regra-10",
+      "inicio_linha": 11273,
+      "fim_linha": 11302
+    },
+    {
+      "titulo": "Regra Própria",
+      "id": "regra-11",
+      "inicio_linha": 11238,
+      "fim_linha": 11272
+    },
+    {
+      "titulo": "Aptidão Própria",
+      "id": "regra-12",
+      "inicio_linha": 11827,
+      "fim_linha": 11851
+    },
+    {
+      "titulo": "Bênção Própria",
+      "id": "regra-13",
+      "inicio_linha": 12544,
+      "fim_linha": 12566
+    },
+    {
+      "titulo": "Liberação Máxima",
+      "id": "regra-14",
+      "inicio_linha": 9889,
+      "fim_linha": 9922
+    },
+    {
+      "titulo": "Técnica Máxima",
+      "id": "regra-15",
+      "inicio_linha": 9923,
+      "fim_linha": 10008
+    },
+    {
+      "titulo": "Expansão de Domínio",
+      "id": "regra-16",
+      "inicio_linha": 12571,
+      "fim_linha": 12600
+    },
+    {
+      "titulo": "Criar um domínio",
+      "id": "regra-17",
+      "inicio_linha": 12601,
+      "fim_linha": 12622
+    },
+    {
+      "titulo": "Acerto do domínio",
+      "id": "regra-18",
+      "inicio_linha": 12623,
+      "fim_linha": 12642
+    },
+    {
+      "titulo": "Atualizar a ficha",
+      "id": "regra-19",
+      "inicio_linha": 8858,
+      "fim_linha": 8887
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "pdf": "04 - Planejamento/apoio-personagens-107/output/pdf/Ciclo-Maldito-Personagens-e-Tecnicas-Amostra.pdf",
+  "pdf_sha256": "e5ba460b69e8f349bcffa69df89c6ebf2717ce3a39038fad83f3d2f966c0f7a3",
+  "paginas": 7,
+  "limite": "Capítulo reorganizado sem nova regra de treinamento, poder ou estoque de energia. Exemplos próprios mantêm sua identificação e as decisões existentes foram preservadas."
+}

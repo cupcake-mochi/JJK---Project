@@ -1,0 +1,87 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Ciclo
+Trabalho no projeto
+Situação
+Primeiro
+20 h
+Faltam 12 h para o teste inicial.
+Segundo
+12 h + 8 h
+Completa a primeira tentativa, falha e executa metade
+do retrabalho.
+Terceiro
+8 h
+Termina o retrabalho e faz a tentativa autorizada
+seguinte.
+A distribuição preserva a escolha de dedicar até
+vinte horas por ciclo ao projeto. Se Rina preferisse
+dedicar as 28 horas novas do segundo ciclo, poderia
+completar nele as doze restantes e as dezesseis de
+retomada, desde que a história comportasse o
+trabalho.
+Na nova tentativa, com vantagem, os dados
+mostram 2 e 8. Ela usa 8, soma 6 e alcança 14:
+sucesso. Total: 48 horas de Rina e ¥36.000 em
+materiais. Kaito recebe a entidade com vida
+máxima, recolhida no talismã sem carga, que ocupa
+0,5 de Volume. Manifestá-la ainda exige o custo
+normal.
+O registro conserva o orçamento, o trabalho, os
+testes e o invocador definido. Use a folha de
+entidade (p. 319) e o registro de dedicação por ficha
+(p. 315) para continuar sem repetir gastos ou apagar
+consequências.
+9.8 · Reconstruir, transferir
+e herdar entidades
+Use esta seção quando uma entidade criada
+precisar passar à Classe seguinte ou mudar de
+invocador. Os prazos abaixo são referências do
+Guia para completar as regras do Livro de Regras
+1.0. Materiais e eventual complexidade adicional
+usam o orçamento por projeto (p. 262), combinado
+antes do trabalho.
+Reconstrução, transferência e reparo resolvem
+necessidades diferentes. Reconstruir permite
+passar à Classe seguinte. Transferir altera o vínculo
+com o invocador. Reparar recupera vida conforme
+suas regras próprias. Uma entidade destruída exige
+criar outra; uma maldição domada conserva o nível
+de aquisição e não recebe a evolução das criadas
+por estas regras.
+Reconstruir para a Classe seguinte
+Uma entidade criada acompanha o nível de seu
+invocador até o último nível da Classe dela. Para
+continuar além desse limite, precisa de
+reconstrução ou ser substituída por outra criada do
+zero. Confira a nova ficha, os tetos de Classe e os
+meios necessários antes de começar.
+A referência de trabalho é metade do tempo de
+criação da Classe nova:
+Passagem
+Trabalho de reconstrução
+Retomada após cada falha
+Classe 1 → 2
+8 h
+4 h
+Classe 2 → 3
+16 h
+8 h
+Classe 3 → 4
+24 h
+12 h
+Classe 4 → 5
+36 h
+18 h
+Classe 5 → 6
+48 h
+24 h
+Classe 6 → 7
+64 h
+32 h
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+265

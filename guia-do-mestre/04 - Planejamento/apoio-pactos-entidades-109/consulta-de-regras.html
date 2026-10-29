@@ -1,0 +1,1331 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Regras de Pactos e entidades | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'PACTOS E ENTIDADES';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{.colunas p:has(>strong:first-child){break-inside:auto}.colunas table{font-size:9.2pt;line-height:11.5pt}.colunas th,.colunas td{padding:4pt 5pt}.ref-curta,.formula{white-space:nowrap}.horas th,.horas td{padding:3pt 5pt}.paragrafo-junto{break-inside:avoid}}main{max-width:900px;background:white;padding:30px}h4{font:22px Bree,serif}h5{font-size:19px}</style></head><body><main><p><a href="capitulo-9.html">Voltar ao capítulo</a></p><h1>Livro de Regras 1.0</h1><p>Trechos da base sem reescrita. Aquisições e permissões conservam seus limites publicados; os acordos por personagem e os exemplos do Guia permanecem identificados.</p><ul><li><a href="#regra-1">Pactos</a></li><li><a href="#regra-2">Pacto permanente</a></li><li><a href="#regra-3">Pacto temporário</a></li><li><a href="#regra-4">Promessa</a></li><li><a href="#regra-5">Pactos na criação</a></li><li><a href="#regra-6">Turnos das entidades</a></li><li><a href="#regra-7">Comandar uma especial</a></li><li><a href="#regra-8">Talismãs</a></li><li><a href="#regra-9">Corpos amaldiçoados</a></li><li><a href="#regra-10">Queda e destruição</a></li><li><a href="#regra-11">Carga e equipamento</a></li><li><a href="#regra-12">Criar uma invocação</a></li><li><a href="#regra-13">Adquirir entidades</a></li><li><a href="#regra-14">Lista de ritual e criação</a></li><li><a href="#regra-15">Domar uma maldição</a></li><li><a href="#regra-16">Tipos de entidade</a></li><li><a href="#regra-17">Definição e corpo</a></li><li><a href="#regra-18">Criação de entidades</a></li></ul><section class="consulta-regra" id="regra-1"><h3>Pactos</h3>
+<p>Um pacto troca uma limitação ou um compromisso por uma capacidade definida. Escreva o preço, o benefício e as condições de cumprimento antes de usá-lo. O mestre precisa aprovar esses termos. Um nome dramático ou uma promessa vaga não determina o que o personagem ganha.</p>
+<p><strong>Pactos são opcionais.</strong> O personagem começa sem eles. Um acordo assumido durante a campanha pode acrescentar uma escolha difícil: limitar sua técnica para proteger alguém, reservar uma parte da energia para uma situação específica ou aceitar uma obrigação em troca de ajuda.</p>
+<table>
+<thead>
+<tr>
+<th>Forma</th>
+<th>Quando é estabelecida</th>
+<th>Duração e quantidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permanente</td>
+<td>Fora de cena, com registro aprovado.</td>
+<td>Benefício contínuo. Quantidade limitada pela Essência.</td>
+</tr>
+<tr>
+<td>Temporário</td>
+<td>No seu turno, com Ação Bônus; fora dele, com Reação a um gatilho percebido.</td>
+<td>Benefício até o fim da cena. A perda segue o acordo.</td>
+</tr>
+<tr>
+<td>Promessa</td>
+<td>Quando duas partes capazes de decidir aceitam os termos.</td>
+<td>Prazo e consequências registrados no acordo.</td>
+</tr>
+<tr>
+<td>Pacto de restrição</td>
+<td>Na criação, com a Origem ou técnica.</td>
+<td>Registra uma limitação já considerada na ficha.</td>
+</tr>
+</tbody>
+</table>
+<p>As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. <strong>Nenhuma forma de pacto se fecha sob ameaça.</strong> Todos os envolvidos precisam aceitar por vontade própria; na mesa, os jogadores envolvidos também precisam aceitar o acordo.</p>
+<h4>Preço real</h4>
+<p>O preço precisa alterar uma escolha ou consumir algo que você realmente possui. Perder uma capacidade que já não podia usar não paga um benefício novo. Uma perda reparada imediatamente vale menos que uma limitação que permanece.</p>
+<p>Não venda a mesma limitação ao pacto, à Origem e a uma Restrição de feitiço ao mesmo tempo. O registro precisa distinguir qual benefício cada preço sustenta. Se a ficha já recebeu compensação por uma limitação, ela não fornece outra compensação automaticamente.</p>
+<h5>Régua do câmbio</h5>
+<p>A régua mede <strong>o ganho</strong>; o preço acompanha. Ela é uma referência para o mestre aprovar ou negar um pacto, não uma tabela de conversão entre sacrifícios e resultados.</p>
+<table>
+<thead>
+<tr>
+<th>Tamanho</th>
+<th>O que o pacto entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pequeno</td>
+<td>Muda uma conjuração, ou vale uma cena.</td>
+</tr>
+<tr>
+<td>Médio</td>
+<td>Muda de forma permanente como um feitiço ou uma ação sua funciona.</td>
+</tr>
+<tr>
+<td>Grande</td>
+<td>Muda de forma permanente como a sua energia ou um Estilo inteiro funciona.</td>
+</tr>
+<tr>
+<td>Enorme</td>
+<td>Quebra um limite do sistema, uma vez.</td>
+</tr>
+</tbody>
+</table>
+<p>Promessa pequena, ganho pequeno; quem arrisca a vida pode pedir um ganho enorme.</p>
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-permanente -->
+<p><a id="ritual--pacto-permanente"></a></p></section><section class="consulta-regra" id="regra-2"><h4>Pacto permanente</h4>
+<p>Você pode manter <strong>metade da Essência em pactos</strong>, arredondada para baixo, contando <strong>permanentes e pactos de restrição</strong>. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1. Aqui não há mínimo de um. Essência 0 ou 1 não abre vagas; a exceção para um pacto de restrição depende da permissão do mestre, conforme Pactos na criação.</p>
+<table>
+<thead>
+<tr>
+<th>Essência</th>
+<th style="text-align: right;">Vagas de pacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 ou 1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2 ou 3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>4 ou 5</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>6</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+<p>Cada pacto ocupa uma vaga <strong>enquanto existir</strong>. A vaga volta quando o pacto se perde, por qualquer motivo. Aumentar Essência pode abrir outra escolha. Uma redução posterior não apaga um pacto existente, mas impede estabelecer outro enquanto o total não couber.</p>
+<h5>Benefícios</h5>
+<p>O pacto concede <strong>uma mecânica única, decidida com o mestre</strong>. Pode modificar o funcionamento de um feitiço, da energia, de uma aptidão ou de um Estilo. Registre a regra completa: o benefício muda como essa capacidade funciona, sem acrescentar diretamente um valor numérico.</p>
+<p><strong>Pacto não concede Estilo.</strong> Pode modificar um Estilo, como modifica um feitiço. A mecânica é escrita e decidida com o mestre.</p>
+<p>Um <strong>pacto de energia</strong> muda como a energia funciona ou devolve energia. Quando houver uma quantidade, ela é uma <strong>porcentagem da energia máxima, combinada com o mestre</strong>, nunca um número fixo. O <a href="#ritual--pacto-exemplos">exemplo 4, Nanami e Overtime</a>, mostra essa troca.</p>
+<p>Pactos não concedem bônus numérico a ataques, Defesa ou perícias. <strong>Não existe pacto por dano.</strong> Não converta esses benefícios em níveis de Caminho ou Trilha nem em escolhas adicionais de marcante ou menores.</p>
+<blockquote>
+<p><strong>Exemplo de registro.</strong> Hana assume uma obrigação que restringe regularmente suas missões. Em troca, modifica o funcionamento de um feitiço conhecido, pela mecânica escrita com o mestre. O pacto ocupa uma vaga enquanto existir. Não eleva sua maior Classe nem lhe concede uma segunda Técnica Máxima.</p>
+</blockquote>
+<p>A avaliação considera quanto a obrigação pesa nas missões da campanha. Uma restrição que a personagem nunca encontra não sustenta o mesmo benefício de uma obrigação cumprida em todas as sessões.</p>
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-temporario -->
+<p><a id="ritual--pacto-temporario"></a></p></section><section class="consulta-regra" id="regra-3"><h4>Pacto temporário</h4>
+<p>No seu turno, use <strong>Ação Bônus</strong> para propor e firmar um pacto temporário. <strong>Fora do seu turno, use Reação em resposta a um gatilho que perceba:</strong> um ataque recebido, uma ação do inimigo ou outro evento. O gatilho é obrigatório. Declare a perda, o benefício e o prazo; o mestre precisa aprovar a troca na hora.</p>
+<p>A Reação responde ao gatilho <strong>depois de os dados dele serem rolados e antes de as consequências serem aplicadas</strong>, como a Reação de Cobrir-se de Energia. O pacto não refaz nem muda uma rolagem: muda o que acontece a partir dali.</p>
+<p>O pacto temporário dá um <strong>ganho temporário</strong> e pode cobrar uma <strong>perda permanente</strong>. Combine separadamente o prazo do benefício e o prazo do preço. O benefício termina, no máximo, <strong>no fim da cena</strong>; o preço pode durar para sempre. <strong>Pacto temporário nunca ocupa vaga</strong>, mesmo com preço permanente. Energia gasta não volta ao encerrar o combate e um ferimento não se cura apenas porque o prazo do benefício acabou. O <a href="#ritual--pacto-exemplos">exemplo 1, o corte de Sukuna</a>, mostra essa troca.</p>
+<h5>Definir a troca</h5>
+<p>Descreva a capacidade exata: qual aplicação melhora, por quanto tempo, quais alvos alcança e o que ela passa a fazer. Determine também quando o preço é pago e como uma recuperação posterior o afeta.</p>
+<p>Um pacto temporário pode ultrapassar limites comuns <strong>somente na medida escrita e aprovada para aquela cena</strong>. Ele não concede permissão geral para ignorar as demais regras. O custo precisa ser proporcional à mudança e ter efeito real na situação. Não existe uma tabela que transforme qualquer sacrifício em qualquer resultado.</p>
+<p>Uma promessa de informação precisa entregar algo novo, relevante e compreensível para quem a recebe. Repetir uma explicação já conhecida ou dar uma informação falsa não paga o preço de revelar uma técnica.</p>
+<h5>Preparação fora de combate</h5>
+<p>Você pode discutir modelos de pacto com o mestre antes da sessão. Registre gatilho, perda e ganho esperados. Quando a situação acontecer, o mestre confere se o preço ainda tem o mesmo valor. Isso reduz a negociação no meio do turno sem conceder aprovação automática a qualquer circunstância.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Mei quer manter uma passagem aberta para retirar uma pessoa ferida. Propõe perder o uso da técnica pelo restante da missão em troca de prolongar aquela aplicação até a travessia terminar. O acordo precisa definir o limite de tempo e impedir uma recuperação imediata que apagaria o preço. Ele não prolonga todos os feitiços de Mei.</p>
+</blockquote>
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#promessa -->
+<p><a id="ritual--promessa"></a></p></section><section class="consulta-regra" id="regra-4"><h4>Promessa</h4>
+<p>Uma <strong>Promessa</strong> vincula duas partes que entendem e aceitam seus termos. Elas podem ser personagens, criaturas capazes de decidir ou uma organização representada por alguém com autoridade para assumir o compromisso.</p>
+<p>Uma invocação sem vontade própria não funciona como segunda parte de um acordo com seu invocador. Uma entidade senciente pode assumir uma Promessa se tiver autonomia para aceitar ou recusar.</p>
+<h5>Registro do acordo</h5>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>O que definir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Partes</td>
+<td>Quem assume cada obrigação e em nome de quem pode agir.</td>
+</tr>
+<tr>
+<td>Obrigações</td>
+<td>O que cada parte entrega, faz ou deixa de fazer.</td>
+</tr>
+<tr>
+<td>Prazo</td>
+<td>Quando a obrigação começa, vence e termina.</td>
+</tr>
+<tr>
+<td>Cláusulas</td>
+<td>Exceções, pessoas protegidas e circunstâncias previstas.</td>
+</tr>
+<tr>
+<td>Quebra</td>
+<td>Qual ação ou omissão viola o acordo e qual consequência se aplica.</td>
+</tr>
+</tbody>
+</table>
+<p>Escreva termos que possam ser verificados em jogo. “Trazer o objeto até o amanhecer” tem um prazo. “Ajudar quando for necessário” precisa dizer quem decide a necessidade e que ajuda está comprometida.</p>
+<p>Uma Promessa não obriga uma pessoa ausente a concordar nem concede ao representante controle que ele não possui. A entrega precisa ser possível pelas capacidades de quem a prometeu.</p>
+<h5>Quebra</h5>
+<p>Quebrar uma Promessa <strong>custa a energia amaldiçoada de quem quebra e pode custar a vida</strong>. A punição pode ser definida na criação do pacto, com o mestre. O mestre não precisa esperar que outra personagem descubra a quebra para aplicar o que foi registrado.</p>
+<p>Não acrescente depois uma cláusula que nenhuma parte aceitou. Se um termo comportar duas leituras, esclareça antes da assinatura. Uma ambiguidade encontrada durante a sessão deve ser tratada com o grupo, sem transformar uma falha de redação em punição inesperada.</p>
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-restricao -->
+<p><a id="ritual--pacto-restricao"></a></p></section><section class="consulta-regra" id="regra-5"><h4>Pactos na criação</h4>
+<p>O <strong>pacto de restrição</strong> registra uma limitação da Origem, do corpo ou da técnica que já foi considerada na criação. Ele não concede um segundo benefício. A ficha precisa indicar onde essa limitação foi contabilizada.</p>
+<p>O pacto de restrição ocupa uma vaga enquanto existir, como os permanentes. <strong>Com permissão do mestre, ele pode existir mesmo sem vaga.</strong> Não abre acesso a capacidades proibidas à sua rota.</p>
+<p>Pactos permanentes, temporários e Promessas são estabelecidos durante a campanha. Para começar com uma troca que faz parte do conceito, use os benefícios e limites da sua Origem e da sua técnica, em acordo com o mestre.</p>
+<h5>Ideias para desenvolver</h5>
+<p>Estas ideias descrevem conceitos, <strong>não regras prontas nem benefícios adquiridos</strong>. Antes de uma entrar na ficha, é necessário escrever seu procedimento e conferir a parte do sistema que ela altera.</p>
+<table>
+<thead>
+<tr>
+<th>Ideia</th>
+<th>Questão que a ficha precisa resolver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fragmentação</td>
+<td>Como uma alma dividida recebe dano e acumula consequências?</td>
+</tr>
+<tr>
+<td>Liberação irregular</td>
+<td>Que quantidade de energia fica disponível e quando ela muda?</td>
+</tr>
+<tr>
+<td>Energia alternada</td>
+<td>O que deixa de funcionar nos períodos sem acesso à energia?</td>
+</tr>
+<tr>
+<td>Pacifismo impraticável</td>
+<td>Qual obrigação entra em conflito com o voto e como corre seu prazo?</td>
+</tr>
+<tr>
+<td>Magnetismo energético</td>
+<td>Quais ataques podem ser atraídos e até que distância?</td>
+</tr>
+<tr>
+<td>Despertar do corpo</td>
+<td>Qual capacidade cresce, por quanto tempo e como se reinicia?</td>
+</tr>
+<tr>
+<td>Reserva vital</td>
+<td>Como dano, gasto e recuperação interagem entre vida e energia?</td>
+</tr>
+</tbody>
+</table>
+<p>Ideias que mudem vida, Integridade ou gasto de PE precisam ser conferidas também com dano, recuperação e progressão. O nome da limitação não decide seu valor, e um conceito sem procedimento completo ainda não deve ser usado numa sessão.</p>
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-exemplos -->
+<p><a id="ritual--pacto-exemplos"></a></p></section><section class="consulta-regra" id="regra-6"><h3>Turnos das entidades</h3>
+<p>Você e suas entidades usam a mesma iniciativa. Um <strong>ciclo</strong> começa no início do seu turno e termina quando seu próximo turno começar. Conhecer duas capacidades básicas oferece duas escolhas para a mesma atuação, sem conceder outra execução.</p>
+<p>No começo do seu turno:</p>
+<ol>
+<li>Cada entidade em campo recupera seu Movimento e <strong>uma atuação básica</strong>.</li>
+<li>O conjunto recupera <strong>uma Reação coletiva</strong>.</li>
+<li>Resolva efeitos de começo de turno e confira ordens pendentes. Termine uma resolução antes de começar outra.</li>
+</ol>
+<p>Escolha a ordem das suas ações e das ações das entidades. Cada uma cumpre a tarefa recebida com seus próprios recursos. Ações suas que não forem utilizadas não passam para elas. No fim do seu turno, resolva os efeitos e os testes de recuperação de cada entidade, mesmo se ela não tiver agido.</p>
+<p>Mover uma entidade, mudar sua tarefa ou trocar de corpo não começa outro turno. A mudança de rodada também não renova recursos por si.</p>
+<p><strong>Sair de campo conserva o registro daquele corpo.</strong> Voltar não recupera vida, Movimento, usos ou básicas já gastos. No começo de um novo ciclo, apague o registro de básica gasta no ciclo anterior, inclusive para quem está guardado. Uma entidade guardada não recebe básica nesse momento; apenas deixa de estar impedida de receber uma transferência válida.</p>
+<p>O Movimento só se renova quando a entidade começa seu turno em campo. Ficar vários ciclos guardada não recupera os metros gastos.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A ave gastou a básica e 6 m dos seus 9 m antes de ser recolhida. Volta com 3 m disponíveis e sem básica naquele ciclo. Se ainda estiver em campo no começo do próximo turno de Kaito, recupera os 9 m e a básica.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-entrada -->
+<p><a id="campo--inv-entrada"></a></p>
+<h4>Manifestar e recolher</h4>
+<p><strong>No seu turno e consciente, use uma Ação Bônus para manifestar, trocar ou recolher uma entidade.</strong> Cada entrada também custa PE. Recolher não custa PE. Fora de combate, essas entradas e saídas dispensam a ação, mas conservam os custos em energia.</p>
+<p>O custo normal de entrada é a <strong>maior Classe permitida pelo nível da entidade</strong>. Consulte a progressão da ficha. Uma entidade de nível 5 custa 2 PE para entrar; uma de nível 10 custa 3 PE. O nível do invocador não aumenta essa cobrança.</p>
+<p>Na entrada sem substituição, coloque a entidade em espaço livre a até <strong>1,5 m de você</strong>. Ela recebe seu Movimento ainda disponível, mas <strong>não recebe básica naquele ciclo</strong>. Dar a primeira tarefa custa outra Bônus. Até lá, ela cuida apenas da própria segurança. Uma capacidade reativa que já conheça pode ser usada com os custos e requisitos escritos na ficha, sem exigir a coletiva por essa regra.</p>
+<p>A manifestação dura até o fim da cena. Se a cena se tornar um combate, continua até o fim da luta. Para mantê-la depois do combate, pague novamente o custo da entrada. Não há cobrança por rodada apenas por existir. Corpos amaldiçoados usam a ativação e o modo inativo próprios.</p>
+<p>A conversão normal de ações permite trocar Padrão por Bônus e Bônus por Movimento. Uma Padrão convertida para manifestar não continua disponível para comandar uma especial.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito usa sua Bônus e 2 PE para manifestar uma entidade de nível 5. Converte a Padrão em outra Bônus e lhe dá uma tarefa. Ela pode se mover, mas essa orientação não lhe concede a básica que a entrada comum deixou de fornecer.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-troca -->
+<p><a id="campo--inv-troca"></a></p>
+<h4>Trocar de entidade</h4>
+<p>Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. Se não couber, use o espaço livre mais próximo. A primeira tarefa vem junto da troca, desde que a entidade consiga receber e entender a orientação.</p>
+<p>A substituta recebe <strong>no máximo uma básica disponível de quem saiu</strong>, quando todas estas condições forem cumpridas:</p>
+<ul>
+<li>Quem saiu ainda tinha essa básica e podia utilizá-la.</li>
+<li>A substituta não gastou básica naquele ciclo, nem para executar ou preparar uma especial.</li>
+<li>A básica transferida deixa de pertencer a quem saiu.</li>
+</ul>
+<p>Sem transferência válida, a troca continua possível, mas a substituta entra sem básica. Sua primeira tarefa continua incluída. O Movimento é o do corpo que entrou, conservando os metros que ele já gastou. A coletiva não se renova.</p>
+<p>Recolher e trazer de volta a mesma criatura não copia o recurso. Uma básica investida em Preparar já foi gasta e não pode ser transferida.</p>
+<p>Quando uma permissão fizer várias entidades entrarem, escolha <strong>uma</strong> como substituta direta: somente ela recebe a tarefa incluída e a possível básica. As demais entram a até 1,5 m de você, pelas regras de entrada comum. Se várias saírem para uma entrar, escolha uma das posições de saída; ainda há no máximo uma básica transferida.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, recolhê-la e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-intencao -->
+<p><a id="campo--inv-intencao"></a></p>
+<h4>Dar uma tarefa</h4>
+<p>A <strong>intenção</strong> é uma tarefa que orienta a entidade até ser concluída, substituída ou perder definitivamente seu objetivo. Indique um alvo, lugar ou grupo que ela consiga reconhecer: proteger a porta, seguir determinada pessoa ou atacar a criatura apontada.</p>
+<p><strong>Sua Ação Bônus pode mudar a tarefa de até todas as entidades em campo.</strong> Cada uma pode receber uma orientação diferente. Isso não renova recursos nem autoriza uma especial.</p>
+<p>A entidade escolhe meios compatíveis com sua ficha e com a tarefa. Ao proteger uma porta, pode ocupar uma passagem, atacar, ajudar ou se esquivar. A ordem não obriga inimigos a atacá-la, não fornece uma interceptação e não revela alguém escondido.</p>
+<p>“Faça o melhor” ou “vença a luta” não indica um objetivo suficiente. Um obstáculo temporário não apaga a tarefa: a entidade pode procurar outra rota. Se o objetivo foi concluído ou deixou de existir, ela não escolhe automaticamente uma nova missão.</p>
+<p>Sem tarefa executável, a entidade cuida da própria segurança. Pode sair de perigo imediato e usar a básica para Esquivar. Não começa uma perseguição, não protege outro personagem nem escolhe uma especial por conta própria. Reações conhecidas e comandos anteriores ainda podem funcionar conforme seus requisitos.</p>
+<p>Mudar de alvo por um sinal tático também é uma nova orientação. Apenas avisar que o chão está quebrado não muda necessariamente a tarefa; avalie o conteúdo da mensagem.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A entidade deve impedir a passagem pela escada. Um armário bloqueia o caminho: ela procura outra rota dentro dos recursos disponíveis. Quando todos deixam a escada e a tarefa termina, não passa a caçar alguém em outro andar sem receber uma nova intenção.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-comunicacao -->
+<p><a id="campo--inv-comunicacao"></a></p>
+<h4>Comunicação</h4>
+<p>Toda instrução nova precisa chegar à entidade e ser compreendida. Isso inclui a primeira tarefa, um comando de especial, um ajuste e a orientação dada depois de uma especial.</p>
+<p>A ficha define anatomia, sentidos e meios de comunicação. <strong>O vínculo não concede telepatia, visão compartilhada, conhecimento de alvos ou entendimento de qualquer idioma.</strong> Use as condições normais para ouvir, ver ou reconhecer o sinal. Uma comunicação sobrenatural só tem o alcance e as permissões registrados na ficha.</p>
+<p>O alcance da mensagem também não aumenta o alcance da habilidade. Uma entidade pode ouvir a ordem e continuar longe demais do alvo para executá-la.</p>
+<p>Perder comunicação não apaga uma tarefa já recebida. Recuperá-la não entrega mensagens que falharam antes. Se você souber que a orientação é impossível antes de declará-la, pode corrigir sua ação sem gastá-la. Se realmente emitir a mensagem e só depois descobrir a falha, a ação foi usada. Uma especial que não começou não paga seus custos de ativação.</p>
+<p>Ao orientar várias entidades com uma Bônus, somente as que entenderem mudam de tarefa. A ação não é devolvida porque uma delas não ouviu.</p>
+<p>A tarefa incluída numa troca e a orientação posterior de uma especial precisam ser transmitidas naquele momento. Se não puderem chegar, não ficam guardadas como orientações gratuitas para depois.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A ave continua vigiando o telhado enquanto Kaito está dentro do prédio. Ele grita uma nova tarefa, mas uma barreira impede o som de chegar. A ave conserva a tarefa anterior. Quando o som volta a passar, Kaito precisa dar uma nova orientação para mudá-la.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-basica -->
+<p><a id="campo--inv-basica"></a></p></section><section class="consulta-regra" id="regra-7"><h3>Comandar uma especial</h3>
+<p><strong>Gaste sua Ação Padrão para comandar. A entidade gasta a básica disponível para executar.</strong> Ela precisa compreender a ordem, cumprir os requisitos da habilidade e pagar os PE e demais custos da ficha. As outras entidades conservam suas próprias básicas.</p>
+<p>O comando pode indicar um alvo fora da tarefa atual. Depois de resolver a especial e conhecer o resultado, você pode manter a intenção anterior ou dar outra à destinatária <strong>sem Bônus adicional</strong>. Essa orientação não concede outra execução nem muda as tarefas das demais entidades.</p>
+<p>Se a básica já foi gasta, um comando comum não a recupera. Movimento e coletiva permanecem separados, salvo quando a própria aplicação exigir um deles.</p>
+<p>Comandar uma especial <strong>não ocupa suas conjurações pessoais do turno</strong>, inclusive em ordem antecipada ou preparada, Armado e Segura. <strong>As básicas das entidades não ocupam suas conjurações pessoais.</strong> Ataques físicos seus não são conjurações.</p>
+<p>Uma permissão expressa de Caminho ou Trilha pode combinar especiais e feitiços pessoais ou conceder uma execução adicional. Aplique os recursos e limites dessa permissão. O comando comum não a substitui nem concede suas exceções a outras situações.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito manda a ave executar uma especial contra a criatura no corredor. A ave gasta sua básica, mesmo que erre. Depois do resultado, Kaito a orienta a vigiar a janela. Ela recebeu a nova tarefa, mas não ganhou outro ataque. O cão ainda pode usar a própria básica para a tarefa que já tinha.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-energia -->
+<p><a id="campo--inv-energia"></a></p>
+<h4>Energia das entidades</h4>
+<p>Sem reserva própria, a energia exigida por uma capacidade da entidade sai de você. <strong>Só uma maldição domada com técnica própria pode ter a reserva registrada na ficha.</strong> Sua existência não concede essa reserva aos demais tipos.</p>
+<p>Para uma especial, divida o custo ao meio. A parcela ímpar fica com você. A entidade paga sua parte até onde a reserva permitir; você cobre o restante. Confira se é possível pagar o total antes de começar. Não gaste uma parcela se a execução inteira não puder ser paga.</p>
+<p><strong>Reserva máxima = nível da entidade × (1 + um terço da Essência dela, arredondado para baixo).</strong></p>
+<p>O descanso longo recupera a reserva inteira. O descanso curto recupera um quarto do máximo, arredondado para baixo, com mínimo de 1 PE e sem ultrapassar o máximo. Sair e voltar não recarrega.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Uma domada de nível 10 e Essência 3 tem 20 PE. A especial de Classe 3 custa 9 PE: 5 seus e 4 dela. Se a reserva tiver apenas 2, você paga 7. Seu descanso curto recupera 5 PE da reserva.</p>
+</blockquote>
+<p>Entrada, retorno e carga de talismã são pagamentos seus. A reserva não os divide. A Contramedida da entidade custa <strong>2 PE</strong>, como a do jogador, e não exige a Reação coletiva. Capacidades reativas conservam os custos escritos na ficha, sem seguir a divisão das especiais. Custos de manutenção têm a prioridade descrita em <strong>Manutenção</strong>.</p>
+<p>Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração. O dano recebido pelo invocador não exige esse teste da entidade. Por exemplo, uma flecha que acerte Kaito não testa a concentração do cão; uma flecha que acerte o cão exige o TR dele.</p>
+<p>Usos por cena, duração e demais exigências pertencem à ficha que os concede. Mudar a entidade ativa não renova um uso do conjunto nem transforma uma ordem anterior em autorização para repetir uma especial.</p>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-antecipada -->
+<p><a id="campo--inv-antecipada"></a></p>
+<h4>Ordem antecipada</h4>
+<p>Se a entidade não puder executar a especial agora, você pode gastar a Padrão e dar uma ordem antecipada. Declare a entidade, a capacidade e o alvo, por comunicação válida. Básica já gasta ou alcance insuficiente são impedimentos possíveis. Se tudo já permitir a execução, resolva imediatamente.</p>
+<p>A ordem aguarda a <strong>primeira oportunidade válida</strong>. Não expira no começo do próximo turno. Emiti-la não gasta nem reserva a básica ou a energia da especial, exceto por um custo que a própria ficha exija antecipadamente.</p>
+<p>Enquanto houver impedimento, a entidade pode gastar a básica em outra ação. Se fizer isso, deverá esperar uma renovação válida para executar a especial. A coletiva não substitui a básica que falta.</p>
+<table>
+<thead>
+<tr>
+<th>Quando executar</th>
+<th>Recursos da entidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dentro do seu turno</td>
+<td>Básica disponível e custos de ativação.</td>
+</tr>
+<tr>
+<td>Fora do seu turno</td>
+<td>Básica disponível, coletiva e custos de ativação.</td>
+</tr>
+</tbody>
+</table>
+<p>Não pague outra Padrão. Confira alvo, alcance, percepção, energia, usos e os demais requisitos. Sem eles, a ordem continua aguardando e não gasta a ativação.</p>
+<p><strong>Fora do seu turno, resolva depois de terminar a ação, o movimento ou o efeito que removeu o impedimento.</strong> A ordem não interrompe nem desfaz aquela resolução.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A entidade recebe a ordem contra um inimigo fora de alcance. Ele termina seu movimento perto dela. Se básica, coletiva e energia estiverem disponíveis, a entidade executa a especial. Se a coletiva já tiver sido gasta, continua esperando. Quando o próximo turno de Kaito começar e os recursos se renovarem, a entidade deve executar a especial se o impedimento tiver acabado.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-pendentes -->
+<p><a id="campo--inv-pendentes"></a></p>
+<h4>Ordens pendentes</h4>
+<p>Cada corpo mantém <strong>uma especial aguardando execução</strong>: antecipada, preparada, Armado, Segura ou Carregar. Entidades diferentes podem ter suas próprias ordens, com cada comando e custo pagos. Uma antecipada ainda inviável pode coexistir com a preparação de uma básica; a básica investida nessa preparação deixa de estar disponível para a especial.</p>
+<p>Para mudar o alvo ou a capacidade de uma antecipada, pague uma Bônus. A entidade precisa receber o ajuste antes da execução. A destinatária continua a mesma; essa ação não redireciona outras entidades nem cria outra ordem.</p>
+<p>Você pode cancelar uma antecipada antes de ela começar, por comunicação válida, sem nova ação. Isso inclui a oportunidade que acabou de abrir. A Padrão investida não volta. <strong>Não deixe passar uma oportunidade válida para guardar a ordem:</strong> execute ou comunique o cancelamento. Um erro depois de executar encerra a ordem normalmente.</p>
+<p>Se várias respostas disputarem a coletiva na mesma oportunidade, escolha uma e resolva-a. Depois, confira novamente as outras. Uma antecipada sem coletiva continua esperando. Uma preparação que dependia dela se perde quando a coletiva é gasta em outra resposta.</p>
+<p>Mesmo com o invocador inconsciente, o jogador escolhe entre respostas já autorizadas. Isso não permite emitir, ajustar ou cancelar ordens novas.</p>
+<p>Para mudar entre antecipada e preparada, encerre a anterior por comunicação válida e pague outra Padrão numa oportunidade permitida. Custos antigos não voltam; uma básica já investida continua gasta. Uma nova mensagem que falhe não restaura a ordem encerrada.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Duas antecipadas ficam possíveis depois do mesmo movimento inimigo. A primeira usa a coletiva. A segunda conserva a ordem e espera outra oportunidade com todos os recursos disponíveis.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-preparar -->
+<p><a id="campo--inv-preparar"></a></p>
+<h4>Preparar uma ação</h4>
+<p>No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos. Escolha um gatilho perceptível e verificável. Quando ele acontecer, confira os requisitos e pague a <strong>Reação coletiva</strong> e os custos próprios da execução. A básica já foi gasta.</p>
+<p>Para preparar uma especial, gaste também sua Padrão e comunique a capacidade e o gatilho. A entidade precisa ter a básica disponível agora. Sem essa básica, não existe uma preparação pronta para mais tarde.</p>
+<p>A preparação termina no começo do seu próximo turno. Também termina se a entidade sair de campo, chegar a zero de vida ou se a coletiva for usada em outra resposta. A básica investida não volta e não pode ser transferida.</p>
+<p>A coletiva é exigida <strong>mesmo se o gatilho ocorrer dentro do seu turno</strong>. Uma básica preparada que causar dano conta no limite de duas entidades se disparar nesse turno. Com o limite cheio, não executa naquela ocorrência, mas conserva a preparação até seu prazo. Especiais comandadas permanecem fora dessa contagem.</p>
+<p>Depois de executar uma especial preparada, você pode dar a orientação posterior à destinatária. Perder a preparação sem executar não fornece essa orientação.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> O cão prepara uma mordida contra quem cruzar a porta. A básica já foi gasta. A ave usa a coletiva para outra resposta antes disso: a preparação do cão termina. Se ninguém usasse a coletiva, o cão poderia pagar essa reação para morder no cruzamento. Ele não gastaria uma segunda básica.</p>
+</blockquote>
+<p>Preparar não altera os custos próprios de uma aplicação. Uma técnica que exija Ação Completa continua exigindo seus recursos completos no comando; preparar não permite comandá-la por apenas uma Padrão.</p>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-gatilhos -->
+<p><a id="campo--inv-gatilhos"></a></p>
+<h4>Gatilhos e ajustes</h4>
+<p>Um gatilho precisa acontecer <strong>depois</strong> da preparação. Se o alvo já estava em alcance, a entrada anterior não dispara uma ordem preparada agora.</p>
+<p>Na especial preparada, você pode ajustar alvo, capacidade ou gatilho sem outra ação durante o mesmo turno em que emitiu o comando. A destinatária continua a mesma e precisa receber a mensagem antes de começar a execução. O ajuste não muda o prazo nem recupera gastos. Fora daquele turno, esse ajuste gratuito não existe.</p>
+<p>Se o gatilho acontecer sem os requisitos de execução, descarte aquela ocorrência sem gastar coletiva ou ativação ainda não paga. A preparação continua até o prazo original. Recuperar alcance depois exige outra ocorrência do gatilho.</p>
+<p><strong>Na especial preparada</strong>, você pode recusar uma ocorrência sem nova ação, se estiver consciente, perceber o acontecimento e conseguir comunicar antes da execução. A preparação continua dentro do prazo. Essa opção não permite guardar a antecipada depois de ela se tornar possível e não se estende à preparação de uma básica.</p>
+<p>Um gatilho de cruzar uma porta resolve no cruzamento, antes do Movimento restante. Depois, a criatura continua andando se ainda puder. Causar dano não interrompe seu movimento por si. A antecipada conserva seu momento próprio: depois de terminar a resolução que removeu o impedimento.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito prepara uma especial quando o inimigo entrar no corredor. Ele entra, mas Kaito recusa a ocorrência. Permanecer no corredor não dispara a ordem novamente. Se sair e entrar outra vez antes do prazo, há uma nova ocorrência. Se a especial aplicar apenas dano, o alvo pode continuar até a cobertura com o Movimento que restar.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-tempo -->
+<p><a id="campo--inv-tempo"></a></p></section><section class="consulta-regra" id="regra-8"><h3>Talismãs</h3>
+<p>O shikigami criado se manifesta a partir de um talismã que permanece com o invocador. Cada talismã ocupa <strong>0,5 de Volume</strong>, esteja a entidade manifestada ou guardada. Dois talismãs somam 1 de Volume.</p>
+<p>Durante um descanso longo, você pode deixar <strong>uma carga</strong> no talismã. Pague com o PE que ainda possui, antes da recuperação do descanso. A carga permanece até ser usada; não se acumula com outra carga no mesmo talismã.</p>
+<p>A carga adianta parte do preço da próxima entrada. Na entrada comum, pague metade do custo normal, arredondada para cima, com mínimo de 1 PE. O adiantamento é a diferença entre o custo normal e esse pagamento.</p>
+<table>
+<thead>
+<tr>
+<th>Classe da entidade</th>
+<th style="text-align: right;">Adiantamento</th>
+<th style="text-align: right;">Entrada carregada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">0 PE</td>
+<td style="text-align: right;">1 PE</td>
+</tr>
+<tr>
+<td>2 ou 3</td>
+<td style="text-align: right;">1 PE</td>
+<td style="text-align: right;">1 ou 2 PE</td>
+</tr>
+<tr>
+<td>4 ou 5</td>
+<td style="text-align: right;">2 PE</td>
+<td style="text-align: right;">2 ou 3 PE</td>
+</tr>
+<tr>
+<td>6 ou 7</td>
+<td style="text-align: right;">3 PE</td>
+<td style="text-align: right;">3 ou 4 PE</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Exemplo.</strong> Uma entidade de nível 13 tem Classe 4. Kaito adianta 2 PE antes de descansar e paga os outros 2 ao manifestá-la. O talismã continua ocupando 0,5 de Volume.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-corpos -->
+<p><a id="campo--inv-corpos"></a></p></section><section class="consulta-regra" id="regra-9"><h3>Corpos amaldiçoados</h3>
+<p>Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam <strong>ativos ou inativos</strong> no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.</p>
+<p>Você pode manter um <strong>total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas</strong>. Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.</p>
+<p>Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.</p>
+<p>Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas <strong>falha em toda rolagem, não age e não recebe tarefa</strong>. Interpretação e trabalhos extremamente simples que não exijam rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.</p>
+<p>Ativar substitui manifestar: pague a Bônus e o PE da entrada, no lugar onde o corpo está, respeitando o teto de ativos. Não o teletransporte até você. Numa troca, desative um e ative outro. O desativado pode usar seu Movimento restante para chegar a um lugar seguro; a mudança de estado não renova metros.</p>
+<p>No fim do combate, o corpo ativo volta ao modo inativo. Isso não recupera sua vida. Um inativo pode acompanhar o grupo andando, sem ser carregado como objeto. Se cair a zero, fica Desligada e precisa ser religado.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito deixa um corpo inativo perto da saída e combate com outro. Ao fazer a troca, o primeiro é ativado onde já estava. O que foi desativado conserva sua posição e os metros restantes, mas deixa de lutar. A troca não transporta os dois nem remove os ferimentos de nenhum deles.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-reparo -->
+<p><a id="campo--inv-reparo"></a></p></section><section class="consulta-regra" id="regra-10"><h3>Queda e destruição</h3>
+<p>A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como <strong>Desligada</strong>. Confira primeiro se o dano a destruiu.</p>
+<p><strong>Integridade a zero.</strong> Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.</p>
+<p><strong>Um dano direto destrói a entidade quando uma única ocorrência alcança sua vida máxima ou quando o excedente além de zero supera metade da vida máxima.</strong> Igualar essa metade não basta. Dano em área pode derrubar, mas nunca destrói por si.</p>
+<p>Excedente é quanto do dano sobrou depois de zerar a vida atual. Use o dano efetivamente recebido, depois das defesas. O limite considera a vida máxima, não a vida que restava.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Uma entidade tem 52 PV máximos e está com 8. Recebe 30 de dano direto: cai com excedente 22. Esse dano não alcançou 52 e o excedente não passou de 26. Se recebesse 35, o excedente seria 27 e ela seria destruída. Uma ocorrência em área de qualquer desses valores somente a derrubaria.</p>
+</blockquote>
+<p>A destruída não retorna. Uma entidade de ritual sai da lista e perde sua vaga. Uma entidade obtida por espaço de feitiço pode ser substituída na próxima subida de nível, usando a mesma revisão de espaço permitida pela progressão. Isso não ressuscita a identidade perdida.</p>
+<p><strong>Cair não é trocar.</strong> A básica não passa para outra entidade; ninguém entra automaticamente. A queda encerra ordens e preparações sem devolver os recursos investidos, ressalvada a devolução própria de Armado quando não disparou. Não gasta a coletiva por si. Uma ativação que ainda não começou não cobra energia ainda não paga.</p>
+<p>Essa queda também pode acontecer por dano persistente numa entidade recolhida. Ela continua fora de campo, agora caída.</p>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-retorno -->
+<p><a id="campo--inv-retorno"></a></p>
+<h4>Retorno e corpos caídos</h4>
+<p>Para trazer de volta uma entidade que caiu sem ser destruída, pague <strong>o dobro do PE da entrada e sua Bônus</strong>, no seu turno. Ela retorna com metade da vida máxima, arredondada para baixo, com mínimo de 1 PV. Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.</p>
+<p>O descanso longo recupera a vida inteira. Cura não funciona a zero, esteja a entidade recolhida ou no chão. Recolher uma entidade que ainda tem vida usa uma entrada normal depois, com os mesmos ferimentos.</p>
+<p><strong>Desligada</strong> é o estado de quem caiu e não pode ser recolhido. O corpo vira um objeto no campo: ocupa espaço, pode atrapalhar a passagem e ser carregado. Não age, não recebe ordens, não usa a coletiva nem projeta auras e talentos. Não conta no teto de entidades ativas.</p>
+<p>O dano posterior soma ao excedente da queda. Uma nova parcela direta que leve o total acima de metade da vida máxima destrói o corpo. <strong>Dano em área entra na soma, mas não provoca a destruição naquele momento.</strong> Efeitos periódicos já aplicados continuam e áreas locais o alcançam. Cura periódica continua sem funcionar a zero.</p>
+<p>Religar usa o retorno: dobro do PE da entrada, Bônus e metade da vida, onde o corpo está. Zere o excedente ao religar. Reparar não substitui esse pagamento.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A entidade de nível 10 e 52 PV máximos retorna por 6 PE, com 26 PV. Um corpo desligado com excedente 22 é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com excedente 27; uma nova parcela direta poderá destruí-lo. Com duas entidades já ativas, ainda é preciso respeitar o limite para religá-lo.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-fora -->
+<p><a id="campo--inv-fora"></a></p>
+<h4>Efeitos fora de campo</h4>
+<p><strong>Recolher não limpa condições nem reinicia durações.</strong> Benefícios e penalidades continuam contando seus prazos. Uma condição sem prazo espera seu critério de término.</p>
+<p>Efeitos já aplicados que independam de posição continuam resolvendo dano, benefícios e testes de recuperação. Use o começo e o fim do seu turno, sem criar ocorrências adicionais por sair e voltar. Resolver esses efeitos não consome básica, Movimento ou coletiva por si; mantenha custos que estejam expressos na aplicação.</p>
+<p>Uma entidade recolhida não ocupa um espaço no combate, nem o espaço do invocador. Não recebe um efeito que exija estar numa área ou junto de uma fonte. Também não projeta uma aura que dependa de presença. Uma área independente já criada pode continuar conforme seu próprio texto.</p>
+<p>Na volta, confira os requisitos a partir do espaço de entrada. Usos não se renovam, durações não recomeçam e gatilhos de entrada e saída só acontecem quando estiverem escritos na capacidade.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A ave sofreu um dano que se repete no fim do turno, sem depender da posição. Kaito a recolhe, mas resolve a repetição no momento previsto. Uma área que ela havia criado pode permanecer; a aura que precisava acompanhar o corpo deixa de alcançar outras criaturas. Se voltar ainda sob a condição, conserva o prazo que restava.</p>
+</blockquote>
+<p>O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.</p>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-inconsciente -->
+<p><a id="campo--inv-inconsciente"></a></p>
+<h4>Invocador inconsciente</h4>
+<p>Sua inconsciência não desfaz automaticamente as entidades. As que permanecem em campo continuam com básica, Movimento, respostas autorizadas e a tarefa que receberam. Seus recursos pessoais não usados não passam para elas.</p>
+<p>Use as regras de queda do personagem para determinar quando você fica inconsciente. Estar a zero de vida não substitui esse procedimento. Quando recuperar a consciência, tarefas que continuaram válidas não precisam ser emitidas outra vez.</p>
+<p><strong>Inconsciente, você não manifesta, recolhe, comanda, ajusta, cancela nem dá orientação nova.</strong> Uma especial já ordenada pode ser executada quando seus requisitos forem cumpridos, usando o PE anteriormente autorizado por aquela ordem e a divisão normal com a reserva. A entidade não ganha acesso livre à sua energia para escolher especiais novas.</p>
+<p>Depois de executar, conserva a intenção anterior, porque você não pode dar a orientação posterior. Uma antecipada sem energia suficiente continua aguardando. Preparações conservam seus prazos; a inconsciência não os amplia.</p>
+<p>O jogador ainda escolhe entre respostas autorizadas que disputem a coletiva, sem criar mensagens novas do personagem inconsciente. O limite de entidades que causam dano no seu turno também continua valendo.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito cai inconsciente depois de antecipar uma especial contra o inimigo. O alvo termina seu movimento em alcance. A entidade ainda tem básica e a coletiva está disponível: pode executar, pagando esses recursos e o PE devido. Kaito não pode cancelar naquele instante nem mandar a criatura perseguir outra pessoa depois. Se o alvo não puder ser afetado, a ordem continua aguardando uma oportunidade válida.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-manutencao -->
+<p><a id="campo--inv-manutencao"></a></p>
+<h4>Manutenção</h4>
+<p>Um efeito com manutenção que você possa desligar termina quando você fica inconsciente. A entidade continua existindo e atuando com os recursos permitidos.</p>
+<p>Um talento que <strong>não possa ser desligado</strong> continua e paga sua manutenção primeiro da reserva da entidade. Se a reserva não cobrir tudo, use seu PE para completar. Sem reserva, o custo sai de você. Essa manutenção não usa a divisão ao meio das especiais.</p>
+<p>Confira o pagamento integral no momento devido. Se as duas fontes juntas não bastarem, não faça uma cobrança parcial: <strong>o efeito fica suspenso até um pagamento válido</strong>. Não produz benefícios durante a suspensão, não gera dívida e não desaparece da ficha. Outros efeitos e a própria entidade não acabam apenas por essa falta de energia.</p>
+<p>Tente pagar novamente no próximo momento normal de manutenção. Recuperar PE entre dois vencimentos não religa o efeito imediatamente nem antecipa a cobrança. Uma capacidade que estabeleça outro resultado para a falta de pagamento conserva sua regra específica.</p>
+<p>Registre na montagem o custo, a frequência e se o talento pode ser desligado. Essa indicação resolve quais efeitos cessam com a inconsciência e quais continuam tentando pagar.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> O talento exige 3 PE no começo do turno. A reserva tem 2 e Kaito tem 4: pague 2 da reserva e 1 dele. No vencimento seguinte, ambos possuem apenas 1 PE ao todo. Não gaste esse ponto; suspenda o efeito. Mesmo que Kaito recupere energia logo depois, a próxima tentativa de pagamento acontece no começo do turno seguinte. Não há cobrança dos turnos perdidos.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-morte -->
+<p><a id="campo--inv-morte"></a></p>
+<h4>Morte do invocador</h4>
+<p>Quando a morte do personagem for confirmada pelas regras de morte, suas entidades saem de campo imediatamente. As que não podem ser recolhidas ficam no lugar, Desligadas, antes de aplicar o destino de sua origem.</p>
+<p>Ordens e preparações acabam sem execução. Não há transferência de básica nem substituta automática. Custos gastos permanecem gastos, com a devolução própria de Armado quando aplicável; isso não permite que o personagem morto realize um novo comando.</p>
+<table>
+<thead>
+<tr>
+<th>Origem</th>
+<th>Destino após a morte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Técnica</td>
+<td>Desaparece com o dono. Um corpo autônomo com alma fica sob controle do mestre.</td>
+</tr>
+<tr>
+<td>Criação</td>
+<td>Permanece como objeto. O talismã conserva sua carga; o corpo permanece parado.</td>
+</tr>
+<tr>
+<td>Maldição domada</td>
+<td>Fica livre e passa ao controle do mestre. Pode ser domada por outra pessoa.</td>
+</tr>
+</tbody>
+</table>
+<p>A maldição libertada deixa de ser uma entidade comandada. O mestre resolve sua conduta na cena; ela não continua cumprindo ordens por ser a última intenção registrada. Herdar um talismã ou corpo criado segue <a href="#fabricacao--fab-conclusao">Transferência e herança</a>, em Criação de entidades, sem transferir automaticamente o vínculo.</p>
+<p>Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inconsciência. Não antecipe os efeitos definitivos da morte durante uma oportunidade de recuperação que ainda exista pelas regras gerais.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> Kaito morre com um talismã carregado e uma maldição domada. O talismã continua no mundo, com a carga que tinha. A maldição fica livre e o mestre decide o que faz. Nenhum dos dois recebe ordens novas do personagem morto. Uma pessoa que recolha o talismã ainda precisa cumprir os requisitos para obter e usar sua entidade.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-carga -->
+<p><a id="campo--inv-carga"></a></p></section><section class="consulta-regra" id="regra-11"><h3>Carga e equipamento</h3>
+<p>Uma entidade carrega o que suas mãos permitem segurar. Sem mãos, não recebe essa possibilidade por padrão. Vestir equipamento exige compatibilidade com o corpo e com os demais requisitos do item; a falta de Força impõe as penalidades de Proteção.</p>
+<p>Uma entidade segue as regras gerais de Carga, com limite normal de <strong>5 + Força</strong>, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe <strong>um de seus talentos</strong>. O armazenamento e os passageiros cabem na capacidade desse talento, de <strong>5 + Força</strong>. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.</p>
+<p>Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, seguindo as regras gerais de Carga.</p>
+<p>Na saída de campo, o que a entidade veste vai junto. Entre os objetos que segura, acompanha-a seu próprio equipamento: arma usada por ela, foco ou ferramenta. <strong>Objetos carregados para outra pessoa ou apanhados pelo caminho caem onde ela estava.</strong> Não use um talento de armazenamento para contornar esse destino sem uma permissão expressa.</p>
+<p>Essas regras valem para recolhimento, queda e fim da manifestação de quem é recolhido. Corpos amaldiçoados e Desligada permanecem no campo com seus objetos. Quando uma entidade é destruída ou desaparece com a morte do dono, deixa todo o equipamento no lugar.</p>
+<blockquote>
+<p><strong>Exemplo.</strong> A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. Estar recolhida não permite sacar equipamento de uma criatura ausente.</p>
+</blockquote>
+<p><a id="capitulo-17"></a></p></section><section class="consulta-regra" id="regra-12"><h3>Criar uma invocação</h3>
+<p>Um cão que fareja vestígios de energia, um boneco que protege uma entrada ou uma maldição capturada têm algo em comum: são <strong>entidades</strong>, criaturas com ficha própria. Este capítulo explica como adquiri-las e preparar as fichas das entidades. <strong>Invocações em campo</strong> reúne as regras de manifestação, comando, recuperação e morte.</p>
+<p>Comece pelo trabalho que a entidade terá na equipe. Ela pode lutar, investigar, transportar ou apoiar. Escolher uma função ajuda a decidir suas características sem precisar examinar todo o catálogo de uma vez.</p>
+<h4>Etapas da ficha</h4>
+<ol>
+<li><strong>Aquisição e tipo.</strong> Registre como a entidade foi obtida, sua origem, seu corpo e seu nível.</li>
+<li><strong>Definição.</strong> Descreva o que ela é e o que seu corpo permite fazer.</li>
+<li><strong>Atributos.</strong> Distribua os pontos e calcule acerto, CD, Defesa e vida.</li>
+<li><strong>Famílias.</strong> Escolha três abertas e marque uma delas como Livre.</li>
+<li><strong>Habilidades.</strong> Monte a básica, as especiais e os talentos disponíveis naquele nível.</li>
+<li><strong>Registro.</strong> Anote custos, alcances, requisitos e comunicação. Confira a ficha antes de levá-la à sessão.</li>
+</ol>
+<p>Toda entidade de criação, em talismã ou corpo, e todo corpo amaldiçoado registra na ficha o campo <strong>ofício compatível</strong>, escolhido na criação. A escolha depende do trabalho e dos materiais: Entalhador para madeira, pedra ou osso; Forja para metal; Alfaiate para pano; Caligrafia para o talismã de um shikigami de criação são exemplos, não uma lista fechada. Nos shikigamis de criação, o campo serve ao teste de criação; só corpos recuperam vida por reparo.</p>
+<p><strong>Pontos de montagem</strong> compram partes de uma habilidade. <strong>PE</strong> pagam seu uso. Uma especial pode ter 4 pontos de montagem e custar 6 PE, por exemplo. A <strong>Classe</strong> determina essas contas. <strong>Categoria de Efeito</strong>, abreviada como CE, é uma escala diferente, usada nas características permanentes ou reativas.</p>
+<p>O exemplo <a href="#construcao--entidade-cao">Cão de sombra</a> percorre essas etapas com uma entidade de nível 2. <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#construcao--entidade-vigia">Vigia de papel</a> mostra uma entidade voltada à investigação e ao apoio. Os efeitos são propostas originais deste sistema.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-aquisicao -->
+<p><a id="construcao--entidades-aquisicao"></a></p></section><section class="consulta-regra" id="regra-13"><h3>Adquirir entidades</h3>
+<p><strong>Cada entidade precisa de uma forma de aquisição.</strong> Pagar o PE para manifestá-la coloca uma entidade conhecida em campo. Esse pagamento não cria uma ficha nova no seu repertório.</p>
+<table>
+<thead>
+<tr>
+<th>Aquisição</th>
+<th>Investimento</th>
+<th>Evolução</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Espaço conhecido</td>
+<td>Uma vaga de feitiço, Manejo ou Kata.</td>
+<td>Acompanha seu nível.</td>
+</tr>
+<tr>
+<td>Lista de ritual</td>
+<td>Um feitiço com uma lista própria e desafios individuais de submissão.</td>
+<td>As entidades conquistadas acompanham seu nível.</td>
+</tr>
+<tr>
+<td>Maldição domada</td>
+<td>Encontrar, derrotar e submeter uma maldição.</td>
+<td>Conserva o nível em que foi domada.</td>
+</tr>
+<tr>
+<td>Criação</td>
+<td>Teste de criação, quando o mestre permitir.</td>
+<td>Acompanha seu nível até o último nível da Classe dela; passar disso pede reconstruir.</td>
+</tr>
+</tbody>
+</table>
+<h4>Espaço conhecido</h4>
+<p>Esta opção exige que a técnica ou o estilo <strong>preveja criar, chamar ou controlar entidades</strong>. A Descrição e a Regra, ou a semente e o equipamento de Manejo ou Kata, precisam explicar esse funcionamento.</p>
+<p>Cumprido o requisito, <strong>um espaço dá uma entidade do seu nível</strong>. A vaga continua ocupada quando ela está recolhida ou fora da cena. Classe 0 e outros benefícios recebidos fora da lista de espaços não fornecem vagas para essa troca.</p>
+<p>Ao subir de nível, você pode rever um espaço ocupado: reescrever seu feitiço, substituir sua entidade ou mudar entre as duas opções. Essas escolhas usam <strong>a mesma revisão de um espaço</strong>. Preencher uma vaga nova não consome essa revisão.</p>
+<p>Na rota sem energia, os custos em PE continuam sendo pagos com <strong>Pontos de Esforço</strong>. A aquisição não acrescenta energia amaldiçoada pessoal à ficha do invocador.</p>
+<blockquote>
+<p>Uma técnica que cria animais de papel pode usar uma vaga para um pássaro de papel. Uma técnica que apenas afia lâminas precisa de outra forma de aquisição, pois sua definição atual não cria ou controla entidades.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidade-cao -->
+<p><a id="construcao--entidade-cao"></a></p></section><section class="consulta-regra" id="regra-14"><h4>Lista de ritual e criação</h4>
+<h5>Lista de ritual</h5>
+<p>A técnica pode possuir <strong>um feitiço com uma lista própria de entidades</strong>. Registre esse feitiço em um espaço conhecido. A lista e o procedimento de submissão fazem parte de sua ficha e são definidos com o mestre antes do uso.</p>
+<p>Cada entrada precisa indicar a entidade, sua ficha, o desafio que libera seu uso e como o ritual começa e termina. <strong>Você enfrenta esse desafio sozinho.</strong> Ajuda de outra criatura não vale como uma vitória individual. O resultado do desafio precisa estar previsto na ficha do ritual.</p>
+<p>Conquistar uma entrada libera aquela entidade da lista. Ela acompanha seu nível. Acrescentar uma entidade nova exige a permissão escrita da própria técnica, em vez de ampliar a lista durante a sessão por decisão unilateral.</p>
+<p>Este ritual de submissão é parte da aquisição. Os <strong>Pontos de Ritual</strong>, usados para preparar conjurações em <strong>Ritual e Pactos</strong>, não concedem uma lista de entidades nem substituem seus desafios. Manejo e Kata não recebem essa modalidade pela permissão de trocar um espaço por uma entidade.</p>
+<h5>Criação</h5>
+<p>Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos usam o ofício compatível registrado na ficha, conforme <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#fabricacao--fab-entidades">Criação de entidades</a>. O mestre decide quando podem ser criados e o custo em tempo e materiais.</p>
+<p>Registre a Classe e a ficha da entidade. Ela acompanha o nível do invocador até o último nível da sua Classe; passar à Classe seguinte exige reconstruí-la. O reparo de um corpo existente segue <strong>Invocações em campo — Cura e reparo</strong>.</p>
+<p>Domar ou fabricar não exige possuir uma técnica de invocação. Ainda é preciso cumprir os procedimentos de aquisição e pagar os custos de uso. Uma entidade adquirida dessa maneira não ocupa uma vaga de feitiço apenas por existir.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-domar -->
+<p><a id="construcao--entidades-domar"></a></p></section><section class="consulta-regra" id="regra-15"><h4>Domar uma maldição</h4>
+<p>Você pode obter uma maldição <strong>de nível igual ou inferior ao seu</strong>. Encontre-a e derrote-a sem destruí-la. Seu grupo pode participar da luta.</p>
+<p>Chegar a 0 pontos de vida não é, por si só, destruição definitiva. Confira os limites de <strong>Invocações em campo — Queda e destruição</strong> antes de resolver o ataque que encerra a luta.</p>
+<h5>Submissão</h5>
+<p>Fora do combate, a maldição derrotada faz <strong>um TR Espírito contra sua CD de conjuração</strong>. Use a CD que sua rota fornece para seus poderes: técnica, Manejo ou Kata.</p>
+<ul>
+<li><strong>Falha:</strong> a maldição é domada.</li>
+<li><strong>Sucesso:</strong> a maldição é exorcizada.</li>
+</ul>
+<p>Igualar a CD é sucesso. Como resistir exorciza a maldição, esse procedimento não permite repetir tentativas sobre a mesma criatura até obter uma falha.</p>
+<blockquote>
+<p>Kaito, de nível 5, derrota uma maldição de nível 5 sem destruí-la. Sua CD é 12. A maldição consegue 11 no total do TR e passa a ser uma entidade domada. Se conseguisse 12, seria exorcizada. Uma maldição de nível 6 está acima do limite de aquisição de Kaito.</p>
+</blockquote>
+<h5>Tentativa durante o combate</h5>
+<p>O mestre pode permitir uma tentativa antes da derrota, quando a vida da maldição atingir a quantidade que ele determinar. Você gasta sua <strong>Ação Padrão</strong> e resolve o mesmo TR Espírito e os mesmos resultados. Não há um requisito geral de metade da vida nem uma penalidade automática por estar ferida.</p>
+<p>A domada conserva o nível e as capacidades que possuía. Conheça sua ficha resultante antes da tentativa. Ela precisa estar preparada pelo mestre, com os limites de construção e de atuação deste capítulo. O mestre pode permitir que o jogador monte a conversão a partir da ficha da maldição. A conversão conserva suas funções e sua identidade. Ações adicionais de uma ficha de inimigo não passam automaticamente para a entidade.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-tipos -->
+<p><a id="construcao--entidades-tipos"></a></p></section><section class="consulta-regra" id="regra-16"><h4>Tipos de entidade</h4>
+<p>O tipo combina <strong>origem</strong> e <strong>corpo</strong>. A origem indica a aquisição. O corpo determina características como recuperação, recolhimento e equipamento.</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Origem e corpo</th>
+<th>Característica da ficha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shikigami de técnica</td>
+<td>Criatura ligada à técnica.</td>
+<td>Usa a ficha normal de entidade.</td>
+</tr>
+<tr>
+<td>Corpo amaldiçoado de técnica</td>
+<td>Corpo ligado à técnica.</td>
+<td>Usa a vida normal e as regras de corpo amaldiçoado.</td>
+</tr>
+<tr>
+<td>Shikigami de criação</td>
+<td>Criatura guardada em um talismã.</td>
+<td>Registra o talismã e sua carga.</td>
+</tr>
+<tr>
+<td>Corpo amaldiçoado de criação</td>
+<td>Corpo fabricado.</td>
+<td>Ganha 4 + Constituição por nível depois do primeiro.</td>
+</tr>
+<tr>
+<td>Maldição domada</td>
+<td>Maldição submetida.</td>
+<td>Mantém seu nível e suas capacidades de origem.</td>
+</tr>
+</tbody>
+</table>
+<p>O shikigami de técnica é a referência da ficha. Os outros tipos aplicam suas diferenças sobre ela. Corpos amaldiçoados são imunes a <strong>Envenenado</strong>. A distinção entre corpo sem alma e corpo autônomo com alma deve constar na definição, seguindo <strong>Corpos amaldiçoados</strong> em Invocações em campo.</p>
+<h5>Quantidade de entidades</h5>
+<p>Não há limite geral para o total adquirido. <strong>O máximo é duas entidades ativas ao mesmo tempo</strong>, salvo uma permissão específica. Ter mais fichas amplia suas opções, sem ampliar esse limite.</p>
+<p>Talismãs ocupam carga. Corpos amaldiçoados permanecem no mundo e possuem um limite próprio de corpos mantidos. Uma maldição domada permanece no mundo se você não tiver uma capacidade que a recolha. Esses procedimentos e os benefícios de cada tipo ficam em <strong>Invocações em campo</strong>.</p>
+<p>O nível de qualquer entidade fica limitado ao seu. Nas formas de aquisição que concedem evolução, atualize sua ficha quando ela subir. A criada acompanha o nível do invocador até o último nível da Classe dela; passar à Classe seguinte exige reconstrução. A domada mantém o nível em que foi domada.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-definicao -->
+<p><a id="construcao--entidades-definicao"></a></p></section><section class="consulta-regra" id="regra-17"><h3>Definição e corpo</h3>
+<p>Escreva <strong>uma ou duas frases curtas</strong> que descrevam a entidade e sua função. Cada característica e habilidade escolhida precisa caber nessa definição.</p>
+<blockquote>
+<p><strong>Cão de sombra:</strong> um cão feito de sombra que reconhece vestígios de energia amaldiçoada e persegue o que seu invocador aponta.</p>
+</blockquote>
+<p>Essa frase orienta a escolha de Farejador e das habilidades de perseguição. A capacidade de reconhecer vestígios virá do talento. Mencionar o faro na definição não concede seu efeito antes dessa escolha.</p>
+<h4>Anatomia e comunicação</h4>
+<p>Anote tamanho, forma corporal, membros e sentidos comuns. Registre se ela fala, quais sinais compreende e como transmite uma descoberta. Uma aparência humana pode justificar mãos e voz. Um cão precisa de um meio compatível de segurar objetos e de se comunicar.</p>
+<p>Uma entidade não recebe por padrão telepatia, visão compartilhada, percepção especial ou um ataque. Essas capacidades precisam estar na ficha, concedidas por uma habilidade ou pela aquisição. Ela pode ser construída sem ataque, para ajudar de outras maneiras.</p>
+<p><strong>Deslocamento terrestre-base: 9 m.</strong> Voo, travessia de paredes ou outro modo extraordinário exige uma capacidade que o conceda e descreva seus limites. Desenhar asas não estabelece sozinho a velocidade, a sustentação ou as condições desse voo. Registre essas informações na capacidade correspondente.</p>
+<h4>Características pagas</h4>
+<p>A entidade não recebe <strong>Regra Própria gratuita</strong>, <strong>Expressão da técnica</strong> ou <strong>Selo</strong>. Usa a definição para orientar suas escolhas e recebe os talentos da própria progressão.</p>
+<p>Um detalhe de aparência pode ser descrito livremente. Quando o detalhe resolve um obstáculo ou concede um benefício, compare-o às opções pagas. Escolha também um tipo de dano permitido pelo catálogo geral para cada ataque. A aparência de energia pura usa <strong>Força</strong>, conforme <strong>Tipos de dano</strong>.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-atributos -->
+<p><a id="construcao--entidades-atributos"></a></p>
+<h4>Atributos e testes</h4>
+<p>Distribua <strong>9 pontos</strong> entre Força, Destreza, Constituição, Inteligência e Essência. Cada atributo começa entre 0 e 3. Nos níveis <strong>6, 10, 14, 18, 22, 26 e 30</strong>, acrescente 1 ponto a um atributo, até o máximo de 6.</p>
+<p>Ao criar uma entidade de nível maior, distribua os 9 pontos iniciais e depois aplique os aumentos dos marcos que ela já alcançou. Uma entidade de nível 10, por exemplo, tem 11 pontos no total.</p>
+<h5>Acerto e dificuldade</h5>
+<p>Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica registrada na montagem e serve para seu acerto e sua CD.</p>
+<table>
+<thead>
+<tr>
+<th>Valor</th>
+<th>Conta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ataque</td>
+<td>d20 + atributo de acerto da entidade + maestria do invocador.</td>
+</tr>
+<tr>
+<td>CD das habilidades</td>
+<td>8 + atributo de acerto da entidade + maestria do invocador.</td>
+</tr>
+<tr>
+<td>TR treinado</td>
+<td>d20 + atributo do TR + maestria do invocador.</td>
+</tr>
+<tr>
+<td>TR sem treino</td>
+<td>d20 + atributo do TR.</td>
+</tr>
+</tbody>
+</table>
+<p>A maestria é sempre a <strong>do invocador</strong>, inclusive para uma domada de nível menor. Os atributos são os <strong>da entidade</strong>.</p>
+<p>Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme <strong>Equipamento</strong>.</p>
+<h5>Resistências e perícias</h5>
+<p>Escolha <strong>um TR treinado</strong>. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.</p>
+<p>A entidade tem treino em <strong>4 + metade da Inteligência</strong>, arredondada para baixo, perícias. Escolha-as de acordo com sua definição. Os testes seguem as regras gerais de perícias, usando seus atributos e a maestria do invocador quando houver treino.</p>
+<p>Ela não recebe ofícios automaticamente. Um ofício precisa de permissão expressa na capacidade ou no procedimento que criou a entidade. Conhecer uma tarefa e ter anatomia para executá-la são requisitos distintos.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-vida-defesa -->
+<p><a id="construcao--entidades-vida-defesa"></a></p>
+<h4>Vida e Defesa</h4>
+<p>A vida usa a Constituição atual da entidade. Quando esse atributo aumenta, recalcule todos os níveis com o novo valor.</p>
+<table>
+<thead>
+<tr>
+<th>Ficha</th>
+<th>Vida máxima</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entidade comum</td>
+<td>5 + Constituição + (3 + Constituição) × (nível − 1).</td>
+</tr>
+<tr>
+<td>Corpo amaldiçoado de criação</td>
+<td>5 + Constituição + (4 + Constituição) × (nível − 1).</td>
+</tr>
+</tbody>
+</table>
+<p>No primeiro nível, as duas fichas têm <strong>5 + Constituição</strong>. A diferença do corpo de criação começa no segundo nível. O corpo amaldiçoado de técnica usa a primeira linha.</p>
+<blockquote>
+<p>Com Constituição 2, uma entidade comum de nível 5 tem <strong>7 + 5 × 4 = 27 de vida</strong>. Um corpo de criação do mesmo nível tem <strong>7 + 6 × 4 = 31</strong>.</p>
+</blockquote>
+<h5>Defesa sem uniforme</h5>
+<p>Some <strong>10 + Destreza da entidade + metade da Essência ou da Inteligência do invocador</strong>, arredondada para baixo.</p>
+<p>O invocador escolhe Essência ou Inteligência ao obter sua primeira entidade. Use essa mesma escolha nas fichas das entidades e no limite de corpos mantidos. Ela não muda a cada ataque recebido.</p>
+<h5>Equipamento</h5>
+<p>Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode precisar de adaptação.</p>
+<p>Com traje ou revestimento defensivo, a Defesa usa <strong>10 + Destreza da entidade permitida pelo teto da peça + proteção do equipamento</strong>. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem <strong>Equipamento</strong>.</p>
+<p>Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue <strong>Invocações em campo — Carga e equipamento</strong>. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-progressao -->
+<p><a id="construcao--entidades-progressao"></a></p>
+<h4>Progressão da entidade</h4>
+<p>A tabela usa <strong>o nível da entidade</strong>. A Classe máxima limita as especiais que ela pode conhecer ou ampliar. Os dados da básica aumentam automaticamente nas faixas indicadas.</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>Classe máxima</th>
+<th>Dano-base da básica</th>
+<th>Pontos da especial nessa Classe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–4</td>
+<td>1</td>
+<td>1d6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5–8</td>
+<td>2</td>
+<td>2d6</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9–12</td>
+<td>3</td>
+<td>2d6</td>
+<td>6</td>
+</tr>
+<tr>
+<td>13–16</td>
+<td>4</td>
+<td>2d6</td>
+<td>9</td>
+</tr>
+<tr>
+<td>17–20</td>
+<td>5</td>
+<td>3d6</td>
+<td>11</td>
+</tr>
+<tr>
+<td>21–25</td>
+<td>6</td>
+<td>3d6</td>
+<td>13</td>
+</tr>
+<tr>
+<td>26–30</td>
+<td>7</td>
+<td>3d6</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<h5>Habilidades conhecidas</h5>
+<p>A entidade conhece <strong>uma básica até o nível 10</strong> e <strong>duas a partir do nível 11</strong>. As duas são opções para a atuação básica disponível, e não duas atuações no mesmo ciclo.</p>
+<p>Os espaços de especiais são <strong>metade de (2 + nível ÷ 2), arredondada para baixo</strong>. Não há espaços adicionais por marco.</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>1</th>
+<th>4</th>
+<th>8</th>
+<th>12</th>
+<th>16</th>
+<th>20</th>
+<th>24</th>
+<th>28</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Espaços de especiais</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, conforme <strong>Expansão da domada</strong> em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.</p>
+<h5>Ao subir de nível</h5>
+<p>Atualize vida, marcos de atributo, perícias dependentes de Inteligência, dados da básica e novas vagas. Você pode <strong>reescrever uma especial</strong>. A Classe de uma especial antiga permanece registrada. Usá-la ampliada aplica o procedimento de <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#construcao--entidades-ampliacao">Ampliação</a>.</p>
+<p>Uma entidade obtida já em nível maior recebe os ganhos que correspondem a esse nível. A domada conserva o nível em que foi domada. A criada acompanha o nível do invocador até o último nível da Classe dela; passar à Classe seguinte exige reconstrução.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-familias -->
+<p><a id="construcao--entidades-familias"></a></p>
+<h5>Famílias da entidade</h5>
+<p>Para montar uma habilidade, comece pela ficha da entidade: sua definição, nível, atributos, Famílias e espaços. A aquisição e a progressão dessa ficha estão em <strong>Construir invocações</strong>. Aqui você escolhe o que cada básica ou especial faz e como a entidade a executa.</p>
+<p>As Famílias agrupam as Melhorias compradas nas habilidades. Escolha <strong>três Famílias abertas</strong> que combinem com a definição. As outras seis ficam Fechadas.</p>
+<table>
+<thead>
+<tr>
+<th>Família</th>
+<th>Aplicações comuns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alcance</td>
+<td>Distância e deslocamento.</td>
+</tr>
+<tr>
+<td>Área</td>
+<td>Mais alvos e áreas maiores.</td>
+</tr>
+<tr>
+<td>Mira</td>
+<td>Acerto e superação de defesas.</td>
+</tr>
+<tr>
+<td>Controle</td>
+<td>Condições, contenção e obstáculos.</td>
+</tr>
+<tr>
+<td>Auxiliares</td>
+<td>Benefícios e penalidades.</td>
+</tr>
+<tr>
+<td>Castigo</td>
+<td>Alterações na aplicação do dano.</td>
+</tr>
+<tr>
+<td>Tempo</td>
+<td>Preparação, duração e momento de uso.</td>
+</tr>
+<tr>
+<td>Marca</td>
+<td>Identificação e efeitos ligados a um alvo.</td>
+</tr>
+<tr>
+<td>Amparo</td>
+<td>Cura e remoção de condições.</td>
+</tr>
+</tbody>
+</table>
+<h5>Família Livre</h5>
+<p>Marque <strong>uma das três abertas como Livre</strong>. Ao comprar uma Melhoria dessa Família, desconte <strong>metade da Classe real, arredondada para baixo</strong>, com desconto mínimo de 1. O preço final também tem mínimo de 1.</p>
+<table>
+<thead>
+<tr>
+<th>Classe da especial</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desconto da Família Livre</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>As outras duas abertas usam preço normal. Formas não recebem desconto de Família Livre. Uma Melhoria própria com Família registrada usa o acesso e o desconto da entidade. Efeitos sem Família adequada continuam disponíveis conforme o acordo com o mestre, sem desconto e sem permitir copiar uma Família Fechada.</p>
+<p>Projétil e Toque ficam disponíveis a todas as entidades, respeitando as Famílias de suas funções. As Formas de área exigem Área. Efeito fora de combate segue seu procedimento e a definição da entidade.</p>
+<blockquote>
+<p>Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa <strong>3 − 1 = 2</strong>. Use a tabela de Família Livre: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.</p>
+</blockquote>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-basicas -->
+<p><a id="construcao--entidades-basicas"></a></p>
+<h4>Habilidades básicas</h4>
+<p>A básica própria é uma habilidade de <strong>Classe 0</strong>, sem custo de PE. Ela não ocupa espaço de especial. Sua quantidade e seus dados vêm de Progressão da entidade.</p>
+<p>Escolha uma Forma disponível e use as distâncias da Classe 0 em Alcance e área. Para um ataque, registre tipo de dano e resolução. A mordida de um cão pode ser Toque. Um espinho lançado pode ser Projétil.</p>
+<h5>Uma Melhoria Leve</h5>
+<p>A básica pode ter <strong>uma Melhoria Leve</strong>. Retire um dado de seu dano-base para pagá-la. Se houver um requisito mínimo de Classe na peça, ele continua valendo. Uma referência à Classe usa 0, sem o mínimo de 1 reservado aos efeitos reduzidos das especiais.</p>
+<p>Pode haver <strong>uma Restrição Leve</strong>, que precisa ser cumprida e devolve o dado que a Melhoria tirou, sem criar pontos de montagem. Na Classe 0, Toque mantém 1,5 m sem conceder a devolução automática de pontos. Aura mantém a origem na entidade. Queima-Roupa só pode ser escolhida nas áreas em que devolve Leve, ocupando a única vaga de Restrição. Ela recupera no máximo o dado pago pela Melhoria; em Projétil, sua devolução Média permanece indisponível.</p>
+<blockquote>
+<p>No nível 2, uma básica tem 1d6. Acrescentar Precisão retira o único dado. Ela pode resolver seu ataque, mas não terá dados de dano. No nível 5, a mesma montagem passa a <strong>1d6</strong>, pois o dano-base subiu para 2d6.</p>
+</blockquote>
+<h5>Básica benéfica</h5>
+<p>Uma básica benéfica individual pode entregar sua única Melhoria aplicável, como Impulso ou uma categoria de Firmeza. Os dados descartados não viram vida temporária. Cura e benefícios coletivos não estão disponíveis na Classe 0.</p>
+<p>Uma básica de Efeito fora de combate usa a aplicação pequena registrada, na escala comum de <strong>Fundamento, Efeitos fora de combate</strong>. Ela precisa caber na definição da entidade.</p>
+<p>O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme <strong>Invocações em campo</strong>. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme <strong>Acerto e dificuldade</strong>.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-especiais -->
+<p><a id="construcao--entidades-especiais"></a></p>
+<h4>Habilidades especiais</h4>
+<p>Cada especial ocupa <strong>um espaço da entidade</strong>. Escolha sua Classe, de 1 até a máxima do nível, e separe os pontos correspondentes. A especial custa <strong>3 × sua Classe real em PE</strong> a cada uso.</p>
+<table>
+<thead>
+<tr>
+<th>Classe</th>
+<th>Pontos</th>
+<th>PE</th>
+<th>Máximo de Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>9</td>
+<td>12</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>11</td>
+<td>15</td>
+<td>4</td>
+</tr>
+<tr>
+<td>6</td>
+<td>13</td>
+<td>18</td>
+<td>4</td>
+</tr>
+<tr>
+<td>7</td>
+<td>16</td>
+<td>21</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h5>Montagem</h5>
+<ol>
+<li><strong>Escolha as funções e a Forma.</strong> Pague a base correspondente, sem desconto.</li>
+<li><strong>Compre Melhorias.</strong> Use as Famílias disponíveis e aplique o desconto da Livre.</li>
+<li><strong>Escolha Restrições.</strong> Cada exigência deve acrescentar uma dificuldade real. Há no máximo duas, contando Queima-Roupa se escolhida. Toque concede sua devolução Leve fora dessas vagas. Nenhuma devolução paga a base.</li>
+<li><strong>Calcule o saldo.</strong> Subtraia a base e as Melhorias. Acrescente as devoluções aproveitáveis de Toque e das Restrições, dentro dos limites compartilhados.</li>
+<li><strong>Registre o resultado.</strong> Cada ponto restante pode virar 1d8 de dano. Cura e vida temporária usam as conversões e os tetos de suas funções. Efeitos comprados têm potência própria; sobras podem ficar sem uso.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Preço da peça</th>
+<th>Conta na Classe real</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leve</td>
+<td>Metade da Classe, para cima.</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>Igual à Classe.</td>
+</tr>
+<tr>
+<td>Pesada</td>
+<td>Uma vez e meia a Classe, para cima.</td>
+</tr>
+</tbody>
+</table>
+<p>A Forma não ocupa uma Melhoria. Uma peça própria ocupa uma. Duas peças reunidas sob um mesmo nome pagam e contam separadamente. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.</p>
+<p><strong>A entidade executa a habilidade.</strong> Os alcances, atributos e efeitos escritos com “você” no catálogo se referem a ela. O invocador paga as ações de comando e os custos indicados em <strong>Invocações em campo, Comandar uma especial</strong>. A montagem não concede atuação adicional.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-formas -->
+<p><a id="construcao--entidades-formas"></a></p>
+<h5>Funções e Formas da entidade</h5>
+<p>A especial usa as mesmas funções e as seis Formas de <strong>Montar sua aplicação</strong>, com os preços calculados pela Classe real. Cura direta exige Amparo; área exige Área; a combinação exige ambas. Peças como Guarda precisam de sua própria Família. A definição da entidade também precisa comportar o efeito.</p>
+<p>As funções usam as bases Leve e Média da montagem comum. Pague somente a maior base exigida pela ficha, integralmente e fora do limite de Melhorias. As devoluções de Toque e das Restrições só cobrem pontos gastos em Melhorias. Cobre a Forma uma vez e calcule o saldo a partir dos pontos da entidade indicados na tabela.</p>
+<p>Benefícios a aliados dispostos são automáticos; as partes ofensivas mantêm ataque ou TR registrado. Condição, Prende e Cerca sempre pedem TR. Se houver dano e cura independentes, a falha de uma parte não cancela a outra. Para uma mescla ampliada, prepare os resultados de cada Classe antes da sessão.</p>
+<p>Nas especiais, Toque concede devolução Leve sem ocupar vaga de Restrição. Uma ficha que só possa afetar a própria entidade fica sem essa devolução. Aura custa Leve e não devolve pontos por proximidade. Queima-Roupa segue sua entrada no catálogo: devolve Média em Projétil e Leve nas três áreas elegíveis, fixando seus alvos ou sua origem em relação à entidade. Toque e Aura ficam excluídos.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-medidas -->
+<p><a id="construcao--entidades-medidas"></a></p>
+<h5>Alcance e área</h5>
+<p>A distância até um alvo ou ponto usa a Classe real; as áreas das especiais usam a progressão reduzida abaixo.</p>
+<table>
+<thead>
+<tr>
+<th>Medida</th>
+<th>Classe 0</th>
+<th>Classes 1 a 5</th>
+<th>Classes 6 e 7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Projétil ofensivo e origem de Explosão, Cone e Linha</td>
+<td>9 m</td>
+<td>18 m</td>
+<td>36 m</td>
+</tr>
+<tr>
+<td>Toque</td>
+<td>1,5 m</td>
+<td>1,5 m</td>
+<td>1,5 m</td>
+</tr>
+<tr>
+<td>Benefício individual à distância</td>
+<td>4,5 m</td>
+<td>9 m</td>
+<td>18 m</td>
+</tr>
+<tr>
+<td>Origem de Aura ou de área com Queima-Roupa</td>
+<td>Na entidade</td>
+<td>Na entidade</td>
+<td>Na entidade</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Área básica</th>
+<th>Classe 0</th>
+<th>Especiais 1 a 6</th>
+<th>Especial 7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Explosão e Aura: raio</td>
+<td>3 m</td>
+<td>3 m</td>
+<td>4,5 m</td>
+</tr>
+<tr>
+<td>Cone: comprimento</td>
+<td>3 m</td>
+<td>4,5 m</td>
+<td>9 m</td>
+</tr>
+<tr>
+<td>Linha: comprimento × largura</td>
+<td>9 × 1,5 m</td>
+<td>18 × 1,5 m</td>
+<td>30 × 1,5 m</td>
+</tr>
+</tbody>
+</table>
+<p>Cura e apoio coletivo não estão disponíveis na Classe 0. Use Longe para a distância ao alvo ou ponto; Maior para raio, comprimento ou largura, partindo destas medidas. As escadas estão em <strong>Alcance e área</strong>, na montagem comum.</p>
+<blockquote>
+<p><strong>Explosão de entidade.</strong> Na Classe 6, o centro pode estar a 36 m, mas o raio ainda é 3 m. Na Classe 7, o raio passa a 4,5 m. O mesmo aumento de Maior parte de bases diferentes conforme a Classe usada.</p>
+</blockquote>
+<p>A capacidade coletiva de Guarda, Impulso e Firmeza é <strong>Classe real do uso + 1</strong>, compartilhada pelas peças. Não use a Classe reduzida da área para diminuir esse grupo. Cura coletiva conserva a distribuição e os tetos próprios de Amparo.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-efeitos-reduzidos -->
+<p><a id="construcao--entidades-efeitos-reduzidos"></a></p>
+<h5>Efeitos reduzidos</h5>
+<p>Algumas peças calculam a intensidade pela Classe. Nas especiais da entidade, os efeitos abaixo usam <strong>uma Classe a menos, com mínimo de 1</strong>. Os preços, PE e limites de seleção continuam usando a Classe real.</p>
+<table>
+<thead>
+<tr>
+<th>Peça</th>
+<th>Valor que usa a Classe reduzida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rajada</td>
+<td>Quantidade de tiros.</td>
+</tr>
+<tr>
+<td>Fura</td>
+<td>Redução de Dano ignorada.</td>
+</tr>
+<tr>
+<td>Anteparo</td>
+<td>Vida e quantidade de painéis da barreira.</td>
+</tr>
+<tr>
+<td>Desarma o Feitiço</td>
+<td>Classe máxima de efeito que pode encerrar.</td>
+</tr>
+<tr>
+<td>Sugar</td>
+<td>Limite da vida recuperada.</td>
+</tr>
+<tr>
+<td>Levanta e Remenda</td>
+<td>Valores de recuperação definidos por essas peças.</td>
+</tr>
+<tr>
+<td>Formas de área</td>
+<td>Tamanho básico, conforme Alcance e área.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Classe real</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Classe do efeito reduzido</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Esta redução não muda atributos, maestria, acerto ou CD. Também não reduz requisitos: uma peça que exige Classe 3 continua exigindo uma especial de Classe 3 ou maior.</p>
+<blockquote>
+<p><strong>Fura de Classe 2.</strong> A especial tem 4 pontos e custa 6 PE. Fura custa 2, ou 1 se Mira for Livre. Seu efeito usa Classe 1 e ignora <strong>2 de Redução de Dano</strong>. Em Projétil, sem Restrição, a versão com Mira Livre fica com <strong>3d8</strong>.</p>
+</blockquote>
+<p>Efeitos que não aparecem nesta lista conservam os valores do catálogo. Um +2 de Precisão continua sendo +2. Não diminua por conta própria a duração ou a distância de uma peça fixa.</p>
+<p>Na básica de Classe 0, use Classe 0 quando a peça pedir esse valor. O mínimo de 1 desta seção pertence às <strong>especiais</strong>.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-saldo -->
+<p><a id="construcao--entidades-saldo"></a></p>
+<h5>Saldo e limites</h5>
+<p>As devoluções de Toque e das Restrições pagam <strong>Melhorias</strong>. Some-as e aproveite até <strong>2 × a Classe real</strong>, sem superar o total gasto nessas compras. A base e o custo da Forma ficam fora dessa conta. Uma devolução excedente se perde. O saldo de uma especial comum nunca ultrapassa seus pontos iniciais.</p>
+<blockquote>
+<p>Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam <strong>4 − 2 + 1 = 3 pontos</strong>. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.</p>
+</blockquote>
+<p>Contra um alvo, o dano-base tem esse mesmo limite em d8. Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de <strong>4 × Classe</strong>. Dividir os dados entre tiros não multiplica os dados disponíveis.</p>
+<h5>Amparo</h5>
+<p>Na cura individual, cada ponto reservado vira 1d8, até <strong>pontos da entidade − preço Médio</strong>. Vida temporária individual paga base Leve e converte cada ponto reservado em 3, até <strong>3 × (pontos da entidade − preço Leve)</strong>, respeitando os limites gerais dessa reserva.</p>
+<p>Cura e vida temporária coletivas compartilham um teto de pontos úteis igual a <strong>pontos da entidade − preço Pesado</strong>. Use essa conta para limitar o saldo destinado às duas funções, sem subtrair um novo custo. O teto permanece mesmo quando houver devolução de Toque ou de Restrições.</p>
+<table>
+<thead>
+<tr>
+<th>Classe</th>
+<th>Cura individual: d8</th>
+<th>Coletivo: pontos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td>7</td>
+<td>9</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Impulso coletivo de Classe 1.</strong> Base Média 1 + Aura 1 + Impulso 1 − Gesto 1 = 2 pontos gastos. Cabe no orçamento da entidade, por 3 PE. Escolha até duas criaturas dispostas na região: cada uma recebe vantagem no próximo ataque até o fim do próximo turno dela. O saldo é zero e não existe cura nessa ficha. A entidade precisa cumprir Gesto e ter Auxiliares e Área abertas. O comando continua necessário.</p>
+<p><strong>Cura e Guarda de Classe 3.</strong> Com Amparo, Área e Auxiliares abertas, sendo Auxiliares Livre: 6 pontos − base 3 − Aura 2 − Guarda 2 + Gesto 2 = 1 ponto de cura. Cada aliado elegível na região recupera 1d8; até quatro recebem Guarda. A entidade cumpre Gesto; os efeitos e comandos conservam seus prazos e custos.</p>
+<p>Cura hostil exige Energia Reversa e segue Ferir maldições. Entidades a zero e corpos amaldiçoados conservam suas limitações de recuperação. Os tetos comuns não substituem os dados fixos de uma Técnica Máxima concedida por regra própria.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-controle -->
+<p><a id="construcao--entidades-controle"></a></p>
+<h5>Controle e utilidade</h5>
+<p>Uma especial pode abrir mão de dano para conter um alvo, retirar uma condição ou criar um obstáculo. A função escolhida deve aparecer na definição da entidade e nas Famílias abertas.</p>
+<h5>Controle</h5>
+<p>Uma especial comum usa o procedimento de <strong>Controle</strong>, em Montar sua aplicação: registre na criação a opção de dano limitado à Classe real em dados ou sem dano. Use a mesma tabela de efeitos compatíveis, CDs, duração, saídas e progressão. O orçamento e o desconto continuam sendo os da entidade. A básica e as aplicações máximas não recebem esse reforço comum.</p>
+<p>Condições <strong>Médias e Pesadas</strong> são reservadas à <strong>especial comandada ativamente</strong>. Elas não entram na básica, num talento, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte <strong><a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#dano--condicoes">Condições compráveis</a></strong> para seus efeitos completos.</p>
+<blockquote>
+<p>Uma especial de Classe 2 com Prende pode ter até 2d8 e receber a rodada adicional. Se a ficha for montada sem dano, ganha também +2 na CD de Prende. O alvo conserva as ações de tentativa de saída indicadas na peça.</p>
+</blockquote>
+<h5>Efeito fora de combate</h5>
+<p>O procedimento de <strong>Efeito fora de combate</strong> realiza a aplicação registrada na ficha. Siga as escalas, a duração e os limites de <strong>Fundamento, Efeitos fora de combate</strong>. Os pontos compram as Melhorias necessárias. Sobras não se transformam em dano, cura ou vida temporária.</p>
+<p>Uma entidade continua precisando de comando para sua especial, mesmo fora de combate. Uma básica de Efeito consome sua atuação básica. Descrever a capacidade como parte natural do corpo não elimina seus custos.</p>
+<p>Para uma proposta ausente do catálogo, use <strong>Efeito Próprio</strong> ou <strong>Talento Próprio</strong>, conforme a forma de uso. Registre um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-restricoes -->
+<p><a id="construcao--entidades-restricoes"></a></p>
+<h5>Restrições da entidade</h5>
+<p>Escolha Restrições no <strong><a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#catalogo--cat-restricoes">Catálogo de Restrições</a></strong>, respeitando suas incompatibilidades e devoluções. Elas pertencem à habilidade em que foram registradas e precisam ser cumpridas a cada uso.</p>
+<p><strong>A dificuldade deve recair sobre quem executa.</strong> Parado limita o movimento da entidade. Sangra cobra vida dela. Uma exigência de palavras ou gestos pressupõe um corpo capaz de cumpri-la. Uma entidade sem voz não pode comprar Gesto de recitação como se fosse uma dificuldade que conseguiria pagar depois.</p>
+<p>A entidade não tem Selo por padrão. Uma Restrição pode acrescentar um requisito real à montagem, mas uma exigência já imposta pela definição, pela aquisição ou por outra peça não devolve pontos uma segunda vez.</p>
+<h5>Tempo e ações</h5>
+<p>Atrasar e Carregar precisam usar a tradução de ações de <strong>Invocações em campo, Especiais com preparação prolongada</strong>. O custo deve estar registrado antes da sessão. A entidade não recebe Ação Padrão ou Bônus de personagem apenas para pagar uma Restrição.</p>
+<p>O mesmo vale para <strong>Rápido, Reação, Armado e Segura</strong>. Suas peças usam os recursos de comando, atuação básica e Reação coletiva descritos em <strong>Especiais de execução rápida</strong> e <strong>Especiais armadas</strong>. Comprar uma delas não torna toda especial autônoma.</p>
+<h5>Conferência da montagem</h5>
+<p>Conserve as incompatibilidades do catálogo: no máximo uma Restrição de frequência, uma penalidade corporal do grupo correspondente e uma das duas exposições, Barulho ou Assinatura. Duas exigências pelo mesmo impedimento não somam devoluções.</p>
+<p>Uma Restrição Própria precisa de situação concreta em que prejudique a entidade. Registre o texto e o motivo do preço. Depois de três sessões de uso, confira as exigências que nunca atrapalharam, conforme o procedimento do catálogo.</p>
+<p>Ao revisar, observe também os efeitos dos aliados: se outra regra elimina sempre a desvantagem prometida, aquela devolução precisa ser reavaliada.</p>
+<!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-passivas -->
+<p><a id="construcao--entidades-passivas"></a></p></section><section class="consulta-regra" id="regra-18"><h3>Criação de entidades</h3>
+<p>Você pode criar um talismã que guarda um shikigami ou construir um corpo amaldiçoado. Escolha a entidade e prepare sua ficha em <strong>Criar uma invocação</strong>. Criar é uma aquisição: <strong>não exige técnica de invocação nem ocupa espaço conhecido</strong>.</p>
+<p>O mestre decide quando você pode criar e o que isso custa em tempo e materiais; o livro de mestres vai tratar dessas decisões.</p>
+<p>Uma pessoa <strong>treinada no ofício compatível registrado na ficha</strong> conduz o trabalho e faz o teste. Pode criar para si ou para outro invocador, definido antes do teste. <strong>Cada entidade pede a própria tentativa.</strong></p>
+<p>Na criação, escolha a <strong>Classe da entidade</strong>. Ela não pode superar a Classe de quem cria nem a do invocador. O nível da entidade é o do invocador, limitado ao último nível da Classe escolhida.</p>
+<!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-teste -->
+<p><a id="fabricacao--fab-teste"></a></p>
+<h4>Teste de criação</h4>
+<p>Quando o mestre permitir a criação e o trabalho combinado estiver cumprido, o responsável faz <strong>um teste do ofício compatível</strong>.</p>
+<p>Use o atributo adequado ao trabalho e a Maestria do responsável. A base da dificuldade é <strong>8 + esse atributo + essa Maestria</strong>. Compare a Classe escolhida para a entidade com a Classe de quem cria, usando a Progressão da entidade.</p>
+<table>
+<thead>
+<tr>
+<th>Classe da entidade em relação a quem cria</th>
+<th>Dificuldade</th>
+<th>Ajuste</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Igual</td>
+<td>Difícil</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Uma abaixo</td>
+<td>Média</td>
+<td>−2</td>
+</tr>
+<tr>
+<td>Duas ou mais abaixo</td>
+<td>Fácil</td>
+<td>−4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Role d20 + atributo + Maestria.</strong> Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste conforme suas próprias regras; não entram novamente na base da CD.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> uma calígrafa de nível 13, Destreza 4 e Maestria 2 cria uma entidade de Classe 3 para um invocador de nível 9. A entidade começa no nível 9. As Classes comparadas são 4 e 3: a dificuldade é Média. A CD fica <strong>8 + 4 + 2 − 2 = 12</strong>. Seu teste é d20 + 6; um 6 no dado basta. Se criasse uma entidade de Classe 4 para um invocador de nível 13, ela começaria no nível 13, a CD seria 14 e precisaria de 8.</p>
+</blockquote>
+<h5>Vantagem nos testes</h5>
+<p>Nos testes para <strong>criar, reconstruir ou transferir</strong>, a vantagem só pode vir de <strong>um ajudante treinado no ofício compatível</strong>, com permissão do mestre e dedicando o mesmo tempo que o responsável, ou de <strong>uma habilidade que conceda vantagem permanente nesse teste</strong>. Vantagem ativada, por cena ou temporária não vale. Esta é uma exceção ao Ajudar de Regras gerais, que não exige treino do ajudante.</p>
+<p>A vantagem da tentativa seguinte a uma falha vem da própria regra e continua valendo nos três testes.</p>
+<h5>Sucesso e falha</h5>
+<p>No sucesso, conclua a entidade com a ficha combinada e registre seu invocador. Na falha, ela ainda não funciona. Uma nova tentativa acontece quando o mestre permitir e tem vantagem.</p>
+<!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-conclusao -->
+<p><a id="fabricacao--fab-conclusao"></a></p>
+<h4>Conclusão, evolução e transferência</h4>
+<p>Uma entidade nova começa com a <strong>vida máxima</strong>. O shikigami fica recolhido em seu talismã, <strong>sem carga</strong>; o corpo permanece inativo onde foi construído. O talismã ocupa <strong>0,5 de Volume</strong>. Manifestar, ativar, transportar e controlar a entidade seguem <strong>Invocações em campo</strong>.</p>
+<h5>Evolução e reconstrução</h5>
+<p>A entidade de criação <strong>acompanha o nível do invocador até o último nível da Classe dela</strong>. As faixas da Progressão da entidade são: Classe 1, níveis 1–4; Classe 2, 5–8; Classe 3, 9–12; Classe 4, 13–16; Classe 5, 17–20; Classe 6, 21–25; e Classe 7, 26–30.</p>
+<p>Para passar à Classe seguinte, é preciso <strong>reconstruir a entidade</strong> ou criar outra do zero. Reconstruir usa o mesmo teste de criação, comparando a <strong>nova Classe</strong> com a de quem reconstrói, e reduz a dificuldade em um degrau: Igual vira <strong>Média (−2)</strong>; Uma abaixo vira <strong>Fácil (−4)</strong>; Duas ou mais abaixo continua <strong>Fácil (−4)</strong>. A nova Classe não pode superar a de quem reconstrói nem a do invocador. <strong>É um teste por Classe.</strong></p>
+<p>Na falha, a entidade continua onde está. A nova tentativa acontece quando o mestre permitir e tem vantagem.</p>
+<h5>Transferência e herança</h5>
+<p>Passar um talismã ou corpo criado a outro invocador, ou herdá-lo, pede <strong>o mesmo teste de criação, fora de combate</strong>, com o consentimento do dono anterior ou a morte dele. O novo invocador precisa ter <strong>Classe igual ou maior que a da entidade</strong>.</p>
+<p>No sucesso, registre o novo invocador. A transferência conserva <strong>Classe, ficha, vida atual e usos gastos</strong>, além da queda e da carga do talismã. Depois dela, a entidade acompanha o nível do novo invocador dentro da Classe dela; atualize os valores que dependem dele. A transferência não recupera energia, não concede outra atuação no ciclo nem religa um corpo Desligado.</p>
+<p>Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. A nova tentativa acontece quando o mestre permitir e tem vantagem.</p>
+<p><strong>Uma entidade destruída exige criar outra.</strong> A maldição domada conserva o nível em que foi domada; esta evolução pertence às entidades de criação.</p>
+<!-- parte:5 --></section></main></body></html>

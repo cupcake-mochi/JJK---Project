@@ -1,0 +1,108 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Primeiro trecho
+Segundo trecho
+Total
+Resultado quanto ao alcance
+6 m
+6 m
+12 m
+Dentro da faixa normal.
+9 m
+1,5 m
+10,5 m
+Desvantagem: o primeiro trecho ultrapassou os
+6 m originais, mesmo com total menor que 12
+m.
+18 m
+6 m
+24 m
+Permitido na faixa longa, com desvantagem.
+19,5 m
+1,5 m
+21 m
+Inviável: o ponto está além dos 18 m originais.
+6 m
+19,5 m
+25,5 m
+Inviável: o total ultrapassa os 24 m ampliados.
+Uma parede que bloqueie um dos trechos continua
+impedindo o ataque. Se a cobertura também
+proteger da direção final, aplique-a normalmente.
+O ricochete resolve um único ataque contra o alvo;
+não exige atacar a parede e não ignora o bloqueio só
+por mudar de direção.
+Instalar uma corda
+Uma equipe precisa descer 6 m até uma plataforma
+de manutenção. Há um apoio acessível e firme
+junto à borda. Antes do preparo, o mestre confirma
+que ele suporta a carga da pessoa com seu
+equipamento e que corda e kit são adequados ao
+percurso.
+Mina deixa as armas guardadas e mantém duas
+mãos disponíveis. Dedica um minuto à instalação
+acessível: prende a corda e prepara a ligação do
+arnês ao ponto firme. É um nó simples, fora de
+perigo, portanto não há teste. Se a instalação
+exigisse trabalho difícil, o mestre indicaria o ofício
+adequado, a CD e o risco antes da tentativa.
+A ligação já está pronta quando Mina começa a
+descer. Descer com apoio e controle usa Escalar:
+sem deslocamento especial, 6 m físicos custam 12
+m de movimento. Em turnos, ela precisaria de
+movimento suficiente, usando seus recursos
+próprios; fora de combate, acompanhe o tempo
+necessário. O kit não fornece uma descida gratuita.
+Neste exemplo, a folga máxima deixada permite
+uma queda de 1,5 m antes de a corda sustentá-la. Se
+perder o apoio, fica suspensa nesse limite,
+enquanto a instalação suportar a carga. Essa altura
+não causa dano pela regra comum de queda. Ainda
+será necessário retomar um apoio ou receber ajuda
+para continuar.
+Com 3 m ou mais de queda efetiva, a altura já
+entraria no cálculo de dano. Não trate o arnês como
+imunidade. Vestir um kit sem preparar a conexão
+também não permite gastar uma Reação para se
+prender depois de cair: a ligação precisa existir
+antes.
+Soltar uma conexão acessível é uma manipulação
+simples. Instalar outro ponto exige o preparo
+novamente. Registre apoio usado, ligação e folga;
+“está com kit” não descreve tudo isso.
+Abrir uma fechadura
+Às 16h00, Emi está diante de uma fechadura
+mecânica reforçada. Tem treino em
+Arrombamento, Destreza 4, Maestria 1, gazuas
+apropriadas e duas mãos livres. A lanterna já está
+apoiada numa posição que ilumina o mecanismo,
+sem ocupar uma dessas mãos.
+A referência publicada é CD 18, com um minuto
+por tentativa. O mestre explica uma característica
+local: o mecanismo gasto pode estalar na falha, e o
+vigia que está no corredor ouvirá esse ruído. As
+gazuas usadas aqui não têm risco de quebrar nessa
+tentativa.
+Emi escolhe tentar. Seu bônus é 4 + 1 = +5. Com
+dado 12, soma 17, falhando. Às 16h01, a porta
+permanece trancada e o vigia ouviu o estalo. As
+gazuas continuam utilizáveis. O mestre passa a
+conduzir a resposta do vigia; não precisa mantê-lo
+parado enquanto Emi insiste.
+Se Emi ainda tiver oportunidade de fazer outra
+tentativa, ela exigirá outro minuto inteiro. Se
+conseguir esse tempo e tirar 13, o total é 13 + 5 = 18:
+a fechadura abre às 16h02. A primeira falha não
+concede vantagem nem destrói ferramentas
+automaticamente.
+Se o grupo usar um pé de cabra numa fresta
+adequada, estará tentando forçar a estrutura: Ação
+Padrão e Atletismo, contra a CD daquele
+obstáculo. A ferramenta não dá vantagem
+automática, e a dificuldade não precisa ser igual à
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+67

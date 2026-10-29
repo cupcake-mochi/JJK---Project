@@ -1,6 +1,6 @@
 # Construir e evoluir o Escriba de campo
 
-**Exemplo experimental para a pré-1.0.** Esta seção percorre uma ficha do conceito à evolução. As contas e as peças de combate seguem a R53. A entidade é original do Guia; seu talento Retrato de referência é uma proposta de Categoria de Efeito 1 (CE1), ainda sujeita à avaliação da mesa. O exemplo não declara esse poder equilibrado por ter uma ficha preenchida.
+**Exemplo experimental para a pré-1.0.** Esta seção mostra como criar uma ficha e acompanhá-la ao longo dos níveis. As contas e as peças de combate seguem o Livro de Regras 1.0. A entidade é original do Guia; seu talento Retrato de referência é uma proposta de Categoria de Efeito 1 (CE1), ainda sujeita à avaliação do grupo. O exemplo não declara esse poder equilibrado por ter uma ficha preenchida.
 
 ## Comece pela função
 
@@ -8,7 +8,7 @@ Tala quer uma entidade que conserve a aparência de uma pista para mostrar à eq
 
 **Definição:** uma figura de papel que registra uma imagem observada e lança agulhas de tinta contra alvos indicados.
 
-A definição orienta a montagem. Não concede fotografia, dano, voo ou qualquer sentido antes da aquisição da capacidade correspondente. Para esta ficha, Tala tem **Maestria 1**, escolheu **Inteligência para a Defesa de suas entidades** e possui Inteligência 4. Esses são os campos da invocadora usados nas contas; use sua ficha completa para recursos e ações pessoais.
+Essa descrição orienta a montagem. Não concede fotografia, dano, voo ou qualquer sentido antes de adquirir a capacidade correspondente. Para esta ficha, Tala tem **Maestria 1**, escolheu **Inteligência para a Defesa de suas entidades** e possui Inteligência 4. Esses são os campos da invocadora usados nas contas; use sua ficha completa para recursos e ações pessoais.
 
 O Escriba é um **shikigami de técnica**, Pequeno, com alma, duas pernas, dois braços e mãos. Caminha 9 m, tem visão e audição comuns, compreende ordens faladas de Tala e responde por gestos. Não fala. Seu painel de papel mostra uma imagem apenas pelo talento descrito adiante. Não tem Ofício, equipamento, voo, telepatia, visão compartilhada, armazenamento ou capacidade de transportar passageiros.
 
@@ -35,7 +35,7 @@ A soma é **9 pontos**, todos entre 0 e 3. Inteligência será o atributo de ace
 | Vagas | **Uma básica**, **duas especiais** e **um talento até CE1**. |
 | Reserva própria | Nenhuma. Tala paga a energia exigida. |
 
-São cinco perícias: **4 + metade da Inteligência 3, para baixo = 5**. Percepção usa Essência; Investigação e Sobrevivência usam Inteligência. Ter mãos não concede treino em Ofícios. Uma arma empunhada também não usaria automaticamente o acerto das agulhas: a R53 exige seu atributo próprio e aplica desvantagem à entidade sem treino em armas.
+São cinco perícias: **4 + metade da Inteligência 3, para baixo = 5**. Percepção usa Essência; Investigação e Sobrevivência usam Inteligência. Ter mãos não concede treino em Ofícios. Uma arma empunhada também não usaria automaticamente o acerto das agulhas: o Livro de Regras 1.0 exige seu atributo próprio e aplica desvantagem à entidade sem treino em armas.
 
 As duas vagas de especial resultam de **metade de (2 + nível ÷ 2), arredondada para baixo**: no nível 5, metade de 4,5 dá 2,25, portanto duas vagas. Ter duas especiais conhecidas não dá duas execuções no mesmo ciclo.
 
@@ -63,7 +63,7 @@ A básica consome a atuação básica do Escriba. O alcance de 9 m vem da Classe
 
 A especial começa com **2 pontos de montagem**. Projétil custa zero. Precisão é Leve: custa 1 na Classe 1 e continua custando 1 com Mira Livre, pelo preço mínimo. Sobra **2 − 1 = 1 ponto**, convertido em 1d8. Precisão acrescenta +2 ao acerto, levando +4 a +6.
 
-Tala pode usar essa especial ampliada para Classe 2, já disponível no nível 5. As peças continuam as mesmas: **4 − 1 = 3d8**, por **6 PE**, com ataque +6 e alcance de 18 m. Ela escolhe a Classe do uso antes de resolver, sem ocupar uma vaga adicional.
+Tala pode usar essa especial ampliada para Classe 2, já disponível no nível 5. As peças continuam as mesmas: **4 − 1 = 3d8**, por **6 PE**, com ataque +6 e alcance de 18 m. Ela escolhe a Classe do uso antes de usar a habilidade, sem ocupar uma vaga adicional.
 
 ### Agulha perfurante
 
@@ -89,7 +89,7 @@ As agulhas precisam de alvo válido, percepção e trajeto permitidos. O alcance
 
 ## O poder próprio: Retrato de referência
 
-**Proposta de Talento Próprio, CE1.** Ocupa a única escolha de talento disponível nesta ficha de nível 5. Não usa vaga de especial nem pontos das agulhas. A referência de comparação é **Registro de cena**, proposta de CE1 da R53 que conserva sons realmente ouvidos.
+**Proposta de Talento Próprio, CE1.** Ocupa a única escolha de talento disponível nesta ficha de nível 5. Não usa vaga de especial nem pontos das agulhas. A referência de comparação é **Registro de cena**, proposta de CE1 do Livro de Regras 1.0 que conserva sons realmente ouvidos.
 
 | Campo | Texto proposto |
 |---|---|
@@ -107,15 +107,15 @@ A imagem é apresentada como um registro no painel, sem se passar pelo objeto ou
 
 **Uso impedido.** Tala aponta para uma carta fechada e pede uma imagem do texto dentro dela. O Escriba enxerga o envelope, não seu conteúdo. O talento não abre a carta nem oferece uma segunda percepção através do papel. Uma fotografia de um rosto disfarçado conservaria a aparência percebida, sem identificar quem está sob o disfarce.
 
-O ganho proposto é conservar e apresentar uma observação limitada. A comparação com Registro de cena não prova equivalência automática entre som e imagem. Se os usos reais mostrarem que o retrato elimina dificuldades além desse recorte, revise a proposta pelo procedimento de avaliação, em vez de atribuir novas funções ao texto. Ela não foi aprovada como talento universal do sistema.
+O ganho proposto é conservar e apresentar uma observação limitada. A comparação com Registro de cena não prova equivalência automática entre som e imagem. Se os usos reais mostrarem que o retrato elimina dificuldades além desses limites, revise a proposta pelos critérios de avaliação de poderes, em vez de atribuir novas funções ao texto. Ela não foi aprovada como talento universal do sistema.
 
-## A proposta que não cabe
+## Quando o pedido excede os limites
 
 O jogador pede: “Quero que Agulha perfurante também alcance 36 m, mantenha +2 no ataque e ignore proteção, causando 3d8 por 6 PE.”
 
 Para ir de 18 m a 36 m, Longe de um degrau é uma Melhoria Leve de Alcance. Na Classe 2, custa 1; Alcance está aberta, mas não é Livre. A montagem teria **Precisão + Fura + Longe**, três Melhorias onde o limite é duas. Além disso, seu saldo seria **4 − 1 − 1 − 1 = 1d8**, não 3d8.
 
-**Parecer:** reduzir somente o dano não resolve a quantidade de Melhorias. Nesta ficha, conserve Agulha perfurante como registrada, com Precisão e Fura, 2d8 e 18 m. Se a prioridade for distância, outra montagem pode trocar Fura por Longe: **Precisão + Longe, 2d8, ataque +6 e 36 m**, por 6 PE, sem ignorar Redução de Dano.
+**Avaliação:** reduzir somente o dano não resolve a quantidade de Melhorias. Nesta ficha, conserve Agulha perfurante como registrada, com Precisão e Fura, 2d8 e 18 m. Se a prioridade for distância, outra montagem pode trocar Fura por Longe: **Precisão + Longe, 2d8, ataque +6 e 36 m**, por 6 PE, sem ignorar Redução de Dano.
 
 Essa troca não acontece no momento do disparo. É outra montagem, que precisa ocupar uma vaga disponível ou usar a reescrita permitida na evolução. As duas vagas do nível 5 já estão ocupadas. Uma Restrição não cria uma terceira vaga de Melhoria nem abre uma Família Fechada.
 
@@ -145,7 +145,7 @@ Ele recebe sua **segunda escolha de talento, até CE1**. Neste exemplo, aprende 
 
 Retrato de referência permanece CE1, com uma imagem, os mesmos 9 m e os mesmos custos de básica. A evolução não amplia automaticamente o poder próprio. A possibilidade de reescrever uma especial no ganho de nível também não é permissão para acrescentar qualquer função ao talento.
 
-## Os próximos marcos
+## Os próximos níveis
 
 Esta projeção conserva a Constituição 3 escolhida no nível 6, a Maestria de Tala em 1 e sua Inteligência em 4. Mostra capacidade disponível, não escolhas de poderes já realizadas.
 
@@ -169,10 +169,10 @@ Esta evolução pertence ao shikigami adquirido por espaço conhecido. Uma entid
 
 ## Registro e revisão
 
-Guarde junto da ficha: a aquisição por espaço; atributos e escolha de Defesa de Tala; Famílias; uma básica e as duas especiais com suas Classes conhecidas; versões ampliadas permitidas; texto integral do talento proposto; parecer e alcance de eventual aprovação. Na guilda, outro mestre precisa conseguir distinguir a proposta em avaliação de um poder aceito para aquela ficha.
+Guarde junto da ficha: a aquisição por espaço; atributos e escolha de Defesa de Tala; Famílias; uma básica e as duas especiais com suas Classes conhecidas; versões ampliadas permitidas; texto integral do talento proposto; avaliação e condições de uma eventual aprovação. Na guilda, outro mestre precisa conseguir distinguir a proposta em avaliação de um poder aceito para aquela ficha.
 
 Ao usar em mesa, anote se o retrato permitiu apenas conservar o que foi visto ou se surgiram pedidos de informação adicional; se registrar e exibir disputaram a básica com outras tarefas; e quais requisitos das agulhas geraram dúvida. Anote também vida atual, Integridade, condições e recursos gastos. As tabelas de evolução apresentam máximos, não uma declaração de que a criatura está recuperada.
 
-Para avaliar outra entidade, use o mesmo caminho: função, aquisição, corpo, números, Famílias, habilidades, situações de uso e evolução. Uma habilidade com texto curto ainda precisa ter resultado, custo e limite verificáveis.
+Para avaliar outra entidade, use o mesmo caminho: função, aquisição, corpo, números, Famílias, habilidades, situações de uso e evolução. Uma habilidade com texto curto ainda precisa ter resultado, custo e limite claros.
 
-**Consulta da R53:** [atributos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-atributos>), [progressão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-progressao>), [Famílias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-familias>), [especiais](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-especiais>), [efeitos reduzidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-efeitos-reduzidos>), [características próprias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passiva-propria>) e [ampliação](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-ampliacao>).
+**Consulta do Livro de Regras 1.0:** [atributos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-atributos>), [progressão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-progressao>), [Famílias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-familias>), [especiais](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-especiais>), [efeitos reduzidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-efeitos-reduzidos>), [características próprias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passiva-propria>) e [ampliação](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-ampliacao>).

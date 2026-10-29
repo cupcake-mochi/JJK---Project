@@ -1,0 +1,234 @@
+{
+  "pdf_sha256": "a238afffb8c0331cf31b3106e9eb1a46a199f788548f15aa58987975f7be0141",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 535,
+      "fim_corpo": 774.358357
+    },
+    {
+      "pagina": 2,
+      "palavras": 577,
+      "fim_corpo": 749.358357
+    },
+    {
+      "pagina": 3,
+      "palavras": 639,
+      "fim_corpo": 776.058357
+    },
+    {
+      "pagina": 4,
+      "palavras": 582,
+      "fim_corpo": 689.858358
+    }
+  ],
+  "links_locais_conferidos": 49,
+  "links": [
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#51-a-sessao-zero"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#52-vinculos-e-interesses-dos-personagens"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#53-de-uma-missao-a-proxima"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#54-faccoes"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#55-antagonistas"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "#56-arcos-finais-e-epilogos"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s026"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/capitulo-5.html",
+      "destino": "../103-campanha-e-conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "destino": "capitulo-5.html"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "destino": "#regra-1"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "destino": "#regra-2"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "destino": "#regra-3"
+    },
+    {
+      "origem": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "destino": "../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#origens--legado-criar"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "destino": "../../07 - Edicao de Leitura/capitulos/c06.html#s026"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "destino": "../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "98-plano-de-melhoria-e-validacao-do-guia.md"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "99-sumario-comentado-e-caminhos-de-leitura.md"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "../06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/consulta-de-regras.html"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/conferencia-do-nucleo.json"
+    },
+    {
+      "origem": "04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md",
+      "destino": "apoio-campanha-103/conferencia-do-nucleo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "01-sua-primeira-missao.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "02-o-mundo-dos-feiticeiros.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "03-preparar-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "04-na-mesa-de-jogo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "05-criar-uma-campanha.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-primeira-missao-100/output/pdf/Ciclo-Maldito-Sua-Primeira-Missao-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/100-primeira-missao-reunida-e-comentada.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/capitulos-2-e-3.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/101-mundo-e-preparacao-de-aventuras.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/capitulo-4.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/102-conducao-participacao-e-ritmo.md"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/capitulo-5.html"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/apoio-campanha-103/output/pdf/Ciclo-Maldito-Criar-uma-Campanha-Amostra.pdf"
+    },
+    {
+      "origem": "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+      "destino": "../../04 - Planejamento/103-campanha-e-conferencia-do-nucleo.md"
+    }
+  ],
+  "palavras_html_conferidas": 2280,
+  "palavras_ausentes_no_pdf": {},
+  "palavras_posicionadas": 2333,
+  "palavras_fora_da_pagina": [],
+  "trechos_de_regras_fieis_a_base": 3,
+  "fontes_antigas_preservadas": 104,
+  "capitulos_novos_anteriores_preservados": 4,
+  "pdf_integrado_preservado": true,
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "limite": "Presença textual e integridade não substituem revisão visual e leitura externa."
+}

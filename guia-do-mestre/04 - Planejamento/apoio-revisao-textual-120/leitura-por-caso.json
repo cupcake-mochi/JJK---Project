@@ -1,0 +1,90 @@
+{
+  "registro": 120,
+  "casos": [
+    {
+      "id": "s078",
+      "fonte_original": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "sha256_original": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+      "sha256_revisado": "1b567e446408dd4a6fffc45a8e1619a408996834c1d4461d721bd5dd4ac72a54",
+      "passagem_1": "Original lido integralmente e regras pertinentes consultadas.",
+      "passagem_2_paginas_da_prova_1": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 20,
+        "2": 4
+      },
+      "estado": "duas passagens locais e refinamentos relidos; conferir conjunto antes da integração"
+    },
+    {
+      "id": "s057",
+      "fonte_original": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256_original": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+      "sha256_revisado": "8e5a4a3e98c17f30cfda0ded27f2416d26803edf11d73aa88bce9b17f0497443",
+      "passagem_1": "Original lido integralmente e regras pertinentes consultadas.",
+      "passagem_2_paginas_da_prova_1": [
+        4,
+        6
+      ],
+      "paginas_na_prova_final": [
+        4,
+        6
+      ],
+      "registros_por_passagem": {
+        "1": 14,
+        "2": 4
+      },
+      "estado": "duas passagens locais e refinamentos relidos; conferir conjunto antes da integração"
+    },
+    {
+      "id": "s062",
+      "fonte_original": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256_original": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+      "sha256_revisado": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f",
+      "passagem_1": "Original lido integralmente e regras pertinentes consultadas.",
+      "passagem_2_paginas_da_prova_1": [
+        7,
+        13
+      ],
+      "paginas_na_prova_final": [
+        7,
+        13
+      ],
+      "registros_por_passagem": {
+        "1": 18,
+        "2": 8
+      },
+      "estado": "duas passagens locais e refinamentos relidos; conferir conjunto antes da integração"
+    },
+    {
+      "id": "s063",
+      "fonte_original": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "sha256_original": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+      "sha256_revisado": "8bc65447b44a878ae5114b00d390a90195009728f1075602cf0eb9284272617f",
+      "passagem_1": "Original lido integralmente e regras pertinentes consultadas.",
+      "passagem_2_paginas_da_prova_1": [
+        13,
+        17
+      ],
+      "paginas_na_prova_final": [
+        13,
+        16
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 19
+      },
+      "estado": "duas passagens locais e refinamentos relidos; conferir conjunto antes da integração"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

@@ -1,0 +1,124 @@
+{
+  "registro": 109,
+  "fonte": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+  "fonte_sha256": "6dacedd48af155a0e03416f70bd3faf71cd1f3a8e403e041ccd6cb90fee35d7f",
+  "palavras_markdown": 3829,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Pactos",
+      "id": "regra-1",
+      "inicio_linha": 13129,
+      "fim_linha": 13164
+    },
+    {
+      "titulo": "Pacto permanente",
+      "id": "regra-2",
+      "inicio_linha": 13165,
+      "fim_linha": 13193
+    },
+    {
+      "titulo": "Pacto temporário",
+      "id": "regra-3",
+      "inicio_linha": 13194,
+      "fim_linha": 13217
+    },
+    {
+      "titulo": "Promessa",
+      "id": "regra-4",
+      "inicio_linha": 13218,
+      "fim_linha": 13245
+    },
+    {
+      "titulo": "Pactos na criação",
+      "id": "regra-5",
+      "inicio_linha": 13246,
+      "fim_linha": 13271
+    },
+    {
+      "titulo": "Turnos das entidades",
+      "id": "regra-6",
+      "inicio_linha": 13374,
+      "fim_linha": 13467
+    },
+    {
+      "titulo": "Comandar uma especial",
+      "id": "regra-7",
+      "inicio_linha": 13486,
+      "fim_linha": 13594
+    },
+    {
+      "titulo": "Talismãs",
+      "id": "regra-8",
+      "inicio_linha": 13691,
+      "fim_linha": 13709
+    },
+    {
+      "titulo": "Corpos amaldiçoados",
+      "id": "regra-9",
+      "inicio_linha": 13710,
+      "fim_linha": 13727
+    },
+    {
+      "titulo": "Queda e destruição",
+      "id": "regra-10",
+      "inicio_linha": 13820,
+      "fim_linha": 13923
+    },
+    {
+      "titulo": "Carga e equipamento",
+      "id": "regra-11",
+      "inicio_linha": 13924,
+      "fim_linha": 13938
+    },
+    {
+      "titulo": "Criar uma invocação",
+      "id": "regra-12",
+      "inicio_linha": 13943,
+      "fim_linha": 13965
+    },
+    {
+      "titulo": "Adquirir entidades",
+      "id": "regra-13",
+      "inicio_linha": 13966,
+      "fim_linha": 13990
+    },
+    {
+      "titulo": "Lista de ritual e criação",
+      "id": "regra-14",
+      "inicio_linha": 14049,
+      "fim_linha": 14070
+    },
+    {
+      "titulo": "Domar uma maldição",
+      "id": "regra-15",
+      "inicio_linha": 14071,
+      "fim_linha": 14095
+    },
+    {
+      "titulo": "Tipos de entidade",
+      "id": "regra-16",
+      "inicio_linha": 14096,
+      "fim_linha": 14119
+    },
+    {
+      "titulo": "Definição e corpo",
+      "id": "regra-17",
+      "inicio_linha": 14120,
+      "fim_linha": 14472
+    },
+    {
+      "titulo": "Criação de entidades",
+      "id": "regra-18",
+      "inicio_linha": 14672,
+      "fim_linha": 14734
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "pdf": "04 - Planejamento/apoio-pactos-entidades-109/output/pdf/Ciclo-Maldito-Pactos-e-Entidades-Amostra.pdf",
+  "pdf_sha256": "7a0e150381bf1569c701253b91d7a38d2deb9d8df4d2caab873c1d3ac1995927",
+  "paginas": 6,
+  "limite": "Capítulo reorganizado sem nova regra de treinamento, criação de poderes ou progressão. Exemplos próprios mantêm sua identificação e as decisões existentes foram preservadas."
+}

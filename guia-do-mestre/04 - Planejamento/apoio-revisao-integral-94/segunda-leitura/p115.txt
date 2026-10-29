@@ -1,0 +1,84 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Exemplo de agarrão e arrasto
+Considere o começo de um turno na área de
+trabalho, depois de já haver aproximação em turno
+anterior: o Carregador está ao lado de uma
+personagem de corpo Médio, 72 kg e 2 Volume de
+itens. Ambos têm espaço para seguir lado a lado;
+nenhum deles bloqueia o caminho do outro. O
+exemplo não concede essa posição na abertura:
+vindo de longe, desconte os metros de aproximação.
+Passo
+Recursos e resultado
+Tenta Agarrar
+Padrão/único ataque. O alvo obtém total 11 e fica Agarrado. Não sofre
+dano.
+Converte sua Bônus em Movimento
+Tem 9 + 9 = 18 m de movimento neste turno; a Bônus foi gasta.
+Segue pela rota direta
+Arrasta 6 m regulares por 12 m de movimento, depois 1,5 m no entulho
+por 4,5 m. Gastou 16,5 m, percorreu 7,5 m e mantém 1,5 m que não
+paga o próximo trecho de arrasto.
+Outras pessoas agem em suas
+iniciativas
+A vítima pode tentar escapar, atacar ou usar outra capacidade válida;
+aliados podem intervir. Não se cria turno extra entre Agarrar e o
+arrasto, mas Reações preparadas ou outros gatilhos válidos podem
+ocorrer.
+Próximo turno do Carregador, se
+nada mudou
+Pode usar Movimento 9 m, converter Bônus para mais 9 m e usar
+Padrão para Correr: 27 m. Faltam 4,5 m difíceis e 6 m regulares: custo
+25,5 m. Chega ao recuo sem atacar nem Desengajar nesse turno.
+Também poderia converter a Padrão em Bônus e
+depois Movimento, obtendo os mesmos 27 m; não
+soma essa conversão a Correr com a mesma Padrão.
+Se escolher Desengajar, terá 18 m pelas outras duas
+ações e não completará nesse turno os 25,5 m
+restantes. A escolha entre alcançar o destino e
+evitar oportunidades aparece nas ações e na
+posição, sem uma reserva de PE.
+No estágio 2 de Integridade, cada deslocamento de
+9 m cai para 4,5 m. Agarrar continua sem PE. No
+primeiro turno da sequência, Movimento e Bônus
+convertida somariam 9 m: apenas 4,5 m de arrasto
+em chão regular. A CD não cai por ter sido ferido.
+No estágio 3, a desvantagem em ataques e TRs é do
+Carregador; não se transfere ao TR de quem ele
+tenta agarrar. A vítima aplica as próprias
+penalidades, se tiver.
+Como enfrentar o Carregador
+Escapar por conta própria. Padrão e TR Físico
+contra a CD original da contenção. Falhar não
+apaga Bônus ou Reação ainda disponíveis. Estar
+Agarrado não reduz o repertório à tentativa de fuga.
+Separar os corpos. Um aliado pode usar Empurrar
+ou uma capacidade apropriada. A manobra comum
+afasta o alvo 1,5 m do executor, após o TR. Confira
+a posição: um empurrão lateral pode manter os
+corpos ao alcance e não encerrar nada. Um aliado
+posicionado do lado da vítima pode empurrar o
+Carregador para longe dela; se a distância
+ultrapassar 1,5 m, o agarrão termina. O empurrão
+não leva automaticamente a vítima junto. Também
+é possível deslocar a vítima por uma capacidade
+válida; Agarrado impede seu deslocamento próprio,
+não todo movimento imposto.
+Fazer o agarrador perder a contenção. Guarda
+Aberta, Inconsciente, deixar de manter a mão ou
+separação além do alcance encerram o agarrão
+comum. Causar dano, por si, não solta a mão.
+Derrubar o Carregador também não o faz soltar a
+vítima automaticamente; resolva o que a condição
+realmente diz. Atingir a mão não cria
+desmembramento sem regra.
+Disputar a caixa. Enquanto o Carregador ocupa
+uma mão e percorre o galpão, outra pessoa pode
+retirar o objeto. Ele precisa perceber a mudança e
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+115

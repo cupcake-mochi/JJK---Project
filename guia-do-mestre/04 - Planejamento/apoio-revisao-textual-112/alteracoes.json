@@ -1,0 +1,175 @@
+{
+  "registro": 112,
+  "alteracoes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "Leia o que aconteceu antes de jogar; durante a sessão, use a planta, a ficha da ameaça e o resumo de preparo no final.",
+      "depois": "Antes de jogar, leia a missão inteira. Durante a sessão, use a planta, a ficha da ameaça e o resumo de preparo no final.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "## 1.4 Prepare As batidas no anexo",
+      "depois": "<span id=\"14-prepare-as-batidas-no-anexo\"></span>\n\n## 1.4 Prepare a missão",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "Mina não está no local. Ela pode ser um contato da guilda ou uma colega que organiza apoio à campanha.",
+      "depois": "Mina não está no local. Ela pode ser um contato da guilda ou uma colega a quem o grupo costuma pedir ajuda.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "Para uma busca incerta ou um uso de capacidade, abra a regra que resolve aquela tentativa.",
+      "depois": "Se houver dúvida sobre o resultado de uma busca ou do uso de uma capacidade, consulte a regra daquela tentativa.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "Essa escolha protege as pessoas e encaminha o problema. A ameaça permanece no depósito até uma intervenção efetiva.",
+      "depois": "Essa escolha protege as pessoas e encaminha o problema. A ameaça permanece no depósito até que alguém consiga resolvê-la.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "Confira as condições para descansar e para receber progressão e eventual remuneração no Livro de Regras e nos acordos da campanha.",
+      "depois": "Confira no Livro de Regras e nos acordos da campanha quando o grupo pode descansar, receber XP e ser remunerado.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "O capítulo Preparar aventuras desenvolve esse trabalho; Na mesa de jogo ajuda a conduzir as novas situações.",
+      "depois": "[Preparar aventuras](03-preparar-aventuras.md) desenvolve esse trabalho; [Na mesa de jogo](04-na-mesa-de-jogo.md) ajuda a conduzir as novas situações.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "a barreira e seu funcionamento pertinente.",
+      "depois": "a barreira e o que ela faz naquela situação.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "o que deseja fazer. Se já existe um meio na ficha ou nas ações comuns, use-o.",
+      "depois": "o que deseja fazer. Se a ficha ou as ações comuns já permitem isso, use esse meio.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "A personagem é a hospedeira que divide o corpo com outra presença.",
+      "depois": "A personagem divide o próprio corpo com outra presença.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "como as cenas respeitam a modalidade escolhida.",
+      "depois": "como essa convivência funciona pela opção escolhida na ficha.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "Essa distinção pode ficar clara no acordo, sem interromper cada conversa com uma conferência de ficha.",
+      "depois": "Combinem o que a relação permite na história e o que precisa de uma regra, sem interromper cada conversa para conferir a ficha.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "os cuidados pertinentes à ficha.",
+      "depois": "os cuidados de que a ficha precisa.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "Uma história pode acompanhar seu contexto, acontecer em paralelo ou adotar mudanças combinadas.",
+      "depois": "A história pode acontecer no mesmo contexto da obra, acompanhar outro grupo na mesma época ou adotar mudanças combinadas.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "antes": "Os aprofundamentos com revelações da trama ficam separados em Inspirações da obra.",
+      "depois": "Os aprofundamentos com revelações da trama ficam separados em [Inspirações da obra](<../../07 - Edicao de Leitura/aprofundamentos/casos-da-obra-com-revelacoes.html>).",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "antes": "## 3.1 O preparo necessário",
+      "depois": "<span id=\"31-o-preparo-necessario\"></span>\n\n## 3.1 O que preparar",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "antes": "Se houver perigo, prepare sua resolução: fichas, efeitos, sinais de risco e meios de agir.",
+      "depois": "Se houver perigo, prepare como ele funciona: ficha, efeitos, sinais de risco e meios de agir.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "antes": "Cada começo pede um preparo: reconciliação pede pessoas e motivos; investigação, fatos e pistas; resgate, localização, perigo e meios de agir. Combine essas partes conforme precisar.",
+      "depois": "Cada começo pede um preparo: reconciliação pede pessoas e motivos; investigação, fatos e pistas; resgate, localização, perigo e meios de agir. Combine essas partes conforme precisar. [Ideias para aventuras](03a-ideias-para-aventuras.md) oferece situações, pessoas e lugares para escolher e dois exemplos de como reuni-los.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "antes": "Para uma informação que falta, peça uma pausa curta e escolha uma resposta coerente com o que já foi estabelecido.",
+      "depois": "Se faltar uma informação, peça uma pausa curta. Para uma dúvida de regra, consulte o Livro de Regras. Para um detalhe da situação, escolha uma resposta coerente com o que já foi estabelecido.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "antes": "comportamento; uma fraqueza mecânica dependeria da ficha.",
+      "depois": "comportamento; qualquer fraqueza com efeito nas regras precisa constar da ficha.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "antes": "uma penalidade universal de percepção, movimento ou influência.",
+      "depois": "a mesma penalidade em todo teste de percepção, movimento ou influência.",
+      "passagem": 1
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "um Teste de Resistência (**TR**) ou funcionar automaticamente.",
+      "depois": "um Teste de Resistência (**TR**) para resistir a um efeito ou funcionar automaticamente.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "**Leitura, Talento CE1.** Identifica",
+      "depois": "**Leitura, Talento CE1.** CE significa Categoria de Efeito. Identifica",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "**Iniciativa sorteada:**",
+      "depois": "**Ordem de iniciativa do exemplo:**",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+      "antes": "**Fundamento:** Força; Concussão;",
+      "depois": "**Montagem da técnica (para consulta):** Fundamento em Força; Concussão;",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "antes": "O primeiro exemplo ao final desenvolve essa investigação, com meios comuns e leitura energética opcional.",
+      "depois": "O primeiro exemplo ao final desenvolve essa investigação, com observação, conversas e leitura de energia opcional.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "antes": "se querem cuidar do lugar. Localizar energia não prova a causa do dano.",
+      "depois": "se querem cuidar do lugar.",
+      "passagem": 2
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+      "antes": "Cada exemplo adota seu próprio estado inicial; esta combinação não depende de jogar a investigação anterior.",
+      "depois": "Os dois exemplos são independentes; cada um tem seu estado inicial.",
+      "passagem": 2
+    }
+  ],
+  "nova_abertura": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+  "limite": "Ajustes editoriais; custos, números e condições mecânicas devem permanecer."
+}

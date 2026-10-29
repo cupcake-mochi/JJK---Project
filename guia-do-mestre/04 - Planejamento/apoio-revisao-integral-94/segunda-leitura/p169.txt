@@ -1,0 +1,38 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Exemplo: do contato à recuperação
+Este registro usa resultados escolhidos para demonstrar a regra. Rina, humana com 40 PV máximos e
+atuais, Vigor +3 e nenhuma Sequela, não possui proteção aplicável. A situação é fictícia; o dia 1 não
+corresponde a uma data real de missão.
+Horário
+Acontecimento e estado
+Dia 1, 08h
+Rina toca o casulo sem luva. Tira 8 + 3 = 11: falha em CD 14. Registra início
+às 08h, primeira crise às 14h, término máximo no dia 3 às 08h.
+Dia 1, 08h10
+A equipe usa pinça e caixa. O casulo fica contido, sem exposição nova. Rina
+continua afetada.
+Dia 1, 14h
+Na primeira crise, tira 7 + 3 = 10. Os d6 mostram 3 e 4: perde 7 PV, ficando
+com 33, e recebe Envenenado. Não havia Concentração ou vida temporária.
+Fim do primeiro turno
+organizado após a crise
+Rina tira 12 + 3 = 15 e encerra Envenenado. Mantém 33 PV; a doença
+continua, com próxima crise às 20h.
+Dia 1, 15h-17h
+Já na enfermaria, um profissional com Medicina +5 conclui duas horas de
+atendimento. Tira 6 + 5 = 11: falha. Não causa dano extra. Nova tentativa só
+pode começar às 23h.
+Dia 1, 20h
+Rina tira 13 + 3 = 16. Evita dano e condição; registra o primeiro sucesso
+consecutivo.
+Dia 1, 23h até dia 2, 01h
+A segunda tentativa consome mais duas horas. Resultado 10 + 5 = 15:
+sucesso. A doença termina às 01h. Não há teste às 02h, que seria a próxima
+crise.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+169

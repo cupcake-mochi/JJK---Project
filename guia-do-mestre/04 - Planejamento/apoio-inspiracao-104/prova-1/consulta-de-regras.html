@@ -1,0 +1,334 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Regras para os exemplos | Ciclo Maldito</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'IDEIAS PARA AVENTURAS';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · AMOSTRA DE LEITURA';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    
+    figure{margin:18px 0;break-inside:avoid}figcaption{font-size:15px;line-height:1.4;color:#6f5867;margin-top:8px}.colunas .cartao h3{margin-top:0}
+    @media print{.cartao{break-inside:avoid;margin:0 0 9pt}.cartao h3{margin-top:8pt}.mapa-canal{column-span:all;margin:9pt 0;break-inside:avoid}.mapa-canal img{width:100%;max-height:98mm;object-fit:contain}figcaption{font-size:8.8pt;line-height:11pt;margin-top:5pt}.colunas h2{font-size:18pt}.colunas h3{font-size:12.5pt}}
+    main{max-width:900px;background:white;padding:30px}h4{font-family:Bree,serif;font-size:22px}h5{font-size:19px}body{background:white}</style></head><body><main><p><a href="ideias-para-aventuras.html">Voltar às ideias</a></p><h1>Livro de Regras 1.0</h1><p>Trechos da base, sem reescrita. Os horários, as pessoas e as condições do canal são preparo local dos exemplos.</p><ul><li><a href="#regra-1">Testes</a></li><li><a href="#regra-2">Ajudar</a></li><li><a href="#regra-3">Terreno, escalada e natação</a></li><li><a href="#regra-4">Saltos</a></li><li><a href="#regra-5">Carga</a></li><li><a href="#regra-6">Percepção de energia</a></li></ul><section class="consulta-regra" id="regra-1"><h4>Testes</h4>
+<p>Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela descrição.</p>
+<blockquote>
+<p><strong>Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.</strong></p>
+</blockquote>
+<p>O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras próprias de acerto e crítico.</p>
+<h5>Dificuldade</h5>
+<p>Tarefas comuns e conhecimento sem nível próprio usam a coluna <strong>CD fixa</strong> da tabela abaixo. Uma fechadura não fica mais difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a dificuldade ou a forma de calculá-la.</p>
+<table>
+<thead>
+<tr>
+<th>Dificuldade</th>
+<th>CD fixa</th>
+<th>Ajuste à CD do criador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fácil</td>
+<td>6</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>10</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Difícil</td>
+<td>14</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Muito difícil</td>
+<td>18</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Extrema</td>
+<td>22</td>
+<td>Não definido nesta escala.</td>
+</tr>
+<tr>
+<td>Quase impossível</td>
+<td>26</td>
+<td>+6</td>
+</tr>
+</tbody>
+</table>
+<p>Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Para uma avaliação geral de algo com nível, calcule <strong>8 + atributo do criador + maestria do criador</strong>. São os valores de quem criou o efeito, e não de quem faz o teste. O mestre classifica a dificuldade da tarefa e aplica o ajuste da última coluna a essa base, em vez de usar a CD fixa. Assim, uma tarefa fácil ligada a um criador poderoso pode ter uma CD maior que a de uma tarefa fácil comum. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.</p>
+<p>Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se um efeito já fornece sua CD, use-a.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é <strong>8 + 4 + 2 = 14</strong>. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será <strong>16</strong>.</p>
+</blockquote>
+<h5>Sucesso e falha</h5>
+<p>Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pericias -->
+<p><a id="geral--pericias"></a></p></section><section class="consulta-regra" id="regra-2"><h4>Ajudar</h4>
+<p><strong>Ação Padrão.</strong> Escolha um aliado e a tentativa em que vai ajudá-lo. Descreva uma contribuição possível naquela situação. No próximo teste correspondente, ele terá vantagem. O benefício termina no <strong>começo do seu próximo turno</strong>, se não for usado antes.</p>
+<h5>Ajudar num teste</h5>
+<p>Você precisa alcançar o que vai manipular ou conseguir se comunicar de modo útil. Pode segurar a escada enquanto alguém sobe ou orientar a leitura de um mecanismo que conhece. Torcer pelo aliado não basta.</p>
+<p>A ajuda precisa ser possível para quem a oferece. Se ela exigir um ofício, ferramenta, idioma ou sentido, cumpra esse requisito. Não é necessário ter o mesmo treino do aliado para uma contribuição diferente: segurar uma lanterna pode ser útil sem saber abrir a fechadura.</p>
+<p>Fora de combate, a contribuição acompanha uma tentativa concreta. Não guarde a vantagem para outra sala ou uma tarefa futura depois de abandonar a ajuda.</p>
+<h5>Ajudar num ataque</h5>
+<p>Escolha um inimigo <strong>ao seu alcance corpo a corpo</strong> e um aliado. Você distrai ou pressiona esse inimigo, concedendo vantagem ao próximo ataque do aliado contra ele dentro do prazo. Precisa poder agir e alcançar o inimigo, que deve perceber sua intervenção. Isso não causa dano nem exige que o aliado esteja ao seu lado.</p>
+<p>A ajuda se consome na rolagem escolhida, acertando ou errando. Se o aliado atacar outro alvo, conserve o benefício para o inimigo indicado até o prazo acabar.</p>
+<p><strong>Um ajudante por teste ou ataque.</strong> Várias ajudas não acumulam vantagens. Ajudar não permite um Teste de Resistência adicional nem dá vantagem a ele por padrão.</p>
+<p><strong>Exemplo.</strong> Rina se aproxima do vigia e usa Ajudar, pressionando-o com a arma para abrir espaço a Kaito. O próximo ataque de Kaito contra esse vigia tem vantagem antes do próximo turno de Rina. Ela gastou sua Padrão, sem realizar um ataque próprio.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#interacao -->
+<p><a id="geral--interacao"></a></p></section><section class="consulta-regra" id="regra-3"><h4>Terreno, escalada e natação</h4>
+<p>Uma passagem firme e livre usa o custo normal. Lama espessa, entulho ou vegetação fechada podem tornar o trecho difícil. O mestre informa isso antes de você escolher o percurso.</p>
+<table>
+<thead>
+<tr>
+<th>Travessia de 1,5 m</th>
+<th>Movimento consumido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Caminhar em terreno regular</td>
+<td>1,5 m</td>
+</tr>
+<tr>
+<td>Caminhar em terreno difícil</td>
+<td>3 m</td>
+</tr>
+<tr>
+<td>Escalar ou nadar</td>
+<td>3 m</td>
+</tr>
+<tr>
+<td>Escalar ou nadar em terreno difícil</td>
+<td>4,5 m</td>
+</tr>
+</tbody>
+</table>
+<p>Ter deslocamento de escalada ou natação elimina o custo adicional daquela modalidade: <strong>1,5 m</strong> em trecho regular ou <strong>3 m</strong> em trecho difícil. Se vários obstáculos tornarem o mesmo trecho difícil, aplique esse custo apenas uma vez.</p>
+<p>Escalar exige uma superfície que ofereça apoios utilizáveis. Nadar não permite respirar debaixo d'água. Uma escada firme ou água tranquila dispensa teste; uma superfície escorregadia ou correnteza pode exigir <strong>Atletismo</strong>, contra a dificuldade do ambiente. Antes da rolagem, o mestre informa o risco da falha. Uma rolagem resolve o obstáculo descrito. Não faça um novo teste a cada quadrado.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.</p>
+</blockquote>
+<p>Movimento especial segue o custo e os limites da fonte que o concedeu.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#espacos -->
+<p><a id="geral--espacos"></a></p></section><section class="consulta-regra" id="regra-4"><h4>Saltos</h4>
+<p>Escolha o destino e confira o movimento. Saltos dentro da sua capacidade, entre apoios firmes e sem obstáculos, <strong>dispensam teste</strong>.</p>
+<h5>Distância e impulso</h5>
+<p>Tome <strong>impulso</strong> percorrendo <strong>3 m</strong> sem parar antes de saltar. Esse percurso consome movimento. Movimento imposto por outra criatura não fornece impulso.</p>
+<p>Com impulso, seu salto horizontal alcança até <strong>3 m + 1,5 m por ponto de Força</strong>. Sem impulso, alcança metade disso, arredondada para baixo em múltiplos de 1,5 m.</p>
+<table>
+<thead>
+<tr>
+<th>Força</th>
+<th>Com impulso</th>
+<th>Sem impulso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>3 m</td>
+<td>1,5 m</td>
+</tr>
+<tr>
+<td>1</td>
+<td>4,5 m</td>
+<td>1,5 m</td>
+</tr>
+<tr>
+<td>2</td>
+<td>6 m</td>
+<td>3 m</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7,5 m</td>
+<td>3 m</td>
+</tr>
+<tr>
+<td>4</td>
+<td>9 m</td>
+<td>4,5 m</td>
+</tr>
+<tr>
+<td>5</td>
+<td>10,5 m</td>
+<td>4,5 m</td>
+</tr>
+<tr>
+<td>6</td>
+<td>12 m</td>
+<td>6 m</td>
+</tr>
+</tbody>
+</table>
+<p>Para um salto <strong>para cima</strong>, conte a subida dos pés: com impulso, você supera até <strong>1,5 m</strong>, ou <strong>3 m se tiver Força 5 ou 6</strong>. Sem impulso, Força 5 ou 6 permite subir 1,5 m; com Força menor, superar esse desnível exige o esforço descrito abaixo. Pequenos saltos no mesmo piso não exigem teste.</p>
+<p>Avanço e subida precisam caber <strong>nos dois limites</strong>. Pague a distância horizontal ou a subida, <strong>a que for maior</strong>, com movimento disponível antes de saltar. O teste não custa outra ação. Correr fornece metros, sem ampliar o salto. Saltar para baixo também segue as regras de <a href="#geral--quedas">Quedas e movimento imposto</a>.</p>
+<p>Saltar dentro de terreno difícil <strong>mantém o custo dobrado</strong>. Você só ignora um obstáculo no chão se o ultrapassar inteiro e aterrissar em piso regular. Obstáculos que alcancem o percurso pelo ar continuam valendo.</p>
+<h5>Esforço e obstáculos</h5>
+<p>Você pode tentar alcançar <strong>mais 1,5 m</strong>, na horizontal ou na subida, com <strong>Atletismo CD 14</strong>. Essa extensão vale uma vez por salto, em apenas um dos eixos. Distâncias maiores dependem de uma habilidade que as permita.</p>
+<p>Piso escorregadio ou outro risco pode exigir teste mesmo na distância normal. Havendo esforço e risco juntos, role uma vez contra a maior CD. Antes da tentativa, o mestre anuncia a CD e a consequência combinada, incluindo onde você termina; ela substitui a falha simples abaixo.</p>
+<p>Falhar apenas no esforço leva você até sua distância normal no eixo escolhido: aterrisse se houver apoio, ou caia. Gaste o movimento reservado para a tentativa. No salto vertical parado sem distância automática, a falha mantém você na partida. Riscos do terreno seguem a consequência anunciada.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Rina tem Força 1 e 9 m de movimento. Ela percorre 3 m para tomar impulso e salta 4,5 m entre telhados no mesmo nível. Não precisa rolar e ainda tem 1,5 m para andar.</p>
+</blockquote>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#quedas -->
+<p><a id="geral--quedas"></a></p></section><section class="consulta-regra" id="regra-5"><h4>Carga</h4>
+<p>Seu limite de carga é <strong>5 + Força</strong>, medido em <strong>Volume</strong>. Essa medida considera peso, tamanho e dificuldade de transporte. Some tudo o que leva, incluindo itens vestidos ou empunhados.</p>
+<p><strong>Acima do limite e até o dobro dele, seu deslocamento cai pela metade e você tem desvantagem em TR Físico.</strong> Acima do dobro, você não pode se deslocar com a carga: reduza o que leva antes de andar, nadar, escalar ou voar. As penalidades por carga, por empunhar uma arma sem a Força exigida e por usar proteção sem a Força exigida não se multiplicam: o deslocamento cai pela metade uma única vez, e a desvantagem em TR Físico é uma só.</p>
+<table>
+<thead>
+<tr>
+<th>Força</th>
+<th>Limite em Volume</th>
+<th>Massa de um corpo sem equipamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>5</td>
+<td>60 kg.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>7</td>
+<td>84 kg.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>9</td>
+<td>108 kg.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>11</td>
+<td>132 kg.</td>
+</tr>
+</tbody>
+</table>
+<p>A coluna de massa mostra quanto você pode carregar <strong>sem penalidade de carga e sem levar equipamento</strong>. Os itens carregados reduzem a capacidade restante.</p>
+<h5>Volume dos itens</h5>
+<p>Use o valor da tabela de cada item e some sem arredondar. Oculta, Discreta, Vestida e o número de mãos não determinam Volume. <strong>Volumosa</strong> tem uma restrição de manejo própria, sem acrescentar carga.</p>
+<p>Se uma regra indicar apenas “item leve”, use 0,1 Volume; a tabela do item tem prioridade. O mestre pode dispensar objetos de carga desprezível.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> com Força 0 e 4,5 Volume ocupado, Rina pode levar mais cinco itens de 0,1, chegando a <strong>5</strong>. Um sexto elevaria a carga a <strong>5,1</strong>, acima do limite: Rina ainda pode carregá-la, com deslocamento pela metade e desvantagem em TR Físico.</p>
+</blockquote>
+<h5>Objetos sem Volume definido e criaturas</h5>
+<p>Para um objeto sem Volume, compare com outro semelhante do catálogo. Sem equivalente, o mestre define o valor pelo peso, tamanho e dificuldade de transporte, antes da tentativa.</p>
+<p>Para carregar uma criatura, <strong>divida a massa do corpo em quilogramas por 12</strong>. Some o Volume tabelado dos equipamentos dela e dos seus. Compare o total exato com o limite, sem arredondar para caber. A conversão vale somente para corpos; não recalcule equipamentos com ela. Bolsas ou itens entregues à criatura carregada não reduzem a soma.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> Mei tem Força 2, limite 7, e leva 2 Volume. Um aliado de 60 kg ocupa <strong>5 Volume</strong>, mais 1 de equipamento. A carga total seria <strong>8</strong>: Mei pode carregá-lo com deslocamento pela metade e desvantagem em TR Físico. Redistribuir pelo menos 1 elimina a penalidade por carga.</p>
+</blockquote>
+<h5>Erguer</h5>
+<p>Você pode levantar até <strong>o dobro do limite de carga</strong>. Acima do limite normal, pode caminhar carregando o excesso com as penalidades descritas em Carga. Para deslocá-lo pelo chão, consulte <strong>Arrastar e transportar</strong>.</p>
+<p>Carga não concede arremesso, dano ou ataque. Caber no limite também não dispensa requisitos de Força do equipamento ou da habilidade usada.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#arrasto -->
+<p><a id="geral--arrasto"></a></p></section><section class="consulta-regra" id="regra-6"><h3>Percepção de energia</h3>
+<p>Uma fonte de energia pode ajudar a encontrar uma criatura, um objeto ou sinais de uma passagem anterior. Antes do teste, diga o que procura: <strong>localizar uma presença, compreender algo observável ou seguir vestígios</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Sua intenção</th>
+<th>Procedimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encontrar uma fonte próxima</td>
+<td><a href="#geral--buscar">Vasculhar com Sentir Energia</a>.</td>
+</tr>
+<tr>
+<td>Compreender o fluxo que você observa</td>
+<td><a href="#geral--ler">Examinar energia e vestígios</a>.</td>
+</tr>
+<tr>
+<td>Investigar sinais percebidos de longe</td>
+<td><a href="#geral--pressao">Sinais de energia no ambiente</a>.</td>
+</tr>
+<tr>
+<td>Reconstruir acontecimentos ou seguir uma pista</td>
+<td>Investigação ou Sobrevivência, conforme a tarefa.</td>
+</tr>
+</tbody>
+</table>
+<h4>Fonte e portador</h4>
+<p>Encontrar a energia de um objeto não significa encontrar quem o carregava. Uma caixa vazia pode conservar vestígios. Uma ferramenta abandonada continua sendo uma fonte, sem revelar o espaço do antigo dono.</p>
+<p>Confira separadamente o corpo, a carga e os sinais acessíveis. A ausência de energia de uma criatura não apaga a energia dos itens que leva. Um equipamento ou capacidade que suprima essa emissão precisa declarar o efeito.</p>
+<h4>Limites da leitura</h4>
+<p>Sentir Energia não fornece visão, identidade ou conhecimento completo de uma técnica. A informação depende do procedimento usado e daquilo que chega ao personagem. Uma leitura pode orientar a próxima ação sem permitir ver o alvo ou atacar através de um obstáculo.</p>
+<p>A reserva de PE também não mede a presença de energia no ambiente. Gastar o último PE não torna automaticamente um feiticeiro indetectável. A descrição do mundo e as exceções de cada personagem estão em seus capítulos próprios.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#buscar -->
+<p><a id="geral--buscar"></a></p>
+<h4>Vasculhar com Sentir Energia</h4>
+<p>Na sala tomada por fumaça, você procura a energia do feiticeiro que se escondeu entre as mesas. Encontrá-la pode indicar onde atacar. Para acompanhar seus gestos ou reconhecer seu rosto, ainda precisa de visão ou de uma habilidade apropriada.</p>
+<p><strong>Ação Padrão, sem custo em PE.</strong> Declare o trecho que vai examinar, como a sala, o corredor à frente ou a parte de baixo da escada. A busca alcança fontes de energia a <strong>até 18 m de você</strong>, medidos em linha reta, dentro do trecho declarado. Não precisa enxergar a fonte nem encontrar antes uma pista mundana.</p>
+<p>Escuridão, fumaça e invisibilidade não bloqueiam esta busca. Um obstáculo sólido que esconda completamente a fonte, como parede, porta fechada ou compartimento rígido fechado, impede obter sua posição exata. A busca não contorna uma esquina para alcançar outra sala. Cobertura que deixe a fonte parcialmente exposta não impede a tentativa.</p>
+<p>Roupa, bainha, mochila e estojo de equipamento carregado, mesmo rígido, não contam como divisórias do ambiente nem apagam a energia da carga. A carga pode denunciar o espaço de quem a leva, sem revelar qual item emite energia. Guardar algo que deixa de emanar energia exige uma permissão específica que suprima sua emissão.</p>
+<h5>Resolva a busca</h5>
+<p>Role <strong>d20 + seu bônus completo de Sentir Energia</strong>, incluindo Essência, treino, especialização e modificadores aplicáveis. Compare uma única rolagem à <strong>Furtividade guardada</strong> de cada criatura oculta alcançada pela busca. Empatar basta para localizar sua energia.</p>
+<p>Furtividade representa também a dificuldade de distinguir aquela presença escondida. Não faça um segundo teste de supressão, não some Refino à CD e não refaça a Furtividade só porque alguém procurou. Um efeito que realmente impeça detectar a fonte conserva essa proteção.</p>
+<p>Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem <strong>depois de gastar a ação</strong>. Se houver interferência, o mestre anuncia sua dificuldade antes do dado. Para uma fonte também oculta, compare a mesma rolagem à <strong>maior entre a CD da interferência e a Furtividade</strong>, sem somá-las. Se nenhum sinal for encontrado, isso não comprova que o lugar esteja vazio.</p>
+<h5>Resultados</h5>
+<p>Você conhece o <strong>espaço atual da fonte</strong> e pode indicá-lo a um aliado. Se ela for uma criatura ou algo que a criatura carrega, encontrar esse sinal encerra a ocultação dela em relação a você. Um resíduo abandonado localiza apenas o vestígio: não revela seu antigo portador. A busca não fornece visão, identidade, grau, valores da ficha ou conhecimento da técnica.</p>
+<p>A leitura desta ação é <strong>instantânea</strong>: não acompanha movimentos futuros, mesmo dentro dos 18 m. Você conserva a última posição conhecida. Para atualizá-la, precisa de outra busca, de outros sinais percebidos normalmente ou de uma habilidade de acompanhamento. Isso não concede uma nova rolagem de Esconder nem apaga o que acabou de observar.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pressao -->
+<p><a id="geral--pressao"></a></p>
+<h4>Sinais de energia no ambiente</h4>
+<p>Uma presença pode ser sentida antes de ser vista: uma pressão que toma o prédio, um pulso vindo do subsolo, resíduos na porta. O mestre descreve o sinal que chegou aos personagens. Ele pode informar que há energia ou dar uma pista de onde procurá-la; isso não revela automaticamente uma criatura e seu espaço.</p>
+<h5>Sinais da cena</h5>
+<p>Quando uma manifestação puder ser percebida além de um obstáculo ou dos 18 m da busca local, a cena deve indicar <strong>qual sinal chega, de onde pode ser percebido e o que ele revela</strong>. Aplique a mesma informação a observadores em condições equivalentes. Não trate toda criatura com energia como se estivesse produzindo esse aviso.</p>
+<p>Uma manifestação evidente é percebida sem teste. Para distinguir um sinal incerto, use Sentir Energia e a dificuldade adequada ao exame; em combate, essa busca custa uma Ação Padrão. O mestre informa antes da rolagem se é possível apenas confirmar o sinal ou também obter outra pista. Sem sinal acessível, não há teste para descobrir o que está atrás da parede.</p>
+<p>A pista permanece a mesma enquanto sua fonte e as condições não mudarem. Andar ao redor do prédio e repetir a pergunta não basta para obter direções novas e determinar a posição exata da fonte. Pistas independentes podem ser cruzadas por Investigação; abrir um acesso ou mudar de posição pode permitir uma busca local legítima.</p>
+<blockquote>
+<p><strong>Exemplo:</strong> a preparação da missão estabelece que pulsos saem do porão e são perceptíveis na escadaria. Distingui-los é difícil, CD 14. Kaori obtém 11 e não consegue separar o pulso do restante da energia. Um sucesso identifica a pista do porão; não informa quantas criaturas estão lá nem os espaços que ocupam.</p>
+</blockquote>
+<h5>Nova tentativa</h5>
+<p>Uma nova busca segue <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--procurar">Vasculhar</a>: custa outra Ação Padrão em combate; fora dele, exige nova abordagem, informação ou consequência pelo tempo gasto. Uma tentativa incapaz de alcançar a informação precisa de outra solução.</p>
+<h5>Alvos sem energia</h5>
+<p>Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, conforme seus próprios textos.</p>
+<p>Quem não tem acesso à perícia mantém essa limitação. Uma permissão para substituir a perícia conserva a ação, o alcance e os limites do exame, salvo exceção expressa. Ela não fornece energia ao personagem.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#ler -->
+<p><a id="geral--ler"></a></p>
+<h4>Examinar energia e vestígios</h4>
+<p>Uma presença na sala, uma marca deixada ontem e a técnica que está sendo usada agora pedem perguntas diferentes. Escolha a tarefa antes da rolagem.</p>
+<h5>Estudar uma fonte</h5>
+<p>Use <strong><a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--estudar">Estudar</a></strong>, com Ação Padrão em combate, para examinar uma criatura ou objeto observável. Conhecer somente seu espaço pela busca energética não basta. Faça uma pergunta sobre o que a energia está mostrando.</p>
+<p>Sentir Energia pode revelar o que o fluxo atual mostra: concentração num membro, energia sustentando um efeito, oscilação ou desgaste perceptível. Não determina a próxima decisão do adversário. “Está reunindo energia no braço” não significa “vai atacar Rina na próxima ação”. A resposta também não concede Reação, interrupção, bônus ou dano adicionais.</p>
+<p>A dificuldade segue <a href="../apoio-carregador/fontes/LIVRO-COMPLETO-R53.md#geral--estudar">Estudar</a>. Sentir Energia não fornece automaticamente grau ou reserva exata de PE: uma leitura especial precisa de uma regra que a conceda.</p>
+<h5>Vestígios</h5>
+<p>Um resíduo pode permanecer num objeto depois que seu portador saiu. Encontrá-lo não confirma que essa pessoa esteja por perto, nem encerra a ocultação dela. Sentir Energia pode distinguir um resíduo acessível que esteja sendo examinado, sem fornecer automaticamente sua idade ou autor. Para reconstruir o ocorrido, use a perícia pertinente; para seguir a trilha, use Sobrevivência. Uma única tentativa resolve a tarefa anunciada: não exija sempre detectar, investigar e rastrear em três rolagens obrigatórias.</p>
+<p>Uma assinatura só pode ser comparada quando você já tiver uma referência confiável, e o exame ainda depende do sinal disponível. Isso não revela um nome desconhecido. Uma capacidade que altere a assinatura funciona conforme seu texto.</p>
+<p>Uma capacidade de seguir vestígios, apagar rastros ou marcar uma criatura tem seu próprio procedimento. Apagar sinais da passagem não remove uma marca aplicada por outro efeito. Rastrear pistas de uma cena pode abranger um percurso maior que a busca local de 18 m, mas não revela um espaço sem evidência que o determine.</p>
+<!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#energia-exemplo -->
+<p><a id="geral--energia-exemplo"></a></p>
+<h4>Busca numa sala escura</h4>
+<p>Rina usa sua Ação Padrão para examinar a sala escura. Seu Sentir Energia é +6 e ela tira 10 no d20: <strong>total 16</strong>.</p>
+<p>Há duas criaturas ocultas em trechos acessíveis, a 9 m e 15 m, com Furtividade 16 e 19. Rina localiza a primeira e a segunda continua oculta. Uma terceira está a 6 m, atrás de uma porta fechada: a busca não informa seu espaço, qualquer que seja o resultado.</p>
+<h5>Usar a descoberta</h5>
+<p>Rina indica o primeiro espaço a Kaori. Kaori pode tentar um ataque que dispense visão, se o alcance e a trajetória permitirem. Ainda terá desvantagem por não enxergar o alvo. Uma exigência de visão da habilidade continua valendo.</p>
+<p>Se a criatura se mover em silêncio depois da busca, Rina conserva a última posição conhecida. O resultado não acompanha o movimento. Ela precisa de novos sinais ou de outra busca para atualizar a posição.</p>
+<h5>Carga e resíduos</h5>
+<p>Um combatente sem energia segura uma ferramenta amaldiçoada. A busca pode localizar a carga e, por ela, o espaço do portador. Isso não identifica sua natureza. Se estiver oculto, sua Furtividade também vale para a carga. Uma mochila comum não apaga a emissão.</p>
+<p>Se a ferramenta tiver sido deixada no chão, o sinal indica apenas a ferramenta. O antigo portador pode estar em outro lugar. Um vestígio abandonado funciona do mesmo modo: serve como pista, sem revelar automaticamente quem passou ou sua posição atual.</p>
+<h5>Barreiras</h5>
+<p>Uma barreira conserva apenas os bloqueios que seu efeito estabelece. Impedir visão, passagem física e leitura energética são funções diferentes. A busca não ganha passagem por uma barreira que bloqueie seus sinais, e uma leitura bem-sucedida não abre passagem para o ataque.</p>
+<p>Uma proteção contra técnicas de localização não impede automaticamente uma busca comum por perícia. Confira o alcance da proteção antes de resolver o teste.</p>
+<p><a id="capitulo-3"></a></p></section></main></body></html>

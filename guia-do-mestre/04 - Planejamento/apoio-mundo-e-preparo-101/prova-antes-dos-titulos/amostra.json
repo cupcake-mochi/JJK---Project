@@ -1,0 +1,20 @@
+{
+  "registro": 101,
+  "fontes": [
+    {
+      "caminho": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+      "sha256": "f7513a27832dadb3c0ca6ffe80d829cf23631edd47542307ca177b602d7571a4",
+      "palavras": 2447
+    },
+    {
+      "caminho": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+      "sha256": "8617aa6d6b3ea95113e503a6a7891c5a8b38f4b63ef0fa941c72d855fb1dd846",
+      "palavras": 2496
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-primeira-missao-100/capitulo-1.html",
+  "estilo_base_sha256": "f9a51e8645d785590f445db51852246874990f60683c54ba2ca0f225d7d3dcd2",
+  "pdf": "04 - Planejamento/apoio-mundo-e-preparo-101/output/pdf/Ciclo-Maldito-Mundo-e-Preparo-Amostra.pdf",
+  "pdf_sha256": "ecd83de8995e13c25e7536c613cda2e1eb2f47e5a9618381032f4c86d777e1ca",
+  "estado": "amostra isolada; etapa 3 em andamento; não integrada às 357 páginas anteriores"
+}

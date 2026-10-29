@@ -1,6 +1,6 @@
-# Tempo, materiais e retomada de entidades
+# Tempo e materiais para criar entidades
 
-Use esta seção para preparar um projeto de **criação de entidade**. Ela desenvolve a decisão de tempo e materiais que a R53 entrega ao mestre. Aquisição, Classe, ficha, teste e conclusão continuam pelos procedimentos de [Aquisição e projetos de entidades](43-aquisicao-e-projetos-de-entidades.md).
+Use esta seção para preparar um projeto de **criação de entidade**. Ela desenvolve a decisão de tempo e materiais que o Livro de Regras 1.0 entrega ao mestre. Aquisição, Classe, ficha, teste e conclusão seguem as regras de [Obter e criar entidades](43-aquisicao-e-projetos-de-entidades.md).
 
 ## Comece com uma referência comum
 
@@ -20,7 +20,7 @@ A tabela é uma referência de projetos do Guia. O tempo cobre o trabalho normal
 
 A referência atende um talismã ou corpo usual. Um projeto que exige uma estrutura incomum pode precisar de trabalho adicional: explique qual tarefa será feita e registre sua dedicação antes do início. Descrever pintura, personalidade ou aparência não aumenta o prazo por si. Uma peça comprada pronta também não precisa ser fabricada outra vez; o projeto deve identificar o trabalho que ainda falta.
 
-A tabela não cobra trabalho de uma entidade adquirida por espaço conhecido, lista de ritual ou doma. Essas formas seguem seus próprios procedimentos. Reconstrução para subir de Classe, transferência, reparo de vida e retorno após uma queda são operações diferentes; seus projetos precisam identificar o trabalho correspondente, sem usar automaticamente o prazo de criação integral. As referências específicas estão em [Reconstruir, transferir e herdar entidades](46-reconstruir-transferir-e-herdar-entidades.md).
+A tabela não cobra trabalho de uma entidade adquirida por espaço conhecido, lista de ritual ou doma. Essas formas seguem suas próprias regras. Reconstrução para subir de Classe, transferência, reparo de vida e retorno após uma queda são operações diferentes; seus projetos precisam identificar o trabalho correspondente, sem usar automaticamente o prazo de criação integral. As referências específicas estão em [Reconstruir, transferir e herdar entidades](46-reconstruir-transferir-e-herdar-entidades.md).
 
 ## Registre horas, apresente etapas
 
@@ -34,7 +34,7 @@ A guilda recomenda 28 horas por ficha a cada ciclo de sete dias, com o saldo pre
 
 Uma espera fica separada. Se a peça chega em dois dias, isso não consome automaticamente oito horas de dedicação. O personagem pode fazer outro trabalho compatível enquanto aguarda. Também precisa dispor de tempo na história para executar o projeto depois da entrega.
 
-## Orce materiais antes do trabalho
+## Calcule os materiais antes de começar
 
 Separe o que fica, o que é consumido e o que permite trabalhar.
 
@@ -50,7 +50,7 @@ Um material especial pode estar disponível por compra, estoque institucional, c
 
 Receber o material por doação ou já possuí-lo evita comprar novamente aquela peça. Isso não dispensa os outros requisitos. Ferramentas reutilizáveis não são consumidas a cada tentativa, e material caro não concede poderes além da ficha aprovada.
 
-## Dê consequência à falha
+## O que acontece na falha
 
 **Como referência, uma nova tentativa exige metade do trabalho inicial da operação que falhou**, arredondada para cima em horas inteiras, com mínimo de uma hora. Preserve as partes aproveitáveis e reponha os consumíveis anunciados no projeto.
 
@@ -58,13 +58,13 @@ Uma criação de 32 horas exige dezesseis horas de retrabalho após uma falha. S
 
 Use o total de dedicação aprovado para aquela operação, incluindo ajustes de trabalho que tenham sido explicitados. Esperas não entram nessa divisão. Uma nova tentativa pode exigir esperar a entrega de um consumível que acabou, mas não repete uma espera cuja condição já foi cumprida.
 
-Depois de atender ao retrabalho e aos requisitos, o mestre autoriza a tentativa seguinte, **com a vantagem prevista na R53**. Trocar o responsável, apresentar outro ajudante ou mudar de mestre não permite rolar de novo sem cumprir o que falta.
+Depois de atender ao retrabalho e aos requisitos, o mestre autoriza a tentativa seguinte, **com a vantagem prevista no Livro de Regras 1.0**. Trocar o responsável, apresentar outro ajudante ou mudar de mestre não permite rolar de novo sem cumprir o que falta.
 
-Não destruir automaticamente toda a estrutura nem tornar a entidade hostil apenas porque o teste falhou. Se o processo tiver um risco específico, ele precisa estar compreendido antes do investimento, respeitando o resultado e os limites da R53.
+Não destrua automaticamente toda a estrutura nem torne a entidade hostil apenas porque o teste falhou. Se o processo tiver um risco específico, ele precisa estar compreendido antes do investimento, respeitando o resultado e os limites do Livro de Regras 1.0.
 
 ## Quando o mestre quiser detalhar mais
 
-O procedimento pode dar mais espaço ao processo de criação. Acrescente as informações que tornem uma escolha relevante: origem de um material, fornecedor, qualidade necessária, tarefa de cada participante, oficina, secagem ou sequência de montagem.
+Você pode explorar o processo de criação com mais detalhes. Acrescente as informações que tornem uma escolha relevante: origem de um material, fornecedor, qualidade necessária, tarefa de cada participante, oficina, secagem ou sequência de montagem.
 
 Detalhar não precisa aumentar o total. Dividir um projeto de 32 horas em etapas conserva suas 32 horas. Para cobrar mais, identifique trabalho adicional. Etapas também não geram novos testes de criação por si; um obstáculo distinto usa sua regra pertinente.
 
@@ -72,17 +72,17 @@ O mestre pode definir **outro retrabalho pelas etapas do projeto**, em vez da re
 
 Na guilda, registre o motivo das diferenças entre projetos. Modelos simples ajudam a resolver trabalhos recorrentes; a opção detalhada atende casos que pedem escolhas próprias. Quem recebe um projeto de outro mestre continua do acordo registrado. Se uma circunstância mudar, explique o impedimento e as alternativas antes de cobrar trabalho adicional.
 
-## Ajuda é dedicação de outra pessoa
+## Trabalhar com ajuda
 
-Para conceder vantagem nos testes de criação, reconstrução ou transferência por ajuda, a R53 exige treino no ofício compatível, permissão do mestre e o mesmo tempo de dedicação de quem conduz o trabalho.
+Para conceder vantagem nos testes de criação, reconstrução ou transferência por ajuda, o Livro de Regras 1.0 exige treino no ofício compatível, permissão do mestre e o mesmo tempo de dedicação de quem conduz o trabalho.
 
 Rina trabalha 32 horas; Mei acompanha as mesmas 32 para ajudar. Cada uma registra 32 horas. A ajuda melhora a chance, mas não divide automaticamente o prazo em dezesseis para cada uma. Isso também vale quando as duas fichas pertencem ao mesmo jogador.
 
 Na retomada de dezesseis horas, quem fornece ajuda por essa via dedica as mesmas dezesseis. A vantagem da tentativa posterior à falha já vem da regra própria e não exige outro ajudante. Participantes necessários ao processo continuam necessários, mesmo que não seja preciso obter outra fonte de vantagem.
 
-## Exemplo: uma criação com falha e retomada
+## Exemplo: falhar e tentar de novo
 
-Este caso demonstra trabalho, materiais e teste. A ficha completa e sua continuidade estão em [Fabricar e evoluir o Vigia do depósito](55-fabricar-e-evoluir-o-vigia-do-deposito.md). Mantenha essa ficha junto do projeto para executar o caso.
+Este caso demonstra trabalho, materiais e teste. A ficha completa e sua continuidade estão em [Fabricar e evoluir o Vigia do depósito](55-fabricar-e-evoluir-o-vigia-do-deposito.md). Mantenha essa ficha junto do projeto para usar o exemplo.
 
 Rina, de nível 13 e Classe 4, tem Caligrafia treinada, Destreza 4 e Maestria 2. Ela cria um talismã de Classe 3 para Kaito, de nível 9 e Classe 3. A ficha foi conferida antes do projeto; seus sentidos e habilidades já estão definidos. O nome “vigia de depósito” não concede capacidades extras.
 

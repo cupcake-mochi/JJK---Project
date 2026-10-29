@@ -1,0 +1,77 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+Parte
+Conferência prática
+Valores
+Vida, energia, Integridade quando houver, Defesa, deslocamento, carga e
+demais limites com suas exceções
+Equipamento
+Origem dos itens, escolhas do uniforme e Traje, compras, ferramentas,
+munição e locais de armazenamento
+Na criação padrão, o valor de atributo já é o bônus
+quando a regra pede esse atributo. 3 + 2 + 2 + 1 + 1 =
+9 é uma distribuição válida de pontos; não há outra
+conversão desses números em modificadores.
+Um treino livre deve ser justificado pela história.
+Essa justificativa escolhe o que representa o
+aprendizado dentro das vagas recebidas; não
+adiciona treinos além delas. Na troca da Origem
+que converte dois Ofícios em uma perícia livre,
+registre que ambos os Ofícios deixaram de ser
+recebidos.
+Confira as particularidades da Origem. O Corpo
+Amaldiçoado registra o Ofício compatível com sua
+estrutura. A Restrição Celestial precisa do ramo e,
+quando aplicável, de seus cuidados. Uma história
+com características de várias Origens continua
+usando uma única combinação de regras.
+Deixe as capacidades prontas para
+usar
+Uma capacidade precisa informar quando pode ser
+usada, o que gasta e o que acontece. Inclua ação,
+alvo, alcance, efeito, duração e forma de
+encerramento quando forem pertinentes. Anote o
+nome da seção do Livro de Regras 1.0 para
+consultar detalhes.
+Peça ao jogador que descreva um uso possível e um
+limite da capacidade. Isso mostra se a ficha explica
+como usá-la, sem transformar a conferência numa
+prova de memória.
+Exemplo: uma aplicação pode puxar um objeto. O
+jogador mostra o alcance, os alvos permitidos, a
+execução e o efeito. Depois, confiram por que ela
+não permite mover uma criatura se essa permissão
+não existe na montagem. A técnica ter um tema de
+fios não resolve sozinha as duas situações.
+Se faltar um campo necessário, completem antes de
+usar a capacidade. Para um poder próprio,
+registrem o efeito e sua avaliação pela regra
+correspondente. O mestre não precisa decidir seu
+alcance no momento em que alguém já depende do
+resultado.
+Corrija o que for necessário
+Quando encontrar uma diferença, identifique sua
+causa antes de reescrever a ficha.
+Situação
+O que fazer
+Erro de transcrição
+Conferir a fonte e corrigir o campo; revisar os valores que
+dependem dele
+Escolha ainda não registrada
+Conversar com o jogador e usar a permissão de criação ou
+atualização aplicável
+Uso de revisão antiga
+Comparar a mudança, corrigir o que ficou inválido e registrar a
+revisão usada
+Poder ou benefício novo
+Desenvolver e avaliar antes de adotar; não tratar como simples
+correção
+Mudança de interpretação ou relação
+Registrar a história; conferir se alguma escolha mecânica foi
+realmente afetada
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+172

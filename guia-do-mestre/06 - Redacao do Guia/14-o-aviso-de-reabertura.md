@@ -1,18 +1,18 @@
 # O aviso de reabertura
 
-Ana recebe um anúncio de uma atividade no anexo do centro cultural, embora ainda o mantenha fechado. Ela quer descobrir de onde veio a informação e evitar que as pessoas cheguem contando com um espaço indisponível.
+Ana recebe um anúncio de uma atividade no anexo do centro cultural, embora ainda o mantenha fechado. Ela quer descobrir de onde veio a informação e evitar que as pessoas cheguem esperando usar o espaço fechado.
 
-Este é um exemplo original de investigação sem confronto previsto. Demonstra o procedimento de [preparar uma investigação](13-preparar-uma-investigacao.md), com fatos, fontes, alternativas e consequências. A solução pode ser alcançada numa conversa curta; a preparação permite aprofundar a situação se os jogadores quiserem.
+Este é um exemplo original de investigação sem confronto previsto. Mostra como [preparar uma investigação](13-preparar-uma-investigacao.md), com fatos, fontes, alternativas e consequências. A solução pode ser alcançada numa conversa curta; a preparação permite aprofundar a situação se os jogadores quiserem.
 
-## Ponto de partida
+## Antes da missão
 
-**Continuidade escolhida para este exemplo:** numa versão de As batidas no anexo, o grupo conferiu os funcionários, afastou as pessoas e encaminhou a ocorrência a Mina. A criatura permaneceu no depósito. Não houve combate, feridos ou posterior confirmação de liberação. Na manhã seguinte, surge o anúncio de reabertura.
+**O que aconteceu antes:** numa versão de As batidas no anexo, o grupo conferiu os funcionários, afastou as pessoas e encaminhou a ocorrência a Mina. A criatura permaneceu no depósito. Não houve combate, feridos ou posterior confirmação de liberação. Na manhã seguinte, surge o anúncio de reabertura.
 
-Esse ponto de partida não define o resultado obrigatório do piloto. Se a mesa tiver neutralizado a ameaça ou recebido outra confirmação, atualize a situação antes de usar o exemplo. Não restaure uma criatura derrotada para preservar esta trama.
+Essa é uma das formas de terminar a missão anterior. Se a mesa tiver neutralizado a ameaça ou recebido outra confirmação, atualize a situação antes de usar o exemplo. Não restaure uma criatura derrotada para preservar esta trama.
 
 **Situação inicial:** são 11h. Uma oficina cultural está marcada para as 17h. O convite digital, publicado às 10h, diz “Anexo reaberto — oficina às 17h”. Há também três cópias impressas: recepção, cantina e quadro da entrada da rua. Ana ainda não conversou com todos os responsáveis.
 
-**Objetivo apresentado:** conferir a informação sobre a reabertura e combinar uma comunicação correta aos participantes. Descobrir quem produziu o anúncio ajuda a corrigir o problema; decidir onde a oficina poderá acontecer é uma questão relacionada.
+**Objetivo:** conferir a informação sobre a reabertura e avisar os participantes sobre o que realmente aconteceu. Descobrir quem produziu o anúncio ajuda a corrigir o problema; decidir onde a oficina poderá acontecer é uma questão relacionada.
 
 ## O que aconteceu
 
@@ -22,9 +22,9 @@ Esse ponto de partida não define o resultado obrigatório do piloto. Se a mesa 
 4. Ciro montou o convite com o local pedido. Recebeu de Lúcia a frase “já podemos anunciar a volta ao anexo”, sem um documento de liberação. Não verificou a diferença entre o encaminhamento e a conclusão.
 5. Às 10h, Ciro publicou o convite e colocou as três cópias. Ana viu o aviso às 11h e pediu ajuda antes de começar a receber o público.
 
-Não houve falsificação de uma vistoria, invasão de arquivo ou plano secreto para expor pessoas. Os envolvidos fizeram interpretações e verificações insuficientes. Conhecer esses fatos permite responder mesmo se o grupo suspeitar de outra causa.
+Não houve falsificação de uma vistoria, invasão de arquivo ou plano secreto para expor pessoas. Houve um mal-entendido, e ninguém conferiu a informação antes de publicar. Conhecer esses fatos permite responder mesmo se o grupo suspeitar de outra causa.
 
-## Pessoas e acesso
+## Pessoas e lugares
 
 As pessoas abaixo colaboram com perguntas sobre o que fizeram e com a apresentação de suas próprias mensagens. Lúcia pode discordar da mudança de local da oficina; isso não a obriga a esconder a origem do aviso.
 
@@ -39,24 +39,24 @@ A recepção e a sala de coordenação ficam no prédio principal e são acessí
 
 Depois do encaminhamento, Ana trancou os acessos ao anexo. Ele continua sem público no interior. As portas são comuns, sem uma barreira mágica acrescentada por este caso. Ana não entrega as chaves como se o anúncio fosse uma autorização. Esta investigação não exige entrar no depósito.
 
-## Informações e caminhos
+## As pistas
 
 | Informação que orienta a decisão | Fontes preparadas | Acesso e conclusão |
 |---|---|---|
-| O encaminhamento foi recebido, mas não houve confirmação de intervenção ou liberação | Mensagem completa de Ana; ligação a Mina | Colaboração permite ler ou ouvir a informação. Confirma o estado registrado, sem vistoriar o local |
-| Lúcia pediu a divulgação com base numa interpretação equivocada | Relato de Lúcia e sua captura; pedido guardado por Ciro | Identifica a cadeia de interpretação. Não demonstra intenção de prejudicar |
+| O encaminhamento foi recebido, mas não houve confirmação de intervenção ou liberação | Mensagem completa de Ana; ligação a Mina | A mensagem pode ser lida, e Mina aceita conversar. Isso esclarece a comunicação, mas não substitui uma vistoria |
+| Lúcia pediu a divulgação com base numa interpretação equivocada | Relato de Lúcia e sua captura; pedido guardado por Ciro | Mostra como o mal-entendido começou. Não demonstra intenção de prejudicar |
 | O convite veio do canal de Ciro e foi reproduzido em três locais conhecidos | Arquivo e histórico de publicação; reconhecimento de Ciro; comparação das cópias | Permite corrigir a origem e recolher o material físico. Não garante alcançar quem já repassou a imagem |
 | Existe uma sala alternativa reservável no prédio principal | Agenda da coordenação; visita à sala com Lúcia | Confirma disponibilidade para 12 inscritos, com 12 lugares e material já armazenado no prédio principal. Não resolve o uso futuro do anexo |
 
 A agenda está legível e não há outra reserva para o horário. Lúcia tem autoridade, neste exemplo, para confirmar essa sala para a atividade. Ela prefere o anexo por ser o lugar habitual, mas pode aceitar a alternativa ao compreender o estado da ocorrência e conferir as condições.
 
-**Mensagens úteis para apresentar:**
+### Mensagens para abrir a cena
 
 > Mina para Ana: “Recebi o encaminhamento. O anexo continua sem uso enquanto não houver confirmação da intervenção. Aviso quando houver uma resposta confirmada.”
 
 > Lúcia para Ciro: “Já podemos anunciar a volta ao anexo para a oficina das 17h.”
 
-A captura que Lúcia recebeu contém apenas “Recebi o encaminhamento”. Os textos são elementos ficcionais do caso. O grupo pode compará-los diretamente, sem um teste para ler uma frase acessível.
+A captura que Lúcia recebeu contém apenas “Recebi o encaminhamento”. Essas mensagens fazem parte da história do exemplo. O grupo pode compará-las diretamente, sem um teste para ler uma frase acessível.
 
 ## Abertura
 
@@ -66,17 +66,17 @@ A captura que Lúcia recebeu contém apenas “Recebi o encaminhamento”. Os te
 >
 > Ela tem o contato de Mina e aponta a porta da coordenação, onde estão Lúcia e Ciro. O que vocês querem conferir primeiro?
 
-O pedido oferece documentos, contatos e uma pergunta reconhecível. O grupo pode escolher qualquer uma dessas fontes; a ordem não altera o que aconteceu.
+O pedido mostra uma dúvida clara e indica quem procurar para respondê-la. O grupo pode escolher qualquer uma dessas fontes; a ordem não altera o que aconteceu.
 
-## Como resolver as tentativas
+## Conversas e testes
 
-Ler as mensagens oferecidas e fazer perguntas colaborativas pode ser resolvido pela descrição. Não é preciso testar para cada pessoa confirmar o que escreveu. Uma ligação a Mina pode esclarecer a principal dúvida imediatamente.
+Resolva pela conversa a leitura das mensagens e as perguntas que as pessoas aceitam responder. Não é preciso testar para cada pessoa confirmar o que escreveu. Uma ligação a Mina pode esclarecer a principal dúvida imediatamente.
 
-Se surgir uma tentativa incerta com consequência, use o procedimento pertinente da R53. Antes de resolver uma pressão, pedido ou exame, esclareça o resultado desejado e o meio. Não trate uma capacidade informativa como forma automática de ler intenções, acessar contas ou revelar toda a conversa que ocorreu longe do personagem.
+Se surgir uma tentativa incerta com consequência, use a regra adequada do Livro de Regras 1.0. Antes de pedir um teste, confira o que o jogador quer conseguir e como pretende fazer isso. Não trate uma habilidade que revela informações como forma automática de ler intenções, acessar contas ou revelar toda a conversa que ocorreu longe do personagem.
 
 Não há agressor ou perigo físico novo preparado para esta investigação. A ameaça do anexo, caso o grupo decida intervir nela, continua sendo o Amontoado do [preparo completo anterior](03-as-batidas-no-anexo-consulta.md), com sua [ficha experimental](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>). Antes dessa mudança de objetivo, confira as fichas reais e as condições atuais para o confronto. O anúncio não aumenta os poderes da criatura nem abre uma nova fase de combate.
 
-## Caminhos possíveis
+## O que os jogadores podem fazer
 
 **Telefonar primeiro a Mina.** Ela esclarece que recebeu o encaminhamento, sem confirmação de intervenção. O grupo já pode informar o erro a Ana. Investigar como o aviso surgiu ainda pode ajudar a corrigir sua circulação; não é uma condição para aceitar a resposta da ligação.
 
@@ -84,13 +84,13 @@ Não há agressor ou perigo físico novo preparado para esta investigação. A a
 
 **Conversar primeiro com Lúcia.** Ela mostra a captura e explica sua interpretação. Quando recebe a mensagem completa ou fala com Mina, tem informação para reconhecer o equívoco. A conversa pode passar à sala alternativa, ao adiamento ou ao cancelamento.
 
-**Suspeitar de falsificação.** O grupo pode comparar os documentos e procurar a origem do texto. As fontes continuam mostrando a cadeia real. Não acrescente um responsável secreto para recompensar uma acusação sem evidência.
+**Suspeitar de falsificação.** O grupo pode comparar os documentos e procurar a origem do texto. As pistas continuam mostrando o que aconteceu. Não acrescente um responsável secreto para recompensar uma acusação sem evidência.
 
 **Corrigir o aviso antes de esclarecer toda a origem.** Ana e Ciro podem comunicar que a indicação de reabertura está suspensa enquanto conferem a informação. A investigação pode continuar, mas essa medida já muda o que os participantes receberão pelo canal original.
 
-**Encaminhar e sair.** O grupo pode apresentar o que verificou e combinar quem acompanha a correção. Ana pode assumir a articulação com a coordenação, e Ciro a publicação. Registre o que aceitaram fazer e o que já foi concluído.
+**Encaminhar e sair.** O grupo pode apresentar o que verificou e combinar quem acompanha a correção. Ana pode conversar com a coordenação, e Ciro pode corrigir a publicação. Registre o que aceitaram fazer e o que já foi concluído.
 
-## Demora e consequências
+## Se o grupo demorar
 
 O horário da oficina é conhecido desde a abertura. Não há contagem secreta por número de rolagens. Acompanhe o tempo necessário às tentativas; uma mudança de assunto ou uma consulta curta não avança horas arbitrariamente.
 
@@ -101,13 +101,13 @@ Se nada for combinado até perto das 17h, os inscritos começarão a chegar com 
 | Mensagem esclarecida e convite corrigido | O canal original passa a informar corretamente; ainda pode haver repasses não alcançados |
 | Oficina transferida para a sala disponível | A atividade pode acontecer no prédio principal, se o combinado for executado; o anexo permanece fechado |
 | Oficina adiada ou cancelada | Há comunicação e consequências de agenda; a ameaça continua pendente |
-| Grupo somente esclarece e comunica a Ana | O resultado informativo é útil; registrar quem assume as providências restantes |
-| Grupo decide preparar intervenção na maldição | Surge outro objetivo, que exige seu preparo e conferências próprios |
+| Grupo somente esclarece e comunica a Ana | A descoberta ajuda Ana; anote quem vai cuidar do que falta |
+| Grupo decide preparar intervenção na maldição | Surge outro objetivo, que exige preparação e conferências próprias |
 
-## Fechamento e continuidade
+## Depois da investigação
 
 Registre o que foi esclarecido, quais correções realmente foram feitas e quem ficou responsável pelo restante. Uma promessa de publicar não equivale à publicação; apagar o convite original não remove cópias já enviadas a outros contatos.
 
 **Exemplo de registro, se essas ações acontecerem:** Mina confirmou que não houve intervenção registrada; Lúcia reconheceu a interpretação equivocada; Ciro corrigiu o canal original e recolheu as três cópias; a coordenação confirmou a sala alternativa. Ana continuará mantendo o anexo fechado. A ocorrência sobrenatural permanece com Mina para encaminhamento.
 
-O caso pode terminar aí. Uma continuação deve partir dos resultados reais: avaliar uma intervenção, acompanhar a comunicação ou desenvolver uma relação com as pessoas do centro. Não é necessário transformar o erro num indício de conspiração. Veja [Ligar missões e desenvolver uma campanha](15-ligar-missoes-e-campanhas.md).
+O caso pode terminar aí. Uma continuação deve partir do que aconteceu: enfrentar a maldição, conferir se o público recebeu a correção ou desenvolver uma relação com as pessoas do centro. Não é necessário transformar o erro num indício de conspiração. Veja [Das missões à campanha](15-ligar-missoes-e-campanhas.md).

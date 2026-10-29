@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+ela fica onde foi solta e a condução especial
+termina. Não se aplica uma nova condição nem há
+novo TR para uma contenção que já foi obtida.
+Montagem proposta: função de utilidade, base
+zero; Forma Toque; uma Melhoria Efeito Próprio:
+Condução urgente, Família Alcance, preço Médio =
+2 pontos, sem desconto. A devolução Leve de
+Toque recupera 1 ponto pago: 4 - 2 + 1 = 3 pontos
+sem uso. Não produzem dano, cura ou distância
+adicional. Sem Restrições. A capacidade afeta a
+entidade e seu passageiro, portanto não é
+exclusivamente pessoal.
+O preço próprio precisa ser acordado antes do uso.
+A comparação é Passo, que oferece 6 m sem
+oportunidades pelo preço Leve: esta proposta custa
+Médio por conduzir também uma pessoa, inclusive
+uma presa sob contenção anterior, e conserva
+oportunidades. O acordo cobre somente esse
+transporte definido; não autoriza aumentar alvos,
+distância ou repetir a compra livremente.
+Exemplo: com deslocamento intacto e piso regular,
+conduz uma pessoa 4,5 m usando os 9 m normais;
+depois, com o comando e os 6 PE pagos, pode
+conduzi-la mais 6 m. São 10,5 m físicos, com a
+básica comprometida. Se precisou Agarrar nesse
+ciclo, a especial deve aguardar outra oportunidade
+válida.
+Dobrar o sino
+Especial de Classe 2, 6 PE. Função de dano, Forma
+Aura de 3 m de raio, centrada na entidade; TR
+Físico CD 12 + M; 3d8 de Concussão, metade para
+cima no sucesso. Role uma vez para os alvos. Não
+há Bloquear nem crítico. A aplicação é instantânea;
+não deixa área danosa no chão.
+Primeiro turno: Padrão normal de comando do
+invocador, uma básica da entidade e 6 PE iniciam
+Carregar. Mostre a área e a carga. Ela conserva seu
+Movimento, mas mover-se também muda a futura
+origem da Aura. Cada ocorrência de dano nela
+exige seu TR Espírito, aqui +1, contra a CD de
+quem a feriu; falha perde a carga e os recursos
+pagos. Não possui Mão Firme. Dano no invocador
+não exige esse teste dela.
+Turno seguinte do invocador: a entidade libera
+sozinha, gastando outra básica disponível, sem
+novo comando e sem novo PE. Se não liberar até o
+fim desse turno, sair de campo ou cair, perde a
+carga. Não pode usar essa básica para agarrar, bater
+ou executar Condução urgente. A área é medida na
+posição da liberação; a restrição de imobilidade do
+chefe não integra esta versão.
+Na liberação, Escolher define quais criaturas
+percebidas recebem o dano; pode excluir a si e aos
+aliados. Não seleciona inimigos ocultos sem uma
+percepção válida. Em seguida, Recuo aplica Guarda
+Aberta até o fim do próximo turno do invocador,
+mesmo que ninguém tenha recebido dano. O
+agarrão mantido termina pela condição. Não
+bloqueia nem recebe acertos automáticos; ataques
+corpo a corpo com arma ou desarmados que
+acertem causam crítico. A exposição dura mais que
+a da ficha do confronto.
+Montagem: 4 pontos iniciais; base de dano zero;
+Aura custa Leve, 1 ponto; Escolher custa Médio 2,
+reduzido a 1 pela Família Área Livre. Carregar é
+Restrição Média e Recuo com Guarda Aberta é
+Leve. Há duas Restrições e uma Melhoria. Das
+devoluções nominais 2 + 1, aproveita somente 1, o
+gasto em Melhoria. A conta é 4 - 1 - 1 + 1 = 3d8. A
+devolução não paga a Forma. As Restrições
+permanecem obrigatórias mesmo sem aproveitar
+toda a devolução.
+A ficha da entidade usa as regras de especial do
+Livro de Regras 1.0; não mantém o uso corporal
+gratuito da ficha inimiga. O preço comum é 6 PE.
+Se o estágio de Integridade aplicável aumentar o
+custo por Classe, uma especial de Classe 2 passa a 8
+PE. Confira também o teto de Classe reduzido do
+estágio 3: esta ficha não tem uma versão de Classe 1
+preparada e não a inventa durante o uso.
+Recuperar e comandar o Sineiro
+Conserve os recursos atuais, limitados aos novos
+máximos; zero continua zero. Se a aquisição
+ocorrer a 0 PV e com Integridade cheia, fica em
+0/38 PV e 19/19 de Integridade. Se a Integridade
+estiver zero, precisa voltar a pelo menos 1 antes do
+retorno.
+Sem permissão de recolhimento, permanece no
+mundo; caída, fica Desligada no local. Com os
+requisitos satisfeitos, religar custa Bônus e 2 PE,
+no lugar do corpo, e devolve 19/38 PV, sem
+recuperar Integridade ou criar básica. Quando
+houver permissão de manifestação comum, a
+entrada de Classe máxima 2 custa Bônus e 2 PE,
+não oferece básica naquele ciclo e exige outra
+Bônus para a primeira tarefa. São ações diferentes,
+ainda que os custos coincidam neste nível.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+140

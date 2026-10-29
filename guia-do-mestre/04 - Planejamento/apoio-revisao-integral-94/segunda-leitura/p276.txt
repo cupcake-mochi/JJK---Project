@@ -1,0 +1,68 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Dano direto recebido a partir de
+8 PV
+Excedente
+Resultado pela ficha de encontro
+12
+4
+Queda sem destruição.
+32
+24
+Queda sem destruição: igualar metade do máximo não
+é superar.
+33
+25
+Destruição: excedente maior que 24.
+48
+40
+Destruição: a ocorrência também alcançou a vida
+máxima.
+Dano em área pode derrubar, mas não destrói por
+si. Isso não torna inofensivos os efeitos que
+continuam atingindo uma criatura caída:
+acompanhe o excedente e os danos posteriores
+pelas regras de Queda e destruição. Não altere o
+tipo de uma aplicação depois de conhecer seus
+dados.
+A submissão
+Com a maldição derrotada e o confronto encerrado,
+Nara declara a tentativa. Quem rola é a maldição:
+d20 + Espírito 1 contra CD 12 de Nara. É um Teste
+de Resistência, não uma disputa de dados nem um
+teste de Ofício.
+A derrota não substitui o TR exigido pela doma por
+uma falha automática. Confira modificadores que
+efetivamente se apliquem. Estar ferida, por si só,
+não dá desvantagem nem reduz Espírito.
+Dado e total da maldição
+Resultado
+10 no dado + 1 = 11
+Falha no TR: Nara obtém a maldição.
+11 no dado + 1 = 12
+Sucesso no TR: a maldição é exorcizada.
+Total maior que 12
+Também é exorcizada.
+Essas linhas são resultados alternativos da mesma
+tentativa. Não role as três nem repita até conseguir
+a falha. Se a maldição resistiu, outro integrante não
+recebe uma tentativa sobre a criatura já exorcizada.
+Se foi destruída antes, não há alvo para essa
+submissão.
+A ajuda do grupo na luta não concede
+automaticamente vantagem a Nara nem
+desvantagem ao TR da maldição. Uma capacidade
+que modifique o teste precisa realmente alcançá-lo
+e cumprir seus requisitos. A vantagem de nova
+tentativa após falhar na fabricação de entidades não
+pertence à doma.
+Depois de conseguir domar
+Neste exemplo, o resultado foi 11: a maldição
+falhou. Registre Nara como invocadora e aplique a
+ficha de entidade conhecida antes da tentativa.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+276

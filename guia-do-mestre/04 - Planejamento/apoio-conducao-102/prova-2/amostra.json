@@ -1,0 +1,104 @@
+{
+  "registro": 102,
+  "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+  "fonte_sha256": "1f43f1e634fa9aaec8ca3472e6790d81a138b02b13dbccf650db92365921e344",
+  "palavras_markdown": 3887,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Testes",
+      "id": "regra-1",
+      "ancora_original": "geral--testes",
+      "inicio_linha": 151,
+      "fim_linha": 183
+    },
+    {
+      "titulo": "Testes de grupo",
+      "id": "regra-2",
+      "ancora_original": null,
+      "inicio_linha": 212,
+      "fim_linha": 217
+    },
+    {
+      "titulo": "Iniciativa",
+      "id": "regra-3",
+      "ancora_original": null,
+      "inicio_linha": 257,
+      "fim_linha": 262
+    },
+    {
+      "titulo": "Recursos do turno",
+      "id": "regra-4",
+      "ancora_original": null,
+      "inicio_linha": 263,
+      "fim_linha": 273
+    },
+    {
+      "titulo": "Ajudar",
+      "id": "regra-5",
+      "ancora_original": "geral--ajudar",
+      "inicio_linha": 323,
+      "fim_linha": 346
+    },
+    {
+      "titulo": "Influenciar",
+      "id": "regra-6",
+      "ancora_original": null,
+      "inicio_linha": 365,
+      "fim_linha": 372
+    },
+    {
+      "titulo": "Reações e ataques de oportunidade",
+      "id": "regra-7",
+      "ancora_original": "geral--oportunidade",
+      "inicio_linha": 409,
+      "fim_linha": 432
+    },
+    {
+      "titulo": "Vasculhar",
+      "id": "regra-8",
+      "ancora_original": "geral--procurar",
+      "inicio_linha": 1116,
+      "fim_linha": 1140
+    },
+    {
+      "titulo": "Vasculhar com Sentir Energia",
+      "id": "regra-9",
+      "ancora_original": "geral--buscar",
+      "inicio_linha": 1231,
+      "fim_linha": 1256
+    },
+    {
+      "titulo": "Estudar",
+      "id": "regra-10",
+      "ancora_original": "geral--estudar",
+      "inicio_linha": 1171,
+      "fim_linha": 1205
+    },
+    {
+      "titulo": "Vida a zero",
+      "id": "regra-11",
+      "ancora_original": "dano--zero",
+      "inicio_linha": 1663,
+      "fim_linha": 1829
+    },
+    {
+      "titulo": "Descansos",
+      "id": "regra-12",
+      "ancora_original": "dano--descansos",
+      "inicio_linha": 1830,
+      "fim_linha": 1941
+    },
+    {
+      "titulo": "Mestrar uma sessão",
+      "id": "regra-13",
+      "ancora_original": "consulta--consulta-conduzir",
+      "inicio_linha": 14770,
+      "fim_linha": 14796
+    }
+  ],
+  "pdf": "04 - Planejamento/apoio-conducao-102/output/pdf/Ciclo-Maldito-Na-Mesa-de-Jogo-Amostra.pdf",
+  "pdf_sha256": "d2ba3fd914c0978bbfc73414da50e9fdd4c0b241afb551d59458d3b2fbfcae9f",
+  "limite": "Amostra isolada. Etapa 3 em andamento; PDF integrado anterior preservado."
+}

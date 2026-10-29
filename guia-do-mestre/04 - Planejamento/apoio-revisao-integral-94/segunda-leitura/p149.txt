@@ -1,0 +1,90 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Termina depois da tentativa, acertando ou errando.
+Não favorece dano, TR ou Bloquear.
+• 3 de vida temporária, sujeitos ao teto e à regra de
+reservas do Livro de Regras 1.0. Não se somam à
+reserva anterior; compare com o que resta e
+mantenha o maior valor. O restante dura até o fim
+da cena.
+Montagem: Projétil, zero; base Leve de vida
+temporária individual, um; Impulso, um; saldo de
+um ponto convertido em três de vida temporária.
+Impulso sozinho não exige base Média. A base é
+paga aqui pela vida temporária. Os dois benefícios
+são independentes após a concessão: gastar
+Impulso não apaga a vida temporária restante.
+Não exige Concentração ou manutenção. Sair dos 9
+m depois de receber o benefício não o encerra.
+Impedir novas conjurações de Sora não apaga
+retroativamente o que já foi concedido; acompanhe
+os prazos próprios. Várias fontes de vantagem não
+geram três dados nem mais de um ataque.
+Remendo
+Classe 2, Padrão, 6 PE. Cura individual automática
+de 4d8, para um aliado disposto e compatível,
+visível a até 9 m, inclusive Sora. Orçamento: seis
+pontos, menos dois da base Média de cura,
+deixando quatro dados, dentro do teto individual.
+Não concede vida temporária, remove condições ou
+recupera Integridade/PE. É cura de sua técnica pelo
+Amparo; não concede a aptidão Energia Reversa. A
+escolha da dupla é usar Remendo em si ou no
+parceiro ainda ativo, com vida positiva e até
+metade da máxima. Isso é escolha de
+comportamento, não uma limitação nova da cura
+geral.
+Prioridades e escolhas
+Com ambos aptos a agir e sem ferimentos
+prioritários, Sora oferece Fio a Ren. Havendo um
+dos dois com vida positiva até metade da máxima,
+prefere Remendo nesse aliado; se ambos estiverem
+nessa faixa, prioriza quem tem a menor proporção
+de vida, com preferência por si em empate. Precisa
+alcançar o alvo e pagar o efeito.
+Ela só tem uma Padrão. Curar toma o lugar de
+conceder Fio naquele turno. Se não puder pagar
+Remendo, pode oferecer Fio para proteger
+parcialmente, procurar abrigo, usar Ajudar quando
+seus requisitos existirem ou se retirar. Não
+transforma a Padrão restante em energia
+recuperada.
+12 PE permitem quatro Fios, dois Remendos ou
+dois Fios e um Remendo, antes de outras despesas.
+Um Fio, um Cobrir-se e um Remendo gastam 11
+PE: sobra 1, insuficiente para outra dessas
+capacidades. Até essa pequena proteção pode
+consumir a energia que faria falta depois.
+Se tiver de atacar fisicamente, usa um golpe
+desarmado a 1,5 m: +1, 1d4 + 1d4 de Concussão,
+crítico 2d4 + 1d4, antes de Kokusen. Pode trocar
+seu único ataque por manobra comum, CD 9, com
+os requisitos correspondentes. Agarrar exigiria
+largar ou guardar o estojo ou usar a mão direita
+livre. Essa ofensiva é uma saída limitada; sua
+função principal depende de Ren.
+Integridade, derrota e continuidade
+Estágio
+Ren, máximo 36
+Sora, máximo 24
+0
+36-28
+24-19
+1
+27-19
+18-13
+2
+18-10
+12-7
+3
+9-1
+6-1
+4
+0
+0
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+149

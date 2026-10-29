@@ -1,0 +1,78 @@
+{
+  "registro": 109,
+  "pdf": "04 - Planejamento/apoio-pactos-entidades-109/output/pdf/Ciclo-Maldito-Pactos-e-Entidades-Amostra.pdf",
+  "pdf_sha256": "df2891c327bbd6b7eec7494e435761b89c2c51743ae59125fbbf6503c3016026",
+  "fonte_sha256": "bf13951410c7c16fe1e9988ef7761bdcd1de09c9c732f7d98188cf8ade9d9d99",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Conferência da redação com os textos centrais 41/43/45/46, trechos de 48–50 e regras pertinentes; leitura das seis páginas da primeira prova.",
+      "resultado": "Método e decisões preservados; identificados régua dividida entre colunas, tabela de aquisição estreita, aviso sobre dedicação partido e vazios antes de tabelas."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Pente fino de clareza, requisitos, contas e remissões; leitura das seis páginas finais.",
+      "ajustes": "Vagas explicadas diretamente; régua em tabela; aquisição em duas colunas; células da tabela de horas compactadas; aviso semanal inteiro; alvo de Condução explicitamente visto e de posição atual conhecida."
+    }
+  ],
+  "alteracoes_mecanicas": false,
+  "contas_conferidas": 23,
+  "linhas_de_tempo_comparadas": 7,
+  "trechos_de_regras_conferidos": 18,
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-1.png",
+      "imagem_sha256": "80be6d8f8f69c99d6d2f71cf2e1aca3c75f2058aabc391dda337080a900c0901",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Abertura, formas e preço à esquerda; régua de ganhos inteira à direita, com seu texto introdutório. Vagas e exemplo da janela de Reação legíveis. As duas tabelas não se partem; fim de parágrafo respeitado."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-2.png",
+      "imagem_sha256": "acc87d7fc76d12833b0fc668eaed043c4b23a8ece22557bd5e515902aebfeb4d",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Método e Mostrar a mão à esquerda. Overtime conserva números e sua continuidade; o aviso de dedicação semanal fica inteiro à direita. Pacifismo distingue impedimento, obrigação e ganho, com referência à ficha completa. Sem título isolado."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-3.png",
+      "imagem_sha256": "7ee7ea114469a6e73ee0febc4b79f5d211bb98a8c0422999b856e75bdb5e9406",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Liberação irregular e Promessas em fluxo contínuo. Refluxo, termos, quebra e reparação legíveis. A abertura de Obter uma entidade aparece com explicação suficiente, sem o grande vazio da primeira prova."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-4.png",
+      "imagem_sha256": "b08799968a6878c4758c5a4691a944488f5b12618cb268c09c09b8ca2d7f8103",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Aquisição em duas colunas de tabela, com permissão e evolução na mesma célula. Ritual e doma com remissões legíveis. Tabela de horas inteira ao lado da introdução; células mais compactas, mesma fonte; sem vazio excessivo antes da tabela."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-5.png",
+      "imagem_sha256": "5b2f15232443aa2a8f780db5efdd8aaa25b7928dba43919d99aa491b54beeb15",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Materiais, teste e matriz de ajustes à esquerda. CD e fórmulas do Vigia inteiras à direita; projeto, falha, custo e entrega com estado legíveis. Evolução começa com espaço suficiente e preserva as contas de passagens."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-pactos-entidades-109/visual-final/p-6.png",
+      "imagem_sha256": "577a1c470d5196ac1865a5208215c6555b454349dae866d80125ac654048e2cf",
+      "inspecionada": true,
+      "metodo": "Imagem final aberta e inspecionada individualmente após a última composição",
+      "observacao": "Transferência e continuidade em duas colunas. Requisitos, estados e referência ao projeto completos. Tabela do destino após morte inteira e encerramento legível; espaço abaixo do fecho é de fim de capítulo, sem página residual."
+    }
+  ],
+  "limites": [
+    "Amostra isolada; integração e revisão global ainda pendentes.",
+    "Pactos experimentais exigem seus textos completos; nenhum benefício foi reaberto ou rebalanceado.",
+    "Treinamentos, dedicação e decisão 87 preservados.",
+    "Sem sessão humana, leitura externa ou comprovação de equilíbrio."
+  ]
+}

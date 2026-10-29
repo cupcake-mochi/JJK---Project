@@ -1,0 +1,104 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+consequências registradas na ficha do Livro de
+Regras 1.0.
+Avaliação de uma mudança. “Quero que continue
+aberta durante combate e atravesse barreiras” muda
+dois limites centrais da referência. O custo Pesado
+do exemplo não aprova essa alteração. Conserve a
+versão publicada ou prepare outra proposta,
+explicitando o que mudou e por que a comparação
+anterior já não basta.
+Para uma retirada durante combate, consulte
+Retirada de Emergência, também publicada. Ela
+move até seis aliados dispostos, dentro de seus
+requisitos, por percursos de até 18 m. Não oferece o
+mesmo transporte entre endereços. Um caminho
+bloqueado, uma criatura sem movimento ou uma
+contenção continuam importando. Escolha a
+referência pelo problema que ela resolve.
+Recarga opcional
+O caminho recomendado para começar é o uso
+padrão de uma Máxima por cena. O Livro de Regras
+1.0 permite ao mestre autorizar outro uso depois de
+três rodadas, sem contar a rodada da utilização.
+Usada na rodada 1, pode voltar na rodada 5 se essa
+opção tiver sido autorizada e houver recursos.
+Registre a escolha antes de ela precisar ser aplicada.
+Na guilda, siga o alcance de decisão combinado
+entre os mestres. A recarga é uma opção já prevista
+no Livro de Regras 1.0; apresentá-la não equivale a
+adotá-la automaticamente para todas as mesas.
+Domínio: aparência, Acerto e
+Efeito
+Separe três partes ao ler a proposta. A aparência
+mostra o lugar. O Acerto é a aplicação que o
+domínio produz na abertura e durante sua
+permanência. O Efeito é a capacidade específica
+utilizável enquanto ele permanece.
+Uma galeria cheia de espelhos não ganha cobertura
+e armas só pela descrição. Um tribunal não torna
+toda acusação verdadeira. O Acerto pode causar
+dano, transmitir informação delimitada ou
+estabelecer uma regra de ambiente. A descrição do
+Efeito precisa explicar como ele funciona, com
+ação, custos, alvos e limites.
+No Acerto de dano, use a conta própria: 3 × maior
+Classe, menos o preço Médio de Inescapável, com
+o desconto de Família Livre quando aplicável. O
+restante vira d8. O Acerto é a aplicação inteira; não
+compre outra peça para acrescentar uma condição
+ao mesmo Acerto.
+A Completa tem Acerto garantido, sem ataque, TR
+ou crítico, ignorando Redução de Dano, resistência
+e imunidade. A Incompleta usa a resolução
+registrada como um feitiço. As defesas específicas
+contra domínio precisam ser consultadas: proteger
+contra Acerto garantido não neutraliza
+automaticamente o Efeito ou o Acerto rolado da
+Incompleta.
+Exemplo: Galeria de Vidro
+Use Galeria de Vidro, exemplo do Livro de Regras
+1.0, para acompanhar a avaliação. No nível 14, Yuri
+tem maior Classe 4, refino 5 e Expansão Completa,
+que ocupa três espaços no total. A ficha usa preço
+normal para o Acerto: 12 - 4 = 8d8. Abrir custa
+Ação Completa, Selo e 24 PE; o raio é 7,5 m.
+O Acerto atinge criaturas com energia na área,
+exceto Yuri, incluindo aliados. O Efeito permite
+proteger uma criatura disposta mantendo uma mão
+em contato com ela. Precisa haver contato
+fisicamente possível; a mão fica ocupada. A
+proteção acaba quando o contato termina e não
+remove dano anterior. A ficha não poupa objetos ou
+aliados em geral por preferência do usuário.
+Na abertura, uma aliada em contato está protegida.
+Um segundo aliado com energia, dentro da galeria
+e sem outra defesa aplicável, recebe o Acerto.
+Perguntar “quem você considera inimigo?” não
+substitui a regra de alvos registrada.
+Com refino 5, conte dois turnos seguintes de Yuri.
+Há um Acerto na abertura e outro no começo de
+cada um desses turnos. O domínio termina ao fim
+do segundo. Se uma criatura receber todos, são três
+aplicações de 8d8, e não um único dano de 24d8.
+Estados, defesas e posições podem mudar entre
+elas.
+Enquanto dentro do domínio, os feitiços de Yuri
+com custo positivo recebem o desconto próprio de
+2 PE. Isso não paga aptidões nem a abertura. A
+barreira tem 100 PV pelo exterior, segundo a regra
+específica; não use essa vida como defesa interna
+improvisada.
+Ao terminar, aplique Rescaldo: pelo restante da
+cena, a Técnica Inata fica indisponível, com a
+exceção dos feitiços de Classe 0. Uma permissão
+específica de recuperação segue seus custos.
+Encerrar voluntariamente não devolve o PE da
+abertura nem elimina Rescaldo.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+197

@@ -1,0 +1,89 @@
+CICLO MALDITO / GUIA DO MESTRE
+ENTRE MISSÕES
+missão A, seu efeito é usado e depois ela muda de
+portador: continua sendo uma única missão
+consumida. Ao encerrar A, resta uma. Na missão B,
+fica guardada sem oferecer benefício e conserva
+essa missão. Na missão C, o efeito é usado:
+funciona até o fim de C, dentro de sua frequência.
+Depois disso, esgota.
+Defina antes da entrega se a peça vira item comum
+ou se quebra ao esgotar. Não faça sua perda
+depender de uma regra anunciada apenas no último
+uso. Sessões adicionais dentro da mesma missão
+não consomem novas missões de Desgaste.
+Preparar um objeto perigoso
+Objetos amaldiçoados possuem efeitos próprios.
+Eles não recebem automaticamente o catálogo de
+ferramentas. Para uma missão de guarda, escolta ou
+contenção, prepare:
+Campo
+Informação necessária
+Objeto e recipiente
+O que será transportado, seu Volume e os cuidados físicos.
+Efeito ou perigo
+O que acontece, em quais condições e como pode ser percebido.
+Selo
+Duração e alcance definidos para aquele objeto; sinais de perda da
+proteção.
+Conhecimento disponível
+Quem conhece o perigo e quais registros podem ser consultados.
+Entrega
+Pessoa autorizada a receber e local adequado.
+Intervenção
+O que examinar, remover ou destruir realmente permite e exige.
+Um objeto sem selo atrai maldições para suas
+proximidades, mas o Livro de Regras 1.0 não
+fornece distância ou frequência universal de
+encontros. Defina a situação com base no objeto,
+lugar e maldições presentes. Uma caixa comum não
+substitui o selo.
+Um objeto preparado como amuleto pode usar um
+selo para afastar maldições. A proteção enfraquece;
+seus limites precisam ser definidos. Ela não
+concede imunidade a ataques nem proíbe
+automaticamente qualquer aproximação.
+Caso de transporte. O responsável informa que o
+selo resistirá até a entrega prevista e explica o
+cuidado necessário para mantê-lo. Os jogadores
+podem decidir investigar o conteúdo. Se retirar o
+selo encerra aquela proteção, esse risco conhecido
+deve estar claro antes da escolha. Abrir um
+recipiente não significa retirar o selo, salvo se a
+preparação do objeto tiver estabelecido essa
+relação.
+Ingerir um objeto desconhecido não concede
+automaticamente poderes, nova Origem ou
+controle da presença contida. Se essa possibilidade
+estiver no cenário, prepare suas consequências e
+comunique os riscos acessíveis à personagem. Uma
+alteração da ficha deve respeitar o acordo e as
+regras pertinentes; a ingestão não substitui esse
+processo.
+Destruir o recipiente e destruir o objeto também
+são coisas distintas. Condições próprias de
+destruição precisam constar da preparação. Não
+use as regras de quebrar um item comum como
+solução automática para qualquer objeto
+amaldiçoado.
+A Pastilha do Último Aviso (p. 228) é uma
+preparação experimental completa: alcance e prazo
+locais, aviso de risco, renovação, ingestão e
+neutralização. Suas consequências e formas de
+encerramento são conhecidas antes da escolha.
+8.5 · Uma ferramenta nova:
+Anel de Testemunho
+Use este caso para preparar a ficha de uma
+ferramenta, descobrir seu funcionamento e
+contratar sua fabricação. Anel de Testemunho é
+um exemplo experimental do Guia. Seu efeito,
+grau proposto, receita, orçamento e prazos
+pertencem a este projeto. O Livro de Regras 1.0
+fornece as regras de equipamento e fabricação
+usadas para avaliá-lo.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+222

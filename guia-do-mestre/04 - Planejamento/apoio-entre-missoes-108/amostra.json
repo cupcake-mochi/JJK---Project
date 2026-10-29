@@ -1,0 +1,136 @@
+{
+  "registro": 108,
+  "fonte": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+  "fonte_sha256": "60f064d3ebbd61070d247c82cfa62e1897b0066a82b9addb9b174218b36818cd",
+  "palavras_markdown": 4339,
+  "livro_de_regras": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "livro_de_regras_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "consultas": [
+    {
+      "titulo": "Descansos",
+      "id": "regra-1",
+      "inicio_linha": 1830,
+      "fim_linha": 1941
+    },
+    {
+      "titulo": "Ofícios",
+      "id": "regra-2",
+      "inicio_linha": 7296,
+      "fim_linha": 7331
+    },
+    {
+      "titulo": "Fabricação",
+      "id": "regra-3",
+      "inicio_linha": 7332,
+      "fim_linha": 7367
+    },
+    {
+      "titulo": "Reparos",
+      "id": "regra-4",
+      "inicio_linha": 7368,
+      "fim_linha": 7396
+    },
+    {
+      "titulo": "Equipamento restrito",
+      "id": "regra-5",
+      "inicio_linha": 8183,
+      "fim_linha": 8194
+    },
+    {
+      "titulo": "Equipamento inicial",
+      "id": "regra-6",
+      "inicio_linha": 8237,
+      "fim_linha": 8266
+    },
+    {
+      "titulo": "Equipamento amaldiçoado",
+      "id": "regra-7",
+      "inicio_linha": 8293,
+      "fim_linha": 8321
+    },
+    {
+      "titulo": "Graus das ferramentas",
+      "id": "regra-8",
+      "inicio_linha": 8322,
+      "fim_linha": 8355
+    },
+    {
+      "titulo": "Itens em uso",
+      "id": "regra-9",
+      "inicio_linha": 8356,
+      "fim_linha": 8387
+    },
+    {
+      "titulo": "Aquisição e criação",
+      "id": "regra-10",
+      "inicio_linha": 8388,
+      "fim_linha": 8417
+    },
+    {
+      "titulo": "Desgaste",
+      "id": "regra-11",
+      "inicio_linha": 8588,
+      "fim_linha": 8622
+    },
+    {
+      "titulo": "Objetos amaldiçoados",
+      "id": "regra-12",
+      "inicio_linha": 8623,
+      "fim_linha": 8649
+    },
+    {
+      "titulo": "Experiência e Progressão",
+      "id": "regra-13",
+      "inicio_linha": 8654,
+      "fim_linha": 8673
+    },
+    {
+      "titulo": "Recompensas e custos",
+      "id": "regra-14",
+      "inicio_linha": 8674,
+      "fim_linha": 8707
+    },
+    {
+      "titulo": "Experiência semanal",
+      "id": "regra-15",
+      "inicio_linha": 8708,
+      "fim_linha": 8731
+    },
+    {
+      "titulo": "Limiar do nível 20",
+      "id": "regra-16",
+      "inicio_linha": 8732,
+      "fim_linha": 8753
+    },
+    {
+      "titulo": "Recompensas da guilda",
+      "id": "regra-17",
+      "inicio_linha": 8932,
+      "fim_linha": 8959
+    },
+    {
+      "titulo": "Patentes",
+      "id": "regra-18",
+      "inicio_linha": 8960,
+      "fim_linha": 8972
+    },
+    {
+      "titulo": "Cofre da Família",
+      "id": "regra-19",
+      "inicio_linha": 2583,
+      "fim_linha": 2588
+    },
+    {
+      "titulo": "Palavra Empenhada",
+      "id": "regra-20",
+      "inicio_linha": 2629,
+      "fim_linha": 2634
+    }
+  ],
+  "estilo_base": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_base_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "pdf": "04 - Planejamento/apoio-entre-missoes-108/output/pdf/Ciclo-Maldito-Entre-Missoes-Amostra.pdf",
+  "pdf_sha256": "213f0ad5168e6af39c4a353b0295edc8c0ce9ba8087d9976a46b271c7ad2b647",
+  "paginas": 7,
+  "limite": "Capítulo reorganizado sem nova regra de treinamento, criação de poderes ou progressão. Exemplos próprios mantêm sua identificação e as decisões existentes foram preservadas."
+}

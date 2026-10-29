@@ -1,0 +1,63 @@
+{
+  "registro": 116,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-116/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa-Revisao-Textual.pdf",
+  "pdf_sha256": "49e8d09756276aa25437f1f16fdca49376d1779c5a8b4805a8d10ddb84e37ac7",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Leitura integral das cinco folhas e do guia; revisão.",
+      "alteracoes_registradas": 32
+    },
+    {
+      "passagem": 2,
+      "escopo": "Leitura das cinco páginas da primeira prova e do guia inteiro em texto; nove ajustes relidos.",
+      "alteracoes_registradas": 9
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-116/pagina-1.png",
+      "imagem_sha256": "2f2bc0c60030a6c20944d27893f381bb9fd99733218b223b52830f3c7d3323bf",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Preparo em uma coluna: campos, quinze linhas para escrita, instruções e rodapé legíveis. O espaço vazio é destinado ao preenchimento."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-116/pagina-2.png",
+      "imagem_sha256": "bc3ab6e4a114484f6c8397084e01afaf7cb0126052a2d877d16be48e996ea9c5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Condução em duas colunas: passos numerados, lembretes e referências legíveis, sem título isolado ou corte."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-116/pagina-3.png",
+      "imagem_sha256": "72a92ead4039f54afcb4e8ccd089178edd8f8f9cc5e975c25e6d46b3e40a44a3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Retomada em uma coluna: onze linhas para escrita, dados de socorro e campos de tempo preservados; aviso final inteiro."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-116/pagina-4.png",
+      "imagem_sha256": "9dab3a719653025b12efc256962a102e9fa7f9e198c36141b459400a91c0b436",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Despedida em duas colunas: campos correspondem à folha em branco; fala de Helena destacada; texto corrido continua entre colunas na mesma página."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-116/pagina-5.png",
+      "imagem_sha256": "c7c73c50115773c2eb280d1f9edcfcdf4f0dc1765fdcf00f838273da15c31939",
+      "inspecionada": true,
+      "metodo": "Inspeção direta da imagem final",
+      "observacao": "Sala de conservação em duas colunas: título identifica o lugar, tabela inteira e notas de socorro legíveis; próxima decisão e janela de três rodadas conservadas."
+    }
+  ],
+  "limites": [
+    "Revisão local de cinco folhas; não conclui a conferência do livro integrado.",
+    "Sem terceira leitura integral, teste humano ou revisão semântica nova dos 59 casos."
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+    "antes": "Ensaio escrito da versão 2 experimental",
+    "depois": "Exemplo escrito com a ficha experimental",
+    "ocorrencias": 1,
+    "motivo": "Clareza e linguagem direta"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "**Estado:** exemplo experimental de nível 6, na versão estudada em 26/10/2026. Os números foram preservados. O resultado registrado é um ensaio escrito com dados escolhidos, sem sessão humana ou dificuldade atribuída.",
+    "depois": "**Exemplo experimental de nível 6.** Os dados foram escolhidos para explicar o encontro; não representam uma sessão jogada nem definem sua dificuldade.",
+    "ocorrencias": 1,
+    "motivo": "Clareza e linguagem direta"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "d20 + Força 2 + Maestria 1 = **+3**",
+    "depois": "d20 **+3** (Força 2 + Maestria 1)",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, páginas 66–69: fórmula de ataque apresentada sem igualdade incorreta"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "d20 + Destreza 4 + Maestria 1 = **+5**",
+    "depois": "d20 **+5** (Destreza 4 + Maestria 1)",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, páginas 66–69: fórmula de ataque apresentada sem igualdade incorreta"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "Os exemplos de alteração são experimentais; o Livro de Regras 1.0 e as fichas do piloto conservam suas regras. As comparações completas estão no [registro 64](<../04 - Planejamento/64-prototipos-de-recursos-dos-inimigos.md>).",
+    "depois": "As alterações sugeridas aqui são experimentais. Elas não mudam as regras nem as fichas apresentadas no exemplo de missão.",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, páginas 86–88: retirar remissão de bastidores sem destino no livro"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+    "antes": "Essa regra de recarga permanece experimental no [estudo 64](<../04 - Planejamento/64-prototipos-de-recursos-dos-inimigos.md>). Esse ensaio não autoriza aplicar a mesma dispensa a todos os feitiços ou copiá-la para uma personagem.",
+    "depois": "Essa recarga é experimental e vale apenas para a variante descrita. Não dispensa o custo dos demais feitiços nem se aplica automaticamente a personagens jogadores.",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 92"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+    "antes": "**Ficha experimental, versão 1.**",
+    "depois": "**Ficha experimental.**",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 117: versão interna dispensável"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+    "antes": " O [registro 66](<../04 - Planejamento/66-encontro-do-carregador-de-sinos.md>) guarda fontes, histórico e alcance da conferência.",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 121: referência de produção fora do livro"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+    "antes": " O registro de produção e as conferências estão no [documento 67](<../04 - Planejamento/67-perigo-da-passarela-e-do-guincho.md>).",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 121: referência de produção fora do livro"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+    "antes": "**Protótipo experimental de chefe, versão 2.**",
+    "depois": "**Exemplo experimental de chefe.**",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 134"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+    "antes": "Conversão experimental preparada para a versão 2",
+    "depois": "Conversão experimental preparada para a ficha",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino, página 137"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "antes": " A [comparação 47](<../04 - Planejamento/47-pacifismo-pessoa-impedimento-e-saida.md>) reúne as decisões de criação.",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino: retirar remissão de bastidores"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "antes": "A [comparação 47](<../04 - Planejamento/47-pacifismo-pessoa-impedimento-e-saida.md>) detalha os casos. Esse registro",
+    "depois": "O registro",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino: retirar remissão de bastidores"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+    "antes": "O [planejamento 52](<../04 - Planejamento/52-procedimento-da-liberacao-irregular.md>) reúne as decisões de criação.",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Segundo pente-fino: retirar remissão de bastidores"
+  }
+]

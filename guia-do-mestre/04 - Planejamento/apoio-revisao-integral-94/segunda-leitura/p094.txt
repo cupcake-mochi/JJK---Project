@@ -1,0 +1,77 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Campo
+Como preencher
+Bloquear
+2d10 + Defesa - 11; escolher antes da rolagem de ataque.
+TR
+Atributo apropriado; acrescentar Maestria somente quando treinado.
+Registrar os quatro TRs.
+Integridade de inimigo com alma
+Metade da vida máxima, conforme o livro de regras. As propostas abaixo
+usam PV pares.
+Ações
+As ações comuns e as permissões escritas na ficha. “Chefe” não concede
+outra iniciativa.
+Escolha vida e capacidades próprias para o
+resultado pretendido, identificando a proposta. Se
+um ataque corporal usar dados diferentes do
+desarmado comum, escreva essa exceção, como foi
+feito na Pancada do Sineiro. Não mude apenas o
+total final de Defesa e deixe seus componentes
+incompatíveis.
+Exemplo: ataque +4 e CD 12 correspondem a
+atributo 3 e Maestria 1. Elevar o atributo para 4 leva
+esses campos a +5 e CD 13, mas também afeta
+outras contas desse atributo. Para aumentar apenas
+a precisão de uma capacidade, seria necessário um
+modificador próprio explicado e avaliado; não
+esconda o acréscimo na ficha.
+Primeiros valores para comparar
+A recomendação de partida é experimentar a
+coluna central de vida com uma ação ofensiva na
+Padrão, sem defesa excepcional. Depois ajuste pelo
+papel e pelo grupo. Não some automaticamente
+todas as alternativas mais fortes.
+Campo de rascunho
+Referência no nível 2
+Referência no nível 6
+Vida central / Integridade
+24 / 12
+72 / 36
+Vida menor / Integridade
+16 / 8
+48 / 24
+Vida maior / Integridade
+32 / 16
+108 / 54
+Ataque e CD de referência
++4 e CD 12
++5 e CD 13
+Defesa central para comparar
+13, com componentes válidos.
+13, com componentes válidos.
+Defesa menor ou maior para
+comparar
+11 ou 15.
+11 ou 15.
+Ações de partida
+Uma Padrão, Movimento, Bônus
+e Reação comuns; um ataque em
+Atacar.
+Mesma rotina. Um segundo
+ataque exige permissão e
+avaliação próprias.
+Por que esses valores? O Carregador já fornece uma referência local de 32 PV; 16 e 24 permitem examinar
+reservas menores. No nível 6, 72 e 108 foram comparados para o Sineiro; 48 acrescenta uma alternativa
+menor. São candidatos escolhidos para estudo, não uma fórmula descoberta no Livro de Regras 1.0. Não
+estime os níveis 3-5 pela diferença entre essas linhas, nem multiplique os valores para chegar ao nível 30.
+“Vida maior” também não significa “chefe”. O Carregador tem 32 PV, Defesa 11 e escolhe entre uma
+Pancada e uma manobra. O Sineiro tem 108 PV, Defesa 11, dois ataques limitados por sua ficha e um
+impacto anunciado. Reduzir ambos a uma coluna de vida apagaria suas diferenças.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+94

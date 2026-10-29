@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Se o dado de ataque tivesse mostrado 7, o total 11
+erraria. A ação e os 3 PE seriam gastos sem causar
+dano. Sem o benefício, essa montagem não
+permitiria atacar a porta fora da vista.
+Limite. Uma criatura sobre o piso não vira parte da
+estrutura. Nara não pode escolhê-la como alvo da
+condução. Um efeito posterior sobre o cenário
+precisa ser resolvido para saber se houve alguma
+consequência, inclusive uma morte reconhecida
+pelo Pacto.
+Durante a suspensão
+Condução pela matéria fica indisponível durante os
+três dias. Nara ainda pode usar Fio de Corte
+normalmente contra um objeto visível e permitido.
+A incapacidade de violência direta permanece.
+Efeitos já resolvidos não são desfeitos; como a
+aplicação é instantânea, não há fios ativos para
+encerrar.
+A proposta completa compara esse ganho com Sem
+Ver, registra os limites e demonstra informação
+desatualizada. A condução é uma exceção proposta
+para este Pacto, não uma permissão normal de
+Projétil ou Sem Ver. A compatibilidade da
+montagem com o Livro de Regras 1.0 não
+demonstra equilíbrio entre esse ganho e o
+impedimento assumido.
+Prazo e suspensão do benefício
+A referência escolhida usa janelas fixas de 30 dias
+da ficção. Ao menos uma morte reconhecida atende
+a obrigação daquela janela. Não há saldo para
+janelas futuras nem dívida acumulada de mortes
+por uma janela perdida.
+Se o intervalo terminar sem cumprimento, o
+benefício fica suspenso por três dias. Enquanto o
+Pacto for mantido, a janela seguinte começa
+normalmente; a saída segue a seção Encerrar o
+Pacto. O impedimento de violência direta
+permanece durante a suspensão, e um
+cumprimento na janela seguinte não encurta a
+consequência anterior.
+Se o Pacto continuar, o benefício retorna ao fim dos
+três dias, mesmo que não tenha ocorrido outra
+missão nesse intervalo. Quando esse prazo conclui
+a saída, o Pacto termina. No exemplo proposto,
+somente Condução pela matéria fica indisponível.
+Não acrescente uma perda de energia ou outra
+punição por esse descumprimento.
+Exemplo de calendário. Um Pacto iniciado às 18h
+de 22 de outubro fecha sua primeira janela às 18h
+de 21 de novembro. Sem cumprimento, o benefício
+fica suspenso até as 18h de 24 de novembro. A
+segunda janela termina às 18h de 21 de dezembro.
+Uma morte reconhecida em 22 de novembro
+pertence à segunda janela, sem quitar uma dívida
+extra ou antecipar o retorno do benefício.
+Na guilda, use o calendário vivido pela personagem.
+A ausência de postagens não comprova
+cumprimento nem autoriza inventar mortes fora de
+cena. Em campanha fechada, conte os dias da
+história; o tempo real entre sessões não faz a
+obrigação vencer sozinho.
+Encerrar o Pacto
+Peça o encerramento fora de cena. O Pacto
+continua até o fechamento da janela atual. Se ela foi
+cumprida, encerra nesse momento; se não foi,
+encerra ao terminar os três dias de suspensão.
+Durante a espera final não começa outra obrigação
+de morte. O impedimento e a vaga permanecem até
+o encerramento efetivo.
+Até o fechamento, o benefício permanece
+disponível quando não estiver suspenso. Ao
+encerrar, terminam benefício, impedimento e
+obrigação; a vaga é liberada. Os acontecimentos
+anteriores não são desfeitos. Uma nova adesão
+exige nova avaliação fora de cena, sem antecipar o
+fim de um acordo ainda vigente.
+Exemplo: a janela de Nara fecha em 21 de
+novembro às 18h. Ela pediu saída em 5 de
+novembro. Com cumprimento, encerra no dia 21 às
+18h. Sem cumprimento, o benefício fica suspenso e
+a saída ocorre em 24 de novembro às 18h; não surge
+uma nova obrigação durante esses três dias.
+Afastamento administrativo não equivale a pedido
+de encerramento. Uma revisão dos acordos de mesa
+pode retirar ou reformular o conteúdo com o
+jogador fora da ficção; não é necessário obrigá-lo a
+continuar jogando uma experiência indesejada até
+o prazo. Isso é diferente da personagem alternar o
+Pacto durante conflitos.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+247

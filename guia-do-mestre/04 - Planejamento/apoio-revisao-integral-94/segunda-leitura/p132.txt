@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+convenção do exemplo, não regra para ligar
+máquinas durante um combate já iniciado.
+Não há agressão automática pelo relógio. O
+Carregador conserva seus gatilhos de oposição da
+consulta O Carregador e o corredor de entulho (p.
+110). A equipe pode parar o motor antes de mexer
+na caixa, conversar ou retirar-se. Na versão com
+motor desligado, não inicie a contagem quando
+alguém conseguir uma solução rápida.
+Ficha do fechamento
+Use um marcador de 0 a 3. Com motor
+funcionando, aumente-o uma vez, até o máximo de
+3, ao fim de cada rodada completa, depois dos
+turnos e efeitos de fim de turno. Não avance por
+participante, entidade ou Reação. Até o estado 2,
+todo o vão permanece transitável pelo custo
+normal.
+Estado
+Sinal e resolução
+0, abertura
+Aviso sonoro e três rodadas anunciadas. Portão aberto.
+1, fim da primeira rodada
+Primeiro sinal luminoso; faltam dois avanços.
+2, fim da segunda rodada
+Segundo sinal; avise que o próximo avanço tentará fechar o vão.
+3, a partir do fim da terceira
+Se a faixa estiver livre, fecha. Se estiver ocupada, aguarda aberto
+no estado 3.
+Motor parado antes de fechar
+Mantém-se aberto no estado alcançado; a contagem não recomeça
+sozinha.
+Motor parado depois de fechar
+Permanece fechado. A passagem de serviço continua disponível.
+Faixa ocupada: qualquer criatura de corpo sólido
+ou um objeto de pelo menos 1 Volume, colocado na
+faixa, impede o fechamento. Esse alcance do sensor
+é um fato deste dispositivo. Uma projeção sem
+corpo não ocupa a faixa; uma entidade de corpo
+sólido pode ocupá-la, cumprindo suas regras de
+presença e atuação. O aparelho não exige que o
+ocupante gaste uma ação por rodada apenas para
+permanecer ali.
+No estado 3, faça outra verificação somente ao fim
+da rodada seguinte se o motor continuar
+funcionando. Quando a faixa estiver livre, fecha
+nessa fase. Não fecha no instante em que alguém
+sai. O sensor não empurra, esmaga, agarra, causa
+dano ou separa corpos contidos. Um agarrão que
+atravesse a faixa a mantém ocupada. Se o grupo
+deixar a caixa ali, seu 1 Volume também serve;
+ainda será preciso retirá-la para cumprir o objetivo.
+Fechado, o portão bloqueia passagem e visão
+comum pelo vão nos dois sentidos. Não cria
+silêncio, apagamento de energia ou impedimento
+de toda capacidade sobrenatural. Consulte a regra
+usada para perceber, alcançar ou atravessar o
+obstáculo. O Carregador pode ser obrigado a usar o
+serviço tanto quanto os personagens.
+A derrota da criatura não para a contagem. Parar o
+motor não remove a criatura. Se a iniciativa
+terminar com motor ativo, resolva o tempo
+ficcional restante e a ocupação da faixa; não
+congele o mundo pela mudança de descrição. O
+marcador não mede tempo de fala dos jogadores.
+Como agir sobre o portão
+Operar a parada em P: ao alcance de 1,5 m, com
+uma mão disponível, use Usar objeto, Ação Padrão,
+sem teste. O comando exige puxar até travar,
+conforme a construção deste cenário. A posição P
+já oferece esse acesso. O motor para; não é
+necessário sustentar o comando nem pagar outro
+recurso. Uma capacidade que permita a
+manipulação remota conserva seus requisitos.
+Ocupar a faixa: alcançar G e permanecer pode
+preservar a saída curta. A pessoa ainda pode agir,
+mas precisa considerar o alcance do Carregador,
+suas mãos e a posição da caixa. Um efeito que a
+remova só permite o fechamento na fase definida,
+depois de conferir todos os ocupantes. Não aplique
+dano ou uma cobrança de Força adicional para
+recuperar a pressão perdida.
+Romper o acionamento: a pequena caixa de
+comando em P é um objeto de mão resistente, de
+madeira: Defesa 14, 10 PV, sem RD adicional. Um
+ataque capaz de danificá-la usa ações, alvo, visão,
+alcance e dano normais. A zero PV, o motor perde
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+132

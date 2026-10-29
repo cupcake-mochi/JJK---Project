@@ -1,0 +1,95 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Uma criatura também precisa caber no percurso.
+Passar pelo espaço de um aliado disposto pode ser
+permitido, mas terminar no espaço de outra
+criatura continua exigindo uma permissão própria.
+Consulte Espaço e posição quando tamanho,
+bloqueio ou travessia forem relevantes.
+Visão e cobertura
+Um obstáculo pode afetar sentidos e ataques de
+maneiras diferentes. Aplique o efeito
+correspondente em vez de tratar qualquer coisa
+entre os envolvidos como proteção completa.
+Situação
+Conferência
+Fumaça densa
+Pode bloquear a visão, sem deter um projétil por si só
+Parede opaca
+Bloqueia a visão e pode impedir a trajetória de um ataque
+Caixa parcialmente entre atirador e alvo
+Pode oferecer cobertura conforme o corpo protegido
+daquela direção
+Personagem do mesmo lado do obstáculo que o
+atacante
+Não recebe proteção daquela cobertura contra esse ataque
+Cobertura Parcial concede +2 à Defesa e ao Teste
+de Resistência Físico contra o que vem do outro
+lado. Cobertura Boa concede +5. Só a maior
+cobertura conta. Cobertura Total impede escolher
+o alvo diretamente através dela; não é um bônus
+numérico. Efeitos de área seguem seus requisitos
+próprios.
+Exemplo: um alvo com Defesa 13 fica parcialmente
+protegido por uma caixa em relação a quem ataca.
+Sua Defesa é 13 + 2 = 15 contra aquele ataque. Se o
+atacante mudar para um lado sem a caixa entre os
+dois, confira a cobertura novamente. Ela não
+acompanha o alvo como uma proteção permanente.
+A posição protegida pode ou não esconder o corpo
+o bastante para Esconder. Cobertura não concede
+ocultação automática. Quem está à vista precisa de
+uma forma de se esconder; dizer “uso Furtividade”
+não torna a pessoa invisível.
+Entenda a ideia do jogador
+Quando o jogador disser “uso o cenário”, peça o
+efeito e o meio: quer alcançar uma posição,
+bloquear visão, mover um objeto ou interferir numa
+criatura? Procure a regra para a ação que ele
+descreveu.
+Jogador: “Quero derrubar a pilha em cima da
+maldição.”
+Mestre: “Você quer deslocar as caixas, derrubar a
+criatura ou causar dano? Onde está e como
+pretende fazer isso?”
+Cada proposta pode ter requisitos diferentes.
+Confira a estrutura, a carga, a distância e a regra
+apropriada. No preparo do anexo, as caixas são
+comuns e não têm um ataque de desabamento com
+dano definido. Não converta sua altura ou
+aparência em dano automático.
+Se o grupo quiser um efeito para o qual ainda falta
+uma regra, consulte a regra aplicável e trate a
+dúvida antes da escolha que dependa dela. Você
+pode reconhecer que uma ideia merece
+desenvolvimento sem anunciar primeiro um dano
+arbitrário e justificá-lo depois. Se esse tipo de
+perigo vai aparecer outras vezes, prepare suas
+regras antes de oferecê-lo aos jogadores.
+Uma capacidade pronta pode resolver diretamente
+a proposta. Nesse caso, confira o alvo permitido e
+aplique os limites da ficha. A solução eficiente
+muda a situação; você não precisa acrescentar uma
+imunidade ou capacidade ao inimigo para impedir
+o resultado.
+Carregar, arrastar e arremessar
+A capacidade de carregar, erguer ou arrastar
+determina o que pode ser movido. Ela não fornece,
+por si só, um ataque ou dano. Objetos sem Volume
+definido precisam ter esse valor estabelecido antes
+da tentativa, comparando com o catálogo ou
+considerando as características do objeto.
+Exemplo separado: o mestre definiu uma caixa
+como 3 de Volume. Uma personagem de Força 0
+tem limite normal 5 + 0 = 5 e já leva 1 de Volume.
+Ao carregar a caixa, fica com 1 + 3 = 4, dentro do
+limite normal. Isso resolve a carga, mas ainda é
+preciso ter como segurar a caixa e passar pelo
+caminho. Não concede uma ação gratuita de
+apanhar, arremessar ou atingir alguém com ela.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+60

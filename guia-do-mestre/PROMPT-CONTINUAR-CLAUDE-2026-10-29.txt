@@ -1,0 +1,97 @@
+Continue o projeto do Guia do Mestre de Ciclo Maldito a partir dos arquivos locais. Não reinicie a pesquisa nem refaça lotes concluídos. Leia esta retomada, confira o estado encontrado e execute o próximo lote editorial completo. Se houver uma decisão autoral realmente nova, apresente o problema e as opções ao Mizuki; continue o que não depender da resposta.
+
+PASTA PRINCIPAL
+/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/
+
+Esta é a pasta de produção. Não é um checkout Git. Você tem acesso local: use os arquivos diretamente. Não copie a versão antiga do Git sobre ela.
+
+CÓPIA GIT SEPARADA
+/home/mizuki/CHAT-GPT/salvamentos/guia-do-mestre-2026-10-23/repositorio/
+Repositório: https://github.com/cupcake-mochi/JJK---Project
+Branch: codex/guia-do-mestre-pre-1-2026-10-23
+Pasta dentro do repositório: guia-do-mestre/
+O salvamento de 29/10 inclui o trabalho até o registro 121 e este prompt. Confira README.md e SALVAMENTO.json da cópia Git. Outras pastas do Claude 2 têm trabalhos simultâneos: não os modifique nem os inclua em commits deste Guia.
+
+ONDE PARAMOS
+Etapa 6 do plano de melhoria: revisão textual em lotes, antes da integração final. O último trabalho concluído foi B2-03, registro 121. Foram feitas duas passagens nas quatro cópias, conferências dirigidas e inspeção das 15 páginas da prova. A fila tem 59 casos distintos: 23 já revistos, 36 pendentes em nove lotes. Há também 17 consultas complementares pendentes. Os capítulos principais têm revisões nos registros 112–115; as cinco folhas curtas, no 116.
+
+O PDF integrado de 357 páginas é uma edição anterior, preservada. Ele ainda NÃO incorpora a reorganização e todas as provas recentes. Não anuncie revisão integral encerrada, livro final ou paridade com D&D apenas porque terminou um lote.
+
+LEIA PRIMEIRO, NESTA ORDEM
+Todos os caminhos abaixo são relativos à pasta principal:
+1. Este prompt e LEIA-ME.md, dando prioridade aos avisos atuais; os trechos antigos são históricos.
+2. 04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md
+3. 04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md
+4. 06 - Redacao do Guia/revisao-98/LEIA-ME.md
+5. 04 - Planejamento/121-revisao-de-terreno-saida-e-sineiro.md
+6. 04 - Planejamento/apoio-revisao-textual-121/fila-dos-casos.md e fila-dos-casos.json
+7. Na mesma pasta de apoio: destinos-e-fontes.json, rotas-de-consulta.json, revisao-final.json, contas-conferidas.json e mapas-selecionados.json. O índice atual é casos-completos.html; o caminho de consulta é guia-de-consulta.html.
+
+Consulte 01-plano-completo-do-guia.md, 19-roteiro-pre-1-e-modelos.md e 06-registro-das-decisoes.md, em 04 - Planejamento, para decisões e contexto. RETOMADA-CODEX-2026-10-23.md e apoio-piloto/RETOMADA.md têm histórico extenso: não confunda sua próxima tarefa antiga com a fila vigente do registro 121. O prompt de 26/10 também é histórico.
+
+PRÓXIMO TRABALHO: B2-04
+Sineiro, retirada e dupla de inimigos. Quatro fontes originais:
+- s072: 06 - Redacao do Guia/72-sineiro-consulta-e-doma.md
+- s073: 06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md
+- s075: 06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md
+- s076: 06 - Redacao do Guia/76-confronto-de-ren-e-sora.md
+
+Os quatro ainda não receberam as duas passagens desta etapa. Produza o registro 122 e um apoio próprio, mantendo os originais. Antes de escolher a numeração, confira se alguém já criou trabalho posterior. Se houver, compare e continue a partir dele, sem sobrescrever.
+
+MÉTODO DE ENTREGA DO LOTE
+1. Confira o manifesto atual sem escrita: python3 CONFERIR-SALVAMENTO.py, na produção. Antes deste prompt eram 2499 entradas; este salvamento acrescenta o prompt por união. Preserve uma cópia do manifesto e dos controles antes de editar.
+2. Leia integralmente os quatro casos e as regras que sustentam suas afirmações. Consulte as cópias já revistas relacionadas, sobretudo 71-sineiro-do-recolhimento.md em revisao-98/casos, e os apoios 119–121. Use o índice 121 para localizar as versões vigentes.
+3. Crie quatro cópias em 06 - Redacao do Guia/revisao-98/casos/, com os mesmos nomes das fontes. Primeira passagem: clareza, ordem de ensino, títulos, remissões e exemplos. Registre antes/depois e motivo das alterações.
+4. Faça uma segunda leitura integral para o pente fino, depois das alterações, sem apenas procurar palavras com script. Preserve os valores e a força das regras. Uma contradição real deve ser documentada e resolvida explicitamente; não rebalanceie escondido.
+5. Gere HTML e prova PDF no padrão já estabelecido, confira as contas pertinentes e os links, renderize TODAS as páginas, veja cada uma e corrija. Depois de gerar outra versão, veja novamente as páginas alteradas; se reaproveitar inspeção de páginas idênticas, demonstre a identidade dos arquivos. Extração de texto e checagem de margens ajudam, mas não substituem a inspeção visual.
+6. Atualize índice, destinos, rotas, fila e os dez controles descritos abaixo, preservando os casos já revisados. Salve relatório de escopo, alterações, contas, leituras e inspeção. Atualize o manifesto por união somente após conferir a preservação dos arquivos anteriores. Não execute um verificador antigo que sobrescreva o manifesto com uma lista menor.
+7. Entregue o PDF com um resumo curto do que mudou, do que foi conferido, dos limites e da próxima tarefa. Se os quatro forem concluídos, o total passará a 27 casos revistos e 32 pendentes em oito lotes; as 17 consultas continuam pendentes, salvo revisão própria documentada.
+
+OS DEZ CONTROLES
+- LEIA-ME.md
+- RETOMADA-CODEX-2026-10-23.md
+- 04 - Planejamento/01-plano-completo-do-guia.md
+- 04 - Planejamento/19-roteiro-pre-1-e-modelos.md
+- 04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md
+- 04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md
+- 06 - Redacao do Guia/LEIA-ME.md
+- 06 - Redacao do Guia/revisao-98/LEIA-ME.md
+- 04 - Planejamento/apoio-piloto/RETOMADA.md
+- 06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md
+
+PADRÃO DE ESCRITA E VISUAL
+Clareza é a prioridade do autor. Escreva como um livro de RPG que ensina alguém a mestrar: frases naturais, termos concretos, títulos curtos, exemplos antes de abstrações quando isso ajudar. Evite palavras burocráticas, como “procedimentos” onde “como fazer” explica melhor, e títulos longos ou vagos. No texto ao leitor, escreva “Livro de Regras 1.0”; R53 é identificação técnica de arquivo. Não remova termos mecânicos necessários nem simplifique até perder condições e exceções.
+
+O padrão das provas recentes usa A4, duas colunas, margens de 19 mm, intervalo de 7 mm, Spectral 10,25/13,2 pt no corpo, Barlow nos títulos e Bree nos subtítulos; tabelas 9,2/11,5 pt. Consulte GERAR-PROVA.py e o HTML do apoio 121, adaptando-os para outro apoio. Não execute scripts de atualização do 121 sobre a entrega encerrada.
+
+No WeasyPrint, quadros largos ficam fisicamente fora do bloco de duas colunas; column-span causou conteúdo perdido. Mantenha título, introdução e início da tabela juntos, cabeçalhos repetidos e linhas inteiras. Evite fórmulas quebradas, letra miúda, títulos soltos, imagens sem contexto e espaços brancos evitáveis. Não force tudo a ficar junto a ponto de criar páginas vazias ou grandes buracos. Não reduza o corpo para esconder problemas.
+
+Escolha imagens por relevância e legibilidade, comparando opções. Não use a primeira imagem disponível. Há um mapa de posições iniciais adequado ao ensaio s073: 08 - Diagramacao do Guia/revisao/referencias-visuais/mapa-vetorial-4.png. Confira o ensaio antes de inseri-lo. O mapa fixa Rina C0, Mei D0, Akira F0, caixa C6 e Sineiro D6/E6/D7/E7; por isso ficou fora da ficha genérica s071. A origem vetorial está em 08 - Diagramacao do Guia/MAPAS.py. O apoio 121 mostra como exportar só a área do desenho, sem alterar o original nem carregar grandes margens da página de referência.
+
+REGRAS E DECISÕES QUE DEVEM PERMANECER
+- O livro ensina a mestrar Ciclo Maldito com foco em guilda, mas serve também a campanhas fechadas. O leitor pode conhecer muito ou nada de Jujutsu Kaisen. Entrada sobre o mundo sem revelações da trama; aprofundamentos do mangá sinalizados.
+- Há um caminho recomendado com alternativas explicadas e ajuda para o mestre escolher.
+- A referência mecânica desta revisão é 04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md. SHA-256: 7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. Não mude de edição silenciosamente por encontrar uma mais nova em trabalho paralelo.
+- O bestiário antigo está desatualizado. Não importe seus números. Os exemplos de inimigos do Guia continuam experimentais; conferir contas não demonstra equilíbrio.
+- Inimigos não precisam todos de PE: ações, condições, sinais, preparação e recarga também organizam o ritmo. Preserve as soluções já desenvolvidas sem impor PE a todas as fichas.
+- No Sineiro, Dobrar o sino é preparação corporal, não Carregar ou Concentração. Confira interrupções, janela de resposta e Guarda Aberta; não crie testes de manutenção ou ataques extras. A Doma tem suas próprias escolhas e limites, sem copiar automaticamente todos os talentos da ficha inimiga.
+- “Preparar” usa Padrão no próprio turno e Reação para responder depois do gatilho perceptível; não se prepara retroativamente quando o sinal já ocorreu.
+- Dedicação: 28 horas por sete dias por FICHA, com saldo válido no ciclo seguinte. Não divida entre personagens do mesmo jogador.
+- Treinamentos não têm pacote mecânico novo aprovado. Reserva Condensada permanece como habilidade publicada: os depósitos, tetos e retiradas propostos foram rejeitados e não devem reaparecer. Consulte a decisão 87.
+- Não apresente orientação editorial como regra aprovada. Não invente testes humanos, feedback recebido, simulações ou equilíbrio demonstrado.
+
+PESQUISAS PARA CONSULTA
+O acervo local inclui livros de mestre de D&D e outros em 01 - Livros do mestre (copia), 02 - PDFs baixados e 05 - Fabula Ultima (JRPG). Pesquisas adicionais ficam em /home/mizuki/CHAT-GPT/RPG -JJK/Conceitos de Ideias para o sistema/ e /media/mizuki/HD Externo II/Claude/Claude 2/. Comece por índices e arquivos específicos; essas pastas são grandes. Use pesquisas externas primárias se precisar resolver uma dúvida real. Compare métodos e ensino, sem importar números de outro sistema.
+
+ATENÇÃO A MATERIAL PARALELO
+03 - Relatorios/14-analise-de-cobertura-do-guia.md e 09 - Propostas para o Guia/ foram preparados paralelamente. As quatro propostas ainda não foram incorporadas. Leia seu 00-LEIA-ME.md, preserve-as e não as trate como aprovadas nem desvie deste lote para integrá-las automaticamente. A menção a R57 nesse material não altera por si só a base desta revisão.
+
+APOIO TÉCNICO
+O apoio 121 contém scripts de geração, exportação vetorial, contas, rotas, controles e conferência. Leia e adapte caminhos, número do registro, casos, hashes e contagens; não rode atualizadores antigos às cegas. O Python do sistema tem Markdown, BeautifulSoup e WeasyPrint. ReportLab foi usado com /home/mizuki/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3. Poppler permite renderizar e inspecionar o PDF. Os caminhos são locais; confirme sua disponibilidade.
+
+O PDF integrado anterior está em 08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf. SHA-256: 0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b. Preserve-o até a etapa de integração. A lista das 104 fontes originais está em 04 - Planejamento/apoio-estrutura-99/estrutura-e-fontes.json.
+
+DEPOIS DE B2-04
+Siga a fila vigente: B2-05, B2-06, B3-01, B3-02, B4-01 e B5-01 a B5-03, além das consultas complementares. Depois: conferir o conjunto, integrar capítulos/folhas/casos sem duplicar conteúdo, gerar o livro completo, revisar visualmente cada página e repetir após correções; concluir a comparação com os livros de referência. O objetivo continua sendo responder com evidências: falta algo, estamos no mesmo patamar e temos as qualidades que tornam bons os outros guias?
+
+Use o modelo Claude mais capaz disponível para leitura longa e revisão cuidadosa, com esforço alto quando houver essa opção. No plano anterior, o equivalente indicado para B2-04 era GPT-6.1 Sol, esforço alto. Não há necessidade de trocar de modelo durante este lote. Ao final de cada entrega, recomende a próxima tarefa e a configuração adequada. Trabalhe até concluir o lote autorizado; levante dúvidas apenas quando mudarem decisões ou impedirem uma correção fiel.

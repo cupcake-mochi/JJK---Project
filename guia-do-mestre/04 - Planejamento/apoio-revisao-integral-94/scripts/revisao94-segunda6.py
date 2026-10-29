@@ -1,0 +1,2 @@
+from revisar_guia94 import *
+edit(source(85),[('As situações são independentes dos pilotos.','As situações são exemplos separados.'),('neste recorte','neste exemplo'),('d20 + Força 2 + Maestria 1 = **+3**','d20 **+3** (Força 2 + Maestria 1)'),('d20 + Destreza 4 + Maestria 1 = **+5**','d20 **+5** (Destreza 4 + Maestria 1)'),('não haveria algema concluída por essa tentativa','a tentativa não teria terminado de prendê-lo')],'Segundo pente-fino, páginas 66–69: fórmula de ataque apresentada sem igualdade incorreta')

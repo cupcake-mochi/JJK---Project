@@ -1,0 +1,91 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Tentar antes da derrota
+Caminho recomendado para ensinar a Doma:
+primeiro conduza a tentativa fora de combate,
+depois da derrota sem destruição. Assim o grupo
+distingue o fim da luta, o TR e o estado adquirido.
+O mestre pode autorizar a tentativa durante o
+combate e definir a quantidade de vida que abre
+essa oportunidade. O personagem gasta Ação
+Padrão; o TR Espírito e seus resultados continuam
+os mesmos. Passar no TR exorciza a maldição
+mesmo que ela ainda tenha vida.
+Ao preparar essa opção, compare três questões:
+quanto da luta o grupo precisará resolver antes; de
+quais ações precisará abrir mão para tentar; e como
+a entidade será registrada se ainda estiver em
+campo. Ferimentos não reduzem automaticamente
+o TR. Permitir a tentativa com mais vida restante a
+antecipa, não garante maior chance de aquisição
+naquele teste.
+Escolha de condução
+O que exige do preparo
+Apenas após derrota
+Grupo precisa encerrar o confronto sem destruir. É o caminho principal
+deste exemplo.
+Autorizar com pouca vida restante
+Anunciar a quantidade e permitir que o grupo reconheça quando ela for
+atingida. Aproxima a tentativa do fim da luta e oferece uma saída antes
+do golpe final.
+Autorizar mais cedo
+Explicar que se está abrindo outra forma de encerrar o encontro; conferir
+se a equipe terá oportunidade de agir antes de sofrer novas ofensivas.
+Não compensar secretamente com bônus no TR.
+Exemplo: se o mestre anunciar “pode tentar com 12
+PV ou menos”, um Amontoado a 13 ainda não
+permite a tentativa. A 12, Nara pode usar sua
+Padrão. A criatura continua com TR Espírito +1
+contra CD 12, salvo modificador válido. Esse 12 é
+uma escolha ilustrativa local, não uma referência
+adotada para toda maldição nem uma regra de um
+quarto da vida.
+Se a doma ocorrer com 12 PV, o novo registro tem
+12 de 14 PV, preservando os demais recursos
+dentro dos máximos. Não recebe 14 nem sofre a
+queda que o exemplo principal exigiu. Como não
+pode ser recolhida, permanece onde está. Sua
+atuação passa a seguir as regras de entidade e o teto
+de ativos; não mantenha o turno independente do
+inimigo nem conceda ataque imediato como
+prêmio pela conversão.
+Antes de permitir essa variante, registre como a
+entrada em atuação respeitará os recursos já usados
+no combate e o ciclo do invocador. Regra proposta
+para este caso: a aquisição não fornece básica ou
+Movimento novos naquele instante; a entidade
+começa a renovar esses recursos no próximo turno
+de Nara, depois de cumpridos os requisitos de
+ativação e tarefa. Se houver dúvida sobre um
+recurso específico, resolva-a no preparo. Essa
+orientação é uma proposta de integração da
+conversão ao combate, não um trecho publicado do
+Livro de Regras 1.0.
+Registro para a próxima mesa
+No exemplo principal, a folha fica assim:
+• Origem e aquisição: maldição domada;
+Amontoado do depósito, nível 2, Classe 1; obtida
+por Nara, nível 2. Conversão da base pequena
+apresentada antes do teste.
+• Submissão: fora de combate; d20 10 + Espírito 1 =
+11 contra CD 12; falha da maldição, aquisição
+concluída.
+• Estado imediato: 0/14 PV, 7/7 Integridade, 0/2 PE
+próprios; Desligada no depósito; excedente 4; sem
+efeitos persistentes neste exemplo. Ainda não foi
+religada.
+• Atuação futura: básica, especial e talento da ficha
+convertida; iniciativa de Nara e Reação coletiva;
+sem turno independente de inimigo.
+• Controle e comunicação: não pode ser recolhida;
+ocupa o registro de corpo mantido; compreende
+frases simples e responde por gestos e ruídos.
+• Invocadora: conferir separadamente recursos
+atuais, quedas, Sequelas e recuperações reais de
+Nara. A captura não limpa a ficha dela.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+278

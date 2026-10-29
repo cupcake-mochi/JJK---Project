@@ -1,0 +1,56 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+A12 são 18 m; cada passo, inclusive diagonal, mede
+1,5 m. As paredes laterais impedem sair do recinto
+por suas bordas.
+Elemento
+Posição e acesso
+Nuvem de pó
+Todas as células A1-A12 e B1-B12. A linha 0 permanece limpa.
+Fecho da alimentação
+Na parede junto de A12; operável daquele espaço com mão livre.
+Não ocupa o piso.
+Comando do exaustor
+Junto de B0, na entrada; operável dali com mão livre.
+Pino de segurança
+Visível junto ao fecho, a 18 m de A0. Quebrá-lo libera uma mola que
+fecha a alimentação.
+Equipe do exemplo
+Mei em A0; Akira em B0. São espaços distintos, fora da nuvem.
+SALA DE CONSERVAÇÃO · EXPOSIÇÃO AO PÓ
+A
+B
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Fecho e pino: junto de A12, na parede. Não ocupam o piso.
+Área com pó: A1–A12 e B1–B12.
+Sala de 3 × 18 m; cada célula mede 1,5 m. As paredes laterais impedem sair
+pelas bordas.
+M
+A
+0
+Vestíbulo limpo: Mei em A0; Akira em B0. Exaustor junto de B0.
+Posições indicadas. O desenho não representa o tamanho dos controles.
+O esquema indica os espaços; não representa o tamanho dos controles. Equipamentos fixados nas paredes
+não impedem passar pelas células indicadas.
+Mostre a nuvem, a alimentação ainda aberta, os dois comandos e a mola. Avisos legíveis explicam como
+interromper a máquina e ligar a extração. A função do fecho e do pino está identificada; não depende de um
+teste secreto. A poeira é leve: aplique a desvantagem em Percepção baseada na visão, como na fumaça leve
+do Livro de Regras 1.0. Isso não bloqueia a visão, não concede cobertura nem impõe desvantagem
+automática a ataques.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+162

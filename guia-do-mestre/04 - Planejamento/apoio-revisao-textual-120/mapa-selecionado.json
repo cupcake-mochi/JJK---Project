@@ -1,0 +1,14 @@
+{
+  "registro": 120,
+  "imagem_usada": "04 - Planejamento/apoio-revisao-textual-120/imagens/rotas-do-carregador.png",
+  "fonte": "08 - Diagramacao do Guia/revisao/referencias-visuais/mapa-vetorial-1.png",
+  "sha256": "133f9d5ba1f66ed6f96d82da683dfd52a6604ab01e9f623ea6c1b438c552d5bf",
+  "criterios": [
+    "Entrada ligada à área de trabalho com distância separada.",
+    "Rota direta com três trechos ordenados e entulho destacado.",
+    "Lateral chega ao mesmo recuo; não parece uma terceira área.",
+    "Distância física separada do custo de movimento; aviso de desenho sem escala."
+  ],
+  "comparacao": "Comparado ao esquema em caracteres do texto e inspecionado entre os cinco mapas disponíveis na pasta de referências; os outros quatro representam outros lugares. A figura escolhida já incorpora a correção anterior das rotas.",
+  "limite": "Reuso integral, sem edição de pixels ou nova ilustração. Conferência visual do mapa e das medidas separada da extração textual do PDF."
+}

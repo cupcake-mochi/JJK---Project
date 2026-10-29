@@ -1,0 +1,111 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Alvo
+PV máximos
+TR Físico
+Falha em CD 15
+Dano médio por
+aplicação
+Bastião, sem vantagem
+aplicável
+185
++8
+30%
+17,73
+Bastião com Olhos Em Mim
+e Haru dentro de sua área
+185
++8 com vantagem
+9%
+14,94
+Emanador
+137
++4
+50%
+20,38
+Guia
+153
++2
+60%
+21,70
+Sucesso recebe metade para cima; falha também
+recebe Prende. Não se escolhe Bloquear contra
+essa Fita. Duro de Matar não se aplica; Nem Um
+Arranhão pode se aplicar quando seus requisitos
+forem cumpridos. Se o Bastião estiver longe de
+Haru, não recebe a vantagem apenas por ter a
+habilidade.
+Cobrir-se, quando disponível, reduz 6 por Reação e
+2 PE. No Emanador, a média dessa aplicação cai de
+20,38 para 14,38. A redução não desfaz uma falha
+no TR nem remove Prende. A resposta à área
+depende também de sair do aviso, interromper a
+conjuração ou administrar o dano, não só da reserva
+de vida.
+Esses números mostram o limite do protótipo: um
+grupo inteiro, saudável e livre para se dispersar
+pode suportar ou evitar a pressão. A cena ganha
+tensão quando precisa escolher onde permanecer e
+em que gastar ações. Se a intenção for preparar
+outra função de chefe, retome método, capacidades
+e objetivos antes de simplesmente multiplicar o
+dano.
+Socorrer ou atacar?
+Este exemplo usa dados escolhidos para ensinar,
+não resultados de uma sessão humana. Ele mostra
+um momento do confronto, independente das
+sequências sem resposta da tabela anterior. Mei é o
+Emanador 15 da referência, com máximo 137 PV,
+Classe 4, Integridade positiva e uma Sequela. Ela
+está operando o painel, com 24 PV. Haru havia
+avisado a faixa; Mei optou por permanecer. Sua
+escolha de Defesa estática não entra num TR.
+1. Haru conjura Fita de Classe 4, gasta 12 PE de
+seus 26 e fica com 14. Mei tira 7 + 4 = 11 no TR
+Físico, falhando em CD 15. Os seis d8 mostram 4, 4,
+4, 5, 5 e 5: 27 de dano, sem redução nesta
+ocorrência. Ela chega a zero e recebe Prende. O
+golpe que provocou a queda não desconta outra
+rodada pelo excesso.
+2. Mei escolhe Insistir, pela primeira vez na cena. A
+janela começa em 3 - 1 = 2 rodadas, marcadas no
+ponto da queda. O tratamento é 137 ÷ 3, para cima
+= 46, abaixo do teto 15 × Classe 4 = 60. Mantém
+consciência e contato; isso não lhe devolve ações já
+gastas.
+3. Akira, o Guia 15, já está a até 9 m, vendo Mei,
+com mãos e Selo disponíveis. Conhece uma cura
+individual Classe 4, Projétil, base Média 4, saldo 8:
+8d8 por 12 PE. Usa Padrão; 4 + 4 + 4 + 4 + 5 + 5 + 5 +
+5 = 36. Dos 75 PE iniciais fica com 63. Mei continua
+a zero: o tratamento acumulado é 36 de 46.
+4. Bao, o Bastião 15, já está adjacente a Mei. Para
+esta demonstração, sua técnica admite Amparo e
+conhece cura de Toque Classe 2: base 2, sem
+Melhorias ou Restrições, 4d8 por 6 PE. A devolução
+de Toque não gera dados porque não há Melhorias
+pagas. Gasta Padrão; 1 + 2 + 3 + 4 = 10. Seus 60 PE
+passam a 54.
+5. Antes de completar uma volta até a queda, Mei
+alcança 36 + 10 = 46 de tratamento. Sai de
+Morrendo com 46 PV e duas Sequelas. Prende
+conserva seu prazo e suas saídas. O tratamento não
+concede Padrão, não termina a extração e não faz o
+trabalho avançar sozinho.
+Nesse mesmo intervalo, duas Padrões do grupo
+foram usadas para socorrer, em vez de produzir um
+feitiço do Guia e dois ataques do Bastião. Por isso, a
+tabela de ofensivas repetidas não é uma previsão da
+duração desta cena. A cura de Bao é uma
+capacidade conhecida declarada para o exemplo,
+não uma cura gratuita por pertencer ao Caminho.
+Se Mei tivesse escolhido Aguentar, o tratamento
+seria 137 ÷ 4, para cima = 35. A primeira cura de 36
+bastaria. Ela ficaria Inconsciente até recebê-la e
+soltaria o comando, reiniciando a operação do
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+160

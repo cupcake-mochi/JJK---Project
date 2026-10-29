@@ -1,0 +1,77 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Ficha do confronto
+Maldição de nível 6, Maestria 1, com alma.
+Tamanho Grande: ocupa 3 × 3 m. Corpo sólido de
+180 kg, dois braços, duas mãos e duas pernas. Anda
+no chão; visão e audição comuns. Compreende
+frases simples e responde por gestos. Não tem
+Técnica Inata, voo ou passagem através de matéria.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+4
+1
+3
+1
+1
+Campo
+Valor
+Vida / Integridade
+108 PV / 54. Vida escolhida para este exemplo; Integridade é metade.
+Reserva própria
+0 PE. Sua energia amaldiçoada continua perceptível; as ações abaixo não
+exigem reserva gastável.
+Defesa / Bloquear
+11 / 2d10. Escolher antes da rolagem de ataque; não gasta Reação.
+Iniciativa / deslocamento
+d20 + 1 / 9 m.
+TRs
+Físico por Força +5, treinado; Vigor +3, Intelecto +1, Espírito +1.
+Perícias treinadas
+Atletismo +5; Percepção, Intuição e Furtividade +2. Demais usos
+seguem atributo e requisitos.
+Carga / equipamento
+Normal 9 Volume, arrasto máximo 18. Começa sem equipamento; seu
+corpo não conta como carga própria.
+Ações
+Padrão, Movimento, Bônus e Reação comuns. Atacar permite dois
+ataques, com a limitação de manobras abaixo.
+Proteções
+Sem RD, resistência, vulnerabilidade ou imunidade concedidas por esta
+ficha.
+Instinto
+Enquanto acordado, protegido contra surpresa. Não revela escondidos,
+altera iniciativa ou concede ações.
+Pancada. Ataque desarmado a 1,5 m, +5, dano 2d6 +
+4 de Concussão; crítico 4d6 + 4. Os dados são uma
+exceção desta ficha de inimigo, não o dano
+desarmado geral de Maestria 1. Resolva cada ataque
+antes de iniciar o seguinte. Um ataque de
+oportunidade usa uma Pancada, nunca toda a Ação
+Atacar.
+Agarrar, Empurrar ou Derrubar. Em cada Ação
+Atacar, pode substituir no máximo um dos dois
+ataques por uma dessas manobras. Usa TR Físico
+CD 13, alcance e requisitos comuns do Livro de
+Regras 1.0. Agarrar exige mão livre; Empurrar
+afasta 1,5 m; Derrubar aplica Derrubado. Não
+acrescentam dano. O alvo pode ser até uma
+categoria maior, mas a condução especial abaixo
+aceita somente uma criatura Média ou menor.
+Quem estiver Agarrado pode gastar sua Padrão e
+repetir o TR Físico contra a CD original 13 para
+escapar. Guarda Aberta ou Inconsciente no
+agarrador, soltura, perda da mão ocupada ou
+separação além do alcance encerram o agarrão.
+Derrubar o Sineiro ou causar dano não solta a
+presa automaticamente. Estar Agarrado também
+não impede, por si, atacar, conjurar ou Bloquear.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+135

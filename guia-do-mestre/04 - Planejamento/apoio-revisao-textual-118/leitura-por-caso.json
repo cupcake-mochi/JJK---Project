@@ -1,0 +1,111 @@
+{
+  "registro": 118,
+  "casos": [
+    {
+      "id": "s084",
+      "fonte_original": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+      "sha256_original": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+      "sha256_revisado": "df5ed0cad345119db9bfc8a2ab061e0214a5daf4e58bbed68a4c75136e267ec7",
+      "passagem_1": "Original lido integralmente; conferência dirigida das regras pertinentes.",
+      "passagem_2_paginas_da_prova_1": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 2
+      },
+      "estado": "duas passagens locais; integração e conferência global pendentes"
+    },
+    {
+      "id": "s085",
+      "fonte_original": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256_original": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+      "sha256_revisado": "7782025943e3346d9ebd99c0e22ac0eeb738973ca2e7e19f046402860ca01f69",
+      "passagem_1": "Original lido integralmente; conferência dirigida das regras pertinentes.",
+      "passagem_2_paginas_da_prova_1": [
+        5,
+        8
+      ],
+      "paginas_na_prova_final": [
+        5,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 3
+      },
+      "estado": "duas passagens locais; integração e conferência global pendentes"
+    },
+    {
+      "id": "s022",
+      "fonte_original": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+      "sha256_original": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+      "sha256_revisado": "2ae6960254f09f787ef35f51d91872bb19a62673076e436285bd866d6669d242",
+      "passagem_1": "Original lido integralmente; conferência dirigida das regras pertinentes.",
+      "passagem_2_paginas_da_prova_1": [
+        9,
+        12
+      ],
+      "paginas_na_prova_final": [
+        9,
+        12
+      ],
+      "registros_por_passagem": {
+        "1": 10,
+        "2": 4
+      },
+      "estado": "duas passagens locais; integração e conferência global pendentes"
+    },
+    {
+      "id": "s023",
+      "fonte_original": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+      "sha256_original": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+      "sha256_revisado": "d370c5525afaf2f692e28544c8818dbe6dd1cfc14b41ef46551cd68dba9a4cf4",
+      "passagem_1": "Original lido integralmente; conferência dirigida das regras pertinentes.",
+      "passagem_2_paginas_da_prova_1": [
+        13,
+        17
+      ],
+      "paginas_na_prova_final": [
+        12,
+        16
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 3
+      },
+      "estado": "duas passagens locais; integração e conferência global pendentes"
+    },
+    {
+      "id": "s081",
+      "fonte_original": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+      "sha256_original": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+      "sha256_revisado": "df302c3bd410f82c79bd40d14b0a7352865989eb59e9d7aedc5939ffb74bf982",
+      "passagem_1": "Original lido integralmente; conferência dirigida das regras pertinentes.",
+      "passagem_2_paginas_da_prova_1": [
+        18,
+        21
+      ],
+      "paginas_na_prova_final": [
+        17,
+        20
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 6
+      },
+      "estado": "duas passagens locais; integração e conferência global pendentes"
+    }
+  ],
+  "formulario_24": "Lido por inteiro para conferir cobertura dos estados; original preservado e revisão textual integral ainda pendente."
+}

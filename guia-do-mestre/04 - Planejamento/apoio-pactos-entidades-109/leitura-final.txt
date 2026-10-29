@@ -1,0 +1,392 @@
+CICLO MALDITO / GUIA DO MESTRE                                                                      PACTOS E ENTIDADES
+
+
+
+CAPÍTULO 9
+
+
+Pactos e entidades
+Um Pacto muda uma capacidade em troca de um                   Confira quando o preço acontece, em quais missões
+preço. Uma entidade acrescenta outra criatura à               faz diferença e se uma recuperação imediata o
+atuação do personagem. Nos dois casos, comece                 apaga. A régua do Livro de Regras 1.0 mede o
+pelo resultado desejado e deixe claro como ele será           ganho:
+obtido, usado e acompanhado. O nome da proposta
+não fornece uma regra pronta.                                  Ganho     O que muda
+
+Este capítulo reúne acordos, aquisições e projetos.            Pequeno   Uma conjuração, ou vale uma cena
+As regras usadas aqui ficam disponíveis para                   Médio     Permanentemente, um feitiço ou ação
+consulta. Os exemplos experimentais continuam
+identificados; suas fichas completas precisam                  Grande    Permanentemente, a energia ou um Estilo
+acompanhar o uso. Não é necessário conhecer a                  Enorme    Rompe um limite uma vez
+trama de Jujutsu Kaisen para seguir as explicações.
+                                                              Essa régua não converte qualquer sacrifício em
+9.1 Preço e benefício                                         qualquer capacidade.
+Pergunte o que o jogador quer fazer numa situação             O permanente modifica o funcionamento de uma
+concreta. “Quero manter esta passagem aberta até              capacidade pela mecânica escrita com o mestre.
+retirarmos a pessoa ferida” permite conferir                  Não concede Estilo, níveis de Caminho ou Trilha,
+aplicação, duração e limite. “Quero mais poder”               escolhas extras de Origem ou bônus numérico em
+ainda precisa dessas escolhas.                                ataque, Defesa e perícias. Não existe pacto por
+                                                              dano. Se um pacto de energia envolve quantidade,
+Pactos são opcionais. Nenhuma forma é firmada
+                                                              use a porcentagem do máximo combinada, não um
+sob ameaça: as partes precisam aceitar por vontade
+                                                              valor fixo.
+própria, e os jogadores envolvidos também
+precisam concordar. Uma negociação dramática                  O limite conjunto de permanentes e pactos de
+não substitui esse acordo. A personagem pode                  restrição é metade da Essência, arredondada para
+atravessar a campanha sem assumir nenhum.                     baixo. Essência 5 permite duas vagas. Essência 0 ou
+                                                              1 não abre vaga; a exceção de restrição depende de
+ Forma                 O que combinar                         permissão e não concede outro benefício.
+ Permanente            Mecânica única, preço recorrente e     Promessas e temporários ficam fora desse limite.
+                       vaga; firmado fora de cena             Reduzir Essência não apaga pactos existentes, mas
+                                                              impede outro enquanto o total não couber.
+ Temporário            Ação ou gatilho, mudança exata e
+                       prazos separados de ganho e preço
+                                                              O momento da troca
+ Promessa              Duas partes autônomas, obrigações,     No próprio turno, firmar um temporário usa Ação
+                       prazos, exceções e quebra
+                                                              Bônus. Fora dele, usa Reação a um gatilho
+ Pacto de              Limitação já compensada na criação e   percebido, depois dos dados e antes das
+ restrição             onde ela consta da ficha               consequências. Não refaz a rolagem. O ganho
+                                                              termina no máximo ao fim da cena; o preço tem seu
+Um preço que faz diferença                                    prazo próprio e pode ser permanente.
+
+O preço altera uma escolha real ou consome algo               Ren tem 6 PV e uma Reação. Fora de seu turno,
+que a personagem possui. Ren já não consegue                  percebe um ataque que o acerta; depois das
+conjurar à distância; abrir mão disso não paga um             proteções, os dados dão 9 de dano. Antes de aplicar
+benefício novo. Uma limitação já compensada pela              o resultado, propõe o modelo publicado de
+Origem ou por uma Restrição de feitiço também                 sacrificar um braço para ficar com 1 PV naquele
+não compra outra recompensa pelo mesmo motivo.                golpe. O mestre confere e aprova; Ren gasta a
+                                                              Reação e a perda do braço permanece. Os dados e o
+                                                              acerto não mudam.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                         1
+CICLO MALDITO / GUIA DO MESTRE                                                                       PACTOS E ENTIDADES
+
+
+
+Sem Reação, sem perceber o gatilho ou depois de               acrescenta a diferença de 16 PE: saldo 12 passa a
+aplicar a queda, essa janela não está disponível. O           28, sem preencher automaticamente 48. Aplique o
+Pacto não protege de outro ataque ou apaga                    arredondamento publicado.
+consequências fora do benefício. Esse exemplo
+                                                              A contagem começa no início das missões do dia.
+ensina a troca publicada e seu momento, não um
+                                                              Descanso curto fica fora do trabalho contado; longo
+preço corporal universal para evitar derrota.
+                                                              encerra a hora extra e zera a contagem.
+
+9.2 Desenvolver uma troca                                     As 28 horas semanais de dedicação não são essa
+                                                              jornada. Gastar saldo num projeto não ativa o
+Escreva primeiro ganho e preço. Depois, confiram              Pacto nem altera o máximo de energia por si.
+uma situação de uso, outra em que a limitação
+atrapalha e uma combinação que a ficha realmente              Modelos experimentais
+possui. Se o ganho abre uma função, localize seus             As sete ideias citadas no Livro de Regras 1.0 não
+alvos, ação, alcance, custos, duração e saída. A              são sete Pactos prontos. O Guia desenvolve dois
+avaliação de capacidades ajuda nessa comparação.              modelos para avaliação local. Eles não entram
+Prepare também o encerramento. Um preço                       automaticamente na ficha e seus resumos não
+contínuo não pode desaparecer no começo de todo               substituem o texto completo.
+conflito e retornar apenas quando conveniente.                Pacifismo impraticável impede violência direta
+Quando houver prazo para sair, ele precisa estar              contra criaturas, inclusive por entidades
+compreendido antes da adesão. Isso é diferente de             comandadas e efeitos próprios adiados. Ao mesmo
+rever os acordos entre jogadores fora da ficção               tempo, exige responsabilidade por uma morte
+quando uma experiência deixa de ser desejada.                 indireta de pessoa em cada janela de 30 dias da
+                                                              ficção. Humanos e indivíduos não humanos com
+Mostrar a mão                                                 identidade e vontade próprias podem contar; queda
+O modelo publicado exige revelar uma informação               ou derrota não bastam.
+nova e verdadeira sobre a técnica a uma criatura
+                                                              Uma ação sobre o ambiente pode cumprir a
+que ouça e entenda. Mei usa sua Bônus para isso.
+                                                              obrigação quando provocar realmente a morte. Não
+Conte os turnos dela, sem adiantar a etapa pela
+                                                              exige decisão intermediária de outra pessoa nem
+mudança de rodada.
+                                                              conhecimento prévio da presença da vítima.
+ Turno de          Contra a criatura informada                Apenas presenciar a morte não estabelece essa
+ Mei                                                          relação. A aplicação ofensiva sobre criaturas
+                                                              continua impedida, mesmo se chamada de indireta
+ Revelação         Acertos dos feitiços daquela técnica têm
+                                                              ou resolvida em área.
+                   vantagem; TRs da criatura contra eles
+                   têm desvantagem                            O ganho é particular de uma capacidade existente.
+ Seguinte          Nenhuma dessas alterações
+                                                              Condução pela matéria, o exemplo escolhido,
+                                                              permite a um feitiço de corte alcançar uma parte de
+ Terceiro          Acertos têm desvantagem; TRs da            objeto já vista e de posição atual conhecida, por um
+                   criatura têm vantagem; depois a troca      caminho sólido tocado de até 18 m. Conserva ação,
+                   termina                                    energia, ataque e dano. Não serve para atingir
+                                                              criaturas ou equipamento carregado nem revela o
+Feitiços Automáticos não mudam. A troca não                   que está escondido.
+alcança aliados ou outras criaturas, e uma mentira
+ou repetição de informação conhecida não paga o               Uma janela sem cumprimento suspende somente o
+preço. A regra própria do exemplo não autoriza                benefício por três dias, mantendo o impedimento.
+negociar bônus genéricos por qualquer explicação.             Não há banco ou dívida de mortes. A saída pedida
+                                                              fora de cena espera o fechamento da janela e a
+Overtime e a jornada                                          suspensão pendente, sem iniciar outra obrigação
+                                                              nesse período final. A ficha completa de Pacifismo
+Overtime é o permanente de energia publicado. A
+                                                              define aplicação, bloqueio, calendário e
+jornada fixa, combinada na criação, usa 2,5% do PE
+                                                              encerramento.
+máximo por hora. Oito horas correspondem a 20%.
+Com máximo normal 40, o máximo durante a                      Liberação irregular distingue reserva de energia e
+jornada é 32 e, na hora extra, 48. A passagem                 teto de gasto. Sorteia um d6 no começo de cada
+                                                              turno próprio: 0/25/50/75/100/100% dos PE
+                                                              máximos, na ordem das faces. O teto vale até o
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                         2
+CICLO MALDITO / GUIA DO MESTRE                                                                PACTOS E ENTIDADES
+
+
+
+próximo começo de turno, incluindo Reações e
+manutenção pagas pelo portador. Zero impede            O empréstimo do arquivo
+pagamentos novos, sem esvaziar o saldo.                Na Promessa do arquivo, exemplo experimental,
+Com máximo 40, face 2 dá teto 10. Pagar 9 deixa        Lia oferece uma consulta autorizada e o
+apenas 1 no intervalo, mesmo com muitos PE na          empréstimo de R-17; Akira precisa devolver o
+reserva. Refluxo é a compensação: um zero              original completo e legível até as 18h do Dia 2. A
+sorteado no começo de turno prepara a recuperação      ficha identifica as 12 folhas, cópias permitidas e
+de 25% do máximo no primeiro turno próprio             lugares de devolução. Entrega concluída às 18h
+positivo posterior, usando Bônus. É um uso por         atende; às 18h01 está atrasada. Estar a caminho não
+descanso curto ou longo, sem aumentar o teto. A        é entregar.
+oportunidade termina ao fim desse primeiro turno       O acordo também prevê impossibilidade
+positivo.                                              involuntária e reparação. Essas são cláusulas desse
+O sorteio inicial antes da primeira ação da            caso, não exceções universais. Conferir o fato e o
+sequência resolve Reações anteriores ao primeiro       texto distingue uma recusa voluntária, um atraso
+turno e não prepara Refluxo. Encerrar o Pacto exige    com meios para cumprir e um impedimento
+pedido fora de cena e conclusão do próximo             realmente previsto. Uma rolagem não reescreve a
+descanso longo; nova adesão espera outro longo. A      obrigação.
+ficha de Liberação irregular trata pagamentos,         Quem quebra perde todos os PE comuns e
+arredondamentos, manutenção, mudanças de               temporários e não pode receber ou recuperar PE
+máximo e uso fora de combate. Use-a inteira,           até cumprir a reparação definida. O máximo não
+inclusive quando o teto impedir uma manutenção.        muda. Descanso, Refluxo ou outra fonte não
+Energia alternada e Magnetismo energético              encerra o bloqueio; a energia negada não fica
+recebem orientação de avaliação; Fragmentação,         guardada para depois. Outras funções do descanso
+Despertar do corpo e Reserva vital ficam para          seguem suas regras.
+revisão posterior. O estudo das sete ideias localiza   Akira repara pela entrega prevista, com reposição
+as questões de cada uma. Essas ideias ainda            permitida se o original tiver se perdido; Lia repara
+precisam de regras para entrar na ficha.               pela entrega das cópias e do índice combinados. Os
+                                                       critérios já estão escritos. Não dependem de a
+9.3 Promessas entre pessoas                            pessoa prejudicada aceitar outra exigência
+                                                       inventada pelo mestre. O caso completo também
+Uma Promessa precisa de partes capazes de
+                                                       prevê dispensa expressa e voluntária.
+entender, aceitar ou recusar. Uma entidade sem
+vontade própria não é uma segunda parte                Ao cumprir a reparação, o bloqueio termina, mas os
+autônoma. Uma instituição participa por                PE continuam zerados até uma recuperação
+representante autorizado, sem obrigar pessoas          válida. Não cobre a mesma perda novamente a cada
+ausentes a concordar.                                  turno nem apague uma punição em andamento
+                                                       apenas porque a sessão mudou. A duração é aberta;
+Antes da aceitação, escreva partes, obrigações,
+                                                       a condição de saída é conhecida desde o começo.
+prazo, cláusulas e quebra. Peça a cada pessoa que
+explique o que deve fazer. Se as explicações           Guarde texto aceito, alterações consentidas,
+divergirem, resolvam o texto. “Ajudar quando           cumprimento e consequência pendente na
+necessário” precisa dizer qual ajuda e quem            folha de Pactos e Promessas. Mudar de mestre não
+determina a necessidade.                               cria outro acordo ou apaga uma obrigação.
+
+A quebra custa a energia amaldiçoada de quem a
+pratica e pode custar a vida, conforme o Livro de      9.4 Obter uma entidade
+Regras 1.0. A punição pode ser definida na criação.    Defina a função e a forma de aquisição antes dos
+Registre seu efeito concreto, sem deixar para          números. Uma ave pode vigiar uma porta, mas sua
+inventar depois. Uma ambiguidade não autoriza          aparência não concede visão compartilhada, fala ou
+acrescentar cláusula retroativa ou punição que não     telepatia. Confira o que o corpo faz, qual
+foi compreendida.                                      capacidade está na ficha e como a informação
+                                                       chega ao personagem.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                  3
+CICLO MALDITO / GUIA DO MESTRE                                                                       PACTOS E ENTIDADES
+
+
+
+                                                              Na doma, o grupo pode ajudar na luta. A maldição
+ Aquisição          Como funciona
+                                                              precisa ter nível igual ou inferior ao personagem.
+ Espaço             A técnica, Manejo ou Kata prevê a         Derrotada sem ser destruída, faz fora do combate
+ conhecido          entidade, que ocupa uma vaga válida e     TR Espírito contra a CD de conjuração da rota. Se
+                    acompanha o nível do invocador            falhar, é domada; se igualar ou superar, é
+                                                              exorcizada. Com CD 12, total 11 permite a doma;
+ Lista de           Feitiço conhecido reúne entradas e
+ ritual             desafios individuais; as conquistadas     total 12 exorciza. Não há tentativas sucessivas
+                    acompanham o invocador                    contra a mesma maldição até falhar.
+
+ Criação            Responsável treinado no Ofício cumpre     Confira destruição antes do golpe final. No
+                    projeto e teste; acompanha até o fim da   exemplo publicado, máximo 52 e saldo 8 recebem
+                    Classe, depois exige reconstrução         30 de dano direto: excedente 22, abaixo da metade
+                                                              do máximo; cai sem destruição. Com 35, excedente
+ Maldição           Nível permitido, derrota sem destruição
+ domada             e submissão; conserva o nível em que
+                                                              27 ultrapassa a metade e destrói. Uma ocorrência
+                    foi obtida                                direta que alcance o máximo também destrói; área
+                                                              pode derrubar, mas não destrói por si. Um corpo
+Classe 0 e benefícios fora da lista de espaços não            Desligado exige continuar a conta de excedente.
+fornecem vagas para essa troca. Manejo e Kata                 O mestre pode autorizar tentativa antecipada
+podem prever a entidade, mas não recebem lista de             durante o combate, definindo antes a vida que a
+ritual por isso. Na rota sem energia, os custos usam          permite. Usa Padrão e o mesmo TR, sem um limiar
+Pontos de Esforço e não criam energia amaldiçoada             universal de metade da vida. Domar o Amontoado
+pessoal.                                                      mostra aquisição e estado recebido. Domar não
+Criar ou domar não exige técnica de invocação nem             levanta a criatura ou restaura reservas.
+ocupa espaço apenas pela existência da entidade.
+Ainda exige aquisição e uso regulares. Não há teto            9.5 Trabalho e novas tentativas
+geral de adquiridas; o limite normal é duas ativas,
+                                                              O projeto identifica entidade e invocador,
+salvo permissão específica. Corpos mantidos têm
+                                                              responsável treinado no Ofício compatível,
+sua conta própria.
+                                                              materiais, ferramentas, local, trabalho e espera. A
+Preparar a ficha                                              Classe não supera a de quem cria nem a do
+                                                              invocador. O nível inicial é o do invocador, limitado
+Use Construir invocações para corpo, nível, Classe,           ao fim da Classe escolhida. Cada entidade pede sua
+atributos, testes, Defesa, vida, Famílias, básicas,           tentativa.
+especiais e talentos. Registre anatomia,
+comunicação e Ofício compatível quando exigido.               As horas de dedicação disponíveis não determinam
+Cada capacidade precisa caber na montagem;                    o prazo de criação. O Guia recomenda as
+pontos de construção e PE pagos no uso são contas             referências abaixo para projetos usuais com meios
+diferentes.                                                   adequados. São horas de trabalho por operação;
+                                                              não custos para obter entidades por espaço, ritual
+O Escriba de campo percorre uma construção                    ou doma.
+completa e sua evolução. A folha de entidade
+acompanha aquisição e estado, sem substituir sua               Classe       Criar      Reconstruir      Transferir
+ficha. Uma conversão de inimigo precisa ser                    1                8                -                  2
+preparada nessa escala; ações extras ou turno
+independente do adversário não passam                          2              16                 8                  2
+automaticamente à entidade.                                    3              32                16                  4
+                                                               4              48                24                  6
+Ritual e doma
+                                                               5              72                36                  9
+Na lista de ritual, prepare ficha, começo, espaço do
+desafio, objetivo, vitória, interrupção e falha. O             6              96                48                12
+desafio é individual. A intervenção de um aliado               7             128                64                16
+pode salvar o personagem sem conquistar a
+entidade; aplique os termos preparados. A                     Reconstruir significa passar da Classe anterior para
+prova do Cão de sombra mostra uma entrada                     a indicada. Custa metade da criação da Classe nova,
+completa. A lista não é o gasto de Pontos de Ritual           não a diferença entre os dois tempos. Transferir
+para preparar conjurações.
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                            4
+CICLO MALDITO / GUIA DO MESTRE                                                                     PACTOS E ENTIDADES
+
+
+
+custa um oitavo da criação da Classe da entidade,           Como referência do Guia, cada falha pede mais
+para cima em horas inteiras, mínimo duas. Reparo            50% do trabalho inicial daquela operação, para
+de vida e retorno de queda são outras operações.            cima em horas inteiras, mínimo uma. Preserve
+                                                            partes aproveitáveis e reponha só os consumíveis
+Materiais e etapas                                          anunciados. Esperas não entram nessa divisão.
+Separe peças aproveitáveis, consumíveis por                 Outra cobrança por etapas pode ser combinada
+tentativa e ferramentas ou local de trabalho.               antes do início, com motivo e condições claros.
+Informe quantidade e orçamento antes do gasto.              Uma operação de 32 horas pede 16 de retomada por
+Doação ou estoque disponível evita comprar a                falha: total 48 após uma, 64 após duas. O percentual
+mesma peça; não dispensa o restante. Uma missão             não diminui a cada tentativa. Cumpra os requisitos
+para obter componente precisa de um problema                e obtenha a autorização antes de repetir, com
+que a justifique, sem ser etapa obrigatória de toda         vantagem. Trocar mestre ou ajudante não fornece
+criação.                                                    uma rolagem gratuita.
+Use etapas para explicar e horas para contar. Um
+trabalho de 32 horas pode atravessar ciclos, sem            Criar o Vigia do depósito
+apagar progresso ou exigir blocos diários. Dividi-lo        Rina, nível 13 e Classe 4, prepara o talismã de
+em etapas não cria vários testes. Espera por                Classe 3 para Kaito, nível 9. Tem Caligrafia,
+material fica separada, com supervisão quando               Destreza 4 e Maestria 2. A ficha foi conferida. A
+necessária. Entre missões explica dedicação por             entidade está uma Classe abaixo de Rina:
+ficha e saldo.                                              8 + 4 + 2 − 2 = CD 12; o teste soma +6.
+O mestre pode detalhar outro projeto,                       O projeto local usa 32 horas, ¥24.000 em partes
+identificando trabalho adicional e o que permanece          aproveitáveis e ¥6.000 de consumíveis por tentativa.
+aproveitável. Isso exige acordo antes do início.            Rina completa o trabalho, tira 5 e alcança 11: falha.
+Aparência e personalidade não aumentam o tempo              Conserva o suporte, repõe ¥6.000 e trabalha 16
+por si, e uma parte pronta não precisa ser fabricada        horas de retomada. Na tentativa autorizada, os
+novamente.                                                  dados são 2 e 8; usa 8, soma 6 e chega a 14: sucesso.
+                                                            Foram 48 horas e ¥36.000. O
+Teste e ajuda
+                                                            projeto completo do Vigia liga essas contas à ficha,
+Cumprido o trabalho, role                                   aos ciclos e à evolução. Os preços pertencem ao
+d20 + atributo do Ofício + Maestria. A base da CD           caso. Kaito recebe a entidade com vida máxima,
+é 8 + esse atributo + essa Maestria. Compare a              recolhida no talismã sem carga, de 0,5 Volume.
+Classe da entidade com a do responsável; na                 Manifestar ainda exige o custo normal. Um corpo
+reconstrução, compare a Classe nova.                        criado permanece inativo onde foi construído.
+ Relação de Classes                Criar ou   Reconstruir
+                                 transferir                 9.6 Evolução e continuidade
+ Igual                                   0            −2    Uma criada de Classe 3 acompanha o invocador nos
+                                                            níveis 9–12; ao chegar ao 13, ele precisa reconstruí-
+ Uma abaixo                             −2            −4
+                                                            la para Classe 4 para continuar. As faixas completas
+ Duas ou mais                           −4            −4    estão na Progressão da entidade. A maldição
+ abaixo                                                     domada conserva o nível de aquisição.
+                                                            Reconstruir usa a nova Classe e reduz um degrau
+Some o ajuste à base; igualar a CD é sucesso.
+                                                            de dificuldade, conforme a tabela anterior. Se Rina
+Especialização e outros modificadores permitidos
+                                                            reconstruir para Classe 4, quando Kaito também
+afetam o teste, sem elevar de novo essa base.
+                                                            puder recebê-la, a CD será 12; criar do zero essa
+Nos três trabalhos, ajuda que dê vantagem exige             Classe teria CD 14. A referência é 24 horas, com 12
+treino compatível, permissão do mestre e o mesmo            por falha. Não é reparo de vida, e uma destruída
+tempo de dedicação do responsável. Cada ficha               exige criar outra.
+registra suas horas. Uma habilidade de vantagem
+                                                            É um teste por Classe. Da 1 à 4 são três passagens:
+permanente também pode servir; vantagem ativada,
+                                                            8 + 16 + 24 = 48 horas, além da criação inicial. Uma
+temporária ou por cena não serve. A vantagem da
+                                                            falha na segunda pede mais 8, sem apagar a
+tentativa após falha vem da própria regra e
+continua válida.
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                       5
+CICLO MALDITO / GUIA DO MESTRE                                                                  PACTOS E ENTIDADES
+
+
+
+primeira; ainda faltam a última passagem e seu         Manifestação comum não fornece básica naquele
+teste. Concluir todas, nesse caso, dá 56 horas de      ciclo. Comandar especial normalmente usa a
+reconstrução.                                          Padrão do invocador e a básica da entidade.
+                                                       Recolher e trazer de volta não renova recursos. Esse
+Mudar o invocador                                      ciclo vai do começo de um turno do invocador ao
+Transferência ou herança de talismã ou corpo           próximo, sem relação com os sete dias da guilda.
+criado ocorre fora de combate, com consentimento       Transporte adicional exige capacidade própria,
+do dono anterior ou morte confirmada dele. O novo      ocupando talento, com anatomia, passageiros e
+invocador precisa de Classe igual ou maior que a da    carga definidos. Objetos para terceiros ou
+entidade. Possuir o objeto não transfere o vínculo.    recolhidos pelo caminho caem ao recolher a
+Use o teste de criação, sem a redução de               entidade, salvo permissão expressa. Corpos que
+reconstrução. Para Rina transferir Classe 3, a CD é    permanecem conservam os objetos no lugar.
+12 pela diferença de Classes; na mesma Classe dela     Transporte com entidades mostra embarque,
+seria 14. A referência de Classe 3 é 4 horas, mais 2   retirada e continuidade.
+por falha. Classe 5 pede 9; sua retomada é 5, pois     Inconsciência não é morte. Entidades que
+metade de 9 arredonda para cima.                       permanecem podem seguir ordens anteriores
+Quem conduz registra o próprio trabalho. O             válidas e seus recursos, mas o personagem
+destinatário só recebe cobrança de dedicação pelas     inconsciente não emite comandos novos. Morte
+etapas em que participa ativamente, se previstas. A    confirmada encerra ordens e preparações e retira as
+ajuda válida conserva o mesmo tempo do                 entidades de campo; as que não podem ser
+responsável. Na falha, mantém-se o vínculo             recolhidas ficam Desligadas. Depois, confira a
+anterior ou a ausência de invocador vivo; outra        origem:
+tentativa autorizada tem vantagem.
+                                                        Origem       Depois da morte do invocador
+No sucesso, atualize os valores dependentes do
+                                                        Técnica      Desaparece; corpo autônomo com alma
+novo invocador, preservando Classe, ficha, vida                      fica sob controle do mestre
+atual, usos gastos, queda e carga do talismã. Não há
+recuperação, outra atuação no ciclo ou religamento      Criação      Permanece como objeto; talismã
+de corpo Desligado pela transferência. Os projetos                   conserva carga, corpo fica parado;
+                                                                     herança exige transferência
+de reconstrução e transferência acompanham cada
+conta e resultado.                                      Maldição     Fica livre, sob controle do mestre; pode
+                                                        domada       ser domada por outra pessoa
+Entre cenas e mestres
+Registre estado, recursos, usos, posição, tarefa,      Não antecipe herança enquanto houver apenas
+comunicação e trabalho pendente. Uma ordem             inconsciência ou oportunidades de socorro. A
+precisa poder chegar e ser compreendida. O             consulta de aquisição e estados e a folha da
+vínculo não cria telepatia; a falha de comunicação     entidade conservam o necessário à passagem entre
+pode impedir ordem nova sem apagar uma tarefa          mestres. Confirmar o projeto ou fechar a missão
+válida já recebida.                                    não recupera recursos por si.
+
+
+
+
+PRÉ-1.0 · AMOSTRA DE LEITURA                                                                                    6
+

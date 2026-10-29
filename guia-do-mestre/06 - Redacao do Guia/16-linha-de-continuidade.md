@@ -22,7 +22,7 @@ Use ao encerrar ou interromper uma missão e antes de preparar a seguinte. Regis
 
 **O que não foi confirmado:** hipóteses, promessas, deslocamentos ou intervenções ainda pendentes.
 
-**Próximo preparo escolhido e por quê:**
+**O que preparar para a próxima missão e por quê:**
 
 **Comunicação a outras equipes ou mestres:** quem recebe e quais alterações foram confirmadas.
 
@@ -38,9 +38,9 @@ Acrescente ao registro o que outra pessoa precisa para continuar do ponto certo.
 
 **Recebimento:** quem entrega, quem retoma e quais lacunas ainda precisam ser conferidas. Uma mensagem preparada e um contato efetivamente realizado são estados diferentes.
 
-Na retomada, confira o ponto e os estados antes de pedir a próxima ação. Se faltar um dado que pode alterar o resultado imediato, complete a informação a partir da ficha e dos registros pertinentes. A troca de mestre não concede um novo turno, descanso ou recuperação.
+Na retomada, confira o ponto da interrupção, os recursos e as condições antes de pedir a próxima ação. Se faltar um dado que pode alterar o resultado imediato, complete a informação a partir da ficha e dos registros pertinentes. A troca de mestre não concede um novo turno, descanso ou recuperação.
 
-## Retorno e tarefas de revisão
+## Sugestões e tarefas de revisão
 
 **Observação recebida, contexto e versão usada:** registrar a dificuldade descrita, sem substituir a fala pela solução imaginada.
 
@@ -52,7 +52,7 @@ Na retomada, confira o ponto e os estados antes de pedir a próxima ação. Se f
 
 Use também para dividir tarefas de preparo e registro. Anote a atribuição quando a pessoa a aceitar; manter notas não concede autoridade adicional sobre as fichas.
 
-## Exemplo de uma continuidade possível
+## Exemplo entre três missões
 
 A tabela ilustra os resultados escolhidos para uma sequência dos exemplos. Não define o resultado obrigatório de uma mesa.
 

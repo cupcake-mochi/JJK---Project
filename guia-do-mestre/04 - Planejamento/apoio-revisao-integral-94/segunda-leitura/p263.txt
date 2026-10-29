@@ -1,0 +1,90 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Registre horas, apresente etapas
+Use horas para a contagem e etapas para explicar o
+trabalho. O registro pode ser simples: “32 horas
+necessárias; 20 realizadas; 12 restantes.” Não exige
+uma descrição de cada hora ou postagem diária.
+Uma criação de 32 horas pode ser apresentada
+como oito horas preparando o suporte, dezesseis
+executando a inscrição e oito concluindo o
+processo. Essa divisão é ilustrativa e não cria três
+testes de criação. O teste de conclusão acontece
+quando o trabalho combinado estiver cumprido.
+Não é necessário trabalhar em blocos de quatro
+horas. Interrupções conservam o progresso quando
+a tarefa as comportar. Se uma etapa precisar de
+dedicação contínua, explique essa condição no
+projeto antes do gasto.
+A guilda recomenda 28 horas por ficha a cada ciclo
+de sete dias, com o saldo previsto em Tempo entre
+missões (p. 211). Um projeto de 32 horas pode
+atravessar ciclos; as horas já realizadas ficam no
+projeto. Não se perdem porque a semana terminou
+nem voltam a ser saldo livre.
+Uma espera fica separada. Se a peça chega em dois
+dias, isso não consome automaticamente oito horas
+de dedicação. O personagem pode fazer outro
+trabalho compatível enquanto aguarda. Também
+precisa dispor de tempo na história para executar o
+projeto depois da entrega.
+Calcule os materiais antes de
+começar
+Separe o que fica, o que é consumido e o que
+permite trabalhar.
+Recurso
+O que informar
+Peças aproveitáveis
+Suporte, estrutura ou componentes que permanecem durante o
+processo e podem ser preservados depois de uma falha.
+Consumíveis por tentativa
+Quantidade e custo do que será usado e precisará de reposição caso
+seja necessário tentar de novo.
+Ferramentas e local
+O que já existe, precisa ser comprado, pode ser emprestado ou exige
+acesso específico.
+Use os preços publicados para os componentes aos
+quais se aplicam. Quando o material ainda não tiver
+referência, combine seu orçamento e registre um
+exemplo para consultas futuras. Não transforme o
+preço de um componente no valor universal de uma
+entidade daquela Classe.
+Um material especial pode estar disponível por
+compra, estoque institucional, contato, encomenda
+ou outra oportunidade. Sua obtenção pode virar
+uma missão quando houver um problema que
+justifique esse desenvolvimento; não é uma etapa
+obrigatória de toda criação.
+Receber o material por doação ou já possuí-lo evita
+comprar novamente aquela peça. Isso não dispensa
+os outros requisitos. Ferramentas reutilizáveis não
+são consumidas a cada tentativa, e material caro
+não concede poderes além da ficha aprovada.
+O que acontece na falha
+Como referência, uma nova tentativa exige metade
+do trabalho inicial da operação que falhou,
+arredondada para cima em horas inteiras, com
+mínimo de uma hora. Preserve as partes
+aproveitáveis e reponha os consumíveis anunciados
+no projeto.
+Uma criação de 32 horas exige dezesseis horas de
+retrabalho após uma falha. Se a tentativa seguinte
+também falhar, outra retomada exige mais
+dezesseis: o total chega a 64 horas. A parcela não
+diminui a cada falha e não aumenta sem um critério
+combinado.
+Use o total de dedicação aprovado para aquela
+operação, incluindo ajustes de trabalho que tenham
+sido explicitados. Esperas não entram nessa
+divisão. Uma nova tentativa pode exigir esperar a
+entrega de um consumível que acabou, mas não
+repete uma espera cuja condição já foi cumprida.
+Depois de atender ao retrabalho e aos requisitos, o
+mestre autoriza a tentativa seguinte, com a
+vantagem prevista no Livro de Regras 1.0. Trocar o
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+263

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">O canal das hortas: travessia e apoio na margem inicial</title>
+<desc id="descricao">As margens estão separadas por quatro metros e meio. Há três metros livres para impulso na margem inicial e apoio firme na oposta. A corrente segue para baixo no desenho. Uma grade fica junto à margem inicial, um metro e meio adiante no sentido da corrente. O caminho pela passarela fica fora do recorte.</desc>
+<defs><marker id="seta" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto-start-reverse"><path d="M1,1 L7,4 L1,7" fill="none" stroke="#9e2358" stroke-width="1.4"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;font-size:24px;fill:#251727}.titulo{font-size:28px;font-weight:bold}.menor{font-size:23px}.cota{fill:none;stroke:#9e2358;stroke-width:2}.margem{fill:#f8f1f4;stroke:#a8909c;stroke-width:2}</style>
+<rect width="1100" height="600" fill="white"/>
+<text x="550" y="35" text-anchor="middle" class="titulo">UM TRECHO DE 4,5 m ENTRE APOIOS FIRMES</text>
+<rect x="50" y="100" width="380" height="390" class="margem"/>
+<rect x="430" y="100" width="240" height="390" fill="#e7eff2"/>
+<rect x="670" y="100" width="380" height="390" class="margem"/>
+<text x="240" y="78" text-anchor="middle" class="titulo">MARGEM INICIAL</text>
+<text x="860" y="78" text-anchor="middle" class="titulo">MARGEM OPOSTA</text>
+<path d="M430 140 H670" class="cota" marker-start="url(#seta)" marker-end="url(#seta)"/>
+<rect x="502" y="120" width="96" height="31" fill="white"/><text x="550" y="143" text-anchor="middle">4,5 m</text>
+<path d="M270 200 H430" class="cota" stroke-dasharray="7 6"/>
+<circle cx="430" cy="200" r="7" fill="#9e2358"/><circle cx="670" cy="200" r="7" fill="#9e2358"/>
+<path d="M440 200 H660" class="cota" marker-end="url(#seta)"/>
+<text x="250" y="166" text-anchor="middle" class="menor">3 m livres para impulso</text>
+<text x="820" y="166" text-anchor="middle" class="menor">Chegada no mesmo nível</text>
+<path d="M550 285 V420" class="cota" marker-end="url(#seta)"/>
+<text x="550" y="260" text-anchor="middle" class="menor">Corrente</text>
+<path d="M450 200 V280 M444 200 H456 M444 280 H456" class="cota"/>
+<text x="464" y="244" class="menor">1,5 m</text>
+<g stroke="#251727" stroke-width="3"><path d="M409 267 H435 V293 H409 Z" fill="white"/><path d="M415 267 V293 M422 267 V293 M429 267 V293 M409 280 H435"/></g>
+<path d="M270 338 L410 286" class="cota"/>
+<text x="75" y="353" class="titulo">Grade firme</text>
+<text x="75" y="386">Junto à margem inicial;</text><text x="75" y="418">permite manter a cabeça</text><text x="75" y="450">fora d’água neste caso.</text>
+<text x="860" y="337" text-anchor="middle">Após cruzar:</text><text x="860" y="373" text-anchor="middle" class="titulo">5 min até o coreto</text>
+<text x="550" y="540" text-anchor="middle">Pela passarela pública: 20 min até o coreto, fora deste recorte.</text>
+<text x="550" y="577" text-anchor="middle" class="menor">Esquema sem escala. As cotas indicam as distâncias da travessia.</text>
+</svg>

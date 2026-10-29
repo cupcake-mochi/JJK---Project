@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+    "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md"
+  ],
+  "casos": [
+    {
+      "id": "s064",
+      "fonte_original": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+      "id_prova": "passarela"
+    },
+    {
+      "id": "s065",
+      "fonte_original": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "id_prova": "combinar"
+    },
+    {
+      "id": "s066",
+      "fonte_original": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "id_prova": "portao"
+    },
+    {
+      "id": "s071",
+      "fonte_original": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+      "id_prova": "sineiro"
+    }
+  ]
+}

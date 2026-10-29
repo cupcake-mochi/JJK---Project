@@ -1,0 +1,101 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Explosão custa Média. Seu centro pode ser
+escolhido a até 18 m, com raio de 3 m, respeitando
+percepção, trajeto e cobertura. O ganho é colocar a
+área longe do corpo; não acrescentar dados ou
+beneficiários.
+A aumento de preço precisa sair das parcelas de
+resultado já registradas. Para estas versões, Yara
+retira os pontos necessários da parcela de dano e
+conserva o ponto de cura. Nenhuma função ganha
+pontos com a troca.
+Conferência
+Classe 3
+Classe 4
+Aura retirada
+2 pontos
+2 pontos
+Explosão colocada
+3 pontos
+4 pontos
+Diferença a pagar em resultado
+1 ponto
+2 pontos
+Parcelas antes
+2 de dano + 1 de cura
+3 de dano + 1 de cura
+Parcelas depois
+1 de dano + 1 de cura
+1 de dano + 1 de cura
+Nova conta completa
+9 - 3 - 3 - 3 + 2 = 2
+12 - 4 - 4 - 4 + 2 = 2
+Adicional de Remodelar
+Metade de 3, para cima: 2 PE
+Metade de 4: 2 PE
+Ação e PE totais
+Padrão; 9 + 2 = 11 PE
+Padrão; 12 + 2 = 14 PE
+A nova conta confirma os resultados reduzidos,
+sem recuperar pontos que antes estavam perdidos.
+Há pelo menos um ponto em cada função variável.
+Gesto continua compatível; Toque não entrou na
+montagem, portanto não existe devolução por
+proximidade. Forma Fluida não fornece a redução
+de custo de uma Família à Forma.
+Escolha antes de resolver. Yara define a Classe e a
+troca antes de escolher alvos e rolar. A troca vale
+para aquela conjuração. Na próxima, o feitiço
+conhecido continua tendo Aura; usar Explosão de
+novo exige a permissão e o pagamento
+correspondentes.
+Exemplo com Forma Fluida
+Considere outra aplicação, com 22 PE disponíveis.
+Yara escolhe Classe 3 e Forma Fluida, paga 11 e fica
+com 11 PE. Coloca o centro da Explosão num ponto
+válido a 12 m, incluindo um inimigo e uma aliada
+no raio de 3 m. Escolher exclui a aliada da parte
+nociva.
+O inimigo totaliza 12 no TR Físico e falha contra
+CD 14. O d8 de dano mostra 5; ele recebe 5 antes
+das defesas. Se passasse, receberia 3. O d8
+independente de cura mostra 6; a aliada recupera
+até 6. Estar a 12 m de Yara não a exclui: ela recebe a
+função da área, que tem origem válida a essa
+distância. O alcance de benefício individual de
+Projétil não substitui a Forma Explosão.
+Quando a aplicação termina, não resta uma área de
+dano ou cura. Uma pessoa chegando depois não
+recebe nenhuma das parcelas.
+O que a troca não autoriza
+“Vou tirar a cura e concentrar tudo no ataque.”
+Isso muda uma função e sua distribuição. Forma
+Fluida não autoriza essa conversão. Nesta troca, a
+cura conserva seu ponto; pagar toda a diferença
+apagando uma função também não atende ao
+requisito de manter as funções registradas.
+“O feitiço ficou mais barato, então recupero
+dados.” Remodelar descarta a economia de uma
+peça mais barata. A versão não pode aumentar uma
+parcela nem usar uma devolução antes excedente
+para restaurar o resultado retirado. Refaça sempre a
+montagem inteira e use o limite que efetivamente
+couber.
+“Troco Aura e Escolher ao mesmo tempo.” Forma
+Fluida de nível 15 substitui a troca de uma Melhoria
+por uma troca de Forma. As duas alterações no
+mesmo Desdobramento dependem de Composição
+Técnica, nível 23. Esta ficha ainda não tem essa
+permissão.
+“Compro a opção na hora porque combina com a
+técnica.” Efeito Próprio e gatilhos de Reação
+continuam exigindo registro anterior. A liberdade
+de trocar uma peça publicada não permite inventar
+uma capacidade durante a conjuração.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+203

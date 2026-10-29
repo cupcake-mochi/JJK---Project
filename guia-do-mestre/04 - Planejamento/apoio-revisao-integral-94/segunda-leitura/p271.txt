@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Mordida precisa
+Especial de Classe 1; Toque e Precisão; ataque +6;
+dano 2d8 Perfurante; 3 PE. No crítico, role 4d8. O
+alvo precisa estar a até 1,5 m do cão. Não impõe
+condição.
+A montagem usa 2 pontos. Precisão custa 1, mesmo
+com Mira Livre; Toque devolve esse ponto gasto: 2 -
+1 + 1 = 2 dados de dano. Depois da conquista, Kaito
+paga sua Ação Padrão e 3 PE; o cão precisa
+compreender o comando e ter uma básica
+disponível, que será consumida pela especial.
+Durante esta prova, o cão não executa Mordida
+precisa. Não tem invocador comandando nem
+reserva própria para pagá-la. Isso faz parte da
+configuração anunciada do desafio. A especial
+integra a ficha conquistada; o mestre não pode
+ativá-la de surpresa com energia inventada.
+Farejador
+Talento CE1. Reconhece se houve conjuração onde
+o cão está nas últimas 24 horas e suas Classes, nos
+limites do catálogo do Livro de Regras 1.0. Não
+revela automaticamente o autor nem segue sua rota.
+Depois da conquista, o cão transmite o que
+percebeu pelos latidos e gestos combinados com
+Kaito.
+O turno do adversário
+Para resolver este desafio sem um invocador
+adversário, a proposta dá ao cão uma posição
+própria na Iniciativa, rolada com d20 + Destreza 2.
+No começo de seu turno, renova 9 m de Movimento,
+uma básica e uma Reação. Não recebe Bônus
+independente, ações adicionais ou especiais
+autônomas.
+Essa forma de agir pertence à prova. Depois da
+conquista, o cão usa a iniciativa de Kaito, uma
+básica por ciclo e a Reação coletiva do conjunto,
+conforme Invocações em campo. Não conserva um
+segundo turno de inimigo.
+O mestre conduz o cão com uma intenção simples:
+alcançar Kaito e mordê-lo. Ele usa Movimento para
+chegar até 1,5 m e a básica para Mordida. Se
+precisar Correr, gasta a básica nisso e não morde na
+mesma atuação. Se perder a localização de Kaito,
+procura pelos sentidos e ações disponíveis;
+Farejador não fornece visão através de obstáculos.
+Para a primeira demonstração, use a Defesa fixa 13
+nos ataques recebidos pelo cão. Ele não escolhe
+Bloquear nessa condução, embora o valor conste da
+ficha. Pode usar Brecha quando o gatilho existir,
+gastando sua Reação para uma Mordida. Não
+recebe uma mordida gratuita só porque foi atingido
+ou porque alguém entrou em seu alcance.
+Uma condução posterior pode usar Bloquear e
+outras ações compatíveis, com seus custos.
+Combine essa mudança antes da tentativa: ela
+altera o desafio. As mãos ausentes continuam
+impedindo manobras que as exijam.
+Dois ataques de Kaito
+O exemplo abaixo mostra dois ataques; não fixa o
+resultado da luta nem substitui a ficha completa do
+participante.
+Kaito possui Força 3 e Maestria 1. Seu ataque
+desarmado normal tem +4 para acertar e 1d4 + 3 de
+dano, sem outro modificador. Ele escolhe esse
+ataque porque a prova exige derrotar o cão sem
+destruí-lo. Precisa aproximar-se até 1,5 m e gastar
+sua Ação Padrão para Atacar.
+Com o cão a 12 PV e usando Defesa 13, Kaito obtém
+10 no d20: 10 + 4 = 14, acerto. O d4 mostra 3: 3 + 3 =
+6 de dano. O cão fica com 6 PV. Esse dano não
+alcançou os 12 PV máximos nem o levou a zero.
+Em outra oportunidade válida, um ataque igual
+acerta e causa outros 6. O cão passa de 6 a zero,
+com excedente zero. Uma ocorrência de 6 não
+alcança o máximo 12, e o excedente não supera
+metade dele. Se Kaito ainda satisfizer as condições
+da prova, conquista a entrada.
+Compare com um golpe forte: contra o mesmo cão
+a 6 PV, uma ocorrência de 12 de dano direto já
+alcança sua vida máxima. Ela o destrói, mesmo que
+o excedente seja somente 6. A tentativa falha e a
+entrada é perdida. Declarar que o golpe “era só para
+subjugar” não apaga esse limite.
+Dano em área pode levar a zero, mas não destrói
+por si, conforme o Livro de Regras 1.0. Ele ainda
+precisa respeitar os requisitos da capacidade e as
+condições individuais desta prova. Não transforme
+esta diferença numa redução de dano escolhida
+depois de ver o dado.
+Ajuda, desistência e socorro
+Os colegas podem conversar sobre a preparação
+antes da tentativa e observar de fora. As pessoas na
+mesa continuam podendo esclarecer regras; isso
+não equivale a seus personagens atuarem na cena.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+271

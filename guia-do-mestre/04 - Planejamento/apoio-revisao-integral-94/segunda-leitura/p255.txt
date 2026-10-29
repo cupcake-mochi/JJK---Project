@@ -1,0 +1,104 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Não é dano: não role redução de dano contra a
+perda. Efeitos que respondam simplesmente a estar
+sem energia continuam tendo suas condições
+conferidas.
+Durante o bloqueio, descansos, Refluxo, Overtime,
+concessões de energia temporária e outras fontes
+não conseguem acrescentar PE à pessoa punida.
+Esses eventos conservam os demais efeitos de suas
+regras: um descanso ainda pode recuperar outros
+recursos e renovar usos. Não acumule energia
+negada para recebê-la depois.
+A punição não apaga automaticamente efeitos já
+pagos, não cancela concentração por si só e não
+esvazia a reserva própria de entidades.
+Manutenções que dependam de PE da pessoa
+punida podem falhar nos seus vencimentos, com as
+consequências normais. Capacidades sem custo de
+PE continuam possíveis quando os demais
+requisitos forem cumpridos.
+Ficar sem energia pode ter efeitos próprios graves.
+Núcleo Dependente, por exemplo, fica inativo
+quando não possui PE comuns nem temporários.
+Lia e Akira são humanos neste exemplo;
+transportar a cláusula para outra ficha exige
+examinar seu efeito antes da aceitação. Não há
+perda direta de PV nem morte automática escrita
+nesta cláusula, mas ela pode deixar alguém sem
+recursos para enfrentar um perigo.
+O que encerra o bloqueio
+A reparação faz parte do acordo desde a aceitação.
+Não cabe acrescentar depois uma missão,
+pagamento ou favor para liberar a energia. O
+mestre verifica as entregas escritas; não espera uma
+declaração subjetiva de que a outra parte “se sentiu
+compensada”.
+Se Akira quebrar
+Akira entrega R-17 à Lia ou à caixa R, com capa e 12
+folhas corretas e legíveis. Se houve alteração do
+conteúdo, precisa restaurar as informações
+conferidas na cópia de referência. Um atraso se
+repara pela entrega efetiva, mesmo depois do prazo
+original; não é necessário desfazer o passado.
+Se o original estiver destruído ou fora de seu
+alcance, a substituição previamente permitida é um
+exemplar físico legível, com capa identificada
+como reposição e as mesmas 12 folhas de
+conteúdo, produzido a partir da cópia de referência.
+Não basta depositar uma folha com um endereço
+eletrônico ou prometer reconstruir depois. Se o
+original estiver em sua posse, deve entregá-lo: a
+cópia não permite conservar o original como
+prêmio pela quebra.
+O exemplar substituto encerra o bloqueio conforme
+esta cláusula, mas não torna Akira dono de um
+original que venha a recuperar depois. A devolução
+dos bens continua sendo um assunto da história.
+Desgaste comum que preserve legibilidade e
+conteúdo não exige uma obra melhor que a
+emprestada.
+Se Lia quebrar
+Lia entrega a Akira, ou deposita na caixa A
+indicada por ele antes da aceitação, um conjunto de
+cópias legíveis de R-17 e dos documentos das caixas
+G1 e G2 incluídos na consulta. Acrescenta um
+índice que identifica cada documento, sua ordem e
+onde localizar cada parte. A lista de documentos
+elegíveis é fechada quando aceitam a Promessa;
+materiais acrescentados ao arquivo depois não
+aumentam a reparação.
+Este conjunto é o equivalente acordado para a
+consulta que ela deixou de oferecer. Entrega
+informação já existente e autorizada; não obriga Lia
+a criar pistas, descobrir uma resposta ou garantir
+sucesso na investigação. A caixa A fica em um
+ponto acessível verificado pelos dois. Depositar o
+conjunto completo basta, mesmo que Akira não
+queira lê-lo ou se recuse a falar com Lia. A caixa é
+um meio de entrega, não uma pessoa vinculada ao
+acordo.
+Depois de cumprir a reparação
+A reparação é cumprida quando a entrega posterior
+à quebra satisfaz seus critérios. Não exige um novo
+ritual nem um teste de aprovação da parte
+prejudicada. É permitido receber ajuda de alguém
+disposto, sem obrigá-lo a colaborar ou puni-lo por
+este acordo. Preparar uma cópia antes da quebra
+não é crédito de reparação: é preciso realizar a
+entrega devida depois dela.
+No instante em que a reparação se completa, o
+impedimento cessa. Os PE continuam zerados até
+uma fonte válida recuperá-los. Não repita uma
+recuperação anteriormente bloqueada nem voltar
+no tempo para pagar manutenção vencida. Se uma
+recuperação ocorrer exatamente no instante da
+entrega válida, confira-a depois de encerrar o
+bloqueio.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+255

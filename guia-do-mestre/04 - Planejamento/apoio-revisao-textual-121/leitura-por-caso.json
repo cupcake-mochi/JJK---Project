@@ -1,0 +1,90 @@
+{
+  "registro": 121,
+  "casos": [
+    {
+      "id": "s064",
+      "fonte_original": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+      "sha256_original": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+      "sha256_revisado": "c6369826f02fb2a0943c75bf9ceead48e3c75becd951a417e02bedbcd71b3890",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        1,
+        6
+      ],
+      "paginas_na_prova_final": [
+        1,
+        6
+      ],
+      "registros_por_passagem": {
+        "1": 29,
+        "2": 6
+      },
+      "estado": "duas passagens locais e refinamento relido; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s065",
+      "fonte_original": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256_original": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb",
+      "sha256_revisado": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        6,
+        8
+      ],
+      "paginas_na_prova_final": [
+        6,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 17,
+        "2": 8
+      },
+      "estado": "duas passagens locais e refinamento relido; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s066",
+      "fonte_original": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256_original": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909",
+      "sha256_revisado": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        8,
+        12
+      ],
+      "paginas_na_prova_final": [
+        8,
+        12
+      ],
+      "registros_por_passagem": {
+        "1": 19,
+        "2": 7
+      },
+      "estado": "duas passagens locais e refinamento relido; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s071",
+      "fonte_original": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+      "sha256_original": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b",
+      "sha256_revisado": "5ec375e03e584115ea201bd2b8e6f76e1819e512fd0489dac6cdf7bed7ef4c5f",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        12,
+        15
+      ],
+      "paginas_na_prova_final": [
+        12,
+        15
+      ],
+      "registros_por_passagem": {
+        "1": 13,
+        "2": 4
+      },
+      "estado": "duas passagens locais e refinamento relido; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

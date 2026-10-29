@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Turno de Mei
+Resultado contra a criatura que recebeu a informação
+Turno da revelação
+As rolagens de acerto dos feitiços daquela técnica têm vantagem; os TRs
+da criatura contra esses feitiços têm desvantagem.
+Turno seguinte
+Nenhuma dessas alterações.
+Terceiro turno
+As rolagens de acerto desses feitiços têm desvantagem; os TRs da criatura
+contra eles têm vantagem. Depois, a troca acaba.
+Feitiços Automáticos não mudam. Conte os turnos
+de Mei; a mudança de rodada não adianta uma
+etapa. Não estenda o efeito às técnicas de aliados
+nem a outras criaturas. Repetir informação já
+conhecida ou contar uma mentira não cumpre o
+preço.
+Essa é uma regra específica publicada. Não o
+transforme em permissão genérica para negociar
+bônus de ataque por qualquer revelação.
+Uma Reação depois dos dados
+O exemplo publicado de sacrifício de um braço
+permite ficar com 1 PV quando um golpe levaria o
+personagem a zero. O preço é perder
+permanentemente aquele braço, conforme a
+consequência combinada com o mestre. O modelo
+abaixo aplica essa troca do Livro de Regras 1.0 sem
+exigir conhecimento da cena da obra.
+Em uma situação isolada, Ren tem 6 PV e uma
+Reação disponível. Fora de seu turno, percebe um
+ataque que o acerta; depois das proteções, os dados
+resultam em 9 de dano. Antes de aplicar a
+consequência, propõe o Pacto: sacrificar o braço
+identificado no acordo para permanecer com 1 PV
+naquele golpe. O mestre confere o preço e aprova a
+troca; Ren gasta a Reação. Os dados e o acerto
+permanecem, mas o resultado sobre sua vida é 1
+PV, conforme esse modelo. A perda do braço
+permanece depois da cena.
+Sem Reação disponível ou sem perceber o gatilho,
+Ren não pode firmar esse Pacto naquela janela.
+Depois de resolver o golpe e aplicar a queda, a
+janela já passou. A troca também não protege de
+um segundo ataque nem apaga outras
+consequências não incluídas no benefício. O
+exemplo ensina o momento da decisão, sem
+oferecer qualquer perda corporal como preço
+universal para evitar derrota.
+Pactos de restrição
+Um pacto de restrição registra uma limitação já
+considerada na Origem, no corpo ou na técnica. A
+ficha precisa indicar onde ela foi compensada. Ele
+normalmente ocupa vaga; o Livro de Regras 1.0
+permite ao mestre autorizar sua existência mesmo
+sem vaga.
+Exemplo de conferência. Iara tem Essência 1,
+portanto zero vagas. Sua ficha de criação já contém
+uma limitação e identifica a opção de Origem que a
+considera. O mestre autoriza registrá-la como pacto
+de restrição, pela exceção do Livro de Regras 1.0.
+Iara conserva os efeitos daquela opção; não escolhe
+um novo benefício pelo registro. A autorização não
+abre uma vaga para um Pacto permanente, não
+concede energia nem afasta proibições da sua rota.
+O exemplo resolve a exceção de vaga. Para
+conhecer os efeitos da limitação concreta, consulte
+a opção registrada na ficha; a exceção não é um
+método para criar outra Origem.
+Overtime: jornada e hora extra
+Overtime é um exemplo de pacto permanente de
+energia do Livro de Regras 1.0. A jornada é
+combinada na criação do Pacto e fica fixa. Cada
+hora corresponde a 2,5% do PE máximo: uma
+jornada de oito horas usa 20%.
+Com máximo normal de 40 PE, o personagem tem
+máximo 32 durante a jornada e máximo 48 na hora
+extra. Na passagem entre os dois, recebe 16 PE, a
+diferença entre os máximos. Se tinha 12 PE, passa a
+28; não preenche automaticamente os 48. Aplique o
+arredondamento para baixo previsto no Livro de
+Regras 1.0.
+A contagem começa no início das missões do dia,
+independentemente da hora do relógio. Descanso
+curto não conta como trabalho. Descanso longo
+encerra a hora extra e zera a contagem.
+Exemplo de acompanhamento. A missão começa
+às 9h. O personagem trabalha quatro horas, faz um
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+238

@@ -1,0 +1,97 @@
+CICLO MALDITO / GUIA DO MESTRE
+OS PERSONAGENS
+Condição escolhida
+Preparo concreto deste exemplo
+O que conferir antes de declarar o lugar propício
+Corpo Debilitado
+Abrigo protegido; cobertura opaca sobre
+toda a pele exposta; suporte para
+acomodação e transporte; materiais e
+assistência combinados na ficha
+A luz solar ou lunar realmente alcança a
+pele? Há meios de assistência nas tarefas
+que a personagem não consegue realizar?
+Corpo
+Quebradiço
+Apoio que acomoda o corpo sem exigir que
+sustente o próprio peso; materiais de
+atendimento; transporte; profissional
+treinado em Medicina ou autocuidado
+quando viável
+Quem presta o atendimento? A
+personagem alcança os materiais se for
+cuidar de si? O apoio permanece durante
+a pausa?
+Corpo Exaurido
+Abrigo com os materiais e cuidados
+registrados para a condição; acesso aos
+objetos de uso; ajuda ou transporte
+disponível quando o deslocamento cair a
+zero
+O cuidado combinado pode ser prestado?
+O saldo de vida permite o deslocamento
+leve? Como continuar se for necessário
+transportar?
+No posto de Nilo, o apoio está instalado e os
+materiais ficam ao alcance das mãos. Como é
+treinado em Medicina e está capaz, pode fazer seu
+atendimento quando essas condições bastarem ao
+trabalho. Em outra situação, alguém treinado pode
+atendê-lo. A regra não exige automaticamente um
+teste, uma tarifa ou horas extras para reconhecer
+todo cuidado; descreva a necessidade concreta
+antes de exigir um teste ou outro gasto.
+Alternativa em viagem. O grupo prepara um
+veículo com o apoio e os meios correspondentes.
+Ele pode servir como ambiente propício se a
+situação realmente permitir repouso. Estar dentro
+do veículo em perseguição não transforma o
+intervalo em descanso seguro. A casa de uma escola
+também pode deixar de ser propícia se faltar o
+atendimento exigido.
+Cuidados com cada condição
+Exposição no Corpo Debilitado
+Uma fresta deixa a luz da lua alcançar a pele
+exposta. Ao fim do turno, o dado mostra 3 no d4: 3
+de dano Radiante, sem TR. Cobrir toda a área
+exposta com material opaco impede a próxima
+incidência por essa regra. Luz artificial, sozinha,
+não aciona esse dano.
+A cobertura é um recurso real do preparo; não se
+presume perfeita após rasgar ou cair. Também não
+precisa virar uma nova peça mágica para proteger
+da exposição. Confira antes como está sendo usada.
+Corpo Quebradiço e Corpo Exaurido não recebem
+queimaduras lunares por analogia.
+Cura no Corpo Quebradiço
+Nilo está com 8 de 16 PV. Um efeito compatível
+cura 6; ele passa a 14 de 16, sem dividir a cura
+novamente. Um descanso longo propício restaura
+seu máximo reduzido de 16, não os 32 anteriores à
+condição. Cura comum não remove a limitação
+congênita.
+Recuperação no Corpo Exaurido
+Para comparar, uma personagem de Corpo
+Exaurido tem máximo 32 PV e saldo 8. Ao concluir
+um descanso longo propício, recupera 25% de 32 =
+8 PV: fica com 16. A recuperação do descanso não é
+dividida outra vez.
+O limite de deslocamento é metade do máximo, 16
+PV. Com 16 ou menos, seu deslocamento próprio é
+zero. Depois, uma cura compatível de 7 recupera
+metade, para baixo = 3 PV; ela chega a 19 e volta a
+poder caminhar até 4,5 m nas condições descritas
+pela habilidade.
+Se aquele descanso longo ocorrer fora de ambiente
+propício, os 8 PV iniciais permanecem: o corpo não
+recupera vida pela pausa. Os demais recursos
+seguem suas regras, inclusive PE. Isso não
+transforma Corpo Exaurido num degrau
+permanente de Exaustão, não impõe Atordoado e
+não retira decisões ou consciência.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+186

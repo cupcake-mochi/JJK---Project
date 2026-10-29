@@ -1,0 +1,116 @@
+{
+  "registro": 120,
+  "fontes": [
+    {
+      "id": "perigos",
+      "fonte_id": "s078",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "fonte_original": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "titulo": "Perigos do ambiente",
+      "sha256": "c3a3adafeb91ce9a687436efeae9f08c907b015504b113f291e40066f3e4c000",
+      "sha256_original": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d"
+    },
+    {
+      "id": "amontoado",
+      "fonte_id": "s057",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "fonte_original": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "titulo": "O encontro do Amontoado",
+      "sha256": "36e2cdb04da5698d85d4e99e7f99fc3f03cf6eeea57afc9513346830920d6780",
+      "sha256_original": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0"
+    },
+    {
+      "id": "corredor",
+      "fonte_id": "s062",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "fonte_original": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "titulo": "O Carregador no depósito",
+      "sha256": "bf8050674e0622b049b228f45d976299ea582fe5708444c622d41cff11afa8eb",
+      "sha256_original": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f"
+    },
+    {
+      "id": "doma",
+      "fonte_id": "s063",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "fonte_original": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "titulo": "Carregador: ficha e Doma",
+      "sha256": "9134b075dddaf279dfc2d0dc177180fe355493dcb476fb0b517c3ed281b4f38f",
+      "sha256_original": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html",
+  "html_sha256": "7f3f72c38ada0e0fdf2b8a0301942c8327a6a0ad17a7416de2405b32b29f67a4",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-120/output/pdf/Ciclo-Maldito-Perigos-e-Carregador-Revisao-Textual.pdf",
+  "pdf_sha256": "b8cd52c4485156f9578e86ff9a6c95d7597f31a95945d5dbe086cd1a9e384755",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 622
+    },
+    {
+      "pagina": 2,
+      "palavras": 643
+    },
+    {
+      "pagina": 3,
+      "palavras": 688
+    },
+    {
+      "pagina": 4,
+      "palavras": 550
+    },
+    {
+      "pagina": 5,
+      "palavras": 687
+    },
+    {
+      "pagina": 6,
+      "palavras": 562
+    },
+    {
+      "pagina": 7,
+      "palavras": 627
+    },
+    {
+      "pagina": 8,
+      "palavras": 372
+    },
+    {
+      "pagina": 9,
+      "palavras": 571
+    },
+    {
+      "pagina": 10,
+      "palavras": 607
+    },
+    {
+      "pagina": 11,
+      "palavras": 704
+    },
+    {
+      "pagina": 12,
+      "palavras": 681
+    },
+    {
+      "pagina": 13,
+      "palavras": 405
+    },
+    {
+      "pagina": 14,
+      "palavras": 676
+    },
+    {
+      "pagina": 15,
+      "palavras": 555
+    },
+    {
+      "pagina": 16,
+      "palavras": 698
+    },
+    {
+      "pagina": 17,
+      "palavras": 81
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas complementares, conferência global e integração continuam pendentes."
+}

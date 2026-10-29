@@ -1,0 +1,335 @@
+{
+  "registro": 109,
+  "secoes": [
+    {
+      "destino": "N09.1",
+      "titulo_planejado": "9.1 Preço e benefício de um Pacto",
+      "titulo_de_leitura": "9.1 Preço e benefício",
+      "ancora": "91-preco-e-beneficio",
+      "fontes_preservadas": [
+        {
+          "id": "s041",
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "id": "s042",
+          "fonte": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+          "sha256": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d",
+          "destino_principal": "A5.8",
+          "usos_complementares": [
+            "N09.1",
+            "N09.3"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N09.2",
+      "titulo_planejado": "9.2 Desenvolver e avaliar uma troca",
+      "titulo_de_leitura": "9.2 Desenvolver uma troca",
+      "ancora": "92-desenvolver-uma-troca",
+      "fontes_preservadas": [
+        {
+          "id": "s041",
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "id": "s047",
+          "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "sha256": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+          "destino_principal": "N09.2",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "id": "s048",
+          "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+          "sha256": "2fa53f0064d52e6ba20afeba643acea0f4b2d7a851e270dd6f0316f82f108d1c",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.2"
+          ]
+        },
+        {
+          "id": "s049",
+          "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+          "sha256": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.2"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N09.3",
+      "titulo_planejado": "9.3 Promessas entre pessoas",
+      "titulo_de_leitura": "9.3 Promessas entre pessoas",
+      "ancora": "93-promessas-entre-pessoas",
+      "fontes_preservadas": [
+        {
+          "id": "s041",
+          "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "sha256": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+          "destino_principal": "N09.1",
+          "usos_complementares": [
+            "N09.2",
+            "N09.3",
+            "A5.8"
+          ]
+        },
+        {
+          "id": "s050",
+          "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "sha256": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+          "destino_principal": "N09.3",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "id": "s042",
+          "fonte": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+          "sha256": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d",
+          "destino_principal": "A5.8",
+          "usos_complementares": [
+            "N09.1",
+            "N09.3"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N09.4",
+      "titulo_planejado": "9.4 Obter e criar entidades",
+      "titulo_de_leitura": "9.4 Obter uma entidade",
+      "ancora": "94-obter-uma-entidade",
+      "fontes_preservadas": [
+        {
+          "id": "s063",
+          "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+          "sha256": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N06.2",
+            "N09.4"
+          ]
+        },
+        {
+          "id": "s072",
+          "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+          "sha256": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s043",
+          "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "sha256": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+          "destino_principal": "N09.4",
+          "usos_complementares": [
+            "N09.6",
+            "B5"
+          ]
+        },
+        {
+          "id": "s051",
+          "fonte": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+          "sha256": "073874080ae38f16be4665142fd27a954587aed3f49157b408622daa5573bada",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4"
+          ]
+        },
+        {
+          "id": "s052",
+          "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "sha256": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s053",
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s044",
+          "fonte": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+          "sha256": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+          "destino_principal": "A5.9",
+          "usos_complementares": [
+            "N09.4",
+            "N09.5",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "x002",
+          "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+          "sha256": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+          "destino_principal": "N01.5",
+          "usos_complementares": [
+            "N06.2",
+            "N09.4"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N09.5",
+      "titulo_planejado": "9.5 Trabalho, materiais e novas tentativas",
+      "titulo_de_leitura": "9.5 Trabalho e novas tentativas",
+      "ancora": "95-trabalho-e-novas-tentativas",
+      "fontes_preservadas": [
+        {
+          "id": "s045",
+          "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "sha256": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+          "destino_principal": "N09.5",
+          "usos_complementares": [
+            "B5",
+            "N08.2"
+          ]
+        },
+        {
+          "id": "s055",
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s044",
+          "fonte": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+          "sha256": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+          "destino_principal": "A5.9",
+          "usos_complementares": [
+            "N09.4",
+            "N09.5",
+            "N09.6"
+          ]
+        }
+      ]
+    },
+    {
+      "destino": "N09.6",
+      "titulo_planejado": "9.6 Evolução, transferência e continuidade",
+      "titulo_de_leitura": "9.6 Evolução e continuidade",
+      "ancora": "96-evolucao-e-continuidade",
+      "fontes_preservadas": [
+        {
+          "id": "s072",
+          "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+          "sha256": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+          "destino_principal": "B2",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s043",
+          "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "sha256": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+          "destino_principal": "N09.4",
+          "usos_complementares": [
+            "N09.6",
+            "B5"
+          ]
+        },
+        {
+          "id": "s046",
+          "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+          "sha256": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191",
+          "destino_principal": "N09.6",
+          "usos_complementares": [
+            "B5"
+          ]
+        },
+        {
+          "id": "s052",
+          "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "sha256": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s053",
+          "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "sha256": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.4",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s054",
+          "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "sha256": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.6",
+            "N04.7"
+          ]
+        },
+        {
+          "id": "s055",
+          "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "sha256": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+          "destino_principal": "B5",
+          "usos_complementares": [
+            "N09.5",
+            "N09.6"
+          ]
+        },
+        {
+          "id": "s044",
+          "fonte": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+          "sha256": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+          "destino_principal": "A5.9",
+          "usos_complementares": [
+            "N09.4",
+            "N09.5",
+            "N09.6"
+          ]
+        }
+      ]
+    }
+  ],
+  "casos_completos": "04 - Planejamento/apoio-consultas-105/casos-completos.html#B5",
+  "limite": "Localização das fontes e exposição principal reorganizada; não declara nova revisão semântica integral dos casos extensos ou equilíbrio dos modelos experimentais."
+}

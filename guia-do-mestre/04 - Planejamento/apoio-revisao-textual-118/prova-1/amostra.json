@@ -1,0 +1,141 @@
+{
+  "registro": 118,
+  "fontes": [
+    {
+      "id": "movimento",
+      "fonte_id": "s084",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+      "fonte_original": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+      "titulo": "Movimento, saltos e quedas",
+      "sha256": "c115009b47b72c4818859f62485dcf2b20aa181e694b09b08c67ae3bacc9f5db",
+      "sha256_original": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983"
+    },
+    {
+      "id": "ferramentas",
+      "fonte_id": "s085",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "fonte_original": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+      "titulo": "Ferramentas e improvisação",
+      "sha256": "fc33532c3aef306b9bc4b78f15a094033efdc350af203533ac61dbb2be77aeaa",
+      "sha256_original": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe"
+    },
+    {
+      "id": "socorro",
+      "fonte_id": "s022",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+      "fonte_original": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+      "titulo": "Quedas e socorro",
+      "sha256": "76691c43c08c7f83f9ce2df686e633f725eb60378e5ea5b4c5ac594be2421bd8",
+      "sha256_original": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb"
+    },
+    {
+      "id": "recuperacao",
+      "fonte_id": "s023",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+      "fonte_original": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+      "titulo": "Retirada e recuperação",
+      "sha256": "b8f72295dd07a72b7473dbb59b1cf18c7d2b1facbac98f583397ff1e6d41d794",
+      "sha256_original": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540"
+    },
+    {
+      "id": "passagem",
+      "fonte_id": "s081",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+      "fonte_original": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+      "titulo": "Passar a missão entre mestres",
+      "sha256": "c4b37c3f01e2e9f0704f25894ae1a5ebeb29e98126fa6688b1be9dfcae6111c2",
+      "sha256_original": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html",
+  "html_sha256": "5c94908d623fceb358e39d52d35c949d16c2f4863046a9f5978ff22c8b9802bb",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-118/output/pdf/Ciclo-Maldito-Movimento-Socorro-e-Continuidade-Revisao-Textual.pdf",
+  "pdf_sha256": "dd02074b5cc0f77e73416fe0287fcc9a40285225bd824bdaf0e56b21d2946d16",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 660
+    },
+    {
+      "pagina": 2,
+      "palavras": 610
+    },
+    {
+      "pagina": 3,
+      "palavras": 727
+    },
+    {
+      "pagina": 4,
+      "palavras": 406
+    },
+    {
+      "pagina": 5,
+      "palavras": 599
+    },
+    {
+      "pagina": 6,
+      "palavras": 652
+    },
+    {
+      "pagina": 7,
+      "palavras": 633
+    },
+    {
+      "pagina": 8,
+      "palavras": 543
+    },
+    {
+      "pagina": 9,
+      "palavras": 610
+    },
+    {
+      "pagina": 10,
+      "palavras": 666
+    },
+    {
+      "pagina": 11,
+      "palavras": 579
+    },
+    {
+      "pagina": 12,
+      "palavras": 230
+    },
+    {
+      "pagina": 13,
+      "palavras": 643
+    },
+    {
+      "pagina": 14,
+      "palavras": 571
+    },
+    {
+      "pagina": 15,
+      "palavras": 552
+    },
+    {
+      "pagina": 16,
+      "palavras": 557
+    },
+    {
+      "pagina": 17,
+      "palavras": 143
+    },
+    {
+      "pagina": 18,
+      "palavras": 373
+    },
+    {
+      "pagina": 19,
+      "palavras": 367
+    },
+    {
+      "pagina": 20,
+      "palavras": 594
+    },
+    {
+      "pagina": 21,
+      "palavras": 367
+    }
+  ],
+  "limite": "Cinco casos revistos; demais lotes, consultas complementares, conferência global e integração continuam pendentes."
+}

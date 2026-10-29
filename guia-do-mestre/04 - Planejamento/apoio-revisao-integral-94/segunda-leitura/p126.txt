@@ -1,0 +1,105 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+sob ele está desocupado na abertura. Não há
+soterramento nem ataque de escombros
+preparado. Se os jogadores colocarem uma criatura
+sob outra, use Queda sobre uma criatura do Livro
+de Regras 1.0 para a possibilidade de impacto,
+tamanhos e divisão do dano, em vez de duplicar os
+2d6. Uma capacidade que retire ou sustente alguém
+antes da perda de apoio resolve o que efetivamente
+permitir.
+Ter Reação disponível não concede uma tentativa
+universal de agarrar a borda ou apanhar um
+companheiro que já caiu. Preparar responde depois
+do gatilho terminar, com alcance e ação válidos:
+“quando o pino começar a sair, corro para o
+patamar” permite uma resposta antes da ruptura;
+“quando ela cair, seguro antes da queda” não
+retrocede um impacto já resolvido. Descreva
+gatilhos que os participantes possam perceber e
+cumpra seus prazos. Aptidões específicas de
+proteção conservam seus próprios momentos.
+Uma queda de 6 m resolve o impacto
+imediatamente. Não abra um turno comum no ar
+para curar ou decidir o destino. Se a queda levar a
+zero de vida, siga as regras de Quedas e socorro (p.
+73): zero de vida, participação, atendimento e
+derrota são acontecimentos distintos.
+Socorrer e retirar o grupo
+O piso inferior permite atendimento; chegar até
+uma vítima ainda exige trajeto, ações e alcance.
+Quem está em cima deve descer por uma escada ou
+usar outro meio válido. Não use o fim da contagem
+como recuperação nem transporte instantâneo.
+Uma pessoa que Insiste pode continuar agindo
+dentro de seus limites. Aguentar, inconsciência ou
+derrota mudam o que ela pode fazer. A janela de
+socorro e o dano posterior seguem o Livro de
+Regras 1.0; não são pausados enquanto outra pessoa
+busca uma corda. O impacto acontece uma vez por
+queda, e estar deitado no piso inferior não causa
+novas parcelas de 2d6 a cada rodada.
+Para retirar alguém disposto ou inconsciente, conte
+corpo em kg ÷ 12, itens e equipamento de quem
+transporta. Ajudar não fornece capacidade
+ilimitada. A escada vertical não admite o arrasto
+pelo chão: carregar um corpo nela exige meios de
+segurá-lo e manter apoios, além dos limites de
+carga e custo de escalada. Se isso não for
+executável, não faça uma rolagem para autorizar
+mãos ou suporte inexistentes. Organize
+atendimento no piso firme e busque um meio
+apropriado, como capacidade de transporte
+compatível ou equipamento de resgate real.
+O grupo pode voltar ao Oeste pela rota disponível
+sem recuperar a peça ou a passagem. Se alguém
+estiver do outro lado do vão após a ruptura, registre
+uma rota de saída própria: salto válido, escadas ou
+habilidade. Não descreva todos como retirados
+quando alguém continua no piso inferior
+precisando de atendimento.
+Depois da parada, não ligue o guincho novamente
+para estender a cena. Uma reativação deliberada
+precisa de nova avaliação do estado da estrutura; o
+marcador não retorna a zero como se fosse reparo.
+Desligar o motor ou trocar o pino não restaura o
+suporte já deformado. Reparos exigem seu próprio
+projeto e responsável; este caso termina com
+interdição e registro, sem conceder reparo
+instantâneo ou tabela nova de fabricação.
+Exemplos de condução
+Parada antes da ruptura. Uma personagem sem
+penalidades, deslocamento 9 m e mão livre, começa
+na posição inicial. Já sabe onde está a alavanca. Em
+seu turno, percorre os 9 m pela travessia superior e
+usa Padrão para desligar. Os apoios ainda existem.
+A contagem congela em zero, se isso ocorrer na
+rodada 1 antes da fase ambiental. Ela não precisa
+saltar nem rolar um teste para cruzar a passarela
+intacta. A equipe interdita a passagem avariada; a
+solução rápida é válida.
+Via inferior, sem usar a passarela. Uma
+personagem com deslocamento 9 m usa
+Movimento, Bônus convertida e Correr na rodada 1:
+27 m de movimento, sem operar a parada. Na
+rodada 2, faltam 12 m dos 39; Movimento e Bônus
+convertida oferecem 18 m. A Padrão continua
+disponível para puxar a alavanca. Interrompe a
+tração antes da segunda fase ambiental. Esse
+exemplo presume a escada livre e mãos/apoios
+adequados; ninguém recebe movimento simultâneo
+automático para acompanhá-la.
+Fracasso e resgate. Se a tração chegar ao terceiro
+avanço, uma pessoa ainda sobre o trecho móvel cai.
+Num resultado ilustrativo de 3 e 4, recebe 7 de
+Concussão, antes das proteções. Com 10 PV e
+nenhuma proteção aplicável, termina com 3 PV e
+Derrubada. Com 5 PV, chega a zero e aplica Vida a
+zero, sem converter isso em morte automática. O
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+126

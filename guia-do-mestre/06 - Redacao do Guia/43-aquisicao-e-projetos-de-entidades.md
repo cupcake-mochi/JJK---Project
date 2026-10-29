@@ -1,8 +1,8 @@
-# Aquisição e projetos de entidades
+# Obter e criar entidades
 
 Uma entidade é uma criatura com ficha própria. Comece perguntando qual trabalho ela fará na equipe e como o personagem poderá obtê-la. Uma ave de papel pode servir de vigia, mas sua aparência não concede visão compartilhada, telepatia ou capacidade de transportar pessoas.
 
-Este procedimento ajuda o mestre a conferir a aquisição e acompanhar sua continuidade. A montagem completa usa **Construir invocações**, na R53; atuação, custos de entrada e estados usam **Invocações em campo**. Use a [folha de entidade](44-registro-de-aquisicao-e-estado-de-entidade.md) para deixar as decisões disponíveis aos próximos mestres.
+Esta seção ajuda a conferir como a entidade é obtida e o que acontece com ela depois. A montagem completa usa **Construir invocações**, no Livro de Regras 1.0; atuação, custos de entrada e estados usam **Invocações em campo**. Use a [folha de entidade](44-registro-de-aquisicao-e-estado-de-entidade.md) para deixar as decisões disponíveis aos próximos mestres.
 
 ## Escolha a forma de aquisição
 
@@ -17,7 +17,7 @@ Classe 0 e benefícios recebidos fora da lista de espaços não dão vagas para 
 
 Fabricar ou domar não exige técnica de invocação nem ocupa espaço conhecido apenas pela existência da entidade. Ainda é preciso cumprir a aquisição, pagar os usos e respeitar seus limites. Não há teto geral de entidades adquiridas, mas o limite normal é **duas ativas ao mesmo tempo**, salvo uma permissão específica. Corpos mantidos têm uma conta própria.
 
-## Confira a ficha antes de cobrar a aquisição
+## Prepare a ficha antes da tentativa
 
 Registre origem, corpo, nível, Classe, definição, anatomia, comunicação e ofício compatível quando exigido. Confira atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos usando a progressão da entidade. Cada habilidade precisa caber no orçamento dela; pontos de montagem e PE de uso são contas diferentes.
 
@@ -27,21 +27,21 @@ Separe três perguntas:
 - **A ficha possui a capacidade?** Parecer uma ave não concede automaticamente todos os sentidos e poderes imaginados pelo jogador.
 - **Como a informação chega ao invocador?** A criatura pode perceber uma pista sem conseguir descrevê-la por fala ou telepatia.
 
-O **Cão de sombra** e o **Vigia de papel**, na R53, são exemplos completos de construção. Use-os para conferir o caminho entre definição e números, sem transferir seus talentos gratuitamente a outras entidades.
+O **Cão de sombra** e o **Vigia de papel**, no Livro de Regras 1.0, são exemplos completos de construção. Use-os para conferir o caminho entre definição e números, sem transferir seus talentos gratuitamente a outras entidades.
 
-[Construir e evoluir o Escriba de campo](53-construir-e-evoluir-o-escriba.md) percorre uma ficha original, compara as compras, propõe um talento de informação e acompanha a evolução. Use o caso junto do procedimento de [avaliação de criações](29-avaliar-tecnicas-e-criacoes.md).
+[Construir e evoluir o Escriba de campo](53-construir-e-evoluir-o-escriba.md) percorre uma ficha original, compara as compras, propõe um talento de informação e acompanha a evolução. Use o caso junto das orientações de [avaliação de criações](29-avaliar-tecnicas-e-criacoes.md).
 
-## Prepare a submissão de uma lista de ritual
+## Preparar uma lista de ritual
 
-Antes de liberar a tentativa, escreva a entrada da lista: ficha, condição para começar, espaço do desafio, objetivo, resultado da vitória e como a tentativa termina. Confira também o procedimento de interrupção ou falha. O jogador precisa conhecer esses termos antes de investir recursos.
+Antes de liberar a tentativa, escreva a entrada da lista: ficha, condição para começar, espaço do desafio, objetivo, resultado da vitória e como a tentativa termina. Confira também o que acontece se houver interrupção ou falha. O jogador precisa conhecer esses termos antes de investir recursos.
 
 O desafio é **individual**. Ajuda de outra criatura não conta como vitória individual. Se aliados intervêm, resolva a intervenção e aplique o resultado previsto na ficha do ritual; não declare que a participação ficou invisível para o requisito. Uma intervenção pode salvar o personagem sem conquistar a entidade.
 
-[A prova do Cão de sombra](51-ritual-do-cao-de-sombra.md) apresenta uma entrada completa, com ficha da R53 e condições locais propostas: espaço, começo, vitória, ajuda, falha e estado da entidade ao terminar.
+[A prova do Cão de sombra](51-ritual-do-cao-de-sombra.md) apresenta uma entrada completa, com ficha do Livro de Regras 1.0 e condições locais propostas: espaço, começo, vitória, ajuda, falha e estado da entidade ao terminar.
 
 A lista de ritual não é o uso dos Pontos de Ritual para preparar uma conjuração. Uma não concede os benefícios da outra. A autorização de trocar um espaço por entidade também não cria uma lista ilimitada.
 
-## Doma: anuncie o resultado possível antes da tentativa
+## Domar uma maldição
 
 Na doma de uma maldição, o grupo pode ajudar na luta. O personagem só pode obter uma maldição de nível igual ou inferior ao seu. Derrotá-la sem destruí-la permite, fora de combate, um **TR Espírito da maldição contra a CD de conjuração da rota do personagem**.
 
@@ -52,17 +52,17 @@ Na doma de uma maldição, o grupo pode ajudar na luta. O personagem só pode ob
 
 Esse resultado impede repetir o teste sobre a mesma maldição até ela falhar. Com CD 12, total 11 permite domar; total 12 exorciza.
 
-Apresente previamente a ficha jogável que resultará da aquisição. Conserve identidade e funções, ajustando a construção à escala de entidade. Não transfira automaticamente ações extras de inimigo nem um turno independente. As [conversões da base pequena do piloto](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>) mostram três resultados experimentais preparados com a R53; seus números não vêm do Bestiário antigo.
+Apresente previamente a ficha jogável que resultará da aquisição. Conserve identidade e funções, ajustando a construção à escala de entidade. Não transfira automaticamente ações extras de inimigo nem um turno independente. As [conversões de Três maldições para a missão](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>) mostram três resultados experimentais preparados com o Livro de Regras 1.0; seus valores ainda precisam de avaliação em mesa.
 
-**Antes do golpe final.** Confira destruição com a ficha do encontro. No exemplo publicado da R53, uma entidade com 52 PV máximos e 8 atuais recebe 30 de dano direto: o excedente é 22, abaixo de metade do máximo, e ela cai sem ser destruída. Com 35 de dano direto, o excedente é 27, acima da metade, e ela é destruída. Uma ocorrência direta que alcance a vida máxima também destrói. Dano em área pode derrubar, mas não destrói por si; dano posterior em um corpo Desligado exige acompanhar o excedente pelas regras próprias.
+**Antes do golpe final.** Confira destruição com a ficha do encontro. No exemplo publicado do Livro de Regras 1.0, uma entidade com 52 PV máximos e 8 atuais recebe 30 de dano direto: o excedente é 22, abaixo de metade do máximo, e ela cai sem ser destruída. Com 35 de dano direto, o excedente é 27, acima da metade, e ela é destruída. Uma ocorrência direta que alcance a vida máxima também destrói. Dano em área pode derrubar, mas não destrói por si; dano posterior em um corpo Desligado exige acompanhar o excedente pelas regras próprias.
 
-A doma não limpa a queda nem restaura recursos. Registre o estado na ficha resultante, respeitando os máximos e o retorno aplicável.
+A Doma não faz uma criatura caída se levantar nem restaura seus recursos. Registre o estado na ficha resultante, respeitando os máximos e o retorno aplicável.
 
 O mestre pode autorizar uma tentativa durante o combate, antes da derrota. Nesse caso, define a quantidade de vida que permite tentar; o personagem gasta **Ação Padrão** e resolve o mesmo TR, com os mesmos resultados. Informe a condição autorizada antes da tentativa. Não há regra geral de metade da vida nem penalidade automática no TR por estar ferida.
 
-[Domar o Amontoado do depósito](52-domar-o-amontoado.md) conduz a aquisição completa: apresenta a conversão, mostra a derrota sem destruição, resolve o TR e registra o estado recebido. Também compara a tentativa antecipada, sem estabelecer um limiar geral.
+[Domar o Amontoado do depósito](52-domar-o-amontoado.md) conduz a aquisição completa: apresenta a conversão, mostra a derrota sem destruição, resolve o TR e registra o estado recebido. Também compara a tentativa antecipada, sem definir uma quantidade de vida que sirva para toda Doma.
 
-## Criação: combine o projeto antes de começar
+## Criar uma entidade
 
 Shikigamis de criação usam talismãs; corpos amaldiçoados de criação usam peças. O mestre define a oportunidade e o custo de tempo e materiais. O responsável precisa ser treinado no **ofício compatível registrado na ficha** e pode criar para si ou para outro invocador, identificado antes do teste.
 
@@ -79,11 +79,11 @@ Confira os seguintes pontos na [ficha de projeto](38-ficha-de-projeto-e-entrega.
 | Teste | Responsável, atributo adequado, Maestria, Classe comparada e modificadores válidos. |
 | Falha | Entidade ainda sem funcionar; condições para autorizar outra tentativa, incluindo trabalho ou materiais necessários. |
 
-**As horas disponíveis no ciclo não definem a duração de uma entidade.** Um projeto não passa a custar 28 horas porque esse é o orçamento semanal. Depois de combinado o prazo do projeto, distribua seu trabalho nos registros de cada participante, conforme [Tempo entre missões](39-atividades-e-tempo-entre-missoes.md).
+**As horas disponíveis no ciclo não definem quanto tempo leva para criar uma entidade.** Um projeto não passa a custar 28 horas porque esse é o orçamento semanal. Depois de combinado o prazo do projeto, distribua seu trabalho nos registros de cada participante, conforme [Tempo entre missões](39-atividades-e-tempo-entre-missoes.md).
 
 Não cobre uma hora duas vezes da mesma ficha. Quando houver ajudante válido, cada personagem registra o tempo que efetivamente dedicou. Duas fichas da mesma pessoa têm disponibilidades independentes; isso não transforma o saldo de uma em horas trabalhadas pela outra.
 
-O Guia oferece referências de trabalho, orçamento e retomada em [Tempo, materiais e retomada de entidades](45-tempo-materiais-e-retomada-de-entidades.md), com procedimento simples e opção detalhada. Use-as para preencher o projeto antes do início.
+O Guia oferece referências de trabalho, orçamento e retomada em [Tempo e materiais para criar entidades](45-tempo-materiais-e-retomada-de-entidades.md), com uma opção simples e outra detalhada. Use-as para preencher o projeto antes do início.
 
 ## Resolva o teste de criação
 
@@ -97,7 +97,7 @@ Depois de cumprir o trabalho combinado, o responsável rola **d20 + atributo ade
 
 Igualar a CD é sucesso. Especialização e outros modificadores alteram a rolagem conforme suas regras; não aumentam novamente a base da CD.
 
-**Exemplo da R53.** Uma calígrafa de nível 13, Destreza 4 e Maestria 2 prepara uma entidade de Classe 3 para um invocador de nível 9. A Classe da calígrafa é 4, portanto a entidade está uma abaixo. A CD é **8 + 4 + 2 − 2 = 12**. O teste é **d20 + 6**: resultado 6 no dado basta. A entidade começa no nível 9. O nível da calígrafa não a faz começar no nível 13.
+**Exemplo do Livro de Regras 1.0.** Uma calígrafa de nível 13, Destreza 4 e Maestria 2 prepara uma entidade de Classe 3 para um invocador de nível 9. A Classe da calígrafa é 4, portanto a entidade está uma abaixo. A CD é **8 + 4 + 2 − 2 = 12**. O teste é **d20 + 6**: resultado 6 no dado basta. A entidade começa no nível 9. O nível da calígrafa não a faz começar no nível 13.
 
 ### Ajuda e nova tentativa
 
@@ -107,7 +107,7 @@ O ajudante não fornece outra tentativa para a mesma entidade nem reduz automati
 
 Se a calígrafa do exemplo tirar 5, seu total será 11: a entidade ainda não funciona. A nova tentativa ocorre quando o mestre permitir e tem vantagem. Se, nessa tentativa autorizada, os dados forem 2 e 8, use 8: total 14, sucesso. Essa resolução não define quantas horas ou quais materiais foram necessários entre as tentativas; tais exigências pertencem ao projeto, comunicadas previamente.
 
-A falha não autoriza inventar depois uma perda total de materiais, destruição da ficha ou rolagens gratuitas até funcionar. Preserve o resultado da R53 e use as condições de retomada registradas para o projeto.
+A falha não autoriza inventar depois uma perda total de materiais, destruição da ficha ou rolagens gratuitas até funcionar. Preserve o resultado do Livro de Regras 1.0 e use as condições de retomada registradas para o projeto.
 
 ## Conclua e acompanhe a evolução
 
@@ -149,7 +149,7 @@ No sucesso, registre o novo invocador e atualize os valores que dependem dele, p
 
 Na falha, o vínculo anterior permanece ou o objeto continua sem invocador vivo. A nova tentativa autorizada tem vantagem.
 
-## Conserve o estado entre cenas e mestres
+## Acompanhar a entidade entre cenas
 
 Uma tarefa deve indicar algo que a entidade consiga reconhecer: vigiar aquela porta, seguir a pessoa apontada ou proteger a escada. O vínculo não concede mensagens que ela não pode receber. Uma ordem recebida pode continuar quando a comunicação falha; uma ordem nova precisa chegar e ser compreendida.
 
@@ -157,13 +157,13 @@ Manifestar em entrada comum não dá básica naquele ciclo. Comandar uma especia
 
 Confira também transporte. Uma entidade precisa de característica própria, ocupando um talento, para transportar carga adicional ou personagens. Quantidade de passageiros, anatomia e Movimento devem constar da montagem. Objetos carregados para outra pessoa ou apanhados pelo caminho caem quando a entidade é recolhida, salvo permissão expressa; corpos que permanecem no campo conservam seus objetos no lugar.
 
-Corpos inativos não substituem trabalhadores treinados: falham em rolagens, não agem e não recebem tarefas. A R53 permite interpretação e trabalhos extremamente simples que dispensem rolagem, sem transformar esse estado em fabricação autônoma de entidades.
+Corpos inativos não substituem trabalhadores treinados: falham em rolagens, não agem e não recebem tarefas. O Livro de Regras 1.0 permite interpretação e trabalhos extremamente simples que dispensem rolagem, sem transformar esse estado em fabricação autônoma de entidades.
 
-[Transporte e continuidade das entidades](54-transporte-e-continuidade-das-entidades.md) mostra uma ficha completa de montaria, um talento experimental com capacidade delimitada, a conta de um passageiro e o registro da retirada. Use o exemplo também para distinguir a continuação de uma tarefa recebida da emissão de ordens novas.
+[Transporte com entidades](54-transporte-e-continuidade-das-entidades.md) mostra uma ficha completa de montaria, um talento experimental com capacidade delimitada, a conta de um passageiro e o registro da retirada. Use o exemplo também para distinguir a continuação de uma tarefa recebida da emissão de ordens novas.
 
 ## Quando o invocador deixa de agir
 
-Inconsciência e morte têm procedimentos diferentes. Enquanto o personagem está inconsciente, as entidades que permanecem em campo podem continuar suas tarefas e executar ordens anteriores válidas, respeitando os recursos. Ele não dá comandos novos. Estar a zero de vida não basta para antecipar inconsciência ou morte: confira as regras do personagem.
+Inconsciência e morte seguem regras diferentes. Enquanto o personagem está inconsciente, as entidades que permanecem em campo podem continuar suas tarefas e executar ordens anteriores válidas, respeitando os recursos. Ele não dá comandos novos. Estar a zero de vida não basta para antecipar inconsciência ou morte: confira as regras do personagem.
 
 Depois da morte confirmada, ordens e preparações terminam; as entidades saem de campo, e as que não podem ser recolhidas ficam Desligadas no lugar. Aplique então o destino de sua origem:
 

@@ -1,0 +1,100 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+disponível. Não reduz sete golpes na mesma
+rodada.
+Haru
+Haru guarda o acesso ao arquivo e tenta fazer o
+grupo abandonar a extração. A faixa luminosa de
+sua técnica avisa onde virá a contenção. Ele pode
+trocar de plano quando o grupo sair da área; não
+recebe acerto garantido porque preparou um golpe.
+Espada Longa
+Atacar: até dois golpes a 1,5 m, +6, cada um com
+1d8 + 4 + 2d4 de Cortante; crítico 2d8 + 4 + 2d4,
+antes de Kokusen. O segundo golpe é capacidade
+explícita desta ficha e integra a mesma Padrão. Não
+é guardado para oportunidade nem acrescentado a
+outra ação.
+Pode substituir cada golpe por uma manobra
+comum permitida, TR Físico CD 14, conservando
+mão livre e demais requisitos. Uma oportunidade
+continua sendo um único ataque físico. A espada
+usa Rompe quando a propriedade for aplicável a um
+objeto, sem dano extra contra pessoas.
+Fita de contenção
+A técnica tece faixas que apertam o corpo atingido.
+Usa Inteligência; Alcance e Castigo são Livres;
+Amparo, Auxiliares e Marca estão Fechadas. Área e
+Controle usam preço normal. O Selo é uma palavra
+audível e um gesto da mão livre. Impedir esse
+requisito impede conjurar; Agarrado sozinho não
+silencia nem ocupa todas as mãos.
+Versão preparada
+Classe 2
+Ampliada para Classe 4
+Ação / custo
+Padrão / 6 PE
+Padrão / 12 PE
+Forma
+Linha de 18 m por 1,5 m; origem a até
+18 m
+As mesmas medidas
+Montagem
+6 pontos - Linha 1 - Prende 2
+12 pontos - Linha 2 - Prende 4
+Dano
+3d8 de Concussão
+6d8 de Concussão
+Resistência
+TR Físico CD 15
+TR Físico CD 15
+Na falha, recebe todo o dano e Prende: não pode se
+deslocar voluntariamente até o fim do próximo
+turno do alvo. No sucesso, recebe metade do dano,
+para cima, sem Prende. Não há ataque ou crítico
+nessa área. Todos os corpos alcançados são
+afetados, inclusive aliados; não existe Escolher. A
+faixa não danifica o equipamento do arquivo nesta
+aplicação.
+Prende conserva ataques, conjuração e demais
+ações. No próprio turno, o alvo pode gastar Padrão,
+Bônus ou Movimento para repetir o TR Físico CD
+15; sucesso encerra a aplicação. Cada tentativa paga
+uma dessas ações. Não recebe TR gratuito no fim
+do turno. Movimento imposto pode deslocá-lo e
+conserva Prende. Cura não encerra essa aplicação.
+Aviso e intervalo próprios de Haru: no fim de um
+turno em que possa agir, ele pode indicar a origem
+e a direção de uma única faixa. Uma projeção
+visível marca o chão, sem causar dano, bloquear
+passagem, revelar criaturas ou exigir PE. Essa
+indicação é uma limitação adicional do protótipo;
+não devolve pontos e não é Carregar.
+Ele só pode conjurar Fita no turno seguinte,
+usando exatamente a origem e a direção avisadas.
+Nesse momento, precisa cumprir alcance, caminho,
+Selo, ação e energia. Pode escolher uma das duas
+Classes permitidas. Se desistir, for impedido ou não
+conjurar até o fim desse turno, o aviso expira.
+Mudar a direção exige outro aviso, sem aplicação
+imediata. A projeção também termina quando Haru
+fica Inconsciente ou Derrotado.
+Depois de conjurar, deve passar um turno próprio
+inteiro sem usar Fita. Pode avisar a próxima faixa
+ao fim desse turno, não no turno da conjuração
+anterior. Exemplo: avisa no turno 1, conjura no 2,
+usa espada e avisa no 3, volta a poder conjurar no 4.
+O intervalo e os PE não são duas reservas: o
+primeiro organiza as oportunidades de resposta; os
+segundos pagam as conjurações e a proteção.
+Haru pode anunciar uma faixa sem gastar a Padrão
+que usou para atacar. Ao efetivamente conjurar,
+porém, gasta a Padrão e abre mão dos dois golpes
+daquela ação. Não existe ataque grátis no anúncio
+ou na resolução.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+155

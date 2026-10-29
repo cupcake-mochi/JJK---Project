@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+    "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+    "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md"
+  ],
+  "casos": [
+    {
+      "id": "s078",
+      "fonte_original": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+      "id_prova": "perigos"
+    },
+    {
+      "id": "s057",
+      "fonte_original": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "id_prova": "amontoado"
+    },
+    {
+      "id": "s062",
+      "fonte_original": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "id_prova": "corredor"
+    },
+    {
+      "id": "s063",
+      "fonte_original": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+      "id_prova": "doma"
+    }
+  ]
+}

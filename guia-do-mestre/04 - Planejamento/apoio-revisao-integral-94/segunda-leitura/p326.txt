@@ -1,0 +1,78 @@
+CICLO MALDITO / GUIA DO MESTRE
+FICHAS PARA A MESA
+Perícias e demais requisitos estão identificados na
+ficha completa. Não acrescente treino, Caminho,
+Trilha, Origem, Domínio ou resistência por serem
+personagens de nível 6. A Defesa de ambos resulta
+de 10 + Destreza 2 + Traje 1. Seus totais de vida e PE
+são parâmetros inimigos propostos; Integridade,
+ataque, Defesa e montagem das capacidades
+seguem as regras do Livro de Regras 1.0.
+Atuação: cada um tem Padrão, Movimento, Bônus e
+Reação comuns e um ataque em Atacar. Ren
+escolhe entre espada e Fenda em marcha na sua
+Padrão. Sora escolhe entre Fio de impulso,
+Remendo ou outra ação válida. Ambos podem
+gastar a própria Reação e 2 PE em Cobrir-se para
+reduzir 3 de dano. A mesma reserva paga feitiços e
+proteção; nenhuma dessas capacidades concede
+outra Padrão.
+Prioridades: Ren prefere a espada quando há um
+alvo útil próximo; Fenda oferece alcance e
+reposicionamento. Sora prefere Remendo em quem
+estiver ativo, com PV positivos até metade da
+máxima; entre os dois, prioriza a menor proporção
+de vida e a si em empate. Sem esse ferimento,
+favorece Ren com Fio. Alcance, ação e energia
+precisam permitir a escolha.
+Retirada: se Sora cair ou perderem o estojo, Ren
+tenta negociar ou fugir com suas ações. Se Ren cair,
+Sora procura negociar ou sair com os documentos.
+Conservar recursos e efeitos ao mudar de conduta.
+Derrota e aquisição: a zero de PV ou Integridade,
+param de atuar. O desfecho preparado é
+incapacitação, com inconsciência e queda dos
+objetos segurados. Não há Insistir de jogador ou
+reentrada automática por Remendo. Não são
+maldições adquiríveis por Doma. A cena posterior
+ainda precisa resolver atendimento e custódia.
+3. Capacidade conferida: Fio de
+impulso
+Todas as capacidades já estão completas na
+consulta Ren e Sora: atacante e apoio (p. 146). Aqui
+se preenche apenas Fio, para mostrar como
+registrar uma aplicação que exige conferir efeitos
+com durações diferentes.
+Campo
+Preenchimento
+Identificação e origem
+Feitiço de Sora, Classe 1, dependente de sua Técnica Inata. Montagem feita
+com Fundamento, Amparo e Auxiliares do Livro de Regras 1.0.
+Uso
+Padrão; palavra audível e gesto da mão direita. Um aliado disposto, visível, até
+9 m; Sora pode escolher a si. O estojo ocupa a esquerda.
+Resolução
+Benefício automático, sem ataque, crítico ou TR. Impulso concede vantagem
+no próximo ataque até o fim do próximo turno do beneficiário; a tentativa o
+consome. Também concede 3 PV temporários.
+Pagamento e limite
+3 PE por aplicação, sem usos ou recarga separados. Base Leve de vida
+temporária individual: 1 ponto; Impulso: 1; saldo: 1 ponto para 3 PV
+temporários. A Padrão e a energia disputam cura e proteção.
+Duração
+Impulso e vida temporária são independentes. A reserva restante dura até o
+fim da cena; não se soma a outra, conserva a maior e respeita o teto do Livro de
+Regras 1.0. Sem Concentração ou manutenção.
+Sinal e resposta
+Palavra, gesto e fios de energia. O grupo pode disputar posição e impedir
+aplicações futuras por meios válidos. O sinal durante a conjuração não
+concede interrupção gratuita.
+Integridade
+No estágio 2, Fio passa a 4 PE; no estágio 3 continua dentro da Classe máxima
+1, com as demais penalidades cumulativas.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+326

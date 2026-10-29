@@ -1,0 +1,85 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Na ficha adquirida, os 14 PV vêm de 5 +
+Constituição 3 + (3 + 3) × (nível 2 - 1). A Integridade
+é metade: 7. Para a reserva própria, um terço da
+Essência 1, arredondado para baixo, dá zero: nível 2
+× (1 + 0) = 2 PE. A especial possui dois pontos de
+montagem, todos convertidos em 2d8, sem
+Melhorias ou Restrições.
+O TR treinado é Físico, usando Força: +4. Os
+demais são Vigor +3, Intelecto +1 e Espírito +1.
+Perícias treinadas: Atletismo +4, Furtividade +2,
+Percepção +2 e Intuição +2. Os valores são iguais
+nas duas fichas deste exemplo porque a Maestria
+usada é 1; na entidade, ela vem de Nara.
+A entidade tem uma básica, uma vaga de especial
+ocupada por Impacto e um talento CE1, Leitura:
+identifica Classe e Forma de feitiços conjurados a
+até 18 m, sem revelar montagem ou pensamentos.
+Suas Famílias são Castigo Livre, Mira e Controle
+abertas, com as outras seis Fechadas. Não conserva
+a distribuição de Famílias do Fundamento do
+inimigo. Não possui talento de carga adicional ou
+passageiros.
+Conduza o encontro
+Use o depósito de 6 m por 6 m do piloto. A criatura
+começa junto à pilha, a 4,5 m da porta; a faixa
+central está livre. Caixas junto às paredes só
+fornecem cobertura quando realmente se
+interpõem. A abertura da porta mede 1,5 m. A ficha
+completa da base continua sendo a referência de
+suas ações.
+Quando começar o confronto, role Iniciativa. O
+Amontoado prioriza a criatura consciente mais
+próxima; em empate, quem o atacou por último.
+Procura usar Impacto quando puder cumprir
+alcance, Selo e custo. Com 6 PE, consegue dois usos
+de 3 pelo custo normal. Errar também consome os
+PE. Sem energia suficiente, continua com Pancada
+e ações gerais compatíveis. A mudança de rodada
+não recupera sua reserva.
+Os aliados de Nara podem atacar, proteger uns aos
+outros, tratar feridos e colaborar. Não precisam
+deixar que Nara cause todo o dano nem que dê o
+último golpe. Quem fará a submissão precisa estar
+identificado, com nível permitido e CD conferida.
+Se o grupo pretende capturar a maldição, descreva
+o que seus personagens conseguem avaliar: a
+criatura está ferida, há espaço para recuar, um
+efeito persistente pode continuar atingindo-a.
+Explique também os limites de destruição como
+regra de jogo. Não prometa um dano exato antes de
+rolar nem revele uma informação de cena que
+ninguém percebeu.
+Se uma personagem cair, aplique Vida a zero e
+Socorro do Livro de Regras 1.0. A aquisição não
+pausa uma janela de atendimento. O Amontoado
+desta base não recebe Aguentar ou Insistir: a zero
+de vida ou Integridade, é derrotado, com destruição
+conferida quando aplicável.
+O golpe que permite a tentativa
+O trecho seguinte começa num estado ilustrativo,
+não num resultado garantido: o Amontoado tem 8
+dos 48 PV, Integridade 24 e 0 dos 6 PE, depois de
+ter usado dois Impactos. Não há dano persistente,
+outra ameaça ativa ou personagem aguardando
+socorro neste exemplo.
+Um aliado acerta e causa 12 de dano direto, já
+depois das proteções. A criatura chega a zero;
+sobram 12 - 8 = 4 de excedente. Confira as duas
+causas de destruição:
+• A ocorrência de 12 não alcançou os 48 PV
+máximos.
+• O excedente de 4 não superou 24, metade da vida
+máxima.
+Portanto, ela foi derrotada sem ser destruída. O
+grupo pode encerrar o confronto e Nara pode tentar
+a submissão fora de combate. Não precisa feri-la
+novamente para “garantir” a derrota.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+275

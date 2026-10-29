@@ -1,0 +1,53 @@
+{
+  "registro": 105,
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+      "sha256": "5a16cf51ec031ca1bb13ab92a5b7442137c53b76cba685d363470dbe38b389dd",
+      "id": "preparar",
+      "tipo": "formulario",
+      "titulo": "Preparar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+      "sha256": "b1de38a4425460144b5a9ce2095413ccc499a10c86b15aba9ebdf541d98a6450",
+      "id": "conduzir",
+      "tipo": "consulta",
+      "titulo": "Conduzir a sessão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+      "sha256": "7bad228a4ae52f3697b975c524f7d0104c4dcb56ac19e0bd10739de48e32eecb",
+      "id": "retomar",
+      "tipo": "formulario",
+      "titulo": "Retomar a missão"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+      "sha256": "900d311737d1afd5f33a59375f5f31a9bd32666e8098c51cff0c5528e746b19e",
+      "id": "exemplo-preparo",
+      "tipo": "exemplo",
+      "titulo": "Preparo preenchido: a despedida"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "d4b9ed6b39267e5f184bfc0116185c822646096f3c90437de83fb1f9a5a4f84b",
+      "id": "exemplo-retomada",
+      "tipo": "exemplo",
+      "titulo": "Retomada preenchida: a sala"
+    }
+  ],
+  "guia_de_escolha": {
+    "fonte": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+    "sha256": "60d4bbddde5c950370a1379409392709b5a42a080380491280eb7da7bb980b2b"
+  },
+  "estilo": "04 - Planejamento/apoio-conducao-102/capitulo-4.html",
+  "estilo_sha256": "7f5d6dea153fa2cd6529a84fb233b43bfedaee881da922efbfceee55d2e51ee4",
+  "html": "04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html",
+  "pdf": "04 - Planejamento/apoio-consultas-105/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa.pdf",
+  "pdf_sha256": "c6de19920cf0cd42ac7524e1b3e609738b12a30cacbbedf514824e2e53aa247f",
+  "paginas": 5,
+  "limite": "Folhas e PDF da entrega 105 preservados; guia de escolha aponta as revisões 112 a 115. Integração do livro ainda pendente.",
+  "revisao_da_navegacao": 115,
+  "html_sha256": "c54f7a661bf55b68741fca3b9854e7530cac3939400e1be35fb3fefaa91c78e7"
+}

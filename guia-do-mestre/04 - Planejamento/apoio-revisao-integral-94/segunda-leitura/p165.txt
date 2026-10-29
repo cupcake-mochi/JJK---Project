@@ -1,0 +1,82 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Mei pode tentar Arremesso de pressão de A0 contra
+esse pino a 18 m: Padrão, 6 PE, ataque +5 e 5d8 de
+Concussão. Um resultado natural 7 soma 12 e
+acerta; mesmo o mínimo de cinco dados é
+suficiente para os 2 PV. Empurrão não precisa
+mover a peça fixada para o dano funcionar. Akira
+pode operar o exaustor no mesmo ciclo. Se ninguém
+entrar, a nuvem pode ser eliminada sem expor uma
+pessoa. Essa solução é válida e gasta os recursos
+realmente usados.
+Outras capacidades devem cumprir seu efeito e
+seus requisitos. Interromper um feitiço não faz
+desaparecer o pó material. Um ataque que quebre
+uma parte diferente não recebe automaticamente a
+função do pino. Se o grupo usar uma solução
+compatível que elimine ou isole a fonte, registre o
+novo estado do lugar.
+Exemplo: sair da sala e receber
+ajuda
+Use os perfis de Mei e Akira (p. 141). Eles são
+referências de estudo, não fichas completas. Neste
+exemplo, Mei tem 44 PV, 36 PE, 55 de Integridade,
+Vigor +3 sem treino, movimento 9 m, Classe
+máxima 2 e nenhuma Sequela. Akira tem 51 PV, 30
+PE e 65 de Integridade, mãos disponíveis e Sutura
+de emergência conhecida. Não há Concentração ou
+proteção contra Veneno em andamento.
+A ordem escolhida é Mei → Akira → fase ambiental.
+Os resultados foram escolhidos para explicar as
+regras; não são uma sessão jogada ou estimativa de
+dificuldade.
+Momento
+Escolha e resultado
+Mei, rodada 1
+Usa Movimento 9 m e Bônus convertida em mais 9 m, de A0 até A12. Com
+Padrão, fecha a alimentação. Termina dentro da nuvem.
+Akira, rodada 1
+Permanece em B0 e usa Padrão para ligar o exaustor.
+Fase 1
+Mei tira 8 + 3 = 11, falha em CD 14. O d6 mostra 4: passa de 44 para 40 PV e fica
+Envenenada. Não rola saída imediatamente, pois seu turno já terminou. A
+limpeza avança de zero para um.
+Mei, rodada 2
+Usa Movimento e Bônus convertida, 18 m, para voltar a A0. No fim do turno,
+tenta sair de Envenenado: 9 + 3 = 12, falha. Já está fora da nuvem, mas a condição
+continua.
+Akira, rodada 2
+De B0, alcança Mei com Sutura. Gasta Padrão e 6 PE; os quatro d8 dão 1, 1, 2 e 3:
+cura 7. Mei volta a 44 PV, seu máximo; o excesso de 3 se perde. Envenenado
+permanece. Akira fica com 24 PE.
+Fase 2
+Ninguém permanece na área contaminada; não há novas exposições. O segundo
+avanço elimina a nuvem.
+Mei, rodada 3
+No fim do turno, tira 12 + 3 = 15 no TR de saída e encerra Envenenado. Não paga
+ação ou energia por esse teste.
+Mei termina com 44 PV, 36 PE e 55 de
+Integridade, sem a condição ou Sequelas. Akira
+termina com 51 PV, 24 PE e 65 de Integridade. O
+alimentador está fechado, o exaustor ligado e a
+nuvem eliminada. A equipe ainda registra a
+interdição: a intervenção não consertou o defeito da
+máquina.
+Se a exposição levar a zero de vida
+Compare outra situação inicial: Mei tem 3 PV de
+44, ainda sem Sequelas. As posições, ações e dados
+da primeira rodada permanecem iguais. Os 4 de
+dano na fase 1 a levam a zero. A aplicação que
+iniciou a queda não desconta uma rodada adicional
+pelo excesso.
+Ela escolhe Insistir pela primeira vez na cena. O
+tratamento é 44 ÷ 3, para cima = 15, dentro do teto
+de 15 × Classe máxima 2. A janela começa em três
+rodadas, marcada no ponto da fase ambiental em
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+165

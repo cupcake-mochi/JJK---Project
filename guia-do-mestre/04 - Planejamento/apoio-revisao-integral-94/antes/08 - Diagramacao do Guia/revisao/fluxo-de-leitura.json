@@ -1,0 +1,543 @@
+{
+  "tabelas_repartidas_na_mesma_pagina": [],
+  "titulos_separados": [],
+  "continuacoes_de_paragrafo": [
+    {
+      "pagina": 6,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 107.39,
+      "inicio_da_faixa": 365.79,
+      "texto": "Ciclo Maldito tem a guilda como principal referência de uso e foi adaptado para funcionar melhor nesse formato. Por isso"
+    },
+    {
+      "pagina": 11,
+      "altura_direita": 39.6,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 100.69,
+      "inicio_da_faixa": 668.69,
+      "texto": "A relação com vizinhos, trabalhadores e autoridades comuns é escolha da campanha. Diga quem foi avisado, que explicação "
+    },
+    {
+      "pagina": 13,
+      "altura_direita": 26.4,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 104.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "Conhecimento da obra pelo jogador e conhecimento pelo personagem precisam ser tratados separadamente. Um iniciante pode "
+    },
+    {
+      "pagina": 23,
+      "altura_direita": 52.8,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 102.39,
+      "inicio_da_faixa": 428.79,
+      "texto": "Sinais: caixas achatadas pelas mãos antes de uma pancada; palmas que se encostam e brilham antes do Impacto; marcas do c"
+    },
+    {
+      "pagina": 24,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 107.59,
+      "inicio_da_faixa": 472.99,
+      "texto": "Esta seção amplia Preparar uma missão (p. 17). O caso O aviso de reabertura (p. 27) demonstra o preparo completo; Conduz"
+    },
+    {
+      "pagina": 35,
+      "altura_direita": 39.6,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 97.89,
+      "inicio_da_faixa": 439.49,
+      "texto": "Na guilda, respeite a ordem dos acontecimentos compartilhados. Duas sessões jogadas em dias diferentes podem ocorrer mui"
+    },
+    {
+      "pagina": 37,
+      "altura_direita": 26.4,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 97.69,
+      "inicio_da_faixa": 776.69,
+      "texto": "Uma capacidade legítima também pode antecipar informação ou neutralizar uma dificuldade. Confira o efeito e deixe o resu"
+    },
+    {
+      "pagina": 38,
+      "altura_direita": 66.0,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 97.39,
+      "inicio_da_faixa": 302.99,
+      "texto": "Não é necessário atingir familiares, destruir vínculos pessoais ou impor sofrimento fora de cena para tornar um inimigo "
+    },
+    {
+      "pagina": 45,
+      "altura_direita": 52.8,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 107.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Exemplo: o grupo conferiu os funcionários e decidiu olhar o anexo pela entrada principal. Pergunte se há algo a fazer an"
+    },
+    {
+      "pagina": 47,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 103.99,
+      "inicio_da_faixa": 642.19,
+      "texto": "Às 17h50, os dez minutos da tentativa já passaram. O mestre retoma a oferta. A jogadora escolhe dedicar os vinte minutos"
+    },
+    {
+      "pagina": 51,
+      "altura_direita": 39.6,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 100.99,
+      "inicio_da_faixa": 289.79,
+      "texto": "Para uma informação evidente ou conversa colaborativa, a descrição pode bastar. Se Ana tem a planta e a entrega, o grupo"
+    },
+    {
+      "pagina": 52,
+      "altura_direita": 52.8,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 102.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "Depois, apresente a situação atual. O grupo ainda possui as descobertas anteriores, os meios que não perdeu e a possibil"
+    },
+    {
+      "pagina": 54,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 117.59,
+      "inicio_da_faixa": 291.19,
+      "texto": "Sora sabe onde Nao está, mas as estantes continuam impedindo que o enxergue. Localizar é conhecer o espaço ocupado; enxe"
+    },
+    {
+      "pagina": 68,
+      "altura_direita": 39.6,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 107.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "Emi escolhe tentar. Seu bônus é 4 + 1 = +5. Com dado 12, soma 17, falhando. Às 16h01, a porta permanece trancada e o vig"
+    },
+    {
+      "pagina": 76,
+      "altura_direita": 26.4,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 116.29,
+      "inicio_da_faixa": 646.69,
+      "texto": "Remoção genérica de condições não encerra Morrendo. Uma capacidade que diga expressamente permitir sua saída abaixo do t"
+    },
+    {
+      "pagina": 78,
+      "altura_direita": 39.6,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 103.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "Uma oportunidade exige que a criatura saia do alcance corpo a corpo de quem a enxerga ou acompanha por sentido equivalen"
+    },
+    {
+      "pagina": 93,
+      "altura_direita": 66.0,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 101.89,
+      "inicio_da_faixa": 776.69,
+      "texto": "Para este exemplo, sua fonte é um reforço energético do corpo independente da Técnica Inata. Essa definição é parte da p"
+    },
+    {
+      "pagina": 96,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 118.39,
+      "inicio_da_faixa": 305.19,
+      "texto": "Não leia essas colunas como rodadas de combate. Uma personagem pode gastar a Padrão para fugir de um agarrão, socorrer a"
+    },
+    {
+      "pagina": 103,
+      "altura_direita": 52.8,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 98.19,
+      "inicio_da_faixa": 492.59,
+      "texto": "Uma descrição feita durante a resolução do golpe pode informar a próxima escolha; ela não garante uma ação antes daquele"
+    },
+    {
+      "pagina": 110,
+      "altura_direita": 26.4,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 119.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Uma cura válida de 2d8 pode chegar de 2 a 16. Se o primeiro resultado for 5, a personagem permanece a zero. Os 5 ficam r"
+    },
+    {
+      "pagina": 119,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 100.09,
+      "inicio_da_faixa": 407.69,
+      "texto": "Derrubar / Empurrar - alternativas de Atacar. Mesmos requisitos comuns de alcance e tamanho e TR Físico CD 12; substitue"
+    },
+    {
+      "pagina": 124,
+      "altura_direita": 52.8,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 99.49,
+      "inicio_da_faixa": 428.69,
+      "texto": "Se alguém acionar o teste, informe antes que o cabo está ligado ao suporte e que há risco de arrancá-lo. A pessoa pode c"
+    },
+    {
+      "pagina": 127,
+      "altura_direita": 26.4,
+      "altura_esquerda": 132.0,
+      "esquerda_termina": 103.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Para retirar alguém disposto ou inconsciente, conte corpo em kg ÷ 12, itens e equipamento de quem transporta. Ajudar não"
+    },
+    {
+      "pagina": 128,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 105.89,
+      "inicio_da_faixa": 426.69,
+      "texto": "Para comparar os procedimentos fora deste perigo, consulte Percursos, apoios e quedas (p. 62): esforço e risco no mesmo "
+    },
+    {
+      "pagina": 134,
+      "altura_direita": 52.8,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 101.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Escolher entre correr e sair protegida. Uma personagem livre em C, sem excesso de carga, leva a caixa e pretende chegar "
+    },
+    {
+      "pagina": 135,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 120.89,
+      "inicio_da_faixa": 444.69,
+      "texto": "O Sineiro tenta separar uma pessoa do grupo, levá-la para o fundo do recinto e esmagar o chão ao redor dela. Para desfer"
+    },
+    {
+      "pagina": 136,
+      "altura_direita": 26.4,
+      "altura_esquerda": 92.4,
+      "esquerda_termina": 114.19,
+      "inicio_da_faixa": 300.99,
+      "texto": "Agarrar, Empurrar ou Derrubar. Em cada Ação Atacar, pode substituir no máximo um dos dois ataques por uma dessas manobra"
+    },
+    {
+      "pagina": 137,
+      "altura_direita": 92.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 99.29,
+      "inicio_da_faixa": 776.69,
+      "texto": "Impacto - Padrão no próprio turno seguinte. Se manteve a preparação, pode bater o sino no chão. Cada outra criatura na z"
+    },
+    {
+      "pagina": 140,
+      "altura_direita": 52.8,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 98.29,
+      "inicio_da_faixa": 553.69,
+      "texto": "Cada 1,5 m custa 3 m em piso regular ou 4,5 m em terreno difícil. Sustentar o transporte não gasta PE nem básica; obter "
+    },
+    {
+      "pagina": 144,
+      "altura_direita": 52.8,
+      "altura_esquerda": 92.4,
+      "esquerda_termina": 106.69,
+      "inicio_da_faixa": 776.69,
+      "texto": "Conhece Sutura de emergência, aplicação de sua técnica de recomposição, com Amparo Livre: cura individual de Classe 2 a "
+    },
+    {
+      "pagina": 146,
+      "altura_direita": 66.0,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 97.69,
+      "inicio_da_faixa": 776.69,
+      "texto": "Mei continua exposta em C11. No turno do Sineiro, ele recupera sua Reação e usa a Padrão no impacto preparado: os cinco "
+    },
+    {
+      "pagina": 147,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 120.99,
+      "inicio_da_faixa": 539.79,
+      "texto": "Na guilda, passe ao próximo mestre os recursos restantes, a Sequela, o resultado da missão e os prazos relevantes. A jan"
+    },
+    {
+      "pagina": 149,
+      "altura_direita": 26.4,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 115.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Antes ou depois de resolver a aplicação, Ren pode usar Passo para andar até 6 m, sem oportunidade. Esse movimento contin"
+    },
+    {
+      "pagina": 159,
+      "altura_direita": 118.8,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 104.09,
+      "inicio_da_faixa": 613.69,
+      "texto": "Resolver pela conversa: se o grupo apresentar autorização verificável da escola responsável, os guardas permitem a opera"
+    },
+    {
+      "pagina": 161,
+      "altura_direita": 39.6,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 103.69,
+      "inicio_da_faixa": 621.69,
+      "texto": "1. Haru conjura Fita de Classe 4, gasta 12 PE de seus 26 e fica com 14. Mei tira 7 + 4 = 11 no TR Físico, falhando em CD"
+    },
+    {
+      "pagina": 163,
+      "altura_direita": 26.4,
+      "altura_esquerda": 92.4,
+      "esquerda_termina": 108.09,
+      "inicio_da_faixa": 255.29,
+      "texto": "Mostre a nuvem, a alimentação ainda aberta, os dois comandos e a mola. Avisos legíveis explicam como interromper a máqui"
+    },
+    {
+      "pagina": 164,
+      "altura_direita": 79.2,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 96.89,
+      "inicio_da_faixa": 351.69,
+      "texto": "Duração: uma aplicação recebida na fase da rodada 1 expira na fase da rodada 11, se nenhum TR ou capacidade a encerrar a"
+    },
+    {
+      "pagina": 166,
+      "altura_direita": 52.8,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 104.59,
+      "inicio_da_faixa": 336.59,
+      "texto": "Ela escolhe Insistir pela primeira vez na cena. O tratamento é 44 ÷ 3, para cima = 15, dentro do teto de 15 × Classe máx"
+    },
+    {
+      "pagina": 167,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 105.79,
+      "inicio_da_faixa": 471.59,
+      "texto": "Ações, testes, dano, Envenenado, socorro e descansos conservam a R53. O agente, a forma de transmissão, os intervalos, a"
+    },
+    {
+      "pagina": 175,
+      "altura_direita": 39.6,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 98.79,
+      "inicio_da_faixa": 609.19,
+      "texto": "Primeiro confira se houve perda funcional ou apenas uma mudança de relação. Deixar de falar com o criador de um Corpo Am"
+    },
+    {
+      "pagina": 181,
+      "altura_direita": 26.4,
+      "altura_esquerda": 92.4,
+      "esquerda_termina": 109.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "A tentativa original conserva ação, tempo, ferramentas e custos. Usar a menor não exige outra ação nem PE. A falha no di"
+    },
+    {
+      "pagina": 186,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 106.79,
+      "inicio_da_faixa": 542.19,
+      "texto": "A cobertura é um recurso real do preparo; não se presume perfeita após rasgar ou cair. Também não precisa virar uma nova"
+    },
+    {
+      "pagina": 196,
+      "altura_direita": 52.8,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 95.79,
+      "inicio_da_faixa": 714.19,
+      "texto": "Se a intenção for uma versão resolvida por TR, escolha essa resolução na criação. Na Técnica Máxima, quem passa recebe t"
+    },
+    {
+      "pagina": 198,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 113.69,
+      "inicio_da_faixa": 776.69,
+      "texto": "Se o corpo estiver a 800 km da missão e a marionete tiver um disparo de 18 m, o vínculo alcança a missão; o disparo cont"
+    },
+    {
+      "pagina": 199,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 105.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "Se uma peça própria reúne benefícios independentes, pague e conte cada um. A R53 permite ao mestre autorizar uma redução"
+    },
+    {
+      "pagina": 207,
+      "altura_direita": 26.4,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 98.99,
+      "inicio_da_faixa": 648.19,
+      "texto": "Se o uso real permitir deixar a mesma preparação sempre pronta, sem perda de tempo, acesso ou oportunidade, a devolução "
+    },
+    {
+      "pagina": 209,
+      "altura_direita": 26.4,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 117.39,
+      "inicio_da_faixa": 490.19,
+      "texto": "• Usar Classe 1: paga 3 PE e testa contra CD 12. Com 8 no dado, totaliza 8 + 3 = 11, falha. Não soma Maestria; somá-la i"
+    },
+    {
+      "pagina": 213,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 109.69,
+      "inicio_da_faixa": 679.69,
+      "texto": "Para fechar o registro, separe horas confirmadas, reservadas e livres. Horas informadas para uma atividade ainda em conf"
+    },
+    {
+      "pagina": 220,
+      "altura_direita": 26.4,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 115.69,
+      "inicio_da_faixa": 776.69,
+      "texto": "A venda do Anel de Testemunho (p. 226) apresenta comprador, oferta, teste e condição adicional de Palavra Empenhada. O e"
+    },
+    {
+      "pagina": 222,
+      "altura_direita": 26.4,
+      "altura_esquerda": 79.2,
+      "esquerda_termina": 116.89,
+      "inicio_da_faixa": 452.89,
+      "texto": "Ingerir um objeto desconhecido não concede automaticamente poderes, nova Origem ou controle da presença contida. Se essa"
+    },
+    {
+      "pagina": 226,
+      "altura_direita": 79.2,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 96.09,
+      "inicio_da_faixa": 311.29,
+      "texto": "Pedido fora da concessão: Kenji solicita também uma arma de grau 1. Sua patente atual não permite essa retirada. Palavra"
+    },
+    {
+      "pagina": 227,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 112.69,
+      "inicio_da_faixa": 447.29,
+      "texto": "Se tudo ocorreu no mesmo ciclo e Kenji ainda tinha 22 horas disponíveis, a instrução pessoal de duas horas deixa 20. Rec"
+    },
+    {
+      "pagina": 239,
+      "altura_direita": 66.0,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 96.29,
+      "inicio_da_faixa": 776.69,
+      "texto": "Se surgir uma ambiguidade durante o jogo, exponha as leituras possíveis e esclareça com o grupo. Não acrescente uma cláu"
+    },
+    {
+      "pagina": 243,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 99.89,
+      "inicio_da_faixa": 305.49,
+      "texto": "Nesse caso, o desconhecimento da presença da vítima não elimina a relação entre a ação e a morte. A coincidência está na"
+    },
+    {
+      "pagina": 247,
+      "altura_direita": 79.2,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 106.89,
+      "inicio_da_faixa": 776.69,
+      "texto": "Se o intervalo terminar sem cumprimento, o benefício fica suspenso por três dias. Enquanto o Pacto for mantido, a janela"
+    },
+    {
+      "pagina": 264,
+      "altura_direita": 26.4,
+      "altura_esquerda": 39.6,
+      "esquerda_termina": 98.59,
+      "inicio_da_faixa": 642.19,
+      "texto": "Depois de atender ao retrabalho e aos requisitos, o mestre autoriza a tentativa seguinte, com a vantagem prevista na R53"
+    },
+    {
+      "pagina": 274,
+      "altura_direita": 66.0,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 99.89,
+      "inicio_da_faixa": 776.69,
+      "texto": "Esta prova usa uma entidade de nível 2 sem sua especial durante o confronto. Isso não estabelece dificuldade adequada pa"
+    },
+    {
+      "pagina": 275,
+      "altura_direita": 39.6,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 100.99,
+      "inicio_da_faixa": 274.59,
+      "texto": "Na ficha adquirida, os 14 PV vêm de 5 + Constituição 3 + (3 + 3) × (nível 2 - 1). A Integridade é metade: 7. Para a rese"
+    },
+    {
+      "pagina": 283,
+      "altura_direita": 39.6,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 104.59,
+      "inicio_da_faixa": 714.19,
+      "texto": "Parecer: reduzir somente o dano não resolve a quantidade de Melhorias. Nesta ficha, conserve Agulha perfurante como regi"
+    },
+    {
+      "pagina": 292,
+      "altura_direita": 26.4,
+      "altura_esquerda": 66.0,
+      "esquerda_termina": 108.69,
+      "inicio_da_faixa": 496.69,
+      "texto": "Kaito usa a Padrão de comando e paga os 9 PE. A criatura precisa receber a ordem, ter básica disponível e alcançar um al"
+    },
+    {
+      "pagina": 297,
+      "altura_direita": 52.8,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 99.69,
+      "inicio_da_faixa": 331.69,
+      "texto": "As conferências de habilidade (p. 329) e chefe (p. 331) aprofundam interações específicas. Elas não exigem repetir o pre"
+    },
+    {
+      "pagina": 311,
+      "altura_direita": 26.4,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 114.59,
+      "inicio_da_faixa": 326.19,
+      "texto": "Objetivo atual: obter um espaço temporário para serviços interrompidos. Estará alcançado quando houver reserva confirmad"
+    },
+    {
+      "pagina": 313,
+      "altura_direita": 26.4,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 102.29,
+      "inicio_da_faixa": 327.09,
+      "texto": "Vozes: por acordo, o mestre interpreta Taru e a jogadora interpreta Maia. Maia continua decidindo suas ações dentro das "
+    },
+    {
+      "pagina": 344,
+      "altura_direita": 79.2,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 103.89,
+      "inicio_da_faixa": 776.69,
+      "texto": "A maldição observa quem entra e protege sua pilha. Aproximar-se da porta não causa um ataque gratuito. Se alguém a ataca"
+    },
+    {
+      "pagina": 346,
+      "altura_direita": 39.6,
+      "altura_esquerda": 26.4,
+      "esquerda_termina": 97.49,
+      "inicio_da_faixa": 776.69,
+      "texto": "A conjuradora usa seu terceiro Projétil por 3 PE. Ataque 11 + 4 = 15, acerto; dano 3 + 5 + 4 = 12. O Amontoado estava co"
+    },
+    {
+      "pagina": 353,
+      "altura_direita": 26.4,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 103.89,
+      "inicio_da_faixa": 542.09,
+      "texto": "Na R53. Uma ordem altera a situação ficcional. Não remove PE, capacidades ou controle da ficha por si só. Se uma interve"
+    },
+    {
+      "pagina": 354,
+      "altura_direita": 39.6,
+      "altura_esquerda": 52.8,
+      "esquerda_termina": 99.09,
+      "inicio_da_faixa": 776.69,
+      "texto": "Na R53. Informação obtida por uma capacidade respeita seu alcance. Cortina, Ritual, Expansão de Domínio e aquisição de e"
+    }
+  ],
+  "continuacoes_em_faixa_curta": []
+}

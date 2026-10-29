@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+encerra a luta, mas não retira automaticamente a
+caixa do painel. Se o grupo se retirar sem os
+documentos, registre o arquivo preservado e
+negocie a próxima abordagem; o relógio não
+inventa uma derrota irreversível.
+O que a comparação numérica
+mede
+A comparação usa os três perfis de nível 15 da
+consulta Inimigos de níveis mais altos (p. 97), em
+condições de atacar: começa com o grupo inteiro
+agindo antes dos guardas, cada um recebe uma
+Padrão e repete esse conjunto até três vezes. Os
+ataques escolhem Defesa estática 14, sem
+cobertura, Bloquear ou Cobrir-se. Na dupla,
+concentram-se em Tessa até ela cair e depois
+mudam para Vigia. Dano excedente de um golpe
+não passa para outro alvo; o próximo ataque pode
+escolhê-lo.
+Depois de cada conjunto, contam-se os guardas
+ainda ativos. Na versão com cura, se Tessa estiver
+ativa e ferida, paga 12 PE para curar a si por 8d8;
+caso esteja inteira e a dupla ativa, paga 3 por
+Impulso. A reserva de 26 é descontada, sem
+reposição. A comparação sem cura retira apenas
+essa escolha para medir sua contribuição. Vigia só
+começa a perder vida depois da queda de Tessa,
+portanto a escolha de curar o parceiro não entra
+nesta comparação.
+A conta não executa o dano ou o controle dos
+guardas contra os jogadores. Ela mede quantos
+guardas continuam capazes de agir depois dos
+ataques escolhidos, não simula o encontro inteiro.
+Não inclui movimento, objetivo, socorro, Kokusen,
+Origem, Trilha, Domínio, Liberações ou Técnica
+Máxima. Pode superestimar quantas ofensivas o
+grupo conseguiria repetir. A iniciativa invertida
+também mudaria o resultado.
+Composição e escolha
+Pelo menos um ativo após
+dois conjuntos de três
+feitiços
+Após dois conjuntos
+mistos
+Após três conjuntos
+mistos
+Haru com 200 PV, alternativa para
+comparação
+18,1%
+34,8%
+3,7%
+Haru com 280 PV, ficha preparada
+61,9%
+84,9%
+23,7%
+Vigia 120 PV e Tessa 80 PV, sem
+cura
+37,2%
+48,7%
+6,7%
+A mesma dupla, com cura e PE
+descontados
+38,1%
+52,7%
+11,8%
+Distribuir 200 PV entre dois corpos conserva mais
+vida útil nesta comparação que colocá-los num
+único alvo de 200 PV: parte do dano se perde
+quando Tessa cai, e Vigia ainda pode agir. Não
+significa que os dois conservem suas ações. Depois
+do primeiro conjunto de três feitiços, Tessa
+continua ativa em apenas 14,9% dos resultados;
+depois do misto, em 24,9%. Nas demais vezes, não
+chega a oferecer sua primeira cura ou seu primeiro
+Impulso. Dar-lhe uma capacidade forte não garante
+a oportunidade de usá-la.
+Subir Haru de 200 para 280 PV muda bastante sua
+sobrevivência, mas mantém suas ações, acerto e
+dano. A ficha de 280 foi preparada como guarda de
+objetivo. Estas contas não a aprovam como chefe
+capaz de ameaçar sozinho um grupo inteiro e
+descansado por vários turnos.
+O perigo da Fita de contenção
+Fita de Classe 4 causa 6d8, com média 27 antes do
+TR. Contra os perfis de nível 15:
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+159

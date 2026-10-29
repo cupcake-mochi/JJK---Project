@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+Conjuração: não possui técnica ofensiva nem
+reserva de PE. Leitura continua sendo apenas o
+Talento descrito.
+Amontoado do depósito
+Uma figura de papelões dobrados e fitas, com duas
+pernas e dois braços terminados em mãos. Acumula
+caixas no depósito e as empurra com o corpo; os
+ruídos vêm dessas ações.
+É o inimigo do piloto. Primeiro observa a invasão
+do seu espaço. Quando atacado ou quando alguém
+tenta desmontar sua pilha, combate a criatura
+consciente mais próxima; em empate, prioriza
+quem o atacou por último. Não golpeia pessoas
+inconscientes. Pode perseguir dentro do anexo, mas
+não sai dele nesta ocorrência. Essa preferência não
+torna a área externa uma barreira.
+Tamanho: Médio. Iniciativa: d20 + 1.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+3
+1
+3
+1
+1
+TRs: Físico +4; Vigor +3; Intelecto +1; Espírito +1.
+Físico usa Força; o treino é em Físico.
+Perícias treinadas: Atletismo +4; Furtividade +2;
+Percepção +2; Intuição +2. As demais usam
+somente seu atributo, respeitando requisitos.
+Pancada - Ação Atacar, um ataque corpo a corpo,
+1,5 m. Ataque +4. No acerto, 1d4 + 3 de Concussão.
+Crítico: 2d4 + 3. Sem custo de PE. Não impõe
+condição.
+Manobras da Ação Atacar: CD 12, substituindo a
+Pancada, conforme as regras comuns.
+Impacto concentrado - Classe 1, Ação Padrão, 3
+PE, Toque, 1,5 m. Selo: encostar as duas palmas
+antes de tocar o alvo. Precisa enxergar o alvo e
+cumprir o alcance. Ataque de técnica +4; acerto
+causa 3d8 de Concussão. Crítico: 6d8. Não soma
+atributo ao dano nem o dano da Pancada. Não há
+TR, condição, área ou efeito no erro. O erro gasta
+ação e PE.
+Fundamento registrado: atributo Força; dano
+Concussão; Livres: Mira, Castigo; Fechadas:
+Amparo, Tempo, Marca. Expressão visual: as
+marcas do corpo se acendem brevemente, sem
+efeito mecânico. A ficha conhece apenas a
+aplicação acima. Não recebe repertório, Aptidões,
+Caminho ou recursos adicionais por analogia a um
+personagem jogador.
+Com a reserva inicial de 6 PE, são no máximo dois
+usos pelo custo normal. Os PE não se renovam por
+rodada. Se algum efeito mudar o custo ou impedir a
+execução, use o custo atual. Sem poder conjurar,
+continua dispondo da Pancada e das ações gerais.
+Vigia das farpas
+Uma figura estreita de madeira e papel, com dois
+braços, mãos articuladas e duas pernas. Dispara
+farpas pela sua técnica e procura conservar
+distância.
+Demonstra uma ameaça à distância. Com PE,
+dispara; sem PE suficiente, pode Desengajar, recuar
+ou usar a Pancada se for alcançado. Não tem
+projétil gratuito nem ataques adicionais. Não
+aparece no encontro principal do piloto.
+Tamanho: Médio. Iniciativa: d20 + 3.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+0
+3
+1
+2
+3
+TRs: Físico +3; Vigor +1; Intelecto +2; Espírito +4. Físico usa Destreza; o treino é em Espírito.
+Perícias treinadas: Acrobacia +4; Furtividade +4; Percepção +4; Intuição +3; Investigação +3. As demais
+usam somente seu atributo, respeitando requisitos.
+Pancada - Ação Atacar, um ataque corpo a corpo, 1,5 m. Ataque +1. No acerto, 1d4 de Concussão. Crítico:
+2d4. Sem custo de PE. Não impõe condição.
+Manobras da Ação Atacar: CD 9, substituindo a Pancada, conforme as regras comuns.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+348

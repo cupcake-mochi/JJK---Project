@@ -1,0 +1,115 @@
+{
+  "registro": 104,
+  "situacoes": [
+    {
+      "titulo": "Luz na sala de projeção",
+      "funcao": "Instituição",
+      "algo_perceptivel": "Criatura vista por Leda",
+      "interessados": "Leda",
+      "decisao": "Investigar, proteger ou enfrentar",
+      "lugar": "Cinema fechado",
+      "escopo": "Requer ficha e preparo da ameaça"
+    },
+    {
+      "titulo": "Depois do primeiro chamado",
+      "funcao": "Aprendizagem por conversa",
+      "algo_perceptivel": "Relato de Caio com dúvida",
+      "interessados": "Caio",
+      "decisao": "Rever fatos, ouvir outra fonte ou compartilhar experiência",
+      "lugar": "Lugar de encontro à escolha",
+      "escopo": "Sem benefício novo de treinamento"
+    },
+    {
+      "titulo": "A assinatura no coreto",
+      "funcao": "Iniciativa própria",
+      "algo_perceptivel": "Banco rachado e fita à vista",
+      "interessados": "Rei e Nori",
+      "decisao": "Examinar, ouvir e explicar",
+      "lugar": "Coreto",
+      "escopo": "Combinação 1 preenchida; sem combate"
+    },
+    {
+      "titulo": "O que ficou no cinema",
+      "funcao": "Memória e interesse pessoal",
+      "algo_perceptivel": "Fotografias de uma apresentação",
+      "interessados": "Leda",
+      "decisao": "Reunir lembranças, procurar gravação ou reunir pessoas",
+      "lugar": "Cinema",
+      "escopo": "Pode encerrar com a escolha do que guardar"
+    },
+    {
+      "titulo": "Uma canção para cada um",
+      "funcao": "Convivência e lazer",
+      "algo_perceptivel": "Convite para ensaio",
+      "interessados": "Dara e Nori",
+      "decisao": "Tocar, ouvir ou compartilhar uma lembrança",
+      "lugar": "Coreto",
+      "escopo": "Cena cotidiana preenchida; pode terminar ali"
+    },
+    {
+      "titulo": "Ensaio na outra margem",
+      "funcao": "Apoio cotidiano e percurso",
+      "algo_perceptivel": "Canal e passarela mais distante",
+      "interessados": "Dara e Joana",
+      "decisao": "Atravessar, contornar, separar ou avisar",
+      "lugar": "Canal e coreto",
+      "escopo": "Combinação 2 preenchida; alternativa segura sem teste"
+    },
+    {
+      "titulo": "O último ônibus",
+      "funcao": "Proteção de terceiros",
+      "algo_perceptivel": "Relatos e sinais da maldição no terminal",
+      "interessados": "Passageiros e trabalhadores",
+      "decisao": "Conduzir pessoas, localizar ou exorcizar",
+      "lugar": "Terminal",
+      "escopo": "Requer ficha, sinais e preparo da ameaça"
+    },
+    {
+      "titulo": "Um pedido vindo da água",
+      "funcao": "Negociação sobrenatural",
+      "algo_perceptivel": "Pedido de uma maldição comunicativa",
+      "interessados": "Maldição e moradores",
+      "decisao": "Verificar, negociar ou recusar",
+      "lugar": "Canal",
+      "escopo": "Requer ficha; conversa não concede entidade"
+    }
+  ],
+  "pessoas": [
+    "Rei",
+    "Nori",
+    "Dara",
+    "Joana",
+    "Caio",
+    "Leda"
+  ],
+  "lugares": [
+    "Coreto",
+    "Canal das hortas",
+    "Cinema fechado",
+    "Pequeno terminal"
+  ],
+  "complicacoes": [
+    "Acesso indisponível",
+    "Pessoa precisa sair",
+    "Duas vontades pedem espaço",
+    "Outra equipe já esteve aqui",
+    "Horário mudou",
+    "Relato mistura fato e conclusão"
+  ],
+  "exemplos": [
+    {
+      "titulo": "A assinatura no coreto",
+      "objetivo": "Distinguir a origem do vestígio da causa do dano",
+      "solucoes": "Conversa e observação; leitura energética opcional",
+      "contraste_com_primeira_missao": "Não exige derrotar uma ameaça nem obter uma entidade; há pistas independentes e conclusão social."
+    },
+    {
+      "titulo": "Ensaio na outra margem",
+      "objetivo": "Chegar a um encontro preservando o caderno e a escolha de Dara",
+      "solucoes": "Contorno por terra, salto normal, natação ou meio válido da ficha",
+      "contraste_com_primeira_missao": "Tempo e percurso substituem o confronto; atraso não causa punição de ficha."
+    }
+  ],
+  "cotidiano": "Um ensaio entre amigos: ouvir, tocar, lembrar e encerrar sem nova missão.",
+  "limite": "Conferência editorial interna. As peças não são um gerador aleatório de todas as combinações possíveis; não comprovam recepção ou aprendizagem de leitores."
+}

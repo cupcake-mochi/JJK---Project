@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Nível
+PV do Bastião
+PV do
+Emanador
+PV do Guia
+Classe máxima
+Ataque principal
+dos três
+Defesa dos
+três
+10
+115
+82
+93
+3
+7
+13
+15
+185
+137
+153
+4
+8
+13
+20
+265
+202
+223
+5
+9
+14
+22
+291
+222
+245
+6
+9
+15
+26
+343
+262
+289
+7
+10
+16
+30
+395
+302
+333
+7
+10
+17
+A vida usa a Constituição atual na progressão
+inteira. Por exemplo, o Bastião 15 tem 12 + 5 + 14 ×
+(7 + 5) = 185 PV. Os PE máximos são 4, 6 e 5 por
+nível, respectivamente. A Integridade do
+personagem é 20 + (Essência + 5) × (nível - 1); a do
+inimigo comum é metade dos PV máximos, para
+baixo, mínimo 1. Não troque essas duas contas.
+As tabelas de conferência apresentam todos os
+atributos, PE, Integridade, referências de Defesa e
+resultados. Elas conservam também os níveis 2 e 6
+para comparação.
+Compare ações, não apenas dados
+de dano
+Um conjunto ofensivo abaixo reúne três Ações
+Padrão, uma de cada personagem. Ele não
+representa automaticamente uma rodada: alcance,
+iniciativa, socorro, controle e objetivo podem
+impedir essas ações.
+Conjunto
+O que os três fazem
+Três feitiços
+Cada um usa um feitiço individual de dano da maior Classe, Projétil sem Melhorias
+ou Restrições: 3 × Classe em d8, pelo mesmo número de PE. Os atributos de suas
+técnicas são os principais registrados.
+Misto
+O Bastião usa Atacar com Espada Longa de uma mão: 1d8 + Força + Canalizar por
+golpe. A partir do nível 7, acrescenta o ataque simples de Ataque Extra, uma vez
+naquela rodada. Emanador e Guia usam seus feitiços.
+Para repetir o conjunto, o Bastião precisa de outra
+rodada que permita novamente Ataque Extra; um
+turno adicional na mesma rodada não o renova. Os
+dois feitiços de cada personagem cabem em seus
+PE iniciais. Nenhum perfil recebe ações adicionais
+para justificar as contas.
+O alvo deste exemplo tem Defesa estática 16, sem
+redução, cobertura, cura ou reação. Os ataques
+incluem erro e crítico natural; Canalizar não dobra
+no crítico. O alvo começa com a vida indicada. A
+coluna final de cada conjunto mostra a chance de
+ele conservar vida positiva depois de dois
+conjuntos, sem converter isso em duração de
+combate.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+98

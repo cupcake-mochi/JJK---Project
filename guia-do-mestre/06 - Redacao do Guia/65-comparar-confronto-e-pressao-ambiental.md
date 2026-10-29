@@ -1,6 +1,6 @@
-# Comparar confronto e pressão ambiental
+# Combinar inimigos e perigos do cenário
 
-**Para ler ao combinar uma criatura, um objetivo e uma mudança no cenário.** O [Carregador](62-o-carregador-e-o-corredor-de-entulho.md) já disputa uma caixa e transporta intrusos. A [passarela](64-a-passarela-e-o-guincho.md) mostra um perigo que evolui sem inimigo. Combinar fontes de pressão exige preparar a situação resultante: os dois exemplos isolados não fornecem uma soma de dificuldade.
+**Para ler ao combinar uma criatura, um objetivo e uma mudança no cenário.** O [Carregador](62-o-carregador-e-o-corredor-de-entulho.md) já disputa uma caixa e transporta intrusos. A [passarela](64-a-passarela-e-o-guincho.md) mostra um perigo que evolui sem inimigo. Combinar inimigos e perigos exige preparar a situação resultante: os dois exemplos isolados não fornecem uma dificuldade que possa ser simplesmente somada.
 
 Comece com uma pergunta: **o que o grupo precisará decidir quando o ambiente mudar?** Se a resposta for apenas “receber mais dano”, examine se isso ensina ou produz o confronto pretendido. Posição, acesso e tempo também podem mudar uma escolha.
 
@@ -20,9 +20,9 @@ O corredor novo também pode mudar as posições, mesmo com o motor desligado. P
 
 Não aumente vida, dano ou quantidade de ataques junto com o primeiro ensaio. Se depois alterar algum desses campos, registre a mudança e o motivo. Um caso que termina depressa pode ter permitido uma boa solução; isso não obriga a acrescentar outra ameaça.
 
-## Localize a disputa nas ações
+## Compare o que cada ação permite
 
-A fonte ambiental deve ter uma ficha: onde atua, quando começa, o que anuncia, quando resolve, como pode ser interrompida e o que permanece depois. Uma frase como “a sala fica mais perigosa a cada rodada” ainda não informa como jogar.
+O perigo do cenário deve ter uma ficha: onde atua, quando começa, o que anuncia, quando age, como pode ser interrompido e o que permanece depois. Uma frase como “a sala fica mais perigosa a cada rodada” ainda não informa como jogar.
 
 No novo mapa, a parada fica a 12 m da posição inicial. Uma personagem com deslocamento de 9 m pode usar Movimento, converter Bônus em outro Movimento e gastar a Padrão na parada. Interrompe o fechamento e ainda conserva 6 m para andar. **A Padrão usada no comando não sobra para atacar, libertar alguém por uma ação ou prestar atendimento naquele turno.** Sua Reação continua sujeita aos gatilhos normais.
 
@@ -38,11 +38,11 @@ Essa é uma escolha concreta. Também é válido que uma pessoa pare o motor enq
 
 Conte também o que **não** compete. Outra pessoa pode agir em seu próprio turno; uma entidade conserva a atuação que sua regra permite. Não entregue um turno extra ao mecanismo por haver mais participantes.
 
-## Examine as combinações que mudam o risco
+## Confira como os riscos se combinam
 
 Uma capacidade moderada pode produzir outro resultado quando o espaço muda. Agarrar retira o deslocamento próprio; fechar a saída curta alonga a retirada de quem continua dentro. A combinação pode exigir ações de fuga e depois mais movimento. Ela não precisa aumentar o dano para dificultar o socorro.
 
-Faça ao menos estes recortes antes de conduzir:
+Confira ao menos estas situações antes de jogar:
 
 - Alguém está livre, junto da caixa, quando o portão fecha.
 - Alguém está agarrado, e um aliado precisa decidir entre ajudar e parar o mecanismo.
@@ -52,27 +52,27 @@ Faça ao menos estes recortes antes de conduzir:
 
 **Exemplo de retirada.** Do ponto de trabalho ao pátio, andar custa 6 m pela saída curta ou 18 m pelo serviço. Arrastar um aliado custa 12 m ou 36 m. Com duas ações de Movimento de 9 m, reservando a Padrão, o transporte passa de um turno para dois, nas condições descritas. Isso não é previsão da duração do combate: começa com o aliado já acessível, disposto ou inconsciente, e pressupõe caminho livre e ausência de nova interferência.
 
-Quando houver terreno difícil, confira os trechos de 1,5 m e os metros que sobram em cada turno. Dividir o custo total pelo orçamento pode esconder uma sobra que não paga o próximo trecho. Não guarde metros para a rodada seguinte. Do recuo até o pátio pelo caminho direto, o arrasto custa 54 m no total. Com orçamento de 18 por turno, os trechos exigem quatro turnos: gastos de 16,5; 16,5; 18; e 3. A divisão 54 ÷ 18 sugeriria três, mas ignora as sobras que não pagam o próximo trecho.
+Quando houver terreno difícil, confira os trechos de 1,5 m e os metros que sobram em cada turno. Dividir o custo total pelo movimento disponível pode esconder uma sobra que não paga o próximo trecho. Não guarde metros para a rodada seguinte. Do recuo até o pátio pelo caminho direto, o arrasto custa 54 m no total. Com 18 m disponíveis por turno, os trechos exigem quatro turnos: gastos de 16,5; 16,5; 18; e 3. A divisão 54 ÷ 18 sugeriria três, mas ignora as sobras que não pagam o próximo trecho.
 
 ## Ofereça informação que permita escolher
 
-Explique o efeito e as alternativas antes de cobrar a consequência. No portão, o grupo recebe o prazo, a localização da parada, a faixa que impede o fechamento e a rota de serviço. Estudar pode esclarecer outra dúvida, mas não é pedágio para conhecer uma saída já visível.
+Explique o efeito e as alternativas antes de cobrar a consequência. No portão, o grupo recebe o prazo, a localização da parada, a faixa que impede o fechamento e a rota de serviço. Estudar pode esclarecer outra dúvida, mas não é necessário para conhecer uma saída já visível.
 
 A informação também limita a condução do inimigo. O Carregador reage ao que percebe; não sabe que a caixa mudou de portador atrás de uma parede só porque o mestre viu a ação. O portão fechado bloqueia a visão pelo vão, afetando os dois lados. Não apaga sons ou energia por uma regra inventada durante a cena.
 
 Conserve as soluções permitidas pelas fichas. Uma manipulação remota válida pode alcançar a parada; um deslocamento apropriado pode levar alguém à outra rota. Confira ação, alcance, alvo e requisitos. Resolver o mecanismo por um recurso existente é uso do sistema, não falha do encontro.
 
-## Separe os encerramentos
+## Confira o que ainda falta resolver
 
 Registre três perguntas: **a oposição terminou, o mecanismo parou e todas as pessoas saíram?** Elas podem ter respostas diferentes.
 
 Derrotar o Carregador não desliga um aparelho independente. Parar o aparelho não obriga a criatura a entregar a caixa. Chegar ao pátio com o objeto não retira um aliado do recuo. Uma negociação que resolva a oposição tampouco reabre automaticamente um portão já fechado.
 
-A cada mudança, atualize posições, condição de contenção, vida, Integridade, recursos e estado do mecanismo. Evite encerrar a iniciativa enquanto houver escolhas urgentes cujo custo depende dessa ordem. Depois, continue o tempo ficcional e a recuperação pelos procedimentos aplicáveis.
+A cada mudança, atualize posições, condição de contenção, vida, Integridade, recursos e estado do mecanismo. Evite encerrar a iniciativa enquanto houver escolhas urgentes cujo custo depende dessa ordem. Depois, continue o tempo ficcional e a recuperação pelas regras correspondentes.
 
 ## O que observar na avaliação
 
-Use o mesmo grupo, fichas e estados de entrada quando quiser comparar versões. Registre a ordem de iniciativa e quais resultados foram escolhidos apenas para demonstrar uma regra. Repetir um roteiro não equivale a observar decisões reais.
+Use o mesmo grupo, as mesmas fichas e os mesmos recursos e condições iniciais quando quiser comparar versões. Registre a ordem de iniciativa e quais resultados foram escolhidos apenas para demonstrar uma regra. Repetir um roteiro não equivale a observar decisões reais.
 
 | Registro | Pergunta que ele ajuda a responder |
 |---|---|
@@ -82,4 +82,4 @@ Use o mesmo grupo, fichas e estados de entrada quando quiser comparar versões. 
 | Informação que precisou ser repetida | Os sinais e os momentos ficaram claros? |
 | Momento da derrota, atendimento e retirada | O fim da oposição foi confundido com segurança de todos? |
 
-As contas do exemplo mostram custos e estados possíveis. O uso por leitores e mesas poderá mostrar dificuldade de consulta, repetição ou desequilíbrio. Preserve essa diferença no parecer: uma ficha completa permite avaliar a proposta; não certifica seu equilíbrio.
+As contas do exemplo mostram custos e estados possíveis. O uso por leitores e mesas poderá mostrar dificuldade de consulta, repetição ou desequilíbrio. Deixe essa diferença clara na avaliação: uma ficha completa permite avaliar a proposta; não certifica seu equilíbrio.

@@ -1,0 +1,92 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Campo
+Conta e resultado
+Bloquear
+2d10 + Defesa - 11 = 2d10 + 3.
+TR treinado
+Intelecto: Inteligência 3 + Maestria 1 = +4.
+Outros TRs
+Físico com Destreza +2, Vigor +2, Espírito +2.
+Perícias treinadas
+Acrobacia +3, Furtividade +3, Investigação +4, Percepção +3,
+Sobrevivência +4.
+Vagas
+Uma básica, duas especiais e um talento até CE1.
+Reserva própria
+Nenhuma. Tala paga a energia exigida.
+São cinco perícias: 4 + metade da Inteligência 3,
+para baixo = 5. Percepção usa Essência;
+Investigação e Sobrevivência usam Inteligência.
+Ter mãos não concede treino em Ofícios. Uma
+arma empunhada também não usaria
+automaticamente o acerto das agulhas: o Livro de
+Regras 1.0 exige seu atributo próprio e aplica
+desvantagem à entidade sem treino em armas.
+As duas vagas de especial resultam de metade de (2
++ nível ÷ 2), arredondada para baixo: no nível 5,
+metade de 4,5 dá 2,25, portanto duas vagas. Ter
+duas especiais conhecidas não dá duas execuções
+no mesmo ciclo.
+Escolha as Famílias
+Mira é Livre; Alcance e Marca são abertas. Área,
+Controle, Auxiliares, Castigo, Tempo e Amparo
+ficam Fechadas.
+Mira corresponde à precisão e à superação de
+proteção das agulhas. Alcance permite desenvolver
+mudanças de distância. Marca reserva acesso a
+peças de identificação e marcação compatíveis com
+a definição. Abrir uma Família permite comprar
+suas peças; não concede nenhuma gratuitamente.
+Esta primeira ficha ainda não possui uma especial
+de Marca.
+A Família Livre reduz o preço de suas Melhorias
+pelo desconto das entidades: metade da Classe real
+para baixo, com mínimo de 1. O preço final da peça
+também tem mínimo de 1. Formas não recebem
+esse desconto.
+O talento de imagem ocupa a escolha de talento e
+tem seu próprio texto. Ele não é uma Melhoria de
+Marca disfarçada nem concede as peças dessa
+Família. Uma capacidade própria continua
+precisando respeitar o acesso e a atuação da
+entidade; seu nome não abre Famílias Fechadas.
+As habilidades conhecidas
+Agulha de tinta
+Básica de Classe 0. Projétil, 9 m; ataque +4; 2d6 de
+Perfurante. Sem Melhoria, Restrição ou custo de
+PE. Não soma Inteligência ao dano, não impõe
+condição e não deixa tinta com função de
+rastreamento. No crítico, causa 4d6.
+A básica consome a atuação básica do Escriba. O
+alcance de 9 m vem da Classe 0, mesmo que a
+entidade já possa usar especiais de Classe 2.
+Agulha guiada
+Especial conhecida de Classe 1. Projétil +
+Precisão; 18 m; ataque +6; 1d8 de Perfurante; 3
+PE. No crítico, 2d8.
+A especial começa com 2 pontos de montagem.
+Projétil custa zero. Precisão é Leve: custa 1 na
+Classe 1 e continua custando 1 com Mira Livre,
+pelo preço mínimo. Sobra 2 - 1 = 1 ponto,
+convertido em 1d8. Precisão acrescenta +2 ao
+acerto, levando +4 a +6.
+Tala pode usar essa especial ampliada para Classe
+2, já disponível no nível 5. As peças continuam as
+mesmas: 4 - 1 = 3d8, por 6 PE, com ataque +6 e
+alcance de 18 m. Ela escolhe a Classe do uso antes
+de usar a habilidade, sem ocupar uma vaga
+adicional.
+Agulha perfurante
+Especial conhecida de Classe 2. Projétil + Precisão
++ Fura; 18 m; ataque +6; 2d8 de Perfurante; 6 PE.
+No crítico, 4d8. Ignora até 2 de Redução de Dano
+(RD) aplicável ao golpe. Não ignora resistência,
+imunidade, cobertura ou vida de barreira. Se o alvo
+não tiver essa redução, não acrescenta 2 ao dano.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+280

@@ -1,0 +1,2498 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+ABERTURA
+
+Como usar este livro
+Este Guia ensina a mestrar Ciclo Maldito:
+apresentar o mundo, ouvir as escolhas dos
+jogadores e descobrir com eles o que acontece.
+Você encontrará uma missão acompanhada, ajuda
+para criar outras aventuras e ferramentas para os
+assuntos próprios do sistema.
+
+Já mestro e quero consultar o sistema. Vá direto ao
+assunto: Inimigos e perigos, Personagens e
+técnicas, Entre missões, Pactos e entidades ou
+Jogar em guilda. As folhas para a mesa ajudam a
+preparar, conduzir e retomar uma sessão. O índice
+de casos leva aos exemplos detalhados.
+
+O jogo se inspira em Jujutsu Kaisen, mas você pode
+começar sem conhecer a obra. O cotidiano de um
+feiticeiro inclui missões, estudo, trabalho, amizades
+e descanso. O Guia ajuda a dar espaço a essas
+experiências, com personagens de diferentes
+Origens e fontes de força.
+
+Quero uma campanha fechada. Você pode
+combinar este caminho com qualquer um dos
+anteriores. Use a primeira missão se estiver
+começando; depois, leia Preparar aventuras, Na
+mesa de jogo e Criar uma campanha. Consulte os
+capítulos técnicos conforme precisar. Em Entre
+missões, use a orientação para o tempo disponível
+na história; os registros de continuidade também
+ajudam um único mestre.
+
+Ciclo Maldito foi pensado principalmente para
+guildas, em que vários mestres e personagens
+compartilham o mundo. Suas regras favorecem esse
+formato. Você também pode usar os ensinamentos
+e as ferramentas numa campanha fechada,
+acompanhando um grupo fixo. As orientações
+próprias da guilda aparecem junto dos assuntos que
+organizam.
+
+Por onde começar
+Nunca mestrei e não conheço a obra. Comece por
+Sua primeira missão. Ela apresenta o contexto
+necessário, o preparo e exemplos de escolhas
+durante o jogo. O mundo dos feiticeiros amplia o
+contexto quando você quiser; não é preciso
+terminá-lo antes de acompanhar a missão.
+Conheço a obra e estou aprendendo a mestrar.
+Leia a primeira missão e siga para Preparar
+aventuras e Na mesa de jogo. Consulte o capítulo
+sobre o mundo quando precisar de ideias ou quiser
+esclarecer sua adaptação ao jogo.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Durante a leitura e o jogo
+Tenha o Livro de Regras 1.0 para criar as fichas e
+consultar as regras completas. Aqui você aprende a
+usá-las ao preparar e conduzir o jogo. Os exemplos
+mostram uma maneira de resolver a situação; os
+jogadores podem escolher outros caminhos e os
+dados podem produzir outros resultados.
+Quando houver mais de uma abordagem válida, o
+Guia recomenda um caminho e explica alternativas.
+Escolha considerando o grupo, a situação e os
+acordos da campanha. As fichas e os modelos
+identificados como experimentais são propostas
+para avaliação; seus números não formam uma
+escala geral de equilíbrio.
+A abertura e os capítulos iniciais não revelam
+acontecimentos da trama. Os aprofundamentos
+sobre o mangá completo têm aviso de revelações
+antes do acesso. Você escolhe quando consultá-los.
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+Sua primeira missão
+Uma recepcionista pede ajuda. Há caixas se
+movendo num depósito e ninguém sabe o que as
+empurra. Antes de enfrentar a causa, os
+personagens podem ouvir as pessoas, procurar
+outro acesso ou chamar apoio. Você vai
+acompanhar essas escolhas e descobrir com o
+grupo como a situação termina.
+Este capítulo reúne o preparo de uma missão e
+mostra uma forma de conduzi-la. Antes de jogar,
+leia a missão inteira. Durante a sessão, use a planta,
+a ficha da ameaça e o resumo de preparo no final.
+As falas e os dados do exemplo ajudam a aprender.
+Na sua mesa, os jogadores escolhem e os dados
+podem produzir outro resultado.
+
+1.1 O que faz o mestre
+Você apresenta o lugar, interpreta as pessoas e
+criaturas e responde às ações dos personagens. Os
+jogadores dizem o que querem fazer. Quando o
+resultado é incerto e a falha faz diferença, as regras
+ajudam a descobri-lo. Depois, descreva o que
+mudou e pergunte o que fazem a seguir.
+Descreva → ouça a escolha → resolva → mostre o
+resultado. Uma resposta pode caber numa frase.
+Uma conversa importante pode ocupar uma cena
+inteira.
+Ciclo Maldito se inspira em Jujutsu Kaisen. Neste
+mundo, emoções negativas humanas estão na
+origem de seres sobrenaturais chamados
+maldições. Pessoas comuns normalmente não os
+enxergam, mas percebem seus efeitos: caixas
+tombando, portas amassadas, alguém ferido.
+Feiticeiros e outros personagens preparados para
+esse mundo podem investigar e enfrentar tais
+ameaças com suas capacidades, ferramentas e
+conhecimentos.
+Isso basta para entender a missão deste capítulo.
+Ela usa pessoas e acontecimentos originais, sem
+exigir conhecer a trama da obra.
+
+1.2 Antes de começar
+Reúna o grupo, as fichas, dados ou um aplicativo e
+o Livro de Regras 1.0. d20 é um dado de vinte faces;
+3d8 significa rolar três dados de oito faces e somar
+os resultados. Tenha onde anotar os pontos de vida
+(PV), os pontos de energia (PE) e as condições.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Num teste comum, role d20 e some o bônus
+indicado. O total precisa alcançar a Classe de
+Dificuldade (CD) da tarefa. Se a regra pedir
+Medicina CD 14 e o bônus for +3, um resultado 11
+no dado completa 14: sucesso. Ataques usam a
+Defesa do alvo; outras capacidades podem pedir um
+Teste de Resistência (TR) para resistir a um efeito
+ou funcionar automaticamente.
+Conversem sobre quatro pontos:
+• A proposta: investigar uma ocorrência
+sobrenatural num centro cultural, com espaço
+para conversar, agir e recuar.
+• O tom: quais cenas de violência e terror podem
+aparecer e como pedir pausa ou mudança.
+Qualquer participante pode fazer esse pedido.
+Uma opção de morte permanente precisa ser
+combinada antes da missão.
+• Os personagens: por que estão juntos, o que os
+liga ao lugar e quem interpreta cada um. Os
+jogadores escolhem as ações de seus
+personagens; você interpreta as demais pessoas
+e criaturas.
+• As fichas e os recursos: quais opções estão
+disponíveis e como cada personagem está ao
+chegar.
+O sistema foi pensado principalmente para guildas,
+com vários mestres e personagens compartilhando
+o mundo. Aqui, a guilda pode encaminhar o
+chamado. Numa campanha fechada, Ana pode
+conhecer os personagens ou pedir ajuda durante
+uma visita deles ao bairro.
+O encontro foi preparado para três personagens de
+nível 2, com recursos completos e sem Sequelas,
+consequências de quedas anteriores. Confira como
+enxergam e atingem a maldição. Use fichas
+completas criadas pelo Livro de Regras. Os valores
+de combate apresentados adiante mostram apenas
+as capacidades usadas na demonstração.
+Exemplo experimental: a ficha do Amontoado é
+uma criação deste Guia. Seus números ainda
+precisam de avaliação em mesas. Se o grupo tiver
+outro tamanho, outras capacidades ou recursos já
+gastos, reveja o encontro antes de usá-lo.
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+1.3 Uma cena do cotidiano
+Antes do chamado, um personagem vai buscar seu
+uniforme na oficina de Nara. O conserto ficou
+pronto, mas o entregador trocou duas etiquetas. A
+roupa foi parar na recepção do centro cultural.
+Nara tira duas etiquetas amassadas de cima da
+bancada.
+— O conserto ficou pronto. O Rui levou junto
+com as encomendas da manhã, mas parece que
+trocou as entregas. Deixa eu conferir o recibo.
+Ela procura o telefone. Você pretendia fazer o
+quê depois de passar aqui?
+Jogadora: “Ia encontrar o grupo. Posso olhar a lista
+das entregas?”
+Mestre: “Pode. Há um centro cultural duas ruas
+adiante e o telefone da recepção. Nara tem a foto da
+etiqueta da sua embalagem.”
+Decisão do mestre. A informação está disponível
+e Nara quer ajudar. Entregue-a pela conversa.
+Não é necessário pedir Investigação para toda
+leitura de um documento.
+Jogadora: “Ligo para a recepção. Se a embalagem
+estiver lá, vou buscar e aviso os outros.”
+Mestre: “Ana atende, confere o recibo com Nara e
+confirma que o uniforme está guardado. Pode
+esperar você chegar. O que diz aos colegas?”
+O personagem pode buscar a roupa, pedir que Rui
+corrija a entrega ou cuidar primeiro de outro
+compromisso. Se os participantes quiserem
+conversar com Nara, dê espaço. Se só querem
+recuperar a peça, resuma a troca e siga.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+O cotidiano oferece motivos para os personagens
+se encontrarem e criarem relações. Nem toda visita
+precisa terminar numa tarefa perigosa. Quando
+Ana apresentar o problema do depósito, o grupo
+poderá decidir se quer ajudar.
+
+1.4 Prepare a missão
+Ana ouviu pancadas no depósito. Davi chegou até a
+porta, viu caixas se arrastarem sem ninguém tocálas e recuou. Funcionários esperam perto da
+recepção. Ana receia que alguém tenha ficado no
+anexo.
+O que você sabe: todos os funcionários saíram e
+estão sem ferimentos. Um Amontoado do depósito
+ocupa a sala. A criatura junta caixas, empurra-as
+com o próprio corpo e protege sua pilha. Há só essa
+maldição na ocorrência preparada.
+O que os personagens recebem: o relato de Ana,
+Davi disponível para conversar, o registro de
+presença e uma planta. Eles podem confirmar quem
+saiu, descobrir os acessos e observar a causa das
+batidas.
+O objetivo inicial: conferir as pessoas e entender o
+que aconteceu. Depois disso, enfrentar a ameaça,
+recuar ou procurar ajuda são escolhas do grupo.
+Enquanto o anexo estiver fechado, as atividades
+que dependem dele ficam suspensas. Se ninguém
+intervier, a criatura continua movendo caixas e
+danificando materiais. A demora não acrescenta
+uma pessoa presa que antes não existia.
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+Pessoas e lugar
+Pessoa
+
+O que quer
+
+O que oferece
+
+Ana, recepcionista
+
+Proteger os funcionários e
+saber o que fazer
+
+Registro de presença, planta e contato de Mina
+
+Davi, funcionário
+
+Evitar outra entrada
+desprevenida
+
+Relato do que viu da porta e caminho até a entrada de serviço
+
+Mina, contato por
+telefone
+
+Receber um relato e
+encaminhar ajuda
+
+Acompanha o chamado e procura quem possa assumir o
+próximo passo; não promete reforço imediato
+
+Ana e Davi são pessoas comuns: viram ou ouviram efeitos, sem enxergar a criatura. Mina não está no local.
+Ela pode ser um contato da guilda ou uma colega a quem o grupo costuma pedir ajuda.
+
+UMA SALA, DOIS ACESSOS AO CORREDOR
+Pilha ao fundo:
+1,5 m de altura.
+A: posição inicial
+do Amontoado.
+
+A
+
+DEPÓSITO
+6m×6m
+
+Traços rosa:
+portas de 1,5 m.
+
+4,5 m
+
+Caixas baixas
+nas laterais.
+
+Entrada
+principal
+
+PÁTIO
+6m×6m
+
+Entrada
+de serviço
+
+CORREDOR
+9m×3m
+
+4,5 m
+
+4,5 m
+
+Recepção (fora da planta)
+
+Leia o mapa: o pátio mede 6 × 6 m; o corredor, 9 × 3 m; o depósito, 6 × 6 m. Da entrada principal ou da
+entrada de serviço até a porta do depósito são 4,5 m. A entrada de serviço chega ao mesmo corredor. Há
+uma só porta para dentro da sala.
+Os espaços estão iluminados. O teto tem 3 m; as portas estão destrancadas e têm 1,5 m de abertura. Caixas
+baixas ficam junto às paredes laterais, deixando uma faixa central livre. A pilha ao fundo tem 1,5 m de
+altura. O Amontoado começa a 4,5 m da porta do depósito.
+Uma caixa pode conceder cobertura quando estiver entre o alvo e o ataque. Pela regra de cobertura Parcial,
+o benefício é +2 à Defesa e ao TR Físico contra o que vem daquele lado. A posição decide se a proteção
+existe.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+Amontoado do depósito
+Uma figura de papelões dobrados e fitas, com duas pernas, dois braços e mãos articuladas. Acumula caixas
+e as move pelo chão.
+Nível / tamanho
+
+Vida
+
+Integridade
+
+Energia
+
+Defesa
+
+Bloquear
+
+Deslocamento
+
+2 / Médio
+
+48 PV
+
+24
+
+6 PE
+
+11
+
+2d10 + 0
+
+9m
+
+Força
+
+Destreza
+
+Constituição
+
+Inteligência
+
+Essência
+
+3
+
+1
+
+3
+
+1
+
+1
+
+Iniciativa: d20 + 1. Maestria: 1. Testes de
+Resistência: Físico +4, usando Força e treino; Vigor
++3; Intelecto +1; Espírito +1. Perícias treinadas:
+Atletismo +4, Furtividade +2, Percepção +2 e
+Intuição +2. As demais usam o atributo,
+respeitando requisitos. Não tem equipamento nem
+Ofícios.
+Pancada. Ação Atacar, um ataque corpo a corpo a
+até 1,5 m. Ataque +4. No acerto, 1d4 + 3 de
+Concussão; no crítico, 2d4 + 3. Sem custo de PE ou
+condição adicional. Pode substituir o ataque por
+Agarrar, Derrubar ou Empurrar, cumprindo as
+regras da manobra; a CD é 12 e a Pancada não
+causa dano nessa substituição.
+Impacto concentrado. Feitiço de Classe 1, Ação
+Padrão, 3 PE, Toque a até 1,5 m. O Selo exige
+encostar as duas palmas antes de tocar o alvo.
+Precisa enxergá-lo. Ataque de técnica +4; no acerto,
+3d8 de Concussão; no crítico, 6d8. Não soma
+atributo ou Pancada ao dano. O erro gasta a ação e
+os PE; não produz outro efeito. Não há área, TR ou
+condição.
+Montagem da técnica (para consulta): Fundamento
+em Força; Concussão; Livres Mira e Castigo;
+Fechadas Amparo, Tempo e Marca. Conhece
+somente o feitiço acima. As marcas que brilham no
+corpo são sua aparência, sem efeito adicional.
+Leitura, Talento CE1. CE significa Categoria de
+Efeito. Identifica Classe e Forma de feitiços
+conjurados a até 18 m. Não revela sua montagem ou
+pensamentos e não concede ação ou resposta
+adicional.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Sentidos e comunicação. Visão e audição comuns.
+Entende frases simples no idioma usado pelo grupo
+e responde com gestos e ruídos. Pode segurar
+objetos compatíveis e abrir portas. Não tem visão
+no escuro, voo, teleporte ou passagem por paredes.
+Ações e defesas. Uma Padrão, um Movimento, uma
+Bônus e uma Reação, com as conversões normais.
+Um ataque por Ação Atacar. Pode usar ações gerais
+compatíveis com o corpo e os sentidos. Bloquear é
+gratuito, escolhido antes do ataque e não gasta
+Reação; Aparar e Brecha mantêm as regras do Livro
+de Regras.
+Corpo e derrota. Tem alma; não recebe resistência,
+vulnerabilidade, imunidade ou Redução de Dano
+própria desta ficha. Energia Reversa conserva as
+regras contra maldições. Integridade é a reserva
+que acompanha os ferimentos da alma, separada da
+vida; esse dano e seus estágios seguem o Livro de
+Regras. A zero de vida ou de Integridade, fica
+derrotado; não escolhe Insistir nem recebe a janela
+de socorro de um personagem jogador.
+Como age. Observa quem se aproxima. Ao ser
+atacado ou quando tentam desmontar sua pilha,
+fica hostil. Prioriza a criatura consciente mais
+próxima; em empate, quem o atacou por último.
+Não golpeia inconscientes. Usa Impacto quando
+estiver ao alcance e puder conjurar; sem PE
+suficiente ou sem cumprir o Selo, recorre à Pancada
+ou às ações gerais. A reserva paga dois Impactos
+pelo custo normal e não se renova a cada rodada. Se
+o custo mudar, use o valor atual.
+Perseguição. Pode perseguir dentro do anexo.
+Quando todos saem, volta à pilha nesta ocorrência.
+Essa preferência permite uma saída; não
+transforma a porta numa barreira mágica.
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+1.5 Jogue a missão
+Abra com algo que permita agir
+Ana encontra vocês junto à recepção. Há
+funcionários perto da saída para a rua. Ela
+aponta para a passagem que leva ao pátio.
+— O Davi disse que as caixas começaram a se
+mexer e saiu correndo. Eu ouvi umas batidas
+depois. Não sei se ficou alguém lá.
+Davi está com os colegas, ao lado do registro
+de presença. O que vocês fazem primeiro?
+A descrição apresenta o problema e pessoas
+acessíveis. Aguarde a resposta. O grupo pode
+começar por Davi, pelos funcionários, pela planta
+ou por uma proposta própria.
+
+Acompanhe uma investigação
+Jogadora: “Antes de entrar, quero saber quem ficou
+lá. Peço a lista e pergunto ao Davi quem saiu com
+ele.”
+Mestre: “Ana entrega o registro. Davi aponta os
+colegas. Vocês conferem quem está aqui e
+conseguem falar com os demais. Todos os
+funcionários estão fora do anexo.”
+Decisão do mestre. As pessoas colaboram e a
+conferência é possível. A conversa resolve a
+dúvida sem rolagem. A descoberta muda a
+prioridade: já não há motivo para correr até o
+depósito procurando um funcionário conhecido.
+Jogador: “Pergunto ao Davi o que ele viu e peço
+para mostrar na planta.”
+Mestre: “Ele chegou até a porta do depósito. Viu
+uma caixa tombar e outras se arrastarem, mas não
+viu quem as tocava. Recuou pelo corredor. Mostra
+também a entrada de serviço, na outra ponta.”
+Decisão do mestre. Davi oferece o que
+testemunhou. O mapa informa os acessos;
+observar o local permite descobrir como ele está
+agora. Cada fonte responde a uma parte do
+problema.
+Jogadora: “Peço à Ana para manter as pessoas
+longe do anexo. Quero olhar a sala antes de decidir
+se vamos entrar.”
+Mestre: “Ana concorda e avisa aos funcionários.
+Vocês atravessam o pátio e chegam à entrada do
+corredor. Quem vai à frente e de onde pretende
+observar?”
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Decisão do mestre. A pergunta agora importa: a
+posição e os sentidos dos personagens definem o
+que podem perceber. Explique os sinais evidentes
+antes de exigir testes. Se houver dúvida sobre o
+resultado de uma busca ou do uso de uma
+capacidade, consulte a regra daquela tentativa.
+Nesta demonstração, os três têm meios válidos para
+enxergar o Amontoado. Ao observá-lo pela porta,
+veem a figura de papelão e fitas junto à pilha. Ela
+empurra uma caixa, produzindo outra pancada, e se
+vira para eles. Ainda não atacou.
+Se um personagem não puder enxergá-la, descreva
+o que seus sentidos e suas capacidades permitem
+perceber: a caixa se deslocando, o ruído ou a
+informação fornecida por um colega. Prepare a
+missão considerando essa diferença antes da
+sessão.
+
+Quando os jogadores quiserem entender
+mais
+Uma pergunta pode ser respondida pelo que já está
+evidente: a criatura está juntando caixas. Para
+compreender um sinal incerto, use Estudar, com
+uma pergunta concreta sobre algo que o
+personagem consegue observar. Em combate, custa
+Ação Padrão. O mestre indica a perícia e a
+dificuldade conforme a regra. O sucesso fornece
+uma informação útil sustentada pelos sinais; na
+falha, a ação é gasta. Repetir a mesma pergunta
+exige nova pista ou mudança de abordagem.
+
+Quando começa o combate
+O grupo decide enfrentar a criatura. A personagem
+da frente se aproxima e anuncia que vai atacá-la.
+Antes de resolver o golpe, organize a iniciativa. A
+declaração não concede um ataque gratuito.
+Peça d20 + Destreza, com os modificadores ativos, e
+registre a ordem do maior para o menor. Em
+empate, maior Destreza primeiro; se ela também
+empatar, personagem jogador antes do inimigo.
+Jogadores escolhem entre si e o mestre entre
+inimigos ainda empatados.
+Cada participante tem Ação Padrão, Movimento,
+Bônus e Reação. A Padrão pode pagar Atacar ou o
+feitiço que declare esse custo. O Movimento
+permite percorrer o deslocamento da ficha e pode
+ser dividido ao longo do turno. A Reação exige um
+gatilho e se renova no começo do próprio turno. As
+conversões e outras ações continuam disponíveis
+pelas regras normais.
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+Para acertar: role d20 e some o bônus de ataque
+uma vez. O total precisa alcançar a Defesa. Em 12 +
+4 = 16, são 12 no dado e bônus +4; o resultado é 16.
+Para causar dano, role os dados da capacidade que
+acertou.
+Antes do ataque, o alvo pode escolher Bloquear em
+lugar da Defesa: 2d10 + Defesa − 11. A escolha é
+gratuita e não gasta Reação. Ela precisa ser feita
+antes de conhecer o acerto; o resultado substitui a
+Defesa mesmo quando for menor. Aparar e Brecha
+têm suas próprias consequências. Para acompanhar
+as contas abaixo, todos escolhem manter a Defesa
+fixa.
+
+Quem participa deste exemplo
+Os valores a seguir são recortes de fichas para
+acompanhar a demonstração. Use as fichas
+completas dos jogadores na sua sessão.
+Personagem
+
+Recursos
+iniciais
+
+Capacidade usada, com
+Ação Padrão
+
+Frente
+
+23 PV, 8 PE,
+Defesa 13
+
+Toque de Classe 1:
+ataque +4, 3 PE, 3d8 de
+Concussão, 1,5 m
+
+Apoio
+
+17 PV, 10
+PE, Defesa
+13
+
+Cura de Classe 1: 3 PE,
+2d8, até 9 m
+
+Conjuradora
+
+14 PV, 12
+PE, Defesa
+13
+
+Projétil de Classe 1:
+ataque +4, 3 PE, 3d8 de
+Concussão, até 18 m
+
+As aplicações têm Selos e demais requisitos
+cumpridos. A frente usa uma mão livre e Selo
+verbal; os demais também executam seus Selos. A
+cura é válida sobre a aliada disposta: os dados
+determinam a quantidade, sem rolagem de ataque.
+Nenhum desses feitiços soma atributo ao dano ou à
+cura. Todos têm meios válidos para perceber seus
+alvos e usar suas capacidades. Não há perda de
+Integridade nesta sequência.
+Posições: a frente está a 1,5 m do Amontoado, na
+faixa central. Os outros dois estão dentro da sala,
+próximos da porta e afastados para lados
+diferentes, com visão livre dos alvos. Estão a até 6
+m da criatura e a menos de 9 m da frente. Nenhum
+corpo ou caixa se interpõe aos ataques da
+conjuradora. Essas posições são alcançadas antes
+da declaração de ataque.
+
+Primeira rodada: agir enquanto o socorro
+chega
+Amontoado. Encosta as palmas, as marcas brilham
+e ele tenta Impacto concentrado. Gasta 3 PE. Sai 20
+natural, um crítico: os 3d8 básicos viram 6d8. Os
+dados mostram 5, 4, 3, 4, 3 e 5: 24 de dano. A frente
+tinha 23 PV e chega a zero.
+Frente: “Vou Insistir. Ainda quero tentar meu
+Toque.”
+Mestre: “Você continua consciente. Tem três
+rodadas para receber socorro, porque não tinha
+Sequelas. Marco o momento da queda na iniciativa
+do Amontoado. É seu primeiro Insistir nesta cena:
+precisa acumular 8 de tratamento, um terço de 23
+arredondado para cima.”
+Decisão do mestre. A zero de vida, a personagem
+está Morrendo. Insistir permite conservar as
+ações e recursos ainda disponíveis; não devolve
+uma ação gasta. O golpe que causou a queda
+inicia a janela de socorro. Seu excesso de dano
+não consome outra rodada.
+Turno da frente. Ela gasta 3 PE e sua Padrão no
+Toque: 12 + 4 = 16, contra Defesa 11. Acerta. O
+dano é 4 + 3 + 5 = 12. O Amontoado passa de 48
+para 36 PV.
+Turno do apoio. Ele usa a Padrão e 3 PE para curar.
+Os dados dão 3 + 2 = 5.
+Mestre: “Anoto 5 de tratamento. Você continua a
+zero de vida; faltam 3 para completar os 8. A janela
+continua correndo.”
+Decisão do mestre. Cura válida recebida
+enquanto Morrendo é acumulada separadamente.
+A personagem só sai desse estado quando
+completar o necessário ou receber uma
+capacidade que permita encerrá-lo
+expressamente. Uma cura insuficiente não
+devolve tempo.
+Turno da conjuradora. Ela gasta 3 PE e a Padrão
+no Projétil. Acerto 10 + 4 = 14. Dano 6 + 3 + 5 = 14.
+O Amontoado passa de 36 para 22 PV.
+
+Ordem de iniciativa do exemplo: Amontoado 20;
+frente 17; apoio 14; conjuradora 10. A ordem
+permanece nas duas rodadas abaixo. Os resultados
+foram escolhidos para explicar o jogo; não são
+resultados exigidos da mesa.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+O que anotar quando alguém cai
+
+Se alguém cair de outra forma
+
+Informação
+
+Nesta queda
+
+Vida máxima de
+referência
+
+23, sem vida temporária
+
+Escolha
+
+Primeiro Insistir da cena
+
+Tratamento
+necessário /
+recebido
+
+8/5
+
+Aguentar. A personagem fica Inconsciente. O
+tratamento necessário é um quarto da vida máxima
+de referência, arredondado para cima, sem teto.
+Para máximo 23, são 6. Se ela já estava Inconsciente
+ao cair, Aguenta. Depois não pode mudar para
+Insistir nessa queda.
+
+Janela restante
+
+3 rodadas
+
+Ponto da queda
+
+Iniciativa do Amontoado, antes
+dos turnos dos três personagens
+
+Sem Sequelas anteriores, a janela começa com três
+rodadas. Cada Sequela anterior tira uma rodada;
+com três ou mais, ocorre Derrota imediata. Cada
+volta completa até o ponto marcado consome uma
+rodada. Dano posterior que alcance a vida consome
+outra, depois das defesas e da vida temporária. Ele
+não apaga o tratamento recebido. Quando o prazo
+acaba, o personagem fica Derrotado.
+
+Segunda rodada: completar o
+atendimento
+Amontoado. A iniciativa volta ao ponto da queda.
+Passou uma volta completa: a janela da frente cai
+de 3 para 2 rodadas. A criatura usa seus últimos 3
+PE em outro Impacto. Ataque 4 + 4 = 8, contra
+Defesa 13: erra. A ação e os PE são gastos. A frente
+não recebe dano e conserva as duas rodadas
+restantes.
+Turno da frente. Ainda Insistindo, ela usa outro
+Toque por 3 PE. Acerto 9 + 4 = 13; dano 4 + 5 + 3 =
+12. O Amontoado passa de 22 para 10 PV.
+Turno do apoio. Outra cura, com Padrão e 3 PE, dá
+2 + 1 = 3. Somada aos 5 anteriores, completa 8 de
+tratamento.
+Mestre: “Você sai de Morrendo com 8 PV e uma
+Sequela. Encerramos a contagem dessa queda.”
+Decisão do mestre. Todo o tratamento
+acumulado se transforma em vida, até o máximo
+atual. Os 8 necessários não são subtraídos da
+cura. A Sequela encurta uma próxima janela; não
+impõe penalidade a ataques ou perícias. Nesta
+missão, ela permanece até o descanso longo
+conforme as regras.
+Turno da conjuradora. Ela gasta 3 PE no Projétil:
+11 + 4 = 15, acerto. Os dados 3 + 4 + 4 = 11 deixam
+o Amontoado a zero de vida. O inimigo está
+derrotado. O fechamento da missão aparece em 1.7,
+depois das outras escolhas possíveis.
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Insistir outra vez na mesma cena. O tratamento
+passa a metade do máximo de referência, para
+cima. Tanto no primeiro quanto nos seguintes
+Insistir, existe teto de 15 × a maior Classe da
+personagem. Pode passar para Aguentar sem ação,
+conservando o requisito, o tratamento e o prazo
+daquela queda.
+Estabilizar. Uma pessoa a até 1,5 m, com acesso ao
+alvo, uma mão livre e meios adequados, gasta
+Padrão e faz Medicina CD 14. O alvo precisa estar
+Inconsciente e Morrendo; para um corpo
+construído, usa-se o Ofício compatível, respeitando
+seus requisitos. No sucesso, o tempo para de
+consumir a janela, sem curar ou acordar. A falha
+gasta a ação; outra tentativa é possível enquanto
+houver tempo. Dano positivo à vida desfaz a
+estabilidade e consome uma rodada: marque esse
+novo ponto para retomar a contagem. Uma pessoa
+estável, fora de perigo, que conclua descanso curto
+recupera 1 de vida e encerra Morrendo: some o
+tratamento anterior, até o máximo, respeitando
+impedimentos de cura. Recebe uma Sequela.
+Derrota. Encerra a participação ativa naquela cena.
+Na campanha padrão não significa morte
+automática. A cura comum posterior não reabre
+essa participação. Se ainda houver uma queda em
+andamento quando a luta terminar, continue o
+atendimento e sua contagem. Consulte Vida a zero
+e Socorro no Livro de Regras para as exceções das
+capacidades e a recuperação completa.
+
+1.6 Se o grupo escolher outro
+caminho
+Conversar com a criatura
+Jogador: “Em vez de atacar, digo que viemos
+conferir se alguém precisa de ajuda. Quero ver
+como ela reage.”
+Mestre: “Ela acompanha sua voz, bate a mão na
+pilha e aponta para a porta. Continua junto das
+caixas.”
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Decisão do mestre. O Amontoado entende frases
+simples e se comunica por gestos. Como ninguém
+o atacou ou tentou desmontar a pilha, ele mantém
+o comportamento preparado. A conversa revelou
+uma reação e deu ao grupo outra decisão. Se
+propuserem uma troca ou outro acordo, considere
+o pedido, o que a criatura quer e o que as regras
+permitem resolver por conversa.
+
+Usar a entrada de serviço
+Mostre o caminho na planta. O grupo chega à outra
+ponta do corredor e ainda precisa alcançar a mesma
+porta do depósito. Descreva de onde pode observar,
+o que encontra e como tenta se aproximar. Para se
+esconder ou procurar algo que ainda não percebeu,
+use a regra pertinente. Entrar por outro lado muda
+a aproximação, sem decidir sozinho se o
+Amontoado percebe alguém.
+
+Sair de um combate
+Informe o caminho disponível e ouça o plano. Sair
+do alcance corpo a corpo de um inimigo que
+enxerga a saída pode provocar ataque de
+oportunidade: ele gasta Reação e usa um ataque
+corpo a corpo com arma ou desarmado, antes da
+saída. Isso não concede Impacto concentrado como
+resposta.
+Desengajar custa Padrão e protege os movimentos
+de quem usou a ação até o fim daquele turno. O
+personagem ainda usa seu Movimento para
+caminhar. Carga, mãos, posição e deslocamento
+importam ao transportar um aliado; confiram o que
+as fichas permitem antes de resolver.
+O Amontoado pode acompanhar o grupo dentro do
+anexo. Quando todos saem, volta à pilha. Descreva
+essa reação quando acontecer. A equipe pode
+seguir até o pátio e a recepção, continuar um
+atendimento ou falar com Mina.
+
+Chamar apoio e manter o anexo fechado
+
+ABERTURA E CAPÍTULOS 1–3
+
+Decisão do mestre. Essa escolha protege as
+pessoas e encaminha o problema. A ameaça
+permanece no depósito até que alguém consiga
+resolvê-la. Combine quem acompanha a
+pendência e o que será informado ao grupo;
+receber o chamado não significa que outra equipe
+já chegou.
+
+Propor algo que você não preparou
+Peça somente a informação que falta: o que querem
+conseguir, com quais meios e de onde. Use os fatos
+que conhece e a regra adequada. Uma capacidade
+pode resolver uma parte da missão; descreva o
+resultado e siga a partir dele. Se faltar uma
+informação de regra, faça uma pausa breve,
+consulte o Livro de Regras e registre a decisão que
+precisar continuar depois.
+
+1.7 Depois da missão
+Quando a oposição terminar, pergunte o que os
+personagens fazem com o lugar e com as pessoas.
+Ainda pode haver caixas instáveis, material
+quebrado ou alguém precisando de atendimento.
+Se pretendiam exorcizar a maldição e a ação
+permite esse desfecho, descreva o corpo se
+desfazendo em papelões e fitas e o fim das batidas.
+Se alguém quer adquirir a criatura por Doma,
+apresente antes da tentativa a ficha convertida e
+confira os requisitos de nível, derrota sem
+destruição e submissão. A Doma tem regras
+próprias; o capítulo de Pactos e entidades explica
+seu uso. A ficha de inimigo não vira
+automaticamente a ficha da entidade adquirida.
+Ana pode receber o relato, organizar a vistoria e
+planejar a retomada das atividades. Os jogadores
+também podem voltar à oficina ou falar sobre o
+risco que correram. Dê espaço à reação que
+quiserem desenvolver. Quando não houver outra
+decisão a acompanhar, resuma o restante e encerre.
+
+Jogadora: “Todos os funcionários saíram. Não
+quero arriscar o grupo aqui. Ligo para a Mina e
+explico o que vimos.”
+Mestre: “Mina pede a localização, confirma quem
+já está a salvo e anota a descrição da criatura.
+Aceita acompanhar o chamado e procurar ajuda.
+Ana mantém o acesso ao anexo suspenso.”
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+Confira o estado do grupo
+Depois das duas rodadas desta demonstração:
+Participante
+
+Vida
+
+Energia
+
+Estado
+
+Frente
+
+8/23
+PV
+
+2/8 PE
+
+Uma Sequela; saiu
+de Morrendo
+
+Apoio
+
+17/17
+PV
+
+4/10 PE
+
+Sem queda
+
+Conjuradora
+
+14/14
+PV
+
+6/12 PE
+
+Sem queda
+
+Amontoado
+
+0/48
+PV
+
+0/6 PE
+
+Derrotado; destino
+conforme a ação e a
+intenção resolvidas
+
+Ninguém perdeu Integridade no exemplo. A
+derrota da criatura não recupera os recursos do
+grupo. Confira no Livro de Regras e nos acordos da
+campanha quando o grupo pode descansar, receber
+XP e ser remunerado. Se houver atendimento
+pendente, resolva-o antes de avançar o tempo.
+
+Guarde o que precisa continuar
+Um registro curto pode bastar:
+Funcionários conferidos, todos fora e sem
+ferimentos. Ana recebeu o relato. Amontoado
+exorcizado neste desfecho; depósito ainda
+precisa de vistoria dos materiais. Frente com
+8/23 PV, 2/8 PE e uma Sequela; apoio com 4/10
+PE; conjuradora com 6/12 PE. Sem descanso
+realizado. Ana acompanha a vistoria.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Use essa anotação somente se essas coisas
+aconteceram. Se o grupo encaminhou o chamado,
+registre Mina como contato e a ameaça ainda no
+depósito. Se o atendimento continuar, acrescente
+tratamento, janela e ponto da iniciativa.
+Na guilda, o próximo mestre recebe o estado das
+fichas e as informações necessárias. Numa
+campanha fechada, essas notas ajudam você e os
+jogadores a retomar a sessão. Pergunte se houve
+algum momento em que faltou informação para
+decidir e anote uma ideia que queiram desenvolver
+depois.
+
+Sua próxima aventura
+Para criar outra missão, comece com uma pessoa
+que quer algo, um lugar e uma mudança que
+permita agir. Prepare informação suficiente para o
+grupo escolher e o que as pessoas farão diante de
+suas ações. Preparar aventuras desenvolve esse
+trabalho; Na mesa de jogo ajuda a conduzir as
+novas situações.
+Você não precisa repetir o depósito. Um encontro
+com uma professora, uma relação depois da missão
+ou um pedido inesperado de um vizinho já pode
+oferecer uma nova cena.
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+As batidas no anexo: preparo para consulta
+Grupo de referência: três personagens de nível 2, recursos completos, sem Sequelas; conferir meios de
+percepção e combate. Ameaça experimental: um Amontoado. Use sua ficha completa neste capítulo.
+Assunto
+
+Preparo
+
+Situação inicial
+
+Ana ouviu batidas; Davi viu caixas se moverem e recuou. Funcionários estão reunidos.
+
+O que aconteceu
+
+Todos saíram sem ferimentos. O Amontoado move caixas e protege a pilha do depósito.
+
+Objetivo inicial
+
+Conferir as pessoas e descobrir a causa; depois decidir como intervir.
+
+Abertura
+
+Ana apresenta o receio de alguém ter ficado. Davi, registro e planta estão acessíveis. Pergunte o
+que fazem.
+
+Pessoas
+
+Ana fornece registro, planta e contato. Davi descreve o que viu e os acessos. Mina recebe o
+chamado por telefone.
+
+Informações
+
+Registro, conversas e contatos confirmam os funcionários fora; Davi e planta mostram as duas
+entradas do corredor; observação acessível revela sinais do depósito.
+
+Lugar
+
+Pátio 6 × 6 m; corredor 9 × 3 m; depósito 6 × 6 m. Porta do depósito a 4,5 m de cada entrada do
+corredor; criatura a 4,5 m dessa porta.
+
+Condições
+
+Iluminado; portas destrancadas de 1,5 m; teto de 3 m. Caixas laterais e faixa central livre. Usar
+cobertura conforme a posição.
+
+Amontoado
+
+48 PV, 24 de Integridade, 6 PE, Defesa 11, deslocamento 9 m. Pancada +4, 1d4 + 3; Impacto +4, 3d8,
+3 PE. Ambos a até 1,5 m.
+
+Comportamento
+
+Observa até ser atacado ou ter a pilha desmontada. Prioriza consciente mais próximo; em empate,
+último agressor. Não golpeia inconscientes. Persegue no anexo e volta à pilha quando todos saem.
+
+Respostas
+possíveis
+
+Conversar, observar por outro acesso, intervir, recuar ou pedir apoio. Iniciativa antes dos ataques.
+
+Se demorarem
+
+Materiais continuam sendo danificados. O uso do anexo fica suspenso; Ana procura ajuda.
+
+Encerramento
+
+Confirmar destino da ameaça e riscos restantes. Anotar recursos, quedas, Sequelas, eventual
+aquisição e pendência com responsável.
+
+Quando alguém cair: máximo de referência; Aguentar ou qual Insistir da cena; tratamento necessário/
+recebido; janela restante; ponto da queda na iniciativa. Continue o atendimento se o combate terminar
+antes dele.
+No grupo real: anote participantes, recursos iniciais e a data da ficha usada. Tenha abertas as regras de
+testes, percepção, turnos, ataques, cobertura e socorro. A conversa pode resolver informação disponível; use
+testes quando houver incerteza e consequência.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+11
+
+
+=== PÁGINA 12 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+CAPÍTULO 2
+
+O mundo dos feiticeiros
+Um estudante chega atrasado depois de ajudar
+numa ocorrência. Uma profissional procura quem
+consiga reparar sua ferramenta. Na volta para casa,
+alguém reconhece no trem a pessoa que salvou na
+semana anterior. O mundo jujutsu aparece nessas
+relações tanto quanto num confronto com uma
+maldição.
+Este capítulo apresenta o contexto necessário para
+criar suas próprias situações. Não revela
+acontecimentos da trama de Jujutsu Kaisen. Se
+você conhece o mundo e já sabe onde quer jogar,
+pode seguir para Preparar aventuras e voltar aqui
+quando precisar de ideias para a vida dos
+personagens.
+
+2.1 Maldições na vida comum
+No mundo de Jujutsu Kaisen, emoções negativas
+humanas estão na origem das maldições: seres
+sobrenaturais capazes de ferir pessoas. Medo,
+rancor e sofrimento participam dessa premissa. As
+criaturas podem ter corpos e comportamentos
+muito diferentes. Uma age de modo simples; outra
+conversa, observa ou planeja.
+Em geral, pessoas comuns não enxergam
+maldições. Ainda assim, percebem ferimentos,
+objetos movidos e outros efeitos da presença delas.
+Feiticeiros podem reconhecer sinais que essas
+pessoas não conseguem explicar. Ao apresentar um
+relato, distinga o que a testemunha percebeu
+daquilo que o grupo terá de descobrir.
+Para quem vive num bairro, uma ocorrência pode
+começar como um problema difícil de explicar:
+coisas mudam de lugar, alguém se machuca numa
+passagem conhecida ou um ruído continua depois
+de o prédio ser fechado. A primeira pista é aquilo
+que as pessoas perceberam. A explicação surge com
+a investigação.
+Na missão do primeiro capítulo, Davi viu caixas se
+moverem. Ana ouviu pancadas. Os dois fornecem
+informações úteis mesmo sem enxergar a criatura.
+Os personagens têm algo concreto para examinar
+antes de conhecer a causa.
+
+Lugares e pessoas
+Pense em quem usa aquele espaço e para quê. Uma
+estação leva as pessoas ao trabalho; um hospital
+recebe famílias e profissionais; uma escola reúne
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+alunos, professores, segredos e amizades. Quando
+algo muda, essas pessoas têm motivos próprios
+para reagir.
+Na sua campanha, um corredor pode deixar de ser
+usado depois de uma ocorrência. A funcionária que
+precisa atravessá-lo sabe em quais horários ouviu
+os ruídos. O segurança conhece outra passagem.
+Uma pessoa perdeu um compromisso porque o
+acesso foi fechado. Esses detalhes permitem
+conversar, procurar caminhos e escolher como
+ajudar.
+Depois, prepare a ameaça e sua relação com o lugar.
+O que ela faz? O que quer ou em que situação
+reage? Que marcas deixa? Para usar uma maldição
+em combate, escolha ou crie sua ficha antes da
+sessão. O capítulo Inimigos e perigos ensina esse
+trabalho.
+
+Depois da ocorrência
+Exorcizar significa eliminar uma maldição. Esse
+pode ser o objetivo de uma missão, mas o grupo
+também pode precisar encontrar alguém, retirar
+pessoas de uma área perigosa, recuperar um objeto
+ou descobrir o que está acontecendo.
+Ao encerrar uma ocorrência, mostre quem foi
+afetado. A dona de uma loja pode reconhecer o
+grupo. Um estudante quer saber se poderá voltar ao
+treino. Uma pessoa ferida ainda precisa de
+atendimento. Um lugar seguro volta a ser ponto de
+encontro. Essas consequências ajudam a
+transformar uma missão em parte da vida dos
+personagens.
+O cotidiano também pode continuar tranquilo.
+Uma refeição, uma amizade ou uma comemoração
+tem valor pelo que os participantes querem viver
+naquela cena. Escolha quando há algo para jogar e
+quando basta resumir a passagem do dia.
+
+2.2 Feiticeiros, energia e técnicas
+Feiticeiros lidam com as práticas sobrenaturais
+chamadas de jujutsu. A energia amaldiçoada
+alimenta muitas de suas capacidades e permite
+enfrentar maldições. Conhecimento, preparo físico,
+armas e ferramentas também podem participar das
+soluções. Em Ciclo Maldito, há personagens que
+seguem caminhos diferentes, inclusive sem energia
+amaldiçoada própria.
+
+12
+
+
+=== PÁGINA 13 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Uma técnica amaldiçoada tem um funcionamento
+próprio: manipular algo, alterar uma propriedade
+ou produzir certo tipo de efeito. No sistema, cada
+aplicação preparada de uma técnica é um feitiço. O
+Livro de Regras 1.0 explica como criar essas
+aplicações e registrar o que fazem.
+Na história, descreva o que alguém percebe. Fios se
+estendem entre os dedos de uma personagem; uma
+marca aparece onde ela toca; uma proteção muda a
+maneira de atravessar uma sala. A ficha informa
+como resolver o efeito quando ele importa para o
+jogo.
+
+Os poderes em ação
+Uma personagem capaz de alcançar um lugar
+distante pode levar o grupo a procurar outra
+entrada. Alguém que sabe tratar ferimentos torna
+possível planejar um resgate com mais cuidado.
+Uma ferramenta emprestada pode explicar uma
+visita posterior à pessoa que a cedeu.
+Antes de preparar uma dificuldade, leia as
+capacidades dos participantes. Se uma delas
+resolver o problema, deixe essa solução mudar a
+situação. Em seguida, acompanhe a próxima
+escolha: o que fazer com a informação, para onde
+levar a pessoa resgatada ou como cumprir o acordo
+do empréstimo.
+Explique os termos quando aparecerem. Ao
+apresentar uma Cortina, descreva a barreira e o que
+ela faz naquela situação. Ao falar de uma
+ferramenta amaldiçoada, mostre o objeto e o uso
+conhecido. O leitor ou jogador não precisa
+reconhecer uma cena do mangá para entender o
+que está acontecendo.
+
+Da ideia à ficha
+Use o conhecimento da obra para inspirar
+situações, pessoas e poderes. Para resolver uma
+ação, consulte a capacidade usada e as regras do
+sistema. Uma descrição de fios, por exemplo,
+acompanha os efeitos que aquele feitiço possui na
+ficha.
+Quando alguém imaginar uma aplicação nova,
+acolha a ideia e descubra o que deseja fazer. Se a
+ficha ou as ações comuns já permitem isso, use esse
+meio. Uma criação que altere o funcionamento de
+uma capacidade segue a avaliação explicada em
+Personagens e técnicas. Assim, a imaginação do
+jogador ajuda a desenvolver a personagem e
+encontra um caminho claro para entrar no jogo.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+ABERTURA E CAPÍTULOS 1–3
+
+2.3 Escolas, famílias e contatos
+As escolas de jujutsu de Tóquio e Kyoto fazem
+parte da formação e da atuação dos feiticeiros na
+obra. Professores, estudantes e profissionais lidam
+com missões e com os interesses das instituições.
+Famílias também preservam conhecimentos,
+relações e influência. Há quem trabalhe de forma
+independente.
+Você pode construir a vida do grupo a partir dessas
+ligações. Um professor oferece conselho; uma
+colega entende uma dificuldade que os demais
+nunca viveram; uma família quer a presença de
+alguém numa reunião. Escolha as pessoas que
+fazem diferença para os personagens e apresente o
+que desejam naquele momento.
+
+Quem o grupo conhece
+Para começar, uma pessoa e uma relação bastam.
+Quem recebeu os personagens quando chegaram?
+Quem pode ouvir uma dúvida? Com quem eles
+gostam de treinar ou conversar? Desenvolva o
+restante conforme a campanha precisar.
+Exemplo original. Helena ensinou uma prática aos
+personagens ou os ajudou numa missão anterior.
+Agora vai se mudar. Ela chama o grupo para um
+café perto da estação. A escola aparece por meio da
+relação com uma professora, mas a cena trata da
+despedida e do que as pessoas querem dizer umas
+às outras. O próximo capítulo usa esse encontro
+para mostrar o preparo de uma aventura curta.
+Para uma ocorrência, talvez seja mais útil
+apresentar quem conhece o local, organiza
+transporte ou recebe feridos. Essa pessoa também
+tem preferências, compromissos e uma maneira de
+agir. O motorista pode gostar de conversar na volta;
+a profissional da oficina pode se lembrar de como
+cada um cuida de suas coisas.
+
+Autoridade e confiança
+Autoridade, influência e confiança podem estar em
+pessoas diferentes. Uma diretora autoriza um
+empréstimo; a profissional que mantém o objeto
+conhece seu estado; alguém do grupo pode ter
+construído uma relação de confiança com ela.
+Anote o que cada pessoa pode fazer quando isso
+afetar a escolha. Uma frase concreta ajuda: “Emi
+aceita emprestar a peça e quer combinar sua
+devolução”. Depois, interprete sua reação às
+propostas. Ela pode aceitar outra condição, pedir
+uma garantia ou explicar uma preocupação.
+
+13
+
+
+=== PÁGINA 14 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+A patente, ou Grau, representa reconhecimento no
+meio jujutsu. O nível acompanha a progressão da
+ficha. Ao preparar uma relação, considere também
+o cargo, os conhecimentos e os vínculos de cada
+pessoa. Uma funcionária pode conhecer um prédio
+melhor que o feiticeiro enviado para protegê-lo.
+
+Relações que continuam
+Pergunte aos jogadores quais pessoas gostariam de
+reencontrar. Retome uma promessa, uma conversa
+interrompida ou um interesse comum. Quando o
+grupo ajuda alguém, permita também que essa
+pessoa ofereça companhia, reconhecimento e apoio
+dentro do que consegue fazer.
+Os efeitos mecânicos de um contato, de um
+equipamento ou de um aprendizado seguem suas
+regras. As relações de história oferecem motivos e
+caminhos para desenvolvê-los. Combinem o que a
+relação permite na história e o que precisa de uma
+regra, sem interromper cada conversa para conferir
+a ficha.
+
+2.4 Diferentes formas de viver
+As sete Origens do Livro de Regras 1.0 organizam
+diferentes relações com o mundo jujutsu. A Origem
+escolhida fornece regras para a ficha; a vida da
+personagem também inclui estudo, profissão, afeto,
+moradia e interesses próprios.
+Use as perguntas abaixo para convidar o jogador a
+desenvolver essa vida. Elas são sugestões de
+conversa, sem resultados obrigatórios.
+
+Latente
+A personagem descobriu o próprio poder fora da
+tradição de um clã. Quem presenciou essa
+descoberta? A quem procura quando algo muda?
+Uma amizade anterior pode ajudar a mostrar como
+é voltar à rotina depois das primeiras missões.
+
+Receptáculo
+A personagem divide o próprio corpo com outra
+presença. Quem sabe dessa convivência? Sobre o
+que as duas concordam? O jogador e o mestre
+combinam quem dá voz à presença e como essa
+convivência funciona pela opção escolhida na ficha.
+A recomendação do Guia é o mestre interpretá-la
+mediante acordo, com alternativas explicadas em
+Personagens e técnicas.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+ABERTURA E CAPÍTULOS 1–3
+
+Descendente
+A personagem pertence a uma família do meio
+jujutsu. De qual pessoa sente falta? Que costume
+quer conservar ou mudar? Uma refeição em família
+pode revelar afeto, expectativas e divergências
+entre indivíduos, além da posição pública do clã.
+
+Encarnado
+A personagem é a consciência que voltou a viver no
+corpo de outra pessoa. Que parte da vida anterior
+ainda procura? Como lida com as relações do corpo
+recebido? Combine com o jogador o que será
+explorado. Um objeto familiar, uma música ou uma
+conversa pode abrir uma cena sem determinar uma
+reação emocional.
+
+Híbrido
+A personagem reúne natureza humana e
+amaldiçoada. Como entende essa condição e quem
+a conhece de perto? Pergunte também por gostos,
+amizades e planos que não dependam desse
+assunto. A história pode explorar a Origem quando
+houver interesse, sem fazer dela o único tema da
+personagem.
+
+Corpo Amaldiçoado
+A personagem é um corpo construído com
+consciência própria. Quem participou de sua
+criação e que relação mantém com essa pessoa?
+Quem ajuda nos cuidados do corpo, quando
+necessários? O jogador também escolhe seus
+interesses e o que deseja construir para si.
+
+Restrição Celestial
+A personagem nasceu com uma troca entre corpo e
+energia. Os dois ramos do sistema têm capacidades
+e necessidades diferentes. Converse sobre a forma
+de participar das cenas e os cuidados de que a ficha
+precisa. Uma pessoa de confiança, uma ferramenta
+ou uma rotina combinada pode fazer parte dessa
+vida. Os cuidados devem apoiar as decisões do
+jogador.
+Sem Técnica é uma opção separada para as
+Origens que a permitem, e não uma oitava Origem.
+Ela trata de ter energia amaldiçoada sem técnica
+inata, usando sua própria rota de criação. Ao
+preparar cenas para qualquer personagem, consulte
+suas capacidades reais e ofereça formas de
+contribuir: observar, conversar, planejar, usar
+conhecimentos, ferramentas ou força física.
+
+14
+
+
+=== PÁGINA 15 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+2.5 Trabalho, estudo e relações
+Para trazer o cotidiano à mesa, procure uma
+vontade ou compromisso sobre o qual alguém
+queira agir. O grupo pode celebrar uma vitória,
+visitar uma pessoa, tentar conciliar horários ou
+fazer algo pela primeira vez. Pergunte o que
+interessa aos jogadores e escolha por onde
+começar.
+Uma cena de convivência. O grupo se reúne para
+comer depois da missão. Uma personagem quer
+contar o susto que levou; outra prefere perguntar
+pelo plano do fim de semana. Ouça as duas. A cena
+pode terminar quando disserem o que queriam,
+sem exigir um novo problema.
+Um compromisso. Uma personagem quer assistir a
+uma apresentação de alguém próximo. Uma missão
+em andamento pode afetar a chegada, se isso
+decorrer dos acontecimentos. Deixe o jogador
+escolher como lidar com o compromisso e
+acompanhar as consequências. Quando houver
+tempo para os dois, a história pode simplesmente
+permitir essa conciliação.
+Um interesse próprio. Alguém quer aprender como
+outra pessoa trabalha, conhecer um lugar ou
+retomar um vínculo. Esse interesse ajuda a
+encontrar a próxima cena. Para projetos ou
+aprendizados com efeitos na ficha, use as regras de
+Entre missões; atividades comuns também podem
+ser resolvidas por conversa e descrição.
+Momentos de tranquilidade tornam as mudanças
+mais perceptíveis. Depois de uma ocorrência, um
+encontro habitual pode ter outra importância. O
+mestre oferece a situação e dá espaço para a
+resposta dos jogadores, sem declarar como os
+personagens devem se sentir.
+
+2.6 A época e o lugar da sua
+campanha
+Escolham onde e quando vão jogar e a relação da
+campanha com a obra. A história pode acontecer
+no mesmo contexto da obra, acompanhar outro
+grupo na mesma época ou adotar mudanças
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+ABERTURA E CAPÍTULOS 1–3
+
+combinadas. Registre o limite de revelações da
+trama e explique o que os personagens
+conheceriam.
+Exemplo de proposta: “Jogaremos numa cidade
+contemporânea criada para a campanha. Há uma
+rede local que recebe relatos e ajuda feiticeiros a se
+encontrarem. As pessoas e as missões serão
+originais. O grupo conhece as ideias básicas do
+mundo e vai descobrir os detalhes em jogo.”
+Ao jogar numa região pouco descrita pela obra,
+apresente escolas, famílias e costumes locais como
+criação da campanha. Para usar uma instituição ou
+personagem conhecido numa época específica,
+confira sua situação naquele momento. Os
+aprofundamentos com revelações da trama ficam
+separados em Inspirações da obra.
+
+Guilda e campanha fechada
+Na guilda, vários mestres e personagens
+compartilham o mundo. Uma organização pode
+encaminhar chamados, mas a iniciativa também
+pode vir de um vínculo ou dos interesses dos
+personagens. Registre as mudanças que outras
+mesas precisarão conhecer e combine alterações
+que afetem a comunidade inteira.
+Numa campanha fechada, um só grupo pode
+acompanhar o bairro, a escola ou a rede de contatos
+ao longo do tempo. Você e os jogadores mantêm as
+notas necessárias para continuar. Os ensinamentos
+deste Guia atendem aos dois formatos, com o
+sistema favorecendo a organização em guilda.
+
+Começar a jogar
+Para usar o que leu, escolha um lugar, uma pessoa
+ligada aos personagens e algo que mudou. Diga o
+que eles conseguem perceber e ofereça uma
+oportunidade de agir.
+Helena vai partir, mas deixou um convite. Ana quer
+ajuda e tem um relato. Um familiar quer conversar
+depois de muito tempo. Cada começo abre escolhas
+diferentes. Preparar aventuras mostra como
+desenvolver o preparo necessário para acompanhálas.
+
+15
+
+
+=== PÁGINA 16 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+CAPÍTULO 3
+
+Preparar aventuras
+Preparar uma aventura é reunir o que ajuda a
+apresentar uma situação, ouvir as escolhas do
+grupo e acompanhar o que acontece.
+Comece pelo interesse da mesa: uma missão
+encaminhada pela escola, o pedido de um amigo ou
+uma iniciativa do grupo. Uma sessão pode reunir
+uma ocorrência e o encontro que vem depois dela.
+Este capítulo ensina um preparo que você pode
+ampliar conforme precisar. O exemplo Antes que o
+trem parta é uma criação original para o Guia: uma
+despedida que pode terminar sem combate. Para
+acompanhar a preparação de uma ameaça já
+pronta, volte a Sua primeira missão.
+
+3.1 O que preparar
+Leia as fichas e relembre a sessão anterior. Quem o
+grupo quer procurar? Que capacidade pode mudar
+o caminho? Há alguém ferido, com um recurso
+gasto ou com um compromisso em aberto?
+Em seguida, responda a cinco perguntas. Frases
+curtas bastam; acrescente detalhes quando eles
+ajudarem a conduzir uma escolha.
+1. O que está acontecendo? Defina a situação e o
+motivo pelo qual alguém se importa com ela.
+2. Quem está envolvido? Escolha as pessoas
+principais e o que querem agora.
+3. Onde é possível agir? Descreva os lugares, os
+acessos e aquilo que se percebe ao chegar.
+4. O que pode ser descoberto ou mudar? Anote
+informações, acontecimentos e consequências
+que importam para as decisões.
+5. Como começar? Prepare a primeira descrição e
+uma oportunidade de agir.
+Se houver perigo, prepare como ele funciona: ficha,
+efeitos, sinais de risco e meios de agir. Um nome e
+uma ideia de ataque ainda precisam das regras para
+se tornarem uma ameaça pronta.
+
+Uma despedida
+Helena ajudou os personagens e vai se mudar hoje.
+Convidou-os para um café perto da estação. Nina
+também irá: quer continuar recebendo sua
+orientação. O tempo para conversar é curto, e as
+pessoas podem querer coisas diferentes do
+encontro.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Antes da sessão, pergunte a cada jogador
+interessado o que liga sua personagem a Helena.
+Pode ser uma aula, uma ajuda recebida ou uma
+amizade. Use um contato já conhecido se isso fizer
+mais sentido. Se o grupo preferir apenas se
+despedir brevemente, a cena pode durar poucos
+minutos; a duração acompanha o interesse da mesa.
+O preparo permite responder ao grupo sem decidir
+quem fará uma promessa ou como a conversa
+terminará. A folha ao final do capítulo reúne o
+necessário para começar.
+
+Escolhas do grupo
+No anexo, a criatura ocupa o depósito e tem um
+comportamento definido. O preparo permite
+responder ao grupo quando procura testemunhas,
+investiga, enfrenta a maldição ou recua.
+Na despedida, Helena aceita conversar e tem um
+horário para sair. Nina quer falar com ela, mas
+teme fazer um pedido grande demais. O grupo pode
+aproximá-las, conversar separadamente, oferecer
+outra ajuda ou apenas ouvir. Você conhece os
+desejos das pessoas; as decisões surgem durante o
+jogo.
+
+3.2 Pessoas que dão vida à aventura
+Uma pessoa preparada para uma conversa pode
+caber em três notas: o que quer, como se apresenta
+e como pode reagir. Acrescente a relação com os
+personagens quando ela já existir.
+Helena quer se despedir e partir com os
+compromissos em ordem. Pergunta por um detalhe
+da vida de cada personagem e ouve a resposta. Pode
+combinar um contato futuro, mas explica o tempo
+de que dispõe. A mudança é uma decisão dela,
+ligada à sua própria vida.
+Nina quer continuar recebendo orientação. Chega
+cedo e ensaia uma pergunta, mas a interrompe
+quando outros se aproximam. Se alguém lhe der
+espaço, explica sua preocupação. Pode aceitar uma
+conversa marcada para outro dia ou pedir ajuda
+para encontrar outra pessoa de confiança.
+Raul quer acolher a despedida no café que
+mantém. Conhece Helena como cliente e lembra
+do pedido habitual dela. Oferece uma mesa mais
+
+16
+
+
+=== PÁGINA 17 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+tranquila se perceber que o grupo precisa
+conversar. Pode contar uma lembrança comum e
+depois voltar ao trabalho.
+
+encontrar. Na despedida, acompanhar Helena até a
+estação pode permitir uma última conversa depois
+de sair do café.
+
+Use essas notas para decidir o que cada pessoa faz e
+dê tempo para o jogador responder. Você pode
+narrar um pedido e conversar com palavras
+próprias; interpretar não exige outra voz ou
+discurso ensaiado.
+
+Ao preparar uma alternativa, diga o que ela permite
+e o que exige. Uma passagem pode estar aberta;
+outra pede ajuda de alguém que conhece o lugar. O
+grupo consegue escolher melhor quando percebe
+essas diferenças antes de se comprometer.
+
+Pedidos e acordos
+
+Uma capacidade pode facilitar um acesso ou
+permitir outro caminho. Resolva seu uso e atualize
+a situação: quem está lá, o que acontece e como as
+pessoas reagem.
+
+Ouça o que a personagem oferece e o que deseja
+obter. Depois, responda a partir da vontade e das
+possibilidades de quem a escuta. Um teste entra
+quando a regra pedir e houver uma incerteza que
+ele possa resolver.
+Se pedirem a Helena uma conversa por chamada na
+semana seguinte, ela pode abrir a agenda e
+combinar. Se pedirem disponibilidade a qualquer
+hora, ela explica que isso não consegue oferecer. A
+partir daí, o grupo pode propor um horário, dividir
+o apoio com outra pessoa ou aceitar o limite. Um
+pedido diferente pode mudar a resposta.
+Se houver confronto com essa pessoa no preparo,
+acrescente sua ficha. Para conversar, as notas de
+interpretação podem bastar.
+
+3.3 Lugares e caminhos
+Descreva primeiro aquilo que ajuda alguém a agir:
+o que se vê, onde estão as pessoas e quais caminhos
+estão disponíveis. Acrescente sons, cheiros e
+pequenos costumes para tornar o lugar
+reconhecível.
+O café tem entrada pela rua, saída para o caminho
+da estação, mesas junto à janela e outra ao fundo.
+Raul serve bebidas; viajantes entram com malas. O
+grupo pode escolher onde sentar, conversar em
+particular ou acompanhar Helena.
+Para essa conversa, uma descrição curta do espaço
+basta. Se a posição e a distância passarem a decidir
+ações, esclareça-as antes da escolha e use um
+desenho quando ajudar. Na missão do anexo, as
+medidas das salas, das portas e das posições
+importam para movimento e alcance; por isso o
+preparo inclui uma planta.
+
+Caminhos alternativos
+No anexo, a entrada de serviço oferece outro acesso
+ao corredor. Quem a usa chega a uma posição
+diferente e ainda precisa lidar com aquilo que
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+3.4 Pistas e investigações
+Para preparar uma investigação, comece pelo que
+realmente aconteceu. Anote a sequência dos fatos,
+as marcas que deixaram e quem conhece cada
+parte. Separe o fato da interpretação de uma
+testemunha.
+No anexo, caixas foram movidas e há uma criatura
+no depósito. Davi relata o movimento que
+presenciou; o relato ajuda a investigar mesmo que
+ele não conheça a causa. Sua incerteza sobre a
+explicação não apaga o que viu.
+Escolha as perguntas necessárias para agir, como
+“Onde aconteceu?” e “Há alguém em risco?”. A
+história do lugar pode oferecer contexto sem ser
+indispensável para seguir.
+
+Encontrar as pistas
+Prepare mais de um caminho plausível para uma
+descoberta indispensável. O grupo pode ouvir uma
+testemunha, examinar um vestígio ou consultar um
+registro que realmente exista. Distribua as
+informações conforme a relação de cada fonte com
+os fatos.
+Esses caminhos precisam ser acessíveis de formas
+diferentes. Três documentos guardados na mesma
+sala trancada continuam dependendo de um único
+acesso. Uma testemunha fora da sala e uma marca
+visível no corredor oferecem outras possibilidades.
+Ao conduzir, explique o que a personagem percebe
+na situação. Quando houver um teste, escolha-o
+pela ação realizada e resolva suas consequências
+conforme o Livro de Regras. A investigação pode
+continuar por outra fonte disponível depois de uma
+falha; isso não exige transformar a falha em sucesso
+nem repetir a mesma tentativa sem mudança.
+
+17
+
+
+=== PÁGINA 18 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Depois da descoberta
+Se os personagens entenderem cedo o que
+aconteceu, deixe que usem esse conhecimento.
+Talvez possam procurar a pessoa certa, evitar um
+risco ou escolher como apresentar uma descoberta.
+A aventura passa à próxima decisão.
+Alguém que esconde informação também age pelo
+que sabe. Anote o que deseja proteger, como
+percebe a investigação e o que poderia fazê-lo
+conversar. Se houver risco de confronto, prepare-o.
+Assim você consegue responder a perguntas
+imprevistas sem precisar mudar o culpado ou
+inventar outro segredo para prolongar a sessão.
+Para estudar uma investigação mais detalhada,
+consulte O aviso de reabertura. Use esse caso
+quando quiser acompanhar fatos, testemunhas e
+acesso a informações com mais profundidade.
+
+3.5 Perigos e consequências
+Um perigo preparado precisa permitir uma escolha
+informada. Descreva os sinais que os personagens
+conseguem perceber: um piso cedendo, uma pessoa
+ameaçada, o efeito de uma técnica ou a distância
+até uma saída. A revelação de um risco oculto
+também precisa decorrer de algo estabelecido na
+situação.
+Ao escolher uma ameaça pronta, confira ataque,
+efeito, custo e demais regras. Para maldições que
+possam ser domadas, tenha a conversão pertinente.
+Inimigos e perigos ensina essa preparação; os
+inimigos do Guia continuam experimentais.
+
+Os objetivos da missão
+Os personagens podem estar tentando retirar
+alguém, descobrir a origem de um problema,
+conseguir passagem ou proteger um objeto. O
+combate pode fazer parte disso. Pergunte o que
+cada ameaça tenta fazer e o que aconteceria se o
+grupo não a enfrentasse naquele momento.
+No anexo, ouvir as testemunhas e conhecer os
+acessos ajuda a decidir como lidar com a criatura.
+A retirada continua sendo uma ação possível. Ao
+preparar sua própria missão, saiba para onde os
+personagens podem recuar e a quem conseguem
+pedir ajuda. Essa possibilidade deve existir na
+situação para poder ser escolhida.
+
+ABERTURA E CAPÍTULOS 1–3
+
+depois. Se Nina decidir procurar outra pessoa, esse
+caminho pode entrar na campanha. A consequência
+nasce da decisão e das possibilidades de cada
+participante.
+Acompanhe recursos gastos, danos e pessoas
+afetadas. Consulte socorro, derrota e recuperação
+quando necessário: o fim da sessão não recupera
+automaticamente os recursos da ficha.
+
+3.6 Ideias para sua próxima missão
+Você pode partir de três elementos: uma pessoa,
+algo que ela quer e uma mudança. Escolha aqueles
+que despertam interesse na sua mesa e desenvolva
+as cinco perguntas do início do capítulo.
+Uma colega quer apresentar uma criação. O
+primeiro teste público será hoje, e ela convida o
+grupo. Prepare o que a criação faz, a ajuda que
+deseja receber e quem mais irá. A sessão pode girar
+em torno da apresentação, de uma discordância
+sobre seu uso ou de um novo projeto. Qualquer
+capacidade com efeito nas regras precisa estar
+definida antes de ser usada.
+Uma pessoa quer voltar a um lugar. Depois de uma
+ocorrência, ela deseja retomar uma atividade
+importante. Prepare o estado atual do espaço, quem
+pode acompanhá-la e o que ela quer fazer ali. Se
+ainda houver uma ameaça, escolha seus sinais e sua
+ficha; se estiver seguro, o retorno pode sustentar
+uma cena de cuidado e convivência.
+Um contato recebe um relato estranho. Uma
+passagem habitual passou a provocar medo, e
+alguém procura ajuda. Defina a causa, as
+informações acessíveis e o que as pessoas têm feito
+para lidar com o problema. Esse começo pode levar
+a uma investigação e, dependendo da causa
+preparada, a um confronto.
+Cada começo pede um preparo: reconciliação pede
+pessoas e motivos; investigação, fatos e pistas;
+resgate, localização, perigo e meios de agir.
+Combine essas partes conforme precisar. Ideias
+para aventuras oferece situações, pessoas e lugares
+para escolher e dois exemplos de como reuni-los.
+
+3.7 Quando há pouco tempo
+
+As consequências
+
+Reduza o alcance: uma situação, poucas pessoas e
+um lugar. Aproveite uma ficha pronta para a
+ameaça. Releia as capacidades dos personagens que
+mais podem afetar a situação.
+
+Na despedida, uma promessa de contato pode gerar
+um próximo encontro. Se ninguém combinar nada,
+Helena ainda poderá receber uma mensagem
+
+Em uma folha, anote a abertura, o que está
+acontecendo, quem quer o quê, o lugar e o que
+pode mudar. Acrescente as referências das regras e
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+18
+
+
+=== PÁGINA 19 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+fichas de que realmente precisará. Você pode
+aprofundar um assunto entre sessões quando ele
+passar a importar.
+Se faltar uma informação, peça uma pausa curta.
+Para uma dúvida de regra, consulte o Livro de
+Regras. Para um detalhe da situação, escolha uma
+resposta coerente com o que já foi estabelecido. Se
+surgir um confronto sem ficha preparada, resolva
+esse preparo antes de iniciá-lo.
+
+ABERTURA E CAPÍTULOS 1–3
+
+Ao terminar, registre o que mudou e o que os
+jogadores querem fazer depois. Essas notas serão o
+começo do próximo preparo. Em Na mesa de jogo,
+veremos como conduzir a conversa, lidar com uma
+mudança de rumo e encerrar uma sessão no tempo
+disponível.
+
+PREPARO PREENCHIDO
+
+Antes que o trem parta
+Preparo preenchido · encontro de cotidiano ·
+criação original do Guia
+
+O começo
+Helena vai se mudar e convida o grupo para um
+café antes da viagem. Combine com os jogadores
+uma relação anterior com ela; um contato da
+campanha pode assumir seu lugar. O encontro
+começa às 18h. Ela pretende sair do café às 18h40
+para pegar o trem das 19h. São horários desta
+situação fictícia.
+Para apresentar: “Helena escolheu uma mesa perto
+da janela. Uma mala está ao lado da cadeira. Ela
+acena quando vocês entram: ‘Queria ver vocês
+antes de ir. Como foi a semana?’”
+
+As pessoas
+Helena: quer se despedir e partir; pergunta por
+detalhes da vida dos personagens. Aceita combinar
+contato futuro dentro da disponibilidade que tiver.
+Sua mudança foi uma decisão própria.
+Nina: quer continuar recebendo orientação de
+Helena. Ensaia uma pergunta e hesita diante de
+outras pessoas. Se tiver espaço, conta a
+preocupação; pode aceitar uma chamada marcada
+ou ajuda para encontrar outro contato.
+Raul: mantém o café e conhece Helena como
+cliente. Lembra seu pedido habitual, oferece uma
+mesa mais tranquila e conta uma lembrança se
+houver oportunidade. Continua atendendo os
+demais clientes.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+O lugar e as informações
+O café tem entrada pela rua, mesas junto à janela,
+uma mesa tranquila ao fundo e uma saída para o
+caminho da estação. Raul está no balcão. Nina já
+chegou; o grupo pode notá-la hesitando ou convidála a conversar.
+Helena informa seu horário quando o grupo chega.
+Nina explica sua vontade se puder falar à vontade; o
+mestre pode descrever sua hesitação para que os
+jogadores decidam se querem se aproximar. As
+conversas podem acontecer juntas, em separado ou
+durante a caminhada até a estação.
+
+O que pode mudar
+Às 18h40, Helena avisa que vai sair. Acompanhe a
+passagem do tempo conforme as ações e informe a
+aproximação desse horário; tempo gasto pelos
+jogadores conversando fora da cena não avança
+sozinho o relógio da história. O grupo pode
+acompanhá-la, despedir-se no café ou combinar
+outro contato.
+Uma promessa cria um compromisso a registrar;
+um pedido recusado pode levar a outra proposta. Se
+alguém perder a despedida, uma mensagem ou
+encontro futuro continua possível. As reações
+emocionais dos personagens pertencem aos
+jogadores.
+
+Para encerrar
+Quando as pessoas tiverem dito ou feito o que
+desejavam, acompanhe a partida ou resuma o fim
+do encontro. Registre contatos combinados e
+interesses que o grupo queira retomar. Não há
+ameaça escondida preparada para esta cena nem
+benefício mecânico concedido pela conversa.
+
+19
+
+
+=== PÁGINA 20 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+IDEIAS PARA AVENTURAS
+
+Ideias para aventuras
+Escolha uma situação que interesse ao grupo,
+alguém que se importe e um lugar onde seja
+possível agir. Acrescente uma complicação quando
+ela decorrer do que está acontecendo. Depois, use
+as cinco perguntas de Preparar aventuras para
+completar o preparo.
+Este conjunto é original, sem revelações da trama
+de Jujutsu Kaisen. As oito situações são pontos de
+partida; os dois exemplos ao final mostram como
+completar o preparo. Escolha, adapte ou combine
+partes conforme o interesse do grupo.
+Os perfis ajudam a interpretar pessoas; prepare
+fichas antes de usar suas capacidades em jogo. Uma
+ameaça também precisa de efeitos e meios de
+enfrentamento definidos, incluindo a conversão se
+puder ser obtida como entidade. Nos exemplos, as
+regras aparecem junto da ação.
+
+Oito situações para começar
+1. Luz na sala de projeção
+
+3. A assinatura no coreto
+Iniciativa dos personagens. Nori encontrou um
+banco rachado perto de uma fita usada por Rei e
+suspeita de relação entre os dois. Rei quer
+esclarecer o ocorrido. O grupo pode ajudar, ouvir
+testemunhas e examinar o lugar. Separe a história
+do vestígio da causa do dano. O primeiro exemplo
+ao final desenvolve essa investigação, com
+observação, conversas e leitura de energia opcional.
+
+4. O que ficou no cinema
+Interesse pessoal. Leda encontra fotografias de
+uma antiga apresentação e quer rever quem
+participou. Pergunte quem tem ligação com o lugar
+ou deseja acompanhá-la. Prepare as pessoas
+acessíveis e suas lembranças. O grupo pode reunir
+versões, procurar uma gravação ou organizar um
+reencontro. Uma lembrança pode ter significados
+diferentes para os participantes. Escolher o que
+guardar pode encerrar o encontro.
+
+Chamado institucional. Leda viu uma criatura se
+esconder entre as cadeiras quando acendeu a luz do
+cinema fechado. Quer buscar objetos pessoais, mas
+espera do lado de fora. Uma escola ou rede local
+pede ao grupo que investigue. Prepare a maldição e
+seus sinais. O grupo pode buscar informações,
+procurar outro acesso, proteger o lugar ou
+enfrentar a ameaça. A luz orienta seu
+comportamento; qualquer fraqueza com efeito nas
+regras precisa constar da ficha.
+
+5. Uma canção para cada um
+
+2. Depois do primeiro chamado
+
+6. Ensaio na outra margem
+
+Apoio a um aprendiz. Caio voltou de uma
+ocorrência e quer entender uma decisão que tomou.
+Um contato pede ao grupo que o ouça. Ele mistura
+o que viu com suas conclusões sobre a maldição.
+Prepare os fatos e quem mais os conhece. O grupo
+pode rever o acontecimento, procurar outra fonte
+ou compartilhar uma experiência. A conversa pode
+terminar com uma pergunta melhor para a próxima
+missão; não concede treinamento ou benefício de
+ficha.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Convivência. Dara convida o grupo para um ensaio
+no coreto. Quer conhecer as músicas de que as
+personagens gostam. Nori oferece espaço e os
+participantes sugerem como tocar juntos. Cada
+jogador escolhe o que compartilhar: uma
+lembrança, um ritmo ou apenas sua companhia. O
+encontro pode terminar numa apresentação
+imperfeita e prazerosa. A cena Um ensaio entre
+amigos mostra esse fechamento.
+
+Apoio cotidiano. Dara quer chegar ao coreto com
+suas partituras secas. O caminho cruza um canal; a
+passarela pública fica num contorno mais
+demorado. Joana conhece os percursos. O grupo
+pode buscar uma travessia seca, cruzar
+separadamente ou avisar do atraso. Prepare
+margens, distância e consequência da falha. O
+segundo exemplo desenvolve o obstáculo, com
+alternativa por terra.
+
+20
+
+
+=== PÁGINA 21 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+7. O último ônibus
+
+Joana, conhecedora das hortas
+
+Proteção de pessoas. Uma maldição ronda o
+terminal quando os últimos passageiros chegam.
+Prepare quem a viu, onde pode ser percebida e o
+que desencadeia sua ação. Mostre caminhos para as
+pessoas saírem da área. O objetivo pode ser
+conduzi-las a outro embarque, localizar a ameaça
+ou exorcizá-la. O horário dos ônibus oferece
+contexto; ataques e dano dependem das ações e
+regras da criatura.
+
+Joana cuida de uma horta junto ao canal e quer que
+os caminhos sejam usados com segurança. Mostra
+o destino e pergunta o que as pessoas levam antes
+de apontar um atalho. Conhece a passarela e os
+apoios locais. Pode descrever a travessia ou
+oferecer um meio que possua. Uma contribuição
+concreta pode permitir Ajudar; estar por perto não
+basta para conceder vantagem.
+
+8. Um pedido vindo da água
+Contato sobrenatural. Uma maldição pede que
+retirem um objeto comum da margem do canal. Ela
+o reconhece e quer conservá-lo, mas outras pessoas
+a temem. Prepare o motivo, o perigo real e como se
+comunica. O grupo pode verificar a história,
+negociar ou recusar. Conversar revela interesses,
+sem garantir confiança, acordo ou aquisição da
+criatura. Sua reação depende de seus meios e das
+escolhas em jogo.
+
+Seis pessoas para encontrar
+Rei, feiticeira independente
+Rei quer trabalhar sem ser responsabilizada por
+toda manifestação próxima. Repete o que observou
+antes de dizer o que concluiu. Ajuda quem
+pergunta por fatos; reage mal a acusações feitas
+sem ouvi-la. Pode explicar sua passagem pelo
+coreto e procurar quem presenciou o treino. Aceita
+corrigir um erro demonstrado, mas conhece apenas
+parte do que acontece na região.
+
+Nori, cuidador do coreto
+Nori quer manter o coreto disponível para
+encontros. Recolhe cadeiras enquanto conversa e
+lembra das pessoas pelas atividades de que gostam.
+Conta o que viu e admite quando apenas ouviu um
+comentário. Reconsidera decisões quando entende
+como a proposta cuida do espaço. Pode oferecer
+companhia e mostrar acessos; confira os materiais
+disponíveis antes de prometer ajuda.
+
+Dara, musicista de corpo construído
+Dara é um Corpo Amaldiçoado consciente. Quer
+compor com outras pessoas e leva um caderno
+cheio de anotações. Experimenta um ritmo na mesa
+antes de explicar uma ideia. Aceita ajuda e diz
+quando prefere outro caminho. Pode compartilhar
+uma refeição pela companhia, mesmo sem precisar
+comer. Corpo, reparo e capacidades seguem sua
+ficha.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Caio, aprendiz fora de um clã
+Caio descobriu o jujutsu recentemente e quer ser
+levado a sério sem fingir que sabe tudo. Faz
+perguntas rápidas e depois reformula uma com
+cuidado. Fala melhor quando pode expressar
+dúvidas sem ser diminuído. Pode pedir companhia
+para conhecer um contato ou contar algo que não
+compreendeu. Seu desejo de impressionar não o
+obriga a agir de modo imprudente.
+
+Leda, antiga projecionista
+Leda quer decidir o futuro dos objetos e
+lembranças do cinema onde trabalhou. Recorda
+detalhes de sessões antigas e aponta onde cada
+pessoa costumava sentar. Responde a perguntas
+sobre o prédio, mas precisa de tempo para decidir
+sobre algo pessoal. Pode se interessar por uma
+proposta de preservação. Seu conhecimento do
+cinema não inclui entender fenômenos jujutsu.
+
+Quatro lugares para usar
+O coreto da praça
+Um espaço circular de 6 m de diâmetro, com
+colunas e piso firme, recebe ensaios e conversas.
+Um banco fica na área externa; um caminho livre
+liga o lugar às ruas da praça. Descreva o que há à
+vista e onde as pessoas estão. Nori conhece o uso
+cotidiano. O lugar pode sustentar uma celebração,
+um encontro reservado ou a investigação de um
+vestígio, conforme o que foi preparado.
+
+O canal das hortas
+Água separa dois acessos firmes usados por quem
+cuida das hortas. Joana conhece a correnteza e o
+contorno até uma passarela pública. Para uma
+travessia, defina largura, apoios, percurso e
+consequência da falha. O exemplo Ensaio na outra
+margem fornece esses dados. Em outras situações,
+o canal pode oferecer uma conversa, uma busca
+pela margem ou uma alternativa de caminho, sem
+repetir o mesmo obstáculo.
+
+21
+
+
+=== PÁGINA 22 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+O cinema fechado
+
+Outra equipe já esteve aqui
+
+A entrada principal dá acesso ao saguão; uma porta
+lateral de serviço leva ao corredor junto à sala de
+projeção. Leda conhece essas ligações e o que ainda
+pode ser aberto. Fotografias, cadeiras e
+equipamentos mostram usos anteriores. Escolha
+iluminação, estado das estruturas e áreas acessíveis
+antes de usar um risco. Para combate ou
+movimento preciso, complete a planta e as
+distâncias; a descrição não estabelece medidas
+táticas.
+
+Há uma mudança confirmada por outra mesa.
+Confira o registro, quem conhece o resultado e
+quais perguntas permanecem. Use essa informação
+para continuar do estado atual. Uma ameaça
+resolvida continua resolvida; um encaminhamento
+aceito pode ainda depender de intervenção.
+
+O pequeno terminal
+Um abrigo aberto e bancos ficam diante das
+plataformas. Há acesso pela rua e uma passagem de
+pedestres até o bairro. Passageiros, trabalhadores e
+vendedores conhecem partes diferentes da rotina.
+A multidão pode oferecer testemunhas e assuntos
+de conversa. Se sua presença interferir numa ação,
+descreva como e use a regra pertinente; ela não
+impõe a mesma penalidade em todo teste de
+percepção, movimento ou influência.
+
+Seis complicações possíveis
+Um acesso ficou indisponível
+Uma obra, mudança no lugar ou acontecimento
+anterior impede o percurso que o grupo conhecia.
+Mostre o impedimento e as alternativas acessíveis
+antes da escolha. Use essa complicação quando
+houver uma causa preparada; uma passagem
+recém-descoberta não precisa ser fechada para
+preservar o caminho que você imaginou.
+
+A pessoa precisa sair
+Uma testemunha tem um compromisso e informa
+até quando consegue conversar. O grupo pode
+priorizar perguntas, acompanhá-la ou combinar
+contato. O prazo pode gerar uma escolha sem
+apagar o que ela sabe. A demora para esclarecer
+uma descrição do mestre não vira, por si só, tempo
+perdido na história.
+
+Duas vontades pedem espaço
+Uma pessoa quer conversar em particular; outra
+quer incluir o grupo. Descubra o motivo de cada
+pedido e ofereça a decisão. Alternar conversas ou
+combinar outro momento pode atender às duas. O
+conflito precisa existir entre aquelas pessoas, em
+vez de surgir como penalidade automática por
+ajudar alguém.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+O horário mudou
+Um encontro, transporte ou apresentação teve seu
+horário alterado. Defina quem soube e por qual
+meio o grupo pode descobrir. A notícia oferece a
+possibilidade de reorganizar planos. Preserve o
+tempo já passado e dê efeito aos avisos que os
+personagens conseguirem transmitir.
+
+O relato mistura fato e conclusão
+Alguém viu um efeito e atribuiu uma causa sem
+confirmá-la. Prepare o que realmente percebeu e os
+meios de examinar a hipótese. Ao conversar, essa
+pessoa pode reconhecer a diferença. Se a confusão
+veio da sua descrição, esclareça-a diretamente, sem
+cobrar outro teste para entender a frase.
+
+Combinação 1: A assinatura no coreto
+Use: situação 3, Rei e Nori, coreto e relato que
+mistura fato e conclusão. O objetivo é esclarecer o
+dano a um banco e o que o vestígio energético
+significa. Este preparo não inclui uma ameaça de
+combate.
+
+O que aconteceu
+Rei treinou no coreto entre 17h e 17h10 e deixou
+uma fita presa a uma coluna para marcar sua
+posição. O preparo estabelece que a fita ainda
+conserva resíduos de energia durante esta
+investigação. Às 17h20, um galho caiu sobre o
+banco externo e rachou sua madeira. Nori ouviu o
+estalo, encontrou o dano e associou a fita ao
+acontecimento. Rei quer que examinem os fatos.
+O galho já caiu e não há outra queda iminente. O
+banco está sem uso até ser cuidado. A fita é um
+objeto comum com vestígios; não tem poderes.
+
+Para começar
+“Nori mostra o banco rachado e aponta a fita
+na coluna: ‘Isso estava aqui quando ouvi o
+estalo’. Rei responde: ‘Usei a fita no treino.
+Quero entender o que aconteceu depois’. O
+galho está no chão, ao lado do banco.”
+
+22
+
+
+=== PÁGINA 23 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Caminhos até os fatos
+O banco, o galho e a fita estão à vista. Nori conta
+quando ouviu o estalo; uma fotografia feita por ele
+às 17h05 mostra a fita e o banco ainda inteiro. Rei
+descreve seu treino e o horário em que saiu. O
+encaixe do impacto e os fragmentos de madeira
+junto ao galho permitem examinar a causa física do
+dano.
+Conversa e observação permitem investigar sem
+Sentir Energia. Informe os detalhes evidentes.
+Perguntas incertas seguem as ações e dificuldades
+do Livro de Regras. Uma tentativa falha não apaga
+informações obtidas por outros meios.
+Quem puder usar Vasculhar com Sentir Energia
+pode examinar a fita dentro do alcance, sem
+obstáculo que a esconda. Neste preparo, não há
+ocultação nem interferência: a fonte é localizada
+sem rolagem depois de gastar a Ação Padrão.
+Localizar o vestígio não identifica seu antigo
+portador nem prova a causa do dano. Comparações
+e outros exames seguem suas regras próprias.
+
+A próxima decisão
+Nori está disposto a ouvir o que distingue o treino
+da queda do galho. Rei confirma o uso da fita. Os
+personagens escolhem o que explicar, o que ainda
+perguntar e se querem cuidar do lugar.
+Encerre quando o grupo tiver uma resposta
+suficiente. Registre o banco sem uso e os cuidados
+combinados. Reparos e custos seguem suas regras;
+a investigação não exige iniciar um projeto.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+ABERTURA E CAPÍTULOS 1–3
+
+Combinação 2: Ensaio na outra
+margem
+Use: situação 6, Dara e Joana, canal e diferença
+entre o horário do ensaio e o caminho disponível.
+Os dois exemplos são independentes; cada um tem
+seu estado inicial.
+
+O começo e os caminhos
+São 17h45. O ensaio no coreto começa às 18h. Dara
+está com o grupo na margem inicial e quer chegar
+com suas partituras secas. Prefere o contorno a
+entrar na água, mas ouve propostas de travessia
+seca. Seu corpo pesa 60 kg e seu equipamento
+ocupa 1 de Volume. Transportá-la conta como 6 de
+Volume: 60 ÷ 12, mais 1 de equipamento. Confira a
+Carga de quem a carregar.
+Joana mostra duas opções: o caminho firme pela
+passarela pública leva 20 minutos até o coreto;
+cruzar o canal deixa mais 5 minutos de caminhada.
+Quem usar o contorno chega às 18h05, se partir
+agora. Dara pode ir por ele e encontrar o grupo
+depois. Avisar Nori permite que ele considere
+mudar a ordem das músicas; a resposta depende da
+conversa.
+
+O trecho de água
+As margens estão no mesmo nível e têm apoios
+firmes. Há pelo menos 3 m livres para impulso em
+cada lado. O canal mede 4,5 m naquele ponto. A
+água está livre de detritos e não é terreno difícil
+neste exemplo. A correnteza pede controle. Uma
+grade firme fica junto à margem inicial, 1,5 m
+adiante no sentido da água, com apoio que permite
+segurá-la e manter a cabeça fora d'água.
+
+23
+
+
+=== PÁGINA 24 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+ABERTURA E CAPÍTULOS 1–3
+
+UM TRECHO DE 4,5 m ENTRE APOIOS FIRMES
+MARGEM INICIAL
+
+MARGEM OPOSTA
+4,5 m
+
+3 m livres para impulso
+1,5 m
+
+Chegada no mesmo nível
+
+Corrente
+
+Grade firme
+Junto à margem inicial;
+permite manter a cabeça
+fora d’água neste caso.
+
+Após cruzar:
+
+5 min até o coreto
+
+Pela passarela pública: 20 min até o coreto, fora deste recorte.
+Esquema sem escala. As medidas indicam as distâncias da travessia.
+O desenho mostra o trecho da travessia. A passarela pública está fora do recorte; o tempo do contorno já inclui o percurso até o coreto.
+
+Resolver a travessia
+
+Chegada e fechamento
+
+O obstáculo reaproveita o caso de correnteza do
+Guia. Nesta versão, cada pessoa que optar por
+nadar faz uma travessia individual, anunciada
+assim:
+
+Acompanhe o tempo das ações na história e
+informe o horário quando ele importar. O tempo de
+conversa dos jogadores não avança sozinho o
+relógio. Chegar depois do início pode significar
+perder a primeira música e entrar na seguinte, sem
+criar uma punição de ficha.
+
+“Cruzar os 4,5 m pede Atletismo CD 14. Uma
+rolagem resolve o trecho. Se falhar, gasta o
+movimento reservado à tentativa e é levado até
+a grade na margem inicial. Fica segurando o
+apoio, sem concluir a travessia. Esse desfecho
+não causa dano adicional.”
+Sem deslocamento de natação, cada 1,5 m nadado
+custa 3 m: são 9 m de movimento. Com
+deslocamento próprio de natação, são 4,5 m; a
+correnteza ainda pede o teste. Um resultado que
+iguale a CD basta. Na falha, apresente a nova
+posição e ouça como o grupo pretende continuar,
+usando os meios e movimentos disponíveis.
+Outra personagem, com Força 1 e deslocamento 9
+m, pode usar 3 m de impulso e saltar normalmente
+os 4,5 m entre apoios firmes: 7,5 m de movimento,
+sem teste nessas condições. As demais fichas usam
+suas distâncias e capacidades reais. Uma solução
+por feitiço, corda ou obra precisa cumprir alcance,
+carga, apoio, execução e demais requisitos; a
+largura do canal continua sendo 4,5 m.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+O grupo pode chegar junto, encontrar-se depois ou
+mudar o plano. Dara escolhe como participar.
+Registre compromissos ou mudanças que
+continuem relevantes. Não há uma maldição
+preparada para atacar quem escolheu o caminho
+tranquilo.
+
+Um ensaio entre amigos
+Dara coloca o caderno no coreto e pergunta: “Tem
+algum som que vocês queiram trazer para a
+música?”. Uma jogadora descreve o ritmo que sua
+personagem faz com os dedos. Outra prefere ouvir.
+Nori se acomoda numa cadeira e pede para
+repetirem um trecho de que gostou.
+Ouça quem deseja tocar, contar uma lembrança ou
+responder ao convite. Podem trocar ideias, errar
+uma entrada e começar de novo. Só peça teste se
+houver algo relevante a resolver pelas regras; o
+encontro não exige uma disputa de desempenho.
+Quando o grupo estiver satisfeito, encerre o ensaio
+e ouça o que cada personagem faz depois. Guardar
+a música para outro dia pode bastar. A cena não
+concede treino, bônus ou progressão adicionais.
+
+24
+

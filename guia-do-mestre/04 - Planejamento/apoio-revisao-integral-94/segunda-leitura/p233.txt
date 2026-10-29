@@ -1,0 +1,74 @@
+CICLO MALDITO / GUIA DO MESTRE
+ENTRE MISSÕES
+O resgate de Mako
+Na missão Retirada do arquivo, Aoi está no nível
+20, com patente de Grau 2. Ela ainda não tem feito
+de Limiar reconhecido. Durante uma ameaça hostil
+real, um ataque leva Mako a zero de vida. Ele tem
+máximo de referência 84, Integridade positiva e
+uma Sequela anterior. Escolhe Aguentar, ficando
+Inconsciente e Morrendo.
+A janela é 3 - 1 = 2 rodadas. Aguentar exige um
+quarto do máximo de referência: 84 ÷ 4 = 21 de
+tratamento. O mestre marca o ponto da queda na
+iniciativa. Não se trata de treino, dano provocado
+pelo grupo para cumprir um feito ou recuperação
+posterior de alguém já Derrotado.
+Aoi alcança Mako antes da próxima passagem por
+esse ponto. Tem acesso físico, cumpre seu Selo e
+não há impedimento de cura. O corpo de Mako é
+compatível com sua fonte. Ele não recebeu dano
+posterior nem perdeu toda a Integridade.
+Fazer Mako voltar a agir
+Aoi conhece Recompor tecido, feitiço de cura
+direta individual de Classe 2, com Toque e Amparo
+disponível. A Regra de sua técnica permite esse
+tratamento. Nesta aplicação, nenhuma habilidade
+altera preço ou resultado.
+Conferência
+Conta
+Orçamento
+3 × 2 = 6 pontos
+Base de cura, Média
+2 pontos
+Toque
+Zero pontos; não há Melhoria paga para aproveitar sua devolução
+Saldo para cura
+6 - 2 = 4d8, dentro do teto individual de 2 × Classe = 4d8
+Compras
+Nenhuma Melhoria e nenhuma Restrição
+Uso
+Ação Padrão, 6 PE, alvo disposto e válido a até 1,5 m, com acesso
+físico
+Com 12 PE disponíveis, Aoi paga 6 e fica com 6. Os
+dados mostram 6, 5, 5 e 6: 22 de cura válida. Como
+o total alcança os 21 necessários, Mako sai de
+Morrendo com 22 de vida e recebe uma Sequela,
+passando a duas. Não fica com apenas 1 de vida: o
+requisito não é subtraído do tratamento.
+A inconsciência causada por Aguentar termina.
+Não há outra condição impedindo sua participação
+no exemplo. Mako conserva a posição no chão e
+não recupera ações gastas; quando puder agir,
+levantar fisicamente ainda seguirá as regras
+comuns.
+O feito publicado chama-se “Levantar alguém que
+estava a zero de vida”. Aqui, o que importa é o
+socorro devolver a capacidade de agir. Não é
+necessário comprar a Melhoria Levanta nem
+conceder gratuitamente o movimento para ficar de
+pé.
+Conferir todos os requisitos do feito
+Requisito pertinente do Livro de Regras 1.0
+Evidência deste registro
+É um dos sete feitos publicados
+Levantar alguém que estava a zero de vida; não foi criada uma
+façanha equivalente.
+Realizado entre os níveis 15 e 20
+Aoi estava no nível 20 durante o socorro.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+233

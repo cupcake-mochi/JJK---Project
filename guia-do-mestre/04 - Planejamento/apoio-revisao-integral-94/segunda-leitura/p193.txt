@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+AVALIAR TÉCNICAS E CRIAÇÕES
+Prender com fios
+Pedido. “Acerto com os fios e o inimigo fica preso,
+sem poder atacar nem conjurar.”
+Conferência. Prende impede deslocamento
+voluntário, mas conserva as demais ações. Mesmo
+numa ficha de ataque, o alvo acertado faz o TR de
+Controle. A aparência da rede não acrescenta
+Atordoado ou outra condição.
+Versão comentada. Técnica que produz fios para
+prender, Controle disponível a preço normal.
+Classe 2: Projétil (0), Prende (2), sem Restrição.
+Sobram 6 - 2 = 4 pontos. O jogador escolhe
+descartar todo o saldo e registrar a modalidade de
+Controle sem dano. Ela concede a rodada adicional
+e +2 na CD dos TRs de Prende.
+A ficha será resolvida diretamente por TR Físico,
+escolhido na criação. Com atributo 3 e Maestria 2, a
+CD normal seria 13; com o reforço, fica 15. A
+aplicação custa Ação Padrão e 6 PE, exige o Selo e
+alcança uma criatura válida e visível a até 18 m, com
+passagem desimpedida.
+Na falha, o alvo não pode se deslocar
+voluntariamente até o fim de seu segundo turno
+seguinte à aplicação. No sucesso, não fica preso.
+Enquanto afetado, pode atacar, conjurar e usar as
+outras ações. No próprio turno, pode gastar Padrão,
+Bônus ou Movimento para tentar sair, fazendo o TR
+registrado contra CD 15; cada tentativa paga uma
+dessas ações. Não recebe um teste gratuito no fim
+do turno. Movimento imposto ainda pode
+deslocá-lo sem encerrar Prende.
+Conclusão. Esta versão serve para conter a
+movimentação. Para impedir outras ações, será
+necessário escolher um efeito que as impeça e
+refazer a montagem. Os quatro pontos descartados
+não podem financiar outra função mantendo o
+reforço de “sem dano”.
+A versão por ataque seria outra montagem:
+primeiro precisaria acertar, depois resolver o TR de
+Prende. O jogador não escolhe entre ataque e TR
+depois de observar as defesas do adversário.
+A consulta Efeitos de cena e cancelamento (p. 207)
+mostra outro exemplo de avaliação: o cancelamento
+de uma aplicação específica, com Classe publicada
+ou atribuída, preservando resultados concluídos e
+respeitando a exclusão de Domínios.
+Obter informações de um objeto
+Pedido. “Quero tocar um objeto e saber quem usou
+energia nele, onde essa pessoa está e como funciona
+sua técnica.”
+Conferência. O pedido reúne vestígio, identidade,
+localização e montagem. Compare cada parte.
+Farejador informa Classes de conjurações deixadas
+no local nas últimas 24 horas, sem revelar autor ou
+caminho. A proposta de exame de objeto em
+Aptidão Própria verifica um vestígio específico,
+com limites ainda menores de informação.
+Conclusão sobre o pedido completo. A referência
+de CE1 não sustenta conceder todas as informações
+solicitadas. O fato de o exame consumir uma ação
+não resolve essa diferença.
+Alternativa já exemplificada no Livro de Regras
+1.0. Uma Ação Padrão examinando um objeto
+tocado identifica se ele recebeu energia
+amaldiçoada nas últimas 24 horas. Não revela autor,
+intenção ou identidade da técnica. O Livro de
+Regras 1.0 apresenta CE1 como apoio à avaliação se
+esse vestígio for relevante raramente na
+campanha; a aprovação continua com o mestre.
+Numa campanha que investiga objetos adulterados
+em toda missão, explique por que aquela condição
+da referência exige nova avaliação. Não aumente a
+categoria automaticamente só porque a campanha
+tem investigação: compare o resultado exato e sua
+frequência real. Registre o que “recebeu energia”
+significa para o caso, sem confundir tocar o objeto
+com conjurar no cômodo.
+A versão própria ocupa a escolha única de Aptidão
+Própria. Se a intenção for simplesmente obter uma
+aptidão já existente, use a entrada e seus requisitos.
+Aprender a opção nova não concede as informações
+retiradas do pedido original.
+Sentir vibrações
+Pedido. “Quero sentir vibrações e acompanhar
+qualquer pessoa do outro lado de uma parede.”
+O Livro de Regras 1.0 apresenta Marca do pulso,
+proposta de Bênção Própria CE1: tocar uma
+estrutura que acabou de sofrer um impacto
+perceptível permite distinguir a parte conectada
+que recebeu o impacto, até 3 m do ponto tocado. O
+exemplo usa a vibração ainda ocorrendo. A
+aprovação e os limites precisam ser registrados.
+Comparação. Localizar a porta que acabou de ser
+golpeada não revela quem bateu, onde essa pessoa
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+193

@@ -1,16 +1,16 @@
 # Um objeto selado: a Pastilha do Último Aviso
 
-Use esta preparação para conduzir guarda, exame e uma escolha arriscada sem improvisar o perigo depois da ação. **A Pastilha, seu selo e suas consequências são um exemplo experimental de missão.** A R53 autoriza preparar os efeitos particulares do objeto; não fornece estes números como padrão para todos os objetos amaldiçoados.
+Este exemplo mostra como preparar o transporte e o exame de um objeto perigoso, com seus riscos definidos antes das escolhas do grupo. **A Pastilha, seu selo e suas consequências são um exemplo experimental de missão.** O Livro de Regras 1.0 autoriza preparar os efeitos particulares do objeto; não fornece estes números como padrão para todos os objetos amaldiçoados.
 
 ## O que será transportado
 
 A Pastilha parece um pequeno disco de açúcar escurecido, retirado de uma estação abandonada. Conserva o eco amaldiçoado de um aviso de evacuação. Não abriga uma pessoa nem oferece uma opção de encarnação neste caso.
 
-Ela está envolta numa faixa de contenção e guardada em um estojo rígido. O conjunto ocupa **0,5 Volume**, valor local registrado: 0,1 do objeto e 0,4 do estojo com seu suporte. Abrir o estojo expõe a faixa, mas não a retira. A faixa é o selo de contenção do objeto; não é o Selo que uma personagem cumpre para conjurar.
+Ela está envolta numa faixa de contenção e guardada em um estojo rígido. O conjunto ocupa **0,5 Volume**, valor escolhido para este exemplo: 0,1 do objeto e 0,4 do estojo com seu suporte. Abrir o estojo expõe a faixa, mas não a retira. A faixa é o selo de contenção do objeto; não é o Selo que uma personagem cumpre para conjurar.
 
 **Missão:** entregar o conjunto ao depósito da escola até as 16h. A responsável, Yumi, fornece a ficha de cuidados e pode receber o objeto durante todo esse período. O selo foi concluído às 9h e dura até as **17h**, se preservado. A margem de uma hora não é uma renovação automática.
 
-## Selo e atração deste caso
+## O selo e o chamado da Pastilha
 
 | Campo | Funcionamento preparado |
 |---|---|
@@ -25,7 +25,7 @@ Os 6 m, 60 m e oito horas pertencem à preparação desta Pastilha. Não definem
 
 Para esta missão, o mestre já registrou uma maldição no pátio, a 30 m da mesa onde o grupo examina o estojo. Ela busca o objeto e não tem outro objetivo urgente. Se o selo cair, volta sua atenção para o chamado e tenta alcançá-lo; resolva a aproximação com a ficha previamente escolhida para a missão. Não acrescente novos inimigos a cada rodada só porque o objeto permanece exposto. Se o pátio estiver vazio por acontecimentos anteriores, não faça surgir essa criatura novamente.
 
-## Informação disponível antes da escolha
+## O que o grupo sabe
 
 Yumi explica diretamente o prazo, o limite da proteção e o risco de retirar a faixa. Uma etiqueta no estojo diz: **“Não ingerir. O objeto se desfaz, mas seu chamado permanece por dez minutos; pode tomar a audição de quem o engolir. Não concede poder.”** O relatório de um acidente anterior descreve a perda temporária da audição e o tratamento mágico que a encerrou.
 
@@ -45,7 +45,7 @@ Uma intervenção em outro objeto exige conhecer a preparação daquele objeto. 
 
 ## Se alguém ingerir
 
-O procedimento abaixo resolve a ingestão voluntária por uma personagem cujo corpo possa incorporar a Pastilha. Não define como forçar a ingestão numa criatura hostil nem substitui as regras de ataque e resistência para tentar isso.
+As regras abaixo resolvem a ingestão voluntária por uma personagem cujo corpo possa incorporar a Pastilha. Elas não definem como forçar a ingestão numa criatura hostil nem substitui as regras de ataque e resistência para tentar isso.
 
 **Ao ingerir, a Pastilha se desfaz e deixa de poder ser entregue intacta.** Seu chamado continua centrado na personagem durante **dez minutos**, com o alcance local de 60 m, mesmo se ela entrar em outro recipiente. A faixa do objeto não consegue selar esse resíduo no corpo.
 
@@ -56,7 +56,7 @@ Faça um **TR de Espírito CD 14**:
 
 Surdo é uma condição Leve e não concede novo TR ao fim de cada turno. Pode terminar antes por uma habilidade que remova essa condição, com seus próprios custos e requisitos. Encerrar Surdo não encerra o chamado; ele tem o prazo separado registrado acima. Ao fim dos dez minutos, ambos os efeitos desta ingestão terminam. Não há dívida, mudança de Origem, concessão de técnica ou consequência permanente oculta.
 
-**Resolução ilustrativa.** Às 14h, Miki retira a faixa e ingere a Pastilha apesar do aviso. Tem bônus +3 no TR de Espírito e rola 8: **11**, falha contra 14. Fica Surda, e o chamado permanece nela até as **14h10**. A equipe pode usar sinais visuais para se comunicar; isso não devolve a audição. Se uma capacidade válida remover Surdo às 14h02, ela ouve novamente, mas ainda carrega o chamado por mais oito minutos.
+**Exemplo.** Às 14h, Miki retira a faixa e ingere a Pastilha apesar do aviso. Tem bônus +3 no TR de Espírito e rola 8: **11**, falha contra 14. Fica Surda, e o chamado permanece nela até as **14h10**. A equipe pode usar sinais visuais para se comunicar; isso não devolve a audição. Se uma capacidade válida remover Surdo às 14h02, ela ouve novamente, mas ainda carrega o chamado por mais oito minutos.
 
 O mestre conserva o controle das ameaças já preparadas e registra a perda do objeto. A ingestão não cancela automaticamente toda a missão: o objetivo de entrega intacta foi perdido, e o fechamento considera o que a equipe ainda conseguiu realizar.
 
@@ -68,4 +68,4 @@ O processo seguro preparado para este objeto é a **neutralização na câmara d
 
 Se o grupo entregar às 15h30 com a faixa íntegra, registre **uma hora e meia de selo restante**. Yumi confere o conjunto e recebe seus 0,5 Volume; ele sai do inventário de quem o carregava. A contenção do depósito assume a guarda. O fim da missão não renova o selo nem remove uma consequência de ingestão que ainda estiver em curso.
 
-**Registro para outro mestre:** “Pastilha e estojo, 0,5 Volume; selo concluído às 9h, termina às 17h, aviso visível desde as 16h. Proteção de 6 m, chamado local de 60 m. Estojo pode abrir sem retirar faixa. Ingestão destrói o objeto entregável e mantém chamado por 10 minutos; TR Espírito CD 14, falha: Surdo por 10 minutos. Renovação e neutralização somente pelo atendimento preparado do depósito. Valores experimentais deste caso.”
+**Registro para outro mestre:** “Pastilha e estojo, 0,5 Volume; selo concluído às 9h, termina às 17h, aviso visível desde as 16h. Proteção de 6 m, chamado local de 60 m. Estojo pode abrir sem retirar faixa. Ingestão impede a entrega intacta do objeto e mantém chamado por 10 minutos; TR Espírito CD 14, falha: Surdo por 10 minutos. Renovação e neutralização somente pelo atendimento preparado do depósito. Valores experimentais deste caso.”

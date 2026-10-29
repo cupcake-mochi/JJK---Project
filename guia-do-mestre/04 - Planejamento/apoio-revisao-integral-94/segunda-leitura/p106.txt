@@ -1,0 +1,102 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+Dano de Fogo não aplica queimadura contínua só
+pelo nome. Veneno não concede Envenenado
+automaticamente. Fumaça pode dificultar a visão
+sem causar dano ou bloquear flechas. Se o caso
+reunir esses efeitos, descreva cada um.
+Para uma fonte nova de dano, compare a aplicação
+completa: quantas pessoas pode atingir, quantas
+vezes pode ocorrer antes de alguém agir e quais
+meios permitem evitá-la. Um dado pequeno
+repetido muitas vezes pode pressionar mais que um
+impacto isolado. A vida atual dos participantes
+importa; o nível não substitui essa leitura.
+Exemplo experimental: a sala de conservação
+oferece um TR por pessoa exposta em cada fase
+ambiental. Falhar causa 1d6 de Veneno e pode
+aplicar Envenenado. A condição depende da falha
+no TR, não de o dano atravessar as proteções. Por
+isso, alguém imune ao dano ainda pode receber a
+condição; alguém imune apenas à condição ainda
+pode perder vida.
+Esse 1d6 pertence ao exemplo. Não é o dano de
+todo pó, veneno ou sala contaminada do sistema.
+Defina quando o perigo age
+Use um momento que a mesa consiga acompanhar:
+começo ou fim do turno de alguém, um
+acontecimento perceptível, ou uma fase ambiental
+após a rodada. O nome “fase ambiental” designa o
+ponto preparado para resolver o cenário; não
+concede um turno adicional à ameaça.
+Defina antes da aplicação:
+• quando começa a primeira contagem;
+• quem é considerado exposto naquele ponto;
+• o que acontece uma vez e o que pode se repetir;
+• o que interrompe a fonte e o que encerra seus
+efeitos restantes.
+Escolha de ritmo: resolver apenas quem termina a
+rodada numa área permite atravessá-la e sair antes
+da verificação. Resolver ao entrar produz outra
+consequência. Se o contato breve precisa importar,
+prepare essa regra desde o início; não cobre uma
+exposição retroativa porque alguém cruzou
+depressa.
+Turnos adicionais, entidades e Reações não fazem
+uma fase por rodada ocorrer outra vez. Se a própria
+fonte disser “ao fim de cada turno”, conserve esse
+funcionamento. Ao combinar vários efeitos,
+marque seus momentos separadamente.
+Fora de combate, continue contando o tempo da
+ficção. Uma rodada do Livro de Regras 1.0
+corresponde a seis segundos. Use iniciativa quando
+posição, ordem das ações, resgate ou socorro
+precisarem dessa precisão; não cronometre a
+conversa dos jogadores pelo relógio real. Quando
+nada relevante depender de cada turno, avance o
+tempo acordado conservando prazos, recursos e
+consequências. Encerrar uma sessão da guilda não
+tira o personagem do perigo.
+Mostre o perigo e as formas de agir
+Apresente o que uma pessoa no lugar consegue
+perceber: posição da área afetada, vazamento,
+deformação, aviso de operação ou relato de uma
+testemunha. Não esconda todas as saídas atrás de
+um teste que pode falhar. Uma informação evidente
+continua disponível.
+Ofereça respostas com consequências diferentes.
+Sair da área pode impedir novas exposições; fechar
+a fonte pode impedir agravamento; ventilar ou
+remover o material pode eliminar o risco do lugar;
+atender alguém resolve os efeitos que
+permaneceram no corpo. Cada resposta precisa de
+posição, ação, ferramentas ou capacidade
+compatível.
+Exemplo: na sala de conservação, fechar a
+alimentação e ligar o exaustor exige operar dois
+comandos em posições diferentes. O grupo pode
+dividir essas tarefas ou realizá-las em sequência. A
+nuvem leva o intervalo escrito para desaparecer, e
+uma condição já aplicada conserva suas saídas.
+A improvisação usa a mesma lógica. Confira o
+efeito concreto da capacidade, o que ela alcança e
+como altera o risco. Uma técnica de vento não
+limpa automaticamente toda substância; uma
+barreira não filtra tudo por se chamar barreira. Se a
+capacidade realmente separar a fonte das pessoas,
+registre essa solução e sua duração.
+Acompanhe condições e doenças
+Uma condição persistente continua depois do
+instante em que foi aplicada, pelo prazo de seu
+efeito. Sair da área só a encerra se a regra disser
+isso. No Livro de Regras 1.0, condições Pesadas
+permitem tentar o TR de saída no fim de cada turno
+do alvo, sem ação. Envenenado é Pesada: prejudica
+ataques e testes de perícia, mas não impõe
+desvantagem ao TR de Vigor por si.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+106

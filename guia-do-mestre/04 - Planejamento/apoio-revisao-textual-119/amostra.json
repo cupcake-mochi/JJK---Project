@@ -1,0 +1,125 @@
+{
+  "registro": 119,
+  "fontes": [
+    {
+      "id": "energia",
+      "fonte_id": "s059",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "fonte_original": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+      "titulo": "PE, recarga e limites de uso",
+      "sha256": "91ef3035c0d49dc43138d8c9d6a81e3947d0a148ec3c9470195c23b44abaeb75",
+      "sha256_original": "580e3ee7b0e0c857a96eee2dfab42ffcd2b1f6f22e5d0da934525dc414441f47"
+    },
+    {
+      "id": "habilidades",
+      "fonte_id": "s060",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+      "fonte_original": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+      "titulo": "Montar as habilidades de um inimigo",
+      "sha256": "b0ad6f815fb2e878697eb17d871248e1e6eeb1c8cb39ec38aa30fe8e0ed89c5a",
+      "sha256_original": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d"
+    },
+    {
+      "id": "numeros",
+      "fonte_id": "s074",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+      "fonte_original": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+      "titulo": "Escolher os números de um inimigo",
+      "sha256": "5211841389ea9918a57763b4f8b5ba0f336b167e459ea15806244b0712363892",
+      "sha256_original": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e"
+    },
+    {
+      "id": "faixas",
+      "fonte_id": "s100",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "fonte_original": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+      "titulo": "Inimigos de níveis mais altos",
+      "sha256": "392c1e319d10e27a7d9965195d2942fca23351f030a223c1f57c2eb7d79c85b1",
+      "sha256_original": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532"
+    },
+    {
+      "id": "chefes",
+      "fonte_id": "s067",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "fonte_original": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+      "titulo": "Preparar chefes e confrontos maiores",
+      "sha256": "dbc13d4de49450f3473ea328278e80b2aa49990a688b0a7a7018b126acace9e5",
+      "sha256_original": "a209c7602234bc304ba1bb5165eba40b835f89b8ebeca1fc1f3845cd56dd9813"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html",
+  "html_sha256": "4bf923cdf0285e3753d3e3adfaac32e15b5f715f852615658484f230ddba1470",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-119/output/pdf/Ciclo-Maldito-Energia-Habilidades-e-Chefes-Revisao-Textual.pdf",
+  "pdf_sha256": "6c6392f4f1385cfdd40538a75a0b1cc1151c3616c87c2e815c1448e8bbe4af85",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 510
+    },
+    {
+      "pagina": 2,
+      "palavras": 679
+    },
+    {
+      "pagina": 3,
+      "palavras": 487
+    },
+    {
+      "pagina": 4,
+      "palavras": 591
+    },
+    {
+      "pagina": 5,
+      "palavras": 572
+    },
+    {
+      "pagina": 6,
+      "palavras": 719
+    },
+    {
+      "pagina": 7,
+      "palavras": 385
+    },
+    {
+      "pagina": 8,
+      "palavras": 425
+    },
+    {
+      "pagina": 9,
+      "palavras": 515
+    },
+    {
+      "pagina": 10,
+      "palavras": 641
+    },
+    {
+      "pagina": 11,
+      "palavras": 467
+    },
+    {
+      "pagina": 12,
+      "palavras": 459
+    },
+    {
+      "pagina": 13,
+      "palavras": 674
+    },
+    {
+      "pagina": 14,
+      "palavras": 478
+    },
+    {
+      "pagina": 15,
+      "palavras": 527
+    },
+    {
+      "pagina": 16,
+      "palavras": 580
+    },
+    {
+      "pagina": 17,
+      "palavras": 563
+    }
+  ],
+  "limite": "Cinco casos revistos; demais lotes, consultas complementares, conferência global e integração continuam pendentes."
+}

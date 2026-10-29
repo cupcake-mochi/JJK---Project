@@ -1,0 +1,94 @@
+CICLO MALDITO / GUIA DO MESTRE
+NA MESA DE JOGO
+Mina aceita a Abertura. No seu turno, antes do
+próximo turno de Ren, consome Avançar e
+atravessa os 3 m até o espaço indicado, sem gastar
+outra ação. Se escolhesse aproveitar fora do próprio
+turno, gastaria Reação depois que uma ação ou
+deslocamento terminasse. A oportunidade dura até
+o começo do próximo turno de Ren; a ponte dura 30
+minutos. São prazos diferentes. Mina e seu
+equipamento somam 80 kg e são a única carga
+durante essa travessia, abaixo dos 300 kg
+suportados. A carga considera todas as pessoas e
+equipamentos sobre a obra.
+Se faltasse apoio firme do outro lado, a Passarela
+básica não poderia ser criada como ponte flutuante.
+Sua diferença de altura permitida é de até 1,5 m; um
+desnível maior também precisaria de outra solução.
+Criar a obra não empurra, levanta nem prende uma
+criatura.
+Ren ainda precisa estar dentro do limite de obras.
+Desfazer uma anterior por escolha própria não
+pode retirar o apoio ou proteção de alguém naquele
+momento. A obra pode desaparecer por duração ou
+destruição conforme a capacidade; ao preparar uma
+travessia, registre também como as pessoas sairão
+antes do término.
+Parkour: alcançar e segurar uma
+borda
+Mei é Incursora da Trilha Assassino, nível 2, com
+Parkour, Força 1 e Acrobacia +5. Movimento
+Acrobático elevou seu deslocamento comum de 9 m
+para 12 m. Ela ainda não gastou movimento nem o
+limite acrobático deste turno, e tem uma mão
+disponível.
+O percurso sobe 3 m por uma parede e, de um
+apoio firme, cruza 4,5 m até uma borda na mesma
+altura. A parede oferece passagem física; o apoio
+permite sair para o salto sem parar. A borda tem
+onde segurar e suporta Mei. Nas condições secas
+iniciais, não há outro risco.
+Trecho
+Movimento gasto
+Limite acrobático gasto
+Percorrer a parede
+3 m
+3 m
+Salto horizontal
+4,5 m
+Nenhum adicional
+Total
+7,5 m
+3 m dos 6 m disponíveis
+Os 3 m percorridos sem parar fornecem impulso.
+Força 1 permite o salto normal de 4,5 m, sem teste.
+Parkour permite terminar pendurada na borda,
+mantendo pelo menos uma mão ocupada. Restam
+4,5 m de movimento e 3 m de limite acrobático, mas
+estar pendurada não coloca seus pés no piso
+superior. Continuar exige um percurso e
+movimento possíveis.
+Se a borda estiver molhada e o mestre tiver
+anunciado CD 14 para firmar o apoio, Mei pode
+usar Acrobacia no lugar de Atletismo durante esse
+Movimento Acrobático. Dado 9 + 5 = 14 permite
+agarrá-la; dado 8 + 5 = 13 falha. A capacidade troca
+a perícia, preservando a CD e a consequência.
+Nessa versão do exemplo, o mestre anuncia antes
+que a falha leva ao piso livre 3 m abaixo da borda,
+com o movimento da tentativa gasto e a queda
+normal.
+Esse percurso não basta para conceder a
+aproximação de abate de Parkour. Mei percorreu 3
+m de parede, menos que metade de seu
+deslocamento, 6 m; também não desceu 4,5 m com
+apoio. As aproximações específicas de Parkour e o
+ataque ao Alvo Estudado conservam seus
+requisitos.
+Ao registrar a interrupção de uma cena, conserve
+posição, apoio, mão ocupada, movimento gasto e
+capacidades em uso. Na guilda, essas informações
+permitem ao próximo mestre retomar a travessia;
+numa campanha fechada, bastam nas notas da
+sessão.
+Para praticar: substitua o alvo Grande da queda por
+um Médio e depois por um Imenso. Na Passarela,
+altere apenas o desnível entre os apoios. Confira
+qual requisito muda antes de pedir um teste.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+65

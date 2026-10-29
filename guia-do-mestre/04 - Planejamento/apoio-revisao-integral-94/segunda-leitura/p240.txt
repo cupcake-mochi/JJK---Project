@@ -1,0 +1,88 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+limitação já compensada na Origem ou na técnica
+não compra outro benefício apenas por receber um
+nome novo.
+Explique o que o Pacto muda
+Descreva primeiro o funcionamento comum da
+capacidade. Em seguida, escreva exatamente o que
+a proposta altera. Isso ajuda a perceber se o Pacto
+muda uma escolha ou acaba substituindo uma parte
+inteira do sistema.
+Exemplo. Hana tem energia suficiente para um
+feitiço, mas sua Liberação irregular impediria
+gastar toda essa quantidade naquele momento. A
+proposta precisa distinguir a energia que Hana
+possui da quantidade que consegue usar. Se o texto
+disser apenas que ela “fica sem energia”, outro
+mestre poderá apagar o saldo em vez de limitar o
+gasto.
+Antes de discutir valores, preencha os campos
+abaixo. Use o registro de Pactos e Promessas (p.
+317) para guardar a versão acordada.
+Campo
+O que o texto precisa esclarecer
+Forma e origem da troca
+É permanente, temporário, Promessa ou registro de uma limitação já
+compensada?
+Ganho
+Qual capacidade muda e o que passa a fazer?
+Preço
+Qual recurso ou possibilidade real é perdido?
+Início e duração
+Quando cada parte começa, muda e termina?
+Resolução
+Há ação, gatilho, teste, gasto ou ordem específica?
+Exceções
+O que acontece com efeitos já ativos, interrupções e capacidades
+relacionadas?
+Encerramento
+Como o Pacto termina, o que caracteriza quebra quando aplicável e
+quais consequências permanecem?
+Uma desvantagem detalhada não basta para
+aprovar qualquer compensação. Os limites do Livro
+de Regras 1.0 continuam valendo: a proposta não
+concede Estilo, escolhas adicionais de Origem ou
+bônus numérico a ataques, Defesa e perícias. Um
+pacto de energia que envolva quantidade usa
+porcentagem do máximo combinada com o mestre.
+As ideias desenvolvidas neste Guia
+A pré-1.0 desenvolve Pacifismo impraticável e
+Liberação irregular em exemplos completos,
+sujeitos à conferência da ficha e à avaliação prática.
+Energia alternada e Magnetismo energético
+recebem orientações para elaborar e avaliar uma
+proposta. Fragmentação, Despertar do corpo e
+Reserva vital aparecem para explicar as
+dificuldades, com desenvolvimento mecânico
+reservado para uma revisão posterior.
+As perguntas abaixo têm essas funções diferentes.
+Não é necessário criar regras para as sete ideias
+antes de usar este capítulo.
+O que conferir nas sete ideias
+Os casos abaixo ensinam a analisar propostas. Não
+são sete opções prontas para adquirir. Os nomes
+não concedem capacidades, e as perguntas em
+aberto não autorizam resolver uma punição por
+surpresa durante a sessão.
+Pacifismo impraticável
+O conceito combina duas exigências: a personagem
+não consegue executar violência nem matar
+diretamente, mas deve ser responsável pela morte
+de ao menos uma pessoa dentro de um intervalo. A
+direção escolhida permite que responsabilidade
+indireta cumpra essa obrigação. Não se trata de
+poder atacar e aceitar uma punição depois.
+O modelo precisa distinguir execução direta e
+responsabilidade real. Presenciar uma morte não
+basta. Uma ação sobre o ambiente pode produzir
+uma morte indireta mesmo sem conhecimento da
+presença da vítima; não é necessário que outra
+pessoa tome uma decisão entre a ação e a morte.
+Uma ordem ou um efeito colocado em andamento
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+240

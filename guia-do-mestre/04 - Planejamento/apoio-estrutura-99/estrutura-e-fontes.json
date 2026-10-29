@@ -1,0 +1,3220 @@
+{
+  "registro": 99,
+  "data": "2026-10-28",
+  "estado": "estrutura proposta; não aplicada ao livro",
+  "pdf_base": {
+    "paginas": 357,
+    "sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b"
+  },
+  "destinos": {
+    "ENT": "Como usar este livro",
+    "N01.1": "1.1 O que faz o mestre",
+    "N01.2": "1.2 Antes de começar",
+    "N01.3": "1.3 Uma cena do cotidiano",
+    "N01.4": "1.4 Prepare As batidas no anexo",
+    "N01.5": "1.5 Jogue a missão",
+    "N01.6": "1.6 Se o grupo escolher outro caminho",
+    "N01.7": "1.7 Depois da missão",
+    "N02.1": "2.1 Maldições na vida comum",
+    "N02.2": "2.2 Feiticeiros, energia e técnicas",
+    "N02.3": "2.3 Escolas, famílias e contatos",
+    "N02.4": "2.4 Diferentes formas de viver",
+    "N02.5": "2.5 Trabalho, estudo e relações",
+    "N02.6": "2.6 A época e o lugar da sua campanha",
+    "N03.1": "3.1 O preparo necessário",
+    "N03.2": "3.2 Pessoas que dão vida à aventura",
+    "N03.3": "3.3 Lugares e caminhos",
+    "N03.4": "3.4 Pistas e investigações",
+    "N03.5": "3.5 Perigos e consequências",
+    "N03.6": "3.6 Ideias para sua próxima missão",
+    "N03.7": "3.7 Quando há pouco tempo",
+    "N04.1": "4.1 Descrever, ouvir e responder",
+    "N04.2": "4.2 Quando pedir um teste",
+    "N04.3": "4.3 Interpretar e negociar",
+    "N04.4": "4.4 Conduzir uma investigação",
+    "N04.5": "4.5 As ideias dos jogadores e o cenário",
+    "N04.6": "4.6 Atenção, ritmo e mudança de cena",
+    "N04.7": "4.7 Combate, socorro e retirada",
+    "N04.8": "4.8 Dúvidas e fim da sessão",
+    "N05.1": "5.1 A sessão zero",
+    "N05.2": "5.2 Vínculos e interesses dos personagens",
+    "N05.3": "5.3 De uma missão à próxima",
+    "N05.4": "5.4 Facções",
+    "N05.5": "5.5 Antagonistas",
+    "N05.6": "5.6 Arcos, finais e epílogos",
+    "N06.1": "6.1 Objetivos e papéis no encontro",
+    "N06.2": "6.2 Escolher, adaptar e criar uma ficha",
+    "N06.3": "6.3 Habilidades, energia e recarga",
+    "N06.4": "6.4 Escolher os números",
+    "N06.5": "6.5 Grupo, terreno e composição",
+    "N06.6": "6.6 Chefes e confrontos maiores",
+    "N06.7": "6.7 Perigos ambientais",
+    "N06.8": "6.8 Conferir antes e depois de jogar",
+    "N07.1": "7.1 Conferir uma ficha",
+    "N07.2": "7.2 Convivências e cuidados",
+    "N07.3": "7.3 Escolhas próprias do personagem",
+    "N07.4": "7.4 Avaliar uma criação",
+    "N07.5": "7.5 Poderes avançados",
+    "N07.6": "7.6 Registrar e rever uma decisão",
+    "N08.1": "8.1 Rotina, descanso e compromissos",
+    "N08.2": "8.2 Trabalho, dedicação e espera",
+    "N08.3": "8.3 Ofícios, fabricação e reparos",
+    "N08.4": "8.4 Comprar, emprestar e contratar",
+    "N08.5": "8.5 Ferramentas e objetos amaldiçoados",
+    "N08.6": "8.6 Recompensas e progressão",
+    "N09.1": "9.1 Preço e benefício de um Pacto",
+    "N09.2": "9.2 Desenvolver e avaliar uma troca",
+    "N09.3": "9.3 Promessas entre pessoas",
+    "N09.4": "9.4 Obter e criar entidades",
+    "N09.5": "9.5 Trabalho, materiais e novas tentativas",
+    "N09.6": "9.6 Evolução, transferência e continuidade",
+    "N10.1": "10.1 Mesas diferentes, mundo compartilhado",
+    "N10.2": "10.2 Calendário e atividades",
+    "N10.3": "10.3 Passar uma missão para outro mestre",
+    "N10.4": "10.4 Fichas, decisões e registros",
+    "N10.5": "10.5 Ouvir o grupo e dividir o trabalho",
+    "A1": "A1 Preparo de missão",
+    "A2": "A2 Lembretes de condução",
+    "A3": "A3 Estado e socorro",
+    "A4": "A4 Resumo para continuar depois",
+    "A5.1": "A5 Acordos do grupo",
+    "A5.2": "A5 Descobertas",
+    "A5.3": "A5 Facção",
+    "A5.4": "A5 Convivência",
+    "A5.5": "A5 Avaliação de capacidade",
+    "A5.6": "A5 Projeto e entrega",
+    "A5.7": "A5 Dedicação por ficha",
+    "A5.8": "A5 Pactos e Promessas",
+    "A5.9": "A5 Aquisição e estado de entidade",
+    "A5.10": "A5 Inimigo e encontro",
+    "A5.11": "A5 Habilidade de inimigo",
+    "A5.12": "A5 Chefe",
+    "B1": "B1 Testes, percepção e movimento",
+    "B2": "B2 Confrontos e perigos",
+    "B3": "B3 Personagens e técnicas",
+    "B4": "B4 Objetos e recompensas",
+    "B5": "B5 Pactos e entidades",
+    "C1": "C1 Termos do mundo",
+    "C2": "C2 Onde encontrar as dúvidas mais comuns",
+    "D1": "D Inspirações da obra — contém revelações"
+  },
+  "fontes": [
+    {
+      "id": "s006",
+      "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+      "sha256": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+      "titulo_atual": "O mundo de Ciclo Maldito",
+      "capitulo_atual": "O mundo e seu grupo",
+      "pagina_inicial_atual": 4,
+      "secoes_atuais": [
+        "Maldições no dia a dia",
+        "Feiticeiros e técnicas",
+        "A obra, as regras e sua campanha",
+        "Escolas, famílias e contatos",
+        "Guildas e campanhas fechadas",
+        "Entre uma missão e outra",
+        "As Origens no dia a dia",
+        "Onde saber mais",
+        "Crie a primeira situação"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N02.1",
+      "usos_complementares": [
+        "N01.1",
+        "N02.2",
+        "N02.4",
+        "N02.6",
+        "N08.1"
+      ],
+      "orientacao": "Mundo como contexto jogável; fornecer somente o vocabulário da primeira missão na entrada e evitar repetir instruções de teste."
+    },
+    {
+      "id": "s086",
+      "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+      "sha256": "593b563a817c5af06f3618b00ecb1e6b8fcaba7e10aa1e125540a36633e1f4b8",
+      "titulo_atual": "A sociedade jujutsu",
+      "capitulo_atual": "O mundo e seu grupo",
+      "pagina_inicial_atual": 8,
+      "secoes_atuais": [
+        "Quem pode ajudar o grupo",
+        "Quem manda e em quem confiar",
+        "Família, professores e profissão",
+        "Estudo, trabalho e vida pessoal",
+        "O que as pessoas comuns veem",
+        "Onde e quando jogar",
+        "Exemplo: a reabertura do depósito"
+      ],
+      "acao": "complementar",
+      "destino_principal": "N02.3",
+      "usos_complementares": [
+        "N02.4",
+        "N02.5",
+        "N02.6",
+        "N03.2"
+      ],
+      "orientacao": "Dar destaque à vida e às relações; variar exemplos e remeter conferências de ficha a seus capítulos."
+    },
+    {
+      "id": "s007",
+      "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+      "sha256": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+      "titulo_atual": "A sessão zero",
+      "capitulo_atual": "O mundo e seu grupo",
+      "pagina_inicial_atual": 12,
+      "secoes_atuais": [
+        "Proponha a campanha",
+        "Escolha como usar Jujutsu Kaisen",
+        "Combine o tom e os limites",
+        "Conecte os personagens",
+        "Confira as fichas iniciais",
+        "Quem interpreta cada personagem",
+        "Organize os encontros",
+        "Prepare o primeiro encontro"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N05.1",
+      "usos_complementares": [
+        "N01.2",
+        "N10.1"
+      ],
+      "orientacao": "Preservar a sessão zero completa; extrair acordos essenciais para começar e administração de várias mesas para a guilda."
+    },
+    {
+      "id": "s009",
+      "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+      "sha256": "6d1b993f5a31771b9f37bf891008a49a13a80d3d36cefeaa92f6a76293b5d62e",
+      "titulo_atual": "Exemplo: uma campanha no bairro",
+      "capitulo_atual": "O mundo e seu grupo",
+      "pagina_inicial_atual": 15,
+      "secoes_atuais": [
+        "Proposta",
+        "Tom e revelações da trama",
+        "Vínculos dos personagens",
+        "Fichas e organização",
+        "Primeira situação",
+        "Revendo os combinados"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N05.1",
+      "usos_complementares": [
+        "N01.2"
+      ],
+      "orientacao": "Reaproveitar o exemplo de campanha junto dos acordos; evitar repetir instruções já explicadas."
+    },
+    {
+      "id": "s001",
+      "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+      "sha256": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+      "titulo_atual": "Preparar uma missão",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 18,
+      "secoes_atuais": [
+        "O que preparar",
+        "Conheça seu grupo",
+        "Escolha o problema e o objetivo",
+        "Fatos e suspeitas",
+        "Crie as pessoas da missão",
+        "Prepare os lugares",
+        "Prepare as pistas",
+        "Prepare os perigos",
+        "Pense nas consequências",
+        "Comece a cena",
+        "Quando falta tempo para preparar",
+        "Confira antes de jogar"
+      ],
+      "acao": "complementar",
+      "destino_principal": "N03.1",
+      "usos_complementares": [
+        "N03.2",
+        "N03.3",
+        "N03.5",
+        "N03.7"
+      ],
+      "orientacao": "Conservar o método; preencher o preparo mínimo e separar as instruções do comentário longo do anexo."
+    },
+    {
+      "id": "s003",
+      "fonte": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+      "sha256": "611968c8afca9a821de5fb1cbf2db1c63671b4f655173865f420437218e4c2c6",
+      "titulo_atual": "Missão: As batidas no anexo",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 22,
+      "secoes_atuais": [
+        "O chamado",
+        "O que aconteceu",
+        "Pessoas envolvidas",
+        "O anexo",
+        "Pistas e descobertas",
+        "O Amontoado",
+        "Depois da missão"
+      ],
+      "acao": "mover",
+      "destino_principal": "N01.4",
+      "usos_complementares": [
+        "N01.7"
+      ],
+      "orientacao": "Unir o preparo preenchido à demonstração e ao mapa; manter uma única versão dos fatos da missão."
+    },
+    {
+      "id": "s013",
+      "fonte": "06 - Redacao do Guia/13-preparar-uma-investigacao.md",
+      "sha256": "bbf006f43478cca0a234542edef8f1583cdaeb99b37cb4e8fd516990c4aa7d18",
+      "titulo_atual": "Preparar uma investigação",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 25,
+      "secoes_atuais": [
+        "Decida o que aconteceu",
+        "O que o grupo precisa descobrir",
+        "Ofereça caminhos até as pistas",
+        "Como encontrar cada pista",
+        "O que acontece se o grupo demorar",
+        "Prepare as reações das pessoas",
+        "Confira as opções do grupo",
+        "Encerre a investigação"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N03.4",
+      "usos_complementares": [
+        "N04.4"
+      ],
+      "orientacao": "Conservar o método de construir a investigação e as fontes alternativas; distinguir preparo de condução."
+    },
+    {
+      "id": "s014",
+      "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+      "sha256": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+      "titulo_atual": "O aviso de reabertura",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 28,
+      "secoes_atuais": [
+        "Antes da missão",
+        "O que aconteceu",
+        "Pessoas e lugares",
+        "As pistas",
+        "Mensagens para abrir a cena",
+        "Abertura",
+        "Conversas e testes",
+        "O que os jogadores podem fazer",
+        "Se o grupo demorar",
+        "Depois da investigação"
+      ],
+      "acao": "mover",
+      "destino_principal": "B1",
+      "usos_complementares": [
+        "N03.4",
+        "N04.3",
+        "N04.4"
+      ],
+      "orientacao": "Usar um trecho como exemplo breve de investigação e negociação; manter o preparo completo consultável."
+    },
+    {
+      "id": "s015",
+      "fonte": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+      "sha256": "f1fb0669012ee8798ac16394812eefd3d9c2165f4c76805c86d1f6dbc1bc6721",
+      "titulo_atual": "Das missões à campanha",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 31,
+      "secoes_atuais": [
+        "Retome o que aconteceu",
+        "Encontre a próxima missão",
+        "Escolha a questão central",
+        "Prepare os próximos passos",
+        "Como o mundo reage",
+        "Dê espaço à vida dos personagens",
+        "O mundo além do grupo",
+        "Encerre o arco",
+        "Quando muda o mestre"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N05.3",
+      "usos_complementares": [
+        "N10.1",
+        "N10.3"
+      ],
+      "orientacao": "Ensinar consequências e próximos assuntos; as particularidades da passagem entre mestres ficam no capítulo 10."
+    },
+    {
+      "id": "s017",
+      "fonte": "06 - Redacao do Guia/17-faccoes-e-reacoes.md",
+      "sha256": "3755945bd06a9ba9350c53e53f5e13889cb76602c454da7bf2ae47d28e7d1415",
+      "titulo_atual": "Facções",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 34,
+      "secoes_atuais": [
+        "Comece com um grupo pequeno",
+        "Defina o objetivo",
+        "Aliados, rivais e parceiros",
+        "Como a facção reage",
+        "Exemplo: dois grupos, uma sala",
+        "Quando agir",
+        "Mostre as consequências",
+        "Nem todos pensam igual",
+        "Atualize suas notas"
+      ],
+      "acao": "complementar",
+      "destino_principal": "N05.4",
+      "usos_complementares": [
+        "N03.2",
+        "A5.3"
+      ],
+      "orientacao": "Conservar objetivos e reações das facções; tornar os exemplos mais variados ao desenvolver o conjunto de inspiração."
+    },
+    {
+      "id": "s018",
+      "fonte": "06 - Redacao do Guia/18-preparar-antagonistas.md",
+      "sha256": "84d7a0c75207656b3ee1281ace88f4a5b3f7805bf613ea692a9061a54107cb02",
+      "titulo_atual": "Preparar antagonistas",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 37,
+      "secoes_atuais": [
+        "O que ele quer e como age",
+        "Exemplo: o dono do relatório",
+        "Deixe o grupo agir contra o plano",
+        "Apresente o antagonista",
+        "Fuga e rendição",
+        "Quando o grupo vence cedo",
+        "Além de vencer ou perder",
+        "Respeite os limites da mesa"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N05.5",
+      "usos_complementares": [
+        "N06.1"
+      ],
+      "orientacao": "Conservar criação, apresentação e reação do antagonista; concentrar limites mecânicos nas consultas de encontro."
+    },
+    {
+      "id": "s019",
+      "fonte": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+      "sha256": "575a822c85398f5cf654c0126cf3e3cf7feb48d6699517cc69020840c8d50fe4",
+      "titulo_atual": "Encerrar arcos e campanhas",
+      "capitulo_atual": "Missões e campanhas",
+      "pagina_inicial_atual": 39,
+      "secoes_atuais": [
+        "O que falta resolver",
+        "Ouça os jogadores",
+        "Prepare o momento decisivo",
+        "Mostre o que mudou",
+        "A cena depois do final",
+        "Um olhar para o futuro",
+        "Quando o grupo precisa parar",
+        "Antes de encerrar"
+      ],
+      "acao": "manter",
+      "destino_principal": "N05.6",
+      "usos_complementares": [
+        "N01.7"
+      ],
+      "orientacao": "Manter desfechos e epílogos abertos às escolhas; aproveitar um fechamento breve no fim da primeira missão."
+    },
+    {
+      "id": "s004",
+      "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+      "sha256": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+      "titulo_atual": "Conduzir uma sessão",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 42,
+      "secoes_atuais": [
+        "A conversa da mesa",
+        "Descreva a cena",
+        "Entenda o que o jogador quer fazer",
+        "Quando pedir um teste",
+        "Sucesso com custo e testes em grupo",
+        "Quando o grupo surpreende você",
+        "Interprete as outras pessoas",
+        "Dê espaço a todos",
+        "Quando passar à próxima cena",
+        "Quando começa o combate",
+        "Dúvidas de regra",
+        "No fim da sessão"
+      ],
+      "acao": "complementar",
+      "destino_principal": "N04.1",
+      "usos_complementares": [
+        "N01.1",
+        "N04.2",
+        "N04.3",
+        "N04.6",
+        "N04.7",
+        "N04.8"
+      ],
+      "orientacao": "Distribuir as orientações por decisão; ampliar conversas e ritmo; aproveitar somente o essencial na entrada."
+    },
+    {
+      "id": "s082",
+      "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "sha256": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+      "titulo_atual": "Exemplos de testes e iniciativa",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 46,
+      "secoes_atuais": [
+        "Escolha a dificuldade",
+        "Sucesso com um custo",
+        "Quando a regra já determina o resultado",
+        "Ajudar um aliado",
+        "Testes de grupo",
+        "A travessia do corredor de serviço",
+        "Usando Contribuição Decisiva",
+        "Esconder durante o combate",
+        "Empates na iniciativa",
+        "Cinco participantes, todos com total 14",
+        "O que anotar"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N04.2",
+      "usos_complementares": [
+        "N04.7",
+        "B1"
+      ],
+      "orientacao": "Manter teste, custo, ajuda e grupo no método; cinco empates e aplicações longas passam a B1."
+    },
+    {
+      "id": "s010",
+      "fonte": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+      "sha256": "b3297b607fb58a7971a43257758c8e164ca3cc106f03b569958d8b1acffdd1f2",
+      "titulo_atual": "Conduzir uma investigação",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 50,
+      "secoes_atuais": [
+        "O que o grupo quer descobrir",
+        "Diga o que a pista revela",
+        "Escolha a regra para a busca",
+        "Exemplos de busca e percepção",
+        "Localizar não é enxergar",
+        "Se a busca falhar",
+        "Se uma pista ficar inacessível",
+        "Se o grupo suspeitar de outra causa",
+        "Reúna as descobertas"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N04.4",
+      "usos_complementares": [
+        "N03.4"
+      ],
+      "orientacao": "Manter condução da descoberta, falha e mudança de abordagem; preparo da investigação é explicado em 3.4."
+    },
+    {
+      "id": "s083",
+      "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+      "sha256": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+      "titulo_atual": "Percepção e pistas",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 53,
+      "secoes_atuais": [
+        "O que o personagem quer descobrir",
+        "Esconder de várias pessoas",
+        "Quando o vigia procura",
+        "Usando visão às cegas",
+        "Ler o Ambiente",
+        "Quando não há nada novo a descobrir",
+        "Estudar e Intuição",
+        "Memória Testemunha",
+        "Sentir Energia com interferência",
+        "Sinais de energia à distância",
+        "O pulso da escadaria",
+        "Comparar uma assinatura",
+        "O que anotar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B1",
+      "usos_complementares": [
+        "N04.4"
+      ],
+      "orientacao": "Preservar todos os casos de percepção; o método mantém a distinção indispensável entre informação, alcance e meios."
+    },
+    {
+      "id": "s011",
+      "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+      "sha256": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+      "titulo_atual": "O cenário e as ideias dos jogadores",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 58,
+      "secoes_atuais": [
+        "Exemplos de movimento e improvisação",
+        "Mostre onde cada um está",
+        "Deslocamento e alcance",
+        "Quanto custa atravessar o terreno",
+        "Visão e cobertura",
+        "Entenda a ideia do jogador",
+        "Carregar, arrastar e arremessar",
+        "Objetos como armas",
+        "Ajudar e distrair",
+        "Até onde vai uma habilidade",
+        "Depois da ação"
+      ],
+      "acao": "complementar",
+      "destino_principal": "N04.5",
+      "usos_complementares": [
+        "N03.3",
+        "B1"
+      ],
+      "orientacao": "Conservar a leitura de posições e meios; mostrar soluções funcionais e remeter cálculos especializados aos casos."
+    },
+    {
+      "id": "s084",
+      "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+      "sha256": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+      "titulo_atual": "Movimento, saltos e quedas",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 62,
+      "secoes_atuais": [
+        "Atravessar uma correnteza",
+        "Saltar até um piso escorregadio",
+        "Passagens estreitas e bagagem",
+        "Cair sobre outra criatura",
+        "Se o alvo desviar",
+        "Se os tamanhos forem muito diferentes",
+        "Criar uma ponte com Obras de Apoio",
+        "Parkour: alcançar e segurar uma borda"
+      ],
+      "acao": "mover",
+      "destino_principal": "B1",
+      "usos_complementares": [
+        "N04.5"
+      ],
+      "orientacao": "Preservar medidas, contas e consequências de percursos e quedas; o corpo ensina como apresentar a situação e escolher a regra."
+    },
+    {
+      "id": "s085",
+      "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+      "titulo_atual": "Ferramentas e improvisação",
+      "capitulo_atual": "Na mesa de jogo",
+      "pagina_inicial_atual": 66,
+      "secoes_atuais": [
+        "Ricochete",
+        "Compare os percursos",
+        "Instalar uma corda",
+        "Abrir uma fechadura",
+        "Algemas e cordas",
+        "Improvisar uma arma parecida com outra",
+        "Improvisar uma arma: a garrafa",
+        "O que anotar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B1",
+      "usos_complementares": [
+        "N04.5"
+      ],
+      "orientacao": "Preservar trajetórias, instalação e armas improvisadas; levar as decisões gerais para o corpo da condução."
+    },
+    {
+      "id": "s021",
+      "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+      "sha256": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+      "titulo_atual": "Vida, energia e outros recursos",
+      "capitulo_atual": "Recursos e socorro",
+      "pagina_inicial_atual": 70,
+      "secoes_atuais": [
+        "Máximo e valor atual",
+        "Como descontar o dano",
+        "Vida e energia temporárias",
+        "Perder Integridade",
+        "Condições e durações",
+        "Quando recuperar os usos",
+        "Registre para continuar depois"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N04.7",
+      "usos_complementares": [
+        "N01.5",
+        "A3"
+      ],
+      "orientacao": "Preservar máximos, valores atuais, temporários, Integridade e duração; fornecer lembretes só dos recursos usados no piloto."
+    },
+    {
+      "id": "s022",
+      "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+      "sha256": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+      "titulo_atual": "Quedas e socorro",
+      "capitulo_atual": "Recursos e socorro",
+      "pagina_inicial_atual": 73,
+      "secoes_atuais": [
+        "Quanto tempo resta para o socorro",
+        "O que anotar quando alguém cai",
+        "Aguentar ou Insistir",
+        "Como contar as rodadas",
+        "Receber dano enquanto está Morrendo",
+        "Quanto falta para se recuperar",
+        "Estabilizar",
+        "Exemplo: duas quedas no mesmo combate",
+        "Sequelas, Cicatrizes e derrota"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N04.7",
+      "usos_complementares": [
+        "N01.5",
+        "A3",
+        "B1"
+      ],
+      "orientacao": "Preservar no corpo o passo a passo de queda e socorro; o exemplo extenso de duas quedas vira caso consultável."
+    },
+    {
+      "id": "s023",
+      "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+      "sha256": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+      "titulo_atual": "Retirada e recuperação",
+      "capitulo_atual": "Recursos e socorro",
+      "pagina_inicial_atual": 77,
+      "secoes_atuais": [
+        "Mostre os caminhos de saída",
+        "Movimento e ataques de oportunidade",
+        "Carregar um aliado",
+        "Socorro durante a retirada",
+        "Recuperar-se da derrota",
+        "Quando o grupo pode descansar",
+        "Corpos e cuidados diferentes",
+        "Descanso curto",
+        "Exaustão e combates do dia",
+        "Descanso longo",
+        "O que acontece depois da derrota",
+        "Antes da próxima missão"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N04.7",
+      "usos_complementares": [
+        "N08.1",
+        "N01.6",
+        "B1"
+      ],
+      "orientacao": "Preservar retirada, recuperação e descansos; aproximar descanso do cotidiano e deixar cálculos extensos em consulta."
+    },
+    {
+      "id": "s056",
+      "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+      "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+      "titulo_atual": "Criar inimigos e preparar encontros",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 82,
+      "secoes_atuais": [
+        "Os passos da preparação",
+        "Regras e escolhas do mestre",
+        "O papel do inimigo",
+        "Comece por uma ficha",
+        "Adapte uma coisa de cada vez",
+        "Conheça as fichas do grupo",
+        "O que cada lado consegue fazer",
+        "Acertos, dano e controle",
+        "O que os jogadores podem fazer",
+        "Vida a zero e fim do combate",
+        "Mostre o perigo e prepare saídas",
+        "Antes e depois do encontro"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.1",
+      "usos_complementares": [
+        "N06.2",
+        "N06.5",
+        "N06.8"
+      ],
+      "orientacao": "Preservar o construtor e o preparo do encontro no corpo; organizar as etapas e concentrar ressalvas repetidas."
+    },
+    {
+      "id": "s059",
+      "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+      "sha256": "580e3ee7b0e0c857a96eee2dfab42ffcd2b1f6f22e5d0da934525dc414441f47",
+      "titulo_atual": "PE, recarga e limites de uso",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 86,
+      "secoes_atuais": [
+        "Primeiro, escolha a habilidade",
+        "Por que o inimigo gastaria tudo de uma vez",
+        "Qual limite de uso escolher",
+        "Dê tempo para o grupo reagir",
+        "Atacar ou se proteger",
+        "Perceber energia e pagar custos",
+        "Confira como o inimigo luta",
+        "Complete as habilidades",
+        "Outro exemplo: Haru e Tessa"
+      ],
+      "acao": "manter",
+      "destino_principal": "N06.3",
+      "usos_complementares": [
+        "B2"
+      ],
+      "orientacao": "Manter a escolha entre PE, recarga e condições no método; cada modelo explica sua função e interações."
+    },
+    {
+      "id": "s060",
+      "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+      "sha256": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d",
+      "titulo_atual": "Montar as habilidades de um inimigo",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 89,
+      "secoes_atuais": [
+        "Conservar, adaptar ou criar",
+        "Defina o tipo de ação",
+        "Escolha como limitar o uso",
+        "Explique os custos",
+        "Confira as interações",
+        "Três exemplos",
+        "Impacto: um feitiço continua sendo feitiço",
+        "Carregador de sinos: Agarrar pelas regras comuns",
+        "Trançar placas: pagar PE não transforma uma proteção em feitiço",
+        "Confira a habilidade antes de jogar"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.2",
+      "usos_complementares": [
+        "N06.3",
+        "B2"
+      ],
+      "orientacao": "Conservar construção e classificação da habilidade; manter um caso acompanhado e encaminhar detalhes dos demais."
+    },
+    {
+      "id": "s074",
+      "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+      "sha256": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+      "titulo_atual": "Escolher os números de um inimigo",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 93,
+      "secoes_atuais": [
+        "Comece pelo que ele faz",
+        "Separe regra existente de número escolhido",
+        "Primeiros valores para comparar",
+        "Precisão e defesa",
+        "Vida e tempo para agir",
+        "Escolha dano junto da frequência",
+        "Controle e recursos",
+        "Termine a ficha antes da mesa"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.4",
+      "usos_complementares": [
+        "B2"
+      ],
+      "orientacao": "Conservar referências de números e seu alcance no corpo; contas completas e premissas ficam no estudo."
+    },
+    {
+      "id": "s100",
+      "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+      "sha256": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+      "titulo_atual": "Inimigos de níveis mais altos",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 97,
+      "secoes_atuais": [
+        "Perfis usados na comparação",
+        "Compare ações, não apenas dados de dano",
+        "Capacidades mudam a comparação",
+        "O que muda em cada faixa de nível",
+        "Use as comparações para preparar o encontro"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.4"
+      ],
+      "orientacao": "Conservar comparação por faixa e suas limitações; levar a advertência útil ao método sem criar escala geral validada."
+    },
+    {
+      "id": "s067",
+      "fonte": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+      "sha256": "a209c7602234bc304ba1bb5165eba40b835f89b8ebeca1fc1f3845cd56dd9813",
+      "titulo_atual": "Preparar chefes e confrontos maiores",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 100,
+      "secoes_atuais": [
+        "O que torna este confronto importante",
+        "Escolha o que precisa melhorar",
+        "Conte oportunidades de agir",
+        "Agir fora do turno",
+        "Anuncie o perigo e dê tempo para reagir",
+        "Mudanças durante a luta",
+        "Controle, partes e aliados",
+        "Confira o fim da luta"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.6",
+      "usos_complementares": [
+        "B2"
+      ],
+      "orientacao": "Manter o método de chefes; comportamentos, ações e sinais continuam explicados antes das aplicações extensas."
+    },
+    {
+      "id": "s078",
+      "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "sha256": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+      "titulo_atual": "Preparar perigos ambientais",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 104,
+      "secoes_atuais": [
+        "Defina a exposição",
+        "Escolha a regra e a dificuldade",
+        "Separe as consequências",
+        "Defina quando o perigo age",
+        "Mostre o perigo e as formas de agir",
+        "Acompanhe condições e doenças",
+        "Concentração, queda e socorro",
+        "Anote o que ficou para depois"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.7",
+      "usos_complementares": [
+        "B2"
+      ],
+      "orientacao": "Conservar preparação do perigo, exposição, resolução, sinais e formas de terminar; aplicações extensas vão a B2."
+    },
+    {
+      "id": "s057",
+      "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+      "titulo_atual": "Avaliar o encontro do Amontoado",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 107,
+      "secoes_atuais": [
+        "O grupo e a missão",
+        "Três inimigos do mesmo nível",
+        "O que as contas mostram",
+        "Vida semelhante não produz o mesmo encontro",
+        "A queda muda as prioridades",
+        "Resultados das simulações",
+        "Reavalie antes de começar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5",
+        "N06.8"
+      ],
+      "orientacao": "Preservar análise e limites da simulação; levar conclusões didáticas ao método sem prometer risco previsto para qualquer mesa."
+    },
+    {
+      "id": "s062",
+      "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+      "titulo_atual": "O Carregador e o corredor de entulho",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 110,
+      "secoes_atuais": [
+        "O que preparar",
+        "O lugar e as medidas",
+        "Atravessar o entulho",
+        "O que o Carregador quer",
+        "O que o grupo pode descobrir",
+        "Agarrar e transportar, passo a passo",
+        "Exemplo de agarrão e arrasto",
+        "Como enfrentar o Carregador",
+        "Amarrar prisioneiros e transportar feridos",
+        "Encerrar a missão",
+        "O que observar ao jogar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ],
+      "orientacao": "Conservar cenário, mapa e escolhas do corredor; método de composição aproveita uma leitura breve do caso."
+    },
+    {
+      "id": "s063",
+      "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "sha256": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+      "titulo_atual": "Carregador de sinos: ficha e Doma",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 117,
+      "secoes_atuais": [
+        "Ficha do encontro",
+        "O lugar em resumo",
+        "Se alguém quiser domar",
+        "Ficha convertida",
+        "Conduzir pelo chão",
+        "Depois da Doma",
+        "Registro para a mesa"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.2",
+        "N09.4"
+      ],
+      "orientacao": "Conservar ficha do Carregador e conversão de Doma; nenhuma dessas fichas é substituída por resumo."
+    },
+    {
+      "id": "s064",
+      "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "sha256": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+      "titulo_atual": "A passarela e o guincho",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 121,
+      "secoes_atuais": [
+        "Prepare a situação",
+        "Desenhe o lugar",
+        "Mostre o risco antes de contar o tempo",
+        "Três rodadas até a ruptura",
+        "Como impedir a ruptura",
+        "Desligar o guincho",
+        "Romper a transmissão",
+        "Evitar o trecho móvel",
+        "Se a ruptura acontecer",
+        "Socorrer e retirar o grupo",
+        "Exemplos de condução",
+        "Resumo do perigo"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7"
+      ],
+      "orientacao": "Conservar o perigo e seu cronograma completos; apresentar no método uma sequência curta de preparação/intervenção."
+    },
+    {
+      "id": "s065",
+      "fonte": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb",
+      "titulo_atual": "Combinar inimigos e perigos do cenário",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 127,
+      "secoes_atuais": [
+        "Compare uma mudança de cada vez",
+        "Compare o que cada ação permite",
+        "Confira como os riscos se combinam",
+        "Ofereça informação que permita escolher",
+        "Confira o que ainda falta resolver",
+        "O que observar na avaliação"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N06.5",
+      "usos_complementares": [
+        "B2"
+      ],
+      "orientacao": "Manter a combinação de inimigos e ambiente no método; comparação extensa acompanha seus casos em B2."
+    },
+    {
+      "id": "s066",
+      "fonte": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909",
+      "titulo_atual": "O Carregador e a saída que fecha",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 130,
+      "secoes_atuais": [
+        "Prepare a versão que será usada",
+        "Mapa da saída",
+        "Apresente a situação",
+        "Ficha do fechamento",
+        "Como agir sobre o portão",
+        "Exemplos de escolhas",
+        "Encerrar a missão"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ],
+      "orientacao": "Conservar mapa, fechamento do portão e caminhos de resposta; citar como variação com objetivo."
+    },
+    {
+      "id": "s071",
+      "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "sha256": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b",
+      "titulo_atual": "Sineiro do Recolhimento",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 134,
+      "secoes_atuais": [
+        "O que mostrar aos jogadores",
+        "Ficha do confronto",
+        "Conduzir a presa",
+        "Dobrar o sino",
+        "Preparar o local",
+        "Exemplo de rodada",
+        "Ferimentos e derrota"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.6"
+      ],
+      "orientacao": "Conservar ficha, cenário e exemplo de chefe; referenciar a função de suas respostas no método."
+    },
+    {
+      "id": "s072",
+      "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+      "sha256": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+      "titulo_atual": "Sineiro: ficha após a Doma",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 137,
+      "secoes_atuais": [
+        "O que muda com a Doma",
+        "Aquisição",
+        "Ficha da entidade",
+        "Talentos",
+        "Condução urgente",
+        "Dobrar o sino",
+        "Recuperar e comandar o Sineiro",
+        "O que acompanhar durante a luta"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N09.4",
+        "N09.6"
+      ],
+      "orientacao": "Manter ficha do Sineiro após Doma junto do caso e remeter a ela na aquisição de entidades."
+    },
+    {
+      "id": "s073",
+      "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "sha256": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+      "titulo_atual": "Retirar a caixa, proteger a equipe",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 141,
+      "secoes_atuais": [
+        "Preparar a mesa",
+        "Personagens usados",
+        "Primeiro exemplo: abrir uma saída",
+        "Rodada 1 — a captura",
+        "Rodada 2 — proteger quem ficou",
+        "Rodada 3 — encerrar a oposição",
+        "Segundo exemplo: a interrupção falha",
+        "Rina escapa, mas Mei continua em risco",
+        "Insistir permite agir; não encerra Morrendo",
+        "Duas curas, um mesmo prazo",
+        "O que observar ao usar o exemplo"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.6",
+        "N04.7"
+      ],
+      "orientacao": "Conservar rodadas e socorro; resumir a lição de objetivo e resposta no capítulo de chefes."
+    },
+    {
+      "id": "s075",
+      "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+      "titulo_atual": "Ren e Sora: atacante e apoio",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 146,
+      "secoes_atuais": [
+        "O que estas fichas representam",
+        "Recursos que os dois possuem",
+        "Ren",
+        "Espada Longa",
+        "Fenda em marcha",
+        "Prioridades e escolhas",
+        "Sora",
+        "Fio de impulso",
+        "Remendo",
+        "Prioridades e escolhas",
+        "Integridade, derrota e continuidade"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.2",
+        "N06.3"
+      ],
+      "orientacao": "Preservar as duas fichas completas; um resumo pode ilustrar atacante e apoio no método."
+    },
+    {
+      "id": "s076",
+      "fonte": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "sha256": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900",
+      "titulo_atual": "Escolher quem enfrentar primeiro",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 150,
+      "secoes_atuais": [
+        "O espaço e as informações",
+        "Rodada 1 — o apoio já está em campo",
+        "Rodada 2 — curar ocupa o lugar do reforço",
+        "Rodada 3 — Ren fica sem apoio",
+        "Ren ou Sora: quem atacar primeiro?",
+        "Quanto o apoio acrescenta"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5"
+      ],
+      "orientacao": "Manter confronto e comparação de alvos; usar a conclusão sobre apoio como exemplo de composição."
+    },
+    {
+      "id": "s101",
+      "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "sha256": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+      "titulo_atual": "Haru, Vigia e Tessa",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 153,
+      "secoes_atuais": [
+        "Características dos três guardas",
+        "Energia e respostas",
+        "Haru",
+        "Espada Longa",
+        "Fita de contenção",
+        "Quando Haru usa a técnica",
+        "Vigia",
+        "Tessa",
+        "Integridade e encerramento"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.3",
+        "N06.5"
+      ],
+      "orientacao": "Preservar fichas, custos e Reações dos guardas; apresentar no método a função de suas escolhas."
+    },
+    {
+      "id": "s102",
+      "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+      "titulo_atual": "Disputa pelo arquivo",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 157,
+      "secoes_atuais": [
+        "O lugar e o objetivo",
+        "Como os guardas usam o espaço",
+        "O que a comparação numérica mede",
+        "O perigo da Fita de contenção",
+        "Socorrer ou atacar?",
+        "Queda não é derrota",
+        "Registro para outro mestre"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.5",
+        "N06.8"
+      ],
+      "orientacao": "Conservar o arquivo e a economia de ações; uma conclusão curta ajuda a avaliar terreno e controle."
+    },
+    {
+      "id": "s079",
+      "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+      "titulo_atual": "O pó na sala de conservação",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 161,
+      "secoes_atuais": [
+        "Prepare a área e apresente o risco",
+        "Ficha do perigo",
+        "Resolva dano e condição separadamente",
+        "Parar a máquina e limpar a sala",
+        "Exemplo: sair da sala e receber ajuda",
+        "Se a exposição levar a zero de vida",
+        "O que anotar ao terminar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7",
+        "N10.3"
+      ],
+      "orientacao": "Conservar poeira, condições e saída; a passagem entre mestres referencia o estado resultante."
+    },
+    {
+      "id": "s103",
+      "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+      "titulo_atual": "A febre dos fios",
+      "capitulo_atual": "Inimigos e perigos",
+      "pagina_inicial_atual": 166,
+      "secoes_atuais": [
+        "Informe antes do contato",
+        "Transmissão e evolução",
+        "Resolva cada crise",
+        "Tratar a doença e isolar o casulo",
+        "Exemplo: do contato à recuperação",
+        "Acompanhar a doença entre missões"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "N06.7",
+        "N08.1"
+      ],
+      "orientacao": "Preservar doença, evolução e tratamento completos; o método mantém o acompanhamento de efeitos prolongados."
+    },
+    {
+      "id": "s025",
+      "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+      "sha256": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+      "titulo_atual": "Conferir personagens",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 171,
+      "secoes_atuais": [
+        "Comece pela proposta da campanha",
+        "Confira cada parte da ficha",
+        "Deixe as capacidades prontas para usar",
+        "Corrija o que for necessário",
+        "Subir de nível não é descansar",
+        "Registre como o personagem aprendeu",
+        "Antes da próxima missão"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.1",
+      "usos_complementares": [
+        "N01.2",
+        "N07.6"
+      ],
+      "orientacao": "Conservar conferência e evolução da ficha; extrair somente o necessário antes da primeira missão."
+    },
+    {
+      "id": "s026",
+      "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+      "sha256": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+      "titulo_atual": "Vínculos e mudanças do personagem",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 173,
+      "secoes_atuais": [
+        "Quem faz parte da história?",
+        "Traga as relações para a mesa",
+        "Dê espaço a todos os personagens",
+        "Não faça de todo contato uma missão",
+        "O que um vínculo oferece",
+        "Atualize a relação depois do jogo",
+        "Quando uma perda afeta a ficha",
+        "Encarnado: a vida de outra pessoa",
+        "Corpo Amaldiçoado: consciência e cuidado"
+      ],
+      "acao": "mover",
+      "destino_principal": "N05.2",
+      "usos_complementares": [
+        "N02.4",
+        "N07.2"
+      ],
+      "orientacao": "Vínculos gerais passam à campanha; particularidades de Encarnado e Corpo Amaldiçoado continuam junto dos personagens."
+    },
+    {
+      "id": "s027",
+      "fonte": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+      "sha256": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+      "titulo_atual": "Convivência do Receptáculo",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 176,
+      "secoes_atuais": [
+        "Quem interpreta cada voz?",
+        "Quem é a outra presença?",
+        "Coexistência ou Conflito",
+        "Uma cena de cooperação",
+        "Uma cena de conflito",
+        "Capacidades em jogo",
+        "Divida o tempo de cena",
+        "Quando a relação muda",
+        "A presença em mesas com outros mestres"
+      ],
+      "acao": "manter",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N05.2",
+        "A5.4"
+      ],
+      "orientacao": "Conservar acordo de vozes, participação e modalidades; recomendação de voz do mestre continua dependente do acordo."
+    },
+    {
+      "id": "s089",
+      "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+      "sha256": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+      "titulo_atual": "Vida rolada e uma família própria",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 179,
+      "secoes_atuais": [
+        "Escolha como calcular a vida",
+        "A família Arata",
+        "Consulta Preparada",
+        "Conferência de Oficina",
+        "As capacidades da família em jogo",
+        "O que observar ao jogar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.3"
+      ],
+      "orientacao": "Preservar opções e família Arata; extrair orientação de personalização. A CD 16 permanece questão de conferência, sem alteração aqui."
+    },
+    {
+      "id": "s090",
+      "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+      "titulo_atual": "Reparar um personagem de corpo construído",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 182,
+      "secoes_atuais": [
+        "Escolha o Ofício pelo trabalho necessário",
+        "O atendimento de Ena",
+        "Reparar ou descansar?",
+        "Reparadores de Classes diferentes",
+        "Reparo em combate e socorro"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N08.3",
+        "B3"
+      ],
+      "orientacao": "Conservar cuidado e diferença entre reparar e descansar; caso completo de atendimento fica em B3."
+    },
+    {
+      "id": "s091",
+      "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "sha256": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+      "titulo_atual": "Restrição corporal: participação e cuidados",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 184,
+      "secoes_atuais": [
+        "A ficha de Nilo",
+        "Participar à distância",
+        "O corpo continua presente na história",
+        "Prepare o cuidado de cada corpo",
+        "Cuidados com cada condição",
+        "Exposição no Corpo Debilitado",
+        "Cura no Corpo Quebradiço",
+        "Recuperação no Corpo Exaurido",
+        "Registro para a missão seguinte"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.2",
+      "usos_complementares": [
+        "N02.4",
+        "B3"
+      ],
+      "orientacao": "Conservar participação e cuidados no corpo; ficha de Nilo e casos específicos completos vão a B3."
+    },
+    {
+      "id": "s092",
+      "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+      "sha256": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+      "titulo_atual": "Reserva Condensada: acordo por personagem",
+      "capitulo_atual": "Os personagens",
+      "pagina_inicial_atual": 187,
+      "secoes_atuais": [
+        "Quem pode escolher",
+        "O que registrar na ficha",
+        "Conferir o acordo",
+        "Histórico da proposta"
+      ],
+      "acao": "manter",
+      "destino_principal": "N07.3",
+      "usos_complementares": [
+        "A5.5"
+      ],
+      "orientacao": "Manter só a habilidade publicada e seu acordo por personagem; histórico de depósitos e retiradas segue fora da leitura."
+    },
+    {
+      "id": "s029",
+      "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+      "sha256": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+      "titulo_atual": "Avaliar técnicas e criações",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 189,
+      "secoes_atuais": [
+        "Comece pelo resultado",
+        "O que o jogador está pedindo?",
+        "Confira a aquisição",
+        "Confira a capacidade passo a passo",
+        "1. Acesso e funcionamento",
+        "2. Custos e limites",
+        "3. Um exemplo de uso",
+        "4. Limites e combinações",
+        "Explique a decisão",
+        "Registre e acompanhe"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.4",
+      "usos_complementares": [
+        "N07.6",
+        "A5.5"
+      ],
+      "orientacao": "Preservar avaliação passo a passo, um uso e um limite; aproximar a decisão de seu registro e revisão."
+    },
+    {
+      "id": "s030",
+      "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "sha256": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+      "titulo_atual": "Exemplos de avaliação de poderes",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 192,
+      "secoes_atuais": [
+        "Dano por Toque",
+        "Prender com fios",
+        "Obter informações de um objeto",
+        "Sentir vibrações",
+        "Imunidade e cura",
+        "Uma aposta real",
+        "Criar menores de Origem",
+        "Restrições que fazem diferença"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.4",
+      "usos_complementares": [
+        "B3"
+      ],
+      "orientacao": "Manter um exemplo acompanhado no método; os outros pareceres ficam localizáveis por problema em B3."
+    },
+    {
+      "id": "s031",
+      "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "sha256": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+      "titulo_atual": "Avaliar poderes avançados",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 195,
+      "secoes_atuais": [
+        "Liberação e Técnica Máxima",
+        "Exemplo de Liberação",
+        "Máxima de dano",
+        "Máxima de cura",
+        "Máxima de utilidade",
+        "Recarga opcional",
+        "Domínio: aparência, Acerto e Efeito",
+        "Exemplo: Galeria de Vidro",
+        "Exemplo: Sala de Trégua",
+        "O CE4 da Restrição corporal"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N07.5",
+      "usos_complementares": [
+        "B3"
+      ],
+      "orientacao": "Conservar a orientação de Liberação, Máxima, Domínio e CE4; montagens e usos completos permanecem em B3."
+    },
+    {
+      "id": "s033",
+      "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+      "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+      "titulo_atual": "Dúvidas sobre técnicas e capacidades",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 198,
+      "secoes_atuais": [
+        "A troca do Emanador",
+        "Comprar uma Melhoria mais de uma vez",
+        "Definir os limites de uma Cortina",
+        "A situação do Traje",
+        "Sem Técnica e Técnica Marcial",
+        "Armazenamento de energia"
+      ],
+      "acao": "mover",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.3",
+        "N07.4",
+        "N07.5"
+      ],
+      "orientacao": "Organizar casos específicos por dúvida; levar ao corpo as conclusões necessárias para entender o método."
+    },
+    {
+      "id": "s093",
+      "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+      "sha256": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+      "titulo_atual": "Ampliar uma mescla e trocar sua Forma",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 201,
+      "secoes_atuais": [
+        "O feitiço de Yara",
+        "Prepare as duas Classes",
+        "Exemplo de Ampliação",
+        "Trocar Aura por Explosão",
+        "Exemplo com Forma Fluida",
+        "O que a troca não autoriza"
+      ],
+      "acao": "mover",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.4",
+        "N07.5"
+      ],
+      "orientacao": "Conservar montagem, Ampliação e troca de Forma de Yara; remeter a partir da dúvida específica."
+    },
+    {
+      "id": "s094",
+      "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+      "sha256": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+      "titulo_atual": "Repetir Melhorias e definir Restrições",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 204,
+      "secoes_atuais": [
+        "Firmeza para perícias e Ofícios",
+        "Exemplo de uso",
+        "Os limites da repetição",
+        "Combinar efeitos",
+        "Condicional: uma fonte de água",
+        "A condição de Lâmina de canal",
+        "Montagem e uso",
+        "Restrição Própria: Matriz de chão",
+        "Reveja as Restrições depois de jogar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.4"
+      ],
+      "orientacao": "Conservar repetição de Melhorias, Condicional e Restrição Própria; extrair critérios necessários ao método geral."
+    },
+    {
+      "id": "s095",
+      "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+      "sha256": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+      "titulo_atual": "Efeitos de cena e cancelamento",
+      "capitulo_atual": "Avaliar técnicas e criações",
+      "pagina_inicial_atual": 207,
+      "secoes_atuais": [
+        "Luz de Oficina, antes da sessão",
+        "Quando a investigação vira combate",
+        "Preparar Desarma o Feitiço",
+        "Cancelar um efeito que já tem Classe",
+        "Cancelar um efeito sem Classe definida",
+        "O que Desarma o Feitiço não pode cancelar"
+      ],
+      "acao": "mover",
+      "destino_principal": "B3",
+      "usos_complementares": [
+        "N07.5",
+        "N04.5"
+      ],
+      "orientacao": "Conservar efeito de cena e cancelamento completos, com referências junto da orientação geral."
+    },
+    {
+      "id": "s039",
+      "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+      "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+      "titulo_atual": "Atividades e tempo entre missões",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 211,
+      "secoes_atuais": [
+        "Escolha como apresentar a atividade",
+        "Dedicação e espera",
+        "Quanto tempo cada ficha recebe",
+        "Quem pode usar as horas",
+        "Saldo para o ciclo seguinte",
+        "Missões e trabalhos pendentes",
+        "Ajustar o ciclo",
+        "Campanha fechada",
+        "O que cada atividade oferece",
+        "Descanso e troca de mestre"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N08.2",
+      "usos_complementares": [
+        "N08.1",
+        "N10.2"
+      ],
+      "orientacao": "Conservar integralmente as condições da política; concentrar sua exposição em 8.2 e manter adaptação de campanha fechada ao lado."
+    },
+    {
+      "id": "s034",
+      "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+      "sha256": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+      "titulo_atual": "Ofícios, fabricação e reparos",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 214,
+      "secoes_atuais": [
+        "Treino, ferramentas e materiais",
+        "Combine o projeto antes de começar",
+        "Decida se precisa de teste",
+        "Caso: etiquetas para um depósito",
+        "Caso: um reparo interrompido",
+        "Ajuda e divisão de trabalho",
+        "Reparar, reconstruir e melhorar",
+        "Trabalho, tratamento e aprendizado"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N08.3",
+      "usos_complementares": [
+        "N08.2",
+        "B4"
+      ],
+      "orientacao": "Conservar projeto, materiais, teste e falha; usar um trabalho acompanhado e evitar duplicação dos casos completos."
+    },
+    {
+      "id": "s035",
+      "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+      "sha256": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+      "titulo_atual": "Comprar, emprestar e contratar",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 218,
+      "secoes_atuais": [
+        "Antes de comprar",
+        "Compra inicial e reposição",
+        "Repor os suprimentos",
+        "Empréstimos e itens do grupo",
+        "Comprar um serviço",
+        "Negociação e revenda"
+      ],
+      "acao": "manter",
+      "destino_principal": "N08.4",
+      "usos_complementares": [
+        "A5.6"
+      ],
+      "orientacao": "Preservar compra, reposição, empréstimo, serviço e venda; apresentar escolhas e relações antes da conferência de custos."
+    },
+    {
+      "id": "s036",
+      "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+      "sha256": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+      "titulo_atual": "Ferramentas e objetos amaldiçoados",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 220,
+      "secoes_atuais": [
+        "Apresente a ferramenta",
+        "Usar a ferramenta",
+        "Identificar uma peça desconhecida",
+        "Criar a ficha e fabricar a peça",
+        "Acompanhar o Desgaste",
+        "Preparar um objeto perigoso"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N08.5",
+      "usos_complementares": [
+        "N08.3",
+        "B4"
+      ],
+      "orientacao": "Manter uso, identificação, Desgaste, criação e objeto perigoso; casos próprios ficam em B4."
+    },
+    {
+      "id": "s096",
+      "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+      "sha256": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+      "titulo_atual": "Uma ferramenta nova: Anel de Testemunho",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 222,
+      "secoes_atuais": [
+        "A função da peça",
+        "Por que propor grau 3",
+        "Exemplo de uso",
+        "Identificar o exemplar da oficina",
+        "Contratar a fabricação",
+        "Trabalho, falha e entrega"
+      ],
+      "acao": "mover",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.3",
+        "N08.5"
+      ],
+      "orientacao": "Conservar Anel, identificação e projeto; um trecho acompanha o ensino de fabricar sem duplicar o caso."
+    },
+    {
+      "id": "s097",
+      "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+      "sha256": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+      "titulo_atual": "Empréstimo familiar e venda com condição",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 226,
+      "secoes_atuais": [
+        "Uma peça do cofre",
+        "Um objeto próprio para vender",
+        "Usar Palavra Empenhada",
+        "Cumprir o acordo e receber",
+        "Devolver a kunai e registrar a venda"
+      ],
+      "acao": "mover",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.4"
+      ],
+      "orientacao": "Manter empréstimo e negociação como aplicação; o método conserva critérios de acesso e acordo."
+    },
+    {
+      "id": "s098",
+      "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+      "sha256": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+      "titulo_atual": "Um objeto selado: a Pastilha do Último Aviso",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 228,
+      "secoes_atuais": [
+        "O que será transportado",
+        "O selo e o chamado da Pastilha",
+        "O que o grupo sabe",
+        "Examinar, retirar e renovar",
+        "Se alguém ingerir",
+        "Destruição e entrega segura"
+      ],
+      "acao": "mover",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.5"
+      ],
+      "orientacao": "Preservar objeto, selo, escolhas e consequências; não usar seu efeito como regra geral de todo objeto selado."
+    },
+    {
+      "id": "s037",
+      "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+      "sha256": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+      "titulo_atual": "Encerrar a missão e entregar recompensas",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 230,
+      "secoes_atuais": [
+        "Anuncie o tamanho da missão",
+        "Falha e resultados parciais",
+        "Calcule a experiência semanal",
+        "Atualize a ficha e registre os feitos",
+        "Remuneração opcional",
+        "Recompensa por mestrar",
+        "Registre o resultado da missão"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N08.6",
+      "usos_complementares": [
+        "N01.7",
+        "N10.4"
+      ],
+      "orientacao": "Preservar XP semanal por jogador, resultados parciais e remuneração opcional; o capítulo 10 referencia sem criar política distinta."
+    },
+    {
+      "id": "s099",
+      "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+      "sha256": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+      "titulo_atual": "Feitos do Limiar e promoção de Grau",
+      "capitulo_atual": "Entre missões",
+      "pagina_inicial_atual": 232,
+      "secoes_atuais": [
+        "O resgate de Mako",
+        "Fazer Mako voltar a agir",
+        "Conferir todos os requisitos do feito",
+        "Quando o socorro não conta como feito",
+        "Aplicar o XP no encerramento",
+        "Decidir a promoção de Grau"
+      ],
+      "acao": "mover",
+      "destino_principal": "B4",
+      "usos_complementares": [
+        "N08.6"
+      ],
+      "orientacao": "Conservar feito e promoção completos; explicar no capítulo como conferir requisitos e não confundir os controles de recompensa."
+    },
+    {
+      "id": "s041",
+      "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+      "sha256": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+      "titulo_atual": "Pactos e Promessas",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 236,
+      "secoes_atuais": [
+        "Comece pelo pedido",
+        "Confira se o preço muda alguma coisa",
+        "Pactos permanentes",
+        "Pactos temporários",
+        "Mostrar a mão, turno a turno",
+        "Uma Reação depois dos dados",
+        "Pactos de restrição",
+        "Overtime: jornada e hora extra",
+        "Promessas: combine as obrigações",
+        "Registre para o próximo mestre"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.1",
+      "usos_complementares": [
+        "N09.2",
+        "N09.3",
+        "A5.8"
+      ],
+      "orientacao": "Conservar categorias e funcionamento publicados; Overtime ou outro exemplo publicado da própria fonte introduz a troca."
+    },
+    {
+      "id": "s047",
+      "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+      "sha256": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+      "titulo_atual": "Desenvolver uma ideia de Pacto",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 239,
+      "secoes_atuais": [
+        "Explique o que o Pacto muda",
+        "As ideias desenvolvidas neste Guia",
+        "O que conferir nas sete ideias",
+        "Pacifismo impraticável",
+        "Liberação irregular",
+        "Energia alternada",
+        "Magnetismo energético",
+        "Fragmentação",
+        "Despertar do corpo",
+        "Reserva vital",
+        "Teste o funcionamento antes de aprovar",
+        "Exemplo de liberação irregular"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.2",
+      "usos_complementares": [
+        "B5"
+      ],
+      "orientacao": "Preservar método e recorte das sete ideias; apontar para os dois modelos sem desenvolver os três adiados."
+    },
+    {
+      "id": "s048",
+      "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+      "sha256": "2fa53f0064d52e6ba20afeba643acea0f4b2d7a851e270dd6f0316f82f108d1c",
+      "titulo_atual": "Pacifismo impraticável",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 242,
+      "secoes_atuais": [
+        "O paradoxo",
+        "Consulta rápida",
+        "A consequência de uma ação",
+        "Quem conta como pessoa",
+        "O que o impedimento bloqueia",
+        "Quando a obrigação é cumprida",
+        "O benefício de cada personagem",
+        "A aplicação antes do Pacto",
+        "Condução pela matéria",
+        "Na mesa",
+        "Durante a suspensão",
+        "Prazo e suspensão do benefício",
+        "Encerrar o Pacto",
+        "Antes de usar este Pacto"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.2"
+      ],
+      "orientacao": "Preservar o Pacifismo completo, benefício particular e saídas aprovadas; só a lição da avaliação aparece no método."
+    },
+    {
+      "id": "s049",
+      "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+      "sha256": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c",
+      "titulo_atual": "Liberação irregular",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 248,
+      "secoes_atuais": [
+        "A troca",
+        "Consulta rápida",
+        "Reserva e limite de gasto",
+        "Começo da sequência e começo do turno",
+        "Refluxo",
+        "Manutenção e efeitos já pagos",
+        "Mudanças de máximo",
+        "Fora de combate",
+        "Descanso, adesão e encerramento",
+        "Registro de mesa"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.2"
+      ],
+      "orientacao": "Preservar Liberação irregular e Refluxo completos; exemplo permanece experimental e consultável."
+    },
+    {
+      "id": "s050",
+      "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+      "sha256": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+      "titulo_atual": "A Promessa do arquivo",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 252,
+      "secoes_atuais": [
+        "Por que fazer uma Promessa",
+        "O acordo antes da aceitação",
+        "Como decidir o que aconteceu",
+        "Consequência de quebra",
+        "O que encerra o bloqueio",
+        "Se Akira quebrar",
+        "Se Lia quebrar",
+        "Depois de cumprir a reparação",
+        "Três exemplos de desfecho",
+        "O acordo é cumprido",
+        "Akira decide ficar com o dossiê",
+        "Akira é impedido de devolver",
+        "O que registrar para outra mesa",
+        "Como adaptar o exemplo"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.3",
+      "usos_complementares": [
+        "B5"
+      ],
+      "orientacao": "Conservar termos, reparação e consequência completa da Promessa no capítulo; desfechos adicionais e contas ficam no caso."
+    },
+    {
+      "id": "s043",
+      "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+      "sha256": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+      "titulo_atual": "Obter e criar entidades",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 257,
+      "secoes_atuais": [
+        "Escolha a forma de aquisição",
+        "Prepare a ficha antes da tentativa",
+        "Preparar uma lista de ritual",
+        "Domar uma maldição",
+        "Criar uma entidade",
+        "Resolva o teste de criação",
+        "Ajuda e nova tentativa",
+        "Conclua e acompanhe a evolução",
+        "Reconstruir",
+        "Transferir ou herdar",
+        "Acompanhar a entidade entre cenas",
+        "Quando o invocador deixa de agir"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.4",
+      "usos_complementares": [
+        "N09.6",
+        "B5"
+      ],
+      "orientacao": "Conservar todas as formas e passos de aquisição no capítulo; ilustrações longas ficam nos casos completos."
+    },
+    {
+      "id": "s045",
+      "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+      "titulo_atual": "Tempo e materiais para criar entidades",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 262,
+      "secoes_atuais": [
+        "Comece com uma referência comum",
+        "Registre horas, apresente etapas",
+        "Calcule os materiais antes de começar",
+        "O que acontece na falha",
+        "Quando o mestre quiser detalhar mais",
+        "Trabalhar com ajuda",
+        "Exemplo: falhar e tentar de novo"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.5",
+      "usos_complementares": [
+        "B5",
+        "N08.2"
+      ],
+      "orientacao": "Manter tabela de trabalho, orçamento por projeto, falha e detalhamento opcional; exemplo longo alimenta B5."
+    },
+    {
+      "id": "s046",
+      "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+      "sha256": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191",
+      "titulo_atual": "Reconstruir, transferir e herdar entidades",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 265,
+      "secoes_atuais": [
+        "Reconstruir para a Classe seguinte",
+        "Teste e resultado",
+        "Exemplo: continuar com a mesma entidade",
+        "Mais de uma Classe",
+        "Transferir ou herdar",
+        "Quem registra as horas",
+        "Teste e resultado da transferência",
+        "Exemplo: mudar o invocador",
+        "Quando o dono morreu",
+        "Adaptar e registrar o projeto"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N09.6",
+      "usos_complementares": [
+        "B5"
+      ],
+      "orientacao": "Manter cálculo de reconstrução e transferência, requisitos e falha; os acompanhamentos completos ficam em B5."
+    },
+    {
+      "id": "s051",
+      "fonte": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+      "sha256": "073874080ae38f16be4665142fd27a954587aed3f49157b408622daa5573bada",
+      "titulo_atual": "A prova do Cão de sombra",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 268,
+      "secoes_atuais": [
+        "A entrada da lista",
+        "O espaço",
+        "Ficha do cão",
+        "Mordida",
+        "Mordida precisa",
+        "Farejador",
+        "O turno do adversário",
+        "Dois ataques de Kaito",
+        "Ajuda, desistência e socorro",
+        "Depois da prova",
+        "Registro preenchido de uma vitória",
+        "Como preparar outra prova"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.4"
+      ],
+      "orientacao": "Conservar prova de ritual, mapa, ficha e resultados; usar no método um resumo suficiente da forma de aquisição."
+    },
+    {
+      "id": "s052",
+      "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+      "sha256": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+      "titulo_atual": "Domar o Amontoado do depósito",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 273,
+      "secoes_atuais": [
+        "Antes da luta",
+        "As duas fichas",
+        "Conduza o encontro",
+        "O golpe que permite a tentativa",
+        "A submissão",
+        "Depois de conseguir domar",
+        "Religar e dar uma tarefa",
+        "Usar a especial com a reserva vazia",
+        "Tentar antes da derrota",
+        "Registro para a próxima mesa"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.4",
+        "N09.6"
+      ],
+      "orientacao": "Conservar Doma, condições e ficha convertida; explicar seus passos no método e citar este estudo como aplicação."
+    },
+    {
+      "id": "s053",
+      "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+      "sha256": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+      "titulo_atual": "Construir e evoluir o Escriba de campo",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 279,
+      "secoes_atuais": [
+        "Comece pela função",
+        "A ficha no nível 5",
+        "Escolha as Famílias",
+        "As habilidades conhecidas",
+        "Agulha de tinta",
+        "Agulha guiada",
+        "Agulha perfurante",
+        "Executar uma especial",
+        "O poder próprio: Retrato de referência",
+        "Quando o pedido excede os limites",
+        "Um turno com a ficha",
+        "A evolução para o nível 6",
+        "Os próximos níveis",
+        "Registro e revisão"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.4",
+        "N09.6"
+      ],
+      "orientacao": "Conservar construção e evolução do Escriba; extrair um exemplo curto para ensinar as escolhas da criação."
+    },
+    {
+      "id": "s054",
+      "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+      "sha256": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+      "titulo_atual": "Transporte com entidades",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 284,
+      "secoes_atuais": [
+        "O que precisa caber na ficha",
+        "A Mula de dobra",
+        "Talento proposto: Albarda de papel",
+        "A conta de um passageiro",
+        "Montar e sair de perigo",
+        "Uma tarefa que pode continuar",
+        "Quando Ren fica inconsciente",
+        "Se houvesse uma especial aguardando",
+        "Recolher não guarda o passageiro",
+        "Quando o invocador morre",
+        "A maldição livre",
+        "Registro de uma retirada"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.6",
+        "N04.7"
+      ],
+      "orientacao": "Conservar transporte, estados e consequências para passageiros; levar os cuidados gerais ao método correspondente."
+    },
+    {
+      "id": "s055",
+      "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+      "titulo_atual": "Fabricar e evoluir o Vigia do depósito",
+      "capitulo_atual": "Pactos e entidades",
+      "pagina_inicial_atual": 290,
+      "secoes_atuais": [
+        "O resultado antes do trabalho",
+        "Ficha entregue no nível 9",
+        "Agulha de tinta",
+        "Agulha precisa",
+        "Instinto e Farejador",
+        "Trabalho, falha e entrega",
+        "A primeira manifestação",
+        "Até o limite da Classe",
+        "Reconstruir para Classe 4",
+        "Transferir sem fabricar outra criatura",
+        "Se fosse um corpo de criação",
+        "Conferência para a próxima mesa"
+      ],
+      "acao": "mover",
+      "destino_principal": "B5",
+      "usos_complementares": [
+        "N09.5",
+        "N09.6"
+      ],
+      "orientacao": "Manter fabricação e evolução completas; usar como aplicação das tabelas de trabalho e reconstrução."
+    },
+    {
+      "id": "s080",
+      "fonte": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+      "sha256": "e416206de56ff63b0acbe7ac3855f84662f0e2f156d3cef94c9ccf047b49a48f",
+      "titulo_atual": "Registros para a campanha",
+      "capitulo_atual": "Registros da campanha",
+      "pagina_inicial_atual": 295,
+      "secoes_atuais": [
+        "Antes e durante a missão",
+        "Pessoas, fichas e decisões",
+        "Projetos, tempo e aquisições",
+        "Ameaças e ambiente",
+        "Ligue os registros pelo assunto",
+        "Três momentos de conferência",
+        "Prepare a próxima sessão",
+        "Ouça o grupo e divida as tarefas"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N10.4",
+      "usos_complementares": [
+        "N10.5",
+        "C2",
+        "A4"
+      ],
+      "orientacao": "Usar a seleção de folhas por necessidade; reduzir repetição de instruções de cada formulário e extrair a consulta por problema."
+    },
+    {
+      "id": "s081",
+      "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+      "sha256": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+      "titulo_atual": "Passar a missão entre mestres",
+      "capitulo_atual": "Registros da campanha",
+      "pagina_inicial_atual": 298,
+      "secoes_atuais": [
+        "Resumo da missão",
+        "Como estão os personagens",
+        "O socorro de Mei",
+        "O lugar e o próximo perigo",
+        "Antes de retomar",
+        "Uma retomada possível",
+        "Depois do socorro",
+        "Melhorar o registro com o grupo"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N10.3",
+      "usos_complementares": [
+        "B1",
+        "A4"
+      ],
+      "orientacao": "Manter uma passagem curta e suficiente no capítulo; preservar a retomada detalhada com socorro em B1."
+    },
+    {
+      "id": "s008",
+      "fonte": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+      "sha256": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6",
+      "titulo_atual": "Ficha de acordos do grupo",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 302,
+      "secoes_atuais": [
+        "Proposta e participação",
+        "Tom e limites",
+        "Personagens e relações",
+        "Organização",
+        "Primeira situação e revisão"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.1",
+      "usos_complementares": [
+        "N05.1",
+        "N01.2"
+      ],
+      "orientacao": "Manter o registro de acordos e apontar quais perguntas bastam à primeira missão."
+    },
+    {
+      "id": "s002",
+      "fonte": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+      "sha256": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5",
+      "titulo_atual": "Ficha de preparação de missão",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 303,
+      "secoes_atuais": [
+        "Antes da sessão",
+        "Situação e abertura",
+        "Fatos do preparo",
+        "Pessoas",
+        "Lugares e acessos",
+        "Informação e descoberta",
+        "Perigos e intervenção",
+        "Consequências",
+        "Conferência antes de começar",
+        "Durante e depois do jogo"
+      ],
+      "acao": "condensar",
+      "destino_principal": "A1",
+      "usos_complementares": [
+        "N03.1",
+        "N10.3"
+      ],
+      "orientacao": "Reduzir a folha ao preparo de uma missão; campos especializados remetem aos registros próprios, sem duplicar o formulário inteiro."
+    },
+    {
+      "id": "s005",
+      "fonte": "06 - Redacao do Guia/05-folha-de-conducao.md",
+      "sha256": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1",
+      "titulo_atual": "Folha de condução",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 305,
+      "secoes_atuais": [
+        "Para cada tentativa",
+        "Resultado e participação no teste",
+        "Se a conversa parar",
+        "Frases úteis",
+        "Se surgir uma proposta inesperada",
+        "Ao avançar a cena",
+        "Em combate",
+        "Se houver dúvida de regra",
+        "Ao encerrar ou interromper"
+      ],
+      "acao": "condensar",
+      "destino_principal": "A2",
+      "usos_complementares": [
+        "N04.2",
+        "N04.4",
+        "N04.7",
+        "N04.8"
+      ],
+      "orientacao": "Fazer a folha curta; transferir explicações e exceções para o corpo ou para casos já existentes."
+    },
+    {
+      "id": "s012",
+      "fonte": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+      "sha256": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436",
+      "titulo_atual": "Registro de descobertas",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 307,
+      "secoes_atuais": [
+        "Modelo",
+        "Exemplo no anexo"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.2",
+      "usos_complementares": [
+        "N04.4",
+        "N10.3"
+      ],
+      "orientacao": "Conservar fontes, descobertas e hipóteses; usar quando uma nota curta já não for suficiente."
+    },
+    {
+      "id": "s016",
+      "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+      "sha256": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+      "titulo_atual": "Linha de continuidade",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 308,
+      "secoes_atuais": [
+        "Modelo",
+        "Ao entregar ou retomar",
+        "Sugestões e tarefas de revisão",
+        "Exemplo entre três missões"
+      ],
+      "acao": "condensar",
+      "destino_principal": "A4",
+      "usos_complementares": [
+        "N05.3",
+        "N10.3",
+        "N10.5"
+      ],
+      "orientacao": "Criar o resumo de retomada a partir dos campos; concentrar instruções de entrega e retorno nos capítulos pertinentes."
+    },
+    {
+      "id": "s020",
+      "fonte": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+      "sha256": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4",
+      "titulo_atual": "Ficha de facção",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 310,
+      "secoes_atuais": [
+        "Modelo",
+        "Exemplo preenchido"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.3",
+      "usos_complementares": [
+        "N05.4"
+      ],
+      "orientacao": "Manter a ficha e um preenchimento breve; não exigir facção para todo contato."
+    },
+    {
+      "id": "s024",
+      "fonte": "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+      "sha256": "351e3004f85eef842ae23888cd7ec70c1bc6f988de01d0d5450ea636cdbc018c",
+      "titulo_atual": "Registro de estado e socorro",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 311,
+      "secoes_atuais": [
+        "Estado atual",
+        "Se houver queda em andamento",
+        "Saída e recuperação"
+      ],
+      "acao": "manter",
+      "destino_principal": "A3",
+      "usos_complementares": [
+        "N04.7",
+        "N10.3"
+      ],
+      "orientacao": "Conservar janela, tratamento, iniciativa e estado necessários à continuidade do socorro."
+    },
+    {
+      "id": "s028",
+      "fonte": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+      "titulo_atual": "Ficha de convivência",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 312,
+      "secoes_atuais": [
+        "Modelo",
+        "Exemplo: Maia e Taru"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.4",
+      "usos_complementares": [
+        "N07.2"
+      ],
+      "orientacao": "Conservar modelo de convivência e exemplo; não exigir essa folha de outras Origens."
+    },
+    {
+      "id": "s032",
+      "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+      "titulo_atual": "Ficha de avaliação de capacidade",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 313,
+      "secoes_atuais": [
+        "Proposta",
+        "Como funciona",
+        "Avaliação e registro",
+        "Acompanhamento de Restrição",
+        "Exemplo preenchido: um ajuste de montagem"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.5",
+      "usos_complementares": [
+        "N07.4",
+        "N07.6"
+      ],
+      "orientacao": "Manter proposta, decisão, alcance e revisão; vínculo direto com o método de avaliação."
+    },
+    {
+      "id": "s038",
+      "fonte": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "sha256": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+      "titulo_atual": "Ficha de projeto e entrega",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 314,
+      "secoes_atuais": [
+        "Projeto",
+        "Andamento",
+        "Entrega",
+        "Exemplo preenchido: Traje de Rina",
+        "Registro curto de empréstimo"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.6",
+      "usos_complementares": [
+        "N08.3",
+        "N08.4"
+      ],
+      "orientacao": "Manter campos e exemplo de projeto; empréstimo curto continua alternativa adequada a operações simples."
+    },
+    {
+      "id": "s040",
+      "fonte": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+      "titulo_atual": "Registro de dedicação por ficha",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 315,
+      "secoes_atuais": [
+        "Identificação do ciclo",
+        "Atividades",
+        "Fechamento",
+        "Exemplo: dois personagens da mesma pessoa",
+        "Exemplo de entrada proporcional",
+        "Exemplo de conferência pendente"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.7",
+      "usos_complementares": [
+        "N08.2",
+        "N10.2"
+      ],
+      "orientacao": "Conservar saldo, origem, acesso e exemplos por ficha; não confundir com o controle de XP por jogador."
+    },
+    {
+      "id": "s042",
+      "fonte": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+      "sha256": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d",
+      "titulo_atual": "Registro de Pactos e Promessas",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 317,
+      "secoes_atuais": [
+        "Folha em branco",
+        "Exemplo preenchido: Overtime",
+        "Conferência rápida de uma Promessa",
+        "Exemplo de Promessa preenchida"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.8",
+      "usos_complementares": [
+        "N09.1",
+        "N09.3"
+      ],
+      "orientacao": "Manter obrigações, prazos e exemplos de registro, com remissão aos acordos completos."
+    },
+    {
+      "id": "s044",
+      "fonte": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+      "titulo_atual": "Registro de aquisição e estado de entidade",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 319,
+      "secoes_atuais": [
+        "Identificação e aquisição",
+        "Projeto de criação, reconstrução ou transferência",
+        "Exemplo de conferência do teste",
+        "Estado para passagem entre mesas",
+        "Exemplo de lista de ritual",
+        "Exemplo de doma",
+        "Construção e evolução",
+        "Transporte e continuidade",
+        "Fabricação completa"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.9",
+      "usos_complementares": [
+        "N09.4",
+        "N09.5",
+        "N09.6"
+      ],
+      "orientacao": "Preservar requisitos, projeto, estado e passagem; exemplos completos por tipo ficam em B5."
+    },
+    {
+      "id": "s058",
+      "fonte": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "sha256": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+      "titulo_atual": "Ficha de inimigo e encontro",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 321,
+      "secoes_atuais": [
+        "1. Situação e grupo",
+        "2. Construção ou escolha de cada ameaça",
+        "3. Capacidade nova ou alterada",
+        "4. Lugar, sinais e mudanças",
+        "5. Antes de jogar",
+        "6. Resultado e continuidade"
+      ],
+      "acao": "manter",
+      "destino_principal": "A5.10",
+      "usos_complementares": [
+        "N06.2",
+        "N06.8"
+      ],
+      "orientacao": "Manter ficha específica de ameaça e encontro, acionada quando esse detalhe for necessário."
+    },
+    {
+      "id": "s077",
+      "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "sha256": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+      "titulo_atual": "Ficha preenchida: Ren e Sora",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 324,
+      "secoes_atuais": [
+        "1. Situação e grupo",
+        "2. Construção ou escolha das ameaças",
+        "3. Capacidade conferida: Fio de impulso",
+        "4. Lugar, sinais e mudanças",
+        "5. Antes de jogar",
+        "6. Resultado e continuidade"
+      ],
+      "acao": "mover",
+      "destino_principal": "B2",
+      "usos_complementares": [
+        "A5.10",
+        "N06.8"
+      ],
+      "orientacao": "Manter o preenchimento junto de Ren e Sora; o formulário em branco continua acessível em A5."
+    },
+    {
+      "id": "s061",
+      "fonte": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+      "titulo_atual": "Conferir uma habilidade de inimigo",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 328,
+      "secoes_atuais": [
+        "Antes de conferir",
+        "Perguntas para as interações",
+        "Exemplo breve: Agarrar do Carregador"
+      ],
+      "acao": "condensar",
+      "destino_principal": "A5.11",
+      "usos_complementares": [
+        "N06.2",
+        "N06.8"
+      ],
+      "orientacao": "Conservar perguntas para conferir interações sem exigir transcrição da mesma habilidade em várias folhas."
+    },
+    {
+      "id": "s068",
+      "fonte": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "sha256": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207",
+      "titulo_atual": "Conferir e comparar um chefe",
+      "capitulo_atual": "Fichas para a mesa",
+      "pagina_inicial_atual": 330,
+      "secoes_atuais": [
+        "O que acrescentar à conferência",
+        "Aplicação: o que falta ao Carregador?",
+        "Uma resposta fora do turno já possível",
+        "Quem recebe um turno para responder?",
+        "Mudança de comportamento e mudança de cenário",
+        "Escolha o exemplo pelo que precisa estudar"
+      ],
+      "acao": "condensar",
+      "destino_principal": "A5.12",
+      "usos_complementares": [
+        "N06.6",
+        "B2"
+      ],
+      "orientacao": "Manter ferramenta de chefe; reorganizar crítica histórica do Carregador como exemplo útil, preservando contexto de proposta."
+    },
+    {
+      "id": "s088",
+      "fonte": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+      "sha256": "4b16d0d7c285ce9dcba7abdd2c33d544a5ede852aad0e9649883964d3356973e",
+      "titulo_atual": "Termos do mundo",
+      "capitulo_atual": "Termos do mundo",
+      "pagina_inicial_atual": 334,
+      "secoes_atuais": [
+        "Por onde começar",
+        "Pessoas e relações",
+        "Energia, efeitos e seres",
+        "Números que não significam a mesma coisa",
+        "Exemplos de consulta"
+      ],
+      "acao": "condensar",
+      "destino_principal": "C1",
+      "usos_complementares": [
+        "N02.1",
+        "N02.2",
+        "N02.3"
+      ],
+      "orientacao": "Manter os termos e suas relações; definições essenciais aparecem no ponto de uso sem exigir o apêndice primeiro."
+    },
+    {
+      "id": "x003",
+      "fonte": "04 - Planejamento/12-piloto-editorial-cotidiano.md",
+      "sha256": "f03b3ffbbde7504348aa920c23c27d80e7419bd1a4295620161bc91811b44d28",
+      "titulo_atual": "A entrega trocada",
+      "capitulo_atual": "Exemplos de jogo",
+      "pagina_inicial_atual": 338,
+      "secoes_atuais": [
+        "A entrega trocada",
+        "O que preparar",
+        "Fatos da situação",
+        "Abrir a cena",
+        "Acompanhar uma abordagem",
+        "Outras escolhas possíveis",
+        "Quando ampliar ou resumir",
+        "Encerrar a cena",
+        "Levar o exemplo para sua mesa"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N01.3",
+      "usos_complementares": [
+        "N03.2",
+        "N04.1",
+        "N04.3",
+        "N04.6"
+      ],
+      "orientacao": "Usar uma cena breve de cotidiano na entrada; o comentário de decisão alimenta os métodos, sem repetir o episódio inteiro."
+    },
+    {
+      "id": "x001",
+      "fonte": "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md",
+      "sha256": "34ef9f4be18f9fda48e7e8cda051281d607ea57f75119ccb548843376a4e7613",
+      "titulo_atual": "As batidas no anexo: missão comentada",
+      "capitulo_atual": "Exemplos de jogo",
+      "pagina_inicial_atual": 340,
+      "secoes_atuais": [
+        "As batidas no anexo",
+        "Preparar o que aconteceu",
+        "Preparar o lugar",
+        "Abrir a cena",
+        "Acompanhar a investigação",
+        "Responder a outras abordagens",
+        "Quando começa o confronto",
+        "Acompanhar um confronto com socorro",
+        "Primeira rodada",
+        "Segunda rodada",
+        "Terceira rodada",
+        "Resolver a ameaça e fechar a missão",
+        "Registrar o que foi descoberto",
+        "Ao adaptar esta missão"
+      ],
+      "acao": "condensar",
+      "destino_principal": "N01.5",
+      "usos_complementares": [
+        "N01.4",
+        "N01.6",
+        "N01.7"
+      ],
+      "orientacao": "Unir conversa, preparo, confronto e alternativas à missão; eliminar duplicação de fatos com s003, mantendo requisitos do socorro."
+    },
+    {
+      "id": "x002",
+      "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+      "sha256": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+      "titulo_atual": "Três maldições para a missão",
+      "capitulo_atual": "Exemplos de jogo",
+      "pagina_inicial_atual": 346,
+      "secoes_atuais": [
+        "O que vem do Livro de Regras 1.0 e o que está sendo proposto",
+        "Regras comuns das três fichas",
+        "Consulta rápida",
+        "Rastejante",
+        "Amontoado do depósito",
+        "Vigia das farpas",
+        "Conversões conhecidas para maldições domadas",
+        "Uso e revisão"
+      ],
+      "acao": "mover",
+      "destino_principal": "N01.5",
+      "usos_complementares": [
+        "N06.2",
+        "N09.4"
+      ],
+      "orientacao": "Amontoado completo no ponto de uso; Rastejante e Vigia ficam como exemplos do construtor; conversões permanecem acessíveis na aquisição."
+    },
+    {
+      "id": "s087",
+      "fonte": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+      "sha256": "b5de7fe6710bcb6d14874ff0f2c204d6510caeb9b6ff22f0e8f6ad4138606ca3",
+      "titulo_atual": "Ideias da obra para suas missões",
+      "capitulo_atual": "Ideias da obra — contém revelações",
+      "pagina_inicial_atual": 351,
+      "secoes_atuais": [
+        "Como aproveitar um caso",
+        "Ordens em conflito",
+        "Acesso disputado",
+        "Quem tem a resposta?",
+        "Aliados independentes",
+        "Histórias e desencontros",
+        "Quando o caso pede outra pesquisa"
+      ],
+      "acao": "manter",
+      "destino_principal": "D1",
+      "usos_complementares": [
+        "N02.6"
+      ],
+      "orientacao": "Preservar os casos e avisos; a referência no mundo essencial não revela o conteúdo nem o coloca na busca geral."
+    }
+  ],
+  "recortes": [
+    {
+      "fonte_id": "s006",
+      "secao_atual": "Feiticeiros e técnicas",
+      "destino": "N02.2"
+    },
+    {
+      "fonte_id": "s006",
+      "secao_atual": "As Origens no dia a dia",
+      "destino": "N02.4"
+    },
+    {
+      "fonte_id": "s006",
+      "secao_atual": "Entre uma missão e outra",
+      "destino": "N08.1"
+    },
+    {
+      "fonte_id": "s007",
+      "secao_atual": "Proponha a campanha",
+      "destino": "N05.1"
+    },
+    {
+      "fonte_id": "s007",
+      "secao_atual": "Organize os encontros",
+      "destino": "N10.1"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Quando pedir um teste",
+      "destino": "N04.2"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Interprete as outras pessoas",
+      "destino": "N04.3"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Dê espaço a todos",
+      "destino": "N04.6"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Quando passar à próxima cena",
+      "destino": "N04.6"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Quando começa o combate",
+      "destino": "N04.7"
+    },
+    {
+      "fonte_id": "s004",
+      "secao_atual": "Dúvidas de regra",
+      "destino": "N04.8"
+    },
+    {
+      "fonte_id": "s005",
+      "secao_atual": "Em combate",
+      "destino": "N04.7"
+    },
+    {
+      "fonte_id": "s015",
+      "secao_atual": "Quando muda o mestre",
+      "destino": "N10.3"
+    },
+    {
+      "fonte_id": "s022",
+      "secao_atual": "Exemplo: duas quedas no mesmo combate",
+      "destino": "B1"
+    },
+    {
+      "fonte_id": "s023",
+      "secao_atual": "Descanso curto",
+      "destino": "N08.1"
+    },
+    {
+      "fonte_id": "s023",
+      "secao_atual": "Descanso longo",
+      "destino": "N08.1"
+    },
+    {
+      "fonte_id": "s026",
+      "secao_atual": "Encarnado: a vida de outra pessoa",
+      "destino": "N07.2"
+    },
+    {
+      "fonte_id": "s026",
+      "secao_atual": "Corpo Amaldiçoado: consciência e cuidado",
+      "destino": "N07.2"
+    },
+    {
+      "fonte_id": "s041",
+      "secao_atual": "Promessas: combine as obrigações",
+      "destino": "N09.3"
+    },
+    {
+      "fonte_id": "s043",
+      "secao_atual": "Reconstruir",
+      "destino": "N09.6"
+    },
+    {
+      "fonte_id": "s043",
+      "secao_atual": "Transferir ou herdar",
+      "destino": "N09.6"
+    },
+    {
+      "fonte_id": "s043",
+      "secao_atual": "Quando o invocador deixa de agir",
+      "destino": "N09.6"
+    },
+    {
+      "fonte_id": "s050",
+      "secao_atual": "Três exemplos de desfecho",
+      "destino": "B5"
+    },
+    {
+      "fonte_id": "s080",
+      "secao_atual": "Ouça o grupo e divida as tarefas",
+      "destino": "N10.5"
+    },
+    {
+      "fonte_id": "s081",
+      "secao_atual": "O socorro de Mei",
+      "destino": "B1"
+    },
+    {
+      "fonte_id": "s082",
+      "secao_atual": "Cinco participantes, todos com total 14",
+      "destino": "B1"
+    },
+    {
+      "fonte_id": "s090",
+      "secao_atual": "O atendimento de Ena",
+      "destino": "B3"
+    },
+    {
+      "fonte_id": "s091",
+      "secao_atual": "A ficha de Nilo",
+      "destino": "B3"
+    },
+    {
+      "fonte_id": "s091",
+      "secao_atual": "Cuidados com cada condição",
+      "destino": "B3"
+    },
+    {
+      "fonte_id": "x002",
+      "secao_atual": "Rastejante",
+      "destino": "N06.2"
+    },
+    {
+      "fonte_id": "x002",
+      "secao_atual": "Vigia das farpas",
+      "destino": "N06.2"
+    },
+    {
+      "fonte_id": "x002",
+      "secao_atual": "Conversões conhecidas para maldições domadas",
+      "destino": "N09.4"
+    }
+  ],
+  "competencias": [
+    {
+      "id": "P01",
+      "competencia_resumida": "Começar a mestrar",
+      "destinos": [
+        "N01.1",
+        "N01.2",
+        "N01.4",
+        "N01.5",
+        "N01.7"
+      ],
+      "ferramentas_e_casos": [
+        "A1",
+        "A2"
+      ],
+      "melhoria_pendente": "Reunir a primeira missão e conferir o acesso ao necessário; não há avaliação externa nova.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P02",
+      "competencia_resumida": "Consultar o mundo",
+      "destinos": [
+        "N01.1",
+        "N02.1",
+        "N02.2",
+        "N02.3",
+        "N02.6"
+      ],
+      "ferramentas_e_casos": [
+        "C1",
+        "C2"
+      ],
+      "melhoria_pendente": "Explicar termos no ponto de uso e manter aprofundamento opcional sem revelações inesperadas.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P03",
+      "competencia_resumida": "Transformar cotidiano em jogo",
+      "destinos": [
+        "N01.3",
+        "N02.4",
+        "N02.5",
+        "N03.6",
+        "N08.1"
+      ],
+      "ferramentas_e_casos": [
+        "A1"
+      ],
+      "melhoria_pendente": "Ampliar variedade e demonstrar convivência que não precise virar tarefa ou perigo.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P04",
+      "competencia_resumida": "Combinar grupo e campanha",
+      "destinos": [
+        "N01.2",
+        "N05.1",
+        "N10.1"
+      ],
+      "ferramentas_e_casos": [
+        "A5.1"
+      ],
+      "melhoria_pendente": "Mostrar acordos essenciais e completos; a campanha fechada precisa de caminho próprio.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P05",
+      "competencia_resumida": "Preparar com esforço viável",
+      "destinos": [
+        "N01.4",
+        "N03.1",
+        "N03.7"
+      ],
+      "ferramentas_e_casos": [
+        "A1"
+      ],
+      "melhoria_pendente": "Preencher o preparo mínimo e demonstrar a redução para pouco tempo.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P06",
+      "competencia_resumida": "Criar missão com caminhos possíveis",
+      "destinos": [
+        "N03.1",
+        "N03.2",
+        "N03.3",
+        "N03.5",
+        "N03.6"
+      ],
+      "ferramentas_e_casos": [
+        "A1"
+      ],
+      "melhoria_pendente": "Permitir criar outro caso, com escolhas e consequências diferentes do anexo.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P07",
+      "competencia_resumida": "Investigar sem depender de pista única",
+      "destinos": [
+        "N03.4",
+        "N04.4",
+        "N01.6"
+      ],
+      "ferramentas_e_casos": [
+        "A5.2",
+        "B1"
+      ],
+      "melhoria_pendente": "Conferir uma pista perdida, uma hipótese alternativa e outra via de informação.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P08",
+      "competencia_resumida": "Descrever para decisões informadas",
+      "destinos": [
+        "N01.5",
+        "N04.1",
+        "N04.4",
+        "N04.5"
+      ],
+      "ferramentas_e_casos": [
+        "A2",
+        "B1"
+      ],
+      "melhoria_pendente": "Distinguir o evidente, a tentativa possível e o inacessível em exemplos curtos.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P09",
+      "competencia_resumida": "Abrir e encerrar cenas com ritmo",
+      "destinos": [
+        "N01.3",
+        "N01.7",
+        "N04.6"
+      ],
+      "ferramentas_e_casos": [
+        "A2"
+      ],
+      "melhoria_pendente": "Complementar cena repetitiva, grupo pensando, pausa e encerramento no horário.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P10",
+      "competencia_resumida": "Distribuir atenção",
+      "destinos": [
+        "N04.6",
+        "N07.2"
+      ],
+      "ferramentas_e_casos": [
+        "A2"
+      ],
+      "melhoria_pendente": "Mostrar participação discreta, grupo separado e convites sem obrigar atuação.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P11",
+      "competencia_resumida": "Improvisar com consistência",
+      "destinos": [
+        "N01.6",
+        "N04.2",
+        "N04.5",
+        "N04.8"
+      ],
+      "ferramentas_e_casos": [
+        "A2",
+        "B1"
+      ],
+      "melhoria_pendente": "Mostrar propostas que funcionam e decisões explicadas, preservando as regras.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P12",
+      "competencia_resumida": "Interpretar NPCs e negociar",
+      "destinos": [
+        "N03.2",
+        "N04.3"
+      ],
+      "ferramentas_e_casos": [
+        "A1",
+        "B1"
+      ],
+      "melhoria_pendente": "Complementar traços memoráveis e conversa com resistência e acordos diferentes.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P13",
+      "competencia_resumida": "Fazer facções e antagonistas reagirem",
+      "destinos": [
+        "N05.4",
+        "N05.5"
+      ],
+      "ferramentas_e_casos": [
+        "A5.3"
+      ],
+      "melhoria_pendente": "Variar aplicações e ligar objetivos, meios e consequências sem desfecho imposto.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P14",
+      "competencia_resumida": "Criar inimigos e preparar encontros",
+      "destinos": [
+        "N06.1",
+        "N06.2",
+        "N06.3",
+        "N06.4",
+        "N06.5",
+        "N06.6",
+        "N06.8"
+      ],
+      "ferramentas_e_casos": [
+        "A5.10",
+        "A5.11",
+        "A5.12",
+        "B2"
+      ],
+      "melhoria_pendente": "Manter o construtor no corpo; referências numéricas ainda experimentais e avaliação geral pendente.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P15",
+      "competencia_resumida": "Preparar perigos claros",
+      "destinos": [
+        "N06.7",
+        "N06.8"
+      ],
+      "ferramentas_e_casos": [
+        "A5.10",
+        "B2"
+      ],
+      "melhoria_pendente": "Manter exposição, tempo, regras e intervenção no método e verificar os casos completos.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P16",
+      "competencia_resumida": "Acompanhar recursos e derrota",
+      "destinos": [
+        "N04.7",
+        "N08.1",
+        "N10.3"
+      ],
+      "ferramentas_e_casos": [
+        "A3",
+        "B1"
+      ],
+      "melhoria_pendente": "Preservar socorro no corpo, dados de continuidade e distinção entre descanso e troca de sessão.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P17",
+      "competencia_resumida": "Conectar missões e encerrar campanhas",
+      "destinos": [
+        "N05.2",
+        "N05.3",
+        "N05.6"
+      ],
+      "ferramentas_e_casos": [
+        "A4"
+      ],
+      "melhoria_pendente": "Mostrar resultado de escolhas, relações e encerramentos que não exijam luta final.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P18",
+      "competencia_resumida": "Manter continuidade entre mesas",
+      "destinos": [
+        "N10.1",
+        "N10.2",
+        "N10.3",
+        "N10.4"
+      ],
+      "ferramentas_e_casos": [
+        "A3",
+        "A4",
+        "A5.7"
+      ],
+      "melhoria_pendente": "Conferir retomada sem explicação oral e adaptação com menos registros para mestre único.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P19",
+      "competencia_resumida": "Receber retorno e dividir trabalho",
+      "destinos": [
+        "N04.8",
+        "N10.5"
+      ],
+      "ferramentas_e_casos": [
+        "A4"
+      ],
+      "melhoria_pendente": "Preparar registro breve e aproveitar sugestões durante a redação; leitores ainda não recrutados.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    },
+    {
+      "id": "P20",
+      "competencia_resumida": "Avaliar personagens e criações",
+      "destinos": [
+        "N07.1",
+        "N07.3",
+        "N07.4",
+        "N07.5",
+        "N07.6",
+        "N08.3",
+        "N09.1",
+        "N09.2",
+        "N09.3",
+        "N09.4",
+        "N09.5",
+        "N09.6"
+      ],
+      "ferramentas_e_casos": [
+        "A5.5",
+        "A5.6",
+        "A5.8",
+        "A5.9",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "melhoria_pendente": "Preservar método e decisões existentes; aprofundamentos localizáveis e limites experimentais identificados.",
+      "evidencia_nesta_etapa": "mapeamento documental; sem novo teste externo"
+    }
+  ],
+  "historicos_excluidos": [
+    {
+      "fonte": "06 - Redacao do Guia/69-carregador-vigilante-prototipo-de-chefe.md",
+      "sha256": "1db2c17cd0145917443e4f56603a02b1a4608b3efe12881dba1f0bfb96d710a5",
+      "motivo": "Estudo de chefe retirado da recomendação principal por revisão autoral.",
+      "destino": "histórico de produção, fora da leitura"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/70-comparar-a-vigilia-e-preparar-a-doma.md",
+      "sha256": "3f6f3e083bcd6d16adfbcee963e3b4c38ecdc91769df8356052d24db6aa9e00b",
+      "motivo": "Estudo de chefe retirado da recomendação principal por revisão autoral.",
+      "destino": "histórico de produção, fora da leitura"
+    }
+  ],
+  "cortes_editoriais_preservar": [
+    {
+      "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+      "motivo": "Histórico de modelos descartados permanece na produção, fora da consulta de leitura.",
+      "trecho": "## Histórico da proposta\n\nOs modelos numéricos anteriores foram descartados como detalhamento do Guia. A pesquisa fica identificada como histórica no [registro 86](<../04 - Planejamento/86-validacao-da-reserva-condensada.md>); a [decisão posterior](<../04 - Planejamento/87-correcao-de-escopo-da-reserva.md>) define o estado vigente. O texto anterior desta seção foi preservado no histórico da correção. O Livro de Regras 1.0 não foi alterado."
+    },
+    {
+      "fonte": "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md",
+      "motivo": "Recado de produção, preservado na fonte.",
+      "trecho": "Versão piloto 3, de 21 de outubro de 2026. Exemplo acompanhado de preparação, investigação, confronto e fechamento, para avaliar o modo de ensinar do Guia. Acrescenta caminhos de consulta e um contato de apoio definido, preservando as fichas e contas do confronto. Situação original, sem revelações da trama de Jujutsu Kaisen. Pode acompanhar A entrega trocada ou ser usada como exemplo independente."
+    },
+    {
+      "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+      "motivo": "Recado de produção, preservado na fonte.",
+      "trecho": "Versão piloto 1, de 21 de outubro de 2026. Três maldições originais para desenvolver e avaliar exemplos do Guia, autorizadas por Mizuki. Os números novos são propostas de trabalho desta base. O Bestiário antigo não foi usado como referência numérica."
+    }
+  ],
+  "limites": [
+    "Ações são instruções para a próxima redação, não mudanças já executadas.",
+    "Usos complementares não mandam duplicar texto integral.",
+    "As âncoras antigas devem ter destino ou alias na integração futura.",
+    "O documento 99 não migra regras nem valida aprendizado ou equilíbrio."
+  ]
+}

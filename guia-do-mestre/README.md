@@ -1,29 +1,28 @@
-# Guia do Mestre de Ciclo Maldito — pré-1.0 diagramada
+# Guia do Mestre de Ciclo Maldito
 
-Salvamento de 26 de outubro de 2026, na branch `codex/guia-do-mestre-pre-1-2026-10-23`. Contém as etapas posteriores ao salvamento de 23/10, incluindo planejamento, decisões, manuscrito, exemplos, históricos, edição HTML e PDF revisado.
+Salvamento de 29 de outubro de 2026. O trabalho editorial está concluído até o registro 121, lote B2-03. A próxima tarefa é B2-04: Sineiro, retirada e dupla de inimigos.
 
-## Começar e continuar
+- [Prompt de continuação para o Claude](PROMPT-CONTINUAR-CLAUDE-2026-10-29.txt)
+- [Registro atual](<04 - Planejamento/121-revisao-de-terreno-saida-e-sineiro.md>)
+- [Fila atual](<04 - Planejamento/apoio-revisao-textual-121/fila-dos-casos.md>)
+- [Índice dos casos](<04 - Planejamento/apoio-revisao-textual-121/casos-completos.html>)
+- [Prova do último lote, 15 páginas](<04 - Planejamento/apoio-revisao-textual-121/output/pdf/Ciclo-Maldito-Terreno-Saida-e-Sineiro-Revisao-Textual.pdf>)
+- [PDF integrado anterior, 357 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>)
 
-- [Prompt para o próximo chat](PROMPT-CONTINUAR-GUIA-2026-10-26.txt)
-- [PDF pré-1.0 — 358 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>)
-- [Relatório da revisão crítica e visual](<04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>)
-- [Edição de leitura HTML](<07 - Edicao de Leitura/index.html>) — abra localmente após obter a pasta
-- [Roteiro e próxima tarefa](<04 - Planejamento/19-roteiro-pre-1-e-modelos.md>)
-- [Fontes do manuscrito](<06 - Redacao do Guia/LEIA-ME.md>)
-- [Reprodução e revisão da diagramação](<08 - Diagramacao do Guia/LEIA-ME.md>)
+São 23 casos revistos, 36 casos pendentes em nove lotes e 17 consultas complementares pendentes. Os capítulos principais têm revisões nos registros 112–115 e as cinco folhas curtas no 116. Ainda faltam a conclusão da fila, conferência do conjunto, integração e revisão visual global. O PDF integrado anterior permanece preservado; não incorpora todas as provas recentes.
 
-## Estado e limites
+## Produção e cópia Git
 
-Plano 81, pauta 75, matriz 18 e competências 21; registro 92. A edição integra 104 fontes em dez capítulos e quatro apêndices. O PDF conserva o padrão tipográfico da R53 e inclui quatro referências visuais selecionadas, três esquemas de procedimento e cinco mapas vetoriais. A inspeção observou todas as páginas em pranchas, com ampliações dirigidas e reinspeção das páginas alteradas. Relatórios, pranchas e páginas ampliadas estão em `08 - Diagramacao do Guia/revisao`.
+A produção principal está em `/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/`. Não é um checkout. Esta cópia Git fica em `/home/mizuki/CHAT-GPT/salvamentos/guia-do-mestre-2026-10-23/repositorio/guia-do-mestre/`, na branch `codex/guia-do-mestre-pre-1-2026-10-23`, do repositório `cupcake-mochi/JJK---Project`.
 
-A revisão crítica foi estrutural e dirigida. Não constitui nova auditoria semântica de cada linha, teste humano ou comprovação de equilíbrio. A R53 permaneceu intacta; o detalhamento numérico rejeitado de Reserva Condensada não foi incorporado. O Bestiário antigo não forneceu os números dos exemplos novos. Treinamentos, Bestiário integral e escala geral continuam trabalhos próprios.
+O prompt de 29/10 tem prioridade sobre prompts antigos. Os registros e as retomadas antigas conservam o histórico; avisos de ausência de envio ao GitHub descrevem a data em que foram escritos. Este salvamento publica o trabalho posterior ao registro 92 até o 121. Não copie uma versão antiga do Git por cima da produção.
 
-**Próxima tarefa:** incorporar observações e continuar a revisão editorial por capítulo. GPT-6.1 Sol, esforço alto, para clareza e redação; GPT-6 Astra, extra alto, para contradições mecânicas amplas. O prompt explicita prioridades e decisões a preservar.
+## Conteúdo e conferência
 
-## Conteúdo salvo e conferência
+O pacote conserva planejamento, decisões, manuscritos, revisões, fontes editáveis, scripts, provas PDF, evidências visuais, mapas, edição de leitura e históricos. Inclui também os relatórios locais e a pasta 09 de propostas paralelas, ainda não incorporadas nem aprovadas em bloco. A referência mecânica da revisão continua sendo a cópia conferida da R53, chamada Livro de Regras 1.0 no texto ao leitor.
 
-`SALVAMENTO.json` inventaria a cópia, com tamanho e SHA-256 de cada arquivo. Execute `python3 CONFERIR-COPIA-GIT.py` nesta pasta para conferir o conjunto publicado. `CONFERIR-SALVAMENTO.py` mantém a verificação do manifesto de produção; suas referências não publicadas, se houver, estão listadas no inventário. Os verificadores históricos preservam o estado de suas respectivas etapas.
+`SALVAMENTO.json` inventaria os arquivos desta cópia, com tamanhos e SHA-256. Execute `python3 CONFERIR-COPIA-GIT.py` para verificar o conjunto. `CONFERIR-SALVAMENTO.py` confere o manifesto de produção; eventuais fontes externas omitidas estão discriminadas em SALVAMENTO.json.
 
-Foram copiados planejamento, redação, edição de leitura, diagramação e registros de continuidade, incluindo históricos. Mantiveram-se as exclusões de extrações integrais externas do salvamento anterior e de caches de execução; os originais continuam no acervo local. Bibliotecas completas de terceiros e pesquisas paralelas não fazem parte deste envio. As imagens selecionadas do próprio projeto e as licenças tipográficas acompanham o PDF; atribuição não equivale a licença da obra.
+As exclusões anteriores de extrações integrais externas e caches de execução foram mantidas. Bibliotecas completas de terceiros, outras áreas do Claude 2 e pesquisas paralelas externas à pasta do Guia continuam nos locais indicados no prompt. Arquivos com caminhos absolutos podem precisar de adaptação em outro computador.
 
-A produção principal no computador de Mizuki permanece em `/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/`. A cópia Git é separada: compare antes de sincronizar. Caminhos absolutos ou referências à bibliografia externa exigem os originais locais. Uma cópia conferida do texto da R53 está em `04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md`; o nome histórico r41 de outra pasta do repositório não define a revisão do conteúdo.
+As propostas descartadas de depósitos e retiradas de Reserva Condensada não devem ser reintroduzidas. Não há pacote mecânico novo aprovado para treinamentos nem equilíbrio certificado dos exemplos. B2-04 deve preservar esses limites e revisar quatro cópias com duas leituras, conferência dirigida e inspeção de cada página.

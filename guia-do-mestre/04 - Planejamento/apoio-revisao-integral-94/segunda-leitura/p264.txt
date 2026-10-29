@@ -1,0 +1,93 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+responsável, apresentar outro ajudante ou mudar de
+mestre não permite rolar de novo sem cumprir o
+que falta.
+Não destrua automaticamente toda a estrutura nem
+tornar a entidade hostil apenas porque o teste
+falhou. Se o processo tiver um risco específico, ele
+precisa estar compreendido antes do investimento,
+respeitando o resultado e os limites do Livro de
+Regras 1.0.
+Quando o mestre quiser detalhar
+mais
+Você pode explorar o processo de criação com mais
+detalhes. Acrescente as informações que tornem
+uma escolha relevante: origem de um material,
+fornecedor, qualidade necessária, tarefa de cada
+participante, oficina, secagem ou sequência de
+montagem.
+Detalhar não precisa aumentar o total. Dividir um
+projeto de 32 horas em etapas conserva suas 32
+horas. Para cobrar mais, identifique trabalho
+adicional. Etapas também não geram novos testes
+de criação por si; um obstáculo distinto usa sua
+regra pertinente.
+O mestre pode definir outro retrabalho pelas
+etapas do projeto, em vez da referência de metade.
+Explique antes do início quais partes podem
+precisar de repetição, o custo e o que permanece
+aproveitável. Essa opção permite distinguir, por
+exemplo, refazer uma inscrição e substituir uma
+montagem defeituosa, sem surpreender o jogador
+com uma cobrança criada depois da falha.
+Na guilda, registre o motivo das diferenças entre
+projetos. Modelos simples ajudam a resolver
+trabalhos recorrentes; a opção detalhada atende
+casos que pedem escolhas próprias. Quem recebe
+um projeto de outro mestre continua do acordo
+registrado. Se uma circunstância mudar, explique o
+impedimento e as alternativas antes de cobrar
+trabalho adicional.
+Trabalhar com ajuda
+Para conceder vantagem nos testes de criação,
+reconstrução ou transferência por ajuda, o Livro de
+Regras 1.0 exige treino no ofício compatível,
+permissão do mestre e o mesmo tempo de
+dedicação de quem conduz o trabalho.
+Rina trabalha 32 horas; Mei acompanha as mesmas
+32 para ajudar. Cada uma registra 32 horas. A ajuda
+melhora a chance, mas não divide automaticamente
+o prazo em dezesseis para cada uma. Isso também
+vale quando as duas fichas pertencem ao mesmo
+jogador.
+Na retomada de dezesseis horas, quem fornece
+ajuda por essa via dedica as mesmas dezesseis. A
+vantagem da tentativa posterior à falha já vem da
+regra própria e não exige outro ajudante.
+Participantes necessários ao processo continuam
+necessários, mesmo que não seja preciso obter
+outra fonte de vantagem.
+Exemplo: falhar e tentar de novo
+Este caso demonstra trabalho, materiais e teste. A
+ficha completa e sua continuidade estão em
+Fabricar e evoluir o Vigia do depósito (p. 290).
+Mantenha essa ficha junto do projeto para usar o
+exemplo.
+Rina, de nível 13 e Classe 4, tem Caligrafia treinada,
+Destreza 4 e Maestria 2. Ela cria um talismã de
+Classe 3 para Kaito, de nível 9 e Classe 3. A ficha foi
+conferida antes do projeto; seus sentidos e
+habilidades já estão definidos. O nome “vigia de
+depósito” não concede capacidades extras.
+O projeto pede 32 horas. O orçamento deste
+exemplo prevê ¥24.000 em partes aproveitáveis e
+¥6.000 de consumíveis por tentativa. Rina já possui
+ferramentas e local adequado. Todos os meios estão
+disponíveis; não há espera nem cobrança adicional
+de PE. Esses valores em ienes são ilustrativos deste
+projeto.
+Rina dedica vinte horas no primeiro ciclo e doze no
+segundo. Completou 32 e pode fazer o teste. A
+entidade está uma Classe abaixo da responsável,
+portanto a CD é 8 + 4 + 2 - 2 = 12. Rina tira 5 e soma
+6: total 11, falha.
+O suporte é preservado. Rina decide continuar,
+repõe ¥6.000 em consumíveis e precisa de dezesseis
+horas de retrabalho.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+264

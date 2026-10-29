@@ -1,0 +1,110 @@
+CICLO MALDITO / GUIA DO MESTRE
+EXEMPLOS DE JOGO
+Regras comuns das três fichas
+• Cada inimigo tem uma Padrão, um Movimento,
+uma Bônus e uma Reação, com renovação e
+conversão conforme Turnos. Um ataque por Ação
+Atacar; nenhuma ação de chefe, ataque extra ou
+contra-ataque gratuito.
+• Podem usar as ações gerais que sua anatomia e
+percepção permitirem. Agarrar, Derrubar e
+Empurrar substituem o ataque da Ação Atacar e
+não causam o dano da Pancada. Precisam cumprir
+alcance, tamanho e requisitos de mãos.
+• Bloquear é gratuito, escolhido antes do ataque e
+não gasta Reação. Aparar e Brecha conservam seus
+gatilhos e custos; um revide usa a Pancada, nunca a
+conjuração sem permissão.
+• Têm visão e audição comuns. Não têm visão no
+escuro, percepção através de paredes, voo, teleporte
+ou capacidade de atravessar objetos. Compreendem
+frases simples no idioma usado pelo grupo;
+comunicam-se por gestos e ruídos, sem fala ou
+telepatia.
+• Têm alma. Não recebem resistência,
+vulnerabilidade, imunidade ou Redução de Dano
+adicional por esta ficha. A aparência não concede
+imunidades a condições. Energia Reversa contra
+maldições conserva os requisitos e a resolução do
+Livro de Regras 1.0.
+• Não carregam equipamento nem possuem
+Ofícios. Sua forma permite segurar objetos
+compatíveis, abrir portas comuns e executar o Selo
+descrito. Uma mão ocupada numa contenção não
+fica livre para outra exigência.
+• Ao chegar a zero de vida ou de Integridade, são
+derrotados. Não escolhem Insistir nem recebem
+janela de socorro de personagem jogador. O
+desfecho respeita a intenção da ação e as regras de
+aquisição e destruição.
+Leitura, Talento CE1 presente nas três fichas:
+identifica Classe e Forma de feitiços conjurados a
+até 18 m. Não revela montagem, pensamentos ou
+alvos ocultos. Não causa dano, não concede ação e
+não faz uma reação acontecer sem gatilho.
+Consulta rápida
+Inimigo
+Nível
+PV
+Integridade
+PE
+Defesa
+Bloquear
+Deslocamento
+Rastejante
+2
+12
+6
+0
+13
+2d10 + 2
+9 m
+Amontoado do
+depósito
+2
+48
+24
+6
+11
+2d10 + 0
+9 m
+Vigia das farpas
+2
+24
+12
+6
+13
+2d10 + 2
+9 m
+Rastejante
+Um corpo pequeno de papel amassado, com duas
+pernas, dois braços e mãos articuladas. Procura
+abrigo e golpeia quem o encurrala.
+Demonstra uma ameaça frágil. Pode ser usado
+sozinho numa ocorrência menor. Dois exemplares
+permitem observar o efeito de haver mais turnos
+inimigos. Não aparece junto do Amontoado no
+encontro principal do piloto.
+Tamanho: Pequeno. Iniciativa: d20 + 3.
+Força
+Destreza
+Constituição
+Inteligência
+Essência
+2
+3
+1
+1
+2
+TRs: Físico +4; Vigor +1; Intelecto +1; Espírito +2. Físico usa Destreza; o treino é em Físico.
+Perícias treinadas: Acrobacia +4; Atletismo +3; Furtividade +4; Percepção +3. As demais usam somente seu
+atributo, respeitando requisitos.
+Pancada - Ação Atacar, um ataque corpo a corpo, 1,5 m. Ataque +3. No acerto, 1d4 + 2 de Concussão.
+Crítico: 2d4 + 2. Sem custo de PE. Não impõe condição.
+Manobras da Ação Atacar: CD 11, substituindo a Pancada, conforme as regras comuns.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+347

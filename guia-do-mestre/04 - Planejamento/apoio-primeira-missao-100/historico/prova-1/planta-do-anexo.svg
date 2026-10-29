@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Planta do anexo</title><desc id="descricao">O pátio de seis por seis metros leva à entrada principal do corredor. O corredor tem nove por três metros e uma entrada de serviço na ponta oposta. Uma única porta no meio de sua parede superior abre para o depósito de seis por seis metros. O Amontoado está a quatro metros e meio dessa porta.</desc>
+<defs><marker id="seta" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#9e2358" stroke-width="1.2"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#251727;font-size:25px}.nome{font-size:29px;font-weight:bold}.dim{font-size:24px;fill:#6f5867}.parede{stroke:#251727;stroke-width:5;fill:none}.cota{stroke:#9e2358;stroke-width:2;fill:none}.porta{stroke:#9e2358;stroke-width:3;fill:none;stroke-dasharray:8 6}</style>
+<rect width="1200" height="800" fill="white"/>
+<rect x="40" y="340" width="360" height="360" fill="#f8f1f4" stroke="#bda5b2" stroke-width="2" stroke-dasharray="10 7"/>
+<rect x="400" y="430" width="540" height="180" fill="#f8f1f4"/>
+<rect x="490" y="70" width="360" height="360" fill="#fdfbfc"/>
+<path class="parede" d="M490 430 V70 H850 V430 H715 M625 430 H400 V465 M400 555 V610 H940 V555 M940 465 V430 H850"/>
+<path class="porta" d="M625 430 H715 M400 465 V555 M940 465 V555"/>
+<g fill="#e8d7e0" stroke="#b99baa" stroke-width="2"><rect x="505" y="250" width="45" height="50"/><rect x="505" y="325" width="45" height="60"/><rect x="790" y="250" width="45" height="50"/><rect x="790" y="325" width="45" height="60"/><rect x="590" y="80" width="160" height="40"/></g>
+<circle cx="670" cy="160" r="25" fill="#9e2358"/><text x="670" y="170" text-anchor="middle" fill="white" style="fill:white;font-weight:bold">A</text>
+<text x="670" y="213" text-anchor="middle" class="nome">DEPÓSITO</text><text x="670" y="245" text-anchor="middle">6 m × 6 m</text>
+<text x="220" y="468" text-anchor="middle" class="nome">PÁTIO</text><text x="220" y="506" text-anchor="middle">6 m × 6 m</text>
+<text x="670" y="513" text-anchor="middle" class="nome">CORREDOR</text><text x="670" y="550" text-anchor="middle">9 m × 3 m</text>
+<text x="386" y="392" text-anchor="middle"><tspan x="386">Entrada</tspan><tspan x="386" dy="28">principal</tspan></text>
+<path class="cota" d="M950 510 H990" marker-end="url(#seta)"/><text x="1005" y="495">Entrada<tspan x="1005" dy="30">de serviço</tspan></text>
+<path class="cota" d="M220 710 V740" marker-end="url(#seta)"/><text x="220" y="779" text-anchor="middle">Recepção (fora da planta)</text>
+<path class="cota" d="M400 640 H670 M400 630 V650 M670 630 V650 M670 640 H940 M940 630 V650"/>
+<text x="535" y="675" class="dim" text-anchor="middle">4,5 m</text><text x="805" y="675" class="dim" text-anchor="middle">4,5 m</text>
+<path class="cota" d="M735 160 V430 M727 160 H743 M727 430 H743"/><text x="754" y="303" class="dim">4,5 m</text>
+<text x="40" y="35" class="nome">UMA SALA, DOIS ACESSOS AO CORREDOR</text>
+<text x="885" y="102" class="dim">Pilha ao fundo:<tspan x="885" dy="29">1,5 m de altura.</tspan></text>
+<text x="885" y="169" class="dim">A: posição inicial<tspan x="885" dy="29">do Amontoado.</tspan></text>
+<text x="885" y="261" class="dim">Traços rosa:<tspan x="885" dy="29">portas de 1,5 m.</tspan></text>
+<text x="885" y="345" class="dim">Caixas baixas<tspan x="885" dy="29">nas laterais.</tspan></text>
+</svg>

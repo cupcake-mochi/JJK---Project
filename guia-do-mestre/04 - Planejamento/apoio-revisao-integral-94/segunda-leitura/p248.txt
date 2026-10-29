@@ -1,0 +1,70 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Antes de usar este Pacto
+Este exemplo usa a forma de Pacto permanente:
+adesão voluntária fora de cena e uma vaga enquanto
+existir, respeitando o limite do Livro de Regras 1.0.
+Não concede uma compensação adicional por
+limitação já paga pela Origem ou por uma
+Restrição.
+As escolhas centrais estão registradas. Antes de
+adotar, confira a compatibilidade da ficha, o início
+da primeira janela e quem acompanha os registros.
+Detalhes de registro e combinações específicas
+continuam sujeitos à revisão da pré-1.0. Mesmo
+com regras claras e compatíveis com a ficha, o
+Pacto ainda precisa ser testado em mesa.
+9.4 · Liberação irregular
+Pacto experimental. Este modelo limita o gasto de
+energia e permite recuperar parte dela depois de
+uma interrupção total. Antes de usá-lo, mestre e
+jogador precisam conferir a ficha e registrar a
+troca. Seu equilíbrio ainda não foi testado em mesa.
+O planejamento 52 reúne as decisões de criação.
+A troca
+Sua energia não sai no ritmo desejado. Mesmo com
+a reserva cheia, pode haver um intervalo em que
+você não consiga gastar nenhum ponto. Quando o
+fluxo volta depois de uma interrupção total,
+Refluxo permite recompor parte da reserva.
+O Pacto é permanente e ocupa uma vaga enquanto
+existir. Mestre e jogador conferem a ficha e
+registram a troca antes da adesão, conforme o Livro
+de Regras 1.0. A limitação não concede outro
+benefício se já tiver sido compensada na Origem ou
+num pacto de restrição.
+Consulta rápida
+Campo
+Funcionamento deste exemplo
+Sorteio
+Um d6 no começo de cada turno próprio.
+Teto
+1: zero; 2: 25%; 3: 50%; 4: 75%; 5 ou 6: 100% dos PE máximos.
+Intervalo
+Do começo do seu turno até o começo do próximo; inclui Reações e manutenção
+pagas por você.
+Ganho
+Após um zero sorteado no começo do seu turno, Refluxo fica preparado até o fim
+do primeiro turno próprio posterior com resultado positivo.
+Ativação
+Nesse turno, Ação Bônus para recuperar 25% dos PE máximos atuais, limitada ao
+que falta.
+Uso
+Uma vez por descanso curto ou longo. Descansar renova um uso, sem acumular.
+Zero
+Impede novos pagamentos de PE; conserva saldo e efeitos já pagos, salvo seus
+próprios requisitos e manutenções.
+Saída
+Pedido fora de cena; encerra ao concluir o próximo descanso longo. Nova adesão
+somente após outro descanso longo.
+Arredonde teto positivo e recuperação para baixo, com mínimo 1 quando o máximo e a porcentagem forem
+positivos. Zero permanece zero. Máximo zero não produz PE por arredondamento.
+Reserva e limite de gasto
+Saldo é a energia que ainda está na ficha. Teto é quanto você pode pagar naquele intervalo. Gasto do
+intervalo é a soma do que já pagou desde a abertura do limite inicial ou o último sorteio de começo de turno.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+248

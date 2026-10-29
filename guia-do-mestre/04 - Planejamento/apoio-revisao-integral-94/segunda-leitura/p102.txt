@@ -1,0 +1,98 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+distribuídas entre dois corpos que podem ser
+afastados ou derrotados separadamente.
+Agir fora do turno
+Recurso
+O que permite comparar
+O que precisa ficar escrito
+Preparar, pelo Livro de
+Regras 1.0
+Trocar a Padrão de agora por uma
+resposta posterior.
+Gatilho perceptível, resposta legal, Reação
+disponível e prazo. Não acrescenta uma
+Padrão de ataque ao turno de origem.
+Uma capacidade que
+use Reação
+Criar outra escolha para a Reação
+já existente.
+Gatilho, momento, custo e efeito. Compete
+com as outras opções que gastem essa mesma
+Reação.
+Uma ação adicional
+própria
+Permitir uma ação específica sem
+usar os recursos comuns, se a
+nova regra disser isso.
+Frequência, recuperação, opções permitidas e
+condições que impedem seu uso. É uma regra
+nova.
+Outro turno completo
+Repetir um conjunto amplo de
+recursos.
+Também altera efeitos de começo/fim de
+turno e prazos ligados ao próximo turno.
+Exige uma revisão muito maior.
+Preparar resolve a resposta depois do evento
+escolhido. Um ataque de oportunidade tem seu
+próprio gatilho e ocorre antes da saída do alcance.
+Descrever um gesto ameaçador não cria uma
+terceira forma de interrupção.
+Quando for necessária uma capacidade nova,
+prefira começar pela permissão específica que falta.
+“Mover-se sob este gatilho” é mais fácil de avaliar
+do que “ganhar um turno”. Isso é uma
+recomendação de desenvolvimento: a nova
+capacidade ainda precisa de montagem, limites e
+comparação com o restante da ficha.
+A comparação do arquivo (p. 157) separa um guarda
+único de uma dupla de atacante/apoio. Aumentar a
+vida do guarda muda sua sobrevivência, enquanto
+concentrar ataques no apoio pode impedir sua
+primeira cura. Os cálculos explicam quais situações
+consideram; não preveem a duração completa da
+luta.
+Anuncie o perigo e dê tempo para
+reagir
+Um sinal ajuda quando o grupo consegue
+percebê-lo e fazer algo relevante antes da
+consequência. Registre quatro coisas: o sinal,
+quando ele acontece, as respostas possíveis e o
+resultado de uma resposta bem-sucedida. Mostre o
+que mudou quando a preparação for interrompida.
+Uma descrição feita enquanto o golpe acontece
+pode informar a próxima escolha; ela não garante
+uma ação antes daquele golpe. Para permitir que
+todos tenham um turno entre anúncio e
+consequência, use um intervalo que realmente
+contenha esses turnos. “No fim desta rodada” não
+garante isso se parte do grupo já agiu.
+Exemplo de ordem, sem criar uma habilidade:
+Rina → inimigo → Mei → Akira. Um anúncio durante
+o turno inimigo, resolvido no fim daquela rodada,
+deixa turnos para Mei e Akira, mas não para Rina.
+Se a resolução estiver marcada para o começo do
+próximo turno inimigo, Rina também terá passado
+por seu próximo turno. Reações continuam
+dependendo de gatilhos e recursos próprios. Essa
+comparação não autoriza atrasar gratuitamente
+qualquer ataque da ficha.
+Confira também quem consegue aproveitar a
+abertura. Um personagem Agarrado pode precisar
+gastar sua Padrão para tentar escapar antes de se
+mover. Um socorrista pode ter movimento
+suficiente para sair sozinho, mas não para arrastar
+alguém. Ter um turno no intervalo não significa ter
+resposta garantida.
+Se o sinal anuncia uma área ou alvo, defina se essa
+escolha fica fixada ou pode mudar. Trocar
+silenciosamente o alvo para acompanhar quem
+evitou o perigo esvazia a informação oferecida.
+Uma preparação que acompanhe o alvo pode
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+102

@@ -1,0 +1,86 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+Momento
+Registro do exemplo
+Se for recolhida
+Registrar onde ficaram passageiro e objetos; conservar ferimentos, condições
+e recursos da entidade conforme as regras de saída de campo.
+Na guilda, esse registro acompanha a ficha da
+entidade e o inventário de quem foi transportado.
+Em campanha fechada, pode ficar no diário da
+missão. Trocar de mestre não coloca uma mochila
+caída de volta no compartimento nem devolve o
+Movimento gasto.
+Para adaptar a proposta, comece pela necessidade
+concreta: carga de missão, uma pessoa montada ou
+uma maca são acomodações diferentes. Depois
+confira corpo, talento, capacidade, ações e destino
+ao sair de campo. Não aumente simultaneamente
+passageiros, velocidade e armazenamento por
+manter o mesmo nome de habilidade.
+Consulta do Livro de Regras 1.0: carga de
+entidades, Carga, combate montado, intenção,
+inconsciência, morte e talentos próprios.
+9.13 · Fabricar e evoluir o
+Vigia do depósito
+Exemplo para a pré-1.0. Esta seção completa o
+projeto de Rina apresentado em Tempo e materiais
+para criar entidades (p. 262). A ficha é original,
+montada com regras e talentos publicados no Livro
+de Regras 1.0. Horas e materiais seguem a
+referência do Guia e o orçamento ilustrativo
+daquele projeto. O exemplo não estabelece preço
+universal nem dificuldade de encontro.
+O resultado antes do trabalho
+Kaito quer uma criatura capaz de vigiar um
+depósito, comunicar acontecimentos percebidos e
+defender uma passagem. Rina vai criar um
+shikigami ligado a talismã de Classe 3, para Kaito
+no nível 9. Não é o Vigia de papel publicado no
+Livro de Regras 1.0 nem o Escriba adquirido por
+espaço conhecido.
+Definição: uma pequena figura de papel inscrito
+que observa o local, reconhece vestígios de
+conjuração e lança agulhas de tinta contra alvos
+indicados.
+Tem tamanho Pequeno, alma, duas pernas, dois
+braços e mãos. Caminha 9 m, possui visão e audição
+comuns e fala o idioma compartilhado com Kaito.
+Pode relatar o que percebeu; não transmite
+mensagens por telepatia, compartilha visão ou
+enxerga através de paredes. Não voa. Não tem
+equipamento próprio nem talento de passageiros
+ou armazenamento. Suas mãos seguem a
+capacidade de carga normal.
+O Ofício compatível do projeto é Caligrafia. Isso é
+requisito de quem fabrica, não treino concedido à
+criatura. Rina tem nível 13, Classe 4, Destreza 4,
+Maestria 2 e Caligrafia treinada. Kaito tem nível 9,
+Classe 3, Maestria 1 e usa Essência 4 na parcela de
+Defesa das entidades. Somente esses campos dos
+personagens são definidos para a demonstração.
+A aquisição não exige técnica de invocação e não
+ocupa espaço conhecido. Em compensação,
+depende do projeto, teste, talismã e limite de
+Classe. Não use a evolução sem limite de Classe das
+entidades de técnica.
+Ficha entregue no nível 9
+Os nove pontos iniciais são Força 0, Destreza 2,
+Constituição 2, Inteligência 3 e Essência 2. O
+aumento correspondente ao nível 6 vai para
+Constituição, que chega a 3. Total no nível 9: dez
+pontos.
+Campo
+Valor
+Atributos atuais
+Força 0; Destreza 2; Constituição 3; Inteligência 3; Essência 2.
+Vida máxima
+5 + 3 + (3 + 3) × 8 = 56 PV.
+Integridade máxima
+Metade de 56 = 28.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+290

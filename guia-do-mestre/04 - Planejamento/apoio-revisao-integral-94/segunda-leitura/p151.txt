@@ -1,0 +1,103 @@
+CICLO MALDITO / GUIA DO MESTRE
+INIMIGOS E PERIGOS
+técnica permite trabalhar e romper fibras
+orgânicas. É uma aplicação conhecida registrada
+antes do encontro; conhecer uma cura não concede
+esse ataque automaticamente.
+Iniciativas escolhidas: Sora 18, Rina 16, Ren 14,
+Mei 12, Akira 10; resultados naturais 16, 14, 12, 10 e
+8, todos com Destreza +2. Não há surpresa nem
+benefícios preparados antes da abertura.
+Rodada 1 - o apoio já está em
+campo
+Sora oferece Fio a Ren. De F8, alcança D5 a 4,5 m.
+Gasta Padrão e 3 PE, restando 9. Ren recebe
+Impulso e 3 PV temporários, separados dos 72
+comuns. Ela conserva o estojo e fica em F8.
+Rina pressiona Ren. Anda C0 → C4, 6 m, e ativa
+Olhos Em Mim com Bônus. Sua provocação inicial
+contra Ren dá 11 + 5 = 16; ele resiste com 17 + 1 =
+18. Não recebe vantagem pela provocação; a área de
+proteção de Rina permanece ativa.
+Ela usa a Padrão numa espadada: 12 + 5 = 17, contra
+Defesa 13, e causa 5 + 4 + 2 = 11. Ren gasta Reação e
+2 PE em Cobrir-se: reduz o golpe para 8. Primeiro
+perde os três temporários; depois cinco PV. Fica
+com 67 PV e 6 PE.
+Ren usa o ataque favorecido. No começo de seu
+turno, recupera sua Reação. Rina está ao alcance de
+D5. Usa Atacar e consome Impulso: os d20 são 3 e
+13; fica com 13 + 5 = 18, contra Defesa 13. O dano 6
++ 4 + 3 = 13 de Cortante vira 7 por Alicerce. Rina
+fica com 58 PV. Ela conserva a Reação. Ren
+permanece em D5; não ganhou outro golpe pelo
+apoio.
+Mei ataca Sora. Anda D0 → D4, 6 m, e conjura
+Arremesso de pressão, Padrão e 6 PE, restando 30.
+O resultado 8 + 5 = 13 acerta a Defesa 13. Os cinco
+d8 dão 6, 6, 5, 6 e 6: 29 de Concussão.
+Sora usa Reação e 2 PE para reduzir três. Perde 26
+PV, ficando com 22 PV e 7 PE. Depois do acerto,
+Mei usa Empurrão para movê-la por F8 → G9 → H10
+→ H11 → H12: 6 m. Ela conserva o estojo, mas fica a
+10,5 m de Ren, além dos 9 m de seus benefícios. O
+movimento não a silencia ou impede de conjurar
+em si.
+Akira tenta derrotar Sora. Anda F0 → F6, 9 m. Usa
+Corte de sutura contra Sora, agora a 9 m: paga 6 PE,
+mas tira 6 + 5 = 11 e erra. Com Bônus e 1 PE,
+prepara Executar para Mei contra Sora. Akira
+termina com 23 PE. Essa abertura vale até o
+começo do próximo turno dele; Mei poderá usá-la
+antes desse prazo.
+Rodada 2 - curar ocupa o lugar do
+reforço
+Sora se trata. Sua Reação volta, mas ela tem apenas
+7 PE. Está abaixo da metade da vida máxima. Anda
+H12 → G11 → F10 → F9 → F8, 6 m, para voltar a se
+aproximar de Ren. Usa a Padrão e 6 PE em
+Remendo sobre si. Os dados 3, 4, 5 e 6 curam 18:
+fica com 40 PV e 1 PE.
+Ela não concedeu outro Fio. Também não tem os 2
+PE exigidos para Cobrir-se, apesar de sua Reação
+estar disponível. Ter saído dos 9 m antes do turno
+não suprimiu toda a atuação de apoio; obrigou uma
+escolha de posição, e ela pôde tratar a si mesma.
+Rina mantém Ren ocupado. De C4, usa a Padrão na
+espada: 9 + 5 = 14, contra Defesa 13. Causa 4 + 4 + 3
+= 11. Ren ainda tem a Reação recuperada no turno
+anterior e a gasta em Cobrir-se, pagando mais 2 PE.
+Perde oito PV e fica com 59 PV e 4 PE. Não há vida
+temporária restante para absorver esse dano.
+Ren paga pela mudança de posição. Sua Reação
+volta no começo do turno. Usa Fenda em marcha
+contra Mei em D4: Padrão e 3 PE, restando 1. Antes
+da rolagem, Rina usa sua Reação para assumir o
+ataque, pois percebe Mei dentro dos 6 m de Olhos
+Em Mim.
+Ren tira 9 + 5 = 14, contra a Defesa 13 de Rina. Os
+dois d8 dão 5 e 6: 11 de Concussão, reduzidos para
+6 por Alicerce. Rina fica com 52 PV. O ataque é
+feitiço: não soma Canalizar e não aciona Kokusen.
+Depois da aplicação, Ren usa Passo para andar D5
+→ E6 → F7, 3 m sem oportunidades. Aproxima-se de
+Sora e de Akira. Não fez uma espadada na mesma
+Padrão; a mobilidade tomou o lugar desse ataque.
+Com 1 PE, também ficou sem outra Fenda ou
+Cobrir-se.
+Mei usa a abertura guardada. De D4, ataca Sora em
+F8 com Arremesso de pressão. Paga 6 PE, restando
+24, e consome Executar: tira 7 e 14; usa 14 + 5 = 19.
+Os dados 4, 4, 5, 5 e 6 causam 24. Sora fica com 16
+PV; a Reação disponível não permite pagar uma
+redução sem energia suficiente.
+Empurrão volta a levá-la de F8 a H12 pelo mesmo
+trajeto de 6 m. Mei não Remodelou o feitiço,
+portanto não recebe Impulso Técnico por essa
+conjuração comum.
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+151

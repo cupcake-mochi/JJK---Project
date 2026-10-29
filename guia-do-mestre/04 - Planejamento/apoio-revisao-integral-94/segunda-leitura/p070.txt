@@ -1,0 +1,70 @@
+CICLO MALDITO / GUIA DO MESTRE
+RECURSOS E SOCORRO
+CAPÍTULO 4
+Recursos e socorro
+Acompanhe custos e condições, resolva socorro e organize retirada e recuperação.
+Neste capítulo: 4.1 Vida, energia e outros recursos · 4.2 Quedas e socorro · 4.3 Retirada e recuperação
+4.1 · Vida, energia e outros
+recursos
+Antes de uma missão, confira como estão os
+personagens. Durante o jogo, registre custos,
+perdas e efeitos no momento em que ocorrem. Ao
+terminar a missão, confira o que cada personagem
+recupera pelas regras e o que ainda precisa de
+cuidado.
+Use os campos abaixo para acompanhar o que cada
+personagem ainda tem. Quedas e socorro (p. 73)
+explica o que acontece ao chegar a zero de vida ou
+ficar Derrotado; Retirada e recuperação (p. 77) trata
+da saída do perigo e da retomada. O registro de
+estado e socorro (p. 311) reúne os campos de
+consulta.
+Máximo e valor atual
+O máximo é o limite de uma reserva naquele
+momento. O valor atual é quanto resta dela. Vida,
+pontos de energia (PE) e Integridade precisam de
+registros separados.
+Exemplo: uma personagem tem 23 de vida máxima
+e perde 5. Sua vida atual fica em 23 - 5 = 18; o
+máximo continua 23. Uma regra que reduza o
+máximo deve ser registrada à parte, com sua
+duração ou condição para voltar ao normal.
+Registro
+O que acompanhar
+Vida
+Máximo atual, saldo e vida temporária separada
+Energia
+Máximo, saldo e energia temporária separada
+Integridade
+Máximo, saldo e estágio da perda, quando aplicável
+Condições e efeitos
+Fonte, aplicação, prazo e forma de encerrar
+Capacidades limitadas
+Usos gastos e condição para recuperar
+Equipamento
+Itens, munição, consumíveis, carga e alterações relevantes
+Sequelas, Cicatrizes e Exaustão
+Quantidades e consequências conforme suas regras
+O nome de uma reserva não substitui o que a ficha
+permite fazer. No ramo Sem Energia de Restrição
+Celestial, os PE são Pontos de Esforço; gastá-los
+não cria energia amaldiçoada. Corpos e entidades
+podem ter exceções próprias. Confira a entrada
+correspondente antes de usar os mesmos campos
+para todos.
+Como descontar o dano
+Confira o dano do efeito, os tipos, as defesas e as
+reduções permitidas. Depois aplique o resultado às
+reservas. Resistência, Redução de Dano e vida
+temporária entram em momentos diferentes da
+conta.
+Exemplo: um golpe causa 21 de Fogo. Resistência
+reduz à metade: 21 ÷ 2 = 10,5, arredondado para 11
+de dano recebido. Uma redução aplicável retira 4:
+restam 7. Com 3 de vida temporária, a personagem
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+70

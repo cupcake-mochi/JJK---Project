@@ -1,5 +1,13 @@
 # Competências que o Guia do Mestre deve ensinar
 
+> **Fila vigente — registro 100, 28/10/2026:** etapa 2 entregue: [Sua primeira missão, texto e amostra](<100-primeira-missao-reunida-e-comentada.md>), com preparo, planta, ficha e confronto comentado em duas rodadas. Amostra isolada de 10 páginas; o PDF integrado continua com 357 páginas. Próxima tarefa: **etapa 3, núcleo de ensino — O mundo dos feiticeiros e Preparar aventuras; GPT-6.1 Sol, esforço alto**. As filas anteriores são históricas.
+
+> **Fila histórica — registro 99, 28/10/2026:** etapa 1 entregue no [sumário comentado e mapa de reaproveitamento](<99-sumario-comentado-e-caminhos-de-leitura.md>): dez capítulos, quatro apêndices, quatro caminhos de leitura e destino das 104 fontes e 20 competências. A nova ordem ainda não foi aplicada ao PDF/HTML, que continuam na revisão de leitura 3, com 357 páginas no PDF. Próxima tarefa: **etapa 2 do plano 98, reunir a primeira missão e escrever a amostra comentada — GPT-6.1 Sol, esforço alto**. As filas abaixo são históricas.
+
+> **Plano anterior — registro 98, 28/10/2026:** o [plano de melhoria e avaliação](<98-plano-de-melhoria-e-validacao-do-guia.md>) organiza a próxima revisão a partir da [comparação com outros guias](<97-comparacao-critica-com-guias-de-mestre.md>). Próxima tarefa: etapa 1, sumário comentado, quatro caminhos de leitura e mapa de reaproveitamento das 104 fontes — **GPT-6.1 Sol, esforço alto**. O PDF atual continua com 357 páginas; a reestruturação ainda não foi executada. As filas antigas abaixo são históricas. Cobertura escrita permanece distinta de facilidade de uso, aprendizado observado e equilíbrio.
+
+> A matriz P01–P20 continua válida como inventário. A revisão 98 usará seus mesmos IDs, acrescentando evidências de uso e qualidade; as contagens anteriores não medem o patamar do livro.
+
 Versão 21, de 26 de outubro de 2026. Primeira edição de leitura integrada no registro91. M051/P20 conferidos no escopo publicado; 130 E/0 P/0 L e 20 E/0 P. Próximo: revisão do conjunto. Reserva mantida conforme decisão87.
 
 > **Orientação vigente:** A [primeira edição de leitura](<../07 - Edicao de Leitura/index.html>) está organizada em dez capítulos, fichas de mesa, termos e piloto, com aprofundamento da obra em acesso separado sinalizado. O [registro91](91-integracao-da-primeira-edicao-de-leitura.md) fecha a conferência editorial de M051/P20 conforme a decisão87. [Cobertura vigente](apoio-edicao-leitura/cobertura-atualizada.json): 130 E/0 P/0 L e 20 E/0 P, sem aprendizagem observada ou equilíbrio certificado. Os totais indicam demonstrações escritas, não porcentagem de conclusão. As atualizações anteriores são históricas.

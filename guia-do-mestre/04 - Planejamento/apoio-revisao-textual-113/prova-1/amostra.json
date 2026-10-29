@@ -1,0 +1,80 @@
+{
+  "registro": 113,
+  "fontes": [
+    {
+      "id": "c04",
+      "fonte": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+      "sha256": "eae6f0fe72cc79bced996edecb5c217e0799357961f845b4d4f7c0482c027afd",
+      "titulo": "Na mesa de jogo"
+    },
+    {
+      "id": "c05",
+      "fonte": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+      "sha256": "fc9f2f6b66b57eeb626951bf36df838ceb476322402fba9f6a40bbe17792b6bf",
+      "titulo": "Criar uma campanha"
+    }
+  ],
+  "consultas": [
+    {
+      "fonte": "04 - Planejamento/apoio-conducao-102/consulta-de-regras.html",
+      "sha256": "d870cd1ca614a4efdf641f2292e0931711686aa9cb6c24b658a6785ebcb4ae5c",
+      "secoes": 13
+    },
+    {
+      "fonte": "04 - Planejamento/apoio-campanha-103/consulta-de-regras.html",
+      "sha256": "c31053410b69f405a37841f7ce518e833a7ab9ee5bfc85ef9217fbb392ce6d99",
+      "secoes": 3
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-113/prova-textual.html",
+  "html_sha256": "487ef6ee7d2e9f5fbd2a9f7d4fe3552889d6e376196260ec5cfbe87b71db1f8d",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-113/output/pdf/Ciclo-Maldito-Capitulos-4-e-5-Revisao-Textual.pdf",
+  "pdf_sha256": "08b19b702ece2cb9ca567e9d06125eef55657645ec47f455df99401d4cae88dd",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 593
+    },
+    {
+      "pagina": 2,
+      "palavras": 644
+    },
+    {
+      "pagina": 3,
+      "palavras": 577
+    },
+    {
+      "pagina": 4,
+      "palavras": 652
+    },
+    {
+      "pagina": 5,
+      "palavras": 691
+    },
+    {
+      "pagina": 6,
+      "palavras": 644
+    },
+    {
+      "pagina": 7,
+      "palavras": 541
+    },
+    {
+      "pagina": 8,
+      "palavras": 546
+    },
+    {
+      "pagina": 9,
+      "palavras": 610
+    },
+    {
+      "pagina": 10,
+      "palavras": 622
+    },
+    {
+      "pagina": 11,
+      "palavras": 63
+    }
+  ],
+  "limite": "Prova parcial; a etapa 6, a integração e a revisão visual integral continuam em andamento."
+}

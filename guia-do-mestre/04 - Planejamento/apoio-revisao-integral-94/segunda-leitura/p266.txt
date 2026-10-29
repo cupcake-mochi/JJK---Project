@@ -1,0 +1,98 @@
+CICLO MALDITO / GUIA DO MESTRE
+PACTOS E ENTIDADES
+A retomada aplica a referência de 50% ao trabalho
+da passagem que falhou. Se houver outro prazo
+justificado no projeto, calcule a retomada sobre o
+trabalho aprovado daquela operação, com
+arredondamento para cima em horas inteiras e
+mínimo de uma hora, salvo alternativa detalhada
+previamente combinada.
+A metade é calculada sobre a referência de criação
+da nova Classe, não sobre as horas que o
+personagem gastou no passado. Uma fabricação
+anterior mais lenta ou uma falha antiga não
+aumenta essa base. Alterações físicas adicionais
+entram como tarefas identificadas no orçamento
+atual, sem cobrar novamente peças prontas que
+serão aproveitadas.
+Reconstruir uma Classe exige menos trabalho-base
+que criar outra entidade daquela Classe.
+Reconstruir várias vezes ao longo da campanha
+acumula trabalho e testes: a entidade esteve
+disponível durante a progressão, mas sua
+continuidade não é gratuita.
+Teste e resultado
+Uma pessoa treinada no ofício compatível conduz o
+trabalho. A nova Classe não pode superar a de
+quem reconstrói nem a do invocador. Compare a
+nova Classe com a do responsável e aplique a
+redução de dificuldade prevista no Livro de Regras
+1.0:
+Nova Classe em relação ao responsável
+Ajuste à base da CD
+Igual
+-2
+Uma abaixo
+-4
+Duas ou mais abaixo
+-4
+A CD é 8 + atributo usado no ofício + Maestria +
+ajuste. A rolagem usa d20 + atributo + Maestria,
+com os outros modificadores permitidos.
+Especialização altera o teste, sem aumentar
+novamente a base da CD.
+No sucesso, atualize a entidade conforme a nova
+Classe e o nível permitido. Na falha, a reconstrução
+não se conclui e a entidade continua onde está.
+Conserve o registro do que permaneceu
+aproveitável, cumpra o retrabalho e reponha os
+consumíveis anunciados. A nova tentativa depende
+de autorização do mestre e tem vantagem pelo
+Livro de Regras 1.0.
+Reconstrução não concede uma recuperação
+adicional apenas porque houve investimento de
+tempo. Vida e outros valores seguem a evolução da
+ficha e as regras de recuperação correspondentes.
+Exemplo: continuar com a mesma entidade
+Kaito alcançou o nível 13. Sua entidade criada está
+no nível 12, limite da Classe 3. Rina, também de
+nível 13 e Classe 4, vai reconstruí-la para Classe 4.
+Ela é treinada no ofício compatível, com Destreza 4
+e Maestria 2. A nova ficha foi conferida antes do
+início.
+Criar diretamente uma entidade de Classe 4 tem
+referência de 48 horas. A reconstrução pede 48 ÷ 2
+= 24 horas. O orçamento deste exemplo prevê
+¥12.000 em peças aproveitáveis e ¥3.000 de
+consumíveis por tentativa. Ferramentas e local já
+estão disponíveis. Esses preços são ilustrativos, sem
+tabela universal de reconstrução.
+Rina completa as 24 horas. A nova Classe é igual à
+sua; a redução da reconstrução dá CD 8 + 4 + 2 - 2 =
+12. Ela tira 5, soma 6 e fica com 11: falha.
+Rina decide continuar. Repõe os ¥3.000 de
+consumíveis e cumpre doze horas de retrabalho.
+Na tentativa autorizada, rola com vantagem: 3 e 8.
+Usa 8, soma 6 e chega a 14, sucesso. A entidade
+passa à Classe 4 e pode acompanhar Kaito no nível
+13.
+Total: 36 horas de Rina e ¥18.000 em materiais. Se
+ela começou sem saldo, com 28 horas no ciclo, pode
+usar 24 no trabalho inicial e quatro na retomada;
+ainda faltam oito para o ciclo seguinte. Essa
+distribuição pressupõe tempo e condições na
+história. A troca de ciclo não refaz o teste nem
+encerra a reconstrução sozinha.
+Mais de uma Classe
+É um teste por Classe. Para passar da Classe 1 à 4,
+execute três passagens: oito, dezesseis e 24 horas. O
+trabalho-base total é 48 horas, além do que já foi
+gasto na criação inicial.
+Se a primeira passagem tiver sucesso e a segunda
+falhar, retome apenas a segunda. Ela exige mais
+Sumário
+Capítulo
+Fichas
+Índice
+PRÉ-1.0 · EDIÇÃO DE LEITURA
+266
