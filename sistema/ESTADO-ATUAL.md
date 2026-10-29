@@ -6,7 +6,7 @@ A revisão didática por capítulos foi integrada aos dois PDFs, agora com 425 p
 
 Sete validadores cobravam frases que a revisão reescreveu. Eles agora leem a redação nova, e cada um ganhou teste negativo. A contagem das nove Famílias passou a sair da escolha da criação (duas Livres, três Fechadas e quatro restantes).
 
-Falta publicar a R59 na Vercel. O repositório `JJK---PDF---RPG` ainda serve a R58.
+A R59 foi publicada na Vercel em 29/10/2026, clara e noturna. Os dois PDFs baixados do site são idênticos aos aprovados. O registro está em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r59/PUBLICACAO.json`, com a conferência ao lado, no `VERIFICACAO-PUBLICADA.json`.
 
 # Edição anterior R58
 
