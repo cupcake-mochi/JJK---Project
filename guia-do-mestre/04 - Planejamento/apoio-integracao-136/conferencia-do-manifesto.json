@@ -1,0 +1,20 @@
+{
+  "registro": 136,
+  "entradas_anteriores": 4104,
+  "originais_preservados": 104,
+  "fontes_de_entrada_preservadas": 97,
+  "arquivos_anteriores_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "pdf_anterior_preservado": true,
+  "falhas": [],
+  "metodo": "Auditoria de todas as entradas anteriores; atualização por união restrita aos nove controles e aos novos artefatos de integração. O guia de consulta antigo não é alterado."
+}

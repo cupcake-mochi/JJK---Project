@@ -1,0 +1,243 @@
+{
+  "registro": 126,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Remodelar: Fura → Rápido na Classe 3",
+      "resultado": [
+        6,
+        2,
+        4,
+        2,
+        11
+      ],
+      "esperado": [
+        6,
+        2,
+        4,
+        2,
+        11
+      ]
+    },
+    {
+      "conta": "Cortina com Refino 6",
+      "resultado": [
+        true,
+        false,
+        240
+      ],
+      "esperado": [
+        true,
+        false,
+        240
+      ]
+    },
+    {
+      "conta": "Traje com Maestria 2: perícias e TR",
+      "resultado": [
+        2,
+        1
+      ],
+      "esperado": [
+        2,
+        1
+      ]
+    },
+    {
+      "conta": "Pulso: saldos nas Classes 3 e 4",
+      "resultado": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ]
+    },
+    {
+      "conta": "Pulso: Explosão (Média) no lugar de Aura (Leve)",
+      "resultado": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "esperado": [
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "conta": "Pulso: Remodelar e PE",
+      "resultado": [
+        2,
+        2,
+        11,
+        14
+      ],
+      "esperado": [
+        2,
+        2,
+        11,
+        14
+      ]
+    },
+    {
+      "conta": "Yara: CD e exemplos",
+      "resultado": [
+        14,
+        8,
+        11,
+        6,
+        11,
+        3
+      ],
+      "esperado": [
+        14,
+        8,
+        11,
+        6,
+        11,
+        3
+      ]
+    },
+    {
+      "conta": "Firmeza: Classe 2 e Classe 3",
+      "resultado": [
+        2,
+        4,
+        6,
+        3
+      ],
+      "esperado": [
+        2,
+        4,
+        6,
+        3
+      ]
+    },
+    {
+      "conta": "Firmeza + Guarda na Classe 2",
+      "resultado": [
+        3,
+        3
+      ],
+      "esperado": [
+        3,
+        3
+      ]
+    },
+    {
+      "conta": "Iara e Rui",
+      "resultado": [
+        8,
+        18
+      ],
+      "esperado": [
+        8,
+        18
+      ]
+    },
+    {
+      "conta": "Lâmina de canal: saldos com devolução Média, Leve e zero",
+      "resultado": [
+        7,
+        6,
+        4
+      ],
+      "esperado": [
+        7,
+        6,
+        4
+      ]
+    },
+    {
+      "conta": "Lâmina de canal: Fura, ataque e dados",
+      "resultado": [
+        6,
+        6,
+        18,
+        25,
+        true
+      ],
+      "esperado": [
+        6,
+        6,
+        18,
+        25,
+        true
+      ]
+    },
+    {
+      "conta": "Matriz de chão: saldo e ataque",
+      "resultado": [
+        6,
+        false
+      ],
+      "esperado": [
+        6,
+        false
+      ]
+    },
+    {
+      "conta": "Luz de Oficina: PE",
+      "resultado": [
+        9,
+        6
+      ],
+      "esperado": [
+        9,
+        6
+      ]
+    },
+    {
+      "conta": "Desarma: saldos nas Classes 1 e 2",
+      "resultado": [
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        4
+      ]
+    },
+    {
+      "conta": "Desarma contra Luz de Classe 2",
+      "resultado": [
+        12,
+        false,
+        true,
+        7,
+        4
+      ],
+      "esperado": [
+        12,
+        false,
+        true,
+        7,
+        4
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Tabela de Classe e preços",
+      "Remodelar e seu exemplo",
+      "Cortina e Barreira Simples",
+      "Situação do Traje",
+      "Semente de Sem Técnica",
+      "Pulso de renovação, Forma Fluida e Composição Técnica",
+      "Firmeza, Guarda, Fura, Rápido e Gesto",
+      "Condicional, grupo de frequência e revisão de Restrições",
+      "Luz de Oficina e Desarma o Feitiço"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Matriz de chão e a Classe atribuída ao painel do Escriba continuam propostas experimentais; contas corretas não as aprovam."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "registro": 127,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-127/output/pdf/Ciclo-Maldito-Oficios-Ferramentas-e-Recompensas-Revisao-Textual.pdf",
+  "pdf_sha256": "2546fcda2388d00cac2c26f8f7a0099c4127a86ef23832820e057d9c09f633be",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 15,
+      "escopo": "Leitura integral das seis fontes e das regras citadas, seis cópias, remissões, clareza e a frase sobre treinamentos."
+    },
+    {
+      "passagem": 2,
+      "registros": 1,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; pente fino."
+    }
+  ],
+  "ajuste_de_diagramacao": "Rótulo de cada caso preso ao título; o caso da Pastilha passou para a página 11.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-01.png",
+      "imagem_sha256": "1ba4be2d4338b557a4d5839eeb05e097ba5124bf23c94a98091ef5f46df7e223",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura dos Ofícios, treino e quadro do projeto."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-02.png",
+      "imagem_sha256": "813b4db9ff7a47622e451132f2178b1e0e369686aeeb0c9f58bef8f8f13c17b0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Teste, etiquetas, reparo interrompido e ajuda."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-03.png",
+      "imagem_sha256": "80b76b35924a045aef6d4c99857c397b6e22cada85d5378474ceb401f9ec39d3",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro de reparo; treinamentos sem regra aprovada; abertura das ferramentas."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-04.png",
+      "imagem_sha256": "e9758d49c5aeaf2ddf114c4b3e8295064aac8d71236597e708b7f79c78119c49",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Usar e identificar ferramentas; criar a ficha."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-05.png",
+      "imagem_sha256": "6790322a56cb045b5b92f0744ddd921c62a32bc6897c1cc77870d592542c2913",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Desgaste e quadro do objeto perigoso."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-06.png",
+      "imagem_sha256": "903be559fff7e139eb14ccb2b7c420a0cfcff701a7f7b633bc29131cdeb9e7d0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Fim das ferramentas; abertura do Anel e quadro da ficha experimental."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-07.png",
+      "imagem_sha256": "c629c2392a2e81c40ab24df6c79f2c2f0fd52a88b7feee0521735b41a6ecc403",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Grau 3, exemplo de uso, identificação e início do contrato."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-08.png",
+      "imagem_sha256": "6e1e9a9aded74cfc8471fa24b3bb12298316ff29075653ec7e553d6e6caa821d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Contrato, trabalho, falha e entrega."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-09.png",
+      "imagem_sha256": "7a85b99f44718d87ac44d0732c3fd59dd60d544299987fb5ed8d8ae8548341a4",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Registro do Anel; abertura do Cofre e quadro de conferência."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-10.png",
+      "imagem_sha256": "2e72e8d961ed16e1194d58091b47bba75250458b3ea2a704a9bb60e9e9f15eb8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Venda e Palavra Empenhada; espaço em branco no pé da página."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-11.png",
+      "imagem_sha256": "026fe5b4593cce0ae618c550aed6cb46a3c6a2b49ccf27c166d308ed49d39aee",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Abertura da Pastilha com rótulo e título juntos; quadro do selo."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-12.png",
+      "imagem_sha256": "47f9cb06b9820a9642b09b815095197723a6aa64b648e66fe3dd366bf0ca074a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "O que o grupo sabe, retirar, renovar e ingestão."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-13.png",
+      "imagem_sha256": "de20e91a165fd2ccd4a3a6e1e9923db9bc58c9bb9d44932103c669ad0bd05994",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Destruição e entrega; abertura do Limiar e quadro da cura."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-14.png",
+      "imagem_sha256": "7eb24ae494f54b2cd23f8eb997729bc430e463309526491745a03515b62358a6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Quadro dos requisitos do feito e XP."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-127/pagina-15.png",
+      "imagem_sha256": "964505b57a36c7bd7bf0b9a6ac08536c03bc1f56119cca753ef1049665d3ef83",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Promoção, quadro dos registros e registro final."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "A página 10 termina com cerca de um terço em branco; reavaliar na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

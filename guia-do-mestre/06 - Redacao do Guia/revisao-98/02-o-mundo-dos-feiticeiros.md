@@ -70,7 +70,7 @@ Para uma ocorrência, talvez seja mais útil apresentar quem conhece o local, or
 
 Autoridade, influência e confiança podem estar em pessoas diferentes. Uma diretora autoriza um empréstimo; a profissional que mantém o objeto conhece seu estado; alguém do grupo pode ter construído uma relação de confiança com ela.
 
-Anote o que cada pessoa pode fazer quando isso afetar a escolha. Uma frase concreta ajuda: “Emi aceita emprestar a peça e quer combinar sua devolução”. Depois, interprete sua reação às propostas. Ela pode aceitar outra condição, pedir uma garantia ou explicar uma preocupação.
+Anote o que cada pessoa pode fazer quando isso afetar a escolha. Uma frase concreta ajuda: “Yoko aceita emprestar a peça e quer combinar sua devolução”. Depois, interprete sua reação às propostas. Ela pode aceitar outra condição, pedir uma garantia ou explicar uma preocupação.
 
 A **patente**, ou Grau, representa reconhecimento no meio jujutsu. O **nível** acompanha a progressão da ficha. Ao preparar uma relação, considere também o cargo, os conhecimentos e os vínculos de cada pessoa. Uma funcionária pode conhecer um prédio melhor que o feiticeiro enviado para protegê-lo.
 

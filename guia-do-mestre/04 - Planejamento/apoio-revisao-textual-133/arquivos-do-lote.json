@@ -1,0 +1,55 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+    "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+    "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+    "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md"
+  ],
+  "casos": [
+    {
+      "id": "s040",
+      "fonte_original": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "id_prova": "dedicacao"
+    },
+    {
+      "id": "s042",
+      "fonte_original": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+      "id_prova": "pactos"
+    },
+    {
+      "id": "s044",
+      "fonte_original": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "id_prova": "entidade"
+    },
+    {
+      "id": "s058",
+      "fonte_original": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "id_prova": "inimigo"
+    },
+    {
+      "id": "s061",
+      "fonte_original": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "id_prova": "habilidade"
+    }
+  ]
+}

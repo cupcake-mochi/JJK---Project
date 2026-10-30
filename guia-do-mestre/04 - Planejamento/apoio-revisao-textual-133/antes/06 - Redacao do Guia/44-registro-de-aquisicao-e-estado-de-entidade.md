@@ -1,0 +1,87 @@
+# Registro de aquisição e estado de entidade
+
+Use uma folha por entidade, junto da ficha completa de **Construir invocações**, no Livro de Regras 1.0. Esta folha acompanha aquisição, projeto e continuidade. Não substitui atributos, habilidades e demais campos da ficha.
+
+## Identificação e aquisição
+
+| Campo | Registro |
+|---|---|
+| Nome e definição | O que é e qual função cumpre. |
+| Origem e corpo | Técnica, criação ou domada; talismã, corpo e outras características pertinentes. |
+| Invocador | Personagem responsável; nível, Classe e rota. |
+| Forma de aquisição | Espaço, lista de ritual, criação ou doma. |
+| Nível e Classe da entidade | Valores atuais e limite de evolução. |
+| Requisito usado | Espaço ocupado, entrada da lista, projeto ou ficha resultante da doma. |
+| Ficha conferida | Onde consultar a montagem e quem a conferiu. |
+| Ofício compatível | Ofício registrado na criação, quando exigido; materiais do corpo ou talismã. |
+| Comunicação | Como recebe ordens e transmite informações; sentidos e limites. |
+| Controle e transporte | Teto de ativos, corpos mantidos, Volume e talentos de carga aplicáveis. |
+
+## Projeto de criação, reconstrução ou transferência
+
+| Campo | Registro |
+|---|---|
+| Operação | Criar, reconstruir para qual Classe ou transferir para quem. |
+| Permissão e requisitos | Oportunidade, responsáveis habilitados e consentimento na transferência ou morte do dono anterior. |
+| Trabalho | Horas combinadas, partes concluídas e interrupções admitidas. |
+| Espera | O que precisa acontecer além da dedicação. |
+| Materiais e ferramentas | O que está disponível, consumido ou ainda necessário. |
+| Responsável e ajuda | Treino, atributo, Maestria e contribuição; ajudante treinado dedica o mesmo tempo. |
+| Teste | Classes comparadas, CD, modificadores e origem válida da vantagem. |
+| Resultado | Dados, total, sucesso ou falha. |
+| Nova tentativa | Condição de autorização, trabalho ou materiais adicionais e vantagem prevista após falha. |
+| Dedicação por participante | Ligações com os registros individuais de tempo; horas confirmadas e reservadas. |
+
+**Antes de iniciar:** conheça o resultado pretendido e as condições do projeto. **Antes de rolar:** confirme que o trabalho foi cumprido. **Antes de usar:** confira se a aquisição foi concluída e pague os custos de entrada ou ativação devidos.
+
+## Exemplo de conferência do teste
+
+Este quadro retoma os números publicados da calígrafa no Livro de Regras 1.0. Mostra os requisitos e o resultado do teste; não define um prazo-padrão ou preço de materiais.
+
+| Campo | Caso |
+|---|---|
+| Operação | Criar um shikigami de talismã de Classe 3. |
+| Responsável | Caligrafia treinada; nível 13, Classe 4, Destreza 4, Maestria 2. |
+| Destinatário | Invocador de nível 9, Classe 3. |
+| Ficha | Preparada antes do teste, no nível 9, com ofício Caligrafia. |
+| Comparação | Entidade uma Classe abaixo da responsável. |
+| Dificuldade | 8 + 4 + 2 − 2 = 12. |
+| Rolagem | d20 + 6; resultado 6 no dado totaliza 12 e tem sucesso. |
+| Entrega | Entidade com vida máxima, recolhida em talismã sem carga; 0,5 de Volume. |
+| Evolução | Acompanha o invocador até o nível 12; Classe 4 exige reconstrução. |
+
+Este quadro resolve o teste. [Tempo e materiais para criar entidades](45-tempo-materiais-e-retomada-de-entidades.md) acrescenta um orçamento e uma linha de trabalho com falha; [reconstrução e transferência](46-reconstruir-transferir-e-herdar-entidades.md) exemplifica as operações posteriores. Para executar um projeto, mantenha também a ficha completa da entidade vinculada ao registro; CD e horas não a substituem.
+
+## Estado para passagem entre mesas
+
+- Vida atual e máxima, Integridade quando aplicável e excedente de queda quando houver.
+- Ativa, recolhida, inativa, caída, Desligada, destruída ou outro estado pertinente; posição quando permanece no mundo.
+- Condições, efeitos e respectivos prazos; auras ou efeitos que dependem de presença.
+- Carga do talismã; reserva própria somente quando o tipo permitir; usos gastos e recuperação exigida.
+- Tarefa atual e forma pela qual foi recebida.
+- Básica, Movimento e Reação coletiva disponíveis, se a mesma cena continuar.
+- Ordem pendente, requisitos, custos já pagos e prazo.
+- Equipamento próprio, objetos transportados para terceiros e passageiros previstos na ficha.
+- Nova pessoa responsável após transferência bem-sucedida, sem apagar estados ou usos.
+
+Ao encerrar uma missão, registre o estado real e as recuperações que aconteceram. Fechar o ciclo administrativo da guilda ou mudar de mestre não recupera a entidade por si.
+
+## Exemplo de lista de ritual
+
+[A prova do Cão de sombra](51-ritual-do-cao-de-sombra.md) inclui um registro preenchido de vitória. Anote também a versão dos termos, o resultado do desafio, eventual intervenção, destruição e condição para tentar novamente. “Conquistada” e “pronta para atuar” são campos diferentes: uma entidade conquistada ainda caída precisa do retorno ou recuperação aplicável.
+
+## Exemplo de doma
+
+[Domar o Amontoado](52-domar-o-amontoado.md) inclui a folha preenchida logo após a submissão: valores atuais e máximos convertidos, excedente, posição, corpo Desligado e falta de recolhimento. Atualize o mesmo registro depois de religar ou recuperar recursos; não substitua “adquirida” por “recuperada”.
+
+## Construção e evolução
+
+[O Escriba de campo](53-construir-e-evoluir-o-escriba.md) mostra quais campos revisar ao ganhar nível: atributos, vida e Integridade máximas, treinos, vagas, talentos e versões ampliadas. Guarde também o texto e as condições de aprovação de capacidades próprias. Uma projeção de vagas não significa que todos os poderes futuros já foram escolhidos.
+
+## Transporte e continuidade
+
+[A Mula de dobra](54-transporte-e-continuidade-das-entidades.md) inclui o registro preenchido de embarque e retirada: um passageiro, 8/8 Volume, custo de montar, básica, metros gastos e término da tarefa. Ao recolher, anote onde ficaram passageiro e objetos. Se o invocador deixar de agir, registre a situação concreta e a última tarefa válida; inconsciência e morte confirmada seguem regras diferentes.
+
+## Fabricação completa
+
+[O Vigia do depósito](55-fabricar-e-evoluir-o-vigia-do-deposito.md) reúne ficha, orçamento, horas, testes, entrega sem carga e evolução. A transferência é um exemplo alternativo no nível 9; não misture seus valores com a reconstrução posterior ao nível 13.

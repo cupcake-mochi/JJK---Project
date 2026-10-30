@@ -1,0 +1,113 @@
+{
+  "registro": 124,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-124/output/pdf/Ciclo-Maldito-Doenca-e-Fichas-Preenchidas-Revisao-Textual.pdf",
+  "pdf_sha256": "c429f81503d669be143ea222d9ec51bfcd338272ddbdc24e1a9df246bd22784b",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 19,
+      "escopo": "Leitura integral das três fontes e das consultas citadas, três cópias, remissões, clareza e o nome do Carregador."
+    },
+    {
+      "passagem": 2,
+      "registros": 1,
+      "escopo": "Leitura integral das onze páginas da prova paginada e pente fino."
+    }
+  ],
+  "ajuste_de_diagramacao": "Primeira prova com 12 páginas e duas quase vazias; casos curtos passam a seguir na mesma página, como na prova 121, e quadros a partir de cinco linhas podem continuar com cabeçalho repetido.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-01.png",
+      "imagem_sha256": "bd15f9b000d860c42eef060b9ed89822eb02c4c43f93e5ae2bf92ff36f85998f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura da febre, aviso e quadro de transmissão em largura inteira."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-02.png",
+      "imagem_sha256": "6d561f47df5a9d0b8d74620e7ebb6443c1e542ca94eb91ae8434c4c96a3e7cae",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Continuação do quadro com cabeçalho repetido; crises, tratamento."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-03.png",
+      "imagem_sha256": "810764287ff5c1578cbc53176e7a80c7ebb92b7b45e0d1c62acf0c5aedeb633e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Tentativas, isolamento e quadro do exemplo por horário; ressalva sobre esta Rina."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-04.png",
+      "imagem_sha256": "5788e3fa7507d80ad231713b3e59fd0c5977ba61ff30cd183da06448e8ef2a4c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Fim da febre e abertura da ficha preenchida na mesma página; quadro dos participantes."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-05.png",
+      "imagem_sha256": "18a5e0ceadbcbd6dc67161e4ec085eeb9d451d91ec48eb48489bc23e01a0440d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro largo das ameaças; atuação, prioridades, retirada e derrota."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-06.png",
+      "imagem_sha256": "3bf9b6623b48c534cb184797aaadcd15b46973ecf78209738ece22d22de4c583",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Fio de impulso em quadro largo e começo do quadro de lugar e sinais."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-07.png",
+      "imagem_sha256": "5148f17da35a538baa8b6167adc216565c5f94d5ca54571865abdac0b1d5c163",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do quadro com cabeçalho repetido; antes de jogar e resultado final."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-08.png",
+      "imagem_sha256": "b42ac7238208e129d2f12b343414ff8916943a10897ba3d24068d2d25d823614",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Fim da ficha e abertura do chefe na mesma página; quadro da conferência e começo das configurações."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-09.png",
+      "imagem_sha256": "2bad2e527e9c6d30d60b791a401495f9c2cefab37e9d7baf269aa9cfd81ecf61",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Configurações com cabeçalho repetido; mapa do portão junto do exemplo de Preparar."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-10.png",
+      "imagem_sha256": "387fa110843906e16797f96226ad1786e9a0b641f15552239168123e6d7b2022",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Exemplo de Preparar, turnos para responder e começo das mudanças."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-124/pagina-11.png",
+      "imagem_sha256": "46de0612233c86a9b0e3bd9928ce4636637590b535adbd75a34bab22bacbc5db",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na paginação final; imagem idêntica (mesmo hash)",
+      "observacao": "Fim das mudanças e escolha do exemplo; fechamento."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Vazios curtos antes de quadros largos serão reavaliados na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

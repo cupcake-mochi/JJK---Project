@@ -1,0 +1,367 @@
+{
+  "registro": 129,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Destruição (52 PV, 8 atuais): 30 e 35 de dano direto",
+      "resultado": [
+        22,
+        false,
+        27,
+        true
+      ],
+      "esperado": [
+        22,
+        false,
+        27,
+        true
+      ]
+    },
+    {
+      "conta": "Calígrafa: CD, bônus, falha e nova tentativa",
+      "resultado": [
+        12,
+        6,
+        false,
+        true
+      ],
+      "esperado": [
+        12,
+        6,
+        false,
+        true
+      ]
+    },
+    {
+      "conta": "Reconstrução e criação na Classe 4; transferência",
+      "resultado": [
+        12,
+        14,
+        12,
+        14
+      ],
+      "esperado": [
+        12,
+        14,
+        12,
+        14
+      ]
+    },
+    {
+      "conta": "Doma: CD 12",
+      "resultado": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ]
+    },
+    {
+      "conta": "Reconstrução = metade da criação da nova Classe",
+      "resultado": [
+        8,
+        16,
+        24,
+        36,
+        48,
+        64
+      ],
+      "esperado": [
+        8,
+        16,
+        24,
+        36,
+        48,
+        64
+      ]
+    },
+    {
+      "conta": "Retomada da reconstrução",
+      "resultado": [
+        4,
+        8,
+        12,
+        18,
+        24,
+        32
+      ],
+      "esperado": [
+        4,
+        8,
+        12,
+        18,
+        24,
+        32
+      ]
+    },
+    {
+      "conta": "Transferência = 1/8, mínimo 2",
+      "resultado": [
+        2,
+        2,
+        4,
+        6,
+        9,
+        12,
+        16
+      ],
+      "esperado": [
+        2,
+        2,
+        4,
+        6,
+        9,
+        12,
+        16
+      ]
+    },
+    {
+      "conta": "Retomada da transferência",
+      "resultado": [
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "esperado": [
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "conta": "Criação do Vigia: horas e materiais",
+      "resultado": [
+        32,
+        16,
+        48,
+        36000,
+        false,
+        true
+      ],
+      "esperado": [
+        32,
+        16,
+        48,
+        36000,
+        false,
+        true
+      ]
+    },
+    {
+      "conta": "Ciclos do Vigia",
+      "resultado": [
+        20,
+        20,
+        8,
+        48
+      ],
+      "esperado": [
+        20,
+        20,
+        8,
+        48
+      ]
+    },
+    {
+      "conta": "Reconstrução para Classe 4: horas e materiais",
+      "resultado": [
+        36,
+        18000,
+        4,
+        8
+      ],
+      "esperado": [
+        36,
+        18000,
+        4,
+        8
+      ]
+    },
+    {
+      "conta": "Classes 1 → 4: trabalho-base e com uma falha na segunda",
+      "resultado": [
+        48,
+        56
+      ],
+      "esperado": [
+        48,
+        56
+      ]
+    },
+    {
+      "conta": "Transferência do Vigia",
+      "resultado": [
+        4,
+        false,
+        true,
+        6,
+        4000
+      ],
+      "esperado": [
+        4,
+        false,
+        true,
+        6,
+        4000
+      ]
+    },
+    {
+      "conta": "Cão: vida, Integridade, Defesa, Bloquear",
+      "resultado": [
+        12,
+        6,
+        13,
+        2
+      ],
+      "esperado": [
+        12,
+        6,
+        13,
+        2
+      ]
+    },
+    {
+      "conta": "Cão: ataque, CD, TRs e perícias",
+      "resultado": [
+        4,
+        12,
+        4,
+        2,
+        1,
+        1,
+        4,
+        3,
+        2,
+        2,
+        4
+      ],
+      "esperado": [
+        4,
+        12,
+        4,
+        2,
+        1,
+        1,
+        4,
+        3,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "conta": "Cão: Mordida precisa",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "conta": "Cão: estágios de Integridade (máximo 6)",
+      "resultado": [
+        2,
+        3,
+        5
+      ],
+      "esperado": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "conta": "Kaito (correção): golpe desarmado com Canalizar, mínimo e máximo",
+      "resultado": [
+        5,
+        11
+      ],
+      "esperado": [
+        5,
+        11
+      ]
+    },
+    {
+      "conta": "Kaito: primeiro e segundo golpes",
+      "resultado": [
+        true,
+        6,
+        6,
+        0,
+        false
+      ],
+      "esperado": [
+        true,
+        6,
+        6,
+        0,
+        false
+      ]
+    },
+    {
+      "conta": "Kaito: golpe máximo a 1 PV destrói; golpe de 12 destrói",
+      "resultado": [
+        10,
+        true,
+        true
+      ],
+      "esperado": [
+        10,
+        true,
+        true
+      ]
+    },
+    {
+      "conta": "Golpe máximo de Kaito nunca alcança 12 sozinho",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "conta": "Retorno do cão e PE de Kaito",
+      "resultado": [
+        1,
+        2,
+        6,
+        7,
+        5
+      ],
+      "esperado": [
+        1,
+        2,
+        6,
+        7,
+        5
+      ]
+    }
+  ],
+  "correcao_documentada": {
+    "caso": "s051",
+    "antes": "ataque desarmado de Kaito: 1d4 + 3, sem outro modificador; d4 mostra 3 → 6",
+    "depois": "1d4 + 3 + 1d4 (Canalizar Energia); d4 mostram 1 e 2 → 6; aviso de que o golpe máximo de 11 destrói o cão a 1 PV",
+    "fundamento": "Livro de Regras 1.0: quem tem energia amaldiçoada recebe Canalizar Energia sem escolha; Canalizar em Golpe soma 1d4 no Refino 1–2 a cada ataque desarmado que acerta."
+  },
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Queda e destruição de entidades",
+      "Domar uma maldição",
+      "Criação, vantagem, reconstrução e transferência",
+      "Talismã de 0,5 Volume e limite de duas ativas",
+      "Perícias e Defesa de entidades",
+      "Canalizar Energia e Canalizar em Golpe",
+      "Retorno e entrada"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Os prazos de criação, reconstrução e transferência são referências do Guia; a prova do Cão de sombra é proposta experimental."
+  ]
+}

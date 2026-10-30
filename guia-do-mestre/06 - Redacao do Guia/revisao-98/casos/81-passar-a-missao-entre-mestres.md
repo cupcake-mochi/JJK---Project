@@ -1,6 +1,6 @@
 # Passar a missão entre mestres
 
-**Exemplo preenchido de passagem entre mestres.** Use com a [linha de continuidade](<../../16-linha-de-continuidade.md>) e o [registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>). A situação vem de [O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>), no exemplo em que Mei começa ferida e chega a zero de vida. Os dados e resultados foram escolhidos para explicar a passagem. Não são o relato de uma sessão jogada.
+**Exemplo preenchido de passagem entre mestres.** Use com a [linha de continuidade](<../consultas/16-linha-de-continuidade.md>) e o [registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>). A situação vem de [O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>), no exemplo em que Mei começa ferida e chega a zero de vida. Os dados e resultados foram escolhidos para explicar a passagem. Não são o relato de uma sessão jogada.
 
 A passagem ocorre **depois de resolver toda a fase ambiental da rodada 1, antes de começar o turno de Mei na rodada 2**. A cena fica pausada nesse instante. O intervalo entre sessões não faz as rodadas passarem na história.
 
@@ -8,13 +8,13 @@ A passagem ocorre **depois de resolver toda a fase ambiental da rodada 1, antes 
 
 | Campo da linha de continuidade | Registro deste exemplo |
 |---|---|
-| Missão e versão | Sala de conservação, exemplo com Mei ferida de [O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>); usar as regras do pó material apresentadas ali. |
+| Missão e versão | Sala de conservação, exemplo com Mei ferida de [O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>); usar as regras do pó material apresentadas ali. |
 | Situação | Alimentação fechada e extração ligada; limpeza em um de dois avanços. Nuvem ainda presente. |
 | Objetivo | Eliminar o risco da área e registrar a interdição do equipamento. Atendimento de Mei em andamento. |
 | Mudança confirmada | Mei chegou a zero e escolheu Insistir; os dois comandos já foram operados. |
 | Próximo ponto | Começo do turno de Mei 2, depois Akira 2 e a fase ambiental 2. |
 | Pendência imediata | Decidir retirada e atendimento antes de voltar ao ponto que conta a janela de socorro. |
-| Referências | Mapa e perigo da consulta [O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>); capacidades usadas no exemplo [Retirar a caixa, proteger a equipe](<../../73-ensaio-guiado-do-sineiro.md>); estado abaixo, vinculado à ficha utilizada. |
+| Referências | Mapa e perigo da consulta [O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>); capacidades usadas no exemplo [Retirar a caixa, proteger a equipe](<73-ensaio-guiado-do-sineiro.md>); estado abaixo, vinculado à ficha utilizada. |
 | Quem recebe | Mestre que retoma e jogadores conferem os dados pertinentes. As informações do preparo que os personagens não aprenderam ficam no registro do mestre. |
 
 Os exemplos mostram apenas parte das fichas dos personagens. Numa mesa real, a entrega precisa incluir as fichas completas e suas revisões atuais. Nome e nível não substituem capacidades, usos e condições efetivamente escolhidos.
@@ -75,7 +75,7 @@ Essa correção usa Vida a zero do Livro de Regras 1.0. Não concede uma rodada 
 
 ## Uma retomada possível
 
-O percurso abaixo conserva as escolhas do exemplo com Mei ferida e usa, no encerramento da condição, o mesmo resultado do exemplo principal da consulta [O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>).
+O percurso abaixo conserva as escolhas do exemplo com Mei ferida e usa, no encerramento da condição, o mesmo resultado do exemplo principal da consulta [O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>).
 
 | Momento | Resolução |
 |---|---|
@@ -95,9 +95,9 @@ Se Mei tivesse escolhido Aguentar ao cair, a entrega registraria Inconsciente e 
 | Mei | A0; **15/44 PV, 36/36 PE, 55/55 Integridade**, uma Sequela; sem Morrendo ou Envenenado deste perigo. Houve uma escolha de Insistir nesta cena; conserve essa contagem até a cena terminar. |
 | Akira | B0; **51/51 PV, 24/30 PE, 65/65 Integridade**; nenhum efeito aplicado no percurso. |
 
-Encerre os campos da queda resolvida e conserve a Sequela. Nenhum descanso foi declarado ou concluído. A equipe ainda precisa comunicar a interdição à pessoa responsável pela oficina e decidir como encaminhar o reparo. O pedido ou projeto de reparo, quando existir, usa a [ficha de projeto](<../../38-ficha-de-projeto-e-entrega.md>).
+Encerre os campos da queda resolvida e conserve a Sequela. Nenhum descanso foi declarado ou concluído. A equipe ainda precisa comunicar a interdição à pessoa responsável pela oficina e decidir como encaminhar o reparo. O pedido ou projeto de reparo, quando existir, usa a [ficha de projeto](<../consultas/38-ficha-de-projeto-e-entrega.md>).
 
-**Recompensas e registros:** o exemplo não fornece classificação anunciada da missão, posição semanal dos jogadores ou políticas de remuneração adotadas. Registre essa conferência como pendência, com responsável, e use [Encerrar a missão e entregar recompensas](<../../37-recompensas-e-fechamento.md>). Não invente um valor para preencher a lacuna nem credite de novo algo que outro registro já confirmou.
+**Recompensas e registros:** o exemplo não fornece classificação anunciada da missão, posição semanal dos jogadores ou políticas de remuneração adotadas. Registre essa conferência como pendência, com responsável, e use [Recompensas e progressão](<../08-entre-missoes.md#86-recompensas-e-progressao>). Não invente um valor para preencher a lacuna nem credite de novo algo que outro registro já confirmou.
 
 Uma pendência precisa dizer o que falta e quem aceitou acompanhá-la. Neste exemplo didático, o mestre que fecha confere a classificação e os históricos com os jogadores antes de lançar a recompensa; quem prepara a próxima missão acompanha a comunicação à oficina. Esses papéis ilustram a divisão do trabalho, sem atribuir uma tarefa a alguém real.
 

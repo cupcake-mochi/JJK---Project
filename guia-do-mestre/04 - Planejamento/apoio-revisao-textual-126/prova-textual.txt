@@ -1,0 +1,1344 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+CONSULTA DO MESTRE
+
+Dúvidas sobre técnicas e capacidades
+Consulte estes casos quando um jogador propuser
+algo que depende de uma permissão específica da
+ficha. Eles complementam Avaliar técnicas e
+criações; as capacidades completas continuam nas
+seções correspondentes do Livro de Regras 1.0.
+
+A troca do Emanador
+Desdobramento Técnico permite Remodelar uma
+parte de um feitiço conhecido de Classe 1 ou maior
+ou Forçar uma Modulação. A escolha acontece
+antes dos alvos e das rolagens. Ela vale para aquela
+conjuração, mantendo o Fundamento, as Famílias,
+as incompatibilidades e os limites.
+Pedido. “Vou retirar esta Melhoria e inventar agora
+uma que resolve o problema.”
+Conclusão. A troca não permite criar uma peça
+durante o uso. Um Efeito Próprio ou gatilho de
+Reação precisa estar registrado previamente. Classe
+0, Talentos, Liberações, Técnica Máxima e Domínio
+não recebem Desdobramento.
+Para conferir Remodelar, acompanhe o exemplo do
+Livro de Regras 1.0: Projétil de Classe 3, Fura a
+preço normal de 3 pontos, dano de 6d8. Trocar Fura
+por Rápido, de preço 5, exige retirar 2d8,
+resultando em 4d8. O adicional de Remodelar é
+metade da Classe para cima: 2 PE. A aplicação
+passa a custar 11 PE, usando Bônus e respeitando
+os demais requisitos de Rápido.
+Se a troca fosse por uma peça mais barata, a sobra
+seria descartada. Remodelar não aumenta o
+resultado anterior. Refaça também o orçamento
+com as Restrições que continuam válidas; se essa
+conferência der um resultado menor, use o menor.
+Não aproveite uma devolução antes excedente para
+recuperar os dados retirados.
+Efeito Próprio não pode ser retirado por essa troca.
+Numa mescla, a diferença sai das parcelas
+registradas sem aumentar outra função. Se não
+houver resultado suficiente para pagar, a versão não
+pode ser usada.
+Ampliar uma mescla e trocar sua Forma
+acompanha a troca de Aura por Explosão em duas
+Classes, com custo adicional e redução de parcelas
+sem apagar funções. A ficha antes e depois permite
+conferir cada limite.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Comprar uma Melhoria mais de uma
+vez
+Aprovar um Efeito Próprio uma vez não autoriza
+comprá-lo repetidamente. Registre quantas
+compras são permitidas, o custo de cada uma e o
+que acrescentam. Cada compra conta no limite de
+Melhorias, salvo exceção expressamente acordada.
+Pedido. “Comprei a mesma proteção duas vezes,
+mas a segunda se chama couraça espiritual.”
+Compare o funcionamento. Mudar o nome não cria
+autorização de repetição ou de acúmulo. Já uma
+parede e um bônus de Defesa oferecem proteções
+diferentes e podem ser avaliados separadamente,
+com seus custos e limites.
+Se uma peça própria reúne benefícios
+independentes, pague e conte cada um. O Livro de
+Regras 1.0 permite ao mestre autorizar uma
+redução específica após avaliar a proposta. Registre
+o que foi reduzido e por quê; essa decisão não cria
+uma redução automática para qualquer outra peça
+composta.
+Quando o poder pretende cancelar outra
+capacidade, identifique exatamente o que ele pode
+interromper. Uma permissão sobre feitiços não
+deve ser estendida a Domínios, itens ou toda
+manifestação sobrenatural pela descrição de
+“anular energia”. Compare a entrada pertinente e
+registre teste, Classe alcançada, momento e
+resultado antes do uso.
+Repetir Melhorias e definir Restrições demonstra
+duas compras de Firmeza com categorias, preços,
+vagas e consumo separados. Efeitos de cena e
+cancelamento aplica Desarma a uma Classe
+publicada e ao painel do Escriba, com atribuição
+local justificada.
+
+Definir os limites de uma Cortina
+Uma Cortina precisa de lugar, bordas e condição de
+passagem definidos antes da preparação. A
+distância é medida do criador, no momento em que
+conclui a Cortina, até o ponto mais distante da
+borda. Não se mede cada trecho isoladamente para
+montar uma área maior que o permitido.
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Caso de avaliação. Haru, um personagem de
+exemplo e não o guarda do arquivo, tem Refino 6 e
+conhece Cortina. Pretende cobrir a escola e seu
+terreno. Ele indica a posição de preparo e as bordas
+no mapa. O ponto mais distante está a 270 m,
+dentro do teto de 300 m dessa faixa. Se
+acrescentasse uma ala cuja borda fica a 320 m,
+precisaria mudar a posição ou a área coberta e
+conferir todas as bordas novamente.
+Haru registra: “Impede a saída de quem estiver
+dentro.” A preparação leva um minuto, sem PE,
+seguindo Barreira Simples. Em combate, são dez
+turnos consecutivos dedicando a Padrão, com as
+exigências dessa preparação. A Cortina só surge
+quando concluída; não fecha um pedaço a cada
+turno.
+Com Refino 6, sua vida compartilhada é
+40 × 6 = 240. A condição também impede a saída
+dos aliados abrangidos. Se o grupo quer exceções,
+elas precisam ser formuladas na condição
+preparada. “Só prende inimigos” exige esclarecer
+quem foi identificado; não concede à barreira
+conhecimento ilimitado de intenções.
+A Cortina fica ancorada, esconde o interior de
+pessoas não feiticeiras e regula a passagem de
+acordo com a condição. Não concede a vedação
+completa da Barreira Simples. Um disparo ainda
+segue alcance, trajetória e visibilidade; impedir a
+pessoa de atravessar não impede automaticamente
+todos os ataques dela.
+Caso de limite. Uma criatura impedida de sair
+pode tentar destruir a Cortina, se possuir um
+ataque capaz de afetá-la. As regras de passagem da
+rota sem energia continuam valendo; objetos e
+equipamentos carregados precisam ser conferidos
+separadamente. O corpo atravessar não transporta
+automaticamente um item bloqueado.
+Concluir outra Barreira Simples ou Cortina encerra
+a anterior. Mantenha essa consequência visível
+quando alguém propuser uma segunda proteção.
+
+A situação do Traje
+A situação própria de um Traje precisa ser física,
+reconhecível e ocasional. “Quando estiver me
+escondendo” descreve uma tarefa, não uma
+situação física, e não atende a esse critério.
+“Quando eu quiser me proteger” tampouco
+delimita uma condição de cena.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Compare a intenção com as situações publicadas
+antes de criar outra. Água e chuva, Escuro, Vão
+apertado e Terreno instável já oferecem referências
+concretas. Escolher uma situação não retira suas
+dificuldades: Escuro não fornece visão no escuro.
+Exemplo. Maestria 2 permite registrar duas
+perícias, além de um tipo de TR. Uma personagem
+escolheu Atletismo, Furtividade e TR Físico; seu
+Traje tem Água e chuva. Sob chuva, tem vantagem
+nessas rolagens, respeitando seus requisitos. Não
+recebe vantagem em ataques, Ofícios ou TR de
+Vigor.
+As escolhas de perícias e TR acompanham a
+personagem e valem para qualquer Traje que vestir;
+a situação acompanha a peça. Trocar de uniforme
+não permite escolher novamente todos esses
+benefícios. A situação não altera a proteção
+numérica nem transforma roupa comum em Traje.
+
+Sem Técnica e Técnica Marcial
+A montagem compartilhada não apaga os
+requisitos da rota. Um Manejo precisa desenvolver
+sua semente; uma Kata precisa caber no estilo e no
+equipamento definidos. Usar uma função permitida
+pela tabela não basta se ela não corresponde ao
+funcionamento da ficha.
+Caso. Uma semente de Energia Reversa sustenta
+cura. Transformá-la em leitura de memórias exige
+um funcionamento que essa semente não fornece.
+Explique a diferença e volte à intenção do jogador:
+talvez o objetivo seja cuidar de alguém ou descobrir
+uma informação, que são problemas diferentes.
+Sem Técnica recebe a aptidão escolhida como
+semente no nível 2 pela concessão da rota, sem
+gastar marco nem cumprir seus requisitos comuns
+de nível e refino. As demais exigências e regras de
+uso permanecem. Se a semente for uma Aptidão
+Própria, confira também a escolha única dessa
+opção na ficha.
+Usar a aptidão e conjurar um Manejo são usos
+diferentes. Cada um tem ação e custo. A semente
+não precisa estar ativa para todo Manejo, salvo
+exigência da Regra ou da aplicação. Não acrescente
+uma ativação obrigatória universal.
+Para uma Kata de alguém sem energia, PE
+representa esforço. Usar equipamento amaldiçoado
+ou pagar PE não concede sentidos de energia,
+Refino ou Aptidões ausentes da Origem. O Corpo
+Amaldiçoado que usa Técnica Marcial conserva sua
+energia e suas próprias regras.
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Armazenamento de energia
+Reserva Condensada, menor da Restrição corporal,
+deixa para o acordo entre jogador e mestre a
+quantidade guardada por ocasião, os momentos e
+condições de armazenamento e o máximo
+acumulável. A descrição não fornece números
+universais para preencher esses campos.
+
+Para avaliar uma proposta, escreva também como a
+energia entra e sai da reserva. Isso torna possível
+verificar se o texto pretende transferir PE
+existentes, produzir recuperação ou criar outra
+disponibilidade. Não trate essas possibilidades
+como equivalentes.
+
+Campo
+
+O que precisa ficar resolvido no acordo
+
+Entrada
+
+De onde vêm os pontos e qual saldo é alterado.
+
+Ocasião
+
+Quando pode guardar, quanto por vez e se repetir é permitido.
+
+Teto
+
+Máximo acumulado e o destino de um excedente.
+
+Retirada
+
+Quando pode acessar, se exige ação e como altera os recursos.
+
+Continuidade
+
+O que persiste entre cenas, missões, descansos e revisões da ficha.
+
+Interações
+
+Recuperação, reduções de custo e outros estoques relevantes.
+
+Essas perguntas ajudam a explicar como a proposta
+funciona; não fixam suas respostas. Compare com
+Reserva Excedente, que aumenta o máximo em 2 ×
+Essência, e Recuperação Abundante, que modifica
+a recuperação curta sob suas condições. Acumular
+uma reserva para depois pode produzir
+disponibilidade diferente das duas.
+Antes de aceitar, acompanhe um ciclo completo:
+estado inicial, armazenamento, descanso, novo
+armazenamento e retirada. Se o acordo permitir
+
+repetir etapas, faça essa repetição na conferência.
+Mostre o total efetivamente utilizável e o que
+limitou seu crescimento.
+Acordo por personagem. Reserva Condensada
+conserva a entrada do Livro de Regras 1.0. A menor
+pertence à Restrição corporal e depende de escolha.
+As perguntas acima ajudam a esclarecer uma
+proposta individual; o Guia não define valores para
+substituí-la. A consulta Reserva Condensada:
+acordo por personagem apresenta os quatro
+campos publicados, uma folha de registro e um
+caso de conferência.
+
+CONSULTA DO MESTRE
+
+Ampliar uma mescla e trocar sua Forma
+Use esta consulta para conferir duas maneiras de
+alterar um feitiço: Ampliar usa uma Classe maior
+da mesma montagem; Forma Fluida permite ao
+Emanador trocar a Forma durante um
+Desdobramento. O exemplo adapta Pulso de
+renovação, publicado no Livro de Regras 1.0. Os
+nomes, personagens e resultados dos dados são
+ilustrativos; as regras e os preços são os do livrobase.
+
+peças desta consulta. O feitiço não está entre os
+escolhidos para Afinidade Técnica, e nenhuma
+outra capacidade reduz os custos apresentados.
+
+O feitiço de Yara
+
+Pulso de remendo, Classe 3: Aura + base de cura +
+Escolher + Gesto. Ocupa um espaço conhecido,
+com uma Melhoria e uma Restrição. As funções são
+
+Yara é Emanadora de nível 15, com Inteligência 4,
+Maestria 2 e Classe máxima 4. Sua técnica produz
+fios que cortam e recompõem tecido vivo. Área e
+Amparo estão disponíveis, a preço normal nas
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Seu Selo comum usa um gesto simples de uma mão.
+A Restrição Gesto deste feitiço acrescenta duas
+mãos livres e voz audível, portanto exige algo além
+do Selo. Se a personagem não puder cumprir as
+duas partes, não pode conjurá-lo. A aparência dos
+fios não dispensa essa exigência.
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+dano Cortante e cura direta; a resolução nociva usa
+TR Físico. A CD de Yara é 8 + Inteligência 4 +
+Maestria 2 = 14.
+
+incluindo Yara se escolhida, recebe a cura
+registrada. Essa limitação de destinatário segue o
+exemplo publicado.
+
+A Aura é uma esfera de raio 3 m centrada em Yara.
+Escolher permite selecionar, por percepção válida,
+as criaturas presentes que receberão a parte nociva.
+As demais ficam excluídas dessa parte. Depois do
+dano, um único aliado disposto e válido na área,
+
+A cura não depende do dano: acontece mesmo se
+todos os adversários passarem no TR ou não houver
+inimigo válido. A parcela de dano sem destinatário
+fica sem uso. Os dados não mudam de função.
+
+Prepare as duas Classes
+Yara registra as linhas antes da sessão. Escolhe reservar dois pontos de dano e um de cura na Classe 3; na
+Classe 4, três de dano e um de cura. A proporção poderia ser outra numa ficha previamente válida, mas não
+muda durante a conjuração.
+Campo
+
+Classe 3
+
+Classe 4
+
+Orçamento: 3 × Classe
+
+9
+
+12
+
+Base Média de cura
+
+3
+
+4
+
+Aura, Leve
+
+2
+
+2
+
+Escolher, Média
+
+3
+
+4
+
+Gesto, devolução Leve
+
++2
+
++2
+
+9−3−2−3+2=3
+
+12 − 4 − 2 − 4 + 2 = 4
+
+Parcela de dano
+
+2d8
+
+3d8
+
+Parcela de cura
+
+1d8 para um aliado
+
+1d8 para um aliado
+
+Padrão; 9 PE
+
+Padrão; 12 PE
+
+Saldo
+
+Ação e custo
+
+A devolução de Gesto compensa pontos
+efetivamente pagos em Melhorias: 2 de 3 na Classe
+3, ou 2 de 4 na Classe 4. Não recupera base nem
+Forma. Também cabe no teto de 2 × Classe. A
+montagem conserva uma Melhoria e uma Restrição
+nas duas linhas, dentro dos limites.
+As parcelas de cura cabem nos tetos pertinentes: 1
+ponto é inferior aos limites individuais e coletivos
+dessas Classes. Nenhum ponto é contado duas
+vezes. As medidas básicas de Aura das Classes 3 e 4
+continuam em 3 m; Ampliar não compra Maior.
+Escolher não se transforma em outra Melhoria, e o
+TR continua Físico CD 14.
+Conclusão. As duas linhas cabem na montagem
+publicada. Ampliar não concede uma compra nova
+nem libera a troca de cura por dano quando Yara
+perceber um alvo mais conveniente. Cada linha
+continua ocupando o mesmo espaço do feitiço.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Exemplo de Ampliação
+Yara escolhe a linha de Classe 4. Ela tem duas mãos
+livres, pode falar e possui 20 PE; paga 12, ficando
+com 8. Há dois inimigos e uma aliada a até 3 m.
+Yara distingue os presentes, seleciona apenas os
+inimigos para a parte nociva e escolhe a aliada para
+a cura.
+Os 3d8 de dano mostram 4, 5 e 2: 11 de Cortante. O
+primeiro inimigo totaliza 13 no TR e falha contra
+CD 14; recebe 11 antes de outras defesas. O
+segundo totaliza 16 e passa; recebe 6, metade
+arredondada para cima, antes de suas defesas. A
+aliada fica excluída do dano e recupera 5, resultado
+do d8 de cura, até seu máximo e respeitando
+impedimentos.
+A rolagem de dano é única para a área. Não se
+dividem os 3d8 entre os inimigos. Se ambos
+tivessem resistido, a cura de 5 continuaria. Se não
+houvesse aliado elegível, esse d8 não viraria um
+quarto dado de dano.
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Dano e cura são instantâneos neste feitiço. Ele não
+tem Fica, não se mantém ao redor de Yara e não
+afeta quem entrar depois. A cura também não
+remove condições por associação.
+
+Explosão custa Média. Seu centro pode ser
+escolhido a até 18 m, com raio de 3 m, respeitando
+percepção, trajeto e cobertura. O ganho é colocar a
+área longe do corpo; não acrescentar dados ou
+beneficiários.
+
+Trocar Aura por Explosão
+
+O aumento de preço precisa sair das parcelas de
+resultado já registradas. Para estas versões, Yara
+retira os pontos necessários da parcela de dano e
+conserva o ponto de cura. Nenhuma função ganha
+pontos com a troca.
+
+Em outra situação, Yara quer alcançar um grupo
+afastado. Forma Fluida, recebida no nível 15,
+permite Remodelar a Forma em vez de uma
+Melhoria. Ela troca Aura por Explosão,
+conservando Escolher, Gesto, as funções, o tipo de
+dano e o TR.
+Conferência
+
+Classe 3
+
+Classe 4
+
+Aura retirada
+
+2 pontos
+
+2 pontos
+
+Explosão colocada
+
+3 pontos
+
+4 pontos
+
+Diferença a pagar em resultado
+
+1 ponto
+
+2 pontos
+
+Parcelas antes
+
+2 de dano + 1 de cura
+
+3 de dano + 1 de cura
+
+Parcelas depois
+
+1 de dano + 1 de cura
+
+1 de dano + 1 de cura
+
+9−3−3−3+2=2
+
+12 − 4 − 4 − 4 + 2 = 2
+
+Metade de 3, para cima: 2 PE
+
+Metade de 4: 2 PE
+
+Padrão; 9 + 2 = 11 PE
+
+Padrão; 12 + 2 = 14 PE
+
+Nova conta completa
+Adicional de Remodelar
+Ação e PE totais
+
+A nova conta confirma os resultados reduzidos,
+sem recuperar pontos que antes estavam perdidos.
+Há pelo menos um ponto em cada função variável.
+Gesto continua compatível; Toque não entrou na
+montagem, portanto não existe devolução por
+proximidade. Forma Fluida não fornece a redução
+de custo de uma Família à Forma.
+Escolha antes de resolver. Yara define a Classe e a
+troca antes de escolher alvos e rolar. A troca vale
+para aquela conjuração. Na próxima, o feitiço
+conhecido continua tendo Aura; usar Explosão de
+novo exige a permissão e o pagamento
+correspondentes.
+
+Exemplo com Forma Fluida
+Considere outra aplicação, com 22 PE disponíveis.
+Yara escolhe Classe 3 e Forma Fluida, paga 11 e fica
+com 11 PE. Coloca o centro da Explosão num
+ponto válido a 12 m, incluindo um inimigo e uma
+aliada no raio de 3 m. Escolher exclui a aliada da
+parte nociva.
+O inimigo totaliza 12 no TR Físico e falha contra
+CD 14. O d8 de dano mostra 5; ele recebe 5 antes
+das defesas. Se passasse, receberia 3. O d8
+independente de cura mostra 6; a aliada recupera
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+até 6. Estar a 12 m de Yara não a exclui: ela recebe a
+função da área, que tem origem válida a essa
+distância. O alcance de benefício individual de
+Projétil não substitui a Forma Explosão.
+Quando a aplicação termina, não resta uma área de
+dano ou cura. Uma pessoa chegando depois não
+recebe nenhuma das parcelas.
+
+O que a troca não autoriza
+“Vou tirar a cura e concentrar tudo no ataque.”
+Isso muda uma função e sua distribuição. Forma
+Fluida não autoriza essa conversão. Nesta troca, a
+cura conserva seu ponto; pagar toda a diferença
+apagando uma função também não atende ao
+requisito de manter as funções registradas.
+“O feitiço ficou mais barato, então recupero
+dados.” Remodelar descarta a economia de uma
+peça mais barata. A versão não pode aumentar uma
+parcela nem usar uma devolução antes excedente
+para restaurar o resultado retirado. Refaça sempre a
+montagem inteira e use o limite que efetivamente
+couber.
+“Troco Aura e Escolher ao mesmo tempo.” Forma
+Fluida de nível 15 substitui a troca de uma
+Melhoria por uma troca de Forma. As duas
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+alterações no mesmo Desdobramento dependem de
+Composição Técnica, nível 23. Esta ficha ainda não
+tem essa permissão.
+“Compro a opção na hora porque combina com a
+técnica.” Efeito Próprio e gatilhos de Reação
+continuam exigindo registro anterior. A liberdade
+de trocar uma peça publicada não permite inventar
+uma capacidade durante a conjuração.
+
+Registro para outro mestre: “Pulso de remendo:
+linhas preparadas de Classes 3 e 4; cura de um
+aliado independente do dano; Gesto obrigatório.
+Explosão é uso por Forma Fluida, com parcelas
+reduzidas e +2 PE nos dois casos. Não há efeito
+persistente nem alteração definitiva do espaço.”
+
+CONSULTA DO MESTRE
+
+Repetir Melhorias e definir Restrições
+Esta consulta mostra como contar duas compras da
+mesma Melhoria e como registrar uma Restrição
+que de fato impeça ou dificulte o uso. Firmeza e
+Condicional seguem as permissões publicadas.
+Matriz de chão é uma Restrição Própria
+experimental, criada para demonstrar a avaliação;
+não faz parte do catálogo de regras.
+
+Firmeza para perícias e Ofícios
+Iara usa uma técnica que organiza a atenção de um
+aliado. Auxiliares está disponível a preço normal.
+Ela prepara Foco de trabalho, Classe 2, com
+Projétil e duas compras de Firmeza: uma para
+perícias e outra para Ofícios.
+Firmeza permite comprar categorias diferentes
+separadamente. Cada compra ocupa uma vaga; a
+categoria fica fixa na criação. Não é possível
+comprar a mesma categoria duas vezes.
+
+Compra na Classe
+2
+
+Preço
+
+Acréscimo
+
+Firmeza: perícias
+
+Leve, 1 ponto
+
+Vantagem no próximo teste de perícia do alvo dentro do prazo
+
+Firmeza: Ofícios
+
+Leve, 1 ponto
+
+Vantagem no próximo teste de Ofício do alvo dentro do prazo
+
+Total
+
+2 pontos; duas
+Melhorias
+
+Dois benefícios de categorias diferentes, cada um com seu próprio
+consumo
+
+Projétil custa zero e o apoio é individual, portanto
+não há base coletiva. O orçamento é 6; após as duas
+compras, sobram 6 − 2 = 4 pontos, deixados sem
+uso. A ficha não tem dano, cura ou vida temporária
+para recebê-los.
+Acordo deste exemplo: duas compras, uma por
+categoria indicada; preço Leve de cada uma;
+nenhuma repetição da mesma categoria; nenhum
+desconto especial de pontos ou de vagas. Na Classe
+2, as duas vagas de Melhoria estão ocupadas.
+A aplicação custa Ação Padrão e 6 PE, cumprindo
+o Selo da técnica. Escolha um aliado disposto e
+válido a até 9 m. Ele recebe os dois benefícios
+automaticamente. Cada um termina no primeiro
+teste de sua categoria ou no começo do próximo
+turno de Iara, o que ocorrer antes. Um teste de
+outra categoria não recebe nem consome esses
+benefícios.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Exemplo de uso
+Iara conjura com 14 PE e fica com 8. Rui, a 6 m,
+recebe os dois benefícios. Ele dirige um veículo que
+conhece e tem treino em Condução, Destreza 3 e
+Maestria 1. Ainda antes do próximo turno de Iara,
+precisa fazer uma manobra permitida para
+contornar um obstáculo; o mestre já informou um
+teste de Condução CD 14. Rui rola 5 e 14, usa 14 e
+soma seu bônus normal de 4: 18, sucesso na
+manobra. A compra de Ofícios foi consumida; isso
+também ocorreria se o total falhasse. A compra de
+perícias permanece até um teste elegível ou seu
+prazo.
+Se Rui fizer depois um TR, ele não recebe vantagem
+dessas compras. Se precisar de ferramenta ou
+treino para a tarefa, Firmeza não os fornece. No
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+começo do próximo turno de Iara, qualquer
+benefício não usado termina. Não se guarda a
+vantagem para o descanso seguinte.
+
+pontos e duas Melhorias. Projétil e apoio
+individual não cobram base adicional; os outros 3
+pontos do orçamento ficam sem uso.
+
+Os limites da repetição
+
+Ação Padrão, 6 PE, um aliado disposto e válido a
+até 9 m. Ele recebe vantagem no próximo Ofício até
+o começo do próximo turno do conjurador e +2
+Defesa até o fim do próximo turno do próprio
+aliado. Os prazos pertencem a pessoas diferentes;
+anote ambos. Nenhuma das compras muda
+automaticamente o outro benefício.
+
+Iara pede uma terceira compra para TRs na mesma
+ficha de Classe 2. Ter pontos suficientes, por si só,
+não resolve: seriam três Melhorias, ultrapassando
+as duas permitidas.
+Ampliar o feitiço para Classe 3 conserva suas duas
+compras e suas categorias. Não acrescenta a
+terceira. Uma nova montagem de Classe 3 poderia
+comprar as três categorias por 2 + 2 + 2 = 6 pontos,
+dentro das três vagas; os 3 pontos restantes
+ficariam sem uso. Essa montagem precisaria da
+aquisição ou revisão de espaço permitida, antes do
+uso.
+Chamar outra compra de “Mente firme” não
+permite repetir Firmeza: perícias no mesmo alvo. O
+funcionamento continua sendo o mesmo benefício,
+sujeito à regra publicada.
+
+Combinar efeitos
+Outro pedido é chamar Firmeza: Ofícios + Guarda
+de “Postura de oficina”. Na Classe 2, com preço
+normal, Firmeza custa 1, Guarda custa 2: total 3
+
+Dar um nome só às duas compras não as
+transforma numa única Melhoria Leve. Uma
+redução específica precisa ser avaliada pelo mestre;
+ela não foi concedida neste caso. Uma criação
+original também precisa dizer quantas compras
+aceita e o resultado de cada repetição antes de ser
+usada.
+
+Condicional: uma fonte de água
+Davi usa uma técnica capaz de produzir lâminas de
+água com sua energia, sem depender de uma fonte
+externa pela Regra comum. Ele propõe que Lâmina
+de canal, e somente esse feitiço, dependa de água
+corrente próxima. Isso acrescenta uma limitação
+real; se a própria técnica já exigisse a mesma fonte,
+não haveria nova devolução.
+
+A condição de Lâmina de canal
+Campo
+
+Registro do exemplo
+
+Exigência
+
+O conjurador precisa estar a até 3 m de água em fluxo contínuo num leito exposto,
+como rio, córrego ou canal.
+
+O que conta
+
+Um trecho de leito com pelo menos 3 m de percurso contínuo, com água realmente
+correndo; pode ser natural ou construído.
+
+O que não basta
+
+Chuva isolada, poça, recipiente transportado ou água apenas agitada dentro de um
+tanque.
+
+Distância
+
+Do conjurador até o ponto mais próximo do trecho elegível. O alvo não precisa estar
+perto da água.
+
+Momento
+
+Confira a condição antes de iniciar e pagar a conjuração imediata. A montagem não
+tem Armado, Carregar ou outro disparo adiado.
+
+Impedimento
+
+Sem a fonte na distância exigida, este feitiço não pode ser conjurado. A personagem
+conserva suas outras opções.
+
+Estimativa de campanha
+
+Das seis situações de preparo comparadas neste exemplo, quatro não oferecem essa
+fonte acessível. Há impedimento em pelo menos metade.
+
+Devolução proposta para
+esta campanha
+
+Média, pela frequência estimada; revisar diante do uso real.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+A comparação hipotética usa margem de canal e
+passagem por córrego como as duas situações com
+fonte; arquivo interno, apartamento, corredor seco
+e quadra seca como as quatro sem ela. Não são
+resultados de sessões já observadas.
+As medidas e a estimativa pertencem ao exemplo.
+Não definem uma distância universal para
+Condicional. Uma fonte artificial pode satisfazer a
+ficha se cumprir o registro; se os recursos da
+personagem passarem a garanti-la em todas as
+cenas, é preciso rever a devolução.
+
+Montagem e uso
+A ficha de Classe 3 usa Projétil + Precisão + Fura +
+Condicional, com Mira a preço normal. São duas
+Melhorias e uma Restrição. Precisão custa Leve, 2;
+Fura custa Média, 3. Condicional devolve Média, 3,
+dentro do gasto de 5 em Melhorias e do teto geral
+de 6.
+Saldo: 9 − 2 − 3 + 3 = 7d8 de Cortante. Custa Ação
+Padrão e 9 PE. Projétil alcança 18 m. Fura ignora
+até 6 de Redução de Dano aplicável ao golpe, sem
+transformar redução inexistente em dano adicional.
+Precisão aumenta o ataque em 2.
+
+Davi tem atributo da técnica 3 e Maestria 1: ataque
+3 + 1 + 2 = +6. A 2 m de um canal elegível, escolhe
+um alvo válido a 12 m, paga 9 PE e rola 12: total 18.
+Contra Defesa 16, sem outra resposta, acerta. Os
+sete dados mostram 3, 4, 2, 5, 1, 6 e 4: 25 de
+Cortante, antes das defesas e da aplicação
+pertinente de Fura.
+Em outra posição, a 4 m do canal, Davi não satisfaz
+a Condicional. Se puder caminhar 1,5 m em direção
+à borda, chega a 2,5 m e pode conferir novamente a
+conjuração; esse movimento usa seus recursos
+normais. A Restrição não inclui Parado. Se a
+passagem estiver bloqueada, ele precisa escolher
+outra opção.
+Acrescentar Uma Vez ou Aquecer não compra
+outra devolução: as três pertencem ao mesmo
+grupo de frequência. Um nome diferente para a
+mesma exigência também não a paga duas vezes.
+Se a campanha estimasse impedimento real em
+menos de metade das cenas, a devolução seria Leve,
+2, e o saldo ficaria em 6d8, mantendo as mesmas
+compras. Se nunca impedisse o uso, a devolução
+seria zero e o saldo 4d8. A diferença de dano vem
+da conta; não é um prêmio decidido durante o
+ataque.
+
+Restrição Própria: Matriz de chão
+Proposta experimental de um caso local. Lia usa uma técnica de traçados que normalmente não exige uma
+superfície preparada. Quer uma aplicação vinculada a uma matriz que precise refazer após cada tentativa.
+Antes de aprová-la na mesa, o mestre precisa confirmar que preparar locais fixos realmente dificulta suas
+missões.
+Campo
+
+Texto proposto
+
+Preparo
+
+Fora de combate, Lia dedica um minuto contínuo a desenhar pessoalmente a matriz com giz
+disponível, numa superfície fixa e acessível de pelo menos 1,5 m por 1,5 m. Preparar não
+gasta PE.
+
+Interrupção
+
+Se não puder concluir o minuto contínuo, não há matriz pronta. A tentativa pode ser
+recomeçada quando houver condições.
+
+Quantidade e
+permanência
+
+No máximo uma matriz pronta para este feitiço. Preparar outra invalida a anterior. Ela
+permanece até ser usada, apagada ou ter a superfície deslocada ou rompida.
+
+Exigência de uso
+
+Lia precisa estar a até 1,5 m da matriz íntegra ao iniciar a conjuração e pagar seus custos. A
+superfície não pode ser carregada como amuleto.
+
+Consumo
+
+Ao iniciar uma conjuração válida, a matriz se apaga e fica consumida, mesmo se o ataque
+errar ou o alvo resistir. A tentativa seguinte exige novo preparo.
+
+Momento e ação
+
+O feitiço ainda usa sua Ação Padrão e seu PE normal. O preparo não conjura, não guarda um
+ataque e não elimina Selo.
+
+Devolução em
+avaliação
+
+Leve: há dificuldade real nas cenas móveis previstas, sem evidência suficiente para classificar
+a perda como presente em pelo menos metade.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Campo
+
+Texto proposto
+
+Compatibilidade
+
+Uma vaga de Restrição. Não se soma à exigência idêntica já presente no Selo, na Regra ou em
+outra Restrição.
+
+A dificuldade avaliada é ter de preparar no local a
+matriz consumida pela tentativa. A proposta
+atribui uma única devolução Leve a esse preparo;
+não soma pontos pelo minuto, pelo desenho e pela
+distância. Se a proposta acrescentar outra
+dificuldade independente, ela precisará ser
+registrada como outra Restrição. Ela não concede
+uma capacidade nova à matriz: o desenho não
+ataca, ilumina, protege ou detecta criaturas. Giz e
+superfície precisam existir; não se impõe aqui
+preço de mercado, Ofício ou regra de fabricação
+nova.
+Comparação com as entradas publicadas. Atrasar
+compromete Padrão, Bônus e Movimento no
+próprio turno da conjuração. Carregar paga PE e
+exige liberação no turno seguinte. Matriz de chão
+permite preparar antes, exige um local fixo e
+consome esse preparo ao tentar; cada uma dessas
+Restrições funciona de um modo diferente. O Livro
+de Regras 1.0 esclarece que uma exigência de
+preparo não entra no grupo de frequência apenas
+por acontecer antes da conjuração. Acrescentar
+uma limitação equivalente a Uma Vez exigiria
+conferir esse grupo.
+Para demonstrar a conta, use Projétil + Precisão +
+Fura, na Classe 3 e a preço normal, com Matriz de
+chão como única Restrição. São 9 − 2 − 3 + 2 = 6d8,
+duas Melhorias, uma Restrição, Padrão e 9 PE. O
+preparo não altera o alcance de 18 m do Projétil;
+apenas limita onde Lia pode começar essa
+aplicação.
+
+Lia prepara a matriz na sala e depois inicia a
+conjuração a 1 m dela. Com atributo 3 e Maestria 1,
+seu ataque recebe +6 por Precisão. Ela paga 9 PE e
+consome a matriz; rola 8, totaliza 14 e erra Defesa
+16. Não causa dano, não recebe o PE de volta e não
+conserva a matriz. Mesmo ainda estando na sala,
+não pode repetir esse feitiço sem outro preparo.
+Seu repertório restante continua disponível.
+Se o uso real permitir deixar a mesma preparação
+sempre pronta, sem perda de tempo, acesso ou
+oportunidade, a devolução não está justificada. O
+exemplo serve para examinar essa dificuldade, não
+para garantir uma nova Restrição a toda ficha.
+
+Reveja as Restrições depois de jogar
+Para uma Restrição Própria, o Livro de Regras 1.0
+pede a revisão depois de três sessões em que o
+feitiço foi usado. Compare a dificuldade prevista
+com as situações vividas. Condicional também pede
+conferir sua estimativa nas sessões seguintes; o
+mesmo registro ajuda nessa avaliação. Anote casos
+em que a exigência impediu uma escolha ou exigiu
+preparo relevante; não registre como prejuízo
+apenas ter lido a condição em voz alta.
+Uma exigência que nunca atrapalhou deve ser
+substituída, mantendo a montagem válida antes do
+próximo uso. Mudanças de devolução exigem
+recalcular o saldo registrado. Nenhuma Restrição
+Própria devolve Pesada, e uma limitação já
+obrigatória não recebe pontos outra vez.
+
+CONSULTA DO MESTRE
+
+Efeitos de cena e cancelamento
+Use esta consulta para preparar uma aplicação
+comum fora de combate e conferir o que outro
+poder pode encerrar. Luz de Oficina vem do
+exemplo do Livro de Regras 1.0; o local e seu
+encerramento ao começar uma luta são escolhas
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+expressas desta demonstração. A classificação de
+uma exibição do Escriba para cancelamento é uma
+avaliação experimental para este caso, sem
+converter Categoria de Efeito em Classe universal.
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Luz de Oficina, antes da sessão
+A técnica de Rei produz luz. Ele prepara uma aplicação de Efeito fora de combate, Classe 2, para iluminar
+um cômodo grande. A referência do Livro de Regras 1.0 permite essa escala por até 10 minutos; a ficha
+abaixo delimita o que será usado na cena.
+Campo
+
+Registro da aplicação
+
+Aquisição
+
+Um feitiço comum conhecido, ocupando um espaço; Fundamento compatível com luz
+
+Ação e energia
+
+Ação Padrão e 6 PE, além do Selo registrado na técnica
+
+Origem
+
+Rei toca uma superfície fixa dentro do cômodo ao conjurar; dali se espalha a iluminação
+
+Extensão deste
+caso
+
+A oficina, uma sala de 12 m por 6 m, limitada pelas paredes e pelo teto; não ilumina outros
+pavimentos ou através de barreira opaca
+
+Resultado
+
+Iluminação comum suficiente para examinar o que estiver normalmente visível na sala
+
+Duração
+
+Até 10 minutos após a conjuração; sem manutenção ou Concentração adicionais nesta ficha
+
+Término
+antecipado
+
+Destruição ou deslocamento da superfície de origem; cancelamento válido; ou começo de combate
+envolvendo a oficina, antes do primeiro turno
+
+Saldo de
+montagem
+
+6 pontos, sem Melhorias necessárias nesta aplicação: os 6 ficam sem uso
+
+Tocar a superfície define onde começa a aplicação
+de utilidade deste exemplo. Não foi comprada a
+Forma Toque nem concedida devolução de pontos
+por proximidade. O preparo também não autoriza
+lançar a luz no interior de um recipiente fechado ou
+através de uma parede.
+A ficha não causa dano, cega, revela seres ocultos,
+atravessa ocultação sobrenatural ou oferece
+vantagem. Um reflexo pode ajudar a enxergar uma
+pista que já está exposta; interpretar seu
+significado ou procurar algo escondido segue as
+regras correspondentes. Para outro resultado
+mecânico, compre a capacidade que o produz.
+As medidas do cômodo são uma descrição concreta
+da escala escolhida. Não são uma conversão
+universal de “cômodo grande” em metros
+quadrados.
+
+Quando a investigação vira combate
+Rei entra na oficina com 15 PE, cumpre o Selo, toca
+a bancada fixada ao piso e gasta sua Padrão e 6 PE.
+Fica com 9. O mestre registra o momento da
+conjuração e o limite de dez minutos.
+A equipe examina documentos durante três
+minutos. A iluminação permite ver o papel, mas
+não identifica automaticamente códigos ou
+adulterações. Um teste de Investigação, quando
+necessário, usa os bônus normais da ficha.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Uma criatura entra e começa um confronto na
+oficina. Pelo encerramento registrado, a luz do
+feitiço termina antes do primeiro turno do
+combate. A equipe conserva as informações que já
+obteve e os documentos que recolheu; o mestre não
+desfaz retroativamente a investigação. Para as
+ações seguintes, aplica a iluminação que realmente
+restar no local.
+Rei continua com 9 PE: começar a iniciativa não
+devolve os 6 já pagos. Rei não pode conjurar de
+novo este Efeito fora de combate durante a luta
+como atalho para uma aplicação de combate. O
+grupo pode usar uma lanterna disponível, outra
+fonte comum ou uma capacidade apropriada da
+ficha. A falta de iluminação pode importar; seus
+efeitos seguem as regras de visão.
+Se a criatura apenas conversar e não houver
+combate, a aplicação conserva seu prazo. Uma
+iniciativa organizada somente para resolver um
+socorro fora de combate não é, por si, a condição de
+término aqui registrada.
+Conclusão. A aplicação tem custo, extensão,
+resultado e saída identificáveis. Seu encerramento
+em combate pertence a esta ficha; não estabelece
+que toda luz ou todo efeito sobrenatural deva
+desaparecer quando alguém rolar iniciativa. Uma
+proposta de continuidade diferente precisa ser
+registrada e avaliada antes do uso.
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Preparar Desarma o Feitiço
+Mina conhece Interromper fluxo, Classe 1: Projétil + Desarma o Feitiço, com Controle a preço normal. Na
+criação, escolheu cancelar efeitos contínuos. Não recebeu simultaneamente as modalidades barreira, item e
+Selo.
+Campo
+
+Classe 1
+
+Mesma montagem Ampliada para Classe 2
+
+Orçamento
+
+3
+
+6
+
+Projétil
+
+0
+
+0
+
+Desarma o Feitiço, Média
+
+1
+
+2
+
+Saldo descartado
+
+2
+
+4
+
+Padrão; 3 PE
+
+Padrão; 6 PE
+
+Ação e custo normal
+
+A função escolhida é encerrar a aplicação; não há
+dano, cura ou outra função variável para receber o
+saldo. São uma Melhoria e nenhuma Restrição. A
+montagem usa alcance de 18 m, com percepção e
+acesso válidos pela Forma.
+Desarma não pede uma rolagem de ataque contra o
+criador só para cancelar a aplicação. Se a Classe do
+alvo for igual ou menor que a usada, o
+cancelamento é automático. Se for maior, Mina rola
+d20 + atributo da técnica, sem Maestria, contra a
+CD de quem criou. A opção sem dano não
+acrescenta +2 a essa rolagem e não repete o
+cancelamento.
+
+Cancelar um efeito que já tem Classe
+Antes de qualquer luta, Mina percebe a Luz de
+Oficina de Rei e tem acesso válido à sua origem, a 9
+m, sem obstáculo. A aplicação é contínua e sua
+ficha já registra Classe 2. Rei possui atributo da
+técnica 3 e Maestria 1: sua CD é 8 + 3 + 1 = 12.
+Mina tem atributo da técnica 3 e também Maestria
+1.
+Mina pode escolher entre duas formas de uso, antes
+de pagar:
+• Usar Classe 1: paga 3 PE e testa contra CD 12.
+Com 8 no dado, totaliza 8 + 3 = 11, falha. Não
+soma Maestria; somá-la indevidamente mudaria
+o resultado para sucesso. A luz continua e os 3
+PE foram gastos.
+• Ampliar para Classe 2, se disponível à sua
+ficha: paga 6 PE e cancela automaticamente essa
+aplicação de Classe 2, satisfeitos os requisitos.
+Não precisa vencer a Defesa de Rei nem apagar
+todas as capacidades dele.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+São alternativas da mesma decisão, não duas
+resoluções cobradas na mesma ação. Com 10 PE
+antes da escolha, Mina terminaria com 7 na
+tentativa de Classe 1 ou 4 no uso de Classe 2.
+Quando o cancelamento tem sucesso, a iluminação
+termina. Documentos vistos, cópias feitas e
+alterações materiais já concluídas permanecem. O
+cancelamento também não retira o espaço
+conhecido de Rei nem impede outra conjuração
+futura que cumpra suas condições.
+
+Cancelar um efeito sem Classe
+definida
+O Escriba de campo tem o talento experimental
+Retrato de referência, proposto como CE1. Uma
+atuação básica permite exibir uma imagem estática
+no painel do próprio corpo por até um minuto. O
+talento guarda a imagem separadamente e não a
+projeta à distância.
+Pergunta do caso: Interromper fluxo pode encerrar
+a exibição atual desse painel? Categoria de Efeito 1
+não significa automaticamente feitiço de Classe 1.
+O Livro de Regras 1.0 permite que o mestre atribua
+Classe de 1 a 7 a outras aplicações para esse
+cancelamento, ou declare a impossibilidade.
+Proposta para este caso: tratar apenas a exibição
+atual como Classe 1 para Desarma o Feitiço. Nesta
+proposta, a imagem exibida é uma manifestação
+sobrenatural contínua, não uma impressão física.
+Ela é perceptível e fica restrita ao painel de uma
+entidade Pequena, por um minuto, sem dano,
+controle, visão adicional ou projeção distante. A
+comparação de escala com uma aplicação pequena
+de utilidade sustenta essa escolha. Não se está
+classificando o talento inteiro, a memória guardada
+ou a existência da entidade como Classe 1.
+
+11
+
+
+=== PÁGINA 12 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+TÉCNICAS, MESCLAS E LIMITES
+
+Limite da proposta
+
+Consequência
+
+Alvo do cancelamento
+
+A imagem que está sendo exibida naquele momento
+
+Requisitos
+
+Mina precisa perceber essa aplicação e ter acesso válido a até 18 m
+
+Classe atribuída neste
+caso
+
+1, exclusivamente para resolver Desarma contra essa exibição
+
+Resultado
+
+A exibição termina; não há dano à entidade nem destruição do painel
+
+O que permanece
+
+Imagem guardada, talento, ficha e demais recursos do Escriba
+
+Novo uso
+
+O Escriba pode exibir de novo pela atuação básica e pelos requisitos normais do talento,
+quando os tiver disponíveis
+
+Com o Escriba a 6 m e o painel visível, Mina usa
+Interromper fluxo de Classe 1: Padrão, 3 PE,
+cancelamento automático dessa exibição. Não
+recebe autorização para apagar registros de
+qualquer criatura ou cancelar qualquer CE1.
+Se o jogador mudar a proposta para “destruir a
+imagem armazenada” ou “desligar o Escriba”, essa
+proposta não atende ao pedido. É preciso voltar à
+capacidade que permite tal resultado. O talento do
+Escriba e esta atribuição continuam experimentais,
+sujeitos à avaliação da mesa.
+
+O que Desarma o Feitiço não pode
+cancelar
+Outro tipo escolhido. A modalidade de Mina é
+efeito contínuo. Uma barreira não passa a ser alvo
+autorizado apenas porque sua duração ainda não
+terminou. A ficha precisaria do tipo apropriado e
+das aquisições permitidas. Atribuir uma Classe não
+troca a modalidade conhecida.
+
+um relatório escrito enquanto ela iluminava a mesa.
+O mestre identifica o que ainda existe como
+aplicação antes de procurar sua Classe.
+Domínio. Mina aponta para a Galeria de Vidro
+descrita em Avaliar poderes avançados e propõe
+gastar mais PE para apagá-la. O pedido é
+impossível por Desarma o Feitiço: o Livro de
+Regras 1.0 exclui Domínios de seus alvos. O
+mestre explica isso antes de uma declaração de uso
+válida. Não atribui Classe 7, não pede um 20 no
+dado e não converte a abertura em uma barreira
+comum para contornar a exclusão. As formas
+próprias de enfrentar o Domínio permanecem
+disponíveis pelas suas regras.
+Registro para outro mestre: anote o tipo conhecido
+por quem cancela, a aplicação examinada, sua
+Classe publicada ou atribuída, a justificativa local e
+o que o encerramento preserva. Essa informação
+evita que outro mestre transforme uma decisão
+sobre o painel em autorização para anular toda a
+entidade.
+
+Resultado concluído. Curar um ferimento não
+deixa necessariamente uma aplicação contínua
+disponível para cancelar. Encerrar a luz não apaga
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+12
+

@@ -1,0 +1,20 @@
+{
+  "paginas_lidas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "observacoes": [
+    "Primeira leitura completa da prova dos três apoios.",
+    "Quadro de modalidades precisa de largura inteira.",
+    "Evitar divisão do parágrafo sobre mudança de modalidade.",
+    "Fechamentos de Maia/Taru e Reserva ocupam páginas desnecessárias; rever fluxo e altura dos campos."
+  ],
+  "pdf_sha256": "3d72cd6f905dd4df8f644d109d8f74ef0445417b4c45030a7fb8d83e4fbef8cd"
+}

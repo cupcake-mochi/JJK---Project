@@ -1,0 +1,1185 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "antes": "# Convivência do Receptáculo\n\nO Receptáculo interpreta o hospedeiro que divide o corpo com outra presença. Para desenvolver essa relação, prepare quem é a presença, o que deseja e como conversa com o personagem. Registre também o que cada participante interpreta e quais situações querem explorar.\n\nO caminho recomendado é **o mestre interpretar a outra voz, mediante acordo com o jogador**. O jogador continua decidindo as ações de seu personagem, dentro das regras e dos efeitos aplicáveis. Dar voz à presença não concede ao mestre controle adicional sobre a ficha, poderes ou turnos.\n\nUse esta seção junto dos acordos de [A sessão zero](07-preparar-o-grupo.md). A [ficha de convivência](28-ficha-de-convivencia.md) organiza o registro e traz um exemplo. Não há um medidor obrigatório da relação nem testes automáticos de tomada do corpo.\n\n",
+    "depois": "# Maia e Taru: a presença em cena\n\nMaia divide o corpo com Taru, uma presença com desejos e conhecimentos próprios. Estes exemplos aprofundam a conversa, os limites das capacidades e o que registrar para a próxima sessão.\n\nCombine a distribuição de vozes e os limites antes da cena, como explicado em [A outra voz do Receptáculo](<../07-personagens-e-tecnicas.md#a-outra-voz-do-receptaculo>). Use a [ficha de convivência](<../consultas/28-ficha-de-convivencia.md>) para guardar o acordo. O jogador continua decidindo as ações de sua personagem, dentro das regras.\n\n",
+    "ocorrencias": 1,
+    "motivo": "Separar o método de interpretação, que permanece no capítulo 7, dos exemplos aprofundados."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "antes": "## Quem interpreta cada voz?\n\nConverse antes de introduzir uma disputa importante. Diga como pretende interpretar a presença, ouça o que o jogador quer explorar e confira se isso cabe na proposta da mesa.\n\n| Distribuição | Quando pode ajudar | O que combinar |\n|---|---|---|\n| Mestre interpreta a presença | Recomendada para dar à presença seus próprios desejos e permitir que o jogador responda como hospedeiro | O que ela sabe, como se manifesta, limites de conteúdo e quanto espaço recebe |\n| Jogador interpreta as duas vozes | Alternativa para quem quer desenvolver a conversa interna ou apresentar diretamente o contraste entre as identidades | Como tornar as falas compreensíveis e como o mestre apresenta informações externas |\n| Distribuição alternada ou resumida | Alternativa quando o grupo prefere intervenções pontuais ou precisa de outro modo de participação | Quem fala em cada situação e como retomar sem confundir decisões |\n\nA distribuição pode ser revista por acordo. Se o jogador não quiser fazer duas vozes ou encenar um diálogo longo, uma conversa resumida também funciona. O importante é compreender o que cada identidade quer e qual resposta o personagem escolheu.\n\nA fala da presença pode ser interna, narrada ou expressa pelo hospedeiro conforme a história combinada. Isso não concede telepatia com o grupo nem uma habilidade nova de comunicação. Confira quem percebeu cada manifestação e como recebeu a informação.\n\n",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Alternativas e distribuição de vozes já estão no capítulo 7; conservar a ligação explícita e evitar repetir a exposição."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "antes": "## Histórico da proposta\n\nOs modelos numéricos anteriores foram descartados como detalhamento do Guia. A pesquisa fica identificada como histórica no [registro 86](<../04 - Planejamento/86-validacao-da-reserva-condensada.md>); a [decisão posterior](<../04 - Planejamento/87-correcao-de-escopo-da-reserva.md>) define o estado vigente. O texto anterior desta seção foi preservado no histórico da correção. O Livro de Regras 1.0 não foi alterado.\n",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "Histórico de desenvolvimento fica no relatório e nas fontes preservadas; o texto de leitura conserva apenas o acordo publicado."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "### A semana de cada jogador",
+    "depois": "**Exemplo de metade, decidido para o caso.** Uma missão longa pretendia recuperar registros e impedir sua entrega a um comprador. A equipe recuperou parte dos documentos, mas não impediu a entrega. O mestre considera a atuação e o resultado parcial e atribui metade: **100 XP antes do desconto semanal**. O critério pertence a essa avaliação, não estabelece que todo fracasso parcial pague necessariamente metade.\n\n**Exemplo de zero, decidido para o caso.** Uma missão curta foi encerrada como malsucedida após a desistência, sem resultado relevante para o objetivo; o mestre informa a decisão de não conceder XP. Quem participou ainda registra a posição semanal dessa missão. Isso não é uma punição extra escolhida depois: é uma consequência da contagem publicada, inclusive para missões sem XP.\n\n### A semana de cada jogador",
+    "ocorrencias": 1,
+    "motivo": "Recuperar da fonte 37 os dois exemplos concretos, sem duplicar seu método de cálculo e fechamento."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "A [consulta de fechamento](../37-recompensas-e-fechamento.md) reúne outros exemplos e os campos de continuidade.",
+    "depois": "Use a [linha de continuidade](<consultas/16-linha-de-continuidade.md>) para registrar o resultado e o que acompanha a equipe à próxima mesa.",
+    "ocorrencias": 1,
+    "motivo": "Os exemplos foram reunidos neste capítulo; os campos de continuidade têm destino próprio."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+    "antes": "A [proposta completa](<../../../04 - Planejamento/46-pacifismo-conducao-pela-materia.md>) compara esse ganho com Sem Ver, registra os limites e demonstra informação desatualizada. A condução é uma exceção proposta para este Pacto, não uma permissão normal de Projétil ou Sem Ver. A compatibilidade da montagem com o Livro de Regras 1.0 não demonstra equilíbrio entre esse ganho e o impedimento assumido.",
+    "depois": "**Comparação com Sem Ver.** A Melhoria permite escolher um alvo de posição atual conhecida sem enxergá-lo, mas conserva a trajetória da Forma e não atravessa um obstáculo sólido. Condução pela matéria usa a própria estrutura como caminho, mediante toque, até um objeto já visto e de posição conhecida. É uma exceção proposta para este Pacto, não uma permissão normal de Projétil ou Sem Ver.\n\nA informação pode estar desatualizada: se a peça conhecida tiver sido removida, o uso não produz efeito e os custos permanecem, sem localizar outro alvo. A compatibilidade da montagem com o Livro de Regras 1.0 não demonstra equilíbrio entre esse ganho e o impedimento assumido.",
+    "ocorrencias": 1,
+    "motivo": "Reunir a comparação e o caso de informação desatualizada do registro 46, preservando os limites já descritos na minuta."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "# Base pequena de inimigos para o piloto do Livro de Regras 1.0",
+    "depois": "# Três maldições para a missão",
+    "ocorrencias": 1,
+    "motivo": "Título dirigido à consulta das fichas."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "Versão piloto 1, de 21 de outubro de 2026. Três maldições originais para desenvolver e avaliar exemplos do Guia, autorizadas por Mizuki. Os números novos são propostas de trabalho desta base. O Bestiário antigo não foi usado como referência numérica.",
+    "depois": "Três maldições originais para os exemplos do Guia. Suas fichas e conversões são experimentais; foram preparadas com o Livro de Regras 1.0 e precisam ser avaliadas nas condições de cada encontro.",
+    "ocorrencias": 1,
+    "motivo": "Retirar data e aprovação do processo; manter o alcance experimental das fichas."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "A [verificação](15-verificacao-da-base-e-do-piloto.md) mostra também condições diferentes. ",
+    "depois": "A [avaliação do encontro](<57-avaliar-o-encontro-do-amontoado.md>) compara também condições diferentes. ",
+    "ocorrencias": 1,
+    "motivo": "Trocar o registro de trabalho pelo estudo que explica as condições e seus limites."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "Os quadros abaixo e as conversões são gerados da mesma [fonte de produção](apoio-piloto/base-inimigos.json). A fonte não é uma regra adicional para a mesa.",
+    "depois": "",
+    "ocorrencias": 1,
+    "motivo": "A fonte de produção fica no apoio editorial; não é necessária para usar as fichas."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "Referência principal: [texto completo do Livro de Regras 1.0](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md>), em Atributos, Turnos, Ataques, Dano na alma, Vida a zero, Fundamento, Invocações em campo e Construir invocações. O [relatório de verificação](15-verificacao-da-base-e-do-piloto.md) registra os cálculos, hipóteses e limites.\n",
+    "depois": "*Base: Livro de Regras 1.0, Atributos; Turnos; Ataques; Dano na alma; Vida a zero; Fundamento; Invocações em campo; Construir invocações. A avaliação do encontro explica hipóteses e limites.*",
+    "ocorrencias": 1,
+    "motivo": "Identificar as regras sem caminho do computador ou relatório de produção."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "[Ideias para aventuras](03a-ideias-para-aventuras.md) oferece situações, pessoas e lugares para escolher e dois exemplos de como reuni-los.",
+    "depois": "As opções e os dois exemplos a seguir oferecem situações, pessoas e lugares para escolher e combinar.",
+    "ocorrencias": 1,
+    "motivo": "O conteúdo de 3a será incluído na própria seção 3.6, antes de 3.7."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "Os casos e as consultas têm cópias revistas; o índice abre suas fontes atuais.",
+    "depois": "Escolha um caso pelo assunto que deseja aprofundar.",
+    "ocorrencias": 1,
+    "motivo": "Retirar estado de produção do guia dirigido ao leitor."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "antes": "## Quem é a outra presença?",
+    "depois": "## Conheça a presença",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "antes": "## A presença em mesas com outros mestres",
+    "depois": "## Entre mesas",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "## O que vem do Livro de Regras 1.0 e o que está sendo proposto",
+    "depois": "## Regras e escolhas do exemplo",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "## Conversões conhecidas para maldições domadas",
+    "depois": "## Depois da Doma",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "## Uso e revisão",
+    "depois": "## Usar estas fichas",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "antes": "no livro-base",
+    "depois": "no Livro de Regras 1.0",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "antes": "do livro-base",
+    "depois": "do Livro de Regras 1.0",
+    "ocorrencias": 1,
+    "motivo": "Pente fino: título mais direto ou nome consistente do livro de regras; sem alteração mecânica."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Sua primeira missão](01-sua-primeira-missao.md)",
+    "depois": "[Sua primeira missão](<01-sua-primeira-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[O mundo dos feiticeiros](02-o-mundo-dos-feiticeiros.md)",
+    "depois": "[O mundo dos feiticeiros](<02-o-mundo-dos-feiticeiros.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Preparar aventuras](03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Na mesa de jogo](04-na-mesa-de-jogo.md)",
+    "depois": "[Na mesa de jogo](<04-na-mesa-de-jogo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Inimigos e perigos](06-inimigos-e-perigos.md)",
+    "depois": "[Inimigos e perigos](<06-inimigos-e-perigos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Personagens e técnicas](07-personagens-e-tecnicas.md)",
+    "depois": "[Personagens e técnicas](<07-personagens-e-tecnicas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Entre missões](08-entre-missoes.md)",
+    "depois": "[Entre missões](<08-entre-missoes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Pactos e entidades](09-pactos-e-entidades.md)",
+    "depois": "[Pactos e entidades](<09-pactos-e-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Jogar em guilda](10-jogar-em-guilda.md)",
+    "depois": "[Jogar em guilda](<10-jogar-em-guilda.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[folhas para a mesa](consultas/LEIA-ME.md)",
+    "depois": "[folhas para a mesa](<consultas/LEIA-ME.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[índice de casos](<../../04 - Planejamento/apoio-conferencia-135/casos-completos.html>)",
+    "depois": "[índice de casos](<indice-de-casos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "antes": "[Criar uma campanha](05-criar-uma-campanha.md)",
+    "depois": "[Criar uma campanha](<05-criar-uma-campanha.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "![Planta do anexo: pátio ligado à entrada principal; corredor com entrada de serviço na outra ponta e uma única porta central para o depósito.](../../04%20-%20Planejamento/apoio-primeira-missao-100/planta-do-anexo.svg)",
+    "depois": "![Planta do anexo: pátio ligado à entrada principal; corredor com entrada de serviço na outra ponta e uma única porta central para o depósito.](<../../07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/planta-do-anexo.svg>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "[Preparar aventuras](03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "[Na mesa de jogo](04-na-mesa-de-jogo.md)",
+    "depois": "[Na mesa de jogo](<04-na-mesa-de-jogo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "[Preparar aventuras](03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "[Inspirações da obra](<../../07 - Edicao de Leitura/aprofundamentos/casos-da-obra-com-revelacoes.html>)",
+    "depois": "[Inspirações da obra](<consultas/87-casos-da-obra-para-preparar-situacoes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "[Preparar aventuras](03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "[Sua primeira missão](01-sua-primeira-missao.md)",
+    "depois": "[Sua primeira missão](<01-sua-primeira-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "[O aviso de reabertura](<../../07 - Edicao de Leitura/capitulos/c02.html#s014>)",
+    "depois": "[O aviso de reabertura](<casos/14-o-aviso-de-reabertura.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+    "antes": "![As duas margens e a grade de apoio](<../../04 - Planejamento/apoio-inspiracao-104/canal-das-hortas.svg>)",
+    "depois": "![As duas margens e a grade de apoio](<../../07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/canal-das-hortas.svg>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+    "antes": "[caso de correnteza do Guia](<../../07 - Edicao de Leitura/capitulos/c03.html#s084>)",
+    "depois": "[caso de correnteza do Guia](<casos/84-percursos-apoios-e-quedas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[caso completo](<../../07 - Edicao de Leitura/capitulos/c03.html#s082>)",
+    "depois": "[caso completo](<casos/82-testes-trabalho-em-grupo-e-iniciativa.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[consulta de percepção](<../../07 - Edicao de Leitura/capitulos/c03.html#s083>)",
+    "depois": "[consulta de percepção](<casos/83-perceber-procurar-e-interpretar-sinais.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[casos de movimento](<../../07 - Edicao de Leitura/capitulos/c03.html#s084>)",
+    "depois": "[casos de movimento](<casos/84-percursos-apoios-e-quedas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[ferramentas e improvisação](<../../07 - Edicao de Leitura/capitulos/c03.html#s085>)",
+    "depois": "[ferramentas e improvisação](<casos/85-trajetorias-ferramentas-e-improvisacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[casos de quedas e socorro](<../../07 - Edicao de Leitura/capitulos/c04.html#s022>)",
+    "depois": "[casos de quedas e socorro](<casos/22-quedas-e-socorro.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[Retirada e recuperação](<../../07 - Edicao de Leitura/capitulos/c04.html#s023>)",
+    "depois": "[Retirada e recuperação](<casos/23-retirada-e-recuperacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "[Criar uma campanha](05-criar-uma-campanha.md)",
+    "depois": "[Criar uma campanha](<05-criar-uma-campanha.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[Preparar aventuras](03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[ficha de acordos](<../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s008>)",
+    "depois": "[ficha de acordos](<consultas/08-ficha-de-acordos-do-grupo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[Na mesa de jogo](04-na-mesa-de-jogo.md#46-participacao-e-ritmo)",
+    "depois": "[Na mesa de jogo](<04-na-mesa-de-jogo.md#46-participacao-e-ritmo>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[consultas de vínculos e mudanças](<../../07 - Edicao de Leitura/capitulos/c06.html#s026>)",
+    "depois": "[consultas de vínculos e mudanças](<05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[linha de continuidade](<../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s016>)",
+    "depois": "[linha de continuidade](<consultas/16-linha-de-continuidade.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "[ficha de facção](<../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s020>)",
+    "depois": "[ficha de facção](<consultas/20-ficha-de-faccao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "antes": "[Amontoado](01-sua-primeira-missao.md#amontoado-do-deposito)",
+    "depois": "[Amontoado](<01-sua-primeira-missao.md#amontoado-do-deposito>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "antes": "[Combate, socorro e retirada](04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada)",
+    "depois": "[Combate, socorro e retirada](<04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "antes": "[Retomar a missão](consultas/A4-retomar-a-missao.md)",
+    "depois": "[Retomar a missão](<consultas/A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "antes": "[índice de casos](<../../04 - Planejamento/apoio-conferencia-135/casos-completos.html#B2>)",
+    "depois": "[índice de casos](<indice-de-casos.md#B2>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[Na mesa de jogo](04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao)",
+    "depois": "[Na mesa de jogo](<04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[caso de Maia e Taru](../27-convivencia-do-receptaculo.md)",
+    "depois": "[caso de Maia e Taru](<casos/27-convivencia-do-receptaculo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[família Arata](casos/89-vida-rolada-e-familia-propria.md#a-familia-arata)",
+    "depois": "[família Arata](<casos/89-vida-rolada-e-familia-propria.md#a-familia-arata>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[consulta](../92-reserva-condensada-proposta-e-comparacao.md)",
+    "depois": "[consulta](<consultas/92-reserva-condensada-proposta-e-comparacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[exemplo de Kaori](casos/89-vida-rolada-e-familia-propria.md#escolha-como-calcular-a-vida)",
+    "depois": "[exemplo de Kaori](<casos/89-vida-rolada-e-familia-propria.md#escolha-como-calcular-a-vida>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "[casos por assunto](<../../04 - Planejamento/apoio-conferencia-135/casos-completos.html#B3>)",
+    "depois": "[casos por assunto](<indice-de-casos.md#B3>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "[ideias para aventuras](03a-ideias-para-aventuras.md)",
+    "depois": "[ideias para aventuras](<03a-ideias-para-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "[avaliação de capacidades](07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade)",
+    "depois": "[avaliação de capacidades](<07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "[Personagens e técnicas](07-personagens-e-tecnicas.md#ao-subir-de-nivel)",
+    "depois": "[Personagens e técnicas](<07-personagens-e-tecnicas.md#ao-subir-de-nivel>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "[avaliação de capacidades](07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade)",
+    "depois": "[avaliação de capacidades](<07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "[Entre missões](08-entre-missoes.md#82-tempo-para-as-atividades)",
+    "depois": "[Entre missões](<08-entre-missoes.md#82-tempo-para-as-atividades>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[sessão zero](05-criar-uma-campanha.md#51-a-sessao-zero)",
+    "depois": "[sessão zero](<05-criar-uma-campanha.md#51-a-sessao-zero>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[Criar uma campanha](05-criar-uma-campanha.md)",
+    "depois": "[Criar uma campanha](<05-criar-uma-campanha.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[Entre missões](08-entre-missoes.md#86-recompensas-e-progressao)",
+    "depois": "[Entre missões](<08-entre-missoes.md#86-recompensas-e-progressao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[Tempo para as atividades](08-entre-missoes.md#82-tempo-para-as-atividades)",
+    "depois": "[Tempo para as atividades](<08-entre-missoes.md#82-tempo-para-as-atividades>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[folha de retomada](consultas/A4-retomar-a-missao.md)",
+    "depois": "[folha de retomada](<consultas/A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[Retomada](consultas/A4-retomar-a-missao.md)",
+    "depois": "[Retomada](<consultas/A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "[Na mesa de jogo](04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao)",
+    "depois": "[Na mesa de jogo](<04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+    "antes": "[referências](<../../REFERENCIAS.md>)",
+    "depois": "[referências](<../referencias.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "antes": "[confronto do anexo](<../../../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>)",
+    "depois": "[confronto do anexo](<../01-sua-primeira-missao.md#15-jogue-a-missao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "antes": "[exemplo comentado](<../../../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>)",
+    "depois": "[exemplo comentado](<../01-sua-primeira-missao.md#15-jogue-a-missao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "[Reserva Condensada: acordo por personagem](<../../92-reserva-condensada-proposta-e-comparacao.md>)",
+    "depois": "[Reserva Condensada: acordo por personagem](<../consultas/92-reserva-condensada-proposta-e-comparacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "[conversões de Três maldições para a missão](<../../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>)",
+    "depois": "[conversões de Três maldições para a missão](<14-tres-maldicoes-para-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+    "antes": "[Três maldições para a missão](<../../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>)",
+    "depois": "[Três maldições para a missão](<14-tres-maldicoes-para-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+    "antes": "[Três maldições para a missão](<../../../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>)",
+    "depois": "[Três maldições para a missão](<14-tres-maldicoes-para-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "[referências](<../../REFERENCIAS.md>)",
+    "depois": "[referências](<../referencias.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "antes": "[referências](<../../REFERENCIAS.md>)",
+    "depois": "[referências](<../referencias.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+    "antes": "[REFERENCIAS](<../../REFERENCIAS.md>)",
+    "depois": "[REFERENCIAS](<../referencias.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "[REFERENCIAS](<../../REFERENCIAS.md>)",
+    "depois": "[REFERENCIAS](<../referencias.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+    "antes": "[Antes que o trem parta](../03-preparar-aventuras.md#antes-que-o-trem-parta)",
+    "depois": "[Antes que o trem parta](<../03-preparar-aventuras.md#antes-que-o-trem-parta>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+    "antes": "[Interpretar e negociar](../04-na-mesa-de-jogo.md#43-interpretar-e-negociar)",
+    "depois": "[Interpretar e negociar](<../04-na-mesa-de-jogo.md#43-interpretar-e-negociar>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+    "antes": "[Preparar aventuras](../03-preparar-aventuras.md)",
+    "depois": "[Preparar aventuras](<../03-preparar-aventuras.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+    "antes": "[Retomar a missão](A4-retomar-a-missao.md)",
+    "depois": "[Retomar a missão](<A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+    "antes": "[Na mesa de jogo](../04-na-mesa-de-jogo.md)",
+    "depois": "[Na mesa de jogo](<../04-na-mesa-de-jogo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+    "antes": "[Combate, socorro e retirada](../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada)",
+    "depois": "[Combate, socorro e retirada](<../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+    "antes": "[Retomar a missão](A4-retomar-a-missao.md)",
+    "depois": "[Retomar a missão](<A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "[exemplo de troca de mestre](../10-jogar-em-guilda.md#103-continuar-com-outro-mestre)",
+    "depois": "[exemplo de troca de mestre](<../10-jogar-em-guilda.md#103-continuar-com-outro-mestre>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Preparar a missão](A1-preparar-a-missao.md)",
+    "depois": "[Preparar a missão](<A1-preparar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Conduzir a sessão](A2-conduzir-a-sessao.md)",
+    "depois": "[Conduzir a sessão](<A2-conduzir-a-sessao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Na mesa de jogo](../04-na-mesa-de-jogo.md)",
+    "depois": "[Na mesa de jogo](<../04-na-mesa-de-jogo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Retomar a missão](A4-retomar-a-missao.md)",
+    "depois": "[Retomar a missão](<A4-retomar-a-missao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[preparo preenchido](A1-exemplo-despedida.md)",
+    "depois": "[preparo preenchido](<A1-exemplo-despedida.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[resumo da sala de conservação](A4-exemplo-sala-de-conservacao.md)",
+    "depois": "[resumo da sala de conservação](<A4-exemplo-sala-de-conservacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Inimigos e perigos](../06-inimigos-e-perigos.md)",
+    "depois": "[Inimigos e perigos](<../06-inimigos-e-perigos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Personagens e técnicas](../07-personagens-e-tecnicas.md)",
+    "depois": "[Personagens e técnicas](<../07-personagens-e-tecnicas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Entre missões](../08-entre-missoes.md)",
+    "depois": "[Entre missões](<../08-entre-missoes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Pactos e entidades](../09-pactos-e-entidades.md)",
+    "depois": "[Pactos e entidades](<../09-pactos-e-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Jogar em guilda](../10-jogar-em-guilda.md)",
+    "depois": "[Jogar em guilda](<../10-jogar-em-guilda.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[índice de casos por assunto](<../../../04 - Planejamento/apoio-conferencia-135/casos-completos.html>)",
+    "depois": "[índice de casos por assunto](<../indice-de-casos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[aviso de reabertura](../casos/14-o-aviso-de-reabertura.md)",
+    "depois": "[aviso de reabertura](<../casos/14-o-aviso-de-reabertura.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[cenário e ideias dos jogadores](../casos/11-espaco-e-usos-criativos.md)",
+    "depois": "[cenário e ideias dos jogadores](<../casos/11-espaco-e-usos-criativos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[testes e iniciativa](../casos/82-testes-trabalho-em-grupo-e-iniciativa.md)",
+    "depois": "[testes e iniciativa](<../casos/82-testes-trabalho-em-grupo-e-iniciativa.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[pistas](../casos/83-perceber-procurar-e-interpretar-sinais.md)",
+    "depois": "[pistas](<../casos/83-perceber-procurar-e-interpretar-sinais.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[percursos e quedas](../casos/84-percursos-apoios-e-quedas.md)",
+    "depois": "[percursos e quedas](<../casos/84-percursos-apoios-e-quedas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ferramentas](../casos/85-trajetorias-ferramentas-e-improvisacao.md)",
+    "depois": "[ferramentas](<../casos/85-trajetorias-ferramentas-e-improvisacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[quando alguém cai](../casos/22-quedas-e-socorro.md)",
+    "depois": "[quando alguém cai](<../casos/22-quedas-e-socorro.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[retirada e recuperação](../casos/23-retirada-e-recuperacao.md)",
+    "depois": "[retirada e recuperação](<../casos/23-retirada-e-recuperacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[passagem entre mestres](../casos/81-passar-a-missao-entre-mestres.md)",
+    "depois": "[passagem entre mestres](<../casos/81-passar-a-missao-entre-mestres.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[PE e recarga](../casos/59-recursos-e-ritmo-dos-inimigos.md)",
+    "depois": "[PE e recarga](<../casos/59-recursos-e-ritmo-dos-inimigos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[montar habilidades](../casos/60-montar-habilidades-de-inimigos.md)",
+    "depois": "[montar habilidades](<../casos/60-montar-habilidades-de-inimigos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[escolher números](../casos/74-regua-inicial-de-inimigos.md)",
+    "depois": "[escolher números](<../casos/74-regua-inicial-de-inimigos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[níveis mais altos](../casos/100-comparar-inimigos-em-outras-faixas.md)",
+    "depois": "[níveis mais altos](<../casos/100-comparar-inimigos-em-outras-faixas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[preparar chefes](../casos/67-preparar-chefes-e-confrontos-maiores.md)",
+    "depois": "[preparar chefes](<../casos/67-preparar-chefes-e-confrontos-maiores.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[preparar perigos](../casos/78-preparar-perigos-ambientais.md)",
+    "depois": "[preparar perigos](<../casos/78-preparar-perigos-ambientais.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[avaliar o Amontoado](../casos/57-avaliar-o-encontro-do-amontoado.md)",
+    "depois": "[avaliar o Amontoado](<../casos/57-avaliar-o-encontro-do-amontoado.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[depósito e rotas](../casos/62-o-carregador-e-o-corredor-de-entulho.md)",
+    "depois": "[depósito e rotas](<../casos/62-o-carregador-e-o-corredor-de-entulho.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ficha e Doma](../casos/63-carregador-consulta-e-doma.md)",
+    "depois": "[ficha e Doma](<../casos/63-carregador-consulta-e-doma.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[passarela e guincho](../casos/64-a-passarela-e-o-guincho.md)",
+    "depois": "[passarela e guincho](<../casos/64-a-passarela-e-o-guincho.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[inimigos e perigos juntos](../casos/65-comparar-confronto-e-pressao-ambiental.md)",
+    "depois": "[inimigos e perigos juntos](<../casos/65-comparar-confronto-e-pressao-ambiental.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[portão do depósito](../casos/66-o-carregador-e-a-saida-que-fecha.md)",
+    "depois": "[portão do depósito](<../casos/66-o-carregador-e-a-saida-que-fecha.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ficha do Sineiro](../casos/71-sineiro-do-recolhimento.md)",
+    "depois": "[ficha do Sineiro](<../casos/71-sineiro-do-recolhimento.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Sineiro após a Doma](../casos/72-sineiro-consulta-e-doma.md)",
+    "depois": "[Sineiro após a Doma](<../casos/72-sineiro-consulta-e-doma.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[retirar a caixa](../casos/73-ensaio-guiado-do-sineiro.md)",
+    "depois": "[retirar a caixa](<../casos/73-ensaio-guiado-do-sineiro.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Toru e Sayo](../casos/75-ren-e-sora-atacante-e-apoio.md)",
+    "depois": "[Toru e Sayo](<../casos/75-ren-e-sora-atacante-e-apoio.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[confronto da dupla](../casos/76-confronto-de-ren-e-sora.md)",
+    "depois": "[confronto da dupla](<../casos/76-confronto-de-ren-e-sora.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Daigo, Vigia e Tessa](../casos/101-haru-vigia-e-tessa.md)",
+    "depois": "[Daigo, Vigia e Tessa](<../casos/101-haru-vigia-e-tessa.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[disputa pelo arquivo](../casos/102-o-arquivo-e-as-oportunidades-de-agir.md)",
+    "depois": "[disputa pelo arquivo](<../casos/102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[pó na sala de conservação](../casos/79-o-po-na-sala-de-conservacao.md)",
+    "depois": "[pó na sala de conservação](<../casos/79-o-po-na-sala-de-conservacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[febre dos fios](../casos/103-a-febre-dos-fios.md)",
+    "depois": "[febre dos fios](<../casos/103-a-febre-dos-fios.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ficha preenchida de Toru e Sayo](../casos/77-ficha-preenchida-ren-e-sora.md)",
+    "depois": "[ficha preenchida de Toru e Sayo](<../casos/77-ficha-preenchida-ren-e-sora.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[conferir e comparar um chefe](../casos/68-ficha-e-comparacao-de-chefes.md)",
+    "depois": "[conferir e comparar um chefe](<../casos/68-ficha-e-comparacao-de-chefes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[reparo do corpo construído](../casos/90-reparar-personagem-de-corpo-construido.md)",
+    "depois": "[reparo do corpo construído](<../casos/90-reparar-personagem-de-corpo-construido.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Restrição corporal](../casos/91-restricao-corporal-e-cuidados.md)",
+    "depois": "[Restrição corporal](<../casos/91-restricao-corporal-e-cuidados.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[exemplos de avaliação de poderes](../casos/30-pareceres-de-criacoes.md)",
+    "depois": "[exemplos de avaliação de poderes](<../casos/30-pareceres-de-criacoes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[poderes avançados](../casos/31-avaliar-poderes-avancados.md)",
+    "depois": "[poderes avançados](<../casos/31-avaliar-poderes-avancados.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[dúvidas sobre técnicas](../casos/33-casos-especificos-de-avaliacao.md)",
+    "depois": "[dúvidas sobre técnicas](<../casos/33-casos-especificos-de-avaliacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[mescla e troca de Forma](../casos/93-ampliar-mesclas-e-trocar-formas.md)",
+    "depois": "[mescla e troca de Forma](<../casos/93-ampliar-mesclas-e-trocar-formas.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[compras repetidas e Restrições](../casos/94-compras-repetidas-e-restricoes.md)",
+    "depois": "[compras repetidas e Restrições](<../casos/94-compras-repetidas-e-restricoes.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[efeitos de cena e cancelamento](../casos/95-efeitos-de-cena-e-cancelamento.md)",
+    "depois": "[efeitos de cena e cancelamento](<../casos/95-efeitos-de-cena-e-cancelamento.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ofícios e reparos](../casos/34-oficios-fabricacao-e-reparos.md)",
+    "depois": "[ofícios e reparos](<../casos/34-oficios-fabricacao-e-reparos.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[ferramentas e objetos](../casos/36-ferramentas-objetos-e-contencao.md)",
+    "depois": "[ferramentas e objetos](<../casos/36-ferramentas-objetos-e-contencao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Anel de Testemunho](../casos/96-fabricar-e-identificar-o-anel.md)",
+    "depois": "[Anel de Testemunho](<../casos/96-fabricar-e-identificar-o-anel.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Cofre e venda](../casos/97-emprestimo-familiar-e-negociacao.md)",
+    "depois": "[Cofre e venda](<../casos/97-emprestimo-familiar-e-negociacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Pastilha do Último Aviso](../casos/98-objeto-selado-e-risco-de-ingestao.md)",
+    "depois": "[Pastilha do Último Aviso](<../casos/98-objeto-selado-e-risco-de-ingestao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Limiar e promoção](../casos/99-limiar-feitos-e-promocao.md)",
+    "depois": "[Limiar e promoção](<../casos/99-limiar-feitos-e-promocao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[desenvolver uma ideia de Pacto](../casos/47-desenvolver-uma-ideia-de-pacto.md)",
+    "depois": "[desenvolver uma ideia de Pacto](<../casos/47-desenvolver-uma-ideia-de-pacto.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Pacifismo impraticável](../casos/48-pacifismo-impraticavel-minuta.md)",
+    "depois": "[Pacifismo impraticável](<../casos/48-pacifismo-impraticavel-minuta.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Liberação irregular](../casos/49-liberacao-irregular-minuta.md)",
+    "depois": "[Liberação irregular](<../casos/49-liberacao-irregular-minuta.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Promessa do arquivo](../casos/50-promessa-do-arquivo.md)",
+    "depois": "[Promessa do arquivo](<../casos/50-promessa-do-arquivo.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[obter e criar entidades](../casos/43-aquisicao-e-projetos-de-entidades.md)",
+    "depois": "[obter e criar entidades](<../casos/43-aquisicao-e-projetos-de-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[tempo e materiais](../casos/45-tempo-materiais-e-retomada-de-entidades.md)",
+    "depois": "[tempo e materiais](<../casos/45-tempo-materiais-e-retomada-de-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[reconstruir, transferir e herdar](../casos/46-reconstruir-transferir-e-herdar-entidades.md)",
+    "depois": "[reconstruir, transferir e herdar](<../casos/46-reconstruir-transferir-e-herdar-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[prova do Cão de sombra](../casos/51-ritual-do-cao-de-sombra.md)",
+    "depois": "[prova do Cão de sombra](<../casos/51-ritual-do-cao-de-sombra.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Domar o Amontoado](../casos/52-domar-o-amontoado.md)",
+    "depois": "[Domar o Amontoado](<../casos/52-domar-o-amontoado.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Escriba de campo](../casos/53-construir-e-evoluir-o-escriba.md)",
+    "depois": "[Escriba de campo](<../casos/53-construir-e-evoluir-o-escriba.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[transporte com entidades](../casos/54-transporte-e-continuidade-das-entidades.md)",
+    "depois": "[transporte com entidades](<../casos/54-transporte-e-continuidade-das-entidades.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "antes": "[Vigia do depósito](../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md)",
+    "depois": "[Vigia do depósito](<../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "antes": "[ficha de convivência](28-ficha-de-convivencia.md)",
+    "depois": "[ficha de convivência](<../consultas/28-ficha-de-convivencia.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "antes": "[Dúvidas sobre técnicas e capacidades](33-casos-especificos-de-avaliacao.md)",
+    "depois": "[Dúvidas sobre técnicas e capacidades](<../casos/33-casos-especificos-de-avaliacao.md>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "[As batidas no anexo](13-piloto-editorial-ocorrencia-sobrenatural.md)",
+    "depois": "[As batidas no anexo](<../01-sua-primeira-missao.md#15-jogue-a-missao>)",
+    "ocorrencias": 1,
+    "motivo": "Remissão: destino reunido na edição integrada, sem depender da estrutura de trabalho."
+  }
+]

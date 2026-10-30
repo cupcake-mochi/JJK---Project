@@ -16,7 +16,7 @@ Antes de pedir o dado, pergunte o que a personagem quer conseguir e como vai ten
 
 Na escala do criador, a base é **8 + atributo do criador + Maestria do criador**. Atributo 4 e Maestria 2 dão 14; uma avaliação classificada como Muito difícil recebe +2 e fica em **CD 16**. Uma tarefa comum Muito difícil usa **CD fixa 18**. O ajuste muda a dificuldade desse exame, não a CD de todos os feitiços do criador. A escala do criador não tem o degrau Extremo.
 
-Para a tabela completa, consulte **Testes — Dificuldade**, no Livro de Regras 1.0. [Preparar perigos ambientais](<../../78-preparar-perigos-ambientais.md>) aplica essa escolha a fontes do cenário.
+Para a tabela completa, consulte **Testes — Dificuldade**, no Livro de Regras 1.0. [Preparar perigos ambientais](<78-preparar-perigos-ambientais.md>) aplica essa escolha a fontes do cenário.
 
 ## Sucesso com um custo
 
@@ -132,7 +132,7 @@ Dizer primeiro que vai atacar não concede um golpe antes de definir a iniciativ
 
 ## O que anotar
 
-Registre o resultado que ainda muda decisões: no arquivo, destino descoberto e transporte perdido; na travessia, quem participou e se o grupo foi percebido; num combate interrompido, ordem completa e próximo turno, além das ações e efeitos pendentes. A guilda pode usar a [linha de continuidade](<../../16-linha-de-continuidade.md>); uma campanha fechada conserva as mesmas informações nas notas do grupo.
+Registre o resultado que ainda muda decisões: no arquivo, destino descoberto e transporte perdido; na travessia, quem participou e se o grupo foi percebido; num combate interrompido, ordem completa e próximo turno, além das ações e efeitos pendentes. A guilda pode usar a [linha de continuidade](<../consultas/16-linha-de-continuidade.md>); uma campanha fechada conserva as mesmas informações nas notas do grupo.
 
 **Para praticar:** mude a travessia para quatro participantes e conte quantos sucessos são necessários; depois troque apenas a Destreza de um inimigo empatado e refaça a ordem. Confira qual informação muda o resultado antes de acrescentar outra regra.
 

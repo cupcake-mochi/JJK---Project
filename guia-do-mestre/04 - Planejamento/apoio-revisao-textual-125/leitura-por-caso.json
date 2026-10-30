@@ -1,0 +1,87 @@
+{
+  "registro": 125,
+  "casos": [
+    {
+      "id": "s090",
+      "fonte_original": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+      "sha256_original": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+      "sha256_revisado": "bd85ac34bdc146874f4b57c4f1e9119f284546cd2d2379b6ad30a70802a36ef2",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        2
+      ],
+      "paginas_na_prova_final": [
+        1,
+        2
+      ],
+      "registros_por_passagem": {
+        "1": 5
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s091",
+      "fonte_original": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+      "sha256_original": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+      "sha256_revisado": "1157d2c62967d662d18de312db323d1f87f156447546837318079848d953b6be",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        2,
+        5
+      ],
+      "paginas_na_prova_final": [
+        2,
+        5
+      ],
+      "registros_por_passagem": {
+        "1": 3,
+        "2": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s030",
+      "fonte_original": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+      "sha256_original": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+      "sha256_revisado": "11ef367d2a8bd21cd0a526c6ebedfee493ce58ae722c59803f1f7173414c4d59",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        5,
+        8
+      ],
+      "paginas_na_prova_final": [
+        5,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 4
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s031",
+      "fonte_original": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+      "sha256_original": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+      "sha256_revisado": "a33398526981bbfece4ff2a2641e9425536e98e1b07bf8fb1eba1f941a1a9db9",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        8,
+        11
+      ],
+      "paginas_na_prova_final": [
+        8,
+        11
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

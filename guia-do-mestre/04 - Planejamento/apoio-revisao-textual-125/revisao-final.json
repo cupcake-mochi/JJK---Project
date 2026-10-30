@@ -1,0 +1,113 @@
+{
+  "registro": 125,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-125/output/pdf/Ciclo-Maldito-Corpos-Cuidados-e-Poderes-Revisao-Textual.pdf",
+  "pdf_sha256": "2b48fb6fcdb0178ebf8624287d613155a569f808f872ca01186f42cbab920339",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 15,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 1,
+      "escopo": "Leitura integral das onze páginas da prova e pente fino."
+    }
+  ],
+  "ajuste_de_diagramacao": "Casos curtos seguem na mesma página, como no B2-06; quadros a partir de cinco linhas podem continuar com cabeçalho repetido.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-01.png",
+      "imagem_sha256": "6fd6be7d0d9bd588ebd4e05ee525ed10ef6d05b63656a5feb45a000fec6545bc",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do reparo, Ofício, atendimento de Ena e quadro da conta."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-02.png",
+      "imagem_sha256": "ad054b16eaa9ab69e6bf90d62e68594e838d77dd7f0acc157f8c52833d8932ac",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do reparo com quadro das Classes; abertura da Restrição corporal na mesma página."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-03.png",
+      "imagem_sha256": "83ffe0b6d49fb3d406092566ab192f08ab2d1c9f5d85aade404dd11dc226e7cf",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Ficha de Nilo em quadro largo; participar à distância."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-04.png",
+      "imagem_sha256": "e832679c577443c0ab604f603a1dea915befdc48244edede023f0d8cb7d497d5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Situação de uso, corpo presente e quadro de cuidados por condição."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-05.png",
+      "imagem_sha256": "f3f3fa0b499d7c48ccf748ad2159e2bce33a6833a6021f80725638385f5631b0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Cuidados de cada condição e registro; abertura dos pareceres na mesma página."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-06.png",
+      "imagem_sha256": "f8dd503e64ae095ff47390336586b204459276ee9f76a49c19b03bfbe80e02e5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Toque, Prender com fios e informação de objeto."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-07.png",
+      "imagem_sha256": "b37f2ee57e4d5fa0cfeca59d4638b95ce0bdf9f01fe8d8f2867d6399e75d82a8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Vibrações, imunidade, aposta e menores de Origem."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-08.png",
+      "imagem_sha256": "74042520ad398c68fe2737ed451fbe4c6cef93d025507924739cd2a50c270937",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Restrições; abertura dos poderes avançados e começo do quadro Liberação/Técnica Máxima."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-09.png",
+      "imagem_sha256": "7a0a85fd61ac68ee0d27ca491dc08202d3aa3265fe9b2eca3de5574c7de0f21b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro com cabeçalho repetido; Liberação e Máximas de dano e cura."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-10.png",
+      "imagem_sha256": "78d57147c1abb549c35586dc80eaf4384f8527c5ff160e70c8fde62db8b5ac64",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Máxima de utilidade, recarga e Domínio; Galeria de Vidro."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-125/pagina-11.png",
+      "imagem_sha256": "7e9a3b918bb00386863905a2651e44d10218b248b93dc03ec2a4819842e7513b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Galeria, Sala de Trégua e CE4 da Restrição corporal."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Uma linha do quadro de Liberação e Técnica Máxima fica no fim da página 8; reavaliar na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

@@ -1,6 +1,6 @@
 # Escolher os números de um inimigo
 
-Use esta seção para montar os primeiros valores da ficha e reconhecer o que precisa de revisão. Aqui, **PV** significa pontos de vida. Registre os campos na [ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.md>) e siga [Inimigos e perigos](<../06-inimigos-e-perigos.md>). As referências abaixo são **propostas experimentais para os níveis 2 e 6**, estudadas contra três perfis de personagens. Não são uma escala de dificuldade validada, uma tabela para todos os níveis ou fichas prontas para entrar em jogo.
+Use esta seção para montar os primeiros valores da ficha e reconhecer o que precisa de revisão. Aqui, **PV** significa pontos de vida. Registre os campos na [ficha de inimigo e encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>) e siga [Inimigos e perigos](<../06-inimigos-e-perigos.md>). As referências abaixo são **propostas experimentais para os níveis 2 e 6**, estudadas contra três perfis de personagens. Não são uma escala de dificuldade validada, uma tabela para todos os níveis ou fichas prontas para entrar em jogo.
 
 ## Comece pelo que ele faz
 
@@ -82,7 +82,7 @@ A comparação usa três perfis que conseguem tentar um ataque cada, na ordem Ba
 
 No nível 2, os feitiços são Classe 1, +4, 3d8 e 3 PE; a espada tem +4, 1d8 + 3 e 1d4 de Canalizar. No nível 6, são Classe 2, +5, 6d8 e 6 PE; a espada tem +5, 1d8 + 4 e 1d4 de Canalizar. As duas conjurações por pessoa cabem nas reservas cheias dos perfis usados. Não foram incluídos Kokusen, respostas de Caminho, propriedades da arma, socorro, controle ou ações do inimigo. A conta parte da hipótese de que todos conseguem alcançar o alvo e agir.
 
-**Não leia essas colunas como rodadas de combate.** Uma personagem pode gastar a Padrão para fugir de um agarrão, socorrer alguém ou cumprir o objetivo. A criatura pode ser interrompida ou a missão acabar antes de ela cair. O [ensaio do Sineiro](<../../73-ensaio-guiado-do-sineiro.md>) mostra essas diferenças com posições e ações.
+**Não leia essas colunas como rodadas de combate.** Uma personagem pode gastar a Padrão para fugir de um agarrão, socorrer alguém ou cumprir o objetivo. A criatura pode ser interrompida ou a missão acabar antes de ela cair. O [ensaio do Sineiro](<73-ensaio-guiado-do-sineiro.md>) mostra essas diferenças com posições e ações.
 
 **Exemplo de ajuste:** com 108 PV, o inimigo de referência sobrevive às seis ações do conjunto misto em 55,3% com Defesa 11, 70,3% com Defesa 13 e 81,4% com Defesa 15. Dar mais defesa ao Sineiro sem rever sua vida aumentaria suas chances de sobreviver a essa sequência. Isso é motivo para comparar antes de alterar; não é recomendação de garantir que um chefe sobreviva a seis ataques.
 
@@ -126,6 +126,6 @@ Experimente alterar **um elemento por vez**. Para tornar uma ameaça mais persis
 
 Na guilda, registre para quais fichas, recursos disponíveis no início e objetivo o encontro foi preparado. Esses dados permitem a outro mestre adaptar a missão. O registro não garante a mesma dificuldade com outra composição.
 
-**Exemplo de criação:** [Ren e Sora](<../../75-ren-e-sora-atacante-e-apoio.md>) transformam duas referências em fichas com funções distintas. O [confronto comentado](<../../76-confronto-de-ren-e-sora.md>) acompanha suas escolhas de energia, a disputa de alvos e a perda de uma função quando um deles cai. Os parâmetros continuam experimentais.
+**Exemplo de criação:** [Toru e Sayo](<75-ren-e-sora-atacante-e-apoio.md>) transformam duas referências em fichas com funções distintas. O [confronto comentado](<76-confronto-de-ren-e-sora.md>) acompanha suas escolhas de energia, a disputa de alvos e a perda de uma função quando um deles cai. Os parâmetros continuam experimentais.
 
-**Exemplo de ficha preenchida:** a [ficha de Ren e Sora](<../../77-ficha-preenchida-ren-e-sora.md>) conecta origem dos números, capacidades, grupo, lugar e resultado; as fichas completas continuam na consulta [Ren e Sora: atacante e apoio](<../../75-ren-e-sora-atacante-e-apoio.md>).
+**Exemplo de ficha preenchida:** a [ficha de Toru e Sayo](<77-ficha-preenchida-ren-e-sora.md>) conecta origem dos números, capacidades, grupo, lugar e resultado; as fichas completas continuam na consulta [Toru e Sayo: atacante e apoio](<75-ren-e-sora-atacante-e-apoio.md>).

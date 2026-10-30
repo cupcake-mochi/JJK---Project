@@ -1,0 +1,51 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "pagina": "capitulo-06.html",
+    "titulo": "Inimigos e perigos",
+    "parte": "Ferramentas de Ciclo Maldito",
+    "sha256": "5e1a22e52990c3e35287c936cb83493758e6f238637477c0f69d553210df2d78"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "pagina": "caso-59-recursos-e-ritmo-dos-inimigos.html",
+    "titulo": "PE, recarga e limites de uso",
+    "parte": "Apêndice B",
+    "sha256": "7884cd9a568aba88c742e03140b95db3cf55991aa16c7c6f87c501b00e783fef"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+    "pagina": "caso-60-montar-habilidades-de-inimigos.html",
+    "titulo": "Montar as habilidades de um inimigo",
+    "parte": "Apêndice B",
+    "sha256": "a948764a08a4696506ccfd1c2bfce2e2ee26811de99e26898a3c857aed5aa7fc"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+    "pagina": "caso-74-regua-inicial-de-inimigos.html",
+    "titulo": "Escolher os números de um inimigo",
+    "parte": "Apêndice B",
+    "sha256": "4b06a97ab3059bfa145dd41be4953541c53bb28e82ded20ffeb6f8f4fd21753c"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+    "pagina": "caso-100-comparar-inimigos-em-outras-faixas.html",
+    "titulo": "Inimigos de níveis mais altos",
+    "parte": "Apêndice B",
+    "sha256": "0c7e7599b5a9b0361351a6d21c9a37a1ed1d478316311cf3e9e8c19b939414c4"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+    "pagina": "caso-71-sineiro-do-recolhimento.html",
+    "titulo": "Sineiro do Recolhimento",
+    "parte": "Apêndice B",
+    "sha256": "3ab7ff17645c28eb8b0b69b56bd2c16916b85df97900644400071621fe9af478"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+    "pagina": "caso-103-a-febre-dos-fios.html",
+    "titulo": "A febre dos fios",
+    "parte": "Apêndice B",
+    "sha256": "6533b1c09c72445c27cf7aa2034f583d7f6c24126f0a141fa4b9d675469637fe"
+  }
+]

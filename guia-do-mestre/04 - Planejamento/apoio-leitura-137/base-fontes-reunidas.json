@@ -1,0 +1,584 @@
+[
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/00-como-usar-este-livro.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+    "sha256_origem": "034f19c075303587d5849d9fbfdd867888a48143da894ffe7d46c9e394b28495",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/01-sua-primeira-missao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "sha256_origem": "bb599a896988ee2f3e3a1544bd46a1aeeb8bbcadfbfb89e995e66a07bc0cda9e",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/02-o-mundo-dos-feiticeiros.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "sha256_origem": "bb21910736cd220a05535d4589f92ea673be3a72a867af52074be14f0720449c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/03-preparar-aventuras.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "sha256_origem": "663fea4d636c584ab4950080e42baa7f2f5793472117142168634910be0cff56",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/03a-ideias-para-aventuras.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+    "sha256_origem": "0a1fcf249ee8697110364c51eb31d00893bde16ce164d49944527579a08e9855",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/04-na-mesa-de-jogo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "sha256_origem": "51031d58e4d6a1207f030d534fc5daf02ed28f6860d2207e90173f7e0e700d1a",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/05-criar-uma-campanha.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "sha256_origem": "6d5ceb57a18f1a77df9825e4c6c086432231ca6371ae0f6cb63ce317e89efa26",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/06-inimigos-e-perigos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "sha256_origem": "cb58daefe390a0104c1aa1e3b52ae6ee876ab1aebc1eec7eeb9e610b77f3e7fd",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/07-personagens-e-tecnicas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "sha256_origem": "7eddbe91723062acb606c85ee69d5281945e90333c4882183c9f9bbd2e8aa0e2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/08-entre-missoes.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "sha256_origem": "dff86aeaaa743193166d0f822aff0881f210b6aa12b2d174a8e4204560ec047e",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/09-pactos-e-entidades.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "sha256_origem": "1cf6ea1d2874553b86e375c2480c0ac4f1e185ef53fbf4c6e13327346c819aa2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/10-jogar-em-guilda.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "sha256_origem": "e861f278331a5dd4af1f4508f0709b296d02b8150d15103104654f547c0d1949",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+    "sha256_origem": "0c7e7599b5a9b0361351a6d21c9a37a1ed1d478316311cf3e9e8c19b939414c4",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
+    "sha256_origem": "264d6c91204abed0a25bd1396c3f6c704000a1ef57d8573d34ccf8f913764c8f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "sha256_origem": "e1c318fc84813cee0db3f318aeb60dc194b3870b8d56959ff27ad7b9896468e2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+    "sha256_origem": "6533b1c09c72445c27cf7aa2034f583d7f6c24126f0a141fa4b9d675469637fe",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+    "sha256_origem": "bba665b9969d274a7e82feff02e336298982f0729c00e20a2dc2fb139ff5d155",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
+    "sha256_origem": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "sha256_origem": "bcfc0749024295546cab401f9edb9639c9016b5f5cfba5e18238b72955390feb",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+    "sha256_origem": "00bd54a38bb7f227d145039672a5a7aa0a2390569506a564789b05cee9c5b88f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+    "sha256_origem": "993fb5a66b436d2d50b6978fe95e3970f46680c4f44a294ed04729e212fb1150",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/31-avaliar-poderes-avancados.md",
+    "sha256_origem": "55914fc6378355af0ade1016e0dbdfa9eb6c9fef804ec2808c636050d6637631",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+    "sha256_origem": "bec68f786e9e825717ce57ec5e646a600b8067c6b81619791a8c0e8eae4bdddf",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/34-oficios-fabricacao-e-reparos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+    "sha256_origem": "bb30548d826e126020e8a0ec1ccefc492bdbc0dce8d77c6871f1a395cc364fda",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/36-ferramentas-objetos-e-contencao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/36-ferramentas-objetos-e-contencao.md",
+    "sha256_origem": "1d6c03fb75bfff5cc7790bda7451a46eef50f0e53850ca8bf69152ccca2abb9f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "sha256_origem": "5ce8075cf6a803260fe2a348a460557e4b2299dadbccca464aa1916f1a74acc8",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "sha256_origem": "63cf6956343aa089f5a07e427029adfeed063068fc89d50e48c9d8e2ddee254d",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "sha256_origem": "a72a2e6e73ea22937cad340ad8e371dd6dec450fde09dbbf6174f8a43361315d",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "sha256_origem": "68d04fceb75b861bfab992669cd9cd580ff38e67903655b54ad74603ced3b3fd",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+    "sha256_origem": "83a5538103fa5bf464192407cf172cbe0284c0d0a5a8fbd51684728b4031dc0e",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+    "sha256_origem": "0f1ac1ae5d70555e0be0a959d1868b343c944cbae689a39b988704c56a868af4",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+    "sha256_origem": "f11e63d6d18cc36c52fb285f73091ba152d98467534013370366e171247ebd23",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+    "sha256_origem": "05d0136bbbc82c54b54233ef8bf8e218eaedde12df687541e798e1007351903f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+    "sha256_origem": "2e70210978e239b416e30060611d3270fba283c5b080a5d2294bd880ba3a46e6",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+    "sha256_origem": "249a8d6c4e3c0d4bab6e77b5312644cc2b0231baee1a041d4fab5372009f8e0f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+    "sha256_origem": "73ee7aa8b71b23af922d30ac66a62c15683731c20fa39e129e1391944bcd95c1",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "sha256_origem": "02830df2a549d8905b0972ddc52bac7319a31fc1af546ad5b567a06f1fe57cc1",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+    "sha256_origem": "297be82375938b61a829a78be94a4e2de4b0cf567bc769f6946e4169ec99165a",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "sha256_origem": "7884cd9a568aba88c742e03140b95db3cf55991aa16c7c6f87c501b00e783fef",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+    "sha256_origem": "a948764a08a4696506ccfd1c2bfce2e2ee26811de99e26898a3c857aed5aa7fc",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "sha256_origem": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/63-carregador-consulta-e-doma.md",
+    "sha256_origem": "83540e989b341071a799476cea2222619eba4c863c61023ca88887eacca91009",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/64-a-passarela-e-o-guincho.md",
+    "sha256_origem": "e8ae354e57b21594725c7f4947cd7ff3bf10b02856ae2abace7dc2ca294662ce",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "sha256_origem": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "sha256_origem": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "sha256_origem": "6c5211b02e3d6a051501d9211dfa8d992ed2607f31573b2e10f352484dd55e14",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
+    "sha256_origem": "ce74d2a43de3f787721e8971884b79afaa9c53577675236c285b976ca542b356",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+    "sha256_origem": "3ab7ff17645c28eb8b0b69b56bd2c16916b85df97900644400071621fe9af478",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+    "sha256_origem": "51166ec390de6af078a07e71b63555a72d6fbdf32ebb78062544daaf601906aa",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/73-ensaio-guiado-do-sineiro.md",
+    "sha256_origem": "d66c1045be4dea0de50c2ddbe7f92076cda7e9aa43ac32062ace2a278c22f162",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+    "sha256_origem": "4b06a97ab3059bfa145dd41be4953541c53bb28e82ded20ffeb6f8f4fd21753c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/75-ren-e-sora-atacante-e-apoio.md",
+    "sha256_origem": "385405ebf971e6cd3789f03bf18f7c587aa2c7219d584cb669aecd173fa5af10",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
+    "sha256_origem": "550b8fa69d2d939892e0bfc6b078b1a7fe388b1120e45933aac02741a1954c88",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/77-ficha-preenchida-ren-e-sora.md",
+    "sha256_origem": "41eeafb426062b5b1ccdad8998b7153df4d0efedd3106dc043cfaf2342cf01f0",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/78-preparar-perigos-ambientais.md",
+    "sha256_origem": "d4ac6db2471df18f998d2f5e2ae4dd1801393d2f077d539dcd9c40a0a06364a3",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+    "sha256_origem": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+    "sha256_origem": "844099196a5ccc9443700b4df5064d5773197bccdb3ee9daa9ec3141c072e4e2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "sha256_origem": "052bacdd31a5df8a441f8f24b4004da556d8b173719d5bb77583d87e093471ab",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "sha256_origem": "1f1367f59369727e50180f4df346bef9c21275a6b8402c9de61ea688f3b593d4",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+    "sha256_origem": "e8dbcf5d09690ad322a2f1bc7bbeb5263ada31f6093a788683a8afaf66f8ecaa",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "sha256_origem": "90452b3e95253c86f0dc69435675b0d7dd33405eac38d9b56928288a1e4c7eda",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+    "sha256_origem": "74cde2dc17c0f5625c18f0760e594d7f5ec3a4ffe24bfa8afe965f1b33362125",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+    "sha256_origem": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/91-restricao-corporal-e-cuidados.md",
+    "sha256_origem": "133c794afe3a1faadcaf0c3d2d110588a1c608a428f51ed06d04d225e53f8c23",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "sha256_origem": "c406420c383c281fa5b335b52b6b1cb1f70b879be79f07fe88cb05797ef3d99f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/94-compras-repetidas-e-restricoes.md",
+    "sha256_origem": "4b8473cbaaedf24ba87775d244b830dc0ee64657d6696cb908d90fdc58f38ee2",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+    "sha256_origem": "e0f67acff7066702502247168e790f11ca59c7a2d7620c93368b20c502c21eea",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/96-fabricar-e-identificar-o-anel.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+    "sha256_origem": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/97-emprestimo-familiar-e-negociacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+    "sha256_origem": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "sha256_origem": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/casos/99-limiar-feitos-e-promocao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+    "sha256_origem": "54da8c0689bc3a93166ca65e1cafd23e75811799c05d816090ec9be0dbc65a3f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/02-ficha-de-preparacao.md",
+    "sha256_origem": "ce592a232bd8361cf7658290c5a72738401cb62db1320b705fce90ba35ce93fb",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+    "sha256_origem": "59e49234920ab54a01fc222675fc1da745f36bb47c3568366a27719e1344678c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/08-ficha-de-acordos-do-grupo.md",
+    "sha256_origem": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/12-registro-de-descobertas.md",
+    "sha256_origem": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+    "sha256_origem": "cddd1a3d85f172102bab4fd8d70843849fac4c1ff9a1e5a0b5984b77e945e5c6",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/20-ficha-de-faccao.md",
+    "sha256_origem": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+    "sha256_origem": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/28-ficha-de-convivencia.md",
+    "sha256_origem": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "sha256_origem": "5a5cd6a696e2ff4d9716f8a9c26b753f319b2f216a0750daafd1eb7770df1ef7",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+    "sha256_origem": "8a12369b489c625422d4588fadd21928e3fd909e1417604b4f5448e34550c80a",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+    "sha256_origem": "75e2886cfbcb6796b656ab70b9191b4896620c6bdbf7143c844e0dc384a71875",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+    "sha256_origem": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "sha256_origem": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/58-ficha-de-inimigo-e-encontro.md",
+    "sha256_origem": "bdccde9dfdf564cec34ca1b49fb78278aa8b7d795ed62ccdcdd375d3181bd9b5",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "sha256_origem": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "sha256_origem": "91f5e9799685f8686a48cb33e253934a13860a0c8254d4b7a8f241f80047898c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/88-indice-de-termos-do-mundo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "sha256_origem": "54b58a13aba3ccb9314ceea8697f3c1907ebe1ef0da654ede0e6f1c4506f3258",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-exemplo-despedida.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+    "sha256_origem": "13b46c3c8a40ce8542fa2b222114ac2574df1d0b7e9d5d13f2af99b80b975496",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/A1-preparar-a-missao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+    "sha256_origem": "c3b29f1a5f2bc4fadd773a4dc4e2f2ca4052220510b2ffbaec6f9443556ac644",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/A2-conduzir-a-sessao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+    "sha256_origem": "902c31ab85df7072b168656927aab12a9713332987f31b063adfccfa9c8d41a3",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-exemplo-sala-de-conservacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+    "sha256_origem": "b351a41097a1119a266206df56fca3c4bbecc71049167388a0b564e9ad1b77df",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/A4-retomar-a-missao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+    "sha256_origem": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+    "sha256_origem": "f3f21b973c17a2fb125a8437c104d1039613d7fa0fa2a8a1168e3984909b3dd1",
+    "tipo": "revisao-135"
+  },
+  {
+    "origem": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+    "sha256_origem": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+    "tipo": "apoio-recuperado"
+  },
+  {
+    "origem": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "sha256_origem": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+    "tipo": "apoio-recuperado"
+  },
+  {
+    "origem": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+    "sha256_origem": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+    "tipo": "apoio-recuperado"
+  }
+]

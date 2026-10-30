@@ -1,0 +1,137 @@
+{
+  "registro": 123,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-123/output/pdf/Ciclo-Maldito-Grupo-Arquivo-e-Po-Revisao-Textual.pdf",
+  "pdf_sha256": "e55565ca6cfd12794ee9900d6635629b8affe1a38d19e34018b78901fe3e7b95",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 37,
+      "escopo": "Leitura integral das três fontes e das regras citadas, três cópias, remissões, clareza, a correção documentada do golpe de Tessa e a posição do painel."
+    },
+    {
+      "passagem": 2,
+      "registros": 4,
+      "escopo": "Leitura integral das catorze páginas da primeira prova e pente fino, incluindo frases da primeira passagem."
+    }
+  ],
+  "ajuste_de_diagramacao": "Mapa do pó movido para depois da abertura do caso: na primeira prova deixava meia página vazia; no fim da seção de preparo, um terço.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-01.png",
+      "imagem_sha256": "cd88f4ea4e0cb3690fc634b6baf1d004a3a8398a77ceeb185169b335ca6e575e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura das fichas e quadro largo dos três guardas, com linhas inteiras."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-02.png",
+      "imagem_sha256": "8197e4e4cd396577119c5b95371e9bdbd99710b9eb79357146063ecdd49d6cbb",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Energia, Haru, espada e Fita; quadro das duas versões da Fita em largura inteira."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-03.png",
+      "imagem_sha256": "0c3994805c8c65bf08ec2a9329f1293edef5a1e01b3309c3986861c9aac13d3f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Prende, aviso e intervalo, uso da técnica, Vigia e começo de Tessa com quadro dos feitiços."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-04.png",
+      "imagem_sha256": "32be04d25496bfb312f8c4c17fe13583f5f505234630b1417cff923318bdf364",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Prioridades de Tessa, golpe desarmado corrigido e quadro de Integridade. Espaço de fechamento do caso."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-05.png",
+      "imagem_sha256": "1c11f6bf628dd75ad0d19c0de2a9a4d2f528a6df4fe893c8de3debaf9fd1209a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura do arquivo, tabela de posições e mapa novo com as duas versões lado a lado."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-06.png",
+      "imagem_sha256": "b32fb52d26cdf80979ac77aeaf51585a85200893cdd6b9f8f802e7b2686d64e4",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Operar, forçar e conversar; uso do espaço; começo da comparação numérica."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-07.png",
+      "imagem_sha256": "65fa68b730fd5a3c046ad33cea3e6a64d2ba42781eb667c2a34b1eb28b2b066e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Quadro das composições e da Fita em largura inteira, legíveis."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-08.png",
+      "imagem_sha256": "a9967db1ad24dbec770aac33d82739c1c36f61ac88110937e373daf67b64200e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Socorro em passos numerados com Mei, Akira e Bao identificados; tabela da queda. Pequeno vazio antes do título largo."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-09.png",
+      "imagem_sha256": "8ed64fa963514885024f9b00dc36f1af5ef9cedf8505fa8bb23f0b0b5348faa6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Fim da queda e registro para outro mestre. Espaço de fechamento do caso."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-10.png",
+      "imagem_sha256": "0a953a8805b99f96d6c78c4ce782a79f189201424cc2c532bea90a47b7682f88",
+      "inspecionada": true,
+      "metodo": "Inspeção direta depois de reposicionar o mapa do pó; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura do pó e mapa vetorial logo depois do primeiro parágrafo, sem vazio; preparo da área."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-11.png",
+      "imagem_sha256": "7f265e50b5c47649afa2a78ce0ff5f73939a66fd128e35ec71967cbba4777f73",
+      "inspecionada": true,
+      "metodo": "Inspeção direta depois de reposicionar o mapa do pó; imagem final idêntica (mesmo hash)",
+      "observacao": "Tabela de posições, exposição e ficha do perigo inteira, sem quebra."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-12.png",
+      "imagem_sha256": "09b9db867ca1937a7e0c5219917e97a46bbb15cfc6f86f7aba7436d0acf03674",
+      "inspecionada": true,
+      "metodo": "Inspeção direta depois de reposicionar o mapa do pó; imagem final idêntica (mesmo hash)",
+      "observacao": "Contagem, duração, dano e condição, tabela de proteções e Concentração."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-13.png",
+      "imagem_sha256": "6db3150b9d3ddf87f700009c47f5c0f1af7d13867a7a81ff6ccf0b58c5725156",
+      "inspecionada": true,
+      "metodo": "Inspeção direta depois de reposicionar o mapa do pó; imagem final idêntica (mesmo hash)",
+      "observacao": "Parar a máquina, romper o pino e quadro do exemplo em largura inteira."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-123/pagina-14.png",
+      "imagem_sha256": "e429fe3682408fe0fab70149c042e696699a44bd2c89b4a6e6bf6146289fd827",
+      "inspecionada": true,
+      "metodo": "Inspeção direta depois de reposicionar o mapa do pó; imagem final idêntica (mesmo hash)",
+      "observacao": "Queda a zero, socorro e tabela do que anotar."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Espaços de fechamento nas páginas 4 e 9 e pequeno vazio na 8 serão reavaliados na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

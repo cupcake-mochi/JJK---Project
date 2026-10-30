@@ -1,0 +1,192 @@
+{
+  "registro": 135,
+  "pdf": "04 - Planejamento/apoio-conferencia-135/output/pdf/Ciclo-Maldito-Conferencia-do-Conjunto.pdf",
+  "pdf_sha256": "6f63ab867c10b5084e409a8d3ae9cb004f837dd6c3effe355b14bf9525803e5d",
+  "metodo": "Todas as 20 imagens finais renderizadas a 1400 pixels e inspecionadas diretamente na retomada. Não é a revisão visual global do livro integrado.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-01.png",
+      "sha256": "1dbc4614c9f52aa6c0ba3d97f12b064adf9addc80d28f264453e117af5e579df",
+      "inspecionada": true,
+      "observacao": "Abertura com 246 trechos e exemplo de Estudar legíveis; legenda de inserções e exclusões.",
+      "metodo": "Inspeção direta da última versão"
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-02.png",
+      "sha256": "52f84976363492e09e44a8a9e6b82559492fe27ca953a01488e9dbd15f6a6090",
+      "inspecionada": true,
+      "observacao": "Método de inimigos e aberturas dos capítulos; cores e riscos distintos.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-03.png",
+      "sha256": "40f80f097d6179bbd8df8eba7965e6d1efa4e441b39770e3c20511ebadd778fb",
+      "inspecionada": true,
+      "observacao": "Promessa, nome Daigo e ficha de níveis altos com linhas inteiras.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-04.png",
+      "sha256": "3b539ebf824be6a1c72cccb140e6394873c6b2f1c09147a1af70ff37d28adb76",
+      "inspecionada": true,
+      "observacao": "Sinais de conjuração e começo da disputa pelo arquivo, sem corte.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-05.png",
+      "sha256": "b5630c378d9e96393f7a309b109ab8dd62ac0ccd59737cc34dc39f30e286c8a9",
+      "inspecionada": true,
+      "observacao": "Conclusão do arquivo e remissões; títulos próximos dos trechos correspondentes.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-06.png",
+      "sha256": "bcd369a42ec791e343875ad3a2dce01ccf5f0da57d1b26b6d0debb934e747274",
+      "inspecionada": true,
+      "observacao": "Dedicação e Pacifismo; Sumi substitui Nara sem alterar os valores.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-07.png",
+      "sha256": "17a018ac9e18e52966fab7cffc351f5156fdeb33292c3540615bb7e66c671d38",
+      "inspecionada": true,
+      "observacao": "Primeira parte da Promessa; Kei e Lia com papéis preservados.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-08.png",
+      "sha256": "c53c8f5fd03f3fe928e88572f0e57a0abdfb43ca16dad2ddd9efed23e1410895",
+      "inspecionada": true,
+      "observacao": "Reparação e desfechos da Promessa completos e legíveis.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-09.png",
+      "sha256": "b21c2995cb3f81b2d84a4e72902532fe55e45ea04959daf18f10a290dc63d35a",
+      "inspecionada": true,
+      "observacao": "Doma do Amontoado; Tainá consistente nos registros e na comparação.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-10.png",
+      "sha256": "4f5d96a15eb9aec4d06ead5e7b9119faeef3090c3480a5c12bdb315d680c1e0c",
+      "inspecionada": true,
+      "observacao": "Continuidade da Doma, transporte e recursos de inimigos sem quebra prejudicial.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-11.png",
+      "sha256": "9d24ed5cb3ba5774e5fea1bdbf2db0a4e45a2af96b3a09ecab8e0a535f37df07",
+      "inspecionada": true,
+      "observacao": "Comparação, Sineiro e dupla Toru/Sayo com títulos distintos.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-12.png",
+      "sha256": "6bebca753cc3c64906aaf49e30b268313fb840e158efbad04450c4bd76c8ae3e",
+      "inspecionada": true,
+      "observacao": "Capacidades da dupla e começo do confronto, texto sem sobreposição.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-13.png",
+      "sha256": "e52a08da8db8ab3c144c0e152829cafcea138f7093bb3e404051254c0e271ac0",
+      "inspecionada": true,
+      "observacao": "Percurso da dupla; nomes e números legíveis em todos os parágrafos.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-14.png",
+      "sha256": "d3fd7029225c356bcd8c7a09da48f39d20489c967134c5becc3208210d183c01",
+      "inspecionada": true,
+      "observacao": "Conclusão do percurso e comparação de alvos; texto preservado.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-15.png",
+      "sha256": "865a7170c598ffa87ce9ba6a147b6786663a19ec6d2aaaf6082ab60b9603ca4f",
+      "inspecionada": true,
+      "observacao": "Ficha preenchida da dupla e limites dos benefícios; sem tabelas quebradas.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-16.png",
+      "sha256": "ec1c39210cc6557c5df374eb6084e4974cfc285a76be14a323219a998a4e2d43",
+      "inspecionada": true,
+      "observacao": "Fechamento da ficha, passagem entre mestres e observador Hiro.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-17.png",
+      "sha256": "6a83376303b81403e5e5512429560bc30a990704e7b330156d58a76f30821ee3",
+      "inspecionada": true,
+      "observacao": "Mio e Noa nos percursos; troca de nomes separada da explicação mecânica.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 18,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-18.png",
+      "sha256": "5efcbea61b46963b1f4e6f67598829f5c60d32cc4a412c158c70fb916824a617",
+      "inspecionada": true,
+      "observacao": "Tiago, Shin e Bruno nos exemplos de reparo e técnica; fórmulas legíveis.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 19,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-19.png",
+      "sha256": "1372b121e4ef32e76a8c74c1305c62d40a763bfff8bc5e7f7adad865368c57c1",
+      "inspecionada": true,
+      "observacao": "Kana e Chie nos exemplos; fechamento da promoção com espaço parcial de fim de bloco.",
+      "metodo": "Imagem final idêntica, por SHA-256, à página já inspecionada diretamente nesta retomada"
+    },
+    {
+      "pagina": 20,
+      "imagem": "04 - Planejamento/apoio-conferencia-135/retomada/pagina-20.png",
+      "sha256": "23c13ddd6828332019f3e7a950df6b48958ae83063949872a9cd583f026e1ace",
+      "inspecionada": true,
+      "observacao": "Nomes, índice e guia final legíveis. Mostra somente a frase alterada no guia; espaçamento local ajustado sem reduzir a fonte, evitando uma página com uma única linha.",
+      "metodo": "Inspeção direta da última versão"
+    }
+  ],
+  "palavras_por_pagina": [
+    426,
+    543,
+    500,
+    666,
+    574,
+    542,
+    733,
+    682,
+    711,
+    691,
+    463,
+    647,
+    835,
+    785,
+    636,
+    613,
+    645,
+    673,
+    668,
+    568
+  ],
+  "palavras_fora_da_pagina": [],
+  "limite": "Prova comparativa em coluna larga. O livro final, em duas colunas, será inspecionado depois da integração."
+}

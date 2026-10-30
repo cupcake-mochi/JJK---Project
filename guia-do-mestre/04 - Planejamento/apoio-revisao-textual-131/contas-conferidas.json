@@ -1,0 +1,37 @@
+{
+  "registro": 131,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Teste em grupo: metade, para cima",
+      "resultado": [
+        2,
+        3
+      ],
+      "esperado": [
+        2,
+        3
+      ]
+    },
+    {
+      "conta": "Regras citadas conferidas",
+      "resultado": 6,
+      "esperado": 6
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Teste em grupo",
+      "Empate de iniciativa",
+      "Bloquear",
+      "Ler o Ambiente",
+      "Salto com esforço e risco",
+      "Reação"
+    ]
+  },
+  "limites": [
+    "Formulários quase sem contas; conferência das regras que a folha de condução resume."
+  ]
+}

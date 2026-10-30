@@ -1,0 +1,1983 @@
+[
+ {
+  "arquivo": "casos/33-casos-especificos-de-avaliacao.md",
+  "antes": "Haru, um personagem de exemplo e não o guarda do arquivo, tem",
+  "depois": "Haru tem",
+  "vezes": 1,
+  "motivo": "Nome: o aviso de que não é o mesmo personagem sai, porque o nome passou a ser único."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": " É um personagem deste exemplo, não o atacante de nível 6 da dupla Ren e Sora.",
+  "depois": "",
+  "vezes": 1,
+  "motivo": "Nome: o aviso de que não é o mesmo personagem sai, porque o nome passou a ser único."
+ },
+ {
+  "arquivo": "casos/50-promessa-do-arquivo.md",
+  "antes": "Akira, um feiticeiro deste exemplo e não o perfil de Guia dos confrontos, precisa",
+  "depois": "Akira precisa",
+  "vezes": 1,
+  "motivo": "Nome: o aviso de que não é o mesmo personagem sai, porque o nome passou a ser único."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 8,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/58-ficha-de-inimigo-e-encontro.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/68-ficha-e-comparacao-de-chefes.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/75-ren-e-sora-atacante-e-apoio.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 15,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/76-confronto-de-ren-e-sora.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 37,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/77-ficha-preenchida-ren-e-sora.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 21,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "Ren",
+  "depois": "Toru",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 8,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/58-ficha-de-inimigo-e-encontro.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/68-ficha-e-comparacao-de-chefes.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/75-ren-e-sora-atacante-e-apoio.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 18,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/76-confronto-de-ren-e-sora.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 36,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/77-ficha-preenchida-ren-e-sora.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 22,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "Sora",
+  "depois": "Sayo",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/100-comparar-inimigos-em-outras-faixas.md",
+  "antes": "Haru",
+  "depois": "Daigo",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/101-haru-vigia-e-tessa.md",
+  "antes": "Haru",
+  "depois": "Daigo",
+  "vezes": 16,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+  "antes": "Haru",
+  "depois": "Daigo",
+  "vezes": 15,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "Haru",
+  "depois": "Daigo",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "Haru",
+  "depois": "Daigo",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "05-criar-uma-campanha.md",
+  "antes": "Sora",
+  "depois": "Gabi",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+  "antes": "Sora",
+  "depois": "Hiro",
+  "vezes": 6,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/50-promessa-do-arquivo.md",
+  "antes": "Akira",
+  "depois": "Kei",
+  "vezes": 33,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "Akira",
+  "depois": "Kei",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/84-percursos-apoios-e-quedas.md",
+  "antes": "Mina",
+  "depois": "Noa",
+  "vezes": 4,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+  "antes": "Mina",
+  "depois": "Noa",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/95-efeitos-de-cena-e-cancelamento.md",
+  "antes": "Mina",
+  "depois": "Chie",
+  "vezes": 10,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "Nara",
+  "depois": "Tainá",
+  "vezes": 31,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "Nara",
+  "depois": "Tainá",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/48-pacifismo-impraticavel-minuta.md",
+  "antes": "Nara",
+  "depois": "Sumi",
+  "vezes": 8,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+  "antes": "Nara",
+  "depois": "Rosa",
+  "vezes": 6,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "02-o-mundo-dos-feiticeiros.md",
+  "antes": "Emi",
+  "depois": "Yoko",
+  "vezes": 1,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+  "antes": "Emi",
+  "depois": "Paula",
+  "vezes": 7,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "consultas/88-indice-de-termos-do-mundo.md",
+  "antes": "Emi",
+  "depois": "Paula",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/94-compras-repetidas-e-restricoes.md",
+  "antes": "Davi",
+  "depois": "Bruno",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "01-sua-primeira-missao.md",
+  "antes": "Rui",
+  "depois": "Beto",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/90-reparar-personagem-de-corpo-construido.md",
+  "antes": "Rui",
+  "depois": "Tiago",
+  "vezes": 8,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/94-compras-repetidas-e-restricoes.md",
+  "antes": "Rui",
+  "depois": "Shin",
+  "vezes": 3,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/84-percursos-apoios-e-quedas.md",
+  "antes": "Ema",
+  "depois": "Mio",
+  "vezes": 8,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "05-criar-uma-campanha.md",
+  "antes": "Lia",
+  "depois": "Itsuki",
+  "vezes": 2,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "casos/94-compras-repetidas-e-restricoes.md",
+  "antes": "Lia",
+  "depois": "Kana",
+  "vezes": 5,
+  "motivo": "Nome: elenco fixo aprovado em 30/10; um nome, um papel (proposta-de-nomes.md)."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[ficha de inimigo e encontro](../58-ficha-de-inimigo-e-encontro.md)",
+  "depois": "[ficha de inimigo e encontro](<consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[fichas da dupla](../75-ren-e-sora-atacante-e-apoio.md)",
+  "depois": "[fichas da dupla](<casos/75-ren-e-sora-atacante-e-apoio.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[consulta do Carregador](../63-carregador-consulta-e-doma.md)",
+  "depois": "[consulta do Carregador](<casos/63-carregador-consulta-e-doma.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[estudo de habilidades](../60-montar-habilidades-de-inimigos.md)",
+  "depois": "[estudo de habilidades](<casos/60-montar-habilidades-de-inimigos.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[estudos numéricos](../74-regua-inicial-de-inimigos.md)",
+  "depois": "[estudos numéricos](<casos/74-regua-inicial-de-inimigos.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[comparação de outras faixas](../100-comparar-inimigos-em-outras-faixas.md)",
+  "depois": "[comparação de outras faixas](<casos/100-comparar-inimigos-em-outras-faixas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[confronto da dupla](../76-confronto-de-ren-e-sora.md)",
+  "depois": "[confronto da dupla](<casos/76-confronto-de-ren-e-sora.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[preenchimento da ficha](../77-ficha-preenchida-ren-e-sora.md)",
+  "depois": "[preenchimento da ficha](<casos/77-ficha-preenchida-ren-e-sora.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[variante do portão](../66-o-carregador-e-a-saida-que-fecha.md)",
+  "depois": "[variante do portão](<casos/66-o-carregador-e-a-saida-que-fecha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[estudo de composição](../65-comparar-confronto-e-pressao-ambiental.md)",
+  "depois": "[estudo de composição](<casos/65-comparar-confronto-e-pressao-ambiental.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[registro de estado](../24-registro-de-estado-e-socorro.md)",
+  "depois": "[registro de estado](<consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[ficha completa](../71-sineiro-do-recolhimento.md)",
+  "depois": "[ficha completa](<casos/71-sineiro-do-recolhimento.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[ensaio guiado](../73-ensaio-guiado-do-sineiro.md)",
+  "depois": "[ensaio guiado](<casos/73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[conferência de chefes](../68-ficha-e-comparacao-de-chefes.md)",
+  "depois": "[conferência de chefes](<casos/68-ficha-e-comparacao-de-chefes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[sala de conservação](../79-o-po-na-sala-de-conservacao.md)",
+  "depois": "[sala de conservação](<casos/79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[febre dos fios](../103-a-febre-dos-fios.md)",
+  "depois": "[febre dos fios](<casos/103-a-febre-dos-fios.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "[Preparar perigos ambientais](../78-preparar-perigos-ambientais.md)",
+  "depois": "[Preparar perigos ambientais](<casos/78-preparar-perigos-ambientais.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[ficha de convivência](../28-ficha-de-convivencia.md)",
+  "depois": "[ficha de convivência](<consultas/28-ficha-de-convivencia.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[Vínculos e mudanças](../26-vinculos-e-mudancas.md)",
+  "depois": "[Vínculos e interesses dos personagens](<05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[atendimento de Ena](../90-reparar-personagem-de-corpo-construido.md)",
+  "depois": "[atendimento de Ena](<casos/90-reparar-personagem-de-corpo-construido.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[caso de Nilo](../91-restricao-corporal-e-cuidados.md)",
+  "depois": "[caso de Nilo](<casos/91-restricao-corporal-e-cuidados.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[outros pareceres](../30-pareceres-de-criacoes.md)",
+  "depois": "[outros pareceres](<casos/30-pareceres-de-criacoes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[ficha de avaliação](../32-ficha-de-avaliacao-de-capacidade.md)",
+  "depois": "[ficha de avaliação](<consultas/32-ficha-de-avaliacao-de-capacidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[caso de Yara](../93-ampliar-mesclas-e-trocar-formas.md)",
+  "depois": "[caso de Yara](<casos/93-ampliar-mesclas-e-trocar-formas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[estudo de casos específicos](../33-casos-especificos-de-avaliacao.md)",
+  "depois": "[estudo de casos específicos](<casos/33-casos-especificos-de-avaliacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[caso completo de poderes avançados](../31-avaliar-poderes-avancados.md)",
+  "depois": "[caso completo de poderes avançados](<casos/31-avaliar-poderes-avancados.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[caso de efeitos de cena e cancelamento](../95-efeitos-de-cena-e-cancelamento.md)",
+  "depois": "[caso de efeitos de cena e cancelamento](<casos/95-efeitos-de-cena-e-cancelamento.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[casos de Melhorias e Restrições](../94-compras-repetidas-e-restricoes.md)",
+  "depois": "[casos de Melhorias e Restrições](<casos/94-compras-repetidas-e-restricoes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "[Atividades fora de missão](../39-atividades-e-tempo-entre-missoes.md)",
+  "depois": "[Atividades fora de missão](<08-entre-missoes.md#82-tempo-para-as-atividades>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[consulta de recuperação](../23-retirada-e-recuperacao.md)",
+  "depois": "[consulta de recuperação](<casos/23-retirada-e-recuperacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[febre dos fios](../103-a-febre-dos-fios.md)",
+  "depois": "[febre dos fios](<casos/103-a-febre-dos-fios.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[folha de dedicação](../40-registro-de-dedicacao-por-ficha.md)",
+  "depois": "[folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[ficha preenchida](../38-ficha-de-projeto-e-entrega.md)",
+  "depois": "[ficha preenchida](<consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[etiquetas do depósito](../34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito)",
+  "depois": "[etiquetas do depósito](<casos/34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[reparo de Ena](../90-reparar-personagem-de-corpo-construido.md)",
+  "depois": "[reparo de Ena](<casos/90-reparar-personagem-de-corpo-construido.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[empréstimo de Kenji](../97-emprestimo-familiar-e-negociacao.md)",
+  "depois": "[empréstimo de Kenji](<casos/97-emprestimo-familiar-e-negociacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[caso completo](../97-emprestimo-familiar-e-negociacao.md)",
+  "depois": "[caso completo](<casos/97-emprestimo-familiar-e-negociacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[Anel de Testemunho](../96-fabricar-e-identificar-o-anel.md)",
+  "depois": "[Anel de Testemunho](<casos/96-fabricar-e-identificar-o-anel.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[Pastilha do Último Aviso](../98-objeto-selado-e-risco-de-ingestao.md)",
+  "depois": "[Pastilha do Último Aviso](<casos/98-objeto-selado-e-risco-de-ingestao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[socorro de Aoi](../99-limiar-feitos-e-promocao.md)",
+  "depois": "[socorro de Aoi](<casos/99-limiar-feitos-e-promocao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[ficha de projeto](../38-ficha-de-projeto-e-entrega.md)",
+  "depois": "[ficha de projeto](<consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[folha de dedicação](../40-registro-de-dedicacao-por-ficha.md)",
+  "depois": "[folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "[registro de estado e socorro](../24-registro-de-estado-e-socorro.md)",
+  "depois": "[registro de estado e socorro](<consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[ficha completa de Pacifismo](../48-pacifismo-impraticavel-minuta.md)",
+  "depois": "[ficha completa de Pacifismo](<casos/48-pacifismo-impraticavel-minuta.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[ficha de Liberação irregular](../49-liberacao-irregular-minuta.md)",
+  "depois": "[ficha de Liberação irregular](<casos/49-liberacao-irregular-minuta.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[estudo das sete ideias](../47-desenvolver-uma-ideia-de-pacto.md)",
+  "depois": "[estudo das sete ideias](<casos/47-desenvolver-uma-ideia-de-pacto.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[Promessa do arquivo](../50-promessa-do-arquivo.md)",
+  "depois": "[Promessa do arquivo](<casos/50-promessa-do-arquivo.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[folha de Pactos e Promessas](../42-registro-de-pactos-e-promessas.md)",
+  "depois": "[folha de Pactos e Promessas](<consultas/42-registro-de-pactos-e-promessas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[Escriba de campo](../53-construir-e-evoluir-o-escriba.md)",
+  "depois": "[Escriba de campo](<casos/53-construir-e-evoluir-o-escriba.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[folha de entidade](../44-registro-de-aquisicao-e-estado-de-entidade.md)",
+  "depois": "[folha de entidade](<consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[prova do Cão de sombra](../51-ritual-do-cao-de-sombra.md)",
+  "depois": "[prova do Cão de sombra](<casos/51-ritual-do-cao-de-sombra.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[Domar o Amontoado](../52-domar-o-amontoado.md)",
+  "depois": "[Domar o Amontoado](<casos/52-domar-o-amontoado.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[projeto completo do Vigia](../55-fabricar-e-evoluir-o-vigia-do-deposito.md)",
+  "depois": "[projeto completo do Vigia](<casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[projetos de reconstrução e transferência](../46-reconstruir-transferir-e-herdar-entidades.md)",
+  "depois": "[projetos de reconstrução e transferência](<casos/46-reconstruir-transferir-e-herdar-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[Transporte com entidades](../54-transporte-e-continuidade-das-entidades.md)",
+  "depois": "[Transporte com entidades](<casos/54-transporte-e-continuidade-das-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "[consulta de aquisição e estados](../43-aquisicao-e-projetos-de-entidades.md)",
+  "depois": "[consulta de aquisição e estados](<casos/43-aquisicao-e-projetos-de-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[linha de continuidade](../16-linha-de-continuidade.md)",
+  "depois": "[linha de continuidade](<consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[folha de dedicação](../40-registro-de-dedicacao-por-ficha.md)",
+  "depois": "[folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[mapa e a ficha do perigo](../79-o-po-na-sala-de-conservacao.md)",
+  "depois": "[mapa e a ficha do perigo](<casos/79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[caso completo de passagem](../81-passar-a-missao-entre-mestres.md)",
+  "depois": "[caso completo de passagem](<casos/81-passar-a-missao-entre-mestres.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[folha de socorro](../24-registro-de-estado-e-socorro.md)",
+  "depois": "[folha de socorro](<consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[Descobertas](../12-registro-de-descobertas.md)",
+  "depois": "[Descobertas](<consultas/12-registro-de-descobertas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[linha de continuidade](../16-linha-de-continuidade.md)",
+  "depois": "[linha de continuidade](<consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[Estado e socorro](../24-registro-de-estado-e-socorro.md)",
+  "depois": "[Estado e socorro](<consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[Projeto](../38-ficha-de-projeto-e-entrega.md)",
+  "depois": "[Projeto](<consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[dedicação](../40-registro-de-dedicacao-por-ficha.md)",
+  "depois": "[dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[capacidade](../32-ficha-de-avaliacao-de-capacidade.md)",
+  "depois": "[capacidade](<consultas/32-ficha-de-avaliacao-de-capacidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[Pacto](../42-registro-de-pactos-e-promessas.md)",
+  "depois": "[Pacto](<consultas/42-registro-de-pactos-e-promessas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[entidade](../44-registro-de-aquisicao-e-estado-de-entidade.md)",
+  "depois": "[entidade](<consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[consulta de ferramentas](../80-escolher-e-usar-as-ferramentas.md)",
+  "depois": "[consulta de ferramentas](<consultas/LEIA-ME.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/100-comparar-inimigos-em-outras-faixas.md",
+  "antes": "[arquivo guardado por Daigo](<../../101-haru-vigia-e-tessa.md>)",
+  "depois": "[arquivo guardado por Daigo](<101-haru-vigia-e-tessa.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/100-comparar-inimigos-em-outras-faixas.md",
+  "antes": "[comparação do confronto](<../../102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+  "depois": "[comparação do confronto](<102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/11-espaco-e-usos-criativos.md",
+  "antes": "[Movimento, saltos e quedas](<../../84-percursos-apoios-e-quedas.md>)",
+  "depois": "[Movimento, saltos e quedas](<84-percursos-apoios-e-quedas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/11-espaco-e-usos-criativos.md",
+  "antes": "[Ferramentas e improvisação](<../../85-trajetorias-ferramentas-e-improvisacao.md>)",
+  "depois": "[Ferramentas e improvisação](<85-trajetorias-ferramentas-e-improvisacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/11-espaco-e-usos-criativos.md",
+  "antes": "[casos do cabo e da garrafa](<../../85-trajetorias-ferramentas-e-improvisacao.md>)",
+  "depois": "[casos do cabo e da garrafa](<85-trajetorias-ferramentas-e-improvisacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/22-quedas-e-socorro.md",
+  "antes": "[registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>)",
+  "depois": "[registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>)",
+  "depois": "[registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[linha de continuidade](<../../16-linha-de-continuidade.md>)",
+  "depois": "[linha de continuidade](<../consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[Vínculos e mudanças](<../../26-vinculos-e-mudancas.md>)",
+  "depois": "[Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[Restrição corporal: participação e cuidados](<../../91-restricao-corporal-e-cuidados.md>)",
+  "depois": "[Restrição corporal: participação e cuidados](<91-restricao-corporal-e-cuidados.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[reparo de Ena](<../../90-reparar-personagem-de-corpo-construido.md>)",
+  "depois": "[reparo de Ena](<90-reparar-personagem-de-corpo-construido.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/23-retirada-e-recuperacao.md",
+  "antes": "[linha de continuidade](<../../16-linha-de-continuidade.md>)",
+  "depois": "[linha de continuidade](<../consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/30-pareceres-de-criacoes.md",
+  "antes": "[Efeitos de cena e cancelamento](<../../95-efeitos-de-cena-e-cancelamento.md>)",
+  "depois": "[Efeitos de cena e cancelamento](<95-efeitos-de-cena-e-cancelamento.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/30-pareceres-de-criacoes.md",
+  "antes": "[Repetir Melhorias e definir Restrições](<../../94-compras-repetidas-e-restricoes.md>)",
+  "depois": "[Repetir Melhorias e definir Restrições](<94-compras-repetidas-e-restricoes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/31-avaliar-poderes-avancados.md",
+  "antes": "[avaliação de criações](<../../29-avaliar-tecnicas-e-criacoes.md>)",
+  "depois": "[avaliação de criações](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/33-casos-especificos-de-avaliacao.md",
+  "antes": "[Avaliar técnicas e criações](<../../29-avaliar-tecnicas-e-criacoes.md>)",
+  "depois": "[Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/34-oficios-fabricacao-e-reparos.md",
+  "antes": "[ficha de projeto](<../../38-ficha-de-projeto-e-entrega.md>)",
+  "depois": "[ficha de projeto](<../consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/34-oficios-fabricacao-e-reparos.md",
+  "antes": "[Atividades e tempo entre missões](<../../39-atividades-e-tempo-entre-missoes.md>)",
+  "depois": "[Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/36-ferramentas-objetos-e-contencao.md",
+  "antes": "[Avaliar técnicas e criações](<../../29-avaliar-tecnicas-e-criacoes.md>)",
+  "depois": "[Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[folha de entidade](<../../44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "depois": "[folha de entidade](<../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[Construir e evoluir o Escriba de campo](<../../53-construir-e-evoluir-o-escriba.md>)",
+  "depois": "[Construir e evoluir o Escriba de campo](<53-construir-e-evoluir-o-escriba.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[avaliação de criações](<../../29-avaliar-tecnicas-e-criacoes.md>)",
+  "depois": "[avaliação de criações](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[Domar o Amontoado do depósito](<../../52-domar-o-amontoado.md>)",
+  "depois": "[Domar o Amontoado do depósito](<52-domar-o-amontoado.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[ficha de projeto](<../../38-ficha-de-projeto-e-entrega.md>)",
+  "depois": "[ficha de projeto](<../consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[Tempo entre missões](<../../39-atividades-e-tempo-entre-missoes.md>)",
+  "depois": "[Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/43-aquisicao-e-projetos-de-entidades.md",
+  "antes": "[Transporte com entidades](<../../54-transporte-e-continuidade-das-entidades.md>)",
+  "depois": "[Transporte com entidades](<54-transporte-e-continuidade-das-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+  "antes": "[Tempo entre missões](<../../39-atividades-e-tempo-entre-missoes.md>)",
+  "depois": "[Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+  "antes": "[Fabricar e evoluir o Vigia do depósito](<../../55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "depois": "[Fabricar e evoluir o Vigia do depósito](<55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+  "antes": "[folha de entidade](<../../44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "depois": "[folha de entidade](<../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+  "antes": "[registro de dedicação por ficha](<../../40-registro-de-dedicacao-por-ficha.md>)",
+  "depois": "[registro de dedicação por ficha](<../consultas/40-registro-de-dedicacao-por-ficha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+  "antes": "[folha da entidade](<../../44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "depois": "[folha da entidade](<../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+  "antes": "[ficha e a evolução do Vigia](<../../55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "depois": "[ficha e a evolução do Vigia](<55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+  "antes": "[Pactos e Promessas](<../../41-pactos-e-promessas.md>)",
+  "depois": "[Pactos e entidades](<../09-pactos-e-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+  "antes": "[registro de Pactos e Promessas](<../../42-registro-de-pactos-e-promessas.md>)",
+  "depois": "[registro de Pactos e Promessas](<../consultas/42-registro-de-pactos-e-promessas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/50-promessa-do-arquivo.md",
+  "antes": "[Pactos e Promessas](<../../41-pactos-e-promessas.md>)",
+  "depois": "[Pactos e entidades](<../09-pactos-e-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[As batidas no anexo](<../../03-as-batidas-no-anexo-consulta.md>)",
+  "depois": "[As batidas no anexo](<../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/57-avaliar-o-encontro-do-amontoado.md",
+  "antes": "[folha de estado e socorro](<../../24-registro-de-estado-e-socorro.md>)",
+  "depois": "[folha de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/57-avaliar-o-encontro-do-amontoado.md",
+  "antes": "[caso de Doma do Amontoado](<../../52-domar-o-amontoado.md>)",
+  "depois": "[caso de Doma do Amontoado](<52-domar-o-amontoado.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "[ficha única](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "[conferências de habilidade](<../../61-ficha-de-habilidade-de-inimigo.md>)",
+  "depois": "[conferências de habilidade](<../consultas/61-ficha-de-habilidade-de-inimigo.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "[Toru e Sayo](<../../75-ren-e-sora-atacante-e-apoio.md>)",
+  "depois": "[Toru e Sayo](<75-ren-e-sora-atacante-e-apoio.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "[Sineiro](<../../71-sineiro-do-recolhimento.md>)",
+  "depois": "[Sineiro](<71-sineiro-do-recolhimento.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+  "antes": "[Daigo e Tessa](<../../101-haru-vigia-e-tessa.md>)",
+  "depois": "[Daigo e Tessa](<101-haru-vigia-e-tessa.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/60-montar-habilidades-de-inimigos.md",
+  "antes": "[ficha única](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/60-montar-habilidades-de-inimigos.md",
+  "antes": "[ficha de habilidade](<../../61-ficha-de-habilidade-de-inimigo.md>)",
+  "depois": "[ficha de habilidade](<../consultas/61-ficha-de-habilidade-de-inimigo.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/60-montar-habilidades-de-inimigos.md",
+  "antes": "[O Carregador e o corredor de entulho](<../../62-o-carregador-e-o-corredor-de-entulho.md>)",
+  "depois": "[O Carregador e o corredor de entulho](<62-o-carregador-e-o-corredor-de-entulho.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/60-montar-habilidades-de-inimigos.md",
+  "antes": "[consulta com Doma](<../../63-carregador-consulta-e-doma.md>)",
+  "depois": "[consulta com Doma](<63-carregador-consulta-e-doma.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/63-carregador-consulta-e-doma.md",
+  "antes": "[Transporte e continuidade](<../../54-transporte-e-continuidade-das-entidades.md>)",
+  "depois": "[Transporte e continuidade](<54-transporte-e-continuidade-das-entidades.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/64-a-passarela-e-o-guincho.md",
+  "antes": "[ficha de encontro](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha de encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/64-a-passarela-e-o-guincho.md",
+  "antes": "[sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/64-a-passarela-e-o-guincho.md",
+  "antes": "[A febre dos fios](<../../103-a-febre-dos-fios.md>)",
+  "depois": "[A febre dos fios](<103-a-febre-dos-fios.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+  "antes": "[ficha única](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+  "antes": "[comparação de chefes](<../../68-ficha-e-comparacao-de-chefes.md>)",
+  "depois": "[comparação de chefes](<68-ficha-e-comparacao-de-chefes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+  "antes": "[comparação do arquivo](<../../102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+  "depois": "[comparação do arquivo](<102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+  "antes": "[exemplo do portão](<../../66-o-carregador-e-a-saida-que-fecha.md>)",
+  "depois": "[exemplo do portão](<66-o-carregador-e-a-saida-que-fecha.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/68-ficha-e-comparacao-de-chefes.md",
+  "antes": "[ficha única](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/71-sineiro-do-recolhimento.md",
+  "antes": "[conversão para Doma](<../../72-sineiro-consulta-e-doma.md>)",
+  "depois": "[conversão para Doma](<72-sineiro-consulta-e-doma.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/71-sineiro-do-recolhimento.md",
+  "antes": "[conversão para Doma](<../../72-sineiro-consulta-e-doma.md>)",
+  "depois": "[conversão para Doma](<72-sineiro-consulta-e-doma.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/71-sineiro-do-recolhimento.md",
+  "antes": "[ensaio guiado](<../../73-ensaio-guiado-do-sineiro.md>)",
+  "depois": "[ensaio guiado](<73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha de inimigo e encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[ensaio do Sineiro](<../../73-ensaio-guiado-do-sineiro.md>)",
+  "depois": "[ensaio do Sineiro](<73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[Toru e Sayo](<../../75-ren-e-sora-atacante-e-apoio.md>)",
+  "depois": "[Toru e Sayo](<75-ren-e-sora-atacante-e-apoio.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[confronto comentado](<../../76-confronto-de-ren-e-sora.md>)",
+  "depois": "[confronto comentado](<76-confronto-de-ren-e-sora.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[ficha de Toru e Sayo](<../../77-ficha-preenchida-ren-e-sora.md>)",
+  "depois": "[ficha de Toru e Sayo](<77-ficha-preenchida-ren-e-sora.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/74-regua-inicial-de-inimigos.md",
+  "antes": "[Toru e Sayo: atacante e apoio](<../../75-ren-e-sora-atacante-e-apoio.md>)",
+  "depois": "[Toru e Sayo: atacante e apoio](<75-ren-e-sora-atacante-e-apoio.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/77-ficha-preenchida-ren-e-sora.md",
+  "antes": "[ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha de inimigo e encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha de inimigo e encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[febre dos fios](<../../103-a-febre-dos-fios.md>)",
+  "depois": "[febre dos fios](<103-a-febre-dos-fios.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>)",
+  "depois": "[registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[A passarela e o guincho](<../../64-a-passarela-e-o-guincho.md>)",
+  "depois": "[A passarela e o guincho](<64-a-passarela-e-o-guincho.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/78-preparar-perigos-ambientais.md",
+  "antes": "[O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/79-o-po-na-sala-de-conservacao.md",
+  "antes": "[ficha única](<../../58-ficha-de-inimigo-e-encontro.md>)",
+  "depois": "[ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[linha de continuidade](<../../16-linha-de-continuidade.md>)",
+  "depois": "[linha de continuidade](<../consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>)",
+  "depois": "[registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[Retirar a caixa, proteger a equipe](<../../73-ensaio-guiado-do-sineiro.md>)",
+  "depois": "[Retirar a caixa, proteger a equipe](<73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>)",
+  "depois": "[O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[ficha de projeto](<../../38-ficha-de-projeto-e-entrega.md>)",
+  "depois": "[ficha de projeto](<../consultas/38-ficha-de-projeto-e-entrega.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/81-passar-a-missao-entre-mestres.md",
+  "antes": "[Encerrar a missão e entregar recompensas](<../../37-recompensas-e-fechamento.md>)",
+  "depois": "[Recompensas e progressão](<../08-entre-missoes.md#86-recompensas-e-progressao>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+  "antes": "[Preparar perigos ambientais](<../../78-preparar-perigos-ambientais.md>)",
+  "depois": "[Preparar perigos ambientais](<78-preparar-perigos-ambientais.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+  "antes": "[linha de continuidade](<../../16-linha-de-continuidade.md>)",
+  "depois": "[linha de continuidade](<../consultas/16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+  "antes": "[registro de descobertas](<../../12-registro-de-descobertas.md>)",
+  "depois": "[registro de descobertas](<../consultas/12-registro-de-descobertas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/84-percursos-apoios-e-quedas.md",
+  "antes": "[A passarela e o guincho](<../../64-a-passarela-e-o-guincho.md>)",
+  "depois": "[A passarela e o guincho](<64-a-passarela-e-o-guincho.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+  "antes": "[casos do Carregador](<../../62-o-carregador-e-o-corredor-de-entulho.md>)",
+  "depois": "[casos do Carregador](<62-o-carregador-e-o-corredor-de-entulho.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/89-vida-rolada-e-familia-propria.md",
+  "antes": "[Conferir personagens](../../25-conferir-personagens.md)",
+  "depois": "[Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "casos/89-vida-rolada-e-familia-propria.md",
+  "antes": "[Avaliação de capacidade](../../32-ficha-de-avaliacao-de-capacidade.md)",
+  "depois": "[Avaliação de capacidade](<../consultas/32-ficha-de-avaliacao-de-capacidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/91-restricao-corporal-e-cuidados.md",
+  "antes": "[Escriba de campo](<../../53-construir-e-evoluir-o-escriba.md>)",
+  "depois": "[Escriba de campo](<53-construir-e-evoluir-o-escriba.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/95-efeitos-de-cena-e-cancelamento.md",
+  "antes": "[Escriba de campo](<../../53-construir-e-evoluir-o-escriba.md>)",
+  "depois": "[Escriba de campo](<53-construir-e-evoluir-o-escriba.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/99-limiar-feitos-e-promocao.md",
+  "antes": "[Conferir personagens](<../../25-conferir-personagens.md>)",
+  "depois": "[Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a seção nova que recebeu o conteúdo (mapa do registro 99)."
+ },
+ {
+  "arquivo": "consultas/05-folha-de-conducao.md",
+  "antes": "[registro de descobertas](<../../12-registro-de-descobertas.md>)",
+  "depois": "[registro de descobertas](<12-registro-de-descobertas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A1-preparar-a-missao.md",
+  "antes": "[ficha completa](../../02-ficha-de-preparacao.md)",
+  "depois": "[ficha completa](<02-ficha-de-preparacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A1-preparar-a-missao.md",
+  "antes": "[registro de estado e socorro](../../24-registro-de-estado-e-socorro.md)",
+  "depois": "[registro de estado e socorro](<24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A2-conduzir-a-sessao.md",
+  "antes": "[Casos de testes e iniciativa](../../82-testes-trabalho-em-grupo-e-iniciativa.md)",
+  "depois": "[Casos de testes e iniciativa](<../casos/82-testes-trabalho-em-grupo-e-iniciativa.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A2-conduzir-a-sessao.md",
+  "antes": "[Percepção e pistas](../../83-perceber-procurar-e-interpretar-sinais.md)",
+  "depois": "[Percepção e pistas](<../casos/83-perceber-procurar-e-interpretar-sinais.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A2-conduzir-a-sessao.md",
+  "antes": "[Movimento e quedas](../../84-percursos-apoios-e-quedas.md)",
+  "depois": "[Movimento e quedas](<../casos/84-percursos-apoios-e-quedas.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A2-conduzir-a-sessao.md",
+  "antes": "[Ferramentas e improvisação](../../85-trajetorias-ferramentas-e-improvisacao.md)",
+  "depois": "[Ferramentas e improvisação](<../casos/85-trajetorias-ferramentas-e-improvisacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A2-conduzir-a-sessao.md",
+  "antes": "[registro de estado e socorro](../../24-registro-de-estado-e-socorro.md)",
+  "depois": "[registro de estado e socorro](<24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-exemplo-sala-de-conservacao.md",
+  "antes": "[O pó na sala de conservação](../../79-o-po-na-sala-de-conservacao.md)",
+  "depois": "[O pó na sala de conservação](<../casos/79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-exemplo-sala-de-conservacao.md",
+  "antes": "[caso completo](../../81-passar-a-missao-entre-mestres.md)",
+  "depois": "[caso completo](<../casos/81-passar-a-missao-entre-mestres.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-exemplo-sala-de-conservacao.md",
+  "antes": "[O pó na sala](../../79-o-po-na-sala-de-conservacao.md)",
+  "depois": "[O pó na sala](<../casos/79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-exemplo-sala-de-conservacao.md",
+  "antes": "[Retirar a caixa](../../73-ensaio-guiado-do-sineiro.md)",
+  "depois": "[Retirar a caixa](<../casos/73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-retomar-a-missao.md",
+  "antes": "[linha de continuidade](../../16-linha-de-continuidade.md)",
+  "depois": "[linha de continuidade](<16-linha-de-continuidade.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/A4-retomar-a-missao.md",
+  "antes": "[registro completo](../../24-registro-de-estado-e-socorro.md)",
+  "depois": "[registro completo](<24-registro-de-estado-e-socorro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[chefe](../../68-ficha-e-comparacao-de-chefes.md)",
+  "depois": "[chefe](<../casos/68-ficha-e-comparacao-de-chefes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Toru e Sayo](../../77-ficha-preenchida-ren-e-sora.md)",
+  "depois": "[Toru e Sayo](<../casos/77-ficha-preenchida-ren-e-sora.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Sineiro](../../73-ensaio-guiado-do-sineiro.md)",
+  "depois": "[Sineiro](<../casos/73-ensaio-guiado-do-sineiro.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[pó na sala](../../79-o-po-na-sala-de-conservacao.md)",
+  "depois": "[pó na sala](<../casos/79-o-po-na-sala-de-conservacao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[disputa pelo arquivo](../../102-o-arquivo-e-as-oportunidades-de-agir.md)",
+  "depois": "[disputa pelo arquivo](<../casos/102-o-arquivo-e-as-oportunidades-de-agir.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[avaliação de poderes](../../30-pareceres-de-criacoes.md)",
+  "depois": "[avaliação de poderes](<../casos/30-pareceres-de-criacoes.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[poderes avançados](../../31-avaliar-poderes-avancados.md)",
+  "depois": "[poderes avançados](<../casos/31-avaliar-poderes-avancados.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Anel de Testemunho](../../96-fabricar-e-identificar-o-anel.md)",
+  "depois": "[Anel de Testemunho](<../casos/96-fabricar-e-identificar-o-anel.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Feitos do Limiar](../../99-limiar-feitos-e-promocao.md)",
+  "depois": "[Feitos do Limiar](<../casos/99-limiar-feitos-e-promocao.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Promessa do arquivo](../../50-promessa-do-arquivo.md)",
+  "depois": "[Promessa do arquivo](<../casos/50-promessa-do-arquivo.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[Doma do Amontoado](../../52-domar-o-amontoado.md)",
+  "depois": "[Doma do Amontoado](<../casos/52-domar-o-amontoado.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "[evolução do Vigia](../../55-fabricar-e-evoluir-o-vigia-do-deposito.md)",
+  "depois": "[evolução do Vigia](<../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para a cópia revista."
+ },
+ {
+  "arquivo": "casos/51-ritual-do-cao-de-sombra.md",
+  "antes": "[Cão de sombra](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidade-cao>)",
+  "depois": "Cão de sombra",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/51-ritual-do-cao-de-sombra.md",
+  "antes": "[lista de ritual](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-lista-criacao>)",
+  "depois": "lista de ritual",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/51-ritual-do-cao-de-sombra.md",
+  "antes": "[queda e destruição](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-queda>)",
+  "depois": "queda e destruição",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/51-ritual-do-cao-de-sombra.md",
+  "antes": "[retorno](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-retorno>)",
+  "depois": "retorno",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/51-ritual-do-cao-de-sombra.md",
+  "antes": "[Vida a zero](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--zero>)",
+  "depois": "Vida a zero",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[doma](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-domar>)",
+  "depois": "doma",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[conferência da conversão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-conferencia>)",
+  "depois": "conferência da conversão",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[queda e destruição](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-queda>)",
+  "depois": "queda e destruição",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[retorno](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-retorno>)",
+  "depois": "retorno",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[corpos mantidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>)",
+  "depois": "corpos mantidos",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/52-domar-o-amontoado.md",
+  "antes": "[energia das entidades](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-energia>)",
+  "depois": "energia das entidades",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[atributos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-atributos>)",
+  "depois": "atributos",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[progressão](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-progressao>)",
+  "depois": "progressão",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[Famílias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-familias>)",
+  "depois": "Famílias",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[especiais](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-especiais>)",
+  "depois": "especiais",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[efeitos reduzidos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-efeitos-reduzidos>)",
+  "depois": "efeitos reduzidos",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[características próprias](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passiva-propria>)",
+  "depois": "características próprias",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/53-construir-e-evoluir-o-escriba.md",
+  "antes": "[ampliação](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-ampliacao>)",
+  "depois": "ampliação",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[carga de entidades](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-carga>)",
+  "depois": "carga de entidades",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[Carga](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#geral--carga>)",
+  "depois": "Carga",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[combate montado](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#geral--montaria>)",
+  "depois": "combate montado",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[intenção](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-intencao>)",
+  "depois": "intenção",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[inconsciência](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-inconsciente>)",
+  "depois": "inconsciência",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[morte](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-morte>)",
+  "depois": "morte",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/54-transporte-e-continuidade-das-entidades.md",
+  "antes": "[talentos próprios](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passiva-propria>)",
+  "depois": "talentos próprios",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+  "antes": "[construção](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-criar>)",
+  "depois": "construção",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+  "antes": "[talentos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#construcao--entidades-passivas>)",
+  "depois": "talentos",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+  "antes": "[criação e transferência](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#fabricacao--fab-conclusao>)",
+  "depois": "criação e transferência",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+  "antes": "[talismãs](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-talisma>)",
+  "depois": "talismãs",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+  "antes": "[corpos](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#campo--inv-corpos>)",
+  "depois": "corpos",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "consultas/05-folha-de-conducao.md",
+  "antes": "[Vida a zero](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--zero>)",
+  "depois": "Vida a zero",
+  "vezes": 1,
+  "motivo": "Remissão: o Livro de Regras 1.0 é citado pelo nome da regra, sem caminho do computador."
+ },
+ {
+  "arquivo": "04-na-mesa-de-jogo.md",
+  "antes": "As [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-113/consulta-de-regras.html#conducao>) ficam acessíveis para consulta.",
+  "depois": "As regras usadas aqui estão no Livro de Regras 1.0.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "As [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-114/consulta-de-regras.html#inimigos>) estão disponíveis para consulta.",
+  "depois": "As regras usadas aqui estão no Livro de Regras 1.0.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "com as [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-114/consulta-de-regras.html#personagens>) disponíveis para consulta.",
+  "depois": "com o Livro de Regras 1.0 à mão.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "08-entre-missoes.md",
+  "antes": "As [regras usadas aqui](<../../04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html>) e os casos completos ficam disponíveis para consulta.",
+  "depois": "As regras usadas aqui estão no Livro de Regras 1.0, e os casos completos ficam disponíveis para consulta.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "09-pactos-e-entidades.md",
+  "antes": "As [regras usadas aqui](<../../04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html>) ficam disponíveis para consulta.",
+  "depois": "As regras usadas aqui estão no Livro de Regras 1.0.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "As [regras usadas aqui](<../../04 - Planejamento/apoio-guilda-110/consulta-de-regras.html>) ficam disponíveis para conferir os exemplos e a continuidade das fichas.",
+  "depois": "As regras usadas aqui estão no Livro de Regras 1.0 e servem para conferir os exemplos e a continuidade das fichas.",
+  "vezes": 1,
+  "motivo": "Remissão: as regras são citadas pelo Livro de Regras 1.0, não por um arquivo de trabalho."
+ },
+ {
+  "arquivo": "10-jogar-em-guilda.md",
+  "antes": "[Folhas para a mesa](<../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html>)",
+  "depois": "[Folhas para a mesa](<consultas/LEIA-ME.md>)",
+  "vezes": 1,
+  "motivo": "Remissão: aponta para o guia das folhas, no livro."
+ },
+ {
+  "arquivo": "casos/71-sineiro-do-recolhimento.md",
+  "antes": "A [comparação com referências de nível 6](<../../../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>) levou",
+  "depois": "A comparação com referências de nível 6 levou",
+  "vezes": 1,
+  "motivo": "Remissão: registro de trabalho não é leitura do livro; a frase conserva a informação."
+ },
+ {
+  "arquivo": "casos/72-sineiro-consulta-e-doma.md",
+  "antes": "**Revisão numérica do confronto:** [registro 73](<../../../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>). ",
+  "depois": "",
+  "vezes": 1,
+  "motivo": "Remissão: registro de trabalho não é leitura do livro; a frase conserva a informação."
+ },
+ {
+  "arquivo": "casos/73-ensaio-guiado-do-sineiro.md",
+  "antes": "na [revisão numérica do Sineiro](<../../../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>).",
+  "depois": "na revisão numérica do Sineiro.",
+  "vezes": 1,
+  "motivo": "Remissão: registro de trabalho não é leitura do livro; a frase conserva a informação."
+ },
+ {
+  "arquivo": "casos/77-ficha-preenchida-ren-e-sora.md",
+  "antes": " do percurso, documentadas no [registro 76](<../../../04 - Planejamento/76-dupla-de-nivel-6-e-composicao.md>).",
+  "depois": " do percurso.",
+  "vezes": 1,
+  "motivo": "Remissão: registro de trabalho não é leitura do livro; a frase conserva a informação."
+ },
+ {
+  "arquivo": "04-na-mesa-de-jogo.md",
+  "antes": "Estudar em combate gasta a Padrão e deixa a pergunta sem resposta segura; repetir exige nova pista ou abordagem.",
+  "depois": "Se Estudar falhar em combate, a Padrão é gasta e a pergunta fica sem resposta segura; repetir exige nova pista ou abordagem.",
+  "vezes": 1,
+  "motivo": "Clareza: explicitar a falha de Estudar, conforme o Livro de Regras 1.0; não altera custo, sucesso ou repetição."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "apoio-revisao-textual-134/casos-completos.html",
+  "depois": "apoio-conferencia-135/casos-completos.html",
+  "vezes": 1,
+  "motivo": "Remissão: índice vigente da conferência 135; apenas o destino muda."
+ },
+ {
+  "arquivo": "00-como-usar-este-livro.md",
+  "antes": "apoio-consultas-105/casos-completos.html",
+  "depois": "apoio-conferencia-135/casos-completos.html",
+  "vezes": 1,
+  "motivo": "Remissão: índice vigente da conferência 135, em vez do índice histórico 105; apenas o destino muda."
+ },
+ {
+  "arquivo": "06-inimigos-e-perigos.md",
+  "antes": "apoio-consultas-105/casos-completos.html",
+  "depois": "apoio-conferencia-135/casos-completos.html",
+  "vezes": 1,
+  "motivo": "Remissão: índice vigente da conferência 135, em vez do índice histórico 105; apenas o destino muda."
+ },
+ {
+  "arquivo": "07-personagens-e-tecnicas.md",
+  "antes": "apoio-consultas-105/casos-completos.html",
+  "depois": "apoio-conferencia-135/casos-completos.html",
+  "vezes": 1,
+  "motivo": "Remissão: índice vigente da conferência 135, em vez do índice histórico 105; apenas o destino muda."
+ },
+ {
+  "arquivo": "consultas/LEIA-ME.md",
+  "antes": "Os casos já revistos apontam para a redação atual; os demais continuam na edição anterior até a integração.",
+  "depois": "Os casos e as consultas têm cópias revistas; o índice abre suas fontes atuais.",
+  "vezes": 1,
+  "motivo": "Clareza: todas as revisões locais estão concluídas; retirar a indicação antiga de casos ainda sem cópia."
+ }
+]

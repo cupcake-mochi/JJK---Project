@@ -1,0 +1,126 @@
+{
+  "registro": 127,
+  "fontes": [
+    {
+      "id": "oficios",
+      "fonte_id": "s034",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/34-oficios-fabricacao-e-reparos.md",
+      "fonte_original": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+      "titulo": "Ofícios, fabricação e reparos",
+      "sha256": "70552a8bb06162fa1e8f40dd7d6f16d7c38ad971631edf0771df2a4aa14cf1da",
+      "sha256_original": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382"
+    },
+    {
+      "id": "ferramentas",
+      "fonte_id": "s036",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/36-ferramentas-objetos-e-contencao.md",
+      "fonte_original": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+      "titulo": "Ferramentas e objetos amaldiçoados",
+      "sha256": "4f3f285912e60751d646dfffb1fa85d5e2592babfd2d152ed4e7b9db05a50087",
+      "sha256_original": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72"
+    },
+    {
+      "id": "anel",
+      "fonte_id": "s096",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/96-fabricar-e-identificar-o-anel.md",
+      "fonte_original": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+      "titulo": "Uma ferramenta nova: Anel de Testemunho",
+      "sha256": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406",
+      "sha256_original": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9"
+    },
+    {
+      "id": "cofre",
+      "fonte_id": "s097",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/97-emprestimo-familiar-e-negociacao.md",
+      "fonte_original": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+      "titulo": "Empréstimo familiar e venda com condição",
+      "sha256": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa",
+      "sha256_original": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02"
+    },
+    {
+      "id": "pastilha",
+      "fonte_id": "s098",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/98-objeto-selado-e-risco-de-ingestao.md",
+      "fonte_original": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+      "titulo": "Um objeto selado: a Pastilha do Último Aviso",
+      "sha256": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6",
+      "sha256_original": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38"
+    },
+    {
+      "id": "limiar",
+      "fonte_id": "s099",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/99-limiar-feitos-e-promocao.md",
+      "fonte_original": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+      "titulo": "Feitos do Limiar e promoção de Grau",
+      "sha256": "dba1aa687bed2d6ec4f60721a08e1169449a5dc9279a76bd3493b762b3628714",
+      "sha256_original": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html",
+  "html_sha256": "c7843ca19de3fdf06129b77e0a1a83ec9d73dfb248201235687a56b16abc8cd1",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-127/output/pdf/Ciclo-Maldito-Oficios-Ferramentas-e-Recompensas-Revisao-Textual.pdf",
+  "pdf_sha256": "2546fcda2388d00cac2c26f8f7a0099c4127a86ef23832820e057d9c09f633be",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 567
+    },
+    {
+      "pagina": 2,
+      "palavras": 668
+    },
+    {
+      "pagina": 3,
+      "palavras": 519
+    },
+    {
+      "pagina": 4,
+      "palavras": 710
+    },
+    {
+      "pagina": 5,
+      "palavras": 596
+    },
+    {
+      "pagina": 6,
+      "palavras": 496
+    },
+    {
+      "pagina": 7,
+      "palavras": 592
+    },
+    {
+      "pagina": 8,
+      "palavras": 502
+    },
+    {
+      "pagina": 9,
+      "palavras": 514
+    },
+    {
+      "pagina": 10,
+      "palavras": 587
+    },
+    {
+      "pagina": 11,
+      "palavras": 596
+    },
+    {
+      "pagina": 12,
+      "palavras": 732
+    },
+    {
+      "pagina": 13,
+      "palavras": 541
+    },
+    {
+      "pagina": 14,
+      "palavras": 488
+    },
+    {
+      "pagina": 15,
+      "palavras": 399
+    }
+  ],
+  "limite": "Seis casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

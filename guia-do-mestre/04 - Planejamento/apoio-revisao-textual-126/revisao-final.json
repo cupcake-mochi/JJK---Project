@@ -1,0 +1,121 @@
+{
+  "registro": 126,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-126/output/pdf/Ciclo-Maldito-Tecnicas-Mesclas-e-Limites-Revisao-Textual.pdf",
+  "pdf_sha256": "5ff7150779652ee3dfe676cf29fdace297e322278248d811ae97539c474870b3",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 15,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 1,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; pente fino."
+    }
+  ],
+  "ajuste_de_diagramacao": "Casos seguem na mesma página; quadros a partir de cinco linhas podem continuar com cabeçalho repetido.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-01.png",
+      "imagem_sha256": "28b3ec5e96360cb22de561a55ed9e9989f993508f119c6da6530c349e0f67e40",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura das dúvidas, troca do Emanador e compras repetidas."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-02.png",
+      "imagem_sha256": "c09c280cf80cc25c2e1a888170acc797854a579d79d0830264e427ddf55cfeed",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Cortina com a ressalva sobre Haru, Traje e Sem Técnica."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-03.png",
+      "imagem_sha256": "7d492f5388e818e99c6f3ae308cb6dbf95f6fd4f1fef6e8eacb2fec21073258c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Armazenamento e quadro do acordo; abertura da mescla na mesma página."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-04.png",
+      "imagem_sha256": "cd75dc130c2dc74c9a2097ac2fd6427938588099042608ca1afc9297b9f760e5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Pulso de remendo e quadro das duas Classes; exemplo de Ampliação."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-05.png",
+      "imagem_sha256": "7c0649b4e1cb381d7a317d826bb371c24f0dbacc67b4bc6393a6671aa2f9a0d5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Troca de Forma com quadro de conferência; Forma Fluida e limites."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-06.png",
+      "imagem_sha256": "abceab37ba771da38a84bc3f3094191a3251dbc97efd9e359d51c6ba92a39453",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim da mescla; abertura de Repetir Melhorias e quadro de Firmeza."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-07.png",
+      "imagem_sha256": "0d794b1bcf58711d69c2b0597c1e9b51e30a8cfabf6e62badceb6cf3922969af",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Limites da repetição, combinar efeitos e quadro da Condicional."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-08.png",
+      "imagem_sha256": "56e86b35f6660cae7c731abf651fe189b6274e35d695c0a797b47508f0795cdb",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Montagem da Lâmina e quadro da Matriz de chão."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-09.png",
+      "imagem_sha256": "42872404ce70828b2d7d12922184657a90ece36583606c86938eedb96cf75d89",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim da Matriz, revisão de Restrições; abertura do cancelamento no pé da página."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-10.png",
+      "imagem_sha256": "d0cbb313e4af79434516f9434be8eb49bc79758faacfaabf61a6896b708f7f3f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Luz de Oficina com quadro e passagem para o combate."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-11.png",
+      "imagem_sha256": "7f56575392e92ea8dc5f026b65198449a236d03dfb87e81de773267aefbf026b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Desarma o Feitiço com quadro; cancelar com e sem Classe."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-126/pagina-12.png",
+      "imagem_sha256": "33755fc655bb5a0c291bb43cb710ccf4fb9061f17fd0e269b86377d5d0dafdc9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro dos limites da proposta e o que Desarma não cancela."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "O caso de cancelamento começa no pé da página 9; reavaliar na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

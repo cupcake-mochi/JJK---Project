@@ -4,7 +4,7 @@ Numa guilda, mestres diferentes oferecem missões e os jogadores levam suas pers
 
 Ciclo Maldito favorece esse modo de jogar, e os mesmos cuidados servem a uma campanha fechada. A guilda organiza o jogo; dentro da história, os personagens podem pertencer a escolas, famílias ou grupos independentes.
 
-As [regras usadas aqui](<../../04 - Planejamento/apoio-guilda-110/consulta-de-regras.html>) ficam disponíveis para conferir os exemplos e a continuidade das fichas.
+As regras usadas aqui estão no Livro de Regras 1.0 e servem para conferir os exemplos e a continuidade das fichas.
 
 ## 10.1 Compartilhar o mundo
 
@@ -26,7 +26,7 @@ Qualquer participante pode pedir pausa ou mudança de conteúdo. Interrompa, esc
 
 Separe o que aconteceu, o que alguém pretende fazer e o que ainda é hipótese. Aceitar um chamado não significa que o problema já foi resolvido. Uma sala interditada não está reparada apenas porque outra equipe quer usá-la.
 
-No anexo do centro cultural, Mina aceitou acompanhar o chamado, mas a criatura continua no depósito na versão sem confronto. Outra mesa pode lidar com o caso, desde que combine como a história continua a partir desse ponto. Não deve abrir com “a ameaça foi resolvida” apenas porque o caso foi encaminhado. A [linha de continuidade](../16-linha-de-continuidade.md) conserva essas diferenças.
+No anexo do centro cultural, Mina aceitou acompanhar o chamado, mas a criatura continua no depósito na versão sem confronto. Outra mesa pode lidar com o caso, desde que combine como a história continua a partir desse ponto. Não deve abrir com “a ameaça foi resolvida” apenas porque o caso foi encaminhado. A [linha de continuidade](<consultas/16-linha-de-continuidade.md>) conserva essas diferenças.
 
 Quando duas mesas puderem afetar o mesmo lugar, combinem a ordem dos acontecimentos e quem avisa sobre o resultado. O próximo mestre parte do que foi confirmado, preservando escolhas e soluções anteriores. Uma alteração ampla precisa chegar a quem usa aquela parte do mundo antes de ser tratada como fato comum.
 
@@ -54,7 +54,7 @@ Antes de confirmar um projeto, confira se a personagem estava disponível, onde 
 
 Se a mesma ficha entrar em outra missão enquanto a anterior ainda está aberta, combinem qual vem primeiro na história e o que ainda depende do resultado dela. Um item fabricado depois não aparece retroativamente na primeira missão. Um resultado que ainda depende de uma queda, perda ou gasto não resolvido fica pendente até ser possível conferi-lo.
 
-Separe **horas confirmadas, reservadas e livres**, sem contar duas vezes. Use a [folha de dedicação](../40-registro-de-dedicacao-por-ficha.md) e guarde o progresso no projeto. Entrada, afastamento, retorno e mudança de ciclo seguem [Tempo para as atividades](08-entre-missoes.md#82-tempo-para-as-atividades).
+Separe **horas confirmadas, reservadas e livres**, sem contar duas vezes. Use a [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) e guarde o progresso no projeto. Entrada, afastamento, retorno e mudança de ciclo seguem [Tempo para as atividades](08-entre-missoes.md#82-tempo-para-as-atividades).
 
 ### Prazos que continuam
 
@@ -72,7 +72,7 @@ Antes de continuar, quem recebe confere o ponto e os estados com os envolvidos. 
 
 ### Uma pausa na sala de conservação
 
-Mei entrou ferida e chegou a zero de vida pelo pó. Use o [mapa e a ficha do perigo](../79-o-po-na-sala-de-conservacao.md), as capacidades do [caso completo de passagem](../81-passar-a-missao-entre-mestres.md) e o registro de estado. Este exemplo usa partes de fichas; numa mesa real, envie as fichas completas usadas.
+Mei entrou ferida e chegou a zero de vida pelo pó. Use o [mapa e a ficha do perigo](<casos/79-o-po-na-sala-de-conservacao.md>), as capacidades do [caso completo de passagem](<casos/81-passar-a-missao-entre-mestres.md>) e o registro de estado. Este exemplo usa partes de fichas; numa mesa real, envie as fichas completas usadas.
 
 **Ponto da pausa:** toda a fase ambiental da rodada 1 já foi resolvida. O próximo evento é o começo do turno de Mei na rodada 2; depois vêm Akira e a fase ambiental 2. Nenhum desses eventos aconteceu durante a troca de mestre.
 
@@ -89,7 +89,7 @@ A0 é a entrada limpa da faixa de Mei, a 18 m de A12. Na rodada 1, ela usou Padr
 
 O registro da queda tem **máximo de referência 44**, primeira escolha de Insistir na cena e Classe máxima 2. Um terço de 44, arredondado para cima, exige **15 de tratamento**, abaixo do teto de 30. Ainda recebeu **0 de tratamento**. Tem **três rodadas de janela**, contadas na fase ambiental, no ponto em que caiu. Não está estável.
 
-O dano que iniciou a queda não consumiu outra rodada pelo excesso. Antes da fase 2, ainda não houve uma volta completa. Se uma nota disser “duas rodadas”, confira o acontecimento e corrija a nota; não escolha um valor pela ordem dos arquivos. A [folha de socorro](../24-registro-de-estado-e-socorro.md) conserva esses campos.
+O dano que iniciou a queda não consumiu outra rodada pelo excesso. Antes da fase 2, ainda não houve uma volta completa. Se uma nota disser “duas rodadas”, confira o acontecimento e corrija a nota; não escolha um valor pela ordem dos arquivos. A [folha de socorro](<consultas/24-registro-de-estado-e-socorro.md>) conserva esses campos.
 
 Envenenado vem do pó. Neste perigo, a saída é **TR Vigor CD 14 no fim de cada turno de Mei**; a primeira tentativa será no fim de Mei 2. Sem saída anterior, a aplicação termina na fase da rodada 11, antes de verificar outra exposição. Esse prazo pertence ao perigo preparado; não é a duração de toda aplicação de Envenenado.
 
@@ -119,14 +119,14 @@ Uma missão simples pode caber em notas breves. Use uma folha quando ela ajudar 
 
 | Necessidade | Registro a usar |
 |---|---|
-| Preparar e conduzir uma missão | [Folhas para a mesa](<../../04 - Planejamento/apoio-consultas-105/folhas-para-a-mesa.html>) e fichas de perigos necessárias |
-| Guardar pistas e seus limites | [Descobertas](../12-registro-de-descobertas.md), quando uma nota no preparo não bastar |
-| Continuar uma cena ou uma consequência | [Retomada](consultas/A4-retomar-a-missao.md), com a [linha de continuidade](../16-linha-de-continuidade.md) para assuntos extensos |
-| Acompanhar recursos e queda | [Estado e socorro](../24-registro-de-estado-e-socorro.md), junto da ficha completa |
-| Executar trabalho fora de missão | [Projeto](../38-ficha-de-projeto-e-entrega.md) e [dedicação](../40-registro-de-dedicacao-por-ficha.md), ligados pelo trabalho correspondente |
-| Manter acordos e aquisições | Registros de [capacidade](../32-ficha-de-avaliacao-de-capacidade.md), [Pacto](../42-registro-de-pactos-e-promessas.md) ou [entidade](../44-registro-de-aquisicao-e-estado-de-entidade.md), conforme o assunto |
+| Preparar e conduzir uma missão | [Folhas para a mesa](<consultas/LEIA-ME.md>) e fichas de perigos necessárias |
+| Guardar pistas e seus limites | [Descobertas](<consultas/12-registro-de-descobertas.md>), quando uma nota no preparo não bastar |
+| Continuar uma cena ou uma consequência | [Retomada](consultas/A4-retomar-a-missao.md), com a [linha de continuidade](<consultas/16-linha-de-continuidade.md>) para assuntos extensos |
+| Acompanhar recursos e queda | [Estado e socorro](<consultas/24-registro-de-estado-e-socorro.md>), junto da ficha completa |
+| Executar trabalho fora de missão | [Projeto](<consultas/38-ficha-de-projeto-e-entrega.md>) e [dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>), ligados pelo trabalho correspondente |
+| Manter acordos e aquisições | Registros de [capacidade](<consultas/32-ficha-de-avaliacao-de-capacidade.md>), [Pacto](<consultas/42-registro-de-pactos-e-promessas.md>) ou [entidade](<consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>), conforme o assunto |
 
-Para facções, convivência do Receptáculo, inimigos, habilidades e chefes, a [consulta de ferramentas](../80-escolher-e-usar-as-ferramentas.md) indica quais folhas completas usar.
+Para facções, convivência do Receptáculo, inimigos, habilidades e chefes, a [consulta de ferramentas](<consultas/LEIA-ME.md>) indica quais folhas completas usar.
 
 ### Atualizar sem duplicar
 

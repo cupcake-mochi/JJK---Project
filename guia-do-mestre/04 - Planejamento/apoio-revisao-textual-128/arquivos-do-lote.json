@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+    "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+    "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md"
+  ],
+  "casos": [
+    {
+      "id": "s047",
+      "fonte_original": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "id_prova": "ideia"
+    },
+    {
+      "id": "s048",
+      "fonte_original": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+      "id_prova": "pacifismo"
+    },
+    {
+      "id": "s049",
+      "fonte_original": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+      "id_prova": "liberacao"
+    },
+    {
+      "id": "s050",
+      "fonte_original": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+      "id_prova": "promessa"
+    }
+  ]
+}

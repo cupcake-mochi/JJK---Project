@@ -1,0 +1,252 @@
+{
+  "registro": 125,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Reparo: vida do Bastião nível 4, Constituição 2",
+      "resultado": 41,
+      "esperado": 41
+    },
+    {
+      "conta": "Reparo: CD, bônus e rolagens",
+      "resultado": [
+        12,
+        4,
+        false,
+        true
+      ],
+      "esperado": [
+        12,
+        4,
+        false,
+        true
+      ]
+    },
+    {
+      "conta": "Reparo: frações (metade, terço, quarto, 30%)",
+      "resultado": [
+        20,
+        13,
+        10,
+        12
+      ],
+      "esperado": [
+        20,
+        13,
+        10,
+        12
+      ]
+    },
+    {
+      "conta": "Reparo: saldo e limite ao máximo",
+      "resultado": [
+        29,
+        6,
+        14
+      ],
+      "esperado": [
+        29,
+        6,
+        14
+      ]
+    },
+    {
+      "conta": "Reparo: Classe máxima no nível 4",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "conta": "Nilo: vida antes e depois de Corpo Quebradiço",
+      "resultado": [
+        32,
+        16
+      ],
+      "esperado": [
+        32,
+        16
+      ]
+    },
+    {
+      "conta": "Nilo: PE (6 × nível + 2 × Essência)",
+      "resultado": 36,
+      "esperado": 36
+    },
+    {
+      "conta": "Nilo: atributos somam 9",
+      "resultado": 9,
+      "esperado": 9
+    },
+    {
+      "conta": "Escriba: Defesa e Bloquear",
+      "resultado": [
+        13,
+        2
+      ],
+      "esperado": [
+        13,
+        2
+      ]
+    },
+    {
+      "conta": "Nilo: Vigor treinado e Concentração CD 14",
+      "resultado": [
+        3,
+        true
+      ],
+      "esperado": [
+        3,
+        true
+      ]
+    },
+    {
+      "conta": "Quebradiço: cura dentro do máximo reduzido",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "conta": "Exaurido: descanso, limite de deslocamento e cura pela metade",
+      "resultado": [
+        8,
+        16,
+        16,
+        3,
+        19,
+        true
+      ],
+      "esperado": [
+        8,
+        16,
+        16,
+        3,
+        19,
+        true
+      ]
+    },
+    {
+      "conta": "Toque sem Melhoria e com Precisão (Classe 1)",
+      "resultado": [
+        3,
+        1,
+        3,
+        6
+      ],
+      "esperado": [
+        3,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "conta": "Prender com fios: saldo e CD",
+      "resultado": [
+        4,
+        13,
+        15
+      ],
+      "esperado": [
+        4,
+        13,
+        15
+      ]
+    },
+    {
+      "conta": "Recomposição com maior Classe 3",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "conta": "Fundamento Incorporado",
+      "resultado": [
+        15,
+        14
+      ],
+      "esperado": [
+        15,
+        14
+      ]
+    },
+    {
+      "conta": "Liberação Classe 3 por Linha",
+      "resultado": [
+        7,
+        10,
+        14,
+        12
+      ],
+      "esperado": [
+        7,
+        10,
+        14,
+        12
+      ]
+    },
+    {
+      "conta": "Técnica Máxima: Fenda de Arrasto e TR",
+      "resultado": [
+        6,
+        76,
+        25
+      ],
+      "esperado": [
+        6,
+        76,
+        25
+      ]
+    },
+    {
+      "conta": "Máxima de cura: base e Guarda na Classe 5",
+      "resultado": [
+        5,
+        5,
+        10,
+        2,
+        7,
+        1
+      ],
+      "esperado": [
+        5,
+        5,
+        10,
+        2,
+        7,
+        1
+      ]
+    },
+    {
+      "conta": "Recarga: usada na rodada 1, volta na 5",
+      "resultado": 5,
+      "esperado": 5
+    },
+    {
+      "conta": "Galeria de Vidro: Acerto e aplicações",
+      "resultado": [
+        8,
+        3
+      ],
+      "esperado": [
+        8,
+        3
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Existência Artificial, Manutenção Precisa, Reparo do corpo, Reparo Autônomo e Reparar",
+      "Vida e PE do Bastião e do Emanador",
+      "Restrição corporal: CE4, Rede Remota, Saída Elevada, Corpos Debilitado, Quebradiço e Exaurido, Reserva Excedente",
+      "Defesa das entidades e vida de entidade de nível 5",
+      "Tabela de Classe, preços e desconto de Família Livre",
+      "Precisão, Prende, reforço de Controle sem dano, Toque, Aquecer",
+      "Recomposição e Fundamento Incorporado",
+      "Liberação Máxima (Corte de ruptura, preços), Técnica Máxima (tabela, TR, recarga, Fenda de Arrasto)",
+      "Galeria de Vidro e Sala de Trégua"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Os exemplos continuam experimentais; contas corretas não demonstram equilíbrio."
+  ]
+}

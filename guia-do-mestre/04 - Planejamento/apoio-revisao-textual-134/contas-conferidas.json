@@ -1,0 +1,65 @@
+{
+  "registro": 134,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Sete Origens no Livro de Regras 1.0",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "conta": "Regras citadas conferidas",
+      "resultado": 9,
+      "esperado": 9
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Origens",
+      "Restrição Celestial",
+      "Rotas de criação",
+      "Cortina",
+      "Refino e Lapidação",
+      "Lista de ritual",
+      "Patentes"
+    ]
+  },
+  "fontes_externas": [
+    {
+      "fonte": "https://jujutsukaisen.jp/episodes/48.php",
+      "conferida_em": "2026-10-30",
+      "confere": true,
+      "resumo": "Tóquio após Shibuya; Yuji e Choso caçam maldições; Naoya, que mira a chefia do clã Zenin, ataca; Yuji sabe por ele que a suspensão da execução foi revogada; Yuta chega como executor."
+    },
+    {
+      "fonte": "https://jujutsukaisen.jp/episodes/50.php",
+      "conferida_em": "2026-10-30",
+      "confere": true,
+      "resumo": "O grupo vai a Tengen para saber como desfazer o selamento de Gojo e o objetivo do adversário; Tengen responde e explica o Jogo do Abate."
+    },
+    {
+      "fonte": "https://jujutsukaisen.jp/episodes/51.php",
+      "conferida_em": "2026-10-30",
+      "confere": true,
+      "resumo": "Maki vai à família Zenin buscar ferramentas para o Jogo do Abate; enfrenta insultos e a oposição da mãe; no depósito encontra Mai ensanguentada e o pai."
+    },
+    {
+      "fonte": "https://jujutsukaisen.jp/episodes/55.php",
+      "conferida_em": "2026-10-30",
+      "confere": true,
+      "resumo": "Higuruma foi advogado; Yuji e Megumi recebem informações diferentes sobre onde ele está."
+    },
+    {
+      "fonte": "https://www.shueisha.co.jp/books/items/contents_amp.html?jdcn=08X10000000018964300",
+      "conferida_em": null,
+      "confere": null,
+      "resumo": "Página em manutenção de emergência em 30/10/2026; não reconfirmada. Conferida antes no lote 8 (apoio-lote8/fontes-conferidas.md); o texto do Guia não mudou."
+    }
+  ],
+  "limites": [
+    "Sinopses oficiais consultadas; sem leitura integral do mangá ou dos episódios.",
+    "Volume 18 não reconfirmado nesta revisão (página fora do ar)."
+  ]
+}

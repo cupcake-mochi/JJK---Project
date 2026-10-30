@@ -1,0 +1,68 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "Este capítulo reúne descanso, dedicação, Ofícios, equipamento e recompensas. O Livro de Regras 1.0 fornece suas regras; o ciclo de dedicação é a recomendação deste Guia para a guilda. As regras usadas aqui estão no Livro de Regras 1.0, e os casos completos ficam disponíveis para consulta.",
+    "depois": "Este capítulo trata de descanso, dedicação, Ofícios, equipamento e recompensas. Use as regras do Livro de Regras 1.0; para organizar as atividades da guilda, o Guia recomenda o ciclo de dedicação apresentado a seguir. Os casos completos ficam disponíveis para consulta.",
+    "motivo": "Retirar a repetição sobre a referência e explicar diretamente de onde vem a recomendação de ciclo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "Anote separadamente as horas de trabalho já conferidas, as que ainda aguardam conferência e as que podem ser usadas: **confirmadas, reservadas e livres**. As reservadas ficam vinculadas à atividade; não podem também financiar outro projeto ou aparecer como saldo transferido.",
+    "depois": "No registro, **confirmadas** são as horas de trabalho já conferidas; **reservadas**, as horas vinculadas a trabalho que aguarda conferência; **livres**, as horas ainda disponíveis. Horas reservadas não podem também financiar outro projeto ou aparecer como saldo transferido.",
+    "motivo": "Definir cada estado junto ao nome, para que horas de trabalho confirmadas não pareçam saldo livre."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "### Combinar o trabalho",
+    "depois": "<span id=\"combinar-o-trabalho\"></span>\n\n### Planejar o projeto",
+    "motivo": "Usar um subtítulo que identifique o conteúdo e conservar o destino anterior."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "Caixa e selo são diferentes. Abrir a caixa pode expor o selo sem retirá-lo.",
+    "depois": "Caixa e selo são diferentes. O selo de contenção do objeto também é diferente do Selo exigido para conjurar. Abrir a caixa pode expor o selo sem retirá-lo.",
+    "motivo": "Distinguir a proteção do objeto do requisito de conjuração, como já faz a Pastilha."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "O desconto é **por jogador, dentro da campanha**. Trocar de ficha não reinicia a contagem.",
+    "depois": "O desconto é **por jogador, dentro da campanha**. A dedicação às atividades é **por ficha**. Trocar de ficha não reinicia a contagem de XP.",
+    "motivo": "Identificar os dois registros com critérios diferentes e explicitar qual contagem não reinicia."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "antes": "Se adotar salário por participação, a parcela mínima é um quarto. A campanha define quantas participações completam o mês; a recomendação publicada é três. Curta e padrão contam uma, longa duas e final de arco três.",
+    "depois": "Se adotar salário por participação, a parcela mínima é um quarto. A campanha define quantas participações completam o mês; a recomendação publicada é três. Divida os três quartos restantes pelo número de participações exigidas; cada participação soma uma dessas parcelas, até completar o salário. Curta e padrão contam uma, longa duas e final de arco três.",
+    "motivo": "Incluir a fórmula publicada que permite calcular o salário quando a campanha usa outro total de participações."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "Treinamentos específicos ainda não têm regras próprias aprovadas; não os presuma a partir de um projeto concluído.",
+    "depois": "Uma prática só altera a ficha quando a regra adotada explicar o ganho e seus requisitos.",
+    "motivo": "Orientar o leitor sobre aquisição, retirando uma nota do processo de produção sem conceder benefícios de treinamento."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+    "antes": "Veja as regras em [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>).",
+    "depois": "Veja as regras em [Ao subir de nível](<../07-personagens-e-tecnicas.md#ao-subir-de-nivel>).",
+    "motivo": "Levar a atualização após o Limiar à seção que explica ganhos e saldos, como no caso de vida rolada."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+    "antes": "**Estado dos personagens que precisa ser considerado:**",
+    "depois": "**Conclusão e recompensas:** data de conclusão, resultado da missão, XP e desconto semanal de cada participante, dinheiro, itens e portadores; feitos e promoções confirmados ou pendentes.\n\n**Estado dos personagens que precisa ser considerado:**",
+    "motivo": "Oferecer o campo de fechamento e recompensas para o qual o capítulo já remete, sem criar recompensa ou promoção automática."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+    "antes": "Ele separa trabalho da ficha, serviço contratado e espera;",
+    "depois": "Ele separa trabalho do personagem, serviço contratado e espera;",
+    "motivo": "Nomear a pessoa que dedica o trabalho, em vez de atribuir trabalho à ficha."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+    "antes": "Consulte [Tempo para as atividades](<../08-entre-missoes.md>), no capítulo Entre missões,",
+    "depois": "Consulte [Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>), no capítulo Entre missões,",
+    "motivo": "Abrir diretamente a orientação de dedicação, em vez de levar ao início de um capítulo longo."
+  }
+]

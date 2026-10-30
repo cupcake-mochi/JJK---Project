@@ -1,0 +1,62 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+    "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+    "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+    "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+    "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md"
+  ],
+  "casos": [
+    {
+      "id": "s008",
+      "fonte_original": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+      "id_prova": "acordos"
+    },
+    {
+      "id": "s012",
+      "fonte_original": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+      "id_prova": "descobertas"
+    },
+    {
+      "id": "s020",
+      "fonte_original": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+      "id_prova": "faccao"
+    },
+    {
+      "id": "s028",
+      "fonte_original": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+      "id_prova": "convivencia"
+    },
+    {
+      "id": "s032",
+      "fonte_original": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "id_prova": "avaliacao"
+    },
+    {
+      "id": "s038",
+      "fonte_original": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+      "id_prova": "projeto"
+    }
+  ]
+}

@@ -51,9 +51,9 @@ Uma parede que bloqueie um dos trechos continua impedindo o ataque. Se a cobertu
 
 Uma equipe precisa descer **6 m** até uma plataforma de manutenção. Há um apoio acessível e firme junto à borda. Antes do preparo, o mestre confirma que ele suporta a carga da pessoa com seu equipamento e que corda e kit são adequados ao percurso.
 
-Mina deixa as armas guardadas e mantém **duas mãos disponíveis**. Dedica **um minuto** ao preparo: prende a corda e conecta o arnês ao ponto firme. É um nó simples, fora de perigo, portanto não há teste. Se a instalação exigisse trabalho difícil, o mestre indicaria o ofício adequado, a CD e o risco antes da tentativa.
+Noa deixa as armas guardadas e mantém **duas mãos disponíveis**. Dedica **um minuto** ao preparo: prende a corda e conecta o arnês ao ponto firme. É um nó simples, fora de perigo, portanto não há teste. Se a instalação exigisse trabalho difícil, o mestre indicaria o ofício adequado, a CD e o risco antes da tentativa.
 
-A ligação já está pronta quando Mina começa a descer. Descer com apoio e controle usa Escalar: sem deslocamento especial, **6 m físicos custam 12 m de movimento**. Em turnos, ela precisaria de movimento suficiente, usando seus recursos próprios; fora de combate, acompanhe o tempo necessário. O kit mantém a ligação com o apoio; Mina ainda precisa gastar o movimento da descida.
+A ligação já está pronta quando Noa começa a descer. Descer com apoio e controle usa Escalar: sem deslocamento especial, **6 m físicos custam 12 m de movimento**. Em turnos, ela precisaria de movimento suficiente, usando seus recursos próprios; fora de combate, acompanhe o tempo necessário. O kit mantém a ligação com o apoio; Noa ainda precisa gastar o movimento da descida.
 
 Neste exemplo, a folga máxima deixada permite uma queda de **1,5 m** antes de a corda sustentá-la. Se perder o apoio, fica suspensa nesse limite, enquanto a instalação suportar a carga. Essa altura não causa dano pela regra comum de queda. Ainda será necessário retomar um apoio ou receber ajuda para continuar.
 
@@ -83,7 +83,7 @@ Com as mãos presas, o adversário não pode empunhar armas nem manipular itens 
 
 Para abrir a algema comum, uma chave acessível usa manipulação simples. Gazuas seguem **CD 14, um minuto e duas mãos**, se alguém realmente conseguir manipulá-las. Romper a algema pela força usa **Ação Padrão e Atletismo CD 24**; mãos presas não impedem essa tentativa. Com bônus +5 e dado 18, o total **23** falha e a algema permanece; com dado 19, o total **24** a rompe.
 
-Cordas seguem outras regras: escapar por Acrobacia usa Padrão e CD 14; romper por Atletismo usa Padrão e CD 20. Uma lâmina adequada pode cortar uma corda acessível com Padrão, sem causar dano automático ao prisioneiro. Os [casos do Carregador](<../../62-o-carregador-e-o-corredor-de-entulho.md>) desenvolvem a contenção e o transporte após o confronto.
+Cordas seguem outras regras: escapar por Acrobacia usa Padrão e CD 14; romper por Atletismo usa Padrão e CD 20. Uma lâmina adequada pode cortar uma corda acessível com Padrão, sem causar dano automático ao prisioneiro. Os [casos do Carregador](<62-o-carregador-e-o-corredor-de-entulho.md>) desenvolvem a contenção e o transporte após o confronto.
 
 ## Um cabo como bastão
 

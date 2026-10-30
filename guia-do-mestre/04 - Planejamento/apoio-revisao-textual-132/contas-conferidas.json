@@ -1,0 +1,60 @@
+{
+  "registro": 132,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Linhas do acompanhamento de Restrição",
+      "resultado": [
+        "1",
+        "2",
+        "3"
+      ],
+      "esperado": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "conta": "Devolução aproveitada sem Melhorias (mín. entre devolução Leve 1, Melhorias 0 e 2 × Classe 2)",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "conta": "Ataque de conjuração: atributo 3 + Maestria 1",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "conta": "Dado 10 + 4 contra Defesa 14 acerta",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Traje de Rina: 4 horas − 2 do primeiro intervalo",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "conta": "Traje de Rina: dois intervalos de 2 horas",
+      "resultado": 4,
+      "esperado": 4
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Conselho Interior",
+      "Revisão da Restrição",
+      "Toque, Aura e proximidade",
+      "Devolução aproveitada",
+      "Peso nas Mãos",
+      "Ataque de conjuração (Mei)",
+      "Reparo do Traje de Rina"
+    ]
+  },
+  "limites": [
+    "Fichas de acordos, descobertas e facção não têm contas nem regras mecânicas; foram conferidas só na leitura."
+  ]
+}

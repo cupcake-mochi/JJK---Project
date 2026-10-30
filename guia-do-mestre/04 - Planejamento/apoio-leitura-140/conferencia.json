@@ -1,0 +1,26 @@
+{
+  "registro": 140,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md"
+  ],
+  "alteracoes_reproduzidas": 14,
+  "quadros_com_parametros_preservados": 286,
+  "rotulos_de_quadro_ajustados": 0,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1916,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "decisoes_sobre_receptaculo_e_reserva_preservadas": true,
+  "prazo_de_revisao_delimitado": true,
+  "referencia_publicada_explicitada": "Classe 1 ou maior em Saída Elevada; uma ocorrência adicional do numeral 1, sem mudar um valor da capacidade",
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

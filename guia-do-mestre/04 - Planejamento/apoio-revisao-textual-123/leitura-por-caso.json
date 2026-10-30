@@ -1,0 +1,68 @@
+{
+  "registro": 123,
+  "casos": [
+    {
+      "id": "s101",
+      "fonte_original": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+      "sha256_original": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+      "sha256_revisado": "327f794e3dc01ae864a6850f858b97b07e6c742b353123607fe39cfe92c5e721",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 16,
+        "2": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s102",
+      "fonte_original": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256_original": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+      "sha256_revisado": "58bfc2b0e84c98fcd2df1c9ea13e00d24f3c20c76927f350fca88a5db90c3da0",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        5,
+        9
+      ],
+      "paginas_na_prova_final": [
+        5,
+        9
+      ],
+      "registros_por_passagem": {
+        "1": 14,
+        "2": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s079",
+      "fonte_original": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+      "sha256_original": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+      "sha256_revisado": "290e5f7f17866806ab39aa6b1b7d4e24da3bbf226f86b5b15d35c8be941659d5",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        10,
+        14
+      ],
+      "paginas_na_prova_final": [
+        10,
+        14
+      ],
+      "registros_por_passagem": {
+        "1": 7
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

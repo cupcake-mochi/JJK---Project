@@ -1,0 +1,128 @@
+{
+  "registro": 130,
+  "fontes": [
+    {
+      "id": "amontoado",
+      "fonte_id": "s052",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+      "fonte_original": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+      "titulo": "Domar o Amontoado do depósito",
+      "sha256": "e82b9f994fb0318f8c0fd53b6cbcddd48b3819de837bfbcb3182399acd3d791d",
+      "sha256_original": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f"
+    },
+    {
+      "id": "escriba",
+      "fonte_id": "s053",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+      "fonte_original": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+      "titulo": "Construir e evoluir o Escriba de campo",
+      "sha256": "e7637fc2012ee8a30ae30ae41d8526236134eabe29c69dfdb85ad0d7c84ecf02",
+      "sha256_original": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348"
+    },
+    {
+      "id": "mula",
+      "fonte_id": "s054",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+      "fonte_original": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+      "titulo": "Transporte com entidades",
+      "sha256": "fed54f767600cccaeecf30b182bd4ea6a5cfbd1bda3e1d4f0885fa4bceeaea00",
+      "sha256_original": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb"
+    },
+    {
+      "id": "vigia",
+      "fonte_id": "s055",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "fonte_original": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "titulo": "Fabricar e evoluir o Vigia do depósito",
+      "sha256": "354539605d3baeea4153a8ba62fea331ebe411ec95b1ef8ebbba504b13017f2e",
+      "sha256_original": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html",
+  "html_sha256": "385de649c68f543de952e0d160e840cea519044e42574e2490df387e28d00466",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-130/output/pdf/Ciclo-Maldito-Doma-Construcao-e-Transporte-Revisao-Textual.pdf",
+  "pdf_sha256": "45576d57a7a816651602ccb0dfe16028bdcec41715f2e52e3a10b4bad31fbe55",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 492
+    },
+    {
+      "pagina": 2,
+      "palavras": 679
+    },
+    {
+      "pagina": 3,
+      "palavras": 482
+    },
+    {
+      "pagina": 4,
+      "palavras": 714
+    },
+    {
+      "pagina": 5,
+      "palavras": 618
+    },
+    {
+      "pagina": 6,
+      "palavras": 483
+    },
+    {
+      "pagina": 7,
+      "palavras": 564
+    },
+    {
+      "pagina": 8,
+      "palavras": 569
+    },
+    {
+      "pagina": 9,
+      "palavras": 756
+    },
+    {
+      "pagina": 10,
+      "palavras": 516
+    },
+    {
+      "pagina": 11,
+      "palavras": 474
+    },
+    {
+      "pagina": 12,
+      "palavras": 555
+    },
+    {
+      "pagina": 13,
+      "palavras": 683
+    },
+    {
+      "pagina": 14,
+      "palavras": 653
+    },
+    {
+      "pagina": 15,
+      "palavras": 519
+    },
+    {
+      "pagina": 16,
+      "palavras": 547
+    },
+    {
+      "pagina": 17,
+      "palavras": 505
+    },
+    {
+      "pagina": 18,
+      "palavras": 558
+    },
+    {
+      "pagina": 19,
+      "palavras": 722
+    },
+    {
+      "pagina": 20,
+      "palavras": 291
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

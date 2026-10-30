@@ -1,0 +1,126 @@
+{
+  "registro": 132,
+  "casos": [
+    {
+      "id": "s008",
+      "fonte_original": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+      "sha256_original": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6",
+      "sha256_revisado": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        2
+      ],
+      "paginas_na_prova_final": [
+        1,
+        2
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s012",
+      "fonte_original": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+      "sha256_original": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436",
+      "sha256_revisado": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        2,
+        3
+      ],
+      "paginas_na_prova_final": [
+        2,
+        3
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s020",
+      "fonte_original": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+      "sha256_original": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4",
+      "sha256_revisado": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        4,
+        5
+      ],
+      "paginas_na_prova_final": [
+        4,
+        5
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s028",
+      "fonte_original": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+      "sha256_original": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+      "sha256_revisado": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        5,
+        6
+      ],
+      "paginas_na_prova_final": [
+        5,
+        6
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s032",
+      "fonte_original": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256_original": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+      "sha256_revisado": "5a5cd6a696e2ff4d9716f8a9c26b753f319b2f216a0750daafd1eb7770df1ef7",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        6,
+        8
+      ],
+      "paginas_na_prova_final": [
+        6,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s038",
+      "fonte_original": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+      "sha256_original": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+      "sha256_revisado": "8a12369b489c625422d4588fadd21928e3fd909e1417604b4f5448e34550c80a",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        8,
+        10
+      ],
+      "paginas_na_prova_final": [
+        8,
+        10
+      ],
+      "registros_por_passagem": {
+        "1": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

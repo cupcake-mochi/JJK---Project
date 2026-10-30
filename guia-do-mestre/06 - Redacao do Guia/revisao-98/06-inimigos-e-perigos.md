@@ -2,9 +2,9 @@
 
 Um inimigo dá vida à oposição: pode guardar uma passagem, perseguir alguém, defender seu abrigo ou tentar concluir um trabalho. Prepare o que ele quer, como age e quais escolhas oferece ao grupo. O confronto começa por essa situação; os números ajudam a resolvê-la.
 
-Este capítulo ensina a escolher, adaptar e criar ameaças. A [ficha de inimigo e encontro](../58-ficha-de-inimigo-e-encontro.md) reúne o preparo; as fichas completas e os estudos citados permitem acompanhar aplicações. O catálogo amplo de criaturas, com suas descrições e histórias, fica para o Livro de Inimigos.
+Este capítulo ensina a escolher, adaptar e criar ameaças. A [ficha de inimigo e encontro](<consultas/58-ficha-de-inimigo-e-encontro.md>) reúne o preparo; as fichas completas e os estudos citados permitem acompanhar aplicações. O catálogo amplo de criaturas, com suas descrições e histórias, fica para o Livro de Inimigos.
 
-As [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-114/consulta-de-regras.html#inimigos>) estão disponíveis para consulta.
+As regras usadas aqui estão no Livro de Regras 1.0.
 
 **Os valores e as habilidades próprias propostos pelo Guia são experimentais.** As contas e as sequências dos exemplos permitem conferir o funcionamento; a dificuldade ainda precisa ser observada em mesas diferentes. Use fichas compatíveis com o Livro de Regras 1.0. Os números do Bestiário antigo precisam de revisão antes de servir como referência.
 
@@ -28,7 +28,7 @@ O papel descreve sua contribuição ao encontro. Ele ajuda a escolher comportame
 | Apoiar outras criaturas | Quem recebe o benefício e o que muda se o apoio for interrompido? |
 | Disputar um objetivo | O que tenta obter enquanto o grupo age? |
 
-Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataque e curar. Ambos podem negociar. O objetivo é retirar o estojo de documentos, e a saída continua acessível. As [fichas da dupla](../75-ren-e-sora-atacante-e-apoio.md) definem seus meios; o papel apenas orienta as escolhas.
+Toru e Sayo mostram atacante e apoio: Toru ocupa o caminho e ameaça de perto; Sayo escolhe entre favorecer um ataque e curar. Ambos podem negociar. O objetivo é retirar o estojo de documentos, e a saída continua acessível. As [fichas da dupla](<casos/75-ren-e-sora-atacante-e-apoio.md>) definem seus meios; o papel apenas orienta as escolhas.
 
 ## 6.2 Preparar a ficha
 
@@ -67,7 +67,7 @@ Considere o Carregador Médio, com Força 3, Maestria 1 e uma mão livre. Ao usa
 
 O alvo faz TR Físico contra **8 + 3 + 1 = CD 12**. Um total 12 evita; 11 aplica Agarrado, com deslocamento zero. A manobra substitui o dano, não rola acerto e não cobra PE. O alvo conserva ataques, conjuração e Bloquear conforme seus requisitos. Para tentar escapar no próprio turno, pode gastar Padrão e repetir o TR contra a CD 12.
 
-O tilintar dos sinos pode anunciar a intenção do Carregador, mas não concede outro ataque ou transporte gratuito. Arrastar exige carga, percurso e movimento. Outras saídas da contenção seguem suas regras. A [consulta do Carregador](../63-carregador-consulta-e-doma.md) traz a ficha completa e a conversão de aquisição.
+O tilintar dos sinos pode anunciar a intenção do Carregador, mas não concede outro ataque ou transporte gratuito. Arrastar exige carga, percurso e movimento. Outras saídas da contenção seguem suas regras. A [consulta do Carregador](<casos/63-carregador-consulta-e-doma.md>) traz a ficha completa e a conversão de aquisição.
 
 ## 6.3 Habilidades e recursos
 
@@ -94,9 +94,9 @@ Uma criatura simples pode ter uma rotina simples. Evite acrescentar defesas ou c
 
 ### Quando a reserva cria uma escolha
 
-Ren tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sora tem 12 PE: quatro Fios de 3 PE, dois Remendos de 6 PE ou dois Fios e um Remendo cabem antes de outras despesas. A mesma reserva também paga proteção.
+Toru tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sayo tem 12 PE: quatro Fios de 3 PE, dois Remendos de 6 PE ou dois Fios e um Remendo cabem antes de outras despesas. A mesma reserva também paga proteção.
 
-Além da energia, Sora disputa sua Padrão: curar toma o lugar de conceder Fio naquele turno. A escolha existe dentro do combate, sem depender de outra missão. Usos compartilhados também podem oferecer escolha; os PE permitem preços diferentes e interagem com efeitos que alterem energia e custos.
+Além da energia, Sayo disputa sua Padrão: curar toma o lugar de conceder Fio naquele turno. A escolha existe dentro do combate, sem depender de outra missão. Usos compartilhados também podem oferecer escolha; os PE permitem preços diferentes e interagem com efeitos que alterem energia e custos.
 
 ### Energia, custos e outras regras
 
@@ -104,7 +104,7 @@ Se Leitura de Reservas se aplicar, forneça saldo e máximo reais pelo exame exi
 
 Os estágios de Integridade são cumulativos. No estágio 2, cada **feitiço** custa mais 1 PE por Classe; isso não se estende automaticamente a toda manobra ou aptidão. O Impacto de Classe 1 passa de 3 para 4 PE. Depois de gastar 3 dos 6, a reserva restante já não paga outro. As demais penalidades dos estágios continuam valendo, inclusive para habilidades sem gasto.
 
-Ao adaptar um feitiço, diferencie custo-base e pagamento dispensado. Na variante experimental de recarga do Impacto, dispensar o custo normal não dispensa os acréscimos: a proposta conserva a base e cobra o adicional aplicável. Essa exceção pertence à variante, não ao Amontoado original ou aos personagens jogadores. O [estudo de habilidades](../60-montar-habilidades-de-inimigos.md) acompanha as contas e as interações.
+Ao adaptar um feitiço, diferencie custo-base e pagamento dispensado. Na variante experimental de recarga do Impacto, dispensar o custo normal não dispensa os acréscimos: a proposta conserva a base e cobra o adicional aplicável. Essa exceção pertence à variante, não ao Amontoado original ou aos personagens jogadores. O [estudo de habilidades](<casos/60-montar-habilidades-de-inimigos.md>) acompanha as contas e as interações.
 
 Confira também Selo, mãos, voz, Rescaldo, cancelamento, manutenção e contenções. Agarrado não silencia ou prende automaticamente todas as mãos; uma habilidade própria não ganha imunidade a cancelamento por ser própria. Se puder ser adquirida por Doma, prepare a conversão antes da oportunidade: permissões exclusivas do inimigo não passam automaticamente à entidade.
 
@@ -137,7 +137,7 @@ Os valores abaixo preservam os estudos para **níveis 2 e 6**, ambos com Maestri
 | Defesa central | 13 | 13 |
 | Outras Defesas para comparar | 11 ou 15 | 11 ou 15 |
 
-A Defesa precisa de componentes válidos. Ren e Sora têm 13 por **10 + Destreza 2 + Traje 1**. Ataque +4 e CD 12 podem vir de atributo 3 e Maestria 1; elevar o atributo também altera outras contas que o usam. Não esconda um bônus próprio no total.
+A Defesa precisa de componentes válidos. Toru e Sayo têm 13 por **10 + Destreza 2 + Traje 1**. Ataque +4 e CD 12 podem vir de atributo 3 e Maestria 1; elevar o atributo também altera outras contas que o usam. Não esconda um bônus próprio no total.
 
 Use Padrão, Movimento, Bônus e Reação conforme as regras, com um ataque em Atacar como partida destas referências. Outro ataque exige permissão e avaliação próprias. Não some automaticamente as alternativas mais fortes da tabela.
 
@@ -155,7 +155,7 @@ A alternativa ofensiva não atualiza o Carregador. Usar o dano da linha do Sinei
 
 Um golpe mais forte repetido antes de alguém agir pesa de modo diferente de um golpe anunciado e interrompível. Para área, controle ou cura, compare também alvos, duração, saídas e ações disputadas. Bloquear não responde a uma área resolvida por TR; sucesso num TR só reduz o dano pela metade quando a regra disser isso.
 
-Os [estudos numéricos](../74-regua-inicial-de-inimigos.md) mostram as premissas e as probabilidades. As sequências de três ou seis ataques ali não são rodadas completas: deixam de fora várias ações e respostas. A [comparação de outras faixas](../100-comparar-inimigos-em-outras-faixas.md) amplia os recortes sem criar uma escala aprovada para todos os níveis. Não deduza os números dos níveis ausentes a partir desses recortes nem multiplique as reservas para chegar a outro nível.
+Os [estudos numéricos](<casos/74-regua-inicial-de-inimigos.md>) mostram as premissas e as probabilidades. As sequências de três ou seis ataques ali não são rodadas completas: deixam de fora várias ações e respostas. A [comparação de outras faixas](<casos/100-comparar-inimigos-em-outras-faixas.md>) amplia os recortes sem criar uma escala aprovada para todos os níveis. Não deduza os números dos níveis ausentes a partir desses recortes nem multiplique as reservas para chegar a outro nível.
 
 ## 6.5 O grupo e o lugar
 
@@ -167,15 +167,15 @@ Dois inimigos podem oferecer duas tentativas de ataque enquanto ambos agirem e a
 
 ### Prepare uma escolha de alvo
 
-Sora pode curar Ren ou a si mesma enquanto estiver ativa, dentro do alcance e com recursos. O grupo pode gastar ações pressionando Sora em vez de atacar Ren. Quando ela cai, cessa o apoio futuro, mas benefícios já entregues conservam seus prazos. Quando Ren cai, Sora perde seu principal meio de pressão e procura negociar ou sair. O [confronto da dupla](../76-confronto-de-ren-e-sora.md) acompanha essas escolhas; o [preenchimento da ficha](../77-ficha-preenchida-ren-e-sora.md) mostra como registrá-las.
+Sayo pode curar Toru ou a si mesma enquanto estiver ativa, dentro do alcance e com recursos. O grupo pode gastar ações pressionando Sayo em vez de atacar Toru. Quando ela cai, cessa o apoio futuro, mas benefícios já entregues conservam seus prazos. Quando Toru cai, Sayo perde seu principal meio de pressão e procura negociar ou sair. O [confronto da dupla](<casos/76-confronto-de-ren-e-sora.md>) acompanha essas escolhas; o [preenchimento da ficha](<casos/77-ficha-preenchida-ren-e-sora.md>) mostra como registrá-las.
 
 ### Faça o lugar importar
 
 Marque acessos, posições, cobertura, distâncias, objetivo e locais de retirada. Mostre o que se percebe antes da escolha. Um atirador alto, uma passagem estreita e uma porta que pode fechar exigem conferências diferentes.
 
-Na [variante do portão](../66-o-carregador-e-a-saida-que-fecha.md), os números do Carregador são mantidos. Uma saída curta pode fechar, mas o corredor de serviço continua disponível. Chegar ao comando de parada e acioná-lo toma ações que poderiam ser usadas para pegar a caixa ou socorrer alguém. O mecanismo não ganha dano, mais vida para a criatura ou um prazo menor porque o grupo dividiu bem o trabalho.
+Na [variante do portão](<casos/66-o-carregador-e-a-saida-que-fecha.md>), os números do Carregador são mantidos. Uma saída curta pode fechar, mas o corredor de serviço continua disponível. Chegar ao comando de parada e acioná-lo toma ações que poderiam ser usadas para pegar a caixa ou socorrer alguém. O mecanismo não ganha dano, mais vida para a criatura ou um prazo menor porque o grupo dividiu bem o trabalho.
 
-Para comparar a alteração, separe o mapa original, o novo mapa com motor desligado e o mesmo mapa com fechamento ativo. Assim é possível distinguir a mudança de espaço da pressão do prazo. O [estudo de composição](../65-comparar-confronto-e-pressao-ambiental.md) fornece percursos e custos.
+Para comparar a alteração, separe o mapa original, o novo mapa com motor desligado e o mesmo mapa com fechamento ativo. Assim é possível distinguir a mudança de espaço da pressão do prazo. O [estudo de composição](<casos/65-comparar-confronto-e-pressao-ambiental.md>) fornece percursos e custos.
 
 ### Quando o grupo corre risco
 
@@ -183,7 +183,7 @@ Pergunte o que ocorre se dois golpes acertarem a mesma pessoa antes de ela agir,
 
 As regras de queda dos personagens mudam essa leitura. Chegar a zero de vida pode permitir Insistir, conservando ações e recursos disponíveis; Aguentar deixa Inconsciente. O inimigo comum é derrotado a zero de vida ou Integridade, salvo regra própria. Não conceda a ele o socorro de jogador por presumir que as fichas são iguais.
 
-**Vida zero, fim da participação e fim da oposição são momentos diferentes.** A janela de socorro é prazo de atendimento, não rodadas extras a somar à luta. Depois que o inimigo cai, alguém ainda pode estar Morrendo. Consulte [Combate, socorro e retirada](04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada) e conserve os dados no [registro de estado](../24-registro-de-estado-e-socorro.md).
+**Vida zero, fim da participação e fim da oposição são momentos diferentes.** A janela de socorro é prazo de atendimento, não rodadas extras a somar à luta. Depois que o inimigo cai, alguém ainda pode estar Morrendo. Consulte [Combate, socorro e retirada](04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada) e conserve os dados no [registro de estado](<consultas/24-registro-de-estado-e-socorro.md>).
 
 ## 6.6 Chefes e grandes confrontos
 
@@ -203,7 +203,7 @@ Prepare quatro coisas: **o sinal, quando aparece, como o grupo pode responder e 
 
 No exemplo do Sineiro, a ordem é Rina → Sineiro → Mei → Akira. Ele prepara o impacto em seu turno e só pode executá-lo no próprio turno seguinte. Mei, Akira e Rina terão um turno no intervalo. Se o golpe viesse no fim da rodada atual, Rina não teria esse próximo turno. Reações continuam dependendo de gatilhos e recursos.
 
-O Sineiro marca uma área fixa, pode perder a preparação por certas intervenções e fica com Guarda Aberta depois do impacto. Dano sozinho não interrompe essa preparação corporal; Derrubar interrompe, mas não solta automaticamente uma presa. A [ficha completa](../71-sineiro-do-recolhimento.md) diferencia essas respostas, custos e prazos. Seus valores continuam experimentais, e o [ensaio guiado](../73-ensaio-guiado-do-sineiro.md) é um percurso de ensino, não uma sessão observada.
+O Sineiro marca uma área fixa, pode perder a preparação por certas intervenções e fica com Guarda Aberta depois do impacto. Dano sozinho não interrompe essa preparação corporal; Derrubar interrompe, mas não solta automaticamente uma presa. A [ficha completa](<casos/71-sineiro-do-recolhimento.md>) diferencia essas respostas, custos e prazos. Seus valores continuam experimentais, e o [ensaio guiado](<casos/73-ensaio-guiado-do-sineiro.md>) é um percurso de ensino, não uma sessão observada.
 
 ### Fases, condições e partes
 
@@ -213,7 +213,7 @@ Mudar de comportamento não fornece movimento gratuito. Uma transformação que 
 
 O controle que funciona produz seu resultado. Ser chefe não concede saída automática de Agarrado ou imunidade à solução do grupo. Se houver ajuda de aliados ou reforços previstos, prepare sua atuação e chegada desde o início.
 
-Para partes atacáveis, diga se são objetos, criaturas ou alvos de uma regra específica. Defina vida, o que se perde a zero, compartilhamento de dano, área, Alma e aquisição. Um sino descrito no corpo não ganha automaticamente estatísticas próprias. Use a [conferência de chefes](../68-ficha-e-comparacao-de-chefes.md) para aprofundar essas escolhas.
+Para partes atacáveis, diga se são objetos, criaturas ou alvos de uma regra específica. Defina vida, o que se perde a zero, compartilhamento de dano, área, Alma e aquisição. Um sino descrito no corpo não ganha automaticamente estatísticas próprias. Use a [conferência de chefes](<casos/68-ficha-e-comparacao-de-chefes.md>) para aprofundar essas escolhas.
 
 ## 6.7 Perigos do ambiente
 
@@ -240,13 +240,13 @@ Dano de Veneno e condição Envenenado são efeitos distintos. Fogo não aplica 
 
 ### Depois de sair da área
 
-Na [sala de conservação](../79-o-po-na-sala-de-conservacao.md), fechar a alimentação e ligar o exaustor são tarefas separadas. A nuvem leva o prazo preparado para desaparecer. Sair dela evita novas exposições conforme a regra do caso; uma condição recebida conserva sua duração e suas saídas.
+Na [sala de conservação](<casos/79-o-po-na-sala-de-conservacao.md>), fechar a alimentação e ligar o exaustor são tarefas separadas. A nuvem leva o prazo preparado para desaparecer. Sair dela evita novas exposições conforme a regra do caso; uma condição recebida conserva sua duração e suas saídas.
 
 Envenenado é uma condição Pesada: permite o TR de saída no fim do turno, sem ação. Seu prejuízo em ataques e perícias não impõe desvantagem ao próprio TR de Vigor. Curar vida não remove a condição; remover a condição não encerra Morrendo. Se houver Concentração, confira separadamente o teste exigido depois do dano. O ambiente não pausa para o socorro.
 
-Uma doença precisa ainda de transmissão, tempo até os sintomas, sinais, intervalo de avaliação, tratamento e término. Encerrar um sintoma pode deixar a doença ativa; encerrar a doença não recupera automaticamente a vida perdida. A [febre dos fios](../103-a-febre-dos-fios.md) mostra um caso específico, sem criar tabela universal de doenças.
+Uma doença precisa ainda de transmissão, tempo até os sintomas, sinais, intervalo de avaliação, tratamento e término. Encerrar um sintoma pode deixar a doença ativa; encerrar a doença não recupera automaticamente a vida perdida. A [febre dos fios](<casos/103-a-febre-dos-fios.md>) mostra um caso específico, sem criar tabela universal de doenças.
 
-Fora de combate, acompanhe o tempo da história. Use turnos quando ordem, posição ou urgência exigirem precisão. Uma fase ambiental por rodada não ocorre outra vez porque há mais participantes, Reações ou entidades. Para aprofundar gatilhos, condições e atendimento, consulte [Preparar perigos ambientais](../78-preparar-perigos-ambientais.md).
+Fora de combate, acompanhe o tempo da história. Use turnos quando ordem, posição ou urgência exigirem precisão. Uma fase ambiental por rodada não ocorre outra vez porque há mais participantes, Reações ou entidades. Para aprofundar gatilhos, condições e atendimento, consulte [Preparar perigos ambientais](<casos/78-preparar-perigos-ambientais.md>).
 
 ## 6.8 Antes e depois do encontro
 
@@ -256,7 +256,7 @@ A ficha de encontro organiza seis blocos: situação e grupo; cada ameaça; capa
 
 ### Regras e escolhas da missão
 
-Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão; a reserva de PE proposta para Ren é experimental; a conta de Defesa vem das regras. Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.
+Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão; a reserva de PE proposta para Toru é experimental; a conta de Defesa vem das regras. Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.
 
 Depois do encontro, registre duração, recursos gastos, quedas, tempo sem agir, socorro, retirada e objetivo. Confira separadamente: **a oposição terminou, o lugar ficou seguro e todas as pessoas saíram?** Essas respostas podem ser diferentes.
 
@@ -270,4 +270,4 @@ Anote o que veio dos dados, do terreno, das capacidades e das decisões. Uma boa
 
 Para comparar versões, mantenha as demais condições e altere um elemento por vez. Identifique se a evidência foi leitura de regra, conta, percurso com resultados escolhidos ou sessão realmente jogada. Depois de uma mesa, recolha dificuldades concretas: os sinais foram entendidos? Houve oportunidade de responder? Quem ficou sem participar, por quanto tempo e por quê?
 
-O [índice de casos](<../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B2>) leva às fichas, confrontos e perigos completos. Use-o para estudar a dúvida pertinente, sem precisar ler todos os exemplos antes de preparar o próximo encontro.
+O [índice de casos](<../../04 - Planejamento/apoio-conferencia-135/casos-completos.html#B2>) leva às fichas, confrontos e perigos completos. Use-o para estudar a dúvida pertinente, sem precisar ler todos os exemplos antes de preparar o próximo encontro.

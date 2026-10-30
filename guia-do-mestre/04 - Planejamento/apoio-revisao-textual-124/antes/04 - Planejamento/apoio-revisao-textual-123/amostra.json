@@ -1,0 +1,95 @@
+{
+  "registro": 123,
+  "fontes": [
+    {
+      "id": "guardas",
+      "fonte_id": "s101",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+      "fonte_original": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "titulo": "Haru, Vigia e Tessa",
+      "sha256": "327f794e3dc01ae864a6850f858b97b07e6c742b353123607fe39cfe92c5e721",
+      "sha256_original": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2"
+    },
+    {
+      "id": "arquivo",
+      "fonte_id": "s102",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "fonte_original": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "titulo": "Disputa pelo arquivo",
+      "sha256": "58bfc2b0e84c98fcd2df1c9ea13e00d24f3c20c76927f350fca88a5db90c3da0",
+      "sha256_original": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f"
+    },
+    {
+      "id": "po",
+      "fonte_id": "s079",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+      "fonte_original": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "titulo": "O pó na sala de conservação",
+      "sha256": "290e5f7f17866806ab39aa6b1b7d4e24da3bbf226f86b5b15d35c8be941659d5",
+      "sha256_original": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html",
+  "html_sha256": "74f2546dc17499a55dd7122f52ab4cc6f2c7d71ef20719acbbb1ee187e23089a",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-123/output/pdf/Ciclo-Maldito-Grupo-Arquivo-e-Po-Revisao-Textual.pdf",
+  "pdf_sha256": "e55565ca6cfd12794ee9900d6635629b8affe1a38d19e34018b78901fe3e7b95",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 479
+    },
+    {
+      "pagina": 2,
+      "palavras": 639
+    },
+    {
+      "pagina": 3,
+      "palavras": 686
+    },
+    {
+      "pagina": 4,
+      "palavras": 411
+    },
+    {
+      "pagina": 5,
+      "palavras": 252
+    },
+    {
+      "pagina": 6,
+      "palavras": 754
+    },
+    {
+      "pagina": 7,
+      "palavras": 493
+    },
+    {
+      "pagina": 8,
+      "palavras": 731
+    },
+    {
+      "pagina": 9,
+      "palavras": 146
+    },
+    {
+      "pagina": 10,
+      "palavras": 276
+    },
+    {
+      "pagina": 11,
+      "palavras": 588
+    },
+    {
+      "pagina": 12,
+      "palavras": 694
+    },
+    {
+      "pagina": 13,
+      "palavras": 693
+    },
+    {
+      "pagina": 14,
+      "palavras": 148
+    }
+  ],
+  "limite": "Três casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

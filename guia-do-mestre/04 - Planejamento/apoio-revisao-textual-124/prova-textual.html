@@ -1,0 +1,579 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Doença e fichas preenchidas | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'DOENÇA E FICHAS PREENCHIDAS';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}#c09 .colunas p{margin-bottom:5pt}#c09 table th,#c09 table td{padding:3pt 4pt}#c10 .colunas p{margin-bottom:4.5pt}#c10 table th,#c10 table td{padding:3pt 4pt}#c10 .colunas h3{margin:8pt 0 5pt}#c10 .colunas h2{margin:10pt 0 6pt}#c10 .larga th:first-child{width:20%}#c10 .fechamento-exemplo{column-span:all;break-inside:avoid;margin:2pt 0 6pt}}@media print{.larga{column-span:none;break-inside:avoid;margin:8pt 0}.larga.fluida,.larga.fluida table{break-inside:auto}.larga th{white-space:normal}.larga>p{break-after:avoid}.colunas p.conta{break-inside:avoid}.numero-curto{white-space:nowrap}.bloco-mapa{break-inside:avoid;margin:8pt 0}.bloco-mapa figure{margin:0}.bloco-mapa img{display:block;width:100%;height:auto}.mapa-legenda{margin:5pt 0 8pt}#febre,#ficha{break-after:auto}#ficha,#chefe{padding-top:14pt;break-before:auto}.formula{white-space:nowrap}}</style></head><body><nav><a href="#febre">A febre dos fios</a><a href="#ficha">Ficha preenchida: Ren e Sora</a><a href="#chefe">Conferir e comparar um chefe</a><a href="casos-completos.html">Casos por assunto</a><a href="guia-de-consulta.html">Folhas e capítulos</a></nav><p class="aviso-edicao">Prova parcial: lote B2-06. Fontes antigas e edição integrada anterior preservadas.</p><main><article class="folha" id="febre"><header><p class="numero">CONSULTA DO MESTRE</p><h1>A febre dos fios</h1></header><div class="colunas">
+<p><strong>Exemplo experimental de doença fictícia prolongada.</strong> Use com <a href="../apoio-revisao-textual-120/prova-textual.html#perigos">Perigos do ambiente</a>. Este caso acrescenta transmissão, período sem sintomas, acompanhamento, tratamento e término. Não modifica o <a href="../apoio-revisao-textual-123/prova-textual.html#po">pó da sala de conservação</a>, que continua sem contaminação portátil.</p>
+<p>Um casulo de fios amaldiçoados foi encontrado na antiga rouparia de uma escola. Os fios se fixam em tecido vivo e, depois de algumas horas, provocam crises. A equipe precisa isolar a peça, entregar o registro à enfermaria e acompanhar quem teve contato. A escola e seus cuidados podem ser substituídos por um posto da guilda ou um contato numa campanha fechada.</p>
+<p><strong>Ações, testes, dano, Envenenado, socorro e descansos seguem o Livro de Regras 1.0.</strong> Os fios, a forma de transmissão, os intervalos, a CD 14, o dano, o tratamento específico e o término são escolhas deste exemplo. Não são uma regra universal de doenças ou uma descrição de uma doença real.</p>
+<h2 id="febre--informe-antes-do-contato">Informe antes do contato</h2>
+<p>O casulo ocupa uma caixa de 30 cm sobre uma mesa. Fios esbranquiçados aparecem nas bordas; uma etiqueta legível avisa: <strong>“Evite contato com a pele. Crises podem começar seis horas depois. Levar à enfermaria em recipiente fechado.”</strong> O aviso não exige teste. O livro de entrada, sobre outra mesa limpa, descreve o acompanhamento e o tratamento abaixo. Quem o consulta pode obter a ficha completa do perigo, sem precisar conhecer a obra.</p>
+<p>Há na sala uma pinça longa, uma caixa rígida com tampa e luvas íntegras. Mover o casulo com esses meios, sem contato direto com a pele, evita a exposição. O conjunto pronto pesa <strong>1 Volume</strong>, incluindo o casulo; quem transporta registra esse Volume em sua carga. Colocá-lo na caixa e fechá-la exige uma Padrão com duas mãos disponíveis, sem teste nas condições apresentadas. A pinça permite manter o corpo afastado. Não há nuvem, ataque do casulo ou relógio secreto enquanto se observa a sala.</p>
+</div><div class="larga fluida"><h2 id="febre--transmissao-e-evolucao">Transmissão e evolução</h2><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Como funciona neste exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quem pode desenvolver a doença</td>
+<td>Humanos e outros corpos de tecido vivo compatível definidos na preparação. Corpos construídos e maldições não a desenvolvem neste caso. Isso não lhes concede imunidade geral a doença ou Veneno.</td>
+</tr>
+<tr>
+<td>Contato capaz de transmitir</td>
+<td>Pele exposta tocando o casulo ou seus fios ainda ligados a ele. Respirar perto, olhar, tocar a caixa fechada ou tocar uma pessoa afetada não transmite.</td>
+</tr>
+<tr>
+<td>Exposição</td>
+<td>Ao primeiro contato de uma aproximação, TR de Vigor CD 14. Sucesso evita a fixação; falha fixa os fios no corpo e inicia a contagem do tempo. Contato contínuo não exige testes por segundo. Depois de afastar o corpo do casulo e encerrar o contato, tocá-lo novamente é nova exposição, se ainda não estiver afetado.</td>
+</tr>
+<tr>
+<td>Nova exposição de quem já está afetado</td>
+<td>Não empilha doença, dano ou prazo. A entrada já registrada continua.</td>
+</tr>
+<tr>
+<td>Incubação</td>
+<td>Seis horas a partir do contato que falhou. Até lá não há dano, condição, redução de PE ou impedimento de descanso. Fios finos visíveis no ponto de contato permitem reconhecer a fixação.</td>
+</tr>
+<tr>
+<td>Crises</td>
+<td>A primeira acontece seis horas depois do contato; as seguintes, a cada seis horas. Faça um TR de Vigor CD 14 por crise. Sucesso evita todo o efeito daquela crise e conta para o término natural. Falha causa <strong>2d6 de Veneno</strong> e aplica <strong>Envenenado</strong>, independentemente de o dano atravessar as proteções.</td>
+</tr>
+<tr>
+<td>Duração de cada Envenenado</td>
+<td>No máximo dez rodadas a partir da aplicação; permite TR de Vigor CD 14 no fim de cada turno, sem ação, para terminar antes. Um efeito que remova a condição também encerra essa aplicação.</td>
+</tr>
+<tr>
+<td>Término natural</td>
+<td>Dois sucessos consecutivos nos TRs das crises encerram a doença. Uma falha zera essa sequência. Ela também termina <strong>48 horas após o contato</strong>, antes de resolver uma crise nesse horário.</td>
+</tr>
+<tr>
+<td>Tratamento específico</td>
+<td>Duas horas de atendimento com o conjunto disponível na enfermaria e Medicina CD 14 ao concluir. Sucesso remove os fios, encerra a doença e o Envenenado desta fonte; falha conserva o estado anterior, sem dano extra.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p><strong>Esta doença não passa de uma pessoa para outra.</strong> Roupas e objetos retirados do casulo não se tornam reservatórios ocultos; fios que se separam dele e não se fixaram num corpo perdem essa capacidade. Pacientes podem receber ajuda sem contaminar quem cuida. Não acrescente uma epidemia depois de o grupo aceitar transportar alguém.</p>
+<p>Ao preparar outra doença, você pode escolher transmissão diferente. Nesse caso, informe quais contatos contam, quem transmite e por quanto tempo. O importante é o grupo poder decidir com essa informação.</p>
+<h2 id="febre--resolva-cada-crise">Resolva cada crise</h2>
+<p>Envenenado dá desvantagem em ataques e perícias. <strong>Não dá desvantagem no TR de Vigor</strong> que o aplica ou encerra, nem causa dano contínuo por si. A doença causa os 2d6 somente quando falha o TR de uma crise marcada.</p>
+<p>Resistência a Veneno reduz o dano; imunidade ao dano não impede Envenenado. Imunidade à condição não impede o dano. Neste caso, imunidade a doenças que alcance esta doença fictícia impede a fixação; uma proteção específica continua dependendo do seu texto. O mero nome “veneno” não transforma todo recurso antiveneno em cura da causa.</p>
+<p>Cura de PV resolve ferimentos e pode contribuir para Socorro, mas não remove os fios. Remover Envenenado encerra a aplicação presente, sem apagar a próxima crise. Se uma capacidade disser que cura a doença, use essa permissão; este exemplo não exige a enfermaria contra uma solução sobrenatural compatível.</p>
+<p>Se estiver fora de iniciativa, organize turnos apenas quando as ações da crise precisarem ser resolvidas, inclusive para as tentativas gratuitas de saída de Envenenado. Não cobre testes a cada segundo real nem enquanto ninguém está jogando. A aplicação termina no sucesso ou no máximo de dez rodadas; registre esse fim e volte ao acompanhamento por horas.</p>
+<p>Quem receber dano positivo enquanto mantém Concentração faz depois o TR próprio de Vigor CD 14, a CD preparada para esse perigo sem autor. Dano zerado não exige esse teste; absorção por vida temporária não o dispensa. Se chegar a zero de vida, organize a janela de Socorro do Livro de Regras 1.0. A janela de socorro conta em rodadas; a próxima crise, horas depois, não muda esse prazo. O evento que provocou a queda não desconta uma rodada adicional pelo excesso.</p>
+<h2 id="febre--tratar-a-doenca-e-isolar-o-casulo">Tratar a doença e isolar o casulo</h2>
+<p>A enfermaria fica a <strong>uma hora de percurso seguro</strong> da rouparia e oferece o conjunto e atendimento, sem custo para esta missão. O tratamento remove os fios pelo método próprio daquele conjunto; não concede a Medicina a capacidade de curar qualquer maldição. É possível tratar desde a incubação, sem esperar a primeira crise.</p>
+<p>Para o trabalho, o paciente fica num lugar protegido, disponível ao atendimento. Não pode operar equipamentos ou realizar treino ao mesmo tempo. O profissional dedica duas horas; o tempo de espera e de cuidado não consome, por si, horas de dedicação do paciente. Se o profissional for uma ficha participante, registre suas duas horas de trabalho quando usar a dedicação da guilda.</p>
+<p>Uma interrupção pausa o atendimento, e as horas já feitas continuam valendo; a doença e suas crises continuam no calendário. Ao concluir, o profissional rola Medicina CD 14. O caso permite teste sem treino se houver o conjunto e suas instruções; treino e outras capacidades usam seus modificadores normais. Ajuda exige participação e meios reais, sem multiplicar curas por observadores.</p>
+<p>Falhar não remove o conjunto nem causa efeito adicional. Outra tentativa exige <strong>mais duas horas de trabalho</strong>, depois de aguardar <strong>seis horas contadas da conclusão da tentativa anterior</strong>. Trocar o profissional não elimina essa espera do paciente. A espera é parte deste tratamento e está no livro de entrada; não é uma penalidade improvisada após a falha. Se a doença terminar antes, dispense a nova tentativa.</p>
+<p>A caixa fechada impede o contato com a fonte, mas não trata um paciente já afetado. Na enfermaria, um responsável pode manter o casulo isolado e neutralizá-lo com o mesmo conjunto durante <strong>duas horas</strong>, sem teste nas condições seguras descritas. Isso encerra a fonte. O atendimento de uma pessoa e a neutralização são trabalhos separados; um profissional não faz os dois simultaneamente. Destruir a fonte não desfaz os fios já fixados em alguém.</p>
+</div><div class="larga fluida"><h2 id="febre--exemplo-do-contato-a-recuperacao">Exemplo: do contato à recuperação</h2><p>Este registro usa resultados escolhidos para demonstrar a regra. Rina, humana com <strong>40 PV máximos e atuais</strong>, Vigor +3 e nenhuma Sequela, não possui proteção aplicável. Aqui ela é uma personagem genérica, não o perfil usado nos confrontos. A situação é fictícia; o dia 1 não corresponde a uma data real de missão.</p><table>
+<thead>
+<tr>
+<th>Horário</th>
+<th>Acontecimento e estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dia 1, 08h</td>
+<td>Rina toca o casulo sem luva. Tira 8 + 3 = 11: falha em CD 14. Registra início às 08h, primeira crise às 14h, término máximo no dia 3 às 08h.</td>
+</tr>
+<tr>
+<td>Dia 1, 08h10</td>
+<td>A equipe usa pinça e caixa. O casulo fica contido, sem exposição nova. Rina continua afetada.</td>
+</tr>
+<tr>
+<td>Dia 1, 14h</td>
+<td>Na primeira crise, tira 7 + 3 = 10. Os d6 mostram 3 e 4: perde 7 PV, ficando com 33, e recebe Envenenado. Não havia Concentração ou vida temporária.</td>
+</tr>
+<tr>
+<td>Fim do primeiro turno organizado após a crise</td>
+<td>Rina tira 12 + 3 = 15 e encerra Envenenado. Mantém 33 PV; a doença continua, com próxima crise às 20h.</td>
+</tr>
+<tr>
+<td>Dia 1, 15h–17h</td>
+<td>Já na enfermaria, um profissional com Medicina +5 conclui duas horas de atendimento. Tira 6 + 5 = 11: falha. Não causa dano extra. Nova tentativa só pode começar às 23h.</td>
+</tr>
+<tr>
+<td>Dia 1, 20h</td>
+<td>Rina tira 13 + 3 = 16. Evita dano e condição; registra o primeiro sucesso consecutivo.</td>
+</tr>
+<tr>
+<td>Dia 1, 23h até dia 2, 01h</td>
+<td>A segunda tentativa consome mais duas horas. Resultado 10 + 5 = 15: sucesso. A doença termina às 01h. Não há teste às 02h, que seria a próxima crise.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Rina termina este exemplo com <strong>33 PV</strong>, sem doença, Envenenado ou Sequela; o exemplo não incluiu cura ou descanso entre os horários. O profissional dedicou <strong>quatro horas</strong>, e a espera entre tentativas foi de seis horas. Uma cura ou um descanso válidos durante a continuidade usariam suas regras e mudariam as reservas; não os apague para conservar a tabela.</p>
+<p class="conta"><strong>Sem a segunda tentativa:</strong> se Rina obtivesse sucesso também na crise das 02h do dia 2, completaria dois sucessos consecutivos e encerraria a doença ali. Se falhasse, receberia os efeitos e voltaria a zero sucessos consecutivos. Ainda haveria o término máximo no dia 3 às 08h, antes de uma crise naquele ponto. O término da doença encerra também qualquer Envenenado desta fonte ainda vigente, mas não devolve PV perdidos ou socorre automaticamente uma queda.</p>
+<h2 id="febre--acompanhar-a-doenca-entre-missoes">Acompanhar a doença entre missões</h2>
+<p>Registre horário de contato, próxima crise, sucessos consecutivos, prazo máximo, condições ativas, reservas e trabalho já realizado. Na guilda, o calendário acompanha aproximadamente os dias reais, mas a doença e seu tratamento são resolvidos na história. Combine com quem acompanha a ficha como resolver os horários que passam entre sessões; use somente o tempo efetivamente avançado na história.</p>
+<p>Se for preciso resolver várias crises depois, faça-as em ordem, conservando tratamentos, descansos e decisões já registrados. Ao surgir uma escolha de proteção, socorro ou atendimento que ainda não foi feita, pare nesse ponto para resolvê-la com a pessoa. Não acumule uma morte fora de cena por silêncio no chat nem invente ações retroativas do personagem. Esse acompanhamento não muda a quantidade de horas de dedicação recebidas pela ficha.</p>
+<p>Descanso longo continua dependendo de a missão terminar e de poder parar de trabalhar; não equivale automaticamente a dormir seis horas. A doença não acrescenta Exaustão nem proíbe por si os descansos. Recuperar vida pelo descanso não cura sua causa sem uma permissão específica.</p>
+<p>Na troca de mestre, entregue as regras da doença e o registro preenchido. O próximo responsável precisa saber <strong>o que falta para terminar</strong>, sem reconstruir o perigo a partir do nome da doença.</p></div></article><article class="folha" id="ficha"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Ficha preenchida: Ren e Sora</h1></header><div class="colunas">
+<p>Este exemplo preenche os seis blocos da <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha de inimigo e encontro</a>. Mostra como reunir o preparo sem transcrever todas as regras. Mantenha disponíveis as <a href="../apoio-revisao-textual-122/prova-textual.html#dupla">fichas completas da dupla</a> e o <a href="../apoio-revisao-textual-122/prova-textual.html#confronto">confronto comentado</a>: elas continuam sendo as referências de capacidades e do percurso.</p>
+<p><strong>Exemplo experimental de nível 6.</strong> Os dados foram escolhidos para explicar o encontro; não representam uma sessão jogada nem definem sua dificuldade.</p>
+<h2 id="ficha--1-situacao-e-grupo">1. Situação e grupo</h2>
+<p><strong>Missão:</strong> recuperar o estojo de documentos. O grupo quer obtê-lo e encerrar a oposição à retirada. Ren e Sora foram contratados para impedir isso; conhecem suas próprias capacidades e respondem ao que percebem. Não sabem antecipadamente as decisões do grupo.</p>
+<p><strong>Saídas:</strong> negociação plausível, derrota ou retirada dos adversários podem terminar a oposição. Se a equipe abandonar a tentativa sem recuperar o estojo, o objetivo continua pendente. Não há contagem de agravamento, civis escondidos ou reforços previstos. Cruzar a porta não torna ninguém inalcançável.</p>
+<p><strong>Personagens do exemplo:</strong> perfis de Rina, Mei e Akira apresentados no <a href="../apoio-revisao-textual-122/prova-textual.html#ensaio">ensaio do Sineiro</a>, com a aplicação ofensiva de Akira registrada antes deste confronto na consulta <a href="../apoio-revisao-textual-122/prova-textual.html#confronto">Escolher quem enfrentar primeiro</a>. Não há invocações ou outros participantes presumidos.</p>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Participante</th>
+<th style="text-align: right;">Nível</th>
+<th>PV atuais/máximos</th>
+<th>Integridade atual/máxima</th>
+<th>PE atuais/máximos</th>
+<th>Preparo inicial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rina</td>
+<td class="numero-curto" style="text-align: right;">6</td>
+<td class="numero-curto">65/65</td>
+<td class="numero-curto">50/50</td>
+<td class="numero-curto">24/24</td>
+<td>Sem Sequelas; Alicerce preparado para Cortante e Concussão no descanso anterior.</td>
+</tr>
+<tr>
+<td>Mei</td>
+<td class="numero-curto" style="text-align: right;">6</td>
+<td class="numero-curto">44/44</td>
+<td class="numero-curto">55/55</td>
+<td class="numero-curto">36/36</td>
+<td>Sem Sequelas; Arremesso de pressão e sua opção de Remodelar.</td>
+</tr>
+<tr>
+<td>Akira</td>
+<td class="numero-curto" style="text-align: right;">6</td>
+<td class="numero-curto">51/51</td>
+<td class="numero-curto">65/65</td>
+<td class="numero-curto">30/30</td>
+<td>Sem Sequelas; Sutura, aberturas e Corte de sutura conhecido.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p>Os três têm visão livre no recinto. Rina atua com espada próxima e proteção de Olhos Em Mim; Mei alcança 18 m com Arremesso; Akira alcança 18 m com Corte e 9 m com Sutura. Movimento, alcance de proteção, mãos, ações e custos conservam os textos completos. A presença do socorrista não garante atendimento imediato em qualquer posição. Nenhum começa com benefício temporário ou ação preparada.</p>
+</div><div class="larga fluida"><h2 id="ficha--2-construcao-ou-escolha-das-ameacas">2. Construção ou escolha das ameaças</h2><p><strong>Referência:</strong> conservar integralmente as fichas da consulta <a href="../apoio-revisao-textual-122/prova-textual.html#dupla">Ren e Sora: atacante e apoio</a>. Há um exemplar de cada; reservas e iniciativas são independentes.</p><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Ren</th>
+<th>Sora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Função</td>
+<td>Atacante que protege a aproximação até Sora.</td>
+<td>Apoio que favorece Ren ou repara ferimentos.</td>
+</tr>
+<tr>
+<td>Corpo</td>
+<td>Humano Médio, com alma, duas mãos, 72 kg.</td>
+<td>Humana Média, com alma, duas mãos, 60 kg.</td>
+</tr>
+<tr>
+<td>Percepção</td>
+<td>Visão, audição, fala e sentidos de energia pelo Livro de Regras 1.0.</td>
+<td>Os mesmos tipos de sentido.</td>
+</tr>
+<tr>
+<td>Nível / Maestria / Refino / Classe máxima</td>
+<td class="numero-curto">6 / 1 / 2 / 2.</td>
+<td class="numero-curto">6 / 1 / 2 / 2.</td>
+</tr>
+<tr>
+<td>Força / Destreza / Constituição / Inteligência / Essência</td>
+<td class="numero-curto">4 / 2 / 3 / 1 / 1.</td>
+<td class="numero-curto">0 / 2 / 3 / 2 / 4.</td>
+</tr>
+<tr>
+<td>Reservas iniciais</td>
+<td>72 PV; 36 de Integridade; 8/8 PE.</td>
+<td>48 PV; 24 de Integridade; 12/12 PE.</td>
+</tr>
+<tr>
+<td>Defesa / Bloquear / movimento</td>
+<td>13 / 2d10 + 2 / 9 m.</td>
+<td>13 / 2d10 + 2 / 9 m.</td>
+</tr>
+<tr>
+<td>TRs: Físico / Vigor / Intelecto / Espírito</td>
+<td>+5 / +4 / +1 / +1; Físico e Vigor treinados.</td>
+<td>+3 / +3 / +2 / +5; Físico e Espírito treinados.</td>
+</tr>
+<tr>
+<td>Carga normal / arrasto máximo</td>
+<td>9 / 18 Volume.</td>
+<td>5 / 10 Volume.</td>
+</tr>
+<tr>
+<td>Equipamento</td>
+<td>Espada Longa em uma mão, 1 Volume; Traje 1, 0,3.</td>
+<td>Traje 1, 0,3 Volume; estojo, 1 Volume, na mão esquerda.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Perícias e demais requisitos estão identificados na ficha completa. Não acrescente treino, Caminho, Trilha, Origem, Domínio ou resistência por serem personagens de nível 6. A Defesa de ambos resulta de 10 + Destreza 2 + Traje 1. Seus totais de vida e PE são parâmetros inimigos propostos; Integridade, ataque, Defesa e montagem das capacidades seguem as regras do Livro de Regras 1.0.</p>
+<p><strong>Atuação:</strong> cada um tem Padrão, Movimento, Bônus e Reação comuns e um ataque em Atacar. Ren escolhe entre espada e Fenda em marcha na sua Padrão. Sora escolhe entre Fio de impulso, Remendo ou outra ação válida. Ambos podem gastar a própria Reação e 2 PE em Cobrir-se para reduzir 3 de dano. A mesma reserva paga feitiços e proteção; nenhuma dessas capacidades concede outra Padrão.</p>
+<p><strong>Prioridades:</strong> Ren prefere a espada quando há um alvo útil próximo; Fenda oferece alcance e reposicionamento. Sora prefere Remendo em quem estiver ativo, com PV positivos até metade da máxima; entre os dois, prioriza a menor proporção de vida e a si em empate. Sem esse ferimento, favorece Ren com Fio. Alcance, ação e energia precisam permitir a escolha.</p>
+<p><strong>Retirada:</strong> se Sora cair ou perderem o estojo, Ren tenta negociar ou fugir com suas ações. Se Ren cair, Sora procura negociar ou sair com os documentos. Ao mudar de conduta, conservam recursos e efeitos.</p>
+<p><strong>Derrota e aquisição:</strong> a zero de PV ou Integridade, param de atuar. O desfecho preparado é incapacitação, com inconsciência e queda dos objetos segurados. Não há Insistir de jogador ou reentrada automática por Remendo. Como não são maldições, não podem ser domados. A cena posterior ainda precisa resolver atendimento e custódia.</p>
+</div><div class="larga fluida"><h2 id="ficha--3-capacidade-conferida-fio-de-impulso">3. Capacidade conferida: Fio de impulso</h2><p>Todas as capacidades já estão completas na consulta <a href="../apoio-revisao-textual-122/prova-textual.html#dupla">Ren e Sora: atacante e apoio</a>. Aqui se preenche apenas Fio, para mostrar como registrar uma aplicação que exige conferir efeitos com durações diferentes.</p><table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Preenchimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identificação e origem</td>
+<td>Feitiço de Sora, Classe 1, dependente de sua Técnica Inata. Montagem feita com Fundamento, Amparo e Auxiliares do Livro de Regras 1.0.</td>
+</tr>
+<tr>
+<td>Uso</td>
+<td>Padrão; palavra audível e gesto da mão direita. Um aliado disposto, visível, até 9 m; Sora pode escolher a si. O estojo ocupa a esquerda.</td>
+</tr>
+<tr>
+<td>Resolução</td>
+<td>Benefício automático, sem ataque, crítico ou TR. Impulso concede vantagem no próximo ataque até o fim do próximo turno do beneficiário; a tentativa o consome. Também concede 3 PV temporários.</td>
+</tr>
+<tr>
+<td>Pagamento e limite</td>
+<td>3 PE por aplicação, sem usos ou recarga separados. Base Leve de vida temporária individual: 1 ponto; Impulso: 1; saldo: 1 ponto para 3 PV temporários. A Padrão e a energia disputam cura e proteção.</td>
+</tr>
+<tr>
+<td>Duração</td>
+<td>Impulso e vida temporária são independentes. A reserva restante dura até o fim da cena; não se soma a outra, conserva a maior e respeita o teto do Livro de Regras 1.0. Sem Concentração ou manutenção.</td>
+</tr>
+<tr>
+<td>Sinal e resposta</td>
+<td>Palavra, gesto e fios de energia. O grupo pode disputar posição e impedir aplicações futuras por meios válidos. O sinal durante a conjuração não concede interrupção gratuita.</td>
+</tr>
+<tr>
+<td>Integridade</td>
+<td>No estágio 2, Fio passa a 4 PE; no estágio 3 continua dentro da Classe máxima 1, com as demais penalidades cumulativas.</td>
+</tr>
+<tr>
+<td>Informação e término</td>
+<td>Leitura de Reservas consulta PE reais quando seus requisitos forem atendidos. Afastar Ren depois da aplicação ou incapacitar Sora não apaga o que já foi concedido: seguir os prazos de cada benefício.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p class="conta"><strong>Falha ou impedimento:</strong> sem alvo ou requisitos válidos, não há aplicação legal. Um ataque posterior de Ren que erre consome Impulso e não devolve o pagamento de Sora. Impedir outra conjuração não desfaz esse gasto nem a vida temporária restante. Não há dano ou vantagem em TR acrescentados pelo nome do feitiço.</p>
+</div><div class="larga fluida"><h2 id="ficha--4-lugar-sinais-e-mudancas">4. Lugar, sinais e mudanças</h2><p><strong>Mapa:</strong> recinto de 12 × 18 m, células de 1,5 m, colunas A–H e linhas internas 1–12; porta aberta entre C e F na face sul. Linha 0 e linhas negativas ficam fora. Piso regular e visão livre; sem cobertura, armadilha ou perigo ambiental recorrente. A consulta <a href="../apoio-revisao-textual-122/prova-textual.html#confronto">Escolher quem enfrentar primeiro</a> mostra os percursos completos.</p><table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Posição inicial</th>
+<th>Sinal</th>
+<th>Consequência e intervenção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grupo</td>
+<td>Rina C0; Mei D0; Akira F0.</td>
+<td>Entrada e oposição visíveis.</td>
+<td>Aproximar, conversar ou retirar-se com as ações disponíveis.</td>
+</tr>
+<tr>
+<td>Ren</td>
+<td>D5.</td>
+<td>Espada e posição entre o grupo e Sora.</td>
+<td>Pressão próxima; disputa de ações entre dano, contenção e retirada.</td>
+</tr>
+<tr>
+<td>Sora e objetivo</td>
+<td>F8; estojo na mão esquerda.</td>
+<td>Estojo e, ao conjurar, palavra, gesto e fios.</td>
+<td>Apoio a até 9 m; afastamento anterior à próxima aplicação pode exigir reposicionamento.</td>
+</tr>
+<tr>
+<td>Porta e estojo solto</td>
+<td>Porta C–F; estojo conforme a posição da portadora.</td>
+<td>Acesso aberto; queda do objeto quando ocorrer.</td>
+<td>Saída não encerra alcance automaticamente. Objeto solto ao alcance permite interação simples; objeto segurado exige resolver a disputa.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p><strong>Fases, partes e reforços:</strong> não se aplicam neste encontro. A queda de um aliado muda prioridades e a disponibilidade das próximas ações; não renova recursos nem inicia uma fase adicional. O estojo é um objeto da missão, sem cobertura ou capacidade de combate própria.</p>
+<p><strong>Transporte e atendimento:</strong> precisam considerar o corpo de Sora, o portador dos documentos e o trajeto de saída. O percurso termina antes dessas providências; não se concede transporte ou tratamento gratuito por terem cessado os ataques.</p>
+<h2 id="ficha--5-antes-de-jogar">5. Antes de jogar</h2>
+<p>Os textos das capacidades, o mapa e os estados estão disponíveis. A comparação considera duas iniciativas inimigas, os custos concorrentes e a perda de pressão quando um deles cai. Não usa a soma de 120 PV como equivalência a um chefe de 108 PV.</p>
+<p><strong>Questões conferidas:</strong> cura ocupa a Padrão que daria apoio; Cobrir-se compete por PE; Impulso não concede ataque extra; a reação de cada pessoa volta no início do próprio turno; afastar Sora interfere em aplicações futuras sem apagar benefícios já entregues. As penalidades de Integridade e o destino a zero estão escritos, mesmo sem redução de Integridade no percurso escolhido.</p>
+<p><strong>Sequência estudada:</strong> apoio inicial, pressão sobre Sora, reposicionamento e autocura, nova concentração de ataques, derrota do apoio e retirada de Ren. O <a href="../apoio-revisao-textual-122/prova-textual.html#confronto">confronto comentado</a> também compara a hipótese de concentrar os dois ataques seguintes em Ren. Essa comparação é condicionada a um estado específico: não é chance de vitória de toda a missão.</p>
+<p><strong>Risco principal:</strong> a defesa de Rina foi preparada contra os dois tipos de dano usados por Ren. O mesmo percurso não representa um grupo sem essa proteção, outro mapa ou outra ordem de iniciativa. Reavalie essas condições antes de reutilizar a cena.</p>
+<p><strong>Verificação realizada:</strong> conferência documental, enumeração restrita de ataques e prioridades e reprodução de estados do percurso, documentadas no <a href="../76-dupla-de-nivel-6-e-composicao.md">registro 76</a>. Não há sessão humana, motor integral de combate ou validação para outros níveis.</p>
+</div><div class="larga fluida"><h2 id="ficha--6-resultado-e-continuidade">6. Resultado e continuidade</h2><p><strong>Aplicação registrada:</strong> ensaio escrito com dados escolhidos. Iniciativa: Sora 18 → Rina 16 → Ren 14 → Mei 12 → Akira 10. A oposição termina durante a terceira rodada porque Ren se retira e o grupo escolhe não persegui-lo. Não foi derrotado por cruzar a porta.</p><table>
+<thead>
+<tr>
+<th>Participante</th>
+<th>PV ao fim</th>
+<th>Integridade ao fim</th>
+<th>PE ao fim</th>
+<th>Posição e estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rina</td>
+<td class="numero-curto">52/65</td>
+<td class="numero-curto">50/50</td>
+<td class="numero-curto">24/24</td>
+<td>E6; ativa.</td>
+</tr>
+<tr>
+<td>Mei</td>
+<td class="numero-curto">44/44</td>
+<td class="numero-curto">55/55</td>
+<td class="numero-curto">24/36</td>
+<td>D4; ativa.</td>
+</tr>
+<tr>
+<td>Akira</td>
+<td class="numero-curto">51/51</td>
+<td class="numero-curto">65/65</td>
+<td class="numero-curto">16/30</td>
+<td>G12; ativo, com o estojo.</td>
+</tr>
+<tr>
+<td>Ren</td>
+<td class="numero-curto">46/72</td>
+<td class="numero-curto">36/36</td>
+<td class="numero-curto">1/8</td>
+<td>F−1; retirou-se, ainda pode ser alcançado.</td>
+</tr>
+<tr>
+<td>Sora</td>
+<td class="numero-curto">0/48</td>
+<td class="numero-curto">24/24</td>
+<td class="numero-curto">1/12</td>
+<td>H12; incapacitada e sem o estojo.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Não houve queda de personagem jogador, Insistir, Sequela, Kokusen ou perda de Integridade neste percurso. O grupo gastou 26 PE e a dupla, 18. Os benefícios temporários concedidos foram consumidos antes do encerramento.</p>
+<p><strong>Ainda por resolver:</strong> saída efetiva da equipe, atendimento e destino de Sora, transporte caso decidam levá-la, entrega dos documentos e eventual reencontro com Ren. Registre o estado dos efeitos ainda em curso — incluindo Olhos Em Mim enquanto durar a cena — antes de passar a condução a outro mestre.</p>
+<p><strong>Revisão futura:</strong> recolher dúvidas de leitura e escolhas observadas em mesa; comparar outro grupo ou posição sem alterar ao mesmo tempo toda a ficha. O resultado escrito permite acompanhar as regras, mas não prevê a experiência de cada mesa.</p></div></article><article class="folha" id="chefe"><header><p class="numero">CONSULTA DO MESTRE</p><h1>Conferir e comparar um chefe</h1></header><div class="colunas">
+<p><strong>Aprofundamento opcional para um confronto importante.</strong> Use <a href="../apoio-revisao-textual-119/prova-textual.html#chefes">Preparar chefes e confrontos maiores</a> e registre o encontro na <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s058">ficha única</a>. Os casos abaixo ajudam a conferir uma alteração sem repetir objetivo, grupo e ficha em outro formulário. Não fornecem uma tabela de dificuldade ou permissões mecânicas adicionais.</p>
+</div><div class="larga fluida"><h2 id="chefe--o-que-acrescentar-a-conferencia">O que acrescentar à conferência</h2><table>
+<thead>
+<tr>
+<th>Quando isso fizer parte da proposta</th>
+<th>O que conferir e registrar na ficha única</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ação fora do turno ou atuação adicional</td>
+<td>Que problema resolve? O que gasta, quando ocorre e com quais ações compete? É ataque, ação delimitada ou turno inteiro? Blocos 2, 3 e 5.</td>
+</tr>
+<tr>
+<td>Ataque anunciado</td>
+<td>Quem recebe turno entre sinal e consequência? Que posição ou recurso cada resposta exige? Blocos 3 e 4.</td>
+</tr>
+<tr>
+<td>Fase ou transformação</td>
+<td>Gatilho, momento, reservas, condições e preparos preservados; destino do dano excedente, se a regra interferir na derrota. Blocos 2 e 4.</td>
+</tr>
+<tr>
+<td>Partes atacáveis ou aliados</td>
+<td>Natureza de cada alvo, ações, compartilhamento de dano, interações de área e Alma, perda de atuação e chegada de reforços. Blocos 2 e 4.</td>
+</tr>
+<tr>
+<td>Comparação entre versões</td>
+<td>Qual única alteração está sendo estudada? O que ficou constante e qual evidência sustenta a revisão? Blocos 5 e 6.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p>Uma linha que diga apenas “chefe age duas vezes” ainda está incompleta. Dois ataques na mesma ação, duas ações delimitadas e dois turnos completos produzem resultados diferentes.</p>
+<h2 id="chefe--aplicacao-o-que-falta-ao-carregador">Aplicação: o que falta ao Carregador?</h2>
+<p>O <a href="../apoio-revisao-textual-120/prova-textual.html#doma">Carregador</a> serve aqui como referência conhecida. <strong>Não foi promovido a chefe nem recebeu uma ficha ampliada.</strong> A comparação ensina a reconhecer o trabalho de cada recurso antes de construir essa ampliação.</p>
+<p class="conta"><strong>Base:</strong> um Carregador, 32 PV, 16 Integridade, 0 PE, deslocamento 9 m e um ataque na Ação Atacar. Agarrar substitui esse ataque. Os três personagens servem só para contar turnos; suas fichas completas não foram simuladas. O objetivo permanece retirar os registros e todos os integrantes. O inimigo protege a caixa, tenta conduzir quem a disputa ao recuo e procura se retirar com 8 PV ou menos.</p>
+<p>Comece pelo <a href="../apoio-revisao-textual-120/prova-textual.html#corredor">encontro original</a>. Para examinar o portão, use a <a href="../apoio-revisao-textual-121/prova-textual.html#combinar">comparação de cenários</a>: original, novo mapa com motor desligado e novo mapa com motor ativo. Assim é possível separar a influência do corredor novo daquela produzida pelo fechamento.</p>
+</div><div class="larga fluida"><table>
+<thead>
+<tr>
+<th>Configuração</th>
+<th>Atuação e pressão</th>
+<th>O que ela permite estudar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Um Carregador no encontro original</td>
+<td>Uma Padrão inimiga por rodada completa, além dos outros recursos da ficha.</td>
+<td>Quanto acesso, agarrão, arrasto e objetivo já produzem.</td>
+</tr>
+<tr>
+<td>Mesmo corpo no mapa do portão, motor desligado</td>
+<td>Mesmas ações; o serviço já oferece outro percurso.</td>
+<td>Mudança de espaço sem prazo de fechamento.</td>
+</tr>
+<tr>
+<td>Mesmo mapa com motor ativo</td>
+<td>Mesmas ações; um avanço do mecanismo no fim de cada rodada, conforme <a href="../apoio-revisao-textual-121/prova-textual.html#portao">o funcionamento do portão</a>.</td>
+<td>Tarefas concorrentes, saída e transporte. O avanço não é uma ação do inimigo.</td>
+</tr>
+<tr>
+<td>Mesmo encontro original com dois Carregadores</td>
+<td>Duas Padrões inimigas em turnos distintos; duas fichas independentes.</td>
+<td>Distribuição de alvos, acesso e perda de atuação quando um corpo é neutralizado. É uma composição hipotética, sem recomendação de dificuldade.</td>
+</tr>
+<tr>
+<td>Um Carregador usando Preparar</td>
+<td>Investe sua Padrão e responde depois com Reação.</td>
+<td>Atuação fora do turno obtida com recursos existentes.</td>
+</tr>
+<tr>
+<td>Um corpo com ação adicional ou novo turno</td>
+<td>Depende de uma capacidade ainda não construída.</td>
+<td>O que justificaria a exceção e quais interações ela teria. Não usar esta linha como regra pronta.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p>Os dois corpos somam 64 PV e 32 Integridade apenas como soma dos valores individuais. Não têm uma reserva conjunta. Contra eles, a escolha de alvo e a derrota de cada corpo importam. Um só corpo com 64 PV, 32 Integridade e dois turnos não é uma conversão equivalente: seria outra ficha, com outras interações e possibilidades de Doma.</p>
+<h2 id="chefe--uma-resposta-fora-do-turno-ja-possivel">Uma resposta fora do turno já possível</h2>
+<p>Este exemplo muda a escolha de comportamento, conservando a ficha. Use o <a href="../apoio-revisao-textual-121/prova-textual.html#portao">mapa do portão</a> e a ordem ilustrativa <strong>Rina → Carregador → Mei → Akira</strong>. O Carregador está em C, sem segurar ninguém; o comando está em P, a 6 m por corredor regular e visível a partir de C. Mei começa em A. Não há obstáculo adicional nesse percurso nem personagem ameaçando o trajeto do Carregador neste exemplo.</p></div><div class="bloco-mapa"><figure><img alt="Saída curta e corredor de serviço: A pátio, G portão, C área de trabalho, P parada e Q; trechos de 3 e 6 m." src="imagens/portao.svg"/></figure></div><div class="colunas">
+</div><div class="larga fluida"><table>
+<thead>
+<tr>
+<th>Momento</th>
+<th>Declaração e consequência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Turno do Carregador</td>
+<td>Ele observa o comando e usa <strong>Padrão para Preparar deslocamento</strong>, com este gatilho: quando perceber o clique da parada, aproximar-se pelo corredor de quem a operou. Descreva sua atenção ao comando e sua postura de espera. Ele não usa essa mesma Padrão para Agarrar ou golpear.</td>
+</tr>
+<tr>
+<td>Turno de Mei</td>
+<td>Usa Movimento de 9 m e Bônus convertida em Movimento de 9 m. Percorre os 12 m de A até P e usa Padrão para acionar a parada, com mão livre. O motor para na posição atual.</td>
+</tr>
+<tr>
+<td>Depois da operação</td>
+<td>O clique perceptível dispara a preparação. Com Reação disponível, o Carregador pode gastá-la para se deslocar até 9 m. O caminho de C até P exige 6 m; a aproximação pode terminar em espaço livre a até 1,5 m de Mei. Não há ataque incluído.</td>
+</tr>
+<tr>
+<td>Restante do turno de Mei</td>
+<td>Ela ainda dispõe dos 6 m não gastos de seu movimento. Antes de usá-los, ela confere a nova posição do inimigo. Se essa resposta foi a única Reação dele, já foi consumida; ele não tem outra para uma oportunidade antes do próximo turno. Isso não protege Mei contra outros efeitos ou ameaças.</td>
+</tr>
+<tr>
+<td>Próximo turno do Carregador</td>
+<td>A Reação volta normalmente. O inimigo pode escolher outra ação, considerando o que ocorreu. A parada concluída continua válida.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p>Se gastar a Reação em outra coisa antes do clique, a preparação termina. Se o clique não ocorrer antes do próximo turno, expira sem devolver a Padrão. Se estiver Agarrado quando for responder, seu deslocamento estará zero; o gatilho não o solta. Com Integridade no estágio 2, o deslocamento será 4,5 m: pode alcançar um espaço a 1,5 m de P pelo corredor de 6 m, sem atravessar os 6 m completos. Alcance e espaço livre precisam ser conferidos no mapa.</p>
+<p>O exemplo mostra uma troca: esperar permite aproximar-se depois da ação de Mei, mas custa a atuação ofensiva daquela Padrão e a Reação. Se a cena exigir <strong>atacar no turno e também se reposicionar depois</strong>, Preparar não oferece ambos gratuitamente. Essa diferença é uma razão concreta para estudar uma capacidade própria, se o papel do futuro chefe exigir isso.</p>
+</div><div class="larga"><h2 id="chefe--quem-recebe-um-turno-para-responder">Quem recebe um turno para responder?</h2><p>Mantenha a ordem Rina → Carregador → Mei → Akira. Os quadros abaixo comparam apenas a posição de um anúncio e de sua consequência. Não criam um ataque novo nem concedem ações durante a espera.</p><table>
+<thead>
+<tr>
+<th>Anúncio</th>
+<th>Resolução prevista</th>
+<th>Turnos do grupo entre os dois momentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No turno do Carregador</td>
+<td>Fim da mesma rodada</td>
+<td>Mei e Akira. Rina já agiu.</td>
+</tr>
+<tr>
+<td>No turno do Carregador</td>
+<td>Começo do próximo turno dele</td>
+<td>Mei, Akira e Rina, nessa ordem.</td>
+</tr>
+<tr>
+<td>Antes do primeiro turno da cena</td>
+<td>Fim da primeira rodada completa</td>
+<td>Rina, Mei e Akira. Essa é a convenção de abertura do portão.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Uma ação adicional no fim do turno de Mei, seguida de outra no fim do turno de Akira, ainda poderia atingir Rina duas vezes antes do próximo turno dela. Dizer apenas “as ações estão espalhadas” não garante uma abertura individual. Examine o alvo, os companheiros que ainda podem agir, as Reações válidas e o atendimento de quem já caiu.</p>
+</div><div class="larga fluida"><h2 id="chefe--mudanca-de-comportamento-e-mudanca-de-cenario">Mudança de comportamento e mudança de cenário</h2><table>
+<thead>
+<tr>
+<th>Situação</th>
+<th>O que muda</th>
+<th>O que permanece</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carregador passa de 10 para 7 PV</td>
+<td>Atinge o limiar de retirada; solta quem segura e tenta recuar com suas ações.</td>
+<td>Reservas restantes, Integridade, condições, iniciativa e gastos. Sem deslocamento gratuito.</td>
+</tr>
+<tr>
+<td>Carregador passa de 10 para 0 PV</td>
+<td>Resolve sua derrota normal.</td>
+<td>O portão segue suas próprias regras; não aparece outra vida da criatura.</td>
+</tr>
+<tr>
+<td>Integridade do Carregador chega a 8</td>
+<td>Estágio 2: deslocamento básico passa a 4,5 m, com os efeitos cumulativos do Livro de Regras 1.0.</td>
+<td>Seus PV não precisam estar em 8. Agarrar continua sem PE.</td>
+</tr>
+<tr>
+<td>Portão chega ao terceiro avanço com faixa livre</td>
+<td>Fecha o atalho; o serviço continua acessível.</td>
+<td>Ficha, ações e condições da criatura.</td>
+</tr>
+<tr>
+<td>Faixa ocupada no terceiro avanço</td>
+<td>O mecanismo aguarda, conforme <a href="../apoio-revisao-textual-121/prova-textual.html#portao">o funcionamento do portão</a>.</td>
+<td>Não surge um ataque de esmagamento nem uma ação adicional de chefe.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p>A passagem de guarda para retirada é uma mudança de conduta. A passagem de atalho aberto para fechado é uma mudança ambiental. Elas podem acontecer em qualquer ordem, e uma pode nem chegar a ocorrer. Nenhuma exige cura, retirada de condições ou renovação de recursos. O grupo pode neutralizar a criatura e ainda precisar atravessar a saída; pode também desligar o mecanismo e continuar enfrentando a oposição.</p>
+<h2 id="chefe--escolha-o-exemplo-pelo-que-precisa-estudar">Escolha o exemplo pelo que precisa estudar</h2>
+<p>O Carregador acima ensina a distinguir recursos já existentes: corpo adicional, Preparar, mudança de comportamento e mudança do lugar. Ele conserva a ficha comum e não demonstra, sozinho, a construção de um chefe completo.</p>
+<p>Para uma ameaça construída em torno de captura, isolamento e impacto anunciado, use o <a href="../apoio-revisao-textual-121/prova-textual.html#sineiro">Sineiro do Recolhimento</a>, a <a href="../apoio-revisao-textual-122/prova-textual.html#doma">ficha após a Doma</a> e o <a href="../apoio-revisao-textual-122/prova-textual.html#ensaio">ensaio de retirada e socorro</a>. Para um atacante acompanhado de apoio, use <a href="../apoio-revisao-textual-122/prova-textual.html#dupla">Ren e Sora</a> e o <a href="../apoio-revisao-textual-122/prova-textual.html#confronto">confronto da dupla</a>; a composição ensina a distribuir funções sem transformar automaticamente um dos dois em chefe.</p>
+<p>Uma ficha completa permite comparar a proposta. As contas e os percursos escritos ainda não demonstram equilíbrio para todos os grupos nem facilidade de condução por leitores reais.</p></div></article></main><p class="rodape-tela"><a href="../124-revisao-da-doenca-e-das-fichas-preenchidas.md">Registro da revisão</a></p></body></html>

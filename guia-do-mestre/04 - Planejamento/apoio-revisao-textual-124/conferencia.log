@@ -1,0 +1,59 @@
+{
+  "registro": 124,
+  "pdf_sha256": "c429f81503d669be143ea222d9ec51bfcd338272ddbdc24e1a9df246bd22784b",
+  "casos_conferidos": [
+    {
+      "id": "s103",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s077",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s068",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 12,
+  "rotulos_simplificados": {
+    "Preparar deslocamento : depois de perceber o clique da parada, aproximar-se de quem a operou pelo corredor.": "Preparar deslocamento , com este gatilho: quando perceber o clique da parada, aproximar-se pelo corredor de quem a operou.",
+    "Agora deve conferir a posição do inimigo.": "Antes de usá-los, ela confere a nova posição do inimigo."
+  },
+  "links_locais_conferidos": 501,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 33,
+  "casos_pendentes": 26,
+  "lotes_pendentes": 6,
+  "mudancas_de_numero": {
+    "s103": [],
+    "s077": [],
+    "s068": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número; nome do Carregador unificado.",
+  "mapa": "Desenho vetorial existente do portão (s066) usado junto do exemplo de Preparar do s068 e conferido visualmente; sem figura nova.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

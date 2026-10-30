@@ -1,0 +1,74 @@
+[
+  {
+    "caso": "s072",
+    "antes": "**Instinto, CE1 publicada.** Enquanto acordado, protegido contra surpresa.",
+    "depois": "**Instinto, CE1 publicada.** Enquanto está acordado, fica protegido contra surpresa.",
+    "motivo": "Pente fino: frase sem verbo."
+  },
+  {
+    "caso": "s072",
+    "antes": "A área é medida na posição da liberação; a restrição de imobilidade do chefe não integra esta versão.",
+    "depois": "A área é medida na posição da liberação: ao contrário do chefe, a entidade pode ter se movido sem perder a carga.",
+    "motivo": "Pente fino: diz o efeito prático em vez de nomear uma \"restrição de imobilidade\" que a ficha revista do chefe não usa."
+  },
+  {
+    "caso": "s073",
+    "antes": "Para o Sineiro conduzi-la sem a caixa,",
+    "depois": "Para o Sineiro arrastá-la sem a caixa,",
+    "motivo": "Pente fino: mesmo verbo da capacidade revista, Arrastar a presa."
+  },
+  {
+    "caso": "s073",
+    "antes": "**Mei interrompe o preparo.**",
+    "depois": "**Mei interrompe a preparação.**",
+    "motivo": "Pente fino: mesmo termo da ficha revista."
+  },
+  {
+    "caso": "s073",
+    "antes": "recupera sua Reação e termina a provocação inicial;",
+    "depois": "recupera sua Reação, e o efeito da provocação inicial acaba;",
+    "motivo": "Pente fino: acaba o efeito, não a ação."
+  },
+  {
+    "caso": "s073",
+    "antes": "Essa exposição é a escolha arriscada que o exemplo quer examinar; o mestre não precisa fazê-la acontecer.",
+    "depois": "Essa exposição é a escolha arriscada que o exemplo quer examinar; numa sessão, ela é do jogador, e o mestre não a provoca.",
+    "motivo": "Pente fino: \"não precisa fazê-la acontecer\" podia sugerir que o mestre decide o movimento de Mei."
+  },
+  {
+    "caso": "s073",
+    "antes": "O Traje conserva sua proteção; essa redução não impede a queda.",
+    "depois": "Cobrir-se não tira a proteção do Traje; mesmo com a redução, ela cai.",
+    "motivo": "Pente fino: ordem da explicação; a frase anterior juntava duas ideias sem ligação."
+  },
+  {
+    "caso": "s075",
+    "antes": "Ren passa a pagar **4 PE** por Fenda.",
+    "depois": "Com esse acréscimo, Ren passa a pagar **4 PE** por Fenda.",
+    "motivo": "Pente fino: liga o custo ao acréscimo do estágio 2, sem mudar números."
+  },
+  {
+    "caso": "s075",
+    "antes": "Se alguém usar Leitura de Reservas de forma válida, veja os PE atuais; por isso, registre os gastos.",
+    "depois": "Leitura de Reservas, usada de forma válida, revela os PE atuais; por isso, registre os gastos.",
+    "motivo": "Pente fino: a primeira passagem deixou ambíguo quem vê os PE."
+  },
+  {
+    "caso": "s076",
+    "antes": "ela ainda tem Reação, mas não tem PE para pagar Cobrir-se.",
+    "depois": "ela ainda tem Reação, mas não tem PE suficiente para Cobrir-se.",
+    "motivo": "Pente fino: Sora tem 1 PE; a primeira passagem dizia que não tinha nenhum."
+  },
+  {
+    "caso": "s076",
+    "antes": "De F6, ela continua ao alcance de 18 m.",
+    "depois": "De F6, Akira ainda alcança Sora com os 18 m do feitiço.",
+    "motivo": "Pente fino: sujeito explícito."
+  },
+  {
+    "caso": "s076",
+    "antes": "O reforço também oferece três temporários,",
+    "depois": "O reforço também oferece três PV temporários,",
+    "motivo": "Pente fino: unidade explícita."
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "registro": 124,
+  "casos": [
+    {
+      "id": "s103",
+      "fonte_original": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+      "sha256_original": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+      "sha256_revisado": "6533b1c09c72445c27cf7aa2034f583d7f6c24126f0a141fa4b9d675469637fe",
+      "passagem_1": "Original integral e consultas pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 7,
+        "2": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s077",
+      "fonte_original": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+      "sha256_original": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+      "sha256_revisado": "711033094f45bb580b571522cdaee5211f518792105babb4e365bcf4c7e06b76",
+      "passagem_1": "Original integral e consultas pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        4,
+        8
+      ],
+      "paginas_na_prova_final": [
+        4,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 5
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s068",
+      "fonte_original": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+      "sha256_original": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207",
+      "sha256_revisado": "352adf2916951c24419286c7d96a6398a109301c0ff41d8dd2f8a99218b46e1b",
+      "passagem_1": "Original integral e consultas pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        8,
+        11
+      ],
+      "paginas_na_prova_final": [
+        8,
+        11
+      ],
+      "registros_por_passagem": {
+        "1": 7
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

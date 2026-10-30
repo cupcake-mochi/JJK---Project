@@ -16,7 +16,7 @@ Use quando houver incerteza e a falha puder mudar a situação. Confira primeiro
 
 **Se a regra já definir o resultado:** aplique o que ela diz. **Sucesso com custo, quando permitido:** deixe claros o preço, a escolha e a consequência da recusa. Não transforme um ataque errado em acerto por um custo inventado.
 
-**Ajuda:** confira contribuição, requisitos e limites de Ajudar. **Tarefa coletiva:** use teste de grupo somente quando a regra couber; ocultação em combate e TR individuais continuam separados. [Casos de testes e iniciativa](../../82-testes-trabalho-em-grupo-e-iniciativa.md).
+**Ajuda:** confira contribuição, requisitos e limites de Ajudar. **Tarefa coletiva:** use teste de grupo somente quando a regra couber; ocultação em combate e TR individuais continuam separados. [Casos de testes e iniciativa](<../casos/82-testes-trabalho-em-grupo-e-iniciativa.md>).
 
 ## Se a conversa parar
 
@@ -28,13 +28,13 @@ Se uma cena se repetir, pergunte se há algo novo antes de resumi-la. Quando o g
 
 Confira o efeito desejado, os meios e a regra. Complete detalhes comuns com coerência. Uma solução válida pode encerrar o obstáculo. Mostre o que mudou e continue a partir daí, sem recriar o mesmo problema.
 
-[Percepção e pistas](../../83-perceber-procurar-e-interpretar-sinais.md) · [Movimento e quedas](../../84-percursos-apoios-e-quedas.md) · [Ferramentas e improvisação](../../85-trajetorias-ferramentas-e-improvisacao.md).
+[Percepção e pistas](<../casos/83-perceber-procurar-e-interpretar-sinais.md>) · [Movimento e quedas](<../casos/84-percursos-apoios-e-quedas.md>) · [Ferramentas e improvisação](<../casos/85-trajetorias-ferramentas-e-improvisacao.md>).
 
 ## Em combate ou socorro
 
 Organize a iniciativa antes das ações disputadas. Siga a ordem e resolva as respostas no momento permitido. Atualize posição, reservas, efeitos e usos. Cada personagem recupera sua Reação no começo do próprio turno.
 
-**Alguém caiu:** abra imediatamente [Combate, socorro e retirada](../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada). Confira a causa e a Integridade, quando houver. Para a queda de vida, registre máximo de referência, escolha, tratamento, janela, estabilidade e ponto da contagem no [registro de estado e socorro](../../24-registro-de-estado-e-socorro.md). Pausar a sessão não muda esses valores.
+**Alguém caiu:** abra imediatamente [Combate, socorro e retirada](../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada). Confira a causa e a Integridade, quando houver. Para a queda de vida, registre máximo de referência, escolha, tratamento, janela, estabilidade e ponto da contagem no [registro de estado e socorro](<24-registro-de-estado-e-socorro.md>). Pausar a sessão não muda esses valores.
 
 ## Dúvida ou fim do horário
 

@@ -62,7 +62,7 @@ Um **Legado de história** registra relações, lembranças e particularidades d
 
 ### Um vínculo entra em cena
 
-Lia quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Lia cumprirá um trabalho combinado. Prepare a oficina; a jogadora escolhe o que conta e que compromisso aceita.
+Itsuki quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Itsuki cumprirá um trabalho combinado. Prepare a oficina; a jogadora escolhe o que conta e que compromisso aceita.
 
 Na festa, uma personagem quer tocar com antigos colegas; outra ajuda Vera; uma terceira acompanha alguém que nunca participou. Pergunte o que querem desenvolver: uma cena breve ou um motivo para escolher a missão.
 
@@ -121,7 +121,7 @@ Anote o objetivo atual, quem representa o grupo, o que pode usar e o que sabe. D
 
 **Rede da Ponte.** Moradores e voluntários querem realizar a festa. Vera rege o coral e reúne propostas; precisa consultar os responsáveis antes de prometer algo em nome de todos. Com as pessoas e os materiais já combinados, quer saber quais atividades podem acontecer longe da passagem perigosa.
 
-**Equipe do Portão.** Feiticeiros apuram os relatos da passagem. Sora coordena a equipe e quer evitar exposição ao perigo antes da avaliação. Pode propor uma vistoria e explicar o risco conhecido; ainda precisa apurar os relatos e receber as descobertas dos personagens.
+**Equipe do Portão.** Feiticeiros apuram os relatos da passagem. Gabi coordena a equipe e quer evitar exposição ao perigo antes da avaliação. Pode propor uma vistoria e explicar o risco conhecido; ainda precisa apurar os relatos e receber as descobertas dos personagens.
 
 Esses grupos originais querem proteger a vizinhança, mas podem discordar sobre lugar e momento da festa. Um espaço alternativo pode atender aos dois; outras propostas podem surgir da mesa.
 
@@ -129,7 +129,7 @@ Esses grupos originais querem proteger a vizinhança, mas podem discordar sobre 
 
 Os personagens contam a Vera que pretendem examinar a passagem. Ela pode oferecer contato com quem presenciou os acontecimentos e perguntar quando terá notícias. Essa conversa oferece ajuda e cria uma expectativa que o grupo pode aceitar ou ajustar.
 
-Se Sora receber o mesmo relato, pode propor acompanhar a visita, conforme os meios disponíveis. Sem essa comunicação, ela segue com as informações que possui. Para cada reação importante, confira **quem soube, o que mudou e o que essa pessoa consegue tentar**.
+Se Gabi receber o mesmo relato, pode propor acompanhar a visita, conforme os meios disponíveis. Sem essa comunicação, ela segue com as informações que possui. Para cada reação importante, confira **quem soube, o que mudou e o que essa pessoa consegue tentar**.
 
 Retome as organizações quando tempo, informação ou oportunidade permitirem uma ação. Seus integrantes podem discordar, cumprir acordos ou encerrar assuntos. As notas não obrigam a organização a agir a cada encontro nem acrescentam pontos, turnos ou benefícios automáticos.
 

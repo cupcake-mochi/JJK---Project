@@ -1,0 +1,86 @@
+[
+  {
+    "mapa": "passarela",
+    "origem": "04 - Planejamento/apoio-revisao-textual-121/imagens/passarela.svg",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/passarela.svg",
+    "sha256": "186f2f8487ae0357559bffbe49eeb955a2ecc859122b45c54c2f1624df4c07e1",
+    "alteracao": "Nenhuma; mesmo cenário e mesmos nomes."
+  },
+  {
+    "mapa": "portao",
+    "origem": "04 - Planejamento/apoio-revisao-textual-121/imagens/portao.svg",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/portao.svg",
+    "sha256": "51eac5205cab05132b9fa01de347f5a192013f387c4c0c44bcc5deef33c6bd83",
+    "alteracao": "Nenhuma; mesmo cenário e mesmos nomes."
+  },
+  {
+    "mapa": "sineiro",
+    "origem": "04 - Planejamento/apoio-revisao-textual-122/imagens/ensaio.svg",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/sineiro.svg",
+    "sha256": "fc013e26c396e1c2c857603efcfa1e79fcdb65618199ce5115947203789e22ea",
+    "alteracao": "Nenhuma; mesmo cenário e mesmos nomes."
+  },
+  {
+    "mapa": "po",
+    "origem": "04 - Planejamento/apoio-revisao-textual-123/imagens/po.svg",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/po.svg",
+    "sha256": "8a9301a66bea68a25a1dbe54dff61976a637a965ec17aad95a83727c9c01e235",
+    "alteracao": "Nenhuma; mesmo cenário e mesmos nomes."
+  },
+  {
+    "mapa": "dupla",
+    "origem": "04 - Planejamento/apoio-revisao-textual-122/GERAR-MAPAS.py",
+    "origem_sha256": "0bdb079e4409a6ec07388546760f8795055418d45b44d3ffae802c6d6e6e4b96",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/dupla.svg",
+    "sha256": "159c3198bfb424539b791cd53f1ff5f5fb39d60c730542bc6729f053f388e92a",
+    "alteracoes_de_rotulo": [
+      {
+        "antes": "REN E SORA · POSIÇÕES INICIAIS",
+        "depois": "TORU E SAYO · POSIÇÕES INICIAIS"
+      },
+      {
+        "antes": "REN",
+        "depois": "TORU"
+      },
+      {
+        "antes": "SORA",
+        "depois": "SAYO"
+      },
+      {
+        "antes": "<b>Ren:</b> D5.<br/><b>Sora, com o estojo:</b> F8.<br/><b>R · Rina:</b> C0.<br/><b>M · Mei:</b> D0.<br/><b>A · Akira:</b> F0.",
+        "depois": "<b>Toru:</b> D5.<br/><b>Sayo, com o estojo:</b> F8.<br/><b>R · Rina:</b> C0.<br/><b>M · Mei:</b> D0.<br/><b>A · Akira:</b> F0."
+      }
+    ],
+    "limite": "Somente constantes de texto foram substituídas; coordenadas, medidas, símbolos de parede, peças e posições mantidos."
+  },
+  {
+    "mapa": "arquivo",
+    "origem": "04 - Planejamento/apoio-revisao-textual-123/GERAR-MAPAS.py",
+    "origem_sha256": "3b75a85cc591b4f4132e2d0467e6151e0ff75d7aca37a940e9542d47a7c7db0b",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/arquivo.svg",
+    "sha256": "3f14f51bb1e392d44f7ed29bffac7a8eacb3ebc5c7b0983b723ffddd6fd3c798",
+    "alteracoes_de_rotulo": [
+      {
+        "antes": "Haru sozinho",
+        "depois": "Daigo sozinho"
+      },
+      {
+        "antes": "H",
+        "depois": "D"
+      },
+      {
+        "antes": "<b>Grupo:</b> Ba · Bastião B0, Em · Emanador C0, Gu · Guia D0.<br/><b>Haru:</b> D10.<br/><b>Vigia:</b> C8. <b>Tessa:</b> E11.",
+        "depois": "<b>Grupo:</b> Ba · Bastião B0, Em · Emanador C0, Gu · Guia D0.<br/><b>Daigo:</b> D10.<br/><b>Vigia:</b> C8. <b>Tessa:</b> E11."
+      }
+    ],
+    "limite": "Somente constantes de texto foram substituídas; coordenadas, medidas, símbolos de parede, peças e posições mantidos."
+  },
+  {
+    "mapa": "carregador",
+    "origem": "08 - Diagramacao do Guia/MAPAS.py",
+    "origem_sha256": "3c1db39f19af00d02edded50582e0f4d6ee6fd8537e85191801144f3d84ba76d",
+    "arquivo": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/carregador.svg",
+    "sha256": "0966d5e4503285e8de5cf22986d3bb51f9703027a05a8b03bb58ed05a01200d2",
+    "alteracao": "Exportação vetorial do desenho corrigido, sem alteração de medidas."
+  }
+]

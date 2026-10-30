@@ -1,0 +1,40 @@
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 10,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 446,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 27,
+  "casos_pendentes": 32,
+  "lotes_pendentes": 8,
+  "mudancas_de_numero": {
+    "s072": [
+      [
+        [
+          "2"
+        ],
+        [
+          "4"
+        ]
+      ]
+    ],
+    "s073": [],
+    "s075": [],
+    "s076": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Única mudança de número: religar a domada, 2 → 4 PE, pelo Livro de Regras 1.0.",
+  "mapa": "Esquema em caracteres do s073 preservado na fonte; a prova usa o desenho vetorial existente. Mapa do s076 desenhado a partir da tabela do caso; ambos conferidos visualmente.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

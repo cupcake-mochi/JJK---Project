@@ -1,0 +1,66 @@
+{
+  "registro": 131,
+  "pdf_sha256": "300e41f111f58c11ad69bc0622b3eba58941eb272b40b75add26aefbc0b6aa42",
+  "casos_conferidos": [
+    {
+      "id": "s002",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s005",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s024",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s016",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 12,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 633,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "mudancas_de_numero": {
+    "s002": [],
+    "s005": [],
+    "s024": [],
+    "s016": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "registro": 132,
+  "fontes": [
+    {
+      "id": "acordos",
+      "fonte_id": "s008",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+      "fonte_original": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+      "titulo": "Ficha de acordos do grupo",
+      "sha256": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb",
+      "sha256_original": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6"
+    },
+    {
+      "id": "descobertas",
+      "fonte_id": "s012",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+      "fonte_original": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+      "titulo": "Registro de descobertas",
+      "sha256": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f",
+      "sha256_original": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436"
+    },
+    {
+      "id": "faccao",
+      "fonte_id": "s020",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+      "fonte_original": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+      "titulo": "Ficha de facção",
+      "sha256": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7",
+      "sha256_original": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4"
+    },
+    {
+      "id": "convivencia",
+      "fonte_id": "s028",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+      "fonte_original": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "titulo": "Ficha de convivência",
+      "sha256": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d",
+      "sha256_original": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e"
+    },
+    {
+      "id": "avaliacao",
+      "fonte_id": "s032",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "fonte_original": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "titulo": "Ficha de avaliação de capacidade",
+      "sha256": "5a5cd6a696e2ff4d9716f8a9c26b753f319b2f216a0750daafd1eb7770df1ef7",
+      "sha256_original": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339"
+    },
+    {
+      "id": "projeto",
+      "fonte_id": "s038",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+      "fonte_original": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "titulo": "Ficha de projeto e entrega",
+      "sha256": "8a12369b489c625422d4588fadd21928e3fd909e1417604b4f5448e34550c80a",
+      "sha256_original": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html",
+  "html_sha256": "167d0bfbc8d2ed7d3b13775439c766ccf875987873ba2855269c95c9a2e50148",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-132/output/pdf/Ciclo-Maldito-Registros-de-Campanha-Revisao-Textual.pdf",
+  "pdf_sha256": "715e44b5a1a20dbf465546e6fc79ef7dfb07d4fd507e3280d84f37985d71873f",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 250
+    },
+    {
+      "pagina": 2,
+      "palavras": 215
+    },
+    {
+      "pagina": 3,
+      "palavras": 368
+    },
+    {
+      "pagina": 4,
+      "palavras": 291
+    },
+    {
+      "pagina": 5,
+      "palavras": 313
+    },
+    {
+      "pagina": 6,
+      "palavras": 381
+    },
+    {
+      "pagina": 7,
+      "palavras": 185
+    },
+    {
+      "pagina": 8,
+      "palavras": 322
+    },
+    {
+      "pagina": 9,
+      "palavras": 280
+    },
+    {
+      "pagina": 10,
+      "palavras": 59
+    }
+  ],
+  "limite": "Seis consultas complementares revistas no lote C-02 (dez no total); demais lotes, consultas, conferência global e integração continuam pendentes."
+}

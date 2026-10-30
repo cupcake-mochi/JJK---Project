@@ -2,7 +2,7 @@
 
 O fim de uma missão abre espaço para cuidar do corpo, procurar pessoas, trabalhar e escolher o próximo compromisso. Pergunte o que cada personagem quer fazer e quais condições ainda precisam de atenção. Uma tarde comum pode merecer uma cena, sem precisar terminar numa nova ameaça.
 
-Este capítulo reúne descanso, dedicação, Ofícios, equipamento e recompensas. O Livro de Regras 1.0 fornece suas regras; o ciclo de dedicação é a recomendação deste Guia para a guilda. As [regras usadas aqui](<../../04 - Planejamento/apoio-entre-missoes-108/consulta-de-regras.html>) e os casos completos ficam disponíveis para consulta.
+Este capítulo reúne descanso, dedicação, Ofícios, equipamento e recompensas. O Livro de Regras 1.0 fornece suas regras; o ciclo de dedicação é a recomendação deste Guia para a guilda. As regras usadas aqui estão no Livro de Regras 1.0, e os casos completos ficam disponíveis para consulta.
 
 ## 8.1 Rotina e descanso
 
@@ -36,7 +36,7 @@ O descanso curto normalmente recupera **25% dos PE máximos**, para baixo, míni
 
 Fora de lugar propício, a metade é um mínimo, não uma parcela somada ao saldo. Arredonde para baixo, mínimo 1 quando o máximo for positivo. Com máximo de vida 23, saldo 3 passa a 11; saldo 18 continua 18. Aplique primeiro a recuperação e a Sequela que ela gerar por uma queda; depois remova as Sequelas.
 
-Essas são as regras gerais. Corpo Exaurido, Existência Artificial e outras capacidades conservam suas exceções. A [consulta de recuperação](../23-retirada-e-recuperacao.md) inclui cuidados, Exaustão e saída de derrota. Uma doença pode exigir seu tratamento mesmo depois de recuperar reservas; a [febre dos fios](../103-a-febre-dos-fios.md) mostra um caso preparado com prazos próprios.
+Essas são as regras gerais. Corpo Exaurido, Existência Artificial e outras capacidades conservam suas exceções. A [consulta de recuperação](<casos/23-retirada-e-recuperacao.md>) inclui cuidados, Exaustão e saída de derrota. Uma doença pode exigir seu tratamento mesmo depois de recuperar reservas; a [febre dos fios](<casos/103-a-febre-dos-fios.md>) mostra um caso preparado com prazos próprios.
 
 Trabalhar não é descansar. Uma espera pode permitir repouso se as condições forem cumpridas; não concede recuperação por si. Dormir durante uma missão renova usos por dia conforme sua regra, mas não equivale automaticamente a descanso longo. Registre o que efetivamente voltou antes de preparar outra saída.
 
@@ -76,7 +76,7 @@ Transfira apenas **as horas novas que ficaram livres**. Elas valem somente no ci
 
 O restante antigo expira no próximo fechamento. Não passa novamente nem forma um banco sem limite. Num ciclo de sete dias, a abertura tem no máximo **56 horas**. Rina abre com 10 antigas e 28 novas; trabalha 20, usando primeiro as 10 antigas. Restam 18 novas para transferir. Se abrisse com 18 antigas e gastasse só 12, as 6 antigas restantes expirariam; as 28 novas livres poderiam passar.
 
-O progresso realizado fica no projeto. Ele não expira com o saldo e não volta a ser hora livre. A [folha de dedicação](../40-registro-de-dedicacao-por-ficha.md) mostra Rina e Mei em três ciclos, com entrada proporcional e conferência pendente.
+O progresso realizado fica no projeto. Ele não expira com o saldo e não volta a ser hora livre. A [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) mostra Rina e Mei em três ciclos, com entrada proporcional e conferência pendente.
 
 ### Trabalho ainda em conferência
 
@@ -124,13 +124,13 @@ Na falha, aplique o risco anunciado. Atraso, perda de consumível e repetição 
 
 O reparo publicado pede Alfaiate, ferramentas, tecido e fechos de **¥3.000**, com **quatro horas de trabalho**. Recupera a função anterior, sem aumentar a proteção. É rotina sem risco relevante: não exige teste.
 
-Rina trabalha duas horas e interrompe. A peça e os materiais ficam guardados; faltam duas horas. Na retomada, confira se os meios continuam disponíveis e conclua o restante. O projeto inteiro conserva ¥3.000 de materiais, sem cobrança automática por trocar de mestre. A [ficha preenchida](../38-ficha-de-projeto-e-entrega.md) mostra o acompanhamento; as [etiquetas do depósito](../34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito) mostram teste, falha e retrabalho local.
+Rina trabalha duas horas e interrompe. A peça e os materiais ficam guardados; faltam duas horas. Na retomada, confira se os meios continuam disponíveis e conclua o restante. O projeto inteiro conserva ¥3.000 de materiais, sem cobrança automática por trocar de mestre. A [ficha preenchida](<consultas/38-ficha-de-projeto-e-entrega.md>) mostra o acompanhamento; as [etiquetas do depósito](<casos/34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito>) mostram teste, falha e retrabalho local.
 
 Ajuda não divide automaticamente o prazo por dois. Registre quem executa cada parte e se pode trabalhar ao mesmo tempo. Use Ajudar quando cumprir seus requisitos e houver um teste pertinente; não some todos os bônus. Um equipamento único pode impedir tarefas simultâneas.
 
 Reparo recupera a função combinada. Melhoria exige avaliar a alteração permitida antes de outro projeto. Um remendo provisório precisa trazer duração e limites claros. Consertar uma peça não renova usos gastos nem restaura um efeito encerrado por Desgaste.
 
-Um corpo tem regras de tratamento próprias. O [reparo de Ena](../90-reparar-personagem-de-corpo-construido.md) usa a Origem de Corpo Amaldiçoado, não uma conversão geral de PV em horas. Atendimento, oficina e recuperação da ficha precisam ser conferidos separadamente.
+Um corpo tem regras de tratamento próprias. O [reparo de Ena](<casos/90-reparar-personagem-de-corpo-construido.md>) usa a Origem de Corpo Amaldiçoado, não uma conversão geral de PV em horas. Atendimento, oficina e recuperação da ficha precisam ser conferidos separadamente.
 
 ## 8.4 Comprar, emprestar e contratar
 
@@ -154,7 +154,7 @@ Ao transferir uma peça, atualize os dois inventários. Registre proprietário, 
 
 **Cofre da Família** é uma capacidade do Descendente Zenin, não a regra de todo arsenal. Permite retirar uma ferramenta por vez, conforme a patente reconhecida, até grau 1; trocar exige voltar e devolver. Armas de grau 1 ainda pedem feitos e autorização; especiais ficam fora. A patente permite a retirada; o nível e os outros requisitos continuam determinando se a personagem pode usar o efeito.
 
-No [empréstimo de Kenji](../97-emprestimo-familiar-e-negociacao.md), nível 7 e Grau 3 permitem retirar a Kunai Fiel de grau 3 pela capacidade escolhida. O nível não amplia a retirada para grau 2. Ele registra a devolução da arma separadamente da venda de seu anel.
+No [empréstimo de Kenji](<casos/97-emprestimo-familiar-e-negociacao.md>), nível 7 e Grau 3 permitem retirar a Kunai Fiel de grau 3 pela capacidade escolhida. O nível não amplia a retirada para grau 2. Ele registra a devolução da arma separadamente da venda de seu anel.
 
 ### Serviço e negociação
 
@@ -164,7 +164,7 @@ O catálogo não garante comprador ou valor de revenda. Um teste social resolve 
 
 **Palavra Empenhada**, se escolhida e disponível, funciona uma vez por descanso longo após falhar em Persuasão numa negociação viável. O mestre apresenta condição concreta; o jogador aceita ou recusa. Cumpri-la conclui o acordo sem repetir o teste. Isso não cria uma Promessa sobrenatural.
 
-No caso de Kenji, duas horas de instrução e a entrega no prazo concluem a venda do anel por **¥24.000**. A peça custou ¥38.000: vendeu por ¥14.000 a menos, sem lucro. Seu saldo anterior de ¥2.000 passa a ¥26.000; as 22 horas disponíveis passam a 20. O [caso completo](../97-emprestimo-familiar-e-negociacao.md) também resolve a recusa e a devolução da kunai.
+No caso de Kenji, duas horas de instrução e a entrega no prazo concluem a venda do anel por **¥24.000**. A peça custou ¥38.000: vendeu por ¥14.000 a menos, sem lucro. Seu saldo anterior de ¥2.000 passa a ¥26.000; as 22 horas disponíveis passam a 20. O [caso completo](<casos/97-emprestimo-familiar-e-negociacao.md>) também resolve a recusa e a devolução da kunai.
 
 ## 8.5 Ferramentas e objetos amaldiçoados
 
@@ -193,7 +193,7 @@ Uma peça conhecida chega com ficha. Uma desconhecida pode ser examinada, pesqui
 
 Para criar uma ferramenta, escolha função e base, compare o efeito e registre seus limites. A [avaliação de capacidades](07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade) ajuda a conferir o resultado desejado. Depois prepare a fabricação: **aprovar a ficha não entrega o objeto**. Produzir a base física usa o Ofício; fixar o poder exige fonte de energia, conhecimentos, materiais, prazo e riscos do processo especial.
 
-No [Anel de Testemunho](../96-fabricar-e-identificar-o-anel.md), exemplo experimental, Kenji fabrica a base em **6 horas**. Aya executa o processo especial contratado: 8 horas iniciais e, após a falha prevista, 4 de retomada. O sucesso ainda exige **12 horas de secagem**, sem dedicação ativa.
+No [Anel de Testemunho](<casos/96-fabricar-e-identificar-o-anel.md>), exemplo experimental, Kenji fabrica a base em **6 horas**. Aya executa o processo especial contratado: 8 horas iniciais e, após a falha prevista, 4 de retomada. O sucesso ainda exige **12 horas de secagem**, sem dedicação ativa.
 
 O projeto com uma falha custa **¥38.000**. Kenji usa 6 horas próprias, não as 12 trabalhadas por Aya; de 28, restam **22**. O calendário precisa comportar trabalho, agenda e secagem. A receita pertence àquela peça; treino em Forja não autoriza fixar qualquer poder. A marca do anel indica a abertura quando examinada. Não envia avisos a distância, não identifica quem abriu e não contém maldições.
 
@@ -211,7 +211,7 @@ Defina objeto, recipiente, Volume, perigo, sinais reconhecíveis, selo, duraçã
 
 Caixa e selo são diferentes. Abrir a caixa pode expor o selo sem retirá-lo. Informe o que rompe a proteção e o risco acessível antes da escolha. Um amuleto que afasta maldições não concede imunidade nem impede toda aproximação.
 
-A [Pastilha do Último Aviso](../98-objeto-selado-e-risco-de-ingestao.md) tem prazos e alcances experimentais próprios. Seu selo concluído às 9h termina às 17h; entrega às 15h30 deixa uma hora e meia, sem reiniciar o prazo. Ingestão, perda de audição e chamado têm consequências e saídas distintas. Ingerir o objeto não concede poder ou troca de Origem automática. Quebrar o recipiente também não equivale a neutralizar o conteúdo.
+A [Pastilha do Último Aviso](<casos/98-objeto-selado-e-risco-de-ingestao.md>) tem prazos e alcances experimentais próprios. Seu selo concluído às 9h termina às 17h; entrega às 15h30 deixa uma hora e meia, sem reiniciar o prazo. Ingestão, perda de audição e chamado têm consequências e saídas distintas. Ingerir o objeto não concede poder ou troca de Origem automática. Quebrar o recipiente também não equivale a neutralizar o conteúdo.
 
 ## 8.6 Recompensas e progressão
 
@@ -247,7 +247,7 @@ Confira o custo para **sair do nível atual**. A regra comum permite no máximo 
 
 Do nível 20 ao 21, também é necessário um dos sete feitos de Limiar, realizado entre níveis 15 e 20 e confirmado pelos requisitos publicados. Não substitua a lista por outra façanha. O feito não substitui o custo em XP. Ao confirmá-lo no encerramento, a personagem pode avançar quantos níveis o XP guardado permitir.
 
-No [socorro de Aoi](../99-limiar-feitos-e-promocao.md), o atendimento devolve a capacidade de agir sob ameaça real e atende ao feito. Com 4.000 XP disponíveis, paga 1.500 para o nível 21 e 1.500 para o 22; guarda **1.000**. É a exceção do Limiar, não o avanço comum de toda missão.
+No [socorro de Aoi](<casos/99-limiar-feitos-e-promocao.md>), o atendimento devolve a capacidade de agir sob ameaça real e atende ao feito. Com 4.000 XP disponíveis, paga 1.500 para o nível 21 e 1.500 para o 22; guarda **1.000**. É a exceção do Limiar, não o avanço comum de toda missão.
 
 Patente depende dos feitos reconhecidos pelo mestre ou organização, com Grau, motivo e data registrados. Aoi pode ter feito e nível confirmados enquanto a promoção continua pendente. Nível alto, socorro válido ou ferramenta de grau elevado não concedem promoção automática.
 
@@ -275,4 +275,4 @@ Recompensa por mestrar também fica em registro próprio, conforme política anu
 
 Registre objetivo e data de conclusão, XP de cada jogador, dinheiro recebido, itens e portadores, usos, Desgaste, feitos e promoção confirmada ou pendente. Acrescente recursos atuais, atendimento, trabalhos em andamento e compromissos que importam. Renove apenas o que teve sua condição de recuperação cumprida.
 
-O registro pode ser curto quando a situação for simples. Use a [ficha de projeto](../38-ficha-de-projeto-e-entrega.md), a [folha de dedicação](../40-registro-de-dedicacao-por-ficha.md) e o [registro de estado e socorro](../24-registro-de-estado-e-socorro.md) quando esses assuntos exigirem continuidade. O próximo mestre deve conseguir saber o que foi concluído, o que continua faltando e quando um resultado pode ser usado.
+O registro pode ser curto quando a situação for simples. Use a [ficha de projeto](<consultas/38-ficha-de-projeto-e-entrega.md>), a [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) e o [registro de estado e socorro](<consultas/24-registro-de-estado-e-socorro.md>) quando esses assuntos exigirem continuidade. O próximo mestre deve conseguir saber o que foi concluído, o que continua faltando e quando um resultado pode ser usado.

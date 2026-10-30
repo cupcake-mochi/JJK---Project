@@ -1,6 +1,6 @@
 # Retomar a missão
 
-**Resumo de pausa ou encerramento, para você ou outro mestre.** Aponte os registros atuais e use a [linha de continuidade](../../16-linha-de-continuidade.md) para assuntos extensos.
+**Resumo de pausa ou encerramento, para você ou outro mestre.** Aponte os registros atuais e use a [linha de continuidade](<16-linha-de-continuidade.md>) para assuntos extensos.
 
 **Missão e versão destas notas:**
 
@@ -26,7 +26,7 @@ Fichas atuais, posições, recursos, efeitos, usos e compromissos relevantes. Ap
 
 <!-- espaco: 1 -->
 
-**Socorro em andamento:** anexe o [registro completo](../../24-registro-de-estado-e-socorro.md), com causa, máximo de referência, escolha, tratamento necessário e acumulado, janela, estabilidade e ponto da contagem. Em turnos, inclua ordem, ações e respostas já gastas. Confira divergências antes da próxima ação.
+**Socorro em andamento:** anexe o [registro completo](<24-registro-de-estado-e-socorro.md>), com causa, máximo de referência, escolha, tratamento necessário e acumulado, janela, estabilidade e ponto da contagem. Em turnos, inclua ordem, ações e respostas já gastas. Confira divergências antes da próxima ação.
 
 ## Quem sabe o quê?
 

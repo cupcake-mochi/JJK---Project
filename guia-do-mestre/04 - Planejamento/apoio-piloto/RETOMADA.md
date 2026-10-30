@@ -1,5 +1,17 @@
 # Estado salvo da base pequena e do piloto
 
+> **Fila vigente - registro 141, 30/10/2026:** capítulo 8, dez casos e quatro consultas lidos; seis fontes revistas em segunda passagem. [Registro e edição atual](<../141-leitura-de-atividades-e-recompensas.md>). Dedicação por ficha e XP por jogador esclarecidos; fórmula publicada de salário e campo de recompensas incluídos; contas selecionadas reconferidas; tabelas e valores preservados. **Próximo: capítulo 9, Pactos e entidades, e seus exemplos; GPT-6.1 Sol, esforço alto.** Depois, capítulo 10, consultas e PDF completo com revisão visual global. Use o gerador deste registro; não reaplique preparadores antigos sobre a edição atual.
+
+> **Fila histórica - registro 140, 30/10/2026:** capítulo 7, onze casos e três consultas lidos; cinco fontes relidas depois dos ajustes. [Registro e edição atual](<../140-leitura-de-personagens-e-tecnicas.md>). Prazo de revisão de Restrição Própria delimitado, montagem e poderes avançados esclarecidos; tabelas e valores preservados. Decisões do Receptáculo e de Reserva Condensada mantidas. **Próximo: capítulo 8 e seus exemplos; GPT-6.1 Sol, esforço alto.** Depois, capítulos 9–10, consultas e PDF completo com revisão visual global. Use o gerador deste registro; não reaplique preparadores antigos sobre a edição atual.
+
+> **Fila histórica - registro 139, 30/10/2026:** capítulo 6 e seus apoios lidos; limites de uso, fichas, confrontos e perigos comparados. [Registro e edição atual](<../139-leitura-de-inimigos-e-perigos.md>). Melhoradas as classificações, referências e consultas de recursos; probabilidades selecionadas reconferidas; valores das fichas preservados. **Próximo: capítulo 7 e seus exemplos; GPT-6.1 Sol, esforço alto.** Depois, capítulos 8–10, consultas e PDF completo com revisão visual global. Use o gerador deste registro; não reaplique preparadores antigos sobre a edição atual.
+
+> **Fila histórica - registro 138, 30/10/2026:** leitura dos capítulos 4–5 e das consultas citadas concluída. [Registro e edição atual](<../138-leitura-de-conducao-e-campanha.md>). Corrigidas a descrição do anexo em duas rodadas, a identificação do caso de duas quedas e referências de Origem e cuidados; socorro com subtítulos próprios. Tabelas e parâmetros preservados. **Próximo: capítulo 6 e exemplos de inimigos e perigos; GPT-6.1 Sol, esforço alto.** Depois, capítulos 7–10, consultas e PDF completo com revisão visual global. Use o gerador deste registro; não reaplique preparadores antigos sobre a edição atual.
+
+> **Fila histórica - registro 137, 30/10/2026:** leitura contínua da abertura e dos capítulos 1–3 concluída, com exemplos e folhas conferidos. [Registro e edição atual](<../137-leitura-da-abertura-e-capitulos-iniciais.md>). Preparo da despedida aproximado das instruções; atalhos de consulta e termos revistos; tabelas e números preservados. **Próximo: capítulos 4–5 e exemplos citados; GPT-6.1 Sol, esforço alto.** Depois, demais capítulos, PDF completo e revisão visual global. O gerador vigente está no apoio deste registro; não reaplicar o preparador de fontes 136 sobre a edição atual.
+
+> **Fila histórica - registro 136, 30/10/2026:** cópia integrada de leitura montada, com apoios recuperados e referências conferidas. [Entrega e edição reunida](<../136-integracao-editorial-e-apoios.md>). Prova parcial dos três apoios com sete páginas inspecionadas. **Próximo: leitura contínua do conjunto, começando pela abertura e pelos capítulos 1–3; GPT-6.1 Sol, esforço alto.** PDF completo novo, revisão visual global e comparação final ainda pendentes. Fontes anteriores e PDF de 357 páginas preservados.
+
 21 de outubro de 2026. O trabalho foi retomado depois de um reinício do computador. As propostas numéricas e o verificador haviam ficado salvos; os resultados que ainda não estavam gravados foram recalculados.
 
 ## Escopo autorizado
@@ -826,3 +838,73 @@ B2-02 concluído localmente: quatro cópias, duas passagens e refinamentos relid
 ## Registro 121 — terreno, saída e Sineiro
 
 B2-03 concluído localmente: quatro cópias em duas passagens e refinamento relido. Prova de 15 páginas inspecionada. Prazos do guincho e do portão, gatilho da resposta preparada e preparação corporal do Sineiro mais claros. Mapas existentes da passarela e do portão exportados como vetores; mapa s073 reservado ao ensaio seguinte. Contas e tabelas conferidas, sem novos parâmetros. [Registro e destinos atuais](../121-revisao-de-terreno-saida-e-sineiro.md). Vinte e três casos revistos; 36 casos em 9 lotes e 17 consultas complementares pendentes. Próximo B2-04: Sineiro, retirada e dupla de inimigos; GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 122 — Sineiro, retirada e dupla
+
+B2-04 concluído localmente: quatro cópias em duas passagens (70 ajustes de clareza, 12 de pente fino). Prova de 17 páginas inspecionada; páginas alteradas vistas de novo, demais idênticas por hash. Correção documentada: religar o Sineiro domado custa 4 PE (dobro da entrada de 2 PE, nível 6), não 2. Termos do ensaio alinhados à ficha revista do Sineiro. Mapa existente do ensaio exportado em vetor; mapa do confronto de Ren e Sora desenhado no mesmo estilo, a partir da tabela do caso, sem alterar MAPAS.py. 63 contas dirigidas, incluindo as probabilidades do confronto recalculadas, sem novos parâmetros. [Registro e destinos atuais](../122-revisao-do-sineiro-retirada-e-dupla.md). Vinte e sete casos revistos; 32 casos em 8 lotes e 17 consultas complementares pendentes. Próximo B2-05: grupo, arquivo e pó; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 123 — grupo, arquivo e pó
+
+B2-05 concluído localmente: três cópias em duas passagens (32 ajustes de clareza, 4 de pente fino). Prova de 14 páginas inspecionada; páginas alteradas vistas de novo, demais idênticas por hash. Correção documentada: golpe desarmado de Tessa 1d6 + 2d4 (Maestria 2), não 1d4. Painel do arquivo num suporte, coerente com a passagem livre da linha 13. Tabelas do s102 comparadas com o apoio-lote7, sem rodar o script antigo. Mapa existente do pó exportado em vetor e posto após a abertura do caso; mapa do arquivo desenhado com as duas versões, sem alterar MAPAS.py. 37 contas dirigidas, sem novos parâmetros. [Registro e destinos atuais](../123-revisao-do-grupo-arquivo-e-po.md). Trinta casos revistos; 29 casos em 7 lotes e 17 consultas complementares pendentes. Próximo B2-06: doença e fichas preenchidas; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 124 — doença e fichas preenchidas
+
+B2-06 concluído localmente; grupo B2 completo. Três cópias em duas passagens (15 ajustes de clareza, 1 de pente fino). Prova de 11 páginas inspecionada na paginação final; página alterada vista de novo, demais idênticas por hash. Nome Carregador de Sinos unificado para Carregador; números preservados. Valores da ficha preenchida conferidos com as consultas revistas da dupla. Mapa existente do portão reaproveitado no exemplo de Preparar. 22 contas dirigidas, sem novos parâmetros. [Registro e destinos atuais](../124-revisao-da-doenca-e-das-fichas-preenchidas.md). Trinta e três casos revistos; 26 casos em 6 lotes e 17 consultas complementares pendentes. Próximo B3-01: corpos, cuidados e poderes; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 125 — corpos, cuidados e poderes
+
+B3-01 concluído localmente: quatro cópias em duas passagens (11 ajustes de clareza, 1 de pente fino). Prova de 11 páginas inspecionada; página alterada vista de novo, demais idênticas por hash. Reparo do corpo nomeado como descanso curto, conforme o Livro de Regras 1.0; números preservados. 21 contas dirigidas e 24 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../125-revisao-de-corpos-cuidados-e-poderes.md). Trinta e sete casos revistos; 22 casos em 5 lotes e 17 consultas complementares pendentes. Próximo B3-02: técnicas, mesclas e limites; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 126 — técnicas, mesclas e limites
+
+B3-02 concluído localmente; grupo B3 completo. Quatro cópias em duas passagens (11 ajustes de clareza, 1 de pente fino). Prova de 12 páginas inspecionada; páginas repaginadas vistas de novo, demais idênticas por hash. Números preservados; Reserva Condensada sem números, conforme a decisão 87. 16 contas dirigidas e 19 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../126-revisao-de-tecnicas-mesclas-e-limites.md). Quarenta e um casos revistos; 18 casos em 4 lotes e 17 consultas complementares pendentes. Próximo B4-01: ofícios, ferramentas e recompensas; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 127 — ofícios, ferramentas e recompensas
+
+B4-01 concluído localmente: seis cópias em duas passagens (9 ajustes de clareza, 1 de pente fino). Prova de 15 páginas inspecionada; páginas repaginadas vistas de novo, demais idênticas por hash. Retirada a promessa de benefícios de treinamentos futuros; números preservados. 12 contas dirigidas e 17 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../127-revisao-de-oficios-ferramentas-e-recompensas.md). Quarenta e sete casos revistos; 12 casos em 3 lotes e 17 consultas complementares pendentes. Próximo B5-01: Pactos e Promessa; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 128 — Pactos e Promessa
+
+B5-01 concluído localmente: quatro cópias em duas passagens (7 ajustes de clareza, 1 de pente fino). Prova de 17 páginas inspecionada; página alterada vista de novo, demais idênticas por hash. Números preservados; modelos de Pacto e Promessa continuam experimentais. 12 contas dirigidas e 14 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../128-revisao-de-pactos-e-promessa.md). Cinquenta e um casos revistos; 8 casos em 2 lotes e 17 consultas complementares pendentes. Próximo B5-02: projetos e ritual; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 129 — projetos e ritual
+
+B5-02 concluído localmente: quatro cópias em duas passagens (5 ajustes de clareza; segunda passagem sem alteração). Prova de 16 páginas inspecionada; páginas finais idênticas às vistas. Correção documentada: o golpe desarmado de Kaito na prova do Cão de sombra soma o 1d4 de Canalizar Energia, com o mesmo total no exemplo e aviso de destruição a 1 PV. 22 contas dirigidas e 9 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../129-revisao-de-projetos-e-ritual.md). Cinquenta e cinco casos revistos; 4 casos em 1 lote e 17 consultas complementares pendentes. Próximo B5-03: Doma, construção e transporte; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 130 — Doma, construção e transporte
+
+B5-03 concluído localmente; a fila de casos está completa, com 59 de 59 cópias revistas. Quatro cópias em duas passagens (5 ajustes de clareza; segunda passagem sem alteração). Prova de 20 páginas inspecionada; páginas finais idênticas às vistas. Números preservados; 32 contas das quatro fichas e 15 trechos literais do livro conferidos, sem novos parâmetros. [Registro e destinos atuais](../130-revisao-de-doma-construcao-e-transporte.md). Pendentes: 17 consultas complementares. Próximo: consultas complementares; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 131 — fichas de mesa (consultas, C-01)
+
+Consultas complementares divididas em quatro lotes (C-01 a C-04). C-01 concluído localmente: ficha de preparação, folha de condução, registro de estado e socorro e linha de continuidade, em revisao-98/consultas. Remissões apontadas para os capítulos novos pelo mapa do registro 99; 5 ajustes de clareza; segunda passagem sem alteração. Prova de 9 páginas com linhas de preenchimento, inspecionada; PDF final idêntico ao inspecionado. [Registro e destinos atuais](../131-revisao-das-fichas-de-mesa.md). Quatro consultas revistas, 13 pendentes. Próximo C-02: registros de campanha; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 132 — registros de campanha (consultas, C-02)
+
+C-02 concluído localmente: acordos do grupo, descobertas, facção, convivência, avaliação de capacidade e projeto e entrega, em revisao-98/consultas. Sessão zero e Facções apontadas para Criar uma campanha pelo mapa do registro 99; 7 ajustes de clareza; segunda passagem sem alteração. Prova de 10 páginas, linhas só nos modelos, inspecionada; PDF final idêntico ao inspecionado. [Registro e destinos atuais](../132-revisao-dos-registros-de-campanha.md). Dez consultas revistas, 7 pendentes. Próximo C-03: personagens, entidades e inimigos; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 133 — personagens, entidades e inimigos (consultas, C-03)
+
+C-03 concluído localmente: dedicação por ficha, Pactos e Promessas, aquisição e estado de entidade, ficha de inimigo e encontro e conferência de habilidade, em revisao-98/consultas. Remissões para Entre missões, Pactos e entidades e Inimigos e perigos pelo mapa do registro 99; 4 ajustes de clareza; segunda passagem sem alteração. Prova de 11 páginas inspecionada; PDF final idêntico ao inspecionado; 20 contas conferidas. [Registro e destinos atuais](../133-revisao-de-personagens-entidades-e-inimigos.md). Quinze consultas revistas, 2 pendentes. Próximo C-04: mundo e obra; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 134 — mundo e obra (consultas, C-04)
+
+C-04 concluído localmente: termos do mundo e ideias da obra, em revisao-98/consultas. Remissões para os capítulos novos pelo mapa do registro 99, com o título da seção nova; 3 ajustes de clareza; segunda passagem sem alteração. Sinopses dos episódios 48, 50, 51 e 55 reconfirmadas; volume 18 fora do ar, mantido pela conferência do lote 8. Prova de 7 páginas inspecionada; PDF final idêntico ao inspecionado. [Registro e destinos atuais](../134-revisao-de-mundo-e-obra.md). As 17 consultas complementares estão revistas. Próximo: conferência do conjunto; Claude Opus 5.5 ou GPT-6.1 Sol, esforço alto. Etapa 6 em andamento; fontes e integrado preservados, sem envio ao GitHub.
+
+
+## Registro 135 — conferência do conjunto retomada
+
+As mudanças do Claude estavam aplicadas em 67 arquivos, sem fechamento. A retomada conferiu o histórico, os links, as âncoras, os números, as tabelas e os originais; explicitou a falha de Estudar; reinspecionou as 20 páginas da prova e atualizou os destinos atuais. [Registro e limites](../135-conferencia-do-conjunto.md). São 59 casos e 17 consultas com revisões locais concluídas. Próximo: integração editorial e leitura contínua, com GPT-6.1 Sol, esforço alto. Apoios externos, mapas e fontes da obra têm pendências descritas. PDF integrado anterior preservado; sem novo envio ao GitHub nesta retomada.

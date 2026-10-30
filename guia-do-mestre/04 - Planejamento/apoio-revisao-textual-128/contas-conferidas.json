@@ -1,0 +1,170 @@
+{
+  "registro": 128,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Sete ideias do Livro de Regras 1.0",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "conta": "Fio de Corte: Classe 1, Projétil, sem peças",
+      "resultado": [
+        3,
+        3
+      ],
+      "esperado": [
+        3,
+        3
+      ]
+    },
+    {
+      "conta": "Condução pela matéria: ataque e dano na porta",
+      "resultado": [
+        4,
+        true,
+        false,
+        12,
+        8
+      ],
+      "esperado": [
+        4,
+        true,
+        false,
+        12,
+        8
+      ]
+    },
+    {
+      "conta": "Pacifismo: calendário das janelas",
+      "resultado": [
+        "21/11 18",
+        "24/11 18",
+        "21/12 18"
+      ],
+      "esperado": [
+        "21/11 18",
+        "24/11 18",
+        "21/12 18"
+      ]
+    },
+    {
+      "conta": "Liberação: tetos com máximo 40",
+      "resultado": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "esperado": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ]
+    },
+    {
+      "conta": "Liberação: exemplo do feitiço de Classe 3",
+      "resultado": [
+        15,
+        1,
+        false
+      ],
+      "esperado": [
+        15,
+        1,
+        false
+      ]
+    },
+    {
+      "conta": "Liberação: Refluxo com saldo 6",
+      "resultado": [
+        10,
+        16,
+        14
+      ],
+      "esperado": [
+        10,
+        16,
+        14
+      ]
+    },
+    {
+      "conta": "Liberação: manutenção, Refluxo e feitiços",
+      "resultado": [
+        3,
+        7,
+        13,
+        7,
+        1,
+        false
+      ],
+      "esperado": [
+        3,
+        7,
+        13,
+        7,
+        1,
+        false
+      ]
+    },
+    {
+      "conta": "Liberação: mudanças de máximo (50%, gasto 12)",
+      "resultado": [
+        8,
+        18,
+        0,
+        8
+      ],
+      "esperado": [
+        8,
+        18,
+        0,
+        8
+      ]
+    },
+    {
+      "conta": "Promessa: descanso curto de Akira (máximo 40)",
+      "resultado": 10,
+      "esperado": 10
+    },
+    {
+      "conta": "Promessa: duração do bloqueio (Dia 2 18h → Dia 3 10h)",
+      "resultado": 16,
+      "esperado": 16
+    },
+    {
+      "conta": "Promessa: perda total e máximo",
+      "resultado": [
+        0,
+        0,
+        40
+      ],
+      "esperado": [
+        0,
+        0,
+        40
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Pacto permanente, vagas e benefícios",
+      "Pacto de energia como porcentagem",
+      "Ideias para desenvolver (sete)",
+      "Promessa e quebra",
+      "Descanso curto (25% dos PE)",
+      "Energia temporária consumida primeiro",
+      "Liberação Máxima de Classe 3 (14 PE)",
+      "Núcleo Dependente"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Pacifismo impraticável, Liberação irregular e a Promessa do arquivo continuam modelos experimentais; contas corretas não os aprovam."
+  ]
+}

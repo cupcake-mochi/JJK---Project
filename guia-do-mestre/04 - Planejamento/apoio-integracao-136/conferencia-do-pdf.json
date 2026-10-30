@@ -1,0 +1,8 @@
+{
+  "registro": 136,
+  "paginas": 7,
+  "palavras_ausentes": {},
+  "palavras_extras": {},
+  "fora_da_pagina": [],
+  "metodo": "Poppler -raw e -bbox; cabeçalhos e números de página removidos, hifenização automática U+2010 normalizada. Comparação de palavras independente da ordem de leitura, além da inspeção direta das sete páginas."
+}

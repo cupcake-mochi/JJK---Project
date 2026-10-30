@@ -1,0 +1,605 @@
+Maia e Taru: a presença em cena
+Maia divide o corpo com Taru, uma presença com
+desejos e conhecimentos próprios. Estes exemplos
+aprofundam a conversa, os limites das capacidades
+e o que registrar para a próxima sessão.
+Combine a distribuição de vozes e os limites antes
+da cena, como explicado em A outra voz do Recep‐
+táculo. Use a ficha de convivência para guardar o
+acordo. O jogador continua decidindo as ações de
+sua personagem, dentro das regras.
+Conheça a presença
+Escolha um desejo atual, algo que conhece e um li‐
+mite. Ela pode ter história própria, lembranças e
+opiniões, mas não recebe todo o conhecimento do
+mestre.
+Exemplo original: Maia é hospedeira de Taru. A
+presença quer entender o que aconteceu com um
+arquivo antigo. Conhece uma relação de seu passa‐
+do, mas não sabe o endereço atual das pessoas en‐
+volvidas. Maia quer cumprir uma missão e depois
+avaliar a pesquisa.
+Esse preparo permite conversa e discordância.
+Taru pode pedir que Maia procure o arquivo. Não
+revela automaticamente todos os seus conteúdos
+ou a localização atual de um documento apenas
+porque a história menciona antiguidade.
+Se a informação depender de uma capacidade, siga
+suas regras. Uma contribuição de história também
+deve estar sustentada pelos fatos combinados e
+pelo que a presença realmente sabe. Não use sua
+voz para anunciar soluções inacessíveis ou obrigar
+o personagem a seguir a trama.
+Coexistência ou Conflito
+Na criação, o Receptáculo escolhe Coexistência ou Conflito como modalidade da marcante e duas menores
+elegíveis. As duas modalidades podem ter diálogos, mudanças de humor e interesses divergentes. Suas
+diferenças mecânicas vêm das regras, não da intensidade da interpretação.
+Modalidade Relação de partida e ganhos da marcante Limite que precisa ficar claro
+Coexistência A presença aceita conscientemente o hospedeiro à frente;
+concede Repertório Compartilhado e Amparo Interior
+Concordância sobre o controle não
+elimina opiniões diferentes nem concede
+todas as técnicas da presença
+Conflito A presença pretende tomar o corpo, e o hospedeiro a
+mantém contida; concede os benefícios descritos de defesa
+da alma, Reserva Impregnada e Resposta à Invasão
+Não há tomada automática por falha,
+vida baixa, PE baixos ou por
+discordância na conversa
+Em Coexistência, Repertório Compartilhado con‐
+cede suas aplicações adicionais uma vez, com os
+requisitos da rota. Elas não são espaços livres para
+qualquer capacidade, não fornecem outra Regra e
+não acrescentam uma ação à presença.
+Em Conflito, as capacidades têm momentos pró‐
+prios. Resposta à Invasão depende de uma tentati‐
+va hostil contra a alma conforme a descrição da ca‐
+pacidade. Dano Psíquico comum ou uma discussão
+não satisfazem seu gatilho por si sós. Resolva a
+tentativa original normalmente; a resposta da
+presença não a apaga.
+Leia também as menores escolhidas. Conselho In‐
+terior exige Coexistência, e Vontade de Cárcere
+exige Conflito. O personagem não recebe todo o
+catálogo por interpretar bem a relação.
+Uma cena de cooperação
+Maia: “Quero comparar esse símbolo com o que
+você lembra do arquivo.”
+Taru, interpretada pelo mestre: “Lembro de ter
+visto um desenho parecido, mas não sei por que
+está aqui. Você precisa olhar o traço central.”
+Antes de entregar uma resposta, o mestre confere
+o que foi observado e o que a presença conhece. Se
+a tarefa pedir Ocultismo, resolva pela regra. No
+exemplo, Maia possui a menor Conselho Interior e
+falhou no teste. Pode gastar seu uso por cena para
+repetir, aceitando o novo resultado com os mesmos
+modificadores.
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 1
+Essa repetição é o benefício da capacidade, não um
+segundo teste gratuito feito por Taru. Se o novo
+resultado não resolver a dúvida, a presença não
+passa a fornecer a resposta infalível por fora da
+regra. Informações evidentes ou já conhecidas
+continuam podendo ser narradas sem um teste ar‐
+tificial.
+Uma cooperação também pode ser inteiramente de
+conversa: Maia escuta o pedido, explica sua priori‐
+dade e combina retomar o assunto depois. Essa
+promessa cotidiana não se torna automaticamente
+um Pacto mecânico.
+Uma cena de conflito
+Exemplo separado: Ren é um Receptáculo de Con‐
+flito. A presença pede que procure uma pessoa li‐
+gada a seu passado; Ren não quer abandonar a
+retirada do grupo para fazer isso.
+Presença: “Você está deixando nossa chance pas‐
+sar.”
+Ren: “Vou tirar meus colegas daqui. Depois decido
+se procuro esse contato.”
+O mestre pode mostrar a discordância e o interes‐
+se da presença. A decisão do jogador continua sen‐
+do a ação de Ren. Não peça um Teste de Resistên‐
+cia para tomar o corpo só porque ele recusou o pe‐
+dido, nem altere o custo de suas capacidades como
+punição pela resposta.
+A presença pode guardar o assunto, reformular seu
+pedido ou confrontar Ren numa conversa posteri‐
+or, conforme a história. Essa discordância pode
+continuar na história sem precisar de regras novas.
+Se o grupo quiser encenar alguma mudança de
+comportamento ou posição na relação, combinem
+a situação e seu alcance antes, preservando o
+controle do jogador e a ficha.
+Capacidades em jogo
+Amparo Interior: uma personagem Receptáculo de
+Coexistência começa o turno Atordoada, com vida
+e Integridade positivas e 8 PE. Pode gastar 6 PE no
+começo do turno, uma vez por cena, para encerrar
+Atordoado antes de perder a Ação Padrão. Fica
+com 8 − 6 = 2 PE. Não custa ação ou teste, mas
+precisa cumprir esses requisitos. A capacidade não
+cura, não restaura Concentração interrompida e
+não funciona como despertar de Inconsciente.
+Se estivesse Insistindo a zero de vida, não cumpri‐
+ria a exigência de vida positiva de Amparo Interior.
+Estar consciente, por si só, não basta para todas as
+capacidades.
+Reserva Impregnada: um Receptáculo de Conflito
+de nível 7 e Constituição 4 escolhe esse atributo no
+uso. Metade de 7 para baixo dá 3; metade de 4 dá 2:
+recupera 3 + 2 = 5 PE. Cada parcela é arredondada
+para baixo, com mínimo 1; o uso exige Ação Bônus
+e é limitado a uma vez por dia. Se tem máximo 35 e
+saldo 32, fica com 35, sem guardar o excedente
+nem criar energia temporária. O exemplo usa valo‐
+res parciais para explicar o cálculo, não uma ficha
+completa.
+Conversar ou se entender melhor com a presença
+não renova esses usos. Saldos, frequência e recupe‐
+ração seguem a regra publicada.
+Divida o tempo de cena
+Uma intervenção curta pode mostrar o desejo da
+presença e devolver a escolha ao jogador. Se a con‐
+versa se alongar, confira o interesse dos demais e
+alterne o foco com o que seus personagens fazem.
+Não conceda tempo ilimitado de planejamento du‐
+rante uma ação urgente apenas porque o diálogo é
+interno.
+Se o assunto não precisa ser jogado em detalhe,
+resuma: “Taru volta a pedir uma visita ao arquivo;
+Maia combina pensar nisso quando chegar à base.”
+O resumo registra a proposta, sem decidir que a
+visita já aconteceu.
+As falas conhecidas pelos jogadores não se tornam
+necessariamente conhecimento de seus persona‐
+gens. Se Maia não compartilhou a conversa, os co‐
+legas podem ter percebido apenas seus sinais ex‐
+ternos. Preserve isso na condução e nos registros.
+Quando a relação muda
+Depois de uma cena, anote o que mudou: um as‐
+sunto esclarecido, um limite respeitado, um pedido
+recusado ou um compromisso aceito. Use esses
+fatos para a próxima conversa.
+Exemplo: Taru reconhece que Maia cumpriu o
+combinado de procurar informação depois da mis‐
+são. Pode aceitar ouvir sua proposta com outra dis‐
+posição. Isso altera a relação, sem conceder um
+ponto de confiança convertido em poder ou outro
+uso de Conselho Interior.
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 2
+Coexistência comporta discordância. Uma coope‐
+ração isolada em Conflito também não muda auto‐
+maticamente a modalidade. Se uma mudança dura‐
+doura afetar escolhas da Origem, confiram a per‐
+missão de revisão aplicável entre missões antes de
+alterar a ficha. Não há troca livre de modalidade a
+cada cena.
+Se a mesa quiser acrescentar um medidor, disputa
+mecânica ou forma de controle, isso exige desen‐
+volvimento e acordo próprios. As orientações desta
+seção aprofundam a relação narrativa prevista no
+Livro de Regras 1.0.
+Entre mesas
+Registre identidade da presença, desejos e conhe‐
+cimentos já estabelecidos, distribuição de vozes e
+limites combinados. Distinga informação conheci‐
+da do hospedeiro da que foi transmitida a outras
+pessoas.
+Na guilda, mantenha uma referência de continui‐
+dade com o jogador e quem acompanha a história.
+Antes de outro mestre interpretar a presença, ele
+precisa saber o estado da relação e os acordos per‐
+tinentes. Na campanha fechada, a mesma ficha evi‐
+ta que as intenções e conhecimentos mudem sem
+explicação entre sessões.
+Uma nova pessoa mestrando não pode tratar o pri‐
+meiro pedido recusado como autorização para to‐
+mar o personagem. Se surgir uma ideia que ultra‐
+passa o combinado, conversem antes de fixá-la. A
+ficha de convivência serve para registrar essa revi‐
+são.
+Base: Receptáculo, Disputa pelo corpo, Legados de
+história e revisão de Origem do Livro de Regras 1.0.
+Exemplos originais, sem acontecimentos da trama de
+Jujutsu Kaisen.
+Três maldições para a missão
+Três maldições originais para os exemplos do
+Guia. Suas fichas e conversões são experimentais;
+foram preparadas com o Livro de Regras 1.0 e pre‐
+cisam ser avaliadas nas condições de cada encon‐
+tro.
+O encontro principal de As batidas no anexo usa
+um Amontoado do depósito. A referência inicial é
+um grupo de três personagens de nível 2, com fi‐
+chas válidas do Livro de Regras 1.0, recursos
+disponíveis e sem Sequelas. A avaliação do encon‐
+tro compara também condições diferentes. A esco‐
+lha não estabelece uma dificuldade universal por
+nível ou Grau.
+Regras e escolhas do exemplo
+Aplicam-se as regras atuais de turnos, testes, ata‐
+ques, Bloquear, crítico, dano, Integridade, socorro
+e derrota. O nível 2 fornece Maestria 1; ataque
+físico usa Força, a Defesa sem proteção usa Des‐
+treza e as conjurações usam o atributo registrado.
+As montagens ofensivas de Classe 1 têm três pon‐
+tos, custo de 3 PE e nenhuma Melhoria ou Restri‐
+ção: os três pontos viram 3d8. Toque não produz
+um quarto dado quando não há Melhoria paga para
+recuperar.
+Escolhas novas desta base: os totais de vida, as re‐
+servas de PE dos inimigos, as distribuições de atri‐
+butos, treinos, anatomias e comportamentos. O Li‐
+vro de Regras 1.0 não fornece aqui uma fórmula
+geral de vida ou orçamento de inimigo que justifi‐
+que esses totais como escala oficial. Eles serão
+avaliados para estes exemplos. Os nove pontos de
+atributos e o conjunto restrito de perícias são es‐
+colhas de organização desta base; não impõem um
+construtor universal aos inimigos futuros.
+O nível das fichas serve aos efeitos que comparam
+nível, inclusive aquisição. Ele não concede patente
+nem garante equivalência a um personagem joga‐
+dor. Integridade dos inimigos = metade da vida
+máxima, para baixo, conforme Dano na alma. Os
+estágios de Integridade se aplicam; o aumento de
+custo das conjurações pode reduzir a quantidade
+de usos disponíveis.
+Regras comuns das três fichas
+Cada inimigo tem uma Padrão, um Movimento,
+uma Bônus e uma Reação, com renovação e
+conversão conforme Turnos. Um ataque por
+Ação Atacar; nenhuma ação de chefe, ataque
+extra ou contra-ataque gratuito.
+Podem usar as ações gerais que sua anatomia e
+percepção permitirem. Agarrar, Derrubar e Em‐
+purrar substituem o ataque da Ação Atacar e
+não causam o dano da Pancada. Precisam cum‐
+prir alcance, tamanho e requisitos de mãos.
+Bloquear é gratuito, escolhido antes do ataque e
+não gasta Reação. Aparar e Brecha conservam
+seus gatilhos e custos; um revide usa a Pancada,
+nunca a conjuração sem permissão.
+•
+•
+•
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 3
+Têm visão e audição comuns. Não têm visão no
+escuro, percepção através de paredes, voo, tele‐
+porte ou capacidade de atravessar objetos.
+Compreendem frases simples no idioma usado
+pelo grupo; comunicam-se por gestos e ruídos,
+sem fala ou telepatia.
+Têm alma. Não recebem resistência, vulnerabi‐
+lidade, imunidade ou Redução de Dano adicio‐
+nal por esta ficha. A aparência não concede
+imunidades a condições. Energia Reversa con‐
+tra maldições conserva os requisitos e a
+resolução do Livro de Regras 1.0.
+Não carregam equipamento nem possuem Ofí‐
+cios. Sua forma permite segurar objetos compa‐
+tíveis, abrir portas comuns e executar o Selo
+descrito. Uma mão ocupada numa contenção
+não fica livre para outra exigência.
+Ao chegar a zero de vida ou de Integridade, são
+derrotados. Não escolhem Insistir nem recebem
+janela de socorro de personagem jogador. O
+desfecho respeita a intenção da ação e as regras
+de aquisição e destruição.
+Leitura, Talento CE1 presente nas três fichas:
+identifica Classe e Forma de feitiços conjurados a
+até 18 m. Não revela montagem, pensamentos ou
+alvos ocultos. Não causa dano, não concede ação e
+não faz uma reação acontecer sem gatilho.
+Consulta rápida
+Inimigo Nível PV Integridade PE Defesa Bloquear Deslocamento
+Rastejante 2 12 6 0 13 2d10 + 2 9 m
+Amontoado do depósito 2 48 24 6 11 2d10 + 0 9 m
+Vigia das farpas 2 24 12 6 13 2d10 + 2 9 m
+Rastejante
+Um corpo pequeno de papel amassado, com duas
+pernas, dois braços e mãos articuladas. Procura
+abrigo e golpeia quem o encurrala.
+Demonstra uma ameaça frágil. Pode ser usado so‐
+zinho numa ocorrência menor. Dois exemplares
+permitem observar o efeito de haver mais turnos
+inimigos. Não aparece junto do Amontoado no en‐
+contro principal de As batidas no anexo.
+Tamanho: Pequeno. Iniciativa: d20 + 3.
+Força Destreza Constituição Inteligência Essência
+2 3 1 1 2
+TRs: Físico +4; Vigor +1; Intelecto +1; Espírito +2.
+Físico usa Destreza; o treino é em Físico.
+Perícias treinadas: Acrobacia +4; Atletismo +3;
+Furtividade +4; Percepção +3. As demais usam so‐
+mente seu atributo, respeitando requisitos.
+Pancada — Ação Atacar, um ataque corpo a
+corpo, 1,5 m. Ataque +3. No acerto, 1d4 + 2 de
+Concussão. Crítico: 2d4 + 2. Sem custo de PE. Não
+impõe condição.
+Manobras da Ação Atacar: CD 11, substituindo a
+Pancada, conforme as regras comuns.
+Conjuração: não possui técnica ofensiva nem re‐
+serva de PE. Leitura continua sendo apenas o
+Talento descrito.
+Amontoado do depósito
+Uma figura de papelões dobrados e fitas, com duas
+pernas e dois braços terminados em mãos. Acumu‐
+la caixas no depósito e as empurra com o corpo; os
+ruídos vêm dessas ações.
+É o inimigo de As batidas no anexo. Primeiro ob‐
+serva a invasão do seu espaço. Quando atacado ou
+quando alguém tenta desmontar sua pilha, comba‐
+te a criatura consciente mais próxima; em empate,
+prioriza quem o atacou por último. Não golpeia
+pessoas inconscientes. Pode perseguir dentro do
+anexo, mas não sai dele nesta ocorrência. Essa pre‐
+ferência não torna a área externa uma barreira.
+•
+•
+•
+•
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 4
+Tamanho: Médio. Iniciativa: d20 + 1.
+Força Destreza Constituição Inteligência Essência
+3 1 3 1 1
+TRs: Físico +4; Vigor +3; Intelecto +1; Espírito +1.
+Físico usa Força; o treino é em Físico.
+Perícias treinadas: Atletismo +4; Furtividade +2;
+Percepção +2; Intuição +2. As demais usam somen‐
+te seu atributo, respeitando requisitos.
+Pancada — Ação Atacar, um ataque corpo a
+corpo, 1,5 m. Ataque +4. No acerto, 1d4 + 3 de
+Concussão. Crítico: 2d4 + 3. Sem custo de PE. Não
+impõe condição.
+Manobras da Ação Atacar: CD 12, substituindo a
+Pancada, conforme as regras comuns.
+Impacto concentrado — Classe 1, Ação Padrão, 3
+PE, Toque, 1,5 m. Selo: encostar as duas palmas
+antes de tocar o alvo. Precisa enxergar o alvo e
+cumprir o alcance. Ataque de técnica +4; acerto
+causa 3d8 de Concussão. Crítico: 6d8. Não soma
+atributo ao dano nem o dano da Pancada. Não há
+TR, condição, área ou efeito no erro. O erro gasta
+ação e PE.
+Fundamento registrado: atributo Força; dano
+Concussão; Livres: Mira, Castigo; Fechadas: Am‐
+paro, Tempo, Marca. Expressão visual: as marcas
+do corpo se acendem brevemente, sem efeito me‐
+cânico. A ficha conhece apenas a aplicação acima.
+Não recebe repertório, Aptidões, Caminho ou re‐
+cursos adicionais por analogia a um personagem
+jogador.
+Com a reserva inicial de 6 PE, são no máximo dois
+usos pelo custo normal. Os PE não se renovam por
+rodada. Se algum efeito mudar o custo ou impedir
+a execução, use o custo atual. Sem poder conjurar,
+continua dispondo da Pancada e das ações gerais.
+Vigia das farpas
+Uma figura estreita de madeira e papel, com dois
+braços, mãos articuladas e duas pernas. Dispara
+farpas pela sua técnica e procura conservar distân‐
+cia.
+Demonstra uma ameaça à distância. Com PE, dis‐
+para; sem PE suficiente, pode Desengajar, recuar
+ou usar a Pancada se for alcançado. Não tem projé‐
+til gratuito nem ataques adicionais. Não aparece
+no encontro principal de As batidas no anexo.
+Tamanho: Médio. Iniciativa: d20 + 3.
+Força Destreza Constituição Inteligência Essência
+0 3 1 2 3
+TRs: Físico +3; Vigor +1; Intelecto +2; Espírito +4.
+Físico usa Destreza; o treino é em Espírito.
+Perícias treinadas: Acrobacia +4; Furtividade +4;
+Percepção +4; Intuição +3; Investigação +3. As de‐
+mais usam somente seu atributo, respeitando re‐
+quisitos.
+Pancada — Ação Atacar, um ataque corpo a
+corpo, 1,5 m. Ataque +1. No acerto, 1d4 de Con‐
+cussão. Crítico: 2d4. Sem custo de PE. Não impõe
+condição.
+Manobras da Ação Atacar: CD 9, substituindo a
+Pancada, conforme as regras comuns.
+Estalo de farpas — Classe 1, Ação Padrão, 3 PE,
+Projétil, 18 m. Selo: estalar os dedos de uma mão
+livre. Precisa enxergar o alvo e cumprir o alcance.
+Ataque de técnica +4; acerto causa 3d8 de Cortan‐
+te. Crítico: 6d8. Não soma atributo ao dano nem o
+dano da Pancada. Não há TR, condição, área ou
+efeito no erro. O erro gasta ação e PE.
+Fundamento registrado: atributo Essência; dano
+Cortante; Livres: Alcance, Mira; Fechadas: Ampa‐
+ro, Tempo, Marca. Expressão visual: as marcas do
+corpo se acendem brevemente, sem efeito mecâni‐
+co. A ficha conhece apenas a aplicação acima. Não
+recebe repertório, Aptidões, Caminho ou recursos
+adicionais por analogia a um personagem jogador.
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 5
+Com a reserva inicial de 6 PE, são no máximo dois
+usos pelo custo normal. Os PE não se renovam por
+rodada. Se algum efeito mudar o custo ou impedir
+a execução, use o custo atual. Sem poder conjurar,
+continua dispondo da Pancada e das ações gerais.
+Depois da Doma
+Estas conversões permitem mostrar o resultado
+antes de uma tentativa de submissão. Elas mantêm
+identidade e funções dentro da escala de Construir
+invocações. Não transferem a vida ampliada do en‐
+contro nem o orçamento pessoal de Fundamento.
+A aquisição exige nível permitido, derrota sem
+destruição e o TR Espírito previsto no Livro de
+Regras 1.0. O sucesso no TR exorciza; a falha per‐
+mite domar. Não se repete a tentativa sobre o
+mesmo alvo até conseguir uma falha.
+Regras comuns da conversão: conservam nível 2,
+atributos, tamanho, anatomia, comunicação, senti‐
+dos, deslocamento e Leitura. Usam a Maestria do
+invocador. A Defesa sem equipamento é 10 + Des‐
+treza da entidade + metade da Essência ou Inteli‐
+gência escolhida pelo invocador, para baixo. Cha‐
+maremos essa última parcela de B e a Maestria M.
+Conservam o TR treinado e as perícias indicadas;
+substitua o +1 de treino por M. Outros TRs usam
+apenas o atributo da criatura.
+Domada Vida máxima Integridade Defesa Ataque da básica Reserva própria máxima
+Rastejante 10 5 13 + B +2 + M 0 PE
+Amontoado do depósito 14 7 11 + B +3 + M 2 PE
+Vigia das farpas 10 5 13 + B +3 + M 4 PE
+A básica própria de cada conversão é Toque, 1,5
+m, ataque pelo atributo indicado, 1d6 de
+Concussão, sem somar atributo, sem Melhoria ou
+Restrição e sem PE. Consome a atuação básica da
+entidade. No Vigia, a básica usa Essência como
+atributo de acerto da entidade; isso não modifica o
+acerto de uma arma que ele venha a empunhar.
+Cada conversão tem uma vaga de especial de nível
+2 e um Talento CE1, Leitura. O Rastejante deixa a
+vaga de especial vazia; não ganha uma especial
+nova por ser adquirido. No Amontoado e no Vigia,
+a especial conhecida usa dois pontos, sem Melho‐
+ria ou Restrição, causando 2d8 do tipo e pela For‐
+ma da conjuração original: Toque 1,5 m no Amon‐
+toado; Projétil 18 m no Vigia. Ataque pelo atributo
+registrado + M. Sem Selo, atributo no dano, TR ou
+condição. No crítico, 4d8. O custo total é 3 PE.
+Comandar uma especial custa a Padrão do invoca‐
+dor e a atuação básica da entidade. O invocador
+paga 2 PE e a domada paga 1, enquanto houver re‐
+serva; se faltar, ele cobre o restante. A reserva
+máxima segue nível × (1 + Essência ÷ 3, para bai‐
+xo). Entrada, retorno e a Reação coletiva seguem
+Invocações em campo. A domada não conserva um
+turno independente de inimigo nem ganha uma es‐
+pecial além da básica no mesmo ciclo por esta fi‐
+cha.
+Famílias abertas e Livre para cada conversão:
+Rastejante: Alcance, Mira, Controle; Alcance
+Livre. As outras seis ficam Fechadas.
+Amontoado do depósito: Castigo, Mira, Con‐
+trole; Castigo Livre. As outras seis ficam Fecha‐
+das.
+Vigia das farpas: Mira, Alcance, Castigo; Mira
+Livre. As outras seis ficam Fechadas.
+Os máximos da conversão não restauram reservas
+nem removem a queda. Registre valores atuais sem
+exceder os novos máximos e aplique Queda e des‐
+truição e Retorno e corpos caídos quando perti‐
+nentes. Cura comum de entidade não funciona a
+zero de vida. A aquisição não permite voltar à cena
+ignorando os custos de entrada ou retorno.
+Antes do golpe final para aquisição: o Livro de
+Regras 1.0 manda conferir destruição. Uma ocor‐
+rência direta que alcance a vida máxima ou cujo
+excedente além de zero supere metade da máxima
+destrói a entidade; dano em área não destrói por si.
+No Amontoado, os limites de referência do encon‐
+tro são 48 e metade 24; igualar o excedente de 24
+não é superar. Essa conferência usa a ficha do en‐
+contro, antes da conversão. A equipe deve conhe‐
+cer essa diferença ao tentar capturar.
+Usar estas fichas
+Use o Amontoado isolado em As batidas no anexo.
+Os outros dois inimigos fornecem comparações;
+reuni-los com ele cria outro encontro. Não multi‐
+plique vida ou ataques silenciosamente para com‐
+pensar decisões boas do grupo. Para outros tama‐
+•
+•
+•
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 6
+nhos de equipe, faixas de nível, reservas já gastas
+ou composições com entidades, reavalie o
+encontro usando as fichas reais.
+Registre em jogo: recursos iniciais, duração até
+neutralizar a ameaça, quedas, ações durante Insis‐
+tir, socorros, retirada, dúvidas de regra e estado no
+encerramento. Números conferidos ou simulados
+não equivalem a teste de mesa realizado.
+Base: Livro de Regras 1.0, Atributos; Turnos; Ataques;
+Dano na alma; Vida a zero; Fundamento; Invocações
+em campo; Construir invocações. A avaliação do
+encontro explica hipóteses e limites.
+Reserva Condensada: acordo por personagem
+Reserva Condensada é uma habilidade do Livro de
+Regras 1.0. Seus limites são combinados entre jo‐
+gador e mestre para cada personagem. Esta seção
+ajuda a registrar esse acordo; não acrescenta
+valores ou formas de uso.
+Quem pode escolher
+Reserva Condensada aparece entre as menores da
+Restrição corporal. É uma escolha específica dessa
+Origem. Sua presença no livro não concede uma
+reserva adicional a qualquer personagem jogador
+nem define o recurso de inimigos.
+O que registrar na ficha
+O Livro de Regras 1.0 entrega ao jogador e ao
+mestre a definição de quatro campos:
+Campo publicado Registro a conferir
+Quantidade por ocasião Quanto a habilidade permite
+guardar naquela ocasião
+Momento Quando o armazenamento
+pode acontecer
+Condições Quais condições precisam
+estar satisfeitas
+Máximo acumulável O limite da reserva guardada
+Registre o acordo efetivamente feito para aquela
+ficha. Se houver dúvida sobre seu funcionamento,
+esclareça-a com o jogador antes de aplicar o efeito.
+Diferencie o texto publicado e o acordo particular;
+uma decisão local não se torna padrão para outras
+fichas.
+Na guilda, esse registro acompanha o personagem
+para que mestres diferentes consultem a mesma
+combinação. Numa campanha fechada, ele
+permanece junto da ficha.
+Conferir o acordo
+Confira primeiro se a ficha escolheu esta menor da
+Restrição corporal. Depois, encontre os quatro re‐
+gistros previstos no Livro de Regras 1.0. Se algum
+estiver ausente, conclua o acordo da ficha antes de
+usar a parte indefinida. O Guia não oferece um
+número substituto.
+Registro da personagem Preenchimento do acordo
+Personagem, versão e
+menor escolhida
+__________
+Quantidade guardada por
+ocasião
+__________
+Momento permitido __________
+Condições de armazena‐
+mento
+__________
+Máximo acumulável __________
+Jogador, mestre respon‐
+sável e data do acordo
+__________
+As perguntas sobre entrada, retirada e
+continuidade em Dúvidas sobre técnicas e capaci‐
+dades ajudam a esclarecer o funcionamento que a
+ficha realmente propôs. Elas não concedem ações,
+recuperação ou uma forma de depósito por conta
+própria. Uma exceção expressa do Livro de Regras
+1.0 continua valendo: os PE temporários de Último
+Fôlego de Energia não podem ser armazenados
+nesta Reserva.
+Exemplo. Iara entrega uma ficha que escolheu Re‐
+serva Condensada e já registra a quantidade por
+ocasião, o momento e as condições. O campo de
+máximo acumulável está vazio. O mestre aponta
+esse campo e pede à jogadora que complete o acor‐
+do com ele; não copia o teto de outra personagem
+nem permite acúmulo sem limite. Na retomada,
+confere os quatro campos e conserva o acordo jun‐
+to da versão da ficha. O exemplo mostra como con‐
+ferir a ficha, sem criar números para a habilidade.
+CICLO MALDITO / GUIA DO MESTRE APOIOS REUNIDOS
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL 7
+

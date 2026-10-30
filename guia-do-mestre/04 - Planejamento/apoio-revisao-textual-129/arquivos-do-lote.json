@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md"
+  ],
+  "casos": [
+    {
+      "id": "s043",
+      "fonte_original": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "id_prova": "obter"
+    },
+    {
+      "id": "s045",
+      "fonte_original": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "id_prova": "tempo"
+    },
+    {
+      "id": "s046",
+      "fonte_original": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "id_prova": "reconstruir"
+    },
+    {
+      "id": "s051",
+      "fonte_original": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+      "id_prova": "cao"
+    }
+  ]
+}

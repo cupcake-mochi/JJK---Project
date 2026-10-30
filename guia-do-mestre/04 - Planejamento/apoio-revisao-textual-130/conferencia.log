@@ -1,0 +1,80 @@
+{
+  "registro": 130,
+  "pdf_sha256": "45576d57a7a816651602ccb0dfe16028bdcec41715f2e52e3a10b4bad31fbe55",
+  "casos_conferidos": [
+    {
+      "id": "s052",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s053",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s054",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+      "numeros_preservados": false,
+      "mudancas_de_numero": [
+        [
+          [],
+          [
+            "6"
+          ]
+        ]
+      ],
+      "tabelas": 7,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s055",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 22,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 628,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "mudancas_de_numero": {
+    "s052": [],
+    "s053": [],
+    "s054": [
+      [
+        [],
+        [
+          "6"
+        ]
+      ]
+    ],
+    "s055": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de regra; o único número novo é o nível 6 citado na ressalva sobre Ren.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

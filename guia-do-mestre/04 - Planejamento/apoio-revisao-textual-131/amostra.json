@@ -1,0 +1,84 @@
+{
+  "registro": 131,
+  "fontes": [
+    {
+      "id": "preparacao",
+      "fonte_id": "s002",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+      "fonte_original": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+      "titulo": "Ficha de preparação de missão",
+      "sha256": "ce592a232bd8361cf7658290c5a72738401cb62db1320b705fce90ba35ce93fb",
+      "sha256_original": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5"
+    },
+    {
+      "id": "conducao",
+      "fonte_id": "s005",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+      "fonte_original": "06 - Redacao do Guia/05-folha-de-conducao.md",
+      "titulo": "Folha de condução",
+      "sha256": "18d96085a346b7b81d79ce8f6ee011a8871b6a7ee3a44037ad2a229f8b2ccd04",
+      "sha256_original": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1"
+    },
+    {
+      "id": "estado",
+      "fonte_id": "s024",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+      "fonte_original": "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+      "titulo": "Registro de estado e socorro",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "sha256_original": "351e3004f85eef842ae23888cd7ec70c1bc6f988de01d0d5450ea636cdbc018c"
+    },
+    {
+      "id": "continuidade",
+      "fonte_id": "s016",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md",
+      "fonte_original": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+      "titulo": "Linha de continuidade",
+      "sha256": "cddd1a3d85f172102bab4fd8d70843849fac4c1ff9a1e5a0b5984b77e945e5c6",
+      "sha256_original": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-131/prova-textual.html",
+  "html_sha256": "4f50befe1f099c85be4cabea77309eaea8ec6f9868687886e7e8788215fa7dc0",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-131/output/pdf/Ciclo-Maldito-Fichas-de-Mesa-Revisao-Textual.pdf",
+  "pdf_sha256": "300e41f111f58c11ad69bc0622b3eba58941eb272b40b75add26aefbc0b6aa42",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 238
+    },
+    {
+      "pagina": 2,
+      "palavras": 183
+    },
+    {
+      "pagina": 3,
+      "palavras": 312
+    },
+    {
+      "pagina": 4,
+      "palavras": 506
+    },
+    {
+      "pagina": 5,
+      "palavras": 473
+    },
+    {
+      "pagina": 6,
+      "palavras": 191
+    },
+    {
+      "pagina": 7,
+      "palavras": 279
+    },
+    {
+      "pagina": 8,
+      "palavras": 353
+    },
+    {
+      "pagina": 9,
+      "palavras": 312
+    }
+  ],
+  "limite": "Quatro consultas complementares revistas; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

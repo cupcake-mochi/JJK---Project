@@ -1,0 +1,58 @@
+{
+  "registro": 134,
+  "fontes": [
+    {
+      "id": "termos",
+      "fonte_id": "s088",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/88-indice-de-termos-do-mundo.md",
+      "fonte_original": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+      "titulo": "Termos do mundo",
+      "sha256": "6e14a949282a6eaee9ec17a0d2d44cbb02eb9dbda6551c1a645953a84e736f52",
+      "sha256_original": "4b16d0d7c285ce9dcba7abdd2c33d544a5ede852aad0e9649883964d3356973e"
+    },
+    {
+      "id": "obra",
+      "fonte_id": "s087",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "fonte_original": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+      "titulo": "Ideias da obra para suas missões",
+      "sha256": "8e406ab206ebdf35e705436dab0a012dd4407d609c3c2819ba784b491dc9a1df",
+      "sha256_original": "b5de7fe6710bcb6d14874ff0f2c204d6510caeb9b6ff22f0e8f6ad4138606ca3"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-134/prova-textual.html",
+  "html_sha256": "51baab53b975411c7cced8e465f394c0c10735bd5351279d33ed3125d8319992",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-134/output/pdf/Ciclo-Maldito-Mundo-e-Obra-Revisao-Textual.pdf",
+  "pdf_sha256": "2d48b0e0fa7fb67bd5b3ba12d5cf7dd3f1d7e353de44e578059f4840665ab87d",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 399
+    },
+    {
+      "pagina": 2,
+      "palavras": 544
+    },
+    {
+      "pagina": 3,
+      "palavras": 479
+    },
+    {
+      "pagina": 4,
+      "palavras": 106
+    },
+    {
+      "pagina": 5,
+      "palavras": 446
+    },
+    {
+      "pagina": 6,
+      "palavras": 650
+    },
+    {
+      "pagina": 7,
+      "palavras": 578
+    }
+  ],
+  "limite": "Duas consultas complementares revistas no lote C-04 (17 no total); conferência do conjunto, consultas, conferência global e integração continuam pendentes."
+}

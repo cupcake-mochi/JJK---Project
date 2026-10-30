@@ -1,0 +1,157 @@
+{
+  "registro": 139,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+      "sha256": "279122dca94322cfaaa6ca28476c829a73791bf095d29bf9de881913268159b5",
+      "palavras_da_fonte": 4355,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "sha256": "bdccde9dfdf564cec34ca1b49fb78278aa8b7d795ed62ccdcdd375d3181bd9b5",
+      "palavras_da_fonte": 1165,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256": "385405ebf971e6cd3789f03bf18f7c587aa2c7219d584cb669aecd173fa5af10",
+      "palavras_da_fonte": 2108,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/63-carregador-consulta-e-doma.md",
+      "sha256": "83540e989b341071a799476cea2222619eba4c863c61023ca88887eacca91009",
+      "palavras_da_fonte": 2310,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+      "sha256": "b5e01df619fa95b10daad4725cb7f7b14fa9bacecd1fce9761f0539a99e3eab3",
+      "palavras_da_fonte": 2005,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+      "sha256": "5a7870d1850048fa707481ab5cafd154fa1bbc99bf439cf93e820271b3e01dbc",
+      "palavras_da_fonte": 2312,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "sha256": "4bca114305e7550d226792d9ad9bc19323a96eb0d383a7f02f438999a531ab79",
+      "palavras_da_fonte": 1584,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "sha256": "17c77e6a356e14ff83c3dc1a4874b4cb6ea33fde346f7242e3b9330143914b1c",
+      "palavras_da_fonte": 1643,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
+      "sha256": "550b8fa69d2d939892e0bfc6b078b1a7fe388b1120e45933aac02741a1954c88",
+      "palavras_da_fonte": 2264,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/77-ficha-preenchida-ren-e-sora.md",
+      "sha256": "41eeafb426062b5b1ccdad8998b7153df4d0efedd3106dc043cfaf2342cf01f0",
+      "palavras_da_fonte": 2038,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd",
+      "palavras_da_fonte": 1329,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c",
+      "palavras_da_fonte": 2368,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f",
+      "palavras_da_fonte": 3675,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
+      "sha256": "ce74d2a43de3f787721e8971884b79afaa9c53577675236c285b976ca542b356",
+      "palavras_da_fonte": 1663,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+      "sha256": "91c1bf673f001cd27e3fa74025d7af784b93c73011e4ebf78405848b1054efe3",
+      "palavras_da_fonte": 2021,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/73-ensaio-guiado-do-sineiro.md",
+      "sha256": "d66c1045be4dea0de50c2ddbe7f92076cda7e9aa43ac32062ace2a278c22f162",
+      "palavras_da_fonte": 3365,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/78-preparar-perigos-ambientais.md",
+      "sha256": "d4ac6db2471df18f998d2f5e2ae4dd1801393d2f077d539dcd9c40a0a06364a3",
+      "palavras_da_fonte": 2156,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2",
+      "palavras_da_fonte": 2463,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+      "sha256": "9ae929a7cffb8d6b72e51acd44dbb311de6fdd7993b40c362f88a8a67bec60f2",
+      "palavras_da_fonte": 2012,
+      "alcance": "Leitura completa e comparação com a explicação do capítulo. Capítulo 6 em duas passagens; trechos alterados dos apoios revistos em contexto."
+    }
+  ],
+  "fontes_retomadas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "sha256": "4c99cc0ce0fed67d76092229dec84e18f8346fe82a836df35023e5cebefff2b5",
+      "leitura_integral_anterior": 137,
+      "alcance_atual": "Retomadas as referências usadas pelo capítulo 6; fonte inalterada, sem nova alegação de leitura integral neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+      "sha256": "54cdf54fa99d71310048b68f5cf87cae5a3b25ee6cd3584712b44cffd22457ce",
+      "leitura_integral_anterior": 138,
+      "alcance_atual": "Retomadas as referências usadas pelo capítulo 6; fonte inalterada, sem nova alegação de leitura integral neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "leitura_integral_anterior": 137,
+      "alcance_atual": "Retomadas as referências usadas pelo capítulo 6; fonte inalterada, sem nova alegação de leitura integral neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "sha256": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c",
+      "leitura_integral_anterior": 138,
+      "alcance_atual": "Retomadas as referências usadas pelo capítulo 6; fonte inalterada, sem nova alegação de leitura integral neste lote."
+    }
+  ],
+  "regras_consultadas": [
+    "Maestria",
+    "Bloquear",
+    "Agarrar, derrubar e empurrar",
+    "Integridade de criaturas e estágios",
+    "Categoria de Efeito e Classe",
+    "Leitura de Reservas",
+    "Envenenado e condições Pesadas"
+  ],
+  "fonte_tecnica": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "limite": "Leitura editorial, comparação de exemplos e cálculos selecionados. Não é sessão observada, avaliação completa de todos os percentuais do livro nem revisão visual do PDF completo."
+}

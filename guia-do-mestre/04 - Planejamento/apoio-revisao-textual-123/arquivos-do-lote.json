@@ -1,0 +1,41 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+    "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md"
+  ],
+  "casos": [
+    {
+      "id": "s101",
+      "fonte_original": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+      "id_prova": "guardas"
+    },
+    {
+      "id": "s102",
+      "fonte_original": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "id_prova": "arquivo"
+    },
+    {
+      "id": "s079",
+      "fonte_original": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+      "id_prova": "po"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "registro": 129,
+  "pdf_sha256": "67b1c396ec655ce78712c1c7631c6416746112d8773b38eb6d042e9d72f9e328",
+  "casos_conferidos": [
+    {
+      "id": "s043",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s045",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s046",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s051",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+      "numeros_preservados": false,
+      "mudancas_de_numero": [
+        [
+          [],
+          [
+            "1",
+            "4",
+            "4",
+            "11",
+            "1",
+            "10",
+            "12"
+          ]
+        ],
+        [
+          [],
+          [
+            "1",
+            "2",
+            "1"
+          ]
+        ],
+        [
+          [
+            "3",
+            "3"
+          ],
+          [
+            "2"
+          ]
+        ]
+      ],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 16,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 599,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 55,
+  "casos_pendentes": 4,
+  "lotes_pendentes": 1,
+  "mudancas_de_numero": {
+    "s043": [],
+    "s045": [],
+    "s046": [],
+    "s051": [
+      [
+        [],
+        [
+          "1",
+          "4",
+          "4",
+          "11",
+          "1",
+          "10",
+          "12"
+        ]
+      ],
+      [
+        [],
+        [
+          "1",
+          "2",
+          "1"
+        ]
+      ],
+      [
+        [
+          "3",
+          "3"
+        ],
+        [
+          "2"
+        ]
+      ]
+    ]
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Única mudança de número: golpe desarmado de Kaito com o d4 de Canalizar e aviso do golpe máximo de 11, pelo Livro de Regras 1.0.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

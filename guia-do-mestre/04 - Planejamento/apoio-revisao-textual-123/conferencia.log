@@ -1,0 +1,92 @@
+{
+  "registro": 123,
+  "pdf_sha256": "e55565ca6cfd12794ee9900d6635629b8affe1a38d19e34018b78901fe3e7b95",
+  "casos_conferidos": [
+    {
+      "id": "s101",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+      "numeros_preservados": false,
+      "mudancas_de_numero": [
+        [
+          [
+            "4"
+          ],
+          [
+            "6"
+          ]
+        ],
+        [
+          [
+            "4"
+          ],
+          [
+            "6"
+          ]
+        ]
+      ],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s102",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s079",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 5,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 13,
+  "rotulos_simplificados": {
+    "Fixado na parede junto de C12;": "Fixado num suporte junto de C12, sem bloquear a área de passagem;"
+  },
+  "links_locais_conferidos": 452,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 30,
+  "casos_pendentes": 29,
+  "lotes_pendentes": 7,
+  "mudancas_de_numero": {
+    "s101": [
+      [
+        [
+          "4"
+        ],
+        [
+          "6"
+        ]
+      ],
+      [
+        [
+          "4"
+        ],
+        [
+          "6"
+        ]
+      ]
+    ],
+    "s102": [],
+    "s079": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Única mudança de número: golpe desarmado de Tessa, d4 → d6 (Maestria 2), pelo Livro de Regras 1.0.",
+  "mapa": "Esquema em caracteres do s079 preservado na fonte; a prova usa o desenho vetorial existente. Mapa do s102 desenhado a partir da tabela do caso; ambos conferidos visualmente.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

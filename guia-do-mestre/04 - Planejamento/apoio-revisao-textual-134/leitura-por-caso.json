@@ -1,0 +1,46 @@
+{
+  "registro": 134,
+  "casos": [
+    {
+      "id": "s088",
+      "fonte_original": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/88-indice-de-termos-do-mundo.md",
+      "sha256_original": "4b16d0d7c285ce9dcba7abdd2c33d544a5ede852aad0e9649883964d3356973e",
+      "sha256_revisado": "6e14a949282a6eaee9ec17a0d2d44cbb02eb9dbda6551c1a645953a84e736f52",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s087",
+      "fonte_original": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "sha256_original": "b5de7fe6710bcb6d14874ff0f2c204d6510caeb9b6ff22f0e8f6ad4138606ca3",
+      "sha256_revisado": "8e406ab206ebdf35e705436dab0a012dd4407d609c3c2819ba784b491dc9a1df",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        5,
+        7
+      ],
+      "paginas_na_prova_final": [
+        5,
+        7
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

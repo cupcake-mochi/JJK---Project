@@ -1,0 +1,106 @@
+{
+  "registro": 133,
+  "casos": [
+    {
+      "id": "s040",
+      "fonte_original": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256_original": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+      "sha256_revisado": "75e2886cfbcb6796b656ab70b9191b4896620c6bdbf7143c844e0dc384a71875",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        2
+      ],
+      "paginas_na_prova_final": [
+        1,
+        2
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s042",
+      "fonte_original": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+      "sha256_original": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d",
+      "sha256_revisado": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        3,
+        4
+      ],
+      "paginas_na_prova_final": [
+        3,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s044",
+      "fonte_original": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256_original": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+      "sha256_revisado": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        5,
+        7
+      ],
+      "paginas_na_prova_final": [
+        5,
+        7
+      ],
+      "registros_por_passagem": {
+        "1": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s058",
+      "fonte_original": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "sha256_original": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+      "sha256_revisado": "31cd98ad1b9788d42fc8111bfa4155448defe11ad5b18cb6bd8eae1e95a89911",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        7,
+        10
+      ],
+      "paginas_na_prova_final": [
+        7,
+        10
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s061",
+      "fonte_original": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256_original": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+      "sha256_revisado": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        10,
+        11
+      ],
+      "paginas_na_prova_final": [
+        10,
+        11
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

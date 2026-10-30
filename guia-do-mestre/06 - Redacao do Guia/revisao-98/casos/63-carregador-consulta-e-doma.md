@@ -106,7 +106,7 @@ Sem capacidade do invocador que permita recolher uma maldição domada, ela perm
 
 Quando os requisitos de retorno forem atendidos, religar a entidade caída de nível 2 custa **Bônus e 2 PE do invocador**, no lugar do corpo; volta com **7/14 PV**, sem recuperar Integridade por esse pagamento e sem básica criada pelo retorno. A entrada comum, quando uma capacidade permitir recolhimento e manifestação, custa **Bônus e 1 PE**, não fornece básica naquele ciclo e exige outra Bônus para a primeira tarefa. Respeite o teto de duas entidades ativas e qualquer exceção efetivamente possuída.
 
-Você pode ordenar: “Mantenha aquela pessoa no lugar” ou “leve este aliado até a entrada pelo chão livre”. Dar ou mudar a tarefa custa a Bônus do invocador; agir e percorrer o caminho usam a básica e o Movimento da entidade. Ela não ganha a Bônus do inimigo nem os 18 m do turno de agarrão do encontro. Inconsciência e morte confirmada do invocador têm consequências diferentes; consulte [Transporte e continuidade](<../../54-transporte-e-continuidade-das-entidades.md>).
+Você pode ordenar: “Mantenha aquela pessoa no lugar” ou “leve este aliado até a entrada pelo chão livre”. Dar ou mudar a tarefa custa a Bônus do invocador; agir e percorrer o caminho usam a básica e o Movimento da entidade. Ela não ganha a Bônus do inimigo nem os 18 m do turno de agarrão do encontro. Inconsciência e morte confirmada do invocador têm consequências diferentes; consulte [Transporte e continuidade](<54-transporte-e-continuidade-das-entidades.md>).
 
 ## Registro para a mesa
 

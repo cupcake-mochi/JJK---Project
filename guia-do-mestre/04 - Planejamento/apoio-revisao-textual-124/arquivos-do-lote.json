@@ -1,0 +1,41 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+    "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+    "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md"
+  ],
+  "casos": [
+    {
+      "id": "s103",
+      "fonte_original": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+      "id_prova": "febre"
+    },
+    {
+      "id": "s077",
+      "fonte_original": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+      "id_prova": "ficha"
+    },
+    {
+      "id": "s068",
+      "fonte_original": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+      "id_prova": "chefe"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+ "arquivos": 94,
+ "alteracoes": 283,
+ "links_ruins_antes": 0,
+ "links_ruins_depois": 0,
+ "ainda_fora_do_livro": {
+  "00-como-usar-este-livro.md": [
+   "casos-completos.html"
+  ],
+  "01-sua-primeira-missao.md": [
+   "planta-do-anexo.svg"
+  ],
+  "03a-ideias-para-aventuras.md": [
+   "canal-das-hortas.svg"
+  ],
+  "06-inimigos-e-perigos.md": [
+   "casos-completos.html"
+  ],
+  "07-personagens-e-tecnicas.md": [
+   "27-convivencia-do-receptaculo.md",
+   "92-reserva-condensada-proposta-e-comparacao.md",
+   "casos-completos.html"
+  ],
+  "08-entre-missoes.md": [
+   "37-recompensas-e-fechamento.md"
+  ],
+  "casos/11-espaco-e-usos-criativos.md": [
+   "REFERENCIAS.md"
+  ],
+  "casos/22-quedas-e-socorro.md": [
+   "13-piloto-editorial-ocorrencia-sobrenatural.md",
+   "13-piloto-editorial-ocorrencia-sobrenatural.md"
+  ],
+  "casos/33-casos-especificos-de-avaliacao.md": [
+   "92-reserva-condensada-proposta-e-comparacao.md"
+  ],
+  "casos/43-aquisicao-e-projetos-de-entidades.md": [
+   "14-base-pequena-de-inimigos-r53.md"
+  ],
+  "casos/48-pacifismo-impraticavel-minuta.md": [
+   "46-pacifismo-conducao-pela-materia.md"
+  ],
+  "casos/52-domar-o-amontoado.md": [
+   "14-base-pequena-de-inimigos-r53.md"
+  ],
+  "casos/57-avaliar-o-encontro-do-amontoado.md": [
+   "14-base-pequena-de-inimigos-r53.md"
+  ],
+  "casos/82-testes-trabalho-em-grupo-e-iniciativa.md": [
+   "REFERENCIAS.md"
+  ],
+  "casos/83-perceber-procurar-e-interpretar-sinais.md": [
+   "REFERENCIAS.md"
+  ],
+  "casos/84-percursos-apoios-e-quedas.md": [
+   "REFERENCIAS.md"
+  ],
+  "casos/85-trajetorias-ferramentas-e-improvisacao.md": [
+   "REFERENCIAS.md"
+  ],
+  "consultas/LEIA-ME.md": [
+   "casos-completos.html"
+  ]
+ },
+ "falhas": []
+}

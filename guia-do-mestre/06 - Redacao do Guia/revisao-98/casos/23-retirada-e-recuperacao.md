@@ -2,7 +2,7 @@
 
 Para organizar uma retirada, confira quem precisa sair, qual caminho pode usar e como percorrê-lo. Ao chegar, veja se o perigo ficou para trás, quem ainda precisa de atendimento e se o grupo pode descansar. O fim do combate, sozinho, não resolve esses cuidados.
 
-Use [Quedas e socorro](<22-quedas-e-socorro.md>) para quem ainda está Morrendo. O [registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>) ajuda a conservar prazo, reservas e consequências até a retomada.
+Use [Quedas e socorro](<22-quedas-e-socorro.md>) para quem ainda está Morrendo. O [registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>) ajuda a conservar prazo, reservas e consequências até a retomada.
 
 ## Mostre os caminhos de saída
 
@@ -10,7 +10,7 @@ Apresente acessos, obstáculos e sinais de perseguição que os personagens cons
 
 No anexo, a maldição pode perseguir dentro do prédio e volta à pilha quando todos saem, conforme seu comportamento preparado. Isso não transforma a saída numa barreira mágica nem retira os custos de percorrer o caminho. Os personagens podem observar o comportamento, mas uma hipótese sobre ele não elimina o risco antes de ser confirmada.
 
-Uma retirada bem-sucedida pode encerrar a pressão daquela cena. A ameaça, os danos ao lugar e os compromissos de acompanhamento podem continuar. Use a [linha de continuidade](<../../16-linha-de-continuidade.md>) para registrar esses estados.
+Uma retirada bem-sucedida pode encerrar a pressão daquela cena. A ameaça, os danos ao lugar e os compromissos de acompanhamento podem continuar. Use a [linha de continuidade](<../consultas/16-linha-de-continuidade.md>) para registrar esses estados.
 
 ## Movimento e ataques de oportunidade
 
@@ -76,9 +76,9 @@ As regras gerais abaixo podem ser modificadas pela Origem e por capacidades. Con
 | Corpo Exaurido | Curas recuperam metade da quantidade normal, para baixo, mínimo 1 quando positiva. O longo propício soma 25% da vida máxima ao saldo, até o máximo, sem dividir novamente. Fora de ambiente propício, o longo não recupera vida. Os demais recursos seguem suas regras |
 | Recuperação Abundante, se escolhida | O curto em ambiente propício para a Restrição recupera 40% dos PE máximos, para baixo, mínimo 1, respeitando impedimentos específicos. Fora desse ambiente, conserva a recuperação normal |
 
-Esses são casos relevantes para a consulta, não uma lista de todas as exceções possíveis. Reparo do corpo, Núcleo Dependente e outras condições seguem suas próprias regras. Consulte [Vínculos e mudanças](<../../26-vinculos-e-mudancas.md>) para o cotidiano e o cuidado, e a entrada completa da Origem no Livro de Regras 1.0 para conferir suas regras.
+Esses são casos relevantes para a consulta, não uma lista de todas as exceções possíveis. Reparo do corpo, Núcleo Dependente e outras condições seguem suas próprias regras. Consulte [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>) para o cotidiano e o cuidado, e a entrada completa da Origem no Livro de Regras 1.0 para conferir suas regras.
 
-Veja [Restrição corporal: participação e cuidados](<../../91-restricao-corporal-e-cuidados.md>) para preparar cada uma das três condições e acompanhar suas recuperações. O [reparo de Ena](<../../90-reparar-personagem-de-corpo-construido.md>) demonstra o atendimento de um Corpo Amaldiçoado.
+Veja [Restrição corporal: participação e cuidados](<91-restricao-corporal-e-cuidados.md>) para preparar cada uma das três condições e acompanhar suas recuperações. O [reparo de Ena](<90-reparar-personagem-de-corpo-construido.md>) demonstra o atendimento de um Corpo Amaldiçoado.
 
 ## Descanso curto
 
@@ -147,6 +147,6 @@ Enquanto um personagem não puder agir, explique ao jogador o que o grupo pode f
 
 Confira os saldos depois de aplicar a recuperação, renove apenas os usos correspondentes e diga aos jogadores como suas fichas ficaram. Se houver outra mesa, passe também atendimento em andamento, consequências e decisões provisórias de regra.
 
-Registre separadamente como está o personagem e o que falta resolver na missão. Ele pode estar recuperado e ainda precisar resolver um objetivo perdido; o lugar pode estar seguro e alguém ainda precisar de atendimento. A [linha de continuidade](<../../16-linha-de-continuidade.md>) conserva essas pendências sem confundi-las com as reservas da ficha.
+Registre separadamente como está o personagem e o que falta resolver na missão. Ele pode estar recuperado e ainda precisar resolver um objetivo perdido; o lugar pode estar seguro e alguém ainda precisar de atendimento. A [linha de continuidade](<../consultas/16-linha-de-continuidade.md>) conserva essas pendências sem confundi-las com as reservas da ficha.
 
 *Base: Reações e oportunidades, Carga, Arrastar e transportar, Derrota e morte, Descansos, Exaustão e Cena e usos de habilidades do Livro de Regras 1.0. Para trabalho, treinamento e recompensas, consulte os capítulos correspondentes.*

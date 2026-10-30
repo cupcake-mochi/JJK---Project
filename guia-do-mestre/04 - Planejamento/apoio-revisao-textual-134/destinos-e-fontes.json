@@ -1,0 +1,2509 @@
+{
+  "registro": 134,
+  "etapa_5": "Conferência conjunta das consultas no registro 111; métodos 6–10 reorganizados, ainda sem integração ao PDF completo.",
+  "fontes": [
+    {
+      "id": "s006",
+      "fonte": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+      "sha256": "3fc443472394072bb17e13299a46215a6ab6b224f9903d0302db02783395dbc6",
+      "titulo": "O mundo de Ciclo Maldito",
+      "exposicao_principal": "N02.1",
+      "usos": [
+        "N01.1",
+        "N02.2",
+        "N02.4",
+        "N02.6",
+        "N08.1"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s006",
+          "secao_atual": "Feiticeiros e técnicas",
+          "destino": "N02.2"
+        },
+        {
+          "fonte_id": "s006",
+          "secao_atual": "As Origens no dia a dia",
+          "destino": "N02.4"
+        },
+        {
+          "fonte_id": "s006",
+          "secao_atual": "Entre uma missão e outra",
+          "destino": "N08.1"
+        }
+      ]
+    },
+    {
+      "id": "s086",
+      "fonte": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+      "sha256": "593b563a817c5af06f3618b00ecb1e6b8fcaba7e10aa1e125540a36633e1f4b8",
+      "titulo": "A sociedade jujutsu",
+      "exposicao_principal": "N02.3",
+      "usos": [
+        "N02.4",
+        "N02.5",
+        "N02.6",
+        "N03.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s007",
+      "fonte": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+      "sha256": "abfa84eff1dfa0b5f5e66d604e5c9f56ec21985fbe5d16fe15167c8ddc237440",
+      "titulo": "A sessão zero",
+      "exposicao_principal": "N05.1",
+      "usos": [
+        "N01.2",
+        "N10.1"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s007",
+          "secao_atual": "Proponha a campanha",
+          "destino": "N05.1"
+        },
+        {
+          "fonte_id": "s007",
+          "secao_atual": "Organize os encontros",
+          "destino": "N10.1"
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "fonte": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+      "sha256": "6d1b993f5a31771b9f37bf891008a49a13a80d3d36cefeaa92f6a76293b5d62e",
+      "titulo": "Exemplo: uma campanha no bairro",
+      "exposicao_principal": "N05.1",
+      "usos": [
+        "N01.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s001",
+      "fonte": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+      "sha256": "1b718a1e8a0358804fd6ecff6b1694ae9493cd77fbc78a56a700ea5a0151524d",
+      "titulo": "Preparar uma missão",
+      "exposicao_principal": "N03.1",
+      "usos": [
+        "N03.2",
+        "N03.3",
+        "N03.5",
+        "N03.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s003",
+      "fonte": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+      "sha256": "611968c8afca9a821de5fb1cbf2db1c63671b4f655173865f420437218e4c2c6",
+      "titulo": "Missão: As batidas no anexo",
+      "exposicao_principal": "N01.4",
+      "usos": [
+        "N01.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s013",
+      "fonte": "06 - Redacao do Guia/13-preparar-uma-investigacao.md",
+      "sha256": "bbf006f43478cca0a234542edef8f1583cdaeb99b37cb4e8fd516990c4aa7d18",
+      "titulo": "Preparar uma investigação",
+      "exposicao_principal": "N03.4",
+      "usos": [
+        "N04.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s014",
+      "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+      "sha256": "02d5d10670fbd43243fd66f4caea2dc484e6d7a8fba01f27c058b14f719c431d",
+      "titulo": "O aviso de reabertura",
+      "exposicao_principal": "B1",
+      "usos": [
+        "N03.4",
+        "N04.3",
+        "N04.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s015",
+      "fonte": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+      "sha256": "f1fb0669012ee8798ac16394812eefd3d9c2165f4c76805c86d1f6dbc1bc6721",
+      "titulo": "Das missões à campanha",
+      "exposicao_principal": "N05.3",
+      "usos": [
+        "N10.1",
+        "N10.3"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s015",
+          "secao_atual": "Quando muda o mestre",
+          "destino": "N10.3"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "fonte": "06 - Redacao do Guia/17-faccoes-e-reacoes.md",
+      "sha256": "3755945bd06a9ba9350c53e53f5e13889cb76602c454da7bf2ae47d28e7d1415",
+      "titulo": "Facções",
+      "exposicao_principal": "N05.4",
+      "usos": [
+        "N03.2",
+        "A5.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s018",
+      "fonte": "06 - Redacao do Guia/18-preparar-antagonistas.md",
+      "sha256": "84d7a0c75207656b3ee1281ace88f4a5b3f7805bf613ea692a9061a54107cb02",
+      "titulo": "Preparar antagonistas",
+      "exposicao_principal": "N05.5",
+      "usos": [
+        "N06.1"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s019",
+      "fonte": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+      "sha256": "575a822c85398f5cf654c0126cf3e3cf7feb48d6699517cc69020840c8d50fe4",
+      "titulo": "Encerrar arcos e campanhas",
+      "exposicao_principal": "N05.6",
+      "usos": [
+        "N01.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s004",
+      "fonte": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+      "sha256": "e3972495207395971f48c719738d1b46c066b6ec2c7ff062bff2e37160c75bda",
+      "titulo": "Conduzir uma sessão",
+      "exposicao_principal": "N04.1",
+      "usos": [
+        "N01.1",
+        "N04.2",
+        "N04.3",
+        "N04.6",
+        "N04.7",
+        "N04.8"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Quando pedir um teste",
+          "destino": "N04.2"
+        },
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Interprete as outras pessoas",
+          "destino": "N04.3"
+        },
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Dê espaço a todos",
+          "destino": "N04.6"
+        },
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Quando passar à próxima cena",
+          "destino": "N04.6"
+        },
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Quando começa o combate",
+          "destino": "N04.7"
+        },
+        {
+          "fonte_id": "s004",
+          "secao_atual": "Dúvidas de regra",
+          "destino": "N04.8"
+        }
+      ]
+    },
+    {
+      "id": "s082",
+      "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "sha256": "de9aacbab5eacad04b6eeb3a8a3472907d88b1ebd4b44aaa833ff75331af153d",
+      "titulo": "Exemplos de testes e iniciativa",
+      "exposicao_principal": "N04.2",
+      "usos": [
+        "N04.7",
+        "B1"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s082",
+          "secao_atual": "Cinco participantes, todos com total 14",
+          "destino": "B1"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "fonte": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+      "sha256": "b3297b607fb58a7971a43257758c8e164ca3cc106f03b569958d8b1acffdd1f2",
+      "titulo": "Conduzir uma investigação",
+      "exposicao_principal": "N04.4",
+      "usos": [
+        "N03.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s083",
+      "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+      "sha256": "678f73776168a9370781000cbe5e3ebf48a5a3045410e8ce53eb75af2b2ff579",
+      "titulo": "Percepção e pistas",
+      "exposicao_principal": "B1",
+      "usos": [
+        "N04.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s011",
+      "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+      "sha256": "cdb70c2037774e6bf62ceef0598f5bd77d00428efc68f995f8c96b2792702c4f",
+      "titulo": "O cenário e as ideias dos jogadores",
+      "exposicao_principal": "N04.5",
+      "usos": [
+        "N03.3",
+        "B1"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s084",
+      "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+      "sha256": "46243ad3e2f4c5b77c2dd4307f92830e3bedaddff7f58e46309b6674a21c4983",
+      "titulo": "Movimento, saltos e quedas",
+      "exposicao_principal": "B1",
+      "usos": [
+        "N04.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s085",
+      "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256": "f1761764013cf106ec5a5bd3573ce49a7aab101a2c2b5a710fe663b2b29d8fbe",
+      "titulo": "Ferramentas e improvisação",
+      "exposicao_principal": "B1",
+      "usos": [
+        "N04.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s021",
+      "fonte": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+      "sha256": "1ecca4d6c6ad67bb2d15504f1b83402cbe5d126c0cca599fa8407bb5d8053ad2",
+      "titulo": "Vida, energia e outros recursos",
+      "exposicao_principal": "N04.7",
+      "usos": [
+        "N01.5",
+        "A3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s022",
+      "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+      "sha256": "da971a6b4dde92dd6adadb3410122804fc188c91885547d35e42f1d996c6dbdb",
+      "titulo": "Quedas e socorro",
+      "exposicao_principal": "N04.7",
+      "usos": [
+        "N01.5",
+        "A3",
+        "B1"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s022",
+          "secao_atual": "Exemplo: duas quedas no mesmo combate",
+          "destino": "B1"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+      "sha256": "3168adfb9c31cbf31f8cff37a0a452fbb48cd311388665b3746e323897fd7540",
+      "titulo": "Retirada e recuperação",
+      "exposicao_principal": "N04.7",
+      "usos": [
+        "N08.1",
+        "N01.6",
+        "B1"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s023",
+          "secao_atual": "Descanso curto",
+          "destino": "N08.1"
+        },
+        {
+          "fonte_id": "s023",
+          "secao_atual": "Descanso longo",
+          "destino": "N08.1"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "fonte": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+      "sha256": "2c2b2c4874b64f101777468c71e2be98dda421e27a71ca7f6c56685436aa0e4a",
+      "titulo": "Criar inimigos e preparar encontros",
+      "exposicao_principal": "N06.1",
+      "usos": [
+        "N06.2",
+        "N06.5",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s059",
+      "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+      "sha256": "580e3ee7b0e0c857a96eee2dfab42ffcd2b1f6f22e5d0da934525dc414441f47",
+      "titulo": "PE, recarga e limites de uso",
+      "exposicao_principal": "N06.3",
+      "usos": [
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s060",
+      "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+      "sha256": "88b7e6597208c4e542c734ba2149d55238d5c230c57a2823799cad456375db6d",
+      "titulo": "Montar as habilidades de um inimigo",
+      "exposicao_principal": "N06.2",
+      "usos": [
+        "N06.3",
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s074",
+      "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+      "sha256": "2ff7123f75ee07845156b9f947e72268d892e145d5aac34eafefab4e7c43752e",
+      "titulo": "Escolher os números de um inimigo",
+      "exposicao_principal": "N06.4",
+      "usos": [
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s100",
+      "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+      "sha256": "46741ead35158639beef76e0fe848a94a76285f5e30ce2909107b908eae1e532",
+      "titulo": "Inimigos de níveis mais altos",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s067",
+      "fonte": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+      "sha256": "a209c7602234bc304ba1bb5165eba40b835f89b8ebeca1fc1f3845cd56dd9813",
+      "titulo": "Preparar chefes e confrontos maiores",
+      "exposicao_principal": "N06.6",
+      "usos": [
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s078",
+      "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+      "sha256": "3c09872eeafed61c5a847d3e142e767556a4756bab748f3319acf8d2fc341c0d",
+      "titulo": "Preparar perigos ambientais",
+      "exposicao_principal": "N06.7",
+      "usos": [
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s057",
+      "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256": "fd2f86c4cb0e5e75d52f465298edc442b40e4be466c1f90f7cc895b3b337a0f0",
+      "titulo": "Avaliar o encontro do Amontoado",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.5",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s062",
+      "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256": "2df8572c43539f699e543269e6b4608d28a51da31e062d065f5e1a40fa00a01f",
+      "titulo": "O Carregador e o corredor de entulho",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s063",
+      "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+      "sha256": "0c9fb33588ced8939b539e4a316c27cecd4d80fdaebc4fe78302deae02b77b90",
+      "titulo": "Carregador de sinos: ficha e Doma",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.2",
+        "N09.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s064",
+      "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+      "sha256": "4356a823c7c98b90863ae04395d0ac81cede24bb4454e3b02443f36d9fe7f247",
+      "titulo": "A passarela e o guincho",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s065",
+      "fonte": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256": "21355c2560c6e6ad7fabd61b027c682d399a48195ae31615d032e6074a393eeb",
+      "titulo": "Combinar inimigos e perigos do cenário",
+      "exposicao_principal": "N06.5",
+      "usos": [
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s066",
+      "fonte": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256": "bead0f1ec917d3cf634e454b8205e60749c49d6875d1da03a7931eaeb720e909",
+      "titulo": "O Carregador e a saída que fecha",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s071",
+      "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+      "sha256": "88b4ca21bb1796e4bf1ebc8c6bac6e27d81c96b481e44b701fb1108c617a429b",
+      "titulo": "Sineiro do Recolhimento",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s072",
+      "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+      "sha256": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+      "titulo": "Sineiro: ficha após a Doma",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N09.4",
+        "N09.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s073",
+      "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "sha256": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+      "titulo": "Retirar a caixa, proteger a equipe",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.6",
+        "N04.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s075",
+      "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+      "titulo": "Ren e Sora: atacante e apoio",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.2",
+        "N06.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s076",
+      "fonte": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "sha256": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900",
+      "titulo": "Escolher quem enfrentar primeiro",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s101",
+      "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+      "sha256": "fcb6d7339a50ec760618a67b6a9e6bbb5ef5fa021c95fae8411de04de0b8d5b2",
+      "titulo": "Haru, Vigia e Tessa",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.3",
+        "N06.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s102",
+      "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256": "8801ec4ee818591dc5cb8484a6906545fc685c4890009b767bb83d73484cfa9f",
+      "titulo": "Disputa pelo arquivo",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.5",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s079",
+      "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "dd9723f49b66e79cdff3daf1b9fb2a4455ac17202fa82264a691daba18fde4be",
+      "titulo": "O pó na sala de conservação",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.7",
+        "N10.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s103",
+      "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "sha256": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870",
+      "titulo": "A febre dos fios",
+      "exposicao_principal": "B2",
+      "usos": [
+        "N06.7",
+        "N08.1"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s025",
+      "fonte": "06 - Redacao do Guia/25-conferir-personagens.md",
+      "sha256": "fdae07fffebda414ee43a81d1f58d496062ccca30a427b9d850ce04b2169b5ff",
+      "titulo": "Conferir personagens",
+      "exposicao_principal": "N07.1",
+      "usos": [
+        "N01.2",
+        "N07.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s026",
+      "fonte": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+      "sha256": "36b2b7df575df15881252bd0080a1bc0dfbb5489b872970cbef5e5666c4d3251",
+      "titulo": "Vínculos e mudanças do personagem",
+      "exposicao_principal": "N05.2",
+      "usos": [
+        "N02.4",
+        "N07.2"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s026",
+          "secao_atual": "Encarnado: a vida de outra pessoa",
+          "destino": "N07.2"
+        },
+        {
+          "fonte_id": "s026",
+          "secao_atual": "Corpo Amaldiçoado: consciência e cuidado",
+          "destino": "N07.2"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "fonte": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+      "sha256": "3971ecfd7cda2537a34dd984b16f1a196c4234629918f7846996053d8e4d81ae",
+      "titulo": "Convivência do Receptáculo",
+      "exposicao_principal": "N07.2",
+      "usos": [
+        "N05.2",
+        "A5.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s089",
+      "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+      "sha256": "5c2bfdb61671dfc1a6b763257cd518507a4b86434c2c023b4164c9e5d2c239b4",
+      "titulo": "Vida rolada e uma família própria",
+      "exposicao_principal": "B3",
+      "usos": [
+        "N07.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s090",
+      "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f",
+      "titulo": "Reparar um personagem de corpo construído",
+      "exposicao_principal": "N07.2",
+      "usos": [
+        "N08.3",
+        "B3"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s090",
+          "secao_atual": "O atendimento de Ena",
+          "destino": "B3"
+        }
+      ]
+    },
+    {
+      "id": "s091",
+      "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "sha256": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889",
+      "titulo": "Restrição corporal: participação e cuidados",
+      "exposicao_principal": "N07.2",
+      "usos": [
+        "N02.4",
+        "B3"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s091",
+          "secao_atual": "A ficha de Nilo",
+          "destino": "B3"
+        },
+        {
+          "fonte_id": "s091",
+          "secao_atual": "Cuidados com cada condição",
+          "destino": "B3"
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "fonte": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+      "sha256": "6e5468b49b13e72ed464caeb673aae245eec136c017f6eef0f88fcf69018c856",
+      "titulo": "Reserva Condensada: acordo por personagem",
+      "exposicao_principal": "N07.3",
+      "usos": [
+        "A5.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s029",
+      "fonte": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+      "sha256": "98cbf66d0c82c68abd6be10b0763773aa98c4b06321ac1e2291dc1e9cd096287",
+      "titulo": "Avaliar técnicas e criações",
+      "exposicao_principal": "N07.4",
+      "usos": [
+        "N07.6",
+        "A5.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s030",
+      "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "sha256": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e",
+      "titulo": "Exemplos de avaliação de poderes",
+      "exposicao_principal": "N07.4",
+      "usos": [
+        "B3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s031",
+      "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "sha256": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf",
+      "titulo": "Avaliar poderes avançados",
+      "exposicao_principal": "N07.5",
+      "usos": [
+        "B3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s033",
+      "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+      "sha256": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1",
+      "titulo": "Dúvidas sobre técnicas e capacidades",
+      "exposicao_principal": "B3",
+      "usos": [
+        "N07.3",
+        "N07.4",
+        "N07.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s093",
+      "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+      "sha256": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8",
+      "titulo": "Ampliar uma mescla e trocar sua Forma",
+      "exposicao_principal": "B3",
+      "usos": [
+        "N07.4",
+        "N07.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s094",
+      "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+      "sha256": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae",
+      "titulo": "Repetir Melhorias e definir Restrições",
+      "exposicao_principal": "B3",
+      "usos": [
+        "N07.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s095",
+      "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+      "sha256": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e",
+      "titulo": "Efeitos de cena e cancelamento",
+      "exposicao_principal": "B3",
+      "usos": [
+        "N07.5",
+        "N04.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s039",
+      "fonte": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+      "sha256": "0af7f9603fe30ba732d2cdd4afc3c7416f9e564395317c574d9f094ef7bdcd9e",
+      "titulo": "Atividades e tempo entre missões",
+      "exposicao_principal": "N08.2",
+      "usos": [
+        "N08.1",
+        "N10.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s034",
+      "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+      "sha256": "58f05b448e4e0fbdf1287e86f661808e37d9b930cc0419611528d169dcfbf382",
+      "titulo": "Ofícios, fabricação e reparos",
+      "exposicao_principal": "N08.3",
+      "usos": [
+        "N08.2",
+        "B4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s035",
+      "fonte": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+      "sha256": "b66aea4ce3eb509b88800546f3a01b1d07eec38a160064e8a63f4208efadfef2",
+      "titulo": "Comprar, emprestar e contratar",
+      "exposicao_principal": "N08.4",
+      "usos": [
+        "A5.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s036",
+      "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+      "sha256": "8f79dc5e2af56ce4661d11d8ee05b3bc153cb294e093638113872ad9133d2f72",
+      "titulo": "Ferramentas e objetos amaldiçoados",
+      "exposicao_principal": "N08.5",
+      "usos": [
+        "N08.3",
+        "B4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s096",
+      "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+      "sha256": "562479f1c2bc06ecd3d1477ac5ec27b612c7e838dbeb7fa11a5bc5b73f3deab9",
+      "titulo": "Uma ferramenta nova: Anel de Testemunho",
+      "exposicao_principal": "B4",
+      "usos": [
+        "N08.3",
+        "N08.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s097",
+      "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+      "sha256": "063c14ffecc229fbd9b07c56e0a8339bfcf0e15759cde6b55d10fbda85e32a02",
+      "titulo": "Empréstimo familiar e venda com condição",
+      "exposicao_principal": "B4",
+      "usos": [
+        "N08.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s098",
+      "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+      "sha256": "3744de53af310c8e2e1c3a88cbc3daf6a5c1b5e063543590df97cb3577c41a38",
+      "titulo": "Um objeto selado: a Pastilha do Último Aviso",
+      "exposicao_principal": "B4",
+      "usos": [
+        "N08.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s037",
+      "fonte": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+      "sha256": "10ec2016e0ba0d8709f1af63d4450c62982d881dcc22ff9264d8c9bcf3382a27",
+      "titulo": "Encerrar a missão e entregar recompensas",
+      "exposicao_principal": "N08.6",
+      "usos": [
+        "N01.7",
+        "N10.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s099",
+      "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+      "sha256": "2a1c61cc93fdf48a4df8aa2daf47df73be246e7241b8b1d80a544465b9633cbe",
+      "titulo": "Feitos do Limiar e promoção de Grau",
+      "exposicao_principal": "B4",
+      "usos": [
+        "N08.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s041",
+      "fonte": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+      "sha256": "dc4f3a41973694ca3b9e42067e9726a5816068c1a56b7002000bfb197af8e412",
+      "titulo": "Pactos e Promessas",
+      "exposicao_principal": "N09.1",
+      "usos": [
+        "N09.2",
+        "N09.3",
+        "A5.8"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s041",
+          "secao_atual": "Promessas: combine as obrigações",
+          "destino": "N09.3"
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+      "sha256": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+      "titulo": "Desenvolver uma ideia de Pacto",
+      "exposicao_principal": "N09.2",
+      "usos": [
+        "B5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s048",
+      "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+      "sha256": "2fa53f0064d52e6ba20afeba643acea0f4b2d7a851e270dd6f0316f82f108d1c",
+      "titulo": "Pacifismo impraticável",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s049",
+      "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+      "sha256": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c",
+      "titulo": "Liberação irregular",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s050",
+      "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+      "sha256": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+      "titulo": "A Promessa do arquivo",
+      "exposicao_principal": "N09.3",
+      "usos": [
+        "B5"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s050",
+          "secao_atual": "Três exemplos de desfecho",
+          "destino": "B5"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+      "sha256": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2",
+      "titulo": "Obter e criar entidades",
+      "exposicao_principal": "N09.4",
+      "usos": [
+        "N09.6",
+        "B5"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s043",
+          "secao_atual": "Reconstruir",
+          "destino": "N09.6"
+        },
+        {
+          "fonte_id": "s043",
+          "secao_atual": "Transferir ou herdar",
+          "destino": "N09.6"
+        },
+        {
+          "fonte_id": "s043",
+          "secao_atual": "Quando o invocador deixa de agir",
+          "destino": "N09.6"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3",
+      "titulo": "Tempo e materiais para criar entidades",
+      "exposicao_principal": "N09.5",
+      "usos": [
+        "B5",
+        "N08.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s046",
+      "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+      "sha256": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191",
+      "titulo": "Reconstruir, transferir e herdar entidades",
+      "exposicao_principal": "N09.6",
+      "usos": [
+        "B5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s051",
+      "fonte": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+      "sha256": "073874080ae38f16be4665142fd27a954587aed3f49157b408622daa5573bada",
+      "titulo": "A prova do Cão de sombra",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s052",
+      "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+      "sha256": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+      "titulo": "Domar o Amontoado do depósito",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.4",
+        "N09.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s053",
+      "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+      "sha256": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+      "titulo": "Construir e evoluir o Escriba de campo",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.4",
+        "N09.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s054",
+      "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+      "sha256": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+      "titulo": "Transporte com entidades",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.6",
+        "N04.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s055",
+      "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+      "titulo": "Fabricar e evoluir o Vigia do depósito",
+      "exposicao_principal": "B5",
+      "usos": [
+        "N09.5",
+        "N09.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s080",
+      "fonte": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+      "sha256": "e416206de56ff63b0acbe7ac3855f84662f0e2f156d3cef94c9ccf047b49a48f",
+      "titulo": "Registros para a campanha",
+      "exposicao_principal": "N10.4",
+      "usos": [
+        "N10.5",
+        "C2",
+        "A4"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s080",
+          "secao_atual": "Ouça o grupo e divida as tarefas",
+          "destino": "N10.5"
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+      "sha256": "7a89bb8af065830cbae5d200b5b06867bad16a44e077ec11c820f0fef30e6bcf",
+      "titulo": "Passar a missão entre mestres",
+      "exposicao_principal": "N10.3",
+      "usos": [
+        "B1",
+        "A4"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s081",
+          "secao_atual": "O socorro de Mei",
+          "destino": "B1"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "fonte": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+      "sha256": "66272f94a33445756adb1c91406b837273a2169727f28c5ecfffb9f78ec170b6",
+      "titulo": "Ficha de acordos do grupo",
+      "exposicao_principal": "A5.1",
+      "usos": [
+        "N05.1",
+        "N01.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s002",
+      "fonte": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+      "sha256": "52aafb130da5737850df36e52fb9e9bdb43d06c7625cb29db4d1c740331e1de5",
+      "titulo": "Ficha de preparação de missão",
+      "exposicao_principal": "A1",
+      "usos": [
+        "N03.1",
+        "N10.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s005",
+      "fonte": "06 - Redacao do Guia/05-folha-de-conducao.md",
+      "sha256": "b333e4ede29faeae51acffbb8a2b3ad4ae3abbaf82a25103293a1ec0e62bfee1",
+      "titulo": "Folha de condução",
+      "exposicao_principal": "A2",
+      "usos": [
+        "N04.2",
+        "N04.4",
+        "N04.7",
+        "N04.8"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "s005",
+          "secao_atual": "Em combate",
+          "destino": "N04.7"
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "fonte": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+      "sha256": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436",
+      "titulo": "Registro de descobertas",
+      "exposicao_principal": "A5.2",
+      "usos": [
+        "N04.4",
+        "N10.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s016",
+      "fonte": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+      "sha256": "0f0de158752a3766d926572116ad7d87b1b136ba2308b2a5a9b897ee35791f29",
+      "titulo": "Linha de continuidade",
+      "exposicao_principal": "A4",
+      "usos": [
+        "N05.3",
+        "N10.3",
+        "N10.5"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s020",
+      "fonte": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+      "sha256": "0a768025f13aa11148052e55a3ae3a61da37e0d99c3c0bcc4543753539b057e4",
+      "titulo": "Ficha de facção",
+      "exposicao_principal": "A5.3",
+      "usos": [
+        "N05.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s024",
+      "fonte": "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+      "sha256": "351e3004f85eef842ae23888cd7ec70c1bc6f988de01d0d5450ea636cdbc018c",
+      "titulo": "Registro de estado e socorro",
+      "exposicao_principal": "A3",
+      "usos": [
+        "N04.7",
+        "N10.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s028",
+      "fonte": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+      "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+      "titulo": "Ficha de convivência",
+      "exposicao_principal": "A5.4",
+      "usos": [
+        "N07.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s032",
+      "fonte": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256": "690a395148887e23f8ea1e4228328ff13dacfea882dfed410a6c105588052339",
+      "titulo": "Ficha de avaliação de capacidade",
+      "exposicao_principal": "A5.5",
+      "usos": [
+        "N07.4",
+        "N07.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s038",
+      "fonte": "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md",
+      "sha256": "fdd1c3d0881d04f83d9cc4d72435d759326a3faaeeabd6159db08d43e4b55497",
+      "titulo": "Ficha de projeto e entrega",
+      "exposicao_principal": "A5.6",
+      "usos": [
+        "N08.3",
+        "N08.4"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s040",
+      "fonte": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2",
+      "titulo": "Registro de dedicação por ficha",
+      "exposicao_principal": "A5.7",
+      "usos": [
+        "N08.2",
+        "N10.2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s042",
+      "fonte": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+      "sha256": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d",
+      "titulo": "Registro de Pactos e Promessas",
+      "exposicao_principal": "A5.8",
+      "usos": [
+        "N09.1",
+        "N09.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s044",
+      "fonte": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465",
+      "titulo": "Registro de aquisição e estado de entidade",
+      "exposicao_principal": "A5.9",
+      "usos": [
+        "N09.4",
+        "N09.5",
+        "N09.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s058",
+      "fonte": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "sha256": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5",
+      "titulo": "Ficha de inimigo e encontro",
+      "exposicao_principal": "A5.10",
+      "usos": [
+        "N06.2",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s077",
+      "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "sha256": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4",
+      "titulo": "Ficha preenchida: Ren e Sora",
+      "exposicao_principal": "B2",
+      "usos": [
+        "A5.10",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s061",
+      "fonte": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260",
+      "titulo": "Conferir uma habilidade de inimigo",
+      "exposicao_principal": "A5.11",
+      "usos": [
+        "N06.2",
+        "N06.8"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s068",
+      "fonte": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "sha256": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207",
+      "titulo": "Conferir e comparar um chefe",
+      "exposicao_principal": "A5.12",
+      "usos": [
+        "N06.6",
+        "B2"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "s088",
+      "fonte": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+      "sha256": "4b16d0d7c285ce9dcba7abdd2c33d544a5ede852aad0e9649883964d3356973e",
+      "titulo": "Termos do mundo",
+      "exposicao_principal": "C1",
+      "usos": [
+        "N02.1",
+        "N02.2",
+        "N02.3"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "x003",
+      "fonte": "04 - Planejamento/12-piloto-editorial-cotidiano.md",
+      "sha256": "f03b3ffbbde7504348aa920c23c27d80e7419bd1a4295620161bc91811b44d28",
+      "titulo": "A entrega trocada",
+      "exposicao_principal": "N01.3",
+      "usos": [
+        "N03.2",
+        "N04.1",
+        "N04.3",
+        "N04.6"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "x001",
+      "fonte": "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md",
+      "sha256": "34ef9f4be18f9fda48e7e8cda051281d607ea57f75119ccb548843376a4e7613",
+      "titulo": "As batidas no anexo: missão comentada",
+      "exposicao_principal": "N01.5",
+      "usos": [
+        "N01.4",
+        "N01.6",
+        "N01.7"
+      ],
+      "recortes": []
+    },
+    {
+      "id": "x002",
+      "fonte": "04 - Planejamento/14-base-pequena-de-inimigos-r53.md",
+      "sha256": "31596cc95f3a5fa142cbbd28f9e24215f27b5a72f875eb93b9aa3d6948378e01",
+      "titulo": "Três maldições para a missão",
+      "exposicao_principal": "N01.5",
+      "usos": [
+        "N06.2",
+        "N09.4"
+      ],
+      "recortes": [
+        {
+          "fonte_id": "x002",
+          "secao_atual": "Rastejante",
+          "destino": "N06.2"
+        },
+        {
+          "fonte_id": "x002",
+          "secao_atual": "Vigia das farpas",
+          "destino": "N06.2"
+        },
+        {
+          "fonte_id": "x002",
+          "secao_atual": "Conversões conhecidas para maldições domadas",
+          "destino": "N09.4"
+        }
+      ]
+    },
+    {
+      "id": "s087",
+      "fonte": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+      "sha256": "b5de7fe6710bcb6d14874ff0f2c204d6510caeb9b6ff22f0e8f6ad4138606ca3",
+      "titulo": "Ideias da obra para suas missões",
+      "exposicao_principal": "D1",
+      "usos": [
+        "N02.6"
+      ],
+      "recortes": []
+    }
+  ],
+  "casos": {
+    "B1": [
+      {
+        "id": "s014",
+        "titulo": "O aviso de reabertura",
+        "fonte": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#aviso",
+        "exposicao_principal": "B1",
+        "orientacao": "Usar um trecho como exemplo breve de investigação e negociação; manter o preparo completo consultável.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+        "sha256_revisado": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      {
+        "id": "s082",
+        "titulo": "Exemplos de testes e iniciativa",
+        "fonte": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#testes",
+        "exposicao_principal": "N04.2",
+        "orientacao": "Manter teste, custo, ajuda e grupo no método; cinco empates e aplicações longas passam a B1.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+        "sha256_revisado": "c186389b5a2179ccc5eff35355b1bed6d398ab1202494b891441272b0e7d1f1b",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      {
+        "id": "s083",
+        "titulo": "Percepção e pistas",
+        "fonte": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#pistas",
+        "exposicao_principal": "B1",
+        "orientacao": "Preservar todos os casos de percepção; o método mantém a distinção indispensável entre informação, alcance e meios.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+        "sha256_revisado": "c4abeeb18310aeb7fa124ff6ba07e0aac491d78dd9b2c722a55241a7137cd819",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      {
+        "id": "s011",
+        "titulo": "O cenário e as ideias dos jogadores",
+        "fonte": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#cenario",
+        "exposicao_principal": "N04.5",
+        "orientacao": "Conservar a leitura de posições e meios; mostrar soluções funcionais e remeter cálculos especializados aos casos.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+        "sha256_revisado": "0133e97f5cc2d344285bf6143bb5340519cd861ea10a2cd2ee41bd3159cf2bd5",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      {
+        "id": "s084",
+        "titulo": "Movimento, saltos e quedas",
+        "fonte": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#movimento",
+        "exposicao_principal": "B1",
+        "orientacao": "Preservar medidas, contas e consequências de percursos e quedas; o corpo ensina como apresentar a situação e escolher a regra.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+        "sha256_revisado": "df5ed0cad345119db9bfc8a2ab061e0214a5daf4e58bbed68a4c75136e267ec7",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      {
+        "id": "s085",
+        "titulo": "Ferramentas e improvisação",
+        "fonte": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#ferramentas",
+        "exposicao_principal": "B1",
+        "orientacao": "Preservar trajetórias, instalação e armas improvisadas; levar as decisões gerais para o corpo da condução.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+        "sha256_revisado": "7782025943e3346d9ebd99c0e22ac0eeb738973ca2e7e19f046402860ca01f69",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      {
+        "id": "s022",
+        "titulo": "Quedas e socorro",
+        "fonte": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#socorro",
+        "exposicao_principal": "N04.7",
+        "orientacao": "Preservar no corpo o passo a passo de queda e socorro; o exemplo extenso de duas quedas vira caso consultável.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+        "sha256_revisado": "2ae6960254f09f787ef35f51d91872bb19a62673076e436285bd866d6669d242",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      {
+        "id": "s023",
+        "titulo": "Retirada e recuperação",
+        "fonte": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#recuperacao",
+        "exposicao_principal": "N04.7",
+        "orientacao": "Preservar retirada, recuperação e descansos; aproximar descanso do cotidiano e deixar cálculos extensos em consulta.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+        "sha256_revisado": "d370c5525afaf2f692e28544c8818dbe6dd1cfc14b41ef46551cd68dba9a4cf4",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      {
+        "id": "s081",
+        "titulo": "Passar a missão entre mestres",
+        "fonte": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#passagem",
+        "exposicao_principal": "N10.3",
+        "orientacao": "Manter uma passagem curta e suficiente no capítulo; preservar a retomada detalhada com socorro em B1.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+        "sha256_revisado": "df302c3bd410f82c79bd40d14b0a7352865989eb59e9d7aedc5939ffb74bf982",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      }
+    ],
+    "B2": [
+      {
+        "id": "s059",
+        "titulo": "PE, recarga e limites de uso",
+        "fonte": "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#energia",
+        "exposicao_principal": "N06.3",
+        "orientacao": "Manter a escolha entre PE, recarga e condições no método; cada modelo explica sua função e interações.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+        "sha256_revisado": "91ef3035c0d49dc43138d8c9d6a81e3947d0a148ec3c9470195c23b44abaeb75",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s060",
+        "titulo": "Montar as habilidades de um inimigo",
+        "fonte": "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#habilidades",
+        "exposicao_principal": "N06.2",
+        "orientacao": "Conservar construção e classificação da habilidade; manter um caso acompanhado e encaminhar detalhes dos demais.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+        "sha256_revisado": "b0ad6f815fb2e878697eb17d871248e1e6eeb1c8cb39ec38aa30fe8e0ed89c5a",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s074",
+        "titulo": "Escolher os números de um inimigo",
+        "fonte": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#numeros",
+        "exposicao_principal": "N06.4",
+        "orientacao": "Conservar referências de números e seu alcance no corpo; contas completas e premissas ficam no estudo.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+        "sha256_revisado": "5211841389ea9918a57763b4f8b5ba0f336b167e459ea15806244b0712363892",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s100",
+        "titulo": "Inimigos de níveis mais altos",
+        "fonte": "06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#faixas",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar comparação por faixa e suas limitações; levar a advertência útil ao método sem criar escala geral validada.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+        "sha256_revisado": "392c1e319d10e27a7d9965195d2942fca23351f030a223c1f57c2eb7d79c85b1",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s067",
+        "titulo": "Preparar chefes e confrontos maiores",
+        "fonte": "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#chefes",
+        "exposicao_principal": "N06.6",
+        "orientacao": "Manter o método de chefes; comportamentos, ações e sinais continuam explicados antes das aplicações extensas.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+        "sha256_revisado": "dbc13d4de49450f3473ea328278e80b2aa49990a688b0a7a7018b126acace9e5",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s078",
+        "titulo": "Preparar perigos ambientais",
+        "fonte": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#perigos",
+        "exposicao_principal": "N06.7",
+        "orientacao": "Conservar preparação do perigo, exposição, resolução, sinais e formas de terminar; aplicações extensas vão a B2.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+        "sha256_revisado": "1b567e446408dd4a6fffc45a8e1619a408996834c1d4461d721bd5dd4ac72a54",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s057",
+        "titulo": "Avaliar o encontro do Amontoado",
+        "fonte": "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#amontoado",
+        "exposicao_principal": "B2",
+        "orientacao": "Preservar análise e limites da simulação; levar conclusões didáticas ao método sem prometer risco previsto para qualquer mesa.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+        "sha256_revisado": "8e5a4a3e98c17f30cfda0ded27f2416d26803edf11d73aa88bce9b17f0497443",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s062",
+        "titulo": "O Carregador e o corredor de entulho",
+        "fonte": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#corredor",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar cenário, mapa e escolhas do corredor; método de composição aproveita uma leitura breve do caso.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+        "sha256_revisado": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s063",
+        "titulo": "Carregador de sinos: ficha e Doma",
+        "fonte": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#doma",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar ficha do Carregador e conversão de Doma; nenhuma dessas fichas é substituída por resumo.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+        "sha256_revisado": "8bc65447b44a878ae5114b00d390a90195009728f1075602cf0eb9284272617f",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s064",
+        "titulo": "A passarela e o guincho",
+        "fonte": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#passarela",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar o perigo e seu cronograma completos; apresentar no método uma sequência curta de preparação/intervenção.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+        "sha256_revisado": "c6369826f02fb2a0943c75bf9ceead48e3c75becd951a417e02bedbcd71b3890",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s065",
+        "titulo": "Combinar inimigos e perigos do cenário",
+        "fonte": "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#combinar",
+        "exposicao_principal": "N06.5",
+        "orientacao": "Manter a combinação de inimigos e ambiente no método; comparação extensa acompanha seus casos em B2.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+        "sha256_revisado": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s066",
+        "titulo": "O Carregador e a saída que fecha",
+        "fonte": "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#portao",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar mapa, fechamento do portão e caminhos de resposta; citar como variação com objetivo.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+        "sha256_revisado": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s071",
+        "titulo": "Sineiro do Recolhimento",
+        "fonte": "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#sineiro",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar ficha, cenário e exemplo de chefe; referenciar a função de suas respostas no método.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+        "sha256_revisado": "5ec375e03e584115ea201bd2b8e6f76e1819e512fd0489dac6cdf7bed7ef4c5f",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s072",
+        "titulo": "Sineiro: ficha após a Doma",
+        "fonte": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#doma",
+        "exposicao_principal": "B2",
+        "orientacao": "Manter ficha do Sineiro após Doma junto do caso e remeter a ela na aquisição de entidades.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+        "sha256_revisado": "e2b74ba3649c06f1543d5112531cc524fa256716bea3645d7e405f449eb5a668",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s073",
+        "titulo": "Retirar a caixa, proteger a equipe",
+        "fonte": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#ensaio",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar rodadas e socorro; resumir a lição de objetivo e resposta no capítulo de chefes.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+        "sha256_revisado": "0399afd07a93db9bfaec78665a1cdd2f42c2cd7edb5d9b76707381fcefa1804c",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s075",
+        "titulo": "Ren e Sora: atacante e apoio",
+        "fonte": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#dupla",
+        "exposicao_principal": "B2",
+        "orientacao": "Preservar as duas fichas completas; um resumo pode ilustrar atacante e apoio no método.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+        "sha256_revisado": "eb9626586c821f069ff82b091b22c1c5997e790cadc1e467680187f51dce7951",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s076",
+        "titulo": "Escolher quem enfrentar primeiro",
+        "fonte": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#confronto",
+        "exposicao_principal": "B2",
+        "orientacao": "Manter confronto e comparação de alvos; usar a conclusão sobre apoio como exemplo de composição.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+        "sha256_revisado": "57b9a8d85d0e52f6a16310f0ba2a279e31bbc3910502a142197bc5a90abe8965",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s101",
+        "titulo": "Haru, Vigia e Tessa",
+        "fonte": "06 - Redacao do Guia/101-haru-vigia-e-tessa.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#guardas",
+        "exposicao_principal": "B2",
+        "orientacao": "Preservar fichas, custos e Reações dos guardas; apresentar no método a função de suas escolhas.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+        "sha256_revisado": "327f794e3dc01ae864a6850f858b97b07e6c742b353123607fe39cfe92c5e721",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s102",
+        "titulo": "Disputa pelo arquivo",
+        "fonte": "06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#arquivo",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar o arquivo e a economia de ações; uma conclusão curta ajuda a avaliar terreno e controle.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+        "sha256_revisado": "58bfc2b0e84c98fcd2df1c9ea13e00d24f3c20c76927f350fca88a5db90c3da0",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s079",
+        "titulo": "O pó na sala de conservação",
+        "fonte": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#po",
+        "exposicao_principal": "B2",
+        "orientacao": "Conservar poeira, condições e saída; a passagem entre mestres referencia o estado resultante.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+        "sha256_revisado": "290e5f7f17866806ab39aa6b1b7d4e24da3bbf226f86b5b15d35c8be941659d5",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s103",
+        "titulo": "A febre dos fios",
+        "fonte": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#febre",
+        "exposicao_principal": "B2",
+        "orientacao": "Preservar doença, evolução e tratamento completos; o método mantém o acompanhamento de efeitos prolongados.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+        "sha256_revisado": "6533b1c09c72445c27cf7aa2034f583d7f6c24126f0a141fa4b9d675469637fe",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s077",
+        "titulo": "Ficha preenchida: Ren e Sora",
+        "fonte": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#ficha",
+        "exposicao_principal": "B2",
+        "orientacao": "Manter o preenchimento junto de Ren e Sora; o formulário em branco continua acessível em A5.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+        "sha256_revisado": "711033094f45bb580b571522cdaee5211f518792105babb4e365bcf4c7e06b76",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s068",
+        "titulo": "Conferir e comparar um chefe",
+        "fonte": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#chefe",
+        "exposicao_principal": "A5.12",
+        "orientacao": "Manter ferramenta de chefe; reorganizar crítica histórica do Carregador como exemplo útil, preservando contexto de proposta.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+        "sha256_revisado": "352adf2916951c24419286c7d96a6398a109301c0ff41d8dd2f8a99218b46e1b",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      }
+    ],
+    "B3": [
+      {
+        "id": "s089",
+        "titulo": "Vida rolada e uma família própria",
+        "fonte": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#arata",
+        "exposicao_principal": "B3",
+        "orientacao": "Preservar opções e família Arata; extrair orientação de personalização. A CD 16 permanece questão de conferência, sem alteração aqui.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+        "motivo": "CD de História corrigida de 16 para 18 da escala fixa; demais valores e capacidades preservados.",
+        "sha256_revisado": "4ec35ca11403716b5a92b7cc2c2cd280de700fcccf170b56b859ac88aaafc9b8"
+      },
+      {
+        "id": "s090",
+        "titulo": "Reparar um personagem de corpo construído",
+        "fonte": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#reparo",
+        "exposicao_principal": "N07.2",
+        "orientacao": "Conservar cuidado e diferença entre reparar e descansar; caso completo de atendimento fica em B3.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+        "sha256_revisado": "bd85ac34bdc146874f4b57c4f1e9119f284546cd2d2379b6ad30a70802a36ef2",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s091",
+        "titulo": "Restrição corporal: participação e cuidados",
+        "fonte": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#restricao",
+        "exposicao_principal": "N07.2",
+        "orientacao": "Conservar participação e cuidados no corpo; ficha de Nilo e casos específicos completos vão a B3.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+        "sha256_revisado": "1157d2c62967d662d18de312db323d1f87f156447546837318079848d953b6be",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s030",
+        "titulo": "Exemplos de avaliação de poderes",
+        "fonte": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#pareceres",
+        "exposicao_principal": "N07.4",
+        "orientacao": "Manter um exemplo acompanhado no método; os outros pareceres ficam localizáveis por problema em B3.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+        "sha256_revisado": "11ef367d2a8bd21cd0a526c6ebedfee493ce58ae722c59803f1f7173414c4d59",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s031",
+        "titulo": "Avaliar poderes avançados",
+        "fonte": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#avancados",
+        "exposicao_principal": "N07.5",
+        "orientacao": "Conservar a orientação de Liberação, Máxima, Domínio e CE4; montagens e usos completos permanecem em B3.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+        "sha256_revisado": "a33398526981bbfece4ff2a2641e9425536e98e1b07bf8fb1eba1f941a1a9db9",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s033",
+        "titulo": "Dúvidas sobre técnicas e capacidades",
+        "fonte": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#duvidas",
+        "exposicao_principal": "B3",
+        "orientacao": "Organizar casos específicos por dúvida; levar ao corpo as conclusões necessárias para entender o método.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+        "sha256_revisado": "747f92d52143c5cf0abe6fe6cee0b98146ec7f1b448360d51f71b432a0d59456",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s093",
+        "titulo": "Ampliar uma mescla e trocar sua Forma",
+        "fonte": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#mescla",
+        "exposicao_principal": "B3",
+        "orientacao": "Conservar montagem, Ampliação e troca de Forma de Yara; remeter a partir da dúvida específica.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+        "sha256_revisado": "c406420c383c281fa5b335b52b6b1cb1f70b879be79f07fe88cb05797ef3d99f",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s094",
+        "titulo": "Repetir Melhorias e definir Restrições",
+        "fonte": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#repetir",
+        "exposicao_principal": "B3",
+        "orientacao": "Conservar repetição de Melhorias, Condicional e Restrição Própria; extrair critérios necessários ao método geral.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+        "sha256_revisado": "7c015fd9eef146f3ae505a6d9dd525628f269e8e35946c3265ea4cbc029cc8a3",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s095",
+        "titulo": "Efeitos de cena e cancelamento",
+        "fonte": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#cancelar",
+        "exposicao_principal": "B3",
+        "orientacao": "Conservar efeito de cena e cancelamento completos, com referências junto da orientação geral.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md",
+        "sha256_revisado": "2fd753c182b0c2ef99f63c62b05cbf78759c015998bf0a7cd3d363234202b0da",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      }
+    ],
+    "B4": [
+      {
+        "id": "s034",
+        "titulo": "Ofícios, fabricação e reparos",
+        "fonte": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#oficios",
+        "exposicao_principal": "N08.3",
+        "orientacao": "Conservar projeto, materiais, teste e falha; usar um trabalho acompanhado e evitar duplicação dos casos completos.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/34-oficios-fabricacao-e-reparos.md",
+        "sha256_revisado": "70552a8bb06162fa1e8f40dd7d6f16d7c38ad971631edf0771df2a4aa14cf1da",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s036",
+        "titulo": "Ferramentas e objetos amaldiçoados",
+        "fonte": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#ferramentas",
+        "exposicao_principal": "N08.5",
+        "orientacao": "Manter uso, identificação, Desgaste, criação e objeto perigoso; casos próprios ficam em B4.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/36-ferramentas-objetos-e-contencao.md",
+        "sha256_revisado": "4f3f285912e60751d646dfffb1fa85d5e2592babfd2d152ed4e7b9db05a50087",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s096",
+        "titulo": "Uma ferramenta nova: Anel de Testemunho",
+        "fonte": "06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#anel",
+        "exposicao_principal": "B4",
+        "orientacao": "Conservar Anel, identificação e projeto; um trecho acompanha o ensino de fabricar sem duplicar o caso.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/96-fabricar-e-identificar-o-anel.md",
+        "sha256_revisado": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s097",
+        "titulo": "Empréstimo familiar e venda com condição",
+        "fonte": "06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#cofre",
+        "exposicao_principal": "B4",
+        "orientacao": "Manter empréstimo e negociação como aplicação; o método conserva critérios de acesso e acordo.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/97-emprestimo-familiar-e-negociacao.md",
+        "sha256_revisado": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s098",
+        "titulo": "Um objeto selado: a Pastilha do Último Aviso",
+        "fonte": "06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#pastilha",
+        "exposicao_principal": "B4",
+        "orientacao": "Preservar objeto, selo, escolhas e consequências; não usar seu efeito como regra geral de todo objeto selado.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/98-objeto-selado-e-risco-de-ingestao.md",
+        "sha256_revisado": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      {
+        "id": "s099",
+        "titulo": "Feitos do Limiar e promoção de Grau",
+        "fonte": "06 - Redacao do Guia/99-limiar-feitos-e-promocao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#limiar",
+        "exposicao_principal": "B4",
+        "orientacao": "Conservar feito e promoção completos; explicar no capítulo como conferir requisitos e não confundir os controles de recompensa.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/99-limiar-feitos-e-promocao.md",
+        "sha256_revisado": "dba1aa687bed2d6ec4f60721a08e1169449a5dc9279a76bd3493b762b3628714",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      }
+    ],
+    "B5": [
+      {
+        "id": "s047",
+        "titulo": "Desenvolver uma ideia de Pacto",
+        "fonte": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#ideia",
+        "exposicao_principal": "N09.2",
+        "orientacao": "Preservar método e recorte das sete ideias; apontar para os dois modelos sem desenvolver os três adiados.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+        "sha256_revisado": "56295fff5630a188a40dd148776d2d84c19c6bd02ae79f81b3f30e89157ad496",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      {
+        "id": "s048",
+        "titulo": "Pacifismo impraticável",
+        "fonte": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#pacifismo",
+        "exposicao_principal": "B5",
+        "orientacao": "Preservar o Pacifismo completo, benefício particular e saídas aprovadas; só a lição da avaliação aparece no método.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+        "sha256_revisado": "c556acb8bbcafc010a7377cdca7d04c1843d23a9586b8a4f6d42c8c4990789ae",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      {
+        "id": "s049",
+        "titulo": "Liberação irregular",
+        "fonte": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#liberacao",
+        "exposicao_principal": "B5",
+        "orientacao": "Preservar Liberação irregular e Refluxo completos; exemplo permanece experimental e consultável.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+        "sha256_revisado": "0f1ac1ae5d70555e0be0a959d1868b343c944cbae689a39b988704c56a868af4",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      {
+        "id": "s050",
+        "titulo": "A Promessa do arquivo",
+        "fonte": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#promessa",
+        "exposicao_principal": "N09.3",
+        "orientacao": "Conservar termos, reparação e consequência completa da Promessa no capítulo; desfechos adicionais e contas ficam no caso.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+        "sha256_revisado": "bb5541a48754a05bff4de302aac2a54079c4b76762b71f4b5f8c7194cc99378d",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      {
+        "id": "s043",
+        "titulo": "Obter e criar entidades",
+        "fonte": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#obter",
+        "exposicao_principal": "N09.4",
+        "orientacao": "Conservar todas as formas e passos de aquisição no capítulo; ilustrações longas ficam nos casos completos.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+        "sha256_revisado": "9764f23d628e1fc0714831671a6b17fe530f333365db08cd463d238a13c1e5ec",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      {
+        "id": "s045",
+        "titulo": "Tempo e materiais para criar entidades",
+        "fonte": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#tempo",
+        "exposicao_principal": "N09.5",
+        "orientacao": "Manter tabela de trabalho, orçamento por projeto, falha e detalhamento opcional; exemplo longo alimenta B5.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+        "sha256_revisado": "943c2e0967ae0ef7a932873ee79f33cb628f1760863bb536e94cd71e929bd8de",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      {
+        "id": "s046",
+        "titulo": "Reconstruir, transferir e herdar entidades",
+        "fonte": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#reconstruir",
+        "exposicao_principal": "N09.6",
+        "orientacao": "Manter cálculo de reconstrução e transferência, requisitos e falha; os acompanhamentos completos ficam em B5.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+        "sha256_revisado": "b4eac0195c2f011d8cfb6255815a5b4ea2ce5e8eddeea3cd091c0d65bc18fd30",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      {
+        "id": "s051",
+        "titulo": "A prova do Cão de sombra",
+        "fonte": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#cao",
+        "exposicao_principal": "B5",
+        "orientacao": "Conservar prova de ritual, mapa, ficha e resultados; usar no método um resumo suficiente da forma de aquisição.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+        "sha256_revisado": "3405754f226d375da0224acd433e4c64a4cc3856ba56d13db232d7e05b76a841",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      {
+        "id": "s052",
+        "titulo": "Domar o Amontoado do depósito",
+        "fonte": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#amontoado",
+        "exposicao_principal": "B5",
+        "orientacao": "Conservar Doma, condições e ficha convertida; explicar seus passos no método e citar este estudo como aplicação.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+        "sha256_revisado": "e82b9f994fb0318f8c0fd53b6cbcddd48b3819de837bfbcb3182399acd3d791d",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      {
+        "id": "s053",
+        "titulo": "Construir e evoluir o Escriba de campo",
+        "fonte": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#escriba",
+        "exposicao_principal": "B5",
+        "orientacao": "Conservar construção e evolução do Escriba; extrair um exemplo curto para ensinar as escolhas da criação.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+        "sha256_revisado": "e7637fc2012ee8a30ae30ae41d8526236134eabe29c69dfdb85ad0d7c84ecf02",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      {
+        "id": "s054",
+        "titulo": "Transporte com entidades",
+        "fonte": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#mula",
+        "exposicao_principal": "B5",
+        "orientacao": "Conservar transporte, estados e consequências para passageiros; levar os cuidados gerais ao método correspondente.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+        "sha256_revisado": "fed54f767600cccaeecf30b182bd4ea6a5cfbd1bda3e1d4f0885fa4bceeaea00",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      {
+        "id": "s055",
+        "titulo": "Fabricar e evoluir o Vigia do depósito",
+        "fonte": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#vigia",
+        "exposicao_principal": "B5",
+        "orientacao": "Manter fabricação e evolução completas; usar como aplicação das tabelas de trabalho e reconstrução.",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+        "sha256_revisado": "354539605d3baeea4153a8ba62fea331ebe411ec95b1ef8ebbba504b13017f2e",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      }
+    ]
+  },
+  "limite": "Os 59 casos têm cópias revistas nos registros 114 e 117–130; as 17 consultas complementares, nos registros 131–134. Conferência do conjunto e integração continuam pendentes.",
+  "revisao_das_rotas": 134,
+  "rotas": {
+    "registro": 134,
+    "grupos": {
+      "B1": {
+        "metodo": "04 - Planejamento/apoio-revisao-textual-113/prova-textual.html#c04",
+        "folhas": [
+          "s024"
+        ]
+      },
+      "B2": {
+        "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c06",
+        "folhas": [
+          "s058",
+          "s061",
+          "s068"
+        ]
+      },
+      "B3": {
+        "metodo": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#c07",
+        "folhas": [
+          "s028",
+          "s032"
+        ],
+        "consulta_publicada": "s092"
+      },
+      "B4": {
+        "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c08",
+        "folhas": [
+          "s038",
+          "s040"
+        ]
+      },
+      "B5": {
+        "metodo": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c09",
+        "folhas": [
+          "s042",
+          "s044"
+        ]
+      }
+    },
+    "guilda": "04 - Planejamento/apoio-revisao-textual-115/prova-textual.html#c10",
+    "avisos": {},
+    "casos_revisados": {
+      "s089": {
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-114/prova-textual.html#arata",
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/89-vida-rolada-e-familia-propria.md",
+        "motivo": "CD de História corrigida de 16 para 18 da escala fixa; demais valores e capacidades preservados."
+      },
+      "s014": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/14-o-aviso-de-reabertura.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#aviso",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      "s082": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#testes",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      "s083": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/83-perceber-procurar-e-interpretar-sinais.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#pistas",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      "s011": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/11-espaco-e-usos-criativos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-117/prova-textual.html#cenario",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; cinco rótulos de tabelas simplificados no lote."
+      },
+      "s084": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/84-percursos-apoios-e-quedas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#movimento",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      "s085": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#ferramentas",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      "s022": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/22-quedas-e-socorro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#socorro",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      "s023": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/23-retirada-e-recuperacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#recuperacao",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      "s081": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/81-passar-a-missao-entre-mestres.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-118/prova-textual.html#passagem",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; rótulos e instruções simplificados, com explicação de Manejo de Combate no ricochete."
+      },
+      "s059": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/59-recursos-e-ritmo-dos-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#energia",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      "s060": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/60-montar-habilidades-de-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#habilidades",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      "s074": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/74-regua-inicial-de-inimigos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#numeros",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      "s100": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/100-comparar-inimigos-em-outras-faixas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#faixas",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      "s067": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/67-preparar-chefes-e-confrontos-maiores.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-119/prova-textual.html#chefes",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, com requisitos de Executar corrigidos conforme Abrir Caminho. Propostas experimentais preservadas."
+      },
+      "s078": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/78-preparar-perigos-ambientais.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#perigos",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      "s057": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/57-avaliar-o-encontro-do-amontoado.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#amontoado",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      "s062": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#corredor",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      "s063": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/63-carregador-consulta-e-doma.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-120/prova-textual.html#doma",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, remissão às três fichas restaurada e estados de queda esclarecidos. Propostas experimentais preservadas."
+      },
+      "s064": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/64-a-passarela-e-o-guincho.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#passarela",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      "s065": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/65-comparar-confronto-e-pressao-ambiental.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#combinar",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      "s066": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/66-o-carregador-e-a-saida-que-fecha.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#portao",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      "s071": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/71-sineiro-do-recolhimento.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-121/prova-textual.html#sineiro",
+        "motivo": "Duas passagens de clareza e remissões, sem alterar números; instruções e títulos simplificados, começo dos prazos e resposta preparada esclarecidos; preparação corporal do Sineiro distinguida de Carregar. Propostas experimentais preservadas."
+      },
+      "s072": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#doma",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      "s073": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#ensaio",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      "s075": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#dupla",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      "s076": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html#confronto",
+        "motivo": "Duas passagens de clareza e remissões; termos alinhados à ficha revista do Sineiro e ao Livro de Regras 1.0; custo de religar a domada corrigido para o dobro da entrada (4 PE), única mudança de número, documentada. Propostas experimentais preservadas."
+      },
+      "s101": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/101-haru-vigia-e-tessa.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#guardas",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      "s102": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#arquivo",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      "s079": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/79-o-po-na-sala-de-conservacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-123/prova-textual.html#po",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Tessa corrigido para o d6 da Maestria 2 e painel do arquivo posto num suporte, ambos documentados; tabelas comparadas com os resultados do apoio-lote7. Propostas experimentais preservadas."
+      },
+      "s103": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#febre",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      },
+      "s077": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#ficha",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      },
+      "s068": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html#chefe",
+        "motivo": "Duas passagens de clareza e remissões; nome do Carregador unificado, documentado; valores das fichas preenchidas conferidos com as consultas revistas. Números preservados. Propostas experimentais preservadas."
+      },
+      "s090": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#reparo",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s091": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#restricao",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s030": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#pareceres",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s031": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html#avancados",
+        "motivo": "Duas passagens de clareza e remissões; reparo nomeado como descanso curto, como no Livro de Regras 1.0; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s033": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#duvidas",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      "s093": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#mescla",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      "s094": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#repetir",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      "s095": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html#cancelar",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Propostas experimentais preservadas."
+      },
+      "s034": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/34-oficios-fabricacao-e-reparos.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#oficios",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s036": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/36-ferramentas-objetos-e-contencao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#ferramentas",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s096": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/96-fabricar-e-identificar-o-anel.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#anel",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s097": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/97-emprestimo-familiar-e-negociacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#cofre",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s098": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/98-objeto-selado-e-risco-de-ingestao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#pastilha",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s099": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/99-limiar-feitos-e-promocao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-127/prova-textual.html#limiar",
+        "motivo": "Duas passagens de clareza e remissões; promessa de treinamentos futuros retirada, conforme a decisão vigente; regras e contas conferidas pelo texto literal. Números preservados. Propostas experimentais preservadas."
+      },
+      "s047": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#ideia",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      "s048": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#pacifismo",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      "s049": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#liberacao",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      "s050": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html#promessa",
+        "motivo": "Duas passagens de clareza e remissões; regras e contas conferidas pelo texto literal do Livro de Regras 1.0. Números preservados. Modelos de Pacto e Promessa continuam experimentais."
+      },
+      "s043": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#obter",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      "s045": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#tempo",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      "s046": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#reconstruir",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      "s051": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html#cao",
+        "motivo": "Duas passagens de clareza e remissões; golpe desarmado de Kaito na prova do Cão de sombra corrigido com Canalizar Energia, documentado; demais números preservados. Referências de prazo e a prova continuam experimentais."
+      },
+      "s052": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#amontoado",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      "s053": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#escriba",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      "s054": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#mula",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      },
+      "s055": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-130/prova-textual.html#vigia",
+        "motivo": "Duas passagens de clareza e remissões; contas das quatro fichas refeitas pelo Livro de Regras 1.0. Números preservados. Exemplos e talentos propostos continuam experimentais."
+      }
+    },
+    "consultas_revisadas": {
+      "s002": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-131/prova-textual.html#preparacao",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s005": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-131/prova-textual.html#conducao",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s024": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-131/prova-textual.html#estado",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s016": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-131/prova-textual.html#continuidade",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s008": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#acordos",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s012": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#descobertas",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s020": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#faccao",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s028": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#convivencia",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s032": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#avaliacao",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s038": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-132/prova-textual.html#projeto",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s040": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html#dedicacao",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s042": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html#pactos",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s044": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html#entidade",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s058": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html#inimigo",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s061": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html#habilidade",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s088": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/88-indice-de-termos-do-mundo.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-134/prova-textual.html#termos",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      },
+      "s087": {
+        "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+        "consulta_atual": "04 - Planejamento/apoio-revisao-textual-134/prova-textual.html#obra",
+        "motivo": "Duas passagens de clareza; remissões apontadas para os capítulos novos e cópias revistas; linhas de preenchimento na prova. Campos e números preservados."
+      }
+    }
+  }
+}

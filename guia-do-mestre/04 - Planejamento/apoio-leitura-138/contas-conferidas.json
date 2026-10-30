@@ -1,0 +1,26 @@
+{
+  "registro": 138,
+  "dificuldade_do_criador": {
+    "base": 14,
+    "muito_dificil": 16,
+    "fixa_muito_dificil": 18
+  },
+  "socorro_maximo_93_classe_3": {
+    "aguentar": 24,
+    "primeiro_insistir": 31,
+    "segundo_insistir_com_teto": 45
+  },
+  "duas_quedas_maximo_23": {
+    "primeiro_insistir": 8,
+    "segundo_insistir": 12,
+    "janela_apos_uma_sequela": 2,
+    "tratamento_segunda_queda": 12
+  },
+  "recuperacao_pe_maximo_8_fora_de_ambiente_propicio": [
+    2,
+    1,
+    1,
+    0
+  ],
+  "limite": "Contas dos exemplos existentes; não simulação de mesa nem alteração de parâmetros."
+}

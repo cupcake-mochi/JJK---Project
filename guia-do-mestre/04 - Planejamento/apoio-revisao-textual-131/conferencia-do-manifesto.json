@@ -1,0 +1,20 @@
+{
+  "registro": 131,
+  "entradas_anteriores": 3571,
+  "entradas_anteriores_sem_alteracao": 3561,
+  "arquivos_anteriores_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "LEIA-ME.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "arquivos_ausentes_ou_alterados_fora_do_lote": [],
+  "metodo": "Todas as entradas anteriores conferidas; atualização por união restrita aos dez controles e arquivos novos do lote 131, incluindo quatro cópias revistas.",
+  "limite": "Integridade documental; não aprendizagem ou equilíbrio."
+}

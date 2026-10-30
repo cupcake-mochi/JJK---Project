@@ -1,0 +1,8 @@
+[
+  {
+    "caso": "s033",
+    "antes": "**Caso de avaliação.** Haru tem Refino 6 e conhece Cortina.",
+    "depois": "**Caso de avaliação.** Haru, um personagem de exemplo e não o guarda do arquivo, tem Refino 6 e conhece Cortina.",
+    "motivo": "Pente fino: o Haru das fichas de nível 15 tem Refino 4; sem a ressalva, o leitor veria uma contradição."
+  }
+]

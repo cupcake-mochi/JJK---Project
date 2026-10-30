@@ -1,0 +1,160 @@
+{
+  "registro": 122,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-122/output/pdf/Ciclo-Maldito-Sineiro-Retirada-e-Dupla-Revisao-Textual.pdf",
+  "pdf_sha256": "f6b582496752b4d38be0f9afe49f89762641577e34d693050d71a375574ae94b",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 75,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões, clareza e a correção documentada de religar."
+    },
+    {
+      "passagem": 2,
+      "registros": 12,
+      "escopo": "Leitura integral das dezessete páginas da primeira prova completa e pente fino, incluindo frases da primeira passagem."
+    }
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-01.png",
+      "imagem_sha256": "e7d69b411f3a1d5bf493460513be9ccb034b4a5f161a133e0440421cb072bcff",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura da Doma e quadro \"No confronto / Depois da Doma\" em largura inteira; aquisição e TR legíveis."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-02.png",
+      "imagem_sha256": "43b98411380250ea9a58993a561e837424aee03f675852946cd715eb5d35930c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Ficha da entidade em quadro largo; Pancada, manobras, talentos e começo de Condução urgente em colunas."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-03.png",
+      "imagem_sha256": "ab2dc42e3ecb4400c0648f8bc8a7db6d6bc67fd0563b42e00f420b22da5e117f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Condução urgente, montagem e exemplo inteiros; Dobrar o sino com primeiro turno, liberação, exposição e montagem."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-04.png",
+      "imagem_sha256": "33d67ec2b0645be8fcd0c130ef46a9e66ee3a2b4f394652407fc9f3c8e916045",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Recuperar e comandar, com religar corrigido para 4 PE; acompanhamento e remissões. Espaço de fechamento do caso."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-05.png",
+      "imagem_sha256": "f556b1c54f3bc733b1e4b390cbbb64ff995cba3aeed146f6660c9b4ce027c5f5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura do ensaio, preparo da mesa e mapa vetorial com legenda, sem margem excedente."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-06.png",
+      "imagem_sha256": "c119d3b5d90a79baf12d12b6ead7131c71820831a9ab764c5c69d7d2e658e9dc",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Zona, quadro dos três personagens e capacidades em colunas; iniciativa."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-07.png",
+      "imagem_sha256": "48209cacdf851ea68e7b36a966c64c529ed30bf8e5270facfca7f804cf26f887",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Rodadas 1 e 2 do primeiro exemplo; títulos e passos legíveis."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-08.png",
+      "imagem_sha256": "d63edb16b4b97d3248b082c904599c22ab5a576b515757e65a604790ad19675d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Rodada 3 com quadro de estado; começo do segundo exemplo, queda de Mei e Insistir."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-09.png",
+      "imagem_sha256": "d8682b0d00c153aa1d02e3dccbf17b92793b3291c2baab5231257b5361e74872",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Socorro, quadro de estado após o socorro, Aguentar e observações. Espaço de fechamento do caso."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-10.png",
+      "imagem_sha256": "2c2bbe8184da2224cdd016de5430503512e70022132069acc682ec86f6a3dbfa",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura de Ren e Sora e quadro largo das fichas, com linhas inteiras."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-11.png",
+      "imagem_sha256": "dd02542eebe2df8cd8174df139ca35be4d64b251bafa0db00125badcdc600cfc",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Recursos comuns, Ren, espada e Fenda em marcha."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-12.png",
+      "imagem_sha256": "bc64f9707e0997671457d384595d39408453a940a40fbf3f1d66410e44b43ad6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Sora, Fio, Remendo e prioridades; lista de Fio legível."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-13.png",
+      "imagem_sha256": "ed3663ced7933d91569f2fd7caf095dbd356b4bc538a0b7cb144da37874eb126",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Quadro de Integridade e derrota. Espaço de fechamento do caso."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-14.png",
+      "imagem_sha256": "d74f44d63a82c2db6630630d7f4fd3333a3dfa7f4392584d62e212024cb2b68d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Abertura do confronto, tabela de posições e mapa vetorial novo em largura inteira, seguido das informações a mostrar."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-15.png",
+      "imagem_sha256": "e4c8ded3f58bc5a930741b93d8e830cc49daece6dc9c1460790fdc7b2d1fdcdd",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem final idêntica (mesmo hash)",
+      "observacao": "Perfis, iniciativas e rodadas 1–2."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-16.png",
+      "imagem_sha256": "9828bf4b1497a61ac86ecac9a6820e7987fb20e5e7b59a694126812fc57edb1d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Fim da rodada 2, rodada 3 e quadro final do confronto."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-122/pagina-17.png",
+      "imagem_sha256": "e6e65d5524606b4be3b87103aa45c01ca9211bd50dd085335accf55c40245f80",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Quadro das chances em largura inteira; análise do apoio em colunas, sem corte."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Espaços de fechamento nas páginas 4, 9 e 13 serão reavaliados na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

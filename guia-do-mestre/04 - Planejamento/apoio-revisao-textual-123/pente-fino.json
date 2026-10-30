@@ -1,0 +1,26 @@
+[
+  {
+    "caso": "s101",
+    "antes": "Emprega a mesma Padrão: não cura e concede Impulso juntos.",
+    "depois": "Curar e conceder Impulso usam a mesma Padrão: ela não faz os dois no mesmo turno.",
+    "motivo": "Pente fino: frase com dois verbos soltos."
+  },
+  {
+    "caso": "s102",
+    "antes": "Aqui, Mei é o Emanador 15 da referência, não a personagem dos exemplos de nível mais baixo, com máximo **137 PV**, Classe 4, Integridade positiva e **uma Sequela**.",
+    "depois": "Aqui, Mei é o Emanador 15 da referência, com máximo **137 PV**, Classe 4, Integridade positiva e **uma Sequela**; não é a personagem de nível mais baixo dos outros exemplos.",
+    "motivo": "Pente fino: a ressalva da primeira passagem separava o nome dos valores."
+  },
+  {
+    "caso": "s102",
+    "antes": "**Akira**, o Guia 15, já está",
+    "depois": "**Akira**, o Guia 15 da referência, já está",
+    "motivo": "Pente fino: mesmo esclarecimento dado a Mei."
+  },
+  {
+    "caso": "s102",
+    "antes": "**Bao**, o Bastião 15, já está",
+    "depois": "**Bao**, o Bastião 15 da referência, já está",
+    "motivo": "Pente fino: mesmo esclarecimento dado a Mei."
+  }
+]

@@ -2,7 +2,7 @@
 
 Um Pacto muda uma capacidade em troca de um preço. Entidades são criaturas que a personagem pode criar, conquistar ou obter por uma capacidade. Nos dois casos, comece pelo resultado desejado e deixe claro como ele será obtido, usado e acompanhado. Dar um nome à ideia ainda não define como ela funciona.
 
-Este capítulo reúne acordos, aquisições e projetos. As [regras usadas aqui](<../../04 - Planejamento/apoio-pactos-entidades-109/consulta-de-regras.html>) ficam disponíveis para consulta. Os exemplos experimentais continuam identificados; suas fichas completas precisam acompanhar o uso. Não é necessário conhecer a trama de Jujutsu Kaisen para seguir as explicações.
+Este capítulo reúne acordos, aquisições e projetos. As regras usadas aqui estão no Livro de Regras 1.0. Os exemplos experimentais continuam identificados; suas fichas completas precisam acompanhar o uso. Não é necessário conhecer a trama de Jujutsu Kaisen para seguir as explicações.
 
 ## 9.1 Preço e benefício
 
@@ -80,15 +80,15 @@ Uma ação sobre o ambiente pode cumprir a obrigação quando provocar realmente
 
 O ganho é particular de uma capacidade existente. **Condução pela matéria**, o exemplo escolhido, permite a um feitiço de corte alcançar uma parte de objeto já vista e cuja posição atual seja conhecida. O feitiço percorre um caminho sólido de até **18 m**, a partir do toque da personagem. Conserva ação, energia, ataque e dano. Não serve para atingir criaturas ou equipamento carregado nem revela o que está escondido.
 
-Uma janela sem cumprimento suspende somente o benefício por **três dias**, mantendo o impedimento. Não há banco ou dívida de mortes. A saída pedida fora de cena espera o fechamento da janela e a suspensão pendente, sem iniciar outra obrigação nesse período final. A [ficha completa de Pacifismo](../48-pacifismo-impraticavel-minuta.md) define aplicação, bloqueio, calendário e encerramento.
+Uma janela sem cumprimento suspende somente o benefício por **três dias**, mantendo o impedimento. Não há banco ou dívida de mortes. A saída pedida fora de cena espera o fechamento da janela e a suspensão pendente, sem iniciar outra obrigação nesse período final. A [ficha completa de Pacifismo](<casos/48-pacifismo-impraticavel-minuta.md>) define aplicação, bloqueio, calendário e encerramento.
 
 **Liberação irregular** distingue reserva de energia e teto de gasto. Sorteia um d6 no começo de cada turno próprio: **0/25/50/75/100/100%** dos PE máximos, na ordem das faces. O teto vale até o próximo começo de turno, incluindo Reações e manutenção pagas pelo portador. Zero impede pagamentos novos, sem esvaziar o saldo.
 
 Com máximo 40, face 2 dá teto 10. Pagar 9 deixa apenas 1 no intervalo, mesmo com muitos PE na reserva. **Refluxo** é a compensação: um zero sorteado no começo de turno prepara a recuperação de 25% do máximo no primeiro turno próprio positivo posterior, usando Bônus. É um uso por descanso curto ou longo, sem aumentar o teto. Se não usar Refluxo até o fim desse primeiro turno positivo, perde a oportunidade preparada.
 
-O sorteio inicial antes da primeira ação da sequência resolve Reações anteriores ao primeiro turno e não prepara Refluxo. Encerrar o Pacto exige pedido fora de cena e conclusão do próximo descanso longo; nova adesão espera outro longo. A [ficha de Liberação irregular](../49-liberacao-irregular-minuta.md) trata pagamentos, arredondamentos, manutenção, mudanças de máximo e uso fora de combate. Use-a inteira, inclusive quando o teto impedir uma manutenção.
+O sorteio inicial antes da primeira ação da sequência resolve Reações anteriores ao primeiro turno e não prepara Refluxo. Encerrar o Pacto exige pedido fora de cena e conclusão do próximo descanso longo; nova adesão espera outro longo. A [ficha de Liberação irregular](<casos/49-liberacao-irregular-minuta.md>) trata pagamentos, arredondamentos, manutenção, mudanças de máximo e uso fora de combate. Use-a inteira, inclusive quando o teto impedir uma manutenção.
 
-Energia alternada e Magnetismo energético recebem orientação de avaliação; Fragmentação, Despertar do corpo e Reserva vital ficam para revisão posterior. O [estudo das sete ideias](../47-desenvolver-uma-ideia-de-pacto.md) localiza as questões de cada uma. Essas ideias ainda precisam de regras para entrar na ficha.
+Energia alternada e Magnetismo energético recebem orientação de avaliação; Fragmentação, Despertar do corpo e Reserva vital ficam para revisão posterior. O [estudo das sete ideias](<casos/47-desenvolver-uma-ideia-de-pacto.md>) localiza as questões de cada uma. Essas ideias ainda precisam de regras para entrar na ficha.
 
 ## 9.3 Promessas entre pessoas
 
@@ -100,17 +100,17 @@ A quebra custa a energia amaldiçoada de quem a pratica e pode custar a vida, co
 
 ### O empréstimo do arquivo
 
-Na [Promessa do arquivo](../50-promessa-do-arquivo.md), exemplo experimental, Lia oferece uma consulta autorizada e o empréstimo de R-17; Akira precisa devolver o original completo e legível até as **18h do Dia 2**. A ficha identifica as 12 folhas, cópias permitidas e lugares de devolução. Entrega concluída às 18h atende; às 18h01 está atrasada. Estar a caminho não é entregar.
+Na [Promessa do arquivo](<casos/50-promessa-do-arquivo.md>), exemplo experimental, Lia oferece uma consulta autorizada e o empréstimo de R-17; Kei precisa devolver o original completo e legível até as **18h do Dia 2**. A ficha identifica as 12 folhas, cópias permitidas e lugares de devolução. Entrega concluída às 18h atende; às 18h01 está atrasada. Estar a caminho não é entregar.
 
 O acordo também prevê impossibilidade involuntária e reparação. Essas são cláusulas desse caso, não exceções universais. Confira o que aconteceu e o que foi combinado: a personagem se recusou a cumprir, atrasou mesmo tendo meios ou encontrou um impedimento previsto no acordo? Uma rolagem não reescreve a obrigação.
 
 Quem quebra perde **todos os PE comuns e temporários** e não pode receber ou recuperar PE até cumprir a reparação definida. O máximo não muda. Descanso, Refluxo ou outra fonte não encerra o bloqueio; a energia negada não fica guardada para depois. Outras funções do descanso seguem suas regras.
 
-Akira repara pela entrega prevista, com reposição permitida se o original tiver se perdido; Lia repara pela entrega das cópias e do índice combinados. Os critérios já estão escritos. Não dependem de a pessoa prejudicada aceitar outra exigência inventada pelo mestre. O caso completo também prevê dispensa expressa e voluntária.
+Kei repara pela entrega prevista, com reposição permitida se o original tiver se perdido; Lia repara pela entrega das cópias e do índice combinados. Os critérios já estão escritos. Não dependem de a pessoa prejudicada aceitar outra exigência inventada pelo mestre. O caso completo também prevê dispensa expressa e voluntária.
 
 Ao cumprir a reparação, o bloqueio termina, mas **os PE continuam zerados até uma recuperação válida**. Não cobre a mesma perda novamente a cada turno nem apague uma punição em andamento apenas porque a sessão mudou. A duração é aberta; a condição de saída é conhecida desde o começo.
 
-Guarde texto aceito, alterações consentidas, cumprimento e consequência pendente na [folha de Pactos e Promessas](../42-registro-de-pactos-e-promessas.md). Mudar de mestre não cria outro acordo ou apaga uma obrigação.
+Guarde texto aceito, alterações consentidas, cumprimento e consequência pendente na [folha de Pactos e Promessas](<consultas/42-registro-de-pactos-e-promessas.md>). Mudar de mestre não cria outro acordo ou apaga uma obrigação.
 
 ## 9.4 Obter uma entidade
 
@@ -131,17 +131,17 @@ Criar ou domar não exige técnica de invocação nem ocupa espaço apenas pela 
 
 Use Construir invocações para corpo, nível, Classe, atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos. Anote como o corpo é formado, como se comunica e qual Ofício é exigido, quando for o caso. Cada capacidade precisa caber na montagem; pontos de construção e PE pagos no uso são contas diferentes.
 
-O [Escriba de campo](../53-construir-e-evoluir-o-escriba.md) percorre uma construção completa e sua evolução. A [folha de entidade](../44-registro-de-aquisicao-e-estado-de-entidade.md) acompanha aquisição e estado, sem substituir sua ficha. Uma conversão de inimigo precisa ser preparada nessa escala; ações extras ou turno independente do adversário não passam automaticamente à entidade.
+O [Escriba de campo](<casos/53-construir-e-evoluir-o-escriba.md>) percorre uma construção completa e sua evolução. A [folha de entidade](<consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>) acompanha aquisição e estado, sem substituir sua ficha. Uma conversão de inimigo precisa ser preparada nessa escala; ações extras ou turno independente do adversário não passam automaticamente à entidade.
 
 ### Ritual e doma
 
-Na lista de ritual, prepare ficha, começo, espaço do desafio, objetivo, vitória, interrupção e falha. O desafio é **individual**. A intervenção de um aliado pode salvar o personagem sem conquistar a entidade; aplique os termos preparados. A [prova do Cão de sombra](../51-ritual-do-cao-de-sombra.md) mostra uma entrada completa. A lista não é o gasto de Pontos de Ritual para preparar conjurações.
+Na lista de ritual, prepare ficha, começo, espaço do desafio, objetivo, vitória, interrupção e falha. O desafio é **individual**. A intervenção de um aliado pode salvar o personagem sem conquistar a entidade; aplique os termos preparados. A [prova do Cão de sombra](<casos/51-ritual-do-cao-de-sombra.md>) mostra uma entrada completa. A lista não é o gasto de Pontos de Ritual para preparar conjurações.
 
 Na doma, o grupo pode ajudar na luta. A maldição precisa ter nível igual ou inferior ao personagem. Derrotada sem ser destruída, faz fora do combate **TR Espírito contra a CD de conjuração da rota**. Se falhar, é domada; se igualar ou superar, é exorcizada. Com CD 12, total 11 permite a doma; total 12 exorciza. Não há tentativas sucessivas contra a mesma maldição até falhar.
 
 Confira destruição antes do golpe final. No exemplo publicado, máximo 52 e saldo 8 recebem 30 de dano direto: excedente 22, abaixo da metade do máximo; cai sem destruição. Com 35, excedente 27 ultrapassa a metade e destrói. Uma ocorrência direta que alcance o máximo também destrói; área pode derrubar, mas não destrói por si. Um corpo Desligado exige continuar a conta de excedente.
 
-O mestre pode autorizar tentativa antecipada durante o combate, definindo antes a vida que a permite. Usa Padrão e o mesmo TR, sem um limiar universal de metade da vida. [Domar o Amontoado](../52-domar-o-amontoado.md) mostra aquisição e estado recebido. Domar não levanta a criatura ou restaura reservas.
+O mestre pode autorizar tentativa antecipada durante o combate, definindo antes a vida que a permite. Usa Padrão e o mesmo TR, sem um limiar universal de metade da vida. [Domar o Amontoado](<casos/52-domar-o-amontoado.md>) mostra aquisição e estado recebido. Domar não levanta a criatura ou restaura reservas.
 
 ## 9.5 Projetos de entidades
 
@@ -193,7 +193,7 @@ Rina, nível 13 e Classe 4, prepara o talismã de Classe 3 para Kaito, nível 9.
 
 O projeto local usa 32 horas, ¥24.000 em partes aproveitáveis e ¥6.000 de consumíveis por tentativa. Rina completa o trabalho, tira 5 e alcança 11: falha. Conserva o suporte, repõe ¥6.000 e trabalha 16 horas de retomada. Na tentativa autorizada, os dados são 2 e 8; usa 8, soma 6 e chega a 14: sucesso.
 
-Foram **48 horas e ¥36.000**. O [projeto completo do Vigia](../55-fabricar-e-evoluir-o-vigia-do-deposito.md) liga essas contas à ficha, aos ciclos e à evolução. Os preços pertencem ao caso. Kaito recebe a entidade com vida máxima, recolhida no talismã **sem carga**, de **0,5 Volume**. Ainda é preciso pagar o custo normal para manifestá-la. Um corpo criado permanece inativo onde foi construído.
+Foram **48 horas e ¥36.000**. O [projeto completo do Vigia](<casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md>) liga essas contas à ficha, aos ciclos e à evolução. Os preços pertencem ao caso. Kaito recebe a entidade com vida máxima, recolhida no talismã **sem carga**, de **0,5 Volume**. Ainda é preciso pagar o custo normal para manifestá-la. Um corpo criado permanece inativo onde foi construído.
 
 ## 9.6 Evolução e continuidade
 
@@ -211,7 +211,7 @@ Use o teste de criação, **sem a redução de reconstrução**. Para Rina trans
 
 Quem conduz registra o próprio trabalho. O destinatário só recebe cobrança de dedicação pelas etapas em que participa ativamente, se previstas. A ajuda válida conserva o mesmo tempo do responsável. Na falha, mantém-se o vínculo anterior ou a ausência de invocador vivo; outra tentativa autorizada tem vantagem.
 
-No sucesso, atualize os valores dependentes do novo invocador, preservando Classe, ficha, vida atual, usos gastos, queda e carga do talismã. A transferência não recupera recursos, não renova as ações do ciclo e não religa um corpo Desligado. Os [projetos de reconstrução e transferência](../46-reconstruir-transferir-e-herdar-entidades.md) acompanham cada conta e resultado.
+No sucesso, atualize os valores dependentes do novo invocador, preservando Classe, ficha, vida atual, usos gastos, queda e carga do talismã. A transferência não recupera recursos, não renova as ações do ciclo e não religa um corpo Desligado. Os [projetos de reconstrução e transferência](<casos/46-reconstruir-transferir-e-herdar-entidades.md>) acompanham cada conta e resultado.
 
 ### Entre cenas e mestres
 
@@ -219,7 +219,7 @@ Registre estado, recursos, usos, posição, tarefa, comunicação e trabalho pen
 
 A manifestação comum não concede uma ação básica à entidade naquele ciclo. Comandar uma capacidade especial normalmente usa a Ação Padrão do invocador e a ação básica da entidade. Recolher e trazer de volta não renova recursos. Esse ciclo vai do começo de um turno do invocador ao próximo, sem relação com os sete dias da guilda.
 
-Transporte adicional exige capacidade própria, ocupando talento, com anatomia, passageiros e carga definidos. Objetos para terceiros ou recolhidos pelo caminho caem ao recolher a entidade, salvo permissão expressa. Corpos que permanecem conservam os objetos no lugar. [Transporte com entidades](../54-transporte-e-continuidade-das-entidades.md) mostra embarque, retirada e continuidade.
+Transporte adicional exige capacidade própria, ocupando talento, com anatomia, passageiros e carga definidos. Objetos para terceiros ou recolhidos pelo caminho caem ao recolher a entidade, salvo permissão expressa. Corpos que permanecem conservam os objetos no lugar. [Transporte com entidades](<casos/54-transporte-e-continuidade-das-entidades.md>) mostra embarque, retirada e continuidade.
 
 Inconsciência não é morte. Entidades que permanecem podem seguir ordens anteriores válidas e seus recursos, mas o personagem inconsciente não emite comandos novos. Morte confirmada encerra ordens e preparações e retira as entidades de campo; as que não podem ser recolhidas ficam Desligadas. Depois, confira a origem:
 
@@ -229,4 +229,4 @@ Inconsciência não é morte. Entidades que permanecem podem seguir ordens anter
 | Criação | Permanece como objeto; talismã conserva carga, corpo fica parado; herança exige transferência |
 | Maldição domada | Fica livre, sob controle do mestre; pode ser domada por outra pessoa |
 
-Não antecipe herança enquanto houver apenas inconsciência ou oportunidades de socorro. A [consulta de aquisição e estados](../43-aquisicao-e-projetos-de-entidades.md) e a folha da entidade conservam o necessário à passagem entre mestres. Confirmar o projeto ou fechar a missão não recupera recursos por si.
+Não antecipe herança enquanto houver apenas inconsciência ou oportunidades de socorro. A [consulta de aquisição e estados](<casos/43-aquisicao-e-projetos-de-entidades.md>) e a folha da entidade conservam o necessário à passagem entre mestres. Confirmar o projeto ou fechar a missão não recupera recursos por si.

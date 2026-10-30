@@ -1,0 +1,21 @@
+{
+  "registro": 125,
+  "lote": "B3-01",
+  "casos": [
+    "s090",
+    "s091",
+    "s030",
+    "s031"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-125/output/pdf/Ciclo-Maldito-Corpos-Cuidados-e-Poderes-Revisao-Textual.pdf",
+  "paginas": 11,
+  "casos_revistos_total": 37,
+  "casos_pendentes": 22,
+  "lotes_pendentes": 5,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B3-02",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

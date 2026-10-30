@@ -1,0 +1,188 @@
+{
+  "registro": 127,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Ofícios: bônus de Rina e alvo contra CD 14",
+      "resultado": [
+        5,
+        3,
+        9,
+        11
+      ],
+      "esperado": [
+        5,
+        3,
+        9,
+        11
+      ]
+    },
+    {
+      "conta": "Etiquetas: bônus, tentativas e tempo",
+      "resultado": [
+        4,
+        false,
+        true,
+        2.5
+      ],
+      "esperado": [
+        4,
+        false,
+        true,
+        2.5
+      ]
+    },
+    {
+      "conta": "Traje de Rina: horas restantes",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "conta": "Desgaste grau 2: missões A, B e C",
+      "resultado": [
+        1,
+        1,
+        0
+      ],
+      "esperado": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "conta": "Anel: orçamento inicial e total",
+      "resultado": [
+        30000,
+        38000,
+        2000
+      ],
+      "esperado": [
+        30000,
+        38000,
+        2000
+      ]
+    },
+    {
+      "conta": "Anel: segundo lote (resina e consumíveis)",
+      "resultado": 8000,
+      "esperado": 8000
+    },
+    {
+      "conta": "Anel: testes de Aya (Destreza 3, Maestria 2)",
+      "resultado": [
+        5,
+        false,
+        true
+      ],
+      "esperado": [
+        5,
+        false,
+        true
+      ]
+    },
+    {
+      "conta": "Anel: horas e dedicação de Kenji",
+      "resultado": [
+        6,
+        12,
+        22
+      ],
+      "esperado": [
+        6,
+        12,
+        22
+      ]
+    },
+    {
+      "conta": "Venda: Persuasão e diferença",
+      "resultado": [
+        false,
+        14000,
+        26000,
+        20
+      ],
+      "esperado": [
+        false,
+        14000,
+        26000,
+        20
+      ]
+    },
+    {
+      "conta": "Pastilha: Volume, selo e prazos",
+      "resultado": [
+        0.5,
+        17,
+        16,
+        0.5,
+        false,
+        8
+      ],
+      "esperado": [
+        0.5,
+        17,
+        16,
+        0.5,
+        false,
+        8
+      ]
+    },
+    {
+      "conta": "Limiar: janela, tratamento e cura",
+      "resultado": [
+        2,
+        21,
+        4,
+        4,
+        22,
+        true,
+        6
+      ],
+      "esperado": [
+        2,
+        21,
+        4,
+        4,
+        22,
+        true,
+        6
+      ]
+    },
+    {
+      "conta": "Limiar: XP e níveis",
+      "resultado": [
+        50,
+        4000,
+        2500,
+        1000,
+        false
+      ],
+      "esperado": [
+        50,
+        4000,
+        2500,
+        1000,
+        false
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Ofícios e exemplo de Arrombamento",
+      "Reparo do Traje de Rina",
+      "Graus das ferramentas, nível mínimo e Desgaste",
+      "Kunai Fiel e Kunai",
+      "Cofre da Família e Palavra Empenhada",
+      "Surdo",
+      "Limiar do nível 20, progressão, XP e experiência semanal",
+      "Aguentar e tratamento"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Anel de Testemunho, Pastilha e os valores de projeto são exemplos experimentais; contas corretas não os aprovam como regra geral."
+  ]
+}

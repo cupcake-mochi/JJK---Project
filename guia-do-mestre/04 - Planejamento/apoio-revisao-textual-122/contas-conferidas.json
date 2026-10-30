@@ -1,0 +1,834 @@
+{
+  "registro": 122,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Doma: vida e Integridade da construção",
+      "resultado": [
+        38,
+        19
+      ],
+      "esperado": [
+        38,
+        19
+      ]
+    },
+    {
+      "conta": "Doma: destruição a partir de 5 PV (excedente 59/60)",
+      "resultado": [
+        54,
+        55,
+        false,
+        true
+      ],
+      "esperado": [
+        54,
+        55,
+        false,
+        true
+      ]
+    },
+    {
+      "conta": "Doma: ataque/CD com M = 1",
+      "resultado": [
+        5,
+        13
+      ],
+      "esperado": [
+        5,
+        13
+      ]
+    },
+    {
+      "conta": "Doma: estágio 2 sobre especial de Classe 2",
+      "resultado": 8,
+      "esperado": 8
+    },
+    {
+      "conta": "Doma: Condução urgente, pontos sem uso",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "conta": "Doma: Dobrar o sino, dados",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "conta": "Doma: exemplo de condução (9 m a 3 m por passo + 6 m especial)",
+      "resultado": [
+        4.5,
+        10.5
+      ],
+      "esperado": [
+        4.5,
+        10.5
+      ]
+    },
+    {
+      "conta": "Doma: entrada nível 6 (Classe 2) e religar pelo dobro; metade da vida",
+      "resultado": [
+        2,
+        4,
+        19
+      ],
+      "esperado": [
+        2,
+        4,
+        19
+      ]
+    },
+    {
+      "conta": "Carregador (nível 2, Classe 1), para comparação: entrada e religar",
+      "resultado": [
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        2
+      ]
+    },
+    {
+      "conta": "Ensaio: carga de Rina para o arrasto",
+      "resultado": 7.3,
+      "esperado": 7.3
+    },
+    {
+      "conta": "Ensaio: C0 à caixa e percursos de 9 m",
+      "resultado": [
+        9.0,
+        9.0,
+        9.0
+      ],
+      "esperado": [
+        9.0,
+        9.0,
+        9.0
+      ]
+    },
+    {
+      "conta": "Ensaio: arrasto D6→D10 e retorno de Rina com Avançar",
+      "resultado": [
+        6.0,
+        3.0
+      ],
+      "esperado": [
+        6.0,
+        3.0
+      ]
+    },
+    {
+      "conta": "Ensaio: separação após o Empurrão (C10 até E10)",
+      "resultado": 3.0,
+      "esperado": 3.0
+    },
+    {
+      "conta": "Ensaio: Sineiro E10→D7 e Rina C8→C4",
+      "resultado": [
+        4.5,
+        6.0
+      ],
+      "esperado": [
+        4.5,
+        6.0
+      ]
+    },
+    {
+      "conta": "Ensaio: Mei D6 a 3 m de Rina em C4",
+      "resultado": 3.0,
+      "esperado": 3.0
+    },
+    {
+      "conta": "Ensaio: Rina em C10 dentro da zona de D10:E11",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Ensaio: Mei em D6 dentro e Rina em C4 fora da zona de D7:E8",
+      "resultado": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ]
+    },
+    {
+      "conta": "Ensaio: Mei em C11 dentro da zona de D10:E11",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Ensaio 1: vida do Sineiro",
+      "resultado": [
+        97,
+        75,
+        52
+      ],
+      "esperado": [
+        97,
+        75,
+        52
+      ]
+    },
+    {
+      "conta": "Ensaio 1: Rina",
+      "resultado": [
+        59,
+        53
+      ],
+      "esperado": [
+        59,
+        53
+      ]
+    },
+    {
+      "conta": "Ensaio 1: PE de Mei e Akira",
+      "resultado": [
+        30,
+        23,
+        28
+      ],
+      "esperado": [
+        30,
+        23,
+        28
+      ]
+    },
+    {
+      "conta": "Ensaio 1: dados",
+      "resultado": [
+        11,
+        12,
+        22,
+        23,
+        11
+      ],
+      "esperado": [
+        11,
+        12,
+        22,
+        23,
+        11
+      ]
+    },
+    {
+      "conta": "Ensaio 1: Bloquear 2d10 + 2 e ataque com desvantagem",
+      "resultado": [
+        12,
+        14,
+        true
+      ],
+      "esperado": [
+        12,
+        14,
+        true
+      ]
+    },
+    {
+      "conta": "Ensaio 1: saída de Mei e Rina",
+      "resultado": [
+        6.0,
+        9.0,
+        4.5
+      ],
+      "esperado": [
+        6.0,
+        9.0,
+        4.5
+      ]
+    },
+    {
+      "conta": "Ensaio 2: saída de Mei e Rina",
+      "resultado": [
+        6.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "esperado": [
+        6.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ]
+    },
+    {
+      "conta": "Ensaio 2: Mei C6→C11 com a Bônus convertida",
+      "resultado": 7.5,
+      "esperado": 7.5
+    },
+    {
+      "conta": "Ensaio 2: impacto e Cobrir-se (Refino 2)",
+      "resultado": [
+        30,
+        3,
+        27,
+        28
+      ],
+      "esperado": [
+        30,
+        3,
+        27,
+        28
+      ]
+    },
+    {
+      "conta": "Ensaio 2: Insistir e Aguentar com máximo 44",
+      "resultado": [
+        15,
+        30,
+        11
+      ],
+      "esperado": [
+        15,
+        30,
+        11
+      ]
+    },
+    {
+      "conta": "Ensaio 2: PE de Mei e vida do Sineiro",
+      "resultado": [
+        21,
+        74
+      ],
+      "esperado": [
+        21,
+        74
+      ]
+    },
+    {
+      "conta": "Ensaio 2: distâncias de socorro (C0–C−5 e C0–C11)",
+      "resultado": [
+        7.5,
+        16.5
+      ],
+      "esperado": [
+        7.5,
+        16.5
+      ]
+    },
+    {
+      "conta": "Ensaio 2: curas e tratamento",
+      "resultado": [
+        10,
+        8,
+        18,
+        true,
+        18
+      ],
+      "esperado": [
+        10,
+        8,
+        18,
+        true,
+        18
+      ]
+    },
+    {
+      "conta": "Ensaio 2: PE de Akira",
+      "resultado": [
+        23,
+        17
+      ],
+      "esperado": [
+        23,
+        17
+      ]
+    },
+    {
+      "conta": "Dupla: Defesa e Bloquear",
+      "resultado": [
+        13,
+        2
+      ],
+      "esperado": [
+        13,
+        2
+      ]
+    },
+    {
+      "conta": "Dupla: TRs de Ren (For 4, Con 3, Int 1, Ess 1, M 1)",
+      "resultado": [
+        5,
+        4,
+        1,
+        1
+      ],
+      "esperado": [
+        5,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "conta": "Dupla: TRs de Sora (Des 2, Con 3, Int 2, Ess 4, M 1)",
+      "resultado": [
+        3,
+        3,
+        2,
+        5
+      ],
+      "esperado": [
+        3,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "conta": "Dupla: perícias (Percepção/Sentir por Essência, Intuição por Inteligência)",
+      "resultado": [
+        [
+          5,
+          2,
+          2,
+          2
+        ],
+        [
+          5,
+          5,
+          3,
+          5
+        ]
+      ],
+      "esperado": [
+        [
+          5,
+          2,
+          2,
+          2
+        ],
+        [
+          5,
+          5,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "conta": "Dupla: carga normal/arrasto",
+      "resultado": [
+        [
+          9,
+          18
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "esperado": [
+        [
+          9,
+          18
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "conta": "Dupla: CD de manobra (8 + Força + M)",
+      "resultado": [
+        13,
+        9
+      ],
+      "esperado": [
+        13,
+        9
+      ]
+    },
+    {
+      "conta": "Dupla: montagens (Fenda, Remendo)",
+      "resultado": [
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        4
+      ]
+    },
+    {
+      "conta": "Dupla: Kokusen, limite 2 × Refino",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "conta": "Dupla: gastos de Ren (8 PE)",
+      "resultado": [
+        8,
+        1,
+        1
+      ],
+      "esperado": [
+        8,
+        1,
+        1
+      ]
+    },
+    {
+      "conta": "Dupla: gastos de Sora (12 PE)",
+      "resultado": [
+        12,
+        12,
+        12,
+        11,
+        1
+      ],
+      "esperado": [
+        12,
+        12,
+        12,
+        11,
+        1
+      ]
+    },
+    {
+      "conta": "Dupla: estágio 2 (+1 PE por Classe)",
+      "resultado": [
+        4,
+        4,
+        8
+      ],
+      "esperado": [
+        4,
+        4,
+        8
+      ]
+    },
+    {
+      "conta": "Dupla: Classe máxima no estágio 3",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "conta": "Dupla: estágios de Integridade, Ren 36",
+      "resultado": [
+        [
+          28,
+          36
+        ],
+        [
+          19,
+          27
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "esperado": [
+        [
+          28,
+          36
+        ],
+        [
+          19,
+          27
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "conta": "Dupla: estágios de Integridade, Sora 24",
+      "resultado": [
+        [
+          19,
+          24
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "esperado": [
+        [
+          19,
+          24
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "conta": "Confronto: Sora F8 a Ren D5",
+      "resultado": 4.5,
+      "esperado": 4.5
+    },
+    {
+      "conta": "Confronto: Empurrão F8→H12 e distância até Ren",
+      "resultado": [
+        6.0,
+        10.5
+      ],
+      "esperado": [
+        6.0,
+        10.5
+      ]
+    },
+    {
+      "conta": "Confronto: Akira F0→F6 e F6–H12",
+      "resultado": [
+        9.0,
+        9.0
+      ],
+      "esperado": [
+        9.0,
+        9.0
+      ]
+    },
+    {
+      "conta": "Confronto: Mei D4 a Sora F8 e Rina C4 a Mei D4",
+      "resultado": [
+        6.0,
+        1.5
+      ],
+      "esperado": [
+        6.0,
+        1.5
+      ]
+    },
+    {
+      "conta": "Confronto: Passo de Ren e retorno de Sora",
+      "resultado": [
+        3.0,
+        6.0
+      ],
+      "esperado": [
+        3.0,
+        6.0
+      ]
+    },
+    {
+      "conta": "Confronto: Rina C4→D6 e saída de Ren",
+      "resultado": [
+        3.0,
+        9.0,
+        3.0
+      ],
+      "esperado": [
+        3.0,
+        9.0,
+        3.0
+      ]
+    },
+    {
+      "conta": "Confronto: Akira F6→G12",
+      "resultado": 9.0,
+      "esperado": 9.0
+    },
+    {
+      "conta": "Confronto: Ren (vida e PE)",
+      "resultado": [
+        67,
+        59,
+        46,
+        1
+      ],
+      "esperado": [
+        67,
+        59,
+        46,
+        1
+      ]
+    },
+    {
+      "conta": "Confronto: Sora (vida e PE)",
+      "resultado": [
+        22,
+        40,
+        16,
+        true,
+        1
+      ],
+      "esperado": [
+        22,
+        40,
+        16,
+        true,
+        1
+      ]
+    },
+    {
+      "conta": "Confronto: Rina",
+      "resultado": [
+        58,
+        52
+      ],
+      "esperado": [
+        58,
+        52
+      ]
+    },
+    {
+      "conta": "Confronto: dados",
+      "resultado": [
+        11,
+        13,
+        29,
+        18,
+        11,
+        11,
+        24,
+        21,
+        13
+      ],
+      "esperado": [
+        11,
+        13,
+        29,
+        18,
+        11,
+        11,
+        24,
+        21,
+        13
+      ]
+    },
+    {
+      "conta": "Confronto: PE gastos",
+      "resultado": [
+        26,
+        18
+      ],
+      "esperado": [
+        26,
+        18
+      ]
+    },
+    {
+      "conta": "Confronto: PE finais de Mei e Akira",
+      "resultado": [
+        24,
+        16
+      ],
+      "esperado": [
+        24,
+        16
+      ]
+    },
+    {
+      "conta": "Confronto: chance de derrotar Sora (48) e Ren (67), em %",
+      "resultado": [
+        23.9,
+        4.5
+      ],
+      "esperado": [
+        23.9,
+        4.5
+      ]
+    },
+    {
+      "conta": "Confronto: acerto da espada sem e com vantagem, em %",
+      "resultado": [
+        65.0,
+        87.75
+      ],
+      "esperado": [
+        65.0,
+        87.75
+      ]
+    },
+    {
+      "conta": "Confronto: dano médio da espada (comum / Impulso / Alicerce / Alicerce e Impulso)",
+      "resultado": [
+        7.39,
+        10.12,
+        3.86,
+        5.28
+      ],
+      "esperado": [
+        7.39,
+        10.12,
+        3.86,
+        5.28
+      ]
+    },
+    {
+      "conta": "Confronto: dano médio desarmado de Sora (+1, 1d4 + 1d4)",
+      "resultado": 2.38,
+      "esperado": 2.38
+    }
+  ],
+  "correcao_documentada": {
+    "caso": "s072",
+    "antes": "religar custa Bônus e 2 PE",
+    "depois": "religar custa Bônus e 4 PE, o dobro do PE da entrada",
+    "fundamento": "Livro de Regras 1.0: entrada = maior Classe permitida pelo nível da entidade (nível 6 → 2 PE); retorno e religar = dobro do PE da entrada."
+  },
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Recursos do turno, conversão de ações, Correr, Desengajar e movimento que não provoca",
+      "Provocar e Olhos Em Mim (provocação inicial e área de 6 m)",
+      "Vida a zero, Aguentar, Insistir, janela de socorro e cura do tratamento",
+      "Estágios de Integridade",
+      "Cobrir-se de Energia, Canalizar e Kokusen",
+      "Abrir Caminho: Executar e Resguardar",
+      "Atributos de Percepção, Sentir Energia e Intuição",
+      "Invocações em campo: entrada, retorno, religar, ciclo e Reação coletiva",
+      "Domar uma maldição: submissão e tentativa durante o combate",
+      "Carregar, Recuo e Escolher"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética, das distâncias e das regras existentes. Sem simulação de combate.",
+    "As probabilidades do s076 foram recalculadas por convolução exata, nas mesmas condições declaradas pelo texto; não medem dificuldade.",
+    "As fichas do Sineiro, da domada, de Ren e de Sora continuam experimentais; contas corretas não demonstram equilíbrio."
+  ]
+}

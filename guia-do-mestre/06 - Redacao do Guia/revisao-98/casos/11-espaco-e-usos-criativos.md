@@ -6,7 +6,7 @@ Leia esta seção como complemento de [Na mesa de jogo](<../04-na-mesa-de-jogo.m
 
 ## Exemplos de movimento e improvisação
 
-[Movimento, saltos e quedas](<../../84-percursos-apoios-e-quedas.md>) resolve correnteza, salto com risco combinado, passagem estreita com bagagem, queda sobre criatura, Obras de Apoio e Parkour. [Ferramentas e improvisação](<../../85-trajetorias-ferramentas-e-improvisacao.md>) aplica Ricochete, instalação de corda, fechaduras, contenção e dois perfis de arma improvisada. Os casos têm posições e custos próprios; não alteram as medidas do anexo.
+[Movimento, saltos e quedas](<84-percursos-apoios-e-quedas.md>) resolve correnteza, salto com risco combinado, passagem estreita com bagagem, queda sobre criatura, Obras de Apoio e Parkour. [Ferramentas e improvisação](<85-trajetorias-ferramentas-e-improvisacao.md>) aplica Ricochete, instalação de corda, fechaduras, contenção e dois perfis de arma improvisada. Os casos têm posições e custos próprios; não alteram as medidas do anexo.
 
 ## Mostre onde cada um está
 
@@ -87,7 +87,7 @@ Transportar em grupo também tem regras de carga, mãos, percurso e momento de a
 
 ### Objetos como armas
 
-Escolha o perfil antes do ataque. Se funcionar como uma arma do catálogo, use a referência com seu treino, mãos e requisitos, conservando apenas propriedades compatíveis. Sem referência adequada, confira o perfil de improvisação do Livro de Regras 1.0: 1d4, atributos e faixas próprios, Maestria e desvantagem sem treino específico. O Volume permanece o do objeto. Os [casos do cabo e da garrafa](<../../85-trajetorias-ferramentas-e-improvisacao.md>) mostram ataque, dano e quebra anunciada.
+Escolha o perfil antes do ataque. Se funcionar como uma arma do catálogo, use a referência com seu treino, mãos e requisitos, conservando apenas propriedades compatíveis. Sem referência adequada, confira o perfil de improvisação do Livro de Regras 1.0: 1d4, atributos e faixas próprios, Maestria e desvantagem sem treino específico. O Volume permanece o do objeto. Os [casos do cabo e da garrafa](<85-trajetorias-ferramentas-e-improvisacao.md>) mostram ataque, dano e quebra anunciada.
 
 ## Ajudar e distrair
 

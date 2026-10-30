@@ -1,0 +1,28 @@
+{
+  "registro": 123,
+  "mapas": [
+    {
+      "id": "s079",
+      "figura": "04 - Planejamento/apoio-revisao-textual-123/imagens/po.svg",
+      "sha256": "8a9301a66bea68a25a1dbe54dff61976a637a965ec17aad95a83727c9c01e235",
+      "origem": "desenho existente em MAPAS.py, sem alteração",
+      "codigo": "08 - Diagramacao do Guia/MAPAS.py",
+      "altura_pontos": 310
+    },
+    {
+      "id": "s102",
+      "figura": "04 - Planejamento/apoio-revisao-textual-123/imagens/arquivo.svg",
+      "sha256": "a4f30516a7c151abc5eceae298af083b9b32baabe9721e7387dd623cd449cda3",
+      "origem": "novo desenho deste apoio, mesmo estilo dos mapas do Guia, com as posições da tabela do caso",
+      "codigo": "04 - Planejamento/apoio-revisao-textual-123/GERAR-MAPAS.py",
+      "altura_pontos": 300
+    }
+  ],
+  "origem_sha256": "3c1db39f19af00d02edded50582e0f4d6ee6fd8537e85191801144f3d84ba76d",
+  "criterios": [
+    "O desenho s079 de MAPAS.py foi conferido contra o caso: sala 3 × 18 m, faixas A e B, linhas 1–12 com pó, fecho e pino junto de A12, Mei em A0, Akira em B0 e exaustor junto de B0. Corresponde ao texto e substitui, na prova, o esquema em caracteres.",
+    "O s102 tinha só uma tabela de posições. Foi feito um vetor no mesmo estilo, com as duas versões lado a lado (Haru sozinho; Vigia e Tessa), porque o texto pede escolher uma antes da sessão. Posições: Bastião B0, Emanador C0, Guia D0, Haru D10, Vigia C8, Tessa E11, painel junto de C12.",
+    "O s101 é ficha sem posições; não recebe mapa."
+  ],
+  "limites": "MAPAS.py não foi alterado. Sem edição de bitmap. O mapa do s102 é figura nova, derivada da tabela do caso, sem nova regra ou posição."
+}

@@ -2,7 +2,7 @@
 
 Os jogadores vão conversar, examinar o lugar e propor caminhos que você talvez não tenha imaginado. Ouça o que querem fazer, use o preparo e as regras para descobrir o resultado e apresente a próxima escolha.
 
-Os exemplos retomam o anexo e a despedida de Helena, dos capítulos anteriores. As [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-113/consulta-de-regras.html#conducao>) ficam acessíveis para consulta.
+Os exemplos retomam o anexo e a despedida de Helena, dos capítulos anteriores. As regras usadas aqui estão no Livro de Regras 1.0.
 
 ## 4.1 Descrever, ouvir e responder
 
@@ -97,7 +97,7 @@ Ajude o jogador a encontrar a regra para o que deseja fazer. **Vasculhar** procu
 
 Localizar uma fonte por som ou energia não concede automaticamente visão, identidade ou conhecimento de seus poderes. Confira sentidos, obstáculos e alcance antes do dado. Vasculhar com Sentir Energia ainda custa Ação Padrão quando dispensa rolagem para uma fonte acessível, sem ocultação ou interferência.
 
-Resolva a falha e apresente o que continua disponível. Estudar em combate gasta a Padrão e deixa a pergunta sem resposta segura; repetir exige nova pista ou abordagem. Confira as condições de repetição das outras ações. Uma busca impedida pela porta precisa de outro meio, não de um dado maior.
+Resolva a falha e apresente o que continua disponível. Se Estudar falhar em combate, a Padrão é gasta e a pergunta fica sem resposta segura; repetir exige nova pista ou abordagem. Confira as condições de repetição das outras ações. Uma busca impedida pela porta precisa de outro meio, não de um dado maior.
 
 ### Quando o grupo perde o rumo
 

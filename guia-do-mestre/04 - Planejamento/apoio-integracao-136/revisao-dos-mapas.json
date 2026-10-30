@@ -1,0 +1,27 @@
+{
+  "registro": 136,
+  "mapas_atualizados": [
+    {
+      "mapa": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/dupla.svg",
+      "sha256": "159c3198bfb424539b791cd53f1ff5f5fb39d60c730542bc6729f053f388e92a",
+      "imagem_inspecionada": "04 - Planejamento/apoio-integracao-136/tmp/dupla.png",
+      "inspecionada": true,
+      "observacao": "Toru e Sayo; coordenadas e leitura de rotas conferidas."
+    },
+    {
+      "mapa": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/arquivo.svg",
+      "sha256": "3f14f51bb1e392d44f7ed29bffac7a8eacb3ebc5c7b0983b723ffddd6fd3c798",
+      "imagem_inspecionada": "04 - Planejamento/apoio-integracao-136/tmp/arquivo.png",
+      "inspecionada": true,
+      "observacao": "Daigo; posições do guarda, Vigia e Tessa conferidas."
+    },
+    {
+      "mapa": "07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/carregador.svg",
+      "sha256": "0966d5e4503285e8de5cf22986d3bb51f9703027a05a8b03bb58ed05a01200d2",
+      "imagem_inspecionada": "04 - Planejamento/apoio-integracao-136/tmp/carregador.png",
+      "inspecionada": true,
+      "observacao": "Trechos da rota direta, entulho, lateral e área de recuo legíveis."
+    }
+  ],
+  "limite": "Três mapas atualizados inspecionados diretamente. Os outros quatro mapas são cópias sem alteração das provas anteriores."
+}

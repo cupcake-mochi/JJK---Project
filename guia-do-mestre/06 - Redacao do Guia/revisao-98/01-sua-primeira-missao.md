@@ -41,7 +41,7 @@ Antes do chamado, um personagem vai buscar seu uniforme na oficina de Nara. O co
 
 > Nara tira duas etiquetas amassadas de cima da bancada.
 >
-> — O conserto ficou pronto. O Rui levou junto com as encomendas da manhã, mas parece que trocou as entregas. Deixa eu conferir o recibo.
+> — O conserto ficou pronto. O Beto levou junto com as encomendas da manhã, mas parece que trocou as entregas. Deixa eu conferir o recibo.
 >
 > Ela procura o telefone. Você pretendia fazer o quê depois de passar aqui?
 
@@ -55,7 +55,7 @@ Antes do chamado, um personagem vai buscar seu uniforme na oficina de Nara. O co
 
 **Mestre:** “Ana atende, confere o recibo com Nara e confirma que o uniforme está guardado. Pode esperar você chegar. O que diz aos colegas?”
 
-O personagem pode buscar a roupa, pedir que Rui corrija a entrega ou cuidar primeiro de outro compromisso. Se os participantes quiserem conversar com Nara, dê espaço. Se só querem recuperar a peça, resuma a troca e siga.
+O personagem pode buscar a roupa, pedir que Beto corrija a entrega ou cuidar primeiro de outro compromisso. Se os participantes quiserem conversar com Nara, dê espaço. Se só querem recuperar a peça, resuma a troca e siga.
 
 O cotidiano oferece motivos para os personagens se encontrarem e criarem relações. Nem toda visita precisa terminar numa tarefa perigosa. Quando Ana apresentar o problema do depósito, o grupo poderá decidir se quer ajudar.
 

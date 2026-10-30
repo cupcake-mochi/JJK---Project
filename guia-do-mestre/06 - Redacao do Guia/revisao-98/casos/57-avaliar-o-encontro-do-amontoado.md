@@ -56,7 +56,7 @@ O Amontoado deste preparo prioriza a criatura consciente mais próxima, com dese
 
 Esse comportamento não é uma proteção geral para quem escolhe Aguentar. Outros inimigos podem agir de outra forma, e uma área ou perigo do lugar também pode alcançar um inconsciente. Prepare e comunique o risco perceptível de cada situação.
 
-Se a criatura for derrotada enquanto alguém ainda estiver Morrendo, prossiga com o atendimento e seu prazo. Não trate o fim dos ataques como um descanso concluído. A [folha de estado e socorro](<../../24-registro-de-estado-e-socorro.md>) conserva o que falta resolver.
+Se a criatura for derrotada enquanto alguém ainda estiver Morrendo, prossiga com o atendimento e seu prazo. Não trate o fim dos ataques como um descanso concluído. A [folha de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>) conserva o que falta resolver.
 
 ## O que a simulação mostrou
 
@@ -73,6 +73,6 @@ As duas situações duraram o mesmo número mediano de rodadas, mas o grupo feri
 | Só duas pessoas poderão participar | Quantas ações ficam disponíveis para atacar, cumprir o objetivo e socorrer; acesso aos meios de cura e retirada. | Rever o preparo com essas fichas. A ocorrência permite manter o anexo sem uso e encaminhar apoio; não obriga a luta imediata. |
 | A equipe chega ferida ou com Sequelas | Reservas atuais, prazo de socorro de cada pessoa, recursos de tratamento e possibilidade real de descanso. | Apresentar a situação e as opções do grupo. Se o preparo for alterado antes da cena, registrar a nova versão. |
 | Há uma entidade no grupo | Custo de entrada, comandos, atuação, alcance, energia e meios de recuperação. | Avaliar sua contribuição pelas regras próprias; não somá-la como uma quarta ficha de jogador. |
-| O grupo quer adquirir a maldição | Requisitos de Doma, derrota sem destruição e ficha convertida conhecida antes da tentativa. | Usar o [caso de Doma do Amontoado](<../../52-domar-o-amontoado.md>). A aquisição muda o que a equipe precisa preservar. |
+| O grupo quer adquirir a maldição | Requisitos de Doma, derrota sem destruição e ficha convertida conhecida antes da tentativa. | Usar o [caso de Doma do Amontoado](<52-domar-o-amontoado.md>). A aquisição muda o que a equipe precisa preservar. |
 
 Ao fechar a sessão, registre a composição que realmente jogou, os recursos disponíveis no início, o destino da criatura, os objetivos resolvidos e as condições e os recursos restantes. Anote separadamente as rodadas da luta e o tempo necessário para encerrar socorro ou retirada. Essa informação permite ao próximo mestre continuar a história e revisar sua previsão.

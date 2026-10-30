@@ -1,0 +1,106 @@
+{
+  "registro": 136,
+  "fontes_reunidas": 97,
+  "fontes_reproduzidas": 97,
+  "alteracoes_reproduzidas": 169,
+  "quadros_conferidos": 286,
+  "diferencas_numericas_editoriais": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "alteracoes": [
+        {
+          "antes": [],
+          "depois": [
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "alteracoes": [
+        {
+          "antes": [],
+          "depois": [
+            "1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "alteracoes": [
+        {
+          "antes": [],
+          "depois": [
+            "1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+      "alteracoes": [
+        {
+          "antes": [
+            "86",
+            "1.0"
+          ],
+          "depois": []
+        }
+      ]
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+      "alteracoes": [
+        {
+          "antes": [
+            "1",
+            "21",
+            "2026"
+          ],
+          "depois": []
+        },
+        {
+          "antes": [
+            "1.0"
+          ],
+          "depois": []
+        }
+      ]
+    }
+  ],
+  "paginas_html": 99,
+  "links_html": 1883,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "contas_dos_apoios": {
+    "amparo_8_menos_6": 2,
+    "reserva_piso_7_2_mais_4_2": 5,
+    "limite_35_saldo_32": 35,
+    "integridade_inimigos": [
+      6,
+      24,
+      12
+    ],
+    "integridade_domadas": [
+      5,
+      7,
+      5
+    ],
+    "reservas_proprias_classe2": [
+      2,
+      4
+    ],
+    "excedente_igual_metade_48_nao_supera": true,
+    "excedente_acima_48_supera": true
+  },
+  "ideias_incluidas_uma_vez_antes_de_37": true,
+  "origens_preservadas": true,
+  "falhas": [],
+  "limites": [
+    "Validação estrutural e de conteúdo copiado, não leitura integral contínua de todas as fontes.",
+    "Navegação no navegador não inspecionada: protocolo local bloqueado pela política do navegador.",
+    "Revisão visual desta entrega restrita à prova dos apoios e aos mapas atualizados."
+  ]
+}

@@ -1,6 +1,6 @@
 # Montar as habilidades de um inimigo
 
-**Leia depois de [PE, recarga e limites de uso](<59-recursos-e-ritmo-dos-inimigos.md>).** Comece pelo que a criatura tenta fazer na cena. Depois escolha a regra que realiza essa intenção e o limite que organiza seu uso. Registre a capacidade no bloco 3 da [ficha única](<../../58-ficha-de-inimigo-e-encontro.md>) e use a [ficha de habilidade](<../../61-ficha-de-habilidade-de-inimigo.md>) quando precisar aprofundar interações.
+**Leia depois de [PE, recarga e limites de uso](<59-recursos-e-ritmo-dos-inimigos.md>).** Comece pelo que a criatura tenta fazer na cena. Depois escolha a regra que realiza essa intenção e o limite que organiza seu uso. Registre a capacidade no bloco 3 da [ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>) e use a [ficha de habilidade](<../consultas/61-ficha-de-habilidade-de-inimigo.md>) quando precisar aprofundar interações.
 
 As habilidades novas e as adaptações desta seção são experimentais. Use-as para comparar possibilidades; seus custos ainda precisam ser testados em mesa.
 
@@ -86,7 +86,7 @@ Para examinar a função do Carregador, considere uma criatura Média com mãos,
 
 O alvo faz um **Teste de Resistência Físico (TR Físico)**: rola um d20, soma o bônus desse TR e compara com a **Classe de Dificuldade (CD)**, calculada como **8 + 3 + 1 = 12**. Com total 11, fica Agarrado, com deslocamento zero; com 12, evita. A tentativa não causa dano, não rola acerto e não cobra PE. O alvo agarrado conserva ataques, conjuração e Bloquear conforme seus requisitos. Para escapar no próprio turno, pode gastar a Padrão e repetir TR Físico contra CD 12. Há também outras saídas previstas na contenção, como separar os corpos além do alcance ou fazer o agarrador perder a mão que a mantém.
 
-O tilintar dos sinos dá identidade à criatura e pode anunciar sua intenção. Não concede um segundo agarrão, transporte gratuito ou controle da personagem. Arrastar ainda precisa cumprir carga, movimento e alcance. Este exemplo ensina uma capacidade. Para a aplicação com ficha completa e percurso, consulte [O Carregador e o corredor de entulho](<../../62-o-carregador-e-o-corredor-de-entulho.md>) e sua [consulta com Doma](<../../63-carregador-consulta-e-doma.md>); os valores novos permanecem experimentais.
+O tilintar dos sinos dá identidade à criatura e pode anunciar sua intenção. Não concede um segundo agarrão, transporte gratuito ou controle da personagem. Arrastar ainda precisa cumprir carga, movimento e alcance. Este exemplo ensina uma capacidade. Para a aplicação com ficha completa e percurso, consulte [O Carregador e o corredor de entulho](<62-o-carregador-e-o-corredor-de-entulho.md>) e sua [consulta com Doma](<63-carregador-consulta-e-doma.md>); os valores novos permanecem experimentais.
 
 ### Trançar placas: proteção
 

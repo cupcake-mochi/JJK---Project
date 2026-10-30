@@ -1,0 +1,61 @@
+CONTINUAR O GUIA DO MESTRE DE CICLO MALDITO — 30/10/2026
+
+Retome o trabalho existente a partir do registro 141. Não reinicie o livro nem reconstrua a edição a partir de versões antigas.
+
+LOCAIS
+Produção principal: /media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/
+Cópia de salvamento Git: /home/mizuki/CHAT-GPT/salvamentos/guia-do-mestre-2026-10-23/repositorio/guia-do-mestre/
+Repositório: https://github.com/cupcake-mochi/JJK---Project
+Branch: codex/guia-do-mestre-pre-1-2026-10-23
+Pesquisa adicional: /home/mizuki/CHAT-GPT/RPG -JJK/Conceitos de Ideias para o sistema/
+Acervo e pesquisas do Claude: /media/mizuki/HD Externo II/Claude/Claude 2/
+Não confunda a produção do Guia com o livro R57, aplicativos ou outros trabalhos nessas pastas.
+
+LEIA PRIMEIRO
+LEIA-ME.md e o aviso de fila vigente.
+04 - Planejamento/141-leitura-de-atividades-e-recompensas.md
+04 - Planejamento/140-leitura-de-personagens-e-tecnicas.md
+04 - Planejamento/139-leitura-de-inimigos-e-perigos.md
+04 - Planejamento/136-integracao-editorial-e-apoios.md
+04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md
+04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md
+Essas leituras situam o estado atual; os prompts antigos conservam instruções e filas históricas, não substituem o aviso vigente.
+
+ESTADO
+Os 59 casos e as 17 consultas complementares receberam revisões locais. O conjunto foi conferido no registro 135 e reunido no 136. A passagem contínua revisou abertura e capítulos 1–3 no 137, capítulos 4–5 no 138, capítulo 6 no 139, capítulo 7 no 140 e capítulo 8 no 141, sempre junto dos exemplos pertinentes.
+
+Fontes atuais: 06 - Redacao do Guia/edicao-integrada-136/
+Leitura atual: 07 - Edicao de Leitura/edicao-integrada-136/index.html
+Gerador atual: 04 - Planejamento/apoio-leitura-141/GERAR-LEITURA.py
+Conferências atuais: apoio-leitura-141/conferencia.json e contas-conferidas.json.
+Manifesto de produção: 04 - Planejamento/apoio-piloto/manifesto-entrega.json, com 5.062 entradas.
+Não rode o preparador de fontes do registro 136 sobre as fontes atuais: ele apagaria ajustes posteriores. Preserve a inserção única de 03a em 3.6 antes de 3.7, os atalhos e as âncoras antigas.
+
+O PDF integrado de 357 páginas em 08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf é anterior a essa integração e às últimas revisões. Não é o PDF final atualizado. Seu SHA-256 é 0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b.
+
+PRÓXIMA TAREFA
+Revisar 09-pactos-e-entidades.md e seus casos e fichas. Ler por inteiro, comparar com as regras e decisões já registradas, aplicar ajustes de clareza e coerência e repetir a leitura como pente fino. Não reabrir decisões aprovadas por mera preferência. Se houver contradição material ou decisão nova necessária, formule uma pergunta concreta ao usuário.
+
+Depois: capítulo 10 e apoios pertinentes, conferência final, composição do PDF completo, revisão visual de cada página, correções e nova inspeção. Compare com o livro base e os guias de mestre pesquisados. Não declare esse fechamento ou equilíbrio antes de executar as verificações correspondentes.
+
+METODOLOGIA
+Antes de editar, guarde os estados anteriores. Use o registro seguinte livre e confirme o estado atual dos arquivos e do manifesto. Os scripts de aplicação, geração, conferência e fechamento dos registros 139–141 servem como referência; adapte números, listas e limites à tarefa real, sem substituir fontes por snapshots antigos.
+Conserve arquivos anteriores e fontes originais. Não altere números por revisão estilística. Se houver correção de regra, documente a fonte, a diferença e os exemplos afetados. Confira ligações, âncoras, tabelas e exemplos depois das mudanças. Atualize a fila e o manifesto por união, admitindo apenas as alterações declaradas.
+A edição atual tem 99 fontes Markdown e 99 documentos HTML, contando índice e a inserção de 03a. A conferência do registro 141 encontrou 1.916 links e nove imagens no HTML; não é inspeção visual em navegador.
+O acesso local pelo navegador foi bloqueado nesta sessão e não foi contornado. Os relatórios deixam claro o limite da inspeção estrutural. Uma futura revisão visual deve seguir as permissões e ferramentas disponíveis; não confunda conferir HTML com revisar visualmente o PDF completo.
+
+DECISÕES E LIMITES
+O Guia ensina a mestrar Ciclo Maldito, com foco em guilda e ensinamentos utilizáveis em campanha fechada. Dê um caminho recomendado com alternativas explicadas. Priorize clareza, títulos simples, exemplos completos e consulta fácil. No texto ao leitor, use Livro de Regras 1.0, não a etiqueta R53.
+A referência técnica é 04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md, SHA-256 7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. Não migre para R57 por existir uma versão mais nova em outro projeto.
+Receptáculo: recomendar mestre na outra voz mediante acordo com o jogador, preservando as decisões do personagem e explicando alternativas.
+Dedicação: 28 horas novas por ficha em sete dias; tempo do mundo acompanha aproximadamente os dias reais. Só horas novas livres passam ao ciclo seguinte, uma única vez; gaste antigas primeiro. Fichas diferentes têm concessões separadas. Não confunda com desconto de XP por jogador.
+Reserva Condensada: manter a habilidade publicada, sem reintroduzir depósitos, tetos ou retiradas numéricos descartados. Treinamentos específicos continuam sem novo pacote aprovado de benefícios. Não presumir atrofia por falta de postagem.
+Bestiário antigo: não usar seus números antes de atualização. Inimigos não precisam todos de PE; os modelos atuais usam reservas, recarga, preparo e outros limites conforme a função. Protótipos e criações próprias continuam experimentais.
+Pactos e entidades: consultar capítulo, casos, decisões e Livro de Regras; não substituir as escolhas por novas recomendações sem necessidade. Os projetos de entidades têm tempos, retrabalho, reconstrução e transferência já definidos no material.
+Sem revelações na entrada do mundo; aprofundamentos da obra ficam separados e sinalizados. Não afirmar teste humano, inspeção visual não feita ou equilíbrio certificado.
+
+COMUNICAÇÃO
+Continue autonomamente o trabalho autorizado. Traga dúvidas reais e específicas; não peça confirmação para cada ajuste editorial. Ao final de cada resolução ou mensagem de encerramento, recomende a próxima tarefa, modelo e esforço. Para a próxima passagem editorial, o planejamento indica GPT-6.1 Sol, esforço alto.
+
+SALVAMENTO
+A produção não é um checkout. Esta cópia Git contém planejamento, fontes, históricos, provas e leitura até o registro 141. SALVAMENTO.json inventaria a cópia; CONFERIR-COPIA-GIT.py verifica seus arquivos. CONFERIR-SALVAMENTO.py confere o manifesto de produção. As extrações externas integrais omitidas e o acervo bibliográfico local não foram incorporados ao Git. Antes de sincronizar novamente, compare os dois estados e preserve qualquer trabalho posterior. O README atual tem prioridade sobre o README de commits antigos.

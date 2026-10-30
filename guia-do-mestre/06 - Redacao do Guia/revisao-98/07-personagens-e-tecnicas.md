@@ -2,7 +2,7 @@
 
 Antes da missão, conheça as capacidades da personagem, seus recursos e o que o jogador quer explorar. Essa conversa ajuda a corrigir erros, completar escolhas e preparar sua participação.
 
-O Livro de Regras 1.0 ensina a criar a ficha. Aqui, vamos conferir escolhas, cuidar das necessidades das Origens e avaliar capacidades novas, com as [regras usadas aqui](<../../04 - Planejamento/apoio-revisao-textual-114/consulta-de-regras.html#personagens>) disponíveis para consulta. Os exemplos não exigem conhecer a trama de Jujutsu Kaisen.
+O Livro de Regras 1.0 ensina a criar a ficha. Aqui, vamos conferir escolhas, cuidar das necessidades das Origens e avaliar capacidades novas, com o Livro de Regras 1.0 à mão. Os exemplos não exigem conhecer a trama de Jujutsu Kaisen.
 
 ## 7.1 Conferir a ficha
 
@@ -48,13 +48,13 @@ Se preferirem, o jogador pode interpretar ambas as vozes, alternar a distribuiç
 
 Maia, de Coexistência, quer examinar um símbolo. Taru lembra algo parecido e sugere comparar o traço central. Se a tarefa exigir Ocultismo e Maia falhar, **Conselho Interior**, caso escolhido e disponível, permite repetir e aceitar o segundo resultado. Intuição e Ocultismo compartilham esse uso por cena. Taru não faz um teste independente nem entrega conhecimento infalível depois de outra falha.
 
-Uma conversa também pode terminar com um pedido aceito, recusado ou adiado. Alterne o foco com os demais participantes e respeite a urgência da cena. Guarde o desejo da presença, seus conhecimentos e os acordos na [ficha de convivência](../28-ficha-de-convivencia.md). O [caso de Maia e Taru](../27-convivencia-do-receptaculo.md) desenvolve modalidades e capacidades sem criar um medidor obrigatório da relação.
+Uma conversa também pode terminar com um pedido aceito, recusado ou adiado. Alterne o foco com os demais participantes e respeite a urgência da cena. Guarde o desejo da presença, seus conhecimentos e os acordos na [ficha de convivência](<consultas/28-ficha-de-convivencia.md>). O [caso de Maia e Taru](../27-convivencia-do-receptaculo.md) desenvolve modalidades e capacidades sem criar um medidor obrigatório da relação.
 
 ### O Encarnado e a vida recebida
 
 O jogador de um Encarnado interpreta quem voltou a viver no corpo de outra pessoa. Combinem a situação dessa vida, os conhecimentos da personagem, quem pode reconhecê-la e quais encontros o jogador deseja explorar. Não presuma a mesma convivência do Receptáculo para todos os Encarnados.
 
-Uma antiga colega pode procurar a personagem esperando a identidade anterior. O mestre apresenta o pedido com base nos fatos combinados; o jogador decide o que conta. Memórias e relações não concedem todos os treinos ou todas as menores da Origem. Uma capacidade como Memória Testemunha conserva seu uso e os limites do que poderia ter sido percebido. [Vínculos e mudanças](../26-vinculos-e-mudancas.md) amplia essas situações.
+Uma antiga colega pode procurar a personagem esperando a identidade anterior. O mestre apresenta o pedido com base nos fatos combinados; o jogador decide o que conta. Memórias e relações não concedem todos os treinos ou todas as menores da Origem. Uma capacidade como Memória Testemunha conserva seu uso e os limites do que poderia ter sido percebido. [Vínculos e interesses dos personagens](<05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>) amplia essas situações.
 
 ### Corpo Amaldiçoado: reparar e descansar
 
@@ -64,7 +64,7 @@ Registre o Ofício compatível com a estrutura. Ena tem madeira, metal e pano, m
 
 O reparo durante descanso curto permite **uma tentativa por corpo**, com pessoa treinada e meios adequados. Pode ser o próprio personagem, se capaz de trabalhar. Compare as Classes máximas permitidas pelos níveis de reparador e corpo, não o grau do material ou as capacidades conhecidas. A regra define CD e fração recuperada.
 
-No [atendimento de Ena](../90-reparar-personagem-de-corpo-construido.md), ela tem 41 PV máximos e 9 atuais. O reparador é da mesma Classe, usa Inteligência 3 e Maestria 1: **CD 12**, bônus **+4** e recuperação de **20 PV** no sucesso. Termina com **29/41**. Uma repetição permitida por Manutenção Precisa continua dentro desse atendimento; trocar o reparador não abre outra tentativa naquele descanso.
+No [atendimento de Ena](<casos/90-reparar-personagem-de-corpo-construido.md>), ela tem 41 PV máximos e 9 atuais. O reparador é da mesma Classe, usa Inteligência 3 e Maestria 1: **CD 12**, bônus **+4** e recuperação de **20 PV** no sucesso. Termina com **29/41**. Uma repetição permitida por Manutenção Precisa continua dentro desse atendimento; trocar o reparador não abre outra tentativa naquele descanso.
 
 Reparo Autônomo é outra menor, com ação e frequência próprias. Reparar uma criatura também difere de fabricar um objeto. O descanso conserva seus requisitos, e a zero de vida valem queda e socorro: o personagem não é uma entidade Desligada que retorna por um pagamento. Energia Reversa e curas derivadas dela não reparam sua estrutura. Os meios compatíveis precisam estar disponíveis.
 
@@ -82,7 +82,7 @@ Nilo usa Rede Remota e um intermediário de sua técnica. O vínculo alcança a 
 
 Uma especial de 18 m continua medindo 18 m a partir do intermediário; o vínculo remoto não transforma seu ataque em alcance entre cidades. Comandos, atuação, percepção e custos continuam exigindo suas permissões. Se o meio de comunicação falhar, o poder não cria outro canal por conta própria.
 
-O [caso de Nilo](../91-restricao-corporal-e-cuidados.md) explica atendimento e diferenças entre os três corpos. Use-o para preparar participação e cuidados, mantendo as decisões com o jogador. Uma pessoa que auxilia a personagem não recebe controle sobre sua ficha.
+O [caso de Nilo](<casos/91-restricao-corporal-e-cuidados.md>) explica atendimento e diferenças entre os três corpos. Use-o para preparar participação e cuidados, mantendo as decisões com o jogador. Uma pessoa que auxilia a personagem não recebe controle sobre sua ficha.
 
 ## 7.3 Personalizar escolhas
 
@@ -165,15 +165,15 @@ Para um Efeito Próprio, compare função, ação, alvos, alcance, duração, fr
 
 Se Mira estiver disponível e a Regra comportar a aplicação, Precisão pode ser comprada por 1 ponto. Toque compensa esse gasto: **3 − 1 + 1 = 3d8**, agora com +2 no ataque, chegando a **+6** nos atributos do exemplo. Conta uma Melhoria e nenhuma Restrição. O bônus de ataque não vira outro dado de dano.
 
-Registrem qual das versões foi escolhida. A avaliação explica a conta publicada, sem criar desconto especial. Os [outros pareceres](../30-pareceres-de-criacoes.md) mostram contenção, informação, cura e menores; a [ficha de avaliação](../32-ficha-de-avaliacao-de-capacidade.md) reúne o texto e a decisão.
+Registrem qual das versões foi escolhida. A avaliação explica a conta publicada, sem criar desconto especial. Os [outros pareceres](<casos/30-pareceres-de-criacoes.md>) mostram contenção, informação, cura e menores; a [ficha de avaliação](<consultas/32-ficha-de-avaliacao-de-capacidade.md>) reúne o texto e a decisão.
 
 ### Repetições e mudanças durante o uso
 
 Aprovar um Efeito Próprio uma vez não aprova compras repetidas. Definam quantas são permitidas, o preço e o acréscimo de cada uma. Mudar o nome da segunda compra não contorna essa conferência. Firmeza permite categorias distintas conforme sua regra; isso não autoriza repetir a mesma categoria.
 
-**Ampliar** conserva as compras e recalcula a mesma montagem em outra Classe. Não compra uma função nova. Uma mescla mantém suas parcelas registradas; a cura não vira dano ao surgir outro alvo. O [caso de Yara](../93-ampliar-mesclas-e-trocar-formas.md) acompanha duas Classes e a troca de Forma separadamente.
+**Ampliar** conserva as compras e recalcula a mesma montagem em outra Classe. Não compra uma função nova. Uma mescla mantém suas parcelas registradas; a cura não vira dano ao surgir outro alvo. O [caso de Yara](<casos/93-ampliar-mesclas-e-trocar-formas.md>) acompanha duas Classes e a troca de Forma separadamente.
 
-O Desdobramento do Emanador vale para a conjuração e exige a escolha no momento previsto. Não permite inventar Efeito Próprio ou gatilho de Reação durante o uso. Para trocar uma peça, confira preço, resultado retirado, custo adicional e limites. O [estudo de casos específicos](../33-casos-especificos-de-avaliacao.md) desenvolve também Cortina, Traje, Manejos e Katas.
+O Desdobramento do Emanador vale para a conjuração e exige a escolha no momento previsto. Não permite inventar Efeito Próprio ou gatilho de Reação durante o uso. Para trocar uma peça, confira preço, resultado retirado, custo adicional e limites. O [estudo de casos específicos](<casos/33-casos-especificos-de-avaliacao.md>) desenvolve também Cortina, Traje, Manejos e Katas.
 
 Em Manejos, preserve a semente; em Katas, o estilo e o equipamento. PE pode representar esforço numa rota sem energia, sem conceder sentidos ou Aptidões ausentes. O compartilhamento da montagem não apaga as exigências da rota.
 
@@ -198,7 +198,7 @@ Nas duas, conserve Selo, Regra, Famílias e rota. Rápido e Reação não reduze
 
 O TR também difere: na Liberação, o sucesso recebe metade do dano salvo regra específica; na Técnica Máxima de dano, recebe três quartos, com o arredondamento aplicável. Não troque essas frações pela semelhança dos nomes.
 
-A recarga de Máxima após três rodadas, sem contar a de uso, é uma opção de autorização do mestre prevista no livro. Não é o padrão automático da guilda. O [caso completo de poderes avançados](../31-avaliar-poderes-avancados.md) mostra preços, cura, utilidade e a contagem de retorno.
+A recarga de Máxima após três rodadas, sem contar a de uso, é uma opção de autorização do mestre prevista no livro. Não é o padrão automático da guilda. O [caso completo de poderes avançados](<casos/31-avaliar-poderes-avancados.md>) mostra preços, cura, utilidade e a contagem de retorno.
 
 ### Avaliar um Domínio
 
@@ -222,7 +222,7 @@ O CE4 desse ramo é uma exceção recebida na criação, com funcionamento extra
 
 Rede Remota ilustra um vínculo ampliado conservando capacidades, sentidos, ações e custos. O caso de Nilo mostra por que distância do vínculo, alcance de ataque e comunicação são conferências diferentes. Uma limitação corporal mais severa não compra automaticamente mais ganhos. Saída Elevada mantém os usos previstos na regra. A ligação com a técnica não estende o benefício a Máximas, Manejos ou à entidade.
 
-O [caso de efeitos de cena e cancelamento](../95-efeitos-de-cena-e-cancelamento.md) ajuda a conferir outro limite: encerrar uma aplicação não apaga resultados já concluídos. Categoria de Efeito não vira Classe universal, e Desarma o Feitiço não pode cancelar Domínios.
+O [caso de efeitos de cena e cancelamento](<casos/95-efeitos-de-cena-e-cancelamento.md>) ajuda a conferir outro limite: encerrar uma aplicação não apaga resultados já concluídos. Categoria de Efeito não vira Classe universal, e Desarma o Feitiço não pode cancelar Domínios.
 
 ## 7.6 Registrar e acompanhar
 
@@ -244,7 +244,7 @@ Uma Restrição precisa impor a dificuldade que justificou sua devolução. Regi
 
 Depois de **três sessões em que o feitiço tenha sido usado**, comparem a dificuldade prevista com o ocorrido, conforme a regra de revisão. Três tentativas na mesma sessão não são três sessões de uso. Acompanhe também a frequência de Condicional: uma fonte que os recursos da personagem passaram a garantir pode mudar essa avaliação.
 
-Substitua a exigência que nunca atrapalhou, mantendo a ficha válida antes do próximo uso. Não crie obstáculos artificiais só para preservar pontos. Os [casos de Melhorias e Restrições](../94-compras-repetidas-e-restricoes.md) mostram repetições, exigência concreta, consumo de preparo e revisão; a ficha de avaliação conserva o registro.
+Substitua a exigência que nunca atrapalhou, mantendo a ficha válida antes do próximo uso. Não crie obstáculos artificiais só para preservar pontos. Os [casos de Melhorias e Restrições](<casos/94-compras-repetidas-e-restricoes.md>) mostram repetições, exigência concreta, consumo de preparo e revisão; a ficha de avaliação conserva o registro.
 
 ### Ao subir de nível
 
@@ -254,4 +254,4 @@ Subir de nível não é descansar. Aplique ganhos e marcos antes da eventual tro
 
 Ampliar, reescrever uma aplicação e trocar escolhas antigas têm permissões diferentes. Use a revisão permitida pelas regras e registre a versão final; não abra uma troca livre de toda a ficha. Aprendizados exigidos por Aptidões precisam de sua fonte registrada, sem substituir requisitos ou impor um professor obrigatório a capacidades que não o pedem.
 
-Antes da próxima missão, o jogador destaca o que mudou e o mestre confere os dados relevantes ao preparo. Guarde dificuldades de leitura e decisões que precisem chegar à próxima mesa. Os [casos por assunto](<../../04 - Planejamento/apoio-consultas-105/casos-completos.html#B3>) ficam disponíveis para aprofundar a dúvida concreta. [Atividades fora de missão](../39-atividades-e-tempo-entre-missoes.md) têm sua orientação própria; acrescente benefícios de treinamento apenas quando uma regra os conceder.
+Antes da próxima missão, o jogador destaca o que mudou e o mestre confere os dados relevantes ao preparo. Guarde dificuldades de leitura e decisões que precisem chegar à próxima mesa. Os [casos por assunto](<../../04 - Planejamento/apoio-conferencia-135/casos-completos.html#B3>) ficam disponíveis para aprofundar a dúvida concreta. [Atividades fora de missão](<08-entre-missoes.md#82-tempo-para-as-atividades>) têm sua orientação própria; acrescente benefícios de treinamento apenas quando uma regra os conceder.

@@ -1,0 +1,1163 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+FICHA PARA A MESA
+
+Registro de dedicação por ficha
+Use um registro separado para cada personagem,
+mesmo quando várias fichas pertencem à mesma
+pessoa. O padrão recomendado é 28 horas novas a
+cada ciclo comum de sete dias. O que sobrar das
+horas novas de um ciclo vale só no ciclo seguinte.
+Consulte Tempo para as atividades, no capítulo
+Entre missões, para entrada proporcional,
+afastamento e adaptações.
+
+• Concessão nova:
+
+• Entrada ou retorno no meio do ciclo, se houver:
+
+• Saldo anterior, ciclo de origem e vencimento:
+
+Identificação do ciclo
+• Personagem e versão da ficha:
+
+• Total livre na abertura:
+
+• Jogador e responsável pela conferência:
+
+• Reservas pendentes de ciclos anteriores,
+registradas separadamente:
+
+• Datas de abertura e fechamento; fuso:
+As horas reservadas não entram no saldo livre.
+Mesmo com horas disponíveis, o personagem
+precisa de tempo na história, materiais,
+ferramentas e conhecimentos para trabalhar.
+
+• Intervalo correspondente na história:
+
+Atividades
+Projeto ou
+atividade
+
+Intervalo da
+história
+
+Horas
+antigas
+
+Materiais, valores e mudanças na ficha:
+
+Referência ao projeto detalhado, quando houver:
+
+Horas
+novas
+
+Estado: reservado ou
+confirmado
+
+Resultado, progresso ou
+dependência
+
+Um trabalho conjunto registra a contribuição de
+cada personagem na própria folha. Horas dedicadas
+não passam para outra ficha; a divisão das tarefas e
+o efeito da ajuda sobre o projeto seguem o acordo
+de fabricação.
+
+Fechamento
+Data a partir da qual o resultado pode ser usado:
+
+Correções, motivo e responsável:
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+• Horas de trabalho confirmadas:
+
+• Horas ainda reservadas, por parcela de origem:
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+• Restante livre da parcela antiga que expira:
+
+• Afastamento formal e fichas abrangidas,
+quando houver:
+
+• Restante livre da concessão nova que passa ao
+ciclo seguinte:
+
+• Conferido por e data:
+
+• Projetos em andamento e trabalho já realizado:
+
+Primeiro use o saldo antigo. No fechamento,
+transfira somente a parte livre da concessão nova.
+Preserve o progresso dos projetos. Uma parcela
+pendente continua vinculada ao seu registro e não
+pode aparecer também como saldo disponível.
+
+• Dependências de missão, materiais ou outros
+acontecimentos:
+
+Exemplo: dois personagens da mesma pessoa
+Rina e Mei estão liberadas desde o início. Cada uma tem 28 horas novas por ciclo de sete dias. Não há
+reservas pendentes na tabela abaixo. Todos os trabalhos citados cabem na história; a tabela acompanha
+apenas a dedicação, sem conceder benefícios não previstos nas atividades.
+Ficha e
+ciclo
+
+Saldo
+antigo
+
+Horas
+novas
+
+Trabalho
+executado
+
+Rina, 1
+
+0
+
+28
+
+18
+
+Mei, 1
+
+0
+
+28
+
+Rina, 2
+
+10
+
+Mei, 2
+
+Antigas que
+expiram
+
+Novas que
+passam
+
+0 + 18
+
+0
+
+10
+
+28
+
+0 + 28
+
+0
+
+0
+
+28
+
+20
+
+10 + 10
+
+0
+
+18
+
+0
+
+28
+
+8
+
+0+8
+
+0
+
+20
+
+Rina, 3
+
+18
+
+28
+
+12
+
+12 + 0
+
+6
+
+28
+
+Mei, 3
+
+20
+
+28
+
+0
+
+0+0
+
+20
+
+28
+
+Rina abre o segundo ciclo com 38 horas; Mei, com
+28. A diferença vem dos registros de cada
+personagem. Rina não pode gastar o saldo de Mei.
+Na abertura do quarto ciclo, cada uma poderá ter
+56 horas: 28 novas e 28 que passaram do terceiro.
+O encerramento do terceiro ciclo elimina apenas as
+parcelas antigas não usadas. Não desfaz os projetos
+em que Rina e Mei trabalharam, não remove
+capacidades do Livro de Regras 1.0 e não determina
+regressão de treino por ausência de postagem.
+
+Exemplo de entrada proporcional
+Uma ficha nova é liberada no quinto dia do ciclo.
+Contando os dias 5, 6 e 7, a quatro horas por dia,
+recebe 3 × 4 = 12 horas. Se outra ficha da mesma
+pessoa já participou do ciclo inteiro, ela mantém
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Uso: antigas +
+novas
+
+seu próprio registro de 28 horas novas. As 12
+pertencem somente à ficha nova, que não herda
+saldo da anterior.
+
+Exemplo de conferência pendente
+Uma ficha fecha com dez horas confirmadas, oito
+reservadas para conferência e dez livres,
+totalizando 28. Só as dez livres passam como saldo
+disponível. A abertura seguinte tem 38 horas livres,
+além do registro separado das oito reservadas.
+Confirmar essas oito converte seu estado de
+reservado para confirmado; não acrescenta horas
+novas.
+O resultado pendente não pode ser utilizado antes
+da conferência. Se uma revisão liberar uma parcela,
+preserve sua origem e validade. Registre a correção
+para que o próximo mestre não a conte duas vezes.
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+FICHA PARA A MESA
+
+Registro de Pactos e Promessas
+Use esta folha junto do capítulo Pactos e entidades.
+Preencha os termos antes da aceitação. O registro
+identifica uma troca concreta; não substitui a
+conferência dos limites do Livro de Regras 1.0.
+
+Folha em branco
+Campo
+
+Registro
+
+Nome e forma
+
+Permanente, temporário, Promessa ou pacto de restrição.
+
+Personagem ou partes
+
+Quem assume a obrigação; autoridade de quem representa uma
+organização; autonomia para aceitar.
+
+Aceitação
+
+Acordo voluntário das partes e dos jogadores envolvidos.
+
+Benefício
+
+Regra completa, capacidade afetada, alvos, alcance e limite da alteração.
+
+Preço ou obrigações
+
+O que cada parte entrega, perde, faz ou deixa de fazer.
+
+Compensações anteriores
+
+Onde essa limitação já foi considerada; como se evita usá-la duas vezes.
+
+Início e acionamento
+
+Data, condição, ação e gatilho percebido, quando houver.
+
+Prazo do ganho
+
+Quando começa e termina.
+
+Prazo do preço
+
+Quando é pago, por quanto tempo permanece e como uma recuperação o
+afeta.
+
+Encerramento
+
+Pedido, marco de término e consequências que continuam depois; não
+confundir suspensão do ganho com fim do Pacto.
+
+Situação da regra
+
+Regra publicada, proposta experimental ou aprovação local; versão e ficha
+às quais se aplica.
+
+Vaga
+
+Se ocupa; Essência e quantidade total ocupada.
+
+Cláusulas
+
+Exceções, pessoas protegidas e circunstâncias incluídas.
+
+Descumprimento
+
+Fato verificável e consequência previamente definida; distinguir as regras
+da forma escolhida.
+
+Conferência
+
+Responsável, texto aprovado e data.
+
+Estado atual
+
+Ativo, cumprido, encerrado ou outra situação prevista; recursos e
+consequências ainda pendentes.
+
+Não aplique a punição de quebra de uma Promessa
+automaticamente a todo Pacto. A forma escolhida e
+o texto aprovado determinam as regras da troca.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+Exemplo preenchido: Overtime
+Exemplo de aplicação do Pacto publicado no Livro de Regras 1.0, sem acrescentar efeitos.
+Campo
+
+Registro
+
+Personagem e forma
+
+Ren; permanente de energia.
+
+Vagas
+
+Essência 4: duas vagas. Não tem outro permanente ou pacto de restrição;
+este passa a ocupar uma.
+
+Aceitação
+
+Jogador e mestre concordaram com a troca e a jornada fixa.
+
+Jornada
+
+Oito horas de trabalho, contadas desde o começo das missões do dia.
+
+Preço
+
+PE máximo reduzido em 20% durante a jornada; começa o dia de missões
+com esse máximo reduzido.
+
+Benefício
+
+Na hora extra, máximo elevado em 20%; recebe imediatamente a diferença
+entre os máximos, arredondada para baixo.
+
+Contagem
+
+Descanso curto fica fora das horas de trabalho. Descanso longo encerra a
+hora extra e zera a contagem.
+
+Compensações
+
+A redução não foi usada para obter outro benefício da ficha.
+
+Exceções adicionais
+
+Nenhuma acrescentada neste exemplo.
+
+Situação acompanhada
+
+Máximo normal 40; durante a jornada 32; na hora extra 48. Tem 12 PE
+imediatamente antes da passagem; recebe 16 e fica com 28.
+
+Continuidade
+
+Registrar horas efetivamente trabalhadas, pausas, máximo vigente e PE
+atual. O saldo semanal de dedicação não ativa o Pacto.
+
+Conferência rápida de uma Promessa
+Antes da assinatura, peça a cada parte que explique
+o que deve fazer e o que receberá. Se as explicações
+divergirem, o texto ainda precisa de ajuste.
+1. Quem pode cumprir cada obrigação e quem tem
+autoridade para assumi-la?
+2. O que será considerado entrega, cumprimento
+parcial ou atraso?
+3. Quais datas, pessoas e objetos estão
+identificados?
+4. Qual fato rompe o acordo e qual consequência
+foi compreendida?
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+5. Há uma cláusula que pressupõe a concordância
+de alguém ausente?
+Não complete um campo desconhecido com uma
+ameaça vaga. Volte à negociação e resolva o ponto
+antes de aceitar.
+
+Exemplo de Promessa preenchida
+A Promessa do arquivo apresenta partes,
+autorização, acesso, empréstimo, cópias, prazo,
+devolução e consequências. O quadro pode ser
+usado como modelo de registro. O exemplo é
+experimental: a punição permanece até uma
+reparação definida no próprio acordo. Não é uma
+regra universal do Livro de Regras 1.0.
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+FICHA PARA A MESA
+
+Registro de aquisição e estado de entidade
+Use uma folha por entidade, junto da ficha
+completa de Construir invocações, no Livro de
+Regras 1.0. Esta folha acompanha aquisição,
+projeto e continuidade. Não substitui atributos,
+habilidades e demais campos da ficha.
+
+Identificação e aquisição
+Campo
+
+Registro
+
+Nome e definição
+
+O que é e qual função cumpre.
+
+Origem e corpo
+
+Técnica, criação ou domada; talismã, corpo e outras características
+pertinentes.
+
+Invocador
+
+Personagem responsável; nível, Classe e rota.
+
+Forma de aquisição
+
+Espaço, lista de ritual, criação ou doma.
+
+Nível e Classe da entidade
+
+Valores atuais e limite de evolução.
+
+Requisito usado
+
+Espaço ocupado, entrada da lista, projeto ou ficha resultante da doma.
+
+Ficha conferida
+
+Onde consultar a montagem e quem a conferiu.
+
+Ofício compatível
+
+Ofício registrado na criação, quando exigido; materiais do corpo ou
+talismã.
+
+Comunicação
+
+Como recebe ordens e transmite informações; sentidos e limites.
+
+Controle e transporte
+
+Teto de ativos, corpos mantidos, Volume e talentos de carga aplicáveis.
+
+Projeto de criação, reconstrução ou transferência
+Campo
+
+Registro
+
+Operação
+
+Criar, reconstruir para qual Classe ou transferir para quem.
+
+Permissão e requisitos
+
+Oportunidade, responsáveis habilitados e consentimento na transferência
+ou morte do dono anterior.
+
+Trabalho
+
+Horas combinadas, partes concluídas e interrupções admitidas.
+
+Espera
+
+O que precisa acontecer além da dedicação.
+
+Materiais e ferramentas
+
+O que está disponível, consumido ou ainda necessário.
+
+Responsável e ajuda
+
+Treino, atributo, Maestria e contribuição; ajudante treinado dedica o
+mesmo tempo.
+
+Teste
+
+Classes comparadas, CD, modificadores e origem válida da vantagem.
+
+Resultado
+
+Dados, total, sucesso ou falha.
+
+Nova tentativa
+
+Condição de autorização, trabalho ou materiais adicionais e vantagem
+prevista após falha.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+Campo
+
+Registro
+
+Dedicação por participante
+
+Ligações com os registros individuais de tempo; horas confirmadas e
+reservadas.
+
+Antes de iniciar: conheça o resultado pretendido e
+as condições do projeto. Antes de rolar: confirme
+que o trabalho foi cumprido. Antes de usar: confira
+se a aquisição foi concluída e pague os custos de
+entrada ou ativação devidos.
+
+Exemplo de conferência do teste
+Este quadro retoma os números publicados da calígrafa no Livro de Regras 1.0. Mostra os requisitos e o
+resultado do teste; não define um prazo-padrão ou preço de materiais.
+Campo
+
+Caso
+
+Operação
+
+Criar um shikigami de talismã de Classe 3.
+
+Responsável
+
+Caligrafia treinada; nível 13, Classe 4, Destreza 4, Maestria 2.
+
+Destinatário
+
+Invocador de nível 9, Classe 3.
+
+Ficha
+
+Preparada antes do teste, no nível 9, com ofício Caligrafia.
+
+Comparação
+
+Entidade uma Classe abaixo da responsável.
+
+Dificuldade
+
+8 + 4 + 2 − 2 = 12.
+
+Rolagem
+
+d20 + 6; resultado 6 no dado totaliza 12 e tem sucesso.
+
+Entrega
+
+Entidade com vida máxima, recolhida em talismã sem carga; 0,5 de
+Volume.
+
+Evolução
+
+Acompanha o invocador até o nível 12; Classe 4 exige reconstrução.
+
+Este quadro resolve o teste. Tempo e materiais para
+criar entidades acrescenta um orçamento e uma
+linha de trabalho com falha; reconstrução e
+transferência exemplifica as operações posteriores.
+Para executar um projeto, mantenha também a
+ficha completa da entidade vinculada ao registro;
+CD e horas não a substituem.
+
+Estado para passagem entre mesas
+• Vida atual e máxima, Integridade quando
+aplicável e excedente de queda quando houver.
+• Ativa, recolhida, inativa, caída, Desligada,
+destruída ou outro estado pertinente; posição
+quando permanece no mundo.
+• Condições, efeitos e respectivos prazos; auras ou
+efeitos que dependem de presença.
+• Carga do talismã; reserva própria somente
+quando o tipo permitir; usos gastos e
+recuperação exigida.
+• Tarefa atual e forma pela qual foi recebida.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+• Básica, Movimento e Reação coletiva
+disponíveis, se a mesma cena continuar.
+• Ordem pendente, requisitos, custos já pagos e
+prazo.
+• Equipamento próprio, objetos transportados
+para terceiros e passageiros previstos na ficha.
+• Nova pessoa responsável após transferência
+bem-sucedida, sem apagar estados ou usos.
+Ao encerrar uma missão, registre o estado real e as
+recuperações que aconteceram. Fechar o ciclo
+administrativo da guilda ou mudar de mestre não
+recupera a entidade por si.
+
+Exemplo de lista de ritual
+A prova do Cão de sombra inclui um registro
+preenchido de vitória. Anote também a versão dos
+termos, o resultado do desafio, eventual
+intervenção, destruição e condição para tentar
+novamente. “Conquistada” e “pronta para atuar”
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+são campos diferentes: uma entidade conquistada
+ainda caída precisa do retorno ou recuperação
+aplicável.
+
+Exemplo de doma
+Domar o Amontoado inclui a folha preenchida logo
+após a submissão: valores atuais e máximos
+convertidos, excedente, posição, corpo Desligado e
+falta de recolhimento. Atualize o mesmo registro
+depois de religar ou recuperar recursos; não
+substitua “adquirida” por “recuperada”.
+
+Construção e evolução
+O Escriba de campo mostra quais campos revisar
+ao ganhar nível: atributos, vida e Integridade
+máximas, treinos, vagas, talentos e versões
+ampliadas. Guarde também o texto e as condições
+de aprovação de capacidades próprias. Uma
+projeção de vagas não significa que todos os
+poderes futuros já foram escolhidos.
+
+Transporte e continuidade
+A Mula de dobra inclui o registro preenchido de
+embarque e retirada: um passageiro, 8/8 Volume,
+custo de montar, básica, metros gastos e término da
+tarefa. Ao recolher, anote onde ficaram passageiro
+e objetos. Se o invocador deixar de agir, registre a
+situação concreta e a última tarefa válida;
+inconsciência e morte confirmada seguem regras
+diferentes.
+
+Fabricação completa
+O Vigia do depósito reúne ficha, orçamento, horas,
+testes, entrega sem carga e evolução. A
+transferência é um exemplo alternativo no nível 9;
+não misture seus valores com a reconstrução
+posterior ao nível 13.
+
+FICHA PARA A MESA
+
+Ficha de inimigo e encontro
+Use esta ficha para preparar o encontro e, depois,
+registrar o resultado. Ela acompanha o capítulo
+Inimigos e perigos. O exemplo preenchido com Ren
+e Sora usa os mesmos seis blocos.
+Preencha uma vez a situação, o grupo e o lugar.
+Repita o bloco 2 por tipo de ameaça e mantenha um
+estado separado para cada corpo. Use o bloco 3
+
+para capacidades novas ou alteradas; uma
+referência completa e acessível pode substituir a
+transcrição de uma ficha já pronta. Num perigo
+sem criaturas, marque o bloco 2 como não aplicável
+e desenvolva o bloco 4. “Não se aplica” e “ainda
+falta decidir” têm significados diferentes.
+
+1. Situação e grupo
+Campo
+
+Preenchimento
+
+Identificação
+
+Missão, lugar, responsável, versão e data.
+
+Objetivo e oposição
+
+O que o grupo precisa obter? O que a oposição quer e sabe?
+
+Saídas e consequências
+
+O que encerra a oposição? O que ocorre ao negociar, demorar, recuar ou
+abandonar?
+
+Participantes
+
+Fichas e versões disponíveis. Se forem perfis de estudo, quais capacidades
+estão representadas e quais ficaram de fora?
+
+Participante /
+versão
+
+Nível
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+PV atuais/
+máximos
+
+Integridade atual/
+máxima
+
+PE, usos e
+condições
+
+Sequelas, alcance e
+socorro
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+Entidades, comandos e recursos compartilhados:
+
+Estado anterior que continua nesta cena:
+
+Quem consegue perceber e atingir a ameaça:
+
+2. Construção ou escolha de cada ameaça
+Se conservar uma ficha existente, indique onde consultá-la e destaque apenas as mudanças. Se construir
+uma nova, complete todos os campos aplicáveis. O nome de um papel, como atacante ou apoio, não concede
+capacidades.
+Campo
+
+Preenchimento
+
+Identificação e função
+
+Nome, quantidade, versão da ficha, nível e função no encontro; grau no
+cenário, se usado.
+
+Corpo e percepção
+
+Tamanho, membros, mãos, massa, sentidos, comunicação e alma.
+
+Progressão e testes
+
+Atributos, Maestria, Refino e Classe máxima quando aplicáveis; ataques,
+CDs, perícias e TRs com treinos identificados.
+
+Recursos iniciais
+
+Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada
+corpo.
+
+Defesas e movimento
+
+Defesa com componentes, Bloquear, proteções, deslocamentos, carga e
+equipamento.
+
+Atuação
+
+Padrão, Movimento, Bônus e Reação; número de ataques, capacidades
+completas e o que disputa o mesmo recurso.
+
+Prioridades
+
+Alvos, informação disponível, negociação, perseguição, retirada e
+mudanças de comportamento.
+
+Derrota e aquisição
+
+O que ocorre a zero de PV ou Integridade; destino dos efeitos; destruição,
+retorno e conversão de aquisição, quando cabíveis.
+
+Origem e alterações
+
+O que vem do Livro de Regras 1.0, o que é escolha local e quais
+parâmetros ou capacidades são propostas. Para cada mudança, registrar
+motivo e referência anterior.
+
+Ficha completa para consulta:
+
+Pendência que impede usar esta versão:
+
+3. Capacidade nova ou alterada
+Repita somente para o que precisa ser desenvolvido. Para uma capacidade pronta, registre nome e
+referência no bloco 2. As conferências de habilidade ajudam quando houver interação difícil.
+Campo
+
+Preenchimento
+
+Identificação e origem
+
+Nome, função e tipo — arma, manobra, feitiço, aptidão ou regra própria
+— e dependência de corpo, equipamento ou técnica. Fonte, alteração e
+estado de aprovação.
+
+Uso
+
+Ação, momento, gatilho e requisitos; alvo, alcance, visão, trajeto, mãos,
+voz, Selo e preparação.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+Campo
+
+Preenchimento
+
+Resolução
+
+Ataque e crítico, ou TR/CD e resultados; dano, condição, deslocamento e
+demais efeitos.
+
+Pagamento e limite
+
+Custo-base e custo pago, quando diferentes; quando pagar, o que consome
+disponibilidade e o motivo de cada limite adicional.
+
+Duração e retorno
+
+Prazo, manutenção, interrupção, perda ou devolução; estado inicial e
+recuperação de usos dentro e fora da iniciativa.
+
+Sinal e resposta
+
+O que o grupo percebe, quando pode intervir, com qual ação e o que a
+intervenção altera.
+
+Interações relevantes
+
+Integridade, energia percebida, cancelamento, Rescaldo, contenção e
+aquisição, conforme a capacidade.
+
+Texto completo ou referência da aplicação:
+
+Caso de falha, interrupção ou alvo ausente
+conferido:
+
+4. Lugar, sinais e mudanças
+Para desenvolver uma fonte sem autor, consulte Preparar perigos ambientais. A sala de conservação
+exemplifica exposição recorrente e efeitos após a retirada.
+Elemento
+
+Posição /
+percurso
+
+Sinal
+percebido
+
+Gatilho e momento da
+consequência
+
+Intervenção e
+resultado
+
+Acessos, obstáculos e
+cobertura
+Objetivo ou pessoa em
+risco
+Perigo ambiental, se
+houver
+
+Resolução do perigo: área, tempo/frequência, teste
+ou TR/CD, dano/condição, término e fonte de cada
+regra. Se algo não tiver resolução mecânica, não
+deduza dano só da descrição.
+Retirada, transporte e lugar de atendimento:
+
+Mudanças de fase ou chegada de aliados, se
+houver: gatilho, momento, alvos, ações, registros
+preservados e encerramento. Partes atacáveis
+precisam de regras de alvo e compartilhamento de
+dano. O aprofundamento de chefes ajuda a
+comparar essas escolhas.
+
+5. Antes de jogar
+☐ Fichas completas e versões disponíveis; estados
+de cada corpo separados.
+☐ Capacidades com ação, custo, requisitos e
+resolução; nenhum benefício concedido só pelo
+nome ou pela aparência.
+☐ Ações, alcance, defesas, dano e Integridade
+comparados com o grupo real ou com perfis
+declarados.
+☐ Sequência comum e sequência adversa plausível
+examinadas; participação, respostas ao controle e
+socorro acessíveis conferidos.
+☐ Sinais e informação fornecida pelas capacidades
+respeitados; saídas e intervenções possuem
+resolução.
+☐ Queda, fim da participação, fim da oposição e
+socorro restante tratados separadamente.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+☐ Propostas identificadas; pendências que
+impedem resolver o encontro concluídas antes de
+usá-lo.
+
+Método de verificação e evidência: leitura de
+regras, contas, percurso escrito ou sessão
+observada; registrar o que foi realmente feito.
+
+Principal risco e ajuste considerado:
+O que ainda não foi avaliado:
+
+6. Resultado e continuidade
+Preencha depois da aplicação. Se for um ensaio escrito, identifique os dados escolhidos e não o registre
+como sessão jogada.
+Campo
+
+Registro
+
+Aplicação
+
+Data, participantes reais ou perfis, versão e alterações de entrada.
+
+Confronto
+
+Rodadas e motivo do fim da oposição; escolhas, recursos e intervenções
+que fizeram diferença.
+
+Quedas e participação
+
+Momento de cada queda, Aguentar/Insistir quando cabíveis, tempo sem
+agir, socorro e Sequelas.
+
+Saída
+
+PV, Integridade, PE, condições, efeitos e prazos restantes; destino de
+inimigos, objetos, acessos e objetivo.
+
+Pendências da cena
+
+Retirada, atendimento, transporte, custódia ou consequências ainda não
+resolvidas.
+
+Retorno e revisão
+
+Dificuldades de compreensão ou condução, evidência observada e
+alteração a comparar na próxima versão.
+
+Use o registro de queda, socorro e retomada
+quando houver atendimento em andamento. Na
+guilda, deixe os estados e a versão da ficha
+
+disponíveis ao próximo mestre. Numa campanha
+fechada, conserve a mesma continuidade no
+registro da campanha.
+
+FICHA PARA A MESA
+
+Conferir uma habilidade de inimigo
+Aprofundamento opcional da ficha de inimigo e
+encontro. Registre a capacidade no bloco 3 dela.
+Use as perguntas abaixo quando uma adaptação ou
+capacidade própria exigir conferir interações. Não
+é necessário preencher outra ficha de identificação,
+corpo ou reservas. O método de montagem explica
+como chegar ao texto.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Antes de conferir
+Tenha o texto completo da capacidade: ação,
+requisitos, resolução, pagamento, limite, duração e
+respostas. Identifique se conservou uma regra,
+adaptou algo ou criou uma capacidade. Classe de
+feitiço, Categoria de Efeito e nível da criatura não
+significam a mesma coisa; anote apenas as
+classificações que se aplicam. Uma classificação ou
+um benefício experimental precisa aparecer como
+proposta, com sua referência.
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PERSONAGENS, ENTIDADES E INIMIGOS
+
+Perguntas para as interações
+Conferência
+
+O que resolver no texto da capacidade
+
+Falta um requisito antes do uso
+
+O que impede a declaração e quais gastos ainda não aconteceram?
+
+O ataque erra, o alvo resiste ou o
+preparo é interrompido
+
+Quais custos permanecem e que regra permite eventual devolução?
+
+A Integridade passa de estágio
+
+A capacidade é um feitiço afetado pelo acréscimo por Classe? Que outras
+penalidades cumulativas passam a valer?
+
+A Reação já foi gasta
+
+A capacidade continua disponível por outra permissão expressa, ou precisa
+esperar o próximo turno próprio?
+
+O corpo, a mão, a voz ou o
+equipamento fica impedido
+
+Qual requisito realmente deixou de ser cumprido? Não tratar Agarrado como
+silêncio ou mãos presas.
+
+Rescaldo, cancelamento ou
+manutenção
+
+A capacidade depende da Técnica Inata? Qual regra pode interrompê-la, em
+que momento e com qual resultado?
+
+Sentir Energia ou Leitura de
+Reservas
+
+Que informação a regra concede? Saldo e máximo precisam existir quando
+forem consultáveis.
+
+O alvo sai do alcance ou a fonte cai
+
+O alcance só é conferido na aplicação? Existe vínculo, Concentração,
+manutenção ou prazo que encerre o efeito?
+
+Retirada e reencontro
+
+Quais gastos, condições e prazos continuam? Como a disponibilidade retorna
+fora da iniciativa?
+
+Aquisição
+
+Há ficha convertida e resultado conhecido antes de oferecer a tentativa? Uma
+capacidade inimiga não passa automaticamente para a entidade.
+
+Use as exceções do Livro de Regras 1.0 quando já
+houver uma regra. A revisão pode concluir que uma
+linha não se aplica; uma interação ainda sem
+resposta deve permanecer identificada. Se impedir
+a resolução do encontro, conclua essa parte antes
+de usar a versão.
+
+Exemplo breve: Agarrar do
+Carregador
+Função: conter um intruso. Referência: manobra
+conservada do Livro de Regras 1.0, com identidade
+do conceito Carregador de sinos; nenhum efeito
+novo pelo nome. Corpo neste exemplo: Médio, mão
+livre, Força 3, maestria 1 e um ataque na Ação
+Atacar.
+Uso: substitui esse ataque; criatura alcançável a até
+1,5 m e até uma categoria maior; TR Físico CD 12.
+Na falha, Agarrado, com deslocamento zero; no
+sucesso, nada. Sem dano, rolagem de acerto, crítico,
+PE ou usos separados. A mão fica ocupada. O
+limite é conseguir tentar e manter a contenção.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Saída: Padrão do alvo e TR Físico CD 12; sucesso
+encerra. As outras saídas seguem Escapar de uma
+contenção. Agarrado não impede automaticamente
+atacar, conjurar ou Bloquear. O tilintar pode
+anunciar a aproximação, sem revelar resultado
+futuro ou conceder ação extra.
+Interações: estágio 2 não acrescenta PE à manobra;
+o estágio 3 do agarrador não impõe desvantagem ao
+TR de outra criatura. Se o próprio alvo estiver no
+estágio 3, aplica sua desvantagem em TR. Arrastar
+segue as regras comuns e ainda depende do corpo,
+da carga e do percurso. Não há recarga por
+mudança de cena: existe uma contenção que
+continua ou termina por suas regras.
+Alcance deste exemplo: conferência de uma
+capacidade. A criatura e o encontro foram
+completados em O Carregador e o corredor de
+entulho, com consulta e Doma. Os valores
+experimentais não formam uma tabela geral de
+construção.
+
+11
+

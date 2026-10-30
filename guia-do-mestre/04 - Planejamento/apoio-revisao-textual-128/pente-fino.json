@@ -1,0 +1,8 @@
+[
+  {
+    "caso": "s050",
+    "antes": "Akira precisa consultar o arquivo e levar um registro",
+    "depois": "Akira, um feiticeiro deste exemplo e não o perfil de Guia dos confrontos, precisa consultar o arquivo e levar um registro",
+    "motivo": "Pente fino: este Akira tem 40 PE máximos; o perfil de Guia tem 30. A ressalva evita a leitura de contradição."
+  }
+]

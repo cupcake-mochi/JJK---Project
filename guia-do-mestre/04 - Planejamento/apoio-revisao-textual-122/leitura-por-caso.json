@@ -1,0 +1,90 @@
+{
+  "registro": 122,
+  "casos": [
+    {
+      "id": "s072",
+      "fonte_original": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+      "sha256_original": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b",
+      "sha256_revisado": "e2b74ba3649c06f1543d5112531cc524fa256716bea3645d7e405f449eb5a668",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        1,
+        4
+      ],
+      "paginas_na_prova_final": [
+        1,
+        4
+      ],
+      "registros_por_passagem": {
+        "1": 26,
+        "2": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s073",
+      "fonte_original": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+      "sha256_original": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4",
+      "sha256_revisado": "0399afd07a93db9bfaec78665a1cdd2f42c2cd7edb5d9b76707381fcefa1804c",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        5,
+        9
+      ],
+      "paginas_na_prova_final": [
+        5,
+        9
+      ],
+      "registros_por_passagem": {
+        "1": 28,
+        "2": 5
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s075",
+      "fonte_original": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256_original": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53",
+      "sha256_revisado": "eb9626586c821f069ff82b091b22c1c5997e790cadc1e467680187f51dce7951",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        10,
+        13
+      ],
+      "paginas_na_prova_final": [
+        10,
+        13
+      ],
+      "registros_por_passagem": {
+        "1": 11,
+        "2": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s076",
+      "fonte_original": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+      "sha256_original": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900",
+      "sha256_revisado": "57b9a8d85d0e52f6a16310f0ba2a279e31bbc3910502a142197bc5a90abe8965",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova_1": [
+        14,
+        17
+      ],
+      "paginas_na_prova_final": [
+        14,
+        17
+      ],
+      "registros_por_passagem": {
+        "1": 10,
+        "2": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

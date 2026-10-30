@@ -1,0 +1,21 @@
+{
+  "registro": 129,
+  "lote": "B5-02",
+  "casos": [
+    "s043",
+    "s045",
+    "s046",
+    "s051"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-129/output/pdf/Ciclo-Maldito-Projetos-e-Ritual-Revisao-Textual.pdf",
+  "paginas": 16,
+  "casos_revistos_total": 55,
+  "casos_pendentes": 4,
+  "lotes_pendentes": 1,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B5-03",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

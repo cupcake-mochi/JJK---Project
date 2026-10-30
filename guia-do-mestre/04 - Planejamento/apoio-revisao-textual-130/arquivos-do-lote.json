@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+    "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+    "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+    "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+  ],
+  "casos": [
+    {
+      "id": "s052",
+      "fonte_original": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+      "id_prova": "amontoado"
+    },
+    {
+      "id": "s053",
+      "fonte_original": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+      "id_prova": "escriba"
+    },
+    {
+      "id": "s054",
+      "fonte_original": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+      "id_prova": "mula"
+    },
+    {
+      "id": "s055",
+      "fonte_original": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "id_prova": "vigia"
+    }
+  ]
+}

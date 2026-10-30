@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+    "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+    "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+    "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md"
+  ],
+  "casos": [
+    {
+      "id": "s002",
+      "fonte_original": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/02-ficha-de-preparacao.md",
+      "id_prova": "preparacao"
+    },
+    {
+      "id": "s005",
+      "fonte_original": "06 - Redacao do Guia/05-folha-de-conducao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/05-folha-de-conducao.md",
+      "id_prova": "conducao"
+    },
+    {
+      "id": "s024",
+      "fonte_original": "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/24-registro-de-estado-e-socorro.md",
+      "id_prova": "estado"
+    },
+    {
+      "id": "s016",
+      "fonte_original": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/consultas/16-linha-de-continuidade.md",
+      "id_prova": "continuidade"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ As colunas são uma comparação, não duas reservas entre as quais escolher. Ka
 
 **Subir de nível não é descansar.** Kaori estava com 7 de seus 17 PV. Sem a permissão de recuperação completa, o aumento de máximo é 12; seu saldo passa a **7 + 12 = 19 de 29**, conservando os 10 PV que faltavam. Se estivesse a zero, continuaria a zero e precisaria de socorro.
 
-Se Constituição aumentar permanentemente para 3, mantenha os dados 9, 4 e 10 e recalcule a contribuição do atributo nos três níveis: **9 + 4 + 10 + 3 × 3 = 32 PV máximos**. Não role novamente os níveis antigos. O ajuste do saldo depende de como ocorreu a mudança, conforme [Conferir personagens](../../25-conferir-personagens.md) e Progressão; o novo máximo não é uma cura automática.
+Se Constituição aumentar permanentemente para 3, mantenha os dados 9, 4 e 10 e recalcule a contribuição do atributo nos três níveis: **9 + 4 + 10 + 3 × 3 = 32 PV máximos**. Não role novamente os níveis antigos. O ajuste do saldo depende de como ocorreu a mudança, conforme [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>) e Progressão; o novo máximo não é uma cura automática.
 
 ## A família Arata
 
@@ -72,4 +72,4 @@ No último descanso longo, Execução Ensaiada foi preparada para História e Fo
 
 As menores propostas favorecem investigação documental e diagnóstico, sem melhorar dano ou TRs. A combinação com o ensaio pode tornar certos testes mais confiáveis, mas continua consumindo resultados e usos. Verifique se a campanha oferece documentos e defeitos com frequência suficiente para ambas terem função; muitas cenas breves de arquivo também podem tornar o uso por cena frequente demais.
 
-A ficha completa ainda deve registrar atributos, cinco perícias livres do Caminho, técnica, equipamentos e demais campos. Este é um exemplo de escolhas de Origem, não um personagem pronto para jogar. Se a mesa aprovar alterações, registre o texto final e os motivos em [Avaliação de capacidade](../../32-ficha-de-avaliacao-de-capacidade.md). A aprovação deste caso não libera menores equivalentes para todas as famílias.
+A ficha completa ainda deve registrar atributos, cinco perícias livres do Caminho, técnica, equipamentos e demais campos. Este é um exemplo de escolhas de Origem, não um personagem pronto para jogar. Se a mesa aprovar alterações, registre o texto final e os motivos em [Avaliação de capacidade](<../consultas/32-ficha-de-avaliacao-de-capacidade.md>). A aprovação deste caso não libera menores equivalentes para todas as famílias.

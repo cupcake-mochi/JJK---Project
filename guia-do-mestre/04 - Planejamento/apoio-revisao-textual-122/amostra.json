@@ -1,0 +1,116 @@
+{
+  "registro": 122,
+  "fontes": [
+    {
+      "id": "doma",
+      "fonte_id": "s072",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+      "fonte_original": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+      "titulo": "Sineiro: ficha após a Doma",
+      "sha256": "e2b74ba3649c06f1543d5112531cc524fa256716bea3645d7e405f449eb5a668",
+      "sha256_original": "a95f9f5387b31b0e3a41ccc80d67280c388583932af674b5fade18bbb4bffc1b"
+    },
+    {
+      "id": "ensaio",
+      "fonte_id": "s073",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+      "fonte_original": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "titulo": "Retirar a caixa, proteger a equipe",
+      "sha256": "0399afd07a93db9bfaec78665a1cdd2f42c2cd7edb5d9b76707381fcefa1804c",
+      "sha256_original": "52dd1162f6d2aba1ba7950d0c49c0520c0cf80222aa68b8db7122145bb995bc4"
+    },
+    {
+      "id": "dupla",
+      "fonte_id": "s075",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "fonte_original": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "titulo": "Ren e Sora: atacante e apoio",
+      "sha256": "eb9626586c821f069ff82b091b22c1c5997e790cadc1e467680187f51dce7951",
+      "sha256_original": "6811e095aa2677bd106930cb6ead1055ce4d595400d75b8d89db71e2180cae53"
+    },
+    {
+      "id": "confronto",
+      "fonte_id": "s076",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+      "fonte_original": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "titulo": "Escolher quem enfrentar primeiro",
+      "sha256": "57b9a8d85d0e52f6a16310f0ba2a279e31bbc3910502a142197bc5a90abe8965",
+      "sha256_original": "873e3e59507346f341e71b7758bb3f1d63a7a4cdfc821ba208644973d8437900"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-122/prova-textual.html",
+  "html_sha256": "6389f7b807749a91128748e859899d0b10ea9a1fc5540219b970990a0959165f",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-122/output/pdf/Ciclo-Maldito-Sineiro-Retirada-e-Dupla-Revisao-Textual.pdf",
+  "pdf_sha256": "f6b582496752b4d38be0f9afe49f89762641577e34d693050d71a375574ae94b",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 506
+    },
+    {
+      "pagina": 2,
+      "palavras": 567
+    },
+    {
+      "pagina": 3,
+      "palavras": 812
+    },
+    {
+      "pagina": 4,
+      "palavras": 393
+    },
+    {
+      "pagina": 5,
+      "palavras": 302
+    },
+    {
+      "pagina": 6,
+      "palavras": 680
+    },
+    {
+      "pagina": 7,
+      "palavras": 888
+    },
+    {
+      "pagina": 8,
+      "palavras": 707
+    },
+    {
+      "pagina": 9,
+      "palavras": 610
+    },
+    {
+      "pagina": 10,
+      "palavras": 400
+    },
+    {
+      "pagina": 11,
+      "palavras": 703
+    },
+    {
+      "pagina": 12,
+      "palavras": 693
+    },
+    {
+      "pagina": 13,
+      "palavras": 251
+    },
+    {
+      "pagina": 14,
+      "palavras": 277
+    },
+    {
+      "pagina": 15,
+      "palavras": 921
+    },
+    {
+      "pagina": 16,
+      "palavras": 558
+    },
+    {
+      "pagina": 17,
+      "palavras": 499
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

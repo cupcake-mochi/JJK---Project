@@ -2,7 +2,7 @@
 
 Um chefe é a ameaça central de um confronto: sua presença organiza o conflito. Esse papel pode caber a uma criatura sozinha, a um líder acompanhado ou a uma ameaça ligada ao lugar. O nome não concede ações, imunidades ou uma quantidade de vida.
 
-Comece pelo [preparo de inimigos](<../06-inimigos-e-perigos.md>). Depois use esta seção para decidir do que o confronto precisa e registre a escolha na [ficha única](<../../58-ficha-de-inimigo-e-encontro.md>). A [comparação de chefes](<../../68-ficha-e-comparacao-de-chefes.md>) aprofunda ações, sinais e fases quando necessário, sem exigir outra folha completa de preparo. **Na pré-1.0, este é um método de preparo. Os valores de referência para chefes e suas habilidades adicionais ainda estão em desenvolvimento.**
+Comece pelo [preparo de inimigos](<../06-inimigos-e-perigos.md>). Depois use esta seção para decidir do que o confronto precisa e registre a escolha na [ficha única](<../consultas/58-ficha-de-inimigo-e-encontro.md>). A [comparação de chefes](<68-ficha-e-comparacao-de-chefes.md>) aprofunda ações, sinais e fases quando necessário, sem exigir outra folha completa de preparo. **Na pré-1.0, este é um método de preparo. Os valores de referência para chefes e suas habilidades adicionais ainda estão em desenvolvimento.**
 
 ## O que torna este confronto importante
 
@@ -46,7 +46,7 @@ Preparar resolve a resposta depois do evento escolhido. Um ataque de oportunidad
 
 Se for preciso criar uma capacidade, comece pela ação específica que falta. “Mover-se sob este gatilho” é mais fácil de avaliar do que “ganhar um turno”. Complete a capacidade com regras, limites e custos antes de compará-la com o restante da ficha.
 
-A [comparação do arquivo](<../../102-o-arquivo-e-as-oportunidades-de-agir.md>) separa um guarda único de uma dupla de atacante/apoio. Aumentar a vida do guarda muda sua sobrevivência, enquanto concentrar ataques no apoio pode impedir sua primeira cura. Os cálculos explicam quais situações consideram; não preveem a duração completa da luta.
+A [comparação do arquivo](<102-o-arquivo-e-as-oportunidades-de-agir.md>) separa um guarda único de uma dupla de atacante/apoio. Aumentar a vida do guarda muda sua sobrevivência, enquanto concentrar ataques no apoio pode impedir sua primeira cura. Os cálculos explicam quais situações consideram; não preveem a duração completa da luta.
 
 ## Anuncie o perigo e dê tempo para reagir
 
@@ -84,7 +84,7 @@ Confira o que as condições realmente impedem. Agarrado reduz o deslocamento a 
 
 Uma resistência própria pode fazer parte de um futuro chefe, com justificativa, limites e avaliação. Não a acrescente durante a luta porque o grupo encontrou uma solução. Se outro inimigo for ajudar, use suas ações e as regras correspondentes; sua presença aumenta a oposição e precisa entrar na comparação desde o preparo.
 
-Se o grupo puder atacar partes do inimigo, diga se cada parte é uma criatura, um objeto separado ou um alvo com regra própria. Defina o que cada parte perde a zero, se compartilha dano com o corpo e como Alma, efeitos em área e aquisição interagem com ela. Um sino preso ao Carregador não ganha vida própria nem vulnerabilidade destacada só porque foi descrito. O comando do portão, por sua vez, já tem uma regra de objeto separada no [exemplo do portão](<../../66-o-carregador-e-a-saida-que-fecha.md>).
+Se o grupo puder atacar partes do inimigo, diga se cada parte é uma criatura, um objeto separado ou um alvo com regra própria. Defina o que cada parte perde a zero, se compartilha dano com o corpo e como Alma, efeitos em área e aquisição interagem com ela. Um sino preso ao Carregador não ganha vida própria nem vulnerabilidade destacada só porque foi descrito. O comando do portão, por sua vez, já tem uma regra de objeto separada no [exemplo do portão](<66-o-carregador-e-a-saida-que-fecha.md>).
 
 Com vários inimigos, deixe visíveis suas funções e registros individuais. Um líder e seus apoios podem criar decisões de alvo sem que todos tenham várias capacidades reativas. Registre qualquer reforço previsto, sua chegada e a possibilidade de impedir essa chegada. Não acrescente uma nova leva para substituir retroativamente uma oposição vencida depressa.
 

@@ -1,0 +1,50 @@
+# Ficha de convivência
+
+Use para uma relação que precisa continuar entre sessões, especialmente a presença do Receptáculo. Outros casos podem aproveitar os campos pertinentes, respeitando suas próprias Origens. Os [acordos do grupo](08-ficha-de-acordos-do-grupo.md) continuam tratando da mesa como um todo.
+
+## Modelo
+
+**Personagem, jogador, Origem e escolhas relevantes:**
+
+**Pessoa, presença ou consciências envolvidas:**
+
+**Quem interpreta cada voz e como a distribuição foi combinada:**
+
+**O que cada parte deseja agora:**
+
+**Conhecimentos e lembranças estabelecidos:** indicar quem sabe e como a informação foi compartilhada.
+
+**Como a comunicação aparece e quem pode percebê-la:** conferir os limites da ficha quando houver efeito funcional.
+
+**Assuntos que os participantes querem explorar e limites que precisam ser respeitados:**
+
+**Capacidades da ficha ligadas à relação:** referências, requisitos, usos e efeitos. Dar voz não concede controle, recurso ou turno extra.
+
+| Acontecimento | Resposta escolhida pelo personagem | Mudança na relação | Compromisso ou assunto ainda aberto |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+**O que foi comunicado a outras pessoas:**
+
+**O que outro mestre precisa saber:**
+
+**Revisão de acordo ou dúvida:** quem acompanha, o que falta decidir e quando retomar.
+
+## Exemplo: Maia e Taru
+
+**Personagem:** Maia, Receptáculo de Coexistência. Para o exemplo, possui Conselho Interior como uma de suas menores; as demais escolhas não são definidas por esta ficha de convivência.
+
+**Presença:** Taru, que quer compreender o destino de um arquivo antigo. Conhece uma relação de seu passado, sem saber onde estão hoje os documentos e as pessoas envolvidas.
+
+**Vozes:** por acordo, o mestre interpreta Taru e a jogadora interpreta Maia. Maia continua decidindo suas ações dentro das regras. A conversa será breve quando houver urgência para a equipe.
+
+**Comunicação combinada:** o mestre descreve a conversa interna para a jogadora. Os demais personagens só conhecem o que Maia compartilhar ou o que puderem perceber por meios legítimos.
+
+**Capacidade relevante:** Conselho Interior permite a repetição prevista de Intuição ou Ocultismo, com uso compartilhado por cena. Taru não realiza uma segunda rolagem independente nem entrega conhecimento infalível.
+
+**Situação ilustrativa:** Maia aceita procurar informação depois da missão, sem abandonar a prioridade atual. Taru volta a falar do arquivo quando ambas já puderem retomar o assunto. Registrar a pesquisa e seus resultados quando ocorrerem; o acordo não os antecipa.
+
+**Para outro mestre:** preservar a modalidade, o desejo e os limites de conhecimento de Taru; confirmar os acordos com a jogadora antes de introduzir mudança importante. Não presumir que um pedido recusado inicia tomada automática do corpo.
+
+Se usar este exemplo numa mesa, registre as escolhas e acontecimentos reais. A ficha não concede a Origem ou suas capacidades a quem ainda não as possui.

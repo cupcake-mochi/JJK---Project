@@ -1,0 +1,110 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "Os exemplos retomam o anexo e a despedida de Helena, dos capítulos anteriores. As regras usadas aqui estão no Livro de Regras 1.0.",
+    "depois": "Os exemplos retomam o [anexo](<01-sua-primeira-missao.md#15-jogue-a-missao>) e a [despedida de Helena](<03-preparar-aventuras.md#antes-que-o-trem-parta>), dos capítulos anteriores. As regras usadas aqui estão no Livro de Regras 1.0. A [folha de condução](<consultas/A2-conduzir-a-sessao.md>) reúne os lembretes para usar durante a sessão.",
+    "motivo": "Aproximar o capítulo dos exemplos que ele retoma e da folha curta de consulta já existente."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "Confira os ajustes na tabela de Testes: essa escala difere da fixa.",
+    "depois": "Aplique à base o ajuste da dificuldade indicado em Testes, usando os valores de quem criou o efeito. O [exemplo de dificuldade](<casos/82-testes-trabalho-em-grupo-e-iniciativa.md#escolha-a-dificuldade>) compara as duas escalas.",
+    "motivo": "Explicar o que fazer com a base calculada, sem deixar que ela pareça a dificuldade final de todo exame."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "No caso do arquivo, a tentativa leva dez minutos.",
+    "depois": "Por exemplo, uma personagem procura o destino de uma remessa num arquivo. A tentativa leva dez minutos.",
+    "motivo": "Apresentar a tarefa antes de narrar o resultado e o custo; o capítulo pode ser entendido sem abrir o caso longo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "### Estabilizar e Derrotado",
+    "depois": "<span id=\"estabilizar-e-derrotado\"></span>\n\n### Estabilizar",
+    "motivo": "Dar à ação de socorro um subtítulo próprio e preservar o destino anterior das remissões."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "Na falha, a ação foi gasta; pode tentar novamente enquanto houver tempo. No sucesso, o tempo para de consumir a janela; não cura nem acorda o alvo. Dano positivo que alcance a vida rompe a estabilidade, consome uma rodada e marca novo ponto para a contagem. Depois de sair do perigo, um alvo estável que conclua um descanso curto recupera 1 de vida, soma o tratamento válido anterior até o máximo atual e encerra Morrendo com uma Sequela, respeitando impedimentos de cura.",
+    "depois": "Na falha, a ação foi gasta; pode tentar novamente enquanto houver tempo. No sucesso, o alvo fica estável: a passagem das rodadas deixa de reduzir sua janela. Estabilizar não cura nem acorda o alvo.\n\nDano positivo que alcance a vida rompe a estabilidade, consome uma rodada e marca novo ponto para a contagem.\n\nDepois de sair do perigo, um alvo estável que conclua um descanso curto recupera 1 de vida, soma o tratamento válido anterior até o máximo atual e encerra Morrendo com uma Sequela, respeitando impedimentos de cura.",
+    "motivo": "Separar o resultado da tentativa, o efeito de novo dano e a recuperação segura, mantendo cada condição."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "**Derrotado** encerra a participação ativa naquela cena e deixa o personagem Inconsciente.",
+    "depois": "### Derrota\n\n**Derrotado** encerra a participação ativa naquela cena e deixa o personagem Inconsciente.",
+    "motivo": "Separar a condição Derrotado da ação Estabilizar, sem alterar os requisitos de socorro."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "Para interromper um combate, anote ordem, próximo ponto de ação, posições, reservas, efeitos e respostas pendentes.",
+    "depois": "Para interromper um combate, use [Retomar a missão](<consultas/A4-retomar-a-missao.md>) e anote ordem, próximo ponto de ação, posições, reservas, efeitos e respostas pendentes.",
+    "motivo": "Oferecer a folha de pausa no momento em que o capítulo ensina a registrar a interrupção."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "antes": "Criar uma campanha amplia essa conversa.",
+    "depois": "[A sessão zero](<05-criar-uma-campanha.md#51-a-sessao-zero>) ajuda a rever esses acordos com o grupo.",
+    "motivo": "Tornar concreta a menção ao próximo capítulo, apontando à conversa sobre expectativas."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "Os casos específicos ficam em Personagens e técnicas.",
+    "depois": "As orientações para cada Origem ficam em [Personagens e seus cuidados](<07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados>).",
+    "motivo": "Permitir encontrar os cuidados e acordos de interpretação citados na sessão zero."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "As [consultas de vínculos e mudanças](<05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>) desenvolvem os limites.",
+    "depois": "Veja os limites para [rever uma escolha da Origem](<07-personagens-e-tecnicas.md#rever-escolhas-da-origem>).",
+    "motivo": "Corrigir uma remissão que retornava ao próprio parágrafo, sem desenvolver os limites prometidos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "### O relatório de Nilo",
+    "depois": "<span id=\"o-relatorio-de-nilo\"></span>\n\n### O relatório de César",
+    "motivo": "Distinguir o intermediário antagonista do personagem Nilo de Restrição corporal; preservar a âncora antiga."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "Num exemplo separado, Nilo possui uma cópia de um relatório",
+    "depois": "Num exemplo separado, César possui uma cópia de um relatório",
+    "motivo": "Manter o nome do antagonista coerente com seu subtítulo, sem mudar seu papel ou o relatório."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "antes": "Se conseguirem a outra cópia, Nilo perde o controle da negociação.",
+    "depois": "Se conseguirem a outra cópia, César perde o controle da negociação.",
+    "motivo": "Distinguir os dois personagens independentes também no desfecho do exemplo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "Uma perda duradoura pode permitir rever **a escolha de Origem afetada**, entre missões, com o jogador.",
+    "depois": "<span id=\"rever-escolhas-da-origem\"></span>\n\nUma perda duradoura pode permitir rever **a escolha de Origem afetada**, entre missões, com o jogador.",
+    "motivo": "Acrescentar somente um destino estável ao parágrafo já existente; a leitura integral do capítulo 7 continua para o próximo lote."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "antes": "mostra essas regras numa sequência de três rodadas, com resultados escolhidos para ensinar.",
+    "depois": "mostra essas regras numa sequência de duas rodadas, com resultados escolhidos para ensinar.",
+    "motivo": "Corrigir a descrição editorial para a demonstração atual do anexo, que termina na segunda rodada."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "antes": "A tabela usa os mesmos valores parciais do confronto do anexo. A personagem tem máximo 23 e maior Classe 1. Os resultados não são uma previsão de mesa; o roteiro completo e seus custos estão no [exemplo comentado](<../01-sua-primeira-missao.md#15-jogue-a-missao>).",
+    "depois": "Este é um exemplo separado de duas quedas. A personagem tem máximo 23 e maior Classe 1, os mesmos valores parciais usados no anexo. Os resultados foram escolhidos para comparar socorro e derrota. O [confronto comentado do anexo](<../01-sua-primeira-missao.md#15-jogue-a-missao>) acompanha uma primeira queda com ações e custos completos.",
+    "motivo": "Distinguir o exemplo de duas quedas da demonstração principal do anexo; os dados e os resultados da tabela são preservados."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+    "antes": "**Comparação:** na outra versão do combate do anexo, a personagem Derrotada chegou a 12 de vida depois do tratamento e da cura posterior.",
+    "depois": "**Comparação:** na [versão com derrota do exemplo de duas quedas](<22-quedas-e-socorro.md#exemplo-duas-quedas-no-mesmo-combate>), a personagem chegou a 12 de vida depois do tratamento e da cura posterior.",
+    "motivo": "Remeter ao exemplo que de fato contém a segunda queda e a derrota, em vez de atribuí-lo ao combate principal do anexo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+    "antes": "Consulte [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>) para o cotidiano e o cuidado, e a entrada completa da Origem no Livro de Regras 1.0 para conferir suas regras.",
+    "depois": "Consulte [Personagens e seus cuidados](<../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados>) para preparar a participação e o atendimento de cada corpo, e a entrada completa da Origem no Livro de Regras 1.0 para conferir suas regras.",
+    "motivo": "Encaminhar a consulta de cuidados para a seção que explica os corpos, em lugar de uma orientação genérica de vínculos."
+  }
+]

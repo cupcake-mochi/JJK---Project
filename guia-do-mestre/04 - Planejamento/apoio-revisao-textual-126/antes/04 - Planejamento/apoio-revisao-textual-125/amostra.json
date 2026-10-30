@@ -1,0 +1,92 @@
+{
+  "registro": 125,
+  "fontes": [
+    {
+      "id": "reparo",
+      "fonte_id": "s090",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+      "fonte_original": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "titulo": "Reparar um personagem de corpo construído",
+      "sha256": "bd85ac34bdc146874f4b57c4f1e9119f284546cd2d2379b6ad30a70802a36ef2",
+      "sha256_original": "ea1f394153fb3aff657a7934d8b22e2fac5bd676e62f1bf21a5349e7186a380f"
+    },
+    {
+      "id": "restricao",
+      "fonte_id": "s091",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+      "fonte_original": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "titulo": "Restrição corporal: participação e cuidados",
+      "sha256": "1157d2c62967d662d18de312db323d1f87f156447546837318079848d953b6be",
+      "sha256_original": "0e2bc1e52076bb4b852108fda075d1d5621b67e3212445466d0ae2fcb961d889"
+    },
+    {
+      "id": "pareceres",
+      "fonte_id": "s030",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+      "fonte_original": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "titulo": "Exemplos de avaliação de poderes",
+      "sha256": "11ef367d2a8bd21cd0a526c6ebedfee493ce58ae722c59803f1f7173414c4d59",
+      "sha256_original": "2c6dba37a3b8a3252b7b552520cdcf7e337a23713dcd51a6d7523da15a62207e"
+    },
+    {
+      "id": "avancados",
+      "fonte_id": "s031",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+      "fonte_original": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "titulo": "Avaliar poderes avançados",
+      "sha256": "a33398526981bbfece4ff2a2641e9425536e98e1b07bf8fb1eba1f941a1a9db9",
+      "sha256_original": "b3bb1327845f01ca3215145a49fa14cc6f86c3952ee4076665593f24127ddfaf"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-125/prova-textual.html",
+  "html_sha256": "c5d746dbf6a8c97797f674f44d447e59ef7917881c5a783c2d487b19d0eadc7e",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-125/output/pdf/Ciclo-Maldito-Corpos-Cuidados-e-Poderes-Revisao-Textual.pdf",
+  "pdf_sha256": "2b48fb6fcdb0178ebf8624287d613155a569f808f872ca01186f42cbab920339",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 562
+    },
+    {
+      "pagina": 2,
+      "palavras": 467
+    },
+    {
+      "pagina": 3,
+      "palavras": 568
+    },
+    {
+      "pagina": 4,
+      "palavras": 632
+    },
+    {
+      "pagina": 5,
+      "palavras": 592
+    },
+    {
+      "pagina": 6,
+      "palavras": 728
+    },
+    {
+      "pagina": 7,
+      "palavras": 705
+    },
+    {
+      "pagina": 8,
+      "palavras": 515
+    },
+    {
+      "pagina": 9,
+      "palavras": 685
+    },
+    {
+      "pagina": 10,
+      "palavras": 680
+    },
+    {
+      "pagina": 11,
+      "palavras": 712
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

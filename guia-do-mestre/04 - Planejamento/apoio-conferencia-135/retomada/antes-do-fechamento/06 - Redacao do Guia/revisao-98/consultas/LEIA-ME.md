@@ -1,0 +1,76 @@
+# Escolher uma folha para a mesa
+
+Comece pelo que precisa fazer. Uma missão breve pode caber na folha curta de preparo, junto das fichas usadas. Acrescente registros quando houver dados que precisem continuar. As folhas organizam a informação; o Livro de Regras 1.0 e as capacidades determinam os resultados.
+
+## Para preparar e jogar
+
+| Preciso de… | Abra… | Quando ampliar |
+|---|---|---|
+| Preparar outra aventura | [Preparar a missão](A1-preparar-a-missao.md) | Use a [ficha completa](<02-ficha-de-preparacao.md>) para muitos lugares, fontes e consequências |
+| Lembrar o que conferir durante o jogo | [Conduzir a sessão](A2-conduzir-a-sessao.md) | Abra [Na mesa de jogo](../04-na-mesa-de-jogo.md) ou a regra pertinente quando precisar da resolução completa |
+| Pausar ou entregar a situação a outro mestre | [Retomar a missão](A4-retomar-a-missao.md) | Use a [linha de continuidade](<16-linha-de-continuidade.md>) para vários assuntos e referências |
+| Conservar reservas, condições ou uma queda | [Estado e socorro](<24-registro-de-estado-e-socorro.md>) | Mantenha a ficha completa vinculada; o resumo de passagem apenas aponta onde está o estado atual |
+| Guardar pistas que já não cabem nas notas | [Descobertas](<12-registro-de-descobertas.md>) | Registre fonte, momento e limites da conclusão |
+
+As folhas curtas e os formulários completos guardam a mesma orientação em tamanhos diferentes. Escolha um lugar principal para o estado de cada assunto e ponha referências nos demais. Se usar uma cópia para consulta, identifique a revisão e onde está o registro atual.
+
+## Quando o assunto pedir outro registro
+
+| Assunto | Folha completa |
+|---|---|
+| Proposta, participação e limites | [Acordos do grupo](<08-ficha-de-acordos-do-grupo.md>) |
+| Organização com atuação própria | [Facção](<20-ficha-de-faccao.md>) |
+| Outra presença num Receptáculo | [Convivência](<28-ficha-de-convivencia.md>) |
+| Avaliação de uma capacidade | [Avaliação](<32-ficha-de-avaliacao-de-capacidade.md>) |
+| Fabricação, reparo, empréstimo ou entrega | [Projeto](<38-ficha-de-projeto-e-entrega.md>) |
+| Horas de atividades fora de missão | [Dedicação por ficha](<40-registro-de-dedicacao-por-ficha.md>) |
+| Troca e obrigações de um Pacto ou Promessa | [Pactos e Promessas](<42-registro-de-pactos-e-promessas.md>) |
+| Aquisição e continuidade de uma entidade | [Aquisição e estado](<44-registro-de-aquisicao-e-estado-de-entidade.md>), mais sua ficha completa |
+| Preparar uma oposição ou perigo | [Inimigo e encontro](<58-ficha-de-inimigo-e-encontro.md>) |
+| Conferir uma habilidade ou um chefe | [Habilidade](<61-ficha-de-habilidade-de-inimigo.md>) ou [chefe](<../casos/68-ficha-e-comparacao-de-chefes.md>), vinculados ao mesmo encontro |
+
+## Dois exemplos de uso
+
+**Uma despedida:** o [preparo preenchido](A1-exemplo-despedida.md) reúne pessoas, lugar, horário e abertura numa página. Se a sessão terminar após a partida, uma nota pode bastar: o que aconteceu, o que foi combinado e o que o grupo quer retomar. Sem reservas alteradas ou socorro em andamento, não é preciso preencher uma folha de queda.
+
+**Uma pausa com alguém Morrendo:** o [resumo da sala de conservação](A4-exemplo-sala-de-conservacao.md) informa quem age agora e aponta o estado completo. Mantenha as fichas, o mapa e os prazos disponíveis. A folha curta não permite omitir tratamento, janela, condições ou recursos já gastos. O mesmo mestre pode usar esse resumo para continuar na sessão seguinte.
+
+## Explicações dos capítulos técnicos
+
+Leia a orientação principal ao preparar. Use as folhas para registrar e os casos completos para acompanhar uma aplicação:
+
+| Assunto | Explicação principal |
+|---|---|
+| Inimigos, encontros e perigos | [Inimigos e perigos](../06-inimigos-e-perigos.md) |
+| Fichas, Origens e avaliação de capacidades | [Personagens e técnicas](../07-personagens-e-tecnicas.md) |
+| Dedicação, fabricação, equipamento e recompensas | [Entre missões](../08-entre-missoes.md) |
+| Trocas, aquisição e projetos de entidades | [Pactos e entidades](../09-pactos-e-entidades.md) |
+| Calendário, passagem e registros compartilhados | [Jogar em guilda](../10-jogar-em-guilda.md) |
+
+O [índice de casos por assunto](<../../../04 - Planejamento/apoio-revisao-textual-134/casos-completos.html>) reúne explicação, folhas e exemplos. Os casos já revistos apontam para a redação atual; os demais continuam na edição anterior até a integração. Não trate um exemplo experimental como regra geral.
+
+## Para estudar um caso completo
+
+Os capítulos ensinam a preparar e resolver; os exemplos extensos permitem acompanhar uma aplicação. Use o assunto da dúvida para escolher:
+
+- **Preparar uma investigação e responder a ideias:** [aviso de reabertura](../casos/14-o-aviso-de-reabertura.md) e [cenário e ideias dos jogadores](../casos/11-espaco-e-usos-criativos.md).
+- **Testes, percepção e movimento:** [testes e iniciativa](../casos/82-testes-trabalho-em-grupo-e-iniciativa.md), [pistas](../casos/83-perceber-procurar-e-interpretar-sinais.md), [percursos e quedas](../casos/84-percursos-apoios-e-quedas.md), [ferramentas](../casos/85-trajetorias-ferramentas-e-improvisacao.md).
+- **Socorro, retirada e continuidade:** [quando alguém cai](../casos/22-quedas-e-socorro.md), [retirada e recuperação](../casos/23-retirada-e-recuperacao.md) e [passagem entre mestres](../casos/81-passar-a-missao-entre-mestres.md). O [registro completo de estado e socorro](<24-registro-de-estado-e-socorro.md>) continua disponível.
+- **Criar inimigos e chefes:** [PE e recarga](../casos/59-recursos-e-ritmo-dos-inimigos.md), [montar habilidades](../casos/60-montar-habilidades-de-inimigos.md), [escolher números](../casos/74-regua-inicial-de-inimigos.md), [níveis mais altos](../casos/100-comparar-inimigos-em-outras-faixas.md) e [preparar chefes](../casos/67-preparar-chefes-e-confrontos-maiores.md). As referências numéricas e adaptações continuam experimentais.
+- **Perigos e Carregador:** [preparar perigos](../casos/78-preparar-perigos-ambientais.md), [avaliar o Amontoado](../casos/57-avaliar-o-encontro-do-amontoado.md), [depósito e rotas](../casos/62-o-carregador-e-o-corredor-de-entulho.md) e [ficha e Doma](../casos/63-carregador-consulta-e-doma.md).
+- **Terreno e Sineiro:** [passarela e guincho](../casos/64-a-passarela-e-o-guincho.md), [inimigos e perigos juntos](../casos/65-comparar-confronto-e-pressao-ambiental.md), [portão do depósito](../casos/66-o-carregador-e-a-saida-que-fecha.md) e [ficha do Sineiro](../casos/71-sineiro-do-recolhimento.md).
+- **Sineiro e dupla:** [Sineiro após a Doma](../casos/72-sineiro-consulta-e-doma.md), [retirar a caixa](../casos/73-ensaio-guiado-do-sineiro.md), [Toru e Sayo](../casos/75-ren-e-sora-atacante-e-apoio.md) e [confronto da dupla](../casos/76-confronto-de-ren-e-sora.md).
+- **Arquivo e pó:** [Daigo, Vigia e Tessa](../casos/101-haru-vigia-e-tessa.md), [disputa pelo arquivo](../casos/102-o-arquivo-e-as-oportunidades-de-agir.md) e [pó na sala de conservação](../casos/79-o-po-na-sala-de-conservacao.md).
+- **Doença e fichas preenchidas:** [febre dos fios](../casos/103-a-febre-dos-fios.md), [ficha preenchida de Toru e Sayo](../casos/77-ficha-preenchida-ren-e-sora.md) e [conferir e comparar um chefe](../casos/68-ficha-e-comparacao-de-chefes.md).
+- **Corpos, cuidados e poderes:** [reparo do corpo construído](../casos/90-reparar-personagem-de-corpo-construido.md), [Restrição corporal](../casos/91-restricao-corporal-e-cuidados.md), [exemplos de avaliação de poderes](../casos/30-pareceres-de-criacoes.md) e [poderes avançados](../casos/31-avaliar-poderes-avancados.md).
+- **Técnicas, mesclas e limites:** [dúvidas sobre técnicas](../casos/33-casos-especificos-de-avaliacao.md), [mescla e troca de Forma](../casos/93-ampliar-mesclas-e-trocar-formas.md), [compras repetidas e Restrições](../casos/94-compras-repetidas-e-restricoes.md) e [efeitos de cena e cancelamento](../casos/95-efeitos-de-cena-e-cancelamento.md).
+- **Ofícios, ferramentas e recompensas:** [ofícios e reparos](../casos/34-oficios-fabricacao-e-reparos.md), [ferramentas e objetos](../casos/36-ferramentas-objetos-e-contencao.md), [Anel de Testemunho](../casos/96-fabricar-e-identificar-o-anel.md), [Cofre e venda](../casos/97-emprestimo-familiar-e-negociacao.md), [Pastilha do Último Aviso](../casos/98-objeto-selado-e-risco-de-ingestao.md) e [Limiar e promoção](../casos/99-limiar-feitos-e-promocao.md).
+- **Pactos e Promessa:** [desenvolver uma ideia de Pacto](../casos/47-desenvolver-uma-ideia-de-pacto.md), [Pacifismo impraticável](../casos/48-pacifismo-impraticavel-minuta.md), [Liberação irregular](../casos/49-liberacao-irregular-minuta.md) e [Promessa do arquivo](../casos/50-promessa-do-arquivo.md).
+- **Projetos e ritual:** [obter e criar entidades](../casos/43-aquisicao-e-projetos-de-entidades.md), [tempo e materiais](../casos/45-tempo-materiais-e-retomada-de-entidades.md), [reconstruir, transferir e herdar](../casos/46-reconstruir-transferir-e-herdar-entidades.md) e [prova do Cão de sombra](../casos/51-ritual-do-cao-de-sombra.md).
+- **Doma, construção e transporte:** [Domar o Amontoado](../casos/52-domar-o-amontoado.md), [Escriba de campo](../casos/53-construir-e-evoluir-o-escriba.md), [transporte com entidades](../casos/54-transporte-e-continuidade-das-entidades.md) e [Vigia do depósito](../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md).
+- **Confrontos e perigos:** [Toru e Sayo](<../casos/77-ficha-preenchida-ren-e-sora.md>), [Sineiro](<../casos/73-ensaio-guiado-do-sineiro.md>), [pó na sala](<../casos/79-o-po-na-sala-de-conservacao.md>), [disputa pelo arquivo](<../casos/102-o-arquivo-e-as-oportunidades-de-agir.md>).
+- **Personagens e técnicas:** [avaliação de poderes](<../casos/30-pareceres-de-criacoes.md>) e [poderes avançados](<../casos/31-avaliar-poderes-avancados.md>).
+- **Objetos e recompensas:** [Anel de Testemunho](<../casos/96-fabricar-e-identificar-o-anel.md>) e [Feitos do Limiar](<../casos/99-limiar-feitos-e-promocao.md>).
+- **Pactos e entidades:** [Promessa do arquivo](<../casos/50-promessa-do-arquivo.md>), [Doma do Amontoado](<../casos/52-domar-o-amontoado.md>) e [evolução do Vigia](<../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md>).
+
+As referências de inimigos e os modelos de Pactos são experimentais: use os avisos e limites indicados em cada caso. Reserva Condensada mantém apenas a habilidade publicada no Livro de Regras 1.0.

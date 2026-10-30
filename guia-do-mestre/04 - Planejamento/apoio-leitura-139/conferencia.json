@@ -1,0 +1,26 @@
+{
+  "registro": 139,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md"
+  ],
+  "alteracoes_reproduzidas": 13,
+  "quadros_com_parametros_preservados": 286,
+  "rotulos_de_quadro_ajustados": 2,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1916,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "consultas_de_recursos_identificadas": true,
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

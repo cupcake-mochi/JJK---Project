@@ -1,0 +1,26 @@
+{
+  "registro": 138,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md"
+  ],
+  "alteracoes_reproduzidas": 18,
+  "quadros_preservados": 286,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1910,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "destino_de_revisao_de_origem": true,
+  "demonstracao_do_anexo_com_duas_rodadas": true,
+  "exemplo_de_duas_quedas_independente": true,
+  "capitulo_7_texto_visivel_preservado": true,
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

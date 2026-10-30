@@ -1,0 +1,37 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "pagina": "capitulo-04.html",
+    "titulo": "Na mesa de jogo",
+    "parte": "Comece a mestrar",
+    "sha256": "63ab3573becf92571d9e2b3768b92a32a064829155fb21987487f51ebea83c9d"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "pagina": "capitulo-05.html",
+    "titulo": "Criar uma campanha",
+    "parte": "Comece a mestrar",
+    "sha256": "7a5d39642fdb8ad47920734be253d29ba8feec2c07ec3f03ecd717c50ab68b18"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "pagina": "capitulo-07.html",
+    "titulo": "Personagens e técnicas",
+    "parte": "Ferramentas de Ciclo Maldito",
+    "sha256": "56228251f986385e56ac2b3ce88cb160f0a841d7f6c77c3131dc1f8ad2b2541d"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "pagina": "caso-22-quedas-e-socorro.html",
+    "titulo": "Quedas e socorro",
+    "parte": "Apêndice B",
+    "sha256": "dcd2c187f0974009ee9ce689435ce6f0b4f249afef678d54fe226bd87a83c21c"
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+    "pagina": "caso-23-retirada-e-recuperacao.html",
+    "titulo": "Retirada e recuperação",
+    "parte": "Apêndice B",
+    "sha256": "00bd54a38bb7f227d145039672a5a7aa0a2390569506a564789b05cee9c5b88f"
+  }
+]

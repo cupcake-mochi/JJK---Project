@@ -1,0 +1,1227 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+CORPOS, CUIDADOS E PODERES
+
+CONSULTA DO MESTRE
+
+Reparar um personagem de corpo construído
+Use esta consulta para preparar o atendimento de
+um personagem de Origem Corpo Amaldiçoado. O
+teste e a recuperação vêm do Livro de Regras 1.0. O
+material, o estoque e as pessoas abaixo são escolhas
+locais do exemplo; não estabelecem um preço ou
+consumo universal de reparo.
+
+Escolha o Ofício pelo trabalho
+necessário
+Ena é uma Corpo Amaldiçoado com estrutura
+principal de madeira, articulações metálicas e
+revestimento de pano. Na criação, o grupo
+registrou Entalhador como Ofício compatível:
+reparar sua estrutura exige recompor e ajustar as
+peças de madeira. A presença de metal e pano não
+impõe automaticamente três Ofícios.
+Para este atendimento, o defeito está numa placa
+externa e numa junção. O reparador precisa de
+ferramentas de entalhe, um encaixe de madeira e
+resina compatível. Essas peças foram obtidas e
+anotadas no inventário antes da missão. O
+orçamento da oficina pagou um conjunto para este
+reparo; não há taxa nova em PE ou dinheiro
+cobrada no momento do teste.
+
+Consumo anunciado neste caso: o encaixe e a
+resina são usados durante a tentativa; as
+ferramentas permanecem. Uma eventual repetição
+por Manutenção Precisa faz parte desse mesmo
+atendimento e não cobra outro conjunto. Esse
+consumo é local. Se outro projeto tiver risco de
+estragar uma peça cara, anuncie isso antes de
+começar o trabalho.
+
+O atendimento de Ena
+Ena é Bastião de nível 4, Constituição 2, usando a
+vida fixa e sem alteração adicional de máximo. Sua
+vida máxima é 12 + 2 + (7 + 2) × 3 = 41 PV. Ela
+começa o atendimento com 9 PV.
+O grupo consegue um descanso curto em
+segurança. Rui, o reparador, também está no nível 4
+e é treinado em Entalhador. O atributo usado é
+Inteligência 3; sua Maestria é 1. Os dois níveis
+permitem Classe máxima 1. Compare as Classes
+permitidas pelos dois níveis, não as capacidades
+que eles conhecem nem o grau do material.
+
+Campo
+
+Conta
+
+Comparação
+
+Mesma Classe; ajuste de dificuldade 0
+
+CD do reparo
+
+8 + Inteligência 3 + Maestria 1 + 0 = 12
+
+Bônus de Rui
+
+Inteligência 3 + Maestria 1 = +4
+
+Recuperação no sucesso
+
+Metade de 41, para baixo = 20 PV
+
+Saldo após sucesso
+
+9 + 20 = 29 de 41 PV
+
+Rui não tem especialização neste exemplo. Essa
+escolha de progressão começa no nível 10 e, quando
+recebida, melhora a rolagem sem aumentar a base
+da CD.
+Rui rola 7 + 4 = 11 e falha. Ena tem o uso diário de
+Manutenção Precisa disponível e decide gastá-lo.
+Rui repete o teste, obtém 8 + 4 = 12 e conclui o
+reparo. Ena termina com 29 PV.
+Foi uma tentativa com uma repetição, não dois
+reparos. Se a segunda rolagem falhasse, Ena
+continuaria com 9 PV e aquela tentativa estaria
+consumida. Trocar Rui por outro reparador não
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+abre outra tentativa no mesmo descanso. O uso
+diário pertence a Ena; trocar quem trabalha não o
+renova.
+
+Reparar ou descansar?
+O atendimento ocupa o trabalho de Rui durante o
+descanso curto. Ena pode receber o reparo
+enquanto descansa, conforme a regra específica.
+Não prometa ao reparador que trabalhar e repousar
+produzirão automaticamente todos os mesmos
+benefícios: confira a atividade e os requisitos do
+descanso antes de anotar a recuperação dele.
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+CORPOS, CUIDADOS E PODERES
+
+Existência Artificial permite a Ena considerar
+qualquer local propício para seus descansos. Ainda
+é necessário poder parar em segurança no curto ou
+ter encerrado a missão e poder repousar no longo.
+Sua condição não torna o abrigo propício para os
+demais nem fornece ferramentas e materiais.
+
+Se Ena fizer o próprio reparo, precisa poder agir,
+ter treino no Ofício registrado e conseguir alcançar
+as peças com as ferramentas necessárias. Use a
+permissão específica de Reparo do corpo durante o
+descanso curto; isso não autoriza fabricar objetos
+enquanto descansa.
+
+Reparadores de Classes diferentes
+Mantendo 41 PV máximos, veja a recuperação caso mude a relação de Classes. Não misture o ajuste de
+dificuldade com a fração recuperada.
+Corpo em relação ao reparador
+
+Ajuste da CD
+
+Recuperação antes de limitar ao que falta
+
+Mesma Classe
+
+0
+
+20 PV
+
+Uma Classe abaixo
+
+−2
+
+20 PV
+
+Duas ou mais Classes abaixo
+
+−4
+
+20 PV
+
+Uma Classe acima
+
+0
+
+13 PV
+
+Duas ou mais Classes acima
+
+0
+
+10 PV
+
+Na mesa, recalcule a CD com atributo e Maestria
+de quem efetivamente repara. Se Ena já estivesse
+com 35 de 41 PV, um reparo da mesma Classe
+restauraria apenas 6 PV, sem converter os 14
+restantes em outra reserva.
+
+Reparo em combate e socorro
+Reparo Autônomo é uma menor publicada
+diferente do atendimento no descanso. Se Ena a
+tiver escolhido, estiver consciente, capaz, treinada e
+com os meios necessários, gasta sua Ação Padrão e
+o uso diário. O sucesso recupera
+30% de 41, para baixo = 12 PV, até o máximo. A
+comparação de Classe é consigo mesma.
+Manutenção Precisa não repete automaticamente
+essa rolagem em combate: exige reparo durante
+descanso curto. O uso de Reparo Autônomo
+também não consome a tentativa de um descanso
+curto futuro.
+
+A zero de vida, Ena segue as regras de queda,
+socorro e curas compatíveis. Ela é um personagem,
+não uma entidade Desligada que possa ser religada
+pelo pagamento de retorno. Reparo não restaura
+núcleo destruído, não ressuscita quem morreu e
+não concede poderes ao substituir uma peça.
+Energia Reversa e curas derivadas dela não
+recuperam sua estrutura.
+Registro do exemplo: “Ena: 29/41 PV; reparo deste
+descanso concluído; Manutenção Precisa usada
+hoje; conjunto de encaixe e resina consumido;
+ferramentas com Rui; nenhum núcleo destruído.”
+Confira separadamente energia, Integridade,
+condições e usos que não foram alterados pelo
+reparo.
+
+CONSULTA DO MESTRE
+
+Restrição corporal: participação e cuidados
+Ao preparar uma missão, considere tanto as
+capacidades quanto os cuidados de que um
+personagem com Restrição corporal precisa. O caso
+principal combina Rede Remota e Corpo
+Quebradiço, exemplos publicados no Livro de
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Regras 1.0. A escolha de técnica, os contatos e a
+organização do atendimento pertencem ao caso. As
+alternativas de corpo não são penalidades
+acumuladas.
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+CORPOS, CUIDADOS E PODERES
+
+A ficha de Nilo
+Nilo tem uma técnica que cria figuras de papel e usa uma delas para acompanhar a equipe. Seu corpo fica
+num posto de apoio. Ele deseja participar das decisões, receber informações e comandar capacidades à
+distância. A disponibilidade desses meios é conferida antes da missão.
+Parte da ficha usada
+no caso
+
+Registro
+
+Caminho e nível
+
+Emanador, nível 5; Maestria 1; Classe máxima 2; Refino básico 1; quatro espaços comuns.
+Nenhum benefício adicional de Trilha ou equipamento altera as contas apresentadas.
+
+Atributos
+
+Força 0, Destreza 1, Constituição 2, Inteligência 3 e Essência 3: 9 pontos.
+
+Origem e rota
+
+Restrição Celestial, ramo Restrição corporal; Fundamento.
+
+Base da Origem
+
+Tecnologia; Medicina como perícia livre; Ofícios Alfaiate e Forja; TR Vigor. Os treinos do
+Caminho completam a ficha, com outro TR distinto.
+
+Marcante
+
+Rede Remota + Saída Elevada + Corpo Quebradiço. O CE4 vem desta marcante, fora dos
+espaços conhecidos e dos cinco Talentos pagos.
+
+Duas menores
+
+Reserva Excedente e Leitura de Reservas, com seus textos publicados.
+
+Vida
+
+Antes da condição: 6 + 2 + (4 + 2) × 4 = 32 PV. Corpo Quebradiço: metade = 16 PV máximos.
+
+Energia
+
+6 × 5 + 2 × Essência 3 = 36 PE máximos. Reserva Excedente amplia o máximo; não é estoque
+separado.
+
+Corpo real
+
+Defesa 0, sem Bloquear; deslocamento próprio 0 m. Falhas físicas e manipulações leves
+seguem Corpo Quebradiço.
+
+Meio de
+participação
+
+Um espaço dedicado à versão de nível 5 do Escriba de campo, transportado até o local;
+comunicação por equipamento comum enquanto houver conexão.
+
+O Escriba conserva sua ficha e seu estado
+experimental, incluindo o talento proposto naquela
+seção. Neste caso, sua Defesa é recalculada com
+Inteligência 3 de Nilo: 10 + Destreza 2 + metade de
+3, para baixo = 13. Bloquear acompanha essa
+Defesa: 2d10 + 13 − 11 = 2d10 + 2. Sua vida
+continua 27, o deslocamento 9 m e as contas de
+ataque, CD e perícias conservam os atributos da
+entidade. O corpo de Nilo não transmite Defesa 0,
+vida reduzida ou impedimento de andar à entidade.
+A ficha completa de Nilo ainda precisa das escolhas
+restantes do Caminho, da Trilha, dos espaços e do
+equipamento. Esta consulta apresenta as escolhas
+de Origem e uma forma de participar à distância;
+não pretende entregar outro personagem pronto.
+
+Participar à distância
+
+No exemplo, o corpo está a 800 km da missão. O
+Escriba foi levado até lá por meios combinados
+previamente e já está em campo, com sua entrada
+paga e registrada conforme Invocações. Não foi
+criado gratuitamente pelo CE4 nem teleportado
+para perto dos aliados.
+Nilo não recebeu visão compartilhada ou telepatia.
+Para este preparo, ele conversa por um
+equipamento comum cuja conexão foi confirmada;
+o grupo transmite relatos e pode mostrar imagens
+quando o equipamento permitir. O Escriba
+compreende ordens faladas e responde por gestos.
+Os equipamentos e o canal precisam estar
+presentes e funcionando; não são poderes gratuitos
+da técnica. Uma imagem ou relato não dispensa os
+requisitos de percepção da capacidade que Nilo
+quiser usar.
+
+Rede Remota mantém o vínculo com
+intermediários da técnica até 3.000 km do corpo
+real. É passiva, sem PE adicionais apenas pela
+distância. Conserva quantidade, duração, custos,
+ações, sentidos e capacidades que já existam na
+técnica. O intermediário precisa chegar ao local e
+pode ser enfrentado ou destruído.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Situação de uso. Um aliado mostra a Nilo a estante
+e o caderno identificados no preparo. A instrução
+chega pelo equipamento ao Escriba. Nilo usa sua
+Ação Bônus para orientar que ele vá à estante e
+recolha aquele objeto. A entidade usa seu
+Movimento e as manipulações ou atuação básica
+que a tarefa exigir. A Bônus não fornece uma básica
+extra nem autoriza disparar uma especial.
+Se Nilo comandar uma especial numa situação em
+que os requisitos estejam atendidos, paga a ação de
+comando e a entidade gasta sua básica e os custos
+próprios. Uma especial do Escriba com alcance de
+18 m continua usando 18 m a partir dele; o vínculo
+de 800 km não amplia o ataque. Não estenda Saída
+Elevada automaticamente à ficha da entidade: seu
+texto concede pontos para Melhorias dos feitiços
+comuns da técnica do personagem.
+Interrupção. Se o equipamento perder conexão,
+uma nova instrução não chega por esse meio. A
+tarefa já compreendida continua até seu término ou
+outro impedimento. Rede Remota não fornece as
+imagens ou a comunicação que faltam.
+Restabelecer o canal não entrega automaticamente
+mensagens perdidas. A solução pode ser recuperar
+o equipamento, usar outro canal disponível ou
+continuar com a tarefa anterior.
+
+CORPOS, CUIDADOS E PODERES
+
+O corpo continua presente na história
+No posto de apoio, Nilo precisa de suporte corporal
+e atendimento compatíveis com Corpo Quebradiço.
+Uma pessoa da equipe acompanha o contato; isso
+não lhe dá controle sobre a ficha. Nilo decide o que
+diz, comanda e aceita.
+Mesmo a distância, efeitos que exigem um teste do
+próprio Nilo usam sua ficha. Corpo Quebradiço
+falha automaticamente em testes de Força e TRs
+Físicos do corpo real; ataques que dependam do
+esforço físico desse corpo também falham.
+Manipulação leve, escrita e gestos compatíveis
+permanecem. Usar Força ou Destreza na conta de
+uma conjuração não a faz falhar por si só.
+Vigor continua normal neste corpo. Nilo tem
+Constituição 2 e Maestria 1 pelo treino: +3. Se uma
+ocorrência de dano no corpo real exigir
+Concentração com Vigor CD 14, um resultado 11
+alcança 11 + 3 = 14. Não aplique a falha automática
+de Vigor pertencente às outras condições
+corporais.
+Ao criar outro CE4 ou outra condição, explique
+com a mesma precisão o que muda nas regras,
+como funciona e quais cuidados são necessários. O
+Livro de Regras 1.0 permite essa criação, mas exige
+impacto corporal equivalente ou maior ao dos
+exemplos; uma penalidade mais severa não compra
+mais ganhos. Não use o caso de Nilo para somar
+três condições ou receber todos os CE4.
+
+Prepare o cuidado de cada corpo
+Os preparos abaixo são exemplos ficcionais de atendimento. Não são instruções clínicas nem listas
+universais de materiais. Registre com o jogador o que a ficha precisa, quem consegue prestar a assistência e
+como isso acompanha a campanha.
+Condição
+escolhida
+
+Preparo concreto deste exemplo
+
+O que conferir antes de declarar o lugar
+propício
+
+Corpo
+Debilitado
+
+Abrigo protegido; cobertura opaca sobre toda a pele
+exposta; suporte para acomodação e transporte;
+materiais e assistência combinados na ficha
+
+A luz solar ou lunar realmente alcança a
+pele? Há meios de assistência nas tarefas
+que a personagem não consegue realizar?
+
+Corpo
+Quebradiço
+
+Apoio que acomoda o corpo sem exigir que sustente o
+próprio peso; materiais de atendimento; transporte;
+profissional treinado em Medicina ou autocuidado
+quando viável
+
+Quem presta o atendimento? A personagem
+alcança os materiais se for cuidar de si? O
+apoio permanece durante a pausa?
+
+Corpo
+Exaurido
+
+Abrigo com os materiais e cuidados registrados para a
+condição; acesso aos objetos de uso; ajuda ou
+transporte disponível quando o deslocamento cair a
+zero
+
+O cuidado combinado pode ser prestado? O
+saldo de vida permite o deslocamento leve?
+Como continuar se for necessário
+transportar?
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+No posto de Nilo, o apoio está instalado e os
+materiais ficam ao alcance das mãos. Como é
+treinado em Medicina e está capaz, pode fazer seu
+atendimento quando essas condições bastarem ao
+trabalho. Em outra situação, alguém treinado pode
+atendê-lo. A regra não exige automaticamente um
+teste, uma tarifa ou horas extras para reconhecer
+todo cuidado; descreva a necessidade concreta
+antes de exigir um teste ou outro gasto.
+Alternativa em viagem. O grupo prepara um
+veículo com o apoio e os meios correspondentes.
+Ele pode servir como ambiente propício se a
+situação realmente permitir repouso. Estar dentro
+do veículo em perseguição não transforma o
+intervalo em descanso seguro. A casa de uma escola
+também pode deixar de ser propícia se faltar o
+atendimento exigido.
+
+Cuidados com cada condição
+Exposição no Corpo Debilitado
+Uma fresta deixa a luz da lua alcançar a pele
+exposta. Ao fim do turno, o dado mostra 3 no d4: 3
+de dano Radiante, sem TR. Cobrir toda a área
+exposta com material opaco impede a próxima
+incidência por essa regra. Luz artificial, sozinha,
+não aciona esse dano.
+A cobertura é um recurso real do preparo; não se
+presume perfeita após rasgar ou cair. Também não
+precisa virar uma nova peça mágica para proteger
+da exposição. Confira antes como está sendo usada.
+Corpo Quebradiço e Corpo Exaurido não recebem
+queimaduras lunares por analogia.
+
+Cura no Corpo Quebradiço
+Nilo está com 8 de 16 PV. Um efeito compatível
+cura 6; ele passa a 14 de 16, sem dividir a cura
+novamente. Um descanso longo propício restaura
+
+CORPOS, CUIDADOS E PODERES
+
+seu máximo reduzido de 16, não os 32 anteriores à
+condição. Cura comum não remove a limitação
+congênita.
+
+Recuperação no Corpo Exaurido
+Para comparar, uma personagem de Corpo
+Exaurido tem máximo 32 PV e saldo 8. Ao concluir
+um descanso longo propício, recupera
+25% de 32 = 8 PV: fica com 16. A recuperação do
+descanso não é dividida outra vez.
+O limite de deslocamento é metade do máximo, 16
+PV. Com 16 ou menos, seu deslocamento próprio é
+zero. Depois, uma cura compatível de 7 recupera
+metade, para baixo = 3 PV; ela chega a 19 e volta a
+poder caminhar até 4,5 m nas condições descritas
+pela habilidade.
+Se aquele descanso longo ocorrer fora de ambiente
+propício, os 8 PV iniciais permanecem: o corpo não
+recupera vida pela pausa. Os demais recursos
+seguem suas regras, inclusive PE. Isso não
+transforma Corpo Exaurido num degrau
+permanente de Exaustão, não impõe Atordoado e
+não retira decisões ou consciência.
+
+Registro para a missão seguinte
+Anote condição corporal, apoio disponível, pessoa
+ou meio de assistência, forma de transporte, canal
+de participação e saldo atual. Separe o estado do
+corpo real do estado de cada intermediário. Na
+guilda, outro mestre precisa saber o que já foi
+obtido e o que ainda depende de preparo, sem
+exigir que o jogador negocie a mesma necessidade
+novamente.
+Exemplo: “Nilo: Corpo Quebradiço, 14/16 PV;
+apoio e materiais no posto; pode fazer o
+atendimento combinado; conexão com a equipe
+disponível, sem visão sobrenatural; Escriba em
+campo a 800 km, Defesa 13, com registro próprio de
+recursos. Confirmar transporte e canal antes da
+próxima missão.”
+
+CONSULTA DO MESTRE
+
+Exemplos de avaliação de poderes
+Estes casos mostram como explicar ao jogador uma
+avaliação de poder. As contas usam o Livro de
+Regras 1.0. Montagens feitas apenas com opções
+publicadas demonstram essas opções; propostas
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+novas são identificadas como propostas. Nenhuma
+destas situações representa um teste realizado com
+jogadores.
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Dano por Toque
+Pedido. “Meu golpe é Classe 1, por Toque. Tenho 3
+pontos e ganho mais 1 pela proximidade, então
+causo 4d8.”
+Conferência. Toque concede devolução Leve, mas
+ela só compensa pontos pagos em Melhorias. Esta
+ficha não comprou nenhuma. A devolução
+aproveitável é zero: 3 − 0 + 0 = 3d8.
+Conclusão. A versão simples pode causar 3d8, com
+Ação Padrão, 3 PE, Selo, ataque de conjuração e
+alcance de 1,5 m. O erro não causa dano e gasta os
+PE. A proximidade não cria um quarto dado.
+Se Mira estiver disponível e a Regra comportar a
+aplicação, o jogador pode comprar Precisão. Na
+Classe 1 ela custa 1 ponto; Toque devolve esse
+ponto gasto. A ficha mantém 3 − 1 + 1 = 3d8 e
+recebe +2 no ataque. Conta uma Melhoria,
+nenhuma Restrição. Se atributo for 3 e Maestria 1,
+o ataque será d20 + 6, considerando Precisão.
+O ajuste preserva a ideia de um golpe preciso de
+perto e mostra onde a devolução é aproveitada. Não
+transforma o bônus de Precisão em dano.
+
+Prender com fios
+Pedido. “Acerto com os fios e o inimigo fica preso,
+sem poder atacar nem conjurar.”
+Conferência. Prende impede deslocamento
+voluntário, mas conserva as demais ações. Mesmo
+numa ficha de ataque, o alvo acertado ainda faz o
+TR de Prende. A aparência da rede não acrescenta
+Atordoado ou outra condição.
+Versão comentada. Técnica que produz fios para
+prender, Controle disponível a preço normal.
+Classe 2: Projétil (0), Prende (2), sem Restrição.
+Sobram 6 − 2 = 4 pontos. O jogador escolhe
+descartar todo o saldo e registrar a modalidade de
+Controle sem dano. Essa escolha concede a rodada
+adicional e +2 na CD dos TRs de Prende.
+A ficha será resolvida diretamente por TR Físico,
+escolhido na criação. Com atributo 3 e Maestria 2, a
+CD normal seria 13; com o reforço, fica 15. A
+aplicação custa Ação Padrão e 6 PE, exige o Selo e
+alcança uma criatura válida e visível a até 18 m,
+com passagem desimpedida.
+Na falha, o alvo não pode se deslocar
+voluntariamente até o fim de seu segundo turno
+seguinte à aplicação. No sucesso, não fica preso.
+Enquanto afetado, pode atacar, conjurar e usar as
+outras ações. No próprio turno, pode gastar Padrão,
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+CORPOS, CUIDADOS E PODERES
+
+Bônus ou Movimento para tentar sair, fazendo o TR
+registrado contra CD 15; cada tentativa paga uma
+dessas ações. Não recebe um teste gratuito no fim
+do turno. Movimento imposto ainda pode deslocálo sem encerrar Prende.
+Conclusão. Esta versão serve para conter a
+movimentação. Para impedir outras ações, será
+necessário escolher um efeito que as impeça e
+refazer a montagem. Os quatro pontos descartados
+não podem financiar outra função mantendo o
+reforço de “sem dano”.
+A versão por ataque seria outra montagem:
+primeiro precisaria acertar, depois resolver o TR de
+Prende. O jogador não escolhe entre ataque e TR
+depois de observar as defesas do adversário.
+A consulta Efeitos de cena e cancelamento mostra
+outro exemplo de avaliação: o cancelamento de uma
+aplicação específica, com Classe publicada ou
+atribuída, preservando resultados concluídos e
+respeitando a exclusão de Domínios.
+
+Obter informações de um objeto
+Pedido. “Quero tocar um objeto e saber quem usou
+energia nele, onde essa pessoa está e como
+funciona sua técnica.”
+Conferência. O pedido reúne vestígio, identidade,
+localização e montagem. Compare cada parte.
+Farejador informa Classes de conjurações deixadas
+no local nas últimas 24 horas, sem revelar autor ou
+caminho. A proposta de exame de objeto em
+Aptidão Própria verifica um vestígio específico,
+com limites ainda menores de informação.
+Conclusão sobre o pedido completo. A referência
+de CE1 não sustenta conceder todas as informações
+solicitadas. O fato de o exame consumir uma ação
+não resolve essa diferença.
+Alternativa já exemplificada no Livro de Regras
+1.0. Uma Ação Padrão examinando um objeto
+tocado identifica se ele recebeu energia
+amaldiçoada nas últimas 24 horas. Não revela autor,
+intenção ou identidade da técnica. O Livro de
+Regras 1.0 apresenta CE1 como apoio à avaliação se
+esse vestígio for relevante raramente na
+campanha; a aprovação continua com o mestre.
+Numa campanha que investiga objetos adulterados
+em toda missão, explique por que aquela condição
+da referência exige nova avaliação. Não aumente a
+categoria automaticamente só porque a campanha
+tem investigação: compare o resultado exato e sua
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+frequência real. Registre o que “recebeu energia”
+significa para o caso, sem confundir tocar o objeto
+com conjurar no cômodo.
+A versão própria ocupa a escolha única de Aptidão
+Própria. Se a intenção for simplesmente obter uma
+aptidão já existente, use a entrada e seus requisitos.
+Aprender a opção nova não concede as informações
+retiradas do pedido original.
+
+Sentir vibrações
+Pedido. “Quero sentir vibrações e acompanhar
+qualquer pessoa do outro lado de uma parede.”
+O Livro de Regras 1.0 apresenta Marca do pulso,
+proposta de Bênção Própria CE1: tocar uma
+estrutura que acabou de sofrer um impacto
+perceptível permite distinguir a parte conectada
+que recebeu o impacto, até 3 m do ponto tocado. O
+exemplo usa a vibração ainda ocorrendo. A
+aprovação e os limites precisam ser registrados.
+Comparação. Localizar a porta que acabou de ser
+golpeada não revela quem bateu, onde essa pessoa
+está agora ou o que fazia antes do contato. A
+proposta ampla pede um sentido de localização
+contínua, além do alcance do exemplo.
+Conclusão. Se o jogador escolher Marca do pulso,
+registre seu alcance limitado e a aquisição por
+Bênção Própria. Ela não substitui Faro nem
+permite selecionar alvos sem visão. Se quiser o
+sentido contínuo, será outra proposta, com outra
+comparação. Bênção Própria aceita CE1 ou CE2;
+um efeito que precise de CE3 fica fora dessa opção.
+Para uma proposta com requisito de Força ou
+Constituição, confira ainda o feito corporal
+específico exigido pela entrada. Acrescentar
+vantagem numa perícia não basta para representar
+esse feito.
+
+Imunidade e cura
+Pedido. “Minha natureza é estável. Quero
+imunidade a qualquer condição e recuperar vida
+sempre que minha técnica funcionar.”
+Conclusão. Talento Próprio não admite imunidade
+completa a um tipo de dano ou condição nem cura
+ilimitada. Raiz é uma exceção publicada específica;
+sua proteção contra movimento forçado e
+Derrubado não estabelece o preço de imunidades
+gerais.
+Primeiro separe as duas intenções: manter posição
+e recuperar vida. Se Raiz representar a primeira,
+pode ser adquirido com seus efeitos exatos. Para
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+CORPOS, CUIDADOS E PODERES
+
+recuperação, compare a função desejada a
+Recomposição e às regras de cura, observando
+acesso, frequência e impedimentos. Essa
+comparação não aprova obter as duas capacidades
+pelo preço de uma.
+Exemplo de limite publicado. Recomposição exige
+Ação Padrão e permite recuperar 4 × maior Classe
+em vida, até o máximo, uma vez por descanso curto.
+Com maior Classe 3, são 12 PV. Isso não equivale a
+ganhar 12 PV a cada acerto nem remove condições.
+Ela é CE2, com sua aquisição correspondente.
+
+Uma aposta real
+Pedido. “Aposto com meu amigo que vou respirar.
+Ganho a disputa e guardo vantagem para depois.”
+A Regra Própria de aposta exemplificada no
+catálogo exige aceitação de ambos e uma disputa
+real, com vencedor ainda por decidir. O benefício
+vale para o vencedor, inclusive o outro participante.
+O exemplo CE1 depende de aprovação da mesa.
+Conclusão. O resultado combinado não atende à
+disputa exigida. A versão registrada pode usar uma
+competição real, com resultado verificável, uma vez
+por cena. Empate consome a aposta sem conceder
+vantagem; o vencedor usa o benefício no próximo
+teste antes do fim da cena. Aposta não concede
+ação adicional nem refaz teste concluído.
+A Regra Própria começa em CE1 sem ocupar
+espaço; sua versão CE2 ocupa um espaço no total e
+a CE3, dois. Esses custos especiais não se aplicam a
+qualquer Talento que receba “regra” no nome. A
+frase de funcionamento do Fundamento é outro
+registro.
+
+Criar menores de Origem
+Pedido. “Minha família é conhecida pelo estudo.
+Quero usar 10 no dado depois de falhar em
+qualquer teste.”
+Referência. Fundamento Incorporado, menor
+publicada do Descendente, permite usar 10 no
+lugar de um d20 antes da rolagem, uma vez por dia,
+na perícia recebida pela base da Origem. O pedido
+altera momento e abrangência, incluindo testes que
+a habilidade não permite.
+Exemplo numérico. A personagem tem bônus +5
+na perícia elegível. Se declarar o benefício antes de
+rolar, usa 10 + 5 = 15. Se já rolou 9 e totalizou 14,
+não pode trocar o dado depois de ver o fracasso.
+Com vantagem ou desvantagem, rola o outro d20 e
+escolhe normalmente; o 10 não é um piso universal.
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Conclusão. Usar a menor publicada exige
+conservar esses limites. Uma menor própria que
+permita escolher depois da rolagem ou alcance
+mais testes precisa de uma avaliação nova. A
+autorização para personalizar menores não aprova
+automaticamente essas ampliações.
+Para uma família original, descreva formação,
+relações e obrigações. Construa uma base coerente
+usando os clãs como referência, escolha uma
+modalidade publicada da marcante do Descendente
+e duas menores elegíveis. O nome da família não
+concede outra marcante. Somar Execução
+Ensaiada, Execução Reservada e Entendimento
+Tácito reuniria benefícios além do permitido.
+O Livro de Regras 1.0 permite criar ambas as
+menores. A comparação deve mostrar os resultados
+de cada uma e do conjunto. A referência publicada
+demonstra o método; o exemplo da família Arata
+permite comparar as escolhas, ainda sujeitas à
+avaliação da mesa.
+A família Arata desenvolve uma base completa de
+Origem, marcante publicada e duas menores
+próprias, com comparações e um exemplo de uso
+combinado. É exemplo experimental de avaliação,
+sem inclusão automática no Livro de Regras 1.0.
+
+Restrições que fazem diferença
+
+CORPOS, CUIDADOS E PODERES
+
+Conferência. Aquecer permite uso fora de combate
+sem atraso adicional. Portanto, não devolve pontos
+nessa aplicação exclusiva: a exigência nunca
+impede seu uso.
+Conclusão. Retire a devolução da conta e mantenha
+uma ficha válida. Se o jogador quiser uma
+dificuldade diferente, ela precisa ser real e
+registrada. Não transforme Aquecer numa espera
+nova fora de combate apenas para salvar os pontos.
+Outro caso: uma ficha recebe devolução por Gesto
+e compra Silencioso esperando abandonar as duas
+mãos livres e a fala. Gesto conserva essas
+exigências. A melhoria não apaga a dificuldade que
+financiou a montagem.
+Para Condicional ou Restrição Própria, o Livro de
+Regras 1.0 usa a frequência prevista de
+impedimento para orientar Leve ou Média. Depois
+de três sessões de uso, confronte essa estimativa
+com o ocorrido. O registro deve distinguir “o
+jogador nunca tentou naquela situação” de “a
+exigência era sempre garantida”.
+Repetir Melhorias e definir Restrições preenche
+Condicional com distância, fonte, momento de
+conferência e devolução. A Matriz de chão
+acrescenta um exemplo experimental de Restrição
+Própria, com preparo, consumo, falha e revisão.
+
+Pedido. “Só posso conjurar depois da primeira
+rodada, mas o feitiço serve exclusivamente para
+iluminar um cômodo fora de combate.”
+CONSULTA DO MESTRE
+
+Avaliar poderes avançados
+Consulte esta seção ao preparar uma Liberação
+Máxima, uma Técnica Máxima, uma Expansão de
+Domínio ou um CE4. Use o roteiro de avaliação de
+criações, mas confira a montagem específica de
+cada capacidade antes de aplicar uma conta
+comum.
+
+Um poder avançado precisa continuar legível
+durante seu uso. A descrição apresenta o
+acontecimento; a ficha informa quem paga, quem é
+afetado e como o efeito termina. Poderes de
+personagens da obra podem inspirar a aparência e
+o objetivo. Os resultados em Ciclo Maldito seguem
+a capacidade registrada.
+
+Liberação e Técnica Máxima
+Apesar dos nomes parecidos, essas capacidades têm regras diferentes.
+Conferência
+
+Liberação Máxima
+
+Técnica Máxima
+
+Aquisição
+
+Uma nos níveis 10, 20 e 30, fora dos espaços comuns.
+
+A partir do nível 17, fora dos espaços
+comuns.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+CORPOS, CUIDADOS E PODERES
+
+Conferência
+
+Liberação Máxima
+
+Técnica Máxima
+
+Montagem
+
+Classe 3 ou maior disponível; montagem comum com
++Classe em d8 de dano.
+
+Dados e pontos separados pela faixa de nível;
+até quatro Melhorias.
+
+Função
+
+Não serve para cura.
+
+Dano, cura ou utilidade, escolhida na
+criação.
+
+Uso
+
+Ação Completa, custo normal aumentado em 50%, para
+cima, e um preço adicional.
+
+Ação Completa, PE da faixa e uso uma vez
+por cena por padrão.
+
+Restrições
+
+Precisam acrescentar dificuldade real; Atrasar e
+Parado não devolvem pontos.
+
+Não aceita devoluções de Restrições nem a
+devolução de Toque.
+
+Sobras
+
+Siga o saldo e os limites da montagem de Liberação.
+
+Pontos restantes não aumentam os dados
+fixos.
+
+Nas duas, mantenha a Regra, o Selo, os requisitos
+da rota e as Famílias. Rápido e Reação não reduzem
+sua Ação Completa. O movimento concedido por
+uma capacidade específica, quando permitido,
+segue essa capacidade; não devolve a Ação de
+Movimento consumida.
+
+Exemplo de Liberação
+Use a montagem de Linha do exemplo Corte de
+ruptura, do Livro de Regras 1.0. Na Classe 3, são 9
+pontos. A Forma custa 2; sobram 7d8, aos quais a
+Liberação acrescenta 3d8. Resultado: 10d8, Ação
+Completa e 14 PE, pois 9 × 1,5 = 13,5, arredondado
+para cima.
+O usuário ainda escolhe Vazio, Sangue ou Peso a
+cada uso. Esses preços não devolvem pontos. Com
+Sangue, por exemplo, a consequência é 12 de dano
+irredutível, direto na vida, pela conta 4 × Classe. A
+ficha deve permitir localizar esse custo antes da
+declaração.
+
+os outros 6; mantém 24d8. Não são 30d8. O
+movimento de Passo e o deslocamento do alvo
+conservam suas permissões e obstáculos.
+Se a intenção for uma versão resolvida por TR,
+escolha essa resolução na criação. Na Técnica
+Máxima, quem passa recebe três quartos do dano;
+quem evita uma condição pelo TR continua
+evitando essa condição. Com uma rolagem de dano
+de 101, a parcela do sucesso é 76, antes das demais
+defesas, pelo arredondamento para cima. Um
+ataque que erre continua sem dano, salvo
+permissão expressa.
+Consulte a tabela própria de Melhorias da Máxima.
+Ela exclui, entre outras peças, Salto, Queima,
+Estilhaço, Acúmulo e Remate. Rajada e Mais Um
+dividem os dados, sem duplicar a quantidade por
+alvo. Escolher uma peça de repetição e prometer
+gastar mais PE não substitui essa conferência.
+
+Máxima de cura
+
+Se alguém apresentar a mesma Linha com 12d8
+porque somou devolução de Atrasar, mostre os dois
+problemas: a Ação Completa já é obrigatória e a
+Forma não é uma Melhoria que possa ser
+compensada. O ajuste retorna aos 10d8 dessa
+montagem.
+
+Suponha uma técnica compatível, com Amparo
+disponível e preço normal de Auxiliares. Na faixa
+17 a 20, prepare cura direta + Projétil + Guarda. A
+maior Classe é 5: base Média de cura custa 5,
+Projétil custa zero e Guarda custa 5. O total 10
+excede os 8 pontos de montagem.
+
+No TR da Liberação, o sucesso recebe metade do
+resultado do dano, salvo regra específica. Não
+aplique a fração da Técnica Máxima por associação
+entre os nomes.
+
+Há duas comparações úteis. Retirando Guarda, a
+cura individual cabe: base 5, saldo 3 descartado,
+24d8 de cura, até o máximo de vida e respeitando
+impedimentos, para um aliado disposto a até 9 m.
+Custa Ação Completa e 25 PE, com Selo e recarga.
+A cura da Máxima não usa o teto comum de 2 ×
+Classe.
+
+Máxima de dano
+Na faixa de níveis 17 a 20, a Técnica Máxima tem
+24d8, 8 pontos de montagem e custo de 25 PE. Os
+pontos pagam a Forma e as Melhorias; o saldo não
+compra dados.
+O Livro de Regras 1.0 exemplifica Fenda de
+Arrasto: Projétil (0), Passo (1) e Empurrão (1),
+ambos com Alcance Livre. Gasta 2 pontos; descarta
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Se Auxiliares já for Livre na técnica, o desconto de
+metade da Classe, para cima, faz Guarda custar
+5 − 3 = 2; a montagem conjunta custa 7 e cabe. O
+aliado recebe a cura e +2 Defesa até o fim de seu
+próximo turno. Resta 1 ponto, descartado. A
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+avaliação precisa informar qual dessas condições
+foi usada; o jogador não troca sua Família para
+Livre durante a conjuração.
+Curar uma pessoa Morrendo continua seguindo
+Quedas e socorro. Uma quantidade alta de cura não
+elimina por si só todos os estados nem devolve
+participação a alguém Derrotado.
+
+Máxima de utilidade
+O exemplo publicado Passagem de Papel serve
+como comparação completa de Efeito Próprio. Na
+faixa inicial, sua peça Pesada custa 8 pontos, sem
+desconto de Família, e ocupa o orçamento
+disponível. Os dados de dano e cura são
+descartados. O efeito exige a modalidade Técnica
+Máxima, mesmo que seu preço pareça caber em
+outra montagem.
+O resultado depende de duas marcas preparadas
+pessoalmente, em superfícies estáveis da mesma
+cidade, a até 1.500 m entre si. A abertura, o espaço
+livre, a concentração, a retirada das marcas, as
+barreiras sobrenaturais e o início de combate têm
+consequências registradas na ficha do Livro de
+Regras 1.0.
+Avaliação de uma mudança. “Quero que continue
+aberta durante combate e atravesse barreiras”
+muda dois limites centrais da referência. O custo
+Pesado do exemplo não aprova essa alteração.
+Conserve a versão publicada ou prepare outra
+proposta, explicitando o que mudou e por que a
+comparação anterior já não basta.
+Para uma retirada durante combate, consulte
+Retirada de Emergência, também publicada. Ela
+move até seis aliados dispostos, dentro de seus
+requisitos, por percursos de até 18 m. Não oferece o
+mesmo transporte entre endereços. Um caminho
+bloqueado, uma criatura sem movimento ou uma
+contenção continuam importando. Escolha a
+referência pelo problema que ela resolve.
+
+Recarga opcional
+O caminho recomendado para começar é o uso
+padrão de uma Máxima por cena. O Livro de
+Regras 1.0 permite ao mestre autorizar outro uso
+depois de três rodadas, sem contar a rodada da
+utilização. Usada na rodada 1, pode voltar na
+rodada 5 se essa opção tiver sido autorizada e
+houver recursos.
+
+CORPOS, CUIDADOS E PODERES
+
+opção já prevista no Livro de Regras 1.0; apresentála não equivale a adotá-la automaticamente para
+todas as mesas.
+
+Domínio: aparência, Acerto e Efeito
+Ao ler a proposta, separe três partes. A aparência
+mostra o lugar. O Acerto é a aplicação que o
+domínio produz na abertura e durante sua
+permanência. O Efeito é a capacidade específica
+utilizável enquanto ele permanece.
+Uma galeria cheia de espelhos não ganha cobertura
+e armas só pela descrição. Um tribunal não torna
+toda acusação verdadeira. O Acerto pode causar
+dano, transmitir informação delimitada ou
+estabelecer uma regra de ambiente. A descrição do
+Efeito precisa explicar como ele funciona, com
+ação, custos, alvos e limites.
+No Acerto de dano, use a conta própria: 3 × maior
+Classe, menos o preço Médio de Inescapável, com
+o desconto de Família Livre quando aplicável. O
+restante vira d8. O Acerto é a aplicação inteira; não
+compre outra peça para acrescentar uma condição
+ao mesmo Acerto.
+A Completa tem Acerto garantido, sem ataque, TR
+ou crítico, ignorando Redução de Dano, resistência
+e imunidade. A Incompleta usa a resolução
+registrada como um feitiço. As defesas específicas
+contra domínio precisam ser consultadas: proteger
+contra Acerto garantido não neutraliza
+automaticamente o Efeito ou o Acerto rolado da
+Incompleta.
+
+Exemplo: Galeria de Vidro
+Use Galeria de Vidro, exemplo do Livro de Regras
+1.0, para acompanhar a avaliação. No nível 14, Yuri
+tem maior Classe 4, refino 5 e Expansão Completa,
+que ocupa três espaços no total. A ficha usa preço
+normal para o Acerto: 12 − 4 = 8d8. Abrir custa
+Ação Completa, Selo e 24 PE; o raio é 7,5 m.
+O Acerto atinge criaturas com energia na área,
+exceto Yuri, incluindo aliados. O Efeito permite
+proteger uma criatura disposta mantendo uma mão
+em contato com ela. Precisa haver contato
+fisicamente possível; a mão fica ocupada. A
+proteção acaba quando o contato termina e não
+remove dano anterior. A ficha não poupa objetos ou
+aliados em geral por preferência do usuário.
+
+Registre a escolha antes de ela precisar ser
+aplicada. Na guilda, siga o alcance de decisão
+combinado entre os mestres. A recarga é uma
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Na abertura, uma aliada em contato está protegida.
+Um segundo aliado com energia, dentro da galeria
+e sem outra defesa aplicável, recebe o Acerto.
+Perguntar “quem você considera inimigo?” não
+substitui a regra de alvos registrada.
+Com refino 5, conte dois turnos seguintes de Yuri.
+Há um Acerto na abertura e outro no começo de
+cada um desses turnos. O domínio termina ao fim
+do segundo. Se uma criatura receber todos, são três
+aplicações de 8d8, e não um único dano de 24d8.
+Estados, defesas e posições podem mudar entre
+elas.
+Enquanto dentro do domínio, os feitiços de Yuri
+com custo positivo recebem o desconto próprio de
+2 PE. Isso não paga aptidões nem a abertura. A
+barreira tem 100 PV pelo exterior, segundo a regra
+específica; não use essa vida como defesa interna
+improvisada.
+Ao terminar, aplique Rescaldo: pelo restante da
+cena, a Técnica Inata fica indisponível, com a
+exceção dos feitiços de Classe 0. Uma permissão
+específica de recuperação segue seus custos.
+Encerrar voluntariamente não devolve o PE da
+abertura nem elimina Rescaldo.
+
+Exemplo: Sala de Trégua
+Sala de Trégua, outro exemplo publicado, impede
+dano entre criaturas dentro da sala. Sua ficha inclui
+expressamente o dono, aliados e inimigos. Isso não
+obriga acordo, não impede toda ação hostil e não
+cura ninguém automaticamente.
+Uma criatura ainda pode tentar agarrar outra. Uma
+pessoa fora da sala pode atacar a barreira. A voz do
+dono alcança quem aceita ouvi-lo, mas não força
+resposta nem muda testes sociais. Essas diferenças
+permitem resolver a proposta sem decidir de novo o
+significado de “trégua” em cada ação.
+A Regra Própria do catálogo exige simetria. Já a
+regra de ambiente de um domínio não alcança seu
+dono por padrão, salvo se a ficha disser que
+alcança. Sala de Trégua faz essa inclusão
+expressamente. Não transfira a exigência de uma
+aquisição para a outra só porque ambas escrevem
+uma regra.
+Na avaliação, prepare ao menos um caso com
+aliado, um com proteção específica e um com
+encerramento. Se dois domínios puderem se
+sobrepor, consulte as regras de disputa e a área
+efetivamente afetada antes de prever um resultado.
+Ter adquirido Completa não garante vencer
+qualquer outro domínio.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+CORPOS, CUIDADOS E PODERES
+
+O CE4 da Restrição corporal
+O CE4 da Restrição corporal permite um
+funcionamento extraordinário em um aspecto
+específico. É recebido na criação desse ramo, junto
+do restante da marcante. Não representa uma
+Classe de feitiço nem uma autorização geral para
+aumentar números.
+Rede Remota, exemplo do Livro de Regras 1.0,
+amplia o vínculo com intermediários da técnica até
+3.000 km a partir do corpo. Conserva as
+capacidades, os sentidos, a quantidade de
+intermediários, as ações e os custos que a técnica já
+oferece. Não fornece marionetes por si só.
+Se o corpo estiver a 800 km da missão e a marionete
+tiver um disparo de 18 m, o vínculo alcança a
+missão; o disparo continua medindo 18 m a partir
+da marionete. O usuário não pode atingir qualquer
+pessoa na cidade pela mesma permissão. O
+intermediário precisa chegar ao local e pode ser
+enfrentado ou destruído.
+Para outra proposta, escreva a exceção com a
+mesma precisão: o que ultrapassa a escala habitual,
+como se usa e o que continua limitado. Arquitetura
+Microscópica, Manifestação Colossal e Geografia
+Interior são referências de conceito que ainda
+precisam ter seu funcionamento combinado. Não
+atribua a elas números ausentes nem reúna os
+quatro exemplos num único benefício.
+Confira a condição corporal e os cuidados da ficha
+em conjunto com o CE4. Os três corpos publicados
+são alternativas completas; não se somam
+penalidades para comprar benefícios indefinidos.
+Uma Restrição corporal própria exige comparar os
+benefícios e as limitações escolhidos, dentro da
+exceção de criação prevista no Livro de Regras 1.0.
+Saída Elevada tem outra função: oferece pontos
+adicionais apenas para Melhorias de feitiços
+comuns da técnica de Classe 1 ou maior. Seus
+pontos não usados se perdem, e ela não se aplica a
+Máximas ou Manejos. Não use o CE4 como
+justificativa para aplicar esse benefício a
+montagens que sua descrição exclui.
+Em Restrição corporal: participação e cuidados,
+Nilo reúne Rede Remota, Corpo Quebradiço,
+entidade e comunicação num caso completo. O
+exemplo conserva os limites de sentidos, ações e
+atendimento.
+
+11
+

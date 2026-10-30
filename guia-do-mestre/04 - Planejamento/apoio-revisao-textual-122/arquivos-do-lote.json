@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+    "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+    "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+    "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md"
+  ],
+  "casos": [
+    {
+      "id": "s072",
+      "fonte_original": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/72-sineiro-consulta-e-doma.md",
+      "id_prova": "doma"
+    },
+    {
+      "id": "s073",
+      "fonte_original": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/73-ensaio-guiado-do-sineiro.md",
+      "id_prova": "ensaio"
+    },
+    {
+      "id": "s075",
+      "fonte_original": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "id_prova": "dupla"
+    },
+    {
+      "id": "s076",
+      "fonte_original": "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/76-confronto-de-ren-e-sora.md",
+      "id_prova": "confronto"
+    }
+  ]
+}

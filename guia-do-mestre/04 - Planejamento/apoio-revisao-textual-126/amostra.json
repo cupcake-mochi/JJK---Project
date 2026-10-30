@@ -1,0 +1,96 @@
+{
+  "registro": 126,
+  "fontes": [
+    {
+      "id": "duvidas",
+      "fonte_id": "s033",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+      "fonte_original": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+      "titulo": "Dúvidas sobre técnicas e capacidades",
+      "sha256": "747f92d52143c5cf0abe6fe6cee0b98146ec7f1b448360d51f71b432a0d59456",
+      "sha256_original": "e427d9094f21d3866af8f8af0076ef43a2af6cffd63d4e7d9a30aa2476c6c5b1"
+    },
+    {
+      "id": "mescla",
+      "fonte_id": "s093",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "fonte_original": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+      "titulo": "Ampliar uma mescla e trocar sua Forma",
+      "sha256": "c406420c383c281fa5b335b52b6b1cb1f70b879be79f07fe88cb05797ef3d99f",
+      "sha256_original": "78e80421a6ff01f1f768b6c75032d0d38befd76529c4808ef07c4048f8c693b8"
+    },
+    {
+      "id": "repetir",
+      "fonte_id": "s094",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+      "fonte_original": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+      "titulo": "Repetir Melhorias e definir Restrições",
+      "sha256": "7c015fd9eef146f3ae505a6d9dd525628f269e8e35946c3265ea4cbc029cc8a3",
+      "sha256_original": "2098fafd9491592093557614b09691fc7d79784d5d93188e9c64a9bd4b889eae"
+    },
+    {
+      "id": "cancelar",
+      "fonte_id": "s095",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "fonte_original": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+      "titulo": "Efeitos de cena e cancelamento",
+      "sha256": "2fd753c182b0c2ef99f63c62b05cbf78759c015998bf0a7cd3d363234202b0da",
+      "sha256_original": "c8af6538c1055bbd18e50c31f2c01832f93e0db2633fa82a8273e4958330c48e"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-126/prova-textual.html",
+  "html_sha256": "13bab96e2797f6850d4e6be33b4852b5ecc112d7825f1217ad7575b5671f96cf",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-126/output/pdf/Ciclo-Maldito-Tecnicas-Mesclas-e-Limites-Revisao-Textual.pdf",
+  "pdf_sha256": "5ff7150779652ee3dfe676cf29fdace297e322278248d811ae97539c474870b3",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 616
+    },
+    {
+      "pagina": 2,
+      "palavras": 695
+    },
+    {
+      "pagina": 3,
+      "palavras": 516
+    },
+    {
+      "pagina": 4,
+      "palavras": 558
+    },
+    {
+      "pagina": 5,
+      "palavras": 637
+    },
+    {
+      "pagina": 6,
+      "palavras": 567
+    },
+    {
+      "pagina": 7,
+      "palavras": 535
+    },
+    {
+      "pagina": 8,
+      "palavras": 649
+    },
+    {
+      "pagina": 9,
+      "palavras": 573
+    },
+    {
+      "pagina": 10,
+      "palavras": 596
+    },
+    {
+      "pagina": 11,
+      "palavras": 602
+    },
+    {
+      "pagina": 12,
+      "palavras": 407
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

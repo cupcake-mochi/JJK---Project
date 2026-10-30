@@ -1,0 +1,1664 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+CONSULTA DO MESTRE
+
+Ofícios, fabricação e reparos
+Leia esta seção para conduzir um trabalho: fabricar
+uma peça, preparar um documento, prestar um
+serviço ou recuperar um objeto danificado. Use a
+ficha de projeto para trabalhos que precisem
+continuar entre cenas ou mestres.
+Comece pelo resultado que o personagem procura.
+“Vou usar Forja” informa o conhecimento. “Quero
+substituir a dobradiça partida para a caixa fechar
+novamente” permite verificar o material, as
+ferramentas e o trabalho necessário.
+
+Treino, ferramentas e materiais
+O treino em Ofício permite executar a prática
+aprendida, dentro dos meios disponíveis.
+Ferramentas, materiais, informações e acesso ao
+local continuam necessários. Um estojo portátil e
+uma oficina completa podem permitir trabalhos
+diferentes.
+Escolha o Ofício pelo trabalho que precisa ser feito.
+Caligrafia pode reproduzir uma inscrição; conhecer
+o significado dela pode depender de Ocultismo ou
+Religião. Burocracia prepara um pedido no formato
+exigido; isso não obriga uma instituição a aproválo. Se a informação necessária já foi obtida, não
+peça outro teste apenas para passar por todas as
+competências relacionadas.
+No teste de Ofício treinado, some
+atributo da tarefa + Maestria ao d20, com os
+demais modificadores aplicáveis. Use o atributo
+padrão nas aplicações habituais. Quando a tarefa
+exigir outra capacidade, informe a mudança antes
+da rolagem. A perícia conserva seu atributo fixo;
+essa flexibilidade pertence aos Ofícios.
+Exemplo do Livro de Regras 1.0. Rina tem
+Arrombamento treinado, Destreza 4, Inteligência 2
+e Maestria 1. Manipular uma tranca mecânica usa
+bônus +5. Analisar seu mecanismo eletrônico com
+ferramentas adequadas pode usar Inteligência,
+resultando em +3. Contra CD 14, precisa tirar 9 ou
+11, respectivamente. A abordagem muda o trabalho
+realizado, não apenas o número que a jogadora
+prefere usar.
+Sem treino, um Ofício normalmente não permite
+tentativa. Uma improvisação simples pode ser
+autorizada pelo mestre, com condições anunciadas,
+usando apenas atributo. Dirigir um carro
+automático por um trecho desimpedido é uma
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+possibilidade já exemplificada no livro. Isso não
+habilita perseguições, consertos de motor ou todas
+as aplicações de Condução.
+Os casos de ferramentas mostram um kit realmente
+conectado, uma fechadura com duas mãos e tempo
+por tentativa e uma falha que conserva as gazuas.
+Instalar um apoio ou abrir uma tranca segue suas
+regras; não exige transformar toda tarefa breve em
+projeto de fabricação.
+
+Combine o projeto antes de começar
+Parte
+
+O que precisa ficar claro
+
+Resultado
+
+Produto, quantidade e função. Se
+houver ficha, qual versão será
+entregue.
+
+Conhecimentos
+
+Ofício, treino, receita, modelo ou
+informação necessários.
+
+Recursos
+
+Materiais, ferramentas, oficina,
+autorização e orçamento.
+
+Trabalho
+
+Dedicação necessária e etapas que
+podem ser separadas.
+
+Espera
+
+Entrega de componente, secagem ou
+outro prazo realmente pertinente.
+
+Risco
+
+Obstáculo, teste quando necessário e
+consequência anunciada de falha.
+
+Entrega
+
+Como reconhecer a conclusão e
+registrar o que mudou.
+
+Uma compra do catálogo pode ajudar a reconhecer
+o produto, mas seu preço não determina
+automaticamente o custo de fabricação. Informe o
+orçamento do projeto. Não há desconto universal
+nem lucro garantido pela diferença entre materiais
+e venda.
+O mesmo vale para a duração. Reparar um fecho e
+reconstruir uma peça inteira podem exigir tempos
+diferentes, mesmo quando pertencem ao mesmo
+equipamento. Explique o trabalho envolvido antes
+de fixar o prazo.
+Quando não houver referência pronta, compare
+com um projeto semelhante já resolvido pela mesa.
+Anote o que mudou: quantidade, precisão, material,
+meios ou partes aproveitáveis. O registro ajuda a
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+tratar pedidos semelhantes de forma consistente.
+Ele não transforma uma decisão local numa tabela
+universal.
+
+Decida se precisa de teste
+Trabalho rotineiro, com meios adequados e sem
+risco relevante, termina quando o projeto é
+cumprido. O tempo e os materiais são custos
+suficientes para muitas tarefas. Não é necessário
+inventar uma chance de estragar cada refeição ou
+costura.
+Peça teste quando houver incerteza e a falha puder
+mudar a situação. Diga qual obstáculo ele resolve:
+copiar um traço difícil, trabalhar antes de uma
+entrega urgente ou adaptar uma peça irregular. Use
+a CD específica quando existir e a orientação de
+Dificuldade nos demais casos.
+Uma rolagem resolve a tarefa declarada. Não role a
+cada hora para acumular chances de falha. Divida o
+projeto em testes separados apenas quando houver
+obstáculos distintos, com resultados próprios.
+Na falha, aplique o que foi anunciado. Atraso,
+retrabalho e perda de material são consequências
+diferentes. Uma falha não destrói automaticamente
+todo o estoque nem aumenta o preço de outro
+serviço sem relação com o problema.
+
+Caso: etiquetas para um depósito
+Este é um orçamento ilustrativo para um serviço
+comum. Os valores abaixo pertencem ao exemplo
+e não estabelecem uma tabela de Caligrafia.
+O depósito precisa de doze etiquetas legíveis e
+resistentes ao manuseio, para identificar
+recipientes já catalogados. A lista foi fornecida pela
+responsável. As etiquetas não são selos
+sobrenaturais e não identificam o conteúdo por
+conta própria.
+O projeto combina Caligrafia treinada, um estojo
+adequado, placas e tinta por ¥1.200 e duas horas de
+trabalho. O orçamento cobre os materiais desse
+lote. Copiar os nomes é rotineiro; a dificuldade está
+em reproduzir um símbolo de controle muito
+estreito que precisa caber no suporte disponível
+antes da retirada dos recipientes.
+Antes de começar, o mestre informa CD 14 para
+essa reprodução. Uma falha exige preparar
+novamente a superfície e refazer o símbolo,
+gastando mais trinta minutos, sem nova perda de
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+material. Cada nova tentativa exige esse retrabalho;
+a partida marcada pode ocorrer antes de a tarefa
+terminar.
+Com Destreza 3 e Maestria 1, a executora tem +4.
+Tira 9: total 13, falha. Os nomes já corretos
+permanecem feitos. Se aceitar o atraso, trabalha os
+trinta minutos e tenta novamente. Com 12, totaliza
+16 e conclui o símbolo. O lote consumiu duas horas
+e meia e ¥1.200.
+A entrega continua sendo doze etiquetas comuns.
+O teste bem-sucedido não concede propriedade
+mágica nem valida uma informação falsa na lista.
+Se houver dúvida sobre os recipientes, investigar o
+conteúdo é outra tarefa.
+
+Caso: um reparo interrompido
+O Livro de Regras 1.0 apresenta o Traje de Rina
+com uma parte rasgada que prende sua proteção. O
+projeto pede Alfaiate, ferramentas, tecido e fechos
+de ¥3.000, com quatro horas de trabalho. É um
+reparo conhecido e sem risco relevante, portanto
+não exige teste.
+Rina completa duas horas e precisa sair. Registre o
+estado da peça, os materiais já consumidos e as
+duas horas restantes. Não conclua o serviço só
+porque a jogadora encerrou sua participação
+naquele momento. Tampouco apague o progresso
+apenas porque ela interrompeu o trabalho.
+Na retomada, confira onde estão a peça, as
+ferramentas e os materiais. Se continuam
+disponíveis e o projeto permite a interrupção,
+faltam as mesmas duas horas. Uma exigência de
+continuidade precisa ser comunicada no projeto,
+antes de ser usada como consequência.
+Ao terminar, o Traje recupera a função combinada.
+Sua proteção não aumenta. Se Rina quiser um
+degrau superior, esse é outro pedido, sujeito às
+regras e a um projeto pertinente.
+
+Ajuda e divisão de trabalho
+Uma pessoa pode contribuir segurando uma peça,
+oferecendo um modelo ou executando uma etapa
+que saiba fazer. Use Ajudar quando seus requisitos
+forem cumpridos e houver um teste em que a
+contribuição se aplique. Não some
+automaticamente todos os bônus dos participantes.
+Ajuda não divide o prazo por dois. Se duas pessoas
+puderem executar partes ao mesmo tempo, registre
+quais partes e o tempo de cada uma. Se ambas
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+precisarem do único equipamento disponível,
+existe uma dependência que impede aquela
+simultaneidade.
+
+Conserto não renova usos gastos nem recupera
+poder esgotado por Desgaste. Consulte
+Ferramentas e objetos amaldiçoados.
+
+O mesmo intervalo não pode ser registrado como
+dedicação integral a dois projetos incompatíveis. Já
+uma espera sem trabalho pode permitir outra
+atividade. Confira se o primeiro projeto exige
+supervisão: esperar uma entrega de material é
+diferente de acompanhar um processo que não
+pode ficar sozinho.
+
+O projeto do Anel de Testemunho separa a base
+feita pelo personagem do processo especial
+contratado. Mostra fonte sobrenatural, receita
+específica, orçamento, falha, material reaproveitado
+e retomada, sem usar as regras de criação de
+entidades.
+
+Reparar, reconstruir e melhorar
+Pedido
+
+O que avaliar
+
+Manutenção
+comum
+
+Limpeza, afiação, costura ou troca
+simples; pode ser rotina sem teste.
+
+Reparo
+
+Recuperar uma função anterior com
+peças aproveitáveis.
+
+Reconstrução
+
+Identificar o que restou e os
+componentes, conhecimentos e
+oficina necessários para refazer a
+peça.
+
+Solução
+provisória
+
+Definir a função recuperada, a
+duração e as condições em que
+funciona.
+
+Melhoria
+
+Avaliar a alteração desejada e sua
+permissão antes de preparar outro
+projeto.
+
+Um remendo provisório não ganha funcionamento
+completo só porque o teste passou. Diga, por
+exemplo, se o fecho volta a manter a caixa fechada
+durante o transporte, mas ainda precisa de
+substituição antes de uso repetido. Evite criar uma
+penalidade escondida depois de entregar o reparo.
+Uma ferramenta amaldiçoada pode ter dano na
+base física, no efeito ou em ambos. Restaurar o
+poder exige o processo especial previsto para ele.
+
+Trabalho, tratamento e aprendizado
+Corpos e criaturas têm regras próprias de
+tratamento. O projeto de consertar um objeto não
+recupera automaticamente PV, Integridade ou
+condições. Mesmo no Corpo Amaldiçoado, siga o
+reparo de sua Origem, incluindo Ofício compatível
+e os limites desse reparo. A aparência do corpo não
+o transforma num item do catálogo.
+Concluir um trabalho também não concede treino
+permanente, especialização, XP de missão ou
+bônus de treinamento por associação. O Livro de
+Regras 1.0 informa as vias de aquisição.
+Treinamentos específicos ainda não têm regras
+próprias aprovadas; não os presuma a partir de um
+projeto concluído.
+Na guilda, um projeto pode continuar entre
+mestres se o registro mostrar o que foi combinado
+e o que já aconteceu. Na campanha fechada, basta
+conservar essas informações na mesma linha de
+tempo. Para prazos, interrupções e compromissos,
+consulte Atividades e tempo entre missões.
+O reparo de Ena mostra as regras de reparo do
+Corpo Amaldiçoado, com consumo local de
+materiais declarado antes e sem transformar PV em
+horas de um projeto comum.
+
+CONSULTA DO MESTRE
+
+Ferramentas e objetos amaldiçoados
+Consulte esta seção ao entregar uma ferramenta
+amaldiçoada ou preparar um objeto perigoso para
+uma missão. No Livro de Regras 1.0, ferramenta e
+objeto amaldiçoado têm funções diferentes: a
+ferramenta serve como equipamento; o objeto pode
+continuar produzindo perigo mesmo guardado.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Apresente a ferramenta
+Uma ferramenta parte de um item comum e pode
+carregar um efeito especial. O grau expressa a
+importância do efeito. Não acrescenta
+automaticamente ataque, dano, Defesa ou outra
+propriedade.
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Antes de entregar uma peça conhecida, forneça
+base, grau, efeito, requisitos, Volume e usos. Um
+Traje 1 de grau 2 conserva a proteção de Traje 1.
+Uma roupa comum com poder continua sem
+oferecer a proteção de um Traje.
+O nível exigido pertence ao efeito: ferramentas de
+grau 2 exigem nível 7; grau 1 e especial, nível 13.
+Graus 3 e 4 não têm esse mínimo, e grau 4 não
+possui efeito especial. Patente e nível são registros
+diferentes. Possuir a peça não promove o
+personagem e uma patente alta não substitui o
+nível do efeito.
+O mestre decide quando o item aparece, pode ser
+emprestado ou está à venda. Cumprir o nível
+mínimo permite usar o efeito, mas não garante
+aquisição. Um preço comum do catálogo também
+não inclui uma versão amaldiçoada.
+
+Usar a ferramenta
+Armas e escudos respeitam as mãos exigidas. Há
+até dois itens vestidos com efeitos especiais, sendo
+no máximo uma vestimenta: roupa, Traje ou
+Revestimento. O outro pode ser um acessório; sem
+vestimenta com efeito, podem ser dois acessórios.
+Não existe sintonização, descanso ou custo geral de
+PE para habilitar uma ferramenta. Use os tempos
+de sacar, vestir e preparar correspondentes. Uma
+roupa ou acessório com efeito exige Ação Padrão
+para vestir e preparar e outra para retirar,
+resolvendo antes os impedimentos físicos.
+Os usos gastos acompanham a ferramenta. Além
+disso, cópias do mesmo efeito compartilham o
+limite por personagem. Uma segunda cópia não
+permite repetir naquela cena um efeito de uma vez
+por cena já gasto. Registre tanto o uso do item
+quanto o da ficha; os dois precisam estar
+novamente disponíveis.
+Caso. Uma personagem recebeu uma Kunai Fiel. O
+retorno acontece depois de resolver seu arremesso
+no próprio turno, se a mão que lançou estiver livre
+e houver caminho físico desimpedido dentro da
+distância máxima daquele arremesso. O efeito não
+concede outro ataque nem permite chamar a kunai
+de qualquer lugar. Se ficar presa ou o percurso
+estiver bloqueado, ela permanece onde está.
+Essa explicação permite ao jogador usar a
+capacidade sem consultar o mestre sobre o
+significado de “voltar” em cada arremesso. Se
+mudar a base ou o funcionamento, confira a
+compatibilidade ou faça uma nova avaliação.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Identificar uma peça desconhecida
+Prepare informações que possam ser descobertas
+por meios concretos. A origem, o exame do item,
+um registro de uso ou alguém que o conheça
+podem esclarecer partes diferentes. Perceber
+energia não revela automaticamente toda a ficha.
+Separe o que já é evidente do que precisa ser
+investigado. Uma testemunha pode saber que a
+arma voltou à mão de alguém sem conhecer todas
+as condições do retorno. Um registro do fabricante
+pode esclarecer a mão livre e os obstáculos. Não
+transforme uma hipótese da personagem em regra
+verdadeira do objeto.
+Peça testes quando houver incerteza e
+consequência. Se o responsável conhece a peça e
+entrega sua ficha, não imponha um descanso de
+identificação: o Livro de Regras 1.0 não exige isso
+para toda ferramenta.
+Quando houver risco de experimentar, apresente o
+que a personagem pode reconhecer antes da
+decisão. A descrição pode sinalizar energia instável
+ou uma contenção danificada sem revelar todos os
+detalhes. O risco vem da ficha preparada; não deve
+ser inventado depois de descobrir como o jogador
+testou o item.
+
+Criar a ficha e fabricar a peça
+Para uma ferramenta nova, comece pela função,
+escolha uma base compatível e defina um efeito.
+Consulte Avaliar técnicas e criações para comparar
+resultado, ação, alvos, alcance, duração, frequência
+e limites. O catálogo de ferramentas oferece
+referências próprias de grau e aplicação.
+Aumentar o grau não amplia livremente um efeito
+existente. Uma peça especial é singular, com
+história e limites próprios; não ganha um segundo
+efeito por ser especial.
+A ficha aprovada informa o que a ferramenta faz.
+Fabricá-la exige outro registro: base física, fonte da
+energia, pessoas capazes de trabalhar com ela,
+materiais, prazo e riscos do processo especial. Forja
+ou Alfaiate, isoladamente, não concedem a criação
+de poderes.
+Uma receita precisa definir o efeito final e respeitar
+as regras do equipamento. Obter a receita pode ser
+parte da campanha se isso fizer sentido para o
+projeto. Não precisa ser uma missão obrigatória
+para toda criação.
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+O reparo também distingue material e poder.
+Reconstituir uma lâmina não recupera
+automaticamente uma função sobrenatural perdida.
+O projeto deve dizer o que será restaurado. Usos já
+consumidos e poder encerrado por Desgaste não
+voltam por conserto comum.
+Anel de Testemunho reúne ficha experimental,
+comparação de grau, pistas de identificação e
+processo de fabricação completo. A marca da
+ferramenta registra uma abertura; não contém
+objetos amaldiçoados.
+
+Acompanhar o Desgaste
+Desgaste é uma propriedade registrada na ficha que
+permite antecipar o uso de um efeito antes do nível
+mínimo. O portador não a acrescenta por iniciativa
+própria. Grau 2 permite duas missões de uso; grau 1
+ou especial, três. No grau 3, uma missão torna o
+efeito temporário, pois não há nível mínimo a
+dispensar. Grau 4 não recebe Desgaste.
+
+Marque uma missão no primeiro uso do efeito
+dentro dela. O efeito permanece disponível até seu
+fim, conservando os limites de cena ou descanso.
+Um benefício permanente conta quando é recebido;
+transportar a peça guardada não gasta uma missão.
+Exemplo de acompanhamento. Uma ferramenta de
+grau 2 começa com duas missões disponíveis. Na
+missão A, seu efeito é usado e depois ela muda de
+portador: continua sendo uma única missão
+consumida. Ao encerrar A, resta uma. Na missão B,
+fica guardada sem oferecer benefício e conserva
+essa missão. Na missão C, o efeito é usado:
+funciona até o fim de C, dentro de sua frequência.
+Depois disso, esgota.
+Defina antes da entrega se a peça vira item comum
+ou se quebra ao esgotar. Não faça sua perda
+depender de uma regra anunciada apenas no último
+uso. Sessões adicionais dentro da mesma missão
+não consomem novas missões de Desgaste.
+
+Preparar um objeto perigoso
+Objetos amaldiçoados possuem efeitos próprios. Eles não recebem automaticamente o catálogo de
+ferramentas. Para uma missão de guarda, escolta ou contenção, prepare:
+Campo
+
+Informação necessária
+
+Objeto e recipiente
+
+O que será transportado, seu Volume e os cuidados físicos.
+
+Efeito ou perigo
+
+O que acontece, em quais condições e como pode ser percebido.
+
+Selo
+
+Duração e alcance definidos para aquele objeto; sinais de perda da proteção.
+
+Conhecimento disponível
+
+Quem conhece o perigo e quais registros podem ser consultados.
+
+Entrega
+
+Pessoa autorizada a receber e local adequado.
+
+Intervenção
+
+O que examinar, remover ou destruir realmente permite e exige.
+
+Um objeto sem selo atrai maldições para suas
+proximidades, mas o Livro de Regras 1.0 não
+fornece distância ou frequência universal de
+encontros. Defina a situação com base no objeto,
+lugar e maldições presentes. Uma caixa comum não
+substitui o selo.
+Um objeto preparado como amuleto pode usar um
+selo para afastar maldições. A proteção enfraquece;
+seus limites precisam ser definidos. Ela não
+concede imunidade a ataques nem proíbe
+automaticamente qualquer aproximação.
+Caso de transporte. O responsável informa que o
+selo resistirá até a entrega prevista e explica o
+cuidado necessário para mantê-lo. Os jogadores
+podem decidir investigar o conteúdo. Se retirar o
+selo encerra aquela proteção, esse risco conhecido
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+deve estar claro antes da escolha. Abrir um
+recipiente não significa retirar o selo, salvo se a
+preparação do objeto tiver estabelecido essa
+relação.
+Ingerir um objeto desconhecido não concede
+automaticamente poderes, nova Origem ou
+controle da presença contida. Se essa possibilidade
+estiver no cenário, prepare suas consequências e
+comunique os riscos acessíveis à personagem. Uma
+alteração da ficha deve respeitar o acordo e as
+regras pertinentes; a ingestão não substitui esse
+processo.
+Destruir o recipiente e destruir o objeto também
+são coisas distintas. Condições próprias de
+destruição precisam constar da preparação. Não
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+use as regras de quebrar um item comum como
+solução automática para qualquer objeto
+amaldiçoado.
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+A Pastilha do Último Aviso é uma preparação
+experimental completa: alcance e prazo locais,
+aviso de risco, renovação, ingestão e neutralização.
+Suas consequências e formas de encerramento são
+conhecidas antes da escolha.
+
+CONSULTA DO MESTRE
+
+Uma ferramenta nova: Anel de Testemunho
+Use este caso para preparar a ficha de uma
+ferramenta, deixar o grupo descobrir seu
+funcionamento e contratar sua fabricação. Anel de
+Testemunho é um exemplo experimental do Guia.
+Seu efeito, grau proposto, receita, orçamento e
+prazos pertencem a este projeto. O Livro de Regras
+1.0 fornece as regras de equipamento e fabricação
+usadas para avaliá-lo.
+
+A função da peça
+
+Anel de Testemunho — acessório pequeno, grau 3
+proposto. Efeito: Marca de abertura. A base é um
+anel comum de metal, com 0,1 Volume. Não
+concede proteção nem bônus de atributo, ataque ou
+teste. O grau 3 não exige nível mínimo para seu
+efeito. É preciso vesti-lo e prepará-lo com Ação
+Padrão, respeitando o limite de dois itens vestidos
+com efeitos especiais; apenas um desses dois pode
+ser vestimenta.
+
+Kenji quer conferir se uma caixa foi aberta depois
+de fechada. A proposta é deixar um aviso na
+própria caixa. O anel não transmite notícias a
+distância, não impede a abertura e não identifica
+quem mexeu no recipiente.
+Campo
+
+Ficha experimental
+
+Ativação
+
+Com o anel preparado, dedique um minuto contínuo a tocar o fecho de um recipiente fechado e
+acessível. Não gasta PE. Se interrompido, não cria a marca.
+
+Destinatário
+
+Um único fecho que você consiga tocar. A marca atravessa a junção entre tampa e recipiente. Não
+afeta criaturas nem objetos cuja posse esteja sendo disputada naquele momento.
+
+Resultado
+
+Aparece um traço pálido. Se a junção marcada se separar, o traço fica escuro, mesmo que o
+recipiente seja fechado novamente.
+
+Informação
+
+Quem examinar o traço visível distingue pálido de escuro. Não recebe horário, identidade, conteúdo
+da caixa ou informação sobre outras aberturas.
+
+Duração
+
+Até 24 horas, enquanto o anel continuar vestido e preparado por quem fez a marca.
+
+Encerramento
+
+Termina ao retirar o anel, destruir o fecho marcado, concluir outra marca ou alcançar as 24 horas. O
+traço desaparece.
+
+Quantidade
+
+Uma marca ativa por anel e por personagem. Concluir outra com esse efeito encerra a anterior,
+mesmo usando uma cópia; não existe reserva de marcas.
+
+Retomada
+
+Pode repetir o minuto quando cumprir os requisitos. A ficha não tem usos por descanso.
+
+Desgaste
+
+Não tem. O efeito não recebe missões de uso temporário.
+
+A distância não transmite um aviso ao portador.
+Ele precisa voltar a observar a marca ou receber o
+relato de alguém. Uma perfuração por outro lado
+da caixa não separa a junção marcada e não muda
+sua cor. Uma tinta ou pano pode esconder o traço.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+O poder também não certifica que um desenho
+comum apresentado por outra pessoa seja uma
+marca verdadeira.
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Marca não é selo de contenção. Ela registra a
+abertura daquele fecho; não afasta maldições nem
+protege um objeto amaldiçoado. Esse limite deve
+acompanhar a peça quando mudar de portador.
+
+Por que propor grau 3
+O Medalhão de Presságio publicado fornece um
+aviso limitado de presença. Marca de abertura
+também entrega uma informação simples, mas
+exige preparo e consulta ao próprio objeto. Não
+revela identidades nem melhora uma rolagem. Essa
+comparação sustenta propor grau 3; não prova
+equilíbrio ou aprova outras capacidades de
+vigilância. Acrescentar aviso remoto, múltiplas
+marcas ou identificação de intrusos exigiria outra
+avaliação.
+
+Exemplo de uso
+Às 10h, Kenji prepara o anel e dedica um minuto ao
+fecho da caixa A. O traço fica pálido. Às 11h, uma
+funcionária abre a tampa para retirar um
+formulário: o traço fica escuro. Kenji não percebe
+isso enquanto estiver em outra sala. Ao retornar às
+11h20, vê o traço e sabe que a junção foi aberta;
+precisa conversar ou investigar para descobrir o
+restante.
+Se ele preparar a caixa B, a marca de A termina
+quando a nova ficar pronta. Se retirar o anel antes
+disso para vestir outro acessório, a marca atual
+termina. Nenhuma dessas situações deixa uma
+mensagem armazenada para recuperar depois.
+
+Identificar o exemplar da oficina
+Antes de fabricar a peça de Kenji, o grupo encontra um exemplar na Oficina Hidaka. Prepare estas
+informações:
+Meio disponível
+
+O que esclarece
+
+Exame comum
+
+O anel tem o emblema da oficina. Duas caixas de demonstração mostram traços pálido e
+escuro. Isso não revela sozinho a regra do efeito.
+
+Caderno junto da
+bancada
+
+A página correspondente ao emblema descreve o minuto de preparo, a junção marcada, uma
+marca por vez e o fim ao retirar o anel. O texto está legível; sua leitura não pede teste.
+
+Aya, responsável pela
+oficina
+
+Entrega a ficha completa e explica que o poder não contém maldições. Conhece a peça e não
+está ocultando informação neste caso.
+
+Demonstração
+consentida
+
+Kenji prepara o exemplar numa caixa vazia, abre a tampa e vê a mudança. Depois retira o anel
+e observa o traço desaparecer.
+
+Perceber energia no anel não substitui essas
+descobertas. A demonstração usa uma caixa
+comum e não exige abrir um objeto perigoso. Se o
+caderno faltar ou a oficina estiver abandonada,
+prepare outros meios de obter a informação; não
+transforme uma rolagem malsucedida em
+conhecimento verdadeiro sobre toda a ficha.
+
+Contratar a fabricação
+No exemplo, a mesa aceita testar essa versão local e
+Kenji contrata uma peça. A aprovação da ficha não
+entrega o anel pronto. A oficina dispõe de uma
+
+receita específica para Marca de abertura, de resina
+amaldiçoada preparada para ela e de Aya, que sabe
+conduzir esse processo. Esses recursos foram
+estabelecidos no cenário antes do contrato.
+Kenji tem treino em Forja, ferramentas adequadas
+e acesso à bancada. Ele pode produzir a base. Seu
+treino não lhe concede a receita nem a capacidade
+de fixar qualquer poder num objeto. O processo
+especial abaixo vale para esta peça; não é uma regra
+geral para encantar itens.
+
+Parte do projeto
+
+Acordo feito antes do gasto
+
+Entrega
+
+Um Anel de Testemunho, conforme a ficha acima, pertencente a Kenji.
+
+Base física
+
+Metal e molde por ¥4.000; 6 horas de Forja de Kenji. Trabalho rotineiro com meios adequados,
+sem teste. Pode ser dividido em dois períodos de 3 horas.
+
+Fonte
+sobrenatural
+
+Um lote de resina amaldiçoada da oficina, preparado para receber esta inscrição: ¥6.000. Não é
+uma reserva de PE utilizável pela ficha.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Parte do projeto
+
+Acordo feito antes do gasto
+
+Outros
+consumíveis
+
+Tinta e suportes de inscrição por ¥2.000.
+
+Serviço de Aya
+
+¥18.000 pela aplicação inicial de 8 horas e, se necessária, uma retomada de até 4 horas. O contrato
+não transfere sua receita.
+
+Teste especial
+
+Ao concluir a aplicação inicial, Caligrafia CD 14, por Aya, para fixar a inscrição sem perder sua
+continuidade. Ela tem Destreza 3, Maestria 2 e treino: bônus +5.
+
+Falha anunciada
+
+A marca não se fixa. Resina, tinta e suportes dessa tentativa são consumidos. Base e ferramentas
+permanecem aproveitáveis; o anel ainda não tem o efeito.
+
+Nova tentativa
+
+Limpar, refazer a inscrição e conferir: 4 horas de Aya, com outro lote de resina e consumíveis de
+¥8.000. Teste normal de Caligrafia CD 14.
+
+Espera
+
+Depois de um teste bem-sucedido, 12 horas de secagem, sem dedicação ativa de Kenji ou Aya.
+Usar antes não entrega a ferramenta concluída.
+
+Prazo
+combinado
+
+Entrega em até quatro dias, com uma retomada e os recursos previstos. Falha posterior ou falta de
+material exige novo acordo antes de outro gasto.
+
+O primeiro orçamento é 4.000 + 6.000 + 2.000 +
+18.000 = ¥30.000. Kenji separa ¥40.000 e aceita
+previamente uma retomada de ¥8.000, caso
+necessária. A margem não autoriza gastos
+diferentes ou tentativas ilimitadas. Se abandonar
+depois da aplicação inicial, conserva a base; o
+contrato não devolve consumíveis e serviço já
+utilizados.
+
+As quatro horas foram escolhidas pelo trabalho de
+limpar o anel e refazer a inscrição. O retrabalho de
+50% e a vantagem na repetição dos projetos de
+entidades não são regras gerais de fabricação de
+ferramentas.
+
+Trabalho, falha e entrega
+Etapa
+
+O que acontece
+
+Registro
+
+Base
+
+Kenji trabalha 3 horas num dia e 3 no seguinte.
+
+Base concluída; 6 horas de dedicação da
+ficha e ¥4.000 em material.
+
+Aplicação
+inicial
+
+Aya trabalha 8 horas; rola 7 + 5 = 12, abaixo de CD 14.
+
+Efeito não fixado; primeiro lote de ¥8.000
+consumido. Base preservada.
+
+Retomada
+
+Com autorização já prevista no contrato, Aya usa o
+segundo lote e trabalha 4 horas; rola 12 + 5 = 17.
+
+Inscrição fixada; novo gasto de ¥8.000.
+
+Secagem
+
+O anel fica protegido na oficina por 12 horas.
+
+Passagem de tempo, sem descontar 12
+horas de dedicação.
+
+Entrega
+
+Aya confere a marca numa caixa de demonstração, retira
+o anel e o entrega a Kenji.
+
+Sem marca ativa; 0,1 Volume, ficha do
+efeito entregue, sem Desgaste.
+
+O gasto total foi ¥38.000; dos ¥40.000 separados,
+restam ¥2.000. Kenji trabalhou 6 horas e Aya, 12.
+Não se descontam as 18 horas da ficha de Kenji: ele
+não executou o serviço contratado. Se começou o
+ciclo com 28 horas próprias disponíveis, conserva
+22. A espera e a agenda da oficina ainda precisam
+caber nos dias da história.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Na campanha fechada, mantenha a mesma
+distinção entre trabalho, espera e serviço
+contratado, usando o tempo disponível naquela
+história. Nenhuma dessas contas obriga a adotar o
+ciclo administrativo da guilda.
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Registro do projeto: “Anel de Testemunho, versão
+experimental desta consulta; Kenji proprietário.
+Projeto concluído, ¥38.000 pagos; 6 h pessoais e 12
+h de Aya; secagem concluída. Sem marca ativa, 0,1
+Volume, sem Desgaste. Marca de abertura não é
+contenção.”
+CONSULTA DO MESTRE
+
+Empréstimo familiar e venda com condição
+Use estes casos para separar três coisas: acesso ao
+cofre, propriedade de um item e resultado de uma
+negociação. As habilidades Cofre da Família e
+Palavra Empenhada são publicadas no Livro de
+
+Regras 1.0. Pessoas, propostas comerciais e
+condições de devolução abaixo pertencem à
+campanha ilustrada.
+
+Uma peça do cofre
+Kenji é Descendente Zenin de nível 7, com patente reconhecida de Grau 3. Escolheu Cofre da Família e
+Palavra Empenhada: uma menor exclusiva e uma comum. Ele precisa de uma arma de arremesso para uma
+missão e pede uma Kunai Fiel, ferramenta publicada de grau 3.
+Conferência
+
+Resultado
+
+Concessão
+
+Cofre permite uma ferramenta emprestada por vez, até o grau de sua patente, respeitado o teto de grau
+1. Kenji não tem outra retirada.
+
+Patente
+
+Grau 3 permite a ferramenta de grau 3. Seu nível 7 não amplia a concessão para grau 2.
+
+Efeito
+
+Fiel é de grau 3 e não exige nível mínimo. A ficha conserva os requisitos da arma.
+
+Base
+
+Kunai: uma mão, 1d6 Perfurante, Longo Alcance 6/18 m, Oculta, Leve, sem Força mínima e 0,2
+Volume. Kenji tem treino para usá-la.
+
+Retorno
+
+Depois de resolver o arremesso no próprio turno, volta à mão que a lançou se estiver livre e houver
+caminho físico desimpedido dentro da distância máxima daquele arremesso. Não concede outro
+ataque.
+
+O responsável pelo cofre registra o empréstimo
+para a missão Entrega no anexo. A peça deve voltar
+no dia seguinte ao encerramento. Kenji precisa
+comunicar perda ou dano; não há multa automática
+estabelecida neste exemplo. O responsável
+confirma que o item está inteiro, sem Desgaste e
+sem consumíveis próprios.
+Ao retirar, a kunai sai da disponibilidade do cofre e
+entra no inventário de Kenji. Para trocar por outra,
+ele precisa voltar e devolver esta. Não pode deixar a
+arma com um companheiro e retirar uma segunda
+como se a primeira já tivesse sido devolvida. Um
+repasse durante a missão deve registrar o portador
+atual e conservar a responsabilidade combinada.
+Pedido fora da concessão: Kenji solicita também
+uma arma de grau 1. Sua patente atual não permite
+essa retirada. Palavra Empenhada não transforma o
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+pedido em negociação viável. Mesmo quando tiver
+patente suficiente, armas de grau 1 ainda exigirão
+feitos que justifiquem acesso e autorização do
+mestre; ferramentas especiais continuam fora do
+Cofre.
+
+Um objeto próprio para vender
+Depois do projeto descrito em Anel de
+Testemunho, Kenji decide vender seu anel, não a
+kunai emprestada. Tomo, responsável por um
+depósito de documentos, precisa conferir a
+abertura de caixas e examina a ficha experimental
+da peça.
+Não existe preço tabelado dessa ferramenta no
+Livro de Regras 1.0. Tomo oferece ¥18.000,
+considerando o uso que pretende fazer, a
+procedência conhecida e o estado do anel. A oferta
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+é desta negociação. Não é uma porcentagem
+universal de revenda nem precisa cobrir o custo de
+fabricação.
+
+serviço. Descumprir um compromisso pode afetar a
+relação com Tomo; não cria uma punição mecânica
+que não estava combinada.
+
+Kenji pede ¥24.000. Tomo poderia pagar esse valor,
+mas quer mais segurança sobre o uso do efeito por
+sua equipe: a negociação é viável. O mestre informa
+Persuasão CD 14 para obter o aumento sem uma
+obrigação adicional. Kenji tem bônus +4, rola 8 e
+totaliza 12. O pedido falha; a oferta de ¥18.000
+continua disponível até as 18h do dia seguinte,
+conforme Tomo já informou.
+
+Cumprir o acordo e receber
+
+Usar Palavra Empenhada
+Kenji ainda não usou Palavra Empenhada desde o
+último descanso longo. Após a falha, oferece sua
+palavra e reputação. O mestre apresenta a
+condição:
+“Pago ¥24.000 se você entregar o anel aqui até
+amanhã às 18h e dedicar duas horas a ensinar a
+equipe a preparar, consultar e encerrar a marca
+nas caixas vazias do depósito. A ficha e os
+limites precisam acompanhar a entrega.”
+É uma obrigação concreta: local, prazo, duração,
+tarefa e destinatário estão definidos. Não inclui
+enfrentar uma ameaça, revelar a receita de Aya ou
+garantir que nenhuma caixa será violada.
+Escolha
+
+Consequência anunciada
+
+Aceitar e
+cumprir
+
+Conclui a venda por ¥24.000, sem
+repetir o teste de Persuasão.
+
+Recusar a
+condição
+
+Não recebe o aumento. Pode aceitar
+a oferta de ¥18.000 ainda válida ou
+conservar o anel.
+
+Aceitar, mas
+não cumprir no
+prazo
+
+O acordo de ¥24.000 não é
+concluído. Qualquer outra entrega
+ou preço precisa ser negociado.
+
+Registre o uso de Palavra Empenhada ao recorrer à
+habilidade. A condição apresentada não é uma
+Promessa sobrenatural: recusá-la não retira PE,
+aplica uma maldição ou obriga Kenji a prestar
+
+Kenji aceita. No dia seguinte, entrega o anel e
+dedica as duas horas combinadas à demonstração.
+Os meios estão disponíveis e a tarefa é rotineira; o
+mestre não acrescenta outro teste social para
+decidir novamente o mesmo acordo. Tomo paga
+¥24.000 ao fim da instrução.
+O anel custou ¥38.000 na versão com falha do
+projeto anterior. Revendê-lo por ¥24.000 não gera
+lucro: a diferença é ¥14.000 a menos que o gasto.
+Dos ¥2.000 que restavam, o saldo passa a ¥26.000.
+Esse saldo é dinheiro atual, não lucro do trabalho.
+Se tudo ocorreu no mesmo ciclo e Kenji ainda tinha
+22 horas disponíveis, a instrução pessoal de duas
+horas deixa 20. Receber dinheiro não repõe essa
+dedicação. Tomo recebe o anel sem marca ativa;
+Kenji o retira do próprio inventário. O novo
+portador terá de vestir e preparar a ferramenta
+antes de usá-la.
+
+Devolver a kunai e registrar a venda
+Kenji devolve separadamente a Kunai Fiel ao cofre
+no prazo combinado. O registro informa que voltou
+inteira e sem Desgaste; retira seus 0,2 Volume do
+inventário. O dinheiro da venda do anel não
+encerra nem substitui essa devolução.
+Registro final: “Kunai Fiel devolvida ao cofre. Anel
+de Testemunho vendido a Tomo por ¥24.000 após
+duas horas de instrução, condição de Palavra
+Empenhada cumprida; uso da menor marcado até
+recuperação pelo descanso longo. Saldo financeiro
+¥26.000; dedicação 20 h, se mantido o ciclo do
+exemplo. Anel retirado da ficha, sem marca ativa na
+entrega.”
+Em outra campanha, o comprador pode ter
+necessidades e valores diferentes. Siga os mesmos
+passos: verificar propriedade, apresentar uma
+oferta possível, definir o que o teste resolverá e
+registrar a condição que a pessoa pode aceitar ou
+recusar.
+
+CONSULTA DO MESTRE
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Um objeto selado: a Pastilha do Último Aviso
+Este exemplo mostra como preparar o transporte e
+o exame de um objeto perigoso, com seus riscos
+definidos antes das escolhas do grupo. A Pastilha,
+seu selo e suas consequências são um exemplo
+experimental de missão. O Livro de Regras 1.0
+autoriza preparar os efeitos particulares do objeto;
+não fornece estes números como padrão para todos
+os objetos amaldiçoados.
+
+O que será transportado
+A Pastilha parece um pequeno disco de açúcar
+escurecido, retirado de uma estação abandonada.
+Conserva o eco amaldiçoado de um aviso de
+evacuação. Não abriga uma pessoa nem oferece
+uma opção de encarnação neste caso.
+
+Ela está envolta numa faixa de contenção e
+guardada em um estojo rígido. O conjunto ocupa
+0,5 Volume, valor escolhido para este exemplo: 0,1
+do objeto e 0,4 do estojo com seu suporte. Abrir o
+estojo expõe a faixa, mas não a retira. A faixa é o
+selo de contenção do objeto; não é o Selo que uma
+personagem cumpre para conjurar.
+Missão: entregar o conjunto ao depósito da escola
+até as 16h. A responsável, Yumi, fornece a ficha de
+cuidados e pode receber o objeto durante todo esse
+período. O selo foi concluído às 9h e dura até as
+17h, se preservado. A margem de uma hora não é
+uma renovação automática.
+
+O selo e o chamado da Pastilha
+Campo
+
+Funcionamento preparado
+
+Proteção
+
+Enquanto íntegro e dentro do prazo, o selo abafa o chamado da Pastilha. Maldições atraídas apenas
+por esse objeto evitam a faixa de 6 m ao redor dele.
+
+Limite
+
+Não cria parede, cobertura ou imunidade. Uma maldição perseguindo alguém por outro motivo
+pode entrar e atacar normalmente. Não expulsa à força uma que já esteja dentro.
+
+Duração
+
+8 horas desde a conclusão, até as 17h no exemplo. Guardar, trocar de portador ou começar outra
+sessão não reinicia o prazo.
+
+Aviso de
+término
+
+Na última hora, a tinta azul perde a cor gradualmente. Às 17h, fica cinza e a proteção termina. Isso
+pode ser visto ao abrir o estojo.
+
+Ruptura
+antecipada
+
+Retirar ou rasgar a faixa rompe o selo. A preparação deste objeto também perde o efeito se a faixa
+ficar inteiramente encharcada; o estojo protege de respingos comuns, não de imersão.
+
+Sem selo
+
+O chamado alcança maldições a até 60 m neste local. Elas percebem de onde vem o apelo, sem
+receber conhecimento de quem o transporta.
+
+Os 6 m, 60 m e oito horas pertencem à preparação
+desta Pastilha. Não definem uma regra geral de
+contenção ou atração. A aproximação segue o
+deslocamento, a percepção e os obstáculos das
+criaturas; o chamado não as teleporta nem obriga
+toda maldição a abandonar qualquer outro objetivo.
+Para esta missão, o mestre já registrou uma
+maldição no pátio, a 30 m da mesa onde o grupo
+examina o estojo. Ela busca o objeto e não tem
+outro objetivo urgente. Se o selo cair, volta sua
+atenção para o chamado e tenta alcançá-lo; resolva
+a aproximação com a ficha previamente escolhida
+para a missão. Não acrescente novos inimigos a
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+cada rodada só porque o objeto permanece exposto.
+Se o pátio estiver vazio por acontecimentos
+anteriores, não faça surgir essa criatura novamente.
+
+O que o grupo sabe
+Yumi explica diretamente o prazo, o limite da
+proteção e o risco de retirar a faixa. Uma etiqueta
+no estojo diz: “Não ingerir. O objeto se desfaz, mas
+seu chamado permanece por dez minutos; pode
+tomar a audição de quem o engolir. Não concede
+poder.” O relatório de um acidente anterior
+descreve a perda temporária da audição e o
+tratamento mágico que a encerrou.
+
+11
+
+
+=== PÁGINA 12 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Essas informações estão acessíveis sem teste
+porque fazem parte da entrega. Ocultismo pode
+ajudar a interpretar algo ainda incerto; falhar não
+apaga o aviso que já foi lido. Se o jogador anunciar
+a ingestão, confirme o que sua personagem sabe
+antes de resolver a decisão. Não descreva o risco
+somente depois.
+O Anel de Testemunho de Uma ferramenta nova
+poderia registrar a abertura do estojo. Ele não
+substitui esta faixa, não informa se ela venceu e não
+neutraliza a Pastilha.
+
+Examinar, retirar e renovar
+Com o estojo apoiado e acessível, uma pessoa pode
+abri-lo e ler a faixa sem romper o selo. Confira
+acesso físico, mãos e tempo conforme a situação.
+Não há teste obrigatório para ler uma inscrição
+visível que a personagem compreenda.
+Retirar a faixa presa ao objeto exige Ação Padrão,
+duas mãos e acesso físico, a até 1,5 m. Isso encerra
+a proteção; enrolar o mesmo papel de novo não a
+recupera. Atacar o recipiente também não é o
+mesmo que retirar a faixa: resolva o que o ataque
+realmente alcança.
+Yumi consegue renovar este selo no depósito, com
+uma faixa preparada e dez minutos contínuos de
+trabalho. O serviço e uma reposição já foram
+providenciados para a missão. São recursos deste
+atendimento, não uma habilidade gratuita
+aprendida por acompanhar o transporte. A nova
+proteção só começa quando o trabalho termina;
+durante o intervalo, use a contenção própria do
+depósito. Fora dele, apresente os meios realmente
+disponíveis antes de considerar a renovação segura.
+Uma intervenção em outro objeto exige conhecer a
+preparação daquele objeto. A ficha não transforma
+qualquer folha escrita numa faixa capaz de conter
+maldições.
+
+Se alguém ingerir
+As regras abaixo resolvem a ingestão voluntária por
+uma personagem cujo corpo possa incorporar a
+Pastilha. Elas não definem como forçar a ingestão
+numa criatura hostil nem substituem as regras de
+ataque e resistência para tentar isso.
+Ao ingerir, a Pastilha se desfaz e deixa de poder
+ser entregue intacta. Seu chamado continua
+centrado na personagem durante dez minutos, com
+o alcance local de 60 m, mesmo se ela entrar em
+outro recipiente. A faixa do objeto não consegue
+selar esse resíduo no corpo.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Faça um TR de Espírito CD 14:
+• No sucesso, conserva a audição normal. O
+chamado ainda dura os dez minutos.
+• Na falha, recebe Surdo por dez minutos: não
+ouve, falha automaticamente em testes que
+exijam audição e recebe −2 ao rolar iniciativa.
+Isso não muda uma ordem de iniciativa já
+registrada. Visão, fala e decisões continuam
+conforme suas capacidades normais.
+Surdo é uma condição Leve e não concede novo TR
+ao fim de cada turno. Pode terminar antes por uma
+habilidade que remova essa condição, com seus
+próprios custos e requisitos. Encerrar Surdo não
+encerra o chamado; ele tem o prazo separado
+registrado acima. Ao fim dos dez minutos, ambos
+os efeitos desta ingestão terminam. Não há dívida,
+mudança de Origem, concessão de técnica ou
+consequência permanente oculta.
+Exemplo. Às 14h, Miki retira a faixa e ingere a
+Pastilha apesar do aviso. Tem bônus +3 no TR de
+Espírito e rola 8: 11, falha contra 14. Fica Surda, e o
+chamado permanece nela até as 14h10. A equipe
+pode usar sinais visuais para se comunicar; isso não
+devolve a audição. Se uma capacidade válida
+remover Surdo às 14h02, ela ouve novamente, mas
+ainda carrega o chamado por mais oito minutos.
+O mestre conserva o controle das ameaças já
+preparadas e registra a perda do objeto. A ingestão
+não cancela automaticamente toda a missão: o
+objetivo de entrega intacta foi perdido, e o
+fechamento considera o que a equipe ainda
+conseguiu realizar.
+
+Destruição e entrega segura
+Quebrar o estojo não neutraliza a Pastilha. Neste
+caso, tentativas comuns de esmagar ou partir a
+Pastilha a riscam, mas não desfazem sua estrutura
+nem seu chamado. A ficha informa essa resistência
+antes de uma tentativa de destruição. A
+neutralização depende do processo próprio abaixo;
+a ingestão tem as consequências já descritas.
+O processo seguro preparado para este objeto é a
+neutralização na câmara do depósito, conduzida
+por Yumi durante duas horas, com os meios já
+reservados. Ao concluir, a Pastilha vira resíduo
+inerte. Esse é o destino autorizado se a escola
+decidir neutralizá-la depois do exame; não é uma
+receita portátil aplicável a qualquer objeto
+amaldiçoado.
+
+12
+
+
+=== PÁGINA 13 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+Se o grupo entregar às 15h30 com a faixa íntegra,
+registre uma hora e meia de selo restante. Yumi
+confere o conjunto e recebe seus 0,5 Volume; ele sai
+do inventário de quem o carregava. A contenção do
+depósito assume a guarda. O fim da missão não
+renova o selo nem remove uma consequência de
+ingestão que ainda estiver em curso.
+
+Registro para outro mestre: “Pastilha e estojo, 0,5
+Volume; selo concluído às 9h, termina às 17h, aviso
+visível desde as 16h. Proteção de 6 m, chamado
+local de 60 m. Estojo pode abrir sem retirar faixa.
+Ingestão impede a entrega intacta do objeto e
+mantém chamado por 10 minutos; TR Espírito CD
+14, falha: Surdo por 10 minutos. Renovação e
+neutralização somente pelo atendimento preparado
+do depósito. Valores experimentais deste caso.”
+
+CONSULTA DO MESTRE
+
+Feitos do Limiar e promoção de Grau
+Use este caso para conferir um feito do Limiar,
+exigido para sair do nível 20, e depois registrar uma
+decisão de patente. O socorro e a progressão
+seguem o Livro de Regras 1.0. Missão, personagens
+e decisão de promoção são ilustrativos; não criam
+uma quantidade universal de resgates necessária
+para subir de Grau.
+
+O resgate de Mako
+Na missão Retirada do arquivo, Aoi está no nível
+20, com patente de Grau 2. Ela ainda não tem feito
+de Limiar reconhecido. Durante uma ameaça hostil
+real, um ataque leva Mako a zero de vida. Ele tem
+
+máximo de referência 84, Integridade positiva e
+uma Sequela anterior. Escolhe Aguentar, ficando
+Inconsciente e Morrendo.
+A janela é 3 − 1 = 2 rodadas. Aguentar exige um
+quarto do máximo de referência: 84 ÷ 4 = 21 de
+tratamento. O mestre marca o ponto da queda na
+iniciativa. Não se trata de treino, dano provocado
+pelo grupo para cumprir um feito ou recuperação
+posterior de alguém já Derrotado.
+Aoi alcança Mako antes da próxima passagem por
+esse ponto. Tem acesso físico, cumpre seu Selo e
+não há impedimento de cura. O corpo de Mako é
+compatível com sua fonte. Ele não recebeu dano
+posterior nem perdeu toda a Integridade.
+
+Fazer Mako voltar a agir
+Aoi conhece Recompor tecido, feitiço de cura direta individual de Classe 2, com Toque e Amparo
+disponível. A Regra de sua técnica permite esse tratamento. Nesta aplicação, nenhuma habilidade altera
+preço ou resultado.
+Conferência
+
+Conta
+
+Orçamento
+
+3 × 2 = 6 pontos
+
+Base de cura, Média
+
+2 pontos
+
+Toque
+
+Zero pontos; não há Melhoria paga para aproveitar sua devolução
+
+Saldo para cura
+
+6 − 2 = 4d8, dentro do teto individual de 2 × Classe = 4d8
+
+Compras
+
+Nenhuma Melhoria e nenhuma Restrição
+
+Uso
+
+Ação Padrão, 6 PE, alvo disposto e válido a até 1,5 m, com acesso físico
+
+Com 12 PE disponíveis, Aoi paga 6 e fica com 6. Os
+dados mostram 6, 5, 5 e 6: 22 de cura válida. Como
+o total alcança os 21 necessários, Mako sai de
+Morrendo com 22 de vida e recebe uma Sequela,
+passando a duas. Não fica com apenas 1 de vida: o
+requisito não é subtraído do tratamento.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+A inconsciência causada por Aguentar termina.
+Não há outra condição impedindo sua participação
+no exemplo. Mako conserva a posição no chão e
+não recupera ações gastas; quando puder agir,
+levantar fisicamente ainda seguirá as regras
+comuns.
+
+13
+
+
+=== PÁGINA 14 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+O feito publicado chama-se “Levantar alguém que
+estava a zero de vida”. Aqui, o que importa é o
+socorro devolver a capacidade de agir. Não é
+
+necessário comprar a Melhoria Levanta nem
+conceder gratuitamente o movimento para ficar de
+pé.
+
+Conferir todos os requisitos do feito
+Requisito pertinente do Livro de
+Regras 1.0
+
+Evidência deste registro
+
+É um dos sete feitos publicados
+
+Levantar alguém que estava a zero de vida; não foi criada uma façanha
+equivalente.
+
+Realizado entre os níveis 15 e 20
+
+Aoi estava no nível 20 durante o socorro.
+
+Ameaça hostil real na missão
+
+Mako caiu por um ataque adversário durante a retirada. Não foi uma queda
+combinada pelo grupo.
+
+Alvo estava a zero de vida
+
+Vida zero, Aguentar e tratamento 0/21 registrados.
+
+Socorro válido, ainda com
+participação recuperável
+
+Mako estava Morrendo com janela, Integridade positiva e sem impedimento
+de cura; não estava Derrotado.
+
+O socorro devolveu a capacidade de
+agir
+
+Os 22 de tratamento encerraram Morrendo e a inconsciência de Aguentar,
+sem outro impedimento total.
+
+Confirmação e continuidade
+
+Mestre registra missão, rodada, nível de Aoi, estado anterior de Mako, fonte
+e resultado do socorro.
+
+Conclusão: o feito pode ser reconhecido. A
+descrição completa permite a outro mestre conferir
+por que foi aceito. Não é preciso julgar novamente
+se o gesto foi “impressionante o bastante” depois
+de os requisitos publicados terem sido
+demonstrados.
+
+Quando o socorro não conta como feito
+Estabilizar Mako, sozinho, interromperia a
+contagem temporal, mas o deixaria Inconsciente:
+esse resultado ainda não demonstra devolução da
+capacidade de agir. Entregar apenas 12 de cura,
+sem outra fonte ou permissão, também não
+alcançaria os 21 necessários. Uma cura comum
+depois de Derrotado não reabriria sua participação
+naquela cena.
+
+feito válido realizado no nível 15 continuaria válido
+ao chegar ao 20. Não é preciso provocá-lo
+novamente.
+
+Aplicar o XP no encerramento
+A missão termina em 12 de junho do calendário
+desta campanha. Antes dela, Aoi tinha 3.950 XP
+guardados no nível 20, aguardando um feito.
+Retirada do arquivo foi anunciada como missão
+padrão e concluída com sucesso. É a terceira
+missão daquela semana para seu jogador: recebe
+100 × 1/2 = 50 XP.
+O feito não paga XP adicional. O saldo passa a
+3.950 + 50 = 4.000. Como o feito foi reconhecido,
+aplica-se a exceção do Limiar no encerramento:
+
+Se Aoi estivesse no nível 14 quando realizasse o
+socorro, o acontecimento poderia ser registrado na
+história, mas não atenderia à faixa do Limiar. Já um
+Passagem
+
+Custo
+
+Saldo
+
+Nível 20 → 21
+
+1.500 XP
+
+2.500
+
+Nível 21 → 22
+
+1.500 XP
+
+1.000
+
+Nível 22 → 23
+
+Exigiria 1.500 XP
+
+Não paga; conserva 1.000
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+14
+
+
+=== PÁGINA 15 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Aoi chega ao nível 22 de uma vez. A exceção
+permite usar os níveis pagos pelo XP guardado; não
+substitui a regra comum de no máximo um nível
+por missão nos demais avanços. Confira os ganhos
+dos níveis alcançados sem transformar a
+atualização em descanso ou recuperação
+automática. Veja as regras em Conferir
+personagens.
+
+Decidir a promoção de Grau
+
+OFÍCIOS, FERRAMENTAS E RECOMPENSAS
+
+o resgate de Mako, a proteção dos funcionários e os
+depoimentos da equipe. Não recebe apenas a
+informação “Aoi chegou ao nível 22”.
+Decisão de Senda: reconhecer a responsabilidade
+assumida por Aoi na condução da retirada sob
+ameaça e promovê-la a Grau 1, a partir do
+fechamento registrado dessa missão. A decisão
+considera o conjunto de ações de Aoi nessa
+campanha. Não se estabeleceu que todo socorro,
+feito de Limiar ou nível 22 conceda Grau 1.
+
+Na campanha do exemplo, a diretora Senda é
+responsável por confirmar promoções. Aoi já era
+Grau 2. A diretoria examina o relatório da retirada,
+Registro
+
+Resultado independente
+
+Feito do
+Limiar
+
+Reconhecido pelos requisitos publicados do socorro.
+
+XP e nível
+
+4.000 disponíveis; 3.000 gastos; nível 22 com 1.000 XP.
+
+Patente
+
+Grau 1 pela decisão institucional registrada, com data e motivo.
+
+Salário
+
+Só existe se a política tiver sido adotada; usa a patente no fechamento previsto por ela. Não há
+pagamento extra automático nesta cena.
+
+Equipamento
+
+A promoção não entrega uma ferramenta nem dispensa o nível de seu efeito ou a autorização de
+acesso pertinente.
+
+Se a diretoria ainda não tivesse decidido, registre
+promoção pendente e Grau 2 vigente, conservando
+o feito e a progressão já confirmados. Em
+campanha fechada, o mestre pode exercer o
+reconhecimento previsto no Livro de Regras 1.0 e
+manter os mesmos registros separados; não é
+necessário criar uma burocracia de guilda para
+registrar essa decisão.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Registro final: “Retirada do arquivo, encerrada em
+12 de junho: socorro sob ameaça hostil real, com
+Aoi no nível 20. Mako com 0/84 de vida, Integridade
+positiva, uma Sequela, Aguentar e janela de duas
+rodadas; recebeu 22 de cura válida antes de
+Derrotado, recuperou participação e ficou com
+duas Sequelas. Feito de Limiar reconhecido.
+Terceira missão semanal: 50 XP; saldo de 4.000,
+gasto de 3.000, Aoi no nível 22 com 1.000 XP.
+Diretora Senda reconheceu a condução da retirada
+e confirmou Grau 1 neste fechamento. Recursos
+atualizados sem descanso automático.”
+
+15
+

@@ -1,0 +1,114 @@
+{
+  "registro": 140,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+      "sha256": "65e9adc3c9db2195a81873b8978b429219bfef94962bb77761521d1486349b30",
+      "palavras_da_fonte": 4270,
+      "alcance": "Leitura completa; segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+      "sha256": "1f19dbc9a4b21e6e39c4c3104e8fa2524c3e9cb251a683cef1f53ee062e67e07",
+      "palavras_da_fonte": 1452,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+      "sha256": "b7520ab43cad01b9955af2574cbb850c91144a50c0ae3184de54a2140a03e54a",
+      "palavras_da_fonte": 1831,
+      "alcance": "Leitura completa; segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/31-avaliar-poderes-avancados.md",
+      "sha256": "55914fc6378355af0ade1016e0dbdfa9eb6c9fef804ec2808c636050d6637631",
+      "palavras_da_fonte": 2193,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+      "sha256": "d3552c64330e9cdbd7073bf4847999bb9b60cbd0c4be9689cf254b310055aaeb",
+      "palavras_da_fonte": 1590,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+      "sha256": "249a8d6c4e3c0d4bab6e77b5312644cc2b0231baee1a041d4fab5372009f8e0f",
+      "palavras_da_fonte": 2979,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+      "sha256": "5b98618bc25759dc4cc2e5edf870592f5c687efe87e9352d88955c330818c85c",
+      "palavras_da_fonte": 1528,
+      "alcance": "Leitura completa; segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7",
+      "palavras_da_fonte": 979,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/91-restricao-corporal-e-cuidados.md",
+      "sha256": "133c794afe3a1faadcaf0c3d2d110588a1c608a428f51ed06d04d225e53f8c23",
+      "palavras_da_fonte": 1816,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "sha256": "c9fa9bb9cf151ed897cbb8d52a864c0babae889017feee4479bfce86ab86ddda",
+      "palavras_da_fonte": 1571,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/94-compras-repetidas-e-restricoes.md",
+      "sha256": "4b8473cbaaedf24ba87775d244b830dc0ee64657d6696cb908d90fdc58f38ee2",
+      "palavras_da_fonte": 2162,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "sha256": "45101fa681d136e51827395ab764d9eac9e1481282f438cb11466a3052672e52",
+      "palavras_da_fonte": 1710,
+      "alcance": "Leitura completa; segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/28-ficha-de-convivencia.md",
+      "sha256": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d",
+      "palavras_da_fonte": 450,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256": "0db871baecd1f117f2ffcbc11674f69c4247694e04a3b48c4e2f39096fc5d3a8",
+      "palavras_da_fonte": 525,
+      "alcance": "Leitura completa; segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+      "sha256": "abfc68f9e2c05bff1695944576f1e8f2b13fa817bb07dd2f6f623aeddcc290a3",
+      "palavras_da_fonte": 463,
+      "alcance": "Leitura completa e comparação com o capítulo; sem alteração neste lote."
+    }
+  ],
+  "fonte_tecnica": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "sha256_fonte_tecnica": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "regras_consultadas": [
+    "Receptáculo: modalidades e menores; Memória Testemunha",
+    "Kamo: Execução Ensaiada e Contingência Estudada; Fundamento Incorporado",
+    "Corpo Amaldiçoado: consciências, descanso, reparo e menores",
+    "Restrição corporal: CE4, Rede Remota, Saída Elevada, três corpos e menores",
+    "Personalizar e rever a Origem",
+    "Progressão: Classes, marcos e ajuste de saldos",
+    "Pontos, preços, tetos e devoluções",
+    "Desdobramento Técnico e Remodelar",
+    "Liberação Máxima e Técnica Máxima",
+    "Regra Própria e Talento Próprio",
+    "Aptidão Própria e Bênção Própria",
+    "Expansão: aquisição, Acerto, Efeito, abertura, duração, barreira e Rescaldo",
+    "Condicional e Restrição Própria: dificuldade e prazo de revisão"
+  ],
+  "limite": "Leitura editorial e comparação com trechos publicados. Não é teste com jogadores, nova avaliação de equilíbrio ou revisão visual do PDF completo."
+}

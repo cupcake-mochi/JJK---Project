@@ -1,0 +1,112 @@
+{
+  "registro": 129,
+  "fontes": [
+    {
+      "id": "obter",
+      "fonte_id": "s043",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "fonte_original": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+      "titulo": "Obter e criar entidades",
+      "sha256": "9764f23d628e1fc0714831671a6b17fe530f333365db08cd463d238a13c1e5ec",
+      "sha256_original": "9c9c0e435f8ef825b68d40783975ab3196166f0388e9d9a15427b58f8c7b14e2"
+    },
+    {
+      "id": "tempo",
+      "fonte_id": "s045",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "fonte_original": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+      "titulo": "Tempo e materiais para criar entidades",
+      "sha256": "943c2e0967ae0ef7a932873ee79f33cb628f1760863bb536e94cd71e929bd8de",
+      "sha256_original": "6a77cfaaca4d32429db95388d1dbf505d424fad3b6b19a8af07740a0a170bae3"
+    },
+    {
+      "id": "reconstruir",
+      "fonte_id": "s046",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "fonte_original": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+      "titulo": "Reconstruir, transferir e herdar entidades",
+      "sha256": "b4eac0195c2f011d8cfb6255815a5b4ea2ce5e8eddeea3cd091c0d65bc18fd30",
+      "sha256_original": "888e3d9778cb983b1b805f08b3e913fbd8f7face2c574dc4659034a752ed4191"
+    },
+    {
+      "id": "cao",
+      "fonte_id": "s051",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/51-ritual-do-cao-de-sombra.md",
+      "fonte_original": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+      "titulo": "A prova do Cão de sombra",
+      "sha256": "3405754f226d375da0224acd433e4c64a4cc3856ba56d13db232d7e05b76a841",
+      "sha256_original": "073874080ae38f16be4665142fd27a954587aed3f49157b408622daa5573bada"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-129/prova-textual.html",
+  "html_sha256": "2702c6816b2f498515fbbf0b44c87b6f1972b7f3a9a93ec6aaf4e8c47cdb73e7",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-129/output/pdf/Ciclo-Maldito-Projetos-e-Ritual-Revisao-Textual.pdf",
+  "pdf_sha256": "67b1c396ec655ce78712c1c7631c6416746112d8773b38eb6d042e9d72f9e328",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 529
+    },
+    {
+      "pagina": 2,
+      "palavras": 664
+    },
+    {
+      "pagina": 3,
+      "palavras": 589
+    },
+    {
+      "pagina": 4,
+      "palavras": 652
+    },
+    {
+      "pagina": 5,
+      "palavras": 472
+    },
+    {
+      "pagina": 6,
+      "palavras": 571
+    },
+    {
+      "pagina": 7,
+      "palavras": 691
+    },
+    {
+      "pagina": 8,
+      "palavras": 454
+    },
+    {
+      "pagina": 9,
+      "palavras": 697
+    },
+    {
+      "pagina": 10,
+      "palavras": 554
+    },
+    {
+      "pagina": 11,
+      "palavras": 654
+    },
+    {
+      "pagina": 12,
+      "palavras": 558
+    },
+    {
+      "pagina": 13,
+      "palavras": 518
+    },
+    {
+      "pagina": 14,
+      "palavras": 748
+    },
+    {
+      "pagina": 15,
+      "palavras": 649
+    },
+    {
+      "pagina": 16,
+      "palavras": 250
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

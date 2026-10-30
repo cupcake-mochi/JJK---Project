@@ -1,0 +1,97 @@
+{
+  "registro": 131,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-131/output/pdf/Ciclo-Maldito-Fichas-de-Mesa-Revisao-Textual.pdf",
+  "pdf_sha256": "300e41f111f58c11ad69bc0622b3eba58941eb272b40b75add26aefbc0b6aa42",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 9,
+      "escopo": "Leitura integral das quatro fichas e das regras citadas, quatro cópias, remissões para os capítulos novos e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 0,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; nenhuma alteração necessária."
+    }
+  ],
+  "ajuste_de_diagramacao": "Linhas de preenchimento nos campos das três fichas de registro e altura de escrita nas células vazias; a folha de condução fica sem linhas.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-01.png",
+      "imagem_sha256": "c461dd5bc84ef306936dc9e2b54582faf1702e82484ff8875bb0e50d6dd9eec6",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura da ficha de preparação, campos com linhas e quadro de pessoas."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-02.png",
+      "imagem_sha256": "f0a2d58fae3e7f9da4a531ce57ccf1bf6a540b354b60449892c61d65ed89be6a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadros de lugares, informação e consequências com altura de escrita; perigos."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-03.png",
+      "imagem_sha256": "937dc3ed0dd780278de38f172b586b0f927dfb5496ee26b8fd03fa0ff794c746",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Conferência, durante e depois do jogo; abertura da folha de condução."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-04.png",
+      "imagem_sha256": "c6e82efbf27315383e6acb8acd5bf6af38986599071b76957123d85659e0a57a",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Para cada tentativa, resultado no teste, conversa e proposta inesperada."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-05.png",
+      "imagem_sha256": "f74bddfed5fcc8b6c2f794df707f2982e8056334c5c3b7d56ad9ee3d53e5f976",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Combate, dúvida de regra com quadro e encerramento."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-06.png",
+      "imagem_sha256": "f96ea4ead0c698a0fefbccb2cc1c4071d2f99693cbaf6c6d97d5142c6e9f71d0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do registro de estado com quadro de reservas e campos."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-07.png",
+      "imagem_sha256": "4253ec6144692c525119e06345be38d371b87b8782a9d244f0105b2aae71b321",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Queda em andamento, saída e recuperação; abertura da linha de continuidade."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-08.png",
+      "imagem_sha256": "9a5271607d1192f9f46ecd312819cf01c02ad0e72e3b3bddc60ee1344a9631d0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Modelo com quadro e campos; entregar ou retomar; sugestões."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-131/pagina-09.png",
+      "imagem_sha256": "5d943dd6b0abff589057a762b25148282ff894014bca8a972361b5ee6416ade0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro de providências e exemplo entre três missões."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Títulos de ficha no pé das páginas 3 e 7 seguidos do conteúdo na página seguinte; reavaliar na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

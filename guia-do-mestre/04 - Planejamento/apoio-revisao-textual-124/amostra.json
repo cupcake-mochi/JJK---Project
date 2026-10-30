@@ -1,0 +1,83 @@
+{
+  "registro": 124,
+  "fontes": [
+    {
+      "id": "febre",
+      "fonte_id": "s103",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/103-a-febre-dos-fios.md",
+      "fonte_original": "06 - Redacao do Guia/103-a-febre-dos-fios.md",
+      "titulo": "A febre dos fios",
+      "sha256": "6533b1c09c72445c27cf7aa2034f583d7f6c24126f0a141fa4b9d675469637fe",
+      "sha256_original": "cc58efd7112455b23e46a24078f781f9393c89c3a250e3d6cb06a8550ad04870"
+    },
+    {
+      "id": "ficha",
+      "fonte_id": "s077",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/77-ficha-preenchida-ren-e-sora.md",
+      "fonte_original": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+      "titulo": "Ficha preenchida: Ren e Sora",
+      "sha256": "711033094f45bb580b571522cdaee5211f518792105babb4e365bcf4c7e06b76",
+      "sha256_original": "356bb36e2635630a3af4dc93ed40c94c46f1024246f5d8720eb6a73032eab8c4"
+    },
+    {
+      "id": "chefe",
+      "fonte_id": "s068",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/68-ficha-e-comparacao-de-chefes.md",
+      "fonte_original": "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+      "titulo": "Conferir e comparar um chefe",
+      "sha256": "352adf2916951c24419286c7d96a6398a109301c0ff41d8dd2f8a99218b46e1b",
+      "sha256_original": "36b0bb71170852d33890217560c1453cbd59a58c80c5d2dac83eb5efe5a11207"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-124/prova-textual.html",
+  "html_sha256": "6e03ea479dc67f95500c559d59e361321e0d97644bd55c98ae253a637776c8a4",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-124/output/pdf/Ciclo-Maldito-Doenca-e-Fichas-Preenchidas-Revisao-Textual.pdf",
+  "pdf_sha256": "c429f81503d669be143ea222d9ec51bfcd338272ddbdc24e1a9df246bd22784b",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 562
+    },
+    {
+      "pagina": 2,
+      "palavras": 677
+    },
+    {
+      "pagina": 3,
+      "palavras": 672
+    },
+    {
+      "pagina": 4,
+      "palavras": 427
+    },
+    {
+      "pagina": 5,
+      "palavras": 521
+    },
+    {
+      "pagina": 6,
+      "palavras": 488
+    },
+    {
+      "pagina": 7,
+      "palavras": 540
+    },
+    {
+      "pagina": 8,
+      "palavras": 481
+    },
+    {
+      "pagina": 9,
+      "palavras": 306
+    },
+    {
+      "pagina": 10,
+      "palavras": 584
+    },
+    {
+      "pagina": 11,
+      "palavras": 320
+    }
+  ],
+  "limite": "Três casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}

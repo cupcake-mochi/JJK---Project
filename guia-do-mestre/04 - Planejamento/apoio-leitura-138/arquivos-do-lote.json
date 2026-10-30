@@ -1,0 +1,34 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "fonte_anterior": "06 - Redacao do Guia/revisao-98",
+  "manuscrito_integrado": "06 - Redacao do Guia/edicao-integrada-136",
+  "edicao_html": "07 - Edicao de Leitura/edicao-integrada-136",
+  "base_manifesto": 4531,
+  "guia_de_consulta_vigente": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+  "relatorio": "04 - Planejamento/138-leitura-de-conducao-e-campanha.md",
+  "registro": 138,
+  "fontes_alteradas": [
+    "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+    "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+    "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md"
+  ],
+  "html_alterados": [
+    "07 - Edicao de Leitura/edicao-integrada-136/capitulo-04.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/capitulo-05.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/capitulo-07.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/caso-22-quedas-e-socorro.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/caso-23-retirada-e-recuperacao.html"
+  ]
+}

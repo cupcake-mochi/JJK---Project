@@ -1,6 +1,6 @@
 # A passarela e o guincho
 
-**Perigo experimental da pré-1.0.** Este caso mostra como anunciar um perigo que piora com o tempo e resolver as tentativas de detê-lo. Leia depois de [O Carregador no depósito](<62-o-carregador-e-o-corredor-de-entulho.md>); aqui, o grupo enfrenta outra situação, sem inimigos. Use a [ficha de encontro](<../../58-ficha-de-inimigo-e-encontro.md>) para anotar o perigo.
+**Perigo experimental da pré-1.0.** Este caso mostra como anunciar um perigo que piora com o tempo e resolver as tentativas de detê-lo. Leia depois de [O Carregador no depósito](<62-o-carregador-e-o-corredor-de-entulho.md>); aqui, o grupo enfrenta outra situação, sem inimigos. Use a [ficha de encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>) para anotar o perigo.
 
 O dano de queda, os saltos, a escalada, as ações e os objetos vêm do Livro de Regras 1.0. **O mecanismo, as posições e a ruptura após três rodadas são escolhas deste exemplo**, ainda sujeitas à avaliação. Este exemplo não define dano de desabamento por nível.
 
@@ -147,6 +147,6 @@ Depois da parada, não ligue o guincho novamente para estender a cena. Uma reati
 
 Registre o que aconteceu antes de mudar a descrição de cena. Na guilda, comunique a interdição para a próxima equipe; numa campanha fechada, conserve a mesma informação no diário. Ao jogar, anote também quanto tempo levou para consultar as regras, quais escolhas o grupo fez e quais dúvidas surgiram.
 
-As regras e as contas desta preparação foram conferidas. **Não houve teste humano, simulação integral de resgate ou validação de dificuldade.** As três rodadas foram escolhidas para este mecanismo; não são o prazo padrão de todo perigo. Este caso desenvolve um desfecho por queda. O [preparo de perigos ambientais](<78-preparar-perigos-ambientais.md>) e a [sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>) ampliam a preparação para exposição recorrente e condições persistentes. Para uma doença prolongada, consulte [A febre dos fios](<../../103-a-febre-dos-fios.md>). Perigos como fogo ainda precisam de exemplos próprios.
+As regras e as contas desta preparação foram conferidas. **Não houve teste humano, simulação integral de resgate ou validação de dificuldade.** As três rodadas foram escolhidas para este mecanismo; não são o prazo padrão de todo perigo. Este caso desenvolve um desfecho por queda. O [preparo de perigos ambientais](<78-preparar-perigos-ambientais.md>) e a [sala de conservação](<79-o-po-na-sala-de-conservacao.md>) ampliam a preparação para exposição recorrente e condições persistentes. Para uma doença prolongada, consulte [A febre dos fios](<103-a-febre-dos-fios.md>). Perigos como fogo ainda precisam de exemplos próprios.
 
 Para comparar essas regras em outras situações, consulte [Movimento, saltos e quedas](<84-percursos-apoios-e-quedas.md>): esforço e risco no mesmo salto, passagem com equipamento e queda sobre criatura dentro e fora da faixa de tamanhos. Esses casos usam outros cenários. Eles não acrescentam correnteza, piso escorregadio ou novas vítimas a esta passarela.

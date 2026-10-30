@@ -1,0 +1,532 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fichas de mesa | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'FICHAS DE MESA';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}#c09 .colunas p{margin-bottom:5pt}#c09 table th,#c09 table td{padding:3pt 4pt}#c10 .colunas p{margin-bottom:4.5pt}#c10 table th,#c10 table td{padding:3pt 4pt}#c10 .colunas h3{margin:8pt 0 5pt}#c10 .colunas h2{margin:10pt 0 6pt}#c10 .larga th:first-child{width:20%}#c10 .fechamento-exemplo{column-span:all;break-inside:avoid;margin:2pt 0 6pt}}@media print{.larga{column-span:none;break-inside:avoid;margin:8pt 0}.larga.fluida,.larga.fluida table{break-inside:auto}.larga th{white-space:normal}.larga>p{break-after:avoid}.colunas p.conta{break-inside:avoid}.numero-curto{white-space:nowrap}.bloco-mapa{break-inside:avoid;margin:8pt 0}.bloco-mapa figure{margin:0}.bloco-mapa img{display:block;width:100%;height:auto}.folha>header{break-inside:avoid;break-after:avoid}.folha>header .numero{break-after:avoid}.mapa-legenda{margin:5pt 0 8pt}#preparacao,#conducao,#estado{break-after:auto}#conducao,#estado,#continuidade{padding-top:14pt;break-before:auto}.linhas{margin:2pt 0 7pt;break-inside:avoid}.linha{display:block;height:5mm;border-bottom:.4pt solid #ded4d9}td:empty{height:7mm}.formula{white-space:nowrap}}</style></head><body><nav><a href="#preparacao">Ficha de preparação de missão</a><a href="#conducao">Folha de condução</a><a href="#estado">Registro de estado e socorro</a><a href="#continuidade">Linha de continuidade</a><a href="casos-completos.html">Casos por assunto</a><a href="guia-de-consulta.html">Folhas e capítulos</a></nav><p class="aviso-edicao">Prova parcial: consultas complementares, lote C-01. Fontes antigas e edição integrada anterior preservadas.</p><main><article class="folha" id="preparacao"><header><p class="numero">FICHA PARA A MESA</p><h1>Ficha de preparação de missão</h1></header><div class="colunas">
+<p>Use este modelo para preparar a missão e consultá-lo durante o jogo. O capítulo <a href="../apoio-revisao-textual-112/prova-textual.html#c03">Preparar aventuras</a> explica como preenchê-lo. Preencha os campos que a situação exige e marque os que não se aplicam. Abra as fichas e regras citadas antes da sessão. Há um exemplo preenchido em <a href="../apoio-revisao-textual-112/prova-textual.html#c01">Sua primeira missão</a>.</p>
+<h2 id="preparacao--antes-da-sessao">Antes da sessão</h2>
+<p><strong>Título e data:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Responsável pelo preparo e contato:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Participantes e fichas usadas:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Como os personagens começam a missão:</strong> vida, energia, Integridade, Sequelas, recursos e usos já gastos, equipamento ou compromissos que afetem a situação.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Regras de campanha pertinentes:</strong> opções de risco e morte, progressão, recompensas e regras compartilhadas que já estejam combinadas.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<h2 id="preparacao--situacao-e-abertura">Situação e abertura</h2>
+<p><strong>O que aconteceu e qual é o problema atual:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Por que o grupo pode se envolver:</strong> chamado, vínculo, descoberta ou iniciativa dos personagens.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Objetivo apresentado e sinais de progresso:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>O que descrever ao começar:</strong> lugar, pessoas, informação disponível e o que exige atenção.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Meios imediatos de agir:</strong> pessoas acessíveis, coisas observáveis, caminhos ou contatos.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<h2 id="preparacao--fatos-do-preparo">Fatos do preparo</h2>
+<p><strong>O que já está estabelecido:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Quais relatos, receios ou hipóteses podem ser confundidos com esses fatos:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>O que ainda pode ser desenvolvido sem contradizer a situação:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+</div><div class="larga"><h2 id="preparacao--pessoas">Pessoas</h2><table>
+<thead>
+<tr>
+<th>Nome e função</th>
+<th>O que quer</th>
+<th>O que sabe ou oferece</th>
+<th>Limite e reação provável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<h2 id="preparacao--lugares-e-acessos">Lugares e acessos</h2>
+<p><strong>Mapa ou esquema usado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Lugar</th>
+<th>Acessos e saídas</th>
+<th>O que pode ser percebido</th>
+<th>Medidas e condições relevantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+</div><div class="larga"><h2 id="preparacao--informacao-e-descoberta">Informação e descoberta</h2><table>
+<thead>
+<tr>
+<th>Informação importante</th>
+<th>Fontes ou meios plausíveis</th>
+<th>Requisitos e regra</th>
+<th>O que permite concluir e o que continua incerto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p><strong>Caminho alternativo se uma informação necessária não for obtida:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Testes que podem ser necessários:</strong> indicar a tarefa, seu tempo e a regra do Livro de Regras 1.0; usar a Classe de Dificuldade (CD), o valor que o teste precisa alcançar, indicada pela regra quando existir. Não transformar informação evidente em teste obrigatório.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<h2 id="preparacao--perigos-e-intervencao">Perigos e intervenção</h2>
+<p><strong>Fichas completas e revisão utilizadas, ou ausência de perigo:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Sinais perceptíveis antes e durante o contato:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Comportamento, recursos e limites que orientam a condução:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Condições de retirada, socorro e atendimento:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Ficha que a criatura usará se puder ser adquirida pelo grupo, e requisitos dessa aquisição:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Regras para consultar durante o jogo:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+</div><div class="larga fluida"><h2 id="preparacao--consequencias">Consequências</h2><table>
+<thead>
+<tr>
+<th>Escolha ou resultado</th>
+<th>O que muda</th>
+<th>Como os personagens podem reconhecer a mudança</th>
+<th>Pendência e responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Objetivo alcançado</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Demora</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Retirada ou passagem adiante</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Abandono ou outro resultado</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<h2 id="preparacao--conferencia-antes-de-comecar">Conferência antes de começar</h2>
+<p>Percorra uma busca de informação, uma aproximação alternativa e uma retirada ou pedido de ajuda. Anote abaixo o que faltou para responder. Se alguma dessas escolhas não fizer sentido para esta missão, use outra que o grupo poderia propor.</p>
+<p><strong>Lacunas a fechar:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<h2 id="preparacao--durante-e-depois-do-jogo">Durante e depois do jogo</h2>
+<p><strong>Descobertas e mudanças efetivas:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Estado de saída das fichas e recursos:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Socorro ainda em andamento:</strong> anotar quem caiu, tratamento acumulado, janela restante e ponto da iniciativa usado na contagem, conforme Vida a zero.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Condições de descanso e recuperação efetivamente cumpridas:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Progressão, remuneração e aquisições resolvidas pelas regras usadas:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>O que continua, quem acompanha e quem precisa saber:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Dúvida de regra ou de apresentação a revisar:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p>Na guilda, passe os registros pertinentes ao próximo mestre. Na campanha fechada, conserve o necessário nas notas de continuidade. Este modelo organiza informação; as regras do Livro de Regras 1.0 continuam determinando os resultados.</p>
+<p><strong>Ferramentas complementares:</strong> <a href="guia-de-consulta.html">Escolher uma folha para a mesa</a> orienta quando acrescentar cada registro. Para retomar a missão, vincule o <a href="#estado">estado das fichas</a> à <a href="#continuidade">linha de continuidade</a>; o resumo da missão pode apontar essas folhas sem transcrever seus campos.</p></div></article><article class="folha" id="conducao"><header><p class="numero">FICHA PARA A MESA</p><h1>Folha de condução</h1></header><div class="colunas">
+<p>Consulte durante a sessão, depois de ler <a href="../apoio-revisao-textual-113/prova-textual.html#c04">Na mesa de jogo</a>. Mantenha o preparo, as fichas e as regras necessárias disponíveis. Esta folha organiza a condução; as regras completas continuam no Livro de Regras 1.0.</p>
+</div><div class="larga fluida"><h2 id="conducao--para-cada-tentativa">Para cada tentativa</h2><table>
+<thead>
+<tr>
+<th>Confira</th>
+<th>Pergunta de apoio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Situação</td>
+<td>O que o personagem percebe e o que exige atenção?</td>
+</tr>
+<tr>
+<td>Intenção</td>
+<td>O que quer conseguir e como tenta?</td>
+</tr>
+<tr>
+<td>Meios</td>
+<td>Tem acesso, alcance, ferramentas e capacidades necessários?</td>
+</tr>
+<tr>
+<td>Resolução</td>
+<td>A descrição basta? Há teste ou regra específica?</td>
+</tr>
+<tr>
+<td>Informação prévia</td>
+<td>Quais custos e consequências ele pode prever?</td>
+</tr>
+<tr>
+<td>Resultado</td>
+<td>O que a regra determina e o que mudou no lugar ou na ficha?</td>
+</tr>
+<tr>
+<td>Participação</td>
+<td>Quem ainda precisa de espaço para decidir?</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p><strong>Teste:</strong> incerteza e falha que possa mudar a situação. Use a dificuldade e o bônus pertinentes. Igualar ou superar a Classe de Dificuldade (CD) é sucesso. Ataques e Testes de Resistência seguem também suas regras próprias.</p>
+<p><strong>Informação:</strong> entregue o que é evidente; resolva o que pode ser investigado; preserve os requisitos para alcançar o que ainda está inacessível. Um resultado não revela mais do que os meios permitem descobrir.</p>
+<p><strong>Percepção:</strong> confira o sinal acessível e a regra. Localizar um espaço não concede visão; conhecer uma posição anterior não acompanha o próximo movimento. Ler o Ambiente não gasta a ação nem o uso quando não há nada a informar. Na busca energética, use a maior dificuldade entre interferência e Furtividade. Consulte os <a href="../apoio-revisao-textual-117/prova-textual.html#pistas">casos de percepção e informação</a> para os requisitos e exemplos.</p>
+<p><strong>Espaço e objetos:</strong> informe apoio, movimento necessário e chegada na falha antes da tentativa. Num salto com esforço e risco, role uma vez contra a maior CD. Na queda sobre criatura, confira tamanhos e divida o dano antes das defesas. Uma trajetória alterada usa a direção final para conferir cobertura. Consulte <a href="../apoio-revisao-textual-118/prova-textual.html#movimento">percursos e quedas</a> e <a href="../apoio-revisao-textual-118/prova-textual.html#ferramentas">trajetórias e ferramentas</a> para os casos completos.</p>
+</div><div class="larga fluida"><h2 id="conducao--resultado-e-participacao-no-teste">Resultado e participação no teste</h2><table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>Lembrete</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Há resultado definido na regra</td>
+<td>Aplique-o; não troque falha por sucesso mediante preço improvisado.</td>
+</tr>
+<tr>
+<td>A regra deixa margem</td>
+<td>Pode oferecer sucesso com custo ou complicação coerente; deixe claro o que muda e o que acontece se a oferta for recusada.</td>
+</tr>
+<tr>
+<td>Uma pessoa tenta, outra contribui</td>
+<td>Confira Ajudar: contribuição possível, vantagem e um ajudante por teste; requisitos e exceções permanecem.</td>
+</tr>
+<tr>
+<td>Todos precisam superar juntos</td>
+<td>Cada participante rola; pelo menos metade precisa passar. Quatro participantes exigem dois sucessos; cinco exigem três.</td>
+</tr>
+<tr>
+<td>Ocultação em combate ou TR individual</td>
+<td>Resolva separadamente; não substitua por uma contagem coletiva.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p>Exemplos e limites em <a href="../apoio-revisao-textual-117/prova-textual.html#testes">Exemplos de testes e iniciativa</a>. A criação de entidades conserva sua exceção de ajuda; uma capacidade como Contribuição Decisiva conserva seu limite próprio.</p>
+<h2 id="conducao--se-a-conversa-parar">Se a conversa parar</h2>
+<p>Retome os fatos conhecidos e a dúvida atual. Apresente opções que os personagens conhecem e deixe espaço para outra proposta. Confira se falta informação ou se alguém quer desenvolver uma conversa antes de avançar.</p>
+<h3 id="conducao--frases-uteis">Frases úteis</h3>
+<ul>
+<li>“O que você quer descobrir com isso?”</li>
+<li>“De onde pretende observar?”</li>
+<li>“O que os demais fazem enquanto isso?”</li>
+<li>“Vocês querem tomar alguma providência antes de seguir?”</li>
+</ul>
+<h2 id="conducao--se-surgir-uma-proposta-inesperada">Se surgir uma proposta inesperada</h2>
+<p>Confira os fatos, os meios e a regra que resolve o efeito. Complete detalhes comuns com coerência. Para um benefício mecânico, confira a capacidade ou a regra correspondente. Uma boa solução pode encerrar um obstáculo: registre a mudança e siga a partir dela.</p>
+<h2 id="conducao--ao-avancar-a-cena">Ao avançar a cena</h2>
+<p>Confirme a intenção do grupo e as providências pendentes. Resuma apenas o trecho sem escolha ou obstáculo relevante. Preserve tempo, recursos e efeitos em andamento. Uma conversa cotidiana pode ser a parte que os participantes querem jogar.</p>
+<h2 id="conducao--em-combate">Em combate</h2>
+<p><strong>Iniciativa:</strong> maior total primeiro; no empate, maior Destreza. Se ambos empatarem, personagem de jogador vem antes de inimigo. Jogadores escolhem entre si; você escolhe entre inimigos. Registre uma vez, sem novo dado nem nova escolha a cada rodada.</p>
+<p>Mantenha visíveis iniciativa, posições e durações. Resolva ações e respostas nos momentos permitidos. A Reação se recupera no começo do turno do participante.</p>
+<p>Se alguém cair, consulte <a href="../../../../../../../home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--zero">Vida a zero</a>. Registre escolha, máximo de vida de referência, tratamento necessário e acumulado, janela restante e ponto da iniciativa. Consulte também Socorro e os efeitos das Sequelas. Insistir e Derrotado têm efeitos diferentes sobre a participação.</p>
+</div><div class="larga fluida"><h2 id="conducao--se-houver-duvida-de-regra">Se houver dúvida de regra</h2><p>Leia a capacidade e a regra geral: <strong>ação, alvo, alcance, resolução e prazo</strong>. Se a dúvida persistir, combine uma resolução para aquela sessão e registre a nota abaixo. Na guilda, use o encaminhamento adotado para conferir e comunicar a correção.</p><table>
+<thead>
+<tr>
+<th>Nota de dúvida</th>
+<th>Registro curto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pergunta e situação</td>
+<td>Qual declaração ou efeito está sendo resolvido?</td>
+</tr>
+<tr>
+<td>Referência</td>
+<td>Versão do Livro de Regras 1.0, capacidade e trecho consultados; texto de criação própria, quando houver.</td>
+</tr>
+<tr>
+<td>Leituras e decisão da sessão</td>
+<td>O que gerou dúvida, qual leitura foi usada e quem foi afetado.</td>
+</tr>
+<tr>
+<td>Conferência</td>
+<td>Quem vai verificar e onde ficará a resposta.</td>
+</tr>
+<tr>
+<td>Resultado e comunicação</td>
+<td>Correção, manutenção ou ponto ainda aberto; pessoas informadas e registros atualizados.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p class="conta"><strong>Exemplo de consulta:</strong> surgiu a dúvida se Bloquear gasta Reação. O Livro de Regras 1.0 diz que a rolagem é gratuita e não gasta esse recurso. A consulta resolve a questão; não é necessário criar uma decisão provisória diferente. Se um gasto indevido já tiver afetado a cena, identifique o ocorrido e combine a correção, registrando quais estados foram ajustados.</p>
+<p>Quando o texto realmente permitir leituras diferentes, preserve na nota a interpretação usada até a revisão. Uma decisão para esta sessão não altera automaticamente todas as fichas da guilda. A resposta posterior precisa chegar a quem foi afetado; o próximo mestre também precisa saber se a nota ainda está aberta.</p>
+<h2 id="conducao--ao-encerrar-ou-interromper">Ao encerrar ou interromper</h2>
+<p>Use os campos finais da <a href="#preparacao">ficha de preparação</a>: descobertas, mudanças, recursos, quedas, aquisições, pendências e responsáveis. Se a situação continuar, registre posições e prazos; em uma situação em turnos, também iniciativa, ações já gastas e próxima fase ou evento a resolver. Confira recuperação e recompensas pelas regras aplicáveis.</p>
+<p><strong>Retorno do grupo:</strong> em que momento faltou informação para decidir? Anote a dificuldade para revisar o trecho correspondente.</p>
+<p><strong>Consulta por problema:</strong> <a href="../apoio-revisao-textual-113/prova-textual.html#c04">conduzir uma investigação</a>, <a href="../apoio-revisao-textual-117/prova-textual.html#cenario">espaço e usos criativos</a> e <a href="../../07 - Edicao de Leitura/consultas/fichas-de-mesa.html#s012">registro de descobertas</a>.</p>
+<p><strong>Recursos e queda:</strong> <a href="../apoio-revisao-textual-113/prova-textual.html#c04">acompanhar recursos</a>, <a href="../apoio-revisao-textual-118/prova-textual.html#socorro">socorro passo a passo</a>, <a href="../apoio-revisao-textual-118/prova-textual.html#recuperacao">retirada e recuperação</a> e <a href="#estado">registro de estado</a>.</p>
+<p><strong>Passagem e revisão:</strong> a <a href="#continuidade">linha de continuidade</a> reúne o resumo para retomada e as tarefas aceitas. O <a href="../apoio-revisao-textual-118/prova-textual.html#passagem">exemplo de passagem</a> mostra uma interrupção com socorro em andamento.</p></div></article><article class="folha" id="estado"><header><p class="numero">FICHA PARA A MESA</p><h1>Registro de estado e socorro</h1></header><div class="colunas">
+<p>Use junto da ficha durante a missão e na passagem entre mestres. Consulte as regras em <a href="../apoio-revisao-textual-113/prova-textual.html#c04">Na mesa de jogo</a>, <a href="../apoio-revisao-textual-118/prova-textual.html#socorro">Quedas e socorro</a> e <a href="../apoio-revisao-textual-118/prova-textual.html#recuperacao">Retirada e recuperação</a>.</p>
+<h2 id="estado--estado-atual">Estado atual</h2>
+<p><strong>Personagem, jogador, revisão da ficha e momento do registro:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Reserva</th>
+<th>Máximo atual</th>
+<th>Saldo atual</th>
+<th>Temporários, quando aplicáveis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vida</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Energia</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Integridade, se possuir</td>
+<td></td>
+<td></td>
+<td>Não se aplica</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p><strong>Alterações do máximo e forma de encerrá-las:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Condições e efeitos:</strong> nome, fonte, momento de término e saída.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Usos limitados gastos:</strong> capacidade, a quem pertence o limite e quando recupera.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Equipamento, munição, consumíveis e carga relevantes:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Sequelas atuais:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Quantidade de escolhas de Insistir nesta cena:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Exaustão e lutas do dia:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Cicatrizes, escolha de efeitos e outras consequências permanentes:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<h2 id="estado--se-houver-queda-em-andamento">Se houver queda em andamento</h2>
+<p><strong>Causa:</strong> vida a zero, Integridade a zero ou outra. Conferir primeiro a regra aplicável.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Máximo de vida de referência da queda:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Sequelas que tinha ao cair:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Escolha e estado atual:</strong> Aguentar, Insistir, estável ou Derrotado. Registrar outras causas de inconsciência separadamente.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Tratamento necessário e cálculo usado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Tratamento válido acumulado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Janela restante:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Ponto da iniciativa que conta o tempo:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Estável:</strong> sim/não; se a estabilidade terminar por dano, atualizar janela e ponto de contagem.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Evento ou atendimento</th>
+<th>Momento</th>
+<th>Tratamento ou perda de janela</th>
+<th>Estado depois</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p><strong>Impedimentos, compatibilidade de cura e exceções da ficha:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Ao encerrar a queda:</strong> registrar nova vida, Sequela no momento correto e condições restantes. Limpar os campos da ocorrência encerrada; conservar consequências e contagem de Insistir pelo prazo pertinente.</p>
+<h2 id="estado--saida-e-recuperacao">Saída e recuperação</h2>
+<p><strong>Posição, meios de retirada e quem precisa de transporte:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Se a sessão interrompeu uma situação em turnos:</strong> iniciativa, último evento resolvido, próximo ponto a resolver, ações e respostas já gastas, posições e efeitos com prazo. Registrar separadamente fases do ambiente e pontos de contagem do socorro.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Atendimento ainda necessário e quem acompanha:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Pausa concluída:</strong> tipo, condições reais, ambiente propício ou não e efeitos aplicados.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Usos recuperados e estados atualizados:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Pendências da missão e passagem de informação:</strong> remeter à linha de continuidade.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Dúvida de regra, decisão provisória e responsável por conferir:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Jogador e responsável que conferiram a atualização:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p>O registro não concede cura, tempo ou recuperação. Use os resultados reais; a interrupção da sessão não reinicia seus valores.</p>
+<p><strong>Para a passagem:</strong> a <a href="#continuidade">linha de continuidade</a> reúne o resumo e aponta este estado. O <a href="../apoio-revisao-textual-118/prova-textual.html#passagem">exemplo preenchido</a> mostra recursos, prazo e próxima ação sem reiniciar a situação.</p></div></article><article class="folha" id="continuidade"><header><p class="numero">FICHA PARA A MESA</p><h1>Linha de continuidade</h1></header><div class="colunas">
+<p>Use ao encerrar ou interromper uma missão e antes de preparar a seguinte. Registre separadamente as mudanças que já aconteceram e as possibilidades futuras. Uma nota curta pode bastar para campanhas pequenas; acrescente detalhes quando outro mestre precisar retomar o assunto.</p>
+<h2 id="continuidade--modelo">Modelo</h2>
+<p><strong>Campanha ou conjunto de mesas, revisão do registro e responsável:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Questão mais ampla em andamento, se houver:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Situação encerrada ou interrompida</th>
+<th>Mudança confirmada</th>
+<th>Pendência atual</th>
+<th>Quem sabe e quem acompanha</th>
+<th>Possível próximo assunto e condição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p><strong>Estado dos personagens que precisa ser considerado:</strong> referências às versões das fichas e aos <a href="#estado">registros de estado</a>, com data da atualização.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Interesses que os jogadores querem retomar:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Ações que pessoas ou organizações pretendem executar:</strong> indicar meios, condições e como o grupo poderá saber.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>O que não foi confirmado:</strong> hipóteses, promessas, deslocamentos ou intervenções ainda pendentes.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>O que preparar para a próxima missão e por quê:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div>
+<p><strong>Comunicação a outras equipes ou mestres:</strong> quem recebe e quais alterações foram confirmadas.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<h2 id="continuidade--ao-entregar-ou-retomar">Ao entregar ou retomar</h2>
+<p>Acrescente ao registro o que outra pessoa precisa para continuar do ponto certo. Para uma campanha curta, um parágrafo com referências pode bastar.</p>
+<p><strong>Ponto da passagem:</strong> missão concluída ou interrompida; último evento resolvido e próximo turno, ação ou acontecimento a resolver. Indicar tempo da história separadamente da data do registro.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Referências válidas:</strong> preparo, mapa, fichas completas, capacidades próprias, versões e notas de dúvida pertinentes. Identificar onde está o estado atual, evitando cópias sem data.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Informação para cada destinatário:</strong> o que os personagens descobriram ou receberam; fatos reservados ao preparo; o que já foi comunicado e o que ainda depende de contato.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Recebimento:</strong> quem entrega, quem retoma e quais lacunas ainda precisam ser conferidas. Uma mensagem preparada e um contato efetivamente realizado são estados diferentes.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p>Na retomada, confira o ponto da interrupção, os recursos e as condições antes de pedir a próxima ação. Se faltar um dado que pode alterar o resultado imediato, complete a informação a partir da ficha e dos registros pertinentes. A troca de mestre não concede um novo turno, descanso ou recuperação.</p>
+<h2 id="continuidade--sugestoes-e-tarefas-de-revisao">Sugestões e tarefas de revisão</h2>
+<p><strong>Observação recebida, contexto e versão usada:</strong> registrar a dificuldade descrita, sem substituir a fala pela solução imaginada.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+<p><strong>Encaminhamento e motivo:</strong> esclarecimento, correção, mudança a comparar ou escolha que precisa de avaliação. Uma proposta de alterar regra deve aparecer como proposta.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Providência aceita</th>
+<th>Responsável e momento combinado</th>
+<th>Estado, resultado e quem foi informado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p>Use também para dividir tarefas de preparo e registro. Anote a atribuição quando a pessoa a aceitar; manter notas não concede autoridade adicional sobre as fichas.</p>
+<h2 id="continuidade--exemplo-entre-tres-missoes">Exemplo entre três missões</h2>
+<p>A tabela ilustra os resultados escolhidos para uma sequência dos exemplos. Não define o resultado obrigatório de uma mesa.</p>
+<p><strong>Questão em andamento:</strong> como o centro cultural vai manter as atividades enquanto lida com o anexo fechado?</p>
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Situação</th>
+<th>Mudança confirmada</th>
+<th>Pendência atual</th>
+<th>Quem sabe e acompanha</th>
+<th>Possível próximo assunto e condição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A entrega trocada</td>
+<td>Uniforme recuperado com o conserto combinado</td>
+<td>Nenhuma pendência obrigatória sobre a entrega</td>
+<td>Personagem, Nara e Ana conhecem a correção</td>
+<td>Retomar o contato com Nara se o jogador tiver interesse</td>
+</tr>
+<tr>
+<td>As batidas no anexo, versão sem confronto</td>
+<td>Funcionários conferidos; encaminhamento aceito por Mina; uso suspenso</td>
+<td>Criatura continua no depósito; intervenção não confirmada</td>
+<td>Grupo e Ana conhecem a conferência; Mina acompanha o chamado</td>
+<td>Preparar intervenção se o grupo quiser ou outra equipe assumir</td>
+</tr>
+<tr>
+<td>O aviso de reabertura, se o grupo executar a correção</td>
+<td>Canal original e cópias corrigidos; sala alternativa confirmada</td>
+<td>Repasses do convite podem persistir; anexo continua fechado</td>
+<td>Ana e coordenação acompanham a comunicação; Mina continua com o chamado</td>
+<td>Acompanhar atividade se isso interessar ou retomar a ameaça pendente</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<p>As linhas distinguem resolver uma entrega, encaminhar uma ameaça e corrigir informação. Nenhuma delas concede recuperação ou recompensa por si só.</p>
+<p><strong>Para preparar a próxima sessão:</strong> conferir fichas e condições de participação, perguntar quais interesses serão retomados e desenvolver a situação escolhida. Se houver outro desfecho real, substituir as linhas pelos fatos correspondentes antes de continuar.</p>
+<p><strong>Aplicação comentada:</strong> <a href="../apoio-revisao-textual-118/prova-textual.html#passagem">Passar a missão entre mestres</a> preenche o resumo numa interrupção e no fechamento posterior. <a href="guia-de-consulta.html">Escolher uma folha para a mesa</a> ajuda a localizar as folhas vinculadas.</p></div></article></main><p class="rodape-tela"><a href="../131-revisao-das-fichas-de-mesa.md">Registro da revisão</a></p></body></html>

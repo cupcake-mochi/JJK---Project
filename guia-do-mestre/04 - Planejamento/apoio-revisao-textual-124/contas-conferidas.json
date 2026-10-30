@@ -1,0 +1,364 @@
+{
+  "registro": 124,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Febre: crises a cada seis horas",
+      "resultado": [
+        14,
+        20,
+        26,
+        32
+      ],
+      "esperado": [
+        14,
+        20,
+        26,
+        32
+      ]
+    },
+    {
+      "conta": "Febre: término máximo 48 h após o contato (dia 3, 08h)",
+      "resultado": 56,
+      "esperado": 56
+    },
+    {
+      "conta": "Febre: TRs do exemplo contra CD 14",
+      "resultado": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "esperado": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "conta": "Febre: dano da crise e vida",
+      "resultado": [
+        7,
+        33
+      ],
+      "esperado": [
+        7,
+        33
+      ]
+    },
+    {
+      "conta": "Febre: tratamento (falha, espera e nova tentativa)",
+      "resultado": [
+        false,
+        23,
+        25,
+        true
+      ],
+      "esperado": [
+        false,
+        23,
+        25,
+        true
+      ]
+    },
+    {
+      "conta": "Febre: a doença termina antes da crise das 02h",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Febre: horas do profissional",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "conta": "Febre: primeira crise e chegada à enfermaria (1 h de percurso depois de conter às 08h10)",
+      "resultado": [
+        true
+      ],
+      "esperado": [
+        true
+      ]
+    },
+    {
+      "conta": "Ficha: valores da dupla presentes na consulta 75",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "conta": "Ficha: perfis de nível 6 (vida/PE/Integridade)",
+      "resultado": [
+        [
+          65,
+          24,
+          50
+        ],
+        [
+          44,
+          36,
+          55
+        ],
+        [
+          51,
+          30,
+          65
+        ]
+      ],
+      "esperado": [
+        [
+          65,
+          24,
+          50
+        ],
+        [
+          44,
+          36,
+          55
+        ],
+        [
+          51,
+          30,
+          65
+        ]
+      ]
+    },
+    {
+      "conta": "Ficha: estado final igual ao do confronto revisto",
+      "resultado": {
+        "Rina": [
+          "52/65",
+          "24/24",
+          "50/50"
+        ],
+        "Mei": [
+          "44/44",
+          "24/36",
+          "55/55"
+        ],
+        "Akira": [
+          "51/51",
+          "16/30",
+          "65/65"
+        ],
+        "Ren": [
+          "46/72",
+          "1/8",
+          "36/36"
+        ],
+        "Sora": [
+          "0/48",
+          "1/12",
+          "24/24"
+        ]
+      },
+      "esperado": {
+        "Rina": [
+          "52/65",
+          "24/24",
+          "50/50"
+        ],
+        "Mei": [
+          "44/44",
+          "24/36",
+          "55/55"
+        ],
+        "Akira": [
+          "51/51",
+          "16/30",
+          "65/65"
+        ],
+        "Ren": [
+          "46/72",
+          "1/8",
+          "36/36"
+        ],
+        "Sora": [
+          "0/48",
+          "1/12",
+          "24/24"
+        ]
+      }
+    },
+    {
+      "conta": "Ficha: PE gastos (grupo / dupla)",
+      "resultado": [
+        26,
+        18
+      ],
+      "esperado": [
+        26,
+        18
+      ]
+    },
+    {
+      "conta": "Ficha: Fio (montagem e estágio 2)",
+      "resultado": [
+        1,
+        4,
+        true
+      ],
+      "esperado": [
+        1,
+        4,
+        true
+      ]
+    },
+    {
+      "conta": "Ficha: soma de vida da dupla",
+      "resultado": 120,
+      "esperado": 120
+    },
+    {
+      "conta": "Ficha: iniciativas (natural + Destreza 2)",
+      "resultado": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ],
+      "esperado": [
+        18,
+        16,
+        14,
+        12,
+        10
+      ]
+    },
+    {
+      "conta": "Chefe: Integridade do Carregador",
+      "resultado": [
+        [
+          13,
+          16
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "esperado": [
+        [
+          13,
+          16
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "conta": "Chefe: dois corpos somados",
+      "resultado": [
+        64,
+        32
+      ],
+      "esperado": [
+        64,
+        32
+      ]
+    },
+    {
+      "conta": "Chefe: limiar de retirada (10 → 7 PV)",
+      "resultado": [
+        true,
+        true
+      ],
+      "esperado": [
+        true,
+        true
+      ]
+    },
+    {
+      "conta": "Chefe: Mei de A a P e sobra",
+      "resultado": [
+        6,
+        12
+      ],
+      "esperado": [
+        6,
+        12
+      ]
+    },
+    {
+      "conta": "Chefe: Preparar desloca até 9 m; C→P 6 m",
+      "resultado": [
+        true
+      ],
+      "esperado": [
+        true
+      ]
+    },
+    {
+      "conta": "Chefe: estágio 2 (metade do deslocamento) e espaço a 1,5 m de P",
+      "resultado": [
+        4.5,
+        4.5,
+        true,
+        false
+      ],
+      "esperado": [
+        4.5,
+        4.5,
+        true,
+        false
+      ]
+    },
+    {
+      "conta": "Chefe: nome da criatura nas fontes revistas (sem \"Carregador de Sinos\")",
+      "resultado": [],
+      "esperado": []
+    }
+  ],
+  "correcao_documentada": {
+    "caso": "s068",
+    "antes": "Carregador de Sinos",
+    "depois": "Carregador",
+    "fundamento": "Nome usado em todas as outras fontes; \"de Sinos\" misturava a criatura com o Sineiro. Sem mudança de regra ou número."
+  },
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Envenenado",
+      "Concentração e vida temporária",
+      "Preparar",
+      "Estágios de Integridade",
+      "Vida a zero e socorro"
+    ]
+  },
+  "fontes_cruzadas": [
+    "revisao-98/casos/63, 66, 73, 75 e 76: valores conferidos por texto literal."
+  ],
+  "limites": [
+    "Conferência dirigida do calendário, dos valores e das regras existentes. Sem simulação.",
+    "A doença, a dupla e o Carregador continuam experimentais; contas corretas não demonstram equilíbrio."
+  ]
+}

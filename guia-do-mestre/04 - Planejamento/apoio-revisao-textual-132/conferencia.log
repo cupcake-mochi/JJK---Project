@@ -1,0 +1,86 @@
+{
+  "registro": 132,
+  "pdf_sha256": "715e44b5a1a20dbf465546e6fc79ef7dfb07d4fd507e3280d84f37985d71873f",
+  "casos_conferidos": [
+    {
+      "id": "s008",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/08-ficha-de-acordos-do-grupo.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s012",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/12-registro-de-descobertas.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s020",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/20-ficha-de-faccao.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s028",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/28-ficha-de-convivencia.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s032",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s038",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/38-ficha-de-projeto-e-entrega.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 10,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 609,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "mudancas_de_numero": {
+    "s008": [],
+    "s012": [],
+    "s020": [],
+    "s028": [],
+    "s032": [],
+    "s038": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

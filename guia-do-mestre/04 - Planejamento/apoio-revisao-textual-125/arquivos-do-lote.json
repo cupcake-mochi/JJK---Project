@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+    "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+    "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+    "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md"
+  ],
+  "casos": [
+    {
+      "id": "s090",
+      "fonte_original": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+      "id_prova": "reparo"
+    },
+    {
+      "id": "s091",
+      "fonte_original": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+      "id_prova": "restricao"
+    },
+    {
+      "id": "s030",
+      "fonte_original": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+      "id_prova": "pareceres"
+    },
+    {
+      "id": "s031",
+      "fonte_original": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+      "id_prova": "avancados"
+    }
+  ]
+}

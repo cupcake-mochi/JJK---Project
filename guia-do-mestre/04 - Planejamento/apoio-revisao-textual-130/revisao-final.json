@@ -1,0 +1,185 @@
+{
+  "registro": 130,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-130/output/pdf/Ciclo-Maldito-Doma-Construcao-e-Transporte-Revisao-Textual.pdf",
+  "pdf_sha256": "45576d57a7a816651602ccb0dfe16028bdcec41715f2e52e3a10b4bad31fbe55",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 10,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 0,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; nenhuma alteração necessária."
+    }
+  ],
+  "ajuste_de_diagramacao": "Sem ajuste necessário; rótulos presos aos títulos.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-01.png",
+      "imagem_sha256": "358b1c299817082270644506b81d654d2a53eb191e37b64e2a4e4233e21a4788",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do Amontoado e quadro das duas fichas."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-02.png",
+      "imagem_sha256": "8ab859cd1c44c093368732202af1fa6dfea1bd146971ac007bd0f35a216f99aa",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do quadro, ficha adquirida e condução do encontro."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-03.png",
+      "imagem_sha256": "0bdfeb8fa372c06c7562f7c95094e5032aa0a9cf5164c619bac05ab75b75acb7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Golpe que permite a tentativa, tabela de destruição, submissão e registro adquirido."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-04.png",
+      "imagem_sha256": "f2003716c89cc99f59e457fd07a31185f7575f81434399fcb057a56b4f52300f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do quadro adquirido, religar e especial com reserva vazia."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-05.png",
+      "imagem_sha256": "405cfb87072937d8a59d655883975745af9ffc0721e7332dcab39f766bdab9e7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Tentar antes da derrota e registro para a próxima mesa."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-06.png",
+      "imagem_sha256": "e35db0b2b845fb55f81921c2088d5fe742f2fcebbb4df21bf6c1f7d6f0b5fe7d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do Escriba e ficha no nível 5."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-07.png",
+      "imagem_sha256": "f9fb141297020c842412263244cf03362c92b6d8fe539fbdea1df1d5bfa54f91",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Famílias, agulhas e quadro da Agulha perfurante."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-08.png",
+      "imagem_sha256": "85f2f0a3167573a29a085e5f0d2b10a3c6dddc43464193abd71aecc6a5ecd807",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Executar especial e quadro do Retrato de referência."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-09.png",
+      "imagem_sha256": "3b922ab9ea266b1c4bca8f58ed7d773bafba9fbee4cf154fc1071c8db51fb62e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Pedido além dos limites, turno e evolução para o nível 6."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-10.png",
+      "imagem_sha256": "532b78c83cdbae7379e3a4b1a7a329139c1a470803020ec3c5082809ced09075",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Próximos níveis em quadros e registro."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-11.png",
+      "imagem_sha256": "390cfb2c19be54d22f2deb4364b1497e2ca525d59f032ae3ad1e4e3d08754cb0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do Transporte e ficha da Mula."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-12.png",
+      "imagem_sha256": "349afb86000bef65c7060c93472794d9318dba32a27970a55df15a212f5a4402",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Albarda de papel em quadro e a conta de um passageiro."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-13.png",
+      "imagem_sha256": "3c942bf69ae34c06fa066bea61a4e3b29aa0acbc5359dac491bb7a8d19cb4880",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro do passageiro, montar e tarefa que continua."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-14.png",
+      "imagem_sha256": "43f2f47fec7b2a46aeaed9df9b88d0617aa14f6994abe0ba6118d4d3062051d8",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Inconsciência, especial aguardando e recolher; quadro do que fica."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-15.png",
+      "imagem_sha256": "4043af35a39cbf8f1d0319aeeeb7fb8732ab91c6531a630d0a149b0f08b4fc90",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Morte do invocador e maldição livre."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-16.png",
+      "imagem_sha256": "f80da3a65e25c78229c4ce9e33d33067f25f7dfc8d605af1955e90b2f9e722d9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Registro da retirada; abertura do Vigia."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-17.png",
+      "imagem_sha256": "4772116ac2e04a7cb4ea8c43c5a12cd24eab284657b34033c720e88c18e8ceba",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Ficha do Vigia no nível 9 e habilidades."
+    },
+    {
+      "pagina": 18,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-18.png",
+      "imagem_sha256": "a381405a4b4d7aa44a2d48cd9c357fca27bf601715ad5152e3fed970b8816763",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Trabalho, entrega e primeira manifestação; começo da evolução."
+    },
+    {
+      "pagina": 19,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-19.png",
+      "imagem_sha256": "9b612c3b7086898731b5aa24d029c804d42fe6c4b821911243a5482a21478a80",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Evolução, reconstrução e transferência."
+    },
+    {
+      "pagina": 20,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-130/pagina-20.png",
+      "imagem_sha256": "11beee5952f7679a3d9906cf28ca611ba5afac263187cfae3e86ccd47d6c4d91",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Corpo de criação e conferência final."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "A última página termina com meia coluna; reavaliar o fechamento na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

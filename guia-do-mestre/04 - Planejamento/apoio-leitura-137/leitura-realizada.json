@@ -1,0 +1,59 @@
+{
+  "registro": 137,
+  "data": "2026-10-30",
+  "nucleo": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+      "sha256": "3f07ff5a67c3f2614ee96c0aea867a5a3304ffe3e9557b747af596226065b6c2",
+      "palavras_da_fonte": 463,
+      "leitura": "Completa; núcleo da leitura contínua e segunda passagem de clareza, ordem e remissões."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "sha256": "4c99cc0ce0fed67d76092229dec84e18f8346fe82a836df35023e5cebefff2b5",
+      "palavras_da_fonte": 5438,
+      "leitura": "Completa; núcleo da leitura contínua e segunda passagem de clareza, ordem e remissões."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+      "sha256": "d68e82415bf185a844e4ecdb17de98f951bef31b25a8d16c04ea1e49845b2e43",
+      "palavras_da_fonte": 2443,
+      "leitura": "Completa; núcleo da leitura contínua e segunda passagem de clareza, ordem e remissões."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+      "sha256": "93d369009db94efa3f41ca04efc1b847ed6f6d134d72f4d372bdf08088753226",
+      "palavras_da_fonte": 2541,
+      "leitura": "Completa; núcleo da leitura contínua e segunda passagem de clareza, ordem e remissões."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+      "sha256": "3951413da0e1981f8366ed5e6207c2fa6c610518b64afa0452bb0be5543794e2",
+      "palavras_da_fonte": 2736,
+      "leitura": "Completa; núcleo da leitura contínua e segunda passagem de clareza, ordem e remissões."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
+      "sha256": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf",
+      "leitura": "Completa para conferir o exemplo ou a folha usados pelo núcleo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+      "sha256": "9dcb49dcff8f4ad8700e9ce8bfdd92a77bfbaa04e5405b227d407553a2cddd1c",
+      "leitura": "Completa para conferir o exemplo ou a folha usados pelo núcleo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+      "sha256": "552f6f42ade8dc928af47fbfdb5ae0aa8009ebba2d703c8d5f6170de31096670",
+      "leitura": "Completa para conferir o exemplo ou a folha usados pelo núcleo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "leitura": "Completa para conferir o exemplo ou a folha usados pelo núcleo; sem alteração neste lote."
+    }
+  ],
+  "transicao_seguinte": "Abertura e início de Na mesa de jogo consultados; não constitui leitura integral do capítulo 4.",
+  "regras_consultadas": "Trechos de Latente, Sem Técnica, movimento, saltos, Estudar, Vida a zero, janela de socorro, Aguentar, Insistir, Socorro e Sequelas do Livro de Regras 1.0, arquivo técnico R53.",
+  "limite": "Leitura editorial pela ferramenta, não teste com leitor humano nem sessão de mesa. O restante do livro e a inspeção visual global permanecem pendentes."
+}

@@ -1,0 +1,36 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "fonte_anterior": "06 - Redacao do Guia/revisao-98",
+  "manuscrito_integrado": "06 - Redacao do Guia/edicao-integrada-136",
+  "edicao_html": "07 - Edicao de Leitura/edicao-integrada-136",
+  "base_manifesto": 4929,
+  "guia_de_consulta_vigente": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+  "relatorio": "04 - Planejamento/141-leitura-de-atividades-e-recompensas.md",
+  "registro": 141,
+  "fontes_alteradas": [
+    "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md"
+  ],
+  "html_alterados": [
+    "07 - Edicao de Leitura/edicao-integrada-136/capitulo-08.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/caso-34-oficios-fabricacao-e-reparos.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/caso-99-limiar-feitos-e-promocao.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/consulta-16-linha-de-continuidade.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/consulta-38-ficha-de-projeto-e-entrega.html",
+    "07 - Edicao de Leitura/edicao-integrada-136/consulta-40-registro-de-dedicacao-por-ficha.html"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "registro": 124,
+  "mapas": [
+    {
+      "id": "s066",
+      "figura": "04 - Planejamento/apoio-revisao-textual-124/imagens/portao.svg",
+      "sha256": "51eac5205cab05132b9fa01de347f5a192013f387c4c0c44bcc5deef33c6bd83",
+      "origem": "desenho existente em MAPAS.py, sem alteração; o mesmo exportado no apoio 121",
+      "codigo": "08 - Diagramacao do Guia/MAPAS.py",
+      "altura_pontos": 245
+    }
+  ],
+  "origem_sha256": "3c1db39f19af00d02edded50582e0f4d6ee6fd8537e85191801144f3d84ba76d",
+  "criterios": [
+    "O s068 estuda uma resposta preparada no mapa do portão, com posições A, C, P e Q. O desenho s066 de MAPAS.py mostra esses pontos e os percursos; foi exportado como no apoio 121 e posto junto do exemplo.",
+    "O s077 descreve o mesmo recinto e as mesmas posições do confronto s076, cujo mapa está na prova 122. Não foi repetido: a ficha preenchida remete ao confronto.",
+    "O s103 não tem espaço mapeado; não recebe figura."
+  ],
+  "limites": "MAPAS.py não foi alterado. Sem edição de bitmap ou figura nova."
+}

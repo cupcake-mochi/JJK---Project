@@ -1,0 +1,107 @@
+### CONFERIR.py
+{
+ "arquivos": 94,
+ "alteracoes": 283,
+ "links_ruins_antes": 0,
+ "links_ruins_depois": 0,
+ "falhas": []
+}
+ fora: 00-como-usar-este-livro.md ['casos-completos.html']
+ fora: 01-sua-primeira-missao.md ['planta-do-anexo.svg']
+ fora: 03a-ideias-para-aventuras.md ['canal-das-hortas.svg']
+ fora: 06-inimigos-e-perigos.md ['casos-completos.html']
+ fora: 07-personagens-e-tecnicas.md ['27-convivencia-do-receptaculo.md', '92-reserva-condensada-proposta-e-comparacao.md', 'casos-completos.html']
+ fora: 08-entre-missoes.md ['37-recompensas-e-fechamento.md']
+ fora: casos/11-espaco-e-usos-criativos.md ['REFERENCIAS.md']
+ fora: casos/22-quedas-e-socorro.md ['13-piloto-editorial-ocorrencia-sobrenatural.md', '13-piloto-editorial-ocorrencia-sobrenatural.md']
+ fora: casos/33-casos-especificos-de-avaliacao.md ['92-reserva-condensada-proposta-e-comparacao.md']
+ fora: casos/43-aquisicao-e-projetos-de-entidades.md ['14-base-pequena-de-inimigos-r53.md']
+ fora: casos/48-pacifismo-impraticavel-minuta.md ['46-pacifismo-conducao-pela-materia.md']
+ fora: casos/52-domar-o-amontoado.md ['14-base-pequena-de-inimigos-r53.md']
+ fora: casos/57-avaliar-o-encontro-do-amontoado.md ['14-base-pequena-de-inimigos-r53.md']
+ fora: casos/82-testes-trabalho-em-grupo-e-iniciativa.md ['REFERENCIAS.md']
+ fora: casos/83-perceber-procurar-e-interpretar-sinais.md ['REFERENCIAS.md']
+ fora: casos/84-percursos-apoios-e-quedas.md ['REFERENCIAS.md']
+ fora: casos/85-trajetorias-ferramentas-e-improvisacao.md ['REFERENCIAS.md']
+ fora: consultas/LEIA-ME.md ['casos-completos.html']
+
+
+### LEVANTAR.py
+arquivos 93 palavras 181208
+remissões a original já revisto: 0 em 0 arquivos
+remissões a capítulo antigo: 4 em 3 arquivos
+links quebrados: 0
+frases longas repetidas entre arquivos: 2
+arquivos com termo de processo: 13
+  Haru: 5 arquivos
+  Rina: 20 arquivos
+  Mei: 22 arquivos
+  Akira: 13 arquivos
+  Ren: 7 arquivos
+  Kaori: 2 arquivos
+  Mina: 7 arquivos
+  Emi: 3 arquivos
+  Nara: 2 arquivos
+  Davi: 6 arquivos
+  Ana: 7 arquivos
+  Tessa: 3 arquivos
+  Maia: 2 arquivos
+  Taru: 2 arquivos
+  Nao: 4 arquivos
+  Arata: 3 arquivos
+  Kenji: 3 arquivos
+  Hana: 2 arquivos
+  Aoi: 4 arquivos
+
+
+### CONCORDANCIA.py
+Insistir/Aguentar 114 27
+Estabilizar 12 8
+Janela de socorro 199 42
+Bloquear/Aparar/Brecha 75 32
+Iniciativa e empate 95 46
+Desengajar/oportunidade 32 15
+Cobertura 50 25
+Estudar/Ler o Ambiente 23 9
+Teste em grupo/Ajudar 21 13
+Dedicação 28 horas 122 36
+XP e recompensa 31 8
+Descanso 53 20
+Doma 89 28
+Promessa 37 9
+Overtime 6 5
+Integridade 206 48
+Energia Reversa/cura 7 7
+Cortina 15 5
+Patente/Grau 39 10
+Morte permanente 8 6
+Queda/salto 205 49
+Carga/Volume 95 29
+Reação 144 45
+Selo 43 23
+Classe do feitiço/PE 27 14
+
+
+### AUDITAR-RETOMADA.py
+manifesto conferido 800 / 3914
+manifesto conferido 1600 / 3914
+manifesto conferido 2400 / 3914
+manifesto conferido 3200 / 3914
+{
+  "registro": 135,
+  "manifesto_base_entradas": 3914,
+  "entradas_conferidas": 3914,
+  "arquivos_do_levantamento": 94,
+  "arquivos_alterados_pelo_claude": 67,
+  "registros_de_alteracao_reproduzidos": 283,
+  "originais_preservados": 104,
+  "links_e_imagens_conferidos": 582,
+  "links_externos_nao_reabertos": 5,
+  "destinos_locais": {
+    "dentro_da_estrutura_revisada": 543,
+    "apoio_ou_fonte_fora_da_estrutura": 34
+  },
+  "caminhos_absolutos": [],
+  "falhas": [],
+  "metodo": "Hash de cada entrada anterior; reprodução sequencial independente do histórico; links e âncoras conferidos no HTML gerado de cada fonte Markdown. Não substitui leitura semântica integral."
+}

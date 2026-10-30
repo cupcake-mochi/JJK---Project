@@ -1,0 +1,105 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "Antes de jogar, leia a missão inteira. Durante a sessão, use a planta, a ficha da ameaça e o resumo de preparo no final.",
+    "depois": "Antes de jogar, leia a missão inteira. Durante a sessão, tenha à mão a [planta do anexo](<#pessoas-e-lugar>), a [ficha do Amontoado](<#amontoado-do-deposito>) e o [resumo de preparo](<#as-batidas-no-anexo-preparo-para-consulta>).",
+    "motivo": "Encontrar diretamente os três apoios de consulta anunciados na abertura."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "Uma figura de papelões dobrados e fitas, com duas pernas, dois braços e mãos articuladas. Acumula caixas e as move pelo chão.",
+    "depois": "Uma figura de papelões dobrados e fitas, com duas pernas, dois braços e mãos articuladas. Acumula caixas e as move pelo chão.\n\nPara conduzir o encontro, consulte os ataques, as defesas e o comportamento abaixo. A nota de montagem mostra como o feitiço foi criado; você pode voltar a ela quando quiser conferir essa criação.",
+    "motivo": "Distinguir o uso imediato da ficha da explicação técnica de sua criação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "### O que anotar quando alguém cai\n\n",
+    "depois": "### O que anotar quando alguém cai\n\nAnote os campos abaixo junto da ficha. Se quiser uma folha para preenchê-los, use o [Registro de estado e socorro](<consultas/24-registro-de-estado-e-socorro.md#se-houver-queda-em-andamento>).\n\n",
+    "motivo": "Oferecer a folha existente no momento em que o capítulo ensina o registro, sem copiar outro formulário."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "antes": "A Doma tem regras próprias; o capítulo de Pactos e entidades explica seu uso.",
+    "depois": "A Doma tem regras próprias; [Obter uma entidade](<09-pactos-e-entidades.md#94-obter-uma-entidade>) explica seu uso.",
+    "motivo": "Transformar a menção ao capítulo em acesso direto à seção pertinente."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "O capítulo Inimigos e perigos ensina esse trabalho.",
+    "depois": "[Inimigos e perigos](<06-inimigos-e-perigos.md>) ensina esse trabalho.",
+    "motivo": "Permitir consultar o preparo da ameaça a partir do capítulo de mundo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "Uma criação que altere o funcionamento de uma capacidade segue a avaliação explicada em Personagens e técnicas.",
+    "depois": "Uma criação que altere o funcionamento de uma capacidade segue a avaliação explicada em [Personagens e técnicas](<07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>).",
+    "motivo": "Levar ao assunto citado, sem exigir busca no capítulo inteiro."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "antes": "A recomendação do Guia é o mestre interpretá-la mediante acordo, com alternativas explicadas em Personagens e técnicas.",
+    "depois": "A recomendação do Guia é o mestre interpretá-la mediante acordo, com alternativas explicadas em [A outra voz do Receptáculo](<07-personagens-e-tecnicas.md#a-outra-voz-do-receptaculo>).",
+    "motivo": "Aproximar o recorte de Origem de suas alternativas, preservando a escolha aprovada."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Para acompanhar a preparação de uma ameaça já pronta, volte a [Sua primeira missão](<01-sua-primeira-missao.md>).",
+    "depois": "Para acompanhar a preparação de uma ameaça já pronta, volte a [Sua primeira missão](<01-sua-primeira-missao.md>). Se já conhece o método e quer preparar a próxima sessão, vá a [Quando há pouco tempo](<#37-quando-ha-pouco-tempo>) e use a [folha curta de preparo](<consultas/A1-preparar-a-missao.md>).",
+    "motivo": "Oferecer um caminho curto antes do catálogo de ideias, sem mudar a sequência dos métodos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "A folha ao final do capítulo reúne o necessário para começar.",
+    "depois": "O [preparo reunido de Antes que o trem parta](<#antes-que-o-trem-parta>) mostra essas notas prontas para usar.",
+    "motivo": "Atualizar a posição do exemplo e tornar explícito o que significa preparo preenchido."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Se houver confronto com essa pessoa no preparo, acrescente sua ficha. Para conversar, as notas de interpretação podem bastar.",
+    "depois": "Se essa pessoa puder participar de um confronto, prepare também sua ficha. Para uma conversa, as notas de interpretação podem bastar.",
+    "motivo": "Simplificar a frase sem alterar o momento em que a ficha de combate é necessária."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Na despedida, uma promessa de contato pode gerar um próximo encontro.",
+    "depois": "Na despedida, combinar um contato pode levar a outro encontro.",
+    "motivo": "Usar linguagem de conversa para o compromisso comum, evitando aproximação desnecessária com Promessas de Pacto."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Uma promessa cria um compromisso a registrar; um pedido recusado pode levar a outra proposta.",
+    "depois": "Anote os contatos combinados; um pedido recusado pode levar a outra proposta.",
+    "motivo": "Indicar o que registrar no exemplo cotidiano, sem sugerir uma regra de Pacto."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "tipo": "movimento",
+    "trecho": "<!-- folha: despedida -->\n\n## Antes que o trem parta\n\n**Preparo preenchido · encontro de cotidiano · criação original do Guia**\n\n### O começo\n\nHelena vai se mudar e convida o grupo para um café antes da viagem. Combine com os jogadores uma relação anterior com ela; um contato da campanha pode assumir seu lugar. O encontro começa às 18h. Ela pretende sair do café às 18h40 para pegar o trem das 19h. São horários desta situação fictícia.\n\n**Para apresentar:** “Helena escolheu uma mesa perto da janela. Uma mala está ao lado da cadeira. Ela acena quando vocês entram: ‘Queria ver vocês antes de ir. Como foi a semana?’”\n\n### As pessoas\n\n**Helena:** quer se despedir e partir; pergunta por detalhes da vida dos personagens. Aceita combinar contato futuro dentro da disponibilidade que tiver. Sua mudança foi uma decisão própria.\n\n**Nina:** quer continuar recebendo orientação de Helena. Ensaia uma pergunta e hesita diante de outras pessoas. Se tiver espaço, conta a preocupação; pode aceitar uma chamada marcada ou ajuda para encontrar outro contato.\n\n**Raul:** mantém o café e conhece Helena como cliente. Lembra seu pedido habitual, oferece uma mesa mais tranquila e conta uma lembrança se houver oportunidade. Continua atendendo os demais clientes.\n\n### O lugar e as informações\n\nO café tem entrada pela rua, mesas junto à janela, uma mesa tranquila ao fundo e uma saída para o caminho da estação. Raul está no balcão. Nina já chegou; o grupo pode notá-la hesitando ou convidá-la a conversar.\n\nHelena informa seu horário quando o grupo chega. Nina explica sua vontade se puder falar à vontade; o mestre pode descrever sua hesitação para que os jogadores decidam se querem se aproximar. As conversas podem acontecer juntas, em separado ou durante a caminhada até a estação.\n\n### O que pode mudar\n\nÀs 18h40, Helena avisa que vai sair. Acompanhe a passagem do tempo conforme as ações e informe a aproximação desse horário; tempo gasto pelos jogadores conversando fora da cena não avança sozinho o relógio da história. O grupo pode acompanhá-la, despedir-se no café ou combinar outro contato.\n\nAnote os contatos combinados; um pedido recusado pode levar a outra proposta. Se alguém perder a despedida, uma mensagem ou encontro futuro continua possível. As reações emocionais dos personagens pertencem aos jogadores.\n\n### Para encerrar\n\nQuando as pessoas tiverem dito ou feito o que desejavam, acompanhe a partida ou resuma o fim do encontro. Registre contatos combinados e interesses que o grupo queira retomar. Não há ameaça escondida preparada para esta cena nem benefício mecânico concedido pela conversa.\n",
+    "antes_de": "## 3.6 Ideias para sua próxima missão",
+    "motivo": "Ler o exemplo completo logo após os métodos de preparo, antes de abrir o catálogo de ideias."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Em uma folha, anote **a abertura, o que está acontecendo, quem quer o quê, o lugar e o que pode mudar**.",
+    "depois": "Use a [folha curta de preparo](<consultas/A1-preparar-a-missao.md>) para anotar **a abertura, o que está acontecendo, quem quer o quê, o lugar e o que pode mudar**. Se quiser conferir um exemplo pronto, volte a [Antes que o trem parta](<#antes-que-o-trem-parta>).",
+    "motivo": "Completar o caminho de preparo rápido com a folha e o exemplo já existentes."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "O preparo permite responder ao grupo sem decidir quem fará uma promessa ou como a conversa terminará.",
+    "depois": "O preparo ajuda a responder ao grupo; os jogadores decidem o que dizer e fazer na despedida.",
+    "motivo": "Segunda passagem: dizer diretamente quem escolhe as ações, com linguagem de conversa."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "antes": "Use a [folha curta de preparo](<consultas/A1-preparar-a-missao.md>) para anotar **a abertura, o que está acontecendo, quem quer o quê, o lugar e o que pode mudar**. Se quiser conferir um exemplo pronto, volte a [Antes que o trem parta](<#antes-que-o-trem-parta>). Acrescente as referências das regras e fichas de que realmente precisará. Você pode aprofundar um assunto entre sessões quando ele passar a importar.",
+    "depois": "Use a [folha curta de preparo](<consultas/A1-preparar-a-missao.md>) para anotar **a abertura, o que está acontecendo, quem quer o quê, o lugar e o que pode mudar**. Acrescente as referências das regras e fichas de que realmente precisará. Você pode aprofundar um assunto entre sessões quando ele passar a importar.\n\nPara conferir um exemplo pronto, consulte [Antes que o trem parta](<#antes-que-o-trem-parta>).",
+    "motivo": "Segunda passagem: manter os passos de preparo juntos e dar ao exemplo seu próprio parágrafo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+    "antes": "# Ideias para aventuras\n\nEscolha uma situação que interesse ao grupo, alguém que se importe e um lugar onde seja possível agir. Acrescente uma complicação quando ela decorrer do que está acontecendo. Depois, use as cinco perguntas de Preparar aventuras para completar o preparo.\n\nEste conjunto é original, sem revelações da trama de Jujutsu Kaisen. As oito situações são pontos de partida; os dois exemplos ao final mostram como completar o preparo. Escolha, adapte ou combine partes conforme o interesse do grupo.\n\nOs perfis ajudam a interpretar pessoas; prepare fichas antes de usar suas capacidades em jogo. Uma ameaça também precisa de efeitos e meios de enfrentamento definidos, incluindo a conversão se puder ser obtida como entidade. Nos exemplos, as regras aparecem junto da ação.",
+    "depois": "# Ideias para aventuras\n\nAs opções abaixo são originais, sem revelações da trama de Jujutsu Kaisen.\n\n**Escolha o que precisa:** [situações](<#oito-situacoes-para-comecar>), [pessoas](<#seis-pessoas-para-encontrar>), [lugares](<#quatro-lugares-para-usar>) ou [complicações](<#seis-complicacoes-possiveis>). Para acompanhar uma combinação pronta, siga para [A assinatura no coreto](<#combinacao-1-a-assinatura-no-coreto>) ou [Ensaio na outra margem](<#combinacao-2-ensaio-na-outra-margem>).\n\nOs perfis ajudam a interpretar pessoas; prepare fichas antes de usar suas capacidades em jogo. Uma ameaça também precisa de efeitos e meios de enfrentamento definidos, incluindo a conversão se puder ser obtida como entidade.",
+    "motivo": "Retirar a repetição da introdução de 3.6 e permitir escolher as partes do catálogo sem percorrê-lo inteiro."
+  }
+]

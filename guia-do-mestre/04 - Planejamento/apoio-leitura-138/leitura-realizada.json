@@ -1,0 +1,105 @@
+{
+  "registro": 138,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+      "sha256": "54cdf54fa99d71310048b68f5cf87cae5a3b25ee6cd3584712b44cffd22457ce",
+      "palavras_da_fonte": 3851,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+      "sha256": "2796ac7bcbbe277b9c6457395c018585ee64ff8c9f40280634c3796f8991ab23",
+      "palavras_da_fonte": 2301,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "sha256": "4638b119a2cdfd813849572acf8277e3e850a75a7aec8fb5323384859b6b1cee",
+      "palavras_da_fonte": 2117,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "sha256": "2c870c3bc9b75a716df5dc1d9c42b788bc9b85edfa6904cc4d7437f2a1c8c634",
+      "palavras_da_fonte": 3072,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256": "3b81892c9ed97256bef43dc761f1aea6db252a88c50994f29a6e88c0a46b6517",
+      "palavras_da_fonte": 2453,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+      "sha256": "94e132985eb9e8eda188ad4d4164d74ed9977218a708eb421cc45f23b12ec77a",
+      "palavras_da_fonte": 2100,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+      "sha256": "a398fe29f0f205961c32375991dad99bdbb4b2a3acc304b5429c916ad3a69a4b",
+      "palavras_da_fonte": 2481,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/08-ficha-de-acordos-do-grupo.md",
+      "sha256": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb",
+      "palavras_da_fonte": 411,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "sha256": "cddd1a3d85f172102bab4fd8d70843849fac4c1ff9a1e5a0b5984b77e945e5c6",
+      "palavras_da_fonte": 743,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/20-ficha-de-faccao.md",
+      "sha256": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7",
+      "palavras_da_fonte": 404,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+      "sha256": "fd81fd74577298f80b820517e7e3c8821037e8dd83307150cc0a7476c9b96ce2",
+      "palavras_da_fonte": 531,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "sha256": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c",
+      "palavras_da_fonte": 296,
+      "alcance": "Leitura completa; capítulos 4–5 em sequência, com segunda passagem de clareza; casos e folhas comparados às orientações que os citam."
+    }
+  ],
+  "retomadas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+      "sha256": "9dcb49dcff8f4ad8700e9ce8bfdd92a77bfbaa04e5405b227d407553a2cddd1c",
+      "alcance": "Leitura integral realizada no registro 137, fonte inalterada; retomados os trechos de correnteza e saltos na conferência atual."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+      "sha256": "98d2596deead52faf5b9591945decfab1baae2c2b2664bf23d966c680f8e4715",
+      "alcance": "Trecho de revisão de escolha da Origem consultado; adicionada somente uma âncora. Não é leitura integral do capítulo 7."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "alcance": "Demonstração do anexo comparada aos casos 22–23; conserva duas rodadas e uma primeira queda."
+    }
+  ],
+  "regras_consultadas": [
+    "Nível e patente iniciais",
+    "Testes: dificuldade e sucesso com custo",
+    "Testes de grupo e Ajudar",
+    "Influenciar",
+    "Cena e usos de habilidades",
+    "Socorro, Cicatrizes e Derrota e morte",
+    "Rever a Origem"
+  ],
+  "fonte_tecnica": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "limite": "Leitura editorial das fontes e inspeção estrutural do HTML; não teste com pessoas, sessão de mesa ou revisão visual do futuro PDF completo."
+}

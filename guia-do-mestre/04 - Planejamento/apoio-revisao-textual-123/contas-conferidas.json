@@ -1,0 +1,765 @@
+{
+  "registro": 123,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Guardas: Defesa e Bloquear",
+      "resultado": [
+        14,
+        3
+      ],
+      "esperado": [
+        14,
+        3
+      ]
+    },
+    {
+      "conta": "Haru: TRs (For 4, Con 4, Int 5, Ess 3)",
+      "resultado": [
+        6,
+        6,
+        5,
+        3
+      ],
+      "esperado": [
+        6,
+        6,
+        5,
+        3
+      ]
+    },
+    {
+      "conta": "Vigia: TRs (For 4, Con 4, Int 2, Ess 2)",
+      "resultado": [
+        6,
+        6,
+        2,
+        2
+      ],
+      "esperado": [
+        6,
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "conta": "Tessa: TRs (Des 3, Con 3, Int 3, Ess 5)",
+      "resultado": [
+        5,
+        3,
+        3,
+        7
+      ],
+      "esperado": [
+        5,
+        3,
+        3,
+        7
+      ]
+    },
+    {
+      "conta": "Perícias (Percepção/Sentir por Essência, Intuição por Inteligência)",
+      "resultado": [
+        [
+          6,
+          5,
+          5,
+          7
+        ],
+        [
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          7,
+          5,
+          7
+        ]
+      ],
+      "esperado": [
+        [
+          6,
+          5,
+          5,
+          7
+        ],
+        [
+          6,
+          4,
+          4,
+          4
+        ],
+        [
+          7,
+          7,
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "conta": "Carga normal/arrasto",
+      "resultado": [
+        [
+          9,
+          18
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "esperado": [
+        [
+          9,
+          18
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "conta": "Ataque e CDs (8 + atributo + M)",
+      "resultado": [
+        6,
+        14,
+        15,
+        2,
+        10
+      ],
+      "esperado": [
+        6,
+        14,
+        15,
+        2,
+        10
+      ]
+    },
+    {
+      "conta": "Cobrir-se e Kokusen no Refino 4",
+      "resultado": [
+        6,
+        8
+      ],
+      "esperado": [
+        6,
+        8
+      ]
+    },
+    {
+      "conta": "Tessa: golpe desarmado com Maestria 2 (correção documentada)",
+      "resultado": [
+        "1d6 + 2d4",
+        "2d6 + 2d4"
+      ],
+      "esperado": [
+        "1d6 + 2d4",
+        "2d6 + 2d4"
+      ]
+    },
+    {
+      "conta": "Fita: montagens Classe 2 e 4",
+      "resultado": [
+        3,
+        6
+      ],
+      "esperado": [
+        3,
+        6
+      ]
+    },
+    {
+      "conta": "Remendo firme e Orientar o golpe",
+      "resultado": [
+        8,
+        2
+      ],
+      "esperado": [
+        8,
+        2
+      ]
+    },
+    {
+      "conta": "Haru: PE com Fitas e Cobrir-se",
+      "resultado": [
+        2,
+        22,
+        false
+      ],
+      "esperado": [
+        2,
+        22,
+        false
+      ]
+    },
+    {
+      "conta": "Vigia: sete Cobrir-se",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "conta": "Tessa: gastos de 26 PE",
+      "resultado": [
+        26,
+        26,
+        false
+      ],
+      "esperado": [
+        26,
+        26,
+        false
+      ]
+    },
+    {
+      "conta": "Estágio 2: Fita, Remendo e Impulso",
+      "resultado": [
+        8,
+        16,
+        16,
+        4,
+        false
+      ],
+      "esperado": [
+        8,
+        16,
+        16,
+        4,
+        false
+      ]
+    },
+    {
+      "conta": "Estágio 3: Classe máxima",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "conta": "Integridade: Haru 140, Vigia 60, Tessa 40",
+      "resultado": [
+        [
+          [
+            106,
+            140
+          ],
+          [
+            71,
+            105
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            46,
+            60
+          ],
+          [
+            31,
+            45
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            31,
+            40
+          ],
+          [
+            21,
+            30
+          ],
+          [
+            11,
+            20
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "esperado": [
+        [
+          [
+            106,
+            140
+          ],
+          [
+            71,
+            105
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            46,
+            60
+          ],
+          [
+            31,
+            45
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            31,
+            40
+          ],
+          [
+            21,
+            30
+          ],
+          [
+            11,
+            20
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "conta": "Integridade = metade da vida",
+      "resultado": [
+        140,
+        60,
+        40
+      ],
+      "esperado": [
+        140,
+        60,
+        40
+      ]
+    },
+    {
+      "conta": "Intervalo da Fita: avisa 1, conjura 2, avisa 3, conjura 4",
+      "resultado": [
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "conta": "Fecho de aço pequeno e resistente",
+      "resultado": [
+        18,
+        5
+      ],
+      "esperado": [
+        18,
+        5
+      ]
+    },
+    {
+      "conta": "Sala: 6 × 12 células de 1,5 m",
+      "resultado": [
+        9.0,
+        18.0
+      ],
+      "esperado": [
+        9.0,
+        18.0
+      ]
+    },
+    {
+      "conta": "Fita C4: média antes do TR",
+      "resultado": 27.0,
+      "esperado": 27.0
+    },
+    {
+      "conta": "Fita: falha e dano médio por alvo",
+      "resultado": [
+        [
+          30,
+          17.73
+        ],
+        [
+          9,
+          14.94
+        ],
+        [
+          50,
+          20.38
+        ],
+        [
+          60,
+          21.7
+        ]
+      ],
+      "esperado": [
+        [
+          30,
+          17.73
+        ],
+        [
+          9,
+          14.94
+        ],
+        [
+          50,
+          20.38
+        ],
+        [
+          60,
+          21.7
+        ]
+      ]
+    },
+    {
+      "conta": "Fita: Emanador com Cobrir-se (−6 por aplicação, mínimo zero)",
+      "resultado": 14.38,
+      "esperado": 14.38
+    },
+    {
+      "conta": "Fita: mesmas médias no apoio-lote7",
+      "resultado": [
+        17.72,
+        14.94,
+        20.38,
+        21.7,
+        14.38
+      ],
+      "esperado": [
+        17.72,
+        14.94,
+        20.38,
+        21.7,
+        14.38
+      ]
+    },
+    {
+      "conta": "Tabela de composições contra o apoio-lote7",
+      "resultado": [
+        [
+          18.1,
+          34.8,
+          3.7
+        ],
+        [
+          61.9,
+          84.9,
+          23.7
+        ],
+        [
+          37.2,
+          48.7,
+          6.7
+        ],
+        [
+          38.1,
+          52.7,
+          11.8
+        ]
+      ],
+      "esperado": [
+        [
+          18.1,
+          34.8,
+          3.7
+        ],
+        [
+          61.9,
+          84.9,
+          23.7
+        ],
+        [
+          37.2,
+          48.7,
+          6.7
+        ],
+        [
+          38.1,
+          52.7,
+          11.8
+        ]
+      ]
+    },
+    {
+      "conta": "Tessa ativa após o primeiro conjunto (três feitiços / misto)",
+      "resultado": [
+        14.9,
+        24.9
+      ],
+      "esperado": [
+        14.9,
+        24.9
+      ]
+    },
+    {
+      "conta": "Queda não é derrota contra o apoio-lote7",
+      "resultado": [
+        [
+          87.1,
+          0.1
+        ],
+        [
+          87.1,
+          58.2
+        ]
+      ],
+      "esperado": [
+        [
+          87.1,
+          0.1
+        ],
+        [
+          87.1,
+          58.2
+        ]
+      ]
+    },
+    {
+      "conta": "Socorro: Fita e queda de Mei",
+      "resultado": [
+        true,
+        27,
+        true,
+        14
+      ],
+      "esperado": [
+        true,
+        27,
+        true,
+        14
+      ]
+    },
+    {
+      "conta": "Socorro: janela, Insistir e Aguentar com máximo 137",
+      "resultado": [
+        2,
+        46,
+        60,
+        35
+      ],
+      "esperado": [
+        2,
+        46,
+        60,
+        35
+      ]
+    },
+    {
+      "conta": "Socorro: curas de Akira e Bao",
+      "resultado": [
+        36,
+        63,
+        4,
+        10,
+        54,
+        46,
+        true
+      ],
+      "esperado": [
+        36,
+        63,
+        4,
+        10,
+        54,
+        46,
+        true
+      ]
+    },
+    {
+      "conta": "Perfis de nível 15 (apoio-lote7)",
+      "resultado": [
+        [
+          "Bastiao",
+          185,
+          60,
+          8
+        ],
+        [
+          "Emanador",
+          137,
+          90,
+          4
+        ],
+        [
+          "Guia",
+          153,
+          75,
+          2
+        ]
+      ],
+      "esperado": [
+        [
+          "Bastiao",
+          185,
+          60,
+          8
+        ],
+        [
+          "Emanador",
+          137,
+          90,
+          4
+        ],
+        [
+          "Guia",
+          153,
+          75,
+          2
+        ]
+      ]
+    },
+    {
+      "conta": "Pino de cerâmica pequeno e frágil; Arremesso",
+      "resultado": [
+        12,
+        2,
+        true,
+        true
+      ],
+      "esperado": [
+        12,
+        2,
+        true,
+        true
+      ]
+    },
+    {
+      "conta": "Sala: A0 a A12",
+      "resultado": 18.0,
+      "esperado": 18.0
+    },
+    {
+      "conta": "Exemplo: exposição, cura e PE",
+      "resultado": [
+        true,
+        40,
+        44,
+        3,
+        24,
+        true,
+        true
+      ],
+      "esperado": [
+        true,
+        40,
+        44,
+        3,
+        24,
+        true,
+        true
+      ]
+    },
+    {
+      "conta": "Exemplo: Insistir com máximo 44 e cura de 15",
+      "resultado": [
+        15,
+        30,
+        15,
+        true
+      ],
+      "esperado": [
+        15,
+        30,
+        15,
+        true
+      ]
+    },
+    {
+      "conta": "Duração: aplicada na rodada 1, expira na rodada 11",
+      "resultado": 11,
+      "esperado": 11
+    }
+  ],
+  "correcao_documentada": {
+    "caso": "s101",
+    "antes": "golpe desarmado de Tessa 1d4 + 2d4, crítico 2d4 + 2d4",
+    "depois": "1d6 + 2d4, crítico 2d6 + 2d4",
+    "fundamento": "Livro de Regras 1.0: dado desarmado d4 com Maestria 1, d6 com Maestria 2. Tessa tem Maestria 2."
+  },
+  "resultados_anteriores": {
+    "fonte": "04 - Planejamento/apoio-lote7/resultados.json",
+    "sha256": "a9d1c2f1f7cc6b9fb795e86ea6696631f03350c92eaa769ccd19386d0ba485d8",
+    "uso": "Lido para comparar as tabelas do s102; o calcular.py antigo não foi executado, porque grava arquivos."
+  },
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Atributos das perícias",
+      "Dado desarmado por Maestria",
+      "Canalizar em Golpe por Refino",
+      "Cobrir-se de Energia e Kokusen",
+      "Prende",
+      "Objetos: Defesa por material e vida por porte",
+      "Nem Um Arranhão e Duro de Matar",
+      "Vida a zero, Aguentar, Insistir, janela e cura do tratamento",
+      "Estágios de Integridade",
+      "Envenenado, condições Pesadas e Concentração",
+      "Visão em fumaça leve",
+      "Corpos amaldiçoados e Envenenado"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e das regras existentes. Sem nova simulação.",
+    "As porcentagens de composição e de queda vêm do cálculo do apoio-lote7 e foram comparadas com ele; as médias da Fita foram recalculadas exatamente.",
+    "As fichas e o perigo continuam experimentais; contas corretas não demonstram equilíbrio."
+  ]
+}

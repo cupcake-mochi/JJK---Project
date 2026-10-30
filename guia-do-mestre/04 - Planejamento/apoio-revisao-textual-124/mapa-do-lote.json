@@ -1,0 +1,20 @@
+{
+  "registro": 124,
+  "lote": "B2-06",
+  "casos": [
+    "s103",
+    "s077",
+    "s068"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-124/output/pdf/Ciclo-Maldito-Doenca-e-Fichas-Preenchidas-Revisao-Textual.pdf",
+  "paginas": 11,
+  "casos_revistos_total": 33,
+  "casos_pendentes": 26,
+  "lotes_pendentes": 6,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B3-01",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

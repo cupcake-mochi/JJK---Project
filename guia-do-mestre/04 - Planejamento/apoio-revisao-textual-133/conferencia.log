@@ -1,0 +1,76 @@
+{
+  "registro": 133,
+  "pdf_sha256": "a7f80cb978df89b125d5315ad55cabcf15dbc4f921337f455778702cb48ac067",
+  "casos_conferidos": [
+    {
+      "id": "s040",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s042",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s044",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 3,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s058",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 6,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s061",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 14,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 641,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "mudancas_de_numero": {
+    "s040": [],
+    "s042": [],
+    "s044": [],
+    "s058": [],
+    "s061": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

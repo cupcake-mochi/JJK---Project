@@ -1,0 +1,1855 @@
+
+=== PÁGINA 1 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+CONSULTA DO MESTRE
+
+Obter e criar entidades
+Uma entidade é uma criatura com ficha própria.
+Comece perguntando qual trabalho ela fará na
+equipe e como o personagem poderá obtê-la. Uma
+ave de papel pode servir de vigia, mas sua aparência
+não concede visão compartilhada, telepatia ou
+capacidade de transportar pessoas.
+
+Esta seção ajuda a conferir como a entidade é
+obtida e o que acontece com ela depois. A
+montagem completa usa Construir invocações, no
+Livro de Regras 1.0; atuação, custos de entrada e
+estados usam Invocações em campo. Use a folha de
+entidade para deixar as decisões disponíveis aos
+próximos mestres.
+
+Escolha a forma de aquisição
+Forma
+
+Como obter
+
+O que acompanha o personagem
+
+Espaço
+conhecido
+
+A técnica, Manejo ou Kata precisa prever criar,
+chamar ou controlar entidades. Uma vaga concede
+uma entidade do nível do invocador.
+
+A entidade acompanha seu nível; a vaga
+continua ocupada enquanto ela estiver
+recolhida.
+
+Lista de
+ritual
+
+Um feitiço em espaço conhecido contém a lista e os
+desafios individuais definidos antes do uso.
+
+As entidades conquistadas acompanham seu
+nível. Novas entradas exigem a permissão
+escrita da técnica.
+
+Criação
+
+Uma pessoa treinada no ofício compatível prepara a
+entidade, cumpre o trabalho autorizado e faz o teste
+de criação.
+
+A criada acompanha o invocador até o último
+nível de sua Classe; passar à seguinte exige
+reconstrução.
+
+Maldição
+domada
+
+Encontrar uma maldição de nível permitido, derrotála sem destruir e resolver a submissão.
+
+A domada conserva o nível em que foi obtida.
+
+Classe 0 e benefícios recebidos fora da lista de
+espaços não dão vagas para a troca por entidade.
+Manejo e Kata podem permitir a troca de espaço
+quando sua definição comportar a entidade, mas
+não recebem por isso a modalidade de lista de
+ritual. Na rota sem energia, os custos continuam
+sendo pagos com Pontos de Esforço; a aquisição
+não cria energia amaldiçoada pessoal.
+
+progressão da entidade. Cada habilidade precisa
+caber no orçamento dela; pontos de montagem e
+PE de uso são contas diferentes.
+
+Fabricar ou domar não exige técnica de invocação
+nem ocupa espaço conhecido apenas pela
+existência da entidade. Ainda é preciso cumprir a
+aquisição, pagar os usos e respeitar seus limites.
+Não há teto geral de entidades adquiridas, mas o
+limite normal é duas ativas ao mesmo tempo, salvo
+uma permissão específica. Corpos mantidos têm
+uma conta própria.
+
+• A ficha possui a capacidade? Parecer uma ave
+não concede automaticamente todos os sentidos
+e poderes imaginados pelo jogador.
+
+Prepare a ficha antes da tentativa
+Registre origem, corpo, nível, Classe, definição,
+anatomia, comunicação e ofício compatível quando
+exigido. Confira atributos, testes, Defesa, vida,
+Famílias, básicas, especiais e talentos usando a
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Separe três perguntas:
+• O corpo consegue fazer isso? Uma boca pode
+segurar algo compatível, mas não fornece mãos
+para qualquer manobra.
+
+• Como a informação chega ao invocador? A
+criatura pode perceber uma pista sem conseguir
+descrevê-la por fala ou telepatia.
+O Cão de sombra e o Vigia de papel, no Livro de
+Regras 1.0, são exemplos completos de construção.
+Use-os para conferir o caminho entre definição e
+números, sem transferir seus talentos
+gratuitamente a outras entidades.
+
+1
+
+
+=== PÁGINA 2 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Construir e evoluir o Escriba de campo percorre
+uma ficha original, compara as compras, propõe
+um talento de informação e acompanha a evolução.
+Use o caso junto das orientações de avaliação de
+criações.
+
+Preparar uma lista de ritual
+Antes de liberar a tentativa, escreva a entrada da
+lista: ficha, condição para começar, espaço do
+desafio, objetivo, resultado da vitória e como a
+tentativa termina. Confira também o que acontece
+se houver interrupção ou falha. O jogador precisa
+conhecer esses termos antes de investir recursos.
+O desafio é individual. Ajuda de outra criatura não
+conta como vitória individual. Se aliados intervêm,
+resolva a intervenção e aplique o resultado previsto
+na ficha do ritual; não declare que a participação
+ficou invisível para o requisito. Uma intervenção
+pode salvar o personagem sem conquistar a
+entidade.
+A prova do Cão de sombra apresenta uma entrada
+completa, com ficha do Livro de Regras 1.0 e
+condições locais propostas: espaço, começo, vitória,
+ajuda, falha e estado da entidade ao terminar.
+
+Apresente previamente a ficha jogável que
+resultará da aquisição. Conserve identidade e
+funções, ajustando a construção à escala de
+entidade. Não transfira automaticamente ações
+extras de inimigo nem um turno independente. As
+conversões de Três maldições para a missão
+mostram três resultados experimentais preparados
+com o Livro de Regras 1.0; seus valores ainda
+precisam de avaliação em mesa.
+Antes do golpe final. Confira destruição com a
+ficha do encontro. No exemplo publicado do Livro
+de Regras 1.0, uma entidade com 52 PV máximos e
+8 atuais recebe 30 de dano direto: o excedente é 22,
+abaixo de metade do máximo, e ela cai sem ser
+destruída. Com 35 de dano direto, o excedente é 27,
+acima da metade, e ela é destruída. Uma ocorrência
+direta que alcance a vida máxima também destrói.
+Dano em área pode derrubar, mas não destrói por
+si; dano posterior em um corpo Desligado exige
+acompanhar o excedente pelas regras próprias.
+A Doma não faz uma criatura caída se levantar nem
+restaura seus recursos. Registre o estado na ficha
+resultante, respeitando os máximos e o retorno
+aplicável.
+
+Domar uma maldição
+
+O mestre pode autorizar uma tentativa durante o
+combate, antes da derrota. Nesse caso, define a
+quantidade de vida que permite tentar; o
+personagem gasta Ação Padrão e resolve o mesmo
+TR, com os mesmos resultados. Informe a condição
+autorizada antes da tentativa. Não há regra geral de
+metade da vida nem penalidade automática no TR
+por estar ferida.
+
+Na doma de uma maldição, o grupo pode ajudar na
+luta. O personagem só pode obter uma maldição de
+nível igual ou inferior ao seu. Derrotá-la sem
+destruí-la permite, fora de combate, um TR
+Espírito da maldição contra a CD de conjuração
+da rota do personagem.
+
+Domar o Amontoado do depósito conduz a
+aquisição completa: apresenta a conversão, mostra
+a derrota sem destruição, resolve o TR e registra o
+estado recebido. Também compara a tentativa
+antecipada, sem definir uma quantidade de vida
+que sirva para toda Doma.
+
+Resultado da maldição
+
+Consequência
+
+Criar uma entidade
+
+Falha no TR
+
+É domada.
+
+Iguala ou supera a CD
+
+É exorcizada.
+
+Shikigamis de criação usam talismãs; corpos
+amaldiçoados de criação usam peças. O mestre
+define a oportunidade e o custo de tempo e
+materiais. O responsável precisa ser treinado no
+ofício compatível registrado na ficha e pode criar
+para si ou para outro invocador, identificado antes
+do teste.
+
+A lista de ritual não é o uso dos Pontos de Ritual
+para preparar uma conjuração. Uma não concede
+os benefícios da outra. A autorização de trocar um
+espaço por entidade também não cria uma lista
+ilimitada.
+
+Como o sucesso da maldição a exorciza, não é
+possível repetir o teste até ela falhar. Com CD 12,
+total 11 permite domar; total 12 exorciza.
+
+Confira os seguintes pontos na ficha de projeto:
+Ponto
+
+Decisão a registrar
+
+Resultado
+
+Ficha da entidade e invocador que a receberá. Cada entidade pede tentativa própria.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+2
+
+
+=== PÁGINA 3 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Ponto
+
+Decisão a registrar
+
+Acesso
+
+Conhecimento, ferramentas, local e materiais que tornam o trabalho possível.
+
+Classe
+
+Não pode superar a de quem cria nem a do invocador.
+
+Nível
+inicial
+
+Nível do invocador, limitado ao último nível da Classe escolhida.
+
+Dedicação
+
+Horas de trabalho exigidas, tarefas que podem ser interrompidas e eventual ajuda.
+
+Espera
+
+Entrega de materiais, liberação de local ou outro prazo separado do trabalho.
+
+Teste
+
+Responsável, atributo adequado, Maestria, Classe comparada e modificadores válidos.
+
+Falha
+
+Entidade ainda sem funcionar; condições para autorizar outra tentativa, incluindo trabalho ou
+materiais necessários.
+
+As horas disponíveis no ciclo não definem quanto
+tempo leva para criar uma entidade. Um projeto
+não passa a custar 28 horas porque esse é o
+orçamento semanal. Depois de combinado o prazo
+do projeto, distribua seu trabalho nos registros de
+cada participante, conforme Tempo entre missões.
+Não cobre uma hora duas vezes da mesma ficha.
+Quando houver ajudante válido, cada personagem
+registra o tempo que efetivamente dedicou. Duas
+fichas da mesma pessoa têm disponibilidades
+independentes; isso não transforma o saldo de uma
+em horas trabalhadas pela outra.
+O Guia oferece referências de trabalho, orçamento
+e retomada em Tempo e materiais para criar
+entidades, com uma opção simples e outra
+detalhada. Use-as para preencher o projeto antes
+do início.
+
+Resolva o teste de criação
+Depois de cumprir o trabalho combinado, o
+responsável rola d20 + atributo adequado ao ofício
++ Maestria, com os modificadores que se
+aplicarem. A base da CD usa
+8 + esse atributo + essa Maestria. Compare a
+Classe escolhida para a entidade com a de quem
+cria:
+Classe da entidade
+
+Ajuste à CD
+
+Igual à de quem cria
+
+0
+
+Uma abaixo
+
+−2
+
+Duas ou mais abaixo
+
+−4
+
+Igualar a CD é sucesso. Especialização e outros
+modificadores alteram a rolagem conforme suas
+regras; não aumentam novamente a base da CD.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Exemplo do Livro de Regras 1.0. Uma calígrafa de
+nível 13, Destreza 4 e Maestria 2 prepara uma
+entidade de Classe 3 para um invocador de nível 9.
+A Classe da calígrafa é 4, portanto a entidade está
+uma abaixo. A CD é 8 + 4 + 2 − 2 = 12. O teste é
+d20 + 6: resultado 6 no dado basta. A entidade
+começa no nível 9. O nível da calígrafa não a faz
+começar no nível 13.
+
+Ajuda e nova tentativa
+Nos testes de criação, reconstrução e transferência,
+a vantagem pode vir de um ajudante treinado no
+ofício compatível, com permissão do mestre e
+dedicando o mesmo tempo que o responsável, ou
+de uma habilidade que dê vantagem permanente
+nesse teste. Vantagem temporária, ativada ou por
+cena não serve. A vantagem da tentativa seguinte a
+uma falha vem da regra própria e continua válida.
+O ajudante não fornece outra tentativa para a
+mesma entidade nem reduz automaticamente o
+prazo pela metade. A ajuda precisa corresponder ao
+trabalho registrado.
+Se a calígrafa do exemplo tirar 5, seu total será 11: a
+entidade ainda não funciona. A nova tentativa
+ocorre quando o mestre permitir e tem vantagem.
+Se, nessa tentativa autorizada, os dados forem 2 e 8,
+use 8: total 14, sucesso. Essa resolução não define
+quantas horas ou quais materiais foram necessários
+entre as tentativas; tais exigências pertencem ao
+projeto, comunicadas previamente.
+A falha não autoriza inventar depois uma perda
+total de materiais, destruição da ficha ou rolagens
+gratuitas até funcionar. Preserve o resultado do
+Livro de Regras 1.0 e use as condições de retomada
+registradas para o projeto.
+
+3
+
+
+=== PÁGINA 4 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Conclua e acompanhe a evolução
+Uma entidade nova começa com vida máxima. O
+shikigami fica recolhido no talismã, sem carga; o
+corpo permanece inativo onde foi construído. O
+talismã ocupa 0,5 de Volume. Aquisição concluída
+não paga manifestação nem ativa o corpo à
+distância.
+A criada acompanha o invocador até o último nível
+de sua Classe:
+Classe
+
+Níveis
+
+1
+
+1–4
+
+2
+
+5–8
+
+3
+
+9–12
+
+4
+
+13–16
+
+5
+
+17–20
+
+6
+
+21–25
+
+7
+
+26–30
+
+Quando o invocador da entidade de Classe 3 chegar
+ao nível 12, ela poderá acompanhá-lo. Ao chegar ao
+13, ela permanece limitada ao 12 até ser
+reconstruída para Classe 4. A maldição domada não
+usa essa evolução: conserva o nível de aquisição.
+
+Reconstruir
+Os prazos de referência e os projetos completos
+estão em Reconstruir, transferir e herdar entidades.
+A reconstrução usa o teste de criação, comparando
+a nova Classe com a de quem reconstrói, e reduz a
+dificuldade em um degrau. Classe igual passa a
+ajuste −2; uma abaixo passa a −4; duas ou mais
+abaixo continuam em −4. A nova Classe não pode
+superar a do responsável nem a do invocador. É um
+teste por Classe.
+Se a mesma calígrafa de Classe 4 reconstruir a
+entidade para Classe 4, quando o invocador
+também puder recebê-la, a CD será
+8 + 4 + 2 − 2 = 12. Criar do zero uma entidade dessa
+Classe teria CD 14. Essa diferença de dificuldade
+não determina um desconto universal no tempo ou
+nos materiais.
+Na falha, a entidade continua onde está; outra
+tentativa depende da permissão do mestre e tem
+vantagem. Não trate reconstrução como reparo de
+vida nem como meio de recuperar uma entidade
+destruída: para a destruída, é preciso criar outra.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Transferir ou herdar
+Transferir um talismã ou corpo criado exige o
+mesmo teste de criação, fora de combate, com
+consentimento do dono anterior ou após a morte
+dele. O novo invocador precisa ter Classe igual ou
+superior à da entidade. Posse do objeto não
+transfere o vínculo automaticamente.
+Não use na transferência a redução de dificuldade
+própria da reconstrução. Para a calígrafa de Classe
+4 transferir uma entidade de Classe 3, a CD do
+exemplo continua 12 porque ela está uma Classe
+abaixo; uma transferência de entidade da mesma
+Classe teria CD 14.
+No sucesso, registre o novo invocador e atualize os
+valores que dependem dele, preservando Classe,
+ficha, vida atual, usos gastos, queda e carga do
+talismã. A entidade acompanha o novo invocador
+dentro da Classe dela. Transferir não recupera
+energia, não concede outra atuação no ciclo e não
+religa um corpo Desligado.
+Exemplo de continuidade. Um talismã de Classe 3,
+com entidade ferida e um uso já gasto, é transferido
+entre dois invocadores de nível 9. Depois do
+sucesso, a nova pessoa recebe a mesma entidade
+ferida, com aquele uso gasto e a carga que o talismã
+tinha. A troca de nome no registro não produz uma
+criatura nova com recursos completos.
+Na falha, o vínculo anterior permanece ou o objeto
+continua sem invocador vivo. A nova tentativa
+autorizada tem vantagem.
+
+Acompanhar a entidade entre cenas
+Uma tarefa deve indicar algo que a entidade
+consiga reconhecer: vigiar aquela porta, seguir a
+pessoa apontada ou proteger a escada. O vínculo
+não concede mensagens que ela não pode receber.
+Uma ordem recebida pode continuar quando a
+comunicação falha; uma ordem nova precisa chegar
+e ser compreendida.
+Manifestar em entrada comum não dá básica
+naquele ciclo. Comandar uma especial
+normalmente usa a Padrão do invocador e a básica
+da entidade. Trocar, recolher e trazer de volta não
+renovam recursos gastos. O ciclo de atuação das
+entidades vai do começo de um turno do invocador
+ao começo do próximo; não é o ciclo de sete dias da
+guilda.
+Confira também transporte. Uma entidade precisa
+de característica própria, ocupando um talento,
+para transportar carga adicional ou personagens.
+
+4
+
+
+=== PÁGINA 5 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Quantidade de passageiros, anatomia e Movimento
+devem constar da montagem. Objetos carregados
+para outra pessoa ou apanhados pelo caminho
+caem quando a entidade é recolhida, salvo
+permissão expressa; corpos que permanecem no
+campo conservam seus objetos no lugar.
+Corpos inativos não substituem trabalhadores
+treinados: falham nas rolagens, não agem e não
+recebem tarefas. O Livro de Regras 1.0 permite
+interpretação e trabalhos extremamente simples
+que dispensem rolagem, sem transformar esse
+estado em fabricação autônoma de entidades.
+Transporte com entidades mostra uma ficha
+completa de montaria, um talento experimental
+com capacidade delimitada, a conta de um
+passageiro e o registro da retirada. Use o exemplo
+também para distinguir a continuação de uma
+tarefa recebida da emissão de ordens novas.
+
+Quando o invocador deixa de agir
+Inconsciência e morte seguem regras diferentes.
+Enquanto o personagem está inconsciente, as
+entidades que permanecem em campo podem
+continuar suas tarefas e executar ordens anteriores
+
+PROJETOS E RITUAL
+
+válidas, respeitando os recursos. Ele não dá
+comandos novos. Estar a zero de vida não basta
+para antecipar inconsciência ou morte: confira as
+regras do personagem.
+Depois da morte confirmada, ordens e preparações
+terminam; as entidades saem de campo, e as que
+não podem ser recolhidas ficam Desligadas no
+lugar. Aplique então o destino de sua origem:
+Origem
+
+Continuidade
+
+Técnica
+
+Desaparece com o dono; um corpo
+autônomo com alma fica sob controle do
+mestre.
+
+Criação
+
+Permanece como objeto, com a carga
+conservada no talismã e o corpo parado.
+Herança exige transferência.
+
+Maldição
+domada
+
+Fica livre, sob controle do mestre, e
+pode ser domada por outra pessoa.
+
+Uma maldição livre não permanece obrigada à
+última tarefa. Resolva sua conduta pela situação e
+pelo que foi estabelecido sobre ela. Preserve
+oportunidades de socorro ainda disponíveis antes
+de aplicar esse desfecho definitivo.
+
+CONSULTA DO MESTRE
+
+Tempo e materiais para criar entidades
+Use esta seção para preparar um projeto de criação
+de entidade. Ela desenvolve a decisão de tempo e
+materiais que o Livro de Regras 1.0 entrega ao
+mestre. Aquisição, Classe, ficha, teste e conclusão
+seguem as regras de Obter e criar entidades.
+
+Comece com uma referência comum
+Para um projeto usual, com ficha conferida e meios
+adequados, este Guia recomenda o seguinte
+trabalho de criação:
+
+Classe da entidade
+
+Dedicação de quem cria
+
+1
+
+8 horas
+
+2
+
+16 horas
+
+3
+
+32 horas
+
+4
+
+48 horas
+
+5
+
+72 horas
+
+6
+
+96 horas
+
+7
+
+128 horas
+
+A tabela é uma referência de projetos do Guia. O
+tempo cobre o trabalho normal completo, da
+preparação à conclusão. Não acrescente outro
+prazo igual para a mesma fabricação.
+A referência atende um talismã ou corpo usual. Um
+projeto que exige uma estrutura incomum pode
+precisar de trabalho adicional: explique qual tarefa
+será feita e registre sua dedicação antes do início.
+Descrever pintura, personalidade ou aparência não
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+5
+
+
+=== PÁGINA 6 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+aumenta o prazo por si. Uma peça comprada pronta
+também não precisa ser fabricada outra vez; o
+projeto deve identificar o trabalho que ainda falta.
+
+processo. Essa divisão é ilustrativa e não cria três
+testes de criação. O teste de conclusão acontece
+quando o trabalho combinado estiver cumprido.
+
+A tabela não cobra trabalho de uma entidade
+adquirida por espaço conhecido, lista de ritual ou
+doma. Essas formas seguem suas próprias regras.
+Reconstrução para subir de Classe, transferência,
+reparo de vida e retorno após uma queda são
+operações diferentes; seus projetos precisam
+identificar o trabalho correspondente, sem usar
+automaticamente o prazo de criação integral. As
+referências específicas estão em Reconstruir,
+transferir e herdar entidades.
+
+Não é necessário trabalhar em blocos de quatro
+horas. Interrupções conservam o progresso quando
+a tarefa as comportar. Se uma etapa precisar de
+dedicação contínua, explique essa condição no
+projeto antes do gasto.
+
+Registre horas, apresente etapas
+Use horas para a contagem e etapas para explicar o
+trabalho. O registro pode ser simples: “32 horas
+necessárias; 20 realizadas; 12 restantes.” Não exige
+descrever cada hora nem cada dia de trabalho.
+Uma criação de 32 horas pode ser apresentada
+como oito horas preparando o suporte, dezesseis
+executando a inscrição e oito concluindo o
+
+A guilda recomenda 28 horas por ficha a cada ciclo
+de sete dias, com o saldo previsto em Tempo entre
+missões. Um projeto de 32 horas pode atravessar
+ciclos; as horas já realizadas ficam no projeto. Não
+se perdem porque a semana terminou nem voltam a
+ser saldo livre.
+Uma espera fica separada. Se a peça chega em dois
+dias, isso não consome automaticamente oito horas
+de dedicação. O personagem pode fazer outro
+trabalho compatível enquanto aguarda. Também
+precisa dispor de tempo na história para executar o
+projeto depois da entrega.
+
+Calcule os materiais antes de começar
+Separe o que fica, o que é consumido e o que permite trabalhar.
+Recurso
+
+O que informar
+
+Peças aproveitáveis
+
+Suporte, estrutura ou componentes que permanecem durante o processo e podem ser
+preservados depois de uma falha.
+
+Consumíveis por
+tentativa
+
+Quantidade e custo do que será usado e precisará de reposição caso seja necessário tentar
+de novo.
+
+Ferramentas e local
+
+O que já existe, precisa ser comprado, pode ser emprestado ou exige acesso específico.
+
+Use os preços publicados para os componentes aos
+quais se aplicam. Quando o material ainda não
+tiver referência, combine seu orçamento e registre
+um exemplo para consultas futuras. Não
+transforme o preço de um componente no valor
+universal de uma entidade daquela Classe.
+Um material especial pode estar disponível por
+compra, estoque institucional, contato, encomenda
+ou outra oportunidade. Sua obtenção pode virar
+uma missão quando houver um problema que
+justifique esse desenvolvimento; não é uma etapa
+obrigatória de toda criação.
+
+Receber o material por doação ou já possuí-lo evita
+comprar novamente aquela peça. Isso não dispensa
+os outros requisitos. Ferramentas reutilizáveis não
+são consumidas a cada tentativa, e material caro
+não concede poderes além da ficha aprovada.
+
+O que acontece na falha
+Como referência, uma nova tentativa exige metade
+do trabalho inicial da operação que falhou,
+arredondada para cima em horas inteiras, com
+mínimo de uma hora. Preserve as partes
+aproveitáveis e reponha os consumíveis anunciados
+no projeto.
+Uma criação de 32 horas exige dezesseis horas de
+retrabalho após uma falha. Se a tentativa seguinte
+também falhar, outra retomada exige mais
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+6
+
+
+=== PÁGINA 7 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+dezesseis: o total chega a 64 horas. A parcela não
+diminui a cada falha e não aumenta sem um
+critério combinado.
+Use o total de dedicação aprovado para aquela
+operação, incluindo ajustes de trabalho que tenham
+sido explicitados. Esperas não entram nessa
+divisão. Uma nova tentativa pode exigir esperar a
+entrega de um consumível que acabou, mas não
+repete uma espera cuja condição já foi cumprida.
+Depois de atender ao retrabalho e aos requisitos, o
+mestre autoriza a tentativa seguinte, com a
+vantagem prevista no Livro de Regras 1.0. Trocar o
+responsável, apresentar outro ajudante ou mudar
+de mestre não permite rolar de novo sem cumprir o
+que falta.
+Não destrua automaticamente toda a estrutura nem
+torne a entidade hostil apenas porque o teste
+falhou. Se o processo tiver um risco específico, ele
+precisa estar compreendido antes do investimento,
+respeitando o resultado e os limites do Livro de
+Regras 1.0.
+
+Quando o mestre quiser detalhar
+mais
+Você pode explorar o processo de criação com mais
+detalhes. Acrescente as informações que tornem
+uma escolha relevante: origem de um material,
+fornecedor, qualidade necessária, tarefa de cada
+participante, oficina, secagem ou sequência de
+montagem.
+Detalhar não precisa aumentar o total. Dividir um
+projeto de 32 horas em etapas conserva suas 32
+horas. Para cobrar mais, identifique trabalho
+adicional. Etapas também não geram novos testes
+de criação por si; um obstáculo distinto usa sua
+regra pertinente.
+O mestre pode definir outro retrabalho pelas
+etapas do projeto, em vez da referência de metade.
+Explique antes do início quais partes podem
+precisar de repetição, o custo e o que permanece
+aproveitável. Essa opção permite distinguir, por
+exemplo, refazer uma inscrição e substituir uma
+montagem defeituosa, sem surpreender o jogador
+com uma cobrança criada depois da falha.
+Na guilda, registre o motivo das diferenças entre
+projetos. Modelos simples ajudam a resolver
+trabalhos recorrentes; a opção detalhada atende
+casos que pedem escolhas próprias. Quem recebe
+um projeto de outro mestre continua do acordo
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+PROJETOS E RITUAL
+
+registrado. Se uma circunstância mudar, explique o
+impedimento e as alternativas antes de cobrar
+trabalho adicional.
+
+Trabalhar com ajuda
+Para conceder vantagem nos testes de criação,
+reconstrução ou transferência por ajuda, o Livro de
+Regras 1.0 exige treino no ofício compatível,
+permissão do mestre e o mesmo tempo de
+dedicação de quem conduz o trabalho.
+Rina trabalha 32 horas; Mei acompanha as mesmas
+32 para ajudar. Cada uma registra 32 horas. A ajuda
+melhora a chance, mas não divide automaticamente
+o prazo em dezesseis para cada uma. Isso também
+vale quando as duas fichas pertencem ao mesmo
+jogador.
+Na retomada de dezesseis horas, quem fornece
+ajuda por essa via dedica as mesmas dezesseis. A
+vantagem da tentativa posterior à falha já vem da
+regra própria e não exige outro ajudante.
+Participantes necessários ao processo continuam
+necessários, mesmo que não seja preciso obter
+outra fonte de vantagem.
+
+Exemplo: falhar e tentar de novo
+Este caso demonstra trabalho, materiais e teste. A
+ficha completa e sua continuidade estão em
+Fabricar e evoluir o Vigia do depósito. Mantenha
+essa ficha junto do projeto para usar o exemplo.
+Rina, de nível 13 e Classe 4, tem Caligrafia treinada,
+Destreza 4 e Maestria 2. Ela cria um talismã de
+Classe 3 para Kaito, de nível 9 e Classe 3. A ficha
+foi conferida antes do projeto; seus sentidos e
+habilidades já estão definidos. O nome “vigia de
+depósito” não concede capacidades extras.
+O projeto pede 32 horas. O orçamento deste
+exemplo prevê ¥24.000 em partes aproveitáveis e
+¥6.000 de consumíveis por tentativa. Rina já possui
+ferramentas e local adequado. Todos os meios estão
+disponíveis; não há espera nem cobrança adicional
+de PE. Esses valores em ienes são ilustrativos
+deste projeto.
+Rina dedica vinte horas no primeiro ciclo e doze no
+segundo. Completou 32 e pode fazer o teste. A
+entidade está uma Classe abaixo da responsável,
+portanto a CD é 8 + 4 + 2 − 2 = 12. Rina tira 5 e
+soma 6: total 11, falha.
+O suporte é preservado. Rina decide continuar,
+repõe ¥6.000 em consumíveis e precisa de dezesseis
+horas de retrabalho.
+
+7
+
+
+=== PÁGINA 8 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+Ciclo
+
+PROJETOS E RITUAL
+
+Trabalho no projeto
+
+Primeiro
+
+20 h
+
+Segundo
+
+12 h + 8 h
+
+Terceiro
+
+8h
+
+Situação
+Faltam 12 h para o teste inicial.
+Completa a primeira tentativa, falha e executa metade do retrabalho.
+Termina o retrabalho e faz a tentativa autorizada seguinte.
+
+A distribuição preserva a escolha de dedicar até
+vinte horas por ciclo ao projeto. Se Rina preferisse
+dedicar as 28 horas novas do segundo ciclo, poderia
+completar nele as doze restantes e as dezesseis de
+retomada, desde que a história comportasse o
+trabalho.
+Na nova tentativa, com vantagem, os dados
+mostram 2 e 8. Ela usa 8, soma 6 e alcança 14:
+sucesso. Total: 48 horas de Rina e ¥36.000 em
+materiais. Kaito recebe a entidade com vida
+
+máxima, recolhida no talismã sem carga, que ocupa
+0,5 de Volume. Manifestá-la ainda exige o custo
+normal.
+O registro conserva o orçamento, o trabalho, os
+testes e o invocador definido. Use a folha de
+entidade e o registro de dedicação por ficha para
+continuar sem repetir gastos ou apagar
+consequências.
+
+CONSULTA DO MESTRE
+
+Reconstruir, transferir e herdar entidades
+Use esta seção quando uma entidade criada
+precisar passar à Classe seguinte ou mudar de
+invocador. Os prazos abaixo são referências do
+Guia para completar as regras do Livro de Regras
+1.0. Materiais e eventual complexidade adicional
+usam o orçamento por projeto, combinado antes do
+trabalho.
+Reconstrução, transferência e reparo resolvem
+necessidades diferentes. Reconstruir permite
+passar à Classe seguinte. Transferir altera o vínculo
+com o invocador. Reparar recupera vida conforme
+suas regras próprias. Uma entidade destruída exige
+
+Passagem
+
+criar outra; uma maldição domada conserva o nível
+de aquisição e não recebe a evolução das criadas
+por estas regras.
+
+Reconstruir para a Classe seguinte
+Uma entidade criada acompanha o nível de seu
+invocador até o último nível da Classe dela. Para
+continuar além desse limite, precisa de
+reconstrução ou ser substituída por outra criada do
+zero. Confira a nova ficha, os tetos de Classe e os
+meios necessários antes de começar.
+A referência de trabalho é metade do tempo de
+criação da Classe nova:
+
+Trabalho de reconstrução
+
+Retomada após cada falha
+
+Classe 1 → 2
+
+8h
+
+4h
+
+Classe 2 → 3
+
+16 h
+
+8h
+
+Classe 3 → 4
+
+24 h
+
+12 h
+
+Classe 4 → 5
+
+36 h
+
+18 h
+
+Classe 5 → 6
+
+48 h
+
+24 h
+
+Classe 6 → 7
+
+64 h
+
+32 h
+
+A retomada aplica a referência de 50% ao trabalho
+da passagem que falhou. Se houver outro prazo
+justificado no projeto, calcule a retomada sobre o
+trabalho aprovado daquela operação, com
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+arredondamento para cima em horas inteiras e
+mínimo de uma hora, salvo alternativa detalhada
+previamente combinada.
+
+8
+
+
+=== PÁGINA 9 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+A metade é calculada sobre a referência de criação
+da nova Classe, não sobre as horas que o
+personagem gastou no passado. Uma fabricação
+anterior mais lenta ou uma falha antiga não
+aumenta essa base. Alterações físicas adicionais
+entram como tarefas identificadas no orçamento
+atual, sem cobrar novamente peças prontas que
+serão aproveitadas.
+Reconstruir para uma Classe exige menos trabalhobase que criar do zero outra entidade daquela
+Classe. Reconstruir várias vezes ao longo da
+campanha acumula trabalho e testes: a entidade
+esteve disponível durante a progressão, mas sua
+continuidade não é gratuita.
+
+Teste e resultado
+Uma pessoa treinada no ofício compatível conduz o
+trabalho. A nova Classe não pode superar a de
+quem reconstrói nem a do invocador. Compare a
+nova Classe com a do responsável e aplique a
+redução de dificuldade prevista no Livro de Regras
+1.0:
+Nova Classe em relação ao
+responsável
+
+Ajuste à base da
+CD
+
+Igual
+
+−2
+
+Uma abaixo
+
+−4
+
+Duas ou mais abaixo
+
+−4
+
+A CD é 8 + atributo usado no ofício + Maestria +
+ajuste. A rolagem usa d20 + atributo + Maestria,
+com os outros modificadores permitidos.
+Especialização altera o teste, sem aumentar
+novamente a base da CD.
+No sucesso, atualize a entidade conforme a nova
+Classe e o nível permitido. Na falha, a reconstrução
+não se conclui e a entidade continua onde está.
+Conserve o registro do que permaneceu
+aproveitável, cumpra o retrabalho e reponha os
+consumíveis anunciados. A nova tentativa depende
+de autorização do mestre e tem vantagem pelo
+Livro de Regras 1.0.
+Reconstrução não concede uma recuperação
+adicional apenas porque houve investimento de
+tempo. Vida e outros valores seguem a evolução da
+ficha e as regras de recuperação correspondentes.
+
+Exemplo: continuar com a mesma
+entidade
+Kaito alcançou o nível 13. Sua entidade criada está
+no nível 12, limite da Classe 3. Rina, também de
+nível 13 e Classe 4, vai reconstruí-la para Classe 4.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Ela é treinada no ofício compatível, com Destreza 4
+e Maestria 2. A nova ficha foi conferida antes do
+início.
+Criar diretamente uma entidade de Classe 4 tem
+referência de 48 horas. A reconstrução pede
+48 ÷ 2 = 24 horas. O orçamento deste exemplo
+prevê ¥12.000 em peças aproveitáveis e ¥3.000 de
+consumíveis por tentativa. Ferramentas e local já
+estão disponíveis. Esses preços são ilustrativos, sem
+tabela universal de reconstrução.
+Rina completa as 24 horas. A nova Classe é igual à
+sua; a redução da reconstrução dá CD
+8 + 4 + 2 − 2 = 12. Ela tira 5, soma 6 e fica com 11:
+falha.
+Rina decide continuar. Repõe os ¥3.000 de
+consumíveis e cumpre doze horas de retrabalho.
+Na tentativa autorizada, rola com vantagem: 3 e 8.
+Usa 8, soma 6 e chega a 14, sucesso. A entidade
+passa à Classe 4 e pode acompanhar Kaito no nível
+13.
+Total: 36 horas de Rina e ¥18.000 em materiais. Se
+ela começou sem saldo, com 28 horas no ciclo, pode
+usar 24 no trabalho inicial e quatro na retomada;
+ainda faltam oito para o ciclo seguinte. Essa
+distribuição pressupõe tempo e condições na
+história. A troca de ciclo não refaz o teste nem
+encerra a reconstrução sozinha.
+
+Mais de uma Classe
+É um teste por Classe. Para passar da Classe 1 à 4,
+execute três passagens: oito, dezesseis e 24 horas. O
+trabalho-base total é 48 horas, além do que já foi
+gasto na criação inicial.
+Se a primeira passagem tiver sucesso e a segunda
+falhar, retome apenas a segunda. Ela exige mais
+oito horas, metade das dezesseis. Depois do sucesso
+nessa retomada, ainda faltam as 24 horas e o teste
+da passagem para Classe 4. Com sucesso ao final,
+serão 56 horas de reconstrução nesse exemplo.
+Uma falha não apaga passagens concluídas.
+Também não autoriza usar a ficha final antes de
+concluir as restantes. Os tetos de Classe precisam
+ser atendidos em cada passagem, mesmo quando o
+personagem já puder receber o resultado final.
+
+Transferir ou herdar
+Transferir um talismã ou corpo criado segue as
+regras do Livro de Regras 1.0, fora de combate, com
+consentimento do dono anterior ou após a morte
+
+9
+
+
+=== PÁGINA 10 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+dele. O novo invocador precisa ter Classe igual ou
+superior à da entidade. Posse do objeto não altera o
+vínculo automaticamente.
+Classe da entidade
+
+A referência é um oitavo do tempo de criação da
+Classe da entidade, arredondado para cima em
+horas inteiras, com mínimo de duas horas:
+
+Trabalho de transferência
+
+Retomada após cada falha
+
+1
+
+2h
+
+1h
+
+2
+
+2h
+
+1h
+
+3
+
+4h
+
+2h
+
+4
+
+6h
+
+3h
+
+5
+
+9h
+
+5h
+
+6
+
+12 h
+
+6h
+
+7
+
+16 h
+
+8h
+
+Para uma entidade de Classe 5, a criação de
+referência tem 72 horas: 72 ÷ 8 = nove horas de
+transferência. Se falhar, metade de nove são 4,5
+horas, arredondadas para cima: cinco horas de
+retomada.
+O projeto identifica os meios necessários para
+alterar o vínculo e os consumíveis utilizados.
+Aproveite a estrutura existente. Transferir não
+exige comprar outra vez todas as peças, mas pode
+exigir serviços ou materiais específicos informados
+antes do trabalho.
+
+Quem registra as horas
+Quem faz a transferência registra seu trabalho. Se
+houver ajudante para conceder vantagem por essa
+via, ele precisa de treino compatível, permissão do
+mestre e o mesmo tempo de dedicação do
+responsável, conforme o Livro de Regras 1.0. Uma
+transferência de quatro horas consome quatro
+horas de cada um nessa situação.
+Quando o processo exigir participação ativa do
+destinatário, escreva a etapa e o tempo
+correspondente no projeto. Receber o vínculo não
+significa, por si, que o novo invocador trabalhou
+todas as horas do responsável. O mesmo critério
+permite identificar a contribuição do dono anterior
+quando ela for necessária ao processo.
+A vantagem da tentativa posterior à falha já vem da
+regra própria. Não é necessário outro ajudante
+apenas para obter uma segunda fonte do mesmo
+benefício; participantes exigidos pelo processo
+continuam necessários.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Teste e resultado da transferência
+Use o teste de criação, com os requisitos e a
+comparação de Classes correspondentes. A
+transferência não recebe a redução de dificuldade
+própria da reconstrução.
+Na falha, o vínculo anterior permanece, ou o objeto
+continua sem invocador vivo. Depois do retrabalho
+e dos requisitos, o mestre pode autorizar a tentativa
+seguinte com vantagem. Não repita rolagens antes
+de cumprir essas condições.
+No sucesso, registre o novo invocador e confira os
+valores que dependem dele. A transferência
+conserva Classe, ficha, vida atual, usos gastos,
+queda e carga do talismã. A entidade acompanha o
+nível do novo invocador dentro de sua Classe.
+Transferir não recupera energia, não concede outra
+atuação no ciclo e não religa um corpo Desligado.
+
+Exemplo: mudar o invocador
+Kaito quer transferir a Mei uma entidade criada de
+Classe 3. Os dois têm nível 9 e Classe 3, e Kaito
+consente. Rina, de Classe 4, conduz o trabalho fora
+de combate, com ofício compatível treinado,
+Destreza 4 e Maestria 2.
+O projeto pede 32 ÷ 8 = quatro horas, com ¥2.000
+de consumíveis por tentativa. Estrutura,
+ferramentas e acesso já estão disponíveis. Não há
+etapa ativa adicional dos donos neste exemplo. O
+valor dos materiais é apenas o orçamento
+ilustrativo deste caso.
+Neste caso, use o Vigia do depósito na versão de
+nível 9: 40/56 PV, 28/28 Integridade, uma carga no
+talismã e nenhuma condição persistente. A ficha
+não possui usos limitados por descanso. Rina
+registra esse estado, executa o trabalho e faz o
+10
+
+
+=== PÁGINA 11 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+teste. A entidade está uma Classe abaixo dela:
+CD 8 + 4 + 2 − 2 = 12. O ajuste vem da comparação
+de Classes. Se a entidade fosse da mesma Classe de
+Rina, a CD seria 14.
+Rina tira 2 e soma 6: total 8, falha. Kaito continua
+sendo o invocador. Ela decide retomar, cumpre
+duas horas e repõe os ¥2.000 de consumíveis. Na
+tentativa autorizada com vantagem, tira 4 e 9; usa 9,
+total 15, sucesso.
+Total: seis horas de Rina e ¥4.000 em materiais.
+Mei recebe o vínculo, com os 40/56 PV, 28/28
+Integridade e a carga conservados. Não recebe uma
+cópia nova da entidade nem recursos restaurados
+pela mudança de nome no registro.
+
+Quando o dono morreu
+A herança segue as mesmas regras da
+transferência. A morte substitui a exigência de
+consentimento do dono anterior prevista nessa via;
+não substitui o projeto, o teste ou os requisitos do
+novo invocador.
+Se o teste falhar, o objeto continua sem invocador
+vivo. Se tiver sucesso, um corpo Desligado continua
+precisando do retorno próprio. Um talismã
+
+PROJETOS E RITUAL
+
+conserva a carga e o estado da entidade. A
+oportunidade de herdar não a transforma em uma
+criação nova com recursos completos.
+Não antecipe a herança quando o personagem
+ainda estiver apenas inconsciente ou tiver
+oportunidades de recuperação pelas regras de
+morte. Para os destinos de técnica, criação e
+maldição domada, consulte Obter e criar entidades.
+
+Adaptar e registrar o projeto
+O mestre pode preparar um projeto mais detalhado,
+identificando etapas, materiais, acesso e um prazo
+diferente justificado antes do início. Dividir uma
+operação em etapas não multiplica
+automaticamente seus testes nem cobra a mesma
+tarefa duas vezes.
+Conserve o que já foi concluído e o que ainda falta
+na folha da entidade. Registre trabalho, orçamento,
+resultado de cada tentativa, invocador e estado
+atual. Outro mestre continua desse acordo; uma
+mudança de responsável pela sessão não renova
+recursos, reduz o retrabalho ou desfaz uma
+passagem já concluída.
+A ficha e a evolução do Vigia conectam esses
+projetos a um resultado concreto e mostram quais
+valores mudam na transferência para Mei.
+
+CONSULTA DO MESTRE
+
+A prova do Cão de sombra
+Exemplo experimental para a pré-1.0. Leia esta
+seção para preparar uma entrada de lista de ritual e
+conduzir sua tentativa. A ficha do cão vem do Livro
+de Regras 1.0. O espaço e as condições da prova são
+uma proposta do Guia, descrita antes do jogo; não
+formam uma regra obrigatória para todo ritual.
+No Livro de Regras 1.0, Kaito obtém o Cão de
+sombra por um espaço conhecido dedicado à
+criatura. Aqui, examinamos outra montagem: uma
+técnica de animais de sombra com um feitiço de
+lista de ritual. São alternativas de aquisição. A
+segunda não acrescenta gratuitamente uma lista à
+primeira nem concede dois cães.
+
+A entrada da lista
+Kaito está no nível 2, tem Maestria 1 e escolheu
+Essência para calcular a Defesa das suas entidades.
+Sua Essência atual é 2. O feitiço de lista ocupa um
+espaço conhecido válido da técnica. Nesta
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+montagem, a lista contém somente o Cão de
+sombra; novas entradas precisam da permissão
+escrita da técnica.
+Objetivo da prova: sozinho, levar o cão a zero de
+vida ou de Integridade, sem destruí-lo e antes de
+cair ou interromper a tentativa. Integridade mede
+a resistência da alma e só é afetada por capacidades
+que alcancem esse recurso. Não é uma segunda vida
+que qualquer golpe possa reduzir.
+Na primeira tentativa, o cão começa com 12 PV,
+Integridade 6 e sem efeitos ou usos gastos. Nas
+seguintes, confira a recuperação efetiva e os efeitos
+ainda presentes antes de abrir a prova.
+O cão é um shikigami de técnica com alma. Ele não
+é uma maldição encontrada no mundo: vencer esta
+prova não pede o TR Espírito da doma. Também
+não exige Ofício, teste de criação ou horas de
+fabricação.
+
+11
+
+
+=== PÁGINA 12 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Campo
+
+Condição desta prova
+
+Participante
+
+Kaito, com o feitiço de lista registrado e a entrada ainda não conquistada nem destruída. Usa sua
+ficha real, com os recursos e condições atuais.
+
+Lugar
+
+Quadrado de 9 m de lado, com chão firme, iluminação comum, sem obstáculos, armadilhas ou perigo
+externo em andamento. A borda é marcada no chão.
+
+Preparação
+
+Fora de combate, Kaito marca o espaço, confere a ficha e anuncia que vai começar. Marcar e conferir
+não exigem teste nem um período inteiro de dedicação.
+
+Início
+
+Kaito e o cão aparecem nas posições indicadas abaixo. O participante paga 1 PE, o custo de entrada
+da Classe 1 usado nesta proposta. Em seguida, rolam Iniciativa. Não há ataque antes dela.
+
+Participação
+
+Só Kaito enfrenta o cão. Outras criaturas, inclusive suas entidades, ficam fora da prova e não podem
+contribuir para a vitória.
+
+Vitória
+
+Cão a zero de vida ou de Integridade, sem destruição; Kaito ainda acima de zero nesses recursos,
+consciente e sem outra condição de encerramento.
+
+Interrupção
+
+Desistência, saída de qualquer combatente do quadrado, intervenção externa que altere a prova ou
+perda das condições do lugar.
+
+Falha
+
+Kaito chega a zero de vida ou Integridade, fica inconsciente ou Derrotado; ou destrói o cão. Confira
+a resolução inteira antes de registrar vitória.
+
+Encerramento
+
+O cão sai de campo. Cessam suas novas ações; ferimentos, custos e efeitos já aplicados seguem suas
+próprias regras.
+
+Nova
+tentativa
+
+Se o cão não foi destruído, a mesma entrada pode ser tentada depois de Kaito concluir um descanso
+longo e recuperar as condições de participação. Não há vantagem automática.
+
+O pagamento inicial é único: não cobre outro 1 PE
+pela mesma aparição. Ele não compra uma especial
+nem permite usar o cão em outra tarefa. Não se
+pode iniciar a prova durante uma luta para colocar
+um atacante independente em campo.
+A pausa até um descanso longo é uma condição
+proposta para esta entrada, não uma regra geral
+publicada de submissão. Mantém a mesma criatura
+e seus registros. Não oferece tentativas sucessivas
+para repor recursos durante uma missão.
+
+O espaço
+Imagine o quadrado com a entrada ao sul. Kaito
+começa a 1,5 m da borda oeste; o cão, a 1,5 m da
+borda leste. Ambos ficam na linha central entre
+norte e sul: 6 m separam as posições iniciais. Com
+deslocamento de 9 m, o cão pode chegar ao alcance
+de Mordida no primeiro turno, se não houver
+impedimento.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+A borda não é uma barreira: não protege, prende
+nem bloqueia projéteis. Cruzá-la encerra a
+tentativa. Empurrar o cão para fora também
+interrompe; isso não satisfaz o objetivo de levá-lo a
+zero. Teleportar para fora ou ser retirado por um
+aliado tem o mesmo resultado para a aquisição.
+A prova começa sem vantagem concedida por um
+ataque preparado contra a aparição. Equipamento
+pessoal válido e capacidades próprias continuam
+disponíveis. Não inicie com uma ajuda externa
+ainda atuando sobre os combatentes: por exemplo,
+um benefício de outra criatura que altere ataque,
+Defesa ou cura durante o desafio. Tratamento
+concluído antes da prova não conta como
+participação atual, e não restaura recursos além do
+que realmente recuperou.
+Antes de começar, resolva os casos particulares da
+ficha e registre-os. O mestre não deve descobrir no
+golpe final uma proibição que poderia ter explicado
+na preparação.
+
+12
+
+
+=== PÁGINA 13 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Ficha do cão
+O cão tem tamanho Médio, quatro patas e uma boca capaz de segurar objetos compatíveis; não tem mãos.
+Possui visão, audição e olfato comuns. Entende as ordens faladas de Kaito e se comunica por latidos e
+gestos. Não fala, não compartilha visão, não atravessa paredes nem viaja dentro de sombras.
+Força
+
+Destreza
+
+Constituição
+
+Inteligência
+
+Essência
+
+3
+
+2
+
+2
+
+1
+
+1
+
+Campo
+
+Valor no nível 2
+
+Vida máxima
+
+5 + 2 + (3 + 2) × (2 − 1) = 12 PV.
+
+Integridade máxima
+
+Metade de 12 = 6.
+
+Defesa sem equipamento
+
+10 + Destreza 2 + metade da Essência 2 de Kaito = 13.
+
+Bloquear
+
+2d10 + Defesa − 11 = 2d10 + 2. Escolhido antes do ataque, quando permitido.
+
+Movimento terrestre
+
+9 m.
+
+Ataque e CD
+
+Força 3 + Maestria 1 = +4; CD 8 + 3 + 1 = 12.
+
+TR treinado
+
+Físico, usando Força: +4.
+
+Outros TRs
+
+Vigor +2, Intelecto +1, Espírito +1.
+
+Perícias treinadas
+
+Atletismo +4, Furtividade +3, Percepção +2, Sobrevivência +2.
+
+Famílias
+
+Mira Livre; Alcance e Controle abertas; as outras seis Fechadas.
+
+Vagas e talentos
+
+Uma básica, uma especial de Classe 1 e um talento CE1.
+
+Reserva própria
+
+Não possui. Depois da conquista, os custos saem de Kaito.
+
+Equipamento e carga adicional
+
+Nenhum. Não possui talento para transportar passageiros ou carga adicional.
+
+Percepção usa Essência; Sobrevivência usa
+Inteligência. Cada um desses atributos vale 1 e
+recebe a Maestria 1 no teste. As demais perícias
+seguem seus atributos normais. O cão tem quatro
+treinos: 4 + metade da Inteligência 1, arredondada
+para baixo. Os valores dependentes de Kaito devem
+ser recalculados se a ficha usada for outra. Não
+mantenha Defesa 13 por conveniência quando a
+parcela do invocador for diferente.
+
+Mordida
+Básica de Classe 0; Toque, 1,5 m; ataque +4; dano
+1d6 Perfurante. Não soma Força ao dano, não custa
+PE e não impõe condição. No crítico, role 2d6. Uma
+execução consome sua atuação básica.
+
+Mordida precisa
+Especial de Classe 1; Toque e Precisão; ataque +6;
+dano 2d8 Perfurante; 3 PE. No crítico, role 4d8. O
+alvo precisa estar a até 1,5 m do cão. Não impõe
+condição.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+A montagem usa 2 pontos. Precisão custa 1, mesmo
+com Mira Livre; Toque devolve esse ponto gasto:
+2 − 1 + 1 = 2 dados de dano. Depois da conquista,
+Kaito paga sua Ação Padrão e 3 PE; o cão precisa
+compreender o comando e ter uma básica
+disponível, que será consumida pela especial.
+Durante esta prova, o cão não executa Mordida
+precisa. Não tem invocador comandando nem
+reserva própria para pagá-la. Isso faz parte da
+configuração anunciada do desafio. A especial
+integra a ficha conquistada; o mestre não pode
+ativá-la de surpresa com energia inventada.
+
+Farejador
+Talento CE1. Reconhece se houve conjuração onde
+o cão está nas últimas 24 horas e suas Classes, nos
+limites do catálogo do Livro de Regras 1.0. Não
+revela automaticamente o autor nem segue sua
+rota. Depois da conquista, o cão transmite o que
+percebeu pelos latidos e gestos combinados com
+Kaito.
+
+13
+
+
+=== PÁGINA 14 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+O turno do adversário
+Para resolver este desafio sem um invocador
+adversário, a proposta dá ao cão uma posição
+própria na Iniciativa, rolada com d20 + Destreza 2.
+No começo de seu turno, renova 9 m de
+Movimento, uma básica e uma Reação. Não recebe
+Bônus independente, ações adicionais ou especiais
+autônomas.
+Essa forma de agir pertence à prova. Depois da
+conquista, o cão usa a iniciativa de Kaito, uma
+básica por ciclo e a Reação coletiva do conjunto,
+conforme Invocações em campo. Não conserva um
+segundo turno de inimigo.
+O mestre conduz o cão com uma intenção simples:
+alcançar Kaito e mordê-lo. Ele usa Movimento para
+chegar até 1,5 m e a básica para Mordida. Se
+precisar Correr, gasta a básica nisso e não morde na
+mesma atuação. Se perder a localização de Kaito,
+procura pelos sentidos e ações disponíveis;
+Farejador não fornece visão através de obstáculos.
+Para a primeira demonstração, use a Defesa fixa 13
+nos ataques recebidos pelo cão. Ele não escolhe
+Bloquear nessa condução, embora o valor conste da
+ficha. Pode usar Brecha quando o gatilho existir,
+gastando sua Reação para uma Mordida. Não
+recebe uma mordida gratuita só porque foi atingido
+ou porque alguém entrou em seu alcance.
+Uma condução posterior pode usar Bloquear e
+outras ações compatíveis, com seus custos.
+Combine essa mudança antes da tentativa: ela
+altera o desafio. As mãos ausentes continuam
+impedindo manobras que as exijam.
+
+Dois ataques de Kaito
+O exemplo abaixo mostra dois ataques; não fixa o
+resultado da luta nem substitui a ficha completa do
+participante.
+Kaito possui Força 3 e Maestria 1. Seu ataque
+desarmado normal tem +4 para acertar e 1d4 + 3 +
+1d4 de dano: o segundo d4 é Canalizar Energia, que
+Kaito tem por possuir energia amaldiçoada e que
+acompanha todo golpe desarmado que acerta. Ele
+escolhe esse ataque porque a prova exige derrotar o
+cão sem destruí-lo. Ainda assim, o golpe chega a
+11: contra um cão com 1 PV, deixaria excedente 10,
+acima da metade de 12, e o destruiria. Precisa
+aproximar-se até 1,5 m e gastar sua Ação Padrão
+para Atacar.
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+PROJETOS E RITUAL
+
+Com o cão a 12 PV e usando Defesa 13, Kaito
+obtém 10 no d20: 10 + 4 = 14, acerto. Os d4
+mostram 1 e 2: 1 + 3 + 2 = 6 de dano. O cão fica com
+6 PV. Esse dano não alcançou os 12 PV máximos
+nem o levou a zero.
+Em outra oportunidade válida, um ataque igual
+acerta e causa outros 6. O cão passa de 6 a zero,
+com excedente zero. Uma ocorrência de 6 não
+alcança o máximo 12, e o excedente não supera
+metade dele. Se Kaito ainda satisfizer as condições
+da prova, conquista a entrada.
+Compare com um golpe forte: contra o mesmo cão
+a 6 PV, uma ocorrência de 12 de dano direto já
+alcança sua vida máxima. Ela o destrói, mesmo que
+o excedente seja somente 6. A tentativa falha e a
+entrada é perdida. Declarar que o golpe “era só
+para subjugar” não apaga esse limite.
+Dano em área pode levar a zero, mas não destrói
+por si, conforme o Livro de Regras 1.0. Ele ainda
+precisa respeitar os requisitos da capacidade e as
+condições individuais desta prova. Não transforme
+esta diferença numa redução de dano escolhida
+depois de ver o dado.
+
+Ajuda, desistência e socorro
+Os colegas podem conversar sobre a preparação
+antes da tentativa e observar de fora. As pessoas na
+mesa continuam podendo esclarecer regras; isso
+não equivale a seus personagens atuarem na cena.
+Durante a prova, cura de um aliado, ataque de outra
+criatura, orientação tática transmitida por
+personagem, ajuda em teste, contenção ou
+benefício externo que altere a disputa encerram a
+tentativa como interrompida. O mesmo vale para
+uma entidade de Kaito contribuindo. A intenção de
+ajudar ou prejudicar não transforma intervenção
+em vitória individual.
+Resolva uma ação externa já iniciada com seus
+requisitos e custos; ela não fica anulada
+gratuitamente por encerrar a prova. Uma entrada
+de socorrista no quadrado também interrompe
+antes de novas ações do cão. Não há punição
+sobrenatural adicional para quem ajuda. Uma
+intervenção pode salvar Kaito sem liberar a
+entidade.
+Kaito pode desistir sem gastar ação, desde que
+esteja consciente e consiga comunicar a decisão. A
+tentativa termina e o cão sai de campo. Não
+aguarde outra mordida como cobrança pela
+desistência. Os gastos e ferimentos já sofridos
+permanecem.
+
+14
+
+
+=== PÁGINA 15 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+Os estágios de Integridade se aplicam aos dois
+combatentes. No cão, perder 2 pontos já causa
+desvantagem em perícias; perder 3 reduz seu
+deslocamento a 4,5 m; perder 5 também causa
+desvantagem em ataques e TRs. A Integridade zero
+provoca sua queda pelas regras de entidade.
+Se Kaito chegar a zero de vida, a tentativa termina
+mesmo que uma capacidade permita que ele
+continue agindo. Isso não declara Kaito Derrotado:
+aplique Vida a zero, capacidades de queda,
+Aguentar ou Insistir e a janela de socorro do Livro
+de Regras 1.0. Insistir permite as ações previstas
+pelo sistema, mas não reabre uma prova encerrada.
+Se a Integridade de Kaito também chegar a zero,
+prevalece a derrota por Integridade; Insistir não a
+supera.
+
+Por exemplo, sem Sequelas anteriores, uma queda
+dispõe da janela normal de três rodadas. O cão sair
+de campo não pausa essa contagem nem cura Kaito.
+Colegas podem aproximar-se e prestar socorro
+pagando as ações e cumprindo os requisitos
+normais. Estabilizar exige alvo Inconsciente e
+Morrendo, meios adequados, uma mão livre,
+distância de 1,5 m, Ação Padrão e Medicina CD 14.
+Não funciona enquanto ele continuar Insistindo;
+ele pode escolher Aguentar sem ação.
+Se ambos chegarem a zero na mesma resolução,
+confira primeiro destruição e os efeitos daquela
+resolução. Se Kaito não satisfizer a condição de
+permanecer acima de zero, não conquista a
+entidade. Não transforme a ordem em que os
+números foram anotados em um desempate
+favorável.
+
+Depois da prova
+Resultado
+
+Registro e continuação
+
+Vitória por vida a zero, sem
+destruição
+
+Entrada conquistada; cão recolhido e caído, com 0 PV. Conserve Integridade, efeitos e
+usos. Não se manifesta automaticamente.
+
+Vitória por Integridade a
+zero
+
+Entrada conquistada, mas caída por Integridade. Precisa recuperar ao menos 1 de
+Integridade para poder retornar. Conserve a vida atual.
+
+Desistência, saída,
+intervenção ou queda de
+Kaito
+
+Entrada ainda não conquistada; conserve os estados reais do participante e do cão. A
+próxima tentativa depende do descanso longo previsto e das condições de participação.
+
+Destruição do cão
+
+Entrada perdida. Não recrie a mesma identidade no próximo descanso. Nova entidade
+exigiria a permissão escrita da técnica e outra ficha, não uma tentativa repetida sobre a
+destruída.
+
+Após uma vitória por vida a zero, com Integridade
+positiva, Kaito pode usar o retorno: o cão de nível 2
+tem entrada normal de 1 PE; retornar custa 2 PE e
+concede 6 PV, metade de 12. Em combate, custa
+sua Bônus e respeita posição, teto de ativos e
+recursos de atuação. O retorno não concede uma
+básica própria naquele ciclo. Um descanso longo
+recupera a vida inteira e, quando pertinente,
+Integridade; a próxima entrada normal continua
+tendo seu custo.
+Conquistar não recupera os PE de Kaito. Se ele
+começou com 8 e gastou apenas 1 no início da
+prova, termina com 7. Se depois puder pagar o
+retorno de 2, fica com 5. Manifestar o cão
+novamente não lhe devolve uma Ação Padrão já
+gasta.
+A entidade acompanha o nível de Kaito. Não aplica
+o limite de Classe e a reconstrução das entidades
+fabricadas, nem o nível fixo das maldições
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+domadas. A lista segue ocupando seu espaço
+conhecido quando o cão está recolhido, caído ou
+indisponível.
+
+Registro preenchido de uma vitória
+• Aquisição: lista de ritual da técnica de animais
+de sombra; entrada Cão de sombra, nível 2,
+Classe 1. Alternativa ao espaço dedicado usado
+no exemplo original do Livro de Regras 1.0.
+• Prova: quadrado de 9 m, posições separadas por
+6 m; custo inicial de 1 PE; disputa individual
+conforme os termos desta seção.
+• Desfecho registrado: cão de 6 a 0 PV após 6 de
+dano direto; não destruído; Integridade 6. Kaito
+terminou consciente, com vida positiva e sem
+contribuição de outra criatura.
+• Estado da entrada: conquistada; cão recolhido e
+caído, ainda não retornou. Sem condição
+persistente neste registro.
+15
+
+
+=== PÁGINA 16 ===
+CICLO MALDITO / GUIA DO MESTRE
+
+PROJETOS E RITUAL
+
+• Invocador: anotar vida e Integridade atuais, PE
+restantes, usos e condições da ficha real. Os 7 PE
+do exemplo só valem se o saldo inicial e os
+gastos tiverem sido aqueles.
+
+vitória. Se usar disputa sem combate, diga qual
+realização concreta libera a entrada e quais testes a
+resolvem. Nem todo ritual exige derrotar a entidade
+causando dano.
+
+• Continuidade: para voltar agora, conferir
+retorno de 2 PE, 6 PV e demais requisitos;
+depois de descanso longo válido, atualizar o que
+efetivamente recuperou.
+
+Esta prova usa uma entidade de nível 2 sem sua
+especial durante o confronto. Isso não estabelece
+dificuldade adequada para todo personagem de
+nível 2. Antes de utilizá-la, confira alcance, dano,
+defesa e recursos da ficha participante. Um
+confronto fácil para uma técnica pode ser difícil
+para outra. Alterar vida, condições ou ações
+durante a disputa para forçar dificuldade prejudica
+a clareza do acordo.
+
+Na guilda, este registro acompanha a ficha e
+informa quem conduziu a prova. Outro mestre não
+deve pedir que ela seja refeita porque não assistiu à
+cena. Em campanha fechada, o mesmo registro
+pode ficar com a lista da técnica.
+
+Como preparar outra prova
+Escolha primeiro a entidade e a capacidade que o
+desafio pretende exigir. Escreva o objetivo, início,
+formas de encerramento e estado recebido na
+
+PRÉ-1.0 · PROVA TEXTUAL PARCIAL
+
+Consulta do Livro de Regras 1.0: Cão de sombra,
+lista de ritual, queda e destruição, retorno e Vida a
+zero.
+
+16
+

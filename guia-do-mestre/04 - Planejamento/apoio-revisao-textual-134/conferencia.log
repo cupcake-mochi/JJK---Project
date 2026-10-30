@@ -1,0 +1,63 @@
+{
+  "registro": 134,
+  "pdf_sha256": "2d48b0e0fa7fb67bd5b3ba12d5cf7dd3f1d7e353de44e578059f4840665ab87d",
+  "casos_conferidos": [
+    {
+      "id": "s088",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/88-indice-de-termos-do-mundo.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s087",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 5,
+  "rotulos_simplificados": {
+    "Encerrar a missão e entregar recompensas": "Recompensas e progressão",
+    "Avaliar técnicas e criações": "Avaliar uma capacidade",
+    "Convivência do Receptáculo": "Personagens e seus cuidados",
+    "Preparar uma investigação": "Pistas e investigações",
+    "O mundo de Ciclo Maldito": "O mundo dos feiticeiros",
+    "Conferir personagens": "Conferir a ficha",
+    "Equipamento e acesso": "Comprar, emprestar e contratar",
+    "A sociedade jujutsu": "Escolas, famílias e contatos",
+    "Vínculos e mudanças": "Vínculos e interesses dos personagens",
+    "Preparar uma missão": "O que preparar",
+    "Acompanhar recursos": "Combate, socorro e retirada",
+    "Pactos e Promessas": "Pactos e entidades",
+    "Sociedade e apoio": "Escolas, famílias e contatos",
+    "Avaliar técnicas": "Avaliar uma capacidade",
+    "Avaliar criações": "Avaliar uma capacidade",
+    "Recursos": "Combate, socorro e retirada"
+  },
+  "links_locais_conferidos": 704,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "mudancas_de_numero": {
+    "s088": [],
+    "s087": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

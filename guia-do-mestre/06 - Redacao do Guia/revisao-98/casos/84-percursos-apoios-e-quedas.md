@@ -1,6 +1,6 @@
 # Movimento, saltos e quedas
 
-Use estes casos para preparar uma travessia, resolver a chegada e lidar com uma queda. Eles complementam [O cenário e as ideias dos jogadores](<11-espaco-e-usos-criativos.md>) e [A passarela e o guincho](<../../64-a-passarela-e-o-guincho.md>). As situações são exemplos separados.
+Use estes casos para preparar uma travessia, resolver a chegada e lidar com uma queda. Eles complementam [O cenário e as ideias dos jogadores](<11-espaco-e-usos-criativos.md>) e [A passarela e o guincho](<64-a-passarela-e-o-guincho.md>). As situações são exemplos separados.
 
 As regras e capacidades vêm do Livro de Regras 1.0. As posições, a força da correnteza e os riscos do piso foram definidos para cada exemplo e são informados antes da tentativa. **CD** é a Classe de Dificuldade: igualar ou superar o número basta para passar. Os exemplos mostram apenas a parte da ficha usada em cada ação.
 
@@ -61,7 +61,7 @@ Também é preciso haver espaço livre ao terminar. Um aliado disposto pode dar 
 
 ## Cair sobre outra criatura
 
-Ema é Média e está num apoio **9 m acima** de uma criatura Grande. A trajetória da queda passa pelo espaço ocupado pela criatura, e há chão livre junto ao ponto de chegada. Para tentar atingir alguém de propósito, Ema gasta **Ação Padrão antes de cair**. Essa ação não concede movimento lateral nem permite mudar de direção no ar.
+Mio é Média e está num apoio **9 m acima** de uma criatura Grande. A trajetória da queda passa pelo espaço ocupado pela criatura, e há chão livre junto ao ponto de chegada. Para tentar atingir alguém de propósito, Mio gasta **Ação Padrão antes de cair**. Essa ação não concede movimento lateral nem permite mudar de direção no ar.
 
 Médio e Grande diferem em uma categoria: as regras de queda sobre criaturas se aplicam. O alvo faz **TR Físico CD 14**, sem gastar uma Reação por esse teste. Com bônus +4 e dado 9, soma **13**, falhando.
 
@@ -70,17 +70,17 @@ Role o dano de 9 m **uma vez: 3d6**. Os dados 2, 4 e 5 somam **11**. A divisão 
 | Participante | Parcela do impacto | Defesa já presente na ficha | Dano recebido |
 |---|---:|---|---:|
 | Criatura atingida | Metade para baixo: **5** | Nenhuma aplicável neste caso | **5** |
-| Ema | Restante: **6** | Resistência a Concussão já ativa | **3** |
+| Mio | Restante: **6** | Resistência a Concussão já ativa | **3** |
 
-Não aplique a resistência de Ema aos 11 antes de dividir: cada participante só reduz a própria parcela. Ambas sofrem dano e terminam Derrubadas. Coloque Ema no espaço livre mais próximo do ponto de chegada. Nenhuma termina dentro de uma parede ou recebe metros extras para escolher um destino distante.
+Não aplique a resistência de Mio aos 11 antes de dividir: cada participante só reduz a própria parcela. Ambas sofrem dano e terminam Derrubadas. Coloque Mio no espaço livre mais próximo do ponto de chegada. Nenhuma termina dentro de uma parede ou recebe metros extras para escolher um destino distante.
 
 ### Se o alvo desviar
 
-Com dado 10 + 4 = **14**, o alvo passa. Evita o impacto e não recebe dano nem fica Derrubado por ele. Usando os mesmos 11 de dano apenas para comparar os casos, Ema recebe a queda inteira; sua resistência reduz para **6**, pois 11 ÷ 2 = 5,5 é arredondado para cima. Ela termina Derrubada no espaço livre mais próximo.
+Com dado 10 + 4 = **14**, o alvo passa. Evita o impacto e não recebe dano nem fica Derrubado por ele. Usando os mesmos 11 de dano apenas para comparar os casos, Mio recebe a queda inteira; sua resistência reduz para **6**, pois 11 ÷ 2 = 5,5 é arredondado para cima. Ela termina Derrubada no espaço livre mais próximo.
 
 ### Se os tamanhos forem muito diferentes
 
-Se o alvo fosse **Imenso**, haveria duas categorias entre ele e Ema. A queda não repartiria dano por essa regra. Ema receberia o dano da própria queda, com suas defesas; o mestre resolveria o espaço livre de chegada e qualquer perigo próprio já preparado. Não atribua automaticamente metade do dano ao Imenso nem role o TR como se a faixa de tamanhos fosse irrelevante.
+Se o alvo fosse **Imenso**, haveria duas categorias entre ele e Mio. A queda não repartiria dano por essa regra. Mio receberia o dano da própria queda, com suas defesas; o mestre resolveria o espaço livre de chegada e qualquer perigo próprio já preparado. Não atribua automaticamente metade do dano ao Imenso nem role o TR como se a faixa de tamanhos fosse irrelevante.
 
 Uma queda involuntária não exige que a vítima tenha a Padrão disponível. Se atingir alguém por acidente dentro da faixa de tamanhos, segue a mesma regra. O impacto alcança uma criatura por queda, não todas as que estiverem próximas. Esse dano não é ataque, não recebe dano de arma, não causa crítico e não permite Bloquear. Se alguém chegar a zero de Vida, siga [Quedas e socorro](<22-quedas-e-socorro.md>) e o Livro de Regras 1.0.
 
@@ -88,7 +88,7 @@ Uma queda involuntária não exige que a vítima tenha a Padrão disponível. Se
 
 Ren é Guia da Trilha Arquiteto, nível 2, com Maestria 1 e Essência 3 escolhida para suas obras. Ele tem **Obras de Apoio**, nenhuma obra ativa e os PE necessários. Está num patamar, a 3 m da borda. Um vão de 3 m separa dois apoios firmes no mesmo nível. Ren enxerga todo o espaço livre onde pretende criar a Passarela, dentro dos 9 m da capacidade.
 
-Mina é uma aliada voluntária que pode ouvi-lo, está junto à borda e dentro dos 18 m de Abrir Caminho. Na sua vez, Ren usa **Ação Bônus e 2 PE ao todo** para criar a obra e preparar uma Abertura de Avançar para Mina, indicando o espaço livre do outro lado. Não paga 1 PE de Abrir Caminho mais outros 2: o custo conjunto é 2.
+Noa é uma aliada voluntária que pode ouvi-lo, está junto à borda e dentro dos 18 m de Abrir Caminho. Na sua vez, Ren usa **Ação Bônus e 2 PE ao todo** para criar a obra e preparar uma Abertura de Avançar para Noa, indicando o espaço livre do outro lado. Não paga 1 PE de Abrir Caminho mais outros 2: o custo conjunto é 2.
 
 | Característica da obra criada | Conta |
 |---|---|
@@ -99,7 +99,7 @@ Mina é uma aliada voluntária que pode ouvi-lo, está junto à borda e dentro d
 | Carga total suportada | 100 kg × 3 = **300 kg** |
 | Passarela básica | Até **3 m de comprimento e 1,5 m de largura**, ligando apoios firmes |
 
-Mina aceita a Abertura. No seu turno, antes do próximo turno de Ren, consome Avançar e atravessa os 3 m até o espaço indicado, sem gastar outra ação. Se escolhesse aproveitar fora do próprio turno, gastaria Reação depois que uma ação ou deslocamento terminasse. A Abertura dura até o começo do próximo turno de Ren; a ponte dura 30 minutos. **O fim da Abertura não desfaz a ponte.** Mina e seu equipamento somam 80 kg e são a única carga durante essa travessia, abaixo dos 300 kg suportados. A carga considera todas as pessoas e equipamentos sobre a obra.
+Noa aceita a Abertura. No seu turno, antes do próximo turno de Ren, consome Avançar e atravessa os 3 m até o espaço indicado, sem gastar outra ação. Se escolhesse aproveitar fora do próprio turno, gastaria Reação depois que uma ação ou deslocamento terminasse. A Abertura dura até o começo do próximo turno de Ren; a ponte dura 30 minutos. **O fim da Abertura não desfaz a ponte.** Noa e seu equipamento somam 80 kg e são a única carga durante essa travessia, abaixo dos 300 kg suportados. A carga considera todas as pessoas e equipamentos sobre a obra.
 
 Se faltasse apoio firme do outro lado, a Passarela básica não poderia ser criada como ponte flutuante. Sua diferença de altura permitida é de até 1,5 m; um desnível maior também precisaria de outra solução. Criar a obra não empurra, levanta nem prende uma criatura.
 

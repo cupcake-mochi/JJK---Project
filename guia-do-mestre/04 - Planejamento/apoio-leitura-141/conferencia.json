@@ -1,0 +1,28 @@
+{
+  "registro": 141,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md"
+  ],
+  "alteracoes_reproduzidas": 11,
+  "quadros_com_parametros_preservados": 286,
+  "rotulos_de_quadro_ajustados": 0,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1916,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "dedicacao_e_xp_com_criterios_distintos": true,
+  "formula_publicada_de_salario_explicitada": true,
+  "campo_de_recompensas_disponivel": true,
+  "citacao_repetida_retirada": "Uma ocorrência de 1.0 na abertura; valores e demais números preservados",
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

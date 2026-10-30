@@ -1,0 +1,66 @@
+{
+  "registro": 125,
+  "pdf_sha256": "2b48fb6fcdb0178ebf8624287d613155a569f808f872ca01186f42cbab920339",
+  "casos_conferidos": [
+    {
+      "id": "s090",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/90-reparar-personagem-de-corpo-construido.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s091",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/91-restricao-corporal-e-cuidados.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s030",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/30-pareceres-de-criacoes.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 0,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s031",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/31-avaliar-poderes-avancados.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 5,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 483,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 37,
+  "casos_pendentes": 22,
+  "lotes_pendentes": 5,
+  "mudancas_de_numero": {
+    "s090": [],
+    "s091": [],
+    "s030": [],
+    "s031": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os quatro casos não descrevem espaço físico.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

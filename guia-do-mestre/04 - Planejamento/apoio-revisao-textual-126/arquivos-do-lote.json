@@ -1,0 +1,48 @@
+{
+  "controles": [
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md",
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/revisao-98/consultas/LEIA-ME.md"
+  ],
+  "fontes_revisadas": [],
+  "extras": [],
+  "fontes_novas": [
+    "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+    "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+    "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md"
+  ],
+  "casos": [
+    {
+      "id": "s033",
+      "fonte_original": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/33-casos-especificos-de-avaliacao.md",
+      "id_prova": "duvidas"
+    },
+    {
+      "id": "s093",
+      "fonte_original": "06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "id_prova": "mescla"
+    },
+    {
+      "id": "s094",
+      "fonte_original": "06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/94-compras-repetidas-e-restricoes.md",
+      "id_prova": "repetir"
+    },
+    {
+      "id": "s095",
+      "fonte_original": "06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "id_prova": "cancelar"
+    }
+  ]
+}

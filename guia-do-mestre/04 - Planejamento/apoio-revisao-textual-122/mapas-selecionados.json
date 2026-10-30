@@ -1,0 +1,29 @@
+{
+  "registro": 122,
+  "mapas": [
+    {
+      "id": "s073",
+      "figura": "04 - Planejamento/apoio-revisao-textual-122/imagens/ensaio.svg",
+      "sha256": "fc013e26c396e1c2c857603efcfa1e79fcdb65618199ce5115947203789e22ea",
+      "origem": "desenho existente em MAPAS.py, sem alteração",
+      "codigo": "08 - Diagramacao do Guia/MAPAS.py",
+      "altura_pontos": 325
+    },
+    {
+      "id": "s076",
+      "figura": "04 - Planejamento/apoio-revisao-textual-122/imagens/confronto.svg",
+      "sha256": "274ba17b6c9d2b49d97a213303687932cc1d03979321ca470009d7b53477e6f0",
+      "origem": "novo desenho deste apoio, mesmo estilo e grade do s073, com as posições da tabela do caso",
+      "codigo": "04 - Planejamento/apoio-revisao-textual-122/GERAR-MAPAS.py",
+      "altura_pontos": 325
+    }
+  ],
+  "origem_sha256": "3c1db39f19af00d02edded50582e0f4d6ee6fd8537e85191801144f3d84ba76d",
+  "criterios": [
+    "Conferido o mapa de referência mapa-vetorial-4.png contra o ensaio s073: Rina C0, Mei D0, Akira F0, caixa C6 e Sineiro D6/E6/D7/E7, recinto 12 × 18 m e porta C–F. Corresponde ao texto.",
+    "O mapa do s073 foi exportado do desenho vetorial existente, com a altura do próprio desenho, sem a margem da página de referência.",
+    "O s076 usa o mesmo recinto, mas outras posições. Não havia desenho para ele. Foi feito um vetor no mesmo estilo e grade, só com as posições da tabela do caso: Ren D5, Sora F8 com o estojo, Rina C0, Mei D0, Akira F0.",
+    "Os casos s072 e s075 são fichas sem posições; não recebem mapa."
+  ],
+  "limites": "MAPAS.py não foi alterado. Sem edição de bitmap. O mapa do s076 é figura nova, derivada do texto, sem nova regra ou posição."
+}

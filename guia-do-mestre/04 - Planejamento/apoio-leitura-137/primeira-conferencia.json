@@ -1,0 +1,42 @@
+{
+  "registro": 137,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+    "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+    "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+    "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md"
+  ],
+  "alteracoes_reproduzidas": 17,
+  "quadros_preservados": 286,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1902,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "falhas": [
+    {
+      "arquivo": "capitulo-01.html",
+      "erro": "âncora ausente",
+      "link": "capitulo-09.html#94-obter-e-criar-entidades"
+    },
+    {
+      "arquivo": "capitulo-02.html",
+      "erro": "âncora ausente",
+      "link": "capitulo-07.html#74-avaliar-uma-criacao"
+    },
+    {
+      "fonte": "01-sua-primeira-missao.md",
+      "erro": "âncora Markdown ausente",
+      "link": "09-pactos-e-entidades.md#94-obter-e-criar-entidades"
+    },
+    {
+      "fonte": "02-o-mundo-dos-feiticeiros.md",
+      "erro": "âncora Markdown ausente",
+      "link": "07-personagens-e-tecnicas.md#74-avaliar-uma-criacao"
+    }
+  ],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

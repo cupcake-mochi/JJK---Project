@@ -1,0 +1,62 @@
+{
+  "registro": 136,
+  "pdf": "04 - Planejamento/apoio-integracao-136/output/pdf/Ciclo-Maldito-Apoios-da-Integracao.pdf",
+  "pdf_sha256": "bec4de79d023fa27ab72afaa335c6a6787e90d236ae4ea8dbf08f6152e99b21c",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-1.png",
+      "sha256": "8676ea8304ba6d51154a48c34c3ffca3bdb2f67e31c224e79616ced173524f13",
+      "inspecionada": true,
+      "observacao": "Título legível; quadro de modalidades na largura inteira; ordem entre colunas conferida."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-2.png",
+      "sha256": "a75c075586523f9e7889e78cb6a14354830fb23a50038ef8ea011e45ae49d5d8",
+      "inspecionada": true,
+      "observacao": "Cenas e contas completas; Amparo e Reserva Impregnada conferidos."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-3.png",
+      "sha256": "28f85bbcf8f2bf8c2fdcf654e879d3c6c2c8a6ff786586c4e8be65be84703cdd",
+      "inspecionada": true,
+      "observacao": "Final do Receptáculo segue para abertura da base; título curto e sem página de fechamento vazia."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-4.png",
+      "sha256": "524d586ebcb74009d7b70c2e1133fd5519c2a74c0c536681df20daa19d6d862a",
+      "inspecionada": true,
+      "observacao": "Quadro numérico largo; Rastejante e abertura do Amontoado sem choque entre colunas."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-5.png",
+      "sha256": "9fe05a589bdf144efabb756777ab1c77b6afd641064c318f1af9e84a8feaacdd",
+      "inspecionada": true,
+      "observacao": "Ataques e Fundamento mantidos em blocos; colunas separadas e dados completos."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-6.png",
+      "sha256": "3c01361b9e3a364e8e153bbadb58794fd7d665f67a7de4bda508b33f51d01144",
+      "inspecionada": true,
+      "observacao": "Conversões e custos completos; tabela larga; a continuação final é normal de texto corrido."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-integracao-136/pagina-7.png",
+      "sha256": "c88db5ed3f4b44ee98f0a964be082a6c086749f35376caedaca6e023f8ad1506",
+      "inspecionada": true,
+      "observacao": "Fechamento da base seguido de Reserva; quadros curtos legíveis em uma coluna cada, exemplo completo; sem página extra quase vazia."
+    }
+  ],
+  "iteracoes": [
+    "Primeira prova: nove páginas; quadro de modalidades estreito e fechamentos vazios.",
+    "Segunda prova: quadro largo e parágrafos curtos protegidos; ainda nove páginas.",
+    "Ajustes seguintes: fluxo sem quebras forçadas, separação de colunas e blocos de ataques; quadros de Reserva mantidos nas colunas; sete páginas. Todas as páginas finais foram vistas diretamente."
+  ],
+  "limite": "Somente os três apoios recuperados. Não certifica o livro integrado, nem revisão visual em navegador."
+}

@@ -28,13 +28,13 @@ O mestre já definiu o que cada observador pode perceber:
 | Observador | Sinal acessível | CD de percepção | Resultado de Nao, total 16 |
 |---|---|---:|---|
 | Vigia, Percepção +4 | Pode ouvir o percurso normalmente | 10 + 4 = 14 | Passa; fica oculto dele. |
-| Sora, Percepção +7 | Também pode ouvir o percurso normalmente | 10 + 7 = 17 | Falha; Sora localiza seu espaço. |
+| Hiro, Percepção +7 | Também pode ouvir o percurso normalmente | 10 + 7 = 17 | Falha; Hiro localiza seu espaço. |
 | Operadora, Percepção +8 | Só sinais visuais incertos do percurso, de dentro da cabine, que bloqueia o som | 10 + 8 − 5 = 13 | Passa; fica oculto dela. |
 | Funcionário na sala fechada | Nenhum sinal acessível neste caso | Sem comparação | Não o descobre só por estar perto. |
 
-A operadora tem desvantagem na percepção visual pela penumbra; isso reduz a CD passiva em 5. O vigia e Sora podem ouvir normalmente, por isso não recebem essa redução. Se um efeito concedesse vantagem na percepção relevante do vigia, sua CD seria **10 + 4 + 5 = 19**, suficiente para localizar Nao nessa versão do exemplo. Aplique somente os modificadores que existirem na situação.
+A operadora tem desvantagem na percepção visual pela penumbra; isso reduz a CD passiva em 5. O vigia e Hiro podem ouvir normalmente, por isso não recebem essa redução. Se um efeito concedesse vantagem na percepção relevante do vigia, sua CD seria **10 + 4 + 5 = 19**, suficiente para localizar Nao nessa versão do exemplo. Aplique somente os modificadores que existirem na situação.
 
-Sora sabe onde Nao está, mas as estantes continuam impedindo que o enxergue. **Localizar** é conhecer o espaço ocupado; **enxergar** é conseguir vê-lo com clareza suficiente para acompanhar suas ações. A ocultação acabou em relação a Sora. Isso não retira obstáculos nem concede um ataque gratuito.
+Hiro sabe onde Nao está, mas as estantes continuam impedindo que o enxergue. **Localizar** é conhecer o espaço ocupado; **enxergar** é conseguir vê-lo com clareza suficiente para acompanhar suas ações. A ocultação acabou em relação a Hiro. Isso não retira obstáculos nem concede um ataque gratuito.
 
 Guarde **Furtividade 16**. Não peça novo dado a cada turno ou estante enquanto Nao mantiver as condições de ocultação. Se sair em visão livre, será visto por quem tiver acesso; o resultado guardado não apaga essa exposição.
 
@@ -161,11 +161,11 @@ Para reconstruir quem transportou a caixa ou seguir um percurso, são necessári
 
 ## O que anotar
 
-No [registro de descobertas](<../../12-registro-de-descobertas.md>), separe o que foi percebido da hipótese e guarde o momento da observação. Para estes casos, bastariam notas como:
+No [registro de descobertas](<../consultas/12-registro-de-descobertas.md>), separe o que foi percebido da hipótese e guarde o momento da observação. Para estes casos, bastariam notas como:
 
 | Descoberta | Limites da descoberta |
 |---|---|
-| Sora localizou Nao entre as estantes | Posição naquele momento; o vigia ainda não recebeu aviso nem realizou a busca. |
+| Hiro localizou Nao entre as estantes | Posição naquele momento; o vigia ainda não recebeu aviso nem realizou a busca. |
 | Rina localizou uma fonte a 9 m | A fumaça permanece; a informação não acompanha o movimento seguinte. |
 | O pulso indica o subsolo | Não fornece sala ou quantidade de criaturas. Mika e Rina obtiveram a mesma pista. |
 | Resíduo compatível com a referência de Aya | Autoria do transporte, idade do resíduo e posição atual de Aya continuam sem confirmação. |

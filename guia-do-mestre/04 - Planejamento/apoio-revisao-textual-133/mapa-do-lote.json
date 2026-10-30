@@ -1,0 +1,24 @@
+{
+  "registro": 133,
+  "lote": "C-03",
+  "casos": [
+    "s040",
+    "s042",
+    "s044",
+    "s058",
+    "s061"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-133/output/pdf/Ciclo-Maldito-Personagens-Entidades-e-Inimigos-Revisao-Textual.pdf",
+  "paginas": 11,
+  "casos_revistos_total": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "consultas_revistas": 15,
+  "consultas_pendentes": 2,
+  "consultas_complementares_pendentes": 2,
+  "etapa_6": "em andamento",
+  "proximo_lote": "C-04",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

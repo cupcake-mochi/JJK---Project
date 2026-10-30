@@ -1,0 +1,233 @@
+{
+  "arquivos": 93,
+  "palavras": 181208,
+  "remissoes_a_original_ja_revisto": {},
+  "remissoes_a_capitulo_antigo": {
+    "07-personagens-e-tecnicas.md": {
+      "27-convivencia-do-receptaculo.md": 1,
+      "92-reserva-condensada-proposta-e-comparacao.md": 1
+    },
+    "08-entre-missoes.md": {
+      "37-recompensas-e-fechamento.md": 1
+    },
+    "casos/33-casos-especificos-de-avaliacao.md": {
+      "92-reserva-condensada-proposta-e-comparacao.md": 1
+    }
+  },
+  "links_quebrados": {},
+  "nomes": {
+    "Haru": [
+      "casos/33-casos-especificos-de-avaliacao.md",
+      "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "casos/84-percursos-apoios-e-quedas.md",
+      "casos/85-trajetorias-ferramentas-e-improvisacao.md"
+    ],
+    "Rina": [
+      "06-inimigos-e-perigos.md",
+      "08-entre-missoes.md",
+      "09-pactos-e-entidades.md",
+      "10-jogar-em-guilda.md",
+      "casos/103-a-febre-dos-fios.md",
+      "casos/34-oficios-fabricacao-e-reparos.md",
+      "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "casos/68-ficha-e-comparacao-de-chefes.md",
+      "casos/71-sineiro-do-recolhimento.md",
+      "casos/73-ensaio-guiado-do-sineiro.md",
+      "casos/76-confronto-de-ren-e-sora.md",
+      "casos/77-ficha-preenchida-ren-e-sora.md",
+      "casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "consultas/38-ficha-de-projeto-e-entrega.md",
+      "consultas/40-registro-de-dedicacao-por-ficha.md"
+    ],
+    "Mei": [
+      "06-inimigos-e-perigos.md",
+      "08-entre-missoes.md",
+      "09-pactos-e-entidades.md",
+      "10-jogar-em-guilda.md",
+      "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "casos/68-ficha-e-comparacao-de-chefes.md",
+      "casos/71-sineiro-do-recolhimento.md",
+      "casos/73-ensaio-guiado-do-sineiro.md",
+      "casos/76-confronto-de-ren-e-sora.md",
+      "casos/77-ficha-preenchida-ren-e-sora.md",
+      "casos/78-preparar-perigos-ambientais.md",
+      "casos/79-o-po-na-sala-de-conservacao.md",
+      "casos/81-passar-a-missao-entre-mestres.md",
+      "casos/84-percursos-apoios-e-quedas.md",
+      "consultas/40-registro-de-dedicacao-por-ficha.md",
+      "consultas/A4-exemplo-sala-de-conservacao.md"
+    ],
+    "Akira": [
+      "06-inimigos-e-perigos.md",
+      "10-jogar-em-guilda.md",
+      "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "casos/68-ficha-e-comparacao-de-chefes.md",
+      "casos/71-sineiro-do-recolhimento.md",
+      "casos/73-ensaio-guiado-do-sineiro.md",
+      "casos/76-confronto-de-ren-e-sora.md",
+      "casos/77-ficha-preenchida-ren-e-sora.md",
+      "casos/78-preparar-perigos-ambientais.md",
+      "casos/79-o-po-na-sala-de-conservacao.md",
+      "casos/81-passar-a-missao-entre-mestres.md",
+      "consultas/A4-exemplo-sala-de-conservacao.md"
+    ],
+    "Ren": [
+      "09-pactos-e-entidades.md",
+      "casos/54-transporte-e-continuidade-das-entidades.md",
+      "casos/84-percursos-apoios-e-quedas.md",
+      "casos/89-vida-rolada-e-familia-propria.md",
+      "consultas/42-registro-de-pactos-e-promessas.md",
+      "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "consultas/88-indice-de-termos-do-mundo.md"
+    ],
+    "Kaori": [
+      "07-personagens-e-tecnicas.md",
+      "casos/89-vida-rolada-e-familia-propria.md"
+    ],
+    "Mina": [
+      "01-sua-primeira-missao.md",
+      "10-jogar-em-guilda.md",
+      "casos/14-o-aviso-de-reabertura.md",
+      "consultas/12-registro-de-descobertas.md",
+      "consultas/16-linha-de-continuidade.md",
+      "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "consultas/88-indice-de-termos-do-mundo.md"
+    ],
+    "Emi": [
+      "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "casos/85-trajetorias-ferramentas-e-improvisacao.md"
+    ],
+    "Nara": [
+      "01-sua-primeira-missao.md",
+      "consultas/16-linha-de-continuidade.md"
+    ],
+    "Davi": [
+      "01-sua-primeira-missao.md",
+      "02-o-mundo-dos-feiticeiros.md",
+      "03-preparar-aventuras.md",
+      "04-na-mesa-de-jogo.md",
+      "consultas/12-registro-de-descobertas.md",
+      "consultas/87-casos-da-obra-para-preparar-situacoes.md"
+    ],
+    "Ana": [
+      "01-sua-primeira-missao.md",
+      "02-o-mundo-dos-feiticeiros.md",
+      "04-na-mesa-de-jogo.md",
+      "casos/14-o-aviso-de-reabertura.md",
+      "casos/52-domar-o-amontoado.md",
+      "consultas/12-registro-de-descobertas.md",
+      "consultas/16-linha-de-continuidade.md"
+    ],
+    "Tessa": [
+      "casos/101-haru-vigia-e-tessa.md",
+      "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "casos/59-recursos-e-ritmo-dos-inimigos.md"
+    ],
+    "Maia": [
+      "07-personagens-e-tecnicas.md",
+      "consultas/28-ficha-de-convivencia.md"
+    ],
+    "Taru": [
+      "07-personagens-e-tecnicas.md",
+      "consultas/28-ficha-de-convivencia.md"
+    ],
+    "Nao": [
+      "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "casos/84-percursos-apoios-e-quedas.md",
+      "consultas/87-casos-da-obra-para-preparar-situacoes.md"
+    ],
+    "Arata": [
+      "07-personagens-e-tecnicas.md",
+      "casos/30-pareceres-de-criacoes.md",
+      "casos/89-vida-rolada-e-familia-propria.md"
+    ],
+    "Kenji": [
+      "08-entre-missoes.md",
+      "casos/96-fabricar-e-identificar-o-anel.md",
+      "casos/97-emprestimo-familiar-e-negociacao.md"
+    ],
+    "Hana": [
+      "casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "casos/49-liberacao-irregular-minuta.md"
+    ],
+    "Aoi": [
+      "08-entre-missoes.md",
+      "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "casos/84-percursos-apoios-e-quedas.md",
+      "casos/99-limiar-feitos-e-promocao.md"
+    ]
+  },
+  "frases_repetidas": [
+    {
+      "frase": "Transferir não recupera energia, não concede outra atuação no ciclo e não religa um corpo Desligado.",
+      "arquivos": [
+        "casos/43-aquisicao-e-projetos-de-entidades.md",
+        "casos/46-reconstruir-transferir-e-herdar-entidades.md"
+      ]
+    },
+    {
+      "frase": "Antes de usá-lo, mestre e jogador precisam conferir a ficha e registrar a troca.",
+      "arquivos": [
+        "casos/48-pacifismo-impraticavel-minuta.md",
+        "casos/49-liberacao-irregular-minuta.md"
+      ]
+    }
+  ],
+  "termos_de_processo": {
+    "casos/47-desenvolver-uma-ideia-de-pacto.md": [
+      "livro-base",
+      "pré-1.0"
+    ],
+    "casos/48-pacifismo-impraticavel-minuta.md": [
+      "pré-1.0"
+    ],
+    "casos/50-promessa-do-arquivo.md": [
+      "pré-1.0"
+    ],
+    "casos/51-ritual-do-cao-de-sombra.md": [
+      "pré-1.0"
+    ],
+    "casos/52-domar-o-amontoado.md": [
+      "pré-1.0"
+    ],
+    "casos/53-construir-e-evoluir-o-escriba.md": [
+      "pré-1.0"
+    ],
+    "casos/54-transporte-e-continuidade-das-entidades.md": [
+      "pré-1.0"
+    ],
+    "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md": [
+      "pré-1.0"
+    ],
+    "casos/57-avaliar-o-encontro-do-amontoado.md": [
+      "pré-1.0"
+    ],
+    "casos/62-o-carregador-e-o-corredor-de-entulho.md": [
+      "pré-1.0"
+    ],
+    "casos/64-a-passarela-e-o-guincho.md": [
+      "pré-1.0"
+    ],
+    "casos/67-preparar-chefes-e-confrontos-maiores.md": [
+      "pré-1.0"
+    ],
+    "casos/93-ampliar-mesclas-e-trocar-formas.md": [
+      "livro-base"
+    ]
+  }
+}

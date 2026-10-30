@@ -1,0 +1,110 @@
+{
+  "registro": 141,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "sha256": "3a396c10121e56723da23210abf7397a5435ca4e232b8c7bc61deeb68976d0b8",
+      "palavras_da_fonte": 4613,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+      "sha256": "a398fe29f0f205961c32375991dad99bdbb4b2a3acc304b5429c916ad3a69a4b",
+      "palavras_da_fonte": 2481,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+      "sha256": "16593e60a0b32dd196171d70f1d5ef7561d39499c9b72e8a252eb8b6c6ffa4e9",
+      "palavras_da_fonte": 1674,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/36-ferramentas-objetos-e-contencao.md",
+      "sha256": "1d6c03fb75bfff5cc7790bda7451a46eef50f0e53850ca8bf69152ccca2abb9f",
+      "palavras_da_fonte": 1426,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256": "3b81892c9ed97256bef43dc761f1aea6db252a88c50994f29a6e88c0a46b6517",
+      "palavras_da_fonte": 2453,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+      "sha256": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7",
+      "palavras_da_fonte": 979,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+      "sha256": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406",
+      "palavras_da_fonte": 1636,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+      "sha256": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa",
+      "palavras_da_fonte": 1066,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/98-objeto-selado-e-risco-de-ingestao.md",
+      "sha256": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6",
+      "palavras_da_fonte": 1469,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+      "sha256": "54520272346092c6fff765c06ae9ddbaab2e6777a3b603291e9d68f367169811",
+      "palavras_da_fonte": 1322,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+      "sha256": "9ae929a7cffb8d6b72e51acd44dbb311de6fdd7993b40c362f88a8a67bec60f2",
+      "palavras_da_fonte": 2012,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "sha256": "9cdb60db8a6ba235e9c708714a3a4a94bd5826d2e9180257d586ea0ad7d31a76",
+      "palavras_da_fonte": 769,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "palavras_da_fonte": 434,
+      "alcance": "Leitura completa e comparação com as orientações do capítulo; sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+      "sha256": "7269d3e7c407ec18178f4499b9f1607abc4673cb6195dbc6baa85690c53d7538",
+      "palavras_da_fonte": 468,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "81ddc164fb4b959f767786d175a0ab157a072f83d9fe9d9f6e7292ad0a82be2d",
+      "palavras_da_fonte": 780,
+      "alcance": "Leitura completa e segunda leitura após os ajustes; redação final dos trechos novamente conferida."
+    }
+  ],
+  "fonte_tecnica": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "sha256_fonte_tecnica": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "regras_consultadas": [
+    "Descansos curto e longo; ambiente propício; Exaustão; recuperação de usos",
+    "Ofícios, atributo padrão, fabricação e reparos",
+    "Ajudar em tarefas",
+    "Equipamento restrito, compras, fundo inicial e reposição",
+    "Ferramentas: grau, nível do efeito, itens em uso, cópias, criação e Desgaste",
+    "Objetos amaldiçoados, atração e selos",
+    "Cofre da Família e Palavra Empenhada",
+    "XP de missão, desconto semanal, custo de nível e Limiar",
+    "Salário por participação, recompensa por mestrar e promoção"
+  ],
+  "limite": "Leitura editorial com comparação de exemplos e conferência aritmética selecionada. Não é teste com jogadores, avaliação econômica completa ou revisão visual do PDF completo."
+}

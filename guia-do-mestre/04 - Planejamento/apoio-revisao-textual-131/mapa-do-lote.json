@@ -1,0 +1,23 @@
+{
+  "registro": 131,
+  "lote": "C-01",
+  "casos": [
+    "s002",
+    "s005",
+    "s024",
+    "s016"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-131/output/pdf/Ciclo-Maldito-Fichas-de-Mesa-Revisao-Textual.pdf",
+  "paginas": 9,
+  "casos_revistos_total": 59,
+  "casos_pendentes": 0,
+  "lotes_pendentes": 0,
+  "consultas_revistas": 4,
+  "consultas_pendentes": 13,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "C-02",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

@@ -1,0 +1,66 @@
+{
+  "registro": 128,
+  "pdf_sha256": "0d580fc196d83bfaf84438992d26938ee1fd63d153ced9f39d28a1b54a2162ca",
+  "casos_conferidos": [
+    {
+      "id": "s047",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 1,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s048",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 4,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s049",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    },
+    {
+      "id": "s050",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+      "numeros_preservados": true,
+      "mudancas_de_numero": [],
+      "tabelas": 2,
+      "originais_preservados": true,
+      "alteracoes_reproduzidas": true
+    }
+  ],
+  "tabelas_conferidas": 9,
+  "rotulos_simplificados": {},
+  "links_locais_conferidos": 541,
+  "normalizacao_da_extracao": "Separação equivalente de números e letras para unidades como 9m e 9 m.",
+  "palavras_ausentes_no_pdf": {},
+  "palavras_fora_da_pagina": [],
+  "fontes_antigas_preservadas": 104,
+  "casos_no_indice": 59,
+  "casos_revistos": 51,
+  "casos_pendentes": 8,
+  "lotes_pendentes": 2,
+  "mudancas_de_numero": {
+    "s047": [],
+    "s048": [],
+    "s049": [],
+    "s050": []
+  },
+  "contas_dos_exemplos": "Conferidas; mesmos dados e resultados. Nenhuma mudança de número.",
+  "mapa": "Sem mapas: os casos não dependem de posições num mapa.",
+  "limites": [
+    "Conferência documental; preservação integral final pelo manifesto.",
+    "Sem teste humano, nova simulação ou equilíbrio demonstrado.",
+    "Revisão integral e diagramação integrada continuam pendentes."
+  ]
+}

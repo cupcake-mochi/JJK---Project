@@ -1,0 +1,81 @@
+{
+  "registro": 134,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-134/output/pdf/Ciclo-Maldito-Mundo-e-Obra-Revisao-Textual.pdf",
+  "pdf_sha256": "2d48b0e0fa7fb67bd5b3ba12d5cf7dd3f1d7e353de44e578059f4840665ab87d",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 5,
+      "escopo": "Leitura integral das duas consultas, das regras citadas e das quatro sinopses oficiais disponíveis; duas cópias, remissões para os capítulos novos e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 0,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; nenhuma alteração necessária."
+    }
+  ],
+  "ajuste_de_diagramacao": "Sem linhas de preencher (glossário e apêndice de consulta); quadros de termos em largura cheia; apêndice com revelações em página própria; rótulo CONSULTA no lugar de FICHA PARA A MESA.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-01.png",
+      "imagem_sha256": "7d9540c232157a68c5fb47d9101567cf096e4a08ce552552a3e4d8af7c419209",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do índice de termos, Por onde começar e Pessoas e relações em largura cheia."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-02.png",
+      "imagem_sha256": "192b50d32cf2f30f01c398ffe451793958ef7060b5a3e7e5fe19a5b6cde2b21b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim de Pessoas e relações; Energia, efeitos e seres."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-03.png",
+      "imagem_sha256": "2c4670a199bd867b3f2d53dc3337a0962758960cfce3a748ae0a7c9ed540684e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim de Energia, efeitos e seres; Números que não significam a mesma coisa; exemplo e início dos exemplos de consulta."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-04.png",
+      "imagem_sha256": "57d7a9a040eeae9ba9ece3b6bcfdfed6e300e6ac30eae56d333f6450d1246d43",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim dos exemplos de consulta em duas colunas; fecho do índice antes do apêndice com revelações."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-05.png",
+      "imagem_sha256": "f3d46548ccdbdcf67300ddf513f138d5b383ae01a39060be65601b17469bd669",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura das ideias da obra em página própria, com o aviso de revelações; quadro de consultas; Ordens em conflito."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-06.png",
+      "imagem_sha256": "ba5c13ff058920da2d01c1d11409942d1757ee0e502a5c2a977428201d69896b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Acesso disputado e Quem tem a resposta?; início de Aliados independentes."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-134/pagina-07.png",
+      "imagem_sha256": "8b7f81057be7d99483cc243aaf10ddb7a6ef429c17132d5dd0a21771db6dcd60",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Aliados independentes, Histórias e desencontros e Quando o caso pede outra pesquisa."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Página 4 com um quarto de texto, fechando o índice antes do apêndice com revelações; a quebra é intencional.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

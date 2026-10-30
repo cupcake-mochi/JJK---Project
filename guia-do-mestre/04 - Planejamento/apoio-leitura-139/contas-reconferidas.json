@@ -1,0 +1,161 @@
+{
+  "registro": 139,
+  "metodo": "Distribuições discretas independentes; ataques contra Defesa estática, erro natural e crítico natural, dados de Canalizar não duplicados. Hipóteses restritas às tabelas citadas.",
+  "tolerancia_percentual": "0,051 ponto percentual para valores publicados com uma casa decimal.",
+  "sobrevivencia_caso_74": [
+    {
+      "nivel": 2,
+      "pv": 16,
+      "calculado_percentual": [
+        25.180423217910914,
+        2.9462071789157736,
+        29.081468520494667,
+        3.603533145266752
+      ],
+      "publicado_percentual": [
+        25.2,
+        2.9,
+        29.1,
+        3.6
+      ]
+    },
+    {
+      "nivel": 2,
+      "pv": 24,
+      "calculado_percentual": [
+        43.36710748808098,
+        7.147732811167962,
+        50.08123393581827,
+        9.449365893897719
+      ],
+      "publicado_percentual": [
+        43.4,
+        7.1,
+        50.1,
+        9.4
+      ]
+    },
+    {
+      "nivel": 2,
+      "pv": 32,
+      "calculado_percentual": [
+        65.39975672070885,
+        15.45273388582543,
+        72.99826176482365,
+        19.8255989296602
+      ],
+      "publicado_percentual": [
+        65.4,
+        15.5,
+        73.0,
+        19.8
+      ]
+    },
+    {
+      "nivel": 6,
+      "pv": 48,
+      "calculado_percentual": [
+        34.613302270180746,
+        3.802116951187141,
+        55.50802073237352,
+        9.65191162735326
+      ],
+      "publicado_percentual": [
+        34.6,
+        3.8,
+        55.5,
+        9.7
+      ]
+    },
+    {
+      "nivel": 6,
+      "pv": 72,
+      "calculado_percentual": [
+        70.08053628721001,
+        13.531306738058573,
+        87.97502883556538,
+        28.889419923700803
+      ],
+      "publicado_percentual": [
+        70.1,
+        13.5,
+        88.0,
+        28.9
+      ]
+    },
+    {
+      "nivel": 6,
+      "pv": 108,
+      "calculado_percentual": [
+        96.53317416347132,
+        44.24286906989619,
+        99.5458109950391,
+        70.3275919714934
+      ],
+      "publicado_percentual": [
+        96.5,
+        44.2,
+        99.5,
+        70.3
+      ]
+    }
+  ],
+  "medias_corporais_caso_74": [
+    {
+      "nivel": 2,
+      "alternativa": false,
+      "media_calculada": 3.4250000000000003,
+      "media_publicada": 3.43
+    },
+    {
+      "nivel": 2,
+      "alternativa": true,
+      "media_calculada": 4.7250000000000005,
+      "media_publicada": 4.73
+    },
+    {
+      "nivel": 6,
+      "alternativa": false,
+      "media_calculada": 7.5,
+      "media_publicada": 7.5
+    }
+  ],
+  "duas_tentativas_caso_74": [
+    {
+      "pv_iniciais": 14,
+      "probabilidade_de_zero_percentual": [
+        4.8564453125,
+        27.00860595703125
+      ],
+      "publicado_percentual": [
+        4.9,
+        27.0
+      ]
+    },
+    {
+      "pv_iniciais": 7,
+      "probabilidade_de_zero_percentual": [
+        50.25000000000001,
+        67.3125
+      ],
+      "publicado_percentual": [
+        50.3,
+        67.3
+      ]
+    }
+  ],
+  "escolha_de_alvo_caso_76": [
+    {
+      "alvo": "Sayo",
+      "probabilidade_calculada_percentual": 23.92255193693012,
+      "publicada_percentual": 23.9
+    },
+    {
+      "alvo": "Toru",
+      "probabilidade_calculada_percentual": 4.548748747018365,
+      "publicada_percentual": 4.5
+    }
+  ],
+  "falhas": [],
+  "limite": "Não inclui oponente agindo, socorro, escolhas de mesa ou equilíbrio. Não reconfere todos os percentuais do livro nem substitui os estados dos confrontos."
+}

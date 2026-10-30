@@ -1,6 +1,6 @@
 # Preparar a missão
 
-**Folha curta de preparo.** Use com [Preparar aventuras](../03-preparar-aventuras.md). Escreva frases curtas e preencha o que a situação pedir. Abra as fichas e regras citadas antes da sessão. Para um preparo extenso, use a [ficha completa](../../02-ficha-de-preparacao.md).
+**Folha curta de preparo.** Use com [Preparar aventuras](../03-preparar-aventuras.md). Escreva frases curtas e preencha o que a situação pedir. Abra as fichas e regras citadas antes da sessão. Para um preparo extenso, use a [ficha completa](<02-ficha-de-preparacao.md>).
 
 **Missão e versão destas notas:**
 
@@ -48,4 +48,4 @@ Regras e fichas dos perigos; sinais, consequências, meios de agir e retirada. S
 
 **Antes de jogar:** confira como o grupo pode descobrir o que importa e escolher um caminho diferente do que você imaginou. Complete as informações que faltarem.
 
-**Ao pausar ou encerrar:** registre mudanças, estado atual e próxima decisão em [Retomar a missão](A4-retomar-a-missao.md). Use o [registro de estado e socorro](../../24-registro-de-estado-e-socorro.md) quando necessário.
+**Ao pausar ou encerrar:** registre mudanças, estado atual e próxima decisão em [Retomar a missão](A4-retomar-a-missao.md). Use o [registro de estado e socorro](<24-registro-de-estado-e-socorro.md>) quando necessário.

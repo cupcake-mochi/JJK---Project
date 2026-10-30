@@ -1,0 +1,765 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Personagens, entidades e inimigos | Revisão textual</title><style>@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Regular.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-SemiBold.ttf");font-weight:600;font-style:normal;}
+@font-face{font-family:"Spectral";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/Spectral-Italic.ttf");font-weight:400;font-style:italic;}
+@font-face{font-family:"Bree";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BreeSerif.ttf");font-weight:400;font-style:normal;}
+@font-face{font-family:"Barlow";src:url("file:///media/mizuki/HD%20Externo%20II/Claude/Pesquisa%20de%20Campo%20-%20Mestragem/08%20-%20Diagramacao%20do%20Guia/fontes/BarlowCondensed-Bold.ttf");font-weight:700;font-style:normal;}
+    :root{--ink:#251727;--accent:#9e2358;--pale:#f8f1f4;--rule:#ded4d9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eee9ed;font:18px/1.6 Spectral,serif}
+    h1,h2,h3{break-after:avoid;line-height:1.15}h1{font:700 44px/1.1 Barlow,sans-serif;color:var(--accent)}
+    h2{font:700 30px/1.15 Barlow,sans-serif;color:var(--accent)}h3{font:22px/1.2 Bree,serif}
+    p{margin:.65em 0 .9em;orphans:3;widows:3}strong{font-weight:600}a{color:var(--accent)}
+    nav{background:#251727;color:white;padding:18px 24px;font:15px/1.5 sans-serif}nav a{color:white;display:inline-block;margin:4px 14px 4px 0}
+    .aviso-edicao{margin:0;padding:12px 24px;background:#f8f1f4;font:14px/1.5 sans-serif}
+    main{max-width:1000px;margin:28px auto}.folha{background:white;padding:42px 48px;margin:24px 0;box-shadow:0 2px 10px #25172718;scroll-margin-top:15px}
+    .folha>h1,.folha>h2,.folha>h3{margin-top:0}blockquote{background:var(--pale);border-left:3px solid var(--accent);margin:16px 0;padding:8px 16px;break-inside:avoid}
+    .comentario{border-left:2px solid var(--accent);padding-left:12px;color:#59424f;break-inside:avoid}.fala{margin-bottom:.5em}p:has(>strong:first-child),.grupo-tabela{break-inside:avoid}
+    table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:16px 0 20px;break-inside:avoid}th,td{padding:7px 9px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}th{background:var(--pale);font-weight:600}tr:nth-child(even) td{background:#fcf9fb}tr{break-inside:avoid}thead{display:table-header-group}img{max-width:100%;height:auto}li{margin:.35em 0}.rodape-tela{padding:12px 24px;font:14px/1.5 sans-serif}
+    @page{size:A4;margin:19mm;@top-left{content:'CICLO MALDITO / GUIA DO MESTRE';font:700 8pt Barlow;color:#9e2358}@top-right{content:'PERSONAGENS, ENTIDADES E INIMIGOS';font:700 8pt Barlow;color:#6f5867}@bottom-left{content:'PRÉ-1.0 · PROVA TEXTUAL PARCIAL';font:700 8pt Barlow;color:#6f5867}@bottom-right{content:counter(page);font:700 9pt Barlow;color:#9e2358}}
+    @media print{body{background:white;font-size:10.25pt;line-height:13.2pt}nav,.aviso-edicao,.rodape-tela{display:none}main{margin:0;max-width:none}.folha{padding:0;margin:0;box-shadow:none;break-after:page}.folha:last-child{break-after:auto}.colunas{column-count:2;column-gap:7mm;column-fill:balance}.inteira{column-count:1}h1{font-size:29pt;margin:0 0 10pt}h2{font-size:20pt;margin:0 0 10pt}h3{font-size:13pt;margin:9pt 0 6pt}.colunas h2{font-size:17pt;margin-top:10pt}p{margin:0 0 6pt}table{font-size:8.7pt;line-height:11pt;margin:5pt 0 9pt}th,td{padding:4pt 5pt}.comentario{padding-left:7pt;border-left-width:1pt}blockquote{margin:6pt 0 8pt;padding:6pt 9pt;border-left-width:2pt}li{margin:0 0 4pt}ul{padding-left:13pt;margin:4pt 0 8pt}img{display:block;width:100%;height:auto}.inteira table{font-size:9.1pt;line-height:11.5pt}#mapa img{max-height:111mm;object-fit:contain}#ficha>.colunas{margin-top:5pt}}
+    @media(max-width:700px){main{margin:0}.folha{padding:26px 20px;margin:8px 0}h1{font-size:38px}table{font-size:13px}.folha table{display:table}}
+    
+    .numero{font:700 18px Barlow,sans-serif;letter-spacing:.08em;color:#6f5867;margin:0 0 8px}
+    .folha>header>h1{margin-top:0}.folha>header{break-after:avoid}.consulta-regra{border-top:1px solid #ded4d9;margin-top:25px;padding-top:15px}
+    @media print{.numero{font-size:10pt;margin-bottom:7pt}.folha>header>h1{margin-bottom:12pt}.colunas h2{font-size:17pt;margin:11pt 0 7pt}.colunas h3{font-size:12.5pt}.colunas ol{padding-left:14pt;margin:5pt 0 9pt}.colunas h2:first-child{margin-top:0}table{font-size:9pt;line-height:11.5pt}p:has(>strong:first-child){break-inside:auto}.colunas p.bloco-curto{break-inside:avoid!important}}
+    @media print{table{font-size:9.2pt;line-height:11.5pt}.colunas p.bloco-curto{break-inside:auto!important}.colunas li{break-inside:avoid}.golpes td:nth-child(n+2){white-space:nowrap}.golpes th:nth-child(1){width:40%}.golpes th:nth-child(2){width:14%}.golpes th:nth-child(3),.golpes th:nth-child(4){width:23%}.larga{column-span:all;break-inside:avoid;margin:8pt 0}.formula{white-space:nowrap}.abertura-secao{break-inside:avoid}.colunas p.estado-final,.colunas p.comparacao,.colunas p.exemplo-numerico{break-inside:avoid!important}#c09 .colunas p{margin-bottom:5pt}#c09 table th,#c09 table td{padding:3pt 4pt}#c10 .colunas p{margin-bottom:4.5pt}#c10 table th,#c10 table td{padding:3pt 4pt}#c10 .colunas h3{margin:8pt 0 5pt}#c10 .colunas h2{margin:10pt 0 6pt}#c10 .larga th:first-child{width:20%}#c10 .fechamento-exemplo{column-span:all;break-inside:avoid;margin:2pt 0 6pt}}@media print{.larga{column-span:none;break-inside:avoid;margin:8pt 0}.larga.fluida,.larga.fluida table{break-inside:auto}.larga th{white-space:normal}.larga>p{break-after:avoid}.colunas p.conta{break-inside:avoid}.numero-curto{white-space:nowrap}.bloco-mapa{break-inside:avoid;margin:8pt 0}.bloco-mapa figure{margin:0}.bloco-mapa img{display:block;width:100%;height:auto}.folha>header{break-inside:avoid;break-after:avoid}.folha>header .numero{break-after:avoid}.mapa-legenda{margin:5pt 0 8pt}#dedicacao,#pactos,#entidade,#inimigo{break-after:auto}#pactos,#entidade,#inimigo,#habilidade{padding-top:14pt;break-before:auto}.linhas{margin:2pt 0 7pt;break-inside:avoid}.linha{display:block;height:5mm;border-bottom:.4pt solid #ded4d9}td:empty{height:7mm}.campo{break-inside:avoid}ul.marcar{list-style:none;padding-left:0}.folha td{height:7mm}.quadro-campos td:first-child{width:36%}.quadro-campos td:empty{height:10mm}.formula{white-space:nowrap}}</style></head><body><nav><a href="#dedicacao">Registro de dedicação por ficha</a><a href="#pactos">Registro de Pactos e Promessas</a><a href="#entidade">Registro de aquisição e estado de entidade</a><a href="#inimigo">Ficha de inimigo e encontro</a><a href="#habilidade">Conferir uma habilidade de inimigo</a><a href="casos-completos.html">Casos por assunto</a><a href="guia-de-consulta.html">Folhas e capítulos</a></nav><p class="aviso-edicao">Prova parcial: consultas complementares, lote C-03. Fontes antigas e edição integrada anterior preservadas.</p><main><article class="folha" id="dedicacao"><header><p class="numero">FICHA PARA A MESA</p><h1>Registro de dedicação por ficha</h1></header><div class="colunas">
+<p>Use um registro separado para cada personagem, mesmo quando várias fichas pertencem à mesma pessoa. O padrão recomendado é 28 horas novas a cada ciclo comum de sete dias. O que sobrar das horas novas de um ciclo vale só no ciclo seguinte. Consulte <a href="../apoio-revisao-textual-115/prova-textual.html#c08">Tempo para as atividades</a>, no capítulo Entre missões, para entrada proporcional, afastamento e adaptações.</p>
+<h2 id="dedicacao--identificacao-do-ciclo">Identificação do ciclo</h2>
+<ul>
+<li><strong>Personagem e versão da ficha:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Jogador e responsável pela conferência:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Datas de abertura e fechamento; fuso:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Intervalo correspondente na história:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Concessão nova:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Entrada ou retorno no meio do ciclo, se houver:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Saldo anterior, ciclo de origem e vencimento:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Total livre na abertura:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Reservas pendentes de ciclos anteriores, registradas separadamente:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+</ul>
+<p>As horas reservadas não entram no saldo livre. Mesmo com horas disponíveis, o personagem precisa de tempo na história, materiais, ferramentas e conhecimentos para trabalhar.</p>
+</div><div class="larga"><h2 id="dedicacao--atividades">Atividades</h2><table>
+<thead>
+<tr>
+<th>Projeto ou atividade</th>
+<th>Intervalo da história</th>
+<th style="text-align: right;">Horas antigas</th>
+<th style="text-align: right;">Horas novas</th>
+<th>Estado: reservado ou confirmado</th>
+<th>Resultado, progresso ou dependência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<div class="campo"><p><strong>Materiais, valores e mudanças na ficha:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+<div class="campo"><p><strong>Referência ao projeto detalhado, quando houver:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+<div class="campo"><p><strong>Data a partir da qual o resultado pode ser usado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+<div class="campo"><p><strong>Correções, motivo e responsável:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+<p>Um trabalho conjunto registra a contribuição de cada personagem na própria folha. Horas dedicadas não passam para outra ficha; a divisão das tarefas e o efeito da ajuda sobre o projeto seguem o acordo de fabricação.</p>
+<h2 id="dedicacao--fechamento">Fechamento</h2>
+<ul>
+<li><strong>Horas de trabalho confirmadas:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Horas ainda reservadas, por parcela de origem:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Restante livre da parcela antiga que expira:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Restante livre da concessão nova que passa ao ciclo seguinte:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Projetos em andamento e trabalho já realizado:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Dependências de missão, materiais ou outros acontecimentos:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Afastamento formal e fichas abrangidas, quando houver:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+<li><strong>Conferido por e data:</strong><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></li>
+</ul>
+<p>Primeiro use o saldo antigo. No fechamento, transfira somente a parte livre da concessão nova. Preserve o progresso dos projetos. Uma parcela pendente continua vinculada ao seu registro e não pode aparecer também como saldo disponível.</p>
+</div><div class="larga fluida"><h2 id="dedicacao--exemplo-dois-personagens-da-mesma-pessoa">Exemplo: dois personagens da mesma pessoa</h2><p>Rina e Mei estão liberadas desde o início. Cada uma tem 28 horas novas por ciclo de sete dias. Não há reservas pendentes na tabela abaixo. Todos os trabalhos citados cabem na história; a tabela acompanha apenas a dedicação, sem conceder benefícios não previstos nas atividades.</p><table>
+<thead>
+<tr>
+<th>Ficha e ciclo</th>
+<th style="text-align: right;">Saldo antigo</th>
+<th style="text-align: right;">Horas novas</th>
+<th style="text-align: right;">Trabalho executado</th>
+<th>Uso: antigas + novas</th>
+<th style="text-align: right;">Antigas que expiram</th>
+<th style="text-align: right;">Novas que passam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rina, 1</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">18</td>
+<td class="numero-curto">0 + 18</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Mei, 1</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto">0 + 28</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Rina, 2</td>
+<td class="numero-curto" style="text-align: right;">10</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">20</td>
+<td class="numero-curto">10 + 10</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>Mei, 2</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">8</td>
+<td class="numero-curto">0 + 8</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto" style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>Rina, 3</td>
+<td class="numero-curto" style="text-align: right;">18</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">12</td>
+<td class="numero-curto">12 + 0</td>
+<td class="numero-curto" style="text-align: right;">6</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+</tr>
+<tr>
+<td>Mei, 3</td>
+<td class="numero-curto" style="text-align: right;">20</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+<td class="numero-curto" style="text-align: right;">0</td>
+<td class="numero-curto">0 + 0</td>
+<td class="numero-curto" style="text-align: right;">20</td>
+<td class="numero-curto" style="text-align: right;">28</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Rina abre o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar o saldo de Mei. Na abertura do quarto ciclo, cada uma poderá ter 56 horas: 28 novas e 28 que passaram do terceiro.</p>
+<p>O encerramento do terceiro ciclo elimina apenas as parcelas antigas não usadas. Não desfaz os projetos em que Rina e Mei trabalharam, não remove capacidades do Livro de Regras 1.0 e não determina regressão de treino por ausência de postagem.</p>
+<h2 id="dedicacao--exemplo-de-entrada-proporcional">Exemplo de entrada proporcional</h2>
+<p>Uma ficha nova é liberada no quinto dia do ciclo. Contando os dias 5, 6 e 7, a quatro horas por dia, recebe <strong class="formula">3 × 4 = 12 horas</strong>. Se outra ficha da mesma pessoa já participou do ciclo inteiro, ela mantém seu próprio registro de 28 horas novas. As 12 pertencem somente à ficha nova, que não herda saldo da anterior.</p>
+<h2 id="dedicacao--exemplo-de-conferencia-pendente">Exemplo de conferência pendente</h2>
+<p>Uma ficha fecha com dez horas confirmadas, oito reservadas para conferência e dez livres, totalizando 28. Só as dez livres passam como saldo disponível. A abertura seguinte tem 38 horas livres, além do registro separado das oito reservadas. Confirmar essas oito converte seu estado de reservado para confirmado; não acrescenta horas novas.</p>
+<p>O resultado pendente não pode ser utilizado antes da conferência. Se uma revisão liberar uma parcela, preserve sua origem e validade. Registre a correção para que o próximo mestre não a conte duas vezes.</p></div></article><article class="folha" id="pactos"><header><p class="numero">FICHA PARA A MESA</p><h1>Registro de Pactos e Promessas</h1></header><div class="colunas">
+<p>Use esta folha junto do capítulo <a href="../apoio-revisao-textual-115/prova-textual.html#c09">Pactos e entidades</a>. Preencha os termos antes da aceitação. O registro identifica uma troca concreta; não substitui a conferência dos limites do Livro de Regras 1.0.</p>
+</div><div class="larga fluida"><h2 id="pactos--folha-em-branco">Folha em branco</h2><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome e forma</td>
+<td>Permanente, temporário, Promessa ou pacto de restrição.</td>
+</tr>
+<tr>
+<td>Personagem ou partes</td>
+<td>Quem assume a obrigação; autoridade de quem representa uma organização; autonomia para aceitar.</td>
+</tr>
+<tr>
+<td>Aceitação</td>
+<td>Acordo voluntário das partes e dos jogadores envolvidos.</td>
+</tr>
+<tr>
+<td>Benefício</td>
+<td>Regra completa, capacidade afetada, alvos, alcance e limite da alteração.</td>
+</tr>
+<tr>
+<td>Preço ou obrigações</td>
+<td>O que cada parte entrega, perde, faz ou deixa de fazer.</td>
+</tr>
+<tr>
+<td>Compensações anteriores</td>
+<td>Onde essa limitação já foi considerada; como se evita usá-la duas vezes.</td>
+</tr>
+<tr>
+<td>Início e acionamento</td>
+<td>Data, condição, ação e gatilho percebido, quando houver.</td>
+</tr>
+<tr>
+<td>Prazo do ganho</td>
+<td>Quando começa e termina.</td>
+</tr>
+<tr>
+<td>Prazo do preço</td>
+<td>Quando é pago, por quanto tempo permanece e como uma recuperação o afeta.</td>
+</tr>
+<tr>
+<td>Encerramento</td>
+<td>Pedido, marco de término e consequências que continuam depois; não confundir suspensão do ganho com fim do Pacto.</td>
+</tr>
+<tr>
+<td>Situação da regra</td>
+<td>Regra publicada, proposta experimental ou aprovação local; versão e ficha às quais se aplica.</td>
+</tr>
+<tr>
+<td>Vaga</td>
+<td>Se ocupa; Essência e quantidade total ocupada.</td>
+</tr>
+<tr>
+<td>Cláusulas</td>
+<td>Exceções, pessoas protegidas e circunstâncias incluídas.</td>
+</tr>
+<tr>
+<td>Descumprimento</td>
+<td>Fato verificável e consequência previamente definida; distinguir as regras da forma escolhida.</td>
+</tr>
+<tr>
+<td>Conferência</td>
+<td>Responsável, texto aprovado e data.</td>
+</tr>
+<tr>
+<td>Estado atual</td>
+<td>Ativo, cumprido, encerrado ou outra situação prevista; recursos e consequências ainda pendentes.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p>Não aplique a punição de quebra de uma Promessa automaticamente a todo Pacto. A forma escolhida e o texto aprovado determinam as regras da troca.</p>
+</div><div class="larga fluida"><h2 id="pactos--exemplo-preenchido-overtime">Exemplo preenchido: Overtime</h2><p>Exemplo de aplicação do Pacto publicado no Livro de Regras 1.0, sem acrescentar efeitos.</p><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personagem e forma</td>
+<td>Ren; permanente de energia.</td>
+</tr>
+<tr>
+<td>Vagas</td>
+<td>Essência 4: duas vagas. Não tem outro permanente ou pacto de restrição; este passa a ocupar uma.</td>
+</tr>
+<tr>
+<td>Aceitação</td>
+<td>Jogador e mestre concordaram com a troca e a jornada fixa.</td>
+</tr>
+<tr>
+<td>Jornada</td>
+<td>Oito horas de trabalho, contadas desde o começo das missões do dia.</td>
+</tr>
+<tr>
+<td>Preço</td>
+<td>PE máximo reduzido em 20% durante a jornada; começa o dia de missões com esse máximo reduzido.</td>
+</tr>
+<tr>
+<td>Benefício</td>
+<td>Na hora extra, máximo elevado em 20%; recebe imediatamente a diferença entre os máximos, arredondada para baixo.</td>
+</tr>
+<tr>
+<td>Contagem</td>
+<td>Descanso curto fica fora das horas de trabalho. Descanso longo encerra a hora extra e zera a contagem.</td>
+</tr>
+<tr>
+<td>Compensações</td>
+<td>A redução não foi usada para obter outro benefício da ficha.</td>
+</tr>
+<tr>
+<td>Exceções adicionais</td>
+<td>Nenhuma acrescentada neste exemplo.</td>
+</tr>
+<tr>
+<td>Situação acompanhada</td>
+<td>Máximo normal 40; durante a jornada 32; na hora extra 48. Tem 12 PE imediatamente antes da passagem; recebe 16 e fica com 28.</td>
+</tr>
+<tr>
+<td>Continuidade</td>
+<td>Registrar horas efetivamente trabalhadas, pausas, máximo vigente e PE atual. O saldo semanal de dedicação não ativa o Pacto.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<h2 id="pactos--conferencia-rapida-de-uma-promessa">Conferência rápida de uma Promessa</h2>
+<p>Antes da assinatura, peça a cada parte que explique o que deve fazer e o que receberá. Se as explicações divergirem, o texto ainda precisa de ajuste.</p>
+<ol>
+<li>Quem pode cumprir cada obrigação e quem tem autoridade para assumi-la?</li>
+<li>O que será considerado entrega, cumprimento parcial ou atraso?</li>
+<li>Quais datas, pessoas e objetos estão identificados?</li>
+<li>Qual fato rompe o acordo e qual consequência foi compreendida?</li>
+<li>Há uma cláusula que pressupõe a concordância de alguém ausente?</li>
+</ol>
+<p>Não complete um campo desconhecido com uma ameaça vaga. Volte à negociação e resolva o ponto antes de aceitar.</p>
+<h2 id="pactos--exemplo-de-promessa-preenchida">Exemplo de Promessa preenchida</h2>
+<p><a href="../apoio-revisao-textual-128/prova-textual.html#promessa">A Promessa do arquivo</a> apresenta partes, autorização, acesso, empréstimo, cópias, prazo, devolução e consequências. O quadro pode ser usado como modelo de registro. O exemplo é experimental: a punição permanece até uma reparação definida no próprio acordo. Não é uma regra universal do Livro de Regras 1.0.</p></div></article><article class="folha" id="entidade"><header><p class="numero">FICHA PARA A MESA</p><h1>Registro de aquisição e estado de entidade</h1></header><div class="colunas">
+<p>Use uma folha por entidade, junto da ficha completa de <strong>Construir invocações</strong>, no Livro de Regras 1.0. Esta folha acompanha aquisição, projeto e continuidade. Não substitui atributos, habilidades e demais campos da ficha.</p>
+</div><div class="larga fluida"><h2 id="entidade--identificacao-e-aquisicao">Identificação e aquisição</h2><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome e definição</td>
+<td>O que é e qual função cumpre.</td>
+</tr>
+<tr>
+<td>Origem e corpo</td>
+<td>Técnica, criação ou domada; talismã, corpo e outras características pertinentes.</td>
+</tr>
+<tr>
+<td>Invocador</td>
+<td>Personagem responsável; nível, Classe e rota.</td>
+</tr>
+<tr>
+<td>Forma de aquisição</td>
+<td>Espaço, lista de ritual, criação ou doma.</td>
+</tr>
+<tr>
+<td>Nível e Classe da entidade</td>
+<td>Valores atuais e limite de evolução.</td>
+</tr>
+<tr>
+<td>Requisito usado</td>
+<td>Espaço ocupado, entrada da lista, projeto ou ficha resultante da doma.</td>
+</tr>
+<tr>
+<td>Ficha conferida</td>
+<td>Onde consultar a montagem e quem a conferiu.</td>
+</tr>
+<tr>
+<td>Ofício compatível</td>
+<td>Ofício registrado na criação, quando exigido; materiais do corpo ou talismã.</td>
+</tr>
+<tr>
+<td>Comunicação</td>
+<td>Como recebe ordens e transmite informações; sentidos e limites.</td>
+</tr>
+<tr>
+<td>Controle e transporte</td>
+<td>Teto de ativos, corpos mantidos, Volume e talentos de carga aplicáveis.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+</div><div class="larga fluida"><h2 id="entidade--projeto-de-criacao-reconstrucao-ou-transferencia">Projeto de criação, reconstrução ou transferência</h2><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operação</td>
+<td>Criar, reconstruir para qual Classe ou transferir para quem.</td>
+</tr>
+<tr>
+<td>Permissão e requisitos</td>
+<td>Oportunidade, responsáveis habilitados e consentimento na transferência ou morte do dono anterior.</td>
+</tr>
+<tr>
+<td>Trabalho</td>
+<td>Horas combinadas, partes concluídas e interrupções admitidas.</td>
+</tr>
+<tr>
+<td>Espera</td>
+<td>O que precisa acontecer além da dedicação.</td>
+</tr>
+<tr>
+<td>Materiais e ferramentas</td>
+<td>O que está disponível, consumido ou ainda necessário.</td>
+</tr>
+<tr>
+<td>Responsável e ajuda</td>
+<td>Treino, atributo, Maestria e contribuição; ajudante treinado dedica o mesmo tempo.</td>
+</tr>
+<tr>
+<td>Teste</td>
+<td>Classes comparadas, CD, modificadores e origem válida da vantagem.</td>
+</tr>
+<tr>
+<td>Resultado</td>
+<td>Dados, total, sucesso ou falha.</td>
+</tr>
+<tr>
+<td>Nova tentativa</td>
+<td>Condição de autorização, trabalho ou materiais adicionais e vantagem prevista após falha.</td>
+</tr>
+<tr>
+<td>Dedicação por participante</td>
+<td>Ligações com os registros individuais de tempo; horas confirmadas e reservadas.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p><strong>Antes de iniciar:</strong> conheça o resultado pretendido e as condições do projeto. <strong>Antes de rolar:</strong> confirme que o trabalho foi cumprido. <strong>Antes de usar:</strong> confira se a aquisição foi concluída e pague os custos de entrada ou ativação devidos.</p>
+</div><div class="larga fluida"><h2 id="entidade--exemplo-de-conferencia-do-teste">Exemplo de conferência do teste</h2><p>Este quadro retoma os números publicados da calígrafa no Livro de Regras 1.0. Mostra os requisitos e o resultado do teste; não define um prazo-padrão ou preço de materiais.</p><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Caso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operação</td>
+<td>Criar um shikigami de talismã de Classe 3.</td>
+</tr>
+<tr>
+<td>Responsável</td>
+<td>Caligrafia treinada; nível 13, Classe 4, Destreza 4, Maestria 2.</td>
+</tr>
+<tr>
+<td>Destinatário</td>
+<td>Invocador de nível 9, Classe 3.</td>
+</tr>
+<tr>
+<td>Ficha</td>
+<td>Preparada antes do teste, no nível 9, com ofício Caligrafia.</td>
+</tr>
+<tr>
+<td>Comparação</td>
+<td>Entidade uma Classe abaixo da responsável.</td>
+</tr>
+<tr>
+<td>Dificuldade</td>
+<td>8 + 4 + 2 − 2 = 12.</td>
+</tr>
+<tr>
+<td>Rolagem</td>
+<td>d20 + 6; resultado 6 no dado totaliza 12 e tem sucesso.</td>
+</tr>
+<tr>
+<td>Entrega</td>
+<td>Entidade com vida máxima, recolhida em talismã sem carga; 0,5 de Volume.</td>
+</tr>
+<tr>
+<td>Evolução</td>
+<td>Acompanha o invocador até o nível 12; Classe 4 exige reconstrução.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Este quadro resolve o teste. <a href="../apoio-revisao-textual-129/prova-textual.html#tempo">Tempo e materiais para criar entidades</a> acrescenta um orçamento e uma linha de trabalho com falha; <a href="../apoio-revisao-textual-129/prova-textual.html#reconstruir">reconstrução e transferência</a> exemplifica as operações posteriores. Para executar um projeto, mantenha também a ficha completa da entidade vinculada ao registro; CD e horas não a substituem.</p>
+<h2 id="entidade--estado-para-passagem-entre-mesas">Estado para passagem entre mesas</h2>
+<ul>
+<li>Vida atual e máxima, Integridade quando aplicável e excedente de queda quando houver.</li>
+<li>Ativa, recolhida, inativa, caída, Desligada, destruída ou outro estado pertinente; posição quando permanece no mundo.</li>
+<li>Condições, efeitos e respectivos prazos; auras ou efeitos que dependem de presença.</li>
+<li>Carga do talismã; reserva própria somente quando o tipo permitir; usos gastos e recuperação exigida.</li>
+<li>Tarefa atual e forma pela qual foi recebida.</li>
+<li>Básica, Movimento e Reação coletiva disponíveis, se a mesma cena continuar.</li>
+<li>Ordem pendente, requisitos, custos já pagos e prazo.</li>
+<li>Equipamento próprio, objetos transportados para terceiros e passageiros previstos na ficha.</li>
+<li>Nova pessoa responsável após transferência bem-sucedida, sem apagar estados ou usos.</li>
+</ul>
+<p>Ao encerrar uma missão, registre o estado real e as recuperações que aconteceram. Fechar o ciclo administrativo da guilda ou mudar de mestre não recupera a entidade por si.</p>
+<h2 id="entidade--exemplo-de-lista-de-ritual">Exemplo de lista de ritual</h2>
+<p><a href="../apoio-revisao-textual-129/prova-textual.html#cao">A prova do Cão de sombra</a> inclui um registro preenchido de vitória. Anote também a versão dos termos, o resultado do desafio, eventual intervenção, destruição e condição para tentar novamente. “Conquistada” e “pronta para atuar” são campos diferentes: uma entidade conquistada ainda caída precisa do retorno ou recuperação aplicável.</p>
+<h2 id="entidade--exemplo-de-doma">Exemplo de doma</h2>
+<p><a href="../apoio-revisao-textual-130/prova-textual.html#amontoado">Domar o Amontoado</a> inclui a folha preenchida logo após a submissão: valores atuais e máximos convertidos, excedente, posição, corpo Desligado e falta de recolhimento. Atualize o mesmo registro depois de religar ou recuperar recursos; não substitua “adquirida” por “recuperada”.</p>
+<h2 id="entidade--construcao-e-evolucao">Construção e evolução</h2>
+<p><a href="../apoio-revisao-textual-130/prova-textual.html#escriba">O Escriba de campo</a> mostra quais campos revisar ao ganhar nível: atributos, vida e Integridade máximas, treinos, vagas, talentos e versões ampliadas. Guarde também o texto e as condições de aprovação de capacidades próprias. Uma projeção de vagas não significa que todos os poderes futuros já foram escolhidos.</p>
+<h2 id="entidade--transporte-e-continuidade">Transporte e continuidade</h2>
+<p><a href="../apoio-revisao-textual-130/prova-textual.html#mula">A Mula de dobra</a> inclui o registro preenchido de embarque e retirada: um passageiro, 8/8 Volume, custo de montar, básica, metros gastos e término da tarefa. Ao recolher, anote onde ficaram passageiro e objetos. Se o invocador deixar de agir, registre a situação concreta e a última tarefa válida; inconsciência e morte confirmada seguem regras diferentes.</p>
+<h2 id="entidade--fabricacao-completa">Fabricação completa</h2>
+<p><a href="../apoio-revisao-textual-130/prova-textual.html#vigia">O Vigia do depósito</a> reúne ficha, orçamento, horas, testes, entrega sem carga e evolução. A transferência é um exemplo alternativo no nível 9; não misture seus valores com a reconstrução posterior ao nível 13.</p></div></article><article class="folha" id="inimigo"><header><p class="numero">FICHA PARA A MESA</p><h1>Ficha de inimigo e encontro</h1></header><div class="colunas">
+<p><strong>Use esta ficha para preparar o encontro e, depois, registrar o resultado.</strong> Ela acompanha o capítulo <a href="../apoio-revisao-textual-114/prova-textual.html#c06">Inimigos e perigos</a>. O <a href="../apoio-revisao-textual-124/prova-textual.html#ficha">exemplo preenchido com Ren e Sora</a> usa os mesmos seis blocos.</p>
+<p>Preencha uma vez a situação, o grupo e o lugar. Repita o bloco 2 por tipo de ameaça e mantenha um estado separado para cada corpo. Use o bloco 3 para capacidades novas ou alteradas; uma referência completa e acessível pode substituir a transcrição de uma ficha já pronta. Num perigo sem criaturas, marque o bloco 2 como não aplicável e desenvolva o bloco 4. “Não se aplica” e “ainda falta decidir” têm significados diferentes.</p>
+</div><div class="larga fluida"><h2 id="inimigo--1-situacao-e-grupo">1. Situação e grupo</h2><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Preenchimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identificação</td>
+<td>Missão, lugar, responsável, versão e data.</td>
+</tr>
+<tr>
+<td>Objetivo e oposição</td>
+<td>O que o grupo precisa obter? O que a oposição quer e sabe?</td>
+</tr>
+<tr>
+<td>Saídas e consequências</td>
+<td>O que encerra a oposição? O que ocorre ao negociar, demorar, recuar ou abandonar?</td>
+</tr>
+<tr>
+<td>Participantes</td>
+<td>Fichas e versões disponíveis. Se forem perfis de estudo, quais capacidades estão representadas e quais ficaram de fora?</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+</div><div class="larga"><table>
+<thead>
+<tr>
+<th>Participante / versão</th>
+<th style="text-align: right;">Nível</th>
+<th>PV atuais/máximos</th>
+<th>Integridade atual/máxima</th>
+<th>PE, usos e condições</th>
+<th>Sequelas, alcance e socorro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+<div class="campo"><p><strong>Entidades, comandos e recursos compartilhados:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Quem consegue perceber e atingir a ameaça:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Estado anterior que continua nesta cena:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+</div><div class="larga fluida"><h2 id="inimigo--2-construcao-ou-escolha-de-cada-ameaca">2. Construção ou escolha de cada ameaça</h2><p>Se conservar uma ficha existente, indique onde consultá-la e destaque apenas as mudanças. Se construir uma nova, complete todos os campos aplicáveis. O nome de um papel, como atacante ou apoio, não concede capacidades.</p><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Preenchimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identificação e função</td>
+<td>Nome, quantidade, versão da ficha, nível e função no encontro; grau no cenário, se usado.</td>
+</tr>
+<tr>
+<td>Corpo e percepção</td>
+<td>Tamanho, membros, mãos, massa, sentidos, comunicação e alma.</td>
+</tr>
+<tr>
+<td>Progressão e testes</td>
+<td>Atributos, Maestria, Refino e Classe máxima quando aplicáveis; ataques, CDs, perícias e TRs com treinos identificados.</td>
+</tr>
+<tr>
+<td>Recursos iniciais</td>
+<td>Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada corpo.</td>
+</tr>
+<tr>
+<td>Defesas e movimento</td>
+<td>Defesa com componentes, Bloquear, proteções, deslocamentos, carga e equipamento.</td>
+</tr>
+<tr>
+<td>Atuação</td>
+<td>Padrão, Movimento, Bônus e Reação; número de ataques, capacidades completas e o que disputa o mesmo recurso.</td>
+</tr>
+<tr>
+<td>Prioridades</td>
+<td>Alvos, informação disponível, negociação, perseguição, retirada e mudanças de comportamento.</td>
+</tr>
+<tr>
+<td>Derrota e aquisição</td>
+<td>O que ocorre a zero de PV ou Integridade; destino dos efeitos; destruição, retorno e conversão de aquisição, quando cabíveis.</td>
+</tr>
+<tr>
+<td>Origem e alterações</td>
+<td>O que vem do Livro de Regras 1.0, o que é escolha local e quais parâmetros ou capacidades são propostas. Para cada mudança, registrar motivo e referência anterior.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<div class="campo"><p><strong>Ficha completa para consulta:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Pendência que impede usar esta versão:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+</div><div class="larga fluida"><h2 id="inimigo--3-capacidade-nova-ou-alterada">3. Capacidade nova ou alterada</h2><p>Repita somente para o que precisa ser desenvolvido. Para uma capacidade pronta, registre nome e referência no bloco 2. As <a href="#habilidade">conferências de habilidade</a> ajudam quando houver interação difícil.</p><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Preenchimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identificação e origem</td>
+<td>Nome, função e tipo — arma, manobra, feitiço, aptidão ou regra própria — e dependência de corpo, equipamento ou técnica. Fonte, alteração e estado de aprovação.</td>
+</tr>
+<tr>
+<td>Uso</td>
+<td>Ação, momento, gatilho e requisitos; alvo, alcance, visão, trajeto, mãos, voz, Selo e preparação.</td>
+</tr>
+<tr>
+<td>Resolução</td>
+<td>Ataque e crítico, ou TR/CD e resultados; dano, condição, deslocamento e demais efeitos.</td>
+</tr>
+<tr>
+<td>Pagamento e limite</td>
+<td>Custo-base e custo pago, quando diferentes; quando pagar, o que consome disponibilidade e o motivo de cada limite adicional.</td>
+</tr>
+<tr>
+<td>Duração e retorno</td>
+<td>Prazo, manutenção, interrupção, perda ou devolução; estado inicial e recuperação de usos dentro e fora da iniciativa.</td>
+</tr>
+<tr>
+<td>Sinal e resposta</td>
+<td>O que o grupo percebe, quando pode intervir, com qual ação e o que a intervenção altera.</td>
+</tr>
+<tr>
+<td>Interações relevantes</td>
+<td>Integridade, energia percebida, cancelamento, Rescaldo, contenção e aquisição, conforme a capacidade.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<div class="campo"><p><strong>Texto completo ou referência da aplicação:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Caso de falha, interrupção ou alvo ausente conferido:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+</div><div class="larga"><h2 id="inimigo--4-lugar-sinais-e-mudancas">4. Lugar, sinais e mudanças</h2><p>Para desenvolver uma fonte sem autor, consulte <a href="../apoio-revisao-textual-120/prova-textual.html#perigos">Preparar perigos ambientais</a>. A <a href="../apoio-revisao-textual-123/prova-textual.html#po">sala de conservação</a> exemplifica exposição recorrente e efeitos após a retirada.</p><table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Posição / percurso</th>
+<th>Sinal percebido</th>
+<th>Gatilho e momento da consequência</th>
+<th>Intervenção e resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acessos, obstáculos e cobertura</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Objetivo ou pessoa em risco</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Perigo ambiental, se houver</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<div class="campo"><p><strong>Resolução do perigo:</strong> área, tempo/frequência, teste ou TR/CD, dano/condição, término e fonte de cada regra. Se algo não tiver resolução mecânica, não deduza dano só da descrição.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div></div><div class="campo"><p><strong>Retirada, transporte e lugar de atendimento:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Mudanças de fase ou chegada de aliados, se houver:</strong> gatilho, momento, alvos, ações, registros preservados e encerramento. Partes atacáveis precisam de regras de alvo e compartilhamento de dano. O <a href="../apoio-revisao-textual-124/prova-textual.html#chefe">aprofundamento de chefes</a> ajuda a comparar essas escolhas.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div></div>
+<h2 id="inimigo--5-antes-de-jogar">5. Antes de jogar</h2>
+<ul class="marcar">
+<li>☐ Fichas completas e versões disponíveis; estados de cada corpo separados.</li>
+<li>☐ Capacidades com ação, custo, requisitos e resolução; nenhum benefício concedido só pelo nome ou pela aparência.</li>
+<li>☐ Ações, alcance, defesas, dano e Integridade comparados com o grupo real ou com perfis declarados.</li>
+<li>☐ Sequência comum e sequência adversa plausível examinadas; participação, respostas ao controle e socorro acessíveis conferidos.</li>
+<li>☐ Sinais e informação fornecida pelas capacidades respeitados; saídas e intervenções possuem resolução.</li>
+<li>☐ Queda, fim da participação, fim da oposição e socorro restante tratados separadamente.</li>
+<li>☐ Propostas identificadas; pendências que impedem resolver o encontro concluídas antes de usá-lo.</li>
+</ul>
+<div class="campo"><p><strong>Principal risco e ajuste considerado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div><div class="campo"><p><strong>Método de verificação e evidência:</strong> leitura de regras, contas, percurso escrito ou sessão observada; registrar o que foi realmente feito.</p><div aria-hidden="true" class="linhas"><span class="linha"></span></div></div><div class="campo"><p><strong>O que ainda não foi avaliado:</strong></p><div aria-hidden="true" class="linhas"><span class="linha"></span><span class="linha"></span></div></div>
+</div><div class="larga fluida"><h2 id="inimigo--6-resultado-e-continuidade">6. Resultado e continuidade</h2><p>Preencha depois da aplicação. Se for um ensaio escrito, identifique os dados escolhidos e não o registre como sessão jogada.</p><table class="quadro-campos">
+<thead>
+<tr>
+<th>Campo</th>
+<th>Registro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aplicação</td>
+<td>Data, participantes reais ou perfis, versão e alterações de entrada.</td>
+</tr>
+<tr>
+<td>Confronto</td>
+<td>Rodadas e motivo do fim da oposição; escolhas, recursos e intervenções que fizeram diferença.</td>
+</tr>
+<tr>
+<td>Quedas e participação</td>
+<td>Momento de cada queda, Aguentar/Insistir quando cabíveis, tempo sem agir, socorro e Sequelas.</td>
+</tr>
+<tr>
+<td>Saída</td>
+<td>PV, Integridade, PE, condições, efeitos e prazos restantes; destino de inimigos, objetos, acessos e objetivo.</td>
+</tr>
+<tr>
+<td>Pendências da cena</td>
+<td>Retirada, atendimento, transporte, custódia ou consequências ainda não resolvidas.</td>
+</tr>
+<tr>
+<td>Retorno e revisão</td>
+<td>Dificuldades de compreensão ou condução, evidência observada e alteração a comparar na próxima versão.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+
+<p>Use o <a href="../apoio-revisao-textual-131/prova-textual.html#estado">registro de queda, socorro e retomada</a> quando houver atendimento em andamento. Na guilda, deixe os estados e a versão da ficha disponíveis ao próximo mestre. Numa campanha fechada, conserve a mesma continuidade no registro da campanha.</p></div></article><article class="folha" id="habilidade"><header><p class="numero">FICHA PARA A MESA</p><h1>Conferir uma habilidade de inimigo</h1></header><div class="colunas">
+<p><strong>Aprofundamento opcional da <a href="#inimigo">ficha de inimigo e encontro</a>.</strong> Registre a capacidade no bloco 3 dela. Use as perguntas abaixo quando uma adaptação ou capacidade própria exigir conferir interações. Não é necessário preencher outra ficha de identificação, corpo ou reservas. O <a href="../apoio-revisao-textual-119/prova-textual.html#habilidades">método de montagem</a> explica como chegar ao texto.</p>
+<h2 id="habilidade--antes-de-conferir">Antes de conferir</h2>
+<p>Tenha o texto completo da capacidade: ação, requisitos, resolução, pagamento, limite, duração e respostas. Identifique se conservou uma regra, adaptou algo ou criou uma capacidade. Classe de feitiço, Categoria de Efeito e nível da criatura não significam a mesma coisa; anote apenas as classificações que se aplicam. Uma classificação ou um benefício experimental precisa aparecer como proposta, com sua referência.</p>
+</div><div class="larga fluida"><h2 id="habilidade--perguntas-para-as-interacoes">Perguntas para as interações</h2><table>
+<thead>
+<tr>
+<th>Conferência</th>
+<th>O que resolver no texto da capacidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Falta um requisito antes do uso</td>
+<td>O que impede a declaração e quais gastos ainda não aconteceram?</td>
+</tr>
+<tr>
+<td>O ataque erra, o alvo resiste ou o preparo é interrompido</td>
+<td>Quais custos permanecem e que regra permite eventual devolução?</td>
+</tr>
+<tr>
+<td>A Integridade passa de estágio</td>
+<td>A capacidade é um feitiço afetado pelo acréscimo por Classe? Que outras penalidades cumulativas passam a valer?</td>
+</tr>
+<tr>
+<td>A Reação já foi gasta</td>
+<td>A capacidade continua disponível por outra permissão expressa, ou precisa esperar o próximo turno próprio?</td>
+</tr>
+<tr>
+<td>O corpo, a mão, a voz ou o equipamento fica impedido</td>
+<td>Qual requisito realmente deixou de ser cumprido? Não tratar Agarrado como silêncio ou mãos presas.</td>
+</tr>
+<tr>
+<td>Rescaldo, cancelamento ou manutenção</td>
+<td>A capacidade depende da Técnica Inata? Qual regra pode interrompê-la, em que momento e com qual resultado?</td>
+</tr>
+<tr>
+<td>Sentir Energia ou Leitura de Reservas</td>
+<td>Que informação a regra concede? Saldo e máximo precisam existir quando forem consultáveis.</td>
+</tr>
+<tr>
+<td>O alvo sai do alcance ou a fonte cai</td>
+<td>O alcance só é conferido na aplicação? Existe vínculo, Concentração, manutenção ou prazo que encerre o efeito?</td>
+</tr>
+<tr>
+<td>Retirada e reencontro</td>
+<td>Quais gastos, condições e prazos continuam? Como a disponibilidade retorna fora da iniciativa?</td>
+</tr>
+<tr>
+<td>Aquisição</td>
+<td>Há ficha convertida e resultado conhecido antes de oferecer a tentativa? Uma capacidade inimiga não passa automaticamente para a entidade.</td>
+</tr>
+</tbody>
+</table></div><div class="colunas">
+
+<p>Use as exceções do Livro de Regras 1.0 quando já houver uma regra. A revisão pode concluir que uma linha não se aplica; uma interação ainda sem resposta deve permanecer identificada. Se impedir a resolução do encontro, conclua essa parte antes de usar a versão.</p>
+<h2 id="habilidade--exemplo-breve-agarrar-do-carregador">Exemplo breve: Agarrar do Carregador</h2>
+<p><strong>Função:</strong> conter um intruso. <strong>Referência:</strong> manobra conservada do Livro de Regras 1.0, com identidade do conceito Carregador de sinos; nenhum efeito novo pelo nome. <strong>Corpo neste exemplo:</strong> Médio, mão livre, Força 3, maestria 1 e um ataque na Ação Atacar.</p>
+<p><strong>Uso:</strong> substitui esse ataque; criatura alcançável a até 1,5 m e até uma categoria maior; TR Físico CD 12. Na falha, Agarrado, com deslocamento zero; no sucesso, nada. Sem dano, rolagem de acerto, crítico, PE ou usos separados. A mão fica ocupada. O limite é conseguir tentar e manter a contenção.</p>
+<p><strong>Saída:</strong> Padrão do alvo e TR Físico CD 12; sucesso encerra. As outras saídas seguem Escapar de uma contenção. Agarrado não impede automaticamente atacar, conjurar ou Bloquear. O tilintar pode anunciar a aproximação, sem revelar resultado futuro ou conceder ação extra.</p>
+<p><strong>Interações:</strong> estágio 2 não acrescenta PE à manobra; o estágio 3 do agarrador não impõe desvantagem ao TR de outra criatura. Se o próprio alvo estiver no estágio 3, aplica sua desvantagem em TR. Arrastar segue as regras comuns e ainda depende do corpo, da carga e do percurso. Não há recarga por mudança de cena: existe uma contenção que continua ou termina por suas regras.</p>
+<p><strong>Alcance deste exemplo:</strong> conferência de uma capacidade. A criatura e o encontro foram completados em <a href="../apoio-revisao-textual-120/prova-textual.html#corredor">O Carregador e o corredor de entulho</a>, com <a href="../apoio-revisao-textual-120/prova-textual.html#doma">consulta e Doma</a>. Os valores experimentais não formam uma tabela geral de construção.</p></div></article></main><p class="rodape-tela"><a href="../133-revisao-de-personagens-entidades-e-inimigos.md">Registro da revisão</a></p></body></html>

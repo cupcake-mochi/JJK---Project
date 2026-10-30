@@ -4,7 +4,7 @@ Quando um personagem chega a zero de vida, confira se ainda pode agir e quanto t
 
 Esta seção explica as regras de queda dos personagens dos jogadores, conforme o Livro de Regras 1.0. Entidades seguem Invocações em campo. Inimigos normalmente são derrotados a zero de vida ou de Integridade, salvo regra própria da ficha; o mestre descreve o resultado de acordo com essas regras. Não lhes conceda automaticamente a janela dos personagens.
 
-Mantenha o [registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>) disponível. O [confronto do anexo](<../../../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) mostra essas regras numa sequência de três rodadas, com resultados escolhidos para ensinar.
+Mantenha o [registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>) disponível. O [confronto do anexo](<../../../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>) mostra essas regras numa sequência de três rodadas, com resultados escolhidos para ensinar.
 
 ## Quanto tempo resta para o socorro
 

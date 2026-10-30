@@ -1,0 +1,20 @@
+{
+  "registro": 123,
+  "lote": "B2-05",
+  "casos": [
+    "s101",
+    "s102",
+    "s079"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-123/output/pdf/Ciclo-Maldito-Grupo-Arquivo-e-Po-Revisao-Textual.pdf",
+  "paginas": 14,
+  "casos_revistos_total": 30,
+  "casos_pendentes": 29,
+  "lotes_pendentes": 7,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-06",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

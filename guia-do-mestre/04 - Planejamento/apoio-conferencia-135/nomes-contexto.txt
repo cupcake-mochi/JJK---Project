@@ -1,0 +1,350 @@
+##### Ren
+  -- 06-inimigos-e-perigos.md (8x)
+       o que muda se o apoio for interrompido? | | Disputar um objetivo | O que tenta obter enquanto o grupo age? | Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataqu
+      do? | | Disputar um objetivo | O que tenta obter enquanto o grupo age? | Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataque e curar. Ambos podem negociar. O ob
+      ões | **Reserva compartilhada:** gastar numa opção limita outra útil? | ### Quando a reserva cria uma escolha Ren tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sora tem 12 PE: quatro Fios de 3 PE, dois Re
+  -- 09-pactos-e-entidades.md (3x)
+       ### O preço precisa fazer diferença O preço altera uma escolha real ou consome algo que a personagem possui. Ren já não consegue conjurar à distância; abrir mão disso não paga um benefício novo. Uma limitação já compensada
+      faz a rolagem. O ganho termina no máximo ao fim da cena; o preço tem seu prazo próprio e pode ser permanente. Ren tem 6 PV e uma Reação. Fora de seu turno, percebe um ataque que o acerta; depois das proteções, os dados dão 
+      e o modelo publicado de sacrificar um braço para ficar com **1 PV naquele golpe**. O mestre confere e aprova; Ren gasta a Reação e a perda do braço permanece. Os dados e o acerto não mudam. Sem Reação, sem perceber o gatilh
+  -- casos/54-transporte-e-continuidade-das-entidades.md (17x)
+      olume tabelado ou previamente definido. Uma bolsa entregue ao passageiro continua na soma. ## A Mula de dobra Ren, nível 2, possui uma técnica que cria animais de papel. É um personagem deste exemplo, não o atacante de níve
+      ssui uma técnica que cria animais de papel. É um personagem deste exemplo, não o atacante de nível 6 da dupla Ren e Sora. Usa um espaço conhecido válido para esta entidade. Tem Maestria 1 e escolheu Essência para a Defesa d
+      essário à acomodação de um passageiro. Não tem mãos. Possui visão e audição comuns; entende ordens faladas de Ren e responde por movimentos e ruídos. Caminha 9 m. Não voa, atravessa paredes, compartilha visão ou fala por te
+  -- casos/59-recursos-e-ritmo-dos-inimigos.md (1x)
+       opcional para interações difíceis. Para comparar uma reserva realmente disputada no mesmo combate, consulte [Ren e Sora](<../../75-ren-e-sora-atacante-e-apoio.md>); para uma capacidade com preparação e sem PE, consulte o [
+  -- casos/68-ficha-e-comparacao-de-chefes.md (1x)
+      [ensaio de retirada e socorro](<73-ensaio-guiado-do-sineiro.md>). Para um atacante acompanhado de apoio, use [Ren e Sora](<75-ren-e-sora-atacante-e-apoio.md>) e o [confronto da dupla](<76-confronto-de-ren-e-sora.md>); a com
+  -- casos/74-regua-inicial-de-inimigos.md (3x)
+      e adaptar a missão. O registro não garante a mesma dificuldade com outra composição. **Exemplo de criação:** [Ren e Sora](<../../75-ren-e-sora-atacante-e-apoio.md>) transformam duas referências em fichas com funções distint
+      nção quando um deles cai. Os parâmetros continuam experimentais. **Exemplo de ficha preenchida:** a [ficha de Ren e Sora](<../../77-ficha-preenchida-ren-e-sora.md>) conecta origem dos números, capacidades, grupo, lugar e re
+      conecta origem dos números, capacidades, grupo, lugar e resultado; as fichas completas continuam na consulta [Ren e Sora: atacante e apoio](<../../75-ren-e-sora-atacante-e-apoio.md>). 
+  -- casos/75-ren-e-sora-atacante-e-apoio.md (15x)
+      # Ren e Sora: atacante e apoio **Duas fichas experimentais de inimigos de nível 6.** Este exemplo aplica as referên
+      Este exemplo aplica as referências de [escolher os números de um inimigo](<74-regua-inicial-de-inimigos.md>): Ren mantém a pressão próxima; Sora escolhe entre favorecer um ataque e reparar ferimentos. Consulte o [confronto 
+      , dois braços e duas mãos, visão e audição comuns, fala e sentidos de energia conforme o Livro de Regras 1.0. Ren pesa 72 kg; Sora, 60 kg. Não possuem invocações, Domínio, cura passiva, resistência, imunidade ou redução per
+  -- casos/76-confronto-de-ren-e-sora.md (37x)
+      # Escolher quem enfrentar primeiro Este exemplo acompanha [Ren e Sora](<75-ren-e-sora-atacante-e-apoio.md>) contra Rina, Mei e Akira. Leia a ficha da dupla antes de usar o 
+       m. As posições iniciais são: | Participante | Espaço | |---|---| | Rina | C0 | | Mei | D0 | | Akira | F0 | | Ren | D5 | | Sora, com o estojo | F8 | O estojo pesa 1 Volume, cabe numa mão e não protege contra dano. Recuperá-
+      ura exigiria uma solução válida para a disputa; proximidade não o entrega automaticamente. Mostre a espada de Ren, a posição recuada de Sora e o estojo. Quando ela usar Fio, descreva os fios que sustentam o movimento dele e
+  -- casos/77-ficha-preenchida-ren-e-sora.md (21x)
+      # Ficha preenchida: Ren e Sora Este exemplo preenche os seis blocos da [ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-enc
+       e grupo **Missão:** recuperar o estojo de documentos. O grupo quer obtê-lo e encerrar a oposição à retirada. Ren e Sora foram contratados para impedir isso; conhecem suas próprias capacidades e respondem ao que percebem. N
+      arada. ## 2. Construção ou escolha das ameaças **Referência:** conservar integralmente as fichas da consulta [Ren e Sora: atacante e apoio](<75-ren-e-sora-atacante-e-apoio.md>). Há um exemplar de cada; reservas e iniciativa
+  -- casos/84-percursos-apoios-e-quedas.md (7x)
+      a [Quedas e socorro](<22-quedas-e-socorro.md>) e o Livro de Regras 1.0. ## Criar uma ponte com Obras de Apoio Ren é Guia da Trilha Arquiteto, nível 2, com Maestria 1 e Essência 3 escolhida para suas obras. Ele tem **Obras d
+       os PE necessários. Está num patamar, a 3 m da borda. Um vão de 3 m separa dois apoios firmes no mesmo nível. Ren enxerga todo o espaço livre onde pretende criar a Passarela, dentro dos 9 m da capacidade. Mina é uma aliada 
+       é uma aliada voluntária que pode ouvi-lo, está junto à borda e dentro dos 18 m de Abrir Caminho. Na sua vez, Ren usa **Ação Bônus e 2 PE ao todo** para criar a obra e preparar uma Abertura de Avançar para Mina, indicando o
+  -- casos/89-vida-rolada-e-familia-propria.md (9x)
+      ndem oficinas e arquivos. Isso não concede acesso a qualquer documento nem determina uma técnica hereditária. Ren quer investigar problemas em instalações e negociar com seus responsáveis. O mestre e o jogador escolhem esta
+      res propostas | **Consulta Preparada** e **Conferência de Oficina**, descritas abaixo. | | Traço e relações | Ren procura uma antiga responsável por um arquivo. Essa ligação permite conversas; não concede equipamento, trein
+      as ferramentas improvisadas de Gambiarra nem um novo resultado de teste. ## As capacidades da família em jogo Ren está no nível 2, com Maestria 1, Inteligência 3 e treino em História e Forja. Os dois testes usam bônus **3 +
+  -- consultas/42-registro-de-pactos-e-promessas.md (1x)
+      licado no Livro de Regras 1.0, sem acrescentar efeitos. | Campo | Registro | |---|---| | Personagem e forma | Ren; permanente de energia. | | Vagas | Essência 4: duas vagas. Não tem outro permanente ou pacto de restrição; e
+  -- consultas/58-ficha-de-inimigo-e-encontro.md (1x)
+      do.** Ela acompanha o capítulo [Inimigos e perigos](<../06-inimigos-e-perigos.md>). O [exemplo preenchido com Ren e Sora](<../casos/77-ficha-preenchida-ren-e-sora.md>) usa os mesmos seis blocos. Preencha uma vez a situação,
+  -- consultas/87-casos-da-obra-para-preparar-situacoes.md (3x)
+      riar disputa sem transformar parentesco em acesso automático ou hostilidade inevitável. **Exemplo original.** Ren quer consultar um registro conservado pela tia. O documento também foi solicitado por outra equipe. A tia pod
+      olicitado por outra equipe. A tia pode liberar uma cópia, mas precisa do original para conferir uma anotação. Ren pode esperar, ajudar na consulta conjunta ou buscar um testemunho alternativo. O documento não precisa desapa
+      -missoes.md>) e [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md>). **O que registrar:** “Ren recebeu cópia de duas páginas; original ficou com a tia; retorno combinado após a consulta da outra equipe.” 
+  -- consultas/88-indice-de-termos-do-mundo.md (2x)
+      apacidade nas regras que a usam. Não substitui a Classe de montagem nem a progressão da ficha. | **Exemplo.** Ren recebe por empréstimo uma ferramenta de grau elevado. Anote o item e confira os requisitos de seu efeito. Ren
+      Ren recebe por empréstimo uma ferramenta de grau elevado. Anote o item e confira os requisitos de seu efeito. Ren não sobe de nível nem muda de patente por recebê-lo. Consulte [Comprar, emprestar e contratar](<../08-entre-m
+##### Sora
+  -- 05-criar-uma-campanha.md (2x)
+       podem acontecer longe da passagem perigosa. **Equipe do Portão.** Feiticeiros apuram os relatos da passagem. Sora coordena a equipe e quer evitar exposição ao perigo antes da avaliação. Pode propor uma vistoria e explicar o
+      ndo terá notícias. Essa conversa oferece ajuda e cria uma expectativa que o grupo pode aceitar ou ajustar. Se Sora receber o mesmo relato, pode propor acompanhar a visita, conforme os meios disponíveis. Sem essa comunicação,
+  -- 06-inimigos-e-perigos.md (8x)
+       muda se o apoio for interrompido? | | Disputar um objetivo | O que tenta obter enquanto o grupo age? | Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataque e cur
+      nta obter enquanto o grupo age? | Ren e Sora mostram atacante e apoio: Ren ocupa o caminho e ameaça de perto; Sora escolhe entre favorecer um ataque e curar. Ambos podem negociar. O objetivo é retirar o estojo de documentos,
+       | ### Quando a reserva cria uma escolha Ren tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sora tem 12 PE: quatro Fios de 3 PE, dois Remendos de 6 PE ou dois Fios e um Remendo cabem antes de outras despesa
+  -- casos/54-transporte-e-continuidade-das-entidades.md (1x)
+      ma técnica que cria animais de papel. É um personagem deste exemplo, não o atacante de nível 6 da dupla Ren e Sora. Usa um espaço conhecido válido para esta entidade. Tem Maestria 1 e escolheu Essência para a Defesa de suas 
+  -- casos/59-recursos-e-ritmo-dos-inimigos.md (1x)
+      nal para interações difíceis. Para comparar uma reserva realmente disputada no mesmo combate, consulte [Ren e Sora](<../../75-ren-e-sora-atacante-e-apoio.md>); para uma capacidade com preparação e sem PE, consulte o [Sineiro
+  -- casos/68-ficha-e-comparacao-de-chefes.md (1x)
+      o de retirada e socorro](<73-ensaio-guiado-do-sineiro.md>). Para um atacante acompanhado de apoio, use [Ren e Sora](<75-ren-e-sora-atacante-e-apoio.md>) e o [confronto da dupla](<76-confronto-de-ren-e-sora.md>); a composição
+  -- casos/74-regua-inicial-de-inimigos.md (3x)
+      tar a missão. O registro não garante a mesma dificuldade com outra composição. **Exemplo de criação:** [Ren e Sora](<../../75-ren-e-sora-atacante-e-apoio.md>) transformam duas referências em fichas com funções distintas. O [
+      uando um deles cai. Os parâmetros continuam experimentais. **Exemplo de ficha preenchida:** a [ficha de Ren e Sora](<../../77-ficha-preenchida-ren-e-sora.md>) conecta origem dos números, capacidades, grupo, lugar e resultado
+      a origem dos números, capacidades, grupo, lugar e resultado; as fichas completas continuam na consulta [Ren e Sora: atacante e apoio](<../../75-ren-e-sora-atacante-e-apoio.md>). 
+  -- casos/75-ren-e-sora-atacante-e-apoio.md (18x)
+      # Ren e Sora: atacante e apoio **Duas fichas experimentais de inimigos de nível 6.** Este exemplo aplica as referências de
+      cias de [escolher os números de um inimigo](<74-regua-inicial-de-inimigos.md>): Ren mantém a pressão próxima; Sora escolhe entre favorecer um ataque e reparar ferimentos. Consulte o [confronto comentado](<76-confronto-de-ren
+      duas mãos, visão e audição comuns, fala e sentidos de energia conforme o Livro de Regras 1.0. Ren pesa 72 kg; Sora, 60 kg. Não possuem invocações, Domínio, cura passiva, resistência, imunidade ou redução permanente de dano. 
+  -- casos/76-confronto-de-ren-e-sora.md (36x)
+      # Escolher quem enfrentar primeiro Este exemplo acompanha [Ren e Sora](<75-ren-e-sora-atacante-e-apoio.md>) contra Rina, Mei e Akira. Leia a ficha da dupla antes de usar o exemplo
+      ou uma medida de dificuldade. ## O espaço e as informações O grupo quer recuperar um estojo de documentos que Sora segura e encerrar a oposição à retirada. O recinto mede **12 × 18 m**, com piso regular, visão livre e uma ún
+      es iniciais são: | Participante | Espaço | |---|---| | Rina | C0 | | Mei | D0 | | Akira | F0 | | Ren | D5 | | Sora, com o estojo | F8 | O estojo pesa 1 Volume, cabe numa mão e não protege contra dano. Recuperá-lo quando esti
+  -- casos/77-ficha-preenchida-ren-e-sora.md (22x)
+      # Ficha preenchida: Ren e Sora Este exemplo preenche os seis blocos da [ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.m
+      po **Missão:** recuperar o estojo de documentos. O grupo quer obtê-lo e encerrar a oposição à retirada. Ren e Sora foram contratados para impedir isso; conhecem suas próprias capacidades e respondem ao que percebem. Não sabe
+       ## 2. Construção ou escolha das ameaças **Referência:** conservar integralmente as fichas da consulta [Ren e Sora: atacante e apoio](<75-ren-e-sora-atacante-e-apoio.md>). Há um exemplar de cada; reservas e iniciativas são i
+  -- casos/83-perceber-procurar-e-interpretar-sinais.md (6x)
+      :|---| | Vigia, Percepção +4 | Pode ouvir o percurso normalmente | 10 + 4 = 14 | Passa; fica oculto dele. | | Sora, Percepção +7 | Também pode ouvir o percurso normalmente | 10 + 7 = 17 | Falha; Sora localiza seu espaço. | |
+      a; fica oculto dele. | | Sora, Percepção +7 | Também pode ouvir o percurso normalmente | 10 + 7 = 17 | Falha; Sora localiza seu espaço. | | Operadora, Percepção +8 | Só sinais visuais incertos do percurso, de dentro da cabin
+      rto. | A operadora tem desvantagem na percepção visual pela penumbra; isso reduz a CD passiva em 5. O vigia e Sora podem ouvir normalmente, por isso não recebem essa redução. Se um efeito concedesse vantagem na percepção rel
+  -- casos/85-trajetorias-ferramentas-e-improvisacao.md (7x)
+      de Dificuldade. Os exemplos usam apenas os valores da ficha necessários para explicar cada ação. ## Ricochete Sora é Incursora da Trilha Malabarista e possui Ricochete. Está na sua vez, tem a Ação Padrão disponível, uma Flui
+       neste exemplo. O Chakram usa uma mão e tem faixas de **6 m e 18 m**. Um alvo com Defesa 14 está protegido de Sora por uma mureta, com Cobertura Parcial. Pela direção direta, sua Defesa seria **14 + 2 = 16**. Há uma parede s
+      , com Cobertura Parcial. Pela direção direta, sua Defesa seria **14 + 2 = 16**. Há uma parede sólida ao lado. Sora indica um ponto a **6 m** de sua posição; desse ponto até o alvo são mais **6 m**, chegando pelo lado desprot
+  -- consultas/58-ficha-de-inimigo-e-encontro.md (1x)
+      Ela acompanha o capítulo [Inimigos e perigos](<../06-inimigos-e-perigos.md>). O [exemplo preenchido com Ren e Sora](<../casos/77-ficha-preenchida-ren-e-sora.md>) usa os mesmos seis blocos. Preencha uma vez a situação, o grup
+##### Haru
+  -- casos/100-comparar-inimigos-em-outras-faixas.md (2x)
+      nhia ou ritmo da capacidade. Preserve o resultado anterior para entender o que mudou. O [arquivo guardado por Haru](<../../101-haru-vigia-e-tessa.md>) apresenta três fichas de nível 15. A [comparação do confronto](<../../102
+       o mesmo encontro. O exemplo conserva PE reais nos feitiços e acrescenta um intervalo próprio à capacidade de Haru: energia e ritmo cumprem funções diferentes. 
+  -- casos/101-haru-vigia-e-tessa.md (16x)
+      # Haru, Vigia e Tessa **Fichas experimentais de nível 15.** Leia com [Inimigos de níveis mais altos](<100-comparar-i
+      os-em-outras-faixas.md>) e o [confronto do arquivo](<102-o-arquivo-e-as-oportunidades-de-agir.md>). Prepare **Haru sozinho ou Vigia e Tessa juntos**. Colocar os três no mesmo encontro é outra composição, que ainda precisa se
+       reservas de PE, combinação de capacidades e comportamento são propostas próprias destas fichas.** A ficha de Haru permite dois ataques; isso não concede Ataque Extra a todo inimigo de nível 15. Não recebem habilidades ocult
+  -- casos/102-o-arquivo-e-as-oportunidades-de-agir.md (15x)
+      # Disputa pelo arquivo **Exemplo experimental para preparar e comparar um confronto.** As [fichas de Haru, Vigia e Tessa](<101-haru-vigia-e-tessa.md>) usam nível 15. A análise continua [Inimigos de níveis mais altos
+      rte junto de C12, sem bloquear a área de passagem; acessível de B12, C12 ou D12. Não ocupa essas células. | | Haru, na versão com guarda único | D10 | | Vigia e Tessa, na versão com dupla | Vigia C8; Tessa E11 | | Retirada |
+      munidade a oportunidades. | Escolha uma das versões antes da sessão. **Não coloque a dupla depois da queda de Haru como reforço automático.** O grupo pode observar a disposição e conversar da entrada; não há surpresa prepara
+  -- casos/33-casos-especificos-de-avaliacao.md (2x)
+      orda. Não se mede cada trecho isoladamente para montar uma área maior que o permitido. **Caso de avaliação.** Haru, um personagem de exemplo e não o guarda do arquivo, tem Refino 6 e conhece Cortina. Pretende cobrir a escola
+      a cuja borda fica a 320 m, precisaria mudar a posição ou a área coberta e conferir todas as bordas novamente. Haru registra: **“Impede a saída de quem estiver dentro.”** A preparação leva um minuto, sem PE, seguindo Barreira
+  -- casos/59-recursos-e-ritmo-dos-inimigos.md (3x)
+      ineiro](<../../71-sineiro-do-recolhimento.md>). As duas fichas ainda são exemplos em teste. ## Outro exemplo: Haru e Tessa [Haru e Tessa](<../../101-haru-vigia-e-tessa.md>) usam PE reais nos feitiços e em Cobrir-se. Haru tam
+      /71-sineiro-do-recolhimento.md>). As duas fichas ainda são exemplos em teste. ## Outro exemplo: Haru e Tessa [Haru e Tessa](<../../101-haru-vigia-e-tessa.md>) usam PE reais nos feitiços e em Cobrir-se. Haru também anuncia a 
+      lo: Haru e Tessa [Haru e Tessa](<../../101-haru-vigia-e-tessa.md>) usam PE reais nos feitiços e em Cobrir-se. Haru também anuncia a área e respeita um intervalo entre conjurações; Tessa escolhe entre cura e Impulso na mesma 
+  -- casos/82-testes-trabalho-em-grupo-e-iniciativa.md (6x)
+      e um ajudante por teste ou ataque. Considere outra versão da conferência do arquivo. Antes da rolagem de Aoi, Haru mantém abertas e alinhadas as cópias frágeis enquanto ela examina o registro, algo que Aoi não consegue fazer
+      go que Aoi não consegue fazer sozinha ao mesmo tempo. O mestre reconhece essa contribuição como ajuda válida. Haru não precisa conhecer Investigação para executar essa parte física do trabalho. Aoi faz **uma tentativa com va
+      entativa com vantagem**: rola dois d20, obtém 9 e 15 e usa o maior. **15 + 4 = 19**, suficiente contra CD 14. Haru não faz um segundo teste para acrescentar seu resultado. A conferência termina em dez minutos; ajudar não red
+  -- casos/83-perceber-procurar-e-interpretar-sinais.md (2x)
+      sa explicação é conhecida pelo mestre. **Ela não será entregue inteira só porque alguém passou em Intuição.** Haru pergunta: “Ele está tentando nos afastar daquela porta?” Fora de combate, o mestre resolve a interpretação du
+       daquela porta?” Fora de combate, o mestre resolve a interpretação durante a conversa com **Intuição CD 14**. Haru tem Inteligência 3, Maestria 1 e treino: bônus +4. Dado 10 + 4 = **14**. O mestre responde: > “Sim. Ele muda 
+  -- casos/84-percursos-apoios-e-quedas.md (4x)
+      ntes de outra tentativa. Nadar também não permite respirar debaixo d'água. ## Saltar até um piso escorregadio Haru tem Força 1, Maestria 2 e treino com especialização em Atletismo: bônus **1 + 2 + 1 = +4**. Tem 9 m de movime
+      ixo, sob o vão; o mestre marca nele o espaço de chegada de uma eventual queda. Com impulso, o salto normal de Haru alcança **3 + 1,5 × 1 = 4,5 m**. A extensão de esforço permite tentar mais 1,5 m: **6 m**, com Atletismo CD 1
+      o | |---|---:| | Impulso sem parar | 3 m | | Salto tentado | 6 m | | Total reservado | **9 m** | Com dado 14, Haru soma **14 + 4 = 18** e chega ao patamar. Com dado 13, soma **13 + 4 = 17**: falha no teste que reúne os dois 
+  -- casos/85-trajetorias-ferramentas-e-improvisacao.md (1x)
+       humano que permanece inconsciente durante todo o minuto necessário. O material é compatível com seus pulsos. Haru tem duas mãos livres e acesso a eles: dedica **um minuto** e conclui a contenção. Se o adversário voltasse a 
+##### Mina
+  -- 01-sua-primeira-missao.md (8x)
+      Ana, recepcionista | Proteger os funcionários e saber o que fazer | Registro de presença, planta e contato de Mina | | Davi, funcionário | Evitar outra entrada desprevenida | Relato do que viu da porta e caminho até a entrad
+      nário | Evitar outra entrada desprevenida | Relato do que viu da porta e caminho até a entrada de serviço | | Mina, contato por telefone | Receber um relato e encaminhar ajuda | Acompanha o chamado e procura quem possa assum
+       promete reforço imediato | Ana e Davi são pessoas comuns: viram ou ouviram efeitos, sem enxergar a criatura. Mina não está no local. Ela pode ser um contato da guilda ou uma colega a quem o grupo costuma pedir ajuda. ![Plan
+  -- 10-jogar-em-guilda.md (1x)
+      . Uma sala interditada não está reparada apenas porque outra equipe quer usá-la. No anexo do centro cultural, Mina aceitou acompanhar o chamado, mas a criatura continua no depósito na versão sem confronto. Outra mesa pode li
+  -- casos/14-o-aviso-de-reabertura.md (13x)
+      s:** numa versão de As batidas no anexo, o grupo conferiu os funcionários, afastou as pessoas e pediu apoio a Mina. A criatura permaneceu no depósito. Não houve combate, feridos ou confirmação posterior de que o anexo poderi
+       a corrigir o problema. O grupo também pode ajudar a decidir onde a oficina acontecerá. ## O que aconteceu 1. Mina confirmou a Ana que recebeu o chamado. A mensagem completa também diz que o anexo deve permanecer sem uso enq
+      cebeu de Lúcia a frase “já podemos anunciar a volta ao anexo”, sem um documento de liberação. Não conferiu se Mina apenas tinha recebido o chamado ou se o problema já havia sido resolvido. 5. Às 10h, Ciro publicou o convite 
+  -- casos/84-percursos-apoios-e-quedas.md (4x)
+      o mesmo nível. Ren enxerga todo o espaço livre onde pretende criar a Passarela, dentro dos 9 m da capacidade. Mina é uma aliada voluntária que pode ouvi-lo, está junto à borda e dentro dos 18 m de Abrir Caminho. Na sua vez, 
+      . Na sua vez, Ren usa **Ação Bônus e 2 PE ao todo** para criar a obra e preparar uma Abertura de Avançar para Mina, indicando o espaço livre do outro lado. Não paga 1 PE de Abrir Caminho mais outros 2: o custo conjunto é 2. 
+       3 = **300 kg** | | Passarela básica | Até **3 m de comprimento e 1,5 m de largura**, ligando apoios firmes | Mina aceita a Abertura. No seu turno, antes do próximo turno de Ren, consome Avançar e atravessa os 3 m até o espa
+  -- casos/85-trajetorias-ferramentas-e-improvisacao.md (3x)
+      e confirma que ele suporta a carga da pessoa com seu equipamento e que corda e kit são adequados ao percurso. Mina deixa as armas guardadas e mantém **duas mãos disponíveis**. Dedica **um minuto** ao preparo: prende a corda 
+      cil, o mestre indicaria o ofício adequado, a CD e o risco antes da tentativa. A ligação já está pronta quando Mina começa a descer. Descer com apoio e controle usa Escalar: sem deslocamento especial, **6 m físicos custam 12 
+      do seus recursos próprios; fora de combate, acompanhe o tempo necessário. O kit mantém a ligação com o apoio; Mina ainda precisa gastar o movimento da descida. Neste exemplo, a folga máxima deixada permite uma queda de **1,5
+  -- casos/95-efeitos-de-cena-e-cancelamento.md (10x)
+      posta de continuidade diferente precisa ser registrada e avaliada antes do uso. ## Preparar Desarma o Feitiço Mina conhece **Interromper fluxo**, Classe 1: Projétil + Desarma o Feitiço, com Controle a preço normal. Na criaçã
+      r a aplicação. Se a Classe do alvo for igual ou menor que a usada, o cancelamento é automático. Se for maior, Mina rola **d20 + atributo da técnica, sem Maestria, contra a CD de quem criou**. A opção sem dano não acrescenta 
+      2 a essa rolagem e não repete o cancelamento. ## Cancelar um efeito que já tem Classe Antes de qualquer luta, Mina percebe a Luz de Oficina de Rei e tem acesso válido à sua origem, a 9 m, sem obstáculo. A aplicação é contínu
+  -- consultas/12-registro-de-descobertas.md (1x)
+       de resolver, conferir a posição e a capacidade usada por cada personagem. **Passagem possível:** comunicar a Mina as pessoas conferidas, os acessos conhecidos e a causa ainda não identificada. Registre o telefonema e a resp
+  -- consultas/16-linha-de-continuidade.md (3x)
+       interesse | | As batidas no anexo, versão sem confronto | Funcionários conferidos; encaminhamento aceito por Mina; uso suspenso | Criatura continua no depósito; intervenção não confirmada | Grupo e Ana conhecem a conferênci
+      so suspenso | Criatura continua no depósito; intervenção não confirmada | Grupo e Ana conhecem a conferência; Mina acompanha o chamado | Preparar intervenção se o grupo quiser ou outra equipe assumir | | O aviso de reabertur
+      a | Repasses do convite podem persistir; anexo continua fechado | Ana e coordenação acompanham a comunicação; Mina continua com o chamado | Acompanhar atividade se isso interessar ou retomar a ameaça pendente | As linhas dis
+  -- consultas/87-casos-da-obra-para-preparar-situacoes.md (1x)
+      r ocorrências. Ela quer proteger a privacidade de pacientes, mesmo quando a equipe pede acesso a um registro. Mina ouviu que Nara estaria na associação às 16h; Davi sabe que uma visita a levará à oficina às 17h. As duas info
+  -- consultas/88-indice-de-termos-do-mundo.md (2x)
+      o numa escola?” 1. A entrada **Independente** remete aos modos de vida e à rede de apoio. 2. O mestre prepara Mina como contato que recebe relatos e Emi como profissional que conhece o local. As duas foram criadas para esta 
+      os e Emi como profissional que conhece o local. As duas foram criadas para esta campanha; não vêm da obra. 3. Mina pode encaminhar a ocorrência; Emi pode esclarecer o acesso. Nenhuma delas precisa conceder missão, patente ou
+##### Nara
+  -- 01-sua-primeira-missao.md (6x)
+      idiano --> ## 1.3 Uma cena do cotidiano Antes do chamado, um personagem vai buscar seu uniforme na oficina de Nara. O conserto ficou pronto, mas o entregador trocou duas etiquetas. A roupa foi parar na recepção do centro cul
+      rto ficou pronto, mas o entregador trocou duas etiquetas. A roupa foi parar na recepção do centro cultural. > Nara tira duas etiquetas amassadas de cima da bancada. > > — O conserto ficou pronto. O Rui levou junto com as enc
+      r a lista das entregas?” **Mestre:** “Pode. Há um centro cultural duas ruas adiante e o telefone da recepção. Nara tem a foto da etiqueta da sua embalagem.” **Decisão do mestre.** A informação está disponível e Nara quer aju
+  -- casos/48-pacifismo-impraticavel-minuta.md (8x)
+      ansforma em outro efeito. Não cobre custos de uma execução subordinada que não chegou a começar. **Exemplo:** Nara declara um ataque contra uma criatura visível; o mestre lembra o impedimento antes do gasto. Em outra cena, e
+      m outra cena, ela conjura contra o que parece um objeto permitido, mas é uma criatura disfarçada. Nesse caso, Nara gasta a Padrão e os 3 PE já comprometidos, mas o Pacto impede a aplicação inteira. A falha não informa a iden
+      e nem cumpre a obrigação sozinho. Mortes adicionais não aumentam a capacidade. ### A aplicação antes do Pacto Nara conhece **Fio de Corte**, uma aplicação demonstrativa do Fundamento Fios de Tensão. O Fundamento está no Livr
+  -- casos/52-domar-o-amontoado.md (31x)
+      atacar imediatamente; o grupo pode investigar, retirar-se ou encaminhar o problema, como no preparo original. Nara pretende obter a maldição. Neste exemplo, ela tem **nível 2, Maestria 1, Essência 3 e CD de conjuração 12**, 
+      grupo de três personagens de nível 2; isso não garante a mesma dificuldade para qualquer composição. Mostre a Nara, antes da luta, a ficha que ela poderá receber. Ela precisa saber que os **48 PV do encontro não serão os PV 
+      obstáculos ou informação que ainda precise descobrir na ficção. O nível 2 da criatura permite a tentativa por Nara, também de nível 2. Uma personagem de nível 1 não poderia obtê-la, mesmo que aliados mais fortes vencessem a 
+  -- casos/54-transporte-e-continuidade-das-entidades.md (2x)
+      cura e renovação de recursos. ### A maldição livre Retome o [Amontoado domado](<52-domar-o-amontoado.md>). Se Nara morrer, ele deixa de ser uma criatura comandada. Anote posição, vida, Integridade, energia e condições no ins
+      soa pode tentar domá-lo novamente quando cumprir os requisitos do Livro de Regras 1.0. Não herda o vínculo de Nara por ser colega, descendente ou portadora de um objeto dela. A nova aquisição conserva o risco de exorcismo pr
+  -- consultas/16-linha-de-continuidade.md (2x)
+       | Uniforme recuperado com o conserto combinado | Nenhuma pendência obrigatória sobre a entrega | Personagem, Nara e Ana conhecem a correção | Retomar o contato com Nara se o jogador tiver interesse | | As batidas no anexo, 
+      ma pendência obrigatória sobre a entrega | Personagem, Nara e Ana conhecem a correção | Retomar o contato com Nara se o jogador tiver interesse | | As batidas no anexo, versão sem confronto | Funcionários conferidos; encamin
+  -- consultas/87-casos-da-obra-para-preparar-situacoes.md (6x)
+      ncia grave, a coordenação suspende o uso de um depósito. Emi ainda precisa recuperar ferramentas de clientes. Nara pode autorizar uma retirada acompanhada, mas não reabrir o serviço. Um fiscal foi informado da suspensão; os 
+       não reabrir o serviço. Um fiscal foi informado da suspensão; os moradores ainda não. O grupo decide procurar Nara, reunir os recibos dos clientes ou adiar a retirada. Se conseguir autorização, o mestre registra seu alcance.
+      has do jogador. **O que registrar:** “Retirada acompanhada autorizada para Emi; reabertura continua suspensa; Nara e o fiscal receberam o documento; moradores ainda não foram avisados.” Na guilda, registre a abrangência loca
+##### Davi
+  -- 01-sua-primeira-missao.md (15x)
+      ar. <span id="14-prepare-as-batidas-no-anexo"></span> ## 1.4 Prepare a missão Ana ouviu pancadas no depósito. Davi chegou até a porta, viu caixas se arrastarem sem ninguém tocá-las e recuou. Funcionários esperam perto da rec
+      ge sua pilha. Há só essa maldição na ocorrência preparada. **O que os personagens recebem:** o relato de Ana, Davi disponível para conversar, o registro de presença e uma planta. Eles podem confirmar quem saiu, descobrir os 
+      pcionista | Proteger os funcionários e saber o que fazer | Registro de presença, planta e contato de Mina | | Davi, funcionário | Evitar outra entrada desprevenida | Relato do que viu da porta e caminho até a entrada de serv
+  -- 02-o-mundo-dos-feiticeiros.md (1x)
+      ta é aquilo que as pessoas perceberam. A explicação surge com a investigação. Na missão do primeiro capítulo, Davi viu caixas se moverem. Ana ouviu pancadas. Os dois fornecem informações úteis mesmo sem enxergar a criatura. 
+  -- 03-preparar-aventuras.md (1x)
+      pare o fato da interpretação de uma testemunha. No anexo, caixas foram movidas e há uma criatura no depósito. Davi relata o movimento que presenciou; o relato ajuda a investigar mesmo que ele não conheça a causa. Sua incerte
+  -- 04-na-mesa-de-jogo.md (2x)
+       saíram do anexo, essa pergunta está respondida. Uma pista oferece informação; uma hipótese tenta explicá-la. Davi viu caixas se moverem, mas não enxergou a causa. Se o grupo concluir que um objeto está possuído, explique o 
+       você pode dizer: > “Vocês confirmaram que os funcionários estão fora e conhecem os dois acessos ao corredor. Davi viu caixas se moverem. Ainda não observaram a causa. O que querem descobrir agora?” Esclareça frases mal comp
+  -- casos/94-compras-repetidas-e-restricoes.md (3x)
+       quantas compras aceita e o resultado de cada repetição antes de ser usada. ## Condicional: uma fonte de água Davi usa uma técnica capaz de produzir lâminas de água com sua energia, sem depender de uma fonte externa pela Reg
+      ** aplicável ao golpe, sem transformar redução inexistente em dano adicional. Precisão aumenta o ataque em 2. Davi tem atributo da técnica 3 e Maestria 1: ataque **3 + 1 + 2 = +6**. A 2 m de um canal elegível, escolhe um alv
+      4: **25 de Cortante**, antes das defesas e da aplicação pertinente de Fura. Em outra posição, a 4 m do canal, Davi não satisfaz a Condicional. Se puder caminhar 1,5 m em direção à borda, chega a 2,5 m e pode conferir novamen
+  -- consultas/12-registro-de-descobertas.md (3x)
+      de [Sua primeira missão](<../01-sua-primeira-missao.md>). O grupo já conferiu os funcionários e conversou com Davi. Ainda não examinou a causa dos ruídos. **Pergunta atual:** como observar a ocorrência e decidir entre interv
+      ferência; Ana foi informada | | Há entrada de serviço na outra ponta do corredor | Planta com Ana e relato de Davi | Existe outra aproximação até o mesmo corredor | Segurança atual do percurso | Personagens que acompanharam 
+      proximação até o mesmo corredor | Segurança atual do percurso | Personagens que acompanharam a explicação | | Davi viu caixas se moverem | Testemunho sobre o momento em que recuou | Houve movimentação observada por ele | Que
+  -- consultas/87-casos-da-obra-para-preparar-situacoes.md (1x)
+      pacientes, mesmo quando a equipe pede acesso a um registro. Mina ouviu que Nara estaria na associação às 16h; Davi sabe que uma visita a levará à oficina às 17h. As duas informações podem ser verdadeiras. Perguntar o horário
+##### Rui
+  -- 01-sua-primeira-missao.md (2x)
+      do centro cultural. > Nara tira duas etiquetas amassadas de cima da bancada. > > — O conserto ficou pronto. O Rui levou junto com as encomendas da manhã, mas parece que trocou as entregas. Deixa eu conferir o recibo. > > El
+       está guardado. Pode esperar você chegar. O que diz aos colegas?” O personagem pode buscar a roupa, pedir que Rui corrija a entrega ou cuidar primeiro de outro compromisso. Se os participantes quiserem conversar com Nara, d
+  -- casos/90-reparar-personagem-de-corpo-construido.md (8x)
+      7 + 2) × 3 = 41 PV**. Ela começa o atendimento com **9 PV**. O grupo consegue um descanso curto em segurança. Rui, o reparador, também está no nível 4 e é treinado em Entalhador. O atributo usado é Inteligência 3; sua Maest
+      sse; ajuste de dificuldade **0** | | CD do reparo | 8 + Inteligência 3 + Maestria 1 + 0 = **12** | | Bônus de Rui | Inteligência 3 + Maestria 1 = **+4** | | Recuperação no sucesso | Metade de 41, para baixo = **20 PV** | | 
+      peração no sucesso | Metade de 41, para baixo = **20 PV** | | Saldo após sucesso | 9 + 20 = **29 de 41 PV** | Rui não tem especialização neste exemplo. Essa escolha de progressão começa no nível 10 e, quando recebida, melho
+  -- casos/94-compras-repetidas-e-restricoes.md (3x)
+      ategoria não recebe nem consome esses benefícios. ### Exemplo de uso Iara conjura com 14 PE e fica com **8**. Rui, a 6 m, recebe os dois benefícios. Ele dirige um veículo que conhece e tem treino em Condução, Destreza 3 e M
+      isa fazer uma manobra permitida para contornar um obstáculo; o mestre já informou um teste de Condução CD 14. Rui rola 5 e 14, usa 14 e soma seu bônus normal de 4: **18**, sucesso na manobra. **A compra de Ofícios foi consu
+      o também ocorreria se o total falhasse. A compra de perícias permanece até um teste elegível ou seu prazo. Se Rui fizer depois um TR, ele não recebe vantagem dessas compras. Se precisar de ferramenta ou treino para a tarefa
+##### Ema
+  -- 05-criar-uma-campanha.md (2x)
+      cos. Aprendizados, itens e efeitos na ficha seguem suas regras. ### Um vínculo entra em cena Lia quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Lia cumprirá um trabalho co
+      em suas regras. ### Um vínculo entra em cena Lia quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Lia cumprirá um trabalho combinado. Prepare a oficina; a jogadora escolhe o
+  -- casos/84-percursos-apoios-e-quedas.md (8x)
+      leta ficou com o aliado; ela não o acompanha por estar na lista de equipamentos. ## Cair sobre outra criatura Ema é Média e está num apoio **9 m acima** de uma criatura Grande. A trajetória da queda passa pelo espaço ocupad
+      ço ocupado pela criatura, e há chão livre junto ao ponto de chegada. Para tentar atingir alguém de propósito, Ema gasta **Ação Padrão antes de cair**. Essa ação não concede movimento lateral nem permite mudar de direção no 
+      |---|---:|---|---:| | Criatura atingida | Metade para baixo: **5** | Nenhuma aplicável neste caso | **5** | | Ema | Restante: **6** | Resistência a Concussão já ativa | **3** | Não aplique a resistência de Ema aos 11 antes 
+##### Lia
+  -- 05-criar-uma-campanha.md (2x)
+      benefícios mecânicos. Aprendizados, itens e efeitos na ficha seguem suas regras. ### Um vínculo entra em cena Lia quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Lia cumpri
+      m cena Lia quer visitar Ema, com quem aprendeu a cuidar de ferramentas. Ema quer saber como foi a missão e se Lia cumprirá um trabalho combinado. Prepare a oficina; a jogadora escolhe o que conta e que compromisso aceita. N
+  -- 09-pactos-e-entidades.md (2x)
+      da. ### O empréstimo do arquivo Na [Promessa do arquivo](../50-promessa-do-arquivo.md), exemplo experimental, Lia oferece uma consulta autorizada e o empréstimo de R-17; Akira precisa devolver o original completo e legível 
+      guem suas regras. Akira repara pela entrega prevista, com reposição permitida se o original tiver se perdido; Lia repara pela entrega das cópias e do índice combinados. Os critérios já estão escritos. Não dependem de a pess
+  -- casos/50-promessa-do-arquivo.md (31x)
+      # A Promessa do arquivo **Exemplo experimental para a pré-1.0.** Este acordo completa a negociação de Lia apresentada em [Pactos e Promessas](<../../41-pactos-e-promessas.md>). As partes, o documento e as situações 
+      os, precisa consultar o arquivo e levar um registro para comparar os relatos com o local de uma investigação. Lia, a arquivista, tem autorização para permitir a consulta e o empréstimo, mas responde pessoalmente por esse ac
+      dem os termos, podem cumpri-los e aceitam a troca voluntariamente. Akira pode recusar e procurar outra fonte; Lia pode recusar o empréstimo. Se um empréstimo comum já resolver a situação, não há motivo para exigir uma Prome
+  -- casos/94-compras-repetidas-e-restricoes.md (5x)
+      o decidido durante o ataque. ## Restrição Própria: Matriz de chão **Proposta experimental de um caso local.** Lia usa uma técnica de traçados que normalmente não exige uma superfície preparada. Quer uma aplicação vinculada 
+      ais fixos realmente dificulta suas missões. | Campo | Texto proposto | |---|---| | Preparo | Fora de combate, Lia dedica **um minuto contínuo** a desenhar pessoalmente a matriz com giz disponível, numa superfície fixa e ace
+      terior. Ela permanece até ser usada, apagada ou ter a superfície deslocada ou rompida. | | Exigência de uso | Lia precisa estar a até **1,5 m** da matriz íntegra ao iniciar a conjuração e pagar seus custos. A superfície não
+##### Emi
+  -- 02-o-mundo-dos-feiticeiros.md (1x)
+      onfiança com ela. Anote o que cada pessoa pode fazer quando isso afetar a escolha. Uma frase concreta ajuda: “Emi aceita emprestar a peça e quer combinar sua devolução”. Depois, interprete sua reação às propostas. Ela pode 
+  -- casos/82-testes-trabalho-em-grupo-e-iniciativa.md (4x)
+      6 | Sucesso | | Nao | 9 | +3 | 12 | Falha | | Haru | 11 | +3 | 14 | Sucesso | | Tomo | 7 | +1 | 8 | Falha | | Emi | 10 | +4 | 14 | Sucesso | São **três sucessos entre cinco participantes**. A travessia coletiva funciona. Os
+      ipantes serão outros; não terão atravessado junto com o restante por essa rolagem. No caso alternativo em que Emi tira 9, seu total é 13: seriam **dois sucessos**, insuficientes. Resolva a consequência anunciada e apresente
+       contar como dois: **2 + 1 = 3**, suficiente para a equipe. Isso não refaz os dados nem transforma a falha de Emi em sucesso pessoal. Continuam cinco participantes, e o grupo ainda precisa de três sucessos. Há no máximo uma
+  -- casos/83-perceber-procurar-e-interpretar-sinais.md (5x)
+      e não encontra automaticamente tudo o que estiver no raio. ## Ler o Ambiente Durante um confronto no arquivo, Emi procura um caminho que contorne as mesas tombadas. A preparação estabeleceu uma faixa de piso livre atrás dos
+      ra. Ninguém está claramente mostrando esse caminho. O mestre informa **Percepção CD 14** para Ler o Ambiente. Emi ainda tem o uso da cena e sua Ação Bônus. Escolhe tentar: dado 9 + Percepção 5 = **14**. Gasta a Bônus e o us
+      ocê pode chegar até ela pela lateral desta mesa.” Mostre o percurso no mapa ou explique suas medidas antes de Emi escolher o movimento. A descoberta não a transporta, não concede Defesa nem garante que o destino esteja segu
+  -- casos/85-trajetorias-ferramentas-e-improvisacao.md (4x)
+      tre apoio usado, ligação e folga; “está com kit” não descreve tudo isso. ## Abrir uma fechadura Às **16h00**, Emi está diante de uma fechadura mecânica reforçada. Tem treino em Arrombamento, Destreza 4, Maestria 1, gazuas a
+      vigia que está no corredor ouvirá esse ruído. As gazuas usadas aqui não têm risco de quebrar nessa tentativa. Emi escolhe tentar. Seu bônus é **4 + 1 = +5**. Com dado 12, soma **17**, falhando. Às **16h01**, a porta permane
+      as continuam utilizáveis. O mestre passa a conduzir a resposta do vigia; não precisa mantê-lo parado enquanto Emi insiste. Se Emi ainda tiver oportunidade de fazer outra tentativa, ela exigirá **outro minuto inteiro**. Se c
+  -- consultas/87-casos-da-obra-para-preparar-situacoes.md (7x)
+      iedade jujutsu. **Exemplo original.** Após uma ocorrência grave, a coordenação suspende o uso de um depósito. Emi ainda precisa recuperar ferramentas de clientes. Nara pode autorizar uma retirada acompanhada, mas não reabri
+      o é permissão para substituir escolhas do jogador. **O que registrar:** “Retirada acompanhada autorizada para Emi; reabertura continua suspensa; Nara e o fiscal receberam o documento; moradores ainda não foram avisados.” Na
+      original.** Nao encontra uma marca numa caixa recolhida. O arquivo pode identificar a oficina que a produziu. Emi sabe onde o lote foi entregue. Nenhum deles conhece o conteúdo atual. O grupo consulta o registro, fala com E
+  -- consultas/88-indice-de-termos-do-mundo.md (2x)
+      ente** remete aos modos de vida e à rede de apoio. 2. O mestre prepara Mina como contato que recebe relatos e Emi como profissional que conhece o local. As duas foram criadas para esta campanha; não vêm da obra. 3. Mina pod
+      ece o local. As duas foram criadas para esta campanha; não vêm da obra. 3. Mina pode encaminhar a ocorrência; Emi pode esclarecer o acesso. Nenhuma delas precisa conceder missão, patente ou capacidade para a conversa começa
+##### Akira
+  -- 06-inimigos-e-perigos.md (2x)
+      e o golpe não concede uma interrupção anterior a ele. No exemplo do Sineiro, a ordem é Rina → Sineiro → Mei → Akira. Ele prepara o impacto em seu turno e só pode executá-lo no próprio turno seguinte. Mei, Akira e Rina terão u
+      ineiro → Mei → Akira. Ele prepara o impacto em seu turno e só pode executá-lo no próprio turno seguinte. Mei, Akira e Rina terão um turno no intervalo. Se o golpe viesse no fim da rodada atual, Rina não teria esse próximo tur
+  -- 09-pactos-e-entidades.md (2x)
+      50-promessa-do-arquivo.md), exemplo experimental, Lia oferece uma consulta autorizada e o empréstimo de R-17; Akira precisa devolver o original completo e legível até as **18h do Dia 2**. A ficha identifica as 12 folhas, cópi
+      ra o bloqueio; a energia negada não fica guardada para depois. Outras funções do descanso seguem suas regras. Akira repara pela entrega prevista, com reposição permitida se o original tiver se perdido; Lia repara pela entrega
+  -- 10-jogar-em-guilda.md (6x)
+      e ambiental da rodada 1 já foi resolvida. O próximo evento é o começo do turno de Mei na rodada 2; depois vêm Akira e a fase ambiental 2. Nenhum desses eventos aconteceu durante a troca de mestre. A0 é a entrada limpa da faix
+      Na rodada 1, ela usou Padrão para fechar a alimentação e Movimento com Bônus convertida para chegar ao fundo. Akira usou Padrão para ligar o exaustor. As Reações não foram gastas. As próximas ações pertencem aos turnos ainda 
+      44 PV, 36/36 PE, 55/55 Integridade; Morrendo, consciente por Insistir, e Envenenada; sem Sequela anterior | | Akira | Na entrada limpa, em B0; 51/51 PV, 30/30 PE, 65/65 Integridade; sem condição aplicada no percurso | | Próxi
+  -- casos/102-o-arquivo-e-as-oportunidades-de-agir.md (1x)
+      , abaixo do teto 15 × Classe 4 = 60. Mantém consciência e contato; isso não lhe devolve ações já gastas. 3. **Akira**, o Guia 15 da referência, já está a até 9 m, vendo Mei, com mãos e Selo disponíveis. Conhece uma cura indiv
+  -- casos/50-promessa-do-arquivo.md (33x)
+      sais do Livro de Regras 1.0. O modelo não teve seu equilíbrio avaliado em mesa. ## Por que fazer uma Promessa Akira, um feiticeiro deste exemplo e não o perfil de Guia dos confrontos, precisa consultar o arquivo e levar um re
+      ado. Antes da cena, confira que ambos entendem os termos, podem cumpri-los e aceitam a troca voluntariamente. Akira pode recusar e procurar outra fonte; Lia pode recusar o empréstimo. Se um empréstimo comum já resolver a situ
+      al. Ela não promete a cooperação de outros funcionários e não transforma a escola inteira em parte do acordo. Akira também não assina por seus companheiros. A Promessa não ocupa vaga de Pacto permanente. ## O acordo antes da 
+  -- casos/67-preparar-chefes-e-confrontos-maiores.md (2x)
+      arante isso se parte do grupo já agiu. **Exemplo de ordem, sem criar uma habilidade:** Rina → inimigo → Mei → Akira. Um anúncio durante o turno inimigo, resolvido no fim daquela rodada, deixa turnos para Mei e Akira, mas não 
+      o → Mei → Akira. Um anúncio durante o turno inimigo, resolvido no fim daquela rodada, deixa turnos para Mei e Akira, mas não para Rina. Se a resolução estiver marcada para o começo do próximo turno inimigo, Rina também terá p
+  -- casos/68-ficha-e-comparacao-de-chefes.md (6x)
+       [mapa do portão](<66-o-carregador-e-a-saida-que-fecha.md>) e a ordem ilustrativa **Rina → Carregador → Mei → Akira**. O Carregador está em C, sem segurar ninguém; o comando está em P, a 6 m por corredor regular e visível a p
+       futuro chefe exigir isso. ## Quem recebe um turno para responder? Mantenha a ordem Rina → Carregador → Mei → Akira. Os quadros abaixo comparam apenas a posição de um anúncio e de sua consequência. Não criam um ataque novo ne
+      Turnos do grupo entre os dois momentos | |---|---|---| | No turno do Carregador | Fim da mesma rodada | Mei e Akira. Rina já agiu. | | No turno do Carregador | Começo do próximo turno dele | Mei, Akira e Rina, nessa ordem. | 
+  -- casos/71-sineiro-do-recolhimento.md (4x)
+      s mantém uma consequência a resolver. ## Uma rodada para responder Considere a ordem **Rina → Sineiro → Mei → Akira**. Neste exemplo, o Sineiro não tem penalidades de movimento; Rina é Média e a carga conjunta cabe no limite 
+      na 6 m com seu Movimento e gasta a Bônus para dobrar o sino. Marca a área, sem causar ainda o impacto. **Mei, Akira e Rina terão um turno antes de ele poder bater.** Encerrar a rodada depois de Akira não dispara o golpe. Rina
+      r ainda o impacto. **Mei, Akira e Rina terão um turno antes de ele poder bater.** Encerrar a rodada depois de Akira não dispara o golpe. Rina pode tentar escapar e, se conseguir, andar para fora. Mei pode usar uma capacidade 
+  -- casos/73-ensaio-guiado-do-sineiro.md (16x)
+      · · · · · 1 · · · · · · · · entrada ━ ━ porta ━ ━ externo 0 R M A ``` **R:** Rina, C0. **M:** Mei, D0. **A:** Akira, F0. **□:** caixa, C6. O caminho de C0 à caixa mede 9 m. Espaços externos usados na retirada estão livres. Um
+      orça treinada | | Mei | Emanador / Catalisador | 0 / 2 / 3 / 4 / 2 | 44 | 36 | 55 | +3, Destreza treinada | | Akira | Guia / Socorrista | 0 / 2 / 3 / 2 / 4 | 51 | 30 | 65 | +2, Destreza sem treino | **Rina.** Usa Espada Longa
+      so Técnico até o fim do próximo turno de Mei; ele não concede uma ação gratuita. Não é gasto neste exemplo. **Akira.** Usa Abrir Caminho com Bônus e 1 PE: prepara uma oportunidade para um aliado percebido a até 18 m que veja 
+  -- casos/76-confronto-de-ren-e-sora.md (16x)
+      nfrentar primeiro Este exemplo acompanha [Ren e Sora](<75-ren-e-sora-atacante-e-apoio.md>) contra Rina, Mei e Akira. Leia a ficha da dupla antes de usar o exemplo. **Os dados foram escolhidos para ensinar as interações**; o r
+      mbém custam 1,5 m. As posições iniciais são: | Participante | Espaço | |---|---| | Rina | C0 | | Mei | D0 | | Akira | F0 | | Ren | D5 | | Sora, com o estojo | F8 | O estojo pesa 1 Volume, cabe numa mão e não protege contra da
+      73-ensaio-guiado-do-sineiro.md#personagens-usados>) fornecem atributos, reservas e capacidades de Rina, Mei e Akira. Começam com vida, PE e Integridade cheios, sem Sequelas. Rina já escolheu Cortante e Concussão para Alicerce
+  -- casos/77-ficha-preenchida-ren-e-sora.md (7x)
+      s previstos. Cruzar a porta não torna ninguém inalcançável. **Personagens do exemplo:** perfis de Rina, Mei e Akira apresentados no [ensaio do Sineiro](<73-ensaio-guiado-do-sineiro.md#personagens-usados>), com a aplicação ofe
+      ados no [ensaio do Sineiro](<73-ensaio-guiado-do-sineiro.md#personagens-usados>), com a aplicação ofensiva de Akira registrada antes deste confronto na consulta [Escolher quem enfrentar primeiro](<76-confronto-de-ren-e-sora.m
+      erior. | | Mei | 6 | 44/44 | 55/55 | 36/36 | Sem Sequelas; Arremesso de pressão e sua opção de Remodelar. | | Akira | 6 | 51/51 | 65/65 | 30/30 | Sem Sequelas; Sutura, aberturas e Corte de sutura conhecido. | Os três têm visã
+  -- casos/78-preparar-perigos-ambientais.md (1x)
+      ssa escolha. **Exemplo:** Mei sai da nuvem Envenenada. Falha no TR ao fim do turno e continua com a condição. Akira cura sua vida; isso não remove Envenenado. No turno seguinte, ela passa no TR de saída e encerra aquela aplic
+  -- casos/79-o-po-na-sala-de-conservacao.md (11x)
+      ao fecho, a 18 m de A0. Quebrá-lo libera uma mola que fecha a alimentação. | | Equipe do exemplo | Mei em A0; Akira em B0. São espaços distintos, fora da nuvem. | ```text FUNDO fecho e pino junto de A12 A12 B12 : : área com p
+      O fecho e pino junto de A12 A12 B12 : : área com pó, linhas 1–12 A1 B1 ENTRADA A0 B0 exaustor junto de B0 Mei Akira ``` O esquema indica os espaços; não representa o tamanho dos controles. Equipamentos fixados nas paredes não
+      imo de cinco dados é suficiente para os 2 PV. Empurrão não precisa mover a peça fixada para o dano funcionar. Akira pode operar o exaustor no mesmo ciclo. Se ninguém entrar, a nuvem pode ser eliminada sem expor uma pessoa. Es
+  -- casos/81-passar-a-missao-entre-mestres.md (5x)
+      e escolheu Insistir; os dois comandos já foram operados. | | Próximo ponto | Começo do turno de Mei 2, depois Akira 2 e a fase ambiental 2. | | Pendência imediata | Decidir retirada e atendimento antes de voltar ao ponto que 
+      sa técnica do defeito. Não acrescente essa descoberta ao resumo. ## Como estão os personagens | Campo | Mei | Akira | |---|---|---| | Posição | A12, dentro da nuvem. | B0, na entrada limpa. | | Vida atual/máxima | **0/44**. C
+      venenado não reduz o deslocamento. No fim do turno, tira 9 + 3 = 12 no TR de saída e continua Envenenada. | | Akira 2 | De B0, usa Padrão e 6 PE em Sutura, compatível com Mei. Os quatro d8 dão 2, 3, 4 e 6: **15** de cura. Com
+  -- consultas/A4-exemplo-sala-de-conservacao.md (3x)
+      ; numa mesa real, indiquem os nomes e confiram os dados com os jogadores. ## Onde paramos? Próximo: **Mei 2 → Akira 2 → fase ambiental 2**. A retirada e o atendimento ainda serão decididos. Nenhum desses turnos foi iniciado. 
+      xima fase, a exposição vem antes do segundo avanço de limpeza. ## Como estão os personagens? | Estado | Mei | Akira | |---|---|---| | Posição | A12, na nuvem | B0, entrada limpa | | Vida | 0/44 | 51/51 | | PE | 36/36 | 30/30 
+      m cura Mei. Na rodada 1, Mei gastou Padrão para fechar e Movimento mais Bônus convertida para percorrer 18 m; Akira gastou Padrão no exaustor. Nenhum gastou Reação. As ações dos próximos turnos ficam disponíveis nos momentos 
+##### Ana
+  -- 01-sua-primeira-missao.md (20x)
+      estres e personagens compartilhando o mundo. Aqui, a guilda pode encaminhar o chamado. Numa campanha fechada, Ana pode conhecer os personagens ou pedir ajuda durante uma visita deles ao bairro. O encontro foi preparado para
+      . **Jogadora:** “Ligo para a recepção. Se a embalagem estiver lá, vou buscar e aviso os outros.” **Mestre:** “Ana atende, confere o recibo com Nara e confirma que o uniforme está guardado. Pode esperar você chegar. O que di
+       personagens se encontrarem e criarem relações. Nem toda visita precisa terminar numa tarefa perigosa. Quando Ana apresentar o problema do depósito, o grupo poderá decidir se quer ajudar. <span id="14-prepare-as-batidas-no-
+  -- 02-o-mundo-dos-feiticeiros.md (2x)
+      erceberam. A explicação surge com a investigação. Na missão do primeiro capítulo, Davi viu caixas se moverem. Ana ouviu pancadas. Os dois fornecem informações úteis mesmo sem enxergar a criatura. Os personagens têm algo con
+      a o que eles conseguem perceber e ofereça uma oportunidade de agir. Helena vai partir, mas deixou um convite. Ana quer ajuda e tem um relato. Um familiar quer conversar depois de muito tempo. Cada começo abre escolhas difer
+  -- 04-na-mesa-de-jogo.md (1x)
+      pois, confira posição, percurso, alcance, ações e recursos que resolvem a tentativa. ### Uma solução funciona Ana aceita mostrar a planta e o grupo escolhe a entrada de serviço. A aproximação muda; o estado do corredor e do
+  -- casos/14-o-aviso-de-reabertura.md (20x)
+      # O aviso de reabertura Ana recebe um anúncio de uma atividade no anexo do centro cultural, embora ainda o mantenha fechado. Ela quer des
+      xo reaberto — oficina às 17h”. Há também três cópias impressas: recepção, cantina e quadro da entrada da rua. Ana ainda não conversou com todos os responsáveis. **Objetivo:** conferir a informação sobre a reabertura e avisa
+      blema. O grupo também pode ajudar a decidir onde a oficina acontecerá. ## O que aconteceu 1. Mina confirmou a Ana que recebeu o chamado. A mensagem completa também diz que o anexo deve permanecer sem uso enquanto a interven
+  -- casos/52-domar-o-amontoado.md (1x)
+      cultural: ainda é preciso verificar os riscos, retirar a criatura por meios válidos e comunicar o resultado a Ana. **Consulta do Livro de Regras 1.0:** [doma](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LI
+  -- consultas/12-registro-de-descobertas.md (2x)
+      pe a procurar no anexo conforme essa conferência | Causa e risco das batidas | Grupo presente na conferência; Ana foi informada | | Há entrada de serviço na outra ponta do corredor | Planta com Ana e relato de Davi | Existe
+       presente na conferência; Ana foi informada | | Há entrada de serviço na outra ponta do corredor | Planta com Ana e relato de Davi | Existe outra aproximação até o mesmo corredor | Segurança atual do percurso | Personagens 
+  -- consultas/16-linha-de-continuidade.md (3x)
+      orme recuperado com o conserto combinado | Nenhuma pendência obrigatória sobre a entrega | Personagem, Nara e Ana conhecem a correção | Retomar o contato com Nara se o jogador tiver interesse | | As batidas no anexo, versão
+      inhamento aceito por Mina; uso suspenso | Criatura continua no depósito; intervenção não confirmada | Grupo e Ana conhecem a conferência; Mina acompanha o chamado | Preparar intervenção se o grupo quiser ou outra equipe ass
+      ópias corrigidos; sala alternativa confirmada | Repasses do convite podem persistir; anexo continua fechado | Ana e coordenação acompanham a comunicação; Mina continua com o chamado | Acompanhar atividade se isso interessar
+##### Tessa
+  -- casos/101-haru-vigia-e-tessa.md (12x)
+      # Haru, Vigia e Tessa **Fichas experimentais de nível 15.** Leia com [Inimigos de níveis mais altos](<100-comparar-inimigos-em-outr
+       e o [confronto do arquivo](<102-o-arquivo-e-as-oportunidades-de-agir.md>). Prepare **Haru sozinho ou Vigia e Tessa juntos**. Colocar os três no mesmo encontro é outra composição, que ainda precisa ser avaliada. São humanos c
+      os, fala, visão e audição comuns e sentidos de energia do Livro de Regras 1.0. Haru pesa 78 kg, Vigia 74 kg e Tessa 62 kg. Não possuem resistência, imunidade, cura passiva, Domínio, invocação ou redução permanente. Como não s
+  -- casos/102-o-arquivo-e-as-oportunidades-de-agir.md (12x)
+      puta pelo arquivo **Exemplo experimental para preparar e comparar um confronto.** As [fichas de Haru, Vigia e Tessa](<101-haru-vigia-e-tessa.md>) usam nível 15. A análise continua [Inimigos de níveis mais altos](<100-comparar
+      acessível de B12, C12 ou D12. Não ocupa essas células. | | Haru, na versão com guarda único | D10 | | Vigia e Tessa, na versão com dupla | Vigia C8; Tessa E11 | | Retirada | Qualquer saída para a linha 0 ou 13; sair da sala n
+       essas células. | | Haru, na versão com guarda único | D10 | | Vigia e Tessa, na versão com dupla | Vigia C8; Tessa E11 | | Retirada | Qualquer saída para a linha 0 ou 13; sair da sala não concede Desengajar nem imunidade a o
+  -- casos/59-recursos-e-ritmo-dos-inimigos.md (3x)
+      (<../../71-sineiro-do-recolhimento.md>). As duas fichas ainda são exemplos em teste. ## Outro exemplo: Haru e Tessa [Haru e Tessa](<../../101-haru-vigia-e-tessa.md>) usam PE reais nos feitiços e em Cobrir-se. Haru também anun
+      eiro-do-recolhimento.md>). As duas fichas ainda são exemplos em teste. ## Outro exemplo: Haru e Tessa [Haru e Tessa](<../../101-haru-vigia-e-tessa.md>) usam PE reais nos feitiços e em Cobrir-se. Haru também anuncia a área e r
+      m PE reais nos feitiços e em Cobrir-se. Haru também anuncia a área e respeita um intervalo entre conjurações; Tessa escolhe entre cura e Impulso na mesma Padrão. Esses recursos resolvem problemas diferentes. O exemplo não tor

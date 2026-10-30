@@ -1,0 +1,485 @@
+{
+  "registro": 130,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Fórmulas de vida conferem com o exemplo do livro",
+      "resultado": [
+        27,
+        31
+      ],
+      "esperado": [
+        27,
+        31
+      ]
+    },
+    {
+      "conta": "Vagas de especial pela fórmula do Guia = tabela do livro",
+      "resultado": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "conta": "Amontoado domado: vida, Integridade, reserva",
+      "resultado": [
+        14,
+        7,
+        2
+      ],
+      "esperado": [
+        14,
+        7,
+        2
+      ]
+    },
+    {
+      "conta": "Amontoado domado: Defesa e Bloquear (Essência 3 de Nara)",
+      "resultado": [
+        12,
+        1
+      ],
+      "esperado": [
+        12,
+        1
+      ]
+    },
+    {
+      "conta": "Nara: CD e corpos mantidos",
+      "resultado": [
+        12,
+        5
+      ],
+      "esperado": [
+        12,
+        5
+      ]
+    },
+    {
+      "conta": "Destruição a partir de 8 PV (máximo 48)",
+      "resultado": [
+        [
+          4,
+          false
+        ],
+        [
+          24,
+          false
+        ],
+        [
+          25,
+          true
+        ],
+        [
+          40,
+          true
+        ]
+      ],
+      "esperado": [
+        [
+          4,
+          false
+        ],
+        [
+          24,
+          false
+        ],
+        [
+          25,
+          true
+        ],
+        [
+          40,
+          true
+        ]
+      ]
+    },
+    {
+      "conta": "Depois da doma: +4 direto no corpo Desligado",
+      "resultado": [
+        8,
+        true
+      ],
+      "esperado": [
+        8,
+        true
+      ]
+    },
+    {
+      "conta": "Submissão (Espírito +1 contra CD 12)",
+      "resultado": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ]
+    },
+    {
+      "conta": "Retorno e especial com reserva vazia",
+      "resultado": [
+        2,
+        7,
+        2,
+        1,
+        3,
+        0
+      ],
+      "esperado": [
+        2,
+        7,
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "conta": "Descanso curto da reserva de 2",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "conta": "Escriba nível 5: atributos, vida, Integridade",
+      "resultado": [
+        9,
+        27,
+        13
+      ],
+      "esperado": [
+        9,
+        27,
+        13
+      ]
+    },
+    {
+      "conta": "Escriba: Defesa, Bloquear, ataque, CD, perícias",
+      "resultado": [
+        14,
+        3,
+        4,
+        12,
+        5
+      ],
+      "esperado": [
+        14,
+        3,
+        4,
+        12,
+        5
+      ]
+    },
+    {
+      "conta": "Agulha guiada C1 e C2",
+      "resultado": [
+        1,
+        3
+      ],
+      "esperado": [
+        1,
+        3
+      ]
+    },
+    {
+      "conta": "Agulha perfurante C2: dados e RD ignorada",
+      "resultado": [
+        2,
+        2
+      ],
+      "esperado": [
+        2,
+        2
+      ]
+    },
+    {
+      "conta": "Pedido de Longe: saldo e alternativa",
+      "resultado": [
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        2
+      ]
+    },
+    {
+      "conta": "Turno do Escriba",
+      "resultado": [
+        true,
+        9,
+        8,
+        2
+      ],
+      "esperado": [
+        true,
+        9,
+        8,
+        2
+      ]
+    },
+    {
+      "conta": "Escriba níveis 6, 8 e 9",
+      "resultado": [
+        38,
+        19,
+        50,
+        25,
+        56,
+        28
+      ],
+      "esperado": [
+        38,
+        19,
+        50,
+        25,
+        56,
+        28
+      ]
+    },
+    {
+      "conta": "Agulhas em Classe 3",
+      "resultado": [
+        5,
+        3,
+        4
+      ],
+      "esperado": [
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "conta": "Mula: vida, Integridade, Defesa, capacidade",
+      "resultado": [
+        14,
+        7,
+        12,
+        8
+      ],
+      "esperado": [
+        14,
+        7,
+        12,
+        8
+      ]
+    },
+    {
+      "conta": "Mula: perícias (4 treinos)",
+      "resultado": [
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "esperado": [
+        4,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "conta": "Passageiro de 72 e 84 kg",
+      "resultado": [
+        8,
+        9
+      ],
+      "esperado": [
+        8,
+        9
+      ]
+    },
+    {
+      "conta": "Montar com deslocamento 9 e queda de 6 m",
+      "resultado": [
+        4.5,
+        2
+      ],
+      "esperado": [
+        4.5,
+        2
+      ]
+    },
+    {
+      "conta": "Vigia nível 9",
+      "resultado": [
+        56,
+        28,
+        14,
+        4,
+        12,
+        5
+      ],
+      "esperado": [
+        56,
+        28,
+        14,
+        4,
+        12,
+        5
+      ]
+    },
+    {
+      "conta": "Agulha precisa C3 e C4",
+      "resultado": [
+        5,
+        8,
+        12
+      ],
+      "esperado": [
+        5,
+        8,
+        12
+      ]
+    },
+    {
+      "conta": "Vigia: vida nos níveis 10 a 13",
+      "resultado": [
+        72,
+        79,
+        86,
+        93
+      ],
+      "esperado": [
+        72,
+        79,
+        86,
+        93
+      ]
+    },
+    {
+      "conta": "Vigia: Integridade nos níveis 10 a 13",
+      "resultado": [
+        36,
+        39,
+        43,
+        46
+      ],
+      "esperado": [
+        36,
+        39,
+        43,
+        46
+      ]
+    },
+    {
+      "conta": "Vigia nível 10 (Maestria 2): ataque, CD, Intelecto, Agulha precisa",
+      "resultado": [
+        5,
+        13,
+        5,
+        7
+      ],
+      "esperado": [
+        5,
+        13,
+        5,
+        7
+      ]
+    },
+    {
+      "conta": "Talentos: dois CE1 no nível 9, terceiro (até CE2) no 10",
+      "resultado": [
+        2,
+        3
+      ],
+      "esperado": [
+        2,
+        3
+      ]
+    },
+    {
+      "conta": "Carga do talismã nas Classes 3 e 4",
+      "resultado": [
+        2,
+        2
+      ],
+      "esperado": [
+        2,
+        2
+      ]
+    },
+    {
+      "conta": "Projetos do Vigia",
+      "resultado": [
+        48,
+        36000,
+        36,
+        18000,
+        6,
+        4000
+      ],
+      "esperado": [
+        48,
+        36000,
+        36,
+        18000,
+        6,
+        4000
+      ]
+    },
+    {
+      "conta": "Transferência a Mei: Defesa e Bloquear",
+      "resultado": [
+        13,
+        2
+      ],
+      "esperado": [
+        13,
+        2
+      ]
+    },
+    {
+      "conta": "Corpo de criação: vida e corpos mantidos",
+      "resultado": [
+        64,
+        32,
+        105,
+        52,
+        6
+      ],
+      "esperado": [
+        64,
+        32,
+        105,
+        52,
+        6
+      ]
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Vida de entidade comum e de corpo de criação",
+      "Progressão da entidade (básica, pontos da especial, espaços)",
+      "Talentos da entidade",
+      "Desconto de Família Livre das entidades",
+      "Reserva própria, divisão de custo e descanso curto",
+      "Queda, destruição e retorno",
+      "Carga de talismã",
+      "Combate montado",
+      "Domar uma maldição"
+    ]
+  },
+  "limites": [
+    "Conferência dirigida da aritmética e da presença literal das regras citadas. Sem simulação.",
+    "Amontoado domado, Escriba, Mula e Vigia continuam exemplos experimentais; Retrato de referência e Albarda de papel são propostas de talento."
+  ]
+}

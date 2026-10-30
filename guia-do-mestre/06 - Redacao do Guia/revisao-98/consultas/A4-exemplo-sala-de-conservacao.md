@@ -2,7 +2,7 @@
 
 **Exemplo de resumo vinculado aos dados completos.** Resume o [exemplo de troca de mestre](../10-jogar-em-guilda.md#103-continuar-com-outro-mestre), no caso em que Mei começou ferida. Não é registro de uma sessão real nem substitui as fichas completas.
 
-**Missão e versão destas notas:** Sala de conservação; perigo do pó descrito em [O pó na sala de conservação](../../79-o-po-na-sala-de-conservacao.md).
+**Missão e versão destas notas:** Sala de conservação; perigo do pó descrito em [O pó na sala de conservação](<../casos/79-o-po-na-sala-de-conservacao.md>).
 
 **Data destas notas / data, hora ou turno da cena:** exemplo didático; depois de toda a fase ambiental 1, antes de começar Mei 2. O intervalo real entre sessões não avançou a cena.
 
@@ -43,6 +43,6 @@ Decidir retirada e atendimento antes da fase 2. Se Mei permanecer na nuvem sem a
 
 ## Onde estão as fichas e as notas?
 
-O [caso completo](../../81-passar-a-missao-entre-mestres.md) guarda o estado, o socorro e os prazos; [O pó na sala](../../79-o-po-na-sala-de-conservacao.md) fornece mapa e perigo; [Retirar a caixa](../../73-ensaio-guiado-do-sineiro.md) fornece as capacidades usadas no exemplo. Numa mesa real, anexe as fichas completas e suas revisões.
+O [caso completo](<../casos/81-passar-a-missao-entre-mestres.md>) guarda o estado, o socorro e os prazos; [O pó na sala](<../casos/79-o-po-na-sala-de-conservacao.md>) fornece mapa e perigo; [Retirar a caixa](<../casos/73-ensaio-guiado-do-sineiro.md>) fornece as capacidades usadas no exemplo. Numa mesa real, anexe as fichas completas e suas revisões.
 
 **Conferência:** Mei age agora; os recursos e a urgência estão identificados. Uma nota que diga “janela 2” deve ser corrigida a partir dos eventos: ainda não houve volta completa ou dano posterior. O valor neste ponto é 3.

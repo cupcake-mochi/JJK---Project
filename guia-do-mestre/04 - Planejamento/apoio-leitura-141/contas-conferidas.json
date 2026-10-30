@@ -1,0 +1,102 @@
+{
+  "registro": 141,
+  "dedicacao_tabela_40": [
+    {
+      "personagem": "Rina",
+      "ciclo": 1,
+      "usadas_antigas": 0,
+      "usadas_novas": 18,
+      "expiram": 0,
+      "transferidas": 10
+    },
+    {
+      "personagem": "Mei",
+      "ciclo": 1,
+      "usadas_antigas": 0,
+      "usadas_novas": 28,
+      "expiram": 0,
+      "transferidas": 0
+    },
+    {
+      "personagem": "Rina",
+      "ciclo": 2,
+      "usadas_antigas": 10,
+      "usadas_novas": 10,
+      "expiram": 0,
+      "transferidas": 18
+    },
+    {
+      "personagem": "Mei",
+      "ciclo": 2,
+      "usadas_antigas": 0,
+      "usadas_novas": 8,
+      "expiram": 0,
+      "transferidas": 20
+    },
+    {
+      "personagem": "Rina",
+      "ciclo": 3,
+      "usadas_antigas": 12,
+      "usadas_novas": 0,
+      "expiram": 6,
+      "transferidas": 28
+    },
+    {
+      "personagem": "Mei",
+      "ciclo": 3,
+      "usadas_antigas": 0,
+      "usadas_novas": 0,
+      "expiram": 20,
+      "transferidas": 28
+    }
+  ],
+  "anel_e_venda": {
+    "orcamento_inicial": 30000,
+    "total_com_falha": 38000,
+    "restante_apos_fabricar": 2000,
+    "saldo_apos_venda": 26000,
+    "diferenca_entre_custo_e_venda": 14000,
+    "dedicacao_apos_fabricar_e_ensinar": 20,
+    "horas_de_aya": 12,
+    "secagem_sem_trabalho": 12
+  },
+  "xp_das_quatro_linhas": [
+    50,
+    25,
+    12,
+    50
+  ],
+  "salario_grau_3_com_0_a_4_participacoes": [
+    75000,
+    150000,
+    225000,
+    300000,
+    300000
+  ],
+  "limiar_nivel_22_saldo": 1000,
+  "proporcoes_e_pendencias_conferidas": true,
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "81ddc164fb4b959f767786d175a0ab157a072f83d9fe9d9f6e7292ad0a82be2d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "sha256": "3a396c10121e56723da23210abf7397a5435ca4e232b8c7bc61deeb68976d0b8"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+      "sha256": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+      "sha256": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+      "sha256": "54520272346092c6fff765c06ae9ddbaab2e6777a3b603291e9d68f367169811"
+    }
+  ],
+  "falhas": [],
+  "limite": "Reconferência aritmética dos exemplos indicados. Não mede esforço real, equilíbrio econômico, lucro esperado ou comportamento de jogadores."
+}

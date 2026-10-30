@@ -1,0 +1,161 @@
+{
+  "registro": 128,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-128/output/pdf/Ciclo-Maldito-Pactos-e-Promessa-Revisao-Textual.pdf",
+  "pdf_sha256": "0d580fc196d83bfaf84438992d26938ee1fd63d153ced9f39d28a1b54a2162ca",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 11,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões e clareza."
+    },
+    {
+      "passagem": 2,
+      "registros": 1,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; pente fino."
+    }
+  ],
+  "ajuste_de_diagramacao": "Rótulo de cada caso preso ao título; sem outro ajuste necessário.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-01.png",
+      "imagem_sha256": "ba2555c6ecc963d265b3ec5b5b92c1f949f3c05d17f6db8c0ac4fb77b9ab7841",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura e quadro dos campos do Pacto."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-02.png",
+      "imagem_sha256": "66c8e193d7a9b3372de56e9868ec7b93d66a502bf43f9aa0cd39bd71455a916d",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "As sete ideias, Pacifismo, Liberação, Energia alternada e Magnetismo."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-03.png",
+      "imagem_sha256": "239add264d6d907c65884754ff9916766e68207156427b44edef27af0a037fc9",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fragmentação, Despertar, Reserva vital e teste antes de aprovar."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-04.png",
+      "imagem_sha256": "94c6fa7cf79ff7fb10881620ec3e0f3ea1c0f2a78c7d4d9644ab9619774806a0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura do Pacifismo e quadro de consulta rápida."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-05.png",
+      "imagem_sha256": "283e1901095ae2c22eb19a65a9e53569ffe176c8d4c991fc919079ec50055f13",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quem conta como pessoa e quadro do impedimento."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-06.png",
+      "imagem_sha256": "3d5278b611d523a14c35a64bbe8ceb3afc250296817604e819bf8d753ae9bdfd",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Cumprimento, benefício e quadro do Fio de Corte."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-07.png",
+      "imagem_sha256": "d9093715cbc23c72534c3a803b814cdede4b40ae7b503dfc91b5b46720d93c71",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro da Condução pela matéria, na mesa e suspensão."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-08.png",
+      "imagem_sha256": "eb58ba6d57367c67101c0d82e81d82e821f1153d88a8843318609d49b336cc4f",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Prazo, calendário, encerramento e antes de usar."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-09.png",
+      "imagem_sha256": "f32547c1132e05fa483314846154e18196c4cd6d4074afe0b4911a60e08ab8a7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura da Liberação e quadro de consulta rápida."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-10.png",
+      "imagem_sha256": "bf8ac59af23b51548d56f38771e4baceeb31d9cbac7f6c4ff0c8cea18169ba9b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Começo da sequência e Refluxo."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-11.png",
+      "imagem_sha256": "f726205c10f70e37d55af254667f3fb349ecf48c1b5f7f92c04336d80f7f8a8c",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Manutenção, mudanças de máximo e fora de combate."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-12.png",
+      "imagem_sha256": "41e87a0ae11497e394a8ca999a10ed107a12cae60345bcad60858f8d11637df7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Descanso, encerramento e quadro de registro."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-13.png",
+      "imagem_sha256": "1ab55a8575bea3d0ecca84d19a054e9425808203cc838c0d1bd8b4fdebefbd6b",
+      "inspecionada": true,
+      "metodo": "Inspeção direta após o último ajuste",
+      "observacao": "Abertura da Promessa com a ressalva sobre Akira e quadro do acordo."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-14.png",
+      "imagem_sha256": "3a51505bca8ead207b31ba2726c6674b3cc618a61b8277909b45f79581ae3d92",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do quadro e quadro de decisões."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-15.png",
+      "imagem_sha256": "64ffa52b0ba8304f347f7411a2dbb6efecc9c621381685cca348ead69ecf14e7",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Exceção, consequência de quebra."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-16.png",
+      "imagem_sha256": "bd9c3345597c0fe319db92df78dcb0c18bdf4729c58651a8984f151123084eb1",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "O que encerra o bloqueio."
+    },
+    {
+      "pagina": 17,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-128/pagina-17.png",
+      "imagem_sha256": "72f7d659a4b0111f0cc163c48e62c21d7ae445bfb9a7fde89f6601dbd58b81bb",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Três desfechos, registro e adaptação."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "Sem espaço grande conhecido; reavaliar o conjunto na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "registro": 122,
+  "lote": "B2-04",
+  "casos": [
+    "s072",
+    "s073",
+    "s075",
+    "s076"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-122/output/pdf/Ciclo-Maldito-Sineiro-Retirada-e-Dupla-Revisao-Textual.pdf",
+  "paginas": 17,
+  "casos_revistos_total": 27,
+  "casos_pendentes": 32,
+  "lotes_pendentes": 8,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B2-05",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

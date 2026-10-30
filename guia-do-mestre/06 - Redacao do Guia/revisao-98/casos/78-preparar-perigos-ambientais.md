@@ -1,6 +1,6 @@
 # Perigos do ambiente
 
-Um piso que cede, uma sala contaminada ou uma superfície quente podem ameaçar o grupo. Ao preparar um perigo do ambiente, deixe claro quem corre risco, quando ele age e o que as personagens podem fazer. Registre essas escolhas no bloco 4 da [ficha de inimigo e encontro](<../../58-ficha-de-inimigo-e-encontro.md>). A [sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>) apresenta um caso completo de exposição repetida.
+Um piso que cede, uma sala contaminada ou uma superfície quente podem ameaçar o grupo. Ao preparar um perigo do ambiente, deixe claro quem corre risco, quando ele age e o que as personagens podem fazer. Registre essas escolhas no bloco 4 da [ficha de inimigo e encontro](<../consultas/58-ficha-de-inimigo-e-encontro.md>). A [sala de conservação](<79-o-po-na-sala-de-conservacao.md>) apresenta um caso completo de exposição repetida.
 
 Comece pelas regras do Livro de Regras 1.0. O dano de uma queda real, por exemplo, já tem regras. Quando o livro não fornecer o dano, a frequência ou o prazo daquele perigo, esses valores precisam ser preparados e identificados como escolhas do exemplo. A escala de dificuldade de testes não é uma tabela de dano ambiental.
 
@@ -99,7 +99,7 @@ Uma doença fictícia exige uma descrição maior que “fica Envenenado”. Ant
 
 Esta seção não traz prazos, danos ou tratamentos que sirvam para qualquer doença. Quando isso faltar no Livro de Regras 1.0 e for necessário ao caso, prepare uma proposta específica para revisão. Uma falha num exame não autoriza inventar depois uma consequência permanente que não fazia parte do risco.
 
-A [febre dos fios](<../../103-a-febre-dos-fios.md>) traz um caso completo: como a doença começa, quando os sintomas surgem, suas crises, tentativas de atendimento, recuperação natural e o registro para outro mestre continuar. Curar PV, remover Envenenado e encerrar a doença têm resultados distintos.
+A [febre dos fios](<103-a-febre-dos-fios.md>) traz um caso completo: como a doença começa, quando os sintomas surgem, suas crises, tentativas de atendimento, recuperação natural e o registro para outro mestre continuar. Curar PV, remover Envenenado e encerrar a doença têm resultados distintos.
 
 ## Dano, Concentração e socorro
 
@@ -115,6 +115,6 @@ Retirar alguém da área pode ser mais urgente que outra tentativa de tratamento
 
 Antes de encerrar, confira o estado do lugar e o de cada pessoa separadamente. Fonte desligada, passagem utilizável, efeito encerrado e atendimento concluído podem acontecer em momentos diferentes.
 
-Na guilda, registre a área interditada, a intervenção feita, o risco restante, os responsáveis e os estados das fichas que passam ao próximo mestre. Em campanha fechada, conserve as mesmas informações no registro da campanha. Use o bloco 6 da ficha única e o [registro de estado e socorro](<../../24-registro-de-estado-e-socorro.md>) quando houver prazos ativos.
+Na guilda, registre a área interditada, a intervenção feita, o risco restante, os responsáveis e os estados das fichas que passam ao próximo mestre. Em campanha fechada, conserve as mesmas informações no registro da campanha. Use o bloco 6 da ficha única e o [registro de estado e socorro](<../consultas/24-registro-de-estado-e-socorro.md>) quando houver prazos ativos.
 
-Para uma ruptura única, consulte [A passarela e o guincho](<../../64-a-passarela-e-o-guincho.md>). Para exposição repetida, condição após a retirada e limpeza do lugar, continue com [O pó na sala de conservação](<../../79-o-po-na-sala-de-conservacao.md>).
+Para uma ruptura única, consulte [A passarela e o guincho](<64-a-passarela-e-o-guincho.md>). Para exposição repetida, condição após a retirada e limpeza do lugar, continue com [O pó na sala de conservação](<79-o-po-na-sala-de-conservacao.md>).

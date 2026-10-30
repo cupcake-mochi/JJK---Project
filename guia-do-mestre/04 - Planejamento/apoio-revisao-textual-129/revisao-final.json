@@ -1,0 +1,153 @@
+{
+  "registro": 129,
+  "pdf": "04 - Planejamento/apoio-revisao-textual-129/output/pdf/Ciclo-Maldito-Projetos-e-Ritual-Revisao-Textual.pdf",
+  "pdf_sha256": "67b1c396ec655ce78712c1c7631c6416746112d8773b38eb6d042e9d72f9e328",
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "registros": 11,
+      "escopo": "Leitura integral das quatro fontes e das regras citadas, quatro cópias, remissões, clareza e a correção de Canalizar na prova do Cão de sombra."
+    },
+    {
+      "passagem": 2,
+      "registros": 0,
+      "escopo": "Leitura da prova completa, trechos alterados no contexto e varredura de crase, repetições e termos de produção; nenhuma alteração necessária."
+    }
+  ],
+  "ajuste_de_diagramacao": "Sem ajuste necessário; rótulos presos aos títulos.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-01.png",
+      "imagem_sha256": "0f0733336541197eed80afa32c7da0a990f9cf659dd113a41cab22a8e4d5a346",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Abertura, quadro das formas de aquisição e ficha antes da tentativa."
+    },
+    {
+      "pagina": 2,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-02.png",
+      "imagem_sha256": "e37eeaf1f6137db25efd04b702734bfa808584b3ae97ba016e4bafaf08750f99",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Lista de ritual, Doma e criação; começo do quadro de projeto."
+    },
+    {
+      "pagina": 3,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-03.png",
+      "imagem_sha256": "338b2678054a76b68c7e6d1abccda483b63ae060242904ac263f51e3c7668747",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do quadro, teste de criação e ajuda."
+    },
+    {
+      "pagina": 4,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-04.png",
+      "imagem_sha256": "eb080b4c6f9c2b4965cbd8289df5f20f2449d37646a4499fe4e108d4cf129cb5",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Evolução, reconstrução, transferência e acompanhar entre cenas."
+    },
+    {
+      "pagina": 5,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-05.png",
+      "imagem_sha256": "91ab47a63223aef60a18f0acd7d37f83a04aa3fbe5627e6befe3076e896cef4e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Invocador que deixa de agir; abertura do Tempo e materiais com a tabela."
+    },
+    {
+      "pagina": 6,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-06.png",
+      "imagem_sha256": "93dfecbc5fc74d81106d0d606f3bad6cefb76f2c3a309e8e66e46042b613e215",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Horas, etapas e quadro de materiais; falha."
+    },
+    {
+      "pagina": 7,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-07.png",
+      "imagem_sha256": "9e0ea156559582f31561084b2177b4b587ec28c6c0b1b9a6e36c6e0c31df76bd",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Detalhar, ajuda e exemplo do Vigia."
+    },
+    {
+      "pagina": 8,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-08.png",
+      "imagem_sha256": "c42af45b1aa9a51fb4a281d5e5a1cfc54b868728128202484620997108ad9bec",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro dos ciclos; abertura de Reconstruir e quadro das passagens."
+    },
+    {
+      "pagina": 9,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-09.png",
+      "imagem_sha256": "cd94d48ffee5ea76267e484e8913b6d67ca8359a6f74ad411396a369459cd730",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Teste, exemplo de reconstrução e mais de uma Classe."
+    },
+    {
+      "pagina": 10,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-10.png",
+      "imagem_sha256": "55ba12f89c7354fcbb9c4a62c6ffb5690d5da02dfd07bf68b7f5514fd69bd069",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Transferência com quadro e exemplo."
+    },
+    {
+      "pagina": 11,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-11.png",
+      "imagem_sha256": "f3fa9714d74af4403a9bde6b239d1d65d55f88560bcc585e4d4404ff54c6a9e1",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Herança e registro; abertura da prova do Cão de sombra."
+    },
+    {
+      "pagina": 12,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-12.png",
+      "imagem_sha256": "c600686f829a3b57c411ac2f847a9a5bc612dfb00b49f32eba838898858d34cf",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Quadro das condições da prova e o espaço."
+    },
+    {
+      "pagina": 13,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-13.png",
+      "imagem_sha256": "286797369db5b9a3cc7ef4d337fdd1f77e116803b22da1ec2f222f5461b783d0",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Ficha do cão em quadros; Mordida, Mordida precisa e Farejador."
+    },
+    {
+      "pagina": 14,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-14.png",
+      "imagem_sha256": "138992e6538e58ab128406dc1e463311c79606865475876938815f48a5ee5891",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Turno do adversário e ataques de Kaito com Canalizar corrigido; ajuda e desistência."
+    },
+    {
+      "pagina": 15,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-15.png",
+      "imagem_sha256": "d418eb9d8f25293f27162ab00babfadabc87bf1d3f1d2036c420732d20eaa982",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Socorro, quadro do resultado e registro."
+    },
+    {
+      "pagina": 16,
+      "imagem": "04 - Planejamento/apoio-revisao-textual-129/pagina-16.png",
+      "imagem_sha256": "3562c99848ec30e821fb7476498de36870d3e2b80dafca4e4875b2b7c407202e",
+      "inspecionada": true,
+      "metodo": "Inspeção direta na primeira prova; imagem idêntica (mesmo hash)",
+      "observacao": "Fim do registro e como preparar outra prova; meia página final."
+    }
+  ],
+  "limites": [
+    "Sem leitor humano independente ou terceira leitura integral.",
+    "A última página tem meia coluna de texto; reavaliar o fechamento na integração.",
+    "Não conclui a revisão visual global ou a comparação final do livro inteiro."
+  ]
+}

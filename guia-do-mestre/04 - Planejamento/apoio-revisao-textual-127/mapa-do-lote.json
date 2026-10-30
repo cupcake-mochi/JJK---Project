@@ -1,0 +1,23 @@
+{
+  "registro": 127,
+  "lote": "B4-01",
+  "casos": [
+    "s034",
+    "s036",
+    "s096",
+    "s097",
+    "s098",
+    "s099"
+  ],
+  "pdf_parcial": "04 - Planejamento/apoio-revisao-textual-127/output/pdf/Ciclo-Maldito-Oficios-Ferramentas-e-Recompensas-Revisao-Textual.pdf",
+  "paginas": 15,
+  "casos_revistos_total": 47,
+  "casos_pendentes": 12,
+  "lotes_pendentes": 3,
+  "consultas_complementares_pendentes": 17,
+  "etapa_6": "em andamento",
+  "proximo_lote": "B5-01",
+  "modelo_recomendado": "Claude Opus 5.5 (equivalente no plano: GPT-6.1 Sol)",
+  "esforco_recomendado": "alto",
+  "edicao_integrada": "preservada; não substituída"
+}

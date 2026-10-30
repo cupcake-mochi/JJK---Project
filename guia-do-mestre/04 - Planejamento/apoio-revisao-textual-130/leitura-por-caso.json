@@ -1,0 +1,86 @@
+{
+  "registro": 130,
+  "casos": [
+    {
+      "id": "s052",
+      "fonte_original": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/52-domar-o-amontoado.md",
+      "sha256_original": "a412f48bc4a3a25c5b74201929aab236bc5ecbf4d779fbc92e6b8be812ed8e2f",
+      "sha256_revisado": "e82b9f994fb0318f8c0fd53b6cbcddd48b3819de837bfbcb3182399acd3d791d",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        5
+      ],
+      "paginas_na_prova_final": [
+        1,
+        5
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s053",
+      "fonte_original": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/53-construir-e-evoluir-o-escriba.md",
+      "sha256_original": "876e80c0177bd420a4f3498297c6fe51b7842fe05a49c9003fb1eac24532b348",
+      "sha256_revisado": "e7637fc2012ee8a30ae30ae41d8526236134eabe29c69dfdb85ad0d7c84ecf02",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        6,
+        11
+      ],
+      "paginas_na_prova_final": [
+        6,
+        11
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s054",
+      "fonte_original": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/54-transporte-e-continuidade-das-entidades.md",
+      "sha256_original": "c95e9d197310038b7b0930c9fa1d7f488d37f2890f80ddfbea11b38186b2cfdb",
+      "sha256_revisado": "fed54f767600cccaeecf30b182bd4ea6a5cfbd1bda3e1d4f0885fa4bceeaea00",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        11,
+        16
+      ],
+      "paginas_na_prova_final": [
+        11,
+        16
+      ],
+      "registros_por_passagem": {
+        "1": 2
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s055",
+      "fonte_original": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256_original": "3b5859e2d526e4fc81494cff00e24bb4e39d1b614d0d0f0865c0b28179daae35",
+      "sha256_revisado": "354539605d3baeea4153a8ba62fea331ebe411ec95b1ef8ebbba504b13017f2e",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        16,
+        20
+      ],
+      "paginas_na_prova_final": [
+        16,
+        20
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

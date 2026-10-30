@@ -1,0 +1,101 @@
+{
+  "registro": 133,
+  "fontes": [
+    {
+      "id": "dedicacao",
+      "fonte_id": "s040",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "fonte_original": "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md",
+      "titulo": "Registro de dedicação por ficha",
+      "sha256": "75e2886cfbcb6796b656ab70b9191b4896620c6bdbf7143c844e0dc384a71875",
+      "sha256_original": "955d096e564ea00ca713b90fbf4bf594a3d55129170b697a5eda971a7f2185f2"
+    },
+    {
+      "id": "pactos",
+      "fonte_id": "s042",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/42-registro-de-pactos-e-promessas.md",
+      "fonte_original": "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+      "titulo": "Registro de Pactos e Promessas",
+      "sha256": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+      "sha256_original": "47453b9a866d6ac888ca86322adc56b645475647e7dbd684ffb71eae01ce895d"
+    },
+    {
+      "id": "entidade",
+      "fonte_id": "s044",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "fonte_original": "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "titulo": "Registro de aquisição e estado de entidade",
+      "sha256": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+      "sha256_original": "e38de620849f9179d14ad2ffd5849d369130b078c906f5b2f2465ed3280f6465"
+    },
+    {
+      "id": "inimigo",
+      "fonte_id": "s058",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "fonte_original": "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+      "titulo": "Ficha de inimigo e encontro",
+      "sha256": "31cd98ad1b9788d42fc8111bfa4155448defe11ad5b18cb6bd8eae1e95a89911",
+      "sha256_original": "349dec2793f607e2f9dcc6ce77c4651f5f181ed38868037bdcf242425253c1f5"
+    },
+    {
+      "id": "habilidade",
+      "fonte_id": "s061",
+      "fonte": "06 - Redacao do Guia/revisao-98/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "fonte_original": "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+      "titulo": "Conferir uma habilidade de inimigo",
+      "sha256": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836",
+      "sha256_original": "bda01d13be9d9ab06a090edb468fe37230ecb8c9e174bf459343ed8b3480d260"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-133/prova-textual.html",
+  "html_sha256": "6799d1e0ab66b2cd63e30d5213cb8567e7117a0f2bb1d3267592e63a1b0a8496",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-133/output/pdf/Ciclo-Maldito-Personagens-Entidades-e-Inimigos-Revisao-Textual.pdf",
+  "pdf_sha256": "a7f80cb978df89b125d5315ad55cabcf15dbc4f921337f455778702cb48ac067",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 264
+    },
+    {
+      "pagina": 2,
+      "palavras": 469
+    },
+    {
+      "pagina": 3,
+      "palavras": 279
+    },
+    {
+      "pagina": 4,
+      "palavras": 358
+    },
+    {
+      "pagina": 5,
+      "palavras": 280
+    },
+    {
+      "pagina": 6,
+      "palavras": 435
+    },
+    {
+      "pagina": 7,
+      "palavras": 416
+    },
+    {
+      "pagina": 8,
+      "palavras": 322
+    },
+    {
+      "pagina": 9,
+      "palavras": 335
+    },
+    {
+      "pagina": 10,
+      "palavras": 331
+    },
+    {
+      "pagina": 11,
+      "palavras": 520
+    }
+  ],
+  "limite": "Cinco consultas complementares revistas no lote C-03 (15 no total); lote C-04, consultas, conferência global e integração continuam pendentes."
+}

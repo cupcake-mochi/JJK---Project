@@ -1,0 +1,86 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "### Combinar os limites",
+    "depois": "<span id=\"combinar-os-limites\"></span>\n\n### Reserva Condensada",
+    "motivo": "Nomear a habilidade tratada no subtítulo, preservando o destino antigo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "2. **Conta:** orçamento, base, Forma, Melhorias, descontos e devoluções.",
+    "depois": "2. **Pontos:** orçamento, base, Forma, Melhorias, descontos e devoluções.",
+    "motivo": "Usar um nome concreto para a etapa de montagem."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "O Desdobramento do Emanador vale para a conjuração e exige a escolha no momento previsto.",
+    "depois": "O Desdobramento Técnico do Emanador vale para aquela conjuração e exige a escolha no momento previsto.",
+    "motivo": "Identificar a habilidade pelo nome publicado e tornar explícito que a mudança é temporária."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "O [estudo de casos específicos](<casos/33-casos-especificos-de-avaliacao.md>) desenvolve também Cortina, Traje, Manejos e Katas.",
+    "depois": "[Dúvidas sobre técnicas e capacidades](<casos/33-casos-especificos-de-avaliacao.md>) traz exemplos de Cortina, Traje, Manejos e Katas.",
+    "motivo": "Trocar uma referência abstrata pelo título da consulta e por seus assuntos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "**Liberação:** Corte de ruptura em Classe 3 paga Linha 2 dos 9 pontos, ficando com 7d8; acrescenta 3d8, total **10d8**.",
+    "depois": "**Liberação:** na Classe 3, Corte de ruptura tem 9 pontos. Linha custa 2, deixando 7d8 de dano. A Liberação acrescenta 3d8, chegando a **10d8**.",
+    "motivo": "Explicar as etapas da conta em frases curtas, sem alterar o resultado."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "O TR também difere: na Liberação, o sucesso recebe metade do dano salvo regra específica; na Técnica Máxima de dano, recebe três quartos, com o arredondamento aplicável.",
+    "depois": "Se o alvo passar no TR, recebe metade do dano na Liberação, salvo regra específica, ou três quartos na Técnica Máxima de dano. Aplique o arredondamento correspondente.",
+    "motivo": "Dizer quem recebe o dano, evitando atribuir o resultado ao teste."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "A recarga de Máxima após três rodadas, sem contar a de uso, é uma opção de autorização do mestre prevista no livro.",
+    "depois": "O Livro de Regras permite ao mestre autorizar a recarga da Técnica Máxima após três rodadas, sem contar a de uso.",
+    "motivo": "Identificar qual Máxima tem a opção de recarga, sem estendê-la à Liberação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "Saída Elevada mantém os usos previstos na regra.",
+    "depois": "Saída Elevada concede pontos adicionais apenas para Melhorias de feitiços comuns da técnica de Classe 1 ou maior.",
+    "motivo": "Explicar a função passiva, em vez de remeter vagamente a usos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+    "antes": "Depois de **três sessões em que o feitiço tenha sido usado**, comparem a dificuldade prevista com o ocorrido, conforme a regra de revisão. Três tentativas na mesma sessão não são três sessões de uso. Acompanhe também a frequência de Condicional: uma fonte que os recursos da personagem passaram a garantir pode mudar essa avaliação.",
+    "depois": "Para uma **Restrição Própria**, comparem a dificuldade prevista com o ocorrido depois de **três sessões em que o feitiço tenha sido usado**. Três tentativas na mesma sessão não são três sessões de uso. Em Condicional, confiram a frequência de impedimento nas sessões seguintes: uma fonte que os recursos da personagem passaram a garantir pode mudar essa avaliação.",
+    "motivo": "Restringir o prazo de três sessões à entrada que o prevê e manter o acompanhamento de Condicional, conforme o Livro de Regras 1.0."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+    "antes": "Estes casos mostram como explicar ao jogador uma avaliação de poder. As contas usam o Livro de Regras 1.0. Montagens feitas apenas com opções publicadas demonstram essas opções; propostas novas são identificadas como propostas. Nenhuma destas situações representa um teste realizado com jogadores.",
+    "depois": "Estes casos mostram como explicar ao jogador uma avaliação de poder, usando as regras e contas do Livro de Regras 1.0. As montagens com opções publicadas demonstram seu uso. Criações novas estão identificadas como propostas e dependem da avaliação da mesa.",
+    "motivo": "Apresentar a função dos exemplos e distinguir as propostas, retirando uma nota sobre a produção do livro."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+    "antes": "Para Condicional ou Restrição Própria, o Livro de Regras 1.0 usa a frequência prevista de impedimento para orientar Leve ou Média. Depois de três sessões de uso, confronte essa estimativa com o ocorrido. O registro deve distinguir “o jogador nunca tentou naquela situação” de “a exigência era sempre garantida”.",
+    "depois": "Para Condicional ou Restrição Própria, o Livro de Regras 1.0 usa a frequência prevista de impedimento para orientar Leve ou Média. A Restrição Própria deve ser revista depois de três sessões de uso; em Condicional, confiram a estimativa nas sessões seguintes. O registro deve distinguir “o jogador nunca tentou naquela situação” de “a exigência era sempre garantida”.",
+    "motivo": "Alinhar o prazo específico e o acompanhamento de Condicional à explicação principal e ao catálogo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "antes": "Preencha quando existir uma Restrição cuja dificuldade será acompanhada. O Livro de Regras 1.0 manda revê-la depois de três sessões em que o feitiço tenha sido usado.",
+    "depois": "Use os três registros abaixo para a revisão de uma **Restrição Própria**, prevista no Livro de Regras 1.0 depois de três sessões em que o feitiço tenha sido usado. A folha também pode acompanhar Condicional e outras dificuldades; nesses casos, ela ajuda a anotar o uso, sem criar um prazo de revisão que a entrada não preveja.",
+    "motivo": "Explicar para qual regra os três registros são obrigatórios e manter o uso facultativo da folha em outros acompanhamentos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+    "antes": "O ajuste do saldo depende de como ocorreu a mudança, conforme [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>) e Progressão; o novo máximo não é uma cura automática.",
+    "depois": "O ajuste do saldo depende de como ocorreu a mudança, conforme [Ao subir de nível](<../07-personagens-e-tecnicas.md#ao-subir-de-nivel>) e Progressão; o novo máximo não é uma cura automática.",
+    "motivo": "Levar o recálculo de Constituição à explicação de saldos e crescimento que resolve essa dúvida."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+    "antes": "Se o jogador mudar a proposta para “destruir a imagem armazenada” ou “desligar o Escriba”, essa proposta não atende ao pedido.",
+    "depois": "Se o jogador pedir para “destruir a imagem armazenada” ou “desligar o Escriba”, Interromper fluxo não produz esses resultados.",
+    "motivo": "Retirar a ambiguidade entre o pedido e a capacidade que não o realiza."
+  }
+]

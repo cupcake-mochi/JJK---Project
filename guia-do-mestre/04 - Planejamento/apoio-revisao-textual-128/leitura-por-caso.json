@@ -1,0 +1,87 @@
+{
+  "registro": 128,
+  "casos": [
+    {
+      "id": "s047",
+      "fonte_original": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "sha256_original": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0",
+      "sha256_revisado": "56295fff5630a188a40dd148776d2d84c19c6bd02ae79f81b3f30e89157ad496",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        1,
+        3
+      ],
+      "paginas_na_prova_final": [
+        1,
+        3
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s048",
+      "fonte_original": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+      "sha256_original": "2fa53f0064d52e6ba20afeba643acea0f4b2d7a851e270dd6f0316f82f108d1c",
+      "sha256_revisado": "c556acb8bbcafc010a7377cdca7d04c1843d23a9586b8a4f6d42c8c4990789ae",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        4,
+        8
+      ],
+      "paginas_na_prova_final": [
+        4,
+        8
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s049",
+      "fonte_original": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+      "sha256_original": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c",
+      "sha256_revisado": "0f1ac1ae5d70555e0be0a959d1868b343c944cbae689a39b988704c56a868af4",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        9,
+        13
+      ],
+      "paginas_na_prova_final": [
+        9,
+        13
+      ],
+      "registros_por_passagem": {
+        "1": 3
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    },
+    {
+      "id": "s050",
+      "fonte_original": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+      "fonte_revisada": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+      "sha256_original": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6",
+      "sha256_revisado": "bb5541a48754a05bff4de302aac2a54079c4b76762b71f4b5f8c7194cc99378d",
+      "passagem_1": "Original integral e regras pertinentes consultados.",
+      "passagem_2_paginas_da_prova": [
+        13,
+        17
+      ],
+      "paginas_na_prova_final": [
+        13,
+        17
+      ],
+      "registros_por_passagem": {
+        "1": 2,
+        "2": 1
+      },
+      "estado": "duas passagens locais; conferir conjunto antes de integrar"
+    }
+  ],
+  "limites": "Sem terceira leitura integral, teste humano ou nova simulação."
+}

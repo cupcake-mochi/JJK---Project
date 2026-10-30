@@ -1,0 +1,200 @@
+{
+  "registro": 133,
+  "novos_parametros": false,
+  "conferencias": [
+    {
+      "conta": "Dedicação Rina, ciclo 1: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        0,
+        18,
+        0,
+        10
+      ],
+      "esperado": [
+        0,
+        18,
+        0,
+        10
+      ]
+    },
+    {
+      "conta": "Dedicação Mei, ciclo 1: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        0,
+        28,
+        0,
+        0
+      ],
+      "esperado": [
+        0,
+        28,
+        0,
+        0
+      ]
+    },
+    {
+      "conta": "Dedicação Rina, ciclo 2: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        10,
+        10,
+        0,
+        18
+      ],
+      "esperado": [
+        10,
+        10,
+        0,
+        18
+      ]
+    },
+    {
+      "conta": "Dedicação Mei, ciclo 2: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        0,
+        8,
+        0,
+        20
+      ],
+      "esperado": [
+        0,
+        8,
+        0,
+        20
+      ]
+    },
+    {
+      "conta": "Dedicação Rina, ciclo 3: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        12,
+        0,
+        6,
+        28
+      ],
+      "esperado": [
+        12,
+        0,
+        6,
+        28
+      ]
+    },
+    {
+      "conta": "Dedicação Mei, ciclo 3: antigas usadas, novas usadas, antigas que expiram, novas que passam",
+      "resultado": [
+        0,
+        0,
+        20,
+        28
+      ],
+      "esperado": [
+        0,
+        0,
+        20,
+        28
+      ]
+    },
+    {
+      "conta": "Saldo de Rina no ciclo 2 = novas que passaram do 1",
+      "resultado": 10,
+      "esperado": 10
+    },
+    {
+      "conta": "Saldo de Rina no ciclo 3 = novas que passaram do 2",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "conta": "Saldo de Mei no ciclo 3 = novas que passaram do 2",
+      "resultado": 20,
+      "esperado": 20
+    },
+    {
+      "conta": "Abertura do ciclo 2: Rina 10 + 28, Mei 0 + 28",
+      "resultado": [
+        38,
+        28
+      ],
+      "esperado": [
+        38,
+        28
+      ]
+    },
+    {
+      "conta": "Abertura do ciclo 4: 28 novas + 28 que passaram",
+      "resultado": 56,
+      "esperado": 56
+    },
+    {
+      "conta": "Entrada no quinto dia: dias 5, 6 e 7 a 28 ÷ 7 horas",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "conta": "Conferência pendente: 10 confirmadas + 8 reservadas + 10 livres",
+      "resultado": 28,
+      "esperado": 28
+    },
+    {
+      "conta": "Abertura seguinte: 10 livres + 28 novas",
+      "resultado": 38,
+      "esperado": 38
+    },
+    {
+      "conta": "Overtime: 40 com 20% a menos e a mais",
+      "resultado": [
+        32,
+        48
+      ],
+      "esperado": [
+        32,
+        48
+      ]
+    },
+    {
+      "conta": "Overtime: PE depois da passagem, 12 + (48 − 32)",
+      "resultado": 28,
+      "esperado": 28
+    },
+    {
+      "conta": "Vagas com Essência 4",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "conta": "Calígrafa: CD",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "conta": "Calígrafa: Destreza 4 + Maestria 2; dado 6",
+      "resultado": [
+        6,
+        true
+      ],
+      "esperado": [
+        6,
+        true
+      ]
+    },
+    {
+      "conta": "Carregador: CD de Agarrar",
+      "resultado": 12,
+      "esperado": 12
+    }
+  ],
+  "regras_primarias": {
+    "fonte": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+    "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "trechos_consultados": [
+      "Nanami: Overtime",
+      "Vagas de pacto",
+      "Teste de criação (calígrafa)",
+      "Agarrar, derrubar e empurrar",
+      "Escapar de uma contenção",
+      "Estágios de Integridade"
+    ]
+  },
+  "padrao_do_guia": "Dedicação de 28 horas por ficha a cada sete dias: recomendação do guia (Entre missões, 8.2), não regra do Livro de Regras 1.0.",
+  "limites": [
+    "A ficha de inimigo e encontro não tem contas; foi conferida na leitura."
+  ]
+}

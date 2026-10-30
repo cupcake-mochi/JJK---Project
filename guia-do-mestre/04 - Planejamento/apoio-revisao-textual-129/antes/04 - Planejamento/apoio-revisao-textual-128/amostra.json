@@ -1,0 +1,116 @@
+{
+  "registro": 128,
+  "fontes": [
+    {
+      "id": "ideia",
+      "fonte_id": "s047",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "fonte_original": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+      "titulo": "Desenvolver uma ideia de Pacto",
+      "sha256": "56295fff5630a188a40dd148776d2d84c19c6bd02ae79f81b3f30e89157ad496",
+      "sha256_original": "76fe1bceec543c79d343ce12db62e290640a268dd5119a56ddd9d39237a929d0"
+    },
+    {
+      "id": "pacifismo",
+      "fonte_id": "s048",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/48-pacifismo-impraticavel-minuta.md",
+      "fonte_original": "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+      "titulo": "Pacifismo impraticável",
+      "sha256": "c556acb8bbcafc010a7377cdca7d04c1843d23a9586b8a4f6d42c8c4990789ae",
+      "sha256_original": "2fa53f0064d52e6ba20afeba643acea0f4b2d7a851e270dd6f0316f82f108d1c"
+    },
+    {
+      "id": "liberacao",
+      "fonte_id": "s049",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/49-liberacao-irregular-minuta.md",
+      "fonte_original": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+      "titulo": "Liberação irregular",
+      "sha256": "0f1ac1ae5d70555e0be0a959d1868b343c944cbae689a39b988704c56a868af4",
+      "sha256_original": "b6fd61682291b1264d921b44540204ee6f33e4b8b43b9923871dfd37e97b1a5c"
+    },
+    {
+      "id": "promessa",
+      "fonte_id": "s050",
+      "fonte": "06 - Redacao do Guia/revisao-98/casos/50-promessa-do-arquivo.md",
+      "fonte_original": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+      "titulo": "A Promessa do arquivo",
+      "sha256": "bb5541a48754a05bff4de302aac2a54079c4b76762b71f4b5f8c7194cc99378d",
+      "sha256_original": "ccf93ae7ff7956cd16a6063951604af11fb13364f9a64ee5f099693af47dfec6"
+    }
+  ],
+  "html": "04 - Planejamento/apoio-revisao-textual-128/prova-textual.html",
+  "html_sha256": "89de1080bb27d8957a69111916088feef1ef532e09c3fd5ea1c7256779c79a89",
+  "pdf": "04 - Planejamento/apoio-revisao-textual-128/output/pdf/Ciclo-Maldito-Pactos-e-Promessa-Revisao-Textual.pdf",
+  "pdf_sha256": "0d580fc196d83bfaf84438992d26938ee1fd63d153ced9f39d28a1b54a2162ca",
+  "paginas": [
+    {
+      "pagina": 1,
+      "palavras": 469
+    },
+    {
+      "pagina": 2,
+      "palavras": 698
+    },
+    {
+      "pagina": 3,
+      "palavras": 639
+    },
+    {
+      "pagina": 4,
+      "palavras": 471
+    },
+    {
+      "pagina": 5,
+      "palavras": 516
+    },
+    {
+      "pagina": 6,
+      "palavras": 596
+    },
+    {
+      "pagina": 7,
+      "palavras": 634
+    },
+    {
+      "pagina": 8,
+      "palavras": 598
+    },
+    {
+      "pagina": 9,
+      "palavras": 475
+    },
+    {
+      "pagina": 10,
+      "palavras": 681
+    },
+    {
+      "pagina": 11,
+      "palavras": 644
+    },
+    {
+      "pagina": 12,
+      "palavras": 551
+    },
+    {
+      "pagina": 13,
+      "palavras": 527
+    },
+    {
+      "pagina": 14,
+      "palavras": 583
+    },
+    {
+      "pagina": 15,
+      "palavras": 656
+    },
+    {
+      "pagina": 16,
+      "palavras": 710
+    },
+    {
+      "pagina": 17,
+      "palavras": 682
+    }
+  ],
+  "limite": "Quatro casos revistos; demais lotes, consultas, conferência global e integração continuam pendentes."
+}
