@@ -6,6 +6,8 @@ Esclarecimento aprovado em 30/10/2026: um feitiço de Classe 1 ou maior no próp
 
 Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r60/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R59-para-R60.json`. A cadeia de integridade cobre R52 a R60.
 
+A R60 foi publicada na Vercel em 30/10/2026. O download integral dos dois PDFs públicos confirmou os mesmos hashes dos arquivos revisados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r60/PUBLICACAO.json`.
+
 # Edição anterior R59
 
 *Versão v0.368.*
