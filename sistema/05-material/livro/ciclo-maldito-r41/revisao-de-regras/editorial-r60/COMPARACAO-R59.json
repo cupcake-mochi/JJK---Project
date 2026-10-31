@@ -1,0 +1,80 @@
+{
+  "comparacao": "Texto, posições das palavras e imagem renderizada de todas as páginas frente à R59.",
+  "paletas": {
+    "claro": {
+      "paginas": 425,
+      "paginas_com_texto_alterado": [
+        254,
+        265,
+        266,
+        298
+      ],
+      "paginas_com_imagem_alterada": [
+        254,
+        265,
+        266,
+        298
+      ],
+      "paginas_visualmente_identicas": 421,
+      "paginas_renderizadas_para_revisao": [
+        253,
+        254,
+        255,
+        264,
+        265,
+        266,
+        267,
+        297,
+        298,
+        299
+      ]
+    },
+    "noturno": {
+      "paginas": 425,
+      "paginas_com_texto_alterado": [
+        254,
+        265,
+        266,
+        298
+      ],
+      "paginas_com_imagem_alterada": [
+        254,
+        265,
+        266,
+        298
+      ],
+      "paginas_visualmente_identicas": 421,
+      "paginas_renderizadas_para_revisao": [
+        253,
+        254,
+        255,
+        264,
+        265,
+        266,
+        267,
+        297,
+        298,
+        299
+      ]
+    }
+  },
+  "revisao_visual": {
+    "resultado": "aprovado",
+    "escopo": "Inspeção das quatro páginas alteradas e das seis páginas vizinhas, nas duas paletas, em pranchas e ampliações. Comparação raster das 425 páginas por paleta.",
+    "paginas_alteradas": [
+      254,
+      265,
+      266,
+      298
+    ],
+    "ampliacoes": [
+      "claro/254",
+      "claro/264",
+      "claro/265",
+      "claro/266",
+      "noturno/265",
+      "noturno/298"
+    ],
+    "observacoes": "Textos completos, títulos acompanhados de conteúdo, exemplo contínuo na coluna seguinte da mesma página, tabela continuada com cabeçalho repetido. Sem corte, sobreposição ou novo vão desproporcional identificado. As outras 421 páginas por paleta reproduzem a R59."
+  }
+}

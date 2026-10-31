@@ -1,10 +1,10 @@
-# Fonte corrente R57
+# Fonte corrente R60
 
-LIVRO-COMPLETO.md é a edição R57, de 415 páginas, usada pelos validadores. A revisão acrescentou contexto a termos e referências antecipadas. As regras do Fundamento continuam com o modelo integrado na R53.
+LIVRO-COMPLETO.md é a edição R60, de 425 páginas, usada pelos validadores. Ela esclarece a conjuração de Reação fora do próprio turno e preserva a revisão didática da R59.
 
-Os snapshots R54 a R57, as evidências e a impressão digital atual ficam em revisao-de-regras/editorial-r57/. O antes e depois de cada rodada está em revisao-de-regras/alteracoes/. A integração R53 permanece preservada em fundamento-r53/. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r60/. O antes e depois está em revisao-de-regras/alteracoes/R59-para-R60.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
 
-A composição atual está na entrega local /home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/. As cadeias antigas de geração documentam versões anteriores.
+A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/composicao. As cadeias antigas de geração documentam versões anteriores.
 
 ## Histórico da fonte e da geração
 

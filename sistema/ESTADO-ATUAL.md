@@ -1,6 +1,14 @@
-# Edição corrente R59
+# Edição corrente R60
 
-**Versão v0.368.**
+**Versão v0.369.**
+
+Esclarecimento aprovado em 30/10/2026: um feitiço de Classe 1 ou maior no próprio turno; Reação fora dele fica fora desse limite. Três blocos atualizados em Fundamento e Catálogo, preservando custos, gatilhos, ações e exceções expressas. As duas paletas têm 425 páginas.
+
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r60/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R59-para-R60.json`. A cadeia de integridade cobre R52 a R60.
+
+# Edição anterior R59
+
+*Versão v0.368.*
 
 A revisão didática por capítulos foi integrada aos dois PDFs, agora com 425 páginas. Ela soma 510 operações editoriais em 227 blocos dos capítulos 2 a 9 e 12 a 21, sem mudar regra. O Índice passou de 346 para 452 verbetes. A cadeia de integridade cobre R52 a R59.
 

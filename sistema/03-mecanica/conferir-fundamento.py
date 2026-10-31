@@ -98,6 +98,8 @@ for nome in ['Terreno', 'Anteparo', 'Desarma o Feitiço']:
 x=copy.deepcopy(ctrl);x.update(funcoes=['controle','cura'],distribuicao={'cura':1});conta(x,{},False)
 for un,anc,trechos in [
     ('fundamento','ampliar',['A proporção pode ser diferente entre as linhas preparadas','Ela fica fixa em cada linha']),
+    ('fundamento','conjurar',['No seu turno, você pode conjurar apenas um feitiço de Classe 1 ou maior','Uma conjuração de Reação fora do seu turno fica fora desse limite','não reduz as conjurações permitidas no seu próximo turno','Uma habilidade pode estabelecer uma exceção expressa']),
+    ('catalogo','melhoria-reacao',['Fora do seu turno, esta conjuração fica fora do limite','Durante ele, siga o limite de [Conjurar](#fundamento--conjurar)']),
     ('fundamento','classezero',['Vida temporária permanece indisponível','sem criar pontos de montagem']),
     ('rotas','rotas',['mesma tabela de pontos e PE','O Restringido Sem Energia usa Técnica Marcial']),
     ('construcao','entidades-controle',['Condições Médias e Pesadas','especial comandada ativamente']),
@@ -130,7 +132,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r59/BLOCOS-R59.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r60/BLOCOS-R60.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 meta=json.loads((base.parent/'EDICAO-ATUAL.json').read_text())
 for ed in ['claro','noturno']:

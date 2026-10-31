@@ -1,0 +1,235 @@
+{
+  "resultado": "aprovado",
+  "executados": 30,
+  "validadores": [
+    {
+      "validador": "conferir-acao.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-acao.py.log",
+      "resumo": "stroem; o conjunto completo cabe da Classe 3.\n\n============================================================================================\n>>> TUDO OK — as 13 Restricoes cabem na regua, nenhuma esta dominada, e a `Divida` bate nas duas publicacoes.\n"
+    },
+    {
+      "validador": "conferir-alma.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-alma.py.log",
+      "resumo": "om o manual,\n    o TR e um dos quatro que existem, so o `Cisao` atravessa o corpo e ele nao\n    ficou mais rapido, o inimigo tem alvo, a ficha de exemplo obedece, e a metade\n    do inimigo e a mesma em todo lugar, com o terco do `Cisao` saindo dela.\n"
+    },
+    {
+      "validador": "conferir-aptidoes.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-aptidoes.py.log",
+      "resumo": "m riscados.\n\n==========================================================================================\n>>> TUDO OK — o refino nao deriva onde nao pode, as tres rotas do marco nao se\n    dominam, e o orcamento de espaco cobre a montagem mais pesada.\n"
+    },
+    {
+      "validador": "conferir-atributos.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-atributos.py.log",
+      "resumo": "): entrega 2, teto 22\n  [x] `Refluxo` (Vanguarda, Estocada, nivel 11): entrega 1, teto 27\n========================================================================================\n>>> TUDO OK — nada deriva onde nao deve, e a pericia deriva onde deve.\n"
+    },
+    {
+      "validador": "conferir-bestiario.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-bestiario.py.log",
+      "resumo": "or nivel devolve o que a peca 1 publica do outro lado da mesa, a grade\n    parte da tabela do manual, a regra do x1 e do x2 devolve a regua da peca 19, e o cambio,\n    o chefe com capangas e o que o inimigo carrega foram medidos em vez de guardados.\n"
+    },
+    {
+      "validador": "conferir-bloquear.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-bloquear.py.log",
+      "resumo": "liquido dos extremos sai dos donos e cabe no\n    teto, o `+3` e o maior que cabe, so a `Guarda Aberta` desliga, e a `Talha`\n    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a\n    todo mundo, impressa na ficha de inimigo da peca 26.\n"
+    },
+    {
+      "validador": "conferir-catalogo.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-catalogo.py.log",
+      "resumo": "] v0.331: seis fontes completas, dezoito Trilhas, novos Caminhos fieis e contratos do Bastiao conferidos\n>>> TUDO OK — o indice bate com os tres DESENHO nas duas direcoes, todo\n    total foi recontado, e nenhum bloco de regra contradiz o preco dele.\n"
+    },
+    {
+      "validador": "conferir-criacao.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-criacao.py.log",
+      "resumo": "===================================================================\n>>> TUDO OK — a ficha de exemplo sai das formulas, a criacao entrega Trilha,\n    a protecao da aptidao gratuita esta na Defesa, e tudo que a criacao cita\n    existe nas pecas donas.\n"
+    },
+    {
+      "validador": "conferir-dano.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-dano.py.log",
+      "resumo": "=================\n>>> TUDO OK — a regua reconstroi as treze a partir dos donos, o nivel\n    de cada uma cai da banda do manual, os tipos de dano e a cobertura\n    fecham, e as duas entregas publicadas batem com o portao que elas\n    mesmas escrevem.\n"
+    },
+    {
+      "validador": "conferir-descanso.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-descanso.py.log",
+      "resumo": "degrau(s); sem ele seria 16\n  [x] a peca escreve as DUAS metades do motivo do teto\n\n========================================================================================\n>>> TUDO OK — o piso e estavel, a exaustao nao espirala e o orcamento fecha.\n"
+    },
+    {
+      "validador": "conferir-equipamento.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-equipamento.py.log",
+      "resumo": "iz so tem as dominancias\n    declaradas, o teto de Defesa e derivado dos tres donos e nenhuma\n    montagem de equipamento passa da rota que nao usa equipamento.\n========================================================================================\n"
+    },
+    {
+      "validador": "conferir-expansao.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-expansao.py.log",
+      "resumo": "\n==========================================================================================\n>>> TUDO OK — os gates separam o que dizem, a ordem nao inverte, o preco fecha\n    com as tabelas publicadas e a resposta anti-dominio chega antes da ameaca.\n"
+    },
+    {
+      "validador": "conferir-ferramenta.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-ferramenta.py.log",
+      "resumo": " sai da peca 11, os marcos saem\n    da peca 2, a rota sai da peca 9, e as 18 checagens do SS8 fecham sem\n    nenhum valor de regra escrito dentro deste arquivo.\n========================================================================================\n"
+    },
+    {
+      "validador": "conferir-ficha.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-ficha.py.log",
+      "resumo": "Kaori treina o que a peca 8 diz\n\n========================================================================================\n>>> TUDO OK — a ficha imprime o mesmo catalogo que as pecas decidiram, e as\n    constantes do nivel 2 batem com os donos delas.\n"
+    },
+    {
+      "validador": "conferir-fundamento.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/TESTE-FUNDAMENTO-FINAL.log",
+      "resumo": "ASE DE FUNÇÕES E DISTRIBUIÇÃO\n\n4. ACESSOS E MONTAGENS INVÁLIDAS\n\n5. PROXIMIDADE E CONSERVAÇÃO DO ORÇAMENTO\n\n6. CONTROLE E INTERFACES\n\n7. ORÇAMENTO E TETOS DAS ENTIDADES\n\n8. EXTRAÇÃO E INTEGRIDADE DA EDIÇÃO\n\n222 verificações; 0 falhas.\n>>> TUDO OK: montagem comum R53, fontes e interfaces conferidas.\n",
+      "reexecutado_apos_correcao": true
+    },
+    {
+      "validador": "conferir-invocacoes.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-invocacoes.py.log",
+      "resumo": " antigo\n    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 34\n    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.\n========================================================================================\n"
+    },
+    {
+      "validador": "conferir-legados.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-legados.py.log",
+      "resumo": " ele bate com a tabela do topo do capitulo.\n\n========================================================================================\n>>> TUDO OK — a regua fecha, o catalogo obedece a ela, e todo numero\n    conferido aqui foi lido do documento dono.\n"
+    },
+    {
+      "validador": "conferir-manual.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-manual.py.log",
+      "resumo": "==============================================\n>>> TUDO OK — nenhum vocabulario de outro sistema no manual, nenhum termo\n    mecanico indefinido sem motivo, e os numeros importados continuam batendo.\n    1 aviso(s) acima, que nao falham o validador.\n"
+    },
+    {
+      "validador": "conferir-marcial.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-marcial.py.log",
+      "resumo": " a soma continua parelha, os tres grupos\n    nao entregam Manha, o atributo fecha os dois lados da rolagem, e o\n    `Desarmado` volta a valer o preco de tabela.\n========================================================================================\n"
+    },
+    {
+      "validador": "conferir-nomes.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-nomes.py.log",
+      "resumo": "====================================================\n>>> TUDO OK — nenhum nome batizado colide, nenhuma categoria do manual foi\n    citada errada, e nenhum termo morto sobrou fora de nota historica.\n    46 aviso(s) acima, que nao falham o validador.\n"
+    },
+    {
+      "validador": "conferir-objeto.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-objeto.py.log",
+      "resumo": "a anuncia como pendente.\n\n========================================================================================\n>>> TUDO OK — a familia tem quatro donas, a peca 21 nao republica numero\n    de ninguem, e a unica coisa que ela cria tem uma dona so.\n"
+    },
+    {
+      "validador": "conferir-orcamento.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-orcamento.py.log",
+      "resumo": "=============================================================================\n>>> TUDO OK — a linha de base cabe, o compromisso nao cala o personagem,\n    pre-ligar nao compensa, o dano de alma empilha sem quebrar, e todo\n    preco em PE tem numero.\n"
+    },
+    {
+      "validador": "conferir-pactos.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-pactos.py.log",
+      "resumo": "scadas.\n\n========================================================================================\n>>> TUDO OK — as quatro formas estao separadas, o unico teto que existe e\n    derivado dos donos, e nenhum numero desta peca esta escrito no validador.\n"
+    },
+    {
+      "validador": "conferir-pericias.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-pericias.py.log",
+      "resumo": "agem, e a peca cobra isso\n\n========================================================================================\n>>> TUDO OK — o quadro fecha, a fracao esta na faixa, e as colisoes que existem\n    estao declaradas com motivo em vez de esquecidas.\n"
+    },
+    {
+      "validador": "conferir-progressao.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-progressao.py.log",
+      "resumo": "=========================================\n>>> TUDO OK — as nove colunas da tabela de progressao reconstroem a partir\n    dos donos, a formula dos espacos reproduz a tabela da peca 11, e a copia\n    de tres fichas da peca 2 bate com a regra do marco.\n"
+    },
+    {
+      "validador": "conferir-repositorio.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/TESTE-REPOSITORIO-FINAL.log",
+      "resumo": "==================================================================\n>>> TUDO OK — a arvore esta inteira, toda referencia resolve, nada aponta\n    para a estrutura antiga, todo numero de dois donos bate com o dono, e o\n    recorte da entrega confere com a fonte.\n    39 aviso(s) acima, que nao falham.\n",
+      "reexecutado_apos_correcao": true
+    },
+    {
+      "validador": "conferir-ritual.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-ritual.py.log",
+      "resumo": " riscada\n\n========================================================================================\n>>> TUDO OK — a escada cresce, os precos cabem nos degraus, o vao e a\n    Liberacao Maxima, toda Melhoria declara Restricao, e a peca e o livro batem.\n"
+    },
+    {
+      "validador": "conferir-sem-tecnica.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-sem-tecnica.py.log",
+      "resumo": "ados da mesa\n\n========================================================================================\n>>> TUDO OK — a rota herda o orcamento e a maquina, a banda da semente e\n    derivada da escada de gate, e nenhum numero de regra mora nesta peca.\n"
+    },
+    {
+      "validador": "conferir-voz-legado",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-voz-legado.log",
+      "resumo": "álogo; 0 rótulo(s) em negrito com mais de 6 palavras. O dono diz 0 em 51.\n\n  2 título(s) em pergunta aceito(s) pela REGRA-DE-VOZ.md; o dono diz 2 e lista 2.\n>>> LEGADO PRESERVADO: 34 pendências editoriais anteriores; nenhuma alteração no inventário.\n"
+    },
+    {
+      "validador": "conferir-xp.py",
+      "codigo": 0,
+      "log": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/validadores/conferir-xp.py.log",
+      "resumo": "asado encolhe e a\n    plana nao fecha, a cadencia da Guilda cabe na faixa pedida, ninguem sai com\n    zero, a faixa lendaria e curta por causa da MISSAO, e a tabela das cinco\n    cadencias e a do gatilho reconstroem, celula a celula, das constantes.\n"
+    }
+  ],
+  "ajustes_durante_a_conferencia": [
+    "O leitor preserva Markdown nos links; o teste novo passou a exigir a remissão completa a Conjurar.",
+    "Dois caminhos dos registros foram escritos por completo nos arquivos de acompanhamento."
+  ],
+  "integridade": [
+    {
+      "teste": "controle",
+      "rejeitou": false,
+      "resultado": "passou"
+    },
+    {
+      "teste": "cabeçalho",
+      "rejeitou": true,
+      "resultado": "passou"
+    },
+    {
+      "teste": "corpo",
+      "rejeitou": true,
+      "resultado": "passou"
+    },
+    {
+      "teste": "bloco retirado",
+      "rejeitou": true,
+      "resultado": "passou"
+    },
+    {
+      "teste": "registro incompleto",
+      "rejeitou": true,
+      "resultado": "passou"
+    },
+    {
+      "teste": "voz legado preservado",
+      "codigo": 0,
+      "resultado": "passou"
+    },
+    {
+      "teste": "voz legado com novo achado",
+      "codigo": 1,
+      "resultado": "passou"
+    }
+  ],
+  "pdf": {
+    "verificacoes": 52,
+    "resultado": "aprovado",
+    "paginas": 425
+  },
+  "limite": "Os validadores conferem contratos textuais e cálculos já implementados; não são uma simulação de equilíbrio de combate."
+}

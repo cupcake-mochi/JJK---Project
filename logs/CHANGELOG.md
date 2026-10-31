@@ -8,6 +8,16 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.369] - 30/10/2026
+
+### Alterado
+
+- R60: esclarecido o limite de um feitiço de Classe 1 ou maior no próprio turno. Reação usada fora dele não consome esse limite nem o do próximo turno. Bônus e Reação durante o próprio turno continuam sujeitos ao limite, salvo exceção expressa.
+- Atualizados três blocos: resumo de conjuração, procedimento completo com exemplo e Melhoria Reação. Custos, gatilhos, ações e demais requisitos preservados.
+- PDFs claro e noturno regenerados e revisados. A guarda de integridade passa a cobrir R52 a R60; o validador de Fundamento verifica os dois momentos da Reação.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R60 e a conferência da publicação.
+
 ## [0.368] - 29/10/2026
 
 ### Alterado

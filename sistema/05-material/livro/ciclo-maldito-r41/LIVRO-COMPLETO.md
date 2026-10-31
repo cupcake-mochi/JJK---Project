@@ -9293,7 +9293,7 @@ Um feitiço pode ser usado em uma Classe maior por [Ampliar](#fundamento--amplia
 
 ##### Conjurações no turno
 
-O uso normal de um feitiço custa Ação Padrão. No seu turno, conjurar um feitiço de Classe acima de 0 permite apenas mais um feitiço de Classe 0. Usar Bônus ou Reação conserva esse limite. Considere isso ao escolher peças que mudam a ação de conjuração; [Conjurar](#fundamento--conjurar) reúne o procedimento completo.
+O uso normal de um feitiço custa Ação Padrão. No seu turno, você pode conjurar **um feitiço de Classe 1 ou maior e mais um de Classe 0**, se tiver as ações necessárias. Bônus e Reações usadas nesse turno entram no limite, salvo exceção expressa. **Uma conjuração de Reação fora do seu turno fica fora desse limite.** [Conjurar](#fundamento--conjurar) reúne o procedimento completo.
 
 ##### Um caminho curto para começar
 
@@ -9723,7 +9723,11 @@ Numa área, resolva o ataque ou o TR separadamente para cada alvo. Role o dano i
 
 ##### Ação e duração
 
-O uso normal custa **Ação Padrão**. Bônus, Reação e Ação Completa precisam constar da ficha. No seu turno, uma conjuração de Classe acima de 0 permite apenas mais um feitiço de Classe 0. Mudar ou converter ações não remove esse limite. Se conjurar como Bônus ou Reação, o único outro feitiço permitido naquele turno também é de Classe 0.
+O uso normal custa **Ação Padrão**. Bônus, Reação e Ação Completa precisam constar da ficha. **No seu turno, você pode conjurar apenas um feitiço de Classe 1 ou maior.** Se tiver a ação necessária para outra conjuração nesse turno, ela deve ser de Classe 0. Mudar ou converter ações conserva esse limite, inclusive ao usar Bônus ou Reação durante o próprio turno. Uma habilidade pode estabelecer uma exceção expressa.
+
+**Uma conjuração de Reação fora do seu turno fica fora desse limite.** Ela exige a Reação disponível, o gatilho registrado e o cumprimento dos custos e requisitos do feitiço. Conjurar no próprio turno não impede essa Reação, e usá-la fora dele não reduz as conjurações permitidas no seu próximo turno.
+
+> **Exemplo.** Mei conjura um feitiço de Classe 3 no seu turno. No turno do inimigo, ocorre o gatilho de um feitiço de Reação de Classe 2 que ela conhece. Com sua Reação disponível, Mei pode conjurá-lo e pagar seus PE. Se o gatilho tivesse ocorrido durante o próprio turno de Mei, depois do feitiço de Classe 3, outra conjuração de Classe 1 ou maior dependeria de uma exceção expressa.
 
 Instantes de término devem estar escritos. Quando a duração disser apenas **uma rodada**, termina no começo do seu próximo turno. “Até o fim do próximo turno do alvo” conserva esse momento específico. Concentração, interrupções e tentativas para escapar seguem as regras do efeito.
 
@@ -11190,6 +11194,8 @@ Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e n
 **Preço: Pesada.**
 
 Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu.
+
+Fora do seu turno, esta conjuração fica fora do limite de feitiços do próprio turno. Durante ele, siga o limite de [Conjurar](#fundamento--conjurar).
 
 Cumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas.
 
