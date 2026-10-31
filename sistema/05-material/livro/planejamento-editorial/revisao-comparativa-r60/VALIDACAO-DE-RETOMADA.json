@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-31",
+  "teste": "Reconstrução e validação em pasta independente do ambiente original, com fontes e artes incluídas e scripts ativos usando caminhos relativos.",
+  "ambiente_testado": "Outra pasta local. A execução no Codex na nuvem ainda não foi realizada.",
+  "resultado": "aprovado",
+  "paginas": 429,
+  "verificacoes_gerais": 52,
+  "verificacoes_especificas": 10,
+  "cenarios": 18,
+  "pdfs": [
+    {
+      "arquivo": "Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "sha256": "d88fc5fb89fb06bdeec5eb3ad31f3fb77c8519cf4932e75516ed3d477cadf2d4",
+      "reconstrucao_identica_byte_a_byte": true
+    },
+    {
+      "arquivo": "Ciclo-Maldito-Livro-de-Regras.pdf",
+      "sha256": "0beb9852075a85a1dd9019e622c12c77c9f002014ef241a518ce2d9aca442e6f",
+      "reconstrucao_identica_byte_a_byte": true
+    }
+  ],
+  "proxima_etapa": 4,
+  "publicacao_alterada": false
+}

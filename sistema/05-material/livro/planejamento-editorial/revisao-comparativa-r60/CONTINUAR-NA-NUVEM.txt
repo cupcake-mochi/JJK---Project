@@ -51,3 +51,6 @@ Rasters antigos e PDFs comerciais de referência ficaram no computador. As evid�
 
 PROMPT PARA O NOVO CHAT
 Continue a revisão editorial do Ciclo Maldito na branch codex/continuidade-editorial-r60. Leia sistema/05-material/livro/planejamento-editorial/revisao-comparativa-r60/CONTINUAR-NA-NUVEM.txt e o PLANEJAMENTO.json da candidata. Valide a entrega da etapa 3 e prossiga pela etapa 4, Diagramas, numa nova cópia. Preserve regras e PDFs publicados. Ao fim revise clareza e diagramação nas duas paletas e entregue os resultados.
+
+TESTE DE RETOMADA CONCLUÍDO
+A reconstrução numa pasta independente passou em 31/10/2026. Os dois PDFs reconstruídos são idênticos byte a byte aos entregues. Foram aprovadas novamente 52 verificações gerais, dez específicas e 18 cenários. Veja VALIDACAO-DE-RETOMADA.json. A execução efetiva na nuvem ainda deve ser feita no novo ambiente.
