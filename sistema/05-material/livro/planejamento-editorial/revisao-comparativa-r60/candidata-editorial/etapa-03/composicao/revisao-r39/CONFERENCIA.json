@@ -1,0 +1,15 @@
+{
+  "paginas_r38": 367,
+  "paginas_r39": 367,
+  "blocos_textuais_alterados": 1,
+  "texto_identico_fora_do_bloco_registrado": true,
+  "r38_integralmente_preservada": true,
+  "fontes_tamanhos_estilos_arte_creditos_preservados": true,
+  "paginas_pdf_com_desenho_diferente": [
+    291
+  ],
+  "paginas_com_desenho_identico": 366,
+  "registros_diagramacao": 2,
+  "sha256_pdf": "d83d8e398975feb76536ad5fd0379125a02635b2ebd584ef985cdd4be43fb29a",
+  "sha256_texto": "f15e940a7023b08ec76b65402ea38d819fe188a2d5fad2cce113ac7c3a6930c0"
+}

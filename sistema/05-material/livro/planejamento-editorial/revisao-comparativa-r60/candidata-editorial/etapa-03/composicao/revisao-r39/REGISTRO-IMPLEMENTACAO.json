@@ -1,0 +1,22 @@
+[
+  {
+    "arquivo": "ler_fontes.py",
+    "sha256_antes": "e2125ca4b45989dbb32aec48907950863cca5c1e01b21412a9dbad44c93069db",
+    "sha256_depois": "3a44b4624cdd488a3037548df413dc44b2b9a30f739adad291da17a7e3c4a465"
+  },
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "dcd979ededebd9830019faecf639768c87e2095b332cfc3937ae166652418047",
+    "sha256_depois": "4441b73d2de301662a28edee4d36dfbe8618608ef09583304d7ab713952674b9"
+  },
+  {
+    "arquivo": "revisao_r39.py",
+    "sha256_antes": null,
+    "sha256_depois": "8fb069f71c278da0c5ca580e8c00b46e4c383a9cd541393f8d6997743c966f36"
+  },
+  {
+    "arquivo": "conferir_r39.py",
+    "sha256_antes": null,
+    "sha256_depois": "4a5aa6a7d01f79126895206a10fc7491e8b33b10e63b375386a7f6175c7602bd"
+  }
+]

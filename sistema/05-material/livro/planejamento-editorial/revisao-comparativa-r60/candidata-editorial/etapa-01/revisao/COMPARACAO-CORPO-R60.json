@@ -1,0 +1,1533 @@
+{
+  "blocos_antes": 6773,
+  "blocos_depois": 6773,
+  "corpo_identico_em_texto_e_geometria": false,
+  "diferencas": [
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "5. **Calcule o saldo e registre os resultados.** Destine os pontos às funções escolhidas e confira seus limites. Escreva a resolução, os requisitos e os prazos na ficha.",
+        "x": 53.858,
+        "y": 705.893,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "5. **Calcule o saldo e registre os resultados.** Destine os pontos às funções escolhidas e confira seus limites. Escreva a resolução, os requisitos e os prazos na ficha.",
+        "x": 53.858,
+        "y": 693.893,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "6. **Teste um uso.** Escolha um alvo válido e resolva a ficha. Confira também uma situação em que ela deve falhar, como falta de requisito ou alvo fora do alcance.",
+        "x": 53.858,
+        "y": 649.093,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "6. **Teste um uso.** Escolha um alvo válido e resolva a ficha. Confira também uma situação em que ela deve falhar, como falta de requisito ou alvo fora do alcance.",
+        "x": 53.858,
+        "y": 637.093,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "O exemplo de Fio de Arrasto mostra as regras necessárias a cada escolha. Depois dele, as seções de [Famílias](#fundamento--familias), [Pontos e preços](#fundamento--pontos), [Funções e saldo](#fundamento--funcoes) e [Formas](#fundamento--formas) permitem consultar outras opções.",
+        "x": 53.858,
+        "y": 592.293,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "O exemplo de Fio de Arrasto mostra as regras necessárias a cada escolha. Depois dele, as seções de [Famílias](#fundamento--familias), [Pontos e preços](#fundamento--pontos), [Funções e saldo](#fundamento--funcoes) e [Formas](#fundamento--formas) permitem consultar outras opções.",
+        "x": 53.858,
+        "y": 580.293,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "Para uma capacidade ausente, consulte [Efeitos próprios](#fundamento--proprio). Ali você acompanha uma proposta de transporte por plataforma, com comparação, preço combinado e limites. A aparência escolhida para um efeito conserva as permissões das peças compradas.",
+        "x": 53.858,
+        "y": 509.093,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--selo",
+        "texto": "Para uma capacidade ausente, consulte [Efeitos próprios](#fundamento--proprio). Ali você acompanha uma proposta de transporte por plataforma, com comparação, preço combinado e limites. A aparência escolhida para um efeito conserva as permissões das peças compradas.",
+        "x": 53.858,
+        "y": 497.093,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "h2",
+        "bloco": "fundamento--primeiro",
+        "texto": "Seu primeiro feitiço",
+        "x": 53.858,
+        "y": 474.093,
+        "largura": 233.858,
+        "altura": 26
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "h2",
+        "bloco": "fundamento--primeiro",
+        "texto": "Seu primeiro feitiço",
+        "x": 53.858,
+        "y": 462.093,
+        "largura": 233.858,
+        "altura": 26
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei está no nível 2. Sua técnica, **Fios de Tensão**, permite cortar e deslocar criaturas. Ela quer montar **Fio de Arrasto** para cortar um inimigo distante e puxá-lo para o lado. A montagem ocupa um dos seus três espaços comuns.",
+        "x": 53.858,
+        "y": 401.093,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei está no nível 2. Sua técnica, **Fios de Tensão**, permite cortar e deslocar criaturas. Ela quer montar **Fio de Arrasto** para cortar um inimigo distante e puxá-lo para o lado. A montagem ocupa um dos seus três espaços comuns.",
+        "x": 53.858,
+        "y": 389.093,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Escolha a Classe",
+        "x": 53.858,
+        "y": 379.093,
+        "largura": 233.858,
+        "altura": 16
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Escolha a Classe",
+        "x": 53.858,
+        "y": 367.093,
+        "largura": 233.858,
+        "altura": 16
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "No nível 2, a maior Classe disponível para Mei é 1. Um feitiço dessa Classe começa com **3 pontos de montagem** e custa **3 PE a cada uso**. A ação normal para conjurá-lo é a **Ação Padrão**.",
+        "x": 53.858,
+        "y": 322.293,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "No nível 2, a maior Classe disponível para Mei é 1. Um feitiço dessa Classe começa com **3 pontos de montagem** e custa **3 PE a cada uso**. A ação normal para conjurá-lo é a **Ação Padrão**.",
+        "x": 53.858,
+        "y": 310.293,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Defina as funções",
+        "x": 53.858,
+        "y": 298.293,
+        "largura": 233.858,
+        "altura": 16
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Defina as funções",
+        "x": 53.858,
+        "y": 286.293,
+        "largura": 233.858,
+        "altura": 16
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei escolhe **dano e deslocamento do alvo**. Dano tem base de custo zero; cada ponto destinado a essa função produz **1d8**. O deslocamento será obtido pela Melhoria Empurrão, que informa sua própria distância.",
+        "x": 53.858,
+        "y": 228.293,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei escolhe **dano e deslocamento do alvo**. Dano tem base de custo zero; cada ponto destinado a essa função produz **1d8**. O deslocamento será obtido pela Melhoria Empurrão, que informa sua própria distância.",
+        "x": 53.858,
+        "y": 216.293,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Escolha a Forma",
+        "x": 53.858,
+        "y": 204.293,
+        "largura": 233.858,
+        "altura": 16
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "h3",
+        "bloco": "fundamento--primeiro",
+        "texto": "Escolha a Forma",
+        "x": 53.858,
+        "y": 192.293,
+        "largura": 233.858,
+        "altura": 16
+      }
+    },
+    {
+      "antes": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei escolhe **Projétil**, uma Forma de custo zero que alcança um alvo a até **18 m** nas Classes 1 a 5. O fio é a aparência dessa aplicação. Nesta ficha, ela fará um ataque de conjuração contra a Defesa do inimigo para aplicar os efeitos.",
+        "x": 53.858,
+        "y": 134.293,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 255,
+        "tipo": "body",
+        "bloco": "fundamento--primeiro",
+        "texto": "Mei escolhe **Projétil**, uma Forma de custo zero que alcança um alvo a até **18 m** nas Classes 1 a 5. O fio é a aparência dessa aplicação. Nesta ficha, ela fará um ataque de conjuração contra a Defesa do inimigo para aplicar os efeitos.",
+        "x": 53.858,
+        "y": 122.293,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Rajada e Mais Um **dividem a quantidade de dados disponível**. Mais Um também divide cura e vida temporária e só replica os benefícios expressamente autorizados na entrada. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro de Rajada precisa de pelo menos um dado. Mais Um pode alcançar um alvo sem dano para aplicar outro efeito válido, conforme sua entrada. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz três ataques de 6d8.",
+        "x": 307.559,
+        "y": 613.493,
+        "largura": 233.858,
+        "altura": 145.2
+      },
+      "depois": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Rajada e Mais Um **dividem a quantidade de dados disponível**. Mais Um também divide cura e vida temporária e só replica os benefícios expressamente autorizados na entrada. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro de Rajada precisa de pelo menos um dado. Mais Um pode alcançar um alvo sem dano para aplicar outro efeito válido, conforme sua entrada. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz três ataques de 6d8.",
+        "x": 307.559,
+        "y": 601.493,
+        "largura": 233.858,
+        "altura": 145.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 273,
+        "tipo": "h3",
+        "bloco": "fundamento--danolimites",
+        "texto": "Dados adicionais da própria montagem",
+        "x": 307.559,
+        "y": 583.493,
+        "largura": 233.858,
+        "altura": 22
+      },
+      "depois": {
+        "pagina": 273,
+        "tipo": "h3",
+        "bloco": "fundamento--danolimites",
+        "texto": "Dados adicionais da própria montagem",
+        "x": 307.559,
+        "y": 571.493,
+        "largura": 233.858,
+        "altura": 22
+      }
+    },
+    {
+      "antes": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Primeiro, calcule os dados iniciais pelo saldo de pontos da montagem. Depois, confira o dano adicional: Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam, e a soma dos dados iniciais com esses acréscimos não pode passar de **4 × Classe em d8**. Esse teto serve para conferir o total; não aumenta o saldo de pontos nem concede dados por conta própria. Remate também entra nessa conferência: 8d8 com aumento de 25% equivale a 10d8 para o limite. Se o total ultrapassar o teto, reduza os dados iniciais e refaça a conta até caber. Essa redução não devolve pontos para comprar peças. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área.",
+        "x": 307.559,
+        "y": 379.493,
+        "largura": 233.858,
+        "altura": 198.0
+      },
+      "depois": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Primeiro, calcule os dados iniciais pelo saldo de pontos da montagem. Depois, confira o dano adicional: Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam, e a soma dos dados iniciais com esses acréscimos não pode passar de **4 × Classe em d8**. Esse teto serve para conferir o total; não aumenta o saldo de pontos nem concede dados por conta própria. Remate também entra nessa conferência: 8d8 com aumento de 25% equivale a 10d8 para o limite. Se o total ultrapassar o teto, reduza os dados iniciais e refaça a conta até caber. Essa redução não devolve pontos para comprar peças. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área.",
+        "x": 307.559,
+        "y": 367.493,
+        "largura": 233.858,
+        "altura": 198.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Uma repetição de dano não repete deslocamentos, condições, marcas ou outras Melhorias. **Salto e Estilhaço geram, cada um, um único efeito secundário por conjuração**, mesmo quando a área inicial alcança vários alvos. Depois da resolução inicial, escolha um dos alvos que cumpriram o gatilho como origem. O secundário não ativa outra repetição nem os benefícios que dependam de realizar ou acertar um novo ataque. Também não causa crítico.",
+        "x": 307.559,
+        "y": 243.493,
+        "largura": 233.858,
+        "altura": 132.0
+      },
+      "depois": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "Uma repetição de dano não repete deslocamentos, condições, marcas ou outras Melhorias. **Salto e Estilhaço geram, cada um, um único efeito secundário por conjuração**, mesmo quando a área inicial alcança vários alvos. Depois da resolução inicial, escolha um dos alvos que cumpriram o gatilho como origem. O secundário não ativa outra repetição nem os benefícios que dependam de realizar ou acertar um novo ataque. Também não causa crítico.",
+        "x": 307.559,
+        "y": 231.493,
+        "largura": 233.858,
+        "altura": 132.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "**Acúmulo conserva sua exceção:** o bônus de até três dados obtido por usos em rodadas seguidas pode ultrapassar esse limite. Ele não aumenta o dano do primeiro uso. Críticos e defesas também seguem suas regras próprias, fora do preço de montagem.",
+        "x": 307.559,
+        "y": 173.493,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 273,
+        "tipo": "body",
+        "bloco": "fundamento--danolimites",
+        "texto": "**Acúmulo conserva sua exceção:** o bônus de até três dados obtido por usos em rodadas seguidas pode ultrapassar esse limite. Ele não aumenta o dano do primeiro uso. Críticos e defesas também seguem suas regras próprias, fora do preço de montagem.",
+        "x": 307.559,
+        "y": 161.493,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "note",
+        "bloco": "fundamento--danolimites",
+        "texto": "**Exemplo.** Classe 2 dá 6 pontos. Projétil + Salto, de preço normal, gasta 2; Gesto devolve 1. São **5d8** no primeiro alvo. Salto acrescenta metade, arredondada para baixo: **2d8** no outro inimigo mais próximo a até 9 m do primeiro. Escolha entre os empatados. O total soma **7d8**, dentro do limite 8. Depois de acertar o primeiro alvo, resolva um novo ataque contra o segundo, usando o mesmo bônus. Ele pode errar normalmente. Se a ficha usar TR, o salto exige a falha inicial e o segundo alvo faz seu próprio TR. O segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 1,5 m de você.",
+        "x": 53.858,
+        "y": 604.293,
+        "largura": 233.858,
+        "altura": 150.4
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "note",
+        "bloco": "fundamento--danolimites",
+        "texto": "**Exemplo.** Classe 2 dá 6 pontos. Projétil + Salto, de preço normal, gasta 2; Gesto devolve 1. São **5d8** no primeiro alvo. Salto acrescenta metade, arredondada para baixo: **2d8** no outro inimigo mais próximo a até 9 m do primeiro. Escolha entre os empatados. O total soma **7d8**, dentro do limite 8. Depois de acertar o primeiro alvo, resolva um novo ataque contra o segundo, usando o mesmo bônus. Ele pode errar normalmente. Se a ficha usar TR, o salto exige a falha inicial e o segundo alvo faz seu próprio TR. O segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 1,5 m de você.",
+        "x": 53.858,
+        "y": 592.293,
+        "largura": 233.858,
+        "altura": 150.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "h2",
+        "bloco": "fundamento--persistente",
+        "texto": "Áreas persistentes",
+        "x": 53.858,
+        "y": 566.293,
+        "largura": 233.858,
+        "altura": 26
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "h2",
+        "bloco": "fundamento--persistente",
+        "texto": "Áreas persistentes",
+        "x": 53.858,
+        "y": 554.293,
+        "largura": 233.858,
+        "altura": 26
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Uma área de dano instantânea se encerra depois da resolução. Para mantê-la no cenário, compre **Fica**. Terreno difícil e uma parede criada têm durações próprias. Não repetem dano por permanecerem no mapa.",
+        "x": 53.858,
+        "y": 493.293,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Uma área de dano instantânea se encerra depois da resolução. Para mantê-la no cenário, compre **Fica**. Terreno difícil e uma parede criada têm durações próprias. Não repetem dano por permanecerem no mapa.",
+        "x": 53.858,
+        "y": 481.293,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "h3",
+        "bloco": "fundamento--persistente",
+        "texto": "Duração e resolução",
+        "x": 53.858,
+        "y": 465.293,
+        "largura": 233.858,
+        "altura": 22
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "h3",
+        "bloco": "fundamento--persistente",
+        "texto": "Duração e resolução",
+        "x": 53.858,
+        "y": 453.293,
+        "largura": 233.858,
+        "altura": 22
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Fica mantém a área por **1 minuto**, com concentração. Cada criatura recebe **no máximo uma aplicação por rodada**, incluindo a inicial. Depois, quem entrar nela ou começar o turno nela leva metade dos dados de dano, arredondada para baixo.",
+        "x": 53.858,
+        "y": 380.093,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Fica mantém a área por **1 minuto**, com concentração. Cada criatura recebe **no máximo uma aplicação por rodada**, incluindo a inicial. Depois, quem entrar nela ou começar o turno nela leva metade dos dados de dano, arredondada para baixo.",
+        "x": 53.858,
+        "y": 368.093,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "h3",
+        "bloco": "fundamento--persistente",
+        "texto": "Exemplo de permanência",
+        "x": 53.858,
+        "y": 350.093,
+        "largura": 233.858,
+        "altura": 22
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "h3",
+        "bloco": "fundamento--persistente",
+        "texto": "Exemplo de permanência",
+        "x": 53.858,
+        "y": 338.093,
+        "largura": 233.858,
+        "altura": 22
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Para este exemplo, uma técnica com Área Livre monta **Aura de Classe 5 e Fica**. Aura custa 3. Fica tem preço Médio, de 5, e recebe desconto de 3: custa 2. Sem Restrições, o saldo **15 − 3 − 2 = 10** fornece 10d8 de dano inicial. É uma Melhoria, com Ação Padrão e 15 PE por conjuração.",
+        "x": 53.858,
+        "y": 264.893,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "Para este exemplo, uma técnica com Área Livre monta **Aura de Classe 5 e Fica**. Aura custa 3. Fica tem preço Médio, de 5, e recebe desconto de 3: custa 2. Sem Restrições, o saldo **15 − 3 − 2 = 10** fornece 10d8 de dano inicial. É uma Melhoria, com Ação Padrão e 15 PE por conjuração.",
+        "x": 53.858,
+        "y": 252.893,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "A área é criada na rodada 2 e permanece naquele lugar. Fica usa **metade de 10, ou 5d8**, nas resoluções posteriores. Um inimigo permanece na região durante toda a duração:",
+        "x": 53.858,
+        "y": 208.093,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "A área é criada na rodada 2 e permanece naquele lugar. Fica usa **metade de 10, ou 5d8**, nas resoluções posteriores. Um inimigo permanece na região durante toda a duração:",
+        "x": 53.858,
+        "y": 196.093,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "table",
+        "bloco": "fundamento--persistente",
+        "texto": [
+          [
+            "Rodada",
+            "O que acontece",
+            "Resolução para esse inimigo"
+          ],
+          [
+            "2",
+            "Está na área quando ela surge.",
+            "Recebe a resolução inicial de 10d8. Não recebe outra nesta rodada."
+          ],
+          [
+            "3",
+            "Começa seu turno dentro dela.",
+            "Resolve os 5d8 persistentes. Sair e entrar de novo não repete."
+          ],
+          [
+            "4",
+            "Começa seu turno dentro dela.",
+            "Recebe os 5d8 persistentes, uma vez na rodada."
+          ],
+          [
+            "5 a 11",
+            "Entra ou começa o turno na área.",
+            "Uma aplicação de 5d8 em cada rodada."
+          ],
+          [
+            "12",
+            "Completa-se um minuto desde a conjuração.",
+            "Fica termina no mesmo ponto da iniciativa em que começou."
+          ]
+        ],
+        "x": 307.559,
+        "y": 479.193,
+        "largura": 233.858,
+        "altura": 273.5
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "table",
+        "bloco": "fundamento--persistente",
+        "texto": [
+          [
+            "Rodada",
+            "O que acontece",
+            "Resolução para esse inimigo"
+          ],
+          [
+            "2",
+            "Está na área quando ela surge.",
+            "Recebe a resolução inicial de 10d8. Não recebe outra nesta rodada."
+          ],
+          [
+            "3",
+            "Começa seu turno dentro dela.",
+            "Resolve os 5d8 persistentes. Sair e entrar de novo não repete."
+          ],
+          [
+            "4",
+            "Começa seu turno dentro dela.",
+            "Recebe os 5d8 persistentes, uma vez na rodada."
+          ],
+          [
+            "5 a 11",
+            "Entra ou começa o turno na área.",
+            "Uma aplicação de 5d8 em cada rodada."
+          ],
+          [
+            "12",
+            "Completa-se um minuto desde a conjuração.",
+            "Fica termina no mesmo ponto da iniciativa em que começou."
+          ]
+        ],
+        "x": 307.559,
+        "y": 467.193,
+        "largura": 233.858,
+        "altura": 273.5
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "A perda de concentração encerra a área antes desse prazo. Conte separadamente as aplicações recebidas por cada criatura, respeitando o máximo de uma resolução por rodada para cada uma.",
+        "x": 307.559,
+        "y": 417.393,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--persistente",
+        "texto": "A perda de concentração encerra a área antes desse prazo. Conte separadamente as aplicações recebidas por cada criatura, respeitando o máximo de uma resolução por rodada para cada uma.",
+        "x": 307.559,
+        "y": 405.393,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "h1",
+        "bloco": "fundamento--persistente",
+        "texto": "Usar a técnica fora de combate",
+        "x": 307.559,
+        "y": 357.393,
+        "largura": 233.858,
+        "altura": 48
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "h1",
+        "bloco": "fundamento--persistente",
+        "texto": "Usar a técnica fora de combate",
+        "x": 307.559,
+        "y": 345.393,
+        "largura": 233.858,
+        "altura": 48
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "h2",
+        "bloco": "fundamento--livre",
+        "texto": "Uso Livre",
+        "x": 307.559,
+        "y": 320.393,
+        "largura": 233.858,
+        "altura": 26
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "h2",
+        "bloco": "fundamento--livre",
+        "texto": "Uso Livre",
+        "x": 307.559,
+        "y": 308.393,
+        "largura": 233.858,
+        "altura": 26
+      }
+    },
+    {
+      "antes": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--livre",
+        "texto": "Pequenas manifestações da técnica podem acontecer sem preparar um feitiço ou gastar PE. Elas precisam caber na Regra e não podem conceder o resultado de uma regra mecânica sem pagar por ele.",
+        "x": 307.559,
+        "y": 247.393,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 274,
+        "tipo": "body",
+        "bloco": "fundamento--livre",
+        "texto": "Pequenas manifestações da técnica podem acontecer sem preparar um feitiço ou gastar PE. Elas precisam caber na Regra e não podem conceder o resultado de uma regra mecânica sem pagar por ele.",
+        "x": 307.559,
+        "y": 235.393,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 276,
+        "tipo": "note",
+        "bloco": "fundamento--efeito",
+        "texto": "**Luz de Oficina.** Uma técnica de luz prepara uma aplicação de Efeito fora de combate de Classe 2 para iluminar um cômodo grande por 10 minutos. Cada uso custa Ação Padrão e 6 PE. A ficha oferece iluminação comum e mantém os procedimentos usuais de visão, incluindo ocultação sobrenatural. Para cegar alguém ou conceder um bônus, seria necessário adquirir o efeito correspondente. Os 6 pontos disponíveis ficam sem uso, pois essa montagem dispensa Melhorias.",
+        "x": 307.559,
+        "y": 628.693,
+        "largura": 233.858,
+        "altura": 126.0
+      },
+      "depois": {
+        "pagina": 276,
+        "tipo": "note",
+        "bloco": "fundamento--efeito",
+        "texto": "**Luz de Oficina.** Uma técnica de luz prepara uma aplicação de Efeito fora de combate de Classe 2 para iluminar um cômodo grande por 10 minutos. Cada uso custa Ação Padrão e 6 PE. A ficha oferece iluminação comum e mantém os procedimentos usuais de visão, incluindo ocultação sobrenatural. Para cegar alguém ou conceder um bônus, seria necessário adquirir o efeito correspondente. Os 6 pontos disponíveis ficam sem uso, pois essa montagem dispensa Melhorias.",
+        "x": 307.559,
+        "y": 616.693,
+        "largura": 233.858,
+        "altura": 126.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 276,
+        "tipo": "h1",
+        "bloco": "fundamento--efeito",
+        "texto": "Desenvolver suas aplicações",
+        "x": 307.559,
+        "y": 565.693,
+        "largura": 233.858,
+        "altura": 48
+      },
+      "depois": {
+        "pagina": 276,
+        "tipo": "h1",
+        "bloco": "fundamento--efeito",
+        "texto": "Desenvolver suas aplicações",
+        "x": 307.559,
+        "y": 553.693,
+        "largura": 233.858,
+        "altura": 48
+      }
+    },
+    {
+      "antes": {
+        "pagina": 276,
+        "tipo": "h2",
+        "bloco": "fundamento--ampliar",
+        "texto": "Ampliar um feitiço",
+        "x": 307.559,
+        "y": 528.693,
+        "largura": 233.858,
+        "altura": 26
+      },
+      "depois": {
+        "pagina": 276,
+        "tipo": "h2",
+        "bloco": "fundamento--ampliar",
+        "texto": "Ampliar um feitiço",
+        "x": 307.559,
+        "y": 516.693,
+        "largura": 233.858,
+        "altura": 26
+      }
+    },
+    {
+      "antes": {
+        "pagina": 276,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Você pode **Ampliar** um feitiço conhecido para usá-lo em uma Classe maior, até sua Classe máxima. Calcule os preços e as devoluções pela Classe escolhida e pague o PE correspondente. A versão ampliada ocupa o mesmo espaço do feitiço original.",
+        "x": 307.559,
+        "y": 442.493,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 276,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Você pode **Ampliar** um feitiço conhecido para usá-lo em uma Classe maior, até sua Classe máxima. Calcule os preços e as devoluções pela Classe escolhida e pague o PE correspondente. A versão ampliada ocupa o mesmo espaço do feitiço original.",
+        "x": 307.559,
+        "y": 430.493,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 276,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Ao Ampliar, conserve a Forma e todas as compras da ficha, incluindo suas Restrições. O TR e os efeitos escolhidos também permanecem. Atualize os valores que dependem da Classe, respeitando o limite de cada efeito. As vagas adicionais de Melhoria de uma Classe maior ficam sem uso nessa ampliação.",
+        "x": 307.559,
+        "y": 346.093,
+        "largura": 233.858,
+        "altura": 92.4
+      },
+      "depois": {
+        "pagina": 276,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Ao Ampliar, conserve a Forma e todas as compras da ficha, incluindo suas Restrições. O TR e os efeitos escolhidos também permanecem. Atualize os valores que dependem da Classe, respeitando o limite de cada efeito. As vagas adicionais de Melhoria de uma Classe maior ficam sem uso nessa ampliação.",
+        "x": 307.559,
+        "y": 334.093,
+        "largura": 233.858,
+        "altura": 92.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "3. Distribua o saldo entre as mesmas funções. Cada ponto produz um dado de dano, um dado de cura ou três pontos de vida temporária, conforme seu destino.",
+        "x": 307.559,
+        "y": 486.493,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "3. Distribua o saldo entre as mesmas funções. Cada ponto produz um dado de dano, um dado de cura ou três pontos de vida temporária, conforme seu destino.",
+        "x": 307.559,
+        "y": 474.493,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "4. Registre os resultados. Toda função variável precisa receber pelo menos um ponto; se isso não couber, essa versão da mescla é inválida. Pontos excedentes podem ficar sem uso.",
+        "x": 307.559,
+        "y": 429.693,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "4. Registre os resultados. Toda função variável precisa receber pelo menos um ponto; se isso não couber, essa versão da mescla é inválida. Pontos excedentes podem ficar sem uso.",
+        "x": 307.559,
+        "y": 417.693,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "A proporção pode ser diferente entre as linhas preparadas. Ela fica fixa em cada linha: não se troca cura por dano durante a conjuração, nem se transfere automaticamente uma sobra que exceda um teto. Mais Um ainda permite repartir a quantidade de uma função entre seus alvos, antes de rolar.",
+        "x": 307.559,
+        "y": 333.293,
+        "largura": 233.858,
+        "altura": 92.4
+      },
+      "depois": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "A proporção pode ser diferente entre as linhas preparadas. Ela fica fixa em cada linha: não se troca cura por dano durante a conjuração, nem se transfere automaticamente uma sobra que exceda um teto. Mais Um ainda permite repartir a quantidade de uma função entre seus alvos, antes de rolar.",
+        "x": 307.559,
+        "y": 321.293,
+        "largura": 233.858,
+        "altura": 92.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Quando um feitiço tem uma única função variável, aplique o saldo normalmente; a tabela é opcional. Um feitiço com saldo zero pode produzir os efeitos das Melhorias compradas, como Impulso. Registre dano ou cura somente quando houver pontos destinados a essas funções.",
+        "x": 307.559,
+        "y": 250.093,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Quando um feitiço tem uma única função variável, aplique o saldo normalmente; a tabela é opcional. Um feitiço com saldo zero pode produzir os efeitos das Melhorias compradas, como Impulso. Registre dano ou cura somente quando houver pontos destinados a essas funções.",
+        "x": 307.559,
+        "y": 238.093,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Prepare novas linhas antes da sessão. Para alterar uma linha existente, siga a regra normal de revisão da ficha. A distribuição registrada permanece durante o uso. Feitiços de Classe 0 e aplicações máximas seguem seus próprios procedimentos.",
+        "x": 307.559,
+        "y": 180.093,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 277,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Prepare novas linhas antes da sessão. Para alterar uma linha existente, siga a regra normal de revisão da ficha. A distribuição registrada permanece durante o uso. Feitiços de Classe 0 e aplicações máximas seguem seus próprios procedimentos.",
+        "x": 307.559,
+        "y": 168.093,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 278,
+        "tipo": "table",
+        "bloco": "fundamento--ampliar",
+        "texto": [
+          [
+            "Classe e PE",
+            "Conta do saldo",
+            "Dano",
+            "Cura"
+          ],
+          [
+            "3; 9 PE",
+            "9 − base 3 − Mais Um 2 = 4",
+            "2d8",
+            "2d8"
+          ],
+          [
+            "4; 12 PE",
+            "12 − base 4 − Mais Um 2 = 6",
+            "4d8",
+            "2d8"
+          ],
+          [
+            "5; 15 PE",
+            "15 − base 5 − Mais Um 3 = 7",
+            "5d8",
+            "2d8"
+          ]
+        ],
+        "x": 53.858,
+        "y": 591.193,
+        "largura": 233.858,
+        "altura": 161.5
+      },
+      "depois": {
+        "pagina": 278,
+        "tipo": "table",
+        "bloco": "fundamento--ampliar",
+        "texto": [
+          [
+            "Classe e PE",
+            "Conta do saldo",
+            "Dano",
+            "Cura"
+          ],
+          [
+            "3; 9 PE",
+            "9 − base 3 − Mais Um 2 = 4",
+            "2d8",
+            "2d8"
+          ],
+          [
+            "4; 12 PE",
+            "12 − base 4 − Mais Um 2 = 6",
+            "4d8",
+            "2d8"
+          ],
+          [
+            "5; 15 PE",
+            "15 − base 5 − Mais Um 3 = 7",
+            "5d8",
+            "2d8"
+          ]
+        ],
+        "x": 53.858,
+        "y": 579.193,
+        "largura": 233.858,
+        "altura": 161.5
+      }
+    },
+    {
+      "antes": {
+        "pagina": 278,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais Um Leve, sem descontos ou Restrições. Você pode escolher outra distribuição para sua ficha, respeitando as funções e seus limites. Registre antes da sessão os valores de cada Classe que pretende usar.",
+        "x": 53.858,
+        "y": 502.993,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 278,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais Um Leve, sem descontos ou Restrições. Você pode escolher outra distribuição para sua ficha, respeitando as funções e seus limites. Registre antes da sessão os valores de cada Classe que pretende usar.",
+        "x": 53.858,
+        "y": 490.993,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 278,
+        "tipo": "h3",
+        "bloco": "fundamento--ampliar",
+        "texto": "Nova versão",
+        "x": 53.858,
+        "y": 472.993,
+        "largura": 233.858,
+        "altura": 22
+      },
+      "depois": {
+        "pagina": 278,
+        "tipo": "h3",
+        "bloco": "fundamento--ampliar",
+        "texto": "Nova versão",
+        "x": 53.858,
+        "y": 460.993,
+        "largura": 233.858,
+        "altura": 22
+      }
+    },
+    {
+      "antes": {
+        "pagina": 278,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Trocar Projétil por Explosão, acrescentar uma condição ou mudar o TR é criar outra montagem. Use outro espaço disponível ou a reescrita permitida ao subir de nível. Feitiços de Classe 0 seguem sua própria progressão e não usam esta conta de ampliação.",
+        "x": 53.858,
+        "y": 387.793,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 278,
+        "tipo": "body",
+        "bloco": "fundamento--ampliar",
+        "texto": "Trocar Projétil por Explosão, acrescentar uma condição ou mudar o TR é criar outra montagem. Use outro espaço disponível ou a reescrita permitida ao subir de nível. Feitiços de Classe 0 seguem sua própria progressão e não usam esta conta de ampliação.",
+        "x": 53.858,
+        "y": 375.793,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Paredes e barreiras impedem o percurso; os perigos da passagem usam suas regras normais. A capacidade atende uma aliada por aplicação. Alterar distâncias ou quantidade exige permissão expressa da ficha ou nova avaliação com o mestre.",
+        "x": 307.559,
+        "y": 692.693,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Paredes e barreiras impedem o percurso; os perigos da passagem usam suas regras normais. A capacidade atende uma aliada por aplicação. Alterar distâncias ou quantidade exige permissão expressa da ficha ou nova avaliação com o mestre.",
+        "x": 307.559,
+        "y": 680.693,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Montagem de Classe 3.** Projétil (0) e a Melhoria própria Média (3) deixam saldo **9 − 0 − 3 = 6**, descartado. A ficha entrega somente o transporte definido, sem efeitos ou metros adicionais pela sobra. É uma Melhoria, nenhuma Restrição e **Ação Padrão e 9 PE** por uso, com o Selo da técnica.",
+        "x": 307.559,
+        "y": 609.493,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Montagem de Classe 3.** Projétil (0) e a Melhoria própria Média (3) deixam saldo **9 − 0 − 3 = 6**, descartado. A ficha entrega somente o transporte definido, sem efeitos ou metros adicionais pela sobra. É uma Melhoria, nenhuma Restrição e **Ação Padrão e 9 PE** por uso, com o Selo da técnica.",
+        "x": 307.559,
+        "y": 597.493,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Conferência.** Uma aliada a 6 m pode atravessar um vão de 3 m até um apoio válido. Se a chegada estiver ocupada ou exigir terminar suspensa no ar, essa proposta não permite o transporte. A ficha precisa conter as condições e os limites acordados antes do uso.",
+        "x": 307.559,
+        "y": 526.293,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Conferência.** Uma aliada a 6 m pode atravessar um vão de 3 m até um apoio válido. Se a chegada estiver ocupada ou exigir terminar suspensa no ar, essa proposta não permite o transporte. A ficha precisa conter as condições e os limites acordados antes do uso.",
+        "x": 307.559,
+        "y": 514.293,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "h3",
+        "bloco": "fundamento--proprio",
+        "texto": "Registro e repetição",
+        "x": 307.559,
+        "y": 502.293,
+        "largura": 233.858,
+        "altura": 16
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "h3",
+        "bloco": "fundamento--proprio",
+        "texto": "Registro e repetição",
+        "x": 307.559,
+        "y": 490.293,
+        "largura": 233.858,
+        "altura": 16
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Antes de jogar, confira se a regra aprovada permite resolver a aplicação. Guarde sua comparação e justificativa de preço. Recursos e ações concedidos precisam estar definidos e pagos.",
+        "x": 307.559,
+        "y": 445.493,
+        "largura": 233.858,
+        "altura": 52.8
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Antes de jogar, confira se a regra aprovada permite resolver a aplicação. Guarde sua comparação e justificativa de preço. Recursos e ações concedidos precisam estar definidos e pagos.",
+        "x": 307.559,
+        "y": 433.493,
+        "largura": 233.858,
+        "altura": 52.8
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.",
+        "x": 307.559,
+        "y": 362.293,
+        "largura": 233.858,
+        "altura": 79.2
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.",
+        "x": 307.559,
+        "y": 350.293,
+        "largura": 233.858,
+        "altura": 79.2
+      }
+    },
+    {
+      "antes": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.",
+        "x": 307.559,
+        "y": 252.693,
+        "largura": 233.858,
+        "altura": 105.6
+      },
+      "depois": {
+        "pagina": 279,
+        "tipo": "body",
+        "bloco": "fundamento--proprio",
+        "texto": "Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.",
+        "x": 307.559,
+        "y": 240.693,
+        "largura": 233.858,
+        "altura": 105.6
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "5. Os efeitos contínuos dizem quando terminam e como alguém pode interrompê-los?",
+        "x": 307.559,
+        "y": 732.293,
+        "largura": 233.858,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "5. Os efeitos contínuos dizem quando terminam e como alguém pode interrompê-los?",
+        "x": 307.559,
+        "y": 720.293,
+        "largura": 233.858,
+        "altura": 26.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "6. Você conferiu a aplicação na Classe em que vai usá-la e a vaga ocupada na ficha?",
+        "x": 307.559,
+        "y": 701.893,
+        "largura": 233.858,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "6. Você conferiu a aplicação na Classe em que vai usá-la e a vaga ocupada na ficha?",
+        "x": 307.559,
+        "y": 689.893,
+        "largura": 233.858,
+        "altura": 26.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "Faça uma utilização de exemplo com o mestre: escolha um alvo, pague o recurso e resolva o resultado. Depois teste uma situação em que a ficha não deve funcionar, como alvo além do alcance ou falta de requisito.",
+        "x": 307.559,
+        "y": 631.893,
+        "largura": 233.858,
+        "altura": 66.0
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "Faça uma utilização de exemplo com o mestre: escolha um alvo, pague o recurso e resolva o resultado. Depois teste uma situação em que a ficha não deve funcionar, como alvo além do alcance ou falta de requisito.",
+        "x": 307.559,
+        "y": 619.893,
+        "largura": 233.858,
+        "altura": 66.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "Guarde a versão conferida. Se uma mudança de regra exigir corrigir a montagem, atualize a ficha junto do registro da alteração.",
+        "x": 307.559,
+        "y": 588.293,
+        "largura": 233.858,
+        "altura": 39.6
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--ficha",
+        "texto": "Guarde a versão conferida. Se uma mudança de regra exigir corrigir a montagem, atualize a ficha junto do registro da alteração.",
+        "x": 307.559,
+        "y": 576.293,
+        "largura": 233.858,
+        "altura": 39.6
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "h2",
+        "bloco": "fundamento--interfaces",
+        "texto": "Caminhos e usos especiais",
+        "x": 53.858,
+        "y": 553.293,
+        "largura": 487.559,
+        "altura": 26
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "h2",
+        "bloco": "fundamento--interfaces",
+        "texto": "Caminhos e usos especiais",
+        "x": 53.858,
+        "y": 541.293,
+        "largura": 487.559,
+        "altura": 26
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Algumas capacidades alteram uma montagem ou copiam uma parcela dela. Consulte a regra da origem antes de aplicar essas exceções:",
+        "x": 53.858,
+        "y": 519.893,
+        "largura": 487.559,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Algumas capacidades alteram uma montagem ou copiam uma parcela dela. Consulte a regra da origem antes de aplicar essas exceções:",
+        "x": 53.858,
+        "y": 507.893,
+        "largura": 487.559,
+        "altura": 26.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "table",
+        "bloco": "fundamento--interfaces",
+        "texto": [
+          [
+            "Capacidade e origem",
+            "Acesso",
+            "Relação com a montagem"
+          ],
+          [
+            "[Compartilhamento, de Ritual](#ritual--rit-parcelas)",
+            "Ritual exige nível 10, Inteligência 5 e Técnica Inata.",
+            "Copia para um aliado adicional a parcela de cura ou vida temporária individual de uma única origem e seus benefícios. Com Mais Um, use uma das menores parcelas. Limites únicos permanecem; apoio coletivo fica fora da permissão."
+          ],
+          [
+            "[Remodelar, do Emanador](#emanador--ema-remodelar)",
+            "Desdobramento Técnico, nível 2.",
+            "Troca uma Melhoria por outra compatível, com os pagamentos da habilidade. Efeitos e Modificadores contam como Melhorias. Efeito Próprio permanece na ficha."
+          ],
+          [
+            "[Modulações Dominadas, do Emanador](#emanador--ema-modulacoes)",
+            "Escolhas nos níveis 2, 7, 15 e 23, com os requisitos de cada opção.",
+            "Forçar uma Modulação acrescenta a peça prevista pela opção e paga seu custo próprio. Divisão acrescenta Mais Um e usa sua repartição, inclusive numa aplicação sem dano."
+          ],
+          [
+            "[Expressões Familiares, do Emanador](#emanador--ema-familiares)",
+            "Nível 7.",
+            "Prepara versões alternativas de dois feitiços conhecidos, por Remodelagem, com efeitos, dados e custos registrados."
+          ],
+          [
+            "[Repertório Ampliado, da Invocação Principal](#evocador--ev-principal)",
+            "Trilha do Evocador, nível 2.",
+            "A ficha da principal tem cinco Famílias abertas, duas Livres, conforme os requisitos da Trilha. Use os descontos de entidade."
+          ],
+          [
+            "[Famílias do Conjunto, de Múltiplas Invocações](#evocador--ev-multiplas)",
+            "Trilha do Evocador, nível 2.",
+            "Cada invocação tem quatro Famílias abertas, uma Livre, conforme a Trilha. Use os descontos de entidade."
+          ]
+        ],
+        "x": 53.858,
+        "y": 219.893,
+        "largura": 487.559,
+        "altura": 292.0
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "table",
+        "bloco": "fundamento--interfaces",
+        "texto": [
+          [
+            "Capacidade e origem",
+            "Acesso",
+            "Relação com a montagem"
+          ],
+          [
+            "[Compartilhamento, de Ritual](#ritual--rit-parcelas)",
+            "Ritual exige nível 10, Inteligência 5 e Técnica Inata.",
+            "Copia para um aliado adicional a parcela de cura ou vida temporária individual de uma única origem e seus benefícios. Com Mais Um, use uma das menores parcelas. Limites únicos permanecem; apoio coletivo fica fora da permissão."
+          ],
+          [
+            "[Remodelar, do Emanador](#emanador--ema-remodelar)",
+            "Desdobramento Técnico, nível 2.",
+            "Troca uma Melhoria por outra compatível, com os pagamentos da habilidade. Efeitos e Modificadores contam como Melhorias. Efeito Próprio permanece na ficha."
+          ],
+          [
+            "[Modulações Dominadas, do Emanador](#emanador--ema-modulacoes)",
+            "Escolhas nos níveis 2, 7, 15 e 23, com os requisitos de cada opção.",
+            "Forçar uma Modulação acrescenta a peça prevista pela opção e paga seu custo próprio. Divisão acrescenta Mais Um e usa sua repartição, inclusive numa aplicação sem dano."
+          ],
+          [
+            "[Expressões Familiares, do Emanador](#emanador--ema-familiares)",
+            "Nível 7.",
+            "Prepara versões alternativas de dois feitiços conhecidos, por Remodelagem, com efeitos, dados e custos registrados."
+          ],
+          [
+            "[Repertório Ampliado, da Invocação Principal](#evocador--ev-principal)",
+            "Trilha do Evocador, nível 2.",
+            "A ficha da principal tem cinco Famílias abertas, duas Livres, conforme os requisitos da Trilha. Use os descontos de entidade."
+          ],
+          [
+            "[Famílias do Conjunto, de Múltiplas Invocações](#evocador--ev-multiplas)",
+            "Trilha do Evocador, nível 2.",
+            "Cada invocação tem quatro Famílias abertas, uma Livre, conforme a Trilha. Use os descontos de entidade."
+          ]
+        ],
+        "x": 53.858,
+        "y": 207.893,
+        "largura": 487.559,
+        "altura": 292.0
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Sem Técnica e Técnica Marcial não permitem aprender ou auxiliar Ritual. Uma alteração durante a conjuração também exige que qualquer peça própria já esteja definida e aprovada antes do uso.",
+        "x": 53.858,
+        "y": 186.493,
+        "largura": 487.559,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Sem Técnica e Técnica Marcial não permitem aprender ou auxiliar Ritual. Uma alteração durante a conjuração também exige que qualquer peça própria já esteja definida e aprovada antes do uso.",
+        "x": 53.858,
+        "y": 174.493,
+        "largura": 487.559,
+        "altura": 26.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "A redução de dados por Remodelagem conserva a opção de Controle registrada. Mantenha essa opção nas versões alternativas preparadas, respeitando as permissões da habilidade.",
+        "x": 53.858,
+        "y": 158.093,
+        "largura": 487.559,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "A redução de dados por Remodelagem conserva a opção de Controle registrada. Mantenha essa opção nas versões alternativas preparadas, respeitando as permissões da habilidade.",
+        "x": 53.858,
+        "y": 146.093,
+        "largura": 487.559,
+        "altura": 26.4
+      }
+    },
+    {
+      "antes": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Liberação Máxima e Técnica Máxima usam seus próprios orçamentos, ações e requisitos. Escolher ataque ou TR na montagem conserva a exigência de ataque de Rajada e não torna o resultado automático.",
+        "x": 53.858,
+        "y": 129.693,
+        "largura": 487.559,
+        "altura": 26.4
+      },
+      "depois": {
+        "pagina": 286,
+        "tipo": "body",
+        "bloco": "fundamento--interfaces",
+        "texto": "Liberação Máxima e Técnica Máxima usam seus próprios orçamentos, ações e requisitos. Escolher ataque ou TR na montagem conserva a exigência de ataque de Rajada e não torna o resultado automático.",
+        "x": 53.858,
+        "y": 117.693,
+        "largura": 487.559,
+        "altura": 26.4
+      }
+    }
+  ]
+}

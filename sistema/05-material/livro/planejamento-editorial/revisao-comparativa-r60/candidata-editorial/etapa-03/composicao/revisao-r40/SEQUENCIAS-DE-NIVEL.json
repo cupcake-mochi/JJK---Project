@@ -1,0 +1,830 @@
+{
+  "Bastião": [
+    {
+      "nivel": 2,
+      "habilidade": "Olhos Em Mim",
+      "bloco": "bastiao--bas-olhos"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Ataque Extra",
+      "bloco": "bastiao--bas-defesa"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Nem Um Arranhão",
+      "bloco": "bastiao--bas-defesa"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Ainda de Pé",
+      "bloco": "bastiao--bas-defesa"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Duro de Matar",
+      "bloco": "bastiao--bas-defesa"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Chega Mais",
+      "bloco": "bastiao--bas-aliados"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Passa Pra Mim",
+      "bloco": "bastiao--bas-aliados"
+    }
+  ],
+  "Muro": [
+    {
+      "nivel": 2,
+      "habilidade": "Alicerce",
+      "bloco": "bastiao--bas-muro"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Guarda-Costas",
+      "bloco": "bastiao--bas-muro"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Casca Grossa",
+      "bloco": "bastiao--bas-casca"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Inabalável",
+      "bloco": "bastiao--bas-casca"
+    }
+  ],
+  "Punho": [
+    {
+      "nivel": 2,
+      "habilidade": "Trocação Franca",
+      "bloco": "bastiao--bas-punho"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Mão Pesada",
+      "bloco": "bastiao--bas-mao"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Minha Vez",
+      "bloco": "bastiao--bas-mao"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Arrastão",
+      "bloco": "bastiao--bas-arrastao"
+    }
+  ],
+  "Combatente Amaldiçoado": [
+    {
+      "nivel": 2,
+      "habilidade": "Retaliação",
+      "bloco": "bastiao--bas-combatente"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Embalo",
+      "bloco": "bastiao--bas-combatente"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Oportunista",
+      "bloco": "bastiao--bas-oportunista"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Contra a Parede",
+      "bloco": "bastiao--bas-oportunista"
+    }
+  ],
+  "Vanguarda": [
+    {
+      "nivel": 2,
+      "habilidade": "Sequência de Condução",
+      "bloco": "vanguarda--van-sequencia"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Escola de Arma",
+      "bloco": "vanguarda--van-escola"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Ataque Extra",
+      "bloco": "vanguarda--van-avanco"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Execução Preparada",
+      "bloco": "vanguarda--van-avanco"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Não Cede",
+      "bloco": "vanguarda--van-avanco"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Persistência",
+      "bloco": "vanguarda--van-avanco"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Conclusão Dupla",
+      "bloco": "vanguarda--van-avanco"
+    }
+  ],
+  "Estocada": [
+    {
+      "nivel": 2,
+      "habilidade": "Compasso",
+      "bloco": "vanguarda--van-estocada"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Conclusões de feitiço",
+      "bloco": "vanguarda--van-feiticos"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Bote",
+      "bloco": "vanguarda--van-bote"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Ferrão",
+      "bloco": "vanguarda--van-bote"
+    }
+  ],
+  "Batedor": [],
+  "Batedor: Yumi": [
+    {
+      "nivel": 2,
+      "habilidade": "Soltura Preparada",
+      "bloco": "vanguarda--van-yumi"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Segunda Leitura",
+      "bloco": "vanguarda--van-yumi-avanco"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Soltura de Emergência",
+      "bloco": "vanguarda--van-yumi-avanco"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Última Leitura",
+      "bloco": "vanguarda--van-yumi-avanco"
+    }
+  ],
+  "Batedor: Besta": [
+    {
+      "nivel": 2,
+      "habilidade": "Virotes Cravados",
+      "bloco": "vanguarda--van-besta"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Consumir a Farpa",
+      "bloco": "vanguarda--van-besta-conclusoes"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Fixação Cruzada",
+      "bloco": "vanguarda--van-besta-avanco"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Preparação Remanescente",
+      "bloco": "vanguarda--van-besta-avanco"
+    }
+  ],
+  "Batedor: Arma de Fogo": [
+    {
+      "nivel": 2,
+      "habilidade": "Combate Irregular",
+      "bloco": "vanguarda--van-fogo"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Reorientar a Pressão",
+      "bloco": "vanguarda--van-fogo-conclusoes"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Romper o Contato",
+      "bloco": "vanguarda--van-fogo-avanco"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Plano de Continuidade",
+      "bloco": "vanguarda--van-fogo-avanco"
+    }
+  ],
+  "Executor": [
+    {
+      "nivel": 2,
+      "habilidade": "Finta de Execução",
+      "bloco": "vanguarda--van-executor"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Troca de Intenção",
+      "bloco": "vanguarda--van-executor-avanco"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Dobrar a Aposta",
+      "bloco": "vanguarda--van-executor-avanco"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Duas Intenções",
+      "bloco": "vanguarda--van-executor-avanco"
+    }
+  ],
+  "Guia": [
+    {
+      "nivel": 2,
+      "habilidade": "Abrir Caminho",
+      "bloco": "guia--guia-progressao"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Resposta Coordenada",
+      "bloco": "guia--guia-resposta"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Reajustar o Plano",
+      "bloco": "guia--guia-planos"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Passar a Oportunidade",
+      "bloco": "guia--guia-planos"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Todos no Mesmo Plano",
+      "bloco": "guia--guia-plano-conjunto"
+    }
+  ],
+  "Arquiteto": [
+    {
+      "nivel": 2,
+      "habilidade": "Obras de Apoio",
+      "bloco": "guia--guia-arquiteto"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Obra em Uso",
+      "bloco": "guia--guia-obra-uso"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Obra de Emergência",
+      "bloco": "guia--guia-emergencia"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Plano Construído",
+      "bloco": "guia--guia-emergencia"
+    }
+  ],
+  "Analista": [
+    {
+      "nivel": 2,
+      "habilidade": "Ler a Resposta",
+      "bloco": "guia--guia-analista"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Apontar a Brecha",
+      "bloco": "guia--guia-brecha"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Rever a Leitura",
+      "bloco": "guia--guia-brecha"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Padrão Decifrado",
+      "bloco": "guia--guia-padrao"
+    }
+  ],
+  "Socorrista": [
+    {
+      "nivel": 2,
+      "habilidade": "Cuidado Preparado",
+      "bloco": "guia--guia-socorrista"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Tratar e Retomar",
+      "bloco": "guia--guia-tratamento"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Ainda Há Tempo",
+      "bloco": "guia--guia-emergencia-cuidado"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Atendimento em Cadeia",
+      "bloco": "guia--guia-emergencia-cuidado"
+    }
+  ],
+  "Emanador": [
+    {
+      "nivel": 2,
+      "habilidade": "Desdobramento Técnico",
+      "bloco": "emanador--ema-desdobramento"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Expressões Familiares",
+      "bloco": "emanador--ema-familiares"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Afinidade Técnica",
+      "bloco": "emanador--ema-familiares"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Forma Fluida",
+      "bloco": "emanador--ema-forma"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Composição Técnica",
+      "bloco": "emanador--ema-forma"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Expressão Instintiva",
+      "bloco": "emanador--ema-instintiva"
+    }
+  ],
+  "Condutor Armado": [
+    {
+      "nivel": 2,
+      "habilidade": "Arma Condutora",
+      "bloco": "emanador--ema-condutor"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Cadência Técnica",
+      "bloco": "emanador--ema-condutor"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Artes do Vínculo",
+      "bloco": "emanador--ema-artes"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Manifestação Condutora",
+      "bloco": "emanador--ema-manifestacao"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Ritmo Convergente",
+      "bloco": "emanador--ema-manifestacao"
+    }
+  ],
+  "Ressonante": [
+    {
+      "nivel": 2,
+      "habilidade": "Eco Técnico",
+      "bloco": "emanador--ema-eco"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Contraponto",
+      "bloco": "emanador--ema-contraponto"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Reverberação",
+      "bloco": "emanador--ema-contraponto"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Acorde Ressonante",
+      "bloco": "emanador--ema-acorde"
+    }
+  ],
+  "Catalisador": [
+    {
+      "nivel": 2,
+      "habilidade": "Impulso Técnico",
+      "bloco": "emanador--ema-impulso"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Correção de Fluxo",
+      "bloco": "emanador--ema-correcao"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Sobrecarregar Energia",
+      "bloco": "emanador--ema-fluxo"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Fluxo Contínuo",
+      "bloco": "emanador--ema-fluxo"
+    }
+  ],
+  "Evocador": [
+    {
+      "nivel": 2,
+      "habilidade": "Vínculo",
+      "bloco": "evocador--ev-vinculo"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Precisão à Distância",
+      "bloco": "evocador--ev-usos"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Avanço Corpo a Corpo",
+      "bloco": "evocador--ev-aprimoramentos"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Proteção Reforçada",
+      "bloco": "evocador--ev-aprimoramentos"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Execução de Tarefas",
+      "bloco": "evocador--ev-aprimoramentos"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Corrigir uma Falha",
+      "bloco": "evocador--ev-intervencoes"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Mudar o Aprimoramento",
+      "bloco": "evocador--ev-intervencoes"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Superar Cobertura",
+      "bloco": "evocador--ev-posicao"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Reposicionar a Invocação",
+      "bloco": "evocador--ev-posicao"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Dificultar a Resistência",
+      "bloco": "evocador--ev-preparacao"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Ajustar a Preparação",
+      "bloco": "evocador--ev-preparacao"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Recolher sob Ataque",
+      "bloco": "evocador--ev-preparacao"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Atuação Complementar",
+      "bloco": "evocador--ev-complementar"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Combinar Aprimoramentos",
+      "bloco": "evocador--ev-combinar"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Intervenção Eficiente",
+      "bloco": "evocador--ev-combinar"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Especial Combinada",
+      "bloco": "evocador--ev-combinada"
+    }
+  ],
+  "Invocação Principal": [
+    {
+      "nivel": 2,
+      "habilidade": "Duas Atuações Básicas",
+      "bloco": "evocador--ev-principal"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Repertório Ampliado",
+      "bloco": "evocador--ev-principal-especial"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Intervenções da principal",
+      "bloco": "evocador--ev-principal-protecao"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Especial de Continuidade",
+      "bloco": "evocador--ev-principal-continuidade"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Intervenção Reflexa",
+      "bloco": "evocador--ev-principal-reflexa"
+    }
+  ],
+  "Parceria": [
+    {
+      "nivel": 2,
+      "habilidade": "Entrada Ágil",
+      "bloco": "evocador--ev-parceria"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Treino de Combate",
+      "bloco": "evocador--ev-parceria"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Repertório de Parceria",
+      "bloco": "evocador--ev-parceria"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Intervenções de Parceria",
+      "bloco": "evocador--ev-parceria-intervencoes"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Técnicas em Conjunto",
+      "bloco": "evocador--ev-parceria-tecnicas"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Resposta Técnica da Dupla",
+      "bloco": "evocador--ev-parceria-resposta"
+    }
+  ],
+  "Múltiplas Invocações": [
+    {
+      "nivel": 2,
+      "habilidade": "Conjunto Ampliado",
+      "bloco": "evocador--ev-multiplas"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Famílias do Conjunto",
+      "bloco": "evocador--ev-multiplas"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Manifestação em Grupo",
+      "bloco": "evocador--ev-multiplas-entrada"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Entrada Ágil",
+      "bloco": "evocador--ev-multiplas-entrada"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Aquisição em Duplas",
+      "bloco": "evocador--ev-multiplas-duplas"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Proteção do conjunto",
+      "bloco": "evocador--ev-multiplas-protecao"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Aprimoramentos Distribuídos",
+      "bloco": "evocador--ev-multiplas-aprimoramentos"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Formação Renovada",
+      "bloco": "evocador--ev-multiplas-formacao"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Repertório do Conjunto",
+      "bloco": "evocador--ev-multiplas-repertorio"
+    }
+  ],
+  "Incursor": [
+    {
+      "nivel": 2,
+      "habilidade": "Movimento Acrobático",
+      "bloco": "incursor--inc-movimento"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Agilidade de Combate",
+      "bloco": "incursor--inc-movimento"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Fluidez",
+      "bloco": "incursor--inc-fluidez"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Fluidez no nível 7",
+      "bloco": "incursor--inc-respostas"
+    },
+    {
+      "nivel": 15,
+      "habilidade": "Passo Guardado",
+      "bloco": "incursor--inc-fluidez-avancada"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Retomar o Ritmo",
+      "bloco": "incursor--inc-ritmo"
+    },
+    {
+      "nivel": 23,
+      "habilidade": "Movimento Acrobático ampliado",
+      "bloco": "incursor--inc-ritmo"
+    },
+    {
+      "nivel": 30,
+      "habilidade": "Um Passo à Frente",
+      "bloco": "incursor--inc-ritmo"
+    }
+  ],
+  "Assassino": [
+    {
+      "nivel": 2,
+      "habilidade": "Alvo Estudado",
+      "bloco": "incursor--inc-assassino"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Estudar a Guarda",
+      "bloco": "incursor--inc-guarda"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Golpe Cirúrgico",
+      "bloco": "incursor--inc-cirurgico"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Cortar a Fuga",
+      "bloco": "incursor--inc-cortar"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Parkour",
+      "bloco": "incursor--inc-parkour"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Desaparecer no Percurso",
+      "bloco": "incursor--inc-parkour"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Escolher a Próxima Vítima",
+      "bloco": "incursor--inc-parkour"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Brecha Fatal",
+      "bloco": "incursor--inc-brecha"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Sentença Final",
+      "bloco": "incursor--inc-brecha"
+    }
+  ],
+  "Pugilista": [
+    {
+      "nivel": 2,
+      "habilidade": "Corpo Treinado",
+      "bloco": "incursor--inc-corpo"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Quebrar o Compasso",
+      "bloco": "incursor--inc-corpo"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Recuperar a Base",
+      "bloco": "incursor--inc-base"
+    },
+    {
+      "nivel": 7,
+      "habilidade": "Rajada Marcial",
+      "bloco": "incursor--inc-base"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Guarda Marcial",
+      "bloco": "incursor--inc-base"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Interceptar e Prender",
+      "bloco": "incursor--inc-interceptar"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Movimento sobre líquidos",
+      "bloco": "incursor--inc-interceptar"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Golpe Desarticulador",
+      "bloco": "incursor--inc-interceptar"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Projeção Marcial",
+      "bloco": "incursor--inc-projecao"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Corpo em Harmonia",
+      "bloco": "incursor--inc-redirecionar"
+    }
+  ],
+  "Malabarista": [
+    {
+      "nivel": 2,
+      "habilidade": "Manejo de Combate",
+      "bloco": "incursor--inc-malabarista"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Ofensiva em Movimento",
+      "bloco": "incursor--inc-malabarista"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Lançamento Cruzado",
+      "bloco": "incursor--inc-continuacoes"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Ricochete",
+      "bloco": "incursor--inc-ricochete"
+    },
+    {
+      "nivel": 2,
+      "habilidade": "Mudar o Destino",
+      "bloco": "incursor--inc-destino"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Trajetória de Retorno",
+      "bloco": "incursor--inc-retorno"
+    },
+    {
+      "nivel": 11,
+      "habilidade": "Manejo Contínuo",
+      "bloco": "incursor--inc-retorno"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Finta de Retorno",
+      "bloco": "incursor--inc-finta"
+    },
+    {
+      "nivel": 19,
+      "habilidade": "Manejo Contínuo ampliado",
+      "bloco": "incursor--inc-finta"
+    },
+    {
+      "nivel": 27,
+      "habilidade": "Trajetória Perfeita",
+      "bloco": "incursor--inc-perfeita"
+    }
+  ]
+}

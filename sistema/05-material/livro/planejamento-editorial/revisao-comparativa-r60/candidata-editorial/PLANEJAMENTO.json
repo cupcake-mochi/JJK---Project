@@ -1,0 +1,38 @@
+{
+  "base": "R60",
+  "fonte_publicada_preservada": true,
+  "publicar_apos_avaliacao": true,
+  "etapas": [
+    {
+      "numero": 1,
+      "titulo": "Navegação",
+      "status": "concluída e validada"
+    },
+    {
+      "numero": 2,
+      "titulo": "Consulta rápida",
+      "status": "concluída e validada"
+    },
+    {
+      "numero": 3,
+      "titulo": "Quadro de Invocações",
+      "status": "concluída e validada"
+    },
+    {
+      "numero": 4,
+      "titulo": "Diagramas",
+      "status": "pendente"
+    },
+    {
+      "numero": 5,
+      "titulo": "Habilidades e primeira sessão",
+      "status": "pendente"
+    },
+    {
+      "numero": 6,
+      "titulo": "Revisão do conjunto nas duas paletas",
+      "status": "pendente"
+    }
+  ],
+  "proxima_etapa": 4
+}

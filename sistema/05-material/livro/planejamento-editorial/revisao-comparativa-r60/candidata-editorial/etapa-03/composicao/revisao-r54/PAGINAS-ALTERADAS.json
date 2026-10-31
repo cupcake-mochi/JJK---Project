@@ -1,0 +1,212 @@
+{
+  "paginas": [
+    8,
+    9,
+    10,
+    14,
+    16,
+    17,
+    18,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    42,
+    47,
+    50,
+    51,
+    54,
+    55,
+    56,
+    64,
+    65,
+    66,
+    67,
+    68,
+    73,
+    84,
+    85,
+    96,
+    103,
+    115,
+    116,
+    140,
+    141,
+    143,
+    144,
+    153,
+    154,
+    173,
+    238,
+    240,
+    241,
+    248,
+    249,
+    250,
+    252,
+    253,
+    255,
+    256,
+    257,
+    258,
+    259,
+    282,
+    283,
+    311,
+    339,
+    340,
+    350,
+    362,
+    363
+  ],
+  "blocos": {
+    "ab--ab-primeira-sessao": [
+      8
+    ],
+    "ab--ab-mundo": [
+      9,
+      10
+    ],
+    "ab--ab-origem": [
+      64,
+      65
+    ],
+    "ab--ab-capacidades": [
+      66
+    ],
+    "ab--ab-kaori": [
+      67,
+      68
+    ],
+    "geral--atributos": [
+      14
+    ],
+    "geral--resistencia": [
+      16,
+      17
+    ],
+    "geral--turnos": [
+      17,
+      18
+    ],
+    "geral--acoes": [
+      18
+    ],
+    "geral--concentracao": [
+      21,
+      22
+    ],
+    "geral--critico": [
+      23,
+      24
+    ],
+    "geral--defesa": [
+      24,
+      25
+    ],
+    "geral--bloquear": [
+      25,
+      26
+    ],
+    "geral--buscar": [
+      42
+    ],
+    "dano--dano": [
+      47
+    ],
+    "dano--condicoes": [
+      50,
+      51
+    ],
+    "dano--cura": [
+      54
+    ],
+    "dano--zero": [
+      55,
+      56
+    ],
+    "origens--origem-escolhas": [
+      73
+    ],
+    "origens--encarnado-beneficios": [
+      84,
+      85
+    ],
+    "origens--origem-sem-tecnica": [
+      103
+    ],
+    "origens--restricao-sem-energia": [
+      96
+    ],
+    "progressao--prog-inicio": [
+      238
+    ],
+    "progressao--prog-tabela-inicial": [
+      240,
+      241
+    ],
+    "fundamento--fundamento": [
+      248,
+      249,
+      250
+    ],
+    "fundamento--familias": [
+      252,
+      253
+    ],
+    "fundamento--pontos": [
+      255,
+      256
+    ],
+    "fundamento--formas": [
+      258,
+      259
+    ],
+    "aptidoes--apt-protecao-dominios": [
+      311
+    ],
+    "poderes--degraus": [
+      339,
+      340
+    ],
+    "ritual--ritual": [
+      350
+    ],
+    "campo--inv-campo": [
+      362
+    ],
+    "campo--inv-ciclo": [
+      362,
+      363
+    ],
+    "vanguarda--van-sequencia": [
+      115,
+      116
+    ],
+    "emanador--ema-desdobramento": [
+      140,
+      141
+    ],
+    "emanador--ema-instintiva": [
+      143,
+      144
+    ],
+    "evocador--ev-vinculo": [
+      153,
+      154
+    ],
+    "evocador--ev-turnos": [
+      173
+    ],
+    "fundamento--funcoes": [
+      256,
+      257
+    ],
+    "catalogo--cat-catalogo": [
+      282,
+      283
+    ]
+  }
+}

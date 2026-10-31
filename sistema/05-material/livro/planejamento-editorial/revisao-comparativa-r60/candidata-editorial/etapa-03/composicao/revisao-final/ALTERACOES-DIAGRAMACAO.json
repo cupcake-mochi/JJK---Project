@@ -1,0 +1,1241 @@
+[
+  {
+    "id": "D34-001",
+    "bloco": "capitulo-1",
+    "antes": {
+      "texto": "Ciclo Maldito",
+      "numero": 1,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 1,
+        "titulo": "Ciclo Maldito",
+        "pagina": 4,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Ciclo Maldito",
+      "numero": 1,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 1,
+        "titulo": "Ciclo Maldito",
+        "pagina": 4,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-002",
+    "bloco": "capitulo-2",
+    "antes": {
+      "texto": "Regras gerais",
+      "numero": 2,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 2,
+        "titulo": "Regras gerais",
+        "pagina": 10,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Regras gerais",
+      "numero": 2,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 2,
+        "titulo": "Regras gerais",
+        "pagina": 10,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-003",
+    "bloco": "capitulo-3",
+    "antes": {
+      "texto": "Dano e recuperação",
+      "numero": 3,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 3,
+        "titulo": "Dano e recuperação",
+        "pagina": 44,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Dano e recuperação",
+      "numero": 3,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 3,
+        "titulo": "Dano e recuperação",
+        "pagina": 44,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-004",
+    "bloco": "capitulo-4",
+    "antes": {
+      "texto": "Criar um personagem",
+      "numero": 4,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 4,
+        "titulo": "Criar um personagem",
+        "pagina": 61,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Criar um personagem",
+      "numero": 4,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 4,
+        "titulo": "Criar um personagem",
+        "pagina": 61,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-005",
+    "bloco": "capitulo-5",
+    "antes": {
+      "texto": "Origens e Legados",
+      "numero": 5,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 5,
+        "titulo": "Origens e Legados",
+        "pagina": 69,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Origens e Legados",
+      "numero": 5,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 5,
+        "titulo": "Origens e Legados",
+        "pagina": 69,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-006",
+    "bloco": "capitulo-6",
+    "antes": {
+      "texto": "Caminhos e Trilhas",
+      "numero": 6,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 6,
+        "titulo": "Caminhos e Trilhas",
+        "pagina": 88,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Caminhos e Trilhas",
+      "numero": 6,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 6,
+        "titulo": "Caminhos e Trilhas",
+        "pagina": 88,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-007",
+    "bloco": "capitulo-7",
+    "antes": {
+      "texto": "Perícias e Ofícios",
+      "numero": 7,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 7,
+        "titulo": "Perícias e Ofícios",
+        "pagina": 175,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Perícias e Ofícios",
+      "numero": 7,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 7,
+        "titulo": "Perícias e Ofícios",
+        "pagina": 175,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-008",
+    "bloco": "capitulo-8",
+    "antes": {
+      "texto": "Equipamento",
+      "numero": 8,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 8,
+        "titulo": "Equipamento",
+        "pagina": 185,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Equipamento",
+      "numero": 8,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 8,
+        "titulo": "Equipamento",
+        "pagina": 185,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-009",
+    "bloco": "capitulo-9",
+    "antes": {
+      "texto": "Progressão",
+      "numero": 9,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 9,
+        "titulo": "Progressão",
+        "pagina": 221,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Progressão",
+      "numero": 9,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 9,
+        "titulo": "Progressão",
+        "pagina": 221,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-010",
+    "bloco": "capitulo-10",
+    "antes": {
+      "texto": "Fundamento",
+      "numero": 10,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 10,
+        "titulo": "Fundamento",
+        "pagina": 231,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Fundamento",
+      "numero": 10,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 10,
+        "titulo": "Fundamento",
+        "pagina": 231,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-011",
+    "bloco": "capitulo-11",
+    "antes": {
+      "texto": "Catálogo de criação",
+      "numero": 11,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 11,
+        "titulo": "Catálogo de criação",
+        "pagina": 257,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Catálogo de criação",
+      "numero": 11,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 11,
+        "titulo": "Catálogo de criação",
+        "pagina": 257,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-012",
+    "bloco": "capitulo-12",
+    "antes": {
+      "texto": "Aptidões e Refino",
+      "numero": 12,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 12,
+        "titulo": "Aptidões e Refino",
+        "pagina": 278,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Aptidões e Refino",
+      "numero": 12,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 12,
+        "titulo": "Aptidões e Refino",
+        "pagina": 278,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-013",
+    "bloco": "capitulo-13",
+    "antes": {
+      "texto": "Rotas de criação",
+      "numero": 13,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 13,
+        "titulo": "Rotas de criação",
+        "pagina": 293,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Rotas de criação",
+      "numero": 13,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 13,
+        "titulo": "Rotas de criação",
+        "pagina": 293,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-014",
+    "bloco": "capitulo-14",
+    "antes": {
+      "texto": "Poderes avançados",
+      "numero": 14,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 14,
+        "titulo": "Poderes avançados",
+        "pagina": 312,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Poderes avançados",
+      "numero": 14,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 14,
+        "titulo": "Poderes avançados",
+        "pagina": 312,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-015",
+    "bloco": "capitulo-15",
+    "antes": {
+      "texto": "Ritual e Pactos",
+      "numero": 15,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 15,
+        "titulo": "Ritual e Pactos",
+        "pagina": 323,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Ritual e Pactos",
+      "numero": 15,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 15,
+        "titulo": "Ritual e Pactos",
+        "pagina": 323,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-016",
+    "bloco": "capitulo-16",
+    "antes": {
+      "texto": "Invocações em campo",
+      "numero": 16,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 16,
+        "titulo": "Invocações em campo",
+        "pagina": 333,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Invocações em campo",
+      "numero": 16,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 16,
+        "titulo": "Invocações em campo",
+        "pagina": 333,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-017",
+    "bloco": "capitulo-17",
+    "antes": {
+      "texto": "Construir invocações",
+      "numero": 17,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 17,
+        "titulo": "Construir invocações",
+        "pagina": 350,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Construir invocações",
+      "numero": 17,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 17,
+        "titulo": "Construir invocações",
+        "pagina": 350,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-018",
+    "bloco": "capitulo-18",
+    "antes": {
+      "texto": "Mestrar",
+      "numero": 18,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 18,
+        "titulo": "Mestrar",
+        "pagina": 375,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Mestrar",
+      "numero": 18,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 18,
+        "titulo": "Mestrar",
+        "pagina": 375,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-019",
+    "bloco": "capitulo-19",
+    "antes": {
+      "texto": "Glossário",
+      "numero": 19,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 19,
+        "titulo": "Glossário",
+        "pagina": 378,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Glossário",
+      "numero": 19,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 19,
+        "titulo": "Glossário",
+        "pagina": 378,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-020",
+    "bloco": "capitulo-20",
+    "antes": {
+      "texto": "Consulta rápida",
+      "numero": 20,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 20,
+        "titulo": "Consulta rápida",
+        "pagina": 382,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Consulta rápida",
+      "numero": 20,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 20,
+        "titulo": "Consulta rápida",
+        "pagina": 382,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  },
+  {
+    "id": "D34-021",
+    "bloco": "capitulo-21",
+    "antes": {
+      "texto": "Índice",
+      "numero": 21,
+      "estilo": {
+        "nome": "Atual",
+        "descricao": "Título condensado em caixa alta e filete inferior.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "entrelinha_pt": 36,
+          "filete_inferior_pt": 1
+        }
+      },
+      "geometria": {
+        "numero": 21,
+        "titulo": "Índice",
+        "pagina": 385,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "depois": {
+      "texto": "Índice",
+      "numero": 21,
+      "estilo": {
+        "nome": "1 · Selo vinho",
+        "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+        "estilo": {
+          "fonte_titulo": "Barlow Condensed Bold",
+          "tamanho_titulo_pt": 32,
+          "cor_titulo": "#9e2358",
+          "fonte_numero": "Barlow Condensed Bold",
+          "tamanho_numero_pt": 30,
+          "cor_numero": "#ffffff",
+          "fundo_numero": "#522039",
+          "largura_selo_pt": 44,
+          "altura_selo_pt": 36,
+          "inicio_titulo_pt": 58,
+          "filete_inferior_pt": 0.7
+        }
+      },
+      "geometria": {
+        "numero": 21,
+        "titulo": "Índice",
+        "pagina": 385,
+        "x": 53.85826771653544,
+        "y": 740.6929133858268,
+        "largura": 487.5590551181103,
+        "altura": 36
+      }
+    },
+    "motivo": "Aplicar o selo vinho 1/A aprovado pelo autor, mantendo o espaço já reservado ao título."
+  }
+]

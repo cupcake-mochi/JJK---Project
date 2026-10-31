@@ -1,0 +1,17 @@
+{
+  "pdf": "output/pdf/Ciclo-Maldito-R42.pdf",
+  "sha256_pdf": "d4c23b973b6215d54f3d72dfb3250ae80c56b92c8e8911251d46386f4029731d",
+  "paginas_revisadas_visualmente": [
+    317,
+    318
+  ],
+  "todas_as_paginas_com_composicao_diferente_revisadas": true,
+  "metodo": "Renderização com Poppler a 130 dpi e inspeção das duas páginas completas.",
+  "conferencias": [
+    "Texto legível, sem cortes ou sobreposição.",
+    "Títulos, tabela de vagas e tabela do acordo preservados.",
+    "Leitura contínua pela coluna esquerda antes da direita.",
+    "Cabeçalhos, rodapés e numeração preservados."
+  ],
+  "problemas": []
+}

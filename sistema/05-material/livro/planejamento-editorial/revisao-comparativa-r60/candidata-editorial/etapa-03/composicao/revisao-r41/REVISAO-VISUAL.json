@@ -1,0 +1,46 @@
+{
+  "sha256_pdf": "568db10706b19bd95d6b40fb8bf565ec4fd12dff4cf82248dcd28c5397c80f57",
+  "paginas": [
+    {
+      "pagina": 132,
+      "imagem": "paginas/pagina-132.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 139,
+      "imagem": "paginas/pagina-139.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 140,
+      "imagem": "paginas/pagina-140.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 147,
+      "imagem": "paginas/pagina-147.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 148,
+      "imagem": "paginas/pagina-148.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 294,
+      "imagem": "paginas/pagina-294.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 297,
+      "imagem": "paginas/pagina-297.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    },
+    {
+      "pagina": 298,
+      "imagem": "paginas/pagina-298.png",
+      "resultado": "Página renderizada e inspecionada ampliada; sem corte, sobreposição ou abertura isolada introduzidos nesta rodada."
+    }
+  ],
+  "demais_paginas": "365 páginas conservam os mesmos eventos de composição da R40. Capa, arte, fontes e tamanhos preservados."
+}

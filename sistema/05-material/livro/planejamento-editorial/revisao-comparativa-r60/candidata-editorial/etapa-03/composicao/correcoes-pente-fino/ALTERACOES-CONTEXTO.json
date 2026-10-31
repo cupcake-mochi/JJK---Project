@@ -1,0 +1,823 @@
+[
+  {
+    "bloco": "geral--testes",
+    "antes": {
+      "bloco": "geral--testes",
+      "capitulo": 2,
+      "titulo_original": "Testes",
+      "papel": "procedimento ou entrada",
+      "contexto": "Atributos",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Testes",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Dificuldade",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Sucesso e falha",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "geral--testes",
+      "capitulo": 2,
+      "titulo_original": "Testes",
+      "papel": "procedimento ou entrada",
+      "contexto": "Testes",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Testes",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Dificuldade",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Sucesso e falha",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "geral--pericias",
+    "antes": {
+      "bloco": "geral--pericias",
+      "capitulo": 2,
+      "titulo_original": "Treino e modificadores",
+      "papel": "procedimento ou entrada",
+      "contexto": "Atributos",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Treino e modificadores",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Especialização",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Vantagem e desvantagem",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Arredondamento",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Testes de grupo",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "geral--pericias",
+      "capitulo": 2,
+      "titulo_original": "Treino e modificadores",
+      "papel": "procedimento ou entrada",
+      "contexto": "Treino e modificadores",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Treino e modificadores",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Especialização",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Vantagem e desvantagem",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Arredondamento",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Testes de grupo",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "geral--resistencia",
+    "antes": {
+      "bloco": "geral--resistencia",
+      "capitulo": 2,
+      "titulo_original": "Testes de Resistência",
+      "papel": "procedimento ou entrada",
+      "contexto": "Atributos",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Testes de Resistência",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "CD e resultado",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Ataques e defesas",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "geral--resistencia",
+      "capitulo": 2,
+      "titulo_original": "Testes de Resistência",
+      "papel": "procedimento ou entrada",
+      "contexto": "Testes de Resistência",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Testes de Resistência",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "CD e resultado",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Ataques e defesas",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "antes": {
+      "bloco": "ab--ab-kaori",
+      "capitulo": 4,
+      "titulo_original": "Kaori",
+      "papel": "exemplo completo",
+      "contexto": "Exemplo: Kaori",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Exemplo: Kaori",
+          "papel": "exemplo completo",
+          "nivel": 1
+        },
+        {
+          "titulo": "Técnica de Kaori",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Peso nas Mãos",
+          "papel": "subtópico",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "ab--ab-kaori",
+      "capitulo": 4,
+      "titulo_original": "Kaori",
+      "papel": "exemplo completo",
+      "contexto": "Exemplo: Kaori",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Exemplo: Kaori",
+          "papel": "exemplo completo",
+          "nivel": 1
+        },
+        {
+          "titulo": "Técnica de Kaori",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Peso nas Mãos",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "antes": {
+      "bloco": "vanguarda--van-yumi",
+      "capitulo": 6,
+      "titulo_original": "Batedor: Yumi",
+      "papel": "Trilha",
+      "contexto": "Vanguarda / Batedor: Yumi",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Batedor: Yumi",
+          "papel": "Trilha",
+          "nivel": 1
+        },
+        {
+          "titulo": "Batedor",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Yumi",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Armar uma Conclusão",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Soltura Simples",
+          "papel": "subtópico",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "vanguarda--van-yumi",
+      "capitulo": 6,
+      "titulo_original": "Batedor: Yumi",
+      "papel": "Trilha",
+      "contexto": "Vanguarda / Batedor",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Batedor",
+          "papel": "subtópico",
+          "nivel": 1
+        },
+        {
+          "titulo": "Batedor: Yumi",
+          "papel": "Trilha",
+          "nivel": 1
+        },
+        {
+          "titulo": "Armar uma Conclusão",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Soltura Simples",
+          "papel": "subtópico",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false,
+      "contextos_por_titulo": {
+        "Batedor: Yumi": "Vanguarda / Batedor: Yumi"
+      }
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "antes": {
+      "bloco": "evocador--ev-principal-continuidade",
+      "capitulo": 6,
+      "titulo_original": "Especial de Continuidade",
+      "papel": "habilidade ou procedimento",
+      "contexto": "Evocador / Invocação Principal",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Especial de Continuidade",
+          "papel": "habilidade ou procedimento",
+          "nivel": 2
+        },
+        {
+          "titulo": "Preservar o Aprimoramento",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Nível 19 — Especial de Continuidade",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "evocador--ev-principal-continuidade",
+      "capitulo": 6,
+      "titulo_original": "Especial de Continuidade",
+      "papel": "habilidade ou procedimento",
+      "contexto": "Evocador / Invocação Principal / Intervenções da principal",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Preservar o Aprimoramento",
+          "papel": "subtópico",
+          "nivel": 2
+        },
+        {
+          "titulo": "Nível 19 — Especial de Continuidade",
+          "papel": "subtópico",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false,
+      "contextos_por_titulo": {
+        "Nível 19 — Especial de Continuidade": "Evocador / Invocação Principal / Especial de Continuidade"
+      }
+    }
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "antes": {
+      "bloco": "aptidoes--apt-energia-positiva",
+      "capitulo": 12,
+      "titulo_original": "Ferir maldições",
+      "papel": "continuação ou caso específico",
+      "contexto": "Energia Reversa",
+      "parent": "aptidoes--apt-reversa",
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Ferir maldições",
+          "papel": "continuação ou caso específico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Feitiço de Cura",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Aptidão aplicada por contato",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 3,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "aptidoes--apt-energia-positiva",
+      "capitulo": 12,
+      "titulo_original": "Ferir maldições",
+      "papel": "continuação ou caso específico",
+      "contexto": "Energia Reversa",
+      "parent": "aptidoes--apt-reversa",
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Ferir maldições",
+          "papel": "continuação ou caso específico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Feitiço de Cura",
+          "papel": "subtópico",
+          "nivel": 4
+        },
+        {
+          "titulo": "Aptidão aplicada por contato",
+          "papel": "subtópico",
+          "nivel": 4
+        }
+      ],
+      "nivel_primeiro": 3,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "rotas--rota-invocacoes",
+    "antes": {
+      "bloco": "rotas--rota-invocacoes",
+      "capitulo": 13,
+      "titulo_original": "Invocações nas rotas",
+      "papel": "procedimento ou entrada",
+      "contexto": "Técnica Marcial",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Invocações nas rotas",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Aquisição e uso",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "rotas--rota-invocacoes",
+      "capitulo": 13,
+      "titulo_original": "Invocações nas rotas",
+      "papel": "procedimento ou entrada",
+      "contexto": "Invocações nas rotas",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Invocações nas rotas",
+          "papel": "procedimento ou entrada",
+          "nivel": 1
+        },
+        {
+          "titulo": "Aquisição e uso",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "antes": {
+      "bloco": "rotas--rota-cura",
+      "capitulo": 13,
+      "titulo_original": "Cura",
+      "papel": "procedimento ou entrada",
+      "contexto": "Sem Técnica",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Cura",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Aptidão e Manejo",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Energia positiva contra maldições",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "rotas--rota-cura",
+      "capitulo": 13,
+      "titulo_original": "Cura",
+      "papel": "procedimento ou entrada",
+      "contexto": "Sem Técnica / Cura",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Cura",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Aptidão e Manejo",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Energia positiva contra maldições",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "campo--inv-corpos",
+    "antes": {
+      "bloco": "campo--inv-corpos",
+      "capitulo": 16,
+      "titulo_original": "Corpos amaldiçoados",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talismãs",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Corpos amaldiçoados",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "campo--inv-corpos",
+      "capitulo": 16,
+      "titulo_original": "Corpos amaldiçoados",
+      "papel": "procedimento ou entrada",
+      "contexto": "Corpos amaldiçoados",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Corpos amaldiçoados",
+          "papel": "procedimento ou entrada",
+          "nivel": 1
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "campo--inv-reparo",
+    "antes": {
+      "bloco": "campo--inv-reparo",
+      "capitulo": 16,
+      "titulo_original": "Cura e reparo",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talismãs",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Cura e reparo",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "campo--inv-reparo",
+      "capitulo": 16,
+      "titulo_original": "Cura e reparo",
+      "papel": "procedimento ou entrada",
+      "contexto": "Cura e reparo",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Cura e reparo",
+          "papel": "procedimento ou entrada",
+          "nivel": 1
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "campo--inv-liberacao",
+    "antes": {
+      "bloco": "campo--inv-liberacao",
+      "capitulo": 16,
+      "titulo_original": "Trunfos das domadas",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talismãs",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Trunfos das domadas",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Liberação Máxima",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "campo--inv-liberacao",
+      "capitulo": 16,
+      "titulo_original": "Trunfos das domadas",
+      "papel": "procedimento ou entrada",
+      "contexto": "Trunfos das domadas",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Trunfos das domadas",
+          "papel": "procedimento ou entrada",
+          "nivel": 1
+        },
+        {
+          "titulo": "Liberação Máxima",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "campo--inv-maxima",
+    "antes": {
+      "bloco": "campo--inv-maxima",
+      "capitulo": 16,
+      "titulo_original": "Técnica Máxima da domada",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talismãs",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Técnica Máxima da domada",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "campo--inv-maxima",
+      "capitulo": 16,
+      "titulo_original": "Técnica Máxima da domada",
+      "papel": "procedimento ou entrada",
+      "contexto": "Trunfos das domadas",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Técnica Máxima da domada",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "campo--inv-dominio",
+    "antes": {
+      "bloco": "campo--inv-dominio",
+      "capitulo": 16,
+      "titulo_original": "Expansão da domada",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talismãs",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Expansão da domada",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "campo--inv-dominio",
+      "capitulo": 16,
+      "titulo_original": "Expansão da domada",
+      "papel": "procedimento ou entrada",
+      "contexto": "Trunfos das domadas",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Expansão da domada",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    }
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "antes": {
+      "bloco": "construcao--entidades-ampliacao",
+      "capitulo": 17,
+      "titulo_original": "Ampliar uma especial",
+      "papel": "procedimento ou entrada",
+      "contexto": "Talentos da entidade",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Ampliar uma especial",
+          "papel": "procedimento ou entrada",
+          "nivel": 2
+        },
+        {
+          "titulo": "Mordida precisa",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Conferência dos efeitos",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 2,
+      "sem_titulo_inicial": false
+    },
+    "depois": {
+      "bloco": "construcao--entidades-ampliacao",
+      "capitulo": 17,
+      "titulo_original": "Ampliar uma especial",
+      "papel": "procedimento ou entrada",
+      "contexto": "Ampliar uma especial",
+      "parent": null,
+      "marcador": null,
+      "titulos": [
+        {
+          "titulo": "Ampliar uma especial",
+          "papel": "procedimento ou entrada",
+          "nivel": 1
+        },
+        {
+          "titulo": "Mordida precisa",
+          "papel": "subtópico",
+          "nivel": 3
+        },
+        {
+          "titulo": "Conferência dos efeitos",
+          "papel": "subtópico",
+          "nivel": 3
+        }
+      ],
+      "nivel_primeiro": 1,
+      "sem_titulo_inicial": false
+    }
+  }
+]

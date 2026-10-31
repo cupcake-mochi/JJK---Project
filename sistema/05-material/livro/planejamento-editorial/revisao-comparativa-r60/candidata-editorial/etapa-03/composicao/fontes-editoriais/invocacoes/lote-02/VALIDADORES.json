@@ -1,0 +1,191 @@
+{
+  "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "INVENTARIO.json",
+        "evidencias/COBERTURA-CATALOGO.json"
+      ],
+      "observacao": "Todas as seções da fonte têm dono, R11 ou R12. Catálogo comum preservado por remissão e exceções locais."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Fonte integrada lida inteira. Histórico marcado como histórico; decisões relevantes consultadas com âncoras."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Casos positivos e negativos raciocinados por seção, não executados com jogadores."
+    },
+    {
+      "id": "V04",
+      "estado": "executado",
+      "evidencias": [
+        "auditar.py",
+        "AUDITORIA.json",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Executa exemplos, curvas, fronteiras, enumeração de restituição e consistência de tabelas."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_com_limites",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Compara a saída original, pessoal e da candidata. Não modela todos os encontros, trajes, Caminhos ou composições."
+    },
+    {
+      "id": "V06",
+      "estado": "dependencia_de_integracao",
+      "evidencias": [
+        "INTERFACES.md"
+      ],
+      "observacao": "Interfaces R11 de recursos, condições, Atrasar e Carregar fechadas e remetidas a títulos existentes. Fabricação completa permanece dependência de etapa própria."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "evidencias/CONFERENCIA-EDITORIAL.json"
+      ],
+      "observacao": "Títulos simples, sem artigo inicial ou Como ler. Exceções restritas a requisitos/remissões."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Atores, custos, alvos, resultados e saídas conferidos em habilidades e procedimentos. Tabelas de progressão têm campos não aplicáveis."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json",
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Leitura dirigida de PHB2024 e DMG2024 locais. Exemplos completos e função de cada seção examinados."
+    },
+    {
+      "id": "V10",
+      "estado": "dependencia_de_integracao",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "INTERFACES.md"
+      ],
+      "observacao": "Uma fonte para cada regra comum. Fabricação de entidades aguarda título/procedimento do dono da etapa; demais remissões têm destino identificado."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Não apresenta regra do sistema ou exemplo original como fato universal do mangá. Cânone específico de tipos tem dono R11."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-INDEPENDENTE-RAIZ.md"
+      ],
+      "observacao": "Revisor diferente do autor, correções verificadas. R11 inclui revisão independente complementar da reserva total. Não equivale a playtest."
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "PDF de 27 páginas gerado; conferência de integridade, texto e navegação registrada separadamente.",
+      "evidencia": "CONFERENCIA.json"
+    },
+    {
+      "id": "V14",
+      "estado": "concluido",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Todas as 27 páginas inspecionadas; versões finais vinculadas por hash. Sem imagem de IA.",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json"
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "evidencias/fontes-preservadas.json",
+        "AUDITORIA.json"
+      ],
+      "observacao": "31 decisões registradas; hashes de texto, fontes e prova preservados."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "fechamento_nominal": {
+    "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "evidencia": "evidencias/FECHAMENTO-NOMES-E-REMISSOES.md",
+    "visual": "concluido"
+  },
+  "integracao_final": {
+    "sha256_texto_atual": "2bfad5ef30001a427a233cd6633d8f986f6e67b2eb51a69cd57916c09fd12c7f",
+    "sha256_texto_revisado_antes_da_montagem": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "alteracoes_de_integracao": 5,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "sha256_pdf_anterior": null,
+    "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+    "sha256_pdf": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 218
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "sha256_pdf": "51917a0fc0bf4f6c11ab644ee897c5a16473078034c1f958c668226f06131837",
+  "revalidacao_2026_10_04_quinta_passada": {
+    "sha256_texto_anterior": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+    "sha256_pdf_anterior": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+    "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
+    "sha256_pdf": "51917a0fc0bf4f6c11ab644ee897c5a16473078034c1f958c668226f06131837",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 218
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quinta passada de 04/10/2026 (D25 a D41). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quinta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
+}

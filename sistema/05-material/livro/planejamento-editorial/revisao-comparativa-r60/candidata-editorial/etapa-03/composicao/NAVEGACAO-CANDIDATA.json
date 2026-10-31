@@ -1,0 +1,242 @@
+[
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-01",
+    "titulo": "Criar sua técnica",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-02",
+    "titulo": "Sua técnica",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-03",
+    "titulo": "Conheça as Famílias",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-04",
+    "titulo": "Selo",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-05",
+    "titulo": "Capacidades da técnica",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-06",
+    "titulo": "Expressão da técnica",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-07",
+    "titulo": "Talentos pagos",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-08",
+    "titulo": "Criar uma Regra Própria",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-09",
+    "titulo": "Montar sua aplicação",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-10",
+    "titulo": "Seu primeiro feitiço",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-11",
+    "titulo": "Montar aplicações de Classe 0",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-12",
+    "titulo": "Feitiços de Classe 0",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-13",
+    "titulo": "Consultar a montagem",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-14",
+    "titulo": "Famílias",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-15",
+    "titulo": "Feitiços conhecidos",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-16",
+    "titulo": "Pontos e preços",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-17",
+    "titulo": "Funções e saldo",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-18",
+    "titulo": "Formas",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-19",
+    "titulo": "Alcance e área",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-20",
+    "titulo": "Conjurar",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-21",
+    "titulo": "Restrições e combinações",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-22",
+    "titulo": "Restrições",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-23",
+    "titulo": "Combinar peças",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-24",
+    "titulo": "Três mesclas prontas",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-25",
+    "titulo": "Controle",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-26",
+    "titulo": "Outras aplicações",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-27",
+    "titulo": "Dano e repetições",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-28",
+    "titulo": "Áreas persistentes",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-29",
+    "titulo": "Usar a técnica fora de combate",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-30",
+    "titulo": "Uso Livre",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-31",
+    "titulo": "Efeitos fora de combate",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-32",
+    "titulo": "Desenvolver suas aplicações",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-33",
+    "titulo": "Ampliar um feitiço",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-34",
+    "titulo": "Efeitos próprios",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-35",
+    "titulo": "Liberação Máxima",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-36",
+    "titulo": "Técnica Máxima",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-38",
+    "titulo": "Exemplo: Passagem de Papel",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-39",
+    "titulo": "Exemplo: Retirada de Emergência",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-40",
+    "titulo": "Ficha de feitiço",
+    "nivel": 3
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento-nav-41",
+    "titulo": "Caminhos e usos especiais",
+    "nivel": 3
+  }
+]

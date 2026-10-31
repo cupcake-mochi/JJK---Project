@@ -1,0 +1,38 @@
+[
+  {
+    "id": "R40-C01",
+    "antes": "Sumário com 21 capítulos, em uma página.",
+    "depois": "Sumário de três páginas com 21 capítulos e 156 seções; os marcadores seguem sua hierarquia.",
+    "motivo": "Acesso aos procedimentos de criação, aptidões, Caminhos e Trilhas."
+  },
+  {
+    "id": "R40-C02",
+    "antes": "Habilidades com prefixos, sufixos, rótulos em negrito e subtítulos de diferentes hierarquias.",
+    "depois": "Nome da habilidade em entrada; nível em linha própria; detalhes, grupos e exemplos recebem os tratamentos aprovados correspondentes.",
+    "motivo": "Uniformizar a função dos títulos entre os seis Caminhos."
+  },
+  {
+    "id": "R40-C03",
+    "antes": "Introdução terminada em dois-pontos podia ser separada de toda a lista.",
+    "depois": "Introdução junto do primeiro item quando cabe na coluna.",
+    "motivo": "Preservar a continuidade da leitura."
+  },
+  {
+    "id": "R40-C04",
+    "antes": "Abertura de Trilha podia aparecer com apresentação/tabela, sem sua primeira habilidade.",
+    "depois": "Nas aberturas sem arte, reunir título, introdução, tabela curta e começo da primeira habilidade quando couberem.",
+    "motivo": "Evitar apresentação isolada; aberturas ilustradas existentes preservadas."
+  },
+  {
+    "id": "R40-C05",
+    "antes": {
+      "indice_padding_superior_pt": 2,
+      "indice_padding_inferior_pt": 2
+    },
+    "depois": {
+      "indice_padding_superior_pt": 1.8,
+      "indice_padding_inferior_pt": 1.8
+    },
+    "motivo": "Manter o índice em quatro páginas, sem uma quinta página com apenas duas entradas; fonte e tamanho mantidos."
+  }
+]

@@ -1,0 +1,1945 @@
+[
+  {
+    "entrada": "Origens",
+    "bloco": "origens--origens",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Escolhas da Origem",
+    "bloco": "origens--origem-escolhas",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Traço e história",
+    "bloco": "origens--origem-escolhas",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Legados de história",
+    "bloco": "origens--legados",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Usar as capacidades da Origem",
+    "bloco": "origens--legados",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Personalizar sua Origem",
+    "bloco": "origens--legado-criar",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Famílias próprias",
+    "bloco": "origens--legado-criar",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Rever a Origem",
+    "bloco": "origens--legado-criar",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/01-escolhas.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Latente",
+    "bloco": "origens--origem-latente",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-TENTATIVA-E-ERRO-v03.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Tentativa e Erro",
+    "bloco": "origens--origem-latente",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-TENTATIVA-E-ERRO-v03.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Latente",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-TENTATIVA-E-ERRO-v03.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Manifestação Instintiva",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Prontidão Instintiva",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Foco Visceral",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Aptidão Intuitiva",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Presença Bruta",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Retomar o Controle",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Certeza Momentânea",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Gambiarra",
+    "bloco": "origens--latente-beneficios",
+    "decisoes": "A032–A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md"
+    ],
+    "texto": "texto-final/02-latente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Receptáculo",
+    "bloco": "origens--origem-receptaculo",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Coexistência",
+    "bloco": "origens--origem-receptaculo",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Repertório Compartilhado",
+    "bloco": "origens--origem-receptaculo",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Amparo Interior",
+    "bloco": "origens--origem-receptaculo",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Conflito",
+    "bloco": "origens--receptaculo-acordos",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reserva Impregnada",
+    "bloco": "origens--receptaculo-acordos",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Resposta à Invasão",
+    "bloco": "origens--receptaculo-acordos",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Receptáculo",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Memória Corporal",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Traço Incorporado",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Voz Intrusa",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Foco Inscrito",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reserva Residual",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Orientação Instintiva",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Conselho Interior",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Vontade de Cárcere",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Disputa pelo corpo",
+    "bloco": "origens--receptaculo-excecoes",
+    "decisoes": "A063–A070",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/03-receptaculo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Encarnado",
+    "bloco": "origens--origem-encarnado",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MARCANTE-DUAS-VIDAS-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Duas Vidas",
+    "bloco": "origens--origem-encarnado",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MARCANTE-DUAS-VIDAS-APROVADA-v01.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Encarnado",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MARCANTE-DUAS-VIDAS-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Especialidade Antiga",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Guarda Reaprendida",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Percepção de Contorno",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Experiência Transmitida",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Memória Testemunha",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Vivência de Outra Era",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Experiência Preservada",
+    "bloco": "origens--encarnado-beneficios",
+    "decisoes": "A071–A076",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md"
+    ],
+    "texto": "texto-final/04-encarnado.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Descendente",
+    "bloco": "origens--origem-descendente",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Zenin",
+    "bloco": "origens--descendente-zenin",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Recuperação do Fôlego",
+    "bloco": "origens--descendente-zenin",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Execução Treinada",
+    "bloco": "origens--descendente-zenin",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Disciplina Treinada",
+    "bloco": "origens--descendente-zenin",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Kamo",
+    "bloco": "origens--descendente-kamo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Execução Ensaiada",
+    "bloco": "origens--descendente-kamo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Contingência Estudada",
+    "bloco": "origens--descendente-kamo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Gojo",
+    "bloco": "origens--descendente-gojo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Execução Reservada",
+    "bloco": "origens--descendente-gojo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Antecipação Estudada",
+    "bloco": "origens--descendente-gojo",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Inumaki",
+    "bloco": "origens--descendente-inumaki",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Entendimento Tácito",
+    "bloco": "origens--descendente-inumaki",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Linguagem da Serpente",
+    "bloco": "origens--descendente-inumaki",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Leitura a Dois",
+    "bloco": "origens--descendente-inumaki",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Descendente",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Cofre da Família",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Ensaio Partilhado",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Método Reescrito",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Círculo Íntimo",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Notas de Família",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Autoridade de Berço",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Bagagem Prevenida",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Palavra Empenhada",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Fundamento Incorporado",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Treino de Armas da Casa",
+    "bloco": "origens--descendente-beneficios",
+    "decisoes": "A077–A087",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/05-descendente.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Híbrido",
+    "bloco": "origens--origem-feto",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MARCANTE-REGENERACAO-ORGANICA-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Regeneração Orgânica",
+    "bloco": "origens--origem-feto",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MARCANTE-REGENERACAO-ORGANICA-v04.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A14:H28 + destaque FICHA!D26:I28",
+    "automacao": "aviso de elegibilidade e impedimentos informados",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Híbrido",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MARCANTE-REGENERACAO-ORGANICA-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Anatomia Suplementar",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Armamento Orgânico",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Locomoção Adaptada",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Bolsa Orgânica",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Memória da Dor",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Recomposição Precisa",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reserva Orgânica",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Metabolismo Flexível",
+    "bloco": "origens--feto-beneficios",
+    "decisoes": "A048–A050",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md"
+    ],
+    "texto": "texto-final/06-hibrido.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo Amaldiçoado",
+    "bloco": "origens--origem-corpo",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Histórias do corpo",
+    "bloco": "origens--corpo-configuracoes",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Existência Artificial",
+    "bloco": "origens--corpo-existencia",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Repouso",
+    "bloco": "origens--corpo-existencia",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Recuperação da estrutura",
+    "bloco": "origens--corpo-existencia",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Manutenção Precisa",
+    "bloco": "origens--corpo-existencia",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reparo do corpo",
+    "bloco": "origens--origem-reparo",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores do Corpo Amaldiçoado",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Ferramentas Integradas",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Acabamento Trocável",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Amortecimento de Queda",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reparo Autônomo",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Redundância",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Carcaça Grande",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Construção Especializada",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Arquivo de Procedimentos",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores de Manutenção",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Núcleo Dependente",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Alma e Integridade",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Falta de energia",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Recuperação de energia",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Mente Resguardada",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "decisoes": "A051–A062; I002",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md"
+    ],
+    "texto": "texto-final/07-corpo.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Restrição Celestial",
+    "bloco": "origens--origem-restricao",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Sem Energia",
+    "bloco": "origens--restricao-sem-energia",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Ataque sem Prenúncio",
+    "bloco": "origens--restricao-prenuncio",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Antecipação e bloqueio",
+    "bloco": "origens--restricao-prenuncio",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Estudar a execução",
+    "bloco": "origens--restricao-prenuncio",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Memória entre encontros",
+    "bloco": "origens--restricao-prenuncio",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores de Sem Energia",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Porte Incomum",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo Flexível",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Mapa Mental",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Aprendizado Complementar",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Assistência Técnica",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Ferramentas Improvisadas",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Fôlego Recuperado",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Contribuição Decisiva",
+    "bloco": "origens--restricao-beneficios",
+    "decisoes": "A016–A031",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md"
+    ],
+    "texto": "texto-final/08-restricao-sem-energia.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Restrição corporal",
+    "bloco": "origens--restricao-corpo",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Criar sua Restrição",
+    "bloco": "origens--restricao-corpo",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Talento de Categoria de Efeito 4",
+    "bloco": "origens--restricao-ce4",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Rede Remota",
+    "bloco": "origens--restricao-ce4",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Outras referências de criação",
+    "bloco": "origens--restricao-ce4",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Saída Elevada",
+    "bloco": "origens--restricao-saida",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo Debilitado",
+    "bloco": "origens--restricao-debilitado",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Pele e repouso",
+    "bloco": "origens--restricao-debilitado",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo Quebradiço",
+    "bloco": "origens--restricao-quebradico",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Cuidados",
+    "bloco": "origens--restricao-quebradico",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo Exaurido",
+    "bloco": "origens--restricao-exaurido",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Cura e repouso",
+    "bloco": "origens--restricao-exaurido",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Menores da Restrição corporal",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reserva Condensada",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Reserva Excedente",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Recuperação Abundante",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Sobrecarga Deliberada",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Leitura de Reservas",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Último Fôlego de Energia",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Percepção Estendida",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Prática Cotidiana",
+    "bloco": "origens--restricao-menores-corporais",
+    "decisoes": "A088–A100; I001",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md"
+    ],
+    "texto": "texto-final/09-restricao-corporal.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Sem Técnica",
+    "bloco": "origens--origem-sem-tecnica",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/10-sem-tecnica-e-exemplos.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Exemplos de personagens",
+    "bloco": "origens--legados-exemplos",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/10-sem-tecnica-e-exemplos.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Latente com passado comum",
+    "bloco": "origens--legados-exemplos",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/10-sem-tecnica-e-exemplos.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Corpo com endereço de retorno",
+    "bloco": "origens--legados-exemplos",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/10-sem-tecnica-e-exemplos.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  },
+  {
+    "entrada": "Conferência da ficha",
+    "bloco": "origens--legados-exemplos",
+    "decisoes": "A001–A015, A047",
+    "fontes_da_montagem": [
+      "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md"
+    ],
+    "texto": "texto-final/10-sem-tecnica-e-exemplos.md",
+    "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
+    "automacao": "registro manual; efeito não aplicado automaticamente",
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+  }
+]

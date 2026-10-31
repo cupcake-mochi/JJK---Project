@@ -1,0 +1,3642 @@
+[
+  {
+    "pagina": 7,
+    "capitulo": 1,
+    "faixa": "7-1",
+    "primeiro": "ab--ab-apresentacao--r38-1",
+    "ultimo": "ab--ab-apresentacao--r38-8",
+    "altura_esquerda": 361.6,
+    "altura_direita": 446.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 8,
+    "capitulo": 1,
+    "faixa": "8-0",
+    "primeiro": "ab--ab-primeira-sessao--r38-9",
+    "ultimo": "ab--ab-primeira-sessao--r38-16",
+    "altura_esquerda": 400.4,
+    "altura_direita": 365.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 10,
+    "capitulo": 1,
+    "faixa": "10-0",
+    "primeiro": "ab--ab-mundo-sub-1--r38-0",
+    "ultimo": "ab--ab-mundo--r38-6",
+    "altura_esquerda": 334.0,
+    "altura_direita": 392.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 11,
+    "capitulo": 1,
+    "faixa": "11-0",
+    "primeiro": "ab--ab-sociedade--r38-7",
+    "ultimo": "ab--ab-sociedade--r38-13",
+    "altura_esquerda": 440.0,
+    "altura_direita": 351.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 14,
+    "capitulo": 2,
+    "faixa": "14-0",
+    "primeiro": "geral--atributos--r38-0",
+    "ultimo": "geral--atributos--r38-9",
+    "altura_esquerda": 504.5,
+    "altura_direita": 497.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 15,
+    "capitulo": 2,
+    "faixa": "15-0",
+    "primeiro": "geral--testes--r38-10",
+    "ultimo": "geral--pericias--r38-20",
+    "altura_esquerda": 663.2,
+    "altura_direita": 652.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 16,
+    "capitulo": 2,
+    "faixa": "16-0",
+    "primeiro": "geral--pericias-sub-1--r38-21",
+    "ultimo": "geral--resistencia--r38-34",
+    "altura_esquerda": 654.8,
+    "altura_direita": 632.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 17,
+    "capitulo": 2,
+    "faixa": "17-0",
+    "primeiro": "geral--resistencia-sub-2--r38-35",
+    "ultimo": "geral--turnos--r38-46",
+    "altura_esquerda": 568.4,
+    "altura_direita": 636.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 18,
+    "capitulo": 2,
+    "faixa": "18-0",
+    "primeiro": "geral--turnos-sub-4--r38-47",
+    "ultimo": "geral--acoes-sub-2--r38-57",
+    "altura_esquerda": 603.5,
+    "altura_direita": 559.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 19,
+    "capitulo": 2,
+    "faixa": "19-0",
+    "primeiro": "geral--acoes-sub-3--r38-58",
+    "ultimo": "geral--interacao--r38-70",
+    "altura_esquerda": 614.8,
+    "altura_direita": 594.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 20,
+    "capitulo": 2,
+    "faixa": "20-0",
+    "primeiro": "geral--interacao-sub-2--r38-71",
+    "ultimo": "geral--preparar--r38-83",
+    "altura_esquerda": 579.2,
+    "altura_direita": 532.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 21,
+    "capitulo": 2,
+    "faixa": "21-0",
+    "primeiro": "geral--preparar-sub-4--r38-84",
+    "ultimo": "geral--concentracao-sub-1--r38-96",
+    "altura_esquerda": 633.2,
+    "altura_direita": 646.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 22,
+    "capitulo": 2,
+    "faixa": "22-0",
+    "primeiro": "geral--concentracao--r38-97",
+    "ultimo": "geral--ataques--r38-108",
+    "altura_esquerda": 516.8,
+    "altura_direita": 531.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 23,
+    "capitulo": 2,
+    "faixa": "23-0",
+    "primeiro": "geral--ataques-sub-3--r38-109",
+    "ultimo": "geral--alcance--r38-121",
+    "altura_esquerda": 659.4,
+    "altura_direita": 660.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 24,
+    "capitulo": 2,
+    "faixa": "24-0",
+    "primeiro": "geral--critico--r38-122",
+    "ultimo": "geral--defesa--r38-132",
+    "altura_esquerda": 584.8,
+    "altura_direita": 556.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 25,
+    "capitulo": 2,
+    "faixa": "25-0",
+    "primeiro": "geral--defesa-sub-1--r38-133",
+    "ultimo": "geral--defesa--r38-139",
+    "altura_esquerda": 355.4,
+    "altura_direita": 408.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 26,
+    "capitulo": 2,
+    "faixa": "26-0",
+    "primeiro": "geral--defesa-sub-3--r38-141",
+    "ultimo": "geral--bloquear--r38-155",
+    "altura_esquerda": 577.4,
+    "altura_direita": 613.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 27,
+    "capitulo": 2,
+    "faixa": "27-0",
+    "primeiro": "geral--aparar--r38-156",
+    "ultimo": "geral--manobras--r38-169",
+    "altura_esquerda": 666.8,
+    "altura_direita": 596.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 28,
+    "capitulo": 2,
+    "faixa": "28-0",
+    "primeiro": "geral--manobras--r38-170",
+    "ultimo": "geral--contencoes--r38-183",
+    "altura_esquerda": 663.0,
+    "altura_direita": 671.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 29,
+    "capitulo": 2,
+    "faixa": "29-0",
+    "primeiro": "geral--movimento--r38-184",
+    "ultimo": "geral--movimento--r38-193",
+    "altura_esquerda": 479.4,
+    "altura_direita": 532.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 30,
+    "capitulo": 2,
+    "faixa": "30-1",
+    "primeiro": "geral--espacos--r38-195",
+    "ultimo": "geral--espacos--r38-201",
+    "altura_esquerda": 419.1,
+    "altura_direita": 428.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 31,
+    "capitulo": 2,
+    "faixa": "31-0",
+    "primeiro": "geral--distancias--r38-202",
+    "ultimo": "geral--saltos--r38-213",
+    "altura_esquerda": 596.0,
+    "altura_direita": 609.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 32,
+    "capitulo": 2,
+    "faixa": "32-0",
+    "primeiro": "geral--saltos--r38-214",
+    "ultimo": "geral--quedas-sub-2--r38-224",
+    "altura_esquerda": 514.6,
+    "altura_direita": 648.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 33,
+    "capitulo": 2,
+    "faixa": "33-0",
+    "primeiro": "geral--quedas-sub-3--r38-225",
+    "ultimo": "geral--rastejar--r38-237",
+    "altura_esquerda": 643.2,
+    "altura_direita": 613.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 34,
+    "capitulo": 2,
+    "faixa": "34-0",
+    "primeiro": "geral--rastejar-sub-1--r38-238",
+    "ultimo": "geral--voo-sub-2--r38-249",
+    "altura_esquerda": 600.7,
+    "altura_direita": 587.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 35,
+    "capitulo": 2,
+    "faixa": "35-0",
+    "primeiro": "geral--voo-sub-3--r38-250",
+    "ultimo": "geral--carga--r38-261",
+    "altura_esquerda": 516.8,
+    "altura_direita": 576.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 36,
+    "capitulo": 2,
+    "faixa": "36-0",
+    "primeiro": "geral--carga-sub-2--r38-262",
+    "ultimo": "geral--arrasto--r38-273",
+    "altura_esquerda": 593.4,
+    "altura_direita": 586.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 37,
+    "capitulo": 2,
+    "faixa": "37-0",
+    "primeiro": "geral--montaria--r38-274",
+    "ultimo": "geral--perceber--r38-285",
+    "altura_esquerda": 596.0,
+    "altura_direita": 554.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 38,
+    "capitulo": 2,
+    "faixa": "38-0",
+    "primeiro": "geral--perceber-sub-2--r38-286",
+    "ultimo": "geral--esconder--r38-298",
+    "altura_esquerda": 638.1,
+    "altura_direita": 611.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 39,
+    "capitulo": 2,
+    "faixa": "39-0",
+    "primeiro": "geral--esconder-sub-3--r38-299",
+    "ultimo": "geral--ocultacao-ataque--r38-310",
+    "altura_esquerda": 669.6,
+    "altura_direita": 672.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 40,
+    "capitulo": 2,
+    "faixa": "40-0",
+    "primeiro": "geral--ocultacao-ataque--r38-311",
+    "ultimo": "geral--estudar-sub-1--r38-320",
+    "altura_esquerda": 586.8,
+    "altura_direita": 617.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 41,
+    "capitulo": 2,
+    "faixa": "41-0",
+    "primeiro": "geral--estudar--r38-321",
+    "ultimo": "geral--mundo--r38-332",
+    "altura_esquerda": 619.4,
+    "altura_direita": 625.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 42,
+    "capitulo": 2,
+    "faixa": "42-0",
+    "primeiro": "geral--buscar--r38-333",
+    "ultimo": "geral--pressao--r38-342",
+    "altura_esquerda": 546.8,
+    "altura_direita": 599.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 43,
+    "capitulo": 2,
+    "faixa": "43-0",
+    "primeiro": "geral--pressao-sub-1--r38-343",
+    "ultimo": "geral--ler--r38-353",
+    "altura_esquerda": 552.8,
+    "altura_direita": 582.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 44,
+    "capitulo": 2,
+    "faixa": "44-0",
+    "primeiro": "geral--ler-sub-2--r38-354",
+    "ultimo": "geral--energia-exemplo--r38-364",
+    "altura_esquerda": 507.2,
+    "altura_direita": 558.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 47,
+    "capitulo": 3,
+    "faixa": "47-0",
+    "primeiro": "dano--dano--r38-0",
+    "ultimo": "dano--dano-sub-3--r38-10",
+    "altura_esquerda": 523.6,
+    "altura_direita": 534.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 48,
+    "capitulo": 3,
+    "faixa": "48-0",
+    "primeiro": "dano--tipos--r38-11",
+    "ultimo": "dano--reducao--r38-22",
+    "altura_esquerda": 589.2,
+    "altura_direita": 602.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 49,
+    "capitulo": 3,
+    "faixa": "49-0",
+    "primeiro": "dano--reducao--r38-23",
+    "ultimo": "dano--integridade--r38-36",
+    "altura_esquerda": 640.2,
+    "altura_direita": 650.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 50,
+    "capitulo": 3,
+    "faixa": "50-0",
+    "primeiro": "dano--integridade-sub-1--r38-37",
+    "ultimo": "dano--condicoes--r38-49",
+    "altura_esquerda": 606.0,
+    "altura_direita": 609.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 51,
+    "capitulo": 3,
+    "faixa": "51-0",
+    "primeiro": "dano--condicoes--r38-50",
+    "ultimo": "dano--leves-sub-5--r38-62",
+    "altura_esquerda": 652.7,
+    "altura_direita": 578.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 52,
+    "capitulo": 3,
+    "faixa": "52-0",
+    "primeiro": "dano--leves-sub-6--r38-63",
+    "ultimo": "dano--pesadas--r38-75",
+    "altura_esquerda": 612.0,
+    "altura_direita": 657.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 53,
+    "capitulo": 3,
+    "faixa": "53-0",
+    "primeiro": "dano--pesadas-sub-2--r38-77",
+    "ultimo": "dano--cura--r38-90",
+    "altura_esquerda": 599.6,
+    "altura_direita": 628.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 54,
+    "capitulo": 3,
+    "faixa": "54-0",
+    "primeiro": "dano--cura-sub-2--r38-91",
+    "ultimo": "dano--zero--r38-103",
+    "altura_esquerda": 572.7,
+    "altura_direita": 607.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 55,
+    "capitulo": 3,
+    "faixa": "55-0",
+    "primeiro": "dano--zero--r38-104",
+    "ultimo": "dano--zero-sub-2--r38-115",
+    "altura_esquerda": 631.4,
+    "altura_direita": 635.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 56,
+    "capitulo": 3,
+    "faixa": "56-0",
+    "primeiro": "dano--insistir--r38-117",
+    "ultimo": "dano--socorro--r38-130",
+    "altura_esquerda": 638.0,
+    "altura_direita": 669.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 57,
+    "capitulo": 3,
+    "faixa": "57-0",
+    "primeiro": "dano--socorro-sub-2--r38-131",
+    "ultimo": "dano--sequelas--r38-140",
+    "altura_esquerda": 548.8,
+    "altura_direita": 613.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 58,
+    "capitulo": 3,
+    "faixa": "58-0",
+    "primeiro": "dano--sequelas-sub-1--r38-141",
+    "ultimo": "dano--derrota--r38-153",
+    "altura_esquerda": 588.8,
+    "altura_direita": 639.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 59,
+    "capitulo": 3,
+    "faixa": "59-0",
+    "primeiro": "dano--inconsciente--r38-154",
+    "ultimo": "dano--descansos--r38-166",
+    "altura_esquerda": 401.6,
+    "altura_direita": 604.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 60,
+    "capitulo": 3,
+    "faixa": "60-0",
+    "primeiro": "dano--descansos-sub-3--r38-167",
+    "ultimo": "dano--exaustao--r38-179",
+    "altura_esquerda": 599.9,
+    "altura_direita": 608.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 61,
+    "capitulo": 3,
+    "faixa": "61-0",
+    "primeiro": "dano--exaustao-sub-3--r38-180",
+    "ultimo": "dano--usos--r38-191",
+    "altura_esquerda": 577.0,
+    "altura_direita": 652.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 63,
+    "capitulo": 4,
+    "faixa": "63-1",
+    "primeiro": "ab--ab-criacao--r38-1",
+    "ultimo": "ab--ab-origem--r38-12",
+    "altura_esquerda": 463.1,
+    "altura_direita": 546.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 64,
+    "capitulo": 4,
+    "faixa": "64-0",
+    "primeiro": "ab--ab-origem--r38-13",
+    "ultimo": "ab--ab-caminho--r38-24",
+    "altura_esquerda": 595.2,
+    "altura_direita": 518.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 65,
+    "capitulo": 4,
+    "faixa": "65-0",
+    "primeiro": "ab--ab-caminho-sub-1--r38-25",
+    "ultimo": "ab--ab-capacidades--r38-36",
+    "altura_esquerda": 652.3,
+    "altura_direita": 637.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 66,
+    "capitulo": 4,
+    "faixa": "66-0",
+    "primeiro": "ab--ab-capacidades-sub-2--r38-37",
+    "ultimo": "ab--ab-equipamento--r38-45",
+    "altura_esquerda": 360.4,
+    "altura_direita": 650.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 67,
+    "capitulo": 4,
+    "faixa": "67-0",
+    "primeiro": "ab--ab-equipamento-sub-3--r38-46",
+    "ultimo": "ab--ab-kaori--r38-59",
+    "altura_esquerda": 648.2,
+    "altura_direita": 535.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 68,
+    "capitulo": 4,
+    "faixa": "68-0",
+    "primeiro": "ab--ab-resgate--r38-60",
+    "ultimo": "ab--ab-combate--r38-72",
+    "altura_esquerda": 620.4,
+    "altura_direita": 597.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 69,
+    "capitulo": 4,
+    "faixa": "69-0",
+    "primeiro": "ab--ab-combate-sub-4--r38-73",
+    "ultimo": "ab--ab-conferencia--r38-86",
+    "altura_esquerda": 473.4,
+    "altura_direita": 473.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 72,
+    "capitulo": 5,
+    "faixa": "72-0",
+    "primeiro": "origens--origem-escolhas--r38-0",
+    "ultimo": "origens--legados--r38-12",
+    "altura_esquerda": 660.1,
+    "altura_direita": 670.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 73,
+    "capitulo": 5,
+    "faixa": "73-0",
+    "primeiro": "origens--legados--r38-13",
+    "ultimo": "origens--origem-latente--r38-25",
+    "altura_esquerda": 654.8,
+    "altura_direita": 654.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 74,
+    "capitulo": 5,
+    "faixa": "74-0",
+    "primeiro": "origens--latente-beneficios--r38-26",
+    "ultimo": "origens--latente-beneficios-sub-8--r38-36",
+    "altura_esquerda": 578.8,
+    "altura_direita": 580.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 76,
+    "capitulo": 5,
+    "faixa": "76-0",
+    "primeiro": "origens--receptaculo-acordos--r38-0",
+    "ultimo": "origens--receptaculo-excecoes-sub-3--r38-11",
+    "altura_esquerda": 598.0,
+    "altura_direita": 628.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 77,
+    "capitulo": 5,
+    "faixa": "77-0",
+    "primeiro": "origens--receptaculo-excecoes-sub-4--r38-12",
+    "ultimo": "origens--origem-descendente--r38-22",
+    "altura_esquerda": 572.8,
+    "altura_direita": 534.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 78,
+    "capitulo": 5,
+    "faixa": "78-0",
+    "primeiro": "origens--descendente-zenin--r38-23",
+    "ultimo": "origens--descendente-kamo--r38-36",
+    "altura_esquerda": 592.4,
+    "altura_direita": 666.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 79,
+    "capitulo": 5,
+    "faixa": "79-0",
+    "primeiro": "origens--descendente-kamo-sub-2--r38-37",
+    "ultimo": "origens--descendente-gojo--r38-52",
+    "altura_esquerda": 588.8,
+    "altura_direita": 540.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 80,
+    "capitulo": 5,
+    "faixa": "80-0",
+    "primeiro": "origens--descendente-inumaki--r38-53",
+    "ultimo": "origens--descendente-inumaki-sub-3--r38-61",
+    "altura_esquerda": 575.6,
+    "altura_direita": 588.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 81,
+    "capitulo": 5,
+    "faixa": "81-0",
+    "primeiro": "origens--descendente-beneficios--r38-66",
+    "ultimo": "origens--descendente-beneficios-sub-6--r38-76",
+    "altura_esquerda": 532.0,
+    "altura_direita": 525.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 82,
+    "capitulo": 5,
+    "faixa": "82-0",
+    "primeiro": "origens--descendente-beneficios-sub-7--r38-77",
+    "ultimo": "origens--origem-encarnado--r38-86",
+    "altura_esquerda": 492.5,
+    "altura_direita": 547.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 83,
+    "capitulo": 5,
+    "faixa": "83-0",
+    "primeiro": "origens--origem-encarnado-sub-1--r38-87",
+    "ultimo": "origens--encarnado-beneficios--r38-96",
+    "altura_esquerda": 420.4,
+    "altura_direita": 575.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 84,
+    "capitulo": 5,
+    "faixa": "84-0",
+    "primeiro": "origens--encarnado-beneficios-sub-4--r38-97",
+    "ultimo": "origens--encarnado-beneficios--r38-104",
+    "altura_esquerda": 369.2,
+    "altura_direita": 369.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 86,
+    "capitulo": 5,
+    "faixa": "86-0",
+    "primeiro": "origens--origem-feto-sub-1--r38-0",
+    "ultimo": "origens--feto-beneficios--r38-9",
+    "altura_esquerda": 442.6,
+    "altura_direita": 350.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 87,
+    "capitulo": 5,
+    "faixa": "87-1",
+    "primeiro": "origens--feto-beneficios-sub-3--r38-13",
+    "ultimo": "origens--feto-beneficios-sub-4--r38-17",
+    "altura_esquerda": 201.2,
+    "altura_direita": 129.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 88,
+    "capitulo": 5,
+    "faixa": "88-0",
+    "primeiro": "origens--feto-beneficios-sub-5--r38-18",
+    "ultimo": "origens--feto-beneficios-sub-8--r38-23",
+    "altura_esquerda": 246.4,
+    "altura_direita": 246.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 90,
+    "capitulo": 5,
+    "faixa": "90-0",
+    "primeiro": "origens--corpo-configuracoes--r38-0",
+    "ultimo": "origens--corpo-existencia--r38-13",
+    "altura_esquerda": 589.2,
+    "altura_direita": 628.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 91,
+    "capitulo": 5,
+    "faixa": "91-0",
+    "primeiro": "origens--origem-reparo--r38-14",
+    "ultimo": "origens--corpo-ninhada-gemeos--r38-24",
+    "altura_esquerda": 483.2,
+    "altura_direita": 584.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 92,
+    "capitulo": 5,
+    "faixa": "92-0",
+    "primeiro": "origens--corpo-ninhada-gemeos-sub-3--r38-25",
+    "ultimo": "origens--corpo-inteiro-manutencao--r38-39",
+    "altura_esquerda": 642.8,
+    "altura_direita": 627.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 93,
+    "capitulo": 5,
+    "faixa": "93-0",
+    "primeiro": "origens--corpo-inteiro-manutencao-sub-2--r38-40",
+    "ultimo": "origens--corpo-inteiro-manutencao--r38-50",
+    "altura_esquerda": 522.4,
+    "altura_direita": 443.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 95,
+    "capitulo": 5,
+    "faixa": "95-0",
+    "primeiro": "origens--restricao-sem-energia--r38-0",
+    "ultimo": "origens--restricao-prenuncio--r38-11",
+    "altura_esquerda": 667.6,
+    "altura_direita": 628.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 96,
+    "capitulo": 5,
+    "faixa": "96-0",
+    "primeiro": "origens--restricao-prenuncio-sub-2--r38-12",
+    "ultimo": "origens--restricao-beneficios-sub-2--r38-23",
+    "altura_esquerda": 632.0,
+    "altura_direita": 581.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 97,
+    "capitulo": 5,
+    "faixa": "97-0",
+    "primeiro": "origens--restricao-beneficios-sub-3--r38-24",
+    "ultimo": "origens--restricao-beneficios--r38-34",
+    "altura_esquerda": 578.4,
+    "altura_direita": 569.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 98,
+    "capitulo": 5,
+    "faixa": "98-0",
+    "primeiro": "origens--restricao-corpo--r38-35",
+    "ultimo": "origens--restricao-ce4--r38-44",
+    "altura_esquerda": 509.2,
+    "altura_direita": 477.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 99,
+    "capitulo": 5,
+    "faixa": "99-0",
+    "primeiro": "origens--restricao-ce4-sub-1--r38-45",
+    "ultimo": "origens--restricao-ce4--r38-52",
+    "altura_esquerda": 372.6,
+    "altura_direita": 380.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 100,
+    "capitulo": 5,
+    "faixa": "100-0",
+    "primeiro": "origens--restricao-debilitado--r38-56",
+    "ultimo": "origens--restricao-quebradico--r38-66",
+    "altura_esquerda": 575.2,
+    "altura_direita": 573.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 101,
+    "capitulo": 5,
+    "faixa": "101-0",
+    "primeiro": "origens--restricao-quebradico-sub-1--r38-67",
+    "ultimo": "origens--restricao-exaurido--r38-76",
+    "altura_esquerda": 535.6,
+    "altura_direita": 569.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 102,
+    "capitulo": 5,
+    "faixa": "102-0",
+    "primeiro": "origens--restricao-menores-corporais--r38-77",
+    "ultimo": "origens--restricao-menores-corporais-sub-7--r38-87",
+    "altura_esquerda": 509.2,
+    "altura_direita": 525.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 103,
+    "capitulo": 5,
+    "faixa": "103-0",
+    "primeiro": "origens--restricao-menores-corporais-sub-8--r38-88",
+    "ultimo": "origens--legado-criar--r38-98",
+    "altura_esquerda": 548.6,
+    "altura_direita": 632.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 104,
+    "capitulo": 5,
+    "faixa": "104-0",
+    "primeiro": "origens--legados-exemplos--r38-99",
+    "ultimo": "origens--legados-exemplos--r38-105",
+    "altura_esquerda": 362.8,
+    "altura_direita": 367.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 107,
+    "capitulo": 6,
+    "faixa": "107-0",
+    "primeiro": "bastiao--bas-bastiao-sub-1--r38-0",
+    "ultimo": "bastiao--bas-olhos-sub-1--r38-10",
+    "altura_esquerda": 379.8,
+    "altura_direita": 628.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 108,
+    "capitulo": 6,
+    "faixa": "108-0",
+    "primeiro": "bastiao--bas-olhos--r38-11",
+    "ultimo": "bastiao--bas-defesa--r38-22",
+    "altura_esquerda": 621.0,
+    "altura_direita": 629.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 109,
+    "capitulo": 6,
+    "faixa": "109-0",
+    "primeiro": "bastiao--bas-aliados--r38-23",
+    "ultimo": "bastiao--bas-muro--r38-34",
+    "altura_esquerda": 643.0,
+    "altura_direita": 662.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 110,
+    "capitulo": 6,
+    "faixa": "110-0",
+    "primeiro": "bastiao--bas-muro-sub-3--r38-35",
+    "ultimo": "bastiao--bas-casca--r38-45",
+    "altura_esquerda": 440.0,
+    "altura_direita": 501.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 111,
+    "capitulo": 6,
+    "faixa": "111-0",
+    "primeiro": "bastiao--bas-punho--r38-46",
+    "ultimo": "bastiao--bas-mao--r38-58",
+    "altura_esquerda": 592.7,
+    "altura_direita": 670.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 112,
+    "capitulo": 6,
+    "faixa": "112-0",
+    "primeiro": "bastiao--bas-arrastao--r38-59",
+    "ultimo": "bastiao--bas-combatente--r38-70",
+    "altura_esquerda": 615.9,
+    "altura_direita": 592.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 113,
+    "capitulo": 6,
+    "faixa": "113-0",
+    "primeiro": "bastiao--bas-combatente-sub-3--r38-71",
+    "ultimo": "bastiao--bas-oportunista--r38-81",
+    "altura_esquerda": 513.2,
+    "altura_direita": 549.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 115,
+    "capitulo": 6,
+    "faixa": "115-0",
+    "primeiro": "vanguarda--van-base-sub-1--r38-0",
+    "ultimo": "vanguarda--van-sequencia--r38-9",
+    "altura_esquerda": 446.6,
+    "altura_direita": 430.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 116,
+    "capitulo": 6,
+    "faixa": "116-0",
+    "primeiro": "vanguarda--van-sequencia-sub-1--r38-10",
+    "ultimo": "vanguarda--van-escola--r38-21",
+    "altura_esquerda": 517.0,
+    "altura_direita": 431.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 117,
+    "capitulo": 6,
+    "faixa": "117-0",
+    "primeiro": "vanguarda--van-escola-sub-1--r38-22",
+    "ultimo": "vanguarda--van-escola--r38-26",
+    "altura_esquerda": 320.7,
+    "altura_direita": 193.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 118,
+    "capitulo": 6,
+    "faixa": "118-0",
+    "primeiro": "vanguarda--van-conclusoes--r38-30",
+    "ultimo": "vanguarda--van-avanco--r38-47",
+    "altura_esquerda": 597.6,
+    "altura_direita": 619.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 119,
+    "capitulo": 6,
+    "faixa": "119-0",
+    "primeiro": "vanguarda--van-avanco-sub-4--r38-48",
+    "ultimo": "vanguarda--van-feiticos--r38-62",
+    "altura_esquerda": 669.9,
+    "altura_direita": 662.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 120,
+    "capitulo": 6,
+    "faixa": "120-0",
+    "primeiro": "vanguarda--van-feiticos--r38-63",
+    "ultimo": "vanguarda--van-yumi--r38-74",
+    "altura_esquerda": 644.0,
+    "altura_direita": 650.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 121,
+    "capitulo": 6,
+    "faixa": "121-0",
+    "primeiro": "vanguarda--van-yumi-sub-1--r38-78",
+    "ultimo": "vanguarda--van-yumi-conducoes--r38-90",
+    "altura_esquerda": 633.2,
+    "altura_direita": 589.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 122,
+    "capitulo": 6,
+    "faixa": "122-0",
+    "primeiro": "vanguarda--van-yumi-conducoes-sub-0--r38-91",
+    "ultimo": "vanguarda--van-yumi-avanco-sub-2--r38-106",
+    "altura_esquerda": 595.2,
+    "altura_direita": 634.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 123,
+    "capitulo": 6,
+    "faixa": "123-0",
+    "primeiro": "vanguarda--van-yumi-avanco--r38-107",
+    "ultimo": "vanguarda--van-besta-conclusoes--r38-123",
+    "altura_esquerda": 634.6,
+    "altura_direita": 625.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 124,
+    "capitulo": 6,
+    "faixa": "124-0",
+    "primeiro": "vanguarda--van-besta-conclusoes-sub-1--r38-124",
+    "ultimo": "vanguarda--van-fogo--r38-133",
+    "altura_esquerda": 537.8,
+    "altura_direita": 549.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 125,
+    "capitulo": 6,
+    "faixa": "125-0",
+    "primeiro": "vanguarda--van-fogo-sub-2--r38-136",
+    "ultimo": "vanguarda--van-fogo-conclusoes--r38-146",
+    "altura_esquerda": 497.8,
+    "altura_direita": 493.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 126,
+    "capitulo": 6,
+    "faixa": "126-0",
+    "primeiro": "vanguarda--van-fogo-conclusoes-sub-0--r38-147",
+    "ultimo": "vanguarda--van-fogo-avanco--r38-160",
+    "altura_esquerda": 570.0,
+    "altura_direita": 601.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 127,
+    "capitulo": 6,
+    "faixa": "127-0",
+    "primeiro": "vanguarda--van-executor--r38-161",
+    "ultimo": "vanguarda--van-executor-avanco--r38-177",
+    "altura_esquerda": 650.5,
+    "altura_direita": 621.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 128,
+    "capitulo": 6,
+    "faixa": "128-0",
+    "primeiro": "vanguarda--van-executor-avanco-sub-1--r38-178",
+    "ultimo": "vanguarda--van-executor-avanco--r38-186",
+    "altura_esquerda": 354.4,
+    "altura_direita": 330.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 130,
+    "capitulo": 6,
+    "faixa": "130-0",
+    "primeiro": "guia--guia-sub-1--r38-0",
+    "ultimo": "guia--guia-progressao--r38-12",
+    "altura_esquerda": 540.9,
+    "altura_direita": 612.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 131,
+    "capitulo": 6,
+    "faixa": "131-0",
+    "primeiro": "guia--guia-progressao--r38-13",
+    "ultimo": "guia--guia-aberturas--r38-24",
+    "altura_esquerda": 555.6,
+    "altura_direita": 535.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 132,
+    "capitulo": 6,
+    "faixa": "132-0",
+    "primeiro": "guia--guia-resposta--r38-25",
+    "ultimo": "guia--guia-planos--r38-40",
+    "altura_esquerda": 665.0,
+    "altura_direita": 673.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 133,
+    "capitulo": 6,
+    "faixa": "133-0",
+    "primeiro": "guia--guia-planos--r38-41",
+    "ultimo": "guia--guia-arquiteto--r38-60",
+    "altura_esquerda": 597.4,
+    "altura_direita": 651.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 134,
+    "capitulo": 6,
+    "faixa": "134-0",
+    "primeiro": "guia--guia-arquiteto--r38-61",
+    "ultimo": "guia--guia-modelos--r38-68",
+    "altura_esquerda": 506.4,
+    "altura_direita": 477.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 135,
+    "capitulo": 6,
+    "faixa": "135-1",
+    "primeiro": "guia--guia-obras-maiores--r38-71",
+    "ultimo": "guia--guia-emergencia--r38-79",
+    "altura_esquerda": 333.8,
+    "altura_direita": 369.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 136,
+    "capitulo": 6,
+    "faixa": "136-0",
+    "primeiro": "guia--guia-emergencia--r38-80",
+    "ultimo": "guia--guia-analista--r38-92",
+    "altura_esquerda": 579.4,
+    "altura_direita": 626.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 137,
+    "capitulo": 6,
+    "faixa": "137-0",
+    "primeiro": "guia--guia-analista--r38-93",
+    "ultimo": "guia--guia-padrao--r38-109",
+    "altura_esquerda": 609.8,
+    "altura_direita": 660.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 138,
+    "capitulo": 6,
+    "faixa": "138-0",
+    "primeiro": "guia--guia-socorrista--r38-110",
+    "ultimo": "guia--guia-tratamento--r38-124",
+    "altura_esquerda": 591.7,
+    "altura_direita": 591.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 139,
+    "capitulo": 6,
+    "faixa": "139-0",
+    "primeiro": "guia--guia-tratamento--r38-125",
+    "ultimo": "guia--guia-emergencia-cuidado--r38-140",
+    "altura_esquerda": 641.9,
+    "altura_direita": 631.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 141,
+    "capitulo": 6,
+    "faixa": "141-0",
+    "primeiro": "emanador--ema-base-sub-1--r38-0",
+    "ultimo": "emanador--ema-desdobramento--r38-9",
+    "altura_esquerda": 435.8,
+    "altura_direita": 607.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 142,
+    "capitulo": 6,
+    "faixa": "142-0",
+    "primeiro": "emanador--ema-desdobramento-sub-1--r38-10",
+    "ultimo": "emanador--ema-remodelar--r38-23",
+    "altura_esquerda": 553.2,
+    "altura_direita": 512.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 143,
+    "capitulo": 6,
+    "faixa": "143-0",
+    "primeiro": "emanador--ema-modulacoes--r38-24",
+    "ultimo": "emanador--ema-modulacoes--r38-34",
+    "altura_esquerda": 580.0,
+    "altura_direita": 455.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 144,
+    "capitulo": 6,
+    "faixa": "144-0",
+    "primeiro": "emanador--ema-familiares--r38-35",
+    "ultimo": "emanador--ema-forma--r38-47",
+    "altura_esquerda": 574.7,
+    "altura_direita": 599.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 145,
+    "capitulo": 6,
+    "faixa": "145-0",
+    "primeiro": "emanador--ema-forma-sub-1--r38-48",
+    "ultimo": "emanador--ema-instintiva--r38-61",
+    "altura_esquerda": 622.8,
+    "altura_direita": 559.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 146,
+    "capitulo": 6,
+    "faixa": "146-0",
+    "primeiro": "emanador--ema-condutor--r38-62",
+    "ultimo": "emanador--ema-artes--r38-74",
+    "altura_esquerda": 605.4,
+    "altura_direita": 621.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 147,
+    "capitulo": 6,
+    "faixa": "147-0",
+    "primeiro": "emanador--ema-artes-sub-3--r38-75",
+    "ultimo": "emanador--ema-propriedades-apoio--r38-86",
+    "altura_esquerda": 572.0,
+    "altura_direita": 572.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 148,
+    "capitulo": 6,
+    "faixa": "148-0",
+    "primeiro": "emanador--ema-propriedades-apoio-sub-1--r38-87",
+    "ultimo": "emanador--ema-manifestacao--r38-100",
+    "altura_esquerda": 596.6,
+    "altura_direita": 546.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 149,
+    "capitulo": 6,
+    "faixa": "149-0",
+    "primeiro": "emanador--ema-eco--r38-101",
+    "ultimo": "emanador--ema-repetir--r38-113",
+    "altura_esquerda": 598.1,
+    "altura_direita": 641.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 150,
+    "capitulo": 6,
+    "faixa": "150-0",
+    "primeiro": "emanador--ema-repetir--r38-114",
+    "ultimo": "emanador--ema-acorde--r38-129",
+    "altura_esquerda": 650.0,
+    "altura_direita": 673.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 151,
+    "capitulo": 6,
+    "faixa": "151-0",
+    "primeiro": "emanador--ema-impulso--r38-130",
+    "ultimo": "emanador--ema-correcao--r38-145",
+    "altura_esquerda": 661.7,
+    "altura_direita": 621.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 152,
+    "capitulo": 6,
+    "faixa": "152-0",
+    "primeiro": "emanador--ema-fluxo--r38-146",
+    "ultimo": "emanador--ema-fluxo--r38-153",
+    "altura_esquerda": 356.6,
+    "altura_direita": 341.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 154,
+    "capitulo": 6,
+    "faixa": "154-0",
+    "primeiro": "evocador--evocador-sub-1--r38-0",
+    "ultimo": "evocador--ev-vinculo--r38-13",
+    "altura_esquerda": 551.4,
+    "altura_direita": 670.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 155,
+    "capitulo": 6,
+    "faixa": "155-0",
+    "primeiro": "evocador--ev-vinculo--r38-14",
+    "ultimo": "evocador--ev-usos-sub-0--r38-28",
+    "altura_esquerda": 560.8,
+    "altura_direita": 619.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 156,
+    "capitulo": 6,
+    "faixa": "156-0",
+    "primeiro": "evocador--ev-usos--r38-29",
+    "ultimo": "evocador--ev-intervencoes--r38-42",
+    "altura_esquerda": 674.4,
+    "altura_direita": 662.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 157,
+    "capitulo": 6,
+    "faixa": "157-0",
+    "primeiro": "evocador--ev-intervencoes--r38-47",
+    "ultimo": "evocador--ev-preparacao--r38-61",
+    "altura_esquerda": 651.6,
+    "altura_direita": 608.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 158,
+    "capitulo": 6,
+    "faixa": "158-0",
+    "primeiro": "evocador--ev-preparacao--r38-62",
+    "ultimo": "evocador--ev-combinar--r38-74",
+    "altura_esquerda": 627.6,
+    "altura_direita": 654.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 159,
+    "capitulo": 6,
+    "faixa": "159-0",
+    "primeiro": "evocador--ev-combinar--r38-75",
+    "ultimo": "evocador--ev-combinada--r38-88",
+    "altura_esquerda": 589.2,
+    "altura_direita": 590.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 160,
+    "capitulo": 6,
+    "faixa": "160-0",
+    "primeiro": "evocador--ev-combinada--r38-89",
+    "ultimo": "evocador--ev-principal-especial--r38-101",
+    "altura_esquerda": 607.2,
+    "altura_direita": 648.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 161,
+    "capitulo": 6,
+    "faixa": "161-0",
+    "primeiro": "evocador--ev-principal-especial--r38-102",
+    "ultimo": "evocador--ev-principal-troca--r38-117",
+    "altura_esquerda": 609.8,
+    "altura_direita": 628.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 162,
+    "capitulo": 6,
+    "faixa": "162-0",
+    "primeiro": "evocador--ev-principal-protecao--r38-118",
+    "ultimo": "evocador--ev-principal-continuidade-sub-1--r38-131",
+    "altura_esquerda": 619.9,
+    "altura_direita": 647.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 163,
+    "capitulo": 6,
+    "faixa": "163-0",
+    "primeiro": "evocador--ev-principal-continuidade--r38-132",
+    "ultimo": "evocador--ev-principal-reflexa-sub-5--r38-143",
+    "altura_esquerda": 658.8,
+    "altura_direita": 564.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 164,
+    "capitulo": 6,
+    "faixa": "164-0",
+    "primeiro": "evocador--ev-parceria--r38-144",
+    "ultimo": "evocador--ev-parceria-aprimoramentos-sub-2--r38-157",
+    "altura_esquerda": 673.1,
+    "altura_direita": 632.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 165,
+    "capitulo": 6,
+    "faixa": "165-0",
+    "primeiro": "evocador--ev-parceria-aprimoramentos--r38-158",
+    "ultimo": "evocador--ev-parceria-intervencoes--r38-171",
+    "altura_esquerda": 614.0,
+    "altura_direita": 657.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 166,
+    "capitulo": 6,
+    "faixa": "166-0",
+    "primeiro": "evocador--ev-parceria-intervencoes-sub-1--r38-172",
+    "ultimo": "evocador--ev-parceria-cobrir--r38-186",
+    "altura_esquerda": 558.0,
+    "altura_direita": 526.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 167,
+    "capitulo": 6,
+    "faixa": "167-0",
+    "primeiro": "evocador--ev-parceria-tecnicas--r38-187",
+    "ultimo": "evocador--ev-parceria-resposta--r38-196",
+    "altura_esquerda": 396.4,
+    "altura_direita": 432.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 168,
+    "capitulo": 6,
+    "faixa": "168-0",
+    "primeiro": "evocador--ev-parceria-resposta-sub-1--r38-201",
+    "ultimo": "evocador--ev-multiplas--r38-213",
+    "altura_esquerda": 607.8,
+    "altura_direita": 634.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 169,
+    "capitulo": 6,
+    "faixa": "169-0",
+    "primeiro": "evocador--ev-multiplas-entrada--r38-214",
+    "ultimo": "evocador--ev-multiplas-duplas-sub-1--r38-228",
+    "altura_esquerda": 645.3,
+    "altura_direita": 628.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 170,
+    "capitulo": 6,
+    "faixa": "170-0",
+    "primeiro": "evocador--ev-multiplas-protecao--r38-229",
+    "ultimo": "evocador--ev-multiplas-conduzir--r38-244",
+    "altura_esquerda": 665.8,
+    "altura_direita": 631.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 171,
+    "capitulo": 6,
+    "faixa": "171-0",
+    "primeiro": "evocador--ev-multiplas-retirada--r38-245",
+    "ultimo": "evocador--ev-multiplas-aprimoramentos--r38-257",
+    "altura_esquerda": 602.0,
+    "altura_direita": 528.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 172,
+    "capitulo": 6,
+    "faixa": "172-0",
+    "primeiro": "evocador--ev-multiplas-aprimoramentos-sub-1--r38-258",
+    "ultimo": "evocador--ev-multiplas-repertorio--r38-269",
+    "altura_esquerda": 647.7,
+    "altura_direita": 626.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 173,
+    "capitulo": 6,
+    "faixa": "173-0",
+    "primeiro": "evocador--ev-multiplas-repertorio--r38-270",
+    "ultimo": "evocador--ev-turnos--r38-280",
+    "altura_esquerda": 670.2,
+    "altura_direita": 476.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 175,
+    "capitulo": 6,
+    "faixa": "175-0",
+    "primeiro": "incursor--inc-caminho-sub-2--r38-0",
+    "ultimo": "incursor--inc-fluidez--r38-13",
+    "altura_esquerda": 625.7,
+    "altura_direita": 636.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 176,
+    "capitulo": 6,
+    "faixa": "176-0",
+    "primeiro": "incursor--inc-fluidez-sub-1--r38-14",
+    "ultimo": "incursor--inc-respostas--r38-26",
+    "altura_esquerda": 503.6,
+    "altura_direita": 520.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 177,
+    "capitulo": 6,
+    "faixa": "177-0",
+    "primeiro": "incursor--inc-fluidez-avancada--r38-27",
+    "ultimo": "incursor--inc-ritmo--r38-43",
+    "altura_esquerda": 637.8,
+    "altura_direita": 637.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 179,
+    "capitulo": 6,
+    "faixa": "179-0",
+    "primeiro": "incursor--inc-assassino-sub-2--r38-0",
+    "ultimo": "incursor--inc-cirurgico--r38-16",
+    "altura_esquerda": 515.4,
+    "altura_direita": 602.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 180,
+    "capitulo": 6,
+    "faixa": "180-0",
+    "primeiro": "incursor--inc-cirurgico--r38-17",
+    "ultimo": "incursor--inc-parkour--r38-33",
+    "altura_esquerda": 607.6,
+    "altura_direita": 671.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 181,
+    "capitulo": 6,
+    "faixa": "181-0",
+    "primeiro": "incursor--inc-parkour-sub-1--r38-34",
+    "ultimo": "incursor--inc-parkour--r38-48",
+    "altura_esquerda": 581.6,
+    "altura_direita": 574.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 182,
+    "capitulo": 6,
+    "faixa": "182-0",
+    "primeiro": "incursor--inc-brecha--r38-49",
+    "ultimo": "incursor--inc-brecha--r38-61",
+    "altura_esquerda": 411.2,
+    "altura_direita": 341.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 184,
+    "capitulo": 6,
+    "faixa": "184-0",
+    "primeiro": "incursor--inc-pugilista-sub-2--r38-0",
+    "ultimo": "incursor--inc-corpo--r38-13",
+    "altura_esquerda": 532.1,
+    "altura_direita": 481.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 185,
+    "capitulo": 6,
+    "faixa": "185-0",
+    "primeiro": "incursor--inc-base--r38-14",
+    "ultimo": "incursor--inc-interceptar--r38-29",
+    "altura_esquerda": 673.0,
+    "altura_direita": 636.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 186,
+    "capitulo": 6,
+    "faixa": "186-0",
+    "primeiro": "incursor--inc-interceptar-sub-2--r38-30",
+    "ultimo": "incursor--inc-redirecionar--r38-45",
+    "altura_esquerda": 611.4,
+    "altura_direita": 607.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 187,
+    "capitulo": 6,
+    "faixa": "187-0",
+    "primeiro": "incursor--inc-redirecionar-sub-2--r38-46",
+    "ultimo": "incursor--inc-redirecionar-resolucao--r38-58",
+    "altura_esquerda": 434.0,
+    "altura_direita": 471.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 189,
+    "capitulo": 6,
+    "faixa": "189-0",
+    "primeiro": "incursor--inc-malabarista-sub-2--r38-0",
+    "ultimo": "incursor--inc-ricochete--r38-11",
+    "altura_esquerda": 618.4,
+    "altura_direita": 554.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 190,
+    "capitulo": 6,
+    "faixa": "190-0",
+    "primeiro": "incursor--inc-ricochete--r38-12",
+    "ultimo": "incursor--inc-continuacoes--r38-21",
+    "altura_esquerda": 605.9,
+    "altura_direita": 520.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 191,
+    "capitulo": 6,
+    "faixa": "191-0",
+    "primeiro": "incursor--inc-destino--r38-22",
+    "ultimo": "incursor--inc-retorno--r38-30",
+    "altura_esquerda": 497.4,
+    "altura_direita": 538.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 192,
+    "capitulo": 6,
+    "faixa": "192-0",
+    "primeiro": "incursor--inc-retorno-sub-1--r38-31",
+    "ultimo": "incursor--inc-perfeita--r38-45",
+    "altura_esquerda": 632.4,
+    "altura_direita": 627.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 193,
+    "capitulo": 6,
+    "faixa": "193-0",
+    "primeiro": "incursor--inc-perfeita--r38-46",
+    "ultimo": "incursor--inc-perfeita--r38-54",
+    "altura_esquerda": 328.4,
+    "altura_direita": 344.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 195,
+    "capitulo": 7,
+    "faixa": "195-1",
+    "primeiro": "pericias--pericias--r38-1",
+    "ultimo": "pericias--pericias--r38-7",
+    "altura_esquerda": 485.2,
+    "altura_direita": 421.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 196,
+    "capitulo": 7,
+    "faixa": "196-0",
+    "primeiro": "pericias--tarefas--r38-8",
+    "ultimo": "pericias--tarefas--r38-18",
+    "altura_esquerda": 593.2,
+    "altura_direita": 517.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 197,
+    "capitulo": 7,
+    "faixa": "197-0",
+    "primeiro": "pericias--fisicas--r38-19",
+    "ultimo": "pericias--conhecimento--r38-33",
+    "altura_esquerda": 661.2,
+    "altura_direita": 606.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 198,
+    "capitulo": 7,
+    "faixa": "198-0",
+    "primeiro": "pericias--conhecimento-sub-2--r38-34",
+    "ultimo": "pericias--ambiente--r38-48",
+    "altura_esquerda": 598.8,
+    "altura_direita": 587.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 199,
+    "capitulo": 7,
+    "faixa": "199-0",
+    "primeiro": "pericias--ambiente-sub-3--r38-49",
+    "ultimo": "pericias--essencia-sub-4--r38-62",
+    "altura_esquerda": 595.2,
+    "altura_direita": 617.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 200,
+    "capitulo": 7,
+    "faixa": "200-0",
+    "primeiro": "pericias--essencia-sub-5--r38-63",
+    "ultimo": "pericias--essencia--r38-68",
+    "altura_esquerda": 228.4,
+    "altura_direita": 203.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 201,
+    "capitulo": 7,
+    "faixa": "201-0",
+    "primeiro": "pericias--oficios-sub-1--r38-74",
+    "ultimo": "pericias--fabricacao--r38-84",
+    "altura_esquerda": 456.2,
+    "altura_direita": 645.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 202,
+    "capitulo": 7,
+    "faixa": "202-0",
+    "primeiro": "pericias--fabricacao--r38-85",
+    "ultimo": "pericias--reparos-sub-4--r38-98",
+    "altura_esquerda": 672.0,
+    "altura_direita": 628.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 204,
+    "capitulo": 8,
+    "faixa": "204-1",
+    "primeiro": "equip--eq-equipamento--r38-1",
+    "ultimo": "equip--eq-manipular--r38-13",
+    "altura_esquerda": 524.3,
+    "altura_direita": 580.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 205,
+    "capitulo": 8,
+    "faixa": "205-0",
+    "primeiro": "equip--eq-manipular--r38-14",
+    "ultimo": "equip--eq-objetos--r38-25",
+    "altura_esquerda": 650.4,
+    "altura_direita": 671.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 206,
+    "capitulo": 8,
+    "faixa": "206-0",
+    "primeiro": "equip--eq-objetos-sub-2--r38-26",
+    "ultimo": "equip--eq-propriedades--r38-36",
+    "altura_esquerda": 666.6,
+    "altura_direita": 596.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 207,
+    "capitulo": 8,
+    "faixa": "207-0",
+    "primeiro": "equip--eq-propriedades-sub-1--r38-37",
+    "ultimo": "equip--eq-oculta--r38-47",
+    "altura_esquerda": 443.4,
+    "altura_direita": 587.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 208,
+    "capitulo": 8,
+    "faixa": "208-0",
+    "primeiro": "equip--eq-oculta--r38-48",
+    "ultimo": "equip--eqp-protecao-sub-3--r38-60",
+    "altura_esquerda": 506.6,
+    "altura_direita": 672.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 209,
+    "capitulo": 8,
+    "faixa": "209-0",
+    "primeiro": "equip--eqp-protecao--r38-61",
+    "ultimo": "equip--eqp-traje-sub-3--r38-72",
+    "altura_esquerda": 635.0,
+    "altura_direita": 621.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 210,
+    "capitulo": 8,
+    "faixa": "210-0",
+    "primeiro": "equip--eqp-escudo--r38-73",
+    "ultimo": "equip--eqp-vestir--r38-82",
+    "altura_esquerda": 558.6,
+    "altura_direita": 565.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 211,
+    "capitulo": 8,
+    "faixa": "211-0",
+    "primeiro": "equip--eqp-vestir-sub-1--r38-83",
+    "ultimo": "equip--eqm-municao--r38-93",
+    "altura_esquerda": 601.8,
+    "altura_direita": 519.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 212,
+    "capitulo": 8,
+    "faixa": "212-0",
+    "primeiro": "equip--eqm-municao-sub-2--r38-94",
+    "ultimo": "equip--eqm-recarga--r38-105",
+    "altura_esquerda": 674.6,
+    "altura_direita": 509.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 213,
+    "capitulo": 8,
+    "faixa": "213-0",
+    "primeiro": "equip--eqm-recarga-sub-3--r38-106",
+    "ultimo": "equip--eqm-reserva-sub-4--r38-118",
+    "altura_esquerda": 642.8,
+    "altura_direita": 626.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 214,
+    "capitulo": 8,
+    "faixa": "214-0",
+    "primeiro": "equip--eqa-armas--r38-119",
+    "ultimo": "equip--eqa-armas--r38-127",
+    "altura_esquerda": 458.9,
+    "altura_direita": 440.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 220,
+    "capitulo": 8,
+    "faixa": "220-0",
+    "primeiro": "equip--eqi-itens--r38-147",
+    "ultimo": "equip--eqi-itens--r38-157",
+    "altura_esquerda": 527.5,
+    "altura_direita": 535.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 221,
+    "capitulo": 8,
+    "faixa": "221-0",
+    "primeiro": "equip--eqi-exploracao--r38-158",
+    "ultimo": "equip--eqi-exploracao-sub-4--r38-166",
+    "altura_esquerda": 523.2,
+    "altura_direita": 455.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 222,
+    "capitulo": 8,
+    "faixa": "222-0",
+    "primeiro": "equip--eqi-fechaduras--r38-167",
+    "ultimo": "equip--eqi-fechaduras--r38-175",
+    "altura_esquerda": 535.9,
+    "altura_direita": 593.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 223,
+    "capitulo": 8,
+    "faixa": "223-0",
+    "primeiro": "equip--eqi-objetos--r38-176",
+    "ultimo": "equip--eqi-efeitos--r38-187",
+    "altura_esquerda": 630.1,
+    "altura_direita": 554.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 224,
+    "capitulo": 8,
+    "faixa": "224-0",
+    "primeiro": "equip--eqi-improvisadas--r38-188",
+    "ultimo": "equip--eqc-dinheiro--r38-199",
+    "altura_esquerda": 593.2,
+    "altura_direita": 603.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 225,
+    "capitulo": 8,
+    "faixa": "225-0",
+    "primeiro": "equip--eqc-dinheiro-sub-2--r38-200",
+    "ultimo": "equip--eqc-precos--r38-208",
+    "altura_esquerda": 580.5,
+    "altura_direita": 474.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 226,
+    "capitulo": 8,
+    "faixa": "226-0",
+    "primeiro": "equip--eqc-precos-sub-2--r38-209",
+    "ultimo": "equip--eqc-inicial--r38-220",
+    "altura_esquerda": 573.8,
+    "altura_direita": 591.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 227,
+    "capitulo": 8,
+    "faixa": "227-0",
+    "primeiro": "equip--eqc-compras--r38-221",
+    "ultimo": "equip--eqc-compras--r38-228",
+    "altura_esquerda": 373.4,
+    "altura_direita": 404.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 229,
+    "capitulo": 8,
+    "faixa": "229-0",
+    "primeiro": "equip--eqf-equipamento-sub-1--r38-0",
+    "ultimo": "equip--eqf-graus--r38-9",
+    "altura_esquerda": 601.4,
+    "altura_direita": 569.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 230,
+    "capitulo": 8,
+    "faixa": "230-0",
+    "primeiro": "equip--eqf-graus-sub-1--r38-10",
+    "ultimo": "equip--eqf-uso-sub-2--r38-23",
+    "altura_esquerda": 642.4,
+    "altura_direita": 662.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 231,
+    "capitulo": 8,
+    "faixa": "231-0",
+    "primeiro": "equip--eqf-uso--r38-24",
+    "ultimo": "equip--eqf-armas--r38-36",
+    "altura_esquerda": 652.8,
+    "altura_direita": 633.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 232,
+    "capitulo": 8,
+    "faixa": "232-0",
+    "primeiro": "equip--eqf-armas--r38-38",
+    "ultimo": "equip--eqf-roupas--r38-53",
+    "altura_esquerda": 664.0,
+    "altura_direita": 560.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 233,
+    "capitulo": 8,
+    "faixa": "233-0",
+    "primeiro": "equip--eqf-roupas-sub-3--r38-54",
+    "ultimo": "equip--eqf-protecao--r38-68",
+    "altura_esquerda": 535.2,
+    "altura_direita": 579.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 234,
+    "capitulo": 8,
+    "faixa": "234-0",
+    "primeiro": "equip--eqf-protecao-sub-4--r38-69",
+    "ultimo": "equip--eqf-reliquias--r38-86",
+    "altura_esquerda": 631.2,
+    "altura_direita": 670.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 235,
+    "capitulo": 8,
+    "faixa": "235-0",
+    "primeiro": "equip--eqf-reliquias-sub-2--r38-87",
+    "ultimo": "equip--eqf-desgaste--r38-99",
+    "altura_esquerda": 548.4,
+    "altura_direita": 619.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 236,
+    "capitulo": 8,
+    "faixa": "236-0",
+    "primeiro": "equip--eqf-desgaste--r38-100",
+    "ultimo": "equip--eqf-objetos-sub-3--r38-110",
+    "altura_esquerda": 581.4,
+    "altura_direita": 620.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 238,
+    "capitulo": 9,
+    "faixa": "238-1",
+    "primeiro": "progressao--prog-inicio--r38-1",
+    "ultimo": "progressao--prog-xp--r38-8",
+    "altura_esquerda": 392.0,
+    "altura_direita": 397.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 239,
+    "capitulo": 9,
+    "faixa": "239-0",
+    "primeiro": "progressao--prog-xp-sub-1--r38-9",
+    "ultimo": "progressao--prog-semana--r38-21",
+    "altura_esquerda": 573.5,
+    "altura_direita": 459.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 240,
+    "capitulo": 9,
+    "faixa": "240-0",
+    "primeiro": "progressao--prog-limiar--r38-22",
+    "ultimo": "progressao--prog-tabela-inicial--r38-29",
+    "altura_esquerda": 479.5,
+    "altura_direita": 522.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 242,
+    "capitulo": 9,
+    "faixa": "242-1",
+    "primeiro": "progressao--prog-tabela-avancada--r38-46",
+    "ultimo": "progressao--prog-marcos--r38-51",
+    "altura_esquerda": 278.8,
+    "altura_direita": 434.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 243,
+    "capitulo": 9,
+    "faixa": "243-0",
+    "primeiro": "progressao--prog-marcos-sub-1--r38-52",
+    "ultimo": "progressao--prog-atualizar--r38-69",
+    "altura_esquerda": 660.8,
+    "altura_direita": 602.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 244,
+    "capitulo": 9,
+    "faixa": "244-0",
+    "primeiro": "progressao--prog-atualizar--r38-70",
+    "ultimo": "progressao--prog-trilhas--r38-82",
+    "altura_esquerda": 568.0,
+    "altura_direita": 604.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 245,
+    "capitulo": 9,
+    "faixa": "245-0",
+    "primeiro": "progressao--prog-capacidades--r38-83",
+    "ultimo": "progressao--prog-patentes--r38-95",
+    "altura_esquerda": 632.8,
+    "altura_direita": 636.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 246,
+    "capitulo": 9,
+    "faixa": "246-0",
+    "primeiro": "progressao--prog-guilda--r38-96",
+    "ultimo": "progressao--prog-guilda--r38-101",
+    "altura_esquerda": 300.0,
+    "altura_direita": 338.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 249,
+    "capitulo": 10,
+    "faixa": "249-0",
+    "primeiro": "fundamento--fundamento-sub-1--r38-0",
+    "ultimo": "fundamento--tecnica-sub-4--r38-6",
+    "altura_esquerda": 382.0,
+    "altura_direita": 455.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 250,
+    "capitulo": 10,
+    "faixa": "250-0",
+    "primeiro": "fundamento--tecnica-sub-5--r38-7",
+    "ultimo": "fundamento--tecnica--r38-18",
+    "altura_esquerda": 586.0,
+    "altura_direita": 584.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 251,
+    "capitulo": 10,
+    "faixa": "251-0",
+    "primeiro": "fundamento--tecnica-sub-7--r38-19",
+    "ultimo": "fundamento--selo--r38-31",
+    "altura_esquerda": 615.3,
+    "altura_direita": 560.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 252,
+    "capitulo": 10,
+    "faixa": "252-0",
+    "primeiro": "fundamento--selo-sub-3--r38-32",
+    "ultimo": "fundamento--selo--r38-34",
+    "altura_esquerda": 152.8,
+    "altura_direita": 182.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 252,
+    "capitulo": 10,
+    "faixa": "252-2",
+    "primeiro": "fundamento--selo-sub-5--r38-37",
+    "ultimo": "fundamento--selo--r38-42",
+    "altura_esquerda": 196.4,
+    "altura_direita": 120.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 253,
+    "capitulo": 10,
+    "faixa": "253-0",
+    "primeiro": "fundamento--selo--r38-43",
+    "ultimo": "fundamento--selo--r38-57",
+    "altura_esquerda": 672.8,
+    "altura_direita": 659.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 254,
+    "capitulo": 10,
+    "faixa": "254-0",
+    "primeiro": "fundamento--selo--r38-58",
+    "ultimo": "fundamento--selo--r38-74",
+    "altura_esquerda": 630.4,
+    "altura_direita": 648.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 255,
+    "capitulo": 10,
+    "faixa": "255-0",
+    "primeiro": "fundamento--selo--r38-75",
+    "ultimo": "fundamento--primeiro--r38-88",
+    "altura_esquerda": 656.4,
+    "altura_direita": 600.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 256,
+    "capitulo": 10,
+    "faixa": "256-0",
+    "primeiro": "fundamento--primeiro-sub-6--r38-89",
+    "ultimo": "fundamento--primeiro--r38-101",
+    "altura_esquerda": 652.2,
+    "altura_direita": 643.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 257,
+    "capitulo": 10,
+    "faixa": "257-0",
+    "primeiro": "fundamento--primeiro--r38-102",
+    "ultimo": "fundamento--familias--r38-112",
+    "altura_esquerda": 631.1,
+    "altura_direita": 673.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 258,
+    "capitulo": 10,
+    "faixa": "258-0",
+    "primeiro": "fundamento--familias--r38-113",
+    "ultimo": "fundamento--repertorio--r38-123",
+    "altura_esquerda": 544.2,
+    "altura_direita": 456.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 259,
+    "capitulo": 10,
+    "faixa": "259-0",
+    "primeiro": "fundamento--repertorio-sub-1--r38-126",
+    "ultimo": "fundamento--pontos--r38-137",
+    "altura_esquerda": 642.0,
+    "altura_direita": 653.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 260,
+    "capitulo": 10,
+    "faixa": "260-0",
+    "primeiro": "fundamento--pontos-sub-2--r38-138",
+    "ultimo": "fundamento--pontos--r38-145",
+    "altura_esquerda": 261.2,
+    "altura_direita": 229.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 260,
+    "capitulo": 10,
+    "faixa": "260-2",
+    "primeiro": "fundamento--funcoes--r38-147",
+    "ultimo": "fundamento--funcoes--r38-149",
+    "altura_esquerda": 129.6,
+    "altura_direita": 138.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 261,
+    "capitulo": 10,
+    "faixa": "261-0",
+    "primeiro": "fundamento--funcoes--r38-150",
+    "ultimo": "fundamento--funcoes--r38-160",
+    "altura_esquerda": 592.4,
+    "altura_direita": 590.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 262,
+    "capitulo": 10,
+    "faixa": "262-0",
+    "primeiro": "fundamento--formas--r38-161",
+    "ultimo": "fundamento--formas--r38-169",
+    "altura_esquerda": 410.8,
+    "altura_direita": 403.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 263,
+    "capitulo": 10,
+    "faixa": "263-0",
+    "primeiro": "fundamento--formas--r38-171",
+    "ultimo": "fundamento--alcance--r38-181",
+    "altura_esquerda": 550.2,
+    "altura_direita": 662.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 264,
+    "capitulo": 10,
+    "faixa": "264-0",
+    "primeiro": "fundamento--alcance--r38-182",
+    "ultimo": "fundamento--conjurar--r38-194",
+    "altura_esquerda": 617.2,
+    "altura_direita": 592.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 265,
+    "capitulo": 10,
+    "faixa": "265-0",
+    "primeiro": "fundamento--conjurar-sub-2--r38-195",
+    "ultimo": "fundamento--restricoes-sub-1--r38-206",
+    "altura_esquerda": 653.6,
+    "altura_direita": 662.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 266,
+    "capitulo": 10,
+    "faixa": "266-0",
+    "primeiro": "fundamento--restricoes--r38-207",
+    "ultimo": "fundamento--combinacoes--r38-215",
+    "altura_esquerda": 414.1,
+    "altura_direita": 418.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 267,
+    "capitulo": 10,
+    "faixa": "267-0",
+    "primeiro": "fundamento--mesclas--r38-219",
+    "ultimo": "fundamento--mesclas--r38-233",
+    "altura_esquerda": 610.0,
+    "altura_direita": 623.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 268,
+    "capitulo": 10,
+    "faixa": "268-0",
+    "primeiro": "fundamento--mesclas--r38-234",
+    "ultimo": "fundamento--mesclas--r38-246",
+    "altura_esquerda": 665.2,
+    "altura_direita": 645.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 269,
+    "capitulo": 10,
+    "faixa": "269-0",
+    "primeiro": "fundamento--mesclas-sub-4--r38-247",
+    "ultimo": "fundamento--mesclas--r38-255",
+    "altura_esquerda": 542.9,
+    "altura_direita": 552.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 270,
+    "capitulo": 10,
+    "faixa": "270-0",
+    "primeiro": "fundamento--mesclas-sub-6--r38-256",
+    "ultimo": "fundamento--mesclas--r38-260",
+    "altura_esquerda": 279.0,
+    "altura_direita": 237.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 271,
+    "capitulo": 10,
+    "faixa": "271-0",
+    "primeiro": "fundamento--controle-sub-1--r38-262",
+    "ultimo": "fundamento--controle--r38-272",
+    "altura_esquerda": 548.4,
+    "altura_direita": 616.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 272,
+    "capitulo": 10,
+    "faixa": "272-0",
+    "primeiro": "fundamento--controle-sub-2--r38-273",
+    "ultimo": "fundamento--aplicacoes-sub-2--r38-285",
+    "altura_esquerda": 654.5,
+    "altura_direita": 610.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 273,
+    "capitulo": 10,
+    "faixa": "273-0",
+    "primeiro": "fundamento--aplicacoes--r38-286",
+    "ultimo": "fundamento--danolimites--r38-295",
+    "altura_esquerda": 654.8,
+    "altura_direita": 617.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 274,
+    "capitulo": 10,
+    "faixa": "274-0",
+    "primeiro": "fundamento--danolimites--r38-296",
+    "ultimo": "fundamento--persistente-sub-3--r38-304",
+    "altura_esquerda": 582.6,
+    "altura_direita": 543.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 275,
+    "capitulo": 10,
+    "faixa": "275-0",
+    "primeiro": "fundamento--livre-sub-1--r38-305",
+    "ultimo": "fundamento--efeito--r38-315",
+    "altura_esquerda": 585.9,
+    "altura_direita": 639.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 276,
+    "capitulo": 10,
+    "faixa": "276-0",
+    "primeiro": "fundamento--efeito--r38-316",
+    "ultimo": "fundamento--ampliar--r38-323",
+    "altura_esquerda": 469.6,
+    "altura_direita": 444.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 277,
+    "capitulo": 10,
+    "faixa": "277-1",
+    "primeiro": "fundamento--ampliar-sub-2--r38-327",
+    "ultimo": "fundamento--ampliar--r38-336",
+    "altura_esquerda": 346.0,
+    "altura_direita": 391.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 278,
+    "capitulo": 10,
+    "faixa": "278-0",
+    "primeiro": "fundamento--ampliar--r38-337",
+    "ultimo": "fundamento--proprio--r38-346",
+    "altura_esquerda": 402.9,
+    "altura_direita": 596.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 279,
+    "capitulo": 10,
+    "faixa": "279-0",
+    "primeiro": "fundamento--proprio-sub-2--r38-347",
+    "ultimo": "fundamento--proprio--r38-358",
+    "altura_esquerda": 606.0,
+    "altura_direita": 538.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 280,
+    "capitulo": 10,
+    "faixa": "280-0",
+    "primeiro": "fundamento--liberacao--r38-359",
+    "ultimo": "fundamento--liberacao-sub-3--r38-368",
+    "altura_esquerda": 392.0,
+    "altura_direita": 479.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 281,
+    "capitulo": 10,
+    "faixa": "281-0",
+    "primeiro": "fundamento--maxima--r38-369",
+    "ultimo": "fundamento--maxima--r38-378",
+    "altura_esquerda": 507.4,
+    "altura_direita": 604.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 282,
+    "capitulo": 10,
+    "faixa": "282-0",
+    "primeiro": "fundamento--maxima-sub-6--r38-379",
+    "ultimo": "fundamento--maxima--r38-384",
+    "altura_esquerda": 262.2,
+    "altura_direita": 279.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 283,
+    "capitulo": 10,
+    "faixa": "283-1",
+    "primeiro": "fundamento--maxima-sub-9--r38-390",
+    "ultimo": "fundamento--passagem--r38-394",
+    "altura_esquerda": 408.0,
+    "altura_direita": 400.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 284,
+    "capitulo": 10,
+    "faixa": "284-0",
+    "primeiro": "fundamento--passagem--r38-396",
+    "ultimo": "fundamento--retirada--r38-406",
+    "altura_esquerda": 569.7,
+    "altura_direita": 531.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 285,
+    "capitulo": 10,
+    "faixa": "285-0",
+    "primeiro": "fundamento--retirada-sub-2--r38-407",
+    "ultimo": "fundamento--ficha--r38-416",
+    "altura_esquerda": 536.8,
+    "altura_direita": 577.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 286,
+    "capitulo": 10,
+    "faixa": "286-0",
+    "primeiro": "fundamento--ficha-sub-1--r38-417",
+    "ultimo": "fundamento--ficha--r38-424",
+    "altura_esquerda": 178.0,
+    "altura_direita": 202.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 288,
+    "capitulo": 11,
+    "faixa": "288-1",
+    "primeiro": "catalogo--cat-catalogo-sub-1--r38-2",
+    "ultimo": "catalogo--cat-catalogo-sub-5--r38-11",
+    "altura_esquerda": 481.6,
+    "altura_direita": 476.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 289,
+    "capitulo": 11,
+    "faixa": "289-0",
+    "primeiro": "catalogo--cat-catalogo-sub-6--r38-12",
+    "ultimo": "catalogo--melhoria-condicao--r38-20",
+    "altura_esquerda": 632.6,
+    "altura_direita": 555.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 290,
+    "capitulo": 11,
+    "faixa": "290-0",
+    "primeiro": "catalogo--melhoria-terreno--r38-21",
+    "ultimo": "catalogo--melhoria-impulso--r38-29",
+    "altura_esquerda": 577.4,
+    "altura_direita": 647.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 291,
+    "capitulo": 11,
+    "faixa": "291-0",
+    "primeiro": "catalogo--melhoria-trava--r38-30",
+    "ultimo": "catalogo--melhoria-enfraquece--r38-41",
+    "altura_esquerda": 638.4,
+    "altura_direita": 590.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 292,
+    "capitulo": 11,
+    "faixa": "292-0",
+    "primeiro": "catalogo--melhoria-ecoa--r38-42",
+    "ultimo": "catalogo--melhoria-sugar--r38-51",
+    "altura_esquerda": 607.6,
+    "altura_direita": 671.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 293,
+    "capitulo": 11,
+    "faixa": "293-0",
+    "primeiro": "catalogo--melhoria-sugar--r38-52",
+    "ultimo": "catalogo--melhoria-remenda--r38-63",
+    "altura_esquerda": 673.0,
+    "altura_direita": 654.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 294,
+    "capitulo": 11,
+    "faixa": "294-0",
+    "primeiro": "catalogo--melhoria-divide--r38-64",
+    "ultimo": "catalogo--melhoria-perseguir--r38-71",
+    "altura_esquerda": 578.6,
+    "altura_direita": 614.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 295,
+    "capitulo": 11,
+    "faixa": "295-0",
+    "primeiro": "catalogo--melhoria-maior--r38-72",
+    "ultimo": "catalogo--melhoria-mais-um--r38-82",
+    "altura_esquerda": 635.0,
+    "altura_direita": 672.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 296,
+    "capitulo": 11,
+    "faixa": "296-0",
+    "primeiro": "catalogo--melhoria-rajada--r38-83",
+    "ultimo": "catalogo--melhoria-de-novo--r38-92",
+    "altura_esquerda": 647.4,
+    "altura_direita": 641.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 297,
+    "capitulo": 11,
+    "faixa": "297-0",
+    "primeiro": "catalogo--melhoria-fura--r38-93",
+    "ultimo": "catalogo--melhoria-acumulo--r38-103",
+    "altura_esquerda": 662.2,
+    "altura_direita": 575.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 298,
+    "capitulo": 11,
+    "faixa": "298-0",
+    "primeiro": "catalogo--melhoria-remate--r38-104",
+    "ultimo": "catalogo--melhoria-armado--r38-114",
+    "altura_esquerda": 621.0,
+    "altura_direita": 632.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 299,
+    "capitulo": 11,
+    "faixa": "299-0",
+    "primeiro": "catalogo--melhoria-silencioso--r38-115",
+    "ultimo": "catalogo--melhoria-concentrada-duradoura--r38-124",
+    "altura_esquerda": 588.4,
+    "altura_direita": 591.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 300,
+    "capitulo": 11,
+    "faixa": "300-0",
+    "primeiro": "catalogo--melhoria-reserva--r38-125",
+    "ultimo": "catalogo--cat-restricoes--r38-135",
+    "altura_esquerda": 558.0,
+    "altura_direita": 530.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 301,
+    "capitulo": 11,
+    "faixa": "301-0",
+    "primeiro": "catalogo--grupo-restricoes-de-conjuracao--r38-136",
+    "ultimo": "catalogo--restricao-gesto--r38-148",
+    "altura_esquerda": 552.0,
+    "altura_direita": 619.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 302,
+    "capitulo": 11,
+    "faixa": "302-0",
+    "primeiro": "catalogo--restricao-carregar--r38-149",
+    "ultimo": "catalogo--restricao-peso-morto--r38-160",
+    "altura_esquerda": 552.0,
+    "altura_direita": 584.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 303,
+    "capitulo": 11,
+    "faixa": "303-0",
+    "primeiro": "catalogo--restricao-fragil--r38-161",
+    "ultimo": "catalogo--restricao-aquecer--r38-173",
+    "altura_esquerda": 671.8,
+    "altura_direita": 673.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 304,
+    "capitulo": 11,
+    "faixa": "304-0",
+    "primeiro": "catalogo--restricao-tudo-ou-nada--r38-174",
+    "ultimo": "catalogo--restricao-restricao-propria--r38-184",
+    "altura_esquerda": 525.6,
+    "altura_direita": 618.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 305,
+    "capitulo": 11,
+    "faixa": "305-0",
+    "primeiro": "catalogo--restricao-restricao-propria--r38-185",
+    "ultimo": "catalogo--cat-passivas-1--r38-197",
+    "altura_esquerda": 566.4,
+    "altura_direita": 588.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 306,
+    "capitulo": 11,
+    "faixa": "306-0",
+    "primeiro": "catalogo--cat-passivas-2-recursos--r38-198",
+    "ultimo": "catalogo--cat-passivas-2-recursos--r38-210",
+    "altura_esquerda": 652.0,
+    "altura_direita": 585.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 307,
+    "capitulo": 11,
+    "faixa": "307-0",
+    "primeiro": "catalogo--cat-passivas-2-recursos-sub-7--r38-211",
+    "ultimo": "catalogo--cat-regra-propria--r38-222",
+    "altura_esquerda": 563.2,
+    "altura_direita": 565.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 308,
+    "capitulo": 11,
+    "faixa": "308-0",
+    "primeiro": "catalogo--cat-passiva-propria--r38-223",
+    "ultimo": "catalogo--cat-passiva-propria--r38-231",
+    "altura_esquerda": 477.6,
+    "altura_direita": 362.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 311,
+    "capitulo": 12,
+    "faixa": "311-0",
+    "primeiro": "aptidoes--apt-marcos--r38-0",
+    "ultimo": "aptidoes--apt-catalogo--r38-13",
+    "altura_esquerda": 535.6,
+    "altura_direita": 609.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 312,
+    "capitulo": 12,
+    "faixa": "312-0",
+    "primeiro": "aptidoes--apt-catalogo--r38-14",
+    "ultimo": "aptidoes--apt-cobrir--r38-23",
+    "altura_esquerda": 521.6,
+    "altura_direita": 580.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 313,
+    "capitulo": 12,
+    "faixa": "313-0",
+    "primeiro": "aptidoes--apt-canalizar--r38-24",
+    "ultimo": "aptidoes--apt-projetar--r38-38",
+    "altura_esquerda": 596.4,
+    "altura_direita": 654.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 314,
+    "capitulo": 12,
+    "faixa": "314-0",
+    "primeiro": "aptidoes--apt-reversa--r38-39",
+    "ultimo": "aptidoes--apt-energia-positiva-sub-2--r38-53",
+    "altura_esquerda": 648.3,
+    "altura_direita": 644.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 315,
+    "capitulo": 12,
+    "faixa": "315-0",
+    "primeiro": "aptidoes--apt-circulacao--r38-54",
+    "ultimo": "aptidoes--apt-regravacao--r38-68",
+    "altura_esquerda": 541.3,
+    "altura_direita": 623.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 316,
+    "capitulo": 12,
+    "faixa": "316-0",
+    "primeiro": "aptidoes--apt-kokusen--r38-69",
+    "ultimo": "aptidoes--apt-protecao-dominios--r38-80",
+    "altura_esquerda": 596.2,
+    "altura_direita": 561.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 317,
+    "capitulo": 12,
+    "faixa": "317-0",
+    "primeiro": "aptidoes--apt-protecao-dominios-sub-1--r38-81",
+    "ultimo": "aptidoes--apt-simples--r38-97",
+    "altura_esquerda": 661.8,
+    "altura_direita": 669.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 318,
+    "capitulo": 12,
+    "faixa": "318-0",
+    "primeiro": "aptidoes--apt-simples-sub-1--r38-98",
+    "ultimo": "aptidoes--apt-simples-duracao--r38-109",
+    "altura_esquerda": 622.3,
+    "altura_direita": 615.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 319,
+    "capitulo": 12,
+    "faixa": "319-0",
+    "primeiro": "aptidoes--apt-simples-duracao-sub-2--r38-110",
+    "ultimo": "aptidoes--apt-extensao--r38-121",
+    "altura_esquerda": 603.8,
+    "altura_direita": 569.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 320,
+    "capitulo": 12,
+    "faixa": "320-0",
+    "primeiro": "aptidoes--apt-extensao-sub-1--r38-122",
+    "ultimo": "aptidoes--apt-barreira--r38-132",
+    "altura_esquerda": 539.0,
+    "altura_direita": 660.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 321,
+    "capitulo": 12,
+    "faixa": "321-0",
+    "primeiro": "aptidoes--apt-barreira--r38-133",
+    "ultimo": "aptidoes--apt-cortina--r38-143",
+    "altura_esquerda": 605.9,
+    "altura_direita": 565.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 322,
+    "capitulo": 12,
+    "faixa": "322-0",
+    "primeiro": "aptidoes--apt-propria--r38-144",
+    "ultimo": "aptidoes--apt-propria--r38-148",
+    "altura_esquerda": 224.8,
+    "altura_direita": 254.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 324,
+    "capitulo": 13,
+    "faixa": "324-4",
+    "primeiro": "rotas--rotas-sub-1--r38-4",
+    "ultimo": "rotas--rotas--r38-9",
+    "altura_esquerda": 193.2,
+    "altura_direita": 199.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 325,
+    "capitulo": 13,
+    "faixa": "325-0",
+    "primeiro": "rotas--rotas--r38-10",
+    "ultimo": "rotas--rotas--r38-15",
+    "altura_esquerda": 321.4,
+    "altura_direita": 318.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 327,
+    "capitulo": 13,
+    "faixa": "327-0",
+    "primeiro": "rotas--rota-marcial-sub-2--r38-0",
+    "ultimo": "rotas--rota-armas--r38-13",
+    "altura_esquerda": 495.2,
+    "altura_direita": 506.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 328,
+    "capitulo": 13,
+    "faixa": "328-0",
+    "primeiro": "rotas--rota-ferramenta--r38-14",
+    "ultimo": "rotas--rota-passivas-marciais--r38-27",
+    "altura_esquerda": 636.8,
+    "altura_direita": 658.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 329,
+    "capitulo": 13,
+    "faixa": "329-0",
+    "primeiro": "rotas--rota-passivas-resposta--r38-28",
+    "ultimo": "rotas--rota-fisga--r38-39",
+    "altura_esquerda": 588.4,
+    "altura_direita": 590.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 330,
+    "capitulo": 13,
+    "faixa": "330-0",
+    "primeiro": "rotas--rota-fisga-sub-1--r38-40",
+    "ultimo": "rotas--rota-bancada--r38-53",
+    "altura_esquerda": 666.4,
+    "altura_direita": 646.3,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 331,
+    "capitulo": 13,
+    "faixa": "331-0",
+    "primeiro": "rotas--rota-invocacoes--r38-54",
+    "ultimo": "rotas--rota-invocacoes--r38-60",
+    "altura_esquerda": 285.6,
+    "altura_direita": 367.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 333,
+    "capitulo": 13,
+    "faixa": "333-0",
+    "primeiro": "rotas--rota-sem-tecnica-sub-2--r38-0",
+    "ultimo": "rotas--rota-sementes-sub-4--r38-10",
+    "altura_esquerda": 483.6,
+    "altura_direita": 532.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 334,
+    "capitulo": 13,
+    "faixa": "334-0",
+    "primeiro": "rotas--rota-cura--r38-11",
+    "ultimo": "rotas--rota-redoma--r38-21",
+    "altura_esquerda": 520.9,
+    "altura_direita": 564.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 335,
+    "capitulo": 13,
+    "faixa": "335-0",
+    "primeiro": "rotas--rota-redoma-sub-1--r38-22",
+    "ultimo": "rotas--rota-sutura-sub-2--r38-34",
+    "altura_esquerda": 597.5,
+    "altura_direita": 628.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 336,
+    "capitulo": 13,
+    "faixa": "336-0",
+    "primeiro": "rotas--rota-espinho--r38-35",
+    "ultimo": "rotas--rota-lapidacao--r38-45",
+    "altura_esquerda": 423.0,
+    "altura_direita": 477.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 337,
+    "capitulo": 13,
+    "faixa": "337-0",
+    "primeiro": "rotas--rota-lapidacao-sub-1--r38-46",
+    "ultimo": "rotas--rota-lapidacao--r38-52",
+    "altura_esquerda": 392.3,
+    "altura_direita": 367.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 339,
+    "capitulo": 13,
+    "faixa": "339-0",
+    "primeiro": "rotas--rota-bencaos-sub-1--r38-0",
+    "ultimo": "rotas--rota-defesa-sub-3--r38-14",
+    "altura_esquerda": 628.5,
+    "altura_direita": 580.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 340,
+    "capitulo": 13,
+    "faixa": "340-0",
+    "primeiro": "rotas--rota-defesa--r38-15",
+    "ultimo": "rotas--rota-corpo--r38-28",
+    "altura_esquerda": 661.6,
+    "altura_direita": 629.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 341,
+    "capitulo": 13,
+    "faixa": "341-0",
+    "primeiro": "rotas--rota-corpo-sub-3--r38-29",
+    "ultimo": "rotas--rota-perseguicao--r38-40",
+    "altura_esquerda": 620.2,
+    "altura_direita": 512.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 342,
+    "capitulo": 13,
+    "faixa": "342-0",
+    "primeiro": "rotas--rota-combate--r38-41",
+    "ultimo": "rotas--rota-combate-sub-5--r38-52",
+    "altura_esquerda": 635.4,
+    "altura_direita": 548.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 343,
+    "capitulo": 13,
+    "faixa": "343-0",
+    "primeiro": "rotas--rota-combate-sub-6--r38-53",
+    "ultimo": "rotas--rota-propria--r38-63",
+    "altura_esquerda": 516.6,
+    "altura_direita": 434.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 346,
+    "capitulo": 14,
+    "faixa": "346-0",
+    "primeiro": "poderes--degraus-sub-1--r38-0",
+    "ultimo": "poderes--acerto--r38-12",
+    "altura_esquerda": 617.4,
+    "altura_direita": 618.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 347,
+    "capitulo": 14,
+    "faixa": "347-0",
+    "primeiro": "poderes--acerto-sub-1--r38-13",
+    "ultimo": "poderes--protecao--r38-23",
+    "altura_esquerda": 654.6,
+    "altura_direita": 478.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 348,
+    "capitulo": 14,
+    "faixa": "348-0",
+    "primeiro": "poderes--abertura--r38-24",
+    "ultimo": "poderes--barreira--r38-33",
+    "altura_esquerda": 590.1,
+    "altura_direita": 528.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 349,
+    "capitulo": 14,
+    "faixa": "349-0",
+    "primeiro": "poderes--barreira-sub-2--r38-34",
+    "ultimo": "poderes--rescaldo--r38-41",
+    "altura_esquerda": 421.2,
+    "altura_direita": 441.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 350,
+    "capitulo": 14,
+    "faixa": "350-0",
+    "primeiro": "poderes--sembarreiras--r38-42",
+    "ultimo": "poderes--disputa--r38-54",
+    "altura_esquerda": 619.6,
+    "altura_direita": 630.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 351,
+    "capitulo": 14,
+    "faixa": "351-0",
+    "primeiro": "poderes--disputa-sub-1--r38-55",
+    "ultimo": "poderes--sobreposicao--r38-66",
+    "altura_esquerda": 557.8,
+    "altura_direita": 586.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 352,
+    "capitulo": 14,
+    "faixa": "352-0",
+    "primeiro": "poderes--sobreposicao-sub-2--r38-67",
+    "ultimo": "poderes--multiplos--r38-80",
+    "altura_esquerda": 629.0,
+    "altura_direita": 562.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 353,
+    "capitulo": 14,
+    "faixa": "353-0",
+    "primeiro": "poderes--galeriavidro--r38-81",
+    "ultimo": "poderes--salatregua--r38-87",
+    "altura_esquerda": 558.0,
+    "altura_direita": 601.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 354,
+    "capitulo": 14,
+    "faixa": "354-0",
+    "primeiro": "poderes--salatregua-sub-2--r38-89",
+    "ultimo": "poderes--confronto--r38-98",
+    "altura_esquerda": 572.6,
+    "altura_direita": 494.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 356,
+    "capitulo": 15,
+    "faixa": "356-1",
+    "primeiro": "ritual--ritual--r38-1",
+    "ultimo": "ritual--rit-teste-sub-1--r38-10",
+    "altura_esquerda": 449.2,
+    "altura_direita": 484.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 357,
+    "capitulo": 15,
+    "faixa": "357-0",
+    "primeiro": "ritual--rit-teste-sub-2--r38-11",
+    "ultimo": "ritual--rit-recitar--r38-21",
+    "altura_esquerda": 586.8,
+    "altura_direita": 522.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 358,
+    "capitulo": 15,
+    "faixa": "358-0",
+    "primeiro": "ritual--rit-melhorias--r38-22",
+    "ultimo": "ritual--rit-melhorias--r38-31",
+    "altura_esquerda": 521.3,
+    "altura_direita": 592.9,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 359,
+    "capitulo": 15,
+    "faixa": "359-1",
+    "primeiro": "ritual--rit-beneficios-sub-1--r38-36",
+    "ultimo": "ritual--rit-parcelas--r38-41",
+    "altura_esquerda": 297.6,
+    "altura_direita": 347.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 360,
+    "capitulo": 15,
+    "faixa": "360-0",
+    "primeiro": "ritual--rit-parcelas-sub-2--r38-42",
+    "ultimo": "ritual--rit-parcelas--r38-46",
+    "altura_esquerda": 266.0,
+    "altura_direita": 214.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 361,
+    "capitulo": 15,
+    "faixa": "361-0",
+    "primeiro": "ritual--rit-limites-sub-1--r38-48",
+    "ultimo": "ritual--rit-ajuda--r38-59",
+    "altura_esquerda": 665.0,
+    "altura_direita": 668.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 362,
+    "capitulo": 15,
+    "faixa": "362-0",
+    "primeiro": "ritual--pactos--r38-60",
+    "ultimo": "ritual--pactos--r38-69",
+    "altura_esquerda": 554.2,
+    "altura_direita": 557.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 363,
+    "capitulo": 15,
+    "faixa": "363-0",
+    "primeiro": "ritual--pacto-permanente--r38-70",
+    "ultimo": "ritual--pacto-temporario--r38-80",
+    "altura_esquerda": 599.5,
+    "altura_direita": 602.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 364,
+    "capitulo": 15,
+    "faixa": "364-0",
+    "primeiro": "ritual--pacto-temporario-sub-1--r38-81",
+    "ultimo": "ritual--promessa--r38-92",
+    "altura_esquerda": 586.8,
+    "altura_direita": 631.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 365,
+    "capitulo": 15,
+    "faixa": "365-0",
+    "primeiro": "ritual--pacto-restricao--r38-93",
+    "ultimo": "ritual--pacto-exemplos-sub-2--r38-104",
+    "altura_esquerda": 605.8,
+    "altura_direita": 484.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 366,
+    "capitulo": 15,
+    "faixa": "366-0",
+    "primeiro": "ritual--pacto-exemplos-sub-3--r38-107",
+    "ultimo": "ritual--pacto-exemplos-sub-9--r38-126",
+    "altura_esquerda": 596.4,
+    "altura_direita": 549.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 368,
+    "capitulo": 16,
+    "faixa": "368-1",
+    "primeiro": "campo--inv-campo--r38-1",
+    "ultimo": "campo--inv-campo--r38-6",
+    "altura_esquerda": 347.8,
+    "altura_direita": 243.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 369,
+    "capitulo": 16,
+    "faixa": "369-0",
+    "primeiro": "campo--inv-ciclo--r38-7",
+    "ultimo": "campo--inv-entrada--r38-23",
+    "altura_esquerda": 583.6,
+    "altura_direita": 555.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 370,
+    "capitulo": 16,
+    "faixa": "370-0",
+    "primeiro": "campo--inv-troca--r38-24",
+    "ultimo": "campo--inv-intencao--r38-39",
+    "altura_esquerda": 588.6,
+    "altura_direita": 580.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 371,
+    "capitulo": 16,
+    "faixa": "371-0",
+    "primeiro": "campo--inv-comunicacao--r38-40",
+    "ultimo": "campo--inv-basica--r38-51",
+    "altura_esquerda": 479.2,
+    "altura_direita": 558.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 372,
+    "capitulo": 16,
+    "faixa": "372-0",
+    "primeiro": "campo--inv-basica--r38-52",
+    "ultimo": "campo--inv-energia--r38-64",
+    "altura_esquerda": 575.6,
+    "altura_direita": 618.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 373,
+    "capitulo": 16,
+    "faixa": "373-0",
+    "primeiro": "campo--inv-energia--r38-65",
+    "ultimo": "campo--inv-preparar--r38-77",
+    "altura_esquerda": 545.2,
+    "altura_direita": 630.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 374,
+    "capitulo": 16,
+    "faixa": "374-0",
+    "primeiro": "campo--inv-preparar--r38-78",
+    "ultimo": "campo--inv-pendentes--r38-90",
+    "altura_esquerda": 567.4,
+    "altura_direita": 628.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 375,
+    "capitulo": 16,
+    "faixa": "375-0",
+    "primeiro": "campo--inv-pendentes--r38-91",
+    "ultimo": "campo--inv-restricoes-tempo--r38-102",
+    "altura_esquerda": 608.8,
+    "altura_direita": 657.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 376,
+    "capitulo": 16,
+    "faixa": "376-0",
+    "primeiro": "campo--inv-restricoes-tempo-sub-2--r38-103",
+    "ultimo": "campo--inv-armado--r38-113",
+    "altura_esquerda": 475.4,
+    "altura_direita": 539.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 378,
+    "capitulo": 16,
+    "faixa": "378-1",
+    "primeiro": "campo--inv-armado--r38-118",
+    "ultimo": "campo--inv-defesa--r38-121",
+    "altura_esquerda": 222.0,
+    "altura_direita": 215.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 379,
+    "capitulo": 16,
+    "faixa": "379-0",
+    "primeiro": "campo--inv-defesa--r38-122",
+    "ultimo": "campo--inv-talisma--r38-136",
+    "altura_esquerda": 621.2,
+    "altura_direita": 632.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 380,
+    "capitulo": 16,
+    "faixa": "380-0",
+    "primeiro": "campo--inv-talisma--r38-137",
+    "ultimo": "campo--inv-reparo--r38-148",
+    "altura_esquerda": 606.9,
+    "altura_direita": 601.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 381,
+    "capitulo": 16,
+    "faixa": "381-1",
+    "primeiro": "campo--inv-reparo--r38-150",
+    "ultimo": "campo--inv-liberacao--r38-157",
+    "altura_esquerda": 368.0,
+    "altura_direita": 355.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 382,
+    "capitulo": 16,
+    "faixa": "382-0",
+    "primeiro": "campo--inv-liberacao-sub-1--r38-158",
+    "ultimo": "campo--inv-dominio--r38-167",
+    "altura_esquerda": 638.1,
+    "altura_direita": 615.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 383,
+    "capitulo": 16,
+    "faixa": "383-0",
+    "primeiro": "campo--inv-dominio--r38-168",
+    "ultimo": "campo--inv-queda--r38-179",
+    "altura_esquerda": 514.6,
+    "altura_direita": 590.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 384,
+    "capitulo": 16,
+    "faixa": "384-0",
+    "primeiro": "campo--inv-retorno--r38-180",
+    "ultimo": "campo--inv-fora--r38-191",
+    "altura_esquerda": 562.4,
+    "altura_direita": 549.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 385,
+    "capitulo": 16,
+    "faixa": "385-0",
+    "primeiro": "campo--inv-inconsciente--r38-192",
+    "ultimo": "campo--inv-morte--r38-205",
+    "altura_esquerda": 660.4,
+    "altura_direita": 644.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 386,
+    "capitulo": 16,
+    "faixa": "386-0",
+    "primeiro": "campo--inv-morte--r38-206",
+    "ultimo": "campo--inv-carga--r38-215",
+    "altura_esquerda": 555.5,
+    "altura_direita": 541.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 389,
+    "capitulo": 17,
+    "faixa": "389-0",
+    "primeiro": "construcao--entidades-criar-sub-1--r38-0",
+    "ultimo": "construcao--entidades-aquisicao--r38-14",
+    "altura_esquerda": 544.0,
+    "altura_direita": 670.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 390,
+    "capitulo": 17,
+    "faixa": "390-0",
+    "primeiro": "construcao--entidades-aquisicao--r38-15",
+    "ultimo": "construcao--entidade-cao-habilidades--r38-25",
+    "altura_esquerda": 474.8,
+    "altura_direita": 509.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 391,
+    "capitulo": 17,
+    "faixa": "391-0",
+    "primeiro": "construcao--entidade-cao-habilidades-sub-2--r38-27",
+    "ultimo": "construcao--entidades-domar--r38-40",
+    "altura_esquerda": 603.2,
+    "altura_direita": 638.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 392,
+    "capitulo": 17,
+    "faixa": "392-0",
+    "primeiro": "construcao--entidades-domar-sub-1--r38-41",
+    "ultimo": "construcao--entidades-tipos--r38-50",
+    "altura_esquerda": 523.2,
+    "altura_direita": 446.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 393,
+    "capitulo": 17,
+    "faixa": "393-0",
+    "primeiro": "construcao--entidades-tipos-sub-1--r38-51",
+    "ultimo": "construcao--entidades-atributos--r38-63",
+    "altura_esquerda": 608.0,
+    "altura_direita": 522.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 394,
+    "capitulo": 17,
+    "faixa": "394-0",
+    "primeiro": "construcao--entidades-atributos-sub-1--r38-64",
+    "ultimo": "construcao--entidades-vida-defesa--r38-74",
+    "altura_esquerda": 545.9,
+    "altura_direita": 507.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 395,
+    "capitulo": 17,
+    "faixa": "395-0",
+    "primeiro": "construcao--entidades-vida-defesa-sub-2--r38-75",
+    "ultimo": "construcao--entidades-progressao--r38-82",
+    "altura_esquerda": 371.2,
+    "altura_direita": 406.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 395,
+    "capitulo": 17,
+    "faixa": "395-2",
+    "primeiro": "construcao--entidades-progressao-sub-2--r38-85",
+    "ultimo": "construcao--entidades-progressao--r38-86",
+    "altura_esquerda": 131.2,
+    "altura_direita": 99.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 396,
+    "capitulo": 17,
+    "faixa": "396-0",
+    "primeiro": "construcao--entidades-familias--r38-87",
+    "ultimo": "construcao--entidades-familias--r38-92",
+    "altura_esquerda": 214.1,
+    "altura_direita": 204.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 396,
+    "capitulo": 17,
+    "faixa": "396-2",
+    "primeiro": "construcao--entidades-familias--r38-94",
+    "ultimo": "construcao--entidades-basicas--r38-97",
+    "altura_esquerda": 258.4,
+    "altura_direita": 287.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 397,
+    "capitulo": 17,
+    "faixa": "397-0",
+    "primeiro": "construcao--entidades-basicas--r38-100",
+    "ultimo": "construcao--entidades-especiais--r38-111",
+    "altura_esquerda": 483.2,
+    "altura_direita": 642.2,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 398,
+    "capitulo": 17,
+    "faixa": "398-0",
+    "primeiro": "construcao--entidades-especiais--r38-112",
+    "ultimo": "construcao--entidades-medidas--r38-123",
+    "altura_esquerda": 600.0,
+    "altura_direita": 660.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 399,
+    "capitulo": 17,
+    "faixa": "399-0",
+    "primeiro": "construcao--entidades-efeitos-reduzidos--r38-124",
+    "ultimo": "construcao--entidades-efeitos-reduzidos--r38-126",
+    "altura_esquerda": 168.5,
+    "altura_direita": 192.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 399,
+    "capitulo": 17,
+    "faixa": "399-2",
+    "primeiro": "construcao--entidades-efeitos-reduzidos--r38-128",
+    "ultimo": "construcao--entidades-saldo--r38-134",
+    "altura_esquerda": 249.2,
+    "altura_direita": 285.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 400,
+    "capitulo": 17,
+    "faixa": "400-0",
+    "primeiro": "construcao--entidades-saldo-sub-1--r38-135",
+    "ultimo": "construcao--entidades-controle--r38-144",
+    "altura_esquerda": 578.6,
+    "altura_direita": 528.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 401,
+    "capitulo": 17,
+    "faixa": "401-0",
+    "primeiro": "construcao--entidades-controle-sub-2--r38-145",
+    "ultimo": "construcao--entidades-passivas--r38-157",
+    "altura_esquerda": 650.0,
+    "altura_direita": 579.8,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 402,
+    "capitulo": 17,
+    "faixa": "402-0",
+    "primeiro": "construcao--entidades-passivas--r38-158",
+    "ultimo": "construcao--entidades-passivas-avancadas--r38-167",
+    "altura_esquerda": 602.6,
+    "altura_direita": 617.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 403,
+    "capitulo": 17,
+    "faixa": "403-0",
+    "primeiro": "construcao--entidades-passivas-avancadas-sub-1--r38-168",
+    "ultimo": "construcao--entidades-ampliacao--r38-180",
+    "altura_esquerda": 568.0,
+    "altura_direita": 601.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 404,
+    "capitulo": 17,
+    "faixa": "404-0",
+    "primeiro": "construcao--entidades-ampliacao-sub-1--r38-181",
+    "ultimo": "construcao--entidade-vigia--r38-195",
+    "altura_esquerda": 552.4,
+    "altura_direita": 639.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 405,
+    "capitulo": 17,
+    "faixa": "405-0",
+    "primeiro": "construcao--entidade-vigia--r38-196",
+    "ultimo": "construcao--entidades-conferencia--r38-208",
+    "altura_esquerda": 586.8,
+    "altura_direita": 665.5,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 406,
+    "capitulo": 17,
+    "faixa": "406-0",
+    "primeiro": "construcao--entidades-conferencia-sub-1--r38-209",
+    "ultimo": "fabricacao--fab-teste--r38-10",
+    "altura_esquerda": 670.4,
+    "altura_direita": 641.1,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 407,
+    "capitulo": 17,
+    "faixa": "407-0",
+    "primeiro": "fabricacao--fab-teste-sub-2--r38-11",
+    "ultimo": "fabricacao--fab-conclusao--r38-19",
+    "altura_esquerda": 476.0,
+    "altura_direita": 398.0,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 409,
+    "capitulo": 18,
+    "faixa": "409-1",
+    "primeiro": "consulta--consulta-missao-sub-1--r38-1",
+    "ultimo": "consulta--consulta-missao--r38-7",
+    "altura_esquerda": 349.7,
+    "altura_direita": 347.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 410,
+    "capitulo": 18,
+    "faixa": "410-0",
+    "primeiro": "consulta--consulta-conduzir--r38-8",
+    "ultimo": "consulta--consulta-conduzir-sub-4--r38-16",
+    "altura_esquerda": 421.2,
+    "altura_direita": 464.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 417,
+    "capitulo": 20,
+    "faixa": "417-1",
+    "primeiro": "consulta--consulta-testes-sub-1--r38-2",
+    "ultimo": "consulta--consulta-testes--r38-7",
+    "altura_esquerda": 303.9,
+    "altura_direita": 282.4,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 418,
+    "capitulo": 20,
+    "faixa": "418-0",
+    "primeiro": "consulta--consulta-ataques--r38-8",
+    "ultimo": "consulta--consulta-ataques-sub-4--r38-20",
+    "altura_esquerda": 439.6,
+    "altura_direita": 554.7,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 419,
+    "capitulo": 20,
+    "faixa": "419-0",
+    "primeiro": "consulta--consulta-ataques-sub-5--r38-21",
+    "ultimo": "consulta--consulta-ataques--r38-28",
+    "altura_esquerda": 619.2,
+    "altura_direita": 435.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  },
+  {
+    "pagina": 420,
+    "capitulo": 20,
+    "faixa": "420-0",
+    "primeiro": "consulta--consulta-ataques-sub-8--r38-29",
+    "ultimo": "consulta--consulta-ataques--r38-40",
+    "altura_esquerda": 562.0,
+    "altura_direita": 511.6,
+    "motivo": "Leitura contínua: coluna esquerda inteira, depois coluna direita inteira."
+  }
+]

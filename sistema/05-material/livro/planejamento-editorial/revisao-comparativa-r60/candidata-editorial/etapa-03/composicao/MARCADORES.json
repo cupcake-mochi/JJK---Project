@@ -1,0 +1,87 @@
+{
+  "secoes": {
+    "2": [
+      "geral--testes",
+      "geral--turnos",
+      "geral--acoes",
+      "geral--ataques",
+      "geral--defesa",
+      "geral--manobras",
+      "geral--movimento",
+      "geral--esconder",
+      "geral--mundo"
+    ],
+    "3": [
+      "dano--tipos",
+      "dano--condicoes",
+      "dano--zero",
+      "dano--descansos"
+    ],
+    "5": [
+      "origens--origem-sem-tecnica",
+      "origens--origem-restricao"
+    ],
+    "8": [
+      "equip--eqp-protecao",
+      "equip--eqm-municao",
+      "equip--eqa-armas",
+      "equip--eqf-equipamento"
+    ],
+    "9": [
+      "progressao--prog-tabela-inicial"
+    ],
+    "10": [
+      "fundamento--primeiro",
+      "fundamento--combinacoes",
+      "fundamento--proprio",
+      "fundamento--maxima"
+    ],
+    "11": [
+      "catalogo--cat-restricoes-conjuracao"
+    ],
+    "12": [
+      "aptidoes--apt-catalogo"
+    ],
+    "13": [
+      "rotas--rota-marcial",
+      "rotas--rota-sem-tecnica",
+      "rotas--rota-bencaos"
+    ],
+    "14": [
+      "poderes--criardominio"
+    ],
+    "15": [
+      "ritual--pactos"
+    ],
+    "16": [
+      "campo--inv-ciclo",
+      "campo--inv-especial"
+    ],
+    "17": [
+      "construcao--entidades-criar",
+      "fabricacao--fab-entidades"
+    ]
+  },
+  "trilhas": [
+    "bastiao--bas-muro",
+    "bastiao--bas-punho",
+    "bastiao--bas-combatente",
+    "vanguarda--van-estocada",
+    "vanguarda--van-yumi",
+    "vanguarda--van-besta",
+    "vanguarda--van-fogo",
+    "vanguarda--van-executor",
+    "guia--guia-arquiteto",
+    "guia--guia-analista",
+    "guia--guia-socorrista",
+    "emanador--ema-condutor",
+    "emanador--ema-eco",
+    "emanador--ema-impulso",
+    "evocador--ev-principal",
+    "evocador--ev-parceria",
+    "evocador--ev-multiplas",
+    "incursor--inc-assassino",
+    "incursor--inc-pugilista",
+    "incursor--inc-malabarista"
+  ]
+}

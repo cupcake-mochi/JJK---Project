@@ -1,0 +1,4168 @@
+[
+  {
+    "id": "R46-E001",
+    "evento": 33,
+    "bloco": null,
+    "pagina_antes": 2,
+    "pagina_depois": 2,
+    "antes": "4. Criar um personagem (continuação)",
+    "depois": "4. Criar um personagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E002",
+    "evento": 68,
+    "bloco": null,
+    "pagina_antes": 3,
+    "pagina_depois": 3,
+    "antes": "Sumário (continuação)",
+    "depois": "Sumário",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E003",
+    "evento": 69,
+    "bloco": null,
+    "pagina_antes": 3,
+    "pagina_depois": 3,
+    "antes": "6. Caminhos e Trilhas (continuação)",
+    "depois": "6. Caminhos e Trilhas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E004",
+    "evento": 137,
+    "bloco": null,
+    "pagina_antes": 4,
+    "pagina_depois": 4,
+    "antes": "Sumário (continuação)",
+    "depois": "Sumário",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E005",
+    "evento": 138,
+    "bloco": null,
+    "pagina_antes": 4,
+    "pagina_depois": 4,
+    "antes": "11. Catálogo de criação (continuação)",
+    "depois": "11. Catálogo de criação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E006",
+    "evento": 170,
+    "bloco": null,
+    "pagina_antes": 4,
+    "pagina_depois": 4,
+    "antes": "14. Poderes avançados (continuação)",
+    "depois": "14. Poderes avançados",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E007",
+    "evento": 199,
+    "bloco": "ab--ab-apresentacao",
+    "pagina_antes": 6,
+    "pagina_depois": 6,
+    "antes": "Ciclo Maldito / 1. Ciclo Maldito (continuação)",
+    "depois": "Ciclo Maldito / 1. Ciclo Maldito",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E008",
+    "evento": 207,
+    "bloco": "ab--ab-apresentacao",
+    "pagina_antes": 6,
+    "pagina_depois": 6,
+    "antes": "Ciclo Maldito / Campanhas e guildas (continuação)",
+    "depois": "Ciclo Maldito / Campanhas e guildas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E009",
+    "evento": 240,
+    "bloco": "ab--ab-sociedade",
+    "pagina_antes": 10,
+    "pagina_depois": 10,
+    "antes": "Ciclo Maldito / Pessoas e poderes (continuação)",
+    "depois": "Ciclo Maldito / Pessoas e poderes",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E010",
+    "evento": 306,
+    "bloco": "geral--atributos",
+    "pagina_antes": 13,
+    "pagina_depois": 13,
+    "antes": "Atributos / Maestria (continuação)",
+    "depois": "Atributos / Maestria",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E011",
+    "evento": 318,
+    "bloco": "geral--testes",
+    "pagina_antes": 14,
+    "pagina_depois": 14,
+    "antes": "Testes / Dificuldade (continuação)",
+    "depois": "Testes / Dificuldade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E012",
+    "evento": 333,
+    "bloco": "geral--pericias",
+    "pagina_antes": 15,
+    "pagina_depois": 15,
+    "antes": "Treino e modificadores / Vantagem e desvantagem (continuação)",
+    "depois": "Treino e modificadores / Vantagem e desvantagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E013",
+    "evento": 344,
+    "bloco": "geral--resistencia",
+    "pagina_antes": 15,
+    "pagina_depois": 15,
+    "antes": "Testes de Resistência (continuação)",
+    "depois": "Testes de Resistência",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E014",
+    "evento": 354,
+    "bloco": "geral--resistencia",
+    "pagina_antes": 16,
+    "pagina_depois": 16,
+    "antes": "Testes de Resistência / Ataques e defesas (continuação)",
+    "depois": "Testes de Resistência / Ataques e defesas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E015",
+    "evento": 374,
+    "bloco": "geral--acoes",
+    "pagina_antes": 17,
+    "pagina_depois": 17,
+    "antes": "Turnos / Ações (continuação)",
+    "depois": "Turnos / Ações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E016",
+    "evento": 401,
+    "bloco": "geral--interacao",
+    "pagina_antes": 18,
+    "pagina_depois": 18,
+    "antes": "Turnos / Provocar (continuação)",
+    "depois": "Turnos / Provocar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E017",
+    "evento": 425,
+    "bloco": "geral--preparar",
+    "pagina_antes": 19,
+    "pagina_depois": 19,
+    "antes": "Turnos / Conjuração preparada (continuação)",
+    "depois": "Turnos / Conjuração preparada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E018",
+    "evento": 436,
+    "bloco": "geral--oportunidade",
+    "pagina_antes": 20,
+    "pagina_depois": 20,
+    "antes": "Turnos / Movimento que não provoca (continuação)",
+    "depois": "Turnos / Movimento que não provoca",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E019",
+    "evento": 446,
+    "bloco": "geral--concentracao",
+    "pagina_antes": 20,
+    "pagina_depois": 20,
+    "antes": "Turnos / Dano durante a concentração (continuação)",
+    "depois": "Turnos / Dano durante a concentração",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E020",
+    "evento": 479,
+    "bloco": "geral--alcance",
+    "pagina_antes": 22,
+    "pagina_depois": 22,
+    "antes": "Ataques / Armas à distância (continuação)",
+    "depois": "Ataques / Armas à distância",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E021",
+    "evento": 489,
+    "bloco": "geral--critico",
+    "pagina_antes": 22,
+    "pagina_depois": 22,
+    "antes": "Ataques / Dano do ataque (continuação)",
+    "depois": "Ataques / Dano do ataque",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E022",
+    "evento": 506,
+    "bloco": "geral--defesa",
+    "pagina_antes": 23,
+    "pagina_depois": 23,
+    "antes": "Ataques / Proteção (continuação)",
+    "depois": "Ataques / Proteção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E023",
+    "evento": 540,
+    "bloco": "geral--aparar",
+    "pagina_antes": 25,
+    "pagina_depois": 25,
+    "antes": "Ataques / Aparar (continuação)",
+    "depois": "Ataques / Aparar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E024",
+    "evento": 570,
+    "bloco": "geral--contencoes",
+    "pagina_antes": 26,
+    "pagina_depois": 26,
+    "antes": "Ataques / Escapar (continuação)",
+    "depois": "Ataques / Escapar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E025",
+    "evento": 581,
+    "bloco": "geral--movimento",
+    "pagina_antes": 27,
+    "pagina_depois": 27,
+    "antes": "Movimento e terreno / Metros disponíveis (continuação)",
+    "depois": "Movimento e terreno / Metros disponíveis",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E026",
+    "evento": 589,
+    "bloco": "geral--movimento",
+    "pagina_antes": 27,
+    "pagina_depois": 27,
+    "antes": "Movimento e terreno / Terreno, escalada e natação (continuação)",
+    "depois": "Movimento e terreno / Terreno, escalada e natação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E027",
+    "evento": 604,
+    "bloco": "geral--espacos",
+    "pagina_antes": 28,
+    "pagina_depois": 28,
+    "antes": "Movimento e terreno / Atravessar outra criatura (continuação)",
+    "depois": "Movimento e terreno / Atravessar outra criatura",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E028",
+    "evento": 627,
+    "bloco": "geral--saltos",
+    "pagina_antes": 29,
+    "pagina_depois": 29,
+    "antes": "Movimento e terreno / Distância e impulso (continuação)",
+    "depois": "Movimento e terreno / Distância e impulso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E029",
+    "evento": 635,
+    "bloco": "geral--saltos",
+    "pagina_antes": 30,
+    "pagina_depois": 30,
+    "antes": "Movimento e terreno / Esforço e obstáculos (continuação)",
+    "depois": "Movimento e terreno / Esforço e obstáculos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E030",
+    "evento": 654,
+    "bloco": "geral--queda-criatura",
+    "pagina_antes": 31,
+    "pagina_depois": 31,
+    "antes": "Movimento e terreno / Quedas sobre criaturas (continuação)",
+    "depois": "Movimento e terreno / Quedas sobre criaturas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E031",
+    "evento": 664,
+    "bloco": "geral--rastejar",
+    "pagina_antes": 31,
+    "pagina_depois": 31,
+    "antes": "Movimento e terreno / Rastejar e passagens estreitas (continuação)",
+    "depois": "Movimento e terreno / Rastejar e passagens estreitas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E032",
+    "evento": 674,
+    "bloco": "geral--rastejar",
+    "pagina_antes": 32,
+    "pagina_depois": 32,
+    "antes": "Movimento e terreno / Passagem estreita (continuação)",
+    "depois": "Movimento e terreno / Passagem estreita",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E033",
+    "evento": 695,
+    "bloco": "geral--carga",
+    "pagina_antes": 33,
+    "pagina_depois": 33,
+    "antes": "Movimento e terreno / Carga (continuação)",
+    "depois": "Movimento e terreno / Carga",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E034",
+    "evento": 705,
+    "bloco": "geral--carga",
+    "pagina_antes": 33,
+    "pagina_depois": 33,
+    "antes": "Movimento e terreno / Objetos sem Volume definido e criaturas (continuação)",
+    "depois": "Movimento e terreno / Objetos sem Volume definido e criaturas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E035",
+    "evento": 726,
+    "bloco": "geral--montaria",
+    "pagina_antes": 34,
+    "pagina_depois": 34,
+    "antes": "Movimento e terreno / Turnos e controle (continuação)",
+    "depois": "Movimento e terreno / Turnos e controle",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E036",
+    "evento": 735,
+    "bloco": "geral--perceber",
+    "pagina_antes": 34,
+    "pagina_depois": 35,
+    "antes": "Ver, localizar e estar oculto",
+    "depois": "Percepção e visibilidade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E037",
+    "evento": 736,
+    "bloco": "geral--perceber",
+    "pagina_antes": 34,
+    "pagina_depois": 35,
+    "antes": "Você **enxerga** uma criatura quando consegue vê-la com clareza suficiente para acompanhar suas ações. Você **localiza** uma criatura quando sabe o espaço que ela ocupa, mesmo sem enxergá-la: passos na sala escura podem denunciar esse espaço.",
+    "depois": "Ver, localizar e estar oculto",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E038",
+    "evento": 737,
+    "bloco": "geral--perceber",
+    "pagina_antes": 35,
+    "pagina_depois": 35,
+    "antes": "Percepção e visibilidade / Ver, localizar e estar oculto (continuação)",
+    "depois": "Você **enxerga** uma criatura quando consegue vê-la com clareza suficiente para acompanhar suas ações. Você **localiza** uma criatura quando sabe o espaço que ela ocupa, mesmo sem enxergá-la: passos na sala escura podem denunciar esse espaço.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E039",
+    "evento": 744,
+    "bloco": "geral--perceber",
+    "pagina_antes": 35,
+    "pagina_depois": 35,
+    "antes": "**Visão às cegas** substitui a visão para perceber e atacar dentro dos limites próprios. Não concede leitura fina, visão através de paredes ou dispensa de um requisito que exija especificamente usar os olhos. Sentir Energia não recebe esses benefícios.",
+    "depois": "Percepção e visibilidade / Luz e obstáculos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E040",
+    "evento": 745,
+    "bloco": "geral--perceber",
+    "pagina_antes": 35,
+    "pagina_depois": 35,
+    "antes": "Percepção e visibilidade / Luz e obstáculos (continuação)",
+    "depois": "**Visão às cegas** substitui a visão para perceber e atacar dentro dos limites próprios. Não concede leitura fina, visão através de paredes ou dispensa de um requisito que exija especificamente usar os olhos. Sentir Energia não recebe esses benefícios.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E041",
+    "evento": 754,
+    "bloco": "geral--esconder",
+    "pagina_antes": 35,
+    "pagina_depois": 36,
+    "antes": "Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em **+5 ou -5**, respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente seus passos.",
+    "depois": "Percepção e visibilidade / Uma rolagem, vários observadores",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E042",
+    "evento": 755,
+    "bloco": "geral--esconder",
+    "pagina_antes": 36,
+    "pagina_depois": 36,
+    "antes": "Percepção e visibilidade / Uma rolagem, vários observadores (continuação)",
+    "depois": "Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em **+5 ou -5**, respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente seus passos.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E043",
+    "evento": 764,
+    "bloco": "geral--procurar",
+    "pagina_antes": 36,
+    "pagina_depois": 36,
+    "antes": "Percepção e visibilidade / Vasculhar (continuação)",
+    "depois": "Percepção e visibilidade / Vasculhar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E044",
+    "evento": 771,
+    "bloco": "geral--procurar",
+    "pagina_antes": 37,
+    "pagina_depois": 37,
+    "antes": "Percepção e visibilidade / Qual procedimento usar (continuação)",
+    "depois": "Percepção e visibilidade / Qual procedimento usar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E045",
+    "evento": 782,
+    "bloco": "geral--ocultacao-ataque",
+    "pagina_antes": 37,
+    "pagina_depois": 37,
+    "antes": "Percepção e visibilidade / Ataques e posição revelada (continuação)",
+    "depois": "Percepção e visibilidade / Ataques e posição revelada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E046",
+    "evento": 791,
+    "bloco": "geral--estudar",
+    "pagina_antes": 38,
+    "pagina_depois": 38,
+    "antes": "Percepção e visibilidade / Diga o que procura entender (continuação)",
+    "depois": "Percepção e visibilidade / Diga o que procura entender",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E047",
+    "evento": 808,
+    "bloco": "geral--mundo",
+    "pagina_antes": 39,
+    "pagina_depois": 39,
+    "antes": "Percepção de energia / Fonte e portador (continuação)",
+    "depois": "Percepção de energia / Fonte e portador",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E048",
+    "evento": 817,
+    "bloco": "geral--buscar",
+    "pagina_antes": 39,
+    "pagina_depois": 39,
+    "antes": "Percepção de energia / Vasculhar com Sentir Energia (continuação)",
+    "depois": "Percepção de energia / Vasculhar com Sentir Energia",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E049",
+    "evento": 845,
+    "bloco": "geral--ler",
+    "pagina_antes": 41,
+    "pagina_depois": 41,
+    "antes": "Percepção de energia / Estudar uma fonte (continuação)",
+    "depois": "Percepção de energia / Estudar uma fonte",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E050",
+    "evento": 902,
+    "bloco": "dano--dano",
+    "pagina_antes": 44,
+    "pagina_depois": 44,
+    "antes": "Dano / Resistência, vulnerabilidade e imunidade (continuação)",
+    "depois": "Dano / Resistência, vulnerabilidade e imunidade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E051",
+    "evento": 911,
+    "bloco": "dano--tipos",
+    "pagina_antes": 45,
+    "pagina_depois": 45,
+    "antes": "Dano / Tipos de dano (continuação)",
+    "depois": "Dano / Tipos de dano",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E052",
+    "evento": 952,
+    "bloco": "dano--integridade",
+    "pagina_antes": 47,
+    "pagina_depois": 47,
+    "antes": "Dano / Recuperar Integridade (continuação)",
+    "depois": "Dano / Recuperar Integridade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E053",
+    "evento": 962,
+    "bloco": "dano--condicoes",
+    "pagina_antes": 47,
+    "pagina_depois": 47,
+    "antes": "Condições / Mais de uma condição (continuação)",
+    "depois": "Condições / Mais de uma condição",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E054",
+    "evento": 983,
+    "bloco": "dano--leves",
+    "pagina_antes": 48,
+    "pagina_depois": 48,
+    "antes": "Condições / Agarrado (continuação)",
+    "depois": "Condições / Agarrado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E055",
+    "evento": 995,
+    "bloco": "dano--medias",
+    "pagina_antes": 49,
+    "pagina_depois": 49,
+    "antes": "Condições / Calado (continuação)",
+    "depois": "Condições / Calado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E056",
+    "evento": 1031,
+    "bloco": "dano--cura",
+    "pagina_antes": 50,
+    "pagina_depois": 50,
+    "antes": "Cura / Receber tratamento (continuação)",
+    "depois": "Cura / Receber tratamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E057",
+    "evento": 1043,
+    "bloco": "dano--temporarios",
+    "pagina_antes": 51,
+    "pagina_depois": 51,
+    "antes": "Cura / Receber outra fonte (continuação)",
+    "depois": "Cura / Receber outra fonte",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E058",
+    "evento": 1052,
+    "bloco": "dano--zero",
+    "pagina_antes": 51,
+    "pagina_depois": 51,
+    "antes": "Vida a zero (continuação)",
+    "depois": "Vida a zero",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E059",
+    "evento": 1062,
+    "bloco": "dano--zero",
+    "pagina_antes": 52,
+    "pagina_depois": 52,
+    "antes": "Vida a zero / Janela de socorro (continuação)",
+    "depois": "Vida a zero / Janela de socorro",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E060",
+    "evento": 1071,
+    "bloco": "dano--insistir",
+    "pagina_antes": 52,
+    "pagina_depois": 52,
+    "antes": "Vida a zero / Insistir (continuação)",
+    "depois": "Vida a zero / Insistir",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E061",
+    "evento": 1090,
+    "bloco": "dano--socorro",
+    "pagina_antes": 53,
+    "pagina_depois": 53,
+    "antes": "Vida a zero / Estabilizar (continuação)",
+    "depois": "Vida a zero / Estabilizar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E062",
+    "evento": 1098,
+    "bloco": "dano--sequelas",
+    "pagina_antes": 54,
+    "pagina_depois": 54,
+    "antes": "Vida a zero / Sequelas e Cicatrizes (continuação)",
+    "depois": "Vida a zero / Sequelas e Cicatrizes",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E063",
+    "evento": 1140,
+    "bloco": "dano--descansos",
+    "pagina_antes": 56,
+    "pagina_depois": 56,
+    "antes": "Descansos / Descanso longo (continuação)",
+    "depois": "Descansos / Descanso longo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E064",
+    "evento": 1150,
+    "bloco": "dano--exaustao",
+    "pagina_antes": 56,
+    "pagina_depois": 56,
+    "antes": "Descansos / Efeitos (continuação)",
+    "depois": "Descansos / Efeitos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E065",
+    "evento": 1162,
+    "bloco": "dano--usos",
+    "pagina_antes": 57,
+    "pagina_depois": 57,
+    "antes": "Descansos / Cena e usos de habilidades (continuação)",
+    "depois": "Descansos / Cena e usos de habilidades",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E066",
+    "evento": 1168,
+    "bloco": "dano--usos",
+    "pagina_antes": 57,
+    "pagina_depois": 57,
+    "antes": "Descansos / Cena (continuação)",
+    "depois": "Descansos / Cena",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E067",
+    "evento": 1178,
+    "bloco": "ab--ab-criacao",
+    "pagina_antes": 59,
+    "pagina_depois": 59,
+    "antes": "Criar um personagem / 4. Criar um personagem (continuação)",
+    "depois": "Criar um personagem / 4. Criar um personagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E068",
+    "evento": 1185,
+    "bloco": "ab--ab-criacao",
+    "pagina_antes": 59,
+    "pagina_depois": 59,
+    "antes": "Criar um personagem / Atributos (continuação)",
+    "depois": "Criar um personagem / Atributos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E069",
+    "evento": 1195,
+    "bloco": "ab--ab-origem",
+    "pagina_antes": 60,
+    "pagina_depois": 60,
+    "antes": "Criar um personagem / Testes de Resistência (continuação)",
+    "depois": "Criar um personagem / Testes de Resistência",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E070",
+    "evento": 1205,
+    "bloco": "ab--ab-caminho",
+    "pagina_antes": 60,
+    "pagina_depois": 60,
+    "antes": "Criar um personagem / Caminho e Trilha (continuação)",
+    "depois": "Criar um personagem / Caminho e Trilha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E071",
+    "evento": 1216,
+    "bloco": "ab--ab-capacidades",
+    "pagina_antes": 61,
+    "pagina_depois": 61,
+    "antes": "Criar um personagem / Capacidades iniciais (continuação)",
+    "depois": "Criar um personagem / Capacidades iniciais",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E072",
+    "evento": 1254,
+    "bloco": "ab--ab-resgate",
+    "pagina_antes": 63,
+    "pagina_depois": 63,
+    "antes": "Exemplo: Resgate na ala oeste (continuação)",
+    "depois": "Exemplo: Resgate na ala oeste",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E073",
+    "evento": 1279,
+    "bloco": "ab--ab-conferencia",
+    "pagina_antes": 64,
+    "pagina_depois": 64,
+    "antes": "Criar um personagem / Ficha pronta (continuação)",
+    "depois": "Criar um personagem / Ficha pronta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E074",
+    "evento": 1376,
+    "bloco": "origens--receptaculo-acordos",
+    "pagina_antes": 71,
+    "pagina_depois": 71,
+    "antes": "Receptáculo / Resposta à Invasão (continuação)",
+    "depois": "Receptáculo / Resposta à Invasão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E075",
+    "evento": 1398,
+    "bloco": "origens--receptaculo-excecoes",
+    "pagina_antes": 72,
+    "pagina_depois": 72,
+    "antes": "Receptáculo / Vontade de Cárcere (continuação)",
+    "depois": "Receptáculo / Vontade de Cárcere",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E076",
+    "evento": 1428,
+    "bloco": "origens--descendente-kamo",
+    "pagina_antes": 74,
+    "pagina_depois": 74,
+    "antes": "Descendente / Execução Ensaiada (continuação)",
+    "depois": "Descendente / Execução Ensaiada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E077",
+    "evento": 1441,
+    "bloco": "origens--descendente-gojo",
+    "pagina_antes": 74,
+    "pagina_depois": 74,
+    "antes": "Descendente / Execução Reservada (continuação)",
+    "depois": "Descendente / Execução Reservada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E078",
+    "evento": 1450,
+    "bloco": "origens--descendente-gojo",
+    "pagina_antes": 75,
+    "pagina_depois": 75,
+    "antes": "Descendente / Antecipação Estudada (continuação)",
+    "depois": "Descendente / Antecipação Estudada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E079",
+    "evento": 1461,
+    "bloco": "origens--descendente-inumaki",
+    "pagina_antes": 75,
+    "pagina_depois": 75,
+    "antes": "Descendente / Linguagem da Serpente (continuação)",
+    "depois": "Descendente / Linguagem da Serpente",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E080",
+    "evento": 1469,
+    "bloco": "origens--descendente-inumaki",
+    "pagina_antes": 76,
+    "pagina_depois": 76,
+    "antes": "Descendente / Leitura a Dois (continuação)",
+    "depois": "Descendente / Leitura a Dois",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E081",
+    "evento": 1510,
+    "bloco": "origens--origem-encarnado",
+    "pagina_antes": 78,
+    "pagina_depois": 78,
+    "antes": "Encarnado / Duas Vidas (continuação)",
+    "depois": "Encarnado / Duas Vidas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E082",
+    "evento": 1531,
+    "bloco": "origens--encarnado-beneficios",
+    "pagina_antes": 79,
+    "pagina_depois": 79,
+    "antes": "Encarnado / Memória Testemunha (continuação)",
+    "depois": "Encarnado / Memória Testemunha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E083",
+    "evento": 1560,
+    "bloco": "origens--feto-beneficios",
+    "pagina_antes": 82,
+    "pagina_depois": 82,
+    "antes": "Híbrido / Armamento Orgânico (continuação)",
+    "depois": "Híbrido / Armamento Orgânico",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E084",
+    "evento": 1626,
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "pagina_antes": 86,
+    "pagina_depois": 86,
+    "antes": "Corpo Amaldiçoado / Amortecimento de Queda (continuação)",
+    "depois": "Corpo Amaldiçoado / Amortecimento de Queda",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E085",
+    "evento": 1688,
+    "bloco": "origens--restricao-prenuncio",
+    "pagina_antes": 90,
+    "pagina_depois": 90,
+    "antes": "Restrição Celestial / Sem Energia / Estudar a execução (continuação)",
+    "depois": "Restrição Celestial / Sem Energia / Estudar a execução",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E086",
+    "evento": 1739,
+    "bloco": "origens--restricao-ce4",
+    "pagina_antes": 92,
+    "pagina_depois": 92,
+    "antes": "Restrição Celestial / Restrição corporal / Rede Remota (continuação)",
+    "depois": "Restrição Celestial / Restrição corporal / Rede Remota",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E087",
+    "evento": 1752,
+    "bloco": "origens--restricao-saida",
+    "pagina_antes": 93,
+    "pagina_depois": 93,
+    "antes": "Restrição Celestial / Restrição corporal / Saída Elevada (continuação)",
+    "depois": "Restrição Celestial / Restrição corporal / Saída Elevada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E088",
+    "evento": 1766,
+    "bloco": "origens--restricao-quebradico",
+    "pagina_antes": 94,
+    "pagina_depois": 94,
+    "antes": "Restrição Celestial / Restrição corporal / Corpo Quebradiço (continuação)",
+    "depois": "Restrição Celestial / Restrição corporal / Corpo Quebradiço",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E089",
+    "evento": 1783,
+    "bloco": "origens--restricao-exaurido",
+    "pagina_antes": 95,
+    "pagina_depois": 95,
+    "antes": "Restrição Celestial / Restrição corporal / Cura e repouso (continuação)",
+    "depois": "Restrição Celestial / Restrição corporal / Cura e repouso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E090",
+    "evento": 1795,
+    "bloco": "origens--restricao-menores-corporais",
+    "pagina_antes": 95,
+    "pagina_depois": 95,
+    "antes": "Restrição Celestial / Restrição corporal / Recuperação Abundante (continuação)",
+    "depois": "Restrição Celestial / Restrição corporal / Recuperação Abundante",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E091",
+    "evento": 1817,
+    "bloco": "origens--legado-criar",
+    "pagina_antes": 96,
+    "pagina_depois": 96,
+    "antes": "Personalizar sua Origem (continuação)",
+    "depois": "Personalizar sua Origem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E092",
+    "evento": 1827,
+    "bloco": "origens--legados-exemplos",
+    "pagina_antes": 97,
+    "pagina_depois": 97,
+    "antes": "Exemplos de personagens / Latente com passado comum (continuação)",
+    "depois": "Exemplos de personagens / Latente com passado comum",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E093",
+    "evento": 1847,
+    "bloco": "bastiao--bas-bastiao",
+    "pagina_antes": 100,
+    "pagina_depois": 100,
+    "antes": "Bastião / Progressão do Caminho (continuação)",
+    "depois": "Bastião / Progressão do Caminho",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E094",
+    "evento": 1858,
+    "bloco": "bastiao--bas-olhos",
+    "pagina_antes": 101,
+    "pagina_depois": 101,
+    "antes": "Bastião / Assumir um golpe (continuação)",
+    "depois": "Bastião / Assumir um golpe",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E095",
+    "evento": 1884,
+    "bloco": "bastiao--bas-aliados",
+    "pagina_antes": 102,
+    "pagina_depois": 102,
+    "antes": "Bastião / Chega Mais (continuação)",
+    "depois": "Bastião / Chega Mais",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E096",
+    "evento": 1905,
+    "bloco": "bastiao--bas-muro",
+    "pagina_antes": 103,
+    "pagina_depois": 103,
+    "antes": "Bastião / Muro / Guarda-Costas (continuação)",
+    "depois": "Bastião / Muro / Guarda-Costas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E097",
+    "evento": 1918,
+    "bloco": "bastiao--bas-casca",
+    "pagina_antes": 103,
+    "pagina_depois": 103,
+    "antes": "Bastião / Muro / Inabalável (continuação)",
+    "depois": "Bastião / Muro / Inabalável",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E098",
+    "evento": 1929,
+    "bloco": "bastiao--bas-punho",
+    "pagina_antes": 104,
+    "pagina_depois": 104,
+    "antes": "Bastião / Punho / Trocação Franca (continuação)",
+    "depois": "Bastião / Punho / Trocação Franca",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E099",
+    "evento": 1953,
+    "bloco": "bastiao--bas-arrastao",
+    "pagina_antes": 105,
+    "pagina_depois": 105,
+    "antes": "Bastião / Punho / Ampliar o controle (continuação)",
+    "depois": "Bastião / Punho / Ampliar o controle",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E100",
+    "evento": 1963,
+    "bloco": "bastiao--bas-combatente",
+    "pagina_antes": 105,
+    "pagina_depois": 105,
+    "antes": "Bastião / Combatente Amaldiçoado / Retaliação (continuação)",
+    "depois": "Bastião / Combatente Amaldiçoado / Retaliação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E101",
+    "evento": 1976,
+    "bloco": "bastiao--bas-oportunista",
+    "pagina_antes": 106,
+    "pagina_depois": 106,
+    "antes": "Bastião / Combatente Amaldiçoado / Oportunista (continuação)",
+    "depois": "Bastião / Combatente Amaldiçoado / Oportunista",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E102",
+    "evento": 1982,
+    "bloco": "bastiao--bas-oportunista",
+    "pagina_antes": 106,
+    "pagina_depois": 106,
+    "antes": "Bastião / Combatente Amaldiçoado / Contra a Parede (continuação)",
+    "depois": "Bastião / Combatente Amaldiçoado / Contra a Parede",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E103",
+    "evento": 2014,
+    "bloco": "vanguarda--van-conducoes",
+    "pagina_antes": 109,
+    "pagina_depois": 109,
+    "antes": "Vanguarda / **Conduções** (continuação)",
+    "depois": "Vanguarda / **Conduções**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E104",
+    "evento": 2019,
+    "bloco": "vanguarda--van-conclusoes",
+    "pagina_antes": 110,
+    "pagina_depois": 110,
+    "antes": "Vanguarda / **Conclusões** (continuação)",
+    "depois": "Vanguarda / **Conclusões**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E105",
+    "evento": 2032,
+    "bloco": "vanguarda--van-escola",
+    "pagina_antes": 110,
+    "pagina_depois": 110,
+    "antes": "Vanguarda / Prazo e troca de alvo (continuação)",
+    "depois": "Vanguarda / Prazo e troca de alvo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E106",
+    "evento": 2072,
+    "bloco": "vanguarda--van-estocada",
+    "pagina_antes": 112,
+    "pagina_depois": 112,
+    "antes": "Vanguarda / Estocada / Compasso (continuação)",
+    "depois": "Vanguarda / Estocada / Compasso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E107",
+    "evento": 2083,
+    "bloco": "vanguarda--van-feiticos",
+    "pagina_antes": 112,
+    "pagina_depois": 112,
+    "antes": "Vanguarda / Estocada / Conclusões de feitiço (continuação)",
+    "depois": "Vanguarda / Estocada / Conclusões de feitiço",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E108",
+    "evento": 2115,
+    "bloco": "vanguarda--van-yumi",
+    "pagina_antes": 114,
+    "pagina_depois": 114,
+    "antes": "Vanguarda / Batedor: Yumi / Armar uma Conclusão (continuação)",
+    "depois": "Vanguarda / Batedor: Yumi / Armar uma Conclusão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E109",
+    "evento": 2152,
+    "bloco": "vanguarda--van-yumi-avanco",
+    "pagina_antes": 115,
+    "pagina_depois": 115,
+    "antes": "Vanguarda / Batedor: Yumi / Última Leitura (continuação)",
+    "depois": "Vanguarda / Batedor: Yumi / Última Leitura",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E110",
+    "evento": 2163,
+    "bloco": "vanguarda--van-besta",
+    "pagina_antes": 116,
+    "pagina_depois": 116,
+    "antes": "Vanguarda / Batedor: Besta / Virotes Cravados (continuação)",
+    "depois": "Vanguarda / Batedor: Besta / Virotes Cravados",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E111",
+    "evento": 2191,
+    "bloco": "vanguarda--van-besta-avanco",
+    "pagina_antes": 117,
+    "pagina_depois": 117,
+    "antes": "Vanguarda / Batedor: Besta / Preparação Remanescente (continuação)",
+    "depois": "Vanguarda / Batedor: Besta / Preparação Remanescente",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E112",
+    "evento": 2214,
+    "bloco": "vanguarda--van-fogo-conclusoes",
+    "pagina_antes": 118,
+    "pagina_depois": 118,
+    "antes": "Vanguarda / Batedor: Arma de Fogo / **Conclusões da Arma de Fogo** (continuação)",
+    "depois": "Vanguarda / Batedor: Arma de Fogo / **Conclusões da Arma de Fogo**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E113",
+    "evento": 2226,
+    "bloco": "vanguarda--van-fogo-avanco",
+    "pagina_antes": 118,
+    "pagina_depois": 118,
+    "antes": "Vanguarda / Batedor: Arma de Fogo / Romper o Contato (continuação)",
+    "depois": "Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por esvaziar a arma ou pelo gatilho natural.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E114",
+    "evento": 2227,
+    "bloco": "vanguarda--van-fogo-avanco",
+    "pagina_antes": 118,
+    "pagina_depois": 118,
+    "antes": "Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por esvaziar a arma ou pelo gatilho natural.",
+    "depois": "Vanguarda / Batedor: Arma de Fogo / Romper o Contato",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E115",
+    "evento": 2276,
+    "bloco": "vanguarda--van-executor-avanco",
+    "pagina_antes": 120,
+    "pagina_depois": 120,
+    "antes": "Vanguarda / Executor / Duas Intenções (continuação)",
+    "depois": "Vanguarda / Executor / Duas Intenções",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E116",
+    "evento": 2314,
+    "bloco": "guia--guia-aberturas",
+    "pagina_antes": 123,
+    "pagina_depois": 123,
+    "antes": "Guia / Fora de combate (continuação)",
+    "depois": "Guia / Fora de combate",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E117",
+    "evento": 2325,
+    "bloco": "guia--guia-resposta",
+    "pagina_antes": 124,
+    "pagina_depois": 124,
+    "antes": "Guia / Resposta Coordenada (continuação)",
+    "depois": "Guia / Resposta Coordenada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E118",
+    "evento": 2351,
+    "bloco": "guia--guia-plano-conjunto",
+    "pagina_antes": 125,
+    "pagina_depois": 125,
+    "antes": "Guia / Todos no Mesmo Plano (continuação)",
+    "depois": "Guia / Todos no Mesmo Plano",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E119",
+    "evento": 2372,
+    "bloco": "guia--guia-arquiteto",
+    "pagina_antes": 126,
+    "pagina_depois": 126,
+    "antes": "Guia / Arquiteto / Obras de Apoio (continuação)",
+    "depois": "Guia / Arquiteto / Obras de Apoio",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E120",
+    "evento": 2391,
+    "bloco": "guia--guia-obras-maiores",
+    "pagina_antes": 127,
+    "pagina_depois": 127,
+    "antes": "Guia / Arquiteto / **Obras maiores** (continuação)",
+    "depois": "Guia / Arquiteto / **Obras maiores**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E121",
+    "evento": 2393,
+    "bloco": "guia--guia-obras-maiores",
+    "pagina_antes": 127,
+    "pagina_depois": 127,
+    "antes": "Guia / Arquiteto / **Obras maiores** (continuação)",
+    "depois": "Guia / Arquiteto / **Obras maiores**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E122",
+    "evento": 2403,
+    "bloco": "guia--guia-emergencia",
+    "pagina_antes": 127,
+    "pagina_depois": 127,
+    "antes": "Guia / Arquiteto / Obra de Emergência (continuação)",
+    "depois": "Guia / Arquiteto / Obra de Emergência",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E123",
+    "evento": 2410,
+    "bloco": "guia--guia-emergencia",
+    "pagina_antes": 128,
+    "pagina_depois": 128,
+    "antes": "Guia / Arquiteto / Plano Construído (continuação)",
+    "depois": "Guia / Arquiteto / Plano Construído",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E124",
+    "evento": 2422,
+    "bloco": "guia--guia-analista",
+    "pagina_antes": 128,
+    "pagina_depois": 128,
+    "antes": "Guia / Analista / Ler a Resposta (continuação)",
+    "depois": "Guia / Analista / Ler a Resposta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E125",
+    "evento": 2432,
+    "bloco": "guia--guia-brecha",
+    "pagina_antes": 129,
+    "pagina_depois": 129,
+    "antes": "Guia / Analista / Apontar a Brecha (continuação)",
+    "depois": "Guia / Analista / Apontar a Brecha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E126",
+    "evento": 2446,
+    "bloco": "guia--guia-padrao",
+    "pagina_antes": 129,
+    "pagina_depois": 129,
+    "antes": "Guia / Analista / Padrão Decifrado (continuação)",
+    "depois": "Guia / Analista / Padrão Decifrado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E127",
+    "evento": 2459,
+    "bloco": "guia--guia-socorrista",
+    "pagina_antes": 130,
+    "pagina_depois": 130,
+    "antes": "Guia / Socorrista / Cuidado Preparado (continuação)",
+    "depois": "Guia / Socorrista / Cuidado Preparado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E128",
+    "evento": 2472,
+    "bloco": "guia--guia-tratamento",
+    "pagina_antes": 130,
+    "pagina_depois": 130,
+    "antes": "Guia / Socorrista / Tratar e Retomar (continuação)",
+    "depois": "Guia / Socorrista / Tratar e Retomar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E129",
+    "evento": 2481,
+    "bloco": "guia--guia-emergencia-cuidado",
+    "pagina_antes": 131,
+    "pagina_depois": 131,
+    "antes": "Guia / Socorrista / Ainda Há Tempo (continuação)",
+    "depois": "Guia / Socorrista / Ainda Há Tempo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E130",
+    "evento": 2503,
+    "bloco": "emanador--ema-base",
+    "pagina_antes": 133,
+    "pagina_depois": 133,
+    "antes": "Emanador / Progressão do Caminho (continuação)",
+    "depois": "Emanador / Progressão do Caminho",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E131",
+    "evento": 2515,
+    "bloco": "emanador--ema-desdobramento",
+    "pagina_antes": 134,
+    "pagina_depois": 134,
+    "antes": "Emanador / Escolha e pagamento (continuação)",
+    "depois": "Emanador / Escolha e pagamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E132",
+    "evento": 2527,
+    "bloco": "emanador--ema-remodelar",
+    "pagina_antes": 134,
+    "pagina_depois": 134,
+    "antes": "Emanador / Remodelar (continuação)",
+    "depois": "Emanador / Remodelar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E133",
+    "evento": 2532,
+    "bloco": "emanador--ema-modulacoes",
+    "pagina_antes": 135,
+    "pagina_depois": 135,
+    "antes": "Emanador / **Modulações Dominadas** (continuação)",
+    "depois": "Emanador / **Modulações Dominadas**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E134",
+    "evento": 2543,
+    "bloco": "emanador--ema-familiares",
+    "pagina_antes": 135,
+    "pagina_depois": 135,
+    "antes": "Emanador / Expressões Familiares (continuação)",
+    "depois": "Emanador / Expressões Familiares",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E135",
+    "evento": 2578,
+    "bloco": "emanador--ema-instintiva",
+    "pagina_antes": 137,
+    "pagina_depois": 137,
+    "antes": "Emanador / Reduções de custo (continuação)",
+    "depois": "Emanador / Reduções de custo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E136",
+    "evento": 2603,
+    "bloco": "emanador--ema-artes",
+    "pagina_antes": 138,
+    "pagina_depois": 138,
+    "antes": "Emanador / Condutor Armado / Cadência Marcial (continuação)",
+    "depois": "Emanador / Condutor Armado / Cadência Marcial",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E137",
+    "evento": 2617,
+    "bloco": "emanador--ema-propriedades",
+    "pagina_antes": 138,
+    "pagina_depois": 138,
+    "antes": "Emanador / Condutor Armado / Forma Mutável (continuação)",
+    "depois": "Emanador / Condutor Armado / Forma Mutável",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E138",
+    "evento": 2628,
+    "bloco": "emanador--ema-propriedades-apoio",
+    "pagina_antes": 139,
+    "pagina_depois": 139,
+    "antes": "Emanador / Condutor Armado / Âncora Gravada (continuação)",
+    "depois": "Emanador / Condutor Armado / Âncora Gravada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E139",
+    "evento": 2663,
+    "bloco": "emanador--ema-eco",
+    "pagina_antes": 140,
+    "pagina_depois": 140,
+    "antes": "Emanador / Ressonante / Eco Técnico (continuação)",
+    "depois": "Emanador / Ressonante / Eco Técnico",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E140",
+    "evento": 2675,
+    "bloco": "emanador--ema-repetir",
+    "pagina_antes": 141,
+    "pagina_depois": 141,
+    "antes": "Emanador / Ressonante / Limites (continuação)",
+    "depois": "Emanador / Ressonante / Limites",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E141",
+    "evento": 2689,
+    "bloco": "emanador--ema-contraponto",
+    "pagina_antes": 141,
+    "pagina_depois": 141,
+    "antes": "Emanador / Ressonante / Reverberação (continuação)",
+    "depois": "Emanador / Ressonante / Reverberação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E142",
+    "evento": 2734,
+    "bloco": "emanador--ema-fluxo",
+    "pagina_antes": 143,
+    "pagina_depois": 143,
+    "antes": "Emanador / Catalisador / Sobrecarregar Energia (continuação)",
+    "depois": "Emanador / Catalisador / Sobrecarregar Energia",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E143",
+    "evento": 2771,
+    "bloco": "evocador--ev-usos",
+    "pagina_antes": 146,
+    "pagina_depois": 146,
+    "antes": "Evocador / **Usos dos aprimoramentos** (continuação)",
+    "depois": "Evocador / **Usos dos aprimoramentos**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E144",
+    "evento": 2784,
+    "bloco": "evocador--ev-aprimoramentos",
+    "pagina_antes": 147,
+    "pagina_depois": 147,
+    "antes": "Evocador / Avanço Corpo a Corpo (continuação)",
+    "depois": "Evocador / Avanço Corpo a Corpo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E145",
+    "evento": 2800,
+    "bloco": "evocador--ev-intervencoes",
+    "pagina_antes": 147,
+    "pagina_depois": 147,
+    "antes": "Evocador / **Intervenções de Vínculo** (continuação)",
+    "depois": "Evocador / **Intervenções de Vínculo**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E146",
+    "evento": 2846,
+    "bloco": "evocador--ev-preparacao",
+    "pagina_antes": 149,
+    "pagina_depois": 149,
+    "antes": "Evocador / Recolher sob Ataque (continuação)",
+    "depois": "Evocador / Recolher sob Ataque",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E147",
+    "evento": 2857,
+    "bloco": "evocador--ev-complementar",
+    "pagina_antes": 149,
+    "pagina_depois": 149,
+    "antes": "Evocador / Atuação Complementar (continuação)",
+    "depois": "Evocador / Atuação Complementar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E148",
+    "evento": 2867,
+    "bloco": "evocador--ev-combinar",
+    "pagina_antes": 150,
+    "pagina_depois": 150,
+    "antes": "Evocador / Combinar Aprimoramentos (continuação)",
+    "depois": "Evocador / Combinar Aprimoramentos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E149",
+    "evento": 2881,
+    "bloco": "evocador--ev-combinada",
+    "pagina_antes": 150,
+    "pagina_depois": 150,
+    "antes": "Evocador / Especial Combinada (continuação)",
+    "depois": "Evocador / Especial Combinada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E150",
+    "evento": 2916,
+    "bloco": "evocador--ev-principal-especial",
+    "pagina_antes": 152,
+    "pagina_depois": 152,
+    "antes": "Evocador / Invocação Principal / Repertório Ampliado (continuação)",
+    "depois": "Evocador / Invocação Principal / Repertório Ampliado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E151",
+    "evento": 2926,
+    "bloco": "evocador--ev-principal-troca",
+    "pagina_antes": 152,
+    "pagina_depois": 152,
+    "antes": "Evocador / Invocação Principal / Substituir a principal (continuação)",
+    "depois": "Evocador / Invocação Principal / Substituir a principal",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E152",
+    "evento": 2939,
+    "bloco": "evocador--ev-principal-protecao",
+    "pagina_antes": 153,
+    "pagina_depois": 153,
+    "antes": "Evocador / Invocação Principal / Proteger a Manifestação (continuação)",
+    "depois": "Evocador / Invocação Principal / Proteger a Manifestação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E153",
+    "evento": 2951,
+    "bloco": "evocador--ev-principal-continuidade",
+    "pagina_antes": 153,
+    "pagina_depois": 153,
+    "antes": "Evocador / Invocação Principal / Intervenções da Invocação Principal / Preservar o Aprimoramento (continuação)",
+    "depois": "Evocador / Invocação Principal / Intervenções da Invocação Principal / Preservar o Aprimoramento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E154",
+    "evento": 2988,
+    "bloco": "evocador--ev-parceria",
+    "pagina_antes": 155,
+    "pagina_depois": 155,
+    "antes": "Evocador / Parceria / Entrada Ágil (continuação)",
+    "depois": "Evocador / Parceria / Entrada Ágil",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E155",
+    "evento": 3055,
+    "bloco": "evocador--ev-parceria-cobrir",
+    "pagina_antes": 157,
+    "pagina_depois": 157,
+    "antes": "Evocador / Parceria / Cobrir o Parceiro (continuação)",
+    "depois": "Evocador / Parceria / Cobrir o Parceiro",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E156",
+    "evento": 3074,
+    "bloco": "evocador--ev-parceria-resposta",
+    "pagina_antes": 158,
+    "pagina_depois": 158,
+    "antes": "Evocador / Parceria / Resposta Técnica da Dupla (continuação)",
+    "depois": "Evocador / Parceria / Resposta Técnica da Dupla",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E157",
+    "evento": 3082,
+    "bloco": "evocador--ev-parceria-resposta",
+    "pagina_antes": 159,
+    "pagina_depois": 159,
+    "antes": "Evocador / Parceria / Exemplos (continuação)",
+    "depois": "Evocador / Parceria / Exemplos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E158",
+    "evento": 3106,
+    "bloco": "evocador--ev-multiplas-entrada",
+    "pagina_antes": 160,
+    "pagina_depois": 160,
+    "antes": "Evocador / Múltiplas Invocações / Manifestação em Grupo (continuação)",
+    "depois": "Evocador / Múltiplas Invocações / Manifestação em Grupo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E159",
+    "evento": 3120,
+    "bloco": "evocador--ev-multiplas-duplas",
+    "pagina_antes": 160,
+    "pagina_depois": 160,
+    "antes": "Evocador / Múltiplas Invocações / Aquisição em Duplas (continuação)",
+    "depois": "Evocador / Múltiplas Invocações / Aquisição em Duplas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E160",
+    "evento": 3131,
+    "bloco": "evocador--ev-multiplas-protecao",
+    "pagina_antes": 161,
+    "pagina_depois": 160,
+    "antes": "Evocador / Múltiplas Invocações / Intervenções do Conjunto (continuação)",
+    "depois": "Pague os custos indicados junto dos custos normais das capacidades envolvidas. As intervenções de proteção exigem que a invocação protetora possa reagir. Os aprimoramentos e as outras intervenções conservam seus usos compartilhados.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E161",
+    "evento": 3132,
+    "bloco": "evocador--ev-multiplas-protecao",
+    "pagina_antes": 161,
+    "pagina_depois": 161,
+    "antes": "Pague os custos indicados junto dos custos normais das capacidades envolvidas. As intervenções de proteção exigem que a invocação protetora possa reagir. Os aprimoramentos e as outras intervenções conservam seus usos compartilhados.",
+    "depois": "Evocador / Múltiplas Invocações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E162",
+    "evento": 3146,
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "pagina_antes": 161,
+    "pagina_depois": 161,
+    "antes": "Evocador / Múltiplas Invocações / Conduzir a Especial (continuação)",
+    "depois": "**A segunda invocação precisa estar dentro do alcance da própria especial, medido a partir da executora, antes de mudar a origem.** A executora precisa perceber esse ponto de manifestação. Ambas também cumprem o alcance comum de 18 m em relação a você.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E163",
+    "evento": 3147,
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "pagina_antes": 161,
+    "pagina_depois": 161,
+    "antes": "**A segunda invocação precisa estar dentro do alcance da própria especial, medido a partir da executora, antes de mudar a origem.** A executora precisa perceber esse ponto de manifestação. Ambas também cumprem o alcance comum de 18 m em relação a você.",
+    "depois": "Evocador / Múltiplas Invocações / Conduzir a Especial",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E164",
+    "evento": 3156,
+    "bloco": "evocador--ev-multiplas-retirada",
+    "pagina_antes": 162,
+    "pagina_depois": 161,
+    "antes": "Evocador / Múltiplas Invocações / Retirada em Conjunto (continuação)",
+    "depois": "A segunda recebe o efeito de **Desengajar até o fim do seu turno**. Ela usa seu Movimento e sua básica nos momentos normais.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E165",
+    "evento": 3157,
+    "bloco": "evocador--ev-multiplas-retirada",
+    "pagina_antes": 162,
+    "pagina_depois": 161,
+    "antes": "A segunda recebe o efeito de **Desengajar até o fim do seu turno**. Ela usa seu Movimento e sua básica nos momentos normais.",
+    "depois": "*Exemplo: a serpente usa sua básica para Desengajar e cobre a retirada da ave, a 7,5 m dela. A ave pode sair do confronto usando seu próprio Movimento e conservar sua básica para uma especial comandada ou outra tarefa.*",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E166",
+    "evento": 3158,
+    "bloco": "evocador--ev-multiplas-retirada",
+    "pagina_antes": 162,
+    "pagina_depois": 162,
+    "antes": "*Exemplo: a serpente usa sua básica para Desengajar e cobre a retirada da ave, a 7,5 m dela. A ave pode sair do confronto usando seu próprio Movimento e conservar sua básica para uma especial comandada ou outra tarefa.*",
+    "depois": "Evocador / Múltiplas Invocações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E167",
+    "evento": 3168,
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "pagina_antes": 162,
+    "pagina_depois": 162,
+    "antes": "Evocador / Múltiplas Invocações / Aprimoramentos Distribuídos (continuação)",
+    "depois": "**Mudar uma escolha.** Pelo custo normal de **2 Pontos de Vínculo**, Mudar o Aprimoramento modifica uma das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos demais principais que permanecerem ativos. A escolha que não for alterada conserva seus efeitos.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E168",
+    "evento": 3169,
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "pagina_antes": 162,
+    "pagina_depois": 162,
+    "antes": "**Mudar uma escolha.** Pelo custo normal de **2 Pontos de Vínculo**, Mudar o Aprimoramento modifica uma das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos demais principais que permanecerem ativos. A escolha que não for alterada conserva seus efeitos.",
+    "depois": "**Atuação Complementar.** Ao usar a habilidade, escolha uma das beneficiárias e consulte a tabela do principal dela. O custo continua sendo sua Bônus, com um uso por rodada para o conjunto.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E169",
+    "evento": 3170,
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "pagina_antes": 162,
+    "pagina_depois": 162,
+    "antes": "**Atuação Complementar.** Ao usar a habilidade, escolha uma das beneficiárias e consulte a tabela do principal dela. O custo continua sendo sua Bônus, com um uso por rodada para o conjunto.",
+    "depois": "Evocador / Múltiplas Invocações / Aprimoramentos Distribuídos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E170",
+    "evento": 3176,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 162,
+    "antes": "Evocador / Múltiplas Invocações",
+    "depois": "Formação Renovada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E171",
+    "evento": 3177,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 162,
+    "antes": "Formação Renovada",
+    "depois": "**Nível 27.**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E172",
+    "evento": 3178,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 162,
+    "antes": "**Nível 27.**",
+    "depois": "**Uma vez no começo do seu turno, em combate · Sem ação adicional.**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E173",
+    "evento": 3179,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 162,
+    "antes": "**Uma vez no começo do seu turno, em combate · Sem ação adicional.**",
+    "depois": "Depois de resolver os efeitos e as atuações obrigatórias de início de turno e antes de escolher seus Aprimoramentos de Vínculo, estando consciente, escolha uma operação:",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E174",
+    "evento": 3180,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 162,
+    "antes": "Depois de resolver os efeitos e as atuações obrigatórias de início de turno e antes de escolher seus Aprimoramentos de Vínculo, estando consciente, escolha uma operação:",
+    "depois": [
+      [
+        "Operação",
+        "O que você faz"
+      ],
+      [
+        "Entrada adicional",
+        "Manifeste ou ative uma invocação dentro do limite de campo."
+      ],
+      [
+        "Substituição direta",
+        "Retire uma invocação ativa e coloque outra em seu lugar."
+      ]
+    ],
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E175",
+    "evento": 3181,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 163,
+    "antes": [
+      [
+        "Operação",
+        "O que você faz"
+      ],
+      [
+        "Entrada adicional",
+        "Manifeste ou ative uma invocação dentro do limite de campo."
+      ],
+      [
+        "Substituição direta",
+        "Retire uma invocação ativa e coloque outra em seu lugar."
+      ]
+    ],
+    "depois": "Evocador / Múltiplas Invocações / Formação Renovada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E176",
+    "evento": 3188,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 163,
+    "antes": "Evocador / Múltiplas Invocações / Completar o grupo (continuação)",
+    "depois": "Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quando cumprir os requisitos, aplicando a orientação posterior normal. As demais entradas feitas nesse turno seguem seus próprios procedimentos.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E177",
+    "evento": 3189,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 163,
+    "antes": "Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quando cumprir os requisitos, aplicando a orientação posterior normal. As demais entradas feitas nesse turno seguem seus próprios procedimentos.",
+    "depois": "Mudar a composição",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E178",
+    "evento": 3190,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 163,
+    "antes": "Mudar a composição",
+    "depois": "Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma invocação recolhida apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E179",
+    "evento": 3191,
+    "bloco": "evocador--ev-multiplas-formacao",
+    "pagina_antes": 163,
+    "pagina_depois": 163,
+    "antes": "Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma invocação recolhida apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.",
+    "depois": "Evocador / Múltiplas Invocações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E180",
+    "evento": 3198,
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "pagina_antes": 164,
+    "pagina_depois": 163,
+    "antes": "Evocador / Múltiplas Invocações / Repertório do Conjunto (continuação)",
+    "depois": "Registre as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E181",
+    "evento": 3199,
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "pagina_antes": 164,
+    "pagina_depois": 163,
+    "antes": "Registre as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.",
+    "depois": "Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias conservam o repertório registrado.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E182",
+    "evento": 3200,
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "pagina_antes": 164,
+    "pagina_depois": 163,
+    "antes": "Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias conservam o repertório registrado.",
+    "depois": "Funções complementares",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E183",
+    "evento": 3201,
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "pagina_antes": 164,
+    "pagina_depois": 163,
+    "antes": "Funções complementares",
+    "depois": "Com Essência 6 escolhida, cada invocação recebe três escolhas adicionais. Uma pode desenvolver especiais de proteção. Outra, capacidades básicas utilitárias. Uma terceira, talentos de Categoria de Efeito 1 coerentes com sua definição.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E184",
+    "evento": 3202,
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "pagina_antes": 164,
+    "pagina_depois": 164,
+    "antes": "Com Essência 6 escolhida, cada invocação recebe três escolhas adicionais. Uma pode desenvolver especiais de proteção. Outra, capacidades básicas utilitárias. Uma terceira, talentos de Categoria de Efeito 1 coerentes com sua definição.",
+    "depois": "Evocador / Múltiplas Invocações / Funções complementares",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E185",
+    "evento": 3208,
+    "bloco": "evocador--ev-turnos",
+    "pagina_antes": 164,
+    "pagina_depois": 164,
+    "antes": "Evocador / Múltiplas Invocações / Invocação Principal, nível 2 (continuação)",
+    "depois": "O ataque +6 tem vantagem. Os d20 mostram 4 e 7: o total 13 acerta Defesa 13. Os 2d8 causam 9 de dano. A vantagem ofensiva fica usada. O cão usa a segunda básica para Mordida, agora sem vantagem. O d20 mostra 9, soma +4 e acerta, causando 4 no d6. Kaito ainda tem sua Bônus, seu Movimento e o ponto para uma intervenção posterior.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E186",
+    "evento": 3209,
+    "bloco": "evocador--ev-turnos",
+    "pagina_antes": 164,
+    "pagina_depois": 164,
+    "antes": "O ataque +6 tem vantagem. Os d20 mostram 4 e 7: o total 13 acerta Defesa 13. Os 2d8 causam 9 de dano. A vantagem ofensiva fica usada. O cão usa a segunda básica para Mordida, agora sem vantagem. O d20 mostra 9, soma +4 e acerta, causando 4 no d6. Kaito ainda tem sua Bônus, seu Movimento e o ponto para uma intervenção posterior.",
+    "depois": "Evocador / Múltiplas Invocações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E187",
+    "evento": 3232,
+    "bloco": "incursor--inc-movimento",
+    "pagina_antes": 166,
+    "pagina_depois": 166,
+    "antes": "Incursor / Movimento Acrobático (continuação)",
+    "depois": "Incursor / Movimento Acrobático",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E188",
+    "evento": 3261,
+    "bloco": "incursor--inc-respostas",
+    "pagina_antes": 167,
+    "pagina_depois": 167,
+    "antes": "Incursor / Esquiva Instintiva (continuação)",
+    "depois": "Incursor / Esquiva Instintiva",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E189",
+    "evento": 3316,
+    "bloco": "incursor--inc-guarda",
+    "pagina_antes": 170,
+    "pagina_depois": 170,
+    "antes": "Incursor / Assassino / Estudar a Guarda (continuação)",
+    "depois": "Incursor / Assassino / Estudar a Guarda",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E190",
+    "evento": 3329,
+    "bloco": "incursor--inc-cirurgico",
+    "pagina_antes": 171,
+    "pagina_depois": 171,
+    "antes": "Incursor / Assassino / Golpe Cirúrgico (continuação)",
+    "depois": "Incursor / Assassino / Golpe Cirúrgico",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E191",
+    "evento": 3344,
+    "bloco": "incursor--inc-cortar",
+    "pagina_antes": 171,
+    "pagina_depois": 171,
+    "antes": "Incursor / Assassino / Combinação com Instante Decisivo (continuação)",
+    "depois": "Incursor / Assassino / Combinação com Instante Decisivo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E192",
+    "evento": 3357,
+    "bloco": "incursor--inc-parkour",
+    "pagina_antes": 172,
+    "pagina_depois": 172,
+    "antes": "Incursor / Assassino / Aproximação de abate (continuação)",
+    "depois": "Incursor / Assassino / Aproximação de abate",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E193",
+    "evento": 3383,
+    "bloco": "incursor--inc-brecha",
+    "pagina_antes": 173,
+    "pagina_depois": 173,
+    "antes": "Incursor / Assassino / Execução fora do turno (continuação)",
+    "depois": "Incursor / Assassino / Execução fora do turno",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E194",
+    "evento": 3390,
+    "bloco": "incursor--inc-brecha",
+    "pagina_antes": 173,
+    "pagina_depois": 173,
+    "antes": "Incursor / Assassino / Sentença Final (continuação)",
+    "depois": "Incursor / Assassino / Sentença Final",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E195",
+    "evento": 3427,
+    "bloco": "incursor--inc-base",
+    "pagina_antes": 176,
+    "pagina_depois": 176,
+    "antes": "Incursor / Pugilista / Recuperar a Base (continuação)",
+    "depois": "Incursor / Pugilista / Recuperar a Base",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E196",
+    "evento": 3443,
+    "bloco": "incursor--inc-interceptar",
+    "pagina_antes": 176,
+    "pagina_depois": 176,
+    "antes": "Incursor / Pugilista / Interceptar e Prender (continuação)",
+    "depois": "Incursor / Pugilista / Interceptar e Prender",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E197",
+    "evento": 3456,
+    "bloco": "incursor--inc-interceptar",
+    "pagina_antes": 177,
+    "pagina_depois": 177,
+    "antes": "Incursor / Pugilista / Golpe Desarticulador (continuação)",
+    "depois": "Incursor / Pugilista / Golpe Desarticulador",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E198",
+    "evento": 3471,
+    "bloco": "incursor--inc-projecao",
+    "pagina_antes": 177,
+    "pagina_depois": 177,
+    "antes": "Incursor / Pugilista / Colisão (continuação)",
+    "depois": "Incursor / Pugilista / Colisão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E199",
+    "evento": 3486,
+    "bloco": "incursor--inc-redirecionar",
+    "pagina_antes": 178,
+    "pagina_depois": 178,
+    "antes": "Incursor / Pugilista / Redirecionar a Força (continuação)",
+    "depois": "Incursor / Pugilista / Redirecionar a Força",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E200",
+    "evento": 3490,
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "pagina_antes": 178,
+    "pagina_depois": 178,
+    "antes": "Redirecionar a Força (continuação)",
+    "depois": "Redirecionar a Força",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E201",
+    "evento": 3493,
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "pagina_antes": 178,
+    "pagina_depois": 178,
+    "antes": "Corpo em Harmonia / Redirecionar a Força (continuação)",
+    "depois": "• Compare o resultado com a **Defesa do novo alvo**. Ele **não pode Bloquear** esse ataque.",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E202",
+    "evento": 3494,
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "pagina_antes": 178,
+    "pagina_depois": 178,
+    "antes": "• Compare o resultado com a **Defesa do novo alvo**. Ele **não pode Bloquear** esse ataque.",
+    "depois": "Corpo em Harmonia / Redirecionar a Força",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E203",
+    "evento": 3515,
+    "bloco": "incursor--inc-continuacoes",
+    "pagina_antes": 180,
+    "pagina_depois": 180,
+    "antes": "Incursor / Malabarista / **Continuações** (continuação)",
+    "depois": "Incursor / Malabarista / **Continuações**",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E204",
+    "evento": 3523,
+    "bloco": "incursor--inc-continuacoes",
+    "pagina_antes": 181,
+    "pagina_depois": 181,
+    "antes": "Incursor / Malabarista / Lançamento Cruzado (continuação)",
+    "depois": "Incursor / Malabarista / Lançamento Cruzado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E205",
+    "evento": 3532,
+    "bloco": "incursor--inc-ricochete",
+    "pagina_antes": 181,
+    "pagina_depois": 181,
+    "antes": "Incursor / Malabarista / Ricochete (continuação)",
+    "depois": "Incursor / Malabarista / Ricochete",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E206",
+    "evento": 3540,
+    "bloco": "incursor--inc-destino",
+    "pagina_antes": 182,
+    "pagina_depois": 182,
+    "antes": "Incursor / Malabarista / Mudar o Destino (continuação)",
+    "depois": "Incursor / Malabarista / Mudar o Destino",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E207",
+    "evento": 3549,
+    "bloco": "incursor--inc-retorno",
+    "pagina_antes": 182,
+    "pagina_depois": 182,
+    "antes": "Incursor / Malabarista / Trajetória de Retorno (continuação)",
+    "depois": "Incursor / Malabarista / Trajetória de Retorno",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E208",
+    "evento": 3562,
+    "bloco": "incursor--inc-finta",
+    "pagina_antes": 183,
+    "pagina_depois": 183,
+    "antes": "Incursor / Malabarista / Finta de Retorno (continuação)",
+    "depois": "Incursor / Malabarista / Finta de Retorno",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E209",
+    "evento": 3572,
+    "bloco": "incursor--inc-finta",
+    "pagina_antes": 183,
+    "pagina_depois": 183,
+    "antes": "Incursor / Malabarista / Manejo Contínuo ampliado (continuação)",
+    "depois": "Incursor / Malabarista / Manejo Contínuo ampliado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E210",
+    "evento": 3582,
+    "bloco": "incursor--inc-perfeita",
+    "pagina_antes": 184,
+    "pagina_depois": 184,
+    "antes": "Incursor / Malabarista / Trajetória Perfeita (continuação)",
+    "depois": "Incursor / Malabarista / Trajetória Perfeita",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E211",
+    "evento": 3586,
+    "bloco": "incursor--inc-perfeita",
+    "pagina_antes": 184,
+    "pagina_depois": 184,
+    "antes": "Incursor / Malabarista / Trajetória Perfeita (continuação)",
+    "depois": "Incursor / Malabarista / Trajetória Perfeita",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E212",
+    "evento": 3591,
+    "bloco": "pericias--pericias",
+    "pagina_antes": 186,
+    "pagina_depois": 186,
+    "antes": "Perícias e Ofícios / 7. Perícias e Ofícios (continuação)",
+    "depois": "Perícias e Ofícios / 7. Perícias e Ofícios",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E213",
+    "evento": 3599,
+    "bloco": "pericias--pericias",
+    "pagina_antes": 186,
+    "pagina_depois": 186,
+    "antes": "Perícias e Ofícios / Tentativas sem treino (continuação)",
+    "depois": "Perícias e Ofícios / Tentativas sem treino",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E214",
+    "evento": 3608,
+    "bloco": "pericias--tarefas",
+    "pagina_antes": 187,
+    "pagina_depois": 187,
+    "antes": "Perícias e Ofícios / Resultado da tentativa (continuação)",
+    "depois": "Perícias e Ofícios / Resultado da tentativa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E215",
+    "evento": 3652,
+    "bloco": "pericias--conhecimento",
+    "pagina_antes": 189,
+    "pagina_depois": 189,
+    "antes": "Perícias e Ofícios / Religião (continuação)",
+    "depois": "Perícias e Ofícios / Religião",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E216",
+    "evento": 3677,
+    "bloco": "pericias--ambiente",
+    "pagina_antes": 190,
+    "pagina_depois": 190,
+    "antes": "Perícias e Ofícios / Tecnologia (continuação)",
+    "depois": "Perícias e Ofícios / Tecnologia",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E217",
+    "evento": 3708,
+    "bloco": "pericias--oficios",
+    "pagina_antes": 191,
+    "pagina_depois": 191,
+    "antes": "Perícias e Ofícios / Atributo padrão (continuação)",
+    "depois": "Perícias e Ofícios / Atributo padrão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E218",
+    "evento": 3721,
+    "bloco": "pericias--fabricacao",
+    "pagina_antes": 192,
+    "pagina_depois": 192,
+    "antes": "Perícias e Ofícios / Realizar o trabalho (continuação)",
+    "depois": "Perícias e Ofícios / Realizar o trabalho",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E219",
+    "evento": 3743,
+    "bloco": "equip--eq-equipamento",
+    "pagina_antes": 195,
+    "pagina_depois": 195,
+    "antes": "Equipamento / 8. Equipamento (continuação)",
+    "depois": "Equipamento / 8. Equipamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E220",
+    "evento": 3749,
+    "bloco": "equip--eq-equipamento",
+    "pagina_antes": 195,
+    "pagina_depois": 195,
+    "antes": "Equipamento / Treino e Força (continuação)",
+    "depois": "Equipamento / Treino e Força",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E221",
+    "evento": 3758,
+    "bloco": "equip--eq-manipular",
+    "pagina_antes": 196,
+    "pagina_depois": 196,
+    "antes": "Equipamento / Sacar e guardar (continuação)",
+    "depois": "Equipamento / Sacar e guardar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E222",
+    "evento": 3767,
+    "bloco": "equip--eq-manipular",
+    "pagina_antes": 196,
+    "pagina_depois": 196,
+    "antes": "Equipamento / Mãos disponíveis (continuação)",
+    "depois": "Equipamento / Mãos disponíveis",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E223",
+    "evento": 3776,
+    "bloco": "equip--eq-objetos",
+    "pagina_antes": 197,
+    "pagina_depois": 197,
+    "antes": "Equipamento / Ação e teste (continuação)",
+    "depois": "Equipamento / Ação e teste",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E224",
+    "evento": 3788,
+    "bloco": "equip--eq-propriedades",
+    "pagina_antes": 198,
+    "pagina_depois": 198,
+    "antes": "Equipamento / Propriedades (continuação)",
+    "depois": "Equipamento / Propriedades",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E225",
+    "evento": 3822,
+    "bloco": "equip--eqp-protecao",
+    "pagina_antes": 200,
+    "pagina_depois": 200,
+    "antes": "Equipamento / Requisitos e carga (continuação)",
+    "depois": "Equipamento / Requisitos e carga",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E226",
+    "evento": 3853,
+    "bloco": "equip--eqp-vestir",
+    "pagina_antes": 201,
+    "pagina_depois": 201,
+    "antes": "Equipamento / Vestir e retirar equipamento (continuação)",
+    "depois": "Equipamento / Vestir e retirar equipamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E227",
+    "evento": 3871,
+    "bloco": "equip--eqm-municao",
+    "pagina_antes": 202,
+    "pagina_depois": 202,
+    "antes": "Equipamento / Arcos e bestas (continuação)",
+    "depois": "Equipamento / Arcos e bestas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E228",
+    "evento": 3887,
+    "bloco": "equip--eqm-recarga",
+    "pagina_antes": 203,
+    "pagina_depois": 203,
+    "antes": "Equipamento / Recarga completa ou parcial (continuação)",
+    "depois": "Equipamento / Recarga completa ou parcial",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E229",
+    "evento": 3897,
+    "bloco": "equip--eqm-reserva",
+    "pagina_antes": 204,
+    "pagina_depois": 204,
+    "antes": "Equipamento / Transporte (continuação)",
+    "depois": "Equipamento / Transporte",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E230",
+    "evento": 3930,
+    "bloco": "equip--eqa-laminas",
+    "pagina_antes": 206,
+    "pagina_depois": 206,
+    "antes": "Equipamento / Lâmina Longa (continuação)",
+    "depois": "Equipamento / Lâmina Longa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E231",
+    "evento": 3974,
+    "bloco": "equip--eqi-itens",
+    "pagina_antes": 210,
+    "pagina_depois": 210,
+    "antes": "Equipamento / Equipamento de missão (continuação)",
+    "depois": "Equipamento / Equipamento de missão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E232",
+    "evento": 3979,
+    "bloco": "equip--eqi-itens",
+    "pagina_antes": 210,
+    "pagina_depois": 210,
+    "antes": "Equipamento / Transporte e consumo (continuação)",
+    "depois": "Equipamento / Transporte e consumo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E233",
+    "evento": 3989,
+    "bloco": "equip--eqi-exploracao",
+    "pagina_antes": 211,
+    "pagina_depois": 211,
+    "antes": "Equipamento / Corda e kit de escalada (continuação)",
+    "depois": "Equipamento / Corda e kit de escalada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E234",
+    "evento": 4006,
+    "bloco": "equip--eqi-fechaduras",
+    "pagina_antes": 212,
+    "pagina_depois": 212,
+    "antes": "Equipamento / Prender alguém (continuação)",
+    "depois": "Equipamento / Prender alguém",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E235",
+    "evento": 4014,
+    "bloco": "equip--eqi-objetos",
+    "pagina_antes": 212,
+    "pagina_depois": 212,
+    "antes": "Equipamento / Danificar objetos (continuação)",
+    "depois": "Equipamento / Danificar objetos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E236",
+    "evento": 4033,
+    "bloco": "equip--eqi-improvisadas",
+    "pagina_antes": 213,
+    "pagina_depois": 213,
+    "antes": "Equipamento / Objeto semelhante a uma arma (continuação)",
+    "depois": "Equipamento / Objeto semelhante a uma arma",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E237",
+    "evento": 4042,
+    "bloco": "equip--eqi-improvisadas",
+    "pagina_antes": 214,
+    "pagina_depois": 214,
+    "antes": "Equipamento / Usar uma arma de outro modo (continuação)",
+    "depois": "Equipamento / Usar uma arma de outro modo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E238",
+    "evento": 4052,
+    "bloco": "equip--eqc-dinheiro",
+    "pagina_antes": 214,
+    "pagina_depois": 214,
+    "antes": "Equipamento / Equipamento restrito (continuação)",
+    "depois": "Equipamento / Equipamento restrito",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E239",
+    "evento": 4061,
+    "bloco": "equip--eqc-precos",
+    "pagina_antes": 215,
+    "pagina_depois": 215,
+    "antes": "Equipamento / Preços de proteção (continuação)",
+    "depois": "Equipamento / Preços de proteção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E240",
+    "evento": 4072,
+    "bloco": "equip--eqc-inicial",
+    "pagina_antes": 215,
+    "pagina_depois": 215,
+    "antes": "Equipamento / Equipamento inicial (continuação)",
+    "depois": "Equipamento / Equipamento inicial",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E241",
+    "evento": 4082,
+    "bloco": "equip--eqc-inicial",
+    "pagina_antes": 216,
+    "pagina_depois": 216,
+    "antes": "Equipamento / Exemplos de compras (continuação)",
+    "depois": "Equipamento / Exemplos de compras",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E242",
+    "evento": 4090,
+    "bloco": "equip--eqc-compras",
+    "pagina_antes": 216,
+    "pagina_depois": 216,
+    "antes": "Equipamento / Repor suprimentos (continuação)",
+    "depois": "Equipamento / Repor suprimentos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E243",
+    "evento": 4107,
+    "bloco": "equip--eqf-equipamento",
+    "pagina_antes": 218,
+    "pagina_depois": 218,
+    "antes": "Equipamento / Características da base (continuação)",
+    "depois": "Equipamento / Características da base",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E244",
+    "evento": 4115,
+    "bloco": "equip--eqf-graus",
+    "pagina_antes": 219,
+    "pagina_depois": 219,
+    "antes": "Equipamento / Grau e patente (continuação)",
+    "depois": "Equipamento / Grau e patente",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E245",
+    "evento": 4126,
+    "bloco": "equip--eqf-uso",
+    "pagina_antes": 219,
+    "pagina_depois": 219,
+    "antes": "Equipamento / Itens em uso (continuação)",
+    "depois": "Equipamento / Itens em uso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E246",
+    "evento": 4135,
+    "bloco": "equip--eqf-uso",
+    "pagina_antes": 220,
+    "pagina_depois": 220,
+    "antes": "Equipamento / Usos e cópias (continuação)",
+    "depois": "Equipamento / Usos e cópias",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E247",
+    "evento": 4146,
+    "bloco": "equip--eqf-aquisicao",
+    "pagina_antes": 220,
+    "pagina_depois": 220,
+    "antes": "Equipamento / Criar uma ferramenta (continuação)",
+    "depois": "Equipamento / Criar uma ferramenta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E248",
+    "evento": 4157,
+    "bloco": "equip--eqf-armas",
+    "pagina_antes": 221,
+    "pagina_depois": 221,
+    "antes": "Equipamento / Kunai Fiel (continuação)",
+    "depois": "Equipamento / Kunai Fiel",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E249",
+    "evento": 4170,
+    "bloco": "equip--eqf-armas",
+    "pagina_antes": 221,
+    "pagina_depois": 221,
+    "antes": "Equipamento / Corrente Extensível (continuação)",
+    "depois": "Equipamento / Corrente Extensível",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E250",
+    "evento": 4183,
+    "bloco": "equip--eqf-roupas",
+    "pagina_antes": 222,
+    "pagina_depois": 222,
+    "antes": "Equipamento / Manto de Passagem (continuação)",
+    "depois": "Equipamento / Manto de Passagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E251",
+    "evento": 4195,
+    "bloco": "equip--eqf-protecao",
+    "pagina_antes": 222,
+    "pagina_depois": 222,
+    "antes": "Equipamento / Escudo da Retirada (continuação)",
+    "depois": "Equipamento / Escudo da Retirada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E252",
+    "evento": 4233,
+    "bloco": "equip--eqf-reliquias",
+    "pagina_antes": 224,
+    "pagina_depois": 224,
+    "antes": "Equipamento / Lança do Anátema (continuação)",
+    "depois": "Equipamento / Lança do Anátema",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E253",
+    "evento": 4257,
+    "bloco": "equip--eqf-objetos",
+    "pagina_antes": 225,
+    "pagina_depois": 225,
+    "antes": "Equipamento / Atração e selos (continuação)",
+    "depois": "Equipamento / Atração e selos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E254",
+    "evento": 4267,
+    "bloco": "progressao--prog-inicio",
+    "pagina_antes": 227,
+    "pagina_depois": 227,
+    "antes": "Progressão / Experiência e Progressão (continuação)",
+    "depois": "Progressão / Experiência e Progressão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E255",
+    "evento": 4277,
+    "bloco": "progressao--prog-xp",
+    "pagina_antes": 227,
+    "pagina_depois": 227,
+    "antes": "Progressão / Recompensas e custos (continuação)",
+    "depois": "Progressão / Recompensas e custos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E256",
+    "evento": 4283,
+    "bloco": "progressao--prog-xp",
+    "pagina_antes": 228,
+    "pagina_depois": 228,
+    "antes": "Progressão / Subir de nível (continuação)",
+    "depois": "Progressão / Subir de nível",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E257",
+    "evento": 4291,
+    "bloco": "progressao--prog-semana",
+    "pagina_antes": 228,
+    "pagina_depois": 228,
+    "antes": "Progressão / Experiência semanal (continuação)",
+    "depois": "Progressão / Experiência semanal",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E258",
+    "evento": 4303,
+    "bloco": "progressao--prog-tabela-inicial",
+    "pagina_antes": 229,
+    "pagina_depois": 229,
+    "antes": "Progressão / Progressão dos níveis 1 a 15 (continuação)",
+    "depois": "Progressão / Progressão dos níveis 1 a 15",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E259",
+    "evento": 4310,
+    "bloco": "progressao--prog-tabela-avancada",
+    "pagina_antes": 230,
+    "pagina_depois": 230,
+    "antes": "Progressão / Progressão dos níveis 16 a 30 (continuação)",
+    "depois": "Progressão / Progressão dos níveis 16 a 30",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E260",
+    "evento": 4313,
+    "bloco": "progressao--prog-tabela-avancada",
+    "pagina_antes": 230,
+    "pagina_depois": 230,
+    "antes": "Progressão / Progressão dos níveis 16 a 30 (continuação)",
+    "depois": "Progressão / Progressão dos níveis 16 a 30",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E261",
+    "evento": 4317,
+    "bloco": "progressao--prog-marcos",
+    "pagina_antes": 231,
+    "pagina_depois": 231,
+    "antes": "Progressão / Marcos (continuação)",
+    "depois": "Progressão / Marcos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E262",
+    "evento": 4327,
+    "bloco": "progressao--prog-repertorio",
+    "pagina_antes": 231,
+    "pagina_depois": 231,
+    "antes": "Progressão / Repertório e novas escolhas (continuação)",
+    "depois": "Progressão / Repertório e novas escolhas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E263",
+    "evento": 4338,
+    "bloco": "progressao--prog-atualizar",
+    "pagina_antes": 232,
+    "pagina_depois": 232,
+    "antes": "Progressão / Atualizar a ficha (continuação)",
+    "depois": "Progressão / Atualizar a ficha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E264",
+    "evento": 4349,
+    "bloco": "progressao--prog-atualizar",
+    "pagina_antes": 232,
+    "pagina_depois": 232,
+    "antes": "Progressão / Vida e energia (continuação)",
+    "depois": "Progressão / Vida e energia",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E265",
+    "evento": 4359,
+    "bloco": "progressao--prog-trilhas",
+    "pagina_antes": 233,
+    "pagina_depois": 233,
+    "antes": "Progressão / Conferência da mudança (continuação)",
+    "depois": "Progressão / Conferência da mudança",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E266",
+    "evento": 4377,
+    "bloco": "progressao--prog-guilda",
+    "pagina_antes": 234,
+    "pagina_depois": 234,
+    "antes": "Progressão / Recompensas da guilda (continuação)",
+    "depois": "Progressão / Recompensas da guilda",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E267",
+    "evento": 4424,
+    "bloco": "fundamento--primeiro",
+    "pagina_antes": 238,
+    "pagina_depois": 238,
+    "antes": "Fundamento / Montagem (continuação)",
+    "depois": "Fundamento / Montagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E268",
+    "evento": 4432,
+    "bloco": "fundamento--familias",
+    "pagina_antes": 239,
+    "pagina_depois": 239,
+    "antes": "Fundamento / Famílias (continuação)",
+    "depois": "Fundamento / Famílias",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E269",
+    "evento": 4444,
+    "bloco": "fundamento--selo",
+    "pagina_antes": 239,
+    "pagina_depois": 239,
+    "antes": "Fundamento / Selo (continuação)",
+    "depois": "Fundamento / Selo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E270",
+    "evento": 4461,
+    "bloco": "fundamento--repertorio",
+    "pagina_antes": 240,
+    "pagina_depois": 240,
+    "antes": "Fundamento / Feitiços conhecidos (continuação)",
+    "depois": "Fundamento / Feitiços conhecidos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E271",
+    "evento": 4466,
+    "bloco": "fundamento--repertorio",
+    "pagina_antes": 240,
+    "pagina_depois": 240,
+    "antes": "Fundamento / Invocação por espaço (continuação)",
+    "depois": "Fundamento / Invocação por espaço",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E272",
+    "evento": 4471,
+    "bloco": "fundamento--repertorio",
+    "pagina_antes": 241,
+    "pagina_depois": 241,
+    "antes": "Fundamento / Fora da conta (continuação)",
+    "depois": "Fundamento / Fora da conta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E273",
+    "evento": 4487,
+    "bloco": "fundamento--formas",
+    "pagina_antes": 242,
+    "pagina_depois": 242,
+    "antes": "Fundamento / Formas de ataque (continuação)",
+    "depois": "Fundamento / Formas de ataque",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E274",
+    "evento": 4520,
+    "bloco": "fundamento--conjurar",
+    "pagina_antes": 244,
+    "pagina_depois": 244,
+    "antes": "Fundamento / Atributo, ataque e CD (continuação)",
+    "depois": "Fundamento / Atributo, ataque e CD",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E275",
+    "evento": 4538,
+    "bloco": "fundamento--restricoes",
+    "pagina_antes": 245,
+    "pagina_depois": 245,
+    "antes": "Fundamento / Escolha uma dificuldade real (continuação)",
+    "depois": "Fundamento / Escolha uma dificuldade real",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E276",
+    "evento": 4560,
+    "bloco": "fundamento--controle",
+    "pagina_antes": 246,
+    "pagina_depois": 246,
+    "antes": "Fundamento / Controle (continuação)",
+    "depois": "Fundamento / Controle",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E277",
+    "evento": 4569,
+    "bloco": "fundamento--controle",
+    "pagina_antes": 247,
+    "pagina_depois": 247,
+    "antes": "Fundamento / Rede de contenção (continuação)",
+    "depois": "Fundamento / Rede de contenção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E278",
+    "evento": 4589,
+    "bloco": "fundamento--danolimites",
+    "pagina_antes": 248,
+    "pagina_depois": 248,
+    "antes": "Fundamento / Áreas e ataques divididos (continuação)",
+    "depois": "Fundamento / Áreas e ataques divididos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E279",
+    "evento": 4595,
+    "bloco": "fundamento--danolimites",
+    "pagina_antes": 248,
+    "pagina_depois": 248,
+    "antes": "Fundamento / Dados adicionais da própria montagem (continuação)",
+    "depois": "Fundamento / Dados adicionais da própria montagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E280",
+    "evento": 4604,
+    "bloco": "fundamento--persistente",
+    "pagina_antes": 249,
+    "pagina_depois": 249,
+    "antes": "Fundamento / Exemplo de permanência (continuação)",
+    "depois": "Fundamento / Exemplo de permanência",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E281",
+    "evento": 4612,
+    "bloco": "fundamento--livre",
+    "pagina_antes": 249,
+    "pagina_depois": 249,
+    "antes": "Fundamento / Aplicações livres (continuação)",
+    "depois": "Fundamento / Aplicações livres",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E282",
+    "evento": 4623,
+    "bloco": "fundamento--efeito",
+    "pagina_antes": 250,
+    "pagina_depois": 250,
+    "antes": "Fundamento / Efeitos fora de combate (continuação)",
+    "depois": "Fundamento / Efeitos fora de combate",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E283",
+    "evento": 4638,
+    "bloco": "fundamento--ampliar",
+    "pagina_antes": 251,
+    "pagina_depois": 251,
+    "antes": "Fundamento / Corte Medido (continuação)",
+    "depois": "Fundamento / Corte Medido",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E284",
+    "evento": 4640,
+    "bloco": "fundamento--ampliar",
+    "pagina_antes": 251,
+    "pagina_depois": 251,
+    "antes": "Fundamento / Corte Medido (continuação)",
+    "depois": "Fundamento / Corte Medido",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E285",
+    "evento": 4651,
+    "bloco": "fundamento--classezero",
+    "pagina_antes": 251,
+    "pagina_depois": 251,
+    "antes": "Fundamento / Feitiços de Classe 0 (continuação)",
+    "depois": "Fundamento / Feitiços de Classe 0",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E286",
+    "evento": 4669,
+    "bloco": "fundamento--proprio",
+    "pagina_antes": 252,
+    "pagina_depois": 252,
+    "antes": "Fundamento / Preço e comparação (continuação)",
+    "depois": "Fundamento / Preço e comparação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E287",
+    "evento": 4681,
+    "bloco": "fundamento--liberacao",
+    "pagina_antes": 253,
+    "pagina_depois": 253,
+    "antes": "Fundamento / Custo e uso (continuação)",
+    "depois": "Fundamento / Custo e uso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E288",
+    "evento": 4692,
+    "bloco": "fundamento--maxima",
+    "pagina_antes": 253,
+    "pagina_depois": 253,
+    "antes": "Fundamento / Técnica Máxima (continuação)",
+    "depois": "Fundamento / Técnica Máxima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E289",
+    "evento": 4719,
+    "bloco": "fundamento--limitesmaxima",
+    "pagina_antes": 255,
+    "pagina_depois": 255,
+    "antes": "Técnica Máxima / Melhorias da Técnica Máxima (continuação)",
+    "depois": "Técnica Máxima / Melhorias da Técnica Máxima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E290",
+    "evento": 4721,
+    "bloco": "fundamento--limitesmaxima",
+    "pagina_antes": 255,
+    "pagina_depois": 255,
+    "antes": "Técnica Máxima / Melhorias da Técnica Máxima (continuação)",
+    "depois": "Técnica Máxima / Melhorias da Técnica Máxima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E291",
+    "evento": 4738,
+    "bloco": "fundamento--passagem",
+    "pagina_antes": 256,
+    "pagina_depois": 256,
+    "antes": "Exemplo: Passagem de Papel / Limites (continuação)",
+    "depois": "Exemplo: Passagem de Papel / Limites",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E292",
+    "evento": 4747,
+    "bloco": "fundamento--retirada",
+    "pagina_antes": 257,
+    "pagina_depois": 257,
+    "antes": "Exemplo: Retirada de Emergência / Montagem e uso (continuação)",
+    "depois": "Exemplo: Retirada de Emergência / Montagem e uso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E293",
+    "evento": 4757,
+    "bloco": "fundamento--retirada",
+    "pagina_antes": 257,
+    "pagina_depois": 257,
+    "antes": "Exemplo: Retirada de Emergência / Benefícios da Máxima (continuação)",
+    "depois": "Exemplo: Retirada de Emergência / Benefícios da Máxima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E294",
+    "evento": 4762,
+    "bloco": "fundamento--ficha",
+    "pagina_antes": 258,
+    "pagina_depois": 258,
+    "antes": "Fundamento / Ficha de feitiço (continuação)",
+    "depois": "Fundamento / Ficha de feitiço",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E295",
+    "evento": 4768,
+    "bloco": "fundamento--ficha",
+    "pagina_antes": 258,
+    "pagina_depois": 258,
+    "antes": "Fundamento / Conferência antes da sessão (continuação)",
+    "depois": "Fundamento / Conferência antes da sessão",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E296",
+    "evento": 4776,
+    "bloco": "catalogo--cat-catalogo",
+    "pagina_antes": 260,
+    "pagina_depois": 260,
+    "antes": "Catálogo de criação / 11. Catálogo de criação (continuação)",
+    "depois": "Catálogo de criação / 11. Catálogo de criação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E297",
+    "evento": 4782,
+    "bloco": "catalogo--cat-catalogo",
+    "pagina_antes": 260,
+    "pagina_depois": 260,
+    "antes": "Catálogo de criação / Ficha pronta (continuação)",
+    "depois": "Catálogo de criação / Ficha pronta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E298",
+    "evento": 4831,
+    "bloco": "catalogo--cat-area-continua",
+    "pagina_antes": 262,
+    "pagina_depois": 262,
+    "antes": "Família: Área / Salto (continuação)",
+    "depois": "Família: Área / Salto",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E299",
+    "evento": 4869,
+    "bloco": "catalogo--cat-controle",
+    "pagina_antes": 264,
+    "pagina_depois": 264,
+    "antes": "Família: Controle / Condição (continuação)",
+    "depois": "Família: Controle / Condição",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E300",
+    "evento": 4893,
+    "bloco": "catalogo--cat-obstaculos",
+    "pagina_antes": 265,
+    "pagina_depois": 265,
+    "antes": "Família: Controle / Puxa (continuação)",
+    "depois": "Família: Controle / Puxa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E301",
+    "evento": 4924,
+    "bloco": "catalogo--cat-auxiliares-apoio",
+    "pagina_antes": 266,
+    "pagina_depois": 266,
+    "antes": "Família: Auxiliares / Enfraquece (continuação)",
+    "depois": "Família: Auxiliares / Enfraquece",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E302",
+    "evento": 4936,
+    "bloco": "catalogo--cat-castigo",
+    "pagina_antes": 266,
+    "pagina_depois": 266,
+    "antes": "Família: Castigo / Queima (continuação)",
+    "depois": "Família: Castigo / Queima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E303",
+    "evento": 4944,
+    "bloco": "catalogo--cat-castigo-dano",
+    "pagina_antes": 267,
+    "pagina_depois": 267,
+    "antes": "Família: Castigo / Acúmulo (continuação)",
+    "depois": "Família: Castigo / Acúmulo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E304",
+    "evento": 4993,
+    "bloco": "catalogo--cat-tempo-duracao",
+    "pagina_antes": 269,
+    "pagina_depois": 269,
+    "antes": "Família: Tempo / Concentrada / Duradoura (continuação)",
+    "depois": "Família: Tempo / Concentrada / Duradoura",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E305",
+    "evento": 5057,
+    "bloco": "catalogo--cat-amparo-protecao",
+    "pagina_antes": 271,
+    "pagina_depois": 271,
+    "antes": "Família: Amparo / Reserva (continuação)",
+    "depois": "Família: Amparo / Reserva",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E306",
+    "evento": 5089,
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "pagina_antes": 273,
+    "pagina_depois": 273,
+    "antes": "Restrições de conjuração / Carregar (continuação)",
+    "depois": "Restrições de conjuração / Carregar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E307",
+    "evento": 5143,
+    "bloco": "catalogo--cat-restricoes-proprias",
+    "pagina_antes": 275,
+    "pagina_depois": 275,
+    "antes": "Exposição e novas Restrições / Restrição Própria (continuação)",
+    "depois": "Exposição e novas Restrições / Restrição Própria",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E308",
+    "evento": 5156,
+    "bloco": "catalogo--cat-passivas-1",
+    "pagina_antes": 276,
+    "pagina_depois": 276,
+    "antes": "Talentos de Categoria 1 / Mão Firme (continuação)",
+    "depois": "Talentos de Categoria 1 / Mão Firme",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E309",
+    "evento": 5168,
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "pagina_antes": 276,
+    "pagina_depois": 276,
+    "antes": "Talentos de Categoria 2 / Fluxo (continuação)",
+    "depois": "Talentos de Categoria 2 / Fluxo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E310",
+    "evento": 5179,
+    "bloco": "catalogo--cat-passivas-2-protecao",
+    "pagina_antes": 277,
+    "pagina_depois": 277,
+    "antes": "Talentos de Categoria 2 / Eco (continuação)",
+    "depois": "Talentos de Categoria 2 / Eco",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E311",
+    "evento": 5203,
+    "bloco": "catalogo--cat-regra-propria",
+    "pagina_antes": 278,
+    "pagina_depois": 278,
+    "antes": "Regra Própria (continuação)",
+    "depois": "Regra Própria",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E312",
+    "evento": 5216,
+    "bloco": "catalogo--cat-regra-propria",
+    "pagina_antes": 278,
+    "pagina_depois": 278,
+    "antes": "Regra Própria / Exemplo: aposta entre dois (continuação)",
+    "depois": "Regra Própria / Exemplo: aposta entre dois",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E313",
+    "evento": 5224,
+    "bloco": "catalogo--cat-passiva-propria",
+    "pagina_antes": 279,
+    "pagina_depois": 279,
+    "antes": "Talento Próprio / Defina a aplicação (continuação)",
+    "depois": "Talento Próprio / Defina a aplicação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E314",
+    "evento": 5228,
+    "bloco": "catalogo--cat-passiva-propria",
+    "pagina_antes": 279,
+    "pagina_depois": 279,
+    "antes": "Talento Próprio / Limites (continuação)",
+    "depois": "Talento Próprio / Limites",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E315",
+    "evento": 5253,
+    "bloco": "aptidoes--apt-catalogo",
+    "pagina_antes": 282,
+    "pagina_depois": 282,
+    "antes": "Catálogo de aptidões (continuação)",
+    "depois": "Catálogo de aptidões",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E316",
+    "evento": 5267,
+    "bloco": "aptidoes--apt-cobrir",
+    "pagina_antes": 283,
+    "pagina_depois": 283,
+    "antes": "Cobrir-se de Energia / Amortecer um golpe (continuação)",
+    "depois": "Cobrir-se de Energia / Amortecer um golpe",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E317",
+    "evento": 5278,
+    "bloco": "aptidoes--apt-canalizar",
+    "pagina_antes": 284,
+    "pagina_depois": 284,
+    "antes": "Canalizar Energia / Feitiços e crítico (continuação)",
+    "depois": "Canalizar Energia / Feitiços e crítico",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E318",
+    "evento": 5290,
+    "bloco": "aptidoes--apt-projetar",
+    "pagina_antes": 284,
+    "pagina_depois": 284,
+    "antes": "Projetar Energia / Ataque de energia (continuação)",
+    "depois": "Projetar Energia / Ataque de energia",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E319",
+    "evento": 5300,
+    "bloco": "aptidoes--apt-reversa",
+    "pagina_antes": 285,
+    "pagina_depois": 285,
+    "antes": "Energia Reversa / Alvo e limites (continuação)",
+    "depois": "Energia Reversa / Alvo e limites",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E320",
+    "evento": 5323,
+    "bloco": "aptidoes--apt-circulacao",
+    "pagina_antes": 286,
+    "pagina_depois": 286,
+    "antes": "Circulação / Recompor uma parte perdida (continuação)",
+    "depois": "Circulação / Recompor uma parte perdida",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E321",
+    "evento": 5355,
+    "bloco": "aptidoes--apt-protecao-dominios",
+    "pagina_antes": 287,
+    "pagina_depois": 287,
+    "antes": "Proteção contra domínios / Ativação e manutenção (continuação)",
+    "depois": "Proteção contra domínios / Ativação e manutenção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E322",
+    "evento": 5367,
+    "bloco": "aptidoes--apt-cesta",
+    "pagina_antes": 288,
+    "pagina_depois": 288,
+    "antes": "Cesta Oca de Vime / Golpes e queda (continuação)",
+    "depois": "Cesta Oca de Vime / Golpes e queda",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E323",
+    "evento": 5389,
+    "bloco": "aptidoes--apt-simples-duracao",
+    "pagina_antes": 289,
+    "pagina_depois": 289,
+    "antes": "Domínio Simples / Acertos e falhas (continuação)",
+    "depois": "Domínio Simples / Acertos e falhas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E324",
+    "evento": 5410,
+    "bloco": "aptidoes--apt-petala",
+    "pagina_antes": 290,
+    "pagina_depois": 290,
+    "antes": "Pétala / Contra-ataque (continuação)",
+    "depois": "Pétala / Contra-ataque",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E325",
+    "evento": 5421,
+    "bloco": "aptidoes--apt-extensao",
+    "pagina_antes": 290,
+    "pagina_depois": 290,
+    "antes": "Extensão de Domínio / Proteção e neutralização (continuação)",
+    "depois": "Extensão de Domínio / Proteção e neutralização",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E326",
+    "evento": 5441,
+    "bloco": "aptidoes--apt-cortina",
+    "pagina_antes": 291,
+    "pagina_depois": 291,
+    "antes": "Cortina (continuação)",
+    "depois": "Cortina",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E327",
+    "evento": 5458,
+    "bloco": "aptidoes--apt-propria",
+    "pagina_antes": 292,
+    "pagina_depois": 292,
+    "antes": "Aptidão Própria / Exemplos (continuação)",
+    "depois": "Aptidão Própria / Exemplos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E328",
+    "evento": 5467,
+    "bloco": "rotas--rotas",
+    "pagina_antes": 294,
+    "pagina_depois": 294,
+    "antes": "Rotas de criação / Termos das rotas (continuação)",
+    "depois": "Rotas de criação / Termos das rotas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E329",
+    "evento": 5493,
+    "bloco": "rotas--rota-armas",
+    "pagina_antes": 296,
+    "pagina_depois": 296,
+    "antes": "Técnica Marcial / Atributo da Kata (continuação)",
+    "depois": "Técnica Marcial / Atributo da Kata",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E330",
+    "evento": 5502,
+    "bloco": "rotas--rota-ferramenta",
+    "pagina_antes": 297,
+    "pagina_depois": 297,
+    "antes": "Técnica Marcial / Ferramenta (continuação)",
+    "depois": "Técnica Marcial / Ferramenta",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E331",
+    "evento": 5537,
+    "bloco": "rotas--rota-passivas-resposta",
+    "pagina_antes": 298,
+    "pagina_depois": 298,
+    "antes": "Técnica Marcial / Aliança (continuação)",
+    "depois": "Técnica Marcial / Aliança",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E332",
+    "evento": 5546,
+    "bloco": "rotas--rota-fisga",
+    "pagina_antes": 299,
+    "pagina_depois": 299,
+    "antes": "Exemplo: Fisga / Gancho fechado (continuação)",
+    "depois": "Exemplo: Fisga / Gancho fechado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E333",
+    "evento": 5566,
+    "bloco": "rotas--rota-invocacoes",
+    "pagina_antes": 300,
+    "pagina_depois": 300,
+    "antes": "Invocações nas rotas (continuação)",
+    "depois": "Invocações nas rotas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E334",
+    "evento": 5570,
+    "bloco": "rotas--rota-invocacoes",
+    "pagina_antes": 300,
+    "pagina_depois": 300,
+    "antes": "Invocações nas rotas / Aquisição e uso (continuação)",
+    "depois": "Invocações nas rotas / Aquisição e uso",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E335",
+    "evento": 5620,
+    "bloco": "rotas--rota-redoma",
+    "pagina_antes": 303,
+    "pagina_depois": 303,
+    "antes": "Exemplo: Redoma / Linha de contenção (continuação)",
+    "depois": "Exemplo: Redoma / Linha de contenção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E336",
+    "evento": 5639,
+    "bloco": "rotas--rota-espinho",
+    "pagina_antes": 304,
+    "pagina_depois": 304,
+    "antes": "Exemplo: Espinho (continuação)",
+    "depois": "Exemplo: Espinho",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E337",
+    "evento": 5657,
+    "bloco": "rotas--rota-lapidacao",
+    "pagina_antes": 305,
+    "pagina_depois": 305,
+    "antes": "Lapidação / Ganhos de marco (continuação)",
+    "depois": "Lapidação / Ganhos de marco",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E338",
+    "evento": 5686,
+    "bloco": "rotas--rota-defesa",
+    "pagina_antes": 308,
+    "pagina_depois": 308,
+    "antes": "Bênçãos / Equipamento amaldiçoado (continuação)",
+    "depois": "Bênçãos / Equipamento amaldiçoado",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E339",
+    "evento": 5696,
+    "bloco": "rotas--rota-estimulo",
+    "pagina_antes": 308,
+    "pagina_depois": 308,
+    "antes": "Bênçãos / Dano adicional (continuação)",
+    "depois": "Bênçãos / Dano adicional",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E340",
+    "evento": 5724,
+    "bloco": "rotas--rota-perseguicao",
+    "pagina_antes": 309,
+    "pagina_depois": 309,
+    "antes": "Bênçãos / Faro (continuação)",
+    "depois": "Bênçãos / Faro",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E341",
+    "evento": 5739,
+    "bloco": "rotas--rota-combate",
+    "pagina_antes": 310,
+    "pagina_depois": 310,
+    "antes": "Bênçãos / Esteio (continuação)",
+    "depois": "Bênçãos / Esteio",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E342",
+    "evento": 5772,
+    "bloco": "rotas--rota-propria",
+    "pagina_antes": 311,
+    "pagina_depois": 311,
+    "antes": "Bênçãos / Limites (continuação)",
+    "depois": "Bênçãos / Limites",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E343",
+    "evento": 5814,
+    "bloco": "poderes--protecao",
+    "pagina_antes": 315,
+    "pagina_depois": 315,
+    "antes": "Poderes avançados / Acertos e efeitos (continuação)",
+    "depois": "Poderes avançados / Acertos e efeitos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E344",
+    "evento": 5824,
+    "bloco": "poderes--abertura",
+    "pagina_antes": 316,
+    "pagina_depois": 316,
+    "antes": "Poderes avançados / Abrir e manter (continuação)",
+    "depois": "Poderes avançados / Abrir e manter",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E345",
+    "evento": 5841,
+    "bloco": "poderes--barreira",
+    "pagina_antes": 317,
+    "pagina_depois": 317,
+    "antes": "Poderes avançados / Mover o domínio (continuação)",
+    "depois": "Poderes avançados / Mover o domínio",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E346",
+    "evento": 5866,
+    "bloco": "poderes--disputa",
+    "pagina_antes": 318,
+    "pagina_depois": 318,
+    "antes": "Poderes avançados / Disputa de domínios (continuação)",
+    "depois": "Poderes avançados / Disputa de domínios",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E347",
+    "evento": 5875,
+    "bloco": "poderes--manterdisputa",
+    "pagina_antes": 319,
+    "pagina_depois": 319,
+    "antes": "Poderes avançados / Manter uma disputa (continuação)",
+    "depois": "Poderes avançados / Manter uma disputa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E348",
+    "evento": 5885,
+    "bloco": "poderes--sobreposicao",
+    "pagina_antes": 319,
+    "pagina_depois": 319,
+    "antes": "Poderes avançados / Fechado e aberto (continuação)",
+    "depois": "Poderes avançados / Fechado e aberto",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E349",
+    "evento": 5894,
+    "bloco": "poderes--multiplos",
+    "pagina_antes": 320,
+    "pagina_depois": 320,
+    "antes": "Poderes avançados / Vários domínios (continuação)",
+    "depois": "Poderes avançados / Vários domínios",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E350",
+    "evento": 5904,
+    "bloco": "poderes--multiplos",
+    "pagina_antes": 320,
+    "pagina_depois": 320,
+    "antes": "Poderes avançados / Mais de um confronto (continuação)",
+    "depois": "Poderes avançados / Mais de um confronto",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E351",
+    "evento": 5941,
+    "bloco": "ritual--ritual",
+    "pagina_antes": 324,
+    "pagina_depois": 324,
+    "antes": "Ritual (continuação)",
+    "depois": "Ritual",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E352",
+    "evento": 5971,
+    "bloco": "ritual--rit-recitar",
+    "pagina_antes": 325,
+    "pagina_depois": 325,
+    "antes": "Ritual / Liberação Máxima (continuação)",
+    "depois": "Ritual / Liberação Máxima",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E353",
+    "evento": 5987,
+    "bloco": "ritual--rit-beneficios",
+    "pagina_antes": 326,
+    "pagina_depois": 326,
+    "antes": "Ritual / Escolhas antes da aplicação (continuação)",
+    "depois": "Ritual / Escolhas antes da aplicação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E354",
+    "evento": 5989,
+    "bloco": "ritual--rit-beneficios",
+    "pagina_antes": 327,
+    "pagina_depois": 327,
+    "antes": "Ritual / Escolhas antes da aplicação (continuação)",
+    "depois": "Ritual / Escolhas antes da aplicação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E355",
+    "evento": 5998,
+    "bloco": "ritual--rit-parcelas",
+    "pagina_antes": 327,
+    "pagina_depois": 327,
+    "antes": "Ritual / Tiros (continuação)",
+    "depois": "Ritual / Tiros",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E356",
+    "evento": 6007,
+    "bloco": "ritual--rit-limites",
+    "pagina_antes": 328,
+    "pagina_depois": 328,
+    "antes": "Ritual / Combinações de Ritual (continuação)",
+    "depois": "Ritual / Combinações de Ritual",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E357",
+    "evento": 6015,
+    "bloco": "ritual--rit-limites",
+    "pagina_antes": 328,
+    "pagina_depois": 328,
+    "antes": "Ritual / Duração e resolução (continuação)",
+    "depois": "Ritual / Duração e resolução",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E358",
+    "evento": 6021,
+    "bloco": "ritual--rit-ajuda",
+    "pagina_antes": 329,
+    "pagina_depois": 329,
+    "antes": "Ritual / Ritual em conjunto (continuação)",
+    "depois": "Ritual / Ritual em conjunto",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E359",
+    "evento": 6031,
+    "bloco": "ritual--pactos",
+    "pagina_antes": 329,
+    "pagina_depois": 329,
+    "antes": "Pactos (continuação)",
+    "depois": "Pactos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E360",
+    "evento": 6037,
+    "bloco": "ritual--pactos",
+    "pagina_antes": 330,
+    "pagina_depois": 330,
+    "antes": "Pactos / Preço real (continuação)",
+    "depois": "Pactos / Preço real",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E361",
+    "evento": 6046,
+    "bloco": "ritual--pacto-permanente",
+    "pagina_antes": 330,
+    "pagina_depois": 330,
+    "antes": "Pactos / Pacto permanente (continuação)",
+    "depois": "Pactos / Pacto permanente",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E362",
+    "evento": 6073,
+    "bloco": "ritual--promessa",
+    "pagina_antes": 332,
+    "pagina_depois": 332,
+    "antes": "Pactos / Registro do acordo (continuação)",
+    "depois": "Pactos / Registro do acordo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E363",
+    "evento": 6083,
+    "bloco": "ritual--pacto-restricao",
+    "pagina_antes": 332,
+    "pagina_depois": 332,
+    "antes": "Pactos / Pactos na criação (continuação)",
+    "depois": "Pactos / Pactos na criação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E364",
+    "evento": 6133,
+    "bloco": "campo--inv-campo",
+    "pagina_antes": 336,
+    "pagina_depois": 336,
+    "antes": "Invocações em campo / 16. Invocações em campo (continuação)",
+    "depois": "Invocações em campo / 16. Invocações em campo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E365",
+    "evento": 6160,
+    "bloco": "campo--inv-troca",
+    "pagina_antes": 337,
+    "pagina_depois": 337,
+    "antes": "Turnos das entidades / Trocar de entidade (continuação)",
+    "depois": "Turnos das entidades / Trocar de entidade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E366",
+    "evento": 6172,
+    "bloco": "campo--inv-intencao",
+    "pagina_antes": 338,
+    "pagina_depois": 338,
+    "antes": "Turnos das entidades / Dar uma tarefa (continuação)",
+    "depois": "Turnos das entidades / Dar uma tarefa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E367",
+    "evento": 6182,
+    "bloco": "campo--inv-comunicacao",
+    "pagina_antes": 338,
+    "pagina_depois": 338,
+    "antes": "Turnos das entidades / Comunicação (continuação)",
+    "depois": "Turnos das entidades / Comunicação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E368",
+    "evento": 6191,
+    "bloco": "campo--inv-basica",
+    "pagina_antes": 339,
+    "pagina_depois": 339,
+    "antes": "Turnos das entidades / Atuação básica (continuação)",
+    "depois": "Turnos das entidades / Atuação básica",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E369",
+    "evento": 6199,
+    "bloco": "campo--inv-especial",
+    "pagina_antes": 339,
+    "pagina_depois": 339,
+    "antes": "Comandar uma especial (continuação)",
+    "depois": "Comandar uma especial",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E370",
+    "evento": 6210,
+    "bloco": "campo--inv-energia",
+    "pagina_antes": 340,
+    "pagina_depois": 340,
+    "antes": "Comandar uma especial / Energia das entidades (continuação)",
+    "depois": "Comandar uma especial / Energia das entidades",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E371",
+    "evento": 6219,
+    "bloco": "campo--inv-antecipada",
+    "pagina_antes": 340,
+    "pagina_depois": 340,
+    "antes": "Comandar uma especial / Ordem antecipada (continuação)",
+    "depois": "Comandar uma especial / Ordem antecipada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E372",
+    "evento": 6228,
+    "bloco": "campo--inv-pendentes",
+    "pagina_antes": 341,
+    "pagina_depois": 341,
+    "antes": "Comandar uma especial / Ordens pendentes (continuação)",
+    "depois": "Comandar uma especial / Ordens pendentes",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E373",
+    "evento": 6238,
+    "bloco": "campo--inv-preparar",
+    "pagina_antes": 341,
+    "pagina_depois": 341,
+    "antes": "Comandar uma especial / Preparar uma ação (continuação)",
+    "depois": "Comandar uma especial / Preparar uma ação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E374",
+    "evento": 6247,
+    "bloco": "campo--inv-gatilhos",
+    "pagina_antes": 342,
+    "pagina_depois": 342,
+    "antes": "Comandar uma especial / Gatilhos e ajustes (continuação)",
+    "depois": "Comandar uma especial / Gatilhos e ajustes",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E375",
+    "evento": 6266,
+    "bloco": "campo--inv-restricoes-tempo",
+    "pagina_antes": 343,
+    "pagina_depois": 343,
+    "antes": "Comandar uma especial / Carga em dois turnos (continuação)",
+    "depois": "Comandar uma especial / Carga em dois turnos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E376",
+    "evento": 6275,
+    "bloco": "campo--inv-armado",
+    "pagina_antes": 343,
+    "pagina_depois": 343,
+    "antes": "Comandar uma especial / Especiais armadas (continuação)",
+    "depois": "Comandar uma especial / Especiais armadas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E377",
+    "evento": 6315,
+    "bloco": "campo--inv-reparo",
+    "pagina_antes": 346,
+    "pagina_depois": 346,
+    "antes": "Cura e reparo / Reparar (continuação)",
+    "depois": "Cura e reparo / Reparar",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E378",
+    "evento": 6324,
+    "bloco": "campo--inv-liberacao",
+    "pagina_antes": 346,
+    "pagina_depois": 346,
+    "antes": "Trunfos das domadas (continuação)",
+    "depois": "Trunfos das domadas",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E379",
+    "evento": 6333,
+    "bloco": "campo--inv-maxima",
+    "pagina_antes": 347,
+    "pagina_depois": 347,
+    "antes": "Trunfos das domadas / Técnica Máxima da domada (continuação)",
+    "depois": "Trunfos das domadas / Técnica Máxima da domada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E380",
+    "evento": 6341,
+    "bloco": "campo--inv-dominio",
+    "pagina_antes": 347,
+    "pagina_depois": 347,
+    "antes": "Trunfos das domadas / Expansão da domada (continuação)",
+    "depois": "Trunfos das domadas / Expansão da domada",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E381",
+    "evento": 6349,
+    "bloco": "campo--inv-queda",
+    "pagina_antes": 348,
+    "pagina_depois": 348,
+    "antes": "Queda e destruição (continuação)",
+    "depois": "Queda e destruição",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E382",
+    "evento": 6367,
+    "bloco": "campo--inv-fora",
+    "pagina_antes": 349,
+    "pagina_depois": 349,
+    "antes": "Queda e destruição / Efeitos fora de campo (continuação)",
+    "depois": "Queda e destruição / Efeitos fora de campo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E383",
+    "evento": 6376,
+    "bloco": "campo--inv-inconsciente",
+    "pagina_antes": 349,
+    "pagina_depois": 349,
+    "antes": "Queda e destruição / Invocador inconsciente (continuação)",
+    "depois": "Queda e destruição / Invocador inconsciente",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E384",
+    "evento": 6385,
+    "bloco": "campo--inv-manutencao",
+    "pagina_antes": 350,
+    "pagina_depois": 350,
+    "antes": "Queda e destruição / Manutenção (continuação)",
+    "depois": "Queda e destruição / Manutenção",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E385",
+    "evento": 6393,
+    "bloco": "campo--inv-morte",
+    "pagina_antes": 350,
+    "pagina_depois": 350,
+    "antes": "Queda e destruição / Morte do invocador (continuação)",
+    "depois": "Queda e destruição / Morte do invocador",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E386",
+    "evento": 6400,
+    "bloco": "campo--inv-carga",
+    "pagina_antes": 351,
+    "pagina_depois": 351,
+    "antes": "Carga e equipamento (continuação)",
+    "depois": "Carga e equipamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E387",
+    "evento": 6403,
+    "bloco": "campo--inv-carga",
+    "pagina_antes": 351,
+    "pagina_depois": 351,
+    "antes": "Carga e equipamento (continuação)",
+    "depois": "Carga e equipamento",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E388",
+    "evento": 6429,
+    "bloco": "construcao--entidades-aquisicao",
+    "pagina_antes": 355,
+    "pagina_depois": 355,
+    "antes": "Adquirir entidades / Espaço conhecido (continuação)",
+    "depois": "Adquirir entidades / Espaço conhecido",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E389",
+    "evento": 6439,
+    "bloco": "construcao--entidade-cao",
+    "pagina_antes": 355,
+    "pagina_depois": 355,
+    "antes": "Exemplo: Cão de sombra / Atributos (continuação)",
+    "depois": "Exemplo: Cão de sombra / Atributos",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E390",
+    "evento": 6463,
+    "bloco": "construcao--entidades-lista-criacao",
+    "pagina_antes": 356,
+    "pagina_depois": 356,
+    "antes": "Adquirir entidades / Criação (continuação)",
+    "depois": "Adquirir entidades / Criação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E391",
+    "evento": 6477,
+    "bloco": "construcao--entidades-domar",
+    "pagina_antes": 357,
+    "pagina_depois": 357,
+    "antes": "Adquirir entidades / Tentativa durante o combate (continuação)",
+    "depois": "Adquirir entidades / Tentativa durante o combate",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E392",
+    "evento": 6485,
+    "bloco": "construcao--entidades-tipos",
+    "pagina_antes": 357,
+    "pagina_depois": 357,
+    "antes": "Adquirir entidades / Quantidade de entidades (continuação)",
+    "depois": "Adquirir entidades / Quantidade de entidades",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E393",
+    "evento": 6495,
+    "bloco": "construcao--entidades-definicao",
+    "pagina_antes": 358,
+    "pagina_depois": 358,
+    "antes": "Definição e corpo / Anatomia e comunicação (continuação)",
+    "depois": "Definição e corpo / Anatomia e comunicação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E394",
+    "evento": 6506,
+    "bloco": "construcao--entidades-atributos",
+    "pagina_antes": 358,
+    "pagina_depois": 358,
+    "antes": "Definição e corpo / Acerto e dificuldade (continuação)",
+    "depois": "Definição e corpo / Acerto e dificuldade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E395",
+    "evento": 6542,
+    "bloco": "construcao--entidades-familias",
+    "pagina_antes": 360,
+    "pagina_depois": 360,
+    "antes": "Definição e corpo / Família Livre (continuação)",
+    "depois": "Definição e corpo / Família Livre",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E396",
+    "evento": 6544,
+    "bloco": "construcao--entidades-familias",
+    "pagina_antes": 360,
+    "pagina_depois": 360,
+    "antes": "Definição e corpo / Família Livre (continuação)",
+    "depois": "Definição e corpo / Família Livre",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E397",
+    "evento": 6546,
+    "bloco": "construcao--entidades-familias",
+    "pagina_antes": 361,
+    "pagina_depois": 361,
+    "antes": "Definição e corpo / Família Livre (continuação)",
+    "depois": "Definição e corpo / Família Livre",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E398",
+    "evento": 6558,
+    "bloco": "construcao--entidades-basicas",
+    "pagina_antes": 361,
+    "pagina_depois": 361,
+    "antes": "Habilidades básicas / Básica de apoio (continuação)",
+    "depois": "Habilidades básicas / Básica de apoio",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E399",
+    "evento": 6569,
+    "bloco": "construcao--entidades-especiais",
+    "pagina_antes": 362,
+    "pagina_depois": 362,
+    "antes": "Habilidades especiais / Montagem (continuação)",
+    "depois": "Habilidades especiais / Montagem",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E400",
+    "evento": 6576,
+    "bloco": "construcao--entidades-formas",
+    "pagina_antes": 362,
+    "pagina_depois": 362,
+    "antes": "Habilidades especiais / Formas da entidade (continuação)",
+    "depois": "Habilidades especiais / Formas da entidade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E401",
+    "evento": 6606,
+    "bloco": "construcao--entidades-saldo",
+    "pagina_antes": 365,
+    "pagina_depois": 365,
+    "antes": "Habilidades especiais / Amparo (continuação)",
+    "depois": "Habilidades especiais / Amparo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E402",
+    "evento": 6625,
+    "bloco": "construcao--entidades-restricoes",
+    "pagina_antes": 366,
+    "pagina_depois": 366,
+    "antes": "Habilidades especiais / Tempo e ações (continuação)",
+    "depois": "Habilidades especiais / Tempo e ações",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E403",
+    "evento": 6636,
+    "bloco": "construcao--entidades-passivas",
+    "pagina_antes": 366,
+    "pagina_depois": 366,
+    "antes": "Talentos da entidade (continuação)",
+    "depois": "Talentos da entidade",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E404",
+    "evento": 6647,
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "pagina_antes": 367,
+    "pagina_depois": 367,
+    "antes": "Talentos da entidade / Aplicação na ficha (continuação)",
+    "depois": "Talentos da entidade / Aplicação na ficha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E405",
+    "evento": 6657,
+    "bloco": "construcao--entidades-passiva-propria",
+    "pagina_antes": 368,
+    "pagina_depois": 368,
+    "antes": "Talentos da entidade / Exemplo: Registro de cena (continuação)",
+    "depois": "Talentos da entidade / Exemplo: Registro de cena",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E406",
+    "evento": 6668,
+    "bloco": "construcao--entidades-ampliacao",
+    "pagina_antes": 368,
+    "pagina_depois": 368,
+    "antes": "Ampliar uma especial / Mordida precisa (continuação)",
+    "depois": "Ampliar uma especial / Mordida precisa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E407",
+    "evento": 6690,
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "pagina_antes": 369,
+    "pagina_depois": 369,
+    "antes": "Exemplo: Vigia de papel / Orientação (continuação)",
+    "depois": "Exemplo: Vigia de papel / Orientação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E408",
+    "evento": 6702,
+    "bloco": "construcao--entidades-conferencia",
+    "pagina_antes": 370,
+    "pagina_depois": 370,
+    "antes": "Conferência da ficha (continuação)",
+    "depois": "Conferência da ficha",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E409",
+    "evento": 6708,
+    "bloco": "construcao--entidades-conferencia",
+    "pagina_antes": 370,
+    "pagina_depois": 370,
+    "antes": "Conferência da ficha / Duas situações de exemplo (continuação)",
+    "depois": "Conferência da ficha / Duas situações de exemplo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E410",
+    "evento": 6720,
+    "bloco": "fabricacao--fab-teste",
+    "pagina_antes": 371,
+    "pagina_depois": 371,
+    "antes": "Criação de entidades / Teste de criação (continuação)",
+    "depois": "Criação de entidades / Teste de criação",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E411",
+    "evento": 6747,
+    "bloco": "consulta--consulta-missao",
+    "pagina_antes": 373,
+    "pagina_depois": 373,
+    "antes": "Mestrar / Escolhas do grupo (continuação)",
+    "depois": "Mestrar / Escolhas do grupo",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E412",
+    "evento": 6860,
+    "bloco": "consulta--consulta-testes",
+    "pagina_antes": 380,
+    "pagina_depois": 380,
+    "antes": "Consulta rápida / Testes na mesa (continuação)",
+    "depois": "Consulta rápida / Testes na mesa",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E413",
+    "evento": 6866,
+    "bloco": "consulta--consulta-testes",
+    "pagina_antes": 380,
+    "pagina_depois": 380,
+    "antes": "Consulta rápida / Recursos do turno (continuação)",
+    "depois": "Consulta rápida / Recursos do turno",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  },
+  {
+    "id": "R46-E414",
+    "evento": 6880,
+    "bloco": "consulta--consulta-ataques",
+    "pagina_antes": 381,
+    "pagina_depois": 381,
+    "antes": "Consulta rápida / Registro de duração (continuação)",
+    "depois": "Consulta rápida / Registro de duração",
+    "motivo": "Retirada do rótulo de continuidade solicitada pelo autor."
+  }
+]

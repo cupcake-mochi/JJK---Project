@@ -1,0 +1,27 @@
+{
+  "edicao": "R37",
+  "base": "R36",
+  "paginas_antes": 394,
+  "paginas": 394,
+  "sha256_pdf": "73e6f3de0ce908f84669be8aa1bf1c0cf1d96f82343d338d343650b9870b9bc1",
+  "sha256_texto": "39ff7611f8cc4926c0512b9ecd74ac7b1f5085814a95e89f32ccc5844601f2c6",
+  "r36_preservada": true,
+  "blocos_textuais_alterados": 31,
+  "diferencas_textuais_nao_registradas": 0,
+  "registros_diagramacao": 457,
+  "capas_artes_creditos_estilos_preservados": true,
+  "titulos_isolados": [],
+  "paginas_com_multiplos_pares_de_colunas": [],
+  "destinos_especificos_conferidos": 30,
+  "novos_destinos_corrigidos": 13,
+  "muro_e_primeira_habilidade_juntos": true,
+  "pagina_muro": 93,
+  "exemplos_com_contas_refeitas": 0,
+  "exemplos_reposicionados_ou_identificados": [
+    "Rodízio / Ninhada",
+    "Ajustar a Preparação",
+    "Recolher sob Ataque",
+    "Manifestação em Grupo"
+  ],
+  "revisao_visual": "Registro separado após inspeção da prova final."
+}

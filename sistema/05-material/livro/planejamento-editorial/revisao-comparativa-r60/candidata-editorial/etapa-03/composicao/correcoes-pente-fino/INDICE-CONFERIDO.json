@@ -1,0 +1,195 @@
+[
+  {
+    "termo": "Aguentar",
+    "bloco": "dano--zero",
+    "alias": "indice-especifico-01",
+    "pagina": 54
+  },
+  {
+    "termo": "Aquecer",
+    "bloco": "catalogo--cat-restricoes-uso",
+    "alias": "indice-especifico-02",
+    "pagina": 276
+  },
+  {
+    "termo": "Atrasar",
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "alias": "indice-especifico-03",
+    "pagina": 274
+  },
+  {
+    "termo": "Cena",
+    "bloco": "dano--usos",
+    "alias": "indice-especifico-04",
+    "pagina": 59
+  },
+  {
+    "termo": "Cobertura",
+    "bloco": "geral--defesa",
+    "alias": "indice-especifico-05",
+    "pagina": 22
+  },
+  {
+    "termo": "Condicional",
+    "bloco": "catalogo--cat-restricoes-uso",
+    "alias": "indice-especifico-06",
+    "pagina": 276
+  },
+  {
+    "termo": "Crítico",
+    "bloco": "geral--critico",
+    "alias": "indice-especifico-07",
+    "pagina": 21
+  },
+  {
+    "termo": "Dívida",
+    "bloco": "catalogo--cat-restricoes-uso",
+    "alias": "indice-especifico-08",
+    "pagina": 276
+  },
+  {
+    "termo": "Estabilizar",
+    "bloco": "dano--socorro",
+    "alias": "indice-especifico-09",
+    "pagina": 55
+  },
+  {
+    "termo": "Fluxo",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-especifico-10",
+    "pagina": 278
+  },
+  {
+    "termo": "Gesto",
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "alias": "indice-especifico-11",
+    "pagina": 274
+  },
+  {
+    "termo": "Guarda",
+    "bloco": "catalogo--cat-auxiliares-apoio",
+    "alias": "indice-especifico-12",
+    "pagina": 267
+  },
+  {
+    "termo": "Identificar Feitiço",
+    "bloco": "catalogo--cat-marca-recursos",
+    "alias": "indice-especifico-13",
+    "pagina": 272
+  },
+  {
+    "termo": "Onda",
+    "bloco": "fundamento--amparoformas",
+    "alias": "indice-especifico-14",
+    "pagina": 241
+  },
+  {
+    "termo": "Parado",
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "alias": "indice-especifico-15",
+    "pagina": 274
+  },
+  {
+    "termo": "Remenda",
+    "bloco": "catalogo--cat-amparo",
+    "alias": "indice-especifico-16",
+    "pagina": 272
+  },
+  {
+    "termo": "Uma Vez",
+    "bloco": "catalogo--cat-restricoes-uso",
+    "alias": "indice-especifico-17",
+    "pagina": 275
+  },
+  {
+    "termo": "Amedrontado",
+    "titulo": "Amedrontado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-01",
+    "pagina": 51
+  },
+  {
+    "termo": "Armado",
+    "titulo": "Armado",
+    "bloco": "catalogo--cat-tempo",
+    "alias": "indice-r37-02",
+    "pagina": 269
+  },
+  {
+    "termo": "Arredondamento",
+    "titulo": "Arredondamento",
+    "bloco": "geral--pericias",
+    "alias": "indice-r37-03",
+    "pagina": 13
+  },
+  {
+    "termo": "Atordoado",
+    "titulo": "Atordoado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-04",
+    "pagina": 51
+  },
+  {
+    "termo": "Brecha",
+    "titulo": "Brecha",
+    "bloco": "geral--aparar",
+    "alias": "indice-r37-05",
+    "pagina": 24
+  },
+  {
+    "termo": "Carregar (Restrição)",
+    "titulo": "Carregar",
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "alias": "indice-r37-06",
+    "pagina": 274
+  },
+  {
+    "termo": "Envenenado",
+    "titulo": "Envenenado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-07",
+    "pagina": 51
+  },
+  {
+    "termo": "Expressão da técnica",
+    "titulo": "Expressão da técnica",
+    "bloco": "fundamento--selo",
+    "alias": "indice-r37-08",
+    "pagina": 238
+  },
+  {
+    "termo": "Força (dano)",
+    "titulo": "Força",
+    "bloco": "dano--tipos",
+    "alias": "indice-r37-09",
+    "pagina": 46
+  },
+  {
+    "termo": "Inescapável",
+    "titulo": "Inescapável",
+    "bloco": "catalogo--cat-mira",
+    "alias": "indice-r37-10",
+    "pagina": 264
+  },
+  {
+    "termo": "Leitura de Feitiços",
+    "titulo": "Leitura de Feitiços",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r37-11",
+    "pagina": 278
+  },
+  {
+    "termo": "Mão Firme",
+    "titulo": "Mão Firme",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r37-12",
+    "pagina": 278
+  },
+  {
+    "termo": "Rajada",
+    "titulo": "Rajada",
+    "bloco": "catalogo--cat-area",
+    "alias": "indice-r37-13",
+    "pagina": 263
+  }
+]

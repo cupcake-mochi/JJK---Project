@@ -1,0 +1,34 @@
+Planejando 1 Ciclo Maldito
+  5 páginas
+Planejando 2 Regras gerais
+  32 páginas
+Planejando 3 Dano e recuperação
+  17 páginas
+Planejando 4 Criar um personagem
+  7 páginas
+Planejando 5 Origens
+  33 páginas
+Planejando 6 Caminhos e Trilhas
+Traceback (most recent call last):
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/gerar_livro.py", line 542, in <module>
+    if ps:atoms.extend(atoms_for(ps,groupname))
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/fluxo_continuo.py", line 61, in atoms_for
+    emit(pending+[part],part.kind=='esquema' or any(x.kind=='major' for x in pending));pending=[]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/fluxo_continuo.py", line 19, in emit
+    unit=Unit(ps);aw=unit.measure(n['AW'])[0];cw=unit.measure(n['CW'])[0]
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/gerar_livro.py", line 145, in measure
+    f,b,a=p.make(w);fh=f.wrap(w,H)[1];out.append((p,f,b,fh,a));h+=b+fh+a
+          ^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/titulos_intermediarios.py", line 58, in make
+    return original(self,w)
+           ^^^^^^^^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/titulos_secao.py", line 34, in make
+    return original(self,w)
+           ^^^^^^^^^^^^^^^^
+  File "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/tabelas_destaques.py", line 108, in make
+    assert info,(self.block,self.text)
+           ^^^^
+AssertionError: ('bastiao--bas-mao', '**Exemplo.** Você pode empurrar dois inimigos diferentes na rodada, se acertar ambos. Fora da ampliação de [Arrastão](#bastiao--bas-arrastao), habilidade de nível 27 que permite aplicar esse controle a vários alvos, só um desses acertos pode receber a tentativa adicional de derrubar ou agarrar. Passar no TR evita essa condição, mas não desfaz o empurrão.')

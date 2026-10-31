@@ -1,0 +1,19 @@
+{
+  "texto": "#D4D1D4",
+  "texto_negrito": "#E0DCE1",
+  "texto_tabela_cabecalho": "#E0DCE1",
+  "texto_secundario": "#B2ABB5",
+  "linha": "#60545E",
+  "borda": "#8B7887",
+  "linha_tabela": "#685663",
+  "linha_capitulo": "#A26D85",
+  "fundo": "#261F23",
+  "faixa_tabela": "#342A30",
+  "faixa_vinho": "#4C303D",
+  "texto_em_faixa": "#F1E1E8",
+  "titulo_secao": "#E39AB8",
+  "titulo_entrada": "#EDACC3",
+  "link": "#F4BD92",
+  "texto_metadados": "#E1B097",
+  "linha_destaque": "#B36B89"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "fluxo_continuo.py",
+    "sha256_antes": "e63908e2c79638122367704b7421d1772d3f34d463fb39517f2e5db675cfe99a",
+    "sha256_depois": "5ee17e97cf7cae45d55291c00e3e9c2ea6ed98c5c86b30e47246d35b0785d706",
+    "motivo": "Ligação de aberturas curtas, divisão de regras longas entre parágrafos, um único par de colunas por página, otimização das sobras e equilíbrio de colunas muito desiguais."
+  },
+  {
+    "arquivo": "tabelas_destaques.py",
+    "sha256_antes": "74f2e2b0b37e3b25a1bfd6a41996b497130b0841fab61cdd2f9f5bd71f0edc2e",
+    "sha256_depois": "639c61e31b91ac0c61ad6ea80db65c218f85e348a821d3fdb5323ff46cfbe1ee",
+    "motivo": "Acomodação de tabelas compactas na coluna com fontes e larguras mínimas preservadas."
+  },
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "7f859f0dc6454e41ac3008f09413278201e9f7e214924e3b07ae4620ef18750a",
+    "sha256_depois": "0ccf635a63afbb83d1feb659367097480fbb15224ef41492853173e7e2f97de5",
+    "motivo": "Saída R33 e inclusão dos registros da composição e das aberturas no processo de geração."
+  },
+  {
+    "arquivo": "conferir_r33.py",
+    "sha256_antes": null,
+    "sha256_depois": "ea60e9e659051f588c674322121589409a4eed17a9c373973dbdc91cf980331b",
+    "motivo": "Auditoria específica de preservação da base, conteúdo, ordem editorial, estilos, artes, aberturas e registro integral das diferenças de posição."
+  }
+]

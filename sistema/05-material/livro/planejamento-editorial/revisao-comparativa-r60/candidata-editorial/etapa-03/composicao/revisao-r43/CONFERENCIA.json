@@ -1,0 +1,54 @@
+{
+  "base": "R42",
+  "revisao": "R43",
+  "data": "2026-10-10",
+  "paginas": 373,
+  "blocos_textuais_alterados": 6,
+  "blocos_alterados": [
+    "bastiao--bas-olhos",
+    "consulta--consulta-ataques",
+    "geral--ataques",
+    "geral--bloquear",
+    "incursor--inc-fluidez",
+    "incursor--inc-redirecionar-resolucao"
+  ],
+  "exemplos_ajustados": [
+    "Ataques: Sousuke e Defesa 17",
+    "Bloquear: Rina e ataque 18",
+    "Redirecionar a Força: resultado 17 contra Defesa 15"
+  ],
+  "r42_arquivos_verificados": 2536,
+  "r42_intacta": true,
+  "texto_identico_fora_dos_registros": true,
+  "paginas_com_composicao_diferente": [
+    21,
+    22,
+    23,
+    24,
+    88,
+    154,
+    165,
+    366
+  ],
+  "paginas_dos_blocos": {
+    "bastiao--bas-olhos": 87,
+    "consulta--consulta-ataques": 366,
+    "geral--ataques": 20,
+    "geral--bloquear": 24,
+    "incursor--inc-fluidez": 153,
+    "incursor--inc-redirecionar-resolucao": 165
+  },
+  "recomposicoes_registradas": 11,
+  "sha256_pdf": "8c936686336d38ad80863def9b575f3a8c8182d83d133fc9fbfc9e63af76b175",
+  "problemas": [],
+  "conferencia_geral": {
+    "checagens": 117446,
+    "links_internos": 2432,
+    "marcadores": 184,
+    "blocos": 500,
+    "paginas": 373,
+    "problemas": []
+  },
+  "revisao_visual": "REVISAO-VISUAL.json",
+  "conclusao": "Aprovada nas verificações de texto, regras aplicadas, geometria, remissões e revisão visual das páginas afetadas."
+}

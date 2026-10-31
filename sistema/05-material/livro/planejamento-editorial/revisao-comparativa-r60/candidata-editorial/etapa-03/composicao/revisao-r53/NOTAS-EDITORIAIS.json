@@ -1,0 +1,36 @@
+{
+  "pontos_resolvidos": [
+    {
+      "problema": "Uma coluna vazia após elemento largo",
+      "local": "Feitiços conhecidos, Invocação por espaço",
+      "solucao": "Preferir distribuição em duas colunas após largura inteira, preservando parágrafos e aberturas."
+    },
+    {
+      "problema": "Rotas entendidas apenas como troca de nomes",
+      "local": "Rotas de criação, Técnica Marcial e Sem Técnica",
+      "solucao": "Explicar a fonte da Regra, apresentar montagem comum em cinco passos e uma tabela dos termos por rota. Procedimentos específicos ligados ao passo comum."
+    },
+    {
+      "problema": "Função entendida como escolha feita ao conjurar",
+      "local": "Funções e saldo, Emanador",
+      "solucao": "Fixar funções e distribuição dos pontos na montagem; Forma Fluida altera somente a Forma, conforme decisão do autor."
+    },
+    {
+      "problema": "Vida temporária individual gratuita na montagem",
+      "local": "Funções e saldo e exemplos dependentes",
+      "solucao": "Base Leve; uma base compartilhada igual à maior exigida. Classe 1, Projétil sem peças: 6 de reserva, antes do teto geral."
+    },
+    {
+      "problema": "Explicação da base longa e com coluna direita vazia",
+      "local": "Funções e saldo, abaixo da tabela",
+      "solucao": "Dividir a explicação em parágrafos por assunto. Prova isolada usa ambas as colunas, sem acrescentar página."
+    }
+  ],
+  "regras_preservadas": [
+    "Recomposição em 4 vezes a maior Classe",
+    "Bênçãos de combate",
+    "Origens, salvo nomenclatura da menor Prática Cotidiana",
+    "Condição Morrendo e Dano e recuperação"
+  ],
+  "validacao": "A conclusão depende da conferência do PDF final; estas notas descrevem as intervenções realizadas."
+}

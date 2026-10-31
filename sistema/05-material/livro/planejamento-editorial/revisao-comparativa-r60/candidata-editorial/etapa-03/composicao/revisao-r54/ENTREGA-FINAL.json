@@ -1,0 +1,11 @@
+{
+  "versao": "R54",
+  "paginas": 414,
+  "blocos_alterados": 40,
+  "regras_preservadas": true,
+  "sha256": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r54/output/pdf/Ciclo-Maldito-R54.pdf": "8479ff7f60c229b83b5878aea23be4ce1beb4ae9e77ef0b5d90ddd2cef9a3c3c",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r54/output/pdf/Ciclo-Maldito-R54-Noturno-Vinho-e-Pessego.pdf": "4175d59281688035b055d44fdc9787feac951419ae9d1db7ebb95cef4aba69ca"
+  },
+  "publicacao": "Preparada para atualização posterior, sem commit ou push."
+}

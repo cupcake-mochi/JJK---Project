@@ -1,0 +1,20 @@
+[
+  {
+    "id": "R44-N001",
+    "bloco": "sumario--criacao-de-entidades",
+    "antes": {
+      "capitulo": 17,
+      "destino": "fabricacao--fab-entidades",
+      "titulo": "Fabricação de entidades",
+      "nivel": 2
+    },
+    "depois": {
+      "capitulo": 17,
+      "destino": "fabricacao--fab-entidades",
+      "titulo": "Criação de entidades",
+      "nivel": 2
+    },
+    "motivo": "Atualizar o nome da seção no sumário e nos marcadores, mantendo o destino. Metadado gerado; o texto do índice está nos blocos registrados no arquivo principal.",
+    "item": "33"
+  }
+]

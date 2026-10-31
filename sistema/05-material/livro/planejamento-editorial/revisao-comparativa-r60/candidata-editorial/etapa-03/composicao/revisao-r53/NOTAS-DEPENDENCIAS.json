@@ -1,0 +1,158 @@
+{
+  "ab--ab-kaori": [
+    "Toque concede devolução própria, sem a antiga Restrição embutida."
+  ],
+  "rotas--rota-fisga": [
+    "Preservar o exemplo com a devolução aprovada de Toque."
+  ],
+  "rotas--rota-redoma": [
+    "Atualizar o cálculo da proximidade sem mudar a ficha de Classe 1."
+  ],
+  "rotas--rota-espinho": [
+    "Recalcular a reação de Classe 2 pela devolução Leve de Toque.",
+    "Recalcular a reação de Classe 2 pela devolução Leve de Toque."
+  ],
+  "rotas--rota-bancada": [
+    "Separar função de vida temporária, Forma e peça de proteção, conservando os números do exemplo.",
+    "Separar função de vida temporária, Forma e peça de proteção, conservando os números do exemplo.",
+    "Recalcular Placas de apoio com a base Leve, conservando Guarda e a ausência de Restrições.",
+    "Recalcular Placas de apoio com a base Leve, conservando Guarda e a ausência de Restrições."
+  ],
+  "rotas--rota-sutura": [
+    "Manter a cura individual aprovada, com função e entrega separadas.",
+    "Manter a cura individual aprovada, com função e entrega separadas.",
+    "Manter a cura individual aprovada, com função e entrega separadas."
+  ],
+  "rotas--rota-cura": [
+    "Atualizar a interface da semente Energia Reversa com a função de cura.",
+    "Atualizar a interface da semente Energia Reversa com a função de cura.",
+    "Atualizar a interface da semente Energia Reversa com a função de cura.",
+    "Atualizar a interface da semente Energia Reversa com a função de cura.",
+    "Atualizar a interface da semente Energia Reversa com a função de cura."
+  ],
+  "aptidoes--apt-reversa": [
+    "Remissão à função de cura individual."
+  ],
+  "aptidoes--apt-energia-positiva": [
+    "Conservar a exceção ofensiva de Energia Reversa, sem ampliar a antiga permissão individual para a nova cura coletiva.",
+    "Conservar a exceção ofensiva de Energia Reversa, sem ampliar a antiga permissão individual para a nova cura coletiva.",
+    "Conservar a exceção ofensiva de Energia Reversa, sem ampliar a antiga permissão individual para a nova cura coletiva."
+  ],
+  "construcao--entidade-cao-habilidades": [
+    "Atualizar o exemplo do cão sem alterar o dano de Mordida precisa."
+  ],
+  "construcao--entidade-vigia-habilidades": [
+    "Adaptar a ficha do vigia às seis Formas; Orientação usa a categoria perícia de Firmeza e termina no começo do próximo turno da invocadora, conservando o prazo da Melhoria e a iniciativa compartilhada.",
+    "Adaptar a ficha do vigia às seis Formas; Orientação usa a categoria perícia de Firmeza e termina no começo do próximo turno da invocadora, conservando o prazo da Melhoria e a iniciativa compartilhada.",
+    "Adaptar a ficha do vigia às seis Formas; Orientação usa a categoria perícia de Firmeza e termina no começo do próximo turno da invocadora, conservando o prazo da Melhoria e a iniciativa compartilhada.",
+    "Adaptar Tiras de resgate à base Leve: acrescentar Parado efetivamente cumprido pela entidade para preservar a montagem com proteção e movimento."
+  ],
+  "ritual--rit-beneficios": [
+    "A linha de Compartilhamento passa a nomear as funções permitidas."
+  ],
+  "ritual--rit-parcelas": [
+    "Preservar a cópia individual do Ritual, usando Mais Um e mantendo a exclusão de benefícios coletivos.",
+    "Preservar a cópia individual do Ritual, usando Mais Um e mantendo a exclusão de benefícios coletivos.",
+    "Preservar a cópia individual do Ritual, usando Mais Um e mantendo a exclusão de benefícios coletivos.",
+    "Preservar a cópia individual do Ritual, usando Mais Um e mantendo a exclusão de benefícios coletivos."
+  ],
+  "ritual--rit-limites": [
+    "Atualizar a incompatibilidade de Ritual de Alcance com a Restrição de proximidade.",
+    "Atualizar a incompatibilidade de Ritual de Alcance com a Restrição de proximidade."
+  ],
+  "emanador--ema-remodelar": [
+    "Nomear a função que paga a diferença de custo de Remodelar.",
+    "Preservar a distribuição das funções nas Remodelagens de mesclas."
+  ],
+  "emanador--ema-instintiva": [
+    "Sobrecusto substitui Dívida no catálogo aprovado."
+  ],
+  "emanador--ema-modulacoes": [
+    "Divisão usa Mais Um também nas aplicações sem dano, conforme o protótipo aprovado."
+  ],
+  "emanador--ema-manifestacao": [
+    "A origem concedida por Manifestação Condutora conserva as limitações aprovadas de Toque, Aura e Queima-Roupa."
+  ],
+  "evocador--ev-multiplas-conduzir": [
+    "Aplicar a Restrição de proximidade à executora da especial."
+  ],
+  "origens--restricao-menores-corporais": [
+    "Atualizar apenas os nomes das funções da menor Prática Cotidiana; seu benefício permanece igual."
+  ],
+  "emanador--ema-forma": [
+    "Aplicar os preços e a proximidade do capítulo aprovado.",
+    "Separar funções e Forma no texto da habilidade.",
+    "Recalcular o exemplo com Aura Leve, Explosão Média e sem a devolução antiga.",
+    "Resposta do autor: Forma Fluida troca somente a Forma.",
+    "A troca de Forma confere também a base Leve de vida temporária individual, sem mudar a função."
+  ],
+  "fundamento--funcoes": [
+    "Explicitar o momento da escolha das funções, sem alterar a regra aprovada.",
+    "Decisão do autor: cobrar Leve pela função de vida temporária individual.",
+    "Conservar a base compartilhada das mesclas, agora com Leve para vida temporária individual; a base Média cobre a menor quando ambas forem exigidas.",
+    "Exemplificar o novo custo e impedir recuperar a base com a devolução de Toque."
+  ],
+  "rotas--rota-sem-tecnica": [
+    "A remissão acompanha a distribuição do protótipo entre os capítulos do livro.",
+    "Mostrar a montagem comum dentro do passo a passo de Sem Técnica.",
+    "Explicar como a aptidão dá origem à Regra e à ficha de cada Manejo."
+  ],
+  "rotas--rotas": [
+    "Reescrever a apresentação das duas rotas com procedimento compartilhado, origem da Regra, nomes equivalentes e remissões para as primeiras fichas. Nenhuma aquisição, requisito ou custo foi alterado."
+  ],
+  "rotas--rota-marcial": [
+    "Explicar o funcionamento do estilo antes de apresentar as Katas.",
+    "Organizar a criação marcial a partir do equipamento e do procedimento comum."
+  ],
+  "consulta--consulta-glossario-3": [
+    "Definir acesso, funções e descontos na consulta breve.",
+    "Distinguir entrega e efeito no glossário.",
+    "Acrescentar a função ao vocabulário de consulta."
+  ],
+  "fundamento--pontos": [
+    "Alinhar a ordem de cálculo à base única compartilhada das funções."
+  ],
+  "fundamento--aplicacoes": [
+    "Recalcular o exemplo de fortalecimento pela base Leve de vida temporária individual.",
+    "Recalcular o exemplo de fortalecimento pela base Leve de vida temporária individual."
+  ],
+  "construcao--entidades-formas": [
+    "Estender o custo Leve de vida temporária individual à montagem das entidades, conservando a base única das mesclas."
+  ],
+  "construcao--entidades-saldo": [
+    "Explicitar o teto decorrente da base Leve nas habilidades de entidade."
+  ],
+  "consulta--consulta-indice-1": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-2": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-3": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-4": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-5": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-6": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-7": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-8": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-9": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-10": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ],
+  "consulta--consulta-indice-11": [
+    "Índice atualizado para as entradas e os nomes do catálogo aprovado, sem alterar os demais assuntos."
+  ]
+}

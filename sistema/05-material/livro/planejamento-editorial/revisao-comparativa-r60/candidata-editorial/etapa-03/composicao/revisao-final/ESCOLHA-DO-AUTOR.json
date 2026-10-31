@@ -1,0 +1,17 @@
+{
+  "opcao_aprovada": "A",
+  "nome": "Selo vinho",
+  "pedido_do_autor": "Pode aplicar o 1/A, selo vinho. Mas salve as outras duas pra caso eu mude de ideia no futuro, pode seguir com a tarefa da fila.",
+  "edicao_de_aplicacao": "R34",
+  "opcoes_guardadas": [
+    "A",
+    "B",
+    "C"
+  ],
+  "arquivos_de_reproducao": [
+    "gerar_prototipos.py",
+    "OPCOES.json",
+    "ALTERACOES-PROTOTIPOS.json"
+  ],
+  "pdf_prototipos_sha256": "ad637c277519cb5f3034d32bfdd42beb0ba2600fc7237c3f8a7b82ff35d7c3e4"
+}

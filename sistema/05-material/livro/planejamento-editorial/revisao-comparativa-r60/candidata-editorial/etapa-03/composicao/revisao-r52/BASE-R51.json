@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "LIVRO-COMPLETO.md": "282f9bf75adac7961234f8a2754dea08c63def2aacef6c5ac7000c1031d9000e",
+    "output/pdf/Ciclo-Maldito-R51.pdf": "a5c5ff951da5baebd54f528a2dffee3d4ad487d48a44a41e4e28f4561cbfe7cd",
+    "FONTES-E-VALIDACAO.json": "6d965c48066e9dc21ffd007783bbc8d03ecaaf4c6d48b280e2b3e8098d17c277",
+    "ler_fontes.py": "f301fae7688efc8a14f05d162d507ea0e8443e845369f82c979a6ad60ac07c0c",
+    "gerar_livro.py": "ab0ac4330fb29f7525d12b6ade6ab4efe9abb8af9c50a9aa6a35cf0410352a63",
+    "revisao_r51.py": "8f4217beff1ed7da0c67e1ae7cd6b13c6dd619fee298caed9fef56a32d4b7073",
+    "ALTERACOES-R50-para-R51.json": "91a4b6d9c5dcee15efaab233b1da27b7963e088f925ddefc9065251412e071b2"
+  }
+}

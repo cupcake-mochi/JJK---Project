@@ -1,0 +1,153 @@
+{
+  "raiz": "..",
+  "documentos": [
+    {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "dominio": "incursor"
+    },
+    {
+      "arquivo": "equipamento/lote-02-r3/PROTECAO.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-03-r5/MUNICAO.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-04-r4/ARMAS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-05-r1/ITENS-E-OBJETOS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-06-r1/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "dominio": "ferramentas"
+    },
+    {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "dominio": "fundamento"
+    },
+    {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "dominio": "fundamento"
+    },
+    {
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "dominio": "poderes"
+    },
+    {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "dominio": "aptidoes"
+    },
+    {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "dominio": "rotas"
+    },
+    {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "dominio": "ritual"
+    },
+    {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "dominio": "invocacoes"
+    },
+    {
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "dominio": "invocacoes"
+    },
+    {
+      "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+      "dominio": "bastião"
+    },
+    {
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "dominio": "vanguarda"
+    },
+    {
+      "arquivo": "caminhos/guia/lote-01/GUIA.md",
+      "dominio": "guia"
+    },
+    {
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
+      "dominio": "emanador"
+    },
+    {
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
+      "dominio": "evocador"
+    },
+    {
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "dominio": "incursor"
+    },
+    {
+      "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "dominio": "invocacoes"
+    },
+    {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "dominio": "progressao"
+    },
+    {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "dominio": "origens"
+    },
+    {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "dominio": "criacao"
+    },
+    {
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "dominio": "ferramentas"
+    },
+    {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "dominio": "geral"
+    },
+    {
+      "arquivo": "consulta/lote-01/CONSULTA.md",
+      "dominio": "consulta"
+    },
+    {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "dominio": "geral"
+    }
+  ]
+}

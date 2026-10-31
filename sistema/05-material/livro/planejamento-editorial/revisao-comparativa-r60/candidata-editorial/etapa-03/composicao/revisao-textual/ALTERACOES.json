@@ -1,0 +1,586 @@
+[
+  {
+    "id": "T001",
+    "bloco": "ab--ab-primeira-sessao",
+    "antes": "Decidam também o espaço de cenas violentas, terror e conflitos entre personagens.",
+    "depois": "Combinem também quais cenas de violência, terror e conflito entre personagens podem aparecer na campanha.",
+    "motivo": "Substitui uma expressão abstrata por uma orientação concreta para o grupo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T002",
+    "bloco": "geral--turnos",
+    "antes": "Role **d20 + Destreza**, com os modificadores aplicáveis. Quem obtiver o maior total age primeiro. Aplique os modificadores que estiverem ativos nessa rolagem.",
+    "depois": "Role **d20 + Destreza**, com os modificadores ativos nessa rolagem. Quem obtiver o maior total age primeiro.",
+    "motivo": "Elimina a repetição da instrução de aplicar modificadores.",
+    "altera_regras": false
+  },
+  {
+    "id": "T003",
+    "bloco": "geral--interacao",
+    "antes": "**Empatar resiste.**",
+    "depois": "**O alvo resiste se igualar ou superar a CD.**",
+    "motivo": "Explicita o sujeito e o resultado, sem alterar a regra geral do TR.",
+    "altera_regras": false
+  },
+  {
+    "id": "T004",
+    "bloco": "geral--interacao",
+    "antes": "até o começo do próximo turno dele.",
+    "depois": "até o começo do próximo turno de Kaito.",
+    "motivo": "Remove a ambiguidade do pronome após a menção à maldição e a Rina.",
+    "altera_regras": false
+  },
+  {
+    "id": "T005",
+    "bloco": "geral--interacao",
+    "antes": "nem afeta uma resolução que não role acerto.",
+    "depois": "nem afeta um efeito que não exija rolagem de acerto.",
+    "motivo": "Troca a construção pouco natural por terminologia já explicada.",
+    "altera_regras": false
+  },
+  {
+    "id": "T006",
+    "bloco": "geral--manobras",
+    "antes": "A ordem de tamanhos do projeto é",
+    "depois": "As categorias de tamanho, da menor para a maior, são",
+    "motivo": "Retira referência ao projeto editorial e explicita a ordem apresentada.",
+    "altera_regras": false
+  },
+  {
+    "id": "T007",
+    "bloco": "geral--contencoes",
+    "antes": "para levantar** de um Derrubado comum.",
+    "depois": "para se levantar** da condição Derrubado comum.",
+    "motivo": "Corrige a construção gramatical sem mudar o custo ou a condição.",
+    "altera_regras": false
+  },
+  {
+    "id": "T008",
+    "bloco": "geral--movimento",
+    "antes": "Várias causas de terreno difícil no mesmo trecho não repetem o custo.",
+    "depois": "Se vários obstáculos tornarem o mesmo trecho difícil, aplique esse custo apenas uma vez.",
+    "motivo": "Explica diretamente como combinar obstáculos, sem mudar o custo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T009",
+    "bloco": "geral--movimento",
+    "antes": "Uma rolagem resolve o obstáculo descrito, sem nova cobrança a cada quadrado.",
+    "depois": "Uma rolagem resolve o obstáculo descrito. Não faça um novo teste a cada quadrado.",
+    "motivo": "Substitui cobrança, que poderia ser confundida com custo de movimento, por teste.",
+    "altera_regras": false
+  },
+  {
+    "id": "T010",
+    "bloco": "geral--espacos",
+    "antes": "Vários motivos de terreno difícil não repetem essa cobrança.",
+    "depois": "Aplique o custo de terreno difícil apenas uma vez, mesmo que haja outros obstáculos no trecho.",
+    "motivo": "Esclarece qual custo não se acumula.",
+    "altera_regras": false
+  },
+  {
+    "id": "T011",
+    "bloco": "geral--quedas",
+    "antes": "O d6 resulta em 4: ele fica com 10 de Vida e Derrubado.",
+    "depois": "O d6 resulta em 4: ela fica com 10 de Vida e Derrubada.",
+    "motivo": "Corrige a concordância com uma personagem, sujeito do exemplo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T012",
+    "bloco": "geral--rastejar",
+    "antes": "Levantar de um Derrubado comum custa",
+    "depois": "Levantar-se da condição Derrubado comum custa",
+    "motivo": "Corrige a construção pouco natural sem alterar a regra.",
+    "altera_regras": false
+  },
+  {
+    "id": "T013",
+    "bloco": "geral--carga",
+    "antes": "## Objetos sem valor e criaturas",
+    "depois": "## Objetos sem Volume definido e criaturas",
+    "motivo": "Evita confundir a ausência de uma medida com ausência de preço ou importância.",
+    "altera_regras": false
+  },
+  {
+    "id": "T014",
+    "bloco": "geral--estudar",
+    "antes": "usam a escada **6, 10, 14, 18, 22 e 26**",
+    "depois": "usam a escala de CD **6, 10, 14, 18, 22 e 26**",
+    "motivo": "Usa o termo já adotado em Testes para a dificuldade.",
+    "altera_regras": false
+  },
+  {
+    "id": "T015",
+    "bloco": "geral--pressao",
+    "antes": "Andar ao redor do prédio e repetir a pergunta não produz rumos novos até formar coordenadas.",
+    "depois": "Andar ao redor do prédio e repetir a pergunta não basta para obter direções novas e determinar a posição exata da fonte.",
+    "motivo": "Troca uma formulação abstrata por uma limitação compreensível na cena.",
+    "altera_regras": false
+  },
+  {
+    "id": "T016",
+    "bloco": "dano--leves",
+    "antes": "Levantar de um Derrubado comum custa",
+    "depois": "Levantar-se da condição Derrubado comum custa",
+    "motivo": "Mantém a mesma redação da regra geral de movimento.",
+    "altera_regras": false
+  },
+  {
+    "id": "T017",
+    "bloco": "dano--condicoes",
+    "antes": "Invisível é tratado em Visão e percepção.",
+    "depois": "Invisível é tratado em Percepção e visibilidade.",
+    "motivo": "Corrige a remissão para o título efetivamente presente no livro.",
+    "altera_regras": false
+  },
+  {
+    "id": "T018",
+    "bloco": "dano--medias",
+    "antes": "uma execução que dependa de voz ou do uso sonoro impedido pela condição não pode sair.",
+    "depois": "uma execução que dependa da voz ou de outro som impedido pela condição não pode ser realizada.",
+    "motivo": "Substitui não pode sair por uma indicação clara de impossibilidade de execução.",
+    "altera_regras": false
+  },
+  {
+    "id": "T019",
+    "bloco": "dano--pesadas",
+    "antes": "Visão às cegas pode substituir a visão para ataques dentro dos limites que a concedem.",
+    "depois": "Visão às cegas pode substituir a visão para ataques dentro dos limites da habilidade que a concede.",
+    "motivo": "Corrige a referência: é a habilidade que concede o sentido, e não seus limites.",
+    "altera_regras": false
+  },
+  {
+    "id": "T020",
+    "bloco": "dano--inconsciente",
+    "antes": "Falha automaticamente num teste cuja tarefa dependa de uma ação consciente",
+    "depois": "Você falha automaticamente num teste cuja tarefa dependa de uma ação consciente",
+    "motivo": "Mantém a segunda pessoa e evita a leitura de falha como uma ordem.",
+    "altera_regras": false
+  },
+  {
+    "id": "T021",
+    "bloco": "dano--usos",
+    "antes": "Ao concluir um descanso, atualize vida, PE e Integridade; confira máximos reduzidos, estágios, Sequelas e Exaustão; depois renove os usos correspondentes.",
+    "depois": "Ao concluir um descanso, atualize vida, PE e Integridade. Confira máximos reduzidos, estágios, Sequelas e Exaustão. Depois, renove os usos correspondentes.",
+    "motivo": "Separa as etapas em frases curtas, preservando sua ordem.",
+    "altera_regras": false
+  },
+  {
+    "id": "T022",
+    "bloco": "ab--ab-caminho",
+    "antes": "As habilidades e a primeira Trilha entregues no nível 2 serão recebidas quando você chegar a ele. Não antecipe essas entregas por já ter escolhido o que pretende seguir.",
+    "depois": "Você recebe as habilidades e a primeira Trilha do nível 2 quando chegar a esse nível. Escolhê-las com antecedência não permite usá-las antes.",
+    "motivo": "Evita entregas como jargão de planejamento e torna a restrição direta.",
+    "altera_regras": false
+  },
+  {
+    "id": "T023",
+    "bloco": "ab--ab-capacidades",
+    "antes": "Registre os valores que usa com frequência e o destino de consulta das demais regras.",
+    "depois": "Registre os valores que usa com frequência e onde consultar as demais regras.",
+    "motivo": "Retira a expressão técnica destino de consulta.",
+    "altera_regras": false
+  },
+  {
+    "id": "T024",
+    "bloco": "origens--origem-latente",
+    "antes": "a primeira ameaça que sobreviveu",
+    "depois": "a primeira ameaça à qual sobreviveu",
+    "motivo": "Corrige a regência de sobreviver.",
+    "altera_regras": false
+  },
+  {
+    "id": "T025",
+    "bloco": "origens--legados",
+    "antes": "Legados não causam dano nem concedem novas entregas ou usos por nível.",
+    "depois": "Legados não causam dano nem concedem novos benefícios ou usos conforme você sobe de nível.",
+    "motivo": "Troca entregas por benefícios e explicita o sentido da progressão.",
+    "altera_regras": false
+  },
+  {
+    "id": "T026",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "antes": "O uso acabou por cena: não poderá usar o mesmo Legado em Medicina logo depois.",
+    "depois": "O uso daquela cena foi gasto: não poderá usar o mesmo Legado em Medicina logo depois.",
+    "motivo": "Corrige a formulação pouco natural sobre consumo de um uso.",
+    "altera_regras": false
+  },
+  {
+    "id": "T027",
+    "bloco": "origens--origem-descendente",
+    "antes": "conforme Equipamentos.",
+    "depois": "conforme Equipamento.",
+    "motivo": "Ajusta a remissão ao nome exato do capítulo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T028",
+    "bloco": "bastiao--bas-bastiao",
+    "antes": "Não reúna entregas de duas Trilhas.",
+    "depois": "Não combine habilidades de duas Trilhas.",
+    "motivo": "Substitui jargão editorial pelo que o jogador efetivamente escolhe.",
+    "altera_regras": false
+  },
+  {
+    "id": "T029",
+    "bloco": "bastiao--bas-combatente",
+    "antes": "Não precisa acertar automaticamente nem copia o acerto que você recebeu.",
+    "depois": "O acerto que você recebeu não garante o acerto do feitiço.",
+    "motivo": "Corrige uma frase contraditória: Retaliação mantém a resolução própria do feitiço.",
+    "altera_regras": false
+  },
+  {
+    "id": "T030",
+    "bloco": "vanguarda--van-yumi",
+    "antes": "duas Conclusões e as entregas dos níveis 11, 19 e 27.",
+    "depois": "duas Conclusões e as habilidades dos níveis 11, 19 e 27.",
+    "motivo": "Troca entregas por habilidades, sem alterar a progressão.",
+    "altera_regras": false
+  },
+  {
+    "id": "T031",
+    "bloco": "vanguarda--van-yumi",
+    "antes": "Escolha um acontecimento **que todos possam identificar e que você consiga perceber** do alvo:",
+    "depois": "Escolha um acontecimento envolvendo o alvo **que todos possam identificar e que você consiga perceber**:",
+    "motivo": "Reposiciona o complemento para evitar a leitura de perceber do alvo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T032",
+    "bloco": "emanador--ema-base",
+    "antes": "substitua todas as entregas da anterior",
+    "depois": "substitua todas as habilidades da anterior",
+    "motivo": "Mantém habilidades como termo para os benefícios da Trilha.",
+    "altera_regras": false
+  },
+  {
+    "id": "T033",
+    "bloco": "evocador--ev-principal-especial",
+    "antes": "As entregas da Trilha continuam nos níveis 2, 11, 19 e 27.",
+    "depois": "As habilidades da Trilha continuam sendo recebidas nos níveis 2, 11, 19 e 27.",
+    "motivo": "Retira jargão de produção da explicação de progressão.",
+    "altera_regras": false
+  },
+  {
+    "id": "T034",
+    "bloco": "evocador--ev-vinculo",
+    "antes": "Na próxima janela, pode conservar a escolha ou mudar a beneficiária, o benefício ou ambos.",
+    "depois": "No começo do seu próximo turno, pode conservar a escolha ou mudar a beneficiária, o benefício ou ambos.",
+    "motivo": "Explicita o momento já definido no parágrafo anterior.",
+    "altera_regras": false
+  },
+  {
+    "id": "T035",
+    "bloco": "evocador--ev-vinculo",
+    "antes": "A primeira abertura de turno consciente concede o primeiro ponto. Começar a luta com criaturas já manifestadas não concede pontos antes dessa abertura.",
+    "depois": "Você recebe o primeiro ponto no começo do primeiro turno em que estiver consciente. Começar a luta com criaturas já manifestadas não antecipa esse ganho.",
+    "motivo": "Substitui abertura de turno por uma indicação temporal direta.",
+    "altera_regras": false
+  },
+  {
+    "id": "T036",
+    "bloco": "evocador--ev-multiplas-entrada",
+    "antes": "Cada par transmite a básica restante e que puder ser transferida de sua antecessora.",
+    "depois": "Em cada par, a substituta recebe a básica restante da antecessora, se a transferência for permitida.",
+    "motivo": "Corrige o sujeito e a ordem da frase sem mudar as condições de transferência.",
+    "altera_regras": false
+  },
+  {
+    "id": "T037",
+    "bloco": "incursor--inc-cirurgico",
+    "antes": "Role os **dados de dano da arma normalmente**. Golpe Cirúrgico não maximiza dados.",
+    "depois": "Role os **dados de dano da arma**, sem maximizá-los.",
+    "motivo": "Reúne duas instruções equivalentes numa frase.",
+    "altera_regras": false
+  },
+  {
+    "id": "T038",
+    "bloco": "incursor--inc-cirurgico",
+    "antes": "Os dados adicionais têm o mesmo tamanho dos dados utilizados normalmente em Canalizar e são rolados normalmente.",
+    "depois": "Os dados adicionais têm o mesmo tamanho dos dados de Canalizar.",
+    "motivo": "Remove a repetição de normalmente. A instrução de rolar os dados permanece na seção.",
+    "altera_regras": false
+  },
+  {
+    "id": "T039",
+    "bloco": "incursor--inc-brecha",
+    "antes": "O derrube e o empurrão fazem parte da execução",
+    "depois": "Derrubar e empurrar fazem parte da execução",
+    "motivo": "Usa os verbos correntes no livro em vez de derrube.",
+    "altera_regras": false
+  },
+  {
+    "id": "T040",
+    "bloco": "incursor--inc-retorno",
+    "antes": "o pacote completo custa 7 PE e Fluidez",
+    "depois": "a combinação custa 7 PE e Fluidez",
+    "motivo": "Substitui pacote por uma referência clara às habilidades combinadas.",
+    "altera_regras": false
+  },
+  {
+    "id": "T041",
+    "bloco": "incursor--inc-finta",
+    "antes": "Não acrescenta outra continuação ao kit.",
+    "depois": "Não concede outra continuação naquele turno.",
+    "motivo": "Retira o anglicismo e retoma o limite temporal já declarado.",
+    "altera_regras": false
+  },
+  {
+    "id": "T042",
+    "bloco": "pericias--fisicas",
+    "antes": "estão em Furtividade e Ocultação.",
+    "depois": "estão em Esconder e Ataques e ocultação, no capítulo Regras gerais.",
+    "motivo": "Corrige a remissão para as seções existentes.",
+    "altera_regras": false
+  },
+  {
+    "id": "T043",
+    "bloco": "pericias--ambiente",
+    "antes": "os procedimentos estão em Energia e vestígios.",
+    "depois": "os procedimentos estão em Examinar energia e vestígios, no capítulo Regras gerais.",
+    "motivo": "Corrige o título de destino da remissão.",
+    "altera_regras": false
+  },
+  {
+    "id": "T044",
+    "bloco": "pericias--essencia",
+    "antes": "**Energia e vestígios** determina a ação, as distâncias, os obstáculos e as informações disponíveis em cada tarefa.",
+    "depois": "Consulte **Percepção de energia**, em Regras gerais, para escolher o procedimento da tarefa, com sua ação, suas distâncias, seus obstáculos e as informações que permite obter.",
+    "motivo": "Direciona à seção que reúne e encaminha os diferentes procedimentos de Sentir Energia.",
+    "altera_regras": false
+  },
+  {
+    "id": "T045",
+    "bloco": "equip--eq-manipular",
+    "antes": "de uma mão resistente",
+    "depois": "da mão de alguém que resiste",
+    "motivo": "Substituir construção pouco natural sem mudar a necessidade de manobra ou habilidade.",
+    "altera_regras": false
+  },
+  {
+    "id": "T046",
+    "bloco": "equip--eq-propriedades",
+    "antes": "Não concede outro ataque, muda o atributo do golpe ou reduz Volume.",
+    "depois": "Não concede outro ataque, não muda o atributo do golpe nem reduz Volume.",
+    "motivo": "Deixar claro que a negação vale para os três benefícios.",
+    "altera_regras": false
+  },
+  {
+    "id": "T047",
+    "bloco": "pericias--ambiente",
+    "antes": "O teste não recupera Vida, remove uma condição ou estabiliza alguém automaticamente.",
+    "depois": "O teste não recupera Vida, não remove uma condição nem estabiliza alguém automaticamente.",
+    "motivo": "Evitar ambiguidade no alcance da negação.",
+    "altera_regras": false
+  },
+  {
+    "id": "T048",
+    "bloco": "equip--eqp-vestir",
+    "antes": "os benefícios que dependem dela estar em uso",
+    "depois": "os benefícios que exigem a peça em uso",
+    "motivo": "Simplificar construção gramatical sem alterar requisitos.",
+    "altera_regras": false
+  },
+  {
+    "id": "T049",
+    "bloco": "progressao--prog-inicio",
+    "antes": "primeira entrega de Caminho e Trilha",
+    "depois": "primeiras habilidades de Caminho e Trilha",
+    "motivo": "Substituir jargão editorial por um termo direto para o jogador.",
+    "altera_regras": false
+  },
+  {
+    "id": "T050",
+    "bloco": "progressao--prog-tabela-avancada",
+    "antes": "Cada entrega conserva os requisitos",
+    "depois": "Cada benefício conserva os requisitos",
+    "motivo": "Substituir jargão editorial por um termo direto para o jogador.",
+    "altera_regras": false
+  },
+  {
+    "id": "T051",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "registre as entregas do novo nível",
+    "depois": "registre os benefícios do novo nível",
+    "motivo": "Substituir jargão editorial por um termo direto para o jogador.",
+    "altera_regras": false
+  },
+  {
+    "id": "T052",
+    "bloco": "progressao--prog-trilhas",
+    "antes": "Não conserve uma entrega antiga",
+    "depois": "Não conserve uma habilidade antiga",
+    "motivo": "Substituir jargão editorial por um termo direto para o jogador.",
+    "altera_regras": false
+  },
+  {
+    "id": "T053",
+    "bloco": "progressao--prog-trilhas",
+    "antes": "recebe as entregas de nível",
+    "depois": "recebe as habilidades de nível",
+    "motivo": "Substituir jargão editorial por um termo direto para o jogador.",
+    "altera_regras": false
+  },
+  {
+    "id": "T054",
+    "bloco": "catalogo--cat-catalogo",
+    "antes": "nas seções Formas, Formas de Amparo e Alcance e área",
+    "depois": "nas seções Formas de ataque, Formas de amparo e Efeito e Alcance e área",
+    "motivo": "Usar os títulos reais das seções consultadas.",
+    "altera_regras": false
+  },
+  {
+    "id": "T055",
+    "bloco": "catalogo--cat-castigo",
+    "antes": "Queima, Remate e os pacotes secundários",
+    "depois": "Queima, Remate e os efeitos de dano secundário",
+    "motivo": "Substituir jargão por descrição do efeito em jogo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T056",
+    "bloco": "catalogo--cat-tempo-duracao",
+    "antes": "Fica conserva seu minuto de duração.",
+    "depois": "Fica conserva sua duração de um minuto.",
+    "motivo": "Retomar a duração estabelecida para Fica com vocabulário direto.",
+    "altera_regras": false
+  },
+  {
+    "id": "T057",
+    "bloco": "aptidoes--apt-cesta",
+    "antes": "Enquanto estiver solto, cada Acerto que causa dano que a Cesta impedir acrescenta uma falha, no máximo uma dessas falhas por rodada.",
+    "depois": "Enquanto o símbolo estiver solto, cada Acerto de dano impedido pela Cesta acrescenta uma falha, no máximo uma dessas falhas por rodada.",
+    "motivo": "Eliminar encadeamento de orações e esclarecer o referente de solto.",
+    "altera_regras": false
+  },
+  {
+    "id": "T058",
+    "bloco": "aptidoes--apt-extensao",
+    "antes": "O limite é 3 nos Refino 7–8 e 4 nos Refino 9–10.",
+    "depois": "O limite é 3 com Refino 7–8 e 4 com Refino 9–10.",
+    "motivo": "Corrigir concordância e tornar a leitura mais natural.",
+    "altera_regras": false
+  },
+  {
+    "id": "T059",
+    "bloco": "aptidoes--apt-cortina",
+    "antes": "Ela ocupa a mesma manutenção única de Barreira Simples: concluir uma substitui a outra.",
+    "depois": "Ela compartilha o limite de uma barreira mantida com Barreira Simples: concluir uma substitui a outra.",
+    "motivo": "Evitar confundir limite de barreiras com custo de manutenção em PE.",
+    "altera_regras": false
+  },
+  {
+    "id": "T060",
+    "bloco": "rotas--rota-sutura",
+    "antes": "Fechar ferimento não remove uma condição, recupera Integridade ou ressuscita por si só.",
+    "depois": "Fechar ferimento não remove condições, não recupera Integridade nem ressuscita por si só.",
+    "motivo": "Deixar explícita a negação dos três efeitos.",
+    "altera_regras": false
+  },
+  {
+    "id": "T061",
+    "bloco": "fundamento--passagem",
+    "antes": " É uma criação original do Ciclo Maldito.",
+    "depois": "",
+    "motivo": "Retirar observação de autoria repetida na sequência de exemplos; os créditos permanecem no livro.",
+    "altera_regras": false
+  },
+  {
+    "id": "T062",
+    "bloco": "fundamento--retirada",
+    "antes": " É uma criação original do Ciclo Maldito.",
+    "depois": "",
+    "motivo": "Retirar observação de autoria que interrompe a apresentação do exemplo.",
+    "altera_regras": false
+  },
+  {
+    "id": "T063",
+    "bloco": "rotas--rota-propria",
+    "antes": "ligado a sobrevivência, recuperação ou outra capacidade física",
+    "depois": "ligado à sobrevivência, à recuperação ou a outra capacidade física",
+    "motivo": "Corrigir a regência.",
+    "altera_regras": false
+  },
+  {
+    "id": "T064",
+    "bloco": "rotas--rota-propria",
+    "antes": "Essa proposta concede uma informação corporal estreita.",
+    "depois": "Essa proposta revela uma informação específica por meio do tato.",
+    "motivo": "Trocar expressão abstrata por descrição concreta do sentido usado.",
+    "altera_regras": false
+  },
+  {
+    "id": "T065",
+    "bloco": "poderes--protecao",
+    "antes": "Aptidões determina quais quedas",
+    "depois": "O capítulo Aptidões e Refino determina quais quedas",
+    "motivo": "Identificar a referência e corrigir a concordância.",
+    "altera_regras": false
+  },
+  {
+    "id": "T066",
+    "bloco": "ritual--promessa",
+    "antes": "| Prestação | O que cada parte entrega, faz ou deixa de fazer. |",
+    "depois": "| Obrigações | O que cada parte entrega, faz ou deixa de fazer. |",
+    "motivo": "Usar termo familiar em vez de acepção jurídica de prestação.",
+    "altera_regras": false
+  },
+  {
+    "id": "T067",
+    "bloco": "campo--inv-intencao",
+    "antes": "Não começa uma perseguição, protege outro personagem ou escolhe uma especial por conta própria.",
+    "depois": "Não começa uma perseguição, não protege outro personagem nem escolhe uma especial por conta própria.",
+    "motivo": "Esclarecer a negação das três iniciativas autônomas.",
+    "altera_regras": false
+  },
+  {
+    "id": "T068",
+    "bloco": "campo--inv-antecipada",
+    "antes": "Quando um impedimento real impedir a especial agora, você pode gastar a Padrão e ordenar antes.",
+    "depois": "Se a entidade não puder executar a especial agora, você pode gastar a Padrão e dar uma ordem antecipada.",
+    "motivo": "Eliminar repetição e nomear diretamente o procedimento explicado na seção.",
+    "altera_regras": false
+  },
+  {
+    "id": "T069",
+    "bloco": "campo--inv-antecipada",
+    "antes": "a ordem deve executar se o impedimento tiver acabado",
+    "depois": "a entidade deve executar a especial se o impedimento tiver acabado",
+    "motivo": "Corrigir o sujeito da execução.",
+    "altera_regras": false
+  },
+  {
+    "id": "T070",
+    "bloco": "campo--inv-retorno",
+    "antes": "Não age, recebe ordens, usa coletiva ou projeta auras e talentos.",
+    "depois": "Não age, não recebe ordens, não usa a coletiva nem projeta auras e talentos.",
+    "motivo": "Esclarecer quais atuações ficam impedidas no estado Desligada.",
+    "altera_regras": false
+  },
+  {
+    "id": "T071",
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "antes": "Eco e Cobrança seguem a trava comum de uma única metade no próximo custo.",
+    "depois": "Eco e Cobrança reduzem o próximo custo à metade uma única vez, mesmo quando ambos estão disponíveis.",
+    "motivo": "Substituir jargão por instrução direta, conservando a regra de não acumulação.",
+    "altera_regras": false
+  },
+  {
+    "id": "T073",
+    "bloco": "consulta--consulta-indice-1",
+    "antes": "[Arredondamento](#fundamento--pontos)",
+    "depois": "[Arredondamento](#geral--pericias)",
+    "motivo": "Direcionar a consulta para a regra geral de arredondamento, não somente para preços de feitiços.",
+    "altera_regras": false
+  },
+  {
+    "id": "T074",
+    "bloco": "consulta--consulta-indice-5",
+    "antes": "[Estigma](#equip--eqf-graus)\n",
+    "depois": "",
+    "motivo": "Remover entrada obsoleta que não corresponde a uma regra apresentada na seção de destino.",
+    "altera_regras": false
+  }
+]

@@ -1,0 +1,17 @@
+Ciclo Maldito R56: revisão editorial e de diagramação
+
+R55 preservada. Os dois PDFs finais têm 414 páginas (R55: 415).
+
+Ajustes: reaproveitamento das colunas depois de elementos largos, melhor equilíbrio entre colunas e redução dos agrupamentos opcionais que criavam vazios. Mantidas as proteções de títulos, início de tabelas e continuação de leitura. Fontes e tamanhos preservados.
+
+Texto: uma correção no roteiro de criação orienta escolher a Origem e registrar a marcante correspondente. Nenhuma regra foi alterada. Os demais 575 blocos permaneceram iguais à R55.
+
+Revisões: duas passagens textuais com os escopos registrados em REVISAO-TEXTUAL.json; duas passagens visuais completas, uma em cada edição, com todas as 414 páginas renderizadas. A segunda encontrou e corrigiu a conversão indevida das letras nas capas de capítulo da edição noturna. Detalhes finais ampliados: páginas 25, 253, 257 e 388.
+
+Verificação automática: 121.935 checagens na edição clara, sem problemas. A edição noturna preserva texto, geometria, imagens e paginação da clara e passou por 1.728 verificações.
+
+Páginas internas com diferença superior a 35% da altura útil entre colunas: de 23 para 2. Restam 238 e 268, que mantêm tabelas com suas explicações.
+
+Páginas internas com mais de um terço de espaço vertical livre em média: de 27 para 20. Lista: 8, 10, 83, 85, 87, 89, 115, 130, 149, 151, 181, 186, 213, 226, 262, 273, 276, 319, 325 e 329. Os motivos individuais estão em ESPACOS-PRESERVADOS.json. A medida considera o espaço abaixo do último elemento das colunas; não equivale à área branca real da página.
+
+Os PDFs foram salvos localmente. Nenhum commit, push ou publicação na Vercel foi feito nesta rodada.

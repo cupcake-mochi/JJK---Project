@@ -1,0 +1,44 @@
+{
+  "etapa": 3,
+  "titulo": "Quadro de Invocações",
+  "paginas": 429,
+  "paginas_quadro": [
+    377,
+    378
+  ],
+  "opcoes_comparadas": 9,
+  "regras_alteradas": false,
+  "validacao_geral": "aprovado",
+  "verificacoes_gerais": 52,
+  "cenarios_conferidos": 18,
+  "natureza_cenarios": "Conferência editorial contra as regras completas; não constitui teste de mesa.",
+  "revisao_visual": {
+    "paletas": [
+      "clara",
+      "noturna"
+    ],
+    "paginas": [
+      5,
+      368,
+      376,
+      377,
+      378
+    ],
+    "sumario_adicional_claro": [
+      4
+    ],
+    "resultado": "aprovado"
+  },
+  "publicado": false,
+  "proxima_etapa": "Diagramas de alcance, origem, área e domínios sobrepostos",
+  "arquivos": [
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/revisao-comparativa-r60/candidata-editorial/etapa-03/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "sha256": "0beb9852075a85a1dd9019e622c12c77c9f002014ef241a518ce2d9aca442e6f"
+    },
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/revisao-comparativa-r60/candidata-editorial/etapa-03/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "sha256": "d88fc5fb89fb06bdeec5eb3ad31f3fb77c8519cf4932e75516ed3d477cadf2d4"
+    }
+  ]
+}

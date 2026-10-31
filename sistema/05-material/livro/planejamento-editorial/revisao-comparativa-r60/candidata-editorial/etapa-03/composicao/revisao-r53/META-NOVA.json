@@ -1,0 +1,2695 @@
+{
+  "fundamento--fundamento": {
+    "capitulo": 10,
+    "contexto": "Fundamento",
+    "titulos": [
+      {
+        "titulo": "Fundamento",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Montar sua aplicação",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Da ideia à ficha",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "As palavras da montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Conheça as Famílias",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Um caminho curto para começar",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Outras rotas",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--tecnica": {
+    "capitulo": 10,
+    "contexto": "Sua técnica",
+    "titulos": [
+      {
+        "titulo": "Sua técnica",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Descrição e Regra",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Fios de Tensão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Tipos de dano",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--primeiro": {
+    "capitulo": 10,
+    "contexto": "Seu primeiro feitiço",
+    "titulos": [
+      {
+        "titulo": "Seu primeiro feitiço",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Na mesa",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--familias": {
+    "capitulo": 10,
+    "contexto": "Famílias",
+    "titulos": [
+      {
+        "titulo": "Famílias",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Famílias Livres",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Famílias Fechadas",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--selo": {
+    "capitulo": 10,
+    "contexto": "Selo e Talentos",
+    "titulos": [
+      {
+        "titulo": "Selo e Talentos",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Selo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Expressão da técnica",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Talentos pagos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--repertorio": {
+    "capitulo": 10,
+    "contexto": "Feitiços conhecidos",
+    "titulos": [
+      {
+        "titulo": "Feitiços conhecidos",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Invocação por espaço",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Fora da conta",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--pontos": {
+    "capitulo": 10,
+    "contexto": "Pontos e preços",
+    "titulos": [
+      {
+        "titulo": "Pontos e preços",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Quantidade de peças",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Cálculo dos pontos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--funcoes": {
+    "capitulo": 10,
+    "contexto": "Funções e saldo",
+    "titulos": [
+      {
+        "titulo": "Funções e saldo",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Escolha o destino do saldo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Cura e vida temporária",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--formas": {
+    "capitulo": 10,
+    "contexto": "Formas",
+    "titulos": [
+      {
+        "titulo": "Formas",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Toque, Aura e proximidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "O que uma área distribui",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Fora de combate",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--alcance": {
+    "capitulo": 10,
+    "contexto": "Alcance e área",
+    "titulos": [
+      {
+        "titulo": "Alcance e área",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Aumentos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--conjurar": {
+    "capitulo": 10,
+    "contexto": "Conjurar",
+    "titulos": [
+      {
+        "titulo": "Conjurar",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Atributo, ataque e CD",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Resultados",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Ação e duração",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--restricoes": {
+    "capitulo": 10,
+    "contexto": "Restrições",
+    "titulos": [
+      {
+        "titulo": "Restrições",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Escolha uma dificuldade real",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Combinações",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Revisão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--combinacoes": {
+    "capitulo": 10,
+    "contexto": "Combinar peças",
+    "titulos": [
+      {
+        "titulo": "Combinar peças",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Partes independentes e dependentes",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Alvos, ataques e áreas",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Compatibilidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--mesclas": {
+    "capitulo": 10,
+    "contexto": "Três mesclas prontas",
+    "titulos": [
+      {
+        "titulo": "Três mesclas prontas",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Ferir e recuperar",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Pulso de renovação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Recompor e guardar",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--controle": {
+    "capitulo": 10,
+    "contexto": "Controle",
+    "titulos": [
+      {
+        "titulo": "Controle",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Dano e duração",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Rede de contenção",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--aplicacoes": {
+    "capitulo": 10,
+    "contexto": "Outras aplicações",
+    "titulos": [
+      {
+        "titulo": "Outras aplicações",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Travessia por um fio",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Divisória de fios",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Socorro durante a retirada",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--danolimites": {
+    "capitulo": 10,
+    "contexto": "Dano e repetições",
+    "titulos": [
+      {
+        "titulo": "Dano e repetições",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Áreas e ataques divididos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Dados adicionais da própria montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--persistente": {
+    "capitulo": 10,
+    "contexto": "Áreas persistentes",
+    "titulos": [
+      {
+        "titulo": "Áreas persistentes",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Duração e resolução",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Exemplo de permanência",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--livre": {
+    "capitulo": 10,
+    "contexto": "Uso Livre",
+    "titulos": [
+      {
+        "titulo": "Uso Livre",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Aplicações livres",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Informação e obstáculos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Quando preparar um feitiço",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--efeito": {
+    "capitulo": 10,
+    "contexto": "Efeitos fora de combate",
+    "titulos": [
+      {
+        "titulo": "Efeitos fora de combate",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Oposição",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Ficha da aplicação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--ampliar": {
+    "capitulo": 10,
+    "contexto": "Ampliar um feitiço",
+    "titulos": [
+      {
+        "titulo": "Ampliar um feitiço",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Corte Medido",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Medidas e limites",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Mesclas em Classes maiores",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Nova versão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--classezero": {
+    "capitulo": 10,
+    "contexto": "Feitiços de Classe 0",
+    "titulos": [
+      {
+        "titulo": "Feitiços de Classe 0",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Uma Melhoria",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Aplicações sem dano",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Uso e progressão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--proprio": {
+    "capitulo": 10,
+    "contexto": "Efeitos próprios",
+    "titulos": [
+      {
+        "titulo": "Efeitos próprios",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Da ideia à regra",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Preço e comparação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Registro na ficha",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--liberacao": {
+    "capitulo": 10,
+    "contexto": "Liberação Máxima",
+    "titulos": [
+      {
+        "titulo": "Liberação Máxima",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Custo e uso",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Exemplo: Corte de ruptura",
+        "tipo": "h3",
+        "tratamento": "exemplo",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Progressão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--maxima": {
+    "capitulo": 10,
+    "contexto": "Técnica Máxima",
+    "titulos": [
+      {
+        "titulo": "Técnica Máxima",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Ação e recarga",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Restrições",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Ataque, cura e utilidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Dano ou cura",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Um ataque com outra função",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Aplicação sem dano",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Melhorias da Técnica Máxima",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Efeito próprio em combate",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Progressão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--passagem": {
+    "capitulo": 10,
+    "contexto": "Exemplo: Passagem de Papel",
+    "titulos": [
+      {
+        "titulo": "Exemplo: Passagem de Papel",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Limites",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Em uma missão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--retirada": {
+    "capitulo": 10,
+    "contexto": "Exemplo: Retirada de Emergência",
+    "titulos": [
+      {
+        "titulo": "Exemplo: Retirada de Emergência",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Montagem e uso",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Limites do movimento",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Benefícios da Máxima",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--ficha": {
+    "capitulo": 10,
+    "contexto": "Ficha de feitiço",
+    "titulos": [
+      {
+        "titulo": "Ficha de feitiço",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Conferência antes da sessão",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-catalogo": {
+    "capitulo": 11,
+    "contexto": "Catálogo de criação",
+    "titulos": [
+      {
+        "titulo": "Catálogo de criação",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Regras compartilhadas das Famílias",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Controle",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Auxiliares",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Castigo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Tempo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Marca",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Amparo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-efeitos": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Efeitos: acrescentar uma função",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-passo": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Passo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-empurrao": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Empurrão",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-condicao": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Condição",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-terreno": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Terreno",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-cerca": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Cerca",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-desarma-o-feitico": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Desarma o Feitiço",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-anteparo": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Anteparo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-prende": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Prende",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-impulso": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Impulso",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-trava": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Trava",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-abre-ferida": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Abre Ferida",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-sobrecarga": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Sobrecarga",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-firmeza": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Firmeza",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-guarda": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Guarda",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-pressa": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Pressa",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-enfraquece": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Enfraquece",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-ecoa": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Ecoa",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Duração e usos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-sem-cura": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Sem Cura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-marca": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Marca",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-alvo-de-caca": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Alvo de Caça",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-rastro": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Rastro",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-isca": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Isca",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Ataques seguintes",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-sugar": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Sugar",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-cobranca": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Cobrança",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-identificar-feitico": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Identificar Feitiço",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-limpa": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Limpa",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-limpa-fundo": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Limpa Fundo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-levanta": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Levanta",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-remenda": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Remenda",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-divide": {
+    "capitulo": 11,
+    "contexto": "Efeitos: acrescentar uma função",
+    "titulos": [
+      {
+        "titulo": "Divide",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-modificadores": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Modificadores: ajustar a aplicação",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-longe": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Longe",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-sem-ver": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Sem Ver",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-perseguir": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Perseguir",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-maior": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Maior",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-escolher": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Escolher",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-mais-um": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Mais Um",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-rajada": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Rajada",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-fica": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Fica",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-salto": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Salto",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-contorno": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Contorno",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-precisao": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Precisão",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-inescapavel": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Inescapável",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-de-novo": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "De Novo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-fura": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Fura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-corroi": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Corrói",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-sem-cobertura": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Sem Cobertura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-toca-a-alma": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Toca a Alma",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-queima": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Queima",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-acumulo": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Acúmulo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-remate": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Remate",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-estilhaco": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Estilhaço",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-quebra-coisa": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Quebra Coisa",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-rasga-escudo": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Rasga Escudo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-rapido": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Rápido",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-reacao": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Reação",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-armado": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Armado",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-silencioso": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Silencioso",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-segura": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Segura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-concentrada-duradoura": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Concentrada / Duradoura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-reserva": {
+    "capitulo": 11,
+    "contexto": "Modificadores: ajustar a aplicação",
+    "titulos": [
+      {
+        "titulo": "Reserva",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-proprio": {
+    "capitulo": 11,
+    "contexto": "Criação própria",
+    "titulos": [
+      {
+        "titulo": "Criação própria",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--melhoria-efeito-proprio": {
+    "capitulo": 11,
+    "contexto": "Criação própria",
+    "titulos": [
+      {
+        "titulo": "Efeito Próprio",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Uma capacidade nova",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Limites da técnica",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-restricoes": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Catálogo de Restrições",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--grupo-restricoes-de-conjuracao": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Restrições de conjuração",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-queima-roupa": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Queima-Roupa",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-atrasar": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Atrasar",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-parado": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Parado",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-gesto": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Gesto",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-carregar": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Carregar",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--grupo-custos-e-consequencias": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Custos e consequências",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-sangra": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Sangra",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-sobrecusto": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Sobrecusto",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-recuo": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Recuo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-fraqueza": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Fraqueza",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-peso-morto": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Peso Morto",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-fragil": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Frágil",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-sem-volta": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Sem Volta",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--grupo-condicoes-de-uso": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Condições de uso",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-uma-vez": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Uma Vez",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-condicional": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Condicional",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-aquecer": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Aquecer",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-tudo-ou-nada": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Tudo ou Nada",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--grupo-exposicao-e-novas-restricoes": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Exposição e novas Restrições",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-barulho": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Barulho",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-assinatura": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Assinatura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--restricao-restricao-propria": {
+    "capitulo": 11,
+    "contexto": "Catálogo de Restrições",
+    "titulos": [
+      {
+        "titulo": "Restrição Própria",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-talentos": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Talentos e Regra Própria",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-passivas-1": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Talentos de Categoria 1",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Leitura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Instinto",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Raiz",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Mão Firme",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Farejador",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Leitura de Feitiços",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-passivas-2-recursos": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Talentos de Categoria 2",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Fluxo",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Recomposição",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Segunda Natureza",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Eco",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Costura",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Contramedida",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Peso da Presença",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-passivas-3": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Talentos de Categoria 3",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Escama",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Afinidade",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Reserva Profunda",
+        "tipo": "h2",
+        "tratamento": "entrada",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-regra-propria": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Regra Própria",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Escreva o efeito",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Exemplo: aposta entre dois",
+        "tipo": "h3",
+        "tratamento": "exemplo",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "catalogo--cat-passiva-propria": {
+    "capitulo": 11,
+    "contexto": "Talentos e Regra Própria",
+    "titulos": [
+      {
+        "titulo": "Talento Próprio",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Defina a aplicação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Limites",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rota-sem-tecnica": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "titulos": [
+      {
+        "titulo": "Sem Técnica",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Criação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Semente e Manejos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rota-sementes": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "titulos": [
+      {
+        "titulo": "Sementes",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Domínio Simples",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Energia Reversa",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Pétala",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Aptidão Própria",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rota-marcial": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "titulos": [
+      {
+        "titulo": "Técnica Marcial",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Criação",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Desenvolvimento",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rota-armas": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "titulos": [
+      {
+        "titulo": "Armas",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Atributo da Kata",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Equipamento em uso",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rota-ferramenta": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "titulos": [
+      {
+        "titulo": "Ferramenta",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Ataques comuns",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Mãos e voz",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-familias": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Famílias da entidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Família Livre",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-basicas": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Habilidades básicas",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Uma Melhoria Leve",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Básica benéfica",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-especiais": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Habilidades especiais",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-formas": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Funções e Formas da entidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-medidas": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Alcance e área",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-efeitos-reduzidos": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Efeitos reduzidos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-saldo": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Saldo e limites",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Amparo",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-controle": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Controle e utilidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Controle",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Efeito fora de combate",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-restricoes": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Restrições da entidade",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Tempo e ações",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Conferência da montagem",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "construcao--entidades-ampliacao": {
+    "capitulo": 17,
+    "contexto": "Construir invocações",
+    "titulos": [
+      {
+        "titulo": "Ampliar uma especial",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      },
+      {
+        "titulo": "Mordida precisa",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Conferência dos efeitos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "campo--inv-basica": {
+    "capitulo": 16,
+    "contexto": "Invocações em campo",
+    "titulos": [
+      {
+        "titulo": "Atuação básica",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "campo--inv-tempo": {
+    "capitulo": 16,
+    "contexto": "Invocações em campo",
+    "titulos": [
+      {
+        "titulo": "Especiais de execução rápida",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "campo--inv-restricoes-tempo": {
+    "capitulo": 16,
+    "contexto": "Invocações em campo",
+    "titulos": [
+      {
+        "titulo": "Especiais com preparação prolongada",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Atrasar",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      },
+      {
+        "titulo": "Carga em dois turnos",
+        "tipo": "h3",
+        "tratamento": "subtopico",
+        "nivel_editorial": 3
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "fundamento--interfaces": {
+    "capitulo": 10,
+    "contexto": "Caminhos e usos especiais",
+    "titulos": [
+      {
+        "titulo": "Caminhos e usos especiais",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ],
+    "origem": "Capítulo aprovado v8"
+  },
+  "rotas--rotas": {
+    "capitulo": 13,
+    "contexto": "Rotas de criação",
+    "origem": "Revisão de compreensão pedida pelo autor durante a integração",
+    "titulos": [
+      {
+        "titulo": "Rotas de criação",
+        "tipo": "h1",
+        "tratamento": null,
+        "nivel_editorial": 1
+      },
+      {
+        "titulo": "Como montar Manejos e Katas",
+        "tipo": "h2",
+        "tratamento": "grupo",
+        "nivel_editorial": 2
+      }
+    ]
+  }
+}

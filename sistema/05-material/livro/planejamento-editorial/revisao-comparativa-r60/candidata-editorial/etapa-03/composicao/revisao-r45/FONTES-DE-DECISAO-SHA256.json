@@ -1,0 +1,366 @@
+[
+  {
+    "arquivo": "fontes-de-decisao/03-DECISOES-APROVADAS-ETAPAS-1-A-5.md",
+    "sha256": "a8c1a2fabb5bf50ccbc0cd54aa605db093acb0fab56a7113e609104ab5d6dc4d"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A037-NO-WORK.md",
+    "sha256": "8b738e193e6ac159ecb2bd514872bc8ad832ae07c7729222beb8fcedf4b6952b"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A038-E-SUGESTAO-E050.md",
+    "sha256": "a958002d34dbd46c7d3cbdc5f04f8f3d5c86249d7f7f9f9dacfb70298ca2c250"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A039-E-PEDIDO-E051.md",
+    "sha256": "8bfeb3a504e3f8988694931519179c4fce009f68d064784dfa64eda3ba182586"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A040-E-PEDIDO-E056.md",
+    "sha256": "05003c6c35cff1a7f26bfd6b3e1f55261238355b5f2c828718cbf914f119ea1d"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A046-E-PROXIMO-PASSO.md",
+    "sha256": "b903e2670b850adeeaa92c3643b1501893f020724e52d0483533d6d8af8b0480"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A047-BASE-TODAS-ORIGENS.md",
+    "sha256": "0f2f8bab656aa5a08d33fb426313e340b37937ab22fe8dea27e9426679fd6a8f"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A048-E065-MENORES-E-FICHA.md",
+    "sha256": "f2ddefa68cab57b1c75a3af0776f8afea8f9079c454d9037dee342b1d848041a"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A049-E068-LISTA-EXTENSA.md",
+    "sha256": "c0aba95c7b6b7be344ab68cafbebd631fffbbd821e639eccb8fc60fa1b3a880f"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A050-E070-MENORES-HIBRIDO.md",
+    "sha256": "ab1afdf12d33e3d81ba302fff23279f70f227b217ab4fc355dc59b55f24d2442"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A051-E073-CORPO-MARCANTE-COMUM.md",
+    "sha256": "09cc2b3e15ff341ec689fbcf8e5b08dab7b843f9076b61a16865b0049c1f3a2d"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A052-E082-E083-CORPO-REPARO.md",
+    "sha256": "8a12bca067274ec56e589b194996a78fa8755c662af1b73e1fd6e5e9e3d8e990"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A055-E087-E090-CORPO.md",
+    "sha256": "a23d68f5a386e707c29715a5d1bb9c64e757ee893365c284d05b8f00cfde562c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A056-E091-E092-CORPO-SELECAO.md",
+    "sha256": "8839a3d35902c04b1d48ce3aa6cc2a6a0f38d97b3b2c674f649a73c0b9ced5df"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A057-E093-E094-M1-ALMA.md",
+    "sha256": "5320154b9aff765eb2a5d4b4658dbc92327bdea848999d2a705d65a6fe9331ef"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A058-E095-M1-INATIVIDADE.md",
+    "sha256": "052bdcb0b69b5e63abf77b70e1d72de2d08212f24c029230b2c48cab36b80457"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A059-E096-M1-REATIVACAO.md",
+    "sha256": "bdc2b0c4b4df153add7e60ca3b111131f4dc562eff29c03374fa41f76e9f2da0"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A060-E097-M1-ABASTECIMENTO.md",
+    "sha256": "3ffe724a94526b8a49df5a73309159e349c46217716924fa42faf843f009aea8"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A061-E098-CORPO-TROCAS-E-ESPECIALIZACAO.md",
+    "sha256": "4b53b7b0cfb88ea6f9cbfe3ae80f8d5c1fb30f6c2b4c1359a99fd5c088d8a08e"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A062-E100-REPARO-EXISTENTE.md",
+    "sha256": "482860bc5d03b23d71b9731548d1678977f4c1fb1a0307c4e662ec949acfab37"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A063-E106-E107-RECEPTACULO-MODALIDADES-E-DISPUTA.md",
+    "sha256": "1c80102d2a8b5e6635d067836abf63b15afc3c9177f3d216025d6690fe4022e1"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A064-E112-COEXISTENCIA-6PE.md",
+    "sha256": "6eeb057421a602698a8ce8a8104f74bc0df65328d61c6aef83f027de20797d35"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A065-E114-DEFESA-ALMA-E-REJEICAO-APTIDAO.md",
+    "sha256": "ff5c6923c0282f0835a44137fe4d1d251074334782eb54fd22a2df1e8aa1ab0c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A066-E118-RESERVA-IMPREGNADA.md",
+    "sha256": "a474dfe1cc315b659d250f21d37eea2d84ecfba95fb44b04afd5f363b005a532"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A067-E119-CATALOGO-MENORES-SEIS-MAIS-DUAS.md",
+    "sha256": "2974ee620de6f36de2443b2e31b9bfedc6946ea4958416b296b9394b4c6329ca"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A068-E120-MENORES-RECEPTACULO-E-NOVA-PENEIRA.md",
+    "sha256": "0740804f12dfa5c677f36dbc2156c8b8806f050e4e327a6db777cd3d545c4fad"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A069-E122-DUAS-MENORES-E-CONFERENCIA-DE-FECHAMENTO.md",
+    "sha256": "718d6807fbedba7e924b4988646d41c32c63ec78e0eb8c31904e728910e94463"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A070-E124-MEDO-E-FECHAMENTO-RECEPTACULO.md",
+    "sha256": "2229d9d32a31b32e0486213bc1c8232a2b2bdcc847894b756a2ca311fa665d12"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A071-E129-ENCARNADO-MARCANTE.md",
+    "sha256": "d80288aebe59dcd9daa6d6935e38415a8d06380548d563040a93b44059b2d7e5"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A072-E131-ENCARNADO-MENORES-QUATRO-CINCO.md",
+    "sha256": "1b28312ae87973d02f6657716452e329b45469b7c7ef3449396258d5a81e8985"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A073-E133-ENCARNADO-CONTORNO-E-AMPLIACAO.md",
+    "sha256": "8b27d40248afd371197d4f4de8a346668aa0b7b40642519b6d9d17e3cb9337f6"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A074-E136-ENCARNADO-VIVENCIA-E-ULTIMA-MENOR.md",
+    "sha256": "24b9ca7084bdf211bfa36f1e2bd53470b93d8fdd94991ab21c340101ef4c765c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A075-E138-ENCARNADO-EXPERIENCIA-PRESERVADA-E-POLIMENTO.md",
+    "sha256": "a537a17adfe626756e241f59d7cefa225bde7ecf610f2ca1248f9eed3987582c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A076-E139-ENCARNADO-FECHAMENTO.md",
+    "sha256": "033f38480e2347adf3fefe6a79851261cb3e1afc819cf3c472bedb716a240887"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A080-E156-KAMO-CONTINGENCIA.md",
+    "sha256": "766bac453aba2ecc663149a9eef524c35059f623b1ecc1111000b269963ddeab"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A081-E157-KAMO-ENSAIO.md",
+    "sha256": "12d12dc5bffff20a0f6a0639ae65170677fe96eab22e28d78cb5e6b8beea4585"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A082-E160-GOJO-EXECUCAO-RESERVADA.md",
+    "sha256": "053fa0e9ab02cf6505e47acbea1bc7d465db29d10f779086ed3c57dd3b410a53"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A083-E162-GOJO-ANTECIPACAO-ESTUDADA.md",
+    "sha256": "a6f6182c25a23e2a64d5c2a4cf52fdc9b7d38100333dce15df6842d7f0a5e983"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A085-E172-INUMAKI-MARCANTE.md",
+    "sha256": "0cb6965627f9b8646f4012f8fe18e014edca741ada1f8817f0688bded5579de8"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A086-E176-DESCENDENTE-PENEIRA-E-AJUSTES.md",
+    "sha256": "027939b39d1327635c81b3db22dd4923a1b6d989c760a09fa5e885b4c1f34a3c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A087-E178-DESCENDENTE-FECHAMENTO.md",
+    "sha256": "d3c412f409f0155e4fea6f487d4a7ca349754eb1b217d8e98e9283b6766b8820"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A088-E181-RESTRICAO-ARQUITETURA-E-EXEMPLOS.md",
+    "sha256": "f2b87ff9ea7c4850338461790831f7e57c999e80b19fa100fabd42691391a4a5"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A089-E183-REDE-REMOTA-E-NOVOS-CE4.md",
+    "sha256": "79e8a2a8dda646e1c497e9183cca8779c1aed391209b9cccca4e98eed9ff50c1"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A090-E185-SELECAO-QUATRO-CE4.md",
+    "sha256": "c534342ac3b22eb67249991633357e3df8cc0dd5be19345761aa19c73bb98b3c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A091-E187-E188-CRITERIO-CE4-E-SAIDA.md",
+    "sha256": "8ffac265d5ed11c7d31e317a01131cadb43505b5062e89c24c01cbe443d7d77e"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A092-E190-SAIDA-E-PESQUISA-PENALIDADES.md",
+    "sha256": "66b92cc728e95a4741a7d12327ed40e7e479b1e53b54fa1f50ba35a4770bf2a8"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A093-E193-E-DUAS-PENALIDADES.md",
+    "sha256": "4a593ede2b96351a30e854dce369366a7f0a9be4e7b7f732b0a70be67b3ffdc0"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A094-E200-DEFESA-ZERO-E-VIGOR.md",
+    "sha256": "5a9c181d6249b9b05fbf493179257a8f98c7ece0d05315ab8ae5214791c63adf"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A095-E201-FECHAMENTO-DAS-PENALIDADES.md",
+    "sha256": "3c1222e975313bcc270f1d89d8cf8fb6cbcbfc38f175549eaca5f578ed424017"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A096-E203-EXEMPLOS-ABERTOS-E-SEM-BLOQUEAR.md",
+    "sha256": "99c3ae3b1d7270a78c421d4beab0e9c47e546180b2285f3bf800ad5bef968305"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A097-E205-RESERVA-E-PENEIRA-DAS-MENORES.md",
+    "sha256": "5696dc8cd6b5c8cb76503fab06000d3a180da49e3619244fccd93fe23e8603ae"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A099-E209-POLIMENTO-E-CONTAGEM.md",
+    "sha256": "801c0ecdc3e72a4ef8e6e108b61ac6dabc6f8b5f3e10aa859a65e2a93ac8f9a1"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ANEXOS/APROVACAO-A100-E211-FECHAMENTO-OITO-MENORES.md",
+    "sha256": "079804ccd53bdfa8d276c431ed1297e1cc932748a9db11fe675c1a21f2132303"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md",
+    "sha256": "41fbe0182641bededbad0220ece2d95a0981a1c3fe0a7e65abbbaf07df1b3d1c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md",
+    "sha256": "83296dea7ffe1f1f72f92234ad3b368290f80768c7b0dc63adbd4727c5b6ea6a"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+    "sha256": "7060f9147d4b50fdadc08165b1aa17c517763133c85f554d20adefb433ffee82"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+    "sha256": "6d1c9985590fce57b121a38c87e86bce360b6b37a70b19a26ce3a39019a61a44"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+    "sha256": "d8436584a0202bccf643f6c692ea683294c2fd77efa3fea72ac18444f35ffe82"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+    "sha256": "9482e52d14862cd76619de1bc0a85bd7a61450771f11b520676611335fe66452"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md",
+    "sha256": "b69d5ce7be241964209435918df0647745b8f247f3e72d617ba627637dd15bc7"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MARCANTE-DUAS-VIDAS-APROVADA-v01.md",
+    "sha256": "9925da5dca1cb93616c9e5d3af9baf07775d5c0a2176898aeb303b2a1f8cb98d"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md",
+    "sha256": "714fe1de155eaeb9eb170534d1e9bd74d81ce5155da0648afca615b4dcfd63fe"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+    "sha256": "afa3bb90460616e58a40c8495cc4cb6798cf2502c51af3aff165c312b5b61d69"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "fcd7da300110a500f9211bee9b9251fea8c563511e89cf1286195f725a92a41e"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MARCANTE-REGENERACAO-ORGANICA-v04.md",
+    "sha256": "75481385b00836ff5bab92d4f89f826427bcf1325501ba1a6686e2ad54647230"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md",
+    "sha256": "20d29abffa05e5424e6f15aa905e7d7c28e8ccce0d9da16bf12dfafdab8224e3"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+    "sha256": "7f3b2a13ae5126be2e93e24b5bed7f9ad808e066250fe5f30cc7ecbaadd55aa2"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+    "sha256": "dc9f79961dddba2a1d829db6890b2c265bf4b1336cdd101647400618c3a11db5"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "6f51bd568e9dd5bfc4586303bed19df172d90a77ceb726dcdd0344d8ca4a1ee4"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "4d891d35247335be5bbfc0069c47eb7df7ec8ccc8af320537542abb2aaba0d61"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md",
+    "sha256": "b345c7dedb6ff1a868f1b6fdd514f1938d5be052ecc6924beabd76b128bb6b3c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+    "sha256": "e2832bfbea19d04f4cf4097098dc5d65b24ab5b74ec4605eaa8d0d7adce42be8"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-TENTATIVA-E-ERRO-v03.md",
+    "sha256": "719d77ceb09420fd1f02d99d345e73155398dc46f989e31358a24f4514bc9d41"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md",
+    "sha256": "b7196213cbe9c82e477c1352e50ac48e796f73331ee2811b3fa94ca9d4d3affb"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md",
+    "sha256": "5c2ef595cab25fd877a162e5923ce4176711e9cbea016c5430be4b8177f8a82f"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+    "sha256": "17dac37d52df1ff45c1c3604b5d3dd1640c9ce60ae993fae8a6cbede0689fa5d"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+    "sha256": "cebed5f087fdc4b88e921b48fc5953991fd40624ae9b2b5f589a8186def59a98"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md",
+    "sha256": "4a61ed1ce32c32dfc6816176296fa9cb72465643fad8abc4a1aa32ba2b357ada"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+    "sha256": "72138da461bb11af0a5bf2057988653ecabe17802fd3dc823998e5aba865ac8c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+    "sha256": "a23b6532daa54c1ad55771ab4640e2a2af32c81ccd15874ddb7977485ff35e0f"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+    "sha256": "4a186ebd0b1784fd2c9847fdc065a194ecc51aceee18acc5fdff0fc43cbd8bc0"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+    "sha256": "206fc17bfa3b8eed40a169d84d51bdc8598718df1becd2bfe152440fa6380938"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+    "sha256": "0a8d47f5cbfa792b4a504816674e850b6d56d97558961a31b07d12041d1811f4"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+    "sha256": "625b73766b1bce214ccdb123c21ab62f3d6648b96e5fed0993d77faa15206976"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md",
+    "sha256": "02c0d80a58c30a9e91841b363776872212508d6a92139e8c2c6c5d92f69e0bca"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+    "sha256": "4a3d7f29002aed3ed0e690699b152cc506b640926a49ef2a275ad319c6208dbb"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+    "sha256": "7645dda1cb1b97e5af8299196f34604bd159cfcda599121b878ed0623bb97c2b"
+  },
+  {
+    "arquivo": "fontes-de-decisao/CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "1478103718ebc57eb751ee4b68547493b4f68ca17b1ec4036a77826b5aa9d91c"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ENTREGA-PARA-O-LIVRO/01-INDICE-DAS-REGRAS-VIGENTES.md",
+    "sha256": "841c1b7a0b92265e2761d5e56519f89b34d7ee1a430076167af9ca489ca76967"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ENTREGA-PARA-O-LIVRO/03-PENDENCIAS-E-LIMITES-DA-ENTREGA.md",
+    "sha256": "a5ad6a635f96fd96ef7cb880448b73bc13109da565f55426425dc79d5591a55b"
+  },
+  {
+    "arquivo": "fontes-de-decisao/ENTREGA-PARA-O-LIVRO/04-PLANO-DE-TESTES-E-ACEITE.md",
+    "sha256": "26bff110c6ca65a9aa43e9b97651cd6453ea5d94067bff38f7e8920448b0960b"
+  }
+]

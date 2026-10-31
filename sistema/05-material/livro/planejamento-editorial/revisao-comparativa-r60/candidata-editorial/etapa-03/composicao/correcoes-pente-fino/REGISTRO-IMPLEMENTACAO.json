@@ -1,0 +1,32 @@
+[
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "b1920bda8778a045651e7dcd1dfb3a29a23ecd31f452c2d95637c52743b34945",
+    "sha256_depois": "7dd9922926ddaf38973ddea15c07417e22790302cb956c9104ec161743de02b8"
+  },
+  {
+    "arquivo": "ler_fontes.py",
+    "sha256_antes": "6262b866ca041258cc27d141dbc1eaeacdc2860d415865ee033b119c7e4028c3",
+    "sha256_depois": "b9525aaeaf1c1e8c31e44e4d2b80f2391a2d1f316b44516d78af587a12cbb31f"
+  },
+  {
+    "arquivo": "fluxo_continuo.py",
+    "sha256_antes": "64812e598b432630623cdcd5fa81177cb08369a35f6ba226a794b7e7eeef5aeb",
+    "sha256_depois": "da8e91ca6aebffabba85b6e6caad6636ab678567eabd1f832aa5c37fd01f19e8"
+  },
+  {
+    "arquivo": "revisao_r37.py",
+    "sha256_antes": null,
+    "sha256_depois": "9dc59a2a131e1d8f69a64009f15b433d88a681e4626f8e0eb9433086415cc532"
+  },
+  {
+    "arquivo": "revisao-de-hierarquia/CLASSIFICACAO.json",
+    "sha256_antes": "e630f3f085763a22c0f315fb74522a09d4f437c52daa2a2b9569cc099ced3570",
+    "sha256_depois": "6fb1ebd82bee8fa15601c3c863cc1daaa0b8de0ce9e340677eacdbfa2edd5584"
+  },
+  {
+    "arquivo": "DESTAQUES-CATALOGO.json",
+    "sha256_antes": "cfe7040a70a04769834c488fe1e79322cffcdae07625499771caf8ee55d81c2c",
+    "sha256_depois": "1627b4506280717c8a8f7d6a09918289597e289fd8dff240c20284aeb4bb2157"
+  }
+]

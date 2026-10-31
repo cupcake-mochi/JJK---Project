@@ -1,0 +1,75 @@
+{
+  "data": "2026-10-18",
+  "pedido": "Corrigir a distribuição após tabelas; integrar ao livro o protótipo Fundamento aprovado pelos leitores.",
+  "arquivos_preservados": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r52/LIVRO-COMPLETO.md": "c29d49befd671a1d654476b807a196548c0bc94ced134b2dfe6be5b556172ba8",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r52/output/pdf/Ciclo-Maldito-R52.pdf": "c04d86e11ac867d9dc60b398528cd0eac8626455ab5c125e6191a26b1e03e026",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/capitulo-para-avaliacao-v8/FUNDAMENTO-CAPITULO.md": "c93a591390760910ea6b464a16b34a5af851a52b4b859b031ba4c25a6c4ae992",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/capitulo-para-avaliacao-v8/output/pdf/FUNDAMENTO-REVISADO-v8.pdf": "339581604cc394884ef4858684875b5e0b7efd5f8e68a6667e36b6851bdd249c"
+  },
+  "etapas": [
+    {
+      "id": 1,
+      "acao": "Mapear o capítulo aprovado e as dependências no livro",
+      "estado": "concluída"
+    },
+    {
+      "id": 2,
+      "acao": "Integrar texto, exemplos, rotas, entidades e remissões com antes/depois",
+      "estado": "concluída"
+    },
+    {
+      "id": 3,
+      "acao": "Corrigir o fluxo após elementos largos e gerar a R53",
+      "estado": "concluída"
+    },
+    {
+      "id": 4,
+      "acao": "Validar conteúdo, regras, links e geometria; revisar páginas renderizadas",
+      "estado": "concluída"
+    },
+    {
+      "id": 5,
+      "acao": "Gerar variante vinho e pêssego e registrar as entregas",
+      "estado": "concluída"
+    }
+  ],
+  "decisao_forma_fluida": {
+    "autor": "somente a forma",
+    "esclarecimento": "Forma Fluida conserva as funções e a distribuição de pontos da ficha.",
+    "pergunta": "A função é escolhida na montagem, conforme explicado ao autor durante a integração."
+  },
+  "resultado": {
+    "revisao": "R53",
+    "paginas": 411,
+    "texto": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md",
+    "pdf": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53.pdf",
+    "noturno": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53-Noturno-Vinho-e-Pessego.pdf",
+    "sha256_pdf": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+    "alteracoes": 202,
+    "sha256_noturno": "5d9ab8468c25741b5de2b29ec8864decf917138f1b5a25e2a89a7500c002c35a"
+  },
+  "decisao_vida_temporaria": {
+    "autor": "Vida temporária individual deveria custar Leve.",
+    "implementacao": "Base Leve; conservar base única nas mesclas pelo maior custo; sem desconto ou devolução da base.",
+    "exemplos_recalculados": [
+      "Socorro durante a retirada",
+      "Placas de apoio",
+      "Tiras de resgate"
+    ]
+  },
+  "publicacao_vercel": {
+    "estado": "publicada e verificada",
+    "repositorio": "https://github.com/cupcake-mochi/JJK---PDF---RPG",
+    "branch": "main",
+    "commit": "3a810995e5211e2c21c90b02c8a5f43f67fa9d8a",
+    "implantacao": "https://vercel.com/mizuki-steam/ciclo-maldito/7NFyuyh8WGmsVkS67nQ84pUmR7ko",
+    "status_vercel": "Ready, Production, Current",
+    "claro": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+    "noturno": "https://ciclo-maldito.vercel.app/noturno",
+    "verificado_em": "2026-10-19T02:19:51.118861+00:00",
+    "verificacao": "Download integral de ambos os PDFs; SHA-256 idêntico aos arquivos revisados. Navegador confirma 411 páginas nas duas versões.",
+    "prova_visual": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/revisao-r53/publicacao-vercel/VERCEL-R53-PUBLICADA.png",
+    "autorizacao": "Pedido do autor de atualizar a base e publicar o PDF noturno ligado ao Git."
+  }
+}

@@ -1,0 +1,5722 @@
+{
+  "paginas": 367,
+  "sha256_pdf": "1523e5f8749f792dd4089f4e5d284e07695d2f5306d8fb2f44c931b090d2b19c",
+  "altura_util_pt": 674.6456692913387,
+  "metodo": "Branco abaixo do último elemento de texto/tabela em cada metade da área útil. Elementos de largura inteira contam nas duas metades. Inclui títulos/contextos; exclui capa, arte e modelos da soma de páginas de conteúdo. Para meio de capítulo, exclui primeira e última página após a capa de cada capítulo.",
+  "branco_equivalente": 41.55,
+  "branco_meio_capitulo": 29.49,
+  "paginas_acima_terco": [
+    {
+      "pagina": 5,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6561,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6757,
+      "blocos": [
+        "ab--ab-primeira-sessao"
+      ]
+    },
+    {
+      "pagina": 67,
+      "capitulo": 5,
+      "grupo": "Origem: Latente",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6852,
+      "branco_direita": 0.7282,
+      "branco_medio": 0.7067,
+      "blocos": [
+        "origens--latente-beneficios"
+      ]
+    },
+    {
+      "pagina": 74,
+      "capitulo": 5,
+      "grupo": "Sem Técnica",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6235,
+      "branco_direita": 0.6867,
+      "branco_medio": 0.6551,
+      "blocos": [
+        "origens--origem-sem-tecnica"
+      ]
+    },
+    {
+      "pagina": 78,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7913,
+      "branco_direita": 0.6526,
+      "branco_medio": 0.7219,
+      "blocos": [
+        "origens--corpo-inteiro-manutencao"
+      ]
+    },
+    {
+      "pagina": 103,
+      "capitulo": 6,
+      "grupo": "Vanguarda / Executor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4344,
+      "branco_direita": 0.4101,
+      "branco_medio": 0.4222,
+      "blocos": [
+        "vanguarda--van-executor",
+        "vanguarda--van-executor-avanco"
+      ]
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7121,
+      "branco_direita": 0.7062,
+      "branco_medio": 0.7092,
+      "blocos": [
+        "evocador--ev-turnos"
+      ]
+    },
+    {
+      "pagina": 149,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.3327,
+      "branco_direita": 0.4738,
+      "branco_medio": 0.4032,
+      "blocos": [
+        "incursor--inc-fluidez-avancada",
+        "incursor--inc-ritmo"
+      ]
+    },
+    {
+      "pagina": 154,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.654,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6746,
+      "blocos": [
+        "incursor--inc-brecha"
+      ]
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "grupo": "Caminhos e Trilhas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.55,
+      "branco_direita": 0.5206,
+      "branco_medio": 0.5353,
+      "blocos": [
+        "incursor--inc-redirecionar",
+        "incursor--inc-redirecionar-resolucao"
+      ]
+    },
+    {
+      "pagina": 281,
+      "capitulo": 13,
+      "grupo": "Invocações nas rotas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6656,
+      "branco_direita": 0.6484,
+      "branco_medio": 0.657,
+      "blocos": [
+        "rotas--rota-invocacoes"
+      ]
+    },
+    {
+      "pagina": 286,
+      "capitulo": 13,
+      "grupo": "Lapidação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4606,
+      "branco_direita": 0.5123,
+      "branco_medio": 0.4865,
+      "blocos": [
+        "rotas--rota-lapidacao"
+      ]
+    }
+  ],
+  "bordas_acima_terco": [
+    {
+      "pagina": 8,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.8168,
+      "branco_direita": 0.6757,
+      "branco_medio": 0.7462,
+      "blocos": [
+        "ab--ab-sociedade"
+      ]
+    },
+    {
+      "pagina": 41,
+      "capitulo": 3,
+      "grupo": "Consulta",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4516,
+      "branco_direita": 0.496,
+      "branco_medio": 0.4738,
+      "blocos": [
+        "indice"
+      ]
+    },
+    {
+      "pagina": 55,
+      "capitulo": 3,
+      "grupo": "Descansos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5109,
+      "branco_direita": 0.4047,
+      "branco_medio": 0.4578,
+      "blocos": [
+        "dano--usos"
+      ]
+    },
+    {
+      "pagina": 62,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6051,
+      "branco_direita": 0.4628,
+      "branco_medio": 0.534,
+      "blocos": [
+        "ab--ab-conferencia"
+      ]
+    },
+    {
+      "pagina": 165,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.668,
+      "branco_direita": 0.6935,
+      "branco_medio": 0.6807,
+      "blocos": [
+        "incursor--inc-perfeita"
+      ]
+    },
+    {
+      "pagina": 174,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.593,
+      "branco_direita": 0.5862,
+      "branco_medio": 0.5896,
+      "blocos": [
+        "pericias--reparos"
+      ]
+    },
+    {
+      "pagina": 215,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.502,
+      "branco_direita": 0.3721,
+      "branco_medio": 0.437,
+      "blocos": [
+        "progressao--prog-guilda",
+        "progressao--prog-patentes"
+      ]
+    },
+    {
+      "pagina": 239,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6395,
+      "branco_direita": 0.6757,
+      "branco_medio": 0.6576,
+      "blocos": [
+        "fundamento--ficha"
+      ]
+    },
+    {
+      "pagina": 260,
+      "capitulo": 11,
+      "grupo": "Talento Próprio",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6294,
+      "branco_direita": 0.6093,
+      "branco_medio": 0.6194,
+      "blocos": [
+        "catalogo--cat-passiva-propria"
+      ]
+    },
+    {
+      "pagina": 275,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3454,
+      "branco_direita": 0.3828,
+      "branco_medio": 0.3641,
+      "blocos": [
+        "rotas--rotas"
+      ]
+    },
+    {
+      "pagina": 292,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4972,
+      "branco_direita": 0.5663,
+      "branco_medio": 0.5318,
+      "blocos": [
+        "rotas--rota-propria"
+      ]
+    },
+    {
+      "pagina": 303,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.7329,
+      "branco_direita": 0.6742,
+      "branco_medio": 0.7035,
+      "blocos": [
+        "poderes--confronto"
+      ]
+    },
+    {
+      "pagina": 313,
+      "capitulo": 15,
+      "grupo": "Pactos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5864,
+      "branco_direita": 0.642,
+      "branco_medio": 0.6142,
+      "blocos": [
+        "ritual--pacto-restricao"
+      ]
+    },
+    {
+      "pagina": 351,
+      "capitulo": 17,
+      "grupo": "Exemplo: Talismã de vigia",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5218,
+      "branco_direita": 0.5784,
+      "branco_medio": 0.5501,
+      "blocos": [
+        "fabricacao--fab-exemplo"
+      ]
+    },
+    {
+      "pagina": 354,
+      "capitulo": 18,
+      "grupo": "Mestrar",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5275,
+      "branco_direita": 0.547,
+      "branco_medio": 0.5372,
+      "blocos": [
+        "consulta--consulta-conduzir"
+      ]
+    },
+    {
+      "pagina": 358,
+      "capitulo": 19,
+      "grupo": "Glossário",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4477,
+      "branco_direita": 0.4281,
+      "branco_medio": 0.4379,
+      "blocos": [
+        "consulta--consulta-glossario-5",
+        "consulta--consulta-glossario-6"
+      ]
+    },
+    {
+      "pagina": 361,
+      "capitulo": 20,
+      "grupo": "Consulta rápida",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6606,
+      "branco_direita": 0.6693,
+      "branco_medio": 0.6649,
+      "blocos": [
+        "consulta--consulta-ataques"
+      ]
+    }
+  ],
+  "alguma_coluna_acima_terco": [
+    {
+      "pagina": 5,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6561,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6757,
+      "blocos": [
+        "ab--ab-primeira-sessao"
+      ]
+    },
+    {
+      "pagina": 7,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.113,
+      "branco_direita": 0.3478,
+      "branco_medio": 0.2304,
+      "blocos": [
+        "ab--ab-mundo",
+        "ab--ab-sociedade"
+      ]
+    },
+    {
+      "pagina": 67,
+      "capitulo": 5,
+      "grupo": "Origem: Latente",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6852,
+      "branco_direita": 0.7282,
+      "branco_medio": 0.7067,
+      "blocos": [
+        "origens--latente-beneficios"
+      ]
+    },
+    {
+      "pagina": 74,
+      "capitulo": 5,
+      "grupo": "Sem Técnica",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6235,
+      "branco_direita": 0.6867,
+      "branco_medio": 0.6551,
+      "blocos": [
+        "origens--origem-sem-tecnica"
+      ]
+    },
+    {
+      "pagina": 77,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0312,
+      "branco_direita": 0.413,
+      "branco_medio": 0.2221,
+      "blocos": [
+        "origens--corpo-configuracoes",
+        "origens--corpo-ninhada-gemeos",
+        "origens--corpo-inteiro-manutencao"
+      ]
+    },
+    {
+      "pagina": 78,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7913,
+      "branco_direita": 0.6526,
+      "branco_medio": 0.7219,
+      "blocos": [
+        "origens--corpo-inteiro-manutencao"
+      ]
+    },
+    {
+      "pagina": 92,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1412,
+      "branco_direita": 0.3431,
+      "branco_medio": 0.2421,
+      "blocos": [
+        "vanguarda--van-base",
+        "vanguarda--van-sequencia"
+      ]
+    },
+    {
+      "pagina": 103,
+      "capitulo": 6,
+      "grupo": "Vanguarda / Executor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4344,
+      "branco_direita": 0.4101,
+      "branco_medio": 0.4222,
+      "blocos": [
+        "vanguarda--van-executor",
+        "vanguarda--van-executor-avanco"
+      ]
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7121,
+      "branco_direita": 0.7062,
+      "branco_medio": 0.7092,
+      "blocos": [
+        "evocador--ev-turnos"
+      ]
+    },
+    {
+      "pagina": 149,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.3327,
+      "branco_direita": 0.4738,
+      "branco_medio": 0.4032,
+      "blocos": [
+        "incursor--inc-fluidez-avancada",
+        "incursor--inc-ritmo"
+      ]
+    },
+    {
+      "pagina": 154,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.654,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6746,
+      "blocos": [
+        "incursor--inc-brecha"
+      ]
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "grupo": "Caminhos e Trilhas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.55,
+      "branco_direita": 0.5206,
+      "branco_medio": 0.5353,
+      "blocos": [
+        "incursor--inc-redirecionar",
+        "incursor--inc-redirecionar-resolucao"
+      ]
+    },
+    {
+      "pagina": 281,
+      "capitulo": 13,
+      "grupo": "Invocações nas rotas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6656,
+      "branco_direita": 0.6484,
+      "branco_medio": 0.657,
+      "blocos": [
+        "rotas--rota-invocacoes"
+      ]
+    },
+    {
+      "pagina": 286,
+      "capitulo": 13,
+      "grupo": "Lapidação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4606,
+      "branco_direita": 0.5123,
+      "branco_medio": 0.4865,
+      "blocos": [
+        "rotas--rota-lapidacao"
+      ]
+    }
+  ],
+  "todas": [
+    {
+      "pagina": 1,
+      "capitulo": 0,
+      "grupo": "Sumário",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 2,
+      "capitulo": 0,
+      "grupo": "Sumário",
+      "tipo": "toc",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3952,
+      "branco_direita": 0.244,
+      "branco_medio": 0.3196,
+      "blocos": []
+    },
+    {
+      "pagina": 3,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 4,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0988,
+      "branco_direita": 0.1433,
+      "branco_medio": 0.121,
+      "blocos": [
+        "ab--ab-apresentacao",
+        "ab--ab-primeira-sessao"
+      ]
+    },
+    {
+      "pagina": 5,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6561,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6757,
+      "blocos": [
+        "ab--ab-primeira-sessao"
+      ]
+    },
+    {
+      "pagina": 6,
+      "capitulo": 1,
+      "grupo": "Mundo jujutsu",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8506,
+      "branco_direita": 0.8506,
+      "branco_medio": 0.8506,
+      "blocos": [
+        "ab--ab-mundo"
+      ]
+    },
+    {
+      "pagina": 7,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.113,
+      "branco_direita": 0.3478,
+      "branco_medio": 0.2304,
+      "blocos": [
+        "ab--ab-mundo",
+        "ab--ab-sociedade"
+      ]
+    },
+    {
+      "pagina": 8,
+      "capitulo": 1,
+      "grupo": "Ciclo Maldito",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.8168,
+      "branco_direita": 0.6757,
+      "branco_medio": 0.7462,
+      "blocos": [
+        "ab--ab-sociedade"
+      ]
+    },
+    {
+      "pagina": 9,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 10,
+      "capitulo": 2,
+      "grupo": "Consulta",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1581,
+      "branco_direita": 0.1492,
+      "branco_medio": 0.1536,
+      "blocos": [
+        "indice"
+      ]
+    },
+    {
+      "pagina": 11,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0063,
+      "branco_direita": 0.0637,
+      "branco_medio": 0.035,
+      "blocos": [
+        "geral--atributos",
+        "geral--testes"
+      ]
+    },
+    {
+      "pagina": 12,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1178,
+      "branco_direita": 0.1213,
+      "branco_medio": 0.1195,
+      "blocos": [
+        "geral--testes",
+        "geral--pericias"
+      ]
+    },
+    {
+      "pagina": 13,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.108,
+      "branco_direita": 0.0688,
+      "branco_medio": 0.0884,
+      "blocos": [
+        "geral--pericias",
+        "geral--resistencia"
+      ]
+    },
+    {
+      "pagina": 14,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0251,
+      "branco_direita": 0.0727,
+      "branco_medio": 0.0489,
+      "blocos": [
+        "geral--resistencia",
+        "geral--turnos",
+        "geral--acoes"
+      ]
+    },
+    {
+      "pagina": 15,
+      "capitulo": 2,
+      "grupo": "Turnos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.105,
+      "branco_direita": 0.1504,
+      "branco_medio": 0.1277,
+      "blocos": [
+        "geral--acoes",
+        "geral--ajudar"
+      ]
+    },
+    {
+      "pagina": 16,
+      "capitulo": 2,
+      "grupo": "Turnos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0353,
+      "branco_direita": 0.0407,
+      "branco_medio": 0.038,
+      "blocos": [
+        "geral--ajudar",
+        "geral--interacao",
+        "geral--preparar"
+      ]
+    },
+    {
+      "pagina": 17,
+      "capitulo": 2,
+      "grupo": "Turnos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0235,
+      "branco_direita": 0.1035,
+      "branco_medio": 0.0635,
+      "blocos": [
+        "geral--preparar",
+        "geral--oportunidade"
+      ]
+    },
+    {
+      "pagina": 18,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.092,
+      "branco_direita": 0.046,
+      "branco_medio": 0.069,
+      "blocos": [
+        "geral--oportunidade",
+        "geral--concentracao",
+        "geral--ataques"
+      ]
+    },
+    {
+      "pagina": 19,
+      "capitulo": 2,
+      "grupo": "Ataques",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.022,
+      "branco_direita": 0.0484,
+      "branco_medio": 0.0352,
+      "blocos": [
+        "geral--ataques",
+        "geral--alcance"
+      ]
+    },
+    {
+      "pagina": 20,
+      "capitulo": 2,
+      "grupo": "Ataques",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0623,
+      "branco_direita": 0.0128,
+      "branco_medio": 0.0376,
+      "blocos": [
+        "geral--alcance",
+        "geral--critico",
+        "geral--defesa"
+      ]
+    },
+    {
+      "pagina": 21,
+      "capitulo": 2,
+      "grupo": "Ataques",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0321,
+      "branco_direita": 0.0321,
+      "branco_medio": 0.0321,
+      "blocos": [
+        "geral--defesa"
+      ]
+    },
+    {
+      "pagina": 22,
+      "capitulo": 2,
+      "grupo": "Ataques",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0511,
+      "branco_direita": 0.0099,
+      "branco_medio": 0.0305,
+      "blocos": [
+        "geral--defesa",
+        "geral--bloquear",
+        "geral--aparar"
+      ]
+    },
+    {
+      "pagina": 23,
+      "capitulo": 2,
+      "grupo": "Ataques",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.065,
+      "branco_direita": 0.0472,
+      "branco_medio": 0.0561,
+      "blocos": [
+        "geral--aparar",
+        "geral--manobras"
+      ]
+    },
+    {
+      "pagina": 24,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1243,
+      "branco_direita": 0.1023,
+      "branco_medio": 0.1133,
+      "blocos": [
+        "geral--manobras",
+        "geral--contencoes",
+        "geral--movimento"
+      ]
+    },
+    {
+      "pagina": 25,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0417,
+      "branco_direita": 0.0417,
+      "branco_medio": 0.0417,
+      "blocos": [
+        "geral--movimento"
+      ]
+    },
+    {
+      "pagina": 26,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1111,
+      "branco_direita": 0.0549,
+      "branco_medio": 0.083,
+      "blocos": [
+        "geral--espacos",
+        "geral--distancias"
+      ]
+    },
+    {
+      "pagina": 27,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0376,
+      "branco_direita": 0.2028,
+      "branco_medio": 0.1202,
+      "blocos": [
+        "geral--distancias",
+        "geral--saltos"
+      ]
+    },
+    {
+      "pagina": 28,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0358,
+      "branco_direita": 0.1059,
+      "branco_medio": 0.0708,
+      "blocos": [
+        "geral--saltos",
+        "geral--quedas",
+        "geral--queda-criatura"
+      ]
+    },
+    {
+      "pagina": 29,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0045,
+      "branco_direita": 0.0269,
+      "branco_medio": 0.0157,
+      "blocos": [
+        "geral--queda-criatura",
+        "geral--rastejar"
+      ]
+    },
+    {
+      "pagina": 30,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0831,
+      "branco_direita": 0.0549,
+      "branco_medio": 0.069,
+      "blocos": [
+        "geral--rastejar",
+        "geral--voo",
+        "geral--carga"
+      ]
+    },
+    {
+      "pagina": 31,
+      "capitulo": 2,
+      "grupo": "Movimento e terreno",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0946,
+      "branco_direita": 0.0688,
+      "branco_medio": 0.0817,
+      "blocos": [
+        "geral--carga",
+        "geral--arrasto"
+      ]
+    },
+    {
+      "pagina": 32,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0217,
+      "branco_direita": 0.0069,
+      "branco_medio": 0.0143,
+      "blocos": [
+        "geral--arrasto",
+        "geral--montaria",
+        "geral--perceber"
+      ]
+    },
+    {
+      "pagina": 33,
+      "capitulo": 2,
+      "grupo": "Percepção e visibilidade",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0909,
+      "branco_direita": 0.0911,
+      "branco_medio": 0.091,
+      "blocos": [
+        "geral--perceber",
+        "geral--esconder"
+      ]
+    },
+    {
+      "pagina": 34,
+      "capitulo": 2,
+      "grupo": "Percepção e visibilidade",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1012,
+      "branco_direita": 0.0336,
+      "branco_medio": 0.0674,
+      "blocos": [
+        "geral--esconder",
+        "geral--procurar"
+      ]
+    },
+    {
+      "pagina": 35,
+      "capitulo": 2,
+      "grupo": "Percepção e visibilidade",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0158,
+      "branco_direita": 0.1278,
+      "branco_medio": 0.0718,
+      "blocos": [
+        "geral--procurar",
+        "geral--ocultacao-ataque",
+        "geral--estudar"
+      ]
+    },
+    {
+      "pagina": 36,
+      "capitulo": 2,
+      "grupo": "Regras gerais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0819,
+      "branco_direita": 0.1373,
+      "branco_medio": 0.1096,
+      "blocos": [
+        "geral--estudar",
+        "geral--mundo"
+      ]
+    },
+    {
+      "pagina": 37,
+      "capitulo": 2,
+      "grupo": "Percepção de energia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1308,
+      "branco_direita": 0.0075,
+      "branco_medio": 0.0691,
+      "blocos": [
+        "geral--mundo",
+        "geral--buscar"
+      ]
+    },
+    {
+      "pagina": 38,
+      "capitulo": 2,
+      "grupo": "Percepção de energia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1519,
+      "branco_direita": 0.0721,
+      "branco_medio": 0.112,
+      "blocos": [
+        "geral--pressao",
+        "geral--ler"
+      ]
+    },
+    {
+      "pagina": 39,
+      "capitulo": 2,
+      "grupo": "Percepção de energia",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.167,
+      "branco_direita": 0.1753,
+      "branco_medio": 0.1711,
+      "blocos": [
+        "geral--ler",
+        "geral--energia-exemplo"
+      ]
+    },
+    {
+      "pagina": 40,
+      "capitulo": 3,
+      "grupo": "Dano e recuperação",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 41,
+      "capitulo": 3,
+      "grupo": "Consulta",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4516,
+      "branco_direita": 0.496,
+      "branco_medio": 0.4738,
+      "blocos": [
+        "indice"
+      ]
+    },
+    {
+      "pagina": 42,
+      "capitulo": 3,
+      "grupo": "Dano",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0294,
+      "branco_direita": 0.204,
+      "branco_medio": 0.1167,
+      "blocos": [
+        "dano--dano",
+        "dano--tipos"
+      ]
+    },
+    {
+      "pagina": 43,
+      "capitulo": 3,
+      "grupo": "Dano",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1536,
+      "branco_direita": 0.0309,
+      "branco_medio": 0.0923,
+      "blocos": [
+        "dano--tipos",
+        "dano--reducao"
+      ]
+    },
+    {
+      "pagina": 44,
+      "capitulo": 3,
+      "grupo": "Dano",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0961,
+      "branco_direita": 0.0847,
+      "branco_medio": 0.0904,
+      "blocos": [
+        "dano--reducao",
+        "dano--alma",
+        "dano--integridade"
+      ]
+    },
+    {
+      "pagina": 45,
+      "capitulo": 3,
+      "grupo": "Dano e recuperação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1243,
+      "branco_direita": 0.0746,
+      "branco_medio": 0.0995,
+      "blocos": [
+        "dano--integridade",
+        "dano--condicoes"
+      ]
+    },
+    {
+      "pagina": 46,
+      "capitulo": 3,
+      "grupo": "Condições",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0638,
+      "branco_direita": 0.0152,
+      "branco_medio": 0.0395,
+      "blocos": [
+        "dano--leves",
+        "dano--medias"
+      ]
+    },
+    {
+      "pagina": 47,
+      "capitulo": 3,
+      "grupo": "Condições",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0786,
+      "branco_direita": 0.0579,
+      "branco_medio": 0.0683,
+      "blocos": [
+        "dano--medias",
+        "dano--pesadas"
+      ]
+    },
+    {
+      "pagina": 48,
+      "capitulo": 3,
+      "grupo": "Dano e recuperação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0605,
+      "branco_direita": 0.1149,
+      "branco_medio": 0.0877,
+      "blocos": [
+        "dano--pesadas",
+        "dano--cura",
+        "dano--temporarios"
+      ]
+    },
+    {
+      "pagina": 49,
+      "capitulo": 3,
+      "grupo": "Dano e recuperação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1358,
+      "branco_direita": 0.0439,
+      "branco_medio": 0.0899,
+      "blocos": [
+        "dano--temporarios",
+        "dano--zero"
+      ]
+    },
+    {
+      "pagina": 50,
+      "capitulo": 3,
+      "grupo": "Vida a zero",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1324,
+      "branco_direita": 0.0748,
+      "branco_medio": 0.1036,
+      "blocos": [
+        "dano--zero",
+        "dano--insistir"
+      ]
+    },
+    {
+      "pagina": 51,
+      "capitulo": 3,
+      "grupo": "Vida a zero",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0069,
+      "branco_direita": 0.1089,
+      "branco_medio": 0.0579,
+      "blocos": [
+        "dano--socorro",
+        "dano--sequelas"
+      ]
+    },
+    {
+      "pagina": 52,
+      "capitulo": 3,
+      "grupo": "Vida a zero",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1332,
+      "branco_direita": 0.0045,
+      "branco_medio": 0.0688,
+      "blocos": [
+        "dano--sequelas",
+        "dano--derrota",
+        "dano--inconsciente"
+      ]
+    },
+    {
+      "pagina": 53,
+      "capitulo": 3,
+      "grupo": "Dano e recuperação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1184,
+      "branco_direita": 0.011,
+      "branco_medio": 0.0647,
+      "blocos": [
+        "dano--inconsciente",
+        "dano--descansos"
+      ]
+    },
+    {
+      "pagina": 54,
+      "capitulo": 3,
+      "grupo": "Descansos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1081,
+      "branco_direita": 0.0401,
+      "branco_medio": 0.0741,
+      "blocos": [
+        "dano--descansos",
+        "dano--exaustao",
+        "dano--usos"
+      ]
+    },
+    {
+      "pagina": 55,
+      "capitulo": 3,
+      "grupo": "Descansos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5109,
+      "branco_direita": 0.4047,
+      "branco_medio": 0.4578,
+      "blocos": [
+        "dano--usos"
+      ]
+    },
+    {
+      "pagina": 56,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 57,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0594,
+      "branco_direita": 0.0857,
+      "branco_medio": 0.0726,
+      "blocos": [
+        "ab--ab-criacao",
+        "ab--ab-origem"
+      ]
+    },
+    {
+      "pagina": 58,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.066,
+      "branco_direita": 0.0343,
+      "branco_medio": 0.0502,
+      "blocos": [
+        "ab--ab-origem",
+        "ab--ab-caminho",
+        "ab--ab-capacidades"
+      ]
+    },
+    {
+      "pagina": 59,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0863,
+      "branco_direita": 0.1118,
+      "branco_medio": 0.0991,
+      "blocos": [
+        "ab--ab-capacidades",
+        "ab--ab-equipamento"
+      ]
+    },
+    {
+      "pagina": 60,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0691,
+      "branco_direita": 0.0211,
+      "branco_medio": 0.0451,
+      "blocos": [
+        "ab--ab-equipamento",
+        "ab--ab-kaori",
+        "ab--ab-resgate"
+      ]
+    },
+    {
+      "pagina": 61,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.054,
+      "branco_direita": 0.0333,
+      "branco_medio": 0.0436,
+      "blocos": [
+        "ab--ab-resgate",
+        "ab--ab-combate",
+        "ab--ab-conferencia"
+      ]
+    },
+    {
+      "pagina": 62,
+      "capitulo": 4,
+      "grupo": "Criar um personagem",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6051,
+      "branco_direita": 0.4628,
+      "branco_medio": 0.534,
+      "blocos": [
+        "ab--ab-conferencia"
+      ]
+    },
+    {
+      "pagina": 63,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 64,
+      "capitulo": 5,
+      "grupo": "Origens",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1221,
+      "branco_direita": 0.1221,
+      "branco_medio": 0.1221,
+      "blocos": [
+        "origens--origens"
+      ]
+    },
+    {
+      "pagina": 65,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1043,
+      "branco_direita": 0.1357,
+      "branco_medio": 0.12,
+      "blocos": [
+        "origens--origem-escolhas",
+        "origens--legados"
+      ]
+    },
+    {
+      "pagina": 66,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0543,
+      "branco_direita": 0.2784,
+      "branco_medio": 0.1664,
+      "blocos": [
+        "origens--legados",
+        "origens--origem-latente",
+        "origens--latente-beneficios"
+      ]
+    },
+    {
+      "pagina": 67,
+      "capitulo": 5,
+      "grupo": "Origem: Latente",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6852,
+      "branco_direita": 0.7282,
+      "branco_medio": 0.7067,
+      "blocos": [
+        "origens--latente-beneficios"
+      ]
+    },
+    {
+      "pagina": 68,
+      "capitulo": 5,
+      "grupo": "Receptáculo",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.3055,
+      "branco_direita": 0.3055,
+      "branco_medio": 0.3055,
+      "blocos": [
+        "origens--origem-receptaculo"
+      ]
+    },
+    {
+      "pagina": 69,
+      "capitulo": 5,
+      "grupo": "Origem: Receptáculo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0413,
+      "branco_direita": 0.0952,
+      "branco_medio": 0.0683,
+      "blocos": [
+        "origens--receptaculo-acordos",
+        "origens--receptaculo-excecoes"
+      ]
+    },
+    {
+      "pagina": 70,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0359,
+      "branco_direita": 0.0324,
+      "branco_medio": 0.0342,
+      "blocos": [
+        "origens--origem-descendente",
+        "origens--descendente-beneficios"
+      ]
+    },
+    {
+      "pagina": 71,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1593,
+      "branco_direita": 0.0128,
+      "branco_medio": 0.086,
+      "blocos": [
+        "origens--origem-encarnado",
+        "origens--encarnado-beneficios"
+      ]
+    },
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "grupo": "Feto",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6431,
+      "branco_direita": 0.6431,
+      "branco_medio": 0.6431,
+      "blocos": [
+        "origens--origem-feto"
+      ]
+    },
+    {
+      "pagina": 73,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1106,
+      "branco_direita": 0.2784,
+      "branco_medio": 0.1945,
+      "blocos": [
+        "origens--origem-feto",
+        "origens--feto-beneficios",
+        "origens--origem-sem-tecnica"
+      ]
+    },
+    {
+      "pagina": 74,
+      "capitulo": 5,
+      "grupo": "Sem Técnica",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6235,
+      "branco_direita": 0.6867,
+      "branco_medio": 0.6551,
+      "blocos": [
+        "origens--origem-sem-tecnica"
+      ]
+    },
+    {
+      "pagina": 75,
+      "capitulo": 5,
+      "grupo": "Corpo Amaldiçoado",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.109,
+      "branco_direita": 0.109,
+      "branco_medio": 0.109,
+      "blocos": [
+        "origens--origem-corpo"
+      ]
+    },
+    {
+      "pagina": 76,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0411,
+      "branco_direita": 0.2595,
+      "branco_medio": 0.1503,
+      "blocos": [
+        "origens--origem-reparo",
+        "origens--corpo-configuracoes"
+      ]
+    },
+    {
+      "pagina": 77,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0312,
+      "branco_direita": 0.413,
+      "branco_medio": 0.2221,
+      "blocos": [
+        "origens--corpo-configuracoes",
+        "origens--corpo-ninhada-gemeos",
+        "origens--corpo-inteiro-manutencao"
+      ]
+    },
+    {
+      "pagina": 78,
+      "capitulo": 5,
+      "grupo": "Origem: Corpo Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7913,
+      "branco_direita": 0.6526,
+      "branco_medio": 0.7219,
+      "blocos": [
+        "origens--corpo-inteiro-manutencao"
+      ]
+    },
+    {
+      "pagina": 79,
+      "capitulo": 5,
+      "grupo": "Restrição Celestial",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2252,
+      "branco_direita": 0.2252,
+      "branco_medio": 0.2252,
+      "blocos": [
+        "origens--origem-restricao"
+      ]
+    },
+    {
+      "pagina": 80,
+      "capitulo": 5,
+      "grupo": "Origem: Restrição Celestial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0294,
+      "branco_direita": 0.084,
+      "branco_medio": 0.0567,
+      "blocos": [
+        "origens--restricao-corpo",
+        "origens--restricao-sem-energia"
+      ]
+    },
+    {
+      "pagina": 81,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1,
+      "branco_direita": 0.1065,
+      "branco_medio": 0.1032,
+      "blocos": [
+        "origens--restricao-beneficios",
+        "origens--legado-criar"
+      ]
+    },
+    {
+      "pagina": 82,
+      "capitulo": 5,
+      "grupo": "Origens e Legados",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3392,
+      "branco_direita": 0.2918,
+      "branco_medio": 0.3155,
+      "blocos": [
+        "origens--legado-criar",
+        "origens--legados-exemplos"
+      ]
+    },
+    {
+      "pagina": 83,
+      "capitulo": 6,
+      "grupo": "Caminhos e Trilhas",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 84,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.799,
+      "branco_direita": 0.799,
+      "branco_medio": 0.799,
+      "blocos": [
+        "bastiao--bas-bastiao"
+      ]
+    },
+    {
+      "pagina": 85,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0405,
+      "branco_direita": 0.1136,
+      "branco_medio": 0.0771,
+      "blocos": [
+        "bastiao--bas-bastiao",
+        "bastiao--bas-olhos"
+      ]
+    },
+    {
+      "pagina": 86,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0407,
+      "branco_direita": 0.164,
+      "branco_medio": 0.1023,
+      "blocos": [
+        "bastiao--bas-olhos",
+        "bastiao--bas-defesa",
+        "bastiao--bas-aliados"
+      ]
+    },
+    {
+      "pagina": 87,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0402,
+      "branco_direita": 0.1296,
+      "branco_medio": 0.0849,
+      "blocos": [
+        "bastiao--bas-aliados",
+        "bastiao--bas-muro",
+        "bastiao--bas-casca"
+      ]
+    },
+    {
+      "pagina": 88,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0281,
+      "branco_direita": 0.0966,
+      "branco_medio": 0.0623,
+      "blocos": [
+        "bastiao--bas-casca",
+        "bastiao--bas-punho",
+        "bastiao--bas-mao"
+      ]
+    },
+    {
+      "pagina": 89,
+      "capitulo": 6,
+      "grupo": "Bastião",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0137,
+      "branco_direita": 0.0582,
+      "branco_medio": 0.0359,
+      "blocos": [
+        "bastiao--bas-mao",
+        "bastiao--bas-arrastao",
+        "bastiao--bas-combatente"
+      ]
+    },
+    {
+      "pagina": 90,
+      "capitulo": 6,
+      "grupo": "Bastião / Combatente Amaldiçoado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0994,
+      "branco_direita": 0.1106,
+      "branco_medio": 0.105,
+      "blocos": [
+        "bastiao--bas-combatente",
+        "bastiao--bas-oportunista"
+      ]
+    },
+    {
+      "pagina": 91,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8897,
+      "branco_direita": 0.8897,
+      "branco_medio": 0.8897,
+      "blocos": [
+        "vanguarda--van-base"
+      ]
+    },
+    {
+      "pagina": 92,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1412,
+      "branco_direita": 0.3431,
+      "branco_medio": 0.2421,
+      "blocos": [
+        "vanguarda--van-base",
+        "vanguarda--van-sequencia"
+      ]
+    },
+    {
+      "pagina": 93,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1478,
+      "branco_direita": 0.0299,
+      "branco_medio": 0.0889,
+      "blocos": [
+        "vanguarda--van-sequencia",
+        "vanguarda--van-conducoes",
+        "vanguarda--van-conclusoes"
+      ]
+    },
+    {
+      "pagina": 94,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0531,
+      "branco_direita": 0.0082,
+      "branco_medio": 0.0307,
+      "blocos": [
+        "vanguarda--van-conclusoes",
+        "vanguarda--van-escola",
+        "vanguarda--van-avanco"
+      ]
+    },
+    {
+      "pagina": 95,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0171,
+      "branco_direita": 0.1538,
+      "branco_medio": 0.0854,
+      "blocos": [
+        "vanguarda--van-avanco",
+        "vanguarda--van-estocada",
+        "vanguarda--van-feiticos"
+      ]
+    },
+    {
+      "pagina": 96,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0709,
+      "branco_direita": 0.014,
+      "branco_medio": 0.0425,
+      "blocos": [
+        "vanguarda--van-feiticos",
+        "vanguarda--van-bote",
+        "vanguarda--van-yumi"
+      ]
+    },
+    {
+      "pagina": 97,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1594,
+      "branco_direita": 0.0964,
+      "branco_medio": 0.1279,
+      "blocos": [
+        "vanguarda--van-yumi",
+        "vanguarda--van-yumi-conducoes"
+      ]
+    },
+    {
+      "pagina": 98,
+      "capitulo": 6,
+      "grupo": "Vanguarda / Batedor: Yumi",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1006,
+      "branco_direita": 0.1041,
+      "branco_medio": 0.1023,
+      "blocos": [
+        "vanguarda--van-yumi-conducoes",
+        "vanguarda--van-yumi-avanco"
+      ]
+    },
+    {
+      "pagina": 99,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0644,
+      "branco_direita": 0.0033,
+      "branco_medio": 0.0339,
+      "blocos": [
+        "vanguarda--van-yumi-avanco",
+        "vanguarda--van-besta",
+        "vanguarda--van-besta-conclusoes"
+      ]
+    },
+    {
+      "pagina": 100,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0187,
+      "branco_direita": 0.1112,
+      "branco_medio": 0.065,
+      "blocos": [
+        "vanguarda--van-besta-conclusoes",
+        "vanguarda--van-besta-avanco",
+        "vanguarda--van-fogo"
+      ]
+    },
+    {
+      "pagina": 101,
+      "capitulo": 6,
+      "grupo": "Vanguarda / Batedor: Arma de Fogo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0662,
+      "branco_direita": 0.0134,
+      "branco_medio": 0.0398,
+      "blocos": [
+        "vanguarda--van-fogo",
+        "vanguarda--van-fogo-conclusoes",
+        "vanguarda--van-fogo-avanco"
+      ]
+    },
+    {
+      "pagina": 102,
+      "capitulo": 6,
+      "grupo": "Vanguarda",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0844,
+      "branco_direita": 0.0039,
+      "branco_medio": 0.0442,
+      "blocos": [
+        "vanguarda--van-fogo-avanco",
+        "vanguarda--van-executor"
+      ]
+    },
+    {
+      "pagina": 103,
+      "capitulo": 6,
+      "grupo": "Vanguarda / Executor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4344,
+      "branco_direita": 0.4101,
+      "branco_medio": 0.4222,
+      "blocos": [
+        "vanguarda--van-executor",
+        "vanguarda--van-executor-avanco"
+      ]
+    },
+    {
+      "pagina": 104,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8702,
+      "branco_direita": 0.8702,
+      "branco_medio": 0.8702,
+      "blocos": [
+        "guia--guia"
+      ]
+    },
+    {
+      "pagina": 105,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1886,
+      "branco_direita": 0.0894,
+      "branco_medio": 0.139,
+      "blocos": [
+        "guia--guia",
+        "guia--guia-progressao"
+      ]
+    },
+    {
+      "pagina": 106,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0685,
+      "branco_direita": 0.0875,
+      "branco_medio": 0.078,
+      "blocos": [
+        "guia--guia-aberturas",
+        "guia--guia-resposta"
+      ]
+    },
+    {
+      "pagina": 107,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0407,
+      "branco_direita": 0.1261,
+      "branco_medio": 0.0834,
+      "blocos": [
+        "guia--guia-resposta",
+        "guia--guia-planos",
+        "guia--guia-plano-conjunto"
+      ]
+    },
+    {
+      "pagina": 108,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0597,
+      "branco_direita": 0.1222,
+      "branco_medio": 0.0909,
+      "blocos": [
+        "guia--guia-plano-conjunto",
+        "guia--guia-arquiteto",
+        "guia--guia-modelos"
+      ]
+    },
+    {
+      "pagina": 109,
+      "capitulo": 6,
+      "grupo": "Guia / Arquiteto",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.077,
+      "branco_direita": 0.077,
+      "branco_medio": 0.077,
+      "blocos": [
+        "guia--guia-modelos",
+        "guia--guia-obra-uso",
+        "guia--guia-obras-maiores"
+      ]
+    },
+    {
+      "pagina": 110,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1041,
+      "branco_direita": 0.1213,
+      "branco_medio": 0.1127,
+      "blocos": [
+        "guia--guia-obras-maiores",
+        "guia--guia-emergencia",
+        "guia--guia-analista"
+      ]
+    },
+    {
+      "pagina": 111,
+      "capitulo": 6,
+      "grupo": "Guia / Analista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0723,
+      "branco_direita": 0.0093,
+      "branco_medio": 0.0408,
+      "blocos": [
+        "guia--guia-analista",
+        "guia--guia-brecha",
+        "guia--guia-padrao"
+      ]
+    },
+    {
+      "pagina": 112,
+      "capitulo": 6,
+      "grupo": "Guia",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0371,
+      "branco_direita": 0.1283,
+      "branco_medio": 0.0827,
+      "blocos": [
+        "guia--guia-padrao",
+        "guia--guia-socorrista",
+        "guia--guia-tratamento"
+      ]
+    },
+    {
+      "pagina": 113,
+      "capitulo": 6,
+      "grupo": "Guia / Socorrista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1585,
+      "branco_direita": 0.1474,
+      "branco_medio": 0.153,
+      "blocos": [
+        "guia--guia-tratamento",
+        "guia--guia-emergencia-cuidado"
+      ]
+    },
+    {
+      "pagina": 114,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8506,
+      "branco_direita": 0.8506,
+      "branco_medio": 0.8506,
+      "blocos": [
+        "emanador--ema-base"
+      ]
+    },
+    {
+      "pagina": 115,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0687,
+      "branco_direita": 0.0567,
+      "branco_medio": 0.0627,
+      "blocos": [
+        "emanador--ema-base",
+        "emanador--ema-desdobramento"
+      ]
+    },
+    {
+      "pagina": 116,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0768,
+      "branco_direita": 0.0476,
+      "branco_medio": 0.0622,
+      "blocos": [
+        "emanador--ema-desdobramento",
+        "emanador--ema-remodelar",
+        "emanador--ema-modulacoes"
+      ]
+    },
+    {
+      "pagina": 117,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0742,
+      "branco_direita": 0.0589,
+      "branco_medio": 0.0665,
+      "blocos": [
+        "emanador--ema-modulacoes",
+        "emanador--ema-familiares",
+        "emanador--ema-forma"
+      ]
+    },
+    {
+      "pagina": 118,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.046,
+      "branco_direita": 0.053,
+      "branco_medio": 0.0495,
+      "blocos": [
+        "emanador--ema-forma",
+        "emanador--ema-instintiva",
+        "emanador--ema-condutor"
+      ]
+    },
+    {
+      "pagina": 119,
+      "capitulo": 6,
+      "grupo": "Emanador / Condutor Armado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.064,
+      "branco_direita": 0.094,
+      "branco_medio": 0.079,
+      "blocos": [
+        "emanador--ema-condutor",
+        "emanador--ema-artes",
+        "emanador--ema-propriedades"
+      ]
+    },
+    {
+      "pagina": 120,
+      "capitulo": 6,
+      "grupo": "Emanador / Condutor Armado",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1195,
+      "branco_direita": 0.1136,
+      "branco_medio": 0.1166,
+      "blocos": [
+        "emanador--ema-propriedades",
+        "emanador--ema-propriedades-apoio"
+      ]
+    },
+    {
+      "pagina": 121,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0392,
+      "branco_direita": 0.128,
+      "branco_medio": 0.0836,
+      "blocos": [
+        "emanador--ema-propriedades-apoio",
+        "emanador--ema-manifestacao",
+        "emanador--ema-eco"
+      ]
+    },
+    {
+      "pagina": 122,
+      "capitulo": 6,
+      "grupo": "Emanador / Ressonante",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.089,
+      "branco_direita": 0.0508,
+      "branco_medio": 0.0699,
+      "blocos": [
+        "emanador--ema-eco",
+        "emanador--ema-repetir",
+        "emanador--ema-contraponto"
+      ]
+    },
+    {
+      "pagina": 123,
+      "capitulo": 6,
+      "grupo": "Emanador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0348,
+      "branco_direita": 0.026,
+      "branco_medio": 0.0304,
+      "blocos": [
+        "emanador--ema-contraponto",
+        "emanador--ema-acorde",
+        "emanador--ema-impulso"
+      ]
+    },
+    {
+      "pagina": 124,
+      "capitulo": 6,
+      "grupo": "Emanador / Catalisador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1077,
+      "branco_direita": 0.0463,
+      "branco_medio": 0.077,
+      "blocos": [
+        "emanador--ema-correcao",
+        "emanador--ema-fluxo"
+      ]
+    },
+    {
+      "pagina": 125,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8702,
+      "branco_direita": 0.8702,
+      "branco_medio": 0.8702,
+      "blocos": [
+        "evocador--evocador"
+      ]
+    },
+    {
+      "pagina": 126,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1456,
+      "branco_direita": 0.0134,
+      "branco_medio": 0.0795,
+      "blocos": [
+        "evocador--evocador",
+        "evocador--ev-vinculo"
+      ]
+    },
+    {
+      "pagina": 127,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0253,
+      "branco_direita": 0.1047,
+      "branco_medio": 0.065,
+      "blocos": [
+        "evocador--ev-vinculo",
+        "evocador--ev-usos",
+        "evocador--ev-aprimoramentos"
+      ]
+    },
+    {
+      "pagina": 128,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0306,
+      "branco_direita": 0.1009,
+      "branco_medio": 0.0657,
+      "blocos": [
+        "evocador--ev-aprimoramentos",
+        "evocador--ev-intervencoes",
+        "evocador--ev-posicao"
+      ]
+    },
+    {
+      "pagina": 129,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0733,
+      "branco_direita": 0.1009,
+      "branco_medio": 0.0871,
+      "blocos": [
+        "evocador--ev-posicao",
+        "evocador--ev-preparacao",
+        "evocador--ev-complementar"
+      ]
+    },
+    {
+      "pagina": 130,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2191,
+      "branco_direita": 0.0182,
+      "branco_medio": 0.1186,
+      "blocos": [
+        "evocador--ev-complementar",
+        "evocador--ev-combinar"
+      ]
+    },
+    {
+      "pagina": 131,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0468,
+      "branco_direita": 0.1118,
+      "branco_medio": 0.0793,
+      "blocos": [
+        "evocador--ev-combinar",
+        "evocador--ev-combinada",
+        "evocador--ev-principal"
+      ]
+    },
+    {
+      "pagina": 132,
+      "capitulo": 6,
+      "grupo": "Evocador / Invocação Principal",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0167,
+      "branco_direita": 0.1189,
+      "branco_medio": 0.0678,
+      "blocos": [
+        "evocador--ev-principal",
+        "evocador--ev-principal-especial",
+        "evocador--ev-principal-troca"
+      ]
+    },
+    {
+      "pagina": 133,
+      "capitulo": 6,
+      "grupo": "Evocador / Invocação Principal",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.015,
+      "branco_direita": 0.1452,
+      "branco_medio": 0.0801,
+      "blocos": [
+        "evocador--ev-principal-troca",
+        "evocador--ev-principal-protecao"
+      ]
+    },
+    {
+      "pagina": 134,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0874,
+      "branco_direita": 0.0779,
+      "branco_medio": 0.0826,
+      "blocos": [
+        "evocador--ev-principal-protecao",
+        "evocador--ev-principal-continuidade",
+        "evocador--ev-principal-reflexa"
+      ]
+    },
+    {
+      "pagina": 135,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0139,
+      "branco_direita": 0.0559,
+      "branco_medio": 0.0349,
+      "blocos": [
+        "evocador--ev-principal-reflexa",
+        "evocador--ev-parceria",
+        "evocador--ev-parceria-aprimoramentos"
+      ]
+    },
+    {
+      "pagina": 136,
+      "capitulo": 6,
+      "grupo": "Evocador / Parceria",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0096,
+      "branco_direita": 0.0594,
+      "branco_medio": 0.0345,
+      "blocos": [
+        "evocador--ev-parceria-aprimoramentos",
+        "evocador--ev-parceria-complementar"
+      ]
+    },
+    {
+      "pagina": 137,
+      "capitulo": 6,
+      "grupo": "Evocador / Parceria",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.035,
+      "branco_direita": 0.0288,
+      "branco_medio": 0.0319,
+      "blocos": [
+        "evocador--ev-parceria-complementar",
+        "evocador--ev-parceria-intervencoes",
+        "evocador--ev-parceria-cobrir"
+      ]
+    },
+    {
+      "pagina": 138,
+      "capitulo": 6,
+      "grupo": "Evocador / Parceria",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0515,
+      "branco_direita": 0.0515,
+      "branco_medio": 0.0515,
+      "blocos": [
+        "evocador--ev-parceria-cobrir",
+        "evocador--ev-parceria-tecnicas",
+        "evocador--ev-parceria-resposta"
+      ]
+    },
+    {
+      "pagina": 139,
+      "capitulo": 6,
+      "grupo": "Evocador",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1824,
+      "branco_direita": 0.0926,
+      "branco_medio": 0.1375,
+      "blocos": [
+        "evocador--ev-parceria-resposta",
+        "evocador--ev-multiplas"
+      ]
+    },
+    {
+      "pagina": 140,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0067,
+      "branco_direita": 0.2731,
+      "branco_medio": 0.1399,
+      "blocos": [
+        "evocador--ev-multiplas",
+        "evocador--ev-multiplas-entrada",
+        "evocador--ev-multiplas-duplas"
+      ]
+    },
+    {
+      "pagina": 141,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0223,
+      "branco_direita": 0.2014,
+      "branco_medio": 0.1118,
+      "blocos": [
+        "evocador--ev-multiplas-duplas",
+        "evocador--ev-multiplas-protecao",
+        "evocador--ev-multiplas-conduzir"
+      ]
+    },
+    {
+      "pagina": 142,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.108,
+      "branco_direita": 0.1548,
+      "branco_medio": 0.1314,
+      "blocos": [
+        "evocador--ev-multiplas-conduzir",
+        "evocador--ev-multiplas-retirada",
+        "evocador--ev-multiplas-aprimoramentos"
+      ]
+    },
+    {
+      "pagina": 143,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2402,
+      "branco_direita": 0.1031,
+      "branco_medio": 0.1716,
+      "blocos": [
+        "evocador--ev-multiplas-aprimoramentos",
+        "evocador--ev-multiplas-formacao"
+      ]
+    },
+    {
+      "pagina": 144,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.078,
+      "branco_direita": 0.0807,
+      "branco_medio": 0.0794,
+      "blocos": [
+        "evocador--ev-multiplas-formacao",
+        "evocador--ev-multiplas-repertorio",
+        "evocador--ev-turnos"
+      ]
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "grupo": "Evocador / Múltiplas Invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7121,
+      "branco_direita": 0.7062,
+      "branco_medio": 0.7092,
+      "blocos": [
+        "evocador--ev-turnos"
+      ]
+    },
+    {
+      "pagina": 146,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.3726,
+      "branco_direita": 0.3726,
+      "branco_medio": 0.3726,
+      "blocos": [
+        "incursor--inc-caminho"
+      ]
+    },
+    {
+      "pagina": 147,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.015,
+      "branco_direita": 0.0691,
+      "branco_medio": 0.0421,
+      "blocos": [
+        "incursor--inc-caminho",
+        "incursor--inc-movimento",
+        "incursor--inc-fluidez"
+      ]
+    },
+    {
+      "pagina": 148,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1077,
+      "branco_direita": 0.0327,
+      "branco_medio": 0.0702,
+      "blocos": [
+        "incursor--inc-fluidez",
+        "incursor--inc-respostas",
+        "incursor--inc-fluidez-avancada"
+      ]
+    },
+    {
+      "pagina": 149,
+      "capitulo": 6,
+      "grupo": "Incursor",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.3327,
+      "branco_direita": 0.4738,
+      "branco_medio": 0.4032,
+      "blocos": [
+        "incursor--inc-fluidez-avancada",
+        "incursor--inc-ritmo"
+      ]
+    },
+    {
+      "pagina": 150,
+      "capitulo": 6,
+      "grupo": "Assassino",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.7052,
+      "branco_direita": 0.7052,
+      "branco_medio": 0.7052,
+      "blocos": [
+        "incursor--inc-assassino"
+      ]
+    },
+    {
+      "pagina": 151,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0371,
+      "branco_direita": 0.0187,
+      "branco_medio": 0.0279,
+      "blocos": [
+        "incursor--inc-assassino",
+        "incursor--inc-guarda",
+        "incursor--inc-cirurgico"
+      ]
+    },
+    {
+      "pagina": 152,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0407,
+      "branco_direita": 0.1685,
+      "branco_medio": 0.1046,
+      "blocos": [
+        "incursor--inc-cirurgico",
+        "incursor--inc-cortar",
+        "incursor--inc-parkour"
+      ]
+    },
+    {
+      "pagina": 153,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0342,
+      "branco_direita": 0.2129,
+      "branco_medio": 0.1235,
+      "blocos": [
+        "incursor--inc-parkour",
+        "incursor--inc-brecha"
+      ]
+    },
+    {
+      "pagina": 154,
+      "capitulo": 6,
+      "grupo": "Incursor / Assassino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.654,
+      "branco_direita": 0.6952,
+      "branco_medio": 0.6746,
+      "blocos": [
+        "incursor--inc-brecha"
+      ]
+    },
+    {
+      "pagina": 155,
+      "capitulo": 6,
+      "grupo": "Pugilista",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6282,
+      "branco_direita": 0.6282,
+      "branco_medio": 0.6282,
+      "blocos": [
+        "incursor--inc-pugilista"
+      ]
+    },
+    {
+      "pagina": 156,
+      "capitulo": 6,
+      "grupo": "Incursor / Pugilista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0743,
+      "branco_direita": 0.0635,
+      "branco_medio": 0.0689,
+      "blocos": [
+        "incursor--inc-pugilista",
+        "incursor--inc-corpo",
+        "incursor--inc-base"
+      ]
+    },
+    {
+      "pagina": 157,
+      "capitulo": 6,
+      "grupo": "Incursor / Pugilista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0466,
+      "branco_direita": 0.094,
+      "branco_medio": 0.0703,
+      "blocos": [
+        "incursor--inc-base",
+        "incursor--inc-interceptar"
+      ]
+    },
+    {
+      "pagina": 158,
+      "capitulo": 6,
+      "grupo": "Incursor / Pugilista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0377,
+      "branco_direita": 0.0801,
+      "branco_medio": 0.0589,
+      "blocos": [
+        "incursor--inc-interceptar",
+        "incursor--inc-projecao",
+        "incursor--inc-redirecionar"
+      ]
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "grupo": "Caminhos e Trilhas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.55,
+      "branco_direita": 0.5206,
+      "branco_medio": 0.5353,
+      "blocos": [
+        "incursor--inc-redirecionar",
+        "incursor--inc-redirecionar-resolucao"
+      ]
+    },
+    {
+      "pagina": 160,
+      "capitulo": 6,
+      "grupo": "Malabarista",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6867,
+      "branco_direita": 0.6867,
+      "branco_medio": 0.6867,
+      "blocos": [
+        "incursor--inc-malabarista"
+      ]
+    },
+    {
+      "pagina": 161,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0831,
+      "branco_direita": 0.1185,
+      "branco_medio": 0.1008,
+      "blocos": [
+        "incursor--inc-malabarista",
+        "incursor--inc-continuacoes"
+      ]
+    },
+    {
+      "pagina": 162,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1305,
+      "branco_direita": 0.177,
+      "branco_medio": 0.1538,
+      "blocos": [
+        "incursor--inc-continuacoes",
+        "incursor--inc-ricochete",
+        "incursor--inc-destino"
+      ]
+    },
+    {
+      "pagina": 163,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0161,
+      "branco_direita": 0.207,
+      "branco_medio": 0.1115,
+      "blocos": [
+        "incursor--inc-destino",
+        "incursor--inc-retorno",
+        "incursor--inc-finta"
+      ]
+    },
+    {
+      "pagina": 164,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0419,
+      "branco_direita": 0.2286,
+      "branco_medio": 0.1352,
+      "blocos": [
+        "incursor--inc-finta",
+        "incursor--inc-perfeita"
+      ]
+    },
+    {
+      "pagina": 165,
+      "capitulo": 6,
+      "grupo": "Incursor / Malabarista",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.668,
+      "branco_direita": 0.6935,
+      "branco_medio": 0.6807,
+      "blocos": [
+        "incursor--inc-perfeita"
+      ]
+    },
+    {
+      "pagina": 166,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 167,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0288,
+      "branco_direita": 0.0365,
+      "branco_medio": 0.0327,
+      "blocos": [
+        "pericias--pericias",
+        "pericias--tarefas"
+      ]
+    },
+    {
+      "pagina": 168,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0256,
+      "branco_direita": 0.0899,
+      "branco_medio": 0.0577,
+      "blocos": [
+        "pericias--tarefas",
+        "pericias--fisicas"
+      ]
+    },
+    {
+      "pagina": 169,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1418,
+      "branco_direita": 0.0235,
+      "branco_medio": 0.0826,
+      "blocos": [
+        "pericias--fisicas",
+        "pericias--conhecimento"
+      ]
+    },
+    {
+      "pagina": 170,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0964,
+      "branco_direita": 0.0176,
+      "branco_medio": 0.057,
+      "blocos": [
+        "pericias--conhecimento",
+        "pericias--ambiente"
+      ]
+    },
+    {
+      "pagina": 171,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2055,
+      "branco_direita": 0.0905,
+      "branco_medio": 0.148,
+      "blocos": [
+        "pericias--ambiente",
+        "pericias--essencia"
+      ]
+    },
+    {
+      "pagina": 172,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0623,
+      "branco_direita": 0.1569,
+      "branco_medio": 0.1096,
+      "blocos": [
+        "pericias--oficios"
+      ]
+    },
+    {
+      "pagina": 173,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.085,
+      "branco_direita": 0.0685,
+      "branco_medio": 0.0768,
+      "blocos": [
+        "pericias--fabricacao",
+        "pericias--reparos"
+      ]
+    },
+    {
+      "pagina": 174,
+      "capitulo": 7,
+      "grupo": "Perícias e Ofícios",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.593,
+      "branco_direita": 0.5862,
+      "branco_medio": 0.5896,
+      "blocos": [
+        "pericias--reparos"
+      ]
+    },
+    {
+      "pagina": 175,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 176,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1867,
+      "branco_direita": 0.1308,
+      "branco_medio": 0.1587,
+      "blocos": [
+        "equip--eq-equipamento",
+        "equip--eq-manipular"
+      ]
+    },
+    {
+      "pagina": 177,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0629,
+      "branco_direita": 0.179,
+      "branco_medio": 0.1209,
+      "blocos": [
+        "equip--eq-manipular",
+        "equip--eq-objetos"
+      ]
+    },
+    {
+      "pagina": 178,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0512,
+      "branco_direita": 0.0321,
+      "branco_medio": 0.0416,
+      "blocos": [
+        "equip--eq-objetos",
+        "equip--eq-propriedades"
+      ]
+    },
+    {
+      "pagina": 179,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.023,
+      "branco_direita": 0.1554,
+      "branco_medio": 0.0892,
+      "blocos": [
+        "equip--eq-propriedades",
+        "equip--eq-oculta"
+      ]
+    },
+    {
+      "pagina": 180,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0306,
+      "branco_direita": 0.1545,
+      "branco_medio": 0.0926,
+      "blocos": [
+        "equip--eq-oculta",
+        "equip--eqp-protecao"
+      ]
+    },
+    {
+      "pagina": 181,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0951,
+      "branco_direita": 0.0779,
+      "branco_medio": 0.0865,
+      "blocos": [
+        "equip--eqp-protecao",
+        "equip--eqp-traje",
+        "equip--eqp-escudo"
+      ]
+    },
+    {
+      "pagina": 182,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0657,
+      "branco_direita": 0.0414,
+      "branco_medio": 0.0536,
+      "blocos": [
+        "equip--eqp-escudo",
+        "equip--eqp-vestir"
+      ]
+    },
+    {
+      "pagina": 183,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0739,
+      "branco_direita": 0.1945,
+      "branco_medio": 0.1342,
+      "blocos": [
+        "equip--eqp-vestir",
+        "equip--eqm-municao"
+      ]
+    },
+    {
+      "pagina": 184,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0757,
+      "branco_direita": 0.1077,
+      "branco_medio": 0.0917,
+      "blocos": [
+        "equip--eqm-recarga",
+        "equip--eqm-reserva"
+      ]
+    },
+    {
+      "pagina": 185,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0573,
+      "branco_direita": 0.0708,
+      "branco_medio": 0.064,
+      "blocos": [
+        "equip--eqm-reserva",
+        "equip--eqa-armas"
+      ]
+    },
+    {
+      "pagina": 186,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0429,
+      "branco_direita": 0.0429,
+      "branco_medio": 0.0429,
+      "blocos": [
+        "equip--eqa-armas",
+        "equip--eqa-laminas"
+      ]
+    },
+    {
+      "pagina": 187,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0967,
+      "branco_direita": 0.0967,
+      "branco_medio": 0.0967,
+      "blocos": [
+        "equip--eqa-laminas",
+        "equip--eqa-impacto"
+      ]
+    },
+    {
+      "pagina": 188,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0551,
+      "branco_direita": 0.0551,
+      "branco_medio": 0.0551,
+      "blocos": [
+        "equip--eqa-impacto",
+        "equip--eqa-hastes"
+      ]
+    },
+    {
+      "pagina": 189,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1106,
+      "branco_direita": 0.1106,
+      "branco_medio": 0.1106,
+      "blocos": [
+        "equip--eqa-flexiveis",
+        "equip--eqa-tiro"
+      ]
+    },
+    {
+      "pagina": 190,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1579,
+      "branco_direita": 0.029,
+      "branco_medio": 0.0935,
+      "blocos": [
+        "equip--eqa-tiro",
+        "equip--eqi-itens"
+      ]
+    },
+    {
+      "pagina": 191,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1344,
+      "branco_direita": 0.0837,
+      "branco_medio": 0.109,
+      "blocos": [
+        "equip--eqi-itens",
+        "equip--eqi-exploracao"
+      ]
+    },
+    {
+      "pagina": 192,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0253,
+      "branco_direita": 0.1559,
+      "branco_medio": 0.0906,
+      "blocos": [
+        "equip--eqi-exploracao",
+        "equip--eqi-fechaduras"
+      ]
+    },
+    {
+      "pagina": 193,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0591,
+      "branco_direita": 0.1499,
+      "branco_medio": 0.1045,
+      "blocos": [
+        "equip--eqi-fechaduras",
+        "equip--eqi-objetos"
+      ]
+    },
+    {
+      "pagina": 194,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0149,
+      "branco_direita": 0.1234,
+      "branco_medio": 0.0691,
+      "blocos": [
+        "equip--eqi-efeitos",
+        "equip--eqi-improvisadas"
+      ]
+    },
+    {
+      "pagina": 195,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0865,
+      "branco_direita": 0.0897,
+      "branco_medio": 0.0881,
+      "blocos": [
+        "equip--eqi-improvisadas",
+        "equip--eqc-dinheiro",
+        "equip--eqc-precos"
+      ]
+    },
+    {
+      "pagina": 196,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0134,
+      "branco_direita": 0.1513,
+      "branco_medio": 0.0823,
+      "blocos": [
+        "equip--eqc-precos",
+        "equip--eqc-inicial"
+      ]
+    },
+    {
+      "pagina": 197,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2334,
+      "branco_direita": 0.2467,
+      "branco_medio": 0.24,
+      "blocos": [
+        "equip--eqc-inicial",
+        "equip--eqc-compras"
+      ]
+    },
+    {
+      "pagina": 198,
+      "capitulo": 8,
+      "grupo": "Equipamento amaldiçoado",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.8085,
+      "branco_direita": 0.8085,
+      "branco_medio": 0.8085,
+      "blocos": [
+        "equip--eqf-equipamento"
+      ]
+    },
+    {
+      "pagina": 199,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1115,
+      "branco_direita": 0.0073,
+      "branco_medio": 0.0594,
+      "blocos": [
+        "equip--eqf-equipamento",
+        "equip--eqf-graus"
+      ]
+    },
+    {
+      "pagina": 200,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0294,
+      "branco_direita": 0.1645,
+      "branco_medio": 0.0969,
+      "blocos": [
+        "equip--eqf-graus",
+        "equip--eqf-uso"
+      ]
+    },
+    {
+      "pagina": 201,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0294,
+      "branco_direita": 0.0611,
+      "branco_medio": 0.0453,
+      "blocos": [
+        "equip--eqf-uso",
+        "equip--eqf-aquisicao",
+        "equip--eqf-armas"
+      ]
+    },
+    {
+      "pagina": 202,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0099,
+      "branco_direita": 0.0573,
+      "branco_medio": 0.0336,
+      "blocos": [
+        "equip--eqf-armas",
+        "equip--eqf-roupas"
+      ]
+    },
+    {
+      "pagina": 203,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0929,
+      "branco_direita": 0.0348,
+      "branco_medio": 0.0638,
+      "blocos": [
+        "equip--eqf-roupas",
+        "equip--eqf-protecao"
+      ]
+    },
+    {
+      "pagina": 204,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0585,
+      "branco_direita": 0.0193,
+      "branco_medio": 0.0389,
+      "blocos": [
+        "equip--eqf-acessorios",
+        "equip--eqf-reliquias"
+      ]
+    },
+    {
+      "pagina": 205,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1009,
+      "branco_direita": 0.0597,
+      "branco_medio": 0.0803,
+      "blocos": [
+        "equip--eqf-reliquias",
+        "equip--eqf-desgaste"
+      ]
+    },
+    {
+      "pagina": 206,
+      "capitulo": 8,
+      "grupo": "Equipamento",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.2689,
+      "branco_direita": 0.349,
+      "branco_medio": 0.309,
+      "blocos": [
+        "equip--eqf-objetos"
+      ]
+    },
+    {
+      "pagina": 207,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 208,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0187,
+      "branco_direita": 0.1203,
+      "branco_medio": 0.0695,
+      "blocos": [
+        "progressao--prog-inicio",
+        "progressao--prog-xp"
+      ]
+    },
+    {
+      "pagina": 209,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0671,
+      "branco_direita": 0.0625,
+      "branco_medio": 0.0648,
+      "blocos": [
+        "progressao--prog-xp",
+        "progressao--prog-semana",
+        "progressao--prog-limiar"
+      ]
+    },
+    {
+      "pagina": 210,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0224,
+      "branco_direita": 0.1994,
+      "branco_medio": 0.1109,
+      "blocos": [
+        "progressao--prog-limiar",
+        "progressao--prog-tabela-inicial"
+      ]
+    },
+    {
+      "pagina": 211,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1007,
+      "branco_direita": 0.0444,
+      "branco_medio": 0.0726,
+      "blocos": [
+        "progressao--prog-tabela-inicial",
+        "progressao--prog-tabela-avancada",
+        "progressao--prog-marcos"
+      ]
+    },
+    {
+      "pagina": 212,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0359,
+      "branco_direita": 0.068,
+      "branco_medio": 0.0519,
+      "blocos": [
+        "progressao--prog-marcos",
+        "progressao--prog-repertorio",
+        "progressao--prog-atualizar"
+      ]
+    },
+    {
+      "pagina": 213,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0401,
+      "branco_direita": 0.0093,
+      "branco_medio": 0.0247,
+      "blocos": [
+        "progressao--prog-atualizar",
+        "progressao--prog-trilhas"
+      ]
+    },
+    {
+      "pagina": 214,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0685,
+      "branco_direita": 0.1,
+      "branco_medio": 0.0843,
+      "blocos": [
+        "progressao--prog-trilhas",
+        "progressao--prog-capacidades",
+        "progressao--prog-guilda"
+      ]
+    },
+    {
+      "pagina": 215,
+      "capitulo": 9,
+      "grupo": "Progressão",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.502,
+      "branco_direita": 0.3721,
+      "branco_medio": 0.437,
+      "blocos": [
+        "progressao--prog-guilda",
+        "progressao--prog-patentes"
+      ]
+    },
+    {
+      "pagina": 216,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 217,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.7394,
+      "branco_direita": 0.7394,
+      "branco_medio": 0.7394,
+      "blocos": [
+        "fundamento--fundamento"
+      ]
+    },
+    {
+      "pagina": 218,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.125,
+      "branco_direita": 0.0817,
+      "branco_medio": 0.1034,
+      "blocos": [
+        "fundamento--fundamento",
+        "fundamento--tecnica"
+      ]
+    },
+    {
+      "pagina": 219,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0491,
+      "branco_direita": 0.1087,
+      "branco_medio": 0.0789,
+      "blocos": [
+        "fundamento--tecnica",
+        "fundamento--primeiro",
+        "fundamento--familias"
+      ]
+    },
+    {
+      "pagina": 220,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0463,
+      "branco_direita": 0.1639,
+      "branco_medio": 0.1051,
+      "blocos": [
+        "fundamento--familias",
+        "fundamento--selo"
+      ]
+    },
+    {
+      "pagina": 221,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0442,
+      "branco_direita": 0.0579,
+      "branco_medio": 0.0511,
+      "blocos": [
+        "fundamento--selo",
+        "fundamento--repertorio"
+      ]
+    },
+    {
+      "pagina": 222,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0528,
+      "branco_direita": 0.0193,
+      "branco_medio": 0.0361,
+      "blocos": [
+        "fundamento--repertorio",
+        "fundamento--pontos",
+        "fundamento--formas"
+      ]
+    },
+    {
+      "pagina": 223,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0545,
+      "branco_direita": 0.0545,
+      "branco_medio": 0.0545,
+      "blocos": [
+        "fundamento--formas",
+        "fundamento--amparoformas"
+      ]
+    },
+    {
+      "pagina": 224,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2036,
+      "branco_direita": 0.0407,
+      "branco_medio": 0.1221,
+      "blocos": [
+        "fundamento--amparoformas",
+        "fundamento--alcance",
+        "fundamento--conjurar"
+      ]
+    },
+    {
+      "pagina": 225,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1693,
+      "branco_direita": 0.113,
+      "branco_medio": 0.1412,
+      "blocos": [
+        "fundamento--conjurar",
+        "fundamento--restricoes"
+      ]
+    },
+    {
+      "pagina": 226,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.101,
+      "branco_direita": 0.0432,
+      "branco_medio": 0.0721,
+      "blocos": [
+        "fundamento--restricoes",
+        "fundamento--combinacoes"
+      ]
+    },
+    {
+      "pagina": 227,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1327,
+      "branco_direita": 0.113,
+      "branco_medio": 0.1229,
+      "blocos": [
+        "fundamento--combinacoes",
+        "fundamento--controle"
+      ]
+    },
+    {
+      "pagina": 228,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1056,
+      "branco_direita": 0.0116,
+      "branco_medio": 0.0586,
+      "blocos": [
+        "fundamento--controle",
+        "fundamento--aplicacoes",
+        "fundamento--danolimites"
+      ]
+    },
+    {
+      "pagina": 229,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1184,
+      "branco_direita": 0.0952,
+      "branco_medio": 0.1068,
+      "blocos": [
+        "fundamento--danolimites",
+        "fundamento--persistente"
+      ]
+    },
+    {
+      "pagina": 230,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.062,
+      "branco_direita": 0.0308,
+      "branco_medio": 0.0464,
+      "blocos": [
+        "fundamento--persistente",
+        "fundamento--livre",
+        "fundamento--efeito"
+      ]
+    },
+    {
+      "pagina": 231,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1945,
+      "branco_direita": 0.0825,
+      "branco_medio": 0.1385,
+      "blocos": [
+        "fundamento--efeito",
+        "fundamento--ampliar"
+      ]
+    },
+    {
+      "pagina": 232,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0195,
+      "branco_direita": 0.0822,
+      "branco_medio": 0.0508,
+      "blocos": [
+        "fundamento--ampliar",
+        "fundamento--classezero"
+      ]
+    },
+    {
+      "pagina": 233,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0552,
+      "branco_direita": 0.0929,
+      "branco_medio": 0.074,
+      "blocos": [
+        "fundamento--classezero",
+        "fundamento--proprio",
+        "fundamento--liberacao"
+      ]
+    },
+    {
+      "pagina": 234,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0546,
+      "branco_direita": 0.0279,
+      "branco_medio": 0.0413,
+      "blocos": [
+        "fundamento--liberacao",
+        "fundamento--maxima"
+      ]
+    },
+    {
+      "pagina": 235,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0562,
+      "branco_direita": 0.0562,
+      "branco_medio": 0.0562,
+      "blocos": [
+        "fundamento--maxima",
+        "fundamento--maximadano",
+        "fundamento--limitesmaxima"
+      ]
+    },
+    {
+      "pagina": 236,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1443,
+      "branco_direita": 0.0524,
+      "branco_medio": 0.0983,
+      "blocos": [
+        "fundamento--limitesmaxima",
+        "fundamento--passagem"
+      ]
+    },
+    {
+      "pagina": 237,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0383,
+      "branco_direita": 0.2209,
+      "branco_medio": 0.1296,
+      "blocos": [
+        "fundamento--passagem",
+        "fundamento--retirada"
+      ]
+    },
+    {
+      "pagina": 238,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0573,
+      "branco_direita": 0.291,
+      "branco_medio": 0.1742,
+      "blocos": [
+        "fundamento--retirada",
+        "fundamento--ficha"
+      ]
+    },
+    {
+      "pagina": 239,
+      "capitulo": 10,
+      "grupo": "Fundamento",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6395,
+      "branco_direita": 0.6757,
+      "branco_medio": 0.6576,
+      "blocos": [
+        "fundamento--ficha"
+      ]
+    },
+    {
+      "pagina": 240,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 241,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0739,
+      "branco_direita": 0.2132,
+      "branco_medio": 0.1436,
+      "blocos": [
+        "catalogo--cat-catalogo",
+        "catalogo--cat-alcance"
+      ]
+    },
+    {
+      "pagina": 242,
+      "capitulo": 11,
+      "grupo": "Famílias: Alcance, Área",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2135,
+      "branco_direita": 0.0454,
+      "branco_medio": 0.1295,
+      "blocos": [
+        "catalogo--cat-alcance",
+        "catalogo--cat-movimento",
+        "catalogo--cat-area"
+      ]
+    },
+    {
+      "pagina": 243,
+      "capitulo": 11,
+      "grupo": "Famílias: Área, Mira",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0176,
+      "branco_direita": 0.1788,
+      "branco_medio": 0.0982,
+      "blocos": [
+        "catalogo--cat-area",
+        "catalogo--cat-area-continua",
+        "catalogo--cat-mira"
+      ]
+    },
+    {
+      "pagina": 244,
+      "capitulo": 11,
+      "grupo": "Famílias: Mira, Controle",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0096,
+      "branco_direita": 0.1904,
+      "branco_medio": 0.1,
+      "blocos": [
+        "catalogo--cat-mira",
+        "catalogo--cat-defesas",
+        "catalogo--cat-controle"
+      ]
+    },
+    {
+      "pagina": 245,
+      "capitulo": 11,
+      "grupo": "Família: Controle",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0647,
+      "branco_direita": 0.0647,
+      "branco_medio": 0.0647,
+      "blocos": [
+        "catalogo--cat-controle",
+        "catalogo--cat-obstaculos"
+      ]
+    },
+    {
+      "pagina": 246,
+      "capitulo": 11,
+      "grupo": "Famílias: Controle, Auxiliares",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0763,
+      "branco_direita": 0.121,
+      "branco_medio": 0.0986,
+      "blocos": [
+        "catalogo--cat-obstaculos",
+        "catalogo--cat-auxiliares",
+        "catalogo--cat-auxiliares-apoio"
+      ]
+    },
+    {
+      "pagina": 247,
+      "capitulo": 11,
+      "grupo": "Famílias: Auxiliares, Castigo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0668,
+      "branco_direita": 0.2177,
+      "branco_medio": 0.1422,
+      "blocos": [
+        "catalogo--cat-auxiliares-apoio",
+        "catalogo--cat-castigo"
+      ]
+    },
+    {
+      "pagina": 248,
+      "capitulo": 11,
+      "grupo": "Famílias: Castigo, Tempo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0196,
+      "branco_direita": 0.2491,
+      "branco_medio": 0.1344,
+      "blocos": [
+        "catalogo--cat-castigo-dano",
+        "catalogo--cat-tempo"
+      ]
+    },
+    {
+      "pagina": 249,
+      "capitulo": 11,
+      "grupo": "Família: Tempo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1821,
+      "branco_direita": 0.026,
+      "branco_medio": 0.104,
+      "blocos": [
+        "catalogo--cat-tempo",
+        "catalogo--cat-tempo-duracao"
+      ]
+    },
+    {
+      "pagina": 250,
+      "capitulo": 11,
+      "grupo": "Famílias: Tempo, Marca",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0416,
+      "branco_direita": 0.1759,
+      "branco_medio": 0.1087,
+      "blocos": [
+        "catalogo--cat-tempo-duracao",
+        "catalogo--cat-marca",
+        "catalogo--cat-marca-recursos"
+      ]
+    },
+    {
+      "pagina": 251,
+      "capitulo": 11,
+      "grupo": "Famílias: Marca, Amparo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.03,
+      "branco_direita": 0.1154,
+      "branco_medio": 0.0727,
+      "blocos": [
+        "catalogo--cat-marca-recursos",
+        "catalogo--cat-amparo"
+      ]
+    },
+    {
+      "pagina": 252,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0093,
+      "branco_direita": 0.1963,
+      "branco_medio": 0.1028,
+      "blocos": [
+        "catalogo--cat-amparo-protecao",
+        "catalogo--cat-proprio"
+      ]
+    },
+    {
+      "pagina": 253,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1258,
+      "branco_direita": 0.0751,
+      "branco_medio": 0.1004,
+      "blocos": [
+        "catalogo--cat-proprio",
+        "catalogo--cat-restricoes-conjuracao"
+      ]
+    },
+    {
+      "pagina": 254,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0828,
+      "branco_direita": 0.0691,
+      "branco_medio": 0.076,
+      "blocos": [
+        "catalogo--cat-restricoes-conjuracao",
+        "catalogo--cat-restricoes-consequencias",
+        "catalogo--cat-restricoes-uso"
+      ]
+    },
+    {
+      "pagina": 255,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0359,
+      "branco_direita": 0.1705,
+      "branco_medio": 0.1032,
+      "blocos": [
+        "catalogo--cat-restricoes-uso",
+        "catalogo--cat-restricoes-proprias"
+      ]
+    },
+    {
+      "pagina": 256,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0594,
+      "branco_direita": 0.0383,
+      "branco_medio": 0.0488,
+      "blocos": [
+        "catalogo--cat-restricoes-proprias",
+        "catalogo--cat-passivas-1"
+      ]
+    },
+    {
+      "pagina": 257,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1219,
+      "branco_direita": 0.0353,
+      "branco_medio": 0.0786,
+      "blocos": [
+        "catalogo--cat-passivas-1",
+        "catalogo--cat-passivas-2-recursos"
+      ]
+    },
+    {
+      "pagina": 258,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0608,
+      "branco_direita": 0.1255,
+      "branco_medio": 0.0932,
+      "blocos": [
+        "catalogo--cat-passivas-2-protecao",
+        "catalogo--cat-passivas-3",
+        "catalogo--cat-regra-propria"
+      ]
+    },
+    {
+      "pagina": 259,
+      "capitulo": 11,
+      "grupo": "Catálogo de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0198,
+      "branco_direita": 0.1074,
+      "branco_medio": 0.0636,
+      "blocos": [
+        "catalogo--cat-regra-propria",
+        "catalogo--cat-passiva-propria"
+      ]
+    },
+    {
+      "pagina": 260,
+      "capitulo": 11,
+      "grupo": "Talento Próprio",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6294,
+      "branco_direita": 0.6093,
+      "branco_medio": 0.6194,
+      "blocos": [
+        "catalogo--cat-passiva-propria"
+      ]
+    },
+    {
+      "pagina": 261,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 262,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1147,
+      "branco_direita": 0.1147,
+      "branco_medio": 0.1147,
+      "blocos": [
+        "aptidoes--apt-refino"
+      ]
+    },
+    {
+      "pagina": 263,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0377,
+      "branco_direita": 0.0714,
+      "branco_medio": 0.0545,
+      "blocos": [
+        "aptidoes--apt-marcos",
+        "aptidoes--apt-catalogo"
+      ]
+    },
+    {
+      "pagina": 264,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0136,
+      "branco_direita": 0.0653,
+      "branco_medio": 0.0394,
+      "blocos": [
+        "aptidoes--apt-catalogo",
+        "aptidoes--apt-cobrir",
+        "aptidoes--apt-canalizar"
+      ]
+    },
+    {
+      "pagina": 265,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0222,
+      "branco_direita": 0.1719,
+      "branco_medio": 0.097,
+      "blocos": [
+        "aptidoes--apt-canalizar",
+        "aptidoes--apt-projetar",
+        "aptidoes--apt-reversa"
+      ]
+    },
+    {
+      "pagina": 266,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0712,
+      "branco_direita": 0.0678,
+      "branco_medio": 0.0695,
+      "blocos": [
+        "aptidoes--apt-reversa",
+        "aptidoes--apt-energia-positiva",
+        "aptidoes--apt-circulacao"
+      ]
+    },
+    {
+      "pagina": 267,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0075,
+      "branco_direita": 0.1388,
+      "branco_medio": 0.0731,
+      "blocos": [
+        "aptidoes--apt-circulacao",
+        "aptidoes--apt-regravacao",
+        "aptidoes--apt-kokusen"
+      ]
+    },
+    {
+      "pagina": 268,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0426,
+      "branco_direita": 0.1136,
+      "branco_medio": 0.0781,
+      "blocos": [
+        "aptidoes--apt-kokusen",
+        "aptidoes--apt-protecao-dominios",
+        "aptidoes--apt-cesta"
+      ]
+    },
+    {
+      "pagina": 269,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.034,
+      "branco_direita": 0.1028,
+      "branco_medio": 0.0684,
+      "blocos": [
+        "aptidoes--apt-cesta",
+        "aptidoes--apt-simples",
+        "aptidoes--apt-simples-duracao"
+      ]
+    },
+    {
+      "pagina": 270,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1175,
+      "branco_direita": 0.0896,
+      "branco_medio": 0.1035,
+      "blocos": [
+        "aptidoes--apt-simples-duracao",
+        "aptidoes--apt-petala"
+      ]
+    },
+    {
+      "pagina": 271,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0362,
+      "branco_direita": 0.0358,
+      "branco_medio": 0.036,
+      "blocos": [
+        "aptidoes--apt-petala",
+        "aptidoes--apt-extensao",
+        "aptidoes--apt-barreira"
+      ]
+    },
+    {
+      "pagina": 272,
+      "capitulo": 12,
+      "grupo": "Aptidões e Refino",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0273,
+      "branco_direita": 0.1686,
+      "branco_medio": 0.098,
+      "blocos": [
+        "aptidoes--apt-barreira",
+        "aptidoes--apt-cortina"
+      ]
+    },
+    {
+      "pagina": 273,
+      "capitulo": 12,
+      "grupo": "Aptidão Própria",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.2051,
+      "branco_direita": 0.3429,
+      "branco_medio": 0.274,
+      "blocos": [
+        "aptidoes--apt-propria"
+      ]
+    },
+    {
+      "pagina": 274,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 275,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3454,
+      "branco_direita": 0.3828,
+      "branco_medio": 0.3641,
+      "blocos": [
+        "rotas--rotas"
+      ]
+    },
+    {
+      "pagina": 276,
+      "capitulo": 13,
+      "grupo": "Técnica Marcial",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.111,
+      "branco_direita": 0.111,
+      "branco_medio": 0.111,
+      "blocos": [
+        "rotas--rota-marcial"
+      ]
+    },
+    {
+      "pagina": 277,
+      "capitulo": 13,
+      "grupo": "Técnica Marcial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0265,
+      "branco_direita": 0.2589,
+      "branco_medio": 0.1427,
+      "blocos": [
+        "rotas--rota-marcial",
+        "rotas--rota-armas",
+        "rotas--rota-ferramenta"
+      ]
+    },
+    {
+      "pagina": 278,
+      "capitulo": 13,
+      "grupo": "Técnica Marcial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0039,
+      "branco_direita": 0.2879,
+      "branco_medio": 0.1459,
+      "blocos": [
+        "rotas--rota-ferramenta",
+        "rotas--rota-passivas-marciais"
+      ]
+    },
+    {
+      "pagina": 279,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1198,
+      "branco_direita": 0.0244,
+      "branco_medio": 0.0721,
+      "blocos": [
+        "rotas--rota-passivas-resposta",
+        "rotas--rota-fisga"
+      ]
+    },
+    {
+      "pagina": 280,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0069,
+      "branco_direita": 0.1468,
+      "branco_medio": 0.0768,
+      "blocos": [
+        "rotas--rota-fisga",
+        "rotas--rota-bancada",
+        "rotas--rota-invocacoes"
+      ]
+    },
+    {
+      "pagina": 281,
+      "capitulo": 13,
+      "grupo": "Invocações nas rotas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.6656,
+      "branco_direita": 0.6484,
+      "branco_medio": 0.657,
+      "blocos": [
+        "rotas--rota-invocacoes"
+      ]
+    },
+    {
+      "pagina": 282,
+      "capitulo": 13,
+      "grupo": "Sem Técnica",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1136,
+      "branco_direita": 0.1136,
+      "branco_medio": 0.1136,
+      "blocos": [
+        "rotas--rota-sem-tecnica"
+      ]
+    },
+    {
+      "pagina": 283,
+      "capitulo": 13,
+      "grupo": "Sem Técnica",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0632,
+      "branco_direita": 0.0737,
+      "branco_medio": 0.0685,
+      "blocos": [
+        "rotas--rota-sementes",
+        "rotas--rota-cura"
+      ]
+    },
+    {
+      "pagina": 284,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0152,
+      "branco_direita": 0.0588,
+      "branco_medio": 0.037,
+      "blocos": [
+        "rotas--rota-cura",
+        "rotas--rota-redoma",
+        "rotas--rota-sutura"
+      ]
+    },
+    {
+      "pagina": 285,
+      "capitulo": 13,
+      "grupo": "Rotas de criação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0235,
+      "branco_direita": 0.007,
+      "branco_medio": 0.0153,
+      "blocos": [
+        "rotas--rota-sutura",
+        "rotas--rota-espinho",
+        "rotas--rota-lapidacao"
+      ]
+    },
+    {
+      "pagina": 286,
+      "capitulo": 13,
+      "grupo": "Lapidação",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.4606,
+      "branco_direita": 0.5123,
+      "branco_medio": 0.4865,
+      "blocos": [
+        "rotas--rota-lapidacao"
+      ]
+    },
+    {
+      "pagina": 287,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "art",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2538,
+      "branco_direita": 0.2538,
+      "branco_medio": 0.2538,
+      "blocos": [
+        "rotas--rota-bencaos"
+      ]
+    },
+    {
+      "pagina": 288,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0758,
+      "branco_direita": 0.2008,
+      "branco_medio": 0.1383,
+      "blocos": [
+        "rotas--rota-bencaos",
+        "rotas--rota-defesa"
+      ]
+    },
+    {
+      "pagina": 289,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0193,
+      "branco_direita": 0.0665,
+      "branco_medio": 0.0429,
+      "blocos": [
+        "rotas--rota-defesa",
+        "rotas--rota-estimulo",
+        "rotas--rota-corpo"
+      ]
+    },
+    {
+      "pagina": 290,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0807,
+      "branco_direita": 0.0356,
+      "branco_medio": 0.0582,
+      "blocos": [
+        "rotas--rota-corpo",
+        "rotas--rota-perseguicao",
+        "rotas--rota-combate"
+      ]
+    },
+    {
+      "pagina": 291,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1646,
+      "branco_direita": 0.0475,
+      "branco_medio": 0.106,
+      "blocos": [
+        "rotas--rota-combate",
+        "rotas--rota-propria"
+      ]
+    },
+    {
+      "pagina": 292,
+      "capitulo": 13,
+      "grupo": "Bênçãos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4972,
+      "branco_direita": 0.5663,
+      "branco_medio": 0.5318,
+      "blocos": [
+        "rotas--rota-propria"
+      ]
+    },
+    {
+      "pagina": 293,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 294,
+      "capitulo": 14,
+      "grupo": "Expansão de Domínio",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3689,
+      "branco_direita": 0.3689,
+      "branco_medio": 0.3689,
+      "blocos": [
+        "poderes--degraus"
+      ]
+    },
+    {
+      "pagina": 295,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0849,
+      "branco_direita": 0.1456,
+      "branco_medio": 0.1152,
+      "blocos": [
+        "poderes--degraus",
+        "poderes--criardominio",
+        "poderes--acerto"
+      ]
+    },
+    {
+      "pagina": 296,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0493,
+      "branco_direita": 0.1723,
+      "branco_medio": 0.1108,
+      "blocos": [
+        "poderes--acerto",
+        "poderes--protecao",
+        "poderes--abertura"
+      ]
+    },
+    {
+      "pagina": 297,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1354,
+      "branco_direita": 0.1207,
+      "branco_medio": 0.1281,
+      "blocos": [
+        "poderes--abertura",
+        "poderes--barreira"
+      ]
+    },
+    {
+      "pagina": 298,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0107,
+      "branco_direita": 0.2689,
+      "branco_medio": 0.1398,
+      "blocos": [
+        "poderes--barreira",
+        "poderes--rescaldo",
+        "poderes--sembarreiras"
+      ]
+    },
+    {
+      "pagina": 299,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0122,
+      "branco_direita": 0.196,
+      "branco_medio": 0.1041,
+      "blocos": [
+        "poderes--sembarreiras",
+        "poderes--disputa",
+        "poderes--manterdisputa"
+      ]
+    },
+    {
+      "pagina": 300,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1243,
+      "branco_direita": 0.1477,
+      "branco_medio": 0.136,
+      "blocos": [
+        "poderes--manterdisputa",
+        "poderes--sobreposicao",
+        "poderes--multiplos"
+      ]
+    },
+    {
+      "pagina": 301,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0265,
+      "branco_direita": 0.1237,
+      "branco_medio": 0.0751,
+      "blocos": [
+        "poderes--multiplos",
+        "poderes--galeriavidro"
+      ]
+    },
+    {
+      "pagina": 302,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1052,
+      "branco_direita": 0.0685,
+      "branco_medio": 0.0869,
+      "blocos": [
+        "poderes--galeriavidro",
+        "poderes--salatregua",
+        "poderes--confronto"
+      ]
+    },
+    {
+      "pagina": 303,
+      "capitulo": 14,
+      "grupo": "Poderes avançados",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.7329,
+      "branco_direita": 0.6742,
+      "branco_medio": 0.7035,
+      "blocos": [
+        "poderes--confronto"
+      ]
+    },
+    {
+      "pagina": 304,
+      "capitulo": 15,
+      "grupo": "Ritual e Pactos",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 305,
+      "capitulo": 15,
+      "grupo": "Ritual e Pactos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0158,
+      "branco_direita": 0.0374,
+      "branco_medio": 0.0266,
+      "blocos": [
+        "ritual--ritual",
+        "ritual--rit-teste"
+      ]
+    },
+    {
+      "pagina": 306,
+      "capitulo": 15,
+      "grupo": "Ritual",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0525,
+      "branco_direita": 0.0497,
+      "branco_medio": 0.0511,
+      "blocos": [
+        "ritual--rit-teste",
+        "ritual--rit-recitar",
+        "ritual--rit-melhorias"
+      ]
+    },
+    {
+      "pagina": 307,
+      "capitulo": 15,
+      "grupo": "Ritual",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1169,
+      "branco_direita": 0.041,
+      "branco_medio": 0.0789,
+      "blocos": [
+        "ritual--rit-melhorias",
+        "ritual--rit-beneficios"
+      ]
+    },
+    {
+      "pagina": 308,
+      "capitulo": 15,
+      "grupo": "Ritual",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0497,
+      "branco_direita": 0.0497,
+      "branco_medio": 0.0497,
+      "blocos": [
+        "ritual--rit-parcelas",
+        "ritual--rit-limites"
+      ]
+    },
+    {
+      "pagina": 309,
+      "capitulo": 15,
+      "grupo": "Ritual",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0561,
+      "branco_direita": 0.0914,
+      "branco_medio": 0.0737,
+      "blocos": [
+        "ritual--rit-limites",
+        "ritual--rit-ajuda"
+      ]
+    },
+    {
+      "pagina": 310,
+      "capitulo": 15,
+      "grupo": "Ritual e Pactos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1121,
+      "branco_direita": 0.1461,
+      "branco_medio": 0.1291,
+      "blocos": [
+        "ritual--rit-ajuda",
+        "ritual--pactos"
+      ]
+    },
+    {
+      "pagina": 311,
+      "capitulo": 15,
+      "grupo": "Pactos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0859,
+      "branco_direita": 0.0768,
+      "branco_medio": 0.0814,
+      "blocos": [
+        "ritual--pacto-permanente",
+        "ritual--pacto-temporario"
+      ]
+    },
+    {
+      "pagina": 312,
+      "capitulo": 15,
+      "grupo": "Pactos",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0883,
+      "branco_direita": 0.1415,
+      "branco_medio": 0.1149,
+      "blocos": [
+        "ritual--pacto-temporario",
+        "ritual--promessa",
+        "ritual--pacto-restricao"
+      ]
+    },
+    {
+      "pagina": 313,
+      "capitulo": 15,
+      "grupo": "Pactos",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5864,
+      "branco_direita": 0.642,
+      "branco_medio": 0.6142,
+      "blocos": [
+        "ritual--pacto-restricao"
+      ]
+    },
+    {
+      "pagina": 314,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 315,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1793,
+      "branco_direita": 0.0457,
+      "branco_medio": 0.1125,
+      "blocos": [
+        "campo--inv-campo",
+        "campo--inv-ciclo"
+      ]
+    },
+    {
+      "pagina": 316,
+      "capitulo": 16,
+      "grupo": "Turnos das entidades",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0377,
+      "branco_direita": 0.1216,
+      "branco_medio": 0.0797,
+      "blocos": [
+        "campo--inv-entrada",
+        "campo--inv-troca",
+        "campo--inv-intencao"
+      ]
+    },
+    {
+      "pagina": 317,
+      "capitulo": 16,
+      "grupo": "Turnos das entidades",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0386,
+      "branco_direita": 0.0837,
+      "branco_medio": 0.0611,
+      "blocos": [
+        "campo--inv-intencao",
+        "campo--inv-comunicacao",
+        "campo--inv-basica"
+      ]
+    },
+    {
+      "pagina": 318,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0265,
+      "branco_direita": 0.0267,
+      "branco_medio": 0.0266,
+      "blocos": [
+        "campo--inv-basica",
+        "campo--inv-especial",
+        "campo--inv-energia"
+      ]
+    },
+    {
+      "pagina": 319,
+      "capitulo": 16,
+      "grupo": "Comandar uma especial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0803,
+      "branco_direita": 0.0671,
+      "branco_medio": 0.0737,
+      "blocos": [
+        "campo--inv-energia",
+        "campo--inv-antecipada",
+        "campo--inv-pendentes"
+      ]
+    },
+    {
+      "pagina": 320,
+      "capitulo": 16,
+      "grupo": "Comandar uma especial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0356,
+      "branco_direita": 0.1032,
+      "branco_medio": 0.0694,
+      "blocos": [
+        "campo--inv-pendentes",
+        "campo--inv-preparar",
+        "campo--inv-gatilhos"
+      ]
+    },
+    {
+      "pagina": 321,
+      "capitulo": 16,
+      "grupo": "Comandar uma especial",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0232,
+      "branco_direita": 0.0703,
+      "branco_medio": 0.0468,
+      "blocos": [
+        "campo--inv-gatilhos",
+        "campo--inv-tempo",
+        "campo--inv-restricoes-tempo"
+      ]
+    },
+    {
+      "pagina": 322,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.025,
+      "branco_direita": 0.0644,
+      "branco_medio": 0.0447,
+      "blocos": [
+        "campo--inv-restricoes-tempo",
+        "campo--inv-armado",
+        "campo--inv-defesa"
+      ]
+    },
+    {
+      "pagina": 323,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0626,
+      "branco_direita": 0.0423,
+      "branco_medio": 0.0525,
+      "blocos": [
+        "campo--inv-respostas",
+        "campo--inv-talisma",
+        "campo--inv-corpos"
+      ]
+    },
+    {
+      "pagina": 324,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0973,
+      "branco_direita": 0.0601,
+      "branco_medio": 0.0787,
+      "blocos": [
+        "campo--inv-corpos",
+        "campo--inv-reparo"
+      ]
+    },
+    {
+      "pagina": 325,
+      "capitulo": 16,
+      "grupo": "Trunfos das domadas",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0359,
+      "branco_direita": 0.1256,
+      "branco_medio": 0.0808,
+      "blocos": [
+        "campo--inv-liberacao",
+        "campo--inv-maxima"
+      ]
+    },
+    {
+      "pagina": 326,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0204,
+      "branco_direita": 0.084,
+      "branco_medio": 0.0522,
+      "blocos": [
+        "campo--inv-dominio",
+        "campo--inv-queda"
+      ]
+    },
+    {
+      "pagina": 327,
+      "capitulo": 16,
+      "grupo": "Queda e destruição",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1106,
+      "branco_direita": 0.0401,
+      "branco_medio": 0.0754,
+      "blocos": [
+        "campo--inv-queda",
+        "campo--inv-retorno",
+        "campo--inv-fora"
+      ]
+    },
+    {
+      "pagina": 328,
+      "capitulo": 16,
+      "grupo": "Queda e destruição",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0241,
+      "branco_direita": 0.0475,
+      "branco_medio": 0.0358,
+      "blocos": [
+        "campo--inv-inconsciente",
+        "campo--inv-manutencao",
+        "campo--inv-morte"
+      ]
+    },
+    {
+      "pagina": 329,
+      "capitulo": 16,
+      "grupo": "Invocações em campo",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1991,
+      "branco_direita": 0.2046,
+      "branco_medio": 0.2019,
+      "blocos": [
+        "campo--inv-morte",
+        "campo--inv-carga"
+      ]
+    },
+    {
+      "pagina": 330,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 331,
+      "capitulo": 17,
+      "grupo": "Criar uma invocação",
+      "tipo": "art",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.7373,
+      "branco_direita": 0.7373,
+      "branco_medio": 0.7373,
+      "blocos": [
+        "construcao--entidades-criar"
+      ]
+    },
+    {
+      "pagina": 332,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.072,
+      "branco_direita": 0.089,
+      "branco_medio": 0.0805,
+      "blocos": [
+        "construcao--entidades-criar",
+        "construcao--entidades-aquisicao",
+        "construcao--entidade-cao"
+      ]
+    },
+    {
+      "pagina": 333,
+      "capitulo": 17,
+      "grupo": "Exemplo: Cão de sombra",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1395,
+      "branco_direita": 0.0549,
+      "branco_medio": 0.0972,
+      "blocos": [
+        "construcao--entidade-cao",
+        "construcao--entidade-cao-habilidades"
+      ]
+    },
+    {
+      "pagina": 334,
+      "capitulo": 17,
+      "grupo": "Adquirir entidades",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0353,
+      "branco_direita": 0.0342,
+      "branco_medio": 0.0348,
+      "blocos": [
+        "construcao--entidades-lista-criacao",
+        "construcao--entidades-domar"
+      ]
+    },
+    {
+      "pagina": 335,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0662,
+      "branco_direita": 0.0312,
+      "branco_medio": 0.0487,
+      "blocos": [
+        "construcao--entidades-tipos",
+        "construcao--entidades-definicao"
+      ]
+    },
+    {
+      "pagina": 336,
+      "capitulo": 17,
+      "grupo": "Definição e corpo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0734,
+      "branco_direita": 0.1001,
+      "branco_medio": 0.0868,
+      "blocos": [
+        "construcao--entidades-definicao",
+        "construcao--entidades-atributos",
+        "construcao--entidades-vida-defesa"
+      ]
+    },
+    {
+      "pagina": 337,
+      "capitulo": 17,
+      "grupo": "Definição e corpo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0278,
+      "branco_direita": 0.1656,
+      "branco_medio": 0.0967,
+      "blocos": [
+        "construcao--entidades-vida-defesa",
+        "construcao--entidades-progressao"
+      ]
+    },
+    {
+      "pagina": 338,
+      "capitulo": 17,
+      "grupo": "Definição e corpo",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1287,
+      "branco_direita": 0.1679,
+      "branco_medio": 0.1483,
+      "blocos": [
+        "construcao--entidades-progressao",
+        "construcao--entidades-familias"
+      ]
+    },
+    {
+      "pagina": 339,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0057,
+      "branco_direita": 0.1464,
+      "branco_medio": 0.076,
+      "blocos": [
+        "construcao--entidades-familias",
+        "construcao--entidades-basicas",
+        "construcao--entidades-especiais"
+      ]
+    },
+    {
+      "pagina": 340,
+      "capitulo": 17,
+      "grupo": "Habilidades especiais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0847,
+      "branco_direita": 0.1207,
+      "branco_medio": 0.1027,
+      "blocos": [
+        "construcao--entidades-especiais",
+        "construcao--entidades-formas",
+        "construcao--entidades-medidas"
+      ]
+    },
+    {
+      "pagina": 341,
+      "capitulo": 17,
+      "grupo": "Habilidades especiais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0917,
+      "branco_direita": 0.0917,
+      "branco_medio": 0.0917,
+      "blocos": [
+        "construcao--entidades-medidas",
+        "construcao--entidades-efeitos-reduzidos"
+      ]
+    },
+    {
+      "pagina": 342,
+      "capitulo": 17,
+      "grupo": "Habilidades especiais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.2523,
+      "branco_direita": 0.2523,
+      "branco_medio": 0.2523,
+      "blocos": [
+        "construcao--entidades-efeitos-reduzidos",
+        "construcao--entidades-saldo"
+      ]
+    },
+    {
+      "pagina": 343,
+      "capitulo": 17,
+      "grupo": "Habilidades especiais",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1098,
+      "branco_direita": 0.0353,
+      "branco_medio": 0.0726,
+      "blocos": [
+        "construcao--entidades-saldo",
+        "construcao--entidades-controle",
+        "construcao--entidades-restricoes"
+      ]
+    },
+    {
+      "pagina": 344,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0368,
+      "branco_direita": 0.188,
+      "branco_medio": 0.1124,
+      "blocos": [
+        "construcao--entidades-restricoes",
+        "construcao--entidades-passivas"
+      ]
+    },
+    {
+      "pagina": 345,
+      "capitulo": 17,
+      "grupo": "Talentos da entidade",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0801,
+      "branco_direita": 0.003,
+      "branco_medio": 0.0416,
+      "blocos": [
+        "construcao--entidades-passivas-avancadas",
+        "construcao--entidades-passiva-propria"
+      ]
+    },
+    {
+      "pagina": 346,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.088,
+      "branco_direita": 0.1,
+      "branco_medio": 0.094,
+      "blocos": [
+        "construcao--entidades-passiva-propria",
+        "construcao--entidades-ampliacao",
+        "construcao--entidade-vigia"
+      ]
+    },
+    {
+      "pagina": 347,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1222,
+      "branco_direita": 0.0524,
+      "branco_medio": 0.0873,
+      "blocos": [
+        "construcao--entidade-vigia",
+        "construcao--entidade-vigia-habilidades",
+        "construcao--entidades-conferencia"
+      ]
+    },
+    {
+      "pagina": 348,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0634,
+      "branco_direita": 0.0711,
+      "branco_medio": 0.0672,
+      "blocos": [
+        "construcao--entidades-conferencia",
+        "fabricacao--fab-entidades"
+      ]
+    },
+    {
+      "pagina": 349,
+      "capitulo": 17,
+      "grupo": "Fabricação de entidades",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.1215,
+      "branco_direita": 0.1081,
+      "branco_medio": 0.1148,
+      "blocos": [
+        "fabricacao--fab-entidades",
+        "fabricacao--fab-projeto",
+        "fabricacao--fab-teste"
+      ]
+    },
+    {
+      "pagina": 350,
+      "capitulo": 17,
+      "grupo": "Construir invocações",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0422,
+      "branco_direita": 0.0377,
+      "branco_medio": 0.0399,
+      "blocos": [
+        "fabricacao--fab-teste",
+        "fabricacao--fab-conclusao",
+        "fabricacao--fab-exemplo"
+      ]
+    },
+    {
+      "pagina": 351,
+      "capitulo": 17,
+      "grupo": "Exemplo: Talismã de vigia",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5218,
+      "branco_direita": 0.5784,
+      "branco_medio": 0.5501,
+      "blocos": [
+        "fabricacao--fab-exemplo"
+      ]
+    },
+    {
+      "pagina": 352,
+      "capitulo": 18,
+      "grupo": "Mestrar",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 353,
+      "capitulo": 18,
+      "grupo": "Mestrar",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1247,
+      "branco_direita": 0.1142,
+      "branco_medio": 0.1195,
+      "blocos": [
+        "consulta--consulta-missao",
+        "consulta--consulta-conduzir"
+      ]
+    },
+    {
+      "pagina": 354,
+      "capitulo": 18,
+      "grupo": "Mestrar",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.5275,
+      "branco_direita": 0.547,
+      "branco_medio": 0.5372,
+      "blocos": [
+        "consulta--consulta-conduzir"
+      ]
+    },
+    {
+      "pagina": 355,
+      "capitulo": 19,
+      "grupo": "Glossário",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 356,
+      "capitulo": 19,
+      "grupo": "Glossário",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0125,
+      "branco_direita": 0.0469,
+      "branco_medio": 0.0297,
+      "blocos": [
+        "consulta--consulta-glossario-1",
+        "consulta--consulta-glossario-2",
+        "consulta--consulta-glossario-3"
+      ]
+    },
+    {
+      "pagina": 357,
+      "capitulo": 19,
+      "grupo": "Glossário",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0362,
+      "branco_direita": 0.0436,
+      "branco_medio": 0.0399,
+      "blocos": [
+        "consulta--consulta-glossario-3",
+        "consulta--consulta-glossario-4",
+        "consulta--consulta-glossario-5"
+      ]
+    },
+    {
+      "pagina": 358,
+      "capitulo": 19,
+      "grupo": "Glossário",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.4477,
+      "branco_direita": 0.4281,
+      "branco_medio": 0.4379,
+      "blocos": [
+        "consulta--consulta-glossario-5",
+        "consulta--consulta-glossario-6"
+      ]
+    },
+    {
+      "pagina": 359,
+      "capitulo": 20,
+      "grupo": "Consulta rápida",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 360,
+      "capitulo": 20,
+      "grupo": "Consulta rápida",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.1259,
+      "branco_direita": 0.1228,
+      "branco_medio": 0.1244,
+      "blocos": [
+        "consulta--consulta-testes",
+        "consulta--consulta-ataques"
+      ]
+    },
+    {
+      "pagina": 361,
+      "capitulo": 20,
+      "grupo": "Consulta rápida",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.6606,
+      "branco_direita": 0.6693,
+      "branco_medio": 0.6649,
+      "blocos": [
+        "consulta--consulta-ataques"
+      ]
+    },
+    {
+      "pagina": 362,
+      "capitulo": 21,
+      "grupo": "Índice",
+      "tipo": "cover",
+      "borda_capitulo": true,
+      "branco_esquerda": 1.0,
+      "branco_direita": 1.0,
+      "branco_medio": 1.0,
+      "blocos": []
+    },
+    {
+      "pagina": 363,
+      "capitulo": 21,
+      "grupo": "Índice",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0069,
+      "branco_direita": 0.0069,
+      "branco_medio": 0.0069,
+      "blocos": [
+        "consulta--consulta-indice-1",
+        "consulta--consulta-indice-2",
+        "consulta--consulta-indice-3"
+      ]
+    },
+    {
+      "pagina": 364,
+      "capitulo": 21,
+      "grupo": "Índice",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0039,
+      "branco_direita": 0.0039,
+      "branco_medio": 0.0039,
+      "blocos": [
+        "consulta--consulta-indice-3",
+        "consulta--consulta-indice-4",
+        "consulta--consulta-indice-5",
+        "consulta--consulta-indice-6"
+      ]
+    },
+    {
+      "pagina": 365,
+      "capitulo": 21,
+      "grupo": "Índice",
+      "tipo": "content",
+      "borda_capitulo": false,
+      "branco_esquerda": 0.0039,
+      "branco_direita": 0.0039,
+      "branco_medio": 0.0039,
+      "blocos": [
+        "consulta--consulta-indice-6",
+        "consulta--consulta-indice-7",
+        "consulta--consulta-indice-8",
+        "consulta--consulta-indice-9"
+      ]
+    },
+    {
+      "pagina": 366,
+      "capitulo": 21,
+      "grupo": "Índice",
+      "tipo": "content",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.0306,
+      "branco_direita": 0.0039,
+      "branco_medio": 0.0173,
+      "blocos": [
+        "consulta--consulta-indice-9",
+        "consulta--consulta-indice-10",
+        "consulta--consulta-indice-11"
+      ]
+    },
+    {
+      "pagina": 367,
+      "capitulo": 0,
+      "grupo": "Créditos e direitos",
+      "tipo": "credits",
+      "borda_capitulo": true,
+      "branco_esquerda": 0.3276,
+      "branco_direita": 0.3276,
+      "branco_medio": 0.3276,
+      "blocos": []
+    }
+  ]
+}

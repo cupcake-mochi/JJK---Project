@@ -1,0 +1,30 @@
+{
+  "item": "186",
+  "base": "R41",
+  "revisao": "R42",
+  "paginas": 373,
+  "blocos_textuais_alterados": 2,
+  "blocos_alterados": [
+    "ritual--pacto-permanente",
+    "ritual--pacto-restricao"
+  ],
+  "r41_arquivos_verificados": 2520,
+  "r41_intacta": true,
+  "texto_identico_fora_dos_registros": true,
+  "somente_paragrafos_solicitados": true,
+  "paginas_com_composicao_diferente": [
+    317,
+    318
+  ],
+  "registros_recomposicao": 2,
+  "pagina_pacto_permanente": 317,
+  "pagina_pactos_na_criacao": 318,
+  "sha256_pdf": "d4c23b973b6215d54f3d72dfb3250ae80c56b92c8e8911251d46386f4029731d",
+  "problemas": [],
+  "conferencia_geral": {
+    "checagens": 117433,
+    "problemas": [],
+    "links_internos": 2432,
+    "marcadores": 184
+  }
+}

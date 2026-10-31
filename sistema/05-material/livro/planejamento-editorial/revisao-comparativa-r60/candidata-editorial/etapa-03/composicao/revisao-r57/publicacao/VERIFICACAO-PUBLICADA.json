@@ -1,0 +1,25 @@
+{
+  "resultado": "aprovado",
+  "revisao": "R57",
+  "paginas": 415,
+  "metadados_identicos": true,
+  "pdfs": {
+    "claro": {
+      "url": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "status": 200,
+      "tipo": "application/pdf",
+      "sha256": "40a405e0ac954b68cc31fe20192f36c94c52103613a58eec3c39f9919a3ce4bc",
+      "bytes": 61889533
+    },
+    "noturno": {
+      "url": "https://ciclo-maldito.vercel.app/noturno",
+      "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "status": 200,
+      "tipo": "application/pdf",
+      "sha256": "347be0ecc616088b27d468ff9bb5e570ac691ed9e888abd6f1a1d4d0dd4a56c8",
+      "bytes": 62952660
+    }
+  },
+  "verificado_em": "2026-10-25T19:53:04.406621+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "edicao": "R49",
+  "paginas": 397,
+  "sha256_pdf": "c9d1b6cc5f4a63493f7c966caf1a6dfc71c7ff8afe1ee9f45e03fb59ac9f8975",
+  "pdf_modificado": false,
+  "texto_modificado": false,
+  "texto_identico_R48": true,
+  "arquivos_R48_verificados": 2643,
+  "R48_modificada": [],
+  "titulos_verificados": 1540,
+  "titulos_separados_do_proximo_elemento": [],
+  "faixas_duas_colunas": 331,
+  "faixas_fora_de_ordem": [],
+  "frases_proibidas_encontradas": [],
+  "validacao_livro": {
+    "checagens": 118063,
+    "problemas": 0,
+    "links_internos": 2540,
+    "marcadores": 192,
+    "blocos": 511
+  },
+  "paginas_reinspecionadas_ampliadas": [
+    48,
+    72,
+    74,
+    79,
+    84,
+    111,
+    137,
+    163,
+    238,
+    299,
+    340,
+    342
+  ],
+  "revisao_visual_anterior": "A passagem pelas 397 páginas está registrada em REVISAO-VISUAL.json e continua válida para este mesmo SHA256. Esta rodada acrescenta inspeção ampliada seletiva, não uma releitura semântica integral.",
+  "pendencias_textuais_confirmadas": [
+    {
+      "id": "PF01",
+      "pagina": 84,
+      "bloco": "origens--feto-beneficios",
+      "prioridade": "Antes de considerar encerrada a integração editorial",
+      "trecho": "Olho adicional: visão noturna a 9 m",
+      "achado": "A definição aprovada pelo autor não foi incorporada.",
+      "encaminhamento": "Integrar a decisão já aprovada: penumbra e escuridão comum até 9 m sem penalidade por falta de luz, sem distinguir cores no escuro; demais impedimentos de visão continuam.",
+      "status": "Não aplicado nesta auditoria de fechamento."
+    },
+    {
+      "id": "PF02",
+      "pagina": 340,
+      "bloco": "ritual--pacto-permanente",
+      "trecho": "Não converta esses benefícios em níveis de Caminho, Trilha ou Legado.",
+      "achado": "Legados de história já não possuem progressão de benefícios; a referência é anterior à reconstrução das Origens.",
+      "encaminhamento": "Remover a referência a níveis de Legado, preservando a proibição relativa a Caminho e Trilha. Conferir o rascunho separado.",
+      "status": "Não aplicado nesta auditoria de fechamento."
+    },
+    {
+      "id": "PF03",
+      "pagina": 342,
+      "bloco": "ritual--pacto-restricao",
+      "trecho": "use os benefícios e limites da Origem, do Legado e da técnica",
+      "achado": "A frase ainda trata Legado como origem de benefício mecânico.",
+      "encaminhamento": "Ajustar a remissão para Origem e técnica, em acordo com o texto atual dos Legados. Conferir o rascunho separado.",
+      "status": "Não aplicado nesta auditoria de fechamento."
+    }
+  ],
+  "outros_trabalhos_separados": "Polimento narrativo dos Legados e explicação da exceção CE4 constam do rascunho preservado sobre R46. Não confundir o rascunho com a edição atual."
+}

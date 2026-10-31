@@ -1,0 +1,915 @@
+[
+  {
+    "bloco": "ab--ab-primeira-sessao",
+    "titulo": "Primeira sessão",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "ab--ab-sociedade",
+    "titulo": "Sociedade jujutsu",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "geral--turnos",
+    "titulo": "Turnos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "geral--ataques",
+    "titulo": "Ataques",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "geral--perceber",
+    "titulo": "Percepção e visibilidade",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "geral--mundo",
+    "titulo": "Percepção de energia",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "dano--dano",
+    "titulo": "Dano",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "dano--condicoes",
+    "titulo": "Condições",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Condições pesadas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "dano--cura",
+    "titulo": "Cura",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "dano--descansos",
+    "titulo": "Descansos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "ab--ab-equipamento",
+    "titulo": "Equipamento e valores",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "titulo": "Técnica de Kaori",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "ab--ab-resgate",
+    "titulo": "Exemplo: Resgate na ala oeste",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "origens--latente-beneficios",
+    "titulo": "Menores do Latente",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-gojo",
+    "introducao": "Escolha **feitiços ou Manejos conhecidos em quantidade total igual à Maestria** e registre a lista. **Maestria vezes por dia**, ao usar uma dessas capacidades, antes dos dados, escolha um benefício:",
+    "primeiro_item": "• **Vantagem em uma rolagem de acerto** da aplicação.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--descendente-gojo",
+    "introducao": "**Maestria vezes por dia**, depois de falhar em um **TR contra feitiço ou Manejo** e antes das consequências, pode gastar sua **Reação** para repetir esse teste, se a capacidade cumprir pelo menos uma condição:",
+    "primeiro_item": "• Pertencer a uma técnica que você tenha estudado; para Manejos, vale o estudo da própria capacidade.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--receptaculo-excecoes",
+    "titulo": "Menores do Receptáculo",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-zenin",
+    "titulo": "Zenin",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-kamo",
+    "titulo": "Kamo",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-gojo",
+    "titulo": "Gojo",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-inumaki",
+    "titulo": "Inumaki",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--descendente-beneficios",
+    "titulo": "Menores do Descendente",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--encarnado-beneficios",
+    "titulo": "Menores do Encarnado",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "introducao": "Escolha uma alteração:",
+    "primeiro_item": "• **Apêndice preênsil:** braço auxiliar, cauda ou tentáculo que segura um objeto de até **1 Volume** e faz manipulações simples com as ações normais. Deixa as mãos livres, sem conceder ataques, escudo ou gestos adicionais.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "introducao": "Escolha uma adaptação:",
+    "primeiro_item": "• **Aderência:** deslocamento de escalada igual ao normal, inclusive em paredes lisas e tetos, com uma mão livre e apoio dos pés.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "titulo": "Menores do Híbrido",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "introducao": "Você é **imune a Enfeitiçado e Amedrontado**. Ao escolher esta menor, escolha permanentemente uma contrapartida:",
+    "primeiro_item": "• Vulnerabilidade a **um tipo de dano Físico**; ou",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Menores do Corpo Amaldiçoado",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Menores de Manutenção",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--restricao-prenuncio",
+    "introducao": "Se o defensor **puder perceber energia amaldiçoada e ainda não reconhecer por estudo essa execução sua**:",
+    "primeiro_item": "• O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "origens--restricao-beneficios",
+    "titulo": "Menores de Sem Energia",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--restricao-menores-corporais",
+    "titulo": "Menores da Restrição corporal",
+    "motivo": "R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo."
+  },
+  {
+    "bloco": "origens--restricao-saida",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Muro",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "bastiao--bas-punho",
+    "titulo": "Punho",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Combatente Amaldiçoado",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "vanguarda--van-estocada",
+    "titulo": "Estocada",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Batedor",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Batedor: Yumi",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Batedor: Besta",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Batedor: Arma de Fogo",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Executor",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "introducao": "Durante essa cadeia, você pode oferecer **Resposta Coordenada até duas vezes**, respeitando estas condições:",
+    "primeiro_item": "• A primeira exige sua Reação normalmente; a segunda dispensa somente a sua Reação.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Obras de Apoio",
+    "motivo": "Título, atributo e procedimento de criação na mesma coluna."
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Arquiteto",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "guia--guia-analista",
+    "titulo": "Analista",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Socorrista",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Condutor Armado",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "emanador--ema-eco",
+    "titulo": "Ressonante",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "emanador--ema-impulso",
+    "titulo": "Catalisador",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "evocador--ev-parceria-cobrir",
+    "introducao": "Aquela rolagem de ataque recebe **desvantagem**. Escolha o pagamento ao usar a intervenção:",
+    "primeiro_item": "• **1 Ponto de Vínculo e a Reação de quem cobre:** sua Reação pessoal quando você protege. A Reação coletiva quando a invocação protege.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Invocação Principal",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Parceria",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Múltiplas Invocações",
+    "motivo": "R40: abertura da Trilha junto da progressão e, quando cabe, do começo da primeira habilidade."
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "**Intervenções de Vínculo**",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "**Preparação e recolhimento**",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "**Turnos do Evocador**",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "evocador--ev-parceria-resposta",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "introducao": "Durante esse turno:",
+    "primeiro_item": "• Seu deslocamento dobra.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Progressão do Caminho",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "**Respostas de Fluidez**",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "**Fluidez no nível 15**",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "introducao": "Você possui uma **oportunidade de abate** contra ele quando, ao declarar o ataque, pelo menos uma destas condições estiver presente:",
+    "primeiro_item": "• Você está **oculto dele**.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "introducao": "O primeiro ataque corpo a corpo contra seu Alvo Estudado, realizado durante ou imediatamente ao terminar uma destas aproximações, possui uma **oportunidade de abate**:",
+    "primeiro_item": "• **Percorrer pelo menos metade do seu deslocamento por uma parede e, na sequência, saltar de um ponto de apoio ou borda para alcançar o alvo.**",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Fluidez nas execuções de abate",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "introducao": "Para utilizar a habilidade, cumpra os requisitos abaixo:",
+    "primeiro_item": "• **O agressor está ao alcance do seu ataque desarmado**, é de até uma categoria de tamanho maior que você, e você tem uma mão livre.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "introducao": "Depois que o agressor falhar no TR Físico de Redirecionar a Força, resolva o mesmo ataque contra o novo alvo:",
+    "primeiro_item": "• Reutilize **o resultado do d20 já escolhido**, mantendo a vantagem ou desvantagem já resolvida. Não role novamente o ataque. Mantenha os modificadores do atacante e ajuste somente aqueles que dependam especificamente do alvo.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "introducao": "**Uma vez por turno seu**, ao encerrar um arremesso com uma arma de uma mão, incluindo suas correções e continuações, pode fazê-la **retornar à sua mão**, desde que:",
+    "primeiro_item": "• A arma esteja a até **6 m de você**, com caminho livre até sua posição.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "incursor--inc-perfeita",
+    "introducao": "Resolva um ataque contra cada alvo na ordem escolhida:",
+    "primeiro_item": "• **Você tem vantagem nessas rolagens**, sujeita ao cancelamento normal com desvantagem.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "pericias--tarefas",
+    "titulo": "Tarefas e testes",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--fisicas",
+    "titulo": "Perícias físicas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--conhecimento",
+    "titulo": "Investigação e conhecimento",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--ambiente",
+    "titulo": "Ambiente e saúde",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--essencia",
+    "titulo": "Percepção e influência",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--fabricacao",
+    "titulo": "Fabricação",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "pericias--reparos",
+    "titulo": "Reparos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eq-objetos",
+    "titulo": "Usar objetos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eq-oculta",
+    "titulo": "Armas escondidas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqp-protecao",
+    "titulo": "Proteção",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqp-traje",
+    "titulo": "Trajes",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqm-municao",
+    "titulo": "Munição",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqm-recarga",
+    "titulo": "Recarregar",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqm-reserva",
+    "titulo": "Reservas e reposição",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqa-armas",
+    "titulo": "Armas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqi-itens",
+    "titulo": "Itens comuns",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqi-exploracao",
+    "titulo": "Exploração e ferramentas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqi-fechaduras",
+    "titulo": "Fechaduras e contenção",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqi-efeitos",
+    "titulo": "Objetos e efeitos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqi-improvisadas",
+    "titulo": "Armas improvisadas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqc-dinheiro",
+    "titulo": "Dinheiro e acesso",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqc-inicial",
+    "titulo": "Equipamento inicial",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqc-compras",
+    "titulo": "Compras e reposição",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqa-flexiveis",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "equip--eqf-aquisicao",
+    "titulo": "Aquisição e criação",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqf-desgaste",
+    "titulo": "Desgaste",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqf-objetos",
+    "titulo": "Objetos amaldiçoados",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "equip--eqf-armas",
+    "titulo": "Armas amaldiçoadas",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-armas",
+    "titulo": "Tanto Aferido",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-armas",
+    "titulo": "Espada Avulsa",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-armas",
+    "titulo": "Corrente Extensível",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-roupas",
+    "titulo": "Roupas e trajes",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-roupas",
+    "titulo": "Traje de Fuga",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-roupas",
+    "titulo": "Manto de Passagem",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-protecao",
+    "titulo": "Proteções amaldiçoadas",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-protecao",
+    "titulo": "Escudo da Retirada",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-protecao",
+    "titulo": "Escudo Suspenso",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-protecao",
+    "titulo": "Revestimento Quebranto",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-acessorios",
+    "titulo": "Acessórios e outros efeitos",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-acessorios",
+    "titulo": "Capa Perene",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-acessorios",
+    "titulo": "Machado Contrapeso",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-acessorios",
+    "titulo": "Colar de Ar",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-reliquias",
+    "titulo": "Armas de grau elevado",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "equip--eqf-reliquias",
+    "titulo": "Lança do Anátema",
+    "motivo": "R48: nome e metadados junto do primeiro parágrafo do efeito."
+  },
+  {
+    "bloco": "progressao--prog-repertorio",
+    "titulo": "Repertório e novas escolhas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "progressao--prog-atualizar",
+    "titulo": "Atualizar a ficha",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "progressao--prog-trilhas",
+    "titulo": "Trocar de Trilha",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "progressao--prog-capacidades",
+    "titulo": "Mudanças de capacidade",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "progressao--prog-tabela-inicial",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--selo",
+    "introducao": "Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:",
+    "primeiro_item": "• **Gatilho verificável.** O grupo identifica quando acontece.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "fundamento--selo",
+    "titulo": "Capacidades da técnica",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--primeiro",
+    "titulo": "Seu primeiro feitiço",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--conjurar",
+    "titulo": "Conjurar",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--mesclas",
+    "titulo": "Três mesclas prontas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--aplicacoes",
+    "titulo": "Outras aplicações",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--danolimites",
+    "titulo": "Dano e repetições",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--persistente",
+    "titulo": "Áreas persistentes",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--proprio",
+    "titulo": "Efeitos próprios",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--liberacao",
+    "titulo": "Liberação Máxima",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--maxima",
+    "titulo": "Técnica Máxima",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--passagem",
+    "titulo": "Exemplo: Passagem de Papel",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--retirada",
+    "titulo": "Exemplo: Retirada de Emergência",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "fundamento--selo",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--repertorio",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--combinacoes",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--ampliar",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--maxima",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "fundamento--interfaces",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "catalogo--cat-catalogo",
+    "titulo": "Regras compartilhadas das Famílias",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-efeitos",
+    "titulo": "Melhorias: Efeitos",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-modificadores",
+    "titulo": "Melhorias: Modificadores",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--grupo-restricoes-de-conjuracao",
+    "titulo": "Restrições de conjuração",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--grupo-condicoes-de-uso",
+    "titulo": "Condições de uso",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-passivas-1",
+    "titulo": "Talentos de Categoria 1",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "titulo": "Talentos de Categoria 2",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-passivas-3",
+    "titulo": "Talentos de Categoria 3",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-passiva-propria",
+    "titulo": "Talento Próprio",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "catalogo--cat-catalogo",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "aptidoes--apt-marcos",
+    "titulo": "Progressão de Refino",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Ferir maldições",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "rotas--rota-armas",
+    "introducao": "Use o atributo de ataque da arma empregada naquela execução tanto para o ataque quanto para a CD da Kata:",
+    "primeiro_item": "• **Ataque:** d20 + atributo da arma + maestria.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Talentos marciais",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Talentos de resposta",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Cura",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Bênçãos de corpo",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Bênçãos de perseguição",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--criardominio",
+    "titulo": "Criar um domínio",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--protecao",
+    "titulo": "Proteção contra domínios",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--barreira",
+    "titulo": "Barreira e movimento",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--sembarreiras",
+    "titulo": "Expansão sem Barreiras",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--sobreposicao",
+    "titulo": "Áreas sobrepostas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--galeriavidro",
+    "titulo": "Exemplo: Galeria de Vidro",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--salatregua",
+    "titulo": "Exemplo: Sala de Trégua",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Exemplo de confronto",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "campo--inv-troca",
+    "introducao": "A substituta recebe **no máximo uma básica disponível de quem saiu**, quando todas estas condições forem cumpridas:",
+    "primeiro_item": "• Quem saiu ainda tinha essa básica e podia utilizá-la.",
+    "motivo": "R40: introdução e primeiro item da lista na mesma coluna."
+  },
+  {
+    "bloco": "campo--inv-restricoes-tempo",
+    "titulo": "Especiais com preparação prolongada",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidade-cao",
+    "titulo": "Exemplo: Cão de sombra",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Habilidades do cão",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidades-definicao",
+    "titulo": "Definição e corpo",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidades-basicas",
+    "titulo": "Habilidades básicas",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidades-especiais",
+    "titulo": "Habilidades especiais",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidade-vigia",
+    "titulo": "Exemplo: Vigia de papel",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "construcao--entidades-progressao",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  },
+  {
+    "bloco": "consulta--consulta-conduzir",
+    "titulo": "Mestrar uma sessão",
+    "motivo": "R48: apresentação junto da primeira entrada e do início de sua regra."
+  },
+  {
+    "bloco": "consulta--consulta-testes",
+    "motivo": "R48: conclusão curta junto do fim da tabela larga."
+  }
+]

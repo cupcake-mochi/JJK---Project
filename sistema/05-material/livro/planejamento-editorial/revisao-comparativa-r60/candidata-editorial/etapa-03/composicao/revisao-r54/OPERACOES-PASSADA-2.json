@@ -1,0 +1,44 @@
+[
+  {
+    "bloco": "fundamento--formas",
+    "antes": "com **+2 no ataque**, o bônus da Melhoria",
+    "depois": "com resolução por ataque e **+2 no acerto**, o bônus da Melhoria",
+    "motivo": "Deixar explícita a resolução escolhida no exemplo de Precisão, sem atribuí-la a todo feitiço de Toque.",
+    "passada": 2
+  },
+  {
+    "bloco": "origens--restricao-sem-energia",
+    "antes": "Defesa sem Armadura e Estímulo Muscular já são gratuitas pela rota,",
+    "depois": "**Defesa sem Armadura**, que fornece proteção sem uniforme, e **Estímulo Muscular**, que reforça ataques desarmados com esforço, já são gratuitas pela rota,",
+    "motivo": "Identificar as capacidades gratuitas antes de remeter ao capítulo da rota.",
+    "passada": 2
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "antes": "Kaito tem 12 PE e começa seu turno com o cão.",
+    "depois": "Kaito tem 12 PE e começa seu turno com o [Cão de sombra](#construcao--entidade-cao), cuja básica é Mordida e cuja especial é Mordida precisa.",
+    "motivo": "Identificar as duas capacidades do exemplo antes de aplicar suas despesas e rolagens.",
+    "passada": 2
+  },
+  {
+    "bloco": "geral--critico",
+    "antes": "| Dados adicionais de Melhoria, aptidão ou Bênção |",
+    "depois": "| Dados adicionais de outras capacidades, incluindo Melhorias de feitiço, aptidões e Bênçãos |",
+    "motivo": "Expressar a categoria da regra de crítico sem exigir conhecimento prévio dos três catálogos.",
+    "passada": 2
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "antes": "Um desconto fixo de Ritual entra antes da metade,",
+    "depois": "O [Ritual](#ritual--ritual) reforça uma conjuração com preparação e pode conceder desconto de energia. Um desconto fixo de Ritual entra antes da metade,",
+    "motivo": "Explicar a origem do desconto antes da ordem de cálculo.",
+    "passada": 2
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "antes": "Suas Famílias Livres são Controle e Castigo. Amparo, Área e Auxiliares estão Fechadas.",
+    "depois": "Suas Famílias Livres são **Controle**, voltada a condições e contenções, e **Castigo**, voltada ao dano. Ela fecha **Amparo**, ligada à cura e à proteção, **Área**, ligada a efeitos sobre regiões, e **Auxiliares**, ligada a recursos de apoio. Consulte [Conheça as Famílias](#fundamento-link-guia-familias) para os acessos de cada uma.",
+    "motivo": "Explicar a função das Famílias usadas na primeira ficha de exemplo, sem transformá-las em proibições narrativas gerais.",
+    "passada": 2
+  }
+]

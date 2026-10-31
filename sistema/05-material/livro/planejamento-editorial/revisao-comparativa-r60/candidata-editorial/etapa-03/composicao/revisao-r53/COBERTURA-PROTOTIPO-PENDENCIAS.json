@@ -1,0 +1,19 @@
+[
+  "Este capítulo apresenta as regras de criação de feitiços e suas aplicações nas outras rotas. Consulte o livro para as regras gerais de combate, de Dano e recuperação e de aquisição de entidades. Esta versão foi preparada para avaliação dos leitores.",
+  "Manejos e Katas usam os pontos, Formas, Melhorias e Restrições deste capítulo, com os requisitos de suas rotas. Também usam a escolha de ataque ou TR, a criação de peças próprias e as opções de reforço de Controle. As especiais de entidades têm orçamento e desconto próprios, apresentados adiante.",
+  "| Quem usa | Aplicação | O que muda na montagem |",
+  "| Sem Técnica | Manejo | A Regra e as aplicações derivam da semente escolhida. |",
+  "| Técnica Marcial | Kata | O estilo e o equipamento determinam a Regra, o Selo e o atributo. |",
+  "| Entidade | Básica ou especial | Usa suas Famílias, seu orçamento e os valores próprios de seus efeitos. |",
+  "O Restringido **Sem Energia** usa Técnica Marcial: seus PE representam esforço, e a rota não exige Refino. O **Corpo Amaldiçoado** também pode usar Técnica Marcial, sem perder a energia que possui. A **Restrição corporal** segue o Fundamento comum e mantém seus benefícios de Origem, incluindo o Talento extra e Saída Elevada.",
+  "Em todas as rotas, a Descrição e a Regra limitam as peças disponíveis. Descrever uma manobra como marcial não concede uma aptidão amaldiçoada por conta própria.",
+  "Para montar uma habilidade, comece pela ficha da entidade: sua definição, nível, atributos, Famílias e espaços. A aquisição e a progressão dessa ficha estão em **Construir invocações**. Aqui você escolhe o que cada básica ou especial faz e como a entidade a executa.",
+  "Montar uma habilidade não concede uma ação para executá-la. A entidade usa sua atuação básica, e o invocador paga o comando quando ele for exigido. Os procedimentos abaixo distinguem esses recursos.",
+  "Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações, Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.",
+  "**No seu turno, no máximo duas entidades suas podem atuar causando dano.** Cada entidade conta uma vez, independentemente da quantidade de ataques. Especiais comandadas ficam fora dessa contagem, incluindo as imediatas, antecipadas ou preparadas. Ações sem dano também ficam fora. Fora do seu turno, esse limite deixa de se aplicar. Uma habilidade que mude a quantidade usa seus próprios limites.",
+  "As peças de Tempo conservam seus preços e incompatibilidades do **[Catálogo de Melhorias](#melhorias)**. Para uma entidade, elas mudam os recursos abaixo. Nenhuma oferece uma básica adicional por si.",
+  "As Restrições de tempo conservam a devolução e os limites do **[Catálogo de Restrições](#catalogo-restricoes)**. Elas também precisam dificultar o uso da entidade.",
+  "A Melhoria Condição permite escolher uma das treze condições abaixo. O nível da condição define seu preço: Leve, Média ou Pesada. Estados como Morrendo e Derrotado não fazem parte dessa compra.",
+  "Para remover uma condição, você precisa de uma habilidade que permita fazê-lo. Pague o custo em PE indicado, respeitando o teto e a quantidade de condições que essa habilidade consegue remover. Na criação de feitiços, a compra da Melhoria Condição usa os pontos de montagem.",
+  "**Inconsciente, Morrendo, Derrotado, Exaustão e Invisível** têm regras próprias. Invisível é tratado em **Percepção e visibilidade**; os demais, em **Dano e recuperação**. Nenhum deles pode ser comprado como uma das treze condições desta lista."
+]

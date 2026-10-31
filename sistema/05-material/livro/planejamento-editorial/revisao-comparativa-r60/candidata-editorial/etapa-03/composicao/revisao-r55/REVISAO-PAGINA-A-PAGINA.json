@@ -1,0 +1,2305 @@
+{
+  "base": "R54",
+  "paginas_da_base": 414,
+  "metodo": "Inspeção visual sequencial das 414 páginas em 52 pranchas de oito páginas; leitura contextual dos trechos encontrados; comparação antes/depois e nova inspeção das páginas afetadas após geração.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 2,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 3,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 4,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 5,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 6,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 7,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 8,
+      "inspecao_visual": "conferida",
+      "prancha": "001-008.jpg"
+    },
+    {
+      "pagina": 9,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 10,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 11,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 12,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 13,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 14,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 15,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 16,
+      "inspecao_visual": "conferida",
+      "prancha": "009-016.jpg"
+    },
+    {
+      "pagina": 17,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 18,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 19,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 20,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 21,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 22,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 23,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 24,
+      "inspecao_visual": "conferida",
+      "prancha": "017-024.jpg"
+    },
+    {
+      "pagina": 25,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 26,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 27,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 28,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 29,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 30,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 31,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 32,
+      "inspecao_visual": "conferida",
+      "prancha": "025-032.jpg"
+    },
+    {
+      "pagina": 33,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 34,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 35,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 36,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 37,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 38,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 39,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 40,
+      "inspecao_visual": "conferida",
+      "prancha": "033-040.jpg"
+    },
+    {
+      "pagina": 41,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 42,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 43,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 44,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 45,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 46,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 47,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 48,
+      "inspecao_visual": "conferida",
+      "prancha": "041-048.jpg"
+    },
+    {
+      "pagina": 49,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 50,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 51,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 52,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 53,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 54,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 55,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 56,
+      "inspecao_visual": "conferida",
+      "prancha": "049-056.jpg"
+    },
+    {
+      "pagina": 57,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 58,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 59,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 60,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 61,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 62,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 63,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 64,
+      "inspecao_visual": "conferida",
+      "prancha": "057-064.jpg"
+    },
+    {
+      "pagina": 65,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 66,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 67,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 68,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 69,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 70,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 71,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 72,
+      "inspecao_visual": "conferida",
+      "prancha": "065-072.jpg"
+    },
+    {
+      "pagina": 73,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 74,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 75,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 76,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 77,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 78,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 79,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 80,
+      "inspecao_visual": "conferida",
+      "prancha": "073-080.jpg"
+    },
+    {
+      "pagina": 81,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 82,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 83,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 84,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 85,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 86,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 87,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 88,
+      "inspecao_visual": "conferida",
+      "prancha": "081-088.jpg"
+    },
+    {
+      "pagina": 89,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 90,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 91,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 92,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 93,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 94,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 95,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 96,
+      "inspecao_visual": "conferida",
+      "prancha": "089-096.jpg"
+    },
+    {
+      "pagina": 97,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 98,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 99,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 100,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 101,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 102,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 103,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 104,
+      "inspecao_visual": "conferida",
+      "prancha": "097-104.jpg"
+    },
+    {
+      "pagina": 105,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 106,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 107,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 108,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 109,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 110,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 111,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 112,
+      "inspecao_visual": "conferida",
+      "prancha": "105-112.jpg"
+    },
+    {
+      "pagina": 113,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 114,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 115,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 116,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 117,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 118,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 119,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 120,
+      "inspecao_visual": "conferida",
+      "prancha": "113-120.jpg"
+    },
+    {
+      "pagina": 121,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 122,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 123,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 124,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 125,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 126,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 127,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 128,
+      "inspecao_visual": "conferida",
+      "prancha": "121-128.jpg"
+    },
+    {
+      "pagina": 129,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 130,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 131,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 132,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 133,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 134,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 135,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 136,
+      "inspecao_visual": "conferida",
+      "prancha": "129-136.jpg"
+    },
+    {
+      "pagina": 137,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 138,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 139,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 140,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 141,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 142,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 143,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 144,
+      "inspecao_visual": "conferida",
+      "prancha": "137-144.jpg"
+    },
+    {
+      "pagina": 145,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 146,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 147,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 148,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 149,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 150,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 151,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 152,
+      "inspecao_visual": "conferida",
+      "prancha": "145-152.jpg"
+    },
+    {
+      "pagina": 153,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 154,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 155,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 156,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 157,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 158,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 159,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 160,
+      "inspecao_visual": "conferida",
+      "prancha": "153-160.jpg"
+    },
+    {
+      "pagina": 161,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 162,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 163,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 164,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 165,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 166,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 167,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 168,
+      "inspecao_visual": "conferida",
+      "prancha": "161-168.jpg"
+    },
+    {
+      "pagina": 169,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 170,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 171,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 172,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 173,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 174,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 175,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 176,
+      "inspecao_visual": "conferida",
+      "prancha": "169-176.jpg"
+    },
+    {
+      "pagina": 177,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 178,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 179,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 180,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 181,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 182,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 183,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 184,
+      "inspecao_visual": "conferida",
+      "prancha": "177-184.jpg"
+    },
+    {
+      "pagina": 185,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 186,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 187,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 188,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 189,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 190,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 191,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 192,
+      "inspecao_visual": "conferida",
+      "prancha": "185-192.jpg"
+    },
+    {
+      "pagina": 193,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 194,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 195,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 196,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 197,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 198,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 199,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 200,
+      "inspecao_visual": "conferida",
+      "prancha": "193-200.jpg"
+    },
+    {
+      "pagina": 201,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 202,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 203,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 204,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 205,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 206,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 207,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 208,
+      "inspecao_visual": "conferida",
+      "prancha": "201-208.jpg"
+    },
+    {
+      "pagina": 209,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 210,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 211,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 212,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 213,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 214,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 215,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 216,
+      "inspecao_visual": "conferida",
+      "prancha": "209-216.jpg"
+    },
+    {
+      "pagina": 217,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 218,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 219,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 220,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 221,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 222,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 223,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 224,
+      "inspecao_visual": "conferida",
+      "prancha": "217-224.jpg"
+    },
+    {
+      "pagina": 225,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 226,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 227,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 228,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 229,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 230,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 231,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 232,
+      "inspecao_visual": "conferida",
+      "prancha": "225-232.jpg"
+    },
+    {
+      "pagina": 233,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 234,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 235,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 236,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 237,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 238,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 239,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 240,
+      "inspecao_visual": "conferida",
+      "prancha": "233-240.jpg"
+    },
+    {
+      "pagina": 241,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 242,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 243,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 244,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 245,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 246,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 247,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 248,
+      "inspecao_visual": "conferida",
+      "prancha": "241-248.jpg"
+    },
+    {
+      "pagina": 249,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 250,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 251,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 252,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 253,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 254,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 255,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 256,
+      "inspecao_visual": "conferida",
+      "prancha": "249-256.jpg"
+    },
+    {
+      "pagina": 257,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 258,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 259,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 260,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 261,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 262,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 263,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 264,
+      "inspecao_visual": "conferida",
+      "prancha": "257-264.jpg"
+    },
+    {
+      "pagina": 265,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 266,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 267,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 268,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 269,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 270,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 271,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 272,
+      "inspecao_visual": "conferida",
+      "prancha": "265-272.jpg"
+    },
+    {
+      "pagina": 273,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 274,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 275,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 276,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 277,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 278,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 279,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 280,
+      "inspecao_visual": "conferida",
+      "prancha": "273-280.jpg"
+    },
+    {
+      "pagina": 281,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 282,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 283,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 284,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 285,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 286,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 287,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 288,
+      "inspecao_visual": "conferida",
+      "prancha": "281-288.jpg"
+    },
+    {
+      "pagina": 289,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 290,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 291,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 292,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 293,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 294,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 295,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 296,
+      "inspecao_visual": "conferida",
+      "prancha": "289-296.jpg"
+    },
+    {
+      "pagina": 297,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 298,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 299,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 300,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 301,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 302,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 303,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 304,
+      "inspecao_visual": "conferida",
+      "prancha": "297-304.jpg"
+    },
+    {
+      "pagina": 305,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 306,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 307,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 308,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 309,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 310,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 311,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 312,
+      "inspecao_visual": "conferida",
+      "prancha": "305-312.jpg"
+    },
+    {
+      "pagina": 313,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 314,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 315,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 316,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 317,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 318,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 319,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 320,
+      "inspecao_visual": "conferida",
+      "prancha": "313-320.jpg"
+    },
+    {
+      "pagina": 321,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 322,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 323,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 324,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 325,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 326,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 327,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 328,
+      "inspecao_visual": "conferida",
+      "prancha": "321-328.jpg"
+    },
+    {
+      "pagina": 329,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 330,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 331,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 332,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 333,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 334,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 335,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 336,
+      "inspecao_visual": "conferida",
+      "prancha": "329-336.jpg"
+    },
+    {
+      "pagina": 337,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 338,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 339,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 340,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 341,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 342,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 343,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 344,
+      "inspecao_visual": "conferida",
+      "prancha": "337-344.jpg"
+    },
+    {
+      "pagina": 345,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 346,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 347,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 348,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 349,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 350,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 351,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 352,
+      "inspecao_visual": "conferida",
+      "prancha": "345-352.jpg"
+    },
+    {
+      "pagina": 353,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 354,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 355,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 356,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 357,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 358,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 359,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 360,
+      "inspecao_visual": "conferida",
+      "prancha": "353-360.jpg"
+    },
+    {
+      "pagina": 361,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 362,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 363,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 364,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 365,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 366,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 367,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 368,
+      "inspecao_visual": "conferida",
+      "prancha": "361-368.jpg"
+    },
+    {
+      "pagina": 369,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 370,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 371,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 372,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 373,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 374,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 375,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 376,
+      "inspecao_visual": "conferida",
+      "prancha": "369-376.jpg"
+    },
+    {
+      "pagina": 377,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 378,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 379,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 380,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 381,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 382,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 383,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 384,
+      "inspecao_visual": "conferida",
+      "prancha": "377-384.jpg"
+    },
+    {
+      "pagina": 385,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 386,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 387,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 388,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 389,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 390,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 391,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 392,
+      "inspecao_visual": "conferida",
+      "prancha": "385-392.jpg"
+    },
+    {
+      "pagina": 393,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 394,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 395,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 396,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 397,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 398,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 399,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 400,
+      "inspecao_visual": "conferida",
+      "prancha": "393-400.jpg"
+    },
+    {
+      "pagina": 401,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 402,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 403,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 404,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 405,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 406,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 407,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 408,
+      "inspecao_visual": "conferida",
+      "prancha": "401-408.jpg"
+    },
+    {
+      "pagina": 409,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    },
+    {
+      "pagina": 410,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    },
+    {
+      "pagina": 411,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    },
+    {
+      "pagina": 412,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    },
+    {
+      "pagina": 413,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    },
+    {
+      "pagina": 414,
+      "inspecao_visual": "conferida",
+      "prancha": "409-414.jpg"
+    }
+  ],
+  "pranchas_base": "../livro-diagramado-r54/pente-fino-posterior/pranchas",
+  "achados": [
+    {
+      "id": "R55-001",
+      "bloco": "dano--integridade",
+      "antes": "Escolher Insistir não permite agir com Integridade a zero.",
+      "depois": "[Insistir](#dano--insistir) é a opção de continuar agindo ao chegar a zero de vida, conforme o procedimento de Morrendo. Essa opção exige Integridade acima de zero.",
+      "motivo": "Explicar a opção na primeira menção, mantendo a derrota por Integridade.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-002",
+      "bloco": "dano--derrota",
+      "antes": "Um Corpo Amaldiçoado com essa menor",
+      "depois": "Um Corpo Amaldiçoado com essa capacidade de Origem",
+      "motivo": "Identificar a natureza da capacidade antes do capítulo de Origens.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-003",
+      "bloco": "aptidoes--apt-regravacao",
+      "antes": "Você pode encerrar o Rescaldo de sua técnica antes do fim da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.",
+      "depois": "Quando uma Expansão de Domínio termina, o [Rescaldo](#poderes--rescaldo) impede o uso da Técnica Inata pelo restante da cena, salvo seus feitiços de Classe 0. Regravação permite encerrar esse estado antes do fim da cena. Usos repetidos impedem novas Expansões de Domínio naquele dia.",
+      "motivo": "Definir Rescaldo antes de apresentar a capacidade que o encerra.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-004",
+      "bloco": "emanador--ema-instintiva",
+      "antes": "Some Desdobramento, Impulso, Sobrecusto e outros custos independentes depois.",
+      "depois": "Some depois os custos de Desdobramento, do [Impulso Técnico do Catalisador](#emanador--ema-impulso), de Sobrecusto e de outras despesas independentes.",
+      "motivo": "Distinguir o recurso do Catalisador da Melhoria Impulso.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-005",
+      "bloco": "emanador--ema-impulso",
+      "antes": "O **Impulso Energético** pode acelerar um feitiço",
+      "depois": "O **Impulso** recebido por Impulso Técnico pode acelerar um feitiço",
+      "motivo": "Apresentar o recurso com o nome da habilidade que o concede.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-006",
+      "bloco": "catalogo--restricao-carregar",
+      "antes": "Mão Firme dispensa esse teste",
+      "depois": "O Talento [Mão Firme](#indice-r37-12) dispensa esse teste",
+      "motivo": "Identificar o Talento e oferecer remissão à entrada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-007",
+      "bloco": "catalogo--restricao-fragil",
+      "antes": "Mão Firme não protege esses efeitos.",
+      "depois": "O Talento [Mão Firme](#indice-r37-12) não protege esses efeitos.",
+      "motivo": "Identificar o Talento e oferecer remissão à entrada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-008",
+      "bloco": "construcao--entidades-passivas-avancadas",
+      "antes": "| Costura | 2 | Impede que um aliado caia a zero. Proteção e presença. |",
+      "depois": "| Costura | 2 | Impede que um aliado caia a zero. Talentos de Categoria 2. |",
+      "motivo": "Atualizar a remissão para o nome da seção do catálogo atual.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-009",
+      "bloco": "construcao--entidades-passivas-avancadas",
+      "antes": "| Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Proteção e presença. |",
+      "depois": "| Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Talentos de Categoria 2. |",
+      "motivo": "Atualizar a remissão para o nome da seção do catálogo atual.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-010",
+      "bloco": "construcao--entidades-passivas-avancadas",
+      "antes": "**Invocações em campo — Energia das entidades**",
+      "depois": "**Energia das entidades**, em Invocações em campo",
+      "motivo": "Remissão em ordem direta, sem travessão.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-011",
+      "bloco": "construcao--entidades-medidas",
+      "antes": "Não use a Classe reduzida da área para diminuir esse grupo.",
+      "depois": "As medidas reduzidas de área não diminuem esse grupo.",
+      "motivo": "Evitar antecipar o termo Classe reduzida antes da explicação dos efeitos reduzidos.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-012",
+      "bloco": "consulta--consulta-indice-3",
+      "antes": "[Cura (Forma)](#fundamento--amparoformas)",
+      "depois": "[Cura (função)](#fundamento--funcoes)",
+      "motivo": "Atualizar o termo de consulta para a montagem aprovada, em que cura é função.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-013",
+      "bloco": "consulta--consulta-indice-1",
+      "antes": "[Agarrado](#dano--leves)",
+      "depois": "[Agarrado](#indice-r55-01)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-014",
+      "bloco": "consulta--consulta-indice-1",
+      "antes": "[Aparar](#geral--aparar)",
+      "depois": "[Aparar](#indice-r55-02)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-015",
+      "bloco": "consulta--consulta-indice-2",
+      "antes": "[Calado](#dano--medias)",
+      "depois": "[Calado](#indice-r55-03)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-016",
+      "bloco": "consulta--consulta-indice-2",
+      "antes": "[Canalizar em Golpe](#aptidoes--apt-canalizar)",
+      "depois": "[Canalizar em Golpe](#indice-r55-04)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-017",
+      "bloco": "consulta--consulta-indice-2",
+      "antes": "[Cego](#dano--pesadas)",
+      "depois": "[Cego](#indice-r55-05)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-018",
+      "bloco": "consulta--consulta-indice-3",
+      "antes": "[Derrubado](#dano--leves)",
+      "depois": "[Derrubado](#indice-r55-06)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-019",
+      "bloco": "consulta--consulta-indice-3",
+      "antes": "[Desarmado](#dano--leves)",
+      "depois": "[Desarmado](#indice-r55-07)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-020",
+      "bloco": "consulta--consulta-indice-4",
+      "antes": "[Enfeitiçado](#dano--medias)",
+      "depois": "[Enfeitiçado](#indice-r55-08)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-021",
+      "bloco": "consulta--consulta-indice-5",
+      "antes": "[Guarda Aberta](#dano--leves)",
+      "depois": "[Guarda Aberta](#indice-r55-09)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-022",
+      "bloco": "consulta--consulta-indice-6",
+      "antes": "[Impedido](#dano--pesadas)",
+      "depois": "[Impedido](#indice-r55-10)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-023",
+      "bloco": "consulta--consulta-indice-6",
+      "antes": "[Lento](#dano--leves)",
+      "depois": "[Lento](#indice-r55-11)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-024",
+      "bloco": "consulta--consulta-indice-6",
+      "antes": "[Maestria](#geral--atributos)",
+      "depois": "[Maestria](#indice-r55-12)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-025",
+      "bloco": "consulta--consulta-indice-8",
+      "antes": "[Pontos de Vínculo](#evocador--ev-vinculo)",
+      "depois": "[Pontos de Vínculo](#indice-r55-13)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-026",
+      "bloco": "consulta--consulta-indice-9",
+      "antes": "[Reparar](#campo--inv-reparo)",
+      "depois": "[Reparar](#indice-r55-14)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-027",
+      "bloco": "consulta--consulta-indice-10",
+      "antes": "[Selo](#fundamento--selo)",
+      "depois": "[Selo](#indice-r55-15)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    },
+    {
+      "id": "R55-028",
+      "bloco": "consulta--consulta-indice-10",
+      "antes": "[Surdo](#dano--leves)",
+      "depois": "[Surdo](#indice-r55-16)",
+      "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+      "altera_regras": false
+    }
+  ],
+  "limite": "A inspeção visual detecta problemas de composição e leitura aparente; não constitui teste de compreensão com leitores nem prova de ausência de toda ambiguidade."
+}

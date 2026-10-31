@@ -1,0 +1,127 @@
+{
+  "pdf": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r56/output/pdf/Ciclo-Maldito-R56-Noturno-Vinho-e-Pessego.pdf",
+  "paginas": 414,
+  "sha256": "00a79fee809a739b6fdef6f582cd940aaf9a08536abcc28806878f3fbb056283",
+  "sha256_base": "fcabdf2852e62204309b468587f0392e5f761d989544d9a12d33be5db94f9721",
+  "paleta": {
+    "texto": "#D4D1D4",
+    "texto_negrito": "#E0DCE1",
+    "texto_tabela_cabecalho": "#E0DCE1",
+    "texto_secundario": "#B2ABB5",
+    "linha": "#60545E",
+    "borda": "#8B7887",
+    "linha_tabela": "#685663",
+    "linha_capitulo": "#A26D85",
+    "fundo": "#261F23",
+    "faixa_tabela": "#342A30",
+    "faixa_vinho": "#4C303D",
+    "texto_em_faixa": "#F1E1E8",
+    "titulo_secao": "#E39AB8",
+    "titulo_entrada": "#EDACC3",
+    "link": "#F4BD92",
+    "texto_metadados": "#E1B097",
+    "linha_destaque": "#B36B89"
+  },
+  "pinturas": [
+    {
+      "tipo": "linha",
+      "papel": "borda",
+      "quantidade": 1558
+    },
+    {
+      "tipo": "linha",
+      "papel": "faixa_vinho",
+      "quantidade": 23
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha",
+      "quantidade": 738
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_capitulo",
+      "quantidade": 21
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_destaque",
+      "quantidade": 1516
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_tabela",
+      "quantidade": 288
+    },
+    {
+      "tipo": "superficie",
+      "papel": "faixa_tabela",
+      "quantidade": 857
+    },
+    {
+      "tipo": "superficie",
+      "papel": "faixa_vinho",
+      "quantidade": 333
+    },
+    {
+      "tipo": "superficie",
+      "papel": "fundo",
+      "quantidade": 2402
+    },
+    {
+      "tipo": "superficie",
+      "papel": "linha",
+      "quantidade": 1
+    },
+    {
+      "tipo": "superficie",
+      "papel": "linha_destaque",
+      "quantidade": 2
+    },
+    {
+      "tipo": "texto",
+      "papel": "link",
+      "quantidade": 939
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto",
+      "quantidade": 26743
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_em_faixa",
+      "quantidade": 192
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_metadados",
+      "quantidade": 299
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_negrito",
+      "quantidade": 4649
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_secundario",
+      "quantidade": 3908
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_tabela_cabecalho",
+      "quantidade": 942
+    },
+    {
+      "tipo": "texto",
+      "papel": "titulo_entrada",
+      "quantidade": 862
+    },
+    {
+      "tipo": "texto",
+      "papel": "titulo_secao",
+      "quantidade": 599
+    }
+  ]
+}

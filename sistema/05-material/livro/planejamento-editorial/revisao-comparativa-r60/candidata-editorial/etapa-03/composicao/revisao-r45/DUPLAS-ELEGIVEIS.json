@@ -1,0 +1,1626 @@
+{
+  "metodo": "Enumeração por perfil. Os 28 pares gerais do Corpo aparecem também no perfil Manutenção; não são benefícios simultâneos. Híbrido expande os três menus e só repete opções distintas.",
+  "quantidades": {
+    "Latente": 28,
+    "Encarnado": 21,
+    "Sem Energia": 28,
+    "Restrição corporal": 28,
+    "Corpo / história Manutenção": 45,
+    "Corpo / outras histórias": 28,
+    "Receptáculo / Coexistência": 21,
+    "Receptáculo / Conflito": 21,
+    "Descendente / Zenin": 21,
+    "Descendente / Kamo": 21,
+    "Descendente / Gojo": 21,
+    "Descendente / Inumaki": 21,
+    "Híbrido": 91
+  },
+  "duplas": {
+    "Latente": [
+      [
+        "Manifestação Instintiva",
+        "Prontidão Instintiva"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Foco Visceral"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Aptidão Intuitiva"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Presença Bruta"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Retomar o Controle"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Certeza Momentânea"
+      ],
+      [
+        "Manifestação Instintiva",
+        "Gambiarra"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Foco Visceral"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Aptidão Intuitiva"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Presença Bruta"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Retomar o Controle"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Certeza Momentânea"
+      ],
+      [
+        "Prontidão Instintiva",
+        "Gambiarra"
+      ],
+      [
+        "Foco Visceral",
+        "Aptidão Intuitiva"
+      ],
+      [
+        "Foco Visceral",
+        "Presença Bruta"
+      ],
+      [
+        "Foco Visceral",
+        "Retomar o Controle"
+      ],
+      [
+        "Foco Visceral",
+        "Certeza Momentânea"
+      ],
+      [
+        "Foco Visceral",
+        "Gambiarra"
+      ],
+      [
+        "Aptidão Intuitiva",
+        "Presença Bruta"
+      ],
+      [
+        "Aptidão Intuitiva",
+        "Retomar o Controle"
+      ],
+      [
+        "Aptidão Intuitiva",
+        "Certeza Momentânea"
+      ],
+      [
+        "Aptidão Intuitiva",
+        "Gambiarra"
+      ],
+      [
+        "Presença Bruta",
+        "Retomar o Controle"
+      ],
+      [
+        "Presença Bruta",
+        "Certeza Momentânea"
+      ],
+      [
+        "Presença Bruta",
+        "Gambiarra"
+      ],
+      [
+        "Retomar o Controle",
+        "Certeza Momentânea"
+      ],
+      [
+        "Retomar o Controle",
+        "Gambiarra"
+      ],
+      [
+        "Certeza Momentânea",
+        "Gambiarra"
+      ]
+    ],
+    "Encarnado": [
+      [
+        "Especialidade Antiga",
+        "Guarda Reaprendida"
+      ],
+      [
+        "Especialidade Antiga",
+        "Percepção de Contorno"
+      ],
+      [
+        "Especialidade Antiga",
+        "Experiência Transmitida"
+      ],
+      [
+        "Especialidade Antiga",
+        "Memória Testemunha"
+      ],
+      [
+        "Especialidade Antiga",
+        "Vivência de Outra Era"
+      ],
+      [
+        "Especialidade Antiga",
+        "Experiência Preservada"
+      ],
+      [
+        "Guarda Reaprendida",
+        "Percepção de Contorno"
+      ],
+      [
+        "Guarda Reaprendida",
+        "Experiência Transmitida"
+      ],
+      [
+        "Guarda Reaprendida",
+        "Memória Testemunha"
+      ],
+      [
+        "Guarda Reaprendida",
+        "Vivência de Outra Era"
+      ],
+      [
+        "Guarda Reaprendida",
+        "Experiência Preservada"
+      ],
+      [
+        "Percepção de Contorno",
+        "Experiência Transmitida"
+      ],
+      [
+        "Percepção de Contorno",
+        "Memória Testemunha"
+      ],
+      [
+        "Percepção de Contorno",
+        "Vivência de Outra Era"
+      ],
+      [
+        "Percepção de Contorno",
+        "Experiência Preservada"
+      ],
+      [
+        "Experiência Transmitida",
+        "Memória Testemunha"
+      ],
+      [
+        "Experiência Transmitida",
+        "Vivência de Outra Era"
+      ],
+      [
+        "Experiência Transmitida",
+        "Experiência Preservada"
+      ],
+      [
+        "Memória Testemunha",
+        "Vivência de Outra Era"
+      ],
+      [
+        "Memória Testemunha",
+        "Experiência Preservada"
+      ],
+      [
+        "Vivência de Outra Era",
+        "Experiência Preservada"
+      ]
+    ],
+    "Sem Energia": [
+      [
+        "Porte Incomum",
+        "Corpo Flexível"
+      ],
+      [
+        "Porte Incomum",
+        "Mapa Mental"
+      ],
+      [
+        "Porte Incomum",
+        "Aprendizado Complementar"
+      ],
+      [
+        "Porte Incomum",
+        "Assistência Técnica"
+      ],
+      [
+        "Porte Incomum",
+        "Ferramentas Improvisadas"
+      ],
+      [
+        "Porte Incomum",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Porte Incomum",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Corpo Flexível",
+        "Mapa Mental"
+      ],
+      [
+        "Corpo Flexível",
+        "Aprendizado Complementar"
+      ],
+      [
+        "Corpo Flexível",
+        "Assistência Técnica"
+      ],
+      [
+        "Corpo Flexível",
+        "Ferramentas Improvisadas"
+      ],
+      [
+        "Corpo Flexível",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Corpo Flexível",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Mapa Mental",
+        "Aprendizado Complementar"
+      ],
+      [
+        "Mapa Mental",
+        "Assistência Técnica"
+      ],
+      [
+        "Mapa Mental",
+        "Ferramentas Improvisadas"
+      ],
+      [
+        "Mapa Mental",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Mapa Mental",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Aprendizado Complementar",
+        "Assistência Técnica"
+      ],
+      [
+        "Aprendizado Complementar",
+        "Ferramentas Improvisadas"
+      ],
+      [
+        "Aprendizado Complementar",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Aprendizado Complementar",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Assistência Técnica",
+        "Ferramentas Improvisadas"
+      ],
+      [
+        "Assistência Técnica",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Assistência Técnica",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Ferramentas Improvisadas",
+        "Fôlego Recuperado"
+      ],
+      [
+        "Ferramentas Improvisadas",
+        "Contribuição Decisiva"
+      ],
+      [
+        "Fôlego Recuperado",
+        "Contribuição Decisiva"
+      ]
+    ],
+    "Restrição corporal": [
+      [
+        "Reserva Condensada",
+        "Reserva Excedente"
+      ],
+      [
+        "Reserva Condensada",
+        "Recuperação Abundante"
+      ],
+      [
+        "Reserva Condensada",
+        "Sobrecarga Deliberada"
+      ],
+      [
+        "Reserva Condensada",
+        "Leitura de Reservas"
+      ],
+      [
+        "Reserva Condensada",
+        "Último Fôlego de Energia"
+      ],
+      [
+        "Reserva Condensada",
+        "Percepção Estendida"
+      ],
+      [
+        "Reserva Condensada",
+        "Prática Cotidiana"
+      ],
+      [
+        "Reserva Excedente",
+        "Recuperação Abundante"
+      ],
+      [
+        "Reserva Excedente",
+        "Sobrecarga Deliberada"
+      ],
+      [
+        "Reserva Excedente",
+        "Leitura de Reservas"
+      ],
+      [
+        "Reserva Excedente",
+        "Último Fôlego de Energia"
+      ],
+      [
+        "Reserva Excedente",
+        "Percepção Estendida"
+      ],
+      [
+        "Reserva Excedente",
+        "Prática Cotidiana"
+      ],
+      [
+        "Recuperação Abundante",
+        "Sobrecarga Deliberada"
+      ],
+      [
+        "Recuperação Abundante",
+        "Leitura de Reservas"
+      ],
+      [
+        "Recuperação Abundante",
+        "Último Fôlego de Energia"
+      ],
+      [
+        "Recuperação Abundante",
+        "Percepção Estendida"
+      ],
+      [
+        "Recuperação Abundante",
+        "Prática Cotidiana"
+      ],
+      [
+        "Sobrecarga Deliberada",
+        "Leitura de Reservas"
+      ],
+      [
+        "Sobrecarga Deliberada",
+        "Último Fôlego de Energia"
+      ],
+      [
+        "Sobrecarga Deliberada",
+        "Percepção Estendida"
+      ],
+      [
+        "Sobrecarga Deliberada",
+        "Prática Cotidiana"
+      ],
+      [
+        "Leitura de Reservas",
+        "Último Fôlego de Energia"
+      ],
+      [
+        "Leitura de Reservas",
+        "Percepção Estendida"
+      ],
+      [
+        "Leitura de Reservas",
+        "Prática Cotidiana"
+      ],
+      [
+        "Último Fôlego de Energia",
+        "Percepção Estendida"
+      ],
+      [
+        "Último Fôlego de Energia",
+        "Prática Cotidiana"
+      ],
+      [
+        "Percepção Estendida",
+        "Prática Cotidiana"
+      ]
+    ],
+    "Corpo / história Manutenção": [
+      [
+        "Ferramentas Integradas",
+        "Acabamento Trocável"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Amortecimento de Queda"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Reparo Autônomo"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Redundância"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Carcaça Grande"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Construção Especializada"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Núcleo Dependente"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Mente Resguardada"
+      ],
+      [
+        "Acabamento Trocável",
+        "Amortecimento de Queda"
+      ],
+      [
+        "Acabamento Trocável",
+        "Reparo Autônomo"
+      ],
+      [
+        "Acabamento Trocável",
+        "Redundância"
+      ],
+      [
+        "Acabamento Trocável",
+        "Carcaça Grande"
+      ],
+      [
+        "Acabamento Trocável",
+        "Construção Especializada"
+      ],
+      [
+        "Acabamento Trocável",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Acabamento Trocável",
+        "Núcleo Dependente"
+      ],
+      [
+        "Acabamento Trocável",
+        "Mente Resguardada"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Reparo Autônomo"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Redundância"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Carcaça Grande"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Construção Especializada"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Núcleo Dependente"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Mente Resguardada"
+      ],
+      [
+        "Reparo Autônomo",
+        "Redundância"
+      ],
+      [
+        "Reparo Autônomo",
+        "Carcaça Grande"
+      ],
+      [
+        "Reparo Autônomo",
+        "Construção Especializada"
+      ],
+      [
+        "Reparo Autônomo",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Reparo Autônomo",
+        "Núcleo Dependente"
+      ],
+      [
+        "Reparo Autônomo",
+        "Mente Resguardada"
+      ],
+      [
+        "Redundância",
+        "Carcaça Grande"
+      ],
+      [
+        "Redundância",
+        "Construção Especializada"
+      ],
+      [
+        "Redundância",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Redundância",
+        "Núcleo Dependente"
+      ],
+      [
+        "Redundância",
+        "Mente Resguardada"
+      ],
+      [
+        "Carcaça Grande",
+        "Construção Especializada"
+      ],
+      [
+        "Carcaça Grande",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Carcaça Grande",
+        "Núcleo Dependente"
+      ],
+      [
+        "Carcaça Grande",
+        "Mente Resguardada"
+      ],
+      [
+        "Construção Especializada",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Construção Especializada",
+        "Núcleo Dependente"
+      ],
+      [
+        "Construção Especializada",
+        "Mente Resguardada"
+      ],
+      [
+        "Arquivo de Procedimentos",
+        "Núcleo Dependente"
+      ],
+      [
+        "Arquivo de Procedimentos",
+        "Mente Resguardada"
+      ],
+      [
+        "Núcleo Dependente",
+        "Mente Resguardada"
+      ]
+    ],
+    "Corpo / outras histórias": [
+      [
+        "Ferramentas Integradas",
+        "Acabamento Trocável"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Amortecimento de Queda"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Reparo Autônomo"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Redundância"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Carcaça Grande"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Construção Especializada"
+      ],
+      [
+        "Ferramentas Integradas",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Acabamento Trocável",
+        "Amortecimento de Queda"
+      ],
+      [
+        "Acabamento Trocável",
+        "Reparo Autônomo"
+      ],
+      [
+        "Acabamento Trocável",
+        "Redundância"
+      ],
+      [
+        "Acabamento Trocável",
+        "Carcaça Grande"
+      ],
+      [
+        "Acabamento Trocável",
+        "Construção Especializada"
+      ],
+      [
+        "Acabamento Trocável",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Reparo Autônomo"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Redundância"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Carcaça Grande"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Construção Especializada"
+      ],
+      [
+        "Amortecimento de Queda",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Reparo Autônomo",
+        "Redundância"
+      ],
+      [
+        "Reparo Autônomo",
+        "Carcaça Grande"
+      ],
+      [
+        "Reparo Autônomo",
+        "Construção Especializada"
+      ],
+      [
+        "Reparo Autônomo",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Redundância",
+        "Carcaça Grande"
+      ],
+      [
+        "Redundância",
+        "Construção Especializada"
+      ],
+      [
+        "Redundância",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Carcaça Grande",
+        "Construção Especializada"
+      ],
+      [
+        "Carcaça Grande",
+        "Arquivo de Procedimentos"
+      ],
+      [
+        "Construção Especializada",
+        "Arquivo de Procedimentos"
+      ]
+    ],
+    "Receptáculo / Coexistência": [
+      [
+        "Memória Corporal",
+        "Traço Incorporado"
+      ],
+      [
+        "Memória Corporal",
+        "Voz Intrusa"
+      ],
+      [
+        "Memória Corporal",
+        "Foco Inscrito"
+      ],
+      [
+        "Memória Corporal",
+        "Reserva Residual"
+      ],
+      [
+        "Memória Corporal",
+        "Orientação Instintiva"
+      ],
+      [
+        "Memória Corporal",
+        "Conselho Interior"
+      ],
+      [
+        "Traço Incorporado",
+        "Voz Intrusa"
+      ],
+      [
+        "Traço Incorporado",
+        "Foco Inscrito"
+      ],
+      [
+        "Traço Incorporado",
+        "Reserva Residual"
+      ],
+      [
+        "Traço Incorporado",
+        "Orientação Instintiva"
+      ],
+      [
+        "Traço Incorporado",
+        "Conselho Interior"
+      ],
+      [
+        "Voz Intrusa",
+        "Foco Inscrito"
+      ],
+      [
+        "Voz Intrusa",
+        "Reserva Residual"
+      ],
+      [
+        "Voz Intrusa",
+        "Orientação Instintiva"
+      ],
+      [
+        "Voz Intrusa",
+        "Conselho Interior"
+      ],
+      [
+        "Foco Inscrito",
+        "Reserva Residual"
+      ],
+      [
+        "Foco Inscrito",
+        "Orientação Instintiva"
+      ],
+      [
+        "Foco Inscrito",
+        "Conselho Interior"
+      ],
+      [
+        "Reserva Residual",
+        "Orientação Instintiva"
+      ],
+      [
+        "Reserva Residual",
+        "Conselho Interior"
+      ],
+      [
+        "Orientação Instintiva",
+        "Conselho Interior"
+      ]
+    ],
+    "Receptáculo / Conflito": [
+      [
+        "Memória Corporal",
+        "Traço Incorporado"
+      ],
+      [
+        "Memória Corporal",
+        "Voz Intrusa"
+      ],
+      [
+        "Memória Corporal",
+        "Foco Inscrito"
+      ],
+      [
+        "Memória Corporal",
+        "Reserva Residual"
+      ],
+      [
+        "Memória Corporal",
+        "Orientação Instintiva"
+      ],
+      [
+        "Memória Corporal",
+        "Vontade de Cárcere"
+      ],
+      [
+        "Traço Incorporado",
+        "Voz Intrusa"
+      ],
+      [
+        "Traço Incorporado",
+        "Foco Inscrito"
+      ],
+      [
+        "Traço Incorporado",
+        "Reserva Residual"
+      ],
+      [
+        "Traço Incorporado",
+        "Orientação Instintiva"
+      ],
+      [
+        "Traço Incorporado",
+        "Vontade de Cárcere"
+      ],
+      [
+        "Voz Intrusa",
+        "Foco Inscrito"
+      ],
+      [
+        "Voz Intrusa",
+        "Reserva Residual"
+      ],
+      [
+        "Voz Intrusa",
+        "Orientação Instintiva"
+      ],
+      [
+        "Voz Intrusa",
+        "Vontade de Cárcere"
+      ],
+      [
+        "Foco Inscrito",
+        "Reserva Residual"
+      ],
+      [
+        "Foco Inscrito",
+        "Orientação Instintiva"
+      ],
+      [
+        "Foco Inscrito",
+        "Vontade de Cárcere"
+      ],
+      [
+        "Reserva Residual",
+        "Orientação Instintiva"
+      ],
+      [
+        "Reserva Residual",
+        "Vontade de Cárcere"
+      ],
+      [
+        "Orientação Instintiva",
+        "Vontade de Cárcere"
+      ]
+    ],
+    "Descendente / Zenin": [
+      [
+        "Cofre da Família",
+        "Notas de Família"
+      ],
+      [
+        "Cofre da Família",
+        "Autoridade de Berço"
+      ],
+      [
+        "Cofre da Família",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Cofre da Família",
+        "Palavra Empenhada"
+      ],
+      [
+        "Cofre da Família",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Cofre da Família",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Notas de Família",
+        "Autoridade de Berço"
+      ],
+      [
+        "Notas de Família",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Notas de Família",
+        "Palavra Empenhada"
+      ],
+      [
+        "Notas de Família",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Notas de Família",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Autoridade de Berço",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Autoridade de Berço",
+        "Palavra Empenhada"
+      ],
+      [
+        "Autoridade de Berço",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Autoridade de Berço",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Palavra Empenhada"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Palavra Empenhada",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Palavra Empenhada",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Fundamento Incorporado",
+        "Treino de Armas da Casa"
+      ]
+    ],
+    "Descendente / Kamo": [
+      [
+        "Ensaio Partilhado",
+        "Notas de Família"
+      ],
+      [
+        "Ensaio Partilhado",
+        "Autoridade de Berço"
+      ],
+      [
+        "Ensaio Partilhado",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Ensaio Partilhado",
+        "Palavra Empenhada"
+      ],
+      [
+        "Ensaio Partilhado",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Ensaio Partilhado",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Notas de Família",
+        "Autoridade de Berço"
+      ],
+      [
+        "Notas de Família",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Notas de Família",
+        "Palavra Empenhada"
+      ],
+      [
+        "Notas de Família",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Notas de Família",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Autoridade de Berço",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Autoridade de Berço",
+        "Palavra Empenhada"
+      ],
+      [
+        "Autoridade de Berço",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Autoridade de Berço",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Palavra Empenhada"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Palavra Empenhada",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Palavra Empenhada",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Fundamento Incorporado",
+        "Treino de Armas da Casa"
+      ]
+    ],
+    "Descendente / Gojo": [
+      [
+        "Método Reescrito",
+        "Notas de Família"
+      ],
+      [
+        "Método Reescrito",
+        "Autoridade de Berço"
+      ],
+      [
+        "Método Reescrito",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Método Reescrito",
+        "Palavra Empenhada"
+      ],
+      [
+        "Método Reescrito",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Método Reescrito",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Notas de Família",
+        "Autoridade de Berço"
+      ],
+      [
+        "Notas de Família",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Notas de Família",
+        "Palavra Empenhada"
+      ],
+      [
+        "Notas de Família",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Notas de Família",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Autoridade de Berço",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Autoridade de Berço",
+        "Palavra Empenhada"
+      ],
+      [
+        "Autoridade de Berço",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Autoridade de Berço",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Palavra Empenhada"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Palavra Empenhada",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Palavra Empenhada",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Fundamento Incorporado",
+        "Treino de Armas da Casa"
+      ]
+    ],
+    "Descendente / Inumaki": [
+      [
+        "Círculo Íntimo",
+        "Notas de Família"
+      ],
+      [
+        "Círculo Íntimo",
+        "Autoridade de Berço"
+      ],
+      [
+        "Círculo Íntimo",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Círculo Íntimo",
+        "Palavra Empenhada"
+      ],
+      [
+        "Círculo Íntimo",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Círculo Íntimo",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Notas de Família",
+        "Autoridade de Berço"
+      ],
+      [
+        "Notas de Família",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Notas de Família",
+        "Palavra Empenhada"
+      ],
+      [
+        "Notas de Família",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Notas de Família",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Autoridade de Berço",
+        "Bagagem Prevenida"
+      ],
+      [
+        "Autoridade de Berço",
+        "Palavra Empenhada"
+      ],
+      [
+        "Autoridade de Berço",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Autoridade de Berço",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Palavra Empenhada"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Bagagem Prevenida",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Palavra Empenhada",
+        "Fundamento Incorporado"
+      ],
+      [
+        "Palavra Empenhada",
+        "Treino de Armas da Casa"
+      ],
+      [
+        "Fundamento Incorporado",
+        "Treino de Armas da Casa"
+      ]
+    ],
+    "Híbrido": [
+      [
+        "Anatomia: apêndice",
+        "Anatomia: olho"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Armamento: garras"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Armamento: presas"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Armamento: punhos"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Armamento: extensível"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Locomoção: aderência"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Locomoção: planagem"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Memória da Dor"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Recomposição Precisa"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Reserva Orgânica"
+      ],
+      [
+        "Anatomia: apêndice",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Anatomia: olho",
+        "Armamento: garras"
+      ],
+      [
+        "Anatomia: olho",
+        "Armamento: presas"
+      ],
+      [
+        "Anatomia: olho",
+        "Armamento: punhos"
+      ],
+      [
+        "Anatomia: olho",
+        "Armamento: extensível"
+      ],
+      [
+        "Anatomia: olho",
+        "Locomoção: aderência"
+      ],
+      [
+        "Anatomia: olho",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Anatomia: olho",
+        "Locomoção: planagem"
+      ],
+      [
+        "Anatomia: olho",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Anatomia: olho",
+        "Memória da Dor"
+      ],
+      [
+        "Anatomia: olho",
+        "Recomposição Precisa"
+      ],
+      [
+        "Anatomia: olho",
+        "Reserva Orgânica"
+      ],
+      [
+        "Anatomia: olho",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Armamento: garras",
+        "Armamento: presas"
+      ],
+      [
+        "Armamento: garras",
+        "Armamento: punhos"
+      ],
+      [
+        "Armamento: garras",
+        "Armamento: extensível"
+      ],
+      [
+        "Armamento: garras",
+        "Locomoção: aderência"
+      ],
+      [
+        "Armamento: garras",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Armamento: garras",
+        "Locomoção: planagem"
+      ],
+      [
+        "Armamento: garras",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Armamento: garras",
+        "Memória da Dor"
+      ],
+      [
+        "Armamento: garras",
+        "Recomposição Precisa"
+      ],
+      [
+        "Armamento: garras",
+        "Reserva Orgânica"
+      ],
+      [
+        "Armamento: garras",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Armamento: presas",
+        "Armamento: punhos"
+      ],
+      [
+        "Armamento: presas",
+        "Armamento: extensível"
+      ],
+      [
+        "Armamento: presas",
+        "Locomoção: aderência"
+      ],
+      [
+        "Armamento: presas",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Armamento: presas",
+        "Locomoção: planagem"
+      ],
+      [
+        "Armamento: presas",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Armamento: presas",
+        "Memória da Dor"
+      ],
+      [
+        "Armamento: presas",
+        "Recomposição Precisa"
+      ],
+      [
+        "Armamento: presas",
+        "Reserva Orgânica"
+      ],
+      [
+        "Armamento: presas",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Armamento: punhos",
+        "Armamento: extensível"
+      ],
+      [
+        "Armamento: punhos",
+        "Locomoção: aderência"
+      ],
+      [
+        "Armamento: punhos",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Armamento: punhos",
+        "Locomoção: planagem"
+      ],
+      [
+        "Armamento: punhos",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Armamento: punhos",
+        "Memória da Dor"
+      ],
+      [
+        "Armamento: punhos",
+        "Recomposição Precisa"
+      ],
+      [
+        "Armamento: punhos",
+        "Reserva Orgânica"
+      ],
+      [
+        "Armamento: punhos",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Armamento: extensível",
+        "Locomoção: aderência"
+      ],
+      [
+        "Armamento: extensível",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Armamento: extensível",
+        "Locomoção: planagem"
+      ],
+      [
+        "Armamento: extensível",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Armamento: extensível",
+        "Memória da Dor"
+      ],
+      [
+        "Armamento: extensível",
+        "Recomposição Precisa"
+      ],
+      [
+        "Armamento: extensível",
+        "Reserva Orgânica"
+      ],
+      [
+        "Armamento: extensível",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Locomoção: aderência",
+        "Locomoção: anfíbio"
+      ],
+      [
+        "Locomoção: aderência",
+        "Locomoção: planagem"
+      ],
+      [
+        "Locomoção: aderência",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Locomoção: aderência",
+        "Memória da Dor"
+      ],
+      [
+        "Locomoção: aderência",
+        "Recomposição Precisa"
+      ],
+      [
+        "Locomoção: aderência",
+        "Reserva Orgânica"
+      ],
+      [
+        "Locomoção: aderência",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Locomoção: planagem"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Memória da Dor"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Recomposição Precisa"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Reserva Orgânica"
+      ],
+      [
+        "Locomoção: anfíbio",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Locomoção: planagem",
+        "Bolsa Orgânica"
+      ],
+      [
+        "Locomoção: planagem",
+        "Memória da Dor"
+      ],
+      [
+        "Locomoção: planagem",
+        "Recomposição Precisa"
+      ],
+      [
+        "Locomoção: planagem",
+        "Reserva Orgânica"
+      ],
+      [
+        "Locomoção: planagem",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Bolsa Orgânica",
+        "Memória da Dor"
+      ],
+      [
+        "Bolsa Orgânica",
+        "Recomposição Precisa"
+      ],
+      [
+        "Bolsa Orgânica",
+        "Reserva Orgânica"
+      ],
+      [
+        "Bolsa Orgânica",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Memória da Dor",
+        "Recomposição Precisa"
+      ],
+      [
+        "Memória da Dor",
+        "Reserva Orgânica"
+      ],
+      [
+        "Memória da Dor",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Recomposição Precisa",
+        "Reserva Orgânica"
+      ],
+      [
+        "Recomposição Precisa",
+        "Metabolismo Flexível"
+      ],
+      [
+        "Reserva Orgânica",
+        "Metabolismo Flexível"
+      ]
+    ]
+  }
+}

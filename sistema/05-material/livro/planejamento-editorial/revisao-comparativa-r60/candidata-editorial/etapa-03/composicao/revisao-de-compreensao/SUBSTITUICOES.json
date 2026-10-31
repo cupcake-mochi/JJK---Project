@@ -1,0 +1,236 @@
+[
+  {
+    "id": "U001",
+    "bloco": "aptidoes--apt-cobrir",
+    "antes": "Você fica **sem proteção até o fim do seu próximo turno**. Isso inclui a proteção do equipamento e do escudo. Conserve os demais componentes da Defesa. Atualize também a base de Bloquear para os ataques seguintes. O acerto já resolvido não é recalculado.",
+    "depois": "Você perde **somente a proteção passiva desta aptidão até o fim do seu próximo turno**. Traje, Revestimento e escudo continuam dando sua proteção. Conserve os demais componentes da Defesa. Se perder a proteção passiva, atualize também a base de Bloquear para os ataques seguintes. O acerto já resolvido não é recalculado.",
+    "motivo": "Limita a perda à proteção passiva; equipamento conserva seus benefícios.",
+    "item": "160",
+    "altera_regras": true
+  },
+  {
+    "id": "U002",
+    "bloco": "aptidoes--apt-cobrir",
+    "antes": "Esta Reação pode ser usada mesmo vestindo proteção, mas a perda da proteção continua sendo o seu custo. Ela não devolve uma Reação já gasta.",
+    "depois": "Esta Reação pode ser usada mesmo vestindo proteção; nesse caso, você paga somente a Reação e os 2 PE. Ela não devolve uma Reação já gasta.",
+    "motivo": "Explicita o custo com uniforme.",
+    "item": "160",
+    "altera_regras": true
+  },
+  {
+    "id": "U003",
+    "bloco": "aptidoes--apt-cobrir",
+    "antes": "**Exemplo.** Com Refino 6, a proteção passiva é 3 e a redução é 9. Diante de um golpe que causaria 17, você paga 2 PE e recebe 8. Sua proteção fica em zero pelo prazo indicado, deixando os próximos ataques mais perigosos.",
+    "depois": "**Exemplo.** Sem Traje, Revestimento ou escudo, com Refino 6, a proteção passiva é 3 e a redução é 9. Diante de um golpe que causaria 17, você paga 2 PE e recebe 8. Sua proteção fica em zero pelo prazo indicado, deixando os próximos ataques mais perigosos.",
+    "motivo": "Esclarece o equipamento do exemplo, preservando os cálculos.",
+    "item": "160",
+    "altera_regras": true
+  },
+  {
+    "id": "U004",
+    "bloco": "rotas--rota-defesa",
+    "antes": "Depois, fica **sem proteção até o fim do seu próximo turno**, inclusive a de Traje, Revestimento e escudo.",
+    "depois": "Depois, perde **somente a proteção passiva desta Bênção até o fim do seu próximo turno**. Traje, Revestimento e escudo continuam dando sua proteção.",
+    "motivo": "Alinha a Reação da Bênção à aptidão.",
+    "item": "160",
+    "altera_regras": true
+  },
+  {
+    "id": "U005",
+    "bloco": "rotas--rota-defesa",
+    "antes": "Você pode usar essa redução mesmo com equipamento de proteção ou enquanto estiver sem proteção, pagando a Reação e os PE em cada uso. O novo uso mantém a perda até o fim do próximo turno correspondente. Outros valores da Defesa seguem suas regras.",
+    "depois": "Você pode usar essa redução mesmo com equipamento de proteção ou enquanto estiver sem proteção, pagando somente a Reação e os 2 PE em cada uso. O novo uso mantém a perda da proteção passiva até o fim do próximo turno correspondente. Outros valores da Defesa seguem suas regras.",
+    "motivo": "Mantém prazo e custo, tornando explícita a proteção afetada.",
+    "item": "160",
+    "altera_regras": true
+  },
+  {
+    "id": "U006",
+    "bloco": "equip--eqf-armas",
+    "antes": "o alcance corpo a corpo desta arma é **18 m para ataques feitos no seu turno**.",
+    "depois": "o alcance corpo a corpo desta arma é **na cena, na ordem de 100 metros (um quarteirão), para ataques feitos no seu turno**.",
+    "motivo": "Restaura o alcance narrativo solicitado, mantendo as condições.",
+    "item": "171",
+    "altera_regras": true
+  },
+  {
+    "id": "U007",
+    "bloco": "geral--testes",
+    "antes": "Tarefas comuns e conhecimento sem nível próprio usam a tabela abaixo.",
+    "depois": "Tarefas comuns e conhecimento sem nível próprio usam a coluna **CD fixa** da tabela abaixo.",
+    "motivo": "Indica qual coluna usar para uma tarefa comum.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U008",
+    "bloco": "geral--testes",
+    "antes": "Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Na avaliação geral de algo com nível, a base é **8 + atributo do criador + maestria do criador**, com o ajuste da última coluna escolhido pelo mestre. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.",
+    "depois": "Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Para uma avaliação geral de algo com nível, calcule **8 + atributo do criador + maestria do criador**. São os valores de quem criou o efeito, e não de quem faz o teste. O mestre classifica a dificuldade da tarefa e aplica o ajuste da última coluna a essa base, em vez de usar a CD fixa. Assim, uma tarefa fácil ligada a um criador poderoso pode ter uma CD maior que a de uma tarefa fácil comum. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.",
+    "motivo": "Explica a finalidade da escala do criador, o sujeito dos valores e a escolha entre as colunas, sem alterar números.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U009",
+    "bloco": "geral--testes",
+    "antes": "**Exemplo:** com bônus +4, Rina tira 10 no d20 e alcança a CD 14. Para examinar um selo cujo criador tem atributo 4 e maestria 2, a base é 14; se o mestre classificar esse exame como muito difícil, a CD será 16.",
+    "depois": "**Exemplo:** numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é **8 + 4 + 2 = 14**. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será **16**.",
+    "motivo": "Distingue as duas situações do exemplo e mostra a conta já existente.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U010",
+    "bloco": "geral--bloquear",
+    "antes": "depois de conhecer sua rolagem e antes de aplicar o dano e os efeitos do acerto.",
+    "depois": "depois de conhecer a rolagem do atacante e antes de aplicar o dano e os efeitos do acerto.",
+    "motivo": "Elimina a ambiguidade de sua rolagem no momento de escolher Bloquear.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U011",
+    "bloco": "geral--queda-criatura",
+    "antes": "Quando um corpo cai pelo espaço ocupado por outra criatura, resolva a possibilidade de impacto antes do dano.",
+    "depois": "Quando um corpo cai pelo espaço ocupado por outra criatura, resolva a possibilidade de impacto antes do dano. O procedimento abaixo determina se a criatura é atingida e como o dano da queda é dividido entre os dois.",
+    "motivo": "Apresenta a finalidade do procedimento antes do TR e da divisão.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U012",
+    "bloco": "geral--queda-criatura",
+    "antes": "Escolher e tentar controlar o ponto de impacto para atingir alguém exige sua **Ação Padrão antes de começar a queda**. Declare um alvo na trajetória possível.",
+    "depois": "Uma queda deliberada é a tentativa de cair sobre alguém de propósito. Escolher e tentar controlar o ponto de impacto exige sua **Ação Padrão antes de começar a queda**. Declare um alvo na trajetória possível e resolva o impacto com o mesmo TR e a mesma divisão de dano descritos acima.",
+    "motivo": "Liga a tentativa deliberada ao procedimento de impacto, sem criar uma resolução diferente.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U013",
+    "bloco": "geral--arrasto",
+    "antes": "Para arrastar, vale o dobro desse limite.",
+    "depois": "Para arrastar, cada participante também usa o dobro do seu limite normal de carga.",
+    "motivo": "Evita que desse limite seja lido como o dobro já mencionado e produza uma capacidade de quatro vezes o limite normal.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U014",
+    "bloco": "ab--ab-kaori",
+    "antes": "Sobram 3 dados.",
+    "depois": "O resultado é **3d8 de dano**.",
+    "motivo": "Explicita o resultado da montagem sem confundir pontos com dados; conta preservada.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U015",
+    "bloco": "origens--feto-beneficios",
+    "antes": "Se uma opção for impossível, escolha a outra.",
+    "depois": "Se uma opção for impossível, o agressor escolhe a outra.",
+    "motivo": "Mantém explícito quem escolhe a contrapartida de Talhe.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U016",
+    "bloco": "origens--legado-criar",
+    "antes": "Você pode criar **um dos seus dois Legados** com o mestre antes da primeira sessão. O outro deve vir das listas disponíveis.",
+    "depois": "Você pode criar **seus Legados** com o mestre antes da primeira sessão, sem limitar a personalização a apenas um deles.",
+    "motivo": "Corrige decisão anterior não aplicada: item 115 já retirava o limite de um Legado personalizado. As duas vagas, o narrativo e as condições permanecem.",
+    "item": "115",
+    "altera_regras": true
+  },
+  {
+    "id": "U017",
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "antes": "Depois de acertar, ao armar escolha o alvo declarar um ataque com arma ou desarmado, ou começar a sair voluntariamente do espaço ocupado.",
+    "depois": "Depois de acertar esta Condução, você pode usar este modo ao armar uma Conclusão. Na armação, escolha um gatilho: o alvo declarar um ataque com arma ou desarmado, ou começar a sair voluntariamente do espaço ocupado.",
+    "motivo": "Separa o acerto da Condução da escolha posterior do gatilho da Conclusão.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U018",
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "antes": "Escolha **TR Físico ou de Vigor** e consuma os virotes na declaração.",
+    "depois": "Escolha qual tipo de TR será prejudicado — **Físico ou de Vigor** — e consuma os virotes na declaração.",
+    "motivo": "Distingue o tipo de TR que sofrerá desvantagem do TR de Vigor feito para resistir ao efeito.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U019",
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "antes": "A interdição não impede seus feitiços por ele estar empunhando o objeto.",
+    "depois": "A interdição não impede os feitiços do alvo apenas por ele estar empunhando o objeto.",
+    "motivo": "Explicita que a exceção se refere aos feitiços do alvo.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U020",
+    "bloco": "fundamento--danolimites",
+    "antes": "Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam. Some a quantidade inicial com esses acréscimos ao conferir o feitiço: o total não pode passar de **4 × Classe em d8**. Considere também o multiplicador de Remate: 8d8 com aumento de 25% equivale a 10d8 para esse limite. Reduza os dados iniciais na montagem, se necessário. Não ganhe pontos por essa redução. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área.",
+    "depois": "Primeiro, calcule os dados iniciais pelo saldo de pontos da montagem. Depois, confira o dano adicional: Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam, e a soma dos dados iniciais com esses acréscimos não pode passar de **4 × Classe em d8**. Esse teto serve para conferir o total; não aumenta o saldo de pontos nem concede dados por conta própria. Remate também entra nessa conferência: 8d8 com aumento de 25% equivale a 10d8 para o limite. Se o total ultrapassar o teto, reduza os dados iniciais e refaça a conta até caber. Essa redução não devolve pontos para comprar peças. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área.",
+    "motivo": "Explica a ordem das duas contas e distingue orçamento de pontos de teto de dano, sem mudar números, exceções ou o exemplo.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U021",
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "antes": "Ela paga sua básica. Você paga a Padrão do comando.",
+    "depois": "A executora paga sua básica. Você paga a Padrão do comando.",
+    "motivo": "Explicita o sujeito do custo normal da especial, separado da básica da apoiadora já exigida pela intervenção.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U022",
+    "bloco": "progressao--prog-inicio",
+    "antes": "o período anterior à primeiras habilidades",
+    "depois": "o período anterior às primeiras habilidades",
+    "motivo": "Corrige concordância.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U023",
+    "bloco": "progressao--prog-tabela-avancada",
+    "antes": "Cada benefício conserva os requisitos do capítulo que a descreve.",
+    "depois": "Cada benefício conserva os requisitos do capítulo que o descreve.",
+    "motivo": "Corrige o pronome que retoma benefício.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U024",
+    "bloco": "equip--eqf-reliquias",
+    "antes": "antes de sua rolagem de ataque, do seu TR ou da aplicação automática",
+    "depois": "antes da rolagem de ataque do feitiço, do seu TR ou da aplicação automática",
+    "motivo": "Distingue a rolagem do feitiço inimigo do teste do portador da lança.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U025",
+    "bloco": "catalogo--cat-castigo-dano",
+    "antes": "Na montagem, conte seu multiplicador ao verificar o teto.",
+    "depois": "Na montagem, conte também o aumento de 25% ao conferir o teto de Dano e repetições, no Fundamento.",
+    "motivo": "Identifica o multiplicador e indica onde está a conta do teto, sem alterar o benefício de Remate.",
+    "item": null,
+    "altera_regras": false
+  },
+  {
+    "id": "U026",
+    "bloco": "ritual--pacto-permanente",
+    "antes": "Aqui não há mínimo de um. Essência 0 ou 1 não permite nenhum.",
+    "depois": "Aqui não há mínimo de um. Essência 0 ou 1 não abre vagas; a exceção para um pacto de restrição depende da permissão do mestre, conforme Pactos na criação.",
+    "motivo": "A regra geral passa a remeter à exceção já aprovada e escrita no mesmo capítulo, evitando parecer uma proibição absoluta.",
+    "item": null,
+    "altera_regras": false
+  }
+]

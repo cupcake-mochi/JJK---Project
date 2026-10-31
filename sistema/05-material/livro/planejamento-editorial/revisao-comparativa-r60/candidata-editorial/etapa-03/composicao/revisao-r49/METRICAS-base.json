@@ -1,0 +1,4219 @@
+{
+  "edicao": "base",
+  "paginas": 402,
+  "sha256_pdf": "13f710aa2193d4d3e83898d377d7cc323150d506acf678ce2e7882f132557a41",
+  "metodo": "Vazio abaixo do último elemento em cada coluna; elemento largo conta nas duas. Exclui capas, artes, sumário, índice e modelos. Não mede entrelinhas. Triagem de entrada seguinte usa altura aproximada e precisa de inspeção.",
+  "vazio_equivalente_paginas": 60.62,
+  "vazio_meio_capitulo": 47.75,
+  "mais_de_um_terco_meio": [
+    7,
+    48,
+    65,
+    72,
+    73,
+    83,
+    86,
+    112,
+    164,
+    176,
+    181,
+    211,
+    224,
+    240,
+    252,
+    254,
+    312,
+    356,
+    362
+  ],
+  "proxima_entrada_parece_caber": [
+    {
+      "pagina": 9,
+      "capitulo": 1,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 76.2,
+      "vazio_direita_pt": 349.8,
+      "vazio_fracao": 0.316,
+      "desequilibrio": 0.406,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Pessoas e poderes",
+        "altura_aprox": 222.8
+      }
+    },
+    {
+      "pagina": 44,
+      "capitulo": 3,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 304.6,
+      "vazio_direita_pt": 334.6,
+      "vazio_fracao": 0.474,
+      "desequilibrio": 0.044,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Dano",
+        "altura_aprox": 115.2
+      }
+    },
+    {
+      "pagina": 50,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 77.2,
+      "vazio_direita_pt": 129.0,
+      "vazio_fracao": 0.153,
+      "desequilibrio": 0.077,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Condições pesadas",
+        "altura_aprox": 104.0
+      }
+    },
+    {
+      "pagina": 63,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 96.9,
+      "vazio_direita_pt": 254.6,
+      "vazio_fracao": 0.261,
+      "desequilibrio": 0.234,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Equipamento e valores",
+        "altura_aprox": 213.6
+      }
+    },
+    {
+      "pagina": 70,
+      "capitulo": 5,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 87.2,
+      "vazio_direita_pt": 373.0,
+      "vazio_fracao": 0.341,
+      "desequilibrio": 0.424,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Legados de história",
+        "altura_aprox": 298.8
+      }
+    },
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 239.6,
+      "vazio_direita_pt": 234.2,
+      "vazio_fracao": 0.351,
+      "desequilibrio": 0.008,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Retomar o Controle",
+        "altura_aprox": 143.6
+      }
+    },
+    {
+      "pagina": 75,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 78.6,
+      "vazio_direita_pt": 301.4,
+      "vazio_fracao": 0.282,
+      "desequilibrio": 0.33,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Traço Incorporado",
+        "altura_aprox": 124.4
+      }
+    },
+    {
+      "pagina": 107,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 83.4,
+      "vazio_direita_pt": 328.6,
+      "vazio_fracao": 0.305,
+      "desequilibrio": 0.363,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Punho",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 119,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 62.8,
+      "vazio_direita_pt": 126.4,
+      "vazio_fracao": 0.14,
+      "desequilibrio": 0.094,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Batedor: Besta",
+        "altura_aprox": 75.6
+      }
+    },
+    {
+      "pagina": 137,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 209.8,
+      "vazio_direita_pt": 231.1,
+      "vazio_fracao": 0.327,
+      "desequilibrio": 0.032,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Requisitos da aplicação",
+        "altura_aprox": 198.4
+      }
+    },
+    {
+      "pagina": 139,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 34.1,
+      "vazio_direita_pt": 400.0,
+      "vazio_fracao": 0.322,
+      "desequilibrio": 0.542,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Expressões Familiares",
+        "altura_aprox": 260.0
+      }
+    },
+    {
+      "pagina": 140,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 18.7,
+      "vazio_direita_pt": 230.8,
+      "vazio_fracao": 0.185,
+      "desequilibrio": 0.314,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Composição Técnica",
+        "altura_aprox": 220.4
+      }
+    },
+    {
+      "pagina": 143,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 6.2,
+      "vazio_direita_pt": 201.0,
+      "vazio_fracao": 0.154,
+      "desequilibrio": 0.289,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Vínculo Duplo",
+        "altura_aprox": 143.6
+      }
+    },
+    {
+      "pagina": 144,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.2,
+      "vazio_direita_pt": 199.8,
+      "vazio_fracao": 0.165,
+      "desequilibrio": 0.262,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Ressonante",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 150,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 94.2,
+      "vazio_direita_pt": 173.0,
+      "vazio_fracao": 0.198,
+      "desequilibrio": 0.117,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Pontos de Vínculo",
+        "altura_aprox": 106.0
+      }
+    },
+    {
+      "pagina": 160,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 3.1,
+      "vazio_direita_pt": 379.0,
+      "vazio_fracao": 0.283,
+      "desequilibrio": 0.557,
+      "proxima_entrada_parece_caber": {
+        "titulo": "**Aprimoramentos de Parceria**",
+        "altura_aprox": 261.2
+      }
+    },
+    {
+      "pagina": 164,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 305.2,
+      "vazio_direita_pt": 244.8,
+      "vazio_fracao": 0.408,
+      "desequilibrio": 0.09,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Múltiplas Invocações",
+        "altura_aprox": 88.8
+      }
+    },
+    {
+      "pagina": 172,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 64.1,
+      "vazio_direita_pt": 123.4,
+      "vazio_fracao": 0.139,
+      "desequilibrio": 0.088,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Investida",
+        "altura_aprox": 84.8
+      }
+    },
+    {
+      "pagina": 173,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.4,
+      "vazio_direita_pt": 308.6,
+      "vazio_fracao": 0.249,
+      "desequilibrio": 0.417,
+      "proxima_entrada_parece_caber": {
+        "titulo": "**Fluidez no nível 15**",
+        "altura_aprox": 306.8
+      }
+    },
+    {
+      "pagina": 192,
+      "capitulo": 7,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 121.4,
+      "vazio_direita_pt": 166.8,
+      "vazio_fracao": 0.214,
+      "desequilibrio": 0.067,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Tarefas e testes",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 193,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 109.8,
+      "vazio_direita_pt": 185.4,
+      "vazio_fracao": 0.219,
+      "desequilibrio": 0.112,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Perícias físicas",
+        "altura_aprox": 88.8
+      }
+    },
+    {
+      "pagina": 209,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 2.0,
+      "vazio_direita_pt": 170.0,
+      "vazio_fracao": 0.128,
+      "desequilibrio": 0.249,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Recarga entre ataques",
+        "altura_aprox": 170.0
+      }
+    },
+    {
+      "pagina": 216,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 221.5,
+      "vazio_direita_pt": 221.5,
+      "vazio_fracao": 0.328,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Itens comuns",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 217,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.6,
+      "vazio_direita_pt": 338.2,
+      "vazio_fracao": 0.268,
+      "desequilibrio": 0.466,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exploração e ferramentas",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 218,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 70.2,
+      "vazio_direita_pt": 322.6,
+      "vazio_fracao": 0.291,
+      "desequilibrio": 0.374,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Fechaduras e contenção",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 220,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 12.9,
+      "vazio_direita_pt": 168.6,
+      "vazio_fracao": 0.135,
+      "desequilibrio": 0.231,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Armas improvisadas",
+        "altura_aprox": 115.2
+      }
+    },
+    {
+      "pagina": 232,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 19.0,
+      "vazio_direita_pt": 311.6,
+      "vazio_fracao": 0.245,
+      "desequilibrio": 0.434,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Desgaste",
+        "altura_aprox": 227.6
+      }
+    },
+    {
+      "pagina": 240,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 401.1,
+      "vazio_direita_pt": 457.9,
+      "vazio_fracao": 0.637,
+      "desequilibrio": 0.084,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Marcos",
+        "altura_aprox": 387.8
+      }
+    },
+    {
+      "pagina": 255,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 81.4,
+      "vazio_direita_pt": 302.6,
+      "vazio_fracao": 0.285,
+      "desequilibrio": 0.328,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Ação e duração",
+        "altura_aprox": 268.4
+      }
+    },
+    {
+      "pagina": 258,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 9.3,
+      "vazio_direita_pt": 333.2,
+      "vazio_fracao": 0.254,
+      "desequilibrio": 0.48,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Outras aplicações",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 263,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 10.7,
+      "vazio_direita_pt": 289.2,
+      "vazio_fracao": 0.222,
+      "desequilibrio": 0.413,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Efeitos próprios",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 268,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 60.4,
+      "vazio_direita_pt": 341.4,
+      "vazio_fracao": 0.298,
+      "desequilibrio": 0.417,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Em uma missão",
+        "altura_aprox": 124.4
+      }
+    },
+    {
+      "pagina": 275,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 88.2,
+      "vazio_direita_pt": 174.2,
+      "vazio_fracao": 0.195,
+      "desequilibrio": 0.127,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Controle",
+        "altura_aprox": 128.4
+      }
+    },
+    {
+      "pagina": 287,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 51.6,
+      "vazio_direita_pt": 231.4,
+      "vazio_fracao": 0.21,
+      "desequilibrio": 0.267,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Instinto",
+        "altura_aprox": 84.8
+      }
+    },
+    {
+      "pagina": 311,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 20.2,
+      "vazio_direita_pt": 377.0,
+      "vazio_fracao": 0.294,
+      "desequilibrio": 0.529,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Invocações nas rotas",
+        "altura_aprox": 285.6
+      }
+    },
+    {
+      "pagina": 315,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.2,
+      "vazio_direita_pt": 393.8,
+      "vazio_fracao": 0.302,
+      "desequilibrio": 0.563,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exemplo: Sutura Fria",
+        "altura_aprox": 344.2
+      }
+    },
+    {
+      "pagina": 326,
+      "capitulo": 14,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 59.2,
+      "vazio_direita_pt": 342.2,
+      "vazio_fracao": 0.298,
+      "desequilibrio": 0.419,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Acerto do domínio",
+        "altura_aprox": 240.0
+      }
+    },
+    {
+      "pagina": 327,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 30.6,
+      "vazio_direita_pt": 193.0,
+      "vazio_fracao": 0.166,
+      "desequilibrio": 0.241,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Momento da queda",
+        "altura_aprox": 170.0
+      }
+    },
+    {
+      "pagina": 333,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 73.8,
+      "vazio_direita_pt": 311.4,
+      "vazio_fracao": 0.286,
+      "desequilibrio": 0.352,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exemplo: Sala de Trégua",
+        "altura_aprox": 225.5
+      }
+    },
+    {
+      "pagina": 355,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 130.4,
+      "vazio_direita_pt": 116.0,
+      "vazio_fracao": 0.183,
+      "desequilibrio": 0.021,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Especiais com preparação prolongada",
+        "altura_aprox": 91.6
+      }
+    },
+    {
+      "pagina": 394,
+      "capitulo": 20,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 74.5,
+      "vazio_direita_pt": 116.0,
+      "vazio_fracao": 0.141,
+      "desequilibrio": 0.062,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Efeito com TR",
+        "altura_aprox": 98.0
+      }
+    }
+  ],
+  "paginas_detalhes": [
+    {
+      "pagina": 6,
+      "capitulo": 1,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 153.4,
+      "vazio_direita_pt": 29.8,
+      "vazio_fracao": 0.136,
+      "desequilibrio": 0.183,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 7,
+      "capitulo": 1,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 442.6,
+      "vazio_direita_pt": 469.0,
+      "vazio_fracao": 0.676,
+      "desequilibrio": 0.039,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 9,
+      "capitulo": 1,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 76.2,
+      "vazio_direita_pt": 349.8,
+      "vazio_fracao": 0.316,
+      "desequilibrio": 0.406,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Pessoas e poderes",
+        "altura_aprox": 222.8
+      }
+    },
+    {
+      "pagina": 10,
+      "capitulo": 1,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 455.8,
+      "vazio_direita_pt": 455.8,
+      "vazio_fracao": 0.676,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 12,
+      "capitulo": 2,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 106.6,
+      "vazio_direita_pt": 100.6,
+      "vazio_fracao": 0.154,
+      "desequilibrio": 0.009,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 13,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.2,
+      "vazio_direita_pt": 223.6,
+      "vazio_fracao": 0.176,
+      "desequilibrio": 0.31,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 14,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 87.0,
+      "vazio_direita_pt": 39.4,
+      "vazio_fracao": 0.094,
+      "desequilibrio": 0.071,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 15,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 72.4,
+      "vazio_direita_pt": 124.9,
+      "vazio_fracao": 0.146,
+      "desequilibrio": 0.078,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 16,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 136.6,
+      "vazio_direita_pt": 152.3,
+      "vazio_fracao": 0.214,
+      "desequilibrio": 0.023,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 17,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 28.6,
+      "vazio_direita_pt": 102.8,
+      "vazio_fracao": 0.097,
+      "desequilibrio": 0.11,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 18,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 63.4,
+      "vazio_direita_pt": 37.0,
+      "vazio_fracao": 0.074,
+      "desequilibrio": 0.039,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 19,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.4,
+      "vazio_direita_pt": 63.8,
+      "vazio_fracao": 0.068,
+      "desequilibrio": 0.054,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 20,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 53.8,
+      "vazio_direita_pt": 105.6,
+      "vazio_fracao": 0.118,
+      "desequilibrio": 0.077,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 21,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 186.2,
+      "vazio_direita_pt": 104.6,
+      "vazio_fracao": 0.216,
+      "desequilibrio": 0.121,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 22,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 4.6,
+      "vazio_direita_pt": 243.6,
+      "vazio_fracao": 0.184,
+      "desequilibrio": 0.354,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 23,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.4,
+      "vazio_direita_pt": 23.8,
+      "vazio_fracao": 0.038,
+      "desequilibrio": 0.005,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 24,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 70.4,
+      "vazio_direita_pt": 28.0,
+      "vazio_fracao": 0.073,
+      "desequilibrio": 0.063,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 25,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 54.0,
+      "vazio_direita_pt": 138.0,
+      "vazio_fracao": 0.142,
+      "desequilibrio": 0.125,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 26,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 57.4,
+      "vazio_direita_pt": 16.6,
+      "vazio_fracao": 0.055,
+      "desequilibrio": 0.06,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 27,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 102.6,
+      "vazio_direita_pt": 82.2,
+      "vazio_fracao": 0.137,
+      "desequilibrio": 0.03,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 28,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 50.7,
+      "vazio_direita_pt": 50.7,
+      "vazio_fracao": 0.075,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 29,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 3.9,
+      "vazio_direita_pt": 5.0,
+      "vazio_fracao": 0.007,
+      "desequilibrio": 0.002,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 30,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 71.8,
+      "vazio_direita_pt": 81.8,
+      "vazio_fracao": 0.114,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 31,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 28.5,
+      "vazio_direita_pt": 33.4,
+      "vazio_fracao": 0.046,
+      "desequilibrio": 0.007,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 32,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 66.0,
+      "vazio_direita_pt": 15.1,
+      "vazio_fracao": 0.06,
+      "desequilibrio": 0.075,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 33,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 176.6,
+      "vazio_direita_pt": 37.0,
+      "vazio_fracao": 0.158,
+      "desequilibrio": 0.207,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 34,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 63.8,
+      "vazio_direita_pt": 58.4,
+      "vazio_fracao": 0.091,
+      "desequilibrio": 0.008,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 35,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.6,
+      "vazio_direita_pt": 6.6,
+      "vazio_fracao": 0.016,
+      "desequilibrio": 0.012,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 36,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 61.3,
+      "vazio_direita_pt": 61.4,
+      "vazio_fracao": 0.091,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 37,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 80.2,
+      "vazio_direita_pt": 22.6,
+      "vazio_fracao": 0.076,
+      "desequilibrio": 0.085,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 38,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 10.6,
+      "vazio_direita_pt": 201.4,
+      "vazio_fracao": 0.157,
+      "desequilibrio": 0.283,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 39,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.2,
+      "vazio_direita_pt": 8.4,
+      "vazio_fracao": 0.026,
+      "desequilibrio": 0.028,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 40,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 88.2,
+      "vazio_direita_pt": 5.0,
+      "vazio_fracao": 0.069,
+      "desequilibrio": 0.123,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 41,
+      "capitulo": 2,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 102.4,
+      "vazio_direita_pt": 48.6,
+      "vazio_fracao": 0.112,
+      "desequilibrio": 0.08,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 42,
+      "capitulo": 2,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 112.6,
+      "vazio_direita_pt": 118.2,
+      "vazio_fracao": 0.171,
+      "desequilibrio": 0.008,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 44,
+      "capitulo": 3,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 304.6,
+      "vazio_direita_pt": 334.6,
+      "vazio_fracao": 0.474,
+      "desequilibrio": 0.044,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Dano",
+        "altura_aprox": 115.2
+      }
+    },
+    {
+      "pagina": 45,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 21.8,
+      "vazio_direita_pt": 62.6,
+      "vazio_fracao": 0.063,
+      "desequilibrio": 0.06,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 46,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 173.6,
+      "vazio_direita_pt": 20.8,
+      "vazio_fracao": 0.144,
+      "desequilibrio": 0.226,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 47,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 64.8,
+      "vazio_direita_pt": 255.5,
+      "vazio_fracao": 0.237,
+      "desequilibrio": 0.283,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 48,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 329.4,
+      "vazio_direita_pt": 140.2,
+      "vazio_fracao": 0.348,
+      "desequilibrio": 0.28,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 49,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 8.7,
+      "vazio_direita_pt": 41.0,
+      "vazio_fracao": 0.037,
+      "desequilibrio": 0.048,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 50,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 77.2,
+      "vazio_direita_pt": 129.0,
+      "vazio_fracao": 0.153,
+      "desequilibrio": 0.077,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Condições pesadas",
+        "altura_aprox": 104.0
+      }
+    },
+    {
+      "pagina": 51,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 41.0,
+      "vazio_direita_pt": 44.8,
+      "vazio_fracao": 0.064,
+      "desequilibrio": 0.006,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 52,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 166.3,
+      "vazio_direita_pt": 183.8,
+      "vazio_fracao": 0.26,
+      "desequilibrio": 0.026,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 53,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 85.5,
+      "vazio_direita_pt": 85.5,
+      "vazio_fracao": 0.127,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 54,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 19.3,
+      "vazio_direita_pt": 326.8,
+      "vazio_fracao": 0.257,
+      "desequilibrio": 0.456,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 55,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 78.2,
+      "vazio_direita_pt": 75.4,
+      "vazio_fracao": 0.114,
+      "desequilibrio": 0.004,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 56,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 87.8,
+      "vazio_direita_pt": 76.6,
+      "vazio_fracao": 0.122,
+      "desequilibrio": 0.017,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 57,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 275.0,
+      "vazio_direita_pt": 88.6,
+      "vazio_fracao": 0.27,
+      "desequilibrio": 0.276,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 58,
+      "capitulo": 3,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 11.4,
+      "vazio_direita_pt": 151.1,
+      "vazio_fracao": 0.121,
+      "desequilibrio": 0.207,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 59,
+      "capitulo": 3,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 99.6,
+      "vazio_direita_pt": 24.0,
+      "vazio_fracao": 0.092,
+      "desequilibrio": 0.112,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 61,
+      "capitulo": 4,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 215.7,
+      "vazio_direita_pt": 225.4,
+      "vazio_fracao": 0.327,
+      "desequilibrio": 0.014,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 62,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 41.0,
+      "vazio_direita_pt": 42.3,
+      "vazio_fracao": 0.062,
+      "desequilibrio": 0.002,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 63,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 96.9,
+      "vazio_direita_pt": 254.6,
+      "vazio_fracao": 0.261,
+      "desequilibrio": 0.234,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Equipamento e valores",
+        "altura_aprox": 213.6
+      }
+    },
+    {
+      "pagina": 64,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 79.4,
+      "vazio_direita_pt": 46.6,
+      "vazio_fracao": 0.093,
+      "desequilibrio": 0.049,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 65,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 207.0,
+      "vazio_direita_pt": 281.2,
+      "vazio_fracao": 0.362,
+      "desequilibrio": 0.11,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 66,
+      "capitulo": 4,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 121.6,
+      "vazio_direita_pt": 235.4,
+      "vazio_fracao": 0.265,
+      "desequilibrio": 0.169,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 67,
+      "capitulo": 4,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 232.2,
+      "vazio_direita_pt": 405.4,
+      "vazio_fracao": 0.473,
+      "desequilibrio": 0.257,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 70,
+      "capitulo": 5,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 87.2,
+      "vazio_direita_pt": 373.0,
+      "vazio_fracao": 0.341,
+      "desequilibrio": 0.424,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Legados de história",
+        "altura_aprox": 298.8
+      }
+    },
+    {
+      "pagina": 71,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 75.8,
+      "vazio_direita_pt": 66.0,
+      "vazio_fracao": 0.105,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 239.6,
+      "vazio_direita_pt": 234.2,
+      "vazio_fracao": 0.351,
+      "desequilibrio": 0.008,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Retomar o Controle",
+        "altura_aprox": 143.6
+      }
+    },
+    {
+      "pagina": 73,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 390.6,
+      "vazio_direita_pt": 490.6,
+      "vazio_fracao": 0.653,
+      "desequilibrio": 0.148,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 75,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 78.6,
+      "vazio_direita_pt": 301.4,
+      "vazio_fracao": 0.282,
+      "desequilibrio": 0.33,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Traço Incorporado",
+        "altura_aprox": 124.4
+      }
+    },
+    {
+      "pagina": 76,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 94.6,
+      "vazio_direita_pt": 269.4,
+      "vazio_fracao": 0.27,
+      "desequilibrio": 0.259,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 77,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 83.4,
+      "vazio_direita_pt": 57.8,
+      "vazio_fracao": 0.105,
+      "desequilibrio": 0.038,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 78,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 40.2,
+      "vazio_direita_pt": 137.0,
+      "vazio_fracao": 0.131,
+      "desequilibrio": 0.143,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 79,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 46.2,
+      "vazio_direita_pt": 231.0,
+      "vazio_fracao": 0.206,
+      "desequilibrio": 0.274,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 80,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 246.2,
+      "vazio_direita_pt": 44.6,
+      "vazio_fracao": 0.216,
+      "desequilibrio": 0.299,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 81,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 251.0,
+      "vazio_direita_pt": 40.5,
+      "vazio_fracao": 0.216,
+      "desequilibrio": 0.312,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 82,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.8,
+      "vazio_direita_pt": 31.4,
+      "vazio_fracao": 0.041,
+      "desequilibrio": 0.011,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 83,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 224.2,
+      "vazio_direita_pt": 390.6,
+      "vazio_fracao": 0.456,
+      "desequilibrio": 0.247,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 85,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 3.8,
+      "vazio_direita_pt": 3.8,
+      "vazio_fracao": 0.006,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 86,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 214.6,
+      "vazio_direita_pt": 343.4,
+      "vazio_fracao": 0.414,
+      "desequilibrio": 0.191,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 88,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 110.6,
+      "vazio_direita_pt": 48.2,
+      "vazio_fracao": 0.118,
+      "desequilibrio": 0.092,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 89,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 209.6,
+      "vazio_direita_pt": 91.8,
+      "vazio_fracao": 0.223,
+      "desequilibrio": 0.175,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 90,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 33.8,
+      "vazio_direita_pt": 52.4,
+      "vazio_fracao": 0.064,
+      "desequilibrio": 0.028,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 91,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 154.2,
+      "vazio_direita_pt": 233.4,
+      "vazio_fracao": 0.287,
+      "desequilibrio": 0.117,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 93,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 114.6,
+      "vazio_direita_pt": 48.2,
+      "vazio_fracao": 0.121,
+      "desequilibrio": 0.098,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 94,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 57.8,
+      "vazio_direita_pt": 95.0,
+      "vazio_fracao": 0.113,
+      "desequilibrio": 0.055,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 95,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 15.0,
+      "vazio_direita_pt": 193.8,
+      "vazio_fracao": 0.155,
+      "desequilibrio": 0.265,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 96,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 40.6,
+      "vazio_direita_pt": 82.2,
+      "vazio_fracao": 0.091,
+      "desequilibrio": 0.062,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 97,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 92.0,
+      "vazio_direita_pt": 27.6,
+      "vazio_fracao": 0.089,
+      "desequilibrio": 0.095,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 98,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 71.0,
+      "vazio_direita_pt": 31.4,
+      "vazio_fracao": 0.076,
+      "desequilibrio": 0.059,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 99,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 37.0,
+      "vazio_direita_pt": 54.2,
+      "vazio_fracao": 0.068,
+      "desequilibrio": 0.025,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 100,
+      "capitulo": 5,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 12.6,
+      "vazio_direita_pt": 11.2,
+      "vazio_fracao": 0.018,
+      "desequilibrio": 0.002,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 101,
+      "capitulo": 5,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 252.2,
+      "vazio_direita_pt": 180.6,
+      "vazio_fracao": 0.321,
+      "desequilibrio": 0.106,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 104,
+      "capitulo": 6,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 265.8,
+      "vazio_direita_pt": 4.3,
+      "vazio_fracao": 0.2,
+      "desequilibrio": 0.388,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 105,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 152.0,
+      "vazio_direita_pt": 86.4,
+      "vazio_fracao": 0.177,
+      "desequilibrio": 0.097,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 106,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 36.6,
+      "vazio_direita_pt": 14.1,
+      "vazio_fracao": 0.038,
+      "desequilibrio": 0.033,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 107,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 83.4,
+      "vazio_direita_pt": 328.6,
+      "vazio_fracao": 0.305,
+      "desequilibrio": 0.363,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Punho",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 108,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 86.9,
+      "vazio_direita_pt": 18.4,
+      "vazio_fracao": 0.078,
+      "desequilibrio": 0.102,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 109,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 65.7,
+      "vazio_direita_pt": 84.1,
+      "vazio_fracao": 0.111,
+      "desequilibrio": 0.027,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 110,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 106.6,
+      "vazio_direita_pt": 224.0,
+      "vazio_fracao": 0.245,
+      "desequilibrio": 0.174,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 112,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 224.7,
+      "vazio_direita_pt": 299.1,
+      "vazio_fracao": 0.388,
+      "desequilibrio": 0.11,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 113,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 74.0,
+      "vazio_direita_pt": 74.0,
+      "vazio_fracao": 0.11,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 114,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 81.8,
+      "vazio_direita_pt": 91.4,
+      "vazio_fracao": 0.128,
+      "desequilibrio": 0.014,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 115,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 81.5,
+      "vazio_direita_pt": 14.2,
+      "vazio_fracao": 0.071,
+      "desequilibrio": 0.1,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 116,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 24.7,
+      "vazio_direita_pt": 21.4,
+      "vazio_fracao": 0.034,
+      "desequilibrio": 0.005,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 117,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 19.4,
+      "vazio_direita_pt": 216.5,
+      "vazio_fracao": 0.175,
+      "desequilibrio": 0.292,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 118,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 36.6,
+      "vazio_direita_pt": 4.2,
+      "vazio_fracao": 0.03,
+      "desequilibrio": 0.048,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 119,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 62.8,
+      "vazio_direita_pt": 126.4,
+      "vazio_fracao": 0.14,
+      "desequilibrio": 0.094,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Batedor: Besta",
+        "altura_aprox": 75.6
+      }
+    },
+    {
+      "pagina": 120,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 41.2,
+      "vazio_direita_pt": 164.8,
+      "vazio_fracao": 0.153,
+      "desequilibrio": 0.183,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 121,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 60.0,
+      "vazio_direita_pt": 70.0,
+      "vazio_fracao": 0.096,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 122,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 8.4,
+      "vazio_direita_pt": 57.2,
+      "vazio_fracao": 0.049,
+      "desequilibrio": 0.072,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 123,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 218.0,
+      "vazio_direita_pt": 26.1,
+      "vazio_fracao": 0.181,
+      "desequilibrio": 0.284,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 124,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 54.8,
+      "vazio_direita_pt": 8.2,
+      "vazio_fracao": 0.047,
+      "desequilibrio": 0.069,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 126,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 104.7,
+      "vazio_direita_pt": 47.3,
+      "vazio_fracao": 0.113,
+      "desequilibrio": 0.085,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 127,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 30.2,
+      "vazio_direita_pt": 38.0,
+      "vazio_fracao": 0.051,
+      "desequilibrio": 0.012,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 128,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 95.2,
+      "vazio_direita_pt": 272.8,
+      "vazio_fracao": 0.273,
+      "desequilibrio": 0.263,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 129,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 109.6,
+      "vazio_direita_pt": 38.9,
+      "vazio_fracao": 0.11,
+      "desequilibrio": 0.105,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 130,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 376.4,
+      "vazio_direita_pt": 48.4,
+      "vazio_fracao": 0.315,
+      "desequilibrio": 0.486,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 131,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 48.3,
+      "vazio_direita_pt": 74.7,
+      "vazio_fracao": 0.091,
+      "desequilibrio": 0.039,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 132,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.4,
+      "vazio_direita_pt": 163.3,
+      "vazio_fracao": 0.138,
+      "desequilibrio": 0.207,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 133,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.7,
+      "vazio_direita_pt": 29.0,
+      "vazio_fracao": 0.045,
+      "desequilibrio": 0.004,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 134,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.3,
+      "vazio_direita_pt": 2.4,
+      "vazio_fracao": 0.019,
+      "desequilibrio": 0.031,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 135,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 34.7,
+      "vazio_direita_pt": 45.6,
+      "vazio_fracao": 0.06,
+      "desequilibrio": 0.016,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 137,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 209.8,
+      "vazio_direita_pt": 231.1,
+      "vazio_fracao": 0.327,
+      "desequilibrio": 0.032,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Requisitos da aplicação",
+        "altura_aprox": 198.4
+      }
+    },
+    {
+      "pagina": 138,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 42.4,
+      "vazio_direita_pt": 285.6,
+      "vazio_fracao": 0.243,
+      "desequilibrio": 0.36,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 139,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 34.1,
+      "vazio_direita_pt": 400.0,
+      "vazio_fracao": 0.322,
+      "desequilibrio": 0.542,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Expressões Familiares",
+        "altura_aprox": 260.0
+      }
+    },
+    {
+      "pagina": 140,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 18.7,
+      "vazio_direita_pt": 230.8,
+      "vazio_fracao": 0.185,
+      "desequilibrio": 0.314,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Composição Técnica",
+        "altura_aprox": 220.4
+      }
+    },
+    {
+      "pagina": 141,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 225.8,
+      "vazio_direita_pt": 74.2,
+      "vazio_fracao": 0.222,
+      "desequilibrio": 0.225,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 142,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.4,
+      "vazio_direita_pt": 138.8,
+      "vazio_fracao": 0.114,
+      "desequilibrio": 0.184,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 143,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 6.2,
+      "vazio_direita_pt": 201.0,
+      "vazio_fracao": 0.154,
+      "desequilibrio": 0.289,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Vínculo Duplo",
+        "altura_aprox": 143.6
+      }
+    },
+    {
+      "pagina": 144,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.2,
+      "vazio_direita_pt": 199.8,
+      "vazio_fracao": 0.165,
+      "desequilibrio": 0.262,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Ressonante",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 78.5,
+      "vazio_direita_pt": 198.6,
+      "vazio_fracao": 0.205,
+      "desequilibrio": 0.178,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 146,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 73.0,
+      "vazio_direita_pt": 71.0,
+      "vazio_fracao": 0.107,
+      "desequilibrio": 0.003,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 147,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 9.1,
+      "vazio_direita_pt": 30.8,
+      "vazio_fracao": 0.03,
+      "desequilibrio": 0.032,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 148,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 200.8,
+      "vazio_direita_pt": 211.0,
+      "vazio_fracao": 0.305,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 150,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 94.2,
+      "vazio_direita_pt": 173.0,
+      "vazio_fracao": 0.198,
+      "desequilibrio": 0.117,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Pontos de Vínculo",
+        "altura_aprox": 106.0
+      }
+    },
+    {
+      "pagina": 151,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 172.6,
+      "vazio_direita_pt": 78.4,
+      "vazio_fracao": 0.186,
+      "desequilibrio": 0.14,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 152,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 98.6,
+      "vazio_direita_pt": 21.6,
+      "vazio_fracao": 0.089,
+      "desequilibrio": 0.114,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 153,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 38.2,
+      "vazio_direita_pt": 316.4,
+      "vazio_fracao": 0.263,
+      "desequilibrio": 0.412,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 154,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 9.0,
+      "vazio_direita_pt": 30.2,
+      "vazio_fracao": 0.029,
+      "desequilibrio": 0.031,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 155,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 77.2,
+      "vazio_direita_pt": 93.7,
+      "vazio_fracao": 0.127,
+      "desequilibrio": 0.024,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 156,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 68.8,
+      "vazio_direita_pt": 68.2,
+      "vazio_fracao": 0.102,
+      "desequilibrio": 0.001,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 157,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 6.0,
+      "vazio_direita_pt": 17.9,
+      "vazio_fracao": 0.018,
+      "desequilibrio": 0.018,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 158,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 6.7,
+      "vazio_direita_pt": 256.2,
+      "vazio_fracao": 0.195,
+      "desequilibrio": 0.37,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 121.9,
+      "vazio_direita_pt": 78.1,
+      "vazio_fracao": 0.148,
+      "desequilibrio": 0.065,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 160,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 3.1,
+      "vazio_direita_pt": 379.0,
+      "vazio_fracao": 0.283,
+      "desequilibrio": 0.557,
+      "proxima_entrada_parece_caber": {
+        "titulo": "**Aprimoramentos de Parceria**",
+        "altura_aprox": 261.2
+      }
+    },
+    {
+      "pagina": 161,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 26.6,
+      "vazio_direita_pt": 37.2,
+      "vazio_fracao": 0.047,
+      "desequilibrio": 0.016,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 162,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.0,
+      "vazio_direita_pt": 4.2,
+      "vazio_fracao": 0.026,
+      "desequilibrio": 0.04,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 163,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 96.6,
+      "vazio_direita_pt": 160.7,
+      "vazio_fracao": 0.191,
+      "desequilibrio": 0.095,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 164,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 305.2,
+      "vazio_direita_pt": 244.8,
+      "vazio_fracao": 0.408,
+      "desequilibrio": 0.09,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Múltiplas Invocações",
+        "altura_aprox": 88.8
+      }
+    },
+    {
+      "pagina": 165,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 163.0,
+      "vazio_direita_pt": 242.8,
+      "vazio_fracao": 0.301,
+      "desequilibrio": 0.118,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 166,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.3,
+      "vazio_direita_pt": 48.0,
+      "vazio_fracao": 0.059,
+      "desequilibrio": 0.025,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 167,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 240.2,
+      "vazio_direita_pt": 92.2,
+      "vazio_fracao": 0.246,
+      "desequilibrio": 0.219,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 168,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 68.2,
+      "vazio_direita_pt": 18.6,
+      "vazio_fracao": 0.064,
+      "desequilibrio": 0.074,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 169,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 72.5,
+      "vazio_direita_pt": 20.0,
+      "vazio_fracao": 0.069,
+      "desequilibrio": 0.078,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 170,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 49.0,
+      "vazio_direita_pt": 17.2,
+      "vazio_fracao": 0.049,
+      "desequilibrio": 0.047,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 172,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 64.1,
+      "vazio_direita_pt": 123.4,
+      "vazio_fracao": 0.139,
+      "desequilibrio": 0.088,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Investida",
+        "altura_aprox": 84.8
+      }
+    },
+    {
+      "pagina": 173,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.4,
+      "vazio_direita_pt": 308.6,
+      "vazio_fracao": 0.249,
+      "desequilibrio": 0.417,
+      "proxima_entrada_parece_caber": {
+        "titulo": "**Fluidez no nível 15**",
+        "altura_aprox": 306.8
+      }
+    },
+    {
+      "pagina": 174,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 38.8,
+      "vazio_direita_pt": 39.2,
+      "vazio_fracao": 0.058,
+      "desequilibrio": 0.001,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 176,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 304.6,
+      "vazio_direita_pt": 223.0,
+      "vazio_fracao": 0.391,
+      "desequilibrio": 0.121,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 177,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 148.2,
+      "vazio_direita_pt": 199.4,
+      "vazio_fracao": 0.258,
+      "desequilibrio": 0.076,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 178,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 98.4,
+      "vazio_direita_pt": 36.6,
+      "vazio_fracao": 0.1,
+      "desequilibrio": 0.092,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 179,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 120.2,
+      "vazio_direita_pt": 102.0,
+      "vazio_fracao": 0.165,
+      "desequilibrio": 0.027,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 181,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 373.0,
+      "vazio_direita_pt": 182.5,
+      "vazio_fracao": 0.412,
+      "desequilibrio": 0.282,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 182,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 7.4,
+      "vazio_direita_pt": 10.0,
+      "vazio_fracao": 0.013,
+      "desequilibrio": 0.004,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 183,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 50.2,
+      "vazio_direita_pt": 68.8,
+      "vazio_fracao": 0.088,
+      "desequilibrio": 0.028,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 184,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 157.8,
+      "vazio_direita_pt": 129.4,
+      "vazio_fracao": 0.213,
+      "desequilibrio": 0.042,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 186,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 162.0,
+      "vazio_direita_pt": 98.7,
+      "vazio_fracao": 0.193,
+      "desequilibrio": 0.094,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 187,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 99.2,
+      "vazio_direita_pt": 141.0,
+      "vazio_fracao": 0.178,
+      "desequilibrio": 0.062,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 188,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 82.8,
+      "vazio_direita_pt": 10.8,
+      "vazio_fracao": 0.069,
+      "desequilibrio": 0.107,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 189,
+      "capitulo": 6,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 114.4,
+      "vazio_direita_pt": 7.8,
+      "vazio_fracao": 0.091,
+      "desequilibrio": 0.158,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 190,
+      "capitulo": 6,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 407.0,
+      "vazio_direita_pt": 467.8,
+      "vazio_fracao": 0.648,
+      "desequilibrio": 0.09,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 192,
+      "capitulo": 7,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 121.4,
+      "vazio_direita_pt": 166.8,
+      "vazio_fracao": 0.214,
+      "desequilibrio": 0.067,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Tarefas e testes",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 193,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 109.8,
+      "vazio_direita_pt": 185.4,
+      "vazio_fracao": 0.219,
+      "desequilibrio": 0.112,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Perícias físicas",
+        "altura_aprox": 88.8
+      }
+    },
+    {
+      "pagina": 194,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 15.4,
+      "vazio_direita_pt": 57.8,
+      "vazio_fracao": 0.054,
+      "desequilibrio": 0.063,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 195,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 77.8,
+      "vazio_direita_pt": 115.4,
+      "vazio_fracao": 0.143,
+      "desequilibrio": 0.056,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 196,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 84.4,
+      "vazio_direita_pt": 59.0,
+      "vazio_fracao": 0.106,
+      "desequilibrio": 0.038,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 197,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 44.6,
+      "vazio_direita_pt": 44.6,
+      "vazio_fracao": 0.066,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 198,
+      "capitulo": 7,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 220.4,
+      "vazio_direita_pt": 59.3,
+      "vazio_fracao": 0.207,
+      "desequilibrio": 0.239,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 199,
+      "capitulo": 7,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 48.2,
+      "vazio_direita_pt": 113.8,
+      "vazio_fracao": 0.12,
+      "desequilibrio": 0.097,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 201,
+      "capitulo": 8,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 217.7,
+      "vazio_direita_pt": 140.6,
+      "vazio_fracao": 0.266,
+      "desequilibrio": 0.114,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 202,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 161.8,
+      "vazio_direita_pt": 21.6,
+      "vazio_fracao": 0.136,
+      "desequilibrio": 0.208,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 203,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 152.3,
+      "vazio_direita_pt": 56.3,
+      "vazio_fracao": 0.155,
+      "desequilibrio": 0.142,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 204,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 41.8,
+      "vazio_direita_pt": 27.4,
+      "vazio_fracao": 0.051,
+      "desequilibrio": 0.021,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 205,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 170.0,
+      "vazio_direita_pt": 17.0,
+      "vazio_fracao": 0.139,
+      "desequilibrio": 0.227,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 206,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 54.8,
+      "vazio_direita_pt": 54.9,
+      "vazio_fracao": 0.081,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 207,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 18.0,
+      "vazio_direita_pt": 72.3,
+      "vazio_fracao": 0.067,
+      "desequilibrio": 0.08,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 208,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 139.6,
+      "vazio_direita_pt": 218.8,
+      "vazio_fracao": 0.266,
+      "desequilibrio": 0.117,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 209,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 2.0,
+      "vazio_direita_pt": 170.0,
+      "vazio_fracao": 0.128,
+      "desequilibrio": 0.249,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Recarga entre ataques",
+        "altura_aprox": 170.0
+      }
+    },
+    {
+      "pagina": 210,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 36.8,
+      "vazio_direita_pt": 49.8,
+      "vazio_fracao": 0.064,
+      "desequilibrio": 0.019,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 211,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 330.9,
+      "vazio_direita_pt": 143.8,
+      "vazio_fracao": 0.352,
+      "desequilibrio": 0.277,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 212,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 160.2,
+      "vazio_direita_pt": 160.2,
+      "vazio_fracao": 0.238,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 213,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 86.8,
+      "vazio_direita_pt": 86.8,
+      "vazio_fracao": 0.129,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 214,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 180.5,
+      "vazio_direita_pt": 180.5,
+      "vazio_fracao": 0.268,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 215,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 76.6,
+      "vazio_direita_pt": 76.6,
+      "vazio_fracao": 0.114,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 216,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 221.5,
+      "vazio_direita_pt": 221.5,
+      "vazio_fracao": 0.328,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Itens comuns",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 217,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.6,
+      "vazio_direita_pt": 338.2,
+      "vazio_fracao": 0.268,
+      "desequilibrio": 0.466,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exploração e ferramentas",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 218,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 70.2,
+      "vazio_direita_pt": 322.6,
+      "vazio_fracao": 0.291,
+      "desequilibrio": 0.374,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Fechaduras e contenção",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 219,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 140.7,
+      "vazio_direita_pt": 83.0,
+      "vazio_fracao": 0.166,
+      "desequilibrio": 0.086,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 220,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 12.9,
+      "vazio_direita_pt": 168.6,
+      "vazio_fracao": 0.135,
+      "desequilibrio": 0.231,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Armas improvisadas",
+        "altura_aprox": 115.2
+      }
+    },
+    {
+      "pagina": 221,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 83.4,
+      "vazio_direita_pt": 73.6,
+      "vazio_fracao": 0.116,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 222,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 99.1,
+      "vazio_direita_pt": 204.6,
+      "vazio_fracao": 0.225,
+      "desequilibrio": 0.156,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 223,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 46.0,
+      "vazio_direita_pt": 145.2,
+      "vazio_fracao": 0.142,
+      "desequilibrio": 0.147,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 224,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 306.2,
+      "vazio_direita_pt": 272.6,
+      "vazio_fracao": 0.429,
+      "desequilibrio": 0.05,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 226,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 75.2,
+      "vazio_direita_pt": 10.9,
+      "vazio_fracao": 0.064,
+      "desequilibrio": 0.095,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 227,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 224.2,
+      "vazio_direita_pt": 32.5,
+      "vazio_fracao": 0.19,
+      "desequilibrio": 0.284,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 228,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 55.0,
+      "vazio_direita_pt": 130.6,
+      "vazio_fracao": 0.138,
+      "desequilibrio": 0.112,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 229,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 75.8,
+      "vazio_direita_pt": 103.0,
+      "vazio_fracao": 0.133,
+      "desequilibrio": 0.04,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 230,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 112.4,
+      "vazio_direita_pt": 230.6,
+      "vazio_fracao": 0.254,
+      "desequilibrio": 0.175,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 231,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 185.4,
+      "vazio_direita_pt": 45.4,
+      "vazio_fracao": 0.171,
+      "desequilibrio": 0.208,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 232,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 19.0,
+      "vazio_direita_pt": 311.6,
+      "vazio_fracao": 0.245,
+      "desequilibrio": 0.434,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Desgaste",
+        "altura_aprox": 227.6
+      }
+    },
+    {
+      "pagina": 233,
+      "capitulo": 8,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 60.4,
+      "vazio_direita_pt": 95.2,
+      "vazio_fracao": 0.115,
+      "desequilibrio": 0.052,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 234,
+      "capitulo": 8,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 408.0,
+      "vazio_direita_pt": 329.4,
+      "vazio_fracao": 0.547,
+      "desequilibrio": 0.117,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 236,
+      "capitulo": 9,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 461.0,
+      "vazio_direita_pt": 195.4,
+      "vazio_fracao": 0.487,
+      "desequilibrio": 0.394,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 237,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.9,
+      "vazio_direita_pt": 65.7,
+      "vazio_fracao": 0.069,
+      "desequilibrio": 0.056,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 238,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.6,
+      "vazio_direita_pt": 23.6,
+      "vazio_fracao": 0.035,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 239,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 20.3,
+      "vazio_direita_pt": 20.3,
+      "vazio_fracao": 0.03,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 240,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 401.1,
+      "vazio_direita_pt": 457.9,
+      "vazio_fracao": 0.637,
+      "desequilibrio": 0.084,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Marcos",
+        "altura_aprox": 387.8
+      }
+    },
+    {
+      "pagina": 241,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 87.4,
+      "vazio_direita_pt": 63.0,
+      "vazio_fracao": 0.112,
+      "desequilibrio": 0.036,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 242,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 13.0,
+      "vazio_direita_pt": 53.8,
+      "vazio_fracao": 0.05,
+      "desequilibrio": 0.06,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 243,
+      "capitulo": 9,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 51.8,
+      "vazio_direita_pt": 188.2,
+      "vazio_fracao": 0.178,
+      "desequilibrio": 0.202,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 244,
+      "capitulo": 9,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 184.2,
+      "vazio_direita_pt": 107.4,
+      "vazio_fracao": 0.216,
+      "desequilibrio": 0.114,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 247,
+      "capitulo": 10,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 165.9,
+      "vazio_direita_pt": 385.4,
+      "vazio_fracao": 0.409,
+      "desequilibrio": 0.325,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 248,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 142.3,
+      "vazio_direita_pt": 37.7,
+      "vazio_fracao": 0.133,
+      "desequilibrio": 0.155,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 249,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 13.8,
+      "vazio_direita_pt": 3.7,
+      "vazio_fracao": 0.013,
+      "desequilibrio": 0.015,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 250,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 91.0,
+      "vazio_direita_pt": 204.2,
+      "vazio_fracao": 0.219,
+      "desequilibrio": 0.168,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 251,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 144.6,
+      "vazio_direita_pt": 129.6,
+      "vazio_fracao": 0.203,
+      "desequilibrio": 0.022,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 252,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 437.8,
+      "vazio_direita_pt": 17.8,
+      "vazio_fracao": 0.338,
+      "desequilibrio": 0.623,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 253,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 86.9,
+      "vazio_direita_pt": 86.9,
+      "vazio_fracao": 0.129,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 254,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 508.6,
+      "vazio_direita_pt": 65.9,
+      "vazio_fracao": 0.426,
+      "desequilibrio": 0.656,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 255,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 81.4,
+      "vazio_direita_pt": 302.6,
+      "vazio_fracao": 0.285,
+      "desequilibrio": 0.328,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Ação e duração",
+        "altura_aprox": 268.4
+      }
+    },
+    {
+      "pagina": 256,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 80.2,
+      "vazio_direita_pt": 68.1,
+      "vazio_fracao": 0.11,
+      "desequilibrio": 0.018,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 257,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.1,
+      "vazio_direita_pt": 379.2,
+      "vazio_fracao": 0.304,
+      "desequilibrio": 0.516,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 258,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 9.3,
+      "vazio_direita_pt": 333.2,
+      "vazio_fracao": 0.254,
+      "desequilibrio": 0.48,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Outras aplicações",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 259,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 13.4,
+      "vazio_direita_pt": 153.4,
+      "vazio_fracao": 0.124,
+      "desequilibrio": 0.208,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 260,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 62.2,
+      "vazio_direita_pt": 28.3,
+      "vazio_fracao": 0.067,
+      "desequilibrio": 0.05,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 261,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 45.5,
+      "vazio_direita_pt": 75.3,
+      "vazio_fracao": 0.09,
+      "desequilibrio": 0.044,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 262,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 20.2,
+      "vazio_direita_pt": 20.2,
+      "vazio_fracao": 0.03,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 263,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 10.7,
+      "vazio_direita_pt": 289.2,
+      "vazio_fracao": 0.222,
+      "desequilibrio": 0.413,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Efeitos próprios",
+        "altura_aprox": 102.0
+      }
+    },
+    {
+      "pagina": 264,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 246.2,
+      "vazio_direita_pt": 15.0,
+      "vazio_fracao": 0.194,
+      "desequilibrio": 0.343,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 265,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 127.6,
+      "vazio_direita_pt": 37.8,
+      "vazio_fracao": 0.123,
+      "desequilibrio": 0.133,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 266,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 42.5,
+      "vazio_direita_pt": 42.5,
+      "vazio_fracao": 0.063,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 267,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 138.9,
+      "vazio_direita_pt": 125.7,
+      "vazio_fracao": 0.196,
+      "desequilibrio": 0.02,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 268,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 60.4,
+      "vazio_direita_pt": 341.4,
+      "vazio_fracao": 0.298,
+      "desequilibrio": 0.417,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Em uma missão",
+        "altura_aprox": 124.4
+      }
+    },
+    {
+      "pagina": 269,
+      "capitulo": 10,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 107.4,
+      "vazio_direita_pt": 165.4,
+      "vazio_fracao": 0.202,
+      "desequilibrio": 0.086,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 270,
+      "capitulo": 10,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 159.6,
+      "vazio_direita_pt": 395.0,
+      "vazio_fracao": 0.411,
+      "desequilibrio": 0.349,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 272,
+      "capitulo": 11,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 168.0,
+      "vazio_direita_pt": 48.6,
+      "vazio_fracao": 0.161,
+      "desequilibrio": 0.177,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 273,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 144.0,
+      "vazio_direita_pt": 30.6,
+      "vazio_fracao": 0.129,
+      "desequilibrio": 0.168,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 274,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 140.0,
+      "vazio_direita_pt": 158.6,
+      "vazio_fracao": 0.221,
+      "desequilibrio": 0.028,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 275,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 88.2,
+      "vazio_direita_pt": 174.2,
+      "vazio_fracao": 0.195,
+      "desequilibrio": 0.127,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Controle",
+        "altura_aprox": 128.4
+      }
+    },
+    {
+      "pagina": 276,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 12.4,
+      "vazio_direita_pt": 158.6,
+      "vazio_fracao": 0.127,
+      "desequilibrio": 0.217,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 277,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 3.6,
+      "vazio_direita_pt": 164.2,
+      "vazio_fracao": 0.124,
+      "desequilibrio": 0.238,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 278,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 60.6,
+      "vazio_direita_pt": 201.6,
+      "vazio_fracao": 0.194,
+      "desequilibrio": 0.209,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 279,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.8,
+      "vazio_direita_pt": 83.2,
+      "vazio_fracao": 0.085,
+      "desequilibrio": 0.076,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 280,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 113.2,
+      "vazio_direita_pt": 51.4,
+      "vazio_fracao": 0.122,
+      "desequilibrio": 0.092,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 281,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 179.5,
+      "vazio_direita_pt": 3.0,
+      "vazio_fracao": 0.135,
+      "desequilibrio": 0.262,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 282,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 19.2,
+      "vazio_direita_pt": 43.2,
+      "vazio_fracao": 0.046,
+      "desequilibrio": 0.036,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 283,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 56.8,
+      "vazio_direita_pt": 64.4,
+      "vazio_fracao": 0.09,
+      "desequilibrio": 0.011,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 284,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 49.4,
+      "vazio_direita_pt": 23.0,
+      "vazio_fracao": 0.054,
+      "desequilibrio": 0.039,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 285,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 39.0,
+      "vazio_direita_pt": 24.2,
+      "vazio_fracao": 0.047,
+      "desequilibrio": 0.022,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 286,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 5.0,
+      "vazio_direita_pt": 62.2,
+      "vazio_fracao": 0.05,
+      "desequilibrio": 0.085,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 287,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 51.6,
+      "vazio_direita_pt": 231.4,
+      "vazio_fracao": 0.21,
+      "desequilibrio": 0.267,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Instinto",
+        "altura_aprox": 84.8
+      }
+    },
+    {
+      "pagina": 288,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 77.0,
+      "vazio_direita_pt": 141.0,
+      "vazio_fracao": 0.162,
+      "desequilibrio": 0.095,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 289,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 160.4,
+      "vazio_direita_pt": 71.4,
+      "vazio_fracao": 0.172,
+      "desequilibrio": 0.132,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 290,
+      "capitulo": 11,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 168.2,
+      "vazio_direita_pt": 47.5,
+      "vazio_fracao": 0.16,
+      "desequilibrio": 0.179,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 291,
+      "capitulo": 11,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 50.6,
+      "vazio_direita_pt": 79.5,
+      "vazio_fracao": 0.096,
+      "desequilibrio": 0.043,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 294,
+      "capitulo": 12,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 33.4,
+      "vazio_direita_pt": 48.1,
+      "vazio_fracao": 0.06,
+      "desequilibrio": 0.022,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 295,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 11.1,
+      "vazio_direita_pt": 44.0,
+      "vazio_fracao": 0.041,
+      "desequilibrio": 0.049,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 296,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.9,
+      "vazio_direita_pt": 30.7,
+      "vazio_fracao": 0.034,
+      "desequilibrio": 0.023,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 297,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 120.0,
+      "vazio_direita_pt": 45.7,
+      "vazio_fracao": 0.123,
+      "desequilibrio": 0.11,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 298,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 5.0,
+      "vazio_direita_pt": 36.8,
+      "vazio_fracao": 0.031,
+      "desequilibrio": 0.047,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 299,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 50.7,
+      "vazio_direita_pt": 19.0,
+      "vazio_fracao": 0.052,
+      "desequilibrio": 0.047,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 300,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 59.1,
+      "vazio_direita_pt": 152.5,
+      "vazio_fracao": 0.157,
+      "desequilibrio": 0.138,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 301,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 79.2,
+      "vazio_direita_pt": 60.4,
+      "vazio_fracao": 0.104,
+      "desequilibrio": 0.028,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 302,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 24.4,
+      "vazio_direita_pt": 24.1,
+      "vazio_fracao": 0.036,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 303,
+      "capitulo": 12,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 114.8,
+      "vazio_direita_pt": 62.6,
+      "vazio_fracao": 0.132,
+      "desequilibrio": 0.077,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 304,
+      "capitulo": 12,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 44.4,
+      "vazio_direita_pt": 44.4,
+      "vazio_fracao": 0.066,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 306,
+      "capitulo": 13,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 219.2,
+      "vazio_direita_pt": 246.4,
+      "vazio_fracao": 0.345,
+      "desequilibrio": 0.04,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 308,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 2.6,
+      "vazio_direita_pt": 12.2,
+      "vazio_fracao": 0.011,
+      "desequilibrio": 0.014,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 309,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 56.0,
+      "vazio_direita_pt": 57.8,
+      "vazio_fracao": 0.084,
+      "desequilibrio": 0.003,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 310,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 207.4,
+      "vazio_direita_pt": 95.2,
+      "vazio_fracao": 0.224,
+      "desequilibrio": 0.166,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 311,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 20.2,
+      "vazio_direita_pt": 377.0,
+      "vazio_fracao": 0.294,
+      "desequilibrio": 0.529,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Invocações nas rotas",
+        "altura_aprox": 285.6
+      }
+    },
+    {
+      "pagina": 312,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 268.6,
+      "vazio_direita_pt": 437.4,
+      "vazio_fracao": 0.523,
+      "desequilibrio": 0.25,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 314,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 44.6,
+      "vazio_direita_pt": 55.7,
+      "vazio_fracao": 0.074,
+      "desequilibrio": 0.016,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 315,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 14.2,
+      "vazio_direita_pt": 393.8,
+      "vazio_fracao": 0.302,
+      "desequilibrio": 0.563,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exemplo: Sutura Fria",
+        "altura_aprox": 344.2
+      }
+    },
+    {
+      "pagina": 316,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 13.4,
+      "vazio_direita_pt": 37.2,
+      "vazio_fracao": 0.038,
+      "desequilibrio": 0.035,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 317,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 111.7,
+      "vazio_direita_pt": 218.8,
+      "vazio_fracao": 0.245,
+      "desequilibrio": 0.159,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 319,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 53.1,
+      "vazio_direita_pt": 135.4,
+      "vazio_fracao": 0.14,
+      "desequilibrio": 0.122,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 320,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 15.0,
+      "vazio_direita_pt": 46.8,
+      "vazio_fracao": 0.046,
+      "desequilibrio": 0.047,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 321,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 56.4,
+      "vazio_direita_pt": 163.8,
+      "vazio_fracao": 0.163,
+      "desequilibrio": 0.159,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 322,
+      "capitulo": 13,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 41.2,
+      "vazio_direita_pt": 128.2,
+      "vazio_fracao": 0.126,
+      "desequilibrio": 0.129,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 323,
+      "capitulo": 13,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 275.2,
+      "vazio_direita_pt": 126.8,
+      "vazio_fracao": 0.298,
+      "desequilibrio": 0.22,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 326,
+      "capitulo": 14,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 59.2,
+      "vazio_direita_pt": 342.2,
+      "vazio_fracao": 0.298,
+      "desequilibrio": 0.419,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Acerto do domínio",
+        "altura_aprox": 240.0
+      }
+    },
+    {
+      "pagina": 327,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 30.6,
+      "vazio_direita_pt": 193.0,
+      "vazio_fracao": 0.166,
+      "desequilibrio": 0.241,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Momento da queda",
+        "altura_aprox": 170.0
+      }
+    },
+    {
+      "pagina": 328,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 18.5,
+      "vazio_direita_pt": 66.2,
+      "vazio_fracao": 0.063,
+      "desequilibrio": 0.071,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 329,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 49.8,
+      "vazio_direita_pt": 32.6,
+      "vazio_fracao": 0.061,
+      "desequilibrio": 0.025,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 330,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 391.2,
+      "vazio_direita_pt": 50.6,
+      "vazio_fracao": 0.327,
+      "desequilibrio": 0.505,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 331,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 75.4,
+      "vazio_direita_pt": 235.4,
+      "vazio_fracao": 0.23,
+      "desequilibrio": 0.237,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 332,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 338.2,
+      "vazio_direita_pt": 79.8,
+      "vazio_fracao": 0.31,
+      "desequilibrio": 0.383,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 333,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 73.8,
+      "vazio_direita_pt": 311.4,
+      "vazio_fracao": 0.286,
+      "desequilibrio": 0.352,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Exemplo: Sala de Trégua",
+        "altura_aprox": 225.5
+      }
+    },
+    {
+      "pagina": 334,
+      "capitulo": 14,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 289.3,
+      "vazio_direita_pt": 48.2,
+      "vazio_fracao": 0.25,
+      "desequilibrio": 0.357,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 335,
+      "capitulo": 14,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 494.4,
+      "vazio_direita_pt": 454.8,
+      "vazio_fracao": 0.704,
+      "desequilibrio": 0.059,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 337,
+      "capitulo": 15,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 10.6,
+      "vazio_direita_pt": 25.2,
+      "vazio_fracao": 0.027,
+      "desequilibrio": 0.022,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 338,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 163.8,
+      "vazio_direita_pt": 16.4,
+      "vazio_fracao": 0.134,
+      "desequilibrio": 0.218,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 339,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 112.1,
+      "vazio_direita_pt": 112.1,
+      "vazio_fracao": 0.166,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 340,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 76.6,
+      "vazio_direita_pt": 212.2,
+      "vazio_fracao": 0.214,
+      "desequilibrio": 0.201,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 341,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 101.2,
+      "vazio_direita_pt": 113.4,
+      "vazio_fracao": 0.159,
+      "desequilibrio": 0.018,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 342,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 129.8,
+      "vazio_direita_pt": 69.6,
+      "vazio_fracao": 0.148,
+      "desequilibrio": 0.089,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 343,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 223.0,
+      "vazio_direita_pt": 56.9,
+      "vazio_fracao": 0.208,
+      "desequilibrio": 0.246,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 344,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 191.4,
+      "vazio_direita_pt": 59.8,
+      "vazio_fracao": 0.186,
+      "desequilibrio": 0.195,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 345,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 59.5,
+      "vazio_direita_pt": 108.6,
+      "vazio_fracao": 0.125,
+      "desequilibrio": 0.073,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 346,
+      "capitulo": 15,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 127.6,
+      "vazio_direita_pt": 138.4,
+      "vazio_fracao": 0.197,
+      "desequilibrio": 0.016,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 347,
+      "capitulo": 15,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 187.8,
+      "vazio_direita_pt": 243.4,
+      "vazio_fracao": 0.32,
+      "desequilibrio": 0.082,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 349,
+      "capitulo": 16,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 120.9,
+      "vazio_direita_pt": 30.8,
+      "vazio_fracao": 0.112,
+      "desequilibrio": 0.134,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 350,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 25.4,
+      "vazio_direita_pt": 257.0,
+      "vazio_fracao": 0.209,
+      "desequilibrio": 0.343,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 351,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 9.2,
+      "vazio_direita_pt": 82.8,
+      "vazio_fracao": 0.068,
+      "desequilibrio": 0.109,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 352,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 42.6,
+      "vazio_direita_pt": 74.8,
+      "vazio_fracao": 0.087,
+      "desequilibrio": 0.048,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 353,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 37.2,
+      "vazio_direita_pt": 215.1,
+      "vazio_fracao": 0.187,
+      "desequilibrio": 0.264,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 354,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 83.8,
+      "vazio_direita_pt": 56.4,
+      "vazio_fracao": 0.104,
+      "desequilibrio": 0.041,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 355,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 130.4,
+      "vazio_direita_pt": 116.0,
+      "vazio_fracao": 0.183,
+      "desequilibrio": 0.021,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Especiais com preparação prolongada",
+        "altura_aprox": 91.6
+      }
+    },
+    {
+      "pagina": 356,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 304.6,
+      "vazio_direita_pt": 210.6,
+      "vazio_fracao": 0.382,
+      "desequilibrio": 0.139,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 357,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 153.8,
+      "vazio_direita_pt": 34.2,
+      "vazio_fracao": 0.139,
+      "desequilibrio": 0.177,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 358,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.2,
+      "vazio_direita_pt": 118.5,
+      "vazio_fracao": 0.111,
+      "desequilibrio": 0.129,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 359,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.2,
+      "vazio_direita_pt": 23.2,
+      "vazio_fracao": 0.034,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 360,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 321.8,
+      "vazio_direita_pt": 32.2,
+      "vazio_fracao": 0.262,
+      "desequilibrio": 0.429,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 361,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 86.7,
+      "vazio_direita_pt": 13.7,
+      "vazio_fracao": 0.074,
+      "desequilibrio": 0.108,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 362,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 284.8,
+      "vazio_direita_pt": 292.4,
+      "vazio_fracao": 0.428,
+      "desequilibrio": 0.011,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 363,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 27.4,
+      "vazio_direita_pt": 31.0,
+      "vazio_fracao": 0.043,
+      "desequilibrio": 0.005,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 364,
+      "capitulo": 16,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 6.6,
+      "vazio_direita_pt": 78.3,
+      "vazio_fracao": 0.063,
+      "desequilibrio": 0.106,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 365,
+      "capitulo": 16,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 272.6,
+      "vazio_direita_pt": 138.0,
+      "vazio_fracao": 0.304,
+      "desequilibrio": 0.2,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 368,
+      "capitulo": 17,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 145.8,
+      "vazio_direita_pt": 8.5,
+      "vazio_fracao": 0.114,
+      "desequilibrio": 0.204,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 369,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 47.9,
+      "vazio_direita_pt": 71.0,
+      "vazio_fracao": 0.088,
+      "desequilibrio": 0.034,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 370,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 31.4,
+      "vazio_direita_pt": 5.8,
+      "vazio_fracao": 0.028,
+      "desequilibrio": 0.038,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 371,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 18.2,
+      "vazio_direita_pt": 74.2,
+      "vazio_fracao": 0.069,
+      "desequilibrio": 0.083,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 372,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 11.3,
+      "vazio_direita_pt": 19.3,
+      "vazio_fracao": 0.023,
+      "desequilibrio": 0.012,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 373,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 15.9,
+      "vazio_direita_pt": 15.9,
+      "vazio_fracao": 0.024,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 374,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 59.2,
+      "vazio_direita_pt": 59.2,
+      "vazio_fracao": 0.088,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 375,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 5.4,
+      "vazio_direita_pt": 120.6,
+      "vazio_fracao": 0.093,
+      "desequilibrio": 0.171,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 376,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 21.6,
+      "vazio_direita_pt": 133.0,
+      "vazio_fracao": 0.115,
+      "desequilibrio": 0.165,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 377,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 17.2,
+      "vazio_direita_pt": 46.6,
+      "vazio_fracao": 0.047,
+      "desequilibrio": 0.044,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 378,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 96.6,
+      "vazio_direita_pt": 81.4,
+      "vazio_fracao": 0.132,
+      "desequilibrio": 0.023,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 379,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 93.4,
+      "vazio_direita_pt": 67.0,
+      "vazio_fracao": 0.119,
+      "desequilibrio": 0.039,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 380,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 54.3,
+      "vazio_direita_pt": 101.7,
+      "vazio_fracao": 0.116,
+      "desequilibrio": 0.07,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 381,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 89.6,
+      "vazio_direita_pt": 13.6,
+      "vazio_fracao": 0.077,
+      "desequilibrio": 0.113,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 382,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 2.3,
+      "vazio_direita_pt": 37.2,
+      "vazio_fracao": 0.029,
+      "desequilibrio": 0.052,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 383,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 55.8,
+      "vazio_direita_pt": 26.3,
+      "vazio_fracao": 0.061,
+      "desequilibrio": 0.044,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 384,
+      "capitulo": 17,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 23.4,
+      "vazio_direita_pt": 103.5,
+      "vazio_fracao": 0.094,
+      "desequilibrio": 0.119,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 385,
+      "capitulo": 17,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 245.8,
+      "vazio_direita_pt": 322.2,
+      "vazio_fracao": 0.421,
+      "desequilibrio": 0.113,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 387,
+      "capitulo": 18,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 197.3,
+      "vazio_direita_pt": 199.4,
+      "vazio_fracao": 0.294,
+      "desequilibrio": 0.003,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 388,
+      "capitulo": 18,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 255.4,
+      "vazio_direita_pt": 255.8,
+      "vazio_fracao": 0.379,
+      "desequilibrio": 0.001,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 390,
+      "capitulo": 19,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 8.4,
+      "vazio_direita_pt": 31.6,
+      "vazio_fracao": 0.03,
+      "desequilibrio": 0.034,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 391,
+      "capitulo": 19,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 11.2,
+      "vazio_direita_pt": 16.2,
+      "vazio_fracao": 0.02,
+      "desequilibrio": 0.007,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 392,
+      "capitulo": 19,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 288.8,
+      "vazio_direita_pt": 257.4,
+      "vazio_fracao": 0.405,
+      "desequilibrio": 0.047,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 394,
+      "capitulo": 20,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 74.5,
+      "vazio_direita_pt": 116.0,
+      "vazio_fracao": 0.141,
+      "desequilibrio": 0.062,
+      "proxima_entrada_parece_caber": {
+        "titulo": "Efeito com TR",
+        "altura_aprox": 98.0
+      }
+    },
+    {
+      "pagina": 395,
+      "capitulo": 20,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 578.6,
+      "vazio_direita_pt": 365.0,
+      "vazio_fracao": 0.699,
+      "desequilibrio": 0.317,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 397,
+      "capitulo": 21,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 1.0,
+      "vazio_direita_pt": 1.0,
+      "vazio_fracao": 0.002,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 398,
+      "capitulo": 21,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 17.0,
+      "vazio_direita_pt": 17.0,
+      "vazio_fracao": 0.025,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 399,
+      "capitulo": 21,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 17.0,
+      "vazio_direita_pt": 17.0,
+      "vazio_fracao": 0.025,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 400,
+      "capitulo": 21,
+      "meio_capitulo": true,
+      "vazio_esquerda_pt": 17.0,
+      "vazio_direita_pt": 17.0,
+      "vazio_fracao": 0.025,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    },
+    {
+      "pagina": 401,
+      "capitulo": 21,
+      "meio_capitulo": false,
+      "vazio_esquerda_pt": 615.4,
+      "vazio_direita_pt": 615.4,
+      "vazio_fracao": 0.912,
+      "desequilibrio": 0.0,
+      "proxima_entrada_parece_caber": null
+    }
+  ]
+}

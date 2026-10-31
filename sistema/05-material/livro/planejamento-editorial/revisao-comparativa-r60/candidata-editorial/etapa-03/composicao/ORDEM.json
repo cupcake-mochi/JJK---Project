@@ -1,0 +1,292 @@
+{
+  "versao": "Candidata editorial de03/10/2026",
+  "fontes": {
+    "ab": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+    "geral": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+    "dano": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+    "origens": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+    "pericias": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+    "equip": "equipamento/lote-final/EQUIPAMENTO.md",
+    "progressao": "progressao/lote-01/PROGRESSAO.md",
+    "fundamento": "fundamento/lote-01/FUNDAMENTO.md",
+    "catalogo": "catalogo/lote-01/CATALOGO.md",
+    "aptidoes": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+    "rotas": "rotas/lote-01/ROTAS.md",
+    "poderes": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+    "ritual": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+    "campo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+    "construcao": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+    "fabricacao": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+    "consulta": "consulta/lote-01/CONSULTA.md",
+    "bastiao": "caminhos/bastiao/lote-01/BASTIAO.md",
+    "vanguarda": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+    "guia": "caminhos/guia/lote-01/GUIA.md",
+    "emanador": "caminhos/emanador/lote-01/EMANADOR.md",
+    "evocador": "caminhos/evocador/lote-01/EVOCADOR.md",
+    "incursor": "caminhos/incursor/lote-01/INCURSOR.md"
+  },
+  "partes": [
+    {
+      "titulo": "Jogo e mundo",
+      "capitulos": [
+        {
+          "titulo": "Ciclo Maldito",
+          "fontes": [
+            {
+              "documento": "ab",
+              "ancoras": [
+                "ab-apresentacao",
+                "ab-primeira-sessao",
+                "ab-mundo",
+                "ab-sociedade"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Regras gerais",
+          "fontes": [
+            {
+              "documento": "geral"
+            }
+          ]
+        },
+        {
+          "titulo": "Dano e recuperação",
+          "fontes": [
+            {
+              "documento": "dano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Personagens",
+      "capitulos": [
+        {
+          "titulo": "Criar um personagem",
+          "fontes": [
+            {
+              "documento": "ab",
+              "excluir": [
+                "ab-apresentacao",
+                "ab-primeira-sessao",
+                "ab-mundo",
+                "ab-sociedade"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Origens e Legados",
+          "fontes": [
+            {
+              "documento": "origens"
+            }
+          ]
+        },
+        {
+          "titulo": "Caminhos e Trilhas",
+          "fontes": [
+            {
+              "documento": "bastiao"
+            },
+            {
+              "documento": "vanguarda"
+            },
+            {
+              "documento": "guia"
+            },
+            {
+              "documento": "emanador"
+            },
+            {
+              "documento": "evocador"
+            },
+            {
+              "documento": "incursor"
+            }
+          ]
+        },
+        {
+          "titulo": "Perícias e Ofícios",
+          "fontes": [
+            {
+              "documento": "pericias"
+            }
+          ]
+        },
+        {
+          "titulo": "Equipamento",
+          "fontes": [
+            {
+              "documento": "equip"
+            }
+          ]
+        },
+        {
+          "titulo": "Progressão",
+          "fontes": [
+            {
+              "documento": "progressao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Técnicas e poderes",
+      "capitulos": [
+        {
+          "titulo": "Fundamento",
+          "fontes": [
+            {
+              "documento": "fundamento"
+            }
+          ]
+        },
+        {
+          "titulo": "Catálogo de criação",
+          "fontes": [
+            {
+              "documento": "catalogo"
+            }
+          ]
+        },
+        {
+          "titulo": "Aptidões e Refino",
+          "fontes": [
+            {
+              "documento": "aptidoes"
+            }
+          ]
+        },
+        {
+          "titulo": "Rotas de criação",
+          "fontes": [
+            {
+              "documento": "rotas"
+            }
+          ]
+        },
+        {
+          "titulo": "Poderes avançados",
+          "fontes": [
+            {
+              "documento": "poderes"
+            }
+          ]
+        },
+        {
+          "titulo": "Ritual e Pactos",
+          "fontes": [
+            {
+              "documento": "ritual"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Invocações",
+      "capitulos": [
+        {
+          "titulo": "Invocações em campo",
+          "fontes": [
+            {
+              "documento": "campo"
+            }
+          ]
+        },
+        {
+          "titulo": "Construir invocações",
+          "fontes": [
+            {
+              "documento": "construcao"
+            },
+            {
+              "documento": "fabricacao"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mestrar e consultar",
+      "capitulos": [
+        {
+          "titulo": "Mestrar",
+          "fontes": [
+            {
+              "documento": "consulta",
+              "ancoras": [
+                "consulta-missao",
+                "consulta-conduzir",
+                "consulta-referencias"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Glossário",
+          "fontes": [
+            {
+              "documento": "consulta",
+              "prefixo": "consulta-glossario-"
+            }
+          ]
+        },
+        {
+          "titulo": "Consulta rápida",
+          "fontes": [
+            {
+              "documento": "consulta",
+              "excluir": [
+                "consulta-missao",
+                "consulta-conduzir",
+                "consulta-referencias",
+                "consulta-glossario-1",
+                "consulta-glossario-2",
+                "consulta-glossario-3",
+                "consulta-glossario-4",
+                "consulta-glossario-5",
+                "consulta-glossario-6",
+                "consulta-indice-1",
+                "consulta-indice-2",
+                "consulta-indice-3",
+                "consulta-indice-4",
+                "consulta-indice-5",
+                "consulta-indice-6",
+                "consulta-indice-7",
+                "consulta-indice-8",
+                "consulta-indice-9",
+                "consulta-indice-10"
+              ],
+              "excluir_prefixos": [
+                "consulta-indice-",
+                "consulta-glossario-"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Índice",
+          "fontes": [
+            {
+              "documento": "consulta",
+              "prefixo": "consulta-indice-"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diretrizes": {
+    "diagramação": "Fluxo contínuo entre seções, novas páginas somente para capítulos, Caminhos e modelos imprimíveis; tabelas conservam cabeçalhos repetidos.",
+    "navegacao": "Cinco partes recolhidas; capítulos no segundo nível, seis Caminhos em terceiro. Seções e verbetes consultáveis por links e índice, sem centenas de marcadores de nível superior.",
+    "imagens": "Sem arte gerada por IA. Apenas formas gráficas funcionais e composição tipográfica vetorial.",
+    "preservacao": "Publicação v0.331 e provas por unidade ficam preservadas. Livro reunido deriva somente das candidatas listadas.",
+    "validacao": "V01–15 sobre hash atual do livro. Revisão humana/mesa não executada não pode ser declarada."
+  }
+}

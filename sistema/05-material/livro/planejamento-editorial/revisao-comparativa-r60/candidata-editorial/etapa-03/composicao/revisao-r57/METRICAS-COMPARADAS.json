@@ -1,0 +1,8057 @@
+{
+  "r56": {
+    "paginas": 414,
+    "branco_equivalente": 57.78,
+    "desigualdade": 2,
+    "acima_terco": [
+      8,
+      10,
+      83,
+      85,
+      87,
+      89,
+      115,
+      130,
+      149,
+      151,
+      181,
+      186,
+      213,
+      226,
+      262,
+      273,
+      276,
+      319,
+      325,
+      329
+    ],
+    "diferencas": [
+      [
+        238,
+        0.3941
+      ],
+      [
+        268,
+        0.4513
+      ]
+    ],
+    "todas": [
+      {
+        "pagina": 7,
+        "branco_medio": 0.3118,
+        "diferenca": 0.1167,
+        "colunas": [
+          0.3702118518518518,
+          0.25347111111111115
+        ],
+        "borda": true,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 8,
+        "branco_medio": 0.4351,
+        "diferenca": 0.0516,
+        "colunas": [
+          0.409322962962963,
+          0.4608785185185185
+        ],
+        "borda": false,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 10,
+        "branco_medio": 0.4647,
+        "diferenca": 0.0859,
+        "colunas": [
+          0.5076933333333333,
+          0.42176740740740737
+        ],
+        "borda": false,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 11,
+        "branco_medio": 0.4318,
+        "diferenca": 0.173,
+        "colunas": [
+          0.5183599999999999,
+          0.345322962962963
+        ],
+        "borda": true,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 14,
+        "branco_medio": 0.26,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.25510074074074074,
+          0.2648785185185185
+        ],
+        "borda": false,
+        "grupo": "Atributos"
+      },
+      {
+        "pagina": 15,
+        "branco_medio": 0.0292,
+        "diferenca": 0.0124,
+        "colunas": [
+          0.022952592592592583,
+          0.03539703703703704
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 16,
+        "branco_medio": 0.0512,
+        "diferenca": 0.0375,
+        "colunas": [
+          0.032434074074074074,
+          0.06991555555555558
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 17,
+        "branco_medio": 0.1119,
+        "diferenca": 0.097,
+        "colunas": [
+          0.1604340740740741,
+          0.06339703703703704
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 18,
+        "branco_medio": 0.079,
+        "diferenca": 0.0738,
+        "colunas": [
+          0.1158414814814815,
+          0.04206370370370371
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 19,
+        "branco_medio": 0.0745,
+        "diferenca": 0.0391,
+        "colunas": [
+          0.09406370370370369,
+          0.054952592592592574
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 20,
+        "branco_medio": 0.0677,
+        "diferenca": 0.0539,
+        "colunas": [
+          0.04073037037037036,
+          0.0946562962962963
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 21,
+        "branco_medio": 0.0791,
+        "diferenca": 0.0015,
+        "colunas": [
+          0.07984148148148149,
+          0.07836
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 22,
+        "branco_medio": 0.0554,
+        "diferenca": 0.0157,
+        "colunas": [
+          0.06324888888888891,
+          0.04754518518518517
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 23,
+        "branco_medio": 0.0822,
+        "diferenca": 0.0907,
+        "colunas": [
+          0.12754518518518518,
+          0.03687851851851852
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 24,
+        "branco_medio": 0.2927,
+        "diferenca": 0.2124,
+        "colunas": [
+          0.18650814814814815,
+          0.3989525925925926
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 25,
+        "branco_medio": 0.0813,
+        "diferenca": 0.0433,
+        "colunas": [
+          0.10295259259259258,
+          0.05969333333333334
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 26,
+        "branco_medio": 0.2705,
+        "diferenca": 0.1046,
+        "colunas": [
+          0.3228044444444444,
+          0.21821185185185185
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 27,
+        "branco_medio": 0.1336,
+        "diferenca": 0.0281,
+        "colunas": [
+          0.14769333333333334,
+          0.1195451851851852
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 28,
+        "branco_medio": 0.0347,
+        "diferenca": 0.0542,
+        "colunas": [
+          0.061767407407407424,
+          0.00754518518518519
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 29,
+        "branco_medio": 0.255,
+        "diferenca": 0.0836,
+        "colunas": [
+          0.29673037037037037,
+          0.21317481481481482
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 30,
+        "branco_medio": 0.0518,
+        "diferenca": 0.0138,
+        "colunas": [
+          0.05865629629629628,
+          0.044878518518518526
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 31,
+        "branco_medio": 0.1093,
+        "diferenca": 0.0204,
+        "colunas": [
+          0.1195451851851852,
+          0.09910074074074074
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 32,
+        "branco_medio": 0.1435,
+        "diferenca": 0.2022,
+        "colunas": [
+          0.24458222222222226,
+          0.04235999999999998
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 33,
+        "branco_medio": 0.0738,
+        "diferenca": 0.0483,
+        "colunas": [
+          0.04961925925925925,
+          0.09791555555555553
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 34,
+        "branco_medio": 0.1399,
+        "diferenca": 0.0547,
+        "colunas": [
+          0.11258222222222221,
+          0.1672488888888889
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 35,
+        "branco_medio": 0.224,
+        "diferenca": 0.0649,
+        "colunas": [
+          0.2564340740740741,
+          0.1915451851851852
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 36,
+        "branco_medio": 0.1283,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.12339703703703704,
+          0.13317481481481483
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 37,
+        "branco_medio": 0.1501,
+        "diferenca": 0.2412,
+        "colunas": [
+          0.2706562962962963,
+          0.02947111111111111
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 38,
+        "branco_medio": 0.0986,
+        "diferenca": 0.0828,
+        "colunas": [
+          0.057174814814814796,
+          0.13998962962962963
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 39,
+        "branco_medio": 0.0086,
+        "diferenca": 0.0039,
+        "colunas": [
+          0.010508148148148154,
+          0.006656296296296289
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 40,
+        "branco_medio": 0.1145,
+        "diferenca": 0.0373,
+        "colunas": [
+          0.13317481481481483,
+          0.0958414814814815
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 41,
+        "branco_medio": 0.0806,
+        "diferenca": 0.0086,
+        "colunas": [
+          0.08487851851851853,
+          0.07628592592592592
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 42,
+        "branco_medio": 0.1533,
+        "diferenca": 0.0782,
+        "colunas": [
+          0.19243407407407406,
+          0.11421185185185184
+        ],
+        "borda": false,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 43,
+        "branco_medio": 0.1613,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.18354518518518517,
+          0.13910074074074075
+        ],
+        "borda": false,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 44,
+        "branco_medio": 0.2132,
+        "diferenca": 0.0759,
+        "colunas": [
+          0.25110074074074074,
+          0.1752488888888889
+        ],
+        "borda": true,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 47,
+        "branco_medio": 0.219,
+        "diferenca": 0.0157,
+        "colunas": [
+          0.22680444444444442,
+          0.21110074074074073
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 48,
+        "branco_medio": 0.204,
+        "diferenca": 0.1144,
+        "colunas": [
+          0.2611748148148148,
+          0.14680444444444443
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 49,
+        "branco_medio": 0.2741,
+        "diferenca": 0.0536,
+        "colunas": [
+          0.30087851851851855,
+          0.24724888888888885
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 50,
+        "branco_medio": 0.1214,
+        "diferenca": 0.0733,
+        "colunas": [
+          0.08473037037037039,
+          0.15806370370370373
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 51,
+        "branco_medio": 0.0632,
+        "diferenca": 0.0902,
+        "colunas": [
+          0.0180637037037037,
+          0.10828592592592591
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 52,
+        "branco_medio": 0.0927,
+        "diferenca": 0.1265,
+        "colunas": [
+          0.02947111111111111,
+          0.15598962962962964
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 53,
+        "branco_medio": 0.1354,
+        "diferenca": 0.1052,
+        "colunas": [
+          0.08280444444444444,
+          0.18798962962962962
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 54,
+        "branco_medio": 0.2251,
+        "diferenca": 0.076,
+        "colunas": [
+          0.18710074074074076,
+          0.26310074074074075
+        ],
+        "borda": false,
+        "grupo": "Cura"
+      },
+      {
+        "pagina": 55,
+        "branco_medio": 0.092,
+        "diferenca": 0.0604,
+        "colunas": [
+          0.12221185185185185,
+          0.061767407407407424
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 56,
+        "branco_medio": 0.0363,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.04221185185185185,
+          0.03035999999999999
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 57,
+        "branco_medio": 0.104,
+        "diferenca": 0.1247,
+        "colunas": [
+          0.16636,
+          0.041619259259259245
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 58,
+        "branco_medio": 0.2003,
+        "diferenca": 0.2806,
+        "colunas": [
+          0.3405822222222222,
+          0.05998962962962962
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 59,
+        "branco_medio": 0.0647,
+        "diferenca": 0.0136,
+        "colunas": [
+          0.05791555555555554,
+          0.0715451851851852
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 60,
+        "branco_medio": 0.0732,
+        "diferenca": 0.0191,
+        "colunas": [
+          0.08280444444444444,
+          0.06369333333333332
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 61,
+        "branco_medio": 0.282,
+        "diferenca": 0.0022,
+        "colunas": [
+          0.2808785185185185,
+          0.28310074074074076
+        ],
+        "borda": false,
+        "grupo": "Descansos"
+      },
+      {
+        "pagina": 62,
+        "branco_medio": 0.2776,
+        "diferenca": 0.2539,
+        "colunas": [
+          0.15065629629629632,
+          0.40458222222222223
+        ],
+        "borda": true,
+        "grupo": "Descansos"
+      },
+      {
+        "pagina": 64,
+        "branco_medio": 0.0479,
+        "diferenca": 0.02,
+        "colunas": [
+          0.03791555555555556,
+          0.05791555555555554
+        ],
+        "borda": true,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 65,
+        "branco_medio": 0.3004,
+        "diferenca": 0.2653,
+        "colunas": [
+          0.43302666666666667,
+          0.16769333333333336
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 66,
+        "branco_medio": 0.0405,
+        "diferenca": 0.036,
+        "colunas": [
+          0.022508148148148145,
+          0.05850814814814814
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 67,
+        "branco_medio": 0.0935,
+        "diferenca": 0.0486,
+        "colunas": [
+          0.1177674074074074,
+          0.06917481481481483
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 68,
+        "branco_medio": 0.2995,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.3127303703703704,
+          0.28636
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 69,
+        "branco_medio": 0.2646,
+        "diferenca": 0.1686,
+        "colunas": [
+          0.18028592592592593,
+          0.34887851851851853
+        ],
+        "borda": false,
+        "grupo": "Exemplo: Resgate na ala oeste"
+      },
+      {
+        "pagina": 70,
+        "branco_medio": 0.4739,
+        "diferenca": 0.0344,
+        "colunas": [
+          0.4911007407407407,
+          0.4567303703703704
+        ],
+        "borda": true,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 73,
+        "branco_medio": 0.0175,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.02561925925925927,
+          0.009322962962962972
+        ],
+        "borda": true,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 74,
+        "branco_medio": 0.0767,
+        "diferenca": 0.0785,
+        "colunas": [
+          0.11598962962962964,
+          0.03747111111111112
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 75,
+        "branco_medio": 0.1536,
+        "diferenca": 0.0219,
+        "colunas": [
+          0.1645822222222222,
+          0.1426562962962963
+        ],
+        "borda": false,
+        "grupo": "Latente"
+      },
+      {
+        "pagina": 77,
+        "branco_medio": 0.0944,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.11658222222222224,
+          0.0721377777777778
+        ],
+        "borda": false,
+        "grupo": "Receptáculo"
+      },
+      {
+        "pagina": 78,
+        "branco_medio": 0.1824,
+        "diferenca": 0.0569,
+        "colunas": [
+          0.15391555555555556,
+          0.21080444444444446
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 79,
+        "branco_medio": 0.0723,
+        "diferenca": 0.1052,
+        "colunas": [
+          0.12487851851851853,
+          0.019693333333333344
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 80,
+        "branco_medio": 0.1664,
+        "diferenca": 0.0723,
+        "colunas": [
+          0.13021185185185186,
+          0.20250814814814816
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 81,
+        "branco_medio": 0.14,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.1497674074074074,
+          0.13021185185185186
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 82,
+        "branco_medio": 0.2191,
+        "diferenca": 0.0095,
+        "colunas": [
+          0.21436000000000002,
+          0.22384148148148147
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 83,
+        "branco_medio": 0.4454,
+        "diferenca": 0.1196,
+        "colunas": [
+          0.5051748148148149,
+          0.3856192592592593
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 84,
+        "branco_medio": 0.0893,
+        "diferenca": 0.1221,
+        "colunas": [
+          0.02828592592592593,
+          0.15036
+        ],
+        "borda": false,
+        "grupo": "Encarnado"
+      },
+      {
+        "pagina": 85,
+        "branco_medio": 0.4555,
+        "diferenca": 0.2465,
+        "colunas": [
+          0.33228592592592593,
+          0.5788044444444445
+        ],
+        "borda": false,
+        "grupo": "Encarnado"
+      },
+      {
+        "pagina": 87,
+        "branco_medio": 0.4268,
+        "diferenca": 0.112,
+        "colunas": [
+          0.37080444444444444,
+          0.4828044444444444
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 88,
+        "branco_medio": 0.3261,
+        "diferenca": 0.1067,
+        "colunas": [
+          0.2727303703703704,
+          0.3793970370370371
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 89,
+        "branco_medio": 0.6375,
+        "diferenca": 0.1292,
+        "colunas": [
+          0.5728785185185185,
+          0.7020637037037037
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 91,
+        "branco_medio": 0.1006,
+        "diferenca": 0.0581,
+        "colunas": [
+          0.12961925925925924,
+          0.0715451851851852
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 92,
+        "branco_medio": 0.2234,
+        "diferenca": 0.1745,
+        "colunas": [
+          0.31065629629629626,
+          0.13613777777777777
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 93,
+        "branco_medio": 0.064,
+        "diferenca": 0.0276,
+        "colunas": [
+          0.050211851851851855,
+          0.0777674074074074
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 94,
+        "branco_medio": 0.2872,
+        "diferenca": 0.1173,
+        "colunas": [
+          0.22858222222222224,
+          0.34591555555555553
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 96,
+        "branco_medio": 0.0718,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.0721377777777778,
+          0.0715451851851852
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 97,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0551,
+        "colunas": [
+          0.0857674074074074,
+          0.14087851851851851
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 98,
+        "branco_medio": 0.1548,
+        "diferenca": 0.2649,
+        "colunas": [
+          0.022360000000000005,
+          0.28724888888888883
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 99,
+        "branco_medio": 0.0715,
+        "diferenca": 0.1007,
+        "colunas": [
+          0.021174814814814823,
+          0.12191555555555557
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 100,
+        "branco_medio": 0.0887,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.13643407407407407,
+          0.041026666666666683
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 101,
+        "branco_medio": 0.076,
+        "diferenca": 0.0587,
+        "colunas": [
+          0.10532296296296295,
+          0.046656296296296286
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 102,
+        "branco_medio": 0.0677,
+        "diferenca": 0.0255,
+        "colunas": [
+          0.054952592592592574,
+          0.08043407407407409
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 103,
+        "branco_medio": 0.1135,
+        "diferenca": 0.0916,
+        "colunas": [
+          0.15924888888888888,
+          0.06769333333333336
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 104,
+        "branco_medio": 0.167,
+        "diferenca": 0.2015,
+        "colunas": [
+          0.06621185185185187,
+          0.2676933333333333
+        ],
+        "borda": true,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 107,
+        "branco_medio": 0.2002,
+        "diferenca": 0.3874,
+        "colunas": [
+          0.3939155555555555,
+          0.006508148148148149
+        ],
+        "borda": true,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 108,
+        "branco_medio": 0.1767,
+        "diferenca": 0.0972,
+        "colunas": [
+          0.22532296296296295,
+          0.12813777777777777
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 109,
+        "branco_medio": 0.0377,
+        "diferenca": 0.0333,
+        "colunas": [
+          0.05436000000000002,
+          0.021026666666666662
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 110,
+        "branco_medio": 0.3053,
+        "diferenca": 0.0907,
+        "colunas": [
+          0.3506562962962963,
+          0.2599896296296296
+        ],
+        "borda": false,
+        "grupo": "Bastião / Muro"
+      },
+      {
+        "pagina": 111,
+        "branco_medio": 0.0781,
+        "diferenca": 0.1015,
+        "colunas": [
+          0.1288785185185185,
+          0.02739703703703703
+        ],
+        "borda": false,
+        "grupo": "Bastião / Punho"
+      },
+      {
+        "pagina": 112,
+        "branco_medio": 0.1111,
+        "diferenca": 0.0273,
+        "colunas": [
+          0.09747111111111112,
+          0.1247303703703704
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 113,
+        "branco_medio": 0.245,
+        "diferenca": 0.1739,
+        "colunas": [
+          0.15806370370370373,
+          0.33198962962962963
+        ],
+        "borda": false,
+        "grupo": "Bastião / Combatente Amaldiçoado"
+      },
+      {
+        "pagina": 115,
+        "branco_medio": 0.349,
+        "diferenca": 0.032,
+        "colunas": [
+          0.3330266666666667,
+          0.3650266666666666
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 116,
+        "branco_medio": 0.0902,
+        "diferenca": 0.0,
+        "colunas": [
+          0.09021185185185185,
+          0.09021185185185185
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 117,
+        "branco_medio": 0.1284,
+        "diferenca": 0.0142,
+        "colunas": [
+          0.12132296296296297,
+          0.13554518518518519
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 118,
+        "branco_medio": 0.071,
+        "diferenca": 0.0997,
+        "colunas": [
+          0.1208785185185185,
+          0.021174814814814823
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 119,
+        "branco_medio": 0.1155,
+        "diferenca": 0.1501,
+        "colunas": [
+          0.19050814814814812,
+          0.04043407407407408
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Estocada"
+      },
+      {
+        "pagina": 120,
+        "branco_medio": 0.2004,
+        "diferenca": 0.0719,
+        "colunas": [
+          0.23628592592592593,
+          0.16443407407407407
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 121,
+        "branco_medio": 0.1277,
+        "diferenca": 0.0821,
+        "colunas": [
+          0.08665629629629629,
+          0.16873037037037036
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 122,
+        "branco_medio": 0.0918,
+        "diferenca": 0.0578,
+        "colunas": [
+          0.12073037037037036,
+          0.06295259259259259
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Batedor: Yumi"
+      },
+      {
+        "pagina": 123,
+        "branco_medio": 0.0886,
+        "diferenca": 0.0258,
+        "colunas": [
+          0.10147111111111111,
+          0.07569333333333332
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 124,
+        "branco_medio": 0.0781,
+        "diferenca": 0.048,
+        "colunas": [
+          0.1020637037037037,
+          0.0540637037037037
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 125,
+        "branco_medio": 0.0372,
+        "diferenca": 0.0439,
+        "colunas": [
+          0.05910074074074074,
+          0.015248888888888899
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Batedor: Arma de Fogo"
+      },
+      {
+        "pagina": 126,
+        "branco_medio": 0.0772,
+        "diferenca": 0.0769,
+        "colunas": [
+          0.11569333333333331,
+          0.03880444444444446
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 127,
+        "branco_medio": 0.0468,
+        "diferenca": 0.069,
+        "colunas": [
+          0.08132296296296296,
+          0.012285925925925935
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Executor"
+      },
+      {
+        "pagina": 129,
+        "branco_medio": 0.1127,
+        "diferenca": 0.085,
+        "colunas": [
+          0.1552488888888889,
+          0.07021185185185186
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 130,
+        "branco_medio": 0.46,
+        "diferenca": 0.0847,
+        "colunas": [
+          0.41761925925925925,
+          0.50236
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 131,
+        "branco_medio": 0.1507,
+        "diferenca": 0.019,
+        "colunas": [
+          0.16013777777777777,
+          0.14117481481481484
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 132,
+        "branco_medio": 0.1169,
+        "diferenca": 0.0871,
+        "colunas": [
+          0.1604340740740741,
+          0.07332296296296295
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 133,
+        "branco_medio": 0.1202,
+        "diferenca": 0.0138,
+        "colunas": [
+          0.12710074074074074,
+          0.11332296296296296
+        ],
+        "borda": false,
+        "grupo": "Guia / Arquiteto"
+      },
+      {
+        "pagina": 134,
+        "branco_medio": 0.0507,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.060434074074074084,
+          0.0408785185185185
+        ],
+        "borda": false,
+        "grupo": "Guia / Arquiteto"
+      },
+      {
+        "pagina": 135,
+        "branco_medio": 0.0641,
+        "diferenca": 0.0588,
+        "colunas": [
+          0.0934711111111111,
+          0.034656296296296296
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 136,
+        "branco_medio": 0.0451,
+        "diferenca": 0.004,
+        "colunas": [
+          0.04710074074074075,
+          0.043100740740740724
+        ],
+        "borda": false,
+        "grupo": "Guia / Analista"
+      },
+      {
+        "pagina": 137,
+        "branco_medio": 0.0192,
+        "diferenca": 0.031,
+        "colunas": [
+          0.034656296296296296,
+          0.003693333333333326
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 138,
+        "branco_medio": 0.0596,
+        "diferenca": 0.0161,
+        "colunas": [
+          0.051545185185185194,
+          0.06769333333333336
+        ],
+        "borda": false,
+        "grupo": "Guia / Socorrista"
+      },
+      {
+        "pagina": 140,
+        "branco_medio": 0.2162,
+        "diferenca": 0.1895,
+        "colunas": [
+          0.31095259259259256,
+          0.1214711111111111
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 141,
+        "branco_medio": 0.2138,
+        "diferenca": 0.0942,
+        "colunas": [
+          0.1666562962962963,
+          0.26087851851851857
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 142,
+        "branco_medio": 0.1058,
+        "diferenca": 0.0898,
+        "colunas": [
+          0.15065629629629632,
+          0.060878518518518505
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 143,
+        "branco_medio": 0.0435,
+        "diferenca": 0.0206,
+        "colunas": [
+          0.03317481481481482,
+          0.05376740740740742
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 144,
+        "branco_medio": 0.1918,
+        "diferenca": 0.095,
+        "colunas": [
+          0.23924888888888887,
+          0.14428592592592593
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 145,
+        "branco_medio": 0.0817,
+        "diferenca": 0.0049,
+        "colunas": [
+          0.08413777777777778,
+          0.07924888888888888
+        ],
+        "borda": false,
+        "grupo": "Emanador / Condutor Armado"
+      },
+      {
+        "pagina": 146,
+        "branco_medio": 0.1622,
+        "diferenca": 0.0533,
+        "colunas": [
+          0.13554518518518519,
+          0.1888785185185185
+        ],
+        "borda": false,
+        "grupo": "Emanador / Condutor Armado"
+      },
+      {
+        "pagina": 147,
+        "branco_medio": 0.0864,
+        "diferenca": 0.0324,
+        "colunas": [
+          0.1026562962962963,
+          0.07021185185185186
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 148,
+        "branco_medio": 0.1592,
+        "diferenca": 0.1019,
+        "colunas": [
+          0.21021185185185184,
+          0.10828592592592591
+        ],
+        "borda": false,
+        "grupo": "Emanador / Ressonante"
+      },
+      {
+        "pagina": 149,
+        "branco_medio": 0.3407,
+        "diferenca": 0.1295,
+        "colunas": [
+          0.27598962962962964,
+          0.40547111111111106
+        ],
+        "borda": false,
+        "grupo": "Emanador / Ressonante"
+      },
+      {
+        "pagina": 150,
+        "branco_medio": 0.0621,
+        "diferenca": 0.0407,
+        "colunas": [
+          0.04176740740740743,
+          0.08250814814814816
+        ],
+        "borda": false,
+        "grupo": "Emanador / Catalisador"
+      },
+      {
+        "pagina": 151,
+        "branco_medio": 0.4874,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.4742118518518519,
+          0.5005822222222222
+        ],
+        "borda": false,
+        "grupo": "Emanador / Catalisador"
+      },
+      {
+        "pagina": 153,
+        "branco_medio": 0.1071,
+        "diferenca": 0.0652,
+        "colunas": [
+          0.13969333333333334,
+          0.07450814814814816
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 154,
+        "branco_medio": 0.1155,
+        "diferenca": 0.072,
+        "colunas": [
+          0.1515451851851852,
+          0.0795451851851852
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 155,
+        "branco_medio": 0.0628,
+        "diferenca": 0.0157,
+        "colunas": [
+          0.07065629629629631,
+          0.054952592592592574
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 156,
+        "branco_medio": 0.0237,
+        "diferenca": 0.0359,
+        "colunas": [
+          0.005767407407407409,
+          0.041619259259259245
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 157,
+        "branco_medio": 0.0852,
+        "diferenca": 0.0415,
+        "colunas": [
+          0.06443407407407406,
+          0.10591555555555555
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 158,
+        "branco_medio": 0.1452,
+        "diferenca": 0.0197,
+        "colunas": [
+          0.13539703703703704,
+          0.15510074074074076
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 159,
+        "branco_medio": 0.0352,
+        "diferenca": 0.0424,
+        "colunas": [
+          0.014063703703703696,
+          0.05643407407407406
+        ],
+        "borda": false,
+        "grupo": "Evocador / Invocação Principal"
+      },
+      {
+        "pagina": 160,
+        "branco_medio": 0.0476,
+        "diferenca": 0.009,
+        "colunas": [
+          0.0521377777777778,
+          0.043100740740740724
+        ],
+        "borda": false,
+        "grupo": "Evocador / Invocação Principal"
+      },
+      {
+        "pagina": 161,
+        "branco_medio": 0.0984,
+        "diferenca": 0.1647,
+        "colunas": [
+          0.01598962962962964,
+          0.18073037037037037
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 162,
+        "branco_medio": 0.144,
+        "diferenca": 0.0563,
+        "colunas": [
+          0.1158414814814815,
+          0.1721377777777778
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 163,
+        "branco_medio": 0.2139,
+        "diferenca": 0.3487,
+        "colunas": [
+          0.388285925925926,
+          0.039545185185185204
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 164,
+        "branco_medio": 0.0507,
+        "diferenca": 0.0092,
+        "colunas": [
+          0.055248888888888896,
+          0.04606370370370369
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 165,
+        "branco_medio": 0.295,
+        "diferenca": 0.144,
+        "colunas": [
+          0.36695259259259255,
+          0.2229525925925926
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 166,
+        "branco_medio": 0.0187,
+        "diferenca": 0.0,
+        "colunas": [
+          0.018656296296296303,
+          0.018656296296296303
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 167,
+        "branco_medio": 0.0827,
+        "diferenca": 0.0388,
+        "colunas": [
+          0.1020637037037037,
+          0.06324888888888891
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 168,
+        "branco_medio": 0.0589,
+        "diferenca": 0.0247,
+        "colunas": [
+          0.04650814814814815,
+          0.07124888888888888
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 169,
+        "branco_medio": 0.084,
+        "diferenca": 0.0065,
+        "colunas": [
+          0.08073037037037037,
+          0.08724888888888889
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 170,
+        "branco_medio": 0.1133,
+        "diferenca": 0.2104,
+        "colunas": [
+          0.21850814814814815,
+          0.00813777777777777
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 171,
+        "branco_medio": 0.0589,
+        "diferenca": 0.0319,
+        "colunas": [
+          0.042952592592592584,
+          0.07480444444444444
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 172,
+        "branco_medio": 0.1529,
+        "diferenca": 0.2865,
+        "colunas": [
+          0.009619259259259251,
+          0.2961377777777777
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 174,
+        "branco_medio": 0.0747,
+        "diferenca": 0.0407,
+        "colunas": [
+          0.09510074074074076,
+          0.05436000000000002
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 175,
+        "branco_medio": 0.3133,
+        "diferenca": 0.1434,
+        "colunas": [
+          0.38502666666666663,
+          0.24161925925925928
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 176,
+        "branco_medio": 0.0579,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.05761925925925926,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 178,
+        "branco_medio": 0.2038,
+        "diferenca": 0.1484,
+        "colunas": [
+          0.2780637037037037,
+          0.12961925925925924
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 179,
+        "branco_medio": 0.1144,
+        "diferenca": 0.024,
+        "colunas": [
+          0.10235999999999998,
+          0.12636
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 180,
+        "branco_medio": 0.1483,
+        "diferenca": 0.0148,
+        "colunas": [
+          0.14087851851851851,
+          0.15569333333333332
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 181,
+        "branco_medio": 0.4447,
+        "diferenca": 0.1028,
+        "colunas": [
+          0.39332296296296293,
+          0.49613777777777773
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 183,
+        "branco_medio": 0.2152,
+        "diferenca": 0.0129,
+        "colunas": [
+          0.22161925925925924,
+          0.20873037037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 184,
+        "branco_medio": 0.0747,
+        "diferenca": 0.0293,
+        "colunas": [
+          0.08932296296296298,
+          0.05998962962962962
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 185,
+        "branco_medio": 0.0994,
+        "diferenca": 0.0053,
+        "colunas": [
+          0.09673037037037038,
+          0.1020637037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 186,
+        "branco_medio": 0.3403,
+        "diferenca": 0.0385,
+        "colunas": [
+          0.35954518518518513,
+          0.3210266666666666
+        ],
+        "borda": false,
+        "grupo": "Caminhos e Trilhas"
+      },
+      {
+        "pagina": 188,
+        "branco_medio": 0.2852,
+        "diferenca": 0.0902,
+        "colunas": [
+          0.2401377777777778,
+          0.33036
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 189,
+        "branco_medio": 0.0816,
+        "diferenca": 0.0865,
+        "colunas": [
+          0.03836,
+          0.12487851851851853
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 190,
+        "branco_medio": 0.2372,
+        "diferenca": 0.0569,
+        "colunas": [
+          0.2656192592592593,
+          0.20873037037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 191,
+        "branco_medio": 0.0695,
+        "diferenca": 0.0077,
+        "colunas": [
+          0.06561925925925927,
+          0.07332296296296295
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 192,
+        "branco_medio": 0.5038,
+        "diferenca": 0.0243,
+        "colunas": [
+          0.5159896296296297,
+          0.4916933333333333
+        ],
+        "borda": true,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 194,
+        "branco_medio": 0.2136,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.1799896296296296,
+          0.24724888888888885
+        ],
+        "borda": true,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 195,
+        "branco_medio": 0.2188,
+        "diferenca": 0.112,
+        "colunas": [
+          0.16280444444444445,
+          0.27480444444444446
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 196,
+        "branco_medio": 0.0544,
+        "diferenca": 0.0628,
+        "colunas": [
+          0.022952592592592583,
+          0.0857674074074074
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 197,
+        "branco_medio": 0.1432,
+        "diferenca": 0.0557,
+        "colunas": [
+          0.11539703703703703,
+          0.17110074074074072
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 198,
+        "branco_medio": 0.1064,
+        "diferenca": 0.0376,
+        "colunas": [
+          0.1251748148148148,
+          0.08754518518518517
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 199,
+        "branco_medio": 0.0662,
+        "diferenca": 0.0,
+        "colunas": [
+          0.06621185185185187,
+          0.06621185185185187
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 200,
+        "branco_medio": 0.2073,
+        "diferenca": 0.2387,
+        "colunas": [
+          0.3266562962962963,
+          0.08798962962962963
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 201,
+        "branco_medio": 0.1201,
+        "diferenca": 0.0972,
+        "colunas": [
+          0.0715451851851852,
+          0.16873037037037036
+        ],
+        "borda": true,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 203,
+        "branco_medio": 0.0746,
+        "diferenca": 0.0224,
+        "colunas": [
+          0.06339703703703704,
+          0.0857674074074074
+        ],
+        "borda": true,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 204,
+        "branco_medio": 0.082,
+        "diferenca": 0.0719,
+        "colunas": [
+          0.04606370370370369,
+          0.11791555555555554
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 205,
+        "branco_medio": 0.0841,
+        "diferenca": 0.0843,
+        "colunas": [
+          0.04191555555555557,
+          0.12621185185185188
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 206,
+        "branco_medio": 0.2274,
+        "diferenca": 0.1772,
+        "colunas": [
+          0.13880444444444445,
+          0.3159896296296296
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 207,
+        "branco_medio": 0.055,
+        "diferenca": 0.0308,
+        "colunas": [
+          0.039545185185185204,
+          0.07035999999999999
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 208,
+        "branco_medio": 0.3224,
+        "diferenca": 0.044,
+        "colunas": [
+          0.3004340740740741,
+          0.34443407407407406
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 209,
+        "branco_medio": 0.1718,
+        "diferenca": 0.0153,
+        "colunas": [
+          0.17939703703703702,
+          0.1641377777777778
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 210,
+        "branco_medio": 0.1853,
+        "diferenca": 0.2779,
+        "colunas": [
+          0.04636000000000001,
+          0.32428592592592587
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 211,
+        "branco_medio": 0.1275,
+        "diferenca": 0.2489,
+        "colunas": [
+          0.003100740740740746,
+          0.2519896296296297
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 212,
+        "branco_medio": 0.0643,
+        "diferenca": 0.0193,
+        "colunas": [
+          0.0546562962962963,
+          0.07391555555555555
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 213,
+        "branco_medio": 0.3384,
+        "diferenca": 0.0316,
+        "colunas": [
+          0.32265629629629633,
+          0.3542118518518519
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 214,
+        "branco_medio": 0.2375,
+        "diferenca": 0.0,
+        "colunas": [
+          0.23747111111111113,
+          0.23747111111111113
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 215,
+        "branco_medio": 0.1287,
+        "diferenca": 0.0,
+        "colunas": [
+          0.12873037037037038,
+          0.12873037037037038
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 216,
+        "branco_medio": 0.2675,
+        "diferenca": 0.0,
+        "colunas": [
+          0.2675451851851852,
+          0.2675451851851852
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 217,
+        "branco_medio": 0.1136,
+        "diferenca": 0.0,
+        "colunas": [
+          0.11361925925925928,
+          0.11361925925925928
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 218,
+        "branco_medio": 0.3283,
+        "diferenca": 0.0,
+        "colunas": [
+          0.3282859259259259,
+          0.3282859259259259
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 219,
+        "branco_medio": 0.2207,
+        "diferenca": 0.0154,
+        "colunas": [
+          0.22843407407407404,
+          0.21302666666666667
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 220,
+        "branco_medio": 0.2778,
+        "diferenca": 0.1007,
+        "colunas": [
+          0.22739703703703704,
+          0.32813777777777775
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 221,
+        "branco_medio": 0.1658,
+        "diferenca": 0.0855,
+        "colunas": [
+          0.20858222222222222,
+          0.12310074074074072
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 222,
+        "branco_medio": 0.1309,
+        "diferenca": 0.1089,
+        "colunas": [
+          0.07643407407407406,
+          0.18532296296296294
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 223,
+        "branco_medio": 0.1164,
+        "diferenca": 0.0145,
+        "colunas": [
+          0.12369333333333332,
+          0.10917481481481484
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 224,
+        "branco_medio": 0.2236,
+        "diferenca": 0.1533,
+        "colunas": [
+          0.1469525925925926,
+          0.3002859259259259
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 225,
+        "branco_medio": 0.1418,
+        "diferenca": 0.0213,
+        "colunas": [
+          0.15243407407407408,
+          0.13110074074074074
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 226,
+        "branco_medio": 0.4289,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.4537674074074074,
+          0.4039896296296296
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 228,
+        "branco_medio": 0.135,
+        "diferenca": 0.047,
+        "colunas": [
+          0.11154518518518519,
+          0.15850814814814815
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 229,
+        "branco_medio": 0.0362,
+        "diferenca": 0.0292,
+        "colunas": [
+          0.05080444444444445,
+          0.021619259259259265
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 230,
+        "branco_medio": 0.0498,
+        "diferenca": 0.0287,
+        "colunas": [
+          0.03539703703703704,
+          0.0641377777777778
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 231,
+        "branco_medio": 0.0955,
+        "diferenca": 0.1535,
+        "colunas": [
+          0.01880444444444444,
+          0.17228592592592593
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 232,
+        "branco_medio": 0.1904,
+        "diferenca": 0.1689,
+        "colunas": [
+          0.10591555555555555,
+          0.27480444444444446
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 233,
+        "branco_medio": 0.0478,
+        "diferenca": 0.0391,
+        "colunas": [
+          0.06739703703703703,
+          0.02828592592592593
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 234,
+        "branco_medio": 0.1421,
+        "diferenca": 0.1049,
+        "colunas": [
+          0.19450814814814815,
+          0.08961925925925925
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 235,
+        "branco_medio": 0.112,
+        "diferenca": 0.0584,
+        "colunas": [
+          0.14117481481481484,
+          0.08280444444444444
+        ],
+        "borda": true,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 237,
+        "branco_medio": 0.245,
+        "diferenca": 0.0424,
+        "colunas": [
+          0.22384148148148147,
+          0.2662118518518518
+        ],
+        "borda": true,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 238,
+        "branco_medio": 0.2945,
+        "diferenca": 0.3941,
+        "colunas": [
+          0.4915451851851852,
+          0.09747111111111112
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 239,
+        "branco_medio": 0.0155,
+        "diferenca": 0.0,
+        "colunas": [
+          0.015545185185185178,
+          0.015545185185185178
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 240,
+        "branco_medio": 0.0566,
+        "diferenca": 0.0,
+        "colunas": [
+          0.05658222222222224,
+          0.05658222222222224
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 241,
+        "branco_medio": 0.143,
+        "diferenca": 0.1994,
+        "colunas": [
+          0.043248888888888906,
+          0.24265629629629631
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 242,
+        "branco_medio": 0.1732,
+        "diferenca": 0.1262,
+        "colunas": [
+          0.23628592592592593,
+          0.11006370370370372
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 243,
+        "branco_medio": 0.1954,
+        "diferenca": 0.1778,
+        "colunas": [
+          0.2842859259259259,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 244,
+        "branco_medio": 0.1847,
+        "diferenca": 0.1221,
+        "colunas": [
+          0.12369333333333332,
+          0.24576740740740738
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 245,
+        "branco_medio": 0.4369,
+        "diferenca": 0.1298,
+        "colunas": [
+          0.5017674074074073,
+          0.37198962962962967
+        ],
+        "borda": true,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 248,
+        "branco_medio": 0.253,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.21939703703703703,
+          0.2866562962962963
+        ],
+        "borda": true,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 249,
+        "branco_medio": 0.0674,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.09228592592592594,
+          0.04250814814814816
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 250,
+        "branco_medio": 0.1115,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.13643407407407407,
+          0.08665629629629629
+        ],
+        "borda": false,
+        "grupo": "Sua técnica"
+      },
+      {
+        "pagina": 251,
+        "branco_medio": 0.0758,
+        "diferenca": 0.0188,
+        "colunas": [
+          0.06636000000000002,
+          0.08517481481481481
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 252,
+        "branco_medio": 0.1888,
+        "diferenca": 0.0784,
+        "colunas": [
+          0.22798962962962963,
+          0.14961925925925926
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 253,
+        "branco_medio": 0.0327,
+        "diferenca": 0.0184,
+        "colunas": [
+          0.04191555555555557,
+          0.023545185185185186
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 254,
+        "branco_medio": 0.2268,
+        "diferenca": 0.3298,
+        "colunas": [
+          0.061915555555555564,
+          0.3916933333333333
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 255,
+        "branco_medio": 0.0641,
+        "diferenca": 0.0136,
+        "colunas": [
+          0.0709525925925926,
+          0.05732296296296298
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 256,
+        "branco_medio": 0.2889,
+        "diferenca": 0.1307,
+        "colunas": [
+          0.3542118518518519,
+          0.22354518518518518
+        ],
+        "borda": false,
+        "grupo": "Funções e saldo"
+      },
+      {
+        "pagina": 257,
+        "branco_medio": 0.1138,
+        "diferenca": 0.0964,
+        "colunas": [
+          0.1620637037037037,
+          0.06561925925925927
+        ],
+        "borda": false,
+        "grupo": "Formas"
+      },
+      {
+        "pagina": 258,
+        "branco_medio": 0.2536,
+        "diferenca": 0.1342,
+        "colunas": [
+          0.3207303703703704,
+          0.18650814814814815
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 259,
+        "branco_medio": 0.3039,
+        "diferenca": 0.057,
+        "colunas": [
+          0.33243407407407405,
+          0.275397037037037
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 260,
+        "branco_medio": 0.0938,
+        "diferenca": 0.131,
+        "colunas": [
+          0.02828592592592593,
+          0.15924888888888888
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 261,
+        "branco_medio": 0.0139,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.005767407407407409,
+          0.022063703703703703
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 262,
+        "branco_medio": 0.3945,
+        "diferenca": 0.0308,
+        "colunas": [
+          0.40991555555555553,
+          0.3791007407407407
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 263,
+        "branco_medio": 0.0744,
+        "diferenca": 0.0,
+        "colunas": [
+          0.07436000000000002,
+          0.07436000000000002
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 264,
+        "branco_medio": 0.1485,
+        "diferenca": 0.0831,
+        "colunas": [
+          0.1900637037037037,
+          0.10695259259259261
+        ],
+        "borda": false,
+        "grupo": "Controle"
+      },
+      {
+        "pagina": 265,
+        "branco_medio": 0.2,
+        "diferenca": 0.1911,
+        "colunas": [
+          0.10443407407407407,
+          0.2955451851851852
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 266,
+        "branco_medio": 0.1409,
+        "diferenca": 0.0439,
+        "colunas": [
+          0.16280444444444445,
+          0.1189525925925926
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 267,
+        "branco_medio": 0.1351,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.12917481481481483,
+          0.1410266666666667
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 268,
+        "branco_medio": 0.2702,
+        "diferenca": 0.4513,
+        "colunas": [
+          0.49584148148148144,
+          0.044582222222222204
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 269,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0,
+        "colunas": [
+          0.11332296296296296,
+          0.11332296296296296
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 270,
+        "branco_medio": 0.2432,
+        "diferenca": 0.1287,
+        "colunas": [
+          0.17880444444444446,
+          0.3075451851851852
+        ],
+        "borda": false,
+        "grupo": "Ampliar um feitiço"
+      },
+      {
+        "pagina": 271,
+        "branco_medio": 0.3298,
+        "diferenca": 0.0683,
+        "colunas": [
+          0.29569333333333336,
+          0.3639896296296296
+        ],
+        "borda": false,
+        "grupo": "Feitiços de Classe 0"
+      },
+      {
+        "pagina": 272,
+        "branco_medio": 0.2078,
+        "diferenca": 0.269,
+        "colunas": [
+          0.34236000000000005,
+          0.07332296296296295
+        ],
+        "borda": false,
+        "grupo": "Efeitos próprios"
+      },
+      {
+        "pagina": 273,
+        "branco_medio": 0.3604,
+        "diferenca": 0.1375,
+        "colunas": [
+          0.4291748148148148,
+          0.2916933333333333
+        ],
+        "borda": false,
+        "grupo": "Liberação Máxima"
+      },
+      {
+        "pagina": 274,
+        "branco_medio": 0.1787,
+        "diferenca": 0.1443,
+        "colunas": [
+          0.25080444444444444,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 275,
+        "branco_medio": 0.077,
+        "diferenca": 0.0,
+        "colunas": [
+          0.07702666666666666,
+          0.07702666666666666
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 276,
+        "branco_medio": 0.4065,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.4162859259259259,
+          0.3967303703703704
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 277,
+        "branco_medio": 0.0865,
+        "diferenca": 0.0714,
+        "colunas": [
+          0.12221185185185185,
+          0.05080444444444445
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 278,
+        "branco_medio": 0.0924,
+        "diferenca": 0.1508,
+        "colunas": [
+          0.16784148148148148,
+          0.01702666666666666
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 279,
+        "branco_medio": 0.3871,
+        "diferenca": 0.1867,
+        "colunas": [
+          0.48043407407407407,
+          0.2937674074074074
+        ],
+        "borda": true,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 281,
+        "branco_medio": 0.1595,
+        "diferenca": 0.0551,
+        "colunas": [
+          0.13198962962962962,
+          0.18710074074074076
+        ],
+        "borda": true,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 282,
+        "branco_medio": 0.1557,
+        "diferenca": 0.0332,
+        "colunas": [
+          0.13910074074074075,
+          0.17228592592592593
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 283,
+        "branco_medio": 0.121,
+        "diferenca": 0.0913,
+        "colunas": [
+          0.1666562962962963,
+          0.07539703703703704
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 284,
+        "branco_medio": 0.0729,
+        "diferenca": 0.0287,
+        "colunas": [
+          0.08724888888888889,
+          0.05850814814814814
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 285,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0782,
+        "colunas": [
+          0.15243407407407408,
+          0.07421185185185183
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 286,
+        "branco_medio": 0.0708,
+        "diferenca": 0.0767,
+        "colunas": [
+          0.10917481481481484,
+          0.032434074074074074
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 287,
+        "branco_medio": 0.1145,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.1367303703703704,
+          0.09228592592592594
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 288,
+        "branco_medio": 0.0366,
+        "diferenca": 0.0504,
+        "colunas": [
+          0.061767407407407424,
+          0.011397037037037034
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 289,
+        "branco_medio": 0.0477,
+        "diferenca": 0.0086,
+        "colunas": [
+          0.043397037037037046,
+          0.051989629629629615
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 290,
+        "branco_medio": 0.0858,
+        "diferenca": 0.1286,
+        "colunas": [
+          0.021471111111111104,
+          0.15006370370370373
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 291,
+        "branco_medio": 0.2419,
+        "diferenca": 0.1452,
+        "colunas": [
+          0.31450814814814815,
+          0.16932296296296298
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 292,
+        "branco_medio": 0.174,
+        "diferenca": 0.2591,
+        "colunas": [
+          0.30354518518518514,
+          0.04443407407407406
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 293,
+        "branco_medio": 0.0923,
+        "diferenca": 0.1719,
+        "colunas": [
+          0.00636000000000001,
+          0.17821185185185187
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 294,
+        "branco_medio": 0.117,
+        "diferenca": 0.1087,
+        "colunas": [
+          0.17139703703703704,
+          0.06265629629629631
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 295,
+        "branco_medio": 0.1317,
+        "diferenca": 0.0504,
+        "colunas": [
+          0.15687851851851853,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 296,
+        "branco_medio": 0.1653,
+        "diferenca": 0.1224,
+        "colunas": [
+          0.10413777777777779,
+          0.22650814814814815
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 297,
+        "branco_medio": 0.2486,
+        "diferenca": 0.0495,
+        "colunas": [
+          0.27332296296296293,
+          0.22384148148148147
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 298,
+        "branco_medio": 0.2003,
+        "diferenca": 0.0572,
+        "colunas": [
+          0.2288785185185185,
+          0.17169333333333334
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 299,
+        "branco_medio": 0.0967,
+        "diferenca": 0.1819,
+        "colunas": [
+          0.005767407407407409,
+          0.18769333333333335
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 300,
+        "branco_medio": 0.175,
+        "diferenca": 0.2601,
+        "colunas": [
+          0.3050266666666666,
+          0.044878518518518526
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 301,
+        "branco_medio": 0.1085,
+        "diferenca": 0.1044,
+        "colunas": [
+          0.05628592592592592,
+          0.16073037037037036
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 302,
+        "branco_medio": 0.3395,
+        "diferenca": 0.1271,
+        "colunas": [
+          0.40310074074074076,
+          0.27598962962962964
+        ],
+        "borda": true,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 305,
+        "branco_medio": 0.0605,
+        "diferenca": 0.0218,
+        "colunas": [
+          0.04961925925925925,
+          0.07139703703703705
+        ],
+        "borda": true,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 306,
+        "branco_medio": 0.1165,
+        "diferenca": 0.0858,
+        "colunas": [
+          0.15939703703703703,
+          0.07361925925925927
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 307,
+        "branco_medio": 0.0858,
+        "diferenca": 0.0412,
+        "colunas": [
+          0.10636000000000001,
+          0.06517481481481481
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 308,
+        "branco_medio": 0.166,
+        "diferenca": 0.0621,
+        "colunas": [
+          0.13495259259259257,
+          0.19702666666666666
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 309,
+        "branco_medio": 0.1884,
+        "diferenca": 0.0761,
+        "colunas": [
+          0.22650814814814815,
+          0.15036
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 310,
+        "branco_medio": 0.2989,
+        "diferenca": 0.1554,
+        "colunas": [
+          0.22117481481481482,
+          0.3765822222222222
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 311,
+        "branco_medio": 0.0738,
+        "diferenca": 0.1247,
+        "colunas": [
+          0.13613777777777777,
+          0.011397037037037034
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 312,
+        "branco_medio": 0.0855,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.08058222222222222,
+          0.09036
+        ],
+        "borda": false,
+        "grupo": "Domínio Simples"
+      },
+      {
+        "pagina": 313,
+        "branco_medio": 0.1333,
+        "diferenca": 0.0507,
+        "colunas": [
+          0.10798962962962963,
+          0.15865629629629627
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 314,
+        "branco_medio": 0.1137,
+        "diferenca": 0.1806,
+        "colunas": [
+          0.20398962962962966,
+          0.023397037037037046
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 315,
+        "branco_medio": 0.1502,
+        "diferenca": 0.0367,
+        "colunas": [
+          0.13184148148148148,
+          0.16858222222222224
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 316,
+        "branco_medio": 0.2933,
+        "diferenca": 0.0,
+        "colunas": [
+          0.29332296296296295,
+          0.29332296296296295
+        ],
+        "borda": true,
+        "grupo": "Aptidão Própria"
+      },
+      {
+        "pagina": 318,
+        "branco_medio": 0.2798,
+        "diferenca": 0.0095,
+        "colunas": [
+          0.28458222222222224,
+          0.2751007407407407
+        ],
+        "borda": true,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 319,
+        "branco_medio": 0.5481,
+        "diferenca": 0.0436,
+        "colunas": [
+          0.52636,
+          0.5699155555555555
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 321,
+        "branco_medio": 0.0298,
+        "diferenca": 0.029,
+        "colunas": [
+          0.04428592592592593,
+          0.015248888888888899
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 322,
+        "branco_medio": 0.0587,
+        "diferenca": 0.1022,
+        "colunas": [
+          0.1097674074074074,
+          0.00754518518518519
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 323,
+        "branco_medio": 0.213,
+        "diferenca": 0.1887,
+        "colunas": [
+          0.307397037037037,
+          0.11865629629629627
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 324,
+        "branco_medio": 0.2755,
+        "diferenca": 0.0625,
+        "colunas": [
+          0.24428592592592588,
+          0.3068044444444445
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 325,
+        "branco_medio": 0.5187,
+        "diferenca": 0.1215,
+        "colunas": [
+          0.579397037037037,
+          0.4579155555555556
+        ],
+        "borda": false,
+        "grupo": "Invocações nas rotas"
+      },
+      {
+        "pagina": 327,
+        "branco_medio": 0.2635,
+        "diferenca": 0.1624,
+        "colunas": [
+          0.18236,
+          0.34473037037037035
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 328,
+        "branco_medio": 0.2023,
+        "diferenca": 0.057,
+        "colunas": [
+          0.23080444444444445,
+          0.17376740740740743
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 329,
+        "branco_medio": 0.4595,
+        "diferenca": 0.0483,
+        "colunas": [
+          0.43539703703703697,
+          0.4836933333333333
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 330,
+        "branco_medio": 0.2181,
+        "diferenca": 0.2676,
+        "colunas": [
+          0.3518414814814815,
+          0.08428592592592593
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 331,
+        "branco_medio": 0.2968,
+        "diferenca": 0.055,
+        "colunas": [
+          0.269322962962963,
+          0.32428592592592587
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 333,
+        "branco_medio": 0.1398,
+        "diferenca": 0.1219,
+        "colunas": [
+          0.07880444444444447,
+          0.20073037037037036
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 334,
+        "branco_medio": 0.0459,
+        "diferenca": 0.0471,
+        "colunas": [
+          0.022360000000000005,
+          0.06947111111111111
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 335,
+        "branco_medio": 0.1632,
+        "diferenca": 0.1591,
+        "colunas": [
+          0.08369333333333333,
+          0.2428044444444444
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 336,
+        "branco_medio": 0.1256,
+        "diferenca": 0.1289,
+        "colunas": [
+          0.06117481481481483,
+          0.1900637037037037
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 337,
+        "branco_medio": 0.2979,
+        "diferenca": 0.2199,
+        "colunas": [
+          0.40784148148148147,
+          0.18798962962962962
+        ],
+        "borda": true,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 340,
+        "branco_medio": 0.0646,
+        "diferenca": 0.0424,
+        "colunas": [
+          0.043397037037037046,
+          0.0857674074074074
+        ],
+        "borda": true,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 341,
+        "branco_medio": 0.0937,
+        "diferenca": 0.1234,
+        "colunas": [
+          0.15539703703703703,
+          0.03198962962962963
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 342,
+        "branco_medio": 0.1791,
+        "diferenca": 0.1606,
+        "colunas": [
+          0.09880444444444446,
+          0.25939703703703704
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 343,
+        "branco_medio": 0.2388,
+        "diferenca": 0.0661,
+        "colunas": [
+          0.2057674074074074,
+          0.27184148148148146
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 344,
+        "branco_medio": 0.2982,
+        "diferenca": 0.2874,
+        "colunas": [
+          0.44191555555555556,
+          0.15450814814814814
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 345,
+        "branco_medio": 0.3092,
+        "diferenca": 0.0794,
+        "colunas": [
+          0.26947111111111105,
+          0.34887851851851853
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 346,
+        "branco_medio": 0.12,
+        "diferenca": 0.0987,
+        "colunas": [
+          0.07065629629629631,
+          0.16932296296296298
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 347,
+        "branco_medio": 0.1758,
+        "diferenca": 0.1293,
+        "colunas": [
+          0.24043407407407408,
+          0.11110074074074074
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 348,
+        "branco_medio": 0.223,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.1752488888888889,
+          0.2706562962962963
+        ],
+        "borda": true,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 350,
+        "branco_medio": 0.2006,
+        "diferenca": 0.0572,
+        "colunas": [
+          0.1719896296296296,
+          0.2291748148148148
+        ],
+        "borda": true,
+        "grupo": "Ritual e Pactos"
+      },
+      {
+        "pagina": 351,
+        "branco_medio": 0.2004,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.15273037037037035,
+          0.24813777777777776
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 352,
+        "branco_medio": 0.0659,
+        "diferenca": 0.0,
+        "colunas": [
+          0.06591555555555555,
+          0.06591555555555555
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 353,
+        "branco_medio": 0.2852,
+        "diferenca": 0.0699,
+        "colunas": [
+          0.3201377777777778,
+          0.2502118518518518
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 354,
+        "branco_medio": 0.1769,
+        "diferenca": 0.0,
+        "colunas": [
+          0.17687851851851852,
+          0.17687851851851852
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 355,
+        "branco_medio": 0.0244,
+        "diferenca": 0.0142,
+        "colunas": [
+          0.01732296296296296,
+          0.0315451851851852
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 356,
+        "branco_medio": 0.2246,
+        "diferenca": 0.0969,
+        "colunas": [
+          0.2730266666666667,
+          0.17613777777777778
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 357,
+        "branco_medio": 0.1223,
+        "diferenca": 0.0159,
+        "colunas": [
+          0.11436000000000002,
+          0.13021185185185186
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 358,
+        "branco_medio": 0.0901,
+        "diferenca": 0.1604,
+        "colunas": [
+          0.009915555555555552,
+          0.17035999999999998
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 359,
+        "branco_medio": 0.1987,
+        "diferenca": 0.1724,
+        "colunas": [
+          0.11243407407407408,
+          0.28487851851851853
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 360,
+        "branco_medio": 0.1538,
+        "diferenca": 0.0696,
+        "colunas": [
+          0.1189525925925926,
+          0.18858222222222223
+        ],
+        "borda": true,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 362,
+        "branco_medio": 0.0889,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.1020637037037037,
+          0.07569333333333332
+        ],
+        "borda": true,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 363,
+        "branco_medio": 0.1552,
+        "diferenca": 0.0767,
+        "colunas": [
+          0.11687851851851852,
+          0.19361925925925927
+        ],
+        "borda": false,
+        "grupo": "Turnos das entidades"
+      },
+      {
+        "pagina": 364,
+        "branco_medio": 0.0624,
+        "diferenca": 0.0972,
+        "colunas": [
+          0.013767407407407417,
+          0.11095259259259259
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 365,
+        "branco_medio": 0.0684,
+        "diferenca": 0.0495,
+        "colunas": [
+          0.04369333333333333,
+          0.09317481481481482
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 366,
+        "branco_medio": 0.0295,
+        "diferenca": 0.0514,
+        "colunas": [
+          0.055248888888888896,
+          0.0038414814814814865
+        ],
+        "borda": false,
+        "grupo": "Comandar uma especial"
+      },
+      {
+        "pagina": 367,
+        "branco_medio": 0.0792,
+        "diferenca": 0.0421,
+        "colunas": [
+          0.10028592592592595,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Comandar uma especial"
+      },
+      {
+        "pagina": 368,
+        "branco_medio": 0.0634,
+        "diferenca": 0.0708,
+        "colunas": [
+          0.09880444444444446,
+          0.02798962962962963
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 369,
+        "branco_medio": 0.0268,
+        "diferenca": 0.0059,
+        "colunas": [
+          0.023841481481481488,
+          0.029767407407407413
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 370,
+        "branco_medio": 0.0501,
+        "diferenca": 0.0132,
+        "colunas": [
+          0.05673037037037038,
+          0.04354518518518519
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 371,
+        "branco_medio": 0.2767,
+        "diferenca": 0.085,
+        "colunas": [
+          0.31924888888888886,
+          0.23421185185185187
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 372,
+        "branco_medio": 0.0952,
+        "diferenca": 0.0012,
+        "colunas": [
+          0.0958414814814815,
+          0.0946562962962963
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 373,
+        "branco_medio": 0.084,
+        "diferenca": 0.0145,
+        "colunas": [
+          0.07673037037037038,
+          0.09124888888888888
+        ],
+        "borda": false,
+        "grupo": "Trunfos das domadas"
+      },
+      {
+        "pagina": 374,
+        "branco_medio": 0.1939,
+        "diferenca": 0.0924,
+        "colunas": [
+          0.2401377777777778,
+          0.14769333333333334
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 375,
+        "branco_medio": 0.1813,
+        "diferenca": 0.0151,
+        "colunas": [
+          0.17376740740740743,
+          0.1888785185185185
+        ],
+        "borda": false,
+        "grupo": "Queda e destruição"
+      },
+      {
+        "pagina": 376,
+        "branco_medio": 0.0358,
+        "diferenca": 0.0234,
+        "colunas": [
+          0.024137777777777786,
+          0.04754518518518517
+        ],
+        "borda": false,
+        "grupo": "Queda e destruição"
+      },
+      {
+        "pagina": 377,
+        "branco_medio": 0.1921,
+        "diferenca": 0.025,
+        "colunas": [
+          0.1795451851851852,
+          0.2045822222222222
+        ],
+        "borda": true,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 380,
+        "branco_medio": 0.113,
+        "diferenca": 0.2064,
+        "colunas": [
+          0.2161377777777778,
+          0.009767407407407412
+        ],
+        "borda": true,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 381,
+        "branco_medio": 0.0784,
+        "diferenca": 0.0147,
+        "colunas": [
+          0.07110074074074073,
+          0.0857674074074074
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 382,
+        "branco_medio": 0.0277,
+        "diferenca": 0.0379,
+        "colunas": [
+          0.046656296296296286,
+          0.008730370370370371
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 383,
+        "branco_medio": 0.0686,
+        "diferenca": 0.083,
+        "colunas": [
+          0.02710074074074075,
+          0.11006370370370372
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 384,
+        "branco_medio": 0.0228,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.01687851851851852,
+          0.02873037037037037
+        ],
+        "borda": false,
+        "grupo": "Definição e corpo"
+      },
+      {
+        "pagina": 385,
+        "branco_medio": 0.0237,
+        "diferenca": 0.0,
+        "colunas": [
+          0.023693333333333327,
+          0.023693333333333327
+        ],
+        "borda": false,
+        "grupo": "Definição e corpo"
+      },
+      {
+        "pagina": 386,
+        "branco_medio": 0.1043,
+        "diferenca": 0.1502,
+        "colunas": [
+          0.029174814814814813,
+          0.17939703703703702
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 387,
+        "branco_medio": 0.0697,
+        "diferenca": 0.0514,
+        "colunas": [
+          0.04398962962962965,
+          0.09539703703703704
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 388,
+        "branco_medio": 0.1212,
+        "diferenca": 0.036,
+        "colunas": [
+          0.1392488888888889,
+          0.1032488888888889
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 389,
+        "branco_medio": 0.0997,
+        "diferenca": 0.024,
+        "colunas": [
+          0.11169333333333334,
+          0.08769333333333335
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 390,
+        "branco_medio": 0.1437,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.11006370370370372,
+          0.177322962962963
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 391,
+        "branco_medio": 0.0715,
+        "diferenca": 0.0249,
+        "colunas": [
+          0.08398962962962965,
+          0.05910074074074074
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 392,
+        "branco_medio": 0.1345,
+        "diferenca": 0.1526,
+        "colunas": [
+          0.21080444444444446,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 393,
+        "branco_medio": 0.0121,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.003989629629629627,
+          0.020285925925925923
+        ],
+        "borda": false,
+        "grupo": "Talentos da entidade"
+      },
+      {
+        "pagina": 394,
+        "branco_medio": 0.0264,
+        "diferenca": 0.0436,
+        "colunas": [
+          0.004582222222222227,
+          0.04813777777777777
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 395,
+        "branco_medio": 0.0267,
+        "diferenca": 0.0055,
+        "colunas": [
+          0.02947111111111111,
+          0.023989629629629628
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 396,
+        "branco_medio": 0.319,
+        "diferenca": 0.3228,
+        "colunas": [
+          0.48043407407407407,
+          0.15761925925925926
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 397,
+        "branco_medio": 0.1255,
+        "diferenca": 0.1304,
+        "colunas": [
+          0.19065629629629632,
+          0.060285925925925944
+        ],
+        "borda": true,
+        "grupo": "Criação de entidades"
+      },
+      {
+        "pagina": 399,
+        "branco_medio": 0.294,
+        "diferenca": 0.0031,
+        "colunas": [
+          0.292434074074074,
+          0.2955451851851852
+        ],
+        "borda": true,
+        "grupo": "Mestrar"
+      },
+      {
+        "pagina": 400,
+        "branco_medio": 0.3788,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.37850814814814815,
+          0.3791007407407407
+        ],
+        "borda": true,
+        "grupo": "Mestrar"
+      },
+      {
+        "pagina": 402,
+        "branco_medio": 0.0298,
+        "diferenca": 0.0344,
+        "colunas": [
+          0.012582222222222215,
+          0.04695259259259261
+        ],
+        "borda": true,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 403,
+        "branco_medio": 0.0413,
+        "diferenca": 0.0587,
+        "colunas": [
+          0.011989629629629635,
+          0.07065629629629631
+        ],
+        "borda": false,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 404,
+        "branco_medio": 0.2921,
+        "diferenca": 0.0074,
+        "colunas": [
+          0.2958414814814815,
+          0.28843407407407406
+        ],
+        "borda": true,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 406,
+        "branco_medio": 0.3562,
+        "diferenca": 0.0108,
+        "colunas": [
+          0.3508044444444445,
+          0.3616192592592593
+        ],
+        "borda": true,
+        "grupo": "Consulta rápida"
+      },
+      {
+        "pagina": 407,
+        "branco_medio": 0.4745,
+        "diferenca": 0.1327,
+        "colunas": [
+          0.40813777777777777,
+          0.5408785185185185
+        ],
+        "borda": true,
+        "grupo": "Consulta rápida"
+      },
+      {
+        "pagina": 409,
+        "branco_medio": 0.0016,
+        "diferenca": 0.0,
+        "colunas": [
+          0.0016192592592592645,
+          0.0016192592592592645
+        ],
+        "borda": true,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 410,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 411,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 412,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 413,
+        "branco_medio": 0.2078,
+        "diferenca": 0.0,
+        "colunas": [
+          0.2078414814814815,
+          0.2078414814814815
+        ],
+        "borda": true,
+        "grupo": "Índice"
+      }
+    ]
+  },
+  "r57": {
+    "paginas": 415,
+    "branco_equivalente": 58.34,
+    "desigualdade": 2,
+    "acima_terco": [
+      8,
+      10,
+      25,
+      83,
+      85,
+      87,
+      89,
+      115,
+      130,
+      149,
+      151,
+      173,
+      182,
+      187,
+      214,
+      227,
+      263,
+      274,
+      277,
+      320,
+      326,
+      330
+    ],
+    "diferencas": [
+      [
+        239,
+        0.3941
+      ],
+      [
+        269,
+        0.4513
+      ]
+    ],
+    "todas": [
+      {
+        "pagina": 7,
+        "branco_medio": 0.3118,
+        "diferenca": 0.1167,
+        "colunas": [
+          0.3702118518518518,
+          0.25347111111111115
+        ],
+        "borda": true,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 8,
+        "branco_medio": 0.4351,
+        "diferenca": 0.0516,
+        "colunas": [
+          0.409322962962963,
+          0.4608785185185185
+        ],
+        "borda": false,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 10,
+        "branco_medio": 0.4647,
+        "diferenca": 0.0859,
+        "colunas": [
+          0.5076933333333333,
+          0.42176740740740737
+        ],
+        "borda": false,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 11,
+        "branco_medio": 0.4318,
+        "diferenca": 0.173,
+        "colunas": [
+          0.5183599999999999,
+          0.345322962962963
+        ],
+        "borda": true,
+        "grupo": "Ciclo Maldito"
+      },
+      {
+        "pagina": 14,
+        "branco_medio": 0.26,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.25510074074074074,
+          0.2648785185185185
+        ],
+        "borda": false,
+        "grupo": "Atributos"
+      },
+      {
+        "pagina": 15,
+        "branco_medio": 0.0292,
+        "diferenca": 0.0124,
+        "colunas": [
+          0.022952592592592583,
+          0.03539703703703704
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 16,
+        "branco_medio": 0.0512,
+        "diferenca": 0.0375,
+        "colunas": [
+          0.032434074074074074,
+          0.06991555555555558
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 17,
+        "branco_medio": 0.1119,
+        "diferenca": 0.097,
+        "colunas": [
+          0.1604340740740741,
+          0.06339703703703704
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 18,
+        "branco_medio": 0.1447,
+        "diferenca": 0.0578,
+        "colunas": [
+          0.1158414814814815,
+          0.17361925925925928
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 19,
+        "branco_medio": 0.1068,
+        "diferenca": 0.0302,
+        "colunas": [
+          0.09169333333333334,
+          0.12191555555555557
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 20,
+        "branco_medio": 0.1813,
+        "diferenca": 0.0738,
+        "colunas": [
+          0.14443407407407408,
+          0.21821185185185185
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 21,
+        "branco_medio": 0.2164,
+        "diferenca": 0.0184,
+        "colunas": [
+          0.2072488888888889,
+          0.22561925925925927
+        ],
+        "borda": false,
+        "grupo": "Turnos"
+      },
+      {
+        "pagina": 22,
+        "branco_medio": 0.0705,
+        "diferenca": 0.0684,
+        "colunas": [
+          0.036285925925925916,
+          0.10473037037037039
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 23,
+        "branco_medio": 0.0247,
+        "diferenca": 0.0018,
+        "colunas": [
+          0.02561925925925927,
+          0.023841481481481488
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 24,
+        "branco_medio": 0.1592,
+        "diferenca": 0.0462,
+        "colunas": [
+          0.13613777777777777,
+          0.18236
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 25,
+        "branco_medio": 0.3871,
+        "diferenca": 0.0,
+        "colunas": [
+          0.38710074074074075,
+          0.38710074074074075
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 26,
+        "branco_medio": 0.1207,
+        "diferenca": 0.0527,
+        "colunas": [
+          0.14710074074074075,
+          0.09436000000000001
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 27,
+        "branco_medio": 0.0693,
+        "diferenca": 0.1004,
+        "colunas": [
+          0.01910074074074074,
+          0.1195451851851852
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 28,
+        "branco_medio": 0.0347,
+        "diferenca": 0.0542,
+        "colunas": [
+          0.061767407407407424,
+          0.00754518518518519
+        ],
+        "borda": false,
+        "grupo": "Ataques"
+      },
+      {
+        "pagina": 29,
+        "branco_medio": 0.255,
+        "diferenca": 0.0836,
+        "colunas": [
+          0.29673037037037037,
+          0.21317481481481482
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 30,
+        "branco_medio": 0.0518,
+        "diferenca": 0.0138,
+        "colunas": [
+          0.05865629629629628,
+          0.044878518518518526
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 31,
+        "branco_medio": 0.1093,
+        "diferenca": 0.0204,
+        "colunas": [
+          0.1195451851851852,
+          0.09910074074074074
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 32,
+        "branco_medio": 0.1435,
+        "diferenca": 0.2022,
+        "colunas": [
+          0.24458222222222226,
+          0.04235999999999998
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 33,
+        "branco_medio": 0.0738,
+        "diferenca": 0.0483,
+        "colunas": [
+          0.04961925925925925,
+          0.09791555555555553
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 34,
+        "branco_medio": 0.1399,
+        "diferenca": 0.0547,
+        "colunas": [
+          0.11258222222222221,
+          0.1672488888888889
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 35,
+        "branco_medio": 0.224,
+        "diferenca": 0.0649,
+        "colunas": [
+          0.2564340740740741,
+          0.1915451851851852
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 36,
+        "branco_medio": 0.1283,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.12339703703703704,
+          0.13317481481481483
+        ],
+        "borda": false,
+        "grupo": "Movimento e terreno"
+      },
+      {
+        "pagina": 37,
+        "branco_medio": 0.1501,
+        "diferenca": 0.2412,
+        "colunas": [
+          0.2706562962962963,
+          0.02947111111111111
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 38,
+        "branco_medio": 0.0986,
+        "diferenca": 0.0828,
+        "colunas": [
+          0.057174814814814796,
+          0.13998962962962963
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 39,
+        "branco_medio": 0.0086,
+        "diferenca": 0.0039,
+        "colunas": [
+          0.010508148148148154,
+          0.006656296296296289
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 40,
+        "branco_medio": 0.1145,
+        "diferenca": 0.0373,
+        "colunas": [
+          0.13317481481481483,
+          0.0958414814814815
+        ],
+        "borda": false,
+        "grupo": "Percepção e visibilidade"
+      },
+      {
+        "pagina": 41,
+        "branco_medio": 0.0806,
+        "diferenca": 0.0086,
+        "colunas": [
+          0.08487851851851853,
+          0.07628592592592592
+        ],
+        "borda": false,
+        "grupo": "Regras gerais"
+      },
+      {
+        "pagina": 42,
+        "branco_medio": 0.1533,
+        "diferenca": 0.0782,
+        "colunas": [
+          0.19243407407407406,
+          0.11421185185185184
+        ],
+        "borda": false,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 43,
+        "branco_medio": 0.1613,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.18354518518518517,
+          0.13910074074074075
+        ],
+        "borda": false,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 44,
+        "branco_medio": 0.2132,
+        "diferenca": 0.0759,
+        "colunas": [
+          0.25110074074074074,
+          0.1752488888888889
+        ],
+        "borda": true,
+        "grupo": "Percepção de energia"
+      },
+      {
+        "pagina": 47,
+        "branco_medio": 0.219,
+        "diferenca": 0.0157,
+        "colunas": [
+          0.22680444444444442,
+          0.21110074074074073
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 48,
+        "branco_medio": 0.204,
+        "diferenca": 0.1144,
+        "colunas": [
+          0.2611748148148148,
+          0.14680444444444443
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 49,
+        "branco_medio": 0.2741,
+        "diferenca": 0.0536,
+        "colunas": [
+          0.30087851851851855,
+          0.24724888888888885
+        ],
+        "borda": false,
+        "grupo": "Dano"
+      },
+      {
+        "pagina": 50,
+        "branco_medio": 0.1214,
+        "diferenca": 0.0733,
+        "colunas": [
+          0.08473037037037039,
+          0.15806370370370373
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 51,
+        "branco_medio": 0.2297,
+        "diferenca": 0.0876,
+        "colunas": [
+          0.27347111111111116,
+          0.18591555555555556
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 52,
+        "branco_medio": 0.1204,
+        "diferenca": 0.0492,
+        "colunas": [
+          0.14502666666666666,
+          0.0958414814814815
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 53,
+        "branco_medio": 0.1877,
+        "diferenca": 0.2536,
+        "colunas": [
+          0.31450814814814815,
+          0.060878518518518505
+        ],
+        "borda": false,
+        "grupo": "Condições"
+      },
+      {
+        "pagina": 54,
+        "branco_medio": 0.137,
+        "diferenca": 0.1409,
+        "colunas": [
+          0.06650814814814815,
+          0.20739703703703702
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 55,
+        "branco_medio": 0.0357,
+        "diferenca": 0.0628,
+        "colunas": [
+          0.0042859259259259265,
+          0.06710074074074075
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 56,
+        "branco_medio": 0.0769,
+        "diferenca": 0.0421,
+        "colunas": [
+          0.0558414814814815,
+          0.09791555555555553
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 57,
+        "branco_medio": 0.1201,
+        "diferenca": 0.0788,
+        "colunas": [
+          0.08073037037037037,
+          0.1595451851851852
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 58,
+        "branco_medio": 0.1438,
+        "diferenca": 0.0913,
+        "colunas": [
+          0.18947111111111112,
+          0.09821185185185186
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 59,
+        "branco_medio": 0.0926,
+        "diferenca": 0.0753,
+        "colunas": [
+          0.13021185185185186,
+          0.054952592592592574
+        ],
+        "borda": false,
+        "grupo": "Vida a zero"
+      },
+      {
+        "pagina": 60,
+        "branco_medio": 0.2695,
+        "diferenca": 0.2761,
+        "colunas": [
+          0.40754518518518523,
+          0.13139703703703706
+        ],
+        "borda": false,
+        "grupo": "Dano e recuperação"
+      },
+      {
+        "pagina": 61,
+        "branco_medio": 0.1072,
+        "diferenca": 0.013,
+        "colunas": [
+          0.11376740740740741,
+          0.10073037037037036
+        ],
+        "borda": false,
+        "grupo": "Descansos"
+      },
+      {
+        "pagina": 62,
+        "branco_medio": 0.0917,
+        "diferenca": 0.112,
+        "colunas": [
+          0.14769333333333334,
+          0.03569333333333334
+        ],
+        "borda": true,
+        "grupo": "Descansos"
+      },
+      {
+        "pagina": 64,
+        "branco_medio": 0.0479,
+        "diferenca": 0.02,
+        "colunas": [
+          0.03791555555555556,
+          0.05791555555555554
+        ],
+        "borda": true,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 65,
+        "branco_medio": 0.3004,
+        "diferenca": 0.2653,
+        "colunas": [
+          0.43302666666666667,
+          0.16769333333333336
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 66,
+        "branco_medio": 0.0405,
+        "diferenca": 0.036,
+        "colunas": [
+          0.022508148148148145,
+          0.05850814814814814
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 67,
+        "branco_medio": 0.0739,
+        "diferenca": 0.0095,
+        "colunas": [
+          0.07865629629629628,
+          0.06917481481481483
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 68,
+        "branco_medio": 0.2995,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.3127303703703704,
+          0.28636
+        ],
+        "borda": false,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 69,
+        "branco_medio": 0.2646,
+        "diferenca": 0.1686,
+        "colunas": [
+          0.18028592592592593,
+          0.34887851851851853
+        ],
+        "borda": false,
+        "grupo": "Exemplo: Resgate na ala oeste"
+      },
+      {
+        "pagina": 70,
+        "branco_medio": 0.4739,
+        "diferenca": 0.0344,
+        "colunas": [
+          0.4911007407407407,
+          0.4567303703703704
+        ],
+        "borda": true,
+        "grupo": "Criar um personagem"
+      },
+      {
+        "pagina": 73,
+        "branco_medio": 0.0175,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.02561925925925927,
+          0.009322962962962972
+        ],
+        "borda": true,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 74,
+        "branco_medio": 0.0767,
+        "diferenca": 0.0785,
+        "colunas": [
+          0.11598962962962964,
+          0.03747111111111112
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 75,
+        "branco_medio": 0.1536,
+        "diferenca": 0.0219,
+        "colunas": [
+          0.1645822222222222,
+          0.1426562962962963
+        ],
+        "borda": false,
+        "grupo": "Latente"
+      },
+      {
+        "pagina": 77,
+        "branco_medio": 0.0944,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.11658222222222224,
+          0.0721377777777778
+        ],
+        "borda": false,
+        "grupo": "Receptáculo"
+      },
+      {
+        "pagina": 78,
+        "branco_medio": 0.1824,
+        "diferenca": 0.0569,
+        "colunas": [
+          0.15391555555555556,
+          0.21080444444444446
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 79,
+        "branco_medio": 0.0723,
+        "diferenca": 0.1052,
+        "colunas": [
+          0.12487851851851853,
+          0.019693333333333344
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 80,
+        "branco_medio": 0.1664,
+        "diferenca": 0.0723,
+        "colunas": [
+          0.13021185185185186,
+          0.20250814814814816
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 81,
+        "branco_medio": 0.14,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.1497674074074074,
+          0.13021185185185186
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 82,
+        "branco_medio": 0.2191,
+        "diferenca": 0.0095,
+        "colunas": [
+          0.21436000000000002,
+          0.22384148148148147
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 83,
+        "branco_medio": 0.4454,
+        "diferenca": 0.1196,
+        "colunas": [
+          0.5051748148148149,
+          0.3856192592592593
+        ],
+        "borda": false,
+        "grupo": "Descendente"
+      },
+      {
+        "pagina": 84,
+        "branco_medio": 0.0893,
+        "diferenca": 0.1221,
+        "colunas": [
+          0.02828592592592593,
+          0.15036
+        ],
+        "borda": false,
+        "grupo": "Encarnado"
+      },
+      {
+        "pagina": 85,
+        "branco_medio": 0.4555,
+        "diferenca": 0.2465,
+        "colunas": [
+          0.33228592592592593,
+          0.5788044444444445
+        ],
+        "borda": false,
+        "grupo": "Encarnado"
+      },
+      {
+        "pagina": 87,
+        "branco_medio": 0.4268,
+        "diferenca": 0.112,
+        "colunas": [
+          0.37080444444444444,
+          0.4828044444444444
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 88,
+        "branco_medio": 0.3261,
+        "diferenca": 0.1067,
+        "colunas": [
+          0.2727303703703704,
+          0.3793970370370371
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 89,
+        "branco_medio": 0.6375,
+        "diferenca": 0.1292,
+        "colunas": [
+          0.5728785185185185,
+          0.7020637037037037
+        ],
+        "borda": false,
+        "grupo": "Híbrido"
+      },
+      {
+        "pagina": 91,
+        "branco_medio": 0.1006,
+        "diferenca": 0.0581,
+        "colunas": [
+          0.12961925925925924,
+          0.0715451851851852
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 92,
+        "branco_medio": 0.2234,
+        "diferenca": 0.1745,
+        "colunas": [
+          0.31065629629629626,
+          0.13613777777777777
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 93,
+        "branco_medio": 0.064,
+        "diferenca": 0.0276,
+        "colunas": [
+          0.050211851851851855,
+          0.0777674074074074
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 94,
+        "branco_medio": 0.2872,
+        "diferenca": 0.1173,
+        "colunas": [
+          0.22858222222222224,
+          0.34591555555555553
+        ],
+        "borda": false,
+        "grupo": "Corpo Amaldiçoado"
+      },
+      {
+        "pagina": 96,
+        "branco_medio": 0.0718,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.0721377777777778,
+          0.0715451851851852
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 97,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0551,
+        "colunas": [
+          0.0857674074074074,
+          0.14087851851851851
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 98,
+        "branco_medio": 0.1548,
+        "diferenca": 0.2649,
+        "colunas": [
+          0.022360000000000005,
+          0.28724888888888883
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Sem Energia"
+      },
+      {
+        "pagina": 99,
+        "branco_medio": 0.0422,
+        "diferenca": 0.048,
+        "colunas": [
+          0.06621185185185187,
+          0.01821185185185186
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 100,
+        "branco_medio": 0.0692,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.11687851851851852,
+          0.021471111111111104
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 101,
+        "branco_medio": 0.076,
+        "diferenca": 0.0587,
+        "colunas": [
+          0.10532296296296295,
+          0.046656296296296286
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 102,
+        "branco_medio": 0.0677,
+        "diferenca": 0.0255,
+        "colunas": [
+          0.054952592592592574,
+          0.08043407407407409
+        ],
+        "borda": false,
+        "grupo": "Restrição Celestial / Restrição corporal"
+      },
+      {
+        "pagina": 103,
+        "branco_medio": 0.1135,
+        "diferenca": 0.0916,
+        "colunas": [
+          0.15924888888888888,
+          0.06769333333333336
+        ],
+        "borda": false,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 104,
+        "branco_medio": 0.167,
+        "diferenca": 0.2015,
+        "colunas": [
+          0.06621185185185187,
+          0.2676933333333333
+        ],
+        "borda": true,
+        "grupo": "Origens"
+      },
+      {
+        "pagina": 107,
+        "branco_medio": 0.3178,
+        "diferenca": 0.1521,
+        "colunas": [
+          0.3939155555555555,
+          0.24176740740740738
+        ],
+        "borda": true,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 108,
+        "branco_medio": 0.0395,
+        "diferenca": 0.0089,
+        "colunas": [
+          0.03510074074074074,
+          0.04398962962962965
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 109,
+        "branco_medio": 0.0377,
+        "diferenca": 0.0333,
+        "colunas": [
+          0.05436000000000002,
+          0.021026666666666662
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 110,
+        "branco_medio": 0.3053,
+        "diferenca": 0.0907,
+        "colunas": [
+          0.3506562962962963,
+          0.2599896296296296
+        ],
+        "borda": false,
+        "grupo": "Bastião / Muro"
+      },
+      {
+        "pagina": 111,
+        "branco_medio": 0.0691,
+        "diferenca": 0.1196,
+        "colunas": [
+          0.1288785185185185,
+          0.009322962962962972
+        ],
+        "borda": false,
+        "grupo": "Bastião / Punho"
+      },
+      {
+        "pagina": 112,
+        "branco_medio": 0.1111,
+        "diferenca": 0.0273,
+        "colunas": [
+          0.09747111111111112,
+          0.1247303703703704
+        ],
+        "borda": false,
+        "grupo": "Bastião"
+      },
+      {
+        "pagina": 113,
+        "branco_medio": 0.2352,
+        "diferenca": 0.1544,
+        "colunas": [
+          0.15806370370370373,
+          0.31243407407407403
+        ],
+        "borda": false,
+        "grupo": "Bastião / Combatente Amaldiçoado"
+      },
+      {
+        "pagina": 115,
+        "branco_medio": 0.349,
+        "diferenca": 0.032,
+        "colunas": [
+          0.3330266666666667,
+          0.3650266666666666
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 116,
+        "branco_medio": 0.0902,
+        "diferenca": 0.0,
+        "colunas": [
+          0.09021185185185185,
+          0.09021185185185185
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 117,
+        "branco_medio": 0.1284,
+        "diferenca": 0.0142,
+        "colunas": [
+          0.12132296296296297,
+          0.13554518518518519
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 118,
+        "branco_medio": 0.071,
+        "diferenca": 0.0997,
+        "colunas": [
+          0.1208785185185185,
+          0.021174814814814823
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 119,
+        "branco_medio": 0.1155,
+        "diferenca": 0.1501,
+        "colunas": [
+          0.19050814814814812,
+          0.04043407407407408
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Estocada"
+      },
+      {
+        "pagina": 120,
+        "branco_medio": 0.0804,
+        "diferenca": 0.0129,
+        "colunas": [
+          0.07391555555555555,
+          0.08680444444444443
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 121,
+        "branco_medio": 0.0372,
+        "diferenca": 0.0344,
+        "colunas": [
+          0.05436000000000002,
+          0.01998962962962962
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 122,
+        "branco_medio": 0.108,
+        "diferenca": 0.1588,
+        "colunas": [
+          0.02858222222222223,
+          0.18739703703703703
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Batedor: Yumi"
+      },
+      {
+        "pagina": 123,
+        "branco_medio": 0.143,
+        "diferenca": 0.2027,
+        "colunas": [
+          0.041619259259259245,
+          0.24428592592592588
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Batedor: Besta"
+      },
+      {
+        "pagina": 124,
+        "branco_medio": 0.1579,
+        "diferenca": 0.0785,
+        "colunas": [
+          0.1971748148148148,
+          0.11865629629629627
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 125,
+        "branco_medio": 0.0372,
+        "diferenca": 0.0439,
+        "colunas": [
+          0.05910074074074074,
+          0.015248888888888899
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Batedor: Arma de Fogo"
+      },
+      {
+        "pagina": 126,
+        "branco_medio": 0.0772,
+        "diferenca": 0.0769,
+        "colunas": [
+          0.11569333333333331,
+          0.03880444444444446
+        ],
+        "borda": false,
+        "grupo": "Vanguarda"
+      },
+      {
+        "pagina": 127,
+        "branco_medio": 0.0468,
+        "diferenca": 0.069,
+        "colunas": [
+          0.08132296296296296,
+          0.012285925925925935
+        ],
+        "borda": false,
+        "grupo": "Vanguarda / Executor"
+      },
+      {
+        "pagina": 129,
+        "branco_medio": 0.1255,
+        "diferenca": 0.0596,
+        "colunas": [
+          0.1552488888888889,
+          0.09569333333333331
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 130,
+        "branco_medio": 0.4081,
+        "diferenca": 0.1707,
+        "colunas": [
+          0.49347111111111114,
+          0.3228044444444444
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 131,
+        "branco_medio": 0.1507,
+        "diferenca": 0.019,
+        "colunas": [
+          0.16013777777777777,
+          0.14117481481481484
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 132,
+        "branco_medio": 0.1071,
+        "diferenca": 0.1067,
+        "colunas": [
+          0.1604340740740741,
+          0.05376740740740742
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 133,
+        "branco_medio": 0.1202,
+        "diferenca": 0.0138,
+        "colunas": [
+          0.12710074074074074,
+          0.11332296296296296
+        ],
+        "borda": false,
+        "grupo": "Guia / Arquiteto"
+      },
+      {
+        "pagina": 134,
+        "branco_medio": 0.0507,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.060434074074074084,
+          0.0408785185185185
+        ],
+        "borda": false,
+        "grupo": "Guia / Arquiteto"
+      },
+      {
+        "pagina": 135,
+        "branco_medio": 0.0641,
+        "diferenca": 0.0588,
+        "colunas": [
+          0.0934711111111111,
+          0.034656296296296296
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 136,
+        "branco_medio": 0.0255,
+        "diferenca": 0.0351,
+        "colunas": [
+          0.007989629629629631,
+          0.043100740740740724
+        ],
+        "borda": false,
+        "grupo": "Guia / Analista"
+      },
+      {
+        "pagina": 137,
+        "branco_medio": 0.0192,
+        "diferenca": 0.031,
+        "colunas": [
+          0.034656296296296296,
+          0.003693333333333326
+        ],
+        "borda": false,
+        "grupo": "Guia"
+      },
+      {
+        "pagina": 138,
+        "branco_medio": 0.0596,
+        "diferenca": 0.0161,
+        "colunas": [
+          0.051545185185185194,
+          0.06769333333333336
+        ],
+        "borda": false,
+        "grupo": "Guia / Socorrista"
+      },
+      {
+        "pagina": 140,
+        "branco_medio": 0.2162,
+        "diferenca": 0.1895,
+        "colunas": [
+          0.31095259259259256,
+          0.1214711111111111
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 141,
+        "branco_medio": 0.1754,
+        "diferenca": 0.1348,
+        "colunas": [
+          0.10798962962962963,
+          0.2428044444444444
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 142,
+        "branco_medio": 0.1058,
+        "diferenca": 0.0898,
+        "colunas": [
+          0.15065629629629632,
+          0.060878518518518505
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 143,
+        "branco_medio": 0.0435,
+        "diferenca": 0.0206,
+        "colunas": [
+          0.03317481481481482,
+          0.05376740740740742
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 144,
+        "branco_medio": 0.1527,
+        "diferenca": 0.0167,
+        "colunas": [
+          0.16102666666666668,
+          0.14428592592592593
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 145,
+        "branco_medio": 0.0817,
+        "diferenca": 0.0049,
+        "colunas": [
+          0.08413777777777778,
+          0.07924888888888888
+        ],
+        "borda": false,
+        "grupo": "Emanador / Condutor Armado"
+      },
+      {
+        "pagina": 146,
+        "branco_medio": 0.1622,
+        "diferenca": 0.0533,
+        "colunas": [
+          0.13554518518518519,
+          0.1888785185185185
+        ],
+        "borda": false,
+        "grupo": "Emanador / Condutor Armado"
+      },
+      {
+        "pagina": 147,
+        "branco_medio": 0.0864,
+        "diferenca": 0.0324,
+        "colunas": [
+          0.1026562962962963,
+          0.07021185185185186
+        ],
+        "borda": false,
+        "grupo": "Emanador"
+      },
+      {
+        "pagina": 148,
+        "branco_medio": 0.1592,
+        "diferenca": 0.1019,
+        "colunas": [
+          0.21021185185185184,
+          0.10828592592592591
+        ],
+        "borda": false,
+        "grupo": "Emanador / Ressonante"
+      },
+      {
+        "pagina": 149,
+        "branco_medio": 0.3407,
+        "diferenca": 0.1295,
+        "colunas": [
+          0.27598962962962964,
+          0.40547111111111106
+        ],
+        "borda": false,
+        "grupo": "Emanador / Ressonante"
+      },
+      {
+        "pagina": 150,
+        "branco_medio": 0.0621,
+        "diferenca": 0.0407,
+        "colunas": [
+          0.04176740740740743,
+          0.08250814814814816
+        ],
+        "borda": false,
+        "grupo": "Emanador / Catalisador"
+      },
+      {
+        "pagina": 151,
+        "branco_medio": 0.4874,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.4742118518518519,
+          0.5005822222222222
+        ],
+        "borda": false,
+        "grupo": "Emanador / Catalisador"
+      },
+      {
+        "pagina": 153,
+        "branco_medio": 0.1071,
+        "diferenca": 0.0652,
+        "colunas": [
+          0.13969333333333334,
+          0.07450814814814816
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 154,
+        "branco_medio": 0.1478,
+        "diferenca": 0.216,
+        "colunas": [
+          0.25584148148148145,
+          0.039841481481481485
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 155,
+        "branco_medio": 0.0178,
+        "diferenca": 0.0287,
+        "colunas": [
+          0.0033970370370370465,
+          0.03213777777777777
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 156,
+        "branco_medio": 0.2628,
+        "diferenca": 0.0756,
+        "colunas": [
+          0.22502666666666668,
+          0.3005822222222222
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 157,
+        "branco_medio": 0.0194,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.013471111111111116,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 158,
+        "branco_medio": 0.1267,
+        "diferenca": 0.0244,
+        "colunas": [
+          0.11450814814814816,
+          0.1389525925925926
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 159,
+        "branco_medio": 0.1016,
+        "diferenca": 0.0009,
+        "colunas": [
+          0.1020637037037037,
+          0.10117481481481483
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 160,
+        "branco_medio": 0.0178,
+        "diferenca": 0.0176,
+        "colunas": [
+          0.009026666666666672,
+          0.02665629629629629
+        ],
+        "borda": false,
+        "grupo": "Evocador / Invocação Principal"
+      },
+      {
+        "pagina": 161,
+        "branco_medio": 0.1986,
+        "diferenca": 0.1548,
+        "colunas": [
+          0.12117481481481482,
+          0.27598962962962964
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 162,
+        "branco_medio": 0.1483,
+        "diferenca": 0.0649,
+        "colunas": [
+          0.18073037037037037,
+          0.1158414814814815
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 163,
+        "branco_medio": 0.2802,
+        "diferenca": 0.2161,
+        "colunas": [
+          0.1721377777777778,
+          0.388285925925926
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 164,
+        "branco_medio": 0.0474,
+        "diferenca": 0.0157,
+        "colunas": [
+          0.039545185185185204,
+          0.055248888888888896
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 165,
+        "branco_medio": 0.0262,
+        "diferenca": 0.0397,
+        "colunas": [
+          0.04606370370370369,
+          0.00636000000000001
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 166,
+        "branco_medio": 0.1907,
+        "diferenca": 0.095,
+        "colunas": [
+          0.1432488888888889,
+          0.23821185185185187
+        ],
+        "borda": false,
+        "grupo": "Evocador / Parceria"
+      },
+      {
+        "pagina": 167,
+        "branco_medio": 0.1843,
+        "diferenca": 0.043,
+        "colunas": [
+          0.2057674074074074,
+          0.16280444444444445
+        ],
+        "borda": false,
+        "grupo": "Evocador"
+      },
+      {
+        "pagina": 168,
+        "branco_medio": 0.1318,
+        "diferenca": 0.137,
+        "colunas": [
+          0.06324888888888891,
+          0.20028592592592595
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 169,
+        "branco_medio": 0.1367,
+        "diferenca": 0.0936,
+        "colunas": [
+          0.18354518518518517,
+          0.08991555555555557
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 170,
+        "branco_medio": 0.1825,
+        "diferenca": 0.0916,
+        "colunas": [
+          0.1367303703703704,
+          0.22828592592592595
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 171,
+        "branco_medio": 0.0498,
+        "diferenca": 0.0653,
+        "colunas": [
+          0.08250814814814816,
+          0.01717481481481482
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 172,
+        "branco_medio": 0.1561,
+        "diferenca": 0.0744,
+        "colunas": [
+          0.1189525925925926,
+          0.19332296296296295
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 173,
+        "branco_medio": 0.3357,
+        "diferenca": 0.2065,
+        "colunas": [
+          0.23243407407407404,
+          0.4389525925925926
+        ],
+        "borda": false,
+        "grupo": "Evocador / Múltiplas Invocações"
+      },
+      {
+        "pagina": 175,
+        "branco_medio": 0.0747,
+        "diferenca": 0.0407,
+        "colunas": [
+          0.09510074074074076,
+          0.05436000000000002
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 176,
+        "branco_medio": 0.3133,
+        "diferenca": 0.1434,
+        "colunas": [
+          0.38502666666666663,
+          0.24161925925925928
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 177,
+        "branco_medio": 0.0579,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.05761925925925926,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Incursor"
+      },
+      {
+        "pagina": 179,
+        "branco_medio": 0.1941,
+        "diferenca": 0.1289,
+        "colunas": [
+          0.25850814814814815,
+          0.12961925925925924
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 180,
+        "branco_medio": 0.1144,
+        "diferenca": 0.024,
+        "colunas": [
+          0.10235999999999998,
+          0.12636
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 181,
+        "branco_medio": 0.1483,
+        "diferenca": 0.0148,
+        "colunas": [
+          0.14087851851851851,
+          0.15569333333333332
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 182,
+        "branco_medio": 0.4447,
+        "diferenca": 0.1028,
+        "colunas": [
+          0.39332296296296293,
+          0.49613777777777773
+        ],
+        "borda": false,
+        "grupo": "Incursor / Assassino"
+      },
+      {
+        "pagina": 184,
+        "branco_medio": 0.2152,
+        "diferenca": 0.0129,
+        "colunas": [
+          0.22161925925925924,
+          0.20873037037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 185,
+        "branco_medio": 0.0747,
+        "diferenca": 0.0293,
+        "colunas": [
+          0.08932296296296298,
+          0.05998962962962962
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 186,
+        "branco_medio": 0.0994,
+        "diferenca": 0.0053,
+        "colunas": [
+          0.09673037037037038,
+          0.1020637037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Pugilista"
+      },
+      {
+        "pagina": 187,
+        "branco_medio": 0.3403,
+        "diferenca": 0.0385,
+        "colunas": [
+          0.35954518518518513,
+          0.3210266666666666
+        ],
+        "borda": false,
+        "grupo": "Caminhos e Trilhas"
+      },
+      {
+        "pagina": 189,
+        "branco_medio": 0.2657,
+        "diferenca": 0.0511,
+        "colunas": [
+          0.2401377777777778,
+          0.2912488888888889
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 190,
+        "branco_medio": 0.0816,
+        "diferenca": 0.0865,
+        "colunas": [
+          0.03836,
+          0.12487851851851853
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 191,
+        "branco_medio": 0.2372,
+        "diferenca": 0.0569,
+        "colunas": [
+          0.2656192592592593,
+          0.20873037037037037
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 192,
+        "branco_medio": 0.0695,
+        "diferenca": 0.0077,
+        "colunas": [
+          0.06561925925925927,
+          0.07332296296296295
+        ],
+        "borda": false,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 193,
+        "branco_medio": 0.5038,
+        "diferenca": 0.0243,
+        "colunas": [
+          0.5159896296296297,
+          0.4916933333333333
+        ],
+        "borda": true,
+        "grupo": "Incursor / Malabarista"
+      },
+      {
+        "pagina": 195,
+        "branco_medio": 0.2136,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.1799896296296296,
+          0.24724888888888885
+        ],
+        "borda": true,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 196,
+        "branco_medio": 0.2188,
+        "diferenca": 0.112,
+        "colunas": [
+          0.16280444444444445,
+          0.27480444444444446
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 197,
+        "branco_medio": 0.0544,
+        "diferenca": 0.0628,
+        "colunas": [
+          0.022952592592592583,
+          0.0857674074074074
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 198,
+        "branco_medio": 0.1432,
+        "diferenca": 0.0557,
+        "colunas": [
+          0.11539703703703703,
+          0.17110074074074072
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 199,
+        "branco_medio": 0.1064,
+        "diferenca": 0.0376,
+        "colunas": [
+          0.1251748148148148,
+          0.08754518518518517
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 200,
+        "branco_medio": 0.0662,
+        "diferenca": 0.0,
+        "colunas": [
+          0.06621185185185187,
+          0.06621185185185187
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 201,
+        "branco_medio": 0.2073,
+        "diferenca": 0.2387,
+        "colunas": [
+          0.3266562962962963,
+          0.08798962962962963
+        ],
+        "borda": false,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 202,
+        "branco_medio": 0.1201,
+        "diferenca": 0.0972,
+        "colunas": [
+          0.0715451851851852,
+          0.16873037037037036
+        ],
+        "borda": true,
+        "grupo": "Perícias e Ofícios"
+      },
+      {
+        "pagina": 204,
+        "branco_medio": 0.0746,
+        "diferenca": 0.0224,
+        "colunas": [
+          0.06339703703703704,
+          0.0857674074074074
+        ],
+        "borda": true,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 205,
+        "branco_medio": 0.082,
+        "diferenca": 0.0719,
+        "colunas": [
+          0.04606370370370369,
+          0.11791555555555554
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 206,
+        "branco_medio": 0.0841,
+        "diferenca": 0.0843,
+        "colunas": [
+          0.04191555555555557,
+          0.12621185185185188
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 207,
+        "branco_medio": 0.2274,
+        "diferenca": 0.1772,
+        "colunas": [
+          0.13880444444444445,
+          0.3159896296296296
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 208,
+        "branco_medio": 0.055,
+        "diferenca": 0.0308,
+        "colunas": [
+          0.039545185185185204,
+          0.07035999999999999
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 209,
+        "branco_medio": 0.3224,
+        "diferenca": 0.044,
+        "colunas": [
+          0.3004340740740741,
+          0.34443407407407406
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 210,
+        "branco_medio": 0.1718,
+        "diferenca": 0.0153,
+        "colunas": [
+          0.17939703703703702,
+          0.1641377777777778
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 211,
+        "branco_medio": 0.1853,
+        "diferenca": 0.2779,
+        "colunas": [
+          0.04636000000000001,
+          0.32428592592592587
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 212,
+        "branco_medio": 0.1275,
+        "diferenca": 0.2489,
+        "colunas": [
+          0.003100740740740746,
+          0.2519896296296297
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 213,
+        "branco_medio": 0.0643,
+        "diferenca": 0.0193,
+        "colunas": [
+          0.0546562962962963,
+          0.07391555555555555
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 214,
+        "branco_medio": 0.3384,
+        "diferenca": 0.0316,
+        "colunas": [
+          0.32265629629629633,
+          0.3542118518518519
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 215,
+        "branco_medio": 0.2375,
+        "diferenca": 0.0,
+        "colunas": [
+          0.23747111111111113,
+          0.23747111111111113
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 216,
+        "branco_medio": 0.1287,
+        "diferenca": 0.0,
+        "colunas": [
+          0.12873037037037038,
+          0.12873037037037038
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 217,
+        "branco_medio": 0.2675,
+        "diferenca": 0.0,
+        "colunas": [
+          0.2675451851851852,
+          0.2675451851851852
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 218,
+        "branco_medio": 0.1136,
+        "diferenca": 0.0,
+        "colunas": [
+          0.11361925925925928,
+          0.11361925925925928
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 219,
+        "branco_medio": 0.3283,
+        "diferenca": 0.0,
+        "colunas": [
+          0.3282859259259259,
+          0.3282859259259259
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 220,
+        "branco_medio": 0.2207,
+        "diferenca": 0.0154,
+        "colunas": [
+          0.22843407407407404,
+          0.21302666666666667
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 221,
+        "branco_medio": 0.2778,
+        "diferenca": 0.1007,
+        "colunas": [
+          0.22739703703703704,
+          0.32813777777777775
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 222,
+        "branco_medio": 0.1658,
+        "diferenca": 0.0855,
+        "colunas": [
+          0.20858222222222222,
+          0.12310074074074072
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 223,
+        "branco_medio": 0.1309,
+        "diferenca": 0.1089,
+        "colunas": [
+          0.07643407407407406,
+          0.18532296296296294
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 224,
+        "branco_medio": 0.1164,
+        "diferenca": 0.0145,
+        "colunas": [
+          0.12369333333333332,
+          0.10917481481481484
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 225,
+        "branco_medio": 0.2236,
+        "diferenca": 0.1533,
+        "colunas": [
+          0.1469525925925926,
+          0.3002859259259259
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 226,
+        "branco_medio": 0.1418,
+        "diferenca": 0.0213,
+        "colunas": [
+          0.15243407407407408,
+          0.13110074074074074
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 227,
+        "branco_medio": 0.4289,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.4537674074074074,
+          0.4039896296296296
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 229,
+        "branco_medio": 0.135,
+        "diferenca": 0.047,
+        "colunas": [
+          0.11154518518518519,
+          0.15850814814814815
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 230,
+        "branco_medio": 0.0362,
+        "diferenca": 0.0292,
+        "colunas": [
+          0.05080444444444445,
+          0.021619259259259265
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 231,
+        "branco_medio": 0.0498,
+        "diferenca": 0.0287,
+        "colunas": [
+          0.03539703703703704,
+          0.0641377777777778
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 232,
+        "branco_medio": 0.0955,
+        "diferenca": 0.1535,
+        "colunas": [
+          0.01880444444444444,
+          0.17228592592592593
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 233,
+        "branco_medio": 0.1904,
+        "diferenca": 0.1689,
+        "colunas": [
+          0.10591555555555555,
+          0.27480444444444446
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 234,
+        "branco_medio": 0.0478,
+        "diferenca": 0.0391,
+        "colunas": [
+          0.06739703703703703,
+          0.02828592592592593
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 235,
+        "branco_medio": 0.1421,
+        "diferenca": 0.1049,
+        "colunas": [
+          0.19450814814814815,
+          0.08961925925925925
+        ],
+        "borda": false,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 236,
+        "branco_medio": 0.112,
+        "diferenca": 0.0584,
+        "colunas": [
+          0.14117481481481484,
+          0.08280444444444444
+        ],
+        "borda": true,
+        "grupo": "Equipamento"
+      },
+      {
+        "pagina": 238,
+        "branco_medio": 0.245,
+        "diferenca": 0.0424,
+        "colunas": [
+          0.22384148148148147,
+          0.2662118518518518
+        ],
+        "borda": true,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 239,
+        "branco_medio": 0.2945,
+        "diferenca": 0.3941,
+        "colunas": [
+          0.4915451851851852,
+          0.09747111111111112
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 240,
+        "branco_medio": 0.0155,
+        "diferenca": 0.0,
+        "colunas": [
+          0.015545185185185178,
+          0.015545185185185178
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 241,
+        "branco_medio": 0.0566,
+        "diferenca": 0.0,
+        "colunas": [
+          0.05658222222222224,
+          0.05658222222222224
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 242,
+        "branco_medio": 0.143,
+        "diferenca": 0.1994,
+        "colunas": [
+          0.043248888888888906,
+          0.24265629629629631
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 243,
+        "branco_medio": 0.1732,
+        "diferenca": 0.1262,
+        "colunas": [
+          0.23628592592592593,
+          0.11006370370370372
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 244,
+        "branco_medio": 0.1954,
+        "diferenca": 0.1778,
+        "colunas": [
+          0.2842859259259259,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 245,
+        "branco_medio": 0.1847,
+        "diferenca": 0.1221,
+        "colunas": [
+          0.12369333333333332,
+          0.24576740740740738
+        ],
+        "borda": false,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 246,
+        "branco_medio": 0.4369,
+        "diferenca": 0.1298,
+        "colunas": [
+          0.5017674074074073,
+          0.37198962962962967
+        ],
+        "borda": true,
+        "grupo": "Progressão"
+      },
+      {
+        "pagina": 249,
+        "branco_medio": 0.253,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.21939703703703703,
+          0.2866562962962963
+        ],
+        "borda": true,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 250,
+        "branco_medio": 0.0674,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.09228592592592594,
+          0.04250814814814816
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 251,
+        "branco_medio": 0.1115,
+        "diferenca": 0.0498,
+        "colunas": [
+          0.13643407407407407,
+          0.08665629629629629
+        ],
+        "borda": false,
+        "grupo": "Sua técnica"
+      },
+      {
+        "pagina": 252,
+        "branco_medio": 0.0758,
+        "diferenca": 0.0188,
+        "colunas": [
+          0.06636000000000002,
+          0.08517481481481481
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 253,
+        "branco_medio": 0.1888,
+        "diferenca": 0.0784,
+        "colunas": [
+          0.22798962962962963,
+          0.14961925925925926
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 254,
+        "branco_medio": 0.0132,
+        "diferenca": 0.0184,
+        "colunas": [
+          0.022360000000000005,
+          0.003989629629629627
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 255,
+        "branco_medio": 0.2268,
+        "diferenca": 0.3298,
+        "colunas": [
+          0.061915555555555564,
+          0.3916933333333333
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 256,
+        "branco_medio": 0.1551,
+        "diferenca": 0.0,
+        "colunas": [
+          0.15510074074074076,
+          0.15510074074074076
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 257,
+        "branco_medio": 0.1979,
+        "diferenca": 0.0513,
+        "colunas": [
+          0.17228592592592593,
+          0.22354518518518518
+        ],
+        "borda": false,
+        "grupo": "Funções e saldo"
+      },
+      {
+        "pagina": 258,
+        "branco_medio": 0.1138,
+        "diferenca": 0.0964,
+        "colunas": [
+          0.1620637037037037,
+          0.06561925925925927
+        ],
+        "borda": false,
+        "grupo": "Formas"
+      },
+      {
+        "pagina": 259,
+        "branco_medio": 0.2536,
+        "diferenca": 0.1342,
+        "colunas": [
+          0.3207303703703704,
+          0.18650814814814815
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 260,
+        "branco_medio": 0.2844,
+        "diferenca": 0.0961,
+        "colunas": [
+          0.33243407407407405,
+          0.23628592592592593
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 261,
+        "branco_medio": 0.0609,
+        "diferenca": 0.0142,
+        "colunas": [
+          0.05376740740740742,
+          0.06798962962962964
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 262,
+        "branco_medio": 0.0139,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.005767407407407409,
+          0.022063703703703703
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 263,
+        "branco_medio": 0.3945,
+        "diferenca": 0.0308,
+        "colunas": [
+          0.40991555555555553,
+          0.3791007407407407
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 264,
+        "branco_medio": 0.0744,
+        "diferenca": 0.0,
+        "colunas": [
+          0.07436000000000002,
+          0.07436000000000002
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 265,
+        "branco_medio": 0.1395,
+        "diferenca": 0.1012,
+        "colunas": [
+          0.1900637037037037,
+          0.08887851851851851
+        ],
+        "borda": false,
+        "grupo": "Controle"
+      },
+      {
+        "pagina": 266,
+        "branco_medio": 0.2,
+        "diferenca": 0.1911,
+        "colunas": [
+          0.10443407407407407,
+          0.2955451851851852
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 267,
+        "branco_medio": 0.1409,
+        "diferenca": 0.0439,
+        "colunas": [
+          0.16280444444444445,
+          0.1189525925925926
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 268,
+        "branco_medio": 0.1351,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.12917481481481483,
+          0.1410266666666667
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 269,
+        "branco_medio": 0.2702,
+        "diferenca": 0.4513,
+        "colunas": [
+          0.49584148148148144,
+          0.044582222222222204
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 270,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0,
+        "colunas": [
+          0.11332296296296296,
+          0.11332296296296296
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 271,
+        "branco_medio": 0.2432,
+        "diferenca": 0.1287,
+        "colunas": [
+          0.17880444444444446,
+          0.3075451851851852
+        ],
+        "borda": false,
+        "grupo": "Ampliar um feitiço"
+      },
+      {
+        "pagina": 272,
+        "branco_medio": 0.3298,
+        "diferenca": 0.0683,
+        "colunas": [
+          0.29569333333333336,
+          0.3639896296296296
+        ],
+        "borda": false,
+        "grupo": "Feitiços de Classe 0"
+      },
+      {
+        "pagina": 273,
+        "branco_medio": 0.2078,
+        "diferenca": 0.269,
+        "colunas": [
+          0.34236000000000005,
+          0.07332296296296295
+        ],
+        "borda": false,
+        "grupo": "Efeitos próprios"
+      },
+      {
+        "pagina": 274,
+        "branco_medio": 0.3604,
+        "diferenca": 0.1375,
+        "colunas": [
+          0.4291748148148148,
+          0.2916933333333333
+        ],
+        "borda": false,
+        "grupo": "Liberação Máxima"
+      },
+      {
+        "pagina": 275,
+        "branco_medio": 0.1787,
+        "diferenca": 0.1443,
+        "colunas": [
+          0.25080444444444444,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 276,
+        "branco_medio": 0.077,
+        "diferenca": 0.0,
+        "colunas": [
+          0.07702666666666666,
+          0.07702666666666666
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 277,
+        "branco_medio": 0.4065,
+        "diferenca": 0.0196,
+        "colunas": [
+          0.4162859259259259,
+          0.3967303703703704
+        ],
+        "borda": false,
+        "grupo": "Técnica Máxima"
+      },
+      {
+        "pagina": 278,
+        "branco_medio": 0.0865,
+        "diferenca": 0.0714,
+        "colunas": [
+          0.12221185185185185,
+          0.05080444444444445
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 279,
+        "branco_medio": 0.0924,
+        "diferenca": 0.1508,
+        "colunas": [
+          0.16784148148148148,
+          0.01702666666666666
+        ],
+        "borda": false,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 280,
+        "branco_medio": 0.3871,
+        "diferenca": 0.1867,
+        "colunas": [
+          0.48043407407407407,
+          0.2937674074074074
+        ],
+        "borda": true,
+        "grupo": "Fundamento"
+      },
+      {
+        "pagina": 282,
+        "branco_medio": 0.1595,
+        "diferenca": 0.0551,
+        "colunas": [
+          0.13198962962962962,
+          0.18710074074074076
+        ],
+        "borda": true,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 283,
+        "branco_medio": 0.1557,
+        "diferenca": 0.0332,
+        "colunas": [
+          0.13910074074074075,
+          0.17228592592592593
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 284,
+        "branco_medio": 0.121,
+        "diferenca": 0.0913,
+        "colunas": [
+          0.1666562962962963,
+          0.07539703703703704
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 285,
+        "branco_medio": 0.0729,
+        "diferenca": 0.0287,
+        "colunas": [
+          0.08724888888888889,
+          0.05850814814814814
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 286,
+        "branco_medio": 0.1133,
+        "diferenca": 0.0782,
+        "colunas": [
+          0.15243407407407408,
+          0.07421185185185183
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 287,
+        "branco_medio": 0.0708,
+        "diferenca": 0.0767,
+        "colunas": [
+          0.10917481481481484,
+          0.032434074074074074
+        ],
+        "borda": false,
+        "grupo": "Efeitos: acrescentar uma função"
+      },
+      {
+        "pagina": 288,
+        "branco_medio": 0.1145,
+        "diferenca": 0.0444,
+        "colunas": [
+          0.1367303703703704,
+          0.09228592592592594
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 289,
+        "branco_medio": 0.0366,
+        "diferenca": 0.0504,
+        "colunas": [
+          0.061767407407407424,
+          0.011397037037037034
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 290,
+        "branco_medio": 0.0477,
+        "diferenca": 0.0086,
+        "colunas": [
+          0.043397037037037046,
+          0.051989629629629615
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 291,
+        "branco_medio": 0.0858,
+        "diferenca": 0.1286,
+        "colunas": [
+          0.021471111111111104,
+          0.15006370370370373
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 292,
+        "branco_medio": 0.2419,
+        "diferenca": 0.1452,
+        "colunas": [
+          0.31450814814814815,
+          0.16932296296296298
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 293,
+        "branco_medio": 0.174,
+        "diferenca": 0.2591,
+        "colunas": [
+          0.30354518518518514,
+          0.04443407407407406
+        ],
+        "borda": false,
+        "grupo": "Modificadores: ajustar a aplicação"
+      },
+      {
+        "pagina": 294,
+        "branco_medio": 0.0923,
+        "diferenca": 0.1719,
+        "colunas": [
+          0.00636000000000001,
+          0.17821185185185187
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 295,
+        "branco_medio": 0.117,
+        "diferenca": 0.1087,
+        "colunas": [
+          0.17139703703703704,
+          0.06265629629629631
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 296,
+        "branco_medio": 0.1317,
+        "diferenca": 0.0504,
+        "colunas": [
+          0.15687851851851853,
+          0.10650814814814814
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 297,
+        "branco_medio": 0.1555,
+        "diferenca": 0.1028,
+        "colunas": [
+          0.10413777777777779,
+          0.2069525925925926
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 298,
+        "branco_medio": 0.2486,
+        "diferenca": 0.0495,
+        "colunas": [
+          0.27332296296296293,
+          0.22384148148148147
+        ],
+        "borda": false,
+        "grupo": "Catálogo de Restrições"
+      },
+      {
+        "pagina": 299,
+        "branco_medio": 0.2003,
+        "diferenca": 0.0572,
+        "colunas": [
+          0.2288785185185185,
+          0.17169333333333334
+        ],
+        "borda": false,
+        "grupo": "Catálogo de criação"
+      },
+      {
+        "pagina": 300,
+        "branco_medio": 0.0967,
+        "diferenca": 0.1819,
+        "colunas": [
+          0.005767407407407409,
+          0.18769333333333335
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 301,
+        "branco_medio": 0.1421,
+        "diferenca": 0.0154,
+        "colunas": [
+          0.13436,
+          0.1497674074074074
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 302,
+        "branco_medio": 0.1085,
+        "diferenca": 0.1044,
+        "colunas": [
+          0.05628592592592592,
+          0.16073037037037036
+        ],
+        "borda": false,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 303,
+        "branco_medio": 0.3395,
+        "diferenca": 0.1271,
+        "colunas": [
+          0.40310074074074076,
+          0.27598962962962964
+        ],
+        "borda": true,
+        "grupo": "Talentos e Regra Própria"
+      },
+      {
+        "pagina": 306,
+        "branco_medio": 0.0605,
+        "diferenca": 0.0218,
+        "colunas": [
+          0.04961925925925925,
+          0.07139703703703705
+        ],
+        "borda": true,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 307,
+        "branco_medio": 0.097,
+        "diferenca": 0.0467,
+        "colunas": [
+          0.12028592592592595,
+          0.07361925925925927
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 308,
+        "branco_medio": 0.0858,
+        "diferenca": 0.0412,
+        "colunas": [
+          0.10636000000000001,
+          0.06517481481481481
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 309,
+        "branco_medio": 0.166,
+        "diferenca": 0.0621,
+        "colunas": [
+          0.13495259259259257,
+          0.19702666666666666
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 310,
+        "branco_medio": 0.1787,
+        "diferenca": 0.0957,
+        "colunas": [
+          0.22650814814814815,
+          0.13080444444444445
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 311,
+        "branco_medio": 0.2989,
+        "diferenca": 0.1554,
+        "colunas": [
+          0.22117481481481482,
+          0.3765822222222222
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 312,
+        "branco_medio": 0.0738,
+        "diferenca": 0.1247,
+        "colunas": [
+          0.13613777777777777,
+          0.011397037037037034
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 313,
+        "branco_medio": 0.0855,
+        "diferenca": 0.0098,
+        "colunas": [
+          0.08058222222222222,
+          0.09036
+        ],
+        "borda": false,
+        "grupo": "Domínio Simples"
+      },
+      {
+        "pagina": 314,
+        "branco_medio": 0.1333,
+        "diferenca": 0.0507,
+        "colunas": [
+          0.10798962962962963,
+          0.15865629629629627
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 315,
+        "branco_medio": 0.1137,
+        "diferenca": 0.1806,
+        "colunas": [
+          0.20398962962962966,
+          0.023397037037037046
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 316,
+        "branco_medio": 0.1404,
+        "diferenca": 0.0563,
+        "colunas": [
+          0.11228592592592594,
+          0.16858222222222224
+        ],
+        "borda": false,
+        "grupo": "Aptidões e Refino"
+      },
+      {
+        "pagina": 317,
+        "branco_medio": 0.2933,
+        "diferenca": 0.0,
+        "colunas": [
+          0.29332296296296295,
+          0.29332296296296295
+        ],
+        "borda": true,
+        "grupo": "Aptidão Própria"
+      },
+      {
+        "pagina": 319,
+        "branco_medio": 0.2798,
+        "diferenca": 0.0095,
+        "colunas": [
+          0.28458222222222224,
+          0.2751007407407407
+        ],
+        "borda": true,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 320,
+        "branco_medio": 0.5481,
+        "diferenca": 0.0436,
+        "colunas": [
+          0.52636,
+          0.5699155555555555
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 322,
+        "branco_medio": 0.0298,
+        "diferenca": 0.029,
+        "colunas": [
+          0.04428592592592593,
+          0.015248888888888899
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 323,
+        "branco_medio": 0.0587,
+        "diferenca": 0.1022,
+        "colunas": [
+          0.1097674074074074,
+          0.00754518518518519
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 324,
+        "branco_medio": 0.213,
+        "diferenca": 0.1887,
+        "colunas": [
+          0.307397037037037,
+          0.11865629629629627
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 325,
+        "branco_medio": 0.2755,
+        "diferenca": 0.0625,
+        "colunas": [
+          0.24428592592592588,
+          0.3068044444444445
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 326,
+        "branco_medio": 0.5187,
+        "diferenca": 0.1215,
+        "colunas": [
+          0.579397037037037,
+          0.4579155555555556
+        ],
+        "borda": false,
+        "grupo": "Invocações nas rotas"
+      },
+      {
+        "pagina": 328,
+        "branco_medio": 0.2635,
+        "diferenca": 0.1624,
+        "colunas": [
+          0.18236,
+          0.34473037037037035
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 329,
+        "branco_medio": 0.2023,
+        "diferenca": 0.057,
+        "colunas": [
+          0.23080444444444445,
+          0.17376740740740743
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 330,
+        "branco_medio": 0.4595,
+        "diferenca": 0.0483,
+        "colunas": [
+          0.43539703703703697,
+          0.4836933333333333
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 331,
+        "branco_medio": 0.2181,
+        "diferenca": 0.2676,
+        "colunas": [
+          0.3518414814814815,
+          0.08428592592592593
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 332,
+        "branco_medio": 0.2697,
+        "diferenca": 0.0007,
+        "colunas": [
+          0.269322962962963,
+          0.2700637037037037
+        ],
+        "borda": false,
+        "grupo": "Rotas de criação"
+      },
+      {
+        "pagina": 334,
+        "branco_medio": 0.1398,
+        "diferenca": 0.1219,
+        "colunas": [
+          0.07880444444444447,
+          0.20073037037037036
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 335,
+        "branco_medio": 0.0459,
+        "diferenca": 0.0471,
+        "colunas": [
+          0.022360000000000005,
+          0.06947111111111111
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 336,
+        "branco_medio": 0.1632,
+        "diferenca": 0.1591,
+        "colunas": [
+          0.08369333333333333,
+          0.2428044444444444
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 337,
+        "branco_medio": 0.1256,
+        "diferenca": 0.1289,
+        "colunas": [
+          0.06117481481481483,
+          0.1900637037037037
+        ],
+        "borda": false,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 338,
+        "branco_medio": 0.2979,
+        "diferenca": 0.2199,
+        "colunas": [
+          0.40784148148148147,
+          0.18798962962962962
+        ],
+        "borda": true,
+        "grupo": "Bênçãos"
+      },
+      {
+        "pagina": 341,
+        "branco_medio": 0.0646,
+        "diferenca": 0.0424,
+        "colunas": [
+          0.043397037037037046,
+          0.0857674074074074
+        ],
+        "borda": true,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 342,
+        "branco_medio": 0.0937,
+        "diferenca": 0.1234,
+        "colunas": [
+          0.15539703703703703,
+          0.03198962962962963
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 343,
+        "branco_medio": 0.1791,
+        "diferenca": 0.1606,
+        "colunas": [
+          0.09880444444444446,
+          0.25939703703703704
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 344,
+        "branco_medio": 0.2388,
+        "diferenca": 0.0661,
+        "colunas": [
+          0.2057674074074074,
+          0.27184148148148146
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 345,
+        "branco_medio": 0.2982,
+        "diferenca": 0.2874,
+        "colunas": [
+          0.44191555555555556,
+          0.15450814814814814
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 346,
+        "branco_medio": 0.3092,
+        "diferenca": 0.0794,
+        "colunas": [
+          0.26947111111111105,
+          0.34887851851851853
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 347,
+        "branco_medio": 0.12,
+        "diferenca": 0.0987,
+        "colunas": [
+          0.07065629629629631,
+          0.16932296296296298
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 348,
+        "branco_medio": 0.1758,
+        "diferenca": 0.1293,
+        "colunas": [
+          0.24043407407407408,
+          0.11110074074074074
+        ],
+        "borda": false,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 349,
+        "branco_medio": 0.223,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.1752488888888889,
+          0.2706562962962963
+        ],
+        "borda": true,
+        "grupo": "Poderes avançados"
+      },
+      {
+        "pagina": 351,
+        "branco_medio": 0.2006,
+        "diferenca": 0.0572,
+        "colunas": [
+          0.1719896296296296,
+          0.2291748148148148
+        ],
+        "borda": true,
+        "grupo": "Ritual e Pactos"
+      },
+      {
+        "pagina": 352,
+        "branco_medio": 0.2004,
+        "diferenca": 0.0954,
+        "colunas": [
+          0.15273037037037035,
+          0.24813777777777776
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 353,
+        "branco_medio": 0.0659,
+        "diferenca": 0.0,
+        "colunas": [
+          0.06591555555555555,
+          0.06591555555555555
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 354,
+        "branco_medio": 0.2852,
+        "diferenca": 0.0699,
+        "colunas": [
+          0.3201377777777778,
+          0.2502118518518518
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 355,
+        "branco_medio": 0.1769,
+        "diferenca": 0.0,
+        "colunas": [
+          0.17687851851851852,
+          0.17687851851851852
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 356,
+        "branco_medio": 0.0244,
+        "diferenca": 0.0142,
+        "colunas": [
+          0.01732296296296296,
+          0.0315451851851852
+        ],
+        "borda": false,
+        "grupo": "Ritual"
+      },
+      {
+        "pagina": 357,
+        "branco_medio": 0.2246,
+        "diferenca": 0.0969,
+        "colunas": [
+          0.2730266666666667,
+          0.17613777777777778
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 358,
+        "branco_medio": 0.1223,
+        "diferenca": 0.0159,
+        "colunas": [
+          0.11436000000000002,
+          0.13021185185185186
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 359,
+        "branco_medio": 0.0901,
+        "diferenca": 0.1604,
+        "colunas": [
+          0.009915555555555552,
+          0.17035999999999998
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 360,
+        "branco_medio": 0.1987,
+        "diferenca": 0.1724,
+        "colunas": [
+          0.11243407407407408,
+          0.28487851851851853
+        ],
+        "borda": false,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 361,
+        "branco_medio": 0.1538,
+        "diferenca": 0.0696,
+        "colunas": [
+          0.1189525925925926,
+          0.18858222222222223
+        ],
+        "borda": true,
+        "grupo": "Pactos"
+      },
+      {
+        "pagina": 363,
+        "branco_medio": 0.0889,
+        "diferenca": 0.0264,
+        "colunas": [
+          0.1020637037037037,
+          0.07569333333333332
+        ],
+        "borda": true,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 364,
+        "branco_medio": 0.1552,
+        "diferenca": 0.0767,
+        "colunas": [
+          0.11687851851851852,
+          0.19361925925925927
+        ],
+        "borda": false,
+        "grupo": "Turnos das entidades"
+      },
+      {
+        "pagina": 365,
+        "branco_medio": 0.0624,
+        "diferenca": 0.0972,
+        "colunas": [
+          0.013767407407407417,
+          0.11095259259259259
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 366,
+        "branco_medio": 0.0684,
+        "diferenca": 0.0495,
+        "colunas": [
+          0.04369333333333333,
+          0.09317481481481482
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 367,
+        "branco_medio": 0.0295,
+        "diferenca": 0.0514,
+        "colunas": [
+          0.055248888888888896,
+          0.0038414814814814865
+        ],
+        "borda": false,
+        "grupo": "Comandar uma especial"
+      },
+      {
+        "pagina": 368,
+        "branco_medio": 0.0792,
+        "diferenca": 0.0421,
+        "colunas": [
+          0.10028592592592595,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Comandar uma especial"
+      },
+      {
+        "pagina": 369,
+        "branco_medio": 0.0634,
+        "diferenca": 0.0708,
+        "colunas": [
+          0.09880444444444446,
+          0.02798962962962963
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 370,
+        "branco_medio": 0.0268,
+        "diferenca": 0.0059,
+        "colunas": [
+          0.023841481481481488,
+          0.029767407407407413
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 371,
+        "branco_medio": 0.0501,
+        "diferenca": 0.0132,
+        "colunas": [
+          0.05673037037037038,
+          0.04354518518518519
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 372,
+        "branco_medio": 0.2767,
+        "diferenca": 0.085,
+        "colunas": [
+          0.31924888888888886,
+          0.23421185185185187
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 373,
+        "branco_medio": 0.0952,
+        "diferenca": 0.0012,
+        "colunas": [
+          0.0958414814814815,
+          0.0946562962962963
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 374,
+        "branco_medio": 0.084,
+        "diferenca": 0.0145,
+        "colunas": [
+          0.07673037037037038,
+          0.09124888888888888
+        ],
+        "borda": false,
+        "grupo": "Trunfos das domadas"
+      },
+      {
+        "pagina": 375,
+        "branco_medio": 0.1939,
+        "diferenca": 0.0924,
+        "colunas": [
+          0.2401377777777778,
+          0.14769333333333334
+        ],
+        "borda": false,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 376,
+        "branco_medio": 0.1813,
+        "diferenca": 0.0151,
+        "colunas": [
+          0.17376740740740743,
+          0.1888785185185185
+        ],
+        "borda": false,
+        "grupo": "Queda e destruição"
+      },
+      {
+        "pagina": 377,
+        "branco_medio": 0.0358,
+        "diferenca": 0.0234,
+        "colunas": [
+          0.024137777777777786,
+          0.04754518518518517
+        ],
+        "borda": false,
+        "grupo": "Queda e destruição"
+      },
+      {
+        "pagina": 378,
+        "branco_medio": 0.1921,
+        "diferenca": 0.025,
+        "colunas": [
+          0.1795451851851852,
+          0.2045822222222222
+        ],
+        "borda": true,
+        "grupo": "Invocações em campo"
+      },
+      {
+        "pagina": 381,
+        "branco_medio": 0.113,
+        "diferenca": 0.2064,
+        "colunas": [
+          0.2161377777777778,
+          0.009767407407407412
+        ],
+        "borda": true,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 382,
+        "branco_medio": 0.0784,
+        "diferenca": 0.0147,
+        "colunas": [
+          0.07110074074074073,
+          0.0857674074074074
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 383,
+        "branco_medio": 0.0277,
+        "diferenca": 0.0379,
+        "colunas": [
+          0.046656296296296286,
+          0.008730370370370371
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 384,
+        "branco_medio": 0.0686,
+        "diferenca": 0.083,
+        "colunas": [
+          0.02710074074074075,
+          0.11006370370370372
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 385,
+        "branco_medio": 0.0228,
+        "diferenca": 0.0119,
+        "colunas": [
+          0.01687851851851852,
+          0.02873037037037037
+        ],
+        "borda": false,
+        "grupo": "Definição e corpo"
+      },
+      {
+        "pagina": 386,
+        "branco_medio": 0.0237,
+        "diferenca": 0.0,
+        "colunas": [
+          0.023693333333333327,
+          0.023693333333333327
+        ],
+        "borda": false,
+        "grupo": "Definição e corpo"
+      },
+      {
+        "pagina": 387,
+        "branco_medio": 0.1043,
+        "diferenca": 0.1502,
+        "colunas": [
+          0.029174814814814813,
+          0.17939703703703702
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 388,
+        "branco_medio": 0.0599,
+        "diferenca": 0.071,
+        "colunas": [
+          0.024434074074074066,
+          0.09539703703703704
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 389,
+        "branco_medio": 0.1212,
+        "diferenca": 0.036,
+        "colunas": [
+          0.1392488888888889,
+          0.1032488888888889
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 390,
+        "branco_medio": 0.0997,
+        "diferenca": 0.024,
+        "colunas": [
+          0.11169333333333334,
+          0.08769333333333335
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 391,
+        "branco_medio": 0.1437,
+        "diferenca": 0.0673,
+        "colunas": [
+          0.11006370370370372,
+          0.177322962962963
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 392,
+        "branco_medio": 0.0715,
+        "diferenca": 0.0249,
+        "colunas": [
+          0.08398962962962965,
+          0.05910074074074074
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 393,
+        "branco_medio": 0.1345,
+        "diferenca": 0.1526,
+        "colunas": [
+          0.21080444444444446,
+          0.05821185185185186
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 394,
+        "branco_medio": 0.0121,
+        "diferenca": 0.0163,
+        "colunas": [
+          0.003989629629629627,
+          0.020285925925925923
+        ],
+        "borda": false,
+        "grupo": "Talentos da entidade"
+      },
+      {
+        "pagina": 395,
+        "branco_medio": 0.0264,
+        "diferenca": 0.0436,
+        "colunas": [
+          0.004582222222222227,
+          0.04813777777777777
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 396,
+        "branco_medio": 0.0267,
+        "diferenca": 0.0055,
+        "colunas": [
+          0.02947111111111111,
+          0.023989629629629628
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 397,
+        "branco_medio": 0.319,
+        "diferenca": 0.3228,
+        "colunas": [
+          0.48043407407407407,
+          0.15761925925925926
+        ],
+        "borda": false,
+        "grupo": "Construir invocações"
+      },
+      {
+        "pagina": 398,
+        "branco_medio": 0.1255,
+        "diferenca": 0.1304,
+        "colunas": [
+          0.19065629629629632,
+          0.060285925925925944
+        ],
+        "borda": true,
+        "grupo": "Criação de entidades"
+      },
+      {
+        "pagina": 400,
+        "branco_medio": 0.294,
+        "diferenca": 0.0031,
+        "colunas": [
+          0.292434074074074,
+          0.2955451851851852
+        ],
+        "borda": true,
+        "grupo": "Mestrar"
+      },
+      {
+        "pagina": 401,
+        "branco_medio": 0.3788,
+        "diferenca": 0.0006,
+        "colunas": [
+          0.37850814814814815,
+          0.3791007407407407
+        ],
+        "borda": true,
+        "grupo": "Mestrar"
+      },
+      {
+        "pagina": 403,
+        "branco_medio": 0.0298,
+        "diferenca": 0.0344,
+        "colunas": [
+          0.012582222222222215,
+          0.04695259259259261
+        ],
+        "borda": true,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 404,
+        "branco_medio": 0.0413,
+        "diferenca": 0.0587,
+        "colunas": [
+          0.011989629629629635,
+          0.07065629629629631
+        ],
+        "borda": false,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 405,
+        "branco_medio": 0.2921,
+        "diferenca": 0.0074,
+        "colunas": [
+          0.2958414814814815,
+          0.28843407407407406
+        ],
+        "borda": true,
+        "grupo": "Glossário"
+      },
+      {
+        "pagina": 407,
+        "branco_medio": 0.3562,
+        "diferenca": 0.0108,
+        "colunas": [
+          0.3508044444444445,
+          0.3616192592592593
+        ],
+        "borda": true,
+        "grupo": "Consulta rápida"
+      },
+      {
+        "pagina": 408,
+        "branco_medio": 0.4745,
+        "diferenca": 0.1327,
+        "colunas": [
+          0.40813777777777777,
+          0.5408785185185185
+        ],
+        "borda": true,
+        "grupo": "Consulta rápida"
+      },
+      {
+        "pagina": 410,
+        "branco_medio": 0.0016,
+        "diferenca": 0.0,
+        "colunas": [
+          0.0016192592592592645,
+          0.0016192592592592645
+        ],
+        "borda": true,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 411,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 412,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 413,
+        "branco_medio": 0.0253,
+        "diferenca": 0.0,
+        "colunas": [
+          0.025322962962962967,
+          0.025322962962962967
+        ],
+        "borda": false,
+        "grupo": "Índice"
+      },
+      {
+        "pagina": 414,
+        "branco_medio": 0.2078,
+        "diferenca": 0.0,
+        "colunas": [
+          0.2078414814814815,
+          0.2078414814814815
+        ],
+        "borda": true,
+        "grupo": "Índice"
+      }
+    ]
+  }
+}

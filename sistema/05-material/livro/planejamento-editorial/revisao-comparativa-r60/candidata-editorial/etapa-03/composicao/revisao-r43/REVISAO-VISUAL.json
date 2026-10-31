@@ -1,0 +1,28 @@
+{
+  "revisao": "R43",
+  "data": "2026-10-10",
+  "sha256_pdf": "8c936686336d38ad80863def9b575f3a8c8182d83d133fc9fbfc9e63af76b175",
+  "paginas_verificadas": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    87,
+    88,
+    153,
+    154,
+    165,
+    366
+  ],
+  "criterios": [
+    "ordem de leitura da coluna esquerda para a direita",
+    "títulos junto do conteúdo inicial",
+    "continuações identificadas",
+    "tabelas e exemplos sem cortes",
+    "ausência de sobreposição e de invasão das margens",
+    "nova ordem de declaração e exemplos presentes no PDF"
+  ],
+  "resultado": "Nenhum novo problema de diagramação observado nas páginas verificadas.",
+  "observacao": "Arte, fontes, tamanhos e estilos preservados. Espaços herdados da base não foram redesenhados nesta rodada."
+}

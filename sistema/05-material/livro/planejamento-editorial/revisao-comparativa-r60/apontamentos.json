@@ -1,0 +1,97 @@
+[
+  {
+    "id": "01",
+    "prioridade": "Alta",
+    "natureza": "Defeito editorial confirmado",
+    "paginas": [
+      3,
+      253,
+      254,
+      255
+    ],
+    "titulo": "Sincronizar o sumário impresso e os cabeçalhos de Fundamento",
+    "evidencia": "O sumário põe Montar sua aplicação (253) antes de Sua técnica (249) e Selo e Talentos (251). Feitiços de Classe 0 (257) aparece depois de Ampliar um feitiço (276). Nas páginas 253 a 255, cabeçalhos de continuação ainda subordinam partes da montagem a Selo e Talentos. Os marcadores digitais estão majoritariamente na ordem atual, criando duas organizações diferentes.",
+    "acao": "Gerar sumário, marcadores e cabeçalhos a partir da mesma hierarquia atual. Conferir a ordem dentro da página 257, que reúne Classe 0 e Famílias. Preservar a sequência didática aprovada e seu exemplo."
+  },
+  {
+    "id": "02",
+    "prioridade": "Alta",
+    "natureza": "Melhoria de consulta",
+    "paginas": [
+      26,
+      54,
+      55,
+      56,
+      57,
+      254,
+      265,
+      415,
+      416
+    ],
+    "titulo": "Tornar a Consulta rápida suficiente para decisões frequentes",
+    "evidencia": "As páginas 415 e 416 resumem os procedimentos, mas ainda exigem voltar ao corpo do livro para a fórmula de Bloquear, os valores de tratamento e janela de Morrendo e o limite de conjurações. Essas regras existem e estão explicadas nos capítulos correspondentes.",
+    "acao": "Reunir a fórmula de Bloquear, o limite de um feitiço de Classe 1 ou maior no próprio turno e a exclusão da Reação fora dele. Acrescentar um quadro de Morrendo com janela, tratamento, dano posterior, estabilização e Sequela. Manter remissões para exceções."
+  },
+  {
+    "id": "03",
+    "prioridade": "Média",
+    "natureza": "Melhoria de comparação entre procedimentos",
+    "paginas": [
+      368,
+      369,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376
+    ],
+    "titulo": "Comparar as formas de comandar uma entidade no mesmo quadro",
+    "evidencia": "Ordem antecipada, preparação e as peças Reação, Segura e Armado têm custos e momentos diferentes. O capítulo oferece exemplos, porém o leitor precisa comparar páginas para conferir básica, coletiva, pagamento, prazo e cancelamento. A tabela de execução rápida da página 374 já resolve uma parte.",
+    "acao": "Acrescentar uma referência comparativa com os procedimentos e seus campos. Usar os exemplos existentes como apoio. Não unificar regras distintas nem mudar seus custos."
+  },
+  {
+    "id": "04",
+    "prioridade": "Média",
+    "natureza": "Apoio visual didático",
+    "paginas": [
+      262,
+      263,
+      264,
+      350,
+      351,
+      352
+    ],
+    "titulo": "Ilustrar origem, alcance, área e sobreposição",
+    "evidencia": "O Cone e a Linha podem começar longe do conjurador. Queima-Roupa muda a origem das áreas sem reduzir suas dimensões. O texto e as tabelas explicam isso, mas não há um desenho dessas relações nessas páginas. Áreas de domínios também exigem imaginar regiões sobrepostas.",
+    "acao": "Criar primeiro um diagrama com conjurador, ponto de origem e área de Cone/Linha/Explosão, incluindo uma versão com Queima-Roupa. Depois avaliar um diagrama de domínios sobrepostos. O livro já usa diagramas úteis em cobertura e movimento."
+  },
+  {
+    "id": "05",
+    "prioridade": "Média",
+    "natureza": "Padronização opcional para consulta",
+    "paginas": [
+      107,
+      108,
+      157
+    ],
+    "titulo": "Facilitar a localização de custos e frequência nas habilidades",
+    "evidencia": "Olhos Em Mim apresenta ação, área e duração no parágrafo. Intervenções do Evocador destacam custo e momento em uma linha própria. Ambas são compreensíveis, mas a informação muda de posição ao trocar de Caminho.",
+    "acao": "Experimentar uma linha curta com os campos aplicáveis: ação, custo, frequência e momento. Preservar explicações e exceções no texto; evitar preencher campos que a habilidade não usa."
+  },
+  {
+    "id": "06",
+    "prioridade": "Baixa",
+    "natureza": "Melhoria de entrada para iniciantes",
+    "paginas": [
+      8,
+      63,
+      67,
+      68,
+      69
+    ],
+    "titulo": "Dar páginas concretas ao roteiro da primeira sessão",
+    "evidencia": "A página 8 já oferece um percurso de leitura e aponta para o exemplo de missão. Ainda é possível tornar esse percurso mais preciso para quem abre um livro de 425 páginas pela primeira vez.",
+    "acao": "Acrescentar uma sequência curta de referências: personagem, testes, ações, ataque, defesa e vida a zero. Oferecer a ficha do exemplo pronta para consulta. Não exigir leitura integral dos catálogos."
+  }
+]

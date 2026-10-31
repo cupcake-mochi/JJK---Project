@@ -1,0 +1,104 @@
+{
+  "criterio": "Métrica de altura até o último elemento textual, sem capas/aberturas selecionadas; não equivale à área real de branco e pode excluir ilustrações. Casos revistos visualmente.",
+  "paginas_sinalizadas_mais_de_um_terco": [
+    {
+      "pagina": 8,
+      "motivo": "Encerramento da introdução."
+    },
+    {
+      "pagina": 10,
+      "motivo": "Encerramento da orientação de leitura."
+    },
+    {
+      "pagina": 25,
+      "motivo": "Ilustração de cobertura ocupa espaço que a métrica de texto não conta."
+    },
+    {
+      "pagina": 83,
+      "motivo": "Encerramento do Descendente."
+    },
+    {
+      "pagina": 85,
+      "motivo": "Encerramento do Encarnado."
+    },
+    {
+      "pagina": 87,
+      "motivo": "Transição para a tabela larga de Armamento Orgânico."
+    },
+    {
+      "pagina": 89,
+      "motivo": "Encerramento do Híbrido."
+    },
+    {
+      "pagina": 115,
+      "motivo": "Introdução da Vanguarda antes das tabelas largas de Conduções."
+    },
+    {
+      "pagina": 130,
+      "motivo": "Opções de Aberturas completas, com suas explicações."
+    },
+    {
+      "pagina": 149,
+      "motivo": "Encerramento do Ressonante."
+    },
+    {
+      "pagina": 151,
+      "motivo": "Encerramento do Catalisador antes da abertura ilustrada do Evocador."
+    },
+    {
+      "pagina": 173,
+      "motivo": "Encerramento dos exemplos do Evocador antes da abertura do Incursor."
+    },
+    {
+      "pagina": 182,
+      "motivo": "Encerramento do Assassino."
+    },
+    {
+      "pagina": 187,
+      "motivo": "Encerramento do Pugilista."
+    },
+    {
+      "pagina": 214,
+      "motivo": "Introdução do catálogo de armas antes das tabelas de largura inteira."
+    },
+    {
+      "pagina": 227,
+      "motivo": "Encerramento de compras antes da abertura ilustrada de Equipamento Amaldiçoado."
+    },
+    {
+      "pagina": 263,
+      "motivo": "Tabela de compatibilidade e primeira mescla mantidas como unidades legíveis."
+    },
+    {
+      "pagina": 274,
+      "motivo": "Encerramento de Liberação Máxima."
+    },
+    {
+      "pagina": 277,
+      "motivo": "Final da tabela da Técnica Máxima antes dos exemplos."
+    },
+    {
+      "pagina": 320,
+      "motivo": "Encerramento da introdução às rotas de criação."
+    },
+    {
+      "pagina": 326,
+      "motivo": "Encerramento de Invocações nas rotas antes da abertura de Sem Técnica."
+    },
+    {
+      "pagina": 330,
+      "motivo": "Ficha e introdução do exemplo Sutura Fria antes de sua aplicação."
+    }
+  ],
+  "colunas_desiguais": [
+    {
+      "pagina": 239,
+      "motivo": "Tabela de subida de nível e procedimento de experiência semanal são unidades independentes. Preservados inteiros em colunas distintas."
+    },
+    {
+      "pagina": 269,
+      "motivo": "Informação e obstáculos à esquerda; tabela e explicação de efeitos fora de combate à direita. Mantidos juntos para consulta."
+    }
+  ],
+  "comparacao": "R56: 414 páginas e 57,78 páginas equivalentes de espaço vertical residual; R57: 415 e 58,34. Esta revisão acrescenta contexto e não reduziu o branco agregado."
+}

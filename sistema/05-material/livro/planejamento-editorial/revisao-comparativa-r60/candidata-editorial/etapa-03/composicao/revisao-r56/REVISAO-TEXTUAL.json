@@ -1,0 +1,22 @@
+{
+  "base": "R55",
+  "blocos_verificados": 576,
+  "passagens_textuais": [
+    {
+      "passagem": 1,
+      "escopo": "Ordem das explicações: abertura, criação, defesa, Fundamento, Origens e glossário. Verificação de termos antigos e de referências entre os capítulos.",
+      "achado": "O roteiro de criação podia sugerir escolher uma marcante livremente. A etapa agora manda escolher a Origem e registrar a marcante correspondente."
+    },
+    {
+      "passagem": 2,
+      "escopo": "Releitura da alteração em confronto com Escolhas da Origem e Origem e treinos; conferência estrutural das tabelas, títulos, duplicações e remissões em todos os 576 blocos.",
+      "resultado": "Nenhuma outra alteração textual necessária foi identificada nesta passagem."
+    }
+  ],
+  "tabelas_markdown_verificadas": 273,
+  "remissoes_sem_destino": [],
+  "paragrafos_duplicados": [],
+  "titulos_preservados": true,
+  "texto_identico_fora_do_registro": true,
+  "regras_alteradas": false
+}

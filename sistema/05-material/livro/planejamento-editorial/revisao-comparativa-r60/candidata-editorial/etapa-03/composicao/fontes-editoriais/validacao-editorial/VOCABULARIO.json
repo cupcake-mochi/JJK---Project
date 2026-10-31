@@ -1,0 +1,57 @@
+{
+  "criterio": "Sinais para leitura contextual, não uma lista universal de palavras proibidas. Preferir palavras comuns sem eliminar os termos necessários do sistema.",
+  "termos": [
+    {
+      "termo": "legal",
+      "sugestao": "permitido pelas regras, válido ou permitido por lei, conforme o sentido"
+    },
+    {
+      "termo": "legais",
+      "sugestao": "permitidos pelas regras, válidos ou permitidos por lei, conforme o sentido"
+    },
+    {
+      "termo": "supracitado",
+      "sugestao": "citado acima ou remissão direta ao assunto"
+    },
+    {
+      "termo": "doravante",
+      "sugestao": "a partir de agora ou a partir desse momento"
+    },
+    {
+      "termo": "outrossim",
+      "sugestao": "também"
+    },
+    {
+      "termo": "dirimir",
+      "sugestao": "resolver"
+    },
+    {
+      "termo": "auferir",
+      "sugestao": "receber ou obter"
+    },
+    {
+      "termo": "destarte",
+      "sugestao": "assim"
+    },
+    {
+      "termo": "consoante",
+      "sugestao": "conforme ou de acordo com; manter se for termo linguístico necessário"
+    },
+    {
+      "termo": "mormente",
+      "sugestao": "principalmente"
+    },
+    {
+      "termo": "supracitados",
+      "sugestao": "citados acima ou remissão direta"
+    },
+    {
+      "termo": "subsequente",
+      "sugestao": "seguinte"
+    },
+    {
+      "termo": "subsequentes",
+      "sugestao": "seguintes"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "metodo": "Conferência editorial do quadro com os procedimentos completos. Não é teste de mesa ou simulação de equilíbrio.",
+  "resultado": "aprovado",
+  "cenarios": [
+    {
+      "nome": "Comando comum",
+      "referencia": "campo--inv-especial",
+      "situacao": "Especial imediata com básica disponível.",
+      "resultado_conferido": "Sua Padrão, básica e ativação; não usa a coletiva por esse comando.",
+      "aprovado": true
+    },
+    {
+      "nome": "Rápido",
+      "referencia": "campo--inv-tempo",
+      "situacao": "Especial com Rápido e básica disponível.",
+      "resultado_conferido": "Sua Bônus substitui a Padrão; básica e ativação continuam devidas.",
+      "aprovado": true
+    },
+    {
+      "nome": "Antecipada sem básica",
+      "referencia": "campo--inv-antecipada",
+      "situacao": "Ordem dada quando a básica já foi gasta.",
+      "resultado_conferido": "Paga a Padrão; espera uma básica válida, sem a reservar antes.",
+      "aprovado": true
+    },
+    {
+      "nome": "Antecipada no turno inimigo",
+      "referencia": "campo--inv-antecipada",
+      "situacao": "Inimigo termina o movimento e entra no alcance.",
+      "resultado_conferido": "Só resolve após o movimento; exige básica, coletiva e ativação, sem nova Padrão.",
+      "aprovado": true
+    },
+    {
+      "nome": "Antecipada sem coletiva",
+      "referencia": "campo--inv-antecipada",
+      "situacao": "Alvo em alcance fora do seu turno, mas coletiva gasta.",
+      "resultado_conferido": "Aguarda os recursos; não termina só por mudar o turno.",
+      "aprovado": true
+    },
+    {
+      "nome": "Antecipada pronta",
+      "referencia": "campo--inv-pendentes",
+      "situacao": "Primeira oportunidade válida já abriu.",
+      "resultado_conferido": "Executa ou comunica cancelamento; não deixa a oportunidade passar para guardar a ordem.",
+      "aprovado": true
+    },
+    {
+      "nome": "Especial preparada",
+      "referencia": "campo--inv-preparar",
+      "situacao": "Prepara com básica disponível; gatilho acontece depois.",
+      "resultado_conferido": "Sua Padrão e básica no preparo; coletiva e ativação no gatilho.",
+      "aprovado": true
+    },
+    {
+      "nome": "Coletiva consumida",
+      "referencia": "campo--inv-preparar",
+      "situacao": "Outra entidade usa a coletiva antes do gatilho da preparada.",
+      "resultado_conferido": "O preparo termina; a básica investida não volta.",
+      "aprovado": true
+    },
+    {
+      "nome": "Recusar ocorrência",
+      "referencia": "campo--inv-gatilhos",
+      "situacao": "Gatilho da especial preparada; invocador consciente percebe e comunica a recusa.",
+      "resultado_conferido": "Não executa nessa ocorrência; preparo conserva o prazo.",
+      "aprovado": true
+    },
+    {
+      "nome": "Reação comandada",
+      "referencia": "campo--inv-tempo",
+      "situacao": "Ocorre o gatilho de uma especial com Melhoria Reação.",
+      "resultado_conferido": "Comando por comunicação, coletiva e ativação; sem básica ou Reação pessoal.",
+      "aprovado": true
+    },
+    {
+      "nome": "Segura",
+      "referencia": "campo--inv-tempo",
+      "situacao": "Especial compatível tem sua execução adiada.",
+      "resultado_conferido": "Ação, básica, PE e demais custos agora; resolve no próximo turno sem outra cobrança de comando.",
+      "aprovado": true
+    },
+    {
+      "nome": "Armado no gatilho",
+      "referencia": "campo--inv-armado",
+      "situacao": "Especial armada já paga; gatilho fora do seu turno.",
+      "resultado_conferido": "Resolve da posição da entidade, sem nova básica, comando ou coletiva.",
+      "aprovado": true
+    },
+    {
+      "nome": "Armado sem disparo",
+      "referencia": "campo--inv-armado",
+      "situacao": "A cena termina sem a especial disparar.",
+      "resultado_conferido": "Devolve metade do PE efetivamente pago, para baixo, conforme divisão da regra completa. Ação e básica não voltam.",
+      "aprovado": true
+    },
+    {
+      "nome": "Carregar com Rápido",
+      "referencia": "campo--inv-restricoes-tempo",
+      "situacao": "Especial tem Rápido e Carregar.",
+      "resultado_conferido": "Padrão normal, básica e PE no primeiro turno. No seguinte, outra básica, sem novo comando ou PE.",
+      "aprovado": true
+    },
+    {
+      "nome": "Dano na carga",
+      "referencia": "campo--inv-restricoes-tempo",
+      "situacao": "A entidade recebe dano enquanto carrega.",
+      "resultado_conferido": "Faz o TR de Espírito próprio da carga; na falha perde a carga e os gastos.",
+      "aprovado": true
+    },
+    {
+      "nome": "Atrasar",
+      "referencia": "campo--inv-restricoes-tempo",
+      "situacao": "Especial comum usa Atrasar.",
+      "resultado_conferido": "Sua Padrão e básica; impede deslocamento voluntário da entidade nesse turno. Não cobra sua Bônus ou Movimento.",
+      "aprovado": true
+    },
+    {
+      "nome": "Aplicações máximas",
+      "referencia": "campo--inv-tempo / campo--inv-armado",
+      "situacao": "Liberação com Armado; ou Técnica Máxima com Segura.",
+      "resultado_conferido": "Liberação paga Ação Completa, básica, todo PE e preço ao armar. Segura não adia a Técnica Máxima.",
+      "aprovado": true
+    },
+    {
+      "nome": "Especial pendente por corpo",
+      "referencia": "campo--inv-pendentes",
+      "situacao": "Entidade já tem uma especial pendente.",
+      "resultado_conferido": "Confira Ordens pendentes antes de preparar outra; o quadro não cria segunda vaga.",
+      "aprovado": true
+    }
+  ]
+}

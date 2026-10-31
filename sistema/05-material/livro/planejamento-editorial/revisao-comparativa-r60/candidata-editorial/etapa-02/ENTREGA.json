@@ -1,0 +1,17 @@
+{
+  "etapa": 2,
+  "paginas": 427,
+  "paginas_da_consulta": [
+    415,
+    416,
+    417,
+    418
+  ],
+  "regras_alteradas": false,
+  "validacao_geral": "aprovado",
+  "verificacoes_gerais": 52,
+  "cenarios_conferidos": 18,
+  "revisao_visual": "Sumário, quatro páginas da Consulta rápida e transição para o Índice inspecionados nas duas paletas.",
+  "publicado": false,
+  "proxima_etapa": "Quadro comparativo de Invocações"
+}

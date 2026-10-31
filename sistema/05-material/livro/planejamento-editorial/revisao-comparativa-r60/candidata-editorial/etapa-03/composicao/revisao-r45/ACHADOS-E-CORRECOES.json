@@ -1,0 +1,90 @@
+[
+  {
+    "id": "E01",
+    "bloco": "origens--restricao-prenuncio",
+    "achado": "Momento operacional: explicitar rolagem de acerto, para não parecer que a Reação vai até depois do d20.",
+    "correcao": "antes da rolagem de acerto",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "E02",
+    "bloco": "origens--origem-reparo",
+    "achado": "Remissão do rascunho não coincidia com a âncora compartilhada do livro.",
+    "correcao": "campo--inv-reparo",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "E03",
+    "bloco": "origens--restricao-quebradico",
+    "achado": "Coordenação negativa podia parecer permitir empurrar cargas.",
+    "correcao": "não empurram nem arrastam",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "E04",
+    "bloco": "origens--encarnado-beneficios",
+    "achado": "Memória Testemunha: negar explicitamente revelação do imperceptível.",
+    "correcao": "não revelam algo imperceptível",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "E05",
+    "bloco": "origens--feto-beneficios",
+    "achado": "Membro Extensível: negar explicitamente ataques extras.",
+    "correcao": "não concede ataques extras",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "E06",
+    "bloco": "origens--corpo-existencia",
+    "achado": "Recuperação: negar explicitamente ressurreição.",
+    "correcao": "não devolve a vida",
+    "estado": "corrigido e reconferido no texto consolidado",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "V01",
+    "bloco": "origens--latente-beneficios",
+    "achado": "Cabeçalho e introdução de catálogo separados da primeira opção.",
+    "correcao": "Regra de composição local R45 em fluxo_continuo.py",
+    "estado": "corrigido e reconferido na prova visual final de 388 páginas",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "V02",
+    "bloco": "origens--descendente-zenin",
+    "achado": "Clã no pé da página, componentes da marcante só na próxima.",
+    "correcao": "Regra de composição local R45 em fluxo_continuo.py",
+    "estado": "corrigido e reconferido na prova visual final de 388 páginas",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "V03",
+    "bloco": "origens--restricao-saida",
+    "achado": "Tabela de pontos separada da apresentação.",
+    "correcao": "Abertura e tabela mantidas juntas; sem mudar largura ou fonte",
+    "estado": "corrigido e reconferido na prova visual final de 388 páginas",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "V04",
+    "bloco": "consulta--consulta-glossario-4",
+    "achado": "Termo novo foi inicialmente anexado fora da ordem alfabética.",
+    "correcao": "Inserido antes de Marco",
+    "estado": "corrigido e reconferido na prova visual final de 388 páginas",
+    "tipo": "autorrevisão"
+  },
+  {
+    "id": "V05",
+    "bloco": "consulta--consulta-indice-6",
+    "achado": "Entradas novas inicialmente anexadas fora da posição de consulta.",
+    "correcao": "Híbrido, Marcante, Reparar e CE4 inseridos em sua posição alfabética",
+    "estado": "corrigido e reconferido na prova visual final de 388 páginas",
+    "tipo": "autorrevisão"
+  }
+]

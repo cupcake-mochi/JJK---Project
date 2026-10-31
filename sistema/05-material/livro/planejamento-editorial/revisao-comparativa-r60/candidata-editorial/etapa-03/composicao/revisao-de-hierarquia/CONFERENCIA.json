@@ -1,0 +1,27 @@
+{
+  "edicao": "R35",
+  "base": "R34",
+  "opcao": "B",
+  "paginas_antes": 389,
+  "paginas": 394,
+  "sha256_pdf": "3329ca5ced0b7c63d4a86506045f27c388bd090032ef7cf9db13d1510820da16",
+  "sha256_texto": "d61eb37340f1645c00013b3b14a50547822d99b75f3f72a98040776bb798e88b",
+  "r34_preservada": true,
+  "texto_identico": true,
+  "elementos_editoriais_identicos_em_ordem": 5846,
+  "titulos_aplicados": 436,
+  "tratamentos": {
+    "subtopico": 271,
+    "grupo": 71,
+    "entrada": 64,
+    "exemplo": 30
+  },
+  "blocos_registrados": 501,
+  "aberturas_verificadas_na_mesma_coluna": 226,
+  "titulos_consecutivos_com_mesmo_tratamento": 0,
+  "titulos_isolados": 0,
+  "paginas_com_multiplos_pares_de_colunas": [],
+  "capas_artes_creditos_preservados": true,
+  "problemas": [],
+  "revisao_visual": "Registro separado em REVISAO-PAGINAS.json."
+}

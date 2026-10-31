@@ -1,0 +1,35 @@
+{
+  "pdf_sha256": "41a44839635e539a48107b8ad01c77c03357432a44191f9d276cf45d878522b3",
+  "paginas_inspecionadas": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+  ],
+  "paginas_com_refluxo": [
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+  ],
+  "metodo": "Renderização Poppler; inspeção dos três painéis e da página 89 ampliada.",
+  "resultado": "Sem cortes, sobreposição, cabeçalho isolado ou inversão da ordem de leitura nas páginas examinadas.",
+  "observacoes": [
+    "A abertura de Ataque sem Prenúncio e seu primeiro parágrafo estão juntos na coluna esquerda da página 89; o escopo e a antecipação seguem na direita.",
+    "Estudar a execução começa na página 90. O exemplo da Kata permanece integral, com custo de 5 PE.",
+    "O texto adicional redistribui o restante do capítulo até a página 97; a paginação total continua em 388.",
+    "Diagramação, fontes, tabelas, arte e créditos preservados."
+  ],
+  "limite": "Inspeção visual concentrada nas páginas afetadas e vizinha; conferência automatizada do documento inteiro. Não é teste de mesa."
+}

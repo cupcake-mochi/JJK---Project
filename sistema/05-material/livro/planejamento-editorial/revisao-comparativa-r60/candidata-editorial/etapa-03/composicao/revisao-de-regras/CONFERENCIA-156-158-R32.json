@@ -1,0 +1,20 @@
+[
+  {
+    "item": "156",
+    "bloco": "equip--eq-equipamento",
+    "texto_integral_identico_R31": true,
+    "status": "conferido sem reaplicação"
+  },
+  {
+    "item": "157",
+    "bloco": "equip--eqp-protecao",
+    "texto_integral_identico_R31": true,
+    "status": "conferido sem reaplicação"
+  },
+  {
+    "item": "158",
+    "bloco": "geral--carga",
+    "texto_integral_identico_R31": true,
+    "status": "conferido sem reaplicação"
+  }
+]

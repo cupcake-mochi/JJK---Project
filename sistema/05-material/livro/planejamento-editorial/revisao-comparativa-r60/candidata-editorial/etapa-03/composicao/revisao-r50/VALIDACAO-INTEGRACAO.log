@@ -1,0 +1,12 @@
+{
+  "edicao": "R50",
+  "blocos_total": 511,
+  "blocos_alterados": 29,
+  "blocos_inalterados": 482,
+  "checagens": 81,
+  "cenarios_deterministicos_v014": 16,
+  "arquivos_R49_conferidos": 4098,
+  "sha256_registro": "ac2647f65220cca80ca27f204bb748035ae5d3b323bd8fe341d7ea15acb091ff",
+  "sha256_texto": "33f773116f301456cf4ad4abbf807a744f19d9d69945f405075496fde7d9712c",
+  "escopo": "Conferência de integração, exemplos e regressões do estudo; não simula uma missão e não substitui teste humano."
+}

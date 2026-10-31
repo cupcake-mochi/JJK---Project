@@ -1,0 +1,54 @@
+{
+  "resultado": "aprovado",
+  "paginas": 429,
+  "pagina_quadro": 377,
+  "paginas_para_revisao": [
+    5,
+    368,
+    376,
+    377,
+    378
+  ],
+  "verificacoes": [
+    {
+      "verificacao": "Todo o texto anterior permanece, acrescido apenas do quadro e do acesso inicial",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Termos explicados antes do atalho ao quadro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Consulta rápida da etapa 2 preservada integralmente",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Capítulos 1 a 15 preservam texto e posição",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Duas tabelas comparativas em largura inteira",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Abertura da referência acompanha a tabela de recursos",
+      "aprovado": true
+    },
+    {
+      "verificacao": "As nove opções estão no quadro de recursos",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sumário e marcador digital incluem o quadro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Navegação de Fundamento permanece na ordem de leitura",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Páginas afetadas têm texto igual nas duas paletas",
+      "aprovado": true
+    }
+  ]
+}

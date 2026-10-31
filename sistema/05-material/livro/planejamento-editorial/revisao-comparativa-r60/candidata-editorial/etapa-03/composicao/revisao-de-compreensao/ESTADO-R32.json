@@ -1,0 +1,20 @@
+{
+  "base_textual": "R31",
+  "etapa": "6A concluída; 6B aplicada na prova; 6C e 6D pendentes",
+  "registro_textual": "revisao-de-regras/ALTERACOES-REGRAS.json",
+  "registro_compreensao": "revisao-de-compreensao/ALTERACOES-COMPREENSAO.json",
+  "blocos_alterados": 19,
+  "substituicoes": 26,
+  "itens_aplicados": [
+    "115",
+    "160",
+    "171"
+  ],
+  "itens_conferidos_sem_reaplicar": [
+    "156",
+    "157",
+    "158"
+  ],
+  "fontes_editoriais": "Snapshot R31 preservado; a camada revisao_r32.py aplica as substituições antes da estrutura da R31.",
+  "historico_regras": "revisao-de-regras/HISTORICO-ALTERACOES-R29-R30.json"
+}

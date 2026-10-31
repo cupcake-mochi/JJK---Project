@@ -1,0 +1,1006 @@
+[
+  {
+    "parte": 1,
+    "blocos": [
+      "ab--ab-apresentacao",
+      "ab--ab-primeira-sessao",
+      "ab--ab-mundo",
+      "ab--ab-sociedade",
+      "geral--atributos",
+      "geral--testes",
+      "geral--pericias"
+    ],
+    "palavras": 2508,
+    "status": "lido",
+    "observacao": "CD fixa/criador esclarecida; demais blocos mantidos."
+  },
+  {
+    "parte": 2,
+    "blocos": [
+      "geral--resistencia",
+      "geral--turnos",
+      "geral--acoes",
+      "geral--ajudar",
+      "geral--interacao",
+      "geral--preparar",
+      "geral--oportunidade"
+    ],
+    "palavras": 2597,
+    "status": "lido",
+    "observacao": "Procedimentos lidos; sujeito da rolagem esclarecido em Bloquear."
+  },
+  {
+    "parte": 3,
+    "blocos": [
+      "geral--concentracao",
+      "geral--ataques",
+      "geral--alcance",
+      "geral--critico",
+      "geral--defesa",
+      "geral--bloquear"
+    ],
+    "palavras": 2443,
+    "status": "lido",
+    "observacao": "Procedimentos lidos; sujeito da rolagem esclarecido em Bloquear."
+  },
+  {
+    "parte": 4,
+    "blocos": [
+      "geral--aparar",
+      "geral--manobras",
+      "geral--contencoes",
+      "geral--movimento",
+      "geral--espacos",
+      "geral--distancias",
+      "geral--saltos"
+    ],
+    "palavras": 2742,
+    "status": "lido",
+    "observacao": "Queda deliberada conectada ao procedimento; referente de limite esclarecido em transporte em grupo. Custos e números preservados."
+  },
+  {
+    "parte": 5,
+    "blocos": [
+      "geral--quedas",
+      "geral--queda-criatura",
+      "geral--rastejar",
+      "geral--voo",
+      "geral--carga",
+      "geral--arrasto",
+      "geral--montaria"
+    ],
+    "palavras": 2766,
+    "status": "lido",
+    "observacao": "Queda deliberada conectada ao procedimento; referente de limite esclarecido em transporte em grupo. Custos e números preservados."
+  },
+  {
+    "parte": 6,
+    "blocos": [
+      "geral--perceber",
+      "geral--esconder",
+      "geral--procurar",
+      "geral--ocultacao-ataque",
+      "geral--estudar",
+      "geral--mundo"
+    ],
+    "palavras": 2388,
+    "status": "lido",
+    "observacao": "Percepção, energia e início de Dano lidos; procedimentos já distinguem ação, informação e limites. Sem alteração."
+  },
+  {
+    "parte": 7,
+    "blocos": [
+      "geral--buscar",
+      "geral--pressao",
+      "geral--ler",
+      "geral--energia-exemplo",
+      "dano--dano",
+      "dano--tipos",
+      "dano--reducao"
+    ],
+    "palavras": 2704,
+    "status": "lido",
+    "observacao": "Percepção, energia e início de Dano lidos; procedimentos já distinguem ação, informação e limites. Sem alteração."
+  },
+  {
+    "parte": 8,
+    "blocos": [
+      "dano--alma",
+      "dano--integridade",
+      "dano--condicoes",
+      "dano--leves",
+      "dano--medias",
+      "dano--pesadas",
+      "dano--cura"
+    ],
+    "palavras": 2530,
+    "status": "lido",
+    "observacao": "Condições e procedimentos de recuperação lidos. Mantidos; revisão mecânica de morte e Integridade continua adiada."
+  },
+  {
+    "parte": 9,
+    "blocos": [
+      "dano--temporarios",
+      "dano--zero",
+      "dano--insistir",
+      "dano--socorro",
+      "dano--sequelas",
+      "dano--derrota",
+      "dano--inconsciente"
+    ],
+    "palavras": 2391,
+    "status": "lido",
+    "observacao": "Condições e procedimentos de recuperação lidos. Mantidos; revisão mecânica de morte e Integridade continua adiada."
+  },
+  {
+    "parte": 10,
+    "blocos": [
+      "dano--descansos",
+      "dano--exaustao",
+      "dano--usos",
+      "ab--ab-criacao",
+      "ab--ab-origem",
+      "ab--ab-caminho",
+      "ab--ab-capacidades"
+    ],
+    "palavras": 2650,
+    "status": "lido",
+    "observacao": "Descansos e criação lidos; explicação da montagem de Kaori esclarecida, sem refazer a conta."
+  },
+  {
+    "parte": 11,
+    "blocos": [
+      "ab--ab-equipamento",
+      "ab--ab-kaori",
+      "ab--ab-resgate",
+      "ab--ab-combate",
+      "ab--ab-conferencia",
+      "origens--origens",
+      "origens--origem-escolhas",
+      "origens--legados"
+    ],
+    "palavras": 2611,
+    "status": "lido",
+    "observacao": "Descansos e criação lidos; explicação da montagem de Kaori esclarecida, sem refazer a conta."
+  },
+  {
+    "parte": 12,
+    "blocos": [
+      "origens--origem-latente",
+      "origens--latente-beneficios",
+      "origens--origem-receptaculo",
+      "origens--receptaculo-acordos",
+      "origens--receptaculo-excecoes",
+      "origens--origem-descendente",
+      "origens--descendente-beneficios",
+      "origens--origem-encarnado",
+      "origens--encarnado-beneficios"
+    ],
+    "palavras": 2537,
+    "status": "lido",
+    "observacao": "Legados lidos; sujeito da escolha de Talhe esclarecido. Reparo de Classe menor preservado como assunto adiado."
+  },
+  {
+    "parte": 13,
+    "blocos": [
+      "origens--origem-feto",
+      "origens--feto-beneficios",
+      "origens--origem-sem-tecnica",
+      "origens--origem-corpo",
+      "origens--origem-reparo",
+      "origens--corpo-configuracoes",
+      "origens--corpo-ninhada-gemeos",
+      "origens--corpo-inteiro-manutencao",
+      "origens--origem-restricao"
+    ],
+    "palavras": 2561,
+    "status": "lido",
+    "observacao": "Legados lidos; sujeito da escolha de Talhe esclarecido. Reparo de Classe menor preservado como assunto adiado."
+  },
+  {
+    "parte": 14,
+    "blocos": [
+      "origens--restricao-corpo",
+      "origens--restricao-sem-energia",
+      "origens--restricao-beneficios",
+      "origens--legado-criar",
+      "origens--legados-exemplos",
+      "bastiao--bas-bastiao",
+      "bastiao--bas-olhos",
+      "bastiao--bas-defesa"
+    ],
+    "palavras": 2501,
+    "status": "lido",
+    "observacao": "Origens e Bastião lidos. Encontrada e corrigida omissão da decisão 115; demais regras mantidas."
+  },
+  {
+    "parte": 15,
+    "blocos": [
+      "bastiao--bas-aliados",
+      "bastiao--bas-muro",
+      "bastiao--bas-casca",
+      "bastiao--bas-punho",
+      "bastiao--bas-mao",
+      "bastiao--bas-arrastao",
+      "bastiao--bas-combatente",
+      "bastiao--bas-oportunista",
+      "vanguarda--van-base"
+    ],
+    "palavras": 2679,
+    "status": "lido",
+    "observacao": "Origens e Bastião lidos. Encontrada e corrigida omissão da decisão 115; demais regras mantidas."
+  },
+  {
+    "parte": 16,
+    "blocos": [
+      "vanguarda--van-sequencia",
+      "vanguarda--van-conducoes",
+      "vanguarda--van-conclusoes",
+      "vanguarda--van-escola",
+      "vanguarda--van-avanco",
+      "vanguarda--van-estocada",
+      "vanguarda--van-feiticos",
+      "vanguarda--van-bote",
+      "vanguarda--van-yumi"
+    ],
+    "palavras": 2767,
+    "status": "lido",
+    "observacao": "Vanguarda lida. Esclarecidos momentos de Antecipar o Gesto e referentes de efeitos da Besta; demais regras mantidas."
+  },
+  {
+    "parte": 17,
+    "blocos": [
+      "vanguarda--van-yumi-conducoes",
+      "vanguarda--van-yumi-avanco",
+      "vanguarda--van-besta",
+      "vanguarda--van-besta-conclusoes",
+      "vanguarda--van-besta-avanco",
+      "vanguarda--van-fogo",
+      "vanguarda--van-fogo-conclusoes",
+      "vanguarda--van-fogo-avanco"
+    ],
+    "palavras": 2491,
+    "status": "lido",
+    "observacao": "Vanguarda lida. Esclarecidos momentos de Antecipar o Gesto e referentes de efeitos da Besta; demais regras mantidas."
+  },
+  {
+    "parte": 18,
+    "blocos": [
+      "vanguarda--van-executor",
+      "vanguarda--van-executor-avanco",
+      "guia--guia",
+      "guia--guia-progressao",
+      "guia--guia-aberturas",
+      "guia--guia-resposta",
+      "guia--guia-planos",
+      "guia--guia-plano-conjunto"
+    ],
+    "palavras": 2608,
+    "status": "lido",
+    "observacao": "Executor, Guia e início de Emanador lidos integralmente. Procedimentos e exemplos mantidos."
+  },
+  {
+    "parte": 19,
+    "blocos": [
+      "guia--guia-arquiteto",
+      "guia--guia-modelos",
+      "guia--guia-obra-uso",
+      "guia--guia-obras-maiores",
+      "guia--guia-emergencia",
+      "guia--guia-analista",
+      "guia--guia-brecha",
+      "guia--guia-padrao",
+      "guia--guia-socorrista"
+    ],
+    "palavras": 2524,
+    "status": "lido",
+    "observacao": "Executor, Guia e início de Emanador lidos integralmente. Procedimentos e exemplos mantidos."
+  },
+  {
+    "parte": 20,
+    "blocos": [
+      "guia--guia-tratamento",
+      "guia--guia-emergencia-cuidado",
+      "emanador--ema-base",
+      "emanador--ema-desdobramento",
+      "emanador--ema-remodelar",
+      "emanador--ema-modulacoes",
+      "emanador--ema-familiares",
+      "emanador--ema-forma"
+    ],
+    "palavras": 2430,
+    "status": "lido",
+    "observacao": "Executor, Guia e início de Emanador lidos integralmente. Procedimentos e exemplos mantidos."
+  },
+  {
+    "parte": 21,
+    "blocos": [
+      "emanador--ema-instintiva",
+      "emanador--ema-condutor",
+      "emanador--ema-artes",
+      "emanador--ema-propriedades",
+      "emanador--ema-propriedades-apoio",
+      "emanador--ema-manifestacao",
+      "emanador--ema-eco",
+      "emanador--ema-repetir",
+      "emanador--ema-contraponto"
+    ],
+    "palavras": 2623,
+    "status": "lido",
+    "observacao": "Executor, Guia e início de Emanador lidos integralmente. Procedimentos e exemplos mantidos."
+  },
+  {
+    "parte": 22,
+    "blocos": [
+      "emanador--ema-acorde",
+      "emanador--ema-impulso",
+      "emanador--ema-correcao",
+      "emanador--ema-fluxo",
+      "evocador--evocador",
+      "evocador--ev-vinculo",
+      "evocador--ev-usos",
+      "evocador--ev-aprimoramentos",
+      "evocador--ev-intervencoes"
+    ],
+    "palavras": 2585,
+    "status": "lido",
+    "observacao": "Emanador e Evocador lidos integralmente. Esclarecido o sujeito do pagamento em Conduzir a Especial; custos preservados."
+  },
+  {
+    "parte": 23,
+    "blocos": [
+      "evocador--ev-posicao",
+      "evocador--ev-preparacao",
+      "evocador--ev-complementar",
+      "evocador--ev-combinar",
+      "evocador--ev-combinada",
+      "evocador--ev-principal",
+      "evocador--ev-principal-especial",
+      "evocador--ev-principal-troca",
+      "evocador--ev-principal-protecao"
+    ],
+    "palavras": 2688,
+    "status": "lido",
+    "observacao": "Emanador e Evocador lidos integralmente. Esclarecido o sujeito do pagamento em Conduzir a Especial; custos preservados."
+  },
+  {
+    "parte": 24,
+    "blocos": [
+      "evocador--ev-principal-continuidade",
+      "evocador--ev-principal-reflexa",
+      "evocador--ev-parceria",
+      "evocador--ev-parceria-aprimoramentos",
+      "evocador--ev-parceria-complementar",
+      "evocador--ev-parceria-intervencoes",
+      "evocador--ev-parceria-cobrir",
+      "evocador--ev-parceria-tecnicas",
+      "evocador--ev-parceria-resposta"
+    ],
+    "palavras": 2756,
+    "status": "lido",
+    "observacao": "Emanador e Evocador lidos integralmente. Esclarecido o sujeito do pagamento em Conduzir a Especial; custos preservados."
+  },
+  {
+    "parte": 25,
+    "blocos": [
+      "evocador--ev-multiplas",
+      "evocador--ev-multiplas-entrada",
+      "evocador--ev-multiplas-duplas",
+      "evocador--ev-multiplas-protecao",
+      "evocador--ev-multiplas-conduzir",
+      "evocador--ev-multiplas-retirada",
+      "evocador--ev-multiplas-aprimoramentos",
+      "evocador--ev-multiplas-formacao",
+      "evocador--ev-multiplas-repertorio"
+    ],
+    "palavras": 2758,
+    "status": "lido",
+    "observacao": "Emanador e Evocador lidos integralmente. Esclarecido o sujeito do pagamento em Conduzir a Especial; custos preservados."
+  },
+  {
+    "parte": 26,
+    "blocos": [
+      "evocador--ev-turnos",
+      "incursor--inc-caminho",
+      "incursor--inc-movimento",
+      "incursor--inc-fluidez",
+      "incursor--inc-respostas",
+      "incursor--inc-fluidez-avancada",
+      "incursor--inc-ritmo",
+      "incursor--inc-assassino",
+      "incursor--inc-guarda"
+    ],
+    "palavras": 2614,
+    "status": "lido",
+    "observacao": "Turnos do Evocador, Incursor e início de Perícias lidos integralmente. Sem alteração necessária."
+  },
+  {
+    "parte": 27,
+    "blocos": [
+      "incursor--inc-cirurgico",
+      "incursor--inc-cortar",
+      "incursor--inc-parkour",
+      "incursor--inc-brecha",
+      "incursor--inc-pugilista",
+      "incursor--inc-corpo",
+      "incursor--inc-base",
+      "incursor--inc-interceptar"
+    ],
+    "palavras": 2564,
+    "status": "lido",
+    "observacao": "Turnos do Evocador, Incursor e início de Perícias lidos integralmente. Sem alteração necessária."
+  },
+  {
+    "parte": 28,
+    "blocos": [
+      "incursor--inc-projecao",
+      "incursor--inc-redirecionar",
+      "incursor--inc-redirecionar-resolucao",
+      "incursor--inc-malabarista",
+      "incursor--inc-continuacoes",
+      "incursor--inc-ricochete",
+      "incursor--inc-destino",
+      "incursor--inc-retorno"
+    ],
+    "palavras": 2638,
+    "status": "lido",
+    "observacao": "Turnos do Evocador, Incursor e início de Perícias lidos integralmente. Sem alteração necessária."
+  },
+  {
+    "parte": 29,
+    "blocos": [
+      "incursor--inc-finta",
+      "incursor--inc-perfeita",
+      "pericias--pericias",
+      "pericias--tarefas",
+      "pericias--fisicas",
+      "pericias--conhecimento"
+    ],
+    "palavras": 2517,
+    "status": "lido",
+    "observacao": "Turnos do Evocador, Incursor e início de Perícias lidos integralmente. Sem alteração necessária."
+  },
+  {
+    "parte": 30,
+    "blocos": [
+      "pericias--ambiente",
+      "pericias--essencia",
+      "pericias--oficios",
+      "pericias--fabricacao",
+      "pericias--reparos",
+      "equip--eq-equipamento",
+      "equip--eq-manipular"
+    ],
+    "palavras": 2786,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 31,
+    "blocos": [
+      "equip--eq-objetos",
+      "equip--eq-propriedades",
+      "equip--eq-oculta",
+      "equip--eqp-protecao",
+      "equip--eqp-traje",
+      "equip--eqp-escudo"
+    ],
+    "palavras": 2699,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 32,
+    "blocos": [
+      "equip--eqp-vestir",
+      "equip--eqm-municao",
+      "equip--eqm-recarga",
+      "equip--eqm-reserva",
+      "equip--eqa-armas",
+      "equip--eqa-laminas"
+    ],
+    "palavras": 2587,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 33,
+    "blocos": [
+      "equip--eqa-impacto",
+      "equip--eqa-hastes",
+      "equip--eqa-flexiveis",
+      "equip--eqa-tiro",
+      "equip--eqi-itens",
+      "equip--eqi-exploracao",
+      "equip--eqi-fechaduras"
+    ],
+    "palavras": 2633,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 34,
+    "blocos": [
+      "equip--eqi-objetos",
+      "equip--eqi-efeitos",
+      "equip--eqi-improvisadas",
+      "equip--eqc-dinheiro",
+      "equip--eqc-precos",
+      "equip--eqc-inicial",
+      "equip--eqc-compras",
+      "equip--eqf-equipamento"
+    ],
+    "palavras": 2781,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 35,
+    "blocos": [
+      "equip--eqf-graus",
+      "equip--eqf-uso",
+      "equip--eqf-aquisicao",
+      "equip--eqf-armas",
+      "equip--eqf-roupas",
+      "equip--eqf-protecao",
+      "equip--eqf-acessorios"
+    ],
+    "palavras": 2795,
+    "status": "lido",
+    "observacao": "Perícias e Equipamento lidos integralmente. Itens 156–158 conferidos sem reaplicar; Insondável coberto pela alteração 171."
+  },
+  {
+    "parte": 36,
+    "blocos": [
+      "equip--eqf-reliquias",
+      "equip--eqf-desgaste",
+      "equip--eqf-objetos",
+      "progressao--prog-inicio",
+      "progressao--prog-xp",
+      "progressao--prog-semana",
+      "progressao--prog-limiar",
+      "progressao--prog-tabela-inicial"
+    ],
+    "palavras": 2781,
+    "status": "lido",
+    "observacao": "Fim de Equipamento e Progressão lidos integralmente. Duas correções de concordância e um referente esclarecido; números mantidos."
+  },
+  {
+    "parte": 37,
+    "blocos": [
+      "progressao--prog-tabela-avancada",
+      "progressao--prog-marcos",
+      "progressao--prog-repertorio",
+      "progressao--prog-atualizar",
+      "progressao--prog-trilhas",
+      "progressao--prog-capacidades",
+      "progressao--prog-guilda",
+      "progressao--prog-patentes"
+    ],
+    "palavras": 2578,
+    "status": "lido",
+    "observacao": "Fim de Equipamento e Progressão lidos integralmente. Duas correções de concordância e um referente esclarecido; números mantidos."
+  },
+  {
+    "parte": 38,
+    "blocos": [
+      "fundamento--fundamento",
+      "fundamento--tecnica",
+      "fundamento--primeiro",
+      "fundamento--familias",
+      "fundamento--selo",
+      "fundamento--repertorio",
+      "fundamento--pontos"
+    ],
+    "palavras": 2659,
+    "status": "lido",
+    "observacao": "Fundamento lido integralmente. Esclarecida a conferência de dano adicional e sua diferença em relação ao orçamento de pontos."
+  },
+  {
+    "parte": 39,
+    "blocos": [
+      "fundamento--formas",
+      "fundamento--amparoformas",
+      "fundamento--alcance",
+      "fundamento--conjurar",
+      "fundamento--restricoes",
+      "fundamento--combinacoes"
+    ],
+    "palavras": 2502,
+    "status": "lido",
+    "observacao": "Fundamento lido integralmente. Esclarecida a conferência de dano adicional e sua diferença em relação ao orçamento de pontos."
+  },
+  {
+    "parte": 40,
+    "blocos": [
+      "fundamento--controle",
+      "fundamento--aplicacoes",
+      "fundamento--danolimites",
+      "fundamento--persistente",
+      "fundamento--livre",
+      "fundamento--efeito",
+      "fundamento--ampliar"
+    ],
+    "palavras": 2787,
+    "status": "lido",
+    "observacao": "Fundamento lido integralmente. Esclarecida a conferência de dano adicional e sua diferença em relação ao orçamento de pontos."
+  },
+  {
+    "parte": 41,
+    "blocos": [
+      "fundamento--classezero",
+      "fundamento--proprio",
+      "fundamento--liberacao",
+      "fundamento--maxima",
+      "fundamento--maximadano",
+      "fundamento--limitesmaxima"
+    ],
+    "palavras": 2334,
+    "status": "lido",
+    "observacao": "Classe 0, Máximas e início do Catálogo lidos integralmente. Em Remate, explicitada a referência ao cálculo do teto; regras e exemplos mantidos."
+  },
+  {
+    "parte": 42,
+    "blocos": [
+      "fundamento--passagem",
+      "fundamento--retirada",
+      "fundamento--ficha",
+      "catalogo--cat-catalogo",
+      "catalogo--cat-alcance",
+      "catalogo--cat-movimento",
+      "catalogo--cat-area",
+      "catalogo--cat-area-continua"
+    ],
+    "palavras": 2590,
+    "status": "lido",
+    "observacao": "Classe 0, Máximas e início do Catálogo lidos integralmente. Em Remate, explicitada a referência ao cálculo do teto; regras e exemplos mantidos."
+  },
+  {
+    "parte": 43,
+    "blocos": [
+      "catalogo--cat-mira",
+      "catalogo--cat-defesas",
+      "catalogo--cat-controle",
+      "catalogo--cat-obstaculos",
+      "catalogo--cat-auxiliares",
+      "catalogo--cat-auxiliares-apoio",
+      "catalogo--cat-castigo",
+      "catalogo--cat-castigo-dano",
+      "catalogo--cat-tempo"
+    ],
+    "palavras": 2781,
+    "status": "lido",
+    "observacao": "Classe 0, Máximas e início do Catálogo lidos integralmente. Em Remate, explicitada a referência ao cálculo do teto; regras e exemplos mantidos."
+  },
+  {
+    "parte": 44,
+    "blocos": [
+      "catalogo--cat-tempo-duracao",
+      "catalogo--cat-marca",
+      "catalogo--cat-marca-recursos",
+      "catalogo--cat-amparo",
+      "catalogo--cat-amparo-protecao",
+      "catalogo--cat-proprio",
+      "catalogo--cat-restricoes-conjuracao"
+    ],
+    "palavras": 2578,
+    "status": "lido",
+    "observacao": "Classe 0, Máximas e início do Catálogo lidos integralmente. Em Remate, explicitada a referência ao cálculo do teto; regras e exemplos mantidos."
+  },
+  {
+    "parte": 45,
+    "blocos": [
+      "catalogo--cat-restricoes-consequencias",
+      "catalogo--cat-restricoes-uso",
+      "catalogo--cat-restricoes-proprias",
+      "catalogo--cat-passivas-1",
+      "catalogo--cat-passivas-2-recursos",
+      "catalogo--cat-passivas-2-protecao",
+      "catalogo--cat-passivas-3"
+    ],
+    "palavras": 2582,
+    "status": "lido",
+    "observacao": "Restante do Catálogo, Aptidões e início de Rotas lidos integralmente. Item 160 aplicado em camada separada; demais procedimentos mantidos."
+  },
+  {
+    "parte": 46,
+    "blocos": [
+      "catalogo--cat-regra-propria",
+      "catalogo--cat-passiva-propria",
+      "aptidoes--apt-refino",
+      "aptidoes--apt-marcos",
+      "aptidoes--apt-catalogo",
+      "aptidoes--apt-cobrir",
+      "aptidoes--apt-canalizar",
+      "aptidoes--apt-projetar",
+      "aptidoes--apt-reversa"
+    ],
+    "palavras": 2697,
+    "status": "lido",
+    "observacao": "Restante do Catálogo, Aptidões e início de Rotas lidos integralmente. Item 160 aplicado em camada separada; demais procedimentos mantidos."
+  },
+  {
+    "parte": 47,
+    "blocos": [
+      "aptidoes--apt-energia-positiva",
+      "aptidoes--apt-circulacao",
+      "aptidoes--apt-regravacao",
+      "aptidoes--apt-kokusen",
+      "aptidoes--apt-protecao-dominios",
+      "aptidoes--apt-cesta",
+      "aptidoes--apt-simples",
+      "aptidoes--apt-simples-duracao",
+      "aptidoes--apt-petala"
+    ],
+    "palavras": 2738,
+    "status": "lido",
+    "observacao": "Restante do Catálogo, Aptidões e início de Rotas lidos integralmente. Item 160 aplicado em camada separada; demais procedimentos mantidos."
+  },
+  {
+    "parte": 48,
+    "blocos": [
+      "aptidoes--apt-extensao",
+      "aptidoes--apt-barreira",
+      "aptidoes--apt-cortina",
+      "aptidoes--apt-propria",
+      "rotas--rotas",
+      "rotas--rota-marcial",
+      "rotas--rota-armas",
+      "rotas--rota-ferramenta"
+    ],
+    "palavras": 2601,
+    "status": "lido",
+    "observacao": "Restante do Catálogo, Aptidões e início de Rotas lidos integralmente. Item 160 aplicado em camada separada; demais procedimentos mantidos."
+  },
+  {
+    "parte": 49,
+    "blocos": [
+      "rotas--rota-passivas-marciais",
+      "rotas--rota-passivas-resposta",
+      "rotas--rota-fisga",
+      "rotas--rota-bancada",
+      "rotas--rota-invocacoes",
+      "rotas--rota-sem-tecnica",
+      "rotas--rota-sementes",
+      "rotas--rota-cura"
+    ],
+    "palavras": 2478,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 50,
+    "blocos": [
+      "rotas--rota-redoma",
+      "rotas--rota-sutura",
+      "rotas--rota-espinho",
+      "rotas--rota-lapidacao",
+      "rotas--rota-bencaos",
+      "rotas--rota-defesa",
+      "rotas--rota-estimulo",
+      "rotas--rota-corpo"
+    ],
+    "palavras": 2624,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 51,
+    "blocos": [
+      "rotas--rota-perseguicao",
+      "rotas--rota-combate",
+      "rotas--rota-propria",
+      "poderes--degraus",
+      "poderes--criardominio",
+      "poderes--acerto",
+      "poderes--protecao",
+      "poderes--abertura"
+    ],
+    "palavras": 2624,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 52,
+    "blocos": [
+      "poderes--barreira",
+      "poderes--rescaldo",
+      "poderes--sembarreiras",
+      "poderes--disputa",
+      "poderes--manterdisputa",
+      "poderes--sobreposicao",
+      "poderes--multiplos",
+      "poderes--galeriavidro"
+    ],
+    "palavras": 2570,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 53,
+    "blocos": [
+      "poderes--salatregua",
+      "poderes--confronto",
+      "ritual--ritual",
+      "ritual--rit-teste",
+      "ritual--rit-recitar",
+      "ritual--rit-melhorias",
+      "ritual--rit-beneficios",
+      "ritual--rit-parcelas"
+    ],
+    "palavras": 2517,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 54,
+    "blocos": [
+      "ritual--rit-limites",
+      "ritual--rit-ajuda",
+      "ritual--pactos",
+      "ritual--pacto-permanente",
+      "ritual--pacto-temporario",
+      "ritual--promessa",
+      "ritual--pacto-restricao",
+      "campo--inv-campo"
+    ],
+    "palavras": 2655,
+    "status": "lido",
+    "observacao": "Rotas, Domínios e Ritual/Pactos lidos integralmente. Mantidos Incompleta e 152–153. Explicitada a remissão à exceção de pacto de restrição sem vaga."
+  },
+  {
+    "parte": 55,
+    "blocos": [
+      "campo--inv-ciclo",
+      "campo--inv-entrada",
+      "campo--inv-troca",
+      "campo--inv-intencao",
+      "campo--inv-comunicacao",
+      "campo--inv-basica",
+      "campo--inv-especial",
+      "campo--inv-energia",
+      "campo--inv-antecipada"
+    ],
+    "palavras": 2611,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 56,
+    "blocos": [
+      "campo--inv-pendentes",
+      "campo--inv-preparar",
+      "campo--inv-gatilhos",
+      "campo--inv-tempo",
+      "campo--inv-restricoes-tempo",
+      "campo--inv-armado",
+      "campo--inv-defesa",
+      "campo--inv-respostas",
+      "campo--inv-talisma"
+    ],
+    "palavras": 2558,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 57,
+    "blocos": [
+      "campo--inv-corpos",
+      "campo--inv-reparo",
+      "campo--inv-liberacao",
+      "campo--inv-maxima",
+      "campo--inv-dominio",
+      "campo--inv-queda",
+      "campo--inv-retorno",
+      "campo--inv-fora"
+    ],
+    "palavras": 2676,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 58,
+    "blocos": [
+      "campo--inv-inconsciente",
+      "campo--inv-manutencao",
+      "campo--inv-morte",
+      "campo--inv-carga",
+      "construcao--entidades-criar",
+      "construcao--entidades-aquisicao",
+      "construcao--entidade-cao",
+      "construcao--entidade-cao-habilidades",
+      "construcao--entidades-lista-criacao"
+    ],
+    "palavras": 2571,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 59,
+    "blocos": [
+      "construcao--entidades-domar",
+      "construcao--entidades-tipos",
+      "construcao--entidades-definicao",
+      "construcao--entidades-atributos",
+      "construcao--entidades-vida-defesa",
+      "construcao--entidades-progressao",
+      "construcao--entidades-familias",
+      "construcao--entidades-basicas",
+      "construcao--entidades-especiais"
+    ],
+    "palavras": 2772,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 60,
+    "blocos": [
+      "construcao--entidades-formas",
+      "construcao--entidades-medidas",
+      "construcao--entidades-efeitos-reduzidos",
+      "construcao--entidades-saldo",
+      "construcao--entidades-controle",
+      "construcao--entidades-restricoes",
+      "construcao--entidades-passivas",
+      "construcao--entidades-passivas-avancadas"
+    ],
+    "palavras": 2607,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 61,
+    "blocos": [
+      "construcao--entidades-passiva-propria",
+      "construcao--entidades-ampliacao",
+      "construcao--entidade-vigia",
+      "construcao--entidade-vigia-habilidades",
+      "construcao--entidades-conferencia",
+      "fabricacao--fab-entidades",
+      "fabricacao--fab-projeto",
+      "fabricacao--fab-teste"
+    ],
+    "palavras": 2541,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 62,
+    "blocos": [
+      "fabricacao--fab-conclusao",
+      "fabricacao--fab-exemplo",
+      "consulta--consulta-missao",
+      "consulta--consulta-conduzir",
+      "consulta--consulta-glossario-1",
+      "consulta--consulta-glossario-2",
+      "consulta--consulta-glossario-3",
+      "consulta--consulta-glossario-4",
+      "consulta--consulta-glossario-5",
+      "consulta--consulta-glossario-6"
+    ],
+    "palavras": 2706,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  },
+  {
+    "parte": 63,
+    "blocos": [
+      "consulta--consulta-testes",
+      "consulta--consulta-ataques",
+      "consulta--consulta-indice-1",
+      "consulta--consulta-indice-2",
+      "consulta--consulta-indice-3",
+      "consulta--consulta-indice-4",
+      "consulta--consulta-indice-5",
+      "consulta--consulta-indice-6",
+      "consulta--consulta-indice-7",
+      "consulta--consulta-indice-8",
+      "consulta--consulta-indice-9",
+      "consulta--consulta-indice-10",
+      "consulta--consulta-indice-11"
+    ],
+    "palavras": 1082,
+    "status": "lido",
+    "observacao": "Leitura integral das regras finais de invocações, construção, fabricação, condução de mesa e consulta. Sem novos ajustes; preservadas as escolhas sobre preparação da entidade, reação e capacidade do talento."
+  }
+]

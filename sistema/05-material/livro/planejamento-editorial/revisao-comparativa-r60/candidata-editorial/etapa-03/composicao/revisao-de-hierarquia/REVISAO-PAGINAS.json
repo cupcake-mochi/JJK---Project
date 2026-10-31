@@ -1,0 +1,3359 @@
+{
+  "edicao": "R35",
+  "sha256_pdf": "3329ca5ced0b7c63d4a86506045f27c388bd090032ef7cf9db13d1510820da16",
+  "metodo": "Inspeção visual das imagens renderizadas do PDF final: 394 páginas em 33 painéis de visão geral; 188 páginas que contêm títulos tratados também ampliadas, em 94 pares. Não equivale a nova leitura integral das regras.",
+  "paginas_visao_geral": 394,
+  "paginas_ampliadas": 188,
+  "novos_defeitos_visuais_identificados_na_prova_final": [],
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "paginas/p-001.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 2,
+      "imagem": "paginas/p-002.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 3,
+      "imagem": "paginas/p-003.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 4,
+      "imagem": "paginas/p-004.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 5,
+      "imagem": "paginas/p-005.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 6,
+      "imagem": "paginas/p-006.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 7,
+      "imagem": "paginas/p-007.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 8,
+      "imagem": "paginas/p-008.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 9,
+      "imagem": "paginas/p-009.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 10,
+      "imagem": "paginas/p-010.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 11,
+      "imagem": "paginas/p-011.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-001.jpg"
+    },
+    {
+      "pagina": 12,
+      "imagem": "paginas/p-012.png",
+      "painel": "painel/g-01.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-001.jpg"
+    },
+    {
+      "pagina": 13,
+      "imagem": "paginas/p-013.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-002.jpg"
+    },
+    {
+      "pagina": 14,
+      "imagem": "paginas/p-014.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 15,
+      "imagem": "paginas/p-015.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-002.jpg"
+    },
+    {
+      "pagina": 16,
+      "imagem": "paginas/p-016.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-003.jpg"
+    },
+    {
+      "pagina": 17,
+      "imagem": "paginas/p-017.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-003.jpg"
+    },
+    {
+      "pagina": 18,
+      "imagem": "paginas/p-018.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-004.jpg"
+    },
+    {
+      "pagina": 19,
+      "imagem": "paginas/p-019.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-004.jpg"
+    },
+    {
+      "pagina": 20,
+      "imagem": "paginas/p-020.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-005.jpg"
+    },
+    {
+      "pagina": 21,
+      "imagem": "paginas/p-021.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-005.jpg"
+    },
+    {
+      "pagina": 22,
+      "imagem": "paginas/p-022.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-006.jpg"
+    },
+    {
+      "pagina": 23,
+      "imagem": "paginas/p-023.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-006.jpg"
+    },
+    {
+      "pagina": 24,
+      "imagem": "paginas/p-024.png",
+      "painel": "painel/g-02.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-007.jpg"
+    },
+    {
+      "pagina": 25,
+      "imagem": "paginas/p-025.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-007.jpg"
+    },
+    {
+      "pagina": 26,
+      "imagem": "paginas/p-026.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-008.jpg"
+    },
+    {
+      "pagina": 27,
+      "imagem": "paginas/p-027.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 28,
+      "imagem": "paginas/p-028.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-008.jpg"
+    },
+    {
+      "pagina": 29,
+      "imagem": "paginas/p-029.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-009.jpg"
+    },
+    {
+      "pagina": 30,
+      "imagem": "paginas/p-030.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-009.jpg"
+    },
+    {
+      "pagina": 31,
+      "imagem": "paginas/p-031.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-010.jpg"
+    },
+    {
+      "pagina": 32,
+      "imagem": "paginas/p-032.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-010.jpg"
+    },
+    {
+      "pagina": 33,
+      "imagem": "paginas/p-033.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-011.jpg"
+    },
+    {
+      "pagina": 34,
+      "imagem": "paginas/p-034.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-011.jpg"
+    },
+    {
+      "pagina": 35,
+      "imagem": "paginas/p-035.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 36,
+      "imagem": "paginas/p-036.png",
+      "painel": "painel/g-03.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-012.jpg"
+    },
+    {
+      "pagina": 37,
+      "imagem": "paginas/p-037.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-012.jpg"
+    },
+    {
+      "pagina": 38,
+      "imagem": "paginas/p-038.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-013.jpg"
+    },
+    {
+      "pagina": 39,
+      "imagem": "paginas/p-039.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-013.jpg"
+    },
+    {
+      "pagina": 40,
+      "imagem": "paginas/p-040.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-014.jpg"
+    },
+    {
+      "pagina": 41,
+      "imagem": "paginas/p-041.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-014.jpg"
+    },
+    {
+      "pagina": 42,
+      "imagem": "paginas/p-042.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-015.jpg"
+    },
+    {
+      "pagina": 43,
+      "imagem": "paginas/p-043.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 44,
+      "imagem": "paginas/p-044.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 45,
+      "imagem": "paginas/p-045.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 46,
+      "imagem": "paginas/p-046.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-015.jpg"
+    },
+    {
+      "pagina": 47,
+      "imagem": "paginas/p-047.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-016.jpg"
+    },
+    {
+      "pagina": 48,
+      "imagem": "paginas/p-048.png",
+      "painel": "painel/g-04.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 49,
+      "imagem": "paginas/p-049.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-016.jpg"
+    },
+    {
+      "pagina": 50,
+      "imagem": "paginas/p-050.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-017.jpg"
+    },
+    {
+      "pagina": 51,
+      "imagem": "paginas/p-051.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-017.jpg"
+    },
+    {
+      "pagina": 52,
+      "imagem": "paginas/p-052.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-018.jpg"
+    },
+    {
+      "pagina": 53,
+      "imagem": "paginas/p-053.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 54,
+      "imagem": "paginas/p-054.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-018.jpg"
+    },
+    {
+      "pagina": 55,
+      "imagem": "paginas/p-055.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-019.jpg"
+    },
+    {
+      "pagina": 56,
+      "imagem": "paginas/p-056.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-019.jpg"
+    },
+    {
+      "pagina": 57,
+      "imagem": "paginas/p-057.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 58,
+      "imagem": "paginas/p-058.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-020.jpg",
+      "observacao": "Recuperação e Exaustão e Integridade distinguem-se como subtópicos."
+    },
+    {
+      "pagina": 59,
+      "imagem": "paginas/p-059.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-020.jpg"
+    },
+    {
+      "pagina": 60,
+      "imagem": "paginas/p-060.png",
+      "painel": "painel/g-05.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 61,
+      "imagem": "paginas/p-061.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 62,
+      "imagem": "paginas/p-062.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 63,
+      "imagem": "paginas/p-063.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 64,
+      "imagem": "paginas/p-064.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 65,
+      "imagem": "paginas/p-065.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 66,
+      "imagem": "paginas/p-066.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-021.jpg"
+    },
+    {
+      "pagina": 67,
+      "imagem": "paginas/p-067.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-021.jpg"
+    },
+    {
+      "pagina": 68,
+      "imagem": "paginas/p-068.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 69,
+      "imagem": "paginas/p-069.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 70,
+      "imagem": "paginas/p-070.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 71,
+      "imagem": "paginas/p-071.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 72,
+      "imagem": "paginas/p-072.png",
+      "painel": "painel/g-06.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-022.jpg"
+    },
+    {
+      "pagina": 73,
+      "imagem": "paginas/p-073.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 74,
+      "imagem": "paginas/p-074.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-022.jpg"
+    },
+    {
+      "pagina": 75,
+      "imagem": "paginas/p-075.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-023.jpg"
+    },
+    {
+      "pagina": 76,
+      "imagem": "paginas/p-076.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-023.jpg"
+    },
+    {
+      "pagina": 77,
+      "imagem": "paginas/p-077.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 78,
+      "imagem": "paginas/p-078.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-024.jpg"
+    },
+    {
+      "pagina": 79,
+      "imagem": "paginas/p-079.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-024.jpg"
+    },
+    {
+      "pagina": 80,
+      "imagem": "paginas/p-080.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 81,
+      "imagem": "paginas/p-081.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 82,
+      "imagem": "paginas/p-082.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-025.jpg"
+    },
+    {
+      "pagina": 83,
+      "imagem": "paginas/p-083.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-025.jpg",
+      "observacao": "Abertura do grupo ligada às primeiras entradas; removida folga excessiva da primeira prova."
+    },
+    {
+      "pagina": 84,
+      "imagem": "paginas/p-084.png",
+      "painel": "painel/g-07.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 85,
+      "imagem": "paginas/p-085.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-026.jpg"
+    },
+    {
+      "pagina": 86,
+      "imagem": "paginas/p-086.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-026.jpg"
+    },
+    {
+      "pagina": 87,
+      "imagem": "paginas/p-087.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 88,
+      "imagem": "paginas/p-088.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-027.jpg"
+    },
+    {
+      "pagina": 89,
+      "imagem": "paginas/p-089.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 90,
+      "imagem": "paginas/p-090.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 91,
+      "imagem": "paginas/p-091.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-027.jpg"
+    },
+    {
+      "pagina": 92,
+      "imagem": "paginas/p-092.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-028.jpg"
+    },
+    {
+      "pagina": 93,
+      "imagem": "paginas/p-093.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-028.jpg"
+    },
+    {
+      "pagina": 94,
+      "imagem": "paginas/p-094.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-029.jpg"
+    },
+    {
+      "pagina": 95,
+      "imagem": "paginas/p-095.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-029.jpg"
+    },
+    {
+      "pagina": 96,
+      "imagem": "paginas/p-096.png",
+      "painel": "painel/g-08.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-030.jpg"
+    },
+    {
+      "pagina": 97,
+      "imagem": "paginas/p-097.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-030.jpg"
+    },
+    {
+      "pagina": 98,
+      "imagem": "paginas/p-098.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 99,
+      "imagem": "paginas/p-099.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-031.jpg"
+    },
+    {
+      "pagina": 100,
+      "imagem": "paginas/p-100.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-031.jpg"
+    },
+    {
+      "pagina": 101,
+      "imagem": "paginas/p-101.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-032.jpg"
+    },
+    {
+      "pagina": 102,
+      "imagem": "paginas/p-102.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-032.jpg"
+    },
+    {
+      "pagina": 103,
+      "imagem": "paginas/p-103.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-033.jpg"
+    },
+    {
+      "pagina": 104,
+      "imagem": "paginas/p-104.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-033.jpg"
+    },
+    {
+      "pagina": 105,
+      "imagem": "paginas/p-105.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-034.jpg"
+    },
+    {
+      "pagina": 106,
+      "imagem": "paginas/p-106.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-034.jpg"
+    },
+    {
+      "pagina": 107,
+      "imagem": "paginas/p-107.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-035.jpg"
+    },
+    {
+      "pagina": 108,
+      "imagem": "paginas/p-108.png",
+      "painel": "painel/g-09.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-035.jpg"
+    },
+    {
+      "pagina": 109,
+      "imagem": "paginas/p-109.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-036.jpg"
+    },
+    {
+      "pagina": 110,
+      "imagem": "paginas/p-110.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 111,
+      "imagem": "paginas/p-111.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-036.jpg"
+    },
+    {
+      "pagina": 112,
+      "imagem": "paginas/p-112.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 113,
+      "imagem": "paginas/p-113.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-037.jpg"
+    },
+    {
+      "pagina": 114,
+      "imagem": "paginas/p-114.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-037.jpg"
+    },
+    {
+      "pagina": 115,
+      "imagem": "paginas/p-115.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-038.jpg"
+    },
+    {
+      "pagina": 116,
+      "imagem": "paginas/p-116.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-038.jpg"
+    },
+    {
+      "pagina": 117,
+      "imagem": "paginas/p-117.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-039.jpg"
+    },
+    {
+      "pagina": 118,
+      "imagem": "paginas/p-118.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-039.jpg"
+    },
+    {
+      "pagina": 119,
+      "imagem": "paginas/p-119.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-040.jpg"
+    },
+    {
+      "pagina": 120,
+      "imagem": "paginas/p-120.png",
+      "painel": "painel/g-10.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-040.jpg"
+    },
+    {
+      "pagina": 121,
+      "imagem": "paginas/p-121.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-041.jpg"
+    },
+    {
+      "pagina": 122,
+      "imagem": "paginas/p-122.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-041.jpg"
+    },
+    {
+      "pagina": 123,
+      "imagem": "paginas/p-123.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-042.jpg",
+      "observacao": "Socorro de emergência e primeira habilidade juntos; habilidade seguinte na coluna direita."
+    },
+    {
+      "pagina": 124,
+      "imagem": "paginas/p-124.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 125,
+      "imagem": "paginas/p-125.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-042.jpg"
+    },
+    {
+      "pagina": 126,
+      "imagem": "paginas/p-126.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-043.jpg"
+    },
+    {
+      "pagina": 127,
+      "imagem": "paginas/p-127.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-043.jpg"
+    },
+    {
+      "pagina": 128,
+      "imagem": "paginas/p-128.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-044.jpg"
+    },
+    {
+      "pagina": 129,
+      "imagem": "paginas/p-129.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-044.jpg"
+    },
+    {
+      "pagina": 130,
+      "imagem": "paginas/p-130.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-045.jpg"
+    },
+    {
+      "pagina": 131,
+      "imagem": "paginas/p-131.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-045.jpg"
+    },
+    {
+      "pagina": 132,
+      "imagem": "paginas/p-132.png",
+      "painel": "painel/g-11.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-046.jpg"
+    },
+    {
+      "pagina": 133,
+      "imagem": "paginas/p-133.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-046.jpg"
+    },
+    {
+      "pagina": 134,
+      "imagem": "paginas/p-134.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-047.jpg"
+    },
+    {
+      "pagina": 135,
+      "imagem": "paginas/p-135.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-047.jpg"
+    },
+    {
+      "pagina": 136,
+      "imagem": "paginas/p-136.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 137,
+      "imagem": "paginas/p-137.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-048.jpg"
+    },
+    {
+      "pagina": 138,
+      "imagem": "paginas/p-138.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-048.jpg"
+    },
+    {
+      "pagina": 139,
+      "imagem": "paginas/p-139.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-049.jpg"
+    },
+    {
+      "pagina": 140,
+      "imagem": "paginas/p-140.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-049.jpg"
+    },
+    {
+      "pagina": 141,
+      "imagem": "paginas/p-141.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 142,
+      "imagem": "paginas/p-142.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-050.jpg"
+    },
+    {
+      "pagina": 143,
+      "imagem": "paginas/p-143.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-050.jpg"
+    },
+    {
+      "pagina": 144,
+      "imagem": "paginas/p-144.png",
+      "painel": "painel/g-12.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-051.jpg"
+    },
+    {
+      "pagina": 145,
+      "imagem": "paginas/p-145.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-051.jpg"
+    },
+    {
+      "pagina": 146,
+      "imagem": "paginas/p-146.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-052.jpg"
+    },
+    {
+      "pagina": 147,
+      "imagem": "paginas/p-147.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-052.jpg",
+      "observacao": "Aprimoramentos de Parceria junto da introdução completa e do início de Acompanhar a Especial."
+    },
+    {
+      "pagina": 148,
+      "imagem": "paginas/p-148.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-053.jpg",
+      "observacao": "Exemplos com marca lateral; Especial e golpe do dono em estilo menor, sem sublinhado."
+    },
+    {
+      "pagina": 149,
+      "imagem": "paginas/p-149.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-053.jpg"
+    },
+    {
+      "pagina": 150,
+      "imagem": "paginas/p-150.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 151,
+      "imagem": "paginas/p-151.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-054.jpg"
+    },
+    {
+      "pagina": 152,
+      "imagem": "paginas/p-152.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-054.jpg"
+    },
+    {
+      "pagina": 153,
+      "imagem": "paginas/p-153.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-055.jpg"
+    },
+    {
+      "pagina": 154,
+      "imagem": "paginas/p-154.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-055.jpg"
+    },
+    {
+      "pagina": 155,
+      "imagem": "paginas/p-155.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-056.jpg",
+      "observacao": "Aprimoramentos Distribuídos inicia com sua regra na mesma coluna; texto longo continua à direita e exemplo na página seguinte."
+    },
+    {
+      "pagina": 156,
+      "imagem": "paginas/p-156.png",
+      "painel": "painel/g-13.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-056.jpg"
+    },
+    {
+      "pagina": 157,
+      "imagem": "paginas/p-157.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-057.jpg"
+    },
+    {
+      "pagina": 158,
+      "imagem": "paginas/p-158.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-057.jpg"
+    },
+    {
+      "pagina": 159,
+      "imagem": "paginas/p-159.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-058.jpg"
+    },
+    {
+      "pagina": 160,
+      "imagem": "paginas/p-160.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-058.jpg"
+    },
+    {
+      "pagina": 161,
+      "imagem": "paginas/p-161.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-059.jpg"
+    },
+    {
+      "pagina": 162,
+      "imagem": "paginas/p-162.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-059.jpg"
+    },
+    {
+      "pagina": 163,
+      "imagem": "paginas/p-163.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-060.jpg"
+    },
+    {
+      "pagina": 164,
+      "imagem": "paginas/p-164.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-060.jpg"
+    },
+    {
+      "pagina": 165,
+      "imagem": "paginas/p-165.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-061.jpg"
+    },
+    {
+      "pagina": 166,
+      "imagem": "paginas/p-166.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-061.jpg"
+    },
+    {
+      "pagina": 167,
+      "imagem": "paginas/p-167.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-062.jpg"
+    },
+    {
+      "pagina": 168,
+      "imagem": "paginas/p-168.png",
+      "painel": "painel/g-14.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-062.jpg"
+    },
+    {
+      "pagina": 169,
+      "imagem": "paginas/p-169.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-063.jpg"
+    },
+    {
+      "pagina": 170,
+      "imagem": "paginas/p-170.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-063.jpg"
+    },
+    {
+      "pagina": 171,
+      "imagem": "paginas/p-171.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-064.jpg"
+    },
+    {
+      "pagina": 172,
+      "imagem": "paginas/p-172.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-064.jpg"
+    },
+    {
+      "pagina": 173,
+      "imagem": "paginas/p-173.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-065.jpg"
+    },
+    {
+      "pagina": 174,
+      "imagem": "paginas/p-174.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 175,
+      "imagem": "paginas/p-175.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 176,
+      "imagem": "paginas/p-176.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-065.jpg"
+    },
+    {
+      "pagina": 177,
+      "imagem": "paginas/p-177.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 178,
+      "imagem": "paginas/p-178.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 179,
+      "imagem": "paginas/p-179.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 180,
+      "imagem": "paginas/p-180.png",
+      "painel": "painel/g-15.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 181,
+      "imagem": "paginas/p-181.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 182,
+      "imagem": "paginas/p-182.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 183,
+      "imagem": "paginas/p-183.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 184,
+      "imagem": "paginas/p-184.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 185,
+      "imagem": "paginas/p-185.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 186,
+      "imagem": "paginas/p-186.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 187,
+      "imagem": "paginas/p-187.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 188,
+      "imagem": "paginas/p-188.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 189,
+      "imagem": "paginas/p-189.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 190,
+      "imagem": "paginas/p-190.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 191,
+      "imagem": "paginas/p-191.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 192,
+      "imagem": "paginas/p-192.png",
+      "painel": "painel/g-16.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 193,
+      "imagem": "paginas/p-193.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 194,
+      "imagem": "paginas/p-194.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 195,
+      "imagem": "paginas/p-195.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 196,
+      "imagem": "paginas/p-196.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 197,
+      "imagem": "paginas/p-197.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 198,
+      "imagem": "paginas/p-198.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 199,
+      "imagem": "paginas/p-199.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 200,
+      "imagem": "paginas/p-200.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 201,
+      "imagem": "paginas/p-201.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 202,
+      "imagem": "paginas/p-202.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 203,
+      "imagem": "paginas/p-203.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 204,
+      "imagem": "paginas/p-204.png",
+      "painel": "painel/g-17.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 205,
+      "imagem": "paginas/p-205.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 206,
+      "imagem": "paginas/p-206.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 207,
+      "imagem": "paginas/p-207.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 208,
+      "imagem": "paginas/p-208.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 209,
+      "imagem": "paginas/p-209.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 210,
+      "imagem": "paginas/p-210.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 211,
+      "imagem": "paginas/p-211.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 212,
+      "imagem": "paginas/p-212.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-066.jpg"
+    },
+    {
+      "pagina": 213,
+      "imagem": "paginas/p-213.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 214,
+      "imagem": "paginas/p-214.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 215,
+      "imagem": "paginas/p-215.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 216,
+      "imagem": "paginas/p-216.png",
+      "painel": "painel/g-18.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 217,
+      "imagem": "paginas/p-217.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 218,
+      "imagem": "paginas/p-218.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 219,
+      "imagem": "paginas/p-219.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 220,
+      "imagem": "paginas/p-220.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 221,
+      "imagem": "paginas/p-221.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 222,
+      "imagem": "paginas/p-222.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 223,
+      "imagem": "paginas/p-223.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 224,
+      "imagem": "paginas/p-224.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 225,
+      "imagem": "paginas/p-225.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 226,
+      "imagem": "paginas/p-226.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 227,
+      "imagem": "paginas/p-227.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 228,
+      "imagem": "paginas/p-228.png",
+      "painel": "painel/g-19.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 229,
+      "imagem": "paginas/p-229.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 230,
+      "imagem": "paginas/p-230.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 231,
+      "imagem": "paginas/p-231.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 232,
+      "imagem": "paginas/p-232.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 233,
+      "imagem": "paginas/p-233.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 234,
+      "imagem": "paginas/p-234.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 235,
+      "imagem": "paginas/p-235.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 236,
+      "imagem": "paginas/p-236.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 237,
+      "imagem": "paginas/p-237.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 238,
+      "imagem": "paginas/p-238.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 239,
+      "imagem": "paginas/p-239.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 240,
+      "imagem": "paginas/p-240.png",
+      "painel": "painel/g-20.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 241,
+      "imagem": "paginas/p-241.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 242,
+      "imagem": "paginas/p-242.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 243,
+      "imagem": "paginas/p-243.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 244,
+      "imagem": "paginas/p-244.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 245,
+      "imagem": "paginas/p-245.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 246,
+      "imagem": "paginas/p-246.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 247,
+      "imagem": "paginas/p-247.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 248,
+      "imagem": "paginas/p-248.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 249,
+      "imagem": "paginas/p-249.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 250,
+      "imagem": "paginas/p-250.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-066.jpg"
+    },
+    {
+      "pagina": 251,
+      "imagem": "paginas/p-251.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 252,
+      "imagem": "paginas/p-252.png",
+      "painel": "painel/g-21.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 253,
+      "imagem": "paginas/p-253.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 254,
+      "imagem": "paginas/p-254.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 255,
+      "imagem": "paginas/p-255.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-067.jpg"
+    },
+    {
+      "pagina": 256,
+      "imagem": "paginas/p-256.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-067.jpg"
+    },
+    {
+      "pagina": 257,
+      "imagem": "paginas/p-257.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-068.jpg"
+    },
+    {
+      "pagina": 258,
+      "imagem": "paginas/p-258.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-068.jpg"
+    },
+    {
+      "pagina": 259,
+      "imagem": "paginas/p-259.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 260,
+      "imagem": "paginas/p-260.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 261,
+      "imagem": "paginas/p-261.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 262,
+      "imagem": "paginas/p-262.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 263,
+      "imagem": "paginas/p-263.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 264,
+      "imagem": "paginas/p-264.png",
+      "painel": "painel/g-22.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 265,
+      "imagem": "paginas/p-265.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "observacao": "Família Controle acompanhada da entrada Condição na mesma coluna."
+    },
+    {
+      "pagina": 266,
+      "imagem": "paginas/p-266.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 267,
+      "imagem": "paginas/p-267.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 268,
+      "imagem": "paginas/p-268.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-069.jpg"
+    },
+    {
+      "pagina": 269,
+      "imagem": "paginas/p-269.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 270,
+      "imagem": "paginas/p-270.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 271,
+      "imagem": "paginas/p-271.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-069.jpg"
+    },
+    {
+      "pagina": 272,
+      "imagem": "paginas/p-272.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 273,
+      "imagem": "paginas/p-273.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 274,
+      "imagem": "paginas/p-274.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 275,
+      "imagem": "paginas/p-275.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 276,
+      "imagem": "paginas/p-276.png",
+      "painel": "painel/g-23.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 277,
+      "imagem": "paginas/p-277.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 278,
+      "imagem": "paginas/p-278.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 279,
+      "imagem": "paginas/p-279.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 280,
+      "imagem": "paginas/p-280.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-070.jpg"
+    },
+    {
+      "pagina": 281,
+      "imagem": "paginas/p-281.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 282,
+      "imagem": "paginas/p-282.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 283,
+      "imagem": "paginas/p-283.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 284,
+      "imagem": "paginas/p-284.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 285,
+      "imagem": "paginas/p-285.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 286,
+      "imagem": "paginas/p-286.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-070.jpg"
+    },
+    {
+      "pagina": 287,
+      "imagem": "paginas/p-287.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-071.jpg"
+    },
+    {
+      "pagina": 288,
+      "imagem": "paginas/p-288.png",
+      "painel": "painel/g-24.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-071.jpg"
+    },
+    {
+      "pagina": 289,
+      "imagem": "paginas/p-289.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-072.jpg"
+    },
+    {
+      "pagina": 290,
+      "imagem": "paginas/p-290.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-072.jpg"
+    },
+    {
+      "pagina": 291,
+      "imagem": "paginas/p-291.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-073.jpg"
+    },
+    {
+      "pagina": 292,
+      "imagem": "paginas/p-292.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-073.jpg"
+    },
+    {
+      "pagina": 293,
+      "imagem": "paginas/p-293.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-074.jpg",
+      "observacao": "Extensão de Domínio e Duração e custo na mesma coluna direita."
+    },
+    {
+      "pagina": 294,
+      "imagem": "paginas/p-294.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-074.jpg"
+    },
+    {
+      "pagina": 295,
+      "imagem": "paginas/p-295.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-075.jpg"
+    },
+    {
+      "pagina": 296,
+      "imagem": "paginas/p-296.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-075.jpg"
+    },
+    {
+      "pagina": 297,
+      "imagem": "paginas/p-297.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 298,
+      "imagem": "paginas/p-298.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 299,
+      "imagem": "paginas/p-299.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 300,
+      "imagem": "paginas/p-300.png",
+      "painel": "painel/g-25.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-076.jpg"
+    },
+    {
+      "pagina": 301,
+      "imagem": "paginas/p-301.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-076.jpg"
+    },
+    {
+      "pagina": 302,
+      "imagem": "paginas/p-302.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-077.jpg"
+    },
+    {
+      "pagina": 303,
+      "imagem": "paginas/p-303.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 304,
+      "imagem": "paginas/p-304.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-077.jpg"
+    },
+    {
+      "pagina": 305,
+      "imagem": "paginas/p-305.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 306,
+      "imagem": "paginas/p-306.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-078.jpg"
+    },
+    {
+      "pagina": 307,
+      "imagem": "paginas/p-307.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-078.jpg"
+    },
+    {
+      "pagina": 308,
+      "imagem": "paginas/p-308.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 309,
+      "imagem": "paginas/p-309.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 310,
+      "imagem": "paginas/p-310.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 311,
+      "imagem": "paginas/p-311.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-079.jpg"
+    },
+    {
+      "pagina": 312,
+      "imagem": "paginas/p-312.png",
+      "painel": "painel/g-26.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-079.jpg"
+    },
+    {
+      "pagina": 313,
+      "imagem": "paginas/p-313.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-080.jpg"
+    },
+    {
+      "pagina": 314,
+      "imagem": "paginas/p-314.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-080.jpg"
+    },
+    {
+      "pagina": 315,
+      "imagem": "paginas/p-315.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-081.jpg"
+    },
+    {
+      "pagina": 316,
+      "imagem": "paginas/p-316.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 317,
+      "imagem": "paginas/p-317.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 318,
+      "imagem": "paginas/p-318.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 319,
+      "imagem": "paginas/p-319.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 320,
+      "imagem": "paginas/p-320.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 321,
+      "imagem": "paginas/p-321.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 322,
+      "imagem": "paginas/p-322.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 323,
+      "imagem": "paginas/p-323.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 324,
+      "imagem": "paginas/p-324.png",
+      "painel": "painel/g-27.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 325,
+      "imagem": "paginas/p-325.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 326,
+      "imagem": "paginas/p-326.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-081.jpg"
+    },
+    {
+      "pagina": 327,
+      "imagem": "paginas/p-327.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 328,
+      "imagem": "paginas/p-328.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-082.jpg"
+    },
+    {
+      "pagina": 329,
+      "imagem": "paginas/p-329.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-082.jpg"
+    },
+    {
+      "pagina": 330,
+      "imagem": "paginas/p-330.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 331,
+      "imagem": "paginas/p-331.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-083.jpg"
+    },
+    {
+      "pagina": 332,
+      "imagem": "paginas/p-332.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-083.jpg"
+    },
+    {
+      "pagina": 333,
+      "imagem": "paginas/p-333.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-084.jpg"
+    },
+    {
+      "pagina": 334,
+      "imagem": "paginas/p-334.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-084.jpg"
+    },
+    {
+      "pagina": 335,
+      "imagem": "paginas/p-335.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-085.jpg"
+    },
+    {
+      "pagina": 336,
+      "imagem": "paginas/p-336.png",
+      "painel": "painel/g-28.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-085.jpg"
+    },
+    {
+      "pagina": 337,
+      "imagem": "paginas/p-337.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 338,
+      "imagem": "paginas/p-338.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 339,
+      "imagem": "paginas/p-339.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 340,
+      "imagem": "paginas/p-340.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 341,
+      "imagem": "paginas/p-341.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 342,
+      "imagem": "paginas/p-342.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 343,
+      "imagem": "paginas/p-343.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 344,
+      "imagem": "paginas/p-344.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 345,
+      "imagem": "paginas/p-345.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-086.jpg"
+    },
+    {
+      "pagina": 346,
+      "imagem": "paginas/p-346.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 347,
+      "imagem": "paginas/p-347.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 348,
+      "imagem": "paginas/p-348.png",
+      "painel": "painel/g-29.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 349,
+      "imagem": "paginas/p-349.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-086.jpg"
+    },
+    {
+      "pagina": 350,
+      "imagem": "paginas/p-350.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 351,
+      "imagem": "paginas/p-351.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 352,
+      "imagem": "paginas/p-352.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 353,
+      "imagem": "paginas/p-353.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 354,
+      "imagem": "paginas/p-354.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 355,
+      "imagem": "paginas/p-355.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 356,
+      "imagem": "paginas/p-356.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 357,
+      "imagem": "paginas/p-357.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 358,
+      "imagem": "paginas/p-358.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-087.jpg"
+    },
+    {
+      "pagina": 359,
+      "imagem": "paginas/p-359.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-087.jpg"
+    },
+    {
+      "pagina": 360,
+      "imagem": "paginas/p-360.png",
+      "painel": "painel/g-30.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-088.jpg"
+    },
+    {
+      "pagina": 361,
+      "imagem": "paginas/p-361.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-088.jpg"
+    },
+    {
+      "pagina": 362,
+      "imagem": "paginas/p-362.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-089.jpg"
+    },
+    {
+      "pagina": 363,
+      "imagem": "paginas/p-363.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-089.jpg"
+    },
+    {
+      "pagina": 364,
+      "imagem": "paginas/p-364.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-090.jpg"
+    },
+    {
+      "pagina": 365,
+      "imagem": "paginas/p-365.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 366,
+      "imagem": "paginas/p-366.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 367,
+      "imagem": "paginas/p-367.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 368,
+      "imagem": "paginas/p-368.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-090.jpg",
+      "observacao": "Tabela larga após o par de colunas; continuidade preservada."
+    },
+    {
+      "pagina": 369,
+      "imagem": "paginas/p-369.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-091.jpg"
+    },
+    {
+      "pagina": 370,
+      "imagem": "paginas/p-370.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-091.jpg"
+    },
+    {
+      "pagina": 371,
+      "imagem": "paginas/p-371.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-092.jpg"
+    },
+    {
+      "pagina": 372,
+      "imagem": "paginas/p-372.png",
+      "painel": "painel/g-31.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-092.jpg"
+    },
+    {
+      "pagina": 373,
+      "imagem": "paginas/p-373.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-093.jpg"
+    },
+    {
+      "pagina": 374,
+      "imagem": "paginas/p-374.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-093.jpg"
+    },
+    {
+      "pagina": 375,
+      "imagem": "paginas/p-375.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 376,
+      "imagem": "paginas/p-376.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-094.jpg"
+    },
+    {
+      "pagina": 377,
+      "imagem": "paginas/p-377.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": true,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção.",
+      "dupla": "duplas/d-094.jpg"
+    },
+    {
+      "pagina": 378,
+      "imagem": "paginas/p-378.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 379,
+      "imagem": "paginas/p-379.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 380,
+      "imagem": "paginas/p-380.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 381,
+      "imagem": "paginas/p-381.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 382,
+      "imagem": "paginas/p-382.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 383,
+      "imagem": "paginas/p-383.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 384,
+      "imagem": "paginas/p-384.png",
+      "painel": "painel/g-32.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 385,
+      "imagem": "paginas/p-385.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 386,
+      "imagem": "paginas/p-386.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 387,
+      "imagem": "paginas/p-387.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 388,
+      "imagem": "paginas/p-388.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 389,
+      "imagem": "paginas/p-389.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 390,
+      "imagem": "paginas/p-390.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 391,
+      "imagem": "paginas/p-391.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 392,
+      "imagem": "paginas/p-392.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 393,
+      "imagem": "paginas/p-393.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    },
+    {
+      "pagina": 394,
+      "imagem": "paginas/p-394.png",
+      "painel": "painel/g-33.jpg",
+      "visao_geral": "conferida",
+      "inspecao_ampliada": false,
+      "resultado": "Sem novo defeito identificado no escopo da inspeção."
+    }
+  ]
+}

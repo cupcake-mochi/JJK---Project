@@ -1,0 +1,33 @@
+CICLO MALDITO R54 | 25/10/2026
+
+Revisão de clareza e ordem de apresentação.
+Base preservada: R53.
+
+414 páginas em cada edição.
+40 blocos receberam ajustes editoriais, documentados com antes e depois.
+A busca abrangeu os 576 blocos dos 21 capítulos. Houve uma rodada inicial
+e duas passagens posteriores de revisão contextual e conferência das regras.
+
+Principais ajustes:
+- Bloquear recebe explicação breve na primeira referência. As contas e os
+  exemplos de modificadores ficam depois da fórmula completa.
+- Criação explica marcante, menores, Famílias, Selo, Manejos e Katas antes
+  de pedir escolhas que dependem desses termos.
+- Morrendo apresenta janela, tratamento e Sequela antes de usar esses
+  conceitos para explicar a recuperação.
+- Emanador e Evocador apresentam o vocabulário necessário às suas habilidades.
+- Fundamento distingue pontos de montagem de PE; exemplos e exceções
+  explicam o papel das peças citadas e oferecem remissões.
+- Acerto e Efeito de domínio são definidos antes da tabela de degraus.
+- O título Montar sua aplicação acompanha o conteúdo após a ilustração.
+
+As alterações preservam a mecânica, as fontes e os tamanhos de letra.
+A paleta noturna continua Vinho e Pêssego.
+
+PDFs finais em output/pdf/.
+Registro completo: ALTERACOES-R53-para-R54.json.
+Evidências de revisão: revisao-r54/.
+Validação integral do PDF: evidencias/CONFERENCIA.json.
+
+Os arquivos estão preparados para uma atualização posterior da Vercel.
+Esta rodada não realizou commit, push ou publicação.

@@ -1,0 +1,16 @@
+{
+  "edicao": "R34",
+  "base": "R33",
+  "sha256_pdf": "6dc3abf0ce9baf317445b7ac3d09732f8111998884ddb82932371ae5f56bb38d",
+  "sha256_texto": "d61eb37340f1645c00013b3b14a50547822d99b75f3f72a98040776bb798e88b",
+  "paginas": 389,
+  "texto_identico": true,
+  "geometria_e_ordem_editorial_identicas": true,
+  "titulos_com_selo": 21,
+  "ancoras_preservadas": 1514,
+  "r33_preservada": true,
+  "artes_capas_e_creditos_preservados": true,
+  "opcoes_B_e_C_preservadas": true,
+  "alteracoes_textuais": 0,
+  "problemas": []
+}

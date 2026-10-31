@@ -1,0 +1,713 @@
+{
+  "base": "R60",
+  "mudanca_de_regras": false,
+  "texto_integral_preservado": true,
+  "navegacao_antes": [
+    {
+      "capitulo": 10,
+      "destino": "fundamento-link-montar",
+      "titulo": "Montar sua aplicação",
+      "nivel": 2,
+      "bloco": "fundamento--fundamento",
+      "cabecalho": "Montar sua aplicação"
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-link-guia-familias",
+      "titulo": "Conheça as Famílias",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--tecnica",
+      "titulo": "Sua técnica",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--primeiro",
+      "titulo": "Seu primeiro feitiço",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--familias",
+      "titulo": "Famílias",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--selo",
+      "titulo": "Selo e Talentos",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--repertorio",
+      "titulo": "Feitiços conhecidos",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--pontos",
+      "titulo": "Pontos e preços",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--funcoes",
+      "titulo": "Funções e saldo",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--formas",
+      "titulo": "Formas",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--alcance",
+      "titulo": "Alcance e área",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--conjurar",
+      "titulo": "Conjurar",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--restricoes",
+      "titulo": "Restrições",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--combinacoes",
+      "titulo": "Combinar peças",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--mesclas",
+      "titulo": "Três mesclas prontas",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--controle",
+      "titulo": "Controle",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--aplicacoes",
+      "titulo": "Outras aplicações",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--danolimites",
+      "titulo": "Dano e repetições",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--persistente",
+      "titulo": "Áreas persistentes",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--livre",
+      "titulo": "Uso Livre",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--efeito",
+      "titulo": "Efeitos fora de combate",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--ampliar",
+      "titulo": "Ampliar um feitiço",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--classezero",
+      "titulo": "Feitiços de Classe 0",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--proprio",
+      "titulo": "Efeitos próprios",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--liberacao",
+      "titulo": "Liberação Máxima",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--maxima",
+      "titulo": "Técnica Máxima",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--passagem",
+      "titulo": "Exemplo: Passagem de Papel",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--retirada",
+      "titulo": "Exemplo: Retirada de Emergência",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--ficha",
+      "titulo": "Ficha de feitiço",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento--interfaces",
+      "titulo": "Caminhos e usos especiais",
+      "nivel": 2
+    }
+  ],
+  "navegacao_depois": [
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-01",
+      "titulo": "Criar sua técnica",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-02",
+      "titulo": "Sua técnica",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-03",
+      "titulo": "Conheça as Famílias",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-04",
+      "titulo": "Selo",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-05",
+      "titulo": "Capacidades da técnica",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-06",
+      "titulo": "Expressão da técnica",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-07",
+      "titulo": "Talentos pagos",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-08",
+      "titulo": "Criar uma Regra Própria",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-09",
+      "titulo": "Montar sua aplicação",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-10",
+      "titulo": "Seu primeiro feitiço",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-11",
+      "titulo": "Montar aplicações de Classe 0",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-12",
+      "titulo": "Feitiços de Classe 0",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-13",
+      "titulo": "Consultar a montagem",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-14",
+      "titulo": "Famílias",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-15",
+      "titulo": "Feitiços conhecidos",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-16",
+      "titulo": "Pontos e preços",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-17",
+      "titulo": "Funções e saldo",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-18",
+      "titulo": "Formas",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-19",
+      "titulo": "Alcance e área",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-20",
+      "titulo": "Conjurar",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-21",
+      "titulo": "Restrições e combinações",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-22",
+      "titulo": "Restrições",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-23",
+      "titulo": "Combinar peças",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-24",
+      "titulo": "Três mesclas prontas",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-25",
+      "titulo": "Controle",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-26",
+      "titulo": "Outras aplicações",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-27",
+      "titulo": "Dano e repetições",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-28",
+      "titulo": "Áreas persistentes",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-29",
+      "titulo": "Usar a técnica fora de combate",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-30",
+      "titulo": "Uso Livre",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-31",
+      "titulo": "Efeitos fora de combate",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-32",
+      "titulo": "Desenvolver suas aplicações",
+      "nivel": 2
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-33",
+      "titulo": "Ampliar um feitiço",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-34",
+      "titulo": "Efeitos próprios",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-35",
+      "titulo": "Liberação Máxima",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-36",
+      "titulo": "Técnica Máxima",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-38",
+      "titulo": "Exemplo: Passagem de Papel",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-39",
+      "titulo": "Exemplo: Retirada de Emergência",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-40",
+      "titulo": "Ficha de feitiço",
+      "nivel": 3
+    },
+    {
+      "capitulo": 10,
+      "destino": "fundamento-nav-41",
+      "titulo": "Caminhos e usos especiais",
+      "nivel": 3
+    }
+  ],
+  "contextos": {
+    "fundamento--fundamento": {
+      "contexto": "Criar sua técnica",
+      "contextos_por_titulo": {
+        "Criar sua técnica": "Criar sua técnica"
+      }
+    },
+    "fundamento--tecnica": {
+      "contexto": "Criar sua técnica",
+      "contextos_por_titulo": {
+        "Sua técnica": "Criar sua técnica / Sua técnica",
+        "Descrição e Regra": "Criar sua técnica / Sua técnica",
+        "Registre as consequências": "Criar sua técnica / Sua técnica",
+        "Pequenas manifestações": "Criar sua técnica / Sua técnica",
+        "Se sua técnica usa entidades": "Criar sua técnica / Sua técnica",
+        "Conheça as Famílias": "Criar sua técnica / Conheça as Famílias",
+        "Fios de Tensão": "Criar sua técnica / Conheça as Famílias",
+        "Atributo da técnica": "Criar sua técnica / Conheça as Famílias",
+        "Tipos de dano": "Criar sua técnica / Conheça as Famílias"
+      }
+    },
+    "fundamento--selo": {
+      "contexto": "Criar sua técnica",
+      "contextos_por_titulo": {
+        "Selo": "Criar sua técnica / Selo",
+        "Capacidades da técnica": "Capacidades da técnica",
+        "Expressão da técnica": "Capacidades da técnica / Expressão da técnica",
+        "Talentos pagos": "Capacidades da técnica / Talentos pagos",
+        "Onde registrar sua proposta?": "Capacidades da técnica / Onde registrar sua proposta?",
+        "Criar uma Regra Própria": "Capacidades da técnica / Criar uma Regra Própria",
+        "Exemplo: aposta entre dois": "Capacidades da técnica / Criar uma Regra Própria",
+        "Uma técnica que reúne informações": "Capacidades da técnica / Criar uma Regra Própria",
+        "Montar sua aplicação": "Montar sua aplicação",
+        "Da ideia à ficha": "Montar sua aplicação / Da ideia à ficha",
+        "As palavras da montagem": "Montar sua aplicação / Da ideia à ficha",
+        "Seu repertório": "Montar sua aplicação / Da ideia à ficha",
+        "Suas escolhas ao avançar": "Montar sua aplicação / Da ideia à ficha",
+        "Conjurações no turno": "Montar sua aplicação / Da ideia à ficha",
+        "Um caminho curto para começar": "Montar sua aplicação / Da ideia à ficha"
+      }
+    },
+    "fundamento--primeiro": {
+      "contexto": "Montar sua aplicação",
+      "contextos_por_titulo": {
+        "Seu primeiro feitiço": "Montar sua aplicação / Seu primeiro feitiço",
+        "Escolha a Classe": "Montar sua aplicação / Seu primeiro feitiço",
+        "Defina as funções": "Montar sua aplicação / Seu primeiro feitiço",
+        "Escolha a Forma": "Montar sua aplicação / Seu primeiro feitiço",
+        "Compre a Melhoria": "Montar sua aplicação / Seu primeiro feitiço",
+        "Confira o saldo": "Montar sua aplicação / Seu primeiro feitiço",
+        "Registre a ficha": "Montar sua aplicação / Seu primeiro feitiço",
+        "Use durante a sessão": "Montar sua aplicação / Seu primeiro feitiço",
+        "Outras rotas": "Montar sua aplicação / Outras rotas",
+        "Montar aplicações de Classe 0": "Montar aplicações de Classe 0"
+      }
+    },
+    "fundamento--classezero": {
+      "contexto": "Montar aplicações de Classe 0",
+      "contextos_por_titulo": {
+        "Feitiços de Classe 0": "Montar aplicações de Classe 0 / Feitiços de Classe 0",
+        "Uma Melhoria": "Montar aplicações de Classe 0 / Feitiços de Classe 0",
+        "Aplicações sem dano": "Montar aplicações de Classe 0 / Feitiços de Classe 0",
+        "Uso e progressão": "Montar aplicações de Classe 0 / Feitiços de Classe 0",
+        "Consultar a montagem": "Consultar a montagem"
+      }
+    },
+    "fundamento--familias": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Famílias": "Consultar a montagem / Famílias",
+        "Famílias Livres": "Consultar a montagem / Famílias",
+        "Famílias Fechadas": "Consultar a montagem / Famílias"
+      }
+    },
+    "fundamento--repertorio": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Feitiços conhecidos": "Consultar a montagem / Feitiços conhecidos",
+        "Invocação por espaço": "Consultar a montagem / Feitiços conhecidos",
+        "Fora da conta": "Consultar a montagem / Feitiços conhecidos",
+        "Revisar um feitiço conhecido": "Consultar a montagem / Feitiços conhecidos"
+      }
+    },
+    "fundamento--pontos": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Pontos e preços": "Consultar a montagem / Pontos e preços",
+        "Quantidade de peças": "Consultar a montagem / Pontos e preços",
+        "Cálculo dos pontos": "Consultar a montagem / Pontos e preços"
+      }
+    },
+    "fundamento--funcoes": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Funções e saldo": "Consultar a montagem / Funções e saldo",
+        "Escolha o destino do saldo": "Consultar a montagem / Funções e saldo",
+        "Cura e vida temporária": "Consultar a montagem / Funções e saldo"
+      }
+    },
+    "fundamento--formas": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Formas": "Consultar a montagem / Formas",
+        "Toque, Aura e proximidade": "Consultar a montagem / Formas",
+        "O que uma área distribui": "Consultar a montagem / Formas",
+        "Fora de combate": "Consultar a montagem / Formas"
+      }
+    },
+    "fundamento--alcance": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Alcance e área": "Consultar a montagem / Alcance e área",
+        "Aumentos": "Consultar a montagem / Alcance e área"
+      }
+    },
+    "fundamento--conjurar": {
+      "contexto": "Consultar a montagem",
+      "contextos_por_titulo": {
+        "Conjurar": "Consultar a montagem / Conjurar",
+        "Atributo, ataque e CD": "Consultar a montagem / Conjurar",
+        "Resultados": "Consultar a montagem / Conjurar",
+        "Ação e duração": "Consultar a montagem / Conjurar",
+        "Restrições e combinações": "Restrições e combinações"
+      }
+    },
+    "fundamento--restricoes": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Restrições": "Restrições e combinações / Restrições",
+        "Escolha uma dificuldade real": "Restrições e combinações / Restrições",
+        "Combinações": "Restrições e combinações / Restrições",
+        "Revisão": "Restrições e combinações / Restrições"
+      }
+    },
+    "fundamento--combinacoes": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Combinar peças": "Restrições e combinações / Combinar peças",
+        "O que fica na ficha": "Restrições e combinações / Combinar peças"
+      }
+    },
+    "fundamento--mesclas": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Três mesclas prontas": "Restrições e combinações / Três mesclas prontas",
+        "Ferir e recuperar": "Restrições e combinações / Três mesclas prontas",
+        "Quando um efeito depende de outro": "Restrições e combinações / Três mesclas prontas",
+        "Pulso de renovação": "Restrições e combinações / Três mesclas prontas",
+        "Recompor e guardar": "Restrições e combinações / Três mesclas prontas",
+        "Alvos, ataques e áreas": "Restrições e combinações / Três mesclas prontas",
+        "Compatibilidade": "Restrições e combinações / Três mesclas prontas"
+      }
+    },
+    "fundamento--controle": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Controle": "Restrições e combinações / Controle",
+        "Dano e duração": "Restrições e combinações / Controle",
+        "Rede de contenção": "Restrições e combinações / Controle"
+      }
+    },
+    "fundamento--aplicacoes": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Outras aplicações": "Restrições e combinações / Outras aplicações",
+        "Travessia por um fio": "Restrições e combinações / Outras aplicações",
+        "Divisória de fios": "Restrições e combinações / Outras aplicações",
+        "Socorro durante a retirada": "Restrições e combinações / Outras aplicações"
+      }
+    },
+    "fundamento--danolimites": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Dano e repetições": "Restrições e combinações / Dano e repetições",
+        "Áreas e ataques divididos": "Restrições e combinações / Dano e repetições",
+        "Dados adicionais da própria montagem": "Restrições e combinações / Dano e repetições"
+      }
+    },
+    "fundamento--persistente": {
+      "contexto": "Restrições e combinações",
+      "contextos_por_titulo": {
+        "Áreas persistentes": "Restrições e combinações / Áreas persistentes",
+        "Duração e resolução": "Restrições e combinações / Áreas persistentes",
+        "Exemplo de permanência": "Restrições e combinações / Áreas persistentes",
+        "Usar a técnica fora de combate": "Usar a técnica fora de combate"
+      }
+    },
+    "fundamento--livre": {
+      "contexto": "Usar a técnica fora de combate",
+      "contextos_por_titulo": {
+        "Uso Livre": "Usar a técnica fora de combate / Uso Livre",
+        "Aplicações livres": "Usar a técnica fora de combate / Uso Livre",
+        "Informação e obstáculos": "Usar a técnica fora de combate / Uso Livre",
+        "Quando preparar um feitiço": "Usar a técnica fora de combate / Uso Livre"
+      }
+    },
+    "fundamento--efeito": {
+      "contexto": "Usar a técnica fora de combate",
+      "contextos_por_titulo": {
+        "Efeitos fora de combate": "Usar a técnica fora de combate / Efeitos fora de combate",
+        "Oposição": "Usar a técnica fora de combate / Efeitos fora de combate",
+        "Ficha da aplicação": "Usar a técnica fora de combate / Efeitos fora de combate",
+        "Desenvolver suas aplicações": "Desenvolver suas aplicações"
+      }
+    },
+    "fundamento--ampliar": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Ampliar um feitiço": "Desenvolver suas aplicações / Ampliar um feitiço",
+        "Corte Medido": "Desenvolver suas aplicações / Ampliar um feitiço",
+        "Medidas e limites": "Desenvolver suas aplicações / Ampliar um feitiço",
+        "Mesclas em Classes maiores": "Desenvolver suas aplicações / Ampliar um feitiço",
+        "Nova versão": "Desenvolver suas aplicações / Ampliar um feitiço"
+      }
+    },
+    "fundamento--proprio": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Efeitos próprios": "Desenvolver suas aplicações / Efeitos próprios",
+        "Da ideia à regra": "Desenvolver suas aplicações / Efeitos próprios",
+        "Preço e comparação": "Desenvolver suas aplicações / Efeitos próprios",
+        "Exemplo de acordo: Travessia de papel": "Desenvolver suas aplicações / Efeitos próprios",
+        "Registro e repetição": "Desenvolver suas aplicações / Efeitos próprios"
+      }
+    },
+    "fundamento--liberacao": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Liberação Máxima": "Desenvolver suas aplicações / Liberação Máxima",
+        "Custo e uso": "Desenvolver suas aplicações / Liberação Máxima",
+        "Exemplo: Corte de ruptura": "Desenvolver suas aplicações / Liberação Máxima",
+        "Progressão": "Desenvolver suas aplicações / Liberação Máxima"
+      }
+    },
+    "fundamento--maxima": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Técnica Máxima": "Desenvolver suas aplicações / Técnica Máxima",
+        "Montagem": "Desenvolver suas aplicações / Técnica Máxima",
+        "Ação e recarga": "Desenvolver suas aplicações / Técnica Máxima",
+        "Restrições": "Desenvolver suas aplicações / Técnica Máxima",
+        "Ataque, cura e utilidade": "Desenvolver suas aplicações / Técnica Máxima",
+        "Dano ou cura": "Desenvolver suas aplicações / Técnica Máxima",
+        "Um ataque com outra função": "Desenvolver suas aplicações / Técnica Máxima",
+        "Aplicação sem dano": "Desenvolver suas aplicações / Técnica Máxima",
+        "Melhorias da Técnica Máxima": "Desenvolver suas aplicações / Técnica Máxima",
+        "Efeito próprio em combate": "Desenvolver suas aplicações / Técnica Máxima",
+        "Progressão": "Desenvolver suas aplicações / Técnica Máxima"
+      }
+    },
+    "fundamento--passagem": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Exemplo: Passagem de Papel": "Desenvolver suas aplicações / Exemplo: Passagem de Papel",
+        "Montagem": "Desenvolver suas aplicações / Exemplo: Passagem de Papel",
+        "Limites": "Desenvolver suas aplicações / Exemplo: Passagem de Papel",
+        "Em uma missão": "Desenvolver suas aplicações / Exemplo: Passagem de Papel"
+      }
+    },
+    "fundamento--retirada": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Exemplo: Retirada de Emergência": "Desenvolver suas aplicações / Exemplo: Retirada de Emergência",
+        "Montagem e uso": "Desenvolver suas aplicações / Exemplo: Retirada de Emergência",
+        "Limites do movimento": "Desenvolver suas aplicações / Exemplo: Retirada de Emergência",
+        "Benefícios da Máxima": "Desenvolver suas aplicações / Exemplo: Retirada de Emergência"
+      }
+    },
+    "fundamento--ficha": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Ficha de feitiço": "Desenvolver suas aplicações / Ficha de feitiço",
+        "Conferência antes da sessão": "Desenvolver suas aplicações / Ficha de feitiço"
+      }
+    },
+    "fundamento--interfaces": {
+      "contexto": "Desenvolver suas aplicações",
+      "contextos_por_titulo": {
+        "Caminhos e usos especiais": "Desenvolver suas aplicações / Caminhos e usos especiais"
+      }
+    }
+  }
+}

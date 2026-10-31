@@ -1,0 +1,30 @@
+{
+  "versao": "R56",
+  "base": "R55 preservada",
+  "paginas": 414,
+  "pdfs": [
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r56/output/pdf/Ciclo-Maldito-R56.pdf",
+      "sha256": "fcabdf2852e62204309b468587f0392e5f761d989544d9a12d33be5db94f9721"
+    },
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r56/output/pdf/Ciclo-Maldito-R56-Noturno-Vinho-e-Pessego.pdf",
+      "sha256": "00a79fee809a739b6fdef6f582cd940aaf9a08536abcc28806878f3fbb056283"
+    }
+  ],
+  "revisoes_visuais_completas": 2,
+  "checagens_clara": 121935,
+  "checagens_noturna": 1728,
+  "problemas_automaticos": 0,
+  "alteracoes_textuais": 1,
+  "regras_alteradas": false,
+  "fontes_e_tamanhos_preservados": true,
+  "publicado_no_git": false,
+  "publicado_na_vercel": false,
+  "paginas_antes": 415,
+  "desequilibrios_grandes_antes": 23,
+  "desequilibrios_grandes_depois": 2,
+  "espacos_internos_acima_de_um_terco_antes": 27,
+  "espacos_internos_acima_de_um_terco_depois": 20,
+  "limite_da_revisao": "Inspeção editorial e visual não garante ausência absoluta de erros. Os espaços remanescentes avaliados estão documentados."
+}

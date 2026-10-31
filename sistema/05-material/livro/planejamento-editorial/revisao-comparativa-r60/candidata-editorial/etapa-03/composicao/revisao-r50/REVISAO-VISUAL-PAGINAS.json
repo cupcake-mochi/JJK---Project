@@ -1,0 +1,3978 @@
+{
+  "sha256_pdf": "c0be8892248e80bc97720502317e1f2745ae194b0e2704923f00d93151d308e4",
+  "total_paginas": 397,
+  "passagens_integrais": 2,
+  "metodo": "Todas as páginas examinadas em painéis sequenciais de oito páginas; páginas críticas também abertas individualmente. Equivalência por hash dos PNGs confirma a composição final das páginas já inspecionadas. Não é afirmação de leitura palavra por palavra de todo o livro.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "fae6b6c7516bb462ee67630ef7717e22f863ff2dc20d982c614cff26d9d6c8f5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 2,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "d618a518e1a526fb8565fe742de03ddadfedfedff22c0e73df2a003b9dc6f916",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 3,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "2aef766037c3e7e71d15142cc227fa2f78f10664db908e29aa9448238ee58d2b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 4,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "5ac19beabe25ce782046706871b07b8caa3166eb00ee2b9601bf5ccf16d3fd5e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 5,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "6e5ae440dd86805e32390985f66860b3c98fbebcd8ce87f6cf9232de0f1647be",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 6,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "2d35e2949db28f49c9885557d83f1d8c88a4fdc17faba2b40e7cf523ad565db1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 7,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "5fbeb727f38fa18a78e5c946f77b91a3b22e64f25bbe64602663a6c241a2c960",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 8,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "453f17a93344a3fbd94c9ebe96481c59784c384b9775c1fee3ba7761f049f7e2",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-01.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 9,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "c136708654b01eb9142c7706fbab198369c980f372b43446c5ebdd6a69c75fd1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 10,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "bf640499ba7070df6f9d70d37c4541b337417af4122b8dc6692ebee1511067e4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 11,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e3c6fab24030a79b7f8011f5beea50a22fcf08a5a10c873b9444d9062cf3e661",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 12,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "956fc4cf91cf00e3846f4ca12edc8ab11cb02974d0d712f4d1f7b2533cc02b9b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 13,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "7c129fbd5d22e600f839c11abe2bbcb87c927b71b374ff837f837a933c55b074",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 14,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e66ccadcb53cbf59d4638b33e6253436e14f412be57c510a89ff913f28c7f8ab",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 15,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "cb716bb9552ce263197a37160c47b47ecadaff51b18202d8b549c2bf26d32644",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 16,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "8a2825a8d8cdb341f9afc96f27bd17b6678622719419e4385ecf75ee260581dd",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-02.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 17,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "2f8f0492d07a84dfa5ff1b96c6fc8a145e2a0042ab4c70a752ebf7a306166788",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 18,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "984ad4cd784e1de6e472b934831f0bb3406289d75f708c7f136e6124740796f7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 19,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "fcb68aa4a9622db67e69ea15adfbe155be9da72d71ff6dfecce36cec57ae7b29",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 20,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "505be7c5793000543639e24edd65bda749196d8f62c864564d44271e864d02a0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 21,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e85a37fc50b6f15b308cb0c34cd40a09305220c7ae946adcc7acaa8313ce9fdb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 22,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "19dcf4e55a08dfd6e4090b94d96a6d578ea671c69954b2722ce1d1f6766cbd79",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 23,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "022290fbe7d35f353653edaf44b5bc867f58f55341deae2357a5e55c2a24f823",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 24,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "4d4c6a1a1469e67a6630555c6c1d3fb5537c4a93234c018c598943368b68fcfc",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-03.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 25,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "666bc37307e71e53466261e97f4cda7400cd3fead55d2e08424bef33bec459cb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 26,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "6cdd67d05855610659fdf74f744ed42141698c6d2a8a746e761d82bed2a0b9f9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 27,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "ca5f872f83d61b4dc586bbeb0753bc3d2c2a7088fc52c725f86e9007ce4b00dc",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 28,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e37187afcd5d540d24d73daea0d2e3919b5fad2aa12c3c8b369507c5ac9070d5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 29,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "ca77e02d55ee6a42c0b2e99f3320bfedc2cf25e1f0eeb83295090ecf6047e394",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 30,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "350c2e9081b1beea519ac87c59ff39c34e4b3752615fa381568a3f225569ef60",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 31,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "6a487087c527ce01aeaa81f460625dbb1c725b87ce0c21632a1381c04593775f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 32,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "0a838927c9add17661a40b3cfaee9f735f3088c2b8fc18c71061e5e4456ae450",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-04.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 33,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "3d35e6170492ec0a5891e9add6d161581e77c99efcade92ffa50334bcf27638e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 34,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "3fdc645fb53d1a1a5a6737dffa34539723aa9e6f494a61b9503cf95b6da6d080",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 35,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "8f1de6406a3a0d101a4dd5ee291d2fe4a23770ae8397669b286c53c737705c80",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 36,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "462c3e5b4f9e9c09d057b1c8da5c4731da1a5d8ebf4a4d5e69fa07b3a1d32081",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 37,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "9a0db3e599afc4bb839d867284c78b893976e6ea7663084070c384742b74629c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 38,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "1133216d171060005f1f5902113dce9f11f5c21389b9830cf240f0fb323f2da3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 39,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "c74b7b1616e3db3d15c4677c884ea7fddd43a8a5676fadb3050fab917009e939",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 40,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "3d21d1a46094e547e152c38a272329114835aa6d20294c77360acbb41d51cca6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-05.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 41,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "d8c773d273d5febaf08ebf0a7c778eb38f4be10d970f6ff2e5252d3b2d89514a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 42,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "9932d83c12d56cd08e6ca0dffbe0cdbe5de88bac4e736fccf370078f4563649c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 43,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "f057b02eafffe0d3d4d773f857836057c1004f1f848bc2b8a3567f9506bee0b8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 44,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "58899767ffacad049b838fb96b7c14dd24a40c28fb29cfc8dda067851ac11eef",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 45,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "9b9535488a20665d7856537cc2f955797a773928779857d00ff15b971ab44cc0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 46,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "9cd0214a40e12bf888c49b8a98ccb3ca9c43ba6d94a192eccd0e133953172288",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 47,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "911e31726d5a8fe723113da91007942a26eb4f0197b6edb76c4433e7e1679f4e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 48,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "97cf560d15cd9c8fe305735c7c9a7a4540ebaacc14a9f41fcdd55b1df96412d9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-06.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 49,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "77686dd6141a4adfb0e0e4c8dde75815f59a0b26c51fe3088db575c70c960c8e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 50,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e78bca3414035ddb5baa3e905ae6be0bcc0a04946ba2e996eaf2f374c79395ca",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 51,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "efc1d3bf99bbd723860a784f3cdf6947f85c1ae09bc22c537440f602cec19cf6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 52,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "4451f643625ee4d864b950ff6bc2ebb911c84aba9d0739813eb6bc335feacce6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Entrada de Morrendo e distinção entre cura comum e resgate expresso legíveis."
+    },
+    {
+      "pagina": 53,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "cacfef8bffed8e31ac8a593fb1f77ea8c81b7dde08f257f198acacc19ad2eeff",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Tabela, janela e esquema completos; Aguentar começa inteiro na página seguinte."
+    },
+    {
+      "pagina": 54,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "21e51b1404e0c0d5d46db21844596bc71af6938e9ba09dcd68b2236114a5b7f9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Aguentar reunido; Insistir segue da esquerda para a direita, com exemplos na mesma página."
+    },
+    {
+      "pagina": 55,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "final",
+      "imagem_final_sha256": "ab970ca43031847fadf070a553df7c4b4c322ec87e0844ca6327c1740a87ac3d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Resgates expressos recebeu o tratamento de subtópico aprovado; tabela de Sequelas preservada."
+    },
+    {
+      "pagina": 56,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "60e3beffc9f1025de442ae706732639320970550d03a7349eab2f6230a28ba85",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-07.jpg",
+      "observacao": "Derrota, recuperação e exceção do Núcleo Dependente conferidas em ampliação."
+    },
+    {
+      "pagina": 57,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "4c090eabcc9a813cb7485bddd0a7aed6e3aeb0d09149af2367d3b0823b9d6d7d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 58,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "718b8218751743434d98e19f2df10e50354b43b5159b52fa1931bb700091c2fd",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Ordem recuperar/registrar/remover Sequelas presente na tabela e no texto."
+    },
+    {
+      "pagina": 59,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "52eb918cc94547ff98bc0ca6ffba9619202dd41567d02b299323e6825d6c6626",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 60,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "b9c1701d62a05fc576d00dec7e4e485c979101f7a32c955e1808ce2813c7ceea",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 61,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "c2d5cf4ebb0e1fab0a1e3b76974d281c01a329ea10ae7c73fa2c94bbf6483a1d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 62,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "ba3d2c327a2107de22570f93476ed2c02e6d334b275e49a5361c6d4231b1aefd",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 63,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "c85a96d2f1e0b6c735e218550405ab6591f7fd15676ff4f12c3b1873b9fdc34b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 64,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "5c7e6346884ae5a9380be76990d47ca1d125d792df29cc3376aca67bd2350d4e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-08.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 65,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "34cb185ad82825d2198f4f55f43e9932cf9bcd578607ff3a001bd595a25c0bef",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 66,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "db3ea1e6ed4ae553c8c8aa3d916ae390dc9e7159d7b46e67cfdcf915e3c14af9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 67,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "7b384fa83750b4a32015befc788343373682412b05ea08a68da80d554808133b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 68,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "d63387e6ce450cad887b7dd554fca4b123bb007c390f302532d43001d0d56539",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 69,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "e4e083c0c78cb547511dc8a30a8ac5424226050eea6f7d69c966b088f5a86450",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 70,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "86fd045cbeaebeacb1a7ca1caa8066462ebc6e5ccb7d292946d3b1dc2aa9aa4b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 71,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "9f606711c3b14bdd8d9554f4ea42a4f949b75515bbeae8896322cf55b6e49b52",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 72,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "45a11751f19c6516f1f6ab35cd3c44f39b56fe2d33c6004f400fe2b5d0b02885",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-09.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 73,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "b77264ed12532b606cf58fa1af889b549e7aa62040e84654a537e8752f66282b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 74,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "5d0a9437b293968c4fefeeeaa5fdebbebeb3f50d9b972e67b973a88ea61d4895",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 75,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "0638929b6925419a0fdcdb1bb61a3b1fc9d3b926f871828ef417fa397799ace7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 76,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "d0961fa99dba4da2fadbdf7dded6caa996dfc3c32d405981df47fc18eb1918d6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 77,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "5ff8e1639ab2759b0c247145a6f096e9d9560e92c71f7b3ea44e6253ed5f4241",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 78,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "d0c945e4187941849831a37c5c783fd505476695da2383ab614bd1e88f737c1a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Leitura a Dois termina na mesma coluna em que começa; preservada a correção anterior."
+    },
+    {
+      "pagina": 79,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "ad4f76bb946038170a8f66a757af1a58fe1b6cd5ccda4a4bfa44df6a8bf7cb90",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 80,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "segunda",
+      "imagem_final_sha256": "c4d7922f4fbde9a87fb195129017df521702316fd7450fca2cbc5bce15ee07ac",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-10.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 81,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "72b9bed759edb4489df8d69cccbbc5b09fe7fcf75d51a648a2fb440d2cdedb0c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 82,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ed75cf54bffb147bdea43f42573e817a2773e0f8995c9c360a62e0275649a066",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 83,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e55dc094fea16866c2c2321bc9c2c3ec80a348c4850d289ff55a74fb7c479b22",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Definição aprovada do Olho adicional legível; Regeneração conserva exigência de vida positiva."
+    },
+    {
+      "pagina": 84,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "final",
+      "imagem_final_sha256": "83075badd165fc03e634b868500bb23bb35dea4d3786b1dec65fd4c12cf69231",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Locomoção Adaptada inteira abaixo da tabela; nenhuma opção isolada na página seguinte."
+    },
+    {
+      "pagina": 85,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "final",
+      "imagem_final_sha256": "d17066b05a5c2cc5c48a6f29d4e3426c6718905efbd516624d1a00b98de8c476",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Recomposta após reunir Locomoção; começa em Bolsa Orgânica."
+    },
+    {
+      "pagina": 86,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "10547dfac1acde0efae31a4092278ce42ea67c76d059ef594e70d100c89078b0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 87,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "afc0836dc8a7826304a8287a67cdfc3a33908fbdb0f0af635d69f4f7c09ab630",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 88,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "cbbc788db943172c80893b0ff1d48eb3a5618063fb5cf8d1d490c6278b6d39ea",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-11.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 89,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c47646b4832d9bdb9808cccfc69b313a54be3637a7b5051da2d013e28c2b3ec7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 90,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "965de7f42c1f43024910f167c9d5c9887ec365df61c0918851011d83f7825658",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 91,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2fa1aaef6321159944a10e2362fd1862896003a5544fd04343a33f22fb2414ba",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 92,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7fbbce4872f002584ca1c367cdb010b165e5e1770991369d5d5bcdbf36a85e25",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 93,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "832b35e3f86cd6d4c6b8a9786e3f1a3bd43f14b7d3143c007cd38b6f440497ab",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 94,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8fa1047a923f5341ed0638779e248a6865e07b9c03c1ba9413cd712e8ee21ef3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 95,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8305699f68af0a44b0e1328ec76c2100d96bfd35754287254767adfca5004d07",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 96,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5fe2c58e28608da4db71561e52cdf12ec304c44cdc165ed7e349d26bd1661d8f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-12.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 97,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "691264cb6466f6ac4e5eca7e013c47875e7b16f465e4bc4726b1345048cd8e8a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 98,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e7b08e26c24e008a3888995c610bad5ba1d1006655dd6371140b6f206ef1fc83",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 99,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bff0f8d0b99df1ce13d9db3bdeed3c78c5b05f1f5004f8b946d777ba01b16293",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 100,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "db25b8e56b0b370024f9bfef51d42ab067893d73d4875d75ff9008cc59eae076",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 101,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6e825ed843e378c06d106e74e7be799e5a359fe044e9e5a971966f6655018043",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 102,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "763f63a1b8f010bad3d220d7583bb8f8db9c921371bb924caa845e47ac342f12",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 103,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "aaa5c608cd3e075d07f1f837d4fe9e209956765629f099995ecf7f5b1111ffaf",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 104,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "cd9a8f2b7b1be850f01ca14cbaa62882e1c34a665e5426765e98399f5cbf8011",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-13.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 105,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e7e9d961bd9312d58c161b4c82cbbaa7c2c8675ccc1c9c414e6d9fd1e92b403e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Muro mantém apresentação, tabela e início de Alicerce na mesma página."
+    },
+    {
+      "pagina": 106,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "efb102b1056a19b9ffb1e03c795b760c3fc300126111cb80b2ca44667c3d7002",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 107,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c49f343a269d7aff46744a7ab3fe55b9cafe4bb3a0fd494d9bf125f9dd566139",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 108,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a6a590d8677c4696ac8050bcecda5b5abd3324f9384d0b03f39d435b1466bd2a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 109,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "dd512a3c5ec8c341e7fc856bc27d7193e23447d25918c6170ec75e63a1ab61e4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 110,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8c3c5a8fb50171e5dff7b580961042843ee66be528e06e0f05feb091d2760554",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 111,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "835218c78bef029ecb08f6fb04e4309d19945cf6da5a7e29b1998ddfe240dfd4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 112,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2c2299a491a71ccf459b01fad24dea160d4c83895785e2e1c86b192ba99b3a7d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-14.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 113,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b71da82b7aea6ad04dbb10bc950cfaa659fb25cec13bb63738f2f72a4e486045",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 114,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0528935da42bf4c973ca1864dd58ed0db6dbea46b28ea4e2f913bcb8f1a6a847",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 115,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "754a9010f7aea9e770634bb9b26cc43aac319c3281194ebc30cce276023f1554",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 116,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b6d6153e1aa3cd4720f1601754718a0dea12c7a4f83f38dfc9f9c86fb774d41a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 117,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9f138b600fedfd7e96e2fbb36723a4ff04adbee738d3cf09ff46147e7852b07f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 118,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "403853ed079c916fe259d8a05762492a6c90fc511713e11b2f4fef6b76f5916e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 119,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "01550ac5ea82ec05f49751fb47882da8a390d0af3985bb18f1af3922f0753732",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 120,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bc22646ad5ec00ef1d18989efc763d652b9761b4fdeb6fed7673815f743aaa30",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-15.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 121,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "3aa0fdd5acf1793373b8d512f4970aff96d4f0322c198a7febd80314a890f43e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 122,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "507c119a293a46a7b21ca2dc8e9954137a16e322fa08f511976da05e513113e8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 123,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5c7f6815f7f402d49a46d954d8137e017fcc783f6f74674be2c9d2628ad3c7e1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 124,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7a4f70fb7fe3ca356b6669535cb2c515ee02caea74e74b98957ce48517708b9e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 125,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1ec5a46aa06e7f09add724bafbb8c0b06a7db72200a1207121f740228d0544d0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 126,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b2e88ce6d22047458757554cebd0f0d135733e3fc35e76364f006c5802aff00e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 127,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7436af03942463d695fd7bd62cbfc4fbc2bcc751f42314b45c2ca8af8fe95f6a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 128,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c77fdad0cf3c7210874219fbf8df4f2bf63e9b8a3bb67806fd9922c9f8bd0721",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-16.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 129,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5332b0351cf08b6eebfd9789d8f105562c80bde2c9c2d4441808f48bd20ef02f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 130,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f4f47f3b3d1935b5901d4ecb6b6a7e98d4d417a15c8ff1b8250b33af6ce23610",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 131,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "eaff560a2ca0afd8d7bccbddb20d2f3fe4fd45a9486eef4e18f1ebd4d8cd0b8d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 132,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b8aa8b3dc61396885d30eeb666ba03f73b6587e9d1bd82a2d8191ce8da987c7c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 133,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6cf0b5e3050f0e2ead2b762387494f654697ba3d2283e831e1f94959540361af",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 134,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c8b31877a041b1e645c07058379f11c2ea2b970be3cf0a9368215a47e3a99d4a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Ainda Há Tempo conserva gatilho de entrada; explicação prossegue na coluna direita da mesma página."
+    },
+    {
+      "pagina": 135,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2e8a734cd5b9b8d8a87b5dd7bd29609c300320c38ce333cfcba0884b8d28bd83",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 136,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7b85eb2d3d6dc22e3d76471b81c6cef39c7fa3d843ec4c601ac68a43b4d22d34",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-17.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 137,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "caa387b26b82a59a604f72b15950ac74859a4ca56b565e0768e7446c28bb44fd",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 138,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "cd0363b5401312e72d0623ab570e8bbfe4bd74c03f87ecd9d49849d5cb49f498",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 139,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4bd78ee4b69ca79668ea51cedd9593198c7e7feee4d830cd1a03808434f78a27",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 140,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f3543321aa1d9d657ed22613f5d44109bdccce7aebe6a85db2f9ebbf92a69d87",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 141,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "205656853831ee9fa07251d77af7c15e3359d9afaccd4f1b066f49040e4e2ff4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 142,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4187867c7f2818ee2167e8ab3e3a65085a944e513d9edcc5b050cde7d5e1f491",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 143,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f95490b2aac2d59934bdc9445fed77aa99b309e959c29c6b9ba7eb59b0f69220",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 144,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4d9b8cfadd081f2ac11e51265377116f2a8250ffe4d06fbc8f66a727a4b684a4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-18.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 145,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e08ade09dca2d26fdec3053acefe59bb295110b1f19d75ea0e03410cc5f82fc2",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 146,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f6a71c9d9784e04d844c84d0b445ea4fa27a839cc5f0bc3f590585a889cbb11e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 147,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "eacc30000749425b231104a3d8acd5ab386f6f8bba7f2894f1827f8eef06d878",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 148,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1ff150496b34514096eefc2f6069bbfd39e18f602a8d2403358c5d4c29701f68",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 149,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d57b6b00cb7bccbc9346b467a8c51398f1293c603aa81cf2bdcfcb642f7f54b7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 150,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a19c51f0cc46782acb286bb1d143a4ce1530f5c15a50ed494f7f5c6a95008216",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 151,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "36e1f2117172dbcbbbd43a652a6e6f02c411389280d4a8cd10f36aa7e72bd616",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 152,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ab20251399022e5243cc978290215fd67bfaf0cd259bc549822ae9096f1e67ec",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-19.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 153,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "46fe9411b1de20cbbf8c7f1f0b895759b55859c974b51e29c9db510a887d81aa",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 154,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2aaa3abab983b735b50aad35e73a6a5f05f8cc21d27dda17e350f40e31bcfc9d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 155,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1ad1a747235f7b8e5cc3abca5ae3e6dd5beb63e0cbab711a0cbf2f2bdb5be553",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 156,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "15f1f0a3bdfdb59a58d1a8cb13b53005d5b8ac3725d949fbf172c0e21e31d394",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 157,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bd3f413b660ea4dbef86f780ef3ffefd64a110a46d7f0204463242718db75690",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 158,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fd64a95c9f9f6bbf95d728c3ca8cb8e68e416989ecc02eae7daafe429109c99c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 159,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1d234dcc43b4e884282a0abbc9c758808b16422a47e8a16e416df9064190450a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 160,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4603ad57ec8cade3c71176ee7ce920d1639f4d941c6562092f5b016ed057bab6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-20.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 161,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d1af02a337284a1e54cbacf2329307bf4d2aa8d1b6fe4bc6dfa4e6e9dd0a5388",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 162,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f3bd42ad5a8ab6a3f8f40bc46f06ad0e0a6382d15f89b8355aeea3926f74459b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 163,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "32cd1e17e612571647258293e50a96c296235d9f0d8b8ea024f207066a23a026",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 164,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d9ce13b3fe26c8b987b0a2db4981ff84237758c2c7f22e1fcb4c0105f22c1afa",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 165,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6a66d86440ffcc0de5c89068be48a196b17f447998eb1223828566a35949a340",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 166,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4bd3acd9898b9000609a24247ffad7b64ccca1b566c5827e9e78ca4cf61fae45",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 167,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6c60eaf82bdf427b4879037e129df7e6d2fd383606ae69b14403e961e58a7fe4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 168,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "71ba29491104921b12c86cadc142b0eb14a890cc53768dce0006c8d193f813c3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-21.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 169,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "83d16d3510e6aa76f33673f8dfa2db551892d82200ebd54ee1cb60441ce27c1e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 170,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d0fbc7c162a12afb130caed45d7614005f5dbb99f2d93e63db60706cd1b48e7e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 171,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "481cc33fbef0dda94217632a005127178e8a5da194a3dffe3d515bc989433a18",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 172,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "631e94d740f5a25c71d116296562b66b5edbbc428341210eec66c8f3ea6d327a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 173,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ea8c8d09bedaf0b9183d890019f60dd1b471801e097c28728df11e4df3137a2b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 174,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "dc1fdcafa75435a2313b241fdf30faa30ae3ba3b82c4ba65736a4e7fb0ef5829",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 175,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5454b252aadb9ee6fab64f69950cdeac9628e69e09800646f099cbe77e2b49c9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 176,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fa149223664706627025960158dc1e6d527f3576341e8945a3e518504fbeb9e6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-22.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 177,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4203c9af7b58db84fa1707cf7781f8c039293accfe2760b0f8e2d924a9293a0d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 178,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "70e7feb721a1415fd371a9dd54421770c2ad7955010a29bbf54b8a82f4c47967",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 179,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bc31a06ff7e0d4321bffc6c1e6f86cb19237450008baa9d4bda3e4b4548987bb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 180,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "01e9e62c0a7e14555c688778eb69b4fc7668ffdea29c9cea69ca6f345bac4b6d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 181,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1c5112c4b8b426dff2c25788100dbf9a574b28238e4e0dab5b0538d6901c5f2a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 182,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "afe422e5c1d772a1bed8854514ef29c339d627ebe4beb1e655be7f02153f2997",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 183,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "029a7aad2bd14a3b59d9279458d7db025cd8b40c42ee4f97d0d128e96d4db0b3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 184,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "493440bb01ebf291e748bfdd330363da59d64641bb5fb6c3482e0c1276e9daaf",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-23.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 185,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fc20e0868fdb718bad346e6d62b2cea1acb69f5d14c7b69a40f31101df2700c3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 186,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "385b28e44d47c11e804b284876796ff6fbf45f0e4dff4f6281b6914fa3f13d9f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 187,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ab6a148385320d3ad0a4122dfe2eaf8bea5db25f6cf38d9bff39a20e66da8fb3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 188,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "daaccd128fd73f1b70def7919c881f10a15eee0b929350e08de6f048cb41979b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 189,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8cbda59421c9c3e2c978af3ba9172637ff036a74b684e75290bc8b17a9d3f2ec",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 190,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8e7b9a171e54772926616cac81db917d2d840de9e9f952fd6ddca5e161f58f5f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 191,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e74ccc362ca0be8052dd1c7baceab74781e508047b5061866960c772d3e1d2de",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 192,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "cca18a29f12caa408f426b821d0bca3128b95a8475af818375ce3eafe9e1265c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-24.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 193,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a50262fdd701107cc7cdf54f743d64f8febc8618feef56651a0d14e82ef2cf7c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 194,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4551b0bb6697fce710b744b5d76a9974403291fd6e6ba5cb3a17ff75ec2cbf9d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 195,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "11ff666a3a3893b34783f727681848bf6a6a9338149da92f834dfae8d8f41e34",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 196,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5d24ff547f0df8e650d396a30725ceef3d89aa6b18fcb72ba257b92002ffa646",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 197,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8b8a9c8e5b7a14d4042fdc661e6ee40236d31aff34b6a2da651e67cb0bcf43d5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 198,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4482d767872645253b4d12c7e44dad43b8e89bda8d2d7c3b65f75faf6a538a67",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 199,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "739a9ca37332759d300939209438a91077e48733206e71ceb86c35c81120faf3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 200,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4a18eb7861971b9a33059d9547ad5cb6ff0a0eb4e397a776b4fed6a441c60063",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-25.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 201,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "acd2adc16bb7023ded502cd4f18d6a89ee42214bbd1b23cc5ed7fb3aafd4c4cf",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 202,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a4f8c4177494edc2f5798fffc5bce6d7117bbb7ecfdcdf35d5baf0c1bdbc1c4d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 203,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fe2b953a52fee812f219976d25ed8eb184b017fb8afe7d5934a13540d7aadd54",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 204,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "23d430199398d773e372fd1492990dda7fdc8e6dd63671633b2f94cfc32dff5a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 205,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "aec77ad015721974eff468f752d712e74e0503fc3452ffe7738f2cbda1f8ebd8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 206,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f76a0e91a383bd50d89ceb00ed40bff934656f18e8518ecf6383c8225124061c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 207,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8c52de9f4b3178bce432e1a9ba9fb4a568b5dd66887299c189dffcb0a8af5771",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 208,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "43f4f4f10022721e3e14ef351adb433a4e929fb4f62daa41f23f78ef6ea5d5a3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-26.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 209,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b5286b696de434f16c2601b028169e06c8d71bf734bfd420ebc6af8cc798bc7e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 210,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1e89f913f1b55d83cfd5aa30804128c011ca1670237239f24360b00861025273",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 211,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7bf398144c85ffc0d2cd67d53b70c7addc81330c22df1041b9e130c052874fb3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 212,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d9742aeaf6675445d16ede1d04cc8bdb0890868df3565e3abc716a19d67a624e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 213,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9c908b3dfe97cca4ad824bfe6a9d3b5c4e5f94a89736eaaa6490d74994dffd66",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 214,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "eaa9cee4c13ffdeda280ec2e14b9681597b7990ec9e38aad398557d928457893",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 215,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5f99ee6380510fc2e6ce8630bc465a72e34bc108303fed698cc66fe628c2d5e7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 216,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "04b4b7804980bc85cefb053686b6c026734bb8649319a940b4e4a4f357d3087a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-27.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 217,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "af7918cc3ef7cafc8760f0385e030a6ad05a9cdcbf4b4d89f085bc5a5baf2ded",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 218,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5a758c71a1eb9b8584854d5905ccbfe76203a62804a5a410dc1a50e7e5a05380",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 219,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "93f35f8944df36c91fd2acd802742deb030e7df41d418b78e5fb08aadacdd498",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 220,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "23c2c14950033ab0342e90cfb143d220ac51b261b92db716924d9850c5b89feb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 221,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4be052bd88d3220261dcf2541eb3c6fcc4b0aa595bcd25ed44f6fadedab698b3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 222,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "948f157cc7512126d4cdb21d3227884f0d3cf1009fb6b22da3d0f8b4028a386b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 223,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "87ffdc50c5356e8e7503921b16365a13f8b876a4644ed7055b8ac73b43e9c3ca",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 224,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d1a918442ac1bbd760b7e84eeff3cd2f9fafa418d7f2f57b99c70254055694a8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-28.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 225,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "3acc23355640fd621b9aa5e7058af0990f7bbe3ec6a32a457bb0eeb0adccdc71",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 226,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9b3996f520b160ffc541223a54407bcd4c9ce60683e4bf10ef61b14536a2f99c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 227,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4326f0bbb7ce71a3abbb48579fe2883cd6095a03dc94761af8cb155d823f436b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 228,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fe0a12238904f285b924a6cd2f71e2b8894ba0c860d998c989299e631874ae28",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 229,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b9d95e0a24c17a73472b86650ff1939152c0cbd26d46c19fffb6d103a0a5ecf3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 230,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "66bfbee1d33da43bd231f30de93b3f340486a8293ddb513bf29b10062564e2a5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 231,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d854a8e9b18d68491fead5acc178934965f019a4d60f72e913a644fb4293f327",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 232,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4a1ca4fd65401fef166e315009fac9e07b6eaab6078a9bf0464ff75a882d8d26",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-29.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 233,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "702b113120e9fe8f388f87c04827dc7341da277220d561003eb3b2e1d1d66b5e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 234,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e0ba5886693bec09972fbbc807b44bea525ef3152bb56f44ddfc32e3f6a4d738",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 235,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d1d8b7aa1bb2ccadb38e67cd7b5c9ac76d524c1d2108cb0bcb8c8c63485fb3ea",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 236,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8cd538a723e15e8aa077dd7bff7ca2e52c832a13ad59f30333ed07f1b1856874",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 237,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b184d69d2bca3d0b4d3b54891e8f068fe71b0edc33fe543a8b2634f782994596",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Tabela de progressão longa prossegue na página 238 com cabeçalho repetido."
+    },
+    {
+      "pagina": 238,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "dc029cc06400cbab97888b4f48d0a4baa784cdb30ef6bfffa693adce9762c12e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 239,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e7b770dc11dfce8b73f9243125be45cc12852103b22112ef00930146fb151690",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 240,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b0216e99e7168ca04d86c6233c12d695e0a93b52234d62900e67bd020e311199",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-30.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 241,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "cf2aafe16d5cb73c1888bc991c99c8df1fafd0a46d1cc8c068859d368592cdd0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 242,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f3f5616eef185d57245bb58a308bdf11f7f5cae8f7f2ba1e7ebd69184f076a99",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 243,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bdb5790bf1bc6d3d0b8773f7a0e418f00c356f8ed9aeeb0b794265952c175103",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 244,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c6a26d757a6cff7851175b817b86f51ea36e92069694b272b7bfa04ac154a252",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 245,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "37a74bccf2ac160c926c31f2f5b119459decec4ee7198c28504cd45ce85fb461",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 246,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a7696c2d9e94d16906e0ef312812c12877e4f8fefb7455b27773b05d9240e764",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 247,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b5174d0e32b6df909d1479a6a1de8065029b0e6b7cb0f4581d63672766604c9f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 248,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "52aa59b4d932a5d2fc146f377a6b5db23a742433ffe62f515df297c77f6038cc",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-31.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 249,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8b2f302ce040c99c038b43fd86c09d1022f97fdee9686a83c54103ac72776fc0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 250,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "3322aeb566f5982455b894660600f61c0ac4a2eb2b84350402247c7a4755088e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 251,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6d2bcd59e8b050f22d510174500eeb2684a69bd5f3558cabc9c9ea14bf7864c1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 252,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "05c2e9017eff6e53e28edb967cfe7737e2db6d2dacd545c26b6379bc97b631eb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 253,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f49060ba8c96a728d4ac26a258bb5648831ab64478ed9f54eb4ecb47948da87f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 254,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "15ffe4691785997c3e4c22fe99807ae20f4eb1e927478168268767e205a22a50",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 255,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4ee844cd6c2d6d9665655ee2f769d82aa718c648f99e2089c14e7fcf2e6a1c2d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 256,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ba7aea3114949b33e633a540207fa6f7b8742a6e16e3847f498a7dc11b692f9c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-32.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 257,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "dc0de9580f305be6d278a66919f402c06426f41f1ea481699e638528d386b421",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 258,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0f6eff5e93f684e8aebae780988b48f1e1a7db334626222113a19ba7b8c83857",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 259,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9259cb34c4ac88583b05535b95fcc1a3a4f38318f4a22a228ec1101592e06f9a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 260,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8bf5b03de2185afdeec1d14ce8e5f019a95b4f421b2e6e9c22be02c349e4dbfb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 261,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "408b8f5dd9ec8f92155ae0a1c59e80f5cc268369234bc72ca2ff7d5d3ec19e9d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 262,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "14967a6e7474871c625dd9c2b3df9e68370b35d35f23cea4da36d138949d85f3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 263,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ed0224a6131760c174fc67e2d44b5bdf5d23f9b4a79e4d081098795bd6a6aec8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 264,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a23bc2a3cdea279398d363b80f61720f375fec8f29cc75fa5783b5168545de6a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-33.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 265,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0e5b6360bd00766b84868dc81c945a3885827b360c1ff1d39756969e601540d6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 266,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a78018ff43603f69976ea38374bed8c4c3dfe80b6c434871658c1c521ce731b0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 267,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "75a1e4e33ad472dab877413a3b984d929bbf2c7dc007fe47990713beec5fa2d9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 268,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "052d0b6419887cb76de3cc656db0b2b6fd78a456539c64e7583fa115a93896ba",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 269,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "51e58baca770d226a57e55f201dbd2857c89965be01d6c2a1c6e612c09774b10",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Família Alcance acompanhada das primeiras Melhorias."
+    },
+    {
+      "pagina": 270,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1484776c412480aead5b2ddca20fc808f68ec836a9ecc18a359fad5404cfa30f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 271,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d999010cabb63fc7644e6ed337a2b6a7ffef4025a8b765404d68a09efbaa5b60",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 272,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "96328e1f93b517c91c7fd986e1d5367cf7b8776ce63fb64487d892e58591eca2",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-34.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 273,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0cc0bd2314d921113126b019328c60bbb14e9f7e538669fca5b8809b4cf153c5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Família Controle acompanhada de Condição; sem abertura de família isolada."
+    },
+    {
+      "pagina": 274,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "55474dce3fa6827e58ef7b4def6fa9f96a6b002bdd626856fdf04f4da7b1c959",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 275,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0119d9b7f02efa8e407210130f18677ce1d304a13a6fbeb726f6d96557f1f4d6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 276,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c0e9050785745adf6185cd7e099ed7b42709a703ca1261287a02bb078de723a6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 277,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "20802507dcb5b193e15434bb46fc043cb562aa592a719f38eb3fcfcef54270b1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 278,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8c301aa871b1f440f634cfafffc790f491c83141857057988f587510b3331880",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 279,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fd159c9f5801ca559f00c86224aab74a64b3e89fbbb5819284bc6d3059c4ef89",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Limpa Fundo cabe inteiro e explicita a exceção de Morrendo."
+    },
+    {
+      "pagina": 280,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4d602bfe77f69c32a150c6a99da352b2314b3013bb2280a0ea286ab92b099ea3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-35.jpg",
+      "observacao": "Levanta e remissões de Reserva conferidos em ampliação."
+    },
+    {
+      "pagina": 281,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0f82c1c0ebe145c0a02aadbae14371b556a23266bbfb0f7adf7ca7cce9ce7bf1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 282,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7d25307115ede5db3be6f0eb5c6a0aa1954437aa738a49cd0a8daa6aaa7956d7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 283,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "82a39561baaabdc0bdb69d1ca8927c794d304fcf601804d3fa270195c9bc6c30",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 284,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a963be13e0aa94fc49519a8bad588cd7393e021db70c4c1627c4e6ac68816a82",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 285,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a0d175d213d8db261775488c357bc23de54e3923548e50c22968f27d35b50371",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Recomposição com 3 × maior Classe; ação e frequência preservadas."
+    },
+    {
+      "pagina": 286,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d1219213ae31f710f16bb2503f7042b0906123278b7a77edb5c2bedcf7477d4f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 287,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6f83d81342dd2b5a62545ca32f3820d8b5f76605116deed38c73c964b665c496",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 288,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fcee14c2b2e391da55342b06bbdc5b88b76c6a9a7033952c0d53fbb9dbdcaaa6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-36.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 289,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bfae11ac48d53efe5832c7745e1e5da48b29171a78eee08d9970bf704574666a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 290,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "832f67aeeae7ca03a88eebff159e56d41ee392f2c9d0ca4e3633c7c2c234011f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 291,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d4a8e854a8ba7779e6baea250f10be69fcecb8671ed6d604399b2e4bbbe6a671",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 292,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "43cb1a51629a7a8a4eff1d4ea0c24a2937f5da05a4e6a61b877e0d024e286f29",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 293,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f29fc1ebdfce519fcb44cd75d10a6ee1a54ca148d7de5268c34419bfbda3b717",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 294,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0f475f57547f58a630178f543818ae30f9360f6584c0680a30fe4ea3ee5bafaa",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 295,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "be04e51f6caaba0223dad99e0aaaf88c4c77be9b3d4829e5edeeb19c58245175",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 296,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9b35feb90d15cb8c437e6b8ab6cca9a6d92c940f88ad85888d29ec7155cee901",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-37.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 297,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "471a339512094890be8b8c2bdaff3c725d6693a2eec2ac87f8fac8d9c0a06ecc",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 298,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "973acf81c807e7ad06afd9c30a6f5a924e6a6f73ad304cac81ee772c4e234d4e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 299,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d92220e8f6daa6330ca116930be22650600531896ea3b5d13544df4a6f294896",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Extensão de Domínio e Duração seguem a sequência esquerda/direita."
+    },
+    {
+      "pagina": 300,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "60065b519a4d4b9da57b8688bd37cb03b8ae68a0d7739a1c2a8014dc32779317",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 301,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "615c5f7f86cdfb12a579599386af466911cebd3eeb6400e846fdec74195448d4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 302,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "30a03e34a0d30391f7cb6e3a8b7bed1b7d7d4f52fbdfe8097653d292058400a8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 303,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2f9a13d850de9cc137446d3a59896c95c0ed64959f5f3e128231581410f6a87b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 304,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "60b6133a32dadc01d13a63f3594315aac5b2ebde4d63b78d2de1ef6a859c3063",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-38.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 305,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "702164763f94ef30a442181555a587ee48e94074685b6a32dc708053e0693d4a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 306,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ddb8c233c8dfb35c5742bc844970424b2ef2852b72251d10699edb8aa3fd650f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 307,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "3d3fb2552171f10d53c3753940a8b7a40b6f81236494020288308827de9826ad",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": true,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Segundo Fôlego completo na coluna esquerda; sem custo antigo de vida máxima."
+    },
+    {
+      "pagina": 308,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1ba4d083fcfbf4d8221178d6ca0097dee9a147ea9ab7c232d5a7f7a2c1731eba",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 309,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "1ade82c31c898e3538aaf16c67504eded1090fca63815a3c8c3cd4478af7fe5c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 310,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2d67691fe3be5a71a21414de1b277e1a982afba9523e8264db7b1c57831ad69d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 311,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5cf6b16d402415e97ec8601968c3bcff7cdfec13526c2d3a63cc1d24ea0fccdf",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 312,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9d11f987bc4aba885e2c9653fe0029cd9f48feb8924f47b5d3050771f4519524",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-39.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 313,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ef3d77c32d98285e66c3377dbe73a0f26a9b87be5fea19af51eb99ee7e0dbd97",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 314,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "afaa7b21da34bad5eaa956787765cd2faa26f8635100ece94aa2f6e82a5affe6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 315,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8092925d5173f48237817fc851c372b15e82f60aca6e32394c5f4415cefcb667",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 316,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "3e8d5ba0993bac6e39fd04f0bbe67399e294be5c3492f0ca766cc3d058520821",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 317,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b582db24e6950cd652141921f73204f89d1e98db289d387cea48fa442a48a38d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 318,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d192933e4ebeb8adcf7d964841c125cd8305cdf83904699304590024731ac404",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 319,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "47602cb2935df3c9099d7b087e4702be8884757d8256efa9727889254754ba8d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 320,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "04e5504f818318aeee4ac130c8d89fdeb4aba812d1a9b4f8e6110c536afdf6e5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-40.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 321,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "789a3413ebd3dcdcc788b5cd8b21ef5aa9fa7845e1f8c41b8cc87e190bc5020a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 322,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c251832648d35191d1f323bc8a15caa1308992992501fe8104970da583dd40f1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 323,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5ecc4d24a3e834dbf330138e84743575aa4cc0432378bb105ddafd0f6c8c3860",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 324,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9edc7ecd98a809137d09adc11f803e2eda0f4f6c092a493edd866fa4dd933180",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 325,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c91553767fd03f84749173bdc046aa64a81afef437ecce631cc5b2097159b209",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 326,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b188f32ac98543360f97dec39097a3eb21a810b100bd0211ca94d022c274a6f5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 327,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "aa741b84f47c4029439caf953078fa7234b1599c8e30eb13c7e79a1c06bf6273",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 328,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a80139266c090e13c10df814f4cfb67854575f363edd6073df63f5ed6712910e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-41.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 329,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8ea9c15a308d6b892350ae709dd6678ea02919d17970b1ca09c04e7dd157134d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 330,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6b63d3e3860392d13a863d1422ec8376f728e3843fdfce82fbd32bddcf7e0eb0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 331,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f49b4111e93d59e9d7449d6af70a1de1b695cf4a6dcd32e8d883df1c04f7e9e1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 332,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b8d2d65cc1a0371454ff5342986b2e7f445e31e3aee40508d9c81f3a7b4665dd",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 333,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "36ed29f5cec393a828d30ed60c8ad26927385f814a0d0b3871268cd40fb92ec1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 334,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8317a5ae3bf89659043c0cad734281a4d35bddc3381f6359b51a1f936540995f",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Introdução de Melhorias de Ritual completa; a tabela larga inicia na página seguinte."
+    },
+    {
+      "pagina": 335,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2ef6e9d9dec488a7baf6da2d81cbcf78341f46ec3f35077ca458a8b055c45c60",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 336,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6875829e11264c30fd387430211aae8546adfdb228ba28b0f157d90bcb9334ab",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-42.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 337,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d6859930f88465c9cea4eba5e72f498af3623926eb8797361b32aac4e28e9460",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 338,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5a1b0aae8940a502def71113afeb13aeaf412d0c9e9362f6f91d5d4b3074753e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 339,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "70d711df84d5b949a40639cc9e2b81d65235753c319283f7e33fa83d3f076b76",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 340,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "530539df23f9e3da0ad24db90c6f014e38c08510bc7bf1eda79c4efdd1831977",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 341,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f05be9f556cb05085c5bf814c5f3175ccdbf3b02d149efcd1420e5f248a3c3c2",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 342,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "99c0e3c59d8f62ce71b89b68b74dc14c564c7bb804c7c6670331239e9738fdc6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 343,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a6b3bacc2d01150ef08e3151dacb0f8235f81bec3a8214a4e25a79cbbf438b38",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 344,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f70918300e2de1dd1ad0384c42b9f3cab2c908bb0bb8935cb8f7a70a09dae2c0",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-43.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 345,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e711a8120c9c8baeed7a97d1af974122bdbf2136e3d57cded21658796c8bfe5a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 346,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8ae5c64be6412f13a7d47f6b61380db81eacda5af2e7c28d6a1805bc7180254b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 347,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "04cd09c256e69c14f9d9e53f6e219fd1113f6cc822abbc8bc0b48c39513190f3",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 348,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "f7f76b4097c3a8145cb7eff8e3c1cd5b0584d882be3358de39e41a98ef6b7f37",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 349,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "45a40ada25d36d14e9249f4abab634ae1e4d68356f8b5faf9d98803593904bef",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 350,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "377684fb6b132b1a996dc9b2eacd69694c9fb47afefd870481dfa6aec4c4fb26",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 351,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "4f2868c684171d7e22584e1f35bf3f60fe44837084924dbb28eb789767f78743",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 352,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9e0fe0ef54d49b57b36b75bf39ffafc79b795eab1bba5260d6ad9d1328100dcb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-44.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 353,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "80a2e85ffc41ea049cde73afa7e45cb244d5381d394e0ed0e1fc453703d636d4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 354,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a0b86dd76f5f2a960f4356677a1798cbbc7c7aca5c8a0ec6835b3304c3a1aca7",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 355,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "fff1cfb3aa3964a327339545ed5ccc79397161b5b90478ba0712cf7f0f8dca1b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 356,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "47ebd1e40f1309de69f62a6d9e2c7d2d7a5b1a88c5a0cbcb91e4263392d6510a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 357,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5e2aea4a02c0e3731d58834f24eea942b8b650a7b4780b2b039334ef2c9bcd57",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 358,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "64b77f5e4a5c5cb54ab00c7cc2710b49ad21622f8f665b4845e1b36b5f18e3d5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 359,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "bb37a3f36aed7bceaddbcd19d25fd46cf7c73977fc647d001cab28fcff56a419",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 360,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5f91a5d192237629dcec400b57d14c29dd6c25d286c070f42781e20096a21ec9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-45.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 361,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d785154bf2e914822dad324168f0b448c2f205aacf5014023c3fae8d2994cfe6",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 362,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2f82d9d02120e3cf56636bac7acc22c8046294971286868e5fcefed7a928e996",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 363,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c057b628ed072101e9f537d2472893ffb0fb193a61c97783ec934d8452fe2bd8",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 364,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2a09e5c38fe996f879f571fdfe3128fc13d474fad7094f97d6fdb08d88d5243c",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 365,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "82ec86f4ace887559034f476986982a04273b79fb0d23f9661f33cdd268cb430",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 366,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "0b5d13ed9e2468038106dc37fb4fafc489490077d41fcae2c85bd9998664e28e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 367,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7841f11778861940d2bb9d41ba277dd0c1ba5c2cc7d738f1f2174b819026e1cb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 368,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "18d6d7a4fc72c7569a011203a2f306d11672355b4da90ecd1c3b3e1b3935a7b9",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-46.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 369,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b45eda7f2cdcb3fbda7d31dca9b76336aef108c90fcd45ec11ecde423fef0822",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 370,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "7d94284fffba5d298df5e7d61edef001bc4c2f1c3a5006517fa864e0d7a8183b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 371,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a14dcc079cbd813c7d234d66ed05db19f2d3530e9945263dfa63da3605c1a49d",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 372,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "169b92512ae1a069e6e5a8022ad7c0a4cc03929d0f84086e1e1df8285a25d588",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 373,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c7eb6746e9f358c0ceac44a6dcf668a54fe1ccb83a19d2e6159a15e401d285a1",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 374,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ffe9f5179e10dbb9be4625f19c9cc2b2049caa8b99a55c75f45a5c5689fef33e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 375,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "6e9aba7b48be033ce30fb62c35317ccbf05869d874f1cc81dea9e806c7700f21",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 376,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "d495313422379045a522283fe87f90a30194fb9bdac590c0304d0772e4f6a099",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-47.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 377,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c527f0abf5d30d3f4eaf1563bd38ad1ecfb31f8755fb3739ba3b0cde4f7dfdd5",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 378,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "74d216b99312dd7b3f745bba14128e3f74caa9346fc1b41690af44f6f4b53b6e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 379,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "b1c570ca0846e796cb7371dd86def8f16ac00ff8b3da4028ce2adf246076994e",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 380,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "91958e7f577acbe66695684b26c63305c3a55ce410835db34850da996018145b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 381,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a8b8f850b0e751457f0ab2faccc3924c00f06bd02db3f620bdc277869cbe2737",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 382,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "30202795db554577a188edf26ef01b1a7b288d0f4feb70658269313646b32175",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 383,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ead6ed425ed8898690ca5843a7d54e7838bbd5048c7e8ac43cbc3759229fd72a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 384,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9beff8a5d6ff3b3b821c98bee1b3a07bdfeccd179ad20fb158d049e368d2a3aa",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-48.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 385,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "69ed755ae0e0eb006df11689890c46112c380f456a3ed0f665125d66b7ac7654",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 386,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "8304cc13658c6221eaf8202240dc1f5ba8c3e12c5a54910ed0c3e6b991769043",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Glossário de Morrendo e Legado atualizado."
+    },
+    {
+      "pagina": 387,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "33a8b5e9bc5d9717063853dc8769cbc38693b0b6bea535d5acb47043be8a42cb",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 388,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "e07250d42714ec11926da2290b0bd0d5e97c7faaff446a3b52def9c7e6c0ca34",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 389,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "c6b9e1d371a92ebd48b0e5185f9ca5c75c058299fc50641a1936510fbdf005b4",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 390,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "39ed43b293007c2beeb8530be20c5297aa35294982fe53038f36bf9dd19ddd41",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 391,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "5bb4b2883a0c1d0998f1a5c3fa26d519230c95d6c39ace50e304d904a9300122",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 392,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "a8812e1fb99e2f6bc51c1dbd02c096e7d1d51435f018ffb9b94354fa11620f96",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-49.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 393,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "06f7e01504db98c8596e2163c9b92ee5936ef178165e8ed1b626f382b11ffb52",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-50.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 394,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "46a1719d4e2fcffef09bedb156dc1fc10d8b61eaef6042d868cea9a4bc90449a",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-50.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 395,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "ba8f9d0b6662a34e651e5c8757d0fccfbc56a77f0dfa19d06c11e73d56818a5b",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-50.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 396,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "9af9c609ebe04757d3be997e5d790fa91356ed97ea567a61b40aa750eb10b063",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-50.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    },
+    {
+      "pagina": 397,
+      "primeira_passagem": "primeira",
+      "fechamento_inspecionado": "terceira",
+      "imagem_final_sha256": "2343949b0d1ca196bb643afd71da981be7d7925a3435cf100c71a6cb3d792f17",
+      "composicao_final_identica_a_inspecionada": true,
+      "ampliacao_final": false,
+      "painel_final": "final/painel-50.jpg",
+      "observacao": "Inspeção no painel sequencial: sem obstáculo de leitura identificado."
+    }
+  ]
+}

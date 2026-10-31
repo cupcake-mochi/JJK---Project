@@ -1,0 +1,53 @@
+CONTINUIDADE EDITORIAL DO CICLO MALDITO R60
+Salvo em 31/10/2026, horário de São Paulo.
+
+REPOSITÓRIO E BRANCH
+https://github.com/cupcake-mochi/JJK---Project
+codex/continuidade-editorial-r60
+Base publicada: aed0e56 (v0.369, R60). A branch main e os PDFs publicados foram preservados.
+
+PONTO DE RETOMADA
+Leia este arquivo, candidata-editorial/PLANEJAMENTO.json, apontamentos.json e as entregas das etapas 1 a 3.
+A candidata atual é candidata-editorial/etapa-03/LIVRO-CANDIDATA.md.
+Os PDFs entregues estão em candidata-editorial/etapa-03/output/pdf, com 429 páginas.
+As etapas 1, 2 e 3 estão concluídas e validadas. A próxima é a 4: Diagramas.
+Não reinicie as etapas já concluídas. Revise a entrega anterior ao iniciar cada etapa.
+
+TRABALHO CONCLUÍDO
+1. Navegação: sumário, marcadores e contextos de Fundamento na sequência de leitura. 425 páginas.
+2. Consulta rápida: quatro páginas, com conjurações, Bloquear, Morrendo e socorro. 427 páginas.
+3. Invocações: referência Comparar os comandos nas páginas 377 e 378, com nove opções, custos e prazos. 429 páginas.
+A etapa 3 passou por 52 verificações gerais e dez específicas. Dezoito situações foram conferidas contra as regras completas.
+A revisão visual final abrangeu páginas 5, 368, 376, 377 e 378 nas duas paletas, e página 4 clara.
+Essa conferência editorial não é um teste de mesa nem prova de balanceamento.
+Os registros antes/depois, cenários e resultados estão nas pastas de cada etapa.
+
+PRÓXIMAS ETAPAS
+4. Diagramas: representar conjurador, alcance até a origem e dimensão da área de Cone, Linha e Explosão. Incluir Queima-Roupa. Conferir também necessidade e utilidade de desenho para domínios sobrepostos. Confirmar todas as distâncias no texto atual antes de desenhar.
+5. Habilidades e primeira sessão: seguir apontamentos.json. Melhorar orientação ao leitor sem alterar regras.
+6. Revisão do conjunto: clareza, ordem de apresentação, navegação, integridade do texto e composição nas duas paletas. Só então preparar a avaliação com leitores.
+
+LIMITES E MÉTODO
+Trabalhar em cópia nova da etapa 3. Não substituir ainda a fonte publicada nem os PDFs públicos, não publicar na Vercel.
+O usuário pediu estas mudanças numa candidata para mostrar aos amigos. Publicação depende da avaliação posterior.
+Revisar a etapa anterior ao iniciar; revisar texto e diagramação ao encerrar cada etapa. Explicar de forma curta o que mudou e o que falta.
+Preservar as mecânicas aprovadas. Se uma decisão de regra se mostrar necessária, apresentar o caso ao usuário.
+Preservar o exemplo progressivo do primeiro feitiço. Definir conceitos antes do primeiro uso que depende deles.
+Evitar redundância, títulos soltos, introduções separadas, tabelas quebradas sem necessidade e grandes vãos provocados pela composição.
+Manter tamanho de letra e paletas aprovadas. Revisar PDFs claro e noturno.
+Escrever em português direto. Evitar travessões e retórica de contraste ou arremates. Não recomendar modelos/esforços sem validação. Não usar subagentes sem pedido explícito.
+
+REPRODUÇÃO
+A composição ativa completa está em candidata-editorial/etapa-03/composicao. Fontes tipográficas e arte da capa foram incluídas.
+Os scripts ativos usam caminhos relativos ao próprio arquivo. Os caminhos absolutos em registros históricos descrevem o ambiente anterior.
+Instalar: python -m pip install -r candidata-editorial/requirements.txt
+Executar: python candidata-editorial/validar_retomada.py
+Para reconstruir: python candidata-editorial/etapa-03/reconstruir.py
+Para conferir cenários: python candidata-editorial/etapa-03/etapa03_cenarios.py
+Para conferir e renderizar páginas alteradas: python candidata-editorial/etapa-03/etapa03_revisar.py
+Depois de reconstruir, os PDFs ficam em etapa-03/composicao/output/pdf. Só copie para etapa-03/output/pdf depois das validações.
+Os manuscritos e manifestos das etapas 1 e 2 foram preservados para comparação. A composição completa dessas etapas antigas foi omitida para evitar três cópias do gerador.
+Rasters antigos e PDFs comerciais de referência ficaram no computador. As evidências visuais finais da etapa 3 e os resultados da auditoria foram incluídos.
+
+PROMPT PARA O NOVO CHAT
+Continue a revisão editorial do Ciclo Maldito na branch codex/continuidade-editorial-r60. Leia sistema/05-material/livro/planejamento-editorial/revisao-comparativa-r60/CONTINUAR-NA-NUVEM.txt e o PLANEJAMENTO.json da candidata. Valide a entrega da etapa 3 e prossiga pela etapa 4, Diagramas, numa nova cópia. Preserve regras e PDFs publicados. Ao fim revise clareza e diagramação nas duas paletas e entregue os resultados.

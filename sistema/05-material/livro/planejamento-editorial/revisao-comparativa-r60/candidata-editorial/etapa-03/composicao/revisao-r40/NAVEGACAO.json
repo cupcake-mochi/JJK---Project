@@ -1,0 +1,946 @@
+[
+  {
+    "capitulo": 1,
+    "destino": "ab--ab-primeira-sessao",
+    "titulo": "Primeira sessão",
+    "nivel": 2
+  },
+  {
+    "capitulo": 1,
+    "destino": "ab--ab-mundo",
+    "titulo": "Mundo jujutsu",
+    "nivel": 2
+  },
+  {
+    "capitulo": 1,
+    "destino": "ab--ab-sociedade",
+    "titulo": "Sociedade jujutsu",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--atributos",
+    "titulo": "Atributos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--testes",
+    "titulo": "Testes",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--turnos",
+    "titulo": "Turnos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--acoes",
+    "titulo": "Ações",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--ataques",
+    "titulo": "Ataques",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--defesa",
+    "titulo": "Defesa e cobertura",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--bloquear",
+    "titulo": "Bloquear",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--manobras",
+    "titulo": "Agarrar, derrubar e empurrar",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--movimento",
+    "titulo": "Movimento e terreno",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--carga",
+    "titulo": "Carga",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--perceber",
+    "titulo": "Percepção e visibilidade",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--esconder",
+    "titulo": "Esconder",
+    "nivel": 2
+  },
+  {
+    "capitulo": 2,
+    "destino": "geral--mundo",
+    "titulo": "Percepção de energia",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--dano",
+    "titulo": "Dano",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--tipos",
+    "titulo": "Tipos de dano",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--condicoes",
+    "titulo": "Condições",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--cura",
+    "titulo": "Cura",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--zero",
+    "titulo": "Vida a zero",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--descansos",
+    "titulo": "Descansos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 3,
+    "destino": "dano--exaustao",
+    "titulo": "Exaustão",
+    "nivel": 2
+  },
+  {
+    "capitulo": 4,
+    "destino": "ab--ab-origem",
+    "titulo": "Origem e treinos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 4,
+    "destino": "ab--ab-caminho",
+    "titulo": "Caminho e Trilha",
+    "nivel": 2
+  },
+  {
+    "capitulo": 4,
+    "destino": "ab--ab-capacidades",
+    "titulo": "Capacidades iniciais",
+    "nivel": 2
+  },
+  {
+    "capitulo": 4,
+    "destino": "ab--ab-equipamento",
+    "titulo": "Equipamento e valores",
+    "nivel": 2
+  },
+  {
+    "capitulo": 4,
+    "destino": "ab--ab-conferencia",
+    "titulo": "Ficha pronta",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--legados",
+    "titulo": "Legados",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-latente",
+    "titulo": "Latente",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-receptaculo",
+    "titulo": "Receptáculo",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-descendente",
+    "titulo": "Descendente",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-encarnado",
+    "titulo": "Encarnado",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-feto",
+    "titulo": "Feto",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-sem-tecnica",
+    "titulo": "Sem Técnica (Origem)",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-corpo",
+    "titulo": "Corpo Amaldiçoado",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "origens--origem-restricao",
+    "titulo": "Restrição Celestial",
+    "nivel": 2
+  },
+  {
+    "capitulo": 5,
+    "destino": "r40-nav-restricao-corpo",
+    "bloco": "origens--origem-restricao",
+    "cabecalho": "Corpo pela Técnica",
+    "titulo": "Corpo pela Técnica",
+    "nivel": 3
+  },
+  {
+    "capitulo": 5,
+    "destino": "r40-nav-restricao-sem-energia",
+    "bloco": "origens--origem-restricao",
+    "cabecalho": "Sem Energia",
+    "titulo": "Sem Energia",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "bastiao--bas-bastiao",
+    "titulo": "Bastião",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "bastiao--bas-muro",
+    "titulo": "Muro",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "bastiao--bas-punho",
+    "titulo": "Punho",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "bastiao--bas-combatente",
+    "titulo": "Combatente Amaldiçoado",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-base",
+    "titulo": "Vanguarda",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-estocada",
+    "titulo": "Estocada",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-yumi",
+    "titulo": "Batedor",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "r40-nav-yumi",
+    "bloco": "vanguarda--van-yumi",
+    "cabecalho": "Batedor: Yumi",
+    "titulo": "Batedor: Yumi",
+    "nivel": 4
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-besta",
+    "titulo": "Batedor: Besta",
+    "nivel": 4
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-fogo",
+    "titulo": "Batedor: Arma de Fogo",
+    "nivel": 4
+  },
+  {
+    "capitulo": 6,
+    "destino": "vanguarda--van-executor",
+    "titulo": "Executor",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "guia--guia",
+    "titulo": "Guia",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "guia--guia-arquiteto",
+    "titulo": "Arquiteto",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "guia--guia-analista",
+    "titulo": "Analista",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "guia--guia-socorrista",
+    "titulo": "Socorrista",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "emanador--ema-base",
+    "titulo": "Emanador",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "emanador--ema-condutor",
+    "titulo": "Condutor Armado",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "emanador--ema-eco",
+    "titulo": "Ressonante",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "emanador--ema-impulso",
+    "titulo": "Catalisador",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "evocador--evocador",
+    "titulo": "Evocador",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "evocador--ev-principal",
+    "titulo": "Invocação Principal",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "evocador--ev-parceria",
+    "titulo": "Parceria",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "evocador--ev-multiplas",
+    "titulo": "Múltiplas Invocações",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "incursor--inc-caminho",
+    "titulo": "Incursor",
+    "nivel": 2
+  },
+  {
+    "capitulo": 6,
+    "destino": "incursor--inc-assassino",
+    "titulo": "Assassino",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "incursor--inc-pugilista",
+    "titulo": "Pugilista",
+    "nivel": 3
+  },
+  {
+    "capitulo": 6,
+    "destino": "incursor--inc-malabarista",
+    "titulo": "Malabarista",
+    "nivel": 3
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--tarefas",
+    "titulo": "Tarefas e testes",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--fisicas",
+    "titulo": "Perícias físicas",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--conhecimento",
+    "titulo": "Investigação e conhecimento",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--ambiente",
+    "titulo": "Ambiente e saúde",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--essencia",
+    "titulo": "Percepção e influência",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--oficios",
+    "titulo": "Ofícios",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--fabricacao",
+    "titulo": "Fabricação",
+    "nivel": 2
+  },
+  {
+    "capitulo": 7,
+    "destino": "pericias--reparos",
+    "titulo": "Reparos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqp-protecao",
+    "titulo": "Proteção",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqm-municao",
+    "titulo": "Munição",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqa-armas",
+    "titulo": "Armas",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqi-itens",
+    "titulo": "Itens comuns",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqc-dinheiro",
+    "titulo": "Dinheiro e acesso",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqc-inicial",
+    "titulo": "Equipamento inicial",
+    "nivel": 2
+  },
+  {
+    "capitulo": 8,
+    "destino": "equip--eqf-equipamento",
+    "titulo": "Equipamento amaldiçoado",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-xp",
+    "titulo": "Recompensas e custos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-tabela-inicial",
+    "titulo": "Progressão dos níveis 1 a 15",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-tabela-avancada",
+    "titulo": "Progressão dos níveis 16 a 30",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-marcos",
+    "titulo": "Marcos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-trilhas",
+    "titulo": "Trocar de Trilha",
+    "nivel": 2
+  },
+  {
+    "capitulo": 9,
+    "destino": "progressao--prog-patentes",
+    "titulo": "Patentes",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--tecnica",
+    "titulo": "Sua técnica",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--primeiro",
+    "titulo": "Seu primeiro feitiço",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--familias",
+    "titulo": "Famílias",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--repertorio",
+    "titulo": "Feitiços conhecidos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--pontos",
+    "titulo": "Pontos e preços",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--formas",
+    "titulo": "Formas de ataque",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--combinacoes",
+    "titulo": "Combinar peças",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--danolimites",
+    "titulo": "Dano e repetições",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--classezero",
+    "titulo": "Feitiços de Classe 0",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--liberacao",
+    "titulo": "Liberação Máxima",
+    "nivel": 2
+  },
+  {
+    "capitulo": 10,
+    "destino": "fundamento--maxima",
+    "titulo": "Técnica Máxima",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-alcance",
+    "titulo": "Alcance",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-area",
+    "titulo": "Área",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-mira",
+    "titulo": "Mira",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-controle",
+    "titulo": "Controle",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-auxiliares",
+    "titulo": "Auxiliares",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-castigo",
+    "titulo": "Castigo",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-tempo",
+    "titulo": "Tempo",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-marca",
+    "titulo": "Marca",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-amparo",
+    "titulo": "Amparo",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-proprio",
+    "titulo": "Efeito Próprio",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-restricoes-conjuracao",
+    "titulo": "Restrições de conjuração",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-passivas-1",
+    "titulo": "Talentos de Categoria 1",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-passivas-2-recursos",
+    "titulo": "Talentos de Categoria 2",
+    "nivel": 2
+  },
+  {
+    "capitulo": 11,
+    "destino": "catalogo--cat-passivas-3",
+    "titulo": "Talentos de Categoria 3",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-marcos",
+    "titulo": "Progressão de Refino",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-catalogo",
+    "titulo": "Catálogo de aptidões",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-cobrir",
+    "titulo": "Cobrir-se de Energia",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-canalizar",
+    "titulo": "Canalizar Energia",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-projetar",
+    "titulo": "Projetar Energia",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-reversa",
+    "titulo": "Energia Reversa",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-circulacao",
+    "titulo": "Circulação",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-regravacao",
+    "titulo": "Regravação",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-kokusen",
+    "titulo": "Kokusen",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-protecao-dominios",
+    "titulo": "Proteção contra domínios",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-cesta",
+    "titulo": "Cesta Oca de Vime",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-simples",
+    "titulo": "Domínio Simples",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-petala",
+    "titulo": "Pétala",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-extensao",
+    "titulo": "Extensão de Domínio",
+    "nivel": 3
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-barreira",
+    "titulo": "Barreira Simples",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-cortina",
+    "titulo": "Cortina",
+    "nivel": 2
+  },
+  {
+    "capitulo": 12,
+    "destino": "aptidoes--apt-propria",
+    "titulo": "Aptidão Própria",
+    "nivel": 2
+  },
+  {
+    "capitulo": 13,
+    "destino": "rotas--rota-marcial",
+    "titulo": "Técnica Marcial: criação de Katas",
+    "nivel": 2
+  },
+  {
+    "capitulo": 13,
+    "destino": "r40-nav-criacao-restricao",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho": "Criação",
+    "titulo": "Restrição Celestial sem energia: criação",
+    "nivel": 3
+  },
+  {
+    "capitulo": 13,
+    "destino": "rotas--rota-sem-tecnica",
+    "titulo": "Sem Técnica: criação de Manejos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 13,
+    "destino": "rotas--rota-lapidacao",
+    "titulo": "Lapidação",
+    "nivel": 2
+  },
+  {
+    "capitulo": 13,
+    "destino": "rotas--rota-bencaos",
+    "titulo": "Bênçãos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--degraus",
+    "titulo": "Expansão de Domínio",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--criardominio",
+    "titulo": "Criar um domínio",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--acerto",
+    "titulo": "Acerto do domínio",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--sembarreiras",
+    "titulo": "Expansão sem Barreiras",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--disputa",
+    "titulo": "Disputa de domínios",
+    "nivel": 2
+  },
+  {
+    "capitulo": 14,
+    "destino": "poderes--multiplos",
+    "titulo": "Vários domínios",
+    "nivel": 2
+  },
+  {
+    "capitulo": 15,
+    "destino": "ritual--ritual",
+    "titulo": "Ritual",
+    "nivel": 2
+  },
+  {
+    "capitulo": 15,
+    "destino": "ritual--pactos",
+    "titulo": "Pactos",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-ciclo",
+    "titulo": "Turnos das entidades",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-especial",
+    "titulo": "Comandar uma especial",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-talisma",
+    "titulo": "Talismãs",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-corpos",
+    "titulo": "Corpos amaldiçoados",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-liberacao",
+    "titulo": "Trunfos das domadas",
+    "nivel": 2
+  },
+  {
+    "capitulo": 16,
+    "destino": "campo--inv-queda",
+    "titulo": "Queda e destruição",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "construcao--entidades-criar",
+    "titulo": "Criar uma invocação",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "construcao--entidades-aquisicao",
+    "titulo": "Adquirir entidades",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "construcao--entidades-basicas",
+    "titulo": "Habilidades básicas",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "construcao--entidades-especiais",
+    "titulo": "Habilidades especiais",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "construcao--entidades-passivas",
+    "titulo": "Talentos da entidade",
+    "nivel": 2
+  },
+  {
+    "capitulo": 17,
+    "destino": "fabricacao--fab-entidades",
+    "titulo": "Fabricação de entidades",
+    "nivel": 2
+  },
+  {
+    "capitulo": 18,
+    "destino": "consulta--consulta-missao",
+    "titulo": "Preparar uma missão",
+    "nivel": 2
+  },
+  {
+    "capitulo": 18,
+    "destino": "consulta--consulta-conduzir",
+    "titulo": "Mestrar uma sessão",
+    "nivel": 2
+  }
+]

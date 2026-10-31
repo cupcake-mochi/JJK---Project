@@ -1,0 +1,19 @@
+{
+  "versao": "R55",
+  "paginas": 415,
+  "blocos_alterados": 18,
+  "ajustes": 28,
+  "regras_preservadas": true,
+  "R54_intacta": true,
+  "sha256": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r55/output/pdf/Ciclo-Maldito-R55.pdf": "9245c59ae213df5de3a667c52b4698eafcc93257cf3a06cb1e805346200f0d39",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r55/output/pdf/Ciclo-Maldito-R55-Noturno-Vinho-e-Pessego.pdf": "9ccdfedc10525ec73b5938d95b906e61a508e722b5c4ab4e6af877724c94b3e4"
+  },
+  "validacao_clara": "121262 checagens, 2769 links internos, 205 marcadores, zero problemas",
+  "validacao_noturna": {
+    "paginas": 415,
+    "verificacoes": 1710,
+    "resultado": "aprovado"
+  },
+  "publicacao": "Preparada para atualização posterior da Vercel, sem commit ou push."
+}

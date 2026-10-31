@@ -1,0 +1,96 @@
+{
+  "metodo": "Espaço vertical abaixo do último elemento por coluna. Exclui capas, páginas de arte e sumário; a lista interna exclui a primeira e a última página de conteúdo de cada capítulo. Não mede área branca real de pixels.",
+  "paginas_internas_com_mais_de_um_terco_livre": [
+    {
+      "pagina": 8,
+      "motivo": "Encerramento da apresentação de jogo antes da abertura ilustrada seguinte."
+    },
+    {
+      "pagina": 10,
+      "motivo": "Organização dos tópicos introdutórios e preservação da abertura seguinte."
+    },
+    {
+      "pagina": 83,
+      "motivo": "Fim do catálogo do Descendente antes de Encarnação."
+    },
+    {
+      "pagina": 85,
+      "motivo": "Fim de Encarnação antes da abertura ilustrada do Híbrido."
+    },
+    {
+      "pagina": 87,
+      "motivo": "Introdução de Regeneração e Anatomia antes da tabela larga de Armamento Orgânico."
+    },
+    {
+      "pagina": 89,
+      "motivo": "Fim do Híbrido antes da abertura do Corpo Amaldiçoado."
+    },
+    {
+      "pagina": 115,
+      "motivo": "Características e introdução da Sequência antes das tabelas largas de Condução."
+    },
+    {
+      "pagina": 130,
+      "motivo": "Conjunto de Aberturas do Guia preservado antes das habilidades seguintes."
+    },
+    {
+      "pagina": 149,
+      "motivo": "Fim da Trilha Ressonante antes de Catalisador."
+    },
+    {
+      "pagina": 151,
+      "motivo": "Fim de Catalisador antes da abertura ilustrada do Evocador."
+    },
+    {
+      "pagina": 181,
+      "motivo": "Fim da Trilha Assassino antes da abertura ilustrada do Pugilista."
+    },
+    {
+      "pagina": 186,
+      "motivo": "Fim da Trilha Pugilista antes da abertura ilustrada do Malabarista."
+    },
+    {
+      "pagina": 213,
+      "motivo": "Introdução às armas antes das tabelas largas do catálogo."
+    },
+    {
+      "pagina": 226,
+      "motivo": "Fim das compras antes da abertura ilustrada de Equipamento Amaldiçoado."
+    },
+    {
+      "pagina": 262,
+      "motivo": "Tabela de compatibilidade e primeiro exemplo de mescla mantidos legíveis; os exemplos seguintes começam na próxima página."
+    },
+    {
+      "pagina": 273,
+      "motivo": "Liberação Máxima encerrada antes da seção Técnica Máxima."
+    },
+    {
+      "pagina": 276,
+      "motivo": "Conclusão da tabela e das regras de Técnica Máxima antes dos exemplos."
+    },
+    {
+      "pagina": 319,
+      "motivo": "Visão geral das rotas antes da abertura ilustrada de Técnica Marcial."
+    },
+    {
+      "pagina": 325,
+      "motivo": "Invocações nas rotas antes da abertura ilustrada de Sem Técnica."
+    },
+    {
+      "pagina": 329,
+      "motivo": "Introdução e ficha de Sutura Fria preservadas; aplicação e desenvolvimento reunidos na página seguinte."
+    }
+  ],
+  "desigualdades_maiores_que_35_por_cento_da_altura_util": [
+    {
+      "pagina": 238,
+      "motivo": "Tabela de Subir de nível à esquerda; tabela e explicação de Experiência semanal à direita. Mantidos os conjuntos de consulta."
+    },
+    {
+      "pagina": 268,
+      "motivo": "Informação e obstáculos à esquerda; tabela e explicação de Efeitos fora de combate à direita. Mantidos título, tabela e orientação juntos."
+    }
+  ],
+  "observacao": "A paginação prioriza a continuidade de leitura; não busca eliminar todos os espaços vazios."
+}

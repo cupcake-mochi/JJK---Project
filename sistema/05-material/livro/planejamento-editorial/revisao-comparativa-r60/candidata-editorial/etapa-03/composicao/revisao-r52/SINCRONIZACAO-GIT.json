@@ -1,0 +1,19 @@
+{
+  "data": "2026-10-15",
+  "versao_sistema": "v0.365",
+  "livro": "R52",
+  "escopo": "Somente sistema/livro; ficha digital fica nos outros chats, por decisão do autor.",
+  "sistema": {
+    "pasta": "/home/mizuki/JJK-v0.341-para-subir",
+    "repositorio": "https://github.com/cupcake-mochi/JJK---Project",
+    "commit": "e593ba8cf24ce6bbd2f517f5431a73a96610e02b",
+    "publicado_em_main": true
+  },
+  "livro_publicado": {
+    "pasta": "/home/mizuki/JJK-v0.341-para-subir/finalizado",
+    "repositorio": "https://github.com/cupcake-mochi/JJK---PDF---RPG",
+    "commit": "904132ec934e38769c4bdaca80995ff96bcc45a5",
+    "publicado_em_main": true
+  },
+  "validacao": "27 validadores de regra, 2 matemáticos, conferência do repositório e 3 testes negativos aprovados. HEADs locais e remotos conferidos; árvores de trabalho limpas."
+}

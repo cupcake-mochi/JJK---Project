@@ -1,0 +1,2618 @@
+[
+  {
+    "bloco": "geral--testes",
+    "titulo": "Dificuldade",
+    "tratamento": "subtopico",
+    "pagina": 11
+  },
+  {
+    "bloco": "geral--testes",
+    "titulo": "Sucesso e falha",
+    "tratamento": "subtopico",
+    "pagina": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Especialização",
+    "tratamento": "subtopico",
+    "pagina": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Vantagem e desvantagem",
+    "tratamento": "subtopico",
+    "pagina": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Arredondamento",
+    "tratamento": "subtopico",
+    "pagina": 13
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Testes de grupo",
+    "tratamento": "subtopico",
+    "pagina": 13
+  },
+  {
+    "bloco": "geral--resistencia",
+    "titulo": "CD e resultado",
+    "tratamento": "subtopico",
+    "pagina": 13
+  },
+  {
+    "bloco": "geral--resistencia",
+    "titulo": "Ataques e defesas",
+    "tratamento": "subtopico",
+    "pagina": 13
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Usar a ação adequada",
+    "tratamento": "subtopico",
+    "pagina": 15
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Conjuração",
+    "tratamento": "subtopico",
+    "pagina": 15
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Equipamento",
+    "tratamento": "subtopico",
+    "pagina": 15
+  },
+  {
+    "bloco": "geral--ajudar",
+    "titulo": "Ajudar num teste",
+    "tratamento": "subtopico",
+    "pagina": 16
+  },
+  {
+    "bloco": "geral--ajudar",
+    "titulo": "Ajudar num ataque",
+    "tratamento": "subtopico",
+    "pagina": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Provocar",
+    "tratamento": "subtopico",
+    "pagina": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Ler o Ambiente",
+    "tratamento": "subtopico",
+    "pagina": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Influenciar",
+    "tratamento": "subtopico",
+    "pagina": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Escolha o gatilho e a resposta",
+    "tratamento": "subtopico",
+    "pagina": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Espere o evento terminar",
+    "tratamento": "subtopico",
+    "pagina": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Atacar ou se mover",
+    "tratamento": "subtopico",
+    "pagina": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Conjuração preparada",
+    "tratamento": "subtopico",
+    "pagina": 17
+  },
+  {
+    "bloco": "geral--oportunidade",
+    "titulo": "Ataque de oportunidade",
+    "tratamento": "subtopico",
+    "pagina": 18
+  },
+  {
+    "bloco": "geral--oportunidade",
+    "titulo": "Movimento que não provoca",
+    "tratamento": "subtopico",
+    "pagina": 18
+  },
+  {
+    "bloco": "geral--concentracao",
+    "titulo": "Dano durante a concentração",
+    "tratamento": "subtopico",
+    "pagina": 18
+  },
+  {
+    "bloco": "geral--concentracao",
+    "titulo": "Procedimentos específicos",
+    "tratamento": "subtopico",
+    "pagina": 19
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Corpo a corpo",
+    "tratamento": "subtopico",
+    "pagina": 20
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Armas à distância",
+    "tratamento": "subtopico",
+    "pagina": 20
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Visão e cobertura",
+    "tratamento": "subtopico",
+    "pagina": 20
+  },
+  {
+    "bloco": "geral--critico",
+    "titulo": "Dano do ataque",
+    "tratamento": "subtopico",
+    "pagina": 20
+  },
+  {
+    "bloco": "geral--critico",
+    "titulo": "Crítico",
+    "tratamento": "subtopico",
+    "pagina": 21
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Proteção",
+    "tratamento": "subtopico",
+    "pagina": 21
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Cobertura",
+    "tratamento": "subtopico",
+    "pagina": 22
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Redução de Dano",
+    "tratamento": "subtopico",
+    "pagina": 22
+  },
+  {
+    "bloco": "geral--bloquear",
+    "titulo": "Resolução",
+    "tratamento": "subtopico",
+    "pagina": 23
+  },
+  {
+    "bloco": "geral--bloquear",
+    "titulo": "Limites",
+    "tratamento": "subtopico",
+    "pagina": 23
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Aparar",
+    "tratamento": "subtopico",
+    "pagina": 23
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Brecha",
+    "tratamento": "subtopico",
+    "pagina": 24
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Ataques de resposta",
+    "tratamento": "subtopico",
+    "pagina": 24
+  },
+  {
+    "bloco": "geral--manobras",
+    "titulo": "Faça a manobra",
+    "tratamento": "subtopico",
+    "pagina": 24
+  },
+  {
+    "bloco": "geral--manobras",
+    "titulo": "Mãos, armas e alcance",
+    "tratamento": "subtopico",
+    "pagina": 25
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "Escapar",
+    "tratamento": "subtopico",
+    "pagina": 25
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "Arrastar",
+    "tratamento": "subtopico",
+    "pagina": 26
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "No chão e sob ataque",
+    "tratamento": "subtopico",
+    "pagina": 26
+  },
+  {
+    "bloco": "geral--espacos",
+    "titulo": "Atravessar outra criatura",
+    "tratamento": "subtopico",
+    "pagina": 28
+  },
+  {
+    "bloco": "geral--espacos",
+    "titulo": "Obstáculos e movimento imposto",
+    "tratamento": "subtopico",
+    "pagina": 28
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Três dimensões",
+    "tratamento": "subtopico",
+    "pagina": 28
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Mesas sem mapa",
+    "tratamento": "subtopico",
+    "pagina": 29
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Movimento imposto",
+    "tratamento": "subtopico",
+    "pagina": 29
+  },
+  {
+    "bloco": "geral--saltos",
+    "titulo": "Distância e impulso",
+    "tratamento": "subtopico",
+    "pagina": 29
+  },
+  {
+    "bloco": "geral--saltos",
+    "titulo": "Esforço e obstáculos",
+    "tratamento": "subtopico",
+    "pagina": 29
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Dano de queda",
+    "tratamento": "subtopico",
+    "pagina": 30
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Cair na água",
+    "tratamento": "subtopico",
+    "pagina": 30
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Empurrões e movimento imposto",
+    "tratamento": "subtopico",
+    "pagina": 30
+  },
+  {
+    "bloco": "geral--queda-criatura",
+    "titulo": "Queda deliberada",
+    "tratamento": "subtopico",
+    "pagina": 31
+  },
+  {
+    "bloco": "geral--rastejar",
+    "titulo": "Levantar",
+    "tratamento": "subtopico",
+    "pagina": 31
+  },
+  {
+    "bloco": "geral--rastejar",
+    "titulo": "Passagem estreita",
+    "tratamento": "subtopico",
+    "pagina": 31
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Combinar modalidades",
+    "tratamento": "subtopico",
+    "pagina": 32
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Obstáculos e alcance",
+    "tratamento": "subtopico",
+    "pagina": 32
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Perder sustentação",
+    "tratamento": "subtopico",
+    "pagina": 32
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Volume dos itens",
+    "tratamento": "subtopico",
+    "pagina": 33
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Objetos sem Volume definido e criaturas",
+    "tratamento": "subtopico",
+    "pagina": 33
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Erguer",
+    "tratamento": "subtopico",
+    "pagina": 33
+  },
+  {
+    "bloco": "geral--arrasto",
+    "titulo": "Arrastar pelo chão",
+    "tratamento": "subtopico",
+    "pagina": 33
+  },
+  {
+    "bloco": "geral--arrasto",
+    "titulo": "Transporte em grupo",
+    "tratamento": "subtopico",
+    "pagina": 34
+  },
+  {
+    "bloco": "geral--montaria",
+    "titulo": "Turnos e controle",
+    "tratamento": "subtopico",
+    "pagina": 34
+  },
+  {
+    "bloco": "geral--montaria",
+    "titulo": "Ameaças e quedas",
+    "tratamento": "subtopico",
+    "pagina": 34
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Quando é possível",
+    "tratamento": "subtopico",
+    "pagina": 36
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Uma rolagem, vários observadores",
+    "tratamento": "subtopico",
+    "pagina": 36
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Enquanto você permanece escondido",
+    "tratamento": "subtopico",
+    "pagina": 36
+  },
+  {
+    "bloco": "geral--procurar",
+    "titulo": "Qual procedimento usar",
+    "tratamento": "subtopico",
+    "pagina": 37
+  },
+  {
+    "bloco": "geral--ocultacao-ataque",
+    "titulo": "Visão e posição do alvo",
+    "tratamento": "subtopico",
+    "pagina": 37
+  },
+  {
+    "bloco": "geral--ocultacao-ataque",
+    "titulo": "Ataques e posição revelada",
+    "tratamento": "subtopico",
+    "pagina": 37
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Diga o que procura entender",
+    "tratamento": "subtopico",
+    "pagina": 38
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Resolva a pergunta",
+    "tratamento": "subtopico",
+    "pagina": 38
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Encontrar, compreender ou explorar o lugar",
+    "tratamento": "subtopico",
+    "pagina": 39
+  },
+  {
+    "bloco": "geral--buscar",
+    "titulo": "Resolva a busca",
+    "tratamento": "subtopico",
+    "pagina": 40
+  },
+  {
+    "bloco": "geral--buscar",
+    "titulo": "Resultados",
+    "tratamento": "subtopico",
+    "pagina": 40
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Sinais da cena",
+    "tratamento": "subtopico",
+    "pagina": 41
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Nova tentativa",
+    "tratamento": "subtopico",
+    "pagina": 41
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Alvos sem energia",
+    "tratamento": "subtopico",
+    "pagina": 41
+  },
+  {
+    "bloco": "geral--ler",
+    "titulo": "Estudar uma fonte",
+    "tratamento": "subtopico",
+    "pagina": 41
+  },
+  {
+    "bloco": "geral--ler",
+    "titulo": "Vestígios",
+    "tratamento": "subtopico",
+    "pagina": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Usar a descoberta",
+    "tratamento": "subtopico",
+    "pagina": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Carga e resíduos",
+    "tratamento": "subtopico",
+    "pagina": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Barreiras",
+    "tratamento": "subtopico",
+    "pagina": 42
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Força",
+    "tratamento": "subtopico",
+    "pagina": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Efeitos adicionais",
+    "tratamento": "subtopico",
+    "pagina": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Tema e nome do feitiço",
+    "tratamento": "subtopico",
+    "pagina": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Golpes com vários tipos",
+    "tratamento": "subtopico",
+    "pagina": 46
+  },
+  {
+    "bloco": "dano--reducao",
+    "titulo": "Limites do efeito",
+    "tratamento": "subtopico",
+    "pagina": 47
+  },
+  {
+    "bloco": "dano--alma",
+    "titulo": "Receber dano de Alma",
+    "tratamento": "subtopico",
+    "pagina": 47
+  },
+  {
+    "bloco": "dano--integridade",
+    "titulo": "Recuperar Integridade",
+    "tratamento": "subtopico",
+    "pagina": 47
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Condições leves",
+    "tratamento": "grupo",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Lento",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Guarda Aberta",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Derrubado",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Agarrado",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Desarmado",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Surdo",
+    "tratamento": "entrada",
+    "pagina": 49
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Condições médias",
+    "tratamento": "grupo",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Calado",
+    "tratamento": "entrada",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Enfeitiçado",
+    "tratamento": "entrada",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Remoção",
+    "tratamento": "subtopico",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Condições pesadas",
+    "tratamento": "grupo",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Impedido",
+    "tratamento": "entrada",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Cego",
+    "tratamento": "entrada",
+    "pagina": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Amedrontado",
+    "tratamento": "entrada",
+    "pagina": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Envenenado",
+    "tratamento": "entrada",
+    "pagina": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Atordoado",
+    "tratamento": "entrada",
+    "pagina": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Testes de saída",
+    "tratamento": "subtopico",
+    "pagina": 51
+  },
+  {
+    "bloco": "dano--temporarios",
+    "titulo": "Receber outra fonte",
+    "tratamento": "subtopico",
+    "pagina": 52
+  },
+  {
+    "bloco": "dano--temporarios",
+    "titulo": "Limites",
+    "tratamento": "subtopico",
+    "pagina": 52
+  },
+  {
+    "bloco": "dano--insistir",
+    "titulo": "Socorro durante Insistir",
+    "tratamento": "subtopico",
+    "pagina": 54
+  },
+  {
+    "bloco": "dano--socorro",
+    "titulo": "Cura",
+    "tratamento": "subtopico",
+    "pagina": 54
+  },
+  {
+    "bloco": "dano--socorro",
+    "titulo": "Estabilizar",
+    "tratamento": "subtopico",
+    "pagina": 55
+  },
+  {
+    "bloco": "dano--sequelas",
+    "titulo": "Cicatrizes",
+    "tratamento": "subtopico",
+    "pagina": 55
+  },
+  {
+    "bloco": "dano--derrota",
+    "titulo": "Missões com morte permanente",
+    "tratamento": "subtopico",
+    "pagina": 56
+  },
+  {
+    "bloco": "dano--derrota",
+    "titulo": "Recuperação depois da derrota",
+    "tratamento": "subtopico",
+    "pagina": 56
+  },
+  {
+    "bloco": "dano--inconsciente",
+    "titulo": "Recuperar a consciência",
+    "tratamento": "subtopico",
+    "pagina": 56
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Efeitos",
+    "tratamento": "subtopico",
+    "pagina": 58
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Recuperação",
+    "tratamento": "subtopico",
+    "pagina": 58
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Exaustão e Integridade",
+    "tratamento": "subtopico",
+    "pagina": 58
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Cena",
+    "tratamento": "subtopico",
+    "pagina": 59
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Missões longas",
+    "tratamento": "subtopico",
+    "pagina": 59
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Conferência da ficha",
+    "tratamento": "subtopico",
+    "pagina": 59
+  },
+  {
+    "bloco": "ab--ab-resgate",
+    "titulo": "Antes do corredor",
+    "tratamento": "exemplo",
+    "pagina": 66
+  },
+  {
+    "bloco": "ab--ab-resgate",
+    "titulo": "Posições",
+    "tratamento": "exemplo",
+    "pagina": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Iniciativa",
+    "tratamento": "exemplo",
+    "pagina": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Ataque da maldição",
+    "tratamento": "exemplo",
+    "pagina": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Turno de Kaori",
+    "tratamento": "exemplo",
+    "pagina": 67
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Depois da luta",
+    "tratamento": "exemplo",
+    "pagina": 67
+  },
+  {
+    "bloco": "origens--latente-beneficios",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 72
+  },
+  {
+    "bloco": "origens--latente-beneficios",
+    "titulo": "Legados de exceção",
+    "tratamento": "subtopico",
+    "pagina": 72
+  },
+  {
+    "bloco": "origens--receptaculo-acordos",
+    "titulo": "Legados narrativos",
+    "tratamento": "subtopico",
+    "pagina": 74
+  },
+  {
+    "bloco": "origens--receptaculo-acordos",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 74
+  },
+  {
+    "bloco": "origens--receptaculo-excecoes",
+    "titulo": "Acordos na mesa",
+    "tratamento": "subtopico",
+    "pagina": 74
+  },
+  {
+    "bloco": "origens--descendente-beneficios",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 75
+  },
+  {
+    "bloco": "origens--descendente-beneficios",
+    "titulo": "Legados de exceção",
+    "tratamento": "subtopico",
+    "pagina": 75
+  },
+  {
+    "bloco": "origens--encarnado-beneficios",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 76
+  },
+  {
+    "bloco": "origens--encarnado-beneficios",
+    "titulo": "Legados de exceção",
+    "tratamento": "subtopico",
+    "pagina": 76
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 78
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "titulo": "Legados de exceção",
+    "tratamento": "subtopico",
+    "pagina": 78
+  },
+  {
+    "bloco": "origens--origem-sem-tecnica",
+    "titulo": "Exemplo de escolha",
+    "tratamento": "exemplo",
+    "pagina": 79
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Legados de Ninhada e Gêmeos",
+    "tratamento": "grupo",
+    "pagina": 82
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Ninhada",
+    "tratamento": "entrada",
+    "pagina": 82
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Gêmeos",
+    "tratamento": "entrada",
+    "pagina": 82
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Legados de Inteiro e Manutenção",
+    "tratamento": "grupo",
+    "pagina": 83
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Inteiro",
+    "tratamento": "entrada",
+    "pagina": 83
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Manutenção",
+    "tratamento": "entrada",
+    "pagina": 83
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Legado de exceção de qualquer configuração",
+    "tratamento": "subtopico",
+    "pagina": 83
+  },
+  {
+    "bloco": "origens--restricao-corpo",
+    "titulo": "Legados narrativos",
+    "tratamento": "subtopico",
+    "pagina": 85
+  },
+  {
+    "bloco": "origens--restricao-corpo",
+    "titulo": "Legados de rolagem",
+    "tratamento": "subtopico",
+    "pagina": 85
+  },
+  {
+    "bloco": "origens--restricao-beneficios",
+    "titulo": "Legados de rolagem de Sem Energia",
+    "tratamento": "subtopico",
+    "pagina": 86
+  },
+  {
+    "bloco": "origens--restricao-beneficios",
+    "titulo": "Legados de exceção dos dois ramos",
+    "tratamento": "subtopico",
+    "pagina": 86
+  },
+  {
+    "bloco": "origens--legados-exemplos",
+    "titulo": "Latente com passado comum",
+    "tratamento": "exemplo",
+    "pagina": 88
+  },
+  {
+    "bloco": "origens--legados-exemplos",
+    "titulo": "Legado narrativo personalizado",
+    "tratamento": "exemplo",
+    "pagina": 88
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Características",
+    "tratamento": "subtopico",
+    "pagina": 91
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 91
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Provocação inicial",
+    "tratamento": "subtopico",
+    "pagina": 91
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Assumir um golpe",
+    "tratamento": "subtopico",
+    "pagina": 92
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Defesa e recuperação",
+    "tratamento": "grupo",
+    "pagina": 92
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Proteção de aliados",
+    "tratamento": "grupo",
+    "pagina": 93
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Casca Grossa e Inabalável",
+    "tratamento": "grupo",
+    "pagina": 94
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Mão Pesada e Minha Vez",
+    "tratamento": "grupo",
+    "pagina": 95
+  },
+  {
+    "bloco": "bastiao--bas-arrastao",
+    "titulo": "Ampliar o controle",
+    "tratamento": "subtopico",
+    "pagina": 96
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Oportunista e Contra a Parede",
+    "tratamento": "grupo",
+    "pagina": 97
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 99
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Golpe Inicial",
+    "tratamento": "subtopico",
+    "pagina": 100
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Conduzir",
+    "tratamento": "subtopico",
+    "pagina": 100
+  },
+  {
+    "bloco": "vanguarda--van-conducoes",
+    "titulo": "Conduções",
+    "tratamento": "grupo",
+    "pagina": 101
+  },
+  {
+    "bloco": "vanguarda--van-conclusoes",
+    "titulo": "Conclusões",
+    "tratamento": "grupo",
+    "pagina": 101
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Prazo e Escola de Arma",
+    "tratamento": "grupo",
+    "pagina": 102
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Habilidades avançadas",
+    "tratamento": "grupo",
+    "pagina": 102
+  },
+  {
+    "bloco": "vanguarda--van-feiticos",
+    "titulo": "Conclusões de feitiço",
+    "tratamento": "grupo",
+    "pagina": 103
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Bote e Ferrão",
+    "tratamento": "grupo",
+    "pagina": 104
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Conduções e Conclusões do Yumi",
+    "tratamento": "grupo",
+    "pagina": 105
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Leituras do Yumi",
+    "tratamento": "grupo",
+    "pagina": 106
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Preparação com virotes",
+    "tratamento": "grupo",
+    "pagina": 107
+  },
+  {
+    "bloco": "vanguarda--van-fogo-conclusoes",
+    "titulo": "Conclusões da Arma de Fogo",
+    "tratamento": "grupo",
+    "pagina": 108
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Retirada e continuidade",
+    "tratamento": "grupo",
+    "pagina": 109
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Intenções do Executor",
+    "tratamento": "grupo",
+    "pagina": 111
+  },
+  {
+    "bloco": "guia--guia",
+    "titulo": "Características do Guia",
+    "tratamento": "subtopico",
+    "pagina": 113
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Progressão do Guia",
+    "tratamento": "grupo",
+    "pagina": 113
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Aberturas",
+    "tratamento": "grupo",
+    "pagina": 114
+  },
+  {
+    "bloco": "guia--guia-resposta",
+    "titulo": "Leitura de Equipe",
+    "tratamento": "entrada",
+    "pagina": 115
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Planos em andamento",
+    "tratamento": "grupo",
+    "pagina": 116
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Ordem das ajudas",
+    "tratamento": "subtopico",
+    "pagina": 117
+  },
+  {
+    "bloco": "guia--guia-modelos",
+    "titulo": "Obras de Apoio",
+    "tratamento": "grupo",
+    "pagina": 118
+  },
+  {
+    "bloco": "guia--guia-obras-maiores",
+    "titulo": "Obras maiores",
+    "tratamento": "grupo",
+    "pagina": 119
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Obras em emergência",
+    "tratamento": "grupo",
+    "pagina": 120
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Nível 19 — Rever a Leitura",
+    "tratamento": "entrada",
+    "pagina": 121
+  },
+  {
+    "bloco": "guia--guia-tratamento",
+    "titulo": "Tratar e Retomar",
+    "tratamento": "grupo",
+    "pagina": 122
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Socorro de emergência",
+    "tratamento": "grupo",
+    "pagina": 123
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Características",
+    "tratamento": "subtopico",
+    "pagina": 125
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 125
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Requisitos da aplicação",
+    "tratamento": "subtopico",
+    "pagina": 125
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Escolha e pagamento",
+    "tratamento": "subtopico",
+    "pagina": 126
+  },
+  {
+    "bloco": "emanador--ema-modulacoes",
+    "titulo": "Modulações Dominadas",
+    "tratamento": "grupo",
+    "pagina": 127
+  },
+  {
+    "bloco": "emanador--ema-familiares",
+    "titulo": "Expressões Familiares",
+    "tratamento": "grupo",
+    "pagina": 128
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Forma Fluida e Composição Técnica",
+    "tratamento": "grupo",
+    "pagina": 128
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Ampliar e mudar a ação",
+    "tratamento": "subtopico",
+    "pagina": 129
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Reduções de custo",
+    "tratamento": "subtopico",
+    "pagina": 129
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Artes do Vínculo",
+    "tratamento": "grupo",
+    "pagina": 130
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Propriedades da arma",
+    "tratamento": "grupo",
+    "pagina": 130
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Vínculo e percepção",
+    "tratamento": "grupo",
+    "pagina": 131
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Manifestação e convergência",
+    "tratamento": "grupo",
+    "pagina": 132
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Reaproveitar alterações",
+    "tratamento": "grupo",
+    "pagina": 133
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Contraponto e Reverberação",
+    "tratamento": "grupo",
+    "pagina": 133
+  },
+  {
+    "bloco": "emanador--ema-acorde",
+    "titulo": "Usar os dois",
+    "tratamento": "subtopico",
+    "pagina": 134
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Corrigir a tentativa",
+    "tratamento": "subtopico",
+    "pagina": 135
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Aperfeiçoar o dano",
+    "tratamento": "subtopico",
+    "pagina": 135
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Sobrecarga e fluxo",
+    "tratamento": "grupo",
+    "pagina": 135
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Características",
+    "tratamento": "subtopico",
+    "pagina": 137
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Progressão do Caminho",
+    "tratamento": "subtopico",
+    "pagina": 137
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Pontos de Vínculo",
+    "tratamento": "subtopico",
+    "pagina": 137
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Escolher o aprimoramento",
+    "tratamento": "subtopico",
+    "pagina": 138
+  },
+  {
+    "bloco": "evocador--ev-usos",
+    "titulo": "Usos dos aprimoramentos",
+    "tratamento": "grupo",
+    "pagina": 138
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Aprimoramentos",
+    "tratamento": "grupo",
+    "pagina": 139
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Intervenções de Vínculo",
+    "tratamento": "grupo",
+    "pagina": 139
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Intervenções de posição",
+    "tratamento": "grupo",
+    "pagina": 140
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Preparação e recolhimento",
+    "tratamento": "grupo",
+    "pagina": 140
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Nível 23 — Intervenção Eficiente",
+    "tratamento": "entrada",
+    "pagina": 142
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Progressão da Trilha",
+    "tratamento": "subtopico",
+    "pagina": 143
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Especial e repertório",
+    "tratamento": "grupo",
+    "pagina": 143
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Intervenções da principal",
+    "tratamento": "grupo",
+    "pagina": 144
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "titulo": "Preservar o Aprimoramento",
+    "tratamento": "subtopico",
+    "pagina": 145
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "titulo": "Nível 19 — Especial de Continuidade",
+    "tratamento": "entrada",
+    "pagina": 145
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Exemplos de jogo",
+    "tratamento": "grupo",
+    "pagina": 146
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Agir com a principal",
+    "tratamento": "exemplo",
+    "pagina": 146
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Especial seguida de escolha",
+    "tratamento": "exemplo",
+    "pagina": 146
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Mudar a função entre atuações",
+    "tratamento": "exemplo",
+    "pagina": 146
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Escolher onde gastar sua Reação",
+    "tratamento": "exemplo",
+    "pagina": 146
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Progressão da Trilha",
+    "tratamento": "subtopico",
+    "pagina": 147
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Nível 2 — Abertura da Parceria",
+    "tratamento": "grupo",
+    "pagina": 147
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Aprimoramentos de Parceria",
+    "tratamento": "grupo",
+    "pagina": 147
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Atuação em parceria",
+    "tratamento": "grupo",
+    "pagina": 148
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Exemplos",
+    "tratamento": "grupo",
+    "pagina": 148
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Especial e golpe do dono",
+    "tratamento": "exemplo",
+    "pagina": 148
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Técnica e ataque acompanhado",
+    "tratamento": "exemplo",
+    "pagina": 148
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Apoio e resposta",
+    "tratamento": "exemplo",
+    "pagina": 149
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Intervenções de Parceria",
+    "tratamento": "grupo",
+    "pagina": 149
+  },
+  {
+    "bloco": "evocador--ev-parceria-resposta",
+    "titulo": "Exemplos",
+    "tratamento": "grupo",
+    "pagina": 151
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Progressão da Trilha",
+    "tratamento": "subtopico",
+    "pagina": 152
+  },
+  {
+    "bloco": "evocador--ev-multiplas-entrada",
+    "titulo": "Nível 2 — Entrada Ágil",
+    "tratamento": "entrada",
+    "pagina": 153
+  },
+  {
+    "bloco": "evocador--ev-multiplas-duplas",
+    "titulo": "Repertório na abertura",
+    "tratamento": "subtopico",
+    "pagina": 153
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Proteção do conjunto",
+    "tratamento": "grupo",
+    "pagina": 154
+  },
+  {
+    "bloco": "evocador--ev-multiplas-retirada",
+    "titulo": "Um turno com quatro corpos",
+    "tratamento": "exemplo",
+    "pagina": 155
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "Aprimoramentos Distribuídos",
+    "tratamento": "grupo",
+    "pagina": 155
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "Exemplo",
+    "tratamento": "exemplo",
+    "pagina": 156
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Completar o grupo",
+    "tratamento": "subtopico",
+    "pagina": 156
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Mudar a composição",
+    "tratamento": "subtopico",
+    "pagina": 156
+  },
+  {
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "titulo": "Funções complementares",
+    "tratamento": "subtopico",
+    "pagina": 157
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Turnos do Evocador",
+    "tratamento": "grupo",
+    "pagina": 157
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Invocação Principal, nível 2",
+    "tratamento": "exemplo",
+    "pagina": 157
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Parceria, nível 11",
+    "tratamento": "exemplo",
+    "pagina": 157
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Múltiplas Invocações, nível 11",
+    "tratamento": "exemplo",
+    "pagina": 157
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Características",
+    "tratamento": "subtopico",
+    "pagina": 158
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 159
+  },
+  {
+    "bloco": "incursor--inc-movimento",
+    "titulo": "Agilidade de Combate",
+    "tratamento": "entrada",
+    "pagina": 159
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Investida",
+    "tratamento": "entrada",
+    "pagina": 160
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Instante Decisivo",
+    "tratamento": "entrada",
+    "pagina": 160
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Passo Rápido",
+    "tratamento": "entrada",
+    "pagina": 160
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Respostas de Fluidez",
+    "tratamento": "grupo",
+    "pagina": 160
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "Fluidez no nível 15",
+    "tratamento": "grupo",
+    "pagina": 161
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Movimento Acrobático ampliado",
+    "tratamento": "subtopico",
+    "pagina": 161
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Um Passo à Frente",
+    "tratamento": "entrada",
+    "pagina": 161
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 162
+  },
+  {
+    "bloco": "incursor--inc-guarda",
+    "titulo": "Desaparecer no Percurso",
+    "tratamento": "entrada",
+    "pagina": 163
+  },
+  {
+    "bloco": "incursor--inc-guarda",
+    "titulo": "Escolher a Próxima Vítima",
+    "tratamento": "entrada",
+    "pagina": 164
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Obtenção e gasto de Fluidez",
+    "tratamento": "subtopico",
+    "pagina": 164
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Combinação com Instante Decisivo",
+    "tratamento": "subtopico",
+    "pagina": 165
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Apoios de infiltração",
+    "tratamento": "subtopico",
+    "pagina": 165
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Aproximação de abate",
+    "tratamento": "subtopico",
+    "pagina": 165
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Vítima como apoio",
+    "tratamento": "subtopico",
+    "pagina": 165
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Execução fora do turno",
+    "tratamento": "subtopico",
+    "pagina": 166
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Sentença Final",
+    "tratamento": "entrada",
+    "pagina": 166
+  },
+  {
+    "bloco": "incursor--inc-pugilista",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 167
+  },
+  {
+    "bloco": "incursor--inc-corpo",
+    "titulo": "Rajada Marcial a partir do nível 7",
+    "tratamento": "subtopico",
+    "pagina": 168
+  },
+  {
+    "bloco": "incursor--inc-corpo",
+    "titulo": "Quebrar o Compasso",
+    "tratamento": "entrada",
+    "pagina": 168
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Guarda Marcial",
+    "tratamento": "entrada",
+    "pagina": 169
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Interceptar e Prender",
+    "tratamento": "grupo",
+    "pagina": 169
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Resolução da projeção",
+    "tratamento": "subtopico",
+    "pagina": 170
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Colisão",
+    "tratamento": "subtopico",
+    "pagina": 170
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Rajada e Guarda",
+    "tratamento": "subtopico",
+    "pagina": 170
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Redirecionar a Força",
+    "tratamento": "subtopico",
+    "pagina": 171
+  },
+  {
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "titulo": "Redirecionar a Força (continuação)",
+    "tratamento": "subtopico",
+    "pagina": 171
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 172
+  },
+  {
+    "bloco": "incursor--inc-continuacoes",
+    "titulo": "Continuações",
+    "tratamento": "grupo",
+    "pagina": 173
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "titulo": "Manejo Contínuo",
+    "tratamento": "entrada",
+    "pagina": 176
+  },
+  {
+    "bloco": "incursor--inc-finta",
+    "titulo": "Manejo Contínuo ampliado",
+    "tratamento": "subtopico",
+    "pagina": 176
+  },
+  {
+    "bloco": "equip--eqc-inicial",
+    "titulo": "Exemplos de compras",
+    "tratamento": "grupo",
+    "pagina": 212
+  },
+  {
+    "bloco": "fundamento--persistente",
+    "titulo": "Exemplo de permanência",
+    "tratamento": "exemplo",
+    "pagina": 250
+  },
+  {
+    "bloco": "fundamento--liberacao",
+    "titulo": "Exemplo: Corte de ruptura",
+    "tratamento": "exemplo",
+    "pagina": 255
+  },
+  {
+    "bloco": "fundamento--liberacao",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 255
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Dano ou cura",
+    "tratamento": "subtopico",
+    "pagina": 256
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Um ataque com outra função",
+    "tratamento": "subtopico",
+    "pagina": 256
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Aplicação sem dano",
+    "tratamento": "subtopico",
+    "pagina": 256
+  },
+  {
+    "bloco": "fundamento--limitesmaxima",
+    "titulo": "Efeito próprio em combate",
+    "tratamento": "subtopico",
+    "pagina": 257
+  },
+  {
+    "bloco": "fundamento--limitesmaxima",
+    "titulo": "Progressão",
+    "tratamento": "subtopico",
+    "pagina": 258
+  },
+  {
+    "bloco": "catalogo--cat-auxiliares-apoio",
+    "titulo": "Duração e usos",
+    "tratamento": "subtopico",
+    "pagina": 268
+  },
+  {
+    "bloco": "catalogo--cat-marca",
+    "titulo": "Ataques seguintes",
+    "tratamento": "subtopico",
+    "pagina": 271
+  },
+  {
+    "bloco": "catalogo--cat-regra-propria",
+    "titulo": "Exemplo: aposta entre dois",
+    "tratamento": "exemplo",
+    "pagina": 280
+  },
+  {
+    "bloco": "aptidoes--apt-cobrir",
+    "titulo": "Proteção",
+    "tratamento": "subtopico",
+    "pagina": 286
+  },
+  {
+    "bloco": "aptidoes--apt-cobrir",
+    "titulo": "Amortecer um golpe",
+    "tratamento": "subtopico",
+    "pagina": 286
+  },
+  {
+    "bloco": "aptidoes--apt-canalizar",
+    "titulo": "Canalizar em Golpe",
+    "tratamento": "subtopico",
+    "pagina": 286
+  },
+  {
+    "bloco": "aptidoes--apt-canalizar",
+    "titulo": "Feitiços e crítico",
+    "tratamento": "subtopico",
+    "pagina": 286
+  },
+  {
+    "bloco": "aptidoes--apt-projetar",
+    "titulo": "Ataque de energia",
+    "tratamento": "subtopico",
+    "pagina": 287
+  },
+  {
+    "bloco": "aptidoes--apt-reversa",
+    "titulo": "Alvo e limites",
+    "tratamento": "subtopico",
+    "pagina": 288
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Ferir maldições",
+    "tratamento": "entrada",
+    "pagina": 288
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Feitiço de Cura",
+    "tratamento": "subtopico",
+    "pagina": 288
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Aptidão aplicada por contato",
+    "tratamento": "subtopico",
+    "pagina": 288
+  },
+  {
+    "bloco": "aptidoes--apt-circulacao",
+    "titulo": "Cura rápida",
+    "tratamento": "subtopico",
+    "pagina": 289
+  },
+  {
+    "bloco": "aptidoes--apt-circulacao",
+    "titulo": "Recompor uma parte perdida",
+    "tratamento": "subtopico",
+    "pagina": 289
+  },
+  {
+    "bloco": "aptidoes--apt-regravacao",
+    "titulo": "Marcas",
+    "tratamento": "subtopico",
+    "pagina": 289
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Dano",
+    "tratamento": "subtopico",
+    "pagina": 289
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Tentativas seguintes",
+    "tratamento": "subtopico",
+    "pagina": 290
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Kokusen Melhorado",
+    "tratamento": "entrada",
+    "pagina": 290
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Kokusen Constante",
+    "tratamento": "entrada",
+    "pagina": 290
+  },
+  {
+    "bloco": "aptidoes--apt-cesta",
+    "titulo": "Símbolo e mãos",
+    "tratamento": "subtopico",
+    "pagina": 291
+  },
+  {
+    "bloco": "aptidoes--apt-cesta",
+    "titulo": "Golpes e queda",
+    "tratamento": "subtopico",
+    "pagina": 291
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Área protegida",
+    "tratamento": "subtopico",
+    "pagina": 291
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Voto do iniciante",
+    "tratamento": "subtopico",
+    "pagina": 292
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Permanência",
+    "tratamento": "subtopico",
+    "pagina": 292
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Duração do Domínio Simples",
+    "tratamento": "entrada",
+    "pagina": 292
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Acertos e falhas",
+    "tratamento": "subtopico",
+    "pagina": 292
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Mudança de Expansão",
+    "tratamento": "subtopico",
+    "pagina": 292
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Acerto por contato",
+    "tratamento": "subtopico",
+    "pagina": 293
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Queda",
+    "tratamento": "subtopico",
+    "pagina": 293
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Contra-ataque",
+    "tratamento": "subtopico",
+    "pagina": 293
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Duração e custo",
+    "tratamento": "subtopico",
+    "pagina": 293
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Proteção e neutralização",
+    "tratamento": "subtopico",
+    "pagina": 294
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Técnica suspensa",
+    "tratamento": "subtopico",
+    "pagina": 294
+  },
+  {
+    "bloco": "aptidoes--apt-barreira",
+    "titulo": "Preparação",
+    "tratamento": "subtopico",
+    "pagina": 294
+  },
+  {
+    "bloco": "aptidoes--apt-barreira",
+    "titulo": "Barreira erguida",
+    "tratamento": "subtopico",
+    "pagina": 294
+  },
+  {
+    "bloco": "aptidoes--apt-cortina",
+    "titulo": "Condição de passagem",
+    "tratamento": "subtopico",
+    "pagina": 295
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "titulo": "Limites",
+    "tratamento": "subtopico",
+    "pagina": 295
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "titulo": "Exemplos",
+    "tratamento": "grupo",
+    "pagina": 296
+  },
+  {
+    "bloco": "rotas--rota-armas",
+    "titulo": "Atributo da Kata",
+    "tratamento": "subtopico",
+    "pagina": 300
+  },
+  {
+    "bloco": "rotas--rota-armas",
+    "titulo": "Equipamento em uso",
+    "tratamento": "subtopico",
+    "pagina": 300
+  },
+  {
+    "bloco": "rotas--rota-ferramenta",
+    "titulo": "Ataques comuns",
+    "tratamento": "subtopico",
+    "pagina": 301
+  },
+  {
+    "bloco": "rotas--rota-ferramenta",
+    "titulo": "Mãos e voz",
+    "tratamento": "subtopico",
+    "pagina": 301
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Talentos marciais",
+    "tratamento": "grupo",
+    "pagina": 301
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Maldição do Inventário",
+    "tratamento": "entrada",
+    "pagina": 301
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Leitura",
+    "tratamento": "entrada",
+    "pagina": 302
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Talentos de resposta",
+    "tratamento": "grupo",
+    "pagina": 302
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Segundo Fôlego",
+    "tratamento": "entrada",
+    "pagina": 302
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Contragolpe",
+    "tratamento": "entrada",
+    "pagina": 302
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Aliança",
+    "tratamento": "entrada",
+    "pagina": 302
+  },
+  {
+    "bloco": "rotas--rota-invocacoes",
+    "titulo": "Aquisição e uso",
+    "tratamento": "subtopico",
+    "pagina": 304
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Sementes",
+    "tratamento": "grupo",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Domínio Simples",
+    "tratamento": "entrada",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Energia Reversa",
+    "tratamento": "entrada",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Pétala",
+    "tratamento": "entrada",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Aptidão Própria",
+    "tratamento": "entrada",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Aptidão e Manejo",
+    "tratamento": "subtopico",
+    "pagina": 306
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Energia positiva contra maldições",
+    "tratamento": "subtopico",
+    "pagina": 307
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Resistir ao golpe",
+    "tratamento": "subtopico",
+    "pagina": 311
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Ausência de energia",
+    "tratamento": "subtopico",
+    "pagina": 311
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Equipamento amaldiçoado",
+    "tratamento": "subtopico",
+    "pagina": 312
+  },
+  {
+    "bloco": "rotas--rota-estimulo",
+    "titulo": "Dano adicional",
+    "tratamento": "subtopico",
+    "pagina": 312
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Bênçãos de corpo",
+    "tratamento": "grupo",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Ímpeto",
+    "tratamento": "entrada",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Casco",
+    "tratamento": "entrada",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Presilha",
+    "tratamento": "entrada",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Vigília",
+    "tratamento": "entrada",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Bênçãos de perseguição",
+    "tratamento": "grupo",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Faro",
+    "tratamento": "entrada",
+    "pagina": 313
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Sem Pegada",
+    "tratamento": "entrada",
+    "pagina": 314
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Vulto",
+    "tratamento": "entrada",
+    "pagina": 314
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Bênçãos de combate",
+    "tratamento": "grupo",
+    "pagina": 314
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Esteio",
+    "tratamento": "entrada",
+    "pagina": 314
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Antecipar",
+    "tratamento": "entrada",
+    "pagina": 314
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Campo",
+    "tratamento": "entrada",
+    "pagina": 315
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Assombro",
+    "tratamento": "entrada",
+    "pagina": 315
+  },
+  {
+    "bloco": "rotas--rota-propria",
+    "titulo": "Limites",
+    "tratamento": "subtopico",
+    "pagina": 315
+  },
+  {
+    "bloco": "rotas--rota-propria",
+    "titulo": "Exemplo: Marca do pulso",
+    "tratamento": "exemplo",
+    "pagina": 315
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Abertura",
+    "tratamento": "exemplo",
+    "pagina": 326
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Corrida",
+    "tratamento": "exemplo",
+    "pagina": 326
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Queda",
+    "tratamento": "exemplo",
+    "pagina": 326
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Sucesso",
+    "tratamento": "subtopico",
+    "pagina": 328
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Falha",
+    "tratamento": "subtopico",
+    "pagina": 329
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Treino e prática",
+    "tratamento": "subtopico",
+    "pagina": 329
+  },
+  {
+    "bloco": "ritual--rit-recitar",
+    "titulo": "Interrupção por dano",
+    "tratamento": "subtopico",
+    "pagina": 329
+  },
+  {
+    "bloco": "ritual--rit-recitar",
+    "titulo": "Liberação Máxima",
+    "tratamento": "subtopico",
+    "pagina": 329
+  },
+  {
+    "bloco": "ritual--rit-beneficios",
+    "titulo": "Escolhas antes da aplicação",
+    "tratamento": "subtopico",
+    "pagina": 331
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Compartilhamento",
+    "tratamento": "subtopico",
+    "pagina": 331
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Tiros",
+    "tratamento": "subtopico",
+    "pagina": 331
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Dados da montagem e do Ritual",
+    "tratamento": "subtopico",
+    "pagina": 331
+  },
+  {
+    "bloco": "ritual--rit-limites",
+    "titulo": "Tempo e imobilidade",
+    "tratamento": "subtopico",
+    "pagina": 332
+  },
+  {
+    "bloco": "ritual--rit-limites",
+    "titulo": "Duração e resolução",
+    "tratamento": "subtopico",
+    "pagina": 332
+  },
+  {
+    "bloco": "ritual--rit-ajuda",
+    "titulo": "Falha e custos",
+    "tratamento": "subtopico",
+    "pagina": 333
+  },
+  {
+    "bloco": "ritual--rit-ajuda",
+    "titulo": "Exemplo completo",
+    "tratamento": "exemplo",
+    "pagina": 333
+  },
+  {
+    "bloco": "ritual--pacto-permanente",
+    "titulo": "Benefícios",
+    "tratamento": "subtopico",
+    "pagina": 334
+  },
+  {
+    "bloco": "ritual--pacto-temporario",
+    "titulo": "Definir a troca",
+    "tratamento": "subtopico",
+    "pagina": 335
+  },
+  {
+    "bloco": "ritual--pacto-temporario",
+    "titulo": "Preparação fora de combate",
+    "tratamento": "subtopico",
+    "pagina": 335
+  },
+  {
+    "bloco": "ritual--promessa",
+    "titulo": "Registro do acordo",
+    "tratamento": "subtopico",
+    "pagina": 335
+  },
+  {
+    "bloco": "ritual--promessa",
+    "titulo": "Quebra",
+    "tratamento": "subtopico",
+    "pagina": 336
+  },
+  {
+    "bloco": "ritual--pacto-restricao",
+    "titulo": "Ideias para desenvolver",
+    "tratamento": "subtopico",
+    "pagina": 336
+  },
+  {
+    "bloco": "campo--inv-restricoes-tempo",
+    "titulo": "Atrasar",
+    "tratamento": "subtopico",
+    "pagina": 345
+  },
+  {
+    "bloco": "campo--inv-restricoes-tempo",
+    "titulo": "Carga em dois turnos",
+    "tratamento": "subtopico",
+    "pagina": 345
+  },
+  {
+    "bloco": "campo--inv-liberacao",
+    "titulo": "Liberação Máxima",
+    "tratamento": "subtopico",
+    "pagina": 349
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Habilidades do cão",
+    "tratamento": "grupo",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Mordida",
+    "tratamento": "entrada",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Mordida precisa",
+    "tratamento": "entrada",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Farejador",
+    "tratamento": "entrada",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Evolução",
+    "tratamento": "subtopico",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidades-lista-criacao",
+    "titulo": "Lista de ritual",
+    "tratamento": "subtopico",
+    "pagina": 358
+  },
+  {
+    "bloco": "construcao--entidades-lista-criacao",
+    "titulo": "Criação",
+    "tratamento": "subtopico",
+    "pagina": 359
+  },
+  {
+    "bloco": "construcao--entidades-domar",
+    "titulo": "Submissão",
+    "tratamento": "subtopico",
+    "pagina": 359
+  },
+  {
+    "bloco": "construcao--entidades-domar",
+    "titulo": "Tentativa durante o combate",
+    "tratamento": "subtopico",
+    "pagina": 359
+  },
+  {
+    "bloco": "construcao--entidades-tipos",
+    "titulo": "Quantidade de entidades",
+    "tratamento": "subtopico",
+    "pagina": 360
+  },
+  {
+    "bloco": "construcao--entidades-atributos",
+    "titulo": "Acerto e dificuldade",
+    "tratamento": "subtopico",
+    "pagina": 361
+  },
+  {
+    "bloco": "construcao--entidades-atributos",
+    "titulo": "Resistências e perícias",
+    "tratamento": "subtopico",
+    "pagina": 361
+  },
+  {
+    "bloco": "construcao--entidades-vida-defesa",
+    "titulo": "Defesa sem uniforme",
+    "tratamento": "subtopico",
+    "pagina": 362
+  },
+  {
+    "bloco": "construcao--entidades-vida-defesa",
+    "titulo": "Equipamento",
+    "tratamento": "subtopico",
+    "pagina": 362
+  },
+  {
+    "bloco": "construcao--entidades-progressao",
+    "titulo": "Habilidades conhecidas",
+    "tratamento": "subtopico",
+    "pagina": 363
+  },
+  {
+    "bloco": "construcao--entidades-progressao",
+    "titulo": "Ao subir de nível",
+    "tratamento": "subtopico",
+    "pagina": 363
+  },
+  {
+    "bloco": "construcao--entidades-familias",
+    "titulo": "Família Livre",
+    "tratamento": "subtopico",
+    "pagina": 364
+  },
+  {
+    "bloco": "construcao--entidades-saldo",
+    "titulo": "Amparo",
+    "tratamento": "subtopico",
+    "pagina": 368
+  },
+  {
+    "bloco": "construcao--entidades-controle",
+    "titulo": "Controle",
+    "tratamento": "subtopico",
+    "pagina": 369
+  },
+  {
+    "bloco": "construcao--entidades-controle",
+    "titulo": "Efeito fora de combate",
+    "tratamento": "subtopico",
+    "pagina": 369
+  },
+  {
+    "bloco": "construcao--entidades-restricoes",
+    "titulo": "Tempo e ações",
+    "tratamento": "subtopico",
+    "pagina": 369
+  },
+  {
+    "bloco": "construcao--entidades-restricoes",
+    "titulo": "Conferência da montagem",
+    "tratamento": "subtopico",
+    "pagina": 370
+  },
+  {
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "titulo": "Aplicação na ficha",
+    "tratamento": "subtopico",
+    "pagina": 371
+  },
+  {
+    "bloco": "construcao--entidades-passiva-propria",
+    "titulo": "Exemplo: Registro de cena",
+    "tratamento": "exemplo",
+    "pagina": 371
+  },
+  {
+    "bloco": "construcao--entidades-passiva-propria",
+    "titulo": "Limites da proposta",
+    "tratamento": "subtopico",
+    "pagina": 372
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "titulo": "Mordida precisa",
+    "tratamento": "subtopico",
+    "pagina": 372
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "titulo": "Conferência dos efeitos",
+    "tratamento": "subtopico",
+    "pagina": 372
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Habilidades do vigia",
+    "tratamento": "grupo",
+    "pagina": 373
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Orientação",
+    "tratamento": "entrada",
+    "pagina": 373
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Tiras de resgate",
+    "tratamento": "entrada",
+    "pagina": 373
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Remendo de papel",
+    "tratamento": "entrada",
+    "pagina": 374
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Registro de cena",
+    "tratamento": "entrada",
+    "pagina": 374
+  },
+  {
+    "bloco": "fabricacao--fab-projeto",
+    "titulo": "Materiais e custo",
+    "tratamento": "subtopico",
+    "pagina": 376
+  },
+  {
+    "bloco": "fabricacao--fab-projeto",
+    "titulo": "Prazo",
+    "tratamento": "subtopico",
+    "pagina": 376
+  },
+  {
+    "bloco": "fabricacao--fab-teste",
+    "titulo": "Sucesso e falha",
+    "tratamento": "subtopico",
+    "pagina": 377
+  },
+  {
+    "bloco": "fabricacao--fab-conclusao",
+    "titulo": "Transferência e herança",
+    "tratamento": "subtopico",
+    "pagina": 377
+  }
+]

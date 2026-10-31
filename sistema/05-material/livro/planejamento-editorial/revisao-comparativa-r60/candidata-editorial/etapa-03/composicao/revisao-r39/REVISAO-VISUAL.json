@@ -1,0 +1,20 @@
+{
+  "sha256_pdf": "d83d8e398975feb76536ad5fd0379125a02635b2ebd584ef985cdd4be43fb29a",
+  "paginas_inspecionadas_ampliadas": [
+    290,
+    291,
+    292
+  ],
+  "paginas_com_desenho_diferente": [
+    291
+  ],
+  "resultado": "Sem cortes, sobreposições ou problemas de continuidade observados. Represália e Sangue Frio completas na p. 291; as páginas vizinhas preservam a composição.",
+  "imagens": {
+    "paginas/p-291.png": "d52b1764db789992247682d6bf332acf0cc168d9f8577f6ec335f814936f04a9",
+    "paginas/p-292.png": "5ca42ccbcf9a18383c9eaa32ae1cb33fcaac847933e84d6536462cc56273c0ce",
+    "paginas/p-290.png": "644bdb39d67226fd92b0e36a20fb4e80f69831d3e373461e02b23c75c984c5e2",
+    "paginas/p-288.png": "e0de68991bf8f9373026d18488e364deb7afe56d5e68a5b2738a60bbceca7e17",
+    "paginas/p-289.png": "ff3f303a31b4daddd352244797ee18875f60c6ec969cc92a39349671ab220980"
+  },
+  "demais_paginas": "366 páginas com comandos de desenho PDF idênticos aos da R38."
+}

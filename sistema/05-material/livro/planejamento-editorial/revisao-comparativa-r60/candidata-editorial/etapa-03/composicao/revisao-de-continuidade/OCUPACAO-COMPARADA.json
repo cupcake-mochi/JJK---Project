@@ -1,0 +1,4141 @@
+{
+  "metodo": "Soma das áreas dos elementos diagramados dividida pela área útil. Indicador de triagem; não mede legibilidade nem substitui inspeção visual. Capas, artes, sumários e formulários excluídos.",
+  "R32": [
+    {
+      "pagina": 4,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 74.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 5,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 29.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 7,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 8,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 14.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 10,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 61.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 11,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 70.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 12,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 13,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 70.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 14,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 66.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 15,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 58.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 16,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 65.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 17,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 75.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 18,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 19,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 66.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 20,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 83.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 21,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 22,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 21.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 23,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 69.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 24,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 80.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 25,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 74.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 26,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 27,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 12.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 28,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 68.9,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 29,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 30,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 61.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 31,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 32,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 79.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 33,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 67.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 34,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 79.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 35,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 36,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 82.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 37,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 38,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 81.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 39,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 40,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 80.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 41,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 82.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 42,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 43,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 11.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 45,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 37.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 46,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 80.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 47,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 78.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 48,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 58.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 49,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 66.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 50,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 76.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 51,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 52,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 82.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 53,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 67.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 54,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 62.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 55,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 74.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 56,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 57,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 81.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 58,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 80.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 59,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 68.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 60,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 40.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 62,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 80.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 63,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 60.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 64,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 77.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 65,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 76.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 66,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 70.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 67,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 69.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 68,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 10.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 71,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 76.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 73,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 21.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 75,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 76,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 83.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 77,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 78.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 79,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 68.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 80,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 29.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 82,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 82.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 83,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 79.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 85,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 82.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 86,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 74.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 87,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 58.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 90,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 91,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 92,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 93,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 94,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 95,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 96,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 25.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 98,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 99,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 55.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 100,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 101,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 86.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 102,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 103,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 104,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 86.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 105,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 79.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 106,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 107,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 108,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 109,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 111,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 112,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 113,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 84.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 114,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 115,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 50.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 116,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 117,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 118,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 119,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 120,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 46.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 122,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 80.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 123,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 50.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 124,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 83.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 125,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 84.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 126,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 127,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 128,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 80.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 129,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 130,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 131,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 132,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 40.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 134,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 135,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 136,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 72.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 137,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 138,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 139,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 140,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 141,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 142,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 143,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 144,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 66.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 146,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 147,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 148,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 149,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 150,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 83.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 151,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 152,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 153,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 58.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 155,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 80.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 156,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 157,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 57.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 160,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 161,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 162,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 20.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 164,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 165,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 166,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 84.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 167,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 30.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 169,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 170,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 171,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 172,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 86.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 173,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 24.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 175,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 74.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 176,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 177,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 178,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 72.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 179,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 76.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 180,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 75.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 181,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 182,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 69.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 184,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 67.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 185,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 186,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 51.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 187,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 59.7,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 188,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 68.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 189,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 83.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 190,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 62.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 191,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 78.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 192,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 66.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 193,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 80.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 194,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 195,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 62.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 196,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 46.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 197,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 67.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 198,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 65.2,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 199,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 62.3,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 200,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 67.2,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 201,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 50.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 202,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 82.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 203,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 77.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 204,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 85.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 205,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 72.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 206,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 68.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 207,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 60.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 208,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 59.3,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 209,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 38.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 211,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 86.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 212,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 66.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 213,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 75.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 214,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 58.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 215,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 80.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 216,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 71.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 217,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 80.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 218,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 77.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 219,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 22.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 221,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 63.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 222,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 62.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 223,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 56.4,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 224,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 68.9,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 225,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 70.8,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 226,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 78.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 227,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 84.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 228,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 85.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 229,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 49.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 232,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 77.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 233,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 55.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 234,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 79.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 235,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 72.0,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 236,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 61.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 237,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 79.8,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 238,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 76.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 239,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 71.0,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 240,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 78.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 241,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 46.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 242,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 67.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 243,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 72.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 244,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 70.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 245,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 83.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 246,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 56.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 247,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 71.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 248,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 53.8,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 249,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 63.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 250,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 76.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 251,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 65.6,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 252,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 57.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 253,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 88.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 254,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 48.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 255,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 256,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 50.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 257,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 20.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 259,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 83.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 260,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 261,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 76.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 262,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 81.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 263,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 66.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 264,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 68.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 265,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 78.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 266,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 82.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 267,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 268,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 75.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 269,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 79.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 270,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 77.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 271,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 68.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 272,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 64.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 273,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 72.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 274,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 66.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 275,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 70.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 276,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 61.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 277,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 81.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 278,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 79.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 279,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 18.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 282,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 26.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 283,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 80.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 284,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 285,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 78.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 286,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 287,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 74.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 288,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 83.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 289,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 78.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 290,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 66.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 291,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 72.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 292,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 74.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 293,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 67.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 295,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 55.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 297,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 78.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 298,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 71.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 299,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 77.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 300,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 79.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 301,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 24.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 303,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 304,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 73.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 305,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 53.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 306,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 71.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 307,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 29.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 309,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 70.4,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 310,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 77.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 311,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 78.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 312,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 75.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 313,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 18.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 316,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 77.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 317,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 67.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 318,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 72.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 319,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 82.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 320,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 66.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 321,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 72.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 322,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 79.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 323,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 64.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 324,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 57.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 326,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 82.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 327,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 51.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 328,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 89.4,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 329,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 65.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 330,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 59.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 331,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 73.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 332,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 79.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 333,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 86.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 334,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 63.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 336,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 79.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 337,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 80.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 338,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 83.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 339,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 86.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 340,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 85.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 341,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 72.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 342,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 84.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 343,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 81.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 344,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 76.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 345,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 81.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 346,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 58.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 347,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 78.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 348,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 76.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 349,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 83.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 350,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 351,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 55.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 354,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 62.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 355,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 77.0,
+      "pares_de_colunas": 2
+    },
+    {
+      "pagina": 356,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 76.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 357,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 61.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 358,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 69.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 359,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 64.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 360,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 361,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 61.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 362,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 73.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 363,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 70.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 364,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 62.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 365,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 55.7,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 366,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 57.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 367,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 72.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 368,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 15.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 369,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 68.3,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 370,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 75.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 371,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 69.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 372,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 68.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 373,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 79.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 374,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 12.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 375,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 64.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 376,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 377,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 79.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 378,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 18.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 380,
+      "capitulo": 18,
+      "ocupacao_estimada_percentual": 77.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 381,
+      "capitulo": 18,
+      "ocupacao_estimada_percentual": 40.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 383,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 81.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 384,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 79.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 385,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 46.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 387,
+      "capitulo": 20,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 388,
+      "capitulo": 20,
+      "ocupacao_estimada_percentual": 19.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 390,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 391,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 392,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 393,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 93.2,
+      "pares_de_colunas": 1
+    }
+  ],
+  "R33": [
+    {
+      "pagina": 4,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 54.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 5,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 52.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 7,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 39.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 8,
+      "capitulo": 1,
+      "ocupacao_estimada_percentual": 49.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 10,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 61.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 11,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 12,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 81.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 13,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 75.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 14,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 62.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 15,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 71.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 16,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 75.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 17,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 73.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 18,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 19,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 76.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 20,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 75.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 21,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 66.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 22,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 69.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 23,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 65.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 24,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 63.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 25,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 58.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 26,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 58.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 27,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 68.9,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 28,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 73.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 29,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 71.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 30,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 31,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 72.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 32,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 33,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 71.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 34,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 35,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 73.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 36,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 37,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 71.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 38,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 78.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 39,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 77.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 40,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 67.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 41,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 75.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 42,
+      "capitulo": 2,
+      "ocupacao_estimada_percentual": 70.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 44,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 37.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 45,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 76.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 46,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 67.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 47,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 73.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 48,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 75.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 49,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 67.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 50,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 74.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 51,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 73.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 52,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 76.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 53,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 62.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 54,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 74.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 55,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 56,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 77.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 57,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 58,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 62.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 59,
+      "capitulo": 3,
+      "ocupacao_estimada_percentual": 60.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 61,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 61.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 62,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 64.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 63,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 61.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 64,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 58.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 65,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 66.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 66,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 64.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 67,
+      "capitulo": 4,
+      "ocupacao_estimada_percentual": 72.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 70,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 65.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 71,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 52.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 54.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 74,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 75,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 83.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 76,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 78.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 78,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 48.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 79,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 50.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 81,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 82.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 82,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 79.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 84,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 82.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 85,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 74.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 86,
+      "capitulo": 5,
+      "ocupacao_estimada_percentual": 59.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 89,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 90,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 63.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 91,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 63.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 92,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 66.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 93,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 94,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 61.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 95,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 97,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 36.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 98,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 52.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 99,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 100,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 101,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 102,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 103,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 82.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 104,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 83.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 105,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 79.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 106,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 85.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 107,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 87.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 108,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 81.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 110,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 111,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 112,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 113,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 114,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 115,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 116,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 117,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 118,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 64.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 119,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 65.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 121,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 83.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 122,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 123,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 63.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 124,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 66.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 125,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 126,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 65.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 127,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 128,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 129,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 130,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 74.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 131,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 133,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 134,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 135,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 72.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 136,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 137,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 138,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 139,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 72.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 140,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 141,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 77.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 142,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 143,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 144,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 61.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 145,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 146,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 61.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 147,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 69.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 148,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 149,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 150,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 78.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 151,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 73.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 152,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 80.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 153,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 155,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 66.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 156,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 157,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 72.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 159,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 61.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 160,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 161,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 60.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 162,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 63.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 164,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 165,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 71.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 166,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 167,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 61.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 169,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 60.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 170,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 68.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 171,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 67.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 172,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 75.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 173,
+      "capitulo": 6,
+      "ocupacao_estimada_percentual": 62.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 175,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 69.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 176,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 177,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 63.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 178,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 62.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 179,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 64.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 180,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 64.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 181,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 61.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 182,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 62.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 183,
+      "capitulo": 7,
+      "ocupacao_estimada_percentual": 69.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 185,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 58.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 186,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 63.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 187,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 69.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 188,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 74.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 189,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 75.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 190,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 76.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 191,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 69.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 192,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 71.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 193,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 70.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 194,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 64.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 195,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 61.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 196,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 65.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 197,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 67.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 198,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 74.4,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 199,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 60.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 200,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 73.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 201,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 60.5,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 202,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 62.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 203,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 75.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 204,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 73.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 205,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 71.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 206,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 207,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 63.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 208,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 70.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 209,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 65.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 211,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 212,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 71.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 213,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 72.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 214,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 215,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 63.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 216,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 71.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 217,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 66.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 218,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 70.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 219,
+      "capitulo": 8,
+      "ocupacao_estimada_percentual": 64.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 221,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 60.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 222,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 58.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 223,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 60.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 224,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 68.9,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 225,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 70.8,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 226,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 78.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 227,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 228,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 72.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 229,
+      "capitulo": 9,
+      "ocupacao_estimada_percentual": 68.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 232,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 73.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 233,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 61.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 234,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 58.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 235,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 78.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 236,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 57.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 237,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 63.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 238,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 53.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 239,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 63.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 240,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 62.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 241,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 63.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 242,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 70.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 243,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 62.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 244,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 78.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 245,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 77.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 246,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 84.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 247,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 81.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 248,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 78.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 249,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 76.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 250,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 64.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 251,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 66.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 252,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 253,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 66.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 254,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 68.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 255,
+      "capitulo": 10,
+      "ocupacao_estimada_percentual": 63.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 257,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 83.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 258,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 73.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 259,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 84.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 260,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 67.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 261,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 73.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 262,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 68.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 263,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 78.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 264,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 82.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 265,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 71.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 266,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 71.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 267,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 75.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 268,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 65.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 269,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 80.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 270,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 73.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 271,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 82.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 272,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 79.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 273,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 76.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 274,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 73.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 275,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 65.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 276,
+      "capitulo": 11,
+      "ocupacao_estimada_percentual": 72.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 279,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 26.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 280,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 76.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 281,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 67.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 282,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 67.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 283,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 70.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 284,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 70.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 285,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 65.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 286,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 73.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 287,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 75.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 288,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 72.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 289,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 75.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 290,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 75.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 291,
+      "capitulo": 12,
+      "ocupacao_estimada_percentual": 30.3,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 293,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 55.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 295,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 62.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 296,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 66.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 297,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 62.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 298,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 70.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 299,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 70.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 301,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 71.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 302,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 66.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 303,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 75.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 304,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 73.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 306,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 65.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 307,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 61.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 308,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 63.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 309,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 60.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 310,
+      "capitulo": 13,
+      "ocupacao_estimada_percentual": 65.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 313,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 61.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 314,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 72.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 315,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 68.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 316,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 68.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 317,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 70.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 318,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 319,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 80.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 320,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 75.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 321,
+      "capitulo": 14,
+      "ocupacao_estimada_percentual": 67.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 323,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 68.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 324,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 67.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 325,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 89.4,
+      "pares_de_colunas": 0
+    },
+    {
+      "pagina": 326,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 65.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 327,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 78.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 328,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 74.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 329,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 69.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 330,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 67.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 331,
+      "capitulo": 15,
+      "ocupacao_estimada_percentual": 68.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 333,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 71.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 334,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 76.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 335,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 74.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 336,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 73.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 337,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 77.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 338,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 76.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 339,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 77.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 340,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 75.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 341,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 74.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 342,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 77.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 343,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 77.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 344,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 74.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 345,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 78.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 346,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 81.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 347,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 79.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 348,
+      "capitulo": 16,
+      "ocupacao_estimada_percentual": 81.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 351,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 62.1,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 352,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 61.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 353,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 64.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 354,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 68.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 355,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 65.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 356,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 59.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 357,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 73.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 358,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 61.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 359,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 60.7,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 360,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 57.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 361,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 61.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 362,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 68.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 363,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 32.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 364,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 80.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 365,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 78.0,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 366,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 76.6,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 367,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 63.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 368,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 70.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 369,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 65.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 370,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 64.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 371,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 52.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 372,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 63.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 373,
+      "capitulo": 17,
+      "ocupacao_estimada_percentual": 59.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 375,
+      "capitulo": 18,
+      "ocupacao_estimada_percentual": 59.8,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 376,
+      "capitulo": 18,
+      "ocupacao_estimada_percentual": 59.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 378,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 81.4,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 379,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 79.3,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 380,
+      "capitulo": 19,
+      "ocupacao_estimada_percentual": 46.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 382,
+      "capitulo": 20,
+      "ocupacao_estimada_percentual": 48.2,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 383,
+      "capitulo": 20,
+      "ocupacao_estimada_percentual": 51.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 385,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.9,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 386,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 387,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 94.5,
+      "pares_de_colunas": 1
+    },
+    {
+      "pagina": 388,
+      "capitulo": 21,
+      "ocupacao_estimada_percentual": 93.2,
+      "pares_de_colunas": 1
+    }
+  ]
+}

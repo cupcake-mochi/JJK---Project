@@ -1,0 +1,87 @@
+{
+  "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Se o Classe 0 causar dano, substitui os dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Ferrão substitui estes dados no golpe. Identifica a exclusão sem reproduzir o procedimento da aptidão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Estímulo Muscular",
+      "trecho": "Se o Classe 0 causar dano, substitui os dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Ferrão substitui estes dados no golpe. Identifica a exclusão sem reproduzir o procedimento da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "Agente principal; fonte completa e candidata confrontadas",
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "sha256_atual": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "correcoes": [
+      "C06",
+      "C08"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  },
+  "revisao_delta_2026_10_04_d04": {
+    "sha256_anterior": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+    "correcoes": [
+      "D04"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Uma frase acrescentada no Combate Irregular, sem nome de outro capítulo e sem título novo. O único achado E002 é o mesmo trecho de Canalizar em Golpe já revisado nas exceções."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+    "sha256_atual": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+    "mudancas": [
+      {
+        "codigo": "D07",
+        "achado": "G4-07",
+        "secao": "van-fogo",
+        "antes": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.",
+        "depois": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_execucao_preparada": {
+    "sha256_anterior": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+    "sha256_atual": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+    "mudancas": [
+      {
+        "codigo": "VG-REV-03",
+        "secao": "van-base",
+        "antes": "| 7 | Ataque Extra |",
+        "depois": "| 7 | Ataque Extra e Execução Preparada |"
+      },
+      {
+        "codigo": "VG-REV-04",
+        "secao": "van-avanco",
+        "antes": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.",
+        "depois": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.\n\n**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**."
+      }
+    ],
+    "registro": "caminhos/vanguarda/lote-01/ALTERACOES.json (VG-REV-03 e VG-REV-04)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "O trecho novo foi lido no contexto. Ele não explica capacidade de outro dono: Sequência, Concluir, Condução acertada e TR adicional da Conclusão são deste capítulo. Com a exceção de localização já registrada (Ferrão, que cita Canalizar em Golpe e Estímulo Muscular, casada pelo trecho), o conferir_editorial dá 0 achados no texto atual. O título da seção não muda, e a linha da tabela nomeia as duas habilidades do nível."
+  }
+}

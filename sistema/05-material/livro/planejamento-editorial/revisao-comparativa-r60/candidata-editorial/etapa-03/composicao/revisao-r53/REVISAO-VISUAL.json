@@ -1,0 +1,85 @@
+{
+  "resultado": "aprovado",
+  "paginas": 411,
+  "sha256_pdf": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "metodo": {
+    "visao_geral": "411 páginas novamente renderizadas e inspecionadas em 35 pranchas de até 12 páginas, em ordem.",
+    "resolucao_pranchas_dpi": 70,
+    "paginas_claras_ampliadas_nesta_rodada": [
+      251,
+      253,
+      315,
+      323,
+      385,
+      387,
+      388,
+      392
+    ],
+    "resolucao_detalhes_dpi": "100; página 392 a 120",
+    "noturno": "Texto, geometria e imagens comparados em todas as páginas. Nova renderização e inspeção ampliada da página 392; demais amostras noturnas da revisão anterior conservam composição.",
+    "ultima_correcao": "Somente a composição da página 392 mudou nesta rodada. Ela foi renderizada e inspecionada nas duas paletas."
+  },
+  "correcoes": [
+    "Invocação por espaço distribuída em duas colunas após a tabela larga.",
+    "Explicação da base dividida em parágrafos, com duas colunas abaixo da tabela de funções.",
+    "Aberturas de Sem Técnica e Técnica Marcial com procedimento comum e referências.",
+    "Exemplos com vida temporária individual recalculados pela base Leve.",
+    "Orientação do Vigia alinhada à categoria perícia e ao prazo de Firmeza no começo do próximo turno da invocadora."
+  ],
+  "conferido": [
+    "Hierarquia dos títulos e associação ao texto inicial",
+    "Cabeçalhos e quebras de tabelas",
+    "Fluxo de leitura da coluna esquerda para a direita",
+    "Legibilidade de corpo, metadados e links na paleta noturna",
+    "Margens, rodapés e ausência de sobreposição visível"
+  ],
+  "defeitos_visuais_abertos": [],
+  "brancos_conservados": "Aberturas e finais de capítulos, páginas de apresentação ilustradas e catálogos de equipamentos com tabelas próprias. Não foram preenchidos com conteúdo fora de ordem.",
+  "limites": "A visão geral em pranchas detecta composição e distribuição; as páginas listadas receberam inspeção ampliada. A revisão visual não comprova compreensão por todo leitor ou equilíbrio em mesa.",
+  "historico_metodo_anterior": {
+    "visao_geral": "411 páginas inspecionadas em 26 pranchas de 16 páginas; retorno às pranchas com alterações depois de cada composição.",
+    "resolucao_pranchas_dpi": 55,
+    "resolucao_detalhes_dpi": 100,
+    "paginas_claras_individuais": [
+      140,
+      247,
+      251,
+      253,
+      254,
+      255,
+      264,
+      280,
+      292,
+      315,
+      316,
+      317,
+      321,
+      323,
+      324,
+      325,
+      326,
+      327,
+      385,
+      387,
+      388,
+      392,
+      393
+    ],
+    "paginas_noturnas_individuais": [
+      1,
+      251,
+      253,
+      280,
+      292,
+      315,
+      323,
+      385,
+      392,
+      399,
+      406
+    ],
+    "comparacao_de_composicao": "A última revisão alterou apenas a página 253; todas as páginas foram renderizadas novamente. As páginas anteriores às rotas foram comparadas com o manifesto anterior para conservar a revisão já realizada."
+  },
+  "sha256_noturno": "5d9ab8468c25741b5de2b29ec8864decf917138f1b5a25e2a89a7500c002c35a",
+  "reconferencia_em": "2026-10-19T02:17:46.521499+00:00"
+}

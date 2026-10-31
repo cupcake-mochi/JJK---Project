@@ -1,0 +1,45 @@
+Planejando 1 Ciclo Maldito
+  5 páginas
+Planejando 2 Regras gerais
+  32 páginas
+Planejando 3 Dano e recuperação
+  16 páginas
+Planejando 4 Criar um personagem
+  7 páginas
+Planejando 5 Origens
+  34 páginas
+Planejando 6 Caminhos e Trilhas
+  88 páginas
+Planejando 7 Perícias e Ofícios
+  8 páginas
+Planejando 8 Equipamento
+  33 páginas
+Planejando 9 Progressão
+  9 páginas
+Planejando 10 Fundamento
+  39 páginas
+Planejando 11 Catálogo de criação
+  21 páginas
+Planejando 12 Aptidões e Refino
+  13 páginas
+Planejando 13 Rotas de criação
+  20 páginas
+Planejando 14 Poderes avançados
+  10 páginas
+Planejando 15 Ritual e Pactos
+  11 páginas
+Planejando 16 Invocações em campo
+  17 páginas
+Planejando 17 Construir invocações
+  20 páginas
+Planejando 18 Mestrar
+  2 páginas
+Planejando 19 Glossário
+  4 páginas
+Planejando 20 Consulta rápida
+  4 páginas
+Planejando 21 Índice
+  7 páginas
+/home/mizuki/CHAT-GPT/RPG -JJK/revisao-comparativa-r60/candidata-editorial/etapa-02/composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf 427 páginas 7699 elementos 22 continuações necessárias
+{"paginas": 427, "bytes": 63190992}
+{"resultado": "aprovado", "paginas": 427, "conteudo_ausente": [], "margens": [], "sobreposicoes": [], "links": {"internos": 3452, "externos": 4}, "diferencas_geometria": [], "paginas_para_atencao_visual": [{"pagina": 5, "ocupacao_esquerda": 0.48, "ocupacao_direita": 0.34, "tipo": "toc"}, {"pagina": 8, "ocupacao_esquerda": 0.59, "ocupacao_direita": 0.54, "tipo": "content"}, {"pagina": 10, "ocupacao_esquerda": 0.49, "ocupacao_direita": 0.58, "tipo": "content"}, {"pagina": 11, "ocupacao_esquerda": 0.65, "ocupacao_direita": 0.51, "tipo": "content"}, {"pagina": 25, "ocupacao_esquerda": 0.52, "ocupacao_direita": 0.6, "tipo": "content"}, {"pagina": 46, "ocupacao_esquerda": 0.55, "ocupacao_direita": 0.5, "tipo": "content"}, {"pagina": 59, "ocupacao_esquerda": 0.59, "ocupacao_direita": 0.89, "tipo": "content"}, {"pagina": 66, "ocupacao_esquerda": 0.53, "ocupacao_direita": 0.96, "tipo": "content"}, {"pagina": 84, "ocupacao_esquerda": 0.54, "ocupacao_direita": 0.54, "tipo": "content"}, {"pagina": 86, "ocupacao_esquerda": 0.65, "ocupacao_direita": 0.52, "tipo": "content"}, {"pagina": 88, "ocupacao_esquerda": 0.36, "ocupacao_direita": 0.36, "tipo": "content"}, {"pagina": 99, "ocupacao_esquerda": 0.54, "ocupacao_direita": 0.56, "tipo": "content"}, {"pagina": 104, "ocupacao_esquerda": 0.53, "ocupacao_direita": 0.54, "tipo": "content"}, {"pagina": 107, "ocupacao_esquerda": 0.56, "ocupacao_direita": 0.93, "tipo": "content"}, {"pagina": 115, "ocupacao_esquerda": 0.66, "ocupacao_direita": 0.63, "tipo": "content"}, {"pagina": 117, "ocupacao_esquerda": 0.46, "ocupacao_direita": 0.28, "tipo": "content"}, {"pagina": 128, "ocupacao_esquerda": 0.52, "ocupacao_direita": 0.49, "tipo": "content"}, {"pagina": 141, "ocupacao_esquerda": 0.64, "ocupacao_direita": 0.9, "tipo": "content"}, {"pagina": 152, "ocupacao_esquerda": 0.53, "ocupacao_direita": 0.5, "tipo": "content"}, {"pagina": 167, "ocupacao_esquerda": 0.58, "ocupacao_direita": 0.64, "tipo": "content"}, {"pagina": 173, "ocupacao_esquerda": 0.99, "ocupacao_direita": 0.7, "tipo": "content"}, {"pagina": 182, "ocupacao_esquerda": 0.61, "ocupacao_direita": 0.5, "tipo": "content"}, {"pagina": 193, "ocupacao_esquerda": 0.48, "ocupacao_direita": 0.51, "tipo": "content"}, {"pagina": 200, "ocupacao_esquerda": 0.34, "ocupacao_direita": 0.3, "tipo": "content"}, {"pagina": 201, "ocupacao_esquerda": 0.67, "ocupacao_direita": 0.95, "tipo": "content"}, {"pagina": 227, "ocupacao_esquerda": 0.55, "ocupacao_direita": 0.6, "tipo": "content"}, {"pagina": 246, "ocupacao_esquerda": 0.44, "ocupacao_direita": 0.5, "tipo": "content"}, {"pagina": 262, "ocupacao_esquerda": 0.6, "ocupacao_direita": 0.6, "tipo": "content"}, {"pagina": 266, "ocupacao_esquerda": 0.61, "ocupacao_direita": 0.62, "tipo": "content"}, {"pagina": 270, "ocupacao_esquerda": 0.4, "ocupacao_direita": 0.35, "tipo": "content"}, {"pagina": 278, "ocupacao_esquerda": 0.59, "ocupacao_direita": 0.88, "tipo": "content"}, {"pagina": 282, "ocupacao_esquerda": 0.39, "ocupacao_direita": 0.41, "tipo": "content"}, {"pagina": 286, "ocupacao_esquerda": 0.26, "ocupacao_direita": 0.3, "tipo": "content"}, {"pagina": 322, "ocupacao_esquerda": 0.33, "ocupacao_direita": 0.37, "tipo": "content"}, {"pagina": 325, "ocupacao_esquerda": 0.47, "ocupacao_direita": 0.47, "tipo": "content"}, {"pagina": 331, "ocupacao_esquerda": 0.42, "ocupacao_direita": 0.54, "tipo": "content"}, {"pagina": 337, "ocupacao_esquerda": 0.58, "ocupacao_direita": 0.54, "tipo": "content"}, {"pagina": 347, "ocupacao_esquerda": 0.97, "ocupacao_direita": 0.71, "tipo": "content"}, {"pagina": 349, "ocupacao_esquerda": 0.62, "ocupacao_direita": 0.65, "tipo": "content"}, {"pagina": 360, "ocupacao_esquerda": 0.39, "ocupacao_direita": 0.31, "tipo": "content"}, {"pagina": 384, "ocupacao_esquerda": 0.52, "ocupacao_direita": 0.45, "tipo": "content"}, {"pagina": 413, "ocupacao_esquerda": 0.39, "ocupacao_direita": 0.33, "tipo": "content"}, {"pagina": 417, "ocupacao_esquerda": 0.91, "ocupacao_direita": 0.64, "tipo": "content"}, {"pagina": 426, "ocupacao_esquerda": 0.3, "ocupacao_direita": 0.3, "tipo": "content"}]}

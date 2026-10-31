@@ -1,0 +1,1748 @@
+{
+  "id": "1II2r3Yex_7H5BV2SVaU80XXyvPSqX6DNwYGmoSdBoOc",
+  "url": "https://docs.google.com/spreadsheets/d/1II2r3Yex_7H5BV2SVaU80XXyvPSqX6DNwYGmoSdBoOc/edit",
+  "sheet_id": 450013,
+  "requests": [
+    {
+      "addSheet": {
+        "properties": {
+          "sheetId": 450013,
+          "title": "ORIGENS R45",
+          "gridProperties": {
+            "rowCount": 50,
+            "columnCount": 8,
+            "hideGridlines": true,
+            "frozenRowCount": 2
+          }
+        }
+      }
+    },
+    {
+      "updateCells": {
+        "start": {
+          "sheetId": 450013,
+          "rowIndex": 0,
+          "columnIndex": 0
+        },
+        "rows": [
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "CICLO MALDITO · ORIGENS R45"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Registre as novas escolhas aqui. As demais automações da ficha original foram preservadas; confira bônus e limites pela R45."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Origem"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=IF(LEFT(FICHA!X11;4)=\"Feto\";\"Híbrido\";IF(LEFT(FICHA!X11;18)=\"Restrição Celestial\";\"Restrição Celestial\";TRIM(INDEX(SPLIT(FICHA!X11;\"·\");1;1))))"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Modalidade / clã / ramo"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Marcante"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Menor 1"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Escolhas fixas da menor 1"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Menor 2"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Escolhas fixas da menor 2"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Ofício compatível"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "CE4 / limites com o mestre"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "PV atuais"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=FICHA!D26"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "PV máximos atuais"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=FICHA!J26"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Constituição"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=FICHA!T19"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "PE disponíveis"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=FICHA!D30"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Maior Classe"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=IF(FICHA!AH11<1;0;1+(FICHA!AH11>=5)+(FICHA!AH11>=9)+(FICHA!AH11>=13)+(FICHA!AH11>=17)+(FICHA!AH11>=21)+(FICHA!AH11>=26))"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Usos por cena"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=ROUNDDOWN(B16/2;0)+1"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Usos gastos nesta cena"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "numberValue": 0
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Já usou neste turno?"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "stringValue": "Não"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Ação Bônus disponível?"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "stringValue": "Sim"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Cura impedida?"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "stringValue": "Não"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Limiar de 30%"
+                }
+              },
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=ROUNDDOWN(B15*30%;0)"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "formulaValue": "=IF(B4<>\"Híbrido\";\"NÃO SE APLICA · esta marcante é do Híbrido.\";IF(OR(B15<1;B14<1;B14>B24);\"FORA DA FAIXA · requer 1 a \"&B24&\" PV, sem vida temporária.\";IF(B20>=B19;\"NA FAIXA · usos da cena esgotados.\";IF(B21=\"Sim\";\"NA FAIXA · já usada neste turno.\";IF(B22<>\"Sim\";\"NA FAIXA · sem Ação Bônus disponível.\";IF(B23=\"Sim\";\"NA FAIXA · cura impedida.\";IF(OR(B17<1;B18<1);\"NA FAIXA · PE ou Classe insuficientes.\";\"PODE REGENERAR · Ação Bônus; escolha 1 a \"&MIN(B17;B18)&\" PE. Confira os demais impedimentos da ficha.\")))))))"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "COMO USAR"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "O aviso lê PV, máximo, Constituição, PE e nível da aba FICHA. Escolha a Origem em FICHA!X11. “Feto” na ficha antiga corresponde a Híbrido."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Informe os usos gastos e as três respostas acima. Ao iniciar outra cena, zere apenas os usos por cena; ao começar seu turno, marque que ainda não usou neste turno."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "O aviso não gasta recursos nem aplica cura. Ao usar, desconte os PE, some 1 uso gasto, marque o turno e role 1d6 por PE. A cura pode ultrapassar 30%, até o máximo."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Vida temporária não entra no limiar. Uma mudança na vida máxima recalcula o limiar. A ficha não conclui automaticamente se uma condição permite agir."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "CE4 da Restrição corporal: recebido na criação; fora dos espaços conhecidos e dos cinco Talentos pagos. Registre os limites próprios acima."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Corpo Amaldiçoado: mantenha o ofício compatível fixado na criação. O reparo usa a R44: 1/2, 1/3 ou 1/4 da vida máxima, conforme as Classes."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {
+                "userEnteredValue": {
+                  "stringValue": "Campos claros são editáveis; campos cinza são calculados. O painel registra escolhas e acompanha o Híbrido; não aplica automaticamente todos os bônus das Origens."
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "values": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ],
+        "fields": "userEnteredValue"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 0,
+          "endRowIndex": 50,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "textFormat": {
+              "fontFamily": "Arial",
+              "fontSize": 11,
+              "foregroundColor": {
+                "red": 0.15,
+                "green": 0.15,
+                "blue": 0.15
+              }
+            },
+            "verticalAlignment": "MIDDLE",
+            "wrapStrategy": "WRAP"
+          }
+        },
+        "fields": "userEnteredFormat"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "COLUMNS",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "properties": {
+          "pixelSize": 240
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "COLUMNS",
+          "startIndex": 1,
+          "endIndex": 8
+        },
+        "properties": {
+          "pixelSize": 90
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "ROWS",
+          "startIndex": 0,
+          "endIndex": 46
+        },
+        "properties": {
+          "pixelSize": 29
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "ROWS",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "properties": {
+          "pixelSize": 48
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "ROWS",
+          "startIndex": 1,
+          "endIndex": 2
+        },
+        "properties": {
+          "pixelSize": 52
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 0,
+          "endRowIndex": 1,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 1,
+          "endRowIndex": 2,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 25,
+          "endRowIndex": 28,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 29,
+          "endRowIndex": 30,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 30,
+          "endRowIndex": 32,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 32,
+          "endRowIndex": 34,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 34,
+          "endRowIndex": 36,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 36,
+          "endRowIndex": 38,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 38,
+          "endRowIndex": 40,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 40,
+          "endRowIndex": 42,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 42,
+          "endRowIndex": 45,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 3,
+          "endRowIndex": 4,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 4,
+          "endRowIndex": 5,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 5,
+          "endRowIndex": 6,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 6,
+          "endRowIndex": 7,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 7,
+          "endRowIndex": 8,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 8,
+          "endRowIndex": 9,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 9,
+          "endRowIndex": 10,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 10,
+          "endRowIndex": 11,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 11,
+          "endRowIndex": 12,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 13,
+          "endRowIndex": 14,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 14,
+          "endRowIndex": 15,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 15,
+          "endRowIndex": 16,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 16,
+          "endRowIndex": 17,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 17,
+          "endRowIndex": 18,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 18,
+          "endRowIndex": 19,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 19,
+          "endRowIndex": 20,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 20,
+          "endRowIndex": 21,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 21,
+          "endRowIndex": 22,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 22,
+          "endRowIndex": 23,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "mergeCells": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 23,
+          "endRowIndex": 24,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "mergeType": "MERGE_ALL"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 0,
+          "endRowIndex": 1,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.34,
+              "green": 0.12,
+              "blue": 0.24
+            },
+            "textFormat": {
+              "foregroundColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "bold": true,
+              "fontSize": 19
+            }
+          }
+        },
+        "fields": "userEnteredFormat.backgroundColor,userEnteredFormat.textFormat"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 29,
+          "endRowIndex": 30,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.34,
+              "green": 0.12,
+              "blue": 0.24
+            },
+            "textFormat": {
+              "foregroundColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+              },
+              "bold": true,
+              "fontSize": 12
+            }
+          }
+        },
+        "fields": "userEnteredFormat.backgroundColor,userEnteredFormat.textFormat"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 3,
+          "endRowIndex": 4,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.94,
+              "green": 0.94,
+              "blue": 0.94
+            }
+          }
+        },
+        "fields": "userEnteredFormat.backgroundColor"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 13,
+          "endRowIndex": 19,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.94,
+              "green": 0.94,
+              "blue": 0.94
+            }
+          }
+        },
+        "fields": "userEnteredFormat.backgroundColor"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 23,
+          "endRowIndex": 24,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.94,
+              "green": 0.94,
+              "blue": 0.94
+            }
+          }
+        },
+        "fields": "userEnteredFormat.backgroundColor"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 25,
+          "endRowIndex": 28,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "backgroundColor": {
+              "red": 0.96,
+              "green": 0.92,
+              "blue": 0.94
+            },
+            "textFormat": {
+              "bold": true,
+              "fontSize": 15,
+              "foregroundColor": {
+                "red": 0.34,
+                "green": 0.12,
+                "blue": 0.24
+              }
+            }
+          }
+        },
+        "fields": "userEnteredFormat"
+      }
+    },
+    {
+      "setDataValidation": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 20,
+          "endRowIndex": 21,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "rule": {
+          "condition": {
+            "type": "ONE_OF_LIST",
+            "values": [
+              {
+                "userEnteredValue": "Sim"
+              },
+              {
+                "userEnteredValue": "Não"
+              }
+            ]
+          },
+          "strict": true,
+          "showCustomUi": true
+        }
+      }
+    },
+    {
+      "setDataValidation": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 21,
+          "endRowIndex": 22,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "rule": {
+          "condition": {
+            "type": "ONE_OF_LIST",
+            "values": [
+              {
+                "userEnteredValue": "Sim"
+              },
+              {
+                "userEnteredValue": "Não"
+              }
+            ]
+          },
+          "strict": true,
+          "showCustomUi": true
+        }
+      }
+    },
+    {
+      "setDataValidation": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 22,
+          "endRowIndex": 23,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "rule": {
+          "condition": {
+            "type": "ONE_OF_LIST",
+            "values": [
+              {
+                "userEnteredValue": "Sim"
+              },
+              {
+                "userEnteredValue": "Não"
+              }
+            ]
+          },
+          "strict": true,
+          "showCustomUi": true
+        }
+      }
+    },
+    {
+      "setDataValidation": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 19,
+          "endRowIndex": 20,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "rule": {
+          "condition": {
+            "type": "NUMBER_GREATER_THAN_EQ",
+            "values": [
+              {
+                "userEnteredValue": "0"
+              }
+            ]
+          },
+          "strict": true
+        }
+      }
+    },
+    {
+      "addConditionalFormatRule": {
+        "index": 0,
+        "rule": {
+          "ranges": [
+            {
+              "sheetId": 450013,
+              "startRowIndex": 25,
+              "endRowIndex": 28,
+              "startColumnIndex": 0,
+              "endColumnIndex": 8
+            }
+          ],
+          "booleanRule": {
+            "condition": {
+              "type": "TEXT_CONTAINS",
+              "values": [
+                {
+                  "userEnteredValue": "PODE REGENERAR"
+                }
+              ]
+            },
+            "format": {
+              "backgroundColor": {
+                "red": 0.83,
+                "green": 0.94,
+                "blue": 0.86
+              },
+              "textFormat": {
+                "bold": true,
+                "foregroundColor": {
+                  "red": 0.08,
+                  "green": 0.3,
+                  "blue": 0.16
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "addConditionalFormatRule": {
+        "index": 0,
+        "rule": {
+          "ranges": [
+            {
+              "sheetId": 1442471576,
+              "startRowIndex": 25,
+              "endRowIndex": 28,
+              "startColumnIndex": 3,
+              "endColumnIndex": 9
+            }
+          ],
+          "booleanRule": {
+            "condition": {
+              "type": "CUSTOM_FORMULA",
+              "values": [
+                {
+                  "userEnteredValue": "=AND(REGEXMATCH($X$11;\"^(Híbrido|Feto)( · Sem Técnica)?$\");$D$26>=1;$J$26>=1;$D$26<=ROUNDDOWN($J$26*30%;0))"
+                }
+              ]
+            },
+            "format": {
+              "backgroundColor": {
+                "red": 0.96,
+                "green": 0.92,
+                "blue": 0.94
+              },
+              "textFormat": {
+                "bold": true,
+                "foregroundColor": {
+                  "red": 0.34,
+                  "green": 0.12,
+                  "blue": 0.24
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "updateCells": {
+        "start": {
+          "sheetId": 1442471576,
+          "rowIndex": 25,
+          "columnIndex": 3
+        },
+        "rows": [
+          {
+            "values": [
+              {
+                "note": "R45 — Híbrido: o destaque indica 1–30% do máximo atual, sem vida temporária. Veja ORIGENS R45 para PE, usos e impedimentos. O destaque sozinho não autoriza a ativação."
+              }
+            ]
+          }
+        ],
+        "fields": "note"
+      }
+    }
+  ],
+  "tests": [
+    {
+      "nome": "entrada na faixa",
+      "v": {
+        "4": "Híbrido",
+        "14": 12,
+        "15": 41,
+        "16": 3,
+        "17": 5,
+        "18": 2,
+        "20": 0,
+        "21": "Não",
+        "22": "Sim",
+        "23": "Não"
+      },
+      "esperado": "PODE REGENERAR",
+      "obtido": "PODE REGENERAR · Ação Bônus; escolha 1 a 2 PE. Confira os demais impedimentos da ficha.",
+      "passou": true
+    },
+    {
+      "nome": "cura acima do limiar desliga aviso",
+      "v": {
+        "14": 20
+      },
+      "esperado": "FORA DA FAIXA",
+      "obtido": "FORA DA FAIXA · requer 1 a 12 PV, sem vida temporária.",
+      "passou": true
+    },
+    {
+      "nome": "zero não permite ativar",
+      "v": {
+        "14": 0
+      },
+      "esperado": "FORA DA FAIXA",
+      "obtido": "FORA DA FAIXA · requer 1 a 12 PV, sem vida temporária.",
+      "passou": true
+    },
+    {
+      "nome": "limiar inclusivo",
+      "v": {
+        "14": 12
+      },
+      "esperado": "PODE REGENERAR",
+      "obtido": "PODE REGENERAR · Ação Bônus; escolha 1 a 2 PE. Confira os demais impedimentos da ficha.",
+      "passou": true
+    },
+    {
+      "nome": "máximo atual reduzido",
+      "v": {
+        "15": 30
+      },
+      "esperado": "FORA DA FAIXA",
+      "obtido": "FORA DA FAIXA · requer 1 a 9 PV, sem vida temporária.",
+      "passou": true
+    },
+    {
+      "nome": "usos esgotados",
+      "v": {
+        "15": 41,
+        "20": 2
+      },
+      "esperado": "NA FAIXA · usos",
+      "obtido": "NA FAIXA · usos da cena esgotados.",
+      "passou": true
+    },
+    {
+      "nome": "turno já gasto",
+      "v": {
+        "20": 0,
+        "21": "Sim"
+      },
+      "esperado": "NA FAIXA · já",
+      "obtido": "NA FAIXA · já usada neste turno.",
+      "passou": true
+    },
+    {
+      "nome": "sem bônus",
+      "v": {
+        "21": "Não",
+        "22": "Não"
+      },
+      "esperado": "NA FAIXA · sem Ação",
+      "obtido": "NA FAIXA · sem Ação Bônus disponível.",
+      "passou": true
+    },
+    {
+      "nome": "cura impedida",
+      "v": {
+        "22": "Sim",
+        "23": "Sim"
+      },
+      "esperado": "NA FAIXA · cura",
+      "obtido": "NA FAIXA · cura impedida.",
+      "passou": true
+    },
+    {
+      "nome": "PE insuficientes",
+      "v": {
+        "17": 0,
+        "23": "Não"
+      },
+      "esperado": "NA FAIXA · PE",
+      "obtido": "NA FAIXA · PE ou Classe insuficientes.",
+      "passou": true
+    },
+    {
+      "nome": "outra Origem",
+      "v": {
+        "4": "Latente",
+        "17": 5
+      },
+      "esperado": "NÃO SE APLICA",
+      "obtido": "NÃO SE APLICA · esta marcante é do Híbrido.",
+      "passou": true
+    }
+  ],
+  "ajustes_visuais_posteriores": [
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": 450013,
+          "dimension": "COLUMNS",
+          "startIndex": 1,
+          "endIndex": 8
+        },
+        "properties": {
+          "pixelSize": 60
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 3,
+          "endRowIndex": 24,
+          "startColumnIndex": 1,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "horizontalAlignment": "LEFT"
+          }
+        },
+        "fields": "userEnteredFormat.horizontalAlignment"
+      }
+    },
+    {
+      "repeatCell": {
+        "range": {
+          "sheetId": 450013,
+          "startRowIndex": 25,
+          "endRowIndex": 28,
+          "startColumnIndex": 0,
+          "endColumnIndex": 8
+        },
+        "cell": {
+          "userEnteredFormat": {
+            "wrapStrategy": "WRAP",
+            "verticalAlignment": "MIDDLE"
+          }
+        },
+        "fields": "userEnteredFormat.wrapStrategy,userEnteredFormat.verticalAlignment"
+      }
+    }
+  ],
+  "limite": "Painel de registro e alerta do Híbrido implementados em cópia. Outras automações herdadas não foram convertidas integralmente para as novas Origens; conferir bônus manualmente."
+}

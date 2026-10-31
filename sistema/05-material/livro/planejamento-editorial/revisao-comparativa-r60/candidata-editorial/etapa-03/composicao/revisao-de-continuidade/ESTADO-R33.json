@@ -1,0 +1,27 @@
+{
+  "edicao": "R33",
+  "base": "R32",
+  "etapa": "6C — continuidade, colunas e aproveitamento de página",
+  "alteracoes_textuais": 0,
+  "texto_base": "LIVRO-COMPLETO.md idêntico à R32",
+  "criterios": [
+    "No máximo um par de colunas por página; leitura integral da esquerda antes da direita.",
+    "Aberturas curtas acompanham o começo útil da primeira entrada subordinada.",
+    "Apresentações muito curtas e linhas de ativação acompanham o parágrafo seguinte quando o conjunto é compacto.",
+    "Explicações extensas continuam entre parágrafos, com indicação de contexto; seu trecho final acompanha a primeira subseção.",
+    "Tabelas compactas permanecem na coluna quando os textos e números cabem nas fontes aprovadas.",
+    "Quebras consideram o restante da sequência para evitar páginas finais quase vazias.",
+    "Colunas muito desiguais recebem distribuição mais equilibrada quando a sequência permite, sem alterar a ordem de leitura."
+  ],
+  "preservados": [
+    "texto",
+    "ordem editorial",
+    "fontes e tamanhos aprovados",
+    "estilos B+C, tabelas B e seções C",
+    "imagens e recortes",
+    "capa",
+    "créditos"
+  ],
+  "registro": "revisao-de-continuidade/ALTERACOES-DIAGRAMACAO.json",
+  "revisao_visual_integral_ampliada": "Etapa 6D, posterior a esta entrega"
+}

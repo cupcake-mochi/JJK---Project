@@ -1,0 +1,669 @@
+[
+  {
+    "id": "PF001",
+    "paginas_r36": [
+      10,
+      44
+    ],
+    "paginas_r37": [
+      10,
+      44
+    ],
+    "blocos": [],
+    "titulo": "Consulta e primeiro grupo do índice usam o mesmo nível visual",
+    "situacao": "resolvido",
+    "resolucao": "Consulta distingue-se dos grupos internos por fonte, cor e tamanho; conferidos os dois índices locais.",
+    "ressalva": null
+  },
+  {
+    "id": "PF002",
+    "paginas_r36": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "paginas_r37": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "blocos": [
+      "geral--atributos",
+      "geral--pericias",
+      "geral--resistencia",
+      "geral--testes",
+      "geral--turnos"
+    ],
+    "titulo": "Contexto de Atributos continua sobre regras de testes",
+    "situacao": "resolvido",
+    "resolucao": "Contextos de Testes, Treino e modificadores e Testes de Resistência passam a acompanhar o assunto real.",
+    "ressalva": null
+  },
+  {
+    "id": "PF003",
+    "paginas_r36": [
+      33
+    ],
+    "paginas_r37": [
+      33,
+      34
+    ],
+    "blocos": [
+      "geral--arrasto",
+      "geral--carga"
+    ],
+    "titulo": "Tabela de massa não explicita que corresponde ao limite sem penalidade",
+    "situacao": "resolvido",
+    "resolucao": "Nota da tabela de massa explicita limite sem penalidade e sem equipamento.",
+    "ressalva": null
+  },
+  {
+    "id": "PF004",
+    "paginas_r36": [
+      36
+    ],
+    "paginas_r37": [
+      36,
+      37
+    ],
+    "blocos": [
+      "geral--esconder",
+      "geral--procurar"
+    ],
+    "titulo": "Instrução pode parecer mandar somar atributos ao bônus já completo",
+    "situacao": "resolvido",
+    "resolucao": "A lista de componentes passa a explicar o bônus completo, sem mandar somá-los novamente.",
+    "ressalva": null
+  },
+  {
+    "id": "PF005",
+    "paginas_r36": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "paginas_r37": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "blocos": [
+      "geral--buscar",
+      "geral--energia-exemplo",
+      "geral--estudar",
+      "geral--ler",
+      "geral--mundo",
+      "geral--ocultacao-ataque",
+      "geral--pressao",
+      "geral--procurar"
+    ],
+    "titulo": "Repetição de limites de percepção alonga a consulta",
+    "situacao": "resolvido",
+    "resolucao": "Três repetições dispensáveis encurtadas; preservados a regra principal, os exemplos e as exceções de percepção.",
+    "ressalva": null
+  },
+  {
+    "id": "PF006",
+    "paginas_r36": [
+      53,
+      185,
+      192,
+      257,
+      285,
+      367
+    ],
+    "paginas_r37": [
+      53,
+      54,
+      184,
+      185,
+      191,
+      256,
+      257,
+      285,
+      367,
+      368
+    ],
+    "blocos": [
+      "aptidoes--apt-catalogo",
+      "construcao--entidades-efeitos-reduzidos",
+      "construcao--entidades-saldo",
+      "dano--zero",
+      "equip--eq-propriedades",
+      "fundamento--limitesmaxima",
+      "pericias--oficios"
+    ],
+    "titulo": "Bloco após elemento largo ocupa só a coluna esquerda",
+    "situacao": "resolvido",
+    "resolucao": "Explicações curtas após tabelas largas passam a aproveitar a largura inteira, sem um segundo par de colunas na página.",
+    "ressalva": "Folgas justificadas mantidas; ver RELATORIO.md."
+  },
+  {
+    "id": "PF007",
+    "paginas_r36": [
+      63,
+      64
+    ],
+    "paginas_r37": [
+      62,
+      63,
+      64
+    ],
+    "blocos": [
+      "ab--ab-caminho",
+      "ab--ab-capacidades",
+      "ab--ab-equipamento"
+    ],
+    "titulo": "Blocos de criação deixam colunas muito desiguais",
+    "situacao": "resolvido",
+    "resolucao": "Recompostos os blocos da criação com quebras entre parágrafos; mantido o percurso esquerda inteira, depois direita inteira.",
+    "ressalva": null
+  },
+  {
+    "id": "PF008",
+    "paginas_r36": [
+      65
+    ],
+    "paginas_r37": [
+      64,
+      65
+    ],
+    "blocos": [
+      "ab--ab-equipamento",
+      "ab--ab-kaori"
+    ],
+    "titulo": "Título da técnica e título do feitiço têm o mesmo formato",
+    "situacao": "resolvido",
+    "resolucao": "Técnica de Kaori recebe papel de grupo e Peso nas Mãos, papel de entrada subordinada.",
+    "ressalva": null
+  },
+  {
+    "id": "PF009",
+    "paginas_r36": [
+      78,
+      79
+    ],
+    "paginas_r37": [
+      77,
+      78,
+      79
+    ],
+    "blocos": [
+      "origens--feto-beneficios",
+      "origens--origem-feto",
+      "origens--origem-sem-tecnica"
+    ],
+    "titulo": "Último Legado do Feto fica sozinho na coluna da página seguinte",
+    "situacao": "resolvido",
+    "resolucao": "Talhe acompanha o encerramento dos Legados do Feto; Sem Técnica começa depois, sem deixar Talhe isolado na página seguinte.",
+    "ressalva": null
+  },
+  {
+    "id": "PF010",
+    "paginas_r36": [
+      83
+    ],
+    "paginas_r37": [
+      82,
+      83
+    ],
+    "blocos": [
+      "origens--corpo-inteiro-manutencao",
+      "origens--corpo-ninhada-gemeos"
+    ],
+    "titulo": "Exemplo de Ninhada aparece depois de uma entrada de Gêmeos",
+    "situacao": "resolvido",
+    "resolucao": "Exemplo identificado como Ninhada: Rodízio e movido para antes de Gêmeos.",
+    "ressalva": null
+  },
+  {
+    "id": "PF012",
+    "paginas_r36": [
+      64,
+      91,
+      99,
+      231
+    ],
+    "paginas_r37": [
+      63,
+      64,
+      90,
+      91,
+      92,
+      98,
+      99,
+      230,
+      231
+    ],
+    "blocos": [
+      "ab--ab-capacidades",
+      "ab--ab-equipamento",
+      "bastiao--bas-bastiao",
+      "bastiao--bas-olhos",
+      "progressao--prog-atualizar",
+      "progressao--prog-trilhas",
+      "vanguarda--van-base"
+    ],
+    "titulo": "Vida inicial de Vanguarda ausente e fórmula permite contar Constituição duas vezes",
+    "situacao": "resolvido",
+    "resolucao": "Restituída vida inicial 8 + Constituição de Vanguarda e ganho 5 + Constituição; fórmula de Progressão esclarece que parte dos valores fixos e soma Constituição uma vez por nível. Conferido com a referência v0.331: nível 4 e Constituição 3 resultam em 35 PV.",
+    "ressalva": null
+  },
+  {
+    "id": "PF013",
+    "paginas_r36": [
+      104
+    ],
+    "paginas_r37": [
+      102,
+      103,
+      104
+    ],
+    "blocos": [
+      "vanguarda--van-bote",
+      "vanguarda--van-feiticos",
+      "vanguarda--van-yumi"
+    ],
+    "titulo": "Apresentação geral de Batedor fica sob Batedor: Yumi",
+    "situacao": "resolvido",
+    "resolucao": "Batedor apresenta as três rotas; Batedor: Yumi começa somente depois da tabela geral, com contexto próprio.",
+    "ressalva": null
+  },
+  {
+    "id": "PF015",
+    "paginas_r36": [
+      113,
+      200
+    ],
+    "paginas_r37": [
+      112,
+      113,
+      114,
+      135,
+      136,
+      198,
+      199
+    ],
+    "blocos": [
+      "equip--eqa-armas",
+      "equip--eqm-reserva",
+      "guia--guia",
+      "guia--guia-progressao",
+      "evocador--evocador"
+    ],
+    "titulo": "Frase sobre treino parece apresentá-lo como requisito de uso",
+    "situacao": "resolvido",
+    "resolucao": "Guia, Evocador e Equipamento esclarecem que treino evita a desvantagem por falta de treino, sem transformá-lo em requisito para empunhar.",
+    "ressalva": null
+  },
+  {
+    "id": "PF016",
+    "paginas_r36": [
+      99,
+      111,
+      113,
+      114,
+      117,
+      119,
+      125,
+      126,
+      127,
+      149,
+      163,
+      198,
+      199,
+      248,
+      284,
+      296,
+      368
+    ],
+    "paginas_r37": [
+      98,
+      99,
+      110,
+      111,
+      112,
+      113,
+      114,
+      116,
+      117,
+      118,
+      123,
+      124,
+      125,
+      126,
+      147,
+      148,
+      161,
+      162,
+      163,
+      196,
+      197,
+      198,
+      199,
+      246,
+      247,
+      284,
+      295,
+      368
+    ],
+    "blocos": [
+      "aptidoes--apt-marcos",
+      "aptidoes--apt-propria",
+      "construcao--entidades-saldo",
+      "emanador--ema-base",
+      "emanador--ema-desdobramento",
+      "emanador--ema-modulacoes",
+      "emanador--ema-remodelar",
+      "equip--eqm-municao",
+      "equip--eqm-recarga",
+      "equip--eqm-reserva",
+      "evocador--ev-parceria-complementar",
+      "evocador--ev-parceria-intervencoes",
+      "fundamento--aplicacoes",
+      "fundamento--controle",
+      "guia--guia",
+      "guia--guia-aberturas",
+      "guia--guia-arquiteto",
+      "guia--guia-obras-maiores",
+      "guia--guia-plano-conjunto",
+      "guia--guia-progressao",
+      "incursor--inc-assassino",
+      "incursor--inc-guarda",
+      "vanguarda--van-base",
+      "vanguarda--van-executor",
+      "vanguarda--van-executor-avanco"
+    ],
+    "titulo": "Quebras de blocos deixam grandes áreas vazias em páginas de regras",
+    "situacao": "resolvido",
+    "resolucao": "Revistos agrupamentos, abertura útil, reserva de espaço para tabelas e fluxo após elementos largos. Folgas de encerramento e de tabelas de consulta inteiras são documentadas individualmente.",
+    "ressalva": "Folgas justificadas mantidas; ver RELATORIO.md."
+  },
+  {
+    "id": "PF017",
+    "paginas_r36": [
+      141
+    ],
+    "paginas_r37": [
+      139,
+      140,
+      141
+    ],
+    "blocos": [
+      "evocador--ev-combinar",
+      "evocador--ev-complementar",
+      "evocador--ev-preparacao"
+    ],
+    "titulo": "Exemplo de Ajustar a Preparação aparece sob Recolher sob Ataque",
+    "situacao": "resolvido",
+    "resolucao": "Exemplo de Ajustar a Preparação junto da intervenção correspondente; exemplo seguinte identificado como Recolher sob Ataque.",
+    "ressalva": null
+  },
+  {
+    "id": "PF018",
+    "paginas_r36": [
+      145
+    ],
+    "paginas_r37": [
+      143,
+      144,
+      145
+    ],
+    "blocos": [
+      "evocador--ev-principal-continuidade",
+      "evocador--ev-principal-protecao"
+    ],
+    "titulo": "Preservar o Aprimoramento fica subordinado a Especial de Continuidade",
+    "situacao": "resolvido",
+    "resolucao": "Preservar o Aprimoramento aparece como intervenção de nível 11; Especial de Continuidade começa no título de nível 19.",
+    "ressalva": null
+  },
+  {
+    "id": "PF019",
+    "paginas_r36": [
+      153
+    ],
+    "paginas_r37": [
+      151,
+      152
+    ],
+    "blocos": [
+      "evocador--ev-multiplas-duplas",
+      "evocador--ev-multiplas-entrada"
+    ],
+    "titulo": "Exemplo de substituição fica sob Entrada Ágil",
+    "situacao": "resolvido",
+    "resolucao": "Exemplo de Manifestação em Grupo e sua conclusão movidos para antes de Entrada Ágil, com identificação explícita.",
+    "ressalva": null
+  },
+  {
+    "id": "PF020",
+    "paginas_r36": [
+      163,
+      164,
+      168,
+      169,
+      170,
+      171,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "paginas_r37": [
+      161,
+      162,
+      163,
+      164,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "blocos": [
+      "incursor--inc-assassino",
+      "incursor--inc-base",
+      "incursor--inc-cirurgico",
+      "incursor--inc-continuacoes",
+      "incursor--inc-corpo",
+      "incursor--inc-cortar",
+      "incursor--inc-destino",
+      "incursor--inc-finta",
+      "incursor--inc-guarda",
+      "incursor--inc-interceptar",
+      "incursor--inc-malabarista",
+      "incursor--inc-perfeita",
+      "incursor--inc-projecao",
+      "incursor--inc-pugilista",
+      "incursor--inc-redirecionar",
+      "incursor--inc-redirecionar-resolucao",
+      "incursor--inc-retorno",
+      "incursor--inc-ricochete"
+    ],
+    "titulo": "Navegação das Trilhas do Incursor muda de conjunto",
+    "situacao": "resolvido",
+    "resolucao": "Menu das Trilhas do Incursor uniforme nas aberturas e continuações.",
+    "ressalva": null
+  },
+  {
+    "id": "PF021",
+    "paginas_r36": [
+      264
+    ],
+    "paginas_r37": [
+      262,
+      263,
+      264
+    ],
+    "blocos": [
+      "catalogo--cat-area",
+      "catalogo--cat-area-continua",
+      "catalogo--cat-mira"
+    ],
+    "titulo": "Salto: frase atribui o TR ao conjurador",
+    "situacao": "resolvido",
+    "resolucao": "Salto explicita quem rola: o conjurador no ataque; o segundo alvo no TR.",
+    "ressalva": null
+  },
+  {
+    "id": "PF022",
+    "paginas_r36": [
+      253,
+      274
+    ],
+    "paginas_r37": [
+      251,
+      252,
+      273,
+      274
+    ],
+    "blocos": [
+      "catalogo--cat-proprio",
+      "catalogo--cat-restricoes-conjuracao",
+      "fundamento--ampliar",
+      "fundamento--classezero"
+    ],
+    "titulo": "Corpo a Corpo: exceção da vaga na Classe 0 merece repetição curta",
+    "situacao": "resolvido",
+    "resolucao": "Repetida no catálogo a exceção já vigente da Classe 0: a exigência da Forma não ocupa a vaga de Restrição Leve.",
+    "ressalva": null
+  },
+  {
+    "id": "PF023",
+    "paginas_r36": [
+      288
+    ],
+    "paginas_r37": [
+      287,
+      288
+    ],
+    "blocos": [
+      "aptidoes--apt-circulacao",
+      "aptidoes--apt-energia-positiva",
+      "aptidoes--apt-reversa"
+    ],
+    "titulo": "Ferir maldições e seu procedimento usam o mesmo nível visual",
+    "situacao": "resolvido",
+    "resolucao": "Ferir maldições recebe formato de grupo; seus dois procedimentos ficam subordinados.",
+    "ressalva": null
+  },
+  {
+    "id": "PF024",
+    "paginas_r36": [
+      304,
+      306
+    ],
+    "paginas_r37": [
+      302,
+      303,
+      305,
+      306
+    ],
+    "blocos": [
+      "rotas--rota-bancada",
+      "rotas--rota-cura",
+      "rotas--rota-invocacoes",
+      "rotas--rota-sementes"
+    ],
+    "titulo": "Rotas: seções gerais parecem pertencer ao exemplo ou à lista anterior",
+    "situacao": "resolvido",
+    "resolucao": "Invocações nas rotas encerra o exemplo anterior; Cura distingue-se das quatro sementes, sem virar uma quinta opção.",
+    "ressalva": null
+  },
+  {
+    "id": "PF025",
+    "paginas_r36": [
+      347,
+      348,
+      349,
+      350
+    ],
+    "paginas_r37": [
+      347,
+      348,
+      349,
+      350,
+      351
+    ],
+    "blocos": [
+      "campo--inv-corpos",
+      "campo--inv-dominio",
+      "campo--inv-liberacao",
+      "campo--inv-maxima",
+      "campo--inv-queda",
+      "campo--inv-reparo",
+      "campo--inv-respostas",
+      "campo--inv-talisma"
+    ],
+    "titulo": "Regras de corpos e de cura aparecem subordinadas a Talismãs",
+    "situacao": "resolvido",
+    "resolucao": "Corpos amaldiçoados, Cura e reparo e Trunfos das domadas passam a seções paralelas; contextos deixam de atribuí-los a Talismãs.",
+    "ressalva": null
+  },
+  {
+    "id": "PF026",
+    "paginas_r36": [
+      372
+    ],
+    "paginas_r37": [
+      371,
+      372
+    ],
+    "blocos": [
+      "construcao--entidades-ampliacao",
+      "construcao--entidades-passiva-propria"
+    ],
+    "titulo": "Ampliação de especial aparece dentro de Talentos",
+    "situacao": "resolvido",
+    "resolucao": "Ampliar uma especial recebe seção e contexto próprios, fora da lista de Talentos.",
+    "ressalva": null
+  },
+  {
+    "id": "PF027",
+    "paginas_r36": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "paginas_r37": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "blocos": [
+      "consulta--consulta-indice-1",
+      "consulta--consulta-indice-10",
+      "consulta--consulta-indice-11",
+      "consulta--consulta-indice-2",
+      "consulta--consulta-indice-3",
+      "consulta--consulta-indice-4",
+      "consulta--consulta-indice-5",
+      "consulta--consulta-indice-6",
+      "consulta--consulta-indice-7",
+      "consulta--consulta-indice-8",
+      "consulta--consulta-indice-9"
+    ],
+    "titulo": "Treze referências específicas do índice levam à página anterior à entrada",
+    "situacao": "resolvido",
+    "resolucao": "Treze referências do índice agora usam o título específico como destino; números e links verificados na paginação final.",
+    "ressalva": null
+  }
+]

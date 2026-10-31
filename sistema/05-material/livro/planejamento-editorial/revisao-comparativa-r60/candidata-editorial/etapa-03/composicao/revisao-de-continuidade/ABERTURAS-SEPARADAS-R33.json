@@ -1,0 +1,170 @@
+[
+  {
+    "bloco": "ab--ab-mundo",
+    "titulo": "Mundo jujutsu",
+    "pagina": 6,
+    "filho": "Maldições",
+    "pagina_filho": 7
+  },
+  {
+    "bloco": "dano--reducao",
+    "titulo": "Redução de Dano",
+    "pagina": 46,
+    "filho": "Limites do efeito",
+    "pagina_filho": 47
+  },
+  {
+    "bloco": "origens--origem-feto",
+    "titulo": "Feto",
+    "pagina": 77,
+    "filho": "Legados narrativos",
+    "pagina_filho": 78
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Bastião",
+    "pagina": 88,
+    "filho": "Características",
+    "pagina_filho": 89
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Batedor: Besta",
+    "pagina": 104,
+    "filho": "Conduções da Besta",
+    "pagina_filho": 105
+  },
+  {
+    "bloco": "guia--guia",
+    "titulo": "Guia",
+    "pagina": 109,
+    "filho": "Características do Guia",
+    "pagina_filho": 110
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Todos no Mesmo Plano",
+    "pagina": 112,
+    "filho": "Ordem das ajudas",
+    "pagina_filho": 113
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Apontar a Brecha",
+    "pagina": 116,
+    "filho": "Nível 19 — Rever a Leitura",
+    "pagina_filho": 117
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Emanador",
+    "pagina": 120,
+    "filho": "Características",
+    "pagina_filho": 121
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Evocador",
+    "pagina": 132,
+    "filho": "Características",
+    "pagina_filho": 133
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Combinar Aprimoramentos",
+    "pagina": 137,
+    "filho": "Nível 23 — Intervenção Eficiente",
+    "pagina_filho": 138
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "**Aprimoramentos Distribuídos**",
+    "pagina": 151,
+    "filho": "Exemplo",
+    "pagina_filho": 152
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Fluidez",
+    "pagina": 155,
+    "filho": "Investida",
+    "pagina_filho": 156
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "**Fluidez no nível 15**",
+    "pagina": 156,
+    "filho": "Passo Guardado",
+    "pagina_filho": 157
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Recuperar a Base",
+    "pagina": 164,
+    "filho": "Guarda Marcial",
+    "pagina_filho": 165
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "titulo": "Trajetória de Retorno",
+    "pagina": 171,
+    "filho": "Manejo Contínuo",
+    "pagina_filho": 172
+  },
+  {
+    "bloco": "equip--eqf-equipamento",
+    "titulo": "Equipamento amaldiçoado",
+    "pagina": 210,
+    "filho": "Tipos de ferramenta",
+    "pagina_filho": 211
+  },
+  {
+    "bloco": "ritual--rit-ajuda",
+    "titulo": "Ritual em conjunto",
+    "pagina": 327,
+    "filho": "Falha e custos",
+    "pagina_filho": 328
+  },
+  {
+    "bloco": "campo--inv-ciclo",
+    "titulo": "Turnos das entidades",
+    "pagina": 333,
+    "filho": "Manifestar e recolher",
+    "pagina_filho": 334
+  },
+  {
+    "bloco": "campo--inv-especial",
+    "titulo": "Comandar uma especial",
+    "pagina": 336,
+    "filho": "Energia das entidades",
+    "pagina_filho": 337
+  },
+  {
+    "bloco": "campo--inv-liberacao",
+    "titulo": "Trunfos das domadas",
+    "pagina": 343,
+    "filho": "Liberação Máxima",
+    "pagina_filho": 344
+  },
+  {
+    "bloco": "campo--inv-queda",
+    "titulo": "Queda e destruição",
+    "pagina": 345,
+    "filho": "Retorno e corpos caídos",
+    "pagina_filho": 346
+  },
+  {
+    "bloco": "construcao--entidades-criar",
+    "titulo": "Criar uma invocação",
+    "pagina": 350,
+    "filho": "Etapas da ficha",
+    "pagina_filho": 351
+  },
+  {
+    "bloco": "construcao--entidades-saldo",
+    "titulo": "Saldo e limites",
+    "pagina": 362,
+    "filho": "Amparo",
+    "pagina_filho": 363
+  }
+]

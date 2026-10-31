@@ -1,0 +1,146 @@
+{
+  "metodo": "Conferência editorial com cenários de cálculo e leitura. Não é teste de mesa nem simulação de equilíbrio.",
+  "resultado": "aprovado",
+  "cenarios": [
+    {
+      "nome": "Bloquear: fórmula e empate",
+      "regra_completa": "geral--bloquear",
+      "cenario": "Defesa 17; dados 7 e 4; ataque 18.",
+      "resultado_conferido": "Bloquear 17; ataque acerta.",
+      "aprovado": true
+    },
+    {
+      "nome": "Aparar e crítico",
+      "regra_completa": "geral--aparar",
+      "cenario": "Duplo 10 contra 20 natural.",
+      "resultado_conferido": "O 20 natural acerta; Aparar não concede revide.",
+      "aprovado": true
+    },
+    {
+      "nome": "Recurso de Bloquear",
+      "regra_completa": "geral--bloquear",
+      "cenario": "Personagem já gastou a Reação.",
+      "resultado_conferido": "Bloquear continua disponível; respostas que cobram Reação dependem dela.",
+      "aprovado": true
+    },
+    {
+      "nome": "Impedimento",
+      "regra_completa": "geral--bloquear",
+      "cenario": "Personagem com Guarda Aberta.",
+      "resultado_conferido": "Não pode Bloquear.",
+      "aprovado": true
+    },
+    {
+      "nome": "Conjuração fora do turno",
+      "regra_completa": "fundamento--conjurar",
+      "cenario": "Classe 3 no turno; gatilho válido de Reação de Classe 2 no turno inimigo.",
+      "resultado_conferido": "Permitida com os recursos e requisitos da ficha.",
+      "aprovado": true
+    },
+    {
+      "nome": "Reação dentro do turno",
+      "regra_completa": "fundamento--conjurar",
+      "cenario": "Classe 3 já conjurada; gatilho da Classe 2 no próprio turno.",
+      "resultado_conferido": "Exige exceção expressa ao limite.",
+      "aprovado": true
+    },
+    {
+      "nome": "Cura de Aguentar",
+      "regra_completa": "dano--zero",
+      "cenario": "Máximo 93; Aguentar.",
+      "resultado_conferido": "24 de tratamento, sem teto.",
+      "aprovado": true
+    },
+    {
+      "nome": "Primeiro Insistir",
+      "regra_completa": "dano--insistir",
+      "cenario": "Máximo 93; maior Classe 3; primeiro Insistir.",
+      "resultado_conferido": "31 de tratamento.",
+      "aprovado": true
+    },
+    {
+      "nome": "Insistir posterior",
+      "regra_completa": "dano--insistir",
+      "cenario": "Máximo 93; maior Classe 3; segundo Insistir.",
+      "resultado_conferido": "45 de tratamento pelo teto.",
+      "aprovado": true
+    },
+    {
+      "nome": "Teto em vida alta",
+      "regra_completa": "dano--insistir",
+      "cenario": "Máximo 395; maior Classe 7; primeiro ou segundo Insistir.",
+      "resultado_conferido": "Ambos pedem 105; Aguentar pede 99.",
+      "aprovado": true
+    },
+    {
+      "nome": "Janela",
+      "regra_completa": "dano--zero",
+      "cenario": "Uma Sequela anterior.",
+      "resultado_conferido": "Duas rodadas de janela; com três Sequelas, derrota imediata.",
+      "aprovado": true
+    },
+    {
+      "nome": "Dano durante Morrendo",
+      "regra_completa": "dano--zero",
+      "cenario": "Tratamento necessário 31; acumulado 18; duas rodadas restantes; um golpe causa dano à vida.",
+      "resultado_conferido": "Uma rodada; ainda há 18 de tratamento e faltam 13.",
+      "aprovado": true
+    },
+    {
+      "nome": "Absorção e tipos",
+      "regra_completa": "dano--zero",
+      "cenario": "Golpe com vários tipos; ou dano todo absorvido por vida temporária.",
+      "resultado_conferido": "Um golpe misto consome uma rodada; absorção completa não consome.",
+      "aprovado": true
+    },
+    {
+      "nome": "Saída pela cura",
+      "regra_completa": "dano--socorro",
+      "cenario": "Aguentar com máximo 23; recebe 3 e depois mais 3.",
+      "resultado_conferido": "Sai com 6 PV e uma Sequela; não subtrai o requisito.",
+      "aprovado": true
+    },
+    {
+      "nome": "Estabilização",
+      "regra_completa": "dano--socorro",
+      "cenario": "Alvo Inconsciente e Morrendo; atendimento a 1,5 m; Medicina 14.",
+      "resultado_conferido": "Estável; relógio para, vida continua zero e tratamento se conserva.",
+      "aprovado": true
+    },
+    {
+      "nome": "Desistir de agir",
+      "regra_completa": "dano--insistir",
+      "cenario": "Escolhe Insistir e depois Aguentar.",
+      "resultado_conferido": "Conserva a exigência de tratamento e não volta a Insistir naquela queda.",
+      "aprovado": true
+    },
+    {
+      "nome": "Descanso estável",
+      "regra_completa": "dano--socorro",
+      "cenario": "Estável, fora do perigo; conclui descanso curto.",
+      "resultado_conferido": "Cura 1 mais tratamento anterior, até o máximo; sai com uma Sequela.",
+      "aprovado": true
+    },
+    {
+      "nome": "Remoção de Sequelas",
+      "regra_completa": "dano--sequelas",
+      "cenario": "Descanso longo encerra a queda.",
+      "resultado_conferido": "Resolve a recuperação, registra Sequela e remove todas, inclusive a nova.",
+      "aprovado": true
+    }
+  ],
+  "integridade": [
+    {
+      "verificacao": "Capítulos 1 a 19 preservados integralmente",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Índice preservado integralmente",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Links locais do resumo têm âncora existente",
+      "aprovado": true
+    }
+  ]
+}

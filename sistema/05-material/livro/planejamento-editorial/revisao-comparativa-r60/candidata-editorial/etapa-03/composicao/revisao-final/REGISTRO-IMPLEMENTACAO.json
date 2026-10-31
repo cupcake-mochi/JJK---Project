@@ -1,0 +1,17 @@
+[
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "0ccf635a63afbb83d1feb659367097480fbb15224ef41492853173e7e2f97de5",
+    "sha256_depois": "04d996eba98b24e2815788ef6080e0264fc802935acb1babe14ef8062968f69a"
+  },
+  {
+    "arquivo": "titulos_capitulo.py",
+    "sha256_antes": null,
+    "sha256_depois": "bae28bd47852a686f96fb971cb76ae375b059f7d0d47afc05daada810ebcd555"
+  },
+  {
+    "arquivo": "ESTUDO-CAPITULO.json",
+    "sha256_antes": null,
+    "sha256_depois": "a8a422cb92881dbcee93de43dd4dea8d3daa29ced775e70043562147b8b85f2b"
+  }
+]

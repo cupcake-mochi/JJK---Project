@@ -1,0 +1,1774 @@
+[
+  {
+    "pagina": 2,
+    "entradas": [
+      {
+        "titulo": "Jogo e mundo",
+        "destino": null,
+        "nivel": 0,
+        "coluna": 0,
+        "y": 712.6929133858268,
+        "altura": 37
+      },
+      {
+        "titulo": "1. Ciclo Maldito",
+        "destino": "capitulo-1",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 675.6929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "Primeira sessão",
+        "destino": "ab--ab-primeira-sessao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 647.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Mundo jujutsu",
+        "destino": "ab--ab-mundo",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 631.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Sociedade jujutsu",
+        "destino": "ab--ab-sociedade",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 615.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "2. Regras gerais",
+        "destino": "capitulo-2",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 599.0929133858267,
+        "altura": 28
+      },
+      {
+        "titulo": "Atributos",
+        "destino": "geral--atributos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 571.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Testes",
+        "destino": "geral--testes",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 554.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Turnos",
+        "destino": "geral--turnos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 538.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ações",
+        "destino": "geral--acoes",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 522.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ataques",
+        "destino": "geral--ataques",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 506.2929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Defesa e cobertura",
+        "destino": "geral--defesa",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 490.0929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Bloquear",
+        "destino": "geral--bloquear",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 473.8929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Agarrar, derrubar e empurrar",
+        "destino": "geral--manobras",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 457.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Movimento e terreno",
+        "destino": "geral--movimento",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 441.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Carga",
+        "destino": "geral--carga",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 425.29291338582664,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Percepção e visibilidade",
+        "destino": "geral--perceber",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 409.09291338582665,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Esconder",
+        "destino": "geral--esconder",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 392.89291338582666,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Percepção de energia",
+        "destino": "geral--mundo",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 376.69291338582667,
+        "altura": 16.2
+      },
+      {
+        "titulo": "3. Dano e recuperação",
+        "destino": "capitulo-3",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 360.4929133858267,
+        "altura": 28
+      },
+      {
+        "titulo": "Dano",
+        "destino": "dano--dano",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 332.4929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Tipos de dano",
+        "destino": "dano--tipos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 316.2929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Condições",
+        "destino": "dano--condicoes",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 300.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Cura",
+        "destino": "dano--cura",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 283.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Vida a zero",
+        "destino": "dano--zero",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 267.6929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Descansos",
+        "destino": "dano--descansos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 251.49291338582674,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Exaustão",
+        "destino": "dano--exaustao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 235.29291338582675,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Personagens",
+        "destino": null,
+        "nivel": 0,
+        "coluna": 0,
+        "y": 219.09291338582676,
+        "altura": 37
+      },
+      {
+        "titulo": "4. Criar um personagem",
+        "destino": "capitulo-4",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 182.09291338582676,
+        "altura": 28
+      },
+      {
+        "titulo": "Origem e treinos",
+        "destino": "ab--ab-origem",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 154.09291338582676,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Caminho e Trilha",
+        "destino": "ab--ab-caminho",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 137.89291338582677,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Capacidades iniciais",
+        "destino": "ab--ab-capacidades",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 121.69291338582677,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Equipamento e valores",
+        "destino": "ab--ab-equipamento",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 689.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ficha pronta",
+        "destino": "ab--ab-conferencia",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 673.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "5. Origens",
+        "destino": "capitulo-5",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 657.2929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "Escolhas da Origem",
+        "destino": "origens--origem-escolhas",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 629.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Legados de história",
+        "destino": "origens--legados",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 613.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Latente",
+        "destino": "origens--origem-latente",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 596.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Receptáculo",
+        "destino": "origens--origem-receptaculo",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 580.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Descendente",
+        "destino": "origens--origem-descendente",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 564.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Zenin",
+        "destino": "origens--descendente-zenin",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 548.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Kamo",
+        "destino": "origens--descendente-kamo",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 532.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Gojo",
+        "destino": "origens--descendente-gojo",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 515.8929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Inumaki",
+        "destino": "origens--descendente-inumaki",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 499.69291338582644,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Encarnado",
+        "destino": "origens--origem-encarnado",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 483.49291338582645,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Híbrido",
+        "destino": "origens--origem-feto",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 467.29291338582647,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Corpo Amaldiçoado",
+        "destino": "origens--origem-corpo",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 451.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Reparo do corpo",
+        "destino": "origens--origem-reparo",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 434.8929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Restrição Celestial",
+        "destino": "origens--origem-restricao",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 418.6929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Sem Energia",
+        "destino": "origens--restricao-sem-energia",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 402.4929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Restrição corporal",
+        "destino": "origens--restricao-corpo",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 386.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talento de Categoria de Efeito 4",
+        "destino": "origens--restricao-ce4",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 370.09291338582653,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Sem Técnica",
+        "destino": "origens--origem-sem-tecnica",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 353.89291338582655,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Personalizar sua Origem",
+        "destino": "origens--legado-criar",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 337.69291338582656,
+        "altura": 16.2
+      },
+      {
+        "titulo": "6. Caminhos e Trilhas",
+        "destino": "capitulo-6",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 321.49291338582657,
+        "altura": 28
+      },
+      {
+        "titulo": "Bastião",
+        "destino": "bastiao--bas-bastiao",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 293.49291338582657,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Muro",
+        "destino": "bastiao--bas-muro",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 273.2929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Punho",
+        "destino": "bastiao--bas-punho",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 257.0929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Combatente Amaldiçoado",
+        "destino": "bastiao--bas-combatente",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 240.8929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Vanguarda",
+        "destino": "vanguarda--van-base",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 224.6929133858266,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Estocada",
+        "destino": "vanguarda--van-estocada",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 204.49291338582663,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Batedor",
+        "destino": "vanguarda--van-yumi",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 188.29291338582664,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Batedor: Yumi",
+        "destino": "r40-nav-yumi",
+        "nivel": 3,
+        "coluna": 1,
+        "y": 172.09291338582665,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Batedor: Besta",
+        "destino": "vanguarda--van-besta",
+        "nivel": 3,
+        "coluna": 1,
+        "y": 155.89291338582666,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Batedor: Arma de Fogo",
+        "destino": "vanguarda--van-fogo",
+        "nivel": 3,
+        "coluna": 1,
+        "y": 139.69291338582667,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Executor",
+        "destino": "vanguarda--van-executor",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 123.49291338582667,
+        "altura": 16.2
+      }
+    ]
+  },
+  {
+    "pagina": 3,
+    "entradas": [
+      {
+        "titulo": "Guia",
+        "destino": "guia--guia",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 689.6929133858268,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Arquiteto",
+        "destino": "guia--guia-arquiteto",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 669.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Analista",
+        "destino": "guia--guia-analista",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 653.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Socorrista",
+        "destino": "guia--guia-socorrista",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 637.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Emanador",
+        "destino": "emanador--ema-base",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 620.8929133858267,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Condutor Armado",
+        "destino": "emanador--ema-condutor",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 600.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ressonante",
+        "destino": "emanador--ema-eco",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 584.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Catalisador",
+        "destino": "emanador--ema-impulso",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 568.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Evocador",
+        "destino": "evocador--evocador",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 552.0929133858265,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Invocação Principal",
+        "destino": "evocador--ev-principal",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 531.8929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Parceria",
+        "destino": "evocador--ev-parceria",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 515.6929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Múltiplas Invocações",
+        "destino": "evocador--ev-multiplas",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 499.4929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Incursor",
+        "destino": "incursor--inc-caminho",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 483.2929133858264,
+        "altura": 20.2
+      },
+      {
+        "titulo": "Assassino",
+        "destino": "incursor--inc-assassino",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 463.0929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Pugilista",
+        "destino": "incursor--inc-pugilista",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 446.89291338582643,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Malabarista",
+        "destino": "incursor--inc-malabarista",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 430.69291338582644,
+        "altura": 16.2
+      },
+      {
+        "titulo": "7. Perícias e Ofícios",
+        "destino": "capitulo-7",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 414.49291338582645,
+        "altura": 28
+      },
+      {
+        "titulo": "Tarefas e testes",
+        "destino": "pericias--tarefas",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 386.49291338582645,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Perícias físicas",
+        "destino": "pericias--fisicas",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 370.29291338582647,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Investigação e conhecimento",
+        "destino": "pericias--conhecimento",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 354.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ambiente e saúde",
+        "destino": "pericias--ambiente",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 337.8929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Percepção e influência",
+        "destino": "pericias--essencia",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 321.6929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ofícios",
+        "destino": "pericias--oficios",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 305.4929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Fabricação",
+        "destino": "pericias--fabricacao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 289.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Reparos",
+        "destino": "pericias--reparos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 273.09291338582653,
+        "altura": 16.2
+      },
+      {
+        "titulo": "8. Equipamento",
+        "destino": "capitulo-8",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 256.89291338582655,
+        "altura": 28
+      },
+      {
+        "titulo": "Proteção",
+        "destino": "equip--eqp-protecao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 228.89291338582655,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Munição",
+        "destino": "equip--eqm-municao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 212.69291338582656,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Armas",
+        "destino": "equip--eqa-armas",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 196.49291338582657,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Itens comuns",
+        "destino": "equip--eqi-itens",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 180.29291338582658,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Dinheiro e acesso",
+        "destino": "equip--eqc-dinheiro",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 164.0929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Equipamento inicial",
+        "destino": "equip--eqc-inicial",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 147.8929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Equipamento amaldiçoado",
+        "destino": "equip--eqf-equipamento",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 131.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "9. Progressão",
+        "destino": "capitulo-9",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 712.6929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "Recompensas e custos",
+        "destino": "progressao--prog-xp",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 684.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Progressão dos níveis 1 a 15",
+        "destino": "progressao--prog-tabela-inicial",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 668.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Progressão dos níveis 16 a 30",
+        "destino": "progressao--prog-tabela-avancada",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 652.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Marcos",
+        "destino": "progressao--prog-marcos",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 636.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Trocar de Trilha",
+        "destino": "progressao--prog-trilhas",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 619.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Patentes",
+        "destino": "progressao--prog-patentes",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 603.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Técnicas e poderes",
+        "destino": null,
+        "nivel": 0,
+        "coluna": 1,
+        "y": 587.4929133858266,
+        "altura": 37
+      },
+      {
+        "titulo": "10. Fundamento",
+        "destino": "capitulo-10",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 550.4929133858266,
+        "altura": 28
+      },
+      {
+        "titulo": "Criar sua técnica",
+        "destino": "fundamento-nav-01",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 522.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Sua técnica",
+        "destino": "fundamento-nav-02",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 506.2929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Conheça as Famílias",
+        "destino": "fundamento-nav-03",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 490.0929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Selo",
+        "destino": "fundamento-nav-04",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 473.8929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Capacidades da técnica",
+        "destino": "fundamento-nav-05",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 457.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Expressão da técnica",
+        "destino": "fundamento-nav-06",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 441.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos pagos",
+        "destino": "fundamento-nav-07",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 425.29291338582664,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Criar uma Regra Própria",
+        "destino": "fundamento-nav-08",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 409.09291338582665,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Montar sua aplicação",
+        "destino": "fundamento-nav-09",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 392.89291338582666,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Seu primeiro feitiço",
+        "destino": "fundamento-nav-10",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 376.69291338582667,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Montar aplicações de Classe 0",
+        "destino": "fundamento-nav-11",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 360.4929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Feitiços de Classe 0",
+        "destino": "fundamento-nav-12",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 344.2929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Consultar a montagem",
+        "destino": "fundamento-nav-13",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 328.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Famílias",
+        "destino": "fundamento-nav-14",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 311.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Feitiços conhecidos",
+        "destino": "fundamento-nav-15",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 295.6929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Pontos e preços",
+        "destino": "fundamento-nav-16",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 279.49291338582674,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Funções e saldo",
+        "destino": "fundamento-nav-17",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 263.29291338582675,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Formas",
+        "destino": "fundamento-nav-18",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 247.09291338582676,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Alcance e área",
+        "destino": "fundamento-nav-19",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 230.89291338582677,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Conjurar",
+        "destino": "fundamento-nav-20",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 214.69291338582678,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Restrições e combinações",
+        "destino": "fundamento-nav-21",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 198.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Restrições",
+        "destino": "fundamento-nav-22",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 182.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Combinar peças",
+        "destino": "fundamento-nav-23",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 166.09291338582682,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Três mesclas prontas",
+        "destino": "fundamento-nav-24",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 149.89291338582683,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Controle",
+        "destino": "fundamento-nav-25",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 133.69291338582684,
+        "altura": 16.2
+      }
+    ]
+  },
+  {
+    "pagina": 4,
+    "entradas": [
+      {
+        "titulo": "Outras aplicações",
+        "destino": "fundamento-nav-26",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 689.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Dano e repetições",
+        "destino": "fundamento-nav-27",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 673.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Áreas persistentes",
+        "destino": "fundamento-nav-28",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 657.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Usar a técnica fora de combate",
+        "destino": "fundamento-nav-29",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 641.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Uso Livre",
+        "destino": "fundamento-nav-30",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 624.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Efeitos fora de combate",
+        "destino": "fundamento-nav-31",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 608.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Desenvolver suas aplicações",
+        "destino": "fundamento-nav-32",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 592.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ampliar um feitiço",
+        "destino": "fundamento-nav-33",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 576.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Efeitos próprios",
+        "destino": "fundamento-nav-34",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 560.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Liberação Máxima",
+        "destino": "fundamento-nav-35",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 543.8929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Técnica Máxima",
+        "destino": "fundamento-nav-36",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 527.6929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Exemplo: Passagem de Papel",
+        "destino": "fundamento-nav-38",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 511.4929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Exemplo: Retirada de Emergência",
+        "destino": "fundamento-nav-39",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 495.2929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Ficha de feitiço",
+        "destino": "fundamento-nav-40",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 479.0929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Caminhos e usos especiais",
+        "destino": "fundamento-nav-41",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 462.89291338582643,
+        "altura": 16.2
+      },
+      {
+        "titulo": "11. Catálogo de criação",
+        "destino": "capitulo-11",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 446.69291338582644,
+        "altura": 28
+      },
+      {
+        "titulo": "Melhorias: Efeitos",
+        "destino": "catalogo--cat-efeitos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 418.69291338582644,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Melhorias: Modificadores",
+        "destino": "catalogo--cat-modificadores",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 402.49291338582645,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Criação própria",
+        "destino": "catalogo--cat-proprio",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 386.29291338582647,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Catálogo de Restrições",
+        "destino": "catalogo--cat-restricoes",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 370.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos e Regra Própria",
+        "destino": "catalogo--cat-talentos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 353.8929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos de Categoria 1",
+        "destino": "catalogo--cat-passivas-1",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 337.6929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos de Categoria 2",
+        "destino": "catalogo--cat-passivas-2-recursos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 321.4929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos de Categoria 3",
+        "destino": "catalogo--cat-passivas-3",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 305.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Regra Própria",
+        "destino": "catalogo--cat-regra-propria",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 289.09291338582653,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talento Próprio",
+        "destino": "catalogo--cat-passiva-propria",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 272.89291338582655,
+        "altura": 16.2
+      },
+      {
+        "titulo": "12. Aptidões e Refino",
+        "destino": "capitulo-12",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 256.69291338582656,
+        "altura": 28
+      },
+      {
+        "titulo": "Progressão de Refino",
+        "destino": "aptidoes--apt-marcos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 228.69291338582656,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Catálogo de aptidões",
+        "destino": "aptidoes--apt-catalogo",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 212.49291338582657,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Cobrir-se de Energia",
+        "destino": "aptidoes--apt-cobrir",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 196.29291338582658,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Canalizar Energia",
+        "destino": "aptidoes--apt-canalizar",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 180.0929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Projetar Energia",
+        "destino": "aptidoes--apt-projetar",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 163.8929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Energia Reversa",
+        "destino": "aptidoes--apt-reversa",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 147.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Circulação",
+        "destino": "aptidoes--apt-circulacao",
+        "nivel": 2,
+        "coluna": 0,
+        "y": 131.49291338582663,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Regravação",
+        "destino": "aptidoes--apt-regravacao",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 689.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Kokusen",
+        "destino": "aptidoes--apt-kokusen",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 673.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Proteção contra domínios",
+        "destino": "aptidoes--apt-protecao-dominios",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 657.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Cesta Oca de Vime",
+        "destino": "aptidoes--apt-cesta",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 641.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Domínio Simples",
+        "destino": "aptidoes--apt-simples",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 624.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Pétala",
+        "destino": "aptidoes--apt-petala",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 608.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Extensão de Domínio",
+        "destino": "aptidoes--apt-extensao",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 592.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Barreira Simples",
+        "destino": "aptidoes--apt-barreira",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 576.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Cortina",
+        "destino": "aptidoes--apt-cortina",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 560.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Aptidão Própria",
+        "destino": "aptidoes--apt-propria",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 543.8929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "13. Rotas de criação",
+        "destino": "capitulo-13",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 527.6929133858264,
+        "altura": 28
+      },
+      {
+        "titulo": "Técnica Marcial: criação de Katas",
+        "destino": "rotas--rota-marcial",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 499.6929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Restrição Celestial sem energia: criação",
+        "destino": "r40-nav-criacao-restricao",
+        "nivel": 2,
+        "coluna": 1,
+        "y": 483.4929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Sem Técnica: criação de Manejos",
+        "destino": "rotas--rota-sem-tecnica",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 467.2929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Lapidação",
+        "destino": "rotas--rota-lapidacao",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 451.0929133858264,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Bênçãos",
+        "destino": "rotas--rota-bencaos",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 434.89291338582643,
+        "altura": 16.2
+      },
+      {
+        "titulo": "14. Poderes avançados",
+        "destino": "capitulo-14",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 418.69291338582644,
+        "altura": 28
+      },
+      {
+        "titulo": "Expansão de Domínio",
+        "destino": "poderes--degraus",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 390.69291338582644,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Criar um domínio",
+        "destino": "poderes--criardominio",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 374.49291338582645,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Acerto do domínio",
+        "destino": "poderes--acerto",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 358.29291338582647,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Expansão sem Barreiras",
+        "destino": "poderes--sembarreiras",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 342.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Disputa de domínios",
+        "destino": "poderes--disputa",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 325.8929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Vários domínios",
+        "destino": "poderes--multiplos",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 309.6929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "15. Ritual e Pactos",
+        "destino": "capitulo-15",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 293.4929133858265,
+        "altura": 28
+      },
+      {
+        "titulo": "Ritual",
+        "destino": "ritual--ritual",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 265.4929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Pactos",
+        "destino": "ritual--pactos",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 249.29291338582652,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Invocações",
+        "destino": null,
+        "nivel": 0,
+        "coluna": 1,
+        "y": 233.09291338582653,
+        "altura": 37
+      },
+      {
+        "titulo": "16. Invocações em campo",
+        "destino": "capitulo-16",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 196.09291338582653,
+        "altura": 28
+      },
+      {
+        "titulo": "Turnos das entidades",
+        "destino": "campo--inv-ciclo",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 168.09291338582653,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Comandar uma especial",
+        "destino": "campo--inv-especial",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 151.89291338582655,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Comparar os comandos",
+        "destino": "campo-link-comparar-comandos",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 135.69291338582656,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talismãs",
+        "destino": "campo--inv-talisma",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 119.49291338582655,
+        "altura": 16.2
+      }
+    ]
+  },
+  {
+    "pagina": 5,
+    "entradas": [
+      {
+        "titulo": "Corpos amaldiçoados",
+        "destino": "campo--inv-corpos",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 689.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Trunfos das domadas",
+        "destino": "campo--inv-liberacao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 673.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Queda e destruição",
+        "destino": "campo--inv-queda",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 657.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "17. Construir invocações",
+        "destino": "capitulo-17",
+        "nivel": 0,
+        "coluna": 0,
+        "y": 641.0929133858267,
+        "altura": 28
+      },
+      {
+        "titulo": "Criar uma invocação",
+        "destino": "construcao--entidades-criar",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 613.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Adquirir entidades",
+        "destino": "construcao--entidades-aquisicao",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 596.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Habilidades básicas",
+        "destino": "construcao--entidades-basicas",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 580.6929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Habilidades especiais",
+        "destino": "construcao--entidades-especiais",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 564.4929133858266,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Talentos da entidade",
+        "destino": "construcao--entidades-passivas",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 548.2929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Criação de entidades",
+        "destino": "fabricacao--fab-entidades",
+        "nivel": 1,
+        "coluna": 0,
+        "y": 532.0929133858265,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Mestrar e consultar",
+        "destino": null,
+        "nivel": 0,
+        "coluna": 1,
+        "y": 712.6929133858268,
+        "altura": 37
+      },
+      {
+        "titulo": "18. Mestrar",
+        "destino": "capitulo-18",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 675.6929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "Preparar uma missão",
+        "destino": "consulta--consulta-missao",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 647.6929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Mestrar uma sessão",
+        "destino": "consulta--consulta-conduzir",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 631.4929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "19. Glossário",
+        "destino": "capitulo-19",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 615.2929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "20. Consulta rápida",
+        "destino": "capitulo-20",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 587.2929133858268,
+        "altura": 28
+      },
+      {
+        "titulo": "Conjurações no turno",
+        "destino": "consulta-link-conjuracoes",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 559.2929133858268,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Bloquear",
+        "destino": "consulta-link-bloquear",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 543.0929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "Morrendo e socorro",
+        "destino": "consulta-link-morrendo",
+        "nivel": 1,
+        "coluna": 1,
+        "y": 526.8929133858267,
+        "altura": 16.2
+      },
+      {
+        "titulo": "21. Índice",
+        "destino": "capitulo-21",
+        "nivel": 0,
+        "coluna": 1,
+        "y": 510.69291338582667,
+        "altura": 28
+      }
+    ]
+  }
+]

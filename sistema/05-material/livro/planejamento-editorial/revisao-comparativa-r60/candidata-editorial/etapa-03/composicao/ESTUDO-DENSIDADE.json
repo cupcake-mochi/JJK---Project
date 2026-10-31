@@ -1,0 +1,10 @@
+{
+  "id": "equilibrado",
+  "nome": "Redução moderada",
+  "body": 10.25,
+  "leading": 13.2,
+  "gap": 2,
+  "atom_gap": 2,
+  "note": 9.75,
+  "note_leading": 12.2
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "nivel": 2,
+    "classe": 1,
+    "maestria": 1,
+    "base": "Bastião, CON3/ESS3; sem Trilha, sem outros bônus",
+    "campos": [
+      "PV",
+      "PE",
+      "limiar Híbrido",
+      "usos da Reserva Encarnado",
+      "pontos Saída",
+      "PE adicional M1"
+    ],
+    "esperado": [
+      25,
+      8,
+      7,
+      1,
+      1,
+      3
+    ],
+    "obtido": [
+      25,
+      8,
+      7,
+      1,
+      1,
+      3
+    ],
+    "passou": true
+  },
+  {
+    "nivel": 10,
+    "classe": 3,
+    "maestria": 2,
+    "base": "Bastião, CON3/ESS3; sem Trilha, sem outros bônus",
+    "campos": [
+      "PV",
+      "PE",
+      "limiar Híbrido",
+      "usos da Reserva Encarnado",
+      "pontos Saída",
+      "PE adicional M1"
+    ],
+    "esperado": [
+      105,
+      40,
+      31,
+      2,
+      1,
+      5
+    ],
+    "obtido": [
+      105,
+      40,
+      31,
+      2,
+      1,
+      5
+    ],
+    "passou": true
+  },
+  {
+    "nivel": 18,
+    "classe": 5,
+    "maestria": 3,
+    "base": "Bastião, CON3/ESS3; sem Trilha, sem outros bônus",
+    "campos": [
+      "PV",
+      "PE",
+      "limiar Híbrido",
+      "usos da Reserva Encarnado",
+      "pontos Saída",
+      "PE adicional M1"
+    ],
+    "esperado": [
+      185,
+      72,
+      55,
+      3,
+      2,
+      7
+    ],
+    "obtido": [
+      185,
+      72,
+      55,
+      3,
+      2,
+      7
+    ],
+    "passou": true
+  },
+  {
+    "nivel": 26,
+    "classe": 7,
+    "maestria": 4,
+    "base": "Bastião, CON3/ESS3; sem Trilha, sem outros bônus",
+    "campos": [
+      "PV",
+      "PE",
+      "limiar Híbrido",
+      "usos da Reserva Encarnado",
+      "pontos Saída",
+      "PE adicional M1"
+    ],
+    "esperado": [
+      265,
+      104,
+      79,
+      4,
+      3,
+      9
+    ],
+    "obtido": [
+      265,
+      104,
+      79,
+      4,
+      3,
+      9
+    ],
+    "passou": true
+  }
+]

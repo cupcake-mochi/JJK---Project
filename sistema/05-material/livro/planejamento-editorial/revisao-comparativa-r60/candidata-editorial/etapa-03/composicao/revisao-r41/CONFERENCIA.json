@@ -1,0 +1,27 @@
+{
+  "paginas": 373,
+  "blocos_textuais_alterados": 5,
+  "blocos_alterados": [
+    "evocador--ev-multiplas-protecao",
+    "evocador--ev-principal-protecao",
+    "evocador--evocador",
+    "rotas--rota-bencaos",
+    "rotas--rota-combate"
+  ],
+  "registros_diagramacao": 9,
+  "paginas_com_composicao_diferente": [
+    132,
+    139,
+    140,
+    147,
+    148,
+    294,
+    297,
+    298
+  ],
+  "links_sumario_conferidos": 177,
+  "r40_intacta": true,
+  "texto_identico_fora_dos_registros": true,
+  "problemas": [],
+  "sha256_pdf": "568db10706b19bd95d6b40fb8bf565ec4fd12dff4cf82248dcd28c5397c80f57"
+}

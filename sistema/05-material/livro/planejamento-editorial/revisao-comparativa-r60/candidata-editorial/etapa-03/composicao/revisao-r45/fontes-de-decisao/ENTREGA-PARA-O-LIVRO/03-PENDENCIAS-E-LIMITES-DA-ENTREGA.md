@@ -1,0 +1,21 @@
+# Pendências e limites antes da integração
+
+Este quadro é uma triagem de continuidade, não nova decisão mecânica nem auditoria integral de todas as aprovações. [Índice vigente](01-INDICE-DAS-REGRAS-VIGENTES.md). Os registros completos continuam em [Pendências históricas](../07-PENDENCIAS-E-DUVIDAS-ABERTAS.md); reler uma nota antiga não a reabre quando foi resolvida depois.
+
+| Frente | Estado atual e tratamento |
+|---|---|
+| Última base do livro | R41 está preservado, mas a edição de destino precisa ser confirmada por manifestos, fontes e histórico locais antes de integrar. A metodologia encontrada pertence ao repositório e não prova que sua última prova seja a base mais recente. |
+| Aquisição CE4 | A088 concede um talento na marcante. A arquitetura registra pendência de nível de acesso, espaços e limite de talentos pagos. Procurar decisão posterior expressa; se não houver, isolar a questão e apresentar uma proposta concreta, sem inferir nível 19 ou quatro espaços da progressão CE1–3. |
+| Exemplos CE4 | Rede Remota possui núcleo aprovado A089, inclusive 3.000 km. Arquitetura Microscópica, Manifestação Colossal e Geografia Interior têm conceitos selecionados e documentos de operação ainda candidatos. A090/A091/A096 não aprovam silenciosamente todos os parâmetros privados. Podem ser exemplos de criação no alcance aprovado; não publicar números pendentes como opções prontas. |
+| Saída e penalidades corporais | Saída está fechada por A092; pacotes e customização por A093–A096. Notas antigas que os chamam de futuros foram superadas. Defesa 0 e impossibilidade de Bloquear são vigentes; não recuperar bloqueio antigo ou teste redundante de Constituição. |
+| Menores da Restrição corporal | Oito aprovadas até A100. Reserva Condensada tem parâmetros com mestre por decisão, não por esquecimento. Confirmar apenas interfaces genuinamente ausentes, sem fixar teto universal, reabrir escolhas ou restaurar sugestões recusadas. |
+| Restrição sem energia | Preservar A028–A031. A montagem lista interfaces especiais de Katas, capacidades de sentidos, perfis de arma, reativações e Máximas; verificar alcance da aprovação antes de generalizar para casos novos. Não refazer o custo de 2 PE, Estudar ou memória. |
+| Híbrido | Implementar na ficha aviso visual ao atingir a faixa de 30% conforme requisito documentado. Não criar penalidade geral de Energia Reversa ou imunidade a veneno a partir da origem fictícia. Morte global continua uma frente distinta. |
+| Corpo Amaldiçoado | A062 adotou Reparar existente: CD por atributos/maestria/ajuste de Classe, metade da vida máxima e uma tentativa por descanso curto. A integração precisa localizar a regra compartilhada em Invocações, evitando tabelas concorrentes. Reparo Autônomo conserva 30%, frequência e tempo próprios. Arquivo não concede especialização. |
+| M1/M2 do Corpo | Manter requisitos de Manutenção e consumo de escolhas normais. M1 sem Integridade não converte dano em PE nem fica imune à parcela de dano na vida; imunidade apenas à perda exclusivamente de Integridade. Conciliar remissões de derrota sem reescrever o sistema global de morte. |
+| Receptáculo | Núcleo e medo encerrados por A070. Não reabrir operação como pendência antiga. A disputa narrativa aprofundada tem destino no Livro de Mestres; não tornar a redação do jogador dependente de criar esse livro inteiro. |
+| Encarnado | Sete menores, não oito. A076 fecha as precisões finais. Não criar opção adicional para simetria editorial. |
+| Descendente | Quatro clãs e dez menores fechados; Famílias próprias são pendência geral. Não conceder Fala Amaldiçoada a todo Inumaki. Cofre usa grau/patente, não nível; grau 1 exige feitos e autorização. |
+| Etapas 6–8 | Catálogos fechados não substituem testes, escrita final e integração. Não há nova execução dessas etapas neste ZIP; ele entrega o material e o roteiro para realizá-las. |
+
+As fontes operacionais para cada item estão no índice. Para cada dúvida, registrar: trecho, decisão anterior consultada, conflito real, impacto e proposta mínima. Resolver o que for documental pela evidência existente. Perguntar ao autor só quando uma escolha de regra realmente faltar, em bloco curto com uma questão; continuar as frentes independentes enquanto isso.

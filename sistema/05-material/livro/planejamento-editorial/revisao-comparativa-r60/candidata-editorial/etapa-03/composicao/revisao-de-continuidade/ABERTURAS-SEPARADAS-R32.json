@@ -1,0 +1,317 @@
+[
+  {
+    "bloco": "ab--ab-mundo",
+    "titulo": "Mundo jujutsu",
+    "pagina": 6,
+    "filho": "Maldições",
+    "pagina_filho": 7
+  },
+  {
+    "bloco": "geral--testes",
+    "titulo": "Testes",
+    "pagina": 11,
+    "filho": "Dificuldade",
+    "pagina_filho": 12
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Defesa e cobertura",
+    "pagina": 21,
+    "filho": "Proteção",
+    "pagina_filho": 22
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Esconder",
+    "pagina": 36,
+    "filho": "Quando é possível",
+    "pagina_filho": 37
+  },
+  {
+    "bloco": "geral--procurar",
+    "titulo": "Vasculhar",
+    "pagina": 37,
+    "filho": "Qual procedimento usar",
+    "pagina_filho": 38
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Exaustão",
+    "pagina": 58,
+    "filho": "Efeitos",
+    "pagina_filho": 59
+  },
+  {
+    "bloco": "ab--ab-origem",
+    "titulo": "Origem e treinos",
+    "pagina": 62,
+    "filho": "Testes de Resistência",
+    "pagina_filho": 63
+  },
+  {
+    "bloco": "ab--ab-equipamento",
+    "titulo": "Equipamento e valores",
+    "pagina": 64,
+    "filho": "Vida e energia",
+    "pagina_filho": 65
+  },
+  {
+    "bloco": "origens--origem-feto",
+    "titulo": "Feto",
+    "pagina": 78,
+    "filho": "Legados narrativos",
+    "pagina_filho": 79
+  },
+  {
+    "bloco": "origens--origem-sem-tecnica",
+    "titulo": "Sem Técnica",
+    "pagina": 79,
+    "filho": "Legado narrativo",
+    "pagina_filho": 80
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Bastião",
+    "pagina": 89,
+    "filho": "Características",
+    "pagina_filho": 90
+  },
+  {
+    "bloco": "guia--guia",
+    "titulo": "Guia",
+    "pagina": 110,
+    "filho": "Características do Guia",
+    "pagina_filho": 111
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Todos no Mesmo Plano",
+    "pagina": 113,
+    "filho": "Ordem das ajudas",
+    "pagina_filho": 114
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Apontar a Brecha",
+    "pagina": 117,
+    "filho": "Nível 19 — Rever a Leitura",
+    "pagina_filho": 118
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Emanador",
+    "pagina": 121,
+    "filho": "Características",
+    "pagina_filho": 122
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "**Artes do Vínculo**",
+    "pagina": 126,
+    "filho": "Cadência Marcial",
+    "pagina_filho": 127
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Evocador",
+    "pagina": 133,
+    "filho": "Características",
+    "pagina_filho": 134
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Vínculo",
+    "pagina": 134,
+    "filho": "Pontos de Vínculo",
+    "pagina_filho": 135
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Múltiplas Invocações",
+    "pagina": 147,
+    "filho": "Progressão da Trilha",
+    "pagina_filho": 148
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "**Proteção do conjunto**",
+    "pagina": 149,
+    "filho": "Dificultar o Ataque",
+    "pagina_filho": 150
+  },
+  {
+    "bloco": "evocador--ev-multiplas-retirada",
+    "titulo": "Retirada em Conjunto",
+    "pagina": 150,
+    "filho": "Um turno com quatro corpos",
+    "pagina_filho": 151
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "**Fluidez no nível 15**",
+    "pagina": 156,
+    "filho": "Passo Guardado",
+    "pagina_filho": 157
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Recuperar a Base",
+    "pagina": 164,
+    "filho": "Guarda Marcial",
+    "pagina_filho": 165
+  },
+  {
+    "bloco": "pericias--fisicas",
+    "titulo": "Perícias físicas",
+    "pagina": 176,
+    "filho": "Atletismo · Força",
+    "pagina_filho": 177
+  },
+  {
+    "bloco": "equip--eqm-municao",
+    "titulo": "Munição",
+    "pagina": 192,
+    "filho": "Arcos e bestas",
+    "pagina_filho": 193
+  },
+  {
+    "bloco": "equip--eqi-itens",
+    "titulo": "Itens comuns",
+    "pagina": 201,
+    "filho": "Equipamento de missão",
+    "pagina_filho": 202
+  },
+  {
+    "bloco": "equip--eqc-inicial",
+    "titulo": "Equipamento inicial",
+    "pagina": 207,
+    "filho": "Montar o inventário",
+    "pagina_filho": 208
+  },
+  {
+    "bloco": "equip--eqc-compras",
+    "titulo": "Compras e reposição",
+    "pagina": 208,
+    "filho": "Repor suprimentos",
+    "pagina_filho": 209
+  },
+  {
+    "bloco": "equip--eqf-equipamento",
+    "titulo": "Equipamento amaldiçoado",
+    "pagina": 210,
+    "filho": "Tipos de ferramenta",
+    "pagina_filho": 211
+  },
+  {
+    "bloco": "fundamento--restricoes",
+    "titulo": "Restrições",
+    "pagina": 240,
+    "filho": "Escolha uma dificuldade real",
+    "pagina_filho": 241
+  },
+  {
+    "bloco": "fundamento--aplicacoes",
+    "titulo": "Outras aplicações",
+    "pagina": 243,
+    "filho": "Travessia por um fio",
+    "pagina_filho": 244
+  },
+  {
+    "bloco": "fundamento--proprio",
+    "titulo": "Efeitos próprios",
+    "pagina": 249,
+    "filho": "Da ideia à regra",
+    "pagina_filho": 250
+  },
+  {
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "titulo": "Talentos de Categoria 2",
+    "pagina": 275,
+    "filho": "Fluxo",
+    "pagina_filho": 276
+  },
+  {
+    "bloco": "aptidoes--apt-cobrir",
+    "titulo": "Cobrir-se de Energia",
+    "pagina": 283,
+    "filho": "Proteção",
+    "pagina_filho": 284
+  },
+  {
+    "bloco": "rotas--rota-ferramenta",
+    "titulo": "Ferramenta",
+    "pagina": 297,
+    "filho": "Ataques comuns",
+    "pagina_filho": 298
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Talentos de resposta",
+    "pagina": 298,
+    "filho": "Segundo Fôlego",
+    "pagina_filho": 299
+  },
+  {
+    "bloco": "rotas--rota-invocacoes",
+    "titulo": "Invocações nas rotas",
+    "pagina": 300,
+    "filho": "Aquisição e uso",
+    "pagina_filho": 301
+  },
+  {
+    "bloco": "poderes--acerto",
+    "titulo": "Acerto do domínio",
+    "pagina": 316,
+    "filho": "Completa",
+    "pagina_filho": 317
+  },
+  {
+    "bloco": "campo--inv-ciclo",
+    "titulo": "Turnos das entidades",
+    "pagina": 336,
+    "filho": "Manifestar e recolher",
+    "pagina_filho": 337
+  },
+  {
+    "bloco": "campo--inv-defesa",
+    "titulo": "Movimento e defesa",
+    "pagina": 343,
+    "filho": "Ações concedidas por aliados",
+    "pagina_filho": 344
+  },
+  {
+    "bloco": "construcao--entidades-criar",
+    "titulo": "Criar uma invocação",
+    "pagina": 353,
+    "filho": "Etapas da ficha",
+    "pagina_filho": 354
+  },
+  {
+    "bloco": "construcao--entidades-domar",
+    "titulo": "Domar uma maldição",
+    "pagina": 356,
+    "filho": "Submissão",
+    "pagina_filho": 357
+  },
+  {
+    "bloco": "construcao--entidades-atributos",
+    "titulo": "Atributos e testes",
+    "pagina": 358,
+    "filho": "Acerto e dificuldade",
+    "pagina_filho": 359
+  },
+  {
+    "bloco": "construcao--entidades-passiva-propria",
+    "titulo": "Características próprias",
+    "pagina": 370,
+    "filho": "Exemplo: Registro de cena",
+    "pagina_filho": 371
+  },
+  {
+    "bloco": "consulta--consulta-conduzir",
+    "titulo": "Mestrar uma sessão",
+    "pagina": 380,
+    "filho": "Informação e ritmo",
+    "pagina_filho": 381
+  }
+]

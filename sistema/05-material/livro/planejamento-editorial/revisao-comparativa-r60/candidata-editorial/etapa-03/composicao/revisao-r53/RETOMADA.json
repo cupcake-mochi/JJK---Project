@@ -1,0 +1,25 @@
+{
+  "estado": "concluída",
+  "revisao": "R53",
+  "paginas": 411,
+  "pdf": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53.pdf",
+  "noturno": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53-Noturno-Vinho-e-Pessego.pdf",
+  "validacao": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/revisao-r53/VALIDACAO-R53.json",
+  "revisao_visual": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/revisao-r53/REVISAO-VISUAL.json",
+  "sem_commit_ou_push": false,
+  "drive": "Não alterado nesta integração.",
+  "publicacao_vercel": {
+    "estado": "publicada e verificada",
+    "repositorio": "https://github.com/cupcake-mochi/JJK---PDF---RPG",
+    "branch": "main",
+    "commit": "3a810995e5211e2c21c90b02c8a5f43f67fa9d8a",
+    "implantacao": "https://vercel.com/mizuki-steam/ciclo-maldito/7NFyuyh8WGmsVkS67nQ84pUmR7ko",
+    "status_vercel": "Ready, Production, Current",
+    "claro": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+    "noturno": "https://ciclo-maldito.vercel.app/noturno",
+    "verificado_em": "2026-10-19T02:19:51.118861+00:00",
+    "verificacao": "Download integral de ambos os PDFs; SHA-256 idêntico aos arquivos revisados. Navegador confirma 411 páginas nas duas versões.",
+    "prova_visual": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/revisao-r53/publicacao-vercel/VERCEL-R53-PUBLICADA.png",
+    "autorizacao": "Pedido do autor de atualizar a base e publicar o PDF noturno ligado ao Git."
+  }
+}

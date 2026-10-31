@@ -1,0 +1,14 @@
+{
+  "base": "R47",
+  "texto_fonte": "LIVRO-COMPLETO.md byte a byte idêntico à R47",
+  "alteracoes_textuais": 0,
+  "blocos_textuais_preservados": 511,
+  "arquivos_R47_preservados": 794,
+  "divergencias_R47": [],
+  "paginas_antes": 388,
+  "paginas_depois": 402,
+  "leitura_a_dois_pagina": 80,
+  "leitura_a_dois": "Título, regra, exemplo e último parágrafo na mesma página.",
+  "sha256_pdf": "13f710aa2193d4d3e83898d377d7cc323150d506acf678ce2e7882f132557a41",
+  "blocos_com_posicionamento_diferente": 511
+}

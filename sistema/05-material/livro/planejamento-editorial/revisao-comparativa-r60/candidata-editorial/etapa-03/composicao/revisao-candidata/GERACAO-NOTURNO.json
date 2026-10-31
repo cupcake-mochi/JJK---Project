@@ -1,0 +1,127 @@
+{
+  "pdf": "/home/mizuki/CHAT-GPT/RPG -JJK/revisao-comparativa-r60/candidata-editorial/etapa-03/composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+  "paginas": 429,
+  "sha256": "d88fc5fb89fb06bdeec5eb3ad31f3fb77c8519cf4932e75516ed3d477cadf2d4",
+  "sha256_base": "0beb9852075a85a1dd9019e622c12c77c9f002014ef241a518ce2d9aca442e6f",
+  "paleta": {
+    "texto": "#D4D1D4",
+    "texto_negrito": "#E0DCE1",
+    "texto_tabela_cabecalho": "#E0DCE1",
+    "texto_secundario": "#B2ABB5",
+    "linha": "#60545E",
+    "borda": "#8B7887",
+    "linha_tabela": "#685663",
+    "linha_capitulo": "#A26D85",
+    "fundo": "#261F23",
+    "faixa_tabela": "#342A30",
+    "faixa_vinho": "#4C303D",
+    "texto_em_faixa": "#F1E1E8",
+    "titulo_secao": "#E39AB8",
+    "titulo_entrada": "#EDACC3",
+    "link": "#F4BD92",
+    "texto_metadados": "#E1B097",
+    "linha_destaque": "#B36B89"
+  },
+  "pinturas": [
+    {
+      "tipo": "linha",
+      "papel": "borda",
+      "quantidade": 1602
+    },
+    {
+      "tipo": "linha",
+      "papel": "faixa_vinho",
+      "quantidade": 23
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha",
+      "quantidade": 859
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_capitulo",
+      "quantidade": 21
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_destaque",
+      "quantidade": 1544
+    },
+    {
+      "tipo": "linha",
+      "papel": "linha_tabela",
+      "quantidade": 314
+    },
+    {
+      "tipo": "superficie",
+      "papel": "faixa_tabela",
+      "quantidade": 906
+    },
+    {
+      "tipo": "superficie",
+      "papel": "faixa_vinho",
+      "quantidade": 339
+    },
+    {
+      "tipo": "superficie",
+      "papel": "fundo",
+      "quantidade": 2492
+    },
+    {
+      "tipo": "superficie",
+      "papel": "linha",
+      "quantidade": 1
+    },
+    {
+      "tipo": "superficie",
+      "papel": "linha_destaque",
+      "quantidade": 2
+    },
+    {
+      "tipo": "texto",
+      "papel": "link",
+      "quantidade": 1596
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto",
+      "quantidade": 28593
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_em_faixa",
+      "quantidade": 205
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_metadados",
+      "quantidade": 304
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_negrito",
+      "quantidade": 4794
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_secundario",
+      "quantidade": 4117
+    },
+    {
+      "tipo": "texto",
+      "papel": "texto_tabela_cabecalho",
+      "quantidade": 1016
+    },
+    {
+      "tipo": "texto",
+      "papel": "titulo_entrada",
+      "quantidade": 881
+    },
+    {
+      "tipo": "texto",
+      "papel": "titulo_secao",
+      "quantidade": 582
+    }
+  ]
+}

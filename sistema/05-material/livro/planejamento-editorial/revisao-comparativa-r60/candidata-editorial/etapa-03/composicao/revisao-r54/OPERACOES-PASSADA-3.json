@@ -1,0 +1,30 @@
+[
+  {
+    "bloco": "origens--restricao-sem-energia",
+    "antes": "que reforça ataques desarmados com esforço",
+    "depois": "que acrescenta dano a ataques com arma ou desarmados e oferece vantagem em testes escolhidos",
+    "motivo": "Conferir o resumo contra a entrada completa: o adicional não cobra esforço e também abrange armas.",
+    "passada": 3
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "antes": "ligada à cura e à proteção",
+    "depois": "ligada à cura e à vida temporária",
+    "motivo": "Distinguir Amparo de Guarda, que pertence a Auxiliares.",
+    "passada": 3
+  },
+  {
+    "bloco": "dano--condicoes",
+    "antes": "(#catalogo--melhoria-concentrada)",
+    "depois": "(#catalogo--melhoria-concentrada-duradoura)",
+    "motivo": "Corrigir a remissão para a entrada conjunta de duração.",
+    "passada": 3
+  },
+  {
+    "bloco": "dano--condicoes",
+    "antes": "(#catalogo--melhoria-duradoura)",
+    "depois": "(#catalogo--melhoria-concentrada-duradoura)",
+    "motivo": "Corrigir a remissão para a entrada conjunta de duração.",
+    "passada": 3
+  }
+]

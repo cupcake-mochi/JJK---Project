@@ -1,0 +1,89 @@
+[
+  {
+    "bloco": "geral--ataques",
+    "id_destaque": "N012",
+    "antes": {
+      "id": "N012",
+      "bloco": "geral--ataques",
+      "capitulo": "2. Regras gerais",
+      "texto": "**Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. Tira 11 no d20, total 17. O inimigo tem Defesa 17 e decide mantê-la: o golpe acerta. Sousuke passa à rolagem de dano.",
+      "palavras": 43,
+      "paginas_base": [
+        22
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "depois": {
+      "id": "N012",
+      "bloco": "geral--ataques",
+      "capitulo": "2. Regras gerais",
+      "texto": "**Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. O inimigo tem Defesa 17 e decide mantê-la antes da rolagem. Sousuke tira 11 no d20, total 17: o golpe acerta. Sousuke passa à rolagem de dano.",
+      "palavras": 47,
+      "paginas_base": [
+        22
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "motivo": "Atualizar somente a referência textual do exemplo já registrado na R43; classificação e tratamento visual preservados."
+  },
+  {
+    "bloco": "geral--bloquear",
+    "id_destaque": "N020",
+    "antes": {
+      "id": "N020",
+      "bloco": "geral--bloquear",
+      "capitulo": "2. Regras gerais",
+      "texto": "**Exemplo:** uma maldição obtém 18 no ataque contra Rina, cuja Defesa é 17. Rina escolhe Bloquear e tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.",
+      "palavras": 45,
+      "paginas_base": [
+        27
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "depois": {
+      "id": "N020",
+      "bloco": "geral--bloquear",
+      "capitulo": "2. Regras gerais",
+      "texto": "**Exemplo:** uma maldição declara um ataque contra Rina, cuja Defesa é 17. Antes da rolagem da maldição, Rina escolhe Bloquear. A maldição obtém 18 no ataque. Rina tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.",
+      "palavras": 55,
+      "paginas_base": [
+        27
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "motivo": "Atualizar somente a referência textual do exemplo já registrado na R43; classificação e tratamento visual preservados."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "id_destaque": "N108",
+    "antes": {
+      "id": "N108",
+      "bloco": "incursor--inc-redirecionar-resolucao",
+      "capitulo": "6. Caminhos e Trilhas",
+      "texto": "**Exemplo:** o agressor errou você com resultado 17, contra Defesa 18. Ele falha no TR da habilidade. O mesmo 17 é comparado à Defesa 15 do novo alvo, que pode Bloquear. O novo alvo precisa estar no alcance original do agressor; estar perto de você não basta.",
+      "palavras": 47,
+      "paginas_base": [
+        191
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "depois": {
+      "id": "N108",
+      "bloco": "incursor--inc-redirecionar-resolucao",
+      "capitulo": "6. Caminhos e Trilhas",
+      "texto": "**Exemplo:** o agressor errou você com resultado 17, contra Defesa 18. Ele falha no TR da habilidade. O mesmo 17 supera a Defesa 15 do novo alvo, que não pode Bloquear: o ataque acerta. O novo alvo precisa estar no alcance original do agressor; estar perto de você não basta.",
+      "palavras": 50,
+      "paginas_base": [
+        191
+      ],
+      "tipo": "exemplo",
+      "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+    },
+    "motivo": "Atualizar somente a referência textual do exemplo já registrado na R43; classificação e tratamento visual preservados."
+  }
+]

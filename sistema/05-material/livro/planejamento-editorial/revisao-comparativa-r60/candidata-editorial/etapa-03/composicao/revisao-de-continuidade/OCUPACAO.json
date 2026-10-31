@@ -1,0 +1,2396 @@
+[
+  {
+    "pagina": 4,
+    "capitulo": 1,
+    "area_percentual": 54.4,
+    "fim_y": 313.493,
+    "primeiro": "1. Ciclo Maldito"
+  },
+  {
+    "pagina": 5,
+    "capitulo": 1,
+    "area_percentual": 52.5,
+    "fim_y": 339.093,
+    "primeiro": "Ciclo Maldito / Campanhas e guildas (continuação)"
+  },
+  {
+    "pagina": 7,
+    "capitulo": 1,
+    "area_percentual": 38.7,
+    "fim_y": 391.893,
+    "primeiro": "Maldições"
+  },
+  {
+    "pagina": 8,
+    "capitulo": 1,
+    "area_percentual": 49.4,
+    "fim_y": 339.093,
+    "primeiro": "Sociedade jujutsu"
+  },
+  {
+    "pagina": 10,
+    "capitulo": 2,
+    "area_percentual": 60.5,
+    "fim_y": 210.693,
+    "primeiro": "Regras gerais"
+  },
+  {
+    "pagina": 11,
+    "capitulo": 2,
+    "area_percentual": 76.7,
+    "fim_y": 158.893,
+    "primeiro": "Atributos"
+  },
+  {
+    "pagina": 12,
+    "capitulo": 2,
+    "area_percentual": 81.3,
+    "fim_y": 137.293,
+    "primeiro": "Atributos / Dificuldade (continuação)"
+  },
+  {
+    "pagina": 13,
+    "capitulo": 2,
+    "area_percentual": 74.9,
+    "fim_y": 171.993,
+    "primeiro": "Atributos"
+  },
+  {
+    "pagina": 14,
+    "capitulo": 2,
+    "area_percentual": 61.9,
+    "fim_y": 284.693,
+    "primeiro": "Turnos"
+  },
+  {
+    "pagina": 15,
+    "capitulo": 2,
+    "area_percentual": 70.4,
+    "fim_y": 217.793,
+    "primeiro": "Turnos"
+  },
+  {
+    "pagina": 16,
+    "capitulo": 2,
+    "area_percentual": 75.2,
+    "fim_y": 115.493,
+    "primeiro": "Turnos"
+  },
+  {
+    "pagina": 17,
+    "capitulo": 2,
+    "area_percentual": 73.0,
+    "fim_y": 117.893,
+    "primeiro": "Turnos / Ler o Ambiente (continuação)"
+  },
+  {
+    "pagina": 18,
+    "capitulo": 2,
+    "area_percentual": 77.2,
+    "fim_y": 110.693,
+    "primeiro": "Turnos"
+  },
+  {
+    "pagina": 19,
+    "capitulo": 2,
+    "area_percentual": 75.7,
+    "fim_y": 124.893,
+    "primeiro": "Turnos / Dano durante a concentração (continuação)"
+  },
+  {
+    "pagina": 20,
+    "capitulo": 2,
+    "area_percentual": 74.7,
+    "fim_y": 108.093,
+    "primeiro": "Ataques"
+  },
+  {
+    "pagina": 21,
+    "capitulo": 2,
+    "area_percentual": 65.8,
+    "fim_y": 215.893,
+    "primeiro": "Ataques / Dano do ataque (continuação)"
+  },
+  {
+    "pagina": 22,
+    "capitulo": 2,
+    "area_percentual": 68.6,
+    "fim_y": 178.493,
+    "primeiro": "Ataques"
+  },
+  {
+    "pagina": 23,
+    "capitulo": 2,
+    "area_percentual": 65.4,
+    "fim_y": 183.893,
+    "primeiro": "Ataques"
+  },
+  {
+    "pagina": 24,
+    "capitulo": 2,
+    "area_percentual": 63.0,
+    "fim_y": 124.293,
+    "primeiro": "Ataques / Aparar (continuação)"
+  },
+  {
+    "pagina": 25,
+    "capitulo": 2,
+    "area_percentual": 57.7,
+    "fim_y": 253.093,
+    "primeiro": "Ataques / Faça a manobra (continuação)"
+  },
+  {
+    "pagina": 26,
+    "capitulo": 2,
+    "area_percentual": 57.9,
+    "fim_y": 304.293,
+    "primeiro": "Ataques / Escapar (continuação)"
+  },
+  {
+    "pagina": 27,
+    "capitulo": 2,
+    "area_percentual": 68.4,
+    "fim_y": 257.793,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 28,
+    "capitulo": 2,
+    "area_percentual": 73.1,
+    "fim_y": 115.993,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 29,
+    "capitulo": 2,
+    "area_percentual": 71.2,
+    "fim_y": 201.293,
+    "primeiro": "Movimento e terreno / Três dimensões (continuação)"
+  },
+  {
+    "pagina": 30,
+    "capitulo": 2,
+    "area_percentual": 74.3,
+    "fim_y": 197.993,
+    "primeiro": "Movimento e terreno / Esforço e obstáculos (continuação)"
+  },
+  {
+    "pagina": 31,
+    "capitulo": 2,
+    "area_percentual": 71.9,
+    "fim_y": 132.293,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 32,
+    "capitulo": 2,
+    "area_percentual": 73.3,
+    "fim_y": 115.493,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 33,
+    "capitulo": 2,
+    "area_percentual": 70.5,
+    "fim_y": 176.693,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 34,
+    "capitulo": 2,
+    "area_percentual": 74.2,
+    "fim_y": 121.893,
+    "primeiro": "Movimento e terreno"
+  },
+  {
+    "pagina": 35,
+    "capitulo": 2,
+    "area_percentual": 73.0,
+    "fim_y": 116.693,
+    "primeiro": "Movimento e terreno / Turnos e controle (continuação)"
+  },
+  {
+    "pagina": 36,
+    "capitulo": 2,
+    "area_percentual": 74.3,
+    "fim_y": 113.493,
+    "primeiro": "Percepção e visibilidade / Luz e obstáculos (continuação)"
+  },
+  {
+    "pagina": 37,
+    "capitulo": 2,
+    "area_percentual": 71.4,
+    "fim_y": 113.293,
+    "primeiro": "Percepção e visibilidade / Enquanto você permanece escondido (continua"
+  },
+  {
+    "pagina": 38,
+    "capitulo": 2,
+    "area_percentual": 77.7,
+    "fim_y": 174.693,
+    "primeiro": "Percepção e visibilidade / Visão e posição do alvo (continuação)"
+  },
+  {
+    "pagina": 39,
+    "capitulo": 2,
+    "area_percentual": 77.1,
+    "fim_y": 155.493,
+    "primeiro": "Percepção e visibilidade / Diga o que procura entender (continuação)"
+  },
+  {
+    "pagina": 40,
+    "capitulo": 2,
+    "area_percentual": 66.9,
+    "fim_y": 158.693,
+    "primeiro": "Percepção de energia"
+  },
+  {
+    "pagina": 41,
+    "capitulo": 2,
+    "area_percentual": 75.0,
+    "fim_y": 119.493,
+    "primeiro": "Percepção de energia"
+  },
+  {
+    "pagina": 42,
+    "capitulo": 2,
+    "area_percentual": 70.0,
+    "fim_y": 132.693,
+    "primeiro": "Percepção de energia / Estudar uma fonte (continuação)"
+  },
+  {
+    "pagina": 44,
+    "capitulo": 3,
+    "area_percentual": 36.8,
+    "fim_y": 414.693,
+    "primeiro": "Dano e recuperação"
+  },
+  {
+    "pagina": 45,
+    "capitulo": 3,
+    "area_percentual": 75.6,
+    "fim_y": 123.893,
+    "primeiro": "Dano"
+  },
+  {
+    "pagina": 46,
+    "capitulo": 3,
+    "area_percentual": 67.2,
+    "fim_y": 227.693,
+    "primeiro": "Dano / Tipos de dano (continuação)"
+  },
+  {
+    "pagina": 47,
+    "capitulo": 3,
+    "area_percentual": 73.4,
+    "fim_y": 164.493,
+    "primeiro": "Dano / Redução de Dano (continuação)"
+  },
+  {
+    "pagina": 48,
+    "capitulo": 3,
+    "area_percentual": 75.3,
+    "fim_y": 143.093,
+    "primeiro": "Dano"
+  },
+  {
+    "pagina": 49,
+    "capitulo": 3,
+    "area_percentual": 67.4,
+    "fim_y": 223.893,
+    "primeiro": "Condições / Encerrar uma condição (continuação)"
+  },
+  {
+    "pagina": 50,
+    "capitulo": 3,
+    "area_percentual": 74.2,
+    "fim_y": 138.293,
+    "primeiro": "Condições"
+  },
+  {
+    "pagina": 51,
+    "capitulo": 3,
+    "area_percentual": 72.8,
+    "fim_y": 121.893,
+    "primeiro": "Condições"
+  },
+  {
+    "pagina": 52,
+    "capitulo": 3,
+    "area_percentual": 75.6,
+    "fim_y": 147.993,
+    "primeiro": "Cura"
+  },
+  {
+    "pagina": 53,
+    "capitulo": 3,
+    "area_percentual": 62.0,
+    "fim_y": 203.693,
+    "primeiro": "Vida a zero"
+  },
+  {
+    "pagina": 54,
+    "capitulo": 3,
+    "area_percentual": 73.9,
+    "fim_y": 170.993,
+    "primeiro": "Vida a zero"
+  },
+  {
+    "pagina": 55,
+    "capitulo": 3,
+    "area_percentual": 67.7,
+    "fim_y": 222.493,
+    "primeiro": "Vida a zero / Cura (continuação)"
+  },
+  {
+    "pagina": 56,
+    "capitulo": 3,
+    "area_percentual": 76.8,
+    "fim_y": 106.293,
+    "primeiro": "Vida a zero"
+  },
+  {
+    "pagina": 57,
+    "capitulo": 3,
+    "area_percentual": 69.5,
+    "fim_y": 119.893,
+    "primeiro": "Vida a zero / Recuperar a consciência (continuação)"
+  },
+  {
+    "pagina": 58,
+    "capitulo": 3,
+    "area_percentual": 62.1,
+    "fim_y": 186.993,
+    "primeiro": "Descansos / Descanso longo (continuação)"
+  },
+  {
+    "pagina": 59,
+    "capitulo": 3,
+    "area_percentual": 60.2,
+    "fim_y": 215.693,
+    "primeiro": "Descansos"
+  },
+  {
+    "pagina": 61,
+    "capitulo": 4,
+    "area_percentual": 60.8,
+    "fim_y": 279.393,
+    "primeiro": "4. Criar um personagem"
+  },
+  {
+    "pagina": 62,
+    "capitulo": 4,
+    "area_percentual": 64.4,
+    "fim_y": 214.893,
+    "primeiro": "Criar um personagem / Atributos (continuação)"
+  },
+  {
+    "pagina": 63,
+    "capitulo": 4,
+    "area_percentual": 61.1,
+    "fim_y": 129.193,
+    "primeiro": "Criar um personagem / Caminho e Trilha (continuação)"
+  },
+  {
+    "pagina": 64,
+    "capitulo": 4,
+    "area_percentual": 57.6,
+    "fim_y": 183.493,
+    "primeiro": "Aptidões"
+  },
+  {
+    "pagina": 65,
+    "capitulo": 4,
+    "area_percentual": 65.9,
+    "fim_y": 154.693,
+    "primeiro": "Ataques e testes"
+  },
+  {
+    "pagina": 66,
+    "capitulo": 4,
+    "area_percentual": 64.0,
+    "fim_y": 228.693,
+    "primeiro": "Exemplo: Kaori / Peso nas Mãos (continuação)"
+  },
+  {
+    "pagina": 67,
+    "capitulo": 4,
+    "area_percentual": 72.4,
+    "fim_y": 205.093,
+    "primeiro": "Exemplo: Resgate na ala oeste"
+  },
+  {
+    "pagina": 70,
+    "capitulo": 5,
+    "area_percentual": 64.9,
+    "fim_y": 174.393,
+    "primeiro": "Escolhas da Origem"
+  },
+  {
+    "pagina": 71,
+    "capitulo": 5,
+    "area_percentual": 51.9,
+    "fim_y": 316.693,
+    "primeiro": "Legados (continuação)"
+  },
+  {
+    "pagina": 72,
+    "capitulo": 5,
+    "area_percentual": 54.5,
+    "fim_y": 350.093,
+    "primeiro": "Latente / Legados narrativos (continuação)"
+  },
+  {
+    "pagina": 74,
+    "capitulo": 5,
+    "area_percentual": 80.0,
+    "fim_y": 147.893,
+    "primeiro": "Origem: Receptáculo"
+  },
+  {
+    "pagina": 75,
+    "capitulo": 5,
+    "area_percentual": 82.9,
+    "fim_y": 132.293,
+    "primeiro": "Descendente"
+  },
+  {
+    "pagina": 76,
+    "capitulo": 5,
+    "area_percentual": 78.3,
+    "fim_y": 130.693,
+    "primeiro": "Encarnado"
+  },
+  {
+    "pagina": 78,
+    "capitulo": 5,
+    "area_percentual": 47.8,
+    "fim_y": 347.893,
+    "primeiro": "Feto"
+  },
+  {
+    "pagina": 79,
+    "capitulo": 5,
+    "area_percentual": 50.0,
+    "fim_y": 352.693,
+    "primeiro": "Origem: Feto / Legados de exceção (continuação)"
+  },
+  {
+    "pagina": 81,
+    "capitulo": 5,
+    "area_percentual": 81.4,
+    "fim_y": 133.793,
+    "primeiro": "Origem: Corpo Amaldiçoado"
+  },
+  {
+    "pagina": 82,
+    "capitulo": 5,
+    "area_percentual": 78.4,
+    "fim_y": 126.293,
+    "primeiro": "Origem: Corpo Amaldiçoado"
+  },
+  {
+    "pagina": 84,
+    "capitulo": 5,
+    "area_percentual": 81.6,
+    "fim_y": 139.893,
+    "primeiro": "Origem: Restrição Celestial"
+  },
+  {
+    "pagina": 85,
+    "capitulo": 5,
+    "area_percentual": 74.2,
+    "fim_y": 116.493,
+    "primeiro": "Origem: Restrição Celestial"
+  },
+  {
+    "pagina": 86,
+    "capitulo": 5,
+    "area_percentual": 59.3,
+    "fim_y": 143.493,
+    "primeiro": "Criar um Legado"
+  },
+  {
+    "pagina": 89,
+    "capitulo": 6,
+    "area_percentual": 66.6,
+    "fim_y": 137.393,
+    "primeiro": "Bastião"
+  },
+  {
+    "pagina": 90,
+    "capitulo": 6,
+    "area_percentual": 63.3,
+    "fim_y": 148.293,
+    "primeiro": "Bastião"
+  },
+  {
+    "pagina": 91,
+    "capitulo": 6,
+    "area_percentual": 62.7,
+    "fim_y": 117.493,
+    "primeiro": "Bastião"
+  },
+  {
+    "pagina": 92,
+    "capitulo": 6,
+    "area_percentual": 65.7,
+    "fim_y": 123.093,
+    "primeiro": "Bastião / Muro"
+  },
+  {
+    "pagina": 93,
+    "capitulo": 6,
+    "area_percentual": 67.0,
+    "fim_y": 136.193,
+    "primeiro": "Punho"
+  },
+  {
+    "pagina": 94,
+    "capitulo": 6,
+    "area_percentual": 60.7,
+    "fim_y": 130.793,
+    "primeiro": "Bastião / Punho / Nível 19 — Minha Vez (continuação)"
+  },
+  {
+    "pagina": 95,
+    "capitulo": 6,
+    "area_percentual": 76.2,
+    "fim_y": 104.693,
+    "primeiro": "Bastião / Combatente Amaldiçoado"
+  },
+  {
+    "pagina": 97,
+    "capitulo": 6,
+    "area_percentual": 35.8,
+    "fim_y": 494.793,
+    "primeiro": "Vanguarda (continuação)"
+  },
+  {
+    "pagina": 98,
+    "capitulo": 6,
+    "area_percentual": 51.9,
+    "fim_y": 362.693,
+    "primeiro": "Vanguarda"
+  },
+  {
+    "pagina": 99,
+    "capitulo": 6,
+    "area_percentual": 77.2,
+    "fim_y": 120.693,
+    "primeiro": "Vanguarda"
+  },
+  {
+    "pagina": 100,
+    "capitulo": 6,
+    "area_percentual": 78.3,
+    "fim_y": 120.793,
+    "primeiro": "Vanguarda"
+  },
+  {
+    "pagina": 101,
+    "capitulo": 6,
+    "area_percentual": 76.0,
+    "fim_y": 148.793,
+    "primeiro": "Vanguarda / **Habilidades avançadas** (continuação)"
+  },
+  {
+    "pagina": 102,
+    "capitulo": 6,
+    "area_percentual": 80.0,
+    "fim_y": 127.193,
+    "primeiro": "Vanguarda / Estocada / **Conclusões de feitiço** (continuação)"
+  },
+  {
+    "pagina": 103,
+    "capitulo": 6,
+    "area_percentual": 81.7,
+    "fim_y": 134.293,
+    "primeiro": "Vanguarda / Batedor: Yumi / Armar uma Conclusão (continuação)"
+  },
+  {
+    "pagina": 104,
+    "capitulo": 6,
+    "area_percentual": 82.9,
+    "fim_y": 126.293,
+    "primeiro": "Vanguarda / Batedor: Yumi / Conclusões do Yumi (continuação)"
+  },
+  {
+    "pagina": 105,
+    "capitulo": 6,
+    "area_percentual": 78.9,
+    "fim_y": 110.293,
+    "primeiro": "Vanguarda / Batedor: Besta (continuação)"
+  },
+  {
+    "pagina": 106,
+    "capitulo": 6,
+    "area_percentual": 85.3,
+    "fim_y": 119.493,
+    "primeiro": "Batedor: Arma de Fogo"
+  },
+  {
+    "pagina": 107,
+    "capitulo": 6,
+    "area_percentual": 86.5,
+    "fim_y": 105.493,
+    "primeiro": "Vanguarda / Batedor: Arma de Fogo"
+  },
+  {
+    "pagina": 108,
+    "capitulo": 6,
+    "area_percentual": 81.3,
+    "fim_y": 133.893,
+    "primeiro": "Vanguarda / Executor"
+  },
+  {
+    "pagina": 110,
+    "capitulo": 6,
+    "area_percentual": 72.7,
+    "fim_y": 186.393,
+    "primeiro": "Guia"
+  },
+  {
+    "pagina": 111,
+    "capitulo": 6,
+    "area_percentual": 73.9,
+    "fim_y": 112.293,
+    "primeiro": "Guia"
+  },
+  {
+    "pagina": 112,
+    "capitulo": 6,
+    "area_percentual": 69.4,
+    "fim_y": 184.293,
+    "primeiro": "Guia / Resposta Coordenada (continuação)"
+  },
+  {
+    "pagina": 113,
+    "capitulo": 6,
+    "area_percentual": 67.6,
+    "fim_y": 159.493,
+    "primeiro": "Guia / Todos no Mesmo Plano (continuação)"
+  },
+  {
+    "pagina": 114,
+    "capitulo": 6,
+    "area_percentual": 68.9,
+    "fim_y": 200.493,
+    "primeiro": "Guia / Arquiteto / Nível 2 — Obras de Apoio (continuação)"
+  },
+  {
+    "pagina": 115,
+    "capitulo": 6,
+    "area_percentual": 76.3,
+    "fim_y": 150.193,
+    "primeiro": "Guia / Arquiteto"
+  },
+  {
+    "pagina": 116,
+    "capitulo": 6,
+    "area_percentual": 67.8,
+    "fim_y": 167.993,
+    "primeiro": "Guia / Arquiteto / Nível 27 — Plano Construído (continuação)"
+  },
+  {
+    "pagina": 117,
+    "capitulo": 6,
+    "area_percentual": 67.0,
+    "fim_y": 118.293,
+    "primeiro": "Guia / Analista / Apontar a Brecha (continuação)"
+  },
+  {
+    "pagina": 118,
+    "capitulo": 6,
+    "area_percentual": 64.0,
+    "fim_y": 122.293,
+    "primeiro": "Guia / Socorrista / Nível 2 — Cuidado Preparado (continuação)"
+  },
+  {
+    "pagina": 119,
+    "capitulo": 6,
+    "area_percentual": 64.5,
+    "fim_y": 275.493,
+    "primeiro": "Guia / Socorrista / **Tratar e Retomar** (continuação)"
+  },
+  {
+    "pagina": 121,
+    "capitulo": 6,
+    "area_percentual": 82.9,
+    "fim_y": 109.493,
+    "primeiro": "Emanador"
+  },
+  {
+    "pagina": 122,
+    "capitulo": 6,
+    "area_percentual": 70.2,
+    "fim_y": 221.693,
+    "primeiro": "Emanador"
+  },
+  {
+    "pagina": 123,
+    "capitulo": 6,
+    "area_percentual": 62.7,
+    "fim_y": 174.793,
+    "primeiro": "Emanador"
+  },
+  {
+    "pagina": 124,
+    "capitulo": 6,
+    "area_percentual": 66.5,
+    "fim_y": 179.493,
+    "primeiro": "Emanador"
+  },
+  {
+    "pagina": 125,
+    "capitulo": 6,
+    "area_percentual": 67.1,
+    "fim_y": 223.793,
+    "primeiro": "Emanador"
+  },
+  {
+    "pagina": 126,
+    "capitulo": 6,
+    "area_percentual": 65.4,
+    "fim_y": 210.293,
+    "primeiro": "Emanador / Condutor Armado"
+  },
+  {
+    "pagina": 127,
+    "capitulo": 6,
+    "area_percentual": 70.6,
+    "fim_y": 193.493,
+    "primeiro": "Emanador / Condutor Armado"
+  },
+  {
+    "pagina": 128,
+    "capitulo": 6,
+    "area_percentual": 67.4,
+    "fim_y": 124.393,
+    "primeiro": "Emanador / Condutor Armado / Nível 19 — Manifestação Condutora (contin"
+  },
+  {
+    "pagina": 129,
+    "capitulo": 6,
+    "area_percentual": 73.7,
+    "fim_y": 190.693,
+    "primeiro": "Emanador / Ressonante"
+  },
+  {
+    "pagina": 130,
+    "capitulo": 6,
+    "area_percentual": 73.4,
+    "fim_y": 183.193,
+    "primeiro": "Emanador / Ressonante"
+  },
+  {
+    "pagina": 131,
+    "capitulo": 6,
+    "area_percentual": 76.0,
+    "fim_y": 163.293,
+    "primeiro": "Emanador / Catalisador"
+  },
+  {
+    "pagina": 133,
+    "capitulo": 6,
+    "area_percentual": 70.1,
+    "fim_y": 204.293,
+    "primeiro": "Evocador"
+  },
+  {
+    "pagina": 134,
+    "capitulo": 6,
+    "area_percentual": 69.4,
+    "fim_y": 183.093,
+    "primeiro": "Evocador / Pontos de Vínculo (continuação)"
+  },
+  {
+    "pagina": 135,
+    "capitulo": 6,
+    "area_percentual": 71.8,
+    "fim_y": 117.493,
+    "primeiro": "Evocador"
+  },
+  {
+    "pagina": 136,
+    "capitulo": 6,
+    "area_percentual": 71.3,
+    "fim_y": 124.493,
+    "primeiro": "Evocador"
+  },
+  {
+    "pagina": 137,
+    "capitulo": 6,
+    "area_percentual": 73.0,
+    "fim_y": 111.893,
+    "primeiro": "Evocador / Recolher sob Ataque — nível 7 (continuação)"
+  },
+  {
+    "pagina": 138,
+    "capitulo": 6,
+    "area_percentual": 68.9,
+    "fim_y": 190.393,
+    "primeiro": "Evocador / Combinar Aprimoramentos (continuação)"
+  },
+  {
+    "pagina": 139,
+    "capitulo": 6,
+    "area_percentual": 72.1,
+    "fim_y": 115.493,
+    "primeiro": "Evocador / Especial Combinada (continuação)"
+  },
+  {
+    "pagina": 140,
+    "capitulo": 6,
+    "area_percentual": 73.0,
+    "fim_y": 171.593,
+    "primeiro": "Evocador / Invocação Principal / Especial primeiro (continuação)"
+  },
+  {
+    "pagina": 141,
+    "capitulo": 6,
+    "area_percentual": 76.7,
+    "fim_y": 134.793,
+    "primeiro": "Evocador / Invocação Principal"
+  },
+  {
+    "pagina": 142,
+    "capitulo": 6,
+    "area_percentual": 67.3,
+    "fim_y": 116.893,
+    "primeiro": "Evocador / Invocação Principal / Nível 19 — Especial de Continuidade ("
+  },
+  {
+    "pagina": 143,
+    "capitulo": 6,
+    "area_percentual": 73.3,
+    "fim_y": 145.393,
+    "primeiro": "Evocador / Invocação Principal"
+  },
+  {
+    "pagina": 144,
+    "capitulo": 6,
+    "area_percentual": 61.1,
+    "fim_y": 242.693,
+    "primeiro": "Evocador / Parceria / Acompanhar a Especial (continuação)"
+  },
+  {
+    "pagina": 145,
+    "capitulo": 6,
+    "area_percentual": 68.1,
+    "fim_y": 158.693,
+    "primeiro": "Evocador / Parceria"
+  },
+  {
+    "pagina": 146,
+    "capitulo": 6,
+    "area_percentual": 61.1,
+    "fim_y": 223.093,
+    "primeiro": "Evocador / Parceria / Cobrir o Parceiro (continuação)"
+  },
+  {
+    "pagina": 147,
+    "capitulo": 6,
+    "area_percentual": 69.3,
+    "fim_y": 205.293,
+    "primeiro": "Evocador / Parceria"
+  },
+  {
+    "pagina": 148,
+    "capitulo": 6,
+    "area_percentual": 66.7,
+    "fim_y": 201.193,
+    "primeiro": "Múltiplas Invocações"
+  },
+  {
+    "pagina": 149,
+    "capitulo": 6,
+    "area_percentual": 66.9,
+    "fim_y": 224.693,
+    "primeiro": "Evocador / Múltiplas Invocações / Manifestação em Grupo (continuação)"
+  },
+  {
+    "pagina": 150,
+    "capitulo": 6,
+    "area_percentual": 77.9,
+    "fim_y": 129.693,
+    "primeiro": "Evocador / Múltiplas Invocações"
+  },
+  {
+    "pagina": 151,
+    "capitulo": 6,
+    "area_percentual": 72.6,
+    "fim_y": 135.693,
+    "primeiro": "Evocador / Múltiplas Invocações / Conduzir a Especial (continuação)"
+  },
+  {
+    "pagina": 152,
+    "capitulo": 6,
+    "area_percentual": 79.6,
+    "fim_y": 142.093,
+    "primeiro": "Evocador / Múltiplas Invocações / **Aprimoramentos Distribuídos** (con"
+  },
+  {
+    "pagina": 153,
+    "capitulo": 6,
+    "area_percentual": 74.9,
+    "fim_y": 146.293,
+    "primeiro": "Evocador / Múltiplas Invocações / Repertório do Conjunto (continuação)"
+  },
+  {
+    "pagina": 155,
+    "capitulo": 6,
+    "area_percentual": 65.9,
+    "fim_y": 245.093,
+    "primeiro": "Incursor"
+  },
+  {
+    "pagina": 156,
+    "capitulo": 6,
+    "area_percentual": 67.2,
+    "fim_y": 109.493,
+    "primeiro": "Incursor / Fluidez (continuação)"
+  },
+  {
+    "pagina": 157,
+    "capitulo": 6,
+    "area_percentual": 71.8,
+    "fim_y": 194.293,
+    "primeiro": "Incursor / **Fluidez no nível 15** (continuação)"
+  },
+  {
+    "pagina": 159,
+    "capitulo": 6,
+    "area_percentual": 61.1,
+    "fim_y": 127.093,
+    "primeiro": "Incursor / Assassino"
+  },
+  {
+    "pagina": 160,
+    "capitulo": 6,
+    "area_percentual": 70.9,
+    "fim_y": 180.893,
+    "primeiro": "Incursor / Assassino"
+  },
+  {
+    "pagina": 161,
+    "capitulo": 6,
+    "area_percentual": 59.6,
+    "fim_y": 169.693,
+    "primeiro": "Incursor / Assassino / Obtenção e gasto de Fluidez (continuação)"
+  },
+  {
+    "pagina": 162,
+    "capitulo": 6,
+    "area_percentual": 63.4,
+    "fim_y": 246.493,
+    "primeiro": "Incursor / Assassino / Vítima como apoio (continuação)"
+  },
+  {
+    "pagina": 164,
+    "capitulo": 6,
+    "area_percentual": 71.2,
+    "fim_y": 158.193,
+    "primeiro": "Incursor / Pugilista"
+  },
+  {
+    "pagina": 165,
+    "capitulo": 6,
+    "area_percentual": 70.9,
+    "fim_y": 114.693,
+    "primeiro": "Incursor / Pugilista / Recuperar a Base (continuação)"
+  },
+  {
+    "pagina": 166,
+    "capitulo": 6,
+    "area_percentual": 69.5,
+    "fim_y": 187.293,
+    "primeiro": "Incursor / Pugilista"
+  },
+  {
+    "pagina": 167,
+    "capitulo": 6,
+    "area_percentual": 61.5,
+    "fim_y": 297.893,
+    "primeiro": "Incursor / Pugilista / Rajada e Guarda (continuação)"
+  },
+  {
+    "pagina": 169,
+    "capitulo": 6,
+    "area_percentual": 60.3,
+    "fim_y": 270.093,
+    "primeiro": "Incursor / Malabarista"
+  },
+  {
+    "pagina": 170,
+    "capitulo": 6,
+    "area_percentual": 68.3,
+    "fim_y": 133.893,
+    "primeiro": "Incursor / Malabarista"
+  },
+  {
+    "pagina": 171,
+    "capitulo": 6,
+    "area_percentual": 67.3,
+    "fim_y": 237.693,
+    "primeiro": "Incursor / Malabarista / Ricochete (continuação)"
+  },
+  {
+    "pagina": 172,
+    "capitulo": 6,
+    "area_percentual": 74.4,
+    "fim_y": 148.093,
+    "primeiro": "Incursor / Malabarista / Trajetória de Retorno (continuação)"
+  },
+  {
+    "pagina": 173,
+    "capitulo": 6,
+    "area_percentual": 61.6,
+    "fim_y": 299.893,
+    "primeiro": "Incursor / Malabarista / Manejo Contínuo ampliado (continuação)"
+  },
+  {
+    "pagina": 175,
+    "capitulo": 7,
+    "area_percentual": 69.0,
+    "fim_y": 123.493,
+    "primeiro": "7. Perícias e Ofícios"
+  },
+  {
+    "pagina": 176,
+    "capitulo": 7,
+    "area_percentual": 67.7,
+    "fim_y": 213.893,
+    "primeiro": "Tarefas e testes"
+  },
+  {
+    "pagina": 177,
+    "capitulo": 7,
+    "area_percentual": 62.7,
+    "fim_y": 221.493,
+    "primeiro": "Perícias físicas"
+  },
+  {
+    "pagina": 178,
+    "capitulo": 7,
+    "area_percentual": 62.2,
+    "fim_y": 212.693,
+    "primeiro": "Investigação e conhecimento"
+  },
+  {
+    "pagina": 179,
+    "capitulo": 7,
+    "area_percentual": 63.5,
+    "fim_y": 210.293,
+    "primeiro": "Ambiente e saúde"
+  },
+  {
+    "pagina": 180,
+    "capitulo": 7,
+    "area_percentual": 63.7,
+    "fim_y": 263.093,
+    "primeiro": "Percepção e influência"
+  },
+  {
+    "pagina": 181,
+    "capitulo": 7,
+    "area_percentual": 61.0,
+    "fim_y": 232.893,
+    "primeiro": "Ofícios"
+  },
+  {
+    "pagina": 182,
+    "capitulo": 7,
+    "area_percentual": 62.2,
+    "fim_y": 157.793,
+    "primeiro": "Atributo padrão"
+  },
+  {
+    "pagina": 183,
+    "capitulo": 7,
+    "area_percentual": 69.0,
+    "fim_y": 219.893,
+    "primeiro": "Ferramentas amaldiçoadas"
+  },
+  {
+    "pagina": 185,
+    "capitulo": 8,
+    "area_percentual": 57.8,
+    "fim_y": 307.693,
+    "primeiro": "8. Equipamento"
+  },
+  {
+    "pagina": 186,
+    "capitulo": 8,
+    "area_percentual": 63.1,
+    "fim_y": 274.893,
+    "primeiro": "Carga"
+  },
+  {
+    "pagina": 187,
+    "capitulo": 8,
+    "area_percentual": 68.6,
+    "fim_y": 196.993,
+    "primeiro": "Equipamento / Mãos disponíveis (continuação)"
+  },
+  {
+    "pagina": 188,
+    "capitulo": 8,
+    "area_percentual": 73.6,
+    "fim_y": 123.993,
+    "primeiro": "Propriedades"
+  },
+  {
+    "pagina": 189,
+    "capitulo": 8,
+    "area_percentual": 75.0,
+    "fim_y": 190.893,
+    "primeiro": "Equipamento / Par e crítico (continuação)"
+  },
+  {
+    "pagina": 190,
+    "capitulo": 8,
+    "area_percentual": 75.8,
+    "fim_y": 121.093,
+    "primeiro": "Proteção"
+  },
+  {
+    "pagina": 191,
+    "capitulo": 8,
+    "area_percentual": 69.3,
+    "fim_y": 210.393,
+    "primeiro": "Situação do Traje"
+  },
+  {
+    "pagina": 192,
+    "capitulo": 8,
+    "area_percentual": 70.6,
+    "fim_y": 135.993,
+    "primeiro": "Equipamento / Escudos (continuação)"
+  },
+  {
+    "pagina": 193,
+    "capitulo": 8,
+    "area_percentual": 69.9,
+    "fim_y": 155.893,
+    "primeiro": "Preparar e guardar escudo"
+  },
+  {
+    "pagina": 194,
+    "capitulo": 8,
+    "area_percentual": 64.2,
+    "fim_y": 139.093,
+    "primeiro": "Equipamento / Armas de fogo (continuação)"
+  },
+  {
+    "pagina": 195,
+    "capitulo": 8,
+    "area_percentual": 60.7,
+    "fim_y": 124.693,
+    "primeiro": "Reservas e reposição"
+  },
+  {
+    "pagina": 196,
+    "capitulo": 8,
+    "area_percentual": 65.4,
+    "fim_y": 247.893,
+    "primeiro": "Recuperar projéteis"
+  },
+  {
+    "pagina": 197,
+    "capitulo": 8,
+    "area_percentual": 67.0,
+    "fim_y": 262.293,
+    "primeiro": "Lâminas"
+  },
+  {
+    "pagina": 198,
+    "capitulo": 8,
+    "area_percentual": 73.8,
+    "fim_y": 188.893,
+    "primeiro": "Armas de impacto"
+  },
+  {
+    "pagina": 199,
+    "capitulo": 8,
+    "area_percentual": 60.0,
+    "fim_y": 282.593,
+    "primeiro": "Machados, foices e hastes"
+  },
+  {
+    "pagina": 200,
+    "capitulo": 8,
+    "area_percentual": 73.0,
+    "fim_y": 178.693,
+    "primeiro": "Armas flexíveis e de arremesso"
+  },
+  {
+    "pagina": 201,
+    "capitulo": 8,
+    "area_percentual": 60.0,
+    "fim_y": 323.593,
+    "primeiro": "Balestra"
+  },
+  {
+    "pagina": 202,
+    "capitulo": 8,
+    "area_percentual": 62.0,
+    "fim_y": 297.093,
+    "primeiro": "Itens comuns"
+  },
+  {
+    "pagina": 203,
+    "capitulo": 8,
+    "area_percentual": 74.7,
+    "fim_y": 162.493,
+    "primeiro": "Equipamento / Transporte e consumo (continuação)"
+  },
+  {
+    "pagina": 204,
+    "capitulo": 8,
+    "area_percentual": 73.1,
+    "fim_y": 185.093,
+    "primeiro": "Fechaduras e contenção"
+  },
+  {
+    "pagina": 205,
+    "capitulo": 8,
+    "area_percentual": 70.6,
+    "fim_y": 157.593,
+    "primeiro": "Danificar objetos"
+  },
+  {
+    "pagina": 206,
+    "capitulo": 8,
+    "area_percentual": 73.9,
+    "fim_y": 186.893,
+    "primeiro": "Equipamento / Barreiras de energia (continuação)"
+  },
+  {
+    "pagina": 207,
+    "capitulo": 8,
+    "area_percentual": 63.4,
+    "fim_y": 241.993,
+    "primeiro": "Equipamento / Dinheiro (continuação)"
+  },
+  {
+    "pagina": 208,
+    "capitulo": 8,
+    "area_percentual": 70.3,
+    "fim_y": 130.093,
+    "primeiro": "Uniforme da instituição"
+  },
+  {
+    "pagina": 209,
+    "capitulo": 8,
+    "area_percentual": 65.2,
+    "fim_y": 265.493,
+    "primeiro": "Equipamento / Exemplos de compras (continuação)"
+  },
+  {
+    "pagina": 211,
+    "capitulo": 8,
+    "area_percentual": 75.9,
+    "fim_y": 127.793,
+    "primeiro": "Tipos de ferramenta"
+  },
+  {
+    "pagina": 212,
+    "capitulo": 8,
+    "area_percentual": 71.0,
+    "fim_y": 142.293,
+    "primeiro": "Grau e patente"
+  },
+  {
+    "pagina": 213,
+    "capitulo": 8,
+    "area_percentual": 71.5,
+    "fim_y": 169.493,
+    "primeiro": "Equipamento / Preparar e retirar (continuação)"
+  },
+  {
+    "pagina": 214,
+    "capitulo": 8,
+    "area_percentual": 69.5,
+    "fim_y": 134.093,
+    "primeiro": "Equipamento / Volume (continuação)"
+  },
+  {
+    "pagina": 215,
+    "capitulo": 8,
+    "area_percentual": 62.9,
+    "fim_y": 179.893,
+    "primeiro": "Roupas e trajes"
+  },
+  {
+    "pagina": 216,
+    "capitulo": 8,
+    "area_percentual": 71.1,
+    "fim_y": 201.493,
+    "primeiro": "Equipamento / Revestimento Ancorado (continuação)"
+  },
+  {
+    "pagina": 217,
+    "capitulo": 8,
+    "area_percentual": 65.9,
+    "fim_y": 238.293,
+    "primeiro": "Equipamento / Capa Perene (continuação)"
+  },
+  {
+    "pagina": 218,
+    "capitulo": 8,
+    "area_percentual": 69.8,
+    "fim_y": 210.093,
+    "primeiro": "Equipamento / Lança do Anátema (continuação)"
+  },
+  {
+    "pagina": 219,
+    "capitulo": 8,
+    "area_percentual": 64.4,
+    "fim_y": 258.293,
+    "primeiro": "Equipamento / Esgotamento (continuação)"
+  },
+  {
+    "pagina": 221,
+    "capitulo": 9,
+    "area_percentual": 60.5,
+    "fim_y": 266.293,
+    "primeiro": "9. Progressão"
+  },
+  {
+    "pagina": 222,
+    "capitulo": 9,
+    "area_percentual": 58.4,
+    "fim_y": 307.793,
+    "primeiro": "Progressão / Recompensas e custos (continuação)"
+  },
+  {
+    "pagina": 223,
+    "capitulo": 9,
+    "area_percentual": 59.6,
+    "fim_y": 146.193,
+    "primeiro": "Progressão / Experiência semanal (continuação)"
+  },
+  {
+    "pagina": 224,
+    "capitulo": 9,
+    "area_percentual": 68.3,
+    "fim_y": 279.193,
+    "primeiro": "Progressão dos níveis 1 a 15"
+  },
+  {
+    "pagina": 225,
+    "capitulo": 9,
+    "area_percentual": 70.3,
+    "fim_y": 265.993,
+    "primeiro": "Progressão dos níveis 16 a 30"
+  },
+  {
+    "pagina": 226,
+    "capitulo": 9,
+    "area_percentual": 78.0,
+    "fim_y": 161.093,
+    "primeiro": "Marcos"
+  },
+  {
+    "pagina": 227,
+    "capitulo": 9,
+    "area_percentual": 77.9,
+    "fim_y": 137.493,
+    "primeiro": "Atualizar a ficha"
+  },
+  {
+    "pagina": 228,
+    "capitulo": 9,
+    "area_percentual": 72.4,
+    "fim_y": 153.893,
+    "primeiro": "Progressão / Conferência da mudança (continuação)"
+  },
+  {
+    "pagina": 229,
+    "capitulo": 9,
+    "area_percentual": 68.1,
+    "fim_y": 211.493,
+    "primeiro": "Recompensas da guilda"
+  },
+  {
+    "pagina": 232,
+    "capitulo": 10,
+    "area_percentual": 73.4,
+    "fim_y": 105.593,
+    "primeiro": "Criação"
+  },
+  {
+    "pagina": 233,
+    "capitulo": 10,
+    "area_percentual": 61.0,
+    "fim_y": 271.093,
+    "primeiro": "Fundamento / Fios de Tensão (continuação)"
+  },
+  {
+    "pagina": 234,
+    "capitulo": 10,
+    "area_percentual": 57.5,
+    "fim_y": 215.893,
+    "primeiro": "Famílias"
+  },
+  {
+    "pagina": 235,
+    "capitulo": 10,
+    "area_percentual": 77.8,
+    "fim_y": 152.993,
+    "primeiro": "Fundamento / Selo (continuação)"
+  },
+  {
+    "pagina": 236,
+    "capitulo": 10,
+    "area_percentual": 56.6,
+    "fim_y": 326.493,
+    "primeiro": "Invocação por espaço"
+  },
+  {
+    "pagina": 237,
+    "capitulo": 10,
+    "area_percentual": 62.5,
+    "fim_y": 229.993,
+    "primeiro": "Fundamento / Pontos e preços (continuação)"
+  },
+  {
+    "pagina": 238,
+    "capitulo": 10,
+    "area_percentual": 53.4,
+    "fim_y": 315.093,
+    "primeiro": "Fundamento / Formas de ataque (continuação)"
+  },
+  {
+    "pagina": 239,
+    "capitulo": 10,
+    "area_percentual": 63.1,
+    "fim_y": 190.893,
+    "primeiro": "Onda"
+  },
+  {
+    "pagina": 240,
+    "capitulo": 10,
+    "area_percentual": 62.2,
+    "fim_y": 223.093,
+    "primeiro": "Aumentos"
+  },
+  {
+    "pagina": 241,
+    "capitulo": 10,
+    "area_percentual": 63.3,
+    "fim_y": 290.293,
+    "primeiro": "Fundamento / Resultados (continuação)"
+  },
+  {
+    "pagina": 242,
+    "capitulo": 10,
+    "area_percentual": 69.6,
+    "fim_y": 131.193,
+    "primeiro": "Fundamento / Escolha uma dificuldade real (continuação)"
+  },
+  {
+    "pagina": 243,
+    "capitulo": 10,
+    "area_percentual": 62.2,
+    "fim_y": 113.393,
+    "primeiro": "Escolher e dividir"
+  },
+  {
+    "pagina": 244,
+    "capitulo": 10,
+    "area_percentual": 78.2,
+    "fim_y": 122.293,
+    "primeiro": "Rede de contenção"
+  },
+  {
+    "pagina": 245,
+    "capitulo": 10,
+    "area_percentual": 76.4,
+    "fim_y": 178.093,
+    "primeiro": "Dano e repetições"
+  },
+  {
+    "pagina": 246,
+    "capitulo": 10,
+    "area_percentual": 83.8,
+    "fim_y": 110.793,
+    "primeiro": "Exemplo de permanência"
+  },
+  {
+    "pagina": 247,
+    "capitulo": 10,
+    "area_percentual": 80.5,
+    "fim_y": 145.293,
+    "primeiro": "Efeitos fora de combate"
+  },
+  {
+    "pagina": 248,
+    "capitulo": 10,
+    "area_percentual": 78.0,
+    "fim_y": 130.193,
+    "primeiro": "Fundamento / Corte Medido (continuação)"
+  },
+  {
+    "pagina": 249,
+    "capitulo": 10,
+    "area_percentual": 76.1,
+    "fim_y": 123.093,
+    "primeiro": "Uso e progressão"
+  },
+  {
+    "pagina": 250,
+    "capitulo": 10,
+    "area_percentual": 64.4,
+    "fim_y": 240.693,
+    "primeiro": "Fundamento / Custo e uso (continuação)"
+  },
+  {
+    "pagina": 251,
+    "capitulo": 10,
+    "area_percentual": 66.3,
+    "fim_y": 154.693,
+    "primeiro": "Ação e recarga"
+  },
+  {
+    "pagina": 252,
+    "capitulo": 10,
+    "area_percentual": 73.3,
+    "fim_y": 130.593,
+    "primeiro": "Técnica Máxima"
+  },
+  {
+    "pagina": 253,
+    "capitulo": 10,
+    "area_percentual": 65.7,
+    "fim_y": 227.893,
+    "primeiro": "Técnica Máxima"
+  },
+  {
+    "pagina": 254,
+    "capitulo": 10,
+    "area_percentual": 67.9,
+    "fim_y": 128.293,
+    "primeiro": "Exemplo: Passagem de Papel / Limites (continuação)"
+  },
+  {
+    "pagina": 255,
+    "capitulo": 10,
+    "area_percentual": 62.9,
+    "fim_y": 125.893,
+    "primeiro": "Exemplo: Retirada de Emergência"
+  },
+  {
+    "pagina": 257,
+    "capitulo": 11,
+    "area_percentual": 82.6,
+    "fim_y": 117.393,
+    "primeiro": "11. Catálogo de criação"
+  },
+  {
+    "pagina": 258,
+    "capitulo": 11,
+    "area_percentual": 73.2,
+    "fim_y": 134.693,
+    "primeiro": "Família: Alcance"
+  },
+  {
+    "pagina": 259,
+    "capitulo": 11,
+    "area_percentual": 83.5,
+    "fim_y": 111.693,
+    "primeiro": "Família: Área"
+  },
+  {
+    "pagina": 260,
+    "capitulo": 11,
+    "area_percentual": 66.7,
+    "fim_y": 121.693,
+    "primeiro": "Família: Mira"
+  },
+  {
+    "pagina": 261,
+    "capitulo": 11,
+    "area_percentual": 72.6,
+    "fim_y": 147.693,
+    "primeiro": "Família: Controle / Condição (continuação)"
+  },
+  {
+    "pagina": 262,
+    "capitulo": 11,
+    "area_percentual": 67.6,
+    "fim_y": 217.293,
+    "primeiro": "Família: Controle"
+  },
+  {
+    "pagina": 263,
+    "capitulo": 11,
+    "area_percentual": 77.4,
+    "fim_y": 129.093,
+    "primeiro": "Família: Auxiliares"
+  },
+  {
+    "pagina": 264,
+    "capitulo": 11,
+    "area_percentual": 82.2,
+    "fim_y": 117.493,
+    "primeiro": "Família: Castigo / Acúmulo (continuação)"
+  },
+  {
+    "pagina": 265,
+    "capitulo": 11,
+    "area_percentual": 71.3,
+    "fim_y": 196.593,
+    "primeiro": "Família: Tempo"
+  },
+  {
+    "pagina": 266,
+    "capitulo": 11,
+    "area_percentual": 70.8,
+    "fim_y": 192.293,
+    "primeiro": "Família: Tempo / Concentrada / Duradoura (continuação)"
+  },
+  {
+    "pagina": 267,
+    "capitulo": 11,
+    "area_percentual": 75.3,
+    "fim_y": 113.693,
+    "primeiro": "Família: Marca / Sugar (continuação)"
+  },
+  {
+    "pagina": 268,
+    "capitulo": 11,
+    "area_percentual": 64.8,
+    "fim_y": 230.893,
+    "primeiro": "Família: Amparo"
+  },
+  {
+    "pagina": 269,
+    "capitulo": 11,
+    "area_percentual": 80.0,
+    "fim_y": 142.293,
+    "primeiro": "Efeito Próprio"
+  },
+  {
+    "pagina": 270,
+    "capitulo": 11,
+    "area_percentual": 72.9,
+    "fim_y": 149.093,
+    "primeiro": "Restrições de conjuração"
+  },
+  {
+    "pagina": 271,
+    "capitulo": 11,
+    "area_percentual": 81.9,
+    "fim_y": 109.893,
+    "primeiro": "Custos e consequências"
+  },
+  {
+    "pagina": 272,
+    "capitulo": 11,
+    "area_percentual": 79.0,
+    "fim_y": 142.493,
+    "primeiro": "Exposição e novas Restrições / Barulho (continuação)"
+  },
+  {
+    "pagina": 273,
+    "capitulo": 11,
+    "area_percentual": 75.8,
+    "fim_y": 117.093,
+    "primeiro": "Talentos de Categoria 1"
+  },
+  {
+    "pagina": 274,
+    "capitulo": 11,
+    "area_percentual": 72.9,
+    "fim_y": 126.293,
+    "primeiro": "Talentos de Categoria 2"
+  },
+  {
+    "pagina": 275,
+    "capitulo": 11,
+    "area_percentual": 64.5,
+    "fim_y": 147.193,
+    "primeiro": "Talentos de Categoria 3"
+  },
+  {
+    "pagina": 276,
+    "capitulo": 11,
+    "area_percentual": 71.8,
+    "fim_y": 178.493,
+    "primeiro": "Regra Própria / Exemplo: aposta entre dois (continuação)"
+  },
+  {
+    "pagina": 279,
+    "capitulo": 12,
+    "area_percentual": 26.3,
+    "fim_y": 491.493,
+    "primeiro": "Progressão de Refino"
+  },
+  {
+    "pagina": 280,
+    "capitulo": 12,
+    "area_percentual": 75.5,
+    "fim_y": 136.293,
+    "primeiro": "Catálogo de aptidões"
+  },
+  {
+    "pagina": 281,
+    "capitulo": 12,
+    "area_percentual": 67.2,
+    "fim_y": 177.193,
+    "primeiro": "Cobrir-se de Energia"
+  },
+  {
+    "pagina": 282,
+    "capitulo": 12,
+    "area_percentual": 67.3,
+    "fim_y": 187.793,
+    "primeiro": "Canalizar Energia / Feitiços e crítico (continuação)"
+  },
+  {
+    "pagina": 283,
+    "capitulo": 12,
+    "area_percentual": 69.6,
+    "fim_y": 203.893,
+    "primeiro": "Energia Reversa (continuação)"
+  },
+  {
+    "pagina": 284,
+    "capitulo": 12,
+    "area_percentual": 70.4,
+    "fim_y": 207.293,
+    "primeiro": "Circulação"
+  },
+  {
+    "pagina": 285,
+    "capitulo": 12,
+    "area_percentual": 64.5,
+    "fim_y": 150.793,
+    "primeiro": "Kokusen / Dano (continuação)"
+  },
+  {
+    "pagina": 286,
+    "capitulo": 12,
+    "area_percentual": 72.8,
+    "fim_y": 107.693,
+    "primeiro": "Proteção contra domínios / Ativação e manutenção (continuação)"
+  },
+  {
+    "pagina": 287,
+    "capitulo": 12,
+    "area_percentual": 74.8,
+    "fim_y": 195.393,
+    "primeiro": "Domínio Simples / Área protegida (continuação)"
+  },
+  {
+    "pagina": 288,
+    "capitulo": 12,
+    "area_percentual": 72.1,
+    "fim_y": 182.493,
+    "primeiro": "Pétala"
+  },
+  {
+    "pagina": 289,
+    "capitulo": 12,
+    "area_percentual": 75.3,
+    "fim_y": 190.793,
+    "primeiro": "Extensão de Domínio"
+  },
+  {
+    "pagina": 290,
+    "capitulo": 12,
+    "area_percentual": 74.4,
+    "fim_y": 196.293,
+    "primeiro": "Cortina"
+  },
+  {
+    "pagina": 291,
+    "capitulo": 12,
+    "area_percentual": 30.0,
+    "fim_y": 543.593,
+    "primeiro": "Aptidão Própria"
+  },
+  {
+    "pagina": 293,
+    "capitulo": 13,
+    "area_percentual": 55.1,
+    "fim_y": 339.093,
+    "primeiro": "13. Rotas de criação"
+  },
+  {
+    "pagina": 295,
+    "capitulo": 13,
+    "area_percentual": 61.7,
+    "fim_y": 151.093,
+    "primeiro": "Técnica Marcial"
+  },
+  {
+    "pagina": 296,
+    "capitulo": 13,
+    "area_percentual": 65.6,
+    "fim_y": 237.893,
+    "primeiro": "Técnica Marcial"
+  },
+  {
+    "pagina": 297,
+    "capitulo": 13,
+    "area_percentual": 62.2,
+    "fim_y": 251.893,
+    "primeiro": "Técnica Marcial / Maldição do Inventário (continuação)"
+  },
+  {
+    "pagina": 298,
+    "capitulo": 13,
+    "area_percentual": 70.3,
+    "fim_y": 195.293,
+    "primeiro": "Exemplo: Fisga"
+  },
+  {
+    "pagina": 299,
+    "capitulo": 13,
+    "area_percentual": 69.5,
+    "fim_y": 228.293,
+    "primeiro": "Exemplo: Bancada (continuação)"
+  },
+  {
+    "pagina": 301,
+    "capitulo": 13,
+    "area_percentual": 70.5,
+    "fim_y": 176.693,
+    "primeiro": "Sem Técnica"
+  },
+  {
+    "pagina": 302,
+    "capitulo": 13,
+    "area_percentual": 65.9,
+    "fim_y": 132.893,
+    "primeiro": "Sem Técnica / Aptidão e Manejo (continuação)"
+  },
+  {
+    "pagina": 303,
+    "capitulo": 13,
+    "area_percentual": 74.9,
+    "fim_y": 113.493,
+    "primeiro": "Exemplo: Sutura Fria"
+  },
+  {
+    "pagina": 304,
+    "capitulo": 13,
+    "area_percentual": 73.0,
+    "fim_y": 175.393,
+    "primeiro": "Exemplo: Espinho / Resposta curta (continuação)"
+  },
+  {
+    "pagina": 306,
+    "capitulo": 13,
+    "area_percentual": 64.6,
+    "fim_y": 192.193,
+    "primeiro": "Bênçãos"
+  },
+  {
+    "pagina": 307,
+    "capitulo": 13,
+    "area_percentual": 60.7,
+    "fim_y": 112.093,
+    "primeiro": "Bênçãos"
+  },
+  {
+    "pagina": 308,
+    "capitulo": 13,
+    "area_percentual": 62.8,
+    "fim_y": 158.093,
+    "primeiro": "Bênçãos"
+  },
+  {
+    "pagina": 309,
+    "capitulo": 13,
+    "area_percentual": 60.4,
+    "fim_y": 283.893,
+    "primeiro": "Bênçãos / Faro (continuação)"
+  },
+  {
+    "pagina": 310,
+    "capitulo": 13,
+    "area_percentual": 65.2,
+    "fim_y": 188.293,
+    "primeiro": "Bênçãos"
+  },
+  {
+    "pagina": 313,
+    "capitulo": 14,
+    "area_percentual": 60.9,
+    "fim_y": 163.293,
+    "primeiro": "Registro"
+  },
+  {
+    "pagina": 314,
+    "capitulo": 14,
+    "area_percentual": 72.2,
+    "fim_y": 134.693,
+    "primeiro": "Acerto do domínio"
+  },
+  {
+    "pagina": 315,
+    "capitulo": 14,
+    "area_percentual": 67.9,
+    "fim_y": 122.593,
+    "primeiro": "Momento da queda"
+  },
+  {
+    "pagina": 316,
+    "capitulo": 14,
+    "area_percentual": 67.7,
+    "fim_y": 242.893,
+    "primeiro": "Poderes avançados / Romper a barreira (continuação)"
+  },
+  {
+    "pagina": 317,
+    "capitulo": 14,
+    "area_percentual": 70.0,
+    "fim_y": 189.293,
+    "primeiro": "Expansão sem Barreiras"
+  },
+  {
+    "pagina": 318,
+    "capitulo": 14,
+    "area_percentual": 76.0,
+    "fim_y": 168.293,
+    "primeiro": "Poderes avançados / Disputa de domínios (continuação)"
+  },
+  {
+    "pagina": 319,
+    "capitulo": 14,
+    "area_percentual": 79.8,
+    "fim_y": 146.893,
+    "primeiro": "Poderes avançados / Fechado e aberto (continuação)"
+  },
+  {
+    "pagina": 320,
+    "capitulo": 14,
+    "area_percentual": 74.9,
+    "fim_y": 176.993,
+    "primeiro": "Poderes avançados / Mais de um confronto (continuação)"
+  },
+  {
+    "pagina": 321,
+    "capitulo": 14,
+    "area_percentual": 66.5,
+    "fim_y": 223.293,
+    "primeiro": "Exemplo: Sala de Trégua"
+  },
+  {
+    "pagina": 323,
+    "capitulo": 15,
+    "area_percentual": 68.4,
+    "fim_y": 171.493,
+    "primeiro": "15. Ritual e Pactos"
+  },
+  {
+    "pagina": 324,
+    "capitulo": 15,
+    "area_percentual": 67.0,
+    "fim_y": 133.093,
+    "primeiro": "Ritual"
+  },
+  {
+    "pagina": 325,
+    "capitulo": 15,
+    "area_percentual": 88.7,
+    "fim_y": 118.593,
+    "primeiro": "Ritual"
+  },
+  {
+    "pagina": 326,
+    "capitulo": 15,
+    "area_percentual": 65.5,
+    "fim_y": 178.093,
+    "primeiro": "Ritual"
+  },
+  {
+    "pagina": 327,
+    "capitulo": 15,
+    "area_percentual": 78.2,
+    "fim_y": 123.493,
+    "primeiro": "Ritual"
+  },
+  {
+    "pagina": 328,
+    "capitulo": 15,
+    "area_percentual": 74.0,
+    "fim_y": 140.293,
+    "primeiro": "Ritual / Ritual em conjunto (continuação)"
+  },
+  {
+    "pagina": 329,
+    "capitulo": 15,
+    "area_percentual": 68.8,
+    "fim_y": 169.993,
+    "primeiro": "Pactos (continuação)"
+  },
+  {
+    "pagina": 330,
+    "capitulo": 15,
+    "area_percentual": 66.5,
+    "fim_y": 133.693,
+    "primeiro": "Pactos"
+  },
+  {
+    "pagina": 331,
+    "capitulo": 15,
+    "area_percentual": 67.9,
+    "fim_y": 119.493,
+    "primeiro": "Pactos / Registro do acordo (continuação)"
+  },
+  {
+    "pagina": 333,
+    "capitulo": 16,
+    "area_percentual": 71.1,
+    "fim_y": 199.693,
+    "primeiro": "16. Invocações em campo"
+  },
+  {
+    "pagina": 334,
+    "capitulo": 16,
+    "area_percentual": 76.1,
+    "fim_y": 143.293,
+    "primeiro": "Turnos das entidades (continuação)"
+  },
+  {
+    "pagina": 335,
+    "capitulo": 16,
+    "area_percentual": 74.1,
+    "fim_y": 203.093,
+    "primeiro": "Turnos das entidades"
+  },
+  {
+    "pagina": 336,
+    "capitulo": 16,
+    "area_percentual": 72.8,
+    "fim_y": 207.093,
+    "primeiro": "Turnos das entidades"
+  },
+  {
+    "pagina": 337,
+    "capitulo": 16,
+    "area_percentual": 77.1,
+    "fim_y": 166.693,
+    "primeiro": "Comandar uma especial (continuação)"
+  },
+  {
+    "pagina": 338,
+    "capitulo": 16,
+    "area_percentual": 76.0,
+    "fim_y": 162.493,
+    "primeiro": "Comandar uma especial / Ordem antecipada (continuação)"
+  },
+  {
+    "pagina": 339,
+    "capitulo": 16,
+    "area_percentual": 77.0,
+    "fim_y": 154.093,
+    "primeiro": "Comandar uma especial / Preparar uma ação (continuação)"
+  },
+  {
+    "pagina": 340,
+    "capitulo": 16,
+    "area_percentual": 75.1,
+    "fim_y": 105.693,
+    "primeiro": "Comandar uma especial / Especiais de execução rápida (continuação)"
+  },
+  {
+    "pagina": 341,
+    "capitulo": 16,
+    "area_percentual": 73.7,
+    "fim_y": 124.093,
+    "primeiro": "Comandar uma especial / Especiais armadas (continuação)"
+  },
+  {
+    "pagina": 342,
+    "capitulo": 16,
+    "area_percentual": 76.4,
+    "fim_y": 153.393,
+    "primeiro": "Movimento e defesa / Ações concedidas por aliados (continuação)"
+  },
+  {
+    "pagina": 343,
+    "capitulo": 16,
+    "area_percentual": 76.8,
+    "fim_y": 183.593,
+    "primeiro": "Talismãs / Corpos amaldiçoados (continuação)"
+  },
+  {
+    "pagina": 344,
+    "capitulo": 16,
+    "area_percentual": 74.3,
+    "fim_y": 190.793,
+    "primeiro": "Talismãs / Trunfos das domadas (continuação)"
+  },
+  {
+    "pagina": 345,
+    "capitulo": 16,
+    "area_percentual": 77.4,
+    "fim_y": 172.593,
+    "primeiro": "Talismãs"
+  },
+  {
+    "pagina": 346,
+    "capitulo": 16,
+    "area_percentual": 80.5,
+    "fim_y": 152.293,
+    "primeiro": "Queda e destruição (continuação)"
+  },
+  {
+    "pagina": 347,
+    "capitulo": 16,
+    "area_percentual": 79.3,
+    "fim_y": 113.693,
+    "primeiro": "Queda e destruição / Efeitos fora de campo (continuação)"
+  },
+  {
+    "pagina": 348,
+    "capitulo": 16,
+    "area_percentual": 81.2,
+    "fim_y": 138.893,
+    "primeiro": "Queda e destruição"
+  },
+  {
+    "pagina": 351,
+    "capitulo": 17,
+    "area_percentual": 61.7,
+    "fim_y": 202.893,
+    "primeiro": "Criar uma invocação"
+  },
+  {
+    "pagina": 352,
+    "capitulo": 17,
+    "area_percentual": 61.2,
+    "fim_y": 241.393,
+    "primeiro": "Adquirir entidades / Espaço conhecido (continuação)"
+  },
+  {
+    "pagina": 353,
+    "capitulo": 17,
+    "area_percentual": 63.7,
+    "fim_y": 137.493,
+    "primeiro": "Exemplo: Cão de sombra"
+  },
+  {
+    "pagina": 354,
+    "capitulo": 17,
+    "area_percentual": 68.0,
+    "fim_y": 178.893,
+    "primeiro": "Adquirir entidades / Criação (continuação)"
+  },
+  {
+    "pagina": 355,
+    "capitulo": 17,
+    "area_percentual": 65.2,
+    "fim_y": 121.893,
+    "primeiro": "Adquirir entidades / Tipos de entidade (continuação)"
+  },
+  {
+    "pagina": 356,
+    "capitulo": 17,
+    "area_percentual": 58.8,
+    "fim_y": 257.993,
+    "primeiro": "Definição e corpo"
+  },
+  {
+    "pagina": 357,
+    "capitulo": 17,
+    "area_percentual": 72.5,
+    "fim_y": 169.793,
+    "primeiro": "Definição e corpo / Vida e Defesa (continuação)"
+  },
+  {
+    "pagina": 358,
+    "capitulo": 17,
+    "area_percentual": 61.4,
+    "fim_y": 219.093,
+    "primeiro": "Definição e corpo"
+  },
+  {
+    "pagina": 359,
+    "capitulo": 17,
+    "area_percentual": 60.2,
+    "fim_y": 263.393,
+    "primeiro": "Habilidades básicas"
+  },
+  {
+    "pagina": 360,
+    "capitulo": 17,
+    "area_percentual": 57.1,
+    "fim_y": 316.793,
+    "primeiro": "Habilidades especiais"
+  },
+  {
+    "pagina": 361,
+    "capitulo": 17,
+    "area_percentual": 60.7,
+    "fim_y": 200.493,
+    "primeiro": "Habilidades especiais / Formas da entidade (continuação)"
+  },
+  {
+    "pagina": 362,
+    "capitulo": 17,
+    "area_percentual": 67.8,
+    "fim_y": 141.493,
+    "primeiro": "Habilidades especiais"
+  },
+  {
+    "pagina": 363,
+    "capitulo": 17,
+    "area_percentual": 32.3,
+    "fim_y": 484.493,
+    "primeiro": "Habilidades especiais / Saldo e limites (continuação)"
+  },
+  {
+    "pagina": 364,
+    "capitulo": 17,
+    "area_percentual": 79.6,
+    "fim_y": 145.893,
+    "primeiro": "Habilidades especiais / Amparo (continuação)"
+  },
+  {
+    "pagina": 365,
+    "capitulo": 17,
+    "area_percentual": 77.5,
+    "fim_y": 160.893,
+    "primeiro": "Habilidades especiais / Tempo e ações (continuação)"
+  },
+  {
+    "pagina": 366,
+    "capitulo": 17,
+    "area_percentual": 76.1,
+    "fim_y": 164.093,
+    "primeiro": "Talentos da entidade"
+  },
+  {
+    "pagina": 367,
+    "capitulo": 17,
+    "area_percentual": 63.0,
+    "fim_y": 242.293,
+    "primeiro": "Talentos da entidade / Exemplo: Registro de cena (continuação)"
+  },
+  {
+    "pagina": 368,
+    "capitulo": 17,
+    "area_percentual": 69.9,
+    "fim_y": 141.293,
+    "primeiro": "Exemplo: Vigia de papel"
+  },
+  {
+    "pagina": 369,
+    "capitulo": 17,
+    "area_percentual": 64.7,
+    "fim_y": 130.193,
+    "primeiro": "Exemplo: Vigia de papel"
+  },
+  {
+    "pagina": 370,
+    "capitulo": 17,
+    "area_percentual": 63.9,
+    "fim_y": 265.193,
+    "primeiro": "Fabricação de entidades"
+  },
+  {
+    "pagina": 371,
+    "capitulo": 17,
+    "area_percentual": 52.5,
+    "fim_y": 283.393,
+    "primeiro": "Fabricação de entidades"
+  },
+  {
+    "pagina": 372,
+    "capitulo": 17,
+    "area_percentual": 63.0,
+    "fim_y": 225.693,
+    "primeiro": "Fabricação de entidades / Teste de fabricação (continuação)"
+  },
+  {
+    "pagina": 373,
+    "capitulo": 17,
+    "area_percentual": 59.4,
+    "fim_y": 217.093,
+    "primeiro": "Fabricação de entidades / Transferência e herança (continuação)"
+  },
+  {
+    "pagina": 375,
+    "capitulo": 18,
+    "area_percentual": 59.4,
+    "fim_y": 282.693,
+    "primeiro": "18. Mestrar"
+  },
+  {
+    "pagina": 376,
+    "capitulo": 18,
+    "area_percentual": 59.4,
+    "fim_y": 269.493,
+    "primeiro": "Mestrar / Escolhas do grupo (continuação)"
+  },
+  {
+    "pagina": 378,
+    "capitulo": 19,
+    "area_percentual": 80.8,
+    "fim_y": 110.493,
+    "primeiro": "19. Glossário"
+  },
+  {
+    "pagina": 379,
+    "capitulo": 19,
+    "area_percentual": 78.7,
+    "fim_y": 126.493,
+    "primeiro": "Glossário"
+  },
+  {
+    "pagina": 380,
+    "capitulo": 19,
+    "area_percentual": 46.1,
+    "fim_y": 390.893,
+    "primeiro": "Glossário"
+  },
+  {
+    "pagina": 382,
+    "capitulo": 20,
+    "area_percentual": 47.9,
+    "fim_y": 338.793,
+    "primeiro": "20. Consulta rápida"
+  },
+  {
+    "pagina": 383,
+    "capitulo": 20,
+    "area_percentual": 51.2,
+    "fim_y": 294.293,
+    "primeiro": "Consulta rápida / Recursos do turno (continuação)"
+  },
+  {
+    "pagina": 385,
+    "capitulo": 21,
+    "area_percentual": 94.2,
+    "fim_y": 106.693,
+    "primeiro": "21. Índice"
+  },
+  {
+    "pagina": 386,
+    "capitulo": 21,
+    "area_percentual": 93.8,
+    "fim_y": 104.693,
+    "primeiro": "Índice"
+  },
+  {
+    "pagina": 387,
+    "capitulo": 21,
+    "area_percentual": 93.8,
+    "fim_y": 104.693,
+    "primeiro": "Índice"
+  },
+  {
+    "pagina": 388,
+    "capitulo": 21,
+    "area_percentual": 92.6,
+    "fim_y": 104.693,
+    "primeiro": "Índice"
+  }
+]

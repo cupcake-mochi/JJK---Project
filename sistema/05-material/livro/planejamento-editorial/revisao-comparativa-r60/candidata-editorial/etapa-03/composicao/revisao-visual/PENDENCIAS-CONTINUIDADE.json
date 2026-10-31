@@ -1,0 +1,26 @@
+[
+  {
+    "pagina": 79,
+    "assunto": "Sem Técnica",
+    "achado": "Título e introdução na página 79; primeira entrada subordinada na página seguinte.",
+    "etapa": "6C"
+  },
+  {
+    "pagina": 283,
+    "assunto": "Cobrir-se de Energia",
+    "achado": "Título e introdução no fim da página; a proteção só começa na página 284. Manter a entrada junto de um começo útil da regra.",
+    "etapa": "6C"
+  },
+  {
+    "pagina": 309,
+    "assunto": "Defesa sem Armadura",
+    "achado": "Tabela larga divide a página em duas regiões de colunas. A região superior deixa grande vazio à direita; reavaliar largura da tabela e composição, preservando leitura esquerda inteira → direita.",
+    "etapa": "6C"
+  },
+  {
+    "pagina": 105,
+    "assunto": "Continuação de Batedor: Besta",
+    "achado": "O cabeçalho de continuação repete Batedor: Besta. Simplificar contexto sem mudar título ou regra.",
+    "etapa": "6C"
+  }
+]

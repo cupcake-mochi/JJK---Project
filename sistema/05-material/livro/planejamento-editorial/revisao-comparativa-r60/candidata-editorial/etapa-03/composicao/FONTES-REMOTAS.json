@@ -1,0 +1,99 @@
+{
+  "commit": "b48fdc1e3fe0a9a2935235ee13adf9fd4c6ace7f",
+  "repositorio": "https://github.com/cupcake-mochi/JJK---Project",
+  "branch": "claude/vigilant-curie-2j79zw",
+  "fontes": {
+    "ab": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "sha256": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded"
+    },
+    "geral": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "sha256": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3"
+    },
+    "dano": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "sha256": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1"
+    },
+    "origens": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "sha256": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7"
+    },
+    "pericias": {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "sha256": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae"
+    },
+    "equip": {
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "sha256": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b"
+    },
+    "progressao": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "sha256": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a"
+    },
+    "fundamento": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
+    },
+    "catalogo": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "sha256": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff"
+    },
+    "aptidoes": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "sha256": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0"
+    },
+    "rotas": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "sha256": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae"
+    },
+    "poderes": {
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "sha256": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
+    },
+    "ritual": {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "sha256": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707"
+    },
+    "campo": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b"
+    },
+    "construcao": {
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2"
+    },
+    "fabricacao": {
+      "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "sha256": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa"
+    },
+    "consulta": {
+      "arquivo": "consulta/lote-01/CONSULTA.md",
+      "sha256": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
+    },
+    "bastiao": {
+      "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+      "sha256": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da"
+    },
+    "vanguarda": {
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "sha256": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90"
+    },
+    "guia": {
+      "arquivo": "caminhos/guia/lote-01/GUIA.md",
+      "sha256": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c"
+    },
+    "emanador": {
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
+      "sha256": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa"
+    },
+    "evocador": {
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
+      "sha256": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944"
+    },
+    "incursor": {
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "sha256": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513"
+    }
+  }
+}

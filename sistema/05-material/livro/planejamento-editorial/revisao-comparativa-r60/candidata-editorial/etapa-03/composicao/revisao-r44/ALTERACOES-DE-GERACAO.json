@@ -1,0 +1,47 @@
+[
+  {
+    "arquivo": "concluir_textos_r44.py",
+    "antes_sha256": null,
+    "depois_sha256": "0f63da15cddbf41d7ef67d65e612859db6f88db2538f3b3c61078cf3429d7268"
+  },
+  {
+    "arquivo": "conferir_r44.py",
+    "antes_sha256": null,
+    "depois_sha256": "f5477e40bf9e8ece60b76ffb345b78f5148a1323f4708b7a1d2f432ea37d6c11"
+  },
+  {
+    "arquivo": "fluxo_continuo.py",
+    "antes_sha256": "5d67a4e692b2493068c88363e8013653749a886e86d235a4642ca7a28c00a60a",
+    "depois_sha256": "2bd545fde430d57d77c78bfb3c65b7ea14efff665b26ead63b8e204c50e7592c"
+  },
+  {
+    "arquivo": "gerar_livro.py",
+    "antes_sha256": "13204c319de851ebabdd518466257ad30bdc5b6bfd70c26a27872efc3e412146",
+    "depois_sha256": "965cde8267026b24a92e3fe534070c76818180068c4636953124e24e0df0c9f8"
+  },
+  {
+    "arquivo": "ler_fontes.py",
+    "antes_sha256": "f19dbccc612c657cc0e460461429be1568d10bf6c8107ceb20d9b4e40920f705",
+    "depois_sha256": "0fa1b923a4a606b7edb1fea9431193e14b0856d1b0f8d4da20402897fe0e816f"
+  },
+  {
+    "arquivo": "preparar_r44.py",
+    "antes_sha256": null,
+    "depois_sha256": "186017e99c3c1e6d75e34b74f58f913b4c27eaa2754774813e611790b385ca07"
+  },
+  {
+    "arquivo": "revisao_r44.py",
+    "antes_sha256": null,
+    "depois_sha256": "d59d6ed40fdc5fe75dfde951f1f160c5cd23237e25c71b3964c2d37acb581d70"
+  },
+  {
+    "arquivo": "sumario_r40.py",
+    "antes_sha256": "f8b9c1242ec192d9a30bf7251dd92e51fef9cd12fd312fd0fe57ed92c3932d2e",
+    "depois_sha256": "975c1e3da1e36da07bc296a678e4fb830ae1e2de27ee871d1d04416b9da1bf45"
+  },
+  {
+    "arquivo": "titulos_intermediarios.py",
+    "antes_sha256": "97c991c11c7993553e2ca9e95152ba38a3969dacc57b94edd9b80fa33c764423",
+    "depois_sha256": "49efc613e79491c834bb24ddba3ecf8eba3a0d8925120b874fd2d200ccd9aeed"
+  }
+]

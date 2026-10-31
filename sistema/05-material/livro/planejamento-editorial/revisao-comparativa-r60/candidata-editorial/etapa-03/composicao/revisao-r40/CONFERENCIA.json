@@ -1,0 +1,17 @@
+{
+  "paginas": 373,
+  "paginas_sumario": [
+    2,
+    3,
+    4
+  ],
+  "secoes_sumario": 156,
+  "links_sumario_conferidos": 177,
+  "blocos_alterados": 91,
+  "texto_identico_fora_dos_registros": true,
+  "r39_intacta": true,
+  "inventario_caminhos_trilhas_rotas": 27,
+  "titulos_adjacentes_para_revisar": [],
+  "problemas": [],
+  "sha256_pdf": "8d6ed57c68757bfe935d4a9e313cdaa0ee93fe6cba243f1cfdd09f42bd5db2ae"
+}

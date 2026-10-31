@@ -1,0 +1,569 @@
+[
+  {
+    "id": "PF001",
+    "paginas_r36": [
+      10,
+      44
+    ],
+    "paginas_r37": [
+      10,
+      44
+    ],
+    "blocos": []
+  },
+  {
+    "id": "PF002",
+    "paginas_r36": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "paginas_r37": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "blocos": [
+      "geral--atributos",
+      "geral--pericias",
+      "geral--resistencia",
+      "geral--testes",
+      "geral--turnos"
+    ]
+  },
+  {
+    "id": "PF003",
+    "paginas_r36": [
+      33
+    ],
+    "paginas_r37": [
+      33,
+      34
+    ],
+    "blocos": [
+      "geral--arrasto",
+      "geral--carga"
+    ]
+  },
+  {
+    "id": "PF004",
+    "paginas_r36": [
+      36
+    ],
+    "paginas_r37": [
+      36,
+      37
+    ],
+    "blocos": [
+      "geral--esconder",
+      "geral--procurar"
+    ]
+  },
+  {
+    "id": "PF005",
+    "paginas_r36": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "paginas_r37": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "blocos": [
+      "geral--buscar",
+      "geral--energia-exemplo",
+      "geral--estudar",
+      "geral--ler",
+      "geral--mundo",
+      "geral--ocultacao-ataque",
+      "geral--pressao",
+      "geral--procurar"
+    ]
+  },
+  {
+    "id": "PF006",
+    "paginas_r36": [
+      53,
+      185,
+      192,
+      257,
+      285,
+      367
+    ],
+    "paginas_r37": [
+      53,
+      54,
+      184,
+      185,
+      191,
+      256,
+      257,
+      285,
+      367,
+      368
+    ],
+    "blocos": [
+      "aptidoes--apt-catalogo",
+      "construcao--entidades-efeitos-reduzidos",
+      "construcao--entidades-saldo",
+      "dano--zero",
+      "equip--eq-propriedades",
+      "fundamento--limitesmaxima",
+      "pericias--oficios"
+    ]
+  },
+  {
+    "id": "PF007",
+    "paginas_r36": [
+      63,
+      64
+    ],
+    "paginas_r37": [
+      62,
+      63,
+      64
+    ],
+    "blocos": [
+      "ab--ab-caminho",
+      "ab--ab-capacidades",
+      "ab--ab-equipamento"
+    ]
+  },
+  {
+    "id": "PF008",
+    "paginas_r36": [
+      65
+    ],
+    "paginas_r37": [
+      64,
+      65
+    ],
+    "blocos": [
+      "ab--ab-equipamento",
+      "ab--ab-kaori"
+    ]
+  },
+  {
+    "id": "PF009",
+    "paginas_r36": [
+      78,
+      79
+    ],
+    "paginas_r37": [
+      77,
+      78,
+      79
+    ],
+    "blocos": [
+      "origens--feto-beneficios",
+      "origens--origem-feto",
+      "origens--origem-sem-tecnica"
+    ]
+  },
+  {
+    "id": "PF010",
+    "paginas_r36": [
+      83
+    ],
+    "paginas_r37": [
+      82,
+      83
+    ],
+    "blocos": [
+      "origens--corpo-inteiro-manutencao",
+      "origens--corpo-ninhada-gemeos"
+    ]
+  },
+  {
+    "id": "PF012",
+    "paginas_r36": [
+      64,
+      91,
+      99,
+      231
+    ],
+    "paginas_r37": [
+      63,
+      64,
+      90,
+      91,
+      92,
+      98,
+      99,
+      230,
+      231
+    ],
+    "blocos": [
+      "ab--ab-capacidades",
+      "ab--ab-equipamento",
+      "bastiao--bas-bastiao",
+      "bastiao--bas-olhos",
+      "progressao--prog-atualizar",
+      "progressao--prog-trilhas",
+      "vanguarda--van-base"
+    ]
+  },
+  {
+    "id": "PF013",
+    "paginas_r36": [
+      104
+    ],
+    "paginas_r37": [
+      102,
+      103,
+      104
+    ],
+    "blocos": [
+      "vanguarda--van-bote",
+      "vanguarda--van-feiticos",
+      "vanguarda--van-yumi"
+    ]
+  },
+  {
+    "id": "PF015",
+    "paginas_r36": [
+      113,
+      200
+    ],
+    "paginas_r37": [
+      112,
+      113,
+      114,
+      135,
+      136,
+      198,
+      199
+    ],
+    "blocos": [
+      "equip--eqa-armas",
+      "equip--eqm-reserva",
+      "guia--guia",
+      "guia--guia-progressao",
+      "evocador--evocador"
+    ]
+  },
+  {
+    "id": "PF016",
+    "paginas_r36": [
+      99,
+      111,
+      113,
+      114,
+      117,
+      119,
+      125,
+      126,
+      127,
+      149,
+      163,
+      198,
+      199,
+      248,
+      284,
+      296,
+      368
+    ],
+    "paginas_r37": [
+      98,
+      99,
+      110,
+      111,
+      112,
+      113,
+      114,
+      116,
+      117,
+      118,
+      123,
+      124,
+      125,
+      126,
+      147,
+      148,
+      161,
+      162,
+      163,
+      196,
+      197,
+      198,
+      199,
+      246,
+      247,
+      284,
+      295,
+      368
+    ],
+    "blocos": [
+      "aptidoes--apt-marcos",
+      "aptidoes--apt-propria",
+      "construcao--entidades-saldo",
+      "emanador--ema-base",
+      "emanador--ema-desdobramento",
+      "emanador--ema-modulacoes",
+      "emanador--ema-remodelar",
+      "equip--eqm-municao",
+      "equip--eqm-recarga",
+      "equip--eqm-reserva",
+      "evocador--ev-parceria-complementar",
+      "evocador--ev-parceria-intervencoes",
+      "fundamento--aplicacoes",
+      "fundamento--controle",
+      "guia--guia",
+      "guia--guia-aberturas",
+      "guia--guia-arquiteto",
+      "guia--guia-obras-maiores",
+      "guia--guia-plano-conjunto",
+      "guia--guia-progressao",
+      "incursor--inc-assassino",
+      "incursor--inc-guarda",
+      "vanguarda--van-base",
+      "vanguarda--van-executor",
+      "vanguarda--van-executor-avanco"
+    ]
+  },
+  {
+    "id": "PF017",
+    "paginas_r36": [
+      141
+    ],
+    "paginas_r37": [
+      139,
+      140,
+      141
+    ],
+    "blocos": [
+      "evocador--ev-combinar",
+      "evocador--ev-complementar",
+      "evocador--ev-preparacao"
+    ]
+  },
+  {
+    "id": "PF018",
+    "paginas_r36": [
+      145
+    ],
+    "paginas_r37": [
+      143,
+      144,
+      145
+    ],
+    "blocos": [
+      "evocador--ev-principal-continuidade",
+      "evocador--ev-principal-protecao"
+    ]
+  },
+  {
+    "id": "PF019",
+    "paginas_r36": [
+      153
+    ],
+    "paginas_r37": [
+      151,
+      152
+    ],
+    "blocos": [
+      "evocador--ev-multiplas-duplas",
+      "evocador--ev-multiplas-entrada"
+    ]
+  },
+  {
+    "id": "PF020",
+    "paginas_r36": [
+      163,
+      164,
+      168,
+      169,
+      170,
+      171,
+      173,
+      174,
+      175,
+      176,
+      177
+    ],
+    "paginas_r37": [
+      161,
+      162,
+      163,
+      164,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "blocos": [
+      "incursor--inc-assassino",
+      "incursor--inc-base",
+      "incursor--inc-cirurgico",
+      "incursor--inc-continuacoes",
+      "incursor--inc-corpo",
+      "incursor--inc-cortar",
+      "incursor--inc-destino",
+      "incursor--inc-finta",
+      "incursor--inc-guarda",
+      "incursor--inc-interceptar",
+      "incursor--inc-malabarista",
+      "incursor--inc-perfeita",
+      "incursor--inc-projecao",
+      "incursor--inc-pugilista",
+      "incursor--inc-redirecionar",
+      "incursor--inc-redirecionar-resolucao",
+      "incursor--inc-retorno",
+      "incursor--inc-ricochete"
+    ]
+  },
+  {
+    "id": "PF021",
+    "paginas_r36": [
+      264
+    ],
+    "paginas_r37": [
+      262,
+      263,
+      264
+    ],
+    "blocos": [
+      "catalogo--cat-area",
+      "catalogo--cat-area-continua",
+      "catalogo--cat-mira"
+    ]
+  },
+  {
+    "id": "PF022",
+    "paginas_r36": [
+      253,
+      274
+    ],
+    "paginas_r37": [
+      251,
+      252,
+      273,
+      274
+    ],
+    "blocos": [
+      "catalogo--cat-proprio",
+      "catalogo--cat-restricoes-conjuracao",
+      "fundamento--ampliar",
+      "fundamento--classezero"
+    ]
+  },
+  {
+    "id": "PF023",
+    "paginas_r36": [
+      288
+    ],
+    "paginas_r37": [
+      287,
+      288
+    ],
+    "blocos": [
+      "aptidoes--apt-circulacao",
+      "aptidoes--apt-energia-positiva",
+      "aptidoes--apt-reversa"
+    ]
+  },
+  {
+    "id": "PF024",
+    "paginas_r36": [
+      304,
+      306
+    ],
+    "paginas_r37": [
+      302,
+      303,
+      305,
+      306
+    ],
+    "blocos": [
+      "rotas--rota-bancada",
+      "rotas--rota-cura",
+      "rotas--rota-invocacoes",
+      "rotas--rota-sementes"
+    ]
+  },
+  {
+    "id": "PF025",
+    "paginas_r36": [
+      347,
+      348,
+      349,
+      350
+    ],
+    "paginas_r37": [
+      347,
+      348,
+      349,
+      350,
+      351
+    ],
+    "blocos": [
+      "campo--inv-corpos",
+      "campo--inv-dominio",
+      "campo--inv-liberacao",
+      "campo--inv-maxima",
+      "campo--inv-queda",
+      "campo--inv-reparo",
+      "campo--inv-respostas",
+      "campo--inv-talisma"
+    ]
+  },
+  {
+    "id": "PF026",
+    "paginas_r36": [
+      372
+    ],
+    "paginas_r37": [
+      371,
+      372
+    ],
+    "blocos": [
+      "construcao--entidades-ampliacao",
+      "construcao--entidades-passiva-propria"
+    ]
+  },
+  {
+    "id": "PF027",
+    "paginas_r36": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "paginas_r37": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "blocos": [
+      "consulta--consulta-indice-1",
+      "consulta--consulta-indice-10",
+      "consulta--consulta-indice-11",
+      "consulta--consulta-indice-2",
+      "consulta--consulta-indice-3",
+      "consulta--consulta-indice-4",
+      "consulta--consulta-indice-5",
+      "consulta--consulta-indice-6",
+      "consulta--consulta-indice-7",
+      "consulta--consulta-indice-8",
+      "consulta--consulta-indice-9"
+    ]
+  }
+]

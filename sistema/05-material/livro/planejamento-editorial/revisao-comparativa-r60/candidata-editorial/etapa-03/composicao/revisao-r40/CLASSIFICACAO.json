@@ -1,0 +1,5719 @@
+[
+  {
+    "bloco": "geral--testes",
+    "titulo": "Dificuldade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 11
+  },
+  {
+    "bloco": "geral--testes",
+    "titulo": "Sucesso e falha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Especialização",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Vantagem e desvantagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 12
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Arredondamento",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 13
+  },
+  {
+    "bloco": "geral--pericias",
+    "titulo": "Testes de grupo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 13
+  },
+  {
+    "bloco": "geral--resistencia",
+    "titulo": "CD e resultado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 13
+  },
+  {
+    "bloco": "geral--resistencia",
+    "titulo": "Ataques e defesas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 13
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Usar a ação adequada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 15
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Conjuração",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 15
+  },
+  {
+    "bloco": "geral--acoes",
+    "titulo": "Equipamento",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 15
+  },
+  {
+    "bloco": "geral--ajudar",
+    "titulo": "Ajudar num teste",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 16
+  },
+  {
+    "bloco": "geral--ajudar",
+    "titulo": "Ajudar num ataque",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Provocar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Ler o Ambiente",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 16
+  },
+  {
+    "bloco": "geral--interacao",
+    "titulo": "Influenciar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Escolha o gatilho e a resposta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Espere o evento terminar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Atacar ou se mover",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 17
+  },
+  {
+    "bloco": "geral--preparar",
+    "titulo": "Conjuração preparada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 17
+  },
+  {
+    "bloco": "geral--oportunidade",
+    "titulo": "Ataque de oportunidade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 18
+  },
+  {
+    "bloco": "geral--oportunidade",
+    "titulo": "Movimento que não provoca",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 18
+  },
+  {
+    "bloco": "geral--concentracao",
+    "titulo": "Dano durante a concentração",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 18
+  },
+  {
+    "bloco": "geral--concentracao",
+    "titulo": "Procedimentos específicos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 19
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Corpo a corpo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 20
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Armas à distância",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 20
+  },
+  {
+    "bloco": "geral--alcance",
+    "titulo": "Visão e cobertura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 20
+  },
+  {
+    "bloco": "geral--critico",
+    "titulo": "Dano do ataque",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 20
+  },
+  {
+    "bloco": "geral--critico",
+    "titulo": "Crítico",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 21
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Proteção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 21
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Cobertura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 22
+  },
+  {
+    "bloco": "geral--defesa",
+    "titulo": "Redução de Dano",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 22
+  },
+  {
+    "bloco": "geral--bloquear",
+    "titulo": "Resolução",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 23
+  },
+  {
+    "bloco": "geral--bloquear",
+    "titulo": "Limites",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 23
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Aparar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 23
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Brecha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 24
+  },
+  {
+    "bloco": "geral--aparar",
+    "titulo": "Ataques de resposta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 24
+  },
+  {
+    "bloco": "geral--manobras",
+    "titulo": "Faça a manobra",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 24
+  },
+  {
+    "bloco": "geral--manobras",
+    "titulo": "Mãos, armas e alcance",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 25
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "Escapar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 25
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "Arrastar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 26
+  },
+  {
+    "bloco": "geral--contencoes",
+    "titulo": "No chão e sob ataque",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 26
+  },
+  {
+    "bloco": "geral--espacos",
+    "titulo": "Atravessar outra criatura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 28
+  },
+  {
+    "bloco": "geral--espacos",
+    "titulo": "Obstáculos e movimento imposto",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 28
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Três dimensões",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 28
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Mesas sem mapa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 29
+  },
+  {
+    "bloco": "geral--distancias",
+    "titulo": "Movimento imposto",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 29
+  },
+  {
+    "bloco": "geral--saltos",
+    "titulo": "Distância e impulso",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 29
+  },
+  {
+    "bloco": "geral--saltos",
+    "titulo": "Esforço e obstáculos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 29
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Dano de queda",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 30
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Cair na água",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 30
+  },
+  {
+    "bloco": "geral--quedas",
+    "titulo": "Empurrões e movimento imposto",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 30
+  },
+  {
+    "bloco": "geral--queda-criatura",
+    "titulo": "Queda deliberada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 31
+  },
+  {
+    "bloco": "geral--rastejar",
+    "titulo": "Levantar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 31
+  },
+  {
+    "bloco": "geral--rastejar",
+    "titulo": "Passagem estreita",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 32
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Combinar modalidades",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 32
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Obstáculos e alcance",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 32
+  },
+  {
+    "bloco": "geral--voo",
+    "titulo": "Perder sustentação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 33
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Volume dos itens",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 33
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Objetos sem Volume definido e criaturas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 33
+  },
+  {
+    "bloco": "geral--carga",
+    "titulo": "Erguer",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 34
+  },
+  {
+    "bloco": "geral--arrasto",
+    "titulo": "Arrastar pelo chão",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 34
+  },
+  {
+    "bloco": "geral--arrasto",
+    "titulo": "Transporte em grupo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 34
+  },
+  {
+    "bloco": "geral--montaria",
+    "titulo": "Turnos e controle",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 34
+  },
+  {
+    "bloco": "geral--montaria",
+    "titulo": "Ameaças e quedas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 35
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Quando é possível",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 36
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Uma rolagem, vários observadores",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 36
+  },
+  {
+    "bloco": "geral--esconder",
+    "titulo": "Enquanto você permanece escondido",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 36
+  },
+  {
+    "bloco": "geral--procurar",
+    "titulo": "Qual procedimento usar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 37
+  },
+  {
+    "bloco": "geral--ocultacao-ataque",
+    "titulo": "Visão e posição do alvo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 37
+  },
+  {
+    "bloco": "geral--ocultacao-ataque",
+    "titulo": "Ataques e posição revelada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 38
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Diga o que procura entender",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 38
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Resolva a pergunta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 39
+  },
+  {
+    "bloco": "geral--estudar",
+    "titulo": "Encontrar, compreender ou explorar o lugar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 39
+  },
+  {
+    "bloco": "geral--buscar",
+    "titulo": "Resolva a busca",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 40
+  },
+  {
+    "bloco": "geral--buscar",
+    "titulo": "Resultados",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 40
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Sinais da cena",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 41
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Nova tentativa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 41
+  },
+  {
+    "bloco": "geral--pressao",
+    "titulo": "Alvos sem energia",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 41
+  },
+  {
+    "bloco": "geral--ler",
+    "titulo": "Estudar uma fonte",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 41
+  },
+  {
+    "bloco": "geral--ler",
+    "titulo": "Vestígios",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Usar a descoberta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Carga e resíduos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 42
+  },
+  {
+    "bloco": "geral--energia-exemplo",
+    "titulo": "Barreiras",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 42
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Força",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Efeitos adicionais",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Tema e nome do feitiço",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 46
+  },
+  {
+    "bloco": "dano--tipos",
+    "titulo": "Golpes com vários tipos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 46
+  },
+  {
+    "bloco": "dano--reducao",
+    "titulo": "Limites do efeito",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 47
+  },
+  {
+    "bloco": "dano--alma",
+    "titulo": "Receber dano de Alma",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 47
+  },
+  {
+    "bloco": "dano--integridade",
+    "titulo": "Recuperar Integridade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 48
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Condições leves",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Lento",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Guarda Aberta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Derrubado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Agarrado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Desarmado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 49
+  },
+  {
+    "bloco": "dano--leves",
+    "titulo": "Surdo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Condições médias",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Calado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Enfeitiçado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--medias",
+    "titulo": "Remoção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Condições pesadas",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Impedido",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 50
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Cego",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Amedrontado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Envenenado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Atordoado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 51
+  },
+  {
+    "bloco": "dano--pesadas",
+    "titulo": "Testes de saída",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 51
+  },
+  {
+    "bloco": "dano--temporarios",
+    "titulo": "Receber outra fonte",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 52
+  },
+  {
+    "bloco": "dano--temporarios",
+    "titulo": "Limites",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 52
+  },
+  {
+    "bloco": "dano--insistir",
+    "titulo": "Socorro durante Insistir",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 54
+  },
+  {
+    "bloco": "dano--socorro",
+    "titulo": "Cura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 54
+  },
+  {
+    "bloco": "dano--socorro",
+    "titulo": "Estabilizar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 55
+  },
+  {
+    "bloco": "dano--sequelas",
+    "titulo": "Cicatrizes",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 55
+  },
+  {
+    "bloco": "dano--derrota",
+    "titulo": "Missões com morte permanente",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 56
+  },
+  {
+    "bloco": "dano--derrota",
+    "titulo": "Recuperação depois da derrota",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 56
+  },
+  {
+    "bloco": "dano--inconsciente",
+    "titulo": "Recuperar a consciência",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 56
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Efeitos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 58
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Recuperação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 58
+  },
+  {
+    "bloco": "dano--exaustao",
+    "titulo": "Exaustão e Integridade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 58
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Cena",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 59
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Missões longas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 59
+  },
+  {
+    "bloco": "dano--usos",
+    "titulo": "Conferência da ficha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 59
+  },
+  {
+    "bloco": "ab--ab-resgate",
+    "titulo": "Antes do corredor",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 66
+  },
+  {
+    "bloco": "ab--ab-resgate",
+    "titulo": "Posições",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Iniciativa",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Ataque da maldição",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 66
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Turno de Kaori",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 67
+  },
+  {
+    "bloco": "ab--ab-combate",
+    "titulo": "Depois da luta",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 67
+  },
+  {
+    "bloco": "origens--latente-beneficios",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 72
+  },
+  {
+    "bloco": "origens--latente-beneficios",
+    "titulo": "Legados de exceção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 72
+  },
+  {
+    "bloco": "origens--receptaculo-acordos",
+    "titulo": "Legados narrativos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 74
+  },
+  {
+    "bloco": "origens--receptaculo-acordos",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 74
+  },
+  {
+    "bloco": "origens--receptaculo-excecoes",
+    "titulo": "Acordos na mesa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 74
+  },
+  {
+    "bloco": "origens--descendente-beneficios",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 75
+  },
+  {
+    "bloco": "origens--descendente-beneficios",
+    "titulo": "Legados de exceção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 75
+  },
+  {
+    "bloco": "origens--encarnado-beneficios",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 76
+  },
+  {
+    "bloco": "origens--encarnado-beneficios",
+    "titulo": "Legados de exceção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 76
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 78
+  },
+  {
+    "bloco": "origens--feto-beneficios",
+    "titulo": "Legados de exceção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 78
+  },
+  {
+    "bloco": "origens--origem-sem-tecnica",
+    "titulo": "Exemplo de escolha",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 79
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Legados de Ninhada e Gêmeos",
+    "tipo_original": "h2",
+    "papel_original": "detalhe da Origem",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Ninhada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "titulo": "Gêmeos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Legados de Inteiro e Manutenção",
+    "tipo_original": "h2",
+    "papel_original": "detalhe da Origem",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Inteiro",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Manutenção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "titulo": "Legado de exceção de qualquer configuração",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 82
+  },
+  {
+    "bloco": "origens--restricao-corpo",
+    "titulo": "Legados narrativos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 84
+  },
+  {
+    "bloco": "origens--restricao-corpo",
+    "titulo": "Legados de rolagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 84
+  },
+  {
+    "bloco": "origens--restricao-beneficios",
+    "titulo": "Legados de rolagem de Sem Energia",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 85
+  },
+  {
+    "bloco": "origens--restricao-beneficios",
+    "titulo": "Legados de exceção dos dois ramos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 85
+  },
+  {
+    "bloco": "origens--legados-exemplos",
+    "titulo": "Latente com passado comum",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 86
+  },
+  {
+    "bloco": "origens--legados-exemplos",
+    "titulo": "Legado narrativo personalizado",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 86
+  },
+  {
+    "bloco": "equip--eqc-inicial",
+    "titulo": "Exemplos de compras",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Abertura de exemplos.",
+    "pagina_r34": 208
+  },
+  {
+    "bloco": "fundamento--persistente",
+    "titulo": "Exemplo de permanência",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 246
+  },
+  {
+    "bloco": "fundamento--liberacao",
+    "titulo": "Exemplo: Corte de ruptura",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 250
+  },
+  {
+    "bloco": "fundamento--liberacao",
+    "titulo": "Progressão",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+    "pagina_r34": 250
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Dano ou cura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 251
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Um ataque com outra função",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 251
+  },
+  {
+    "bloco": "fundamento--maximadano",
+    "titulo": "Aplicação sem dano",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 251
+  },
+  {
+    "bloco": "fundamento--limitesmaxima",
+    "titulo": "Efeito próprio em combate",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 252
+  },
+  {
+    "bloco": "fundamento--limitesmaxima",
+    "titulo": "Progressão",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+    "pagina_r34": 253
+  },
+  {
+    "bloco": "catalogo--cat-auxiliares-apoio",
+    "titulo": "Duração e usos",
+    "tipo_original": "h3",
+    "papel_original": "entrada",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 263
+  },
+  {
+    "bloco": "catalogo--cat-marca",
+    "titulo": "Ataques seguintes",
+    "tipo_original": "h3",
+    "papel_original": "entrada",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 266
+  },
+  {
+    "bloco": "catalogo--cat-regra-propria",
+    "titulo": "Exemplo: aposta entre dois",
+    "tipo_original": "h2",
+    "papel_original": "entrada",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 275
+  },
+  {
+    "bloco": "aptidoes--apt-cobrir",
+    "titulo": "Proteção",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 281
+  },
+  {
+    "bloco": "aptidoes--apt-cobrir",
+    "titulo": "Amortecer um golpe",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 281
+  },
+  {
+    "bloco": "aptidoes--apt-canalizar",
+    "titulo": "Canalizar em Golpe",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 281
+  },
+  {
+    "bloco": "aptidoes--apt-canalizar",
+    "titulo": "Feitiços e crítico",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 281
+  },
+  {
+    "bloco": "aptidoes--apt-projetar",
+    "titulo": "Ataque de energia",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 282
+  },
+  {
+    "bloco": "aptidoes--apt-reversa",
+    "titulo": "Alvo e limites",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 283
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Ferir maldições",
+    "tipo_original": "h3",
+    "papel_original": "continuação ou caso específico",
+    "tratamento": "grupo",
+    "nivel_editorial": 3,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37.",
+    "pagina_r34": 283
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Feitiço de Cura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 4,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37.",
+    "pagina_r34": 283
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "titulo": "Aptidão aplicada por contato",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 4,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37.",
+    "pagina_r34": 283
+  },
+  {
+    "bloco": "aptidoes--apt-circulacao",
+    "titulo": "Cura rápida",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 284
+  },
+  {
+    "bloco": "aptidoes--apt-circulacao",
+    "titulo": "Recompor uma parte perdida",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 284
+  },
+  {
+    "bloco": "aptidoes--apt-regravacao",
+    "titulo": "Marcas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 284
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Dano",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 284
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Tentativas seguintes",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 285
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Kokusen Melhorado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 285
+  },
+  {
+    "bloco": "aptidoes--apt-kokusen",
+    "titulo": "Kokusen Constante",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 285
+  },
+  {
+    "bloco": "aptidoes--apt-cesta",
+    "titulo": "Símbolo e mãos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 286
+  },
+  {
+    "bloco": "aptidoes--apt-cesta",
+    "titulo": "Golpes e queda",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 286
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Área protegida",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 286
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Voto do iniciante",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 287
+  },
+  {
+    "bloco": "aptidoes--apt-simples",
+    "titulo": "Permanência",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 287
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Duração do Domínio Simples",
+    "tipo_original": "h3",
+    "papel_original": "continuação ou caso específico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 287
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Acertos e falhas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 287
+  },
+  {
+    "bloco": "aptidoes--apt-simples-duracao",
+    "titulo": "Mudança de Expansão",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 287
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Acerto por contato",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 288
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Queda",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 288
+  },
+  {
+    "bloco": "aptidoes--apt-petala",
+    "titulo": "Contra-ataque",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 288
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Duração e custo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 288
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Proteção e neutralização",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 289
+  },
+  {
+    "bloco": "aptidoes--apt-extensao",
+    "titulo": "Técnica suspensa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 289
+  },
+  {
+    "bloco": "aptidoes--apt-barreira",
+    "titulo": "Preparação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 289
+  },
+  {
+    "bloco": "aptidoes--apt-barreira",
+    "titulo": "Barreira erguida",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 289
+  },
+  {
+    "bloco": "aptidoes--apt-cortina",
+    "titulo": "Condição de passagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 290
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "titulo": "Limites",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 290
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "titulo": "Exemplos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Abertura de exemplos.",
+    "pagina_r34": 291
+  },
+  {
+    "bloco": "rotas--rota-armas",
+    "titulo": "Atributo da Kata",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 295
+  },
+  {
+    "bloco": "rotas--rota-armas",
+    "titulo": "Equipamento em uso",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 295
+  },
+  {
+    "bloco": "rotas--rota-ferramenta",
+    "titulo": "Ataques comuns",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 296
+  },
+  {
+    "bloco": "rotas--rota-ferramenta",
+    "titulo": "Mãos e voz",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 296
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Talentos marciais",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 296
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Maldição do Inventário",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 296
+  },
+  {
+    "bloco": "rotas--rota-passivas-marciais",
+    "titulo": "Leitura",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 297
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Talentos de resposta",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 297
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Segundo Fôlego",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 297
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Contragolpe",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 297
+  },
+  {
+    "bloco": "rotas--rota-passivas-resposta",
+    "titulo": "Aliança",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 297
+  },
+  {
+    "bloco": "rotas--rota-invocacoes",
+    "titulo": "Aquisição e uso",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 299
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Sementes",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Domínio Simples",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Energia Reversa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Pétala",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-sementes",
+    "titulo": "Aptidão Própria",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Aptidão e Manejo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 301
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Energia positiva contra maldições",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 302
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Resistir ao golpe",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 306
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Ausência de energia",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 306
+  },
+  {
+    "bloco": "rotas--rota-defesa",
+    "titulo": "Equipamento amaldiçoado",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 307
+  },
+  {
+    "bloco": "rotas--rota-estimulo",
+    "titulo": "Dano adicional",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 307
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Bênçãos de corpo",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Ímpeto",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Casco",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Presilha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-corpo",
+    "titulo": "Vigília",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Bênçãos de perseguição",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Faro",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 308
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Sem Pegada",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-perseguicao",
+    "titulo": "Vulto",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Bênçãos de combate",
+    "tipo_original": "h2",
+    "papel_original": "procedimento ou entrada",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Esteio",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Antecipar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Campo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 310
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Assombro",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 310
+  },
+  {
+    "bloco": "rotas--rota-propria",
+    "titulo": "Limites",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 310
+  },
+  {
+    "bloco": "rotas--rota-propria",
+    "titulo": "Exemplo: Marca do pulso",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 310
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Abertura",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 321
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Corrida",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 321
+  },
+  {
+    "bloco": "poderes--confronto",
+    "titulo": "Queda",
+    "tipo_original": "h2",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 321
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Sucesso",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 323
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Falha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 324
+  },
+  {
+    "bloco": "ritual--rit-teste",
+    "titulo": "Treino e prática",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 324
+  },
+  {
+    "bloco": "ritual--rit-recitar",
+    "titulo": "Interrupção por dano",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 324
+  },
+  {
+    "bloco": "ritual--rit-recitar",
+    "titulo": "Liberação Máxima",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 324
+  },
+  {
+    "bloco": "ritual--rit-beneficios",
+    "titulo": "Escolhas antes da aplicação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 326
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Compartilhamento",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 326
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Tiros",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 326
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "titulo": "Dados da montagem e do Ritual",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 326
+  },
+  {
+    "bloco": "ritual--rit-limites",
+    "titulo": "Tempo e imobilidade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 327
+  },
+  {
+    "bloco": "ritual--rit-limites",
+    "titulo": "Duração e resolução",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 327
+  },
+  {
+    "bloco": "ritual--rit-ajuda",
+    "titulo": "Falha e custos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 328
+  },
+  {
+    "bloco": "ritual--rit-ajuda",
+    "titulo": "Exemplo completo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 328
+  },
+  {
+    "bloco": "ritual--pacto-permanente",
+    "titulo": "Benefícios",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 329
+  },
+  {
+    "bloco": "ritual--pacto-temporario",
+    "titulo": "Definir a troca",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 330
+  },
+  {
+    "bloco": "ritual--pacto-temporario",
+    "titulo": "Preparação fora de combate",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 330
+  },
+  {
+    "bloco": "ritual--promessa",
+    "titulo": "Registro do acordo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 330
+  },
+  {
+    "bloco": "ritual--promessa",
+    "titulo": "Quebra",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 331
+  },
+  {
+    "bloco": "ritual--pacto-restricao",
+    "titulo": "Ideias para desenvolver",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 331
+  },
+  {
+    "bloco": "campo--inv-restricoes-tempo",
+    "titulo": "Atrasar",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 340
+  },
+  {
+    "bloco": "campo--inv-restricoes-tempo",
+    "titulo": "Carga em dois turnos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 340
+  },
+  {
+    "bloco": "campo--inv-liberacao",
+    "titulo": "Liberação Máxima",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 344
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Habilidades do cão",
+    "tipo_original": "h2",
+    "papel_original": "continuação ou caso específico",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 352
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Mordida",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 352
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Mordida precisa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 353
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Farejador",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 353
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "titulo": "Evolução",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 353
+  },
+  {
+    "bloco": "construcao--entidades-lista-criacao",
+    "titulo": "Lista de ritual",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 353
+  },
+  {
+    "bloco": "construcao--entidades-lista-criacao",
+    "titulo": "Criação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 353
+  },
+  {
+    "bloco": "construcao--entidades-domar",
+    "titulo": "Submissão",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 354
+  },
+  {
+    "bloco": "construcao--entidades-domar",
+    "titulo": "Tentativa durante o combate",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 354
+  },
+  {
+    "bloco": "construcao--entidades-tipos",
+    "titulo": "Quantidade de entidades",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 355
+  },
+  {
+    "bloco": "construcao--entidades-atributos",
+    "titulo": "Acerto e dificuldade",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 356
+  },
+  {
+    "bloco": "construcao--entidades-atributos",
+    "titulo": "Resistências e perícias",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 356
+  },
+  {
+    "bloco": "construcao--entidades-vida-defesa",
+    "titulo": "Defesa sem uniforme",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 357
+  },
+  {
+    "bloco": "construcao--entidades-vida-defesa",
+    "titulo": "Equipamento",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 357
+  },
+  {
+    "bloco": "construcao--entidades-progressao",
+    "titulo": "Habilidades conhecidas",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 357
+  },
+  {
+    "bloco": "construcao--entidades-progressao",
+    "titulo": "Ao subir de nível",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 358
+  },
+  {
+    "bloco": "construcao--entidades-familias",
+    "titulo": "Família Livre",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 358
+  },
+  {
+    "bloco": "construcao--entidades-saldo",
+    "titulo": "Amparo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 363
+  },
+  {
+    "bloco": "construcao--entidades-controle",
+    "titulo": "Controle",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 364
+  },
+  {
+    "bloco": "construcao--entidades-controle",
+    "titulo": "Efeito fora de combate",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 364
+  },
+  {
+    "bloco": "construcao--entidades-restricoes",
+    "titulo": "Tempo e ações",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 364
+  },
+  {
+    "bloco": "construcao--entidades-restricoes",
+    "titulo": "Conferência da montagem",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 365
+  },
+  {
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "titulo": "Aplicação na ficha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 366
+  },
+  {
+    "bloco": "construcao--entidades-passiva-propria",
+    "titulo": "Exemplo: Registro de cena",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "Exemplo explicitamente identificado no título.",
+    "pagina_r34": 366
+  },
+  {
+    "bloco": "construcao--entidades-passiva-propria",
+    "titulo": "Limites da proposta",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 367
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "titulo": "Mordida precisa",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 367
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "titulo": "Conferência dos efeitos",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 367
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Habilidades do vigia",
+    "tipo_original": "h2",
+    "papel_original": "continuação ou caso específico",
+    "tratamento": "grupo",
+    "nivel_editorial": 1.5,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo.",
+    "pagina_r34": 368
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Orientação",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 368
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Tiras de resgate",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 368
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Remendo de papel",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 369
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "titulo": "Registro de cena",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 369
+  },
+  {
+    "bloco": "fabricacao--fab-projeto",
+    "titulo": "Materiais e custo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 371
+  },
+  {
+    "bloco": "fabricacao--fab-projeto",
+    "titulo": "Prazo",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 371
+  },
+  {
+    "bloco": "fabricacao--fab-teste",
+    "titulo": "Sucesso e falha",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 372
+  },
+  {
+    "bloco": "fabricacao--fab-conclusao",
+    "titulo": "Transferência e herança",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+    "pagina_r34": 372
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "titulo": "Técnica de Kaori",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37."
+  },
+  {
+    "bloco": "ab--ab-kaori",
+    "titulo": "Peso nas Mãos",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37."
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "titulo": "Cura",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "Correção de hierarquia aprovada no pente fino R37."
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Represália",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "rotas--rota-combate",
+    "titulo": "Sangue Frio",
+    "tipo_original": "h3",
+    "papel_original": "subtópico",
+    "tratamento": "entrada",
+    "nivel_editorial": 3,
+    "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+    "pagina_r34": 309
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Olhos Em Mim",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Provocação inicial",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Assumir um golpe",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Defesa e recuperação",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Ataque Extra",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Nem Um Arranhão",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Ainda de Pé",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Duro de Matar",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Proteção de aliados",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Chega Mais",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Passa Pra Mim",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Alicerce",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Guarda-Costas",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Casca Grossa e Inabalável",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Casca Grossa",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Inabalável",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-punho",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-punho",
+    "titulo": "Trocação Franca",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Mão Pesada e Minha Vez",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Mão Pesada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Minha Vez",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-arrastao",
+    "titulo": "Arrastão",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-arrastao",
+    "titulo": "Ampliar o controle",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Retaliação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Embalo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Oportunista e Contra a Parede",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Oportunista",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Contra a Parede",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Sequência de Condução",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Golpe Inicial",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Conduzir",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-conducoes",
+    "titulo": "Conduções",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-conclusoes",
+    "titulo": "Conclusões",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Prazo e Escola de Arma",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Prazo e troca de alvo",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Escola de Arma",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Habilidades avançadas",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Ataque Extra",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Execução Preparada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Não Cede",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Persistência",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Conclusão Dupla",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-estocada",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-estocada",
+    "titulo": "Compasso",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-feiticos",
+    "titulo": "Conclusões de feitiço",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Bote e Ferrão",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Bote",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Ferrão",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Soltura Preparada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Armar uma Conclusão",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Soltura Simples",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Conduções e Conclusões do Yumi",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Conclusões do Yumi",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Duração e Conclusão Dupla",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Leituras do Yumi",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Segunda Leitura",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Soltura de Emergência",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Última Leitura",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Virotes Cravados",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Conduções da Besta",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "titulo": "Conclusões da Besta",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "titulo": "Consumir a Farpa",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Preparação com virotes",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Fixação Cruzada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Preparação Remanescente",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Combate Irregular",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Oportunidade Tática",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Conduções da Arma de Fogo",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo-conclusoes",
+    "titulo": "Conclusões da Arma de Fogo",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo-conclusoes",
+    "titulo": "Reorientar a Pressão",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Retirada e continuidade",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Romper o Contato",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Plano de Continuidade",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Finta de Execução",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Resposta do adversário",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Decisão do Executor",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Conclusões do Executor",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Intenções do Executor",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Troca de Intenção",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Dobrar a Aposta",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Duas Intenções",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Finta e Conclusão Dupla",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Abrir Caminho",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Aberturas",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Avançar",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Executar",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Resguardar",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Fora de combate",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-resposta",
+    "titulo": "Resposta Coordenada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-resposta",
+    "titulo": "Leitura de Equipe",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Planos em andamento",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Reajustar o Plano",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Passar a Oportunidade",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Todos no Mesmo Plano",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Ordem das ajudas",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Obras de Apoio",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-modelos",
+    "titulo": "Obras de Apoio",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-modelos",
+    "titulo": "Aberturas junto das obras",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-obra-uso",
+    "titulo": "Obra em Uso",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-obras-maiores",
+    "titulo": "Obras maiores",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Obras em emergência",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Obra de Emergência",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Plano Construído",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-analista",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-analista",
+    "titulo": "Ler a Resposta",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Apontar a Brecha",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Rever a Leitura",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-padrao",
+    "titulo": "Padrão Decifrado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Cuidado Preparado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Receber o socorro antes",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-tratamento",
+    "titulo": "Tratar e Retomar",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Socorro de emergência",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Ainda Há Tempo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Atendimento em Cadeia",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Desdobramento Técnico",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Requisitos da aplicação",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Escolha e pagamento",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-remodelar",
+    "titulo": "Remodelar",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-modulacoes",
+    "titulo": "Modulações Dominadas",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-modulacoes",
+    "titulo": "Forçar uma Modulação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-familiares",
+    "titulo": "Expressões Familiares",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-familiares",
+    "titulo": "Afinidade Técnica",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Forma Fluida e Composição Técnica",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Forma Fluida",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Composição Técnica",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Expressão Instintiva",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Ampliar e mudar a ação",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Reduções de custo",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Arma Condutora",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Cadência Técnica",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Artes do Vínculo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Cadência Marcial",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Cadência Expandida",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Arma vinculada",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Propriedades da arma",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Chamado da Arma",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Forma Mutável",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Retorno Vinculado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Passo da Arma",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Vínculo e percepção",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Âncora Gravada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Vínculo Duplo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Sentido do Vínculo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Memória da Arma",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Manifestação e convergência",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Manifestação Condutora",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Ritmo Convergente",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-eco",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-eco",
+    "titulo": "Eco Técnico",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Reaproveitar alterações",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Eco de Remodelagem",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Eco de Modulação",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Limites",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Contraponto e Reverberação",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Contraponto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Reverberação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-acorde",
+    "titulo": "Acorde Ressonante",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-acorde",
+    "titulo": "Usar os dois",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-impulso",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-impulso",
+    "titulo": "Impulso Técnico",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Correção de Fluxo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Corrigir a tentativa",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Aperfeiçoar o dano",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Sobrecarga e fluxo",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Sobrecarregar Energia",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Fluxo Contínuo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Vínculo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Pontos de Vínculo",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Escolher o aprimoramento",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-usos",
+    "titulo": "Usos dos aprimoramentos",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-usos",
+    "titulo": "Precisão à Distância",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Aprimoramentos",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Avanço Corpo a Corpo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Proteção Reforçada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Execução de Tarefas",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Intervenções de Vínculo",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Corrigir uma Falha",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Mudar o Aprimoramento",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Intervenções de posição",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Superar Cobertura",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Reposicionar a Invocação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Dificultar a Resistência",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Preparação e recolhimento",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Ajustar a Preparação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Recolher sob Ataque",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-complementar",
+    "titulo": "Atuação Complementar",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Combinar Aprimoramentos",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Intervenção Eficiente",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-combinada",
+    "titulo": "Especial Combinada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Quando a Trilha funciona",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Duas Atuações Básicas",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Outras escolhas",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Especial e repertório",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Especial primeiro",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Repertório Ampliado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-troca",
+    "titulo": "Substituir a principal",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Intervenções da principal",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Proteger a Manifestação",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Adaptar o Aprimoramento",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "titulo": "Preservar o Aprimoramento",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "titulo": "Especial de Continuidade",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Intervenção Reflexa",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Exemplos de jogo",
+    "tipo_original": "h3",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Agir com a principal",
+    "tipo_original": "h3",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Especial seguida de escolha",
+    "tipo_original": "h3",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Mudar a função entre atuações",
+    "tipo_original": "h3",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Escolher onde gastar sua Reação",
+    "tipo_original": "h3",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Entrada Ágil",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Treino de Combate",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Repertório de Parceria",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Aprimoramentos de Parceria",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Acompanhar a Especial",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Golpe Acompanhado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Resposta ao Agressor",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Atuação em parceria",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Exemplos",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Especial e golpe do dono",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Técnica e ataque acompanhado",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "titulo": "Apoio e resposta",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Intervenções de Parceria",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Abrir Espaço para o Parceiro",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Corrigir o Ataque Conjunto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-cobrir",
+    "titulo": "Cobrir o Parceiro",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-tecnicas",
+    "titulo": "Técnicas em Conjunto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-resposta",
+    "titulo": "Resposta Técnica da Dupla",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-parceria-resposta",
+    "titulo": "Exemplos",
+    "tipo_original": "h3",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Conjunto Ampliado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Atuação ofensiva",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Famílias do Conjunto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-entrada",
+    "titulo": "Manifestação em Grupo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-entrada",
+    "titulo": "Entrada Ágil",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-duplas",
+    "titulo": "Aquisição em Duplas",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-duplas",
+    "titulo": "Repertório na abertura",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Proteção do conjunto",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Dificultar o Ataque",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Proteger um Aliado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "titulo": "Conduzir a Especial",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-retirada",
+    "titulo": "Retirada em Conjunto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-retirada",
+    "titulo": "Um turno com quatro corpos",
+    "tipo_original": "h3",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "Aprimoramentos Distribuídos",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "Exemplo",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Formação Renovada",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Completar o grupo",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Mudar a composição",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "titulo": "Repertório do Conjunto",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "titulo": "Funções complementares",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Turnos do Evocador",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Invocação Principal, nível 2",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Parceria, nível 11",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "titulo": "Múltiplas Invocações, nível 11",
+    "tipo_original": "h2",
+    "tratamento": "exemplo",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Características",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Progressão do Caminho",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-movimento",
+    "titulo": "Movimento Acrobático",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-movimento",
+    "titulo": "Agilidade de Combate",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Fluidez",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Investida",
+    "tipo_original": "h3",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Instante Decisivo",
+    "tipo_original": "h3",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Passo Rápido",
+    "tipo_original": "h3",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Respostas de Fluidez",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Evasão",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Reflexo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Esquiva Instintiva",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Fluidez no nível 7",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "Fluidez no nível 15",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "Passo Guardado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Retomar o Ritmo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Movimento Acrobático ampliado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Um Passo à Frente",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "titulo": "Alvo Estudado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-guarda",
+    "titulo": "Estudar a Guarda",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-cirurgico",
+    "titulo": "Golpe Cirúrgico",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Cortar a Fuga",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Obtenção e gasto de Fluidez",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Combinação com Instante Decisivo",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Parkour",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Apoios de infiltração",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Aproximação de abate",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Vítima como apoio",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Desaparecer no Percurso",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Escolher a Próxima Vítima",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Brecha Fatal",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Execução fora do turno",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Sentença Final",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-pugilista",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-pugilista",
+    "titulo": "Resistência às habilidades",
+    "tipo_original": "h2",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-corpo",
+    "titulo": "Corpo Treinado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-corpo",
+    "titulo": "Quebrar o Compasso",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Recuperar a Base",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Rajada Marcial",
+    "tipo_original": "h3",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Guarda Marcial",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Interceptar e Prender",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Movimento sobre líquidos",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Golpe Desarticulador",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Projeção Marcial",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Resolução da projeção",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Colisão",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Corpo em Harmonia",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Rajada e Guarda",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Redirecionar a Força",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "titulo": "Redirecionar a Força (continuação)",
+    "tipo_original": "h3",
+    "tratamento": "subtopico",
+    "nivel_editorial": 3,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Progressão da Trilha",
+    "tipo_original": "h2",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Manejo de Combate",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Ofensiva em Movimento",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-continuacoes",
+    "titulo": "Continuações",
+    "tipo_original": "marker",
+    "tratamento": "grupo",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-continuacoes",
+    "titulo": "Lançamento Cruzado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-ricochete",
+    "titulo": "Ricochete",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-destino",
+    "titulo": "Mudar o Destino",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "titulo": "Trajetória de Retorno",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "titulo": "Manejo Contínuo",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-finta",
+    "titulo": "Finta de Retorno",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-finta",
+    "titulo": "Manejo Contínuo ampliado",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  },
+  {
+    "bloco": "incursor--inc-perfeita",
+    "titulo": "Trajetória Perfeita",
+    "tipo_original": "h2",
+    "tratamento": "entrada",
+    "nivel_editorial": 2,
+    "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+  }
+]

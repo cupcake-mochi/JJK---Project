@@ -1,0 +1,317 @@
+[
+  {
+    "group": "Base e estrutura",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/BASE-DE-TREINOS-TODAS-ORIGENS-v01.md",
+    "sha256": "83296dea7ffe1f1f72f92234ad3b368290f80768c7b0dc63adbd4727c5b6ea6a",
+    "decisao": "A001–A015, A047",
+    "destino": "Escolhas da Origem; Legados de história; personalização",
+    "dependencias": "Criação; progressão; ficha",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial sem energia",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SEM-ENERGIA-MONTAGEM-v02.md",
+    "sha256": "7645dda1cb1b97e5af8299196f34604bd159cfcda599121b878ed0623bb97c2b",
+    "decisao": "A016–A031",
+    "destino": "Sem energia",
+    "dependencias": "Rotas; Estudar; Bloquear; Katas",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial sem energia",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ATAQUE-SEM-PRENUNCIO-v07.md",
+    "sha256": "41fbe0182641bededbad0220ece2d95a0981a1c3fe0a7e65abbbaf07df1b3d1c",
+    "decisao": "A016–A031",
+    "destino": "Sem energia",
+    "dependencias": "Rotas; Estudar; Bloquear; Katas",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial sem energia",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/MENORES-RESTRICAO-v07.md",
+    "sha256": "b7196213cbe9c82e477c1352e50ac48e796f73331ee2811b3fa94ca9d4d3affb",
+    "decisao": "A016–A031",
+    "destino": "Sem energia",
+    "dependencias": "Rotas; Estudar; Bloquear; Katas",
+    "verificado": true
+  },
+  {
+    "group": "Latente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MONTAGEM-v02.md",
+    "sha256": "e2832bfbea19d04f4cf4097098dc5d65b24ab5b74ec4605eaa8d0d7adce42be8",
+    "decisao": "A032–A047",
+    "destino": "Latente",
+    "dependencias": "Manejos; Talentos CE1; PE",
+    "verificado": true
+  },
+  {
+    "group": "Latente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-TENTATIVA-E-ERRO-v03.md",
+    "sha256": "719d77ceb09420fd1f02d99d345e73155398dc46f989e31358a24f4514bc9d41",
+    "decisao": "A032–A047",
+    "destino": "Latente",
+    "dependencias": "Manejos; Talentos CE1; PE",
+    "verificado": true
+  },
+  {
+    "group": "Latente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/LATENTE-MENORES-APROVADAS-v03.md",
+    "sha256": "b345c7dedb6ff1a868f1b6fdd514f1938d5be052ecc6924beabd76b128bb6b3c",
+    "decisao": "A032–A047",
+    "destino": "Latente",
+    "dependencias": "Manejos; Talentos CE1; PE",
+    "verificado": true
+  },
+  {
+    "group": "Híbrido",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MONTAGEM-v01.md",
+    "sha256": "7f3b2a13ae5126be2e93e24b5bed7f9ad808e066250fe5f30cc7ecbaadd55aa2",
+    "decisao": "A048–A050",
+    "destino": "Híbrido",
+    "dependencias": "Cura; temporários; ficha30%",
+    "verificado": true
+  },
+  {
+    "group": "Híbrido",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MARCANTE-REGENERACAO-ORGANICA-v04.md",
+    "sha256": "75481385b00836ff5bab92d4f89f826427bcf1325501ba1a6686e2ad54647230",
+    "decisao": "A048–A050",
+    "destino": "Híbrido",
+    "dependencias": "Cura; temporários; ficha30%",
+    "verificado": true
+  },
+  {
+    "group": "Híbrido",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/HIBRIDO-MENORES-APROVADAS-v01.md",
+    "sha256": "20d29abffa05e5424e6f15aa905e7d7c28e8ccce0d9da16bf12dfafdab8224e3",
+    "decisao": "A048–A050",
+    "destino": "Híbrido",
+    "dependencias": "Cura; temporários; ficha30%",
+    "verificado": true
+  },
+  {
+    "group": "Corpo Amaldiçoado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MONTAGEM-v08.md",
+    "sha256": "d8436584a0202bccf643f6c692ea683294c2fd77efa3fea72ac18444f35ffe82",
+    "decisao": "A051–A062, I002",
+    "destino": "Corpo Amaldiçoado",
+    "dependencias": "Invocações/reparo R44; derrota; Ofícios",
+    "verificado": true
+  },
+  {
+    "group": "Corpo Amaldiçoado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-MENORES-SELECIONADAS-v04.md",
+    "sha256": "6d1c9985590fce57b121a38c87e86bce360b6b37a70b19a26ce3a39019a61a44",
+    "decisao": "A051–A062, I002",
+    "destino": "Corpo Amaldiçoado",
+    "dependencias": "Invocações/reparo R44; derrota; Ofícios",
+    "verificado": true
+  },
+  {
+    "group": "Corpo Amaldiçoado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/CORPO-M1-M2-ESTADO-v06.md",
+    "sha256": "7060f9147d4b50fdadc08165b1aa17c517763133c85f554d20adefb433ffee82",
+    "decisao": "A051–A062, I002",
+    "destino": "Corpo Amaldiçoado",
+    "dependencias": "Invocações/reparo R44; derrota; Ofícios",
+    "verificado": true
+  },
+  {
+    "group": "Corpo Amaldiçoado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/REPARAR-CORPO-REGRA-v01.md",
+    "sha256": "4a61ed1ce32c32dfc6816176296fa9cb72465643fad8abc4a1aa32ba2b357ada",
+    "decisao": "A051–A062, I002",
+    "destino": "Corpo Amaldiçoado",
+    "dependencias": "Invocações/reparo R44; derrota; Ofícios",
+    "verificado": true
+  },
+  {
+    "group": "Receptáculo",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MONTAGEM-v01.md",
+    "sha256": "cebed5f087fdc4b88e921b48fc5953991fd40624ae9b2b5f589a8186def59a98",
+    "decisao": "A063–A070",
+    "destino": "Receptáculo",
+    "dependencias": "Alma; medo; concentração",
+    "verificado": true
+  },
+  {
+    "group": "Receptáculo",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-MENORES-CATALOGO-v01.md",
+    "sha256": "17dac37d52df1ff45c1c3604b5d3dd1640c9ce60ae993fae8a6cbede0689fa5d",
+    "decisao": "A063–A070",
+    "destino": "Receptáculo",
+    "dependencias": "Alma; medo; concentração",
+    "verificado": true
+  },
+  {
+    "group": "Receptáculo",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RECEPTACULO-CONFLITO-RESPOSTA-ALMA-APROVADA-v01.md",
+    "sha256": "5c2ef595cab25fd877a162e5923ce4176711e9cbea016c5430be4b8177f8a82f",
+    "decisao": "A063–A070",
+    "destino": "Receptáculo",
+    "dependencias": "Alma; medo; concentração",
+    "verificado": true
+  },
+  {
+    "group": "Encarnado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MONTAGEM-CONSOLIDADA-v01.md",
+    "sha256": "afa3bb90460616e58a40c8495cc4cb6798cf2502c51af3aff165c312b5b61d69",
+    "decisao": "A071–A076",
+    "destino": "Encarnado",
+    "dependencias": "Bloquear; treino; descanso longo",
+    "verificado": true
+  },
+  {
+    "group": "Encarnado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MARCANTE-DUAS-VIDAS-APROVADA-v01.md",
+    "sha256": "9925da5dca1cb93616c9e5d3af9baf07775d5c0a2176898aeb303b2a1f8cb98d",
+    "decisao": "A071–A076",
+    "destino": "Encarnado",
+    "dependencias": "Bloquear; treino; descanso longo",
+    "verificado": true
+  },
+  {
+    "group": "Encarnado",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ENCARNADO-MENORES-APROVADAS-v05.md",
+    "sha256": "714fe1de155eaeb9eb170534d1e9bd74d81ce5155da0648afca615b4dcfd63fe",
+    "decisao": "A071–A076",
+    "destino": "Encarnado",
+    "dependencias": "Bloquear; treino; descanso longo",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-FECHAMENTO-v01.md",
+    "sha256": "9482e52d14862cd76619de1bc0a85bd7a61450771f11b520676611335fe66452",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/ZENIN-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "1478103718ebc57eb751ee4b68547493b4f68ca17b1ec4036a77826b5aa9d91c",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/KAMO-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "4d891d35247335be5bbfc0069c47eb7df7ec8ccc8af320537542abb2aaba0d61",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/GOJO-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "fcd7da300110a500f9211bee9b9251fea8c563511e89cf1286195f725a92a41e",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-MARCANTE-MONTAGEM-v01.md",
+    "sha256": "6f51bd568e9dd5bfc4586303bed19df172d90a77ceb726dcdd0344d8ca4a1ee4",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/INUMAKI-LINGUAGEM-DA-SERPENTE-NARRATIVA-v01.md",
+    "sha256": "dc9f79961dddba2a1d829db6890b2c265bf4b1336cdd101647400618c3a11db5",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Descendente",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/DESCENDENTE-MENORES-MONTAGEM-v02.md",
+    "sha256": "b69d5ce7be241964209435918df0647745b8f247f3e72d617ba627637dd15bc7",
+    "decisao": "A077–A087",
+    "destino": "Descendente",
+    "dependencias": "Patentes; estoque; Sem Técnica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-ARQUITETURA-v02.md",
+    "sha256": "206fc17bfa3b8eed40a169d84d51bdc8598718df1becd2bfe152440fa6380938",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REGRA-DE-CRIACAO-APROVADA-v01.md",
+    "sha256": "4a186ebd0b1784fd2c9847fdc065a194ecc51aceee18acc5fdff0fc43cbd8bc0",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-REDE-REMOTA-APROVADA-v01.md",
+    "sha256": "a23b6532daa54c1ad55771ab4640e2a2af32c81ccd15874ddb7977485ff35e0f",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CE4-CATALOGO-SELECIONADO-v01.md",
+    "sha256": "72138da461bb11af0a5bf2057988653ecabe17802fd3dc823998e5aba865ac8c",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-SAIDA-ELEVADA-APROVADA-v01.md",
+    "sha256": "4a3d7f29002aed3ed0e690699b152cc506b640926a49ef2a275ad319c6208dbb",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-CRIACAO-E-EXEMPLOS-APROVADOS-v01.md",
+    "sha256": "0a8d47f5cbfa792b4a504816674e850b6d56d97558961a31b07d12041d1811f4",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-CORPORAL-MENORES-APROVADAS-v02.md",
+    "sha256": "625b73766b1bce214ccdb123c21ab62f3d6648b96e5fed0993d77faa15206976",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  },
+  {
+    "group": "Restrição Celestial com limitação corporal",
+    "path": "CHECKPOINT-ATUAL/ETAPA-5-MECANICAS/RESTRICAO-LIMITACAO-CORPORAL-ESTADO-v30.md",
+    "sha256": "02c0d80a58c30a9e91841b363776872212508d6a92139e8c2c6c5d92f69e0bca",
+    "decisao": "A001–A100 conforme fonte",
+    "destino": "Origens",
+    "dependencias": "Conferir fonte específica",
+    "verificado": true
+  }
+]

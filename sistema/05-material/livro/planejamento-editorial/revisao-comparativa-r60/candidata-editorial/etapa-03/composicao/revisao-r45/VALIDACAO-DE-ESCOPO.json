@@ -1,0 +1,17 @@
+{
+  "R44_arquivos_conferidos": 2637,
+  "R44_divergencias": [],
+  "blocos_alterados": 52,
+  "blocos_inalterados": 459,
+  "blocos_novos": 12,
+  "checagens": {
+    "CE4 criação": true,
+    "Reparo acima": true,
+    "Bloquear pré-rolagem": true,
+    "Promessa sem vaga": true,
+    "7 núcleos": true,
+    "Nenhuma nomenclatura Feto visível": true,
+    "Sem frases proibidas nas novas entradas": true
+  },
+  "metodo": "Comparação integral por bloco contra registro antes/depois e hash de todos os arquivos fotografados da R44."
+}

@@ -1,0 +1,65 @@
+{
+  "aprovado": "A",
+  "opcoes": {
+    "base": {
+      "nome": "Atual",
+      "descricao": "Título condensado em caixa alta e filete inferior.",
+      "estilo": {
+        "fonte_titulo": "Barlow Condensed Bold",
+        "tamanho_titulo_pt": 32,
+        "cor_titulo": "#9e2358",
+        "entrelinha_pt": 36,
+        "filete_inferior_pt": 1
+      }
+    },
+    "A": {
+      "nome": "1 · Selo vinho",
+      "descricao": "Número branco em selo vinho; nome do capítulo em caixa alta, sobre fundo branco.",
+      "estilo": {
+        "fonte_titulo": "Barlow Condensed Bold",
+        "tamanho_titulo_pt": 32,
+        "cor_titulo": "#9e2358",
+        "fonte_numero": "Barlow Condensed Bold",
+        "tamanho_numero_pt": 30,
+        "cor_numero": "#ffffff",
+        "fundo_numero": "#522039",
+        "largura_selo_pt": 44,
+        "altura_selo_pt": 36,
+        "inicio_titulo_pt": 58,
+        "filete_inferior_pt": 0.7
+      }
+    },
+    "B": {
+      "nome": "2 · Cartela clara",
+      "descricao": "Número e título em uma cartela clara, com marca lateral vinho e divisor discreto.",
+      "estilo": {
+        "fonte_titulo": "Barlow Condensed Bold",
+        "tamanho_titulo_pt": 32,
+        "cor_titulo": "#251727",
+        "fonte_numero": "Barlow Condensed Bold",
+        "tamanho_numero_pt": 32,
+        "cor_numero": "#522039",
+        "fundo_cartela": "#f8f1f4",
+        "altura_cartela_pt": 37,
+        "marca_lateral_pt": 4,
+        "inicio_titulo_pt": 77
+      }
+    },
+    "C": {
+      "nome": "3 · Número aberto",
+      "descricao": "Número maior separado do título com serifa; fundo branco e filete inferior.",
+      "estilo": {
+        "fonte_titulo": "Bree Serif",
+        "tamanho_titulo_pt": 28,
+        "cor_titulo": "#251727",
+        "fonte_numero": "Barlow Condensed Bold",
+        "tamanho_numero_pt": 46,
+        "cor_numero": "#9e2358",
+        "inicio_titulo_pt": 75,
+        "filete_inferior_pt": 1.1
+      }
+    }
+  },
+  "prototipos_preservados": "../prototipos-titulos-capitulo-r33",
+  "pedido_do_autor": "Pode aplicar o 1/A, selo vinho. Mas salve as outras duas pra caso eu mude de ideia no futuro."
+}

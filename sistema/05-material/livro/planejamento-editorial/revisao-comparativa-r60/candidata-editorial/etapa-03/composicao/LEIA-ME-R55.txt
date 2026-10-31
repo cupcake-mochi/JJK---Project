@@ -1,0 +1,22 @@
+CICLO MALDITO R55 | 25/10/2026
+
+Segunda revisão página a página da R54.
+Base preservada: livro-diagramado-r54.
+
+28 ajustes editoriais em 18 blocos, incluindo 16 destinos mais precisos
+no índice. O índice também passa a identificar Cura como função.
+
+Os ajustes de texto contextualizam Insistir e Rescaldo, identificam
+Mão Firme como Talento, distinguem o Impulso do Catalisador e atualizam
+remissões em Construir invocações. As regras permanecem iguais.
+Fontes, tamanhos de letra e paleta Vinho e Pêssego foram conservados.
+
+A inspeção inicial percorreu as 414 páginas da R54 em sequência.
+A R55 tem 415 páginas. Após a geração, as 24 páginas recompostas
+foram reinspecionadas, além de seis amostras da versão noturna.
+Os relatórios de validação e a lista das páginas estão em revisao-r55/.
+Registro antes/depois: ALTERACOES-R54-para-R55.json.
+PDFs finais: output/pdf/.
+
+Esta rodada prepara os dois PDFs para publicação posterior.
+Não realiza commit, push ou atualização da Vercel.

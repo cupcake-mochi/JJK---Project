@@ -1,0 +1,52 @@
+[
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "7dd9922926ddaf38973ddea15c07417e22790302cb956c9104ec161743de02b8",
+    "sha256_depois": "dcd979ededebd9830019faecf639768c87e2095b332cfc3937ae166652418047"
+  },
+  {
+    "arquivo": "ler_fontes.py",
+    "sha256_antes": "b9525aaeaf1c1e8c31e44e4d2b80f2391a2d1f316b44516d78af587a12cbb31f",
+    "sha256_depois": "e2125ca4b45989dbb32aec48907950863cca5c1e01b21412a9dbad44c93069db"
+  },
+  {
+    "arquivo": "fluxo_continuo.py",
+    "sha256_antes": "da8e91ca6aebffabba85b6e6caad6636ab678567eabd1f832aa5c37fd01f19e8",
+    "sha256_depois": "8065722946edf4d201022b4656bcf6271280350037a55574dead5595429566a9"
+  },
+  {
+    "arquivo": "tabelas_destaques.py",
+    "sha256_antes": "639c61e31b91ac0c61ad6ea80db65c218f85e348a821d3fdb5323ff46cfbe1ee",
+    "sha256_depois": "9a69dfb4f0463cbfc099c2a5e342c9347a78b2d7e8f6ee4cb1eeed5624b70913"
+  },
+  {
+    "arquivo": "revisao_r38.py",
+    "sha256_antes": null,
+    "sha256_depois": "b5ef7864c95c6a1aecaddad5c295b3883c436db221e0ef8e8f1325e66909e69c"
+  },
+  {
+    "arquivo": "revisao-de-hierarquia/CLASSIFICACAO.json",
+    "sha256_antes": "6fb1ebd82bee8fa15601c3c863cc1daaa0b8de0ce9e340677eacdbfa2edd5584",
+    "sha256_depois": "fcc79bdd44e7f2ad9853de8ab3f16da751c3d885756cce6e59f0c19d02980115"
+  },
+  {
+    "arquivo": "conferir_r38.py",
+    "sha256_antes": null,
+    "sha256_depois": "d1886f8b9e299cadc6de1abefee2adcda99fd03c9428405176ed893510500db3"
+  },
+  {
+    "arquivo": "medir_aproveitamento.py",
+    "sha256_antes": null,
+    "sha256_depois": "54f3f276b85c83e219f45bcaaf0765d68374ac92a2fca4bb1346fc3d4f48a429"
+  },
+  {
+    "arquivo": "renderizar_prova.py",
+    "sha256_antes": null,
+    "sha256_depois": "adf02dbb0357e54edd48d69acdf18130bf64d89a74ccf0a6faad36de992f9932"
+  },
+  {
+    "arquivo": "fechar_relatorio_r38.py",
+    "sha256_antes": null,
+    "sha256_depois": "1e70a77d7f9904ca55aaaffbcbc853f113d72409959d4ccbda12d143ea0d6954"
+  }
+]

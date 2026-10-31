@@ -1,0 +1,22 @@
+[
+  {
+    "arquivo": "gerar_livro.py",
+    "sha256_antes": "04d996eba98b24e2815788ef6080e0264fc802935acb1babe14ef8062968f69a",
+    "sha256_depois": "301274b3ce04e6d7e9de8781b3f4e4590a5ae325d51bc6f7d8d3c53f50f83b09"
+  },
+  {
+    "arquivo": "fluxo_continuo.py",
+    "sha256_antes": "5ee17e97cf7cae45d55291c00e3e9c2ea6ed98c5c86b30e47246d35b0785d706",
+    "sha256_depois": "64812e598b432630623cdcd5fa81177cb08369a35f6ba226a794b7e7eeef5aeb"
+  },
+  {
+    "arquivo": "titulos_intermediarios.py",
+    "sha256_antes": null,
+    "sha256_depois": "e50ff4b79f30eda6378f9f6b13af6e6b817181190a085653bd805864f9c85f66"
+  },
+  {
+    "arquivo": "ESTUDO-HIERARQUIA.json",
+    "sha256_antes": null,
+    "sha256_depois": "4ad0a1af8266465ef92529db7bf9453bba8b1719a0faddf5209e727bb2246ab7"
+  }
+]

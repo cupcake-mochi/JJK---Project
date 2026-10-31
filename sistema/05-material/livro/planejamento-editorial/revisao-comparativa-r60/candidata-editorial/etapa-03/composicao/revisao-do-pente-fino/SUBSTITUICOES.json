@@ -1,0 +1,21 @@
+[
+  {
+    "id": "R36-PF011",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "Em dano misto, conserve os tipos restantes pelo procedimento de Dano.",
+    "depois": "Em dano misto, desconte da vida restante as parcelas da maior para a menor e conserve os tipos restantes pelo procedimento de Dano.",
+    "motivo": "Decisão do autor em 08/10/2026: considerar a maior parcela primeiro ao resolver Passa Pra Mim. A ordem pode alterar o dano transferido após as resistências do Bastião.",
+    "item": "PF011 — decisão do autor em 08/10/2026",
+    "altera_regras": true,
+    "autorizacao": "maior primeiro"
+  },
+  {
+    "id": "R36-PF014",
+    "bloco": "vanguarda--van-yumi-avanco",
+    "antes": "Uma troca para outra Condução própria só mantém as leituras se acertar. No erro, perde ambas, mesmo usando Persistência. Repetir o mesmo modo mantém a reserva existente. Um erro preservado por Persistência mantém somente os estados e prazos anteriores. Uma Condução comum apaga as duas leituras.",
+    "depois": "Uma troca para outra Condução própria só mantém as leituras se acertar. Se errar nessa troca, perde as duas leituras; Persistência mantém apenas a Sequência. Repetir o mesmo modo mantém a reserva existente. Se errar ao repetir esse modo e usar Persistência, mantém as leituras ativa e de reserva com os prazos anteriores, sem renová-los. Uma Condução comum apaga as duas leituras.",
+    "motivo": "Ajuste de compreensão autorizado pelo autor em 08/10/2026: explicitar o erro na troca, o erro na repetição do mesmo modo com Persistência e a Condução comum. Preservar as três regras e os prazos anteriores.",
+    "altera_regras": false,
+    "autorizacao": "Pode reescrever o parágrafo para deixar os três casos explícitos, sem mudar a regra. Registre como ajuste de compreensão."
+  }
+]

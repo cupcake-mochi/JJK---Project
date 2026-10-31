@@ -1,0 +1,12 @@
+{
+  "edicao": "R50",
+  "sha256": {
+    "LIVRO-COMPLETO.md": "33f773116f301456cf4ad4abbf807a744f19d9d69945f405075496fde7d9712c",
+    "output/pdf/Ciclo-Maldito-R50.pdf": "c0be8892248e80bc97720502317e1f2745ae194b0e2704923f00d93151d308e4",
+    "FONTES-E-VALIDACAO.json": "0e4352bacd1d3fa0e62162bee8fc7d8de43b95efd6b4e6b8dd10d928f2270b73",
+    "ler_fontes.py": "4548bbf471cf0d0c176e83f38596b35bb1a0d3ed148a007b91fdd40d8ce7afd9",
+    "gerar_livro.py": "b9342b869b7d83bd6541fcd4af50ff6d4e59f44c88aded7f214e4f17078fdd9c",
+    "revisao_r50.py": "a5b867187b49e67b73e5cca07b652a2fa4033d48925cf620b4d143d629a3ff56",
+    "ALTERACOES-R49-para-R50.json": "ac2647f65220cca80ca27f204bb748035ae5d3b323bd8fe341d7ea15acb091ff"
+  }
+}

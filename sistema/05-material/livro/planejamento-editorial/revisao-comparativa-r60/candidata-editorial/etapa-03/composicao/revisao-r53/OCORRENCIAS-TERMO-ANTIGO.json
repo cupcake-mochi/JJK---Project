@@ -1,0 +1,266 @@
+[
+  {
+    "bloco": "ab--ab-kaori",
+    "linhas": [
+      "A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. O resultado é **3d8 de dano**. O feitiço não soma o dano de um soco nem Força ao resultado dos d8."
+    ]
+  },
+  {
+    "bloco": "aptidoes--apt-reversa",
+    "linhas": [
+      "Energia Reversa é requisito para usar um feitiço da Forma Cura ofensivamente contra uma maldição. A exceção está em **Ferir maldições**. A aptidão de autocura, sozinha, não concede um ataque."
+    ]
+  },
+  {
+    "bloco": "aptidoes--apt-energia-positiva",
+    "linhas": [
+      "**Requisito: Energia Reversa.** Você pode usar um feitiço da **Forma Cura** contra uma maldição hostil. Essa aplicação usa energia positiva para feri-la, em vez de recuperar vida.",
+      "No erro, não causa dano nem cura. Contra qualquer alvo que não seja uma maldição, esse uso ofensivo não produz efeito. A exceção não autoriza ferir outros tipos de alvo nem transforma automaticamente a Forma Onda em um ataque de área."
+    ]
+  },
+  {
+    "bloco": "aptidoes--apt-propria",
+    "linhas": [
+      "| Proposta | Apoio à avaliação do mestre |"
+    ]
+  },
+  {
+    "bloco": "rotas--rota-fisga",
+    "linhas": [
+      "Iori escolhe **Toque + Prende**, de Classe 1. Prende é Média e custa 1 ponto nessa Classe. Corpo a Corpo já acompanha Toque e devolve 1 ponto, exatamente o gasto. A conta é **3 − 1 + 1 = 3**."
+    ]
+  },
+  {
+    "bloco": "rotas--rota-bancada",
+    "linhas": [
+      "Nao monta **Apoio + Guarda**, de Classe 1. Apoio custa 0 pontos e Guarda custa 1. Sem Restrições, restam **3 − 1 = 2 pontos**.",
+      "As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Essa cura não se torna Energia Reversa pela escolha da Forma Cura."
+    ]
+  },
+  {
+    "bloco": "rotas--rota-cura",
+    "linhas": [
+      "Um **Manejo com Forma Cura** pode recuperar a vida de um aliado disposto a até 9 m, seguindo a Forma e sua Classe. Você precisa ter Amparo disponível e descrever uma cura coerente com a semente. Isso ocupa um espaço de Manejo e paga seu custo de conjuração.",
+      "Energia Reversa e curas construídas a partir dela **não curam Corpo Amaldiçoado**, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.",
+      "Um Manejo de Forma Cura produzido por Energia Reversa pode ser usado contra uma maldição hostil pelo procedimento de **Aptidões e Refino — Ferir maldições**. Confira ali o ataque, a conversão dos dados em dano e o aumento próprio dessa aplicação.",
+      "O bônus de autocura desta rota não entra nesse dano de Energia Reversa. Usar diretamente a aptidão sobre outro alvo continua exigindo uma permissão expressa. A Forma Cura e a aptidão conservam suas diferentes ações, custos e requisitos."
+    ]
+  },
+  {
+    "bloco": "rotas--rota-redoma",
+    "linhas": [
+      "O Manejo usa **Toque + Prende**, Classe 1. A Melhoria custa 1 ponto e Corpo a Corpo devolve esse ponto. Rika escolhe **TR Físico contra sua CD**, em vez de ataque, na criação dessa ficha."
+    ]
+  },
+  {
+    "bloco": "rotas--rota-sutura",
+    "linhas": [
+      "Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em outras pessoas: utiliza a Forma Cura com seus próprios custos. Um Corpo Amaldiçoado continua incompatível com essa energia."
+    ]
+  },
+  {
+    "bloco": "rotas--rota-espinho",
+    "linhas": [
+      "O Manejo usa **Toque + Reação**, Classe 2. Reação é Pesada, custa 3 pontos e recebe desconto 1 de Tempo Livre: custo final **2**. Corpo a Corpo devolve 2, até o gasto. O saldo fica **6 − 2 + 2 = 6**."
+    ]
+  },
+  {
+    "bloco": "ritual--rit-beneficios",
+    "linhas": [
+      "| Ritual de Compartilhamento | Cura ou Apoio alcança um aliado adicional com uma cópia da parcela definida abaixo. | 2 | Não. |"
+    ]
+  },
+  {
+    "bloco": "ritual--rit-parcelas",
+    "linhas": [
+      "Só na aplicação benéfica de Cura ou Apoio, escolha um beneficiário de origem antes das rolagens. Copie seus dados de cura ou sua vida temporária para **um aliado adicional disposto**. Com Junto, a origem deve ser um dos beneficiários que recebeu a **menor parcela**. Escolha em caso de empate.",
+      "A cópia inclui os benefícios destinados àquela origem, como Guarda ou Pressa. Não reúna peças distribuídas entre pessoas diferentes. Limites únicos permanecem: não cria outro uso de Levanta nem outro parceiro de Divide. Remenda conserva seu limite por beneficiário. Compartilhamento não amplia uma Onda.",
+      "> **Exemplo.** Apoio dividido em 6 e 3 de vida temporária só copia a parcela de 3. Se Guarda foi destinada a essa pessoa, acompanha a cópia; se foi destinada à outra, não acompanha."
+    ]
+  },
+  {
+    "bloco": "ritual--rit-limites",
+    "linhas": [
+      "| Alcance e Corpo a Corpo | Não combine. Toque e distância limitada conservam sua exigência. |"
+    ]
+  },
+  {
+    "bloco": "construcao--entidade-cao-habilidades",
+    "linhas": [
+      "**Especial de Classe 1. Toque + Precisão.** Começa com 2 pontos. Precisão custa 1, mesmo com Mira Livre, pelo preço mínimo. Corpo a Corpo devolve somente esse ponto gasto. A conta é **2 − 1 + 1 = 2d8**."
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-basicas",
+    "linhas": [
+      "Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados descartados não se convertem em vida temporária. Cura e Onda não estão disponíveis na Classe 0."
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-especiais",
+    "linhas": [
+      "3. **Escolha Restrições.** Cada exigência deve acrescentar uma dificuldade real. Há no máximo duas, contando Corpo a Corpo embutida.",
+      "5. **Registre o resultado.** Cada ponto restante pode virar 1d8 de dano. Apoio, Cura, Onda e Efeito usam seus próprios destinos para esse saldo."
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-formas",
+    "linhas": [
+      "| Toque | 0 | Um alvo a 1,5 m, por ataque. Inclui Corpo a Corpo. |",
+      "| Aura | Leve | Área esférica centrada na entidade. Inclui Corpo a Corpo. |",
+      "| Apoio | 0 | Vida temporária para um aliado. |",
+      "| Onda | Pesada | Cura ou apoio para aliados na área. |",
+      "**Explosão, Aura, Cone e Linha exigem Área aberta. Cura, Apoio e Onda exigem Amparo aberto.** As demais estão disponíveis a todas as entidades. A definição continua limitando o que pode ser montado.",
+      "Na montagem, trocar ataque por TR, ou o contrário, não custa pontos. Registre o TR, a resolução e o resultado no sucesso. Essa escolha é fixa para aquela versão. Cura e Apoio seguem suas permissões específicas de alvo.",
+      "Toque e Aura incluem **Corpo a Corpo**, com devolução Média nas especiais. Ela conta como uma das duas Restrições permitidas. A habilidade conserva alcance e origem próprios: Toque não recebe Longe, e Aura permanece na entidade. Para criar a área sobre um ponto distante, escolha Explosão e refaça a conta."
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-medidas",
+    "linhas": [
+      "| Apoio | 4,5 m | 9 m | 18 m |",
+      "| Aura e Onda | Centradas na entidade | Centradas na entidade | Centradas na entidade |",
+      "Onda continua indisponível na Classe 0. Consulte a tabela abaixo para o tamanho de cada área.",
+      "| Onda: raio | Indisponível | 3 m | 4,5 m |"
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-saldo",
+    "linhas": [
+      "Em **Apoio**, cada ponto útil vira 3 pontos de vida temporária. **Cura** converte o saldo em d8, até os pontos da entidade menos o preço Médio da Forma. A vida temporária também respeita seu teto e sua duração gerais.",
+      "**Onda** conserva como saldo útil máximo os pontos da entidade menos o preço Pesado da Forma. Restrições podem pagar outras peças, mas não ultrapassam esse limite. Na cura, cada ponto útil vira 1d8. No apoio, vira 3 pontos de vida temporária para cada aliado alcançado.",
+      "| Onda: pontos úteis máximos | 0 | 1 | 1 | 3 | 3 | 4 | 5 |",
+      "**Onda de Classe 1.** Sua utilidade vem das Melhorias: Onda (2) + Impulso (1) + Gesto (devolve 1) cabe nos 2 pontos e concede o benefício de Impulso aos aliados no raio de 3 m por 3 PE. A entidade precisa conseguir cumprir Gesto. O saldo é zero. Sem saldo nem uma Melhoria benéfica aplicável, a montagem não produz efeito útil. Esses tetos comuns não substituem os dados fixos de cura da Técnica Máxima. Cura contra alvo hostil exige acesso efetivo a **Energia Reversa** e segue **Ferir maldições**, em Aptidões e Refino. Escolher a Forma não concede a aptidão. Entidades a zero e corpos amaldiçoados conservam as limitações de recuperação de Invocações em campo."
+    ]
+  },
+  {
+    "bloco": "construcao--entidades-ampliacao",
+    "linhas": [
+      "Uma entidade tem Mira Livre e conhece **Toque + Precisão**, com Corpo a Corpo embutida.",
+      "Corpo a Corpo devolve Média, mas só há 1 ponto gasto para recuperar. O restante da devolução se perde. Precisão conserva +2 no ataque e Toque conserva 1,5 m de alcance."
+    ]
+  },
+  {
+    "bloco": "construcao--entidade-vigia-habilidades",
+    "linhas": [
+      "**Básica de Classe 0. Apoio + Impulso.** A base seria 2d6, mas esta Forma não causa dano. Impulso usa a única Melhoria Leve permitida. Um aliado disposto a até **4,5 m** recebe vantagem no próximo teste que fizer até o fim do próximo turno dele. O benefício termina depois desse teste e não modifica dano.",
+      "**Especial de Classe 2. Apoio + Guarda + Empurrão.** Apoio custa 0. Guarda custa 2, e Empurrão custa 1. Essas Melhorias não pertencem a Amparo e não recebem seu desconto. Sobram **4 − 2 − 1 = 1 ponto**, convertido em **3 de vida temporária**."
+    ]
+  },
+  {
+    "bloco": "consulta--consulta-indice-1",
+    "linhas": [
+      "[Apoio](#fundamento--amparoformas)"
+    ]
+  },
+  {
+    "bloco": "consulta--consulta-indice-3",
+    "linhas": [
+      "[Corpo a Corpo](#catalogo--cat-restricoes-conjuracao)"
+    ]
+  },
+  {
+    "bloco": "consulta--consulta-indice-4",
+    "linhas": [
+      "[Dívida](#indice-especifico-08)"
+    ]
+  },
+  {
+    "bloco": "consulta--consulta-indice-8",
+    "linhas": [
+      "[Onda](#indice-especifico-14)"
+    ]
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "linhas": [
+      "Os custos das Trilhas se somam aos de Abrir Caminho, exceto a criação de Obras de Apoio: o preço da construção já inclui a Abertura. Quando alguém usa a Abertura, conclua a tentativa beneficiada e seus efeitos. Resolva então a ajuda da Trilha, a possível Resposta Coordenada e, por último, Passar a Oportunidade. Uma intervenção que diga para acontecer antes dos dados ou das consequências acontece naquele momento."
+    ]
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "linhas": [
+      "| 2 | Obras de Apoio. |",
+      "## Obras de Apoio"
+    ]
+  },
+  {
+    "bloco": "guia--guia-modelos",
+    "linhas": [
+      "**Obras de Apoio**"
+    ]
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "linhas": [
+      "A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma Abertura nova; pode apenas conservar uma que já existia, conforme abaixo. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova."
+    ]
+  },
+  {
+    "bloco": "emanador--ema-remodelar",
+    "linhas": [
+      "| Forma Apoio | 3 de vida temporária. |"
+    ]
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "linhas": [
+      "Recalcule as limitações da Forma, suas devoluções e seus limites de resultado. Ao trocar Toque ou Aura por uma Forma sem Corpo a Corpo, retire essa devolução. Não mantenha os pontos de uma exigência que deixou de existir.",
+      "> **Exemplo.** Uma Aura de Classe 3, sem desconto, tem Fura: custo 2 + 3, com devolução 3 de Corpo a Corpo. Causa **7d8**. Trocá-la por Explosão mantém o preço da Forma, mas retira a devolução: a versão passa a **4d8**. O PE adicional de Remodelar continua sendo 2."
+    ]
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "linhas": [
+      "Um desconto fixo de Ritual entra antes da metade, na base da alternativa escolhida, com mínimo de 1. A base de 1 PE de Instintiva não recebe novos abatimentos. Some Desdobramento, Impulso, Dívida e outros custos independentes depois."
+    ]
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "linhas": [
+      "Confira visão, trajeto e requisitos ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque e Aura não podem afastar sua aplicação mantendo Corpo a Corpo. Uma Forma que precise permanecer centrada em você conserva essa exigência."
+    ]
+  },
+  {
+    "bloco": "evocador--ev-usos",
+    "linhas": [
+      "**Uso ofensivo.** Precisão à Distância, Avanço Corpo a Corpo e Dificultar a Resistência compartilham **um uso ofensivo por rodada**: vantagem em um ataque elegível ou desvantagem no primeiro TR de um alvo contra uma especial comandada. A tentativa favorecida consome esse uso."
+    ]
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "linhas": [
+      "## Avanço Corpo a Corpo"
+    ]
+  },
+  {
+    "bloco": "evocador--ev-complementar",
+    "linhas": [
+      "| Avanço Corpo a Corpo | Correr ou Desengajar. |"
+    ]
+  },
+  {
+    "bloco": "evocador--ev-parceria-complementar",
+    "linhas": [
+      "## Apoio e resposta"
+    ]
+  },
+  {
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "linhas": [
+      "A executora usa sua ficha e cumpre os requisitos de percepção, trajeto, Forma e Restrições da capacidade. **Conduzir não dispensa contato nem afasta da executora uma Aura ou aplicação restrita ao próprio corpo.** Toque e Corpo a Corpo conservam seus requisitos em relação a ela. Formas como Cone e Linha podem partir da apoiadora quando respeitarem todas as demais exigências. A executora paga sua básica. Você paga a Padrão do comando. Os PE e demais custos seguem o procedimento normal da especial."
+    ]
+  },
+  {
+    "bloco": "evocador--ev-turnos",
+    "linhas": [
+      "Kaito tem 12 PE e começa seu turno com o cão. Recebe um Ponto de Vínculo, atribui Avanço Corpo a Corpo e comanda Mordida precisa: sua Padrão, a primeira básica e 3 PE. Restam 9 PE."
+    ]
+  },
+  {
+    "bloco": "origens--restricao-menores-corporais",
+    "linhas": [
+      "A escolha não se limita a Apoio ou Efeito. Esses feitiços não viram espaços comuns para Talentos ou invocações."
+    ]
+  }
+]

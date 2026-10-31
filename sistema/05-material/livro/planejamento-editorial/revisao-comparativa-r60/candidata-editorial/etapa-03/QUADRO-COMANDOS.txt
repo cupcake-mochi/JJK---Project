@@ -1,0 +1,40 @@
+<a id="campo-link-comparar-comandos"></a>
+### Comparar os comandos
+
+Use estes quadros depois de conferir os requisitos da especial. **Básica** é a atuação da entidade; a **Reação coletiva** é compartilhada pelo conjunto. Comunicação, alcance, alvo e recursos precisam permitir a execução. As linhas abaixo mostram o procedimento comum de cada opção; combinações e permissões de Caminho ou Trilha seguem seus textos.
+
+#### Comando e recursos
+
+**Custos de ativação** incluem os PE e os demais preços cobrados pela ficha. A divisão entre invocador e reserva própria segue [Energia das entidades](#campo--inv-energia). Cada corpo mantém uma especial pendente; confira [Ordens pendentes](#campo--inv-pendentes) antes de preparar outra.
+
+| Procedimento | Ao comandar ou preparar | Ao executar |
+|---|---|---|
+| [Comando comum](#campo--inv-especial) | Sua Ação Padrão. | Básica disponível e custos de ativação. |
+| [Rápido](#campo--inv-tempo) | Sua Bônus substitui a Padrão de comando. | Básica disponível e custos de ativação. |
+| [Ordem antecipada](#campo--inv-antecipada) | Sua Padrão. Não gasta nem reserva básica ou PE da especial, salvo exigência da ficha. | Básica disponível e ativação. Fora do seu turno, também gasta a coletiva. Sem outra Padrão. |
+| [Especial preparada](#campo--inv-preparar) | Sua Padrão e a básica disponível da entidade. Declare a capacidade e um gatilho futuro. | Coletiva e ativação, mesmo dentro do seu turno. A básica já foi gasta. |
+| [Melhoria Reação](#campo--inv-tempo) | No gatilho da ficha, comunique o comando. | Coletiva e ativação. Não gasta básica, sua Padrão nem sua Reação pessoal. |
+| [Segura](#campo--inv-tempo) | Ação exigida, básica, PE e demais custos pagos agora. | Sem nova básica, coletiva ou comando. |
+| [Armado](#campo--inv-armado) | No seu turno, pague ação exigida, básica, PE e demais custos. Declare um gatilho percebido pela entidade fora do seu turno. | Sem nova básica, coletiva ou comando. Confira alvo e alcance a partir da entidade. |
+| [Carregar](#campo--inv-restricoes-tempo) | No primeiro turno, sua Padrão normal, uma básica e o PE para iniciar a carga. | No seu turno seguinte, a entidade libera sozinha com outra básica disponível. Sem novo comando ou PE; outros preços seguem a ficha. |
+| [Atrasar](#campo--inv-restricoes-tempo) | Sua Padrão normal de comando. | Básica disponível e ativação. A entidade não pode ter se deslocado voluntariamente nesse turno nem fazê-lo depois da execução. |
+
+Carregar exige sua Padrão normal no preparo mesmo com Rápido. Atrasar cobra o impedimento de movimento da entidade; sua Bônus e seu Movimento ficam disponíveis. Nenhuma dessas opções fornece outra básica por si.
+
+#### Momento e prazo
+
+Sem outra peça que adie o efeito, o comando comum, Rápido e Atrasar resolvem na execução. Para as opções abaixo, acompanhe também o prazo e a condição que permite resolver.
+
+| Procedimento | Quando resolve | Prazo e conferência |
+|---|---|---|
+| Ordem antecipada | Na primeira oportunidade válida. Fora do seu turno, depois de terminar a ação, o movimento ou o efeito que removeu o impedimento. | Não expira no começo do seu próximo turno. Sem recursos, espera. Quando ficar válida, execute ou comunique o cancelamento; não guarde a oportunidade para depois. |
+| Especial preparada | Quando ocorrer o gatilho declarado, depois do preparo. Confira os recursos e requisitos nessa ocorrência. | Até o começo do seu próximo turno. Sair de campo, cair a zero ou gastar a coletiva em outra resposta também encerra o preparo. A básica investida não volta. |
+| Melhoria Reação | No gatilho da ficha, com comunicação naquele momento. | Confira a coletiva e os custos. Reações autônomas conhecidas pela entidade conservam suas regras próprias. |
+| Segura | No seu próximo turno, adiando o efeito por até uma rodada. | Não some a Preparar nem à ordem antecipada para adiar novamente a mesma aplicação. |
+| Armado | No gatilho fora do seu turno. A entidade precisa permanecer em campo. | Até o fim da cena. Se a cena acabar ou você armar outra para o mesmo corpo sem esta disparar, devolva metade do PE efetivamente pago, para baixo, conforme [Especiais armadas](#campo--inv-armado). Ações e básica não voltam. |
+| Carregar | No seu turno seguinte, com outra básica disponível. | Termina se não for liberada até o fim desse turno, se a entidade sair de campo ou cair. Dano na entidade exige o TR de Espírito dela contra a CD de quem a feriu; falhar perde a carga e o que foi pago. |
+
+Na especial preparada, pode recusar uma ocorrência sem nova ação se estiver consciente, perceber o acontecimento e conseguir comunicar antes da execução. O preparo conserva seu prazo. Essa opção não se estende à preparação de uma básica. Ajustes de alvo, capacidade e gatilho seguem [Gatilhos e ajustes](#campo--inv-gatilhos).
+
+**Aplicações máximas:** Rápido e Reação não substituem a Ação Completa. Segura não adia uma Técnica Máxima; Armado não a prepara. Uma Liberação com Armado paga a Ação Completa, a básica, todo o PE e seu preço ao armar. Confira as demais incompatibilidades em [Especiais de execução rápida](#campo--inv-tempo), [Preparação prolongada](#campo--inv-restricoes-tempo) e [Especiais armadas](#campo--inv-armado).
+

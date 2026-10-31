@@ -1,0 +1,38 @@
+{
+  "edicao": "R36",
+  "base": "R35",
+  "paginas": 394,
+  "blocos_textuais_alterados": 2,
+  "elementos_textuais_alterados": 2,
+  "diferencas_textuais_integralmente_registradas": true,
+  "paginas_com_recomposicao": [
+    93,
+    106
+  ],
+  "registros_diagramacao": 3,
+  "estilos_artes_capas_creditos_preservados": true,
+  "exemplos_refeitos": 0,
+  "pdf": "entregas/livro-diagramado-r36/output/pdf/Ciclo-Maldito-R36-Compreensao.pdf",
+  "sha256_pdf": "74a4437a92dc30ec1018534259f35b902142535398d58fb55513698ab08d8587",
+  "sha256_texto": "64b83865eb76d90e59d031f91c3572c4f73e1b2f73c9087a25012ec288dbb8cc",
+  "r35_preservada": true,
+  "revisao_visual": [
+    {
+      "pagina": 93,
+      "imagem": "p-93.png",
+      "resultado": "Página ampliada inspecionada: texto legível, sem corte, sobreposição ou título novo isolado; os três casos de Segunda Leitura e a ordem das parcelas em Passa Pra Mim estão explícitos."
+    },
+    {
+      "pagina": 106,
+      "imagem": "p-106.png",
+      "resultado": "Página ampliada inspecionada: texto legível, sem corte, sobreposição ou título novo isolado; os três casos de Segunda Leitura e a ordem das parcelas em Passa Pra Mim estão explícitos."
+    }
+  ],
+  "paginas_com_desenho_pdf_diferente": [
+    93,
+    106
+  ],
+  "demais_paginas_com_desenho_identico_a_r35": 392,
+  "checagens_gerais": 99867,
+  "problemas_automaticos": 0
+}

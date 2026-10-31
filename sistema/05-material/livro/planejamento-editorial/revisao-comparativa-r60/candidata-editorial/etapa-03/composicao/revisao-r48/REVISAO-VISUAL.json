@@ -1,0 +1,1333 @@
+{
+  "pdf": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r48/output/pdf/Ciclo-Maldito-R48.pdf",
+  "sha256": "13f710aa2193d4d3e83898d377d7cc323150d506acf678ce2e7882f132557a41",
+  "paginas": 402,
+  "cobertura": {
+    "composicoes_ja_inspecionadas_e_preservadas": [
+      {
+        "atual": 1,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 2,
+        "ensaio_anterior": 2
+      },
+      {
+        "atual": 3,
+        "ensaio_anterior": 3
+      },
+      {
+        "atual": 4,
+        "ensaio_anterior": 4
+      },
+      {
+        "atual": 5,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 6,
+        "ensaio_anterior": 6
+      },
+      {
+        "atual": 7,
+        "ensaio_anterior": 7
+      },
+      {
+        "atual": 8,
+        "ensaio_anterior": 8
+      },
+      {
+        "atual": 9,
+        "ensaio_anterior": 9
+      },
+      {
+        "atual": 10,
+        "ensaio_anterior": 10
+      },
+      {
+        "atual": 11,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 12,
+        "ensaio_anterior": 12
+      },
+      {
+        "atual": 41,
+        "ensaio_anterior": 41
+      },
+      {
+        "atual": 42,
+        "ensaio_anterior": 42
+      },
+      {
+        "atual": 43,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 44,
+        "ensaio_anterior": 44
+      },
+      {
+        "atual": 56,
+        "ensaio_anterior": 56
+      },
+      {
+        "atual": 57,
+        "ensaio_anterior": 57
+      },
+      {
+        "atual": 58,
+        "ensaio_anterior": 58
+      },
+      {
+        "atual": 60,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 61,
+        "ensaio_anterior": 61
+      },
+      {
+        "atual": 62,
+        "ensaio_anterior": 62
+      },
+      {
+        "atual": 63,
+        "ensaio_anterior": 63
+      },
+      {
+        "atual": 64,
+        "ensaio_anterior": 64
+      },
+      {
+        "atual": 65,
+        "ensaio_anterior": 65
+      },
+      {
+        "atual": 67,
+        "ensaio_anterior": 67
+      },
+      {
+        "atual": 68,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 69,
+        "ensaio_anterior": 69
+      },
+      {
+        "atual": 70,
+        "ensaio_anterior": 70
+      },
+      {
+        "atual": 71,
+        "ensaio_anterior": 71
+      },
+      {
+        "atual": 72,
+        "ensaio_anterior": 72
+      },
+      {
+        "atual": 73,
+        "ensaio_anterior": 73
+      },
+      {
+        "atual": 74,
+        "ensaio_anterior": 74
+      },
+      {
+        "atual": 75,
+        "ensaio_anterior": 75
+      },
+      {
+        "atual": 76,
+        "ensaio_anterior": 76
+      },
+      {
+        "atual": 77,
+        "ensaio_anterior": 77
+      },
+      {
+        "atual": 78,
+        "ensaio_anterior": 78
+      },
+      {
+        "atual": 79,
+        "ensaio_anterior": 79
+      },
+      {
+        "atual": 80,
+        "ensaio_anterior": 80
+      },
+      {
+        "atual": 82,
+        "ensaio_anterior": 82
+      },
+      {
+        "atual": 83,
+        "ensaio_anterior": 83
+      },
+      {
+        "atual": 84,
+        "ensaio_anterior": 84
+      },
+      {
+        "atual": 85,
+        "ensaio_anterior": 85
+      },
+      {
+        "atual": 86,
+        "ensaio_anterior": 86
+      },
+      {
+        "atual": 87,
+        "ensaio_anterior": 87
+      },
+      {
+        "atual": 88,
+        "ensaio_anterior": 88
+      },
+      {
+        "atual": 89,
+        "ensaio_anterior": 89
+      },
+      {
+        "atual": 90,
+        "ensaio_anterior": 90
+      },
+      {
+        "atual": 91,
+        "ensaio_anterior": 91
+      },
+      {
+        "atual": 92,
+        "ensaio_anterior": 92
+      },
+      {
+        "atual": 93,
+        "ensaio_anterior": 93
+      },
+      {
+        "atual": 94,
+        "ensaio_anterior": 94
+      },
+      {
+        "atual": 95,
+        "ensaio_anterior": 95
+      },
+      {
+        "atual": 96,
+        "ensaio_anterior": 96
+      },
+      {
+        "atual": 97,
+        "ensaio_anterior": 97
+      },
+      {
+        "atual": 98,
+        "ensaio_anterior": 98
+      },
+      {
+        "atual": 99,
+        "ensaio_anterior": 99
+      },
+      {
+        "atual": 100,
+        "ensaio_anterior": 100
+      },
+      {
+        "atual": 101,
+        "ensaio_anterior": 101
+      },
+      {
+        "atual": 102,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 103,
+        "ensaio_anterior": 103
+      },
+      {
+        "atual": 104,
+        "ensaio_anterior": 104
+      },
+      {
+        "atual": 105,
+        "ensaio_anterior": 105
+      },
+      {
+        "atual": 106,
+        "ensaio_anterior": 106
+      },
+      {
+        "atual": 107,
+        "ensaio_anterior": 107
+      },
+      {
+        "atual": 108,
+        "ensaio_anterior": 108
+      },
+      {
+        "atual": 109,
+        "ensaio_anterior": 109
+      },
+      {
+        "atual": 110,
+        "ensaio_anterior": 110
+      },
+      {
+        "atual": 111,
+        "ensaio_anterior": 111
+      },
+      {
+        "atual": 112,
+        "ensaio_anterior": 112
+      },
+      {
+        "atual": 113,
+        "ensaio_anterior": 113
+      },
+      {
+        "atual": 114,
+        "ensaio_anterior": 114
+      },
+      {
+        "atual": 115,
+        "ensaio_anterior": 115
+      },
+      {
+        "atual": 116,
+        "ensaio_anterior": 116
+      },
+      {
+        "atual": 117,
+        "ensaio_anterior": 117
+      },
+      {
+        "atual": 118,
+        "ensaio_anterior": 118
+      },
+      {
+        "atual": 119,
+        "ensaio_anterior": 119
+      },
+      {
+        "atual": 120,
+        "ensaio_anterior": 120
+      },
+      {
+        "atual": 121,
+        "ensaio_anterior": 121
+      },
+      {
+        "atual": 122,
+        "ensaio_anterior": 122
+      },
+      {
+        "atual": 123,
+        "ensaio_anterior": 123
+      },
+      {
+        "atual": 124,
+        "ensaio_anterior": 124
+      },
+      {
+        "atual": 125,
+        "ensaio_anterior": 125
+      },
+      {
+        "atual": 126,
+        "ensaio_anterior": 126
+      },
+      {
+        "atual": 127,
+        "ensaio_anterior": 127
+      },
+      {
+        "atual": 128,
+        "ensaio_anterior": 128
+      },
+      {
+        "atual": 129,
+        "ensaio_anterior": 129
+      },
+      {
+        "atual": 132,
+        "ensaio_anterior": 132
+      },
+      {
+        "atual": 133,
+        "ensaio_anterior": 133
+      },
+      {
+        "atual": 134,
+        "ensaio_anterior": 134
+      },
+      {
+        "atual": 135,
+        "ensaio_anterior": 135
+      },
+      {
+        "atual": 136,
+        "ensaio_anterior": 136
+      },
+      {
+        "atual": 137,
+        "ensaio_anterior": 137
+      },
+      {
+        "atual": 138,
+        "ensaio_anterior": 138
+      },
+      {
+        "atual": 139,
+        "ensaio_anterior": 139
+      },
+      {
+        "atual": 140,
+        "ensaio_anterior": 140
+      },
+      {
+        "atual": 141,
+        "ensaio_anterior": 141
+      },
+      {
+        "atual": 142,
+        "ensaio_anterior": 142
+      },
+      {
+        "atual": 143,
+        "ensaio_anterior": 143
+      },
+      {
+        "atual": 144,
+        "ensaio_anterior": 144
+      },
+      {
+        "atual": 145,
+        "ensaio_anterior": 145
+      },
+      {
+        "atual": 146,
+        "ensaio_anterior": 146
+      },
+      {
+        "atual": 147,
+        "ensaio_anterior": 147
+      },
+      {
+        "atual": 148,
+        "ensaio_anterior": 148
+      },
+      {
+        "atual": 149,
+        "ensaio_anterior": 149
+      },
+      {
+        "atual": 150,
+        "ensaio_anterior": 150
+      },
+      {
+        "atual": 151,
+        "ensaio_anterior": 151
+      },
+      {
+        "atual": 152,
+        "ensaio_anterior": 152
+      },
+      {
+        "atual": 153,
+        "ensaio_anterior": 153
+      },
+      {
+        "atual": 154,
+        "ensaio_anterior": 154
+      },
+      {
+        "atual": 155,
+        "ensaio_anterior": 155
+      },
+      {
+        "atual": 156,
+        "ensaio_anterior": 156
+      },
+      {
+        "atual": 157,
+        "ensaio_anterior": 157
+      },
+      {
+        "atual": 158,
+        "ensaio_anterior": 158
+      },
+      {
+        "atual": 159,
+        "ensaio_anterior": 159
+      },
+      {
+        "atual": 160,
+        "ensaio_anterior": 160
+      },
+      {
+        "atual": 161,
+        "ensaio_anterior": 161
+      },
+      {
+        "atual": 162,
+        "ensaio_anterior": 162
+      },
+      {
+        "atual": 163,
+        "ensaio_anterior": 163
+      },
+      {
+        "atual": 164,
+        "ensaio_anterior": 164
+      },
+      {
+        "atual": 165,
+        "ensaio_anterior": 165
+      },
+      {
+        "atual": 166,
+        "ensaio_anterior": 166
+      },
+      {
+        "atual": 167,
+        "ensaio_anterior": 167
+      },
+      {
+        "atual": 168,
+        "ensaio_anterior": 168
+      },
+      {
+        "atual": 169,
+        "ensaio_anterior": 169
+      },
+      {
+        "atual": 170,
+        "ensaio_anterior": 170
+      },
+      {
+        "atual": 171,
+        "ensaio_anterior": 171
+      },
+      {
+        "atual": 172,
+        "ensaio_anterior": 172
+      },
+      {
+        "atual": 173,
+        "ensaio_anterior": 173
+      },
+      {
+        "atual": 174,
+        "ensaio_anterior": 174
+      },
+      {
+        "atual": 175,
+        "ensaio_anterior": 175
+      },
+      {
+        "atual": 176,
+        "ensaio_anterior": 176
+      },
+      {
+        "atual": 177,
+        "ensaio_anterior": 177
+      },
+      {
+        "atual": 178,
+        "ensaio_anterior": 178
+      },
+      {
+        "atual": 179,
+        "ensaio_anterior": 179
+      },
+      {
+        "atual": 180,
+        "ensaio_anterior": 180
+      },
+      {
+        "atual": 181,
+        "ensaio_anterior": 181
+      },
+      {
+        "atual": 182,
+        "ensaio_anterior": 182
+      },
+      {
+        "atual": 183,
+        "ensaio_anterior": 183
+      },
+      {
+        "atual": 184,
+        "ensaio_anterior": 184
+      },
+      {
+        "atual": 185,
+        "ensaio_anterior": 185
+      },
+      {
+        "atual": 186,
+        "ensaio_anterior": 186
+      },
+      {
+        "atual": 187,
+        "ensaio_anterior": 187
+      },
+      {
+        "atual": 188,
+        "ensaio_anterior": 188
+      },
+      {
+        "atual": 189,
+        "ensaio_anterior": 189
+      },
+      {
+        "atual": 190,
+        "ensaio_anterior": 190
+      },
+      {
+        "atual": 191,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 193,
+        "ensaio_anterior": 193
+      },
+      {
+        "atual": 194,
+        "ensaio_anterior": 194
+      },
+      {
+        "atual": 195,
+        "ensaio_anterior": 195
+      },
+      {
+        "atual": 196,
+        "ensaio_anterior": 196
+      },
+      {
+        "atual": 197,
+        "ensaio_anterior": 197
+      },
+      {
+        "atual": 198,
+        "ensaio_anterior": 198
+      },
+      {
+        "atual": 199,
+        "ensaio_anterior": 199
+      },
+      {
+        "atual": 200,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 201,
+        "ensaio_anterior": 201
+      },
+      {
+        "atual": 203,
+        "ensaio_anterior": 203
+      },
+      {
+        "atual": 204,
+        "ensaio_anterior": 204
+      },
+      {
+        "atual": 205,
+        "ensaio_anterior": 205
+      },
+      {
+        "atual": 206,
+        "ensaio_anterior": 206
+      },
+      {
+        "atual": 207,
+        "ensaio_anterior": 207
+      },
+      {
+        "atual": 220,
+        "ensaio_anterior": 219
+      },
+      {
+        "atual": 221,
+        "ensaio_anterior": 220
+      },
+      {
+        "atual": 222,
+        "ensaio_anterior": 221
+      },
+      {
+        "atual": 223,
+        "ensaio_anterior": 222
+      },
+      {
+        "atual": 224,
+        "ensaio_anterior": 223
+      },
+      {
+        "atual": 225,
+        "ensaio_anterior": 224
+      },
+      {
+        "atual": 226,
+        "ensaio_anterior": 225
+      },
+      {
+        "atual": 227,
+        "ensaio_anterior": 226
+      },
+      {
+        "atual": 228,
+        "ensaio_anterior": 227
+      },
+      {
+        "atual": 229,
+        "ensaio_anterior": 228
+      },
+      {
+        "atual": 230,
+        "ensaio_anterior": 229
+      },
+      {
+        "atual": 231,
+        "ensaio_anterior": 230
+      },
+      {
+        "atual": 232,
+        "ensaio_anterior": 231
+      },
+      {
+        "atual": 233,
+        "ensaio_anterior": 232
+      },
+      {
+        "atual": 234,
+        "ensaio_anterior": 233
+      },
+      {
+        "atual": 235,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 241,
+        "ensaio_anterior": 239
+      },
+      {
+        "atual": 242,
+        "ensaio_anterior": 240
+      },
+      {
+        "atual": 243,
+        "ensaio_anterior": 241
+      },
+      {
+        "atual": 244,
+        "ensaio_anterior": 242
+      },
+      {
+        "atual": 245,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 246,
+        "ensaio_anterior": 244
+      },
+      {
+        "atual": 247,
+        "ensaio_anterior": 245
+      },
+      {
+        "atual": 248,
+        "ensaio_anterior": 246
+      },
+      {
+        "atual": 249,
+        "ensaio_anterior": 247
+      },
+      {
+        "atual": 250,
+        "ensaio_anterior": 248
+      },
+      {
+        "atual": 251,
+        "ensaio_anterior": 249
+      },
+      {
+        "atual": 252,
+        "ensaio_anterior": 250
+      },
+      {
+        "atual": 253,
+        "ensaio_anterior": 251
+      },
+      {
+        "atual": 254,
+        "ensaio_anterior": 252
+      },
+      {
+        "atual": 255,
+        "ensaio_anterior": 253
+      },
+      {
+        "atual": 256,
+        "ensaio_anterior": 254
+      },
+      {
+        "atual": 257,
+        "ensaio_anterior": 255
+      },
+      {
+        "atual": 258,
+        "ensaio_anterior": 256
+      },
+      {
+        "atual": 259,
+        "ensaio_anterior": 257
+      },
+      {
+        "atual": 260,
+        "ensaio_anterior": 258
+      },
+      {
+        "atual": 263,
+        "ensaio_anterior": 261
+      },
+      {
+        "atual": 265,
+        "ensaio_anterior": 263
+      },
+      {
+        "atual": 266,
+        "ensaio_anterior": 264
+      },
+      {
+        "atual": 267,
+        "ensaio_anterior": 265
+      },
+      {
+        "atual": 269,
+        "ensaio_anterior": 267
+      },
+      {
+        "atual": 270,
+        "ensaio_anterior": 268
+      },
+      {
+        "atual": 271,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 272,
+        "ensaio_anterior": 270
+      },
+      {
+        "atual": 273,
+        "ensaio_anterior": 271
+      },
+      {
+        "atual": 274,
+        "ensaio_anterior": 272
+      },
+      {
+        "atual": 275,
+        "ensaio_anterior": 273
+      },
+      {
+        "atual": 276,
+        "ensaio_anterior": 274
+      },
+      {
+        "atual": 277,
+        "ensaio_anterior": 275
+      },
+      {
+        "atual": 278,
+        "ensaio_anterior": 276
+      },
+      {
+        "atual": 279,
+        "ensaio_anterior": 277
+      },
+      {
+        "atual": 280,
+        "ensaio_anterior": 278
+      },
+      {
+        "atual": 282,
+        "ensaio_anterior": 280
+      },
+      {
+        "atual": 283,
+        "ensaio_anterior": 281
+      },
+      {
+        "atual": 290,
+        "ensaio_anterior": 288
+      },
+      {
+        "atual": 291,
+        "ensaio_anterior": 289
+      },
+      {
+        "atual": 292,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 293,
+        "ensaio_anterior": 291
+      },
+      {
+        "atual": 296,
+        "ensaio_anterior": 294
+      },
+      {
+        "atual": 297,
+        "ensaio_anterior": 295
+      },
+      {
+        "atual": 298,
+        "ensaio_anterior": 296
+      },
+      {
+        "atual": 299,
+        "ensaio_anterior": 297
+      },
+      {
+        "atual": 300,
+        "ensaio_anterior": 298
+      },
+      {
+        "atual": 301,
+        "ensaio_anterior": 299
+      },
+      {
+        "atual": 302,
+        "ensaio_anterior": 300
+      },
+      {
+        "atual": 303,
+        "ensaio_anterior": 301
+      },
+      {
+        "atual": 304,
+        "ensaio_anterior": 302
+      },
+      {
+        "atual": 305,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 306,
+        "ensaio_anterior": 304
+      },
+      {
+        "atual": 307,
+        "ensaio_anterior": 305
+      },
+      {
+        "atual": 308,
+        "ensaio_anterior": 306
+      },
+      {
+        "atual": 309,
+        "ensaio_anterior": 307
+      },
+      {
+        "atual": 310,
+        "ensaio_anterior": 308
+      },
+      {
+        "atual": 311,
+        "ensaio_anterior": 309
+      },
+      {
+        "atual": 312,
+        "ensaio_anterior": 310
+      },
+      {
+        "atual": 313,
+        "ensaio_anterior": 311
+      },
+      {
+        "atual": 314,
+        "ensaio_anterior": 312
+      },
+      {
+        "atual": 315,
+        "ensaio_anterior": 313
+      },
+      {
+        "atual": 316,
+        "ensaio_anterior": 314
+      },
+      {
+        "atual": 317,
+        "ensaio_anterior": 315
+      },
+      {
+        "atual": 318,
+        "ensaio_anterior": 316
+      },
+      {
+        "atual": 324,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 325,
+        "ensaio_anterior": 323
+      },
+      {
+        "atual": 326,
+        "ensaio_anterior": 324
+      },
+      {
+        "atual": 327,
+        "ensaio_anterior": 325
+      },
+      {
+        "atual": 328,
+        "ensaio_anterior": 326
+      },
+      {
+        "atual": 329,
+        "ensaio_anterior": 327
+      },
+      {
+        "atual": 330,
+        "ensaio_anterior": 328
+      },
+      {
+        "atual": 331,
+        "ensaio_anterior": 329
+      },
+      {
+        "atual": 332,
+        "ensaio_anterior": 330
+      },
+      {
+        "atual": 333,
+        "ensaio_anterior": 331
+      },
+      {
+        "atual": 334,
+        "ensaio_anterior": 332
+      },
+      {
+        "atual": 335,
+        "ensaio_anterior": 333
+      },
+      {
+        "atual": 336,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 337,
+        "ensaio_anterior": 335
+      },
+      {
+        "atual": 338,
+        "ensaio_anterior": 336
+      },
+      {
+        "atual": 339,
+        "ensaio_anterior": 337
+      },
+      {
+        "atual": 342,
+        "ensaio_anterior": 340
+      },
+      {
+        "atual": 344,
+        "ensaio_anterior": 342
+      },
+      {
+        "atual": 345,
+        "ensaio_anterior": 343
+      },
+      {
+        "atual": 346,
+        "ensaio_anterior": 344
+      },
+      {
+        "atual": 347,
+        "ensaio_anterior": 345
+      },
+      {
+        "atual": 348,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 349,
+        "ensaio_anterior": 347
+      },
+      {
+        "atual": 350,
+        "ensaio_anterior": 348
+      },
+      {
+        "atual": 351,
+        "ensaio_anterior": 349
+      },
+      {
+        "atual": 352,
+        "ensaio_anterior": 350
+      },
+      {
+        "atual": 353,
+        "ensaio_anterior": 351
+      },
+      {
+        "atual": 354,
+        "ensaio_anterior": 352
+      },
+      {
+        "atual": 366,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 367,
+        "ensaio_anterior": 364
+      },
+      {
+        "atual": 368,
+        "ensaio_anterior": 365
+      },
+      {
+        "atual": 369,
+        "ensaio_anterior": 366
+      },
+      {
+        "atual": 370,
+        "ensaio_anterior": 367
+      },
+      {
+        "atual": 371,
+        "ensaio_anterior": 368
+      },
+      {
+        "atual": 372,
+        "ensaio_anterior": 369
+      },
+      {
+        "atual": 373,
+        "ensaio_anterior": 370
+      },
+      {
+        "atual": 375,
+        "ensaio_anterior": 372
+      },
+      {
+        "atual": 378,
+        "ensaio_anterior": 375
+      },
+      {
+        "atual": 379,
+        "ensaio_anterior": 376
+      },
+      {
+        "atual": 381,
+        "ensaio_anterior": 378
+      },
+      {
+        "atual": 382,
+        "ensaio_anterior": 379
+      },
+      {
+        "atual": 383,
+        "ensaio_anterior": 380
+      },
+      {
+        "atual": 384,
+        "ensaio_anterior": 381
+      },
+      {
+        "atual": 385,
+        "ensaio_anterior": 382
+      },
+      {
+        "atual": 386,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 387,
+        "ensaio_anterior": 384
+      },
+      {
+        "atual": 388,
+        "ensaio_anterior": 385
+      },
+      {
+        "atual": 389,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 390,
+        "ensaio_anterior": 387
+      },
+      {
+        "atual": 391,
+        "ensaio_anterior": 388
+      },
+      {
+        "atual": 392,
+        "ensaio_anterior": 389
+      },
+      {
+        "atual": 393,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 394,
+        "ensaio_anterior": 391
+      },
+      {
+        "atual": 395,
+        "ensaio_anterior": 392
+      },
+      {
+        "atual": 396,
+        "ensaio_anterior": 393
+      },
+      {
+        "atual": 397,
+        "ensaio_anterior": 394
+      },
+      {
+        "atual": 398,
+        "ensaio_anterior": 395
+      },
+      {
+        "atual": 399,
+        "ensaio_anterior": 396
+      },
+      {
+        "atual": 400,
+        "ensaio_anterior": 397
+      },
+      {
+        "atual": 401,
+        "ensaio_anterior": 398
+      },
+      {
+        "atual": 402,
+        "ensaio_anterior": 399
+      }
+    ],
+    "paginas_reinspecionadas_apos_ultimo_ajuste": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      59,
+      66,
+      81,
+      130,
+      131,
+      192,
+      202,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      236,
+      237,
+      238,
+      239,
+      240,
+      261,
+      262,
+      264,
+      268,
+      281,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      294,
+      295,
+      319,
+      320,
+      321,
+      322,
+      323,
+      340,
+      341,
+      343,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      374,
+      376,
+      377,
+      380
+    ],
+    "total_coberto": 402
+  },
+  "metodo": "Varredura visual em painéis de oito páginas, com ampliação dos pontos problemáticos. As 399 páginas do ensaio anterior foram inspecionadas; 303 composições permaneceram idênticas e as 99 alteradas foram reinspecionadas no PDF final. Renderização Poppler.",
+  "ampliacoes_finais": [
+    80,
+    229,
+    276,
+    304,
+    322
+  ],
+  "resultado": "Sem cortes, sobreposições ou colisões com rodapés identificados nesta inspeção. Leitura a Dois inteira na p. 80. As continuações de entradas extensas e tabelas longas permanecem permitidas.",
+  "escopo": "Diagramação e continuidade visual, não revisão de regras ou reescrita."
+}

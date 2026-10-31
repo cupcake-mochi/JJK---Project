@@ -1,0 +1,15 @@
+{
+  "metodo": "ZIP extraído em pasta temporária; gerar_livro.py --strict executado com sucesso, sem a árvore original como diretório de execução.",
+  "MD_identico": true,
+  "comparacao": {
+    "paginas": true,
+    "ancoras": true,
+    "capitulos": true,
+    "eventos": true,
+    "marcadores": true,
+    "paginas_planejadas": true
+  },
+  "paginas": 388,
+  "sha256_pdf_reproduzido": "6894483f7b76c6a9cc42cd1ad098b22e4aa9e6fed940fe434e1c03a4427bc811",
+  "observacao": "PDFs podem diferir em metadados temporais; texto, paginação, geometria dos eventos e navegação comparados separadamente."
+}

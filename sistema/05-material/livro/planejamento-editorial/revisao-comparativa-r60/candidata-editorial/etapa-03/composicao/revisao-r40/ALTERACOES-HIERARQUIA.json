@@ -1,0 +1,3171 @@
+[
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Características",
+    "antes": {
+      "bloco": "bastiao--bas-bastiao",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 89
+    },
+    "depois": {
+      "bloco": "bastiao--bas-bastiao",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-bastiao",
+    "titulo": "Progressão do Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-bastiao",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-olhos",
+    "titulo": "Olhos Em Mim",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-olhos",
+      "titulo": "Olhos Em Mim",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Ataque Extra",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-defesa",
+      "titulo": "Ataque Extra",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Nem Um Arranhão",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-defesa",
+      "titulo": "Nem Um Arranhão",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Ainda de Pé",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-defesa",
+      "titulo": "Ainda de Pé",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-defesa",
+    "titulo": "Duro de Matar",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-defesa",
+      "titulo": "Duro de Matar",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Chega Mais",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-aliados",
+      "titulo": "Chega Mais",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-aliados",
+    "titulo": "Passa Pra Mim",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-aliados",
+      "titulo": "Passa Pra Mim",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-muro",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Alicerce",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-muro",
+      "titulo": "Alicerce",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-muro",
+    "titulo": "Guarda-Costas",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-muro",
+      "titulo": "Guarda-Costas",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Casca Grossa",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-casca",
+      "titulo": "Casca Grossa",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-casca",
+    "titulo": "Inabalável",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-casca",
+      "titulo": "Inabalável",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-punho",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-punho",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-punho",
+    "titulo": "Trocação Franca",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-punho",
+      "titulo": "Trocação Franca",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Mão Pesada",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-mao",
+      "titulo": "Mão Pesada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-mao",
+    "titulo": "Minha Vez",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-mao",
+      "titulo": "Minha Vez",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-arrastao",
+    "titulo": "Arrastão",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-arrastao",
+      "titulo": "Arrastão",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-combatente",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Retaliação",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-combatente",
+      "titulo": "Retaliação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-combatente",
+    "titulo": "Embalo",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-combatente",
+      "titulo": "Embalo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Oportunista",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-oportunista",
+      "titulo": "Oportunista",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "bastiao--bas-oportunista",
+    "titulo": "Contra a Parede",
+    "antes": null,
+    "depois": {
+      "bloco": "bastiao--bas-oportunista",
+      "titulo": "Contra a Parede",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Características",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-base",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-base",
+    "titulo": "Progressão do Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-base",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-sequencia",
+    "titulo": "Sequência de Condução",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-sequencia",
+      "titulo": "Sequência de Condução",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Prazo e troca de alvo",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-escola",
+      "titulo": "Prazo e troca de alvo",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-escola",
+    "titulo": "Escola de Arma",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-escola",
+      "titulo": "Escola de Arma",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Ataque Extra",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-avanco",
+      "titulo": "Ataque Extra",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Execução Preparada",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-avanco",
+      "titulo": "Execução Preparada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Não Cede",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-avanco",
+      "titulo": "Não Cede",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Persistência",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-avanco",
+      "titulo": "Persistência",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-avanco",
+    "titulo": "Conclusão Dupla",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-avanco",
+      "titulo": "Conclusão Dupla",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-estocada",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-estocada",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-estocada",
+    "titulo": "Compasso",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-estocada",
+      "titulo": "Compasso",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-feiticos",
+    "titulo": "Conclusões de feitiço",
+    "antes": {
+      "bloco": "vanguarda--van-feiticos",
+      "titulo": "Conclusões de feitiço",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 101
+    },
+    "depois": {
+      "bloco": "vanguarda--van-feiticos",
+      "titulo": "Conclusões de feitiço",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Bote",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-bote",
+      "titulo": "Bote",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-bote",
+    "titulo": "Ferrão",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-bote",
+      "titulo": "Ferrão",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Soltura Preparada",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi",
+      "titulo": "Soltura Preparada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Armar uma Conclusão",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi",
+      "titulo": "Armar uma Conclusão",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi",
+    "titulo": "Soltura Simples",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi",
+      "titulo": "Soltura Simples",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Conclusões do Yumi",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi-conducoes",
+      "titulo": "Conclusões do Yumi",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi-conducoes",
+    "titulo": "Duração e Conclusão Dupla",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi-conducoes",
+      "titulo": "Duração e Conclusão Dupla",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Segunda Leitura",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi-avanco",
+      "titulo": "Segunda Leitura",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Soltura de Emergência",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi-avanco",
+      "titulo": "Soltura de Emergência",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-yumi-avanco",
+    "titulo": "Última Leitura",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-yumi-avanco",
+      "titulo": "Última Leitura",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Virotes Cravados",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta",
+      "titulo": "Virotes Cravados",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta",
+    "titulo": "Conduções da Besta",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta",
+      "titulo": "Conduções da Besta",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "titulo": "Conclusões da Besta",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta-conclusoes",
+      "titulo": "Conclusões da Besta",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "titulo": "Consumir a Farpa",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta-conclusoes",
+      "titulo": "Consumir a Farpa",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Fixação Cruzada",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta-avanco",
+      "titulo": "Fixação Cruzada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-besta-avanco",
+    "titulo": "Preparação Remanescente",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-besta-avanco",
+      "titulo": "Preparação Remanescente",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Combate Irregular",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo",
+      "titulo": "Combate Irregular",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Oportunidade Tática",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo",
+      "titulo": "Oportunidade Tática",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo",
+    "titulo": "Conduções da Arma de Fogo",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo",
+      "titulo": "Conduções da Arma de Fogo",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo-conclusoes",
+    "titulo": "Reorientar a Pressão",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo-conclusoes",
+      "titulo": "Reorientar a Pressão",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Romper o Contato",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo-avanco",
+      "titulo": "Romper o Contato",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-fogo-avanco",
+    "titulo": "Plano de Continuidade",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-fogo-avanco",
+      "titulo": "Plano de Continuidade",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Finta de Execução",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor",
+      "titulo": "Finta de Execução",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Resposta do adversário",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor",
+      "titulo": "Resposta do adversário",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Decisão do Executor",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor",
+      "titulo": "Decisão do Executor",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor",
+    "titulo": "Conclusões do Executor",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor",
+      "titulo": "Conclusões do Executor",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Troca de Intenção",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor-avanco",
+      "titulo": "Troca de Intenção",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Dobrar a Aposta",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor-avanco",
+      "titulo": "Dobrar a Aposta",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Duas Intenções",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor-avanco",
+      "titulo": "Duas Intenções",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "vanguarda--van-executor-avanco",
+    "titulo": "Finta e Conclusão Dupla",
+    "antes": null,
+    "depois": {
+      "bloco": "vanguarda--van-executor-avanco",
+      "titulo": "Finta e Conclusão Dupla",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia",
+    "titulo": "Características",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Progressão do Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-progressao",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-progressao",
+    "titulo": "Abrir Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-progressao",
+      "titulo": "Abrir Caminho",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Avançar",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-aberturas",
+      "titulo": "Avançar",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Executar",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-aberturas",
+      "titulo": "Executar",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Resguardar",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-aberturas",
+      "titulo": "Resguardar",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-aberturas",
+    "titulo": "Fora de combate",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-aberturas",
+      "titulo": "Fora de combate",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-resposta",
+    "titulo": "Resposta Coordenada",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-resposta",
+      "titulo": "Resposta Coordenada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-resposta",
+    "titulo": "Leitura de Equipe",
+    "antes": {
+      "bloco": "guia--guia-resposta",
+      "titulo": "Leitura de Equipe",
+      "tipo_original": "h3",
+      "papel_original": "subtópico",
+      "tratamento": "entrada",
+      "nivel_editorial": 3,
+      "motivo": "Classificação pelo conteúdo: grupo, capacidade nomeada ou situação de exemplo. A profundidade de ligação original permanece: os procedimentos seguintes não são presumidos filhos desta entrada.",
+      "pagina_r34": 112
+    },
+    "depois": {
+      "bloco": "guia--guia-resposta",
+      "titulo": "Leitura de Equipe",
+      "tipo_original": "h3",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Reajustar o Plano",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-planos",
+      "titulo": "Reajustar o Plano",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-planos",
+    "titulo": "Passar a Oportunidade",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-planos",
+      "titulo": "Passar a Oportunidade",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-plano-conjunto",
+    "titulo": "Todos no Mesmo Plano",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-plano-conjunto",
+      "titulo": "Todos no Mesmo Plano",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-arquiteto",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-arquiteto",
+    "titulo": "Obras de Apoio",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-arquiteto",
+      "titulo": "Obras de Apoio",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-modelos",
+    "titulo": "Aberturas junto das obras",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-modelos",
+      "titulo": "Aberturas junto das obras",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-obra-uso",
+    "titulo": "Obra em Uso",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-obra-uso",
+      "titulo": "Obra em Uso",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Obra de Emergência",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-emergencia",
+      "titulo": "Obra de Emergência",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-emergencia",
+    "titulo": "Plano Construído",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-emergencia",
+      "titulo": "Plano Construído",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-analista",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-analista",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-analista",
+    "titulo": "Ler a Resposta",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-analista",
+      "titulo": "Ler a Resposta",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Apontar a Brecha",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-brecha",
+      "titulo": "Apontar a Brecha",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-brecha",
+    "titulo": "Rever a Leitura",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-brecha",
+      "titulo": "Rever a Leitura",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-padrao",
+    "titulo": "Padrão Decifrado",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-padrao",
+      "titulo": "Padrão Decifrado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-socorrista",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Cuidado Preparado",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-socorrista",
+      "titulo": "Cuidado Preparado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-socorrista",
+    "titulo": "Receber o socorro antes",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-socorrista",
+      "titulo": "Receber o socorro antes",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-tratamento",
+    "titulo": "Tratar e Retomar",
+    "antes": {
+      "bloco": "guia--guia-tratamento",
+      "titulo": "Tratar e Retomar",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 118
+    },
+    "depois": {
+      "bloco": "guia--guia-tratamento",
+      "titulo": "Tratar e Retomar",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Ainda Há Tempo",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-emergencia-cuidado",
+      "titulo": "Ainda Há Tempo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "guia--guia-emergencia-cuidado",
+    "titulo": "Atendimento em Cadeia",
+    "antes": null,
+    "depois": {
+      "bloco": "guia--guia-emergencia-cuidado",
+      "titulo": "Atendimento em Cadeia",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Características",
+    "antes": {
+      "bloco": "emanador--ema-base",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 121
+    },
+    "depois": {
+      "bloco": "emanador--ema-base",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-base",
+    "titulo": "Progressão do Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-base",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-desdobramento",
+    "titulo": "Desdobramento Técnico",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-desdobramento",
+      "titulo": "Desdobramento Técnico",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-remodelar",
+    "titulo": "Remodelar",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-remodelar",
+      "titulo": "Remodelar",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-modulacoes",
+    "titulo": "Forçar uma Modulação",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-modulacoes",
+      "titulo": "Forçar uma Modulação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-familiares",
+    "titulo": "Expressões Familiares",
+    "antes": {
+      "bloco": "emanador--ema-familiares",
+      "titulo": "Expressões Familiares",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 123
+    },
+    "depois": {
+      "bloco": "emanador--ema-familiares",
+      "titulo": "Expressões Familiares",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-familiares",
+    "titulo": "Afinidade Técnica",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-familiares",
+      "titulo": "Afinidade Técnica",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Forma Fluida",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-forma",
+      "titulo": "Forma Fluida",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-forma",
+    "titulo": "Composição Técnica",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-forma",
+      "titulo": "Composição Técnica",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-instintiva",
+    "titulo": "Expressão Instintiva",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-instintiva",
+      "titulo": "Expressão Instintiva",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-condutor",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Arma Condutora",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-condutor",
+      "titulo": "Arma Condutora",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-condutor",
+    "titulo": "Cadência Técnica",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-condutor",
+      "titulo": "Cadência Técnica",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Artes do Vínculo",
+    "antes": {
+      "bloco": "emanador--ema-artes",
+      "titulo": "Artes do Vínculo",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 126
+    },
+    "depois": {
+      "bloco": "emanador--ema-artes",
+      "titulo": "Artes do Vínculo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Cadência Marcial",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-artes",
+      "titulo": "Cadência Marcial",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Cadência Expandida",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-artes",
+      "titulo": "Cadência Expandida",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-artes",
+    "titulo": "Arma vinculada",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-artes",
+      "titulo": "Arma vinculada",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Chamado da Arma",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades",
+      "titulo": "Chamado da Arma",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Forma Mutável",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades",
+      "titulo": "Forma Mutável",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Retorno Vinculado",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades",
+      "titulo": "Retorno Vinculado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades",
+    "titulo": "Passo da Arma",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades",
+      "titulo": "Passo da Arma",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Âncora Gravada",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades-apoio",
+      "titulo": "Âncora Gravada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Vínculo Duplo",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades-apoio",
+      "titulo": "Vínculo Duplo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Sentido do Vínculo",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades-apoio",
+      "titulo": "Sentido do Vínculo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-propriedades-apoio",
+    "titulo": "Memória da Arma",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-propriedades-apoio",
+      "titulo": "Memória da Arma",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Manifestação Condutora",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-manifestacao",
+      "titulo": "Manifestação Condutora",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-manifestacao",
+    "titulo": "Ritmo Convergente",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-manifestacao",
+      "titulo": "Ritmo Convergente",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-eco",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-eco",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-eco",
+    "titulo": "Eco Técnico",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-eco",
+      "titulo": "Eco Técnico",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Eco de Remodelagem",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-repetir",
+      "titulo": "Eco de Remodelagem",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Eco de Modulação",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-repetir",
+      "titulo": "Eco de Modulação",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-repetir",
+    "titulo": "Limites",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-repetir",
+      "titulo": "Limites",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Contraponto",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-contraponto",
+      "titulo": "Contraponto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-contraponto",
+    "titulo": "Reverberação",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-contraponto",
+      "titulo": "Reverberação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-acorde",
+    "titulo": "Acorde Ressonante",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-acorde",
+      "titulo": "Acorde Ressonante",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-impulso",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-impulso",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-impulso",
+    "titulo": "Impulso Técnico",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-impulso",
+      "titulo": "Impulso Técnico",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-correcao",
+    "titulo": "Correção de Fluxo",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-correcao",
+      "titulo": "Correção de Fluxo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Sobrecarregar Energia",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-fluxo",
+      "titulo": "Sobrecarregar Energia",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "emanador--ema-fluxo",
+    "titulo": "Fluxo Contínuo",
+    "antes": null,
+    "depois": {
+      "bloco": "emanador--ema-fluxo",
+      "titulo": "Fluxo Contínuo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Características",
+    "antes": {
+      "bloco": "evocador--evocador",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 133
+    },
+    "depois": {
+      "bloco": "evocador--evocador",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--evocador",
+    "titulo": "Progressão do Caminho",
+    "antes": {
+      "bloco": "evocador--evocador",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 133
+    },
+    "depois": {
+      "bloco": "evocador--evocador",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-vinculo",
+    "titulo": "Vínculo",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-vinculo",
+      "titulo": "Vínculo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-usos",
+    "titulo": "Precisão à Distância",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-usos",
+      "titulo": "Precisão à Distância",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Avanço Corpo a Corpo",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-aprimoramentos",
+      "titulo": "Avanço Corpo a Corpo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Proteção Reforçada",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-aprimoramentos",
+      "titulo": "Proteção Reforçada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-aprimoramentos",
+    "titulo": "Execução de Tarefas",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-aprimoramentos",
+      "titulo": "Execução de Tarefas",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Corrigir uma Falha",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-intervencoes",
+      "titulo": "Corrigir uma Falha",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-intervencoes",
+    "titulo": "Mudar o Aprimoramento",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-intervencoes",
+      "titulo": "Mudar o Aprimoramento",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Superar Cobertura",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-posicao",
+      "titulo": "Superar Cobertura",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-posicao",
+    "titulo": "Reposicionar a Invocação",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-posicao",
+      "titulo": "Reposicionar a Invocação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Dificultar a Resistência",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-preparacao",
+      "titulo": "Dificultar a Resistência",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Ajustar a Preparação",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-preparacao",
+      "titulo": "Ajustar a Preparação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-preparacao",
+    "titulo": "Recolher sob Ataque",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-preparacao",
+      "titulo": "Recolher sob Ataque",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-complementar",
+    "titulo": "Atuação Complementar",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-complementar",
+      "titulo": "Atuação Complementar",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Combinar Aprimoramentos",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-combinar",
+      "titulo": "Combinar Aprimoramentos",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-combinar",
+    "titulo": "Intervenção Eficiente",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-combinar",
+      "titulo": "Intervenção Eficiente",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-combinada",
+    "titulo": "Especial Combinada",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-combinada",
+      "titulo": "Especial Combinada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Progressão da Trilha",
+    "antes": {
+      "bloco": "evocador--ev-principal",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 139
+    },
+    "depois": {
+      "bloco": "evocador--ev-principal",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Quando a Trilha funciona",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal",
+      "titulo": "Quando a Trilha funciona",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Duas Atuações Básicas",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal",
+      "titulo": "Duas Atuações Básicas",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal",
+    "titulo": "Outras escolhas",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal",
+      "titulo": "Outras escolhas",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Especial primeiro",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-especial",
+      "titulo": "Especial primeiro",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-especial",
+    "titulo": "Repertório Ampliado",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-especial",
+      "titulo": "Repertório Ampliado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-troca",
+    "titulo": "Substituir a principal",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-troca",
+      "titulo": "Substituir a principal",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Proteger a Manifestação",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-protecao",
+      "titulo": "Proteger a Manifestação",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-protecao",
+    "titulo": "Adaptar o Aprimoramento",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-protecao",
+      "titulo": "Adaptar o Aprimoramento",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-continuidade",
+    "titulo": "Especial de Continuidade",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-continuidade",
+      "titulo": "Especial de Continuidade",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-principal-reflexa",
+    "titulo": "Intervenção Reflexa",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-principal-reflexa",
+      "titulo": "Intervenção Reflexa",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Progressão da Trilha",
+    "antes": {
+      "bloco": "evocador--ev-parceria",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 143
+    },
+    "depois": {
+      "bloco": "evocador--ev-parceria",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Entrada Ágil",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria",
+      "titulo": "Entrada Ágil",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Treino de Combate",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria",
+      "titulo": "Treino de Combate",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria",
+    "titulo": "Repertório de Parceria",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria",
+      "titulo": "Repertório de Parceria",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Acompanhar a Especial",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-aprimoramentos",
+      "titulo": "Acompanhar a Especial",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Golpe Acompanhado",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-aprimoramentos",
+      "titulo": "Golpe Acompanhado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "titulo": "Resposta ao Agressor",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-aprimoramentos",
+      "titulo": "Resposta ao Agressor",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Abrir Espaço para o Parceiro",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-intervencoes",
+      "titulo": "Abrir Espaço para o Parceiro",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "titulo": "Corrigir o Ataque Conjunto",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-intervencoes",
+      "titulo": "Corrigir o Ataque Conjunto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-cobrir",
+    "titulo": "Cobrir o Parceiro",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-cobrir",
+      "titulo": "Cobrir o Parceiro",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-tecnicas",
+    "titulo": "Técnicas em Conjunto",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-tecnicas",
+      "titulo": "Técnicas em Conjunto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-parceria-resposta",
+    "titulo": "Resposta Técnica da Dupla",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-parceria-resposta",
+      "titulo": "Resposta Técnica da Dupla",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Progressão da Trilha",
+    "antes": {
+      "bloco": "evocador--ev-multiplas",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 148
+    },
+    "depois": {
+      "bloco": "evocador--ev-multiplas",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Conjunto Ampliado",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas",
+      "titulo": "Conjunto Ampliado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Atuação ofensiva",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas",
+      "titulo": "Atuação ofensiva",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas",
+    "titulo": "Famílias do Conjunto",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas",
+      "titulo": "Famílias do Conjunto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-entrada",
+    "titulo": "Manifestação em Grupo",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-entrada",
+      "titulo": "Manifestação em Grupo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-entrada",
+    "titulo": "Entrada Ágil",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-entrada",
+      "titulo": "Entrada Ágil",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-duplas",
+    "titulo": "Aquisição em Duplas",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-duplas",
+      "titulo": "Aquisição em Duplas",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Dificultar o Ataque",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-protecao",
+      "titulo": "Dificultar o Ataque",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-protecao",
+    "titulo": "Proteger um Aliado",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-protecao",
+      "titulo": "Proteger um Aliado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "titulo": "Conduzir a Especial",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-conduzir",
+      "titulo": "Conduzir a Especial",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-retirada",
+    "titulo": "Retirada em Conjunto",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-retirada",
+      "titulo": "Retirada em Conjunto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "titulo": "Aprimoramentos Distribuídos",
+    "antes": {
+      "bloco": "evocador--ev-multiplas-aprimoramentos",
+      "titulo": "Aprimoramentos Distribuídos",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 151
+    },
+    "depois": {
+      "bloco": "evocador--ev-multiplas-aprimoramentos",
+      "titulo": "Aprimoramentos Distribuídos",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-formacao",
+    "titulo": "Formação Renovada",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-formacao",
+      "titulo": "Formação Renovada",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "titulo": "Repertório do Conjunto",
+    "antes": null,
+    "depois": {
+      "bloco": "evocador--ev-multiplas-repertorio",
+      "titulo": "Repertório do Conjunto",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Características",
+    "antes": {
+      "bloco": "incursor--inc-caminho",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Subtópico de apresentação ou progressão; não é uma habilidade.",
+      "pagina_r34": 154
+    },
+    "depois": {
+      "bloco": "incursor--inc-caminho",
+      "titulo": "Características",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-caminho",
+    "titulo": "Progressão do Caminho",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-caminho",
+      "titulo": "Progressão do Caminho",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-movimento",
+    "titulo": "Movimento Acrobático",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-movimento",
+      "titulo": "Movimento Acrobático",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-fluidez",
+    "titulo": "Fluidez",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-fluidez",
+      "titulo": "Fluidez",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Evasão",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-respostas",
+      "titulo": "Evasão",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Reflexo",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-respostas",
+      "titulo": "Reflexo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Esquiva Instintiva",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-respostas",
+      "titulo": "Esquiva Instintiva",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-respostas",
+    "titulo": "Fluidez no nível 7",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-respostas",
+      "titulo": "Fluidez no nível 7",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-fluidez-avancada",
+    "titulo": "Passo Guardado",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-fluidez-avancada",
+      "titulo": "Passo Guardado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Retomar o Ritmo",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-ritmo",
+      "titulo": "Retomar o Ritmo",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-ritmo",
+    "titulo": "Movimento Acrobático ampliado",
+    "antes": {
+      "bloco": "incursor--inc-ritmo",
+      "titulo": "Movimento Acrobático ampliado",
+      "tipo_original": "h3",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+      "pagina_r34": 157
+    },
+    "depois": {
+      "bloco": "incursor--inc-ritmo",
+      "titulo": "Movimento Acrobático ampliado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-assassino",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-assassino",
+    "titulo": "Alvo Estudado",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-assassino",
+      "titulo": "Alvo Estudado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-guarda",
+    "titulo": "Estudar a Guarda",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-guarda",
+      "titulo": "Estudar a Guarda",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-cirurgico",
+    "titulo": "Golpe Cirúrgico",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-cirurgico",
+      "titulo": "Golpe Cirúrgico",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-cortar",
+    "titulo": "Cortar a Fuga",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-cortar",
+      "titulo": "Cortar a Fuga",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Parkour",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-parkour",
+      "titulo": "Parkour",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Desaparecer no Percurso",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-parkour",
+      "titulo": "Desaparecer no Percurso",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-parkour",
+    "titulo": "Escolher a Próxima Vítima",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-parkour",
+      "titulo": "Escolher a Próxima Vítima",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-brecha",
+    "titulo": "Brecha Fatal",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-brecha",
+      "titulo": "Brecha Fatal",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-pugilista",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-pugilista",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-pugilista",
+    "titulo": "Resistência às habilidades",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-pugilista",
+      "titulo": "Resistência às habilidades",
+      "tipo_original": "h2",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-corpo",
+    "titulo": "Corpo Treinado",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-corpo",
+      "titulo": "Corpo Treinado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Recuperar a Base",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-base",
+      "titulo": "Recuperar a Base",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-base",
+    "titulo": "Rajada Marcial",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-base",
+      "titulo": "Rajada Marcial",
+      "tipo_original": "h3",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Interceptar e Prender",
+    "antes": {
+      "bloco": "incursor--inc-interceptar",
+      "titulo": "Interceptar e Prender",
+      "tipo_original": "marker",
+      "papel_original": "texto",
+      "tratamento": "grupo",
+      "nivel_editorial": 1.5,
+      "motivo": "Abertura editorial de grupo antes reduzida a marcador de contexto.",
+      "pagina_r34": 165
+    },
+    "depois": {
+      "bloco": "incursor--inc-interceptar",
+      "titulo": "Interceptar e Prender",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Movimento sobre líquidos",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-interceptar",
+      "titulo": "Movimento sobre líquidos",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-interceptar",
+    "titulo": "Golpe Desarticulador",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-interceptar",
+      "titulo": "Golpe Desarticulador",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-projecao",
+    "titulo": "Projeção Marcial",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-projecao",
+      "titulo": "Projeção Marcial",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-redirecionar",
+    "titulo": "Corpo em Harmonia",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-redirecionar",
+      "titulo": "Corpo em Harmonia",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Progressão da Trilha",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-malabarista",
+      "titulo": "Progressão da Trilha",
+      "tipo_original": "h2",
+      "tratamento": "grupo",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Manejo de Combate",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-malabarista",
+      "titulo": "Manejo de Combate",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-malabarista",
+    "titulo": "Ofensiva em Movimento",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-malabarista",
+      "titulo": "Ofensiva em Movimento",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-continuacoes",
+    "titulo": "Lançamento Cruzado",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-continuacoes",
+      "titulo": "Lançamento Cruzado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-ricochete",
+    "titulo": "Ricochete",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-ricochete",
+      "titulo": "Ricochete",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-destino",
+    "titulo": "Mudar o Destino",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-destino",
+      "titulo": "Mudar o Destino",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-retorno",
+    "titulo": "Trajetória de Retorno",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-retorno",
+      "titulo": "Trajetória de Retorno",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-finta",
+    "titulo": "Finta de Retorno",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-finta",
+      "titulo": "Finta de Retorno",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-finta",
+    "titulo": "Manejo Contínuo ampliado",
+    "antes": {
+      "bloco": "incursor--inc-finta",
+      "titulo": "Manejo Contínuo ampliado",
+      "tipo_original": "h3",
+      "papel_original": "subtópico",
+      "tratamento": "subtopico",
+      "nivel_editorial": 3,
+      "motivo": "Detalhe de uma regra ou capacidade: tratamento B de subtópico.",
+      "pagina_r34": 172
+    },
+    "depois": {
+      "bloco": "incursor--inc-finta",
+      "titulo": "Manejo Contínuo ampliado",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  },
+  {
+    "bloco": "incursor--inc-perfeita",
+    "titulo": "Trajetória Perfeita",
+    "antes": null,
+    "depois": {
+      "bloco": "incursor--inc-perfeita",
+      "titulo": "Trajetória Perfeita",
+      "tipo_original": "h2",
+      "tratamento": "entrada",
+      "nivel_editorial": 2,
+      "motivo": "R40: função semântica do título conferida no contexto da habilidade e da progressão."
+    }
+  }
+]

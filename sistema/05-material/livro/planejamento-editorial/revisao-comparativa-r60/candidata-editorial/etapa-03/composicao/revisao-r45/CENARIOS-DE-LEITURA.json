@@ -1,0 +1,192 @@
+[
+  {
+    "grupo": "T02",
+    "caso": "Kata acerto/TR/Automático",
+    "gabarito": "2 PE, primeira resolução ofensiva de um defensor; TR sem penalidade extra.",
+    "fonte": "A028–A030",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T02",
+    "caso": "Estudar e reencontro",
+    "gabarito": "Teste inicial bem-sucedido; memória por portador/perfil, sem reinício por cena.",
+    "fonte": "A028/A030",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T02",
+    "caso": "Terceiro assume ataque",
+    "gabarito": "Intervenção preservada; conferir suscetibilidade do alvo efetivo.",
+    "fonte": "A021/A029",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T03/T15",
+    "caso": "Duas aplicações entre começos de turno",
+    "gabarito": "Tentativa e Erro só pode alterar uma; não é uso renovado no turno de cada criatura.",
+    "fonte": "A037",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T06",
+    "caso": "Ferramentas Integradas + criar entidade",
+    "gabarito": "Vantagem por cena não vale para criação R44; vale no reparo elegível.",
+    "fonte": "A056 e R44 item190",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T06",
+    "caso": "Falha de reparo e Manutenção Precisa",
+    "gabarito": "Mesma tentativa, uma recuperação; não autoriza novo reparador a repetir de novo.",
+    "fonte": "A052/I002",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T07",
+    "caso": "Alma em PV e Integridade",
+    "gabarito": "Mantém dano em PV, sem conversão em PE; perda exclusiva de Integridade não se aplica.",
+    "fonte": "A057",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T07",
+    "caso": "PE volta após derrota por PV",
+    "gabarito": "Reativação da energia não remove queda/derrota ou inconsciência independentes.",
+    "fonte": "A059",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T08",
+    "caso": "Conflito e Coexistência",
+    "gabarito": "Alternativas exclusivas; menor exclusiva da outra modalidade não é elegível.",
+    "fonte": "A063/A067",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T08",
+    "caso": "Resposta à invasão durante turno do agressor",
+    "gabarito": "Resolve original primeiro; medo/imunidade até fim do turno seguinte, não do atual.",
+    "fonte": "A070",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T09",
+    "caso": "Experiência Transmitida e Preservada",
+    "gabarito": "Uso do aliado consome estoque comum; falha do aliado não ativa preservação.",
+    "fonte": "A076",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T10",
+    "caso": "Cofre e nível alto",
+    "gabarito": "Nível não fornece patente; grau 1 ainda exige feitos e autorização.",
+    "fonte": "A086/A087",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T11",
+    "caso": "CE4 na criação",
+    "gabarito": "Um, fora do repertório e dos cinco pagos; três conceitos não importam parâmetros candidatos.",
+    "fonte": "A088/I001/A090",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T12",
+    "caso": "Saída Elevada e limite de Melhorias",
+    "gabarito": "Pontos só para Melhorias; não amplia quantidade, teto ou Famílias; não vale para Máximas/Manejos.",
+    "fonte": "A092",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T13",
+    "caso": "Corpo real e marionete",
+    "gabarito": "Defesa0/sem Bloquear do corpo real não se transfere à Defesa própria da entidade.",
+    "fonte": "A096",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T14",
+    "caso": "Reserva Condensada",
+    "gabarito": "Quantidade/ocasião/máximo com mestre; energia temporária de Último Fôlego não pode ser armazenada.",
+    "fonte": "A097/A098",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T14",
+    "caso": "Prática Cotidiana",
+    "gabarito": "Dois Classe0 adicionais em qualquer Forma normalmente permitida.",
+    "fonte": "A100",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T15",
+    "caso": "Dia e descanso longo",
+    "gabarito": "Dormir em missão não concede longo; estoques de dia e longo conservam renovações diferentes.",
+    "fonte": "A071/A079 e Descansos",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  },
+  {
+    "grupo": "T16",
+    "caso": "Bênçãos e aptidões",
+    "gabarito": "Nova Origem não duplica gratuitas; limitações de rota permanecem.",
+    "fonte": "A004/A031/A047",
+    "tipo": "inspeção de regra; sem leitor humano",
+    "estado": "conferido no texto final por autorrevisão",
+    "resultado": "Gabarito preservado; nenhum resultado de leitor humano atribuído.",
+    "metodo": "Comparação das entradas finais e das exceções com as fontes vigentes."
+  }
+]

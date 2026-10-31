@@ -1,0 +1,8 @@
+{
+  "sha256_pdf": "6dc3abf0ce9baf317445b7ac3d09732f8111998884ddb82932371ae5f56bb38d",
+  "paginas": 389,
+  "resolucao_dpi": 120,
+  "paginas_individuais": "paginas/",
+  "duplas_para_inspecao": "duplas/",
+  "escala_das_duplas": "Cada página conserva os pixels da imagem individual; as duplas não reduzem a página."
+}

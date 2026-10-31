@@ -1,0 +1,16 @@
+{
+  "edicao": "R51",
+  "sha256_pdf": "a5c5ff951da5baebd54f528a2dffee3d4ad487d48a44a41e4e28f4561cbfe7cd",
+  "sha256_texto": "282f9bf75adac7961234f8a2754dea08c63def2aacef6c5ac7000c1031d9000e",
+  "paginas": 397,
+  "blocos_alterados": 1,
+  "blocos_preservados": 510,
+  "paginas_com_texto_alterado": [
+    285
+  ],
+  "texto_integral_so_altera_o_multiplicador": true,
+  "geometria_dos_elementos_inalterada": true,
+  "ancoras_marcadores_e_paginacao_inalterados": true,
+  "R50_preservada": true,
+  "escopo": "Comparação integral do texto e da composição; extração das 397 páginas; renderização da página alterada. Não há nova simulação de balanceamento."
+}

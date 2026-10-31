@@ -1,0 +1,10 @@
+[
+  {
+    "id": "R56-T01",
+    "bloco": "ab--ab-criacao",
+    "antes": "| 2. Origem | Escolha sua história, a marcante, duas menores e os treinos da Origem. |",
+    "depois": "| 2. Origem | Escolha a Origem e duas menores elegíveis; registre história, marcante e treinos. |",
+    "motivo": "O roteiro apresenta primeiro a escolha da Origem; a marcante é registrada conforme a entrada escolhida. Evitar sugerir uma escolha livre de marcante fora dessas modalidades.",
+    "altera_regras": false
+  }
+]

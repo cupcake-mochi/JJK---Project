@@ -1,0 +1,80 @@
+[
+  {
+    "termo": "Amedrontado",
+    "titulo": "Amedrontado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-01"
+  },
+  {
+    "termo": "Armado",
+    "titulo": "Armado",
+    "bloco": "catalogo--cat-tempo",
+    "alias": "indice-r37-02"
+  },
+  {
+    "termo": "Arredondamento",
+    "titulo": "Arredondamento",
+    "bloco": "geral--pericias",
+    "alias": "indice-r37-03"
+  },
+  {
+    "termo": "Atordoado",
+    "titulo": "Atordoado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-04"
+  },
+  {
+    "termo": "Brecha",
+    "titulo": "Brecha",
+    "bloco": "geral--aparar",
+    "alias": "indice-r37-05"
+  },
+  {
+    "termo": "Carregar (Restrição)",
+    "titulo": "Carregar",
+    "bloco": "catalogo--cat-restricoes-conjuracao",
+    "alias": "indice-r37-06"
+  },
+  {
+    "termo": "Envenenado",
+    "titulo": "Envenenado",
+    "bloco": "dano--pesadas",
+    "alias": "indice-r37-07"
+  },
+  {
+    "termo": "Expressão da técnica",
+    "titulo": "Expressão da técnica",
+    "bloco": "fundamento--selo",
+    "alias": "indice-r37-08"
+  },
+  {
+    "termo": "Força (dano)",
+    "titulo": "Força",
+    "bloco": "dano--tipos",
+    "alias": "indice-r37-09"
+  },
+  {
+    "termo": "Inescapável",
+    "titulo": "Inescapável",
+    "bloco": "catalogo--cat-mira",
+    "alias": "indice-r37-10"
+  },
+  {
+    "termo": "Leitura de Feitiços",
+    "titulo": "Leitura de Feitiços",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r37-11"
+  },
+  {
+    "termo": "Mão Firme",
+    "titulo": "Mão Firme",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r37-12"
+  },
+  {
+    "termo": "Rajada",
+    "titulo": "Rajada",
+    "bloco": "catalogo--cat-area",
+    "alias": "indice-r37-13"
+  }
+]

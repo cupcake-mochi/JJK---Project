@@ -1,0 +1,458 @@
+[
+  {
+    "pagina_r37": 5,
+    "blocos": [
+      "ab--ab-primeira-sessao"
+    ],
+    "paginas_r38": [
+      4,
+      5
+    ]
+  },
+  {
+    "pagina_r37": 7,
+    "blocos": [
+      "ab--ab-mundo"
+    ],
+    "paginas_r38": [
+      6,
+      7
+    ]
+  },
+  {
+    "pagina_r37": 79,
+    "blocos": [
+      "origens--origem-sem-tecnica"
+    ],
+    "paginas_r38": [
+      73,
+      74
+    ]
+  },
+  {
+    "pagina_r37": 82,
+    "blocos": [
+      "origens--corpo-configuracoes",
+      "origens--corpo-ninhada-gemeos"
+    ],
+    "paginas_r38": [
+      76,
+      77
+    ]
+  },
+  {
+    "pagina_r37": 203,
+    "blocos": [
+      "equip--eqa-flexiveis"
+    ],
+    "paginas_r38": [
+      189
+    ]
+  },
+  {
+    "pagina_r37": 212,
+    "blocos": [
+      "equip--eqc-compras"
+    ],
+    "paginas_r38": [
+      197
+    ]
+  },
+  {
+    "pagina_r37": 214,
+    "blocos": [
+      "equip--eqf-equipamento"
+    ],
+    "paginas_r38": [
+      198,
+      199
+    ]
+  },
+  {
+    "pagina_r37": 242,
+    "blocos": [
+      "fundamento--amparoformas"
+    ],
+    "paginas_r38": [
+      223,
+      224
+    ]
+  },
+  {
+    "pagina_r37": 284,
+    "blocos": [
+      "aptidoes--apt-marcos"
+    ],
+    "paginas_r38": [
+      263
+    ]
+  },
+  {
+    "pagina_r37": 321,
+    "blocos": [
+      "poderes--sembarreiras"
+    ],
+    "paginas_r38": [
+      298,
+      299
+    ]
+  },
+  {
+    "pagina_r37": 332,
+    "blocos": [
+      "ritual--rit-parcelas"
+    ],
+    "paginas_r38": [
+      308
+    ]
+  },
+  {
+    "pagina_r37": 357,
+    "blocos": [
+      "construcao--entidades-criar"
+    ],
+    "paginas_r38": [
+      331,
+      332
+    ]
+  },
+  {
+    "pagina_r37": 24,
+    "blocos": [
+      "geral--aparar",
+      "geral--manobras"
+    ],
+    "paginas_r38": [
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "pagina_r37": 52,
+    "blocos": [
+      "dano--cura",
+      "dano--temporarios"
+    ],
+    "paginas_r38": [
+      48,
+      49
+    ]
+  },
+  {
+    "pagina_r37": 63,
+    "blocos": [
+      "ab--ab-caminho",
+      "ab--ab-capacidades"
+    ],
+    "paginas_r38": [
+      58,
+      59
+    ]
+  },
+  {
+    "pagina_r37": 70,
+    "blocos": [
+      "origens--origem-escolhas"
+    ],
+    "paginas_r38": [
+      65
+    ]
+  },
+  {
+    "pagina_r37": 92,
+    "blocos": [
+      "bastiao--bas-defesa",
+      "bastiao--bas-olhos"
+    ],
+    "paginas_r38": [
+      85,
+      86
+    ]
+  },
+  {
+    "pagina_r37": 94,
+    "blocos": [
+      "bastiao--bas-casca",
+      "bastiao--bas-muro"
+    ],
+    "paginas_r38": [
+      87,
+      88
+    ]
+  },
+  {
+    "pagina_r37": 97,
+    "blocos": [
+      "bastiao--bas-combatente",
+      "bastiao--bas-oportunista"
+    ],
+    "paginas_r38": [
+      89,
+      90
+    ]
+  },
+  {
+    "pagina_r37": 99,
+    "blocos": [
+      "vanguarda--van-base",
+      "vanguarda--van-sequencia"
+    ],
+    "paginas_r38": [
+      91,
+      92,
+      93
+    ]
+  },
+  {
+    "pagina_r37": 111,
+    "blocos": [
+      "vanguarda--van-executor",
+      "vanguarda--van-executor-avanco"
+    ],
+    "paginas_r38": [
+      102,
+      103
+    ]
+  },
+  {
+    "pagina_r37": 117,
+    "blocos": [
+      "guia--guia-arquiteto",
+      "guia--guia-modelos"
+    ],
+    "paginas_r38": [
+      108,
+      109
+    ]
+  },
+  {
+    "pagina_r37": 122,
+    "blocos": [
+      "guia--guia-emergencia-cuidado",
+      "guia--guia-tratamento"
+    ],
+    "paginas_r38": [
+      112,
+      113
+    ]
+  },
+  {
+    "pagina_r37": 126,
+    "blocos": [
+      "emanador--ema-familiares",
+      "emanador--ema-modulacoes"
+    ],
+    "paginas_r38": [
+      116,
+      117
+    ]
+  },
+  {
+    "pagina_r37": 128,
+    "blocos": [
+      "emanador--ema-condutor",
+      "emanador--ema-instintiva"
+    ],
+    "paginas_r38": [
+      118,
+      119
+    ]
+  },
+  {
+    "pagina_r37": 130,
+    "blocos": [
+      "emanador--ema-propriedades",
+      "emanador--ema-propriedades-apoio"
+    ],
+    "paginas_r38": [
+      119,
+      120,
+      121
+    ]
+  },
+  {
+    "pagina_r37": 148,
+    "blocos": [
+      "evocador--ev-parceria-complementar",
+      "evocador--ev-parceria-intervencoes"
+    ],
+    "paginas_r38": [
+      136,
+      137
+    ]
+  },
+  {
+    "pagina_r37": 162,
+    "blocos": [
+      "incursor--inc-assassino",
+      "incursor--inc-guarda"
+    ],
+    "paginas_r38": [
+      150,
+      151
+    ]
+  },
+  {
+    "pagina_r37": 193,
+    "blocos": [
+      "equip--eqp-protecao"
+    ],
+    "paginas_r38": [
+      180,
+      181
+    ]
+  },
+  {
+    "pagina_r37": 215,
+    "blocos": [
+      "equip--eqf-graus"
+    ],
+    "paginas_r38": [
+      199,
+      200
+    ]
+  },
+  {
+    "pagina_r37": 217,
+    "blocos": [
+      "equip--eqf-aquisicao",
+      "equip--eqf-armas"
+    ],
+    "paginas_r38": [
+      201,
+      202
+    ]
+  },
+  {
+    "pagina_r37": 237,
+    "blocos": [
+      "fundamento--familias",
+      "fundamento--primeiro"
+    ],
+    "paginas_r38": [
+      219,
+      220
+    ]
+  },
+  {
+    "pagina_r37": 246,
+    "blocos": [
+      "fundamento--combinacoes",
+      "fundamento--controle"
+    ],
+    "paginas_r38": [
+      226,
+      227,
+      228
+    ]
+  },
+  {
+    "pagina_r37": 250,
+    "blocos": [
+      "fundamento--efeito"
+    ],
+    "paginas_r38": [
+      230,
+      231
+    ]
+  },
+  {
+    "pagina_r37": 303,
+    "blocos": [
+      "rotas--rota-bancada",
+      "rotas--rota-invocacoes"
+    ],
+    "paginas_r38": [
+      280,
+      281
+    ]
+  },
+  {
+    "pagina_r37": 306,
+    "blocos": [
+      "rotas--rota-cura",
+      "rotas--rota-redoma"
+    ],
+    "paginas_r38": [
+      283,
+      284
+    ]
+  },
+  {
+    "pagina_r37": 317,
+    "blocos": [
+      "poderes--criardominio",
+      "poderes--degraus"
+    ],
+    "paginas_r38": [
+      294,
+      295
+    ]
+  },
+  {
+    "pagina_r37": 324,
+    "blocos": [
+      "poderes--multiplos"
+    ],
+    "paginas_r38": [
+      300,
+      301
+    ]
+  },
+  {
+    "pagina_r37": 329,
+    "blocos": [
+      "ritual--rit-recitar",
+      "ritual--rit-teste"
+    ],
+    "paginas_r38": [
+      305,
+      306
+    ]
+  },
+  {
+    "pagina_r37": 335,
+    "blocos": [
+      "ritual--pacto-permanente",
+      "ritual--pactos"
+    ],
+    "paginas_r38": [
+      310,
+      311
+    ]
+  },
+  {
+    "pagina_r37": 362,
+    "blocos": [
+      "construcao--entidades-atributos",
+      "construcao--entidades-definicao"
+    ],
+    "paginas_r38": [
+      335,
+      336
+    ]
+  },
+  {
+    "pagina_r37": 374,
+    "blocos": [
+      "construcao--entidade-vigia-habilidades",
+      "construcao--entidades-conferencia"
+    ],
+    "paginas_r38": [
+      347,
+      348
+    ]
+  },
+  {
+    "pagina_r37": 377,
+    "blocos": [
+      "fabricacao--fab-conclusao",
+      "fabricacao--fab-teste"
+    ],
+    "paginas_r38": [
+      349,
+      350
+    ]
+  }
+]

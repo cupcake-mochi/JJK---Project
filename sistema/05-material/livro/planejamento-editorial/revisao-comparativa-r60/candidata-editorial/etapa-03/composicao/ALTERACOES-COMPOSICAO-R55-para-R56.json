@@ -1,0 +1,44 @@
+[
+  {
+    "id": "R56-D01",
+    "bloco": "Fluxo após largura inteira",
+    "ajuste": "Retomar o fluxo de colunas no espaço restante depois de tabela ou bloco largo.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  },
+  {
+    "id": "R56-D02",
+    "bloco": "Divisão local de colunas",
+    "ajuste": "Distribuir o texto restante entre as duas colunas, respeitando as quebras permitidas.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  },
+  {
+    "id": "R56-D03",
+    "bloco": "Equilíbrio de página",
+    "ajuste": "Dar maior peso à diferença de altura entre as colunas na seleção da paginação.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  },
+  {
+    "id": "R56-D04",
+    "bloco": "Aberturas de Trilhas",
+    "ajuste": "Limitar os agrupamentos opcionais a 65% da altura útil, permitindo continuar o restante do bloco.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  },
+  {
+    "id": "R56-D05",
+    "bloco": "Agrupamentos editoriais",
+    "ajuste": "Limitar grupos opcionais extensos para evitar que puxem quase uma coluna inteira à página seguinte.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  },
+  {
+    "id": "R56-D06",
+    "bloco": "Capas na edição noturna",
+    "ajuste": "Preservar as cores originais das capas ilustradas, incluindo a letra escura sobre o pergaminho. Corrigido após a segunda revisão identificar contraste inadequado.",
+    "altera_regras": false,
+    "altera_fontes_ou_tamanhos": false
+  }
+]

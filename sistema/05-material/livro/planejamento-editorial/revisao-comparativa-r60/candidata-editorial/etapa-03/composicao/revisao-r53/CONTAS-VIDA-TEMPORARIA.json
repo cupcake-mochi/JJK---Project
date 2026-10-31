@@ -1,0 +1,69 @@
+{
+  "decisao_autor": "Vida temporária individual custa Leve.",
+  "base_compartilhada": "Conservar uma base por aplicação: paga a maior exigida pelas funções.",
+  "base_sem_desconto_ou_devolucao": true,
+  "sem_teto_geral_aplicado": "Os valores seguintes ainda são limitados pela reserva temporária do beneficiário.",
+  "progressao": [
+    {
+      "classe": 1,
+      "pontos": 3,
+      "base_leve": 1,
+      "pvt_individual_sem_pecas": 6,
+      "toque_sem_melhoria": 6,
+      "mescla_cura_e_pvt_base": 1
+    },
+    {
+      "classe": 2,
+      "pontos": 6,
+      "base_leve": 1,
+      "pvt_individual_sem_pecas": 15,
+      "toque_sem_melhoria": 15,
+      "mescla_cura_e_pvt_base": 2
+    },
+    {
+      "classe": 3,
+      "pontos": 9,
+      "base_leve": 2,
+      "pvt_individual_sem_pecas": 21,
+      "toque_sem_melhoria": 21,
+      "mescla_cura_e_pvt_base": 3
+    },
+    {
+      "classe": 4,
+      "pontos": 12,
+      "base_leve": 2,
+      "pvt_individual_sem_pecas": 30,
+      "toque_sem_melhoria": 30,
+      "mescla_cura_e_pvt_base": 4
+    },
+    {
+      "classe": 5,
+      "pontos": 15,
+      "base_leve": 3,
+      "pvt_individual_sem_pecas": 36,
+      "toque_sem_melhoria": 36,
+      "mescla_cura_e_pvt_base": 5
+    },
+    {
+      "classe": 6,
+      "pontos": 18,
+      "base_leve": 3,
+      "pvt_individual_sem_pecas": 45,
+      "toque_sem_melhoria": 45,
+      "mescla_cura_e_pvt_base": 6
+    },
+    {
+      "classe": 7,
+      "pontos": 21,
+      "base_leve": 4,
+      "pvt_individual_sem_pecas": 51,
+      "toque_sem_melhoria": 51,
+      "mescla_cura_e_pvt_base": 7
+    }
+  ],
+  "exemplos": {
+    "Placas de apoio": 3,
+    "Impulso e Pressa de Classe 2": 6,
+    "Tiras de resgate com Parado": 3
+  }
+}

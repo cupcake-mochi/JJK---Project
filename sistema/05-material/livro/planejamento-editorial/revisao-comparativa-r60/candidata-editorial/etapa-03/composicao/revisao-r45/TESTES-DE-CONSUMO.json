@@ -1,0 +1,147 @@
+[
+  {
+    "caso": "Encarnado / estoque comum",
+    "premissas": {
+      "maestria": 2
+    },
+    "sequencia": [
+      "próprio +d4, sucesso",
+      "aliado +d4, falha",
+      "descanso curto",
+      "novo pedido sem estoque"
+    ],
+    "esperado": [
+      0,
+      false
+    ],
+    "obtido": [
+      0,
+      false
+    ],
+    "passou": true,
+    "fonte": "A071/A076",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  },
+  {
+    "caso": "Encarnado / preservação uma vez",
+    "premissas": {
+      "maestria": 2
+    },
+    "sequencia": [
+      "falha própria preservada",
+      "segunda falha própria"
+    ],
+    "esperado": 1,
+    "obtido": 1,
+    "passou": true,
+    "fonte": "A076",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  },
+  {
+    "caso": "Híbrido / cura encerra faixa",
+    "premissas": {
+      "PV": 12,
+      "maximo": 41,
+      "PE": 5,
+      "CON": 3,
+      "Classe": 2
+    },
+    "sequencia": [
+      "paga2PE",
+      "2d6:3 e5",
+      "turno seguinte"
+    ],
+    "esperado": [
+      20,
+      3,
+      1,
+      false
+    ],
+    "obtido": [
+      20,
+      3,
+      1,
+      false
+    ],
+    "passou": true,
+    "fonte": "A048",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  },
+  {
+    "caso": "M1 / pagar último PE",
+    "premissas": {
+      "PE": 2,
+      "Reação": "gasta"
+    },
+    "sequencia": [
+      "capacidade custa2",
+      "resolve capacidade",
+      "recebe1PE temporário válido"
+    ],
+    "esperado": [
+      true,
+      true,
+      true,
+      "gasta"
+    ],
+    "obtido": [
+      true,
+      true,
+      true,
+      "gasta"
+    ],
+    "passou": true,
+    "fonte": "A059",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  },
+  {
+    "caso": "Latente / intervalo próprio",
+    "premissas": {
+      "pior_custo": 8,
+      "reserva_inicial": 24
+    },
+    "sequencia": [
+      "turno próprio intervalo1",
+      "Reação no turno inimigo mesmo intervalo",
+      "novo turno próprio intervalo2"
+    ],
+    "esperado": 2,
+    "obtido": 2,
+    "passou": true,
+    "fonte": "A037/A038",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  },
+  {
+    "caso": "Missão / renovações distintas",
+    "premissas": {
+      "usos_gastos": {
+        "cena": 0,
+        "dia": 0,
+        "longo": 0
+      }
+    },
+    "sequencia": [
+      "combate termina mas pressão continua",
+      "descanso curto",
+      "sono durante missão",
+      "fim da missão e descanso longo"
+    ],
+    "esperado": [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    "obtido": [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    "passou": true,
+    "fonte": "Descansos R44; A071/A079",
+    "tipo": "modelo determinístico de consumo; sem mesa real"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "nome": "Bastião",
+    "tipo": "Caminho",
+    "bloco": "bastiao--bas-bastiao",
+    "tabela_em": "bastiao--bas-bastiao",
+    "pagina": 86
+  },
+  {
+    "nome": "Muro",
+    "tipo": "Trilha",
+    "bloco": "bastiao--bas-muro",
+    "tabela_em": "bastiao--bas-muro",
+    "pagina": 89
+  },
+  {
+    "nome": "Punho",
+    "tipo": "Trilha",
+    "bloco": "bastiao--bas-punho",
+    "tabela_em": "bastiao--bas-punho",
+    "pagina": 90
+  },
+  {
+    "nome": "Combatente Amaldiçoado",
+    "tipo": "Trilha",
+    "bloco": "bastiao--bas-combatente",
+    "tabela_em": "bastiao--bas-combatente",
+    "pagina": 92
+  },
+  {
+    "nome": "Vanguarda",
+    "tipo": "Caminho",
+    "bloco": "vanguarda--van-base",
+    "tabela_em": "vanguarda--van-base",
+    "pagina": 94
+  },
+  {
+    "nome": "Estocada",
+    "tipo": "Trilha",
+    "bloco": "vanguarda--van-estocada",
+    "tabela_em": "vanguarda--van-estocada",
+    "pagina": 98
+  },
+  {
+    "nome": "Batedor",
+    "tipo": "Trilha",
+    "bloco": "vanguarda--van-yumi",
+    "tabela_em": "vanguarda--van-yumi",
+    "pagina": 100
+  },
+  {
+    "nome": "Batedor: Yumi",
+    "tipo": "rota do Batedor",
+    "bloco": "vanguarda--van-yumi",
+    "tabela_em": "vanguarda--van-yumi",
+    "pagina": 100
+  },
+  {
+    "nome": "Batedor: Besta",
+    "tipo": "rota do Batedor",
+    "bloco": "vanguarda--van-besta",
+    "tabela_em": "vanguarda--van-yumi",
+    "pagina": 102
+  },
+  {
+    "nome": "Batedor: Arma de Fogo",
+    "tipo": "rota do Batedor",
+    "bloco": "vanguarda--van-fogo",
+    "tabela_em": "vanguarda--van-yumi",
+    "pagina": 104
+  },
+  {
+    "nome": "Executor",
+    "tipo": "Trilha",
+    "bloco": "vanguarda--van-executor",
+    "tabela_em": "vanguarda--van-executor",
+    "pagina": 106
+  },
+  {
+    "nome": "Guia",
+    "tipo": "Caminho",
+    "bloco": "guia--guia",
+    "tabela_em": "guia--guia-progressao",
+    "pagina": 108
+  },
+  {
+    "nome": "Arquiteto",
+    "tipo": "Trilha",
+    "bloco": "guia--guia-arquiteto",
+    "tabela_em": "guia--guia-arquiteto",
+    "pagina": 112
+  },
+  {
+    "nome": "Analista",
+    "tipo": "Trilha",
+    "bloco": "guia--guia-analista",
+    "tabela_em": "guia--guia-analista",
+    "pagina": 115
+  },
+  {
+    "nome": "Socorrista",
+    "tipo": "Trilha",
+    "bloco": "guia--guia-socorrista",
+    "tabela_em": "guia--guia-socorrista",
+    "pagina": 116
+  },
+  {
+    "nome": "Emanador",
+    "tipo": "Caminho",
+    "bloco": "emanador--ema-base",
+    "tabela_em": "emanador--ema-base",
+    "pagina": 119
+  },
+  {
+    "nome": "Condutor Armado",
+    "tipo": "Trilha",
+    "bloco": "emanador--ema-condutor",
+    "tabela_em": "emanador--ema-condutor",
+    "pagina": 124
+  },
+  {
+    "nome": "Ressonante",
+    "tipo": "Trilha",
+    "bloco": "emanador--ema-eco",
+    "tabela_em": "emanador--ema-eco",
+    "pagina": 127
+  },
+  {
+    "nome": "Catalisador",
+    "tipo": "Trilha",
+    "bloco": "emanador--ema-impulso",
+    "tabela_em": "emanador--ema-impulso",
+    "pagina": 129
+  },
+  {
+    "nome": "Evocador",
+    "tipo": "Caminho",
+    "bloco": "evocador--evocador",
+    "tabela_em": "evocador--evocador",
+    "pagina": 131
+  },
+  {
+    "nome": "Invocação Principal",
+    "tipo": "Trilha",
+    "bloco": "evocador--ev-principal",
+    "tabela_em": "evocador--ev-principal",
+    "pagina": 138
+  },
+  {
+    "nome": "Parceria",
+    "tipo": "Trilha",
+    "bloco": "evocador--ev-parceria",
+    "tabela_em": "evocador--ev-parceria",
+    "pagina": 141
+  },
+  {
+    "nome": "Múltiplas Invocações",
+    "tipo": "Trilha",
+    "bloco": "evocador--ev-multiplas",
+    "tabela_em": "evocador--ev-multiplas",
+    "pagina": 146
+  },
+  {
+    "nome": "Incursor",
+    "tipo": "Caminho",
+    "bloco": "incursor--inc-caminho",
+    "tabela_em": "incursor--inc-caminho",
+    "pagina": 152
+  },
+  {
+    "nome": "Assassino",
+    "tipo": "Trilha",
+    "bloco": "incursor--inc-assassino",
+    "tabela_em": "incursor--inc-assassino",
+    "pagina": 156
+  },
+  {
+    "nome": "Pugilista",
+    "tipo": "Trilha",
+    "bloco": "incursor--inc-pugilista",
+    "tabela_em": "incursor--inc-pugilista",
+    "pagina": 161
+  },
+  {
+    "nome": "Malabarista",
+    "tipo": "Trilha",
+    "bloco": "incursor--inc-malabarista",
+    "tabela_em": "incursor--inc-malabarista",
+    "pagina": 166
+  }
+]

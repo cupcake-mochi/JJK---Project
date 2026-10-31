@@ -1,0 +1,27 @@
+{
+  "base": "R56",
+  "escopo": "Contexto dos termos e ordem de apresentação. Conferência de primeiras ocorrências na ordem de LIVRO-COMPLETO, nomes de habilidades futuras, exemplos e remissões.",
+  "blocos_varridos": 576,
+  "sinais_automaticos": 501,
+  "nota_metodo": "Os sinais são candidatos, incluem substantivos comuns, cabeçalhos duplicados e simples menções de navegação. A varredura não significa 501 erros nem leitura humana de cada palavra.",
+  "passagens": [
+    {
+      "numero": 1,
+      "operacoes": 29
+    },
+    {
+      "numero": 2,
+      "operacoes": 9
+    },
+    {
+      "numero": 3,
+      "operacoes": 4
+    }
+  ],
+  "conferencia_final": {
+    "operacoes_novas": 0,
+    "criterio": "Resumo local compatível com a entrada completa, sem antecipar custos e exceções desnecessários; indicação de nível para permissões futuras; títulos e tabelas iguais à base."
+  },
+  "regras_alteradas": false,
+  "limite": "Não é uma garantia absoluta de ausência de ambiguidades; o relatório registra os casos encontrados e verificados."
+}

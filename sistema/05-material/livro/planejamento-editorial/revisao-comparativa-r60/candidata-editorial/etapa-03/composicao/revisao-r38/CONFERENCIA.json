@@ -1,0 +1,17 @@
+{
+  "paginas": 367,
+  "paginas_r37": 394,
+  "sha256_pdf": "1523e5f8749f792dd4089f4e5d284e07695d2f5306d8fb2f44c931b090d2b19c",
+  "sha256_texto": "f9e60bf4bcc7ce890966b9273d75f75b9773e9adadf26e58df7be152cc6567f7",
+  "blocos_textuais_alterados": 3,
+  "texto_identico_fora_das_tres_excecoes": true,
+  "ordem_original_dos_paragrafos_preservada": true,
+  "tabelas_linhas_preservadas": true,
+  "cabecalhos_repetidos": 33,
+  "titulos_isolados": [],
+  "paginas_com_multiplos_pares_de_colunas": [],
+  "retornos_da_direita_para_esquerda": [],
+  "cabecalhos_repetidos_sem_quebra": [],
+  "r37_integralmente_preservada": true,
+  "registros_diagramacao": 502
+}

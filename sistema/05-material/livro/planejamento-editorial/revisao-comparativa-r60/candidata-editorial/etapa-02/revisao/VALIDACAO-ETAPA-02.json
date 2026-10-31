@@ -1,0 +1,36 @@
+{
+  "resultado": "aprovado",
+  "paginas": 427,
+  "paginas_consulta": [
+    415,
+    416,
+    417,
+    418
+  ],
+  "verificacoes": [
+    {
+      "verificacao": "Texto e posição dos capítulos 1 a 19 preservados em relação à etapa 1",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Navegação de Fundamento da etapa 1 preserva a ordem da leitura",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Conjurações no turno tem marcador digital na página correta",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Bloquear tem marcador digital na página correta",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Morrendo e socorro tem marcador digital na página correta",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Texto da Consulta rápida igual nas duas paletas",
+      "aprovado": true
+    }
+  ]
+}

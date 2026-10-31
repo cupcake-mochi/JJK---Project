@@ -1,0 +1,208 @@
+{
+  "blocos": 576,
+  "alterados": 34,
+  "titulos_preservados": true,
+  "tabelas_preservadas": true,
+  "remissoes_sem_destino": [],
+  "numeros": [
+    {
+      "bloco": "ab--ab-equipamento",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "geral--acoes",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "geral--preparar",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "dano--medias",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "origens--origem-feto",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "origens--restricao-corpo",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "fundamento--selo",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "fundamento--conjurar",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "fundamento--controle",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "aptidoes--apt-catalogo",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "aptidoes--apt-kokusen",
+      "numeros_acrescentados": {
+        "1": 1,
+        "100": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "aptidoes--apt-barreira",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "rotas--rota-lapidacao",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "construcao--entidades-basicas",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "bastiao--bas-olhos",
+      "numeros_acrescentados": {
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "bastiao--bas-mao",
+      "numeros_acrescentados": {
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "bastiao--bas-oportunista",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "vanguarda--van-yumi-conducoes",
+      "numeros_acrescentados": {
+        "11": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "vanguarda--van-besta",
+      "numeros_acrescentados": {
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "vanguarda--van-fogo",
+      "numeros_acrescentados": {
+        "11": 1,
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "guia--guia-progressao",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "guia--guia-plano-conjunto",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "guia--guia-analista",
+      "numeros_acrescentados": {
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "emanador--ema-desdobramento",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "emanador--ema-remodelar",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "emanador--ema-instintiva",
+      "numeros_acrescentados": {
+        "2": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "emanador--ema-repetir",
+      "numeros_acrescentados": {
+        "11": 1,
+        "19": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "evocador--ev-usos",
+      "numeros_acrescentados": {
+        "7": 1,
+        "2": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "evocador--ev-complementar",
+      "numeros_acrescentados": {
+        "15": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "incursor--inc-assassino",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "incursor--inc-continuacoes",
+      "numeros_acrescentados": {
+        "2": 1,
+        "27": 1
+      },
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "origens--restricao-ce4",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "catalogo--restricao-sem-volta",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    },
+    {
+      "bloco": "catalogo--cat-passivas-2-recursos",
+      "numeros_acrescentados": {},
+      "numeros_removidos": {}
+    }
+  ]
+}

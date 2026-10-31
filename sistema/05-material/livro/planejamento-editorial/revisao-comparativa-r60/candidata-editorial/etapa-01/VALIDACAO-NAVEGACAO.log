@@ -1,0 +1,121 @@
+{
+  "resultado": "aprovado",
+  "paginas": 425,
+  "verificacoes": [
+    {
+      "verificacao": "Mesmo número de páginas e texto nas duas paletas",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sumário segue a sequência da leitura em Fundamento",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Todos os assuntos no marcador digital",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sumário impresso usa a mesma ordem e destinos",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Cabeçalhos antigos de Selo e Talentos removidos",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Nenhum destino interno fora do livro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Mudanças de texto visual limitadas a sumário e Fundamento",
+      "aprovado": true
+    }
+  ],
+  "paginas_texto_visual_alterado": [
+    3,
+    4,
+    5,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286
+  ],
+  "paginas_para_revisao": [
+    2,
+    3,
+    4,
+    5,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286
+  ]
+}

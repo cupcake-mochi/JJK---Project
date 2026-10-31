@@ -1,0 +1,63 @@
+{
+  "pdf_sha256": "0382321de73a2ad43b80b3e7762c062da228fd4e3d86c89a6ee22a0bf691b68b",
+  "paginas_abertas_e_inspecionadas": [
+    11,
+    12,
+    24,
+    32,
+    35,
+    65,
+    66,
+    79,
+    86,
+    87,
+    104,
+    105,
+    106,
+    150,
+    214,
+    217,
+    221,
+    225,
+    244,
+    245,
+    262,
+    266,
+    283,
+    284,
+    309,
+    310,
+    332,
+    333
+  ],
+  "quantidade": 28,
+  "metodo": "Páginas completas renderizadas por Poppler com 1500 px de altura e abertas como imagens. Inspeção das 27 páginas que contêm blocos editados, mais a página 262 para família e entradas.",
+  "cortes_ou_sobreposicoes_visiveis_na_amostra": false,
+  "pendencias_de_composicao": [
+    {
+      "pagina": 79,
+      "assunto": "Sem Técnica",
+      "achado": "Título e introdução na página 79; primeira entrada subordinada na página seguinte.",
+      "etapa": "6C"
+    },
+    {
+      "pagina": 283,
+      "assunto": "Cobrir-se de Energia",
+      "achado": "Título e introdução no fim da página; a proteção só começa na página 284. Manter a entrada junto de um começo útil da regra.",
+      "etapa": "6C"
+    },
+    {
+      "pagina": 309,
+      "assunto": "Defesa sem Armadura",
+      "achado": "Tabela larga divide a página em duas regiões de colunas. A região superior deixa grande vazio à direita; reavaliar largura da tabela e composição, preservando leitura esquerda inteira → direita.",
+      "etapa": "6C"
+    },
+    {
+      "pagina": 105,
+      "assunto": "Continuação de Batedor: Besta",
+      "achado": "O cabeçalho de continuação repete Batedor: Besta. Simplificar contexto sem mudar título ou regra.",
+      "etapa": "6C"
+    }
+  ],
+  "inspecao_visual_integral_das_394_paginas": "Pendente: etapa 6D; a validação automática cobre o PDF inteiro."
+}

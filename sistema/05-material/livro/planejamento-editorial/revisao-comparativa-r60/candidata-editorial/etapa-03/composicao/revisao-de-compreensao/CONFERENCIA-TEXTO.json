@@ -1,0 +1,17 @@
+{
+  "base": "R31",
+  "nova": "R32",
+  "blocos": 500,
+  "blocos_alterados": 19,
+  "blocos_regra": 4,
+  "blocos_compreensao": 15,
+  "substituicoes": 26,
+  "reconstrucao_integral_pelo_registro": true,
+  "diferencas_sem_registro": 0,
+  "R31_preservada": true,
+  "arquivos_de_fontes_e_artes_preservados": 132,
+  "revisoes_R29_preservadas": 73,
+  "T072_ausente": true,
+  "sha256_md": "d61eb37340f1645c00013b3b14a50547822d99b75f3f72a98040776bb798e88b",
+  "problemas": []
+}

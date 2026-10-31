@@ -1,0 +1,15 @@
+{
+  "escopo": "Todos os 576 blocos de texto da R53, em 21 capítulos. Busca de referências antecipadas e leitura contextual dos procedimentos e exemplos.",
+  "metodo": [
+    "Passada 1: inventário de referências, primeiras definições e dependências de compreensão; correções.",
+    "Passada 2: leitura dos textos corrigidos no contexto das escolhas, exemplos e capítulos dependentes.",
+    "Passada 3: comparação dos resumos com as regras completas, reconstrução exata pelas operações e conferência de remissões."
+  ],
+  "candidatos_automaticos": 651,
+  "observacao_candidatos": "Incluem palavras comuns, títulos homônimos, tabelas de consulta e remissões legítimas. Não equivalem a erros.",
+  "criterio": "Explicação breve ou remissão local quando o leitor precisa usar a mecânica naquele ponto. Tabelas de progressão e índices podem anunciar opções explicadas adiante.",
+  "operacoes": 73,
+  "blocos_alterados": 40,
+  "regras": "Revisão editorial. Sem alterações intencionais de custo, frequência, acesso, resolução ou progressão.",
+  "estado": "Três passagens concluídas. PDFs gerados; resultados finais de validação em arquivos próprios."
+}

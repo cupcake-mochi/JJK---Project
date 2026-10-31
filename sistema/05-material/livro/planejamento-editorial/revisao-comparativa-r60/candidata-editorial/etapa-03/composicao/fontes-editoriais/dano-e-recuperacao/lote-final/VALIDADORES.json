@@ -1,0 +1,155 @@
+{
+  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "Tipos, 13 condições, duas reservas, cura, queda, descansos e usos mapeados. Migração nominal DR32 preserva efeitos."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "status": "executado",
+      "evidencia": "FONTES.json",
+      "observacao": "Sete fontes preservadas. Mudanças DR01–32 rastreadas."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "status": "executado",
+      "evidencia": "evidencias/AUDITORIA.json",
+      "observacao": "55 verificações do texto atual, com limites e transições de recursos."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "evidencias/BALANCEAMENTO-POR-NIVEL.json",
+      "observacao": "256 verificações de comparação por nível, além de enumerações do auditor funcional."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "status": "executado com limites",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-MAXIMA.md",
+      "observacao": "Comparação autoral e independente. Janela por ocorrência e limiar de cura alto exigem acompanhamento em mesa; não houve playtest humano."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "INTERFACES.json",
+      "observacao": "Interfaces fechadas em INTERFACES.json e verificações independentes CAT116, PRO36 e GUIA38."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Títulos e vocabulário revisados contextualmente; nomes de condições definidos no próprio dono."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "status": "executado",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "20 seções lidas, com entrada, procedimento, encerramento e exemplos pertinentes."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "status": "executado",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "Procedimentos comparados à organização editorial de PHB2024, sem copiar prosa."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "Regras específicas permanecem nos donos; remissões substituem repetição."
+    },
+    {
+      "id": "V11",
+      "nome": "Obra e referências",
+      "status": "executado com limites",
+      "evidencia": "ESCOPO-E-METODO.md",
+      "observacao": "Reservas e estados são adaptação do jogo, sem afirmação nova de cânone."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "executado",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-FINAL-MAXIMA.json",
+      "observacao": "Leitura integral por maxima e fechamento independente do delta final com811 verificações."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "status": "executado",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Conferência estrutural do PDF após a prova visual."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "status": "executado",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "observacao": "Todas20 páginas abertas, com reinspeção das duas tabelas ajustadas."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Fontes, mudanças e hashes preservados. Manifesto será emitido após a conferência final."
+    }
+  ],
+  "integracao_final": {
+    "sha256_texto_atual": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "sha256_texto_revisado_antes_da_montagem": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "alteracoes_de_integracao": 0,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "sha256_pdf_anterior": null,
+    "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "sha256_pdf": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 163
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "sha256_pdf": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
+  "revalidacao_2026_10_04_quinta_passada": {
+    "sha256_texto_anterior": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "sha256_pdf_anterior": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
+    "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+    "sha256_pdf": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 163
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quinta passada de 04/10/2026 (D25 a D41). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quinta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
+}
