@@ -1,0 +1,180 @@
+{
+  "registro": 142,
+  "criacao_por_classe": [
+    8,
+    16,
+    32,
+    48,
+    72,
+    96,
+    128
+  ],
+  "reconstrucao_por_classe": [
+    null,
+    8,
+    16,
+    24,
+    36,
+    48,
+    64
+  ],
+  "transferencia_por_classe": [
+    2,
+    2,
+    4,
+    6,
+    9,
+    12,
+    16
+  ],
+  "retomada_de_transferencia": [
+    1,
+    1,
+    2,
+    3,
+    5,
+    6,
+    8
+  ],
+  "mais_de_uma_classe": {
+    "base_1_a_4": 48,
+    "com_falha_na_segunda": 56
+  },
+  "projetos_do_vigia": {
+    "criar": [
+      48,
+      36000
+    ],
+    "reconstruir": [
+      36,
+      18000
+    ],
+    "transferir": [
+      6,
+      4000
+    ]
+  },
+  "vida_do_vigia": [
+    {
+      "nivel": 9,
+      "constituicao": 3,
+      "pv": 56,
+      "integridade": 28
+    },
+    {
+      "nivel": 10,
+      "constituicao": 4,
+      "pv": 72,
+      "integridade": 36
+    },
+    {
+      "nivel": 11,
+      "constituicao": 4,
+      "pv": 79,
+      "integridade": 39
+    },
+    {
+      "nivel": 12,
+      "constituicao": 4,
+      "pv": 86,
+      "integridade": 43
+    },
+    {
+      "nivel": 13,
+      "constituicao": 4,
+      "pv": 93,
+      "integridade": 46
+    }
+  ],
+  "corpos_de_criacao": {
+    "nivel_9": [
+      64,
+      32
+    ],
+    "nivel_13": [
+      105,
+      52
+    ]
+  },
+  "overtime": {
+    "maximo_durante_jornada": 32,
+    "maximo_hora_extra": 48,
+    "acrescimo": 16,
+    "saldo_apos_transicao": 28
+  },
+  "refluxo": {
+    "restante_com_maximos_40_60_20_40": [
+      8,
+      18,
+      0,
+      8
+    ],
+    "apos_manutencao_refluxo_e_feitico": {
+      "saldo": 7,
+      "limite_restante": 1
+    }
+  },
+  "pacifismo": {
+    "fechamento": "2026-11-21T18:00:00",
+    "suspensao_ate": "2026-11-24T18:00:00",
+    "segunda_janela_ate": "2026-12-21T18:00:00"
+  },
+  "promessa": {
+    "bloqueio_no_exemplo_em_horas": 16,
+    "recuperacao_curta_posterior": 10
+  },
+  "queda_e_destruicao": {
+    "igualar_metade_do_excedente_nao_destroi": true,
+    "igualar_vida_maxima_em_ocorrencia_direta_destroi": true
+  },
+  "transporte": {
+    "volume_72kg_e_itens": 8,
+    "volume_84kg_e_itens": 9,
+    "capacidade": 8,
+    "montar_com_deslocamento_9m": 4.5
+  },
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+      "sha256": "d489ddc738a7037247301981daa168044c0059a15fd1fe01d4bd58dc2d947bd0"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256": "63cf6956343aa089f5a07e427029adfeed063068fc89d50e48c9d8e2ddee254d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "sha256": "a72a2e6e73ea22937cad340ad8e371dd6dec450fde09dbbf6174f8a43361315d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+      "sha256": "b6bb9f59568de262ebe3c912d860d75548946006309ed50e52ab0b4075b08094"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+      "sha256": "a7b23ac16396d409fb2f1c9c09ca38ec9fbe5769d5e1daaf8e1add74c99761a2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+      "sha256": "f11e63d6d18cc36c52fb285f73091ba152d98467534013370366e171247ebd23"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+      "sha256": "05d0136bbbc82c54b54233ef8bf8e218eaedde12df687541e798e1007351903f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+      "sha256": "cd87dfcacd8daae4d5025699424b421f66373752754fa63d0885084bfce7bf93"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+      "sha256": "73ee7aa8b71b23af922d30ac66a62c15683731c20fa39e129e1391944bcd95c1"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256": "02830df2a549d8905b0972ddc52bac7319a31fc1af546ad5b567a06f1fe57cc1"
+    }
+  ],
+  "falhas": [],
+  "limite": "Reconferência aritmética de tabelas e exemplos selecionados. Não é simulação de combate, previsão de probabilidade de sucesso, avaliação de equilíbrio de Pactos ou sessão observada."
+}

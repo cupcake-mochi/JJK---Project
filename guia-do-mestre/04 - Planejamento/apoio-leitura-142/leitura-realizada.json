@@ -1,0 +1,111 @@
+{
+  "registro": 142,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+      "sha256": "d489ddc738a7037247301981daa168044c0059a15fd1fe01d4bd58dc2d947bd0",
+      "palavras_da_fonte": 4090,
+      "alcance": "Leitura completa e segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "sha256": "d37e3402f7d9c1cf6630755c0537b20e14fd2279bd3109402968cd812b22301d",
+      "palavras_da_fonte": 2797,
+      "alcance": "Leitura completa e segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256": "63cf6956343aa089f5a07e427029adfeed063068fc89d50e48c9d8e2ddee254d",
+      "palavras_da_fonte": 1633,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "sha256": "a72a2e6e73ea22937cad340ad8e371dd6dec450fde09dbbf6174f8a43361315d",
+      "palavras_da_fonte": 1935,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "sha256": "7581512f94b6ad6dbf9d7ff05ff61bb214f25b87f80ffa3ec6187edfe2d98122",
+      "palavras_da_fonte": 1799,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+      "sha256": "b6bb9f59568de262ebe3c912d860d75548946006309ed50e52ab0b4075b08094",
+      "palavras_da_fonte": 2901,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+      "sha256": "a7b23ac16396d409fb2f1c9c09ca38ec9fbe5769d5e1daaf8e1add74c99761a2",
+      "palavras_da_fonte": 2421,
+      "alcance": "Leitura completa e segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+      "sha256": "f11e63d6d18cc36c52fb285f73091ba152d98467534013370366e171247ebd23",
+      "palavras_da_fonte": 3078,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+      "sha256": "05d0136bbbc82c54b54233ef8bf8e218eaedde12df687541e798e1007351903f",
+      "palavras_da_fonte": 3056,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+      "sha256": "cd87dfcacd8daae4d5025699424b421f66373752754fa63d0885084bfce7bf93",
+      "palavras_da_fonte": 3032,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+      "sha256": "73ee7aa8b71b23af922d30ac66a62c15683731c20fa39e129e1391944bcd95c1",
+      "palavras_da_fonte": 3151,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256": "02830df2a549d8905b0972ddc52bac7319a31fc1af546ad5b567a06f1fe57cc1",
+      "palavras_da_fonte": 2427,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+      "sha256": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+      "palavras_da_fonte": 695,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+      "palavras_da_fonte": 988,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    }
+  ],
+  "fontes_retomadas": [
+    {
+      "registro_de_leitura": 140,
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+      "sha256": "249a8d6c4e3c0d4bab6e77b5312644cc2b0231baee1a041d4fab5372009f8e0f",
+      "alcance": "Retomado do estado já lido por inteiro no registro 140, sem mudança desde aquela leitura; não declarado como nova leitura integral neste lote."
+    }
+  ],
+  "fonte_tecnica": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "sha256_fonte_tecnica": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "regras_consultadas": [
+    "Pactos: formas, escala de ganho, vagas, benefícios, aceitação, quebra e criação",
+    "Temporários: janela de Reação, Mostrar a mão e Overtime",
+    "Aquisição de entidade por espaço, lista, criação e doma",
+    "Entrada, ciclo, retorno e destruição de entidades",
+    "Corpos mantidos, inatividade, cuidados, inconsciência e morte do invocador",
+    "Carga de entidades e combate montado",
+    "Progressão, básicas, especiais e Família Livre de entidades",
+    "Criação, ajuda, nova tentativa, reconstrução, transferência e herança"
+  ],
+  "limite": "Leitura editorial, comparação com regras e decisões e contas selecionadas. O Escriba foi retomado do estado lido no 140. Não é teste com jogadores, simulação completa de confronto ou revisão visual do PDF final."
+}

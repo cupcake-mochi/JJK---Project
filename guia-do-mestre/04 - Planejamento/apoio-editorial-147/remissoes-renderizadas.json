@@ -1,0 +1,3427 @@
+[
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "01-sua-primeira-missao.md",
+    "depois": "capitulo-01.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "02-o-mundo-dos-feiticeiros.md",
+    "depois": "capitulo-02.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "07-personagens-e-tecnicas.md",
+    "depois": "capitulo-07.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "08-entre-missoes.md",
+    "depois": "capitulo-08.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "10-jogar-em-guilda.md",
+    "depois": "capitulo-10.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "consultas/LEIA-ME.md",
+    "depois": "folhas.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "indice-de-casos.md",
+    "depois": "casos.html"
+  },
+  {
+    "fonte": "00-como-usar-este-livro.md",
+    "antes": "05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "#pessoas-e-lugar",
+    "depois": "capitulo-01.html#pessoas-e-lugar"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "#amontoado-do-deposito",
+    "depois": "capitulo-01.html#amontoado-do-deposito"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "#as-batidas-no-anexo-preparo-para-consulta",
+    "depois": "capitulo-01.html#as-batidas-no-anexo-preparo-para-consulta"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "../../07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/planta-do-anexo.svg",
+    "depois": "assets/mapas/planta-do-anexo.svg"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "consultas/24-registro-de-estado-e-socorro.md#se-houver-queda-em-andamento",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html#se-houver-queda-em-andamento"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "09-pactos-e-entidades.md#94-obter-uma-entidade",
+    "depois": "capitulo-09.html#94-obter-uma-entidade"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "01-sua-primeira-missao.md",
+    "antes": "04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "07-personagens-e-tecnicas.md#a-outra-voz-do-receptaculo",
+    "depois": "capitulo-07.html#a-outra-voz-do-receptaculo"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "depois": "apendice-d.html"
+  },
+  {
+    "fonte": "02-o-mundo-dos-feiticeiros.md",
+    "antes": "03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "01-sua-primeira-missao.md",
+    "depois": "capitulo-01.html"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "#37-quando-ha-pouco-tempo",
+    "depois": "capitulo-03.html#37-quando-ha-pouco-tempo"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "consultas/A1-preparar-a-missao.md",
+    "depois": "consulta-A1-preparar-a-missao.html"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "#antes-que-o-trem-parta",
+    "depois": "capitulo-03.html#antes-que-o-trem-parta"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "casos/14-o-aviso-de-reabertura.md",
+    "depois": "caso-14-o-aviso-de-reabertura.html"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "consultas/A1-preparar-a-missao.md",
+    "depois": "consulta-A1-preparar-a-missao.html"
+  },
+  {
+    "fonte": "03-preparar-aventuras.md",
+    "antes": "#antes-que-o-trem-parta",
+    "depois": "capitulo-03.html#antes-que-o-trem-parta"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#oito-situacoes-para-comecar",
+    "depois": "capitulo-03.html#ideias--oito-situacoes-para-comecar"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#seis-pessoas-para-encontrar",
+    "depois": "capitulo-03.html#ideias--seis-pessoas-para-encontrar"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#quatro-lugares-para-usar",
+    "depois": "capitulo-03.html#ideias--quatro-lugares-para-usar"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#seis-complicacoes-possiveis",
+    "depois": "capitulo-03.html#ideias--seis-complicacoes-possiveis"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#combinacao-1-a-assinatura-no-coreto",
+    "depois": "capitulo-03.html#ideias--combinacao-1-a-assinatura-no-coreto"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "#combinacao-2-ensaio-na-outra-margem",
+    "depois": "capitulo-03.html#ideias--combinacao-2-ensaio-na-outra-margem"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "../../07 - Edicao de Leitura/edicao-integrada-136/assets/mapas/canal-das-hortas.svg",
+    "depois": "assets/mapas/canal-das-hortas.svg"
+  },
+  {
+    "fonte": "03a-ideias-para-aventuras.md",
+    "antes": "casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "01-sua-primeira-missao.md#15-jogue-a-missao",
+    "depois": "capitulo-01.html#15-jogue-a-missao"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "03-preparar-aventuras.md#antes-que-o-trem-parta",
+    "depois": "capitulo-03.html#antes-que-o-trem-parta"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "consultas/A2-conduzir-a-sessao.md",
+    "depois": "consulta-A2-conduzir-a-sessao.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md#escolha-a-dificuldade",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html#escolha-a-dificuldade"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "05-criar-uma-campanha.md#51-a-sessao-zero",
+    "depois": "capitulo-05.html#51-a-sessao-zero"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "consultas/A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "04-na-mesa-de-jogo.md",
+    "antes": "05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados",
+    "depois": "capitulo-07.html#72-personagens-e-seus-cuidados"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "consultas/08-ficha-de-acordos-do-grupo.md",
+    "depois": "consulta-08-ficha-de-acordos-do-grupo.html"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "04-na-mesa-de-jogo.md#46-participacao-e-ritmo",
+    "depois": "capitulo-04.html#46-participacao-e-ritmo"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "07-personagens-e-tecnicas.md#rever-escolhas-da-origem",
+    "depois": "capitulo-07.html#rever-escolhas-da-origem"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "05-criar-uma-campanha.md",
+    "antes": "consultas/20-ficha-de-faccao.md",
+    "depois": "consulta-20-ficha-de-faccao.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "01-sua-primeira-missao.md#amontoado-do-deposito",
+    "depois": "capitulo-01.html#amontoado-do-deposito"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/59-recursos-e-ritmo-dos-inimigos.md#qual-limite-de-uso-escolher",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html#qual-limite-de-uso-escolher"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada",
+    "depois": "capitulo-04.html#47-combate-socorro-e-retirada"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "consultas/A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "indice-de-casos.md#B2",
+    "depois": "casos.html#B2"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao",
+    "depois": "capitulo-04.html#48-duvidas-e-fim-da-sessao"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "consultas/28-ficha-de-convivencia.md",
+    "depois": "consulta-28-ficha-de-convivencia.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/27-convivencia-do-receptaculo.md",
+    "depois": "caso-27-convivencia-do-receptaculo.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens",
+    "depois": "capitulo-05.html#52-vinculos-e-interesses-dos-personagens"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/91-restricao-corporal-e-cuidados.md",
+    "depois": "caso-91-restricao-corporal-e-cuidados.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/89-vida-rolada-e-familia-propria.md#a-familia-arata",
+    "depois": "caso-89-vida-rolada-e-familia-propria.html#a-familia-arata"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "depois": "consulta-92-reserva-condensada-proposta-e-comparacao.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/89-vida-rolada-e-familia-propria.md#escolha-como-calcular-a-vida",
+    "depois": "caso-89-vida-rolada-e-familia-propria.html#escolha-como-calcular-a-vida"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "depois": "consulta-32-ficha-de-avaliacao-de-capacidade.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "depois": "caso-93-ampliar-mesclas-e-trocar-formas.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/33-casos-especificos-de-avaliacao.md",
+    "depois": "caso-33-casos-especificos-de-avaliacao.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/95-efeitos-de-cena-e-cancelamento.md",
+    "depois": "caso-95-efeitos-de-cena-e-cancelamento.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "casos/94-compras-repetidas-e-restricoes.md",
+    "depois": "caso-94-compras-repetidas-e-restricoes.html"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "indice-de-casos.md#B3",
+    "depois": "casos.html#B3"
+  },
+  {
+    "fonte": "07-personagens-e-tecnicas.md",
+    "antes": "08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "03a-ideias-para-aventuras.md",
+    "depois": "capitulo-03.html#ideias"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/34-oficios-fabricacao-e-reparos.md#caso-etiquetas-para-um-deposito",
+    "depois": "caso-34-oficios-fabricacao-e-reparos.html#caso-etiquetas-para-um-deposito"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/97-emprestimo-familiar-e-negociacao.md",
+    "depois": "caso-97-emprestimo-familiar-e-negociacao.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/97-emprestimo-familiar-e-negociacao.md",
+    "depois": "caso-97-emprestimo-familiar-e-negociacao.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "depois": "caso-98-objeto-selado-e-risco-de-ingestao.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "07-personagens-e-tecnicas.md#ao-subir-de-nivel",
+    "depois": "capitulo-07.html#ao-subir-de-nivel"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "casos/99-limiar-feitos-e-promocao.md",
+    "depois": "caso-99-limiar-feitos-e-promocao.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "08-entre-missoes.md",
+    "antes": "consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/48-pacifismo-impraticavel-minuta.md",
+    "depois": "caso-48-pacifismo-impraticavel-minuta.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/49-liberacao-irregular-minuta.md",
+    "depois": "caso-49-liberacao-irregular-minuta.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "depois": "caso-47-desenvolver-uma-ideia-de-pacto.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/50-promessa-do-arquivo.md",
+    "depois": "caso-50-promessa-do-arquivo.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "consultas/42-registro-de-pactos-e-promessas.md",
+    "depois": "consulta-42-registro-de-pactos-e-promessas.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/51-ritual-do-cao-de-sombra.md",
+    "depois": "caso-51-ritual-do-cao-de-sombra.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "09-pactos-e-entidades.md",
+    "antes": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "05-criar-uma-campanha.md#51-a-sessao-zero",
+    "depois": "capitulo-05.html#51-a-sessao-zero"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "08-entre-missoes.md#86-recompensas-e-progressao",
+    "depois": "capitulo-08.html#86-recompensas-e-progressao"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "08-entre-missoes.md#trabalho-ainda-em-conferencia",
+    "depois": "capitulo-08.html#trabalho-ainda-em-conferencia"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/LEIA-ME.md",
+    "depois": "folhas.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/12-registro-de-descobertas.md",
+    "depois": "consulta-12-registro-de-descobertas.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "depois": "consulta-32-ficha-de-avaliacao-de-capacidade.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/42-registro-de-pactos-e-promessas.md",
+    "depois": "consulta-42-registro-de-pactos-e-promessas.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "consultas/LEIA-ME.md",
+    "depois": "folhas.html"
+  },
+  {
+    "fonte": "10-jogar-em-guilda.md",
+    "antes": "04-na-mesa-de-jogo.md#48-duvidas-e-fim-da-sessao",
+    "depois": "capitulo-04.html#48-duvidas-e-fim-da-sessao"
+  },
+  {
+    "fonte": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "antes": "74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "antes": "74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "antes": "101-haru-vigia-e-tessa.md",
+    "depois": "caso-101-haru-vigia-e-tessa.html"
+  },
+  {
+    "fonte": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "antes": "102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "casos/101-haru-vigia-e-tessa.md",
+    "antes": "100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "casos/101-haru-vigia-e-tessa.md",
+    "antes": "102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "antes": "101-haru-vigia-e-tessa.md",
+    "depois": "caso-101-haru-vigia-e-tessa.html"
+  },
+  {
+    "fonte": "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "antes": "100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "antes": "100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "casos/103-a-febre-dos-fios.md",
+    "antes": "78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "casos/103-a-febre-dos-fios.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta",
+    "depois": "capitulo-01.html#as-batidas-no-anexo-preparo-para-consulta"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "casos/11-espaco-e-usos-criativos.md",
+    "antes": "../referencias.md",
+    "depois": "referencias.html"
+  },
+  {
+    "fonte": "casos/14-o-aviso-de-reabertura.md",
+    "antes": "../03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "casos/14-o-aviso-de-reabertura.md",
+    "antes": "../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta",
+    "depois": "capitulo-01.html#as-batidas-no-anexo-preparo-para-consulta"
+  },
+  {
+    "fonte": "casos/14-o-aviso-de-reabertura.md",
+    "antes": "../01-sua-primeira-missao.md#amontoado-do-deposito",
+    "depois": "capitulo-01.html#amontoado-do-deposito"
+  },
+  {
+    "fonte": "casos/14-o-aviso-de-reabertura.md",
+    "antes": "../05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "../01-sua-primeira-missao.md#15-jogue-a-missao",
+    "depois": "capitulo-01.html#15-jogue-a-missao"
+  },
+  {
+    "fonte": "casos/14-tres-maldicoes-para-a-missao.md",
+    "antes": "57-avaliar-o-encontro-do-amontoado.md",
+    "depois": "caso-57-avaliar-o-encontro-do-amontoado.html"
+  },
+  {
+    "fonte": "casos/22-quedas-e-socorro.md",
+    "antes": "../consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "casos/22-quedas-e-socorro.md",
+    "antes": "../01-sua-primeira-missao.md#15-jogue-a-missao",
+    "depois": "capitulo-01.html#15-jogue-a-missao"
+  },
+  {
+    "fonte": "casos/22-quedas-e-socorro.md",
+    "antes": "../01-sua-primeira-missao.md#15-jogue-a-missao",
+    "depois": "capitulo-01.html#15-jogue-a-missao"
+  },
+  {
+    "fonte": "casos/22-quedas-e-socorro.md",
+    "antes": "23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "../consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "../consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "22-quedas-e-socorro.md#exemplo-duas-quedas-no-mesmo-combate",
+    "depois": "caso-22-quedas-e-socorro.html#exemplo-duas-quedas-no-mesmo-combate"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados",
+    "depois": "capitulo-07.html#72-personagens-e-seus-cuidados"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "91-restricao-corporal-e-cuidados.md",
+    "depois": "caso-91-restricao-corporal-e-cuidados.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "casos/23-retirada-e-recuperacao.md",
+    "antes": "../consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "casos/27-convivencia-do-receptaculo.md",
+    "antes": "../07-personagens-e-tecnicas.md#a-outra-voz-do-receptaculo",
+    "depois": "capitulo-07.html#a-outra-voz-do-receptaculo"
+  },
+  {
+    "fonte": "casos/27-convivencia-do-receptaculo.md",
+    "antes": "../consultas/28-ficha-de-convivencia.md",
+    "depois": "consulta-28-ficha-de-convivencia.html"
+  },
+  {
+    "fonte": "casos/27-convivencia-do-receptaculo.md",
+    "antes": "../consultas/28-ficha-de-convivencia.md",
+    "depois": "consulta-28-ficha-de-convivencia.html"
+  },
+  {
+    "fonte": "casos/30-pareceres-de-criacoes.md",
+    "antes": "95-efeitos-de-cena-e-cancelamento.md",
+    "depois": "caso-95-efeitos-de-cena-e-cancelamento.html"
+  },
+  {
+    "fonte": "casos/30-pareceres-de-criacoes.md",
+    "antes": "89-vida-rolada-e-familia-propria.md",
+    "depois": "caso-89-vida-rolada-e-familia-propria.html"
+  },
+  {
+    "fonte": "casos/30-pareceres-de-criacoes.md",
+    "antes": "94-compras-repetidas-e-restricoes.md",
+    "depois": "caso-94-compras-repetidas-e-restricoes.html"
+  },
+  {
+    "fonte": "casos/31-avaliar-poderes-avancados.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "casos/31-avaliar-poderes-avancados.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/31-avaliar-poderes-avancados.md",
+    "antes": "91-restricao-corporal-e-cuidados.md",
+    "depois": "caso-91-restricao-corporal-e-cuidados.html"
+  },
+  {
+    "fonte": "casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "93-ampliar-mesclas-e-trocar-formas.md",
+    "depois": "caso-93-ampliar-mesclas-e-trocar-formas.html"
+  },
+  {
+    "fonte": "casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "94-compras-repetidas-e-restricoes.md",
+    "depois": "caso-94-compras-repetidas-e-restricoes.html"
+  },
+  {
+    "fonte": "casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "95-efeitos-de-cena-e-cancelamento.md",
+    "depois": "caso-95-efeitos-de-cena-e-cancelamento.html"
+  },
+  {
+    "fonte": "casos/33-casos-especificos-de-avaliacao.md",
+    "antes": "../consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "depois": "consulta-92-reserva-condensada-proposta-e-comparacao.html"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "../consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "36-ferramentas-objetos-e-contencao.md",
+    "depois": "caso-36-ferramentas-objetos-e-contencao.html"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "../08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "casos/34-oficios-fabricacao-e-reparos.md",
+    "antes": "90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "casos/36-ferramentas-objetos-e-contencao.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "casos/36-ferramentas-objetos-e-contencao.md",
+    "antes": "96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "casos/36-ferramentas-objetos-e-contencao.md",
+    "antes": "98-objeto-selado-e-risco-de-ingestao.md",
+    "depois": "caso-98-objeto-selado-e-risco-de-ingestao.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "../09-pactos-e-entidades.md#94-obter-uma-entidade",
+    "depois": "capitulo-09.html#94-obter-uma-entidade"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "51-ritual-do-cao-de-sombra.md",
+    "depois": "caso-51-ritual-do-cao-de-sombra.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "14-tres-maldicoes-para-a-missao.md",
+    "depois": "caso-14-tres-maldicoes-para-a-missao.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "../consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "../08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "../08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "antes": "../consultas/40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "antes": "45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "antes": "43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "antes": "../consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "antes": "55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "antes": "../consultas/42-registro-de-pactos-e-promessas.md",
+    "depois": "consulta-42-registro-de-pactos-e-promessas.html"
+  },
+  {
+    "fonte": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "antes": "48-pacifismo-impraticavel-minuta.md",
+    "depois": "caso-48-pacifismo-impraticavel-minuta.html"
+  },
+  {
+    "fonte": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "antes": "49-liberacao-irregular-minuta.md",
+    "depois": "caso-49-liberacao-irregular-minuta.html"
+  },
+  {
+    "fonte": "casos/50-promessa-do-arquivo.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "casos/52-domar-o-amontoado.md",
+    "antes": "../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta",
+    "depois": "capitulo-01.html#as-batidas-no-anexo-preparo-para-consulta"
+  },
+  {
+    "fonte": "casos/52-domar-o-amontoado.md",
+    "antes": "14-tres-maldicoes-para-a-missao.md",
+    "depois": "caso-14-tres-maldicoes-para-a-missao.html"
+  },
+  {
+    "fonte": "casos/54-transporte-e-continuidade-das-entidades.md",
+    "antes": "52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "antes": "45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "antes": "45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "antes": "46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "casos/57-avaliar-o-encontro-do-amontoado.md",
+    "antes": "../01-sua-primeira-missao.md#as-batidas-no-anexo-preparo-para-consulta",
+    "depois": "capitulo-01.html#as-batidas-no-anexo-preparo-para-consulta"
+  },
+  {
+    "fonte": "casos/57-avaliar-o-encontro-do-amontoado.md",
+    "antes": "14-tres-maldicoes-para-a-missao.md",
+    "depois": "caso-14-tres-maldicoes-para-a-missao.html"
+  },
+  {
+    "fonte": "casos/57-avaliar-o-encontro-do-amontoado.md",
+    "antes": "../consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "casos/57-avaliar-o-encontro-do-amontoado.md",
+    "antes": "52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "../06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "../consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "depois": "consulta-61-ficha-de-habilidade-de-inimigo.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "101-haru-vigia-e-tessa.md",
+    "depois": "caso-101-haru-vigia-e-tessa.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "59-recursos-e-ritmo-dos-inimigos.md",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "../consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "depois": "consulta-61-ficha-de-habilidade-de-inimigo.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "59-recursos-e-ritmo-dos-inimigos.md#atacar-ou-se-proteger",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html#atacar-ou-se-proteger"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "59-recursos-e-ritmo-dos-inimigos.md#qual-limite-de-uso-escolher",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html#qual-limite-de-uso-escolher"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/60-montar-habilidades-de-inimigos.md",
+    "antes": "59-recursos-e-ritmo-dos-inimigos.md#atacar-ou-se-proteger",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html#atacar-ou-se-proteger"
+  },
+  {
+    "fonte": "casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "antes": "60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/63-carregador-consulta-e-doma.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/63-carregador-consulta-e-doma.md",
+    "antes": "54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "casos/64-a-passarela-e-o-guincho.md",
+    "antes": "84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "antes": "64-a-passarela-e-o-guincho.md",
+    "depois": "caso-64-a-passarela-e-o-guincho.html"
+  },
+  {
+    "fonte": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "antes": "66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "65-comparar-confronto-e-pressao-ambiental.md",
+    "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "antes": "../06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "antes": "68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "antes": "102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "antes": "66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "67-preparar-chefes-e-confrontos-maiores.md",
+    "depois": "caso-67-preparar-chefes-e-confrontos-maiores.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "65-comparar-confronto-e-pressao-ambiental.md",
+    "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/71-sineiro-do-recolhimento.md",
+    "antes": "72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/71-sineiro-do-recolhimento.md",
+    "antes": "72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/71-sineiro-do-recolhimento.md",
+    "antes": "74-regua-inicial-de-inimigos.md#vida-e-tempo-para-agir",
+    "depois": "caso-74-regua-inicial-de-inimigos.html#vida-e-tempo-para-agir"
+  },
+  {
+    "fonte": "casos/71-sineiro-do-recolhimento.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "casos/72-sineiro-consulta-e-doma.md",
+    "antes": "71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "casos/72-sineiro-consulta-e-doma.md",
+    "antes": "63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/72-sineiro-consulta-e-doma.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "casos/73-ensaio-guiado-do-sineiro.md",
+    "antes": "71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "casos/73-ensaio-guiado-do-sineiro.md",
+    "antes": "72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "casos/73-ensaio-guiado-do-sineiro.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "../06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "100-comparar-inimigos-em-outras-faixas.md#capacidades-mudam-a-comparacao",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html#capacidades-mudam-a-comparacao"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "59-recursos-e-ritmo-dos-inimigos.md",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/74-regua-inicial-de-inimigos.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/75-ren-e-sora-atacante-e-apoio.md",
+    "antes": "74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/75-ren-e-sora-atacante-e-apoio.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/76-confronto-de-ren-e-sora.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/76-confronto-de-ren-e-sora.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md#personagens-usados",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html#personagens-usados"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md#personagens-usados",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html#personagens-usados"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "antes": "76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "../consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "64-a-passarela-e-o-guincho.md",
+    "depois": "caso-64-a-passarela-e-o-guincho.html"
+  },
+  {
+    "fonte": "casos/78-preparar-perigos-ambientais.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/79-o-po-na-sala-de-conservacao.md",
+    "antes": "78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "casos/79-o-po-na-sala-de-conservacao.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "casos/79-o-po-na-sala-de-conservacao.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md#personagens-usados",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html#personagens-usados"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "../consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "../consultas/24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "../consultas/A2-conduzir-a-sessao.md",
+    "depois": "consulta-A2-conduzir-a-sessao.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "../consultas/38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "casos/81-passar-a-missao-entre-mestres.md",
+    "antes": "../08-entre-missoes.md#86-recompensas-e-progressao",
+    "depois": "capitulo-08.html#86-recompensas-e-progressao"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "../consultas/A2-conduzir-a-sessao.md",
+    "depois": "consulta-A2-conduzir-a-sessao.html"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "../09-pactos-e-entidades.md#testar-e-ajudar",
+    "depois": "capitulo-09.html#testar-e-ajudar"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "../consultas/16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "antes": "../referencias.md",
+    "depois": "referencias.html"
+  },
+  {
+    "fonte": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "antes": "../04-na-mesa-de-jogo.md#44-conduzir-uma-investigacao",
+    "depois": "capitulo-04.html#44-conduzir-uma-investigacao"
+  },
+  {
+    "fonte": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "antes": "../consultas/12-registro-de-descobertas.md",
+    "depois": "consulta-12-registro-de-descobertas.html"
+  },
+  {
+    "fonte": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "antes": "../referencias.md",
+    "depois": "referencias.html"
+  },
+  {
+    "fonte": "casos/84-percursos-apoios-e-quedas.md",
+    "antes": "11-espaco-e-usos-criativos.md",
+    "depois": "caso-11-espaco-e-usos-criativos.html"
+  },
+  {
+    "fonte": "casos/84-percursos-apoios-e-quedas.md",
+    "antes": "64-a-passarela-e-o-guincho.md",
+    "depois": "caso-64-a-passarela-e-o-guincho.html"
+  },
+  {
+    "fonte": "casos/84-percursos-apoios-e-quedas.md",
+    "antes": "22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "casos/84-percursos-apoios-e-quedas.md",
+    "antes": "../referencias.md",
+    "depois": "referencias.html"
+  },
+  {
+    "fonte": "casos/84-percursos-apoios-e-quedas.md",
+    "antes": "85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "11-espaco-e-usos-criativos.md",
+    "depois": "caso-11-espaco-e-usos-criativos.html"
+  },
+  {
+    "fonte": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "antes": "../referencias.md",
+    "depois": "referencias.html"
+  },
+  {
+    "fonte": "casos/89-vida-rolada-e-familia-propria.md",
+    "antes": "../07-personagens-e-tecnicas.md#ao-subir-de-nivel",
+    "depois": "capitulo-07.html#ao-subir-de-nivel"
+  },
+  {
+    "fonte": "casos/89-vida-rolada-e-familia-propria.md",
+    "antes": "../consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "depois": "consulta-32-ficha-de-avaliacao-de-capacidade.html"
+  },
+  {
+    "fonte": "casos/91-restricao-corporal-e-cuidados.md",
+    "antes": "53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "casos/95-efeitos-de-cena-e-cancelamento.md",
+    "antes": "53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "casos/95-efeitos-de-cena-e-cancelamento.md",
+    "antes": "31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "casos/97-emprestimo-familiar-e-negociacao.md",
+    "antes": "96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "antes": "96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "casos/99-limiar-feitos-e-promocao.md",
+    "antes": "../07-personagens-e-tecnicas.md#ao-subir-de-nivel",
+    "depois": "capitulo-07.html#ao-subir-de-nivel"
+  },
+  {
+    "fonte": "consultas/02-ficha-de-preparacao.md",
+    "antes": "../03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "consultas/02-ficha-de-preparacao.md",
+    "antes": "../01-sua-primeira-missao.md",
+    "depois": "capitulo-01.html"
+  },
+  {
+    "fonte": "consultas/02-ficha-de-preparacao.md",
+    "antes": "LEIA-ME.md",
+    "depois": "folhas.html"
+  },
+  {
+    "fonte": "consultas/02-ficha-de-preparacao.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/02-ficha-de-preparacao.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "02-ficha-de-preparacao.md",
+    "depois": "consulta-02-ficha-de-preparacao.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../04-na-mesa-de-jogo.md#44-conduzir-uma-investigacao",
+    "depois": "capitulo-04.html#44-conduzir-uma-investigacao"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/11-espaco-e-usos-criativos.md",
+    "depois": "caso-11-espaco-e-usos-criativos.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "12-registro-de-descobertas.md",
+    "depois": "consulta-12-registro-de-descobertas.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada",
+    "depois": "capitulo-04.html#47-combate-socorro-e-retirada"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/05-folha-de-conducao.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/08-ficha-de-acordos-do-grupo.md",
+    "antes": "../05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "consultas/12-registro-de-descobertas.md",
+    "antes": "02-ficha-de-preparacao.md",
+    "depois": "consulta-02-ficha-de-preparacao.html"
+  },
+  {
+    "fonte": "consultas/12-registro-de-descobertas.md",
+    "antes": "../casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "consultas/12-registro-de-descobertas.md",
+    "antes": "../01-sua-primeira-missao.md",
+    "depois": "capitulo-01.html"
+  },
+  {
+    "fonte": "consultas/16-linha-de-continuidade.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/16-linha-de-continuidade.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/16-linha-de-continuidade.md",
+    "antes": "LEIA-ME.md",
+    "depois": "folhas.html"
+  },
+  {
+    "fonte": "consultas/20-ficha-de-faccao.md",
+    "antes": "02-ficha-de-preparacao.md",
+    "depois": "consulta-02-ficha-de-preparacao.html"
+  },
+  {
+    "fonte": "consultas/20-ficha-de-faccao.md",
+    "antes": "../05-criar-uma-campanha.md",
+    "depois": "capitulo-05.html"
+  },
+  {
+    "fonte": "consultas/20-ficha-de-faccao.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/24-registro-de-estado-e-socorro.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "consultas/24-registro-de-estado-e-socorro.md",
+    "antes": "../casos/22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/24-registro-de-estado-e-socorro.md",
+    "antes": "../casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "consultas/24-registro-de-estado-e-socorro.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/24-registro-de-estado-e-socorro.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/28-ficha-de-convivencia.md",
+    "antes": "08-ficha-de-acordos-do-grupo.md",
+    "depois": "consulta-08-ficha-de-acordos-do-grupo.html"
+  },
+  {
+    "fonte": "consultas/32-ficha-de-avaliacao-de-capacidade.md",
+    "antes": "../casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "consultas/38-ficha-de-projeto-e-entrega.md",
+    "antes": "../casos/96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "consultas/40-registro-de-dedicacao-por-ficha.md",
+    "antes": "../08-entre-missoes.md#82-tempo-para-as-atividades",
+    "depois": "capitulo-08.html#82-tempo-para-as-atividades"
+  },
+  {
+    "fonte": "consultas/42-registro-de-pactos-e-promessas.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "consultas/42-registro-de-pactos-e-promessas.md",
+    "antes": "../casos/50-promessa-do-arquivo.md",
+    "depois": "caso-50-promessa-do-arquivo.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/51-ritual-do-cao-de-sombra.md",
+    "depois": "caso-51-ritual-do-cao-de-sombra.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "antes": "../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "../06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "../casos/77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "61-ficha-de-habilidade-de-inimigo.md",
+    "depois": "consulta-61-ficha-de-habilidade-de-inimigo.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "../casos/78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "../casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "../casos/68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "consultas/58-ficha-de-inimigo-e-encontro.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "antes": "58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "antes": "../casos/60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "antes": "../casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "consultas/61-ficha-de-habilidade-de-inimigo.md",
+    "antes": "../casos/63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md",
+    "depois": "capitulo-02.html"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../08-entre-missoes.md#84-comprar-emprestar-e-contratar",
+    "depois": "capitulo-08.html#84-comprar-emprestar-e-contratar"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens",
+    "depois": "capitulo-05.html#52-vinculos-e-interesses-dos-personagens"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../03-preparar-aventuras.md#34-pistas-e-investigacoes",
+    "depois": "capitulo-03.html#34-pistas-e-investigacoes"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "../07-personagens-e-tecnicas.md#71-conferir-a-ficha",
+    "depois": "capitulo-07.html#71-conferir-a-ficha"
+  },
+  {
+    "fonte": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "12-registro-de-descobertas.md",
+    "depois": "consulta-12-registro-de-descobertas.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md",
+    "depois": "capitulo-02.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos",
+    "depois": "capitulo-02.html#23-escolas-familias-e-contatos"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../05-criar-uma-campanha.md#51-a-sessao-zero",
+    "depois": "capitulo-05.html#51-a-sessao-zero"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens",
+    "depois": "capitulo-05.html#52-vinculos-e-interesses-dos-personagens"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../05-criar-uma-campanha.md#54-faccoes",
+    "depois": "capitulo-05.html#54-faccoes"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "87-casos-da-obra-para-preparar-situacoes.md",
+    "depois": "apendice-d.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md",
+    "depois": "capitulo-02.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos",
+    "depois": "capitulo-02.html#23-escolas-familias-e-contatos"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens",
+    "depois": "capitulo-05.html#52-vinculos-e-interesses-dos-personagens"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "08-ficha-de-acordos-do-grupo.md",
+    "depois": "consulta-08-ficha-de-acordos-do-grupo.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos",
+    "depois": "capitulo-02.html#23-escolas-familias-e-contatos"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md#24-diferentes-formas-de-viver",
+    "depois": "capitulo-02.html#24-diferentes-formas-de-viver"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#71-conferir-a-ficha",
+    "depois": "capitulo-07.html#71-conferir-a-ficha"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md#24-diferentes-formas-de-viver",
+    "depois": "capitulo-02.html#24-diferentes-formas-de-viver"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados",
+    "depois": "capitulo-07.html#72-personagens-e-seus-cuidados"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados",
+    "depois": "capitulo-07.html#72-personagens-e-seus-cuidados"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#71-conferir-a-ficha",
+    "depois": "capitulo-07.html#71-conferir-a-ficha"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens",
+    "depois": "capitulo-05.html#52-vinculos-e-interesses-dos-personagens"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../02-o-mundo-dos-feiticeiros.md",
+    "depois": "capitulo-02.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada",
+    "depois": "capitulo-04.html#47-combate-socorro-e-retirada"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada",
+    "depois": "capitulo-04.html#47-combate-socorro-e-retirada"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#71-conferir-a-ficha",
+    "depois": "capitulo-07.html#71-conferir-a-ficha"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/33-casos-especificos-de-avaliacao.md#definir-os-limites-de-uma-cortina",
+    "depois": "caso-33-casos-especificos-de-avaliacao.html#definir-os-limites-de-uma-cortina"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/31-avaliar-poderes-avancados.md#dominio-aparencia-acerto-e-efeito",
+    "depois": "caso-31-avaliar-poderes-avancados.html#dominio-aparencia-acerto-e-efeito"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade",
+    "depois": "capitulo-07.html#74-avaliar-uma-capacidade"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../08-entre-missoes.md#84-comprar-emprestar-e-contratar",
+    "depois": "capitulo-08.html#84-comprar-emprestar-e-contratar"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../08-entre-missoes.md#84-comprar-emprestar-e-contratar",
+    "depois": "capitulo-08.html#84-comprar-emprestar-e-contratar"
+  },
+  {
+    "fonte": "consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "../08-entre-missoes.md#86-recompensas-e-progressao",
+    "depois": "capitulo-08.html#86-recompensas-e-progressao"
+  },
+  {
+    "fonte": "consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "antes": "../casos/33-casos-especificos-de-avaliacao.md",
+    "depois": "caso-33-casos-especificos-de-avaliacao.html"
+  },
+  {
+    "fonte": "consultas/A1-exemplo-despedida.md",
+    "antes": "../03-preparar-aventuras.md#antes-que-o-trem-parta",
+    "depois": "capitulo-03.html#antes-que-o-trem-parta"
+  },
+  {
+    "fonte": "consultas/A1-exemplo-despedida.md",
+    "antes": "../04-na-mesa-de-jogo.md#43-interpretar-e-negociar",
+    "depois": "capitulo-04.html#43-interpretar-e-negociar"
+  },
+  {
+    "fonte": "consultas/A1-preparar-a-missao.md",
+    "antes": "../03-preparar-aventuras.md",
+    "depois": "capitulo-03.html"
+  },
+  {
+    "fonte": "consultas/A1-preparar-a-missao.md",
+    "antes": "02-ficha-de-preparacao.md",
+    "depois": "consulta-02-ficha-de-preparacao.html"
+  },
+  {
+    "fonte": "consultas/A1-preparar-a-missao.md",
+    "antes": "A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "consultas/A1-preparar-a-missao.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada",
+    "depois": "capitulo-04.html#47-combate-socorro-e-retirada"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/A2-conduzir-a-sessao.md",
+    "antes": "A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "../10-jogar-em-guilda.md#103-continuar-com-outro-mestre",
+    "depois": "capitulo-10.html#103-continuar-com-outro-mestre"
+  },
+  {
+    "fonte": "consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "../casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "../casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/A4-exemplo-sala-de-conservacao.md",
+    "antes": "../casos/73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "consultas/A4-retomar-a-missao.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/A4-retomar-a-missao.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "A1-preparar-a-missao.md",
+    "depois": "consulta-A1-preparar-a-missao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "02-ficha-de-preparacao.md",
+    "depois": "consulta-02-ficha-de-preparacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "A2-conduzir-a-sessao.md",
+    "depois": "consulta-A2-conduzir-a-sessao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "A4-retomar-a-missao.md",
+    "depois": "consulta-A4-retomar-a-missao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "16-linha-de-continuidade.md",
+    "depois": "consulta-16-linha-de-continuidade.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "12-registro-de-descobertas.md",
+    "depois": "consulta-12-registro-de-descobertas.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "08-ficha-de-acordos-do-grupo.md",
+    "depois": "consulta-08-ficha-de-acordos-do-grupo.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "20-ficha-de-faccao.md",
+    "depois": "consulta-20-ficha-de-faccao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "28-ficha-de-convivencia.md",
+    "depois": "consulta-28-ficha-de-convivencia.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "32-ficha-de-avaliacao-de-capacidade.md",
+    "depois": "consulta-32-ficha-de-avaliacao-de-capacidade.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "38-ficha-de-projeto-e-entrega.md",
+    "depois": "consulta-38-ficha-de-projeto-e-entrega.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "40-registro-de-dedicacao-por-ficha.md",
+    "depois": "consulta-40-registro-de-dedicacao-por-ficha.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "42-registro-de-pactos-e-promessas.md",
+    "depois": "consulta-42-registro-de-pactos-e-promessas.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "depois": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "61-ficha-de-habilidade-de-inimigo.md",
+    "depois": "consulta-61-ficha-de-habilidade-de-inimigo.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "A1-exemplo-despedida.md",
+    "depois": "consulta-A1-exemplo-despedida.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "A4-exemplo-sala-de-conservacao.md",
+    "depois": "consulta-A4-exemplo-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../07-personagens-e-tecnicas.md",
+    "depois": "capitulo-07.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../08-entre-missoes.md",
+    "depois": "capitulo-08.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../10-jogar-em-guilda.md",
+    "depois": "capitulo-10.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../indice-de-casos.md",
+    "depois": "casos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/14-o-aviso-de-reabertura.md",
+    "depois": "caso-14-o-aviso-de-reabertura.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/11-espaco-e-usos-criativos.md",
+    "depois": "caso-11-espaco-e-usos-criativos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "24-registro-de-estado-e-socorro.md",
+    "depois": "consulta-24-registro-de-estado-e-socorro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "depois": "caso-67-preparar-chefes-e-confrontos-maiores.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/57-avaliar-o-encontro-do-amontoado.md",
+    "depois": "caso-57-avaliar-o-encontro-do-amontoado.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/64-a-passarela-e-o-guincho.md",
+    "depois": "caso-64-a-passarela-e-o-guincho.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/101-haru-vigia-e-tessa.md",
+    "depois": "caso-101-haru-vigia-e-tessa.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/91-restricao-corporal-e-cuidados.md",
+    "depois": "caso-91-restricao-corporal-e-cuidados.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/33-casos-especificos-de-avaliacao.md",
+    "depois": "caso-33-casos-especificos-de-avaliacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "depois": "caso-93-ampliar-mesclas-e-trocar-formas.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/94-compras-repetidas-e-restricoes.md",
+    "depois": "caso-94-compras-repetidas-e-restricoes.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/95-efeitos-de-cena-e-cancelamento.md",
+    "depois": "caso-95-efeitos-de-cena-e-cancelamento.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/34-oficios-fabricacao-e-reparos.md",
+    "depois": "caso-34-oficios-fabricacao-e-reparos.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/36-ferramentas-objetos-e-contencao.md",
+    "depois": "caso-36-ferramentas-objetos-e-contencao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/97-emprestimo-familiar-e-negociacao.md",
+    "depois": "caso-97-emprestimo-familiar-e-negociacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "depois": "caso-98-objeto-selado-e-risco-de-ingestao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/99-limiar-feitos-e-promocao.md",
+    "depois": "caso-99-limiar-feitos-e-promocao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "depois": "caso-47-desenvolver-uma-ideia-de-pacto.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/48-pacifismo-impraticavel-minuta.md",
+    "depois": "caso-48-pacifismo-impraticavel-minuta.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/49-liberacao-irregular-minuta.md",
+    "depois": "caso-49-liberacao-irregular-minuta.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/50-promessa-do-arquivo.md",
+    "depois": "caso-50-promessa-do-arquivo.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/51-ritual-do-cao-de-sombra.md",
+    "depois": "caso-51-ritual-do-cao-de-sombra.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/99-limiar-feitos-e-promocao.md",
+    "depois": "caso-99-limiar-feitos-e-promocao.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/50-promessa-do-arquivo.md",
+    "depois": "caso-50-promessa-do-arquivo.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "consultas/LEIA-ME.md",
+    "antes": "../casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "04-na-mesa-de-jogo.md",
+    "depois": "capitulo-04.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/14-o-aviso-de-reabertura.md",
+    "depois": "caso-14-o-aviso-de-reabertura.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+    "depois": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/83-perceber-procurar-e-interpretar-sinais.md",
+    "depois": "caso-83-perceber-procurar-e-interpretar-sinais.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/11-espaco-e-usos-criativos.md",
+    "depois": "caso-11-espaco-e-usos-criativos.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/84-percursos-apoios-e-quedas.md",
+    "depois": "caso-84-percursos-apoios-e-quedas.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/85-trajetorias-ferramentas-e-improvisacao.md",
+    "depois": "caso-85-trajetorias-ferramentas-e-improvisacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/22-quedas-e-socorro.md",
+    "depois": "caso-22-quedas-e-socorro.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/23-retirada-e-recuperacao.md",
+    "depois": "caso-23-retirada-e-recuperacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/81-passar-a-missao-entre-mestres.md",
+    "depois": "caso-81-passar-a-missao-entre-mestres.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "06-inimigos-e-perigos.md",
+    "depois": "capitulo-06.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/14-tres-maldicoes-para-a-missao.md",
+    "depois": "caso-14-tres-maldicoes-para-a-missao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/60-montar-habilidades-de-inimigos.md",
+    "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/74-regua-inicial-de-inimigos.md",
+    "depois": "caso-74-regua-inicial-de-inimigos.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/100-comparar-inimigos-em-outras-faixas.md",
+    "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/67-preparar-chefes-e-confrontos-maiores.md",
+    "depois": "caso-67-preparar-chefes-e-confrontos-maiores.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/78-preparar-perigos-ambientais.md",
+    "depois": "caso-78-preparar-perigos-ambientais.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/57-avaliar-o-encontro-do-amontoado.md",
+    "depois": "caso-57-avaliar-o-encontro-do-amontoado.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/62-o-carregador-e-o-corredor-de-entulho.md",
+    "depois": "caso-62-o-carregador-e-o-corredor-de-entulho.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/63-carregador-consulta-e-doma.md",
+    "depois": "caso-63-carregador-consulta-e-doma.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/64-a-passarela-e-o-guincho.md",
+    "depois": "caso-64-a-passarela-e-o-guincho.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/65-comparar-confronto-e-pressao-ambiental.md",
+    "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/66-o-carregador-e-a-saida-que-fecha.md",
+    "depois": "caso-66-o-carregador-e-a-saida-que-fecha.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/72-sineiro-consulta-e-doma.md",
+    "depois": "caso-72-sineiro-consulta-e-doma.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/73-ensaio-guiado-do-sineiro.md",
+    "depois": "caso-73-ensaio-guiado-do-sineiro.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/75-ren-e-sora-atacante-e-apoio.md",
+    "depois": "caso-75-ren-e-sora-atacante-e-apoio.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/76-confronto-de-ren-e-sora.md",
+    "depois": "caso-76-confronto-de-ren-e-sora.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/101-haru-vigia-e-tessa.md",
+    "depois": "caso-101-haru-vigia-e-tessa.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+    "depois": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/79-o-po-na-sala-de-conservacao.md",
+    "depois": "caso-79-o-po-na-sala-de-conservacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/103-a-febre-dos-fios.md",
+    "depois": "caso-103-a-febre-dos-fios.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/77-ficha-preenchida-ren-e-sora.md",
+    "depois": "caso-77-ficha-preenchida-ren-e-sora.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/68-ficha-e-comparacao-de-chefes.md",
+    "depois": "caso-68-ficha-e-comparacao-de-chefes.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "07-personagens-e-tecnicas.md",
+    "depois": "capitulo-07.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/27-convivencia-do-receptaculo.md",
+    "depois": "caso-27-convivencia-do-receptaculo.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/89-vida-rolada-e-familia-propria.md",
+    "depois": "caso-89-vida-rolada-e-familia-propria.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/90-reparar-personagem-de-corpo-construido.md",
+    "depois": "caso-90-reparar-personagem-de-corpo-construido.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/91-restricao-corporal-e-cuidados.md",
+    "depois": "caso-91-restricao-corporal-e-cuidados.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/30-pareceres-de-criacoes.md",
+    "depois": "caso-30-pareceres-de-criacoes.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/31-avaliar-poderes-avancados.md",
+    "depois": "caso-31-avaliar-poderes-avancados.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/33-casos-especificos-de-avaliacao.md",
+    "depois": "caso-33-casos-especificos-de-avaliacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/93-ampliar-mesclas-e-trocar-formas.md",
+    "depois": "caso-93-ampliar-mesclas-e-trocar-formas.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/94-compras-repetidas-e-restricoes.md",
+    "depois": "caso-94-compras-repetidas-e-restricoes.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/95-efeitos-de-cena-e-cancelamento.md",
+    "depois": "caso-95-efeitos-de-cena-e-cancelamento.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "consultas/92-reserva-condensada-proposta-e-comparacao.md",
+    "depois": "consulta-92-reserva-condensada-proposta-e-comparacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "08-entre-missoes.md",
+    "depois": "capitulo-08.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/34-oficios-fabricacao-e-reparos.md",
+    "depois": "caso-34-oficios-fabricacao-e-reparos.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/36-ferramentas-objetos-e-contencao.md",
+    "depois": "caso-36-ferramentas-objetos-e-contencao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/96-fabricar-e-identificar-o-anel.md",
+    "depois": "caso-96-fabricar-e-identificar-o-anel.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/97-emprestimo-familiar-e-negociacao.md",
+    "depois": "caso-97-emprestimo-familiar-e-negociacao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/98-objeto-selado-e-risco-de-ingestao.md",
+    "depois": "caso-98-objeto-selado-e-risco-de-ingestao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/99-limiar-feitos-e-promocao.md",
+    "depois": "caso-99-limiar-feitos-e-promocao.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "09-pactos-e-entidades.md",
+    "depois": "capitulo-09.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/47-desenvolver-uma-ideia-de-pacto.md",
+    "depois": "caso-47-desenvolver-uma-ideia-de-pacto.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/48-pacifismo-impraticavel-minuta.md",
+    "depois": "caso-48-pacifismo-impraticavel-minuta.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/49-liberacao-irregular-minuta.md",
+    "depois": "caso-49-liberacao-irregular-minuta.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/50-promessa-do-arquivo.md",
+    "depois": "caso-50-promessa-do-arquivo.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/43-aquisicao-e-projetos-de-entidades.md",
+    "depois": "caso-43-aquisicao-e-projetos-de-entidades.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/45-tempo-materiais-e-retomada-de-entidades.md",
+    "depois": "caso-45-tempo-materiais-e-retomada-de-entidades.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/46-reconstruir-transferir-e-herdar-entidades.md",
+    "depois": "caso-46-reconstruir-transferir-e-herdar-entidades.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/51-ritual-do-cao-de-sombra.md",
+    "depois": "caso-51-ritual-do-cao-de-sombra.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/52-domar-o-amontoado.md",
+    "depois": "caso-52-domar-o-amontoado.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/53-construir-e-evoluir-o-escriba.md",
+    "depois": "caso-53-construir-e-evoluir-o-escriba.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/54-transporte-e-continuidade-das-entidades.md",
+    "depois": "caso-54-transporte-e-continuidade-das-entidades.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "depois": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html"
+  },
+  {
+    "fonte": "referencias.md",
+    "antes": "consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "depois": "apendice-d.html"
+  }
+]

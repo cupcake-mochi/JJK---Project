@@ -1,30 +1,34 @@
 # Guia do Mestre de Ciclo Maldito
 
-Salvamento de 30 de outubro de 2026, concluído até o **registro 141**. A edição integrada de leitura está montada. Nesta passagem contínua, a abertura e os capítulos 1–8 foram revistos junto dos exemplos pertinentes. A próxima tarefa é **capítulo 9, Pactos e entidades**, com seus exemplos e folhas de consulta.
+Salvamento de **31/10/2026**, até o registro editorial **147**, com retomada preparada no **148**. A fila editorial principal está concluída. O próximo trabalho é o **plano de avaliação da dificuldade dos encontros**, conforme o planejamento.
 
-- [Retomada atual](PROMPT-CONTINUAR-2026-10-30.txt)
-- [Edição de leitura vigente](<07 - Edicao de Leitura/edicao-integrada-136/index.html>)
-- [Último capítulo revisado](<07 - Edicao de Leitura/edicao-integrada-136/capitulo-08.html>)
-- [Registro 141 e conferências](<04 - Planejamento/141-leitura-de-atividades-e-recompensas.md>)
-- [Planejamento de melhoria](<04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md>)
-- [PDF integrado anterior, 357 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>)
+- [Retomada para a nuvem](RETOMADA-NUVEM-2026-10-31.txt)
+- [PDF vigente — 383 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf>)
+- [Folhas para impressão — seis páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa-Impressao.pdf>)
+- [Edição HTML vigente](<07 - Edicao de Leitura/edicao-integrada-136/index.html>)
+- [Últimos ajustes e conferências](<04 - Planejamento/147-ajustes-de-consulta-e-leitura.md>)
+- [Comparação com outros guias](<04 - Planejamento/146-comparacao-final-e-proximos-ajustes.md>)
+- [Plano vigente](<04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md>)
+- [Salvamento e continuidade](<04 - Planejamento/148-salvamento-e-retomada-na-nuvem.md>)
 
-## Estado e o que falta
+## O que foi concluído
 
-Os 59 casos e as 17 consultas complementares receberam revisão local nos registros anteriores; o conjunto foi conferido no 135 e integrado no 136. A passagem contínua avançou pelos capítulos 1–8 nos registros 137–141, com ajustes em suas fontes e exemplos. O gerador vigente está em `04 - Planejamento/apoio-leitura-141/GERAR-LEITURA.py`. As pastas de produção e leitura continuam com o nome `edicao-integrada-136`.
+Os 59 casos, 17 consultas e o núcleo do livro foram revistos e integrados. A leitura contínua das 99 fontes foi fechada nos registros 137–144; o PDF e a revisão visual foram concluídos no 145; a comparação editorial foi feita no 146. O registro 147 adiantou as folhas curtas, distinguiu falas e comentários e reduziu avisos repetidos. As alterações tiveram duas passagens dirigidas e o PDF recomposto teve todas as páginas examinadas em 43 painéis, com 12 ampliações selecionadas. Não houve teste humano ou validação geral de equilíbrio.
 
-Ainda faltam capítulos 9–10 e os apoios pertinentes nesta passagem, conferência final do conjunto, composição do PDF completo novo, revisão visual de todas as páginas e comparação final com o livro base e os outros guias. O PDF de 357 páginas é anterior à integração atual e não incorpora os últimos ajustes; as provas parciais também não substituem a revisão global. Não foi declarado teste com jogadores nem equilíbrio certificado.
+As fontes e o HTML mantêm a pasta `edicao-integrada-136`. Os geradores vigentes ficam em `04 - Planejamento/apoio-editorial-147`. Não reaplicar os preparadores de fontes de registros antigos. Os PDFs anteriores permanecem disponíveis como histórico.
 
-## Produção e cópia Git
+## Continuidade na nuvem
 
-Produção principal: `/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/`. Esta pasta não é um checkout. Cópia Git: `/home/mizuki/CHAT-GPT/salvamentos/guia-do-mestre-2026-10-23/repositorio/guia-do-mestre/`, branch `codex/guia-do-mestre-pre-1-2026-10-23`, repositório `cupcake-mochi/JJK---Project`.
+Este checkout usa a branch `codex/guia-do-mestre-pre-1-2026-10-23` do repositório `cupcake-mochi/JJK---Project`. A pasta de trabalho é `guia-do-mestre` dentro do checkout. A retomada de 31/10 tem prioridade sobre prompts antigos e explica como adaptar os caminhos locais.
 
-A retomada de 30/10 tem prioridade sobre prompts antigos. Os relatórios preservam o histórico e seus avisos de salvamento apenas local descrevem o momento em que foram escritos. Não copie um estado antigo do Git por cima da produção.
+A referência técnica conferida é `04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md`, chamada Livro de Regras 1.0 no texto ao leitor. O salvamento inclui fontes, relatórios, decisões, históricos, provas, PDFs, fontes tipográficas e mapas. Os livros integrais de terceiros e extrações externas anteriormente excluídas continuam no acervo local; sua ausência não deve ser tratada como pesquisa realizada na nuvem. A pasta 09 contém propostas paralelas sem aprovação automática.
 
-## Conteúdo e conferência
+`SALVAMENTO.json` identifica o snapshot e inventaria todos os arquivos desta pasta, exceto ele próprio. `python3 CONFERIR-COPIA-GIT.py` verifica a cópia; `python3 CONFERIR-SALVAMENTO.py` verifica as 7.078 entradas do manifesto de produção. Ambos são somente de leitura e usam a posição do próprio arquivo. Os relatos antigos de “último GitHub 141” são históricos; o snapshot atual reúne os registros posteriores.
 
-O salvamento conserva planejamento, decisões, manuscritos, revisões, edição de leitura, scripts, provas PDF, evidências visuais, mapas e históricos. Inclui relatórios e a pasta 09 de propostas paralelas, sem aprovação ou integração automática dessas propostas. A referência mecânica continua sendo a cópia conferida da R53, chamada Livro de Regras 1.0 no texto ao leitor.
+## Fila restante
 
-`SALVAMENTO.json` inventaria esta cópia por tamanho e SHA-256, sem incluir a si mesmo. Execute `python3 CONFERIR-COPIA-GIT.py` para conferi-la. `python3 CONFERIR-SALVAMENTO.py` confere as 5.062 entradas do manifesto de produção. As exclusões anteriores de extrações externas integrais e caches foram mantidas; a bibliografia completa de terceiros fica no acervo local. Caminhos absolutos podem precisar de adaptação em outro computador.
+1. Preparar e executar avaliações dos encontros, com premissas e limites explícitos, antes de propor uma escala geral.
+2. Incorporar retorno real de leitores e mesas, quando disponível.
+3. Corrigir o que for encontrado e decidir o fechamento da 1.0.
 
-Mantenha as decisões sobre o Receptáculo, dedicação por ficha, saldo de um ciclo e Reserva Condensada. O detalhamento numérico descartado de Reserva Condensada não deve retornar; treinamentos não receberam um pacote novo de benefícios. O Bestiário antigo não serve de referência numérica sem atualização. Próxima revisão: **GPT-6.1 Sol, esforço alto**, conforme o planejamento.
+Bestiário completo, benefícios de treinamento e Pactos adiados seguem em frentes próprias. Preservar as decisões sobre dedicação por ficha, Receptáculo e Reserva Condensada; o detalhamento numérico descartado desta habilidade não deve retornar. A próxima tarefa usa a configuração prevista no projeto: GPT-6 Astra, esforço extra alto, quando disponível.

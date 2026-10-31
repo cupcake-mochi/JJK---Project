@@ -1,0 +1,39 @@
+{
+  "registro": 146,
+  "entradas_anteriores": 6363,
+  "controles_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "07 - Edicao de Leitura/LEIA-ME.md",
+    "08 - Diagramacao do Guia/LEIA-ME.md",
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "fontes_originais_preservadas": 104,
+  "fontes_integradas_preservadas": 99,
+  "html_preservados": 99,
+  "pdf_atual_preservado": {
+    "arquivo": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf",
+    "paginas": 383,
+    "sha256": "fce0184a2d944e2afac552627b13878361421157126eb9ebb7d614296ca129d2"
+  },
+  "pdf_anterior_preservado": {
+    "arquivo": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf",
+    "paginas": 357,
+    "sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b"
+  },
+  "referencias_locais_conferidas": 7,
+  "competencias_com_destino": 20,
+  "links_locais_conferidos": 45,
+  "demais_arquivos_anteriores_preservados": 6351,
+  "falhas": [],
+  "salvamento": "Local; último envio remoto conhecido: registro 141.",
+  "novas_entradas": 33,
+  "entradas_finais": 6396
+}

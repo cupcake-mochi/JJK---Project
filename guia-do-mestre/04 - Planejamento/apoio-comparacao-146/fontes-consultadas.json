@@ -1,0 +1,185 @@
+{
+  "registro": 146,
+  "data": "2026-10-30",
+  "livros": [
+    {
+      "id": "dmg2024",
+      "arquivo": "01 - Livros do mestre (copia)/Guias do Mestre/Dungeon Master's Guide 2024.pdf",
+      "paginas_totais": 388,
+      "paginas_extraidas": [
+        7,
+        12,
+        13,
+        14,
+        15,
+        35,
+        51,
+        123
+      ],
+      "sha256": "58821a54f0f0434ea344b8868636e9d5f8c0fff45c4630ddf77367ff91afafa9",
+      "paginas_usadas_na_avaliacao": [
+        12,
+        13,
+        14,
+        15,
+        35,
+        51,
+        123
+      ]
+    },
+    {
+      "id": "dmg2014",
+      "arquivo": "01 - Livros do mestre (copia)/Guias do Mestre/dd-5e-guia-do-mestre-biblioteca-elfica.pdf",
+      "paginas_totais": 322,
+      "paginas_extraidas": [
+        4,
+        72,
+        90,
+        91
+      ],
+      "sha256": "2ca3c21ee90d703ca5ab0e713540531d37893913afe2aef063d5f7fdb5adfcc3",
+      "paginas_usadas_na_avaliacao": [
+        4,
+        90,
+        91
+      ]
+    },
+    {
+      "id": "pf2",
+      "arquivo": "01 - Livros do mestre (copia)/Livros com capitulo de mestre/pathfinder---livro-basico-2-edicao.pdf",
+      "paginas_totais": 642,
+      "paginas_extraidas": [
+        489,
+        490,
+        491
+      ],
+      "sha256": "fd7e7b48a603872a58b3999721030be15a31da19c3b90d602216b238c4e00891",
+      "paginas_usadas_na_avaliacao": [
+        489,
+        490,
+        491
+      ]
+    },
+    {
+      "id": "cairn",
+      "arquivo": "02 - PDFs baixados/1 - Guias e ensaios de mestragem/Cairn 2e - Wardens Guide.pdf",
+      "paginas_totais": 192,
+      "paginas_extraidas": [
+        3,
+        8,
+        9,
+        32,
+        33,
+        56,
+        57,
+        154,
+        155
+      ],
+      "sha256": "7f3917fffb205a0e09f80145bc8bd78c982ad9a6fef18d9d84b64b9d4b5ece8e",
+      "paginas_usadas_na_avaliacao": [
+        8,
+        9,
+        32,
+        33,
+        56,
+        57,
+        154,
+        155
+      ]
+    },
+    {
+      "id": "fate",
+      "arquivo": "02 - PDFs baixados/1 - Guias e ensaios de mestragem/Evil Hat - Fate Core System (caps. Running the Game, Scenes Sessions Scenarios, The Long Game).pdf",
+      "paginas_totais": 310,
+      "paginas_extraidas": [
+        195,
+        196,
+        197,
+        248,
+        249,
+        250
+      ],
+      "sha256": "d1d4c1cc860f754106a577437f5c38d2d0a9193e8c97374031a07c41e9a50681",
+      "paginas_usadas_na_avaliacao": [
+        195,
+        196,
+        197,
+        248,
+        249,
+        250
+      ]
+    },
+    {
+      "id": "lazy",
+      "arquivo": "02 - PDFs baixados/2 - Ferramentas de preparo e mesa/Sly Flourish - The Lazy GM's Resource Document, CC BY 4.0 (copia offline).pdf",
+      "paginas_totais": 94,
+      "paginas_extraidas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "sha256": "fd594db5e339d428b38db0e3eb5d17dd90ca8532416c6b083073d26464f9b5ad",
+      "paginas_usadas_na_avaliacao": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "wwn",
+      "arquivo": "02 - PDFs baixados/4 - SRDs e regras de referencia/Worlds Without Number - Free Edition (Kevin Crawford).pdf",
+      "paginas_totais": 352,
+      "paginas_extraidas": [
+        3,
+        117,
+        129,
+        146,
+        150,
+        151
+      ],
+      "sha256": "b48761e04e67b897021777590f7c3c007810d6b80b7007db29941c9be10806e0",
+      "paginas_usadas_na_avaliacao": [
+        146,
+        150,
+        151
+      ]
+    }
+  ],
+  "guia_atual": {
+    "arquivo": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf",
+    "paginas": 383,
+    "sha256": "fce0184a2d944e2afac552627b13878361421157126eb9ebb7d614296ca129d2"
+  },
+  "guia_anterior": {
+    "arquivo": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf",
+    "paginas": 357,
+    "sha256": "0050d7cf2426ce3eba555ab2010deaeb6d62e023a5dba67ec43f0495e79cbd3b"
+  },
+  "resenhas_reabertas": [
+    {
+      "titulo": "DnD 2024 Dungeon Master's Guide review",
+      "autor": "Mollie Russell",
+      "url": "https://www.wargamer.com/dnd/2024-dungeon-masters-guide-review",
+      "atualizacao_indicada": "2024-10-15"
+    },
+    {
+      "titulo": "Prep Techniques / Review – Return of the Lazy Dungeon Master",
+      "autor_exibido": "guyeatsfood",
+      "url": "https://burnafterrunningrpg.com/2021/07/12/prep-techniques-review-return-of-the-lazy-dungeon-master/",
+      "data_da_entrada": "2021-07"
+    }
+  ],
+  "limites": [
+    "Consulta dirigida, não nova leitura integral das referências.",
+    "Pathfinder Livro Básico anterior ao Remaster; não GM Core.",
+    "Lazy GM é o documento de recursos; não o livro integral.",
+    "Resenhas são opiniões individuais; não consenso.",
+    "Sem novos participantes externos ou sessões observadas."
+  ]
+}

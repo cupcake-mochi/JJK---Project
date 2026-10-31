@@ -1,0 +1,3102 @@
+{
+  "registro": 145,
+  "pdf": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf",
+  "sha256_pdf": "fce0184a2d944e2afac552627b13878361421157126eb9ebb7d614296ca129d2",
+  "paginas": 383,
+  "fontes_textuais_preservadas": 99,
+  "ligacoes": 2556,
+  "ligacoes_externas": 22,
+  "marcadores": 99,
+  "sobreposicoes_de_blocos": [],
+  "texto_fora_da_pagina": [],
+  "glifos_ilegiveis": [],
+  "conferencia_por_unidade": [
+    {
+      "pagina_html": "como-usar.html",
+      "intervalo_pdf": [
+        3,
+        4
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-01.html",
+      "intervalo_pdf": [
+        4,
+        14
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-02.html",
+      "intervalo_pdf": [
+        14,
+        19
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-03.html",
+      "intervalo_pdf": [
+        19,
+        29
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-04.html",
+      "intervalo_pdf": [
+        29,
+        36
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-05.html",
+      "intervalo_pdf": [
+        36,
+        41
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-06.html",
+      "intervalo_pdf": [
+        41,
+        49
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-07.html",
+      "intervalo_pdf": [
+        49,
+        57
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-08.html",
+      "intervalo_pdf": [
+        57,
+        66
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-09.html",
+      "intervalo_pdf": [
+        66,
+        74
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "capitulo-10.html",
+      "intervalo_pdf": [
+        74,
+        79
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "folhas.html",
+      "intervalo_pdf": [
+        79,
+        82
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-02-ficha-de-preparacao.html",
+      "intervalo_pdf": [
+        82,
+        85
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-05-folha-de-conducao.html",
+      "intervalo_pdf": [
+        85,
+        88
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-08-ficha-de-acordos-do-grupo.html",
+      "intervalo_pdf": [
+        88,
+        90
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-12-registro-de-descobertas.html",
+      "intervalo_pdf": [
+        90,
+        92
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-16-linha-de-continuidade.html",
+      "intervalo_pdf": [
+        92,
+        94
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-20-ficha-de-faccao.html",
+      "intervalo_pdf": [
+        94,
+        95
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-24-registro-de-estado-e-socorro.html",
+      "intervalo_pdf": [
+        95,
+        97
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-28-ficha-de-convivencia.html",
+      "intervalo_pdf": [
+        97,
+        98
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-32-ficha-de-avaliacao-de-capacidade.html",
+      "intervalo_pdf": [
+        98,
+        100
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-38-ficha-de-projeto-e-entrega.html",
+      "intervalo_pdf": [
+        100,
+        102
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-40-registro-de-dedicacao-por-ficha.html",
+      "intervalo_pdf": [
+        102,
+        104
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-42-registro-de-pactos-e-promessas.html",
+      "intervalo_pdf": [
+        104,
+        106
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html",
+      "intervalo_pdf": [
+        106,
+        109
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-58-ficha-de-inimigo-e-encontro.html",
+      "intervalo_pdf": [
+        109,
+        113
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-61-ficha-de-habilidade-de-inimigo.html",
+      "intervalo_pdf": [
+        113,
+        115
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-A1-exemplo-despedida.html",
+      "intervalo_pdf": [
+        115,
+        116
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-A1-preparar-a-missao.html",
+      "intervalo_pdf": [
+        116,
+        117
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-A2-conduzir-a-sessao.html",
+      "intervalo_pdf": [
+        117,
+        118
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-A4-exemplo-sala-de-conservacao.html",
+      "intervalo_pdf": [
+        118,
+        120
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-A4-retomar-a-missao.html",
+      "intervalo_pdf": [
+        120,
+        121
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "casos.html",
+      "intervalo_pdf": [
+        121,
+        122
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-14-o-aviso-de-reabertura.html",
+      "intervalo_pdf": [
+        122,
+        126
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html",
+      "intervalo_pdf": [
+        126,
+        130
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-83-perceber-procurar-e-interpretar-sinais.html",
+      "intervalo_pdf": [
+        130,
+        136
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-11-espaco-e-usos-criativos.html",
+      "intervalo_pdf": [
+        136,
+        140
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-84-percursos-apoios-e-quedas.html",
+      "intervalo_pdf": [
+        140,
+        144
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-85-trajetorias-ferramentas-e-improvisacao.html",
+      "intervalo_pdf": [
+        144,
+        149
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-22-quedas-e-socorro.html",
+      "intervalo_pdf": [
+        149,
+        153
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-23-retirada-e-recuperacao.html",
+      "intervalo_pdf": [
+        153,
+        158
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-81-passar-a-missao-entre-mestres.html",
+      "intervalo_pdf": [
+        158,
+        162
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-14-tres-maldicoes-para-a-missao.html",
+      "intervalo_pdf": [
+        162,
+        166
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-59-recursos-e-ritmo-dos-inimigos.html",
+      "intervalo_pdf": [
+        166,
+        169
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-60-montar-habilidades-de-inimigos.html",
+      "intervalo_pdf": [
+        169,
+        173
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-74-regua-inicial-de-inimigos.html",
+      "intervalo_pdf": [
+        173,
+        178
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-100-comparar-inimigos-em-outras-faixas.html",
+      "intervalo_pdf": [
+        178,
+        181
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-67-preparar-chefes-e-confrontos-maiores.html",
+      "intervalo_pdf": [
+        181,
+        185
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-78-preparar-perigos-ambientais.html",
+      "intervalo_pdf": [
+        185,
+        189
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-57-avaliar-o-encontro-do-amontoado.html",
+      "intervalo_pdf": [
+        189,
+        193
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-62-o-carregador-e-o-corredor-de-entulho.html",
+      "intervalo_pdf": [
+        193,
+        200
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-63-carregador-consulta-e-doma.html",
+      "intervalo_pdf": [
+        200,
+        204
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-64-a-passarela-e-o-guincho.html",
+      "intervalo_pdf": [
+        204,
+        211
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-65-comparar-confronto-e-pressao-ambiental.html",
+      "intervalo_pdf": [
+        211,
+        214
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-66-o-carregador-e-a-saida-que-fecha.html",
+      "intervalo_pdf": [
+        214,
+        218
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-71-sineiro-do-recolhimento.html",
+      "intervalo_pdf": [
+        218,
+        222
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-72-sineiro-consulta-e-doma.html",
+      "intervalo_pdf": [
+        222,
+        226
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-73-ensaio-guiado-do-sineiro.html",
+      "intervalo_pdf": [
+        226,
+        231
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-75-ren-e-sora-atacante-e-apoio.html",
+      "intervalo_pdf": [
+        231,
+        235
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-76-confronto-de-ren-e-sora.html",
+      "intervalo_pdf": [
+        235,
+        239
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-101-haru-vigia-e-tessa.html",
+      "intervalo_pdf": [
+        239,
+        244
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html",
+      "intervalo_pdf": [
+        244,
+        248
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-79-o-po-na-sala-de-conservacao.html",
+      "intervalo_pdf": [
+        248,
+        253
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-103-a-febre-dos-fios.html",
+      "intervalo_pdf": [
+        253,
+        257
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-77-ficha-preenchida-ren-e-sora.html",
+      "intervalo_pdf": [
+        257,
+        262
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-68-ficha-e-comparacao-de-chefes.html",
+      "intervalo_pdf": [
+        262,
+        265
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-27-convivencia-do-receptaculo.html",
+      "intervalo_pdf": [
+        265,
+        268
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-89-vida-rolada-e-familia-propria.html",
+      "intervalo_pdf": [
+        268,
+        271
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-90-reparar-personagem-de-corpo-construido.html",
+      "intervalo_pdf": [
+        271,
+        273
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-91-restricao-corporal-e-cuidados.html",
+      "intervalo_pdf": [
+        273,
+        277
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-30-pareceres-de-criacoes.html",
+      "intervalo_pdf": [
+        277,
+        280
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-31-avaliar-poderes-avancados.html",
+      "intervalo_pdf": [
+        280,
+        283
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-33-casos-especificos-de-avaliacao.html",
+      "intervalo_pdf": [
+        283,
+        286
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-93-ampliar-mesclas-e-trocar-formas.html",
+      "intervalo_pdf": [
+        286,
+        289
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-94-compras-repetidas-e-restricoes.html",
+      "intervalo_pdf": [
+        289,
+        293
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-95-efeitos-de-cena-e-cancelamento.html",
+      "intervalo_pdf": [
+        293,
+        296
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "consulta-92-reserva-condensada-proposta-e-comparacao.html",
+      "intervalo_pdf": [
+        296,
+        298
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-34-oficios-fabricacao-e-reparos.html",
+      "intervalo_pdf": [
+        298,
+        301
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-36-ferramentas-objetos-e-contencao.html",
+      "intervalo_pdf": [
+        301,
+        304
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-96-fabricar-e-identificar-o-anel.html",
+      "intervalo_pdf": [
+        304,
+        307
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-97-emprestimo-familiar-e-negociacao.html",
+      "intervalo_pdf": [
+        307,
+        309
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-98-objeto-selado-e-risco-de-ingestao.html",
+      "intervalo_pdf": [
+        309,
+        312
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-99-limiar-feitos-e-promocao.html",
+      "intervalo_pdf": [
+        312,
+        315
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-47-desenvolver-uma-ideia-de-pacto.html",
+      "intervalo_pdf": [
+        315,
+        318
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-48-pacifismo-impraticavel-minuta.html",
+      "intervalo_pdf": [
+        318,
+        324
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-49-liberacao-irregular-minuta.html",
+      "intervalo_pdf": [
+        324,
+        329
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-50-promessa-do-arquivo.html",
+      "intervalo_pdf": [
+        329,
+        334
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-43-aquisicao-e-projetos-de-entidades.html",
+      "intervalo_pdf": [
+        334,
+        340
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-45-tempo-materiais-e-retomada-de-entidades.html",
+      "intervalo_pdf": [
+        340,
+        344
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-46-reconstruir-transferir-e-herdar-entidades.html",
+      "intervalo_pdf": [
+        344,
+        347
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-51-ritual-do-cao-de-sombra.html",
+      "intervalo_pdf": [
+        347,
+        353
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-52-domar-o-amontoado.html",
+      "intervalo_pdf": [
+        353,
+        359
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-53-construir-e-evoluir-o-escriba.html",
+      "intervalo_pdf": [
+        359,
+        365
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-54-transporte-e-continuidade-das-entidades.html",
+      "intervalo_pdf": [
+        365,
+        371
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html",
+      "intervalo_pdf": [
+        371,
+        376
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "apendice-c.html",
+      "intervalo_pdf": [
+        376,
+        380
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "apendice-d.html",
+      "intervalo_pdf": [
+        380,
+        383
+      ],
+      "palavras_ausentes": {}
+    },
+    {
+      "pagina_html": "referencias.html",
+      "intervalo_pdf": [
+        383,
+        383
+      ],
+      "palavras_ausentes": {}
+    }
+  ],
+  "diferencas_de_extracao_a_examinar": [],
+  "paginas_para_revisao": [
+    {
+      "pagina": 1,
+      "ocupacao_aproximada": 0.0,
+      "caracteres_extraidos": 39,
+      "titulo": null
+    },
+    {
+      "pagina": 2,
+      "ocupacao_aproximada": 0.666,
+      "caracteres_extraidos": 2513,
+      "titulo": "Sumário"
+    },
+    {
+      "pagina": 3,
+      "ocupacao_aproximada": 0.667,
+      "caracteres_extraidos": 3071,
+      "titulo": "Como usar este livro"
+    },
+    {
+      "pagina": 4,
+      "ocupacao_aproximada": 0.831,
+      "caracteres_extraidos": 3644,
+      "titulo": "Sua primeira missão"
+    },
+    {
+      "pagina": 5,
+      "ocupacao_aproximada": 0.821,
+      "caracteres_extraidos": 3319,
+      "titulo": "1.3 Uma cena do cotidiano"
+    },
+    {
+      "pagina": 6,
+      "ocupacao_aproximada": 0.808,
+      "caracteres_extraidos": 1777,
+      "titulo": null
+    },
+    {
+      "pagina": 7,
+      "ocupacao_aproximada": 0.849,
+      "caracteres_extraidos": 3851,
+      "titulo": "1.5 Jogue a missão"
+    },
+    {
+      "pagina": 8,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 4027,
+      "titulo": null
+    },
+    {
+      "pagina": 9,
+      "ocupacao_aproximada": 0.754,
+      "caracteres_extraidos": 3166,
+      "titulo": null
+    },
+    {
+      "pagina": 10,
+      "ocupacao_aproximada": 0.851,
+      "caracteres_extraidos": 3605,
+      "titulo": null
+    },
+    {
+      "pagina": 11,
+      "ocupacao_aproximada": 0.865,
+      "caracteres_extraidos": 3943,
+      "titulo": "1.6 Se o grupo escolher outro caminho"
+    },
+    {
+      "pagina": 12,
+      "ocupacao_aproximada": 0.788,
+      "caracteres_extraidos": 2672,
+      "titulo": "As batidas no anexo: preparo para consulta"
+    },
+    {
+      "pagina": 13,
+      "ocupacao_aproximada": 0.603,
+      "caracteres_extraidos": 1886,
+      "titulo": null
+    },
+    {
+      "pagina": 14,
+      "ocupacao_aproximada": 0.798,
+      "caracteres_extraidos": 2009,
+      "titulo": "O mundo dos feiticeiros"
+    },
+    {
+      "pagina": 15,
+      "ocupacao_aproximada": 0.769,
+      "caracteres_extraidos": 3567,
+      "titulo": "2.2 Feiticeiros, energia e técnicas"
+    },
+    {
+      "pagina": 16,
+      "ocupacao_aproximada": 0.839,
+      "caracteres_extraidos": 4010,
+      "titulo": "2.3 Escolas, famílias e contatos"
+    },
+    {
+      "pagina": 17,
+      "ocupacao_aproximada": 0.814,
+      "caracteres_extraidos": 3664,
+      "titulo": "2.5 Trabalho, estudo e relações"
+    },
+    {
+      "pagina": 18,
+      "ocupacao_aproximada": 0.567,
+      "caracteres_extraidos": 2657,
+      "titulo": "2.6 A época e o lugar da sua campanha"
+    },
+    {
+      "pagina": 19,
+      "ocupacao_aproximada": 0.846,
+      "caracteres_extraidos": 2194,
+      "titulo": "Preparar aventuras"
+    },
+    {
+      "pagina": 20,
+      "ocupacao_aproximada": 0.878,
+      "caracteres_extraidos": 4051,
+      "titulo": "3.2 Pessoas que dão vida à aventura"
+    },
+    {
+      "pagina": 21,
+      "ocupacao_aproximada": 0.81,
+      "caracteres_extraidos": 3899,
+      "titulo": "3.4 Pistas e investigações"
+    },
+    {
+      "pagina": 22,
+      "ocupacao_aproximada": 0.828,
+      "caracteres_extraidos": 3702,
+      "titulo": "Antes que o trem parta"
+    },
+    {
+      "pagina": 23,
+      "ocupacao_aproximada": 0.79,
+      "caracteres_extraidos": 3782,
+      "titulo": null
+    },
+    {
+      "pagina": 24,
+      "ocupacao_aproximada": 0.807,
+      "caracteres_extraidos": 3726,
+      "titulo": null
+    },
+    {
+      "pagina": 25,
+      "ocupacao_aproximada": 0.763,
+      "caracteres_extraidos": 3458,
+      "titulo": null
+    },
+    {
+      "pagina": 26,
+      "ocupacao_aproximada": 0.781,
+      "caracteres_extraidos": 3694,
+      "titulo": null
+    },
+    {
+      "pagina": 27,
+      "ocupacao_aproximada": 0.733,
+      "caracteres_extraidos": 2152,
+      "titulo": null
+    },
+    {
+      "pagina": 28,
+      "ocupacao_aproximada": 0.508,
+      "caracteres_extraidos": 2433,
+      "titulo": "3.7 Quando há pouco tempo"
+    },
+    {
+      "pagina": 29,
+      "ocupacao_aproximada": 0.82,
+      "caracteres_extraidos": 2737,
+      "titulo": "Na mesa de jogo"
+    },
+    {
+      "pagina": 30,
+      "ocupacao_aproximada": 0.825,
+      "caracteres_extraidos": 3925,
+      "titulo": "4.3 Interpretar e negociar"
+    },
+    {
+      "pagina": 31,
+      "ocupacao_aproximada": 0.772,
+      "caracteres_extraidos": 3555,
+      "titulo": "4.4 Conduzir uma investigação"
+    },
+    {
+      "pagina": 32,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 3920,
+      "titulo": "4.6 Participação e ritmo"
+    },
+    {
+      "pagina": 33,
+      "ocupacao_aproximada": 0.783,
+      "caracteres_extraidos": 3261,
+      "titulo": "4.7 Combate, socorro e retirada"
+    },
+    {
+      "pagina": 34,
+      "ocupacao_aproximada": 0.861,
+      "caracteres_extraidos": 4043,
+      "titulo": null
+    },
+    {
+      "pagina": 35,
+      "ocupacao_aproximada": 0.536,
+      "caracteres_extraidos": 2483,
+      "titulo": "4.8 Dúvidas e fim da sessão"
+    },
+    {
+      "pagina": 36,
+      "ocupacao_aproximada": 0.841,
+      "caracteres_extraidos": 3532,
+      "titulo": "Criar uma campanha"
+    },
+    {
+      "pagina": 37,
+      "ocupacao_aproximada": 0.806,
+      "caracteres_extraidos": 3537,
+      "titulo": "5.2 Vínculos e interesses dos personagens"
+    },
+    {
+      "pagina": 38,
+      "ocupacao_aproximada": 0.835,
+      "caracteres_extraidos": 3348,
+      "titulo": "5.4 Facções"
+    },
+    {
+      "pagina": 39,
+      "ocupacao_aproximada": 0.452,
+      "caracteres_extraidos": 2148,
+      "titulo": "5.5 Antagonistas"
+    },
+    {
+      "pagina": 40,
+      "ocupacao_aproximada": 0.484,
+      "caracteres_extraidos": 2268,
+      "titulo": "5.6 Arcos, finais e epílogos"
+    },
+    {
+      "pagina": 41,
+      "ocupacao_aproximada": 0.818,
+      "caracteres_extraidos": 2992,
+      "titulo": "Inimigos e perigos"
+    },
+    {
+      "pagina": 42,
+      "ocupacao_aproximada": 0.839,
+      "caracteres_extraidos": 3330,
+      "titulo": null
+    },
+    {
+      "pagina": 43,
+      "ocupacao_aproximada": 0.769,
+      "caracteres_extraidos": 3108,
+      "titulo": "6.3 Habilidades e recursos"
+    },
+    {
+      "pagina": 44,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 2716,
+      "titulo": "6.4 Escolher os números"
+    },
+    {
+      "pagina": 45,
+      "ocupacao_aproximada": 0.852,
+      "caracteres_extraidos": 3668,
+      "titulo": "6.5 O grupo e o lugar"
+    },
+    {
+      "pagina": 46,
+      "ocupacao_aproximada": 0.827,
+      "caracteres_extraidos": 3970,
+      "titulo": "6.6 Chefes e grandes confrontos"
+    },
+    {
+      "pagina": 47,
+      "ocupacao_aproximada": 0.801,
+      "caracteres_extraidos": 3159,
+      "titulo": "6.7 Perigos do ambiente"
+    },
+    {
+      "pagina": 48,
+      "ocupacao_aproximada": 0.767,
+      "caracteres_extraidos": 3790,
+      "titulo": "6.8 Antes e depois do encontro"
+    },
+    {
+      "pagina": 49,
+      "ocupacao_aproximada": 0.793,
+      "caracteres_extraidos": 2801,
+      "titulo": "Personagens e técnicas"
+    },
+    {
+      "pagina": 50,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 3970,
+      "titulo": "7.2 Personagens e seus cuidados"
+    },
+    {
+      "pagina": 51,
+      "ocupacao_aproximada": 0.711,
+      "caracteres_extraidos": 2938,
+      "titulo": "7.3 Personalizar escolhas"
+    },
+    {
+      "pagina": 52,
+      "ocupacao_aproximada": 0.78,
+      "caracteres_extraidos": 3252,
+      "titulo": "7.4 Avaliar uma capacidade"
+    },
+    {
+      "pagina": 53,
+      "ocupacao_aproximada": 0.855,
+      "caracteres_extraidos": 3224,
+      "titulo": null
+    },
+    {
+      "pagina": 54,
+      "ocupacao_aproximada": 0.793,
+      "caracteres_extraidos": 3241,
+      "titulo": "7.5 Poderes avançados"
+    },
+    {
+      "pagina": 55,
+      "ocupacao_aproximada": 0.838,
+      "caracteres_extraidos": 4101,
+      "titulo": null
+    },
+    {
+      "pagina": 56,
+      "ocupacao_aproximada": 0.818,
+      "caracteres_extraidos": 3423,
+      "titulo": "7.6 Registrar e acompanhar"
+    },
+    {
+      "pagina": 57,
+      "ocupacao_aproximada": 0.766,
+      "caracteres_extraidos": 2903,
+      "titulo": "Entre missões"
+    },
+    {
+      "pagina": 58,
+      "ocupacao_aproximada": 0.843,
+      "caracteres_extraidos": 3458,
+      "titulo": "8.2 Tempo para as atividades"
+    },
+    {
+      "pagina": 59,
+      "ocupacao_aproximada": 0.775,
+      "caracteres_extraidos": 3453,
+      "titulo": null
+    },
+    {
+      "pagina": 60,
+      "ocupacao_aproximada": 0.774,
+      "caracteres_extraidos": 3121,
+      "titulo": "8.3 Ofícios, fabricação e reparos"
+    },
+    {
+      "pagina": 61,
+      "ocupacao_aproximada": 0.851,
+      "caracteres_extraidos": 2693,
+      "titulo": "8.4 Comprar, emprestar e contratar"
+    },
+    {
+      "pagina": 62,
+      "ocupacao_aproximada": 0.852,
+      "caracteres_extraidos": 3409,
+      "titulo": "8.5 Ferramentas e objetos amaldiçoados"
+    },
+    {
+      "pagina": 63,
+      "ocupacao_aproximada": 0.816,
+      "caracteres_extraidos": 3964,
+      "titulo": "8.6 Recompensas e progressão"
+    },
+    {
+      "pagina": 64,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 2651,
+      "titulo": null
+    },
+    {
+      "pagina": 65,
+      "ocupacao_aproximada": 0.759,
+      "caracteres_extraidos": 2955,
+      "titulo": null
+    },
+    {
+      "pagina": 66,
+      "ocupacao_aproximada": 0.819,
+      "caracteres_extraidos": 2719,
+      "titulo": "Pactos e entidades"
+    },
+    {
+      "pagina": 67,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 3336,
+      "titulo": "9.2 Criar um Pacto"
+    },
+    {
+      "pagina": 68,
+      "ocupacao_aproximada": 0.886,
+      "caracteres_extraidos": 4282,
+      "titulo": "9.3 Promessas entre pessoas"
+    },
+    {
+      "pagina": 69,
+      "ocupacao_aproximada": 0.822,
+      "caracteres_extraidos": 3419,
+      "titulo": "9.4 Obter uma entidade"
+    },
+    {
+      "pagina": 70,
+      "ocupacao_aproximada": 0.813,
+      "caracteres_extraidos": 2928,
+      "titulo": "9.5 Projetos de entidades"
+    },
+    {
+      "pagina": 71,
+      "ocupacao_aproximada": 0.802,
+      "caracteres_extraidos": 3487,
+      "titulo": null
+    },
+    {
+      "pagina": 72,
+      "ocupacao_aproximada": 0.497,
+      "caracteres_extraidos": 2491,
+      "titulo": "9.6 Evolução e continuidade"
+    },
+    {
+      "pagina": 73,
+      "ocupacao_aproximada": 0.56,
+      "caracteres_extraidos": 2364,
+      "titulo": null
+    },
+    {
+      "pagina": 74,
+      "ocupacao_aproximada": 0.813,
+      "caracteres_extraidos": 3632,
+      "titulo": "Jogar em guilda"
+    },
+    {
+      "pagina": 75,
+      "ocupacao_aproximada": 0.793,
+      "caracteres_extraidos": 3327,
+      "titulo": "10.2 Calendário e atividades"
+    },
+    {
+      "pagina": 76,
+      "ocupacao_aproximada": 0.832,
+      "caracteres_extraidos": 3398,
+      "titulo": null
+    },
+    {
+      "pagina": 77,
+      "ocupacao_aproximada": 0.853,
+      "caracteres_extraidos": 3077,
+      "titulo": "10.4 Anotar o que importa"
+    },
+    {
+      "pagina": 78,
+      "ocupacao_aproximada": 0.493,
+      "caracteres_extraidos": 2313,
+      "titulo": "10.5 Ouvir o grupo e dividir o trabalho"
+    },
+    {
+      "pagina": 79,
+      "ocupacao_aproximada": 0.89,
+      "caracteres_extraidos": 2193,
+      "titulo": "Escolher uma folha para a mesa"
+    },
+    {
+      "pagina": 80,
+      "ocupacao_aproximada": 0.571,
+      "caracteres_extraidos": 1924,
+      "titulo": "Dois exemplos de uso"
+    },
+    {
+      "pagina": 81,
+      "ocupacao_aproximada": 0.584,
+      "caracteres_extraidos": 2824,
+      "titulo": null
+    },
+    {
+      "pagina": 82,
+      "ocupacao_aproximada": 0.662,
+      "caracteres_extraidos": 1604,
+      "titulo": "Ficha de preparação de missão"
+    },
+    {
+      "pagina": 83,
+      "ocupacao_aproximada": 0.333,
+      "caracteres_extraidos": 955,
+      "titulo": "Informação e descoberta"
+    },
+    {
+      "pagina": 84,
+      "ocupacao_aproximada": 0.498,
+      "caracteres_extraidos": 1589,
+      "titulo": "Consequências"
+    },
+    {
+      "pagina": 85,
+      "ocupacao_aproximada": 0.775,
+      "caracteres_extraidos": 2319,
+      "titulo": "Folha de condução"
+    },
+    {
+      "pagina": 86,
+      "ocupacao_aproximada": 0.698,
+      "caracteres_extraidos": 2640,
+      "titulo": "Se a conversa parar"
+    },
+    {
+      "pagina": 87,
+      "ocupacao_aproximada": 0.554,
+      "caracteres_extraidos": 2204,
+      "titulo": "Ao encerrar ou interromper"
+    },
+    {
+      "pagina": 88,
+      "ocupacao_aproximada": 0.447,
+      "caracteres_extraidos": 1395,
+      "titulo": "Ficha de acordos do grupo"
+    },
+    {
+      "pagina": 89,
+      "ocupacao_aproximada": 0.376,
+      "caracteres_extraidos": 1245,
+      "titulo": "Organização"
+    },
+    {
+      "pagina": 90,
+      "ocupacao_aproximada": 0.417,
+      "caracteres_extraidos": 1367,
+      "titulo": "Registro de descobertas"
+    },
+    {
+      "pagina": 91,
+      "ocupacao_aproximada": 0.489,
+      "caracteres_extraidos": 1713,
+      "titulo": "Exemplo no anexo"
+    },
+    {
+      "pagina": 92,
+      "ocupacao_aproximada": 0.809,
+      "caracteres_extraidos": 2967,
+      "titulo": "Linha de continuidade"
+    },
+    {
+      "pagina": 93,
+      "ocupacao_aproximada": 0.584,
+      "caracteres_extraidos": 2059,
+      "titulo": "Exemplo entre três missões"
+    },
+    {
+      "pagina": 94,
+      "ocupacao_aproximada": 0.726,
+      "caracteres_extraidos": 2683,
+      "titulo": "Ficha de facção"
+    },
+    {
+      "pagina": 95,
+      "ocupacao_aproximada": 0.441,
+      "caracteres_extraidos": 1296,
+      "titulo": "Registro de estado e socorro"
+    },
+    {
+      "pagina": 96,
+      "ocupacao_aproximada": 0.455,
+      "caracteres_extraidos": 1587,
+      "titulo": "Saída e recuperação"
+    },
+    {
+      "pagina": 97,
+      "ocupacao_aproximada": 0.773,
+      "caracteres_extraidos": 2948,
+      "titulo": "Ficha de convivência"
+    },
+    {
+      "pagina": 98,
+      "ocupacao_aproximada": 0.547,
+      "caracteres_extraidos": 1033,
+      "titulo": "Ficha de avaliação de capacidade"
+    },
+    {
+      "pagina": 99,
+      "ocupacao_aproximada": 0.551,
+      "caracteres_extraidos": 2098,
+      "titulo": "Avaliação e registro"
+    },
+    {
+      "pagina": 100,
+      "ocupacao_aproximada": 0.461,
+      "caracteres_extraidos": 1388,
+      "titulo": "Ficha de projeto e entrega"
+    },
+    {
+      "pagina": 101,
+      "ocupacao_aproximada": 0.458,
+      "caracteres_extraidos": 1682,
+      "titulo": "Exemplo preenchido: Traje de Rina"
+    },
+    {
+      "pagina": 102,
+      "ocupacao_aproximada": 0.684,
+      "caracteres_extraidos": 2578,
+      "titulo": "Registro de dedicação por ficha"
+    },
+    {
+      "pagina": 103,
+      "ocupacao_aproximada": 0.522,
+      "caracteres_extraidos": 1805,
+      "titulo": "Exemplo de entrada proporcional"
+    },
+    {
+      "pagina": 104,
+      "ocupacao_aproximada": 0.844,
+      "caracteres_extraidos": 1998,
+      "titulo": "Registro de Pactos e Promessas"
+    },
+    {
+      "pagina": 105,
+      "ocupacao_aproximada": 0.721,
+      "caracteres_extraidos": 2154,
+      "titulo": "Conferência rápida de uma Promessa"
+    },
+    {
+      "pagina": 106,
+      "ocupacao_aproximada": 0.859,
+      "caracteres_extraidos": 1850,
+      "titulo": "Registro de aquisição e estado de entidade"
+    },
+    {
+      "pagina": 107,
+      "ocupacao_aproximada": 0.664,
+      "caracteres_extraidos": 1814,
+      "titulo": "Exemplo de conferência do teste"
+    },
+    {
+      "pagina": 108,
+      "ocupacao_aproximada": 0.582,
+      "caracteres_extraidos": 2618,
+      "titulo": "Exemplo de lista de ritual"
+    },
+    {
+      "pagina": 109,
+      "ocupacao_aproximada": 0.753,
+      "caracteres_extraidos": 2149,
+      "titulo": "Ficha de inimigo e encontro"
+    },
+    {
+      "pagina": 110,
+      "ocupacao_aproximada": 0.857,
+      "caracteres_extraidos": 2306,
+      "titulo": "3. Capacidade nova ou alterada"
+    },
+    {
+      "pagina": 111,
+      "ocupacao_aproximada": 0.447,
+      "caracteres_extraidos": 1550,
+      "titulo": "5. Antes de jogar"
+    },
+    {
+      "pagina": 112,
+      "ocupacao_aproximada": 0.446,
+      "caracteres_extraidos": 1380,
+      "titulo": "6. Resultado e continuidade"
+    },
+    {
+      "pagina": 113,
+      "ocupacao_aproximada": 0.574,
+      "caracteres_extraidos": 1925,
+      "titulo": "Conferir uma habilidade de inimigo"
+    },
+    {
+      "pagina": 114,
+      "ocupacao_aproximada": 0.571,
+      "caracteres_extraidos": 2316,
+      "titulo": "Exemplo breve: Agarrar do Carregador"
+    },
+    {
+      "pagina": 115,
+      "ocupacao_aproximada": 0.754,
+      "caracteres_extraidos": 3082,
+      "titulo": "Preparo preenchido: a despedida"
+    },
+    {
+      "pagina": 116,
+      "ocupacao_aproximada": 0.549,
+      "caracteres_extraidos": 1561,
+      "titulo": "Preparar a missão"
+    },
+    {
+      "pagina": 117,
+      "ocupacao_aproximada": 0.79,
+      "caracteres_extraidos": 3402,
+      "titulo": "Conduzir a sessão"
+    },
+    {
+      "pagina": 118,
+      "ocupacao_aproximada": 0.539,
+      "caracteres_extraidos": 1438,
+      "titulo": "Retomada preenchida: a sala de conservação"
+    },
+    {
+      "pagina": 119,
+      "ocupacao_aproximada": 0.381,
+      "caracteres_extraidos": 1853,
+      "titulo": "Quem sabe o quê?"
+    },
+    {
+      "pagina": 120,
+      "ocupacao_aproximada": 0.559,
+      "caracteres_extraidos": 1762,
+      "titulo": "Retomar a missão"
+    },
+    {
+      "pagina": 121,
+      "ocupacao_aproximada": 0.408,
+      "caracteres_extraidos": 1663,
+      "titulo": "Casos por assunto"
+    },
+    {
+      "pagina": 122,
+      "ocupacao_aproximada": 0.774,
+      "caracteres_extraidos": 3258,
+      "titulo": "Personagens e técnicas"
+    },
+    {
+      "pagina": 123,
+      "ocupacao_aproximada": 0.729,
+      "caracteres_extraidos": 2895,
+      "titulo": "O que aconteceu"
+    },
+    {
+      "pagina": 124,
+      "ocupacao_aproximada": 0.784,
+      "caracteres_extraidos": 2999,
+      "titulo": "As pistas"
+    },
+    {
+      "pagina": 125,
+      "ocupacao_aproximada": 0.535,
+      "caracteres_extraidos": 2596,
+      "titulo": "O que os jogadores podem fazer"
+    },
+    {
+      "pagina": 126,
+      "ocupacao_aproximada": 0.65,
+      "caracteres_extraidos": 2427,
+      "titulo": "Depois da investigação"
+    },
+    {
+      "pagina": 127,
+      "ocupacao_aproximada": 0.862,
+      "caracteres_extraidos": 3690,
+      "titulo": "Sucesso com um custo"
+    },
+    {
+      "pagina": 128,
+      "ocupacao_aproximada": 0.86,
+      "caracteres_extraidos": 3464,
+      "titulo": "Ajudar um aliado"
+    },
+    {
+      "pagina": 129,
+      "ocupacao_aproximada": 0.584,
+      "caracteres_extraidos": 2765,
+      "titulo": "Empates na iniciativa"
+    },
+    {
+      "pagina": 130,
+      "ocupacao_aproximada": 0.784,
+      "caracteres_extraidos": 2860,
+      "titulo": "O que anotar"
+    },
+    {
+      "pagina": 131,
+      "ocupacao_aproximada": 0.809,
+      "caracteres_extraidos": 2468,
+      "titulo": "Esconder-se de várias pessoas"
+    },
+    {
+      "pagina": 132,
+      "ocupacao_aproximada": 0.848,
+      "caracteres_extraidos": 4174,
+      "titulo": "Ler o Ambiente"
+    },
+    {
+      "pagina": 133,
+      "ocupacao_aproximada": 0.81,
+      "caracteres_extraidos": 3452,
+      "titulo": "Estudar e Intuição"
+    },
+    {
+      "pagina": 134,
+      "ocupacao_aproximada": 0.777,
+      "caracteres_extraidos": 3108,
+      "titulo": "Sentir Energia com interferência"
+    },
+    {
+      "pagina": 135,
+      "ocupacao_aproximada": 0.512,
+      "caracteres_extraidos": 2575,
+      "titulo": null
+    },
+    {
+      "pagina": 136,
+      "ocupacao_aproximada": 0.726,
+      "caracteres_extraidos": 2764,
+      "titulo": "O que anotar"
+    },
+    {
+      "pagina": 137,
+      "ocupacao_aproximada": 0.774,
+      "caracteres_extraidos": 3185,
+      "titulo": "Mostre onde cada um está"
+    },
+    {
+      "pagina": 138,
+      "ocupacao_aproximada": 0.827,
+      "caracteres_extraidos": 3457,
+      "titulo": "Visão e cobertura"
+    },
+    {
+      "pagina": 139,
+      "ocupacao_aproximada": 0.534,
+      "caracteres_extraidos": 2608,
+      "titulo": "Ajudar e distrair"
+    },
+    {
+      "pagina": 140,
+      "ocupacao_aproximada": 0.766,
+      "caracteres_extraidos": 3597,
+      "titulo": "Até onde vai uma habilidade"
+    },
+    {
+      "pagina": 141,
+      "ocupacao_aproximada": 0.807,
+      "caracteres_extraidos": 3090,
+      "titulo": "Saltar até um piso escorregadio"
+    },
+    {
+      "pagina": 142,
+      "ocupacao_aproximada": 0.72,
+      "caracteres_extraidos": 3252,
+      "titulo": "Passagens estreitas e bagagem"
+    },
+    {
+      "pagina": 143,
+      "ocupacao_aproximada": 0.861,
+      "caracteres_extraidos": 3354,
+      "titulo": "Criar uma ponte com Obras de Apoio"
+    },
+    {
+      "pagina": 144,
+      "ocupacao_aproximada": 0.719,
+      "caracteres_extraidos": 2949,
+      "titulo": "Ferramentas e improvisação"
+    },
+    {
+      "pagina": 145,
+      "ocupacao_aproximada": 0.702,
+      "caracteres_extraidos": 2783,
+      "titulo": "Ricochete"
+    },
+    {
+      "pagina": 146,
+      "ocupacao_aproximada": 0.881,
+      "caracteres_extraidos": 3565,
+      "titulo": "Instalar uma corda"
+    },
+    {
+      "pagina": 147,
+      "ocupacao_aproximada": 0.87,
+      "caracteres_extraidos": 3239,
+      "titulo": "Algemas e cordas"
+    },
+    {
+      "pagina": 148,
+      "ocupacao_aproximada": 0.446,
+      "caracteres_extraidos": 1829,
+      "titulo": "Uma garrafa como arma"
+    },
+    {
+      "pagina": 149,
+      "ocupacao_aproximada": 0.731,
+      "caracteres_extraidos": 3444,
+      "titulo": "O que anotar"
+    },
+    {
+      "pagina": 150,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 3569,
+      "titulo": "O que anotar quando alguém cai"
+    },
+    {
+      "pagina": 151,
+      "ocupacao_aproximada": 0.858,
+      "caracteres_extraidos": 3609,
+      "titulo": "Receber dano enquanto está Morrendo"
+    },
+    {
+      "pagina": 152,
+      "ocupacao_aproximada": 0.478,
+      "caracteres_extraidos": 1794,
+      "titulo": "Exemplo: duas quedas no mesmo combate"
+    },
+    {
+      "pagina": 153,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 3148,
+      "titulo": "Sequelas, Cicatrizes e derrota"
+    },
+    {
+      "pagina": 154,
+      "ocupacao_aproximada": 0.792,
+      "caracteres_extraidos": 3743,
+      "titulo": "Movimento e ataques de oportunidade"
+    },
+    {
+      "pagina": 155,
+      "ocupacao_aproximada": 0.684,
+      "caracteres_extraidos": 2965,
+      "titulo": "Recuperar-se da derrota"
+    },
+    {
+      "pagina": 156,
+      "ocupacao_aproximada": 0.888,
+      "caracteres_extraidos": 3100,
+      "titulo": "Descanso curto"
+    },
+    {
+      "pagina": 157,
+      "ocupacao_aproximada": 0.722,
+      "caracteres_extraidos": 2879,
+      "titulo": "Descanso longo"
+    },
+    {
+      "pagina": 158,
+      "ocupacao_aproximada": 0.682,
+      "caracteres_extraidos": 2618,
+      "titulo": "Antes da próxima missão"
+    },
+    {
+      "pagina": 159,
+      "ocupacao_aproximada": 0.845,
+      "caracteres_extraidos": 2153,
+      "titulo": "Resumo da missão"
+    },
+    {
+      "pagina": 160,
+      "ocupacao_aproximada": 0.855,
+      "caracteres_extraidos": 2384,
+      "titulo": "O lugar e o próximo perigo"
+    },
+    {
+      "pagina": 161,
+      "ocupacao_aproximada": 0.85,
+      "caracteres_extraidos": 3200,
+      "titulo": "Antes de retomar"
+    },
+    {
+      "pagina": 162,
+      "ocupacao_aproximada": 0.708,
+      "caracteres_extraidos": 3011,
+      "titulo": "Melhorar o registro com o grupo"
+    },
+    {
+      "pagina": 163,
+      "ocupacao_aproximada": 0.876,
+      "caracteres_extraidos": 3366,
+      "titulo": "Regras comuns das três fichas"
+    },
+    {
+      "pagina": 164,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 3244,
+      "titulo": "Amontoado do depósito"
+    },
+    {
+      "pagina": 165,
+      "ocupacao_aproximada": 0.789,
+      "caracteres_extraidos": 3089,
+      "titulo": "Depois da Doma"
+    },
+    {
+      "pagina": 166,
+      "ocupacao_aproximada": 0.758,
+      "caracteres_extraidos": 3638,
+      "titulo": "Usar estas fichas"
+    },
+    {
+      "pagina": 167,
+      "ocupacao_aproximada": 0.827,
+      "caracteres_extraidos": 2977,
+      "titulo": "Gastar tudo no começo"
+    },
+    {
+      "pagina": 168,
+      "ocupacao_aproximada": 0.659,
+      "caracteres_extraidos": 3167,
+      "titulo": "Dê tempo para o grupo reagir"
+    },
+    {
+      "pagina": 169,
+      "ocupacao_aproximada": 0.757,
+      "caracteres_extraidos": 3494,
+      "titulo": "Confira como o inimigo luta"
+    },
+    {
+      "pagina": 170,
+      "ocupacao_aproximada": 0.764,
+      "caracteres_extraidos": 3277,
+      "titulo": "Conservar, adaptar ou criar"
+    },
+    {
+      "pagina": 171,
+      "ocupacao_aproximada": 0.773,
+      "caracteres_extraidos": 2582,
+      "titulo": "Quanto a habilidade custa"
+    },
+    {
+      "pagina": 172,
+      "ocupacao_aproximada": 0.836,
+      "caracteres_extraidos": 3222,
+      "titulo": "Três exemplos"
+    },
+    {
+      "pagina": 173,
+      "ocupacao_aproximada": 0.764,
+      "caracteres_extraidos": 3458,
+      "titulo": "Confira a habilidade antes de jogar"
+    },
+    {
+      "pagina": 174,
+      "ocupacao_aproximada": 0.812,
+      "caracteres_extraidos": 2543,
+      "titulo": "Regras e números escolhidos"
+    },
+    {
+      "pagina": 175,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 2749,
+      "titulo": "Primeiros valores para comparar"
+    },
+    {
+      "pagina": 176,
+      "ocupacao_aproximada": 0.761,
+      "caracteres_extraidos": 2580,
+      "titulo": "Escolha dano junto da frequência"
+    },
+    {
+      "pagina": 177,
+      "ocupacao_aproximada": 0.439,
+      "caracteres_extraidos": 2190,
+      "titulo": "Controle e recursos"
+    },
+    {
+      "pagina": 178,
+      "ocupacao_aproximada": 0.777,
+      "caracteres_extraidos": 3607,
+      "titulo": "Termine a ficha antes da mesa"
+    },
+    {
+      "pagina": 179,
+      "ocupacao_aproximada": 0.765,
+      "caracteres_extraidos": 2473,
+      "titulo": "Compare ações, não apenas dados de dano"
+    },
+    {
+      "pagina": 180,
+      "ocupacao_aproximada": 0.828,
+      "caracteres_extraidos": 3408,
+      "titulo": "Capacidades mudam a comparação"
+    },
+    {
+      "pagina": 181,
+      "ocupacao_aproximada": 0.773,
+      "caracteres_extraidos": 2820,
+      "titulo": "O que muda em cada faixa de nível"
+    },
+    {
+      "pagina": 182,
+      "ocupacao_aproximada": 0.801,
+      "caracteres_extraidos": 3154,
+      "titulo": "O que torna este confronto importante"
+    },
+    {
+      "pagina": 183,
+      "ocupacao_aproximada": 0.716,
+      "caracteres_extraidos": 2769,
+      "titulo": "Anuncie o perigo e dê tempo para reagir"
+    },
+    {
+      "pagina": 184,
+      "ocupacao_aproximada": 0.812,
+      "caracteres_extraidos": 3464,
+      "titulo": "Mudanças durante a luta"
+    },
+    {
+      "pagina": 185,
+      "ocupacao_aproximada": 0.694,
+      "caracteres_extraidos": 3267,
+      "titulo": "Confira o fim da luta"
+    },
+    {
+      "pagina": 186,
+      "ocupacao_aproximada": 0.863,
+      "caracteres_extraidos": 3049,
+      "titulo": "Testes e dificuldade"
+    },
+    {
+      "pagina": 187,
+      "ocupacao_aproximada": 0.798,
+      "caracteres_extraidos": 3215,
+      "titulo": "O que acontece?"
+    },
+    {
+      "pagina": 188,
+      "ocupacao_aproximada": 0.563,
+      "caracteres_extraidos": 2769,
+      "titulo": "Mostre o perigo e as saídas"
+    },
+    {
+      "pagina": 189,
+      "ocupacao_aproximada": 0.789,
+      "caracteres_extraidos": 3619,
+      "titulo": "Dano, Concentração e socorro"
+    },
+    {
+      "pagina": 190,
+      "ocupacao_aproximada": 0.843,
+      "caracteres_extraidos": 3485,
+      "titulo": "O grupo e a missão"
+    },
+    {
+      "pagina": 191,
+      "ocupacao_aproximada": 0.779,
+      "caracteres_extraidos": 3818,
+      "titulo": "Um inimigo ou vários?"
+    },
+    {
+      "pagina": 192,
+      "ocupacao_aproximada": 0.526,
+      "caracteres_extraidos": 2012,
+      "titulo": "Reavalie antes de começar"
+    },
+    {
+      "pagina": 193,
+      "ocupacao_aproximada": 0.728,
+      "caracteres_extraidos": 3093,
+      "titulo": "O Carregador no depósito"
+    },
+    {
+      "pagina": 194,
+      "ocupacao_aproximada": 0.743,
+      "caracteres_extraidos": 1912,
+      "titulo": null
+    },
+    {
+      "pagina": 195,
+      "ocupacao_aproximada": 0.904,
+      "caracteres_extraidos": 4007,
+      "titulo": "O que o Carregador quer"
+    },
+    {
+      "pagina": 196,
+      "ocupacao_aproximada": 0.768,
+      "caracteres_extraidos": 3141,
+      "titulo": "O que o grupo pode descobrir"
+    },
+    {
+      "pagina": 197,
+      "ocupacao_aproximada": 0.764,
+      "caracteres_extraidos": 3075,
+      "titulo": null
+    },
+    {
+      "pagina": 198,
+      "ocupacao_aproximada": 0.785,
+      "caracteres_extraidos": 3812,
+      "titulo": "Como enfrentar o Carregador"
+    },
+    {
+      "pagina": 199,
+      "ocupacao_aproximada": 0.714,
+      "caracteres_extraidos": 3063,
+      "titulo": "Encerrar a missão"
+    },
+    {
+      "pagina": 200,
+      "ocupacao_aproximada": 0.817,
+      "caracteres_extraidos": 2406,
+      "titulo": "Carregador: ficha e Doma"
+    },
+    {
+      "pagina": 201,
+      "ocupacao_aproximada": 0.854,
+      "caracteres_extraidos": 3205,
+      "titulo": "O lugar em resumo"
+    },
+    {
+      "pagina": 202,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 2964,
+      "titulo": "Se alguém quiser domar"
+    },
+    {
+      "pagina": 203,
+      "ocupacao_aproximada": 0.571,
+      "caracteres_extraidos": 2588,
+      "titulo": null
+    },
+    {
+      "pagina": 204,
+      "ocupacao_aproximada": 0.797,
+      "caracteres_extraidos": 3549,
+      "titulo": "Registro para a mesa"
+    },
+    {
+      "pagina": 205,
+      "ocupacao_aproximada": 0.612,
+      "caracteres_extraidos": 2329,
+      "titulo": "O lugar e os caminhos"
+    },
+    {
+      "pagina": 206,
+      "ocupacao_aproximada": 0.848,
+      "caracteres_extraidos": 2309,
+      "titulo": "Avise antes de ligar"
+    },
+    {
+      "pagina": 207,
+      "ocupacao_aproximada": 0.78,
+      "caracteres_extraidos": 2892,
+      "titulo": "Três rodadas até a ruptura"
+    },
+    {
+      "pagina": 208,
+      "ocupacao_aproximada": 0.843,
+      "caracteres_extraidos": 4130,
+      "titulo": "Se a passarela romper"
+    },
+    {
+      "pagina": 209,
+      "ocupacao_aproximada": 0.757,
+      "caracteres_extraidos": 3836,
+      "titulo": "Socorrer e retirar o grupo"
+    },
+    {
+      "pagina": 210,
+      "ocupacao_aproximada": 0.513,
+      "caracteres_extraidos": 1584,
+      "titulo": "Resumo do perigo"
+    },
+    {
+      "pagina": 211,
+      "ocupacao_aproximada": 0.849,
+      "caracteres_extraidos": 3113,
+      "titulo": "Inimigos e perigos juntos"
+    },
+    {
+      "pagina": 212,
+      "ocupacao_aproximada": 0.798,
+      "caracteres_extraidos": 3081,
+      "titulo": "Escolhas no mesmo turno"
+    },
+    {
+      "pagina": 213,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 3346,
+      "titulo": "Mostre as opções"
+    },
+    {
+      "pagina": 214,
+      "ocupacao_aproximada": 0.792,
+      "caracteres_extraidos": 1995,
+      "titulo": "O portão do depósito"
+    },
+    {
+      "pagina": 215,
+      "ocupacao_aproximada": 0.848,
+      "caracteres_extraidos": 3019,
+      "titulo": "Apresente a situação"
+    },
+    {
+      "pagina": 216,
+      "ocupacao_aproximada": 0.869,
+      "caracteres_extraidos": 4384,
+      "titulo": "Controlar o portão"
+    },
+    {
+      "pagina": 217,
+      "ocupacao_aproximada": 0.473,
+      "caracteres_extraidos": 2441,
+      "titulo": null
+    },
+    {
+      "pagina": 218,
+      "ocupacao_aproximada": 0.8,
+      "caracteres_extraidos": 3267,
+      "titulo": "Encerrar a missão"
+    },
+    {
+      "pagina": 219,
+      "ocupacao_aproximada": 0.726,
+      "caracteres_extraidos": 2143,
+      "titulo": "Ficha do Sineiro"
+    },
+    {
+      "pagina": 220,
+      "ocupacao_aproximada": 0.86,
+      "caracteres_extraidos": 4110,
+      "titulo": "O salão e a caixa"
+    },
+    {
+      "pagina": 221,
+      "ocupacao_aproximada": 0.832,
+      "caracteres_extraidos": 4155,
+      "titulo": "Uma rodada para responder"
+    },
+    {
+      "pagina": 222,
+      "ocupacao_aproximada": 0.841,
+      "caracteres_extraidos": 2974,
+      "titulo": "Sineiro: ficha após a Doma"
+    },
+    {
+      "pagina": 223,
+      "ocupacao_aproximada": 0.802,
+      "caracteres_extraidos": 2580,
+      "titulo": "Ficha da entidade"
+    },
+    {
+      "pagina": 224,
+      "ocupacao_aproximada": 0.81,
+      "caracteres_extraidos": 4009,
+      "titulo": null
+    },
+    {
+      "pagina": 225,
+      "ocupacao_aproximada": 0.757,
+      "caracteres_extraidos": 3733,
+      "titulo": "Recuperar e comandar o Sineiro"
+    },
+    {
+      "pagina": 226,
+      "ocupacao_aproximada": 0.86,
+      "caracteres_extraidos": 1766,
+      "titulo": "Retirar a caixa, proteger a equipe"
+    },
+    {
+      "pagina": 227,
+      "ocupacao_aproximada": 0.77,
+      "caracteres_extraidos": 3090,
+      "titulo": null
+    },
+    {
+      "pagina": 228,
+      "ocupacao_aproximada": 0.851,
+      "caracteres_extraidos": 4204,
+      "titulo": "Primeiro exemplo: abrir uma saída"
+    },
+    {
+      "pagina": 229,
+      "ocupacao_aproximada": 0.798,
+      "caracteres_extraidos": 3255,
+      "titulo": "Segundo exemplo: a interrupção falha"
+    },
+    {
+      "pagina": 230,
+      "ocupacao_aproximada": 0.655,
+      "caracteres_extraidos": 3285,
+      "titulo": null
+    },
+    {
+      "pagina": 231,
+      "ocupacao_aproximada": 0.732,
+      "caracteres_extraidos": 2848,
+      "titulo": "O que observar ao usar o exemplo"
+    },
+    {
+      "pagina": 232,
+      "ocupacao_aproximada": 0.851,
+      "caracteres_extraidos": 2610,
+      "titulo": "Recursos que os dois possuem"
+    },
+    {
+      "pagina": 233,
+      "ocupacao_aproximada": 0.856,
+      "caracteres_extraidos": 3959,
+      "titulo": "Toru"
+    },
+    {
+      "pagina": 234,
+      "ocupacao_aproximada": 0.655,
+      "caracteres_extraidos": 3137,
+      "titulo": null
+    },
+    {
+      "pagina": 235,
+      "ocupacao_aproximada": 0.683,
+      "caracteres_extraidos": 2352,
+      "titulo": "Integridade, derrota e continuidade"
+    },
+    {
+      "pagina": 236,
+      "ocupacao_aproximada": 0.913,
+      "caracteres_extraidos": 1506,
+      "titulo": null
+    },
+    {
+      "pagina": 237,
+      "ocupacao_aproximada": 0.885,
+      "caracteres_extraidos": 4211,
+      "titulo": "Rodada 1 - o apoio já está em campo"
+    },
+    {
+      "pagina": 238,
+      "ocupacao_aproximada": 0.801,
+      "caracteres_extraidos": 3119,
+      "titulo": "Rodada 3 - Toru fica sem apoio"
+    },
+    {
+      "pagina": 239,
+      "ocupacao_aproximada": 0.797,
+      "caracteres_extraidos": 3383,
+      "titulo": "Daigo, Vigia e Tessa"
+    },
+    {
+      "pagina": 240,
+      "ocupacao_aproximada": 0.764,
+      "caracteres_extraidos": 2149,
+      "titulo": "Características dos três guardas"
+    },
+    {
+      "pagina": 241,
+      "ocupacao_aproximada": 0.873,
+      "caracteres_extraidos": 3468,
+      "titulo": "Energia e respostas"
+    },
+    {
+      "pagina": 242,
+      "ocupacao_aproximada": 0.82,
+      "caracteres_extraidos": 3648,
+      "titulo": "Vigia"
+    },
+    {
+      "pagina": 243,
+      "ocupacao_aproximada": 0.707,
+      "caracteres_extraidos": 2723,
+      "titulo": "Integridade e encerramento"
+    },
+    {
+      "pagina": 244,
+      "ocupacao_aproximada": 0.882,
+      "caracteres_extraidos": 1481,
+      "titulo": "Disputa pelo arquivo"
+    },
+    {
+      "pagina": 245,
+      "ocupacao_aproximada": 0.915,
+      "caracteres_extraidos": 4374,
+      "titulo": "Como os guardas usam o espaço"
+    },
+    {
+      "pagina": 246,
+      "ocupacao_aproximada": 0.889,
+      "caracteres_extraidos": 2782,
+      "titulo": "O perigo da Fita de contenção"
+    },
+    {
+      "pagina": 247,
+      "ocupacao_aproximada": 0.624,
+      "caracteres_extraidos": 3085,
+      "titulo": "Socorrer ou atacar?"
+    },
+    {
+      "pagina": 248,
+      "ocupacao_aproximada": 0.796,
+      "caracteres_extraidos": 3299,
+      "titulo": "Queda não é derrota"
+    },
+    {
+      "pagina": 249,
+      "ocupacao_aproximada": 0.868,
+      "caracteres_extraidos": 1452,
+      "titulo": null
+    },
+    {
+      "pagina": 250,
+      "ocupacao_aproximada": 0.801,
+      "caracteres_extraidos": 2669,
+      "titulo": "Ficha do perigo"
+    },
+    {
+      "pagina": 251,
+      "ocupacao_aproximada": 0.811,
+      "caracteres_extraidos": 3347,
+      "titulo": "Resolva dano e condição separadamente"
+    },
+    {
+      "pagina": 252,
+      "ocupacao_aproximada": 0.849,
+      "caracteres_extraidos": 3210,
+      "titulo": "Exemplo: sair da sala e receber ajuda"
+    },
+    {
+      "pagina": 253,
+      "ocupacao_aproximada": 0.769,
+      "caracteres_extraidos": 2941,
+      "titulo": "Se a exposição levar a zero de vida"
+    },
+    {
+      "pagina": 254,
+      "ocupacao_aproximada": 0.813,
+      "caracteres_extraidos": 2948,
+      "titulo": "Informe antes do contato"
+    },
+    {
+      "pagina": 255,
+      "ocupacao_aproximada": 0.791,
+      "caracteres_extraidos": 3540,
+      "titulo": "Resolva cada crise"
+    },
+    {
+      "pagina": 256,
+      "ocupacao_aproximada": 0.675,
+      "caracteres_extraidos": 2571,
+      "titulo": "Exemplo: do contato à recuperação"
+    },
+    {
+      "pagina": 257,
+      "ocupacao_aproximada": 0.776,
+      "caracteres_extraidos": 3225,
+      "titulo": "Acompanhar a doença entre missões"
+    },
+    {
+      "pagina": 258,
+      "ocupacao_aproximada": 0.864,
+      "caracteres_extraidos": 2301,
+      "titulo": "2. Construção ou escolha das ameaças"
+    },
+    {
+      "pagina": 259,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 3098,
+      "titulo": "3. Capacidade conferida: Fio de impulso"
+    },
+    {
+      "pagina": 260,
+      "ocupacao_aproximada": 0.869,
+      "caracteres_extraidos": 3059,
+      "titulo": "4. Lugar, sinais e mudanças"
+    },
+    {
+      "pagina": 261,
+      "ocupacao_aproximada": 0.683,
+      "caracteres_extraidos": 2653,
+      "titulo": "6. Resultado e continuidade"
+    },
+    {
+      "pagina": 262,
+      "ocupacao_aproximada": 0.815,
+      "caracteres_extraidos": 2800,
+      "titulo": "Conferir e comparar um chefe"
+    },
+    {
+      "pagina": 263,
+      "ocupacao_aproximada": 0.858,
+      "caracteres_extraidos": 2820,
+      "titulo": "Uma resposta fora do turno já possível"
+    },
+    {
+      "pagina": 264,
+      "ocupacao_aproximada": 0.455,
+      "caracteres_extraidos": 1694,
+      "titulo": "Quem recebe um turno para responder?"
+    },
+    {
+      "pagina": 265,
+      "ocupacao_aproximada": 0.831,
+      "caracteres_extraidos": 3065,
+      "titulo": "Mudança de comportamento e mudança de cenário"
+    },
+    {
+      "pagina": 266,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 3700,
+      "titulo": "Conheça a presença"
+    },
+    {
+      "pagina": 267,
+      "ocupacao_aproximada": 0.594,
+      "caracteres_extraidos": 2825,
+      "titulo": "Uma cena de conflito"
+    },
+    {
+      "pagina": 268,
+      "ocupacao_aproximada": 0.79,
+      "caracteres_extraidos": 3530,
+      "titulo": "Quando a relação muda"
+    },
+    {
+      "pagina": 269,
+      "ocupacao_aproximada": 0.825,
+      "caracteres_extraidos": 2947,
+      "titulo": "A família Arata"
+    },
+    {
+      "pagina": 270,
+      "ocupacao_aproximada": 0.495,
+      "caracteres_extraidos": 2396,
+      "titulo": null
+    },
+    {
+      "pagina": 271,
+      "ocupacao_aproximada": 0.719,
+      "caracteres_extraidos": 3360,
+      "titulo": "As capacidades da família em jogo"
+    },
+    {
+      "pagina": 272,
+      "ocupacao_aproximada": 0.78,
+      "caracteres_extraidos": 3154,
+      "titulo": "O atendimento de Ena"
+    },
+    {
+      "pagina": 273,
+      "ocupacao_aproximada": 0.719,
+      "caracteres_extraidos": 2597,
+      "titulo": "Reparadores de Classes diferentes"
+    },
+    {
+      "pagina": 274,
+      "ocupacao_aproximada": 0.869,
+      "caracteres_extraidos": 3187,
+      "titulo": "Participar à distância"
+    },
+    {
+      "pagina": 275,
+      "ocupacao_aproximada": 0.794,
+      "caracteres_extraidos": 3591,
+      "titulo": "O corpo continua presente na história"
+    },
+    {
+      "pagina": 276,
+      "ocupacao_aproximada": 0.822,
+      "caracteres_extraidos": 3630,
+      "titulo": "Cuidados com cada condição"
+    },
+    {
+      "pagina": 277,
+      "ocupacao_aproximada": 0.836,
+      "caracteres_extraidos": 3894,
+      "titulo": "Exemplos de avaliação de poderes"
+    },
+    {
+      "pagina": 278,
+      "ocupacao_aproximada": 0.853,
+      "caracteres_extraidos": 4161,
+      "titulo": "Sentir vibrações"
+    },
+    {
+      "pagina": 279,
+      "ocupacao_aproximada": 0.748,
+      "caracteres_extraidos": 3556,
+      "titulo": "Criar menores de Origem"
+    },
+    {
+      "pagina": 280,
+      "ocupacao_aproximada": 0.78,
+      "caracteres_extraidos": 2753,
+      "titulo": "Avaliar poderes avançados"
+    },
+    {
+      "pagina": 281,
+      "ocupacao_aproximada": 0.888,
+      "caracteres_extraidos": 4262,
+      "titulo": null
+    },
+    {
+      "pagina": 282,
+      "ocupacao_aproximada": 0.687,
+      "caracteres_extraidos": 3294,
+      "titulo": "Domínio: aparência, Acerto e Efeito"
+    },
+    {
+      "pagina": 283,
+      "ocupacao_aproximada": 0.786,
+      "caracteres_extraidos": 3723,
+      "titulo": "O CE4 da Restrição corporal"
+    },
+    {
+      "pagina": 284,
+      "ocupacao_aproximada": 0.807,
+      "caracteres_extraidos": 3893,
+      "titulo": "Comprar uma Melhoria mais de uma vez"
+    },
+    {
+      "pagina": 285,
+      "ocupacao_aproximada": 0.816,
+      "caracteres_extraidos": 3956,
+      "titulo": "A situação do Traje"
+    },
+    {
+      "pagina": 286,
+      "ocupacao_aproximada": 0.724,
+      "caracteres_extraidos": 2845,
+      "titulo": "Ampliar uma mescla e trocar sua Forma"
+    },
+    {
+      "pagina": 287,
+      "ocupacao_aproximada": 0.844,
+      "caracteres_extraidos": 2962,
+      "titulo": "Prepare as duas Classes"
+    },
+    {
+      "pagina": 288,
+      "ocupacao_aproximada": 0.514,
+      "caracteres_extraidos": 1662,
+      "titulo": "Trocar Aura por Explosão"
+    },
+    {
+      "pagina": 289,
+      "ocupacao_aproximada": 0.78,
+      "caracteres_extraidos": 3613,
+      "titulo": "Exemplo com Forma Fluida"
+    },
+    {
+      "pagina": 290,
+      "ocupacao_aproximada": 0.868,
+      "caracteres_extraidos": 3657,
+      "titulo": "Combinar efeitos"
+    },
+    {
+      "pagina": 291,
+      "ocupacao_aproximada": 0.733,
+      "caracteres_extraidos": 2533,
+      "titulo": "Condicional: uma fonte de água"
+    },
+    {
+      "pagina": 292,
+      "ocupacao_aproximada": 0.877,
+      "caracteres_extraidos": 3390,
+      "titulo": "Restrição Própria: Matriz de chão"
+    },
+    {
+      "pagina": 293,
+      "ocupacao_aproximada": 0.807,
+      "caracteres_extraidos": 3333,
+      "titulo": "Reveja as Restrições depois de jogar"
+    },
+    {
+      "pagina": 294,
+      "ocupacao_aproximada": 0.838,
+      "caracteres_extraidos": 3404,
+      "titulo": "Quando a investigação vira combate"
+    },
+    {
+      "pagina": 295,
+      "ocupacao_aproximada": 0.842,
+      "caracteres_extraidos": 3244,
+      "titulo": "Cancelar um efeito que já tem Classe"
+    },
+    {
+      "pagina": 296,
+      "ocupacao_aproximada": 0.814,
+      "caracteres_extraidos": 3056,
+      "titulo": "O que Desarma o Feitiço não pode cancelar"
+    },
+    {
+      "pagina": 297,
+      "ocupacao_aproximada": 0.738,
+      "caracteres_extraidos": 2346,
+      "titulo": "O que registrar na ficha"
+    },
+    {
+      "pagina": 298,
+      "ocupacao_aproximada": 0.836,
+      "caracteres_extraidos": 3175,
+      "titulo": "Ofícios, fabricação e reparos"
+    },
+    {
+      "pagina": 299,
+      "ocupacao_aproximada": 0.826,
+      "caracteres_extraidos": 3944,
+      "titulo": "Decida se precisa de teste"
+    },
+    {
+      "pagina": 300,
+      "ocupacao_aproximada": 0.524,
+      "caracteres_extraidos": 1900,
+      "titulo": "Ajuda e divisão de trabalho"
+    },
+    {
+      "pagina": 301,
+      "ocupacao_aproximada": 0.829,
+      "caracteres_extraidos": 3828,
+      "titulo": "Trabalho, tratamento e aprendizado"
+    },
+    {
+      "pagina": 302,
+      "ocupacao_aproximada": 0.853,
+      "caracteres_extraidos": 4159,
+      "titulo": "Identificar uma peça desconhecida"
+    },
+    {
+      "pagina": 303,
+      "ocupacao_aproximada": 0.769,
+      "caracteres_extraidos": 3090,
+      "titulo": "Preparar um objeto perigoso"
+    },
+    {
+      "pagina": 304,
+      "ocupacao_aproximada": 0.854,
+      "caracteres_extraidos": 2907,
+      "titulo": "Uma ferramenta nova: Anel de Testemunho"
+    },
+    {
+      "pagina": 305,
+      "ocupacao_aproximada": 0.716,
+      "caracteres_extraidos": 2977,
+      "titulo": "Identificar o exemplar da oficina"
+    },
+    {
+      "pagina": 306,
+      "ocupacao_aproximada": 0.629,
+      "caracteres_extraidos": 2129,
+      "titulo": null
+    },
+    {
+      "pagina": 307,
+      "ocupacao_aproximada": 0.799,
+      "caracteres_extraidos": 2529,
+      "titulo": "Trabalho, falha e entrega"
+    },
+    {
+      "pagina": 308,
+      "ocupacao_aproximada": 0.715,
+      "caracteres_extraidos": 3116,
+      "titulo": "Um objeto próprio para vender"
+    },
+    {
+      "pagina": 309,
+      "ocupacao_aproximada": 0.801,
+      "caracteres_extraidos": 3129,
+      "titulo": "Devolver a kunai e registrar a venda"
+    },
+    {
+      "pagina": 310,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 3404,
+      "titulo": "O selo e o chamado da Pastilha"
+    },
+    {
+      "pagina": 311,
+      "ocupacao_aproximada": 0.526,
+      "caracteres_extraidos": 2593,
+      "titulo": "Examinar, retirar e renovar"
+    },
+    {
+      "pagina": 312,
+      "ocupacao_aproximada": 0.771,
+      "caracteres_extraidos": 3657,
+      "titulo": "Destruição e entrega segura"
+    },
+    {
+      "pagina": 313,
+      "ocupacao_aproximada": 0.811,
+      "caracteres_extraidos": 2401,
+      "titulo": "Conferir todos os requisitos do feito"
+    },
+    {
+      "pagina": 314,
+      "ocupacao_aproximada": 0.444,
+      "caracteres_extraidos": 1693,
+      "titulo": "Aplicar o XP no encerramento"
+    },
+    {
+      "pagina": 315,
+      "ocupacao_aproximada": 0.844,
+      "caracteres_extraidos": 3376,
+      "titulo": "Decidir a promoção de Grau"
+    },
+    {
+      "pagina": 316,
+      "ocupacao_aproximada": 0.804,
+      "caracteres_extraidos": 3056,
+      "titulo": "As ideias desenvolvidas neste Guia"
+    },
+    {
+      "pagina": 317,
+      "ocupacao_aproximada": 0.833,
+      "caracteres_extraidos": 4029,
+      "titulo": null
+    },
+    {
+      "pagina": 318,
+      "ocupacao_aproximada": 0.843,
+      "caracteres_extraidos": 3633,
+      "titulo": "Teste o funcionamento antes de aprovar"
+    },
+    {
+      "pagina": 319,
+      "ocupacao_aproximada": 0.82,
+      "caracteres_extraidos": 2691,
+      "titulo": "Consulta rápida"
+    },
+    {
+      "pagina": 320,
+      "ocupacao_aproximada": 0.831,
+      "caracteres_extraidos": 3463,
+      "titulo": "O que o impedimento bloqueia"
+    },
+    {
+      "pagina": 321,
+      "ocupacao_aproximada": 0.793,
+      "caracteres_extraidos": 3170,
+      "titulo": "Quando a obrigação é cumprida"
+    },
+    {
+      "pagina": 322,
+      "ocupacao_aproximada": 0.855,
+      "caracteres_extraidos": 3214,
+      "titulo": null
+    },
+    {
+      "pagina": 323,
+      "ocupacao_aproximada": 0.497,
+      "caracteres_extraidos": 2437,
+      "titulo": "Prazo e suspensão do benefício"
+    },
+    {
+      "pagina": 324,
+      "ocupacao_aproximada": 0.725,
+      "caracteres_extraidos": 3333,
+      "titulo": "Encerrar o Pacto"
+    },
+    {
+      "pagina": 325,
+      "ocupacao_aproximada": 0.749,
+      "caracteres_extraidos": 2669,
+      "titulo": "Consulta rápida"
+    },
+    {
+      "pagina": 326,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 3959,
+      "titulo": "Começo da sequência e começo do turno"
+    },
+    {
+      "pagina": 327,
+      "ocupacao_aproximada": 0.863,
+      "caracteres_extraidos": 4223,
+      "titulo": "Mudanças de máximo"
+    },
+    {
+      "pagina": 328,
+      "ocupacao_aproximada": 0.767,
+      "caracteres_extraidos": 2959,
+      "titulo": "Descanso, adesão e encerramento"
+    },
+    {
+      "pagina": 329,
+      "ocupacao_aproximada": 0.857,
+      "caracteres_extraidos": 3119,
+      "titulo": "A Promessa do arquivo"
+    },
+    {
+      "pagina": 330,
+      "ocupacao_aproximada": 0.858,
+      "caracteres_extraidos": 3045,
+      "titulo": "Como decidir o que aconteceu"
+    },
+    {
+      "pagina": 331,
+      "ocupacao_aproximada": 0.817,
+      "caracteres_extraidos": 3544,
+      "titulo": "Consequência de quebra"
+    },
+    {
+      "pagina": 332,
+      "ocupacao_aproximada": 0.853,
+      "caracteres_extraidos": 4055,
+      "titulo": "O que encerra o bloqueio"
+    },
+    {
+      "pagina": 333,
+      "ocupacao_aproximada": 0.573,
+      "caracteres_extraidos": 2697,
+      "titulo": "Três exemplos de desfecho"
+    },
+    {
+      "pagina": 334,
+      "ocupacao_aproximada": 0.705,
+      "caracteres_extraidos": 3291,
+      "titulo": "O que registrar para outra mesa"
+    },
+    {
+      "pagina": 335,
+      "ocupacao_aproximada": 0.839,
+      "caracteres_extraidos": 3370,
+      "titulo": "Escolha a forma de aquisição"
+    },
+    {
+      "pagina": 336,
+      "ocupacao_aproximada": 0.792,
+      "caracteres_extraidos": 3429,
+      "titulo": "Domar uma maldição"
+    },
+    {
+      "pagina": 337,
+      "ocupacao_aproximada": 0.814,
+      "caracteres_extraidos": 2502,
+      "titulo": "Resolva o teste de criação"
+    },
+    {
+      "pagina": 338,
+      "ocupacao_aproximada": 0.776,
+      "caracteres_extraidos": 2671,
+      "titulo": "Conclua e acompanhe a evolução"
+    },
+    {
+      "pagina": 339,
+      "ocupacao_aproximada": 0.491,
+      "caracteres_extraidos": 2358,
+      "titulo": "Acompanhar a entidade entre cenas"
+    },
+    {
+      "pagina": 340,
+      "ocupacao_aproximada": 0.671,
+      "caracteres_extraidos": 2610,
+      "titulo": "Quando o invocador deixa de agir"
+    },
+    {
+      "pagina": 341,
+      "ocupacao_aproximada": 0.751,
+      "caracteres_extraidos": 2667,
+      "titulo": "Registre horas, apresente etapas"
+    },
+    {
+      "pagina": 342,
+      "ocupacao_aproximada": 0.834,
+      "caracteres_extraidos": 3535,
+      "titulo": "O que acontece na falha"
+    },
+    {
+      "pagina": 343,
+      "ocupacao_aproximada": 0.831,
+      "caracteres_extraidos": 3438,
+      "titulo": "Trabalhar com ajuda"
+    },
+    {
+      "pagina": 344,
+      "ocupacao_aproximada": 0.735,
+      "caracteres_extraidos": 2585,
+      "titulo": "Reconstruir, transferir e herdar entidades"
+    },
+    {
+      "pagina": 345,
+      "ocupacao_aproximada": 0.804,
+      "caracteres_extraidos": 3486,
+      "titulo": "Transferir ou herdar"
+    },
+    {
+      "pagina": 346,
+      "ocupacao_aproximada": 0.802,
+      "caracteres_extraidos": 2888,
+      "titulo": null
+    },
+    {
+      "pagina": 347,
+      "ocupacao_aproximada": 0.788,
+      "caracteres_extraidos": 3692,
+      "titulo": "Adaptar e registrar o projeto"
+    },
+    {
+      "pagina": 348,
+      "ocupacao_aproximada": 0.877,
+      "caracteres_extraidos": 3174,
+      "titulo": "O espaço"
+    },
+    {
+      "pagina": 349,
+      "ocupacao_aproximada": 0.863,
+      "caracteres_extraidos": 2562,
+      "titulo": "Ficha do cão"
+    },
+    {
+      "pagina": 350,
+      "ocupacao_aproximada": 0.836,
+      "caracteres_extraidos": 3957,
+      "titulo": "O turno do adversário"
+    },
+    {
+      "pagina": 351,
+      "ocupacao_aproximada": 0.615,
+      "caracteres_extraidos": 2989,
+      "titulo": "Ajuda, desistência e socorro"
+    },
+    {
+      "pagina": 352,
+      "ocupacao_aproximada": 0.499,
+      "caracteres_extraidos": 1854,
+      "titulo": "Depois da prova"
+    },
+    {
+      "pagina": 353,
+      "ocupacao_aproximada": 0.765,
+      "caracteres_extraidos": 3398,
+      "titulo": "Registro preenchido de uma vitória"
+    },
+    {
+      "pagina": 354,
+      "ocupacao_aproximada": 0.84,
+      "caracteres_extraidos": 2527,
+      "titulo": "As duas fichas"
+    },
+    {
+      "pagina": 355,
+      "ocupacao_aproximada": 0.72,
+      "caracteres_extraidos": 3463,
+      "titulo": "Conduza o encontro"
+    },
+    {
+      "pagina": 356,
+      "ocupacao_aproximada": 0.647,
+      "caracteres_extraidos": 2018,
+      "titulo": "A submissão"
+    },
+    {
+      "pagina": 357,
+      "ocupacao_aproximada": 0.825,
+      "caracteres_extraidos": 3330,
+      "titulo": null
+    },
+    {
+      "pagina": 358,
+      "ocupacao_aproximada": 0.542,
+      "caracteres_extraidos": 2199,
+      "titulo": "Tentar antes da derrota"
+    },
+    {
+      "pagina": 359,
+      "ocupacao_aproximada": 0.768,
+      "caracteres_extraidos": 3594,
+      "titulo": "Registro para a próxima mesa"
+    },
+    {
+      "pagina": 360,
+      "ocupacao_aproximada": 0.793,
+      "caracteres_extraidos": 2618,
+      "titulo": "A ficha no nível 5"
+    },
+    {
+      "pagina": 361,
+      "ocupacao_aproximada": 0.828,
+      "caracteres_extraidos": 3156,
+      "titulo": "Escolha as Famílias"
+    },
+    {
+      "pagina": 362,
+      "ocupacao_aproximada": 0.877,
+      "caracteres_extraidos": 3453,
+      "titulo": "O poder próprio: Retrato de referência"
+    },
+    {
+      "pagina": 363,
+      "ocupacao_aproximada": 0.816,
+      "caracteres_extraidos": 3968,
+      "titulo": "Quando o pedido excede os limites"
+    },
+    {
+      "pagina": 364,
+      "ocupacao_aproximada": 0.721,
+      "caracteres_extraidos": 2723,
+      "titulo": "Os próximos níveis"
+    },
+    {
+      "pagina": 365,
+      "ocupacao_aproximada": 0.824,
+      "caracteres_extraidos": 2657,
+      "titulo": "Transporte com entidades"
+    },
+    {
+      "pagina": 366,
+      "ocupacao_aproximada": 0.857,
+      "caracteres_extraidos": 2748,
+      "titulo": "Talento proposto: Albarda de papel"
+    },
+    {
+      "pagina": 367,
+      "ocupacao_aproximada": 0.826,
+      "caracteres_extraidos": 3279,
+      "titulo": "A conta de um passageiro"
+    },
+    {
+      "pagina": 368,
+      "ocupacao_aproximada": 0.874,
+      "caracteres_extraidos": 4185,
+      "titulo": "Uma tarefa que pode continuar"
+    },
+    {
+      "pagina": 369,
+      "ocupacao_aproximada": 0.821,
+      "caracteres_extraidos": 2968,
+      "titulo": "Quando o invocador morre"
+    },
+    {
+      "pagina": 370,
+      "ocupacao_aproximada": 0.787,
+      "caracteres_extraidos": 3124,
+      "titulo": "Registro de uma retirada"
+    },
+    {
+      "pagina": 371,
+      "ocupacao_aproximada": 0.829,
+      "caracteres_extraidos": 2801,
+      "titulo": "Fabricar e evoluir o Vigia do depósito"
+    },
+    {
+      "pagina": 372,
+      "ocupacao_aproximada": 0.854,
+      "caracteres_extraidos": 3542,
+      "titulo": "Trabalho, falha e entrega"
+    },
+    {
+      "pagina": 373,
+      "ocupacao_aproximada": 0.864,
+      "caracteres_extraidos": 2364,
+      "titulo": "A primeira manifestação"
+    },
+    {
+      "pagina": 374,
+      "ocupacao_aproximada": 0.485,
+      "caracteres_extraidos": 2541,
+      "titulo": "Reconstruir para Classe 4"
+    },
+    {
+      "pagina": 375,
+      "ocupacao_aproximada": 0.579,
+      "caracteres_extraidos": 2799,
+      "titulo": "Transferir sem fabricar outra criatura"
+    },
+    {
+      "pagina": 376,
+      "ocupacao_aproximada": 0.891,
+      "caracteres_extraidos": 2521,
+      "titulo": "Termos do mundo"
+    },
+    {
+      "pagina": 377,
+      "ocupacao_aproximada": 0.922,
+      "caracteres_extraidos": 2826,
+      "titulo": "Energia, efeitos e seres"
+    },
+    {
+      "pagina": 378,
+      "ocupacao_aproximada": 0.848,
+      "caracteres_extraidos": 2841,
+      "titulo": null
+    },
+    {
+      "pagina": 379,
+      "ocupacao_aproximada": 0.579,
+      "caracteres_extraidos": 2102,
+      "titulo": "Números que não significam a mesma coisa"
+    },
+    {
+      "pagina": 380,
+      "ocupacao_aproximada": 0.788,
+      "caracteres_extraidos": 3095,
+      "titulo": "Ideias da obra para suas missões"
+    },
+    {
+      "pagina": 381,
+      "ocupacao_aproximada": 0.804,
+      "caracteres_extraidos": 3817,
+      "titulo": "Acesso disputado"
+    },
+    {
+      "pagina": 382,
+      "ocupacao_aproximada": 0.848,
+      "caracteres_extraidos": 4049,
+      "titulo": "Aliados independentes"
+    },
+    {
+      "pagina": 383,
+      "ocupacao_aproximada": 0.811,
+      "caracteres_extraidos": 3540,
+      "titulo": "Referências"
+    }
+  ],
+  "falhas": [],
+  "limite": "Controle automático de composição; inspeção visual registrada separadamente."
+}

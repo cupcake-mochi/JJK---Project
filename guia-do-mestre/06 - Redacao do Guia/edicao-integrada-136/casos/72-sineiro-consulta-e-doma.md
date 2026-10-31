@@ -100,6 +100,6 @@ Registre PV, Integridade, condições, mão ocupada, vítima e carga conjunta. P
 
 As habilidades do chefe se complementam: ele captura e transporta a vítima, anuncia o golpe e dá tempo para o grupo reagir. Interromper a preparação evita o impacto; se ele conseguir bater, fica exposto. **Ainda é preciso testar em mesa o perigo que isso representa para cada grupo.** A comparação numérica deve considerar também quanto o chefe perde ao ser controlado e quantas tentativas de contenção consegue realizar antes de cair.
 
-A vida inimiga mudou de 72 para 108, mas a construção domada continua em 38 PV e 19 de Integridade; o nível e suas escolhas foram preservados.
+O Sineiro tem 108 PV na ficha do confronto. Depois da Doma, seu máximo é 38 PV, com 19 de Integridade; o nível e as escolhas de construção continuam os da conversão acima.
 
 **Exemplo de condução:** [Retirar a caixa, proteger a equipe](<73-ensaio-guiado-do-sineiro.md>), com captura, interrupção, retirada e socorro. O exemplo usa a ficha do confronto e não testa a versão domada.

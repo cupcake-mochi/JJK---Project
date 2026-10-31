@@ -1,0 +1,112 @@
+{
+  "registro": 144,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
+      "sha256": "264d6c91204abed0a25bd1396c3f6c704000a1ef57d8573d34ccf8f913764c8f",
+      "palavras_da_fonte": 2322,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256": "e1c318fc84813cee0db3f318aeb60dc194b3870b8d56959ff27ad7b9896468e2",
+      "palavras_da_fonte": 2390,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+      "sha256": "78251b062fdcd5f55433a1d197cdd392295e599997fe8b7b6f690881565db20d",
+      "palavras_da_fonte": 2028,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+      "sha256": "b50754806d2613f8c7638dffc2efad441f3c6fcc8272d6698cdc827c2d423b12",
+      "palavras_da_fonte": 2320,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256": "aa2c9861fdf48ba6929cb9ed490c8905753caeface1e93e857841671475af493",
+      "palavras_da_fonte": 1639,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/64-a-passarela-e-o-guincho.md",
+      "sha256": "e8ae354e57b21594725c7f4947cd7ff3bf10b02856ae2abace7dc2ca294662ce",
+      "palavras_da_fonte": 3287,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "sha256": "6c5211b02e3d6a051501d9211dfa8d992ed2607f31573b2e10f352484dd55e14",
+      "palavras_da_fonte": 1975,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+      "sha256": "51d7c36bfc06f03e35a0ec1c070c9e5094f73067945689301d3b0f01f466a761",
+      "palavras_da_fonte": 2288,
+      "alcance": "Leitura completa e segunda leitura completa após os ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/02-ficha-de-preparacao.md",
+      "sha256": "ce592a232bd8361cf7658290c5a72738401cb62db1320b705fce90ba35ce93fb",
+      "palavras_da_fonte": 675,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+      "sha256": "bb0960cd0e9a31c265079205e2f3b6255762018c2a1c32d3c18fd8d577945c83",
+      "palavras_da_fonte": 1123,
+      "alcance": "Leitura completa e segunda leitura completa após os ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836",
+      "palavras_da_fonte": 658,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "sha256": "f46ac70a6c8bd1f84151db42f88d5ee24c6f0802db0e68ac4ff713b7d7ace4f1",
+      "palavras_da_fonte": 1658,
+      "alcance": "Leitura completa e segunda leitura completa após os ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+      "sha256": "4cc46fe86c911829e7ff92efe0fa7c7cf998b411c1ef7a5c0b1d1f6e1d911b9c",
+      "palavras_da_fonte": 1605,
+      "alcance": "Leitura completa e segunda leitura completa após os ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+      "sha256": "e362ef77f6e9bf11ec09b8eeef46c5b79411c2ecc1620bea1ae6508fa2b7f22c",
+      "palavras_da_fonte": 491,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/indice-de-casos.md",
+      "sha256": "26c291742a5cb1453107a3ef92ef04f7b23804da04daa0f655cfc0ac678c7f79",
+      "palavras_da_fonte": 435,
+      "alcance": "Leitura completa e comparação com o conjunto, sem alteração neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+      "sha256": "9e59928c64ea459ecb45f95f924079cf071d8b130bad8bfab1c713d9aa52fdae",
+      "palavras_da_fonte": 516,
+      "alcance": "Leitura completa e segunda leitura completa após os ajustes."
+    }
+  ],
+  "trechos_comparados": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+      "sha256": "d3552c64330e9cdbd7073bf4847999bb9b60cbd0c4be9689cf254b310055aaeb",
+      "alcance": "Definir os limites de uma Cortina; conferência do destino, do assunto e da distinção de ocultação."
+    }
+  ],
+  "fonte_tecnica_preservada": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "sha256_fonte_tecnica": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "limite": "Leitura editorial e conferência de consultas, contas selecionadas e fontes citadas. Não é teste com jogadores, revisão visual do PDF ou nova leitura integral dos livros comparados."
+}

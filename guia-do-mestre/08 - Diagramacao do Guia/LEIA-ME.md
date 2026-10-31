@@ -1,6 +1,20 @@
 # Guia do Mestre — edição diagramada pré-1.0
 
-**Atualização vigente — registro 93, 26/10/2026:** capítulo 1 revisado; PDF com 359 páginas, inspeção de todas as páginas após a repaginação. Próxima tarefa: capítulo 2, GPT-6.1 Sol, esforço alto. Consulte o [relatório da revisão](<../04 - Planejamento/93-revisao-editorial-do-capitulo-1.md>). As descrições anteriores registram a entrega 92.
+> **Fila vigente - registro 148, 31/10/2026:** salvamento para retomada na nuvem até o registro editorial 147; [estado e retomada](<../04 - Planejamento/148-salvamento-e-retomada-na-nuvem.md>). Livro e pacote de impressão concluídos. Próximo: plano de avaliação da dificuldade dos encontros; GPT-6 Astra, esforço extra alto. Retorno de leitores pode acompanhar o trabalho. Confirmar envio em `SALVAMENTO.json` e no comprovante da operação; avisos anteriores são históricos.
+
+> **Fila histórica - registro 147, 30/10/2026:** três ajustes editoriais concluídos: folhas curtas primeiro, falas e comentários distintos, avisos repetidos reduzidos. [PDF de 383 páginas, pacote de impressão e revisão](<../04 - Planejamento/147-ajustes-de-consulta-e-leitura.md>). Geradores HTML e PDF em `apoio-editorial-147`. Próximo: plano de avaliação da dificuldade dos encontros; GPT-6 Astra, esforço extra alto. Retorno da pré-1.0 pode ser incorporado desde já. Salvamento local; último GitHub: registro 141.
+
+> **Fila histórica - registro 146, 30/10/2026:** comparação editorial da etapa 8 concluída, com [parecer, matriz das 20 competências e notas da edição](<../04 - Planejamento/146-comparacao-final-e-proximos-ajustes.md>). Primeira missão reunida, preparo mínimo e variedade demonstrados; equivalência geral ainda parcial. **Próximo: três ajustes editoriais — folhas curtas primeiro, distinção de falas e comentários, redução de avisos genéricos repetidos nas ideias; GPT-6.1 Sol, esforço alto.** Depois, conferir texto e PDF afetados e incorporar retorno da pré-1.0. Dificuldade geral dos encontros permanece em frente mecânica separada. PDF atual de 383 páginas, HTML e regras inalterados neste lote. Geradores: PDF 145; HTML 144. Salvamento local; último GitHub: registro 141.
+
+> **Fila histórica - registro 145, 30/10/2026:** PDF integrado atualizado, com **383 páginas**, composto a partir das 99 fontes revistas e inspecionado visualmente por inteiro em painéis, com ampliações selecionadas. [PDF, revisão e estado salvo](<../04 - Planejamento/145-pdf-integrado-e-revisao-visual.md>). Tipografia do livro base, sumário e remissões clicáveis; texto, HTML e regras preservados. **Próximo: comparação editorial final, etapa 8; GPT-6 Astra, esforço extra alto, conforme o plano 98.** Ajustes decorrentes: GPT-6.1 Sol, esforço alto. Gerador do PDF em `apoio-pdf-145`; gerador HTML continua no registro 144. O PDF anterior de 357 páginas permanece intacto. Salvamento local; último GitHub: registro 141.
+
+Abra o [PDF integrado revisto](output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf). A versão anterior permanece disponível no mesmo diretório, com o nome sem “Revisado”.
+
+Para atualizar o PDF vigente, use [o gerador do registro 145](<../04 - Planejamento/apoio-pdf-145/GERAR-PDF.py>) e siga [as instruções de composição e conferência](<../04 - Planejamento/apoio-pdf-145/LEIA-ME.md>). Ele lê a edição integrada atual; o gerador antigo desta pasta monta uma versão histórica e não deve substituir a entrega revisada.
+
+## Histórico da diagramação anterior
+
+**Atualização histórica — registro 93, 26/10/2026:** capítulo 1 revisado; PDF com 359 páginas, inspeção de todas as páginas após a repaginação. Próxima tarefa: capítulo 2, GPT-6.1 Sol, esforço alto. Consulte o [relatório da revisão](<../04 - Planejamento/93-revisao-editorial-do-capitulo-1.md>). As descrições anteriores registram a entrega 92.
 
 Abra o [livro em PDF](output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf). Ele usa o padrão tipográfico da R53, com duas colunas, tabelas na largura útil, sumário, remissões e índice clicáveis. O aprofundamento da obra fica no apêndice D, sinalizado por conter revelações.
 

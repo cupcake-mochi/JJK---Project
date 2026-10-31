@@ -1,0 +1,100 @@
+{
+  "registro": 143,
+  "data": "2026-10-30",
+  "fontes_lidas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+      "sha256": "ceacffd8907a522e238fc3dbd20d578b29513a315e526c6745f47223bb5d19d6",
+      "palavras_da_fonte": 2548,
+      "alcance": "Leitura completa e segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2",
+      "palavras_da_fonte": 2463,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+      "sha256": "844099196a5ccc9443700b4df5064d5773197bccdb3ee9daa9ec3141c072e4e2",
+      "palavras_da_fonte": 1768,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/12-registro-de-descobertas.md",
+      "sha256": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f",
+      "palavras_da_fonte": 486,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "sha256": "9cdb60db8a6ba235e9c708714a3a4a94bd5826d2e9180257d586ea0ad7d31a76",
+      "palavras_da_fonte": 769,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "palavras_da_fonte": 434,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256": "0db871baecd1f117f2ffcbc11674f69c4247694e04a3b48c4e2f39096fc5d3a8",
+      "palavras_da_fonte": 525,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+      "sha256": "7269d3e7c407ec18178f4499b9f1607abc4673cb6195dbc6baa85690c53d7538",
+      "palavras_da_fonte": 468,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "197044278e3006d44c1e8dab63d4e02fa76a18ef5e62ad17b16008ea97b7563a",
+      "palavras_da_fonte": 779,
+      "alcance": "Leitura completa e segunda leitura completa depois dos ajustes."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+      "sha256": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+      "palavras_da_fonte": 695,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+      "palavras_da_fonte": 988,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "sha256": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c",
+      "palavras_da_fonte": 296,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "f08f8e154581f5c70f0c6a839ad2804f6eeb49d4a546bb5d9ae0b4377ff42278",
+      "palavras_da_fonte": 549,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+      "sha256": "7b6b7ba3d541934735d96afa1b327feac0d980da10b4e9a0d22da42797e4c263",
+      "palavras_da_fonte": 981,
+      "alcance": "Leitura completa e comparação com o capítulo, sem mudança neste lote."
+    }
+  ],
+  "trechos_comparados": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "sha256": "3a396c10121e56723da23210abf7397a5435ca4e232b8c7bc61deeb68976d0b8",
+      "alcance": "Seção 8.2: ciclo, entrada, saldo e trabalho ainda em conferência; o capítulo já foi lido no registro 141."
+    }
+  ],
+  "fonte_tecnica_preservada": "04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md",
+  "sha256_fonte_tecnica": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "limite": "Leitura editorial, comparação com capítulos e registros anteriores e contas selecionadas. Não é teste com jogadores nem revisão visual do PDF final."
+}

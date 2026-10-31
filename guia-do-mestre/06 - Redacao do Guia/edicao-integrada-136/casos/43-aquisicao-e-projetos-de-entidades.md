@@ -15,7 +15,7 @@ Esta seção ajuda a conferir como a entidade é obtida e o que acontece com ela
 
 Classe 0 e benefícios recebidos fora da lista de espaços não dão vagas para a troca por entidade. Manejo e Kata podem permitir a troca de espaço quando sua definição comportar a entidade, mas não recebem por isso a modalidade de lista de ritual. Na rota sem energia, os custos continuam sendo pagos com Pontos de Esforço; a aquisição não cria energia amaldiçoada pessoal.
 
-Fabricar ou domar não exige técnica de invocação nem ocupa espaço conhecido apenas pela existência da entidade. Ainda é preciso cumprir a aquisição, pagar os usos e respeitar seus limites. Não há teto geral de entidades adquiridas, mas o limite normal é **duas ativas ao mesmo tempo**, salvo uma permissão específica. Corpos mantidos têm uma conta própria.
+Fabricar ou domar não exige técnica de invocação nem ocupa espaço conhecido apenas pela existência da entidade. Ainda é preciso cumprir a aquisição, pagar os usos e respeitar seus limites. Não há teto geral de entidades adquiridas, mas o limite normal é **duas ativas ao mesmo tempo**, salvo uma permissão específica. Para conferir o total de corpos mantidos, veja [o limite de corpos](<../09-pactos-e-entidades.md#94-obter-uma-entidade>). Ativos e inativos entram nessa conta; o teto de atuação continua separado.
 
 ## Prepare a ficha antes da tentativa
 

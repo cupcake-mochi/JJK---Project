@@ -44,7 +44,7 @@ O calendário do mundo acompanha aproximadamente os dias reais, conforme o combi
 | XP semanal | Missões concluídas por jogador, mesmo usando fichas diferentes |
 | Salário, se adotado | Participações e fechamento próprios da política opcional |
 
-Informe abertura, fechamento e fuso dos ciclos. O padrão é **28 horas novas por ficha a cada sete dias**, com saldo válido só no ciclo seguinte e gasto das antigas primeiro. Não exige postagem diária nem aumenta com a participação em missões.
+Informe abertura, fechamento e fuso dos ciclos. O padrão é **28 horas novas por ficha a cada sete dias**, com saldo válido só no ciclo seguinte e gasto das antigas primeiro. Transfira apenas as horas novas que ficaram livres. Não exige postagem diária nem aumenta com a participação em missões.
 
 O XP semanal é contado por jogador, na conclusão da missão; uma longa de várias sessões ocupa uma posição. Salário e recompensa por mestrar são opcionais. Veja as contas em [Entre missões](<08-entre-missoes.md#86-recompensas-e-progressao>).
 
@@ -54,7 +54,7 @@ Antes de confirmar um projeto, confira se a personagem estava disponível, onde 
 
 Se a mesma ficha entrar em outra missão enquanto a anterior ainda está aberta, combinem qual vem primeiro na história e o que ainda depende do resultado dela. Um item fabricado depois não aparece retroativamente na primeira missão. Um resultado que ainda depende de uma queda, perda ou gasto não resolvido fica pendente até ser possível conferi-lo.
 
-Separe **horas confirmadas, reservadas e livres**, sem contar duas vezes. Use a [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) e guarde o progresso no projeto. Entrada, afastamento, retorno e mudança de ciclo seguem [Tempo para as atividades](<08-entre-missoes.md#82-tempo-para-as-atividades>).
+Separe [**horas confirmadas, reservadas e livres**](<08-entre-missoes.md#trabalho-ainda-em-conferencia>), sem contar duas vezes. Use a [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) e guarde o progresso no projeto. Entrada, afastamento, retorno e mudança de ciclo seguem [Tempo para as atividades](<08-entre-missoes.md#82-tempo-para-as-atividades>).
 
 ### Prazos que continuam
 
@@ -154,7 +154,7 @@ Se alguém confundir o fim da nuvem com o de Envenenado, use dois marcadores com
 
 ### Tarefas com responsáveis
 
-Divida trabalhos conforme interesse e disponibilidade: atualizar o estado, guardar notas públicas, conferir dúvida ou preparar missão. Anote quem aceitou, o que falta e quando pretende fazer. Sugerir uma tarefa não significa aceitar fazê-la.
+Divida trabalhos conforme interesse e disponibilidade: atualizar o estado, guardar notas públicas, conferir dúvida ou preparar missão. Anote quem aceitou, o que falta e quando pretende fazer. Registre uma pessoa como responsável somente quando ela tiver aceitado a tarefa.
 
 Na sala de conservação, registrem quem confere as recompensas e quem acompanha o pedido de reparo à oficina. Sem alguém que aceite, a tarefa permanece pendente.
 

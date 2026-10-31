@@ -1,0 +1,92 @@
+{
+  "registro": 144,
+  "data": "2026-10-30",
+  "metodo": "Consulta pelo navegador de pesquisa às páginas citadas e aos destinos bibliográficos. Resumos próprios, sem reprodução integral dos textos.",
+  "fontes": [
+    {
+      "titulo": "Jujutsu Kaisen — episódio 48",
+      "url": "https://jujutsukaisen.jp/episodes/48.php",
+      "conferencia": "Sinopse compatível com o caso Ordens em conflito."
+    },
+    {
+      "titulo": "Jujutsu Kaisen — episódio 50",
+      "url": "https://jujutsukaisen.jp/episodes/50.php",
+      "conferencia": "Sinopse compatível com a procura de Tengen e a informação buscada."
+    },
+    {
+      "titulo": "Jujutsu Kaisen — episódio 51",
+      "url": "https://jujutsukaisen.jp/episodes/51.php",
+      "conferencia": "Sinopse compatível com Maki buscando ferramentas e encontrando Mai e o pai."
+    },
+    {
+      "titulo": "Jujutsu Kaisen — episódio 55",
+      "url": "https://jujutsukaisen.jp/episodes/55.php",
+      "conferencia": "Sinopse compatível com Higuruma advogado e os relatos divergentes de localização."
+    },
+    {
+      "titulo": "Jujutsu Kaisen — volume 18",
+      "url": "https://www.shueisha.co.jp/books/items/contents_amp.html?jdcn=08X10000000018964300",
+      "conferencia": "Apresentação editorial compatível com a busca da cooperação de Hakari."
+    },
+    {
+      "titulo": "Cairn 2e — Warden’s Guide",
+      "url": "https://cairnrpg.com/second-edition/wardens-guide/",
+      "conferencia": "Destino oficial do guia e acesso às ferramentas; não nova leitura integral do livro."
+    },
+    {
+      "titulo": "Fate Core — Running the Game",
+      "url": "https://fate-srd.com/fate-core/running-game",
+      "conferencia": "Texto e identificação da referência de condução."
+    },
+    {
+      "titulo": "Fate Core — Scenes, Sessions, and Scenarios",
+      "url": "https://fate-srd.com/fate-core/scenes-sessions-scenarios",
+      "conferencia": "Índice do capítulo de preparação de cenas e aventuras."
+    },
+    {
+      "titulo": "Three Clue Rule",
+      "url": "https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule",
+      "conferencia": "Título e conteúdo do artigo sobre pistas."
+    },
+    {
+      "titulo": "The Art of Pacing",
+      "url": "https://thealexandrian.net/wordpress/31509/roleplaying-games/the-art-of-pacing",
+      "conferencia": "Título e conteúdo do artigo sobre ritmo."
+    },
+    {
+      "titulo": "The Principles of RPG Villainy",
+      "url": "https://thealexandrian.net/wordpress/36383/roleplaying-games/dont-prep-plots-you-will-rue-this-day-heroes-the-principles-of-rpg-villainy",
+      "conferencia": "Título e conteúdo do artigo citado; não confundir com o vídeo posterior."
+    },
+    {
+      "titulo": "Worlds Without Number — editora",
+      "url": "https://sinenominepublishing.com/products/worlds-without-number-deluxe-pdf",
+      "conferencia": "Apresentação distingue material gratuito e conteúdo adicional Deluxe; o link não é apresentado como download da edição gratuita."
+    },
+    {
+      "titulo": "Ending Campaigns",
+      "url": "https://slyflourish.com/ending_campaigns.html",
+      "conferencia": "Título e conteúdo do artigo sobre encerramento."
+    },
+    {
+      "titulo": "The Lazy GM’s Resource Document",
+      "url": "https://slyflourish.com/lazy_gm_resource_document.html",
+      "conferencia": "Título, autor e atribuição exigida no próprio documento; não altera o alcance das demais licenças."
+    },
+    {
+      "titulo": "GM Core — Building Creatures",
+      "url": "https://2e.aonprd.com/Rules.aspx?ID=2874",
+      "conferencia": "Texto identificado como GM Core, distinto do Livro Básico anterior ao Remaster."
+    },
+    {
+      "titulo": "Basic Rules 2024 — How to Use a Monster",
+      "url": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster",
+      "conferencia": "Destino e identificação das regras de uso de inimigos."
+    }
+  ],
+  "consulta_sem_acesso": {
+    "url": "https://www.drivethrurpg.com/en/product/348809/worlds-without-number-free-edition",
+    "resultado": "Resposta 403; não usado como conteúdo consultado nem acrescentado ao livro."
+  },
+  "limite": "Não houve nova leitura integral do mangá ou de todos os guias. D&D 2014/2024 e Livro Básico de Pathfinder conservam a comparação anterior no acervo; não receberam links improvisados."
+}

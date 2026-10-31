@@ -103,7 +103,7 @@ Na guilda, registre o uso junto da ficha e informe o próximo mestre. Terminar u
 
 Um descanso curto ou longo efetivamente concluído renova o uso de Refluxo para um, sem acumular. Apague a preparação anterior e encerre a contagem de gasto anterior ao descanso; quando outra sequência relevante começar, abra o limite inicial. O descanso recupera recursos conforme a própria regra, sem ativar Refluxo automaticamente. Não trate uma pausa contínua como vários descansos.
 
-A adesão é combinada fora de uma cena em andamento, respeitando as vagas e os requisitos do Livro de Regras 1.0. Ela não recupera PE. No primeiro estabelecimento do Pacto, o uso começa disponível; uma reentrada conserva o registro do uso desde o último descanso real, sem recarregá-lo pela troca de ficha.
+A adesão é combinada fora de uma cena em andamento, respeitando as vagas e os requisitos do Livro de Regras 1.0. Ela não recupera PE. No primeiro estabelecimento do Pacto, o uso começa disponível; uma reentrada conserva o registro do uso desde o último descanso real, sem recarregá-lo pela saída e nova adesão.
 
 **Saída voluntária:** peça fora de cena. O Pacto termina ao concluir o próximo descanso longo. Até lá, a limitação e a vaga permanecem, e o benefício conserva seu funcionamento. Ao terminar, apague o percentual, o gasto e a preparação; cesse a limitação e libere a vaga. A energia já recuperada permanece no saldo, sujeita ao máximo normal.
 

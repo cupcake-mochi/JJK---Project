@@ -1,0 +1,26 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "com saldo válido só no ciclo seguinte e gasto das antigas primeiro.",
+    "depois": "com saldo válido só no ciclo seguinte e gasto das antigas primeiro. Transfira apenas as horas novas que ficaram livres.",
+    "motivo": "Explicitar no resumo que somente a parcela nova e livre pode passar, conforme a regra já apresentada em Entre missões."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "Separe **horas confirmadas, reservadas e livres**, sem contar duas vezes.",
+    "depois": "Separe [**horas confirmadas, reservadas e livres**](<08-entre-missoes.md#trabalho-ainda-em-conferencia>), sem contar duas vezes.",
+    "motivo": "Levar diretamente à explicação dos três estados, sem exigir procurar no capítulo inteiro."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+    "antes": "Sugerir uma tarefa não significa aceitar fazê-la.",
+    "depois": "Registre uma pessoa como responsável somente quando ela tiver aceitado a tarefa.",
+    "motivo": "Dizer diretamente quando atribuir a responsabilidade, em acordo com a linha de continuidade."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+    "antes": "O que sobrar das horas novas de um ciclo vale só no ciclo seguinte.",
+    "depois": "Apenas as horas novas que ficaram livres podem passar para o ciclo seguinte.",
+    "motivo": "Evitar que a abertura da folha pareça incluir horas pendentes no saldo livre; manter a orientação já presente no fechamento."
+  }
+]

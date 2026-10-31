@@ -1,0 +1,604 @@
+{
+  "registro": 143,
+  "alcance": "Inventários de leitura contínua 137–143. Ausência neste recorte não significa ausência de leituras anteriores; delimita a conferência final sem repetir as fontes já lidas e intactas.",
+  "contagens": {
+    "conferir cobertura anterior e leitura final": 16,
+    "leitura integral recente e hash vigente": 83
+  },
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+      "sha256_atual": "3f07ff5a67c3f2614ee96c0aea867a5a3304ffe3e9557b747af596226065b6c2",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "sha256_atual": "4c99cc0ce0fed67d76092229dec84e18f8346fe82a836df35023e5cebefff2b5",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+      "sha256_atual": "d68e82415bf185a844e4ecdb17de98f951bef31b25a8d16c04ea1e49845b2e43",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+      "sha256_atual": "93d369009db94efa3f41ca04efc1b847ed6f6d134d72f4d372bdf08088753226",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+      "sha256_atual": "3951413da0e1981f8366ed5e6207c2fa6c610518b64afa0452bb0be5543794e2",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+      "sha256_atual": "54cdf54fa99d71310048b68f5cf87cae5a3b25ee6cd3584712b44cffd22457ce",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+      "sha256_atual": "2796ac7bcbbe277b9c6457395c018585ee64ff8c9f40280634c3796f8991ab23",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+      "sha256_atual": "279122dca94322cfaaa6ca28476c829a73791bf095d29bf9de881913268159b5",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+      "sha256_atual": "65e9adc3c9db2195a81873b8978b429219bfef94962bb77761521d1486349b30",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "sha256_atual": "3a396c10121e56723da23210abf7397a5435ca4e232b8c7bc61deeb68976d0b8",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+      "sha256_atual": "d489ddc738a7037247301981daa168044c0059a15fd1fe01d4bd58dc2d947bd0",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+      "sha256_atual": "ceacffd8907a522e238fc3dbd20d578b29513a315e526c6745f47223bb5d19d6",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "sha256_atual": "17c77e6a356e14ff83c3dc1a4874b4cb6ea33fde346f7242e3b9330143914b1c",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
+      "sha256_atual": "264d6c91204abed0a25bd1396c3f6c704000a1ef57d8573d34ccf8f913764c8f",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "sha256_atual": "e1c318fc84813cee0db3f318aeb60dc194b3870b8d56959ff27ad7b9896468e2",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+      "sha256_atual": "9ae929a7cffb8d6b72e51acd44dbb311de6fdd7993b40c362f88a8a67bec60f2",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+      "sha256_atual": "78251b062fdcd5f55433a1d197cdd392295e599997fe8b7b6f690881565db20d",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
+      "sha256_atual": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+      "sha256_atual": "b50754806d2613f8c7638dffc2efad441f3c6fcc8272d6698cdc827c2d423b12",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+      "sha256_atual": "94e132985eb9e8eda188ad4d4164d74ed9977218a708eb421cc45f23b12ec77a",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+      "sha256_atual": "a398fe29f0f205961c32375991dad99bdbb4b2a3acc304b5429c916ad3a69a4b",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+      "sha256_atual": "1f19dbc9a4b21e6e39c4c3104e8fa2524c3e9cb251a683cef1f53ee062e67e07",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+      "sha256_atual": "b7520ab43cad01b9955af2574cbb850c91144a50c0ae3184de54a2140a03e54a",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/31-avaliar-poderes-avancados.md",
+      "sha256_atual": "55914fc6378355af0ade1016e0dbdfa9eb6c9fef804ec2808c636050d6637631",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+      "sha256_atual": "d3552c64330e9cdbd7073bf4847999bb9b60cbd0c4be9689cf254b310055aaeb",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+      "sha256_atual": "16593e60a0b32dd196171d70f1d5ef7561d39499c9b72e8a252eb8b6c6ffa4e9",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/36-ferramentas-objetos-e-contencao.md",
+      "sha256_atual": "1d6c03fb75bfff5cc7790bda7451a46eef50f0e53850ca8bf69152ccca2abb9f",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "sha256_atual": "d37e3402f7d9c1cf6630755c0537b20e14fd2279bd3109402968cd812b22301d",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "sha256_atual": "63cf6956343aa089f5a07e427029adfeed063068fc89d50e48c9d8e2ddee254d",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "sha256_atual": "a72a2e6e73ea22937cad340ad8e371dd6dec450fde09dbbf6174f8a43361315d",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "sha256_atual": "7581512f94b6ad6dbf9d7ff05ff61bb214f25b87f80ffa3ec6187edfe2d98122",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+      "sha256_atual": "b6bb9f59568de262ebe3c912d860d75548946006309ed50e52ab0b4075b08094",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+      "sha256_atual": "a7b23ac16396d409fb2f1c9c09ca38ec9fbe5769d5e1daaf8e1add74c99761a2",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+      "sha256_atual": "f11e63d6d18cc36c52fb285f73091ba152d98467534013370366e171247ebd23",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+      "sha256_atual": "05d0136bbbc82c54b54233ef8bf8e218eaedde12df687541e798e1007351903f",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+      "sha256_atual": "cd87dfcacd8daae4d5025699424b421f66373752754fa63d0885084bfce7bf93",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+      "sha256_atual": "249a8d6c4e3c0d4bab6e77b5312644cc2b0231baee1a041d4fab5372009f8e0f",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+      "sha256_atual": "73ee7aa8b71b23af922d30ac66a62c15683731c20fa39e129e1391944bcd95c1",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "sha256_atual": "02830df2a549d8905b0972ddc52bac7319a31fc1af546ad5b567a06f1fe57cc1",
+      "leitura_recente": 142,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "sha256_atual": "aa2c9861fdf48ba6929cb9ed490c8905753caeface1e93e857841671475af493",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "sha256_atual": "4bca114305e7550d226792d9ad9bc19323a96eb0d383a7f02f438999a531ab79",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+      "sha256_atual": "b5e01df619fa95b10daad4725cb7f7b14fa9bacecd1fce9761f0539a99e3eab3",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "sha256_atual": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/63-carregador-consulta-e-doma.md",
+      "sha256_atual": "83540e989b341071a799476cea2222619eba4c863c61023ca88887eacca91009",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/64-a-passarela-e-o-guincho.md",
+      "sha256_atual": "e8ae354e57b21594725c7f4947cd7ff3bf10b02856ae2abace7dc2ca294662ce",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "sha256_atual": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "sha256_atual": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "sha256_atual": "6c5211b02e3d6a051501d9211dfa8d992ed2607f31573b2e10f352484dd55e14",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
+      "sha256_atual": "ce74d2a43de3f787721e8971884b79afaa9c53577675236c285b976ca542b356",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+      "sha256_atual": "91c1bf673f001cd27e3fa74025d7af784b93c73011e4ebf78405848b1054efe3",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+      "sha256_atual": "51166ec390de6af078a07e71b63555a72d6fbdf32ebb78062544daaf601906aa",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/73-ensaio-guiado-do-sineiro.md",
+      "sha256_atual": "d66c1045be4dea0de50c2ddbe7f92076cda7e9aa43ac32062ace2a278c22f162",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+      "sha256_atual": "5a7870d1850048fa707481ab5cafd154fa1bbc99bf439cf93e820271b3e01dbc",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "sha256_atual": "385405ebf971e6cd3789f03bf18f7c587aa2c7219d584cb669aecd173fa5af10",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
+      "sha256_atual": "550b8fa69d2d939892e0bfc6b078b1a7fe388b1120e45933aac02741a1954c88",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/77-ficha-preenchida-ren-e-sora.md",
+      "sha256_atual": "41eeafb426062b5b1ccdad8998b7153df4d0efedd3106dc043cfaf2342cf01f0",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/78-preparar-perigos-ambientais.md",
+      "sha256_atual": "d4ac6db2471df18f998d2f5e2ae4dd1801393d2f077d539dcd9c40a0a06364a3",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "sha256_atual": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+      "sha256_atual": "844099196a5ccc9443700b4df5064d5773197bccdb3ee9daa9ec3141c072e4e2",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "sha256_atual": "4638b119a2cdfd813849572acf8277e3e850a75a7aec8fb5323384859b6b1cee",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "sha256_atual": "2c870c3bc9b75a716df5dc1d9c42b788bc9b85edfa6904cc4d7437f2a1c8c634",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+      "sha256_atual": "9dcb49dcff8f4ad8700e9ce8bfdd92a77bfbaa04e5405b227d407553a2cddd1c",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "sha256_atual": "3b81892c9ed97256bef43dc761f1aea6db252a88c50994f29a6e88c0a46b6517",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+      "sha256_atual": "5b98618bc25759dc4cc2e5edf870592f5c687efe87e9352d88955c330818c85c",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+      "sha256_atual": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/91-restricao-corporal-e-cuidados.md",
+      "sha256_atual": "133c794afe3a1faadcaf0c3d2d110588a1c608a428f51ed06d04d225e53f8c23",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "sha256_atual": "c9fa9bb9cf151ed897cbb8d52a864c0babae889017feee4479bfce86ab86ddda",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/94-compras-repetidas-e-restricoes.md",
+      "sha256_atual": "4b8473cbaaedf24ba87775d244b830dc0ee64657d6696cb908d90fdc58f38ee2",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "sha256_atual": "45101fa681d136e51827395ab764d9eac9e1481282f438cb11466a3052672e52",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+      "sha256_atual": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+      "sha256_atual": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/98-objeto-selado-e-risco-de-ingestao.md",
+      "sha256_atual": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+      "sha256_atual": "54520272346092c6fff765c06ae9ddbaab2e6777a3b603291e9d68f367169811",
+      "leitura_recente": 141,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/02-ficha-de-preparacao.md",
+      "sha256_atual": "ce592a232bd8361cf7658290c5a72738401cb62db1320b705fce90ba35ce93fb",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+      "sha256_atual": "59e49234920ab54a01fc222675fc1da745f36bb47c3568366a27719e1344678c",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/08-ficha-de-acordos-do-grupo.md",
+      "sha256_atual": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/12-registro-de-descobertas.md",
+      "sha256_atual": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "sha256_atual": "9cdb60db8a6ba235e9c708714a3a4a94bd5826d2e9180257d586ea0ad7d31a76",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/20-ficha-de-faccao.md",
+      "sha256_atual": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "sha256_atual": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/28-ficha-de-convivencia.md",
+      "sha256_atual": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "sha256_atual": "0db871baecd1f117f2ffcbc11674f69c4247694e04a3b48c4e2f39096fc5d3a8",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+      "sha256_atual": "7269d3e7c407ec18178f4499b9f1607abc4673cb6195dbc6baa85690c53d7538",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256_atual": "197044278e3006d44c1e8dab63d4e02fa76a18ef5e62ad17b16008ea97b7563a",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+      "sha256_atual": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "sha256_atual": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "sha256_atual": "bdccde9dfdf564cec34ca1b49fb78278aa8b7d795ed62ccdcdd375d3181bd9b5",
+      "leitura_recente": 139,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "sha256_atual": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "sha256_atual": "91f5e9799685f8686a48cb33e253934a13860a0c8254d4b7a8f241f80047898c",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+      "sha256_atual": "54b58a13aba3ccb9314ceea8697f3c1907ebe1ef0da654ede0e6f1c4506f3258",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+      "sha256_atual": "abfc68f9e2c05bff1695944576f1e8f2b13fa817bb07dd2f6f623aeddcc290a3",
+      "leitura_recente": 140,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+      "sha256_atual": "e362ef77f6e9bf11ec09b8eeef46c5b79411c2ecc1620bea1ae6508fa2b7f22c",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+      "sha256_atual": "552f6f42ade8dc928af47fbfdb5ae0aa8009ebba2d703c8d5f6170de31096670",
+      "leitura_recente": 137,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+      "sha256_atual": "fd81fd74577298f80b820517e7e3c8821037e8dd83307150cc0a7476c9b96ce2",
+      "leitura_recente": 138,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256_atual": "f08f8e154581f5c70f0c6a839ad2804f6eeb49d4a546bb5d9ae0b4377ff42278",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "sha256_atual": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+      "sha256_atual": "7b6b7ba3d541934735d96afa1b327feac0d980da10b4e9a0d22da42797e4c263",
+      "leitura_recente": 143,
+      "estado": "leitura integral recente e hash vigente"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/indice-de-casos.md",
+      "sha256_atual": "26c291742a5cb1453107a3ef92ef04f7b23804da04daa0f655cfc0ac678c7f79",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+      "sha256_atual": "3fd4523456472b3e0682bca0f52176580d51970af831cf2485142dc06308f6d1",
+      "leitura_recente": null,
+      "estado": "conferir cobertura anterior e leitura final"
+    }
+  ]
+}

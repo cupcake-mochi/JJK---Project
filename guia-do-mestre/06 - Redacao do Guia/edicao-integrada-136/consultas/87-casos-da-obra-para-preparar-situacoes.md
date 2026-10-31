@@ -1,6 +1,6 @@
 # Ideias da obra para suas missões
 
-> **REVELAÇÕES IMPORTANTES DA TRAMA.** Esta consulta discute acontecimentos posteriores ao arco de Shibuya e situações do Jogo do Abate, com referências até o volume 18 e às sinopses oficiais dos episódios 48–55. A leitura é opcional. Para preparar sem revelações, use [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md>).
+> **REVELAÇÕES IMPORTANTES DA TRAMA.** Esta consulta discute acontecimentos posteriores ao arco de Shibuya e situações do Jogo do Abate, com referências até o volume 18 e às sinopses oficiais dos episódios 48–55. A leitura é opcional. Para preparar sem revelações, use [O mundo dos feiticeiros](<../02-o-mundo-dos-feiticeiros.md>).
 >
 > Este apêndice pode abordar qualquer parte do mangá, mas não resume todos os arcos. Cada caso abaixo se baseia na sinopse oficial ou apresentação editorial indicada nele. Os links externos podem trazer outras revelações.
 
@@ -38,7 +38,7 @@ Escolha o problema de preparação que precisa resolver. Leia a referência da o
 
 Se o grupo quiser conflito familiar mais duro, combine o tema antes. Uma cena de violência intrafamiliar na obra não obriga uma campanha a reproduzi-la.
 
-**No Livro de Regras 1.0.** Uma relação da história não entrega uma capacidade mecânica sem aquisição apropriada. Se o recurso for uma ferramenta, confira ficha, uso, empréstimo e requisitos. Grau do item, nível e patente cumprem funções diferentes. Use [Comprar, emprestar e contratar](<../08-entre-missoes.md>) e [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md>).
+**No Livro de Regras 1.0.** Uma relação da história não entrega uma capacidade mecânica sem aquisição apropriada. Se o recurso for uma ferramenta, confira ficha, uso, empréstimo e requisitos. Grau do item, nível e patente cumprem funções diferentes. Use [Comprar, emprestar e contratar](<../08-entre-missoes.md#84-comprar-emprestar-e-contratar>) e [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>).
 
 **O que registrar:** “Ren recebeu cópia de duas páginas; original ficou com a tia; retorno combinado após a consulta da outra equipe.” O registro diferencia informação obtida de propriedade do objeto.
 
@@ -52,7 +52,7 @@ Se o grupo quiser conflito familiar mais duro, combine o tema antes. Uma cena de
 
 O mestre define previamente se a caixa contém um efeito e quais capacidades podem investigá-lo. Se ainda não há regra para o objeto, registra a proposta antes de colocá-lo em uso. O caso de selamento da obra não autoriza conceder a qualquer item a mesma potência.
 
-**No Livro de Regras 1.0.** Informação obtida por uma capacidade respeita seu alcance. Cortina, Ritual, Expansão de Domínio e aquisição de entidades têm regras distintas. Uma cena de explicação pode preparar decisões; não substitui os requisitos de uma ficha. Consulte [Pistas e investigações](<../03-preparar-aventuras.md>) e [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>).
+**No Livro de Regras 1.0.** Informação obtida por uma capacidade respeita seu alcance. Cortina, Ritual, Expansão de Domínio e aquisição de entidades têm regras distintas. Uma cena de explicação pode preparar decisões; não substitui os requisitos de uma ficha. Consulte [Pistas e investigações](<../03-preparar-aventuras.md#34-pistas-e-investigacoes>) e [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>).
 
 **O que registrar:** “Marca identificada como da oficina; destino do lote confirmado por Paula; conteúdo atual desconhecido.” Registre também a fonte, para que uma conclusão posterior possa corrigir a hipótese.
 
@@ -76,7 +76,7 @@ O mestre define previamente se a caixa contém um efeito e quais capacidades pod
 
 **Exemplo original.** Rosa trabalhou na administração de um hospital antes de organizar ocorrências. Ela quer proteger a privacidade de pacientes, mesmo quando a equipe pede acesso a um registro. Mina ouviu que Rosa estaria na associação às 16h; Davi sabe que uma visita a levará à oficina às 17h. As duas informações podem ser verdadeiras. Perguntar o horário permite decidir onde encontrá-la.
 
-**No Livro de Regras 1.0.** A história sustenta interesses e conhecimentos plausíveis. Treinos e capacidades precisam estar registrados conforme as regras. A Origem Latente é uma categoria de criação do sistema; não transforma toda profissão anterior num pacote de poderes. Use [Conferir a ficha](<../07-personagens-e-tecnicas.md>) e [Registro de descobertas](<12-registro-de-descobertas.md>).
+**No Livro de Regras 1.0.** A história sustenta interesses e conhecimentos plausíveis. Treinos e capacidades precisam estar registrados conforme as regras. A Origem Latente é uma categoria de criação do sistema; não transforma toda profissão anterior num pacote de poderes. Use [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>) e [Registro de descobertas](<12-registro-de-descobertas.md>).
 
 **O que registrar:** “Rosa atende na oficina às 17h; aceita explicar como fazer o pedido, mas o acesso ao registro ainda será negociado.”
 

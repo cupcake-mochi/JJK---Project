@@ -1,0 +1,95 @@
+{
+  "registro": 146,
+  "tipo": "Conferência editorial pelo assistente",
+  "tarefas": [
+    {
+      "tarefa": "Primeira missão",
+      "paginas_de_consulta": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "resultado": "Caminho e materiais localizados; fichas de jogadores e Livro de Regras são prévios."
+    },
+    {
+      "tarefa": "Outra situação",
+      "paginas_de_consulta": [
+        19,
+        23,
+        24,
+        25,
+        26,
+        116
+      ],
+      "resultado": "Aplicação interna registrada na matriz; sem jogo real."
+    },
+    {
+      "tarefa": "Recusa e grupo sem rumo",
+      "paginas_de_consulta": [
+        30,
+        31,
+        32,
+        117
+      ],
+      "resultado": "Respostas concretas e alternativas encontradas."
+    },
+    {
+      "tarefa": "Retomada",
+      "paginas_de_consulta": [
+        75,
+        76,
+        77,
+        95,
+        96,
+        118,
+        119,
+        120
+      ],
+      "resultado": "Próximo turno e dados de socorro recuperáveis; sem mestre externo."
+    },
+    {
+      "tarefa": "Limite de ataque especial",
+      "paginas_de_consulta": [
+        43,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
+      ],
+      "resultado": "Método distingue PE, usos, recarga, intervalo e preparo."
+    },
+    {
+      "tarefa": "Dificuldade para outro grupo",
+      "paginas_de_consulta": [
+        44,
+        45,
+        46,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "resultado": "Parcial: existem premissas; falta ferramenta geral validada."
+    }
+  ],
+  "leitores_externos": 0,
+  "mesas_realizadas": 0,
+  "tempo_de_uso_medido": false,
+  "simulacao_nova_de_equilibrio": false,
+  "nota": "Destinos conferidos no texto, no mapa de composição e em extrações dirigidas. Não é uma nova leitura integral de todos os casos citados."
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "antes": "Os perfis ajudam a interpretar pessoas; prepare fichas antes de usar suas capacidades em jogo. Uma ameaça também precisa de efeitos e meios de enfrentamento definidos, incluindo a conversão se puder ser obtida como entidade.",
+    "depois": "Use os perfis para interpretar e combinar encontros. Quando uma capacidade ou ameaça entrar em jogo, tenha sua ficha com efeitos, requisitos e meios de enfrentamento definidos. A ajuda usa Ajudar quando seus requisitos forem cumpridos; corpos e capacidades seguem suas regras. Se uma criatura puder ser adquirida, prepare também a conversão."
+  },
+  {
+    "antes": " A luz orienta seu comportamento; qualquer fraqueza com efeito nas regras precisa constar da ficha.",
+    "depois": " A luz orienta o comportamento definido na ficha."
+  },
+  {
+    "antes": " A conversa pode terminar com uma pergunta melhor para a próxima missão; não concede treinamento ou benefício de ficha.",
+    "depois": " A conversa pode terminar com uma pergunta melhor para a próxima missão."
+  },
+  {
+    "antes": " Corpo, reparo e capacidades seguem sua ficha.",
+    "depois": ""
+  },
+  {
+    "antes": " Uma contribuição concreta pode permitir Ajudar; estar por perto não basta para conceder vantagem.",
+    "depois": ""
+  },
+  {
+    "antes": " Seu desejo de impressionar não o obriga a agir de modo imprudente.",
+    "depois": ""
+  },
+  {
+    "antes": " Se sua presença interferir numa ação, descreva como e use a regra pertinente; ela não impõe a mesma penalidade em todo teste de percepção, movimento ou influência.",
+    "depois": " Se a multidão interferir numa ação, descreva o obstáculo e use a regra pertinente à tentativa."
+  },
+  {
+    "antes": " A cena não concede treino, bônus ou progressão adicionais.",
+    "depois": ""
+  }
+]

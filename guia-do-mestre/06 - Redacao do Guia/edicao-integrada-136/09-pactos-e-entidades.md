@@ -32,7 +32,7 @@ Confira quando o preço acontece, em quais missões faz diferença e se uma recu
 
 Essa escala não permite obter qualquer capacidade em troca de qualquer sacrifício.
 
-O permanente modifica o funcionamento de uma capacidade pela mecânica escrita com o mestre. Não concede Estilo, níveis de Caminho ou Trilha, escolhas extras de Origem ou bônus numérico em ataque, Defesa e perícias. Não existe pacto por dano. Se um pacto de energia envolve quantidade, use a porcentagem do máximo combinada, não um valor fixo.
+O permanente modifica o funcionamento de uma capacidade pela mecânica escrita com o mestre. Pode modificar um Estilo que a personagem já possua, mas não concede outro. Também não concede níveis de Caminho ou Trilha, escolhas extras de Origem ou bônus numérico em ataque, Defesa e perícias. Não existe pacto por dano. Se um pacto de energia envolve quantidade, use a porcentagem do máximo combinada, não um valor fixo.
 
 O limite conjunto de permanentes e pactos de restrição é **metade da Essência, arredondada para baixo**. Essência 5 permite duas vagas. Essência 0 ou 1 não abre vaga; a exceção de restrição depende de permissão e não concede outro benefício. Promessas e temporários ficam fora desse limite. Reduzir Essência não apaga pactos existentes, mas impede outro enquanto o total não couber.
 
@@ -86,7 +86,7 @@ Uma janela sem cumprimento suspende somente o benefício por **três dias**, man
 
 Com máximo 40, face 2 dá teto 10. Pagar 9 deixa apenas 1 no intervalo, mesmo com muitos PE na reserva. **Refluxo** é a compensação: um zero sorteado no começo de turno prepara a recuperação de 25% do máximo no primeiro turno próprio positivo posterior, usando Bônus. É um uso por descanso curto ou longo, sem aumentar o teto. Se não usar Refluxo até o fim desse primeiro turno positivo, perde a oportunidade preparada.
 
-O sorteio inicial antes da primeira ação da sequência resolve Reações anteriores ao primeiro turno e não prepara Refluxo. Encerrar o Pacto exige pedido fora de cena e conclusão do próximo descanso longo; nova adesão espera outro longo. A [ficha de Liberação irregular](<casos/49-liberacao-irregular-minuta.md>) trata pagamentos, arredondamentos, manutenção, mudanças de máximo e uso fora de combate. Use-a inteira, inclusive quando o teto impedir uma manutenção.
+Antes da primeira ação de uma sequência com iniciativa, sorteie um limite inicial para as Reações que possam ocorrer antes do primeiro turno do portador. Esse sorteio não prepara Refluxo. Encerrar o Pacto exige pedido fora de cena e conclusão do próximo descanso longo; nova adesão espera outro longo. A [ficha de Liberação irregular](<casos/49-liberacao-irregular-minuta.md>) trata pagamentos, arredondamentos, manutenção, mudanças de máximo e uso fora de combate. Use-a inteira, inclusive quando o teto impedir uma manutenção.
 
 Energia alternada e Magnetismo energético recebem orientação de avaliação; Fragmentação, Despertar do corpo e Reserva vital ficam para revisão posterior. O [estudo das sete ideias](<casos/47-desenvolver-uma-ideia-de-pacto.md>) localiza as questões de cada uma. Essas ideias ainda precisam de regras para entrar na ficha.
 
@@ -125,11 +125,11 @@ Defina a função e a forma de aquisição antes dos números. Uma ave pode vigi
 
 Classe 0 e benefícios fora da lista de espaços não fornecem vagas para essa troca. Manejo e Kata podem prever a entidade, mas não recebem lista de ritual por isso. Na rota sem energia, os custos usam Pontos de Esforço e não criam energia amaldiçoada pessoal.
 
-Criar ou domar não exige técnica de invocação nem ocupa espaço apenas pela existência da entidade. Ainda é preciso cumprir os requisitos para obter e usar a entidade. Não há teto geral de adquiridas; o limite normal é **duas ativas**, salvo permissão específica. Corpos mantidos têm sua conta própria.
+Criar ou domar não exige técnica de invocação nem ocupa espaço apenas pela existência da entidade. Ainda é preciso cumprir os requisitos para obter e usar a entidade. Não há teto geral de adquiridas; o limite normal é **duas ativas**, salvo permissão específica. Para o total de corpos mantidos, some o atributo escolhido para a Defesa das entidades à maior capacidade de entidades ativas que o Caminho permite em combate. Conte juntos os corpos ativos e inativos. Ativar um deles continua respeitando o teto de atuação.
 
 ### Preparar a ficha
 
-Use Construir invocações para corpo, nível, Classe, atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos. Anote como o corpo é formado, como se comunica e qual Ofício é exigido, quando for o caso. Cada capacidade precisa caber na montagem; pontos de construção e PE pagos no uso são contas diferentes.
+Use a seção **Construir invocações**, do livro de regras, para definir corpo, nível, Classe, atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos. Anote como o corpo é formado, como se comunica e qual Ofício é exigido, quando for o caso. Cada capacidade precisa caber na montagem; pontos de construção e PE pagos no uso são contas diferentes.
 
 O [Escriba de campo](<casos/53-construir-e-evoluir-o-escriba.md>) percorre uma construção completa e sua evolução. A [folha de entidade](<consultas/44-registro-de-aquisicao-e-estado-de-entidade.md>) acompanha aquisição e estado, sem substituir sua ficha. Uma conversão de inimigo precisa ser preparada nessa escala; ações extras ou turno independente do adversário não passam automaticamente à entidade.
 
@@ -149,7 +149,7 @@ O projeto identifica entidade e invocador, responsável treinado no Ofício comp
 
 Ter horas disponíveis não reduz o trabalho necessário para criar uma entidade. O Guia recomenda as referências abaixo para projetos usuais com meios adequados. **São horas de trabalho por operação**; não custos para obter entidades por espaço, ritual ou doma.
 
-| Classe | Criar | Reconstruir | Transferir |
+| Classe | Criar (horas) | Reconstruir (horas) | Transferir (horas) |
 |---|---:|---:|---:|
 | 1 | 8 | - | 2 |
 | 2 | 16 | 8 | 2 |
@@ -167,13 +167,13 @@ Separe peças aproveitáveis, consumíveis por tentativa e ferramentas ou local 
 
 Descreva as etapas do trabalho e conte a dedicação em horas. Um trabalho de 32 horas pode atravessar ciclos, sem apagar progresso ou exigir blocos diários. Dividi-lo em etapas não cria vários testes. Espera por material fica separada, com supervisão quando necessária. [Entre missões](<08-entre-missoes.md#82-tempo-para-as-atividades>) explica dedicação por ficha e saldo.
 
-O mestre pode detalhar outro projeto, identificando trabalho adicional e o que permanece aproveitável. Isso exige acordo antes do início. Aparência e personalidade não aumentam o tempo por si, e uma parte pronta não precisa ser fabricada novamente.
+O mestre pode detalhar outro projeto, identificando trabalho adicional e o que permanece aproveitável. Isso exige acordo antes do início. Aparência e personalidade não aumentam o tempo por si, e uma parte pronta não precisa ser fabricada novamente. [Tempo e materiais para criar entidades](<casos/45-tempo-materiais-e-retomada-de-entidades.md>) mostra o orçamento e a divisão do trabalho em etapas.
 
 ### Testar e ajudar
 
 Cumprido o trabalho, role **d20 + atributo do Ofício + Maestria**. A base da CD é **8 + esse atributo + essa Maestria**. Compare a Classe da entidade com a do responsável; na reconstrução, compare a Classe nova.
 
-| Relação de Classes | Criar ou transferir | Reconstruir |
+| Relação de Classes | Ajuste para criar ou transferir | Ajuste para reconstruir |
 |---|---:|---:|
 | Igual | 0 | −2 |
 | Uma abaixo | −2 | −4 |
@@ -220,6 +220,8 @@ Registre estado, recursos, usos, posição, tarefa, comunicação e trabalho pen
 A manifestação comum não concede uma ação básica à entidade naquele ciclo. Comandar uma capacidade especial normalmente usa a Ação Padrão do invocador e a ação básica da entidade. Recolher e trazer de volta não renova recursos. Esse ciclo vai do começo de um turno do invocador ao próximo, sem relação com os sete dias da guilda.
 
 Transporte adicional exige capacidade própria, ocupando talento, com anatomia, passageiros e carga definidos. Objetos para terceiros ou recolhidos pelo caminho caem ao recolher a entidade, salvo permissão expressa. Corpos que permanecem conservam os objetos no lugar. [Transporte com entidades](<casos/54-transporte-e-continuidade-das-entidades.md>) mostra embarque, retirada e continuidade.
+
+Um corpo **inativo** conserva vida e posição e pode acompanhar o grupo, mas falha em toda rolagem, não recebe tarefas e não executa capacidades. Interpretação e trabalhos extremamente simples sem rolagem seguem a permissão do livro. **Desligada** é a entidade que caiu e não pode ser recolhida: fica como objeto no lugar e precisa do retorno próprio. Ativar um corpo inativo e religar um corpo Desligado são operações diferentes.
 
 Inconsciência não é morte. Entidades que permanecem podem seguir ordens anteriores válidas e seus recursos, mas o personagem inconsciente não emite comandos novos. Morte confirmada encerra ordens e preparações e retira as entidades de campo; as que não podem ser recolhidas ficam Desligadas. Depois, confira a origem:
 

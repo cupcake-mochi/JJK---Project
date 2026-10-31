@@ -1,0 +1,30 @@
+from pathlib import Path
+import shutil,json,hashlib
+r=Path('/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem');a=r/'04 - Planejamento/apoio-editorial-147';a.mkdir(exist_ok=True);(a/'antes').mkdir(exist_ok=True)
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+(a/'antes/manifesto-entrega.json').write_bytes((r/'04 - Planejamento/apoio-piloto/manifesto-entrega.json').read_bytes())
+for p in list((r/'06 - Redacao do Guia/edicao-integrada-136').rglob('*.md'))+list((r/'07 - Edicao de Leitura/edicao-integrada-136').glob('*.html'))+ [r/'07 - Edicao de Leitura/edicao-integrada-136/leitura.css']:
+ b=a/'antes'/p.relative_to(r);b.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,b)
+for name in ['base-GERAR-PDF.py','GERAR-PDF.py','CONFERIR-PDF.py','RENDERIZAR.py'] :shutil.copyfile(r/'04 - Planejamento/apoio-pdf-145'/name,a/name)
+for name in ['GERAR-LEITURA.py','base-fontes-reunidas.json']:shutil.copyfile(r/'04 - Planejamento/apoio-leitura-144'/name,a/name)
+p=r/'06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md';s=p.read_text()
+changes=[('Os perfis ajudam a interpretar pessoas; prepare fichas antes de usar suas capacidades em jogo. Uma ameaça também precisa de efeitos e meios de enfrentamento definidos, incluindo a conversão se puder ser obtida como entidade.','Use os perfis para interpretar e combinar encontros. Quando uma capacidade ou ameaça entrar em jogo, tenha sua ficha com efeitos, requisitos e meios de enfrentamento definidos. A ajuda usa Ajudar quando seus requisitos forem cumpridos; corpos e capacidades seguem suas regras. Se uma criatura puder ser adquirida, prepare também a conversão.'),(' A luz orienta seu comportamento; qualquer fraqueza com efeito nas regras precisa constar da ficha.',' A luz orienta o comportamento definido na ficha.'),(' A conversa pode terminar com uma pergunta melhor para a próxima missão; não concede treinamento ou benefício de ficha.',' A conversa pode terminar com uma pergunta melhor para a próxima missão.'),(' Corpo, reparo e capacidades seguem sua ficha.',''),(' Uma contribuição concreta pode permitir Ajudar; estar por perto não basta para conceder vantagem.',''),(' Seu desejo de impressionar não o obriga a agir de modo imprudente.',''),(' Se sua presença interferir numa ação, descreva como e use a regra pertinente; ela não impõe a mesma penalidade em todo teste de percepção, movimento ou influência.',' Se a multidão interferir numa ação, descreva o obstáculo e use a regra pertinente à tentativa.'),(' A cena não concede treino, bônus ou progressão adicionais.','')]
+log=[]
+for old,new in changes:
+ assert old in s,old;s=s.replace(old,new);log.append({'antes':old,'depois':new})
+p.write_text(s);(a/'alteracoes-textuais.json').write_text(json.dumps(log,ensure_ascii=False,indent=2))
+p=a/'GERAR-LEITURA.py';s=p.read_text().replace("'registro':144","'registro':147")
+s=s.replace("reading=[p for p in core if p!=special]+[T/'consultas/LEIA-ME.md',T/'indice-de-casos.md']", "shortnames=['A1-preparar-a-missao.md','A1-exemplo-despedida.md','A2-conduzir-a-sessao.md','A4-retomar-a-missao.md','A4-exemplo-sala-de-conservacao.md']\n reading=[p for p in core if p!=special]+[T/'consultas/LEIA-ME.md']+[T/'consultas'/n for n in shortnames]+[p for p in leaves if p.name not in shortnames and not p.name.startswith(('87-','88-','92-')) and p.name!='LEIA-ME.md']+[T/'indice-de-casos.md']")
+s=s.replace(" (E/'leitura.css').write_text(css)"," css+='p.decisao{background:#f8f1f4;padding:10px 14px;border-left:2px solid #9e2358}p.fala{margin-left:14px}p.consulta-tecnica{background:#f8f1f4;padding:10px 14px;font-size:.95em}'\n (E/'leitura.css').write_text(css)")
+s=s.replace(" for i,p in enumerate(reading):", " for soup in docs.values():\n  for para in soup.find_all('p'):\n   lead=para.find('strong',recursive=False)\n   label=lead.get_text(' ',strip=True) if lead else ''\n   if label.startswith(('Decisão do mestre','Na condução')):para['class']=['decisao']\n   elif label.rstrip(':') in ['Mestre','Jogador','Jogadora','Helena','Frente']:para['class']=['fala']\n   elif label.startswith('Montagem da técnica'):para['class']=['consulta-tecnica']\n for i,p in enumerate(reading):")
+p.write_text(s)
+p=a/'GERAR-PDF.py';s=p.read_text().replace('Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf','Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf').replace("'registro':145","'registro':147")
+s=s.replace("meta=json.loads((A/'fontes-para-compor.json').read_text());records=meta['ordem']", "meta=json.loads((A/'fontes-para-compor.json').read_text());records=meta['ordem']")
+s=s.replace("caseindex=next", "priority=['folhas.html','consulta-A1-preparar-a-missao.html','consulta-A1-exemplo-despedida.html','consulta-A2-conduzir-a-sessao.html','consulta-A4-retomar-a-missao.html','consulta-A4-exemplo-sala-de-conservacao.html']\nleaves.sort(key=lambda r: priority.index(r['pagina']) if r['pagina'] in priority else len(priority)+records.index(r))\ncaseindex=next",1)
+s=s.replace("styles['code']=", "for kind in ['decision','speech','technical']:\n styles[kind]=ParagraphStyle(kind,parent=styles['body'],leftIndent=7,rightIndent=4,spaceBefore=5,spaceAfter=6,backColor=PALE if kind!='speech' else None,borderPadding=2 if kind!='speech' else 0)\nstyles['code']=",1)
+s=s.replace("elif node.get_text(strip=True):out.append(para(inline(node),source=DOC));raw.append(node.get_text(' ',strip=True))", "elif node.get_text(strip=True):\n    cls=node.get('class',[])\n    kind='decision' if 'decisao' in cls else 'speech' if 'fala' in cls else 'technical' if 'consulta-tecnica' in cls else 'body'\n    out.append(para(inline(node),kind,source=DOC));raw.append(node.get_text(' ',strip=True))")
+p.write_text(s)
+p=a/'CONFERIR-PDF.py';s=p.read_text().replace("'registro':145","'registro':147")
+start=s.index("for row in load(R/'04 - Planejamento/apoio-leitura-144/");end=s.index("assert sha(R/'08",start)
+s=s[:start]+"for row in load(A/'fontes-para-compor.json')['ordem']:assert sha(R/row['fonte'])==row['sha256']\n"+s[end:];p.write_text(s)
+print('Preparação concluída',a)

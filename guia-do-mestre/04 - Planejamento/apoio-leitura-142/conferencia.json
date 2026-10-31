@@ -1,0 +1,25 @@
+{
+  "registro": 142,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md"
+  ],
+  "alteracoes_reproduzidas": 10,
+  "quadros_com_parametros_preservados": 286,
+  "rotulos_de_quadro_ajustados": 5,
+  "cabecalhos_de_tabelas_alterados": 2,
+  "numeros_preservados": true,
+  "documentos_html": 99,
+  "links_html": 1918,
+  "imagens_html": 9,
+  "links_externos": 7,
+  "ancoras_anteriores_dos_capitulos_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "decisoes_de_pactos_e_projetos_preservadas": true,
+  "estados_e_limite_de_corpos_explicados": true,
+  "escriba_retomado_sem_alteracao": true,
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

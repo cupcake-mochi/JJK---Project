@@ -1,0 +1,27 @@
+{
+  "registro": 144,
+  "fontes_no_conjunto": 99,
+  "fontes_com_alteracao": [
+    "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md"
+  ],
+  "alteracoes_reproduzidas": 40,
+  "quadros_com_parametros_preservados": 286,
+  "rotulos_de_quadro_ajustados": 1,
+  "cabecalhos_de_tabelas_alterados": 0,
+  "numeros_vigentes_preservados": true,
+  "numeros_preservados": true,
+  "excecao_numerica": "Retirada apenas a menção histórica a 72 PV do Sineiro; atuais 108/38/19 preservados.",
+  "documentos_html": 99,
+  "links_html": 1929,
+  "imagens_html": 9,
+  "links_externos": 17,
+  "ancoras_anteriores_preservadas": true,
+  "exemplo_antes_do_catalogo": true,
+  "fontes_com_leitura_integral_recente_e_hash_vigente": 99,
+  "falhas": [],
+  "limite": "Conferência de fontes e da estrutura HTML; não inspeção visual em navegador ou do futuro PDF completo."
+}

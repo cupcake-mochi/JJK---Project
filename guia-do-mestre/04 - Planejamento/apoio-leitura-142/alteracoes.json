@@ -1,0 +1,62 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "Não concede Estilo, níveis de Caminho ou Trilha, escolhas extras de Origem ou bônus numérico em ataque, Defesa e perícias.",
+    "depois": "Pode modificar um Estilo que a personagem já possua, mas não concede outro. Também não concede níveis de Caminho ou Trilha, escolhas extras de Origem ou bônus numérico em ataque, Defesa e perícias.",
+    "motivo": "Explicar a diferença publicada entre modificar um Estilo e recebê-lo por Pacto, em acordo com a escala de ganhos."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "O sorteio inicial antes da primeira ação da sequência resolve Reações anteriores ao primeiro turno e não prepara Refluxo.",
+    "depois": "Antes da primeira ação de uma sequência com iniciativa, sorteie um limite inicial para as Reações que possam ocorrer antes do primeiro turno do portador. Esse sorteio não prepara Refluxo.",
+    "motivo": "Explicar a finalidade e o momento do sorteio inicial com frases diretas, conservando o gatilho de Refluxo."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "Não há teto geral de adquiridas; o limite normal é **duas ativas**, salvo permissão específica. Corpos mantidos têm sua conta própria.",
+    "depois": "Não há teto geral de adquiridas; o limite normal é **duas ativas**, salvo permissão específica. Para o total de corpos mantidos, some o atributo escolhido para a Defesa das entidades à maior capacidade de entidades ativas que o Caminho permite em combate. Conte juntos os corpos ativos e inativos. Ativar um deles continua respeitando o teto de atuação.",
+    "motivo": "Explicar a conta publicada de corpos mantidos, sem confundi-la com o total adquirido ou o limite de atuação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "Use Construir invocações para corpo, nível, Classe, atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos.",
+    "depois": "Use a seção **Construir invocações**, do livro de regras, para definir corpo, nível, Classe, atributos, testes, Defesa, vida, Famílias, básicas, especiais e talentos.",
+    "motivo": "Identificar uma seção da referência, em vez de parecer uma instrução ou ferramenta não apresentada."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "| Classe | Criar | Reconstruir | Transferir |",
+    "depois": "| Classe | Criar (horas) | Reconstruir (horas) | Transferir (horas) |",
+    "motivo": "Levar a unidade de trabalho para os cabeçalhos, permitindo consultar a tabela sozinha."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "Aparência e personalidade não aumentam o tempo por si, e uma parte pronta não precisa ser fabricada novamente.",
+    "depois": "Aparência e personalidade não aumentam o tempo por si, e uma parte pronta não precisa ser fabricada novamente. [Tempo e materiais para criar entidades](<casos/45-tempo-materiais-e-retomada-de-entidades.md>) mostra o orçamento e a divisão do trabalho em etapas.",
+    "motivo": "Dar acesso direto ao exemplo de tempo e materiais a partir da explicação principal."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "| Relação de Classes | Criar ou transferir | Reconstruir |",
+    "depois": "| Relação de Classes | Ajuste para criar ou transferir | Ajuste para reconstruir |",
+    "motivo": "Explicitar que os valores são ajustes à base da CD, não CDs finais ou horas de trabalho."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+    "antes": "Inconsciência não é morte. Entidades que permanecem podem seguir ordens anteriores válidas e seus recursos, mas o personagem inconsciente não emite comandos novos.",
+    "depois": "Um corpo **inativo** conserva vida e posição e pode acompanhar o grupo, mas falha em toda rolagem, não recebe tarefas e não executa capacidades. Interpretação e trabalhos extremamente simples sem rolagem seguem a permissão do livro. **Desligada** é a entidade que caiu e não pode ser recolhida: fica como objeto no lugar e precisa do retorno próprio. Ativar um corpo inativo e religar um corpo Desligado são operações diferentes.\n\nInconsciência não é morte. Entidades que permanecem podem seguir ordens anteriores válidas e seus recursos, mas o personagem inconsciente não emite comandos novos.",
+    "motivo": "Distinguir dois estados presentes nos exemplos antes de tratar a inconsciência e a morte do invocador; não transformar ativação em retorno ou recuperação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+    "antes": "Corpos mantidos têm uma conta própria.",
+    "depois": "Para conferir o total de corpos mantidos, veja [o limite de corpos](<../09-pactos-e-entidades.md#94-obter-uma-entidade>). Ativos e inativos entram nessa conta; o teto de atuação continua separado.",
+    "motivo": "Oferecer a conta de corpos mantidos também a quem abrir esta consulta diretamente."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+    "antes": "sem recarregá-lo pela troca de ficha.",
+    "depois": "sem recarregá-lo pela saída e nova adesão.",
+    "motivo": "Nomear o encerramento e a nova adesão ao Pacto, em vez de sugerir troca de personagem."
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "registro": 143,
+  "fontes": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+      "sha256": "ceacffd8907a522e238fc3dbd20d578b29513a315e526c6745f47223bb5d19d6"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "sha256": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+      "sha256": "844099196a5ccc9443700b4df5064d5773197bccdb3ee9daa9ec3141c072e4e2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+      "sha256": "f08f8e154581f5c70f0c6a839ad2804f6eeb49d4a546bb5d9ae0b4377ff42278"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "sha256": "197044278e3006d44c1e8dab63d4e02fa76a18ef5e62ad17b16008ea97b7563a"
+    }
+  ],
+  "contas": [
+    {
+      "conta": "Tratamento: teto de um terço de 44",
+      "resultado": 15,
+      "esperado": 15
+    },
+    {
+      "conta": "Teto de tratamento por Classe: 15 × 2",
+      "resultado": 30,
+      "esperado": 30
+    },
+    {
+      "conta": "Mei 2: 9 + 3 contra CD 14",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "conta": "Sutura: quatro dados 2 + 3 + 4 + 6",
+      "resultado": 15,
+      "esperado": 15
+    },
+    {
+      "conta": "Akira: 30 − 6 PE",
+      "resultado": 24,
+      "esperado": 24
+    },
+    {
+      "conta": "Mei 3: 12 + 3 contra CD 14",
+      "resultado": 15,
+      "esperado": 15
+    },
+    {
+      "conta": "Percurso em duas ações: 9 + 9 m",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "conta": "Horas do fechamento pendente: 10 confirmadas + 8 reservadas + 10 livres",
+      "resultado": 28,
+      "esperado": 28
+    },
+    {
+      "conta": "Abertura seguinte: 28 novas + 10 antigas livres",
+      "resultado": 38,
+      "esperado": 38
+    },
+    {
+      "conta": "Entrada no quinto dia: três dias restantes × quatro horas",
+      "resultado": 12,
+      "esperado": 12
+    }
+  ],
+  "dedicacao_tres_ciclos": [
+    [
+      "Rina",
+      1,
+      0,
+      28,
+      18,
+      0,
+      18,
+      0,
+      10
+    ],
+    [
+      "Mei",
+      1,
+      0,
+      28,
+      28,
+      0,
+      28,
+      0,
+      0
+    ],
+    [
+      "Rina",
+      2,
+      10,
+      28,
+      20,
+      10,
+      10,
+      0,
+      18
+    ],
+    [
+      "Mei",
+      2,
+      0,
+      28,
+      8,
+      0,
+      8,
+      0,
+      20
+    ],
+    [
+      "Rina",
+      3,
+      18,
+      28,
+      12,
+      12,
+      0,
+      6,
+      28
+    ],
+    [
+      "Mei",
+      3,
+      20,
+      28,
+      0,
+      0,
+      0,
+      20,
+      28
+    ]
+  ],
+  "falhas": [],
+  "limite": "Reconferência aritmética de exemplos já escritos, sem simulação de sessão ou medição de equilíbrio."
+}

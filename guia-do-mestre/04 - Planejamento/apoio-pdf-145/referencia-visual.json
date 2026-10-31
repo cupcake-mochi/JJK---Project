@@ -1,0 +1,25 @@
+{
+  "livro_base": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53.pdf",
+  "sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "paginas": 411,
+  "paginas_consultadas": [
+    4,
+    12,
+    56,
+    121
+  ],
+  "criterios": [
+    "Spectral 10,25 pt e entrelinha 13,2 pt",
+    "A4, margens laterais 19 mm e intervalo de 7 mm",
+    "Barlow Condensed e Bree Serif na hierarquia",
+    "Cor vinho, fundos leves e tabelas legíveis"
+  ],
+  "opcoes_reavaliadas": [
+    "ab-cap-1-p-40.jpg",
+    "equip-cap-47-p-8.jpg",
+    "rotas-rota-marcial-cap-35-p-18.jpg",
+    "origens-receptaculo-yuji-sukuna-cap-11-p-11.jpg"
+  ],
+  "decisao": "Três cenas mantidas junto aos capítulos de mundo, preparação e equipamento. Negociação de vínculo retirada: não ilustra os cinco casos do apêndice atual. Capa aprovada preservada.",
+  "arquivo_de_comparacao": "tmp/pdfs/base-comparacao.png"
+}

@@ -83,8 +83,8 @@ Use os campos finais da [ficha de preparação](<02-ficha-de-preparacao.md>): de
 
 **Retorno do grupo:** em que momento faltou informação para decidir? Anote a dificuldade para revisar o trecho correspondente.
 
-**Consulta por problema:** [conduzir uma investigação](<../04-na-mesa-de-jogo.md>), [espaço e usos criativos](<../casos/11-espaco-e-usos-criativos.md>) e [registro de descobertas](<12-registro-de-descobertas.md>).
+**Consulta por problema:** [conduzir uma investigação](<../04-na-mesa-de-jogo.md#44-conduzir-uma-investigacao>), [espaço e usos criativos](<../casos/11-espaco-e-usos-criativos.md>) e [registro de descobertas](<12-registro-de-descobertas.md>).
 
-**Recursos e queda:** [acompanhar recursos](<../04-na-mesa-de-jogo.md>), [socorro passo a passo](<../casos/22-quedas-e-socorro.md>), [retirada e recuperação](<../casos/23-retirada-e-recuperacao.md>) e [registro de estado](<24-registro-de-estado-e-socorro.md>).
+**Recursos e queda:** [acompanhar recursos](<../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>), [socorro passo a passo](<../casos/22-quedas-e-socorro.md>), [retirada e recuperação](<../casos/23-retirada-e-recuperacao.md>) e [registro de estado](<24-registro-de-estado-e-socorro.md>).
 
 **Passagem e revisão:** a [linha de continuidade](<16-linha-de-continuidade.md>) reúne o resumo para retomada e as tarefas aceitas. O [exemplo de passagem](<../casos/81-passar-a-missao-entre-mestres.md>) mostra uma interrupção com socorro em andamento.

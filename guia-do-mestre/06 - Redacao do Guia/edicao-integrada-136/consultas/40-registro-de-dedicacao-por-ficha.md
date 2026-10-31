@@ -1,6 +1,6 @@
 # Registro de dedicação por ficha
 
-Use um registro separado para cada personagem, mesmo quando várias fichas pertencem à mesma pessoa. O padrão recomendado é 28 horas novas a cada ciclo comum de sete dias. O que sobrar das horas novas de um ciclo vale só no ciclo seguinte. Consulte [Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>), no capítulo Entre missões, para entrada proporcional, afastamento e adaptações.
+Use um registro separado para cada personagem, mesmo quando várias fichas pertencem à mesma pessoa. O padrão recomendado é 28 horas novas a cada ciclo comum de sete dias. Apenas as horas novas que ficaram livres podem passar para o ciclo seguinte. Consulte [Tempo para as atividades](<../08-entre-missoes.md#82-tempo-para-as-atividades>), no capítulo Entre missões, para entrada proporcional, afastamento e adaptações.
 
 ## Identificação do ciclo
 

@@ -1,0 +1,2355 @@
+{
+  "registro": 143,
+  "fontes_reunidas": 97,
+  "fontes_geradas": [
+    "indice-de-casos.md",
+    "referencias.md"
+  ],
+  "fontes_em_leitura": 99,
+  "paginas_de_conteudo": 98,
+  "indice_geral": "index.html",
+  "ordem": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+      "pagina": "como-usar.html",
+      "titulo": "Como usar este livro",
+      "parte": "Comece a mestrar",
+      "sha256": "3f07ff5a67c3f2614ee96c0aea867a5a3304ffe3e9557b747af596226065b6c2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "pagina": "capitulo-01.html",
+      "titulo": "Sua primeira missão",
+      "parte": "Comece a mestrar",
+      "sha256": "4c99cc0ce0fed67d76092229dec84e18f8346fe82a836df35023e5cebefff2b5"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+      "pagina": "capitulo-02.html",
+      "titulo": "O mundo dos feiticeiros",
+      "parte": "Comece a mestrar",
+      "sha256": "d68e82415bf185a844e4ecdb17de98f951bef31b25a8d16c04ea1e49845b2e43"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+      "pagina": "capitulo-03.html",
+      "titulo": "Preparar aventuras",
+      "parte": "Comece a mestrar",
+      "sha256": "93d369009db94efa3f41ca04efc1b847ed6f6d134d72f4d372bdf08088753226"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+      "pagina": "capitulo-04.html",
+      "titulo": "Na mesa de jogo",
+      "parte": "Comece a mestrar",
+      "sha256": "54cdf54fa99d71310048b68f5cf87cae5a3b25ee6cd3584712b44cffd22457ce"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+      "pagina": "capitulo-05.html",
+      "titulo": "Criar uma campanha",
+      "parte": "Comece a mestrar",
+      "sha256": "2796ac7bcbbe277b9c6457395c018585ee64ff8c9f40280634c3796f8991ab23"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+      "pagina": "capitulo-06.html",
+      "titulo": "Inimigos e perigos",
+      "parte": "Ferramentas de Ciclo Maldito",
+      "sha256": "279122dca94322cfaaa6ca28476c829a73791bf095d29bf9de881913268159b5"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+      "pagina": "capitulo-07.html",
+      "titulo": "Personagens e técnicas",
+      "parte": "Ferramentas de Ciclo Maldito",
+      "sha256": "65e9adc3c9db2195a81873b8978b429219bfef94962bb77761521d1486349b30"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "pagina": "capitulo-08.html",
+      "titulo": "Entre missões",
+      "parte": "Ferramentas de Ciclo Maldito",
+      "sha256": "3a396c10121e56723da23210abf7397a5435ca4e232b8c7bc61deeb68976d0b8"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+      "pagina": "capitulo-09.html",
+      "titulo": "Pactos e entidades",
+      "parte": "Ferramentas de Ciclo Maldito",
+      "sha256": "d489ddc738a7037247301981daa168044c0059a15fd1fe01d4bd58dc2d947bd0"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+      "pagina": "capitulo-10.html",
+      "titulo": "Jogar em guilda",
+      "parte": "Ferramentas de Ciclo Maldito",
+      "sha256": "ceacffd8907a522e238fc3dbd20d578b29513a315e526c6745f47223bb5d19d6"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+      "pagina": "folhas.html",
+      "titulo": "Escolher uma folha para a mesa",
+      "parte": "Apêndice A",
+      "sha256": "7b6b7ba3d541934735d96afa1b327feac0d980da10b4e9a0d22da42797e4c263"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/indice-de-casos.md",
+      "pagina": "casos.html",
+      "titulo": "Casos por assunto",
+      "parte": "Apêndice B",
+      "sha256": "26c291742a5cb1453107a3ef92ef04f7b23804da04daa0f655cfc0ac678c7f79"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
+      "pagina": "caso-14-o-aviso-de-reabertura.html",
+      "titulo": "O aviso de reabertura",
+      "parte": "Apêndice B",
+      "sha256": "aa0d130f7e01e041764bc085144828590e695625dfdeacf48c207e8b32002bbf"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "pagina": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html",
+      "titulo": "Exemplos de testes e iniciativa",
+      "parte": "Apêndice B",
+      "sha256": "4638b119a2cdfd813849572acf8277e3e850a75a7aec8fb5323384859b6b1cee"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "pagina": "caso-83-perceber-procurar-e-interpretar-sinais.html",
+      "titulo": "Percepção e pistas",
+      "parte": "Apêndice B",
+      "sha256": "2c870c3bc9b75a716df5dc1d9c42b788bc9b85edfa6904cc4d7437f2a1c8c634"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+      "pagina": "caso-11-espaco-e-usos-criativos.html",
+      "titulo": "O cenário e as ideias dos jogadores",
+      "parte": "Apêndice B",
+      "sha256": "78251b062fdcd5f55433a1d197cdd392295e599997fe8b7b6f690881565db20d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+      "pagina": "caso-84-percursos-apoios-e-quedas.html",
+      "titulo": "Movimento, saltos e quedas",
+      "parte": "Apêndice B",
+      "sha256": "9dcb49dcff8f4ad8700e9ce8bfdd92a77bfbaa04e5405b227d407553a2cddd1c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "pagina": "caso-85-trajetorias-ferramentas-e-improvisacao.html",
+      "titulo": "Ferramentas e improvisação",
+      "parte": "Apêndice B",
+      "sha256": "3b81892c9ed97256bef43dc761f1aea6db252a88c50994f29a6e88c0a46b6517"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+      "pagina": "caso-22-quedas-e-socorro.html",
+      "titulo": "Quedas e socorro",
+      "parte": "Apêndice B",
+      "sha256": "94e132985eb9e8eda188ad4d4164d74ed9977218a708eb421cc45f23b12ec77a"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+      "pagina": "caso-23-retirada-e-recuperacao.html",
+      "titulo": "Retirada e recuperação",
+      "parte": "Apêndice B",
+      "sha256": "a398fe29f0f205961c32375991dad99bdbb4b2a3acc304b5429c916ad3a69a4b"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+      "pagina": "caso-81-passar-a-missao-entre-mestres.html",
+      "titulo": "Passar a missão entre mestres",
+      "parte": "Apêndice B",
+      "sha256": "844099196a5ccc9443700b4df5064d5773197bccdb3ee9daa9ec3141c072e4e2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+      "pagina": "caso-14-tres-maldicoes-para-a-missao.html",
+      "titulo": "Três maldições para a missão",
+      "parte": "Apêndice B",
+      "sha256": "b50754806d2613f8c7638dffc2efad441f3c6fcc8272d6698cdc827c2d423b12"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "pagina": "caso-59-recursos-e-ritmo-dos-inimigos.html",
+      "titulo": "PE, recarga e limites de uso",
+      "parte": "Apêndice B",
+      "sha256": "4bca114305e7550d226792d9ad9bc19323a96eb0d383a7f02f438999a531ab79"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+      "pagina": "caso-60-montar-habilidades-de-inimigos.html",
+      "titulo": "Montar as habilidades de um inimigo",
+      "parte": "Apêndice B",
+      "sha256": "b5e01df619fa95b10daad4725cb7f7b14fa9bacecd1fce9761f0539a99e3eab3"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+      "pagina": "caso-74-regua-inicial-de-inimigos.html",
+      "titulo": "Escolher os números de um inimigo",
+      "parte": "Apêndice B",
+      "sha256": "5a7870d1850048fa707481ab5cafd154fa1bbc99bf439cf93e820271b3e01dbc"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "pagina": "caso-100-comparar-inimigos-em-outras-faixas.html",
+      "titulo": "Inimigos de níveis mais altos",
+      "parte": "Apêndice B",
+      "sha256": "17c77e6a356e14ff83c3dc1a4874b4cb6ea33fde346f7242e3b9330143914b1c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "pagina": "caso-67-preparar-chefes-e-confrontos-maiores.html",
+      "titulo": "Preparar chefes e confrontos maiores",
+      "parte": "Apêndice B",
+      "sha256": "6c5211b02e3d6a051501d9211dfa8d992ed2607f31573b2e10f352484dd55e14"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/78-preparar-perigos-ambientais.md",
+      "pagina": "caso-78-preparar-perigos-ambientais.html",
+      "titulo": "Perigos do ambiente",
+      "parte": "Apêndice B",
+      "sha256": "d4ac6db2471df18f998d2f5e2ae4dd1801393d2f077d539dcd9c40a0a06364a3"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "pagina": "caso-57-avaliar-o-encontro-do-amontoado.html",
+      "titulo": "O encontro do Amontoado",
+      "parte": "Apêndice B",
+      "sha256": "aa2c9861fdf48ba6929cb9ed490c8905753caeface1e93e857841671475af493"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "pagina": "caso-62-o-carregador-e-o-corredor-de-entulho.html",
+      "titulo": "O Carregador no depósito",
+      "parte": "Apêndice B",
+      "sha256": "589669818d938c178ce745b81f248578d6f4e63c749a93ad94744aae7eb65f8f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/63-carregador-consulta-e-doma.md",
+      "pagina": "caso-63-carregador-consulta-e-doma.html",
+      "titulo": "Carregador: ficha e Doma",
+      "parte": "Apêndice B",
+      "sha256": "83540e989b341071a799476cea2222619eba4c863c61023ca88887eacca91009"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/64-a-passarela-e-o-guincho.md",
+      "pagina": "caso-64-a-passarela-e-o-guincho.html",
+      "titulo": "A passarela e o guincho",
+      "parte": "Apêndice B",
+      "sha256": "e8ae354e57b21594725c7f4947cd7ff3bf10b02856ae2abace7dc2ca294662ce"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "pagina": "caso-65-comparar-confronto-e-pressao-ambiental.html",
+      "titulo": "Inimigos e perigos juntos",
+      "parte": "Apêndice B",
+      "sha256": "a0ae3ffb57fec3da2bc2a793f534d9cd5236a4c1ecf6db821290b6e75903f6dd"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "pagina": "caso-66-o-carregador-e-a-saida-que-fecha.html",
+      "titulo": "O portão do depósito",
+      "parte": "Apêndice B",
+      "sha256": "b91e919e6458bbcc092077e8f14a6a6b07861258921d6b81cb2f3c0e1f0ff71c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+      "pagina": "caso-71-sineiro-do-recolhimento.html",
+      "titulo": "Sineiro do Recolhimento",
+      "parte": "Apêndice B",
+      "sha256": "91c1bf673f001cd27e3fa74025d7af784b93c73011e4ebf78405848b1054efe3"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+      "pagina": "caso-72-sineiro-consulta-e-doma.html",
+      "titulo": "Sineiro: ficha após a Doma",
+      "parte": "Apêndice B",
+      "sha256": "51166ec390de6af078a07e71b63555a72d6fbdf32ebb78062544daaf601906aa"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/73-ensaio-guiado-do-sineiro.md",
+      "pagina": "caso-73-ensaio-guiado-do-sineiro.html",
+      "titulo": "Retirar a caixa, proteger a equipe",
+      "parte": "Apêndice B",
+      "sha256": "d66c1045be4dea0de50c2ddbe7f92076cda7e9aa43ac32062ace2a278c22f162"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "pagina": "caso-75-ren-e-sora-atacante-e-apoio.html",
+      "titulo": "Toru e Sayo: atacante e apoio",
+      "parte": "Apêndice B",
+      "sha256": "385405ebf971e6cd3789f03bf18f7c587aa2c7219d584cb669aecd173fa5af10"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
+      "pagina": "caso-76-confronto-de-ren-e-sora.html",
+      "titulo": "Escolher quem enfrentar primeiro",
+      "parte": "Apêndice B",
+      "sha256": "550b8fa69d2d939892e0bfc6b078b1a7fe388b1120e45933aac02741a1954c88"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
+      "pagina": "caso-101-haru-vigia-e-tessa.html",
+      "titulo": "Daigo, Vigia e Tessa",
+      "parte": "Apêndice B",
+      "sha256": "264d6c91204abed0a25bd1396c3f6c704000a1ef57d8573d34ccf8f913764c8f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "pagina": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html",
+      "titulo": "Disputa pelo arquivo",
+      "parte": "Apêndice B",
+      "sha256": "e1c318fc84813cee0db3f318aeb60dc194b3870b8d56959ff27ad7b9896468e2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "pagina": "caso-79-o-po-na-sala-de-conservacao.html",
+      "titulo": "O pó na sala de conservação",
+      "parte": "Apêndice B",
+      "sha256": "4d3b6c79ccda75735283a6a33f515b4227819ae5c30a1053bd24f1b899519dd2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+      "pagina": "caso-103-a-febre-dos-fios.html",
+      "titulo": "A febre dos fios",
+      "parte": "Apêndice B",
+      "sha256": "9ae929a7cffb8d6b72e51acd44dbb311de6fdd7993b40c362f88a8a67bec60f2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/77-ficha-preenchida-ren-e-sora.md",
+      "pagina": "caso-77-ficha-preenchida-ren-e-sora.html",
+      "titulo": "Ficha preenchida: Toru e Sayo",
+      "parte": "Apêndice B",
+      "sha256": "41eeafb426062b5b1ccdad8998b7153df4d0efedd3106dc043cfaf2342cf01f0"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
+      "pagina": "caso-68-ficha-e-comparacao-de-chefes.html",
+      "titulo": "Conferir e comparar um chefe",
+      "parte": "Apêndice B",
+      "sha256": "ce74d2a43de3f787721e8971884b79afaa9c53577675236c285b976ca542b356"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+      "pagina": "caso-27-convivencia-do-receptaculo.html",
+      "titulo": "Maia e Taru: a presença em cena",
+      "parte": "Apêndice B",
+      "sha256": "1f19dbc9a4b21e6e39c4c3104e8fa2524c3e9cb251a683cef1f53ee062e67e07"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+      "pagina": "caso-89-vida-rolada-e-familia-propria.html",
+      "titulo": "Vida rolada e uma família própria",
+      "parte": "Apêndice B",
+      "sha256": "5b98618bc25759dc4cc2e5edf870592f5c687efe87e9352d88955c330818c85c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+      "pagina": "caso-90-reparar-personagem-de-corpo-construido.html",
+      "titulo": "Reparar um personagem de corpo construído",
+      "parte": "Apêndice B",
+      "sha256": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/91-restricao-corporal-e-cuidados.md",
+      "pagina": "caso-91-restricao-corporal-e-cuidados.html",
+      "titulo": "Restrição corporal: participação e cuidados",
+      "parte": "Apêndice B",
+      "sha256": "133c794afe3a1faadcaf0c3d2d110588a1c608a428f51ed06d04d225e53f8c23"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+      "pagina": "caso-30-pareceres-de-criacoes.html",
+      "titulo": "Exemplos de avaliação de poderes",
+      "parte": "Apêndice B",
+      "sha256": "b7520ab43cad01b9955af2574cbb850c91144a50c0ae3184de54a2140a03e54a"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/31-avaliar-poderes-avancados.md",
+      "pagina": "caso-31-avaliar-poderes-avancados.html",
+      "titulo": "Avaliar poderes avançados",
+      "parte": "Apêndice B",
+      "sha256": "55914fc6378355af0ade1016e0dbdfa9eb6c9fef804ec2808c636050d6637631"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+      "pagina": "caso-33-casos-especificos-de-avaliacao.html",
+      "titulo": "Dúvidas sobre técnicas e capacidades",
+      "parte": "Apêndice B",
+      "sha256": "d3552c64330e9cdbd7073bf4847999bb9b60cbd0c4be9689cf254b310055aaeb"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "pagina": "caso-93-ampliar-mesclas-e-trocar-formas.html",
+      "titulo": "Ampliar uma mescla e trocar sua Forma",
+      "parte": "Apêndice B",
+      "sha256": "c9fa9bb9cf151ed897cbb8d52a864c0babae889017feee4479bfce86ab86ddda"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/94-compras-repetidas-e-restricoes.md",
+      "pagina": "caso-94-compras-repetidas-e-restricoes.html",
+      "titulo": "Repetir Melhorias e definir Restrições",
+      "parte": "Apêndice B",
+      "sha256": "4b8473cbaaedf24ba87775d244b830dc0ee64657d6696cb908d90fdc58f38ee2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "pagina": "caso-95-efeitos-de-cena-e-cancelamento.html",
+      "titulo": "Efeitos de cena e cancelamento",
+      "parte": "Apêndice B",
+      "sha256": "45101fa681d136e51827395ab764d9eac9e1481282f438cb11466a3052672e52"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+      "pagina": "consulta-92-reserva-condensada-proposta-e-comparacao.html",
+      "titulo": "Reserva Condensada: acordo por personagem",
+      "parte": "Apêndice B",
+      "sha256": "abfc68f9e2c05bff1695944576f1e8f2b13fa817bb07dd2f6f623aeddcc290a3"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+      "pagina": "caso-34-oficios-fabricacao-e-reparos.html",
+      "titulo": "Ofícios, fabricação e reparos",
+      "parte": "Apêndice B",
+      "sha256": "16593e60a0b32dd196171d70f1d5ef7561d39499c9b72e8a252eb8b6c6ffa4e9"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/36-ferramentas-objetos-e-contencao.md",
+      "pagina": "caso-36-ferramentas-objetos-e-contencao.html",
+      "titulo": "Ferramentas e objetos amaldiçoados",
+      "parte": "Apêndice B",
+      "sha256": "1d6c03fb75bfff5cc7790bda7451a46eef50f0e53850ca8bf69152ccca2abb9f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+      "pagina": "caso-96-fabricar-e-identificar-o-anel.html",
+      "titulo": "Uma ferramenta nova: Anel de Testemunho",
+      "parte": "Apêndice B",
+      "sha256": "7a9e402346895a06519190baeddfbe824056242482c30810ec571959f78c5406"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+      "pagina": "caso-97-emprestimo-familiar-e-negociacao.html",
+      "titulo": "Empréstimo familiar e venda com condição",
+      "parte": "Apêndice B",
+      "sha256": "98e4d09bbb7c023fe86b653b55ef3fddfbf8a9ae6708bcc5ea4fc81099f10efa"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/98-objeto-selado-e-risco-de-ingestao.md",
+      "pagina": "caso-98-objeto-selado-e-risco-de-ingestao.html",
+      "titulo": "Um objeto selado: a Pastilha do Último Aviso",
+      "parte": "Apêndice B",
+      "sha256": "741ffea48e751bf5f4c3ad3d88d46dd60c7e2408235b7a528f0d7ce9ad43fdf6"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+      "pagina": "caso-99-limiar-feitos-e-promocao.html",
+      "titulo": "Feitos do Limiar e promoção de Grau",
+      "parte": "Apêndice B",
+      "sha256": "54520272346092c6fff765c06ae9ddbaab2e6777a3b603291e9d68f367169811"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "pagina": "caso-47-desenvolver-uma-ideia-de-pacto.html",
+      "titulo": "Desenvolver uma ideia de Pacto",
+      "parte": "Apêndice B",
+      "sha256": "7581512f94b6ad6dbf9d7ff05ff61bb214f25b87f80ffa3ec6187edfe2d98122"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+      "pagina": "caso-48-pacifismo-impraticavel-minuta.html",
+      "titulo": "Pacifismo impraticável",
+      "parte": "Apêndice B",
+      "sha256": "b6bb9f59568de262ebe3c912d860d75548946006309ed50e52ab0b4075b08094"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+      "pagina": "caso-49-liberacao-irregular-minuta.html",
+      "titulo": "Liberação irregular",
+      "parte": "Apêndice B",
+      "sha256": "a7b23ac16396d409fb2f1c9c09ca38ec9fbe5769d5e1daaf8e1add74c99761a2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+      "pagina": "caso-50-promessa-do-arquivo.html",
+      "titulo": "A Promessa do arquivo",
+      "parte": "Apêndice B",
+      "sha256": "f11e63d6d18cc36c52fb285f73091ba152d98467534013370366e171247ebd23"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "pagina": "caso-43-aquisicao-e-projetos-de-entidades.html",
+      "titulo": "Obter e criar entidades",
+      "parte": "Apêndice B",
+      "sha256": "d37e3402f7d9c1cf6630755c0537b20e14fd2279bd3109402968cd812b22301d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "pagina": "caso-45-tempo-materiais-e-retomada-de-entidades.html",
+      "titulo": "Tempo e materiais para criar entidades",
+      "parte": "Apêndice B",
+      "sha256": "63cf6956343aa089f5a07e427029adfeed063068fc89d50e48c9d8e2ddee254d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "pagina": "caso-46-reconstruir-transferir-e-herdar-entidades.html",
+      "titulo": "Reconstruir, transferir e herdar entidades",
+      "parte": "Apêndice B",
+      "sha256": "a72a2e6e73ea22937cad340ad8e371dd6dec450fde09dbbf6174f8a43361315d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+      "pagina": "caso-51-ritual-do-cao-de-sombra.html",
+      "titulo": "A prova do Cão de sombra",
+      "parte": "Apêndice B",
+      "sha256": "05d0136bbbc82c54b54233ef8bf8e218eaedde12df687541e798e1007351903f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+      "pagina": "caso-52-domar-o-amontoado.html",
+      "titulo": "Domar o Amontoado do depósito",
+      "parte": "Apêndice B",
+      "sha256": "cd87dfcacd8daae4d5025699424b421f66373752754fa63d0885084bfce7bf93"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+      "pagina": "caso-53-construir-e-evoluir-o-escriba.html",
+      "titulo": "Construir e evoluir o Escriba de campo",
+      "parte": "Apêndice B",
+      "sha256": "249a8d6c4e3c0d4bab6e77b5312644cc2b0231baee1a041d4fab5372009f8e0f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+      "pagina": "caso-54-transporte-e-continuidade-das-entidades.html",
+      "titulo": "Transporte com entidades",
+      "parte": "Apêndice B",
+      "sha256": "73ee7aa8b71b23af922d30ac66a62c15683731c20fa39e129e1391944bcd95c1"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "pagina": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html",
+      "titulo": "Fabricar e evoluir o Vigia do depósito",
+      "parte": "Apêndice B",
+      "sha256": "02830df2a549d8905b0972ddc52bac7319a31fc1af546ad5b567a06f1fe57cc1"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/02-ficha-de-preparacao.md",
+      "pagina": "consulta-02-ficha-de-preparacao.html",
+      "titulo": "Ficha de preparação de missão",
+      "parte": "Apêndice A",
+      "sha256": "ce592a232bd8361cf7658290c5a72738401cb62db1320b705fce90ba35ce93fb"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+      "pagina": "consulta-05-folha-de-conducao.html",
+      "titulo": "Folha de condução",
+      "parte": "Apêndice A",
+      "sha256": "59e49234920ab54a01fc222675fc1da745f36bb47c3568366a27719e1344678c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/08-ficha-de-acordos-do-grupo.md",
+      "pagina": "consulta-08-ficha-de-acordos-do-grupo.html",
+      "titulo": "Ficha de acordos do grupo",
+      "parte": "Apêndice A",
+      "sha256": "8d4254c7701eee46d14de049291ef6cd2178ecd601ea54a6b4c563a2890ef7bb"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/12-registro-de-descobertas.md",
+      "pagina": "consulta-12-registro-de-descobertas.html",
+      "titulo": "Registro de descobertas",
+      "parte": "Apêndice A",
+      "sha256": "7bd0d0fc07c4eb3a83a7efc4e5a6165dd0ec7622a15c67137fead324fb9fe32f"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "pagina": "consulta-16-linha-de-continuidade.html",
+      "titulo": "Linha de continuidade",
+      "parte": "Apêndice A",
+      "sha256": "9cdb60db8a6ba235e9c708714a3a4a94bd5826d2e9180257d586ea0ad7d31a76"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/20-ficha-de-faccao.md",
+      "pagina": "consulta-20-ficha-de-faccao.html",
+      "titulo": "Ficha de facção",
+      "parte": "Apêndice A",
+      "sha256": "dbc5952f371e8800b1d32b750536c88215223f449e53f578d9658ab739a589f7"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "pagina": "consulta-24-registro-de-estado-e-socorro.html",
+      "titulo": "Registro de estado e socorro",
+      "parte": "Apêndice A",
+      "sha256": "b8af13d689b860f8ae20c7d0c321bc5102c43d1c8211294c707788058d9e18d6"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/28-ficha-de-convivencia.md",
+      "pagina": "consulta-28-ficha-de-convivencia.html",
+      "titulo": "Ficha de convivência",
+      "parte": "Apêndice A",
+      "sha256": "9bd14df5288cbac2b6806d71f747c2219b13c39a94a0eb41115a812db98fc92d"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "pagina": "consulta-32-ficha-de-avaliacao-de-capacidade.html",
+      "titulo": "Ficha de avaliação de capacidade",
+      "parte": "Apêndice A",
+      "sha256": "0db871baecd1f117f2ffcbc11674f69c4247694e04a3b48c4e2f39096fc5d3a8"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+      "pagina": "consulta-38-ficha-de-projeto-e-entrega.html",
+      "titulo": "Ficha de projeto e entrega",
+      "parte": "Apêndice A",
+      "sha256": "7269d3e7c407ec18178f4499b9f1607abc4673cb6195dbc6baa85690c53d7538"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "pagina": "consulta-40-registro-de-dedicacao-por-ficha.html",
+      "titulo": "Registro de dedicação por ficha",
+      "parte": "Apêndice A",
+      "sha256": "197044278e3006d44c1e8dab63d4e02fa76a18ef5e62ad17b16008ea97b7563a"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+      "pagina": "consulta-42-registro-de-pactos-e-promessas.html",
+      "titulo": "Registro de Pactos e Promessas",
+      "parte": "Apêndice A",
+      "sha256": "e5fa53782131729ca9f7a5a7df39a0a21a1dea787bd5aa45cee9f7bca6d0a825"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "pagina": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html",
+      "titulo": "Registro de aquisição e estado de entidade",
+      "parte": "Apêndice A",
+      "sha256": "44ce9d783c431c618345be1d7d00399280495c71ffac7b9bc646e9f0df24cdde"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "pagina": "consulta-58-ficha-de-inimigo-e-encontro.html",
+      "titulo": "Ficha de inimigo e encontro",
+      "parte": "Apêndice A",
+      "sha256": "bdccde9dfdf564cec34ca1b49fb78278aa8b7d795ed62ccdcdd375d3181bd9b5"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "pagina": "consulta-61-ficha-de-habilidade-de-inimigo.html",
+      "titulo": "Conferir uma habilidade de inimigo",
+      "parte": "Apêndice A",
+      "sha256": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+      "pagina": "consulta-A1-exemplo-despedida.html",
+      "titulo": "Preparo preenchido: a despedida",
+      "parte": "Apêndice A",
+      "sha256": "e362ef77f6e9bf11ec09b8eeef46c5b79411c2ecc1620bea1ae6508fa2b7f22c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+      "pagina": "consulta-A1-preparar-a-missao.html",
+      "titulo": "Preparar a missão",
+      "parte": "Apêndice A",
+      "sha256": "552f6f42ade8dc928af47fbfdb5ae0aa8009ebba2d703c8d5f6170de31096670"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+      "pagina": "consulta-A2-conduzir-a-sessao.html",
+      "titulo": "Conduzir a sessão",
+      "parte": "Apêndice A",
+      "sha256": "fd81fd74577298f80b820517e7e3c8821037e8dd83307150cc0a7476c9b96ce2"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+      "pagina": "consulta-A4-exemplo-sala-de-conservacao.html",
+      "titulo": "Retomada preenchida: a sala de conservação",
+      "parte": "Apêndice A",
+      "sha256": "f08f8e154581f5c70f0c6a839ad2804f6eeb49d4a546bb5d9ae0b4377ff42278"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "pagina": "consulta-A4-retomar-a-missao.html",
+      "titulo": "Retomar a missão",
+      "parte": "Apêndice A",
+      "sha256": "a44a5f5cd967eada267ac7f98f11f2dfe118df3792a92bdd0fe571e6476b976c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+      "pagina": "apendice-c.html",
+      "titulo": "Termos do mundo",
+      "parte": "Apêndice C",
+      "sha256": "54b58a13aba3ccb9314ceea8697f3c1907ebe1ef0da654ede0e6f1c4506f3258"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "pagina": "apendice-d.html",
+      "titulo": "Ideias da obra para suas missões",
+      "parte": "Aprofundamento com revelações",
+      "sha256": "91f5e9799685f8686a48cb33e253934a13860a0c8254d4b7a8f241f80047898c"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+      "pagina": "referencias.html",
+      "titulo": "Referências",
+      "parte": "Referências",
+      "sha256": "3fd4523456472b3e0682bca0f52176580d51970af831cf2485142dc06308f6d1"
+    }
+  ],
+  "complemento_incluido": {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+    "pagina": "capitulo-03.html",
+    "ancora": "ideias",
+    "entre": "3.6 e 3.7"
+  },
+  "rotas": [
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/00-como-usar-este-livro.md",
+      "pagina": "como-usar.html",
+      "ancoras": {
+        "como-usar-este-livro": "como-usar-este-livro",
+        "por-onde-comecar": "por-onde-comecar",
+        "durante-a-leitura-e-o-jogo": "durante-a-leitura-e-o-jogo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/01-sua-primeira-missao.md",
+      "pagina": "capitulo-01.html",
+      "ancoras": {
+        "sua-primeira-missao": "sua-primeira-missao",
+        "11-o-que-faz-o-mestre": "11-o-que-faz-o-mestre",
+        "12-antes-de-comecar": "12-antes-de-comecar",
+        "13-uma-cena-do-cotidiano": "13-uma-cena-do-cotidiano",
+        "14-prepare-as-batidas-no-anexo": "14-prepare-as-batidas-no-anexo",
+        "14-prepare-a-missao": "14-prepare-a-missao",
+        "pessoas-e-lugar": "pessoas-e-lugar",
+        "amontoado-do-deposito": "amontoado-do-deposito",
+        "15-jogue-a-missao": "15-jogue-a-missao",
+        "abra-com-algo-que-permita-agir": "abra-com-algo-que-permita-agir",
+        "acompanhe-uma-investigacao": "acompanhe-uma-investigacao",
+        "quando-os-jogadores-quiserem-entender-mais": "quando-os-jogadores-quiserem-entender-mais",
+        "quando-comeca-o-combate": "quando-comeca-o-combate",
+        "quem-participa-deste-exemplo": "quem-participa-deste-exemplo",
+        "primeira-rodada-agir-enquanto-o-socorro-chega": "primeira-rodada-agir-enquanto-o-socorro-chega",
+        "o-que-anotar-quando-alguem-cai": "o-que-anotar-quando-alguem-cai",
+        "segunda-rodada-completar-o-atendimento": "segunda-rodada-completar-o-atendimento",
+        "se-alguem-cair-de-outra-forma": "se-alguem-cair-de-outra-forma",
+        "16-se-o-grupo-escolher-outro-caminho": "16-se-o-grupo-escolher-outro-caminho",
+        "conversar-com-a-criatura": "conversar-com-a-criatura",
+        "usar-a-entrada-de-servico": "usar-a-entrada-de-servico",
+        "sair-de-um-combate": "sair-de-um-combate",
+        "chamar-apoio-e-manter-o-anexo-fechado": "chamar-apoio-e-manter-o-anexo-fechado",
+        "propor-algo-que-voce-nao-preparou": "propor-algo-que-voce-nao-preparou",
+        "17-depois-da-missao": "17-depois-da-missao",
+        "confira-o-estado-do-grupo": "confira-o-estado-do-grupo",
+        "guarde-o-que-precisa-continuar": "guarde-o-que-precisa-continuar",
+        "sua-proxima-aventura": "sua-proxima-aventura",
+        "as-batidas-no-anexo-preparo-para-consulta": "as-batidas-no-anexo-preparo-para-consulta"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
+      "pagina": "capitulo-02.html",
+      "ancoras": {
+        "o-mundo-dos-feiticeiros": "o-mundo-dos-feiticeiros",
+        "21-maldicoes-na-vida-comum": "21-maldicoes-na-vida-comum",
+        "lugares-e-pessoas": "lugares-e-pessoas",
+        "depois-da-ocorrencia": "depois-da-ocorrencia",
+        "22-feiticeiros-energia-e-tecnicas": "22-feiticeiros-energia-e-tecnicas",
+        "os-poderes-em-acao": "os-poderes-em-acao",
+        "da-ideia-a-ficha": "da-ideia-a-ficha",
+        "23-escolas-familias-e-contatos": "23-escolas-familias-e-contatos",
+        "quem-o-grupo-conhece": "quem-o-grupo-conhece",
+        "autoridade-e-confianca": "autoridade-e-confianca",
+        "relacoes-que-continuam": "relacoes-que-continuam",
+        "24-diferentes-formas-de-viver": "24-diferentes-formas-de-viver",
+        "latente": "latente",
+        "receptaculo": "receptaculo",
+        "descendente": "descendente",
+        "encarnado": "encarnado",
+        "hibrido": "hibrido",
+        "corpo-amaldicoado": "corpo-amaldicoado",
+        "restricao-celestial": "restricao-celestial",
+        "25-trabalho-estudo-e-relacoes": "25-trabalho-estudo-e-relacoes",
+        "26-a-epoca-e-o-lugar-da-sua-campanha": "26-a-epoca-e-o-lugar-da-sua-campanha",
+        "guilda-e-campanha-fechada": "guilda-e-campanha-fechada",
+        "comecar-a-jogar": "comecar-a-jogar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03-preparar-aventuras.md",
+      "pagina": "capitulo-03.html",
+      "ancoras": {
+        "preparar-aventuras": "preparar-aventuras",
+        "31-o-preparo-necessario": "31-o-preparo-necessario",
+        "31-o-que-preparar": "31-o-que-preparar",
+        "uma-despedida": "uma-despedida",
+        "escolhas-do-grupo": "escolhas-do-grupo",
+        "32-pessoas-que-dao-vida-a-aventura": "32-pessoas-que-dao-vida-a-aventura",
+        "pedidos-e-acordos": "pedidos-e-acordos",
+        "33-lugares-e-caminhos": "33-lugares-e-caminhos",
+        "caminhos-alternativos": "caminhos-alternativos",
+        "34-pistas-e-investigacoes": "34-pistas-e-investigacoes",
+        "encontrar-as-pistas": "encontrar-as-pistas",
+        "depois-da-descoberta": "depois-da-descoberta",
+        "35-perigos-e-consequencias": "35-perigos-e-consequencias",
+        "os-objetivos-da-missao": "os-objetivos-da-missao",
+        "as-consequencias": "as-consequencias",
+        "antes-que-o-trem-parta": "antes-que-o-trem-parta",
+        "o-comeco": "o-comeco",
+        "as-pessoas": "as-pessoas",
+        "o-lugar-e-as-informacoes": "o-lugar-e-as-informacoes",
+        "o-que-pode-mudar": "o-que-pode-mudar",
+        "para-encerrar": "para-encerrar",
+        "36-ideias-para-sua-proxima-missao": "36-ideias-para-sua-proxima-missao",
+        "37-quando-ha-pouco-tempo": "37-quando-ha-pouco-tempo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/03a-ideias-para-aventuras.md",
+      "pagina": "capitulo-03.html",
+      "ancoras": {
+        "ideias-para-aventuras": "ideias--ideias-para-aventuras",
+        "oito-situacoes-para-comecar": "ideias--oito-situacoes-para-comecar",
+        "1-luz-na-sala-de-projecao": "ideias--1-luz-na-sala-de-projecao",
+        "2-depois-do-primeiro-chamado": "ideias--2-depois-do-primeiro-chamado",
+        "3-a-assinatura-no-coreto": "ideias--3-a-assinatura-no-coreto",
+        "4-o-que-ficou-no-cinema": "ideias--4-o-que-ficou-no-cinema",
+        "5-uma-cancao-para-cada-um": "ideias--5-uma-cancao-para-cada-um",
+        "6-ensaio-na-outra-margem": "ideias--6-ensaio-na-outra-margem",
+        "7-o-ultimo-onibus": "ideias--7-o-ultimo-onibus",
+        "8-um-pedido-vindo-da-agua": "ideias--8-um-pedido-vindo-da-agua",
+        "seis-pessoas-para-encontrar": "ideias--seis-pessoas-para-encontrar",
+        "rei-feiticeira-independente": "ideias--rei-feiticeira-independente",
+        "nori-cuidador-do-coreto": "ideias--nori-cuidador-do-coreto",
+        "dara-musicista-de-corpo-construido": "ideias--dara-musicista-de-corpo-construido",
+        "joana-conhecedora-das-hortas": "ideias--joana-conhecedora-das-hortas",
+        "caio-aprendiz-fora-de-um-cla": "ideias--caio-aprendiz-fora-de-um-cla",
+        "leda-antiga-projecionista": "ideias--leda-antiga-projecionista",
+        "quatro-lugares-para-usar": "ideias--quatro-lugares-para-usar",
+        "o-coreto-da-praca": "ideias--o-coreto-da-praca",
+        "o-canal-das-hortas": "ideias--o-canal-das-hortas",
+        "o-cinema-fechado": "ideias--o-cinema-fechado",
+        "o-pequeno-terminal": "ideias--o-pequeno-terminal",
+        "seis-complicacoes-possiveis": "ideias--seis-complicacoes-possiveis",
+        "um-acesso-ficou-indisponivel": "ideias--um-acesso-ficou-indisponivel",
+        "a-pessoa-precisa-sair": "ideias--a-pessoa-precisa-sair",
+        "duas-vontades-pedem-espaco": "ideias--duas-vontades-pedem-espaco",
+        "outra-equipe-ja-esteve-aqui": "ideias--outra-equipe-ja-esteve-aqui",
+        "o-horario-mudou": "ideias--o-horario-mudou",
+        "o-relato-mistura-fato-e-conclusao": "ideias--o-relato-mistura-fato-e-conclusao",
+        "combinacao-1-a-assinatura-no-coreto": "ideias--combinacao-1-a-assinatura-no-coreto",
+        "o-que-aconteceu": "ideias--o-que-aconteceu",
+        "para-comecar": "ideias--para-comecar",
+        "caminhos-ate-os-fatos": "ideias--caminhos-ate-os-fatos",
+        "a-proxima-decisao": "ideias--a-proxima-decisao",
+        "combinacao-2-ensaio-na-outra-margem": "ideias--combinacao-2-ensaio-na-outra-margem",
+        "o-comeco-e-os-caminhos": "ideias--o-comeco-e-os-caminhos",
+        "o-trecho-de-agua": "ideias--o-trecho-de-agua",
+        "resolver-a-travessia": "ideias--resolver-a-travessia",
+        "chegada-e-fechamento": "ideias--chegada-e-fechamento",
+        "um-ensaio-entre-amigos": "ideias--um-ensaio-entre-amigos"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/04-na-mesa-de-jogo.md",
+      "pagina": "capitulo-04.html",
+      "ancoras": {
+        "na-mesa-de-jogo": "na-mesa-de-jogo",
+        "41-descrever-ouvir-e-responder": "41-descrever-ouvir-e-responder",
+        "a-proxima-escolha": "a-proxima-escolha",
+        "42-quando-pedir-um-teste": "42-quando-pedir-um-teste",
+        "escolher-a-dificuldade": "escolher-a-dificuldade",
+        "antes-e-depois-do-dado": "antes-e-depois-do-dado",
+        "ajuda-e-trabalho-em-grupo": "ajuda-e-trabalho-em-grupo",
+        "43-interpretar-e-negociar": "43-interpretar-e-negociar",
+        "um-pedido-encontra-resistencia": "um-pedido-encontra-resistencia",
+        "conversas-que-importam": "conversas-que-importam",
+        "44-conduzir-uma-investigacao": "44-conduzir-uma-investigacao",
+        "a-pergunta-e-o-meio": "a-pergunta-e-o-meio",
+        "quando-o-grupo-perde-o-rumo": "quando-o-grupo-perde-o-rumo",
+        "45-as-ideias-dos-jogadores-e-o-cenario": "45-as-ideias-dos-jogadores-e-o-cenario",
+        "45-as-ideias-dos-jogadores": "45-as-ideias-dos-jogadores",
+        "uma-solucao-funciona": "uma-solucao-funciona",
+        "quando-falta-um-detalhe": "quando-falta-um-detalhe",
+        "atualize-o-lugar": "atualize-o-lugar",
+        "46-atencao-ritmo-e-mudanca-de-cena": "46-atencao-ritmo-e-mudanca-de-cena",
+        "46-participacao-e-ritmo": "46-participacao-e-ritmo",
+        "quem-ainda-nao-falou": "quem-ainda-nao-falou",
+        "quando-a-cena-se-repete": "quando-a-cena-se-repete",
+        "grupo-separado": "grupo-separado",
+        "expectativas-diferentes": "expectativas-diferentes",
+        "cena-sessao-e-missao": "cena-sessao-e-missao",
+        "47-combate-socorro-e-retirada": "47-combate-socorro-e-retirada",
+        "acompanhar-o-combate": "acompanhar-o-combate",
+        "quando-um-personagem-cai": "quando-um-personagem-cai",
+        "aguentar-ou-insistir": "aguentar-ou-insistir",
+        "tempo-dano-e-cura": "tempo-dano-e-cura",
+        "estabilizar-e-derrotado": "estabilizar-e-derrotado",
+        "estabilizar": "estabilizar",
+        "derrota": "derrota",
+        "sair-do-perigo": "sair-do-perigo",
+        "48-duvidas-e-fim-da-sessao": "48-duvidas-e-fim-da-sessao",
+        "encerrar-no-horario": "encerrar-no-horario",
+        "guardar-o-que-mudou": "guardar-o-que-mudou"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/05-criar-uma-campanha.md",
+      "pagina": "capitulo-05.html",
+      "ancoras": {
+        "criar-uma-campanha": "criar-uma-campanha",
+        "51-a-sessao-zero": "51-a-sessao-zero",
+        "uma-proposta-para-conversar": "uma-proposta-para-conversar",
+        "mundo-tom-e-limites": "mundo-tom-e-limites",
+        "personagens-e-encontros": "personagens-e-encontros",
+        "exemplo-de-acordo": "exemplo-de-acordo",
+        "52-vinculos-e-interesses-dos-personagens": "52-vinculos-e-interesses-dos-personagens",
+        "um-vinculo-entra-em-cena": "um-vinculo-entra-em-cena",
+        "mudancas-nos-vinculos": "mudancas-nos-vinculos",
+        "53-de-uma-missao-a-proxima": "53-de-uma-missao-a-proxima",
+        "encontre-uma-ligacao": "encontre-uma-ligacao",
+        "uma-pergunta-para-o-arco": "uma-pergunta-para-o-arco",
+        "uma-campanha-mais-aberta": "uma-campanha-mais-aberta",
+        "54-faccoes": "54-faccoes",
+        "pessoas-desejos-e-meios": "pessoas-desejos-e-meios",
+        "as-faccoes-agem": "as-faccoes-agem",
+        "55-antagonistas": "55-antagonistas",
+        "o-relatorio-de-nilo": "o-relatorio-de-nilo",
+        "o-relatorio-de-cesar": "o-relatorio-de-cesar",
+        "apresente-o-antagonista": "apresente-o-antagonista",
+        "56-arcos-finais-e-epilogos": "56-arcos-finais-e-epilogos",
+        "reconhecer-o-resultado": "reconhecer-o-resultado",
+        "depois-do-momento-decisivo": "depois-do-momento-decisivo",
+        "quando-e-preciso-parar": "quando-e-preciso-parar",
+        "preparar-a-continuacao": "preparar-a-continuacao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/06-inimigos-e-perigos.md",
+      "pagina": "capitulo-06.html",
+      "ancoras": {
+        "inimigos-e-perigos": "inimigos-e-perigos",
+        "61-objetivos-e-adversarios": "61-objetivos-e-adversarios",
+        "o-que-cada-criatura-faz": "o-que-cada-criatura-faz",
+        "62-preparar-a-ficha": "62-preparar-a-ficha",
+        "o-que-a-ficha-precisa-trazer": "o-que-a-ficha-precisa-trazer",
+        "escolha-a-regra-da-capacidade": "escolha-a-regra-da-capacidade",
+        "agarrar-um-exemplo": "agarrar-um-exemplo",
+        "63-habilidades-e-recursos": "63-habilidades-e-recursos",
+        "escolher-um-limite": "escolher-um-limite",
+        "quando-a-reserva-cria-uma-escolha": "quando-a-reserva-cria-uma-escolha",
+        "energia-custos-e-outras-regras": "energia-custos-e-outras-regras",
+        "64-escolher-os-numeros": "64-escolher-os-numeros",
+        "valores-para-comecar": "valores-para-comecar",
+        "vida-defesa-dano-e-frequencia": "vida-defesa-dano-e-frequencia",
+        "65-o-grupo-e-o-lugar": "65-o-grupo-e-o-lugar",
+        "prepare-uma-escolha-de-alvo": "prepare-uma-escolha-de-alvo",
+        "faca-o-lugar-importar": "faca-o-lugar-importar",
+        "quando-o-grupo-corre-risco": "quando-o-grupo-corre-risco",
+        "66-chefes-e-grandes-confrontos": "66-chefes-e-grandes-confrontos",
+        "oportunidades-de-agir": "oportunidades-de-agir",
+        "sinal-intervalo-e-resposta": "sinal-intervalo-e-resposta",
+        "fases-condicoes-e-partes": "fases-condicoes-e-partes",
+        "67-perigos-do-ambiente": "67-perigos-do-ambiente",
+        "exposicao-dano-e-condicao": "exposicao-dano-e-condicao",
+        "depois-de-sair-da-area": "depois-de-sair-da-area",
+        "68-antes-e-depois-do-encontro": "68-antes-e-depois-do-encontro",
+        "regras-e-escolhas-da-missao": "regras-e-escolhas-da-missao",
+        "rever-o-encontro": "rever-o-encontro"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
+      "pagina": "capitulo-07.html",
+      "ancoras": {
+        "personagens-e-tecnicas": "personagens-e-tecnicas",
+        "71-conferir-a-ficha": "71-conferir-a-ficha",
+        "um-uso-e-um-limite": "um-uso-e-um-limite",
+        "corrigir-ou-escolher-algo-novo": "corrigir-ou-escolher-algo-novo",
+        "72-personagens-e-seus-cuidados": "72-personagens-e-seus-cuidados",
+        "a-outra-voz-do-receptaculo": "a-outra-voz-do-receptaculo",
+        "o-encarnado-e-a-vida-recebida": "o-encarnado-e-a-vida-recebida",
+        "corpo-amaldicoado-reparar-e-descansar": "corpo-amaldicoado-reparar-e-descansar",
+        "restricao-corporal-participacao-e-apoio": "restricao-corporal-participacao-e-apoio",
+        "73-personalizar-escolhas": "73-personalizar-escolhas",
+        "menores-e-familias-proprias": "menores-e-familias-proprias",
+        "combinar-os-limites": "combinar-os-limites",
+        "reserva-condensada": "reserva-condensada",
+        "vida-rolada-e-escolhas-de-campanha": "vida-rolada-e-escolhas-de-campanha",
+        "rever-escolhas-da-origem": "rever-escolhas-da-origem",
+        "74-avaliar-uma-capacidade": "74-avaliar-uma-capacidade",
+        "como-obter-a-capacidade": "como-obter-a-capacidade",
+        "conferir-a-montagem": "conferir-a-montagem",
+        "exemplo-completo-o-golpe-por-toque": "exemplo-completo-o-golpe-por-toque",
+        "repeticoes-e-mudancas-durante-o-uso": "repeticoes-e-mudancas-durante-o-uso",
+        "75-poderes-avancados": "75-poderes-avancados",
+        "liberacao-e-tecnica-maxima": "liberacao-e-tecnica-maxima",
+        "avaliar-um-dominio": "avaliar-um-dominio",
+        "o-ce4-da-restricao-corporal": "o-ce4-da-restricao-corporal",
+        "76-registrar-e-acompanhar": "76-registrar-e-acompanhar",
+        "restricoes-depois-de-jogar": "restricoes-depois-de-jogar",
+        "ao-subir-de-nivel": "ao-subir-de-nivel"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/08-entre-missoes.md",
+      "pagina": "capitulo-08.html",
+      "ancoras": {
+        "entre-missoes": "entre-missoes",
+        "81-rotina-e-descanso": "81-rotina-e-descanso",
+        "descansar-e-se-recuperar": "descansar-e-se-recuperar",
+        "82-tempo-para-as-atividades": "82-tempo-para-as-atividades",
+        "o-ciclo-da-guilda": "o-ciclo-da-guilda",
+        "entrada-retorno-e-afastamento": "entrada-retorno-e-afastamento",
+        "o-que-passa-para-o-ciclo-seguinte": "o-que-passa-para-o-ciclo-seguinte",
+        "trabalho-ainda-em-conferencia": "trabalho-ainda-em-conferencia",
+        "outro-ciclo-ou-campanha-fechada": "outro-ciclo-ou-campanha-fechada",
+        "83-oficios-fabricacao-e-reparos": "83-oficios-fabricacao-e-reparos",
+        "combinar-o-trabalho": "combinar-o-trabalho",
+        "planejar-o-projeto": "planejar-o-projeto",
+        "o-traje-de-rina": "o-traje-de-rina",
+        "84-comprar-emprestar-e-contratar": "84-comprar-emprestar-e-contratar",
+        "repor-e-emprestar": "repor-e-emprestar",
+        "servico-e-negociacao": "servico-e-negociacao",
+        "85-ferramentas-e-objetos-amaldicoados": "85-ferramentas-e-objetos-amaldicoados",
+        "entregar-uma-ferramenta": "entregar-uma-ferramenta",
+        "descobrir-e-fabricar": "descobrir-e-fabricar",
+        "missoes-de-desgaste": "missoes-de-desgaste",
+        "guardar-e-transportar-objetos-perigosos": "guardar-e-transportar-objetos-perigosos",
+        "86-recompensas-e-progressao": "86-recompensas-e-progressao",
+        "a-semana-de-cada-jogador": "a-semana-de-cada-jogador",
+        "nivel-feito-e-patente": "nivel-feito-e-patente",
+        "salario-e-apoio": "salario-e-apoio",
+        "preparar-a-proxima-saida": "preparar-a-proxima-saida"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/09-pactos-e-entidades.md",
+      "pagina": "capitulo-09.html",
+      "ancoras": {
+        "pactos-e-entidades": "pactos-e-entidades",
+        "91-preco-e-beneficio": "91-preco-e-beneficio",
+        "o-preco-precisa-fazer-diferenca": "o-preco-precisa-fazer-diferenca",
+        "o-momento-da-troca": "o-momento-da-troca",
+        "92-criar-um-pacto": "92-criar-um-pacto",
+        "revelar-a-propria-tecnica": "revelar-a-propria-tecnica",
+        "overtime-e-a-jornada": "overtime-e-a-jornada",
+        "modelos-experimentais": "modelos-experimentais",
+        "93-promessas-entre-pessoas": "93-promessas-entre-pessoas",
+        "o-emprestimo-do-arquivo": "o-emprestimo-do-arquivo",
+        "94-obter-uma-entidade": "94-obter-uma-entidade",
+        "preparar-a-ficha": "preparar-a-ficha",
+        "ritual-e-doma": "ritual-e-doma",
+        "95-projetos-de-entidades": "95-projetos-de-entidades",
+        "materiais-e-etapas": "materiais-e-etapas",
+        "testar-e-ajudar": "testar-e-ajudar",
+        "criar-o-vigia-do-deposito": "criar-o-vigia-do-deposito",
+        "96-evolucao-e-continuidade": "96-evolucao-e-continuidade",
+        "mudar-o-invocador": "mudar-o-invocador",
+        "entre-cenas-e-mestres": "entre-cenas-e-mestres"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/10-jogar-em-guilda.md",
+      "pagina": "capitulo-10.html",
+      "ancoras": {
+        "jogar-em-guilda": "jogar-em-guilda",
+        "101-compartilhar-o-mundo": "101-compartilhar-o-mundo",
+        "o-que-combinar-em-comum": "o-que-combinar-em-comum",
+        "de-uma-mesa-para-outra": "de-uma-mesa-para-outra",
+        "102-calendario-e-atividades": "102-calendario-e-atividades",
+        "missoes-e-trabalhos-que-se-cruzam": "missoes-e-trabalhos-que-se-cruzam",
+        "prazos-que-continuam": "prazos-que-continuam",
+        "103-continuar-com-outro-mestre": "103-continuar-com-outro-mestre",
+        "uma-pausa-na-sala-de-conservacao": "uma-pausa-na-sala-de-conservacao",
+        "a-urgencia-de-mei": "a-urgencia-de-mei",
+        "uma-retomada-possivel": "uma-retomada-possivel",
+        "104-anotar-o-que-importa": "104-anotar-o-que-importa",
+        "atualizar-sem-duplicar": "atualizar-sem-duplicar",
+        "corrigir-ou-mudar-uma-regra": "corrigir-ou-mudar-uma-regra",
+        "105-ouvir-o-grupo-e-dividir-o-trabalho": "105-ouvir-o-grupo-e-dividir-o-trabalho",
+        "tarefas-com-responsaveis": "tarefas-com-responsaveis"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
+      "pagina": "caso-100-comparar-inimigos-em-outras-faixas.html",
+      "ancoras": {
+        "inimigos-de-niveis-mais-altos": "inimigos-de-niveis-mais-altos",
+        "os-tres-perfis": "os-tres-perfis",
+        "compare-acoes-nao-apenas-dados-de-dano": "compare-acoes-nao-apenas-dados-de-dano",
+        "capacidades-mudam-a-comparacao": "capacidades-mudam-a-comparacao",
+        "o-que-muda-em-cada-faixa-de-nivel": "o-que-muda-em-cada-faixa-de-nivel",
+        "levar-os-resultados-a-mesa": "levar-os-resultados-a-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
+      "pagina": "caso-101-haru-vigia-e-tessa.html",
+      "ancoras": {
+        "daigo-vigia-e-tessa": "daigo-vigia-e-tessa",
+        "caracteristicas-dos-tres-guardas": "caracteristicas-dos-tres-guardas",
+        "energia-e-respostas": "energia-e-respostas",
+        "daigo": "daigo",
+        "espada-longa": "espada-longa",
+        "fita-de-contencao": "fita-de-contencao",
+        "quando-daigo-usa-a-tecnica": "quando-daigo-usa-a-tecnica",
+        "vigia": "vigia",
+        "tessa": "tessa",
+        "integridade-e-encerramento": "integridade-e-encerramento"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
+      "pagina": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html",
+      "ancoras": {
+        "disputa-pelo-arquivo": "disputa-pelo-arquivo",
+        "o-lugar-e-o-objetivo": "o-lugar-e-o-objetivo",
+        "como-os-guardas-usam-o-espaco": "como-os-guardas-usam-o-espaco",
+        "o-que-a-comparacao-numerica-mede": "o-que-a-comparacao-numerica-mede",
+        "o-perigo-da-fita-de-contencao": "o-perigo-da-fita-de-contencao",
+        "socorrer-ou-atacar": "socorrer-ou-atacar",
+        "queda-nao-e-derrota": "queda-nao-e-derrota",
+        "registro-para-outro-mestre": "registro-para-outro-mestre"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/103-a-febre-dos-fios.md",
+      "pagina": "caso-103-a-febre-dos-fios.html",
+      "ancoras": {
+        "a-febre-dos-fios": "a-febre-dos-fios",
+        "informe-antes-do-contato": "informe-antes-do-contato",
+        "transmissao-e-evolucao": "transmissao-e-evolucao",
+        "resolva-cada-crise": "resolva-cada-crise",
+        "tratar-a-doenca-e-isolar-o-casulo": "tratar-a-doenca-e-isolar-o-casulo",
+        "exemplo-do-contato-a-recuperacao": "exemplo-do-contato-a-recuperacao",
+        "acompanhar-a-doenca-entre-missoes": "acompanhar-a-doenca-entre-missoes"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/11-espaco-e-usos-criativos.md",
+      "pagina": "caso-11-espaco-e-usos-criativos.html",
+      "ancoras": {
+        "o-cenario-e-as-ideias-dos-jogadores": "o-cenario-e-as-ideias-dos-jogadores",
+        "exemplos-de-movimento-e-improvisacao": "exemplos-de-movimento-e-improvisacao",
+        "mostre-onde-cada-um-esta": "mostre-onde-cada-um-esta",
+        "deslocamento-e-alcance": "deslocamento-e-alcance",
+        "quanto-custa-atravessar-o-terreno": "quanto-custa-atravessar-o-terreno",
+        "visao-e-cobertura": "visao-e-cobertura",
+        "entenda-a-ideia-do-jogador": "entenda-a-ideia-do-jogador",
+        "carregar-arrastar-e-arremessar": "carregar-arrastar-e-arremessar",
+        "objetos-como-armas": "objetos-como-armas",
+        "ajudar-e-distrair": "ajudar-e-distrair",
+        "ate-onde-vai-uma-habilidade": "ate-onde-vai-uma-habilidade",
+        "depois-da-acao": "depois-da-acao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
+      "pagina": "caso-14-o-aviso-de-reabertura.html",
+      "ancoras": {
+        "o-aviso-de-reabertura": "o-aviso-de-reabertura",
+        "antes-da-missao": "antes-da-missao",
+        "o-que-aconteceu": "o-que-aconteceu",
+        "pessoas-e-lugares": "pessoas-e-lugares",
+        "as-pistas": "as-pistas",
+        "mensagens-para-abrir-a-cena": "mensagens-para-abrir-a-cena",
+        "abertura": "abertura",
+        "conversas-e-testes": "conversas-e-testes",
+        "o-que-os-jogadores-podem-fazer": "o-que-os-jogadores-podem-fazer",
+        "se-o-grupo-demorar": "se-o-grupo-demorar",
+        "depois-da-investigacao": "depois-da-investigacao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-tres-maldicoes-para-a-missao.md",
+      "pagina": "caso-14-tres-maldicoes-para-a-missao.html",
+      "ancoras": {
+        "tres-maldicoes-para-a-missao": "tres-maldicoes-para-a-missao",
+        "regras-e-escolhas-do-exemplo": "regras-e-escolhas-do-exemplo",
+        "regras-comuns-das-tres-fichas": "regras-comuns-das-tres-fichas",
+        "consulta-rapida": "consulta-rapida",
+        "rastejante": "rastejante",
+        "amontoado-do-deposito": "amontoado-do-deposito",
+        "vigia-das-farpas": "vigia-das-farpas",
+        "depois-da-doma": "depois-da-doma",
+        "usar-estas-fichas": "usar-estas-fichas"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/22-quedas-e-socorro.md",
+      "pagina": "caso-22-quedas-e-socorro.html",
+      "ancoras": {
+        "quedas-e-socorro": "quedas-e-socorro",
+        "quanto-tempo-resta-para-o-socorro": "quanto-tempo-resta-para-o-socorro",
+        "o-que-anotar-quando-alguem-cai": "o-que-anotar-quando-alguem-cai",
+        "aguentar-ou-insistir": "aguentar-ou-insistir",
+        "como-contar-as-rodadas": "como-contar-as-rodadas",
+        "receber-dano-enquanto-esta-morrendo": "receber-dano-enquanto-esta-morrendo",
+        "quanto-falta-para-se-recuperar": "quanto-falta-para-se-recuperar",
+        "estabilizar": "estabilizar",
+        "exemplo-duas-quedas-no-mesmo-combate": "exemplo-duas-quedas-no-mesmo-combate",
+        "sequelas-cicatrizes-e-derrota": "sequelas-cicatrizes-e-derrota"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/23-retirada-e-recuperacao.md",
+      "pagina": "caso-23-retirada-e-recuperacao.html",
+      "ancoras": {
+        "retirada-e-recuperacao": "retirada-e-recuperacao",
+        "mostre-os-caminhos-de-saida": "mostre-os-caminhos-de-saida",
+        "movimento-e-ataques-de-oportunidade": "movimento-e-ataques-de-oportunidade",
+        "carregar-um-aliado": "carregar-um-aliado",
+        "socorro-durante-a-retirada": "socorro-durante-a-retirada",
+        "recuperar-se-da-derrota": "recuperar-se-da-derrota",
+        "quando-o-grupo-pode-descansar": "quando-o-grupo-pode-descansar",
+        "corpos-e-cuidados-diferentes": "corpos-e-cuidados-diferentes",
+        "descanso-curto": "descanso-curto",
+        "exaustao-e-combates-do-dia": "exaustao-e-combates-do-dia",
+        "descanso-longo": "descanso-longo",
+        "o-que-acontece-depois-da-derrota": "o-que-acontece-depois-da-derrota",
+        "antes-da-proxima-missao": "antes-da-proxima-missao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/27-convivencia-do-receptaculo.md",
+      "pagina": "caso-27-convivencia-do-receptaculo.html",
+      "ancoras": {
+        "maia-e-taru-a-presenca-em-cena": "maia-e-taru-a-presenca-em-cena",
+        "conheca-a-presenca": "conheca-a-presenca",
+        "coexistencia-ou-conflito": "coexistencia-ou-conflito",
+        "uma-cena-de-cooperacao": "uma-cena-de-cooperacao",
+        "uma-cena-de-conflito": "uma-cena-de-conflito",
+        "capacidades-em-jogo": "capacidades-em-jogo",
+        "divida-o-tempo-de-cena": "divida-o-tempo-de-cena",
+        "quando-a-relacao-muda": "quando-a-relacao-muda",
+        "entre-mesas": "entre-mesas"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/30-pareceres-de-criacoes.md",
+      "pagina": "caso-30-pareceres-de-criacoes.html",
+      "ancoras": {
+        "exemplos-de-avaliacao-de-poderes": "exemplos-de-avaliacao-de-poderes",
+        "dano-por-toque": "dano-por-toque",
+        "prender-com-fios": "prender-com-fios",
+        "obter-informacoes-de-um-objeto": "obter-informacoes-de-um-objeto",
+        "sentir-vibracoes": "sentir-vibracoes",
+        "imunidade-e-cura": "imunidade-e-cura",
+        "uma-aposta-real": "uma-aposta-real",
+        "criar-menores-de-origem": "criar-menores-de-origem",
+        "restricoes-que-fazem-diferenca": "restricoes-que-fazem-diferenca"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/31-avaliar-poderes-avancados.md",
+      "pagina": "caso-31-avaliar-poderes-avancados.html",
+      "ancoras": {
+        "avaliar-poderes-avancados": "avaliar-poderes-avancados",
+        "liberacao-e-tecnica-maxima": "liberacao-e-tecnica-maxima",
+        "exemplo-de-liberacao": "exemplo-de-liberacao",
+        "maxima-de-dano": "maxima-de-dano",
+        "maxima-de-cura": "maxima-de-cura",
+        "maxima-de-utilidade": "maxima-de-utilidade",
+        "recarga-opcional": "recarga-opcional",
+        "dominio-aparencia-acerto-e-efeito": "dominio-aparencia-acerto-e-efeito",
+        "exemplo-galeria-de-vidro": "exemplo-galeria-de-vidro",
+        "exemplo-sala-de-tregua": "exemplo-sala-de-tregua",
+        "o-ce4-da-restricao-corporal": "o-ce4-da-restricao-corporal"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/33-casos-especificos-de-avaliacao.md",
+      "pagina": "caso-33-casos-especificos-de-avaliacao.html",
+      "ancoras": {
+        "duvidas-sobre-tecnicas-e-capacidades": "duvidas-sobre-tecnicas-e-capacidades",
+        "a-troca-do-emanador": "a-troca-do-emanador",
+        "comprar-uma-melhoria-mais-de-uma-vez": "comprar-uma-melhoria-mais-de-uma-vez",
+        "definir-os-limites-de-uma-cortina": "definir-os-limites-de-uma-cortina",
+        "a-situacao-do-traje": "a-situacao-do-traje",
+        "sem-tecnica-e-tecnica-marcial": "sem-tecnica-e-tecnica-marcial",
+        "armazenamento-de-energia": "armazenamento-de-energia"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/34-oficios-fabricacao-e-reparos.md",
+      "pagina": "caso-34-oficios-fabricacao-e-reparos.html",
+      "ancoras": {
+        "oficios-fabricacao-e-reparos": "oficios-fabricacao-e-reparos",
+        "treino-ferramentas-e-materiais": "treino-ferramentas-e-materiais",
+        "combine-o-projeto-antes-de-comecar": "combine-o-projeto-antes-de-comecar",
+        "decida-se-precisa-de-teste": "decida-se-precisa-de-teste",
+        "caso-etiquetas-para-um-deposito": "caso-etiquetas-para-um-deposito",
+        "caso-um-reparo-interrompido": "caso-um-reparo-interrompido",
+        "ajuda-e-divisao-de-trabalho": "ajuda-e-divisao-de-trabalho",
+        "reparar-reconstruir-e-melhorar": "reparar-reconstruir-e-melhorar",
+        "trabalho-tratamento-e-aprendizado": "trabalho-tratamento-e-aprendizado"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/36-ferramentas-objetos-e-contencao.md",
+      "pagina": "caso-36-ferramentas-objetos-e-contencao.html",
+      "ancoras": {
+        "ferramentas-e-objetos-amaldicoados": "ferramentas-e-objetos-amaldicoados",
+        "apresente-a-ferramenta": "apresente-a-ferramenta",
+        "usar-a-ferramenta": "usar-a-ferramenta",
+        "identificar-uma-peca-desconhecida": "identificar-uma-peca-desconhecida",
+        "criar-a-ficha-e-fabricar-a-peca": "criar-a-ficha-e-fabricar-a-peca",
+        "acompanhar-o-desgaste": "acompanhar-o-desgaste",
+        "preparar-um-objeto-perigoso": "preparar-um-objeto-perigoso"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/43-aquisicao-e-projetos-de-entidades.md",
+      "pagina": "caso-43-aquisicao-e-projetos-de-entidades.html",
+      "ancoras": {
+        "obter-e-criar-entidades": "obter-e-criar-entidades",
+        "escolha-a-forma-de-aquisicao": "escolha-a-forma-de-aquisicao",
+        "prepare-a-ficha-antes-da-tentativa": "prepare-a-ficha-antes-da-tentativa",
+        "preparar-uma-lista-de-ritual": "preparar-uma-lista-de-ritual",
+        "domar-uma-maldicao": "domar-uma-maldicao",
+        "criar-uma-entidade": "criar-uma-entidade",
+        "resolva-o-teste-de-criacao": "resolva-o-teste-de-criacao",
+        "ajuda-e-nova-tentativa": "ajuda-e-nova-tentativa",
+        "conclua-e-acompanhe-a-evolucao": "conclua-e-acompanhe-a-evolucao",
+        "reconstruir": "reconstruir",
+        "transferir-ou-herdar": "transferir-ou-herdar",
+        "acompanhar-a-entidade-entre-cenas": "acompanhar-a-entidade-entre-cenas",
+        "quando-o-invocador-deixa-de-agir": "quando-o-invocador-deixa-de-agir"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/45-tempo-materiais-e-retomada-de-entidades.md",
+      "pagina": "caso-45-tempo-materiais-e-retomada-de-entidades.html",
+      "ancoras": {
+        "tempo-e-materiais-para-criar-entidades": "tempo-e-materiais-para-criar-entidades",
+        "comece-com-uma-referencia-comum": "comece-com-uma-referencia-comum",
+        "registre-horas-apresente-etapas": "registre-horas-apresente-etapas",
+        "calcule-os-materiais-antes-de-comecar": "calcule-os-materiais-antes-de-comecar",
+        "o-que-acontece-na-falha": "o-que-acontece-na-falha",
+        "quando-o-mestre-quiser-detalhar-mais": "quando-o-mestre-quiser-detalhar-mais",
+        "trabalhar-com-ajuda": "trabalhar-com-ajuda",
+        "exemplo-falhar-e-tentar-de-novo": "exemplo-falhar-e-tentar-de-novo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/46-reconstruir-transferir-e-herdar-entidades.md",
+      "pagina": "caso-46-reconstruir-transferir-e-herdar-entidades.html",
+      "ancoras": {
+        "reconstruir-transferir-e-herdar-entidades": "reconstruir-transferir-e-herdar-entidades",
+        "reconstruir-para-a-classe-seguinte": "reconstruir-para-a-classe-seguinte",
+        "teste-e-resultado": "teste-e-resultado",
+        "exemplo-continuar-com-a-mesma-entidade": "exemplo-continuar-com-a-mesma-entidade",
+        "mais-de-uma-classe": "mais-de-uma-classe",
+        "transferir-ou-herdar": "transferir-ou-herdar",
+        "quem-registra-as-horas": "quem-registra-as-horas",
+        "teste-e-resultado-da-transferencia": "teste-e-resultado-da-transferencia",
+        "exemplo-mudar-o-invocador": "exemplo-mudar-o-invocador",
+        "quando-o-dono-morreu": "quando-o-dono-morreu",
+        "adaptar-e-registrar-o-projeto": "adaptar-e-registrar-o-projeto"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/47-desenvolver-uma-ideia-de-pacto.md",
+      "pagina": "caso-47-desenvolver-uma-ideia-de-pacto.html",
+      "ancoras": {
+        "desenvolver-uma-ideia-de-pacto": "desenvolver-uma-ideia-de-pacto",
+        "explique-o-que-o-pacto-muda": "explique-o-que-o-pacto-muda",
+        "as-ideias-desenvolvidas-neste-guia": "as-ideias-desenvolvidas-neste-guia",
+        "o-que-conferir-nas-sete-ideias": "o-que-conferir-nas-sete-ideias",
+        "pacifismo-impraticavel": "pacifismo-impraticavel",
+        "liberacao-irregular": "liberacao-irregular",
+        "energia-alternada": "energia-alternada",
+        "magnetismo-energetico": "magnetismo-energetico",
+        "fragmentacao": "fragmentacao",
+        "despertar-do-corpo": "despertar-do-corpo",
+        "reserva-vital": "reserva-vital",
+        "teste-o-funcionamento-antes-de-aprovar": "teste-o-funcionamento-antes-de-aprovar",
+        "exemplo-de-liberacao-irregular": "exemplo-de-liberacao-irregular"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/48-pacifismo-impraticavel-minuta.md",
+      "pagina": "caso-48-pacifismo-impraticavel-minuta.html",
+      "ancoras": {
+        "pacifismo-impraticavel": "pacifismo-impraticavel",
+        "o-paradoxo": "o-paradoxo",
+        "consulta-rapida": "consulta-rapida",
+        "a-consequencia-de-uma-acao": "a-consequencia-de-uma-acao",
+        "quem-conta-como-pessoa": "quem-conta-como-pessoa",
+        "o-que-o-impedimento-bloqueia": "o-que-o-impedimento-bloqueia",
+        "quando-a-obrigacao-e-cumprida": "quando-a-obrigacao-e-cumprida",
+        "o-beneficio-de-cada-personagem": "o-beneficio-de-cada-personagem",
+        "a-aplicacao-antes-do-pacto": "a-aplicacao-antes-do-pacto",
+        "conducao-pela-materia": "conducao-pela-materia",
+        "na-mesa": "na-mesa",
+        "durante-a-suspensao": "durante-a-suspensao",
+        "prazo-e-suspensao-do-beneficio": "prazo-e-suspensao-do-beneficio",
+        "encerrar-o-pacto": "encerrar-o-pacto",
+        "antes-de-usar-este-pacto": "antes-de-usar-este-pacto"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/49-liberacao-irregular-minuta.md",
+      "pagina": "caso-49-liberacao-irregular-minuta.html",
+      "ancoras": {
+        "liberacao-irregular": "liberacao-irregular",
+        "a-troca": "a-troca",
+        "consulta-rapida": "consulta-rapida",
+        "reserva-e-limite-de-gasto": "reserva-e-limite-de-gasto",
+        "comeco-da-sequencia-e-comeco-do-turno": "comeco-da-sequencia-e-comeco-do-turno",
+        "refluxo": "refluxo",
+        "manutencao-e-efeitos-ja-pagos": "manutencao-e-efeitos-ja-pagos",
+        "mudancas-de-maximo": "mudancas-de-maximo",
+        "fora-de-combate": "fora-de-combate",
+        "descanso-adesao-e-encerramento": "descanso-adesao-e-encerramento",
+        "registro-de-mesa": "registro-de-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/50-promessa-do-arquivo.md",
+      "pagina": "caso-50-promessa-do-arquivo.html",
+      "ancoras": {
+        "a-promessa-do-arquivo": "a-promessa-do-arquivo",
+        "por-que-fazer-uma-promessa": "por-que-fazer-uma-promessa",
+        "o-acordo-antes-da-aceitacao": "o-acordo-antes-da-aceitacao",
+        "como-decidir-o-que-aconteceu": "como-decidir-o-que-aconteceu",
+        "consequencia-de-quebra": "consequencia-de-quebra",
+        "o-que-encerra-o-bloqueio": "o-que-encerra-o-bloqueio",
+        "se-kei-quebrar": "se-kei-quebrar",
+        "se-lia-quebrar": "se-lia-quebrar",
+        "depois-de-cumprir-a-reparacao": "depois-de-cumprir-a-reparacao",
+        "tres-exemplos-de-desfecho": "tres-exemplos-de-desfecho",
+        "o-acordo-e-cumprido": "o-acordo-e-cumprido",
+        "kei-decide-ficar-com-o-dossie": "kei-decide-ficar-com-o-dossie",
+        "kei-e-impedido-de-devolver": "kei-e-impedido-de-devolver",
+        "o-que-registrar-para-outra-mesa": "o-que-registrar-para-outra-mesa",
+        "como-adaptar-o-exemplo": "como-adaptar-o-exemplo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/51-ritual-do-cao-de-sombra.md",
+      "pagina": "caso-51-ritual-do-cao-de-sombra.html",
+      "ancoras": {
+        "a-prova-do-cao-de-sombra": "a-prova-do-cao-de-sombra",
+        "a-entrada-da-lista": "a-entrada-da-lista",
+        "o-espaco": "o-espaco",
+        "ficha-do-cao": "ficha-do-cao",
+        "mordida": "mordida",
+        "mordida-precisa": "mordida-precisa",
+        "farejador": "farejador",
+        "o-turno-do-adversario": "o-turno-do-adversario",
+        "dois-ataques-de-kaito": "dois-ataques-de-kaito",
+        "ajuda-desistencia-e-socorro": "ajuda-desistencia-e-socorro",
+        "depois-da-prova": "depois-da-prova",
+        "registro-preenchido-de-uma-vitoria": "registro-preenchido-de-uma-vitoria",
+        "como-preparar-outra-prova": "como-preparar-outra-prova"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/52-domar-o-amontoado.md",
+      "pagina": "caso-52-domar-o-amontoado.html",
+      "ancoras": {
+        "domar-o-amontoado-do-deposito": "domar-o-amontoado-do-deposito",
+        "antes-da-luta": "antes-da-luta",
+        "as-duas-fichas": "as-duas-fichas",
+        "conduza-o-encontro": "conduza-o-encontro",
+        "o-golpe-que-permite-a-tentativa": "o-golpe-que-permite-a-tentativa",
+        "a-submissao": "a-submissao",
+        "depois-de-conseguir-domar": "depois-de-conseguir-domar",
+        "religar-e-dar-uma-tarefa": "religar-e-dar-uma-tarefa",
+        "usar-a-especial-com-a-reserva-vazia": "usar-a-especial-com-a-reserva-vazia",
+        "tentar-antes-da-derrota": "tentar-antes-da-derrota",
+        "registro-para-a-proxima-mesa": "registro-para-a-proxima-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
+      "pagina": "caso-53-construir-e-evoluir-o-escriba.html",
+      "ancoras": {
+        "construir-e-evoluir-o-escriba-de-campo": "construir-e-evoluir-o-escriba-de-campo",
+        "comece-pela-funcao": "comece-pela-funcao",
+        "a-ficha-no-nivel-5": "a-ficha-no-nivel-5",
+        "escolha-as-familias": "escolha-as-familias",
+        "as-habilidades-conhecidas": "as-habilidades-conhecidas",
+        "agulha-de-tinta": "agulha-de-tinta",
+        "agulha-guiada": "agulha-guiada",
+        "agulha-perfurante": "agulha-perfurante",
+        "executar-uma-especial": "executar-uma-especial",
+        "o-poder-proprio-retrato-de-referencia": "o-poder-proprio-retrato-de-referencia",
+        "quando-o-pedido-excede-os-limites": "quando-o-pedido-excede-os-limites",
+        "um-turno-com-a-ficha": "um-turno-com-a-ficha",
+        "a-evolucao-para-o-nivel-6": "a-evolucao-para-o-nivel-6",
+        "os-proximos-niveis": "os-proximos-niveis",
+        "registro-e-revisao": "registro-e-revisao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/54-transporte-e-continuidade-das-entidades.md",
+      "pagina": "caso-54-transporte-e-continuidade-das-entidades.html",
+      "ancoras": {
+        "transporte-com-entidades": "transporte-com-entidades",
+        "o-que-precisa-caber-na-ficha": "o-que-precisa-caber-na-ficha",
+        "a-mula-de-dobra": "a-mula-de-dobra",
+        "talento-proposto-albarda-de-papel": "talento-proposto-albarda-de-papel",
+        "a-conta-de-um-passageiro": "a-conta-de-um-passageiro",
+        "montar-e-sair-de-perigo": "montar-e-sair-de-perigo",
+        "uma-tarefa-que-pode-continuar": "uma-tarefa-que-pode-continuar",
+        "quando-ren-fica-inconsciente": "quando-ren-fica-inconsciente",
+        "se-houvesse-uma-especial-aguardando": "se-houvesse-uma-especial-aguardando",
+        "recolher-nao-guarda-o-passageiro": "recolher-nao-guarda-o-passageiro",
+        "quando-o-invocador-morre": "quando-o-invocador-morre",
+        "a-maldicao-livre": "a-maldicao-livre",
+        "registro-de-uma-retirada": "registro-de-uma-retirada"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+      "pagina": "caso-55-fabricar-e-evoluir-o-vigia-do-deposito.html",
+      "ancoras": {
+        "fabricar-e-evoluir-o-vigia-do-deposito": "fabricar-e-evoluir-o-vigia-do-deposito",
+        "o-resultado-antes-do-trabalho": "o-resultado-antes-do-trabalho",
+        "ficha-entregue-no-nivel-9": "ficha-entregue-no-nivel-9",
+        "agulha-de-tinta": "agulha-de-tinta",
+        "agulha-precisa": "agulha-precisa",
+        "instinto-e-farejador": "instinto-e-farejador",
+        "trabalho-falha-e-entrega": "trabalho-falha-e-entrega",
+        "a-primeira-manifestacao": "a-primeira-manifestacao",
+        "ate-o-limite-da-classe": "ate-o-limite-da-classe",
+        "reconstruir-para-classe-4": "reconstruir-para-classe-4",
+        "transferir-sem-fabricar-outra-criatura": "transferir-sem-fabricar-outra-criatura",
+        "se-fosse-um-corpo-de-criacao": "se-fosse-um-corpo-de-criacao",
+        "conferencia-para-a-proxima-mesa": "conferencia-para-a-proxima-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/57-avaliar-o-encontro-do-amontoado.md",
+      "pagina": "caso-57-avaliar-o-encontro-do-amontoado.html",
+      "ancoras": {
+        "o-encontro-do-amontoado": "o-encontro-do-amontoado",
+        "o-grupo-e-a-missao": "o-grupo-e-a-missao",
+        "tres-inimigos-do-mesmo-nivel": "tres-inimigos-do-mesmo-nivel",
+        "o-que-as-contas-mostram": "o-que-as-contas-mostram",
+        "um-inimigo-ou-varios": "um-inimigo-ou-varios",
+        "a-queda-muda-as-prioridades": "a-queda-muda-as-prioridades",
+        "o-que-a-simulacao-mostrou": "o-que-a-simulacao-mostrou",
+        "reavalie-antes-de-comecar": "reavalie-antes-de-comecar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
+      "pagina": "caso-59-recursos-e-ritmo-dos-inimigos.html",
+      "ancoras": {
+        "pe-recarga-e-limites-de-uso": "pe-recarga-e-limites-de-uso",
+        "primeiro-escolha-a-habilidade": "primeiro-escolha-a-habilidade",
+        "gastar-tudo-no-comeco": "gastar-tudo-no-comeco",
+        "qual-limite-de-uso-escolher": "qual-limite-de-uso-escolher",
+        "de-tempo-para-o-grupo-reagir": "de-tempo-para-o-grupo-reagir",
+        "atacar-ou-se-proteger": "atacar-ou-se-proteger",
+        "energia-percebida-e-custos": "energia-percebida-e-custos",
+        "confira-como-o-inimigo-luta": "confira-como-o-inimigo-luta",
+        "complete-as-habilidades": "complete-as-habilidades",
+        "outro-exemplo-daigo-e-tessa": "outro-exemplo-daigo-e-tessa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
+      "pagina": "caso-60-montar-habilidades-de-inimigos.html",
+      "ancoras": {
+        "montar-as-habilidades-de-um-inimigo": "montar-as-habilidades-de-um-inimigo",
+        "conservar-adaptar-ou-criar": "conservar-adaptar-ou-criar",
+        "tipo-de-capacidade": "tipo-de-capacidade",
+        "escolha-o-limite-de-uso": "escolha-o-limite-de-uso",
+        "quanto-a-habilidade-custa": "quanto-a-habilidade-custa",
+        "confira-as-outras-regras": "confira-as-outras-regras",
+        "tres-exemplos": "tres-exemplos",
+        "impacto-conjuracao": "impacto-conjuracao",
+        "carregador-agarrar": "carregador-agarrar",
+        "trancar-placas-protecao": "trancar-placas-protecao",
+        "confira-a-habilidade-antes-de-jogar": "confira-a-habilidade-antes-de-jogar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
+      "pagina": "caso-62-o-carregador-e-o-corredor-de-entulho.html",
+      "ancoras": {
+        "o-carregador-no-deposito": "o-carregador-no-deposito",
+        "o-que-preparar": "o-que-preparar",
+        "o-deposito-e-as-rotas": "o-deposito-e-as-rotas",
+        "atravessar-o-entulho": "atravessar-o-entulho",
+        "o-que-o-carregador-quer": "o-que-o-carregador-quer",
+        "o-que-o-grupo-pode-descobrir": "o-que-o-grupo-pode-descobrir",
+        "agarrar-e-arrastar": "agarrar-e-arrastar",
+        "dois-turnos-de-arrasto": "dois-turnos-de-arrasto",
+        "como-enfrentar-o-carregador": "como-enfrentar-o-carregador",
+        "prisioneiros-e-feridos": "prisioneiros-e-feridos",
+        "encerrar-a-missao": "encerrar-a-missao",
+        "o-que-conferir-em-mesa": "o-que-conferir-em-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/63-carregador-consulta-e-doma.md",
+      "pagina": "caso-63-carregador-consulta-e-doma.html",
+      "ancoras": {
+        "carregador-ficha-e-doma": "carregador-ficha-e-doma",
+        "ficha-do-encontro": "ficha-do-encontro",
+        "o-lugar-em-resumo": "o-lugar-em-resumo",
+        "se-alguem-quiser-domar": "se-alguem-quiser-domar",
+        "a-ficha-depois-da-doma": "a-ficha-depois-da-doma",
+        "conduzir-pelo-chao": "conduzir-pelo-chao",
+        "depois-da-doma": "depois-da-doma",
+        "registro-para-a-mesa": "registro-para-a-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/64-a-passarela-e-o-guincho.md",
+      "pagina": "caso-64-a-passarela-e-o-guincho.html",
+      "ancoras": {
+        "a-passarela-e-o-guincho": "a-passarela-e-o-guincho",
+        "o-chamado": "o-chamado",
+        "o-lugar-e-os-caminhos": "o-lugar-e-os-caminhos",
+        "avise-antes-de-ligar": "avise-antes-de-ligar",
+        "tres-rodadas-ate-a-ruptura": "tres-rodadas-ate-a-ruptura",
+        "como-parar-o-perigo": "como-parar-o-perigo",
+        "desligar-o-guincho": "desligar-o-guincho",
+        "quebrar-o-pino": "quebrar-o-pino",
+        "usar-outro-caminho": "usar-outro-caminho",
+        "se-a-passarela-romper": "se-a-passarela-romper",
+        "socorrer-e-retirar-o-grupo": "socorrer-e-retirar-o-grupo",
+        "tres-desfechos-possiveis": "tres-desfechos-possiveis",
+        "resumo-do-perigo": "resumo-do-perigo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/65-comparar-confronto-e-pressao-ambiental.md",
+      "pagina": "caso-65-comparar-confronto-e-pressao-ambiental.html",
+      "ancoras": {
+        "inimigos-e-perigos-juntos": "inimigos-e-perigos-juntos",
+        "compare-uma-mudanca-de-cada-vez": "compare-uma-mudanca-de-cada-vez",
+        "escolhas-no-mesmo-turno": "escolhas-no-mesmo-turno",
+        "quando-um-risco-piora-o-outro": "quando-um-risco-piora-o-outro",
+        "mostre-as-opcoes": "mostre-as-opcoes",
+        "o-que-ainda-falta-resolver": "o-que-ainda-falta-resolver",
+        "o-que-observar-em-mesa": "o-que-observar-em-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/66-o-carregador-e-a-saida-que-fecha.md",
+      "pagina": "caso-66-o-carregador-e-a-saida-que-fecha.html",
+      "ancoras": {
+        "o-portao-do-deposito": "o-portao-do-deposito",
+        "escolha-a-versao": "escolha-a-versao",
+        "mapa-da-saida": "mapa-da-saida",
+        "apresente-a-situacao": "apresente-a-situacao",
+        "tres-rodadas-ate-fechar": "tres-rodadas-ate-fechar",
+        "controlar-o-portao": "controlar-o-portao",
+        "cinco-escolhas-possiveis": "cinco-escolhas-possiveis",
+        "encerrar-a-missao": "encerrar-a-missao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
+      "pagina": "caso-67-preparar-chefes-e-confrontos-maiores.html",
+      "ancoras": {
+        "preparar-chefes-e-confrontos-maiores": "preparar-chefes-e-confrontos-maiores",
+        "o-que-torna-este-confronto-importante": "o-que-torna-este-confronto-importante",
+        "o-que-mudar-no-confronto": "o-que-mudar-no-confronto",
+        "quem-pode-agir-e-quando": "quem-pode-agir-e-quando",
+        "agir-fora-do-turno": "agir-fora-do-turno",
+        "anuncie-o-perigo-e-de-tempo-para-reagir": "anuncie-o-perigo-e-de-tempo-para-reagir",
+        "mudancas-durante-a-luta": "mudancas-durante-a-luta",
+        "condicoes-partes-e-aliados": "condicoes-partes-e-aliados",
+        "confira-o-fim-da-luta": "confira-o-fim-da-luta"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
+      "pagina": "caso-68-ficha-e-comparacao-de-chefes.html",
+      "ancoras": {
+        "conferir-e-comparar-um-chefe": "conferir-e-comparar-um-chefe",
+        "o-que-acrescentar-a-conferencia": "o-que-acrescentar-a-conferencia",
+        "aplicacao-o-que-falta-ao-carregador": "aplicacao-o-que-falta-ao-carregador",
+        "uma-resposta-fora-do-turno-ja-possivel": "uma-resposta-fora-do-turno-ja-possivel",
+        "quem-recebe-um-turno-para-responder": "quem-recebe-um-turno-para-responder",
+        "mudanca-de-comportamento-e-mudanca-de-cenario": "mudanca-de-comportamento-e-mudanca-de-cenario",
+        "escolha-o-exemplo-pelo-que-precisa-estudar": "escolha-o-exemplo-pelo-que-precisa-estudar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/71-sineiro-do-recolhimento.md",
+      "pagina": "caso-71-sineiro-do-recolhimento.html",
+      "ancoras": {
+        "sineiro-do-recolhimento": "sineiro-do-recolhimento",
+        "o-que-mostrar-aos-jogadores": "o-que-mostrar-aos-jogadores",
+        "ficha-do-sineiro": "ficha-do-sineiro",
+        "arrastar-a-presa": "arrastar-a-presa",
+        "dobrar-o-sino": "dobrar-o-sino",
+        "o-salao-e-a-caixa": "o-salao-e-a-caixa",
+        "uma-rodada-para-responder": "uma-rodada-para-responder",
+        "ferimentos-e-derrota": "ferimentos-e-derrota"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+      "pagina": "caso-72-sineiro-consulta-e-doma.html",
+      "ancoras": {
+        "sineiro-ficha-apos-a-doma": "sineiro-ficha-apos-a-doma",
+        "o-que-muda-com-a-doma": "o-que-muda-com-a-doma",
+        "aquisicao": "aquisicao",
+        "ficha-da-entidade": "ficha-da-entidade",
+        "talentos": "talentos",
+        "conducao-urgente": "conducao-urgente",
+        "dobrar-o-sino": "dobrar-o-sino",
+        "recuperar-e-comandar-o-sineiro": "recuperar-e-comandar-o-sineiro",
+        "o-que-acompanhar-durante-a-luta": "o-que-acompanhar-durante-a-luta"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/73-ensaio-guiado-do-sineiro.md",
+      "pagina": "caso-73-ensaio-guiado-do-sineiro.html",
+      "ancoras": {
+        "retirar-a-caixa-proteger-a-equipe": "retirar-a-caixa-proteger-a-equipe",
+        "preparar-a-mesa": "preparar-a-mesa",
+        "personagens-usados": "personagens-usados",
+        "primeiro-exemplo-abrir-uma-saida": "primeiro-exemplo-abrir-uma-saida",
+        "rodada-1-a-captura": "rodada-1-a-captura",
+        "rodada-2-proteger-quem-ficou": "rodada-2-proteger-quem-ficou",
+        "rodada-3-todos-saem": "rodada-3-todos-saem",
+        "segundo-exemplo-a-interrupcao-falha": "segundo-exemplo-a-interrupcao-falha",
+        "rina-escapa-mas-mei-continua-em-risco": "rina-escapa-mas-mei-continua-em-risco",
+        "insistir-permite-agir-nao-encerra-morrendo": "insistir-permite-agir-nao-encerra-morrendo",
+        "duas-curas-um-mesmo-prazo": "duas-curas-um-mesmo-prazo",
+        "o-que-observar-ao-usar-o-exemplo": "o-que-observar-ao-usar-o-exemplo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
+      "pagina": "caso-74-regua-inicial-de-inimigos.html",
+      "ancoras": {
+        "escolher-os-numeros-de-um-inimigo": "escolher-os-numeros-de-um-inimigo",
+        "comece-pelo-que-ele-faz": "comece-pelo-que-ele-faz",
+        "regras-e-numeros-escolhidos": "regras-e-numeros-escolhidos",
+        "primeiros-valores-para-comparar": "primeiros-valores-para-comparar",
+        "precisao-e-defesa": "precisao-e-defesa",
+        "vida-e-tempo-para-agir": "vida-e-tempo-para-agir",
+        "escolha-dano-junto-da-frequencia": "escolha-dano-junto-da-frequencia",
+        "controle-e-recursos": "controle-e-recursos",
+        "termine-a-ficha-antes-da-mesa": "termine-a-ficha-antes-da-mesa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/75-ren-e-sora-atacante-e-apoio.md",
+      "pagina": "caso-75-ren-e-sora-atacante-e-apoio.html",
+      "ancoras": {
+        "toru-e-sayo-atacante-e-apoio": "toru-e-sayo-atacante-e-apoio",
+        "o-que-estas-fichas-representam": "o-que-estas-fichas-representam",
+        "recursos-que-os-dois-possuem": "recursos-que-os-dois-possuem",
+        "toru": "toru",
+        "espada-longa": "espada-longa",
+        "fenda-em-marcha": "fenda-em-marcha",
+        "prioridades-e-escolhas": "prioridades-e-escolhas",
+        "sayo": "sayo",
+        "fio-de-impulso": "fio-de-impulso",
+        "remendo": "remendo",
+        "prioridades-e-escolhas_1": "prioridades-e-escolhas_1",
+        "integridade-derrota-e-continuidade": "integridade-derrota-e-continuidade"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
+      "pagina": "caso-76-confronto-de-ren-e-sora.html",
+      "ancoras": {
+        "escolher-quem-enfrentar-primeiro": "escolher-quem-enfrentar-primeiro",
+        "o-espaco-e-as-informacoes": "o-espaco-e-as-informacoes",
+        "rodada-1-o-apoio-ja-esta-em-campo": "rodada-1-o-apoio-ja-esta-em-campo",
+        "rodada-2-curar-ocupa-o-lugar-do-reforco": "rodada-2-curar-ocupa-o-lugar-do-reforco",
+        "rodada-3-toru-fica-sem-apoio": "rodada-3-toru-fica-sem-apoio",
+        "toru-ou-sayo-quem-atacar-primeiro": "toru-ou-sayo-quem-atacar-primeiro",
+        "quanto-o-apoio-acrescenta": "quanto-o-apoio-acrescenta"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/77-ficha-preenchida-ren-e-sora.md",
+      "pagina": "caso-77-ficha-preenchida-ren-e-sora.html",
+      "ancoras": {
+        "ficha-preenchida-toru-e-sayo": "ficha-preenchida-toru-e-sayo",
+        "1-situacao-e-grupo": "1-situacao-e-grupo",
+        "2-construcao-ou-escolha-das-ameacas": "2-construcao-ou-escolha-das-ameacas",
+        "3-capacidade-conferida-fio-de-impulso": "3-capacidade-conferida-fio-de-impulso",
+        "4-lugar-sinais-e-mudancas": "4-lugar-sinais-e-mudancas",
+        "5-antes-de-jogar": "5-antes-de-jogar",
+        "6-resultado-e-continuidade": "6-resultado-e-continuidade"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/78-preparar-perigos-ambientais.md",
+      "pagina": "caso-78-preparar-perigos-ambientais.html",
+      "ancoras": {
+        "perigos-do-ambiente": "perigos-do-ambiente",
+        "quem-corre-risco": "quem-corre-risco",
+        "testes-e-dificuldade": "testes-e-dificuldade",
+        "o-que-acontece": "o-que-acontece",
+        "quando-o-perigo-age": "quando-o-perigo-age",
+        "mostre-o-perigo-e-as-saidas": "mostre-o-perigo-e-as-saidas",
+        "condicoes-e-doencas": "condicoes-e-doencas",
+        "dano-concentracao-e-socorro": "dano-concentracao-e-socorro",
+        "depois-do-perigo": "depois-do-perigo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
+      "pagina": "caso-79-o-po-na-sala-de-conservacao.html",
+      "ancoras": {
+        "o-po-na-sala-de-conservacao": "o-po-na-sala-de-conservacao",
+        "prepare-a-area-e-apresente-o-risco": "prepare-a-area-e-apresente-o-risco",
+        "ficha-do-perigo": "ficha-do-perigo",
+        "resolva-dano-e-condicao-separadamente": "resolva-dano-e-condicao-separadamente",
+        "parar-a-maquina-e-limpar-a-sala": "parar-a-maquina-e-limpar-a-sala",
+        "exemplo-sair-da-sala-e-receber-ajuda": "exemplo-sair-da-sala-e-receber-ajuda",
+        "se-a-exposicao-levar-a-zero-de-vida": "se-a-exposicao-levar-a-zero-de-vida",
+        "o-que-anotar-ao-terminar": "o-que-anotar-ao-terminar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/81-passar-a-missao-entre-mestres.md",
+      "pagina": "caso-81-passar-a-missao-entre-mestres.html",
+      "ancoras": {
+        "passar-a-missao-entre-mestres": "passar-a-missao-entre-mestres",
+        "resumo-da-missao": "resumo-da-missao",
+        "como-estao-os-personagens": "como-estao-os-personagens",
+        "o-socorro-de-mei": "o-socorro-de-mei",
+        "o-lugar-e-o-proximo-perigo": "o-lugar-e-o-proximo-perigo",
+        "antes-de-retomar": "antes-de-retomar",
+        "uma-retomada-possivel": "uma-retomada-possivel",
+        "depois-do-socorro": "depois-do-socorro",
+        "melhorar-o-registro-com-o-grupo": "melhorar-o-registro-com-o-grupo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/82-testes-trabalho-em-grupo-e-iniciativa.md",
+      "pagina": "caso-82-testes-trabalho-em-grupo-e-iniciativa.html",
+      "ancoras": {
+        "exemplos-de-testes-e-iniciativa": "exemplos-de-testes-e-iniciativa",
+        "escolha-a-dificuldade": "escolha-a-dificuldade",
+        "sucesso-com-um-custo": "sucesso-com-um-custo",
+        "quando-a-regra-ja-determina-o-resultado": "quando-a-regra-ja-determina-o-resultado",
+        "ajudar-um-aliado": "ajudar-um-aliado",
+        "testes-de-grupo": "testes-de-grupo",
+        "a-travessia-do-corredor-de-servico": "a-travessia-do-corredor-de-servico",
+        "usando-contribuicao-decisiva": "usando-contribuicao-decisiva",
+        "esconder-durante-o-combate": "esconder-durante-o-combate",
+        "empates-na-iniciativa": "empates-na-iniciativa",
+        "cinco-participantes-todos-com-total-14": "cinco-participantes-todos-com-total-14",
+        "o-que-anotar": "o-que-anotar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/83-perceber-procurar-e-interpretar-sinais.md",
+      "pagina": "caso-83-perceber-procurar-e-interpretar-sinais.html",
+      "ancoras": {
+        "percepcao-e-pistas": "percepcao-e-pistas",
+        "o-que-o-personagem-quer-descobrir": "o-que-o-personagem-quer-descobrir",
+        "esconder-se-de-varias-pessoas": "esconder-se-de-varias-pessoas",
+        "quando-o-vigia-procura": "quando-o-vigia-procura",
+        "perceber-com-visao-as-cegas": "perceber-com-visao-as-cegas",
+        "ler-o-ambiente": "ler-o-ambiente",
+        "quando-nao-ha-nada-novo-a-descobrir": "quando-nao-ha-nada-novo-a-descobrir",
+        "estudar-e-intuicao": "estudar-e-intuicao",
+        "memoria-testemunha": "memoria-testemunha",
+        "sentir-energia-com-interferencia": "sentir-energia-com-interferencia",
+        "sinais-de-energia-a-distancia": "sinais-de-energia-a-distancia",
+        "o-pulso-da-escadaria": "o-pulso-da-escadaria",
+        "comparar-uma-assinatura": "comparar-uma-assinatura",
+        "o-que-anotar": "o-que-anotar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/84-percursos-apoios-e-quedas.md",
+      "pagina": "caso-84-percursos-apoios-e-quedas.html",
+      "ancoras": {
+        "movimento-saltos-e-quedas": "movimento-saltos-e-quedas",
+        "atravessar-uma-correnteza": "atravessar-uma-correnteza",
+        "saltar-ate-um-piso-escorregadio": "saltar-ate-um-piso-escorregadio",
+        "passagens-estreitas-e-bagagem": "passagens-estreitas-e-bagagem",
+        "cair-sobre-outra-criatura": "cair-sobre-outra-criatura",
+        "se-o-alvo-desviar": "se-o-alvo-desviar",
+        "se-os-tamanhos-forem-muito-diferentes": "se-os-tamanhos-forem-muito-diferentes",
+        "criar-uma-ponte-com-obras-de-apoio": "criar-uma-ponte-com-obras-de-apoio",
+        "parkour-segurar-uma-borda": "parkour-segurar-uma-borda"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/85-trajetorias-ferramentas-e-improvisacao.md",
+      "pagina": "caso-85-trajetorias-ferramentas-e-improvisacao.html",
+      "ancoras": {
+        "ferramentas-e-improvisacao": "ferramentas-e-improvisacao",
+        "ricochete": "ricochete",
+        "compare-os-percursos": "compare-os-percursos",
+        "instalar-uma-corda": "instalar-uma-corda",
+        "abrir-uma-fechadura": "abrir-uma-fechadura",
+        "algemas-e-cordas": "algemas-e-cordas",
+        "um-cabo-como-bastao": "um-cabo-como-bastao",
+        "uma-garrafa-como-arma": "uma-garrafa-como-arma",
+        "o-que-anotar": "o-que-anotar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/89-vida-rolada-e-familia-propria.md",
+      "pagina": "caso-89-vida-rolada-e-familia-propria.html",
+      "ancoras": {
+        "vida-rolada-e-uma-familia-propria": "vida-rolada-e-uma-familia-propria",
+        "escolha-como-calcular-a-vida": "escolha-como-calcular-a-vida",
+        "a-familia-arata": "a-familia-arata",
+        "consulta-preparada": "consulta-preparada",
+        "conferencia-de-oficina": "conferencia-de-oficina",
+        "as-capacidades-da-familia-em-jogo": "as-capacidades-da-familia-em-jogo",
+        "o-que-observar-ao-jogar": "o-que-observar-ao-jogar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/90-reparar-personagem-de-corpo-construido.md",
+      "pagina": "caso-90-reparar-personagem-de-corpo-construido.html",
+      "ancoras": {
+        "reparar-um-personagem-de-corpo-construido": "reparar-um-personagem-de-corpo-construido",
+        "escolha-o-oficio-pelo-trabalho-necessario": "escolha-o-oficio-pelo-trabalho-necessario",
+        "o-atendimento-de-ena": "o-atendimento-de-ena",
+        "reparar-ou-descansar": "reparar-ou-descansar",
+        "reparadores-de-classes-diferentes": "reparadores-de-classes-diferentes",
+        "reparo-em-combate-e-socorro": "reparo-em-combate-e-socorro"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/91-restricao-corporal-e-cuidados.md",
+      "pagina": "caso-91-restricao-corporal-e-cuidados.html",
+      "ancoras": {
+        "restricao-corporal-participacao-e-cuidados": "restricao-corporal-participacao-e-cuidados",
+        "a-ficha-de-nilo": "a-ficha-de-nilo",
+        "participar-a-distancia": "participar-a-distancia",
+        "o-corpo-continua-presente-na-historia": "o-corpo-continua-presente-na-historia",
+        "prepare-o-cuidado-de-cada-corpo": "prepare-o-cuidado-de-cada-corpo",
+        "cuidados-com-cada-condicao": "cuidados-com-cada-condicao",
+        "exposicao-no-corpo-debilitado": "exposicao-no-corpo-debilitado",
+        "cura-no-corpo-quebradico": "cura-no-corpo-quebradico",
+        "recuperacao-no-corpo-exaurido": "recuperacao-no-corpo-exaurido",
+        "registro-para-a-missao-seguinte": "registro-para-a-missao-seguinte"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/93-ampliar-mesclas-e-trocar-formas.md",
+      "pagina": "caso-93-ampliar-mesclas-e-trocar-formas.html",
+      "ancoras": {
+        "ampliar-uma-mescla-e-trocar-sua-forma": "ampliar-uma-mescla-e-trocar-sua-forma",
+        "o-feitico-de-yara": "o-feitico-de-yara",
+        "prepare-as-duas-classes": "prepare-as-duas-classes",
+        "exemplo-de-ampliacao": "exemplo-de-ampliacao",
+        "trocar-aura-por-explosao": "trocar-aura-por-explosao",
+        "exemplo-com-forma-fluida": "exemplo-com-forma-fluida",
+        "o-que-a-troca-nao-autoriza": "o-que-a-troca-nao-autoriza"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/94-compras-repetidas-e-restricoes.md",
+      "pagina": "caso-94-compras-repetidas-e-restricoes.html",
+      "ancoras": {
+        "repetir-melhorias-e-definir-restricoes": "repetir-melhorias-e-definir-restricoes",
+        "firmeza-para-pericias-e-oficios": "firmeza-para-pericias-e-oficios",
+        "exemplo-de-uso": "exemplo-de-uso",
+        "os-limites-da-repeticao": "os-limites-da-repeticao",
+        "combinar-efeitos": "combinar-efeitos",
+        "condicional-uma-fonte-de-agua": "condicional-uma-fonte-de-agua",
+        "a-condicao-de-lamina-de-canal": "a-condicao-de-lamina-de-canal",
+        "montagem-e-uso": "montagem-e-uso",
+        "restricao-propria-matriz-de-chao": "restricao-propria-matriz-de-chao",
+        "reveja-as-restricoes-depois-de-jogar": "reveja-as-restricoes-depois-de-jogar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/95-efeitos-de-cena-e-cancelamento.md",
+      "pagina": "caso-95-efeitos-de-cena-e-cancelamento.html",
+      "ancoras": {
+        "efeitos-de-cena-e-cancelamento": "efeitos-de-cena-e-cancelamento",
+        "luz-de-oficina-antes-da-sessao": "luz-de-oficina-antes-da-sessao",
+        "quando-a-investigacao-vira-combate": "quando-a-investigacao-vira-combate",
+        "preparar-desarma-o-feitico": "preparar-desarma-o-feitico",
+        "cancelar-um-efeito-que-ja-tem-classe": "cancelar-um-efeito-que-ja-tem-classe",
+        "cancelar-um-efeito-sem-classe-definida": "cancelar-um-efeito-sem-classe-definida",
+        "o-que-desarma-o-feitico-nao-pode-cancelar": "o-que-desarma-o-feitico-nao-pode-cancelar"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/96-fabricar-e-identificar-o-anel.md",
+      "pagina": "caso-96-fabricar-e-identificar-o-anel.html",
+      "ancoras": {
+        "uma-ferramenta-nova-anel-de-testemunho": "uma-ferramenta-nova-anel-de-testemunho",
+        "a-funcao-da-peca": "a-funcao-da-peca",
+        "por-que-propor-grau-3": "por-que-propor-grau-3",
+        "exemplo-de-uso": "exemplo-de-uso",
+        "identificar-o-exemplar-da-oficina": "identificar-o-exemplar-da-oficina",
+        "contratar-a-fabricacao": "contratar-a-fabricacao",
+        "trabalho-falha-e-entrega": "trabalho-falha-e-entrega"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/97-emprestimo-familiar-e-negociacao.md",
+      "pagina": "caso-97-emprestimo-familiar-e-negociacao.html",
+      "ancoras": {
+        "emprestimo-familiar-e-venda-com-condicao": "emprestimo-familiar-e-venda-com-condicao",
+        "uma-peca-do-cofre": "uma-peca-do-cofre",
+        "um-objeto-proprio-para-vender": "um-objeto-proprio-para-vender",
+        "usar-palavra-empenhada": "usar-palavra-empenhada",
+        "cumprir-o-acordo-e-receber": "cumprir-o-acordo-e-receber",
+        "devolver-a-kunai-e-registrar-a-venda": "devolver-a-kunai-e-registrar-a-venda"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/98-objeto-selado-e-risco-de-ingestao.md",
+      "pagina": "caso-98-objeto-selado-e-risco-de-ingestao.html",
+      "ancoras": {
+        "um-objeto-selado-a-pastilha-do-ultimo-aviso": "um-objeto-selado-a-pastilha-do-ultimo-aviso",
+        "o-que-sera-transportado": "o-que-sera-transportado",
+        "o-selo-e-o-chamado-da-pastilha": "o-selo-e-o-chamado-da-pastilha",
+        "o-que-o-grupo-sabe": "o-que-o-grupo-sabe",
+        "examinar-retirar-e-renovar": "examinar-retirar-e-renovar",
+        "se-alguem-ingerir": "se-alguem-ingerir",
+        "destruicao-e-entrega-segura": "destruicao-e-entrega-segura"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/99-limiar-feitos-e-promocao.md",
+      "pagina": "caso-99-limiar-feitos-e-promocao.html",
+      "ancoras": {
+        "feitos-do-limiar-e-promocao-de-grau": "feitos-do-limiar-e-promocao-de-grau",
+        "o-resgate-de-mako": "o-resgate-de-mako",
+        "fazer-mako-voltar-a-agir": "fazer-mako-voltar-a-agir",
+        "conferir-todos-os-requisitos-do-feito": "conferir-todos-os-requisitos-do-feito",
+        "quando-o-socorro-nao-conta-como-feito": "quando-o-socorro-nao-conta-como-feito",
+        "aplicar-o-xp-no-encerramento": "aplicar-o-xp-no-encerramento",
+        "decidir-a-promocao-de-grau": "decidir-a-promocao-de-grau"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/02-ficha-de-preparacao.md",
+      "pagina": "consulta-02-ficha-de-preparacao.html",
+      "ancoras": {
+        "ficha-de-preparacao-de-missao": "ficha-de-preparacao-de-missao",
+        "antes-da-sessao": "antes-da-sessao",
+        "situacao-e-abertura": "situacao-e-abertura",
+        "fatos-do-preparo": "fatos-do-preparo",
+        "pessoas": "pessoas",
+        "lugares-e-acessos": "lugares-e-acessos",
+        "informacao-e-descoberta": "informacao-e-descoberta",
+        "perigos-e-intervencao": "perigos-e-intervencao",
+        "consequencias": "consequencias",
+        "conferencia-antes-de-comecar": "conferencia-antes-de-comecar",
+        "durante-e-depois-do-jogo": "durante-e-depois-do-jogo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+      "pagina": "consulta-05-folha-de-conducao.html",
+      "ancoras": {
+        "folha-de-conducao": "folha-de-conducao",
+        "para-cada-tentativa": "para-cada-tentativa",
+        "resultado-e-participacao-no-teste": "resultado-e-participacao-no-teste",
+        "se-a-conversa-parar": "se-a-conversa-parar",
+        "frases-uteis": "frases-uteis",
+        "se-surgir-uma-proposta-inesperada": "se-surgir-uma-proposta-inesperada",
+        "ao-avancar-a-cena": "ao-avancar-a-cena",
+        "em-combate": "em-combate",
+        "se-houver-duvida-de-regra": "se-houver-duvida-de-regra",
+        "ao-encerrar-ou-interromper": "ao-encerrar-ou-interromper"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/08-ficha-de-acordos-do-grupo.md",
+      "pagina": "consulta-08-ficha-de-acordos-do-grupo.html",
+      "ancoras": {
+        "ficha-de-acordos-do-grupo": "ficha-de-acordos-do-grupo",
+        "proposta-e-participacao": "proposta-e-participacao",
+        "tom-e-limites": "tom-e-limites",
+        "personagens-e-relacoes": "personagens-e-relacoes",
+        "organizacao": "organizacao",
+        "primeira-situacao-e-revisao": "primeira-situacao-e-revisao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/12-registro-de-descobertas.md",
+      "pagina": "consulta-12-registro-de-descobertas.html",
+      "ancoras": {
+        "registro-de-descobertas": "registro-de-descobertas",
+        "modelo": "modelo",
+        "exemplo-no-anexo": "exemplo-no-anexo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/16-linha-de-continuidade.md",
+      "pagina": "consulta-16-linha-de-continuidade.html",
+      "ancoras": {
+        "linha-de-continuidade": "linha-de-continuidade",
+        "modelo": "modelo",
+        "ao-entregar-ou-retomar": "ao-entregar-ou-retomar",
+        "sugestoes-e-tarefas-de-revisao": "sugestoes-e-tarefas-de-revisao",
+        "exemplo-entre-tres-missoes": "exemplo-entre-tres-missoes"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/20-ficha-de-faccao.md",
+      "pagina": "consulta-20-ficha-de-faccao.html",
+      "ancoras": {
+        "ficha-de-faccao": "ficha-de-faccao",
+        "modelo": "modelo",
+        "exemplo-preenchido": "exemplo-preenchido"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/24-registro-de-estado-e-socorro.md",
+      "pagina": "consulta-24-registro-de-estado-e-socorro.html",
+      "ancoras": {
+        "registro-de-estado-e-socorro": "registro-de-estado-e-socorro",
+        "estado-atual": "estado-atual",
+        "se-houver-queda-em-andamento": "se-houver-queda-em-andamento",
+        "saida-e-recuperacao": "saida-e-recuperacao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/28-ficha-de-convivencia.md",
+      "pagina": "consulta-28-ficha-de-convivencia.html",
+      "ancoras": {
+        "ficha-de-convivencia": "ficha-de-convivencia",
+        "modelo": "modelo",
+        "exemplo-maia-e-taru": "exemplo-maia-e-taru"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/32-ficha-de-avaliacao-de-capacidade.md",
+      "pagina": "consulta-32-ficha-de-avaliacao-de-capacidade.html",
+      "ancoras": {
+        "ficha-de-avaliacao-de-capacidade": "ficha-de-avaliacao-de-capacidade",
+        "proposta": "proposta",
+        "como-funciona": "como-funciona",
+        "avaliacao-e-registro": "avaliacao-e-registro",
+        "acompanhamento-de-restricao": "acompanhamento-de-restricao",
+        "exemplo-preenchido-um-ajuste-de-montagem": "exemplo-preenchido-um-ajuste-de-montagem"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/38-ficha-de-projeto-e-entrega.md",
+      "pagina": "consulta-38-ficha-de-projeto-e-entrega.html",
+      "ancoras": {
+        "ficha-de-projeto-e-entrega": "ficha-de-projeto-e-entrega",
+        "projeto": "projeto",
+        "andamento": "andamento",
+        "entrega": "entrega",
+        "exemplo-preenchido-traje-de-rina": "exemplo-preenchido-traje-de-rina",
+        "registro-curto-de-emprestimo": "registro-curto-de-emprestimo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/40-registro-de-dedicacao-por-ficha.md",
+      "pagina": "consulta-40-registro-de-dedicacao-por-ficha.html",
+      "ancoras": {
+        "registro-de-dedicacao-por-ficha": "registro-de-dedicacao-por-ficha",
+        "identificacao-do-ciclo": "identificacao-do-ciclo",
+        "atividades": "atividades",
+        "fechamento": "fechamento",
+        "exemplo-dois-personagens-da-mesma-pessoa": "exemplo-dois-personagens-da-mesma-pessoa",
+        "exemplo-de-entrada-proporcional": "exemplo-de-entrada-proporcional",
+        "exemplo-de-conferencia-pendente": "exemplo-de-conferencia-pendente"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/42-registro-de-pactos-e-promessas.md",
+      "pagina": "consulta-42-registro-de-pactos-e-promessas.html",
+      "ancoras": {
+        "registro-de-pactos-e-promessas": "registro-de-pactos-e-promessas",
+        "folha-em-branco": "folha-em-branco",
+        "exemplo-preenchido-overtime": "exemplo-preenchido-overtime",
+        "conferencia-rapida-de-uma-promessa": "conferencia-rapida-de-uma-promessa",
+        "exemplo-de-promessa-preenchida": "exemplo-de-promessa-preenchida"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "pagina": "consulta-44-registro-de-aquisicao-e-estado-de-entidade.html",
+      "ancoras": {
+        "registro-de-aquisicao-e-estado-de-entidade": "registro-de-aquisicao-e-estado-de-entidade",
+        "identificacao-e-aquisicao": "identificacao-e-aquisicao",
+        "projeto-de-criacao-reconstrucao-ou-transferencia": "projeto-de-criacao-reconstrucao-ou-transferencia",
+        "exemplo-de-conferencia-do-teste": "exemplo-de-conferencia-do-teste",
+        "estado-para-passagem-entre-mesas": "estado-para-passagem-entre-mesas",
+        "exemplo-de-lista-de-ritual": "exemplo-de-lista-de-ritual",
+        "exemplo-de-doma": "exemplo-de-doma",
+        "construcao-e-evolucao": "construcao-e-evolucao",
+        "transporte-e-continuidade": "transporte-e-continuidade",
+        "fabricacao-completa": "fabricacao-completa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/58-ficha-de-inimigo-e-encontro.md",
+      "pagina": "consulta-58-ficha-de-inimigo-e-encontro.html",
+      "ancoras": {
+        "ficha-de-inimigo-e-encontro": "ficha-de-inimigo-e-encontro",
+        "1-situacao-e-grupo": "1-situacao-e-grupo",
+        "2-construcao-ou-escolha-de-cada-ameaca": "2-construcao-ou-escolha-de-cada-ameaca",
+        "3-capacidade-nova-ou-alterada": "3-capacidade-nova-ou-alterada",
+        "4-lugar-sinais-e-mudancas": "4-lugar-sinais-e-mudancas",
+        "5-antes-de-jogar": "5-antes-de-jogar",
+        "6-resultado-e-continuidade": "6-resultado-e-continuidade"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
+      "pagina": "consulta-61-ficha-de-habilidade-de-inimigo.html",
+      "ancoras": {
+        "conferir-uma-habilidade-de-inimigo": "conferir-uma-habilidade-de-inimigo",
+        "antes-de-conferir": "antes-de-conferir",
+        "perguntas-para-as-interacoes": "perguntas-para-as-interacoes",
+        "exemplo-breve-agarrar-do-carregador": "exemplo-breve-agarrar-do-carregador"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+      "pagina": "apendice-d.html",
+      "ancoras": {
+        "ideias-da-obra-para-suas-missoes": "ideias-da-obra-para-suas-missoes",
+        "como-aproveitar-um-caso": "como-aproveitar-um-caso",
+        "ordens-em-conflito": "ordens-em-conflito",
+        "acesso-disputado": "acesso-disputado",
+        "quem-tem-a-resposta": "quem-tem-a-resposta",
+        "aliados-independentes": "aliados-independentes",
+        "historias-e-desencontros": "historias-e-desencontros",
+        "quando-o-caso-pede-outra-pesquisa": "quando-o-caso-pede-outra-pesquisa"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+      "pagina": "apendice-c.html",
+      "ancoras": {
+        "termos-do-mundo": "termos-do-mundo",
+        "por-onde-comecar": "por-onde-comecar",
+        "pessoas-e-relacoes": "pessoas-e-relacoes",
+        "energia-efeitos-e-seres": "energia-efeitos-e-seres",
+        "numeros-que-nao-significam-a-mesma-coisa": "numeros-que-nao-significam-a-mesma-coisa",
+        "exemplos-de-consulta": "exemplos-de-consulta"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/92-reserva-condensada-proposta-e-comparacao.md",
+      "pagina": "consulta-92-reserva-condensada-proposta-e-comparacao.html",
+      "ancoras": {
+        "reserva-condensada-acordo-por-personagem": "reserva-condensada-acordo-por-personagem",
+        "quem-pode-escolher": "quem-pode-escolher",
+        "o-que-registrar-na-ficha": "o-que-registrar-na-ficha",
+        "conferir-o-acordo": "conferir-o-acordo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-exemplo-despedida.md",
+      "pagina": "consulta-A1-exemplo-despedida.html",
+      "ancoras": {
+        "preparo-preenchido-a-despedida": "preparo-preenchido-a-despedida",
+        "o-que-esta-acontecendo": "o-que-esta-acontecendo",
+        "quem-esta-envolvido": "quem-esta-envolvido",
+        "onde-e-possivel-agir": "onde-e-possivel-agir",
+        "o-que-pode-ser-descoberto-ou-mudar": "o-que-pode-ser-descoberto-ou-mudar",
+        "como-comecar": "como-comecar",
+        "o-que-preciso-ter-a-mao": "o-que-preciso-ter-a-mao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A1-preparar-a-missao.md",
+      "pagina": "consulta-A1-preparar-a-missao.html",
+      "ancoras": {
+        "preparar-a-missao": "preparar-a-missao",
+        "o-que-esta-acontecendo": "o-que-esta-acontecendo",
+        "quem-esta-envolvido": "quem-esta-envolvido",
+        "onde-e-possivel-agir": "onde-e-possivel-agir",
+        "o-que-pode-ser-descoberto-ou-mudar": "o-que-pode-ser-descoberto-ou-mudar",
+        "como-comecar": "como-comecar",
+        "o-que-preciso-ter-a-mao": "o-que-preciso-ter-a-mao"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A2-conduzir-a-sessao.md",
+      "pagina": "consulta-A2-conduzir-a-sessao.html",
+      "ancoras": {
+        "conduzir-a-sessao": "conduzir-a-sessao",
+        "descreva-ouca-e-responda": "descreva-ouca-e-responda",
+        "quando-houver-teste": "quando-houver-teste",
+        "se-a-conversa-parar": "se-a-conversa-parar",
+        "uma-ideia-muda-o-caminho": "uma-ideia-muda-o-caminho",
+        "em-combate-ou-socorro": "em-combate-ou-socorro",
+        "duvida-ou-fim-do-horario": "duvida-ou-fim-do-horario"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-exemplo-sala-de-conservacao.md",
+      "pagina": "consulta-A4-exemplo-sala-de-conservacao.html",
+      "ancoras": {
+        "retomada-preenchida-a-sala-de-conservacao": "retomada-preenchida-a-sala-de-conservacao",
+        "onde-paramos": "onde-paramos",
+        "o-que-mudou": "o-que-mudou",
+        "como-estao-os-personagens": "como-estao-os-personagens",
+        "quem-sabe-o-que": "quem-sabe-o-que",
+        "o-que-falta-fazer": "o-que-falta-fazer",
+        "onde-estao-as-fichas-e-as-notas": "onde-estao-as-fichas-e-as-notas"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/A4-retomar-a-missao.md",
+      "pagina": "consulta-A4-retomar-a-missao.html",
+      "ancoras": {
+        "retomar-a-missao": "retomar-a-missao",
+        "onde-paramos": "onde-paramos",
+        "o-que-mudou": "o-que-mudou",
+        "como-estao-os-personagens": "como-estao-os-personagens",
+        "quem-sabe-o-que": "quem-sabe-o-que",
+        "o-que-falta-fazer": "o-que-falta-fazer",
+        "onde-estao-as-fichas-e-as-notas": "onde-estao-as-fichas-e-as-notas"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/LEIA-ME.md",
+      "pagina": "folhas.html",
+      "ancoras": {
+        "escolher-uma-folha-para-a-mesa": "escolher-uma-folha-para-a-mesa",
+        "para-preparar-e-jogar": "para-preparar-e-jogar",
+        "quando-o-assunto-pedir-outro-registro": "quando-o-assunto-pedir-outro-registro",
+        "dois-exemplos-de-uso": "dois-exemplos-de-uso",
+        "explicacoes-dos-capitulos-tecnicos": "explicacoes-dos-capitulos-tecnicos",
+        "para-estudar-um-caso-completo": "para-estudar-um-caso-completo"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/indice-de-casos.md",
+      "pagina": "casos.html",
+      "ancoras": {
+        "casos-por-assunto": "casos-por-assunto",
+        "B1": "B1",
+        "testes-percepcao-e-movimento": "testes-percepcao-e-movimento",
+        "B2": "B2",
+        "confrontos-e-perigos": "confrontos-e-perigos",
+        "B3": "B3",
+        "personagens-e-tecnicas": "personagens-e-tecnicas",
+        "B4": "B4",
+        "objetos-e-recompensas": "objetos-e-recompensas",
+        "B5": "B5",
+        "pactos-e-entidades": "pactos-e-entidades"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+      "pagina": "referencias.html",
+      "ancoras": {
+        "referencias": "referencias",
+        "regras-de-ciclo-maldito": "regras-de-ciclo-maldito",
+        "mestragem-e-preparacao": "mestragem-e-preparacao",
+        "atribuicao": "atribuicao",
+        "construcao-de-inimigos-e-comparacao-editorial": "construcao-de-inimigos-e-comparacao-editorial",
+        "mundo-de-jujutsu-kaisen": "mundo-de-jujutsu-kaisen"
+      }
+    }
+  ],
+  "links_convertidos": 685
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/72-sineiro-consulta-e-doma.md",
+    "antes": "A vida inimiga mudou de 72 para 108, mas a construção domada continua em 38 PV e 19 de Integridade; o nível e suas escolhas foram preservados.",
+    "depois": "O Sineiro tem 108 PV na ficha do confronto. Depois da Doma, seu máximo é 38 PV, com 19 de Integridade; o nível e as escolhas de construção continuam os da conversão acima.",
+    "motivo": "Apresentar a comparação entre as fichas atuais e retirar um número histórico que não pertence à criatura oferecida ao leitor."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "Para preparar sem revelações, use [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md>).",
+    "depois": "Para preparar sem revelações, use [O mundo dos feiticeiros](<../02-o-mundo-dos-feiticeiros.md>).",
+    "motivo": "Nomear o capítulo de entrada sem revelações, que é o destino da referência."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+    "antes": "**Consulta por problema:** [conduzir uma investigação](<../04-na-mesa-de-jogo.md>), [espaço e usos criativos](<../casos/11-espaco-e-usos-criativos.md>) e [registro de descobertas](<12-registro-de-descobertas.md>).",
+    "depois": "**Consulta por problema:** [conduzir uma investigação](<../04-na-mesa-de-jogo.md#44-conduzir-uma-investigacao>), [espaço e usos criativos](<../casos/11-espaco-e-usos-criativos.md>) e [registro de descobertas](<12-registro-de-descobertas.md>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/05-folha-de-conducao.md",
+    "antes": "**Recursos e queda:** [acompanhar recursos](<../04-na-mesa-de-jogo.md>), [socorro passo a passo](<../casos/22-quedas-e-socorro.md>), [retirada e recuperação](<../casos/23-retirada-e-recuperacao.md>) e [registro de estado](<24-registro-de-estado-e-socorro.md>).",
+    "depois": "**Recursos e queda:** [acompanhar recursos](<../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>), [socorro passo a passo](<../casos/22-quedas-e-socorro.md>), [retirada e recuperação](<../casos/23-retirada-e-recuperacao.md>) e [registro de estado](<24-registro-de-estado-e-socorro.md>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "**No Livro de Regras 1.0.** Uma relação da história não entrega uma capacidade mecânica sem aquisição apropriada. Se o recurso for uma ferramenta, confira ficha, uso, empréstimo e requisitos. Grau do item, nível e patente cumprem funções diferentes. Use [Comprar, emprestar e contratar](<../08-entre-missoes.md>) e [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md>).",
+    "depois": "**No Livro de Regras 1.0.** Uma relação da história não entrega uma capacidade mecânica sem aquisição apropriada. Se o recurso for uma ferramenta, confira ficha, uso, empréstimo e requisitos. Grau do item, nível e patente cumprem funções diferentes. Use [Comprar, emprestar e contratar](<../08-entre-missoes.md#84-comprar-emprestar-e-contratar>) e [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "**No Livro de Regras 1.0.** Informação obtida por uma capacidade respeita seu alcance. Cortina, Ritual, Expansão de Domínio e aquisição de entidades têm regras distintas. Uma cena de explicação pode preparar decisões; não substitui os requisitos de uma ficha. Consulte [Pistas e investigações](<../03-preparar-aventuras.md>) e [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>).",
+    "depois": "**No Livro de Regras 1.0.** Informação obtida por uma capacidade respeita seu alcance. Cortina, Ritual, Expansão de Domínio e aquisição de entidades têm regras distintas. Uma cena de explicação pode preparar decisões; não substitui os requisitos de uma ficha. Consulte [Pistas e investigações](<../03-preparar-aventuras.md#34-pistas-e-investigacoes>) e [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/87-casos-da-obra-para-preparar-situacoes.md",
+    "antes": "**No Livro de Regras 1.0.** A história sustenta interesses e conhecimentos plausíveis. Treinos e capacidades precisam estar registrados conforme as regras. A Origem Latente é uma categoria de criação do sistema; não transforma toda profissão anterior num pacote de poderes. Use [Conferir a ficha](<../07-personagens-e-tecnicas.md>) e [Registro de descobertas](<12-registro-de-descobertas.md>).",
+    "depois": "**No Livro de Regras 1.0.** A história sustenta interesses e conhecimentos plausíveis. Treinos e capacidades precisam estar registrados conforme as regras. A Origem Latente é uma categoria de criação do sistema; não transforma toda profissão anterior num pacote de poderes. Use [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>) e [Registro de descobertas](<12-registro-de-descobertas.md>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Quem organiza trabalho, acesso e apoio? | [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md>) |",
+    "depois": "| Quem organiza trabalho, acesso e apoio? | [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos>) |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| O grupo precisa pertencer a uma escola? | [A sessão zero](<../05-criar-uma-campanha.md>) e a distinção entre guilda e instituição abaixo |",
+    "depois": "| O grupo precisa pertencer a uma escola? | [A sessão zero](<../05-criar-uma-campanha.md#51-a-sessao-zero>) e a distinção entre guilda e instituição abaixo |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Como representar uma relação entre pessoas? | [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md>) e [Facções](<../05-criar-uma-campanha.md>) |",
+    "depois": "| Como representar uma relação entre pessoas? | [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>) e [Facções](<../05-criar-uma-campanha.md#54-faccoes>) |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Esse conceito da obra concede uma capacidade? | [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>) |",
+    "depois": "| Esse conceito da obra concede uma capacidade? | [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>) |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Escola de jujutsu | Instituição de formação e organização de atividades no cenário. Participar de uma escola é um vínculo dentro da história; não é requisito universal de campanha. [Funções e apoio](<../02-o-mundo-dos-feiticeiros.md>). |",
+    "depois": "| Escola de jujutsu | Instituição de formação e organização de atividades no cenário. Participar de uma escola é um vínculo dentro da história; não é requisito universal de campanha. [Funções e apoio](<../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Família ou clã | Relação de parentesco e tradição que pode envolver conhecimento, influência e expectativas. Registre as relações individuais e os recursos combinados. Não confundir com Família de montagem, definida abaixo. A família do personagem não precisa ser uma das famílias conhecidas da obra. [Vínculos](<../05-criar-uma-campanha.md>). |",
+    "depois": "| Família ou clã | Relação de parentesco e tradição que pode envolver conhecimento, influência e expectativas. Registre as relações individuais e os recursos combinados. Não confundir com Família de montagem, definida abaixo. A família do personagem não precisa ser uma das famílias conhecidas da obra. [Vínculos](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Instituição | Organização dentro da história: escola, oficina, associação ou outra definida pela campanha. Seus recursos dependem das pessoas, das condições de acesso e do preparo. [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md>). |",
+    "depois": "| Instituição | Organização dentro da história: escola, oficina, associação ou outra definida pela campanha. Seus recursos dependem das pessoas, das condições de acesso e do preparo. [Escolas, famílias e contatos](<../02-o-mundo-dos-feiticeiros.md#23-escolas-familias-e-contatos>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Independente | Pessoa cuja atuação não depende de pertencer à escola usada na campanha. Defina contatos, compromissos e meios próprios; independência não significa ausência de vínculos. [Modos de vida](<../02-o-mundo-dos-feiticeiros.md>). |",
+    "depois": "| Independente | Pessoa cuja atuação não depende de pertencer à escola usada na campanha. Defina contatos, compromissos e meios próprios; independência não significa ausência de vínculos. [Modos de vida](<../02-o-mundo-dos-feiticeiros.md#24-diferentes-formas-de-viver>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Origem | Escolha de criação do Livro de Regras 1.0, com história, treinos e capacidades próprias. As sete categorias do jogo não são uma classificação universal de todas as pessoas da obra. [Conferir a ficha](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Origem | Escolha de criação do Livro de Regras 1.0, com história, treinos e capacidades próprias. As sete categorias do jogo não são uma classificação universal de todas as pessoas da obra. [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Latente e Descendente | Origens com contextos distintos de formação e relação com o jujutsu. A primeira trabalha o despertar e a formação do potencial; a segunda, a ligação familiar. Não fixam profissão nem personalidade. [Perguntas de cotidiano](<../02-o-mundo-dos-feiticeiros.md>). |",
+    "depois": "| Latente e Descendente | Origens com contextos distintos de formação e relação com o jujutsu. A primeira trabalha o despertar e a formação do potencial; a segunda, a ligação familiar. Não fixam profissão nem personalidade. [Perguntas de cotidiano](<../02-o-mundo-dos-feiticeiros.md#24-diferentes-formas-de-viver>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Receptáculo e Encarnado | Origens que distinguem o ponto de vista jogado: o hospedeiro que divide o corpo ou a consciência que retornou em outro corpo. Quem interpreta a outra presença e como ela participa depende da ficha e dos acordos. [Personagens e seus cuidados](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Receptáculo e Encarnado | Origens que distinguem o ponto de vista jogado: o hospedeiro que divide o corpo ou a consciência que retornou em outro corpo. Quem interpreta a outra presença e como ela participa depende da ficha e dos acordos. [Personagens e seus cuidados](<../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Híbrido e Corpo Amaldiçoado | Origens distintas: natureza humana e amaldiçoada; ou corpo construído com consciência própria. Esses nomes descrevem seres diferentes. Cuidados e recuperação dependem da regra específica. [Personagens](<../07-personagens-e-tecnicas.md>) e [recuperação](<../casos/23-retirada-e-recuperacao.md>). |",
+    "depois": "| Híbrido e Corpo Amaldiçoado | Origens distintas: natureza humana e amaldiçoada; ou corpo construído com consciência própria. Esses nomes descrevem seres diferentes. Cuidados e recuperação dependem da regra específica. [Personagens](<../07-personagens-e-tecnicas.md#72-personagens-e-seus-cuidados>) e [recuperação](<../casos/23-retirada-e-recuperacao.md>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Restrição Celestial | Origem com dois ramos no Livro de Regras 1.0: Sem Energia e Restrição corporal. Leia o ramo escolhido antes de decidir percepção, recursos ou capacidades. [Conferir a ficha](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Restrição Celestial | Origem com dois ramos no Livro de Regras 1.0: Sem Energia e Restrição corporal. Leia o ramo escolhido antes de decidir percepção, recursos ou capacidades. [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Legado de história | Vínculo, lembrança ou compromisso que participa da campanha. Não concede benefício mecânico por si só. [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md>). |",
+    "depois": "| Legado de história | Vínculo, lembrança ou compromisso que participa da campanha. Não concede benefício mecânico por si só. [Vínculos e interesses dos personagens](<../05-criar-uma-campanha.md#52-vinculos-e-interesses-dos-personagens>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Energia amaldiçoada | Elemento sobrenatural que sustenta capacidades no mundo. O sistema representa seu gasto e sua recuperação por regras próprias. Descrição de energia não substitui medida de alcance, alvo ou custo. [Combate, socorro e retirada](<../04-na-mesa-de-jogo.md>). |",
+    "depois": "| Energia amaldiçoada | Elemento sobrenatural que sustenta capacidades no mundo. O sistema representa seu gasto e sua recuperação por regras próprias. Descrição de energia não substitui medida de alcance, alvo ou custo. [Combate, socorro e retirada](<../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| PE | Pontos de energia. Na rota sem energia amaldiçoada, a sigla significa Pontos de Esforço. Consulte a rota antes de aplicar uma interação que dependa de energia amaldiçoada. [Combate, socorro e retirada](<../04-na-mesa-de-jogo.md>). |",
+    "depois": "| PE | Pontos de energia. Na rota sem energia amaldiçoada, a sigla significa Pontos de Esforço. Consulte a rota antes de aplicar uma interação que dependa de energia amaldiçoada. [Combate, socorro e retirada](<../04-na-mesa-de-jogo.md#47-combate-socorro-e-retirada>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Técnica amaldiçoada | Poder com funcionamento próprio, que orienta as aplicações possíveis. O conceito precisa ser delimitado antes da montagem. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Técnica amaldiçoada | Poder com funcionamento próprio, que orienta as aplicações possíveis. O conceito precisa ser delimitado antes da montagem. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Família de montagem | Grupo de acesso a funções e Melhorias da técnica. É um termo de construção do Livro de Regras 1.0, distinto de família ou clã da história. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Família de montagem | Grupo de acesso a funções e Melhorias da técnica. É um termo de construção do Livro de Regras 1.0, distinto de família ou clã da história. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Katas e Manejos | Aplicações das rotas Técnica Marcial e Sem Técnica, respectivamente. Sem Técnica continua usando energia; não é o ramo Sem Energia. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Katas e Manejos | Aplicações das rotas Técnica Marcial e Sem Técnica, respectivamente. Sem Técnica continua usando energia; não é o ramo Sem Energia. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Refino e Lapidação | Progressões de controle energético e corporal, conforme a rota. Não são títulos de autoridade no mundo. [Conferir a ficha](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Refino e Lapidação | Progressões de controle energético e corporal, conforme a rota. Não são títulos de autoridade no mundo. [Conferir a ficha](<../07-personagens-e-tecnicas.md#71-conferir-a-ficha>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Barreira e Cortina | Barreira é um termo amplo; a capacidade específica define seus efeitos. Cortina, no Livro de Regras 1.0, delimita uma área, oculta seu interior de pessoas não feiticeiras e regula a passagem por uma condição preparada. Não apaga consequências nem concede toda propriedade de outras barreiras. [Poderes avançados](<../casos/31-avaliar-poderes-avancados.md>). |",
+    "depois": "| Barreira e Cortina | Barreira é um termo amplo; a capacidade específica define seus efeitos. Cortina, no Livro de Regras 1.0, delimita uma área, oculta seu interior de pessoas não feiticeiras e regula a passagem por uma condição preparada. Não apaga consequências nem concede toda propriedade de outras barreiras. [Poderes avançados](<../casos/31-avaliar-poderes-avancados.md#dominio-aparencia-acerto-e-efeito>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Expansão de Domínio | Capacidade avançada com preparação e funcionamento próprios. Não é um nome alternativo para toda barreira ou efeito em área. [Poderes avançados](<../casos/31-avaliar-poderes-avancados.md>). |",
+    "depois": "| Expansão de Domínio | Capacidade avançada com preparação e funcionamento próprios. Não é um nome alternativo para toda barreira ou efeito em área. [Poderes avançados](<../casos/31-avaliar-poderes-avancados.md#dominio-aparencia-acerto-e-efeito>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Restrição de montagem | Exigência que limita uma aplicação conforme a montagem. Não é a Origem Restrição Celestial. Uma limitação já compensada não entrega outro benefício automaticamente. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md>). |",
+    "depois": "| Restrição de montagem | Exigência que limita uma aplicação conforme a montagem. Não é a Origem Restrição Celestial. Uma limitação já compensada não entrega outro benefício automaticamente. [Avaliar uma capacidade](<../07-personagens-e-tecnicas.md#74-avaliar-uma-capacidade>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Ferramenta e objeto amaldiçoado | Uma ferramenta tem uso e efeito definidos pela ficha do equipamento. “Objeto amaldiçoado” descreve um objeto ligado ao sobrenatural; isso sozinho não determina se pode ser usado como ferramenta, consumido ou convertido em capacidade. Registre o caso e seus efeitos. [Comprar, emprestar e contratar](<../08-entre-missoes.md>). |",
+    "depois": "| Ferramenta e objeto amaldiçoado | Uma ferramenta tem uso e efeito definidos pela ficha do equipamento. “Objeto amaldiçoado” descreve um objeto ligado ao sobrenatural; isso sozinho não determina se pode ser usado como ferramenta, consumido ou convertido em capacidade. Registre o caso e seus efeitos. [Comprar, emprestar e contratar](<../08-entre-missoes.md#84-comprar-emprestar-e-contratar>). |",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "**Exemplo.** Ren recebe por empréstimo uma ferramenta de grau elevado. Anote o item e confira os requisitos de seu efeito. Ren não sobe de nível nem muda de patente por recebê-lo. Consulte [Comprar, emprestar e contratar](<../08-entre-missoes.md>) e [Recompensas e progressão](<../08-entre-missoes.md>).",
+    "depois": "**Exemplo.** Ren recebe por empréstimo uma ferramenta de grau elevado. Anote o item e confira os requisitos de seu efeito. Ren não sobe de nível nem muda de patente por recebê-lo. Consulte [Comprar, emprestar e contratar](<../08-entre-missoes.md#84-comprar-emprestar-e-contratar>) e [Recompensas e progressão](<../08-entre-missoes.md#86-recompensas-e-progressao>).",
+    "motivo": "Levar a consulta ao trecho indicado pela legenda, preservando o texto das definições e os valores."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/88-indice-de-termos-do-mundo.md",
+    "antes": "| Barreira e Cortina | Barreira é um termo amplo; a capacidade específica define seus efeitos. Cortina, no Livro de Regras 1.0, delimita uma área, oculta seu interior de pessoas não feiticeiras e regula a passagem por uma condição preparada. Não apaga consequências nem concede toda propriedade de outras barreiras. [Poderes avançados](<../casos/31-avaliar-poderes-avancados.md#dominio-aparencia-acerto-e-efeito>). |",
+    "depois": "| Barreira e Cortina | Barreira é um termo amplo; a capacidade específica define seus efeitos. Cortina, no Livro de Regras 1.0, delimita uma área, oculta seu interior de pessoas não feiticeiras e regula a passagem por uma condição preparada. Não apaga consequências nem concede toda propriedade de outras barreiras. [Preparar uma Cortina](<../casos/33-casos-especificos-de-avaliacao.md#definir-os-limites-de-uma-cortina>). |",
+    "motivo": "Corrigir a referência de Cortina: o exemplo próprio está no caso de dúvidas sobre técnicas, e não no aprofundamento de Domínios."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Cairn, segunda edição. Warden's Guide.** Princípios de exploração, acessos, sinais, facções e ferramentas para construir lugares.",
+    "depois": "- **Cairn, segunda edição. Warden's Guide.** Princípios de exploração, acessos, sinais, facções e ferramentas para construir lugares. [Guia no site oficial](https://cairnrpg.com/second-edition/wardens-guide/).",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Evil Hat Productions. Fate Core System.** Preparação de situações, perguntas de aventura e campanha, condução e encerramento de cenas.",
+    "depois": "- **Evil Hat Productions. Fate Core System.** Preparação de situações, perguntas de aventura e campanha, condução e encerramento de cenas. [Condução](https://fate-srd.com/fate-core/running-game) e [cenas e aventuras](https://fate-srd.com/fate-core/scenes-sessions-scenarios), no SRD.",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Justin Alexander, The Alexandrian. Three Clue Rule; The Art of Pacing; Don't Prep Plots: The Principles of RPG Villainy.** Caminhos de investigação, ritmo, oposição e resultados abertos às escolhas dos jogadores.",
+    "depois": "- **Justin Alexander, The Alexandrian. Three Clue Rule; The Art of Pacing; Don't Prep Plots: The Principles of RPG Villainy.** Caminhos de investigação, ritmo, oposição e resultados abertos às escolhas dos jogadores. [Pistas](https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule), [ritmo](https://thealexandrian.net/wordpress/31509/roleplaying-games/the-art-of-pacing) e [antagonistas](https://thealexandrian.net/wordpress/36383/roleplaying-games/dont-prep-plots-you-will-rue-this-day-heroes-the-principles-of-rpg-villainy).",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Kevin Crawford. Worlds Without Number, Free Edition.** Preparação de pessoas, lugares, complicações e facções.",
+    "depois": "- **Kevin Crawford. Worlds Without Number, Free Edition.** Preparação de pessoas, lugares, complicações e facções. [Apresentação da editora](https://sinenominepublishing.com/products/worlds-without-number-deluxe-pdf), que distingue o conteúdo gratuito dos acréscimos da edição Deluxe.",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Michael E. Shea, Sly Flourish. Ending Campaigns.** Fios de interesse e espaço para o futuro dos personagens no encerramento da campanha.",
+    "depois": "- **Michael E. Shea, Sly Flourish. Ending Campaigns.** Fios de interesse e espaço para o futuro dos personagens no encerramento da campanha. [Artigo original](https://slyflourish.com/ending_campaigns.html).",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **Pathfinder, segunda edição. GM Core: Building Creatures.** Referência oficial consultada para funções, ações e capacidades reativas. Sua consulta é distinta da leitura do Livro Básico usado na comparação editorial.",
+    "depois": "- **Pathfinder, segunda edição. GM Core: Building Creatures.** Referência oficial consultada para funções, ações e capacidades reativas. Sua consulta é distinta da leitura do Livro Básico usado na comparação editorial. [Texto no Archives of Nethys](https://2e.aonprd.com/Rules.aspx?ID=2874).",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  },
+  {
+    "fonte": "06 - Redacao do Guia/edicao-integrada-136/referencias.md",
+    "antes": "- **D&D Beyond. How to Use a Monster, Basic Rules 2024.** Referência sobre leitura e uso de fichas e ações de inimigos.",
+    "depois": "- **D&D Beyond. How to Use a Monster, Basic Rules 2024.** Referência sobre leitura e uso de fichas e ações de inimigos. [Regras oficiais](https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster).",
+    "motivo": "Oferecer acesso direto à fonte identificada na bibliografia; conservar o alcance da atribuição e da comparação."
+  }
+]

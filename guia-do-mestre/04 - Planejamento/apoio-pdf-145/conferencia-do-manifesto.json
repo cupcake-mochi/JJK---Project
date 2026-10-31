@@ -1,0 +1,27 @@
+{
+  "registro": 145,
+  "entradas_anteriores": 5458,
+  "arquivos_anteriores_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/98-plano-de-melhoria-e-validacao-do-guia.md",
+    "04 - Planejamento/99-sumario-comentado-e-caminhos-de-leitura.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/revisao-98/LEIA-ME.md",
+    "08 - Diagramacao do Guia/LEIA-ME.md",
+    "LEIA-ME.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "originais_preservados": 104,
+  "fontes_textuais_preservadas": 99,
+  "paginas_html_preservadas": 99,
+  "pdf_anterior_preservado": true,
+  "pdf_novo": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Revisado.pdf",
+  "sha256_pdf": "fce0184a2d944e2afac552627b13878361421157126eb9ebb7d614296ca129d2",
+  "paginas": 383,
+  "controles_atualizados": 10,
+  "demais_arquivos_anteriores_preservados": 5448,
+  "falhas": [],
+  "metodo": "Todas as entradas anteriores auditadas. Somente dez controles de continuidade alterados; união com novo PDF e artefatos da composição e inspeção visual."
+}

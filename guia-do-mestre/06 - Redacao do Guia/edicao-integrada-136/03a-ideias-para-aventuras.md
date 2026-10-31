@@ -4,17 +4,17 @@ As opções abaixo são originais, sem revelações da trama de Jujutsu Kaisen.
 
 **Escolha o que precisa:** [situações](<#oito-situacoes-para-comecar>), [pessoas](<#seis-pessoas-para-encontrar>), [lugares](<#quatro-lugares-para-usar>) ou [complicações](<#seis-complicacoes-possiveis>). Para acompanhar uma combinação pronta, siga para [A assinatura no coreto](<#combinacao-1-a-assinatura-no-coreto>) ou [Ensaio na outra margem](<#combinacao-2-ensaio-na-outra-margem>).
 
-Os perfis ajudam a interpretar pessoas; prepare fichas antes de usar suas capacidades em jogo. Uma ameaça também precisa de efeitos e meios de enfrentamento definidos, incluindo a conversão se puder ser obtida como entidade.
+Use os perfis para interpretar e combinar encontros. Quando uma capacidade ou ameaça entrar em jogo, tenha sua ficha com efeitos, requisitos e meios de enfrentamento definidos. A ajuda usa Ajudar quando seus requisitos forem cumpridos; corpos e capacidades seguem suas regras. Se uma criatura puder ser adquirida, prepare também a conversão.
 
 ## Oito situações para começar
 
 ### 1. Luz na sala de projeção
 
-**Chamado institucional.** Leda viu uma criatura se esconder entre as cadeiras quando acendeu a luz do cinema fechado. Quer buscar objetos pessoais, mas espera do lado de fora. Uma escola ou rede local pede ao grupo que investigue. Prepare a maldição e seus sinais. O grupo pode buscar informações, procurar outro acesso, proteger o lugar ou enfrentar a ameaça. A luz orienta seu comportamento; qualquer fraqueza com efeito nas regras precisa constar da ficha.
+**Chamado institucional.** Leda viu uma criatura se esconder entre as cadeiras quando acendeu a luz do cinema fechado. Quer buscar objetos pessoais, mas espera do lado de fora. Uma escola ou rede local pede ao grupo que investigue. Prepare a maldição e seus sinais. O grupo pode buscar informações, procurar outro acesso, proteger o lugar ou enfrentar a ameaça. A luz orienta o comportamento definido na ficha.
 
 ### 2. Depois do primeiro chamado
 
-**Apoio a um aprendiz.** Caio voltou de uma ocorrência e quer entender uma decisão que tomou. Um contato pede ao grupo que o ouça. Ele mistura o que viu com suas conclusões sobre a maldição. Prepare os fatos e quem mais os conhece. O grupo pode rever o acontecimento, procurar outra fonte ou compartilhar uma experiência. A conversa pode terminar com uma pergunta melhor para a próxima missão; não concede treinamento ou benefício de ficha.
+**Apoio a um aprendiz.** Caio voltou de uma ocorrência e quer entender uma decisão que tomou. Um contato pede ao grupo que o ouça. Ele mistura o que viu com suas conclusões sobre a maldição. Prepare os fatos e quem mais os conhece. O grupo pode rever o acontecimento, procurar outra fonte ou compartilhar uma experiência. A conversa pode terminar com uma pergunta melhor para a próxima missão.
 
 ### 3. A assinatura no coreto
 
@@ -52,15 +52,15 @@ Nori quer manter o coreto disponível para encontros. Recolhe cadeiras enquanto 
 
 ### Dara, musicista de corpo construído
 
-Dara é um Corpo Amaldiçoado consciente. Quer compor com outras pessoas e leva um caderno cheio de anotações. Experimenta um ritmo na mesa antes de explicar uma ideia. Aceita ajuda e diz quando prefere outro caminho. Pode compartilhar uma refeição pela companhia, mesmo sem precisar comer. Corpo, reparo e capacidades seguem sua ficha.
+Dara é um Corpo Amaldiçoado consciente. Quer compor com outras pessoas e leva um caderno cheio de anotações. Experimenta um ritmo na mesa antes de explicar uma ideia. Aceita ajuda e diz quando prefere outro caminho. Pode compartilhar uma refeição pela companhia, mesmo sem precisar comer.
 
 ### Joana, conhecedora das hortas
 
-Joana cuida de uma horta junto ao canal e quer que os caminhos sejam usados com segurança. Mostra o destino e pergunta o que as pessoas levam antes de apontar um atalho. Conhece a passarela e os apoios locais. Pode descrever a travessia ou oferecer um meio que possua. Uma contribuição concreta pode permitir Ajudar; estar por perto não basta para conceder vantagem.
+Joana cuida de uma horta junto ao canal e quer que os caminhos sejam usados com segurança. Mostra o destino e pergunta o que as pessoas levam antes de apontar um atalho. Conhece a passarela e os apoios locais. Pode descrever a travessia ou oferecer um meio que possua.
 
 ### Caio, aprendiz fora de um clã
 
-Caio descobriu o jujutsu recentemente e quer ser levado a sério sem fingir que sabe tudo. Faz perguntas rápidas e depois reformula uma com cuidado. Fala melhor quando pode expressar dúvidas sem ser diminuído. Pode pedir companhia para conhecer um contato ou contar algo que não compreendeu. Seu desejo de impressionar não o obriga a agir de modo imprudente.
+Caio descobriu o jujutsu recentemente e quer ser levado a sério sem fingir que sabe tudo. Faz perguntas rápidas e depois reformula uma com cuidado. Fala melhor quando pode expressar dúvidas sem ser diminuído. Pode pedir companhia para conhecer um contato ou contar algo que não compreendeu.
 
 ### Leda, antiga projecionista
 
@@ -82,7 +82,7 @@ A entrada principal dá acesso ao saguão; uma porta lateral de serviço leva ao
 
 ### O pequeno terminal
 
-Um abrigo aberto e bancos ficam diante das plataformas. Há acesso pela rua e uma passagem de pedestres até o bairro. Passageiros, trabalhadores e vendedores conhecem partes diferentes da rotina. A multidão pode oferecer testemunhas e assuntos de conversa. Se sua presença interferir numa ação, descreva como e use a regra pertinente; ela não impõe a mesma penalidade em todo teste de percepção, movimento ou influência.
+Um abrigo aberto e bancos ficam diante das plataformas. Há acesso pela rua e uma passagem de pedestres até o bairro. Passageiros, trabalhadores e vendedores conhecem partes diferentes da rotina. A multidão pode oferecer testemunhas e assuntos de conversa. Se a multidão interferir numa ação, descreva o obstáculo e use a regra pertinente à tentativa.
 
 ## Seis complicações possíveis
 
@@ -178,4 +178,4 @@ Dara coloca o caderno no coreto e pergunta: “Tem algum som que vocês queiram 
 
 Ouça quem deseja tocar, contar uma lembrança ou responder ao convite. Podem trocar ideias, errar uma entrada e começar de novo. Só peça teste se houver algo relevante a resolver pelas regras; o encontro não exige uma disputa de desempenho.
 
-Quando o grupo estiver satisfeito, encerre o ensaio e ouça o que cada personagem faz depois. Guardar a música para outro dia pode bastar. A cena não concede treino, bônus ou progressão adicionais.
+Quando o grupo estiver satisfeito, encerre o ensaio e ouça o que cada personagem faz depois. Guardar a música para outro dia pode bastar.
