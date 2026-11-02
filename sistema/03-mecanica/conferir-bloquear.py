@@ -716,6 +716,9 @@ _VALE9 = [
     ('Pugilista, Redirecionar a Força', 'Compare o resultado com a Defesa do novo alvo. Ele não pode '
                                         'Bloquear esse ataque.'),
     ('Consulta', 'Antes da rolagem de acerto, o alvo escolhe entre sua Defesa e Bloquear, quando permitido.'),
+    # item 198 (R61, 02/11/2026): a Reacao cancelada pelo Ataque sem Prenuncio nao devolve o que ja foi pago
+    ('Restringido, Ataque sem Prenúncio', 'o anúncio a cancela, sem gastar a Reação dele. Os custos que ele já tenha pago '
+                                          'ao declarar essa Reação, como PE, não voltam.'),
 ]
 _SAIU9 = [
     'depois de conhecer a rolagem do atacante',

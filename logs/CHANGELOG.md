@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.370] - 02/11/2026
+
+### Decidido
+
+- Ataque sem Prenúncio (item 198): os custos que o defensor já pagou ao declarar a Reação cancelada pelo anúncio não voltam. A Reação em si segue sem ser gasta. Palavras do autor: "Perde".
+- `Energia Reversa` fica como está; a pergunta da peça 11 §9 fechou. Palavras do autor: "mantem".
+- A retificação de personalização das Origens da R52 recebeu o número 199, só no registro.
+
+### Alterado
+
+- Texto do livro (R61): uma frase no bloco `origens--restricao-prenuncio`. Fonte e registro em `editorial-r61/` e `alteracoes/R60-para-R61.json`. A cadeia de integridade passa a cobrir R52 a R61.
+- `conferir-bloquear.py` (9c) cobra a frase nova. Teste negativo em cópia isolada: base passa, sem a frase a 9c acende.
+
+### Pendente
+
+- Os PDFs claro e noturno ainda são os da R60. Gerar, atualizar `EDICAO-ATUAL.json`, publicar e registrar a conferência dependem do ambiente local do Mizuki.
+- O `conferir-repositorio.py` já acusava 14 problemas antes desta versão, todos de caminhos do HD citados no `ORGANIZACAO-DO-HD.md`. Esta versão não os mexeu.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R61 e os PDFs por gerar.
+
+---
+
 ## [0.369] - 30/10/2026
 
 ### Alterado

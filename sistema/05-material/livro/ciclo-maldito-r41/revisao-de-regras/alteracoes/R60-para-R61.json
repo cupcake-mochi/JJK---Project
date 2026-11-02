@@ -1,0 +1,10 @@
+[
+  {
+    "id": "R61-01",
+    "bloco": "origens--restricao-prenuncio",
+    "antes": "o anúncio a cancela, sem gastar a Reação dele.",
+    "depois": "o anúncio a cancela, sem gastar a Reação dele. Os custos que ele já tenha pago ao declarar essa Reação, como PE, não voltam.",
+    "motivo": "Decisão do autor em 02/11/2026: o que o defensor já pagou ao declarar a Reação cancelada pelo Ataque sem Prenúncio não volta. A Reação em si continua sem ser gasta.",
+    "item": "198"
+  }
+]

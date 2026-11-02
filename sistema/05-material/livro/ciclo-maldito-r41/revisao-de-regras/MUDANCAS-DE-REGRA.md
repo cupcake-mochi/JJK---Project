@@ -141,7 +141,7 @@ Estes itens foram decididos na direção, mas faltam os números. O Mizuki vai f
 
 Tudo o que não aparece nas seções A e B fica exatamente como está na R29, incluindo os itens da revisão que o autor mandou manter. Em caso de dúvida, não altere e pergunte.
 
-## E. Decidido depois do R41 (o 186 aplicado no R42, o 187 no R43, do 24 ao 192 no R44, o 193 no R45, o 194 no R47, o 195 e o 196 no R50 e o 197 no R51)
+## E. Decidido depois do R41 (o 186 aplicado no R42, o 187 no R43, do 24 ao 192 no R44, o 193 no R45, o 194 no R47, o 195 e o 196 no R50, o 197 no R51 e o 198 no R61)
 
 | nº | Assunto | O que muda |
 |---|---|---|
@@ -164,9 +164,12 @@ Tudo o que não aparece nas seções A e B fica exatamente como está na R29, in
 | [196] | Pontas de redação das Origens | **Sem regra nova:** o Olho adicional do Híbrido ganhou a definição que faltava (a até 9 m, enxerga na penumbra e na escuridão comum sem a penalidade por falta de luz, sem distinguir cores); as duas frases de Pactos deixaram de tratar Legado como benefício; Progressão passou a dizer que a Categoria de Efeito 4 é concessão específica da Restrição corporal; e os Legados de história foram reescritos como vínculos da campanha. Aplicado no R50. |
 | [197] | Recomposição a 4 × a maior Classe | **A `Recomposição` recupera 4 × a maior Classe, e não 3 ×.** O R50 escreveu 3 ×, como estava no registro do estudo do Morrendo ("anote pra reduzir para 3x maior classe"); ao ver o número no livro, o autor disse em 14/10/2026: "era pra ser 4x classe". Categoria de Efeito 2, Ação Padrão e uma vez por descanso curto não mudam. **Aplicado no R51.** |
 
+| [198] | Ataque sem Prenúncio: custos da Reação cancelada | **Os custos que o defensor já pagou ao declarar a Reação cancelada pelo anúncio não voltam.** A Reação em si continua sem ser gasta, como no item [194]. Palavras do autor em 02/11/2026: "Perde". Aplicado no R61, em um bloco, com uma frase nova (`alteracoes/R60-para-R61.json`). |
 
 ## F. Retificação de personalização das Origens — R52, 15/10/2026
 
 O autor corrigiu a permissão geral de criar marcantes: a personalização vale para as menores e os Legados de história. A marcante segue as opções publicadas para a Origem. Só a criação específica de **Criar sua Restrição**, no ramo **Restrição corporal**, permanece. Para famílias próprias do Descendente, usa-se uma modalidade publicada da marcante.
 
 Aplicado no R52, em um bloco, com três substituições de redação. Registro: `alteracoes/R51-para-R52.json`. Esta retificação ainda não recebeu um número novo da lista pelo autor.
+
+**Número da retificação acima:** o autor aprovou em 02/11/2026 que ela receba o número **[199]**. Nenhuma regra muda, só o registro.

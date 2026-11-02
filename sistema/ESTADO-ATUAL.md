@@ -1,6 +1,14 @@
-# Edição corrente R60
+# Edição corrente R61 (texto; PDFs ainda não gerados)
 
-**Versão v0.369.**
+**Versão v0.370.**
+
+Decidido em 02/11/2026: os custos que o defensor já pagou ao declarar uma Reação cancelada pelo Ataque sem Prenúncio não voltam (item 198). Uma frase nova no bloco `origens--restricao-prenuncio`; custos, gatilhos e a regra de que a Reação não é gasta ficam como estavam. A `Energia Reversa` fica como está (peça 11 §9 fechada). A retificação da R52 recebeu o número 199.
+
+**Os PDFs publicados ainda são os da R60.** O texto e os registros estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`. Gerar os dois PDFs, atualizar `EDICAO-ATUAL.json` e publicar na Vercel depende do ambiente local do Mizuki e não foi feito.
+
+# Edição anterior R60
+
+*Versão v0.369.*
 
 Esclarecimento aprovado em 30/10/2026: um feitiço de Classe 1 ou maior no próprio turno; Reação fora dele fica fora desse limite. Três blocos atualizados em Fundamento e Catálogo, preservando custos, gatilhos, ações e exceções expressas. As duas paletas têm 425 páginas.
 

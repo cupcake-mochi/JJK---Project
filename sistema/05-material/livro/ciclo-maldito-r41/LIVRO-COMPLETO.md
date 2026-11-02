@@ -3029,7 +3029,7 @@ A marcante abrange **ataques comuns corpo a corpo, com arma ou desarmados, e Kat
 
 Se o defensor **puder perceber energia amaldiçoada e ainda não reconhecer por estudo essa execução sua**:
 
-- O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele.
+- O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele. Os custos que ele já tenha pago ao declarar essa Reação, como PE, não voltam.
 - Se a resolução admitir Bloquear e ele tiver escolhido essa defesa, faz a rolagem **com desvantagem**, seguindo os dois conjuntos completos e os extremos de Aparar e Brecha.
 
 O TR mantém dado, CD e modificadores. Automáticos não ganham teste nem ignoram imunidades, resistências ou requisitos. Benefícios sem gasto de Reação continuam disponíveis. Numa resolução com acerto seguido de TR, a marcante não acrescenta penalidade ao TR.
