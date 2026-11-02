@@ -21,10 +21,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - Texto do livro (R61): uma frase no bloco `origens--restricao-prenuncio`. Fonte e registro em `editorial-r61/` e `alteracoes/R60-para-R61.json`. A cadeia de integridade passa a cobrir R52 a R61.
 - `conferir-bloquear.py` (9c) cobra a frase nova. Teste negativo em cópia isolada: base passa, sem a frase a 9c acende.
 
+- `conferir-repositorio.py`: as 13 pastas e arquivos do HD que o `ORGANIZACAO-DO-HD.md` cita entraram no `LOCAIS` (viram aviso, não erro). Os 14 problemas que a checagem 2 acusava saíram; sem uma entrada, o erro volta (testado em cópia isolada).
+
 ### Pendente
 
 - Os PDFs claro e noturno ainda são os da R60. Gerar, atualizar `EDICAO-ATUAL.json`, publicar e registrar a conferência dependem do ambiente local do Mizuki.
-- O `conferir-repositorio.py` já acusava 14 problemas antes desta versão, todos de caminhos do HD citados no `ORGANIZACAO-DO-HD.md`. Esta versão não os mexeu.
 
 → Continua em `sistema/ESTADO-ATUAL.md`, com a edição R61 e os PDFs por gerar.
 

@@ -372,6 +372,20 @@ LOCAIS = {
     '3dt-alpha-manual-revisado-biblioteca-elfica.pdf': 'livro de terceiros, fica so no HD',
     # pasta so de PNG, e o .gitignore exclui os PNG do planejamento editorial
     'consolidacao/lote-01/output/mosaicos-root/': 'mosaicos PNG da inspecao visual, so no HD',
+    # v0.370: pastas do HD reorganizado em 02/11/2026, citadas pelo ORGANIZACAO-DO-HD.md
+    'Claude/_quarentena-2026-11/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/_quarentena-2026-11/Claude2-nao-rastreados/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/invocacoes-pos46/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/agentes-2026-09-27/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/agentes-2026-09-16/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/agentes-2026-09-26/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/02-RPG/_historico/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/entrega-v0.341/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/entrega-v0.358/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/backup-worktrees-2026-09-22/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'Claude/_handoffs/': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'manual/60-invocacoes.md': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
+    'scripts-do-sheets-2026-10-05.zip': 'pasta do HD citada no ORGANIZACAO-DO-HD.md, fora do git',
 }
 
 
