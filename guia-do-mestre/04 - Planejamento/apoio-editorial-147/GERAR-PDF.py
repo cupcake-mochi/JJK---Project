@@ -33,6 +33,8 @@ for name,font,size,lead,color,before,after in [('body','Body',10.25,13.2,INK,0,3
 for kind in ['decision','speech','technical']:
  styles[kind]=ParagraphStyle(kind,parent=styles['body'],leftIndent=7,rightIndent=4,spaceBefore=5,spaceAfter=6,backColor=PALE if kind!='speech' else None,borderPadding=2 if kind!='speech' else 0)
 styles['code']=ParagraphStyle('code',fontName='Mono',fontSize=8,leading=11,textColor=INK)
+# Introdução de capítulo em página de abertura: largura cheia, corpo maior para a linha longa.
+styles['lede']=ParagraphStyle('lede',parent=styles['body'],fontSize=12.25,leading=17,spaceAfter=6)
 # Reutilizar as medidas e o motor revisto, sem executar o antigo livro.
 old=ast.parse((A/'base-GERAR-PDF.py').read_text());wanted={'Item','para','Illustration','Placement','Page','newpage','height','place','fill','normal','wide','lead_height','compose_items','rebalance_tail'}
 for node in old.body:
@@ -209,6 +211,15 @@ def build():
     if follow.kind not in ['h2','h3','anchor']:break
    if need>y-BOTTOM and y<TOP-1:newpage(r['parte'],r['titulo'])
    wide(items.pop(0),r['parte'],r['titulo'])
+  if doc in arts and doc!='capitulo-08.html':
+   # Página de abertura: a introdução corre numa coluna só, a imagem ocupa o resto e o capítulo segue na página seguinte.
+   # Em duas colunas balanceadas acima da imagem, a leitura saltava da esquerda para o tópico de baixo.
+   art=next(i for i,x in enumerate(items) if x.kind=='image' and x.text==arts[doc][1])
+   for it in items[:art]:wide(replace(it,f=Paragraph(it.f.text,styles['lede']),before=0,after=styles['lede'].spaceAfter) if it.kind=='body' else it,r['parte'],r['titulo'])
+   old=items[art];probe=Illustration(B/'imagens'/arts[doc][0],arts[doc][1],width=AW)
+   room=y-BOTTOM-old.before-old.after-8-probe.ch
+   wide(replace(old,f=Illustration(B/'imagens'/arts[doc][0],arts[doc][1],width=AW,maxheight=room)),r['parte'],r['titulo'])
+   items=items[art+1:];newpage(r['parte'],r['titulo'])
   if doc=='referencias.html':
    for it in items:wide(it,r['parte'],r['titulo'])
   else:compose_items(items,r['parte'],r['titulo'])

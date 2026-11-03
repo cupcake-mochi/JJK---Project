@@ -2,7 +2,7 @@
 
 Registro 152, 03/11/2026. Piloto pedido pelo autor depois do retorno de um leitor (Mochi) sobre os capítulos 8.1 e 8.2. Nenhuma regra, número ou mecânica mudou: só a forma do texto.
 
-Arquivos alterados: `08-entre-missoes.md`, `casos/23-retirada-e-recuperacao.md` e `consultas/40-registro-de-dedicacao-por-ficha.md`. O HTML e o PDF ainda são os do registro 151.
+Arquivos alterados: `08-entre-missoes.md`, `casos/23-retirada-e-recuperacao.md` e `consultas/40-registro-de-dedicacao-por-ficha.md`. O HTML e o PDF foram regerados com esse texto, junto com a página de abertura dos caps. 2 e 3 (retorno do mesmo leitor: a introdução em duas colunas acima da imagem quebrava a ordem de leitura).
 
 ## O retorno do leitor
 
