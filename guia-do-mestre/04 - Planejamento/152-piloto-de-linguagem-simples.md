@@ -100,8 +100,8 @@ Entregue a 2 ou 3 pessoas **só o texto novo** dos capítulos 8.1 ("Descansar e 
 1. Mei tem vida máxima 23 e está com 18. Faz um descanso longo fora de ambiente propício. Com quanto fica?
 2. A mesma Mei, agora com 3 de vida. Com quanto fica?
 3. Um personagem tem 10 PE máximos e 1 PE atual. Faz um descanso curto em ambiente propício. Com quanto fica?
-4. Rina usou 10 das 28 horas neste ciclo. Com quantas horas abre o próximo?
-5. No ciclo seguinte, Rina não trabalha nada. Com quantas horas abre o outro ciclo depois dele?
+4. Rina usou 10 das 28 horas neste ciclo. Com quantas horas começa o próximo?
+5. No ciclo seguinte, Rina não trabalha nada. Com quantas horas começa o ciclo depois dele?
 6. Uma ficha nova é aprovada no sexto dia de um ciclo de sete dias. Quantas horas recebe?
 7. Mei fechou o ciclo com 8 horas reservadas. Ela pode usar essas horas num projeto novo?
 8. Explique com as suas palavras o que é afastamento formal.
@@ -120,6 +120,28 @@ Entregue a 2 ou 3 pessoas **só o texto novo** dos capítulos 8.1 ("Descansar e 
 6. **8.** Dias 6 e 7, quatro horas por dia.
 7. **Não.** Horas reservadas ficam presas ao trabalho que espera conferência.
 8. Uma pausa registrada da ficha. A partir do ciclo seguinte, ela para de receber horas novas, e as que já tinha valem até expirar. Ficar sem postar não conta como afastamento.
+
+### Resultado do primeiro leitor
+
+Mochi, 03/11/2026. Ele já tinha lido a versão antiga, então não conta como leitor que nunca viu o texto. Ainda faltam pelo menos mais uma ou duas pessoas pelo critério.
+
+| Pergunta | Resposta | Resultado |
+|---|---|---|
+| 1 a 5 | 18; 11; 3; 46; 56 | certas |
+| 6 | 4 | **errada** (certo: 8) |
+| 7 | Não | certa |
+| 8 | "Uma pausa na ficha; para de receber horas novas a partir do próximo ciclo, mas não interrompe trabalhos em andamento." | certa no essencial; não citou que ficar sem postar não afasta |
+| 9 | Repetição de "abre"; a linguagem parece "dura" e artificial, e isso causa estranheza, mesmo sem dificultar a leitura | — |
+| 10 | Afastamento, ficha que volta e ficha que entra no meio do ciclo: "mecânica necessária, mas confusa" | — |
+
+**O que isso diz:**
+
+- **Descanso e horas que passam de ciclo:** as seis perguntas de conta sobre isso deram certo. Esses dois trechos, que eram os pontos do retorno original, passaram.
+- **"Entrada, retorno e afastamento" continua confuso.** O erro da 6 e a resposta da 10 apontam para o mesmo trecho. A resposta 4 sugere que "dia que ainda falta" foi lido como "dia depois de hoje": a correção "contando o dia da entrada" vem depois da regra, como exceção, e o exemplo do dia 5 não bastou. O trecho também tem quatro tipos de ficha (nova, que entra, antiga reaberta e que volta), e duas delas seguem a mesma conta com nomes diferentes.
+- **"Abre":** "Rina abre com 10 horas" usa uma palavra do ciclo ("o ciclo abre") para a ficha. Trocar por "começa o ciclo com".
+- **Voz dura:** o enxugamento do piloto deixou sequências de frases curtas sem ligação ("Ela recebe… Ela só pode… Uma ficha nova… Uma ficha antiga…"). Frase curta é técnica, não meta: ideias da mesma regra podem ficar ligadas.
+
+**Aplicado depois do resultado:** "Entrada, retorno e afastamento" reescrito com uma regra só no começo, tabela e três tipos de ficha (a reaberta entrou em "ficha que volta"). "Abre" virou "começa" quando o sujeito é a ficha, no cap. 8 e na consulta 40, e nas perguntas 4 e 5 do teste. Nenhum número de regra mudou. Falta testar com leitor que não viu a versão antiga, e a passada de ritmo no resto do capítulo.
 
 ## Próximos passos
 

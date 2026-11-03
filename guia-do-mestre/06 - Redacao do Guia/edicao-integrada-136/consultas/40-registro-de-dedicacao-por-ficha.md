@@ -58,7 +58,7 @@ Rina e Mei estão liberadas desde o início. Cada uma tem 28 horas novas por cic
 | Rina, 3 | 18 | 28 | 12 | 12 + 0 | 6 | 28 |
 | Mei, 3 | 20 | 28 | 0 | 0 + 0 | 20 | 28 |
 
-Rina abre o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar as horas de Mei. Na abertura do quarto ciclo, cada uma poderá ter 56 horas: 28 novas e 28 que passaram do terceiro.
+Rina começa o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar as horas de Mei. Na abertura do quarto ciclo, cada uma poderá ter 56 horas: 28 novas e 28 que passaram do terceiro.
 
 O fechamento do terceiro ciclo apaga só as horas antigas que não foram usadas. Não desfaz os projetos em que Rina e Mei trabalharam, não remove capacidades do Livro de Regras 1.0 e não determina regressão de treino por ausência de postagem.
 

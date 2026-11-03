@@ -64,29 +64,37 @@ Toda ficha liberada recebe suas horas, sem precisar de um mínimo de missões ou
 
 ### Entrada, retorno e afastamento
 
-Esta parte trata da ficha que entra no meio do ciclo, da que se afasta e da que volta.
+Nem toda ficha passa o ciclo inteiro em jogo. Algumas entram no meio, outras param por um tempo e depois voltam. As horas delas seguem uma regra só: **quatro horas para cada dia em que a ficha está em jogo, do dia em que entrou até o último dia do ciclo.**
 
-**Ficha que entra no meio do ciclo.** Ela recebe **quatro horas por dia que ainda falta**, contando o dia da entrada, e não as 28 cheias. Uma ficha liberada no quinto dia recebe **3 × 4 = 12 horas**, pelos dias 5, 6 e 7. Ela só pode trabalhar a partir do dia em que entrou. Uma ficha nova começa do zero: não fica com horas nem projetos de outra ficha. Uma ficha antiga reaberta mantém o que tinha. Ela não recebe de novo as horas dos dias que já recebeu.
+| Entrou ou voltou no dia | Dias que contam | Horas no ciclo |
+|---|---|---|
+| 1 | do 1 ao 7 | 28 |
+| 5 | 5, 6 e 7 | 12 |
+| 7 | só o 7 | 4 |
 
-**Ficha afastada.** O afastamento formal é uma pausa registrada da ficha. A partir do ciclo seguinte ao afastamento, ela para de receber horas novas. As horas que ela já tinha continuam valendo pelo prazo normal, e o trabalho ainda precisa ser possível na história.
+O dia da entrada sempre conta, e a ficha só pode trabalhar a partir dele.
 
-**Ficha que volta.** Recebe quatro horas por dia que falta no ciclo, como a ficha que entra. O tempo afastada não dá horas. Horas que sobraram de antes só podem ser usadas se ainda não expiraram; voltar não estica o prazo delas.
+**Ficha nova.** Começa do zero: não fica com horas nem com projetos de outra ficha, mesmo que seja do mesmo jogador.
 
-Anote quais fichas estão afastadas. Ficar sem postar não afasta a ficha automaticamente nem prova que a personagem parou de praticar. A contagem de horas também não tira capacidades que a personagem já ganhou.
+**Ficha afastada.** O afastamento formal é uma pausa registrada da ficha. A partir do ciclo seguinte, ela deixa de receber horas novas. As que ela já tinha continuam valendo até expirar, desde que o trabalho seja possível na história.
+
+**Ficha que volta.** Vale tanto para a que estava afastada quanto para uma ficha antiga que foi reaberta. Ela continua com o que tinha e recebe horas pela tabela, a partir do dia da volta. O tempo parada não dá horas, e nenhum dia é pago duas vezes. As horas antigas seguem o prazo normal, porque voltar não estica esse prazo.
+
+Anote quais fichas estão afastadas. Ficar sem postar não afasta ninguém nem prova que a personagem parou de praticar, e a contagem de horas não tira capacidades que ela já ganhou.
 
 ### O que passa para o ciclo seguinte
 
 **As horas que sobram passam para o ciclo seguinte, mas só por um ciclo.** Se a personagem usar 10 das 28 horas, sobram 18. Elas somam com as 28 novas, e o ciclo seguinte começa com 46. Se essas 18 não forem usadas nele, expiram no fechamento. As horas que vieram do ciclo anterior se chamam **horas antigas**: gaste sempre elas primeiro e anote de que ciclo vieram.
 
-| Ao fechar o ciclo | Ao abrir o seguinte |
+| Ao fechar o ciclo | No começo do seguinte |
 |---|---|
 | Usou as 28 horas novas | 28 novas |
 | Sobraram 10 novas | 28 novas + 10 antigas = 38 |
 | Sobraram as 28 novas | 28 novas + 28 antigas = 56 |
 
-Horas antigas que não forem usadas expiram no fechamento: não passam de novo e não viram um estoque sem limite. Por isso, num ciclo de sete dias, ninguém abre com mais de **56 horas**.
+Horas antigas que não forem usadas expiram no fechamento: não passam de novo e não viram um estoque sem limite. Por isso, num ciclo de sete dias, ninguém começa com mais de **56 horas**.
 
-**Exemplo:** Rina abre com 10 horas antigas e 28 novas. Trabalha 20 horas, gastando primeiro as 10 antigas e depois 10 novas. Sobram 18 novas, que passam para o ciclo seguinte. Se ela abrisse com 18 antigas e trabalhasse só 12, sobrariam 6 antigas, que expiram, e as 28 novas, que passam.
+**Exemplo:** Rina começa o ciclo com 10 horas antigas e 28 novas. Trabalha 20 horas, gastando primeiro as 10 antigas e depois 10 novas. Sobram 18 novas, que passam para o ciclo seguinte. Se ela começasse com 18 antigas e trabalhasse só 12, sobrariam 6 antigas, que expiram, e as 28 novas, que passam.
 
 O trabalho já feito fica no projeto. Ele não expira junto com as horas e não volta a ser hora livre. A [folha de dedicação](<consultas/40-registro-de-dedicacao-por-ficha.md>) mostra Rina e Mei em três ciclos, com uma ficha entrando no meio do ciclo e um trabalho esperando conferência.
 
@@ -100,7 +108,7 @@ Alguns trabalhos só valem depois da **conferência**: o responsável indicado p
 
 Horas reservadas não podem pagar outro projeto nem passar para o ciclo seguinte como horas livres. O resultado de um trabalho que espera conferência ainda não pode ser usado.
 
-**Exemplo:** Mei fecha o ciclo com 10 horas confirmadas, 8 reservadas e 10 livres: total 28. As 10 livres passam, e ela abre o ciclo seguinte com 38 (28 novas e 10 antigas). As 8 reservadas continuam anotadas no registro do ciclo em que foram usadas. Quando forem confirmadas, só mudam de grupo; ninguém ganha horas com isso. Se a conferência liberar parte dessas horas, mantenha anotado de que ciclo elas vieram e até quando valem.
+**Exemplo:** Mei fecha o ciclo com 10 horas confirmadas, 8 reservadas e 10 livres: total 28. As 10 livres passam, e ela começa o ciclo seguinte com 38 (28 novas e 10 antigas). As 8 reservadas continuam anotadas no registro do ciclo em que foram usadas. Quando forem confirmadas, só mudam de grupo; ninguém ganha horas com isso. Se a conferência liberar parte dessas horas, mantenha anotado de que ciclo elas vieram e até quando valem.
 
 Tempo de mesa e tempo da história são diferentes. Uma missão jogada em três sessões pode durar uma noite na história. Uma missão que dura dias na história pode impedir a personagem de ir à oficina. Antes de confirmar um trabalho, anote quanto tempo passou na história e do que ele dependia. Um item fabricado depois de uma missão não pode ter sido usado nela. Diga até quando os registros devem ser enviados. O jogador pode mandar várias atividades de uma vez, sem postar todo dia, mas isso não muda o que já aconteceu.
 

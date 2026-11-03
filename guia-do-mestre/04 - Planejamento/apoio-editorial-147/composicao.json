@@ -1,7 +1,7 @@
 {
   "registro": 147,
   "pdf": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf",
-  "sha256_pdf": "f7581f64fe6655e08af221d00b42e664ddae817863454b15483c8ee26302db98",
+  "sha256_pdf": "b6a2f16cfcc2569e27c7756f281857d720829700ba0305a7d069b3e3a7a591af",
   "paginas": 388,
   "destinos": {
     "sumario": 2,
@@ -247,13 +247,13 @@
     "d008--descansar-e-se-recuperar": 58,
     "d008--82-tempo-para-as-atividades": 59,
     "d008--o-ciclo-da-guilda": 59,
-    "d008--entrada-retorno-e-afastamento": 59,
+    "d008--entrada-retorno-e-afastamento": 60,
     "d008--o-que-passa-para-o-ciclo-seguinte": 60,
-    "d008--trabalho-ainda-em-conferencia": 60,
+    "d008--trabalho-ainda-em-conferencia": 61,
     "d008--outro-ciclo-ou-campanha-fechada": 61,
     "d008--83-oficios-fabricacao-e-reparos": 61,
-    "d008--combinar-o-trabalho": 61,
-    "d008--planejar-o-projeto": 61,
+    "d008--combinar-o-trabalho": 62,
+    "d008--planejar-o-projeto": 62,
     "d008--o-traje-de-rina": 62,
     "d008--84-comprar-emprestar-e-contratar": 62,
     "d008--repor-e-emprestar": 63,
@@ -1141,7 +1141,7 @@
       "pagina": "capitulo-08.html",
       "titulo": "Entre missões",
       "parte": "Ferramentas de Ciclo Maldito",
-      "sha256": "ce016a6821591d648d7d2f0791aefa30ab77614e356b6a9e14424296093f5b3c",
+      "sha256": "d6c9e2b57d58e26f75343f0980f95e364a6f5dd7b669cd02bf146e065eb63b02",
       "key": "d008"
     },
     {
@@ -1293,7 +1293,7 @@
       "pagina": "consulta-40-registro-de-dedicacao-por-ficha.html",
       "titulo": "Registro de dedicação por ficha",
       "parte": "Apêndice A",
-      "sha256": "a6017afb8f906d2fd5d54838b68491c5f9fa6746fef8f8d46e7899573d96dda5",
+      "sha256": "5a355dc6a2b838cf5a51886138858239ebe98db210218340c9374daab55490b3",
       "key": "d027"
     },
     {
@@ -12820,48 +12820,81 @@
       "texto": "Toda ficha liberada recebe suas horas, sem precisar de um mínimo de missões ou postagens. Mesmo assim, para trabalhar ela precisa dos conhecimentos, dos meios, das condições física"
     },
     {
-      "pagina": 59,
+      "pagina": 60,
       "tipo": "h3",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--entrada-retorno-e-afastamento",
-      "x": 307.56,
-      "y_top": 152.89,
+      "x": 53.86,
+      "y_top": 776.69,
       "largura": 233.86,
       "altura": 16,
       "texto": "Entrada, retorno e afastamento"
     },
     {
-      "pagina": 59,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 132.89,
-      "largura": 233.86,
-      "altura": 26.4,
-      "texto": "Esta parte trata da ficha que entra no meio do ciclo, da que se afasta e da que volta."
-    },
-    {
       "pagina": 60,
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
-      "largura": 233.86,
-      "altura": 118.8,
-      "texto": "Ficha que entra no meio do ciclo. Ela recebe quatro horas por dia que ainda falta, contando o dia da entrada, e não as 28 cheias. Uma ficha liberada no quinto dia recebe 3 × 4 = 12"
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 53.86,
-      "y_top": 654.89,
+      "y_top": 756.69,
       "largura": 233.86,
       "altura": 79.2,
-      "texto": "Ficha afastada. O afastamento formal é uma pausa registrada da ficha. A partir do ciclo seguinte ao afastamento, ela para de receber horas novas. As horas que ela já tinha continua"
+      "texto": "Nem toda ficha passa o ciclo inteiro em jogo. Algumas entram no meio, outras param por um tempo e depois voltam. As horas delas seguem uma regra só: quatro horas para cada dia em q"
+    },
+    {
+      "pagina": 60,
+      "tipo": "table",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 668.49,
+      "largura": 487.56,
+      "altura": 82.0,
+      "texto": "Entrou ou voltou no dia | Dias que contam | Horas no ciclo"
+    },
+    {
+      "pagina": 60,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 577.49,
+      "largura": 233.86,
+      "altura": 26.4,
+      "texto": "O dia da entrada sempre conta, e a ficha só pode trabalhar a partir dele."
+    },
+    {
+      "pagina": 60,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 548.09,
+      "largura": 233.86,
+      "altura": 39.6,
+      "texto": "Ficha nova. Começa do zero: não fica com horas nem com projetos de outra ficha, mesmo que seja do mesmo jogador."
+    },
+    {
+      "pagina": 60,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 505.49,
+      "largura": 233.86,
+      "altura": 66.0,
+      "texto": "Ficha afastada. O afastamento formal é uma pausa registrada da ficha. A partir do ciclo seguinte, ela deixa de receber horas novas. As que ela já tinha continuam valendo até expira"
+    },
+    {
+      "pagina": 60,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 436.49,
+      "largura": 233.86,
+      "altura": 92.4,
+      "texto": "Ficha que volta. Vale tanto para a que estava afastada quanto para uma ficha antiga que foi reaberta. Ela continua com o que tinha e recebe horas pela tabela, a partir do dia da vo"
     },
     {
       "pagina": 60,
@@ -12869,21 +12902,10 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 776.69,
+      "y_top": 577.49,
       "largura": 233.86,
-      "altura": 66.0,
-      "texto": "Ficha que volta. Recebe quatro horas por dia que falta no ciclo, como a ficha que entra. O tempo afastada não dá horas. Horas que sobraram de antes só podem ser usadas se ainda não"
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 707.69,
-      "largura": 233.86,
-      "altura": 66.0,
-      "texto": "Anote quais fichas estão afastadas. Ficar sem postar não afasta a ficha automaticamente nem prova que a personagem parou de praticar. A contagem de horas também não tira capacidade"
+      "altura": 52.8,
+      "texto": "Anote quais fichas estão afastadas. Ficar sem postar não afasta ninguém nem prova que a personagem parou de praticar, e a contagem de horas não tira capacidades que ela já ganhou."
     },
     {
       "pagina": 60,
@@ -12891,7 +12913,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--o-que-passa-para-o-ciclo-seguinte",
       "x": 307.56,
-      "y_top": 633.69,
+      "y_top": 516.69,
       "largura": 233.86,
       "altura": 16,
       "texto": "O que passa para o ciclo seguinte"
@@ -12902,7 +12924,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 613.69,
+      "y_top": 496.69,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "As horas que sobram passam para o ciclo seguinte, mas só por um ciclo. Se a personagem usar 10 das 28 horas, sobram 18. Elas somam com as 28 novas, e o ciclo seguinte começa com 46"
@@ -12913,10 +12935,10 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 499.09,
+      "y_top": 335.09,
       "largura": 487.56,
       "altura": 82.0,
-      "texto": "Ao fechar o ciclo | Ao abrir o seguinte"
+      "texto": "Ao fechar o ciclo | No começo do seguinte"
     },
     {
       "pagina": 60,
@@ -12924,10 +12946,10 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 408.09,
-      "largura": 233.86,
-      "altura": 52.8,
-      "texto": "Horas antigas que não forem usadas expiram no fechamento: não passam de novo e não viram um estoque sem limite. Por isso, num ciclo de sete dias, ninguém abre com mais de 56 horas."
+      "y_top": 244.09,
+      "largura": 487.56,
+      "altura": 26.4,
+      "texto": "Horas antigas que não forem usadas expiram no fechamento: não passam de novo e não viram um estoque sem limite. Por isso, num ciclo de sete dias, ninguém começa com mais de 56 hora"
     },
     {
       "pagina": 60,
@@ -12935,10 +12957,10 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 352.29,
-      "largura": 233.86,
-      "altura": 79.2,
-      "texto": "Exemplo: Rina abre com 10 horas antigas e 28 novas. Trabalha 20 horas, gastando primeiro as 10 antigas e depois 10 novas. Sobram 18 novas, que passam para o ciclo seguinte. Se ela "
+      "y_top": 214.69,
+      "largura": 487.56,
+      "altura": 39.6,
+      "texto": "Exemplo: Rina começa o ciclo com 10 horas antigas e 28 novas. Trabalha 20 horas, gastando primeiro as 10 antigas e depois 10 novas. Sobram 18 novas, que passam para o ciclo seguint"
     },
     {
       "pagina": 60,
@@ -12946,87 +12968,21 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 270.09,
-      "largura": 233.86,
-      "altura": 66.0,
+      "y_top": 172.09,
+      "largura": 487.56,
+      "altura": 39.6,
       "texto": "O trabalho já feito fica no projeto. Ele não expira junto com as horas e não volta a ser hora livre. A folha de dedicação (p. 111) mostra Rina e Mei em três ciclos, com uma ficha e"
     },
     {
-      "pagina": 60,
+      "pagina": 61,
       "tipo": "h3",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--trabalho-ainda-em-conferencia",
       "x": 53.86,
-      "y_top": 196.09,
+      "y_top": 776.69,
       "largura": 233.86,
       "altura": 16,
       "texto": "Trabalho ainda em conferência"
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 53.86,
-      "y_top": 176.09,
-      "largura": 233.86,
-      "altura": 52.8,
-      "texto": "Alguns trabalhos só valem depois da conferência: o responsável indicado pela campanha confere o que foi feito. Enquanto isso, separe as horas da ficha em três grupos:"
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 408.09,
-      "largura": 233.86,
-      "altura": 26.4,
-      "texto": "• Confirmadas: horas de trabalho que já foram conferidas."
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 378.69,
-      "largura": 233.86,
-      "altura": 26.4,
-      "texto": "• Reservadas: horas presas a um trabalho que ainda espera conferência."
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 349.29,
-      "largura": 233.86,
-      "altura": 13.2,
-      "texto": "• Livres: horas que ainda podem ser usadas."
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 333.09,
-      "largura": 233.86,
-      "altura": 52.8,
-      "texto": "Horas reservadas não podem pagar outro projeto nem passar para o ciclo seguinte como horas livres. O resultado de um trabalho que espera conferência ainda não pode ser usado."
-    },
-    {
-      "pagina": 60,
-      "tipo": "body",
-      "fonte_html": "capitulo-08.html",
-      "ancora": null,
-      "x": 307.56,
-      "y_top": 277.29,
-      "largura": 233.86,
-      "altura": 118.8,
-      "texto": "Exemplo: Mei fecha o ciclo com 10 horas confirmadas, 8 reservadas e 10 livres: total 28. As 10 livres passam, e ela abre o ciclo seguinte com 38 (28 novas e 10 antigas). As 8 reser"
     },
     {
       "pagina": 61,
@@ -13034,7 +12990,73 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
+      "y_top": 756.69,
+      "largura": 233.86,
+      "altura": 52.8,
+      "texto": "Alguns trabalhos só valem depois da conferência: o responsável indicado pela campanha confere o que foi feito. Enquanto isso, separe as horas da ficha em três grupos:"
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 700.89,
+      "largura": 233.86,
+      "altura": 26.4,
+      "texto": "• Confirmadas: horas de trabalho que já foram conferidas."
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 671.49,
+      "largura": 233.86,
+      "altura": 26.4,
+      "texto": "• Reservadas: horas presas a um trabalho que ainda espera conferência."
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 642.09,
+      "largura": 233.86,
+      "altura": 13.2,
+      "texto": "• Livres: horas que ainda podem ser usadas."
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 625.89,
+      "largura": 233.86,
+      "altura": 52.8,
+      "texto": "Horas reservadas não podem pagar outro projeto nem passar para o ciclo seguinte como horas livres. O resultado de um trabalho que espera conferência ainda não pode ser usado."
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 570.09,
+      "largura": 233.86,
+      "altura": 118.8,
+      "texto": "Exemplo: Mei fecha o ciclo com 10 horas confirmadas, 8 reservadas e 10 livres: total 28. As 10 livres passam, e ela começa o ciclo seguinte com 38 (28 novas e 10 antigas). As 8 res"
+    },
+    {
+      "pagina": 61,
+      "tipo": "body",
+      "fonte_html": "capitulo-08.html",
+      "ancora": null,
+      "x": 53.86,
+      "y_top": 448.29,
       "largura": 233.86,
       "altura": 145.2,
       "texto": "Tempo de mesa e tempo da história são diferentes. Uma missão jogada em três sessões pode durar uma noite na história. Uma missão que dura dias na história pode impedir a personagem"
@@ -13045,7 +13067,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--outro-ciclo-ou-campanha-fechada",
       "x": 53.86,
-      "y_top": 623.49,
+      "y_top": 295.09,
       "largura": 233.86,
       "altura": 16,
       "texto": "Outro ciclo ou campanha fechada"
@@ -13056,7 +13078,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 603.49,
+      "y_top": 275.09,
       "largura": 233.86,
       "altura": 158.4,
       "texto": "Num ciclo de outro tamanho, mantenha o ritmo de quatro horas por dia de calendário. Um ciclo de 14 dias dá 56 horas novas; um de 15 dá 60. As horas que passam para o ciclo seguinte"
@@ -13066,8 +13088,8 @@
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
-      "x": 53.86,
-      "y_top": 442.09,
+      "x": 307.56,
+      "y_top": 776.69,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Na campanha fechada, com um grupo fixo, comece pelo tempo da história: quantas tardes ou dias existem de verdade antes do próximo compromisso? Distribua o trabalho que cabe nesse t"
@@ -13078,7 +13100,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 776.69,
+      "y_top": 694.49,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Praticar algo que a personagem já sabe, estudar ou procurar uma professora pode render cenas e cumprir requisitos que o Livro de Regras pede. Isso não dá treino, XP ou bônus automa"
@@ -13089,7 +13111,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--83-oficios-fabricacao-e-reparos",
       "x": 307.56,
-      "y_top": 674.29,
+      "y_top": 592.09,
       "largura": 233.86,
       "altura": 18,
       "texto": "8.3 Ofícios, fabricação e reparos"
@@ -13100,7 +13122,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 651.29,
+      "y_top": 569.09,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Pergunte pelo resultado: “Quero substituir a dobradiça para fechar a caixa” diz mais que “Vou usar Forja”. Escolha o Ofício pelo trabalho. Copiar um traço usa Caligrafia; entender "
@@ -13111,7 +13133,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 542.69,
+      "y_top": 460.49,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Ter treino num Ofício permite fazer os trabalhos que a personagem aprendeu, desde que tenha materiais, ferramentas e acesso. O treino não dá a oficina nem a receita que ela não tem"
@@ -13122,7 +13144,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 434.09,
+      "y_top": 351.89,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "No teste com treino, role o d20 e some atributo da tarefa + Maestria. Use o atributo padrão do Ofício; se a tarefa pedir outro, avise antes da rolagem. Essa troca de atributo vale "
@@ -13133,40 +13155,40 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 365.09,
+      "y_top": 282.89,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Rina tem Arrombamento, Destreza 4, Inteligência 2 e Maestria 1. Mexer na tranca mecânica dá +5; analisar o mecanismo eletrônico, com os meios certos, pode dar +3. Contra CD 14, ela"
     },
     {
-      "pagina": 61,
+      "pagina": 62,
       "tipo": "anchor",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--combinar-o-trabalho",
       "x": 53.86,
-      "y_top": 282.89,
+      "y_top": 776.69,
       "largura": 487.56,
       "altura": 0,
       "texto": ""
     },
     {
-      "pagina": 61,
+      "pagina": 62,
       "tipo": "h3",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--planejar-o-projeto",
       "x": 53.86,
-      "y_top": 277.89,
+      "y_top": 771.69,
       "largura": 487.56,
       "altura": 16,
       "texto": "Planejar o projeto"
     },
     {
-      "pagina": 61,
+      "pagina": 62,
       "tipo": "table",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 251.89,
+      "y_top": 745.69,
       "largura": 487.56,
       "altura": 123.0,
       "texto": "Parte do projeto | O que combinar antes de gastar"
@@ -13177,7 +13199,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
+      "y_top": 613.69,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "O preço de compra não define quanto custa fabricar. Combine o orçamento, sem desconto fixo e sem lucro garantido. Se não houver referência de prazo, compare com um projeto parecido"
@@ -13188,7 +13210,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 668.09,
+      "y_top": 505.09,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Trabalho de rotina, com os meios certos e sem risco relevante, fica pronto quando o projeto é cumprido. Quando houver incerteza, um teste resolve um obstáculo que você anunciou. Nã"
@@ -13199,7 +13221,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 572.69,
+      "y_top": 409.69,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Na falha, aplique o risco que foi anunciado. Atraso, perda de consumível e repetição de uma etapa são consequências diferentes; nenhuma delas destrói todo o estoque automaticamente"
@@ -13210,7 +13232,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--o-traje-de-rina",
       "x": 53.86,
-      "y_top": 459.09,
+      "y_top": 296.09,
       "largura": 233.86,
       "altura": 16,
       "texto": "O Traje de Rina"
@@ -13221,7 +13243,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 439.09,
+      "y_top": 276.09,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "O reparo publicado pede Alfaiate, ferramentas, tecido e fechos de ¥3.000, com quatro horas de trabalho. Devolve a função que o Traje tinha, sem aumentar a proteção. É rotina sem ri"
@@ -13232,7 +13254,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 776.69,
+      "y_top": 613.69,
       "largura": 233.86,
       "altura": 118.8,
       "texto": "Rina trabalha duas horas e para. A peça e os materiais ficam guardados; faltam duas horas. Quando ela voltar, confira se ainda tem o que precisa e conclua o resto. O projeto inteir"
@@ -13243,7 +13265,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 654.89,
+      "y_top": 491.89,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Ter ajuda não corta o prazo pela metade automaticamente. Anote quem faz cada parte e se dá para trabalhar ao mesmo tempo. Use Ajudar quando os requisitos dela forem cumpridos e hou"
@@ -13254,7 +13276,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 546.29,
+      "y_top": 383.29,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Reparo devolve a função combinada. Para melhorar uma peça, avalie primeiro que mudança é permitida; a melhoria é outro projeto. Um remendo provisório precisa dizer quanto dura e o "
@@ -13265,7 +13287,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 450.89,
+      "y_top": 287.89,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "Um corpo tem regras próprias de tratamento. O reparo de Ena (p. 276) usa a Origem de Corpo Amaldiçoado, não uma regra geral que transforma PV em horas. Confira separadamente o aten"
@@ -13276,7 +13298,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--84-comprar-emprestar-e-contratar",
       "x": 307.56,
-      "y_top": 374.89,
+      "y_top": 211.89,
       "largura": 233.86,
       "altura": 36,
       "texto": "8.4 Comprar, emprestar e contratar"
@@ -13287,18 +13309,18 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 333.89,
+      "y_top": 170.89,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "Antes de descontar o dinheiro, confira preço, acesso e uso. Ter dinheiro não garante quem venda nem autorização para comprar. E ter a peça não dispensa os requisitos de treino, For"
     },
     {
-      "pagina": 62,
+      "pagina": 63,
       "tipo": "table",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 258.89,
+      "y_top": 770.69,
       "largura": 487.56,
       "altura": 82.0,
       "texto": "Equipamento | Acesso publicado"
@@ -13309,7 +13331,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
+      "y_top": 679.69,
       "largura": 233.86,
       "altura": 290.0,
       "texto": "Posição e equipamento participam das decisões. Gege Akutami / Shueisha, Jujutsu Kaisen, cap. 47."
@@ -13320,7 +13342,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 474.69,
+      "y_top": 377.69,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Lembre que o número menor é a patente maior: Grau 1 está acima de Grau 2. Combine a autorização de arma de fogo antes da compra e anote o que ela cobre. Uma autorização comum não v"
@@ -13331,7 +13353,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 379.29,
+      "y_top": 282.29,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Na criação padrão, a ficha recebe Traje 1 e ¥150.000. Comprar Traje 2 por ¥90.000 e Katana por ¥48.000 deixa ¥12.000. O Traje 1 que ela já tinha precisa ir para algum lugar; se for"
@@ -13341,8 +13363,8 @@
       "tipo": "h3",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--repor-e-emprestar",
-      "x": 53.86,
-      "y_top": 265.69,
+      "x": 307.56,
+      "y_top": 679.69,
       "largura": 233.86,
       "altura": 16,
       "texto": "Repor e emprestar"
@@ -13352,8 +13374,8 @@
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
-      "x": 53.86,
-      "y_top": 245.69,
+      "x": 307.56,
+      "y_top": 659.69,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Anote munição, alimento, pilhas e cargas gastas. Uma lanterna com oito horas, usada por três, fica com cinco; mudar de cena não a recarrega. Três carregadores de Rifle, lanterna e "
@@ -13364,7 +13386,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 776.69,
+      "y_top": 551.09,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Quando uma peça passa de uma ficha para outra, atualize os dois inventários. Anote de quem ela é, quem está com ela, em que estado está, usos, consumíveis e quando volta. Ela não f"
@@ -13375,7 +13397,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 668.09,
+      "y_top": 442.49,
       "largura": 233.86,
       "altura": 132.0,
       "texto": "Cofre da Família é uma capacidade do Descendente Zenin, não a regra de todo arsenal. Permite retirar uma ferramenta por vez, até o grau que a patente reconhecida permitir, no máxim"
@@ -13386,7 +13408,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 533.09,
+      "y_top": 307.49,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "No empréstimo de Kenji (p. 312), nível 7 e Grau 3 permitem retirar a Kunai Fiel de grau 3 pela capacidade escolhida. O nível não libera retirar uma ferramenta de grau 2. Ele anota "
@@ -13397,7 +13419,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--servico-e-negociacao",
       "x": 307.56,
-      "y_top": 459.09,
+      "y_top": 233.49,
       "largura": 233.86,
       "altura": 16,
       "texto": "Serviço e negociação"
@@ -13408,29 +13430,29 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 439.09,
+      "y_top": 213.49,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Combine entrega, o que está incluído, prazo e preço. Um contrato pode incluir trabalho e material ou só o trabalho: deixe claro qual, para não cobrar duas vezes. Se aparecer outro "
     },
     {
-      "pagina": 63,
+      "pagina": 64,
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
-      "x": 307.56,
-      "y_top": 356.89,
+      "x": 53.86,
+      "y_top": 776.69,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "O catálogo não garante quem compre nem por quanto revender. Um teste social resolve uma negociação que você anunciou como possível; ele não cria dinheiro nem dispensa autorização. "
     },
     {
-      "pagina": 63,
+      "pagina": 64,
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
-      "x": 307.56,
-      "y_top": 274.69,
+      "x": 53.86,
+      "y_top": 694.49,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Palavra Empenhada, se escolhida e disponível, funciona uma vez por descanso longo, depois de falhar em Persuasão numa negociação possível. O mestre propõe uma condição concreta; o "
@@ -13441,7 +13463,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
+      "y_top": 599.09,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "No caso de Kenji, duas horas de instrução e a entrega no prazo fecham a venda do anel por ¥24.000. A peça custou ¥38.000: ele vendeu por ¥14.000 a menos, sem lucro. Kenji tinha ¥2."
@@ -13451,8 +13473,8 @@
       "tipo": "h2",
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--85-ferramentas-e-objetos-amaldicoados",
-      "x": 53.86,
-      "y_top": 674.29,
+      "x": 307.56,
+      "y_top": 776.69,
       "largura": 233.86,
       "altura": 36,
       "texto": "8.5 Ferramentas e objetos amaldiçoados"
@@ -13462,8 +13484,8 @@
       "tipo": "body",
       "fonte_html": "capitulo-08.html",
       "ancora": null,
-      "x": 53.86,
-      "y_top": 633.29,
+      "x": 307.56,
+      "y_top": 735.69,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Uma ferramenta é um equipamento com energia própria; até quem não tem energia amaldiçoada consegue usar. Um objeto amaldiçoado pode continuar perigoso mesmo guardado. Prepare cada "
@@ -13474,7 +13496,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--entregar-uma-ferramenta",
       "x": 307.56,
-      "y_top": 776.69,
+      "y_top": 648.49,
       "largura": 233.86,
       "altura": 16,
       "texto": "Entregar uma ferramenta"
@@ -13485,7 +13507,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 756.69,
+      "y_top": 628.49,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Entregue a ficha com base, grau, efeito, requisitos, Volume e usos. O grau não acrescenta automaticamente ataque, dano ou proteção. Um Traje 1 de grau 2 continua dando a proteção d"
@@ -13496,7 +13518,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 545.09,
+      "y_top": 497.69,
       "largura": 487.56,
       "altura": 102.5,
       "texto": "Grau | Nível mínimo do efeito"
@@ -13507,7 +13529,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 433.59,
+      "y_top": 386.19,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Se a personagem ainda não tem o nível mínimo, a base continua funcionando normalmente, sem o efeito; o Desgaste pode liberar o efeito antes, conforme a ficha. Patente não substitui"
@@ -13518,7 +13540,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 338.19,
+      "y_top": 290.79,
       "largura": 233.86,
       "altura": 132.0,
       "texto": "Confira quantas mãos as armas e os escudos pedem. A personagem pode vestir até dois itens com efeito especial, e no máximo um deles pode ser vestimenta: roupa, Traje ou Revestiment"
@@ -13529,7 +13551,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 433.59,
+      "y_top": 386.19,
       "largura": 233.86,
       "altura": 118.8,
       "texto": "Ferramentas não precisam de sintonização, de descanso para identificar nem de um custo geral de PE para funcionar. A ficha diz quantos usos ela tem. Os usos ficam com a peça. Cópia"
@@ -13540,7 +13562,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": "d008--descobrir-e-fabricar",
       "x": 307.56,
-      "y_top": 306.79,
+      "y_top": 259.39,
       "largura": 233.86,
       "altura": 16,
       "texto": "Descobrir e fabricar"
@@ -13551,7 +13573,7 @@
       "fonte_html": "capitulo-08.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 286.79,
+      "y_top": 239.39,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Uma peça conhecida chega com ficha. Uma desconhecida pode ser examinada, pesquisada ou mostrada a alguém que a conheça. Separe pista de confirmação: perceber energia não revela tud"
@@ -15435,7 +15457,7 @@
       "y_top": 166.49,
       "largura": 233.86,
       "altura": 66.0,
-      "texto": "Separe horas confirmadas, reservadas e livres (p. 60), sem contar duas vezes. Use a folha de dedicação (p. 111) e guarde o progresso no projeto. Entrada, afastamento, retorno e mud"
+      "texto": "Separe horas confirmadas, reservadas e livres (p. 61), sem contar duas vezes. Use a folha de dedicação (p. 111) e guarde o progresso no projeto. Entrada, afastamento, retorno e mud"
     },
     {
       "pagina": 78,
@@ -21672,7 +21694,7 @@
       "y_top": 605.69,
       "largura": 233.86,
       "altura": 66.0,
-      "texto": "Rina abre o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar as horas de Mei. Na abertura do quarto ciclo, cada uma p"
+      "texto": "Rina começa o segundo ciclo com 38 horas; Mei, com 28. A diferença vem dos registros de cada personagem. Rina não pode gastar as horas de Mei. Na abertura do quarto ciclo, cada uma"
     },
     {
       "pagina": 112,

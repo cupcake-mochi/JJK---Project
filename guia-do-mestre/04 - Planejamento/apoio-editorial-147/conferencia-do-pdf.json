@@ -1,10 +1,10 @@
 {
   "registro": 147,
   "pdf": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf",
-  "sha256_pdf": "f7581f64fe6655e08af221d00b42e664ddae817863454b15483c8ee26302db98",
+  "sha256_pdf": "b6a2f16cfcc2569e27c7756f281857d720829700ba0305a7d069b3e3a7a591af",
   "paginas": 388,
   "fontes_textuais_preservadas": 99,
-  "ligacoes": 2588,
+  "ligacoes": 2589,
   "ligacoes_externas": 22,
   "marcadores": 100,
   "sobreposicoes_de_blocos": [],
@@ -1169,38 +1169,38 @@
     },
     {
       "pagina": 59,
-      "ocupacao_aproximada": 0.871,
-      "caracteres_extraidos": 3640,
+      "ocupacao_aproximada": 0.841,
+      "caracteres_extraidos": 3522,
       "titulo": "8.2 Tempo para as atividades"
     },
     {
       "pagina": 60,
-      "ocupacao_aproximada": 0.791,
-      "caracteres_extraidos": 3484,
+      "ocupacao_aproximada": 0.741,
+      "caracteres_extraidos": 2685,
       "titulo": null
     },
     {
       "pagina": 61,
-      "ocupacao_aproximada": 0.811,
-      "caracteres_extraidos": 3469,
+      "ocupacao_aproximada": 0.823,
+      "caracteres_extraidos": 4050,
       "titulo": "8.3 Ofícios, fabricação e reparos"
     },
     {
       "pagina": 62,
-      "ocupacao_aproximada": 0.731,
-      "caracteres_extraidos": 3003,
+      "ocupacao_aproximada": 0.815,
+      "caracteres_extraidos": 3235,
       "titulo": "8.4 Comprar, emprestar e contratar"
     },
     {
       "pagina": 63,
-      "ocupacao_aproximada": 0.829,
-      "caracteres_extraidos": 3097,
+      "ocupacao_aproximada": 0.828,
+      "caracteres_extraidos": 2719,
       "titulo": null
     },
     {
       "pagina": 64,
-      "ocupacao_aproximada": 0.68,
-      "caracteres_extraidos": 2585,
+      "ocupacao_aproximada": 0.8,
+      "caracteres_extraidos": 3126,
       "titulo": "8.5 Ferramentas e objetos amaldiçoados"
     },
     {
@@ -1488,7 +1488,7 @@
     {
       "pagina": 112,
       "ocupacao_aproximada": 0.541,
-      "caracteres_extraidos": 1847,
+      "caracteres_extraidos": 1849,
       "titulo": "Exemplo de entrada proporcional"
     },
     {
