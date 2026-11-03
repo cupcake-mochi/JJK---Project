@@ -51,7 +51,7 @@ Ao criar outro CE4 ou outra condição, explique com a mesma precisão o que mud
 
 Os preparos abaixo são exemplos ficcionais de atendimento. Não são instruções clínicas nem listas universais de materiais. Registre com o jogador o que a ficha precisa, quem consegue prestar a assistência e como isso acompanha a campanha.
 
-| Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o lugar propício |
+| Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o ambiente propício |
 |---|---|---|
 | Corpo Debilitado | Abrigo protegido; cobertura opaca sobre toda a pele exposta; suporte para acomodação e transporte; materiais e assistência combinados na ficha | A luz solar ou lunar realmente alcança a pele? Há meios de assistência nas tarefas que a personagem não consegue realizar? |
 | Corpo Quebradiço | Apoio que acomoda o corpo sem exigir que sustente o próprio peso; materiais de atendimento; transporte; profissional treinado em Medicina ou autocuidado quando viável | Quem presta o atendimento? A personagem alcança os materiais se for cuidar de si? O apoio permanece durante a pausa? |

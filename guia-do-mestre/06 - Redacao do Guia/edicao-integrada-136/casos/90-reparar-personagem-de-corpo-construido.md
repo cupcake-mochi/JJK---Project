@@ -34,7 +34,7 @@ Foi **uma tentativa com uma repetição**, não dois reparos. Se a segunda rolag
 
 O atendimento ocupa o trabalho de Tiago durante o descanso curto. Ena pode receber o reparo enquanto descansa, conforme a regra específica. Não prometa ao reparador que trabalhar e repousar produzirão automaticamente todos os mesmos benefícios: confira a atividade e os requisitos do descanso antes de anotar a recuperação dele.
 
-Existência Artificial permite a Ena considerar qualquer local propício para seus descansos. Ainda é necessário poder parar em segurança no curto ou ter encerrado a missão e poder repousar no longo. Sua condição não torna o abrigo propício para os demais nem fornece ferramentas e materiais.
+Existência Artificial permite a Ena considerar qualquer local um ambiente propício para seus descansos. Ainda é necessário poder parar em segurança no curto ou ter encerrado a missão e poder repousar no longo. Sua condição não torna o abrigo propício para os demais nem fornece ferramentas e materiais.
 
 Se Ena fizer o próprio reparo, precisa poder agir, ter treino no Ofício registrado e conseguir alcançar as peças com as ferramentas necessárias. Use a permissão específica de Reparo do corpo durante o descanso curto; isso não autoriza fabricar objetos enquanto descansa.
 

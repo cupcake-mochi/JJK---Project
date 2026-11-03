@@ -1,7 +1,7 @@
 {
   "registro": 147,
   "pdf": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf",
-  "sha256_pdf": "b6a2f16cfcc2569e27c7756f281857d720829700ba0305a7d069b3e3a7a591af",
+  "sha256_pdf": "0bd8f03ad81319178a4ec1053e08fb510c637936f0285f4d9c990bd591bb87ba",
   "paginas": 388,
   "fontes_textuais_preservadas": 99,
   "ligacoes": 2589,
@@ -353,9 +353,7 @@
         165,
         169
       ],
-      "palavras_ausentes": {
-        "deslocamento": 1
-      }
+      "palavras_ausentes": {}
     },
     {
       "pagina_html": "caso-59-recursos-e-ritmo-dos-inimigos.html",
@@ -806,18 +804,7 @@
       "palavras_ausentes": {}
     }
   ],
-  "diferencas_de_extracao_a_examinar": [
-    {
-      "pagina_html": "caso-14-tres-maldicoes-para-a-missao.html",
-      "intervalo_pdf": [
-        165,
-        169
-      ],
-      "palavras_ausentes": {
-        "deslocamento": 1
-      }
-    }
-  ],
+  "diferencas_de_extracao_a_examinar": [],
   "paginas_para_revisao": [
     {
       "pagina": 1,
@@ -1811,14 +1798,14 @@
     },
     {
       "pagina": 166,
-      "ocupacao_aproximada": 0.835,
-      "caracteres_extraidos": 3164,
+      "ocupacao_aproximada": 0.875,
+      "caracteres_extraidos": 3389,
       "titulo": "Regras comuns das três fichas"
     },
     {
       "pagina": 167,
-      "ocupacao_aproximada": 0.785,
-      "caracteres_extraidos": 3246,
+      "ocupacao_aproximada": 0.738,
+      "caracteres_extraidos": 3020,
       "titulo": "Amontoado do depósito"
     },
     {
@@ -2477,8 +2464,8 @@
     },
     {
       "pagina": 277,
-      "ocupacao_aproximada": 0.78,
-      "caracteres_extraidos": 3154,
+      "ocupacao_aproximada": 0.789,
+      "caracteres_extraidos": 3166,
       "titulo": "O atendimento de Ena"
     },
     {
@@ -2495,14 +2482,14 @@
     },
     {
       "pagina": 280,
-      "ocupacao_aproximada": 0.794,
-      "caracteres_extraidos": 3591,
+      "ocupacao_aproximada": 0.812,
+      "caracteres_extraidos": 3594,
       "titulo": "O corpo continua presente na história"
     },
     {
       "pagina": 281,
-      "ocupacao_aproximada": 0.822,
-      "caracteres_extraidos": 3630,
+      "ocupacao_aproximada": 0.841,
+      "caracteres_extraidos": 3633,
       "titulo": "Cuidados com cada condição"
     },
     {

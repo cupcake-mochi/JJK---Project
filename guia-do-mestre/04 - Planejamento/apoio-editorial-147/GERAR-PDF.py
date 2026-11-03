@@ -91,6 +91,7 @@ class Vector(Flowable):
  def wrap(self,w,h):return self.width,self.height
  def draw(self):
   self.canv.saveState();self.canv.translate((AW-self.drawing.width*self.scale)/2,0);self.canv.scale(self.scale,self.scale);renderPDF.draw(self.drawing,self.canv,0,0);self.canv.restoreState()
+WIDENED=set()
 def table(node,source):
  rows=[tr.find_all(['td','th'],recursive=False) for tr in node.find_all('tr')];rows=[x for x in rows if x];n=max(map(len,rows));assert all(len(x)==n for x in rows)
  weights=[]
@@ -99,6 +100,11 @@ def table(node,source):
  if n==2:
   first=max(.24,min(.46,weights[0]/sum(weights)));fractions=[first,1-first]
  else:fractions=[x/sum(weights) for x in weights]
+ # Nenhuma coluna fica mais estreita que sua maior palavra: "Deslocamento" quebrava em "Deslocament/o".
+ need=[max(pdfmetrics.stringWidth(w,*(('Head',10.5) if i==0 else ('Body',9.75)))+13 for i,r in enumerate(rows) for w in (r[j].get_text(' ',strip=True).split() or ['']))/AW for j in range(n)]
+ if sum(need)<=1 and any(f<m for f,m in zip(fractions,need)):
+  extra=sum(max(0,m-f) for f,m in zip(fractions,need));slack=sum(max(0,f-m) for f,m in zip(fractions,need))
+  fractions=[m if f<m else f-(f-m)*extra/slack for f,m in zip(fractions,need)];WIDENED.add(source+' | '+rows[0][0].get_text(' ',strip=True))
  data=[[Paragraph(inline(c),styles['headcell' if i==0 else 'cell']) for c in row] for i,row in enumerate(rows)]
  t=Table(data,colWidths=[AW*x for x in fractions],repeatRows=1,hAlign='LEFT',splitByRow=1,splitInRow=1)
  commands=[('BACKGROUND',(0,0),(-1,0),PALE),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),6),('RIGHTPADDING',(0,0),(-1,-1),6),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4),('LINEBELOW',(0,0),(-1,0),.7,ACC),('LINEBELOW',(0,1),(-1,-2),.25,RULE),('LINEBELOW',(0,-1),(-1,-1),.5,ACC)]
@@ -265,6 +271,7 @@ for num,p in enumerate(pages,1):
   x=M+i*nw;c.setStrokeColor(MUTED);c.setLineWidth(.4);c.rect(x,61,nw,17,stroke=1,fill=0);c.setFillColor(MUTED);c.setFont('Head',9);c.drawCentredString(x+nw/2,66,label);c.linkRect('',dest,(x,61,x+nw,78),relative=0,thickness=0)
  c.setFont('Head',8.5);c.setFillColor(MUTED);c.drawString(M,34,'PRÉ-1.0 · EDIÇÃO DE LEITURA');c.setFillColor(ACC);c.drawRightString(W-M,34,str(num));c.showPage()
 c.save()
+print('Tabelas com coluna alargada:',len(WIDENED),sorted(WIDENED),flush=True)
 (A/'composicao.json').write_text(json.dumps({'registro':147,'pdf':OUT.relative_to(R).as_posix(),'sha256_pdf':sha(OUT),'paginas':len(pages),'destinos':PAGEMAP,'fontes':meta['ordem'],'complemento_incluido':meta['complemento_incluido'],'ordem_pdf':[{'pagina_html':r['pagina'],'titulo':r['titulo'],'pagina_pdf':PAGEMAP[r['key']]} for r in order],'geometria':geometry,'medidas':{'pagina':'A4','margem_mm':19,'intervalo_colunas_mm':7,'corpo_pt':10.25,'entrelinha_pt':13.2},'selecao_de_imagens':arts,'preservacao_do_dom':'Texto do DOM sem menus comparado integralmente aos blocos antes da composição, por documento.','limite':'Composição e geometria; inspeção visual é uma etapa separada.'},ensure_ascii=False,indent=2)+'\n')
 (A/'texto-composto.json').write_text(json.dumps(textlog,ensure_ascii=False)+'\n')
 print(OUT,OUT.stat().st_size,flush=True)

@@ -58,7 +58,7 @@ Vale para as próximas passadas. Termo de jogo não entra aqui: ele é definido 
 
 **Termos de jogo que ficam e são definidos onde aparecem:** ambiente propício, dedicação, espera, conferência, afastamento formal, horas novas, horas antigas, Integridade, Sequela, Exaustão, Desgaste, reservas, janela.
 
-**Um nome por coisa:** o Guia usava "lugar propício", "ambiente propício" e "local propício" para a mesma coisa. O Livro usa "ambiente propício" 17 vezes e "lugar propício" 2. O piloto unificou o cap. 8 em **ambiente propício**. Ainda faltam os casos 90 ("local") e 91 ("lugar").
+**Um nome por coisa:** o Guia usava "lugar propício", "ambiente propício" e "local propício" para a mesma coisa. O Livro usa "ambiente propício" 17 vezes e "lugar propício" 2. O piloto unificou o cap. 8 em **ambiente propício**. Os casos 90 e 91 foram unificados depois.
 
 ## Antes e depois
 
@@ -148,7 +148,7 @@ Mochi, 03/11/2026. Ele já tinha lido a versão antiga, então não conta como l
 1. Rodar o teste e anotar as respostas aqui.
 2. Ajustar o piloto e a lista de trocas com o que o teste mostrar.
 3. Passar a lista no resto do Guia, capítulo por capítulo, com a mesma conferência de números, âncoras e links. O "saldo" de montagem de técnica (cap. 7 e casos 30, 31, 53, 94, 99) pede cuidado, porque é parte de uma conta.
-4. Unificar "ambiente propício" nos casos 90 e 91.
+4. ~~Unificar "ambiente propício" nos casos 90 e 91.~~ Feito.
 5. Regerar HTML e PDF quando a passada fechar.
 6. O Livro de Regras tem o mesmo problema. O autor pediu um prompt para analisá-lo em outra sessão.
 7. **Imagens novas nas aberturas (fica com o ChatGPT).** As imagens dos caps. 2, 3 e 8 repetem as do Livro de Regras; o leitor e o autor pedem cenas novas, tiradas do mangá. A seleção fica no dicionário `arts` de `apoio-editorial-147/GERAR-PDF.py`, com os arquivos em `08 - Diagramacao do Guia/imagens/`. Nos caps. 2 e 3 a imagem fica na página de abertura e cresce até ocupar o espaço livre: imagem vertical aproveita melhor. No cap. 8 ela fica dentro da coluna, logo depois da tabela "Equipamento | Acesso publicado". Tema de cada uma: cap. 2, mundo e vida comum; cap. 3, preparo e convivência; cap. 8, equipamento, descanso e rotina. Legenda no padrão atual: "Gege Akutami / Shueisha, Jujutsu Kaisen, cap. X." Depois de trocar, regerar o PDF e rodar `CONFERIR-PDF.py`.

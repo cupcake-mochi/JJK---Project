@@ -1,7 +1,7 @@
 {
   "registro": 147,
   "pdf": "08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf",
-  "sha256_pdf": "b6a2f16cfcc2569e27c7756f281857d720829700ba0305a7d069b3e3a7a591af",
+  "sha256_pdf": "0bd8f03ad81319178a4ec1053e08fb510c637936f0285f4d9c990bd591bb87ba",
   "paginas": 388,
   "destinos": {
     "sumario": 2,
@@ -1629,7 +1629,7 @@
       "pagina": "caso-90-reparar-personagem-de-corpo-construido.html",
       "titulo": "Reparar um personagem de corpo construído",
       "parte": "Apêndice B",
-      "sha256": "7348e2fc3b36f29a666b30b6d691edf828296d6412adb6a06ad154d1b81c40f7",
+      "sha256": "9231cf21975fa0663cc9d69259d3f4ead60f239c14734008043aa8d5145bb0e7",
       "key": "d069"
     },
     {
@@ -1637,7 +1637,7 @@
       "pagina": "caso-91-restricao-corporal-e-cuidados.html",
       "titulo": "Restrição corporal: participação e cuidados",
       "parte": "Apêndice B",
-      "sha256": "133c794afe3a1faadcaf0c3d2d110588a1c608a428f51ed06d04d225e53f8c23",
+      "sha256": "2cb85a5da8a5cb321cb98cfec3839afdfdf7f25ef6248fec4e883cf3cd82c033",
       "key": "d070"
     },
     {
@@ -29613,7 +29613,7 @@
       "x": 53.86,
       "y_top": 313.49,
       "largura": 487.56,
-      "altura": 119.5,
+      "altura": 107.0,
       "texto": "Inimigo | Nível | PV | Integridade | Feitiço e rótulo | Defesa | Bloquear | Deslocamento"
     },
     {
@@ -29622,7 +29622,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": "d042--rastejante",
       "x": 53.86,
-      "y_top": 184.99,
+      "y_top": 197.49,
       "largura": 487.56,
       "altura": 18,
       "texto": "Rastejante"
@@ -29633,20 +29633,20 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 161.99,
+      "y_top": 174.49,
       "largura": 487.56,
       "altura": 26.4,
       "texto": "Um corpo pequeno de papel amassado, com duas pernas, dois braços e mãos articuladas. Procura abrigo e golpeia quem o encurrala."
     },
     {
-      "pagina": 167,
+      "pagina": 166,
       "tipo": "body",
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 776.69,
-      "largura": 233.86,
-      "altura": 66.0,
+      "y_top": 145.09,
+      "largura": 487.56,
+      "altura": 39.6,
       "texto": "Demonstra uma ameaça frágil. Pode ser usado sozinho numa ocorrência menor. Dois exemplares permitem observar o efeito de haver mais turnos inimigos. Não aparece junto do Amontoado "
     },
     {
@@ -29654,7 +29654,7 @@
       "tipo": "body",
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
-      "x": 307.56,
+      "x": 53.86,
       "y_top": 776.69,
       "largura": 233.86,
       "altura": 13.2,
@@ -29666,7 +29666,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 701.69,
+      "y_top": 754.49,
       "largura": 487.56,
       "altura": 41.0,
       "texto": "Força | Destreza | Constituição | Inteligência | Essência"
@@ -29677,7 +29677,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 651.69,
+      "y_top": 704.49,
       "largura": 233.86,
       "altura": 26.4,
       "texto": "TRs: Físico +4; Vigor +1; Intelecto +1; Espírito +2. Físico usa Destreza; o treino é em Físico."
@@ -29688,7 +29688,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 622.29,
+      "y_top": 675.09,
       "largura": 233.86,
       "altura": 39.6,
       "texto": "Perícias treinadas: Acrobacia +4; Atletismo +3; Furtividade +4; Percepção +3. As demais usam somente seu atributo, respeitando requisitos."
@@ -29699,7 +29699,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 579.69,
+      "y_top": 632.49,
       "largura": 233.86,
       "altura": 52.8,
       "texto": "Pancada - Ação Atacar, um ataque corpo a corpo, 1,5 m. Ataque +3. No acerto, 1d4 + 2 de Concussão. Crítico: 2d4 + 2. Sem custo de PE. Não impõe condição."
@@ -29710,7 +29710,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 523.89,
+      "y_top": 576.69,
       "largura": 233.86,
       "altura": 26.4,
       "texto": "Manobras da Ação Atacar: CD 11, substituindo a Pancada, conforme as regras comuns."
@@ -29721,7 +29721,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 494.49,
+      "y_top": 547.29,
       "largura": 233.86,
       "altura": 26.4,
       "texto": "Conjuração: não possui técnica ofensiva. Leitura continua sendo apenas o Talento descrito."
@@ -29732,7 +29732,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": "d042--amontoado-do-deposito",
       "x": 307.56,
-      "y_top": 651.69,
+      "y_top": 704.49,
       "largura": 233.86,
       "altura": 18,
       "texto": "Amontoado do depósito"
@@ -29743,7 +29743,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 628.69,
+      "y_top": 681.49,
       "largura": 233.86,
       "altura": 52.8,
       "texto": "Uma figura de papelões dobrados e fitas, com duas pernas e dois braços terminados em mãos. Acumula caixas no depósito e as empurra com o corpo; os ruídos vêm dessas ações."
@@ -29754,7 +29754,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 572.89,
+      "y_top": 625.69,
       "largura": 233.86,
       "altura": 118.8,
       "texto": "É o inimigo de As batidas no anexo. Primeiro observa a invasão do seu espaço. Quando atacado ou quando alguém tenta desmontar sua pilha, combate a criatura consciente mais próxima;"
@@ -29765,7 +29765,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 451.09,
+      "y_top": 503.89,
       "largura": 233.86,
       "altura": 13.2,
       "texto": "Tamanho: Médio. Iniciativa: d20 + 1."
@@ -29776,7 +29776,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 428.89,
+      "y_top": 481.69,
       "largura": 487.56,
       "altura": 41.0,
       "texto": "Força | Destreza | Constituição | Inteligência | Essência"
@@ -29787,7 +29787,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 378.89,
+      "y_top": 431.69,
       "largura": 233.86,
       "altura": 26.4,
       "texto": "TRs: Físico +4; Vigor +3; Intelecto +1; Espírito +1. Físico usa Força; o treino é em Físico."
@@ -29798,7 +29798,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 349.49,
+      "y_top": 402.29,
       "largura": 233.86,
       "altura": 39.6,
       "texto": "Perícias treinadas: Atletismo +4; Furtividade +2; Percepção +2; Intuição +2. As demais usam somente seu atributo, respeitando requisitos."
@@ -29809,7 +29809,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 306.89,
+      "y_top": 359.69,
       "largura": 233.86,
       "altura": 52.8,
       "texto": "Pancada - Ação Atacar, um ataque corpo a corpo, 1,5 m. Ataque +4. No acerto, 1d4 + 3 de Concussão. Crítico: 2d4 + 3. Sem custo de PE. Não impõe condição."
@@ -29820,7 +29820,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 251.09,
+      "y_top": 303.89,
       "largura": 233.86,
       "altura": 26.4,
       "texto": "Manobras da Ação Atacar: CD 12, substituindo a Pancada, conforme as regras comuns."
@@ -29831,7 +29831,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 221.69,
+      "y_top": 274.49,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Impacto concentrado - Classe 1, Ação Padrão, Recarga (5-6), Toque, 1,5 m. Selo: encostar as duas palmas antes de tocar o alvo. Precisa enxergar o alvo e cumprir o alcance. Ataque d"
@@ -29842,7 +29842,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 378.89,
+      "y_top": 431.69,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Fundamento registrado: atributo Força; dano Concussão; Livres: Mira, Castigo; Fechadas: Amparo, Tempo, Marca. Expressão visual: as marcas do corpo se acendem brevemente, sem efeito"
@@ -29853,7 +29853,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 270.29,
+      "y_top": 323.09,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "Inimigos não contam PE. Começa a luta com o feitiço disponível; depois de usá-lo, rola um d6 no começo de cada turno seu e o recupera com 5 ou 6. Sem o feitiço ou sem poder conjura"
@@ -29864,7 +29864,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": "d042--vigia-das-farpas",
       "x": 307.56,
-      "y_top": 194.29,
+      "y_top": 247.09,
       "largura": 233.86,
       "altura": 18,
       "texto": "Vigia das farpas"
@@ -29875,7 +29875,7 @@
       "fonte_html": "caso-14-tres-maldicoes-para-a-missao.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 171.29,
+      "y_top": 224.09,
       "largura": 233.86,
       "altura": 52.8,
       "texto": "Uma figura estreita de madeira e papel, com dois braços, mãos articuladas e duas pernas. Dispara farpas pela sua técnica e procura conservar distância."
@@ -43044,8 +43044,8 @@
       "x": 307.56,
       "y_top": 303.09,
       "largura": 233.86,
-      "altura": 79.2,
-      "texto": "Existência Artificial permite a Ena considerar qualquer local propício para seus descansos. Ainda é necessário poder parar em segurança no curto ou ter encerrado a missão e poder r"
+      "altura": 92.4,
+      "texto": "Existência Artificial permite a Ena considerar qualquer local um ambiente propício para seus descansos. Ainda é necessário poder parar em segurança no curto ou ter encerrado a miss"
     },
     {
       "pagina": 277,
@@ -43053,7 +43053,7 @@
       "fonte_html": "caso-90-reparar-personagem-de-corpo-construido.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 220.89,
+      "y_top": 207.69,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Se Ena fizer o próprio reparo, precisa poder agir, ter treino no Ofício registrado e conseguir alcançar as peças com as ferramentas necessárias. Use a permissão específica de Repar"
@@ -43396,8 +43396,8 @@
       "x": 53.86,
       "y_top": 301.49,
       "largura": 487.56,
-      "altura": 149.0,
-      "texto": "Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o lugar propício"
+      "altura": 161.5,
+      "texto": "Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o ambiente propício"
     },
     {
       "pagina": 281,
@@ -43407,8 +43407,8 @@
       "x": 53.86,
       "y_top": 776.69,
       "largura": 487.56,
-      "altura": 91.0,
-      "texto": "Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o lugar propício"
+      "altura": 103.5,
+      "texto": "Condição escolhida | Preparo concreto deste exemplo | O que conferir antes de declarar o ambiente propício"
     },
     {
       "pagina": 281,
@@ -43416,7 +43416,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 676.69,
+      "y_top": 664.19,
       "largura": 233.86,
       "altura": 118.8,
       "texto": "No posto de Nilo, o apoio está instalado e os materiais ficam ao alcance das mãos. Como é treinado em Medicina e está capaz, pode fazer seu atendimento quando essas condições basta"
@@ -43427,7 +43427,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 554.89,
+      "y_top": 542.39,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Alternativa em viagem. O grupo prepara um veículo com o apoio e os meios correspondentes. Ele pode servir como ambiente propício se a situação realmente permitir repouso. Estar den"
@@ -43438,7 +43438,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": "d070--cuidados-com-cada-condicao",
       "x": 53.86,
-      "y_top": 439.29,
+      "y_top": 426.79,
       "largura": 233.86,
       "altura": 18,
       "texto": "Cuidados com cada condição"
@@ -43449,7 +43449,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": "d070--exposicao-no-corpo-debilitado",
       "x": 53.86,
-      "y_top": 411.29,
+      "y_top": 398.79,
       "largura": 233.86,
       "altura": 16,
       "texto": "Exposição no Corpo Debilitado"
@@ -43460,7 +43460,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 391.29,
+      "y_top": 378.79,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Uma fresta deixa a luz da lua alcançar a pele exposta. Ao fim do turno, o dado mostra 3 no d4: 3 de dano Radiante, sem TR. Cobrir toda a área exposta com material opaco impede a pr"
@@ -43471,7 +43471,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 309.09,
+      "y_top": 296.59,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "A cobertura é um recurso real do preparo; não se presume perfeita após rasgar ou cair. Também não precisa virar uma nova peça mágica para proteger da exposição. Confira antes como "
@@ -43482,7 +43482,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": "d070--cura-no-corpo-quebradico",
       "x": 53.86,
-      "y_top": 221.89,
+      "y_top": 209.39,
       "largura": 233.86,
       "altura": 16,
       "texto": "Cura no Corpo Quebradiço"
@@ -43493,7 +43493,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 53.86,
-      "y_top": 201.89,
+      "y_top": 189.39,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "Nilo está com 8 de 16 PV. Um efeito compatível cura 6; ele passa a 14 de 16, sem dividir a cura novamente. Um descanso longo propício restaura seu máximo reduzido de 16, não os 32 "
@@ -43504,7 +43504,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": "d070--recuperacao-no-corpo-exaurido",
       "x": 307.56,
-      "y_top": 676.69,
+      "y_top": 664.19,
       "largura": 233.86,
       "altura": 16,
       "texto": "Recuperação no Corpo Exaurido"
@@ -43515,7 +43515,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 656.69,
+      "y_top": 644.19,
       "largura": 233.86,
       "altura": 66.0,
       "texto": "Para comparar, uma personagem de Corpo Exaurido tem máximo 32 PV e saldo 8. Ao concluir um descanso longo propício, recupera 25% de 32 = 8 PV: fica com 16. A recuperação do descans"
@@ -43526,7 +43526,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 587.69,
+      "y_top": 575.19,
       "largura": 233.86,
       "altura": 79.2,
       "texto": "O limite de deslocamento é metade do máximo, 16 PV. Com 16 ou menos, seu deslocamento próprio é zero. Depois, uma cura compatível de 7 recupera metade, para baixo = 3 PV; ela chega"
@@ -43537,7 +43537,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 505.49,
+      "y_top": 492.99,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Se aquele descanso longo ocorrer fora de ambiente propício, os 8 PV iniciais permanecem: o corpo não recupera vida pela pausa. Os demais recursos seguem suas regras, inclusive PE. "
@@ -43548,7 +43548,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": "d070--registro-para-a-missao-seguinte",
       "x": 307.56,
-      "y_top": 403.09,
+      "y_top": 390.59,
       "largura": 233.86,
       "altura": 18,
       "texto": "Registro para a missão seguinte"
@@ -43559,7 +43559,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 380.09,
+      "y_top": 367.59,
       "largura": 233.86,
       "altura": 105.6,
       "texto": "Anote condição corporal, apoio disponível, pessoa ou meio de assistência, forma de transporte, canal de participação e saldo atual. Separe o estado do corpo real do estado de cada "
@@ -43570,7 +43570,7 @@
       "fonte_html": "caso-91-restricao-corporal-e-cuidados.html",
       "ancora": null,
       "x": 307.56,
-      "y_top": 271.49,
+      "y_top": 258.99,
       "largura": 233.86,
       "altura": 92.4,
       "texto": "Exemplo: “Nilo: Corpo Quebradiço, 14/16 PV; apoio e materiais no posto; pode fazer o atendimento combinado; conexão com a equipe disponível, sem visão sobrenatural; Escriba em camp"
