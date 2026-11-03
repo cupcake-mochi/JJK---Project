@@ -1,0 +1,863 @@
+[
+  {
+    "id": "R62-001",
+    "bloco": "geral--preparar",
+    "motivo": "mov",
+    "antes": "Não usa o saldo do turno anterior,",
+    "depois": "Não usa os metros que sobraram do turno anterior,"
+  },
+  {
+    "id": "R62-002",
+    "bloco": "evocador--ev-usos",
+    "motivo": "mov",
+    "antes": "**Movimento.** Cada benefício fica vinculado à primeira invocação que o aproveitar na rodada, enquanto ela mantiver o aprimoramento correspondente. Precisão oferece um saldo extra de 3 m.",
+    "depois": "**Movimento.** Cada benefício fica preso à primeira invocação que o usar na rodada, enquanto ela mantiver o aprimoramento correspondente. Precisão dá 3 m extras."
+  },
+  {
+    "id": "R62-003",
+    "bloco": "evocador--ev-usos",
+    "motivo": "mov",
+    "antes": "Esse trecho tem saldo próprio, respeita terreno e impedimentos e fica disponível enquanto ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desse saldo.",
+    "depois": "Esses metros contam à parte, respeitam terreno e impedimentos e ficam disponíveis enquanto ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desses metros."
+  },
+  {
+    "id": "R62-004",
+    "bloco": "evocador--ev-usos",
+    "motivo": "mov",
+    "antes": "**Exemplo.** A ave usa 1,5 m do saldo extra de Precisão e faz seu ataque com vantagem. Se o aprimoramento mudar para o cão, o uso ofensivo continua gasto. O cão também não recebe um novo saldo de 3 m nessa rodada: aquele benefício já ficou vinculado à ave.",
+    "depois": "**Exemplo.** A ave usa 1,5 m dos metros extras de Precisão e faz seu ataque com vantagem. Se o aprimoramento mudar para o cão, o uso ofensivo continua gasto. O cão também não recebe outros 3 m extras nessa rodada: aquele benefício já ficou preso à ave."
+  },
+  {
+    "id": "R62-005",
+    "bloco": "evocador--ev-posicao",
+    "motivo": "mov",
+    "antes": "O movimento usa o saldo da ave.",
+    "depois": "O movimento usa os metros que ainda restam à ave."
+  },
+  {
+    "id": "R62-006",
+    "bloco": "evocador--ev-turnos",
+    "motivo": "mov",
+    "antes": "Anda 4,5 m, gastando esse saldo, até alcançar o inimigo.",
+    "depois": "Anda 4,5 m desse deslocamento até alcançar o inimigo."
+  },
+  {
+    "id": "R62-007",
+    "bloco": "dano--descansos",
+    "motivo": "amb",
+    "antes": "O mestre confirma quando o descanso acontece e se o lugar é propício.",
+    "depois": "O mestre confirma quando o descanso acontece e se o lugar é um ambiente propício."
+  },
+  {
+    "id": "R62-008",
+    "bloco": "dano--descansos",
+    "motivo": "amb",
+    "antes": "Um lugar propício oferece abrigo, suprimentos e meios de atendimento.",
+    "depois": "Um ambiente propício oferece abrigo, suprimentos e meios de atendimento."
+  },
+  {
+    "id": "R62-009",
+    "bloco": "dano--descansos",
+    "motivo": "vida",
+    "antes": "Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.",
+    "depois": "Fora de ambiente propício, o descanso longo não soma metade da vida ou dos PE: ele garante que você termine com **pelo menos metade do máximo**. Quem já está acima da metade fica como está. Arredonde a metade para baixo; se o máximo for maior que zero, ela vale pelo menos 1."
+  },
+  {
+    "id": "R62-010",
+    "bloco": "dano--descansos",
+    "motivo": "vida",
+    "antes": "> **Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.",
+    "depois": "> **Exemplo:** ao terminar a missão fora da base, Mei tem vida máxima 23, então a metade é 11. Com 3 de vida atual, ela vai a **11**. Se tivesse 18, continuaria com 18. Um personagem com 60 PE máximos e 8 PE atuais vai a **30 PE**."
+  },
+  {
+    "id": "R62-011",
+    "bloco": "origens--encarnado-beneficios",
+    "motivo": "uso",
+    "antes": "Você precisa ter um uso disponível para empregar a Reserva. A preservação não aumenta o saldo acima do máximo e não vale para o d4 concedido a um aliado.",
+    "depois": "Você precisa ter um uso disponível para usar a Reserva. Poupar o uso não leva a Reserva acima do máximo de usos e não vale para o d4 dado a um aliado."
+  },
+  {
+    "id": "R62-012",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "motivo": "vida",
+    "antes": "Quando Essência aumentar, recalcule todo o benefício, inclusive as parcelas anteriores. Não use Maestria nessa conta. Alterar o máximo não recupera toda a reserva; o saldo segue a regra geral aplicável à mudança.",
+    "depois": "Quando Essência aumentar, recalcule todo o benefício, inclusive o que já tinha sido somado antes. Não use Maestria nessa conta. Mudar o máximo não devolve todos os PE: os PE atuais seguem a regra geral de mudança de máximo."
+  },
+  {
+    "id": "R62-013",
+    "bloco": "campo--inv-maxima",
+    "motivo": "uso",
+    "antes": "Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo.",
+    "depois": "Paga 25 PE: 13 de Kaito e 12 da reserva, se ela ainda tiver esses PE."
+  },
+  {
+    "id": "R62-014",
+    "bloco": "origens--restricao-prenuncio",
+    "motivo": "reacao",
+    "antes": "Uma ativação impedida não consome a reserva de Reação.",
+    "depois": "Uma ativação impedida não gasta a Reação."
+  },
+  {
+    "id": "R62-015",
+    "bloco": "evocador--ev-vinculo",
+    "motivo": "reacao",
+    "antes": "A **Reação coletiva** é uma única reserva compartilhada pelas invocações.",
+    "depois": "A **Reação coletiva** é uma Reação só, dividida entre todas as invocações: quando uma delas a gasta, nenhuma outra pode gastá-la até ela voltar."
+  },
+  {
+    "id": "R62-016",
+    "bloco": "evocador--ev-parceria-cobrir",
+    "motivo": "reacao",
+    "antes": "- **2 Pontos de Vínculo:** a proteção dispensa o gasto e a disponibilidade dessa reserva de Reação.",
+    "depois": "- **2 Pontos de Vínculo:** a proteção não gasta essa Reação e pode ser usada mesmo que ela já tenha sido gasta."
+  },
+  {
+    "id": "R62-017",
+    "bloco": "guia--guia-obra-uso",
+    "motivo": "obra",
+    "antes": "**Ampliar.** Pague para aumentar uma obra existente conforme a tabela **Obras maiores**. O espaço adicional precisa estar livre. A obra conserva a vida restante e o prazo.",
+    "depois": "**Aumentar.** Pague para deixar maior uma obra que já existe, seguindo a tabela **Obras maiores**. O espaço a mais precisa estar livre. A obra continua com a vida que restava e com o mesmo prazo."
+  },
+  {
+    "id": "R62-018",
+    "bloco": "evocador--ev-principal-troca",
+    "motivo": "basica",
+    "antes": "**a substituta assume os benefícios da Trilha e o saldo das duas básicas ainda disponíveis da anterior**.",
+    "depois": "**a substituta recebe os benefícios da Trilha e as básicas que a anterior ainda tinha disponíveis**."
+  },
+  {
+    "id": "R62-019",
+    "bloco": "evocador--ev-principal-troca",
+    "motivo": "basica",
+    "antes": "A substituta usa sua própria ficha. Conserve os gastos, limites compartilhados e registros de identidade. A atuação adicional precisa ter sido disponibilizada no começo do turno. A troca transmite o saldo existente.",
+    "depois": "A substituta usa sua própria ficha. Os gastos, os limites compartilhados e os registros de identidade continuam como estavam. A atuação adicional precisa ter sido liberada no começo do turno. A troca passa adiante as básicas que restavam."
+  },
+  {
+    "id": "R62-020",
+    "bloco": "evocador--ev-principal-troca",
+    "motivo": "basica",
+    "antes": "| Saldo da anterior | Saldo transmitido à substituta elegível |",
+    "depois": "| Básicas que a anterior tinha | Básicas que a substituta recebe |"
+  },
+  {
+    "id": "R62-021",
+    "bloco": "evocador--ev-principal-troca",
+    "motivo": "basica",
+    "antes": "inclusive as travas de uma entidade que já atuou ou transmitiu seu saldo naquela rodada.",
+    "depois": "inclusive as travas de uma entidade que já atuou ou passou adiante suas básicas naquela rodada."
+  },
+  {
+    "id": "R62-022",
+    "bloco": "evocador--ev-principal-continuidade",
+    "motivo": "basica",
+    "antes": "Conserve os prazos e os usos já marcados no conjunto. A troca mantém seus custos e o saldo de básicas transmitido.",
+    "depois": "Os prazos e os usos já marcados no conjunto continuam valendo. A troca mantém seus custos e as básicas passadas adiante."
+  },
+  {
+    "id": "R62-023",
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "motivo": "basica",
+    "antes": "As oportunidades de básica e os saldos de substituição seguem seus próprios procedimentos.",
+    "depois": "As oportunidades de básica e as básicas passadas na substituição seguem suas próprias regras."
+  },
+  {
+    "id": "R62-024",
+    "bloco": "evocador--ev-multiplas-formacao",
+    "motivo": "basica",
+    "antes": "A nova criatura assume o saldo de básica elegível.",
+    "depois": "A nova criatura recebe a básica que a anterior ainda tinha e podia passar adiante."
+  },
+  {
+    "id": "R62-025",
+    "bloco": "progressao--prog-inicio",
+    "motivo": "xp",
+    "antes": "No fim de outra missão, confira novamente o saldo. O excedente não desaparece nem permite subir vários níveis no mesmo encerramento, salvo a liberação",
+    "depois": "No fim de outra missão, confira de novo o XP guardado. O que sobra não desaparece nem permite subir vários níveis no mesmo encerramento, exceto pela liberação"
+  },
+  {
+    "id": "R62-026",
+    "bloco": "progressao--prog-xp",
+    "motivo": "xp",
+    "antes": "Confira seu saldo ao concluir a missão.",
+    "depois": "Confira seu XP guardado ao concluir a missão."
+  },
+  {
+    "id": "R62-027",
+    "bloco": "progressao--prog-atualizar",
+    "motivo": "vida",
+    "antes": "Atualize os saldos conforme a regra abaixo.",
+    "depois": "Atualize a vida atual e os PE atuais pela regra abaixo."
+  },
+  {
+    "id": "R62-028",
+    "bloco": "progressao--prog-atualizar",
+    "motivo": "vida",
+    "antes": "Ajustes posteriores dos máximos não acrescentam vida ou PE ao saldo.",
+    "depois": "Ajustes posteriores dos máximos não somam nada à vida atual nem aos PE atuais."
+  },
+  {
+    "id": "R62-029",
+    "bloco": "progressao--prog-atualizar",
+    "motivo": "vida",
+    "antes": "**Sem essa permissão, somente o aumento de máximo produzido pelo novo nível e seu marco acrescenta a diferença ao saldo atual**, calculada com a ficha anterior à troca de Trilha. Assim, conserva o dano ou o PE que faltavam antes desse crescimento.",
+    "depois": "**Sem essa permissão, você soma à vida atual e aos PE atuais só o quanto o máximo subiu com o novo nível e o marco.** Faça essa conta com a ficha de antes da troca de Trilha. O dano sofrido e os PE gastos antes da subida continuam faltando."
+  },
+  {
+    "id": "R62-030",
+    "bloco": "progressao--prog-atualizar",
+    "motivo": "vida",
+    "antes": "**Troca de Trilha e outros ajustes da ficha não aumentam os saldos atuais.** Se alterarem um máximo, conserve o saldo e apenas limite-o ao novo máximo.",
+    "depois": "**Troca de Trilha e outros ajustes da ficha não aumentam a vida atual nem os PE atuais.** Se um ajuste mudar o máximo, você continua com o que tinha; só corte o que passar do novo máximo."
+  },
+  {
+    "id": "R62-031",
+    "bloco": "emanador--ema-remodelar",
+    "motivo": "mont",
+    "antes": "retire a diferença das parcelas de dano, cura ou vida temporária registradas, sem aumentar nenhuma delas nem transferir saldo entre funções.",
+    "depois": "retire a diferença das quantidades de dano, cura ou vida temporária registradas, sem aumentar nenhuma delas nem passar [pontos que sobram](#fundamento-link-saldo) de uma função para outra."
+  },
+  {
+    "id": "R62-032",
+    "bloco": "emanador--ema-forma",
+    "motivo": "mont",
+    "antes": "As funções e a distribuição do saldo da ficha permanecem.",
+    "depois": "As funções e a divisão dos pontos que sobram, registradas na ficha, continuam as mesmas."
+  },
+  {
+    "id": "R62-033",
+    "bloco": "emanador--ema-forma",
+    "motivo": "mont",
+    "antes": "A versão não pode ganhar saldo pela troca e respeita os tetos das funções da ficha.",
+    "depois": "A troca não pode deixar a versão com mais pontos que sobram, e ela respeita os tetos das funções da ficha."
+  },
+  {
+    "id": "R62-034",
+    "bloco": "fundamento--tecnica",
+    "motivo": "mont",
+    "antes": "da vida temporária pelo saldo e das opções",
+    "depois": "da vida temporária paga com os pontos que sobram e das opções"
+  },
+  {
+    "id": "R62-035",
+    "bloco": "fundamento--selo",
+    "motivo": "mont",
+    "antes": "O dano pode vir dos pontos reservados a ele;",
+    "depois": "O dano pode vir dos pontos destinados a ele;"
+  },
+  {
+    "id": "R62-036",
+    "bloco": "fundamento--selo",
+    "motivo": "mont",
+    "antes": "**[Saldo](#fundamento-link-saldo).** Pontos restantes após os custos e as devoluções aproveitadas. Você pode reservá-los para dano, cura ou vida temporária, conforme as funções e os limites da ficha.",
+    "depois": "**[Pontos que sobram](#fundamento-link-saldo).** Os pontos que ficam depois de pagar os custos e somar as devoluções que você aproveitou. Você pode destiná-los a dano, cura ou vida temporária, dentro das funções e dos limites da ficha."
+  },
+  {
+    "id": "R62-037",
+    "bloco": "fundamento--selo",
+    "motivo": "mont",
+    "antes": "5. **Calcule o saldo e registre os resultados.**",
+    "depois": "5. **Calcule os pontos que sobram e anote os resultados.**"
+  },
+  {
+    "id": "R62-038",
+    "bloco": "fundamento--selo",
+    "motivo": "mont",
+    "antes": "[Pontos e preços](#fundamento--pontos), [Funções e saldo](#fundamento--funcoes) e [Formas]",
+    "depois": "[Pontos e preços](#fundamento--pontos), [Funções e pontos que sobram](#fundamento--funcoes) e [Formas]"
+  },
+  {
+    "id": "R62-039",
+    "bloco": "fundamento--primeiro",
+    "motivo": "mont",
+    "antes": "##### Confira o saldo",
+    "depois": "##### Confira os pontos que sobram"
+  },
+  {
+    "id": "R62-040",
+    "bloco": "fundamento--primeiro",
+    "motivo": "mont",
+    "antes": "| Saldo | **2** |",
+    "depois": "| Pontos que sobram | **2** |"
+  },
+  {
+    "id": "R62-041",
+    "bloco": "fundamento--primeiro",
+    "motivo": "mont",
+    "antes": "Mei reserva os **2 pontos de saldo para dano**, obtendo **2d8 de Cortante**. Empurrão conserva seu deslocamento de até 6 m. Se ela quisesse uma aplicação que apenas movesse o alvo, poderia descartar o saldo; os 6 m da Melhoria permaneceriam.",
+    "depois": "Mei destina os **2 pontos que sobram ao dano**, obtendo **2d8 de Cortante**. Empurrão continua movendo o alvo até 6 m. Se ela quisesse uma aplicação que só movesse o alvo, poderia descartar esses pontos; os 6 m da Melhoria continuariam valendo."
+  },
+  {
+    "id": "R62-042",
+    "bloco": "fundamento--primeiro",
+    "motivo": "mont",
+    "antes": "Dano: 2 pontos de saldo, que produzem 2d8 de Cortante.",
+    "depois": "Dano: os 2 pontos que sobram produzem 2d8 de Cortante."
+  },
+  {
+    "id": "R62-043",
+    "bloco": "fundamento--primeiro",
+    "motivo": "mont",
+    "antes": "Saldo 2 destinado a dano. |",
+    "depois": "2 pontos que sobram, destinados a dano. |"
+  },
+  {
+    "id": "R62-044",
+    "bloco": "fundamento--classezero",
+    "motivo": "mont",
+    "antes": "pois a Classe 0 usa dados-base e dispensa o saldo de pontos.",
+    "depois": "pois a Classe 0 usa dados-base e não usa pontos que sobram."
+  },
+  {
+    "id": "R62-045",
+    "bloco": "fundamento--familias",
+    "motivo": "mont",
+    "antes": "| Cura direta e vida temporária pelo saldo |",
+    "depois": "| Cura direta e vida temporária pagas com os pontos que sobram |"
+  },
+  {
+    "id": "R62-046",
+    "bloco": "fundamento--familias",
+    "motivo": "mont",
+    "antes": "Para recuperar vida pelo saldo, por exemplo,",
+    "depois": "Para recuperar vida com os pontos que sobram, por exemplo,"
+  },
+  {
+    "id": "R62-047",
+    "bloco": "fundamento--pontos",
+    "motivo": "mont",
+    "antes": "4. **Saldo:** dos pontos iniciais, retire a base e as Melhorias, depois acrescente a devolução aproveitada.",
+    "depois": "4. **Pontos que sobram:** dos pontos iniciais, tire a base e as Melhorias e depois some a devolução aproveitada."
+  },
+  {
+    "id": "R62-048",
+    "bloco": "fundamento--pontos",
+    "motivo": "mont",
+    "antes": "**Saldo = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**",
+    "depois": "**Pontos que sobram = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**"
+  },
+  {
+    "id": "R62-049",
+    "bloco": "fundamento--pontos",
+    "motivo": "mont",
+    "antes": "A montagem deve terminar com saldo igual ou maior que zero.",
+    "depois": "A montagem precisa terminar com zero ou mais pontos sobrando."
+  },
+  {
+    "id": "R62-050",
+    "bloco": "fundamento--pontos",
+    "motivo": "mont",
+    "antes": "O saldo **9 − 3 − 0 − 3 = 3** fornece 3d8",
+    "depois": "Os pontos que sobram, **9 − 3 − 0 − 3 = 3**, dão 3d8"
+  },
+  {
+    "id": "R62-051",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "#### Funções e saldo",
+    "depois": "#### Funções e pontos que sobram"
+  },
+  {
+    "id": "R62-052",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "O saldo determina a quantidade de dano, cura ou vida temporária que o feitiço pode produzir.",
+    "depois": "Os pontos que sobram decidem quanto dano, cura ou vida temporária o feitiço pode produzir."
+  },
+  {
+    "id": "R62-053",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "| Cada ponto reservado vira 1d8 de dano. |",
+    "depois": "| Cada ponto destinado vira 1d8 de dano. |"
+  },
+  {
+    "id": "R62-054",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "| Cada ponto reservado vira 1d8 de cura. Exige Amparo. |",
+    "depois": "| Cada ponto destinado vira 1d8 de cura. Exige Amparo. |"
+  },
+  {
+    "id": "R62-055",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "| Cada ponto reservado vira 3 pontos de vida temporária. Exige Amparo. |",
+    "depois": "| Cada ponto destinado vira 3 pontos de vida temporária. Exige Amparo. |"
+  },
+  {
+    "id": "R62-056",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "Essas quantidades se mantêm mesmo quando sobra saldo.",
+    "depois": "Essas quantidades não mudam mesmo quando sobram pontos."
+  },
+  {
+    "id": "R62-057",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "##### Escolha o destino do saldo",
+    "depois": "##### Escolha o destino dos pontos que sobram"
+  },
+  {
+    "id": "R62-058",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "Na criação, distribua o saldo entre as funções",
+    "depois": "Na criação, divida os pontos que sobram entre as funções"
+  },
+  {
+    "id": "R62-059",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "tem **9 − 3 = 6 pontos de saldo**. Pode reservar quatro à cura",
+    "depois": "tem **9 − 3 = 6 pontos que sobram**. Pode destinar quatro à cura"
+  },
+  {
+    "id": "R62-060",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "Reserve pelo menos um ponto para cada função variável registrada na ficha. Um feitiço com saldo zero ainda pode",
+    "depois": "Destine pelo menos um ponto a cada função variável registrada na ficha. Um feitiço sem pontos sobrando ainda pode"
+  },
+  {
+    "id": "R62-061",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "Use-o como limite da distribuição, mantendo o saldo calculado.",
+    "depois": "Use esse teto como limite da divisão, sem mudar a conta dos pontos que sobram."
+  },
+  {
+    "id": "R62-062",
+    "bloco": "fundamento--funcoes",
+    "motivo": "mont",
+    "antes": "O saldo pode superar o teto de uma função. Nesse caso, o excedente destinado a ela fica sem uso e permanece nessa distribuição durante a conjuração.",
+    "depois": "Os pontos que sobram podem passar do teto de uma função. Nesse caso, os pontos destinados a ela além do teto ficam sem uso e continuam nessa divisão durante a conjuração."
+  },
+  {
+    "id": "R62-063",
+    "bloco": "fundamento--formas",
+    "motivo": "mont",
+    "antes": "O saldo é **9 − 2 + 2 = 9**, destinado a **9d8 de dano**.",
+    "depois": "Sobram **9 − 2 + 2 = 9** pontos, destinados a **9d8 de dano**."
+  },
+  {
+    "id": "R62-064",
+    "bloco": "fundamento--alcance",
+    "motivo": "mont",
+    "antes": "Com ambas, o saldo de dano é 6 − Forma 2 − Longe 1 − Maior 1 = 2d8,",
+    "depois": "Com ambas, os pontos que sobram para o dano dão 6 − Forma 2 − Longe 1 − Maior 1 = 2d8,"
+  },
+  {
+    "id": "R62-065",
+    "bloco": "fundamento--combinacoes",
+    "motivo": "mont",
+    "antes": "Depois das devoluções válidas, distribua o saldo entre as funções que usam pontos,",
+    "depois": "Depois das devoluções válidas, divida os pontos que sobram entre as funções que usam pontos,"
+  },
+  {
+    "id": "R62-066",
+    "bloco": "fundamento--combinacoes",
+    "motivo": "mont",
+    "antes": "| Escolha as funções e reserve os pontos de saldo de cada uma.",
+    "depois": "| Escolha as funções e destine a cada uma os pontos que sobram."
+  },
+  {
+    "id": "R62-067",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "refaça os custos e o saldo com o desconto correspondente.",
+    "depois": "refaça os custos e os pontos que sobram com o desconto correspondente."
+  },
+  {
+    "id": "R62-068",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "| Saldo | **4** |",
+    "depois": "| Pontos que sobram | **4** |"
+  },
+  {
+    "id": "R62-069",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "**4. Distribua o saldo na criação.** Reserve dois pontos para dano e dois para cura.",
+    "depois": "**4. Divida os pontos que sobram na criação.** Destine dois pontos ao dano e dois à cura."
+  },
+  {
+    "id": "R62-070",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "| Função | Pontos reservados | Resultado registrado |",
+    "depois": "| Função | Pontos destinados | Resultado registrado |"
+  },
+  {
+    "id": "R62-071",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "Ferir e recuperar usa os dados de cura reservados pelo saldo.",
+    "depois": "Ferir e recuperar usa os dados de cura pagos com os pontos que sobram."
+  },
+  {
+    "id": "R62-072",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "| Saldo | **3** |",
+    "depois": "| Pontos que sobram | **3** |"
+  },
+  {
+    "id": "R62-073",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "**Funções e distribuição:** reserve dois pontos para **2d8 de dano**",
+    "depois": "**Funções e distribuição:** destine dois pontos a **2d8 de dano**"
+  },
+  {
+    "id": "R62-074",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "| Saldo | **1** |",
+    "depois": "| Pontos que sobram | **1** |"
+  },
+  {
+    "id": "R62-075",
+    "bloco": "fundamento--mesclas",
+    "motivo": "mont",
+    "antes": "**Funções e distribuição:** o ponto de saldo fornece **1d8 de cura** por aliado elegível,",
+    "depois": "**Funções e distribuição:** o ponto que sobra dá **1d8 de cura** por aliado válido,"
+  },
+  {
+    "id": "R62-076",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "Depois de calcular o saldo de um feitiço comum",
+    "depois": "Depois de calcular os pontos que sobram de um feitiço comum"
+  },
+  {
+    "id": "R62-077",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "sem superar o saldo. |",
+    "depois": "sem passar dos pontos que sobram. |"
+  },
+  {
+    "id": "R62-078",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "| Descarta o saldo inteiro. |",
+    "depois": "| Descarta todos os pontos que sobram. |"
+  },
+  {
+    "id": "R62-079",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "Você pode descartar o saldo que deixar de usar.",
+    "depois": "Você pode descartar os pontos que sobram e que você não vai usar."
+  },
+  {
+    "id": "R62-080",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "Ao Ampliar, conserve-a: sem dano permanece sem dano; dano limitado à Classe usa o limite da nova Classe, ou o saldo disponível se ele for menor.",
+    "depois": "Ao Ampliar, mantenha a opção: sem dano continua sem dano; dano limitado à Classe usa o limite da nova Classe, ou os pontos que sobram, se forem menos."
+  },
+  {
+    "id": "R62-081",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "A opção sem dano exige descartar todo o saldo.",
+    "depois": "A opção sem dano exige descartar todos os pontos que sobram."
+  },
+  {
+    "id": "R62-082",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "| Saldo | **0** |",
+    "depois": "| Pontos que sobram | **0** |"
+  },
+  {
+    "id": "R62-083",
+    "bloco": "fundamento--controle",
+    "motivo": "mont",
+    "antes": "O gasto seria **4 + 4 + 1 = 9**, com saldo 3.",
+    "depois": "O gasto seria **4 + 4 + 1 = 9**, sobrando 3 pontos."
+  },
+  {
+    "id": "R62-084",
+    "bloco": "fundamento--aplicacoes",
+    "motivo": "mont",
+    "antes": "O saldo 2 concede **6 de vida temporária**.",
+    "depois": "Os 2 pontos que sobram dão **6 de vida temporária**."
+  },
+  {
+    "id": "R62-085",
+    "bloco": "fundamento--danolimites",
+    "motivo": "mont",
+    "antes": "Primeiro, calcule os dados iniciais pelo saldo de pontos da montagem.",
+    "depois": "Primeiro, calcule os dados iniciais pelos pontos que sobram na montagem."
+  },
+  {
+    "id": "R62-086",
+    "bloco": "fundamento--danolimites",
+    "motivo": "mont",
+    "antes": "não aumenta o saldo de pontos nem concede dados por conta própria.",
+    "depois": "não aumenta os pontos que sobram nem dá dados por conta própria."
+  },
+  {
+    "id": "R62-087",
+    "bloco": "fundamento--persistente",
+    "motivo": "mont",
+    "antes": "Sem Restrições, o saldo **15 − 3 − 2 = 10** fornece 10d8 de dano inicial.",
+    "depois": "Sem Restrições, sobram **15 − 3 − 2 = 10** pontos, que dão 10d8 de dano inicial."
+  },
+  {
+    "id": "R62-088",
+    "bloco": "fundamento--efeito",
+    "motivo": "mont",
+    "antes": "o saldo restante fica sem uso.",
+    "depois": "os pontos que sobram ficam sem uso."
+  },
+  {
+    "id": "R62-089",
+    "bloco": "fundamento--ampliar",
+    "motivo": "mont",
+    "antes": "3. Distribua o saldo entre as mesmas funções.",
+    "depois": "3. Divida os pontos que sobram entre as mesmas funções."
+  },
+  {
+    "id": "R62-090",
+    "bloco": "fundamento--ampliar",
+    "motivo": "mont",
+    "antes": "aplique o saldo normalmente;",
+    "depois": "use os pontos que sobram normalmente;"
+  },
+  {
+    "id": "R62-091",
+    "bloco": "fundamento--ampliar",
+    "motivo": "mont",
+    "antes": "Um feitiço com saldo zero pode produzir",
+    "depois": "Um feitiço sem pontos sobrando pode produzir"
+  },
+  {
+    "id": "R62-092",
+    "bloco": "fundamento--ampliar",
+    "motivo": "mont",
+    "antes": "| Classe e PE | Conta do saldo | Dano | Cura |",
+    "depois": "| Classe e PE | Conta dos pontos que sobram | Dano | Cura |"
+  },
+  {
+    "id": "R62-093",
+    "bloco": "fundamento--proprio",
+    "motivo": "mont",
+    "antes": "deixam saldo **9 − 0 − 3 = 6**, descartado.",
+    "depois": "deixam **9 − 0 − 3 = 6** pontos sobrando, descartados."
+  },
+  {
+    "id": "R62-094",
+    "bloco": "catalogo--melhoria-mais-um",
+    "motivo": "mont",
+    "antes": "A divisão do saldo entre funções fica registrada na criação;",
+    "depois": "A divisão dos pontos que sobram entre as funções fica registrada na criação;"
+  },
+  {
+    "id": "R62-095",
+    "bloco": "catalogo--melhoria-mais-um",
+    "motivo": "mont",
+    "antes": "Para causar dano a esse destinatário, reserve pelo menos um dado para ele.",
+    "depois": "Para causar dano a esse destinatário, destine pelo menos um dado a ele."
+  },
+  {
+    "id": "R62-096",
+    "bloco": "catalogo--restricao-queima-roupa",
+    "motivo": "mont",
+    "antes": "o saldo é **9 − 2 − 3 + 2 = 6d8**.",
+    "depois": "os pontos que sobram dão **9 − 2 − 3 + 2 = 6d8**."
+  },
+  {
+    "id": "R62-097",
+    "bloco": "rotas--rota-sementes",
+    "motivo": "mont",
+    "antes": "conforme Funções e saldo.",
+    "depois": "como explica a seção Funções e pontos que sobram."
+  },
+  {
+    "id": "R62-098",
+    "bloco": "rotas--rota-espinho",
+    "motivo": "mont",
+    "antes": "O saldo fica **6 − 2 + 1 = 5**.",
+    "depois": "Sobram **6 − 2 + 1 = 5** pontos."
+  },
+  {
+    "id": "R62-099",
+    "bloco": "construcao--entidades-especiais",
+    "motivo": "mont",
+    "antes": "4. **Calcule o saldo.**",
+    "depois": "4. **Calcule os pontos que sobram.**"
+  },
+  {
+    "id": "R62-100",
+    "bloco": "construcao--entidades-formas",
+    "motivo": "mont",
+    "antes": "as funções de [Funções e saldo](#fundamento--funcoes) e as seis",
+    "depois": "as funções de [Funções e pontos que sobram](#fundamento--funcoes) e as seis"
+  },
+  {
+    "id": "R62-101",
+    "bloco": "construcao--entidades-formas",
+    "motivo": "mont",
+    "antes": "Cobre a Forma uma vez e calcule o saldo a partir dos pontos da entidade",
+    "depois": "Cobre a Forma uma vez e calcule os pontos que sobram a partir dos pontos da entidade"
+  },
+  {
+    "id": "R62-102",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "# Saldo e limites",
+    "depois": "# Pontos que sobram e limites"
+  },
+  {
+    "id": "R62-103",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "Uma devolução excedente se perde. O saldo de uma especial comum nunca ultrapassa seus pontos iniciais.",
+    "depois": "A devolução que passar desse limite se perde. Os pontos que sobram de uma especial comum nunca passam dos pontos iniciais dela."
+  },
+  {
+    "id": "R62-104",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.",
+    "depois": "Uma segunda devolução que levasse os pontos que sobram acima de 4 perderia o que passasse disso."
+  },
+  {
+    "id": "R62-105",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "Na cura individual, cada ponto reservado vira 1d8,",
+    "depois": "Na cura individual, cada ponto destinado vira 1d8,"
+  },
+  {
+    "id": "R62-106",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "converte cada ponto reservado em 3,",
+    "depois": "converte cada ponto destinado em 3,"
+  },
+  {
+    "id": "R62-107",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "Use essa conta para limitar o saldo destinado às duas funções,",
+    "depois": "Use essa conta para limitar os pontos destinados às duas funções,"
+  },
+  {
+    "id": "R62-108",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "mont",
+    "antes": "O saldo é zero e não existe cura nessa ficha.",
+    "depois": "Não sobram pontos, e não existe cura nessa ficha."
+  },
+  {
+    "id": "R62-109",
+    "bloco": "consulta--consulta-glossario-3",
+    "motivo": "glos",
+    "antes": "Sua quantidade segue o saldo reservado ou a Melhoria escolhida.",
+    "depois": "Sua quantidade vem dos pontos destinados a ela ou da Melhoria escolhida."
+  },
+  {
+    "id": "R62-110",
+    "bloco": "consulta--consulta-glossario-5",
+    "motivo": "glos",
+    "antes": "[Saldo](#fundamento-link-saldo). Pontos restantes após pagar os custos da montagem e aproveitar as devoluções válidas. Sua distribuição segue as funções registradas na ficha.\n\n",
+    "depois": ""
+  },
+  {
+    "id": "R62-111",
+    "bloco": "consulta--consulta-glossario-5",
+    "motivo": "glos",
+    "antes": "[Pontos de Ritual](#ritual--ritual). Recurso concedido pela modalidade de Ritual para comprar suas Melhorias. Vale apenas para aquela conjuração.\n",
+    "depois": "[Pontos de Ritual](#ritual--ritual). Recurso concedido pela modalidade de Ritual para comprar suas Melhorias. Vale apenas para aquela conjuração.\n\n[Pontos que sobram](#fundamento-link-saldo). Pontos que ficam depois de pagar os custos da montagem e somar as devoluções válidas. Você os divide entre as funções registradas na ficha.\n"
+  },
+  {
+    "id": "R62-112",
+    "bloco": "consulta--consulta-glossario-1",
+    "motivo": "glos",
+    "antes": "[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida conforme a capacidade.\n",
+    "depois": "[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida conforme a capacidade.\n\n[Ambiente propício](#dano--descansos). Lugar com abrigo, suprimentos e meios de atendimento, como a escola ou um hospital. Nele, o descanso longo devolve toda a vida e todos os PE.\n"
+  },
+  {
+    "id": "R62-113",
+    "bloco": "consulta--consulta-indice-10",
+    "motivo": "ind",
+    "antes": "\n[Saldo](#fundamento-link-saldo)\n",
+    "depois": "\n"
+  },
+  {
+    "id": "R62-114",
+    "bloco": "consulta--consulta-indice-8",
+    "motivo": "ind",
+    "antes": "\n[Pontos de Vínculo](#indice-r55-13)\n",
+    "depois": "\n[Pontos de Vínculo](#indice-r55-13)\n\n[Pontos que sobram](#fundamento-link-saldo)\n"
+  },
+  {
+    "id": "R62-115",
+    "bloco": "consulta--consulta-indice-5",
+    "motivo": "ind",
+    "antes": "\n[Funções e saldo](#fundamento--funcoes)\n",
+    "depois": "\n[Funções e pontos que sobram](#fundamento--funcoes)\n"
+  },
+  {
+    "id": "R62-116",
+    "bloco": "consulta--consulta-indice-1",
+    "motivo": "ind",
+    "antes": "\n[Alvo de Caça](#catalogo--melhoria-alvo-de-caca)\n",
+    "depois": "\n[Alvo de Caça](#catalogo--melhoria-alvo-de-caca)\n\n[Ambiente propício](#dano--descansos)\n"
+  },
+  {
+    "id": "R62-117",
+    "bloco": "geral--concentracao",
+    "motivo": "def",
+    "antes": "**Inconsciente encerra a concentração.**",
+    "depois": "**Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.**"
+  },
+  {
+    "id": "R62-118",
+    "bloco": "geral--quedas",
+    "motivo": "def",
+    "antes": "Resistência a Concussão e Vida temporária se aplicam normalmente.",
+    "depois": "Resistência a Concussão e [Vida temporária](#dano--temporarios), a reserva separada que absorve dano antes da vida, se aplicam normalmente."
+  },
+  {
+    "id": "R62-119",
+    "bloco": "dano--condicoes",
+    "motivo": "def",
+    "antes": "**Inconsciente, Morrendo, Derrotado, Exaustão e Invisível** têm regras próprias.",
+    "depois": "**Inconsciente, Morrendo, Derrotado, [Exaustão](#dano--exaustao) e Invisível** têm regras próprias. A Exaustão é o desgaste acumulado ao participar de várias lutas."
+  },
+  {
+    "id": "R62-120",
+    "bloco": "dano--medias",
+    "motivo": "def",
+    "antes": "A **Kata**, aplicação de uma Técnica Marcial, segue a mesma exigência",
+    "depois": "A **Kata**, aplicação de uma [Técnica Marcial](#rotas--rota-marcial) (rota de criação baseada num estilo de luta e no seu equipamento), segue a mesma exigência"
+  },
+  {
+    "id": "R62-121",
+    "bloco": "origens--origem-latente",
+    "motivo": "def",
+    "antes": "executar um feitiço ou Manejo de **Classe 1 ou maior**",
+    "depois": "executar um feitiço ou um [Manejo](#rotas--rota-sem-tecnica) (aplicação criada pela rota Sem Técnica) de **Classe 1 ou maior**"
+  },
+  {
+    "id": "R62-122",
+    "bloco": "origens--receptaculo-excecoes",
+    "motivo": "def",
+    "antes": "Não concede uma Aptidão ou outra Regra.",
+    "depois": "Não concede uma [Aptidão](#aptidoes--apt-refino) (capacidade do catálogo de Aptidões e Refino) nem outra Regra."
+  },
+  {
+    "id": "R62-123",
+    "bloco": "vanguarda--van-executor",
+    "motivo": "def",
+    "antes": "| 11 | Troca de Intenção |",
+    "depois": "| 11 | Troca de [Intenção](#campo--inv-intencao) |"
+  }
+]

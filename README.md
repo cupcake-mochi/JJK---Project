@@ -2,12 +2,12 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.371** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.372** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R61, livro completo com 425 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R62, livro completo com 425 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 
@@ -18,6 +18,8 @@ A R59 fecha a revisão didática por capítulos: texto mais claro, exemplos, tra
 A R60 esclarece o limite de conjuração: um feitiço de Classe 1 ou maior no próprio turno. Uma conjuração de Reação fora dele fica fora desse limite. O registro está em `editorial-r60/`, com as três alterações em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R59-para-R60.json`.
 
 A R61 acrescenta uma frase ao Ataque sem Prenúncio: os custos que o defensor já pagou ao declarar a Reação cancelada, como PE, não voltam. O registro está em `editorial-r61/`, com a alteração em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`.
+
+A R62 é uma passada de linguagem simples, sem mudar regra: "saldo" virou "pontos que sobram" na montagem e "vida atual", "PE atuais", "metros que restam" ou "XP guardado" nos outros sentidos; "ambiente propício" passou a ser o único nome. São 123 trocas em 60 blocos. O registro está em `editorial-r62/`, com as trocas em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R61-para-R62.json`.
 
 O texto final fica em `sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md`. O nome dessa pasta foi conservado para os leitores existentes. Os registros de integração estão em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/fundamento-r53/` e `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R52-para-R53.json`, dentro dela. A R52 e as revisões anteriores continuam no histórico do Git.
 

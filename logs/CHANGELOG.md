@@ -8,6 +8,27 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.372] - 03/11/2026
+
+### Alterado
+
+- R62, linguagem simples no Livro de Regras, sem mudar regra (123 trocas em 60 blocos, decididas na sabatina de 03/11/2026). "Saldo" saiu do texto: na montagem virou "pontos que sobram" (a fórmula agora é **Pontos que sobram = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada**); vida e PE viraram "vida atual" e "PE atuais"; movimento, "metros que restam"; XP, "XP guardado". Âncoras (`fundamento-link-saldo`, `construcao--entidades-saldo`) e chaves de código ficam como estavam. "Lugar propício" virou "ambiente propício", com entrada nova no Glossário (104 → 105) e no Índice (452 → 453). A montagem usa sempre "destinar"; a Reação é escrita como algo gasto, nunca como reserva; a ação de obra do Arquiteto passou de "Ampliar" para "Aumentar"; os termos usados antes da definição ganharam explicação no primeiro uso: seis com aposto curto tirado do Glossário e link, e a Intenção, numa célula de tabela, só com o link (o oitavo da lista era o próprio "saldo", que saiu).
+- PDFs claro e noturno com 425 páginas nas duas paletas. Contra a R61, 77 páginas mudaram, as mesmas nas duas, sem título solto no pé de coluna. O branco do fim das páginas 279 e 394 veio da página vizinha, sem crescer. Conferência (53 verificações), comparação com a R61 e medida das colunas em `editorial-r62/`.
+- A composição tirou "saldo" do cabeçalho corrido, das etiquetas de continuação e do sumário: o contexto de `fundamento--funcoes` vinha da configuração, não do texto. A regra R40 de `fluxo_continuo.py` passou a manter a fórmula da vida máxima junto da introdução, que a R62 tinha separado na virada da página 243.
+- `EDICAO-ATUAL.json` passa para R62; `REVISAO-R62.json` fica ao lado do `REVISAO-R61.json`, e os dois vão com os PDFs para `finalizado/livro/` e `JJK---PDF---RPG/livro/`.
+- Guardas: `testar-integridade.py` (dos dois lugares) reaplica `R61-para-R62.json`; `conferir-repositorio.py` exige o `REVISAO-R62.json`; `conferir-fundamento.py` lê o snapshot da R62 e as frases novas da montagem; `conferir-dano.py` aceita o link e o aposto novos da Técnica Marcial no Calado.
+
+### Adicionado
+
+- `conferir-fundamento.py` falha com "saldo" visível no livro (comentário, âncora e destino de link não contam) e confere a fórmula com o nome novo. `conferir-nomes.py` põe "Saldo" nos nomes aposentados. O `conferir.py` da composição falha com "saldo" impresso em qualquer paleta. Cada guarda tem teste negativo, rodado numa cópia.
+- `editorial-r62/PLANO-LINGUAGEM.md` (decisões, lista de trocas e o que fica para a R63) e `editorial-r62/QUESTIONARIO-LEITURA.md` (questionário com gabarito, ainda não aplicado).
+
+### Decidido
+
+- A linguagem simples entrou no Livro sem piloto antes (Q14 da sabatina). As palavras de cartório fora das frases tocadas ficam para a R63. O Guia do Mestre não foi tocado, porque está sendo mexido em outra frente; a nota para essa frente está no `PLANO-LINGUAGEM.md`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R62 ainda por publicar.
+
 ## [0.371] - 02/11/2026
 
 ### Alterado

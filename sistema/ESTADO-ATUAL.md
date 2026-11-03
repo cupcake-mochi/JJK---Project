@@ -1,6 +1,18 @@
-# Edição corrente R61
+# Edição corrente R62
 
-**Versão v0.371.**
+**Versão v0.372.**
+
+Linguagem simples, decidida em 03/11/2026, sem mudar regra. "Saldo" saiu do livro: na montagem virou **pontos que sobram**; vida e PE viraram **vida atual** e **PE atuais**; o movimento virou **metros que restam**; o XP virou **XP guardado**. As âncoras e as chaves de código continuam com "saldo", porque o leitor não as vê. "Lugar propício" virou **ambiente propício**, que ganhou entrada no Glossário (105) e no Índice (453). A montagem usa sempre "destinar", a Reação é escrita como algo gasto, a ação de obra do Arquiteto passou a "Aumentar" e os termos usados antes da definição ganharam explicação no primeiro uso: seis com aposto curto e link, e a Intenção, numa célula de tabela, só com o link. São 123 trocas em 60 blocos. Números, custos, gatilhos e âncoras ficaram iguais.
+
+As duas paletas continuam com 425 páginas. Contra a R61, 77 páginas mudaram, as mesmas nas duas. A revisão visual mediu onde cada coluna termina e não achou título solto no pé. Nas páginas 279 e 394 o branco do fim da página veio da página vizinha, sem crescer no total. A revisão também achou "saldo" no cabeçalho corrido, nas etiquetas de continuação e no sumário, que vêm da configuração da composição; os três passaram a dizer "Funções e pontos que sobram". E achou a fórmula da vida máxima separada da introdução na virada da página 243; agora as duas abrem juntas a página 244.
+
+Guardas novas, cada uma com teste negativo: `conferir-fundamento.py` falha com "saldo" visível no livro; `conferir-nomes.py` trata "Saldo" capitalizado como nome aposentado; o `conferir.py` da composição falha com "saldo" impresso em qualquer paleta. `conferir-dano.py` passou a aceitar o link e o aposto novos da Técnica Marcial no Calado.
+
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R61-para-R62.json`. O plano da passada, o que ficou para a R63 e o questionário de leitura estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/PLANO-LINGUAGEM.md` e `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/QUESTIONARIO-LEITURA.md`. A cadeia de integridade cobre R52 a R62. **A R62 ainda não foi publicada**: faltam o push e a conferência na Vercel.
+
+# Edição anterior R61
+
+*Versão v0.371.*
 
 Decidido em 02/11/2026: os custos que o defensor já pagou ao declarar uma Reação cancelada pelo Ataque sem Prenúncio não voltam (item 198). Uma frase nova no bloco `origens--restricao-prenuncio`; custos, gatilhos e a regra de que a Reação não é gasta ficam como estavam. As duas paletas têm 425 páginas. Contra a R60, só a página 95 mudou, nas duas, e só pela frase nova.
 

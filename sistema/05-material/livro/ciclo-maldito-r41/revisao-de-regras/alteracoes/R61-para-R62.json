@@ -1,0 +1,863 @@
+[
+  {
+    "id": "R62-001",
+    "bloco": "geral--preparar",
+    "antes": "Não usa o saldo do turno anterior,",
+    "depois": "Não usa os metros que sobraram do turno anterior,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-002",
+    "bloco": "evocador--ev-usos",
+    "antes": "**Movimento.** Cada benefício fica vinculado à primeira invocação que o aproveitar na rodada, enquanto ela mantiver o aprimoramento correspondente. Precisão oferece um saldo extra de 3 m.",
+    "depois": "**Movimento.** Cada benefício fica preso à primeira invocação que o usar na rodada, enquanto ela mantiver o aprimoramento correspondente. Precisão dá 3 m extras.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-003",
+    "bloco": "evocador--ev-usos",
+    "antes": "Esse trecho tem saldo próprio, respeita terreno e impedimentos e fica disponível enquanto ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desse saldo.",
+    "depois": "Esses metros contam à parte, respeitam terreno e impedimentos e ficam disponíveis enquanto ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desses metros.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-004",
+    "bloco": "evocador--ev-usos",
+    "antes": "**Exemplo.** A ave usa 1,5 m do saldo extra de Precisão e faz seu ataque com vantagem. Se o aprimoramento mudar para o cão, o uso ofensivo continua gasto. O cão também não recebe um novo saldo de 3 m nessa rodada: aquele benefício já ficou vinculado à ave.",
+    "depois": "**Exemplo.** A ave usa 1,5 m dos metros extras de Precisão e faz seu ataque com vantagem. Se o aprimoramento mudar para o cão, o uso ofensivo continua gasto. O cão também não recebe outros 3 m extras nessa rodada: aquele benefício já ficou preso à ave.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-005",
+    "bloco": "evocador--ev-posicao",
+    "antes": "O movimento usa o saldo da ave.",
+    "depois": "O movimento usa os metros que ainda restam à ave.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-006",
+    "bloco": "evocador--ev-turnos",
+    "antes": "Anda 4,5 m, gastando esse saldo, até alcançar o inimigo.",
+    "depois": "Anda 4,5 m desse deslocamento até alcançar o inimigo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de movimento vira os metros que restam ou os metros extras."
+  },
+  {
+    "id": "R62-007",
+    "bloco": "dano--descansos",
+    "antes": "O mestre confirma quando o descanso acontece e se o lugar é propício.",
+    "depois": "O mestre confirma quando o descanso acontece e se o lugar é um ambiente propício.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Um nome só para o conceito: ambiente propício."
+  },
+  {
+    "id": "R62-008",
+    "bloco": "dano--descansos",
+    "antes": "Um lugar propício oferece abrigo, suprimentos e meios de atendimento.",
+    "depois": "Um ambiente propício oferece abrigo, suprimentos e meios de atendimento.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Um nome só para o conceito: ambiente propício."
+  },
+  {
+    "id": "R62-009",
+    "bloco": "dano--descansos",
+    "antes": "Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.",
+    "depois": "Fora de ambiente propício, o descanso longo não soma metade da vida ou dos PE: ele garante que você termine com **pelo menos metade do máximo**. Quem já está acima da metade fica como está. Arredonde a metade para baixo; se o máximo for maior que zero, ela vale pelo menos 1.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-010",
+    "bloco": "dano--descansos",
+    "antes": "> **Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.",
+    "depois": "> **Exemplo:** ao terminar a missão fora da base, Mei tem vida máxima 23, então a metade é 11. Com 3 de vida atual, ela vai a **11**. Se tivesse 18, continuaria com 18. Um personagem com 60 PE máximos e 8 PE atuais vai a **30 PE**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-011",
+    "bloco": "origens--encarnado-beneficios",
+    "antes": "Você precisa ter um uso disponível para empregar a Reserva. A preservação não aumenta o saldo acima do máximo e não vale para o d4 concedido a um aliado.",
+    "depois": "Você precisa ter um uso disponível para usar a Reserva. Poupar o uso não leva a Reserva acima do máximo de usos e não vale para o d4 dado a um aliado.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de usos ou de PE de uma reserva vira o que resta dela."
+  },
+  {
+    "id": "R62-012",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "antes": "Quando Essência aumentar, recalcule todo o benefício, inclusive as parcelas anteriores. Não use Maestria nessa conta. Alterar o máximo não recupera toda a reserva; o saldo segue a regra geral aplicável à mudança.",
+    "depois": "Quando Essência aumentar, recalcule todo o benefício, inclusive o que já tinha sido somado antes. Não use Maestria nessa conta. Mudar o máximo não devolve todos os PE: os PE atuais seguem a regra geral de mudança de máximo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-013",
+    "bloco": "campo--inv-maxima",
+    "antes": "Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo.",
+    "depois": "Paga 25 PE: 13 de Kaito e 12 da reserva, se ela ainda tiver esses PE.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de usos ou de PE de uma reserva vira o que resta dela."
+  },
+  {
+    "id": "R62-014",
+    "bloco": "origens--restricao-prenuncio",
+    "antes": "Uma ativação impedida não consome a reserva de Reação.",
+    "depois": "Uma ativação impedida não gasta a Reação.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R62-015",
+    "bloco": "evocador--ev-vinculo",
+    "antes": "A **Reação coletiva** é uma única reserva compartilhada pelas invocações.",
+    "depois": "A **Reação coletiva** é uma Reação só, dividida entre todas as invocações: quando uma delas a gasta, nenhuma outra pode gastá-la até ela voltar.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R62-016",
+    "bloco": "evocador--ev-parceria-cobrir",
+    "antes": "- **2 Pontos de Vínculo:** a proteção dispensa o gasto e a disponibilidade dessa reserva de Reação.",
+    "depois": "- **2 Pontos de Vínculo:** a proteção não gasta essa Reação e pode ser usada mesmo que ela já tenha sido gasta.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R62-017",
+    "bloco": "guia--guia-obra-uso",
+    "antes": "**Ampliar.** Pague para aumentar uma obra existente conforme a tabela **Obras maiores**. O espaço adicional precisa estar livre. A obra conserva a vida restante e o prazo.",
+    "depois": "**Aumentar.** Pague para deixar maior uma obra que já existe, seguindo a tabela **Obras maiores**. O espaço a mais precisa estar livre. A obra continua com a vida que restava e com o mesmo prazo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Ampliar\" fica só para o feitiço; a obra do Arquiteto passa a \"Aumentar\"."
+  },
+  {
+    "id": "R62-018",
+    "bloco": "evocador--ev-principal-troca",
+    "antes": "**a substituta assume os benefícios da Trilha e o saldo das duas básicas ainda disponíveis da anterior**.",
+    "depois": "**a substituta recebe os benefícios da Trilha e as básicas que a anterior ainda tinha disponíveis**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-019",
+    "bloco": "evocador--ev-principal-troca",
+    "antes": "A substituta usa sua própria ficha. Conserve os gastos, limites compartilhados e registros de identidade. A atuação adicional precisa ter sido disponibilizada no começo do turno. A troca transmite o saldo existente.",
+    "depois": "A substituta usa sua própria ficha. Os gastos, os limites compartilhados e os registros de identidade continuam como estavam. A atuação adicional precisa ter sido liberada no começo do turno. A troca passa adiante as básicas que restavam.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-020",
+    "bloco": "evocador--ev-principal-troca",
+    "antes": "| Saldo da anterior | Saldo transmitido à substituta elegível |",
+    "depois": "| Básicas que a anterior tinha | Básicas que a substituta recebe |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-021",
+    "bloco": "evocador--ev-principal-troca",
+    "antes": "inclusive as travas de uma entidade que já atuou ou transmitiu seu saldo naquela rodada.",
+    "depois": "inclusive as travas de uma entidade que já atuou ou passou adiante suas básicas naquela rodada.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-022",
+    "bloco": "evocador--ev-principal-continuidade",
+    "antes": "Conserve os prazos e os usos já marcados no conjunto. A troca mantém seus custos e o saldo de básicas transmitido.",
+    "depois": "Os prazos e os usos já marcados no conjunto continuam valendo. A troca mantém seus custos e as básicas passadas adiante.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-023",
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "As oportunidades de básica e os saldos de substituição seguem seus próprios procedimentos.",
+    "depois": "As oportunidades de básica e as básicas passadas na substituição seguem suas próprias regras.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-024",
+    "bloco": "evocador--ev-multiplas-formacao",
+    "antes": "A nova criatura assume o saldo de básica elegível.",
+    "depois": "A nova criatura recebe a básica que a anterior ainda tinha e podia passar adiante.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de básicas vira as básicas que a anterior ainda tinha."
+  },
+  {
+    "id": "R62-025",
+    "bloco": "progressao--prog-inicio",
+    "antes": "No fim de outra missão, confira novamente o saldo. O excedente não desaparece nem permite subir vários níveis no mesmo encerramento, salvo a liberação",
+    "depois": "No fim de outra missão, confira de novo o XP guardado. O que sobra não desaparece nem permite subir vários níveis no mesmo encerramento, exceto pela liberação",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de XP vira XP guardado."
+  },
+  {
+    "id": "R62-026",
+    "bloco": "progressao--prog-xp",
+    "antes": "Confira seu saldo ao concluir a missão.",
+    "depois": "Confira seu XP guardado ao concluir a missão.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" de XP vira XP guardado."
+  },
+  {
+    "id": "R62-027",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "Atualize os saldos conforme a regra abaixo.",
+    "depois": "Atualize a vida atual e os PE atuais pela regra abaixo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-028",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "Ajustes posteriores dos máximos não acrescentam vida ou PE ao saldo.",
+    "depois": "Ajustes posteriores dos máximos não somam nada à vida atual nem aos PE atuais.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-029",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "**Sem essa permissão, somente o aumento de máximo produzido pelo novo nível e seu marco acrescenta a diferença ao saldo atual**, calculada com a ficha anterior à troca de Trilha. Assim, conserva o dano ou o PE que faltavam antes desse crescimento.",
+    "depois": "**Sem essa permissão, você soma à vida atual e aos PE atuais só o quanto o máximo subiu com o novo nível e o marco.** Faça essa conta com a ficha de antes da troca de Trilha. O dano sofrido e os PE gastos antes da subida continuam faltando.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-030",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "**Troca de Trilha e outros ajustes da ficha não aumentam os saldos atuais.** Se alterarem um máximo, conserve o saldo e apenas limite-o ao novo máximo.",
+    "depois": "**Troca de Trilha e outros ajustes da ficha não aumentam a vida atual nem os PE atuais.** Se um ajuste mudar o máximo, você continua com o que tinha; só corte o que passar do novo máximo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Vida e PE do momento viram vida atual e PE atuais."
+  },
+  {
+    "id": "R62-031",
+    "bloco": "emanador--ema-remodelar",
+    "antes": "retire a diferença das parcelas de dano, cura ou vida temporária registradas, sem aumentar nenhuma delas nem transferir saldo entre funções.",
+    "depois": "retire a diferença das quantidades de dano, cura ou vida temporária registradas, sem aumentar nenhuma delas nem passar [pontos que sobram](#fundamento-link-saldo) de uma função para outra.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-032",
+    "bloco": "emanador--ema-forma",
+    "antes": "As funções e a distribuição do saldo da ficha permanecem.",
+    "depois": "As funções e a divisão dos pontos que sobram, registradas na ficha, continuam as mesmas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-033",
+    "bloco": "emanador--ema-forma",
+    "antes": "A versão não pode ganhar saldo pela troca e respeita os tetos das funções da ficha.",
+    "depois": "A troca não pode deixar a versão com mais pontos que sobram, e ela respeita os tetos das funções da ficha.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-034",
+    "bloco": "fundamento--tecnica",
+    "antes": "da vida temporária pelo saldo e das opções",
+    "depois": "da vida temporária paga com os pontos que sobram e das opções",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-035",
+    "bloco": "fundamento--selo",
+    "antes": "O dano pode vir dos pontos reservados a ele;",
+    "depois": "O dano pode vir dos pontos destinados a ele;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-036",
+    "bloco": "fundamento--selo",
+    "antes": "**[Saldo](#fundamento-link-saldo).** Pontos restantes após os custos e as devoluções aproveitadas. Você pode reservá-los para dano, cura ou vida temporária, conforme as funções e os limites da ficha.",
+    "depois": "**[Pontos que sobram](#fundamento-link-saldo).** Os pontos que ficam depois de pagar os custos e somar as devoluções que você aproveitou. Você pode destiná-los a dano, cura ou vida temporária, dentro das funções e dos limites da ficha.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-037",
+    "bloco": "fundamento--selo",
+    "antes": "5. **Calcule o saldo e registre os resultados.**",
+    "depois": "5. **Calcule os pontos que sobram e anote os resultados.**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-038",
+    "bloco": "fundamento--selo",
+    "antes": "[Pontos e preços](#fundamento--pontos), [Funções e saldo](#fundamento--funcoes) e [Formas]",
+    "depois": "[Pontos e preços](#fundamento--pontos), [Funções e pontos que sobram](#fundamento--funcoes) e [Formas]",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-039",
+    "bloco": "fundamento--primeiro",
+    "antes": "##### Confira o saldo",
+    "depois": "##### Confira os pontos que sobram",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-040",
+    "bloco": "fundamento--primeiro",
+    "antes": "| Saldo | **2** |",
+    "depois": "| Pontos que sobram | **2** |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-041",
+    "bloco": "fundamento--primeiro",
+    "antes": "Mei reserva os **2 pontos de saldo para dano**, obtendo **2d8 de Cortante**. Empurrão conserva seu deslocamento de até 6 m. Se ela quisesse uma aplicação que apenas movesse o alvo, poderia descartar o saldo; os 6 m da Melhoria permaneceriam.",
+    "depois": "Mei destina os **2 pontos que sobram ao dano**, obtendo **2d8 de Cortante**. Empurrão continua movendo o alvo até 6 m. Se ela quisesse uma aplicação que só movesse o alvo, poderia descartar esses pontos; os 6 m da Melhoria continuariam valendo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-042",
+    "bloco": "fundamento--primeiro",
+    "antes": "Dano: 2 pontos de saldo, que produzem 2d8 de Cortante.",
+    "depois": "Dano: os 2 pontos que sobram produzem 2d8 de Cortante.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-043",
+    "bloco": "fundamento--primeiro",
+    "antes": "Saldo 2 destinado a dano. |",
+    "depois": "2 pontos que sobram, destinados a dano. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-044",
+    "bloco": "fundamento--classezero",
+    "antes": "pois a Classe 0 usa dados-base e dispensa o saldo de pontos.",
+    "depois": "pois a Classe 0 usa dados-base e não usa pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-045",
+    "bloco": "fundamento--familias",
+    "antes": "| Cura direta e vida temporária pelo saldo |",
+    "depois": "| Cura direta e vida temporária pagas com os pontos que sobram |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-046",
+    "bloco": "fundamento--familias",
+    "antes": "Para recuperar vida pelo saldo, por exemplo,",
+    "depois": "Para recuperar vida com os pontos que sobram, por exemplo,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-047",
+    "bloco": "fundamento--pontos",
+    "antes": "4. **Saldo:** dos pontos iniciais, retire a base e as Melhorias, depois acrescente a devolução aproveitada.",
+    "depois": "4. **Pontos que sobram:** dos pontos iniciais, tire a base e as Melhorias e depois some a devolução aproveitada.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-048",
+    "bloco": "fundamento--pontos",
+    "antes": "**Saldo = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**",
+    "depois": "**Pontos que sobram = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-049",
+    "bloco": "fundamento--pontos",
+    "antes": "A montagem deve terminar com saldo igual ou maior que zero.",
+    "depois": "A montagem precisa terminar com zero ou mais pontos sobrando.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-050",
+    "bloco": "fundamento--pontos",
+    "antes": "O saldo **9 − 3 − 0 − 3 = 3** fornece 3d8",
+    "depois": "Os pontos que sobram, **9 − 3 − 0 − 3 = 3**, dão 3d8",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-051",
+    "bloco": "fundamento--funcoes",
+    "antes": "#### Funções e saldo",
+    "depois": "#### Funções e pontos que sobram",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-052",
+    "bloco": "fundamento--funcoes",
+    "antes": "O saldo determina a quantidade de dano, cura ou vida temporária que o feitiço pode produzir.",
+    "depois": "Os pontos que sobram decidem quanto dano, cura ou vida temporária o feitiço pode produzir.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-053",
+    "bloco": "fundamento--funcoes",
+    "antes": "| Cada ponto reservado vira 1d8 de dano. |",
+    "depois": "| Cada ponto destinado vira 1d8 de dano. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-054",
+    "bloco": "fundamento--funcoes",
+    "antes": "| Cada ponto reservado vira 1d8 de cura. Exige Amparo. |",
+    "depois": "| Cada ponto destinado vira 1d8 de cura. Exige Amparo. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-055",
+    "bloco": "fundamento--funcoes",
+    "antes": "| Cada ponto reservado vira 3 pontos de vida temporária. Exige Amparo. |",
+    "depois": "| Cada ponto destinado vira 3 pontos de vida temporária. Exige Amparo. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-056",
+    "bloco": "fundamento--funcoes",
+    "antes": "Essas quantidades se mantêm mesmo quando sobra saldo.",
+    "depois": "Essas quantidades não mudam mesmo quando sobram pontos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-057",
+    "bloco": "fundamento--funcoes",
+    "antes": "##### Escolha o destino do saldo",
+    "depois": "##### Escolha o destino dos pontos que sobram",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-058",
+    "bloco": "fundamento--funcoes",
+    "antes": "Na criação, distribua o saldo entre as funções",
+    "depois": "Na criação, divida os pontos que sobram entre as funções",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-059",
+    "bloco": "fundamento--funcoes",
+    "antes": "tem **9 − 3 = 6 pontos de saldo**. Pode reservar quatro à cura",
+    "depois": "tem **9 − 3 = 6 pontos que sobram**. Pode destinar quatro à cura",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-060",
+    "bloco": "fundamento--funcoes",
+    "antes": "Reserve pelo menos um ponto para cada função variável registrada na ficha. Um feitiço com saldo zero ainda pode",
+    "depois": "Destine pelo menos um ponto a cada função variável registrada na ficha. Um feitiço sem pontos sobrando ainda pode",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-061",
+    "bloco": "fundamento--funcoes",
+    "antes": "Use-o como limite da distribuição, mantendo o saldo calculado.",
+    "depois": "Use esse teto como limite da divisão, sem mudar a conta dos pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-062",
+    "bloco": "fundamento--funcoes",
+    "antes": "O saldo pode superar o teto de uma função. Nesse caso, o excedente destinado a ela fica sem uso e permanece nessa distribuição durante a conjuração.",
+    "depois": "Os pontos que sobram podem passar do teto de uma função. Nesse caso, os pontos destinados a ela além do teto ficam sem uso e continuam nessa divisão durante a conjuração.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-063",
+    "bloco": "fundamento--formas",
+    "antes": "O saldo é **9 − 2 + 2 = 9**, destinado a **9d8 de dano**.",
+    "depois": "Sobram **9 − 2 + 2 = 9** pontos, destinados a **9d8 de dano**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-064",
+    "bloco": "fundamento--alcance",
+    "antes": "Com ambas, o saldo de dano é 6 − Forma 2 − Longe 1 − Maior 1 = 2d8,",
+    "depois": "Com ambas, os pontos que sobram para o dano dão 6 − Forma 2 − Longe 1 − Maior 1 = 2d8,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-065",
+    "bloco": "fundamento--combinacoes",
+    "antes": "Depois das devoluções válidas, distribua o saldo entre as funções que usam pontos,",
+    "depois": "Depois das devoluções válidas, divida os pontos que sobram entre as funções que usam pontos,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-066",
+    "bloco": "fundamento--combinacoes",
+    "antes": "| Escolha as funções e reserve os pontos de saldo de cada uma.",
+    "depois": "| Escolha as funções e destine a cada uma os pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-067",
+    "bloco": "fundamento--mesclas",
+    "antes": "refaça os custos e o saldo com o desconto correspondente.",
+    "depois": "refaça os custos e os pontos que sobram com o desconto correspondente.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-068",
+    "bloco": "fundamento--mesclas",
+    "antes": "| Saldo | **4** |",
+    "depois": "| Pontos que sobram | **4** |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-069",
+    "bloco": "fundamento--mesclas",
+    "antes": "**4. Distribua o saldo na criação.** Reserve dois pontos para dano e dois para cura.",
+    "depois": "**4. Divida os pontos que sobram na criação.** Destine dois pontos ao dano e dois à cura.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-070",
+    "bloco": "fundamento--mesclas",
+    "antes": "| Função | Pontos reservados | Resultado registrado |",
+    "depois": "| Função | Pontos destinados | Resultado registrado |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-071",
+    "bloco": "fundamento--mesclas",
+    "antes": "Ferir e recuperar usa os dados de cura reservados pelo saldo.",
+    "depois": "Ferir e recuperar usa os dados de cura pagos com os pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-072",
+    "bloco": "fundamento--mesclas",
+    "antes": "| Saldo | **3** |",
+    "depois": "| Pontos que sobram | **3** |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-073",
+    "bloco": "fundamento--mesclas",
+    "antes": "**Funções e distribuição:** reserve dois pontos para **2d8 de dano**",
+    "depois": "**Funções e distribuição:** destine dois pontos a **2d8 de dano**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-074",
+    "bloco": "fundamento--mesclas",
+    "antes": "| Saldo | **1** |",
+    "depois": "| Pontos que sobram | **1** |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-075",
+    "bloco": "fundamento--mesclas",
+    "antes": "**Funções e distribuição:** o ponto de saldo fornece **1d8 de cura** por aliado elegível,",
+    "depois": "**Funções e distribuição:** o ponto que sobra dá **1d8 de cura** por aliado válido,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-076",
+    "bloco": "fundamento--controle",
+    "antes": "Depois de calcular o saldo de um feitiço comum",
+    "depois": "Depois de calcular os pontos que sobram de um feitiço comum",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-077",
+    "bloco": "fundamento--controle",
+    "antes": "sem superar o saldo. |",
+    "depois": "sem passar dos pontos que sobram. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-078",
+    "bloco": "fundamento--controle",
+    "antes": "| Descarta o saldo inteiro. |",
+    "depois": "| Descarta todos os pontos que sobram. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-079",
+    "bloco": "fundamento--controle",
+    "antes": "Você pode descartar o saldo que deixar de usar.",
+    "depois": "Você pode descartar os pontos que sobram e que você não vai usar.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-080",
+    "bloco": "fundamento--controle",
+    "antes": "Ao Ampliar, conserve-a: sem dano permanece sem dano; dano limitado à Classe usa o limite da nova Classe, ou o saldo disponível se ele for menor.",
+    "depois": "Ao Ampliar, mantenha a opção: sem dano continua sem dano; dano limitado à Classe usa o limite da nova Classe, ou os pontos que sobram, se forem menos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-081",
+    "bloco": "fundamento--controle",
+    "antes": "A opção sem dano exige descartar todo o saldo.",
+    "depois": "A opção sem dano exige descartar todos os pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-082",
+    "bloco": "fundamento--controle",
+    "antes": "| Saldo | **0** |",
+    "depois": "| Pontos que sobram | **0** |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-083",
+    "bloco": "fundamento--controle",
+    "antes": "O gasto seria **4 + 4 + 1 = 9**, com saldo 3.",
+    "depois": "O gasto seria **4 + 4 + 1 = 9**, sobrando 3 pontos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-084",
+    "bloco": "fundamento--aplicacoes",
+    "antes": "O saldo 2 concede **6 de vida temporária**.",
+    "depois": "Os 2 pontos que sobram dão **6 de vida temporária**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-085",
+    "bloco": "fundamento--danolimites",
+    "antes": "Primeiro, calcule os dados iniciais pelo saldo de pontos da montagem.",
+    "depois": "Primeiro, calcule os dados iniciais pelos pontos que sobram na montagem.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-086",
+    "bloco": "fundamento--danolimites",
+    "antes": "não aumenta o saldo de pontos nem concede dados por conta própria.",
+    "depois": "não aumenta os pontos que sobram nem dá dados por conta própria.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-087",
+    "bloco": "fundamento--persistente",
+    "antes": "Sem Restrições, o saldo **15 − 3 − 2 = 10** fornece 10d8 de dano inicial.",
+    "depois": "Sem Restrições, sobram **15 − 3 − 2 = 10** pontos, que dão 10d8 de dano inicial.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-088",
+    "bloco": "fundamento--efeito",
+    "antes": "o saldo restante fica sem uso.",
+    "depois": "os pontos que sobram ficam sem uso.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-089",
+    "bloco": "fundamento--ampliar",
+    "antes": "3. Distribua o saldo entre as mesmas funções.",
+    "depois": "3. Divida os pontos que sobram entre as mesmas funções.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-090",
+    "bloco": "fundamento--ampliar",
+    "antes": "aplique o saldo normalmente;",
+    "depois": "use os pontos que sobram normalmente;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-091",
+    "bloco": "fundamento--ampliar",
+    "antes": "Um feitiço com saldo zero pode produzir",
+    "depois": "Um feitiço sem pontos sobrando pode produzir",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-092",
+    "bloco": "fundamento--ampliar",
+    "antes": "| Classe e PE | Conta do saldo | Dano | Cura |",
+    "depois": "| Classe e PE | Conta dos pontos que sobram | Dano | Cura |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-093",
+    "bloco": "fundamento--proprio",
+    "antes": "deixam saldo **9 − 0 − 3 = 6**, descartado.",
+    "depois": "deixam **9 − 0 − 3 = 6** pontos sobrando, descartados.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-094",
+    "bloco": "catalogo--melhoria-mais-um",
+    "antes": "A divisão do saldo entre funções fica registrada na criação;",
+    "depois": "A divisão dos pontos que sobram entre as funções fica registrada na criação;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-095",
+    "bloco": "catalogo--melhoria-mais-um",
+    "antes": "Para causar dano a esse destinatário, reserve pelo menos um dado para ele.",
+    "depois": "Para causar dano a esse destinatário, destine pelo menos um dado a ele.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-096",
+    "bloco": "catalogo--restricao-queima-roupa",
+    "antes": "o saldo é **9 − 2 − 3 + 2 = 6d8**.",
+    "depois": "os pontos que sobram dão **9 − 2 − 3 + 2 = 6d8**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-097",
+    "bloco": "rotas--rota-sementes",
+    "antes": "conforme Funções e saldo.",
+    "depois": "como explica a seção Funções e pontos que sobram.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-098",
+    "bloco": "rotas--rota-espinho",
+    "antes": "O saldo fica **6 − 2 + 1 = 5**.",
+    "depois": "Sobram **6 − 2 + 1 = 5** pontos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-099",
+    "bloco": "construcao--entidades-especiais",
+    "antes": "4. **Calcule o saldo.**",
+    "depois": "4. **Calcule os pontos que sobram.**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-100",
+    "bloco": "construcao--entidades-formas",
+    "antes": "as funções de [Funções e saldo](#fundamento--funcoes) e as seis",
+    "depois": "as funções de [Funções e pontos que sobram](#fundamento--funcoes) e as seis",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-101",
+    "bloco": "construcao--entidades-formas",
+    "antes": "Cobre a Forma uma vez e calcule o saldo a partir dos pontos da entidade",
+    "depois": "Cobre a Forma uma vez e calcule os pontos que sobram a partir dos pontos da entidade",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-102",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "# Saldo e limites",
+    "depois": "# Pontos que sobram e limites",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-103",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "Uma devolução excedente se perde. O saldo de uma especial comum nunca ultrapassa seus pontos iniciais.",
+    "depois": "A devolução que passar desse limite se perde. Os pontos que sobram de uma especial comum nunca passam dos pontos iniciais dela.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-104",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.",
+    "depois": "Uma segunda devolução que levasse os pontos que sobram acima de 4 perderia o que passasse disso.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-105",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "Na cura individual, cada ponto reservado vira 1d8,",
+    "depois": "Na cura individual, cada ponto destinado vira 1d8,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-106",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "converte cada ponto reservado em 3,",
+    "depois": "converte cada ponto destinado em 3,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-107",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "Use essa conta para limitar o saldo destinado às duas funções,",
+    "depois": "Use essa conta para limitar os pontos destinados às duas funções,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-108",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "O saldo é zero e não existe cura nessa ficha.",
+    "depois": "Não sobram pontos, e não existe cura nessa ficha.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Saldo\" da montagem vira pontos que sobram; \"reservar pontos\" vira destinar."
+  },
+  {
+    "id": "R62-109",
+    "bloco": "consulta--consulta-glossario-3",
+    "antes": "Sua quantidade segue o saldo reservado ou a Melhoria escolhida.",
+    "depois": "Sua quantidade vem dos pontos destinados a ela ou da Melhoria escolhida.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Glossário acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-110",
+    "bloco": "consulta--consulta-glossario-5",
+    "antes": "[Saldo](#fundamento-link-saldo). Pontos restantes após pagar os custos da montagem e aproveitar as devoluções válidas. Sua distribuição segue as funções registradas na ficha.\n\n",
+    "depois": "",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Glossário acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-111",
+    "bloco": "consulta--consulta-glossario-5",
+    "antes": "[Pontos de Ritual](#ritual--ritual). Recurso concedido pela modalidade de Ritual para comprar suas Melhorias. Vale apenas para aquela conjuração.\n",
+    "depois": "[Pontos de Ritual](#ritual--ritual). Recurso concedido pela modalidade de Ritual para comprar suas Melhorias. Vale apenas para aquela conjuração.\n\n[Pontos que sobram](#fundamento-link-saldo). Pontos que ficam depois de pagar os custos da montagem e somar as devoluções válidas. Você os divide entre as funções registradas na ficha.\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Glossário acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-112",
+    "bloco": "consulta--consulta-glossario-1",
+    "antes": "[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida conforme a capacidade.\n",
+    "depois": "[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida conforme a capacidade.\n\n[Ambiente propício](#dano--descansos). Lugar com abrigo, suprimentos e meios de atendimento, como a escola ou um hospital. Nele, o descanso longo devolve toda a vida e todos os PE.\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Glossário acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-113",
+    "bloco": "consulta--consulta-indice-10",
+    "antes": "\n[Saldo](#fundamento-link-saldo)\n",
+    "depois": "\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Índice acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-114",
+    "bloco": "consulta--consulta-indice-8",
+    "antes": "\n[Pontos de Vínculo](#indice-r55-13)\n",
+    "depois": "\n[Pontos de Vínculo](#indice-r55-13)\n\n[Pontos que sobram](#fundamento-link-saldo)\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Índice acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-115",
+    "bloco": "consulta--consulta-indice-5",
+    "antes": "\n[Funções e saldo](#fundamento--funcoes)\n",
+    "depois": "\n[Funções e pontos que sobram](#fundamento--funcoes)\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Índice acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-116",
+    "bloco": "consulta--consulta-indice-1",
+    "antes": "\n[Alvo de Caça](#catalogo--melhoria-alvo-de-caca)\n",
+    "depois": "\n[Alvo de Caça](#catalogo--melhoria-alvo-de-caca)\n\n[Ambiente propício](#dano--descansos)\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Índice acompanha o nome novo e ganha Ambiente propício."
+  },
+  {
+    "id": "R62-117",
+    "bloco": "geral--concentracao",
+    "antes": "**Inconsciente encerra a concentração.**",
+    "depois": "**Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-118",
+    "bloco": "geral--quedas",
+    "antes": "Resistência a Concussão e Vida temporária se aplicam normalmente.",
+    "depois": "Resistência a Concussão e [Vida temporária](#dano--temporarios), a reserva separada que absorve dano antes da vida, se aplicam normalmente.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-119",
+    "bloco": "dano--condicoes",
+    "antes": "**Inconsciente, Morrendo, Derrotado, Exaustão e Invisível** têm regras próprias.",
+    "depois": "**Inconsciente, Morrendo, Derrotado, [Exaustão](#dano--exaustao) e Invisível** têm regras próprias. A Exaustão é o desgaste acumulado ao participar de várias lutas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-120",
+    "bloco": "dano--medias",
+    "antes": "A **Kata**, aplicação de uma Técnica Marcial, segue a mesma exigência",
+    "depois": "A **Kata**, aplicação de uma [Técnica Marcial](#rotas--rota-marcial) (rota de criação baseada num estilo de luta e no seu equipamento), segue a mesma exigência",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-121",
+    "bloco": "origens--origem-latente",
+    "antes": "executar um feitiço ou Manejo de **Classe 1 ou maior**",
+    "depois": "executar um feitiço ou um [Manejo](#rotas--rota-sem-tecnica) (aplicação criada pela rota Sem Técnica) de **Classe 1 ou maior**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-122",
+    "bloco": "origens--receptaculo-excecoes",
+    "antes": "Não concede uma Aptidão ou outra Regra.",
+    "depois": "Não concede uma [Aptidão](#aptidoes--apt-refino) (capacidade do catálogo de Aptidões e Refino) nem outra Regra.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  },
+  {
+    "id": "R62-123",
+    "bloco": "vanguarda--van-executor",
+    "antes": "| 11 | Troca de Intenção |",
+    "depois": "| 11 | Troca de [Intenção](#campo--inv-intencao) |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Termo de jogo explicado no primeiro uso, com o texto do Glossário."
+  }
+]

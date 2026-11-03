@@ -433,6 +433,9 @@ MORTOS = {
     # v0.334: o nome do sistema, o do livro final do Mizuki (Ciclo Maldito R28a).
     'Projeto - M': 'o nome do sistema virou Ciclo Maldito na v0.334',
     'Projeto M': 'o nome do sistema virou Ciclo Maldito na v0.334',
+    # v0.372: linguagem simples na R62 do livro. Ancoras e chaves de codigo continuam
+    # `saldo`, em minuscula, e esta checagem so' acusa o termo capitalizado.
+    'Saldo': 'virou "pontos que sobram" na v0.372, com a R62 do livro',
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que

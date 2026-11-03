@@ -1,0 +1,3 @@
+Scripts da composição R62 preservados como registro. Ambiente completo de geração: /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r62/composicao. Os scripts dependem dos recursos e módulos desse ambiente; esta pasta não é um pacote autônomo de geração. A R61 permanece preservada em seu diretório e no histórico do Git.
+
+Mudança de composição da R62: em gerar_livro.py, o contexto do bloco fundamento--funcoes (cabeçalho corrido e etiqueta de continuação) e a linha do sumário passaram de "Funções e saldo" para "Funções e pontos que sobram". Em fluxo_continuo.py, a regra R40 passou a manter a fórmula da vida máxima junto da introdução terminada em dois-pontos (revisão visual, página 243). O resto da composição é o da R61.

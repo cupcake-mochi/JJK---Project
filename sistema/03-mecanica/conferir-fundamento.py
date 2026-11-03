@@ -7,6 +7,7 @@ inválidas. A revisão de requisitos narrativos e o teste de mesa são separados
 import copy
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 import livro
@@ -103,7 +104,7 @@ for un,anc,trechos in [
     ('fundamento','classezero',['Vida temporária permanece indisponível','sem criar pontos de montagem']),
     ('rotas','rotas',['mesma tabela de pontos e PE','O Restringido Sem Energia usa Técnica Marcial']),
     ('construcao','entidades-controle',['Condições Médias e Pesadas','especial comandada ativamente']),
-    ('emanador','ema-forma',['As funções e a distribuição do saldo da ficha permanecem','A versão não pode ganhar saldo pela troca']),
+    ('emanador','ema-forma',['As funções e a divisão dos pontos que sobram, registradas na ficha, continuam as mesmas','A troca não pode deixar a versão com mais pontos que sobram']),
     ('emanador','ema-manifestacao',['Aura permanece centrada em você','Queima-Roupa conserva seus alvos']),
     ('ritual','rit-parcelas',['Com Mais Um','menor parcela','não amplia uma aplicação de cura ou apoio coletivo']),
     ('construcao','entidades-medidas',['A distância até um alvo ou ponto usa a Classe real','Classe real do uso + 1']),
@@ -132,8 +133,19 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r61/BLOCOS-R61.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r62/BLOCOS-R62.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
+# R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
+# Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
+# "saldo": o leitor não as vê. A conta ignora comentário, âncora e destino de link.
+def _saldo_visivel(t):
+    t=re.sub(r'<!--.*?-->','',t,flags=re.S);t=re.sub(r'<a [^>]*></a>','',t);t=re.sub(r'\]\([^)]*\)',']',t)
+    return len(re.findall(r'\b[Ss]aldos?\b',t))
+_livro_md=Path(livro.R41).read_text(encoding='utf-8')
+check('Nenhum "saldo" visível no livro (R62: virou pontos que sobram)',_saldo_visivel(_livro_md)==0)
+check('Contra-teste: um "saldo" no texto é contado',_saldo_visivel(_livro_md+'\nO saldo volta.')==1)
+check('Contra-teste: âncora e destino de link com saldo não contam',_saldo_visivel('<a id="fundamento-link-saldo"></a>[Pontos que sobram](#fundamento-link-saldo)')==0)
+check('Fórmula publicada com o nome novo','**Pontos que sobram = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**' in _livro_md)
 meta=json.loads((base.parent/'EDICAO-ATUAL.json').read_text())
 for ed in ['claro','noturno']:
     p=base.parent/meta[ed]['arquivo']
