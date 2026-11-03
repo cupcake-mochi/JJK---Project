@@ -9,7 +9,7 @@ O grupo usa três perfis de nível 2:
 - **Emanador**, com 14 PV;
 - **Guia**, com 17 PV e cura de 2d8.
 
-Os três usam Insistir ao cair e não usam Bloquear. Atacam o primeiro inimigo de pé, conjuram enquanto têm PE e atendem quem cai.
+Os três usam Insistir ao cair e não usam Bloquear. Atacam o primeiro inimigo de pé, conjuram enquanto têm PE e atendem quem cai. O Amontoado usa a ficha da missão: Impacto concentrado com Recarga (5–6).
 
 O simulador não representa posição, cobertura nem escolhas táticas dos jogadores. O que muda em cada linha está indicado nela; o resto fica igual.
 
@@ -23,11 +23,11 @@ Em cada linha:
 
 | Grupo entra com… | queda | derrota |
 |---|---:|---:|
-| vida cheia, sem Sequelas | 21% | menos de 1% |
-| 75% da vida | 36% | 2% |
-| metade da vida | 60% | 4% |
-| metade da vida e 1 Sequela | 60% | 13% |
-| metade da vida e 2 Sequelas | 60% | 24% |
+| vida cheia, sem Sequelas | 15% | menos de 1% |
+| 75% da vida | 31% | 1% |
+| metade da vida | 54% | 2% |
+| metade da vida e 1 Sequela | 54% | 10% |
+| metade da vida e 2 Sequelas | 54% | 18% |
 
 O mesmo Amontoado vai de tranquilo a perigoso só pelo que aconteceu antes. **A vida atual decide quantas pessoas caem; as Sequelas decidem quantas quedas viram derrota**, porque encurtam o prazo de socorro.
 
@@ -35,18 +35,18 @@ O mesmo Amontoado vai de tranquilo a perigoso só pelo que aconteceu antes. **A 
 
 | O Amontoado ataca… | queda | derrota |
 |---|---:|---:|
-| quem está na frente | 21% | menos de 1% |
-| um alvo sorteado | 29% | menos de 1% |
-| quem tem menos vida | 48% | 1% |
+| quem está na frente | 15% | menos de 1% |
+| um alvo sorteado | 24% | menos de 1% |
+| quem tem menos vida | 42% | menos de 1% |
 
-Escolher o mais ferido dobra as quedas sem mudar a ficha. Com alguém curando, a derrota quase não sobe. Decida antes da cena como a criatura escolhe alvos e mostre isso na ficção, como em [Prepare uma escolha de alvo](<../06-inimigos-e-perigos.md#prepare-uma-escolha-de-alvo>).
+Escolher o mais ferido quase triplica as quedas sem mudar a ficha. Com alguém curando, a derrota quase não sobe. Decida antes da cena como a criatura escolhe alvos e mostre isso na ficção, como em [Prepare uma escolha de alvo](<../06-inimigos-e-perigos.md#prepare-uma-escolha-de-alvo>).
 
 ### 3. Quantas vezes o lado inimigo age
 
 | Contra o trio | queda | derrota |
 |---|---:|---:|
-| um corpo com 32 PV | 11% | menos de 1% |
-| dois corpos com 16 PV cada | 30% | 2% |
+| um corpo com 32 PV | 8% | menos de 1% |
+| dois corpos com 16 PV cada | 26% | 2% |
 
 A duração quase não muda, mas dois corpos agem duas vezes por rodada. **Dividir a vida em dois corpos acrescenta ações ao lado inimigo.** Conte essa ação a mais antes de dividir uma criatura.
 
@@ -56,17 +56,17 @@ Aqui a cena continua depois de o inimigo cair, até ninguém estar Morrendo.
 
 | Quem cura precisa de… | trio | dupla (Bastião e Guia) |
 |---|---:|---:|
-| nenhum turno para chegar | 1% | 8% |
+| nenhum turno para chegar | 1% | 11% |
 | 1 turno | 3% | 12% |
-| 2 turnos | 11% | 25% |
+| 2 turnos | 8% | 20% |
 
-A tabela mostra a derrota com o inimigo atacando quem está na frente. Se ele atacar o mais ferido, 2 turnos de distância levam o trio a 24% e a dupla a 40%.
+A tabela mostra a derrota com o inimigo atacando quem está na frente. Se ele atacar o mais ferido, 2 turnos de distância levam o trio a 22% e a dupla a 38%.
 
 A janela de Morrendo dura poucas rodadas, e o socorro a 2 turnos chega tarde com frequência.
 
 ### 5. A vida do inimigo
 
-Com quatro ou seis personagens contra o mesmo Amontoado de 48 PV, as quedas caem para 13% e 4%. **Aumentar a vida na proporção do grupo** (64 PV para quatro, 96 para seis) mantém as quedas perto de 20%. Com dois personagens, reduzir para 32 PV traz as quedas a 21%. Mesmo assim a derrota continua maior que a do trio, porque ninguém mais cura se a Guia cair.
+Com quatro ou seis personagens contra o mesmo Amontoado de 48 PV, as quedas caem para 8% e 3%. **Aumentar a vida na proporção do grupo** (64 PV para quatro, 96 para seis) traz as quedas de volta a 12% ou 13%, perto dos 15% do trio. Com dois personagens, reduzir para 32 PV traz as quedas a 15%. Mesmo assim a derrota continua maior que a do trio, porque ninguém mais cura se a Guia cair.
 
 ## Tabelas gerais de dificuldade
 

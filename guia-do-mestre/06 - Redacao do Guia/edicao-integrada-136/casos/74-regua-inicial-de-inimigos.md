@@ -112,9 +112,9 @@ Contra os TRs Físicos +4, +3 e +2 do exemplo de nível 2, CD 12 produz falha em
 
 Se Agarrar substitui o único ataque, a criatura abre mão do dano naquela Padrão. Se substitui um de dois ataques, ainda há uma Pancada disponível. Não trate as duas contenções como a mesma pressão só porque têm a mesma CD.
 
-Para capacidades próprias, escolha o recurso pelo funcionamento desejado, conforme [PE, recarga e limites de uso](<59-recursos-e-ritmo-dos-inimigos.md>). PE podem limitar uma sequência, mas não fazem um inimigo de uma única luta poupar espontaneamente. Preparação, intervalo, condição de uso e disputa pela mesma ação também podem organizar a frequência. Nem toda habilidade especial precisa desses limites.
+Inimigos não contam PE. Escolha o rótulo de frequência pelo funcionamento desejado, conforme [Rótulos, recarga e preparação](<59-recursos-e-ritmo-dos-inimigos.md>): à vontade, 1× por rodada, 1× por luta ou Recarga (5–6). Preparação, condição de uso e disputa pela mesma ação também organizam a frequência. Nem toda habilidade especial precisa desses limites.
 
-Ao usar PE, escreva reserva, custo e interações reais. Ao usar outra forma de limitar a habilidade, escreva início, término, repetição e o que interrompe. Uma criatura com 0/0 PE pode conservar energia perceptível e capacidades corporais. Isso não autoriza apresentar uma conjuração como corporal apenas para ignorar as interações do Livro de Regras 1.0.
+Escreva o rótulo junto da habilidade. Numa preparação, escreva início, término, repetição e o que interrompe. Uma criatura sem reserva gastável conserva energia perceptível, técnica e capacidades corporais. Isso não autoriza apresentar uma conjuração como corporal apenas para ignorar as interações do Livro de Regras 1.0.
 
 ## Termine a ficha antes da mesa
 

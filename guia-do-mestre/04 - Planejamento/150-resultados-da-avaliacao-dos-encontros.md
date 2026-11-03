@@ -77,7 +77,7 @@ Busca na R60 (`LIVRO-COMPLETO-R60.md`): o livro não define reserva de PE para i
 
 A decisão vale então como **inimigo sem PE**. O Sineiro já segue esse modelo, com 0 PE e capacidades por preparação.
 
-**A aplicação ainda não foi feita.** O guia usa PE de inimigo em cerca de 32 arquivos. Os principais são a primeira missão, o Amontoado, Toru e Sayo, a seção 6.3 e os casos 14, 52, 57, 59, 60, 75, 76 e 77. A Doma também depende disso. A mudança mexe em mecânica e em muitos arquivos, por isso a proposta de troca vai ao autor antes de qualquer edição.
+**A aplicação ainda não foi feita** neste registro; ela entrou no [registro 151](<151-inimigo-sem-pe-aplicado.md>). O guia usa PE de inimigo em cerca de 32 arquivos. Os principais são a primeira missão, o Amontoado, Toru e Sayo, a seção 6.3 e os casos 14, 52, 57, 59, 60, 75, 76 e 77. A Doma também depende disso. A mudança mexe em mecânica e em muitos arquivos, por isso a proposta de troca vai ao autor antes de qualquer edição.
 
 ## Limites
 

@@ -12,7 +12,7 @@ Tenha o texto completo da capacidade: ação, requisitos, resolução, pagamento
 |---|---|
 | Falta um requisito antes do uso | O que impede a declaração e quais gastos ainda não aconteceram? |
 | O ataque erra, o alvo resiste ou o preparo é interrompido | Quais custos permanecem e que regra permite eventual devolução? |
-| A Integridade passa de estágio | A capacidade é um feitiço afetado pelo acréscimo por Classe? Que outras penalidades cumulativas passam a valer? |
+| A Integridade passa de estágio | A capacidade é um feitiço? Sem PE, o acréscimo por Classe não tem efeito. Que outras penalidades cumulativas passam a valer? |
 | A Reação já foi gasta | A capacidade continua disponível por outra permissão expressa, ou precisa esperar o próximo turno próprio? |
 | O corpo, a mão, a voz ou o equipamento fica impedido | Qual requisito realmente deixou de ser cumprido? Não tratar Agarrado como silêncio ou mãos presas. |
 | Rescaldo, cancelamento ou manutenção | A capacidade depende da Técnica Inata? Qual regra pode interrompê-la, em que momento e com qual resultado? |

@@ -8,7 +8,7 @@ O encontro principal de [As batidas no anexo](<../01-sua-primeira-missao.md#15-j
 
 Aplicam-se as regras atuais de turnos, testes, ataques, Bloquear, crítico, dano, Integridade, socorro e derrota. O nível 2 fornece Maestria 1; ataque físico usa Força, a Defesa sem proteção usa Destreza e as conjurações usam o atributo registrado. As montagens ofensivas de Classe 1 têm três pontos, custo de 3 PE e nenhuma Melhoria ou Restrição: os três pontos viram 3d8. Toque não produz um quarto dado quando não há Melhoria paga para recuperar.
 
-**Escolhas novas desta base:** os totais de vida, as reservas de PE dos inimigos, as distribuições de atributos, treinos, anatomias e comportamentos. O Livro de Regras 1.0 não fornece aqui uma fórmula geral de vida ou orçamento de inimigo que justifique esses totais como escala oficial. Eles serão avaliados para estes exemplos. Os nove pontos de atributos e o conjunto restrito de perícias são escolhas de organização desta base; não impõem um construtor universal aos inimigos futuros.
+**Escolhas novas desta base:** os totais de vida, os rótulos de frequência dos inimigos, as distribuições de atributos, treinos, anatomias e comportamentos. O Livro de Regras 1.0 não fornece aqui uma fórmula geral de vida ou orçamento de inimigo que justifique esses totais como escala oficial. Eles serão avaliados para estes exemplos. Os nove pontos de atributos e o conjunto restrito de perícias são escolhas de organização desta base; não impõem um construtor universal aos inimigos futuros.
 
 O nível das fichas serve aos efeitos que comparam nível, inclusive aquisição. Ele não concede patente nem garante equivalência a um personagem jogador. **Integridade dos inimigos = metade da vida máxima, para baixo**, conforme Dano na alma. Os estágios de Integridade se aplicam; o aumento de custo das conjurações pode reduzir a quantidade de usos disponíveis.
 
@@ -28,11 +28,11 @@ O nível das fichas serve aos efeitos que comparam nível, inclusive aquisição
 
 ## Consulta rápida
 
-| Inimigo | Nível | PV | Integridade | PE | Defesa | Bloquear | Deslocamento |
+| Inimigo | Nível | PV | Integridade | Feitiço e rótulo | Defesa | Bloquear | Deslocamento |
 |---|---|---|---|---|---|---|---|
-| Rastejante | 2 | 12 | 6 | 0 | 13 | 2d10 + 2 | 9 m |
-| Amontoado do depósito | 2 | 48 | 24 | 6 | 11 | 2d10 + 0 | 9 m |
-| Vigia das farpas | 2 | 24 | 12 | 6 | 13 | 2d10 + 2 | 9 m |
+| Rastejante | 2 | 12 | 6 | — | 13 | 2d10 + 2 | 9 m |
+| Amontoado do depósito | 2 | 48 | 24 | Impacto, Recarga (5–6) | 11 | 2d10 + 0 | 9 m |
+| Vigia das farpas | 2 | 24 | 12 | Estalo, Recarga (5–6) | 13 | 2d10 + 2 | 9 m |
 
 ## Rastejante
 
@@ -54,7 +54,7 @@ Demonstra uma ameaça frágil. Pode ser usado sozinho numa ocorrência menor. Do
 
 **Manobras da Ação Atacar:** CD 11, substituindo a Pancada, conforme as regras comuns.
 
-**Conjuração:** não possui técnica ofensiva nem reserva de PE. Leitura continua sendo apenas o Talento descrito.
+**Conjuração:** não possui técnica ofensiva. Leitura continua sendo apenas o Talento descrito.
 
 ## Amontoado do depósito
 
@@ -76,17 +76,17 @@ Uma figura de papelões dobrados e fitas, com duas pernas e dois braços termina
 
 **Manobras da Ação Atacar:** CD 12, substituindo a Pancada, conforme as regras comuns.
 
-**Impacto concentrado — Classe 1, Ação Padrão, 3 PE, Toque, 1,5 m.** Selo: encostar as duas palmas antes de tocar o alvo. Precisa enxergar o alvo e cumprir o alcance. Ataque de técnica +4; acerto causa 3d8 de Concussão. Crítico: 6d8. Não soma atributo ao dano nem o dano da Pancada. Não há TR, condição, área ou efeito no erro. O erro gasta ação e PE.
+**Impacto concentrado — Classe 1, Ação Padrão, Recarga (5–6), Toque, 1,5 m.** Selo: encostar as duas palmas antes de tocar o alvo. Precisa enxergar o alvo e cumprir o alcance. Ataque de técnica +4; acerto causa 3d8 de Concussão. Crítico: 6d8. Não soma atributo ao dano nem o dano da Pancada. Não há TR, condição, área ou efeito no erro. O erro gasta ação e PE.
 
 **Fundamento registrado:** atributo Força; dano Concussão; Livres: Mira, Castigo; Fechadas: Amparo, Tempo, Marca. Expressão visual: as marcas do corpo se acendem brevemente, sem efeito mecânico. A ficha conhece apenas a aplicação acima. Não recebe repertório, Aptidões, Caminho ou recursos adicionais por analogia a um personagem jogador.
 
-Com a reserva inicial de 6 PE, são no máximo dois usos pelo custo normal. Os PE não se renovam por rodada. Se algum efeito mudar o custo ou impedir a execução, use o custo atual. Sem poder conjurar, continua dispondo da Pancada e das ações gerais.
+Inimigos não contam PE. Começa a luta com o feitiço disponível; depois de usá-lo, rola um d6 no começo de cada turno seu e o recupera com 5 ou 6. Sem o feitiço ou sem poder conjurar, continua dispondo da Pancada e das ações gerais.
 
 ## Vigia das farpas
 
 Uma figura estreita de madeira e papel, com dois braços, mãos articuladas e duas pernas. Dispara farpas pela sua técnica e procura conservar distância.
 
-Demonstra uma ameaça à distância. Com PE, dispara; sem PE suficiente, pode Desengajar, recuar ou usar a Pancada se for alcançado. Não tem projétil gratuito nem ataques adicionais. Não aparece no encontro principal de As batidas no anexo.
+Demonstra uma ameaça à distância. Com o Estalo disponível, dispara; enquanto espera a recarga, pode Desengajar, recuar ou usar a Pancada se for alcançado. Não tem projétil gratuito nem ataques adicionais. Não aparece no encontro principal de As batidas no anexo.
 
 **Tamanho:** Médio. **Iniciativa:** d20 + 3.
 
@@ -102,11 +102,11 @@ Demonstra uma ameaça à distância. Com PE, dispara; sem PE suficiente, pode De
 
 **Manobras da Ação Atacar:** CD 9, substituindo a Pancada, conforme as regras comuns.
 
-**Estalo de farpas — Classe 1, Ação Padrão, 3 PE, Projétil, 18 m.** Selo: estalar os dedos de uma mão livre. Precisa enxergar o alvo e cumprir o alcance. Ataque de técnica +4; acerto causa 3d8 de Cortante. Crítico: 6d8. Não soma atributo ao dano nem o dano da Pancada. Não há TR, condição, área ou efeito no erro. O erro gasta ação e PE.
+**Estalo de farpas — Classe 1, Ação Padrão, Recarga (5–6), Projétil, 18 m.** Selo: estalar os dedos de uma mão livre. Precisa enxergar o alvo e cumprir o alcance. Ataque de técnica +4; acerto causa 3d8 de Cortante. Crítico: 6d8. Não soma atributo ao dano nem o dano da Pancada. Não há TR, condição, área ou efeito no erro. O erro gasta ação e PE.
 
 **Fundamento registrado:** atributo Essência; dano Cortante; Livres: Alcance, Mira; Fechadas: Amparo, Tempo, Marca. Expressão visual: as marcas do corpo se acendem brevemente, sem efeito mecânico. A ficha conhece apenas a aplicação acima. Não recebe repertório, Aptidões, Caminho ou recursos adicionais por analogia a um personagem jogador.
 
-Com a reserva inicial de 6 PE, são no máximo dois usos pelo custo normal. Os PE não se renovam por rodada. Se algum efeito mudar o custo ou impedir a execução, use o custo atual. Sem poder conjurar, continua dispondo da Pancada e das ações gerais.
+Inimigos não contam PE. Começa a luta com o feitiço disponível; depois de usá-lo, rola um d6 no começo de cada turno seu e o recupera com 5 ou 6. Sem o feitiço ou sem poder conjurar, continua dispondo da Pancada e das ações gerais.
 
 ## Depois da Doma
 
@@ -132,7 +132,7 @@ Famílias abertas e Livre para cada conversão:
 - **Amontoado do depósito:** Castigo, Mira, Controle; Castigo Livre. As outras seis ficam Fechadas.
 - **Vigia das farpas:** Mira, Alcance, Castigo; Mira Livre. As outras seis ficam Fechadas.
 
-Os máximos da conversão não restauram reservas nem removem a queda. Registre valores atuais sem exceder os novos máximos e aplique Queda e destruição e Retorno e corpos caídos quando pertinentes. Cura comum de entidade não funciona a zero de vida. A aquisição não permite voltar à cena ignorando os custos de entrada ou retorno.
+Os máximos da conversão não restauram reservas nem removem a queda. **A reserva própria da domada começa vazia**, porque o inimigo não contava PE, e se recupera pelos descansos. Registre valores atuais sem exceder os novos máximos e aplique Queda e destruição e Retorno e corpos caídos quando pertinentes. Cura comum de entidade não funciona a zero de vida. A aquisição não permite voltar à cena ignorando os custos de entrada ou retorno.
 
 **Antes do golpe final para aquisição:** o Livro de Regras 1.0 manda conferir destruição. Uma ocorrência direta que alcance a vida máxima ou cujo excedente além de zero supere metade da máxima destrói a entidade; dano em área não destrói por si. No Amontoado, os limites de referência do encontro são 48 e metade 24; igualar o excedente de 24 não é superar. Essa conferência usa a ficha do encontro, antes da conversão. A equipe deve conhecer essa diferença ao tentar capturar.
 

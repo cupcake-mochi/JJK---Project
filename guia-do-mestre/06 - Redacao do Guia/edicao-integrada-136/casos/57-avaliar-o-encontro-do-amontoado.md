@@ -12,19 +12,19 @@ O Amontoado está no depósito, a 4,5 m da porta. A sala mede 6 m por 6 m, com f
 
 ## Três inimigos do mesmo nível
 
-Os três inimigos abaixo possuem nível 2 e rotina comum de ações, sem ataques adicionais. Mesmo assim, seus recursos e alcances mudam a luta. Na tabela, PE significa pontos de energia.
+Os três inimigos abaixo possuem nível 2 e rotina comum de ações, sem ataques adicionais. Mesmo assim, seus feitiços e alcances mudam a luta. Inimigos não contam PE: cada feitiço traz um rótulo de frequência.
 
 | Ficha experimental | Vida / Integridade | Defesa / Bloquear | Ataque comum | Conjuração |
 |---|---|---|---|---|
-| Rastejante | 12 / 6 | 13 / 2d10 + 2 | +3; 1d4 + 2 de Concussão, 1,5 m | Nenhuma; 0 PE. |
-| Amontoado do depósito | 48 / 24 | 11 / 2d10 | +4; 1d4 + 3 de Concussão, 1,5 m | Impacto: +4; 3d8 de Concussão, 1,5 m; 3 PE. Reserva 6. |
-| Vigia das farpas | 24 / 12 | 13 / 2d10 + 2 | +1; 1d4 de Concussão, 1,5 m | Estalo: +4; 3d8 de Cortante, 18 m; 3 PE. Reserva 6. |
+| Rastejante | 12 / 6 | 13 / 2d10 + 2 | +3; 1d4 + 2 de Concussão, 1,5 m | Nenhuma. |
+| Amontoado do depósito | 48 / 24 | 11 / 2d10 | +4; 1d4 + 3 de Concussão, 1,5 m | Impacto: +4; 3d8 de Concussão, 1,5 m; Recarga (5–6). |
+| Vigia das farpas | 24 / 12 | 13 / 2d10 + 2 | +1; 1d4 de Concussão, 1,5 m | Estalo: +4; 3d8 de Cortante, 18 m; Recarga (5–6). |
 
-Esta tabela serve à comparação. As fichas completas incluem anatomia, treinos, Selos e demais requisitos. Sem aumento de custo, Amontoado e Vigia têm energia para duas conjurações cada; ser inimigo não lhes dá usos ilimitados.
+Esta tabela serve à comparação. As fichas completas incluem anatomia, treinos, Selos e demais requisitos. Amontoado e Vigia começam com o feitiço disponível e o recuperam com 5 ou 6 num d6 no começo de cada turno; ser inimigo não lhes dá usos ilimitados.
 
-O Rastejante oferece um corpo frágil para estudar ataques e deslocamento. O Amontoado suporta mais dano, mas precisa se aproximar. O Vigia pode atacar de longe enquanto conseguir pagar seu feitiço; isso torna acesso e cobertura relevantes. Trocar o Amontoado pelo Vigia dentro da mesma sala não demonstra, sozinho, o efeito de uma posição de tiro distante.
+O Rastejante oferece um corpo frágil para estudar ataques e deslocamento. O Amontoado suporta mais dano, mas precisa se aproximar. O Vigia pode atacar de longe sempre que o Estalo estiver disponível; isso torna acesso e cobertura relevantes. Trocar o Amontoado pelo Vigia dentro da mesma sala não demonstra, sozinho, o efeito de uma posição de tiro distante.
 
-**Por que usar o Amontoado:** o Amontoado reúne um golpe simples, um golpe mais forte com recurso finito, comportamento observável e retirada possível. Assim, é possível ensinar esses elementos preparando apenas uma iniciativa inimiga. Confira se ele serve ao seu trio de nível 2.
+**Por que usar o Amontoado:** o Amontoado reúne um golpe simples, um golpe mais forte com recarga, comportamento observável e retirada possível. Assim, é possível ensinar esses elementos preparando apenas uma iniciativa inimiga. Confira se ele serve ao seu trio de nível 2.
 
 ## O que as contas mostram
 
@@ -34,7 +34,7 @@ Ela não significa “quatro rodadas” nem “quatro ataques sempre vencem”. 
 
 Contra Defesa fixa 11, um ataque +4 acerta com 7 ou mais no d20: **14 resultados em 20, ou 70%**, sem vantagem, desvantagem ou modificadores. Contra Defesa fixa 13, precisa de 9: **12 em 20, ou 60%**. Esses percentuais não são a chance contra Bloquear; essa escolha usa outra regra, inclusive resultados próprios dos dois d10.
 
-**Dano de Alma:** o Amontoado tem Integridade 24. Um golpe que cause 12 de dano final de Alma retira 12 de vida e 12 de Integridade. Partindo de reservas cheias, fica com **36 de vida e 12 de Integridade**. Perdeu metade da Integridade: está no estágio 2, com os efeitos acumulados dos estágios 1 e 2. O movimento 9 m passa a 4,5 m; a conjuração de Classe 1 passa de 3 para **4 PE**. Se ainda tiver 6 PE, pode pagar uma dessas conjurações e fica com 2. A previsão de dois Impactos já não descreve esse estado.
+**Dano de Alma:** o Amontoado tem Integridade 24. Um golpe que cause 12 de dano final de Alma retira 12 de vida e 12 de Integridade. Partindo de reservas cheias, fica com **36 de vida e 12 de Integridade**. Perdeu metade da Integridade: está no estágio 2, com os efeitos acumulados dos estágios 1 e 2. O movimento 9 m passa a 4,5 m. O acréscimo de PE do estágio 2 não tem efeito numa ficha sem PE: o Impacto continua com a mesma recarga. Com menos deslocamento, porém, alcançar o alvo para o Toque fica mais difícil.
 
 A possibilidade de atingir Alma depende da capacidade usada. O exemplo mostra como uma regra disponível muda a avaliação; não concede esse dano a todo ataque do grupo.
 
@@ -62,7 +62,7 @@ Se a criatura for derrotada enquanto alguém ainda estiver Morrendo, prossiga co
 
 A simulação feita para este exemplo usou fichas incompletas, escolhas de ação fixadas antes das execuções e alcance de socorro simplificado. Seus resultados não representam fichas completas nem decisões livres de jogadores.
 
-Na comparação com Defesa fixa e escolha de Insistir, o Amontoado isolado contra o trio de referência teve duração mediana de duas rodadas: em pelo menos metade das execuções, o programa já considerava o confronto encerrado até ali. A queda de ao menos uma pessoa ocorreu em 20,36% das execuções. Com o mesmo trio entrando com metade da vida, arredondada para baixo, e duas Sequelas por pessoa, a mediana permaneceu em duas rodadas, mas as quedas chegaram a 60,50%.
+Na comparação com Defesa fixa e escolha de Insistir, o Amontoado isolado contra o trio de referência teve duração mediana de duas rodadas: em pelo menos metade das execuções, o programa já considerava o confronto encerrado até ali. Com o Impacto em Recarga (5–6), a queda de ao menos uma pessoa ocorreu em 14,36% das execuções. Com o mesmo trio entrando com metade da vida, arredondada para baixo, e duas Sequelas por pessoa, a mediana permaneceu em duas rodadas, mas as quedas chegaram a 54,12%, com alguém Derrotado em 17,70%. Na versão anterior, com 6 PE e dois Impactos garantidos, eram 20,36% e 60,50%.
 
 As duas situações duraram o mesmo número mediano de rodadas, mas o grupo ferido caiu muito mais. Por isso, não avalie o risco apenas pela duração. Esses percentuais não preveem o que acontecerá na sua mesa: capacidades completas, mapa, acesso ao socorro e decisões livres podem mudar os resultados. O programa também encerrava a luta quando não restavam personagens conscientes capazes de agir. Isso não significava que todos estavam Derrotados: ainda era necessário distinguir quem estava Morrendo de quem estava Derrotado.
 

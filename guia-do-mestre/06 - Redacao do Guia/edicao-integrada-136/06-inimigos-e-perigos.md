@@ -44,7 +44,7 @@ Se mudar posições ou prioridades, confira a nova situação. Um vigia no alto 
 |---|---|
 | Corpo e sentidos | Tamanho, membros, mãos, massa, alma, deslocamentos, percepção e comunicação |
 | Testes e progressão | Atributos, Maestria, treinos, quatro Testes de Resistência e, quando couber, Refino e Classe máxima |
-| Reservas e defesas | Vida, Integridade, PE, usos, Defesa com seus componentes, Bloquear e proteções |
+| Reservas e defesas | Vida, Integridade, rótulos de frequência, Defesa com seus componentes, Bloquear e proteções |
 | Capacidades | Tipo, ação, alvo, alcance, requisitos, resolução, custo, prazo e saídas |
 | Comportamento | O que sabe, quem procura, o que protege e quando muda de intenção |
 | Continuidade | Derrota, efeitos restantes, retirada e possível aquisição |
@@ -71,44 +71,43 @@ O tilintar dos sinos pode anunciar a intenção do Carregador, mas não concede 
 
 ## 6.3 Habilidades e recursos
 
-Escolha primeiro o efeito e a resposta possível do grupo; depois, o limite de uso. **PE mostram quanto resta para gastar. Um intervalo diz quando a capacidade volta. Uma habilidade que exige preparação oferece tempo para interferir.** Escolha esses limites pelo que mudam nas decisões da luta.
+Escolha primeiro o efeito e a resposta possível do grupo; depois, quantas vezes ele pode acontecer. **Inimigos não contam PE.** O limite de cada habilidade é um **rótulo de frequência** escrito na ficha: quem lê o bloco sabe na hora quando ela pode voltar. Uma habilidade que exige preparação também oferece tempo para interferir.
 
-Ter energia amaldiçoada não obriga toda ação a gastar PE. Canalizar Energia, por exemplo, não cobra esse gasto. Conservar um feitiço publicado exige cumprir seu preço e suas regras; trocar esse preço por outro limite é uma adaptação a identificar e avaliar.
+Ter energia amaldiçoada não obriga o inimigo a ter reserva. Sua energia continua perceptível e Canalizar, manobras e golpes seguem suas regras. Ao trazer um feitiço publicado para uma ficha de inimigo, conserve efeito, Forma, Selo e requisitos, e troque o preço em PE por um rótulo.
 
-O Amontoado original tem 6 PE e Impacto de 3 PE. Em condições normais, paga duas tentativas. Se não houver outra utilidade para a reserva, gastar logo pode fazer sentido. Alterar o saldo muda a quantidade; não cria sozinho uma escolha entre atacar e esperar.
+O Amontoado usa **Impacto concentrado com Recarga (5–6)**. Começa a luta com o Impacto disponível; depois de usá-lo, rola um d6 no começo de cada turno seu e o recupera com 5 ou 6. Pode repetir cedo ou demorar a voltar. Com uma reserva de 6 PE, ele tinha duas tentativas garantidas; a recarga dá cerca de 1,2 por luta, com quedas um pouco menores no estudo de [O que mais pesa no encontro](<casos/104-o-que-mais-pesa-no-encontro.md>).
 
 Recarga não garante uma pausa: pode permitir usos consecutivos ou demorar a retornar. Usar cedo pode continuar sendo a melhor escolha, pois a habilidade começa a ter chances de voltar. Para incentivar espera, posição, alvos, risco ou objetivo precisam tornar outro momento mais interessante.
 
 Uma criatura simples pode ter uma rotina simples. Evite acrescentar defesas ou contagens apenas para justificar uma decisão que não aparece em jogo.
 
-### Escolher um limite
+### Escolher um rótulo
 
 | Você quer… | Use e confira… |
 |---|---|
-| Repetição simples | **Uso livre:** o efeito continua adequado quando repetido? |
-| Quantidade de tentativas | **Usos limitados:** o que gasta o uso e quando ele retorna? |
-| Pausa garantida | **Intervalo fixo:** quando volta e o que faz durante a espera? |
-| Retorno incerto | **Recarga:** quando rola, quais resultados recuperam e se permite repetição no turno seguinte? |
+| Repetição simples | **À vontade**, sem rótulo: o efeito continua adequado quando repetido? |
+| No máximo um uso por volta | **1× por rodada:** o efeito pesa demais se acontecer em toda rodada? |
+| Um momento marcante | **1× por luta:** o grupo percebe quando ele vem e tem o que fazer depois? |
+| Retorno incerto | **Recarga (5–6):** o que a criatura faz enquanto espera? |
 | Chance de impedir | **Preparo ou condição:** há sinal, tempo e meios reais de resposta? |
-| Escolha entre opções | **Reserva compartilhada:** gastar numa opção limita outra útil? |
 
-Para comparar essas opções, veja [PE, recarga e limites de uso](<casos/59-recursos-e-ritmo-dos-inimigos.md#qual-limite-de-uso-escolher>).
+Para comparar essas opções, veja [Rótulos, recarga e preparação](<casos/59-recursos-e-ritmo-dos-inimigos.md#qual-limite-de-uso-escolher>).
 
-### Quando a reserva cria uma escolha
+### Quando o rótulo cria uma escolha
 
-Toru tem 8 PE: pode pagar duas Fendas de 3 PE e um Cobrir-se de 2 PE. Sayo tem 12 PE: quatro Fios de 3 PE, dois Remendos de 6 PE ou dois Fios e um Remendo cabem antes de outras despesas. A mesma reserva também paga proteção.
+Toru tem **Fenda em marcha com Recarga (5–6)** e **Cobrir-se de Energia 1× por luta**. Sayo tem **Fio de impulso à vontade**, **Remendo 1× por luta** e **Cobrir-se 1× por luta**. O Remendo guardado pesa: usá-lo cedo deixa a dupla sem cura no resto da luta.
 
-Além da energia, Sayo disputa sua Padrão: curar toma o lugar de conceder Fio naquele turno. A escolha existe dentro do combate, sem depender de outra missão. Usos compartilhados também podem oferecer escolha; os PE permitem preços diferentes e interagem com efeitos que alterem energia e custos.
+Sayo também disputa sua Padrão: curar toma o lugar de conceder Fio naquele turno. A escolha existe dentro do combate, sem contar energia. A ação disputada e o uso único criam a decisão; não é preciso uma reserva para isso.
 
-### Energia, custos e outras regras
+### Integridade, leitura e Doma
 
-Se Leitura de Reservas se aplicar, forneça saldo e máximo reais pelo exame exigido. O resultado não revela automaticamente recarga, custos ou intenção. Uma capacidade sem gasto não precisa apagar a energia perceptível da criatura.
+Os estágios de Integridade são cumulativos e valem para o inimigo. **O acréscimo de 1 PE por Classe do estágio 2 não tem efeito numa ficha sem PE**; as demais penalidades continuam valendo, inclusive a redução de deslocamento e as do estágio 3. Rótulos não mudam com o estágio.
 
-Os estágios de Integridade são cumulativos. No estágio 2, cada **feitiço** custa mais 1 PE por Classe; isso não se estende automaticamente a toda manobra ou aptidão. O Impacto de Classe 1 passa de 3 para 4 PE. Depois de gastar 3 dos 6, a reserva restante já não paga outro. As demais penalidades dos estágios continuam valendo, inclusive para habilidades sem gasto.
+Se Leitura de Reservas se aplicar a um inimigo, informe que ele **não tem reserva gastável** (0/0 PE). O exame não revela rótulos, recarga ou intenção. A energia perceptível da criatura continua existindo.
 
-Ao adaptar um feitiço, diferencie custo-base e pagamento dispensado. Na variante experimental de recarga do Impacto, dispensar o custo normal não dispensa os acréscimos: a proposta conserva a base e cobra o adicional aplicável. Essa exceção pertence à variante, não ao Amontoado original ou aos personagens jogadores. O [estudo de habilidades](<casos/60-montar-habilidades-de-inimigos.md>) acompanha as contas e as interações.
+Na Doma, a entidade segue as regras de entidade: o que ela gasta sai do invocador e, para a domada com técnica, da reserva própria registrada na conversão. **A reserva própria começa vazia** e se recupera pelos descansos. Rótulos do inimigo não passam automaticamente à entidade; prepare a conversão antes da oportunidade. O [estudo de habilidades](<casos/60-montar-habilidades-de-inimigos.md>) acompanha as contas e as interações.
 
-Confira também Selo, mãos, voz, Rescaldo, cancelamento, manutenção e contenções. Agarrado não silencia ou prende automaticamente todas as mãos; uma habilidade própria não ganha imunidade a cancelamento por ser própria. Se puder ser adquirida por Doma, prepare a conversão antes da oportunidade: permissões exclusivas do inimigo não passam automaticamente à entidade.
+Confira também Selo, mãos, voz, Rescaldo, cancelamento, manutenção e contenções. Agarrado não silencia ou prende automaticamente todas as mãos; uma habilidade própria não ganha imunidade a cancelamento por ser própria.
 
 ## 6.4 Escolher os números
 
@@ -274,7 +273,7 @@ A ficha de encontro organiza seis blocos: situação e grupo; cada ameaça; capa
 
 ### Regras e escolhas da missão
 
-Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão; a reserva de PE proposta para Toru é experimental; a conta de Defesa vem das regras. Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.
+Separe regra publicada, conselho de preparo, valor experimental e escolha daquela missão. O objetivo de proteger um estojo foi escolhido para a missão; os rótulos de frequência propostos para Toru são experimentais; a conta de Defesa vem das regras. Conferir uma habilidade pelas regras não basta para avaliar a dificuldade do inimigo completo.
 
 Depois do encontro, registre duração, recursos gastos, quedas, tempo sem agir, socorro, retirada e objetivo. Confira separadamente: **a oposição terminou, o lugar ficou seguro e todas as pessoas saíram?** Essas respostas podem ser diferentes.
 

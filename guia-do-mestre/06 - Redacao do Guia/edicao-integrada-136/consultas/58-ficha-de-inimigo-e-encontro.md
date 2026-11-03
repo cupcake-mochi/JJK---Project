@@ -30,7 +30,7 @@ Se conservar uma ficha existente, indique onde consultá-la e destaque apenas as
 | Identificação e função | Nome, quantidade, versão da ficha, nível e função no encontro; grau no cenário, se usado. |
 | Corpo e percepção | Tamanho, membros, mãos, massa, sentidos, comunicação e alma. |
 | Progressão e testes | Atributos, Maestria, Refino e Classe máxima quando aplicáveis; ataques, CDs, perícias e TRs com treinos identificados. |
-| Recursos iniciais | Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada corpo. |
+| Recursos iniciais | Vida, Integridade, rótulos e usos restantes, preparos e condições de cada corpo. Inimigos não contam PE. |
 | Defesas e movimento | Defesa com componentes, Bloquear, proteções, deslocamentos, carga e equipamento. |
 | Atuação | Padrão, Movimento, Bônus e Reação; número de ataques, capacidades completas e o que disputa o mesmo recurso. |
 | Prioridades | Alvos, informação disponível, negociação, perseguição, retirada e mudanças de comportamento. |

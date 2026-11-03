@@ -26,35 +26,35 @@ Iniciativas escolhidas: **Sayo 18**, **Rina 16**, **Toru 14**, **Mei 12**, **Aki
 
 ## Rodada 1 — o apoio já está em campo
 
-**Sayo oferece Fio a Toru.** De F8, alcança D5 a 4,5 m. Gasta Padrão e **3 PE**, restando 9. Toru recebe Impulso e **3 PV temporários**, separados dos 72 comuns. Ela conserva o estojo e fica em F8.
+**Sayo oferece Fio a Toru.** De F8, alcança D5 a 4,5 m. Gasta a Padrão; Fio é à vontade. Toru recebe Impulso e **3 PV temporários**, separados dos 72 comuns. Ela conserva o estojo e fica em F8.
 
 **Rina pressiona Toru.** Anda C0 → C4, 6 m, e ativa Olhos Em Mim com Bônus. Sua provocação inicial contra Toru dá 11 + 5 = **16**; ele resiste com 17 + 1 = **18**. Como resistiu, Toru não recebe vantagem contra Rina nem desvantagem contra os outros; a área de proteção dela continua ativa.
 
-Ela usa a Padrão numa espadada: 12 + 5 = **17**, contra Defesa 13, e causa 5 + 4 + 2 = **11**. Toru gasta Reação e **2 PE** em Cobrir-se: reduz o golpe para 8. Primeiro perde os três temporários; depois cinco PV. Fica com **67 PV e 6 PE**.
+Ela usa a Padrão numa espadada: 12 + 5 = **17**, contra Defesa 13, e causa 5 + 4 + 2 = **11**. Toru gasta a Reação e o único Cobrir-se da luta: reduz o golpe para 8. Primeiro perde os três temporários; depois cinco PV. Fica com **67 PV**.
 
 **Toru usa o ataque favorecido.** No começo de seu turno, recupera sua Reação. Rina está ao alcance de D5. Usa Atacar e consome Impulso: os d20 são 3 e 13; fica com 13 + 5 = **18**, contra Defesa 13. O dano 6 + 4 + 3 = **13 de Cortante** vira **7** por Alicerce. Rina fica com **58 PV** e conserva a Reação. Toru permanece em D5; não ganhou outro golpe pelo apoio.
 
 **Mei ataca Sayo.** Anda D0 → D4, 6 m, e conjura Arremesso de pressão, Padrão e **6 PE**, restando 30. O resultado 8 + 5 = **13** acerta a Defesa 13. Os cinco d8 dão 6, 6, 5, 6 e 6: **29 de Concussão**.
 
-Sayo usa Reação e **2 PE** para reduzir três. Perde 26 PV, ficando com **22 PV e 7 PE**. Depois do acerto, Mei usa Empurrão para movê-la por F8 → G9 → H10 → H11 → H12: **6 m**. Ela conserva o estojo, mas fica a 10,5 m de Toru, além dos 9 m de seus benefícios. O movimento não a silencia ou impede de conjurar em si.
+Sayo usa a Reação e o seu Cobrir-se para reduzir três. Perde 26 PV, ficando com **22 PV**. Depois do acerto, Mei usa Empurrão para movê-la por F8 → G9 → H10 → H11 → H12: **6 m**. Ela conserva o estojo, mas fica a 10,5 m de Toru, além dos 9 m de seus benefícios. O movimento não a silencia ou impede de conjurar em si.
 
 **Akira tenta derrotar Sayo.** Anda F0 → F6, 9 m. Usa Corte de sutura contra Sayo, agora a 9 m: paga **6 PE**, mas tira 6 + 5 = **11** e erra. Com Bônus e **1 PE**, prepara **Executar** para Mei contra Sayo: ela poderá fazer o próximo ataque contra Sayo com vantagem. Akira termina com **23 PE**. Essa abertura vale até o começo do próximo turno dele; Mei poderá usá-la antes desse prazo.
 
 ## Rodada 2 — curar ocupa o lugar do reforço
 
-**Sayo se trata.** Sua Reação volta, mas ela tem apenas 7 PE. Está abaixo da metade da vida máxima. Anda H12 → G11 → F10 → F9 → F8, 6 m, para voltar a se aproximar de Toru. Usa a Padrão e **6 PE** em Remendo sobre si. Os dados 3, 4, 5 e 6 curam **18**: fica com **40 PV e 1 PE**.
+**Sayo se trata.** Sua Reação volta, mas o Cobrir-se já foi gasto. Está abaixo da metade da vida máxima. Anda H12 → G11 → F10 → F9 → F8, 6 m, para voltar a se aproximar de Toru. Usa a Padrão e o único Remendo da luta sobre si. Os dados 3, 4, 5 e 6 curam **18**: fica com **40 PV**.
 
-Ela não concedeu outro Fio. Também não tem os 2 PE exigidos para Cobrir-se, apesar de sua Reação estar disponível. Ser empurrada para fora dos 9 m não anulou o apoio: obrigou Sayo a se reposicionar, e ela ainda pôde tratar a si mesma.
+Ela não concedeu outro Fio. Também já gastou o Cobrir-se, apesar de sua Reação estar disponível. Com o Remendo usado, não terá outra cura nesta luta. Ser empurrada para fora dos 9 m não anulou o apoio: obrigou Sayo a se reposicionar, e ela ainda pôde tratar a si mesma.
 
-**Rina mantém Toru ocupado.** De C4, usa a Padrão na espada: 9 + 5 = **14**, contra Defesa 13. Causa 4 + 4 + 3 = **11**. Toru ainda tem a Reação recuperada no turno anterior e a gasta em Cobrir-se, pagando mais **2 PE**. Perde oito PV e fica com **59 PV e 4 PE**. Não há vida temporária restante para absorver esse dano.
+**Rina mantém Toru ocupado.** De C4, usa a Padrão na espada: 9 + 5 = **14**, contra Defesa 13. Causa 4 + 4 + 3 = **11**. Toru tem a Reação recuperada no turno anterior, mas já gastou o Cobrir-se da luta. Perde onze PV e fica com **56 PV**. Não há vida temporária restante para absorver esse dano.
 
-**Toru paga pela mudança de posição.** Sua Reação volta no começo do turno. Usa Fenda em marcha contra Mei em D4: Padrão e **3 PE**, restando 1. Antes da rolagem, Rina usa sua **Reação** para assumir o ataque, pois percebe Mei dentro dos 6 m de Olhos Em Mim.
+**Toru paga pela mudança de posição.** Sua Reação volta no começo do turno. Usa Fenda em marcha contra Mei em D4, com a Padrão; a Fenda estava disponível desde o começo da luta. Antes da rolagem, Rina usa sua **Reação** para assumir o ataque, pois percebe Mei dentro dos 6 m de Olhos Em Mim.
 
 Toru tira 9 + 5 = **14**, contra a Defesa 13 de Rina. Os dois d8 dão 5 e 6: **11 de Concussão**, reduzidos para **6** por Alicerce. Rina fica com **52 PV**. O ataque é feitiço: não soma Canalizar e não aciona Kokusen.
 
-Depois da aplicação, Toru usa Passo para andar D5 → E6 → F7, **3 m sem oportunidades**. Aproxima-se de Sayo e de Akira. Não fez uma espadada na mesma Padrão; a mobilidade tomou o lugar desse ataque. Com 1 PE, também ficou sem outra Fenda ou Cobrir-se.
+Depois da aplicação, Toru usa Passo para andar D5 → E6 → F7, **3 m sem oportunidades**. Aproxima-se de Sayo e de Akira. Não fez uma espadada na mesma Padrão; a mobilidade tomou o lugar desse ataque. Agora a Fenda depende da recarga, e o Cobrir-se já foi gasto.
 
-**Mei usa a abertura guardada.** De D4, ataca Sayo em F8 com Arremesso de pressão. Paga **6 PE**, restando **24**, e consome Executar: tira 7 e 14; usa 14 + 5 = **19**. Os dados 4, 4, 5, 5 e 6 causam **24**. Sayo fica com **16 PV**; ela ainda tem Reação, mas não tem PE suficiente para Cobrir-se.
+**Mei usa a abertura guardada.** De D4, ataca Sayo em F8 com Arremesso de pressão. Paga **6 PE**, restando **24**, e consome Executar: tira 7 e 14; usa 14 + 5 = **19**. Os dados 4, 4, 5, 5 e 6 causam **24**. Sayo fica com **16 PV**; ela ainda tem Reação, mas já gastou o Cobrir-se.
 
 Empurrão volta a levá-la de F8 a H12 pelo mesmo trajeto de 6 m. Mei não Remodelou o feitiço, portanto não recebe Impulso Técnico por essa conjuração comum.
 
@@ -64,7 +64,7 @@ Akira usa Bônus e **1 PE** para oferecer **Avançar a Rina**, indicando D6 e To
 
 ## Rodada 3 — Toru fica sem apoio
 
-Sayo continua Derrotada. **Rina** recupera sua Reação e consome Avançar no próprio turno, sem outra ação: C4 → D5 → D6, 3 m. Com seu Movimento, anda mais 1,5 m até E6. Toru, em F7, está ao alcance da espada. A Padrão dá 12 + 5 = **17** e causa 6 + 4 + 3 = **13**. Toru fica com **46 PV e 1 PE**. Ele não recebe cura, benefício novo ou redução sem poder pagá-los.
+Sayo continua Derrotada. **Rina** recupera sua Reação e consome Avançar no próprio turno, sem outra ação: C4 → D5 → D6, 3 m. Com seu Movimento, anda mais 1,5 m até E6. Toru, em F7, está ao alcance da espada. A Padrão dá 12 + 5 = **17** e causa 6 + 4 + 3 = **13**. Toru fica com **43 PV**. Ele não recebe cura, benefício novo ou redução: Remendo e Fio dependiam de Sayo, e o Cobrir-se foi gasto.
 
 **Toru escolhe sair.** Usa a Padrão para Desengajar. Seu Movimento percorre F7 → G6 → G5 → G4 → F3 → F2 → F1, 9 m, contornando Akira em F6. Converte a Bônus em outro Movimento e chega a F−1 por F0, gastando mais 3 m. Desengajar evita as oportunidades aplicáveis durante esse turno. Não atravessou o espaço de um inimigo nem recebeu fuga automática por estar ferido.
 
@@ -77,19 +77,19 @@ Mei e Akira ainda podem agir. **Neste exemplo, o grupo decide não perseguir Tor
 | Rina | 52/65 | 24/24 | 50/50 | E6; sem Sequelas. |
 | Mei | 44/44 | 24/36 | 55/55 | D4; sem Sequelas. |
 | Akira | 51/51 | 16/30 | 65/65 | G12, com o estojo. |
-| Toru | 46/72 | 1/8 | 36/36 | F−1; retirou-se porque o grupo não o perseguiu. |
-| Sayo | 0/48 | 1/12 | 24/24 | H12, incapacitada. |
+| Toru | 43/72 | — | 36/36 | F−1; retirou-se porque o grupo não o perseguiu. |
+| Sayo | 0/48 | — | 24/24 | H12, incapacitada. |
 
-O grupo gastou **26 PE**; a dupla, **18 PE**. Essas quantidades são resultados deste exemplo. Não houve crítico, Kokusen, dano de Alma ou queda de personagem jogador. Nenhum gasto foi recuperado ao terminar a oposição.
+O grupo gastou **26 PE**. A dupla, que não conta PE, usou um Fio, uma Fenda, um Remendo e os dois Cobrir-se. Essas quantidades são resultados deste exemplo. Não houve crítico, Kokusen, dano de Alma ou queda de personagem jogador. Nenhum gasto foi recuperado ao terminar a oposição.
 
 ## Toru ou Sayo: quem atacar primeiro?
 
-Depois do primeiro turno de Toru, os dois adversários estão com **Toru 67 PV/6 PE** e **Sayo 48 PV/9 PE**. Faltam os ataques de Mei e Akira: respectivamente 5d8 e 6d8, ataque +5 contra Defesa 13. Nesse momento, cada um consegue alcançar o alvo escolhido. Considere que o alvo usa Cobrir-se no primeiro dano positivo, reduzindo três e pagando Reação/2 PE; nenhum outro atendimento acontece antes do próximo turno de Sayo.
+Depois do primeiro turno de Toru, os dois adversários estão com **Toru 67 PV, já sem Cobrir-se**, e **Sayo 48 PV, com Cobrir-se disponível**. Faltam os ataques de Mei e Akira: respectivamente 5d8 e 6d8, ataque +5 contra Defesa 13. Nesse momento, cada um consegue alcançar o alvo escolhido. Considere que Sayo usa Cobrir-se no primeiro dano positivo, reduzindo três com a Reação; Toru já gastou o seu; nenhum outro atendimento acontece antes do próximo turno de Sayo.
 
 | Destino das duas ofensivas | Chance de derrotar esse alvo antes de Sayo agir outra vez | Se sobreviver ferido |
 |---|---:|---|
 | Sayo, com 48 PV | **23,9%** | Pode ter de curar a si, gastando a Padrão que poderia oferecer Fio. |
-| Toru, com 67 PV | **4,5%** | Pode receber Remendo se continuar ativo, ao alcance e na faixa de vida escolhida. |
+| Toru, com 67 PV | **5,5%** | Pode receber Remendo se continuar ativo, ao alcance e na faixa de vida escolhida. |
 
 São probabilidades **condicionadas a esse ponto do encontro**, incluindo erros e críticos dos feitiços. Não são chances de vencer a missão. Se o primeiro ataque já derrotar o alvo, o segundo personagem pode escolher outra ação; a chance da tabela não depende de atacar quem já caiu.
 
@@ -99,7 +99,7 @@ A decisão também depende de quem está ameaçando o grupo. Atacar Sayo pode co
 
 Contra Defesa 13, a espada de Toru acerta em **65%** sem vantagem e **87,75%** com Impulso. O dano médio por tentativa passa de **7,39 para 10,12**, considerando o primeiro teste possível de Kokusen, Refino 2 e bônus acumulado zero. Contra a resistência a Cortante de Alicerce, nas mesmas condições, passa de **3,86 para 5,28**. Esses valores não incluem Bloquear ou outra redução.
 
-O reforço também oferece três PV temporários, mas custa a Padrão e 3 PE de Sayo. Não dobra a quantidade de ataques. Se ela precisar curar, não concede um novo Fio naquela Padrão. Se Toru já tiver outra vantagem, Impulso não fornece outra vantagem; Sayo precisa avaliar se vale pagar apenas pelos temporários ou escolher outra ação.
+O reforço também oferece três PV temporários, mas custa a Padrão de Sayo. Não dobra a quantidade de ataques. Se ela precisar curar, não concede um novo Fio naquela Padrão. Se Toru já tiver outra vantagem, Impulso não fornece outra vantagem; Sayo precisa avaliar se vale gastar a Padrão apenas pelos temporários ou escolher outra ação.
 
 Se Sayo cair **depois de conceder Fio e antes de Toru consumir Impulso**, o benefício já concedido conserva seu prazo. O efeito da derrota é impedir as próximas conjurações. Se Toru cair, Sayo ainda tem recursos e escolhas; sua ofensiva desarmada, porém, é bem menor: cerca de **2,38 de dano por tentativa** contra Defesa 13 nas mesmas condições do primeiro teste de Kokusen. Por isso, sua prioridade de retirada faz parte do encontro.
 

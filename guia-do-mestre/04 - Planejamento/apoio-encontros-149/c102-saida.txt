@@ -1,0 +1,9 @@
+sem cura, 2 de feitiços               37.2%
+sem cura, 2 mistos                    48.7%
+sem cura, 3 mistos                     6.8%
+cura PE, 2 de feitiços                38.1%
+cura PE, 2 mistos                     52.7%
+cura PE, 3 mistos                     11.9%
+Remendo 1× por luta, 2 de feitiços    38.2%
+Remendo 1× por luta, 2 mistos         52.7%
+Remendo 1× por luta, 3 mistos         11.4%

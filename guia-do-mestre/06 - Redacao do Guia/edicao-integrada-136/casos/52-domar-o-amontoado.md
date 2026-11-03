@@ -29,13 +29,13 @@ O Amontoado tem tamanho Médio, duas pernas, dois braços e mãos articuladas. P
 | Nível e Classe | Nível 2; conjuração de Classe 1 | Nível 2; Classe máxima 1 |
 | Vida máxima | 48 PV | 14 PV |
 | Integridade máxima | 24 | 7 |
-| PE próprios máximos | 6 | 2 |
+| Reserva própria | Nenhuma: inimigos não contam PE | 2 PE máximos |
 | Defesa sem equipamento | 11 | 12: 10 + Destreza 1 + metade da Essência 3 de Tainá, para baixo |
 | Bloquear | 2d10 + 0 | 2d10 + 1 |
 | Movimento | 9 m | 9 m |
 | Turno | Iniciativa própria, d20 + 1; Padrão, Movimento, Bônus e Reação | Iniciativa de Tainá; básica e Movimento por ciclo; Reação coletiva com as outras entidades |
 | Pancada | Ataque +4, 1d4 + 3 de Concussão | Básica de Classe 0: ataque +4, 1d6 de Concussão, sem somar atributo |
-| Impacto concentrado | Ataque +4, 3d8 de Concussão, 3 PE; exige o Selo de encostar as palmas | Especial de Classe 1: ataque +4, 2d8 de Concussão, 3 PE totais; sem Selo |
+| Impacto concentrado | Ataque +4, 3d8 de Concussão, Recarga (5–6); exige o Selo de encostar as palmas | Especial de Classe 1: ataque +4, 2d8 de Concussão, 3 PE totais; sem Selo |
 
 Pancada e Impacto alcançam **1,5 m** e exigem cumprir os requisitos de alvo e percepção. No encontro, Pancada é um ataque corpo a corpo comum; na entidade, a básica usa a Forma Toque. Impacto também usa Toque. Não impõem condição. No crítico, dobre os dados, conservando os valores fixos: Pancada do encontro passa a 2d4 + 3; a básica adquirida, a 2d6. Impacto passa a 6d8 no encontro e a 4d8 na entidade.
 
@@ -49,7 +49,7 @@ A entidade tem uma básica, uma vaga de especial ocupada por Impacto e um talent
 
 Use o depósito de 6 m por 6 m do encontro. A criatura começa junto à pilha, a 4,5 m da porta; a faixa central está livre. Caixas junto às paredes só fornecem cobertura quando realmente se interpõem. A abertura da porta mede 1,5 m. A ficha completa da base continua sendo a referência de suas ações.
 
-Quando começar o confronto, role Iniciativa. O Amontoado prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Procura usar Impacto quando puder cumprir alcance, Selo e custo. Com 6 PE, consegue dois usos de 3 pelo custo normal. Errar também consome os PE. Sem energia suficiente, continua com Pancada e ações gerais compatíveis. A mudança de rodada não recupera sua reserva.
+Quando começar o confronto, role Iniciativa. O Amontoado prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Procura usar Impacto quando puder cumprir alcance e Selo e o Impacto estiver disponível. Começa a luta com ele; depois de usá-lo, rola um d6 no começo de cada turno e o recupera com 5 ou 6. Errar também consome o uso. Enquanto espera a recarga, continua com Pancada e ações gerais compatíveis.
 
 Os aliados de Tainá podem atacar, proteger uns aos outros, tratar feridos e colaborar. Não precisam deixar que Tainá cause todo o dano nem que dê o último golpe. Quem fará a submissão precisa estar identificado, com nível permitido e CD conferida.
 
@@ -59,7 +59,7 @@ Se uma personagem cair, aplique Vida a zero e Socorro do Livro de Regras 1.0. A 
 
 ## O golpe que permite a tentativa
 
-O trecho seguinte começa num **estado ilustrativo**, não num resultado garantido: o Amontoado tem **8 dos 48 PV, Integridade 24 e 0 dos 6 PE**, depois de ter usado dois Impactos. Não há dano persistente, outra ameaça ativa ou personagem aguardando socorro neste exemplo.
+O trecho seguinte começa num **estado ilustrativo**, não num resultado garantido: o Amontoado tem **8 dos 48 PV e Integridade 24**, depois de ter usado dois Impactos; o segundo veio de uma recarga. Não há dano persistente, outra ameaça ativa ou personagem aguardando socorro neste exemplo.
 
 Um aliado acerta e causa **12 de dano direto**, já depois das proteções. A criatura chega a zero; sobram **12 − 8 = 4 de excedente**. Confira as duas causas de destruição:
 
@@ -101,14 +101,14 @@ Neste exemplo, o resultado foi 11: a maldição falhou. Registre Tainá como inv
 |---|---|---|
 | Vida | 0 de 48 | **0 de 14**: continua caída. |
 | Integridade | 24 de 24 | **7 de 7**, limitada ao novo máximo. |
-| Reserva própria | 0 de 6 | **0 de 2**: não se preenche ao adquirir. |
+| Reserva própria | Nenhuma | **0 de 2**: começa vazia ao adquirir. |
 | Excedente da queda | 4 | Conservar **4** até o retorno ou outra regra que o zere. |
 | Posição | Chão do depósito | Permanece ali, **Desligada**. |
 | Efeitos persistentes | Nenhum neste exemplo | Nenhum. Em outra sessão, registrar os que realmente existirem. |
 
 Os limites de destruição do ataque anterior foram verificados com a ficha do encontro. Não volte ao golpe de 12 para compará-lo retroativamente com 14 PV ou com metade de 14. **Daqui em diante**, use a ficha atual. Neste caso, mais 4 de dano direto no corpo Desligado levariam o excedente de 4 a 8, superando a metade atual, 7, e o destruiriam.
 
-Ao converter, conserve reservas atuais sem ultrapassar os novos máximos. Isso não autoriza aumentar um saldo baixo até o máximo: se restasse 1 PE, ficaria com 1 de 2. Confira os estágios de Integridade com o saldo e o máximo resultantes. Uma condição com duração própria não acaba só porque houve aquisição.
+Ao converter, conserve vida e Integridade atuais sem ultrapassar os novos máximos. **A reserva própria da domada sempre começa vazia**, porque o inimigo não contava PE; ela se recupera pelos descansos. Confira os estágios de Integridade com o saldo e o máximo resultantes. Uma condição com duração própria não acaba só porque houve aquisição.
 
 Tainá não possui meio para recolher a maldição. **Ela não vira um talismã nem desaparece dentro de Tainá.** A domada segue o modo dos corpos mantidos, sem mudar sua origem para corpo amaldiçoado nem ganhar imunidade a Envenenado. Com Essência 3 e capacidade de duas entidades ativas, o limite de corpos mantidos de Tainá é **3 + 2 = 5**. A maldição é seu primeiro corpo; estar Desligada não a faz atuar.
 

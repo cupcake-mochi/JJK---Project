@@ -1,0 +1,4 @@
+trio cheio                             pe         mediana 2.0  queda 20.36%  Derrotado 0.34%
+trio cheio                             recarga56  mediana 2.0  queda 14.36%  Derrotado 0.22%
+trio com metade da vida e 2 Sequelas   pe         mediana 2.0  queda 60.50%  Derrotado 24.40%
+trio com metade da vida e 2 Sequelas   recarga56  mediana 2.0  queda 54.12%  Derrotado 17.70%

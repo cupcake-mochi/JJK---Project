@@ -40,7 +40,7 @@ Na dupla, Vigia ocupa o caminho e Tessa procura ficar a até 9 m dele, com visã
 
 A comparação usa os três perfis de nível 15 da consulta [Inimigos de níveis mais altos](<100-comparar-inimigos-em-outras-faixas.md>), em condições de atacar: começa com o grupo inteiro agindo antes dos guardas, cada um recebe uma Padrão e repete esse conjunto até três vezes. Os ataques miram a Defesa 14 dos guardas, sem cobertura, Bloquear ou Cobrir-se. Por isso, os resultados diferem dos da consulta de níveis mais altos, que usa outra Defesa. Na dupla, concentram-se em Tessa até ela cair e depois mudam para Vigia. Dano excedente de um golpe não passa para outro alvo; o próximo ataque pode escolhê-lo.
 
-Depois de cada conjunto, contam-se os guardas ainda ativos. Na versão com cura, se Tessa estiver ativa e ferida, paga 12 PE para curar a si por 8d8; caso esteja inteira e a dupla ativa, paga 3 por Impulso. A reserva de 26 é descontada, sem reposição. A comparação sem cura retira apenas essa escolha para medir sua contribuição. Vigia só começa a perder vida depois da queda de Tessa, portanto a escolha de curar o parceiro não entra nesta comparação.
+Depois de cada conjunto, contam-se os guardas ainda ativos. Na versão com cura, se Tessa estiver ativa e ferida, usa seu único Remendo firme para curar a si por 8d8; caso esteja inteira e a dupla ativa, oferece Impulso. A comparação sem cura retira apenas essa escolha para medir sua contribuição. Vigia só começa a perder vida depois da queda de Tessa, portanto a escolha de curar o parceiro não entra nesta comparação.
 
 **A conta não executa o dano ou o controle dos guardas contra os jogadores.** Ela mede quantos guardas continuam capazes de agir depois dos ataques escolhidos, não simula o encontro inteiro. Não inclui movimento, objetivo, socorro, Kokusen, Origem, Trilha, Domínio, Liberações ou Técnica Máxima. Pode superestimar quantas ofensivas o grupo conseguiria repetir. A iniciativa invertida também mudaria o resultado.
 
@@ -49,7 +49,9 @@ Depois de cada conjunto, contam-se os guardas ainda ativos. Na versão com cura,
 | Daigo com 200 PV, alternativa para comparação | 18,1% | 34,8% | 3,7% |
 | Daigo com 280 PV, ficha preparada | 61,9% | 84,9% | 23,7% |
 | Vigia 120 PV e Tessa 80 PV, sem cura | 37,2% | 48,7% | 6,7% |
-| A mesma dupla, com cura e PE descontados | 38,1% | 52,7% | 11,8% |
+| A mesma dupla, com Remendo 1× por luta | 38,1% | 52,7% | 11,4% |
+
+Com 26 PE, Tessa podia pagar dois Remendos e a última coluna era **11,8%**; com um Remendo por luta, cai para **11,4%**. As duas primeiras colunas não mudam, porque nelas só cabe uma cura.
 
 Distribuir 200 PV entre dois corpos conserva mais vida útil nesta comparação que colocá-los num único alvo de 200 PV: parte do dano se perde quando Tessa cai, e Vigia ainda pode agir. **Não significa que os dois conservem suas ações.** Depois do primeiro conjunto de três feitiços, Tessa continua ativa em apenas **14,9%** dos resultados; depois do misto, em **24,9%**. Nas demais vezes, não chega a oferecer sua primeira cura ou seu primeiro Impulso. Dar-lhe uma capacidade forte não garante a oportunidade de usá-la.
 
@@ -68,7 +70,7 @@ Fita de Classe 4 causa 6d8, com média 27 antes do TR. Contra os perfis de níve
 
 Sucesso recebe metade para cima; falha também recebe Prende. **Não se escolhe Bloquear contra essa Fita.** Duro de Matar não se aplica, porque não há Bloquear; Nem Um Arranhão pode se aplicar quando seus requisitos forem cumpridos. Se o Bastião estiver longe de Daigo, não recebe a vantagem apenas por ter a habilidade.
 
-Cobrir-se, quando disponível, reduz 6 por Reação e 2 PE. No Emanador, a média dessa aplicação cai de 20,38 para **14,38**. A redução não desfaz uma falha no TR nem remove Prende. A resposta à área depende também de sair do aviso, interromper a conjuração ou administrar o dano, não só da reserva de vida.
+Cobrir-se, quando disponível, reduz 6 com a Reação. No Emanador, a média dessa aplicação cai de 20,38 para **14,38**. A redução não desfaz uma falha no TR nem remove Prende. A resposta à área depende também de sair do aviso, interromper a conjuração ou administrar o dano, não só da reserva de vida.
 
 Esses números mostram o limite do protótipo: um grupo inteiro, saudável e livre para se dispersar pode suportar ou evitar a pressão. A cena ganha tensão quando precisa escolher onde permanecer e em que gastar ações. Se a intenção for preparar outra função de chefe, retome método, capacidades e objetivos antes de simplesmente multiplicar o dano.
 
@@ -76,7 +78,7 @@ Esses números mostram o limite do protótipo: um grupo inteiro, saudável e liv
 
 Este exemplo usa **dados escolhidos para ensinar**, não resultados de uma sessão humana. Ele mostra um momento do confronto, independente das sequências da comparação, que não incluem respostas dos guardas. Aqui, Mei é o Emanador 15 da referência, com máximo **137 PV**, Classe 4, Integridade positiva e **uma Sequela**; não é a personagem de nível mais baixo dos outros exemplos. Ela está operando o painel, com **24 PV**. Daigo havia avisado a faixa; Mei optou por permanecer. Contra um TR, a Defesa não conta.
 
-1. **Daigo conjura Fita de Classe 4**, gasta 12 PE de seus 26 e fica com 14. Mei tira 7 + 4 = 11 no TR Físico, falhando em CD 15. Os seis d8 mostram 4, 4, 4, 5, 5 e 5: **27 de dano**, sem redução nesta ocorrência. Ela chega a zero e recebe Prende. O golpe que provocou a queda não desconta outra rodada pelo excesso.
+1. **Daigo conjura Fita de Classe 4**, gastando seu uso da luta. Mei tira 7 + 4 = 11 no TR Físico, falhando em CD 15. Os seis d8 mostram 4, 4, 4, 5, 5 e 5: **27 de dano**, sem redução nesta ocorrência. Ela chega a zero e recebe Prende. O golpe que provocou a queda não desconta outra rodada pelo excesso.
 2. Mei escolhe **Insistir**, pela primeira vez na cena. A janela começa em **3 − 1 = 2 rodadas**, marcadas no ponto da queda. O tratamento é **137 ÷ 3, para cima = 46**, abaixo do teto 15 × Classe 4 = 60. Mantém consciência e contato; isso não lhe devolve ações já gastas.
 3. **Akira**, o Guia 15 da referência, já está a até 9 m, vendo Mei, com mãos e Selo disponíveis. Conhece uma cura individual Classe 4, Projétil, base Média 4, saldo 8: **8d8 por 12 PE**. Usa Padrão; 4 + 4 + 4 + 4 + 5 + 5 + 5 + 5 = **36**. Dos 75 PE iniciais fica com 63. Mei continua a zero: o tratamento acumulado é 36 de 46.
 4. **Bao**, o Bastião 15 da referência, já está adjacente a Mei. Para esta demonstração, sua técnica admite Amparo e conhece cura de Toque Classe 2: base 2, sem Melhorias ou Restrições, **4d8 por 6 PE**. A devolução de Toque não gera dados porque não há Melhorias pagas. Gasta Padrão; 1 + 2 + 3 + 4 = **10**. Seus 60 PE passam a 54.
@@ -99,6 +101,6 @@ A chance de perder os 24 PV é igual. A janela posterior é que muda: três roda
 
 ## Registro para outro mestre
 
-Anote a versão escolhida, posições, retirada combinada, estado do painel e do fecho, operador e passos concluídos. Nas fichas, conserve PV, Integridade, PE, Reações, bônus acumulado de Kokusen e condições. Para Daigo, registre faixa avisada, turno em que pode conjurar e intervalo restante. Para Tessa, registre Impulso concedido e seu término.
+Anote a versão escolhida, posições, retirada combinada, estado do painel e do fecho, operador e passos concluídos. Nas fichas, conserve PV, Integridade, usos gastos, Reações, bônus acumulado de Kokusen e condições. Para Daigo, registre faixa avisada, turno em que pode conjurar e intervalo restante. Para Tessa, registre Impulso concedido e seu término.
 
 Registre também quem entrou em Morrendo, máximo de referência, tratamento necessário e acumulado, janela, ponto da queda e Sequelas. Um inimigo com PV positivos, um personagem ainda insistindo e a caixa já recuperada são três estados diferentes. Nenhum substitui os outros.

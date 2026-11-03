@@ -1,0 +1,62 @@
+
+=== política do inimigo: lista ===
+-- C04 estado de entrada (trio)
+C04 vida 100%, Sequelas 0                      rod   2/3   queda  15.0% [13.9–16.1]  Derrot  0.38% [0.23–0.62]  perde  0.03%  cens 0.0%  chão 0.03  PE sobra 46.2%  magias-ini 1.19
+C04 vida 75%, Sequelas 0                       rod 2.0/3   queda  30.9% [29.5–32.4]  Derrot  0.82% [0.59–1.16]  perde  0.10%  cens 0.0%  chão 0.05  PE sobra 44.9%  magias-ini 1.22
+C04 vida 50%, Sequelas 0                       rod   2/3   queda  54.0% [52.5–55.5]  Derrot  1.77% [1.41–2.23]  perde  0.42%  cens 0.0%  chão 0.08  PE sobra 42.6%  magias-ini 1.25
+C04 vida 50%, Sequelas 1                       rod   2/3   queda  54.0% [52.5–55.5]  Derrot  9.60% [8.73–10.55]  perde  1.07%  cens 0.0%  chão 0.24  PE sobra 42.9%  magias-ini 1.26
+C04 vida 50%, Sequelas 2                       rod   2/3   queda  54.0% [52.5–55.5]  Derrot 17.68% [16.52–18.89]  perde  1.48%  cens 0.0%  chão 0.38  PE sobra 42.9%  magias-ini 1.27
+-- C05 um corpo contra dois
+C05 um corpo 32 PV                             rod 2.0/2   queda   8.0% [ 7.2– 8.9]  Derrot  0.10% [0.04–0.26]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 60.7%  magias-ini 0.90
+C05 dois corpos 16+16                          rod 2.0/3   queda  25.8% [24.5–27.2]  Derrot  1.98% [1.59–2.45]  perde  0.15%  cens 0.0%  chão 0.05  PE sobra 51.4%  magias-ini 1.63
+-- C11 distância do socorro
+C11 atraso 0, trio                             rod 2.0/3   queda  15.0% [13.9–16.1]  Derrot  1.25% [0.95–1.64]  perde  0.10%  cens 0.0%  chão 0.04  PE sobra 45.6%  magias-ini 1.19
+C11 atraso 0, dupla                            rod   3/5   queda  28.8% [27.4–30.2]  Derrot 10.57% [9.66–11.57]  perde  8.47%  cens 0.0%  chão 0.62  PE sobra 25.0%  magias-ini 1.72
+C11 atraso 1, trio                             rod 2.0/3   queda  15.0% [13.9–16.1]  Derrot  2.55% [2.11–3.09]  perde  0.10%  cens 0.0%  chão 0.03  PE sobra 45.8%  magias-ini 1.20
+C11 atraso 1, dupla                            rod 3.0/5   queda  28.8% [27.4–30.2]  Derrot 12.05% [11.08–13.10]  perde  7.45%  cens 0.0%  chão 0.54  PE sobra 25.3%  magias-ini 1.71
+C11 atraso 2, trio                             rod   2/3   queda  15.0% [13.9–16.1]  Derrot  7.97% [7.18–8.86]  perde  0.17%  cens 0.0%  chão 0.06  PE sobra 46.4%  magias-ini 1.20
+C11 atraso 2, dupla                            rod   3/5   queda  28.8% [27.4–30.2]  Derrot 19.90% [18.69–21.17]  perde  8.07%  cens 0.0%  chão 0.61  PE sobra 26.2%  magias-ini 1.71
+-- C02 tamanho do grupo
+C02 grupo 2, Amontoado 48                      rod   3/6   queda  28.8% [27.4–30.2]  Derrot  7.30% [6.53–8.15]  perde  5.33%  cens 0.0%  chão 0.54  PE sobra 25.4%  magias-ini 1.72
+C02b grupo 2, Amontoado 32                     rod   2/4   queda  14.8% [13.7–15.9]  Derrot  1.88% [1.50–2.34]  perde  0.97%  cens 0.0%  chão 0.13  PE sobra 39.2%  magias-ini 1.25
+C02 grupo 3, Amontoado 48                      rod   2/3   queda  15.0% [13.9–16.1]  Derrot  0.38% [0.23–0.62]  perde  0.03%  cens 0.0%  chão 0.03  PE sobra 46.2%  magias-ini 1.19
+C02b grupo 3, Amontoado 48                     rod   2/3   queda  15.0% [13.9–16.1]  Derrot  0.38% [0.23–0.62]  perde  0.03%  cens 0.0%  chão 0.03  PE sobra 46.2%  magias-ini 1.19
+C02 grupo 4, Amontoado 48                      rod 2.0/2   queda   8.1% [ 7.2– 8.9]  Derrot  0.05% [0.01–0.18]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 56.6%  magias-ini 0.99
+C02b grupo 4, Amontoado 64                     rod 2.0/3   queda  13.3% [12.3–14.4]  Derrot  0.17% [0.08–0.36]  perde  0.00%  cens 0.0%  chão 0.01  PE sobra 45.5%  magias-ini 1.19
+C02 grupo 6, Amontoado 48                      rod 1.0/2   queda   3.4% [ 2.9– 4.0]  Derrot  0.00% [0.00–0.10]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 72.5%  magias-ini 0.71
+C02b grupo 6, Amontoado 96                     rod 2.0/3   queda  12.1% [11.1–13.1]  Derrot  0.00% [0.00–0.10]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 48.9%  magias-ini 1.17
+
+=== política do inimigo: espalha ===
+-- C04 estado de entrada (trio)
+C04 vida 100%, Sequelas 0                      rod   2/3   queda  24.0% [22.7–25.3]  Derrot  0.15% [0.07–0.33]  perde  0.03%  cens 0.0%  chão 0.01  PE sobra 45.5%  magias-ini 1.21
+C04 vida 75%, Sequelas 0                       rod 2.0/3   queda  42.5% [41.0–44.0]  Derrot  0.45% [0.28–0.71]  perde  0.10%  cens 0.0%  chão 0.02  PE sobra 44.0%  magias-ini 1.23
+C04 vida 50%, Sequelas 0                       rod   2/3   queda  58.4% [56.9–59.9]  Derrot  0.53% [0.34–0.80]  perde  0.12%  cens 0.0%  chão 0.03  PE sobra 42.5%  magias-ini 1.26
+C04 vida 50%, Sequelas 1                       rod   2/3   queda  58.4% [56.9–59.9]  Derrot  3.33% [2.81–3.93]  perde  0.28%  cens 0.0%  chão 0.07  PE sobra 42.6%  magias-ini 1.26
+C04 vida 50%, Sequelas 2                       rod 2.0/3   queda  58.4% [56.9–59.9]  Derrot 12.22% [11.25–13.28]  perde  0.90%  cens 0.0%  chão 0.21  PE sobra 43.1%  magias-ini 1.27
+
+=== política do inimigo: ferido ===
+-- C04 estado de entrada (trio)
+C04 vida 100%, Sequelas 0                      rod 2.0/3   queda  42.3% [40.8–43.8]  Derrot  0.70% [0.48–1.01]  perde  0.00%  cens 0.0%  chão 0.02  PE sobra 44.0%  magias-ini 1.23
+C04 vida 75%, Sequelas 0                       rod 2.0/3   queda  57.0% [55.5–58.6]  Derrot  0.97% [0.71–1.33]  perde  0.00%  cens 0.0%  chão 0.03  PE sobra 42.6%  magias-ini 1.24
+C04 vida 50%, Sequelas 0                       rod   2/3   queda  64.2% [62.7–65.6]  Derrot  0.88% [0.63–1.21]  perde  0.07%  cens 0.0%  chão 0.03  PE sobra 42.0%  magias-ini 1.25
+C04 vida 50%, Sequelas 1                       rod 2.0/3   queda  64.2% [62.7–65.6]  Derrot  4.38% [3.78–5.05]  perde  0.05%  cens 0.0%  chão 0.07  PE sobra 42.3%  magias-ini 1.25
+C04 vida 50%, Sequelas 2                       rod 2.0/3   queda  64.2% [62.7–65.6]  Derrot 11.88% [10.91–12.91]  perde  0.30%  cens 0.0%  chão 0.19  PE sobra 43.1%  magias-ini 1.26
+-- C05 um corpo contra dois
+C05 um corpo 32 PV                             rod 2.0/2   queda  31.0% [29.6–32.5]  Derrot  0.15% [0.07–0.33]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 59.1%  magias-ini 0.92
+C05 dois corpos 16+16                          rod 2.0/3   queda  52.1% [50.6–53.7]  Derrot  1.98% [1.59–2.45]  perde  0.00%  cens 0.0%  chão 0.04  PE sobra 49.5%  magias-ini 1.69
+-- C11 distância do socorro
+C11 atraso 0, trio                             rod 2.0/4   queda  42.3% [40.8–43.8]  Derrot  1.52% [1.19–1.95]  perde  0.00%  cens 0.0%  chão 0.04  PE sobra 42.8%  magias-ini 1.23
+C11 atraso 0, dupla                            rod   3/6   queda  47.4% [45.9–49.0]  Derrot 22.80% [21.53–24.13]  perde  0.93%  cens 0.0%  chão 0.17  PE sobra 23.9%  magias-ini 1.66
+C11 atraso 1, trio                             rod 2.0/4   queda  42.3% [40.8–43.8]  Derrot  2.70% [2.24–3.25]  perde  0.00%  cens 0.0%  chão 0.02  PE sobra 43.6%  magias-ini 1.25
+C11 atraso 1, dupla                            rod   4/6   queda  47.4% [45.9–49.0]  Derrot 21.60% [20.35–22.90]  perde  1.62%  cens 0.0%  chão 0.21  PE sobra 25.4%  magias-ini 1.72
+C11 atraso 2, trio                             rod 2.0/4   queda  42.3% [40.8–43.8]  Derrot 21.88% [20.62–23.18]  perde  0.00%  cens 0.0%  chão 0.14  PE sobra 46.4%  magias-ini 1.25
+C11 atraso 2, dupla                            rod   3/6   queda  47.4% [45.9–49.0]  Derrot 37.77% [36.28–39.29]  perde  6.03%  cens 0.0%  chão 0.73  PE sobra 33.1%  magias-ini 1.77
+-- C02 tamanho do grupo
+C02 grupo 2, Amontoado 48                      rod   3/6   queda  47.4% [45.9–49.0]  Derrot  8.32% [7.51–9.22]  perde  0.33%  cens 0.0%  chão 0.16  PE sobra 24.5%  magias-ini 1.66
+C02b grupo 2, Amontoado 32                     rod 2.0/4   queda  30.7% [29.3–32.2]  Derrot  2.20% [1.79–2.70]  perde  0.00%  cens 0.0%  chão 0.03  PE sobra 37.9%  magias-ini 1.25
+C02 grupo 3, Amontoado 48                      rod 2.0/3   queda  42.3% [40.8–43.8]  Derrot  0.70% [0.48–1.01]  perde  0.00%  cens 0.0%  chão 0.02  PE sobra 44.0%  magias-ini 1.23
+C02b grupo 3, Amontoado 48                     rod 2.0/3   queda  42.3% [40.8–43.8]  Derrot  0.70% [0.48–1.01]  perde  0.00%  cens 0.0%  chão 0.02  PE sobra 44.0%  magias-ini 1.23
+C02 grupo 4, Amontoado 48                      rod 2.0/3   queda  36.0% [34.5–37.4]  Derrot  0.10% [0.04–0.26]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 55.1%  magias-ini 1.01
+C02b grupo 4, Amontoado 64                     rod 2.0/3   queda  43.5% [41.9–45.0]  Derrot  0.35% [0.21–0.59]  perde  0.00%  cens 0.0%  chão 0.01  PE sobra 43.8%  magias-ini 1.21
+C02 grupo 6, Amontoado 48                      rod 1.0/2   queda  24.2% [22.9–25.6]  Derrot  0.00% [0.00–0.10]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 71.7%  magias-ini 0.72
+C02b grupo 6, Amontoado 96                     rod 2.0/3   queda  44.2% [42.7–45.8]  Derrot  0.03% [0.00–0.14]  perde  0.00%  cens 0.0%  chão 0.00  PE sobra 47.4%  magias-ini 1.19

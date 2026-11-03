@@ -31,17 +31,17 @@ Os três têm visão livre no recinto. Rina atua com espada próxima e proteçã
 | Percepção | Visão, audição, fala e sentidos de energia pelo Livro de Regras 1.0. | Os mesmos tipos de sentido. |
 | Nível / Maestria / Refino / Classe máxima | 6 / 1 / 2 / 2. | 6 / 1 / 2 / 2. |
 | Força / Destreza / Constituição / Inteligência / Essência | 4 / 2 / 3 / 1 / 1. | 0 / 2 / 3 / 2 / 4. |
-| Reservas iniciais | 72 PV; 36 de Integridade; 8/8 PE. | 48 PV; 24 de Integridade; 12/12 PE. |
+| Reservas e rótulos | 72 PV; 36 de Integridade. Fenda Recarga (5–6); Cobrir-se 1× por luta. | 48 PV; 24 de Integridade. Fio à vontade; Remendo 1× por luta; Cobrir-se 1× por luta. |
 | Defesa / Bloquear / movimento | 13 / 2d10 + 2 / 9 m. | 13 / 2d10 + 2 / 9 m. |
 | TRs: Físico / Vigor / Intelecto / Espírito | +5 / +4 / +1 / +1; Físico e Vigor treinados. | +3 / +3 / +2 / +5; Físico e Espírito treinados. |
 | Carga normal / arrasto máximo | 9 / 18 Volume. | 5 / 10 Volume. |
 | Equipamento | Espada Longa em uma mão, 1 Volume; Traje 1, 0,3. | Traje 1, 0,3 Volume; estojo, 1 Volume, na mão esquerda. |
 
-Perícias e demais requisitos estão identificados na ficha completa. Não acrescente treino, Caminho, Trilha, Origem, Domínio ou resistência por serem personagens de nível 6. A Defesa de ambos resulta de 10 + Destreza 2 + Traje 1. Seus totais de vida e PE são parâmetros inimigos propostos; Integridade, ataque, Defesa e montagem das capacidades seguem as regras do Livro de Regras 1.0.
+Perícias e demais requisitos estão identificados na ficha completa. Não acrescente treino, Caminho, Trilha, Origem, Domínio ou resistência por serem personagens de nível 6. A Defesa de ambos resulta de 10 + Destreza 2 + Traje 1. Seus totais de vida e seus rótulos são parâmetros inimigos propostos; inimigos não contam PE; Integridade, ataque, Defesa e montagem das capacidades seguem as regras do Livro de Regras 1.0.
 
-**Atuação:** cada um tem Padrão, Movimento, Bônus e Reação comuns e um ataque em Atacar. Toru escolhe entre espada e Fenda em marcha na sua Padrão. Sayo escolhe entre Fio de impulso, Remendo ou outra ação válida. Ambos podem gastar a própria Reação e 2 PE em Cobrir-se para reduzir 3 de dano. A mesma reserva paga feitiços e proteção; nenhuma dessas capacidades concede outra Padrão.
+**Atuação:** cada um tem Padrão, Movimento, Bônus e Reação comuns e um ataque em Atacar. Toru escolhe entre espada e Fenda em marcha na sua Padrão. Sayo escolhe entre Fio de impulso, Remendo ou outra ação válida. Cada um pode gastar a própria Reação em Cobrir-se, 1× por luta, para reduzir 3 de dano; nenhuma dessas capacidades concede outra Padrão.
 
-**Prioridades:** Toru prefere a espada quando há um alvo útil próximo; Fenda oferece alcance e reposicionamento. Sayo prefere Remendo em quem estiver ativo, com PV positivos até metade da máxima; entre os dois, prioriza a menor proporção de vida e a si em empate. Sem esse ferimento, favorece Toru com Fio. Alcance, ação e energia precisam permitir a escolha.
+**Prioridades:** Toru prefere a espada quando há um alvo útil próximo; Fenda oferece alcance e reposicionamento. Sayo prefere Remendo em quem estiver ativo, com PV positivos até metade da máxima; entre os dois, prioriza a menor proporção de vida e a si em empate. Sem esse ferimento, favorece Toru com Fio. Alcance, ação e uso disponível precisam permitir a escolha.
 
 **Retirada:** se Sayo cair ou perderem o estojo, Toru tenta negociar ou fugir com suas ações. Se Toru cair, Sayo procura negociar ou sair com os documentos. Ao mudar de conduta, conservam recursos e efeitos.
 
@@ -56,11 +56,11 @@ Todas as capacidades já estão completas na consulta [Toru e Sayo: atacante e a
 | Identificação e origem | Feitiço de Sayo, Classe 1, dependente de sua Técnica Inata. Montagem feita com Fundamento, Amparo e Auxiliares do Livro de Regras 1.0. |
 | Uso | Padrão; palavra audível e gesto da mão direita. Um aliado disposto, visível, até 9 m; Sayo pode escolher a si. O estojo ocupa a esquerda. |
 | Resolução | Benefício automático, sem ataque, crítico ou TR. Impulso concede vantagem no próximo ataque até o fim do próximo turno do beneficiário; a tentativa o consome. Também concede 3 PV temporários. |
-| Pagamento e limite | 3 PE por aplicação, sem usos ou recarga separados. Base Leve de vida temporária individual: 1 ponto; Impulso: 1; saldo: 1 ponto para 3 PV temporários. A Padrão e a energia disputam cura e proteção. |
+| Rótulo e limite | À vontade. Base Leve de vida temporária individual: 1 ponto; Impulso: 1; saldo: 1 ponto para 3 PV temporários. Fio e Remendo disputam a mesma Padrão. |
 | Duração | Impulso e vida temporária são independentes. A reserva restante dura até o fim da cena; não se soma a outra, conserva a maior e respeita o teto do Livro de Regras 1.0. Sem Concentração ou manutenção. |
 | Sinal e resposta | Palavra, gesto e fios de energia. O grupo pode disputar posição e impedir aplicações futuras por meios válidos. O sinal durante a conjuração não concede interrupção gratuita. |
-| Integridade | No estágio 2, Fio passa a 4 PE; no estágio 3 continua dentro da Classe máxima 1, com as demais penalidades cumulativas. |
-| Informação e término | Leitura de Reservas consulta PE reais quando seus requisitos forem atendidos. Afastar Toru depois da aplicação ou incapacitar Sayo não apaga o que já foi concedido: seguir os prazos de cada benefício. |
+| Integridade | No estágio 2, o acréscimo de PE não tem efeito, porque inimigos não contam PE; no estágio 3, Fio continua dentro da Classe máxima 1, com as demais penalidades cumulativas. |
+| Informação e término | Leitura de Reservas informa que Sayo não tem reserva gastável. Afastar Toru depois da aplicação ou incapacitar Sayo não apaga o que já foi concedido: seguir os prazos de cada benefício. |
 
 **Falha ou impedimento:** sem alvo ou requisitos válidos, não há aplicação legal. Um ataque posterior de Toru que erre consome Impulso e não devolve o pagamento de Sayo. Impedir outra conjuração não desfaz esse gasto nem a vida temporária restante. Não há dano ou vantagem em TR acrescentados pelo nome do feitiço.
 
@@ -83,7 +83,7 @@ Todas as capacidades já estão completas na consulta [Toru e Sayo: atacante e a
 
 Os textos das capacidades, o mapa e os estados estão disponíveis. A comparação considera duas iniciativas inimigas, os custos concorrentes e a perda de pressão quando um deles cai. Não usa a soma de 120 PV como equivalência a um chefe de 108 PV.
 
-**Questões conferidas:** cura ocupa a Padrão que daria apoio; Cobrir-se compete por PE; Impulso não concede ataque extra; a reação de cada pessoa volta no início do próprio turno; afastar Sayo interfere em aplicações futuras sem apagar benefícios já entregues. As penalidades de Integridade e o destino a zero estão escritos, mesmo sem redução de Integridade no percurso escolhido.
+**Questões conferidas:** cura ocupa a Padrão que daria apoio; Cobrir-se tem um uso na luta; Impulso não concede ataque extra; a reação de cada pessoa volta no início do próprio turno; afastar Sayo interfere em aplicações futuras sem apagar benefícios já entregues. As penalidades de Integridade e o destino a zero estão escritos, mesmo sem redução de Integridade no percurso escolhido.
 
 **Sequência estudada:** apoio inicial, pressão sobre Sayo, reposicionamento e autocura, nova concentração de ataques, derrota do apoio e retirada de Toru. O [confronto comentado](<76-confronto-de-ren-e-sora.md>) também compara a hipótese de concentrar os dois ataques seguintes em Toru. Essa comparação é condicionada a um estado específico: não é chance de vitória de toda a missão.
 
@@ -100,10 +100,10 @@ Os textos das capacidades, o mapa e os estados estão disponíveis. A comparaç�
 | Rina | 52/65 | 50/50 | 24/24 | E6; ativa. |
 | Mei | 44/44 | 55/55 | 24/36 | D4; ativa. |
 | Akira | 51/51 | 65/65 | 16/30 | G12; ativo, com o estojo. |
-| Toru | 46/72 | 36/36 | 1/8 | F−1; retirou-se, ainda pode ser alcançado. |
-| Sayo | 0/48 | 24/24 | 1/12 | H12; incapacitada e sem o estojo. |
+| Toru | 43/72 | 36/36 | — | F−1; retirou-se, ainda pode ser alcançado. |
+| Sayo | 0/48 | 24/24 | — | H12; incapacitada e sem o estojo. |
 
-Não houve queda de personagem jogador, Insistir, Sequela, Kokusen ou perda de Integridade neste percurso. O grupo gastou 26 PE e a dupla, 18. Os benefícios temporários concedidos foram consumidos antes do encerramento.
+Não houve queda de personagem jogador, Insistir, Sequela, Kokusen ou perda de Integridade neste percurso. O grupo gastou 26 PE; a dupla usou um Fio, uma Fenda, um Remendo e os dois Cobrir-se. Os benefícios temporários concedidos foram consumidos antes do encerramento.
 
 **Ainda por resolver:** saída efetiva da equipe, atendimento e destino de Sayo, transporte caso decidam levá-la, entrega dos documentos e eventual reencontro com Toru. Registre o estado dos efeitos ainda em curso — incluindo Olhos Em Mim enquanto durar a cena — antes de passar a condução a outro mestre.
 

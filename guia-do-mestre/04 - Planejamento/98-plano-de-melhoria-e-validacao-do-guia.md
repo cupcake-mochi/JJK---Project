@@ -1,6 +1,8 @@
 # Plano de melhoria e avaliação do Guia — registro 98
 
-> **Fila vigente - registro 150, 02/11/2026:** avaliação dos encontros por simulação ([plano 149](<149-plano-de-avaliacao-dos-encontros.md>), [resultados 150](<150-resultados-da-avaliacao-dos-encontros.md>)). Capítulo 6 recebeu três orientações e o caso 104; PDF e HTML ainda são os do 147. Decidido: inimigo sem PE, com proposta de aplicação aguardando o autor. Próximo: essa proposta, regerar PDF e HTML, registrar mesas reais.
+> **Fila vigente - registro 151, 02/11/2026:** inimigo sem PE aplicado ao Guia ([registro 151](<151-inimigo-sem-pe-aplicado.md>)). Reservas de inimigo viraram rótulos de frequência (à vontade, 1× por rodada, 1× por luta, Recarga 5–6); casos 57, 76, 102 e 104 com números refeitos. PDF e HTML ainda são os do 147. Próximo: regerar PDF e HTML, registrar mesas reais.
+>
+> **Fila histórica - registro 150, 02/11/2026:** avaliação dos encontros por simulação ([plano 149](<149-plano-de-avaliacao-dos-encontros.md>), [resultados 150](<150-resultados-da-avaliacao-dos-encontros.md>)). Capítulo 6 recebeu três orientações e o caso 104; PDF e HTML ainda são os do 147. Decidido: inimigo sem PE, com proposta de aplicação aguardando o autor. Próximo: essa proposta, regerar PDF e HTML, registrar mesas reais.
 >
 > **Fila histórica - registro 148, 31/10/2026:** salvamento para retomada na nuvem até o registro editorial 147; [estado e retomada](<148-salvamento-e-retomada-na-nuvem.md>). Livro e pacote de impressão concluídos. Próximo: plano de avaliação da dificuldade dos encontros; GPT-6 Astra, esforço extra alto. Retorno de leitores pode acompanhar o trabalho. Confirmar envio em `SALVAMENTO.json` e no comprovante da operação; avisos anteriores são históricos.
 

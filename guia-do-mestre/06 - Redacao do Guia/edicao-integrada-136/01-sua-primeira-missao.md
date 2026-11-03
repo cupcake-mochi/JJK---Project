@@ -101,7 +101,7 @@ Para conduzir o encontro, consulte os ataques, as defesas e o comportamento abai
 
 | Nível / tamanho | Vida | Integridade | Energia | Defesa | Bloquear | Deslocamento |
 |---|---|---|---|---|---|---|
-| 2 / Médio | 48 PV | 24 | 6 PE | 11 | 2d10 + 0 | 9 m |
+| 2 / Médio | 48 PV | 24 | Sem reserva gastável | 11 | 2d10 + 0 | 9 m |
 
 | Força | Destreza | Constituição | Inteligência | Essência |
 |---|---|---|---|---|
@@ -111,7 +111,9 @@ Para conduzir o encontro, consulte os ataques, as defesas e o comportamento abai
 
 **Pancada.** Ação Atacar, um ataque corpo a corpo a até 1,5 m. Ataque +4. No acerto, **1d4 + 3 de Concussão**; no crítico, 2d4 + 3. Sem custo de PE ou condição adicional. Pode substituir o ataque por Agarrar, Derrubar ou Empurrar, cumprindo as regras da manobra; a CD é 12 e a Pancada não causa dano nessa substituição.
 
-**Impacto concentrado.** Feitiço de Classe 1, Ação Padrão, **3 PE**, Toque a até 1,5 m. O Selo exige encostar as duas palmas antes de tocar o alvo. Precisa enxergá-lo. Ataque de técnica +4; no acerto, **3d8 de Concussão**; no crítico, 6d8. Não soma atributo ou Pancada ao dano. O erro gasta a ação e os PE; não produz outro efeito. Não há área, TR ou condição.
+**Impacto concentrado.** Feitiço de Classe 1, Ação Padrão, **Recarga (5–6)**, Toque a até 1,5 m. O Selo exige encostar as duas palmas antes de tocar o alvo. Precisa enxergá-lo. Ataque de técnica +4; no acerto, **3d8 de Concussão**; no crítico, 6d8. Não soma atributo ou Pancada ao dano. O erro gasta a ação e o uso; não produz outro efeito. Não há área, TR ou condição.
+
+**Recarga (5–6).** O Amontoado começa a luta com o Impacto disponível. Depois de usá-lo, rola um d6 no começo de cada turno seu; com 5 ou 6, o Impacto volta. Inimigos não contam PE: este rótulo é o limite do feitiço.
 
 **Montagem da técnica (para consulta):** Fundamento em Força; Concussão; Livres Mira e Castigo; Fechadas Amparo, Tempo e Marca. Conhece somente o feitiço acima. As marcas que brilham no corpo são sua aparência, sem efeito adicional.
 
@@ -123,7 +125,7 @@ Para conduzir o encontro, consulte os ataques, as defesas e o comportamento abai
 
 **Corpo e derrota.** Tem alma; não recebe resistência, vulnerabilidade, imunidade ou Redução de Dano própria desta ficha. Energia Reversa conserva as regras contra maldições. Integridade é a reserva que acompanha os ferimentos da alma, separada da vida; esse dano e seus estágios seguem o Livro de Regras. A zero de vida ou de Integridade, fica derrotado; não escolhe Insistir nem recebe a janela de socorro de um personagem jogador.
 
-**Como age.** Observa quem se aproxima. Ao ser atacado ou quando tentam desmontar sua pilha, fica hostil. Prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Não golpeia inconscientes. Usa Impacto quando estiver ao alcance e puder conjurar; sem PE suficiente ou sem cumprir o Selo, recorre à Pancada ou às ações gerais. A reserva paga dois Impactos pelo custo normal e não se renova a cada rodada. Se o custo mudar, use o valor atual.
+**Como age.** Observa quem se aproxima. Ao ser atacado ou quando tentam desmontar sua pilha, fica hostil. Prioriza a criatura consciente mais próxima; em empate, quem o atacou por último. Não golpeia inconscientes. Usa Impacto quando estiver ao alcance, disponível e puder conjurar; sem o Impacto ou sem cumprir o Selo, recorre à Pancada ou às ações gerais.
 
 **Perseguição.** Pode perseguir dentro do anexo. Quando todos saem, volta à pilha nesta ocorrência. Essa preferência permite uma saída; não transforma a porta numa barreira mágica.
 
@@ -200,7 +202,7 @@ As aplicações têm Selos e demais requisitos cumpridos. A frente usa uma mão 
 <!-- pagina: primeira-rodada -->
 ### Primeira rodada: agir enquanto o socorro chega
 
-**Amontoado.** Encosta as palmas, as marcas brilham e ele tenta Impacto concentrado. Gasta 3 PE. Sai **20 natural**, um crítico: os 3d8 básicos viram 6d8. Os dados mostram 5, 4, 3, 4, 3 e 5: **24 de dano**. A frente tinha 23 PV e chega a zero.
+**Amontoado.** Encosta as palmas, as marcas brilham e ele tenta Impacto concentrado, que fica gasto. Sai **20 natural**, um crítico: os 3d8 básicos viram 6d8. Os dados mostram 5, 4, 3, 4, 3 e 5: **24 de dano**. A frente tinha 23 PV e chega a zero.
 
 **Frente:** “Vou Insistir. Ainda quero tentar meu Toque.”
 
@@ -235,7 +237,7 @@ Sem Sequelas anteriores, a janela começa com três rodadas. Cada Sequela anteri
 <!-- pagina: segunda-rodada -->
 ### Segunda rodada: completar o atendimento
 
-**Amontoado.** A iniciativa volta ao ponto da queda. Passou uma volta completa: a janela da frente cai de **3 para 2 rodadas**. A criatura usa seus últimos 3 PE em outro Impacto. Ataque **4 + 4 = 8**, contra Defesa 13: erra. A ação e os PE são gastos. A frente não recebe dano e conserva as duas rodadas restantes.
+**Amontoado.** A iniciativa volta ao ponto da queda. Passou uma volta completa: a janela da frente cai de **3 para 2 rodadas**. No começo do turno, rola a recarga: sai **5**, e o Impacto volta. A criatura tenta outro Impacto. Ataque **4 + 4 = 8**, contra Defesa 13: erra. A ação e o uso são gastos. A frente não recebe dano e conserva as duas rodadas restantes.
 
 **Turno da frente.** Ainda Insistindo, ela usa outro Toque por 3 PE. Acerto **9 + 4 = 13**; dano **4 + 5 + 3 = 12**. O Amontoado passa de 22 para **10 PV**.
 
@@ -310,7 +312,7 @@ Depois das duas rodadas desta demonstração:
 | Frente | 8/23 PV | 2/8 PE | Uma Sequela; saiu de Morrendo |
 | Apoio | 17/17 PV | 4/10 PE | Sem queda |
 | Conjuradora | 14/14 PV | 6/12 PE | Sem queda |
-| Amontoado | 0/48 PV | 0/6 PE | Derrotado; destino conforme a ação e a intenção resolvidas |
+| Amontoado | 0/48 PV | sem reserva | Derrotado; destino conforme a ação e a intenção resolvidas |
 
 Ninguém perdeu Integridade no exemplo. A derrota da criatura não recupera os recursos do grupo. Confira no Livro de Regras e nos acordos da campanha quando o grupo pode descansar, receber XP e ser remunerado. Se houver atendimento pendente, resolva-o antes de avançar o tempo.
 
@@ -345,7 +347,7 @@ Você não precisa repetir o depósito. Um encontro com uma professora, uma rela
 | Informações | Registro, conversas e contatos confirmam os funcionários fora; Davi e planta mostram as duas entradas do corredor; observação acessível revela sinais do depósito. |
 | Lugar | Pátio 6 × 6 m; corredor 9 × 3 m; depósito 6 × 6 m. Porta do depósito a 4,5 m de cada entrada do corredor; criatura a 4,5 m dessa porta. |
 | Condições | Iluminado; portas destrancadas de 1,5 m; teto de 3 m. Caixas laterais e faixa central livre. Usar cobertura conforme a posição. |
-| Amontoado | 48 PV, 24 de Integridade, 6 PE, Defesa 11, deslocamento 9 m. Pancada +4, 1d4 + 3; Impacto +4, 3d8, 3 PE. Ambos a até 1,5 m. |
+| Amontoado | 48 PV, 24 de Integridade, Defesa 11, deslocamento 9 m. Pancada +4, 1d4 + 3; Impacto +4, 3d8, Recarga (5–6). Ambos a até 1,5 m. |
 | Comportamento | Observa até ser atacado ou ter a pilha desmontada. Prioriza consciente mais próximo; em empate, último agressor. Não golpeia inconscientes. Persegue no anexo e volta à pilha quando todos saem. |
 | Respostas possíveis | Conversar, observar por outro acesso, intervir, recuar ou pedir apoio. Iniciativa antes dos ataques. |
 | Se demorarem | Materiais continuam sendo danificados. O uso do anexo fica suspenso; Ana procura ajuda. |

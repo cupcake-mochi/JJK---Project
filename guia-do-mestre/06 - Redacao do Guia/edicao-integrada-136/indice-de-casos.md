@@ -25,7 +25,7 @@ Escolha a dúvida que precisa aprofundar. O capítulo principal apresenta o mét
 [Explicação principal](<06-inimigos-e-perigos.md>)
 
 - [Três maldições para a missão](<casos/14-tres-maldicoes-para-a-missao.md>).
-- [PE, recarga e limites de uso](<casos/59-recursos-e-ritmo-dos-inimigos.md>).
+- [Rótulos, recarga e preparação](<casos/59-recursos-e-ritmo-dos-inimigos.md>).
 - [Montar as habilidades de um inimigo](<casos/60-montar-habilidades-de-inimigos.md>).
 - [Escolher os números de um inimigo](<casos/74-regua-inicial-de-inimigos.md>).
 - [Inimigos de níveis mais altos](<casos/100-comparar-inimigos-em-outras-faixas.md>).
