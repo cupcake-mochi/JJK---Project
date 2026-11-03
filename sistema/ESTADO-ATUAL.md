@@ -8,7 +8,7 @@ As duas paletas continuam com 425 páginas. Contra a R61, 77 páginas mudaram, a
 
 Guardas novas, cada uma com teste negativo: `conferir-fundamento.py` falha com "saldo" visível no livro; `conferir-nomes.py` trata "Saldo" capitalizado como nome aposentado; o `conferir.py` da composição falha com "saldo" impresso em qualquer paleta. `conferir-dano.py` passou a aceitar o link e o aposto novos da Técnica Marcial no Calado.
 
-Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R61-para-R62.json`. O plano da passada, o que ficou para a R63 e o questionário de leitura estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/PLANO-LINGUAGEM.md` e `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/QUESTIONARIO-LEITURA.md`. A cadeia de integridade cobre R52 a R62. **A R62 ainda não foi publicada**: faltam o push e a conferência na Vercel.
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R61-para-R62.json`. O plano da passada, o que ficou para a R63 e o questionário de leitura estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/PLANO-LINGUAGEM.md` e `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/QUESTIONARIO-LEITURA.md`. A cadeia de integridade cobre R52 a R62. A R62 foi publicada na Vercel em 03/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos hashes dos arquivos revisados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r62/PUBLICACAO.json`.
 
 # Edição anterior R61
 

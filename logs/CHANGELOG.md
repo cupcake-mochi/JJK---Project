@@ -27,7 +27,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 - A linguagem simples entrou no Livro sem piloto antes (Q14 da sabatina). As palavras de cartório fora das frases tocadas ficam para a R63. O Guia do Mestre não foi tocado, porque está sendo mexido em outra frente; a nota para essa frente está no `PLANO-LINGUAGEM.md`.
 
-→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R62 ainda por publicar.
+### Publicado
+
+- A R62 foi publicada na Vercel em 03/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos SHA-256 dos arquivos revisados. Registro em `editorial-r62/PUBLICACAO.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R62 e a conferência da publicação.
 
 ## [0.371] - 02/11/2026
 
