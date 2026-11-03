@@ -29,6 +29,7 @@ Escolha a dúvida que precisa aprofundar. O capítulo principal apresenta o mét
 - [Montar as habilidades de um inimigo](<casos/60-montar-habilidades-de-inimigos.md>).
 - [Escolher os números de um inimigo](<casos/74-regua-inicial-de-inimigos.md>).
 - [Inimigos de níveis mais altos](<casos/100-comparar-inimigos-em-outras-faixas.md>).
+- [O que mais pesa no encontro](<casos/104-o-que-mais-pesa-no-encontro.md>).
 - [Preparar chefes e confrontos maiores](<casos/67-preparar-chefes-e-confrontos-maiores.md>).
 - [Perigos do ambiente](<casos/78-preparar-perigos-ambientais.md>).
 - [O encontro do Amontoado](<casos/57-avaliar-o-encontro-do-amontoado.md>).

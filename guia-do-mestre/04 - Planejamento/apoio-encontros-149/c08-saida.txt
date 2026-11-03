@@ -1,0 +1,16 @@
+Alicerce não · Mei cheia · ignorar     rod 5.0/6  alguém cai   0.3% [0.2–0.6]  Derrotado  0.00%  vence 100.0%  impactos 1.75  atingidos 1.75  interrupções 0.00
+Alicerce não · Mei cheia · sair        rod 5.0/7  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.94  atingidos 0.17  interrupções 0.00
+Alicerce não · Mei cheia · interromper rod 6.0/11  alguém cai   6.2% [5.5–7.0]  Derrotado  3.08%  vence  96.7%  impactos 1.18  atingidos 0.64  interrupções 3.57
+Alicerce não · Mei cheia · mei_perto   rod 5.0/6  alguém cai   5.3% [4.6–6.0]  Derrotado  0.33%  vence  99.7%  impactos 1.76  atingidos 3.50  interrupções 0.00
+Alicerce não · Mei 18/44 · ignorar     rod 5.0/6  alguém cai   0.4% [0.2–0.6]  Derrotado  0.12%  vence  99.9%  impactos 1.76  atingidos 1.76  interrupções 0.00
+Alicerce não · Mei 18/44 · sair        rod 5.0/7  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.89  atingidos 0.19  interrupções 0.00
+Alicerce não · Mei 18/44 · interromper rod 6.0/12  alguém cai   8.5% [7.7–9.4]  Derrotado  5.25%  vence  94.8%  impactos 1.24  atingidos 0.65  interrupções 3.56
+Alicerce não · Mei 18/44 · mei_perto   rod 5.0/6  alguém cai   9.1% [8.2–10.0]  Derrotado  0.57%  vence  99.6%  impactos 1.77  atingidos 3.52  interrupções 0.00
+Alicerce sim · Mei cheia · ignorar     rod 5.0/6  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.75  atingidos 1.75  interrupções 0.00
+Alicerce sim · Mei cheia · sair        rod 5.0/7  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.93  atingidos 0.17  interrupções 0.00
+Alicerce sim · Mei cheia · interromper rod 6.0/11  alguém cai   0.2% [0.1–0.4]  Derrotado  0.05%  vence  98.9%  impactos 1.11  atingidos 0.63  interrupções 3.59
+Alicerce sim · Mei cheia · mei_perto   rod 5.0/6  alguém cai   4.5% [3.9–5.2]  Derrotado  0.05%  vence 100.0%  impactos 1.75  atingidos 3.51  interrupções 0.00
+Alicerce sim · Mei 18/44 · ignorar     rod 5.0/6  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.76  atingidos 1.76  interrupções 0.00
+Alicerce sim · Mei 18/44 · sair        rod 5.0/7  alguém cai   0.0% [0.0–0.1]  Derrotado  0.00%  vence 100.0%  impactos 1.90  atingidos 0.18  interrupções 0.00
+Alicerce sim · Mei 18/44 · interromper rod 6.0/11  alguém cai   0.2% [0.1–0.5]  Derrotado  0.03%  vence  99.0%  impactos 1.12  atingidos 0.63  interrupções 3.54
+Alicerce sim · Mei 18/44 · mei_perto   rod 5.0/6  alguém cai   7.6% [6.8–8.4]  Derrotado  0.12%  vence 100.0%  impactos 1.77  atingidos 3.53  interrupções 0.00

@@ -159,6 +159,8 @@ Um golpe mais forte repetido antes de alguém agir pesa de modo diferente de um 
 
 Os [estudos numéricos](<casos/74-regua-inicial-de-inimigos.md>) mostram as premissas e as probabilidades. As sequências de três ou seis ataques ali não são rodadas completas: deixam de fora várias ações e respostas. A [comparação de outras faixas](<casos/100-comparar-inimigos-em-outras-faixas.md>) amplia os recortes sem criar uma escala aprovada para todos os níveis. Não deduza os números dos níveis ausentes a partir desses recortes nem multiplique as reservas para chegar a outro nível.
 
+Uma tabela geral de dificuldade supõe quanto dano o grupo causa por rodada. Confira esse valor contra as fichas reais antes de usar a vida que ela indica. No nível 2, os três perfis de estudo causam menos dano do que tabelas desse tipo costumam supor, e a luta dura mais que o previsto. [O que mais pesa no encontro](<casos/104-o-que-mais-pesa-no-encontro.md#tabelas-gerais-de-dificuldade>) mostra a comparação.
+
 ## 6.5 O grupo e o lugar
 
 Use as fichas reais do grupo e seu estado de entrada. Confira vida, Integridade, PE, condições, Sequelas, alcance, percepção e meios de socorro. Numa análise anterior à escolha dos personagens, identifique os perfis supostos e aquilo que não representam.
@@ -179,9 +181,23 @@ Na [variante do portão](<casos/66-o-carregador-e-a-saida-que-fecha.md>), os nú
 
 Para comparar a alteração, separe o mapa original, o novo mapa com motor desligado e o mesmo mapa com fechamento ativo. Assim é possível distinguir a mudança de espaço da pressão do prazo. O [estudo de composição](<casos/65-comparar-confronto-e-pressao-ambiental.md>) fornece percursos e custos.
 
+### O que mais muda a dificuldade
+
+Antes de mexer na vida do inimigo, confira o que costuma pesar mais. Em ordem:
+
+1. **Estado de entrada.** Vida atual, Sequelas e PE do grupo.
+2. **Escolha de alvo.** Atacar o mais ferido derruba mais pessoas do que atacar quem está na frente.
+3. **Ações do lado inimigo.** Dois corpos agem duas vezes por rodada.
+4. **Distância do socorro.**
+5. **A vida do inimigo**, por último.
+
+[O que mais pesa no encontro](<casos/104-o-que-mais-pesa-no-encontro.md>) compara essas escolhas com o mesmo Amontoado.
+
 ### Quando o grupo corre risco
 
 Pergunte o que ocorre se dois golpes acertarem a mesma pessoa antes de ela agir, se o socorrista estiver longe ou se a retirada exigir transportar alguém. Uma contenção e um caminho maior podem dificultar o socorro sem aumentar o dano.
+
+Mantenha quem cura a no máximo um turno de movimento de quem está na frente. Se o mapa separa os dois por mais que isso, trate o encontro como mais perigoso do que os números da ficha indicam. No estudo do Amontoado, dois turnos de distância multiplicaram as derrotas por cinco a dez.
 
 As regras de queda dos personagens mudam essa leitura. Chegar a zero de vida pode permitir Insistir, conservando ações e recursos disponíveis; Aguentar deixa Inconsciente. O inimigo comum é derrotado a zero de vida ou Integridade, salvo regra própria. Não conceda a ele o socorro de jogador por presumir que as fichas são iguais.
 

@@ -1,0 +1,67 @@
+{
+  "revisao": "piloto-r53-v1",
+  "referencia": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md",
+  "nivel_referencia": 2,
+  "maestria": 1,
+  "enemies": [
+    {
+      "id": "rastejante",
+      "nome": "Rastejante",
+      "nivel": 2,
+      "tamanho": "Pequeno",
+      "atributos": {"forca": 2, "destreza": 3, "constituicao": 1, "inteligencia": 1, "essencia": 2},
+      "pv": 12,
+      "pe": 0,
+      "defesa": 13,
+      "deslocamento": 9,
+      "fisico": "destreza",
+      "tr_treinado": "fisico",
+      "pericias": {"Acrobacia": "destreza", "Atletismo": "forca", "Furtividade": "destreza", "Percepção": "essencia"},
+      "basica": {"nome": "Pancada", "atributo": "forca", "dados": 1, "faces": 4, "fixo": 2, "alcance": 1.5, "tipo": "Concussão"},
+      "magia": null,
+      "talento": "Leitura",
+      "domada": {"livre": "Alcance", "abertas": ["Alcance", "Mira", "Controle"], "especial": null}
+    },
+    {
+      "id": "amontoado",
+      "nome": "Amontoado do depósito",
+      "nivel": 2,
+      "tamanho": "Médio",
+      "atributos": {"forca": 3, "destreza": 1, "constituicao": 3, "inteligencia": 1, "essencia": 1},
+      "pv": 48,
+      "pe": 6,
+      "defesa": 11,
+      "deslocamento": 9,
+      "fisico": "forca",
+      "tr_treinado": "fisico",
+      "pericias": {"Atletismo": "forca", "Furtividade": "destreza", "Percepção": "essencia", "Intuição": "inteligencia"},
+      "basica": {"nome": "Pancada", "atributo": "forca", "dados": 1, "faces": 4, "fixo": 3, "alcance": 1.5, "tipo": "Concussão"},
+      "magia": {"nome": "Impacto concentrado", "atributo": "forca", "classe": 1, "forma": "Toque", "custo": 3, "dados": 3, "faces": 8, "fixo": 0, "alcance": 1.5, "tipo": "Concussão", "selo": "Encostar as duas palmas antes de tocar o alvo", "livres": ["Mira", "Castigo"], "fechadas": ["Amparo", "Tempo", "Marca"]},
+      "talento": "Leitura",
+      "domada": {"livre": "Castigo", "abertas": ["Castigo", "Mira", "Controle"], "especial": {"nome": "Impacto concentrado", "forma": "Toque", "peca": null, "dados": 2, "faces": 8, "bonus_acerto": 0}}
+    },
+    {
+      "id": "vigia",
+      "nome": "Vigia das farpas",
+      "nivel": 2,
+      "tamanho": "Médio",
+      "atributos": {"forca": 0, "destreza": 3, "constituicao": 1, "inteligencia": 2, "essencia": 3},
+      "pv": 24,
+      "pe": 6,
+      "defesa": 13,
+      "deslocamento": 9,
+      "fisico": "destreza",
+      "tr_treinado": "espirito",
+      "pericias": {"Acrobacia": "destreza", "Furtividade": "destreza", "Percepção": "essencia", "Intuição": "inteligencia", "Investigação": "inteligencia"},
+      "basica": {"nome": "Pancada", "atributo": "forca", "dados": 1, "faces": 4, "fixo": 0, "alcance": 1.5, "tipo": "Concussão"},
+      "magia": {"nome": "Estalo de farpas", "atributo": "essencia", "classe": 1, "forma": "Projétil", "custo": 3, "dados": 3, "faces": 8, "fixo": 0, "alcance": 18, "tipo": "Cortante", "selo": "Estalar os dedos de uma mão livre", "livres": ["Alcance", "Mira"], "fechadas": ["Amparo", "Tempo", "Marca"]},
+      "talento": "Leitura",
+      "domada": {"livre": "Mira", "abertas": ["Mira", "Alcance", "Castigo"], "especial": {"nome": "Estalo de farpas", "forma": "Projétil", "peca": null, "dados": 2, "faces": 8, "bonus_acerto": 0}}
+    }
+  ],
+  "players": [
+    {"id": "frente", "nome": "Referência Bastião", "caminho": "Bastião", "nivel": 2, "atributos": {"forca": 3, "destreza": 2, "constituicao": 2, "inteligencia": 1, "essencia": 1}, "pv": 23, "pe": 8, "defesa": 13, "medicina": 2, "ataque": 4, "arma_dados": 1, "arma_faces": 8, "arma_fixo": 3, "magia": {"custo": 3, "dados": 3, "faces": 8, "alcance": 1.5}, "cura": null},
+    {"id": "conjurador", "nome": "Referência Emanador", "caminho": "Emanador", "nivel": 2, "atributos": {"forca": 0, "destreza": 2, "constituicao": 2, "inteligencia": 3, "essencia": 2}, "pv": 14, "pe": 12, "defesa": 13, "medicina": 3, "ataque": 4, "arma_dados": 1, "arma_faces": 4, "arma_fixo": 0, "magia": {"custo": 3, "dados": 3, "faces": 8, "alcance": 18}, "cura": null},
+    {"id": "apoio", "nome": "Referência Guia", "caminho": "Guia", "nivel": 2, "atributos": {"forca": 0, "destreza": 2, "constituicao": 2, "inteligencia": 2, "essencia": 3}, "pv": 17, "pe": 10, "defesa": 13, "medicina": 3, "ataque": 4, "arma_dados": 1, "arma_faces": 4, "arma_fixo": 0, "magia": {"custo": 3, "dados": 3, "faces": 8, "alcance": 18}, "cura": {"custo": 3, "dados": 2, "faces": 8, "alcance": 9}}
+  ]
+}

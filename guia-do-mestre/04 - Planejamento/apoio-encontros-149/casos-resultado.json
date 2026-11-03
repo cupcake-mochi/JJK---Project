@@ -1,0 +1,1916 @@
+[
+ {
+  "alvo": "lista",
+  "bloco": "C02",
+  "caso": "C02 grupo 2, Amontoado 48",
+  "med": 3,
+  "p90": 6,
+  "queda": 35.5,
+  "queda_ic": [
+   34.03163058612525,
+   36.996194290862874
+  ],
+  "derrot": 5.175,
+  "derrot_ic": [
+   4.530488123085394,
+   5.905529125948632
+  ],
+  "perde": 2.975,
+  "censurado": 0.0,
+  "sem_agir": 0.53375,
+  "pe_sobra": 25.2375,
+  "magias": 1.81475
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02",
+  "caso": "C02 grupo 3, Amontoado 48",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 0.45,
+  "derrot_ic": [
+   0.2848393258225555,
+   0.7102449951955386
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.03025,
+  "pe_sobra": 45.660000000000004,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02",
+  "caso": "C02 grupo 4, Amontoado 48",
+  "med": 2.0,
+  "p90": 2,
+  "queda": 12.55,
+  "queda_ic": [
+   11.559133358671412,
+   13.612731582239332
+  ],
+  "derrot": 0.075,
+  "derrot_ic": [
+   0.02550951115929764,
+   0.22029441874642083
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.001,
+  "pe_sobra": 56.42105263157895,
+  "magias": 1.17125
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02",
+  "caso": "C02 grupo 6, Amontoado 48",
+  "med": 1.0,
+  "p90": 2,
+  "queda": 4.4,
+  "queda_ic": [
+   3.8069560990638194,
+   5.080548341671298
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0,
+  "pe_sobra": 72.4425,
+  "magias": 0.7545
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02b",
+  "caso": "C02b grupo 2, Amontoado 32",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 20.65,
+  "queda_ic": [
+   19.423978517060984,
+   21.93234287187707
+  ],
+  "derrot": 1.475,
+  "derrot_ic": [
+   1.1452565187567783,
+   1.897860871301809
+  ],
+  "perde": 0.6,
+  "censurado": 0.0,
+  "sem_agir": 0.122,
+  "pe_sobra": 38.916666666666664,
+  "magias": 1.46075
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02b",
+  "caso": "C02b grupo 3, Amontoado 48",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 0.45,
+  "derrot_ic": [
+   0.2848393258225555,
+   0.7102449951955386
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.03025,
+  "pe_sobra": 45.660000000000004,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02b",
+  "caso": "C02b grupo 4, Amontoado 64",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 20.125,
+  "queda_ic": [
+   18.911421138168855,
+   21.39590770321188
+  ],
+  "derrot": 0.25,
+  "derrot_ic": [
+   0.13585281691644488,
+   0.45961529550838237
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0055,
+  "pe_sobra": 45.23026315789473,
+  "magias": 1.49675
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C02b",
+  "caso": "C02b grupo 6, Amontoado 96",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 19.6,
+  "queda_ic": [
+   18.39919440460682,
+   20.85914188921659
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.00025,
+  "pe_sobra": 48.503750000000004,
+  "magias": 1.51425
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 0",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 0.45,
+  "derrot_ic": [
+   0.2848393258225555,
+   0.7102449951955386
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.03025,
+  "pe_sobra": 45.660000000000004,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 75%, Sequelas 0",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 35.85,
+  "queda_ic": [
+   34.37805602897052,
+   37.34909721305582
+  ],
+  "derrot": 1.525,
+  "derrot_ic": [
+   1.1890812063313823,
+   1.953940235875522
+  ],
+  "perde": 0.05,
+  "censurado": 0.0,
+  "sem_agir": 0.043,
+  "pe_sobra": 44.347500000000004,
+  "magias": 1.517
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 0",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 60.125,
+  "queda_ic": [
+   58.598568718480834,
+   61.63200184155328
+  ],
+  "derrot": 3.625,
+  "derrot_ic": [
+   3.0888214732104062,
+   4.250170159225801
+  ],
+  "perde": 0.35,
+  "censurado": 0.0,
+  "sem_agir": 0.1025,
+  "pe_sobra": 41.8275,
+  "magias": 1.565
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 1",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 2.6,
+  "derrot_ic": [
+   2.1504573582778947,
+   3.140501205117819
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.05625,
+  "pe_sobra": 45.6725,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 1",
+  "med": 2,
+  "p90": 4,
+  "queda": 60.125,
+  "queda_ic": [
+   58.598568718480834,
+   61.63200184155328
+  ],
+  "derrot": 13.0,
+  "derrot_ic": [
+   11.993180935281652,
+   14.077820474963945
+  ],
+  "perde": 0.825,
+  "censurado": 0.0,
+  "sem_agir": 0.2555,
+  "pe_sobra": 41.97,
+  "magias": 1.565
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 2",
+  "med": 2,
+  "p90": 4,
+  "queda": 60.125,
+  "queda_ic": [
+   58.598568718480834,
+   61.63200184155328
+  ],
+  "derrot": 23.925,
+  "derrot_ic": [
+   22.62828946949826,
+   25.271747335154544
+  ],
+  "perde": 1.975,
+  "censurado": 0.0,
+  "sem_agir": 0.52375,
+  "pe_sobra": 42.295,
+  "magias": 1.565
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C05",
+  "caso": "C05 um corpo 32 PV, 6 PE",
+  "med": 2.0,
+  "p90": 2,
+  "queda": 11.125,
+  "queda_ic": [
+   10.187589174754057,
+   12.137010279929662
+  ],
+  "derrot": 0.175,
+  "derrot_ic": [
+   0.08479549110381761,
+   0.3608165430985344
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.005,
+  "pe_sobra": 60.415,
+  "magias": 1.049
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 6 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 30.2,
+  "queda_ic": [
+   28.79670964262866,
+   31.641285706637902
+  ],
+  "derrot": 2.475,
+  "derrot_ic": [
+   2.037202054881462,
+   3.00399637814346
+  ],
+  "perde": 0.05,
+  "censurado": 0.0,
+  "sem_agir": 0.0575,
+  "pe_sobra": 51.0775,
+  "magias": 1.9115
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 3 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 23.775,
+  "queda_ic": [
+   22.48128117517131,
+   25.11904347303654
+  ],
+  "derrot": 1.05,
+  "derrot_ic": [
+   0.7777592228137958,
+   1.4161737239840992
+  ],
+  "perde": 0.05,
+  "censurado": 0.0,
+  "sem_agir": 0.04475,
+  "pe_sobra": 51.6575,
+  "magias": 1.42275
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C07",
+  "caso": "C07 recurso pe",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 0.45,
+  "derrot_ic": [
+   0.2848393258225555,
+   0.7102449951955386
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.03025,
+  "pe_sobra": 45.660000000000004,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C07",
+  "caso": "C07 recurso sem_pe",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 22.925,
+  "queda_ic": [
+   21.64866454736948,
+   24.253291214316988
+  ],
+  "derrot": 1.05,
+  "derrot_ic": [
+   0.7777592228137958,
+   1.4161737239840992
+  ],
+  "perde": 0.35,
+  "censurado": 0.0,
+  "sem_agir": 0.0975,
+  "pe_sobra": 45.6125,
+  "magias": 1.736
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C07",
+  "caso": "C07 recurso recarga56",
+  "med": 2,
+  "p90": 3,
+  "queda": 15.0,
+  "queda_ic": [
+   13.927027256540669,
+   16.14013623963759
+  ],
+  "derrot": 0.375,
+  "derrot_ic": [
+   0.22738957818852945,
+   0.6178386646070896
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.02625,
+  "pe_sobra": 46.21,
+  "magias": 1.19
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso de 0 turno(s)",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 1.225,
+  "derrot_ic": [
+   0.9278706557637054,
+   1.6157264735532986
+  ],
+  "perde": 0.05,
+  "censurado": 0.0,
+  "sem_agir": 0.04475,
+  "pe_sobra": 44.74,
+  "magias": 1.489
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso 0, dupla",
+  "med": 3,
+  "p90": 6,
+  "queda": 35.5,
+  "queda_ic": [
+   34.03163058612525,
+   36.996194290862874
+  ],
+  "derrot": 7.775,
+  "derrot_ic": [
+   6.985071415576435,
+   8.64595654517006
+  ],
+  "perde": 5.175,
+  "censurado": 0.0,
+  "sem_agir": 0.595,
+  "pe_sobra": 24.633333333333333,
+  "magias": 1.81475
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso de 1 turno(s)",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 3.15,
+  "derrot_ic": [
+   2.652055675426555,
+   3.7378474616006443
+  ],
+  "perde": 0.075,
+  "censurado": 0.0,
+  "sem_agir": 0.04,
+  "pe_sobra": 45.137499999999996,
+  "magias": 1.48975
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso 1, dupla",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 35.5,
+  "queda_ic": [
+   34.03163058612525,
+   36.996194290862874
+  ],
+  "derrot": 11.75,
+  "derrot_ic": [
+   10.788568725006938,
+   12.78483138153074
+  ],
+  "perde": 5.55,
+  "censurado": 0.0,
+  "sem_agir": 0.572,
+  "pe_sobra": 25.045833333333334,
+  "magias": 1.81425
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso de 2 turno(s)",
+  "med": 2,
+  "p90": 3,
+  "queda": 21.0,
+  "queda_ic": [
+   19.76586248325193,
+   22.28978727072434
+  ],
+  "derrot": 11.125,
+  "derrot_ic": [
+   10.187589174754057,
+   12.137010279929662
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.04675,
+  "pe_sobra": 45.947500000000005,
+  "magias": 1.48975
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C11",
+  "caso": "C11 atraso 2, dupla",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 35.5,
+  "queda_ic": [
+   34.03163058612525,
+   36.996194290862874
+  ],
+  "derrot": 25.05,
+  "derrot_ic": [
+   23.73155618522746,
+   26.41632179276247
+  ],
+  "perde": 6.6,
+  "censurado": 0.0,
+  "sem_agir": 0.71975,
+  "pe_sobra": 26.241666666666664,
+  "magias": 1.81425
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C12",
+  "caso": "C12 Ameaça ×3, 71 PV, 3×4",
+  "med": 3,
+  "p90": 6,
+  "queda": 42.775,
+  "queda_ic": [
+   41.24939871889107,
+   44.31446574567715
+  ],
+  "derrot": 14.9,
+  "derrot_ic": [
+   13.830163603705358,
+   16.03719178817627
+  ],
+  "perde": 9.825,
+  "censurado": 0.0,
+  "sem_agir": 1.44375,
+  "pe_sobra": 23.335,
+  "magias": 0
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3, 85 PV, 3×4",
+  "med": 4,
+  "p90": 7,
+  "queda": 60.775,
+  "queda_ic": [
+   59.25224397866982,
+   62.27707925929244
+  ],
+  "derrot": 28.6,
+  "derrot_ic": [
+   27.220634591085773,
+   30.020431089434645
+  ],
+  "perde": 22.375,
+  "censurado": 0.0,
+  "sem_agir": 2.9225,
+  "pe_sobra": 16.8625,
+  "magias": 0
+ },
+ {
+  "alvo": "lista",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3 (Def 11), 85 PV, 3×4",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 44.025,
+  "queda_ic": [
+   42.49304787890565,
+   45.56841788937049
+  ],
+  "derrot": 13.1,
+  "derrot_ic": [
+   12.089692442332488,
+   14.181117072209743
+  ],
+  "perde": 7.2,
+  "censurado": 0.0,
+  "sem_agir": 1.18875,
+  "pe_sobra": 21.0675,
+  "magias": 0
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02",
+  "caso": "C02 grupo 2, Amontoado 48",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 52.6,
+  "queda_ic": [
+   51.05082619049688,
+   54.144184521215585
+  ],
+  "derrot": 8.025,
+  "derrot_ic": [
+   7.222770402979991,
+   8.90777781850809
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.14725,
+  "pe_sobra": 24.441666666666663,
+  "magias": 1.833
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02",
+  "caso": "C02 grupo 3, Amontoado 48",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 0.95,
+  "derrot_ic": [
+   0.6929252791064794,
+   1.3011995633947824
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02725,
+  "pe_sobra": 43.3225,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02",
+  "caso": "C02 grupo 4, Amontoado 48",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 38.625,
+  "queda_ic": [
+   37.12771385463037,
+   40.14411428162755
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.00075,
+  "pe_sobra": 54.775,
+  "magias": 1.21875
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02",
+  "caso": "C02 grupo 6, Amontoado 48",
+  "med": 1.0,
+  "p90": 2,
+  "queda": 24.8,
+  "queda_ic": [
+   23.486279881886325,
+   26.162077835362023
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0,
+  "pe_sobra": 71.64,
+  "magias": 0.77075
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02b",
+  "caso": "C02b grupo 2, Amontoado 32",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 35.35,
+  "queda_ic": [
+   33.883188980873186,
+   36.844923739669994
+  ],
+  "derrot": 2.4,
+  "derrot_ic": [
+   1.9694001366817155,
+   2.921942218120732
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0335,
+  "pe_sobra": 37.579166666666666,
+  "magias": 1.4955
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02b",
+  "caso": "C02b grupo 3, Amontoado 48",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 0.95,
+  "derrot_ic": [
+   0.6929252791064794,
+   1.3011995633947824
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02725,
+  "pe_sobra": 43.3225,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02b",
+  "caso": "C02b grupo 4, Amontoado 64",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 49.05,
+  "queda_ic": [
+   47.50241830358548,
+   50.599404705596484
+  ],
+  "derrot": 0.7,
+  "derrot_ic": [
+   0.48475542186879295,
+   1.009849159890885
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.00875,
+  "pe_sobra": 43.38486842105263,
+  "magias": 1.54425
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C02b",
+  "caso": "C02b grupo 6, Amontoado 96",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.95,
+  "queda_ic": [
+   47.402576155298135,
+   50.4994387495872
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.00025,
+  "pe_sobra": 47.015,
+  "magias": 1.551
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 0",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 0.95,
+  "derrot_ic": [
+   0.6929252791064794,
+   1.3011995633947824
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02725,
+  "pe_sobra": 43.3225,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 75%, Sequelas 0",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 63.4,
+  "queda_ic": [
+   61.89497086899558,
+   64.87931510675331
+  ],
+  "derrot": 1.375,
+  "derrot_ic": [
+   1.0579364309422226,
+   1.7853728548197316
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0335,
+  "pe_sobra": 41.8075,
+  "magias": 1.57375
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 0",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 69.0,
+  "queda_ic": [
+   67.54906027822987,
+   70.41447953813048
+  ],
+  "derrot": 0.825,
+  "derrot_ic": [
+   0.5880519154274474,
+   1.1563127967030224
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0235,
+  "pe_sobra": 41.052499999999995,
+  "magias": 1.5905
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 1",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 3.725,
+  "derrot_ic": [
+   3.1811280504659583,
+   4.357671686266882
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.05425,
+  "pe_sobra": 43.55,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 1",
+  "med": 2,
+  "p90": 4,
+  "queda": 69.0,
+  "queda_ic": [
+   67.54906027822987,
+   70.41447953813048
+  ],
+  "derrot": 4.475,
+  "derrot_ic": [
+   3.876760915342006,
+   5.1605996036155855
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.065,
+  "pe_sobra": 41.3225,
+  "magias": 1.5905
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 2",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 69.0,
+  "queda_ic": [
+   67.54906027822987,
+   70.41447953813048
+  ],
+  "derrot": 14.875,
+  "derrot_ic": [
+   13.805950358480235,
+   16.011453007327237
+  ],
+  "perde": 0.2,
+  "censurado": 0.0,
+  "sem_agir": 0.236,
+  "pe_sobra": 42.43,
+  "magias": 1.5905
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C05",
+  "caso": "C05 um corpo 32 PV, 6 PE",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 33.625,
+  "queda_ic": [
+   32.177267586524124,
+   35.10415533490212
+  ],
+  "derrot": 0.25,
+  "derrot_ic": [
+   0.13585281691644488,
+   0.45961529550838237
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.004,
+  "pe_sobra": 58.6025,
+  "magias": 1.09875
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 6 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 54.675,
+  "queda_ic": [
+   53.12852014167695,
+   56.212508734190656
+  ],
+  "derrot": 2.65,
+  "derrot_ic": [
+   2.195843604958971,
+   3.1950190105850593
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.04575,
+  "pe_sobra": 49.0825,
+  "magias": 2.00825
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 3 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 50.875,
+  "queda_ic": [
+   49.32562489126375,
+   52.4226960213318
+  ],
+  "derrot": 1.6,
+  "derrot_ic": [
+   1.2550095122778808,
+   2.037868008151499
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02725,
+  "pe_sobra": 49.68,
+  "magias": 1.44075
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C07",
+  "caso": "C07 recurso pe",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 0.95,
+  "derrot_ic": [
+   0.6929252791064794,
+   1.3011995633947824
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02725,
+  "pe_sobra": 43.3225,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C07",
+  "caso": "C07 recurso sem_pe",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 48.95,
+  "queda_ic": [
+   47.402576155298135,
+   50.4994387495872
+  ],
+  "derrot": 1.55,
+  "derrot_ic": [
+   1.2110324055575075,
+   1.9819410627235554
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.046,
+  "pe_sobra": 43.265,
+  "magias": 1.83775
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C07",
+  "caso": "C07 recurso recarga56",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 42.3,
+  "queda_ic": [
+   40.77707318260772,
+   43.83770278655149
+  ],
+  "derrot": 0.7,
+  "derrot_ic": [
+   0.48475542186879295,
+   1.009849159890885
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02225,
+  "pe_sobra": 43.9525,
+  "magias": 1.22725
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso de 0 turno(s)",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 2.125,
+  "derrot_ic": [
+   1.7218620254554413,
+   2.620008042531264
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.043,
+  "pe_sobra": 41.715,
+  "magias": 1.5405
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso 0, dupla",
+  "med": 4,
+  "p90": 6,
+  "queda": 52.6,
+  "queda_ic": [
+   51.05082619049688,
+   54.144184521215585
+  ],
+  "derrot": 20.0,
+  "derrot_ic": [
+   18.789432038343413,
+   21.268136672666532
+  ],
+  "perde": 0.175,
+  "censurado": 0.0,
+  "sem_agir": 0.151,
+  "pe_sobra": 23.629166666666666,
+  "magias": 1.833
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso de 1 turno(s)",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 2.675,
+  "derrot_ic": [
+   2.2185540956787513,
+   3.222260545939438
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.027,
+  "pe_sobra": 43.309999999999995,
+  "magias": 1.53775
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso 1, dupla",
+  "med": 4,
+  "p90": 6,
+  "queda": 52.6,
+  "queda_ic": [
+   51.05082619049688,
+   54.144184521215585
+  ],
+  "derrot": 18.7,
+  "derrot_ic": [
+   17.521889845843674,
+   19.93817350931003
+  ],
+  "perde": 0.575,
+  "censurado": 0.0,
+  "sem_agir": 0.189,
+  "pe_sobra": 25.112499999999997,
+  "magias": 1.8315
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso de 2 turno(s)",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 48.225,
+  "queda_ic": [
+   46.678905853946915,
+   49.77450029478783
+  ],
+  "derrot": 23.725,
+  "derrot_ic": [
+   22.432283414444957,
+   25.068137181614574
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.1255,
+  "pe_sobra": 45.9325,
+  "magias": 1.53775
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C11",
+  "caso": "C11 atraso 2, dupla",
+  "med": 4.0,
+  "p90": 7,
+  "queda": 52.6,
+  "queda_ic": [
+   51.05082619049688,
+   54.144184521215585
+  ],
+  "derrot": 40.0,
+  "derrot_ic": [
+   38.492083500103114,
+   41.52710607023353
+  ],
+  "perde": 2.8,
+  "censurado": 0.0,
+  "sem_agir": 0.79825,
+  "pe_sobra": 33.89583333333333,
+  "magias": 1.8315
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C12",
+  "caso": "C12 Ameaça ×3, 71 PV, 3×4",
+  "med": 4.0,
+  "p90": 7,
+  "queda": 72.775,
+  "queda_ic": [
+   71.37420201090359,
+   74.1320937426547
+  ],
+  "derrot": 16.9,
+  "derrot_ic": [
+   15.770513436763252,
+   18.09300404105105
+  ],
+  "perde": 1.45,
+  "censurado": 0.0,
+  "sem_agir": 0.93275,
+  "pe_sobra": 23.3775,
+  "magias": 0
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3, 85 PV, 3×4",
+  "med": 5.0,
+  "p90": 9,
+  "queda": 85.275,
+  "queda_ic": [
+   84.14300226018183,
+   86.33930653045563
+  ],
+  "derrot": 30.575,
+  "derrot_ic": [
+   29.16640171809135,
+   32.02087402228758
+  ],
+  "perde": 3.85,
+  "censurado": 0.0,
+  "sem_agir": 1.948,
+  "pe_sobra": 17.902500000000003,
+  "magias": 0
+ },
+ {
+  "alvo": "ferido",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3 (Def 11), 85 PV, 3×4",
+  "med": 4.0,
+  "p90": 7,
+  "queda": 76.575,
+  "queda_ic": [
+   75.23735349230381,
+   77.86165022452654
+  ],
+  "derrot": 16.3,
+  "derrot_ic": [
+   15.187750811594292,
+   17.47691804044021
+  ],
+  "perde": 0.4,
+  "censurado": 0.0,
+  "sem_agir": 0.7465,
+  "pe_sobra": 20.97,
+  "magias": 0
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02",
+  "caso": "C02 grupo 2, Amontoado 48",
+  "med": 3,
+  "p90": 6,
+  "queda": 33.9,
+  "queda_ic": [
+   32.449081860451976,
+   35.38181334779003
+  ],
+  "derrot": 3.4,
+  "derrot_ic": [
+   2.8815685020990864,
+   4.007854895669697
+  ],
+  "perde": 1.425,
+  "censurado": 0.0,
+  "sem_agir": 0.1585,
+  "pe_sobra": 24.816666666666663,
+  "magias": 1.82575
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02",
+  "caso": "C02 grupo 3, Amontoado 48",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01,
+  "pe_sobra": 45.1675,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02",
+  "caso": "C02 grupo 4, Amontoado 48",
+  "med": 2.0,
+  "p90": 2,
+  "queda": 18.95,
+  "queda_ic": [
+   17.765482042225802,
+   20.194101573669485
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0,
+  "pe_sobra": 55.900000000000006,
+  "magias": 1.1855
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02",
+  "caso": "C02 grupo 6, Amontoado 48",
+  "med": 1.0,
+  "p90": 2,
+  "queda": 13.375,
+  "queda_ic": [
+   12.355202187950287,
+   14.465079613407683
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0,
+  "pe_sobra": 72.14500000000001,
+  "magias": 0.76
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02b",
+  "caso": "C02b grupo 2, Amontoado 32",
+  "med": 2,
+  "p90": 4,
+  "queda": 22.175,
+  "queda_ic": [
+   20.91462663065675,
+   23.48876834880497
+  ],
+  "derrot": 0.85,
+  "derrot_ic": [
+   0.6089113179834248,
+   1.1854054202212034
+  ],
+  "perde": 0.275,
+  "censurado": 0.0,
+  "sem_agir": 0.04,
+  "pe_sobra": 38.45,
+  "magias": 1.4775
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02b",
+  "caso": "C02b grupo 3, Amontoado 48",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01,
+  "pe_sobra": 45.1675,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02b",
+  "caso": "C02b grupo 4, Amontoado 64",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 24.9,
+  "queda_ic": [
+   23.584383236112995,
+   26.26378258543199
+  ],
+  "derrot": 0.025,
+  "derrot_ic": [
+   0.004413136673759806,
+   0.14148674108364198
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.00025,
+  "pe_sobra": 44.59671052631579,
+  "magias": 1.522
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C02b",
+  "caso": "C02b grupo 6, Amontoado 96",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 27.425,
+  "queda_ic": [
+   26.064565505246325,
+   28.828754949788653
+  ],
+  "derrot": 0.0,
+  "derrot_ic": [
+   0.0,
+   0.0959478516832434
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0005,
+  "pe_sobra": 48.22625,
+  "magias": 1.536
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 0",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01,
+  "pe_sobra": 45.1675,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 75%, Sequelas 0",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 49.3,
+  "queda_ic": [
+   47.75205076505806,
+   50.849292504865495
+  ],
+  "derrot": 0.2,
+  "derrot_ic": [
+   0.10137740726005333,
+   0.39418665301645706
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01725,
+  "pe_sobra": 43.372499999999995,
+  "magias": 1.54725
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 0",
+  "med": 2,
+  "p90": 4,
+  "queda": 64.45,
+  "queda_ic": [
+   62.95338572428765,
+   65.91888534657589
+  ],
+  "derrot": 0.475,
+  "derrot_ic": [
+   0.30430560739481577,
+   0.7407307396974369
+  ],
+  "perde": 0.075,
+  "censurado": 0.0,
+  "sem_agir": 0.02825,
+  "pe_sobra": 41.6275,
+  "magias": 1.5815
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 100%, Sequelas 1",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 1.2,
+  "derrot_ic": [
+   0.9063109889748745,
+   1.5873341142679707
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.02125,
+  "pe_sobra": 45.232499999999995,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 1",
+  "med": 2,
+  "p90": 4,
+  "queda": 64.45,
+  "queda_ic": [
+   62.95338572428765,
+   65.91888534657589
+  ],
+  "derrot": 4.025,
+  "derrot_ic": [
+   3.458709025055263,
+   4.679515024567479
+  ],
+  "perde": 0.175,
+  "censurado": 0.0,
+  "sem_agir": 0.074,
+  "pe_sobra": 41.815000000000005,
+  "magias": 1.5815
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C04",
+  "caso": "C04 vida 50%, Sequelas 2",
+  "med": 2,
+  "p90": 4,
+  "queda": 64.45,
+  "queda_ic": [
+   62.95338572428765,
+   65.91888534657589
+  ],
+  "derrot": 14.95,
+  "derrot_ic": [
+   13.87859330014511,
+   16.08866614388484
+  ],
+  "perde": 0.875,
+  "censurado": 0.0,
+  "sem_agir": 0.27025,
+  "pe_sobra": 42.495,
+  "magias": 1.5815
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C05",
+  "caso": "C05 um corpo 32 PV, 6 PE",
+  "med": 2.0,
+  "p90": 2,
+  "queda": 19.925,
+  "queda_ic": [
+   18.716247628829162,
+   21.191465003958307
+  ],
+  "derrot": 0.025,
+  "derrot_ic": [
+   0.004413136673759806,
+   0.14148674108364198
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.001,
+  "pe_sobra": 59.92999999999999,
+  "magias": 1.0645
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 6 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 35.875,
+  "queda_ic": [
+   34.40280399783654,
+   37.37430127026396
+  ],
+  "derrot": 0.475,
+  "derrot_ic": [
+   0.30430560739481577,
+   0.7407307396974369
+  ],
+  "perde": 0.05,
+  "censurado": 0.0,
+  "sem_agir": 0.015,
+  "pe_sobra": 50.712500000000006,
+  "magias": 1.94375
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C05",
+  "caso": "C05 dois corpos 16+16, 3 PE cada",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 30.65,
+  "queda_ic": [
+   29.240353516097034,
+   32.096778302504376
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0035,
+  "pe_sobra": 51.015,
+  "magias": 1.42725
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C07",
+  "caso": "C07 recurso pe",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 0.125,
+  "derrot_ic": [
+   0.053403189163682266,
+   0.29230479289035305
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01,
+  "pe_sobra": 45.1675,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C07",
+  "caso": "C07 recurso sem_pe",
+  "med": 2,
+  "p90": 3,
+  "queda": 30.65,
+  "queda_ic": [
+   29.240353516097034,
+   32.096778302504376
+  ],
+  "derrot": 0.3,
+  "derrot_ic": [
+   0.17169754606247636,
+   0.5236746185106675
+  ],
+  "perde": 0.075,
+  "censurado": 0.0,
+  "sem_agir": 0.028,
+  "pe_sobra": 45.135,
+  "magias": 1.7255
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C07",
+  "caso": "C07 recurso recarga56",
+  "med": 2,
+  "p90": 3,
+  "queda": 23.975,
+  "queda_ic": [
+   22.677297220366576,
+   25.322643636434545
+  ],
+  "derrot": 0.15,
+  "derrot_ic": [
+   0.06876297196592976,
+   0.32689703616226395
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.0095,
+  "pe_sobra": 45.4525,
+  "magias": 1.20675
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso de 0 turno(s)",
+  "med": 2.0,
+  "p90": 3,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 1.125,
+  "derrot_ic": [
+   0.8418549869237022,
+   1.501934038096668
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.01625,
+  "pe_sobra": 44.3,
+  "magias": 1.5145
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso 0, dupla",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 33.9,
+  "queda_ic": [
+   32.449081860451976,
+   35.38181334779003
+  ],
+  "derrot": 9.1,
+  "derrot_ic": [
+   8.247496619150718,
+   10.030988723526175
+  ],
+  "perde": 2.3,
+  "censurado": 0.0,
+  "sem_agir": 0.181,
+  "pe_sobra": 24.320833333333333,
+  "magias": 1.82575
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso de 1 turno(s)",
+  "med": 2.0,
+  "p90": 4,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 1.875,
+  "derrot_ic": [
+   1.4984915978605573,
+   2.343858209384564
+  ],
+  "perde": 0.0,
+  "censurado": 0.0,
+  "sem_agir": 0.0095,
+  "pe_sobra": 44.622499999999995,
+  "magias": 1.5155
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso 1, dupla",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 33.9,
+  "queda_ic": [
+   32.449081860451976,
+   35.38181334779003
+  ],
+  "derrot": 10.275,
+  "derrot_ic": [
+   9.371829245282516,
+   11.254401322879819
+  ],
+  "perde": 2.2,
+  "censurado": 0.0,
+  "sem_agir": 0.2075,
+  "pe_sobra": 24.99583333333333,
+  "magias": 1.8245
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso de 2 turno(s)",
+  "med": 2,
+  "p90": 4,
+  "queda": 28.65,
+  "queda_ic": [
+   27.269854998885094,
+   30.071114733783638
+  ],
+  "derrot": 9.7,
+  "derrot_ic": [
+   8.82110937658291,
+   10.65622459187378
+  ],
+  "perde": 0.025,
+  "censurado": 0.0,
+  "sem_agir": 0.041,
+  "pe_sobra": 45.6525,
+  "magias": 1.5155
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C11",
+  "caso": "C11 atraso 2, dupla",
+  "med": 3,
+  "p90": 6,
+  "queda": 33.9,
+  "queda_ic": [
+   32.449081860451976,
+   35.38181334779003
+  ],
+  "derrot": 21.075,
+  "derrot_ic": [
+   19.839141655363466,
+   22.366364176835283
+  ],
+  "perde": 4.275,
+  "censurado": 0.0,
+  "sem_agir": 0.42375,
+  "pe_sobra": 28.10833333333333,
+  "magias": 1.8245
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C12",
+  "caso": "C12 Ameaça ×3, 71 PV, 3×4",
+  "med": 3,
+  "p90": 6,
+  "queda": 29.4,
+  "queda_ic": [
+   28.008410357331254,
+   30.831120157562236
+  ],
+  "derrot": 6.125,
+  "derrot_ic": [
+   5.423149996245253,
+   6.911044243606791
+  ],
+  "perde": 2.225,
+  "censurado": 0.0,
+  "sem_agir": 0.36325,
+  "pe_sobra": 23.900000000000002,
+  "magias": 0
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3, 85 PV, 3×4",
+  "med": 4,
+  "p90": 7,
+  "queda": 41.9,
+  "queda_ic": [
+   40.37943761517801,
+   43.43610593679466
+  ],
+  "derrot": 13.275,
+  "derrot_ic": [
+   12.258635847539058,
+   14.36183784952228
+  ],
+  "perde": 6.075,
+  "censurado": 0.0,
+  "sem_agir": 0.813,
+  "pe_sobra": 17.54,
+  "magias": 0
+ },
+ {
+  "alvo": "espalha",
+  "bloco": "C12",
+  "caso": "C12 Desastre ×3 (Def 11), 85 PV, 3×4",
+  "med": 3.0,
+  "p90": 6,
+  "queda": 29.325,
+  "queda_ic": [
+   27.934533946614952,
+   30.75514049005606
+  ],
+  "derrot": 4.75,
+  "derrot_ic": [
+   4.133121737226713,
+   5.453711068546623
+  ],
+  "perde": 1.6,
+  "censurado": 0.0,
+  "sem_agir": 0.26675,
+  "pe_sobra": 21.59,
+  "magias": 0
+ }
+]

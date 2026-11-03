@@ -2,6 +2,8 @@
 
 Salvamento de **31/10/2026**, até o registro editorial **147**, com retomada preparada no **148**. A fila editorial principal está concluída. O próximo trabalho é o **plano de avaliação da dificuldade dos encontros**, conforme o planejamento.
 
+**Atualização de 02/11/2026:** registros 149 e 150, avaliação dos encontros por simulação; capítulo 6 e caso 104 alterados na fonte, PDF e HTML ainda do 147.
+
 - [Retomada para a nuvem](RETOMADA-NUVEM-2026-10-31.txt)
 - [PDF vigente — 383 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0-Editorial.pdf>)
 - [Folhas para impressão — seis páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Folhas-para-a-Mesa-Impressao.pdf>)

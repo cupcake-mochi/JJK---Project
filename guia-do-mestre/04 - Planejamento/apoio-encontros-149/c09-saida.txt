@@ -1,0 +1,4 @@
+desligado  objetivo 100.0%  rodadas 2.0/3  alguém cai   0.0%  Derrotado  0.00%  portão fechou   0.0%  fechou com alguém dentro   0.0%  usou o serviço   0.0%  censurado 0.0%
+ativo      objetivo 100.0%  rodadas 2.0/3  alguém cai   0.0%  Derrotado  0.00%  portão fechou   8.0%  fechou com alguém dentro   5.8%  usou o serviço   2.6%  censurado 0.0%
+parar      objetivo 100.0%  rodadas 3.0/4  alguém cai   0.0%  Derrotado  0.00%  portão fechou   0.0%  fechou com alguém dentro   0.0%  usou o serviço   0.0%  censurado 0.0%
+ocupar     objetivo 100.0%  rodadas 3.0/4  alguém cai   0.0%  Derrotado  0.00%  portão fechou  10.0%  fechou com alguém dentro   0.1%  usou o serviço   0.1%  censurado 0.0%
