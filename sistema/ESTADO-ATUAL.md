@@ -4,7 +4,7 @@
 
 Decidido em 02/11/2026: os custos que o defensor já pagou ao declarar uma Reação cancelada pelo Ataque sem Prenúncio não voltam (item 198). Uma frase nova no bloco `origens--restricao-prenuncio`; custos, gatilhos e a regra de que a Reação não é gasta ficam como estavam. As duas paletas têm 425 páginas. Contra a R60, só a página 95 mudou, nas duas, e só pela frase nova.
 
-Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`. A cadeia de integridade cobre R52 a R61. A conferência da publicação na Vercel vem depois do push.
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`. A cadeia de integridade cobre R52 a R61. A R61 foi publicada na Vercel em 02/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos hashes dos arquivos revisados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/PUBLICACAO.json`.
 
 # Edição anterior R60
 

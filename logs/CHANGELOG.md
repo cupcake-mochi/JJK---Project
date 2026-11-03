@@ -17,9 +17,9 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - A guarda de integridade (`testar-integridade.py`, dos dois lugares) passa a procurar o bloco 12 da R61 e a reaplicar `R60-para-R61.json`; `conferir-fundamento.py` lê o snapshot da R61; a lista de arquivos da entrega em `conferir-repositorio.py` passa a exigir o `REVISAO-R61.json`.
 - Os PDFs e os dois JSON foram copiados para `JJK---PDF---RPG/livro/` (o que a Vercel serve), com a linha do recorte do README de lá.
 
-### Pendente
+### Publicado
 
-- Depois do push, esperar a Vercel, baixar os dois PDFs públicos e registrar o SHA-256 em `editorial-r61/PUBLICACAO.json`.
+- A R61 foi publicada na Vercel em 02/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos SHA-256 dos arquivos revisados. Registro em `editorial-r61/PUBLICACAO.json`.
 
 → Continua em `sistema/ESTADO-ATUAL.md`, com a edição R61 e a conferência da publicação.
 
