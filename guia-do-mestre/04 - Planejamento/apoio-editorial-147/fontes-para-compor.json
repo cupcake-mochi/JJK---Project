@@ -4,8 +4,8 @@
   "fontes_geradas": [
     "indice-de-casos.md"
   ],
-  "fontes_em_leitura": 99,
-  "paginas_de_conteudo": 98,
+  "fontes_em_leitura": 100,
+  "paginas_de_conteudo": 99,
   "indice_geral": "index.html",
   "ordem": [
     {
@@ -20,7 +20,7 @@
       "pagina": "capitulo-01.html",
       "titulo": "Sua primeira missão",
       "parte": "Comece a mestrar",
-      "sha256": "4c99cc0ce0fed67d76092229dec84e18f8346fe82a836df35023e5cebefff2b5"
+      "sha256": "fb63ca5d288f31af4b8194c5b7613db97f9215fc108cafa955de3beb34385a14"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/02-o-mundo-dos-feiticeiros.md",
@@ -55,7 +55,7 @@
       "pagina": "capitulo-06.html",
       "titulo": "Inimigos e perigos",
       "parte": "Ferramentas de Ciclo Maldito",
-      "sha256": "279122dca94322cfaaa6ca28476c829a73791bf095d29bf9de881913268159b5"
+      "sha256": "5b94ed2c53beedfa2df4a62ee09122eec270dfbad6deaa3de935a1cf96e00d05"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/07-personagens-e-tecnicas.md",
@@ -223,21 +223,21 @@
       "pagina": "consulta-58-ficha-de-inimigo-e-encontro.html",
       "titulo": "Ficha de inimigo e encontro",
       "parte": "Apêndice A",
-      "sha256": "bdccde9dfdf564cec34ca1b49fb78278aa8b7d795ed62ccdcdd375d3181bd9b5"
+      "sha256": "58461881536314edbd2ed4180a5f04861618b7e067170bb43afcdee21f4c6683"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/consultas/61-ficha-de-habilidade-de-inimigo.md",
       "pagina": "consulta-61-ficha-de-habilidade-de-inimigo.html",
       "titulo": "Conferir uma habilidade de inimigo",
       "parte": "Apêndice A",
-      "sha256": "48cb06733de066eea1fbd5de905e9d78d635c6b3226593e511db8cfe5b8dc836"
+      "sha256": "2f05827684616f8dfd148fa5fb0c64ebaf451462567bd238d90febd1757af1dc"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/indice-de-casos.md",
       "pagina": "casos.html",
       "titulo": "Casos por assunto",
       "parte": "Apêndice B",
-      "sha256": "26c291742a5cb1453107a3ef92ef04f7b23804da04daa0f655cfc0ac678c7f79"
+      "sha256": "0ff5386025f5f86a744ffcfe0e01cea9d1d5b9b2e691cb7e61b4dd0001e59253"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/14-o-aviso-de-reabertura.md",
@@ -307,35 +307,42 @@
       "pagina": "caso-14-tres-maldicoes-para-a-missao.html",
       "titulo": "Três maldições para a missão",
       "parte": "Apêndice B",
-      "sha256": "b50754806d2613f8c7638dffc2efad441f3c6fcc8272d6698cdc827c2d423b12"
+      "sha256": "4642a486abaf0ad97b50d5b6a9c0ef930c0c603b43fd16259d92186f142210af"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
       "pagina": "caso-59-recursos-e-ritmo-dos-inimigos.html",
-      "titulo": "PE, recarga e limites de uso",
+      "titulo": "Rótulos, recarga e preparação",
       "parte": "Apêndice B",
-      "sha256": "4bca114305e7550d226792d9ad9bc19323a96eb0d383a7f02f438999a531ab79"
+      "sha256": "0d6c5146c67afb9be949e63ab11882c3345a8c8d1b5ccdc662fb0285056c1b7b"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/60-montar-habilidades-de-inimigos.md",
       "pagina": "caso-60-montar-habilidades-de-inimigos.html",
       "titulo": "Montar as habilidades de um inimigo",
       "parte": "Apêndice B",
-      "sha256": "b5e01df619fa95b10daad4725cb7f7b14fa9bacecd1fce9761f0539a99e3eab3"
+      "sha256": "8562067f7dc8c06cea781b1e403aff672b03d22d0113dd49c4a9d3acc7625bbe"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/74-regua-inicial-de-inimigos.md",
       "pagina": "caso-74-regua-inicial-de-inimigos.html",
       "titulo": "Escolher os números de um inimigo",
       "parte": "Apêndice B",
-      "sha256": "5a7870d1850048fa707481ab5cafd154fa1bbc99bf439cf93e820271b3e01dbc"
+      "sha256": "0c1bf2d70137880654723376ce97f70ab689184dfad00dfa221de13ae1c0eb5e"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/100-comparar-inimigos-em-outras-faixas.md",
       "pagina": "caso-100-comparar-inimigos-em-outras-faixas.html",
       "titulo": "Inimigos de níveis mais altos",
       "parte": "Apêndice B",
-      "sha256": "17c77e6a356e14ff83c3dc1a4874b4cb6ea33fde346f7242e3b9330143914b1c"
+      "sha256": "40f5dde9f86129efb2cd13e2618c9cc13d180949d781f442e241ccc8b93e7ecd"
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/104-o-que-mais-pesa-no-encontro.md",
+      "pagina": "caso-104-o-que-mais-pesa-no-encontro.html",
+      "titulo": "O que mais pesa no encontro",
+      "parte": "Apêndice B",
+      "sha256": "cb6eec36223fa7cdc1478978d8993c0a730b472ffb856249c26999c4382de612"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/67-preparar-chefes-e-confrontos-maiores.md",
@@ -356,7 +363,7 @@
       "pagina": "caso-57-avaliar-o-encontro-do-amontoado.html",
       "titulo": "O encontro do Amontoado",
       "parte": "Apêndice B",
-      "sha256": "aa2c9861fdf48ba6929cb9ed490c8905753caeface1e93e857841671475af493"
+      "sha256": "3ab9337dc252927e9c8f4d0f671a9fd3d3a449c4848f019b425b371b5f96edf9"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/62-o-carregador-e-o-corredor-de-entulho.md",
@@ -419,28 +426,28 @@
       "pagina": "caso-75-ren-e-sora-atacante-e-apoio.html",
       "titulo": "Toru e Sayo: atacante e apoio",
       "parte": "Apêndice B",
-      "sha256": "385405ebf971e6cd3789f03bf18f7c587aa2c7219d584cb669aecd173fa5af10"
+      "sha256": "a5bf4ef3e53bcd683f345ab3aeb22c4ee05b16612c0f1396d5cb1202df5ed660"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/76-confronto-de-ren-e-sora.md",
       "pagina": "caso-76-confronto-de-ren-e-sora.html",
       "titulo": "Escolher quem enfrentar primeiro",
       "parte": "Apêndice B",
-      "sha256": "550b8fa69d2d939892e0bfc6b078b1a7fe388b1120e45933aac02741a1954c88"
+      "sha256": "ff144a25aebf213c1691849f0d35d8ecea6ad9bdc5733db2e5f33e7e9509f742"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/101-haru-vigia-e-tessa.md",
       "pagina": "caso-101-haru-vigia-e-tessa.html",
       "titulo": "Daigo, Vigia e Tessa",
       "parte": "Apêndice B",
-      "sha256": "264d6c91204abed0a25bd1396c3f6c704000a1ef57d8573d34ccf8f913764c8f"
+      "sha256": "5982e377abeebdd534a3523211d0d4165233057c473d59838689ed1553109995"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/102-o-arquivo-e-as-oportunidades-de-agir.md",
       "pagina": "caso-102-o-arquivo-e-as-oportunidades-de-agir.html",
       "titulo": "Disputa pelo arquivo",
       "parte": "Apêndice B",
-      "sha256": "e1c318fc84813cee0db3f318aeb60dc194b3870b8d56959ff27ad7b9896468e2"
+      "sha256": "ca9607ce72bb8b8bac2861cd814ad68d6f885fab07cc227f3e06f49691b8fbd1"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/79-o-po-na-sala-de-conservacao.md",
@@ -461,7 +468,7 @@
       "pagina": "caso-77-ficha-preenchida-ren-e-sora.html",
       "titulo": "Ficha preenchida: Toru e Sayo",
       "parte": "Apêndice B",
-      "sha256": "41eeafb426062b5b1ccdad8998b7153df4d0efedd3106dc043cfaf2342cf01f0"
+      "sha256": "603289a8269ce2df15bdf2819f262834ce4c1478ea0677b12c9aa40717848b06"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/68-ficha-e-comparacao-de-chefes.md",
@@ -650,7 +657,7 @@
       "pagina": "caso-52-domar-o-amontoado.html",
       "titulo": "Domar o Amontoado do depósito",
       "parte": "Apêndice B",
-      "sha256": "cd87dfcacd8daae4d5025699424b421f66373752754fa63d0885084bfce7bf93"
+      "sha256": "756ab87b88a2762ef404b90fda58823bd2a756583779f2c5bab2ad5839446e1a"
     },
     {
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/53-construir-e-evoluir-o-escriba.md",
@@ -936,15 +943,16 @@
         "escolha-a-regra-da-capacidade": "escolha-a-regra-da-capacidade",
         "agarrar-um-exemplo": "agarrar-um-exemplo",
         "63-habilidades-e-recursos": "63-habilidades-e-recursos",
-        "escolher-um-limite": "escolher-um-limite",
-        "quando-a-reserva-cria-uma-escolha": "quando-a-reserva-cria-uma-escolha",
-        "energia-custos-e-outras-regras": "energia-custos-e-outras-regras",
+        "escolher-um-rotulo": "escolher-um-rotulo",
+        "quando-o-rotulo-cria-uma-escolha": "quando-o-rotulo-cria-uma-escolha",
+        "integridade-leitura-e-doma": "integridade-leitura-e-doma",
         "64-escolher-os-numeros": "64-escolher-os-numeros",
         "valores-para-comecar": "valores-para-comecar",
         "vida-defesa-dano-e-frequencia": "vida-defesa-dano-e-frequencia",
         "65-o-grupo-e-o-lugar": "65-o-grupo-e-o-lugar",
         "prepare-uma-escolha-de-alvo": "prepare-uma-escolha-de-alvo",
         "faca-o-lugar-importar": "faca-o-lugar-importar",
+        "o-que-mais-muda-a-dificuldade": "o-que-mais-muda-a-dificuldade",
         "quando-o-grupo-corre-risco": "quando-o-grupo-corre-risco",
         "66-chefes-e-grandes-confrontos": "66-chefes-e-grandes-confrontos",
         "oportunidades-de-agir": "oportunidades-de-agir",
@@ -1124,6 +1132,22 @@
         "tratar-a-doenca-e-isolar-o-casulo": "tratar-a-doenca-e-isolar-o-casulo",
         "exemplo-do-contato-a-recuperacao": "exemplo-do-contato-a-recuperacao",
         "acompanhar-a-doenca-entre-missoes": "acompanhar-a-doenca-entre-missoes"
+      }
+    },
+    {
+      "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/104-o-que-mais-pesa-no-encontro.md",
+      "pagina": "caso-104-o-que-mais-pesa-no-encontro.html",
+      "ancoras": {
+        "o-que-mais-pesa-no-encontro": "o-que-mais-pesa-no-encontro",
+        "como-a-comparacao-foi-feita": "como-a-comparacao-foi-feita",
+        "a-ordem-das-escolhas": "a-ordem-das-escolhas",
+        "1-o-estado-de-entrada": "1-o-estado-de-entrada",
+        "2-quem-o-inimigo-escolhe": "2-quem-o-inimigo-escolhe",
+        "3-quantas-vezes-o-lado-inimigo-age": "3-quantas-vezes-o-lado-inimigo-age",
+        "4-a-distancia-do-socorro": "4-a-distancia-do-socorro",
+        "5-a-vida-do-inimigo": "5-a-vida-do-inimigo",
+        "tabelas-gerais-de-dificuldade": "tabelas-gerais-de-dificuldade",
+        "o-que-esta-comparacao-nao-mostra": "o-que-esta-comparacao-nao-mostra"
       }
     },
     {
@@ -1540,13 +1564,13 @@
       "fonte": "06 - Redacao do Guia/edicao-integrada-136/casos/59-recursos-e-ritmo-dos-inimigos.md",
       "pagina": "caso-59-recursos-e-ritmo-dos-inimigos.html",
       "ancoras": {
-        "pe-recarga-e-limites-de-uso": "pe-recarga-e-limites-de-uso",
+        "rotulos-recarga-e-preparacao": "rotulos-recarga-e-preparacao",
         "primeiro-escolha-a-habilidade": "primeiro-escolha-a-habilidade",
         "gastar-tudo-no-comeco": "gastar-tudo-no-comeco",
         "qual-limite-de-uso-escolher": "qual-limite-de-uso-escolher",
         "de-tempo-para-o-grupo-reagir": "de-tempo-para-o-grupo-reagir",
         "atacar-ou-se-proteger": "atacar-ou-se-proteger",
-        "energia-percebida-e-custos": "energia-percebida-e-custos",
+        "energia-percebida-integridade-e-leitura": "energia-percebida-integridade-e-leitura",
         "confira-como-o-inimigo-luta": "confira-como-o-inimigo-luta",
         "complete-as-habilidades": "complete-as-habilidades",
         "outro-exemplo-daigo-e-tessa": "outro-exemplo-daigo-e-tessa"
@@ -1560,7 +1584,7 @@
         "conservar-adaptar-ou-criar": "conservar-adaptar-ou-criar",
         "tipo-de-capacidade": "tipo-de-capacidade",
         "escolha-o-limite-de-uso": "escolha-o-limite-de-uso",
-        "quanto-a-habilidade-custa": "quanto-a-habilidade-custa",
+        "do-preco-ao-rotulo": "do-preco-ao-rotulo",
         "confira-as-outras-regras": "confira-as-outras-regras",
         "tres-exemplos": "tres-exemplos",
         "impacto-conjuracao": "impacto-conjuracao",
@@ -2350,5 +2374,5 @@
       }
     }
   ],
-  "links_convertidos": 685
+  "links_convertidos": 693
 }

@@ -326,6 +326,11 @@
   },
   {
     "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "depois": "caso-104-o-que-mais-pesa-no-encontro.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
     "antes": "casos/59-recursos-e-ritmo-dos-inimigos.md#qual-limite-de-uso-escolher",
     "depois": "caso-59-recursos-e-ritmo-dos-inimigos.html#qual-limite-de-uso-escolher"
   },
@@ -346,6 +351,11 @@
   },
   {
     "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/104-o-que-mais-pesa-no-encontro.md#tabelas-gerais-de-dificuldade",
+    "depois": "caso-104-o-que-mais-pesa-no-encontro.html#tabelas-gerais-de-dificuldade"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
     "antes": "casos/76-confronto-de-ren-e-sora.md",
     "depois": "caso-76-confronto-de-ren-e-sora.html"
   },
@@ -363,6 +373,11 @@
     "fonte": "06-inimigos-e-perigos.md",
     "antes": "casos/65-comparar-confronto-e-pressao-ambiental.md",
     "depois": "caso-65-comparar-confronto-e-pressao-ambiental.html"
+  },
+  {
+    "fonte": "06-inimigos-e-perigos.md",
+    "antes": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "depois": "caso-104-o-que-mais-pesa-no-encontro.html"
   },
   {
     "fonte": "06-inimigos-e-perigos.md",
@@ -845,6 +860,21 @@
     "depois": "caso-79-o-po-na-sala-de-conservacao.html"
   },
   {
+    "fonte": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "antes": "57-avaliar-o-encontro-do-amontoado.md",
+    "depois": "caso-57-avaliar-o-encontro-do-amontoado.html"
+  },
+  {
+    "fonte": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "antes": "../06-inimigos-e-perigos.md#prepare-uma-escolha-de-alvo",
+    "depois": "capitulo-06.html#prepare-uma-escolha-de-alvo"
+  },
+  {
+    "fonte": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "antes": "../consultas/58-ficha-de-inimigo-e-encontro.md",
+    "depois": "consulta-58-ficha-de-inimigo-e-encontro.html"
+  },
+  {
     "fonte": "casos/11-espaco-e-usos-criativos.md",
     "antes": "../04-na-mesa-de-jogo.md",
     "depois": "capitulo-04.html"
@@ -1273,6 +1303,11 @@
     "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
     "antes": "60-montar-habilidades-de-inimigos.md",
     "depois": "caso-60-montar-habilidades-de-inimigos.html"
+  },
+  {
+    "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
+    "antes": "71-sineiro-do-recolhimento.md",
+    "depois": "caso-71-sineiro-do-recolhimento.html"
   },
   {
     "fonte": "casos/59-recursos-e-ritmo-dos-inimigos.md",
@@ -3163,6 +3198,11 @@
     "fonte": "indice-de-casos.md",
     "antes": "casos/100-comparar-inimigos-em-outras-faixas.md",
     "depois": "caso-100-comparar-inimigos-em-outras-faixas.html"
+  },
+  {
+    "fonte": "indice-de-casos.md",
+    "antes": "casos/104-o-que-mais-pesa-no-encontro.md",
+    "depois": "caso-104-o-que-mais-pesa-no-encontro.html"
   },
   {
     "fonte": "indice-de-casos.md",

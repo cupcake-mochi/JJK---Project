@@ -15,6 +15,8 @@ def main():
  groups={'B1':'Testes, percepção e movimento','B2':'Confrontos e perigos','B3':'Personagens e técnicas','B4':'Objetos e recompensas','B5':'Pactos e entidades'}
  grouped={k:[T/'casos'/Path(row['fonte_revisada']).name for row in rows] for k,rows in old['casos'].items()}
  grouped['B2'].insert(0,T/'casos/14-tres-maldicoes-para-a-missao.md');grouped['B3'].insert(0,T/'casos/27-convivencia-do-receptaculo.md')
+ # Registro 149-150: caso 104 entra depois do 100, na mesma posição do indice-de-casos.md editado pelo patch.
+ grouped['B2'].insert(grouped['B2'].index(T/'casos/100-comparar-inimigos-em-outras-faixas.md')+1,T/'casos/104-o-que-mais-pesa-no-encontro.md')
  grouped['B3'].append(T/'consultas/92-reserva-condensada-proposta-e-comparacao.md')
  text='# Casos por assunto\n\nEscolha a dúvida que precisa aprofundar. O capítulo principal apresenta o método; os casos mostram sua aplicação, seus limites e o que registrar. As fichas experimentais conservam esse alcance.\n\n'
  methods={'B1':'04-na-mesa-de-jogo.md','B2':'06-inimigos-e-perigos.md','B3':'07-personagens-e-tecnicas.md','B4':'08-entre-missoes.md','B5':'09-pactos-e-entidades.md'}
@@ -27,7 +29,7 @@ def main():
  cases=[p for rows in grouped.values() for p in rows if p.parent.name=='casos']
  leaves=sorted((T/'consultas').glob('*.md'))
  units=core+sorted(set(cases))+leaves+[T/'indice-de-casos.md',T/'referencias.md']
- assert len(units)==len(set(units))==99,len(units)
+ assert len(units)==len(set(units))==100,len(units)  # 99 do registro 147 + caso 104 (registro 149-150)
  docs={p:BeautifulSoup(markdown.markdown(p.read_text(),extensions=['tables','toc','fenced_code']),'html.parser') for p in units}
  names={};roles={}
  for p in units:
@@ -115,7 +117,7 @@ def main():
  reading+=list(dict.fromkeys(p for rows in grouped.values() for p in rows))
  reading+=[p for p in leaves if p not in reading and not p.name.startswith(('87-','88-'))]
  reading+=[T/'consultas/88-indice-de-termos-do-mundo.md',T/'consultas/87-casos-da-obra-para-preparar-situacoes.md',T/'referencias.md']
- assert len(reading)==98 and len(set(reading))==98,len(reading)
+ assert len(reading)==99 and len(set(reading))==99,len(reading)  # 98 do registro 147 + caso 104 (registro 149-150)
  for soup in docs.values():
   for para in soup.find_all('p'):
    lead=para.find('strong',recursive=False)

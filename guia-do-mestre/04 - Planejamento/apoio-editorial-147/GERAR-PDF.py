@@ -54,7 +54,7 @@ caseindex=next(r for r in records if r['pagina']=='casos.html')
 cases=[r for r in records if r['parte']=='Apêndice B' and r!=caseindex]
 C=next(r for r in records if r['pagina']=='apendice-c.html');D=next(r for r in records if r['pagina']=='apendice-d.html');refs=next(r for r in records if r['pagina']=='referencias.html')
 order=[front]+core+leaves+[caseindex]+cases+[C,D,refs]
-assert len(order)==98 and len({r['pagina'] for r in order})==98
+assert len(order)==99 and len({r['pagina'] for r in order})==99  # 98 do registro 147 + caso 104 (registro 149-150)
 DOCS={};ALIASES={};BOOKS={};DOC='';PAGEMAP={};EXTERNAL=[];FIGURES=[];SOURCE_LOG=[]
 for i,r in enumerate(order):
  r['key']='d'+str(i).zfill(3);s=BeautifulSoup((E/r['pagina']).read_text(),'html.parser').article
