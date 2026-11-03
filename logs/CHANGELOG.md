@@ -8,6 +8,23 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.371] - 02/11/2026
+
+### Alterado
+
+- R61: PDFs claro e noturno gerados a partir do texto da v0.370, com 425 páginas nas duas paletas. Contra a R60, só a página 95 mudou (texto e imagem), nas duas, e a única diferença de texto é a frase nova do Ataque sem Prenúncio (item 198): os custos que o defensor já pagou ao declarar a Reação cancelada, como PE, não voltam. Nenhuma outra página mudou de posição.
+- `EDICAO-ATUAL.json` passa para R61 com os dois SHA-256 novos; `REVISAO-R61.json` ao lado do `REVISAO-R60.json`. Conferência dos PDFs (52 verificações) e comparação com a R60 em `editorial-r61/`.
+- A guarda de integridade (`testar-integridade.py`, dos dois lugares) passa a procurar o bloco 12 da R61 e a reaplicar `R60-para-R61.json`; `conferir-fundamento.py` lê o snapshot da R61; a lista de arquivos da entrega em `conferir-repositorio.py` passa a exigir o `REVISAO-R61.json`.
+- Os PDFs e os dois JSON foram copiados para `JJK---PDF---RPG/livro/` (o que a Vercel serve), com a linha do recorte do README de lá.
+
+### Pendente
+
+- Depois do push, esperar a Vercel, baixar os dois PDFs públicos e registrar o SHA-256 em `editorial-r61/PUBLICACAO.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R61 e a conferência da publicação.
+
+---
+
 ## [0.370] - 02/11/2026
 
 ### Decidido

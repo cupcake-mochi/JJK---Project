@@ -1,0 +1,43 @@
+{
+  "comparacao": "Texto, posições das palavras e imagem renderizada de todas as páginas frente à R60.",
+  "paletas": {
+    "claro": {
+      "paginas": 425,
+      "paginas_com_texto_alterado": [
+        95
+      ],
+      "paginas_com_imagem_alterada": [
+        95
+      ],
+      "paginas_visualmente_identicas": 424,
+      "paginas_renderizadas_para_revisao": [
+        94,
+        95,
+        96
+      ]
+    },
+    "noturno": {
+      "paginas": 425,
+      "paginas_com_texto_alterado": [
+        95
+      ],
+      "paginas_com_imagem_alterada": [
+        95
+      ],
+      "paginas_visualmente_identicas": 424,
+      "paginas_renderizadas_para_revisao": [
+        94,
+        95,
+        96
+      ]
+    }
+  },
+  "revisao_visual": {
+    "resultado": "aprovado",
+    "escopo": "Comparação raster das 425 páginas por paleta frente à R60: só a página 95 mudou, nas duas. Página 95 inspecionada inteira, clara e noturna.",
+    "paginas_alteradas": [
+      95
+    ],
+    "observacoes": "A frase nova fecha o segundo tópico de Antecipação e bloqueio, na coluna direita, sem empurrar o texto: nenhuma outra página mudou de texto, posição ou imagem. Sem corte nem sobreposição."
+  }
+}

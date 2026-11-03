@@ -132,7 +132,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r60/BLOCOS-R60.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r61/BLOCOS-R61.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 meta=json.loads((base.parent/'EDICAO-ATUAL.json').read_text())
 for ed in ['claro','noturno']:

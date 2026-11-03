@@ -1,10 +1,10 @@
-# Edição corrente R61 (texto; PDFs ainda não gerados)
+# Edição corrente R61
 
-**Versão v0.370.**
+**Versão v0.371.**
 
-Decidido em 02/11/2026: os custos que o defensor já pagou ao declarar uma Reação cancelada pelo Ataque sem Prenúncio não voltam (item 198). Uma frase nova no bloco `origens--restricao-prenuncio`; custos, gatilhos e a regra de que a Reação não é gasta ficam como estavam. A `Energia Reversa` fica como está (peça 11 §9 fechada). A retificação da R52 recebeu o número 199.
+Decidido em 02/11/2026: os custos que o defensor já pagou ao declarar uma Reação cancelada pelo Ataque sem Prenúncio não voltam (item 198). Uma frase nova no bloco `origens--restricao-prenuncio`; custos, gatilhos e a regra de que a Reação não é gasta ficam como estavam. As duas paletas têm 425 páginas. Contra a R60, só a página 95 mudou, nas duas, e só pela frase nova.
 
-**Os PDFs publicados ainda são os da R60.** O texto e os registros estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`. Gerar os dois PDFs, atualizar `EDICAO-ATUAL.json` e publicar na Vercel depende do ambiente local do Mizuki e não foi feito.
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r61/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R60-para-R61.json`. A cadeia de integridade cobre R52 a R61. A conferência da publicação na Vercel vem depois do push.
 
 # Edição anterior R60
 

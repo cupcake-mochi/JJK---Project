@@ -1,10 +1,10 @@
-# Fonte corrente R60
+# Fonte corrente R61
 
-LIVRO-COMPLETO.md é a edição R60, de 425 páginas, usada pelos validadores. Ela esclarece a conjuração de Reação fora do próprio turno e preserva a revisão didática da R59.
+LIVRO-COMPLETO.md é a edição R61, de 425 páginas, usada pelos validadores. Ela registra que os custos pagos ao declarar a Reação cancelada pelo Ataque sem Prenúncio não voltam, e preserva o esclarecimento de conjuração da R60 e a revisão didática da R59.
 
-O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r60/. O antes e depois está em revisao-de-regras/alteracoes/R59-para-R60.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r61/. O antes e depois está em revisao-de-regras/alteracoes/R60-para-R61.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
 
-A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r60/composicao. As cadeias antigas de geração documentam versões anteriores.
+A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r61/composicao. As cadeias antigas de geração documentam versões anteriores.
 
 ## Histórico da fonte e da geração
 

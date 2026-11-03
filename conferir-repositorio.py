@@ -135,7 +135,7 @@ def recorte_da_entrega():
     # o .pdf e o .docx de revisao, saiu do recorte; a 7.1 acusa se ele continuar la.
     livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
     for f in ('Ciclo-Maldito-Livro-de-Regras.pdf', 'Ciclo-Maldito-Livro-de-Regras-Noturno.pdf',
-              'EDICAO-ATUAL.json', 'REVISAO-R60.json'):
+              'EDICAO-ATUAL.json', 'REVISAO-R61.json'):
         pares.append((os.path.join(livro, f), os.path.join(ent, 'livro', f)))
     return pares
 
