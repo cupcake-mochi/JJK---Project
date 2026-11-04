@@ -1,0 +1,472 @@
+{
+  "data": "2026-11-04",
+  "base": "R65 publicada, v0.375",
+  "escopo": "Análise de clareza, organização, diagramação e posição de imagens. Sem aplicar correções ao livro nesta passagem.",
+  "cobertura": {
+    "paginas_por_versao": 425,
+    "versoes": 2,
+    "quadros_de_inspecao": 54,
+    "metodo_visual": "Inspeção estrutural das 425 páginas de cada paleta em conjuntos de 16, seguida de ampliações dos casos selecionados. As miniaturas foram usadas para layout, não para validar cada palavra.",
+    "metodo_textual": "Varredura da fonte inteira e da ordem dos capítulos, indexação de 3823 parágrafos, busca de termos e remissões, comparação de trechos semelhantes e leitura contextual dos pontos sinalizados. Não equivale a uma revisão ortográfica palavra por palavra das 188744 palavras.",
+    "ampliacoes_visualizadas_nesta_passagem": {
+      "claro": [
+        9,
+        27,
+        28,
+        87,
+        115,
+        240,
+        241,
+        252,
+        283,
+        332,
+        335,
+        418
+      ],
+      "noturno": [
+        25,
+        30
+      ]
+    }
+  },
+  "fontes_sha256": {
+    "LIVRO-CANDIDATA.md": "f596a9449136165a97da4c5854eb271cde3c39c3bcb907dec8fd5fbab065cfb4",
+    "composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf": "c84bb90175816e860b23d063926b981fd602cfc34bd93eb8432762946aaf1c51",
+    "composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": "91a66389faf017306c7bda265e07ac3bb258f04242230f4f09f647e6dbbc97aa"
+  },
+  "validacao_da_base": {
+    "resultado": "aprovado",
+    "verificacoes": 65,
+    "links": {
+      "internos": 3436,
+      "externos": 4
+    },
+    "links_invalidos": [],
+    "conteudo_ausente": [],
+    "margens": [],
+    "sobreposicoes": [],
+    "diferencas_geometria": []
+  },
+  "contagens": {
+    "Decisão de regra": 1,
+    "Recomendado": 10,
+    "Oportunidade": 7
+  },
+  "apontamentos": [
+    {
+      "id": "T01",
+      "tipo": "Consistência de termos",
+      "paginas": [
+        61,
+        159,
+        167,
+        168,
+        177,
+        182,
+        192
+      ],
+      "titulo": "Limite por combate sem entrada na recuperação de usos",
+      "evidencia": "Cena e usos de habilidades enumera por cena, descanso curto, dia e descanso longo. Especial Combinada, Resposta Técnica da Dupla, Um Passo à Frente, Sentença Final e Trajetória Perfeita usam uma vez por combate. A explicação da dupla também repete esse limite.",
+      "efeito_na_leitura": "O leitor precisa decidir sozinho como a frequência se relaciona com cenas que contêm mais de um confronto.",
+      "direcao_para_planejamento": "Confirmar se combate deve conservar significado próprio ou acompanhar cena. Depois alinhar as cinco habilidades e a tabela de recuperação. Não fazer substituição automática.",
+      "prioridade": "Alta",
+      "classe": "Decisão de regra",
+      "bloco": "dano--usos"
+    },
+    {
+      "id": "T02",
+      "tipo": "Clareza de redação",
+      "paginas": [
+        22
+      ],
+      "titulo": "Guarda Aberta parece preservar a concentração",
+      "evidencia": "Em Concentração: “Guarda Aberta [...] conserva sua concentração por si só”. O parágrafo também trata de perda de concentração por dano e inconsciência.",
+      "efeito_na_leitura": "A frase pode sugerir um efeito protetor da condição, quando pretende dizer que ela não encerra concentração automaticamente.",
+      "direcao_para_planejamento": "Explicitar que alguém com Guarda Aberta pode continuar concentrado e permanece sujeito às demais causas de interrupção.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": "geral--concentracao"
+    },
+    {
+      "id": "T03",
+      "tipo": "Clareza de redação",
+      "paginas": [
+        356
+      ],
+      "titulo": "Silencioso aparece como sujeito da manutenção das exigências do Ritual",
+      "evidencia": "“A Melhoria Silencioso, que permite conjurar sem gesto ou palavra, conserva as exigências de voz e gestos do Ritual.”",
+      "efeito_na_leitura": "O verbo atribui à Melhoria uma função estranha. A exceção do Ritual pode exigir releitura.",
+      "direcao_para_planejamento": "Fazer do Ritual o sujeito da exigência e explicar diretamente que seus gestos e sua voz continuam obrigatórios com Silencioso.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": "ritual--ritual"
+    },
+    {
+      "id": "T04",
+      "tipo": "Clareza de redação",
+      "paginas": [
+        10
+      ],
+      "titulo": "Espaços conhecidos: usar a aplicação e ocupar a vaga",
+      "evidencia": "A abertura diz que usar uma aplicação “conserva a vaga ocupada e gasta os recursos indicados na ficha”.",
+      "efeito_na_leitura": "Um iniciante pode confundir manter a aplicação aprendida com gastar ou reservar uma vaga a cada uso.",
+      "direcao_para_planejamento": "Usar a formulação já testada na cópia: a aplicação ocupa uma vaga no repertório e pode ser usada novamente pagando seus custos. Esse teste ainda não integra a R65 publicada.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": "ab--ab-mundo"
+    },
+    {
+      "id": "T05",
+      "tipo": "Navegação",
+      "paginas": [
+        8,
+        68
+      ],
+      "titulo": "Remissão ao exemplo de primeira sessão sem link",
+      "evidencia": "Seu começo menciona “Resgate na ala oeste” em negrito. O exemplo está na página 68 e não há link nessa ocorrência.",
+      "efeito_na_leitura": "Quem começa pela abertura precisa procurar manualmente o exemplo recomendado.",
+      "direcao_para_planejamento": "Transformar essa ocorrência numa remissão direta ao exemplo.",
+      "prioridade": "Baixa",
+      "classe": "Recomendado",
+      "bloco": "ab--ab-primeira-sessao"
+    },
+    {
+      "id": "D01",
+      "tipo": "Diagramação",
+      "paginas": [
+        240,
+        241,
+        242
+      ],
+      "titulo": "Duas tabelas de progressão distribuídas por três páginas",
+      "evidencia": "A tabela 1–15 começa com níveis 1–4 na p. 240 e termina na p. 241. A tabela 16–30 começa na p. 241 e termina com níveis 26–30 na p. 242. Os cabeçalhos se repetem corretamente.",
+      "efeito_na_leitura": "A consulta de progressão exige alternar entre três páginas e reencontrar o cabeçalho correspondente.",
+      "direcao_para_planejamento": "Testar uma tabela completa por página, mantendo a explicação que orienta sua leitura. Preservar corpo de letra e valores.",
+      "prioridade": "Alta",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "D02",
+      "tipo": "Diagramação",
+      "paginas": [
+        283,
+        284
+      ],
+      "titulo": "Ficha de Passagem de Papel cortada entre páginas",
+      "evidencia": "Preparação e Ativação ficam na p. 283; Abertura, Travessia, Duração e Término ficam na p. 284.",
+      "efeito_na_leitura": "A consulta de uma única aplicação depende de virar a página.",
+      "direcao_para_planejamento": "Testar reunir essa ficha compacta e sua apresentação numa unidade de consulta, permitindo deslocar os parágrafos explicativos.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "D03",
+      "tipo": "Diagramação",
+      "paginas": [
+        335
+      ],
+      "titulo": "Ficha de Sutura Fria fragmentada entre colunas",
+      "evidencia": "Semente e Descrição ficam no fim da coluna esquerda. Regra, Atributo, Selo e Famílias continuam no topo da direita.",
+      "efeito_na_leitura": "A ficha perde a leitura contínua, apesar de ter poucas linhas.",
+      "direcao_para_planejamento": "Manter a ficha curta inteira e conservar a associação com o título Exemplo: Sutura Fria.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "D04",
+      "tipo": "Diagramação",
+      "paginas": [
+        252
+      ],
+      "titulo": "Lista curta de Regra Própria partida no primeiro item",
+      "evidencia": "Gatilho verificável fica no pé da esquerda. Simetria, Sem dano direto e Limite por cena ficam na direita, depois da tabela de largura inteira.",
+      "efeito_na_leitura": "As condições de aprovação aparecem espalhadas entre duas colunas com alturas diferentes.",
+      "direcao_para_planejamento": "Reagrupar a lista completa com a frase que a introduz e equilibrar o trecho após a tabela.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "D05",
+      "tipo": "Organização de procedimento",
+      "paginas": [
+        27,
+        28
+      ],
+      "titulo": "Manobras: procedimento e resultados em páginas distintas",
+      "evidencia": "Faça a manobra termina na p. 27 com teste e CD. A tabela dos efeitos de Agarrar, Derrubar e Empurrar abre a p. 28.",
+      "efeito_na_leitura": "O leitor conhece o teste antes de conseguir consultar na mesma página os três resultados que pode escolher.",
+      "direcao_para_planejamento": "Testar um agrupamento de declaração, teste e tabela. A explicação detalhada de contenção pode continuar depois.",
+      "prioridade": "Média",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "D06",
+      "tipo": "Contraste de diagrama",
+      "paginas": [
+        25,
+        30
+      ],
+      "titulo": "Marcadores noturnos pouco distinguíveis do fundo",
+      "evidencia": "O círculo de Sousuke usa #4c303d sobre #342a30: contraste calculado 1,18:1. O marcador Início usa #4c303d sobre #261f23: 1,38:1. Os rótulos permanecem legíveis.",
+      "efeito_na_leitura": "O ponto que localiza a criatura ou o começo do percurso quase se mistura com o fundo.",
+      "direcao_para_planejamento": "Aumentar a distinção do preenchimento ou adicionar contorno claro aos marcadores, preservando os rótulos e a paleta. Não é necessário trocar as cores do livro inteiro.",
+      "prioridade": "Alta",
+      "classe": "Recomendado",
+      "bloco": null
+    },
+    {
+      "id": "O01",
+      "tipo": "Hierarquia visual",
+      "paginas": [
+        73,
+        75,
+        77,
+        82,
+        85,
+        89,
+        94
+      ],
+      "titulo": "Títulos de Origens com dois tratamentos visuais",
+      "evidencia": "Latente, Descendente e Encarnado usam faixa vinho. Receptáculo, Híbrido, Corpo Amaldiçoado e Restrição Celestial usam abertura maior em caixa alta, associada a ilustração.",
+      "efeito_na_leitura": "Opções do mesmo nível podem parecer pertencer a níveis diferentes de seção.",
+      "direcao_para_planejamento": "Comparar um tratamento comum de identificação das Origens, admitindo composições distintas para as imagens.",
+      "prioridade": "Baixa",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O02",
+      "tipo": "Posição de imagem",
+      "paginas": [
+        9,
+        10
+      ],
+      "titulo": "Mundo jujutsu dividido pela composição de abertura",
+      "evidencia": "A composição publicada reserva uma abertura extensa e leva parte da explicação à página seguinte. Um teste local anterior reuniu o conteúdo numa página com imagem lateral proporcional.",
+      "efeito_na_leitura": "A passagem de apresentação para explicação exige virar a página e deixa espaço que pode ser melhor aproveitado.",
+      "direcao_para_planejamento": "Usar o teste local como comparação no planejamento. Ele ainda não foi incorporado à publicação.",
+      "prioridade": "Média",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O03",
+      "tipo": "Espaço e fluxo",
+      "paginas": [
+        87,
+        88
+      ],
+      "titulo": "Híbrido deixa espaço antes das últimas menores",
+      "evidencia": "A p. 87 termina depois de Locomoção Adaptada e Bolsa Orgânica com espaço livre. A seção continua na p. 88 antes da abertura seguinte.",
+      "efeito_na_leitura": "O leitor avança para outra página apesar de ainda haver área livre na anterior.",
+      "direcao_para_planejamento": "Testar puxar uma entrada completa da p. 88, preservando os títulos e o primeiro parágrafo. Confirmar a composição das duas páginas.",
+      "prioridade": "Média",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O04",
+      "tipo": "Espaço e fluxo",
+      "paginas": [
+        115,
+        116
+      ],
+      "titulo": "Introdução da Sequência de Condução distante das etapas",
+      "evidencia": "A p. 115 encerra a apresentação da Sequência com espaço inferior. As etapas detalhadas começam na página seguinte.",
+      "efeito_na_leitura": "A explicação central do Vanguarda pode ser lida de modo mais contínuo.",
+      "direcao_para_planejamento": "Testar antecipar uma etapa com seu começo completo. Manter as tabelas de Características e Progressão legíveis.",
+      "prioridade": "Baixa",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O05",
+      "tipo": "Posição de imagem",
+      "paginas": [
+        332
+      ],
+      "titulo": "Imagem de Sem Técnica deixa a coluna direita isolada",
+      "evidencia": "A imagem ocupa a região central da direita, enquanto a apresentação e a criação se concentram na esquerda. Há espaço livre acima e abaixo da imagem.",
+      "efeito_na_leitura": "A abertura é legível, mas o equilíbrio entre texto e imagem pode melhorar.",
+      "direcao_para_planejamento": "Comparar alinhamento superior da imagem ou outro arranjo de abertura. Não remover a imagem apenas para aumentar densidade.",
+      "prioridade": "Baixa",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O06",
+      "tipo": "Navegação e espaço",
+      "paginas": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "titulo": "Última página do sumário muito curta",
+      "evidencia": "O sumário ocupa quatro páginas e a p. 5 fica pouco preenchida.",
+      "efeito_na_leitura": "Há uma página adicional de navegação com pouco conteúdo.",
+      "direcao_para_planejamento": "Testar redistribuição respeitando os grupos de capítulos, os links e o tamanho da letra.",
+      "prioridade": "Baixa",
+      "classe": "Oportunidade",
+      "bloco": null
+    },
+    {
+      "id": "O07",
+      "tipo": "Posição de diagrama",
+      "paginas": [
+        29,
+        30
+      ],
+      "titulo": "Exemplo de terreno e seu desenho em páginas diferentes",
+      "evidencia": "O exemplo de deslocamento termina na p. 29. Percurso e custo abre a p. 30 e repete os números necessários para ser entendido sozinho.",
+      "efeito_na_leitura": "A relação texto–desenho exige virar a página, embora o desenho continue compreensível isoladamente.",
+      "direcao_para_planejamento": "Comparar os dois juntos. Dar prioridade à unidade do exemplo se o reagrupamento não criar uma quebra pior.",
+      "prioridade": "Baixa",
+      "classe": "Oportunidade",
+      "bloco": null
+    }
+  ],
+  "capitulos": [
+    {
+      "numero": 1,
+      "titulo": "Ciclo Maldito",
+      "pagina": 7,
+      "observacao": "Abertura orienta a primeira sessão. Conferir a explicação de espaços conhecidos, a remissão ao combate de exemplo e a composição de Mundo jujutsu."
+    },
+    {
+      "numero": 2,
+      "titulo": "Regras gerais",
+      "pagina": 13,
+      "observacao": "A sequência testes, turnos, ataques, movimento e percepção está identificável. Os achados concentram-se em Concentração, agrupamento das manobras e diagramas."
+    },
+    {
+      "numero": 3,
+      "titulo": "Dano e recuperação",
+      "pagina": 46,
+      "observacao": "Vida a zero apresenta os termos antes dos procedimentos e distingue tratamento de prazo. Aguentar, Insistir, dano posterior e Sequelas estão explicados. A frequência por combate precisa ser conciliada com a tabela de usos."
+    },
+    {
+      "numero": 4,
+      "titulo": "Criar um personagem",
+      "pagina": 63,
+      "observacao": "Criação começa no nível 2, apresenta as escolhas e inclui exemplos. A suspeita de quantidade errada de Trilhas foi descartada: o Incursor possui três."
+    },
+    {
+      "numero": 5,
+      "titulo": "Origens",
+      "pagina": 71,
+      "observacao": "Marcante, menores, Legados e rotas recebem contexto. Há oportunidade de uniformizar a identificação visual das Origens e aproveitar melhor o fim do Híbrido."
+    },
+    {
+      "numero": 6,
+      "titulo": "Caminhos e Trilhas",
+      "pagina": 106,
+      "observacao": "Tabelas e níveis das Trilhas estão presentes. Exemplos do Evocador existem e devem ser preservados. Cinco capacidades usam o limite por combate. Há oportunidade de aproximar a Sequência de Condução de suas etapas."
+    },
+    {
+      "numero": 7,
+      "titulo": "Perícias e Ofícios",
+      "pagina": 195,
+      "observacao": "Perícias e Ofícios distinguem treino, tarefa, tentativa e fabricação. Os reparos de objetos remetem aos procedimentos específicos de criaturas. Sem novo achado prioritário registrado."
+    },
+    {
+      "numero": 8,
+      "titulo": "Equipamento",
+      "pagina": 204,
+      "observacao": "Características, uso, compra e catálogos são identificáveis. As tabelas de armas mantêm separações úteis; espaço no fim dessas páginas não basta para justificar compactação."
+    },
+    {
+      "numero": 9,
+      "titulo": "Progressão",
+      "pagina": 238,
+      "observacao": "A explicação de níveis e marcos está contextualizada. O principal problema de consulta é a divisão das duas tabelas por três páginas."
+    },
+    {
+      "numero": 10,
+      "titulo": "Fundamento",
+      "pagina": 248,
+      "observacao": "A técnica é apresentada antes da montagem; Famílias, Regra Própria, primeiro feitiço e Classe 0 têm introdução. Preservar o exemplo acompanhado. Rever agrupamento da lista e da ficha de Passagem de Papel."
+    },
+    {
+      "numero": 11,
+      "titulo": "Catálogo de criação",
+      "pagina": 288,
+      "observacao": "Efeitos e Modificadores estão identificados como Melhorias. As entradas trazem Família e preço. A abertura do catálogo de Restrições no fim de página tem contexto suficiente; não foi tratada como título órfão."
+    },
+    {
+      "numero": 12,
+      "titulo": "Aptidões e Refino",
+      "pagina": 310,
+      "observacao": "Refino e requisitos são apresentados antes do catálogo. Regravação já explica o que é Rescaldo e possui remissão: suspeita descartada."
+    },
+    {
+      "numero": 13,
+      "titulo": "Rotas de criação",
+      "pagina": 324,
+      "observacao": "Manejos e Katas são relacionados à montagem comum. Os exemplos completos ajudam a leitura. Sutura Fria merece ficha reunida; a imagem de Sem Técnica admite teste de composição."
+    },
+    {
+      "numero": 14,
+      "titulo": "Poderes avançados",
+      "pagina": 345,
+      "observacao": "Acerto, Efeito, modalidades e confronto são apresentados em sequência, com exemplos posteriores. Sem novo achado prioritário registrado nesta análise."
+    },
+    {
+      "numero": 15,
+      "titulo": "Ritual e Pactos",
+      "pagina": 356,
+      "observacao": "Ritual organiza preparação, teste e resultados. Silencioso precisa de formulação mais direta. Pactos diferenciam suas formas e usam exemplos."
+    },
+    {
+      "numero": 16,
+      "titulo": "Invocações em campo",
+      "pagina": 368,
+      "observacao": "Atuação básica, capacidade básica, especial e comando são definidos na abertura. O primeiro combate e a ordem do turno ajudam a distinguir os recursos. Evitar acrescentar outra introdução redundante."
+    },
+    {
+      "numero": 17,
+      "titulo": "Construir invocações",
+      "pagina": 386,
+      "observacao": "A montagem tem etapas, Cão de sombra e Vigia de papel. Aquisição e evolução distinguem criadas e domadas. Ofício compatível aparece no procedimento. Sem novo achado prioritário registrado."
+    },
+    {
+      "numero": 18,
+      "titulo": "Mestrar",
+      "pagina": 407,
+      "observacao": "Preparação, condução e continuidade da campanha estão organizadas. O capítulo funciona como orientação breve e aponta para consulta de regras."
+    },
+    {
+      "numero": 19,
+      "titulo": "Glossário",
+      "pagina": 410,
+      "observacao": "Os verbetes distinguem Classe, Categoria, Grau, Forma, função, atuação básica e capacidade básica. A concisão é adequada à função de consulta."
+    },
+    {
+      "numero": 20,
+      "titulo": "Consulta rápida",
+      "pagina": 415,
+      "observacao": "O resumo orienta testes, ações, dano e duração. A explicação de zero de vida remete ao procedimento completo. Preservar essas remissões ao diagramar novamente."
+    },
+    {
+      "numero": 21,
+      "titulo": "Índice",
+      "pagina": 418,
+      "observacao": "Índice mantém links e destinos. O texto rosa claro foi ampliado e medido; contraste de 5,68:1 sobre branco. Não foi confirmado o problema inicialmente suspeitado."
+    }
+  ],
+  "suspeitas_descartadas_ou_reclassificadas": [
+    "Incursor com quatro Trilhas: descartado. Caminho é um botão de navegação, e as três Trilhas são Assassino, Pugilista e Malabarista. A indicação preliminar incorreta foi corrigida na conversa.",
+    "Índice claro com contraste insuficiente: não confirmado. A cor #bc2a6e sobre branco resulta em 5,68:1; a ampliação mantém leitura.",
+    "Rescaldo sem contexto em Regravação: descartado. A entrada explica o impedimento e remete à seção de domínio.",
+    "Remissões sem âncora literal na fonte: os 62 destinos encontrados nessa triagem são gerados pela composição e constam do manifesto. Não são links quebrados.",
+    "Parágrafos semelhantes: seis pares próximos surgiram na triagem. Referem-se a exemplos complementares, capacidades distintas ou cláusulas necessárias a opções consultadas separadamente; não justificam exclusão automática.",
+    "As 41 páginas sinalizadas pelo cálculo de altura das colunas não equivalem a 41 páginas defeituosas. Tabelas e diagramas de largura inteira, aberturas e encerramentos explicam parte dos avisos."
+  ],
+  "proxima_decisao": "Montar com o autor o planejamento de correções; resolver T01 antes de alterar frequências.",
+  "estado_publicacao": "R65 mantida. A cópia de teste anterior permanece separada; não é a base de paginação deste relatório."
+}

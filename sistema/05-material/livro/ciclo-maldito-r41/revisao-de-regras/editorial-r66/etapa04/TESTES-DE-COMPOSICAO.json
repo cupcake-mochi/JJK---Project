@@ -1,0 +1,15 @@
+{
+  "testes_descartados": [
+    {
+      "ponto": "O03",
+      "teste": "Tabela de Armamento Orgânico em uma coluna.",
+      "resultado": "Economizava uma página, mas estreitava as células e separava Anatomia Suplementar entre colunas. Substituído por tabela larga com esclarecimentos nas colunas abaixo."
+    },
+    {
+      "ponto": "O04",
+      "teste": "Agrupamento da Sequência depois das regras gerais de abertura.",
+      "resultado": "A apresentação já havia sido incorporada ao grupo anterior; mudou-se o momento do agrupamento para reunir o procedimento antes dessa composição."
+    }
+  ],
+  "revisao_textual": "Leitura contextual de Menores do Híbrido, Sequência de Condução e Sem Técnica. Intervenção limitada à composição; nenhuma frase ou regra alterada."
+}

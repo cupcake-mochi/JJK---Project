@@ -1,0 +1,89 @@
+========================================================================================
+CONFERIR LEGADOS — a peca 13 contra as pecas donas
+========================================================================================
+  degraus lidos da peca 10 : ['por cena', 'por descanso curto', 'por dia', 'por descanso longo']
+  Origens lidas da peca 9  : 7
+  entradas no catalogo     : 84  (1 vaga(s) reservada(s))
+
+========================================================================================
+1. FORMATO — todo Legado esta sob um dos tres
+========================================================================================
+  [x] as 84 entradas estao sob Ajusta, Desliga ou Destranca.
+
+========================================================================================
+2. RELOGIO — todo relogio e degrau da escada da peca 10
+========================================================================================
+  [x] todo relogio usado e um dos quatro degraus da peca 10.
+      em uso: ['por cena', 'por descanso curto', 'por descanso longo', 'por dia', 'sem relógio']
+
+========================================================================================
+3. LARGURA — categoria inteira nao fica em degrau rapido
+========================================================================================
+  [x] os 40 Ajusta respeitam a trava: categoria inteira desce de degrau.
+
+========================================================================================
+4. DESLIGA — nenhum encosta em dano, e o de condicao carrega o relogio do nivel
+========================================================================================
+  [x] os 13 Desliga escritos so apagam o que ninguem comprou.
+  [x] os 5 Desliga que nomeiam condicao carregam o relogio que o nivel dela pede
+
+========================================================================================
+5. DESLIGA — todo um escreve o que custa em troca
+========================================================================================
+  [x] todo Desliga escreve o que custa em troca, no proprio texto.
+
+========================================================================================
+6. COTA — toda Origem soma 2 Desliga, e toda vaga nomeia a peca
+========================================================================================
+  [x] Corpo Amaldiçoado      1 escrito(s) + 1 reservada(s) = 2
+  [x] Descendente            2 escrito(s) + 0 reservada(s) = 2
+  [x] Encarnado              2 escrito(s) + 0 reservada(s) = 2
+  [x] Feto                   2 escrito(s) + 0 reservada(s) = 2
+  [x] Latente                2 escrito(s) + 0 reservada(s) = 2
+  [x] Receptáculo            2 escrito(s) + 0 reservada(s) = 2
+  [x] Restrição Celestial    2 escrito(s) + 0 reservada(s) = 2
+  [x] as 1 vagas dizem o que esperam: 0 esperando peca, 1 destravada(s) de Origem.
+      1 destravada(s) de Origem pela peca 20
+  [x] toda vaga destravada declara na tabela se o alvo esta livre ou travado.
+  [x] a enumeracao esta declarada esgotada, e nenhuma linha promete que a vaga so espera escrita.
+  [x] o livro proibe Passiva paga de dar imunidade completa, e nenhuma linha desta
+      peca manda um Legado morto virar Passiva paga.
+
+========================================================================================
+7. ORIGENS — as do catalogo existem na peca 9, e nenhuma falta
+========================================================================================
+  [x] as 7 Origens da peca 9 tem lista, e nao existe lista orfa.
+
+========================================================================================
+8. SEM TECNICA — nas cinco que aceitam, em nenhuma das duas especiais
+========================================================================================
+  [x] o Sem Tecnica lista as 5 elegiveis e exclui as 2 especiais.
+      (escrito uma vez e referenciado: cinco copias seriam a licao no 9)
+
+========================================================================================
+9. CONTA — a tabela de totais bate com o catalogo de verdade
+========================================================================================
+  contado na pasta : Destranca 31 · Ajusta 40 · Desliga 13 = 84
+  escrito na tabela: Destranca 31 · Ajusta 40 · Desliga 13 (+1 reservadas) = 84
+  [x] a conta escrita bate com a contada. Nenhum total foi digitado a mao sem conferir.
+
+========================================================================================
+10. A TABELA DOS TRES FORMATOS — os doze exemplos dela existem?
+========================================================================================
+  [x] os 12 exemplos do §4 existem no catalogo e estao no formato certo
+
+========================================================================================
+11. GLOSA DO DESLIGA — a peca e o livro contam a mesma historia?
+========================================================================================
+  [x] a peca 13 §5: nomeia as duas direcoes do Desliga.
+  [x] o capitulo 7 do livro: nomeia as duas direcoes do Desliga.
+  [x] o `Ferro Velho` continua sendo o contra-exemplo escrito da glosa estreita.
+
+========================================================================================
+12. O OFICIO E O TR NA ORIGEM — as sete copias, e todas prometem os dois
+========================================================================================
+  [x] as 7 Origens com lista de pericia publicam o mesmo bloco de oficio e TR, e ele bate com a tabela do topo do capitulo.
+
+========================================================================================
+>>> TUDO OK — a regua fecha, o catalogo obedece a ela, e todo numero
+    conferido aqui foi lido do documento dono.

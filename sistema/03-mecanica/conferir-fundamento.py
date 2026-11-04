@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r65/BLOCOS-R65.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r66/BLOCOS-R66.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
@@ -158,6 +158,15 @@ meta=json.loads((base.parent/'EDICAO-ATUAL.json').read_text())
 for ed in ['claro','noturno']:
     p=base.parent/meta[ed]['arquivo']
     check(f'PDF {ed} idêntico ao revisado',hashlib.sha256(p.read_bytes()).hexdigest()==meta[ed]['sha256'])
+# R66: as cinco habilidades usam a recuperação por cena definida no livro.
+def _frequencia_cena(texto, chave):
+    trecho=texto.split('<a id="'+chave+'"></a>',1)[1].split('<!-- fonte:',1)[0]
+    return 'Uma vez por cena' in trecho and not re.search(r'\b(?:por|no) combate\b',trecho,re.I)
+for chave in ['evocador--ev-combinada','evocador--ev-parceria-resposta','incursor--inc-ritmo','incursor--inc-brecha','incursor--inc-perfeita']:
+    check('R66: frequência por cena em '+chave,_frequencia_cena(_livro_md,chave))
+    pos=_livro_md.index('<a id="'+chave+'"></a>')
+    alterado=_livro_md[:pos]+_livro_md[pos:].replace('Uma vez por cena','Uma vez por combate',1)
+    check('Contra-teste: rejeita retorno a combate em '+chave,not _frequencia_cena(alterado,chave))
 print(f'\n{CHECAGENS} verificações; {len(ERROS)} falhas.')
 if ERROS:sys.exit(1)
 print('>>> TUDO OK: montagem comum R53, fontes e interfaces conferidas.')

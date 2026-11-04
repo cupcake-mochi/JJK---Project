@@ -1,0 +1,64 @@
+[
+  {
+    "id": "T01-01",
+    "bloco": "evocador--ev-combinada",
+    "linha_base_candidata": 5640,
+    "antes": "**Ação Completa · Uma vez por combate · Participantes a até 18 m.**",
+    "depois": "**Ação Completa · Uma vez por cena · Participantes a até 18 m.**",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-02",
+    "bloco": "evocador--ev-parceria-resposta",
+    "linha_base_candidata": 6067,
+    "antes": "**Reação de quem executa · Uma vez por combate · Turno de outra criatura · Invocação a até 18 m.**",
+    "depois": "**Reação de quem executa · Uma vez por cena · Turno de outra criatura · Invocação a até 18 m.**",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-03",
+    "bloco": "evocador--ev-parceria-resposta",
+    "linha_base_candidata": 6090,
+    "antes": "**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "depois": "**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por cena pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-04",
+    "bloco": "incursor--inc-ritmo",
+    "linha_base_candidata": 6531,
+    "antes": "**Uma vez por combate**, pode ativar imediatamente antes de **outra criatura** começar um turno.",
+    "depois": "**Uma vez por cena**, pode ativar imediatamente antes de **outra criatura** começar um turno.",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-05",
+    "bloco": "incursor--inc-brecha",
+    "linha_base_candidata": 6735,
+    "antes": "**Uma vez por combate**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**",
+    "depois": "**Uma vez por cena**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-06",
+    "bloco": "incursor--inc-perfeita",
+    "linha_base_candidata": 7120,
+    "antes": "**Uma vez por combate · Fluidez e 12 PE.**",
+    "depois": "**Uma vez por cena · Fluidez e 12 PE.**",
+    "motivo": "Padronizar a recuperação pela cena, usando o procedimento já definido em Cena e usos de habilidades. O uso da resposta da dupla continua pertencendo ao conjunto."
+  },
+  {
+    "id": "T01-07",
+    "bloco": "evocador--ev-combinada",
+    "antes": "**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade no combate.",
+    "depois": "**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade na cena.",
+    "motivo": "Alinhar a instrução de marcar o uso à frequência por cena."
+  },
+  {
+    "id": "T01-08",
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade no combate.",
+    "depois": "A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade na cena.",
+    "motivo": "Alinhar a instrução de marcar o uso à frequência por cena."
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "antes": "check('As duas paletas têm 424 páginas após reunir Mundo jujutsu.',len(texta)==len(textb)==424)",
+  "depois": "check('As duas paletas têm 422 páginas após os ajustes de Mundo jujutsu, Híbrido e Vanguarda.',len(texta)==len(textb)==422)",
+  "motivo": "Expectativa de paginação atualizada após conferência dos capítulos: 424 para 422 na etapa; mesmo conteúdo, sem redução de fonte."
+}

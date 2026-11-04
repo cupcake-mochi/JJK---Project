@@ -1,0 +1,12 @@
+{
+  "LIVRO-CANDIDATA.md": "19c3bce8057a5cd049ca89e1e64d680a3f4a6b1c0c19a04699815a3230b4e206",
+  "conferir.py": "f242c69d83b3fad9f222fac6e5b6da5bf91cfaffef5fd3785eae593d02bfce56",
+  "composicao/gerar_livro.py": "b1f64e915f12349592de896a944a39d2222b08010c2d1ff46ffbf18d00f4d7ff",
+  "composicao/fluxo_continuo.py": "3ef77debb1815297a55cad7ab1ac6694035395eb076b14122b76dfa156be6b0a",
+  "composicao/tabelas_destaques.py": "9a69dfb4f0463cbfc099c2a5e342c9347a78b2d7e8f6ee4cb1eeed5624b70913",
+  "composicao/FONTES-E-VALIDACAO.json": "0d6b2976401fc5a68e89dd89b14b08541ad07b42ce132542d56d636172cfe2d6",
+  "composicao/GEOMETRIA-CANDIDATA.json": "a6c03c8829ad251031c70a0c34fbfeba916563fb3a5d5298d6549d1ccfe1b293",
+  "composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf": "8113ebb5593bbd00619167e2e707a6e3f39938ddd24335de6a8eebe68531d578",
+  "composicao/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": "a5dfc9e922437b97738c2eeb1e55f8f9840a92b2e4413cd48e80d1e4be16f499",
+  "revisao/CONTINUIDADE.json": "903baf2705adf767f7c3e7cb045704699baf9340d849c172f051b4ab1ba4c4f4"
+}

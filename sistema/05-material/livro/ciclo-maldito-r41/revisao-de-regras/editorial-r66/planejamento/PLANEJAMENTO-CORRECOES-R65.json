@@ -1,0 +1,94 @@
+{
+  "base": "R65 publicada, v0.375",
+  "data": "2026-11-04",
+  "estado": "Seis etapas concluídas e validadas na candidata isolada; publicação pendente de decisão do autor.",
+  "escopo": "Trabalhar em cópia, preservando a versão publicada. As páginas de referência são as da R65; os blocos identificam o conteúdo após repaginação.",
+  "revisao_obrigatoria_em_cada_etapa": [
+    "Antes de iniciar, conferir os resultados e pendências da etapa anterior.",
+    "Ao concluir, revisar texto alterado e contexto, preservando regras salvo decisão explícita do autor.",
+    "Gerar os dois PDFs candidatos e verificar igualdade do texto entre as paletas.",
+    "Inspecionar visualmente páginas alteradas, páginas vizinhas e páginas que sofreram mudança de fluxo, em claro e noturno; conferir títulos, colunas, tabelas, imagens e contraste.",
+    "Rodar verificações adequadas de conteúdo e geometria, links e destinos; comparar diferenças com a base da etapa.",
+    "Se houver falha, corrigir e repetir a revisão antes de considerar a etapa entregue. Registrar antes/depois e pendências."
+  ],
+  "etapas": [
+    {
+      "etapa": "1. Clareza e navegação",
+      "apontamentos": [
+        "T02",
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "trabalho": "Reescrever os trechos de Concentração, Silencioso e espaços conhecidos; ligar a abertura ao exemplo Resgate na ala oeste. Comparar a formulação já testada com a R65, preservando o significado das regras.",
+      "foco_da_revisao_textual_e_visual": "Ler os parágrafos completos e seus vizinhos. Conferir remissões e os efeitos da mudança de extensão nas duas versões.",
+      "estado": "concluída e validada"
+    },
+    {
+      "etapa": "2. Frequência de habilidades",
+      "apontamentos": [
+        "T01"
+      ],
+      "trabalho": "Apresentar a decisão sobre por combate. Recomendação: adotar por cena nas cinco habilidades e na explicação da dupla, se o autor confirmar. Se conservar por combate, definir sua recuperação e a relação com perseguições, reforços e interrupções. Esta decisão não bloqueia os ajustes editoriais independentes.",
+      "foco_da_revisao_textual_e_visual": "Comparar antes e depois de cada ocorrência, confirmar que custos e demais limites foram preservados e revisar a tabela geral, resumos e páginas afetadas nas duas versões.",
+      "estado": "concluída e validada"
+    },
+    {
+      "etapa": "3. Unidades de consulta e diagramas",
+      "apontamentos": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "O07"
+      ],
+      "trabalho": "Reunir as fichas de Passagem de Papel e Sutura Fria; agrupar a lista de Regra Própria e o procedimento de manobras. Testar uma tabela de progressão completa por página. Melhorar o contraste dos marcadores noturnos. Testar a aproximação do exemplo de terreno ao desenho.",
+      "foco_da_revisao_textual_e_visual": "Conferir todos os valores e campos; ler procedimentos na ordem de leitura. Inspecionar páginas anteriores e seguintes nas duas paletas, inclusive cabeçalhos repetidos e localização dos marcadores.",
+      "estado": "concluída e validada"
+    },
+    {
+      "etapa": "4. Hierarquia, imagens e aproveitamento",
+      "apontamentos": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "trabalho": "Testar identificação consistente das Origens, composição de Mundo jujutsu, fluxo do Híbrido e da Sequência de Condução e posicionamento da imagem de Sem Técnica. Incorporar somente os testes que melhorem a leitura.",
+      "foco_da_revisao_textual_e_visual": "Comparar antes e depois em tamanho legível nas duas versões. Verificar associação entre imagem e texto, sequência de parágrafos e títulos junto da introdução. Aceitar espaços necessários à leitura.",
+      "estado": "concluída e validada"
+    },
+    {
+      "etapa": "5. Sumário e navegação final",
+      "apontamentos": [
+        "O06"
+      ],
+      "trabalho": "Com a paginação estabilizada, testar redistribuição do sumário sem reduzir a fonte. Atualizar sumário, índice, marcadores, destinos e remissões.",
+      "foco_da_revisao_textual_e_visual": "Conferir nomes, hierarquia e destinos. Testar os links e revisar visualmente sumário, índice e páginas que mudaram nas duas versões.",
+      "estado": "concluída e validada"
+    },
+    {
+      "etapa": "6. Revisão de fechamento",
+      "apontamentos": [],
+      "trabalho": "Reexaminar todos os 18 apontamentos e registrar resolvido, mantido com justificativa ou pendente de decisão. Revisar a organização dos 21 capítulos, primeiras menções e possíveis redundâncias. Fazer leitura contínua de todas as passagens alteradas e uma nova inspeção estrutural de todas as páginas das duas versões, ampliando páginas modificadas e suspeitas.",
+      "foco_da_revisao_textual_e_visual": "Executar validadores de conteúdo, links, margens, sobreposições e equivalência entre paletas. Após qualquer correção, regenerar os PDFs e repetir as verificações afetadas. Entregar PDFs candidatos, registro antes/depois e relatório final. Publicação fora desta etapa de planejamento.",
+      "estado": "concluída e validada"
+    }
+  ],
+  "por_combate": {
+    "problema": "A tabela geral define recuperação por cena, descanso curto, dia e descanso longo, mas não por combate. Cinco habilidades e uma explicação associada usam esse limite.",
+    "habilidades": [
+      "Especial Combinada (p. 159)",
+      "Resposta Técnica da Dupla (pp. 167–168)",
+      "Um Passo à Frente (p. 177)",
+      "Sentença Final (p. 182)",
+      "Trajetória Perfeita (p. 192)"
+    ],
+    "exemplo": "O grupo vence guardas e, sem sair da mesma perseguição, enfrenta reforços. Por combate pode sugerir novo uso; por cena só recupera quando a cena termina conforme a regra existente.",
+    "recomendacao": "Padronizar por cena, coerente com a definição atual e com a decisão editorial anterior do autor. Confirmar porque isso pode reduzir usos em uma sequência de confrontos e é uma mudança de regra.",
+    "estado": "Autor aprovou por cena; aplicado e validado na etapa 2."
+  }
+}

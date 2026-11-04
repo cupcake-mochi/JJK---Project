@@ -1,0 +1,8 @@
+{
+  "somente_oito_substituicoes_previstas": true,
+  "sem_por_combate": true,
+  "sem_marcar_uso_no_combate": true,
+  "regra_geral_de_cena_preservada": true,
+  "custos_alcances_gatilhos_niveis_e_demais_limites_preservados": true,
+  "etapa01_preservada": true
+}

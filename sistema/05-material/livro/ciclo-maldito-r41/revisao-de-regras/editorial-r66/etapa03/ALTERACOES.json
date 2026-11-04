@@ -1,0 +1,58 @@
+[
+  {
+    "id": "D01",
+    "bloco": "progressao--prog-tabela-inicial; progressao--prog-tabela-avancada",
+    "antes": "Duas tabelas distribuídas por três páginas, com trechos curtos de continuação.",
+    "depois": "Cada tabela completa em uma página, junto de sua apresentação e explicação dos ganhos: 240 e 241.",
+    "motivo": "Consultar cada faixa de níveis sem mudar de página no meio da tabela."
+  },
+  {
+    "id": "D02",
+    "bloco": "fundamento--passagem",
+    "antes": "Tabela de Passagem de Papel partida entre páginas.",
+    "depois": "Montagem e tabela completa na coluna esquerda da página 283.",
+    "motivo": "Reunir os seis campos de uso; limites longos continuam no fluxo normal."
+  },
+  {
+    "id": "D03",
+    "bloco": "rotas--rota-sutura",
+    "antes": "Ficha dividida entre as duas colunas da página 334.",
+    "depois": "Apresentação e sete campos juntos na coluna esquerda da página 334; aplicação de cura na direita.",
+    "motivo": "Preservar a ficha como unidade de consulta."
+  },
+  {
+    "id": "D03-regressao",
+    "bloco": "rotas--rota-espinho",
+    "antes": "No primeiro teste, reunir Sutura Fria deslocou Espinho e fragmentou sua ficha.",
+    "depois": "Ficha de Espinho mantida inteira na coluna esquerda da página 335.",
+    "motivo": "Corrigir o efeito colateral identificado na revisão visual e preservar a ficha que já estava inteira na base."
+  },
+  {
+    "id": "D04",
+    "bloco": "fundamento--selo",
+    "antes": "Introdução das condições da Regra Própria e primeiro item separados dos demais.",
+    "depois": "Introdução e quatro condições juntas na coluna direita da página 251.",
+    "motivo": "Ler a lista completa no mesmo campo visual."
+  },
+  {
+    "id": "D05",
+    "bloco": "geral--manobras",
+    "antes": "Procedimento e tabela de resultados em páginas distintas.",
+    "depois": "Faça a manobra, declaração, teste e tabela na coluna esquerda da página 27.",
+    "motivo": "Consultar execução e consequência em sequência."
+  },
+  {
+    "id": "D06",
+    "bloco": "diagramas de cobertura e movimento",
+    "antes": "Círculos escuros sem contorno, pouco distinguíveis no noturno.",
+    "depois": "Contorno de 1,5 pt; contraste de 3,54:1 no painel e 4,13:1 na célula, confirmado nos objetos do PDF noturno.",
+    "motivo": "Distinguir os marcadores do fundo sem alterar a paleta."
+  },
+  {
+    "id": "O07",
+    "bloco": "geral--movimento",
+    "antes": "Exemplo de terreno na página anterior ao desenho.",
+    "depois": "Exemplo e esquema reunidos na página 29, abaixo da tabela de travessia.",
+    "motivo": "Conferir percurso e custo junto do caso explicado."
+  }
+]

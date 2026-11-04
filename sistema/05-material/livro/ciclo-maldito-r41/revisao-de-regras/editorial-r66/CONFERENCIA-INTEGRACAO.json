@@ -1,0 +1,14 @@
+[
+  {
+    "alvo": "claro",
+    "aprovado": true
+  },
+  {
+    "alvo": "noturno",
+    "aprovado": true
+  },
+  {
+    "alvo": "fonte corrente igual à candidata aprovada",
+    "aprovado": true
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "claro": {
+    "paginas": 424,
+    "paginas_com_diferenca_de_texto_geometria_ou_link": [
+      8,
+      21,
+      355
+    ]
+  },
+  "noturno": {
+    "paginas": 424,
+    "paginas_com_diferenca_de_texto_geometria_ou_link": [
+      8,
+      21,
+      355
+    ]
+  },
+  "paginas_para_inspecao": [
+    7,
+    8,
+    9,
+    10,
+    19,
+    20,
+    21,
+    22,
+    354,
+    355,
+    356
+  ],
+  "ancoras": {
+    "ab--ab-primeira-sessao": {
+      "pagina": 8,
+      "x": 53.85826771653544,
+      "y": 768.6929133858268
+    },
+    "ab--ab-mundo": {
+      "pagina": 9,
+      "x": 53.85826771653544,
+      "y": 776.6929133858268
+    },
+    "geral--concentracao": {
+      "pagina": 20,
+      "x": 307.5590551181103,
+      "y": 441.69291338582684
+    },
+    "ritual--ritual": {
+      "pagina": 355,
+      "x": 53.85826771653544,
+      "y": 720.6929133858268
+    },
+    "ab--ab-resgate": {
+      "pagina": 67,
+      "x": 53.85826771653544,
+      "y": 768.6929133858268
+    }
+  },
+  "base_R65_preservada": true,
+  "revisao_visual": {
+    "paginas_por_paleta": [
+      7,
+      8,
+      9,
+      10,
+      19,
+      20,
+      21,
+      22,
+      354,
+      355,
+      356
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "metodo": "Inspeção das páginas renderizadas em painéis de até três páginas, com leitura dos parágrafos alterados no contexto.",
+    "resultado": "Nenhum defeito novo observado nas páginas desta etapa; demais achados permanecem no planejamento."
+  },
+  "link_novo": {
+    "Ciclo-Maldito-Livro-de-Regras.pdf": {
+      "origem": 8,
+      "destino": 67,
+      "confirmado": true
+    },
+    "Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": {
+      "origem": 8,
+      "destino": 67,
+      "confirmado": true
+    }
+  }
+}

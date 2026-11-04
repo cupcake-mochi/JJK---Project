@@ -1,0 +1,28 @@
+{
+  "pdfs": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": "5cda15eda236684942417277808aa9dbff403524862e38db170520e4b8cdd3ad",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf": "838df47f5c9f720063468e3eb3e9c88608b307a389524a5f5bc75e2a9e9579be"
+  },
+  "paginas_inspecionadas_por_paleta": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    62,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422
+  ],
+  "paginas_identicas_fora_sumario_por_paleta": 418,
+  "repositorios_publicados_limpos": [
+    "/home/mizuki/JJK-v0.341-para-subir",
+    "/home/mizuki/JJK---PDF---RPG"
+  ]
+}

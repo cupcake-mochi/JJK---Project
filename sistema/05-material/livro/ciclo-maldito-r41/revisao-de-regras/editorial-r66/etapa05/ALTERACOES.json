@@ -1,0 +1,15 @@
+[
+  {
+    "id": "O06",
+    "bloco": "Sumário e navegação",
+    "antes": "Conteúdo concentrado nas três primeiras páginas; última página com apenas sete entradas e capítulos divididos entre colunas.",
+    "depois": "Quatro páginas redistribuídas em oito colunas. Os 21 capítulos mantêm todas as suas entradas na mesma coluna; cabeçalhos de parte acompanham o primeiro capítulo. A última página reúne 38 entradas.",
+    "motivo": "Equilibrar a distribuição e facilitar a consulta sem mudar nomes, ordem, tipografia ou destinos.",
+    "paginas": [
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+]

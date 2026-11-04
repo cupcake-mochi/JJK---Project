@@ -1,0 +1,79 @@
+Peca lida: 276 linhas. Livro: 135 linhas.
+
+========================================================================================
+1. A ESCADA DE TEMPO — tres degraus, e os pontos crescem
+========================================================================================
+  a escada publicada: 2 · 6 · 10 pontos
+  [x] os tres degraus crescem, e nenhum empata com outro
+
+========================================================================================
+2. AS MELHORIAS — preco, e o mais caro cabe no maior degrau
+========================================================================================
+  16 Melhoria(s), precos de 1 a 4 ponto(s)
+  [x] a mais cara (4) cabe no maior degrau (10)
+  [x] a mais barata (1) cabe no menor degrau (2)
+
+========================================================================================
+3. O VAO — ele tem de SER a Liberacao Maxima, derivada do Fundamento
+========================================================================================
+  do livro: Pontos = 3 x Classe · Teto = 4 x Classe · Liberacao = + Classe
+  [x] o vao e a Liberacao Maxima nas 7 Classes (4x - 3x = 1x)
+
+========================================================================================
+4. METADE DO VAO — o piso de 1 e obrigatorio, e a peca publica a linha
+========================================================================================
+  publicado: [1, 1, 1, 2, 2, 3, 3]
+  derivado (metade da Classe, piso 1): [1, 1, 1, 2, 2, 3, 3]
+  [x] a linha publicada e a metade do vao com piso de 1
+  [x] e o piso morde: sem ele a Classe 1 entregaria 0, e um ritual que da zero nao e ritual
+
+========================================================================================
+5. A DECLARACAO DE RESTRICAO — toda Melhoria diz com quais ela nao entra
+========================================================================================
+  Esta e a checagem que pega erro de OMISSAO. Ela nao julga se a anulacao
+  e real: ela exige que alguem tenha OLHADO. As duas travas de hoje so
+  apareceram quando a passada completa foi obrigatoria.
+
+  18 Restricao(oes) fixas no Catalogo do livro, mais a Restricao Propria —
+  que e customizada e nao se declara antes: o conteudo dela so existe quando alguem escreve
+  [x] as 16 Melhorias declaram — inclusive as que declaram "nenhuma"
+  [x] as 2 trava(s) citadas apontam para Restricao que existe
+      Ritual de Alcance nao entra com `Queima-Roupa`
+      Ritual de Meio Acerto nao entra com `Sem Volta`
+
+========================================================================================
+6. A MATRIZ FORMA x MELHORIA — as seis Formas aparecem
+========================================================================================
+  6 Forma(s) no Fundamento do livro: Projétil, Toque, Explosão, Aura, Cone, Linha
+  [x] a peca nomeia as 6 Formas do Fundamento
+
+========================================================================================
+7. A PECA E O LIVRO — as mesmas Melhorias dos dois lados
+========================================================================================
+  peca: 16 Melhoria(s) · livro: 16
+  [x] as duas listas tem os mesmos nomes — a licao no 9 conferida
+  [x] 7.1: peca 27, a caixa do §7 fecha o ritual para o `Manejo` e a `Kata`
+  [x] 7.1: livro, cap. 46, o Acesso fecha o ritual para o `Manejo` e a `Kata`
+
+  7.2 — a peca 27 e o capitulo de Ritual do R41
+      escada no R41: [2, 6, 10] · na peca: [2, 6, 10]
+  [x] 7.2a: a escada de pontos e' a mesma no R41 e na peca
+      Melhorias no R41: 16 · na peca: 16
+  [x] 7.2b: as 16 Melhorias tem o mesmo nome e o mesmo preco dos dois lados
+      auxiliar no R41: Ação Padrão, 2 ponto(s) · na peca: Ação Padrão, 2 ponto(s)
+  [x] 7.2c: o auxiliar gasta a mesma acao e da os mesmos pontos no R41 e na peca
+      Destreza 6: publicado [90, 85, 80, 75, 70, 65, 60] · pela formula [90, 85, 80, 75, 70, 65, 60]
+      Destreza 3: publicado [75, 70, 65, 60, 55, 50, 45] · pela formula [75, 70, 65, 60, 55, 50, 45]
+      Destreza 0: publicado [60, 55, 50, 45, 40, 35, 30] · pela formula [60, 55, 50, 45, 40, 35, 30]
+  [x] 7.2d: as 21 celulas da tabela de chance saem da formula
+  [x] 7.2d: o exemplo do R41 confere com a formula (Classe 4, Destreza 4, 8 ou mais, 65%)
+  [x] 7.2e: 6 frases das decisoes no R41, 6 da candidata fora dele, 4 regras novas na peca e 3 antigas so riscadas
+
+  7.3 — as Melhorias que repetem, no livro e na peca
+      repetem no livro: 5 de 16 · na peca: 5 de 16
+  [x] 7.3a: as mesmas 5 Melhorias repetem dos dois lados: Acerto, Alcance, Dificuldade, Rerrolagem, Tamanho
+  [x] 7.3b: 4 frases do item 46 no livro, 1 antiga fora dele, 3 na peca e 1 antiga so riscada
+
+========================================================================================
+>>> TUDO OK — a escada cresce, os precos cabem nos degraus, o vao e a
+    Liberacao Maxima, toda Melhoria declara Restricao, e a peca e o livro batem.

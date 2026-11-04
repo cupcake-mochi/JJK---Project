@@ -1,0 +1,93 @@
+[
+  {
+    "id": "R66-01",
+    "bloco": "ab--ab-primeira-sessao",
+    "antes": "Se você está conhecendo o universo, leia **Mundo jujutsu**. Para preencher a ficha, siga **Criar um personagem**, consultando as opções nos capítulos de Origens e Caminhos. O exemplo **Resgate na ala oeste** mostra uma cena resolvida com dados e recursos já anotados.",
+    "depois": "Se você está conhecendo o universo, leia **Mundo jujutsu**. Para preencher a ficha, siga **Criar um personagem**, consultando as opções nos capítulos de Origens e Caminhos. O exemplo [Resgate na ala oeste](#ab--ab-resgate) mostra uma cena resolvida com dados e recursos já anotados.",
+    "motivo": "clareza e navegação"
+  },
+  {
+    "id": "R66-02",
+    "bloco": "ab--ab-mundo",
+    "antes": "A **Classe** é o patamar de montagem e conjuração de um feitiço: define seus pontos, custo e limites. Seu nível determina a maior Classe disponível. Os **espaços conhecidos** são as vagas do repertório onde você registra as aplicações aprendidas; usar uma delas conserva a vaga ocupada e gasta os recursos indicados na ficha. A criação é explicada em [Fundamento](#fundamento--fundamento).",
+    "depois": "A **Classe** é o patamar de montagem e conjuração de um feitiço: define seus pontos, custo e limites. Seu nível determina a maior Classe disponível. Os **espaços conhecidos** são as vagas do repertório ocupadas pelas aplicações aprendidas. Cada aplicação pode ser usada novamente, pagando os recursos indicados na ficha a cada uso. A criação é explicada em [Fundamento](#fundamento--fundamento).",
+    "motivo": "clareza e navegação"
+  },
+  {
+    "id": "R66-03",
+    "bloco": "geral--concentracao",
+    "antes": "Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.** Já **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você, conserva sua concentração por si só. Outras condições só a interrompem quando seu texto disser isso.",
+    "depois": "Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.** Você pode manter a concentração enquanto estiver com **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você. As demais causas de interrupção da concentração continuam valendo. Outras condições só a interrompem quando seu texto disser isso.",
+    "motivo": "clareza e navegação"
+  },
+  {
+    "id": "R66-04",
+    "bloco": "ab--ab-criacao",
+    "antes": "> **Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.",
+    "depois": "> **Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1pgLDZOYpUJrqTcwomaQl8Bjn-AuAcu_Aowd30G7YiJw/edit?gid=543479115#gid=543479115). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.",
+    "motivo": "atualização da ficha digital"
+  },
+  {
+    "id": "R66-05",
+    "bloco": "evocador--ev-combinada",
+    "antes": "**Ação Completa · Uma vez por combate · Participantes a até 18 m.**",
+    "depois": "**Ação Completa · Uma vez por cena · Participantes a até 18 m.**",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-06",
+    "bloco": "evocador--ev-combinada",
+    "antes": "**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade no combate.",
+    "depois": "**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade na cena.",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-07",
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "**Reação de quem executa · Uma vez por combate · Turno de outra criatura · Invocação a até 18 m.**",
+    "depois": "**Reação de quem executa · Uma vez por cena · Turno de outra criatura · Invocação a até 18 m.**",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-08",
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade no combate.",
+    "depois": "A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade na cena.",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-09",
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "depois": "**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por cena pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-10",
+    "bloco": "incursor--inc-ritmo",
+    "antes": "**Uma vez por combate**, pode ativar imediatamente antes de **outra criatura** começar um turno.",
+    "depois": "**Uma vez por cena**, pode ativar imediatamente antes de **outra criatura** começar um turno.",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-11",
+    "bloco": "incursor--inc-brecha",
+    "antes": "**Uma vez por combate**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**",
+    "depois": "**Uma vez por cena**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-12",
+    "bloco": "incursor--inc-perfeita",
+    "antes": "**Uma vez por combate · Fluidez e 12 PE.**",
+    "depois": "**Uma vez por cena · Fluidez e 12 PE.**",
+    "motivo": "frequência aprovada por cena"
+  },
+  {
+    "id": "R66-13",
+    "bloco": "ritual--ritual",
+    "antes": "Você precisa falar, ter **pelo menos uma mão livre** para os gestos e cumprir qualquer exigência adicional de mãos da sua técnica. **Calado impede Ritual.** A Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra, conserva as exigências de voz e gestos do Ritual. Um Selo mais discreto também não esconde a recitação. Atacar sem revelar sua posição exige outra capacidade que expressamente inclua essas circunstâncias.",
+    "depois": "Você precisa falar, ter **pelo menos uma mão livre** para os gestos e cumprir qualquer exigência adicional de mãos da sua técnica. **Calado impede Ritual.** A voz e os gestos do Ritual continuam obrigatórios mesmo com a Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra. Um Selo mais discreto também não esconde a recitação. Atacar sem revelar sua posição exige outra capacidade que expressamente inclua essas circunstâncias.",
+    "motivo": "clareza e navegação"
+  }
+]

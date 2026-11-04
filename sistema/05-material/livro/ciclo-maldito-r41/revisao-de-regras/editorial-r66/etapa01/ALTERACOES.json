@@ -1,0 +1,27 @@
+[
+  {
+    "id": "T02",
+    "antes": "Já **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você, conserva sua concentração por si só.",
+    "depois": "Você pode manter a concentração enquanto estiver com **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você. As demais causas de interrupção da concentração continuam valendo.",
+    "motivo": "Esclarecer que Guarda Aberta permite continuar concentrado, permanecendo sujeito às interrupções normais."
+  },
+  {
+    "id": "T03",
+    "antes": "A Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra, conserva as exigências de voz e gestos do Ritual.",
+    "depois": "A voz e os gestos do Ritual continuam obrigatórios mesmo com a Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra.",
+    "motivo": "Atribuir diretamente ao Ritual as exigências que permanecem com Silencioso."
+  },
+  {
+    "id": "T05",
+    "antes": "O exemplo **Resgate na ala oeste** mostra uma cena resolvida com dados e recursos já anotados.",
+    "depois": "O exemplo [Resgate na ala oeste](#ab--ab-resgate) mostra uma cena resolvida com dados e recursos já anotados.",
+    "motivo": "Permitir acesso direto ao exemplo recomendado na abertura."
+  },
+  {
+    "id": "T04",
+    "antes": "Os **espaços conhecidos** são as vagas do repertório onde você registra as aplicações aprendidas; usar uma delas conserva a vaga ocupada e gasta os recursos indicados na ficha.",
+    "depois": "Os **espaços conhecidos** são as vagas do repertório ocupadas pelas aplicações aprendidas. Cada aplicação pode ser usada novamente, pagando os recursos indicados na ficha a cada uso.",
+    "motivo": "Revalidar a explicação já presente no teste local anterior; não reaplicar uma edição idêntica.",
+    "estado": "preservado da candidata anterior"
+  }
+]

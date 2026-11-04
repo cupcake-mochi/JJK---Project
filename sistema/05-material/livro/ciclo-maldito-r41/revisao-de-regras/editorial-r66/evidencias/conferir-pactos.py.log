@@ -1,0 +1,134 @@
+========================================================================================
+conferir-pactos.py — peca 22, Pactos
+========================================================================================
+  pecas na pasta           : 27
+  linhas da peca 22        : 360
+
+========================================================================================
+1. AS QUATRO FORMAS — declaradas, e cada uma diz se tem teto
+========================================================================================
+  formas lidas do §1       : 4  (tem de ser 4)
+      permanente     teto: metade da Essência
+      temporário     teto: não tem
+      Promessa       teto: não tem
+      de restrição   teto: ocupa uma vaga da metade da Essência, e o mestre pode abrir exceção
+  [x] as 4 formas estao declaradas, e todas dizem se tem teto.
+
+========================================================================================
+2. O TETO POR PACTO — camada / pior caso, e ele NAO esta escrito aqui
+========================================================================================
+  camada, lida da peca 22  : 1.50 fatia
+  teto de atributo, peca 2 : 6  ->  pior caso = 3 pactos
+  pior caso escrito no §3.2: 3
+  teto por pacto escrito   : 0.50
+  teto por pacto derivado  : 0.50
+  [x] o teto de 0.50 e a camada de 1.50 dividida pelos 3 pactos do pior caso.
+
+========================================================================================
+3. QUANTIDADE — a tabela reconstroi `metade da Essencia` na escala inteira
+========================================================================================
+  escala da peca 2         : 0 a 6
+  escrito no §3.1          : 0 0 1 1 2 2 3
+  derivado (metade, baixo) : 0 0 1 1 2 2 3
+  [x] as 7 celulas reconstroem `metade da Essencia`, arredondando para baixo.
+
+========================================================================================
+4. QUEM OCUPA VAGA — as formas que o R41 lista, e o §1 e o §1.1 concordam
+========================================================================================
+  linhas do §1.1 lidas     : 4  (tem de ser 4)
+  R41, contam no limite    : ['permanente', 'de restrição']
+  R41, ficam de fora       : ['temporário', 'Promessa']
+      permanente     ocupa vaga: sim
+      temporário     ocupa vaga: não
+      Promessa       ocupa vaga: não
+      de restrição   ocupa vaga: sim, desde a v0.350, com a exceção do §6
+  [x] ocupam vaga ['permanente', 'de restrição'], e fica de fora ['temporário', 'Promessa'], no R41 e nas duas tabelas.
+
+========================================================================================
+5. DANO POR RODADA — teto x fatia, com a fatia lida do DESENHO-trilhas
+========================================================================================
+  fatia, do DESENHO-trilhas: 5.08
+  0.50 x 5.08 = 2.54   (a peca 22 escreve 2.54)
+  [x] o dano por rodada do teto reconstroi da fatia.
+
+========================================================================================
+6. O GOLPE SIMPLES — o vao da peca 6 §3, e a % que a peca 22 publica
+========================================================================================
+  peca 6 §3, nivel 30      : conjurador 94 · fisico 106
+  o vao (o golpe simples)  : 12   (a peca 22 cita 12)
+  2.54 / 12 = 21%   (a peca 22 escreve 21%)
+  [x] a % de um golpe simples reconstroi do vao da peca 6.
+
+========================================================================================
+7. O CAMBIO DE PE — o que a peca 22 cita e o que a peca 5 §4 publica
+========================================================================================
+  peca 5: 1 PE/rodada      : 5.14 de dano = 1.01 fatia
+  peca 5: +1 no acerto     : 2.13 fatias
+  [x] os tres numeros que a peca 22 importa da peca 5 batem com ela.
+
+========================================================================================
+8. A EXCECAO AO PISO — declarada, e ela nomeia a peca 1 §5.4
+========================================================================================
+  peca 1 ainda tem o piso  : sim
+  peca 22 declara a excecao: sim
+  [x] a excecao esta declarada, aponta para a peca 1 §5.4, e separa o zero escrito do zero arredondado.
+
+========================================================================================
+9. ROLAGEM — a peca 22 nao CONCEDE numero em acerto, Defesa nem pericia
+========================================================================================
+  linhas de beneficio (§3.3): 4
+  [x] 9a: nenhuma das 4 linhas de beneficio nomeia acerto, Defesa ou pericia.
+  o regex de concessao acende 43x na testemunha (piso 5)
+  [x] 9b: toda linha que junta numero aos tres carrega negacao.
+
+========================================================================================
+10. DONO DE CADA BENEFICIO — ou a peca existe, ou a falta esta declarada
+========================================================================================
+      um feitiço             pecas: —        declara falta: sim
+      a energia              pecas: 5        declara falta: nao
+      uma aptidão            pecas: 11       declara falta: nao
+      um Estilo, que é como o Mizuki chama o Manejo pecas: 25       declara falta: nao
+  [x] os 4 beneficios tem dono existente ou falta declarada.
+
+========================================================================================
+11. AS QUATRO TRAVAS — moram na peca 8, e esta peca aponta em vez de copiar
+========================================================================================
+  travas achadas na peca 8 : 4
+      1. Ele é a quarta economia de poder, e por isso nasce com o teto mínimo.
+      2. Ele não entrega saída.
+      3. Ele não pode ser preçado por julgamento.
+      4. E ele não pode repetir o que as outras três já fazem.
+  a peca 22 aponta por numero: 2x
+  [x] as 4 travas ficaram na peca 8, e a peca 22 aponta para elas 2x sem copiar.
+
+========================================================================================
+12. PECA 8 — ela nao diz mais que a quarta forma nao tem regra
+========================================================================================
+  linhas mortas na peca 8  : 0
+  [x] a peca 8 aponta para a peca 22 e nao anuncia mais a quarta forma como sem regra.
+
+========================================================================================
+13. CATALOGO — todo exemplar da obra declara qual das quatro formas ele e
+========================================================================================
+  exemplares lidos do §7.1 : 9  (piso 5)
+  formas usadas no catalogo: ['Promessa', 'permanente', 'temporário']
+  [x] os 9 exemplares usam so as formas que o §1 declara.
+
+========================================================================================
+14. PONTEIRO PENDURADO — todo termo em crase da peca 22 tem destino
+========================================================================================
+  termos em crase na peca  : 28
+      ['Aquecendo', 'Aquecer', 'Catatau', 'Classe 0', 'Couraça', 'DESENHO-trilhas.md', 'Defesa', 'Direcional', 'Domínio Simples', 'ESTADO-ATUAL', 'Estilo da Sombra', 'Executor', 'Fragmentação', 'Golpe do Voto', 'Kata', 'LIVRE', 'Legado', 'Liberação irregular', 'Magnetismo energético', 'Manejo', 'Médio', 'Pacifismo impraticável', 'Promessa', 'Regra Própria', 'Repertório', 'Restrição', 'Sem Técnica', 'Tema']
+  [x] os 28 termos em crase tem destino.
+
+  14.1 — a peca 22 e o capitulo de Pactos do R41
+      vagas no R41  : {0: 0, 1: 0, 2: 1, 3: 1, 4: 2, 5: 2, 6: 3}
+      vagas na peca : {0: 0, 1: 0, 2: 1, 3: 1, 4: 2, 5: 2, 6: 3}
+  [x] 14.1a: as vagas por Essencia sao as mesmas no R41 e na peca.
+  [x] 14.1b: o temporario se fecha com Ação Bônus, Reação, gatilho, no livro e na peca.
+  [x] 14.1c: as 24 frases das decisoes estao no R41, e as 11 da candidata nao voltaram.
+  [x] 14.1d: a peca escreve as 12 regras novas, e as 10 antigas so aparecem riscadas.
+
+========================================================================================
+>>> TUDO OK — as quatro formas estao separadas, o unico teto que existe e
+    derivado dos donos, e nenhum numero desta peca esta escrito no validador.

@@ -8,6 +8,15 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.376] - 04/11/2026
+
+### Alterado
+
+- A R66 conclui seis etapas de revisão. São 422 páginas em cada paleta, 18 apontamentos resolvidos e um ajuste adicional na ficha de Bancada. O fechamento passou em 65 verificações gerais e 13 específicas. O texto das duas paletas é idêntico. Inclui o novo link da ficha digital e o limite por cena aprovado nas cinco habilidades e na explicação da dupla.
+- Registros de texto, composição e validação preservados em editorial-r66. A R65 permanece no histórico.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a R66 validada e a publicação em preparação.
+
 ## [0.375] - 04/11/2026
 
 ### Alterado

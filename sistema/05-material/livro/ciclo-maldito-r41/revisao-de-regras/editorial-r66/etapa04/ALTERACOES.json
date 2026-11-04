@@ -1,0 +1,44 @@
+[
+  {
+    "id": "O01",
+    "bloco": "Origens",
+    "antes": "Aberturas ilustradas recebiam título maior que outras Origens.",
+    "depois": "As sete Origens usam o mesmo nível de título e a mesma faixa vinho.",
+    "motivo": "Tornar a hierarquia consistente."
+  },
+  {
+    "id": "O02",
+    "bloco": "Mundo jujutsu",
+    "antes": "Texto de abertura dividido em duas páginas na R65 publicada.",
+    "depois": "Abertura e conceitos reunidos na página 9 com a imagem lateral proporcional de 80 mm.",
+    "motivo": "Aprovar o teste anterior de composição sem cortar texto."
+  },
+  {
+    "id": "O03",
+    "bloco": "Híbrido",
+    "antes": "Catálogo de menores estendido por três páginas.",
+    "depois": "Catálogo em duas páginas, capacidades curtas reunidas e tabela inteira de Armamento Orgânico em largura total. Seus esclarecimentos continuam no alto da página seguinte com identificação.",
+    "motivo": "Reduzir branco preservando a legibilidade da tabela e a sequência das regras."
+  },
+  {
+    "id": "O04",
+    "bloco": "Vanguarda / Sequência de Condução",
+    "antes": "Introdução da Sequência separada de suas etapas.",
+    "depois": "Apresentação e Golpe Inicial com tabela de custos na mesma coluna; Conduzir e seu exemplo juntos na seguinte.",
+    "motivo": "Facilitar acompanhar o procedimento. A reorganização reduz uma página de Caminhos e Trilhas."
+  },
+  {
+    "id": "O05",
+    "bloco": "Rotas de criação / Sem Técnica",
+    "antes": "Imagem e texto lateral deixavam uma coluna isolada.",
+    "depois": "Introdução ao lado da imagem; procedimento de Criação completo abaixo, em largura total.",
+    "motivo": "Dar sequência de leitura clara aos cinco passos."
+  },
+  {
+    "id": "ADICIONAL-FICHA",
+    "bloco": "Ficha digital",
+    "antes": "https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004",
+    "depois": "https://docs.google.com/spreadsheets/d/1pgLDZOYpUJrqTcwomaQl8Bjn-AuAcu_Aowd30G7YiJw/edit?gid=543479115#gid=543479115",
+    "motivo": "Link enviado pelo autor ao final da etapa 4. Apenas destino do hiperlink alterado."
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "resultado": "aprovado",
+  "verificacoes": [
+    {
+      "verificacao": "Texto-fonte idêntico ao da etapa 2.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "progressao--prog-tabela-inicial: tabela completa em uma única página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "progressao--prog-tabela-avancada: tabela completa em uma única página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "fundamento--passagem: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "rotas--rota-sutura: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "rotas--rota-espinho: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Introdução e quatro condições na mesma coluna.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Manobra: declaração, TR e resultados juntos.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Exemplo de terreno e esquema na mesma página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Contorno dos marcadores com contraste acima de 3:1.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65 publicada preservada.",
+      "aprovado": true
+    }
+  ],
+  "contraste_contorno": {
+    "#342A30": 3.54,
+    "#261F23": 4.13
+  },
+  "paginas": 424,
+  "paginas_com_nova_geometria_ou_texto": [
+    3,
+    12,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    251,
+    282,
+    283,
+    284,
+    333,
+    334,
+    418,
+    419,
+    420,
+    421,
+    422
+  ],
+  "paginas_para_inspecao": [
+    11,
+    12,
+    13,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    250,
+    251,
+    252,
+    281,
+    282,
+    283,
+    284,
+    285,
+    332,
+    333,
+    334,
+    335
+  ],
+  "pagina_por_bloco": {
+    "geral--defesa": [
+      23,
+      24,
+      25
+    ],
+    "geral--manobras": [
+      26,
+      27
+    ],
+    "geral--movimento": [
+      28,
+      29
+    ],
+    "progressao--prog-tabela-inicial": [
+      240
+    ],
+    "progressao--prog-tabela-avancada": [
+      241
+    ],
+    "fundamento--passagem": [
+      282,
+      283
+    ],
+    "rotas--rota-sutura": [
+      334
+    ]
+  }
+}

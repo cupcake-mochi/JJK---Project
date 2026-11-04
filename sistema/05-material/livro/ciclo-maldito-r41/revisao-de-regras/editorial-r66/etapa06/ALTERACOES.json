@@ -1,0 +1,16 @@
+[
+  {
+    "id": "D07",
+    "bloco": "rotas--rota-bancada",
+    "etapa": 6,
+    "tipo": "Diagramação",
+    "estado": "resolvido",
+    "paginas": [
+      327,
+      328
+    ],
+    "antes": "Ficha curta de Bancada dividida entre o fim da coluna esquerda e o início da direita.",
+    "depois": "Título, apresentação e ficha inteira reunidos na coluna direita da página 327. O restante segue em ordem na página 328.",
+    "motivo": "Permitir consulta contínua à ficha, preservando palavras, valores e tamanho de letra."
+  }
+]

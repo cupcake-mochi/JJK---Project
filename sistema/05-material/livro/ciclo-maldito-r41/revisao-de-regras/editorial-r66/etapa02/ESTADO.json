@@ -1,0 +1,49 @@
+{
+  "etapa": 2,
+  "estado": "concluída e validada",
+  "apontamentos": [
+    "T01"
+  ],
+  "decisao": "Uma vez por cena nas cinco habilidades, com recuperação pela regra existente de Cena e usos de habilidades.",
+  "ocorrencias_alteradas": 8,
+  "habilidades": 5,
+  "paginas": 424,
+  "validacoes_automaticas": 65,
+  "revisao_textual": "Leitura completa dos blocos alterados, busca de instruções relacionadas e comparação de escopo. Custos, gatilhos, alcances, níveis e demais limites preservados.",
+  "revisao_visual": {
+    "paginas_por_paleta": [
+      59,
+      60,
+      61,
+      157,
+      158,
+      159,
+      165,
+      166,
+      167,
+      168,
+      175,
+      176,
+      177,
+      180,
+      181,
+      182,
+      190,
+      191,
+      192
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "metodo": "Inspeção de todas as 19 páginas selecionadas por paleta, em painéis de até três páginas e página final individual. Leitura das habilidades alteradas no contexto.",
+    "resultado": "Sem novos defeitos observados nesta etapa; os espaços e agrupamentos já apontados no planejamento continuam para as etapas seguintes."
+  },
+  "pdfs": [
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa02/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa02/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf"
+  ],
+  "base_R65_preservada": true,
+  "proxima_etapa": "3: unidades de consulta e diagramas (D01 a D06 e O07).",
+  "publicacao": "Sem commit, push ou publicação; R65 intacta."
+}

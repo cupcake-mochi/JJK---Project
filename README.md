@@ -2,12 +2,12 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.375** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.376** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R65, livro completo com 425 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os hashes dos PDFs ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R66, livro completo com 422 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os hashes dos PDFs ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 
@@ -41,6 +41,8 @@ As imagens de conferência e os antigos pacotes de transferência permanecem no 
 A R64 troca “registre” e “conforme” por instruções mais diretas, incluindo dois títulos de Fundamento. São 293 trocas aprovadas, com o mesmo conteúdo de regra. O antes e depois está em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`.
 
 A R65 simplifica a redação de Caminhos e Trilhas. São 181 trocas em 96 blocos, com os rótulos de Requisito preservados. O antes e depois fica em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/`.
+
+A R66 reúne a revisão de clareza e diagramação em seis etapas. Os 18 apontamentos e a ficha de Bancada foram resolvidos; os PDFs passam a 422 páginas. A frequência das cinco habilidades foi padronizada por cena, conforme aprovação do autor, e o link da ficha digital foi atualizado. Registros em sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/.
 
 ---
 

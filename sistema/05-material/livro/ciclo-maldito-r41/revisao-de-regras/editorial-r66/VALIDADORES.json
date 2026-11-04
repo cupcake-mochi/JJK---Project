@@ -1,0 +1,127 @@
+[
+  {
+    "validador": "conferir-acao.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-alma.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-aptidoes.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-atributos.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-bestiario.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-bloquear.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-catalogo.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-criacao.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-dano.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-descanso.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-equipamento.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-expansao.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-ferramenta.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-ficha.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-fundamento.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-invocacoes.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-legados.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-manual.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-marcial.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-nomes.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-objeto.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-orcamento.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-pactos.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-pericias.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-progressao.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-ritual.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-sem-tecnica.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "conferir-xp.py",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "repositorio",
+    "codigo_saida": 0,
+    "reexecucao": "Após incluir a linha de continuidade obrigatória no CHANGELOG."
+  },
+  {
+    "validador": "integridade-atual",
+    "codigo_saida": 0
+  },
+  {
+    "validador": "integridade-base",
+    "codigo_saida": 0
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "etapa": 5,
+  "titulo": "Sumário e navegação",
+  "resultado": "concluída e validada",
+  "apontamentos": [
+    "O06"
+  ],
+  "paginas": 422,
+  "paginas_antes": 422,
+  "validacoes_automaticas": 65,
+  "verificacoes_especificas": 18,
+  "verificacoes_etapa_anterior": 12,
+  "revisao_textual": "Fonte integral idêntica à etapa 4. Todas as 200 entradas do sumário preservam nomes, níveis, ordem e destinos. Nenhuma regra ou frase alterada.",
+  "revisao_visual": {
+    "paginas_por_paleta": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      62,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "metodo": "Inspeção de 15 páginas por paleta em painéis de até três páginas. Comparação automatizada de raster a 72 dpi confirma identidade das 418 páginas fora do sumário com a etapa 4.",
+    "resultado": "Sumário legível, hierarquia consistente, capítulos completos nas colunas e navegação sem problemas detectados.",
+    "ressalvas": [
+      "A última coluna do sumário permanece mais curta para preservar os capítulos completos.",
+      "Revisão integral final do livro permanece prevista na etapa 6."
+    ]
+  },
+  "navegacao": {
+    "claro": {
+      "entradas_sumario_verificadas": 200,
+      "problemas": [],
+      "marcadores": 207,
+      "paginas_diferentes_fora_sumario": []
+    },
+    "noturno": {
+      "entradas_sumario_verificadas": 200,
+      "problemas": [],
+      "marcadores": 207,
+      "paginas_diferentes_fora_sumario": []
+    }
+  },
+  "pdfs": [
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf"
+  ],
+  "hashes_pdf": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": "5cda15eda236684942417277808aa9dbff403524862e38db170520e4b8cdd3ad",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa05/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf": "838df47f5c9f720063468e3eb3e9c88608b307a389524a5f5bc75e2a9e9579be"
+  },
+  "link_ficha_preservado": true,
+  "base_R65_preservada": true,
+  "publicacao": "Sem commit, push ou publicação. Os dois repositórios publicados continuam limpos.",
+  "proxima_etapa": "6: revisão integral final dos 18 apontamentos, clareza e diagramação nas duas versões."
+}

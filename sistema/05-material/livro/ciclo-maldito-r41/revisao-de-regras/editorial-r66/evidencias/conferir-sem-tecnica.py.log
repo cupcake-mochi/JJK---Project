@@ -1,0 +1,96 @@
+Peca 25 lida: 346 linhas.
+
+========================================================================================
+1. O ORCAMENTO E O `PE` DO CAMINHO — a peca nao inventa moeda
+========================================================================================
+  PE por nivel, lido da peca 6 §5: 4 · 5 · 5 · 6 · 6 · 6
+  [x] a peca 25 cita a faixa do dono, e nao um numero proprio.
+
+========================================================================================
+2. A MAQUINA NAO TEM NUMERO PROPRIO — ela e o Fundamento inteiro
+========================================================================================
+  [x] a §3 cita os tres numeros herdados: 3 × Classe · 1d8 · 2 + (nível ÷ 2)
+  [x] e ela declara, com todas as letras, que nao ha numero novo.
+
+========================================================================================
+3. OS DOIS RENOMES, E O ORIGINAL SUMIU DESTA ROTA
+========================================================================================
+  [x] `feitiço` -> `Manejo`
+  [x] `Técnica Máxima` -> `Auge`
+  [x] e nenhum dos dois vive fora da tabela que declara a troca.
+
+========================================================================================
+4. A `Liberacao Maxima` NAO RENOMEIA, E O MOTIVO ESTA ESCRITO
+========================================================================================
+  a peca 20 §3.1 renomeia: 3 coisa(s)
+  [x] ela declara que a `Liberacao Maxima` fica, e escreve por que a
+      razao da peca 20 nao alcanca esta rota.
+
+========================================================================================
+5. A BANDA DA SEMENTE E DERIVADA DA ESCADA DE GATE — nao e teto escolhido
+========================================================================================
+  marcos, lidos da peca 11 §3: 6 · 10 · 14 · 18 · 22 · 26 · 30
+  Categoria de Efeito 1: abre em 6/6/6 -> antecipa 4.0 niveis na media
+  Categoria de Efeito 2: abre em 10/10/14 -> antecipa 9.3 niveis na media
+  Categoria de Efeito 3: abre em 14/18/26 -> antecipa 17.3 niveis na media
+
+  banda `CE 2` e `3`: 9.3 a 17.3  -> espalhamento 1.86x
+  com a `CE 1` junto:  4.0 a 17.3  -> espalhamento 4.33x
+  [x] a banda passa em 1.86x e a `CE 1` reprova em 4.33x — o corte e derivado, e nao escolhido.
+
+========================================================================================
+6. AS SEMENTES NOMEADAS CAEM NA BANDA
+========================================================================================
+  [x] `Domínio Simples` — Categoria de Efeito 2, dentro da banda
+  [x] `Energia Reversa` — Categoria de Efeito 3, dentro da banda
+  [x] `Pétala` — Categoria de Efeito 2, dentro da banda
+  3 semente(s) nomeada(s).
+
+========================================================================================
+7. A `Aptidao Propria` CONTINUA TRAVADA EM `CE 1 ou 2`
+========================================================================================
+  [x] a trava vive na peca 11 §6.7, e a peca 25 aponta para ela.
+
+========================================================================================
+8. A SEMENTE NAO GASTA MARCO — a contagem da rota pura nao se move
+========================================================================================
+  a rota pura de Refino precisa de 10 aptidoes, pela peca 11 §3
+  [x] a semente nao cobra marco, entao os 10 continuam saindo dos sete marcos.
+
+========================================================================================
+9. O BUFF DE CURA E `1/3 DO REFINO`, E O DIVISOR TEM DONO
+========================================================================================
+  o `Pulso` (nivel 19 da `Sutura`) vale 0.59 fatia
+  o buff no refino 10 (+4) vale 0.39 fatia -> 0.67x
+  [x] ele fica abaixo da entrega de Trilha que espelha ele.
+
+========================================================================================
+10. CURAR OS OUTROS CONTINUA SENDO DA `Sutura`, NO NIVEL 11 DELA
+========================================================================================
+  o `Enxerto`, nivel 11 da `Sutura`, e quem entrega curar os outros
+  [x] a peca 25 mantem ela fora da criacao, e diz por que.
+
+========================================================================================
+11. A EXPANSAO DE DOMINIO NAO E ALCANCAVEL POR ESTA ROTA
+========================================================================================
+  [x] a §3.2 nega a Expansao, e escreve o motivo do lado.
+
+========================================================================================
+12. TRIAGEM DE TODO NOME QUE A PECA CRIA
+========================================================================================
+  nomes que esta peca cria, lidos dela: Auge, Espinho, Manejo, Redoma
+  [x] `Auge` sai LIVRE
+  [x] `Espinho` sai LIVRE
+  [x] `Manejo` sai LIVRE
+  [x] `Redoma` sai LIVRE
+
+========================================================================================
+13. O RENOME TAMBEM VALE NO LIVRO — a peca so olhava para si mesma
+========================================================================================
+  [x] `feitiço` so aparece no livro dentro da frase da troca
+  [x] `Técnica Máxima` so aparece no livro dentro da frase da troca
+  [x] a troca vale no livro inteiro, e o `Manejo` vale como feitico dos dois lados da mesa
+
+========================================================================================
+>>> TUDO OK — a rota herda o orcamento e a maquina, a banda da semente e
+    derivada da escada de gate, e nenhum numero de regra mora nesta peca.

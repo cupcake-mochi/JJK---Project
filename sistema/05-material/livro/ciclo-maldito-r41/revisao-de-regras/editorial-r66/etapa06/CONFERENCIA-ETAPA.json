@@ -1,0 +1,324 @@
+{
+  "verificacoes": [
+    {
+      "verificacao": "Texto integral idêntico à etapa 5.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Todos os destinos e marcadores preservados.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha de Bancada inteira em uma tabela.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "422 páginas preservadas: claro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Mudança visual limitada a Bancada e à página seguinte: claro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Marcadores completos: claro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha atualizada na página 62: claro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "200 entradas do sumário corretas: claro",
+      "aprovado": true
+    },
+    {
+      "verificacao": "422 páginas preservadas: noturno",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Mudança visual limitada a Bancada e à página seguinte: noturno",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Marcadores completos: noturno",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha atualizada na página 62: noturno",
+      "aprovado": true
+    },
+    {
+      "verificacao": "200 entradas do sumário corretas: noturno",
+      "aprovado": true
+    }
+  ],
+  "comparacao": {
+    "claro": {
+      "paginas_alteradas": [
+        327,
+        328
+      ],
+      "paginas_identicas": 420
+    },
+    "noturno": {
+      "paginas_alteradas": [
+        327,
+        328
+      ],
+      "paginas_identicas": 420
+    }
+  },
+  "bancada": [
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "h1",
+      "papel": "exemplo completo",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 744.693,
+      "largura": 233.858,
+      "altura": 24,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "Exemplo: Bancada"
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 659.493,
+      "largura": 233.858,
+      "altura": 79.2,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "**Exemplo de Técnica Marcial pela rota de ferramenta, no nível 2.** Nao utiliza uma armadura de engenharia para distribuir suportes e amortecer impactos. Seu funcionamento combina mecanismos físicos com as propriedades amaldiçoadas do equipamento."
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "table",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 428.493,
+      "largura": 233.858,
+      "altura": 223.0,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": [
+        [
+          "Campo",
+          "Escolha"
+        ],
+        [
+          "Descrição",
+          "A armadura projeta placas articuladas que sustentam e protegem pessoas próximas."
+        ],
+        [
+          "Regra",
+          "As placas sustentam corpos e repartem os impactos recebidos."
+        ],
+        [
+          "Famílias Livres",
+          "Auxiliares e Amparo."
+        ],
+        [
+          "Famílias Fechadas",
+          "Área, Marca e Castigo."
+        ],
+        [
+          "Ferramenta e Selo",
+          "Armadura de grau 4, vestida e em funcionamento."
+        ],
+        [
+          "Atributo",
+          "Inteligência."
+        ],
+        [
+          "Tipo de dano",
+          "Concussão, nas aplicações ofensivas."
+        ]
+      ]
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 353.493,
+      "largura": 233.858,
+      "altura": 66.0,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "A armadura usa os números de um Revestimento escolhido em Equipamento. Os golpes desarmados passam por ela e podem ferir maldições. Isso não acrescenta um dado de arma às Katas nem uma segunda proteção à ficha."
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "h2",
+      "papel": "subtópico",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 324.493,
+      "largura": 233.858,
+      "altura": 20,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "Placas de apoio"
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 266.693,
+      "largura": 233.858,
+      "altura": 52.8,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "Nao escolhe vida temporária como função e monta **Projétil + Guarda**, de Classe 1. A base Leve custa 1 ponto, Projétil custa 0 e Guarda custa 1. Sem Restrições, restam **3 − 1 − 1 = 1 ponto**."
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 183.493,
+      "largura": 233.858,
+      "altura": 79.2,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "**Ficha:** Ação Padrão, 3 PE, um aliado disposto a até 9 m, incluindo Nao. O alvo recebe **3 pontos de vida temporária** e **+2 na Defesa até o fim do próximo turno dele**. O efeito é automático. A vida temporária segue seus limites e duração próprios, em Dano e Recuperação."
+    },
+    {
+      "pagina": 327,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 307.559,
+      "y": 139.893,
+      "largura": 233.858,
+      "altura": 39.6,
+      "modo": "duas-colunas",
+      "faixa": "327-0",
+      "gerado": false,
+      "texto": "Essa aplicação protege sem causar dano ao beneficiário. A ficha separa o prazo de Guarda da duração da vida temporária."
+    },
+    {
+      "pagina": 328,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "small",
+      "papel": null,
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": null,
+      "x": 53.858,
+      "y": 764.693,
+      "largura": 233.858,
+      "altura": 12,
+      "modo": "contexto",
+      "faixa": "328-0",
+      "gerado": true,
+      "texto": "Exemplo: Bancada"
+    },
+    {
+      "pagina": 328,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "h2",
+      "papel": "subtópico",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 53.858,
+      "y": 733.693,
+      "largura": 233.858,
+      "altura": 20,
+      "modo": "duas-colunas",
+      "faixa": "328-0",
+      "gerado": false,
+      "texto": "Outras aplicações"
+    },
+    {
+      "pagina": 328,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 53.858,
+      "y": 649.493,
+      "largura": 233.858,
+      "altura": 79.2,
+      "modo": "duas-colunas",
+      "faixa": "328-0",
+      "gerado": false,
+      "texto": "As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Escolher a função de cura conserva os corpos e materiais que a Regra permite tratar."
+    },
+    {
+      "pagina": 328,
+      "capitulo": 13,
+      "bloco": "rotas--rota-bancada",
+      "tipo": "body",
+      "papel": "texto",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Exemplo: Bancada",
+      "x": 53.858,
+      "y": 579.493,
+      "largura": 233.858,
+      "altura": 66.0,
+      "modo": "duas-colunas",
+      "faixa": "328-0",
+      "gerado": false,
+      "texto": "Placas de apoio ocupa um dos três espaços de Nao. O [Talento Leitura](#catalogo--cat-passivas-1), que identifica Classe e Forma das conjurações próximas, pode ocupar outro se for compatível com os sensores da armadura. O último permanece disponível para uma Kata."
+    }
+  ],
+  "resultado": "aprovado"
+}

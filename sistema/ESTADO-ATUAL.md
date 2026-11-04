@@ -1,6 +1,14 @@
-# Edição corrente R65
+# Edição corrente R66
 
-**Versão v0.375.**
+**Versão v0.376.**
+
+A R66 conclui seis etapas de revisão. São 422 páginas em cada paleta, 18 apontamentos resolvidos e um ajuste adicional na ficha de Bancada. O fechamento passou em 65 verificações gerais e 13 específicas. O texto das duas paletas é idêntico. Inclui o novo link da ficha digital e o limite por cena aprovado nas cinco habilidades e na explicação da dupla.
+
+Fonte, registros e validações em 05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/. A cadeia de integridade cobre R52 a R66. Publicação em preparação.
+
+# Edição anterior R65
+
+*Versão v0.375.*
 
 A R65 revisa Caminhos e Trilhas, com 181 trocas em 96 blocos. Os dez rótulos de Requisito e o título Requisitos da aplicação foram preservados. O exemplo de Cobrir o Parceiro passou a usar o título Reações na cobertura.
 

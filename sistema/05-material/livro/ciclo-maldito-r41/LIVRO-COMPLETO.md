@@ -54,7 +54,7 @@ A **patente** representa seu reconhecimento no meio jujutsu. A patente inicial p
 
 #### Seu começo
 
-Se você está conhecendo o universo, leia **Mundo jujutsu**. Para preencher a ficha, siga **Criar um personagem**, consultando as opções nos capítulos de Origens e Caminhos. O exemplo **Resgate na ala oeste** mostra uma cena resolvida com dados e recursos já anotados.
+Se você está conhecendo o universo, leia **Mundo jujutsu**. Para preencher a ficha, siga **Criar um personagem**, consultando as opções nos capítulos de Origens e Caminhos. O exemplo [Resgate na ala oeste](#ab--ab-resgate) mostra uma cena resolvida com dados e recursos já anotados.
 
 Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens. As regras para montar uma técnica ficam no Fundamento. Você pode aprender suas próprias escolhas primeiro e consultar os demais catálogos quando precisar deles.
 
@@ -76,7 +76,7 @@ A **energia amaldiçoada** permite enfrentar essas ameaças. Feiticeiros aprende
 
 No jogo, o **Fundamento** registra o funcionamento e os limites da sua técnica. Cada aplicação preparada se chama **feitiço** e tem uma ficha com seus efeitos e custos. Os **Pontos de Energia (PE)** são os pontos que você gasta para usar capacidades que cobram energia.
 
-A **Classe** é o patamar de montagem e conjuração de um feitiço: define seus pontos, custo e limites. Seu nível determina a maior Classe disponível. Os **espaços conhecidos** são as vagas do repertório onde você registra as aplicações aprendidas; usar uma delas conserva a vaga ocupada e gasta os recursos indicados na ficha. A criação é explicada em [Fundamento](#fundamento--fundamento).
+A **Classe** é o patamar de montagem e conjuração de um feitiço: define seus pontos, custo e limites. Seu nível determina a maior Classe disponível. Os **espaços conhecidos** são as vagas do repertório ocupadas pelas aplicações aprendidas. Cada aplicação pode ser usada novamente, pagando os recursos indicados na ficha a cada uso. A criação é explicada em [Fundamento](#fundamento--fundamento).
 
 #### Ver e perceber
 
@@ -457,7 +457,7 @@ Quando sofrer dano enquanto concentra, faça **TR de Vigor contra a CD de quem c
 
 Resolva **um teste por golpe ou aplicação de dano**. Um mesmo golpe com dois tipos de dano continua sendo uma aplicação; dois golpes exigem dois testes. Se as defesas reduzirem o dano a zero, não há teste. Dano absorvido pela **vida temporária**, pontos separados que absorvem dano antes da vida comum, ainda conta, pois atingiu sua proteção. Consulte [Vida e energia temporárias](#dano--temporarios).
 
-Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.** Já **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você, conserva sua concentração por si só. Outras condições só a interrompem quando seu texto disser isso.
+Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Ficar [Inconsciente](#dano--inconsciente), isto é, perder a consciência, encerra a concentração.** Você pode manter a concentração enquanto estiver com **[Guarda Aberta](#dano--leves)**, condição que impede Bloquear e torna críticos certos golpes corpo a corpo que acertam você. As demais causas de interrupção da concentração continuam valendo. Outras condições só a interrompem quando seu texto disser isso.
 
 **Exemplo.** Kaito mantém um efeito e recebe dois golpes de uma criatura com CD 14. Faz um TR após cada golpe enquanto o efeito continuar ativo. Se falhar no primeiro, ele já terminou e não há concentração para testar no segundo.
 
@@ -1972,7 +1972,7 @@ Consequências permanentes continuam registradas. A recuperação de vida e Inte
 <a id="ab--ab-criacao"></a>
 Comece com uma ideia que você gostaria de interpretar: alguém que herdou uma obrigação familiar, sobreviveu a um encontro com uma maldição ou aprendeu a lutar para proteger outra pessoa. Escolha um nome e pense no motivo para trabalhar com o grupo. Os detalhes podem crescer durante as sessões.
 
-> **Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.
+> **Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1pgLDZOYpUJrqTcwomaQl8Bjn-AuAcu_Aowd30G7YiJw/edit?gid=543479115#gid=543479115). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.
 
 Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em outro nível, faça as escolhas iniciais e aplique os ganhos correspondentes em Progressão.
 
@@ -5637,7 +5637,7 @@ Sua invocação erra uma especial, e você não tem Pontos de Vínculo. Gaste um
 
 **Nível 30.**
 
-**Ação Completa · Uma vez por combate · Participantes a até 18 m.**
+**Ação Completa · Uma vez por cena · Participantes a até 18 m.**
 
 Escolha a invocação beneficiada por seu aprimoramento principal e uma destas combinações:
 
@@ -5650,7 +5650,7 @@ Todas as participantes precisam estar ativas, ser percebidas por você a até 18
 
 **Declare a combinação.** Escolha as participantes, as especiais e sua ordem. Use especiais imediatas que, separadamente, seriam comandadas com sua Padrão e a básica da entidade.
 
-**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade no combate.
+**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade na cena.
 
 **Resolva em sequência.** Pague os PE da primeira especial e resolva-a completamente. Depois das respostas que ela provocar, a segunda começa imediatamente: escolha seus alvos, confira o que ela exige e pague os PE e demais custos dela. Cada capacidade segue seu próprio alcance e suas propriedades.
 
@@ -6064,7 +6064,7 @@ A continuação usa o mesmo benefício ofensivo compartilhado de Acompanhar a Es
 
 *Quando um de vocês recebe o golpe, o outro responde com uma aplicação da própria técnica.*
 
-**Reação de quem executa · Uma vez por combate · Turno de outra criatura · Invocação a até 18 m.**
+**Reação de quem executa · Uma vez por cena · Turno de outra criatura · Invocação a até 18 m.**
 
 Depois de resolver um ataque inimigo que acertou você ou a invocação beneficiada por seu aprimoramento principal, o outro participante pode executar uma resposta técnica contra o agressor.
 
@@ -6077,7 +6077,7 @@ Você precisa estar consciente. Ambos precisam perceber o agressor. A invocaçã
 
 Escolha uma capacidade conhecida que possa afetar o agressor. Confira a Classe de fato utilizada, inclusive após Ampliar, e use a posição de quem executa para conferir as exigências e o alcance.
 
-A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade no combate.
+A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade na cena.
 
 Resolva a capacidade normalmente. Mantenha os usos já marcados dos Aprimoramentos e das Intervenções de Vínculo.
 
@@ -6087,7 +6087,7 @@ Resolva a capacidade normalmente. Mantenha os usos já marcados dos Aprimorament
 
 **A invocação foi atingida.** No nível 27, sua maior Classe é 7: você pode responder com um feitiço de até **Classe 4**, usando sua Reação pessoal. Essa resposta pessoal pode ser usada mesmo com a coletiva indisponível.
 
-**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.
+**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por cena pertence ao conjunto, mesmo que a beneficiária seja substituída.
 
 <!-- fonte:caminhos/evocador/lote-01/EVOCADOR.md#ev-multiplas -->
 <a id="evocador--ev-multiplas"></a>
@@ -6528,7 +6528,7 @@ Passa a poder percorrer paredes e atravessar espaços de criaturas até o limite
 
 **Nível 30.**
 
-**Uma vez por combate**, pode ativar imediatamente antes de **outra criatura** começar um turno.
+**Uma vez por cena**, pode ativar imediatamente antes de **outra criatura** começar um turno.
 
 Ao ativar, antecipa seu turno e o realiza imediatamente. Não pode usar se seu turno já ocorreu naquela rodada.
 
@@ -6732,7 +6732,7 @@ O ataque segue as regras normais de obtenção de Fluidez: um acerto fora do seu
 
 **Nível 27.**
 
-**Uma vez por combate**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**
+**Uma vez por cena**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**
 
 O acerto se torna um **crítico**. Resolva o dano seguindo as regras de crítico de Golpe Cirúrgico.
 
@@ -7117,7 +7117,7 @@ O limite passa a ser **uma recuperação entre o começo de um turno seu e o com
 
 **Nível 27.**
 
-**Uma vez por combate · Fluidez e 12 PE.**
+**Uma vez por cena · Fluidez e 12 PE.**
 
 Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão com Longo Alcance de arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
 
@@ -13323,7 +13323,7 @@ Um Ritual reforça um feitiço com gestos e recitação. Você escolhe quanto te
 
 Escolha um feitiço de **Classe 1 ou maior**, a modalidade de Ritual e as **Melhorias de Ritual**, benefícios comprados com os pontos concedidos pela modalidade, antes de fazer qualquer rolagem. Confira se consegue cumprir todos os gestos, recitar e pagar o custo normal. Cada conjuração recebe apenas um Ritual.
 
-Você precisa falar, ter **pelo menos uma mão livre** para os gestos e cumprir qualquer exigência adicional de mãos da sua técnica. **Calado impede Ritual.** A Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra, conserva as exigências de voz e gestos do Ritual. Um Selo mais discreto também não esconde a recitação. Atacar sem revelar sua posição exige outra capacidade que expressamente inclua essas circunstâncias.
+Você precisa falar, ter **pelo menos uma mão livre** para os gestos e cumprir qualquer exigência adicional de mãos da sua técnica. **Calado impede Ritual.** A voz e os gestos do Ritual continuam obrigatórios mesmo com a Melhoria [Silencioso](#catalogo--melhoria-silencioso), que permite conjurar sem gesto ou palavra. Um Selo mais discreto também não esconde a recitação. Atacar sem revelar sua posição exige outra capacidade que expressamente inclua essas circunstâncias.
 
 | Modalidade | Tempo dedicado | Pontos de Ritual |
 |---|---|---:|

@@ -1,0 +1,123 @@
+{
+  "claro": {
+    "paginas": 424,
+    "paginas_com_diferenca_de_texto_geometria_ou_link": [
+      158,
+      166,
+      167,
+      176,
+      181,
+      191
+    ]
+  },
+  "noturno": {
+    "paginas": 424,
+    "paginas_com_diferenca_de_texto_geometria_ou_link": [
+      158,
+      166,
+      167,
+      176,
+      181,
+      191
+    ]
+  },
+  "paginas_para_inspecao": [
+    59,
+    60,
+    61,
+    157,
+    158,
+    159,
+    165,
+    166,
+    167,
+    168,
+    175,
+    176,
+    177,
+    180,
+    181,
+    182,
+    190,
+    191,
+    192
+  ],
+  "ancoras": {
+    "dano--usos": {
+      "pagina": 60,
+      "x": 53.85826771653544,
+      "y": 505.69291338582684
+    },
+    "evocador--ev-combinada": {
+      "pagina": 158,
+      "x": 307.5590551181103,
+      "y": 753.6929133858268
+    },
+    "evocador--ev-parceria-resposta": {
+      "pagina": 166,
+      "x": 307.5590551181103,
+      "y": 582.1929133858268
+    },
+    "incursor--inc-ritmo": {
+      "pagina": 176,
+      "x": 307.5590551181103,
+      "y": 753.6929133858268
+    },
+    "incursor--inc-brecha": {
+      "pagina": 181,
+      "x": 53.85826771653544,
+      "y": 753.6929133858268
+    },
+    "incursor--inc-perfeita": {
+      "pagina": 191,
+      "x": 307.5590551181103,
+      "y": 314.0929133858268
+    }
+  },
+  "base_R65_preservada": true,
+  "revisao_visual": {
+    "paginas_por_paleta": [
+      59,
+      60,
+      61,
+      157,
+      158,
+      159,
+      165,
+      166,
+      167,
+      168,
+      175,
+      176,
+      177,
+      180,
+      181,
+      182,
+      190,
+      191,
+      192
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "metodo": "Inspeção de todas as 19 páginas selecionadas por paleta, em painéis de até três páginas e página final individual. Leitura das habilidades alteradas no contexto.",
+    "resultado": "Sem novos defeitos observados nesta etapa; os espaços e agrupamentos já apontados no planejamento continuam para as etapas seguintes."
+  },
+  "verificacao_frequencia_no_pdf": {
+    "Ciclo-Maldito-Livro-de-Regras.pdf": {
+      "sem_frequencia_antiga": true,
+      "cinco_habilidades_por_cena": true,
+      "instrucoes_de_marcar_uso_coerentes": true,
+      "paginas": 424,
+      "sha256": "c8015ac00149943ab5c64dd940b5f6ee999df48879879350185847e0452a7791"
+    },
+    "Ciclo-Maldito-Livro-de-Regras-Noturno.pdf": {
+      "sem_frequencia_antiga": true,
+      "cinco_habilidades_por_cena": true,
+      "instrucoes_de_marcar_uso_coerentes": true,
+      "paginas": 424,
+      "sha256": "a74348bc9a8dfbd119a30391b6d49a75e12c70ae38933ee955e3e0ec4bc83242"
+    }
+  }
+}

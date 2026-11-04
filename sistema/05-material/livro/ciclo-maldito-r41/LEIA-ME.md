@@ -1,10 +1,10 @@
-# Fonte corrente R65
+# Fonte corrente R66
 
-LIVRO-COMPLETO.md é a edição R65 de 425 páginas usada pelos validadores. Ela simplifica “conceder”, “conservar” e “requisito” em Caminhos e Trilhas.
+LIVRO-COMPLETO.md é a edição R66 de 422 páginas usada pelos validadores. Reúne a revisão de clareza, diagramação, navegação e frequência por cena aprovada pelo autor.
 
-O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r65/. O antes e depois está em revisao-de-regras/alteracoes/R64-para-R65.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+O snapshot e a impressão digital ficam em revisao-de-regras/editorial-r66/. O antes e depois está em revisao-de-regras/alteracoes/R65-para-R66.json. Os PDFs ficam na pasta acima, com hashes em EDICAO-ATUAL.json.
 
-A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r63/composicao. As cadeias antigas de geração documentam versões anteriores.
+A composição local atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/composicao. Os scripts e as evidências estão preservados em editorial-r66/composicao e nas pastas de etapa.
 
 ## Histórico da fonte e da geração
 

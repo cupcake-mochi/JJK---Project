@@ -1,0 +1,76 @@
+============================================================================================
+1. BALANCO DE RECURSOS
+============================================================================================
+  Restricao       preco   quando          consome
+  Fragil          Leve    ate o proximo   ['risco_perder_efeito']
+  Gesto           Leve    este turno      ['maos', 'voz']
+  Parado          Leve    este turno      ['movimento']
+  Peso Morto      Leve    dois turnos     ['meio_movimento', 'meio_movimento_proximo']
+  Queima-Roupa (área)Leve    permanente      ['origem_area']
+  Tudo ou Nada    Leve    na hora         ['chance_de_zerar']
+  Atrasar         Media   este turno      ['acao_bonus', 'acao_padrao', 'movimento']
+  Carregar        Media   turno anterior  ['acao_padrao_anterior', 'risco_perder_tudo']
+  Divida          Media   condicional     ['pe_do_proximo_feitico']
+  Queima-Roupa (Projétil)Media   permanente      ['distancia_alvo']
+  Recuo           Media   ate o proximo   ['corpo_condicao_menor']
+  Sangra          Media   na hora         ['vida']
+  Sem Volta       Media   condicional     ['proximo_turno_inteiro']
+
+============================================================================================
+2. DOMINANCIA — algum par de mesmo preco em que um contem o outro?
+============================================================================================
+  Nenhum par estritamente dominado nas modalidades de recursos analisadas.
+
+============================================================================================
+3. A REGUA — cada preco corresponde ao peso certo?
+============================================================================================
+  Nenhuma Leve consome o turno inteiro; nenhuma Media custa menos que um recurso.
+
+============================================================================================
+4. INICIATIVA — probabilidade na ordem rolada
+============================================================================================
+  Destreza 3 contra 3: 52.50% de agir antes
+  Destreza 4 contra 3: 57.25% de agir antes
+  Destreza 6 contra 3: 66.00% de agir antes
+  Destreza 3 contra 5: 38.25% de agir antes
+
+============================================================================================
+  A LISTA DE ACOES — peca 3 SS3.1, escrita na v0.83
+============================================================================================
+  [x] as 12 acoes de Acao Padrao estao nomeadas na tabela
+  [x] Agarrar e Derrubar sao opcao do Atacar, e nao acao propria
+  [x] a linha de alvo que separa Ler o Ambiente de Vasculhar/Estudar
+  [x] o "Ler o Ambiente" continua com teto de uma vez por cena
+  [x] o Ajudar esta na tabela, com o custo de acao que faltava
+
+============================================================================================
+5. SOBRECUSTO — adicional integral na própria conjuração
+============================================================================================
+  [x] Sobrecusto tem adicional próprio, pago integralmente no uso
+  [x] a `Sobrecarga` nao cobra "o dobro de energia" em nenhuma das duas publicacoes, e as duas dizem que o alvo nao usa Reacao.
+
+============================================================================================
+6. O MOMENTO DO FEITICO APAGA A RESTRICAO — os vetos do `Rápido` e da `Reação`
+============================================================================================
+  [x] o livro: o `Rápido` veta ['Atrasar'], que e o que a regua deriva
+  [x] o 40-fundamento.md: o `Rápido` veta ['Atrasar'], que e o que a regua deriva
+  [x] o livro: a `Reação` veta ['Atrasar', 'Parado'], que e o que a regua deriva
+  [x] o 40-fundamento.md: a `Reação` veta ['Atrasar', 'Parado'], que e o que a regua deriva
+
+============================================================================================
+7. A CONCENTRACAO — a CD de quem te feriu, e as tabelas da peca 3 saem dos donos
+============================================================================================
+  [x] a regra esta no paragrafo, a regra antiga saiu, as duas tabelas e os numeros da prosa saem dos donos (CD da peca 26 §3.1, maestria da peca 1 §2, dado d20).
+
+============================================================================================
+8. A DURACAO — Concentrada e Duradoura: o preco sai da tabela de Classe do livro, e a tabela de duracao e a do Catalogo
+============================================================================================
+  [x] a Concentrada e Leve e a Duradoura e Média (do livro, Familia Tempo); os precos por Classe [1, 1, 2, 2, 3, 3, 4] e [1, 2, 3, 4, 5, 6, 7] saem da tabela de Classe; empate nas Classes [1]; a tabela "Quanto dura" bate com o livro em minutos; a escada de horas cobre as Classes 1 a 7 e sobe.
+
+============================================================================================
+9. O BUFF DE DANO — `Alvo de Caca`: a Familia, o preco e as tres tabelas da peca 3
+============================================================================================
+  [x] o `Alvo de Caça` e Leve (do livro) e mora na Familia da `Marca`; o preco por Classe [1, 1, 2, 2, 3, 3, 4] sai da tabela de Classe e em Familia Livre vira [1, 1, 1, 1, 1, 1, 1]; as tres linhas de % e as quatro da `Rajada` reconstroem; o conjunto completo cabe da Classe 3.
+
+============================================================================================
+>>> TUDO OK — as 13 Restricoes cabem na regua, nenhuma esta dominada, e a `Divida` bate nas duas publicacoes.

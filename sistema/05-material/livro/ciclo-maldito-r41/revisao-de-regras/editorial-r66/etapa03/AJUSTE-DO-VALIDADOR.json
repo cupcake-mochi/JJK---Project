@@ -1,0 +1,6 @@
+{
+  "antes": "O teste de ordem exigia que Patentes estivesse em página anterior a Recompensas da guilda.",
+  "depois": "Confere ordem dos eventos e posição inicial, permitindo leitura da coluna esquerda para a direita na mesma página.",
+  "evidencia": "Na página 245, Patentes ocupa a coluna esquerda e Recompensas da guilda a direita; a ordem permanece correta.",
+  "motivo": "Corrigir falso negativo após repaginação, mantendo a verificação de ordem."
+}

@@ -1,0 +1,41 @@
+{
+  "etapa": 1,
+  "estado": "concluída e validada",
+  "apontamentos": [
+    "T02",
+    "T03",
+    "T04",
+    "T05"
+  ],
+  "paginas": 424,
+  "validacoes_automaticas": 65,
+  "revisao_textual": "Trechos e contexto conferidos. Regras preservadas. T04 já estava na candidata e foi revalidado.",
+  "revisao_visual": {
+    "paginas_por_paleta": [
+      7,
+      8,
+      9,
+      10,
+      19,
+      20,
+      21,
+      22,
+      354,
+      355,
+      356
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "metodo": "Inspeção das páginas renderizadas em painéis de até três páginas, com leitura dos parágrafos alterados no contexto.",
+    "resultado": "Nenhum defeito novo observado nas páginas desta etapa; demais achados permanecem no planejamento."
+  },
+  "pdfs": [
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa01/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+    "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa01/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf"
+  ],
+  "base_R65_preservada": true,
+  "proxima_etapa": "2: frequência por combate; decisão de regra ainda separada das correções editoriais",
+  "publicacao": "R65 preservada; sem commit, push ou publicação"
+}

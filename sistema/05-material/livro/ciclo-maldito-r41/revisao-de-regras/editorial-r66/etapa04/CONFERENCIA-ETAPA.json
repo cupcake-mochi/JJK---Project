@@ -1,0 +1,323 @@
+{
+  "resultado": "aprovado",
+  "verificacoes": [
+    {
+      "verificacao": "Texto-fonte preservado, exceto pelo novo destino da ficha solicitado pelo autor.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha aponta ao link novo em Ciclo-Maldito-Livro-de-Regras.pdf",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha aponta ao link novo em Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sete Origens com o mesmo nível de título h1.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Mundo jujutsu reunido em uma página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Catálogo do Híbrido em duas páginas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Capacidades menores curtas inteiras em uma coluna (Armamento tem tabela e continuação identificada).",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Armamento Orgânico mantém os quatro perfis em tabela inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Apresentação da Sequência e Golpe Inicial completos juntos.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Conduzir completo com seu exemplo na mesma coluna.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Criação de Sem Técnica abaixo da imagem, em largura inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Onze verificações da etapa 3 permanecem aprovadas.",
+      "aprovado": true
+    }
+  ],
+  "verificacoes_etapa03": [
+    {
+      "verificacao": "Texto-fonte idêntico ao da etapa 2, exceto o hiperlink autorizado na etapa 4.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "progressao--prog-tabela-inicial: tabela completa em uma única página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "progressao--prog-tabela-avancada: tabela completa em uma única página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "fundamento--passagem: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "rotas--rota-sutura: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "rotas--rota-espinho: ficha inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Introdução e quatro condições na mesma coluna.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Manobra: declaração, TR e resultados juntos.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Exemplo de terreno e esquema na mesma página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Contorno dos marcadores com contraste acima de 3:1.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65 publicada preservada.",
+      "aprovado": true
+    }
+  ],
+  "paginas": 422,
+  "paginas_com_nova_geometria_ou_texto": [
+    2,
+    3,
+    4,
+    5,
+    74,
+    84,
+    85,
+    86,
+    87,
+    92,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    329,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421
+  ],
+  "paginas_para_inspecao": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    91,
+    92,
+    93,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    328,
+    329,
+    330,
+    331,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422
+  ],
+  "titulos_origens": [
+    {
+      "pagina": 72,
+      "capitulo": 5,
+      "bloco": "origens--origem-latente",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Latente",
+      "x": 53.858,
+      "y": 305.493,
+      "largura": 233.858,
+      "altura": 24,
+      "modo": "duas-colunas",
+      "faixa": "72-0",
+      "gerado": false,
+      "texto": "Latente"
+    },
+    {
+      "pagina": 74,
+      "capitulo": 5,
+      "bloco": "origens--origem-receptaculo",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Receptáculo",
+      "x": 53.858,
+      "y": 744.693,
+      "largura": 487.559,
+      "altura": 24,
+      "modo": "uma-coluna",
+      "faixa": null,
+      "gerado": false,
+      "texto": "Receptáculo"
+    },
+    {
+      "pagina": 76,
+      "capitulo": 5,
+      "bloco": "origens--origem-descendente",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Descendente",
+      "x": 307.559,
+      "y": 579.093,
+      "largura": 233.858,
+      "altura": 24,
+      "modo": "duas-colunas",
+      "faixa": "76-0",
+      "gerado": false,
+      "texto": "Descendente"
+    },
+    {
+      "pagina": 81,
+      "capitulo": 5,
+      "bloco": "origens--origem-encarnado",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Encarnado",
+      "x": 307.559,
+      "y": 483.093,
+      "largura": 233.858,
+      "altura": 24,
+      "modo": "duas-colunas",
+      "faixa": "81-0",
+      "gerado": false,
+      "texto": "Encarnado"
+    },
+    {
+      "pagina": 84,
+      "capitulo": 5,
+      "bloco": "origens--origem-feto",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Híbrido",
+      "x": 53.858,
+      "y": 744.693,
+      "largura": 487.559,
+      "altura": 24,
+      "modo": "uma-coluna",
+      "faixa": null,
+      "gerado": false,
+      "texto": "Híbrido"
+    },
+    {
+      "pagina": 87,
+      "capitulo": 5,
+      "bloco": "origens--origem-corpo",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Corpo Amaldiçoado",
+      "x": 53.858,
+      "y": 744.693,
+      "largura": 487.559,
+      "altura": 24,
+      "modo": "uma-coluna",
+      "faixa": null,
+      "gerado": false,
+      "texto": "Corpo Amaldiçoado"
+    },
+    {
+      "pagina": 92,
+      "capitulo": 5,
+      "bloco": "origens--origem-restricao",
+      "tipo": "h1",
+      "papel": "seção",
+      "tratamento_hierarquia": null,
+      "nivel_editorial": null,
+      "contexto": "Restrição Celestial",
+      "x": 53.858,
+      "y": 744.693,
+      "largura": 487.559,
+      "altura": 24,
+      "modo": "uma-coluna",
+      "faixa": null,
+      "gerado": false,
+      "texto": "Restrição Celestial"
+    }
+  ],
+  "pagina_hibrido": [
+    85,
+    86
+  ]
+}

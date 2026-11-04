@@ -1,0 +1,148 @@
+{
+  "etapa": 6,
+  "estado": "concluída e validada",
+  "apontamentos_originais_resolvidos": 18,
+  "ajuste_adicional": {
+    "id": "D07",
+    "bloco": "rotas--rota-bancada",
+    "etapa": 6,
+    "tipo": "Diagramação",
+    "estado": "resolvido",
+    "paginas": [
+      327,
+      328
+    ],
+    "antes": "Ficha curta de Bancada dividida entre o fim da coluna esquerda e o início da direita.",
+    "depois": "Título, apresentação e ficha inteira reunidos na coluna direita da página 327. O restante segue em ordem na página 328.",
+    "motivo": "Permitir consulta contínua à ficha, preservando palavras, valores e tamanho de letra."
+  },
+  "texto_identico_etapa05": true,
+  "verificacoes_gerais": 65,
+  "verificacoes_etapa": 13,
+  "resultado": "aprovado",
+  "pdfs": [
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa06/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "sha256": "bc318a87f68b30f4bf5fbb5edcb0ded04b6e75a2e8888c030da85fae298a2814",
+      "paginas": 422
+    },
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa06/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "sha256": "44c637cf443544d93ca0e1390420980027882e2abee1e7ce96482d42c6f10732",
+      "paginas": 422
+    }
+  ],
+  "pendencias_editoriais_identificadas": [],
+  "publicacao": "Não realizada. R65 publicada preservada; sem commit ou push.",
+  "proximo_passo": "Decisão do autor sobre publicação da candidata.",
+  "revisao_visual": {
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "paginas_por_paleta": 422,
+    "paineis_inspecionados_por_paleta": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "ampliacoes_finais_por_paleta": [
+      27,
+      85,
+      249,
+      281,
+      327,
+      328,
+      332
+    ],
+    "metodo": "Inspeção estrutural das 422 páginas em painéis sequenciais, seguida de ampliações. Painéis gerados antes do último ajuste; comparação de raster confirma identidade de 420 páginas com o resultado final. Páginas 327 e 328 renderizadas e revistas ampliadas após o ajuste.",
+    "resultado": "Sem novos cortes, sobreposições ou associações incorretas entre imagens e texto observados nesta passagem.",
+    "limite": "Painéis verificam estrutura; não equivalem à leitura palavra por palavra em tamanho de impressão.",
+    "espacos_mantidos": [
+      {
+        "paginas": [
+          5
+        ],
+        "motivo": "Grupos do sumário mantidos inteiros."
+      },
+      {
+        "paginas": [
+          27,
+          249,
+          327,
+          332
+        ],
+        "motivo": "Agrupamento de procedimentos, listas e fichas compactas para consulta contínua."
+      },
+      {
+        "paginas": [
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "motivo": "Tabelas e categorias de equipamento preservadas como unidades de consulta."
+      },
+      {
+        "paginas": [
+          328,
+          381,
+          410,
+          413,
+          421
+        ],
+        "motivo": "Encerramentos de seção ou capítulo e início das próximas unidades preservados."
+      },
+      {
+        "paginas": [
+          9,
+          84,
+          329,
+          383
+        ],
+        "motivo": "Composição de aberturas ilustradas e associação entre imagem e apresentação."
+      }
+    ]
+  },
+  "revisao_textual": {
+    "capitulos": 21,
+    "metodo": "Revisão de aberturas e ordem dos títulos nos 21 capítulos; leitura contextual das passagens alteradas nas etapas 1 e 2, das definições e transições selecionadas em Fundamento e invocações, e dos textos associados aos ajustes de composição.",
+    "resultado": "Não foi identificada nova correção textual necessária nesta passagem. A fonte integral permanece idêntica à etapa 5.",
+    "limite": "Não representa certificação ortográfica palavra por palavra de todo o livro.",
+    "verificacoes": [
+      "Concentração e interrupções",
+      "Silencioso e exigências do Ritual",
+      "Vagas conhecidas e custos de uso",
+      "Frequência por cena nas cinco habilidades e na dupla",
+      "Definições antes dos procedimentos de montagem",
+      "Distinção entre atuação básica, capacidade básica, especial e coletiva",
+      "Regra Própria antes do primeiro feitiço e Classe 0 antes da referência completa",
+      "Lista de Melhorias identifica Efeitos e Modificadores"
+    ]
+  }
+}

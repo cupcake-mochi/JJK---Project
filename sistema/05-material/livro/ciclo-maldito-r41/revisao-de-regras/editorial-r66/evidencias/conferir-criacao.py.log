@@ -1,0 +1,99 @@
+
+========================================================================================
+0. DE ONDE VEM CADA NUMERO — lendo os donos
+========================================================================================
+  nivel da ficha padrao:      2
+  maestria inicial:           1   (peca 8)
+  refino inicial:             1   (peca 8)
+  protecao de cobrir-se:      1   (peca 11: 1/3 do refino + 1)
+  Caminhos lidos da peca 8:   6 — Bastião, Emanador, Evocador, Guia, Incursor, Vanguarda
+
+========================================================================================
+1. A FICHA DE EXEMPLO — a Kaori sai das formulas?
+========================================================================================
+  atributos da Kaori: For 3 · Con 2 · Des 2 · Int 1 · Ess 1  (somam 9)
+  atributo da tecnica: Força 3
+
+  campo           publicado   pela formula
+  vida                   23             23   ok
+  integridade            26             26   ok
+  pe                      8              8   ok
+  defesa                 13             13   ok
+  cd                     12             12   ok
+
+  Vida       = (12 + Con 2) + (7 + Con 2) x 1
+  PE         = 4 x 2
+  Defesa     = 10 + Des 2 + protecao 1
+  A protecao NAO e equipamento: e a aptidao gratuita do refino 1.
+
+========================================================================================
+2. O BLOCO DE FORMULAS — o passo 7 bate com a peca 1?
+========================================================================================
+  [x] ataque de conjuracao   = 1   (atributo da tecnica + maestria)
+  [x] Integridade            = 25   (a formula da peca 24 no nivel 2, e o Passo 7 nao pode imprimir numero fixo)
+  [x] pericia treinada       = 1   (atributo + maestria)
+  [x] deslocamento           = 9   (o turno da peca 3)
+  [x] o passo 7              escreve a CD como 8 + atributo da tecnica + maestria
+  [x] a peca 1               escreve a CD como 8 + atributo da tecnica + maestria
+  [x] a peca 1 continua com Defesa = 10 + Destreza + protecao
+
+========================================================================================
+3. PROTECAO — a ficha nasce com a da aptidao, e ninguem diz o contrario
+========================================================================================
+  [x] nenhuma peca afirma que a ficha nasce com protecao 0
+      (ela nasce com 1, e vem de cobrir-se de energia)
+  [x] cobrir-se de energia continua gratuita no refino 1
+  [x] a condicao dela (sem Traje e sem Revestimento) continua escrita
+  [x] o escudo continua fora da lista do que desliga (ele soma)
+  [x] o preco da Reacao continua agnostico de fonte ("sem protecao")
+
+========================================================================================
+4. A TRILHA — a criacao entrega uma?
+========================================================================================
+  [x] a peca 8 entrega a Trilha no passo do Caminho
+  [x] a peca 6 diz que a primeira Trilha vem na criacao
+  [x] a ficha de exemplo usa a Trilha Muro, e ela existe na peca 6
+
+========================================================================================
+5. FEITICOS — a contagem do nivel 2
+========================================================================================
+  [x] 3 feiticos conhecidos, e a formula da 3
+  [x] dois feiticos de Classe 0, como o manual diz
+  [x] Classe 1 no nivel 2, como a tabela do manual
+
+========================================================================================
+6. AS ESCOLHAS FECHAM — pericias, oficios e Testes de Resistencia
+========================================================================================
+  [x] ficando com os ofícios   -> 9 de 23 pericias e 2 de 11 oficios   (a soma da 9 de 23 e 2 de 11)
+  [x] trocando os dois         -> 10 de 23 pericias e 0 de 11 oficios   (a soma da 10 de 23 e 0 de 11)
+  [x] trocar os dois oficios custa 1 espaco de treino (11 -> 10), e a peca 7 diz por que
+  [x] a pericia livre da Origem e travada nos tres donos, sem julgamento
+  [x] dois Testes de Resistencia treinados, um da Origem e um do Caminho
+
+========================================================================================
+6.1 QUEM DA OFICIO — a atribuicao da peca 8 contra a peca 7 §6
+========================================================================================
+  peca 7 §6: o oficio e da Origem (2 deles), o Caminho nao da nenhum, e nenhum e fixo
+  [x] Passo 6 · Origem           -> 2 oficio(s), 0 fixo(s)   (a peca 7 §6 da 2)
+  [x] Passo 6 · Caminho          -> 0 oficio(s), 0 fixo(s)   (a peca 7 §6 da 0)
+  [x] Passo 1 · a Origem entrega 2 oficio(s), como a peca 7 §6
+  [x] Passo 3 · o Caminho entrega 0 oficio(s)
+  [x] a prosa da peca 8 nao reatribui oficio por fora da tabela
+  [x] peca 8: os oficios da ficha de exemplo sao "da Origem"
+  [x] livro, capitulo 6: os oficios da ficha de exemplo sao "da Origem"
+  [x] livro, capitulo 8: os 6 quadros de Caminho dao o oficio como a peca 7 §6
+  [x] livro, capitulo 3: o oficio do quadro de Treino esta na linha da Origem
+  [x] o Passo 1 diz 6 coisas e a tabela tem 6 linhas
+
+========================================================================================
+7. O CATALOGO EXISTE — o que a criacao cita esta escrito?
+========================================================================================
+  [x] a Origem Descendente existe na peca 9
+  [x] os 6 Caminhos da criacao existem na peca 6
+  [x] Grau 4 na criacao, e a peca 12 concorda
+  [x] o nivel 2 sobe com 200 XP — 2 missao(oes) padrao
+
+========================================================================================
+>>> TUDO OK — a ficha de exemplo sai das formulas, a criacao entrega Trilha,
+    a protecao da aptidao gratuita esta na Defesa, e tudo que a criacao cita
+    existe nas pecas donas.

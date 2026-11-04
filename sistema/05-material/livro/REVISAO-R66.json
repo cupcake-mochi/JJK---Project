@@ -1,0 +1,960 @@
+{
+  "revisao": "R66",
+  "base": "R65",
+  "resultado": "aprovado",
+  "paginas": 422,
+  "blocos_alterados": [
+    "ab--ab-criacao",
+    "ab--ab-mundo",
+    "ab--ab-primeira-sessao",
+    "evocador--ev-combinada",
+    "evocador--ev-parceria-resposta",
+    "geral--concentracao",
+    "incursor--inc-brecha",
+    "incursor--inc-perfeita",
+    "incursor--inc-ritmo",
+    "ritual--ritual"
+  ],
+  "trocas": 13,
+  "descricao": "Fechamento de seis etapas de revisão: 18 apontamentos e ficha de Bancada; link da ficha atualizado.",
+  "conferencia_pdf": {
+    "resultado": "aprovado",
+    "paginas": 422,
+    "verificacoes": [
+      {
+        "verificacao": "Contagem das duas paletas corresponde ao manifesto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhum \"saldo\" impresso nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhuma palavra rara impressa nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Blocos seguem a ordem editorial entre páginas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sumário do capítulo 10 em ordem de página.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Regra Própria antecede o primeiro feitiço.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Dificultar a Resistência antecede o catálogo de intervenções.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Fonte da composição é idêntica à candidata.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto idêntico em todas as páginas entre paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "As duas paletas têm 422 páginas após os ajustes de Mundo jujutsu, Híbrido e Vanguarda.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhum termo da rodada R64 impresso nas duas paletas: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Título aprovado na composição: Anote as consequências",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Título aprovado na composição: Preencha a ficha",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na clara, termos revistos: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na clara, onze usos preservados de Requisito: 11",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, título do exemplo na clara.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na noturna, termos revistos: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na noturna, onze usos preservados de Requisito: 11",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, título do exemplo na noturna.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as linhas e células da candidata localizadas no PDF.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem glifos de substituição ou âncoras brutas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem estouro de margem nos blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem sobreposição entre blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todos os links internos chegam a páginas existentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto ocupa as mesmas posições nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Patentes antecedem as recompensas da guilda.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela semanal continua nas duas colunas com cabeçalho repetido.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ativação compartilhada antecede as quatro defesas de domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo contextualiza Kokusen antes da tabela.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Aquisição da Aptidão Própria antecede sua escrita.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Definição das rotas e montagem comum antecedem os exemplos.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lapidação e requisitos de Bênçãos antecedem as entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela de escolhas de Bênçãos tem quatorze links.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção da Incompleta antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Alerta sobre três barreiras antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Rescaldo apresentado antes da montagem do domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceções das modalidades antecedem o teste de Ritual.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo do Ritual identifica as duas tabelas como dezesseis entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vagas de pacto contextualizadas antes de Preço real.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Promessas e temporários continuam fora do limite de vagas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Coletiva e gasto da básica contextualizados na abertura.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparar e gatilhos antecedem Ordens pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ordem física segue antecipada, preparar, gatilhos e pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção dos corpos antecede a posição de entrada.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Capacidade e atuação básicas distinguidas antes do roteiro.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Classe real contextualizada antes de Família Livre.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Cão de sombra preservado antes das aquisições seguintes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vantagem da tentativa seguinte antecede a limitação de fontes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lista de ritual e criação acompanha o começo da primeira opção.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Colunas equilibradas na abertura de Criação de entidades.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparação da missão antecede a condução da sessão.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ferramentas de consulta apresentadas antes da busca de regra.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Recursos no começo da missão explicitados.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário contém 105 entradas sem duplicatas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Remissões de Talento, Expressão e Categoria levam à explicação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário preserva momento de Bloquear e recuperação das Sequelas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de ataque exige escolha da defesa antes da comparação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ataque separa escolha anterior e resultado de Bloquear.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Socorro antecede registro de duração.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de socorro define tratamento e conserva a exceção de inconsciência.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Índice contém 453 nomes únicos em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as entradas do Índice foram compostas na mesma ordem.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Números impressos e links dos 453 verbetes apontam ao destino correto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Novos destinos precisos chegam ao próprio subtítulo.",
+        "aprovado": true
+      }
+    ],
+    "conteudo_ausente": [],
+    "margens": [],
+    "sobreposicoes": [],
+    "links": {
+      "internos": 3424,
+      "externos": 4
+    },
+    "links_invalidos": [],
+    "diferencas_geometria": [],
+    "paginas_para_atencao_visual": [
+      {
+        "pagina": 8,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 10,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 24,
+        "ocupacao_esquerda": 0.52,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 29,
+        "ocupacao_esquerda": 0.35,
+        "ocupacao_direita": 0.31,
+        "tipo": "content"
+      },
+      {
+        "pagina": 45,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 58,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.89,
+        "tipo": "content"
+      },
+      {
+        "pagina": 65,
+        "ocupacao_esquerda": 0.53,
+        "ocupacao_direita": 0.96,
+        "tipo": "content"
+      },
+      {
+        "pagina": 83,
+        "ocupacao_esquerda": 0.54,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 85,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 97,
+        "ocupacao_esquerda": 0.54,
+        "ocupacao_direita": 0.56,
+        "tipo": "content"
+      },
+      {
+        "pagina": 102,
+        "ocupacao_esquerda": 0.53,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 105,
+        "ocupacao_esquerda": 0.56,
+        "ocupacao_direita": 0.93,
+        "tipo": "content"
+      },
+      {
+        "pagina": 124,
+        "ocupacao_esquerda": 0.68,
+        "ocupacao_direita": 0.96,
+        "tipo": "content"
+      },
+      {
+        "pagina": 138,
+        "ocupacao_esquerda": 0.64,
+        "ocupacao_direita": 0.9,
+        "tipo": "content"
+      },
+      {
+        "pagina": 164,
+        "ocupacao_esquerda": 0.58,
+        "ocupacao_direita": 0.64,
+        "tipo": "content"
+      },
+      {
+        "pagina": 179,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 190,
+        "ocupacao_esquerda": 0.48,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 197,
+        "ocupacao_esquerda": 0.34,
+        "ocupacao_direita": 0.3,
+        "tipo": "content"
+      },
+      {
+        "pagina": 198,
+        "ocupacao_esquerda": 0.67,
+        "ocupacao_direita": 0.95,
+        "tipo": "content"
+      },
+      {
+        "pagina": 224,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 237,
+        "ocupacao_esquerda": 0.51,
+        "ocupacao_direita": 0.63,
+        "tipo": "content"
+      },
+      {
+        "pagina": 243,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.95,
+        "tipo": "content"
+      },
+      {
+        "pagina": 259,
+        "ocupacao_esquerda": 0.6,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 263,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 267,
+        "ocupacao_esquerda": 0.4,
+        "ocupacao_direita": 0.35,
+        "tipo": "content"
+      },
+      {
+        "pagina": 275,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.88,
+        "tipo": "content"
+      },
+      {
+        "pagina": 279,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.41,
+        "tipo": "content"
+      },
+      {
+        "pagina": 283,
+        "ocupacao_esquerda": 0.26,
+        "ocupacao_direita": 0.28,
+        "tipo": "content"
+      },
+      {
+        "pagina": 319,
+        "ocupacao_esquerda": 0.33,
+        "ocupacao_direita": 0.37,
+        "tipo": "content"
+      },
+      {
+        "pagina": 322,
+        "ocupacao_esquerda": 0.37,
+        "ocupacao_direita": 0.47,
+        "tipo": "content"
+      },
+      {
+        "pagina": 327,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.94,
+        "tipo": "content"
+      },
+      {
+        "pagina": 328,
+        "ocupacao_esquerda": 0.6,
+        "ocupacao_direita": 0.67,
+        "tipo": "content"
+      },
+      {
+        "pagina": 334,
+        "ocupacao_esquerda": 0.58,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 344,
+        "ocupacao_esquerda": 0.97,
+        "ocupacao_direita": 0.71,
+        "tipo": "content"
+      },
+      {
+        "pagina": 346,
+        "ocupacao_esquerda": 0.62,
+        "ocupacao_direita": 0.65,
+        "tipo": "content"
+      },
+      {
+        "pagina": 357,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.31,
+        "tipo": "content"
+      },
+      {
+        "pagina": 381,
+        "ocupacao_esquerda": 0.52,
+        "ocupacao_direita": 0.45,
+        "tipo": "content"
+      },
+      {
+        "pagina": 410,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.46,
+        "tipo": "content"
+      },
+      {
+        "pagina": 413,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.57,
+        "tipo": "content"
+      },
+      {
+        "pagina": 421,
+        "ocupacao_esquerda": 0.3,
+        "ocupacao_direita": 0.32,
+        "tipo": "content"
+      }
+    ]
+  },
+  "conferencia_final": {
+    "verificacoes": [
+      {
+        "verificacao": "Texto integral idêntico à etapa 5.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todos os destinos e marcadores preservados.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ficha de Bancada inteira em uma tabela.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "422 páginas preservadas: claro",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Mudança visual limitada a Bancada e à página seguinte: claro",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Marcadores completos: claro",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ficha atualizada na página 62: claro",
+        "aprovado": true
+      },
+      {
+        "verificacao": "200 entradas do sumário corretas: claro",
+        "aprovado": true
+      },
+      {
+        "verificacao": "422 páginas preservadas: noturno",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Mudança visual limitada a Bancada e à página seguinte: noturno",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Marcadores completos: noturno",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ficha atualizada na página 62: noturno",
+        "aprovado": true
+      },
+      {
+        "verificacao": "200 entradas do sumário corretas: noturno",
+        "aprovado": true
+      }
+    ],
+    "comparacao": {
+      "claro": {
+        "paginas_alteradas": [
+          327,
+          328
+        ],
+        "paginas_identicas": 420
+      },
+      "noturno": {
+        "paginas_alteradas": [
+          327,
+          328
+        ],
+        "paginas_identicas": 420
+      }
+    },
+    "bancada": [
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "h1",
+        "papel": "exemplo completo",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 744.693,
+        "largura": 233.858,
+        "altura": 24,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "Exemplo: Bancada"
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 659.493,
+        "largura": 233.858,
+        "altura": 79.2,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "**Exemplo de Técnica Marcial pela rota de ferramenta, no nível 2.** Nao utiliza uma armadura de engenharia para distribuir suportes e amortecer impactos. Seu funcionamento combina mecanismos físicos com as propriedades amaldiçoadas do equipamento."
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "table",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 428.493,
+        "largura": 233.858,
+        "altura": 223.0,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": [
+          [
+            "Campo",
+            "Escolha"
+          ],
+          [
+            "Descrição",
+            "A armadura projeta placas articuladas que sustentam e protegem pessoas próximas."
+          ],
+          [
+            "Regra",
+            "As placas sustentam corpos e repartem os impactos recebidos."
+          ],
+          [
+            "Famílias Livres",
+            "Auxiliares e Amparo."
+          ],
+          [
+            "Famílias Fechadas",
+            "Área, Marca e Castigo."
+          ],
+          [
+            "Ferramenta e Selo",
+            "Armadura de grau 4, vestida e em funcionamento."
+          ],
+          [
+            "Atributo",
+            "Inteligência."
+          ],
+          [
+            "Tipo de dano",
+            "Concussão, nas aplicações ofensivas."
+          ]
+        ]
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 353.493,
+        "largura": 233.858,
+        "altura": 66.0,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "A armadura usa os números de um Revestimento escolhido em Equipamento. Os golpes desarmados passam por ela e podem ferir maldições. Isso não acrescenta um dado de arma às Katas nem uma segunda proteção à ficha."
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "h2",
+        "papel": "subtópico",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 324.493,
+        "largura": 233.858,
+        "altura": 20,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "Placas de apoio"
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 266.693,
+        "largura": 233.858,
+        "altura": 52.8,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "Nao escolhe vida temporária como função e monta **Projétil + Guarda**, de Classe 1. A base Leve custa 1 ponto, Projétil custa 0 e Guarda custa 1. Sem Restrições, restam **3 − 1 − 1 = 1 ponto**."
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 183.493,
+        "largura": 233.858,
+        "altura": 79.2,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "**Ficha:** Ação Padrão, 3 PE, um aliado disposto a até 9 m, incluindo Nao. O alvo recebe **3 pontos de vida temporária** e **+2 na Defesa até o fim do próximo turno dele**. O efeito é automático. A vida temporária segue seus limites e duração próprios, em Dano e Recuperação."
+      },
+      {
+        "pagina": 327,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 307.559,
+        "y": 139.893,
+        "largura": 233.858,
+        "altura": 39.6,
+        "modo": "duas-colunas",
+        "faixa": "327-0",
+        "gerado": false,
+        "texto": "Essa aplicação protege sem causar dano ao beneficiário. A ficha separa o prazo de Guarda da duração da vida temporária."
+      },
+      {
+        "pagina": 328,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "small",
+        "papel": null,
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": null,
+        "x": 53.858,
+        "y": 764.693,
+        "largura": 233.858,
+        "altura": 12,
+        "modo": "contexto",
+        "faixa": "328-0",
+        "gerado": true,
+        "texto": "Exemplo: Bancada"
+      },
+      {
+        "pagina": 328,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "h2",
+        "papel": "subtópico",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 53.858,
+        "y": 733.693,
+        "largura": 233.858,
+        "altura": 20,
+        "modo": "duas-colunas",
+        "faixa": "328-0",
+        "gerado": false,
+        "texto": "Outras aplicações"
+      },
+      {
+        "pagina": 328,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 53.858,
+        "y": 649.493,
+        "largura": 233.858,
+        "altura": 79.2,
+        "modo": "duas-colunas",
+        "faixa": "328-0",
+        "gerado": false,
+        "texto": "As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Escolher a função de cura conserva os corpos e materiais que a Regra permite tratar."
+      },
+      {
+        "pagina": 328,
+        "capitulo": 13,
+        "bloco": "rotas--rota-bancada",
+        "tipo": "body",
+        "papel": "texto",
+        "tratamento_hierarquia": null,
+        "nivel_editorial": null,
+        "contexto": "Exemplo: Bancada",
+        "x": 53.858,
+        "y": 579.493,
+        "largura": 233.858,
+        "altura": 66.0,
+        "modo": "duas-colunas",
+        "faixa": "328-0",
+        "gerado": false,
+        "texto": "Placas de apoio ocupa um dos três espaços de Nao. O [Talento Leitura](#catalogo--cat-passivas-1), que identifica Classe e Forma das conjurações próximas, pode ocupar outro se for compatível com os sensores da armadura. O último permanece disponível para uma Kata."
+      }
+    ],
+    "resultado": "aprovado"
+  },
+  "revisao_visual": {
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "paginas_por_paleta": 422,
+    "paineis_inspecionados_por_paleta": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "ampliacoes_finais_por_paleta": [
+      27,
+      85,
+      249,
+      281,
+      327,
+      328,
+      332
+    ],
+    "metodo": "Inspeção estrutural das 422 páginas em painéis sequenciais, seguida de ampliações. Painéis gerados antes do último ajuste; comparação de raster confirma identidade de 420 páginas com o resultado final. Páginas 327 e 328 renderizadas e revistas ampliadas após o ajuste.",
+    "resultado": "Sem novos cortes, sobreposições ou associações incorretas entre imagens e texto observados nesta passagem.",
+    "limite": "Painéis verificam estrutura; não equivalem à leitura palavra por palavra em tamanho de impressão.",
+    "espacos_mantidos": [
+      {
+        "paginas": [
+          5
+        ],
+        "motivo": "Grupos do sumário mantidos inteiros."
+      },
+      {
+        "paginas": [
+          27,
+          249,
+          327,
+          332
+        ],
+        "motivo": "Agrupamento de procedimentos, listas e fichas compactas para consulta contínua."
+      },
+      {
+        "paginas": [
+          212,
+          213,
+          214,
+          215,
+          216
+        ],
+        "motivo": "Tabelas e categorias de equipamento preservadas como unidades de consulta."
+      },
+      {
+        "paginas": [
+          328,
+          381,
+          410,
+          413,
+          421
+        ],
+        "motivo": "Encerramentos de seção ou capítulo e início das próximas unidades preservados."
+      },
+      {
+        "paginas": [
+          9,
+          84,
+          329,
+          383
+        ],
+        "motivo": "Composição de aberturas ilustradas e associação entre imagem e apresentação."
+      }
+    ]
+  },
+  "sha256": {
+    "claro": "bc318a87f68b30f4bf5fbb5edcb0ded04b6e75a2e8888c030da85fae298a2814",
+    "noturno": "44c637cf443544d93ca0e1390420980027882e2abee1e7ce96482d42c6f10732",
+    "texto": "315ba23a9044234b8eab9e94ff1412d553b45c46089548809741777b1e287893"
+  }
+}

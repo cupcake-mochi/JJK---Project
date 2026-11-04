@@ -1,0 +1,53 @@
+{
+  "resultado": "aprovado",
+  "verificacoes": [
+    {
+      "verificacao": "Texto-fonte preservado, exceto pelo novo destino da ficha solicitado pelo autor.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha aponta ao link novo em Ciclo-Maldito-Livro-de-Regras.pdf",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ficha aponta ao link novo em Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sete Origens com o mesmo nível de título h1.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Mundo jujutsu reunido em uma página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Catálogo do Híbrido em duas páginas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Capacidades menores curtas inteiras em uma coluna (Armamento tem tabela e continuação identificada).",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Armamento Orgânico mantém os quatro perfis em tabela inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Apresentação da Sequência e Golpe Inicial completos juntos.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Conduzir completo com seu exemplo na mesma coluna.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Criação de Sem Técnica abaixo da imagem, em largura inteira.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Onze verificações da etapa 3 permanecem aprovadas.",
+      "aprovado": true
+    }
+  ]
+}

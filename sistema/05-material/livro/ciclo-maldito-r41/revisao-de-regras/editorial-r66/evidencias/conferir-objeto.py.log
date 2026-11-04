@@ -1,0 +1,88 @@
+========================================================================================
+conferir-objeto.py — peca 21, Objeto amaldicoado
+========================================================================================
+  pecas na pasta           : 27
+  linhas da peca 21        : 183
+
+========================================================================================
+1. A FAMILIA — as quatro estao declaradas, e cada uma nomeia a dona
+========================================================================================
+  linhas de familia lidas  : 4
+      **objeto amaldiçoado**                           dona: **esta peça**
+      **ferramenta amaldiçoada**                       dona: **peça 16**
+      **cadáver amaldiçoado**                          dona: **peça 15**, como tipo de invocação
+      **maldição solta**                               dona: **peça 19**, no que ela causa
+  [x] as 4 coisas da familia estao declaradas, e todas nomeiam uma dona.
+
+========================================================================================
+2. PONTEIRO DE DONA — toda peca nomeada como dona existe na pasta
+========================================================================================
+  [x] as 3 pecas nomeadas como dona existem: peca 15 · peca 16 · peca 19
+
+========================================================================================
+3. ESCADA DE GRAU — ela e da peca 16, e NAO se republica aqui
+========================================================================================
+  `Classe N` na peca 16    : 47   (piso 3)
+  `Classe N` na peca 21    : 0   (tem de ser 0)
+  [x] a peca 21 aponta para a escada da peca 16 sem republicar nenhum degrau dela.
+
+========================================================================================
+4. SEM NUMERO DE REGRA — peca de vocabulario nao preca nada
+========================================================================================
+  testemunha do contra-teste: as outras 26 pecas da pasta
+  [x] a peca 21 nao escreve dado, PE, fatia nem distancia, e os 4 regex acendem na testemunha.
+
+========================================================================================
+5. CADAVER AMALDICOADO — os tres rotulos, declarados como a mesma coisa
+========================================================================================
+  linhas do §2.1 lidas     : 3  (tem de ser 3)
+      Corpo Amaldiçoado      visto de: peça 9, como Origem
+      corpo amaldiçoado      visto de: peça 15, como tipo de invocação
+      cadáver amaldiçoado    visto de: na definição da família, aqui e na peça 16
+  [x] os 3 rotulos estao na mesma tabela e existem nas donas.
+
+========================================================================================
+6. ENCARNACAO — as tres Origens citadas existem na peca 9
+========================================================================================
+  Origens lidas da peca 9  : 7
+  rotas de encarnacao      : 3  ['Receptáculo', 'Feto', 'Encarnado']
+  [x] as 3 Origens de encarnacao existem na peca 9.
+
+========================================================================================
+7. LIGACOES — todo Legado citado no §6 bate de formato e de Origem
+========================================================================================
+  ligacoes declaradas      : 1  (piso 1)
+      Guardado       peca 21 diz Destranca  Feto           | peca 13 diz ['Destranca'] ['Feto']
+  [x] as 1 ligacoes batem de formato e de Origem com a peca 13.
+
+========================================================================================
+8. A ATRACAO — declarada aqui, e em nenhuma outra peca
+========================================================================================
+  pecas que declaram       : ['21-objeto-amaldicoado.md']
+  [x] a atracao tem uma dona so, e ela e a peca 21.
+
+========================================================================================
+9. A VAGA — fechada em cima da atracao, ou declarada reaberta
+========================================================================================
+  o §6 nao declara Desliga nenhum, e a peca DIZ que a vaga reabriu.
+  [x] a vaga esta reaberta, e declarada no texto — nao e omissao.
+
+========================================================================================
+10. VAGA MORTA — a peca 13 nao diz mais que a vaga espera esta peca
+========================================================================================
+  [x] nenhuma linha da peca 13 diz que a vaga espera esta peca.
+
+========================================================================================
+11. PONTEIRO PENDURADO — todo termo em crase da peca 21 tem destino
+========================================================================================
+  termos em crase na peca  : 14  ['Coleira', 'Conhecido', 'Conhecimento Antigo', 'Corpo Amaldiçoado', 'Desliga', 'Destranca', 'ESTADO-ATUAL', 'Estigma', 'Guardado', 'Kiko', 'Máscara', 'Pactos', 'Promessa', 'Volume']
+  [x] os 14 termos em crase tem destino.
+
+========================================================================================
+12. PECA 16 — ela aponta para esta peca, e nao a anuncia como pendente
+========================================================================================
+  [x] a peca 16 aponta para a peca 21 e nao a anuncia como pendente.
+
+========================================================================================
+>>> TUDO OK — a familia tem quatro donas, a peca 21 nao republica numero
+    de ninguem, e a unica coisa que ela cria tem uma dona so.

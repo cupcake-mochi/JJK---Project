@@ -1,0 +1,17 @@
+{
+  "estado": "integrada localmente",
+  "trocas": 13,
+  "blocos": 10,
+  "pdfs": [
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa06/output/pdf/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "sha256": "bc318a87f68b30f4bf5fbb5edcb0ded04b6e75a2e8888c030da85fae298a2814",
+      "paginas": 422
+    },
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/revisao/etapa06/output/pdf/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "sha256": "44c637cf443544d93ca0e1390420980027882e2abee1e7ce96482d42c6f10732",
+      "paginas": 422
+    }
+  ]
+}
