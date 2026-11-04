@@ -16,7 +16,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - PDFs claro e noturno com 425 páginas. As 190 páginas alteradas foram revisadas nas duas paletas. A composição passou em 59 verificações e o Índice em 453 verbetes. Os registros estão em `editorial-r64/`.
 - A guarda da fonte reaplica o registro R63-para-R64, incluindo a abertura do capítulo 6. A checagem da Consulta rápida acompanha a nova redação.
 
-→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R64 pronta para publicação.
+### Publicado
+
+- R64 publicada na Vercel em 04/11/2026. Os downloads integrais dos PDFs claro e noturno passaram na comparação SHA-256 com a edição revisada. Registro em `editorial-r64/PUBLICACAO.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R64 e a conferência da publicação.
 
 ## [0.373] - 04/11/2026
 

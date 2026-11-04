@@ -6,7 +6,7 @@ Linguagem simples, aprovada em 04/11/2026. São 293 trocas que substituem 139 oc
 
 As duas paletas têm 425 páginas. As mesmas 190 páginas mudaram nas duas paletas e foram inspecionadas visualmente. Ativação e manutenção passou da página 317 para a 316. A auditoria do Índice conferiu os 453 verbetes.
 
-Fonte, listas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`. A cadeia de integridade cobre R52 a R64. Os PDFs da R64 estão prontos para publicação.
+Fonte, listas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`. A cadeia de integridade cobre R52 a R64. A R64 foi publicada na Vercel em 04/11/2026. Os dois downloads públicos coincidiram com os hashes dos arquivos revisados. Registro em `editorial-r64/PUBLICACAO.json`.
 
 # Edição anterior R63
 
