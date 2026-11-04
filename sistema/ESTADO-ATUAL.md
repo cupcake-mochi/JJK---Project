@@ -6,7 +6,7 @@ A R65 revisa Caminhos e Trilhas, com 181 trocas em 96 blocos. Os dez rótulos de
 
 Os dois PDFs têm 425 páginas. Foram revisadas 73 páginas em cada paleta. A composição passou em 65 verificações e a auditoria do Índice conferiu 453 verbetes. A comparação registrou 2 âncoras que mudaram de página.
 
-Fonte, trocas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/`. A cadeia de integridade cobre R52 a R65. A candidata está pronta para publicação.
+Fonte, trocas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/`. A cadeia de integridade cobre R52 a R65. A R65 foi publicada na Vercel em 04/11/2026. Os dois downloads públicos coincidiram com os PDFs revisados na conferência SHA-256. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/PUBLICACAO.json`.
 
 # Edição anterior R64
 

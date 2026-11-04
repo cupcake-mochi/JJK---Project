@@ -16,7 +16,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - Os dois PDFs têm 425 páginas. Foram revisadas 73 páginas em cada paleta. A composição passou em 65 verificações e a auditoria do Índice conferiu 453 verbetes. A comparação registrou 2 âncoras que mudaram de página.
 - A guarda da fonte reaplica o registro R64-para-R65. A checagem de Fundamento acompanha a nova redação de Queima-Roupa em Manifestação Técnica.
 
-→ Continua em `sistema/ESTADO-ATUAL.md`, com a candidata R65 pronta para publicação.
+### Publicado
+
+- R65 publicada na Vercel em 04/11/2026. A conferência SHA-256 dos downloads completos aprovou os PDFs claro e noturno. Registro em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/PUBLICACAO.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a R65 publicada e conferida.
 
 ## [0.374] - 04/11/2026
 
