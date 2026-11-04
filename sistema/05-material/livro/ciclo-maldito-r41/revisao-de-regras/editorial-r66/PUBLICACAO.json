@@ -1,0 +1,27 @@
+{
+  "estado": "publicada e verificada",
+  "revisao": "R66",
+  "paginas": 422,
+  "commit_sistema": "0d0644baaefefd62e3ec2460de79ccf1a1c067ec",
+  "commit_pdf": "23033acaf4797bcdce46fc211dc6c60e1c4f0ebf",
+  "verificado_em": "2026-11-04T13:38:00.686677-03:00",
+  "verificacao": "Download integral das duas URLs públicas e comparação SHA-256 com os PDFs aprovados ao fim da etapa 6.",
+  "claro": {
+    "url": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+    "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+    "status": 200,
+    "tipo": "application/pdf",
+    "sha256": "bc318a87f68b30f4bf5fbb5edcb0ded04b6e75a2e8888c030da85fae298a2814",
+    "bytes": 62060254,
+    "identico_ao_aprovado": true
+  },
+  "noturno": {
+    "url": "https://ciclo-maldito.vercel.app/noturno",
+    "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+    "status": 200,
+    "tipo": "application/pdf",
+    "sha256": "44c637cf443544d93ca0e1390420980027882e2abee1e7ce96482d42c6f10732",
+    "bytes": 63161625,
+    "identico_ao_aprovado": true
+  }
+}

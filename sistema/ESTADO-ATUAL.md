@@ -4,7 +4,7 @@
 
 A R66 conclui seis etapas de revisão. São 422 páginas em cada paleta, 18 apontamentos resolvidos e um ajuste adicional na ficha de Bancada. O fechamento passou em 65 verificações gerais e 13 específicas. O texto das duas paletas é idêntico. Inclui o novo link da ficha digital e o limite por cena aprovado nas cinco habilidades e na explicação da dupla.
 
-Fonte, registros e validações em 05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/. A cadeia de integridade cobre R52 a R66. Publicação em preparação.
+Fonte, registros e validações em 05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/. A cadeia de integridade cobre R52 a R66. A R66 foi publicada na Vercel em 04/11/2026. O download integral das duas URLs públicas confirmou os hashes dos PDFs aprovados. Registro em 05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/PUBLICACAO.json.
 
 # Edição anterior R65
 
