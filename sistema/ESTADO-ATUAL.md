@@ -1,6 +1,18 @@
-# Edição corrente R62
+# Edição corrente R63
 
-**Versão v0.372.**
+**Versão v0.373.**
+
+Linguagem simples, segunda rodada, aprovada em 03/11/2026, sem mudar regra. Saem as palavras raras: parcela, elegível, efetivamente, concessão, pertinente, retroativo e vencimento chegam a zero no texto; "excedente" fica em 3 usos e "vinculado" em 11, só nos nomes do jogo. "Reserva" sai de 68 usos e fica em 107: deixa de descrever vida temporária, Integridade, PE, Pontos de Vínculo, movimento e a vida da barreira, e continua nos nomes, na munição, na domada e no sentido de guardar. O nível "Ampliada" das obras do Arquiteto virou **Extensa**, o excedente das entidades virou **sobra de dano**, "Parcelas adicionais" virou **Partes adicionais** (a âncora continua `#ritual--rit-parcelas`) e o sumário do capítulo 10 passou a seguir a ordem das páginas. São 206 trocas em 133 blocos. Números, custos, gatilhos e âncoras ficaram iguais.
+
+As duas paletas continuam com 425 páginas. Contra a R62, 131 páginas mudaram, as mesmas nas duas. A revisão visual passou pelas 131 na clara e não achou título solto, coluna quebrada nem tabela estourada. Seis âncoras mudaram de página, todas nas Bênçãos, e o Índice acompanhou.
+
+Guardas novas: `conferir-fundamento.py` falha com palavra rara visível no livro, com dois contra-testes e teste negativo numa cópia; o `conferir.py` da composição falha com palavra rara impressa nas duas paletas e com o sumário do capítulo 10 fora da ordem. `conferir-acao.py` lê a frase nova da Rajada.
+
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R62-para-R63.json`. As decisões, o que fica para a R64 e o parágrafo para quem mexe no Guia estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/PLANO-LINGUAGEM.md`. O questionário de leitura da R62 continua sem aplicação. A cadeia de integridade cobre R52 a R63. A R63 ainda não foi publicada.
+
+# Edição anterior R62
+
+*Versão v0.372.*
 
 Linguagem simples, decidida em 03/11/2026, sem mudar regra. "Saldo" saiu do livro: na montagem virou **pontos que sobram**; vida e PE viraram **vida atual** e **PE atuais**; o movimento virou **metros que restam**; o XP virou **XP guardado**. As âncoras e as chaves de código continuam com "saldo", porque o leitor não as vê. "Lugar propício" virou **ambiente propício**, que ganhou entrada no Glossário (105) e no Índice (453). A montagem usa sempre "destinar", a Reação é escrita como algo gasto, a ação de obra do Arquiteto passou a "Aumentar" e os termos usados antes da definição ganharam explicação no primeiro uso: seis com aposto curto e link, e a Intenção, numa célula de tabela, só com o link. São 123 trocas em 60 blocos. Números, custos, gatilhos e âncoras ficaram iguais.
 

@@ -106,7 +106,7 @@ for un,anc,trechos in [
     ('construcao','entidades-controle',['Condições Médias e Pesadas','especial comandada ativamente']),
     ('emanador','ema-forma',['As funções e a divisão dos pontos que sobram, registradas na ficha, continuam as mesmas','A troca não pode deixar a versão com mais pontos que sobram']),
     ('emanador','ema-manifestacao',['Aura permanece centrada em você','Queima-Roupa conserva seus alvos']),
-    ('ritual','rit-parcelas',['Com Mais Um','menor parcela','não amplia uma aplicação de cura ou apoio coletivo']),
+    ('ritual','rit-parcelas',['Com Mais Um','menor parte','não amplia uma aplicação de cura ou apoio coletivo']),
     ('construcao','entidades-medidas',['A distância até um alvo ou ponto usa a Classe real','Classe real do uso + 1']),
     ('construcao','entidades-restricoes',['A dificuldade deve recair sobre quem executa']),
     ('construcao','entidade-vigia-habilidades',['Firmeza: perícia','começo do próximo turno de Bruna']),
@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r62/BLOCOS-R62.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r63/BLOCOS-R63.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
@@ -145,6 +145,14 @@ _livro_md=Path(livro.R41).read_text(encoding='utf-8')
 check('Nenhum "saldo" visível no livro (R62: virou pontos que sobram)',_saldo_visivel(_livro_md)==0)
 check('Contra-teste: um "saldo" no texto é contado',_saldo_visivel(_livro_md+'\nO saldo volta.')==1)
 check('Contra-teste: âncora e destino de link com saldo não contam',_saldo_visivel('<a id="fundamento-link-saldo"></a>[Pontos que sobram](#fundamento-link-saldo)')==0)
+# R63 (03/11/2026): palavras raras saíram do texto. "Excedente" sobrevive só nos nomes Reserva Excedente e Ritual de Excedente.
+_RARAS=r'\b(?:parcelas?|eleg[ií]ve(?:l|is)|efetivamente|concess(?:ão|ões)|pertinentes?|retroativ\w*|vencimentos?)\b|\bexcedentes?\b(?<!Reserva Excedente)(?<!Ritual de Excedente)(?<!^Excedente)|reserva (?:coletiva|de Reação)|\bAmpliada\b'
+def _raras_visiveis(t):
+    t=re.sub(r'<!--.*?-->','',t,flags=re.S);t=re.sub(r'<a [^>]*></a>','',t);t=re.sub(r'\]\([^)]*\)',']',t)
+    return re.findall(_RARAS,t,flags=re.M)
+check('Nenhuma palavra rara visível no livro (R63)',_raras_visiveis(_livro_md)==[])
+check('Contra-teste: uma "parcela" no texto é contada',len(_raras_visiveis(_livro_md+'\nUma parcela volta.'))==1)
+check('Contra-teste: âncora e destino de link com parcelas não contam',_raras_visiveis('<a id="ritual--rit-parcelas"></a>[Partes adicionais](#ritual--rit-parcelas)')==[])
 check('Fórmula publicada com o nome novo','**Pontos que sobram = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**' in _livro_md)
 meta=json.loads((base.parent/'EDICAO-ATUAL.json').read_text())
 for ed in ['claro','noturno']:

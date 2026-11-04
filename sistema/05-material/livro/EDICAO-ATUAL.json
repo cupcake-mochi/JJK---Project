@@ -1,8 +1,8 @@
 {
   "livro": "Ciclo Maldito",
-  "revisao": "R62",
+  "revisao": "R63",
   "paginas": 425,
-  "revisado_em": "2026-11-03T20:37:32.447872-03:00",
+  "revisado_em": "2026-11-03T21:12:53.420706-03:00",
   "fuso_do_projeto": "America/Sao_Paulo",
   "publicacao": {
     "origem": "main",
@@ -11,13 +11,13 @@
   },
   "claro": {
     "arquivo": "Ciclo-Maldito-Livro-de-Regras.pdf",
-    "sha256": "0b11edc71842637144d81fb77cc55d73b1a08eb26f778d87dc2de4c3010b41d8",
+    "sha256": "532e39b34e980f0b546854eec6ae7c3a7cbaba51e472cea12269fa80acbdb4da",
     "url": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf"
   },
   "noturno": {
     "arquivo": "Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
     "paleta": "Vinho e pêssego",
-    "sha256": "00d56d11cc1a84e30e24d466f37aed4b76122395e227e13c5ac49d8c5858cba8",
+    "sha256": "74c2f057c4fd4847d4534191e0c61fa7ac6204a314472273379bb8ba50e3f214",
     "url": "https://ciclo-maldito.vercel.app/noturno"
   },
   "conteudo": "Mesmo texto, paginação e navegação nas duas versões."

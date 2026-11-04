@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "R63-001",
+    "bloco": "geral--queda-criatura",
+    "antes": "O alvo falha: recebe uma parcela de 5, e quem caiu, de 6.",
+    "depois": "O alvo falha: recebe uma parte de 5, e quem caiu, de 6.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-002",
+    "bloco": "dano--dano",
+    "antes": "Num golpe com mais de um tipo, mantenha as parcelas separadas nesta etapa.",
+    "depois": "Num golpe com mais de um tipo, mantenha cada tipo separado nesta etapa.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-003",
+    "bloco": "dano--dano",
+    "antes": "depois dos multiplicadores aplicáveis à parcela.",
+    "depois": "depois dos multiplicadores aplicáveis àquela parte.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-004",
+    "bloco": "dano--reducao",
+    "antes": "Se houver parcelas de tipos diferentes,",
+    "depois": "Se houver partes de tipos diferentes,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-005",
+    "bloco": "dano--reducao",
+    "antes": "Desconte uma redução limitada a um tipo apenas dessa parcela;",
+    "depois": "Desconte uma redução limitada a um tipo apenas dessa parte;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-006",
+    "bloco": "origens--receptaculo-acordos",
+    "antes": "**mínimo 1 em cada parcela**",
+    "depois": "**mínimo 1 em cada metade**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-007",
+    "bloco": "origens--restricao-menores-corporais",
+    "antes": "Você aprendeu a preservar uma parcela de sua energia,",
+    "depois": "Você aprendeu a preservar uma parte de sua energia,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-008",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "A parcela não pode ser transferida novamente. Em dano misto, desconte da vida restante as parcelas da maior para a menor",
+    "depois": "Essa parte não pode ser transferida novamente. Em dano misto, desconte da vida restante as partes da maior para a menor",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-009",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "aplica essa defesa à sua parcela.",
+    "depois": "aplica essa defesa à sua parte.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-010",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "Resistência a Cortante deixa sua parcela em",
+    "depois": "Resistência a Cortante deixa sua parte em",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-011",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "Se a parcela levar você a zero,",
+    "depois": "Se essa parte levar você a zero,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-012",
+    "bloco": "emanador--ema-remodelar",
+    "antes": "calcular parcelas secundárias.",
+    "depois": "calcular partes secundárias.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-013",
+    "bloco": "emanador--ema-fluxo",
+    "antes": "Se reservar Corrigir, pague essa parcela somente",
+    "depois": "Se reservar Corrigir, pague essa parte somente",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-014",
+    "bloco": "equip--eqp-escudo",
+    "antes": "sem a parcela de Destreza.",
+    "depois": "sem a parte de Destreza.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-015",
+    "bloco": "equip--eqa-armas",
+    "antes": "**Volume** é a parcela da carga",
+    "depois": "**Volume** é a parte da carga",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-016",
+    "bloco": "progressao--prog-semana",
+    "antes": "| Missão na semana | Parcela recebida |",
+    "depois": "| Missão na semana | Parte recebida |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-017",
+    "bloco": "progressao--prog-semana",
+    "antes": "| Metade da parcela anterior. |",
+    "depois": "| Metade da parte anterior. |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-018",
+    "bloco": "progressao--prog-atualizar",
+    "antes": "não somente a parcela do nível",
+    "depois": "não somente a parte do nível",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-019",
+    "bloco": "progressao--prog-guilda",
+    "antes": "a parcela mínima é **um quarto**",
+    "depois": "a parte mínima é **um quarto**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-020",
+    "bloco": "fundamento--funcoes",
+    "antes": "Cada aliado elegível recebe a parcela registrada,",
+    "depois": "Cada aliado válido recebe a parte registrada,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\". \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-021",
+    "bloco": "fundamento--funcoes",
+    "antes": "Aplique esse teto à soma das parcelas de cura",
+    "depois": "Aplique esse teto à soma das partes de cura",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-022",
+    "bloco": "fundamento--funcoes",
+    "antes": "fornecem 4d8 de cura para cada aliado elegível na região. O teto é conferido antes de converter a parcela em dados.",
+    "depois": "fornecem 4d8 de cura para cada aliado válido na região. O teto é conferido antes de converter a parte em dados.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\". \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-023",
+    "bloco": "fundamento--formas",
+    "antes": "aplicam sua parcela inteira a cada aliado elegível,",
+    "depois": "aplicam sua parte inteira a cada aliado válido,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\". \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-024",
+    "bloco": "fundamento--mesclas",
+    "antes": "a partir do dano elegível: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas parcelas iniciais aplicadas por acerto ou falha no TR. Reúna essas parcelas",
+    "depois": "a partir do dano que conta: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas partes iniciais aplicadas por acerto ou falha no TR. Reúna essas partes",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\". \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-025",
+    "bloco": "fundamento--mesclas",
+    "antes": "permanecem nessa parcela e ficam sem uso",
+    "depois": "permanecem nessa parte e ficam sem uso",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-026",
+    "bloco": "fundamento--interfaces",
+    "antes": "Algumas capacidades alteram uma montagem ou copiam uma parcela dela.",
+    "depois": "Algumas capacidades alteram uma montagem ou copiam uma parte dela.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-027",
+    "bloco": "fundamento--interfaces",
+    "antes": "Copia para um aliado adicional a parcela de cura",
+    "depois": "Copia para um aliado adicional a parte de cura",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-028",
+    "bloco": "fundamento--interfaces",
+    "antes": "Com Mais Um, use uma das menores parcelas.",
+    "depois": "Com Mais Um, use uma das menores partes.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-029",
+    "bloco": "catalogo--cat-catalogo",
+    "antes": "**Salto** leva uma parcela de dano a outro alvo;",
+    "depois": "**Salto** leva uma parte do dano a outro alvo;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-030",
+    "bloco": "catalogo--cat-catalogo",
+    "antes": "que aumenta a parcela de dano,",
+    "depois": "que aumenta a parte de dano,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-031",
+    "bloco": "catalogo--melhoria-sugar",
+    "antes": "Some apenas as parcelas iniciais",
+    "depois": "Some apenas as partes iniciais",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-032",
+    "bloco": "catalogo--melhoria-mais-um",
+    "antes": "entre eles, em parcelas inteiras:",
+    "depois": "entre eles, em partes inteiras:",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-033",
+    "bloco": "catalogo--melhoria-queima",
+    "antes": "metade dos dados daquela parcela inicial,",
+    "depois": "metade dos dados daquela parte inicial,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-034",
+    "bloco": "catalogo--melhoria-remate",
+    "antes": "conferida antes da parcela de dano.",
+    "depois": "conferida antes da parte de dano.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-035",
+    "bloco": "catalogo--melhoria-reserva",
+    "antes": "uma cura coletiva pode guardar sua parcela",
+    "depois": "uma cura coletiva pode guardar sua parte",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-036",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "Compartilhamento e Tiros copiam uma parcela do feitiço; [Parcelas adicionais](#ritual--rit-parcelas)",
+    "depois": "Compartilhamento e Tiros copiam uma parte do feitiço; [Partes adicionais](#ritual--rit-parcelas)",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-037",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "com uma cópia da parcela definida abaixo.",
+    "depois": "com uma cópia da parte definida abaixo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-038",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "contra outro alvo, com a parcela definida abaixo.",
+    "depois": "contra outro alvo, com a parte definida abaixo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-039",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "os alvos de Tiros e as parcelas copiadas",
+    "depois": "os alvos de Tiros e as partes copiadas",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-040",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "Consulte [Parcelas adicionais](#ritual--rit-parcelas) para definir",
+    "depois": "Consulte [Partes adicionais](#ritual--rit-parcelas) para definir",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-041",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "Parcelas adicionais\n",
+    "depois": "Partes adicionais\n",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-042",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "que recebeu a **menor parcela**.",
+    "depois": "que recebeu a **menor parte**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-043",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "só copia a parcela de 3.",
+    "depois": "só copia a parte de 3.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-044",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "Copie a **menor parcela de dados**",
+    "depois": "Copie a **menor parte de dados**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-045",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "**Exemplo.** Parcelas de 4d8,",
+    "depois": "**Exemplo.** Partes de 4d8,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-046",
+    "bloco": "ritual--rit-parcelas",
+    "antes": "nem elevam a parcela original.",
+    "depois": "nem elevam a parte original.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-047",
+    "bloco": "ritual--rit-limites",
+    "antes": "A parcela no erro elimina o risco",
+    "depois": "O dano no erro elimina o risco",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-048",
+    "bloco": "ritual--rit-limites",
+    "antes": "a partir da parcela daquele tiro.",
+    "depois": "a partir da parte daquele tiro.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-049",
+    "bloco": "campo--inv-energia",
+    "antes": "A parcela ímpar fica com você.",
+    "depois": "O ponto ímpar fica com você.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-050",
+    "bloco": "campo--inv-energia",
+    "antes": "Não gaste uma parcela se a execução",
+    "depois": "Não gaste parte nenhuma se a execução",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-051",
+    "bloco": "campo--inv-armado",
+    "antes": "devolva metade do PE efetivamente pago, arredondada para baixo. Havendo dois pagadores, devolva à reserva metade da parcela que ela pagou,",
+    "depois": "devolva metade do PE de fato pago, arredondada para baixo. Havendo dois pagadores, devolva à reserva metade da parte que ela pagou,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\". \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-052",
+    "bloco": "campo--inv-reparo",
+    "antes": "Sucesso recupera a parcela da tabela,",
+    "depois": "Sucesso recupera a parte indicada na tabela,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-053",
+    "bloco": "construcao--entidade-cao",
+    "antes": "para a parcela de Defesa de suas entidades.",
+    "depois": "para a parte de Defesa de suas entidades.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-054",
+    "bloco": "construcao--entidades-vida-defesa",
+    "antes": "A proteção substitui a parcela de Essência",
+    "depois": "A proteção substitui a parte de Essência",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-055",
+    "bloco": "consulta--consulta-glossario-5",
+    "antes": "Parcela da Defesa fornecida",
+    "depois": "Parte da Defesa fornecida",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-056",
+    "bloco": "dano--cura",
+    "antes": "Os 2 excedentes não viram vida temporária.",
+    "depois": "Os 2 de cura que passam do máximo não viram vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite."
+  },
+  {
+    "id": "R63-057",
+    "bloco": "emanador--ema-propriedades",
+    "antes": "Munição que então fique incompatível ou excedente permanece no item,",
+    "depois": "Munição que então fique incompatível ou além da capacidade permanece no item,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite."
+  },
+  {
+    "id": "R63-058",
+    "bloco": "fundamento--pontos",
+    "antes": "no máximo 2 × Classe. O excedente se perde.",
+    "depois": "no máximo 2 × Classe. O que passar disso se perde.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite."
+  },
+  {
+    "id": "R63-059",
+    "bloco": "fundamento--funcoes",
+    "antes": "> **Teto da reserva.** Uma concessão de 6 de vida temporária a uma criatura com vida máxima 10 e sem reserva anterior fica limitada a **5**, metade desse máximo. O ponto de vida temporária excedente se perde.",
+    "depois": "> **Teto da vida temporária.** Uma criatura com vida máxima 10 e sem vida temporária anterior que receba 6 de vida temporária fica limitada a **5**, metade desse máximo. O ponto de vida temporária que passa do teto se perde.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite. Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-060",
+    "bloco": "fundamento--ampliar",
+    "antes": "Pontos excedentes podem ficar sem uso.",
+    "depois": "Os pontos a mais podem ficar sem uso.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite."
+  },
+  {
+    "id": "R63-061",
+    "bloco": "construcao--entidades-ampliacao",
+    "antes": "o preço Leve é 2 e o excedente se perde.",
+    "depois": "o preço Leve é 2 e o resto se perde.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Excedente\" vira o que passa do limite."
+  },
+  {
+    "id": "R63-062",
+    "bloco": "campo--inv-queda",
+    "antes": "ou quando o excedente além de zero supera metade da vida máxima.",
+    "depois": "ou quando a sobra de dano supera metade da vida máxima.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano."
+  },
+  {
+    "id": "R63-063",
+    "bloco": "campo--inv-queda",
+    "antes": "Excedente é quanto do dano sobrou depois de zerar a vida atual. Use o dano efetivamente recebido,",
+    "depois": "Sobra de dano é o que resta do dano depois de zerar a vida atual. Use o dano de fato recebido,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano. \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-064",
+    "bloco": "campo--inv-queda",
+    "antes": "cai com excedente 22. Esse dano não alcançou 52 e o excedente não passou de 26. Se recebesse 35, o excedente seria 27",
+    "depois": "cai com 22 de sobra. Esse dano não alcançou 52 e a sobra não passou de 26. Se recebesse 35, a sobra seria 27",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano."
+  },
+  {
+    "id": "R63-065",
+    "bloco": "campo--inv-retorno",
+    "antes": "O dano posterior soma ao excedente da queda. Uma nova parcela direta que leve",
+    "depois": "O dano posterior soma à sobra da queda. Um novo dano direto que leve",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano. \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-066",
+    "bloco": "campo--inv-retorno",
+    "antes": "Zere o excedente ao religar.",
+    "depois": "Zere a sobra ao religar.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano."
+  },
+  {
+    "id": "R63-067",
+    "bloco": "campo--inv-retorno",
+    "antes": "Um corpo desligado com excedente 22 é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com excedente 27; uma nova parcela direta poderá destruí-lo.",
+    "depois": "Um corpo desligado com 22 de sobra é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com 27 de sobra; um novo dano direto poderá destruí-lo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O excedente da entidade passa a se chamar sobra de dano. \"Parcela\" vira \"parte\"."
+  },
+  {
+    "id": "R63-068",
+    "bloco": "vanguarda--van-besta",
+    "antes": "um virote comum vinculado à Sequência.",
+    "depois": "um virote comum ligado à Sequência.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-069",
+    "bloco": "incursor--inc-pugilista",
+    "antes": "Se o efeito estiver vinculado a um ataque seu,",
+    "depois": "Se o efeito estiver ligado a um ataque seu,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-070",
+    "bloco": "incursor--inc-destino",
+    "antes": "efeitos vinculados ao resultado do primeiro d20",
+    "depois": "efeitos ligados ao resultado do primeiro d20",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-071",
+    "bloco": "pericias--ambiente",
+    "antes": "comandar criaturas vinculadas seguem",
+    "depois": "comandar criaturas ligadas a você seguem",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-072",
+    "bloco": "progressao--prog-capacidades",
+    "antes": "A dupla antes vinculada a um mesmo espaço",
+    "depois": "A dupla antes ligada a um mesmo espaço",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-073",
+    "bloco": "fundamento--familias",
+    "antes": "uma recuperação pessoal vinculada ao dano,",
+    "depois": "uma recuperação pessoal ligada ao dano,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-074",
+    "bloco": "rotas--rota-passivas-marciais",
+    "antes": "Uma pequena maldição vinculada ao seu estilo",
+    "depois": "Uma pequena maldição ligada ao seu estilo",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vinculado\" vira \"ligado a\"; arma vinculada e Retorno Vinculado ficam, por serem nomes de regra."
+  },
+  {
+    "id": "R63-075",
+    "bloco": "ab--ab-criacao",
+    "antes": "Escolha a Origem e duas menores elegíveis;",
+    "depois": "Escolha a Origem e duas menores permitidas;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-076",
+    "bloco": "ab--ab-origem",
+    "antes": "**duas menores elegíveis** (capacidades",
+    "depois": "**duas menores permitidas** (capacidades",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-077",
+    "bloco": "origens--origem-escolhas",
+    "antes": "Escolha duas opções elegíveis do catálogo",
+    "depois": "Escolha duas opções permitidas do catálogo",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-078",
+    "bloco": "origens--origem-receptaculo",
+    "antes": "como modalidade da sua marcante e duas menores elegíveis.",
+    "depois": "como modalidade da sua marcante e duas menores permitidas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-079",
+    "bloco": "origens--origem-descendente",
+    "antes": "Escolha a **marcante do seu clã** e duas menores elegíveis.",
+    "depois": "Escolha a **marcante do seu clã** e duas menores permitidas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-080",
+    "bloco": "origens--descendente-gojo",
+    "antes": "quando aprender uma elegível;",
+    "depois": "quando aprender uma permitida;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-081",
+    "bloco": "origens--descendente-gojo",
+    "antes": "não oferecem rolagem elegível, e ataques comuns não se tornam elegíveis pela sua Origem.",
+    "depois": "não oferecem rolagem válida, e ataques comuns não se tornam válidos pela sua Origem.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-082",
+    "bloco": "origens--origem-corpo",
+    "antes": "**Existência Artificial**, e duas menores elegíveis.",
+    "depois": "**Existência Artificial**, e duas menores permitidas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-083",
+    "bloco": "origens--origem-sem-tecnica",
+    "antes": "Conserve a base, a marcante e suas duas menores elegíveis.",
+    "depois": "Conserve a base, a marcante e suas duas menores permitidas.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-084",
+    "bloco": "origens--legado-criar",
+    "antes": "uma marcante e duas menores elegíveis, sem reunir",
+    "depois": "uma marcante e duas menores permitidas, sem reunir",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-085",
+    "bloco": "guia--guia-tratamento",
+    "antes": "o aliado precisa ser elegível para cura ou ter",
+    "depois": "o aliado precisa poder receber cura ou ter",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-086",
+    "bloco": "emanador--ema-modulacoes",
+    "antes": "Acrescentar um destinatário elegível,",
+    "depois": "Acrescentar um destinatário válido,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-087",
+    "bloco": "evocador--ev-usos",
+    "antes": "vantagem em um ataque elegível ou",
+    "depois": "vantagem em um ataque válido ou",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-088",
+    "bloco": "evocador--ev-principal-reflexa",
+    "antes": "| Intervenção elegível | Origem |",
+    "depois": "| Intervenção permitida | Origem |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-089",
+    "bloco": "fundamento--formas",
+    "antes": "pode curar os seis aliados elegíveis na região.",
+    "depois": "pode curar os seis aliados válidos na região.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-090",
+    "bloco": "fundamento--mesclas",
+    "antes": "**16 + 28 = 44 de dano elegível** recupera **11 de vida**, dentro do limite 15 da conjuração. Dano elegível zero produz recuperação zero.",
+    "depois": "**16 + 28 = 44 de dano que conta** recupera **11 de vida**, dentro do limite 15 da conjuração. Sem dano que conte, a recuperação é zero.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-091",
+    "bloco": "fundamento--mesclas",
+    "antes": "Com seis aliados elegíveis na região,",
+    "depois": "Com seis aliados válidos na região,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-092",
+    "bloco": "fundamento--maxima",
+    "antes": "A cura coletiva alcança cada aliado elegível na região.",
+    "depois": "A cura coletiva alcança cada aliado válido na região.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-093",
+    "bloco": "catalogo--melhoria-alvo-de-caca",
+    "antes": "Cada tiro elegível de Rajada conta.",
+    "depois": "Cada tiro válido de Rajada conta.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-094",
+    "bloco": "catalogo--melhoria-sugar",
+    "antes": "Depois, reúna o dano elegível de todos",
+    "depois": "Depois, reúna o dano que conta de todos",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-095",
+    "bloco": "catalogo--restricao-queima-roupa",
+    "antes": "a opção de Restrição Leve das áreas elegíveis,",
+    "depois": "a opção de Restrição Leve das áreas permitidas,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-096",
+    "bloco": "rotas--rota-estimulo",
+    "antes": "que não transporte essa Kata continua elegível.",
+    "depois": "que não transporte essa Kata continua podendo receber o adicional.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-097",
+    "bloco": "construcao--entidades-formas",
+    "antes": "Leve nas três áreas elegíveis,",
+    "depois": "Leve nas três áreas permitidas,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-098",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "= 1 ponto de cura. Cada aliado elegível na região",
+    "depois": "= 1 ponto de cura. Cada aliado válido na região",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-099",
+    "bloco": "consulta--consulta-glossario-4",
+    "antes": "Uma capacidade central e duas escolhas elegíveis da Origem,",
+    "depois": "Uma capacidade central e duas escolhas permitidas da Origem,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-100",
+    "bloco": "consulta--consulta-glossario-4",
+    "antes": "uma marcante, duas menores elegíveis e opções de rota.",
+    "depois": "uma marcante, duas menores permitidas e opções de rota.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Elegível\" vira permitida, válido ou que conta."
+  },
+  {
+    "id": "R63-101",
+    "bloco": "ab--ab-equipamento",
+    "antes": "Aplique qualquer alteração efetivamente recebida pela ficha.",
+    "depois": "Aplique qualquer alteração de fato recebida pela ficha.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-102",
+    "bloco": "origens--descendente-inumaki",
+    "antes": "Comparem os d20 efetivamente escolhidos,",
+    "depois": "Comparem os d20 de fato escolhidos,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-103",
+    "bloco": "origens--feto-beneficios",
+    "antes": "dos PE que efetivamente recuperaria",
+    "depois": "dos PE que de fato recuperaria",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-104",
+    "bloco": "emanador--ema-desdobramento",
+    "antes": "Use os preços da Classe efetivamente conjurada,",
+    "depois": "Use os preços da Classe de fato conjurada,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-105",
+    "bloco": "emanador--ema-artes",
+    "antes": "Confira a Classe efetivamente usada,",
+    "depois": "Confira a Classe de fato usada,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-106",
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "Confira a Classe efetivamente utilizada,",
+    "depois": "Confira a Classe de fato utilizada,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-107",
+    "bloco": "incursor--inc-movimento",
+    "antes": "Some a distância efetivamente percorrida",
+    "depois": "Some a distância de fato percorrida",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-108",
+    "bloco": "incursor--inc-perfeita",
+    "antes": "não ignora efeitos que efetivamente capturem",
+    "depois": "não ignora efeitos que de fato capturem",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-109",
+    "bloco": "equip--eqi-exploracao",
+    "antes": "A distância que efetivamente cair",
+    "depois": "A distância que de fato cair",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-110",
+    "bloco": "catalogo--restricao-fragil",
+    "antes": "Some o preço que você efetivamente pagou",
+    "depois": "Some o preço que você de fato pagou",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-111",
+    "bloco": "rotas--rota-combate",
+    "antes": "o número efetivamente rolado",
+    "depois": "o número de fato rolado",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-112",
+    "bloco": "poderes--protecao",
+    "antes": "o teste que exigiria efetivamente deter",
+    "depois": "o teste que exigiria de fato deter",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-113",
+    "bloco": "poderes--multiplos",
+    "antes": "dos vencedores que efetivamente o derrotaram",
+    "depois": "dos vencedores que de fato o derrotaram",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Efetivamente\" vira \"de fato\"."
+  },
+  {
+    "id": "R63-114",
+    "bloco": "dano--temporarios",
+    "antes": "Compare o que resta com a nova concessão, já limitada pelo teto,",
+    "depois": "Compare o que resta com o novo valor recebido, já limitado pelo teto,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-115",
+    "bloco": "dano--temporarios",
+    "antes": "Uma nova concessão de 9 a deixa com 9 temporários.",
+    "depois": "Se receber outros 9, fica com 9 temporários.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-116",
+    "bloco": "ab--ab-capacidades",
+    "antes": "confira suas concessões iniciais em",
+    "depois": "confira as que você já começa tendo em",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-117",
+    "bloco": "origens--descendente-beneficios",
+    "antes": "Ferramentas especiais ficam fora da concessão.",
+    "depois": "Ferramentas especiais ficam fora do empréstimo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-118",
+    "bloco": "origens--descendente-beneficios",
+    "antes": "pagamento, serviço ou concessão.",
+    "depois": "pagamento, serviço ou favor.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-119",
+    "bloco": "emanador--ema-instintiva",
+    "antes": "Uma concessão expressa de conjuração gratuita conserva",
+    "depois": "Uma regra que dê expressamente conjuração gratuita conserva",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-120",
+    "bloco": "catalogo--melhoria-sem-cura",
+    "antes": "e ele pode receber uma nova concessão desse recurso.",
+    "depois": "e ele pode receber esse recurso de novo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-121",
+    "bloco": "aptidoes--apt-refino",
+    "antes": "salvo uma concessão específica da criação do personagem.",
+    "depois": "salvo regra específica da criação do personagem.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-122",
+    "bloco": "aptidoes--apt-marcos",
+    "antes": "Uma concessão específica de sua Origem também conserva",
+    "depois": "Uma aptidão dada especificamente por sua Origem também conserva",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-123",
+    "bloco": "aptidoes--apt-reversa",
+    "antes": "As primeiras faixas atendem às concessões específicas que",
+    "depois": "As primeiras faixas atendem às regras específicas que",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-124",
+    "bloco": "aptidoes--apt-simples",
+    "antes": "As faixas inferiores servem a concessões específicas da criação.",
+    "depois": "As faixas inferiores servem a regras específicas da criação.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-125",
+    "bloco": "aptidoes--apt-propria",
+    "antes": "Uma concessão da criação que já preencha",
+    "depois": "Uma regra da criação que já preencha",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-126",
+    "bloco": "campo--inv-respostas",
+    "antes": "A concessão não inventa uma capacidade",
+    "depois": "Essa permissão não inventa uma capacidade",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"concessão\"."
+  },
+  {
+    "id": "R63-127",
+    "bloco": "geral--ler",
+    "antes": "use a perícia pertinente;",
+    "depois": "use a perícia que fizer sentido;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-128",
+    "bloco": "origens--descendente-beneficios",
+    "antes": "verdadeira, mas parcial, pertinente à pergunta",
+    "depois": "verdadeira, mas parcial, ligada à pergunta",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-129",
+    "bloco": "origens--restricao-ce4",
+    "antes": "materiais e testes pertinentes continuam",
+    "depois": "materiais e testes que façam sentido continuam",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-130",
+    "bloco": "evocador--ev-principal-reflexa",
+    "antes": "para a próxima ameaça pertinente.",
+    "depois": "para a próxima ameaça em que ela se aplique.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-131",
+    "bloco": "consulta--consulta-missao",
+    "antes": "os recursos usados e a regra pertinente.",
+    "depois": "os recursos usados e a regra que se aplica.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-132",
+    "bloco": "consulta--consulta-conduzir",
+    "antes": "capacidade da ficha ou outra regra pertinente.",
+    "depois": "capacidade da ficha ou outra regra que se aplique.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Pertinente\" vira o que faz sentido ou se aplica."
+  },
+  {
+    "id": "R63-133",
+    "bloco": "geral--aparar",
+    "antes": "Resolver um revide não transforma retroativamente um acerto em erro ou recupera recursos gastos.",
+    "depois": "Resolver um revide não volta atrás para transformar um acerto em erro nem para recuperar recursos gastos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"retroativamente\"."
+  },
+  {
+    "id": "R63-134",
+    "bloco": "dano--leves",
+    "antes": "não muda retroativamente a ordem já registrada.",
+    "depois": "não muda a ordem já registrada.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"retroativamente\"."
+  },
+  {
+    "id": "R63-135",
+    "bloco": "dano--derrota",
+    "antes": "Não transforme uma derrota em morte retroativamente por preferência",
+    "depois": "Não transforme depois uma derrota em morte por preferência",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"retroativamente\"."
+  },
+  {
+    "id": "R63-136",
+    "bloco": "catalogo--melhoria-acumulo",
+    "antes": "Não exige reduzir retroativamente o feitiço.",
+    "depois": "Não é preciso voltar atrás e reduzir o feitiço.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"retroativamente\"."
+  },
+  {
+    "id": "R63-137",
+    "bloco": "ritual--rit-ajuda",
+    "antes": "nem reduzir retroativamente o PE pago.",
+    "depois": "nem reduzir depois o PE pago.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: Frase reescrita sem \"retroativamente\"."
+  },
+  {
+    "id": "R63-138",
+    "bloco": "campo--inv-manutencao",
+    "antes": "Recuperar PE entre dois vencimentos não religa",
+    "depois": "Recuperar PE entre duas cobranças não religa",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vencimento\" vira \"cobrança\"."
+  },
+  {
+    "id": "R63-139",
+    "bloco": "campo--inv-manutencao",
+    "antes": "No vencimento seguinte,",
+    "depois": "Na cobrança seguinte,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Vencimento\" vira \"cobrança\"."
+  },
+  {
+    "id": "R63-140",
+    "bloco": "evocador--ev-posicao",
+    "antes": "encerra as preparações que dependiam dessa reserva,",
+    "depois": "encerra as preparações que dependiam dela,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R63-141",
+    "bloco": "evocador--ev-multiplas-retirada",
+    "antes": "Os dois usos disputam a mesma reserva coletiva,",
+    "depois": "Os dois usos gastam a mesma Reação coletiva,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R63-142",
+    "bloco": "incursor--inc-respostas",
+    "antes": "Evasão e Reflexo disputam essa reserva com",
+    "depois": "Evasão e Reflexo disputam essa Reação com",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: A Reação se escreve como algo que se gasta, não como reserva."
+  },
+  {
+    "id": "R63-143",
+    "bloco": "geral--saltos",
+    "antes": "Gaste o movimento reservado para a tentativa.",
+    "depois": "Gaste o movimento separado para a tentativa.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de movimento vira metros ou deslocamento."
+  },
+  {
+    "id": "R63-144",
+    "bloco": "geral--voo",
+    "antes": "não cria uma segunda reserva completa.",
+    "depois": "não dá outro deslocamento completo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de movimento vira metros ou deslocamento."
+  },
+  {
+    "id": "R63-145",
+    "bloco": "geral--voo",
+    "antes": "concedem outra reserva igual ao deslocamento da modalidade escolhida. Gaste essa reserva somente nessa modalidade, sem voltar a descontar nela os metros de outra reserva.",
+    "depois": "concedem outra quantidade de metros igual ao deslocamento da modalidade escolhida. Gaste esses metros somente nessa modalidade, sem voltar a descontar nela os metros de outra fonte.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de movimento vira metros ou deslocamento."
+  },
+  {
+    "id": "R63-146",
+    "bloco": "geral--voo",
+    "antes": "nem renova uma reserva própria de habilidade.",
+    "depois": "nem renova os metros próprios de uma habilidade.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de movimento vira metros ou deslocamento."
+  },
+  {
+    "id": "R63-147",
+    "bloco": "dano--leves",
+    "antes": "Não reduza também sua reserva de deslocamento por essa condição.",
+    "depois": "Não reduza também seu deslocamento por essa condição.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de movimento vira metros ou deslocamento."
+  },
+  {
+    "id": "R63-148",
+    "bloco": "geral--concentracao",
+    "antes": "**vida temporária**, uma reserva que absorve dano antes da vida comum,",
+    "depois": "**vida temporária**, pontos separados que absorvem dano antes da vida comum,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-149",
+    "bloco": "geral--quedas",
+    "antes": "a reserva separada que absorve dano antes da vida,",
+    "depois": "os pontos separados que absorvem dano antes da vida,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-150",
+    "bloco": "dano--temporarios",
+    "antes": "Algumas capacidades concedem uma reserva temporária. Anote-a separadamente da reserva comum.",
+    "depois": "Algumas capacidades concedem vida temporária ou energia temporária. Anote-a separadamente da vida ou dos PE comuns.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-151",
+    "bloco": "dano--temporarios",
+    "antes": "| Reserva | Limite e uso |",
+    "depois": "| Recurso | Limite e uso |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-152",
+    "bloco": "dano--temporarios",
+    "antes": "Máximo zero não cria reserva temporária.",
+    "depois": "Máximo zero não cria vida nem energia temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-153",
+    "bloco": "dano--temporarios",
+    "antes": "Reservas temporárias do mesmo recurso **não se somam**.",
+    "depois": "Valores temporários do mesmo recurso **não se somam**.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-154",
+    "bloco": "dano--temporarios",
+    "antes": "Conservar a reserva não repõe pontos gastos.",
+    "depois": "Conservar o que restou não repõe pontos gastos.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-155",
+    "bloco": "dano--temporarios",
+    "antes": "Não refaz uma reserva temporária concedida por uma capacidade.",
+    "depois": "Não refaz a energia temporária concedida por uma capacidade.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-156",
+    "bloco": "origens--receptaculo-excecoes",
+    "antes": "A reserva dura até o fim da cena e respeita o teto",
+    "depois": "Esses PE temporários duram até o fim da cena e respeitam o teto",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-157",
+    "bloco": "origens--feto-beneficios",
+    "antes": "respeitando o teto geral e sem somar reservas.",
+    "depois": "respeitando o teto geral e sem somar a outra vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-158",
+    "bloco": "bastiao--bas-aliados",
+    "antes": "Depois das proteções e da reserva do aliado,",
+    "depois": "Depois das proteções e da vida temporária do aliado,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-159",
+    "bloco": "bastiao--bas-combatente",
+    "antes": "Eles formam uma reserva separada, gasta antes dos PE comuns,",
+    "depois": "São PE temporários, gastos antes dos PE comuns,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-160",
+    "bloco": "bastiao--bas-combatente",
+    "antes": "Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera",
+    "depois": "Eles não se somam ao que restar de outros PE temporários. Novos sucessos podem repor o valor até maestria, mas não fazê-lo passar disso. Gastá-los não recupera",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-161",
+    "bloco": "vanguarda--van-feiticos",
+    "antes": "A reserva surge depois da resolução.",
+    "depois": "Esses PE surgem depois da resolução.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-162",
+    "bloco": "evocador--ev-principal-protecao",
+    "antes": "mantém somente a maior reserva disponível",
+    "depois": "mantém somente o maior valor disponível",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-163",
+    "bloco": "fundamento--funcoes",
+    "antes": "respeita o teto da reserva do beneficiário.",
+    "depois": "respeita o teto de vida temporária do beneficiário.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-164",
+    "bloco": "fundamento--funcoes",
+    "antes": "Vida temporária usa o teto, a duração e a regra de reservas do livro; não se soma a outra reserva.",
+    "depois": "Vida temporária usa o teto, a duração e as regras gerais do livro; não se soma a outra vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-165",
+    "bloco": "fundamento--funcoes",
+    "antes": "para o recebimento e a substituição de reservas.",
+    "depois": "para receber e substituir vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-166",
+    "bloco": "catalogo--melhoria-sem-cura",
+    "antes": "As reservas de vida temporária permanecem,",
+    "depois": "A vida temporária permanece,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-167",
+    "bloco": "catalogo--melhoria-divide",
+    "antes": "antes de gastar suas reservas,",
+    "depois": "antes de gastar sua vida temporária ou sua vida,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-168",
+    "bloco": "catalogo--melhoria-concentrada-duradoura",
+    "antes": "Anteparo, Rastro e reservas de cura mantêm",
+    "depois": "Anteparo, Rastro e a cura guardada por Reserva mantêm",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-169",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "antes": "Uma conjuração concede a reserva uma vez,",
+    "depois": "Uma conjuração concede essa vida temporária uma vez,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-170",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "antes": "Essa vida segue as regras gerais: não se soma a outra reserva,",
+    "depois": "Essa vida segue as regras gerais: não se soma a outra vida temporária,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-171",
+    "bloco": "rotas--rota-bancada",
+    "antes": "A reserva temporária segue seus limites",
+    "depois": "A vida temporária segue seus limites",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-172",
+    "bloco": "rotas--rota-bancada",
+    "antes": "da duração da reserva de vida temporária.",
+    "depois": "da duração da vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-173",
+    "bloco": "ritual--rit-beneficios",
+    "antes": "em Dano e recuperação, e não se soma a outra reserva.",
+    "depois": "em Dano e recuperação, e não se soma a outra vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-174",
+    "bloco": "construcao--entidades-saldo",
+    "antes": "respeitando os limites gerais dessa reserva.",
+    "depois": "respeitando os limites gerais da vida temporária.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-175",
+    "bloco": "consulta--consulta-glossario-6",
+    "antes": "Reserva separada dos PV atuais e máximos,",
+    "depois": "Pontos separados dos PV atuais e máximos,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" temporária vira vida temporária ou PE temporários."
+  },
+  {
+    "id": "R63-176",
+    "bloco": "dano--dano",
+    "antes": "4. **Desconte das reservas.**",
+    "depois": "4. **Desconte da vida.**",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-177",
+    "bloco": "dano--dano",
+    "antes": "também afeta **Integridade**, uma reserva separada que acompanha",
+    "depois": "também afeta **Integridade**, um valor separado que acompanha",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-178",
+    "bloco": "dano--tipos",
+    "antes": "**Alma** afeta uma reserva adicional, a Integridade,",
+    "depois": "**Alma** afeta também outro valor, a Integridade,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-179",
+    "bloco": "dano--alma",
+    "antes": "entram antes de descontar as reservas.",
+    "depois": "entram antes de descontar o dano.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-180",
+    "bloco": "dano--integridade",
+    "antes": "Uma capacidade que restaure essa reserva e o descanso longo",
+    "depois": "Uma capacidade que restaure a Integridade e o descanso longo",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-181",
+    "bloco": "dano--cura",
+    "antes": "As duas reservas são recuperadas separadamente.",
+    "depois": "Vida e Integridade são recuperadas separadamente.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-182",
+    "bloco": "dano--derrota",
+    "antes": "recuperar reservas não devolve sua participação",
+    "depois": "recuperar vida ou Integridade não devolve sua participação",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-183",
+    "bloco": "dano--derrota",
+    "antes": "desde que as duas reservas voltem a pelo menos 1.",
+    "depois": "desde que a vida e a Integridade voltem a pelo menos 1.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-184",
+    "bloco": "dano--derrota",
+    "antes": "a exigência de recuperar essa reserva não se aplica",
+    "depois": "a exigência de recuperar Integridade não se aplica",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-185",
+    "bloco": "dano--usos",
+    "antes": "A recuperação das reservas não desfaz",
+    "depois": "A recuperação de vida e Integridade não desfaz",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-186",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "antes": "só se aplicam a quem possui essa reserva;",
+    "depois": "só se aplicam a quem a possui;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-187",
+    "bloco": "origens--origem-receptaculo",
+    "antes": "não recupera reservas nem devolve ações",
+    "depois": "não recupera vida, Integridade ou PE nem devolve ações",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-188",
+    "bloco": "equip--eqf-reliquias",
+    "antes": "Integridade é a reserva anotada separadamente da vida,",
+    "depois": "Integridade é o valor anotado separadamente da vida,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reservas\" viram vida, Integridade ou o que cada frase nomeia."
+  },
+  {
+    "id": "R63-189",
+    "bloco": "ab--ab-mundo",
+    "antes": "são a reserva que você gasta para usar",
+    "depois": "são os pontos que você gasta para usar",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de energia vira PE."
+  },
+  {
+    "id": "R63-190",
+    "bloco": "geral--mundo",
+    "antes": "A reserva de PE também não mede",
+    "depois": "A quantidade de PE também não mede",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de energia vira PE."
+  },
+  {
+    "id": "R63-191",
+    "bloco": "geral--ler",
+    "antes": "grau ou reserva exata de PE:",
+    "depois": "grau ou quantidade exata de PE:",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de energia vira PE."
+  },
+  {
+    "id": "R63-192",
+    "bloco": "origens--receptaculo-acordos",
+    "antes": "É recuperação da reserva comum,",
+    "depois": "É recuperação de PE comuns,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de energia vira PE."
+  },
+  {
+    "id": "R63-193",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "antes": "depende diretamente da reserva de energia.",
+    "depois": "depende diretamente dos seus PE.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de energia vira PE."
+  },
+  {
+    "id": "R63-194",
+    "bloco": "evocador--evocador",
+    "antes": "Os **Pontos de Vínculo** formam a reserva que paga suas intervenções,",
+    "depois": "Os **Pontos de Vínculo** pagam suas intervenções,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de Pontos de Vínculo vira os próprios pontos."
+  },
+  {
+    "id": "R63-195",
+    "bloco": "evocador--ev-vinculo",
+    "antes": "**Pontos de Vínculo** são a reserva usada para pagar",
+    "depois": "**Pontos de Vínculo** são os pontos usados para pagar",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de Pontos de Vínculo vira os próprios pontos."
+  },
+  {
+    "id": "R63-196",
+    "bloco": "evocador--ev-vinculo",
+    "antes": "A reserva pertence ao conjunto.",
+    "depois": "Os pontos pertencem ao conjunto.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de Pontos de Vínculo vira os próprios pontos."
+  },
+  {
+    "id": "R63-197",
+    "bloco": "evocador--ev-combinar",
+    "antes": "e sua reserva de Pontos de Vínculo está vazia.",
+    "depois": "e você não tem Pontos de Vínculo.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva\" de Pontos de Vínculo vira os próprios pontos."
+  },
+  {
+    "id": "R63-198",
+    "bloco": "equip--eqi-efeitos",
+    "antes": "oferece uma reserva de vida para toda",
+    "depois": "oferece um total de vida para toda",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva de vida\" da barreira vira total de vida."
+  },
+  {
+    "id": "R63-199",
+    "bloco": "aptidoes--apt-barreira",
+    "antes": "Uma única reserva de vida vale para toda a barreira:",
+    "depois": "Um único total de vida vale para toda a barreira:",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva de vida\" da barreira vira total de vida."
+  },
+  {
+    "id": "R63-200",
+    "bloco": "poderes--barreira",
+    "antes": "Ela tem uma única reserva de vida,",
+    "depois": "Ela tem um único total de vida,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: \"Reserva de vida\" da barreira vira total de vida."
+  },
+  {
+    "id": "R63-201",
+    "bloco": "guia--guia-arquiteto",
+    "antes": "apresenta as versões Ampliada e Grande.",
+    "depois": "apresenta as versões Extensa e Grande.",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  },
+  {
+    "id": "R63-202",
+    "bloco": "guia--guia-obras-maiores",
+    "antes": "Ao criar uma obra ou ampliá-la com",
+    "depois": "Ao criar uma obra ou aumentá-la com",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  },
+  {
+    "id": "R63-203",
+    "bloco": "guia--guia-obras-maiores",
+    "antes": "| Obra | Básica | Ampliada (+4 PE) |",
+    "depois": "| Obra | Básica | Extensa (+4 PE) |",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  },
+  {
+    "id": "R63-204",
+    "bloco": "guia--guia-obras-maiores",
+    "antes": "Para passar de Ampliada para Grande,",
+    "depois": "Para passar de Extensa para Grande,",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  },
+  {
+    "id": "R63-205",
+    "bloco": "guia--guia-obras-maiores",
+    "antes": "Básica, 2 PE; Ampliada, 6 PE;",
+    "depois": "Básica, 2 PE; Extensa, 6 PE;",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  },
+  {
+    "id": "R63-206",
+    "bloco": "guia--guia-obra-uso",
+    "antes": "3 PE para Ampliada ou",
+    "depois": "3 PE para Extensa ou",
+    "motivo": "Linguagem simples decidida pelo autor em 03/11/2026: O nível Ampliada das obras do Arquiteto vira Extensa, e \"ampliá-la\" vira \"aumentá-la\"."
+  }
+]

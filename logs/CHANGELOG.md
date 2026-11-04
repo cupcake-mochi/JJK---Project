@@ -8,6 +8,27 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.373] - 04/11/2026
+
+### Alterado
+
+- R63, palavras raras no Livro de Regras, sem mudar regra (206 trocas em 133 blocos, aprovadas pelo autor em 03/11/2026). Parcela, elegível, efetivamente, concessão, pertinente, retroativo e vencimento chegam a zero no texto; "excedente" fica em 3 usos e "vinculado" em 11, só nos nomes do jogo. "Reserva" sai de 68 usos e fica em 107: deixa de descrever vida temporária, Integridade, PE, Pontos de Vínculo, movimento e a vida da barreira. O excedente das entidades vira "sobra de dano", "Parcelas adicionais" vira "Partes adicionais" (a âncora `#ritual--rit-parcelas` continua) e o nível "Ampliada" das obras vira "Extensa". Números, custos, gatilhos, âncoras e destinos de link ficam iguais.
+- PDFs claro e noturno com 425 páginas nas duas paletas. Contra a R62, 131 páginas mudaram, as mesmas nas duas, sem título solto, coluna quebrada nem tabela estourada. Seis âncoras mudaram de página, todas nas Bênçãos, e o Índice acompanhou. Conferência (55 verificações), comparação com a R62 e medida das colunas em `editorial-r63/`.
+- O sumário do capítulo 10 passa a seguir a ordem das páginas; "Conheça as Famílias" sobe de nível. A ordem e o papel do título "Partes adicionais" vêm de `gerar_livro.py`.
+- `EDICAO-ATUAL.json` passa para R63; `REVISAO-R63.json` fica ao lado do `REVISAO-R62.json`, e os dois novos vão com os PDFs para `finalizado/livro/`.
+- Guardas: `testar-integridade.py` (dos dois lugares) reaplica `R62-para-R63.json`; `conferir-repositorio.py` exige o `REVISAO-R63.json`; `conferir-fundamento.py` lê o snapshot da R63 e a frase nova ("menor parte"); `conferir-acao.py` lê a frase nova da Rajada.
+
+### Adicionado
+
+- `conferir-fundamento.py` falha com palavra rara visível no livro, com dois contra-testes e teste negativo numa cópia. O `conferir.py` da composição falha com palavra rara impressa nas duas paletas e com o sumário do capítulo 10 fora da ordem.
+- `editorial-r63/PLANO-LINGUAGEM.md` (decisões, o que fica para a R64 e o parágrafo para quem mexe no Guia) e `editorial-r63/TROCAS-R63.md` (lista completa, com antes e depois).
+
+### Decidido
+
+- "Sobra de dano" para o excedente das entidades, "Partes adicionais" como título, "ligado a" e "permitida", "válido" ou "que conta" nas trocas de vinculado e elegível. "Arma vinculada", "Retorno Vinculado", "Reserva Excedente" e "Ritual de Excedente" ficam como nomes. "Extensa" no lugar de "Ampliada". A R64 cuida de conceder, requisito, conservar, conforme e registre. O Guia do Mestre não foi tocado, porque está em outra frente.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R63 ainda por publicar.
+
 ## [0.372] - 03/11/2026
 
 ### Alterado

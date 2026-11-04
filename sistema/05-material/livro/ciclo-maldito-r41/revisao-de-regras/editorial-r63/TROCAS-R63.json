@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "R63-001",
+    "bloco": "geral--queda-criatura",
+    "motivo": "parcela",
+    "antes": "O alvo falha: recebe uma parcela de 5, e quem caiu, de 6.",
+    "depois": "O alvo falha: recebe uma parte de 5, e quem caiu, de 6."
+  },
+  {
+    "id": "R63-002",
+    "bloco": "dano--dano",
+    "motivo": "parcela",
+    "antes": "Num golpe com mais de um tipo, mantenha as parcelas separadas nesta etapa.",
+    "depois": "Num golpe com mais de um tipo, mantenha cada tipo separado nesta etapa."
+  },
+  {
+    "id": "R63-003",
+    "bloco": "dano--dano",
+    "motivo": "parcela",
+    "antes": "depois dos multiplicadores aplicáveis à parcela.",
+    "depois": "depois dos multiplicadores aplicáveis àquela parte."
+  },
+  {
+    "id": "R63-004",
+    "bloco": "dano--reducao",
+    "motivo": "parcela",
+    "antes": "Se houver parcelas de tipos diferentes,",
+    "depois": "Se houver partes de tipos diferentes,"
+  },
+  {
+    "id": "R63-005",
+    "bloco": "dano--reducao",
+    "motivo": "parcela",
+    "antes": "Desconte uma redução limitada a um tipo apenas dessa parcela;",
+    "depois": "Desconte uma redução limitada a um tipo apenas dessa parte;"
+  },
+  {
+    "id": "R63-006",
+    "bloco": "origens--receptaculo-acordos",
+    "motivo": "parcela",
+    "antes": "**mínimo 1 em cada parcela**",
+    "depois": "**mínimo 1 em cada metade**"
+  },
+  {
+    "id": "R63-007",
+    "bloco": "origens--restricao-menores-corporais",
+    "motivo": "parcela",
+    "antes": "Você aprendeu a preservar uma parcela de sua energia,",
+    "depois": "Você aprendeu a preservar uma parte de sua energia,"
+  },
+  {
+    "id": "R63-008",
+    "bloco": "bastiao--bas-aliados",
+    "motivo": "parcela",
+    "antes": "A parcela não pode ser transferida novamente. Em dano misto, desconte da vida restante as parcelas da maior para a menor",
+    "depois": "Essa parte não pode ser transferida novamente. Em dano misto, desconte da vida restante as partes da maior para a menor"
+  },
+  {
+    "id": "R63-009",
+    "bloco": "bastiao--bas-aliados",
+    "motivo": "parcela",
+    "antes": "aplica essa defesa à sua parcela.",
+    "depois": "aplica essa defesa à sua parte."
+  },
+  {
+    "id": "R63-010",
+    "bloco": "bastiao--bas-aliados",
+    "motivo": "parcela",
+    "antes": "Resistência a Cortante deixa sua parcela em",
+    "depois": "Resistência a Cortante deixa sua parte em"
+  },
+  {
+    "id": "R63-011",
+    "bloco": "bastiao--bas-aliados",
+    "motivo": "parcela",
+    "antes": "Se a parcela levar você a zero,",
+    "depois": "Se essa parte levar você a zero,"
+  },
+  {
+    "id": "R63-012",
+    "bloco": "emanador--ema-remodelar",
+    "motivo": "parcela",
+    "antes": "calcular parcelas secundárias.",
+    "depois": "calcular partes secundárias."
+  },
+  {
+    "id": "R63-013",
+    "bloco": "emanador--ema-fluxo",
+    "motivo": "parcela",
+    "antes": "Se reservar Corrigir, pague essa parcela somente",
+    "depois": "Se reservar Corrigir, pague essa parte somente"
+  },
+  {
+    "id": "R63-014",
+    "bloco": "equip--eqp-escudo",
+    "motivo": "parcela",
+    "antes": "sem a parcela de Destreza.",
+    "depois": "sem a parte de Destreza."
+  },
+  {
+    "id": "R63-015",
+    "bloco": "equip--eqa-armas",
+    "motivo": "parcela",
+    "antes": "**Volume** é a parcela da carga",
+    "depois": "**Volume** é a parte da carga"
+  },
+  {
+    "id": "R63-016",
+    "bloco": "progressao--prog-semana",
+    "motivo": "parcela",
+    "antes": "| Missão na semana | Parcela recebida |",
+    "depois": "| Missão na semana | Parte recebida |"
+  },
+  {
+    "id": "R63-017",
+    "bloco": "progressao--prog-semana",
+    "motivo": "parcela",
+    "antes": "| Metade da parcela anterior. |",
+    "depois": "| Metade da parte anterior. |"
+  },
+  {
+    "id": "R63-018",
+    "bloco": "progressao--prog-atualizar",
+    "motivo": "parcela",
+    "antes": "não somente a parcela do nível",
+    "depois": "não somente a parte do nível"
+  },
+  {
+    "id": "R63-019",
+    "bloco": "progressao--prog-guilda",
+    "motivo": "parcela",
+    "antes": "a parcela mínima é **um quarto**",
+    "depois": "a parte mínima é **um quarto**"
+  },
+  {
+    "id": "R63-020",
+    "bloco": "fundamento--funcoes",
+    "motivo": "parcela+elegivel",
+    "antes": "Cada aliado elegível recebe a parcela registrada,",
+    "depois": "Cada aliado válido recebe a parte registrada,"
+  },
+  {
+    "id": "R63-021",
+    "bloco": "fundamento--funcoes",
+    "motivo": "parcela",
+    "antes": "Aplique esse teto à soma das parcelas de cura",
+    "depois": "Aplique esse teto à soma das partes de cura"
+  },
+  {
+    "id": "R63-022",
+    "bloco": "fundamento--funcoes",
+    "motivo": "parcela+elegivel",
+    "antes": "fornecem 4d8 de cura para cada aliado elegível na região. O teto é conferido antes de converter a parcela em dados.",
+    "depois": "fornecem 4d8 de cura para cada aliado válido na região. O teto é conferido antes de converter a parte em dados."
+  },
+  {
+    "id": "R63-023",
+    "bloco": "fundamento--formas",
+    "motivo": "parcela+elegivel",
+    "antes": "aplicam sua parcela inteira a cada aliado elegível,",
+    "depois": "aplicam sua parte inteira a cada aliado válido,"
+  },
+  {
+    "id": "R63-024",
+    "bloco": "fundamento--mesclas",
+    "motivo": "parcela+elegivel",
+    "antes": "a partir do dano elegível: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas parcelas iniciais aplicadas por acerto ou falha no TR. Reúna essas parcelas",
+    "depois": "a partir do dano que conta: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas partes iniciais aplicadas por acerto ou falha no TR. Reúna essas partes"
+  },
+  {
+    "id": "R63-025",
+    "bloco": "fundamento--mesclas",
+    "motivo": "parcela",
+    "antes": "permanecem nessa parcela e ficam sem uso",
+    "depois": "permanecem nessa parte e ficam sem uso"
+  },
+  {
+    "id": "R63-026",
+    "bloco": "fundamento--interfaces",
+    "motivo": "parcela",
+    "antes": "Algumas capacidades alteram uma montagem ou copiam uma parcela dela.",
+    "depois": "Algumas capacidades alteram uma montagem ou copiam uma parte dela."
+  },
+  {
+    "id": "R63-027",
+    "bloco": "fundamento--interfaces",
+    "motivo": "parcela",
+    "antes": "Copia para um aliado adicional a parcela de cura",
+    "depois": "Copia para um aliado adicional a parte de cura"
+  },
+  {
+    "id": "R63-028",
+    "bloco": "fundamento--interfaces",
+    "motivo": "parcela",
+    "antes": "Com Mais Um, use uma das menores parcelas.",
+    "depois": "Com Mais Um, use uma das menores partes."
+  },
+  {
+    "id": "R63-029",
+    "bloco": "catalogo--cat-catalogo",
+    "motivo": "parcela",
+    "antes": "**Salto** leva uma parcela de dano a outro alvo;",
+    "depois": "**Salto** leva uma parte do dano a outro alvo;"
+  },
+  {
+    "id": "R63-030",
+    "bloco": "catalogo--cat-catalogo",
+    "motivo": "parcela",
+    "antes": "que aumenta a parcela de dano,",
+    "depois": "que aumenta a parte de dano,"
+  },
+  {
+    "id": "R63-031",
+    "bloco": "catalogo--melhoria-sugar",
+    "motivo": "parcela",
+    "antes": "Some apenas as parcelas iniciais",
+    "depois": "Some apenas as partes iniciais"
+  },
+  {
+    "id": "R63-032",
+    "bloco": "catalogo--melhoria-mais-um",
+    "motivo": "parcela",
+    "antes": "entre eles, em parcelas inteiras:",
+    "depois": "entre eles, em partes inteiras:"
+  },
+  {
+    "id": "R63-033",
+    "bloco": "catalogo--melhoria-queima",
+    "motivo": "parcela",
+    "antes": "metade dos dados daquela parcela inicial,",
+    "depois": "metade dos dados daquela parte inicial,"
+  },
+  {
+    "id": "R63-034",
+    "bloco": "catalogo--melhoria-remate",
+    "motivo": "parcela",
+    "antes": "conferida antes da parcela de dano.",
+    "depois": "conferida antes da parte de dano."
+  },
+  {
+    "id": "R63-035",
+    "bloco": "catalogo--melhoria-reserva",
+    "motivo": "parcela",
+    "antes": "uma cura coletiva pode guardar sua parcela",
+    "depois": "uma cura coletiva pode guardar sua parte"
+  },
+  {
+    "id": "R63-036",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "parcela",
+    "antes": "Compartilhamento e Tiros copiam uma parcela do feitiço; [Parcelas adicionais](#ritual--rit-parcelas)",
+    "depois": "Compartilhamento e Tiros copiam uma parte do feitiço; [Partes adicionais](#ritual--rit-parcelas)"
+  },
+  {
+    "id": "R63-037",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "parcela",
+    "antes": "com uma cópia da parcela definida abaixo.",
+    "depois": "com uma cópia da parte definida abaixo."
+  },
+  {
+    "id": "R63-038",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "parcela",
+    "antes": "contra outro alvo, com a parcela definida abaixo.",
+    "depois": "contra outro alvo, com a parte definida abaixo."
+  },
+  {
+    "id": "R63-039",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "parcela",
+    "antes": "os alvos de Tiros e as parcelas copiadas",
+    "depois": "os alvos de Tiros e as partes copiadas"
+  },
+  {
+    "id": "R63-040",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "parcela",
+    "antes": "Consulte [Parcelas adicionais](#ritual--rit-parcelas) para definir",
+    "depois": "Consulte [Partes adicionais](#ritual--rit-parcelas) para definir"
+  },
+  {
+    "id": "R63-041",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "Parcelas adicionais\n",
+    "depois": "Partes adicionais\n"
+  },
+  {
+    "id": "R63-042",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "que recebeu a **menor parcela**.",
+    "depois": "que recebeu a **menor parte**."
+  },
+  {
+    "id": "R63-043",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "só copia a parcela de 3.",
+    "depois": "só copia a parte de 3."
+  },
+  {
+    "id": "R63-044",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "Copie a **menor parcela de dados**",
+    "depois": "Copie a **menor parte de dados**"
+  },
+  {
+    "id": "R63-045",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "**Exemplo.** Parcelas de 4d8,",
+    "depois": "**Exemplo.** Partes de 4d8,"
+  },
+  {
+    "id": "R63-046",
+    "bloco": "ritual--rit-parcelas",
+    "motivo": "parcela",
+    "antes": "nem elevam a parcela original.",
+    "depois": "nem elevam a parte original."
+  },
+  {
+    "id": "R63-047",
+    "bloco": "ritual--rit-limites",
+    "motivo": "parcela",
+    "antes": "A parcela no erro elimina o risco",
+    "depois": "O dano no erro elimina o risco"
+  },
+  {
+    "id": "R63-048",
+    "bloco": "ritual--rit-limites",
+    "motivo": "parcela",
+    "antes": "a partir da parcela daquele tiro.",
+    "depois": "a partir da parte daquele tiro."
+  },
+  {
+    "id": "R63-049",
+    "bloco": "campo--inv-energia",
+    "motivo": "parcela",
+    "antes": "A parcela ímpar fica com você.",
+    "depois": "O ponto ímpar fica com você."
+  },
+  {
+    "id": "R63-050",
+    "bloco": "campo--inv-energia",
+    "motivo": "parcela",
+    "antes": "Não gaste uma parcela se a execução",
+    "depois": "Não gaste parte nenhuma se a execução"
+  },
+  {
+    "id": "R63-051",
+    "bloco": "campo--inv-armado",
+    "motivo": "parcela+efetivamente",
+    "antes": "devolva metade do PE efetivamente pago, arredondada para baixo. Havendo dois pagadores, devolva à reserva metade da parcela que ela pagou,",
+    "depois": "devolva metade do PE de fato pago, arredondada para baixo. Havendo dois pagadores, devolva à reserva metade da parte que ela pagou,"
+  },
+  {
+    "id": "R63-052",
+    "bloco": "campo--inv-reparo",
+    "motivo": "parcela",
+    "antes": "Sucesso recupera a parcela da tabela,",
+    "depois": "Sucesso recupera a parte indicada na tabela,"
+  },
+  {
+    "id": "R63-053",
+    "bloco": "construcao--entidade-cao",
+    "motivo": "parcela",
+    "antes": "para a parcela de Defesa de suas entidades.",
+    "depois": "para a parte de Defesa de suas entidades."
+  },
+  {
+    "id": "R63-054",
+    "bloco": "construcao--entidades-vida-defesa",
+    "motivo": "parcela",
+    "antes": "A proteção substitui a parcela de Essência",
+    "depois": "A proteção substitui a parte de Essência"
+  },
+  {
+    "id": "R63-055",
+    "bloco": "consulta--consulta-glossario-5",
+    "motivo": "parcela",
+    "antes": "Parcela da Defesa fornecida",
+    "depois": "Parte da Defesa fornecida"
+  },
+  {
+    "id": "R63-056",
+    "bloco": "dano--cura",
+    "motivo": "excedente",
+    "antes": "Os 2 excedentes não viram vida temporária.",
+    "depois": "Os 2 de cura que passam do máximo não viram vida temporária."
+  },
+  {
+    "id": "R63-057",
+    "bloco": "emanador--ema-propriedades",
+    "motivo": "excedente",
+    "antes": "Munição que então fique incompatível ou excedente permanece no item,",
+    "depois": "Munição que então fique incompatível ou além da capacidade permanece no item,"
+  },
+  {
+    "id": "R63-058",
+    "bloco": "fundamento--pontos",
+    "motivo": "excedente",
+    "antes": "no máximo 2 × Classe. O excedente se perde.",
+    "depois": "no máximo 2 × Classe. O que passar disso se perde."
+  },
+  {
+    "id": "R63-059",
+    "bloco": "fundamento--funcoes",
+    "motivo": "excedente+concessao",
+    "antes": "> **Teto da reserva.** Uma concessão de 6 de vida temporária a uma criatura com vida máxima 10 e sem reserva anterior fica limitada a **5**, metade desse máximo. O ponto de vida temporária excedente se perde.",
+    "depois": "> **Teto da vida temporária.** Uma criatura com vida máxima 10 e sem vida temporária anterior que receba 6 de vida temporária fica limitada a **5**, metade desse máximo. O ponto de vida temporária que passa do teto se perde."
+  },
+  {
+    "id": "R63-060",
+    "bloco": "fundamento--ampliar",
+    "motivo": "excedente",
+    "antes": "Pontos excedentes podem ficar sem uso.",
+    "depois": "Os pontos a mais podem ficar sem uso."
+  },
+  {
+    "id": "R63-061",
+    "bloco": "construcao--entidades-ampliacao",
+    "motivo": "excedente",
+    "antes": "o preço Leve é 2 e o excedente se perde.",
+    "depois": "o preço Leve é 2 e o resto se perde."
+  },
+  {
+    "id": "R63-062",
+    "bloco": "campo--inv-queda",
+    "motivo": "sobra",
+    "antes": "ou quando o excedente além de zero supera metade da vida máxima.",
+    "depois": "ou quando a sobra de dano supera metade da vida máxima."
+  },
+  {
+    "id": "R63-063",
+    "bloco": "campo--inv-queda",
+    "motivo": "sobra+efetivamente",
+    "antes": "Excedente é quanto do dano sobrou depois de zerar a vida atual. Use o dano efetivamente recebido,",
+    "depois": "Sobra de dano é o que resta do dano depois de zerar a vida atual. Use o dano de fato recebido,"
+  },
+  {
+    "id": "R63-064",
+    "bloco": "campo--inv-queda",
+    "motivo": "sobra",
+    "antes": "cai com excedente 22. Esse dano não alcançou 52 e o excedente não passou de 26. Se recebesse 35, o excedente seria 27",
+    "depois": "cai com 22 de sobra. Esse dano não alcançou 52 e a sobra não passou de 26. Se recebesse 35, a sobra seria 27"
+  },
+  {
+    "id": "R63-065",
+    "bloco": "campo--inv-retorno",
+    "motivo": "sobra+parcela",
+    "antes": "O dano posterior soma ao excedente da queda. Uma nova parcela direta que leve",
+    "depois": "O dano posterior soma à sobra da queda. Um novo dano direto que leve"
+  },
+  {
+    "id": "R63-066",
+    "bloco": "campo--inv-retorno",
+    "motivo": "sobra",
+    "antes": "Zere o excedente ao religar.",
+    "depois": "Zere a sobra ao religar."
+  },
+  {
+    "id": "R63-067",
+    "bloco": "campo--inv-retorno",
+    "motivo": "sobra+parcela",
+    "antes": "Um corpo desligado com excedente 22 é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com excedente 27; uma nova parcela direta poderá destruí-lo.",
+    "depois": "Um corpo desligado com 22 de sobra é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com 27 de sobra; um novo dano direto poderá destruí-lo."
+  },
+  {
+    "id": "R63-068",
+    "bloco": "vanguarda--van-besta",
+    "motivo": "vinculado",
+    "antes": "um virote comum vinculado à Sequência.",
+    "depois": "um virote comum ligado à Sequência."
+  },
+  {
+    "id": "R63-069",
+    "bloco": "incursor--inc-pugilista",
+    "motivo": "vinculado",
+    "antes": "Se o efeito estiver vinculado a um ataque seu,",
+    "depois": "Se o efeito estiver ligado a um ataque seu,"
+  },
+  {
+    "id": "R63-070",
+    "bloco": "incursor--inc-destino",
+    "motivo": "vinculado",
+    "antes": "efeitos vinculados ao resultado do primeiro d20",
+    "depois": "efeitos ligados ao resultado do primeiro d20"
+  },
+  {
+    "id": "R63-071",
+    "bloco": "pericias--ambiente",
+    "motivo": "vinculado",
+    "antes": "comandar criaturas vinculadas seguem",
+    "depois": "comandar criaturas ligadas a você seguem"
+  },
+  {
+    "id": "R63-072",
+    "bloco": "progressao--prog-capacidades",
+    "motivo": "vinculado",
+    "antes": "A dupla antes vinculada a um mesmo espaço",
+    "depois": "A dupla antes ligada a um mesmo espaço"
+  },
+  {
+    "id": "R63-073",
+    "bloco": "fundamento--familias",
+    "motivo": "vinculado",
+    "antes": "uma recuperação pessoal vinculada ao dano,",
+    "depois": "uma recuperação pessoal ligada ao dano,"
+  },
+  {
+    "id": "R63-074",
+    "bloco": "rotas--rota-passivas-marciais",
+    "motivo": "vinculado",
+    "antes": "Uma pequena maldição vinculada ao seu estilo",
+    "depois": "Uma pequena maldição ligada ao seu estilo"
+  },
+  {
+    "id": "R63-075",
+    "bloco": "ab--ab-criacao",
+    "motivo": "elegivel",
+    "antes": "Escolha a Origem e duas menores elegíveis;",
+    "depois": "Escolha a Origem e duas menores permitidas;"
+  },
+  {
+    "id": "R63-076",
+    "bloco": "ab--ab-origem",
+    "motivo": "elegivel",
+    "antes": "**duas menores elegíveis** (capacidades",
+    "depois": "**duas menores permitidas** (capacidades"
+  },
+  {
+    "id": "R63-077",
+    "bloco": "origens--origem-escolhas",
+    "motivo": "elegivel",
+    "antes": "Escolha duas opções elegíveis do catálogo",
+    "depois": "Escolha duas opções permitidas do catálogo"
+  },
+  {
+    "id": "R63-078",
+    "bloco": "origens--origem-receptaculo",
+    "motivo": "elegivel",
+    "antes": "como modalidade da sua marcante e duas menores elegíveis.",
+    "depois": "como modalidade da sua marcante e duas menores permitidas."
+  },
+  {
+    "id": "R63-079",
+    "bloco": "origens--origem-descendente",
+    "motivo": "elegivel",
+    "antes": "Escolha a **marcante do seu clã** e duas menores elegíveis.",
+    "depois": "Escolha a **marcante do seu clã** e duas menores permitidas."
+  },
+  {
+    "id": "R63-080",
+    "bloco": "origens--descendente-gojo",
+    "motivo": "elegivel",
+    "antes": "quando aprender uma elegível;",
+    "depois": "quando aprender uma permitida;"
+  },
+  {
+    "id": "R63-081",
+    "bloco": "origens--descendente-gojo",
+    "motivo": "elegivel",
+    "antes": "não oferecem rolagem elegível, e ataques comuns não se tornam elegíveis pela sua Origem.",
+    "depois": "não oferecem rolagem válida, e ataques comuns não se tornam válidos pela sua Origem."
+  },
+  {
+    "id": "R63-082",
+    "bloco": "origens--origem-corpo",
+    "motivo": "elegivel",
+    "antes": "**Existência Artificial**, e duas menores elegíveis.",
+    "depois": "**Existência Artificial**, e duas menores permitidas."
+  },
+  {
+    "id": "R63-083",
+    "bloco": "origens--origem-sem-tecnica",
+    "motivo": "elegivel",
+    "antes": "Conserve a base, a marcante e suas duas menores elegíveis.",
+    "depois": "Conserve a base, a marcante e suas duas menores permitidas."
+  },
+  {
+    "id": "R63-084",
+    "bloco": "origens--legado-criar",
+    "motivo": "elegivel",
+    "antes": "uma marcante e duas menores elegíveis, sem reunir",
+    "depois": "uma marcante e duas menores permitidas, sem reunir"
+  },
+  {
+    "id": "R63-085",
+    "bloco": "guia--guia-tratamento",
+    "motivo": "elegivel",
+    "antes": "o aliado precisa ser elegível para cura ou ter",
+    "depois": "o aliado precisa poder receber cura ou ter"
+  },
+  {
+    "id": "R63-086",
+    "bloco": "emanador--ema-modulacoes",
+    "motivo": "elegivel",
+    "antes": "Acrescentar um destinatário elegível,",
+    "depois": "Acrescentar um destinatário válido,"
+  },
+  {
+    "id": "R63-087",
+    "bloco": "evocador--ev-usos",
+    "motivo": "elegivel",
+    "antes": "vantagem em um ataque elegível ou",
+    "depois": "vantagem em um ataque válido ou"
+  },
+  {
+    "id": "R63-088",
+    "bloco": "evocador--ev-principal-reflexa",
+    "motivo": "elegivel",
+    "antes": "| Intervenção elegível | Origem |",
+    "depois": "| Intervenção permitida | Origem |"
+  },
+  {
+    "id": "R63-089",
+    "bloco": "fundamento--formas",
+    "motivo": "elegivel",
+    "antes": "pode curar os seis aliados elegíveis na região.",
+    "depois": "pode curar os seis aliados válidos na região."
+  },
+  {
+    "id": "R63-090",
+    "bloco": "fundamento--mesclas",
+    "motivo": "elegivel",
+    "antes": "**16 + 28 = 44 de dano elegível** recupera **11 de vida**, dentro do limite 15 da conjuração. Dano elegível zero produz recuperação zero.",
+    "depois": "**16 + 28 = 44 de dano que conta** recupera **11 de vida**, dentro do limite 15 da conjuração. Sem dano que conte, a recuperação é zero."
+  },
+  {
+    "id": "R63-091",
+    "bloco": "fundamento--mesclas",
+    "motivo": "elegivel",
+    "antes": "Com seis aliados elegíveis na região,",
+    "depois": "Com seis aliados válidos na região,"
+  },
+  {
+    "id": "R63-092",
+    "bloco": "fundamento--maxima",
+    "motivo": "elegivel",
+    "antes": "A cura coletiva alcança cada aliado elegível na região.",
+    "depois": "A cura coletiva alcança cada aliado válido na região."
+  },
+  {
+    "id": "R63-093",
+    "bloco": "catalogo--melhoria-alvo-de-caca",
+    "motivo": "elegivel",
+    "antes": "Cada tiro elegível de Rajada conta.",
+    "depois": "Cada tiro válido de Rajada conta."
+  },
+  {
+    "id": "R63-094",
+    "bloco": "catalogo--melhoria-sugar",
+    "motivo": "elegivel",
+    "antes": "Depois, reúna o dano elegível de todos",
+    "depois": "Depois, reúna o dano que conta de todos"
+  },
+  {
+    "id": "R63-095",
+    "bloco": "catalogo--restricao-queima-roupa",
+    "motivo": "elegivel",
+    "antes": "a opção de Restrição Leve das áreas elegíveis,",
+    "depois": "a opção de Restrição Leve das áreas permitidas,"
+  },
+  {
+    "id": "R63-096",
+    "bloco": "rotas--rota-estimulo",
+    "motivo": "elegivel",
+    "antes": "que não transporte essa Kata continua elegível.",
+    "depois": "que não transporte essa Kata continua podendo receber o adicional."
+  },
+  {
+    "id": "R63-097",
+    "bloco": "construcao--entidades-formas",
+    "motivo": "elegivel",
+    "antes": "Leve nas três áreas elegíveis,",
+    "depois": "Leve nas três áreas permitidas,"
+  },
+  {
+    "id": "R63-098",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "elegivel",
+    "antes": "= 1 ponto de cura. Cada aliado elegível na região",
+    "depois": "= 1 ponto de cura. Cada aliado válido na região"
+  },
+  {
+    "id": "R63-099",
+    "bloco": "consulta--consulta-glossario-4",
+    "motivo": "elegivel",
+    "antes": "Uma capacidade central e duas escolhas elegíveis da Origem,",
+    "depois": "Uma capacidade central e duas escolhas permitidas da Origem,"
+  },
+  {
+    "id": "R63-100",
+    "bloco": "consulta--consulta-glossario-4",
+    "motivo": "elegivel",
+    "antes": "uma marcante, duas menores elegíveis e opções de rota.",
+    "depois": "uma marcante, duas menores permitidas e opções de rota."
+  },
+  {
+    "id": "R63-101",
+    "bloco": "ab--ab-equipamento",
+    "motivo": "efetivamente",
+    "antes": "Aplique qualquer alteração efetivamente recebida pela ficha.",
+    "depois": "Aplique qualquer alteração de fato recebida pela ficha."
+  },
+  {
+    "id": "R63-102",
+    "bloco": "origens--descendente-inumaki",
+    "motivo": "efetivamente",
+    "antes": "Comparem os d20 efetivamente escolhidos,",
+    "depois": "Comparem os d20 de fato escolhidos,"
+  },
+  {
+    "id": "R63-103",
+    "bloco": "origens--feto-beneficios",
+    "motivo": "efetivamente",
+    "antes": "dos PE que efetivamente recuperaria",
+    "depois": "dos PE que de fato recuperaria"
+  },
+  {
+    "id": "R63-104",
+    "bloco": "emanador--ema-desdobramento",
+    "motivo": "efetivamente",
+    "antes": "Use os preços da Classe efetivamente conjurada,",
+    "depois": "Use os preços da Classe de fato conjurada,"
+  },
+  {
+    "id": "R63-105",
+    "bloco": "emanador--ema-artes",
+    "motivo": "efetivamente",
+    "antes": "Confira a Classe efetivamente usada,",
+    "depois": "Confira a Classe de fato usada,"
+  },
+  {
+    "id": "R63-106",
+    "bloco": "evocador--ev-parceria-resposta",
+    "motivo": "efetivamente",
+    "antes": "Confira a Classe efetivamente utilizada,",
+    "depois": "Confira a Classe de fato utilizada,"
+  },
+  {
+    "id": "R63-107",
+    "bloco": "incursor--inc-movimento",
+    "motivo": "efetivamente",
+    "antes": "Some a distância efetivamente percorrida",
+    "depois": "Some a distância de fato percorrida"
+  },
+  {
+    "id": "R63-108",
+    "bloco": "incursor--inc-perfeita",
+    "motivo": "efetivamente",
+    "antes": "não ignora efeitos que efetivamente capturem",
+    "depois": "não ignora efeitos que de fato capturem"
+  },
+  {
+    "id": "R63-109",
+    "bloco": "equip--eqi-exploracao",
+    "motivo": "efetivamente",
+    "antes": "A distância que efetivamente cair",
+    "depois": "A distância que de fato cair"
+  },
+  {
+    "id": "R63-110",
+    "bloco": "catalogo--restricao-fragil",
+    "motivo": "efetivamente",
+    "antes": "Some o preço que você efetivamente pagou",
+    "depois": "Some o preço que você de fato pagou"
+  },
+  {
+    "id": "R63-111",
+    "bloco": "rotas--rota-combate",
+    "motivo": "efetivamente",
+    "antes": "o número efetivamente rolado",
+    "depois": "o número de fato rolado"
+  },
+  {
+    "id": "R63-112",
+    "bloco": "poderes--protecao",
+    "motivo": "efetivamente",
+    "antes": "o teste que exigiria efetivamente deter",
+    "depois": "o teste que exigiria de fato deter"
+  },
+  {
+    "id": "R63-113",
+    "bloco": "poderes--multiplos",
+    "motivo": "efetivamente",
+    "antes": "dos vencedores que efetivamente o derrotaram",
+    "depois": "dos vencedores que de fato o derrotaram"
+  },
+  {
+    "id": "R63-114",
+    "bloco": "dano--temporarios",
+    "motivo": "concessao",
+    "antes": "Compare o que resta com a nova concessão, já limitada pelo teto,",
+    "depois": "Compare o que resta com o novo valor recebido, já limitado pelo teto,"
+  },
+  {
+    "id": "R63-115",
+    "bloco": "dano--temporarios",
+    "motivo": "concessao",
+    "antes": "Uma nova concessão de 9 a deixa com 9 temporários.",
+    "depois": "Se receber outros 9, fica com 9 temporários."
+  },
+  {
+    "id": "R63-116",
+    "bloco": "ab--ab-capacidades",
+    "motivo": "concessao",
+    "antes": "confira suas concessões iniciais em",
+    "depois": "confira as que você já começa tendo em"
+  },
+  {
+    "id": "R63-117",
+    "bloco": "origens--descendente-beneficios",
+    "motivo": "concessao",
+    "antes": "Ferramentas especiais ficam fora da concessão.",
+    "depois": "Ferramentas especiais ficam fora do empréstimo."
+  },
+  {
+    "id": "R63-118",
+    "bloco": "origens--descendente-beneficios",
+    "motivo": "concessao",
+    "antes": "pagamento, serviço ou concessão.",
+    "depois": "pagamento, serviço ou favor."
+  },
+  {
+    "id": "R63-119",
+    "bloco": "emanador--ema-instintiva",
+    "motivo": "concessao",
+    "antes": "Uma concessão expressa de conjuração gratuita conserva",
+    "depois": "Uma regra que dê expressamente conjuração gratuita conserva"
+  },
+  {
+    "id": "R63-120",
+    "bloco": "catalogo--melhoria-sem-cura",
+    "motivo": "concessao",
+    "antes": "e ele pode receber uma nova concessão desse recurso.",
+    "depois": "e ele pode receber esse recurso de novo."
+  },
+  {
+    "id": "R63-121",
+    "bloco": "aptidoes--apt-refino",
+    "motivo": "concessao",
+    "antes": "salvo uma concessão específica da criação do personagem.",
+    "depois": "salvo regra específica da criação do personagem."
+  },
+  {
+    "id": "R63-122",
+    "bloco": "aptidoes--apt-marcos",
+    "motivo": "concessao",
+    "antes": "Uma concessão específica de sua Origem também conserva",
+    "depois": "Uma aptidão dada especificamente por sua Origem também conserva"
+  },
+  {
+    "id": "R63-123",
+    "bloco": "aptidoes--apt-reversa",
+    "motivo": "concessao",
+    "antes": "As primeiras faixas atendem às concessões específicas que",
+    "depois": "As primeiras faixas atendem às regras específicas que"
+  },
+  {
+    "id": "R63-124",
+    "bloco": "aptidoes--apt-simples",
+    "motivo": "concessao",
+    "antes": "As faixas inferiores servem a concessões específicas da criação.",
+    "depois": "As faixas inferiores servem a regras específicas da criação."
+  },
+  {
+    "id": "R63-125",
+    "bloco": "aptidoes--apt-propria",
+    "motivo": "concessao",
+    "antes": "Uma concessão da criação que já preencha",
+    "depois": "Uma regra da criação que já preencha"
+  },
+  {
+    "id": "R63-126",
+    "bloco": "campo--inv-respostas",
+    "motivo": "concessao",
+    "antes": "A concessão não inventa uma capacidade",
+    "depois": "Essa permissão não inventa uma capacidade"
+  },
+  {
+    "id": "R63-127",
+    "bloco": "geral--ler",
+    "motivo": "pertinente",
+    "antes": "use a perícia pertinente;",
+    "depois": "use a perícia que fizer sentido;"
+  },
+  {
+    "id": "R63-128",
+    "bloco": "origens--descendente-beneficios",
+    "motivo": "pertinente",
+    "antes": "verdadeira, mas parcial, pertinente à pergunta",
+    "depois": "verdadeira, mas parcial, ligada à pergunta"
+  },
+  {
+    "id": "R63-129",
+    "bloco": "origens--restricao-ce4",
+    "motivo": "pertinente",
+    "antes": "materiais e testes pertinentes continuam",
+    "depois": "materiais e testes que façam sentido continuam"
+  },
+  {
+    "id": "R63-130",
+    "bloco": "evocador--ev-principal-reflexa",
+    "motivo": "pertinente",
+    "antes": "para a próxima ameaça pertinente.",
+    "depois": "para a próxima ameaça em que ela se aplique."
+  },
+  {
+    "id": "R63-131",
+    "bloco": "consulta--consulta-missao",
+    "motivo": "pertinente",
+    "antes": "os recursos usados e a regra pertinente.",
+    "depois": "os recursos usados e a regra que se aplica."
+  },
+  {
+    "id": "R63-132",
+    "bloco": "consulta--consulta-conduzir",
+    "motivo": "pertinente",
+    "antes": "capacidade da ficha ou outra regra pertinente.",
+    "depois": "capacidade da ficha ou outra regra que se aplique."
+  },
+  {
+    "id": "R63-133",
+    "bloco": "geral--aparar",
+    "motivo": "retroativo",
+    "antes": "Resolver um revide não transforma retroativamente um acerto em erro ou recupera recursos gastos.",
+    "depois": "Resolver um revide não volta atrás para transformar um acerto em erro nem para recuperar recursos gastos."
+  },
+  {
+    "id": "R63-134",
+    "bloco": "dano--leves",
+    "motivo": "retroativo",
+    "antes": "não muda retroativamente a ordem já registrada.",
+    "depois": "não muda a ordem já registrada."
+  },
+  {
+    "id": "R63-135",
+    "bloco": "dano--derrota",
+    "motivo": "retroativo",
+    "antes": "Não transforme uma derrota em morte retroativamente por preferência",
+    "depois": "Não transforme depois uma derrota em morte por preferência"
+  },
+  {
+    "id": "R63-136",
+    "bloco": "catalogo--melhoria-acumulo",
+    "motivo": "retroativo",
+    "antes": "Não exige reduzir retroativamente o feitiço.",
+    "depois": "Não é preciso voltar atrás e reduzir o feitiço."
+  },
+  {
+    "id": "R63-137",
+    "bloco": "ritual--rit-ajuda",
+    "motivo": "retroativo",
+    "antes": "nem reduzir retroativamente o PE pago.",
+    "depois": "nem reduzir depois o PE pago."
+  },
+  {
+    "id": "R63-138",
+    "bloco": "campo--inv-manutencao",
+    "motivo": "vencimento",
+    "antes": "Recuperar PE entre dois vencimentos não religa",
+    "depois": "Recuperar PE entre duas cobranças não religa"
+  },
+  {
+    "id": "R63-139",
+    "bloco": "campo--inv-manutencao",
+    "motivo": "vencimento",
+    "antes": "No vencimento seguinte,",
+    "depois": "Na cobrança seguinte,"
+  },
+  {
+    "id": "R63-140",
+    "bloco": "evocador--ev-posicao",
+    "motivo": "reserva-reacao",
+    "antes": "encerra as preparações que dependiam dessa reserva,",
+    "depois": "encerra as preparações que dependiam dela,"
+  },
+  {
+    "id": "R63-141",
+    "bloco": "evocador--ev-multiplas-retirada",
+    "motivo": "reserva-reacao",
+    "antes": "Os dois usos disputam a mesma reserva coletiva,",
+    "depois": "Os dois usos gastam a mesma Reação coletiva,"
+  },
+  {
+    "id": "R63-142",
+    "bloco": "incursor--inc-respostas",
+    "motivo": "reserva-reacao",
+    "antes": "Evasão e Reflexo disputam essa reserva com",
+    "depois": "Evasão e Reflexo disputam essa Reação com"
+  },
+  {
+    "id": "R63-143",
+    "bloco": "geral--saltos",
+    "motivo": "reserva-mov",
+    "antes": "Gaste o movimento reservado para a tentativa.",
+    "depois": "Gaste o movimento separado para a tentativa."
+  },
+  {
+    "id": "R63-144",
+    "bloco": "geral--voo",
+    "motivo": "reserva-mov",
+    "antes": "não cria uma segunda reserva completa.",
+    "depois": "não dá outro deslocamento completo."
+  },
+  {
+    "id": "R63-145",
+    "bloco": "geral--voo",
+    "motivo": "reserva-mov",
+    "antes": "concedem outra reserva igual ao deslocamento da modalidade escolhida. Gaste essa reserva somente nessa modalidade, sem voltar a descontar nela os metros de outra reserva.",
+    "depois": "concedem outra quantidade de metros igual ao deslocamento da modalidade escolhida. Gaste esses metros somente nessa modalidade, sem voltar a descontar nela os metros de outra fonte."
+  },
+  {
+    "id": "R63-146",
+    "bloco": "geral--voo",
+    "motivo": "reserva-mov",
+    "antes": "nem renova uma reserva própria de habilidade.",
+    "depois": "nem renova os metros próprios de uma habilidade."
+  },
+  {
+    "id": "R63-147",
+    "bloco": "dano--leves",
+    "motivo": "reserva-mov",
+    "antes": "Não reduza também sua reserva de deslocamento por essa condição.",
+    "depois": "Não reduza também seu deslocamento por essa condição."
+  },
+  {
+    "id": "R63-148",
+    "bloco": "geral--concentracao",
+    "motivo": "reserva-temp",
+    "antes": "**vida temporária**, uma reserva que absorve dano antes da vida comum,",
+    "depois": "**vida temporária**, pontos separados que absorvem dano antes da vida comum,"
+  },
+  {
+    "id": "R63-149",
+    "bloco": "geral--quedas",
+    "motivo": "reserva-temp",
+    "antes": "a reserva separada que absorve dano antes da vida,",
+    "depois": "os pontos separados que absorvem dano antes da vida,"
+  },
+  {
+    "id": "R63-150",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "Algumas capacidades concedem uma reserva temporária. Anote-a separadamente da reserva comum.",
+    "depois": "Algumas capacidades concedem vida temporária ou energia temporária. Anote-a separadamente da vida ou dos PE comuns."
+  },
+  {
+    "id": "R63-151",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "| Reserva | Limite e uso |",
+    "depois": "| Recurso | Limite e uso |"
+  },
+  {
+    "id": "R63-152",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "Máximo zero não cria reserva temporária.",
+    "depois": "Máximo zero não cria vida nem energia temporária."
+  },
+  {
+    "id": "R63-153",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "Reservas temporárias do mesmo recurso **não se somam**.",
+    "depois": "Valores temporários do mesmo recurso **não se somam**."
+  },
+  {
+    "id": "R63-154",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "Conservar a reserva não repõe pontos gastos.",
+    "depois": "Conservar o que restou não repõe pontos gastos."
+  },
+  {
+    "id": "R63-155",
+    "bloco": "dano--temporarios",
+    "motivo": "reserva-temp",
+    "antes": "Não refaz uma reserva temporária concedida por uma capacidade.",
+    "depois": "Não refaz a energia temporária concedida por uma capacidade."
+  },
+  {
+    "id": "R63-156",
+    "bloco": "origens--receptaculo-excecoes",
+    "motivo": "reserva-temp",
+    "antes": "A reserva dura até o fim da cena e respeita o teto",
+    "depois": "Esses PE temporários duram até o fim da cena e respeitam o teto"
+  },
+  {
+    "id": "R63-157",
+    "bloco": "origens--feto-beneficios",
+    "motivo": "reserva-temp",
+    "antes": "respeitando o teto geral e sem somar reservas.",
+    "depois": "respeitando o teto geral e sem somar a outra vida temporária."
+  },
+  {
+    "id": "R63-158",
+    "bloco": "bastiao--bas-aliados",
+    "motivo": "reserva-temp",
+    "antes": "Depois das proteções e da reserva do aliado,",
+    "depois": "Depois das proteções e da vida temporária do aliado,"
+  },
+  {
+    "id": "R63-159",
+    "bloco": "bastiao--bas-combatente",
+    "motivo": "reserva-temp",
+    "antes": "Eles formam uma reserva separada, gasta antes dos PE comuns,",
+    "depois": "São PE temporários, gastos antes dos PE comuns,"
+  },
+  {
+    "id": "R63-160",
+    "bloco": "bastiao--bas-combatente",
+    "motivo": "reserva-temp",
+    "antes": "Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera",
+    "depois": "Eles não se somam ao que restar de outros PE temporários. Novos sucessos podem repor o valor até maestria, mas não fazê-lo passar disso. Gastá-los não recupera"
+  },
+  {
+    "id": "R63-161",
+    "bloco": "vanguarda--van-feiticos",
+    "motivo": "reserva-temp",
+    "antes": "A reserva surge depois da resolução.",
+    "depois": "Esses PE surgem depois da resolução."
+  },
+  {
+    "id": "R63-162",
+    "bloco": "evocador--ev-principal-protecao",
+    "motivo": "reserva-temp",
+    "antes": "mantém somente a maior reserva disponível",
+    "depois": "mantém somente o maior valor disponível"
+  },
+  {
+    "id": "R63-163",
+    "bloco": "fundamento--funcoes",
+    "motivo": "reserva-temp",
+    "antes": "respeita o teto da reserva do beneficiário.",
+    "depois": "respeita o teto de vida temporária do beneficiário."
+  },
+  {
+    "id": "R63-164",
+    "bloco": "fundamento--funcoes",
+    "motivo": "reserva-temp",
+    "antes": "Vida temporária usa o teto, a duração e a regra de reservas do livro; não se soma a outra reserva.",
+    "depois": "Vida temporária usa o teto, a duração e as regras gerais do livro; não se soma a outra vida temporária."
+  },
+  {
+    "id": "R63-165",
+    "bloco": "fundamento--funcoes",
+    "motivo": "reserva-temp",
+    "antes": "para o recebimento e a substituição de reservas.",
+    "depois": "para receber e substituir vida temporária."
+  },
+  {
+    "id": "R63-166",
+    "bloco": "catalogo--melhoria-sem-cura",
+    "motivo": "reserva-temp",
+    "antes": "As reservas de vida temporária permanecem,",
+    "depois": "A vida temporária permanece,"
+  },
+  {
+    "id": "R63-167",
+    "bloco": "catalogo--melhoria-divide",
+    "motivo": "reserva-temp",
+    "antes": "antes de gastar suas reservas,",
+    "depois": "antes de gastar sua vida temporária ou sua vida,"
+  },
+  {
+    "id": "R63-168",
+    "bloco": "catalogo--melhoria-concentrada-duradoura",
+    "motivo": "reserva-temp",
+    "antes": "Anteparo, Rastro e reservas de cura mantêm",
+    "depois": "Anteparo, Rastro e a cura guardada por Reserva mantêm"
+  },
+  {
+    "id": "R63-169",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "motivo": "reserva-temp",
+    "antes": "Uma conjuração concede a reserva uma vez,",
+    "depois": "Uma conjuração concede essa vida temporária uma vez,"
+  },
+  {
+    "id": "R63-170",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "motivo": "reserva-temp",
+    "antes": "Essa vida segue as regras gerais: não se soma a outra reserva,",
+    "depois": "Essa vida segue as regras gerais: não se soma a outra vida temporária,"
+  },
+  {
+    "id": "R63-171",
+    "bloco": "rotas--rota-bancada",
+    "motivo": "reserva-temp",
+    "antes": "A reserva temporária segue seus limites",
+    "depois": "A vida temporária segue seus limites"
+  },
+  {
+    "id": "R63-172",
+    "bloco": "rotas--rota-bancada",
+    "motivo": "reserva-temp",
+    "antes": "da duração da reserva de vida temporária.",
+    "depois": "da duração da vida temporária."
+  },
+  {
+    "id": "R63-173",
+    "bloco": "ritual--rit-beneficios",
+    "motivo": "reserva-temp",
+    "antes": "em Dano e recuperação, e não se soma a outra reserva.",
+    "depois": "em Dano e recuperação, e não se soma a outra vida temporária."
+  },
+  {
+    "id": "R63-174",
+    "bloco": "construcao--entidades-saldo",
+    "motivo": "reserva-temp",
+    "antes": "respeitando os limites gerais dessa reserva.",
+    "depois": "respeitando os limites gerais da vida temporária."
+  },
+  {
+    "id": "R63-175",
+    "bloco": "consulta--consulta-glossario-6",
+    "motivo": "reserva-temp",
+    "antes": "Reserva separada dos PV atuais e máximos,",
+    "depois": "Pontos separados dos PV atuais e máximos,"
+  },
+  {
+    "id": "R63-176",
+    "bloco": "dano--dano",
+    "motivo": "reserva-integ",
+    "antes": "4. **Desconte das reservas.**",
+    "depois": "4. **Desconte da vida.**"
+  },
+  {
+    "id": "R63-177",
+    "bloco": "dano--dano",
+    "motivo": "reserva-integ",
+    "antes": "também afeta **Integridade**, uma reserva separada que acompanha",
+    "depois": "também afeta **Integridade**, um valor separado que acompanha"
+  },
+  {
+    "id": "R63-178",
+    "bloco": "dano--tipos",
+    "motivo": "reserva-integ",
+    "antes": "**Alma** afeta uma reserva adicional, a Integridade,",
+    "depois": "**Alma** afeta também outro valor, a Integridade,"
+  },
+  {
+    "id": "R63-179",
+    "bloco": "dano--alma",
+    "motivo": "reserva-integ",
+    "antes": "entram antes de descontar as reservas.",
+    "depois": "entram antes de descontar o dano."
+  },
+  {
+    "id": "R63-180",
+    "bloco": "dano--integridade",
+    "motivo": "reserva-integ",
+    "antes": "Uma capacidade que restaure essa reserva e o descanso longo",
+    "depois": "Uma capacidade que restaure a Integridade e o descanso longo"
+  },
+  {
+    "id": "R63-181",
+    "bloco": "dano--cura",
+    "motivo": "reserva-integ",
+    "antes": "As duas reservas são recuperadas separadamente.",
+    "depois": "Vida e Integridade são recuperadas separadamente."
+  },
+  {
+    "id": "R63-182",
+    "bloco": "dano--derrota",
+    "motivo": "reserva-integ",
+    "antes": "recuperar reservas não devolve sua participação",
+    "depois": "recuperar vida ou Integridade não devolve sua participação"
+  },
+  {
+    "id": "R63-183",
+    "bloco": "dano--derrota",
+    "motivo": "reserva-integ",
+    "antes": "desde que as duas reservas voltem a pelo menos 1.",
+    "depois": "desde que a vida e a Integridade voltem a pelo menos 1."
+  },
+  {
+    "id": "R63-184",
+    "bloco": "dano--derrota",
+    "motivo": "reserva-integ",
+    "antes": "a exigência de recuperar essa reserva não se aplica",
+    "depois": "a exigência de recuperar Integridade não se aplica"
+  },
+  {
+    "id": "R63-185",
+    "bloco": "dano--usos",
+    "motivo": "reserva-integ",
+    "antes": "A recuperação das reservas não desfaz",
+    "depois": "A recuperação de vida e Integridade não desfaz"
+  },
+  {
+    "id": "R63-186",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "motivo": "reserva-integ",
+    "antes": "só se aplicam a quem possui essa reserva;",
+    "depois": "só se aplicam a quem a possui;"
+  },
+  {
+    "id": "R63-187",
+    "bloco": "origens--origem-receptaculo",
+    "motivo": "reserva-integ",
+    "antes": "não recupera reservas nem devolve ações",
+    "depois": "não recupera vida, Integridade ou PE nem devolve ações"
+  },
+  {
+    "id": "R63-188",
+    "bloco": "equip--eqf-reliquias",
+    "motivo": "reserva-integ",
+    "antes": "Integridade é a reserva anotada separadamente da vida,",
+    "depois": "Integridade é o valor anotado separadamente da vida,"
+  },
+  {
+    "id": "R63-189",
+    "bloco": "ab--ab-mundo",
+    "motivo": "reserva-pe",
+    "antes": "são a reserva que você gasta para usar",
+    "depois": "são os pontos que você gasta para usar"
+  },
+  {
+    "id": "R63-190",
+    "bloco": "geral--mundo",
+    "motivo": "reserva-pe",
+    "antes": "A reserva de PE também não mede",
+    "depois": "A quantidade de PE também não mede"
+  },
+  {
+    "id": "R63-191",
+    "bloco": "geral--ler",
+    "motivo": "reserva-pe",
+    "antes": "grau ou reserva exata de PE:",
+    "depois": "grau ou quantidade exata de PE:"
+  },
+  {
+    "id": "R63-192",
+    "bloco": "origens--receptaculo-acordos",
+    "motivo": "reserva-pe",
+    "antes": "É recuperação da reserva comum,",
+    "depois": "É recuperação de PE comuns,"
+  },
+  {
+    "id": "R63-193",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "motivo": "reserva-pe",
+    "antes": "depende diretamente da reserva de energia.",
+    "depois": "depende diretamente dos seus PE."
+  },
+  {
+    "id": "R63-194",
+    "bloco": "evocador--evocador",
+    "motivo": "reserva-vinculo",
+    "antes": "Os **Pontos de Vínculo** formam a reserva que paga suas intervenções,",
+    "depois": "Os **Pontos de Vínculo** pagam suas intervenções,"
+  },
+  {
+    "id": "R63-195",
+    "bloco": "evocador--ev-vinculo",
+    "motivo": "reserva-vinculo",
+    "antes": "**Pontos de Vínculo** são a reserva usada para pagar",
+    "depois": "**Pontos de Vínculo** são os pontos usados para pagar"
+  },
+  {
+    "id": "R63-196",
+    "bloco": "evocador--ev-vinculo",
+    "motivo": "reserva-vinculo",
+    "antes": "A reserva pertence ao conjunto.",
+    "depois": "Os pontos pertencem ao conjunto."
+  },
+  {
+    "id": "R63-197",
+    "bloco": "evocador--ev-combinar",
+    "motivo": "reserva-vinculo",
+    "antes": "e sua reserva de Pontos de Vínculo está vazia.",
+    "depois": "e você não tem Pontos de Vínculo."
+  },
+  {
+    "id": "R63-198",
+    "bloco": "equip--eqi-efeitos",
+    "motivo": "reserva-barreira",
+    "antes": "oferece uma reserva de vida para toda",
+    "depois": "oferece um total de vida para toda"
+  },
+  {
+    "id": "R63-199",
+    "bloco": "aptidoes--apt-barreira",
+    "motivo": "reserva-barreira",
+    "antes": "Uma única reserva de vida vale para toda a barreira:",
+    "depois": "Um único total de vida vale para toda a barreira:"
+  },
+  {
+    "id": "R63-200",
+    "bloco": "poderes--barreira",
+    "motivo": "reserva-barreira",
+    "antes": "Ela tem uma única reserva de vida,",
+    "depois": "Ela tem um único total de vida,"
+  },
+  {
+    "id": "R63-201",
+    "bloco": "guia--guia-arquiteto",
+    "motivo": "obra",
+    "antes": "apresenta as versões Ampliada e Grande.",
+    "depois": "apresenta as versões Extensa e Grande."
+  },
+  {
+    "id": "R63-202",
+    "bloco": "guia--guia-obras-maiores",
+    "motivo": "obra",
+    "antes": "Ao criar uma obra ou ampliá-la com",
+    "depois": "Ao criar uma obra ou aumentá-la com"
+  },
+  {
+    "id": "R63-203",
+    "bloco": "guia--guia-obras-maiores",
+    "motivo": "obra",
+    "antes": "| Obra | Básica | Ampliada (+4 PE) |",
+    "depois": "| Obra | Básica | Extensa (+4 PE) |"
+  },
+  {
+    "id": "R63-204",
+    "bloco": "guia--guia-obras-maiores",
+    "motivo": "obra",
+    "antes": "Para passar de Ampliada para Grande,",
+    "depois": "Para passar de Extensa para Grande,"
+  },
+  {
+    "id": "R63-205",
+    "bloco": "guia--guia-obras-maiores",
+    "motivo": "obra",
+    "antes": "Básica, 2 PE; Ampliada, 6 PE;",
+    "depois": "Básica, 2 PE; Extensa, 6 PE;"
+  },
+  {
+    "id": "R63-206",
+    "bloco": "guia--guia-obra-uso",
+    "motivo": "obra",
+    "antes": "3 PE para Ampliada ou",
+    "depois": "3 PE para Extensa ou"
+  }
+]

@@ -875,7 +875,7 @@ else:
         if 'Marca' not in _fam9:
             _erro9(f'o `Alvo de Caça` nao esta na Familia da `Marca`: {_fam9}')
         # --- o texto diz o que a regra promete (a frase do livro, desde a v0.337) ---
-        for _pedaco in ('+1d4', '1d8', 'Rápido', 'Cada tiro elegível de Rajada conta', 'Não vale para',
+        for _pedaco in ('+1d4', '1d8', 'Rápido', 'Cada tiro válido de Rajada conta', 'Não vale para',
                         'Mantenha um alvo de caça por vez'):
             if _pedaco not in _txtA:
                 _erro9(f'o `Alvo de Caça` no livro nao diz "{_pedaco}"')

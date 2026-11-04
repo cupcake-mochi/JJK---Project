@@ -1,10 +1,10 @@
-# Fonte corrente R62
+# Fonte corrente R63
 
-LIVRO-COMPLETO.md é a edição R62, de 425 páginas, usada pelos validadores. Ela é a passada de linguagem simples, sem mudar regra: "saldo" virou "pontos que sobram" e "ambiente propício" passou a ser o único nome, entre outras trocas. Preserva os custos da Reação cancelada da R61, o esclarecimento de conjuração da R60 e a revisão didática da R59.
+LIVRO-COMPLETO.md é a edição R63, de 425 páginas, usada pelos validadores. Ela continua a linguagem simples, sem mudar regra: saem as palavras raras, "reserva" deixa de descrever vida temporária e Integridade, e o nível "Ampliada" das obras vira "Extensa". Preserva "pontos que sobram" e "ambiente propício" da R62, os custos da Reação cancelada da R61, o esclarecimento de conjuração da R60 e a revisão didática da R59.
 
-O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r62/. O antes e depois está em revisao-de-regras/alteracoes/R61-para-R62.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r63/. O antes e depois está em revisao-de-regras/alteracoes/R62-para-R63.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
 
-A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r62/composicao. As cadeias antigas de geração documentam versões anteriores.
+A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r63/composicao. As cadeias antigas de geração documentam versões anteriores.
 
 ## Histórico da fonte e da geração
 
