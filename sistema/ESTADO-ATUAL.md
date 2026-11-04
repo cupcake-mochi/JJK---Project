@@ -1,6 +1,16 @@
-# Edição corrente R63
+# Edição corrente R64
 
-**Versão v0.373.**
+**Versão v0.374.**
+
+Linguagem simples, aprovada em 04/11/2026. São 293 trocas que substituem 139 ocorrências de “registre” e “registrem” e 163 de “conforme”. Inclui os títulos Anote as consequências e Preencha a ficha. A edição preserva números, regras, âncoras e destinos de link.
+
+As duas paletas têm 425 páginas. As mesmas 190 páginas mudaram nas duas paletas e foram inspecionadas visualmente. Ativação e manutenção passou da página 317 para a 316. A auditoria do Índice conferiu os 453 verbetes.
+
+Fonte, listas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`. A cadeia de integridade cobre R52 a R64. Os PDFs da R64 estão prontos para publicação.
+
+# Edição anterior R63
+
+*Versão v0.373.*
 
 Linguagem simples, segunda rodada, aprovada em 03/11/2026, sem mudar regra. Saem as palavras raras: parcela, elegível, efetivamente, concessão, pertinente, retroativo e vencimento chegam a zero no texto; "excedente" fica em 3 usos e "vinculado" em 11, só nos nomes do jogo. "Reserva" sai de 68 usos e fica em 107: deixa de descrever vida temporária, Integridade, PE, Pontos de Vínculo, movimento e a vida da barreira, e continua nos nomes, na munição, na domada e no sentido de guardar. O nível "Ampliada" das obras do Arquiteto virou **Extensa**, o excedente das entidades virou **sobra de dano**, "Parcelas adicionais" virou **Partes adicionais** (a âncora continua `#ritual--rit-parcelas`) e o sumário do capítulo 10 passou a seguir a ordem das páginas. São 206 trocas em 133 blocos. Números, custos, gatilhos e âncoras ficaram iguais.
 

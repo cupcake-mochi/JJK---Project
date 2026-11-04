@@ -8,6 +8,16 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.374] - 04/11/2026
+
+### Alterado
+
+- R64 do Livro de Regras. Linguagem simples para “registre” e “conforme”, incluindo os dois títulos aprovados. Foram 293 trocas em 202 blocos e uma abertura de capítulo. Regras, números, rótulos de Requisito, âncoras e destinos preservados.
+- PDFs claro e noturno com 425 páginas. As 190 páginas alteradas foram revisadas nas duas paletas. A composição passou em 59 verificações e o Índice em 453 verbetes. Os registros estão em `editorial-r64/`.
+- A guarda da fonte reaplica o registro R63-para-R64, incluindo a abertura do capítulo 6. A checagem da Consulta rápida acompanha a nova redação.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R64 pronta para publicação.
+
 ## [0.373] - 04/11/2026
 
 ### Alterado

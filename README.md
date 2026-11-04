@@ -2,12 +2,12 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.373** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.374** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R63, livro completo com 425 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R64, livro completo com 425 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os hashes dos PDFs ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 
@@ -37,6 +37,8 @@ A reconstrução editorial está concluída para revisão do autor e preserva o 
 - [Plano da migração para as peças](sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md): começou na v0.332, pelos nomes
 
 As imagens de conferência e os antigos pacotes de transferência permanecem no ambiente local. As fontes, os PDFs, o pacote final e os registros de revisão são versionados.
+
+A R64 troca “registre” e “conforme” por instruções mais diretas, incluindo dois títulos de Fundamento. São 293 trocas aprovadas, com o mesmo conteúdo de regra. O antes e depois está em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`.
 
 ---
 

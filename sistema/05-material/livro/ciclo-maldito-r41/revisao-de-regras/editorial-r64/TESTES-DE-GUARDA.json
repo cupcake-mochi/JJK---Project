@@ -1,0 +1,25 @@
+{
+  "resultado": "aprovado",
+  "testes": [
+    {
+      "caso": "Registro da abertura do capítulo 6 ausente",
+      "meio": "cópia em memória do registro",
+      "detectado": true
+    },
+    {
+      "caso": "Termo antigo injetado na página 249 noturna",
+      "meio": "cópia em memória da página do PDF",
+      "detectado": true
+    },
+    {
+      "caso": "Contagem inferior a 425",
+      "meio": "cópia da lista de páginas extraídas",
+      "detectado": true
+    },
+    {
+      "caso": "Título antigo de ficha reaparece",
+      "meio": "cópia do texto extraído",
+      "detectado": true
+    }
+  ]
+}

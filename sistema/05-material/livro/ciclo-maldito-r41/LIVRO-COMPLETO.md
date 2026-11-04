@@ -14,13 +14,13 @@ Livro de regras
 
 Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar um objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do personagem, seus companheiros e seus inimigos passam a fazer parte de uma história própria.
 
-Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, dependendo dos efeitos que você construir para eles.
 
 #### Jogadores e mestre
 
 Cada jogador interpreta um personagem. Você descreve o que ele diz e tenta fazer, escolhe suas ações e registra suas capacidades na **ficha**. Uma pessoa assume o papel de **mestre**: apresenta os lugares, interpreta as outras pessoas e criaturas, conduz os perigos e aplica as regras quando o resultado de uma tentativa precisa ser decidido.
 
-O grupo conversa para descobrir o que acontece. Se você disser que procura uma entrada para o prédio, o mestre descreve o que consegue ver. Arrombar uma porta sob pressão pode pedir uma rolagem. Abrir uma porta destrancada normalmente só exige chegar até ela e abri-la. As regras entram conforme a situação.
+O grupo conversa para descobrir o que acontece. Se você disser que procura uma entrada para o prédio, o mestre descreve o que consegue ver. Arrombar uma porta sob pressão pode pedir uma rolagem. Abrir uma porta destrancada normalmente só exige chegar até ela e abri-la. Use as regras que se aplicam à situação.
 
 #### Campanhas e guildas
 
@@ -183,7 +183,7 @@ Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD
 
 ##### Sucesso e falha
 
-Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.
+Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você seguindo aquela regra.
 
 <!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#pericias -->
 <a id="geral--pericias"></a>
@@ -240,9 +240,9 @@ A escolha entre Força e Destreza no **TR Físico é feita na criação e perman
 
 ##### CD e resultado
 
-A CD de um feitiço usa **8 + atributo da técnica + maestria**, com os modificadores previstos no efeito. Para manobras e outras habilidades, consulte a CD própria. Uma criatura pode usar CDs diferentes conforme o que faz.
+A CD de um feitiço usa **8 + atributo da técnica + maestria**, com os modificadores previstos no efeito. Para manobras e outras habilidades, consulte a CD própria. Uma criatura pode usar CDs diferentes dependendo do que faz.
 
-Passar no TR não tem um resultado universal. Pode impedir uma condição, reduzir dano ou terminar um efeito, conforme a regra que pediu o teste. Não aplique metade do dano a todo sucesso nem conceda uma tentativa de resistência a um efeito que não a ofereça.
+Passar no TR não tem um resultado universal. Pode impedir uma condição, reduzir dano ou terminar um efeito, segundo a regra que pediu o teste. Não aplique metade do dano a todo sucesso nem conceda uma tentativa de resistência a um efeito que não a ofereça.
 
 > **Exemplo:** Kaito tem Destreza 4, maestria 2 e treino em TR Físico, escolhido com Destreza. Diante de CD 15, tira 9 e soma 6: total 15. Ele passou. Para saber se evita o efeito ou recebe parte dele, consulta o texto do efeito.
 
@@ -268,7 +268,7 @@ Uma **cena** é um trecho de jogo com uma situação em andamento. Ela termina q
 
 Role **d20 + Destreza**, com os modificadores ativos nessa rolagem. Quem obtiver o maior total age primeiro.
 
-Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a ordem; entre inimigos, o mestre escolhe. Registre a ordem uma vez para o combate. Uma habilidade que antecipe ou altere um turno segue suas próprias regras.
+Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a ordem; entre inimigos, o mestre escolhe. Anote a ordem uma vez para o combate. Uma habilidade que antecipe ou altere um turno segue suas próprias regras.
 
 #### Recursos do turno
 
@@ -301,7 +301,7 @@ As opções abaixo custam **Ação Padrão**, salvo permissão específica. O re
 
 | Ação | O que permite |
 |---|---|
-| **Atacar** | Realizar ataque com arma ou desarmado e os ataques adicionais permitidos. Agarrar, Derrubar e Empurrar podem substituir ataques conforme suas regras. |
+| **Atacar** | Realizar ataque com arma ou desarmado e os ataques adicionais permitidos. Agarrar, Derrubar e Empurrar podem substituir ataques segundo suas regras. |
 | **Conjurar** | Usar um feitiço, cumprindo seus requisitos e custos. |
 | **Correr** | Ganhar movimento igual ao deslocamento até o fim do turno. |
 | **Desengajar** | Evitar os ataques de oportunidade provocados por seus movimentos naquele turno: ataques de Reação que um inimigo pode fazer quando você sai do alcance corpo a corpo dele. |
@@ -374,7 +374,7 @@ Essa ação examina o ambiente. Encontrar uma criatura escondida exige **Vasculh
 
 ##### Influenciar
 
-**Ação Padrão em combate.** Diga o que quer obter e sua abordagem. O mestre avalia se ela é possível e informa a CD. Use Persuasão, Enganação, Intimidação ou Atuação, todas com Essência, conforme a tentativa.
+**Ação Padrão em combate.** Diga o que quer obter e sua abordagem. O mestre avalia se ela é possível e informa a CD. Use Persuasão, Enganação, Intimidação ou Atuação, todas com Essência, dependendo da tentativa.
 
 Um sucesso obtém a resposta cabível à situação. Não controla a vontade do alvo nem obriga um personagem jogador a tomar uma decisão. Uma conversa extensa pode exigir tempo além de uma ação. Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.
 
@@ -482,7 +482,7 @@ Um ataque concedido por Ação Bônus, Reação ou outro efeito segue o custo e 
 #### Resolução
 
 1. **Declare o ataque e o alvo.** Confira alcance, equipamento e requisitos. O alvo escolhe entre sua Defesa e Bloquear antes da rolagem de acerto. Resolva as habilidades que precisam ser usadas antes da rolagem.
-2. **Role o acerto.** Aplique os bônus e a vantagem ou desvantagem. Havendo ambas, elas se anulam conforme as regras de Testes.
+2. **Role o acerto.** Aplique os bônus e a vantagem ou desvantagem. Havendo ambas, elas se anulam segundo as regras de Testes.
 3. **Resolva a defesa.** Compare o total com a Defesa ou com Bloquear. Considere as regras de crítico e dos resultados duplos de Bloquear.
 4. **Resolva o golpe.** Se acertar, aplique o dano e os efeitos previstos. Se errar, aplique apenas o que declarar funcionar no erro. Cada habilidade conserva seu momento de uso.
 
@@ -534,7 +534,7 @@ Feitiços usam o alcance e os requisitos de sua própria montagem. Ter uma rolag
 
 Saber onde alguém está permite tentar ataques que não exijam visão, mas não elimina a desvantagem por não enxergá-lo. Se você ataca um espaço onde a criatura não está, erra. Uma exigência de enxergar continua valendo mesmo que outro sentido tenha localizado o alvo.
 
-Objetos no caminho podem conceder [cobertura](#geral--defesa). Escuridão e fumaça dificultam a visão conforme as regras de Percepção; a ocultação e sua perda depois de atacar são tratadas em **Ataques e ocultação**, nas regras comuns.
+Objetos no caminho podem conceder [cobertura](#geral--defesa). Escuridão e fumaça dificultam a visão segundo as regras de Percepção; a ocultação e sua perda depois de atacar são tratadas em **Ataques e ocultação**, nas regras comuns.
 
 <!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#critico -->
 <a id="geral--critico"></a>
@@ -670,7 +670,7 @@ O agressor pode gastar a **Reação dele** para atacar você mais uma vez, imedi
 
 Essas respostas permitem **um ataque**, não uma Ação Atacar completa. São ataques físicos com arma ou desarmados; um feitiço exige permissão específica. Faça uma nova rolagem de acerto e resolva a Defesa ou Bloquear de quem recebe o golpe.
 
-Cada resposta paga a Reação indicada por seu gatilho. Um novo Aparar ou Brecha pode oferecer outra resposta, mas não devolve uma Reação já gasta. Cada criatura recupera sua Reação no começo do próprio turno, conforme as regras de Turnos.
+Cada resposta paga a Reação indicada por seu gatilho. Um novo Aparar ou Brecha pode oferecer outra resposta, mas não devolve uma Reação já gasta. Cada criatura recupera sua Reação no começo do próprio turno, segundo as regras de Turnos.
 
 O ataque original conserva seu resultado. Resolver um revide não volta atrás para transformar um acerto em erro nem para recuperar recursos gastos. As permissões adicionais de Caminhos, Trilhas e entidades continuam usando seus custos e limites próprios.
 
@@ -926,7 +926,7 @@ Outros efeitos que reduzam seu deslocamento continuam valendo. Com deslocamento 
 
 ##### Levantar
 
-Levantar-se da condição Derrubado comum custa sua **Ação de Movimento inteira**, conforme a condição. Você não pode usar parte dessa ação para rastejar e depois usá-la inteira para levantar. Uma habilidade pode permitir outro custo.
+Levantar-se da condição Derrubado comum custa sua **Ação de Movimento inteira** pela regra da condição. Você não pode usar parte dessa ação para rastejar e depois usá-la inteira para levantar. Uma habilidade pode permitir outro custo.
 
 Um efeito que mantenha você Derrubado precisa ser encerrado antes de levantar. Estar Agarrado permite levantar no mesmo espaço se tiver a ação necessária; o agarrão continua, e o deslocamento permanece zero.
 
@@ -953,7 +953,7 @@ Os acréscimos se somam ao custo normal; não se multiplicam. Ter várias fontes
 
 Voar exige uma capacidade que conceda essa modalidade. A fonte informa a distância, a duração e os requisitos para mantê-la. Um salto não concede voo.
 
-Use a Ação de Movimento e as demais permissões habituais para gastar seus metros de voo. Subir, avançar e descer voluntariamente consomem movimento. Registre a altura na escala de **1,5 m** quando ela afetar alcance, obstáculos ou uma possível queda.
+Use a Ação de Movimento e as demais permissões habituais para gastar seus metros de voo. Subir, avançar e descer voluntariamente consomem movimento. Anote a altura na escala de **1,5 m** quando ela afetar alcance, obstáculos ou uma possível queda.
 
 ##### Combinar modalidades
 
@@ -1087,7 +1087,7 @@ Cobertura, escuridão e invisibilidade podem impedir que você veja alguém, mas
 | Escuridão | Você não enxerga o que estiver sem luz. Um alvo iluminado além do trecho escuro ainda pode ser visto. |
 | Fumaça densa ou obstáculo opaco | Bloqueia a visão através dele. Ouvir ou usar um sentido apropriado continua possível. |
 
-**Cobertura** protege de ataques conforme **Defesa e cobertura**.
+**Cobertura** protege de ataques segundo **Defesa e cobertura**.
 
 Fumaça não segura uma flecha. Uma parede pode bloquear visão e ataques. Quando ambos existirem, aplique cada efeito uma vez. Uma técnica que exija enxergar o alvo continua exigindo isso mesmo que você saiba onde ele está.
 
@@ -1099,7 +1099,7 @@ Fumaça não segura uma flecha. Uma parede pode bloquear visão e ataques. Quand
 <a id="geral--esconder"></a>
 #### Esconder
 
-**Ação Padrão.** Escolha um lugar ou percurso que permita esconder seu corpo e reduzir os sinais da sua passagem. Faça um teste de **Furtividade: d20 + seu bônus completo na perícia**. Esse bônus inclui Destreza, maestria se treinado, especialização e outros modificadores aplicáveis, conforme a ficha.
+**Ação Padrão.** Escolha um lugar ou percurso que permita esconder seu corpo e reduzir os sinais da sua passagem. Faça um teste de **Furtividade: d20 + seu bônus completo na perícia**. Esse bônus inclui Destreza, maestria se treinado, especialização e outros modificadores aplicáveis, de acordo com a ficha.
 
 ##### Quando é possível
 
@@ -1201,7 +1201,7 @@ Estudar não amplia os seus sentidos. Conhecer somente o espaço de uma criatura
 
 ##### Resolva a pergunta
 
-Quando houver incerteza, role a perícia contra a CD indicada pelo mestre. Conhecimento e tarefas sem nível usam a escala de CD **6, 10, 14, 18, 22 e 26**. Entender um efeito cuja dificuldade dependa do poder de seu criador usa a CD correspondente, conforme as regras de testes.
+Quando houver incerteza, role a perícia contra a CD indicada pelo mestre. Conhecimento e tarefas sem nível usam a escala de CD **6, 10, 14, 18, 22 e 26**. Entender um efeito cuja dificuldade dependa do poder de seu criador usa a CD correspondente, segundo as regras de testes.
 
 No sucesso, o mestre responde com **uma informação útil que os sinais ou seu conhecimento permitam descobrir**. Ela pode explicar um risco ou orientar sua próxima decisão. Uma informação evidente ou já conhecida não exige teste apenas por ter sido mencionada em combate.
 
@@ -1226,7 +1226,7 @@ Uma fonte de energia pode ajudar a encontrar uma criatura, um objeto ou sinais d
 | Encontrar uma fonte próxima | [Vasculhar com Sentir Energia](#geral--buscar). |
 | Compreender o fluxo que você observa | [Examinar energia e vestígios](#geral--ler). |
 | Investigar sinais percebidos de longe | [Sinais de energia no ambiente](#geral--pressao). |
-| Reconstruir acontecimentos ou seguir uma pista | Investigação ou Sobrevivência, conforme a tarefa. |
+| Reconstruir acontecimentos ou seguir uma pista | Investigação ou Sobrevivência, dependendo da tarefa. |
 
 #### Fonte e portador
 
@@ -1288,7 +1288,7 @@ Uma nova busca segue [Vasculhar](#geral--procurar): custa outra Ação Padrão e
 
 ##### Alvos sem energia
 
-Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, conforme seus próprios textos.
+Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, de acordo com seus próprios textos.
 
 Quem não tem acesso à perícia mantém essa limitação. Uma permissão para substituir a perícia conserva a ação, o alcance e os limites do exame, salvo exceção expressa. Ela não fornece energia ao personagem.
 
@@ -1310,7 +1310,7 @@ A dificuldade segue [Estudar](#geral--estudar). Sentir Energia não fornece auto
 
 Um resíduo pode permanecer num objeto depois que seu portador saiu. Encontrá-lo não confirma que essa pessoa esteja por perto, nem encerra a ocultação dela. Sentir Energia pode distinguir um resíduo acessível que esteja sendo examinado, sem fornecer automaticamente sua idade ou autor. Para reconstruir o ocorrido, use a perícia que fizer sentido; para seguir a trilha, use Sobrevivência. Uma única tentativa resolve a tarefa anunciada: não exija sempre detectar, investigar e rastrear em três rolagens obrigatórias.
 
-Uma assinatura só pode ser comparada quando você já tiver uma referência confiável, e o exame ainda depende do sinal disponível. Isso não revela um nome desconhecido. Uma capacidade que altere a assinatura funciona conforme seu texto.
+Uma assinatura só pode ser comparada quando você já tiver uma referência confiável, e o exame ainda depende do sinal disponível. Isso não revela um nome desconhecido. Uma capacidade que altere a assinatura funciona de acordo com seu texto.
 
 
 Uma capacidade de seguir vestígios, apagar rastros ou marcar uma criatura tem seu próprio procedimento. Apagar sinais da passagem não remove uma marca aplicada por outro efeito. Rastrear pistas de uma cena pode abranger um percurso maior que a busca local de 18 m, mas não revela um espaço sem evidência que o determine.
@@ -1395,13 +1395,13 @@ Resistência a **Fogo** protege apenas desse tipo. Resistência a **Elementais**
 
 **Força** é o tipo usado para **energia amaldiçoada pura**, projetada como um impacto ou disparo, sem outro tipo indicado pelo efeito. Ele pertence ao grupo **Especiais**.
 
-Soco, queda e impacto de objeto usam Concussão conforme sua regra. Revestir uma arma com energia não muda sozinho o tipo de seu dano. Uma técnica que cause Fogo continua usando Fogo, mesmo alimentada por energia amaldiçoada.
+Soco, queda e impacto de objeto usam Concussão seguindo a regra de cada caso. Revestir uma arma com energia não muda sozinho o tipo de seu dano. Uma técnica que cause Fogo continua usando Fogo, mesmo alimentada por energia amaldiçoada.
 
 O tipo Força não exige o atributo Força, não empurra o alvo e não ignora redução ou resistência. “Energético” pode descrever a aparência do efeito; não é um segundo tipo de dano.
 
 ##### Efeitos adicionais
 
-O tipo de dano não aplica uma condição nem outro efeito por conta própria. **Veneno** é um tipo de dano; **Envenenado** é uma condição. Uma fonte pode causar um deles ou os dois, conforme sua descrição.
+O tipo de dano não aplica uma condição nem outro efeito por conta própria. **Veneno** é um tipo de dano; **Envenenado** é uma condição. Uma fonte pode causar um deles ou os dois, de acordo com a descrição da fonte.
 
 Da mesma forma, dano de Fogo não continua queimando nos turnos seguintes sem uma regra que diga isso. Frio não aplica Lento automaticamente, Concussão não empurra por si e Necrótico não impede cura por seu nome. Danificar equipamento, incendiar objetos e aplicar condições exigem os procedimentos ou efeitos correspondentes.
 
@@ -1411,7 +1411,7 @@ Da mesma forma, dano de Fogo não continua queimando nos turnos seguintes sem um
 
 O Tema descreve a técnica; o tipo de dano é uma informação da regra. Uma técnica de Tema Fogo só causa Fogo quando o efeito indicar esse tipo. O nome de um feitiço também não substitui sua descrição.
 
-**Alma** afeta também outro valor, a Integridade, conforme a [regra de dano na alma](#dano--alma). **Energia Reversa** permanece um tipo de dano distinto de Alma e de Radiante; a aptidão ou o feitiço que o usar informa seus alvos e efeitos. Esses nomes não concedem novas permissões de conjuração.
+**Alma** afeta também outro valor, a Integridade, como explica a [regra de dano na alma](#dano--alma). **Energia Reversa** permanece um tipo de dano distinto de Alma e de Radiante; a aptidão ou o feitiço que o usar informa seus alvos e efeitos. Esses nomes não concedem novas permissões de conjuração.
 
 ##### Golpes com vários tipos
 
@@ -1473,17 +1473,17 @@ Compare frações exatas. Com Integridade máxima 26, perder 6 ainda não chega 
 
 Cura de vida não recupera Integridade. Uma capacidade que restaure a Integridade e o descanso longo seguem seus próprios valores. **Ao recuperar Integridade, recalcule o estágio.** A recuperação pode retirar penalidades dos estágios que você deixou.
 
-Chegar ao estágio 4 encerra sua participação naquela cena, mesmo que alguém restaure pontos logo depois. A recuperação permite o socorro e a recuperação posterior, conforme Derrota e morte. Ela não restaura um personagem morto nem desfaz uma consequência permanente.
+Chegar ao estágio 4 encerra sua participação naquela cena, mesmo que alguém restaure pontos logo depois. A recuperação permite o socorro e a recuperação posterior, segundo Derrota e morte. Ela não restaura um personagem morto nem desfaz uma consequência permanente.
 
 > **Exemplo:** Kaori tem máximo 26. Está com 12 de Integridade e perdeu 14, por isso está no estágio 2. Recuperar 5 a deixa com 17. Faltam 9 para o máximo, menos da metade, e seu estágio cai para 1. Recuperar mais 3 a deixaria com 20, no estágio 0.
 
-Vida e Integridade são acompanhadas separadamente. Se a mesma ocorrência zerar as duas, resolva a derrota por Integridade. [Insistir](#dano--insistir) é a opção de continuar agindo ao chegar a zero de vida, conforme o procedimento de Morrendo. Essa opção exige Integridade acima de zero.
+Vida e Integridade são acompanhadas separadamente. Se a mesma ocorrência zerar as duas, resolva a derrota por Integridade. [Insistir](#dano--insistir) é a opção de continuar agindo ao chegar a zero de vida, seguindo o procedimento de Morrendo. Essa opção exige Integridade acima de zero.
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#condicoes -->
 <a id="dano--condicoes"></a>
 ### Condições
 
-Uma **condição** altera o que você consegue fazer enquanto durar. Registre seu nome, a fonte, o momento em que termina e os testes ou ações que permitem encerrá-la. As treze condições classificadas como Leves, Médias ou Pesadas têm efeitos próprios; uma condição não inclui outra só porque seus nomes parecem relacionados.
+Uma **condição** altera o que você consegue fazer enquanto durar. Anote seu nome, a fonte, o momento em que termina e os testes ou ações que permitem encerrá-la. As treze condições classificadas como Leves, Médias ou Pesadas têm efeitos próprios; uma condição não inclui outra só porque seus nomes parecem relacionados.
 
 #### Aplicação e duração
 
@@ -1501,7 +1501,7 @@ Uma condição criada por essa Melhoria dura uma rodada, salvo uma peça que pro
 
 Condições diferentes podem coexistir: aplique os efeitos de cada uma. Vantagens e desvantagens continuam seguindo a regra de cancelamento, sem rolar dados extras por cada fonte.
 
-Receber **a mesma condição** novamente não intensifica seus efeitos. Registre as fontes e durações separadamente; ela permanece enquanto pelo menos uma aplicação estiver ativa. Escapar de um agarrão não remove outro. Uma habilidade que remova a condição por inteiro segue sua própria permissão.
+Receber **a mesma condição** novamente não intensifica seus efeitos. Anote as fontes e durações separadamente; ela permanece enquanto pelo menos uma aplicação estiver ativa. Escapar de um agarrão não remove outro. Uma habilidade que remova a condição por inteiro segue sua própria permissão.
 
 #### Encerrar uma condição
 
@@ -1537,7 +1537,7 @@ Você conserva suas ações e sua Defesa estática. O crítico segue a regra de 
 
 ##### Derrubado
 
-Você está no chão. Só pode se deslocar rastejando. Cada trecho de 1,5 m custa 1,5 m adicional, conforme Movimento. Não reduza também seu deslocamento por essa condição. Seus ataques têm desvantagem. Ataques contra você têm **vantagem a até 1,5 m** e **desvantagem de mais longe**.
+Você está no chão. Só pode se deslocar rastejando. Cada trecho de 1,5 m custa 1,5 m adicional, como explicado em Movimento. Não reduza também seu deslocamento por essa condição. Seus ataques têm desvantagem. Ataques contra você têm **vantagem a até 1,5 m** e **desvantagem de mais longe**.
 
 Levantar-se da condição Derrubado comum custa sua **Ação de Movimento inteira**. Uma habilidade pode permitir outro custo. Se um efeito mantiver você Derrubado por uma duração, precisa encerrar essa manutenção antes de levantar. Estar Agarrado não impede gastar a ação para levantar; você continua no mesmo espaço e agarrado.
 
@@ -1583,7 +1583,7 @@ Estar Enfeitiçado não transfere o controle do personagem para outra pessoa. Vo
 
 Se o efeito que aplica Enfeitiçado também causar dano, resolva esse ataque e seu dano antes de aplicar a condição. Um ataque ou efeito ofensivo posterior encerra a condição normalmente.
 
-> **Exemplo:** Rina está Enfeitiçada por uma inimiga. Não pode atacá-la, mas pode se afastar ou ajudar um aliado conforme as ações disponíveis. Um capanga ataca Rina e erra: Enfeitiçado termina pelo ataque recebido, embora ela não tenha perdido vida.
+> **Exemplo:** Rina está Enfeitiçada por uma inimiga. Não pode atacá-la, mas pode se afastar ou ajudar um aliado com as ações disponíveis. Um capanga ataca Rina e erra: Enfeitiçado termina pelo ataque recebido, embora ela não tenha perdido vida.
 
 ##### Remoção
 
@@ -1603,7 +1603,7 @@ Seu deslocamento é **zero**. Seus ataques e TRs Físicos têm desvantagem; ataq
 
 Você não enxerga e falha automaticamente em testes que exijam visão. Seus ataques têm desvantagem contra alvos que não consiga perceber por um sentido equivalente. Quem ataca você tem vantagem por sua cegueira **se conseguir enxergá-lo**.
 
-Visão às cegas pode substituir a visão para ataques dentro dos limites da habilidade que a concede. Ela não permite ler nem cumpre um requisito que exija especificamente usar os olhos. **Sentir Energia localiza conforme sua regra, mas não substitui visão para retirar essa desvantagem.**
+Visão às cegas pode substituir a visão para ataques dentro dos limites da habilidade que a concede. Ela não permite ler nem cumpre um requisito que exija especificamente usar os olhos. **Sentir Energia localiza segundo sua regra, mas não substitui visão para retirar essa desvantagem.**
 
 Quando duas criaturas não conseguem se enxergar, ambas atacam com desvantagem pela falta de visão. Outras fontes de vantagem e desvantagem continuam seguindo o cancelamento normal.
 
@@ -1625,7 +1625,7 @@ Atordoado não reduz sua Defesa nem impede Bloquear. A ação perdida não pode 
 
 ##### Testes de saída
 
-O TR mantém os modificadores aplicáveis enquanto a condição existir. Se Impedido exigir TR Físico para terminar, a tentativa tem desvantagem. Envenenado não prejudica um TR de Vigor por si. Registre na ficha do efeito **qual TR e qual CD** resolvem a saída, conforme as regras de [Condições](#dano--condicoes).
+O TR mantém os modificadores aplicáveis enquanto a condição existir. Se Impedido exigir TR Físico para terminar, a tentativa tem desvantagem. Envenenado não prejudica um TR de Vigor por si. Anote na ficha do efeito **qual TR e qual CD** resolvem a saída, segundo as regras de [Condições](#dano--condicoes).
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#cura -->
 <a id="dano--cura"></a>
@@ -1672,7 +1672,7 @@ O que restar desaparece ao terminar a cena, salvo duração própria. Uma prote�
 
 ##### Limites
 
-Vida temporária não aumenta a máxima e não é cura. Recebê-la a zero de vida não faz você acordar, não encerra Morrendo e não conta como tratamento. Ela pode absorver dano posterior conforme sua regra normal.
+Vida temporária não aumenta a máxima e não é cura. Recebê-la a zero de vida não faz você acordar, não encerra Morrendo e não conta como tratamento. Ela pode absorver dano posterior segundo sua regra normal.
 
 Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máximos. O descanso recupera PE comuns. Não refaz a energia temporária concedida por uma capacidade.
 
@@ -1682,7 +1682,7 @@ Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máxi
 <a id="dano--zero"></a>
 ### Vida a zero
 
-Ao chegar a **zero de vida**, você entra na condição **Morrendo**. A **janela de socorro** é o prazo em rodadas para receber atendimento. **Derrotado** encerra sua participação ativa naquela cena e deixa você Inconsciente, conforme [Derrota e morte](#dano--derrota).
+Ao chegar a **zero de vida**, você entra na condição **Morrendo**. A **janela de socorro** é o prazo em rodadas para receber atendimento. **Derrotado** encerra sua participação ativa naquela cena e deixa você Inconsciente, segundo [Derrota e morte](#dano--derrota).
 
 Uma **Sequela** registra o desgaste de uma queda anterior a zero de vida. Você a recebe ao encerrar aquela queda pelo socorro ou ao sair da derrota; ela reduz a janela da próxima queda e é removida no descanso longo. O procedimento completo está em [Sequelas e Cicatrizes](#dano--sequelas).
 
@@ -1692,7 +1692,7 @@ Se ainda houver janela, resolva primeiro as capacidades disparadas pela própria
 
 Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
 
-Anote a vida máxima que tinha ao cair, sem vida temporária. Esse é o **máximo de referência** até aquela queda terminar. Registre também o tratamento necessário, o tratamento já recebido e sua janela de socorro.
+Anote a vida máxima que tinha ao cair, sem vida temporária. Esse é o **máximo de referência** até aquela queda terminar. Anote também o tratamento necessário, o tratamento já recebido e sua janela de socorro.
 
 **Tratamento necessário** é a quantidade de cura válida que precisa acumular para sair de Morrendo pelo procedimento de cura. **Maior Classe** é a máxima permitida pelo seu nível, mesmo sem conhecer uma aplicação dela; consulte [Progressão](#progressao--prog-tabela-inicial).
 
@@ -1718,7 +1718,7 @@ O golpe que levou sua vida a zero inicia a queda. Seu excesso não consome outra
 
 #### Aguentar
 
-Você fica Inconsciente. Pode receber cura ou ser estabilizado conforme **Socorro**, mas não age para se proteger ou tratar os próprios ferimentos.
+Você fica Inconsciente. Pode receber cura ou ser estabilizado seguindo as regras de **Socorro**, mas não age para se proteger ou tratar os próprios ferimentos.
 
 Escolher Aguentar não permite mudar para Insistir mais tarde naquela queda. Se já estava Inconsciente antes de perder o último ponto de vida, você Aguenta. Insistir não remove outra causa de inconsciência.
 
@@ -1736,7 +1736,7 @@ Pode passar de Insistir para Aguentar **sem ação**. Fica Inconsciente, mas con
 
 ##### Socorro durante Insistir
 
-Acumule a cura conforme **Socorro**. Receber apenas 1 de cura não encerra essa queda, salvo uma capacidade com permissão expressa para encerrar Morrendo abaixo do tratamento necessário.
+Acumule a cura seguindo as regras de **Socorro**. Receber apenas 1 de cura não encerra essa queda, salvo uma capacidade com permissão expressa para encerrar Morrendo abaixo do tratamento necessário.
 
 Quando a janela termina, você fica Derrotado. Não recebe uma segunda janela por desabar. Dano à vida enquanto Insiste também consome rodadas dessa janela.
 
@@ -1784,7 +1784,7 @@ Depois de sair do perigo, uma pessoa estável que conclua um descanso curto recu
 <a id="dano--sequelas"></a>
 #### Sequelas e Cicatrizes
 
-Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Registre-a quando o socorro encerrar a queda, inclusive com cura própria, uma exceção ao tratamento necessário ou a recuperação segura depois de estabilizar. A Sequela nova afeta a próxima queda. Se ficar Derrotado, registre-a ao sair desse estado, conforme Derrota e morte.
+Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Marque-a quando o socorro encerrar a queda, inclusive com cura própria, uma exceção ao tratamento necessário ou a recuperação segura depois de estabilizar. A Sequela nova afeta a próxima queda. Se ficar Derrotado, marque-a ao sair desse estado, segundo Derrota e morte.
 
 | Sequelas antes de cair | Janela de Aguentar ou Insistir |
 |---|---|
@@ -1793,13 +1793,13 @@ Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Registre-a qu
 | 2 | 1 rodada. |
 | 3 ou mais | Fica Derrotado imediatamente. |
 
-Sequelas não penalizam ataques, perícias ou TRs. Elas são removidas no descanso longo: resolva primeiro a recuperação e registre a Sequela se ela encerrar a queda ou a derrota por vida a zero; depois, remova todas as Sequelas, inclusive essa. Cura comum não as remove. Receber mais cura quando já está acima de zero não acrescenta Sequela.
+Sequelas não penalizam ataques, perícias ou TRs. Elas são removidas no descanso longo: resolva primeiro a recuperação e marque a Sequela se ela encerrar a queda ou a derrota por vida a zero; depois, remova todas as Sequelas, inclusive essa. Cura comum não as remove. Receber mais cura quando já está acima de zero não acrescenta Sequela.
 
 > **Exemplo:** Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.
 
 ##### Cicatrizes
 
-Ferimentos graves podem deixar marcas duradouras. Depois da segunda queda na mesma missão, registre com o mestre se houve uma cicatriz e como ela ficou. Ela faz parte da aparência e da história do personagem.
+Ferimentos graves podem deixar marcas duradouras. Depois da segunda queda na mesma missão, anote com o mestre se houve uma cicatriz e como ela ficou. Ela faz parte da aparência e da história do personagem.
 
 Você escolhe se a Cicatriz concede **vantagem em Intimidação e desvantagem em Persuasão**, ou **nenhum dos dois**.
 
@@ -1811,7 +1811,7 @@ A recuperação da vida não apaga uma cicatriz já estabelecida. Mudar uma marc
 
 Você fica **Derrotado** quando sua janela de socorro termina ou sua Integridade chega a zero. Sua participação ativa naquela cena termina. Você fica Inconsciente e precisa ser retirado do perigo.
 
-Na regra de campanha padrão, derrota não causa morte automática. O mestre resolve o destino conforme os acontecimentos: resgate, captura, perda do objetivo ou outra consequência da missão. Ela não concede imunidade a perigos nem obriga inimigos a ignorar seu corpo.
+Na regra de campanha padrão, derrota não causa morte automática. O mestre resolve o destino com base no que aconteceu: resgate, captura, perda do objetivo ou outra consequência da missão. Ela não concede imunidade a perigos nem obriga inimigos a ignorar seu corpo.
 
 ##### Missões com morte permanente
 
@@ -1867,7 +1867,7 @@ Confira as condições reais: a escola sob ataque pode não oferecer descanso se
 
 #### Descanso curto
 
-Recupere **25% dos PE máximos**, sem ultrapassar o máximo. Vida e Integridade não voltam por esse descanso sozinho. Habilidades que curem ou permitam reparos durante a pausa continuam funcionando conforme suas regras.
+Recupere **25% dos PE máximos**, sem ultrapassar o máximo. Vida e Integridade não voltam por esse descanso sozinho. Habilidades que curem ou permitam reparos durante a pausa continuam funcionando segundo suas regras.
 
 Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. Fora de ambiente propício, use a porcentagem do seu degrau de [Exaustão](#dano--exaustao), o desgaste acumulado ao participar de várias lutas. Um resultado que diga **nada** continua sendo zero.
 
@@ -1882,7 +1882,7 @@ Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. 
 | Exaustão | É removida. | Permanece. |
 | Sequelas | São removidas depois da recuperação. | São removidas depois da recuperação. |
 
-Resolva primeiro a recuperação. Se ela encerrar uma queda ou uma derrota por vida a zero, registre a Sequela correspondente; depois, remova todas as Sequelas, inclusive essa.
+Resolva primeiro a recuperação. Se ela encerrar uma queda ou uma derrota por vida a zero, marque a Sequela correspondente; depois, remova todas as Sequelas, inclusive essa.
 
 Fora de ambiente propício, o descanso longo não soma metade da vida ou dos PE: ele garante que você termine com **pelo menos metade do máximo**. Quem já está acima da metade fica como está. Arredonde a metade para baixo; se o máximo for maior que zero, ela vale pelo menos 1.
 
@@ -1894,7 +1894,7 @@ Dormir durante uma missão ainda em andamento renova usos **por dia**; não equi
 <a id="dano--exaustao"></a>
 #### Exaustão
 
-**Da quarta luta do dia em diante, cada luta acrescenta um degrau de Exaustão, até o máximo de três.** Registre o total ao terminar cada confronto. A primeira, a segunda e a terceira luta não acrescentam degraus por essa regra.
+**Da quarta luta do dia em diante, cada luta acrescenta um degrau de Exaustão, até o máximo de três.** Anote o total ao terminar cada confronto. A primeira, a segunda e a terceira luta não acrescentam degraus por essa regra.
 
 O mestre identifica o que contou como luta. Um combate com oposição, uma fuga que exigiu recursos ou uma contenção sob ataque podem contar. Um treino ou uma ameaça encerrada sem esforço relevante normalmente não contam. A decisão não depende apenas de ter rolado iniciativa.
 
@@ -1911,7 +1911,7 @@ Os efeitos dos degraus anteriores continuam valendo. A última coluna vale para 
 
 Em ambiente propício, o descanso curto devolve **25% em qualquer degrau**. Ele não remove a Exaustão por isso. O limite de 4,5 m não aumenta um deslocamento que já esteja menor ou zerado.
 
-> **Exemplo:** com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, conforme esteja nos degraus 0, 1, 2 ou 3. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.
+> **Exemplo:** com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, nos degraus 0, 1, 2 ou 3, nessa ordem. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.
 
 ##### Recuperação
 
@@ -1979,11 +1979,11 @@ Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em 
 | Etapa | Escolha |
 |---|---|
 | 1. Atributos | Distribua seus nove pontos. |
-| 2. Origem | Escolha a Origem e duas menores permitidas; registre história, marcante e treinos. |
+| 2. Origem | Escolha a Origem e duas menores permitidas; anote história, marcante e treinos. |
 | 3. Caminho | Escolha sua forma de atuar e sua primeira Trilha. |
-| 4. Capacidades | Prepare técnica, Manejos ou Katas, conforme sua rota. |
+| 4. Capacidades | Prepare técnica, Manejos ou Katas, de acordo com sua rota. |
 | 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |
-| 6. Ficha | Calcule os valores, confira escolhas e registre recursos. |
+| 6. Ficha | Calcule os valores, confira escolhas e anote recursos. |
 
 #### Atributos
 
@@ -2001,7 +2001,7 @@ Você pode revisar a distribuição enquanto monta a ficha. Confira os requisito
 <a id="ab--ab-origem"></a>
 ### Origem e treinos
 
-Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e registre a base de treinos, um **traço** (detalhe importante da sua história), uma **marcante** (capacidade central da Origem) e **duas menores permitidas** (capacidades complementares de seu catálogo). Legados de história registram vínculos e acontecimentos, sem conceder benefícios mecânicos nem consumir essas escolhas. Sem Técnica é uma opção separada, disponível somente às Origens indicadas.
+Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e anote a base de treinos, um **traço** (detalhe importante da sua história), uma **marcante** (capacidade central da Origem) e **duas menores permitidas** (capacidades complementares de seu catálogo). Legados de história registram vínculos e acontecimentos, sem conceder benefícios mecânicos nem consumir essas escolhas. Sem Técnica é uma opção separada, disponível somente às Origens indicadas.
 
 **Perícias** representam áreas de atuação, como Atletismo e Furtividade. **Ofícios** representam atividades especializadas, como Caligrafia e Forja. O treino acrescenta Maestria aos testes correspondentes; as entradas de Perícias e Ofícios explicam como usar cada um.
 
@@ -2036,11 +2036,11 @@ O **Caminho** reúne suas capacidades principais de combate. A **Trilha** desenv
 | Bastião | Proteger aliados, atrair inimigos e assumir ataques contra companheiros próximos. A Trilha Punho desenvolve o combate desarmado. |
 | Vanguarda | Preparar uma sequência de ataques contra um adversário e consumi-la numa execução. |
 | Guia | Preparar oportunidades que os aliados usam para avançar, atacar ou resistir. |
-| Emanador | Adaptar as peças de feitiços conhecidos às situações de combate, conforme suas habilidades. |
+| Emanador | Adaptar as peças de feitiços conhecidos às situações de combate, dentro do que suas habilidades permitem. |
 | Evocador | Comandar entidades e investir em uma principal, numa parceria ou num conjunto. |
 | Incursor | Usar mobilidade e Fluidez, um recurso obtido em combate e gasto nas capacidades do Caminho, para aproveitar oportunidades. A Trilha Pugilista desenvolve golpes desarmados e defesa. |
 
-Leia **Características** e **Progressão** no Caminho escolhido. Registre os treinos, a vida, os **pontos de energia (PE)** e as habilidades recebidas no seu nível. Depois faça o mesmo com a Trilha. As descrições completas permanecem nas respectivas entradas para consulta durante a sessão.
+Leia **Características** e **Progressão** no Caminho escolhido. Anote os treinos, a vida, os **pontos de energia (PE)** e as habilidades recebidas no seu nível. Depois faça o mesmo com a Trilha. As descrições completas permanecem nas respectivas entradas para consulta durante a sessão.
 
 #### Treino com armas
 
@@ -2050,9 +2050,9 @@ Treino não fornece a arma nem dispensa seus requisitos de uso. Você ainda prec
 
 #### Escolhas que se combinam
 
-A Origem e o Caminho cumprem funções diferentes na ficha. Um Descendente pode lutar com os punhos, apoiar companheiros ou comandar entidades, conforme as escolhas disponíveis. Confira também a rota de capacidades permitida pela Origem antes de escrever uma técnica.
+A Origem e o Caminho cumprem funções diferentes na ficha. Um Descendente pode lutar com os punhos, apoiar companheiros ou comandar entidades, dependendo das escolhas disponíveis. Confira também a rota de capacidades permitida pela Origem antes de escrever uma técnica.
 
-Na criação de nível 1, registre as características iniciais do Caminho. Você recebe as habilidades e a primeira Trilha do nível 2 quando chegar a esse nível. Escolhê-las com antecedência não permite usá-las antes.
+Na criação de nível 1, anote as características iniciais do Caminho. Você recebe as habilidades e a primeira Trilha do nível 2 quando chegar a esse nível. Escolhê-las com antecedência não permite usá-las antes.
 
 <!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-capacidades -->
 <a id="ab--ab-capacidades"></a>
@@ -2086,7 +2086,7 @@ No nível 2, você tem **três espaços conhecidos**, além de **dois feitiços 
 
 **Aptidões** são capacidades aprendidas para usar energia além dos feitiços da técnica; confira as que você já começa tendo em [Aptidões e Refino](#aptidoes--apt-refino). **Refino** mede o domínio da energia. Na rota sem energia, **Lapidação** mede o desenvolvimento do corpo e **Bênçãos** são suas capacidades físicas ou sensoriais. Consulte [Lapidação](#rotas--rota-lapidacao) para essa progressão. Algumas opções exigem treino, nível ou uma escolha específica. Uma aptidão citada no catálogo não se torna disponível só por estar no livro.
 
-Registre os valores que usa com frequência e onde consultar as demais regras. Quando uma habilidade modificar outra, anote a alteração na ficha correspondente. Isso evita esquecer um custo ou somar o mesmo benefício duas vezes.
+Anote os valores que usa com frequência e onde consultar as demais regras. Quando uma habilidade modificar outra, anote a alteração na ficha correspondente. Isso evita esquecer um custo ou somar o mesmo benefício duas vezes.
 
 #### Conferência com o mestre
 
@@ -2096,7 +2096,7 @@ Antes da primeira sessão, confiram se o funcionamento descrito sustenta cada ap
 <a id="ab--ab-equipamento"></a>
 ### Equipamento e valores
 
-Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. O Traje é um uniforme leve que concede proteção à Defesa e favorece testes numa situação escolhida, como água e chuva. Registre a situação, o tipo de TR e as perícias beneficiados seguindo [Trajes](#equip--eqp-traje), em Equipamento. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
+Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. O Traje é um uniforme leve que concede proteção à Defesa e favorece testes numa situação escolhida, como água e chuva. Anote a situação, o tipo de TR e as perícias beneficiados seguindo [Trajes](#equip--eqp-traje), em Equipamento. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
 
 Anote também ferramentas, suprimentos e onde cada coisa fica guardada. Some o Volume do que leva, inclusive o uniforme vestido. Seu limite de carga normal é **5 + Força**. Possuir um item não dispensa as penalidades por falta de Força nem os demais requisitos de uso da peça.
 
@@ -2108,7 +2108,7 @@ Use a vida inicial e o ganho por nível do seu Caminho. **Como variante, com per
 
 #### Defesa e deslocamento
 
-A **Defesa** é o valor que um ataque precisa alcançar para acertar. Sua base é **10 + Destreza**, somada à proteção e ao escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
+A **Defesa** é o valor que um ataque precisa alcançar para acertar. Sua base é **10 + Destreza**, somada aos valores de proteção e escudo das peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 
 O deslocamento padrão é **9 m**. Aplique qualquer alteração de fato recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento. Excesso de carga segue Carga, em Regras gerais.
 
@@ -2118,7 +2118,7 @@ Calcule separadamente o bônus de acerto e o dano de cada ataque. Treino acresce
 
 Anote a **Classe de Dificuldade (CD)** das capacidades que pedem resistência. CD e bônus de ataque resolvem procedimentos distintos. A ficha da capacidade diz se você rola para acertar ou se o alvo faz um TR.
 
-Conclua os demais campos conforme a ficha, incluindo Integridade, Maestria, Refino ou Lapidação, perícias e TR. Compare cada total com suas escolhas antes de começar a missão.
+Conclua os demais campos de acordo com a ficha, incluindo Integridade, Maestria, Refino ou Lapidação, perícias e TR. Compare cada total com suas escolhas antes de começar a missão.
 
 <!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-kaori -->
 <a id="ab--ab-kaori"></a>
@@ -2233,7 +2233,7 @@ Mantenha os valores atuais separados dos máximos. Depois de sofrer 5 de dano, u
 
 #### Registro da missão
 
-Ao terminar, registre as recompensas, os gastos e as consequências que persistem. Confira descanso e recuperação antes de restaurar recursos. Se jogar numa guilda, use o procedimento de registro da comunidade para que a próxima mesa receba a ficha atualizada.
+Ao terminar, anote as recompensas, os gastos e as consequências que persistem. Confira descanso e recuperação antes de restaurar recursos. Se jogar numa guilda, use o procedimento de registro da comunidade para que a próxima mesa receba a ficha atualizada.
 
 As escolhas de crescimento estão em Progressão. Quando receber uma habilidade, prepare suas opções e confira as mudanças na ficha antes de usá-la na próxima missão.
 
@@ -2303,7 +2303,7 @@ Dê a essa ligação um lugar na campanha: quem está envolvido, o que aconteceu
 
 Conhecer quem guarda um arquivo dá ao grupo alguém para procurar, mas o guardião conserva seus interesses e pode negar os documentos. Uma ferramenta herdada ainda precisa ser obtida pelos recursos e requisitos de Equipamento antes de entrar no inventário.
 
-Algumas histórias permitem escolher capacidades específicas. **Manutenção**, por exemplo, dá acesso a duas menores do Corpo Amaldiçoado: registre a história e a capacidade que escolher. A história não gasta vaga; cada menor escolhida ocupa uma das duas vagas normais.
+Algumas histórias permitem escolher capacidades específicas. **Manutenção**, por exemplo, dá acesso a duas menores do Corpo Amaldiçoado: anote a história e a capacidade que escolher. A história não gasta vaga; cada menor escolhida ocupa uma das duas vagas normais.
 
 ### Usar as capacidades da Origem
 
@@ -2321,7 +2321,7 @@ Você descobriu o jujutsu fora das tradições de uma família de feiticeiros. T
 
 **Perícia da Origem:** escolha Sentir Energia, Sobrevivência, Furtividade ou Intuição. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** talvez você ainda procure o professor que nunca conseguiu encontrar, confie seu segredo a alguém de fora do jujutsu ou tenha deixado um erro do aprendizado sem reparação. Registre quem participou disso e por que essa relação ainda importa. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
+**Legados de história:** talvez você ainda procure o professor que nunca conseguiu encontrar, confie seu segredo a alguém de fora do jujutsu ou tenha deixado um erro do aprendizado sem reparação. Anote quem participou disso e por que essa relação ainda importa. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
 
 #### Tentativa e Erro
 
@@ -2395,7 +2395,7 @@ Carregar um ser poderoso não concede automaticamente suas técnicas, atributos 
 
 **Perícia da Origem:** escolha Sentir Energia, Ocultismo, Intuição ou Religião. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** o nome antigo do passageiro pode levar até alguém que o conheceu antes de você. Um desejo dele pode contrariar o seu, enquanto uma instituição acompanha o que acontece com vocês. Escolha o que faz parte dessa convivência e registre como se relacionam e o que sabem um do outro.
+**Legados de história:** o nome antigo do passageiro pode levar até alguém que o conheceu antes de você. Um desejo dele pode contrariar o seu, enquanto uma instituição acompanha o que acontece com vocês. Escolha o que faz parte dessa convivência e anote como se relacionam e o que sabem um do outro.
 
 #### Coexistência
 
@@ -2479,13 +2479,13 @@ Não cria um TR novo, antecipa uma tentativa de saída ou devolve ações consum
 
 #### Disputa pelo corpo
 
-A disputa entre hospedeiro e ocupante é conduzida pela história combinada na mesa. Não há rotina automática de testes, limite de vida ou PE, ou falha desta Origem que entregue o controle do personagem. O livro de mestres aprofundará essa relação. Registre os acordos e mudanças que acontecerem na campanha sem acrescentar poderes à ficha por conta própria.
+A disputa entre hospedeiro e ocupante é conduzida pela história combinada na mesa. Não há rotina automática de testes, limite de vida ou PE, ou falha desta Origem que entregue o controle do personagem. O livro de mestres aprofundará essa relação. Anote os acordos e mudanças que acontecerem na campanha sem acrescentar poderes à ficha por conta própria.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-descendente -->
 <a id="origens--origem-descendente"></a>
 ### Descendente
 
-Sua família participa do meio jujutsu. Você cresceu entre ensinamentos, obrigações e histórias que outras pessoas só conhecem de longe. Pode pertencer a um dos clãs apresentados ou criar uma família com o mestre, conforme Personalizar sua Origem.
+Sua família participa do meio jujutsu. Você cresceu entre ensinamentos, obrigações e histórias que outras pessoas só conhecem de longe. Pode pertencer a um dos clãs apresentados ou criar uma família com o mestre, seguindo as regras de Personalizar sua Origem.
 
 **Perícia da Origem:** escolha Hierarquia, História, Ocultismo ou Persuasão. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
@@ -2497,7 +2497,7 @@ Escolha a **marcante do seu clã** e duas menores permitidas. Cada marcante reú
 <a id="origens--descendente-zenin"></a>
 #### Zenin
 
-Sua formação prepara postura, movimentos e resistência para enfrentar a pressão de uma luta. **Kukuru** é a formação Sem Técnica; **Akashi** integra esse preparo ao uso de uma técnica. Ambas concedem os três componentes abaixo; Disciplina Treinada muda o TR conforme a formação.
+Sua formação prepara postura, movimentos e resistência para enfrentar a pressão de uma luta. **Kukuru** é a formação Sem Técnica; **Akashi** integra esse preparo ao uso de uma técnica. Ambas concedem os três componentes abaixo; Disciplina Treinada muda o TR de acordo com a formação.
 
 ##### Recuperação do Fôlego
 
@@ -2553,7 +2553,7 @@ O estudo da sua técnica inclui execuções reservadas e respostas a capacidades
 
 ##### Execução Reservada
 
-Escolha **feitiços ou Manejos conhecidos em quantidade total igual à Maestria** e registre a lista. **Maestria vezes por dia**, ao usar uma dessas capacidades, antes dos dados, escolha um benefício:
+Escolha **feitiços ou Manejos conhecidos em quantidade total igual à Maestria** e anote a lista. **Maestria vezes por dia**, ao usar uma dessas capacidades, antes dos dados, escolha um benefício:
 
 - **Vantagem em uma rolagem de acerto** da aplicação.
 - **Desvantagem no primeiro TR de um único alvo** contra a aplicação.
@@ -2840,7 +2840,7 @@ Seu corpo foi construído e ganhou consciência. Madeira, tecido, metal ou outro
 
 **Perícia da Origem:** escolha Atletismo, Percepção, Ocultismo ou Intimidação. **Criação:** Técnica Marcial, com energia amaldiçoada, PE, Refino e Aptidões. Receba também os demais treinos da base. Sem Técnica não é compatível com esta Origem.
 
-Na criação, escolha o **ofício compatível com seu corpo** e registre-o na ficha. Por exemplo: Entalhador para madeira, pedra ou osso; Forja para metal; Alfaiate para pano. A lista não é fechada. O ofício deve corresponder ao trabalho necessário para reparar sua estrutura, sem cobrar automaticamente todos os ofícios dos materiais presentes. Anotar o ofício compatível identifica o treino exigido de quem repara; para fazer seu próprio reparo, você também precisa adquirir esse treino pelas escolhas da ficha.
+Na criação, escolha o **ofício compatível com seu corpo** e anote-o na ficha. Por exemplo: Entalhador para madeira, pedra ou osso; Forja para metal; Alfaiate para pano. A lista não é fechada. O ofício deve corresponder ao trabalho necessário para reparar sua estrutura, sem cobrar automaticamente todos os ofícios dos materiais presentes. Anotar o ofício compatível identifica o treino exigido de quem repara; para fazer seu próprio reparo, você também precisa adquirir esse treino pelas escolhas da ficha.
 
 Você não recebe técnica inata pelo material, aparência ou número de núcleos. Todas as histórias usam a mesma marcante, **Existência Artificial**, e duas menores permitidas.
 
@@ -2854,7 +2854,7 @@ As histórias abaixo são Legados de história sobre sua existência. Escolha um
 
 **Gêmeos.** Duas consciências se alternam num corpo cuja organização ainda não se estabilizou. Combinem os sinais da troca e o que muda na interpretação. As regras da ficha permanecem as mesmas.
 
-**Inteiro.** Você despertou com um único núcleo. Registre o que sabe sobre a criação e o que ainda deseja descobrir.
+**Inteiro.** Você despertou com um único núcleo. Anote o que sabe sobre a criação e o que ainda deseja descobrir.
 
 **Manutenção.** Sua consciência é própria, mas sua história inclui alguém que fornece energia ao corpo. Escreva quem é e o que cobra. Isso não drena PE automaticamente nem obriga uma doação em cada descanso. Esta história permite escolher Núcleo Dependente e Mente Resguardada, cada uma numa vaga normal de menor.
 
@@ -2948,7 +2948,7 @@ Escolha na criação, sem duplicação, evolução gratuita ou troca livre duran
 
 ##### Arquivo de Procedimentos
 
-Registre **três perícias ou Ofícios**. Você mantém **treino em um deles por vez**. Durante um descanso curto ou longo, pode trocar uma vez o procedimento ativo; a mudança entra em vigor ao concluir o descanso, sem PE, teste ou material adicional apenas para selecioná-lo.
+Anote **três perícias ou Ofícios**. Você mantém **treino em um deles por vez**. Durante um descanso curto ou longo, pode trocar uma vez o procedimento ativo; a mudança entra em vigor ao concluir o descanso, sem PE, teste ou material adicional apenas para selecioná-lo.
 
 A lista dos três permanece fixa. Pode trocar o procedimento no mesmo descanso em que muda o acabamento. Mantenha os requisitos de ferramentas, materiais, receitas e conhecimentos da tarefa.
 
@@ -3029,7 +3029,7 @@ A marcante abrange **ataques comuns corpo a corpo, com arma ou desarmados, e Kat
 
 Se o defensor **puder perceber energia amaldiçoada e ainda não reconhecer por estudo essa execução sua**:
 
-- O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele. Os custos que ele já tenha pago ao declarar essa Reação, como PE, não voltam.
+- O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, de acordo com o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele. Os custos que ele já tenha pago ao declarar essa Reação, como PE, não voltam.
 - Se a resolução admitir Bloquear e ele tiver escolhido essa defesa, faz a rolagem **com desvantagem**, seguindo os dois conjuntos completos e os extremos de Aparar e Brecha.
 
 O TR mantém dado, CD e modificadores. Automáticos não ganham teste nem ignoram imunidades, resistências ou requisitos. Benefícios sem gasto de Reação continuam disponíveis. Numa resolução com acerto seguido de TR, a marcante não acrescenta penalidade ao TR.
@@ -3050,7 +3050,7 @@ Depois do primeiro Estudar bem-sucedido, o defensor neutraliza a marcante contra
 
 ##### Memória entre encontros
 
-Registre ataques comuns por **tipo ou perfil de arma**, não por exemplar. Outra cópia equivalente não renova a novidade. Ataques comuns desarmados formam um único perfil: trocar soco por chute não o torna inédito.
+Anote ataques comuns por **tipo ou perfil de arma**, não por exemplar. Outra cópia equivalente não renova a novidade. Ataques comuns desarmados formam um único perfil: trocar soco por chute não o torna inédito.
 
 Katas são reconhecidas separadamente. Conhecer uma arma não revela as Katas ainda desconhecidas feitas com ela. Mudar apenas números, Classe, custo ou arma compatível não torna a mesma Kata inédita. Uma mudança real de funcionamento pode definir outra aplicação, previamente identificada no repertório e adquirida normalmente.
 
@@ -3128,7 +3128,7 @@ Os ganhos e as penalidades apresentados são exemplos para a criação com o mes
 
 O ganho segue os critérios de CE4, com funcionamento, limites e consequências definidos. A penalidade precisa ter impacto equivalente ou maior ao dos exemplos e impor **restrições reais e relevantes** ao personagem, considerando técnica, recursos e campanha. Uma condição mais severa não aumenta os benefícios.
 
-Registre as regras combinadas, os cuidados necessários e os meios de lidar com a condição. Os três corpos apresentados são alternativas completas, não penalidades acumuladas para comprar mais ganhos.
+Anote as regras combinadas, os cuidados necessários e os meios de lidar com a condição. Os três corpos apresentados são alternativas completas, não penalidades acumuladas para comprar mais ganhos.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-ce4 -->
 <a id="origens--restricao-ce4"></a>
@@ -3150,7 +3150,7 @@ O intermediário precisa chegar ao local e pode ser enfrentado ou destruído. O 
 
 ##### Outras referências de criação
 
-As três ideias abaixo servem para criar o CE4 com o mestre. Registrem a operação e os limites antes de usá-lo; o conceito sozinho não fornece uma capacidade completa.
+As três ideias abaixo servem para criar o CE4 com o mestre. Anotem a operação e os limites antes de usá-lo; o conceito sozinho não fornece uma capacidade completa.
 
 **Arquitetura Microscópica.** Uma técnica compatível coordena trabalhos materiais de precisão microscópica e grande complexidade. A exceção reúne precisão e execução simultânea de um procedimento conhecido. Conhecimento, materiais e testes que façam sentido continuam necessários.
 
@@ -3242,7 +3242,7 @@ Escolha **duas menores distintas** entre as oito abaixo.
 
 Você aprendeu a preservar uma parte de sua energia, reunindo aos poucos uma reserva para necessidades futuras. Ela permanece guardada até você decidir recorrer ao que acumulou.
 
-Jogador e mestre definem **quanto pode ser guardado em cada ocasião, quando e em quais condições o armazenamento pode ocorrer e o máximo acumulável**. Registre esses limites e condições na ficha.
+Jogador e mestre definem **quanto pode ser guardado em cada ocasião, quando e em quais condições o armazenamento pode ocorrer e o máximo acumulável**. Anote esses limites e condições na ficha.
 
 ##### Reserva Excedente
 
@@ -3294,7 +3294,7 @@ Essa opção acompanha **Latente, Receptáculo, Descendente, Encarnado ou Híbri
 <a id="origens--legado-criar"></a>
 ### Personalizar sua Origem
 
-Você pode criar com o mestre menores compatíveis com sua Origem, usando as entradas publicadas como referência. A marcante segue as opções publicadas para sua Origem; a exceção é a criação prevista em **Criar sua Restrição**, no ramo **Restrição corporal**. Registrem o pacote antes da primeira sessão: **base, uma marcante e duas menores**. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.
+Você pode criar com o mestre menores compatíveis com sua Origem, usando as entradas publicadas como referência. A marcante segue as opções publicadas para sua Origem; a exceção é a criação prevista em **Criar sua Restrição**, no ramo **Restrição corporal**. Anotem o pacote antes da primeira sessão: **base, uma marcante e duas menores**. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.
 
 Definam o que cada menor criada faz, quando funciona, ação, custo, frequência, limites e escolhas fixas. Comparem seu alcance com uma capacidade de função semelhante, incluindo as condições necessárias para usá-la. A história pode variar sem modificar a regra: outra aparência, material ou personalidade não concede benefícios extras.
 
@@ -3328,7 +3328,7 @@ Como Legado de história, escreve **Endereço de Retorno** e combina com o mestr
 
 Ao terminar, confira sua **Origem, modalidade ou ramo, base de treinos, traço, marcante, duas menores e rota**. Anote escolhas fixas, custos, frequências e seus estoques separados. Uma capacidade por dia e outra por descanso longo não renovam necessariamente juntas.
 
-Registre também os campos particulares: ofício de um corpo, competências da Reserva de Experiência, companheiro de Entendimento Tácito, limites do CE4 ou cuidados da Restrição. Use a regra completa de cada entrada para resolver o efeito.
+Anote também os campos particulares: ofício de um corpo, competências da Reserva de Experiência, companheiro de Entendimento Tácito, limites do CE4 ou cuidados da Restrição. Use a regra completa de cada entrada para resolver o efeito.
 
 Novos acontecimentos podem mudar relações e transformar sua vida. Não acrescentam automaticamente capacidades à ficha. Ganhos e revisões mecânicas seguem Progressão e as permissões de Personalizar sua Origem.
 
@@ -3337,7 +3337,7 @@ Novos acontecimentos podem mudar relações e transformar sua vida. Não acresce
 
 O **Caminho** reúne suas habilidades principais de combate. A **Trilha** é a especialidade escolhida dentro dele no nível 2. Para comparar os seis Caminhos, consulte [Caminho e Trilha](#ab--ab-caminho), no roteiro de criação.
 
-Leia primeiro a apresentação do Caminho e suas Características. A tabela de Progressão indica quando cada habilidade chega; as entradas seguintes explicam como usá-la. Depois escolha uma das Trilhas apresentadas para ele e registre os benefícios do seu nível. Os treinos da tabela e a aquisição do equipamento são conferidos separadamente.
+Leia primeiro a apresentação do Caminho e suas Características. A tabela de Progressão indica quando cada habilidade chega; as entradas seguintes explicam como usá-la. Depois escolha uma das Trilhas apresentadas para ele e anote os benefícios do seu nível. Os treinos da tabela e a aquisição do equipamento são conferidos separadamente.
 
 <!-- fonte:caminhos/bastiao/lote-01/BASTIAO.md#bas-bastiao -->
 <a id="bastiao--bas-bastiao"></a>
@@ -3509,7 +3509,7 @@ Quando um ataque assumido por Olhos Em Mim acertar você, role **2d10 −1 + Con
 
 Essa redução não exige outro recurso. Ela se soma às demais reduções que se apliquem ao golpe, incluindo Duro de Matar se você tiver escolhido Bloquear e falhado. Não permite bloquear novamente. Um ataque que erre não ativa Casca Grossa, mesmo se uma regra específica causar dano no erro.
 
-O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que acompanhem o golpe usam seus próprios requisitos. Resistências são aplicadas antes das reduções, conforme Dano.
+O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que acompanhem o golpe usam seus próprios requisitos. Resistências são aplicadas antes das reduções, como explica Dano.
 
 > **Exemplo.** Um ataque assumido causaria 36. Você tem Constituição 3 e falhou em Bloquear com 5 e 4: Duro de Matar desconta 12. Em Casca Grossa, tira 2 e 7, para outra redução de 11. Restam **13 de dano**. Se Alicerce proteger desse tipo, o dano começa em 18 e as duas reduções o zeram.
 
@@ -3638,7 +3638,7 @@ Quando conseguir **um crítico num ataque da sua Ação Atacar** ou passar em **
 
 O crítico de um ataque concedido somente por Reação ou Bônus não cumpre o primeiro gatilho. O segundo não exige que o TR venha de uma criatura dentro de Olhos Em Mim: essa área é requisito de Nem Um Arranhão, não de Embalo.
 
-Receba esses PE depois de resolver o gatilho. São PE temporários, gastos antes dos PE comuns, conforme [Vida e energia temporárias](#dano--temporarios), em Dano e recuperação. Eles não se somam ao que restar de outros PE temporários. Novos sucessos podem repor o valor até maestria, mas não fazê-lo passar disso. Gastá-los não recupera uma ação ou Reação.
+Receba esses PE depois de resolver o gatilho. São PE temporários, gastos antes dos PE comuns, segundo [Vida e energia temporárias](#dano--temporarios), em Dano e recuperação. Eles não se somam ao que restar de outros PE temporários. Novos sucessos podem repor o valor até maestria, mas não fazê-lo passar disso. Gastá-los não recupera uma ação ou Reação.
 
 <!-- fonte:caminhos/bastiao/lote-01/BASTIAO.md#bas-oportunista -->
 <a id="bastiao--bas-oportunista"></a>
@@ -3688,11 +3688,11 @@ Você transforma ataques em uma **Sequência** contra um adversário: abre a pre
 | **Teste de Resistência** | um à escolha. A Origem concede o outro treino |
 | **Treino de arma** | todas as categorias de armas Simples, Marciais e de Fogo |
 
-Registre os treinos na criação. As opções estão em **Perícias e Ofícios**.
+Anote os treinos na criação. As opções estão em **Perícias e Ofícios**.
 
-Compre seu equipamento conforme **Equipamento inicial**, em Equipamento.
+Compre seu equipamento seguindo **Equipamento inicial**, em Equipamento.
 
-Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor possui três rotas, das quais você escolhe uma. A Trilha fornece habilidades nos níveis **2, 11, 19 e 27**, conforme suas tabelas.
+Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor possui três rotas, das quais você escolhe uma. A Trilha fornece habilidades nos níveis **2, 11, 19 e 27**, indicadas nas tabelas da Trilha.
 
 #### Progressão do Caminho
 
@@ -3733,7 +3733,7 @@ Abrir contra outro alvo substitui a Sequência anterior. Você não reabre uma S
 
 Escolha uma Condução e pague **metade da maestria, arredondada para cima, + 1 PE**, antes do ataque, inclusive no erro.
 
-Acertar causa o dano normal, acrescenta uma Condução acertada e renova o prazo da Sequência. Errar encerra a Sequência, salvo **Persistência**, a habilidade de nível 23 que permite conservar a preparação conforme seus limites. Consulte [Habilidades avançadas](#vanguarda--van-avanco). Você pode continuar conduzindo sem um limite de acertos acumulados.
+Acertar causa o dano normal, acrescenta uma Condução acertada e renova o prazo da Sequência. Errar encerra a Sequência, salvo **Persistência**, a habilidade de nível 23 que permite conservar a preparação dentro dos limites da habilidade. Consulte [Habilidades avançadas](#vanguarda--van-avanco). Você pode continuar conduzindo sem um limite de acertos acumulados.
 
 Ao declarar uma Condução diferente, abandone o efeito sustentado da anterior. Repetições não acumulam o mesmo benefício. Movimentos já realizados e acertos de Condução registrados permanecem.
 
@@ -4129,7 +4129,7 @@ Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não 
 
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
 
-**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
+**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, segundo Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
 
 #### Combate Irregular
 
@@ -4308,7 +4308,7 @@ Recuar para Condução não gasta o uso de Dupla. Confirmar gasta o uso mesmo no
 <a id="guia--guia"></a>
 ### Guia
 
-Você orienta a equipe: indica uma passagem, prepara um ataque ou ajuda alguém a resistir ao perigo. Suas **Aberturas** são oportunidades que os aliados guardam até decidirem usá-las. Conforme avança, você pode mudar o plano e passar essa ajuda de uma pessoa para outra.
+Você orienta a equipe: indica uma passagem, prepara um ataque ou ajuda alguém a resistir ao perigo. Suas **Aberturas** são oportunidades que os aliados guardam até decidirem usá-las. À medida que avança, você pode mudar o plano e passar essa ajuda de uma pessoa para outra.
 
 #### Características
 
@@ -4587,7 +4587,7 @@ As obras maiores continuam sendo criadas a até **9 m** de você. Aumentar uma p
 
 Ela deve ficar a até **3 m da obra destruída ou da posição final do aliado**, e a até **9 m de você**. Cumpra as condições de construção e seu limite de obras.
 
-A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma Abertura nova; pode apenas conservar uma que já existia, conforme abaixo. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova.
+A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma Abertura nova; pode apenas conservar uma que já existia, como explicado abaixo. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova.
 
 Resolva primeiro o ataque, a queda ou o movimento que provocou a emergência. Se ainda houver uma Abertura ligada à obra anterior, pode ligá-la à nova, mantendo tipo, aliado, alvo ou ameaça indicados e prazo. Isso também permite salvar a Abertura deixada numa obra por Plano Construído.
 
@@ -4788,7 +4788,7 @@ Cada Cuidado termina com a parte da Abertura que acompanha. Criar outra Abertura
 <a id="emanador--ema-base"></a>
 ### Emanador
 
-Você aprende a adaptar feitiços conhecidos à situação. Suas habilidades permitem alterar o alcance e a área ou trocar uma peça de montagem por outra, conforme as opções e os limites de cada entrada. Suas Trilhas desenvolvem essa flexibilidade por meio de uma arma, de alterações reaproveitadas ou da preparação de uma conjuração seguinte.
+Você aprende a adaptar feitiços conhecidos à situação. Suas habilidades permitem alterar o alcance e a área ou trocar uma peça de montagem por outra, de acordo com as opções e os limites de cada entrada. Suas Trilhas desenvolvem essa flexibilidade por meio de uma arma, de alterações reaproveitadas ou da preparação de uma conjuração seguinte.
 
 #### Características
 
@@ -4906,7 +4906,7 @@ Os requisitos de cada Melhoria permanecem. Sustentação não transforma um bôn
 
 **Nível 7.**
 
-Escolha **dois feitiços conhecidos de Classe 1 ou maior**. Registre para cada um uma versão alternativa feita por uma Remodelagem, com efeitos, dados e custos calculados.
+Escolha **dois feitiços conhecidos de Classe 1 ou maior**. Anote para cada um uma versão alternativa feita por uma Remodelagem, com efeitos, dados e custos calculados.
 
 Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela conserva a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.
 
@@ -5093,7 +5093,7 @@ O espaço deve permitir sua presença, e você precisa poder receber a arma. Ess
 
 Com **Ação Bônus**, fixe a arma numa superfície sólida ao alcance. Ela fica presa até você liberá-la ou alguém gastar **Ação Padrão** e passar em **TR Físico contra a CD da técnica** para removê-la.
 
-Você pode liberá-la sem ação no seu turno. Destruí-la ou destruir o apoio também encerra a fixação. A arma pode sustentar uma corda ou travar um mecanismo conforme sua resistência e a da superfície. A propriedade não torna nenhum dos dois indestrutível.
+Você pode liberá-la sem ação no seu turno. Destruí-la ou destruir o apoio também encerra a fixação. A arma pode sustentar uma corda ou travar um mecanismo dependendo da resistência da arma e da superfície. A propriedade não torna nenhum dos dois indestrutível.
 
 #### Vínculo Duplo
 
@@ -5127,7 +5127,7 @@ Aprenda a segunda Propriedade de Vínculo. Durante a Cadência Técnica, arma e 
 
 **Feitiço primeiro:** escolha um ponto percebido que a aplicação alcançou a até **9 m de você**. O ataque da Cadência pode partir dali, usando a arma vinculada e seu alcance normal. Depois do golpe, ela retorna à sua mão.
 
-Confira visão, trajeto e requisitos ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque conserva sua distância ao alvo. Aura permanece centrada em você. Queima-Roupa conserva seus alvos a até 1,5 m em Projétil ou a origem da área em você, conforme a Forma escolhida.
+Confira visão, trajeto e requisitos ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque conserva sua distância ao alvo. Aura permanece centrada em você. Queima-Roupa conserva seus alvos a até 1,5 m em Projétil ou a origem da área em você, dependendo da Forma escolhida.
 
 > **Exemplo.** Você atinge um inimigo à frente de uma passagem e faz um Cone partir do espaço dele em direção ao corredor. O Cone mantém suas dimensões, seus alvos e suas defesas normais.
 
@@ -5160,7 +5160,7 @@ Uma alteração usada agora pode facilitar a conjuração seguinte. Você decide
 
 **Nível 2.**
 
-Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde uma alteração realmente feita: a Melhoria obtida por Remodelar ou a Modulação Forçada. Registre qual peça foi obtida e por qual dessas maneiras.
+Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde uma alteração realmente feita: a Melhoria obtida por Remodelar ou a Modulação Forçada. Anote qual peça foi obtida e por qual dessas maneiras.
 
 Você mantém **um Eco até o fim do seu próximo turno**. Criar outro substitui o anterior. No nível 2, a peça precisa ser **Leve no catálogo, antes de descontos**.
 
@@ -5230,7 +5230,7 @@ Se Contraponto também produzir outro Eco, escolha qual guardar dentro da sua ca
 
 Você pode manter **dois Ecos diferentes**. Cada um dura até o fim do **segundo turno seu seguinte** à criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.
 
-Registre para cada Eco a peça, se veio de Remodelagem ou Modulação, e o prazo. Duas cópias da mesma peça pela mesma maneira não ocupam dois lugares. Troca de Forma e troca de Melhoria continuam sujeitas aos limites de categoria do Eco.
+Anote para cada Eco a peça, se veio de Remodelagem ou Modulação, e o prazo. Duas cópias da mesma peça pela mesma maneira não ocupam dois lugares. Troca de Forma e troca de Melhoria continuam sujeitas aos limites de categoria do Eco.
 
 ##### Usar os dois
 
@@ -5350,7 +5350,7 @@ Você comanda criaturas que lutam e cumprem tarefas ao seu lado. Pode concentrar
 | Ofícios | O Caminho não concede ofícios. Os dois iniciais vêm da Origem. |
 | Armas treinadas | Armas de Fogo e Balestra. |
 
-O treino evita a desvantagem por falta de treino nos ataques com essas armas. Compre o equipamento em **Equipamento**. Na rota sem energia, os PE representam Pontos de Esforço, conforme **Rotas de criação**.
+O treino evita a desvantagem por falta de treino nos ataques com essas armas. Compre o equipamento em **Equipamento**. Na rota sem energia, os PE representam Pontos de Esforço, como explica **Rotas de criação**.
 
 Escolha uma Trilha no nível 2: **Invocação Principal**, **Parceria** ou **Múltiplas Invocações**. Você recebe suas habilidades nos níveis 2, 11, 19 e 27. Nesses três últimos níveis, pode trocar de Trilha integralmente, substituindo os benefícios anteriores. O personagem mantém um Caminho e uma Trilha.
 
@@ -5408,7 +5408,7 @@ Você mantém um aprimoramento em uma invocação por vez. Esse benefício é ch
 
 Você conhece os quatro aprimoramentos de nível 2. **Precisão à Distância** e **Avanço Corpo a Corpo** favorecem ataques e movimento; **Proteção Reforçada** ajuda a resistir a ataques ou efeitos; **Execução de Tarefas** favorece perícia e deslocamento. No nível 7, acrescenta **Dificultar a Resistência**, que prejudica um TR contra uma especial. As entradas a seguir detalham cada opção.
 
-Os usos pertencem ao conjunto. Registre cada benefício quando ele for aproveitado.
+Os usos pertencem ao conjunto. Anote cada benefício quando ele for aproveitado.
 
 **Uso ofensivo.** Precisão à Distância, Avanço Corpo a Corpo e Dificultar a Resistência compartilham **um uso ofensivo por rodada**: vantagem em um ataque válido ou desvantagem no primeiro TR de um alvo contra uma especial comandada. A tentativa favorecida consome esse uso.
 
@@ -5591,7 +5591,7 @@ Você precisa estar consciente e percebê-la. A invocação deve estar ativa, se
 
 Resolva essa ação antes ou depois da atuação básica da invocação, que continua disponível para seu uso normal. Os efeitos e custos próprios seguem a ação comum.
 
-Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Registre o uso da habilidade no conjunto, separado das básicas individuais.
+Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Anote o uso da habilidade no conjunto, separado das básicas individuais.
 
 **Principal e adicional.** A tabela é determinada somente pelo aprimoramento principal. [Combinar Aprimoramentos](#evocador--ev-combinar), habilidade de nível 15, permite manter um aprimoramento adicional; ele concede seus efeitos próprios. Mudanças de beneficiária ou principal conservam o uso já marcado de Atuação Complementar.
 
@@ -5679,7 +5679,7 @@ Você posiciona suas invocações usando os Movimentos próprios delas e conserv
 
 Os benefícios se aplicam enquanto você mantém **exatamente uma invocação ativa**. Outras invocações podem permanecer no seu repertório.
 
-Registre na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos seguem suas próprias durações.
+Anote na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos seguem suas próprias durações.
 
 Na abertura de cada turno seu, a única invocação ativa recebe sua básica comum e a atuação adicional da Trilha, desde que possa atuar. Os usos por rodada renovam no começo do seu turno e ficam registrados no conjunto.
 
@@ -5725,7 +5725,7 @@ Entre as abertas, escolha uma **Família Livre adicional**, totalizando duas. Ap
 
 **Nos níveis 8, 16 e 24 da invocação**, acrescente uma escolha à ficha: **uma capacidade básica de Classe 0, uma especial normal ou um talento de Categoria de Efeito 1**, além das quantidades normais do construtor.
 
-Registre seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento concedido por Repertório Ampliado é de **Categoria de Efeito 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre os talentos permitidos para entidades em **Criar uma invocação**, cumprindo seus requisitos. As escolhas seguem os procedimentos normais de revisão da ficha.
+Anote seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento concedido por Repertório Ampliado é de **Categoria de Efeito 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre os talentos permitidos para entidades em **Criar uma invocação**, cumprindo seus requisitos. As escolhas seguem os procedimentos normais de revisão da ficha.
 
 Essas três escolhas fazem parte da progressão de Repertório Ampliado. As habilidades da Trilha continuam sendo recebidas nos níveis 2, 11, 19 e 27.
 
@@ -5905,7 +5905,7 @@ Escolha uma **categoria de armas** e receba treino com suas armas.
 
 Para cada invocação, escolha uma de suas Famílias Fechadas para abrir. A ficha passa a ter **cinco Famílias Fechadas, quatro abertas e uma Livre**.
 
-Registre a escolha e as capacidades compatíveis com a definição da entidade. As quantidades normais de capacidades e talentos seguem o construtor.
+Anote a escolha e as capacidades compatíveis com a definição da entidade. As quantidades normais de capacidades e talentos seguem o construtor.
 
 <!-- fonte:caminhos/evocador/lote-01/EVOCADOR.md#ev-parceria-aprimoramentos -->
 <a id="evocador--ev-parceria-aprimoramentos"></a>
@@ -5931,11 +5931,11 @@ Confira a capacidade de agir do personagem e resolva o ataque com sua ficha. A e
 
 **Seu turno · Básica disponível da invocação.**
 
-Escolha um inimigo que você consiga atacar e que a beneficiária possa alcançar com uma capacidade básica ofensiva própria, a partir das posições atuais. A criatura precisa perceber o alvo e poder participar contra ele conforme sua intenção.
+Escolha um inimigo que você consiga atacar e que a beneficiária possa alcançar com uma capacidade básica ofensiva própria, a partir das posições atuais. A criatura precisa perceber o alvo e poder participar contra ele de acordo com sua intenção.
 
 Gaste a **básica da invocação** para realizar imediatamente **um ataque seu com arma ou desarmado, com vantagem**.
 
-Resolva uma rolagem e o dano de seu ataque. Registre a básica da entidade como gasta e o uso ofensivo do aprimoramento no conjunto.
+Resolva uma rolagem e o dano de seu ataque. Marque a básica da entidade como gasta e o uso ofensivo do aprimoramento no conjunto.
 
 #### Resposta ao Agressor
 
@@ -6128,7 +6128,7 @@ A exceção expressa de **Especial Combinada**, do nível 30 do Caminho, continu
 
 Para cada invocação, escolha uma Família Fechada para abrir. Sua ficha passa a ter **cinco Famílias Fechadas e quatro abertas**, mantendo **uma Família Livre**.
 
-Registre a escolha e as capacidades que respeitem a definição da entidade.
+Anote a escolha e as capacidades que respeitem a definição da entidade.
 
 <!-- fonte:caminhos/evocador/lote-01/EVOCADOR.md#ev-multiplas-entrada -->
 <a id="evocador--ev-multiplas-entrada"></a>
@@ -6142,7 +6142,7 @@ Registre a escolha e as capacidades que respeitem a definição da entidade.
 |---|---|
 | Entrada adicional | Manifestar ou ativar até duas entidades. |
 | Substituição | Realizar até duas substituições diretas. |
-| Recolhimento | Recolher ou desativar até duas entidades, conforme seu tipo. |
+| Recolhimento | Recolher ou desativar até duas entidades, dependendo do tipo de cada uma. |
 
 Nas duas substituições, declare os pares antes de resolver: quem sai e quem assume seu lugar. Em cada par, a substituta recebe a básica restante da antecessora, se a transferência for permitida. Conserve o histórico de identidade e os usos já marcados do conjunto.
 
@@ -6168,7 +6168,7 @@ Pague seu PE e siga os outros procedimentos da entrada. Substituir e recolher us
 
 **Nível 2.**
 
-A aquisição por espaço exige um conceito de técnica, Manejo ou Kata que preveja entidades, conforme [Adquirir entidades](#construcao--entidades-aquisicao). Esta habilidade aumenta a quantidade recebida por dois espaços válidos.
+A aquisição por espaço exige um conceito de técnica, Manejo ou Kata que preveja entidades, segundo [Adquirir entidades](#construcao--entidades-aquisicao). Esta habilidade aumenta a quantidade recebida por dois espaços válidos.
 
 Os **dois primeiros espaços de feitiço conhecido** que você comprometer para obter invocações concedem **duas entidades cada**. Os espaços seguintes seguem a proporção comum.
 
@@ -6178,7 +6178,7 @@ No nível 2, comprometer dois dos três espaços disponíveis permite adquirir q
 
 **Exemplo.** Sua técnica cria figuras de papel. O primeiro espaço comprometido registra a ave e a serpente. O segundo registra o vigia e o cão. Um terceiro espaço usado para invocação daria somente uma entidade. As cinco fichas acompanham seu nível e continuam sujeitas à montagem.
 
-Cada dupla ocupa uma vaga do repertório. Suas entidades têm fichas separadas, com capacidades e recursos próprios. Reescrever um espaço ocupado ao subir de nível usa a revisão comum daquele espaço, incluindo a dupla ligada a ele. Registre os dois primeiros espaços beneficiados. Trocar as entidades desses espaços não concede novas duplas a vagas posteriores.
+Cada dupla ocupa uma vaga do repertório. Suas entidades têm fichas separadas, com capacidades e recursos próprios. Reescrever um espaço ocupado ao subir de nível usa a revisão comum daquele espaço, incluindo a dupla ligada a ele. Anote os dois primeiros espaços beneficiados. Trocar as entidades desses espaços não concede novas duplas a vagas posteriores.
 
 ##### Repertório na abertura
 
@@ -6337,7 +6337,7 @@ As capacidades respeitam a definição, as Famílias, a montagem e a Classe perm
 | 4 ou 5 | 2 |
 | 6 | 3 |
 
-Registre as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.
+Anote as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.
 
 Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias conservam o repertório registrado.
 
@@ -7025,7 +7025,7 @@ Esse gasto modifica um ataque disponível; não acrescenta outro. Um acerto pode
 | Trajetória de Retorno, nível 11 | Fluidez e 4 PE. | A mesma criatura, por uma superfície, depois de acertar. |
 | Finta de Retorno, nível 19 | Fluidez e 6 PE. | A mesma criatura, mesmo depois de errar, contra a Defesa e sem Bloquear. |
 
-[Mudar o Destino](#incursor--inc-destino), habilidade de nível 2, permite redirecionar um arremesso que errou contra outra criatura. Essa correção continua sendo parte do ataque corrigido. Depois da correção, considere o alvo final para os requisitos de uma continuação. Fluidez obtida por um acerto só pode ser aproveitada uma vez pelo mesmo acontecimento, conforme o Caminho.
+[Mudar o Destino](#incursor--inc-destino), habilidade de nível 2, permite redirecionar um arremesso que errou contra outra criatura. Essa correção continua sendo parte do ataque corrigido. Depois da correção, considere o alvo final para os requisitos de uma continuação. Fluidez obtida por um acerto só pode ser aproveitada uma vez pelo mesmo acontecimento, segundo o Caminho.
 
 [Trajetória Perfeita](#incursor--inc-perfeita), habilidade de nível 27, substitui um ataque da Ação Atacar e consome essa mesma utilização de continuação, com seu próprio procedimento. Os demais ataques disponíveis continuam seguindo suas regras normais.
 
@@ -7143,7 +7143,7 @@ Ganhos de Fluidez pelos acertos seguem os limites normais do Caminho, sem novas 
 <a id="pericias--pericias"></a>
 Durante uma missão, você pode precisar seguir pegadas, conversar com uma testemunha ou abrir uma porta trancada. As perícias e os ofícios indicam o que seu personagem sabe fazer e quais bônus entram nessas tentativas.
 
-**Perícias** abrangem capacidades como investigar, perceber e manter o equilíbrio. Cada perícia usa um atributo fixo. **Ofícios** abrangem práticas aprendidas, como dirigir, costurar ou trabalhar com fechaduras. Cada ofício tem um atributo padrão, que o mestre pode trocar conforme a tarefa, antes da rolagem.
+**Perícias** abrangem capacidades como investigar, perceber e manter o equilíbrio. Cada perícia usa um atributo fixo. **Ofícios** abrangem práticas aprendidas, como dirigir, costurar ou trabalhar com fechaduras. Cada ofício tem um atributo padrão, que o mestre pode trocar de acordo com a tarefa, antes da rolagem.
 
 #### Treino
 
@@ -7156,7 +7156,7 @@ Estar **treinado** significa ter a perícia ou o ofício marcado na ficha. Quand
 | Ofício treinado | d20 + atributo da tarefa + Maestria |
 | Ofício sem treino | Normalmente não permite tentativa. Uma improvisação autorizada usa apenas d20 + atributo. |
 
-Compare o resultado à **Classe de Dificuldade (CD)** da tarefa. Igualar ou superar a CD é sucesso. Se sua ficha já traz o bônus completo, some-o uma vez ao d20. A [especialização](#geral--pericias) acrescenta metade da Maestria, arredondada para baixo, ao bônus de uma perícia ou ofício treinado em que você a possua. Os demais modificadores entram conforme suas regras.
+Compare o resultado à **Classe de Dificuldade (CD)** da tarefa. Igualar ou superar a CD é sucesso. Se sua ficha já traz o bônus completo, some-o uma vez ao d20. A [especialização](#geral--pericias) acrescenta metade da Maestria, arredondada para baixo, ao bônus de uma perícia ou ofício treinado em que você a possua. Os demais modificadores seguem suas próprias regras.
 
 #### Tentativas sem treino
 
@@ -7200,7 +7200,7 @@ Quando não houver procedimento próprio, repetir o mesmo exame exige uma nova i
 
 #### Trabalho conjunto
 
-Uma pessoa conduz a tentativa. Outra pode usar [Ajudar](#geral--ajudar) se conseguir contribuir de modo concreto, concedendo vantagem à tentativa conforme a ação e os requisitos dessa regra. Segurar uma peça enquanto ela é trabalhada pode ajudar sem exigir o mesmo ofício; executar uma etapa técnica exige os conhecimentos e as ferramentas dessa etapa.
+Uma pessoa conduz a tentativa. Outra pode usar [Ajudar](#geral--ajudar) se conseguir contribuir de modo concreto, concedendo vantagem à tentativa seguindo a ação e os requisitos dessa regra. Segurar uma peça enquanto ela é trabalhada pode ajudar sem exigir o mesmo ofício; executar uma etapa técnica exige os conhecimentos e as ferramentas dessa etapa.
 
 A ajuda não concede ao responsável um treino obrigatório que ele não tem. Para uma tarefa que todos precisam superar juntos, use [Testes de grupo](#geral--pericias): cada participante faz seu próprio teste, e o procedimento determina o resultado coletivo. Isso não transforma toda busca, conversa ou tarefa individual em teste coletivo.
 
@@ -7338,7 +7338,7 @@ A perícia não fornece visão, identidade, grau ou previsão de ações por con
 
 Use Percepção para notar sons, cheiros, movimentos e outros sinais acessíveis aos seus sentidos. Pode permitir ouvir passos no corredor ou perceber que alguém escondeu um objeto.
 
-Obstáculos e condições dos sentidos continuam importando. Procurar algo escondido usa Vasculhar; compreender uma pista encontrada pode pedir outra perícia, conforme a pergunta.
+Obstáculos e condições dos sentidos continuam importando. Procurar algo escondido usa Vasculhar; compreender uma pista encontrada pode pedir outra perícia, dependendo da pergunta.
 
 #### Persuasão
 
@@ -7379,7 +7379,7 @@ Um ofício permite executar trabalhos aprendidos. Seu treino vale para a prátic
 | Herbalismo | Inteligência | Preparar substâncias de origem vegetal, com ingredientes e procedimento conhecidos. |
 | Forja | Força | Fabricar e manter armas e peças de metal com ferramentas adequadas. |
 | Caligrafia | Destreza | Produzir escrita, inscrições, cópias e documentos; reproduzir um traço. |
-| Burocracia | Inteligência | Preparar relatórios, requisições e registros conforme os procedimentos de uma organização. |
+| Burocracia | Inteligência | Preparar relatórios, requisições e registros de acordo com os procedimentos de uma organização. |
 | Entalhador | Destreza | Trabalhar madeira, pedra ou osso para produzir peças e recipientes. |
 | Alfaiate | Destreza | Cortar, costurar, ajustar e remendar roupas e uniformes. |
 | Culinária | Inteligência | Preparar alimentos, combinar ingredientes e conservar refeições. |
@@ -7412,7 +7412,7 @@ Para produzir um item, escolha o resultado e combine um **projeto** com o mestre
 
 #### Definir o projeto
 
-Registre os pontos abaixo antes de gastar dinheiro ou materiais.
+Anote os pontos abaixo antes de gastar dinheiro ou materiais.
 
 | Parte | O que definir |
 |---|---|
@@ -7428,7 +7428,7 @@ O preço de compra de um item não determina, por si só, seu custo de produçã
 
 Anote os materiais consumidos e o tempo trabalhado. Se a tarefa for rotineira, com os meios adequados e sem risco relevante, conclua-a ao cumprir o projeto. Quando houver incerteza, o teste resolve o obstáculo declarado; não role a cada hora apenas para acrescentar chances de falha.
 
-No sucesso, entregue o resultado combinado. Na falha, aplique a consequência anunciada: atraso, necessidade de refazer uma etapa ou perda de material, conforme o risco. Uma falha não destrói automaticamente todos os recursos. Outra tentativa segue [Tarefas e testes](#pericias--tarefas).
+No sucesso, entregue o resultado combinado. Na falha, aplique a consequência anunciada: atraso, necessidade de refazer uma etapa ou perda de material, dependendo do risco. Uma falha não destrói automaticamente todos os recursos. Outra tentativa segue [Tarefas e testes](#pericias--tarefas).
 
 Ajuda pode tornar uma etapa possível, mas não divide automaticamente o prazo. Se o trabalho puder ser repartido, defina no projeto as tarefas e o tempo de cada participante. Materiais ou conhecimentos que faltam a todos continuam faltando.
 
@@ -7600,7 +7600,7 @@ As propriedades modificam o uso da arma. Elas valem quando a arma é utilizada n
 
 #### Distância de disparo e arremesso
 
-Uma indicação como **Longo Alcance 6/18 m** informa duas faixas. Até 6 m, a distância não impõe desvantagem. Além de 6 m e até 18 m, o ataque tem desvantagem; depois de 18 m, a arma não alcança o alvo. Outros impedimentos e causas de desvantagem continuam valendo, conforme [Alcance](#geral--alcance), em Regras gerais.
+Uma indicação como **Longo Alcance 6/18 m** informa duas faixas. Até 6 m, a distância não impõe desvantagem. Além de 6 m e até 18 m, o ataque tem desvantagem; depois de 18 m, a arma não alcança o alvo. Outros impedimentos e causas de desvantagem continuam valendo, segundo [Alcance](#geral--alcance), em Regras gerais.
 
 A propriedade **Alcance**, sem a palavra Longo, indica o alcance corpo a corpo da arma: **3 m**.
 
@@ -7688,7 +7688,7 @@ Trajes são uniformes leves. O **degrau** indica a versão de proteção da peç
 
 #### Situação do Traje
 
-Ao escolher seu Traje, registre **uma situação** da tabela. Escolha também **um tipo de TR** entre Físico, Vigor, Intelecto e Espírito, e **um número de perícias igual à sua Maestria**.
+Ao escolher seu Traje, anote **uma situação** da tabela. Escolha também **um tipo de TR** entre Físico, Vigor, Intelecto e Espírito, e **um número de perícias igual à sua Maestria**.
 
 Enquanto usar o Traje e estiver na situação registrada, você tem **vantagem apenas no TR e nas perícias escolhidos**. O benefício não alcança ataques, Ofícios ou outros testes. Ele não concede treino nem dispensa os requisitos da tentativa.
 
@@ -7711,7 +7711,7 @@ Quando sua Maestria aumentar, acrescente uma perícia, mantendo as anteriores. O
 
 #### Situação própria
 
-Na criação, você pode propor outra situação ao mestre. Ela deve ser uma condição física reconhecível e ocasional, com nome curto. Não pode ser apenas uma tarefa, como esconder-se, nem algo presente em quase toda cena. Registre a situação e a aparência do uniforme na ficha.
+Na criação, você pode propor outra situação ao mestre. Ela deve ser uma condição física reconhecível e ocasional, com nome curto. Não pode ser apenas uma tarefa, como esconder-se, nem algo presente em quase toda cena. Anote a situação e a aparência do uniforme na ficha.
 
 <!-- fonte:equipamento/lote-final/EQUIPAMENTO.md#eqp-escudo -->
 <a id="equip--eqp-escudo"></a>
@@ -7802,7 +7802,7 @@ Cada besta comporta **um virote** e precisa ser recarregada depois de cada dispa
 
 #### Armas de fogo
 
-Cada item abaixo abastece por completo a arma indicada. O preço inclui um recipiente simples: carregador, conjunto de cartuchos ou caixa, conforme a arma. Um cartucho avulso não equivale a uma carga completa.
+Cada item abaixo abastece por completo a arma indicada. O preço inclui um recipiente simples: carregador, conjunto de cartuchos ou caixa, dependendo da arma. Um cartucho avulso não equivale a uma carga completa.
 
 | Arma e carga correspondente | Ataques por carga | Preço | Volume |
 |---|---|---|---|
@@ -7870,7 +7870,7 @@ Ao preparar as reservas fora do combate, você pode reunir sobras compatíveis e
 
 #### Munição inicial
 
-Na criação do personagem, a compra de uma arma de fogo inclui **três cargas completas**: uma instalada e duas de reserva. A compra de um arco ou besta inclui **um conjunto de 20 projéteis** da tabela. Na besta, pode começar com um deles colocado e 19 no estojo. Registre esse estoque; ele pode acabar. Receber munição não aumenta seu limite de carga: escolha quanto levar e onde guardar o restante.
+Na criação do personagem, a compra de uma arma de fogo inclui **três cargas completas**: uma instalada e duas de reserva. A compra de um arco ou besta inclui **um conjunto de 20 projéteis** da tabela. Na besta, pode começar com um deles colocado e 19 no estojo. Anote esse estoque; ele pode acabar. Receber munição não aumenta seu limite de carga: escolha quanto levar e onde guardar o restante.
 
 Esse fornecimento ocorre uma vez por arma comprada na criação. Não se repete ao trocar de dono, recuperar ou recomprar uma arma depois da criação.
 
@@ -8081,7 +8081,7 @@ Treino em Arma de Fogo. O Volume inclui a carga instalada. **Metralhadora Pesada
 <a id="equip--eqi-itens"></a>
 ### Itens comuns
 
-Uma lanterna permite examinar um corredor escuro; uma corda pode abrir um caminho de volta. Escolha os itens conforme a missão e anote onde os leva. Preço e Volume valem para a quantidade indicada em cada linha.
+Uma lanterna permite examinar um corredor escuro; uma corda pode abrir um caminho de volta. Escolha os itens de acordo com a missão e anote onde os leva. Preço e Volume valem para a quantidade indicada em cada linha.
 
 #### Equipamento de missão
 
@@ -8241,7 +8241,7 @@ Use somente propriedades que o objeto realmente comporte. Um cabo curto não gan
 
 #### Outros objetos
 
-Sem uma referência adequada, o ataque causa **1d4 de dano**, com o tipo definido pelo mestre conforme o objeto. No corpo a corpo, use Força para acertar e no dano, com alcance de **1,5 m**. Um objeto que possa ser lançado tem faixas de **6 m e 18 m**; use Destreza para acertar e Força no dano.
+Sem uma referência adequada, o ataque causa **1d4 de dano**, e o mestre define o tipo de dano de acordo com o objeto. No corpo a corpo, use Força para acertar e no dano, com alcance de **1,5 m**. Um objeto que possa ser lançado tem faixas de **6 m e 18 m**; use Destreza para acertar e Força no dano.
 
 Aplique a Maestria usada no ataque comum, mas faça o ataque com **desvantagem por falta de treino específico**. Um treino que cite armas improvisadas dispensa essa desvantagem. O objeto não ganha propriedades só porque outra arma tem o mesmo dado. No crítico, o d4 vira 2d4; o atributo é somado uma vez.
 
@@ -8275,7 +8275,7 @@ Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da p
 | Revestimento 2 | Grau 3 ou superior. |
 | Revestimento 3 | Grau 2 ou superior. |
 
-Nesta tabela, uma patente superior é a de maior posição na instituição: Grau 1 está acima de Grau 2, e Especial está acima de ambos. A autorização para armas de fogo deve ser combinada com o mestre ou com a organização da guilda antes da compra; registre seu alcance na ficha.
+Nesta tabela, uma patente superior é a de maior posição na instituição: Grau 1 está acima de Grau 2, e Especial está acima de ambos. A autorização para armas de fogo deve ser combinada com o mestre ou com a organização da guilda antes da compra; anote seu alcance na ficha.
 
 Cumprir o acesso permite procurar o equipamento pelos canais da campanha. A tabela não garante que qualquer loja tenha o item disponível. O mestre informa o fornecedor e eventuais condições para obtê-lo.
 
@@ -8309,7 +8309,7 @@ Os valores abaixo são para uma peça comum do tipo indicado. Proteção, teto d
 
 Na criação padrão, você recebe **um Traje 1**, sem descontar seu preço do dinheiro inicial. A linha de ¥30.000 vale para uma compra posterior ou uma peça adicional. Trocar de dono, perder o uniforme ou começar outra missão não concede automaticamente outro Traje gratuito.
 
-Você pode comprar uma proteção diferente. Registre também o destino do Traje recebido: se continuar levando-o, ele ocupa espaço mesmo guardado. Vestir uma peça sobre a outra não soma a proteção dos dois uniformes.
+Você pode comprar uma proteção diferente. Anote também o destino do Traje recebido: se continuar levando-o, ele ocupa espaço mesmo guardado. Vestir uma peça sobre a outra não soma a proteção dos dois uniformes.
 
 #### Escolher uma peça
 
@@ -8365,7 +8365,7 @@ Munição, alimento, pilhas e outros consumíveis não se renovam entre cenas ou
 
 #### Equipamento do grupo
 
-Ao passar um item para outra pessoa, retire-o do inventário de quem entregou e registre-o com quem recebeu. Transfira também seu estado e os suprimentos restantes. O mesmo objeto não pode constar como disponível para duas pessoas ao mesmo tempo.
+Ao passar um item para outra pessoa, retire-o do inventário de quem entregou e anote-o no inventário de quem recebeu. Transfira também seu estado e os suprimentos restantes. O mesmo objeto não pode constar como disponível para duas pessoas ao mesmo tempo.
 
 Um empréstimo não muda os requisitos do equipamento. Combine com o proprietário quando devolver a peça e como lidar com consumo, perda ou dano. Itens fornecidos para uma missão devem ter quantidade e condições de devolução definidas quando forem entregues.
 
@@ -8476,11 +8476,11 @@ Efeitos iguais não se somam. Vários itens também não concedem Reações adic
 
 Ferramentas podem ser recompensas, empréstimos da instituição, heranças ou achados de uma missão. O mestre decide quais estão disponíveis. Cumprir o nível mínimo permite usar o efeito; não garante encontrar a peça.
 
-Os preços do catálogo comum não incluem versões amaldiçoadas. Quando houver uma ferramenta à venda, o mestre informa o valor, as condições de aquisição e o que se sabe sobre ela. Uma peça emprestada continua pertencendo a quem a cedeu; registre as condições de devolução.
+Os preços do catálogo comum não incluem versões amaldiçoadas. Quando houver uma ferramenta à venda, o mestre informa o valor, as condições de aquisição e o que se sabe sobre ela. Uma peça emprestada continua pertencendo a quem a cedeu; anote as condições de devolução.
 
 #### Conhecer o item
 
-Ao entregar uma ferramenta conhecida, o mestre fornece sua ficha: base, grau, efeito, requisitos, Volume e usos. Se ela tiver Desgaste, registre as missões restantes e o que acontece quando acaba.
+Ao entregar uma ferramenta conhecida, o mestre fornece sua ficha: base, grau, efeito, requisitos, Volume e usos. Se ela tiver Desgaste, anote as missões restantes e o que acontece quando acaba.
 
 Um item desconhecido pode exigir pesquisa sobre sua origem, exame ou ajuda de alguém que o conheça. Perceber energia não revela automaticamente todos os poderes e riscos. A investigação segue as regras comuns e as informações disponíveis na cena; não existe um descanso obrigatório de identificação para toda ferramenta.
 
@@ -8650,7 +8650,7 @@ O efeito não concede natação, não impede correntes de água e não protege o
 
 **Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.
 
-O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo. Integridade é o valor anotado separadamente da vida, conforme [Receber dano de Alma](#dano--alma). A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
+O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo. Integridade é o valor anotado separadamente da vida, segundo [Receber dano de Alma](#dano--alma). A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
 
 Cisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.
 
@@ -8692,7 +8692,7 @@ Para um efeito permanente, receber o benefício conta como uso. Apenas transport
 
 #### Esgotamento
 
-Depois de terminar a última missão de uso, a ferramenta perde seu poder e fica como item comum, ou se quebra, conforme o destino registrado na ficha. Conserto não recupera o poder esgotado. Se permanecer inteira, sua proteção, propriedades e demais características comuns continuam valendo.
+Depois de terminar a última missão de uso, a ferramenta perde seu poder e fica como item comum, ou se quebra, de acordo com o destino registrado na ficha. Conserto não recupera o poder esgotado. Se permanecer inteira, sua proteção, propriedades e demais características comuns continuam valendo.
 
 > **Exemplo:** uma ferramenta de grau 1 começa com três missões. O grupo registra cada missão em que o efeito foi usado, mesmo se outra pessoa receber o item emprestado.
 
@@ -8727,7 +8727,7 @@ Uma caixa comum protege o conteúdo de danos e olhares, mas não substitui um se
 
 Certos objetos permitem que um ser do passado ganhe corpo ao ser incorporado por alguém. A compatibilidade do corpo e o objeto envolvido afetam o resultado. O caso de Yuji, que abriga Sukuna, não garante que outra pessoa consiga fazer o mesmo.
 
-Ingerir um objeto desconhecido não concede automaticamente poderes, uma nova Origem ou controle sobre o que ele contém. Se essa possibilidade fizer parte da campanha, o mestre apresenta os riscos que o personagem pode conhecer e define as consequências conforme o objeto. As opções de personagem ligadas à encarnação são tratadas em Origens.
+Ingerir um objeto desconhecido não concede automaticamente poderes, uma nova Origem ou controle sobre o que ele contém. Se essa possibilidade fizer parte da campanha, o mestre apresenta os riscos que o personagem pode conhecer e define as consequências de acordo com o objeto. As opções de personagem ligadas à encarnação são tratadas em Origens.
 
 #### Guarda
 
@@ -8740,13 +8740,13 @@ As escolas jujutsu mantêm objetos perigosos sob contenção. Para a missão, o 
 <a id="progressao--prog-inicio"></a>
 ### Experiência e Progressão
 
-Missões dão **pontos de experiência (XP)**. Ao reunir XP suficiente, seu personagem sobe de nível, amplia o repertório e recebe as habilidades previstas para sua ficha. O **Grau**, também chamado de patente, registra seu reconhecimento pela instituição. Ele segue os feitos reconhecidos na campanha, conforme [Patentes](#progressao--prog-patentes).
+Missões dão **pontos de experiência (XP)**. Ao reunir XP suficiente, seu personagem sobe de nível, amplia o repertório e recebe as habilidades previstas para sua ficha. O **Grau**, também chamado de patente, registra seu reconhecimento pela instituição. Ele segue os feitos reconhecidos na campanha, segundo [Patentes](#progressao--prog-patentes).
 
 Uma ficha nova começa no **nível 2**. O nível 1 é uma opção de campanha para jogar o período anterior às primeiras habilidades de Caminho e Trilha. Nesse caso, a mesa define quando essa etapa termina; a curva de XP começa no nível 2.
 
 #### Registro de missão
 
-Anote o nome da missão, sua data de conclusão, a recompensa, o desconto semanal e o XP recebido. O **desconto semanal** reduz o XP a partir da terceira missão que você concluir na semana, conforme [Experiência semanal](#progressao--prog-semana). Conserve também os feitos e as aquisições que precisem ser reconhecidos em outras mesas.
+Anote o nome da missão, sua data de conclusão, a recompensa, o desconto semanal e o XP recebido. O **desconto semanal** reduz o XP a partir da terceira missão que você concluir na semana, segundo [Experiência semanal](#progressao--prog-semana). Conserve também os feitos e as aquisições que precisem ser reconhecidos em outras mesas.
 
 Uma missão padrão concede **100 XP antes dos ajustes**, independentemente do nível ou do Grau dos participantes. A recompensa não é calculada por inimigo abatido. Investigações, escoltas e negociações também podem ser missões.
 
@@ -8769,7 +8769,7 @@ Quem anuncia a missão informa seu tamanho antes de começar. A duração ajuda 
 | Longa | 200 | Duas ou mais sessões ou uma sessão extensa. |
 | Final de arco | 300 | Encerramento de uma linha de missões. |
 
-Na falha, o mestre concede **metade ou nada**, conforme o que aconteceu. Depois, cada participante aplica seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o mínimo de XP das recompensas positivas.
+Na falha, o mestre concede **metade ou nada**, dependendo do que aconteceu. Depois, cada participante aplica seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o mínimo de XP das recompensas positivas.
 
 #### Subir de nível
 
@@ -8818,7 +8818,7 @@ A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a *
 <a id="progressao--prog-limiar"></a>
 ### Limiar do nível 20
 
-Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos sete feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
+Para avançar do nível **20 para o 21**, reúna o XP necessário e anote **um dos sete feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
 
 | Feito | Registro necessário |
 |---|---|
@@ -8826,7 +8826,7 @@ Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **u
 | Sair de pé de uma Expansão de Domínio completa. | Estar consciente e capaz de agir ao sair da Expansão completa ou quando ela terminar. Ter caído e recebido socorro antes disso não invalida o feito. |
 | Concluir uma missão de final de arco. | Categoria anunciada antes da missão. |
 | Levantar alguém que estava a zero de vida. | O socorro devolveu a capacidade de agir pelas regras de queda. |
-| Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
+| Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, segundo Derrota e morte. |
 | Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
 | Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
 
@@ -8842,7 +8842,7 @@ O feito **não concede XP nem um nível gratuito**. Sem ele, você continua no n
 
 Os **marcos** são níveis que concedem ganhos comuns e uma escolha adicional de progressão. Os valores abaixo já incluem os ganhos comuns de todos os marcos alcançados. **Não some o espaço ou o Refino gratuito do marco outra vez.** As escolhas de marco e os benefícios específicos da ficha são acrescentados separadamente.
 
-**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações até aquela Classe. A coluna **Categoria de Efeito** informa quais Talentos podem ser adquiridos como tais; aptidões com essa classificação seguem seus próprios requisitos. A coluna **Classe 0** mostra quantas aplicações de escala própria você recebe fora dos espaços comuns, conforme [Classe 0](#fundamento--classezero).
+**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações até aquela Classe. A coluna **Categoria de Efeito** informa quais Talentos podem ser adquiridos como tais; aptidões com essa classificação seguem seus próprios requisitos. A coluna **Classe 0** mostra quantas aplicações de escala própria você recebe fora dos espaços comuns, segundo [Classe 0](#fundamento--classezero).
 
 | Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -8914,7 +8914,7 @@ As aptidões conservam seus requisitos. Quando receber duas, escolha em ordem: a
 
 #### Ganhos de Leque
 
-O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
+O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Anote a origem de cada ganho.
 
 No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1.
 
@@ -8936,9 +8936,9 @@ A cada subida de nível, você pode escolher **uma revisão**: reescrever um fei
 
 Quando uma habilidade concede duas entidades no mesmo espaço, a revisão daquele espaço abrange a dupla. Isso não transfere a duplicação para outros espaços. Preencher um espaço novo não gasta a revisão do nível.
 
-Uma revisão das regras que invalide uma montagem permite corrigi-la gratuitamente, sem gastar essa revisão. Ajuste o que deixou de funcionar e registre o motivo. Isso não concede revisão livre de toda a ficha.
+Uma revisão das regras que invalide uma montagem permite corrigi-la gratuitamente, sem gastar essa revisão. Ajuste o que deixou de funcionar e anote o motivo. Isso não concede revisão livre de toda a ficha.
 
-Talentos, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem só mudam por uma permissão que os alcance. A revisão de um feitiço não reescreve a Descrição ou a Regra de toda a técnica. [Ampliar uma aplicação](#fundamento--ampliar) permite usar uma Classe maior durante a execução, até sua Classe máxima, conforme o Fundamento, sem exigir outra versão conhecida.
+Talentos, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem só mudam por uma permissão que os alcance. A revisão de um feitiço não reescreve a Descrição ou a Regra de toda a técnica. [Ampliar uma aplicação](#fundamento--ampliar) permite usar uma Classe maior durante a execução, até sua Classe máxima, segundo o Fundamento, sem exigir outra versão conhecida.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-atualizar -->
 <a id="progressao--prog-atualizar"></a>
@@ -8946,7 +8946,7 @@ Talentos, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem 
 
 Faça a atualização no encerramento da missão, fora da resolução de um combate. Primeiro pague o XP e anote o novo nível. Depois siga esta ordem:
 
-1. Confira os valores comuns, aplique o marco quando houver e registre os benefícios do novo nível para a ficha atual.
+1. Confira os valores comuns, aplique o marco quando houver e anote os benefícios do novo nível para a ficha atual.
 2. Calcule o crescimento dos máximos de vida e PE produzido por esse nível e marco, **antes de qualquer troca de Trilha**. Atualize a vida atual e os PE atuais pela regra abaixo.
 3. Se quiser e tiver alcançado um nível que permita, siga [Trocar de Trilha](#progressao--prog-trilhas). Retire os benefícios antigos, receba os novos e confira seus requisitos.
 4. Preencha vagas novas e, se quiser, use a revisão de uma aplicação ou espaço.
@@ -8968,7 +8968,7 @@ Condições, perdas de Integridade e outros custos não desaparecem. Usos por ce
 
 **Exemplo.** Uma personagem com vida máxima 40 e atual 25 aumenta o máximo para 48. Fica com **33 de vida**, conservando os 15 pontos que faltavam. Só volta a 48 se o mestre permitir a recuperação completa de vida e PE.
 
-A Origem, sua marcante e as duas menores são escolhas da criação; subir de nível não concede novas vagas. Efeitos que dependam de nível acompanham sua própria regra. Uma perda duradoura pode permitir rever a escolha afetada entre missões, com jogador e mestre, conforme [Rever a Origem](#origens--legado-criar), sem troca livre ou vagas extras.
+A Origem, sua marcante e as duas menores são escolhas da criação; subir de nível não concede novas vagas. Efeitos que dependam de nível acompanham sua própria regra. Uma perda duradoura pode permitir rever a escolha afetada entre missões, com jogador e mestre, segundo [Rever a Origem](#origens--legado-criar), sem troca livre ou vagas extras.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-trilhas -->
 <a id="progressao--prog-trilhas"></a>
@@ -8984,7 +8984,7 @@ Reveja treinos, atributos substituídos em ataques, vínculos, repertórios adic
 
 Encerre benefícios que dependam exclusivamente da Trilha retirada. Gastos, ferimentos e consequências anteriores permanecem. Uma troca não devolve PE, cura uma criatura, restaura um item ou reinicia um prazo de recuperação já em andamento.
 
-Registre o que foi removido e o que entrou. Escolhas ou montagens que perderam uma permissão precisam ser ajustadas antes de voltar a ser usadas. Esse ajuste obrigatório não consome a revisão de um feitiço do nível, mas se limita às partes afetadas; não abre uma revisão geral das outras escolhas.
+Anote o que foi removido e o que entrou. Escolhas ou montagens que perderam uma permissão precisam ser ajustadas antes de voltar a ser usadas. Esse ajuste obrigatório não consome a revisão de um feitiço do nível, mas se limita às partes afetadas; não abre uma revisão geral das outras escolhas.
 
 **Exemplo.** Ao trocar no nível 19, você recebe as habilidades de nível 2, 11 e 19 da nova Trilha. O benefício de nível 2 da anterior também termina, mesmo que pareça pequeno ou já esteja incorporado à rotina do personagem.
 
@@ -8994,7 +8994,7 @@ Se a mudança reduzir sua capacidade de manter entidades ou repertório, use o p
 <a id="progressao--prog-capacidades"></a>
 ### Mudanças de capacidade
 
-Uma troca de Trilha pode retirar vagas adicionais ou a aquisição de duas entidades por espaço. Registre a nova capacidade e regularize a ficha antes de usá-la novamente. **Suspender uma escolha não apaga sua história nem permite alterná-la durante as missões.**
+Uma troca de Trilha pode retirar vagas adicionais ou a aquisição de duas entidades por espaço. Anote a nova capacidade e regularize a ficha antes de usá-la novamente. **Suspender uma escolha não apaga sua história nem permite alterná-la durante as missões.**
 
 #### Entidades e espaços
 
@@ -9010,9 +9010,9 @@ Recalcule também o total de corpos permitido em [Corpos amaldiçoados](#campo--
 
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
 
-Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
+Anote a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, segundo **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
-Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
+Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Anote versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-patentes -->
 <a id="progressao--prog-patentes"></a>
@@ -9020,13 +9020,13 @@ Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela
 
 A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
 
-Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
+Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, segundo **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 
 A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os feitos do Limiar não concedem uma patente por conta própria.
 
 **Nível** determina a progressão da ficha. **Patente** registra a posição do personagem. **Grau de ferramenta** classifica um equipamento. Ter uma ferramenta de Grau maior não promove seu portador; ser promovido não substitui os requisitos de uso da ferramenta.
 
-Se a campanha usar remuneração, consulte **Recompensas da guilda**. Registre a patente vigente no fechamento indicado por aquele procedimento.
+Se a campanha usar remuneração, consulte **Recompensas da guilda**. Anote a patente vigente no fechamento indicado por aquele procedimento.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-guilda -->
 <a id="progressao--prog-guilda"></a>
@@ -9064,9 +9064,9 @@ Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao comple
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#fundamento -->
 <a id="fundamento--fundamento"></a>
-O **Fundamento** descreve o funcionamento de uma técnica e estabelece seus limites. Cada **feitiço** é uma aplicação dela, registrada numa ficha. Uma técnica de fios pode cortar um inimigo ou levantar uma parede de fios, conforme as regras escolhidas para cada aplicação.
+O **Fundamento** descreve o funcionamento de uma técnica e estabelece seus limites. Cada **feitiço** é uma aplicação dela, registrada numa ficha. Uma técnica de fios pode cortar um inimigo ou levantar uma parede de fios, de acordo com as regras escolhidas para cada aplicação.
 
-Comece pela técnica inteira: o poder que ela manifesta, seu funcionamento e as possibilidades que você quer desenvolver. Registre essas escolhas com o mestre. O catálogo oferece opções prontas e procedimentos para propor capacidades próprias, com preço e limites definidos antes da sessão.
+Comece pela técnica inteira: o poder que ela manifesta, seu funcionamento e as possibilidades que você quer desenvolver. Anote essas escolhas com o mestre. O catálogo oferece opções prontas e procedimentos para propor capacidades próprias, com preço e limites definidos antes da sessão.
 
 Primeiro, este capítulo acompanha a criação da técnica **Fios de Tensão**, de Mei. Depois, você monta **Fio de Arrasto**, um de seus feitiços, e aprende a combinar efeitos em outras aplicações. Consulte os capítulos correspondentes para as regras gerais de combate, Dano e recuperação e aquisição de entidades.
 
@@ -9084,7 +9084,7 @@ Mei descreve fios de energia que saem dos dedos. Sua Regra será: “Produzo fio
 
 Para conferir a proposta, descreva uma aplicação possível e um limite. Mei pode montar o deslocamento que puxa uma criatura. Para recuperar vida, precisaria prever esse funcionamento na técnica, manter disponível a Família **Amparo**, que reúne opções de cura e proteção da vida, e montar a cura.
 
-##### Registre as consequências
+##### Anote as consequências
 
 Quando uma frase da técnica produzir um benefício em jogo, identifique a capacidade que permite aplicá-lo. Alcance, dano, vantagens e outros resultados seguem as regras dessa capacidade. A Regra do Fundamento orienta quais propostas combinam com a técnica; a ficha registra as permissões necessárias para usá-las.
 
@@ -9145,7 +9145,7 @@ Ao criar o Fundamento, escolha um dos cinco atributos do personagem. Ele permane
 
 ##### Tipos de dano
 
-Escolha um ou dois tipos de dano compatíveis com a Descrição e registre quais são usados em cada feitiço. Se um feitiço causar mais de um tipo de dano, defina a distribuição durante sua criação e mantenha-a ao conjurar, inclusive depois de conhecer as resistências do alvo. Consulte o catálogo de Dano para a definição dos tipos. **Força** representa energia pura.
+Escolha um ou dois tipos de dano compatíveis com a Descrição e anote quais são usados em cada feitiço. Se um feitiço causar mais de um tipo de dano, defina a distribuição durante sua criação e mantenha-a ao conjurar, inclusive depois de conhecer as resistências do alvo. Consulte o catálogo de Dano para a definição dos tipos. **Força** representa energia pura.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#selo -->
 <a id="fundamento--selo"></a>
@@ -9163,14 +9163,14 @@ Ao montar um feitiço, você pode acrescentar uma **Restrição**, uma exigênci
 | Fazer um gesto com uma mão. | Ter as duas mãos livres e falar em voz audível. |
 | Tocar o objeto. | O objeto precisa pertencer a alguém que você conheça. |
 
-Avalie as exigências adicionais com o mestre antes da sessão, conforme [Restrições](#fundamento--restricoes).
+Avalie as exigências adicionais com o mestre antes da sessão, segundo [Restrições](#fundamento--restricoes).
 
 Alterar o Selo exige uma revisão da técnica com o mestre; seus impedimentos continuam valendo durante o uso, mesmo que a descrição seja modificada. A Melhoria Silencioso estabelece as permissões para dispensar gesto e som.
 
 <a id="fundamento-link-capacidades"></a>
 ### Capacidades da técnica
 
-A técnica começa com uma Expressão, que personaliza sua aparência. Você também pode adquirir Talentos, capacidades com efeitos próprios. Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma Regra Própria, conforme o procedimento desta seção. Confira a aquisição de cada opção ao registrar a ficha.
+A técnica começa com uma Expressão, que personaliza sua aparência. Você também pode adquirir Talentos, capacidades com efeitos próprios. Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma Regra Própria, de acordo com o procedimento desta seção. Confira a aquisição de cada opção ao registrar a ficha.
 
 #### Expressão da técnica
 
@@ -9198,7 +9198,7 @@ Escolha o registro adequado à proposta na tabela abaixo. As compras de Melhoria
 |---|---|---|
 | Regra do Fundamento | A frase que define como a técnica inteira funciona. | Parte da definição da técnica; cada aplicação precisa das opções que produzem seus efeitos. |
 | [Efeito Próprio](#fundamento--proprio) | Uma Melhoria criada para uma capacidade ausente do catálogo. | Preço combinado em pontos; cada compra conta no limite de Melhorias da Classe. |
-| [Restrição Própria](#catalogo--restricao-restricao-propria) | Uma dificuldade real que vale em todo uso daquele feitiço. | Ocupa uma das duas vagas de Restrição e pode devolver Leve ou Média, conforme sua regra. |
+| [Restrição Própria](#catalogo--restricao-restricao-propria) | Uma dificuldade real que vale em todo uso daquele feitiço. | Ocupa uma das duas vagas de Restrição e pode devolver Leve ou Média, segundo sua regra. |
 | [Talento Próprio](#catalogo--cat-passiva-propria) | Uma capacidade adquirida separadamente dos feitiços. | Categorias 1, 2 ou 3; ocupa os espaços da Categoria e conta entre os cinco Talentos pagos. |
 | [Regra Própria](#catalogo--cat-regra-propria) | Um Talento específico para técnicas de aposta, contrato, julgamento ou obrigação. | Versão inicial de Categoria 1 sem espaço; progressão própria até Categoria 3. Fica fora dos cinco Talentos pagos. |
 
@@ -9209,7 +9209,7 @@ Confira custos e limites no procedimento indicado para cada escolha.
 
 A Regra Própria atende técnicas de aposta, contrato, julgamento ou obrigação. Sua versão inicial é de Categoria de Efeito 1, disponível no nível 1, sem ocupar espaço conhecido. Compare o benefício com os Talentos dessa Categoria e combine a proposta com o mestre.
 
-Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:
+Comece por uma frase que a mesa consiga aplicar. Depois anote alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:
 
 - **Gatilho verificável.** O grupo identifica quando acontece.
 - **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.
@@ -9222,7 +9222,7 @@ Compare seu resultado com os Talentos da mesma Categoria. Uma frase como “o al
 
 **Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.
 
-Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado e mantenham a disputa genuína, com o vencedor ainda por decidir. Empate consome a aposta da cena sem conceder vantagem. As ações disponíveis e os testes já resolvidos permanecem inalterados. Esta proposta original de **Categoria de Efeito 1** depende da aprovação da mesa.
+Os dois precisam entender e aceitar a aposta antes da disputa. Anotem um resultado que possa ser verificado e mantenham a disputa genuína, com o vencedor ainda por decidir. Empate consome a aposta da cena sem conceder vantagem. As ações disponíveis e os testes já resolvidos permanecem inalterados. Esta proposta original de **Categoria de Efeito 1** depende da aprovação da mesa.
 
 Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.
 
@@ -9279,7 +9279,7 @@ No PDF, toque nos nomes para consultar suas regras completas. O exemplo acompanh
 
 ##### Seu repertório
 
-Um **espaço de feitiço conhecido** mantém uma aplicação na ficha. Usá-la gasta os PE indicados e conserva o feitiço aprendido. Talentos pagos e invocações também podem ocupar esses espaços, conforme suas regras. A Expansão de Domínio também usa esse repertório; confira sua aquisição no capítulo de Domínio. No nível 1, você tem **dois espaços comuns**.
+Um **espaço de feitiço conhecido** mantém uma aplicação na ficha. Usá-la gasta os PE indicados e conserva o feitiço aprendido. Talentos pagos e invocações também podem ocupar esses espaços, segundo suas regras. A Expansão de Domínio também usa esse repertório; confira sua aquisição no capítulo de Domínio. No nível 1, você tem **dois espaços comuns**.
 
 No nível 1, você também conhece **dois feitiços de Classe 0**, separados dos espaços comuns e usados sem gastar PE. Seus dados-base aumentam automaticamente com o nível. A montagem tem um procedimento próprio para acrescentar uma Melhoria; cura e benefícios coletivos ficam fora das opções dessa Classe. Consulte [Feitiços de Classe 0](#fundamento--classezero) para conferir sua montagem e as funções permitidas.
 
@@ -9300,7 +9300,7 @@ O uso normal de um feitiço custa Ação Padrão. No seu turno, você pode conju
 1. **Defina a técnica com o mestre.** Escreva seu funcionamento e use o resumo das Famílias para escolher as duas Livres e as três Fechadas.
 2. **Descreva o feitiço.** Diga o que ele faz e quem recebe cada efeito. Confira se a técnica e suas Famílias permitem essa proposta.
 3. **Escolha a Classe e as funções.** Consulte os pontos disponíveis e os custos das funções que pretende usar.
-4. **Escolha a Forma e as peças.** Defina como os alvos serão alcançados e compre as Melhorias necessárias. Se desejar Restrições, registre exigências válidas e suas devoluções.
+4. **Escolha a Forma e as peças.** Defina como os alvos serão alcançados e compre as Melhorias necessárias. Se desejar Restrições, anote exigências válidas e suas devoluções.
 5. **Calcule os pontos que sobram e anote os resultados.** Destine os pontos às funções escolhidas e confira seus limites. Escreva a resolução, os requisitos e os prazos na ficha.
 6. **Teste um uso.** Escolha um alvo válido e resolva a ficha. Confira também uma situação em que ela deve falhar, como falta de requisito ou alvo fora do alcance.
 
@@ -9351,7 +9351,7 @@ Mei escolhe **nenhuma Restrição**. A montagem conserva o Selo normal de sua t�
 
 Mei destina os **2 pontos que sobram ao dano**, obtendo **2d8 de Cortante**. Empurrão continua movendo o alvo até 6 m. Se ela quisesse uma aplicação que só movesse o alvo, poderia descartar esses pontos; os 6 m da Melhoria continuariam valendo.
 
-##### Registre a ficha
+##### Preencha a ficha
 
 Mei registra os valores e a ordem de resolução na ficha:
 
@@ -9391,7 +9391,7 @@ Sem Técnica e Técnica Marcial usam as mesmas funções, Formas, preços e limi
 
 **Na entidade, confira outra tabela.** Uma especial de Classe 1 começa com 2 pontos. Com Alcance disponível e definição compatível, pode usar Projétil e Empurrão de custo 1: resta 1d8 de dano, e o uso custa 3 PE. As ações de comando, os alcances e os demais limites vêm de Construir invocações e Invocações em campo. A conta pessoal de 3 × Classe permanece restrita às aplicações que a usam.
 
-PE representa **Pontos de Esforço** para quem não possui energia amaldiçoada. O valor cobrado continua o mesmo. O ramo **Sem Energia** usa Técnica Marcial; **Restrição corporal** usa o Fundamento comum. Corpo Amaldiçoado pode usar Técnica Marcial conservando energia, Refino e aptidões, conforme a Origem.
+PE representa **Pontos de Esforço** para quem não possui energia amaldiçoada. O valor cobrado continua o mesmo. O ramo **Sem Energia** usa Técnica Marcial; **Restrição corporal** usa o Fundamento comum. Corpo Amaldiçoado pode usar Técnica Marcial conservando energia, Refino e aptidões, segundo a Origem.
 
 Uma vaga de feitiço, Manejo ou Kata também pode adquirir uma invocação quando a técnica, a semente ou o estilo comportar entidades. Confira [Feitiços conhecidos](#fundamento--repertorio). Manifestação e comando conservam suas ações e custos.
 
@@ -9469,7 +9469,7 @@ Confira o acesso de cada efeito em sua entrada. Guarda pertence a Auxiliares e p
 <a id="fundamento--repertorio"></a>
 #### Feitiços conhecidos
 
-Seu repertório tem um número limitado de **espaços de feitiço conhecido**. Cada feitiço montado ocupa um espaço e permanece disponível depois de usado. A conjuração gasta PE, conforme o custo registrado na ficha.
+Seu repertório tem um número limitado de **espaços de feitiço conhecido**. Cada feitiço montado ocupa um espaço e permanece disponível depois de usado. A conjuração gasta a quantidade de PE indicada na ficha.
 
 **Espaços = 2 + metade do nível, arredondada para baixo + marcos alcançados.** Os marcos ficam nos níveis 6, 10, 14, 18, 22, 26 e 30.
 
@@ -9623,7 +9623,7 @@ A tabela apresenta os custos e as medidas básicas das Classes 1 a 5:
 
 Projétil permite afetar um alvo à distância. Sua aparência acompanha a técnica: o efeito pode chegar por um fio ou por uma ordem. **Cura, vida temporária e benefícios diretos a aliados têm alcance individual de 9 m**, antes dos aumentos. Esse alcance é 4,5 m na Classe 0 e 18 m nas Classes 6 e 7. Toque conserva 1,5 m, e uma Melhoria com alcance próprio usa o valor de sua entrada.
 
-O ataque é a resolução normal das partes ofensivas individuais; áreas ofensivas normalmente pedem TR. Benefícios a alvos dispostos não exigem acertar o aliado. Escreva a resolução de cada parte na criação, conforme **Conjurar**. A Forma não permite mudar essa escolha a cada uso.
+O ataque é a resolução normal das partes ofensivas individuais; áreas ofensivas normalmente pedem TR. Benefícios a alvos dispostos não exigem acertar o aliado. Escreva a resolução de cada parte na criação, segundo **Conjurar**. A Forma não permite mudar essa escolha a cada uso.
 
 ##### Toque, Aura e proximidade
 
@@ -9709,7 +9709,7 @@ Ao escrever o Fundamento, escolha um dos cinco atributos. Ele permanece o atribu
 
 **CD de feitiço = 8 + atributo da técnica + Maestria.** O alvo rola o **Teste de Resistência (TR)** e tem sucesso se igualar ou superar essa CD. A fórmula se mantém em todas as Classes.
 
-Durante a montagem, escolha com o mestre qual dos quatro TRs corresponde ao efeito e registre-o na ficha. Use esse mesmo TR nas conjurações, independentemente dos atributos conhecidos do inimigo.
+Durante a montagem, escolha com o mestre qual dos quatro TRs corresponde ao efeito e anote-o na ficha. Use esse mesmo TR nas conjurações, independentemente dos atributos conhecidos do inimigo.
 
 ##### Resultados
 
@@ -9766,7 +9766,7 @@ A dificuldade que concedeu a devolução deve permanecer mesmo com as Melhorias 
 
 ##### Revisão
 
-O mestre deve rever uma Restrição depois de três sessões em que o feitiço tenha sido usado. Substitua a exigência se ela nunca tiver dificultado o uso. Registre o requisito e sua consequência na ficha antes de conjurar e mantenha-os durante a resolução.
+O mestre deve rever uma Restrição depois de três sessões em que o feitiço tenha sido usado. Substitua a exigência se ela nunca tiver dificultado o uso. Anote o requisito e sua consequência na ficha antes de conjurar e mantenha-os durante a resolução.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#combinacoes -->
 <a id="fundamento--combinacoes"></a>
@@ -9780,10 +9780,10 @@ Use uma única conta de pontos. Pague a maior base exigida pelas funções uma v
 
 | Na criação, antes da sessão | Durante a conjuração |
 |---|---|
-| Escolha as funções e destine a cada uma os pontos que sobram. Registre seus destinatários permitidos e sua resolução. | Escolha destinatários válidos e use as quantidades da ficha. Se houver Mais Um, reparta essas quantidades antes das rolagens, conforme a peça. |
-| Registre o vínculo entre os efeitos e sua ordem de resolução. | Aplique essa ordem. Se uma criatura receber dano e benefício da mesma aplicação, resolva primeiro o dano. |
+| Escolha as funções e destine a cada uma os pontos que sobram. Anote seus destinatários permitidos e sua resolução. | Escolha destinatários válidos e use as quantidades da ficha. Se houver Mais Um, reparta essas quantidades antes das rolagens, segundo a peça. |
+| Anote o vínculo entre os efeitos e sua ordem de resolução. | Aplique essa ordem. Se uma criatura receber dano e benefício da mesma aplicação, resolva primeiro o dano. |
 
-Cada função mantém a quantidade registrada, mesmo quando outra parte fica sem alvo válido. Para usar a mescla em Classes maiores, prepare suas distribuições conforme [Ampliar um feitiço](#fundamento--ampliar).
+Cada função mantém a quantidade registrada, mesmo quando outra parte fica sem alvo válido. Para usar a mescla em Classes maiores, prepare suas distribuições segundo [Ampliar um feitiço](#fundamento--ampliar).
 
 Acompanhe a montagem de **Ferir e recuperar** a seguir. Depois dela, os exemplos mostram uma recuperação dependente do dano e duas aplicações em área. As tabelas de consulta ficam no fim desta seção de exemplos.
 
@@ -9822,7 +9822,7 @@ Estas aplicações pertencem a técnicas que permitem os efeitos apresentados. F
 
 A cura de 2d8 cabe no teto individual de **6d8** da Classe 3. Mais Um permite destinar o dano ao inimigo e a cura ao aliado, mantendo os totais registrados.
 
-**5. Registre a ficha**, incluindo o Selo da técnica:
+**5. Preencha a ficha**, incluindo o Selo da técnica:
 
 | Ferir e recuperar | Regra |
 |---|---|
@@ -9846,7 +9846,7 @@ Uma parte independente pode funcionar quando outra falha ou fica sem destinatár
 
 ##### Quando um efeito depende de outro
 
-Registre o vínculo entre as partes na ficha, respeitando a peça comprada. Em Ferir e recuperar, um aliado válido e disposto recebe a cura mesmo se o ataque errar.
+Anote o vínculo entre as partes na ficha, respeitando a peça comprada. Em Ferir e recuperar, um aliado válido e disposto recebe a cura mesmo se o ataque errar.
 
 A Melhoria **[Sugar](#catalogo--melhoria-sugar)**, da Família Marca, recupera vida para o usuário a partir do dano que conta: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas partes iniciais aplicadas por acerto ou falha no TR. Reúna essas partes e recupere um quarto da soma, arredondado para baixo, até 5 × Classe por conjuração. O dano de um TR bem-sucedido fica fora da soma. Repetições e dano posterior seguem as exclusões da entrada de Sugar.
 
@@ -9869,7 +9869,7 @@ Para proteger as criaturas que devem ficar fora das partes nocivas, compre **[Es
 
 A montagem usa uma Melhoria e uma Restrição. A devolução de Gesto cobre 2 dos 3 pontos pagos em Melhorias, dentro dos tetos.
 
-**Funções e distribuição:** destine dois pontos a **2d8 de dano** na área e um ponto para **1d8 de cura** no aliado. Registre o tipo de dano e o Teste de Resistência (TR) correspondente, com sua CD, a dificuldade que o alvo precisa alcançar no teste.
+**Funções e distribuição:** destine dois pontos a **2d8 de dano** na área e um ponto para **1d8 de cura** no aliado. Anote o tipo de dano e o Teste de Resistência (TR) correspondente, com sua CD, a dificuldade que o alvo precisa alcançar no teste.
 
 **Na mesa:** cumpra Gesto e o Selo, use Ação Padrão e pague 9 PE. Escolher permite selecionar, entre as criaturas que você distingue por uma percepção válida, quais receberão as partes nocivas iniciais. As criaturas protegidas dessa parte ainda podem receber o benefício permitido na ficha.
 
@@ -9895,7 +9895,7 @@ Se os dados de dano somarem **9**, quem falhar recebe 9 e quem passar recebe **5
 
 Com seis aliados válidos na região, os seis podem receber a cura; até quatro recebem Guarda.
 
-Para criar uma versão que apenas ofereça Guarda, mantenha a base compartilhada e a Forma e retire a cura. Essa versão exige Auxiliares e Área disponíveis e dispensa Amparo. O ponto restante fica sem uso. Prepare a nova montagem conforme as regras de espaço ou reescrita de feitiços.
+Para criar uma versão que apenas ofereça Guarda, mantenha a base compartilhada e a Forma e retire a cura. Essa versão exige Auxiliares e Área disponíveis e dispensa Amparo. O ponto restante fica sem uso. Prepare a nova montagem segundo as regras de espaço ou reescrita de feitiços.
 
 ##### Alvos, ataques e áreas
 
@@ -9943,7 +9943,7 @@ Para criar um feitiço de controle, descreva como ele interfere na situação. B
 
 ##### Dano e duração
 
-Depois de calcular os pontos que sobram de um feitiço comum de Classe 1 a 7 com Melhoria de Controle, registre uma das opções abaixo. Essa escolha define se ele conserva seu dano disponível ou abre mão de parte dele para reforçar o Controle.
+Depois de calcular os pontos que sobram de um feitiço comum de Classe 1 a 7 com Melhoria de Controle, anote uma das opções abaixo. Essa escolha define se ele conserva seu dano disponível ou abre mão de parte dele para reforçar o Controle.
 
 | Opção na ficha | Dano inicial | Reforço de Controle |
 |---|---|---|
@@ -10036,7 +10036,7 @@ Um feitiço comum começa com até **3 × Classe em dados de dano**. As peças q
 
 Role o dano de uma área uma vez e aplique o resultado inteiro a cada alvo, considerando as defesas de cada um. A quantidade de criaturas atingidas conserva o custo de montagem da área.
 
-Rajada e Mais Um **dividem a quantidade de dados disponível**. Mais Um também divide cura e vida temporária e só replica os benefícios expressamente autorizados na entrada. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro de Rajada precisa de pelo menos um dado. Mais Um pode alcançar um alvo sem dano para aplicar outro efeito válido, conforme sua entrada. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz três ataques de 6d8.
+Rajada e Mais Um **dividem a quantidade de dados disponível**. Mais Um também divide cura e vida temporária e só replica os benefícios expressamente autorizados na entrada. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro de Rajada precisa de pelo menos um dado. Mais Um pode alcançar um alvo sem dano para aplicar outro efeito válido, segundo sua entrada. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz três ataques de 6d8.
 
 ##### Dados adicionais da própria montagem
 
@@ -10107,7 +10107,7 @@ Benefícios de furtividade precisam constar de um efeito adquirido. Descrever pa
 
 Se o uso altera números, aplica uma condição, vence oposição ou excede a escala pequena, monte sua ficha. Um efeito destinado a impedir uma criatura de agir continua exigindo a resolução apropriada mesmo antes de a iniciativa ser rolada.
 
-Use a descrição da técnica para propor soluções e registre os efeitos mecânicos necessários na ficha. Compre as capacidades que alterem a resolução da situação.
+Use a descrição da técnica para propor soluções e anote os efeitos mecânicos necessários na ficha. Compre as capacidades que alterem a resolução da situação.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#efeito -->
 <a id="fundamento--efeito"></a>
@@ -10137,7 +10137,7 @@ Barreiras e poderes de outras criaturas mantêm suas defesas e requisitos. Para 
 
 ##### Ficha da aplicação
 
-Registre a origem e a extensão da aplicação, descrevendo a alteração que ela produz. Defina sua duração e o encerramento, inclusive o que acontece se um combate começar. Qualquer consequência sobre testes, ataques ou ações exige a capacidade correspondente e deve ser definida antes do uso.
+Anote a origem e a extensão da aplicação, descrevendo a alteração que ela produz. Defina sua duração e o encerramento, inclusive o que acontece se um combate começar. Qualquer consequência sobre testes, ataques ou ações exige a capacidade correspondente e deve ser definida antes do uso.
 
 > **Luz de Oficina.** Uma técnica de luz prepara uma aplicação de Efeito fora de combate de Classe 2 para iluminar um cômodo grande por 10 minutos. Cada uso custa Ação Padrão e 6 PE. A ficha oferece iluminação comum e mantém os procedimentos usuais de visão, incluindo ocultação sobrenatural. Para cegar alguém ou conceder um bônus, seria necessário adquirir o efeito correspondente. Os 6 pontos disponíveis ficam sem uso, pois essa montagem dispensa Melhorias.
 
@@ -10173,16 +10173,16 @@ Confira de novo os tetos de devolução, dano, cura e quantidade de peças. Uma 
 
 ##### Mesclas em Classes maiores
 
-Antes da sessão, registre uma linha para cada Classe em que pretende usar a mescla. Durante a conjuração, escolha uma dessas Classes e consulte os valores correspondentes. Todas as linhas pertencem ao mesmo feitiço e ocupam um único espaço. Preencha apenas as Classes que pretende usar.
+Antes da sessão, anote uma linha para cada Classe em que pretende usar a mescla. Durante a conjuração, escolha uma dessas Classes e consulte os valores correspondentes. Todas as linhas pertencem ao mesmo feitiço e ocupam um único espaço. Preencha apenas as Classes que pretende usar.
 
 1. Mantenha as funções, a Forma, as Melhorias, as categorias escolhidas, as Restrições, o TR e os vínculos entre as partes.
 2. Recalcule orçamento, preços, descontos, devoluções e tetos pela nova Classe. A conta precisa continuar válida, inclusive após arredondamentos.
-3. Divida os pontos que sobram entre as mesmas funções. Cada ponto produz um dado de dano, um dado de cura ou três pontos de vida temporária, conforme seu destino.
-4. Registre os resultados. Toda função variável precisa receber pelo menos um ponto; se isso não couber, essa versão da mescla é inválida. Os pontos a mais podem ficar sem uso.
+3. Divida os pontos que sobram entre as mesmas funções. Cada ponto produz um dado de dano, um dado de cura ou três pontos de vida temporária, dependendo da função que recebeu o ponto.
+4. Anote os resultados. Toda função variável precisa receber pelo menos um ponto; se isso não couber, essa versão da mescla é inválida. Os pontos a mais podem ficar sem uso.
 
 A proporção pode ser diferente entre as linhas preparadas. Ela fica fixa em cada linha: não se troca cura por dano durante a conjuração, nem se transfere automaticamente uma sobra que exceda um teto. Mais Um ainda permite repartir a quantidade de uma função entre seus alvos, antes de rolar.
 
-Quando um feitiço tem uma única função variável, use os pontos que sobram normalmente; a tabela é opcional. Um feitiço sem pontos sobrando pode produzir os efeitos das Melhorias compradas, como Impulso. Registre dano ou cura somente quando houver pontos destinados a essas funções.
+Quando um feitiço tem uma única função variável, use os pontos que sobram normalmente; a tabela é opcional. Um feitiço sem pontos sobrando pode produzir os efeitos das Melhorias compradas, como Impulso. Anote dano ou cura somente quando houver pontos destinados a essas funções.
 
 Prepare novas linhas antes da sessão. Para alterar uma linha existente, siga a regra normal de revisão da ficha. A distribuição registrada permanece durante o uso. Feitiços de Classe 0 e aplicações máximas seguem seus próprios procedimentos.
 
@@ -10192,7 +10192,7 @@ Prepare novas linhas antes da sessão. Para alterar uma linha existente, siga a 
 | 4; 12 PE | 12 − base 4 − Mais Um 2 = 6 | 4d8 | 2d8 |
 | 5; 15 PE | 15 − base 5 − Mais Um 3 = 7 | 5d8 | 2d8 |
 
-A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais Um Leve, sem descontos ou Restrições. Você pode escolher outra distribuição para sua ficha, respeitando as funções e seus limites. Registre antes da sessão os valores de cada Classe que pretende usar.
+A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais Um Leve, sem descontos ou Restrições. Você pode escolher outra distribuição para sua ficha, respeitando as funções e seus limites. Anote antes da sessão os valores de cada Classe que pretende usar.
 
 ##### Nova versão
 
@@ -10208,7 +10208,7 @@ Proponha um **Efeito Próprio** ao mestre antes da sessão para uma capacidade a
 
 Descreva o resultado esperado. Depois confira se uma entrada existente já produz esse resultado. Uma plataforma de papel que empurra uma aliada pelo chão pode ser a aparência de Empurrão, respeitando a distância e os limites dessa peça. Para sustentar a passagem sobre um vão, a proposta precisa permitir expressamente esse transporte.
 
-Registre os campos abaixo. Eles permitem comparar a proposta com peças existentes e resolver seu uso durante a sessão.
+Anote os campos abaixo. Eles permitem comparar a proposta com peças existentes e resolver seu uso durante a sessão.
 
 | Campo | O que precisa estar definido |
 |---|---|
@@ -10226,9 +10226,9 @@ Se a ideia for criar uma entidade que age por conta própria, como uma dobradura
 
 Compare resultado, alvos, distâncias e duração com Melhorias próximas. Apresente um uso possível e uma situação que limite a capacidade. O mestre define o preço pela comparação; guarde a justificativa junto da regra aprovada.
 
-Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Ela define o acesso e o desconto de Livre. Se nenhuma Família for adequada, registrem o preço integral, sem desconto de Família. A criação respeita as proibições das Famílias Fechadas.
+Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Ela define o acesso e o desconto de Livre. Se nenhuma Família for adequada, anotem o preço integral, sem desconto de Família. A criação respeita as proibições das Famílias Fechadas.
 
-Quando a proposta reunir benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta. Registre essa decisão junto dos efeitos que ela abrange.
+Quando a proposta reunir benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta. Anote essa decisão junto dos efeitos que ela abrange.
 
 ##### Exemplo de acordo: Travessia de papel
 
@@ -10248,7 +10248,7 @@ Paredes e barreiras impedem o percurso; os perigos da passagem usam suas regras 
 
 Antes de jogar, confira se a regra aprovada permite resolver a aplicação. Guarde sua comparação e justificativa de preço. Recursos e ações concedidos precisam estar definidos e pagos.
 
-**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.
+**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Anotem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.
 
 Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.
 
@@ -10262,7 +10262,7 @@ Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe má
 
 ##### Custo e uso
 
-O custo é **3 × Classe de PE, aumentado em 50%**, arredondado para cima. A Liberação exige **Ação Completa**. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, conforme Turnos.
+O custo é **3 × Classe de PE, aumentado em 50%**, arredondado para cima. A Liberação exige **Ação Completa**. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, segundo Turnos.
 
 Escolha também um destes preços a cada uso:
 
@@ -10304,7 +10304,7 @@ Use a coluna de **pontos de montagem** para pagar a Forma e as Melhorias. A quan
 
 Escolha a Forma e até **quatro Melhorias**, usando os preços da sua maior Classe. Essa Classe também define as medidas e os valores das peças. Famílias Livres dão seu desconto normal; Fechadas continuam indisponíveis. A Forma não recebe desconto.
 
-Escolha durante a criação se a Máxima causará dano, recuperará vida ou produzirá uma aplicação sem dano. Registre essa escolha e mantenha-a em todos os usos. Você recebe a Máxima pela progressão; ela fica fora dos espaços comuns e da troca por invocações.
+Escolha durante a criação se a Máxima causará dano, recuperará vida ou produzirá uma aplicação sem dano. Anote essa escolha e mantenha-a em todos os usos. Você recebe a Máxima pela progressão; ela fica fora dos espaços comuns e da troca por invocações.
 
 ##### Ação e recarga
 
@@ -10322,7 +10322,7 @@ Você pode escrever um requisito necessário à ideia, como preparar duas marcas
 
 ##### Dano ou cura
 
-Use os dados da faixa da Técnica Máxima. Na criação, registre dano ou cura e a Forma que entrega o resultado. A cura paga sua base Média; a aplicação coletiva paga também a Forma de área e exige Amparo e Área. Os dados de cura da Máxima não usam o teto comum. A cura coletiva alcança cada aliado válido na região.
+Use os dados da faixa da Técnica Máxima. Na criação, anote dano ou cura e a Forma que entrega o resultado. A cura paga sua base Média; a aplicação coletiva paga também a Forma de área e exige Amparo e Área. Os dados de cura da Máxima não usam o teto comum. A cura coletiva alcança cada aliado válido na região.
 
 Quando o alvo passa no TR de uma Máxima de dano, recebe **três quartos do dano**. Aplique depois as demais defesas e o arredondamento de Dano. Frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa.
 
@@ -10380,7 +10380,7 @@ Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga 
 
 ##### Montagem
 
-**Aplicação de utilidade (base 0) + Efeito Próprio: passagem entre marcas (Pesada).** Sem desconto de Família. O custo é 8, 9 ou 11 pontos, conforme a maior Classe seja 5, 6 ou 7. Cabe nos orçamentos 8, 12 e 16. Os dados de dano e cura são descartados.
+**Aplicação de utilidade (base 0) + Efeito Próprio: passagem entre marcas (Pesada).** Sem desconto de Família. O custo é 8, 9 ou 11 pontos, para maior Classe 5, 6 ou 7, nessa ordem. Cabe nos orçamentos 8, 12 e 16. Os dados de dano e cura são descartados.
 
 | Campo | Regra |
 |---|---|
@@ -10413,7 +10413,7 @@ Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impul
 
 **Aplicação própria de utilidade (base 0) + Efeito Próprio: retirada coletiva (Pesada, sem desconto).** São 8/9/11 pontos nas faixas 17/21/26, dentro dos orçamentos 8/12/16. Sem dano, cura ou vida temporária.
 
-Use Ação Completa e pague **25/30/35 PE**, conforme a faixa. O efeito é instantâneo e usa a recarga normal da Máxima.
+Use Ação Completa e pague **25/30/35 PE**, na quantidade indicada para a faixa. O efeito é instantâneo e usa a recarga normal da Máxima.
 
 Escolha até **seis aliados dispostos que você veja a até 18 m**, incluindo você se desejar. Declare destinos e percursos antes de mover qualquer um. Os destinos também precisam estar à sua vista nesse momento. Cada aliado precisa aceitar seu trajeto.
 
@@ -10429,7 +10429,7 @@ Condições continuam valendo. Uma criatura sem movimento não pode ser retirada
 
 ##### Benefícios da Máxima
 
-Retirada de Emergência move os aliados durante a resolução do efeito. Isso permite sair de uma área perigosa ou liberar uma passagem, desde que cada criatura tenha um trajeto possível. Pressa pode auxiliar um deslocamento posterior, conforme sua própria entrada.
+Retirada de Emergência move os aliados durante a resolução do efeito. Isso permite sair de uma área perigosa ou liberar uma passagem, desde que cada criatura tenha um trajeto possível. Pressa pode auxiliar um deslocamento posterior, segundo sua própria entrada.
 
 Longe pode aumentar a distância de seleção dos aliados, sem ampliar os 18 m de cada percurso. Concentrada e Duradoura não repetem a retirada; Maior e Mais Um não aumentam o limite de seis. Alterar esses parâmetros exige rever o Efeito Próprio.
 
@@ -10478,8 +10478,8 @@ Algumas capacidades alteram uma montagem ou copiam uma parte dela. Consulte a re
 | [Remodelar, do Emanador](#emanador--ema-remodelar) | Desdobramento Técnico, nível 2. | Troca uma Melhoria por outra compatível, com os pagamentos da habilidade. Efeitos e Modificadores contam como Melhorias. Efeito Próprio permanece na ficha. |
 | [Modulações Dominadas, do Emanador](#emanador--ema-modulacoes) | Escolhas nos níveis 2, 7, 15 e 23, com os requisitos de cada opção. | Forçar uma Modulação acrescenta a peça prevista pela opção e paga seu custo próprio. Divisão acrescenta Mais Um e usa sua repartição, inclusive numa aplicação sem dano. |
 | [Expressões Familiares, do Emanador](#emanador--ema-familiares) | Nível 7. | Prepara versões alternativas de dois feitiços conhecidos, por Remodelagem, com efeitos, dados e custos registrados. |
-| [Repertório Ampliado, da Invocação Principal](#evocador--ev-principal) | Trilha do Evocador, nível 2. | A ficha da principal tem cinco Famílias abertas, duas Livres, conforme os requisitos da Trilha. Use os descontos de entidade. |
-| [Famílias do Conjunto, de Múltiplas Invocações](#evocador--ev-multiplas) | Trilha do Evocador, nível 2. | Cada invocação tem quatro Famílias abertas, uma Livre, conforme a Trilha. Use os descontos de entidade. |
+| [Repertório Ampliado, da Invocação Principal](#evocador--ev-principal) | Trilha do Evocador, nível 2. | A ficha da principal tem cinco Famílias abertas, duas Livres, segundo os requisitos da Trilha. Use os descontos de entidade. |
+| [Famílias do Conjunto, de Múltiplas Invocações](#evocador--ev-multiplas) | Trilha do Evocador, nível 2. | Cada invocação tem quatro Famílias abertas, uma Livre, segundo a Trilha. Use os descontos de entidade. |
 
 Sem Técnica e Técnica Marcial não permitem aprender ou auxiliar Ritual. Uma alteração durante a conjuração também exige que qualquer peça própria já esteja definida e aprovada antes do uso.
 
@@ -10509,7 +10509,7 @@ As compras dos dois grupos usam o **mesmo limite de Melhorias** da Classe. Uma M
 
 **Repetição** segue a permissão da peça. Longe informa modalidades e quantas compras aceita; cada compra paga e ocupa uma vaga. Para repetir uma Melhoria própria, combine a permissão com o mestre antes do uso.
 
-Ao comprar, registre alvos, resolução e duração na ficha. Uma peça que aumenta alcance precisa ter um alvo ou origem cuja distância possa aumentar. Uma peça que amplia área precisa de uma região para ampliar. As permissões de Formas e Famílias continuam valendo.
+Ao comprar, anote alvos, resolução e duração na ficha. Uma peça que aumenta alcance precisa ter um alvo ou origem cuja distância possa aumentar. Uma peça que amplia área precisa de uma região para ampliar. As permissões de Formas e Famílias continuam valendo.
 
 Siga os gatilhos de cada peça: **Salto** leva uma parte do dano a outro alvo; **Prende** cria uma contenção e exige sua própria aplicação. Dano parcial só aplica uma Melhoria quando a regra dela permitir. Uma compra que acrescenta alvos conserva os limites das demais peças; repetição de dano e duração exigem suas próprias permissões.
 
@@ -10541,7 +10541,7 @@ Estas Melhorias acompanham um alvo depois da resolução inicial. Contra um inim
 
 ##### Amparo
 
-Estas Melhorias ajudam criaturas dispostas por uma Forma que alcance seus alvos, conforme os limites de cada peça. Também podem acompanhar um feitiço que atinja um aliado, quando o alvo e a resolução permitirem. Se a ficha causar dano, resolva-o antes do benefício. Receber ajuda não evita esse dano.
+Estas Melhorias ajudam criaturas dispostas por uma Forma que alcance seus alvos, respeitando os limites de cada peça. Também podem acompanhar um feitiço que atinja um aliado, quando o alvo e a resolução permitirem. Se a ficha causar dano, resolva-o antes do benefício. Receber ajuda não evita esse dano.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-efeitos -->
 <a id="catalogo--cat-efeitos"></a>
@@ -10623,9 +10623,9 @@ Para outros tipos de aplicação, o mestre atribui uma Classe de **1 a 7** ou de
 
 **Preço: Média.**
 
-Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua. Cada painel compartilha um lado com outro e a altura mínima é **3 m**. Registre o formato.
+Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua. Cada painel compartilha um lado com outro e a altura mínima é **3 m**. Anote o formato.
 
-Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede passagem e oferece cobertura conforme a posição. Bloqueia visão se seu material for opaco. Todos os painéis partilham a mesma vida: ao chegar a zero, a barreira inteira termina. Use as regras de objetos para atacá-la. Não concede bônus de escudo equipado nem exige atacar uma criatura para surgir. Concentrada e Duradoura não prolongam sua duração.
+Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede passagem e oferece cobertura de acordo com a posição. Bloqueia visão se seu material for opaco. Todos os painéis partilham a mesma vida: ao chegar a zero, a barreira inteira termina. Use as regras de objetos para atacá-la. Não concede bônus de escudo equipado nem exige atacar uma criatura para surgir. Concentrada e Duradoura não prolongam sua duração.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-prende -->
 <a id="catalogo--melhoria-prende"></a>
@@ -10857,7 +10857,7 @@ Remova do aliado uma condição Leve ou Média. Escolha a condição ao resolver
 
 **Preço: Pesada.**
 
-Remova uma condição de qualquer nível do aliado. Cada uso encerra uma condição, e uma fonte ativa pode aplicá-la novamente conforme suas regras. **Morrendo** exige o procedimento de recuperação ou uma capacidade que permita encerrá-lo expressamente; Limpa Fundo não concede essa permissão.
+Remova uma condição de qualquer nível do aliado. Cada uso encerra uma condição, e uma fonte ativa pode aplicá-la novamente seguindo suas regras. **Morrendo** exige o procedimento de recuperação ou uma capacidade que permita encerrá-lo expressamente; Limpa Fundo não concede essa permissão.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-levanta -->
 <a id="catalogo--melhoria-levanta"></a>
@@ -10897,7 +10897,7 @@ O dano enviado conserva o tipo e recebe as defesas do aliado. Ele não pode ser 
 <a id="catalogo--cat-modificadores"></a>
 ### Melhorias: Modificadores
 
-Estas Melhorias alteram características de uma aplicação existente. Cada compra participa do mesmo limite usado pelos Efeitos. Confira o requisito da entrada: Maior exige uma área para ampliar; Rajada usa ataques com dados de dano; Mais Um acrescenta destinatários individuais conforme a distribuição de cada função.
+Estas Melhorias alteram características de uma aplicação existente. Cada compra participa do mesmo limite usado pelos Efeitos. Confira o requisito da entrada: Maior exige uma área para ampliar; Rajada usa ataques com dados de dano; Mais Um acrescenta destinatários individuais segundo a distribuição de cada função.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-longe -->
 <a id="catalogo--melhoria-longe"></a>
@@ -10961,7 +10961,7 @@ Maior exige uma aplicação que já tenha área. Aumente suas dimensões e conse
 
 **Preço: Média.**
 
-Ao criar a área, escolha as criaturas presentes que podem receber seus efeitos nocivos. Use uma única seleção para todas as partes nocivas iniciais. As demais criaturas ficam protegidas dessas partes e ainda podem receber os benefícios permitidos na ficha. Você precisa distinguir cada criatura selecionada por uma percepção válida. A Forma mantém seu formato e seus limites, sem acrescentar alvos ou benefícios. Com Fica, registre a lista de criaturas excluídas no disparo e mantenha-a durante a aplicação; outras criaturas que entrarem permanecem sujeitas ao efeito. A exclusão de Escolher não se aplica a Estilhaço.
+Ao criar a área, escolha as criaturas presentes que podem receber seus efeitos nocivos. Use uma única seleção para todas as partes nocivas iniciais. As demais criaturas ficam protegidas dessas partes e ainda podem receber os benefícios permitidos na ficha. Você precisa distinguir cada criatura selecionada por uma percepção válida. A Forma mantém seu formato e seus limites, sem acrescentar alvos ou benefícios. Com Fica, anote a lista de criaturas excluídas no disparo e mantenha-a durante a aplicação; outras criaturas que entrarem permanecem sujeitas ao efeito. A exclusão de Escolher não se aplica a Estilhaço.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-mais-um -->
 <a id="catalogo--melhoria-mais-um"></a>
@@ -10975,7 +10975,7 @@ Acrescente **um destinatário individual diferente** ao feitiço. Pode comprar d
 
 Antes de resolver, escolha os destinatários e distribua as quantidades de cada função entre eles, em partes inteiras: dados de dano, dados de cura ou pontos de vida temporária. Não copie os totais nem converta uma função em outra. A divisão dos pontos que sobram entre as funções fica registrada na criação; a distribuição entre seus destinatários é feita antes das rolagens.
 
-Você pode destinar uma das funções da ficha a uma criatura, sem obrigá-la a receber as demais. Para causar dano a esse destinatário, destine pelo menos um dado a ele. Uma aplicação sem dano pode alcançar outro destinatário para aplicar um efeito válido, conforme as permissões da Melhoria escolhida.
+Você pode destinar uma das funções da ficha a uma criatura, sem obrigá-la a receber as demais. Para causar dano a esse destinatário, destine pelo menos um dado a ele. Uma aplicação sem dano pode alcançar outro destinatário para aplicar um efeito válido, quando a Melhoria escolhida permitir.
 
 Confira alcance, visão e requisitos para cada um. Cada parte respeita o ataque, TR ou gatilho registrado; Mais Um não torna uma cura dependente do ataque nem elimina uma dependência já escrita. Toque exige todos os destinatários a até 1,5 m.
 
@@ -11039,7 +11039,7 @@ Para escolher o alvo ou ponto de origem, cumpra os requisitos de visão ou use S
 
 **Preço: Leve.**
 
-Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, conforme a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia.
+Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, de acordo com a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-inescapavel -->
 <a id="catalogo--melhoria-inescapavel"></a>
@@ -11266,7 +11266,7 @@ Escolha os destinatários ao aplicar o feitiço e mantenha esse grupo durante o 
 
 **Preço: Média.**
 
-Role os dados de cura ao conjurar e registre o resultado como uma reserva no aliado. Ele recuperará essa vida na próxima vez, ainda nesta cena, em que passar de pelo menos metade da vida para abaixo dela. Aplique a cura guardada depois do dano que provocou essa queda, sem gastar ação. A criação da reserva mantém a vida atual do aliado.
+Role os dados de cura ao conjurar e anote o resultado como uma reserva no aliado. Ele recuperará essa vida na próxima vez, ainda nesta cena, em que passar de pelo menos metade da vida para abaixo dela. Aplique a cura guardada depois do dano que provocou essa queda, sem gastar ação. A criação da reserva mantém a vida atual do aliado.
 
 A reserva é consumida nesse disparo, mesmo se a cura for impedida. O valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado mantém uma reserva: receber outra substitui a anterior, sem somar valores. Estar abaixo da metade ao recebê-la não a dispara imediatamente.
 
@@ -11290,7 +11290,7 @@ Confira primeiro se uma entrada existente atende à ideia. Você pode adaptar a 
 
 ##### Campos da proposta
 
-Registre o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique o encerramento e uma situação em que o efeito não funciona. Compare com as peças de função mais próxima; o mestre define o preço e anota o motivo na ficha.
+Anote o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique o encerramento e uma situação em que o efeito não funciona. Compare com as peças de função mais próxima; o mestre define o preço e anota o motivo na ficha.
 
 A Família escolhida representa a função mecânica e determina acesso e desconto. Se nenhuma servir, use o preço integral, sem desconto de Família. A proposta respeita a Descrição, a Regra do Fundamento e as Famílias Fechadas. Benefícios independentes pagam e contam separadamente, salvo redução específica de pontos ou de espaço autorizada pelo mestre após avaliar a proposta.
 
@@ -11328,7 +11328,7 @@ A devolução compensa apenas pontos pagos em Melhorias, dentro dos limites gera
 
 Na **Classe 0**, Queima-Roupa pode ocupar a opção de Restrição Leve das áreas permitidas, recuperando no máximo o dado retirado pela Melhoria. Sua modalidade Média de Projétil fica indisponível. A **Técnica Máxima** não aceita esta Restrição.
 
-> **Exemplo.** Na Classe 3, uma Linha com Fica, ambas de preço normal, gasta 2 + 3 = 5 pontos. Queima-Roupa devolve Leve, que vale 2: os pontos que sobram dão **9 − 2 − 3 + 2 = 6d8**. A Linha parte de você e conserva 18 m por 1,5 m. A montagem usa uma Melhoria e uma Restrição. Depois de criada, a área de Fica permanece no lugar conforme a sua entrada.
+> **Exemplo.** Na Classe 3, uma Linha com Fica, ambas de preço normal, gasta 2 + 3 = 5 pontos. Queima-Roupa devolve Leve, que vale 2: os pontos que sobram dão **9 − 2 − 3 + 2 = 6d8**. A Linha parte de você e conserva 18 m por 1,5 m. A montagem usa uma Melhoria e uma Restrição. Depois de criada, a área de Fica permanece no lugar segundo a sua entrada.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#restricao-atrasar -->
 <a id="catalogo--restricao-atrasar"></a>
@@ -11344,7 +11344,7 @@ Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige 
 
 **Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido.
 
-Não combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confira a exigência no turno do pagamento e no do disparo, conforme as Melhorias de Tempo.
+Não combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confira a exigência no turno do pagamento e no do disparo, segundo as Melhorias de Tempo.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#restricao-gesto -->
 <a id="catalogo--restricao-gesto"></a>
@@ -11382,7 +11382,7 @@ Carregar não ocupa sua Concentração. Depois da liberação, um efeito que exi
 
 Pague esse adicional integralmente na própria conjuração, mesmo quando houver redução ou dispensa do custo normal. Sobrecusto concede a devolução Média dentro dos limites gerais de Restrições. A Classe, os pontos iniciais e o limite de Melhorias permanecem os mesmos.
 
-Registre o custo total na ficha. Num feitiço comum de Classe 3, são 9 PE normais + 6 adicionais = **15 PE**. Outras modalidades conservam seu próprio custo normal e somam o mesmo adicional pela Classe usada. Não concede devolução quando o adicional seria zero, nem permite Restrições em modalidades que as proíbem.
+Anote o custo total na ficha. Num feitiço comum de Classe 3, são 9 PE normais + 6 adicionais = **15 PE**. Outras modalidades conservam seu próprio custo normal e somam o mesmo adicional pela Classe usada. Não concede devolução quando o adicional seria zero, nem permite Restrições em modalidades que as proíbem.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#restricao-recuo -->
 <a id="catalogo--restricao-recuo"></a>
@@ -11442,11 +11442,11 @@ Não cabe numa aplicação automática nem quando um efeito garantido no erro ou
 <a id="catalogo--restricao-condicional"></a>
 #### Condicional
 
-**Devolução: Leve ou Média.** Escreva uma condição de cena ou de alvo que precisa existir para conjurar: estar no escuro, atacar alguém marcado por você ou estar perto de água corrente, por exemplo. Registre também seus limites; “perto de água” precisa dizer qual distância e o que conta como água corrente.
+**Devolução: Leve ou Média.** Escreva uma condição de cena ou de alvo que precisa existir para conjurar: estar no escuro, atacar alguém marcado por você ou estar perto de água corrente, por exemplo. Anote também seus limites; “perto de água” precisa dizer qual distância e o que conta como água corrente.
 
 A devolução depende da frequência com que a exigência **impede o uso** nas cenas da campanha. Se impedir em pelo menos metade delas, devolve Média. Nos demais casos em que houver dificuldade real, devolve Leve. Se a condição estiver sempre garantida, não devolve pontos. Confiram essa estimativa nas sessões seguintes.
 
-> **Exemplo: agir antes dos inimigos.** Registre que o feitiço só pode ser usado antes de qualquer inimigo agir na rodada. Ação ou Reação inimiga conta; apenas receber ataque ou fazer um TR não conta. Para uma aplicação adiada, a exigência precisa valer no pagamento e no disparo. Essa limitação não aumenta a CD por si só: use Precisão, se Mira estiver disponível, para comprar esse bônus. Avaliem a devolução pela dificuldade real na campanha; não a concedam apenas por dar um nome à exigência.
+> **Exemplo: agir antes dos inimigos.** Anote que o feitiço só pode ser usado antes de qualquer inimigo agir na rodada. Ação ou Reação inimiga conta; apenas receber ataque ou fazer um TR não conta. Para uma aplicação adiada, a exigência precisa valer no pagamento e no disparo. Essa limitação não aumenta a CD por si só: use Precisão, se Mira estiver disponível, para comprar esse bônus. Avaliem a devolução pela dificuldade real na campanha; não a concedam apenas por dar um nome à exigência.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#restricao-aquecer -->
 <a id="catalogo--restricao-aquecer"></a>
@@ -11480,7 +11480,7 @@ Uma fala audível nas proximidades, como a de Gesto, não equivale automaticamen
 <a id="catalogo--restricao-assinatura"></a>
 #### Assinatura
 
-**Devolução: Leve.** O feitiço deixa uma **marca visível por 1 hora**, que mostra **quem fez o feitiço e onde você está**. Registre na ficha onde a marca aparece e como ela o identifica. A marca não pode ficar deliberadamente escondida na montagem.
+**Devolução: Leve.** O feitiço deixa uma **marca visível por 1 hora**, que mostra **quem fez o feitiço e onde você está**. Anote na ficha onde a marca aparece e como ela o identifica. A marca não pode ficar deliberadamente escondida na montagem.
 
 Ela denuncia a autoria e a sua posição atual. Um efeito que apague ou disfarce sempre essa identificação elimina a dificuldade e sua devolução.
 
@@ -11495,7 +11495,7 @@ Ela denuncia a autoria e a sua posição atual. Um efeito que apague ou disfarce
 | Exigência ou consequência | O que a criatura precisa fazer ou sofrer. |
 | Momento | Quando conferir a exigência ou aplicar o custo. |
 | Duração | Até quando a consequência permanece. |
-| Devolução | Leve ou Média, conforme a dificuldade real. |
+| Devolução | Leve ou Média, de acordo com a dificuldade real. |
 | Compatibilidade | Se repete Selo, Forma, outra Restrição ou algo já obrigatório. |
 
 Use **Média** quando a dificuldade atrapalhar em pelo menos metade das cenas previstas. Nas demais situações com prejuízo real, use **Leve**. Sem uma situação plausível em que atrapalhe, não há devolução. Na dúvida, escolha Leve ou não conceda pontos. Nenhuma Restrição Própria devolve Pesada.
@@ -11504,7 +11504,7 @@ Uma limitação equivalente a Uma Vez, Condicional ou Aquecer entra no grupo de 
 
 Barulho e Assinatura são duas formas de exposição: escolha no máximo uma delas. Recuo, Fraqueza e Peso Morto também não se combinam entre si, pois cobram penalidades do próprio conjurador.
 
-Se a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite. Se repetir o mesmo impedimento, conte a devolução uma vez. Ter duas consequências no mesmo instante não basta para torná-las iguais: Sangra e Barulho, por exemplo, cobram vida e exposição.
+Se a proposta reunir duas dificuldades independentes, anote duas Restrições e respeite o limite. Se repetir o mesmo impedimento, conte a devolução uma vez. Ter duas consequências no mesmo instante não basta para torná-las iguais: Sangra e Barulho, por exemplo, cobram vida e exposição.
 
 Depois de três sessões em que o feitiço tenha sido usado, comparem a dificuldade prevista com o que aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma ficha válida antes do próximo uso.
 
@@ -11616,7 +11616,7 @@ Duas fontes de resistência ao mesmo tipo não dividem o dano duas vezes. Escama
 
 Escolha **um tema presente na Regra da sua técnica**. Seus feitiços desse tema ignoram **cobertura Parcial e resistência ao tipo de dano que causam**.
 
-Registre quais aplicações pertencem ao tema. Afinidade não ignora coberturas **Boa ou Total**, imunidade, Redução de Dano ou uma passagem bloqueada, nem permite escolher um alvo que você não poderia escolher normalmente.
+Anote quais aplicações pertencem ao tema. Afinidade não ignora coberturas **Boa ou Total**, imunidade, Redução de Dano ou uma passagem bloqueada, nem permite escolher um alvo que você não poderia escolher normalmente.
 
 #### Reserva Profunda
 
@@ -11680,7 +11680,7 @@ Revestir uma arma de energia, recompor um ferimento e levantar uma barreira são
 
 #### Treinamento e energia
 
-Quem tem energia amaldiçoada começa com **[Cobrir-se de Energia](#aptidoes--apt-cobrir)**, que fornece proteção e uma Reação para reduzir dano, e **[Canalizar Energia](#aptidoes--apt-canalizar)**, que permite aos golpes físicos ferir maldições e lhes acrescenta dano conforme suas regras. Essas duas aptidões não gastam uma escolha. As demais são adquiridas pela opção Refino dos marcos, salvo regra específica da criação do personagem.
+Quem tem energia amaldiçoada começa com **[Cobrir-se de Energia](#aptidoes--apt-cobrir)**, que fornece proteção e uma Reação para reduzir dano, e **[Canalizar Energia](#aptidoes--apt-canalizar)**, que permite aos golpes físicos ferir maldições e lhes acrescenta dano segundo suas regras. Essas duas aptidões não gastam uma escolha. As demais são adquiridas pela opção Refino dos marcos, salvo regra específica da criação do personagem.
 
 Uma aptidão não ocupa espaço de feitiço conhecido. Aprender uma também não cria um feitiço com o mesmo efeito. Use a ação, o custo, o alcance e a resolução escritos na entrada. Melhorias e Restrições do Fundamento não modificam uma aptidão por conta própria.
 
@@ -11940,13 +11940,13 @@ Ele não exige escolha de aptidão nem PE adicional. Feitiços, inclusive os de 
 
 ##### Dano
 
-Resolva o crítico e os demais valores do golpe. O Kokusen acrescenta **50% ao dano final**. Arredonde o dano recebido para cima, conforme Dano e recuperação. Não dobre outra vez os dados nem aplique novamente resistências e reduções já consideradas.
+Resolva o crítico e os demais valores do golpe. O Kokusen acrescenta **50% ao dano final**. Arredonde o dano recebido para cima, segundo Dano e recuperação. Não dobre outra vez os dados nem aplique novamente resistências e reduções já consideradas.
 
 > **Exemplo.** Depois do crítico e das defesas, um golpe causaria 21. Se ocorrer Kokusen, o dano será **32**: 21 × 1,5 = 31,5, arredondado para cima. Se o golpe já foi reduzido a zero, continua causando zero.
 
 ##### Tentativas seguintes
 
-Cada teste de Kokusen que falhar acrescenta **+2 ao limite dos próximos testes de Kokusen**. Registre esse bônus. Ele só desaparece no descanso longo, inclusive se um Kokusen acontecer antes disso. Não altera a margem de crítico nem o acerto. Um limite de 100 ou mais garante o sucesso no d100.
+Cada teste de Kokusen que falhar acrescenta **+2 ao limite dos próximos testes de Kokusen**. Anote esse bônus. Ele só desaparece no descanso longo, inclusive se um Kokusen acontecer antes disso. Não altera a margem de crítico nem o acerto. Um limite de 100 ou mais garante o sucesso no d100.
 
 ##### Kokusen Melhorado
 
@@ -11964,7 +11964,7 @@ As duas melhorias funcionam juntas. Com Refino 10 e sem bônus acumulado, o limi
 
 Uma **Expansão de Domínio** estabelece a técnica de alguém sobre uma área por vários turnos. Seu **Acerto** é a aplicação produzida ao abrir e durante a permanência; na Expansão completa, é garantido, sem ataque nem TR. O **Efeito** é outra capacidade do domínio, com uso definido na ficha. A montagem está em [Expansão de Domínio](#poderes--degraus). Cesta Oca de Vime, Domínio Simples e Pétala oferecem respostas diferentes a esse perigo. Extensão de Domínio também protege contra ele e possui usos adicionais.
 
-A **manutenção** é o custo para conservar uma proteção ativa. Pague a primeira junto da ativação e as seguintes no começo dos seus turnos, conforme o procedimento abaixo.
+A **manutenção** é o custo para conservar uma proteção ativa. Pague a primeira junto da ativação e as seguintes no começo dos seus turnos, segundo o procedimento abaixo.
 
 | Aptidão | Proteção principal | Manutenção |
 |---|---|---:|
@@ -12021,9 +12021,9 @@ Quando a Cesta termina dentro de uma Expansão que ela impedia, inclusive por en
 <a id="aptidoes--apt-simples"></a>
 #### Domínio Simples
 
-**Requisito: Refino 5, ou Refino 4 com o voto do iniciante. Categoria de Efeito 2.** Você precisa ter visto um Domínio Simples sendo usado ou ter aprendido com alguém. Registre essa origem do aprendizado.
+**Requisito: Refino 5, ou Refino 4 com o voto do iniciante. Categoria de Efeito 2.** Você precisa ter visto um Domínio Simples sendo usado ou ter aprendido com alguém. Anote essa origem do aprendizado.
 
-Você cria uma área ao seu redor que protege quem estiver nela. Ative conforme [Proteção contra domínios](#aptidoes--apt-protecao-dominios) e pague **2 PE de manutenção**.
+Você cria uma área ao seu redor que protege quem estiver nela. Siga o procedimento de [Proteção contra domínios](#aptidoes--apt-protecao-dominios) para ativar a aptidão e pague **2 PE de manutenção**.
 
 ##### Área protegida
 
@@ -12082,7 +12082,7 @@ Um Acerto que alcance várias criaturas protegidas conta uma vez. O total impedi
 
 **Requisitos: Refino 4 e nível 10; ser Descendente ou ter aprendido com alguém de um clã. Categoria de Efeito 2.** Sua energia reage ao contato do Acerto de uma Expansão.
 
-Ative conforme [Proteção contra domínios](#aptidoes--apt-protecao-dominios). A manutenção custa **1 PE**.
+Siga o procedimento de [Proteção contra domínios](#aptidoes--apt-protecao-dominios) para ativar a aptidão. A manutenção custa **1 PE**.
 
 ##### Acerto por contato
 
@@ -12114,9 +12114,9 @@ Resolva primeiro o golpe recebido. Se Pétala estava ativa quando ele acertou, u
 <a id="aptidoes--apt-extensao"></a>
 #### Extensão de Domínio
 
-**Requisitos: Refino 7 e nível 18. Categoria de Efeito 3.** Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. **Corpo Amaldiçoado não pode adquirir esta aptidão.**
+**Requisitos: Refino 7 e nível 18. Categoria de Efeito 3.** Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Anote isso na ficha. **Corpo Amaldiçoado não pode adquirir esta aptidão.**
 
-Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme [Proteção contra domínios](#aptidoes--apt-protecao-dominios). A manutenção custa **1,5 × sua maior Classe em PE, arredondado para cima**.
+Você se envolve em uma camada de domínio que neutraliza técnicas. Siga o procedimento de [Proteção contra domínios](#aptidoes--apt-protecao-dominios) para ativar a aptidão. A manutenção custa **1,5 × sua maior Classe em PE, arredondado para cima**.
 
 ##### Duração e custo
 
@@ -12175,7 +12175,7 @@ A exceção de passagem da **rota sem energia** vale para estas duas barreiras. 
 
 **Requisito: Barreira Simples.** Você delimita uma área para esconder seu interior de pessoas que não são feiticeiras e controlar a passagem por suas bordas.
 
-A preparação segue [Barreira Simples](#aptidoes--apt-barreira): **1 minuto**, sem custo em PE. Antes de começar, registre o lugar e suas bordas: um prédio, uma escola, uma quadra ou outro local contínuo. **Ao concluir, a distância de você até o ponto mais distante da borda não pode ultrapassar o teto do seu Refino.** O lugar e as bordas continuam definidos pela descrição; a medida limita a Cortina inteira, não cada trecho isolado.
+A preparação segue [Barreira Simples](#aptidoes--apt-barreira): **1 minuto**, sem custo em PE. Antes de começar, anote o lugar e suas bordas: um prédio, uma escola, uma quadra ou outro local contínuo. **Ao concluir, a distância de você até o ponto mais distante da borda não pode ultrapassar o teto do seu Refino.** O lugar e as bordas continuam definidos pela descrição; a medida limita a Cortina inteira, não cada trecho isolado.
 
 | Refino | O que cobre | De você até o ponto mais distante da borda |
 |---|---|---|
@@ -12250,11 +12250,11 @@ Sua Origem indica as rotas disponíveis. Confira essa escolha em [Origens](#orig
 
 Use esta sequência depois de escolher sua rota. Consulte [Montar sua aplicação](#fundamento--fundamento) para as tabelas e as regras de cada escolha.
 
-1. **Defina o funcionamento.** Na seção da rota, escolha a semente ou o equipamento e escreva a Descrição e a Regra. Registre também atributo, Selo e Expressão da técnica conforme aquela rota.
+1. **Defina o funcionamento.** Na seção da rota, escolha a semente ou o equipamento e escreva a Descrição e a Regra. Anote também atributo, Selo e Expressão da técnica seguindo as regras daquela rota.
 2. **Escolha as Famílias.** Use as mesmas escolhas de Famílias Livres e Fechadas de Fundamento. A Regra e os requisitos da rota também limitam as funções que você pode montar.
 3. **Escolha a função e a Forma de cada aplicação.** Decida se aquele Manejo ou Kata causa dano, cura, protege ou produz outro efeito permitido. Escolha como alcança os alvos. Uma mescla registra suas funções e a distribuição dos pontos na ficha.
 4. **Monte na Classe disponível.** Use a mesma tabela de pontos e PE, compre as Melhorias e escolha Restrições compatíveis. Aplique os descontos, devoluções e limites normais.
-5. **Registre e resolva.** Anote ação, alcance, alvos, ataque ou TR, resultado e duração. Coloque a aplicação no seu repertório. Ao usá-la, cumpra o Selo e pague os custos dessa ficha.
+5. **Anote e resolva.** Inclua ação, alcance, alvos, ataque ou TR, resultado e duração. Coloque a aplicação no seu repertório. Ao usá-la, cumpra o Selo e pague os custos dessa ficha.
 
 Quando uma regra mencionar **feitiço**, ela também alcança Manejos e Katas, salvo uma exceção expressa. Seus limites de conjuração, condições e demais procedimentos seguem as regras comuns. A tabela mostra os nomes usados por cada rota.
 
@@ -12282,11 +12282,11 @@ Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma 
 
 1. Escolha **armas ou ferramenta como base do estilo**. Essa escolha é permanente. As seções seguintes definem o equipamento recebido e o atributo das Katas.
 2. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** do estilo, considerando o equipamento escolhido. Use os critérios de Fundamento.
-3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
+3. Anote o equipamento que permite executar suas Katas e o atributo utilizado.
 4. Escolha suas Famílias Livres e Fechadas.
 5. Monte cada Kata por [Como montar Manejos e Katas](#rotas-link-montagem). Seu repertório usa os mesmos espaços de feitiço conhecido de Fundamento; Talentos e entidades também ocupam esses espaços.
 
-O **equipamento em uso é seu Selo**. Você precisa empunhar uma arma apropriada ou utilizar a ferramenta escolhida para executar cada Kata. O equipamento deve estar disponível e funcionar conforme sua descrição.
+O **equipamento em uso é seu Selo**. Você precisa empunhar uma arma apropriada ou utilizar a ferramenta escolhida para executar cada Kata. O equipamento deve estar disponível e funcionar como diz sua descrição.
 
 Katas têm os mesmos custos e limites dos feitiços. Seus dados vêm da montagem. **O dado da arma não se soma ao dano da Kata.** Um ataque comum com essa arma usa as regras de equipamento.
 
@@ -12304,7 +12304,7 @@ Esta rota não concede **Expansão de Domínio**, incompleta ou completa, nem **
 
 Ao escolher esta rota, selecione **três categorias de armas diferentes** entre as categorias de Equipamento. Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.
 
-**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem [Equipamento restrito](#equip--eqc-dinheiro): Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme [Munição inicial](#equip--eqm-municao).
+**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem [Equipamento restrito](#equip--eqc-dinheiro): Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, segundo [Munição inicial](#equip--eqm-municao).
 
 Você pode executar suas Katas com qualquer **arma amaldiçoada de uma dessas categorias**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamento amaldiçoado**.
 
@@ -12331,17 +12331,17 @@ Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aum
 <a id="rotas--rota-ferramenta"></a>
 ##### Ferramenta
 
-Você recebe **uma ferramenta amaldiçoada de grau 4**, criada com o mestre. Pode ser uma armadura, uma câmera, um instrumento ou outro objeto de apoio. Registre seu funcionamento, como é utilizado e qual atributo explica seu controle.
+Você recebe **uma ferramenta amaldiçoada de grau 4**, criada com o mestre. Pode ser uma armadura, uma câmera, um instrumento ou outro objeto de apoio. Anote seu funcionamento, como é utilizado e qual atributo explica seu controle.
 
 Escolha **um dos cinco atributos** para os ataques e a CD de suas Katas. Uma armadura de engenharia pode usar Inteligência. Um instrumento pode depender de Essência. A escolha deve acompanhar a Descrição da ferramenta e permanece na ficha.
 
 Somente essa ferramenta cumpre o Selo de suas Katas. Ela não possui um dado de arma adicional. Caso seja representada por uma arma do catálogo, use os números daquela arma nos ataques comuns, sem acrescentar um segundo dano por ela também ser sua ferramenta.
 
-Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
+Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, segundo Equipamento.
 
 ##### Ataques comuns
 
-Na criação, registre se seus ataques desarmados passam pelo objeto. Uma manopla, armadura, máscara ou bota pode permitir isso. Uma câmera, lanterna ou maleta apenas carregada não faz o mesmo.
+Na criação, anote se seus ataques desarmados passam pelo objeto. Uma manopla, armadura, máscara ou bota pode permitir isso. Uma câmera, lanterna ou maleta apenas carregada não faz o mesmo.
 
 Esse registro decide se o equipamento permite ao seu **ataque desarmado ferir maldições**. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.
 
@@ -12431,7 +12431,7 @@ Iori escolhe **Toque + Prende**, de Classe 1. Prende é Média e custa 1 ponto n
 
 **Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR.
 
-Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, segundo o Catálogo.
 
 #### Repertório
 
@@ -12505,7 +12505,7 @@ Escolha Sem Técnica entre as opções permitidas por **Origens**. A opção nã
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
 3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 4. Escolha suas Famílias Livres e Fechadas.
-5. Monte cada Manejo por [Como montar Manejos e Katas](#rotas-link-montagem): escolha funções e Forma, pague a montagem da Classe e registre a ficha. Seu repertório usa os espaços de feitiço conhecido de Fundamento.
+5. Monte cada Manejo por [Como montar Manejos e Katas](#rotas-link-montagem): escolha funções e Forma, pague a montagem da Classe e preencha a ficha. Seu repertório usa os espaços de feitiço conhecido de Fundamento.
 
 A **Regra** define como você desenvolveu o funcionamento da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
 
@@ -12527,7 +12527,7 @@ Escolha **uma** das quatro opções abaixo. A semente define de onde vêm seus M
 
 ##### Domínio Simples
 
-Você aprende a estabelecer um domínio ao seu redor. A aptidão protege conforme suas regras contra os efeitos de uma Expansão. Seus Manejos podem desenvolver controle do espaço próximo, defesa e intervenções dentro dos limites que a Regra definir.
+Você aprende a estabelecer um domínio ao seu redor. A aptidão protege contra os efeitos de uma Expansão dentro do que suas regras permitem. Seus Manejos podem desenvolver controle do espaço próximo, defesa e intervenções dentro dos limites que a Regra definir.
 
 Antes de usar a semente, confira [Voto do iniciante](#aptidoes--apt-simples), na entrada de Domínio Simples em Aptidões e Refino. A aquisição antecipada desta rota conserva esse requisito, além da duração, da área e dos testes da aptidão.
 
@@ -12565,7 +12565,7 @@ Acrescente o bônus uma vez ao total, não a cada dado. Ele vale tanto para a ap
 
 Um **Manejo com a função de cura direta** pode recuperar a vida de um aliado disposto a até 9 m, quando a Forma escolhida e sua Classe permitirem essa distância. Você precisa ter Amparo disponível e descrever uma cura coerente com a semente. Isso ocupa um espaço de Manejo e paga seu custo de conjuração.
 
-Energia Reversa e curas construídas a partir dela **não curam Corpo Amaldiçoado**, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher a função de cura não muda o material ou o tipo de corpo que a Regra consegue tratar.
+Energia Reversa e curas construídas a partir dela **não curam Corpo Amaldiçoado**, como explica essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher a função de cura não muda o material ou o tipo de corpo que a Regra consegue tratar.
 
 ##### Energia positiva contra maldições
 
@@ -12626,7 +12626,7 @@ Caio escolhe cura direta e a Forma **Projétil**, Classe 1, sem Melhorias ou Res
 
 Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em outras pessoas: usa a função de cura com seus próprios custos e sua Forma registrada. Um Corpo Amaldiçoado continua incompatível com essa energia.
 
-O exemplo pode ser usado para socorrer alguém conforme [Socorro](#dano--socorro), em Dano e recuperação. Fechar ferimento não remove condições, não recupera Integridade nem ressuscita por si só. Esses resultados precisam de regras específicas.
+O exemplo pode ser usado para socorrer alguém segundo [Socorro](#dano--socorro), em Dano e recuperação. Fechar ferimento não remove condições, não recupera Integridade nem ressuscita por si só. Esses resultados precisam de regras específicas.
 
 #### Desenvolvimento
 
@@ -12740,7 +12740,7 @@ Criar um Talento ou uma Bênção na mesa não permite receber uma entrada indis
 <a id="rotas--rota-defesa"></a>
 #### Defesa sem Armadura
 
-**Bênção gratuita, Lapidação 1.** Enquanto não usar Traje nem Revestimento, você recebe **proteção igual a um terço da Lapidação, arredondado para baixo, +1**. Um escudo pode ser somado conforme suas regras.
+**Bênção gratuita, Lapidação 1.** Enquanto não usar Traje nem Revestimento, você recebe **proteção igual a um terço da Lapidação, arredondado para baixo, +1**. Um escudo pode ser somado quando suas regras permitirem.
 
 | Lapidação | 1–2 | 3–5 | 6–8 | 9–10 |
 |---|---|---|---|---|
@@ -12760,7 +12760,7 @@ Essas permissões vêm da ausência de energia e permanecem quando você usa um 
 
 ##### Equipamento amaldiçoado
 
-Seus itens ainda emitem energia. Uma Barreira Simples ou Cortina pode detectá-los ou impedir sua passagem, conforme seu funcionamento. O corpo passar não transporta automaticamente um item bloqueado.
+Seus itens ainda emitem energia. Uma Barreira Simples ou Cortina pode detectá-los ou impedir sua passagem, de acordo com seu funcionamento. O corpo passar não transporta automaticamente um item bloqueado.
 
 Contra o Acerto garantido, carregar um item amaldiçoado não transforma seu corpo num alvo com energia pessoal. Efeitos que atinjam objetos ou o ambiente conservam o alcance que suas próprias regras definem. A permissão de passagem vale para as regras nomeadas acima. Ela não permite atravessar uma parede material, um Anteparo ou qualquer obstáculo apenas por você não possuir energia. Também não concede imunidade geral aos efeitos de um domínio.
 
@@ -12792,7 +12792,7 @@ Uma manobra que substitui um ataque sem causar dano não recebe o adicional. Emp
 
 > **Exemplo:** com Lapidação 6, um golpe desarmado recebe 3d4 adicionais. Uma Kata lançada em seguida usa somente seus próprios dados. Se o personagem fizer outro ataque comum, ele volta a receber 3d4.
 
-Estímulo Muscular não concede energia amaldiçoada. Para ferir uma maldição com o golpe, você ainda precisa de uma arma amaldiçoada ou da ferramenta que transmita o ataque, conforme sua Técnica Marcial.
+Estímulo Muscular não concede energia amaldiçoada. Para ferir uma maldição com o golpe, você ainda precisa de uma arma amaldiçoada ou da ferramenta que transmita o ataque, segundo sua Técnica Marcial.
 
 <!-- fonte:rotas/lote-01/ROTAS.md#rota-corpo -->
 <a id="rotas--rota-corpo"></a>
@@ -12836,7 +12836,7 @@ Ter Exaustão 1 elimina suas consequências enquanto a Bênção estiver ativa. 
 <a id="rotas--rota-perseguicao"></a>
 #### Bênçãos de perseguição
 
-Sentidos apurados podem revelar marcas de passagem e mudanças no ambiente. Essas Bênçãos descrevem as informações disponíveis. Quando a cena exigir localizar, interpretar ou seguir uma pista difícil, use a perícia apropriada conforme [Perícias e Ofícios](#pericias--pericias).
+Sentidos apurados podem revelar marcas de passagem e mudanças no ambiente. Essas Bênçãos descrevem as informações disponíveis. Quando a cena exigir localizar, interpretar ou seguir uma pista difícil, use a perícia apropriada seguindo [Perícias e Ofícios](#pericias--pericias).
 
 ##### Faro
 
@@ -12874,7 +12874,7 @@ Com Lapidação 4 ou 5, o alcance é 3 m. Com Lapidação 10, é 7,5 m. Fora des
 
 Ao adquirir a Bênção, escolha **um TR: Físico, Vigor, Intelecto ou Espírito**. O menor resultado do d20 nesse TR passa a ser sua **Lapidação, limitada ao atributo do TR +2**.
 
-No Físico, use Força ou Destreza conforme a escolha fixa da sua ficha. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência. Some os modificadores normais depois de aplicar o piso. O piso não modifica o número de fato rolado para uma regra que exija um resultado natural.
+No Físico, use Força ou Destreza de acordo com a escolha fixa anotada na ficha. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência. Some os modificadores normais depois de aplicar o piso. O piso não modifica o número de fato rolado para uma regra que exija um resultado natural.
 
 Com Lapidação 7 e atributo 4, o piso é **6**. Com Lapidação 10 e atributo 6, é **8**. Um resultado maior permanece como foi rolado.
 
@@ -12928,7 +12928,7 @@ Essência entra uma única vez na CD. O requisito de acesso não acrescenta um s
 
 Você pode desenvolver **uma Bênção Própria por personagem**, de Categoria de Efeito 1 ou 2. Crie-a com o mestre antes da sessão e adquira-a por uma escolha de Bênção, respeitando a Lapidação mínima da Categoria de Efeito.
 
-Escreva primeiro uma frase que diga o que o corpo consegue fazer. Depois, registre gatilho, alcance, duração e limites necessários. A mesa deve conseguir decidir quando o efeito aconteceu sem discutir novamente a proposta a cada uso.
+Escreva primeiro uma frase que diga o que o corpo consegue fazer. Depois, anote gatilho, alcance, duração e limites necessários. A mesa deve conseguir decidir quando o efeito aconteceu sem discutir novamente a proposta a cada uso.
 
 ##### Limites
 
@@ -12973,7 +12973,7 @@ A Incompleta não fecha uma barreira. A Completa fecha. Quem adquiriu Sem Barrei
 
 #### Registro
 
-Anote o degrau, a Regra da técnica, o **Acerto**, quando houver, e o **Efeito** do domínio. Registre também o tipo de dano, quando houver, os alvos, a resolução da Incompleta e qualquer limite necessário para executar essas duas capacidades.
+Anote o degrau, a Regra da técnica, o **Acerto**, quando houver, e o **Efeito** do domínio. Inclua também o tipo de dano, quando houver, os alvos, a resolução da Incompleta e qualquer limite necessário para executar essas duas capacidades.
 
 > **Exemplo.** Yuri alcança o nível 14 com refino 5 e uma Incompleta. Ela reserva mais um espaço conhecido para completar seu domínio. Passa de dois para três espaços ocupados, sem pagar os três novamente.
 
@@ -13007,7 +13007,7 @@ Antes de registrar, mestre e jogador conferem se outra mesa conseguiria executar
 <a id="poderes--acerto"></a>
 ### Acerto do domínio
 
-Monte o Acerto de dano como um feitiço pela régua de [Inescapável](#catalogo--melhoria-inescapavel), a Melhoria de dano automático: são **3 × sua maior Classe em pontos**, menos o preço Médio dessa Melhoria. Cada ponto restante vira 1d8 em cada criatura afetada. Registre um tipo de dano compatível com a técnica. O desconto de Família Livre vale normalmente. Use sua **maior Classe**, a Classe máxima permitida pelo seu nível, mesmo sem conhecer um feitiço dela. O Acerto é o feitiço inteiro e não aceita outra peça.
+Monte o Acerto de dano como um feitiço pela régua de [Inescapável](#catalogo--melhoria-inescapavel), a Melhoria de dano automático: são **3 × sua maior Classe em pontos**, menos o preço Médio dessa Melhoria. Cada ponto restante vira 1d8 em cada criatura afetada. Anote um tipo de dano compatível com a técnica. O desconto de Família Livre vale normalmente. Use sua **maior Classe**, a Classe máxima permitida pelo seu nível, mesmo sem conhecer um feitiço dela. O Acerto é o feitiço inteiro e não aceita outra peça.
 
 Por padrão, esse Acerto afeta as criaturas com energia amaldiçoada na área, **exceto você**. Aliados não são poupados automaticamente. Poupar alguém só é possível se o Efeito do domínio disser como fazê-lo. Objetos e criaturas sem energia só podem ser atingidos quando a ficha registrar uma aplicação da técnica capaz de alcançá-los; essa permissão não altera a quantidade de dados.
 
@@ -13123,7 +13123,7 @@ Não há uma parede prendendo os ocupantes. Eles podem sair pelo movimento norma
 
 Mover-se não carrega a área. O dono pode procurar abrigo ou perseguir alguém, mas o centro permanece no lugar. O Acerto só afeta quem estiver na área no momento em que se aplica. Entrar ou sair entre essas aplicações não cria um Acerto adicional por si só. Uma regra contínua de ambiente volta a valer quando a criatura retorna à área. Na Incompleta, a regra de ambiente é resistida pelo TR registrado na ficha.
 
-Um Acerto que estabeleça uma regra contínua de ambiente mantém essa regra na área enquanto estiver ativo; não é necessário repetir sua ativação toda vez que alguém entrar. A Incompleta resolve seu Acerto por rolagem, conforme a ficha.
+Um Acerto que estabeleça uma regra contínua de ambiente mantém essa regra na área enquanto estiver ativo; não é necessário repetir sua ativação toda vez que alguém entrar. A Incompleta resolve seu Acerto pela rolagem indicada na ficha.
 
 A ficha precisa distinguir criaturas, objetos e ausência de energia. Abrir sem barreira não transforma toda técnica em uma capacidade que corta paredes ou alcança alguém sem energia amaldiçoada.
 
@@ -13408,7 +13408,7 @@ Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque,
 
 **Energia:** aplique descontos fixos antes das reduções à metade, com custo positivo mínimo de 1 PE. Benefícios repetidos de Defesa não se somam entre si.
 
-> **Uma escolha de Ritual.** Kaito prepara um Ritual breve para um Projétil com alcance de 18 m. Seus 2 Pontos de Ritual compram Ritual de Alcance uma vez. No sucesso do teste de Ritual, o alcance passa a 36 m naquela conjuração, conforme a escada de Fundamento. O feitiço continua com a mesma ficha de montagem.
+> **Uma escolha de Ritual.** Kaito prepara um Ritual breve para um Projétil com alcance de 18 m. Seus 2 Pontos de Ritual compram Ritual de Alcance uma vez. No sucesso do teste de Ritual, o alcance passa a 36 m naquela conjuração, segundo a escada de Fundamento. O feitiço continua com a mesma ficha de montagem.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#rit-beneficios -->
 <a id="ritual--rit-beneficios"></a>
@@ -13470,7 +13470,7 @@ O Ritual não permite receber pontos por um preço que a própria conjuração d
 | Combinação | Resolução |
 |---|---|
 | Meio Acerto e Sem Volta | Não combine. O dano no erro elimina o risco cobrado por Sem Volta. |
-| Alcance e Queima-Roupa | Não combine. Toque conserva seu alcance; Queima-Roupa conserva o limite dos alvos de Projétil ou a origem da área, conforme sua entrada. |
+| Alcance e Queima-Roupa | Não combine. Toque conserva seu alcance; Queima-Roupa conserva o limite dos alvos de Projétil ou a origem da área, segundo sua entrada. |
 | Perseguição e Perseguir | Uma única permissão para acompanhar o alvo. Perseguir segue teleporte dentro da cena, desde que o alvo não termine atrás de cobertura. Não contorna obstáculos, não ignora cobertura nem dispensa visão. |
 | Ritual e Inescapável | Não combine. Inescapável conserva a aplicação automática restrita da própria ficha. |
 | Ritual e Rápido ou Reação | O Ritual exige uma das ações deste capítulo. Não conserve o uso como Bônus ou Reação. |
@@ -13557,7 +13557,7 @@ Promessa pequena, ganho pequeno; quem arrisca a vida pode pedir um ganho enorme.
 <a id="ritual--pacto-permanente"></a>
 #### Pacto permanente
 
-Você pode manter **metade da Essência em pactos**, arredondada para baixo, contando **permanentes e pactos de restrição**. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1. Com Essência 0 ou 1, você tem zero vagas. A exceção para um pacto de restrição depende da permissão do mestre, conforme [Pactos na criação](#ritual--pacto-restricao).
+Você pode manter **metade da Essência em pactos**, arredondada para baixo, contando **permanentes e pactos de restrição**. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1. Com Essência 0 ou 1, você tem zero vagas. A exceção para um pacto de restrição depende da permissão do mestre, segundo [Pactos na criação](#ritual--pacto-restricao).
 
 | Essência | Vagas de pacto |
 |---|---:|
@@ -13570,7 +13570,7 @@ Cada pacto permanente ou pacto de restrição ocupa uma vaga **enquanto existir*
 
 ##### Benefícios
 
-O pacto concede **uma mecânica única, decidida com o mestre**. Pode modificar o funcionamento de um feitiço, da energia, de uma aptidão ou de um Estilo. Registre a regra completa: o benefício muda como essa capacidade funciona, sem acrescentar diretamente um valor numérico.
+O pacto concede **uma mecânica única, decidida com o mestre**. Pode modificar o funcionamento de um feitiço, da energia, de uma aptidão ou de um Estilo. Anote a regra completa: o benefício muda como essa capacidade funciona, sem acrescentar diretamente um valor numérico.
 
 **Pacto não concede Estilo.** Pode modificar um Estilo, como modifica um feitiço. A mecânica é escrita e decidida com o mestre.
 
@@ -13602,7 +13602,7 @@ Quando o preço for revelar informação, ela precisa ser nova, relevante e comp
 
 ##### Preparação fora de combate
 
-Você pode discutir modelos de pacto com o mestre antes da sessão. Registre gatilho, perda e ganho esperados. Quando a situação acontecer, o mestre confere se o preço ainda tem o mesmo valor. Isso reduz a negociação no meio do turno sem conceder aprovação automática a qualquer circunstância.
+Você pode discutir modelos de pacto com o mestre antes da sessão. Anote gatilho, perda e ganho esperados. Quando a situação acontecer, o mestre confere se o preço ainda tem o mesmo valor. Isso reduz a negociação no meio do turno sem conceder aprovação automática a qualquer circunstância.
 
 > **Exemplo.** Mei quer manter uma passagem aberta para retirar uma pessoa ferida. Propõe perder o uso da técnica pelo restante da missão em troca de prolongar aquela aplicação até a travessia terminar. O acordo precisa definir o limite de tempo e impedir uma recuperação imediata que apagaria o preço. Ele não prolonga todos os feitiços de Mei.
 
@@ -13790,7 +13790,7 @@ O Movimento só se renova quando a entidade começa seu turno em campo. Ficar v�
 
 **No seu turno e consciente, use uma Ação Bônus para manifestar, trocar ou recolher uma entidade.** Cada entrada também custa PE. Recolher não custa PE. Fora de combate, essas entradas e saídas dispensam a ação, mas conservam os custos em energia.
 
-Corpos amaldiçoados permanecem no mundo e usam ativação e desativação, conforme [Corpos amaldiçoados](#campo--inv-corpos).
+Corpos amaldiçoados permanecem no mundo e usam ativação e desativação, segundo [Corpos amaldiçoados](#campo--inv-corpos).
 
 O custo normal de entrada é a **maior Classe permitida pelo nível da entidade**. Consulte [Progressão da entidade](#construcao--entidades-progressao). Uma entidade de nível 5 custa 2 PE para entrar; uma de nível 10 custa 3 PE. O nível do invocador não aumenta essa cobrança.
 
@@ -13834,7 +13834,7 @@ A entidade escolhe meios compatíveis com sua ficha e com a tarefa. Ao proteger 
 
 “Faça o melhor” ou “vença a luta” não indica um objetivo suficiente. Um obstáculo temporário não apaga a tarefa: a entidade pode procurar outra rota. Se o objetivo foi concluído ou deixou de existir, ela não escolhe automaticamente uma nova missão.
 
-Sem tarefa executável, a entidade cuida da própria segurança. Pode sair de perigo imediato e usar a básica para Esquivar. Não começa uma perseguição, não protege outro personagem nem escolhe uma especial por conta própria. Reações conhecidas e comandos anteriores ainda podem funcionar conforme seus requisitos.
+Sem tarefa executável, a entidade cuida da própria segurança. Pode sair de perigo imediato e usar a básica para Esquivar. Não começa uma perseguição, não protege outro personagem nem escolhe uma especial por conta própria. Reações conhecidas e comandos anteriores ainda podem funcionar se cumprirem seus requisitos.
 
 Mudar de alvo por um sinal tático também é uma nova orientação. Apenas avisar que o chão está quebrado não muda necessariamente a tarefa; avalie o conteúdo da mensagem.
 
@@ -14104,7 +14104,7 @@ A carga adianta parte do preço da próxima entrada. Na entrada comum, pague met
 <a id="campo--inv-corpos"></a>
 ### Corpos amaldiçoados
 
-Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a **Desligada**: deixam de agir e o corpo é tratado como objeto no campo, conforme [Retorno e corpos caídos](#campo--inv-retorno). Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.
+Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a **Desligada**: deixam de agir e o corpo é tratado como objeto no campo, segundo [Retorno e corpos caídos](#campo--inv-retorno). Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.
 
 Você pode manter um **total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas**. Essa escolha é Essência ou Inteligência do invocador, fixada em [Vida e Defesa](#construcao--entidades-vida-defesa). Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.
 
@@ -14146,7 +14146,7 @@ O dono ou outra pessoa pode realizar o reparo. Sucesso recupera a parte indicada
 
 > **Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.
 
-Na Origem Corpo Amaldiçoado, o ofício compatível do personagem é escolhido na criação e fica registrado na ficha. A capacidade **Manutenção Precisa** permite uma repetição diária do teste falho durante descanso curto, na mesma tentativa e sem cura dupla. **Reparo Autônomo** conserva sua Ação Padrão, frequência diária e recuperação de 30%, conforme a Origem; não consome a tentativa de uma pausa futura.
+Na Origem Corpo Amaldiçoado, o ofício compatível do personagem é escolhido na criação e fica registrado na ficha. A capacidade **Manutenção Precisa** permite uma repetição diária do teste falho durante descanso curto, na mesma tentativa e sem cura dupla. **Reparo Autônomo** conserva sua Ação Padrão, frequência diária e recuperação de 30%, segundo a Origem; não consome a tentativa de uma pausa futura.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-liberacao -->
 <a id="campo--inv-liberacao"></a>
@@ -14180,7 +14180,7 @@ A Técnica Máxima conserva o procedimento, as Formas e as incompatibilidades de
 | 21 a 25 | 22d8 | 12 | 30 PE |
 | 26 a 30 | 26d8 | 16 | 35 PE |
 
-Os pontos pagam Forma e Melhorias, sem comprar dados adicionais. Não aceita Restrições. Sobras de pontos se perdem. Use os limites de peças e de dano da Técnica Máxima; uma ficha com peças proibidas de repetição ou multiplicação de dados não se torna permitida por pertencer a uma invocação. Quebra Coisa é permitida, conforme o Fundamento.
+Os pontos pagam Forma e Melhorias, sem comprar dados adicionais. Não aceita Restrições. Sobras de pontos se perdem. Use os limites de peças e de dano da Técnica Máxima; uma ficha com peças proibidas de repetição ou multiplicação de dados não se torna permitida por pertencer a uma invocação. Quebra Coisa é permitida, segundo o Fundamento.
 
 Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE como numa especial. A aplicação pode ser usada **uma vez por cena**. O mestre pode permitir outro uso depois de **3 rodadas**, sem contar a rodada do uso. Sair e voltar não renova esse uso nem apaga essa espera.
 
@@ -14254,13 +14254,13 @@ Religar usa o retorno: dobro do PE da entrada, Bônus e metade da vida, onde o c
 
 Efeitos já aplicados que independam de posição continuam resolvendo dano, benefícios e testes de recuperação. Use o começo e o fim do seu turno, sem criar ocorrências adicionais por sair e voltar. Resolver esses efeitos não consome básica, Movimento ou coletiva por si; mantenha custos que estejam expressos na aplicação.
 
-Uma entidade recolhida não ocupa um espaço no combate, nem o espaço do invocador. Não recebe um efeito que exija estar numa área ou junto de uma fonte. Também não projeta uma aura que dependa de presença. Uma área independente já criada pode continuar conforme seu próprio texto.
+Uma entidade recolhida não ocupa um espaço no combate, nem o espaço do invocador. Não recebe um efeito que exija estar numa área ou junto de uma fonte. Também não projeta uma aura que dependa de presença. Uma área independente já criada pode continuar quando seu próprio texto permitir.
 
 Na volta, confira os requisitos a partir do espaço de entrada. Usos não se renovam, durações não recomeçam e gatilhos de entrada e saída só acontecem quando estiverem escritos na capacidade.
 
 > **Exemplo.** A ave sofreu um dano que se repete no fim do turno, sem depender da posição. Kaito a recolhe, mas resolve a repetição no momento previsto. Uma área que ela havia criado pode permanecer; a aura que precisava acompanhar o corpo deixa de alcançar outras criaturas. Se voltar ainda sob a condição, conserva o prazo que restava.
 
-O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
+O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. Anote vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-inconsciente -->
 <a id="campo--inv-inconsciente"></a>
@@ -14290,7 +14290,7 @@ Confira o pagamento integral no momento devido. Se as duas fontes juntas não ba
 
 Tente pagar novamente no próximo momento normal de manutenção. Recuperar PE entre duas cobranças não religa o efeito imediatamente nem antecipa a cobrança. Uma capacidade que estabeleça outro resultado para a falta de pagamento conserva sua regra específica.
 
-Registre na montagem o custo, a frequência e se o talento pode ser desligado. Essa indicação resolve quais efeitos cessam com a inconsciência e quais continuam tentando pagar.
+Anote na montagem o custo, a frequência e se o talento pode ser desligado. Essa indicação resolve quais efeitos cessam com a inconsciência e quais continuam tentando pagar.
 
 > **Exemplo.** O talento exige 3 PE no começo do turno. A reserva tem 2 e Kaito tem 4: pague 2 da reserva e 1 dele. Na cobrança seguinte, ambos possuem apenas 1 PE ao todo. Não gaste esse ponto; suspenda o efeito. Mesmo que Kaito recupere energia logo depois, a próxima tentativa de pagamento acontece no começo do turno seguinte. Não há cobrança dos turnos perdidos.
 
@@ -14320,7 +14320,7 @@ Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inc
 
 Uma entidade carrega o que suas mãos permitem segurar. Sem mãos, não recebe essa possibilidade por padrão. Vestir equipamento exige compatibilidade com o corpo e com os demais requisitos do item; a falta de Força impõe as penalidades de Proteção.
 
-Uma entidade segue as regras gerais de [Carga](#geral--carga), com limite normal de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem na capacidade desse talento, de **5 + Força**. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
+Uma entidade segue as regras gerais de [Carga](#geral--carga), com limite normal de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem na capacidade desse talento, de **5 + Força**. Para passageiros, anote quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
 
 Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, seguindo as regras gerais de Carga.
 
@@ -14343,11 +14343,11 @@ Comece pelo trabalho que a entidade terá na equipe. Ela pode lutar, investigar,
 
 Antes das escolhas, confira os termos usados no roteiro. **Famílias** agrupam os efeitos e as Melhorias disponíveis à entidade. Uma Família **aberta** permite os acessos descritos em suas regras; a escolhida como **Livre** também concede o desconto próprio das entidades. As demais ficam Fechadas. O [quadro de Famílias da entidade](#construcao--entidades-familias) apresenta os nove grupos e o desconto da Família Livre.
 
-A **capacidade básica** é uma habilidade de Classe 0, sem custo de PE. Em campo, ela usa a **atuação básica**, recurso gasto para agir. Uma **especial** é uma capacidade montada para execução por comando. **Talentos** são benefícios adquiridos pela progressão própria da entidade. Em campo, o comando comum de uma especial usa a Padrão do invocador e a atuação básica da entidade, conforme [Invocações em campo](#campo--inv-especial).
+A **capacidade básica** é uma habilidade de Classe 0, sem custo de PE. Em campo, ela usa a **atuação básica**, recurso gasto para agir. Uma **especial** é uma capacidade montada para execução por comando. **Talentos** são benefícios adquiridos pela progressão própria da entidade. Em campo, o comando comum de uma especial usa a Padrão do invocador e a atuação básica da entidade, segundo [Invocações em campo](#campo--inv-especial).
 
 #### Etapas da ficha
 
-1. **Aquisição e tipo.** Registre como a entidade foi obtida, sua origem, seu corpo e seu nível.
+1. **Aquisição e tipo.** Anote como a entidade foi obtida, sua origem, seu corpo e seu nível.
 2. **Definição.** Descreva o que ela é e o que seu corpo permite fazer.
 3. **Atributos.** Distribua os pontos e calcule acerto, CD, Defesa e vida.
 4. **Famílias.** Escolha três abertas e marque uma delas como Livre.
@@ -14451,7 +14451,7 @@ No nível 6, Kaito aumenta a Constituição do cão de 2 para 3. A vida inteira 
 
 ##### Lista de ritual
 
-A técnica pode possuir **um feitiço com uma lista própria de entidades**. Registre esse feitiço em um espaço conhecido. A lista e o procedimento de submissão fazem parte de sua ficha e são definidos com o mestre antes do uso.
+A técnica pode possuir **um feitiço com uma lista própria de entidades**. Anote esse feitiço em um espaço conhecido. A lista e o procedimento de submissão fazem parte de sua ficha e são definidos com o mestre antes do uso.
 
 Cada entrada precisa indicar a entidade, sua ficha, o desafio que libera seu uso e como o ritual começa e termina. **Você enfrenta esse desafio sozinho.** Ajuda de outra criatura não vale como uma vitória individual. O resultado do desafio precisa estar previsto na ficha do ritual.
 
@@ -14461,9 +14461,9 @@ Este ritual de submissão é parte da aquisição. Os **Pontos de Ritual**, usad
 
 ##### Criação
 
-Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos usam o ofício compatível registrado na ficha, conforme [Criação de entidades](#fabricacao--fab-entidades). O mestre decide quando podem ser criados e o custo em tempo e materiais.
+Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos usam o ofício compatível registrado na ficha, segundo [Criação de entidades](#fabricacao--fab-entidades). O mestre decide quando podem ser criados e o custo em tempo e materiais.
 
-Registre a Classe e a ficha da entidade. Ela acompanha o nível do invocador até o último nível da sua Classe; passar à Classe seguinte exige reconstruí-la. O reparo de um corpo existente segue [Cura e reparo](#campo--inv-reparo), em Invocações em campo.
+Anote a Classe e os dados da ficha da entidade. Ela acompanha o nível do invocador até o último nível da sua Classe; passar à Classe seguinte exige reconstruí-la. O reparo de um corpo existente segue [Cura e reparo](#campo--inv-reparo), em Invocações em campo.
 
 Domar ou fabricar não exige possuir uma técnica de invocação. Ainda é preciso cumprir os procedimentos de aquisição e pagar os custos de uso. Uma entidade adquirida dessa maneira não ocupa uma vaga de feitiço apenas por existir.
 
@@ -14528,17 +14528,17 @@ Essa frase orienta a escolha de Farejador e das habilidades de perseguição. A 
 
 #### Anatomia e comunicação
 
-Anote tamanho, forma corporal, membros e sentidos comuns. Registre se ela fala, quais sinais compreende e como transmite uma descoberta. Uma aparência humana pode justificar mãos e voz. Um cão precisa de um meio compatível de segurar objetos e de se comunicar.
+Anote tamanho, forma corporal, membros e sentidos comuns. Indique se ela fala, quais sinais compreende e como transmite uma descoberta. Uma aparência humana pode justificar mãos e voz. Um cão precisa de um meio compatível de segurar objetos e de se comunicar.
 
 Uma entidade não recebe por padrão telepatia, visão compartilhada, percepção especial ou um ataque. Essas capacidades precisam estar na ficha, concedidas por uma habilidade ou pela aquisição. Ela pode ser construída sem ataque, para ajudar de outras maneiras.
 
-**Deslocamento terrestre-base: 9 m.** Voo, travessia de paredes ou outro modo extraordinário exige uma capacidade que o conceda e descreva seus limites. Desenhar asas não estabelece sozinho a velocidade, a sustentação ou as condições desse voo. Registre essas informações na capacidade correspondente.
+**Deslocamento terrestre-base: 9 m.** Voo, travessia de paredes ou outro modo extraordinário exige uma capacidade que o conceda e descreva seus limites. Desenhar asas não estabelece sozinho a velocidade, a sustentação ou as condições desse voo. Anote essas informações na capacidade correspondente.
 
 #### Características pagas
 
 A entidade não recebe **Regra Própria gratuita**, **Expressão da técnica** ou **Selo**. Usa a definição para orientar suas escolhas e recebe os talentos da própria progressão.
 
-Um detalhe de aparência pode ser descrito livremente. Quando o detalhe resolve um obstáculo ou concede um benefício, compare-o às opções pagas. Escolha também um tipo de dano permitido pelo catálogo geral para cada ataque. A aparência de energia pura usa o **tipo de dano Força**, conforme [Tipos de dano](#dano--tipos).
+Um detalhe de aparência pode ser descrito livremente. Quando o detalhe resolve um obstáculo ou concede um benefício, compare-o às opções pagas. Escolha também um tipo de dano permitido pelo catálogo geral para cada ataque. A aparência de energia pura usa o **tipo de dano Força**, segundo [Tipos de dano](#dano--tipos).
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-atributos -->
 <a id="construcao--entidades-atributos"></a>
@@ -14561,7 +14561,7 @@ Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica
 
 A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
 
-Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. Use o dano da arma indicado em **Equipamento**.
 
 ##### Resistências e perícias
 
@@ -14598,7 +14598,7 @@ Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos
 
 Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade permitida pelo teto da peça + proteção do equipamento**. A proteção substitui a parte de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
 
-Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue [Carga e equipamento](#campo--inv-carga), em Invocações em campo. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
+Anote o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue [Carga e equipamento](#campo--inv-carga), em Invocações em campo. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-progressao -->
 <a id="construcao--entidades-progressao"></a>
@@ -14606,7 +14606,7 @@ Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um ob
 
 A tabela usa **o nível da entidade**. A Classe máxima limita as especiais que ela pode conhecer ou ampliar. Os dados da básica aumentam automaticamente nas faixas indicadas.
 
-A **Classe real** é a Classe em que a especial será usada, incluindo uma [Ampliação](#construcao--entidades-ampliacao). Ela determina preços e PE. Algumas peças calculam sua intensidade com uma Classe a menos, conforme [Efeitos reduzidos](#construcao--entidades-efeitos-reduzidos).
+A **Classe real** é a Classe em que a especial será usada, incluindo uma [Ampliação](#construcao--entidades-ampliacao). Ela determina preços e PE. Algumas peças calculam sua intensidade com uma Classe a menos, segundo [Efeitos reduzidos](#construcao--entidades-efeitos-reduzidos).
 
 | Nível | Classe máxima | Dano-base da básica | Pontos da especial nessa Classe |
 |---|---|---|---|
@@ -14628,7 +14628,7 @@ Os espaços de especiais são **metade de (2 + nível ÷ 2), arredondada para ba
 |---|---|---|---|---|---|---|---|---|
 | Espaços de especiais | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 
-A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, conforme [Expansão da domada](#campo--inv-dominio), em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.
+A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, segundo [Expansão da domada](#campo--inv-dominio), em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.
 
 ##### Ao subir de nível
 
@@ -14664,7 +14664,7 @@ Marque **uma das três abertas como Livre**. Ao comprar uma Melhoria dessa Famí
 |---|---|---|---|---|---|---|---|
 | Desconto da Família Livre | 1 | 1 | 1 | 2 | 2 | 3 | 3 |
 
-As outras duas abertas usam preço normal. Formas não recebem desconto de Família Livre. Uma Melhoria própria com Família registrada usa o acesso e o desconto da entidade. Efeitos sem Família adequada continuam disponíveis conforme o acordo com o mestre, sem desconto e sem permitir copiar uma Família Fechada.
+As outras duas abertas usam preço normal. Formas não recebem desconto de Família Livre. Uma Melhoria própria com Família registrada usa o acesso e o desconto da entidade. Efeitos sem Família adequada continuam disponíveis segundo o acordo com o mestre, sem desconto e sem permitir copiar uma Família Fechada.
 
 Projétil e Toque ficam disponíveis a todas as entidades, respeitando as Famílias de suas funções. As Formas de área exigem Área. Efeito fora de combate segue seu procedimento e a definição da entidade.
 
@@ -14676,7 +14676,7 @@ Projétil e Toque ficam disponíveis a todas as entidades, respeitando as Famíl
 
 A básica própria é uma habilidade de **Classe 0**, sem custo de PE. Ela não ocupa espaço de especial. Sua quantidade e seus dados vêm de [Progressão da entidade](#construcao--entidades-progressao).
 
-Escolha uma Forma disponível e use as distâncias da Classe 0 em [Alcance e área](#construcao--entidades-medidas), deste capítulo. Para um ataque, registre tipo de dano e resolução. A mordida de um cão pode ser Toque. Um espinho lançado pode ser Projétil.
+Escolha uma Forma disponível e use as distâncias da Classe 0 em [Alcance e área](#construcao--entidades-medidas), deste capítulo. Para um ataque, anote tipo de dano e resolução. A mordida de um cão pode ser Toque. Um espinho lançado pode ser Projétil.
 
 ##### Uma Melhoria Leve
 
@@ -14692,7 +14692,7 @@ Uma básica benéfica individual pode entregar sua única Melhoria aplicável, c
 
 Uma básica de Efeito fora de combate usa a aplicação pequena registrada, na escala comum de [Efeitos fora de combate](#fundamento--efeito), em Fundamento. Ela precisa caber na definição da entidade.
 
-O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme **Acerto e dificuldade**.
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, como explica **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, seguindo **Acerto e dificuldade**.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-especiais -->
 <a id="construcao--entidades-especiais"></a>
@@ -14716,7 +14716,7 @@ Cada especial ocupa **um espaço da entidade**. Escolha sua Classe, de 1 até a 
 2. **Compre Melhorias.** Use as Famílias disponíveis e aplique o desconto da Livre.
 3. **Escolha Restrições.** Cada exigência deve acrescentar uma dificuldade real. Há no máximo duas, contando Queima-Roupa se escolhida. Toque concede sua devolução Leve fora dessas vagas. Nenhuma devolução paga a base.
 4. **Calcule os pontos que sobram.** Subtraia a base e as Melhorias. Acrescente as devoluções aproveitáveis de Toque e das Restrições, dentro dos limites compartilhados.
-5. **Registre o resultado.** Cada ponto restante pode virar 1d8 de dano. Cura e vida temporária usam as conversões e os tetos de suas funções. Efeitos comprados têm potência própria; sobras podem ficar sem uso.
+5. **Anote o resultado.** Cada ponto restante pode virar 1d8 de dano. Cura e vida temporária usam as conversões e os tetos de suas funções. Efeitos comprados têm potência própria; sobras podem ficar sem uso.
 
 | Preço da peça | Conta na Classe real |
 |---|---|
@@ -14761,7 +14761,7 @@ A distância até um alvo ou ponto usa a Classe real; as áreas das especiais us
 
 Cura e apoio coletivo não estão disponíveis na Classe 0. Use Longe para a distância ao alvo ou ponto; Maior para raio, comprimento ou largura, partindo destas medidas. As escadas de aumento estão em [Alcance e área](#fundamento--alcance), em Fundamento. Aplique-as às medidas iniciais desta entidade.
 
-> **Explosão de entidade.** Na Classe 6, o centro pode estar a 36 m, mas o raio ainda é 3 m. Na Classe 7, o raio passa a 4,5 m. O mesmo aumento de Maior parte de bases diferentes conforme a Classe usada.
+> **Explosão de entidade.** Na Classe 6, o centro pode estar a 36 m, mas o raio ainda é 3 m. Na Classe 7, o raio passa a 4,5 m. O mesmo aumento de Maior parte de bases diferentes, dependendo da Classe usada.
 
 A capacidade coletiva de Guarda, Impulso e Firmeza é **Classe real do uso + 1**, compartilhada pelas peças. As medidas reduzidas de área não diminuem esse grupo. Cura coletiva conserva a distribuição e os tetos próprios de Amparo.
 
@@ -14779,7 +14779,7 @@ Algumas peças calculam a intensidade pela Classe. Nas especiais da entidade, os
 | Desarma o Feitiço | Classe máxima de efeito que pode encerrar. |
 | Sugar | Limite da vida recuperada. |
 | Levanta e Remenda | Valores de recuperação definidos por essas peças. |
-| Formas de área | Tamanho básico, conforme Alcance e área. |
+| Formas de área | Tamanho básico indicado em Alcance e área. |
 
 | Classe real | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
@@ -14833,7 +14833,7 @@ Uma especial pode abrir mão de dano para conter um alvo, retirar uma condição
 
 ##### Controle
 
-Uma especial comum usa o procedimento de [Controle](#fundamento--controle), em Montar sua aplicação: registre na criação a opção de dano limitado à Classe real em dados ou sem dano. Use a mesma tabela de efeitos compatíveis, CDs, duração, saídas e progressão. O orçamento e o desconto continuam sendo os da entidade. A básica e as aplicações máximas não recebem esse reforço comum.
+Uma especial comum usa o procedimento de [Controle](#fundamento--controle), em Montar sua aplicação: anote na criação a opção de dano limitado à Classe real em dados ou sem dano. Use a mesma tabela de efeitos compatíveis, CDs, duração, saídas e progressão. O orçamento e o desconto continuam sendo os da entidade. A básica e as aplicações máximas não recebem esse reforço comum.
 
 Condições **Médias e Pesadas** são reservadas à **especial comandada ativamente**. Elas não entram na básica, num talento, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte **[Condições compráveis](#dano--condicoes)** para seus efeitos completos.
 
@@ -14845,7 +14845,7 @@ O procedimento de **Efeito fora de combate** realiza a aplicação registrada na
 
 Uma entidade continua precisando de comando para sua especial, mesmo fora de combate. Uma básica de Efeito fora de combate consome sua atuação básica. Descrever a capacidade como parte natural do corpo não elimina seus custos.
 
-Para uma proposta ausente do catálogo, use **Efeito Próprio** como peça da habilidade ou **Talento Próprio** como característica adquirida pela progressão de talentos. Registre um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.
+Para uma proposta ausente do catálogo, use **Efeito Próprio** como peça da habilidade ou **Talento Próprio** como característica adquirida pela progressão de talentos. Anote um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-restricoes -->
 <a id="construcao--entidades-restricoes"></a>
@@ -14867,7 +14867,7 @@ O mesmo vale para **Rápido, Reação, Armado e Segura**. Suas peças usam os re
 
 Conserve as incompatibilidades do catálogo: no máximo uma Restrição de frequência, uma penalidade corporal do grupo correspondente e uma das duas exposições, Barulho ou Assinatura. Duas exigências pelo mesmo impedimento não somam devoluções.
 
-Uma Restrição Própria precisa de situação concreta em que prejudique a entidade. Registre o texto e o motivo do preço. Depois de três sessões de uso, confira as exigências que nunca atrapalharam, conforme o procedimento do catálogo.
+Uma Restrição Própria precisa de situação concreta em que prejudique a entidade. Anote o texto e o motivo do preço. Depois de três sessões de uso, confira as exigências que nunca atrapalharam, seguindo o procedimento do catálogo.
 
 Ao revisar, observe também os efeitos dos aliados: se outra regra elimina sempre a desvantagem prometida, aquela devolução precisa ser reavaliada.
 
@@ -14920,7 +14920,7 @@ A CE indicada identifica a Categoria de Efeito da opção. Seu custo de aquisiç
 
 ##### Aplicação na ficha
 
-Contramedida custa **2 PE** e não exige a Reação coletiva, conforme [Energia das entidades](#campo--inv-energia), em Invocações em campo. O alcance parte da entidade. A exigência de beneficiar outra criatura permanece no Catálogo.
+Contramedida custa **2 PE** e não exige a Reação coletiva, segundo [Energia das entidades](#campo--inv-energia), em Invocações em campo. O alcance parte da entidade. A exigência de beneficiar outra criatura permanece no Catálogo.
 
 O Talento Eco e a Melhoria [Cobrança](#catalogo--melhoria-cobranca) reduzem o próximo custo à metade uma única vez, mesmo quando ambos estão disponíveis. A redução pertence à conjuração da entidade que a obteve, antes da divisão do pagamento. Não reduz o próximo feitiço pessoal do invocador.
 
@@ -14934,7 +14934,7 @@ Outros Talentos do catálogo pessoal, como Recomposição ou Reserva Profunda, n
 
 Use **Talento Próprio** para uma capacidade que a lista não representa. O Talento ocupa uma das escolhas recebidas pela entidade. Sua Categoria de Efeito é definida por comparação com as opções permitidas.
 
-Registre benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, indique os recursos exigidos conforme [Invocações em campo](#campo--inv-campo). Um talento reativo não concede uma segunda Reação coletiva.
+Anote benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, indique os recursos exigidos segundo [Invocações em campo](#campo--inv-campo). Um talento reativo não concede uma segunda Reação coletiva.
 
 Capacidades de transporte, armazenamento ou sentidos especiais também precisam desse registro. Um compartimento de objetos segue **Carga e equipamento**: o fato de caber na aparência da criatura não cria espaço de inventário ilimitado.
 
@@ -15068,7 +15068,7 @@ Confira também as escolhas exclusivas. Comprar duas básicas amplia as opções
 
 Para uma maldição domada, conheça **a ficha jogável resultante antes da tentativa de submissão**. O mestre registra a conversão de suas capacidades para a escala da entidade, inclusive eventuais diferenças de dados, ações e alcance em relação ao encontro; ele pode permitir que o jogador a monte a partir da ficha da maldição. Assim, o risco da aquisição tem um resultado conhecido.
 
-Depois da conferência, registre o texto acordado. Ajustes posteriores usam os procedimentos de evolução ou a revisão combinada com a mesa.
+Depois da conferência, anote o texto acordado. Ajustes posteriores usam os procedimentos de evolução ou a revisão combinada com a mesa.
 
 <!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-entidades -->
 <a id="fabricacao--fab-entidades"></a>
@@ -15096,7 +15096,7 @@ Use o atributo adequado ao trabalho e a Maestria do responsável. A base da difi
 | Uma abaixo | Média | −2 |
 | Duas ou mais abaixo | Fácil | −4 |
 
-**Role d20 + atributo + Maestria.** Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste conforme suas próprias regras; não entram novamente na base da CD.
+**Role d20 + atributo + Maestria.** Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste seguindo suas próprias regras; não entram novamente na base da CD.
 
 > **Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 cria uma entidade de Classe 3 para um invocador de nível 9. A entidade começa no nível 9. As Classes comparadas são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se criasse uma entidade de Classe 4 para um invocador de nível 13, ela começaria no nível 13, a CD seria 14 e precisaria de 8.
 
@@ -15108,7 +15108,7 @@ Além dessa vantagem, esses testes só podem receber vantagem de **um ajudante t
 
 ##### Sucesso e falha
 
-No sucesso, conclua a entidade com a ficha combinada e registre seu invocador. Na falha, ela ainda não funciona. Uma nova tentativa acontece quando o mestre permitir e tem vantagem.
+No sucesso, conclua a entidade com a ficha combinada e anote seu invocador. Na falha, ela ainda não funciona. Uma nova tentativa acontece quando o mestre permitir e tem vantagem.
 
 <!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-conclusao -->
 <a id="fabricacao--fab-conclusao"></a>
@@ -15128,9 +15128,9 @@ Na falha, a entidade continua onde está. A nova tentativa acontece quando o mes
 
 Passar um talismã ou corpo criado a outro invocador, ou herdá-lo, pede **o mesmo teste de criação, fora de combate**, com o consentimento do dono anterior ou a morte dele. O novo invocador precisa ter **Classe igual ou maior que a da entidade**.
 
-No sucesso, registre o novo invocador. A transferência conserva **Classe, ficha, vida atual e usos gastos**, além da queda e da carga do talismã. Depois dela, a entidade acompanha o nível do novo invocador dentro da Classe dela; atualize os valores que dependem dele. A transferência não recupera energia, não concede outra atuação no ciclo nem religa um corpo Desligado.
+No sucesso, anote o novo invocador. A transferência conserva **Classe, ficha, vida atual e usos gastos**, além da queda e da carga do talismã. Depois dela, a entidade acompanha o nível do novo invocador dentro da Classe dela; atualize os valores que dependem dele. A transferência não recupera energia, não concede outra atuação no ciclo nem religa um corpo Desligado.
 
-Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. A nova tentativa acontece quando o mestre permitir e tem vantagem.
+Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, dependendo do caso. A nova tentativa acontece quando o mestre permitir e tem vantagem.
 
 **Uma entidade destruída exige criar outra.** A maldição domada conserva o nível em que foi domada; esta evolução pertence às entidades de criação.
 
@@ -15156,7 +15156,7 @@ Comece por uma situação que peça ação dos personagens. Defina o que acontec
 | Perigos | Fichas completas, regras envolvidas e sinais que o grupo pode reconhecer. |
 | Consequências | O que muda com sucesso, demora, recuo ou abandono. |
 
-Prepare as fichas dos perigos antes da sessão. Para uma maldição, registre os atributos e as capacidades que ela poderá usar. Use as referências de combate para resolver o encontro, sem conceder uma nova capacidade ao inimigo apenas para anular uma boa escolha dos jogadores.
+Prepare as fichas dos perigos antes da sessão. Para uma maldição, anote os atributos e as capacidades que ela poderá usar. Use as referências de combate para resolver o encontro, sem conceder uma nova capacidade ao inimigo apenas para anular uma boa escolha dos jogadores.
 
 #### Escolhas do grupo
 
@@ -15172,7 +15172,7 @@ As capacidades dos personagens e a situação podem tornar uma solução inviáv
 <a id="consulta--consulta-conduzir"></a>
 ### Mestrar uma sessão
 
-Descreva primeiro o que os personagens podem perceber e o que exige atenção imediata. Inclua posições, acessos e riscos visíveis quando ajudarem a escolher uma ação. Dê detalhes adicionais conforme o grupo examina o lugar ou faz perguntas.
+Descreva primeiro o que os personagens podem perceber e o que exige atenção imediata. Inclua posições, acessos e riscos visíveis quando ajudarem a escolher uma ação. Dê detalhes adicionais à medida que o grupo examina o lugar ou faz perguntas.
 
 Depois que alguém propuser uma ação, identifique o resultado que a pessoa pretende alcançar. Escolha o procedimento que resolve a tentativa: descrição, [teste](#geral--testes), ataque, capacidade da ficha ou outra regra que se aplique. Informe custos e consequências que o personagem já teria condições de prever. Resolva o resultado e descreva o que mudou.
 
@@ -15186,7 +15186,7 @@ Uma maldição pode ter intenções que os jogadores desconhecem. Os personagens
 
 A [Consulta rápida](#capitulo-20) resume os procedimentos de testes e combate. O [Índice de assuntos](#consulta--consulta-indice-1) reúne remissões para as regras e capacidades.
 
-Procure a capacidade usada e o procedimento geral que ela modifica. Confira ação, alvo, alcance, resolução e prazo. Se a dúvida persistir, combine uma decisão para aquela sessão e registre o trecho que permitiu interpretações diferentes. A correção posterior deve ser comunicada a quem foi afetado.
+Procure a capacidade usada e o procedimento geral que ela modifica. Confira ação, alvo, alcance, resolução e prazo. Se a dúvida persistir, combine uma decisão para aquela sessão e anote o trecho que permitiu interpretações diferentes. A correção posterior deve ser comunicada a quem foi afetado.
 
 #### Continuidade da guilda
 
@@ -15217,13 +15217,13 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Aguentar](#dano--zero). Escolha em Morrendo na qual o personagem fica Inconsciente e espera socorro, sem agir nem usar Reações.
 
-[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida conforme a capacidade.
+[Alcance](#fundamento--alcance). Distância permitida até um alvo ou ponto de origem, medida como a capacidade indica.
 
 [Ambiente propício](#dano--descansos). Lugar com abrigo, suprimentos e meios de atendimento, como a escola ou um hospital. Nele, o descanso longo devolve toda a vida e todos os PE.
 
 [Ampliar](#fundamento--ampliar). Usar uma aplicação conhecida numa Classe maior, seguindo sua rota.
 
-[Aptidão](#aptidoes--apt-refino). Capacidade adquirida no catálogo de Aptidões e Refino, conforme seus requisitos.
+[Aptidão](#aptidoes--apt-refino). Capacidade adquirida no catálogo de Aptidões e Refino, quando você cumprir seus requisitos.
 
 [Área](#fundamento--alcance). Espaço ocupado por um efeito. Seu tamanho é uma medida diferente do alcance.
 
@@ -15235,7 +15235,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Básica de invocação](#construcao--entidades-basicas). Capacidade de Classe 0 registrada na ficha da entidade. Seu uso custa a atuação básica e não gasta PE.
 
-[Bênção](#rotas--rota-bencaos). Capacidade da rota sem energia amaldiçoada, adquirida conforme Lapidação e requisitos.
+[Bênção](#rotas--rota-bencaos). Capacidade da rota sem energia amaldiçoada, adquirida seguindo as regras de Lapidação e os requisitos da Bênção.
 
 [Bloquear](#geral--bloquear). Opção que substitui a Defesa por uma rolagem contra um ataque com rolagem de acerto. A escolha ocorre antes da rolagem do atacante.
 
@@ -15333,7 +15333,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Legado de história](#origens--legados). Vínculo, lembrança, compromisso ou detalhe da sua existência que participa da campanha. Não concede benefício mecânico por si só nem ocupa escolha de marcante ou menor.
 
-[Leve, Média e Pesada](#fundamento--pontos). Categorias de preço ou Condição, conforme a tabela consultada. Leve também é uma propriedade de arma.
+[Leve, Média e Pesada](#fundamento--pontos). Categorias de preço ou Condição, dependendo da tabela consultada. Leve também é uma propriedade de arma.
 
 [Maestria](#geral--atributos). Bônus ligado ao nível, aplicado somente quando a regra indica seu uso.
 
@@ -15343,7 +15343,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Marcante e menores](#origens--origem-escolhas). Uma capacidade central e duas escolhas permitidas da Origem, sem trocar suas vagas entre si.
 
-[Marco](#progressao--prog-marcos). Nível que entrega escolhas adicionais de progressão, conforme as opções e condições de Progressão.
+[Marco](#progressao--prog-marcos). Nível que entrega escolhas adicionais de progressão, dentro das opções e condições de Progressão.
 
 [Melhoria](#fundamento--pontos). Peça comprada na montagem. O Catálogo organiza Melhorias em Efeitos, que acrescentam capacidades, e Modificadores, que alteram a aplicação. Ambos usam o mesmo limite de compras.
 
@@ -15407,7 +15407,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Sequela](#dano--sequelas). Registro do desgaste de uma queda a zero de vida. Reduz a janela da próxima queda. O descanso longo remove as Sequelas depois de resolver a recuperação.
 
-[Talento](#fundamento-link-capacidades). Capacidade com efeito próprio, adquirida conforme sua Categoria de Efeito e a fonte que a concede. Pode funcionar continuamente ou ter ativação e custos.
+[Talento](#fundamento-link-capacidades). Capacidade com efeito próprio, adquirida segundo sua Categoria de Efeito e a fonte que a concede. Pode funcionar continuamente ou ter ativação e custos.
 
 [Técnica amaldiçoada](#ab--ab-mundo). Poder com funcionamento próprio que sustenta suas aplicações.
 
@@ -15421,7 +15421,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Tratamento necessário](#dano--zero). Quantidade de cura válida exigida pelo procedimento de cura de Morrendo, definida na queda.
 
-[Treino](#geral--pericias). Qualificação registrada para perícia, ofício, TR ou equipamento, conforme as regras de cada tipo.
+[Treino](#geral--pericias). Qualificação registrada para perícia, ofício, TR ou equipamento, segundo as regras de cada tipo.
 
 [Trilha](#ab--ab-caminho). Especialidade escolhida dentro de um Caminho.
 
@@ -15474,7 +15474,7 @@ Antes de passar a vez, confira efeitos com prazo no fim do turno e anote recurso
 
 1. Declare a capacidade e o alvo. Confira alcance, posição, equipamento e custos.
 2. **Antes da rolagem de acerto**, o alvo escolhe entre sua Defesa e Bloquear, quando permitido. Resolva as respostas que precisam ocorrer antes da rolagem.
-3. Role o ataque. Compare-o com a Defesa ou com o resultado da rolagem de Bloquear, conforme a escolha anterior.
+3. Role o ataque. Compare o ataque com a Defesa ou com o resultado da rolagem de Bloquear, de acordo com a escolha que o alvo já fez.
 4. Confira acerto, crítico e os resultados especiais de Bloquear.
 5. Aplique o dano e os demais efeitos que cabem naquele resultado. Depois, resolva as respostas posteriores.
 
@@ -15486,7 +15486,7 @@ Quem recebe o efeito faz o [Teste de Resistência](#geral--resistencia) indicado
 
 #### Dano e socorro
 
-Resolva os recursos atingidos conforme [Dano](#dano--dano). Efeitos sobre Integridade, o recurso da alma, seguem [Dano na alma](#dano--alma) e seus [estágios](#dano--integridade). Com Integridade a zero, use [Derrota e morte](#dano--derrota).
+Resolva os recursos atingidos seguindo [Dano](#dano--dano). Efeitos sobre Integridade, o recurso da alma, seguem [Dano na alma](#dano--alma) e seus [estágios](#dano--integridade). Com Integridade a zero, use [Derrota e morte](#dano--derrota).
 
 **Personagem jogador a zero de vida:** confira a janela de socorro e as respostas à queda em [Vida a zero](#dano--zero). A janela é o prazo em rodadas para receber atendimento. Se ainda houver janela e Morrendo continuar, escolha Aguentar (fica Inconsciente) ou Insistir (conserva a consciência e os recursos disponíveis). Insistir não remove outra causa de inconsciência. Anote o tratamento necessário (a quantidade de cura válida exigida naquela queda), quanto já recebeu e a janela restante.
 

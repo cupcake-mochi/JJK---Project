@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r63/BLOCOS-R63.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r64/BLOCOS-R64.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
