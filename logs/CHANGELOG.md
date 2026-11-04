@@ -27,7 +27,11 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 - "Sobra de dano" para o excedente das entidades, "Partes adicionais" como título, "ligado a" e "permitida", "válido" ou "que conta" nas trocas de vinculado e elegível. "Arma vinculada", "Retorno Vinculado", "Reserva Excedente" e "Ritual de Excedente" ficam como nomes. "Extensa" no lugar de "Ampliada". A R64 cuida de conceder, requisito, conservar, conforme e registre. O Guia do Mestre não foi tocado, porque está em outra frente.
 
-→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R63 ainda por publicar.
+### Publicado
+
+- A R63 foi publicada na Vercel em 04/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos SHA-256 dos arquivos revisados. Registro em `editorial-r63/PUBLICACAO.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R63 e a conferência da publicação.
 
 ## [0.372] - 03/11/2026
 

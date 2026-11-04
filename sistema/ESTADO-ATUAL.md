@@ -8,7 +8,7 @@ As duas paletas continuam com 425 páginas. Contra a R62, 131 páginas mudaram, 
 
 Guardas novas: `conferir-fundamento.py` falha com palavra rara visível no livro, com dois contra-testes e teste negativo numa cópia; o `conferir.py` da composição falha com palavra rara impressa nas duas paletas e com o sumário do capítulo 10 fora da ordem. `conferir-acao.py` lê a frase nova da Rajada.
 
-Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R62-para-R63.json`. As decisões, o que fica para a R64 e o parágrafo para quem mexe no Guia estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/PLANO-LINGUAGEM.md`. O questionário de leitura da R62 continua sem aplicação. A cadeia de integridade cobre R52 a R63. A R63 ainda não foi publicada.
+Fonte e registros em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/`, com o antes/depois em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R62-para-R63.json`. As decisões, o que fica para a R64 e o parágrafo para quem mexe no Guia estão em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/PLANO-LINGUAGEM.md`. O questionário de leitura da R62 continua sem aplicação. A cadeia de integridade cobre R52 a R63. A R63 foi publicada na Vercel em 04/11/2026. O download integral dos dois PDFs públicos confirmou os mesmos hashes dos arquivos revisados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r63/PUBLICACAO.json`.
 
 # Edição anterior R62
 
