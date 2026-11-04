@@ -1,0 +1,194 @@
+[
+  {
+    "termo": "Leitura",
+    "titulo": "Leitura",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r59-leitura"
+  },
+  {
+    "termo": "Instinto",
+    "titulo": "Instinto",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r59-instinto"
+  },
+  {
+    "termo": "Raiz",
+    "titulo": "Raiz",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r59-raiz"
+  },
+  {
+    "termo": "Farejador",
+    "titulo": "Farejador",
+    "bloco": "catalogo--cat-passivas-1",
+    "alias": "indice-r59-farejador"
+  },
+  {
+    "termo": "Recomposição",
+    "titulo": "Recomposição",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-recomposicao"
+  },
+  {
+    "termo": "Segunda Natureza",
+    "titulo": "Segunda Natureza",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-segunda-natureza"
+  },
+  {
+    "termo": "Eco",
+    "titulo": "Eco",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-eco"
+  },
+  {
+    "termo": "Costura",
+    "titulo": "Costura",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-costura"
+  },
+  {
+    "termo": "Contramedida",
+    "titulo": "Contramedida",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-contramedida"
+  },
+  {
+    "termo": "Peso da Presença",
+    "titulo": "Peso da Presença",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "alias": "indice-r59-peso-da-presenca"
+  },
+  {
+    "termo": "Escama",
+    "titulo": "Escama",
+    "bloco": "catalogo--cat-passivas-3",
+    "alias": "indice-r59-escama"
+  },
+  {
+    "termo": "Afinidade",
+    "titulo": "Afinidade",
+    "bloco": "catalogo--cat-passivas-3",
+    "alias": "indice-r59-afinidade"
+  },
+  {
+    "termo": "Reserva Profunda",
+    "titulo": "Reserva Profunda",
+    "bloco": "catalogo--cat-passivas-3",
+    "alias": "indice-r59-reserva-profunda"
+  },
+  {
+    "termo": "Ímpeto",
+    "titulo": "Ímpeto",
+    "bloco": "rotas--rota-corpo",
+    "alias": "indice-r59-impeto"
+  },
+  {
+    "termo": "Casco",
+    "titulo": "Casco",
+    "bloco": "rotas--rota-corpo",
+    "alias": "indice-r59-casco"
+  },
+  {
+    "termo": "Presilha",
+    "titulo": "Presilha",
+    "bloco": "rotas--rota-corpo",
+    "alias": "indice-r59-presilha"
+  },
+  {
+    "termo": "Vigília",
+    "titulo": "Vigília",
+    "bloco": "rotas--rota-corpo",
+    "alias": "indice-r59-vigilia"
+  },
+  {
+    "termo": "Faro",
+    "titulo": "Faro",
+    "bloco": "rotas--rota-perseguicao",
+    "alias": "indice-r59-faro"
+  },
+  {
+    "termo": "Sem Pegada",
+    "titulo": "Sem Pegada",
+    "bloco": "rotas--rota-perseguicao",
+    "alias": "indice-r59-sem-pegada"
+  },
+  {
+    "termo": "Vulto",
+    "titulo": "Vulto",
+    "bloco": "rotas--rota-perseguicao",
+    "alias": "indice-r59-vulto"
+  },
+  {
+    "termo": "Esteio",
+    "titulo": "Esteio",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-esteio"
+  },
+  {
+    "termo": "Antecipar",
+    "titulo": "Antecipar",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-antecipar"
+  },
+  {
+    "termo": "Represália",
+    "titulo": "Represália",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-represalia"
+  },
+  {
+    "termo": "Sangue Frio",
+    "titulo": "Sangue Frio",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-sangue-frio"
+  },
+  {
+    "termo": "Campo",
+    "titulo": "Campo",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-campo"
+  },
+  {
+    "termo": "Assombro",
+    "titulo": "Assombro",
+    "bloco": "rotas--rota-combate",
+    "alias": "indice-r59-assombro"
+  },
+  {
+    "termo": "Evolução de entidade criada",
+    "titulo": "Evolução e reconstrução",
+    "bloco": "fabricacao--fab-conclusao",
+    "alias": "indice-r59-evolucao-de-entidade-criada"
+  },
+  {
+    "termo": "Reconstruir uma entidade",
+    "titulo": "Evolução e reconstrução",
+    "bloco": "fabricacao--fab-conclusao",
+    "alias": "indice-r59-reconstruir-uma-entidade"
+  },
+  {
+    "termo": "Transferência e herança",
+    "titulo": "Transferência e herança",
+    "bloco": "fabricacao--fab-conclusao",
+    "alias": "indice-r59-transferencia-e-heranca"
+  },
+  {
+    "termo": "Segundo Fôlego",
+    "titulo": "Segundo Fôlego",
+    "bloco": "rotas--rota-passivas-resposta",
+    "alias": "indice-r59-segundo-folego"
+  },
+  {
+    "termo": "Contragolpe",
+    "titulo": "Contragolpe",
+    "bloco": "rotas--rota-passivas-resposta",
+    "alias": "indice-r59-contragolpe"
+  },
+  {
+    "termo": "Aliança",
+    "titulo": "Aliança",
+    "bloco": "rotas--rota-passivas-resposta",
+    "alias": "indice-r59-alianca"
+  }
+]

@@ -1,0 +1,1833 @@
+[
+  {
+    "id": "R65-001",
+    "propostas": [
+      "R65-01-001"
+    ],
+    "bloco": "bastiao--bas-bastiao",
+    "antes": "| TR treinado | Um à sua escolha, além do concedido pela Origem. |",
+    "depois": "| TR treinado | Um à sua escolha, além do treino que vem da Origem. |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-002",
+    "propostas": [
+      "R65-01-002"
+    ],
+    "bloco": "bastiao--bas-bastiao",
+    "antes": "No nível 2, escolha uma Trilha: **Muro**, para ampliar sua proteção; **Punho**, para responder com golpes desarmados; ou **Combatente Amaldiçoado**, para combinar defesa e feitiços. A Trilha concede habilidades nos níveis **2, 11, 19 e 27**.",
+    "depois": "No nível 2, escolha uma Trilha: **Muro**, para ampliar sua proteção; **Punho**, para responder com golpes desarmados; ou **Combatente Amaldiçoado**, para combinar defesa e feitiços. Você recebe habilidades da Trilha nos níveis **2, 11, 19 e 27**.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-003",
+    "propostas": [
+      "R65-02-001"
+    ],
+    "bloco": "bastiao--bas-bastiao",
+    "antes": "Você conserva as habilidades já recebidas. Nos níveis 11, 19 e 27, pode trocar de Trilha pelas regras de progressão: substitua todas as habilidades da anterior pelas correspondentes da nova. Não combine habilidades de duas Trilhas.",
+    "depois": "Você mantém as habilidades já recebidas. Nos níveis 11, 19 e 27, pode trocar de Trilha pelas regras de progressão: substitua todas as habilidades da anterior pelas correspondentes da nova. Não combine habilidades de duas Trilhas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-004",
+    "propostas": [
+      "R65-02-002"
+    ],
+    "bloco": "bastiao--bas-defesa",
+    "antes": "O benefício é passivo, sem gasto de Reação. Não se aplica a outro tipo de TR, a uma criatura fora da área nem a perigos do ambiente, como uma queda sem essa origem. O sucesso conserva o resultado indicado pelo efeito que pediu o teste.",
+    "depois": "O benefício é passivo, sem gasto de Reação. Não se aplica a outro tipo de TR, a uma criatura fora da área nem a perigos do ambiente, como uma queda sem essa origem. No sucesso, continua valendo o resultado indicado pelo efeito que pediu o teste.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-005",
+    "propostas": [
+      "R65-03-001"
+    ],
+    "bloco": "bastiao--bas-defesa",
+    "antes": "Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga [Socorro](#dano--socorro), em Dano e recuperação. Enquanto estiver Morrendo, essa cura entra no tratamento acumulado; para encerrar a condição, você ainda precisa cumprir os requisitos do socorro.",
+    "depois": "Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga [Socorro](#dano--socorro), em Dano e recuperação. Enquanto estiver Morrendo, essa cura entra no tratamento acumulado; para encerrar a condição, você ainda precisa cumprir o que o socorro exige.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-006",
+    "propostas": [
+      "R65-02-003"
+    ],
+    "bloco": "bastiao--bas-aliados",
+    "antes": "Primeiro, resolva as defesas e a vida temporária do aliado. Do dano que atingiria sua vida, ele recebe no máximo o necessário para ficar com 1. Você recebe o restante, conservando o tipo de dano. Aplique suas próprias proteções contra o dano transferido. Não reutilize uma redução já aplicada em favor do aliado, nem benefícios que exijam ter sido alvo, acertado ou ter bloqueado o ataque original. Essa parte não pode ser transferida novamente. Em dano misto, desconte da vida restante as partes da maior para a menor e conserve os tipos restantes pelo procedimento de Dano.",
+    "depois": "Primeiro, resolva as defesas e a vida temporária do aliado. Do dano que atingiria sua vida, ele recebe no máximo o necessário para ficar com 1. Você recebe o restante, com o mesmo tipo de dano. Aplique suas próprias proteções contra o dano transferido. Não reutilize uma redução já aplicada em favor do aliado, nem benefícios que exijam ter sido alvo, acertado ou ter bloqueado o ataque original. Essa parte não pode ser transferida novamente. Em dano misto, desconte da vida restante as partes da maior para a menor e mantenha o tipo de cada parte restante seguindo o procedimento de Dano.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-007",
+    "propostas": [
+      "R65-02-004"
+    ],
+    "bloco": "bastiao--bas-aliados",
+    "antes": "> **Dano misto.** Depois das proteções e da vida temporária do aliado, restam 15 de Cortante e 6 de Fogo, nessa ordem. Com 10 de vida, ele perde 9 de Cortante e conserva 1. Você recebe **6 de Cortante e 6 de Fogo**. Resistência a Cortante deixa sua parte em **3 + 6 = 9**. Sua Reação já gasta não impede Passa Pra Mim, mas a transferência não permite outro Bloquear.",
+    "depois": "> **Dano misto.** Depois das proteções e da vida temporária do aliado, restam 15 de Cortante e 6 de Fogo, nessa ordem. Com 10 de vida, ele perde 9 de Cortante e fica com 1 de vida. Você recebe **6 de Cortante e 6 de Fogo**. Resistência a Cortante deixa sua parte em **3 + 6 = 9**. Sua Reação já gasta não impede Passa Pra Mim, mas a transferência não permite outro Bloquear.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-008",
+    "propostas": [
+      "R65-01-003"
+    ],
+    "bloco": "bastiao--bas-muro",
+    "antes": "> **Exemplo.** Uma aliada está ao seu lado. Contra um atirador distante, recebe a cobertura. Contra um inimigo usando uma arma de alcance que permaneça longe de você, essa habilidade não concede cobertura por aquele ataque corpo a corpo.",
+    "depois": "> **Exemplo.** Uma aliada está ao seu lado. Contra um atirador distante, recebe a cobertura. Contra um inimigo usando uma arma de alcance que permaneça longe de você, essa habilidade não oferece cobertura contra aquele ataque corpo a corpo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-009",
+    "propostas": [
+      "R65-01-004",
+      "R65-02-005"
+    ],
+    "bloco": "bastiao--bas-muro",
+    "antes": "Guarda-Costas protege o aliado. Se você assumir o ataque, resolva as defesas aplicáveis a você, sem conservar a cobertura que era concedida a ele.",
+    "depois": "Guarda-Costas protege o aliado. Se você assumir o ataque, resolva as defesas aplicáveis a você, sem ficar com a cobertura que ele recebia.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-010",
+    "propostas": [
+      "R65-03-002"
+    ],
+    "bloco": "bastiao--bas-casca",
+    "antes": "O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que acompanhem o golpe usam seus próprios requisitos. Resistências são aplicadas antes das reduções, como explica Dano.",
+    "depois": "O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que acompanhem o golpe seguem suas próprias exigências. Resistências são aplicadas antes das reduções, como explica Dano.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-011",
+    "propostas": [
+      "R65-01-005"
+    ],
+    "bloco": "bastiao--bas-punho",
+    "antes": "Quando acertar um ataque da sua **Ação Atacar**, pode gastar a **Ação Bônus** para fazer um golpe desarmado. O acerto permite usar esse benefício naquele turno; ele não concede outra Ação Atacar.",
+    "depois": "Quando acertar um ataque da sua **Ação Atacar**, pode gastar a **Ação Bônus** para fazer um golpe desarmado. O acerto permite usar esse benefício naquele turno; ele não dá direito a outra Ação Atacar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-012",
+    "propostas": [
+      "R65-01-006"
+    ],
+    "bloco": "bastiao--bas-mao",
+    "antes": "O percurso precisa permitir o movimento. Uma parede o interrompe; a habilidade não concede dano de colisão nem deixa o alvo suspenso no ar. Uma queda real segue Quedas. Esta habilidade não usa o limite de tamanho das manobras comuns.",
+    "depois": "O percurso precisa permitir o movimento. Uma parede o interrompe; a habilidade não causa dano de colisão nem deixa o alvo suspenso no ar. Uma queda real segue Quedas. Esta habilidade não usa o limite de tamanho das manobras comuns.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-013",
+    "propostas": [
+      "R65-02-006"
+    ],
+    "bloco": "bastiao--bas-arrastao",
+    "antes": "Cada alvo acertado faz o TR de Vigor de Mão Pesada. Na falha, você escolhe Derrubado ou Agarrado. Cada agarrão ainda exige uma mão livre e alcance corporal: o alcance especial dos golpes de Arrastão não amplia a contenção. O empurrão conserva seu limite de uma vez por alvo por rodada.",
+    "depois": "Cada alvo acertado faz o TR de Vigor de Mão Pesada. Na falha, você escolhe Derrubado ou Agarrado. Cada agarrão ainda exige uma mão livre e alcance corporal: o alcance especial dos golpes de Arrastão não amplia a contenção. O empurrão continua limitado a uma vez por alvo por rodada.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-014",
+    "propostas": [
+      "R65-02-007",
+      "R65-03-003"
+    ],
+    "bloco": "bastiao--bas-combatente",
+    "antes": "O feitiço conserva sua própria resolução, seus requisitos, alcance e alvos. O acerto que você recebeu não garante o acerto do feitiço. Um ataque interceptado que erre não permite Retaliação. Dano reduzido a zero não apaga o acerto.",
+    "depois": "O feitiço segue sua própria resolução, suas condições de uso, alcance e alvos. O acerto que você recebeu não garante o acerto do feitiço. Um ataque interceptado que erre não permite Retaliação. Dano reduzido a zero não apaga o acerto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-015",
+    "propostas": [
+      "R65-01-007",
+      "R65-03-004"
+    ],
+    "bloco": "bastiao--bas-combatente",
+    "antes": "O crítico de um ataque concedido somente por Reação ou Bônus não cumpre o primeiro gatilho. O segundo não exige que o TR venha de uma criatura dentro de Olhos Em Mim: essa área é requisito de Nem Um Arranhão, não de Embalo.",
+    "depois": "O crítico de um ataque que você só pôde fazer graças a uma Reação ou Bônus não cumpre o primeiro gatilho. O segundo não exige que o TR venha de uma criatura dentro de Olhos Em Mim. Nem Um Arranhão exige essa área.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-016",
+    "propostas": [
+      "R65-01-008"
+    ],
+    "bloco": "bastiao--bas-oportunista",
+    "antes": "Antes de rolar, escolha **o primeiro ou o segundo ataque** da ação para acompanhar o feitiço. Confira a vida nesse momento. Se só tiver um ataque, escolha esse primeiro. **O ataque escolhido não recebe [Canalizar em Golpe](#aptidoes--apt-canalizar)**, o acréscimo de dano concedido pela aptidão Canalizar Energia, nem o benefício correspondente da rota sem energia.",
+    "depois": "Antes de rolar, escolha **o primeiro ou o segundo ataque** da ação para acompanhar o feitiço. Confira a vida nesse momento. Se só tiver um ataque, escolha esse primeiro. **O ataque escolhido não recebe [Canalizar em Golpe](#aptidoes--apt-canalizar)**, o acréscimo de dano que vem da aptidão Canalizar Energia, nem o benefício correspondente da rota sem energia.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-017",
+    "propostas": [
+      "R65-02-008",
+      "R65-03-005"
+    ],
+    "bloco": "bastiao--bas-oportunista",
+    "antes": "Resolva o ataque e depois o feitiço, **uma única vez na ação**, mesmo que o ataque tenha errado. O feitiço não gasta outra ação, mas cobra seus **PE normais** e conserva alcance, alvos, Selo, resolução e demais requisitos. Ele precisa permitir essa aplicação imediata; a habilidade não abrevia [Carregar](#catalogo--restricao-carregar), preparo que adia a liberação do feitiço para o turno seguinte, nem outros preparos.",
+    "depois": "Resolva o ataque e depois o feitiço, **uma única vez na ação**, mesmo que o ataque tenha errado. O feitiço não gasta outra ação, mas cobra seus **PE normais** e respeita o alcance, os alvos, o Selo, a resolução e as demais condições de uso. Ele precisa permitir essa aplicação imediata; a habilidade não abrevia [Carregar](#catalogo--restricao-carregar), preparo que adia a liberação do feitiço para o turno seguinte, nem outros preparos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-018",
+    "propostas": [
+      "R65-02-009"
+    ],
+    "bloco": "bastiao--bas-oportunista",
+    "antes": "**O feitiço não causa crítico, mesmo se o ataque físico for crítico.** Seus dados não entram no dano da arma. O outro ataque conserva suas regras, inclusive Canalizar quando permitido. A conjuração ainda conta para o limite de feitiços do turno.",
+    "depois": "**O feitiço não causa crítico, mesmo se o ataque físico for crítico.** Seus dados não entram no dano da arma. O outro ataque segue suas próprias regras, inclusive Canalizar quando permitido. A conjuração ainda conta para o limite de feitiços do turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-019",
+    "propostas": [
+      "R65-01-009"
+    ],
+    "bloco": "vanguarda--van-base",
+    "antes": "| **Ofícios** | nenhum. A Origem concede dois |",
+    "depois": "| **Ofícios** | nenhum. Você recebe dois pela Origem |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-020",
+    "propostas": [
+      "R65-01-010"
+    ],
+    "bloco": "vanguarda--van-base",
+    "antes": "| **Teste de Resistência** | um à escolha. A Origem concede o outro treino |",
+    "depois": "| **Teste de Resistência** | um à escolha. O outro treino vem da Origem |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-021",
+    "propostas": [
+      "R65-02-010"
+    ],
+    "bloco": "vanguarda--van-sequencia",
+    "antes": "Acertar causa o dano normal, acrescenta uma Condução acertada e renova o prazo da Sequência. Errar encerra a Sequência, salvo **Persistência**, a habilidade de nível 23 que permite conservar a preparação dentro dos limites da habilidade. Consulte [Habilidades avançadas](#vanguarda--van-avanco). Você pode continuar conduzindo sem um limite de acertos acumulados.",
+    "depois": "Acertar causa o dano normal, acrescenta uma Condução acertada e renova o prazo da Sequência. Errar encerra a Sequência, salvo **Persistência**, a habilidade de nível 23 que permite continuar com a preparação dentro dos limites da habilidade. Consulte [Habilidades avançadas](#vanguarda--van-avanco). Você pode continuar conduzindo sem um limite de acertos acumulados.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-022",
+    "propostas": [
+      "R65-03-006"
+    ],
+    "bloco": "vanguarda--van-conclusoes",
+    "antes": "Escolha uma Conclusão compatível com a fonte do ataque e com seus requisitos. **A declaração consome a Sequência**, mesmo no erro ou na resistência. Concluir não custa PE adicional por si só.",
+    "depois": "Escolha uma Conclusão compatível com a fonte do ataque, desde que cumpra as exigências da opção. **A declaração consome a Sequência**, mesmo no erro ou na resistência. Concluir não custa PE adicional por si só.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-023",
+    "propostas": [
+      "R65-03-007"
+    ],
+    "bloco": "vanguarda--van-avanco",
+    "antes": "Declare as duas antes dos dados, com todos os requisitos cumpridos. Um ataque ou feitiço resolve seu dano normal uma vez. Cada Conclusão tem seu TR, quando houver. Resolva os testes antes de aplicar os novos efeitos. Explorar o Desequilíbrio modifica apenas um teste que cumpra essas condições.",
+    "depois": "Declare as duas antes dos dados, depois de cumprir todas as exigências. Um ataque ou feitiço resolve seu dano normal uma vez. Cada Conclusão tem seu TR, quando houver. Resolva os testes antes de aplicar os novos efeitos. Explorar o Desequilíbrio modifica apenas um teste que cumpra essas condições.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-024",
+    "propostas": [
+      "R65-03-008"
+    ],
+    "bloco": "vanguarda--van-estocada",
+    "antes": "Escolha **Essência ou Inteligência**. Some o valor atual desse atributo ao seu **PE máximo** e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias escolhidas. Os requisitos de Força permanecem.",
+    "depois": "Escolha **Essência ou Inteligência**. Some o valor atual desse atributo ao seu **PE máximo** e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias escolhidas. As armas continuam exigindo a mesma Força.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-025",
+    "propostas": [
+      "R65-03-009"
+    ],
+    "bloco": "vanguarda--van-feiticos",
+    "antes": "Desorientar e os outros efeitos novos não prejudicam outro TR do mesmo lançamento. Em Conclusão Dupla, escolha duas opções deste catálogo e respeite todos os requisitos da Dupla.",
+    "depois": "Desorientar e os outros efeitos novos não prejudicam outro TR do mesmo lançamento. Em Conclusão Dupla, escolha duas opções deste catálogo e cumpra todas as exigências da Dupla.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-026",
+    "propostas": [
+      "R65-01-011",
+      "R65-03-010"
+    ],
+    "bloco": "vanguarda--van-bote",
+    "antes": "Declare Ferrão antes do ataque da arma. Se ela errar, o Classe 0 não é lançado. Se acertar, ele resolve sua própria rolagem e requisitos, inclusive alcance e crítico. Esse lançamento é uma exceção ao limite de conjurações no turno e não concede outro ataque de Compasso. Não é necessário que o alvo tenha falhado no TR adicional da Conclusão principal.",
+    "depois": "Declare Ferrão antes do ataque da arma. Se ela errar, o Classe 0 não é lançado. Se acertar, resolva a rolagem do feitiço e siga suas regras de uso, incluindo alcance e crítico. Esse lançamento é uma exceção ao limite de conjurações no turno e não dá direito a outro ataque de Compasso. Não é necessário que o alvo tenha falhado no TR adicional da Conclusão principal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-027",
+    "propostas": [
+      "R65-03-011"
+    ],
+    "bloco": "vanguarda--van-yumi",
+    "antes": "As Conduções e Conclusões **comuns** são as do Caminho; as **próprias** são as da rota escolhida. Ambas usam o procedimento da Sequência e seus custos, salvo exceção escrita na entrada. Você pode usar as opções comuns quando cumprir seus requisitos.",
+    "depois": "As Conduções e Conclusões **comuns** são as do Caminho; as **próprias** são as da rota escolhida. Ambas usam o procedimento da Sequência e seus custos, salvo exceção escrita na entrada. Você pode usar as opções comuns quando cumprir o que cada opção exige.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-028",
+    "propostas": [
+      "R65-03-012"
+    ],
+    "bloco": "vanguarda--van-yumi",
+    "antes": "A soltura é feita da sua posição real contra o mesmo alvo. Confira os requisitos da Conclusão na armação e, na soltura, aqueles que dependem da situação atual. Pague os custos adicionais do ataque na armação. Eles não retornam se a armação for desfeita. Separe uma flecha disponível, que não pode servir a outro disparo enquanto estiver armada. Consuma essa munição ao soltá-la. Desfazer a armação não destrói a flecha, mas não devolve o ataque comprometido ou a Sequência.",
+    "depois": "A soltura é feita da sua posição real contra o mesmo alvo. Confira as exigências da Conclusão na armação e, na soltura, aqueles que dependem da situação atual. Pague os custos adicionais do ataque na armação. Eles não retornam se a armação for desfeita. Separe uma flecha disponível, que não pode servir a outro disparo enquanto estiver armada. Consuma essa munição ao soltá-la. Desfazer a armação não destrói a flecha, mas não devolve o ataque comprometido ou a Sequência.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-029",
+    "propostas": [
+      "R65-02-011"
+    ],
+    "bloco": "vanguarda--van-besta-conclusoes",
+    "antes": "A farpa e o uso são consumidos na declaração, mesmo no erro ou na resistência. Esta conservação vale para Acionar, não para o pagamento das Conclusões.",
+    "depois": "A farpa e o uso são consumidos na declaração, mesmo no erro ou na resistência. Essa permissão de ficar com o virote comum vale só para Acionar. As Conclusões seguem seu pagamento normal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-030",
+    "propostas": [
+      "R65-02-012"
+    ],
+    "bloco": "vanguarda--van-fogo",
+    "antes": "Trocar de Condução abandona o preparo anterior e sua Oportunidade, salvo as permissões de [Reorientar a Pressão](#vanguarda--van-fogo-conclusoes), de nível 11, para conservar uma Oportunidade na troca, e [Plano de Continuidade](#vanguarda--van-fogo-avanco), de nível 27, para começar outra Sequência com uma Oportunidade. Ela é consumida ao declarar seu uso, mesmo no erro ou na resistência, e não substitui Conduções acertadas.",
+    "depois": "Trocar de Condução abandona o preparo anterior e sua Oportunidade, salvo as permissões de [Reorientar a Pressão](#vanguarda--van-fogo-conclusoes), de nível 11, para manter uma Oportunidade na troca, e [Plano de Continuidade](#vanguarda--van-fogo-avanco), de nível 27, para começar outra Sequência com uma Oportunidade. Ela é consumida ao declarar seu uso, mesmo no erro ou na resistência, e não substitui Conduções acertadas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-031",
+    "propostas": [
+      "R65-01-012"
+    ],
+    "bloco": "vanguarda--van-fogo-avanco",
+    "antes": "Abrir contra outro alvo ou com outra categoria abandona o plano. Um erro não concede a Oportunidade nem renova o prazo. O uso da cena é gasto ao preparar a continuidade.",
+    "depois": "Abrir contra outro alvo ou com outra categoria abandona o plano. Se errar, você não recebe a Oportunidade nem renova o prazo. O uso da cena é gasto ao preparar a continuidade.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-032",
+    "propostas": [
+      "R65-03-013"
+    ],
+    "bloco": "vanguarda--van-executor",
+    "antes": "**Ação Bônus, uma vez por turno próprio.** Com um ataque corpo a corpo disponível contra o alvo da Sequência, sem ter Conduzido ou Concluído naquele turno, anuncie uma **Conclusão corpo a corpo com TR cujos requisitos já foram cumpridos**. O alvo precisa perceber você.",
+    "depois": "**Ação Bônus, uma vez por turno próprio.** Com um ataque corpo a corpo disponível contra o alvo da Sequência, sem ter Conduzido ou Concluído naquele turno, anuncie uma **Conclusão corpo a corpo com TR**, desde que já cumpra suas exigências. O alvo precisa perceber você.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-033",
+    "propostas": [
+      "R65-03-014"
+    ],
+    "bloco": "vanguarda--van-executor",
+    "antes": "Rasteira, Desarme e Quebrar o Ritmo permanecem disponíveis pelos requisitos comuns. Ponto Fraco não participa da Finta porque não exige TR.",
+    "depois": "Rasteira, Desarme e Quebrar o Ritmo continuam disponíveis se você cumprir as exigências normais. Ponto Fraco não participa da Finta porque não exige TR.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-034",
+    "propostas": [
+      "R65-03-015"
+    ],
+    "bloco": "vanguarda--van-executor-avanco",
+    "antes": "Depois da resposta à Finta, pode escolher **outra Conclusão corpo a corpo com TR**, diferente e cujos requisitos já tenham sido cumpridos.",
+    "depois": "Depois da resposta à Finta, pode escolher **outra Conclusão corpo a corpo com TR**, diferente, desde que já cumpra suas exigências.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-035",
+    "propostas": [
+      "R65-03-016"
+    ],
+    "bloco": "vanguarda--van-executor-avanco",
+    "antes": "**Uma vez por cena**, anuncie **duas Conclusões diferentes cujos requisitos já foram cumpridos** ao iniciar a Finta.",
+    "depois": "**Uma vez por cena**, anuncie **duas Conclusões diferentes que você já possa usar** ao iniciar a Finta.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-036",
+    "propostas": [
+      "R65-01-013"
+    ],
+    "bloco": "guia--guia",
+    "antes": "As habilidades deste Caminho e de suas Trilhas apoiam os companheiros. Elas não concedem ataques adicionais ao próprio Guia.",
+    "depois": "As habilidades deste Caminho e de suas Trilhas apoiam os companheiros. O próprio Guia não recebe ataques adicionais dessas habilidades.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-037",
+    "propostas": [
+      "R65-01-014"
+    ],
+    "bloco": "guia--guia-resposta",
+    "antes": "Golpe concede somente um ataque comum. Não concede uma Ação Atacar, básica de entidade ou etapa de Sequência. A resposta não desencadeia outra ação concedida. Essa proibição também impede uma nova Resposta Coordenada de outro Guia a partir dela. A conjuração de Classe 0 continua respeitando o limite geral de feitiços por turno.",
+    "depois": "Golpe permite fazer somente um ataque comum. Você não recebe uma Ação Atacar, uma básica de entidade ou uma etapa de Sequência. A resposta não desencadeia outra ação recebida por uma habilidade. Essa proibição também impede uma nova Resposta Coordenada de outro Guia a partir dela. A conjuração de Classe 0 continua respeitando o limite geral de feitiços por turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-038",
+    "propostas": [
+      "R65-01-015"
+    ],
+    "bloco": "guia--guia-obras-maiores",
+    "antes": "As obras maiores continuam sendo criadas a até **9 m** de você. Aumentar uma passagem não aumenta os 3 m concedidos por Avançar.",
+    "depois": "As obras maiores continuam sendo criadas a até **9 m** de você. Aumentar uma passagem não aumenta os 3 m de Avançar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-039",
+    "propostas": [
+      "R65-02-013"
+    ],
+    "bloco": "guia--guia-obra-uso",
+    "antes": "**Mudar de lugar.** Uma obra que não esteja sustentando ou protegendo ninguém reaparece num local livre que você enxergue a até **9 m**. Você pode mudar seu modelo. Ela conserva a vida restante, a versão que já foi paga e o prazo. Use as dimensões dessa versão no novo modelo.",
+    "depois": "**Mudar de lugar.** Uma obra que não esteja sustentando ou protegendo ninguém reaparece num local livre que você enxergue a até **9 m**. Você pode mudar seu modelo. Ela fica com a vida restante, a versão que já foi paga e o prazo. Use as dimensões dessa versão no novo modelo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-040",
+    "propostas": [
+      "R65-02-014"
+    ],
+    "bloco": "guia--guia-emergencia",
+    "antes": "A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma Abertura nova; pode apenas conservar uma que já existia, como explicado abaixo. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova.",
+    "depois": "A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma Abertura nova; só permite continuar com uma que já existia, como explicado abaixo. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-041",
+    "propostas": [
+      "R65-02-015"
+    ],
+    "bloco": "guia--guia-analista",
+    "antes": "Cada parte repassada começa com uma nova previsão, salvo [Padrão Decifrado](#guia--guia-padrao), habilidade de nível 27 que conserva uma leitura confirmada para novas Aberturas contra o mesmo inimigo. Reajustar o Plano mantém a leitura se continuar tratando do mesmo inimigo; trocar de inimigo exige outra previsão e perde a confirmação anterior.",
+    "depois": "Cada parte repassada começa com uma nova previsão, salvo [Padrão Decifrado](#guia--guia-padrao), habilidade de nível 27 que permite continuar usando uma leitura confirmada para novas Aberturas contra o mesmo inimigo. Reajustar o Plano mantém a leitura se continuar tratando do mesmo inimigo; trocar de inimigo exige outra previsão e perde a confirmação anterior.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-042",
+    "propostas": [
+      "R65-02-016"
+    ],
+    "bloco": "guia--guia-socorrista",
+    "antes": "Se o aliado sair da faixa de vida enquanto a Abertura estiver guardada, pode conservá-la até o prazo. Ao usá-la, confira novamente as condições do Cuidado; a Abertura continua funcionando mesmo quando não houver cura.",
+    "depois": "Se o aliado sair da faixa de vida enquanto a Abertura estiver guardada, pode ficar com ela até o fim do prazo. Ao usá-la, confira novamente as condições do Cuidado; a Abertura continua funcionando mesmo quando não houver cura.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-043",
+    "propostas": [
+      "R65-03-017"
+    ],
+    "bloco": "guia--guia-tratamento",
+    "antes": "A escolha também vale quando o aliado abandona a Abertura para receber o socorro antes. Cura e retirada de condição continuam sendo alternativas do mesmo Cuidado. Para preparar o Cuidado, o aliado precisa poder receber cura ou ter uma condição tratável. Quando recebê-lo, escolha uma das opções cujos requisitos ele cumprir naquele momento. Quem está acima da metade da vida e sem condição tratável não recebe um Cuidado apenas para guardá-lo.",
+    "depois": "A escolha também vale quando o aliado abandona a Abertura para receber o socorro antes. Cura e retirada de condição continuam sendo alternativas do mesmo Cuidado. Para preparar o Cuidado, o aliado precisa poder receber cura ou ter uma condição tratável. Quando recebê-lo, escolha uma das opções que ele possa receber naquele momento. Quem está acima da metade da vida e sem condição tratável não recebe um Cuidado apenas para guardá-lo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-044",
+    "propostas": [
+      "R65-01-016"
+    ],
+    "bloco": "emanador--ema-base",
+    "antes": "| Ofícios | Nenhum pelo Caminho. A Origem concede os dois iniciais. |",
+    "depois": "| Ofícios | Nenhum pelo Caminho. Você recebe os dois iniciais pela Origem. |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-045",
+    "propostas": [
+      "R65-01-017"
+    ],
+    "bloco": "emanador--ema-base",
+    "antes": "| TR treinado | Um à escolha, além do concedido pela Origem. |",
+    "depois": "| TR treinado | Um à escolha, além do treino que vem da Origem. |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-046",
+    "propostas": [
+      "R65-01-018"
+    ],
+    "bloco": "emanador--ema-desdobramento",
+    "antes": "Estas habilidades usam as peças da montagem. **Função** é o efeito produzido; **Forma** determina como ele alcança os alvos; **Melhorias** acrescentam efeitos ou modificam a aplicação. **Restrições** exigem uma dificuldade em todo uso e devolvem pontos gastos em Melhorias. Uma **Família Livre** concede desconto; uma **Fechada** impede os acessos indicados. Consulte [Fundamento](#fundamento--fundamento) para a ficha e as contas.",
+    "depois": "Estas habilidades usam as peças da montagem. **Função** é o efeito produzido; **Forma** determina como ele alcança os alvos; **Melhorias** acrescentam efeitos ou modificam a aplicação. **Restrições** exigem uma dificuldade em todo uso e devolvem pontos gastos em Melhorias. Uma **Família Livre** dá desconto; uma **Fechada** impede os acessos indicados. Consulte [Fundamento](#fundamento--fundamento) para a ficha e as contas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-047",
+    "propostas": [
+      "R65-02-017"
+    ],
+    "bloco": "emanador--ema-desdobramento",
+    "antes": "A versão alterada continua respeitando o Fundamento, as Famílias Fechadas, as incompatibilidades e os limites de dados. Conserve suas Restrições e seu [Efeito Próprio](#catalogo--melhoria-efeito-proprio), uma Melhoria criada com o mestre para uma capacidade que o catálogo não cobre. Trocar uma peça não pode dispensar uma obrigação e manter os pontos devolvidos por ela.",
+    "depois": "A versão alterada continua respeitando o Fundamento, as Famílias Fechadas, as incompatibilidades e os limites de dados. Mantenha suas Restrições e seu [Efeito Próprio](#catalogo--melhoria-efeito-proprio), uma Melhoria criada com o mestre para uma capacidade que o catálogo não cobre. Trocar uma peça não pode dispensar uma obrigação e manter os pontos devolvidos por ela.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-048",
+    "propostas": [
+      "R65-02-018"
+    ],
+    "bloco": "emanador--ema-modulacoes",
+    "antes": "Por **Desdobramento Técnico, recebido no nível 2**, acrescente uma Modulação Dominada ao feitiço. Pague **PE adicionais iguais ao custo em pontos da Melhoria**, depois do desconto de Família Livre. Conserve as propriedades e os dados que o feitiço já tinha.",
+    "depois": "Por **Desdobramento Técnico, recebido no nível 2**, acrescente uma Modulação Dominada ao feitiço. Pague **PE adicionais iguais ao custo em pontos da Melhoria**, depois do desconto de Família Livre. Mantenha as propriedades e os dados que o feitiço já tinha.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-049",
+    "propostas": [
+      "R65-03-018"
+    ],
+    "bloco": "emanador--ema-modulacoes",
+    "antes": "Os requisitos de cada Melhoria permanecem. Sustentação não transforma um bônus para o próximo ataque em benefício para todos os ataques, e Preparação segue seu próprio momento de pagamento e disparo.",
+    "depois": "Cada Melhoria continua com suas exigências. Sustentação não transforma um bônus para o próximo ataque em benefício para todos os ataques, e Preparação segue seu próprio momento de pagamento e disparo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-050",
+    "propostas": [
+      "R65-02-019"
+    ],
+    "bloco": "emanador--ema-familiares",
+    "antes": "Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela conserva a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.",
+    "depois": "Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela fica com a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-051",
+    "propostas": [
+      "R65-01-019"
+    ],
+    "bloco": "emanador--ema-familiares",
+    "antes": "Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição [Uma Vez](#catalogo--restricao-uma-vez), que limita os usos indicados na ficha. Uma versão alternativa não concede outro uso por cena.",
+    "depois": "Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição [Uma Vez](#catalogo--restricao-uma-vez), que limita os usos indicados na ficha. Você não ganha outro uso por cena ao usar a versão alternativa.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-052",
+    "propostas": [
+      "R65-02-020"
+    ],
+    "bloco": "emanador--ema-familiares",
+    "antes": "**Ampliar:** conserve a economia da Classe original e pague a diferença integral entre as Classes. Um feitiço Classe 2 com Afinidade, Ampliado para Classe 4, custa **3 + 6 = 9 PE**. Some depois os custos adicionais de Desdobramento e de outras habilidades. Errar não preserva a primeira conjuração reduzida.",
+    "depois": "**Ampliar:** mantenha a economia da Classe original e pague a diferença integral entre as Classes. Um feitiço Classe 2 com Afinidade, Ampliado para Classe 4, custa **3 + 6 = 9 PE**. Some depois os custos adicionais de Desdobramento e de outras habilidades. Errar não preserva a primeira conjuração reduzida.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-053",
+    "propostas": [
+      "R65-01-020"
+    ],
+    "bloco": "emanador--ema-forma",
+    "antes": "Recalcule os custos e limites da Forma e das funções, incluindo a base devida e as devoluções aproveitáveis. Toque concede devolução Leve sem ocupar vaga de Restrição; Aura não concede devolução. Uma troca que deixe uma Restrição incompatível exige retirar sua devolução e conferir a montagem novamente.",
+    "depois": "Recalcule os custos e limites da Forma e das funções, incluindo a base devida e as devoluções aproveitáveis. Toque dá devolução Leve sem ocupar vaga de Restrição. Aura fica sem devolução. Uma troca que deixe uma Restrição incompatível exige retirar sua devolução e conferir a montagem novamente.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-054",
+    "propostas": [
+      "R65-03-019"
+    ],
+    "bloco": "emanador--ema-instintiva",
+    "antes": "A Expressão Familiar correspondente recebe o mesmo benefício quando usada como Padrão. Os limites da própria ficha, seus requisitos e as despesas adicionais continuam valendo.",
+    "depois": "A Expressão Familiar correspondente recebe o mesmo benefício quando usada como Padrão. Os limites da própria ficha, suas condições de uso e as despesas adicionais continuam valendo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-055",
+    "propostas": [
+      "R65-01-021"
+    ],
+    "bloco": "emanador--ema-instintiva",
+    "antes": "Escolha **uma alternativa completa de custo**, sem aplicar uma redução sobre outra. Afinidade e Instintiva usam a Classe original mais a diferença integral de Ampliar. A Melhoria [Cobrança](#catalogo--melhoria-cobranca) concede desconto quando a criatura marcada chega a zero de vida; o Talento [Eco](#catalogo--cat-passivas-2-recursos) o concede quando um feitiço seu reduz um inimigo a zero. Ambos usam a metade do custo normal da Classe conjurada. Consuma os benefícios cujo gatilho seja aquela primeira ou próxima conjuração, mesmo se escolher outro desconto.",
+    "depois": "Escolha **uma alternativa completa de custo**, sem aplicar uma redução sobre outra. Afinidade e Instintiva usam a Classe original mais a diferença integral de Ampliar. A Melhoria [Cobrança](#catalogo--melhoria-cobranca) dá desconto quando a criatura marcada chega a zero de vida; o Talento [Eco](#catalogo--cat-passivas-2-recursos) dá desconto quando um feitiço seu reduz um inimigo a zero. Ambos usam a metade do custo normal da Classe conjurada. Consuma os benefícios cujo gatilho seja aquela primeira ou próxima conjuração, mesmo se escolher outro desconto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-056",
+    "propostas": [
+      "R65-01-022"
+    ],
+    "bloco": "emanador--ema-instintiva",
+    "antes": "O [Ritual](#ritual--ritual) reforça uma conjuração com preparação e pode conceder desconto de energia. Um desconto fixo de Ritual entra antes da metade, na base da alternativa escolhida, com mínimo de 1. A base de 1 PE de Instintiva não recebe novos abatimentos. Some depois os custos de Desdobramento, do [Impulso Técnico do Catalisador](#emanador--ema-impulso), de [Sobrecusto](#catalogo--restricao-sobrecusto), Restrição que cobra PE adicionais, e de outras despesas independentes.",
+    "depois": "O [Ritual](#ritual--ritual) reforça uma conjuração com preparação e pode reduzir o custo de energia. Um desconto fixo de Ritual entra antes da metade, na base da alternativa escolhida, com mínimo de 1. A base de 1 PE de Instintiva não recebe novos abatimentos. Some depois os custos de Desdobramento, do [Impulso Técnico do Catalisador](#emanador--ema-impulso), de [Sobrecusto](#catalogo--restricao-sobrecusto), Restrição que cobra PE adicionais, e de outras despesas independentes.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-057",
+    "propostas": [
+      "R65-02-021"
+    ],
+    "bloco": "emanador--ema-instintiva",
+    "antes": "Uma regra que dê expressamente conjuração gratuita conserva seu procedimento próprio. Mudar a ação exige conferir novamente os benefícios que dependem de Padrão.",
+    "depois": "Uma regra que dê expressamente conjuração gratuita segue seu procedimento próprio. Mudar a ação exige conferir novamente os benefícios que dependem de Padrão.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-058",
+    "propostas": [
+      "R65-03-020"
+    ],
+    "bloco": "emanador--ema-condutor",
+    "antes": "Sua arma e seus feitiços dividem a mesma rotina. Você pode alternar os dois ou desenvolver o combate com a categoria escolhida. O vínculo acrescenta propriedades à arma sem dispensar seus requisitos de uso.",
+    "depois": "Sua arma e seus feitiços dividem a mesma rotina. Você pode alternar os dois ou desenvolver o combate com a categoria escolhida. O vínculo acrescenta propriedades à arma sem dispensar o que ela exige para ser usada.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-059",
+    "propostas": [
+      "R65-03-021"
+    ],
+    "bloco": "emanador--ema-condutor",
+    "antes": "Escolha **uma categoria de armas** e receba treino com ela. Escolha **Essência ou Inteligência**: pode usar o atributo no acerto e dano com suas armas dessa categoria. Os requisitos de Força continuam valendo.",
+    "depois": "Escolha **uma categoria de armas** e receba treino com ela. Escolha **Essência ou Inteligência**: pode usar o atributo no acerto e dano com suas armas dessa categoria. As armas continuam exigindo a mesma Força.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-060",
+    "propostas": [
+      "R65-02-022",
+      "R65-03-022"
+    ],
+    "bloco": "emanador--ema-condutor",
+    "antes": "São duas resoluções separadas. O feitiço não é acrescentado ao dano da arma, e o ataque conserva Canalizar em Golpe quando seus requisitos permitirem.",
+    "depois": "São duas resoluções separadas. O feitiço não é acrescentado ao dano da arma, e o ataque continua com Canalizar em Golpe quando você cumprir suas exigências.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-061",
+    "propostas": [
+      "R65-02-023"
+    ],
+    "bloco": "emanador--ema-artes",
+    "antes": "Escolha **uma Arte de Cadência**, entre Cadência Marcial e Cadência Expandida, e **uma Propriedade de Vínculo** do catálogo apresentado a seguir. No nível 19, aprenda uma segunda Propriedade diferente. Pode refazer as escolhas ao receber os níveis **19 e 27**, conservando uma Arte e a quantidade de Propriedades do seu nível.",
+    "depois": "Escolha **uma Arte de Cadência**, entre Cadência Marcial e Cadência Expandida, e **uma Propriedade de Vínculo** do catálogo apresentado a seguir. No nível 19, aprenda uma segunda Propriedade diferente. Pode refazer as escolhas ao receber os níveis **19 e 27**, com uma Arte e a quantidade de Propriedades do seu nível.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-062",
+    "propostas": [
+      "R65-01-023"
+    ],
+    "bloco": "emanador--ema-artes",
+    "antes": "Os dois ataques são resolvidos separadamente. A Arte não concede uma Ação Bônus adicional nem transforma o golpe da Bônus em outra Ação Atacar.",
+    "depois": "Os dois ataques são resolvidos separadamente. A Arte não dá direito a uma Ação Bônus adicional nem transforma o golpe da Bônus em outra Ação Atacar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-063",
+    "propostas": [
+      "R65-02-024"
+    ],
+    "bloco": "emanador--ema-artes",
+    "antes": "Confira a Classe de fato usada, inclusive depois de Ampliar. Com maior Classe 3, o limite é 1. Com 4 ou 5, é 2. Com 6 ou 7, é 3. A conjuração conserva o limite de feitiços do turno.",
+    "depois": "Confira a Classe de fato usada, inclusive depois de Ampliar. Com maior Classe 3, o limite é 1. Com 4 ou 5, é 2. Com 6 ou 7, é 3. A conjuração continua sujeita ao limite de feitiços do turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-064",
+    "propostas": [
+      "R65-03-023"
+    ],
+    "bloco": "emanador--ema-propriedades",
+    "antes": "Somente uma arma comum ou de **Grau 4 ou 3** recebe esta Propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria, cujo requisito de Força você cumpra.",
+    "depois": "Somente uma arma comum ou de **Grau 4 ou 3** recebe esta Propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria, que você tenha Força suficiente para usar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-065",
+    "propostas": [
+      "R65-02-025"
+    ],
+    "bloco": "emanador--ema-propriedades",
+    "antes": "Conserve Grau, Vida do objeto e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.",
+    "depois": "Mantenha Grau, Vida do objeto e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-066",
+    "propostas": [
+      "R65-02-026"
+    ],
+    "bloco": "emanador--ema-propriedades-apoio",
+    "antes": "Ao tocá-la, você ou uma criatura autorizada pode rever e ouvir o registro. Cada arma conserva uma gravação até outra substituí-la. A propriedade não enxerga através de obstáculos nem registra o que não poderia ser percebido ali.",
+    "depois": "Ao tocá-la, você ou uma criatura autorizada pode rever e ouvir o registro. Cada arma guarda uma gravação até outra substituí-la. A propriedade não enxerga através de obstáculos nem registra o que não poderia ser percebido ali.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-067",
+    "propostas": [
+      "R65-02-027",
+      "R65-03-024"
+    ],
+    "bloco": "emanador--ema-manifestacao",
+    "antes": "Confira visão, trajeto e requisitos ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque conserva sua distância ao alvo. Aura permanece centrada em você. Queima-Roupa conserva seus alvos a até 1,5 m em Projétil ou a origem da área em você, dependendo da Forma escolhida.",
+    "depois": "Confira visão, trajeto e as exigências de uso ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque continua com o mesmo alcance até o alvo. Aura permanece centrada em você. Queima-Roupa ainda limita seus alvos a até 1,5 m em Projétil ou mantém a origem da área em você, dependendo da Forma escolhida.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-068",
+    "propostas": [
+      "R65-01-024"
+    ],
+    "bloco": "emanador--ema-repetir",
+    "antes": "Só pode haver **uma Modulação Forçada por conjuração**, contando a que veio de Eco. Apenas ela pode exceder o limite de Melhorias em uma unidade. Uma troca por Eco ocupa a vaga da peça substituída, sem conceder outra vaga.",
+    "depois": "Só pode haver **uma Modulação Forçada por conjuração**, contando a que veio de Eco. Apenas ela pode exceder o limite de Melhorias em uma unidade. Uma troca por Eco ocupa a vaga da peça substituída, sem dar direito a outra vaga.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-069",
+    "propostas": [
+      "R65-02-028"
+    ],
+    "bloco": "emanador--ema-repetir",
+    "antes": "A alteração reaproveitada **não cria outro Eco por si só**. [Contraponto](#emanador--ema-contraponto), recebido no nível 11, permite um novo Desdobramento para guardar uma alteração diferente daquela apenas repetida. [Reverberação](#emanador--ema-contraponto), de nível 19, permite conservar um Eco quando ocorrer seu gatilho, pagando o custo indicado.",
+    "depois": "A alteração reaproveitada **não cria outro Eco por si só**. [Contraponto](#emanador--ema-contraponto), recebido no nível 11, permite um novo Desdobramento para guardar uma alteração diferente daquela apenas repetida. [Reverberação](#emanador--ema-contraponto), de nível 19, permite guardar um Eco para outro uso quando ocorrer seu gatilho, pagando o custo indicado.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-070",
+    "propostas": [
+      "R65-02-029"
+    ],
+    "bloco": "emanador--ema-contraponto",
+    "antes": "Quando gastar um Eco numa conjuração, escolha **uma criatura antes das rolagens**. Se um ataque contra ela errar ou ela passar no primeiro TR da aplicação, pode gastar sua **Reação** para conservar o Eco até o fim do seu próximo turno.",
+    "depois": "Quando gastar um Eco numa conjuração, escolha **uma criatura antes das rolagens**. Se um ataque contra ela errar ou ela passar no primeiro TR da aplicação, pode gastar sua **Reação** para guardar o Eco até o fim do seu próximo turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-071",
+    "propostas": [
+      "R65-02-030"
+    ],
+    "bloco": "emanador--ema-contraponto",
+    "antes": "A conservação não transforma o erro em acerto nem devolve os PE pagos. Reutilizar o Eco em outra conjuração exige novamente seu custo de uso.",
+    "depois": "Guardar o Eco não transforma o erro em acerto nem devolve os PE pagos. Reutilizar o Eco em outra conjuração exige novamente seu custo de uso.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-072",
+    "propostas": [
+      "R65-02-031",
+      "R65-03-025"
+    ],
+    "bloco": "emanador--ema-contraponto",
+    "antes": "Se Contraponto também produzir outro Eco, escolha qual guardar dentro da sua capacidade. Na capacidade de um, não conserve ambos. A conjuração pode usar uma peça Pesada pelo Desdobramento pago, desde que cumpra seus requisitos, mas não registrá-la como Eco.",
+    "depois": "Se Contraponto também produzir outro Eco, escolha qual guardar dentro da sua capacidade. Se só puder guardar um, escolha qual fica. A conjuração pode usar uma peça Pesada pelo Desdobramento pago, desde que cumpra o que a peça exige, mas não registrá-la como Eco.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-073",
+    "propostas": [
+      "R65-02-032"
+    ],
+    "bloco": "emanador--ema-acorde",
+    "antes": "Você pode manter **dois Ecos diferentes**. Cada um dura até o fim do **segundo turno seu seguinte** à criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.",
+    "depois": "Você pode manter **dois Ecos diferentes**. Cada um dura até o fim do **segundo turno seu seguinte** ao momento em que foi criado ou guardado de novo. Ao criar outro além da capacidade, escolha qual substituir.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-074",
+    "propostas": [
+      "R65-02-033"
+    ],
+    "bloco": "emanador--ema-acorde",
+    "antes": "Reverberação pode preservar **apenas um** dos Ecos gastos nessa conjuração, com uma Reação e seu gatilho normal. Não conserva os dois por um único erro. Se também registrar uma alteração nova por Contraponto, confira a capacidade de dois.",
+    "depois": "Reverberação pode preservar **apenas um** dos Ecos gastos nessa conjuração, com uma Reação e seu gatilho normal. Um único erro não permite guardar os dois. Se também registrar uma alteração nova por Contraponto, confira a capacidade de dois.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-075",
+    "propostas": [
+      "R65-02-034"
+    ],
+    "bloco": "emanador--ema-acorde",
+    "antes": "O uso por cena é gasto ao declarar o consumo conjunto. Errar não devolve esse uso, mesmo se Reverberação permitir conservar um dos Ecos.",
+    "depois": "O uso por cena é gasto ao declarar o consumo conjunto. Errar não devolve esse uso, mesmo se Reverberação permitir guardar um dos Ecos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-076",
+    "propostas": [
+      "R65-01-025"
+    ],
+    "bloco": "evocador--evocador",
+    "antes": "| Ofícios | O Caminho não concede ofícios. Os dois iniciais vêm da Origem. |",
+    "depois": "| Ofícios | Você não recebe ofícios pelo Caminho. Os dois iniciais vêm da Origem. |",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-077",
+    "propostas": [
+      "R65-02-035"
+    ],
+    "bloco": "evocador--ev-vinculo",
+    "antes": "**Usos por rodada:** renovam no começo do seu turno. Até o começo do próximo, conserve os usos marcados, inclusive durante os turnos das outras criaturas.",
+    "depois": "**Usos por rodada:** renovam no começo do seu turno. Até o começo do próximo, mantenha os usos marcados, inclusive durante os turnos das outras criaturas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-078",
+    "propostas": [
+      "R65-02-036"
+    ],
+    "bloco": "evocador--ev-vinculo",
+    "antes": "Conserve os pontos não gastos até usá-los ou o combate terminar. Os pontos pertencem ao conjunto.",
+    "depois": "Guarde os pontos que ainda não gastou até usá-los ou o combate terminar. Os pontos pertencem ao conjunto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-079",
+    "propostas": [
+      "R65-02-037"
+    ],
+    "bloco": "evocador--ev-vinculo",
+    "antes": "Você mantém um aprimoramento em uma invocação por vez. Esse benefício é chamado de **aprimoramento principal**. No começo do seu próximo turno, pode conservar a escolha ou mudar a beneficiária, o benefício ou ambos.",
+    "depois": "Você mantém um aprimoramento em uma invocação por vez. Esse benefício é chamado de **aprimoramento principal**. No começo do seu próximo turno, pode continuar com a escolha ou mudar a beneficiária, o benefício ou ambos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-080",
+    "propostas": [
+      "R65-02-038"
+    ],
+    "bloco": "evocador--ev-usos",
+    "antes": "**Mudanças.** Mudar o aprimoramento ou a beneficiária conserva os usos marcados e os metros gastos. Benefícios diferentes podem ser usados na mesma rodada. [Corrigir uma Falha](#evocador--ev-intervencoes) é a intervenção de nível 2 que permite repetir uma rolagem falhada. Essa repetição da mesma tentativa conserva a vantagem original.",
+    "depois": "**Mudanças.** Mudar o aprimoramento ou a beneficiária mantém os registros dos usos e dos metros já gastos. Benefícios diferentes podem ser usados na mesma rodada. [Corrigir uma Falha](#evocador--ev-intervencoes) é a intervenção de nível 2 que permite repetir uma rolagem falhada. Essa repetição da mesma tentativa usa a mesma vantagem da rolagem original.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-081",
+    "propostas": [
+      "R65-02-039"
+    ],
+    "bloco": "evocador--ev-aprimoramentos",
+    "antes": "Durante o trajeto, ela fica protegida dos ataques de oportunidade das criaturas que está deixando para trás. O novo adversário conserva seus gatilhos normais. Uma interrupção externa encerra a travessia onde ocorrer.",
+    "depois": "Durante o trajeto, ela fica protegida dos ataques de oportunidade das criaturas que está deixando para trás. O novo adversário continua seguindo seus gatilhos normais. Uma interrupção externa encerra a travessia onde ocorrer.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-082",
+    "propostas": [
+      "R65-03-026"
+    ],
+    "bloco": "evocador--ev-intervencoes",
+    "antes": "**Requisitos comuns:** você está consciente e percebe a destinatária ativa a até **18 m**. Ela pode ser qualquer invocação sua que cumpra os requisitos da intervenção.",
+    "depois": "**Requisitos comuns:** você está consciente e percebe a destinatária ativa a até **18 m**. Ela pode ser qualquer invocação sua que cumpra o que a intervenção exige.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-083",
+    "propostas": [
+      "R65-02-040",
+      "R65-03-027"
+    ],
+    "bloco": "evocador--ev-intervencoes",
+    "antes": "Orientações de movimento, preparo e recolhimento precisam ser percebidas e compreendidas pela invocação. A capacidade original conserva seus custos, seus requisitos e suas durações.",
+    "depois": "Orientações de movimento, preparo e recolhimento precisam ser percebidas e compreendidas pela invocação. A capacidade original segue com seus custos, suas condições de uso e suas durações.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-084",
+    "propostas": [
+      "R65-02-041"
+    ],
+    "bloco": "evocador--ev-intervencoes",
+    "antes": "Escolha uma invocação sua ativa que perceba a até 18 m e um aprimoramento conhecido. Você pode mudar **a beneficiária, o benefício ou ambos**. A escolha anterior termina, e a nova segue a duração comum.\n\nConserve os usos já marcados no conjunto.",
+    "depois": "Escolha uma invocação sua ativa que perceba a até 18 m e um aprimoramento conhecido. Você pode mudar **a beneficiária, o benefício ou ambos**. A escolha anterior termina, e a nova segue a duração comum.\n\nMantenha os usos já marcados no conjunto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-085",
+    "propostas": [
+      "R65-02-042"
+    ],
+    "bloco": "evocador--ev-posicao",
+    "antes": "**Exemplo.** O atirador inimigo sai de trás de uma coluna. A ave conserva 6 m de Movimento e a coletiva. Você paga um ponto e a coletiva para movê-la até 4,5 m depois do deslocamento dele. Só os ataques de oportunidade desse inimigo ficam impedidos. Outro adversário no trajeto ainda pode reagir.",
+    "depois": "**Exemplo.** O atirador inimigo sai de trás de uma coluna. A ave ainda tem 6 m de Movimento e a coletiva. Você paga um ponto e a coletiva para movê-la até 4,5 m depois do deslocamento dele. Só os ataques de oportunidade desse inimigo ficam impedidos. Outro adversário no trajeto ainda pode reagir.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-086",
+    "propostas": [
+      "R65-01-026"
+    ],
+    "bloco": "evocador--ev-posicao",
+    "antes": "O movimento usa os metros que ainda restam à ave. Se ela já percorreu seus 9 m, a intervenção não lhe concede metros novos. Uma movimentação forçada do inimigo não abre essa janela.",
+    "depois": "O movimento usa os metros que ainda restam à ave. Se ela já percorreu seus 9 m, a intervenção não dá mais metros à ave. Uma movimentação forçada do inimigo não abre essa janela.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-087",
+    "propostas": [
+      "R65-02-043"
+    ],
+    "bloco": "evocador--ev-preparacao",
+    "antes": "Conserve a destinatária, a especial, o prazo e os recursos investidos. O novo gatilho corresponde a uma ocorrência futura. A execução segue os custos normais do preparo.",
+    "depois": "Mantenha a destinatária, a especial, o prazo e os recursos investidos. O novo gatilho corresponde a uma ocorrência futura. A execução segue os custos normais do preparo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-088",
+    "propostas": [
+      "R65-03-028"
+    ],
+    "bloco": "evocador--ev-complementar",
+    "antes": "Você precisa estar consciente e percebê-la. A invocação deve estar ativa, sem Atordoado, compreender sua orientação e cumprir os requisitos da ação e de sua intenção.",
+    "depois": "Você precisa estar consciente e percebê-la. A invocação deve estar ativa, sem Atordoado, compreender sua orientação e cumprir o que a ação e sua intenção exigem.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-089",
+    "propostas": [
+      "R65-01-027",
+      "R65-02-044"
+    ],
+    "bloco": "evocador--ev-complementar",
+    "antes": "**Principal e adicional.** A tabela é determinada somente pelo aprimoramento principal. [Combinar Aprimoramentos](#evocador--ev-combinar), habilidade de nível 15, permite manter um aprimoramento adicional; ele concede seus efeitos próprios. Mudanças de beneficiária ou principal conservam o uso já marcado de Atuação Complementar.",
+    "depois": "**Principal e adicional.** A tabela é determinada somente pelo aprimoramento principal. [Combinar Aprimoramentos](#evocador--ev-combinar), habilidade de nível 15, permite manter um aprimoramento adicional; os efeitos desse aprimoramento também se aplicam. Mudanças de beneficiária ou principal mantêm o uso já marcado de Atuação Complementar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-090",
+    "propostas": [
+      "R65-02-045"
+    ],
+    "bloco": "evocador--ev-combinar",
+    "antes": "Enquanto a combinação durar, Mudar o Aprimoramento permite alterar a beneficiária, os dois aprimoramentos ou ambos, pelo custo normal de **2 Pontos de Vínculo**. Indique novamente o principal e conserve o prazo já pago.",
+    "depois": "Enquanto a combinação durar, Mudar o Aprimoramento permite alterar a beneficiária, os dois aprimoramentos ou ambos, pelo custo normal de **2 Pontos de Vínculo**. Indique novamente o principal e mantenha o prazo já pago.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-091",
+    "propostas": [
+      "R65-02-046"
+    ],
+    "bloco": "evocador--ev-combinar",
+    "antes": "Os 4 PE são pagos para iniciar ou renovar a combinação. Reorganizar uma combinação ainda ativa conserva esse pagamento. Os usos dos benefícios permanecem compartilhados pelo conjunto.",
+    "depois": "Os 4 PE são pagos para iniciar ou renovar a combinação. O pagamento continua valendo ao reorganizar uma combinação ainda ativa. Os usos dos benefícios permanecem compartilhados pelo conjunto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-092",
+    "propostas": [
+      "R65-02-047",
+      "R65-03-029"
+    ],
+    "bloco": "evocador--ev-combinar",
+    "antes": "Cada utilização de uma intervenção pode receber um desconto. Ela conserva seus requisitos, demais custos e limite de uso.",
+    "depois": "Cada utilização de uma intervenção pode receber um desconto. Ela mantém suas exigências, os demais custos e o limite de uso.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-093",
+    "propostas": [
+      "R65-03-030"
+    ],
+    "bloco": "evocador--ev-combinada",
+    "antes": "Todas as participantes precisam estar ativas, ser percebidas por você a até 18 m, compreender o comando e estar com **todas as suas básicas da rodada disponíveis**. Uma básica gasta, investida ou perdida por condição impede essa participação. Ter zero básicas disponíveis não cumpre o requisito.",
+    "depois": "Todas as participantes precisam estar ativas, ser percebidas por você a até 18 m, compreender o comando e estar com **todas as suas básicas da rodada disponíveis**. Uma básica gasta, investida ou perdida por condição impede essa participação. Com zero básicas disponíveis, a invocação também fica fora.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-094",
+    "propostas": [
+      "R65-02-048",
+      "R65-03-031"
+    ],
+    "bloco": "evocador--ev-combinada",
+    "antes": "**Resolva em sequência.** Pague os PE da primeira especial e resolva-a completamente. Depois das respostas que ela provocar, a segunda começa imediatamente: escolha seus alvos, confira seus requisitos e pague os PE e demais custos dela. Cada capacidade conserva seu alcance e suas propriedades.",
+    "depois": "**Resolva em sequência.** Pague os PE da primeira especial e resolva-a completamente. Depois das respostas que ela provocar, a segunda começa imediatamente: escolha seus alvos, confira o que ela exige e pague os PE e demais custos dela. Cada capacidade segue seu próprio alcance e suas propriedades.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-095",
+    "propostas": [
+      "R65-02-049"
+    ],
+    "bloco": "evocador--ev-combinada",
+    "antes": "Esta habilidade permite as duas especiais no mesmo turno, inclusive quando ambas têm Classe positiva. Elas ocupam suas conjurações daquele turno. A permissão cobre apenas as duas execuções desta combinação. Conserve os usos compartilhados dos aprimoramentos e intervenções. A orientação posterior de cada especial segue o procedimento de sua destinatária.",
+    "depois": "Esta habilidade permite as duas especiais no mesmo turno, inclusive quando ambas têm Classe positiva. Elas ocupam suas conjurações daquele turno. A permissão cobre apenas as duas execuções desta combinação. Mantenha os usos compartilhados dos aprimoramentos e intervenções. A orientação posterior de cada especial segue o procedimento de sua destinatária.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-096",
+    "propostas": [
+      "R65-02-050"
+    ],
+    "bloco": "evocador--ev-combinada",
+    "antes": "Você posiciona suas invocações usando os Movimentos próprios delas e conserva suas ações. Usa a Ação Completa para combinar duas especiais, pagando também todas as básicas participantes. Os PE são cobrados quando cada execução começa.",
+    "depois": "Você posiciona suas invocações usando os Movimentos próprios delas sem gastar suas próprias ações. Usa a Ação Completa para combinar duas especiais, pagando também todas as básicas participantes. Os PE são cobrados quando cada execução começa.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-097",
+    "propostas": [
+      "R65-02-051",
+      "R65-03-032"
+    ],
+    "bloco": "evocador--ev-principal-especial",
+    "antes": "Depois de resolver a especial, suas respostas e a orientação posterior, ela pode executar imediatamente **uma capacidade básica própria**, usando a segunda oportunidade. Cada capacidade conserva o alcance e os requisitos escritos em sua ficha.",
+    "depois": "Depois de resolver a especial, suas respostas e a orientação posterior, ela pode executar imediatamente **uma capacidade básica própria**, usando a segunda oportunidade. Cada capacidade segue o alcance e as exigências escritas em sua ficha.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-098",
+    "propostas": [
+      "R65-01-028"
+    ],
+    "bloco": "evocador--ev-principal-especial",
+    "antes": "Na montagem da entidade, **Famílias** definem acessos a efeitos. Uma **Fechada** impede as escolhas indicadas; uma **Livre** concede desconto nas Melhorias compatíveis. As regras de cada Família estão em [Fundamento](#fundamento--fundamento).",
+    "depois": "Na montagem da entidade, **Famílias** definem acessos a efeitos. Uma **Fechada** impede as escolhas indicadas; uma **Livre** dá desconto nas Melhorias compatíveis. As regras de cada Família estão em [Fundamento](#fundamento--fundamento).",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-099",
+    "propostas": [
+      "R65-01-029",
+      "R65-03-033"
+    ],
+    "bloco": "evocador--ev-principal-especial",
+    "antes": "Anote seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento concedido por Repertório Ampliado é de **Categoria de Efeito 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre os talentos permitidos para entidades em **Criar uma invocação**, cumprindo seus requisitos. As escolhas seguem os procedimentos normais de revisão da ficha.",
+    "depois": "Anote seus efeitos, condições de uso e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento que você recebe por Repertório Ampliado é de **Categoria de Efeito 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre os talentos permitidos para entidades em **Criar uma invocação**, cumprindo o que cada talento exige. As escolhas seguem os procedimentos normais de revisão da ficha.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-100",
+    "propostas": [
+      "R65-02-052"
+    ],
+    "bloco": "evocador--ev-principal-troca",
+    "antes": "**Mais de uma ativa.** Se uma entrada deixar duas ou mais entidades ativas, os benefícios da Trilha terminam e a oportunidade adicional ainda não usada se encerra. A básica comum de cada corpo conserva seu registro.",
+    "depois": "**Mais de uma ativa.** Se uma entrada deixar duas ou mais entidades ativas, os benefícios da Trilha terminam e a oportunidade adicional ainda não usada se encerra. O registro da básica comum de cada corpo continua valendo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-101",
+    "propostas": [
+      "R65-02-053"
+    ],
+    "bloco": "evocador--ev-principal-protecao",
+    "antes": "Pague os Pontos de Vínculo indicados. A intervenção integra sua janela sem outra ação ou Reação. As entradas, trocas e capacidades originais conservam seus custos.",
+    "depois": "Pague os Pontos de Vínculo indicados. A intervenção integra sua janela sem outra ação ou Reação. Os custos originais das entradas, trocas e capacidades continuam valendo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-102",
+    "propostas": [
+      "R65-02-054"
+    ],
+    "bloco": "evocador--ev-principal-protecao",
+    "antes": "Faça a mudança antes da segunda atuação. O novo benefício segue a duração comum. Conserve os usos já marcados no conjunto.",
+    "depois": "Faça a mudança antes da segunda atuação. O novo benefício segue a duração comum. Mantenha os usos já marcados no conjunto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-103",
+    "propostas": [
+      "R65-02-055"
+    ],
+    "bloco": "evocador--ev-principal-continuidade",
+    "antes": "Resolva a continuação imediatamente, usando a básica restante e pagando seus PE e demais custos. O comando original cobre as duas especiais. Esta habilidade permite executá-las no mesmo turno, inclusive quando ambas têm Classe positiva, e elas ocupam seu limite de conjurações naquele turno. Cada capacidade conserva seu alcance e suas propriedades.",
+    "depois": "Resolva a continuação imediatamente, usando a básica restante e pagando seus PE e demais custos. O comando original cobre as duas especiais. Esta habilidade permite executá-las no mesmo turno, inclusive quando ambas têm Classe positiva, e elas ocupam seu limite de conjurações naquele turno. Cada capacidade segue seu próprio alcance e suas propriedades.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-104",
+    "propostas": [
+      "R65-03-034"
+    ],
+    "bloco": "evocador--ev-principal-reflexa",
+    "antes": "Use a intervenção na sua janela, cumprindo seus requisitos e limites. O efeito e a duração permanecem iguais.",
+    "depois": "Use a intervenção na sua janela, respeitando suas exigências e seus limites. O efeito e a duração permanecem iguais.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-105",
+    "propostas": [
+      "R65-02-056"
+    ],
+    "bloco": "evocador--ev-principal-reflexa",
+    "antes": "Você comanda a especial antes de gastar as básicas. Depois da resolução, decide conservar energia com a básica própria ou, a partir do nível 19, pagar a especial menor de continuidade.",
+    "depois": "Você comanda a especial antes de gastar as básicas. Depois da resolução, decide usar a básica própria para poupar energia ou, a partir do nível 19, pagar a especial menor de continuidade.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-106",
+    "propostas": [
+      "R65-02-057"
+    ],
+    "bloco": "evocador--ev-principal-reflexa",
+    "antes": "A ave executa a primeira especial com Precisão à Distância. Você usa Adaptar o Aprimoramento para passar a Proteção Reforçada. A ave realiza a segunda atuação e conserva a proteção para a próxima ameaça em que ela se aplique.",
+    "depois": "A ave executa a primeira especial com Precisão à Distância. Você usa Adaptar o Aprimoramento para passar a Proteção Reforçada. A ave realiza a segunda atuação e fica com a proteção para a próxima ameaça em que ela se aplique.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-107",
+    "propostas": [
+      "R65-02-058"
+    ],
+    "bloco": "evocador--ev-parceria",
+    "antes": "*Você e suas invocações combinam atuações diferentes. Uma especial abre espaço para seu golpe. Outra escolha concentra o ataque em você. Uma criatura que ficou em apoio conserva uma resposta contra quem o atingir.*",
+    "depois": "*Você e suas invocações combinam atuações diferentes. Uma especial abre espaço para seu golpe. Outra escolha concentra o ataque em você. Uma criatura que ficou em apoio ainda tem uma resposta contra quem o atingir.*",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-108",
+    "propostas": [
+      "R65-01-030"
+    ],
+    "bloco": "evocador--ev-parceria-aprimoramentos",
+    "antes": "**Usos compartilhados:** os três efeitos usam o benefício ofensivo dos aprimoramentos, uma vez por rodada para o conjunto, renovado no começo do turno do invocador. Marque o uso quando iniciar a execução concedida: o ataque ou, a partir do nível 19, o feitiço que o substitui. Os usos anteriores permanecem registrados nas mudanças e trocas.",
+    "depois": "**Usos compartilhados:** os três efeitos usam o benefício ofensivo dos aprimoramentos, uma vez por rodada para o conjunto, renovado no começo do turno do invocador. Marque o uso quando começar a executar a opção que o benefício permite: o ataque ou, a partir do nível 19, o feitiço que o substitui. Os usos anteriores permanecem registrados nas mudanças e trocas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-109",
+    "propostas": [
+      "R65-02-059"
+    ],
+    "bloco": "evocador--ev-parceria-complementar",
+    "antes": "A ave mantém Acompanhar a Especial. Você comanda sua especial pela Padrão e pela básica da ave, pagando os PE. Depois, usa sua Bônus para um ataque com sua arma. Se houver uma segunda invocação, ela conserva a básica normal.",
+    "depois": "A ave mantém Acompanhar a Especial. Você comanda sua especial pela Padrão e pela básica da ave, pagando os PE. Depois, usa sua Bônus para um ataque com sua arma. Se houver uma segunda invocação, ela ainda tem a básica normal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-110",
+    "propostas": [
+      "R65-03-035"
+    ],
+    "bloco": "evocador--ev-parceria-complementar",
+    "antes": "O lobo mantém Resposta ao Agressor. Ele usa a básica em Ajudar numa tentativa que possa apoiar pelas regras da ação. Depois, no turno inimigo, você é atingido. Se os requisitos ainda forem cumpridos, o lobo usa a coletiva para executar sua básica ofensiva contra o agressor. A ação de apoio anterior é compatível com essa resposta.",
+    "depois": "O lobo mantém Resposta ao Agressor. Ele usa a básica em Ajudar numa tentativa que possa apoiar pelas regras da ação. Depois, no turno inimigo, você é atingido. Se as exigências ainda forem cumpridas, o lobo usa a coletiva para executar sua básica ofensiva contra o agressor. A ação de apoio anterior é compatível com essa resposta.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-111",
+    "propostas": [
+      "R65-03-036"
+    ],
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "antes": "**Requisitos comuns:** você está consciente e percebe a invocação participante ativa a até **18 m**. Cada uso envolve você e **uma** invocação, que pode ser qualquer uma das suas ativas. A entidade precisa perceber o acontecimento ao qual responde e cumprir os requisitos de sua participação.",
+    "depois": "**Requisitos comuns:** você está consciente e percebe a invocação participante ativa a até **18 m**. Cada uso envolve você e **uma** invocação, que pode ser qualquer uma das suas ativas. A entidade precisa perceber o acontecimento ao qual responde e cumprir as exigências para participar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-112",
+    "propostas": [
+      "R65-01-031"
+    ],
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "antes": "Quando você errar o ataque concedido por **Acompanhar a Especial** ou **Golpe Acompanhado**, antes das consequências, a invocação participante ajuda a corrigir a execução. Repita sua rolagem inteira e use o novo resultado.",
+    "depois": "Quando você errar um ataque feito graças a **Acompanhar a Especial** ou **Golpe Acompanhado**, antes das consequências, a invocação participante ajuda a corrigir a execução. Repita sua rolagem inteira e use o novo resultado.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-113",
+    "propostas": [
+      "R65-02-060"
+    ],
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "antes": "Aplique o procedimento de **Corrigir uma Falha**, conservando alvo, dificuldade, modificadores e vantagem ou desvantagem. Marque o uso compartilhado entre estas duas intervenções.",
+    "depois": "Aplique o procedimento de **Corrigir uma Falha**, mantendo o mesmo alvo, dificuldade, modificadores e vantagem ou desvantagem. Marque o uso compartilhado entre estas duas intervenções.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-114",
+    "propostas": [
+      "R65-02-061"
+    ],
+    "bloco": "evocador--ev-parceria-intervencoes",
+    "antes": "*Exemplo: você erra Golpe Acompanhado mesmo com vantagem. Paga um ponto e repete os dois d20, conservando a mesma tentativa. A correção da rodada fica utilizada pelo conjunto.*",
+    "depois": "*Exemplo: você erra Golpe Acompanhado mesmo com vantagem. Paga um ponto e repete os dois d20, como parte da mesma tentativa. A correção da rodada fica utilizada pelo conjunto.*",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-115",
+    "propostas": [
+      "R65-02-062",
+      "R65-03-037"
+    ],
+    "bloco": "evocador--ev-parceria-cobrir",
+    "antes": "*Exemplo: o lobo ajudou no seu turno e conserva Resposta ao Agressor. Você paga dois pontos para ele cobrir você. Se o ataque ainda acertar, o lobo pode responder pela Reação coletiva, cumprindo os requisitos do aprimoramento.*",
+    "depois": "*Exemplo: o lobo ajudou no seu turno e ainda tem Resposta ao Agressor. Você paga dois pontos para ele cobrir você. Se o ataque ainda acertar, o lobo pode responder pela Reação coletiva, se cumprir o que o aprimoramento exige.*",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-116",
+    "propostas": [
+      "R65-02-063"
+    ],
+    "bloco": "evocador--ev-parceria-cobrir",
+    "antes": "**Escolher o pagamento.** Você está a 3 m do lobo quando um inimigo declara um ataque contra ele. Pode pagar um ponto e sua Reação pessoal, conservando a coletiva das entidades. Também pode pagar dois pontos, mesmo se sua Reação já foi gasta. Nos dois casos, precisa estar apto a reagir, e a desvantagem vale apenas para esse ataque.",
+    "depois": "**Escolher o pagamento.** Você está a 3 m do lobo quando um inimigo declara um ataque contra ele. Pode pagar um ponto e sua Reação pessoal, sem gastar a coletiva das entidades. Também pode pagar dois pontos, mesmo se sua Reação já foi gasta. Nos dois casos, precisa estar apto a reagir, e a desvantagem vale apenas para esse ataque.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-117",
+    "propostas": [
+      "R65-01-032"
+    ],
+    "bloco": "evocador--ev-parceria-tecnicas",
+    "antes": "Quando a invocação beneficiada por **Acompanhar a Especial** concluir uma especial normal no seu turno, incluindo suas respostas e a orientação posterior, você pode usar a **Ação Bônus para conjurar um feitiço conhecido que normalmente utilize Ação Padrão**, em lugar do ataque concedido por esse aprimoramento.",
+    "depois": "Quando a invocação beneficiada por **Acompanhar a Especial** concluir uma especial normal no seu turno, incluindo suas respostas e a orientação posterior, você pode usar a **Ação Bônus para conjurar um feitiço conhecido que normalmente utilize Ação Padrão**, em lugar do ataque que esse aprimoramento permite fazer.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-118",
+    "propostas": [
+      "R65-02-064",
+      "R65-03-038"
+    ],
+    "bloco": "evocador--ev-parceria-tecnicas",
+    "antes": "Escolha a aplicação e seus alvos depois de resolver a especial e confira os requisitos a partir de sua própria posição. Pague os PE e demais custos normais. A invocação conserva os custos e o alcance da especial que executou.",
+    "depois": "Escolha a aplicação e seus alvos depois de resolver a especial e confira as exigências a partir de sua própria posição. Pague os PE e demais custos normais. Os custos e o alcance da especial que a invocação executou ficam como estavam.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-119",
+    "propostas": [
+      "R65-02-065"
+    ],
+    "bloco": "evocador--ev-parceria-tecnicas",
+    "antes": "**Exemplo:** no nível 19, a invocação executa sua especial de Classe 5. Você escolhe depois uma aplicação pessoal de até Classe 2, paga sua Bônus e o PE do feitiço, e o resolve. Outra invocação conserva sua básica normal.",
+    "depois": "**Exemplo:** no nível 19, a invocação executa sua especial de Classe 5. Você escolhe depois uma aplicação pessoal de até Classe 2, paga sua Bônus e o PE do feitiço, e o resolve. Outra invocação ainda tem sua básica normal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-120",
+    "propostas": [
+      "R65-03-039"
+    ],
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "Escolha uma capacidade conhecida que possa afetar o agressor. Confira a Classe de fato utilizada, inclusive após Ampliar, e os requisitos e alcance a partir de quem executa.",
+    "depois": "Escolha uma capacidade conhecida que possa afetar o agressor. Confira a Classe de fato utilizada, inclusive após Ampliar, e use a posição de quem executa para conferir as exigências e o alcance.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-121",
+    "propostas": [
+      "R65-02-066"
+    ],
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "Resolva a capacidade normalmente. Conserve os usos já marcados dos Aprimoramentos e das Intervenções de Vínculo.",
+    "depois": "Resolva a capacidade normalmente. Mantenha os usos já marcados dos Aprimoramentos e das Intervenções de Vínculo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-122",
+    "propostas": [
+      "R65-03-040"
+    ],
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "**A invocação foi atingida.** No nível 27, sua maior Classe é 7: você pode responder com um feitiço de até **Classe 4**, usando sua Reação pessoal. A disponibilidade da coletiva não é requisito para essa resposta pessoal.",
+    "depois": "**A invocação foi atingida.** No nível 27, sua maior Classe é 7: você pode responder com um feitiço de até **Classe 4**, usando sua Reação pessoal. Essa resposta pessoal pode ser usada mesmo com a coletiva indisponível.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-123",
+    "propostas": [
+      "R65-02-067",
+      "R65-03-041"
+    ],
+    "bloco": "evocador--ev-parceria-resposta",
+    "antes": "**Conservar recursos.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e os requisitos continuarem satisfeitos, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "depois": "**Reações na cobertura.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e as exigências continuarem atendidas, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-124",
+    "propostas": [
+      "R65-02-068"
+    ],
+    "bloco": "evocador--ev-multiplas",
+    "antes": "Os usos por rodada renovam no começo do seu turno. O conjunto conserva esses registros quando as criaturas entram, saem ou são substituídas.",
+    "depois": "Os usos por rodada renovam no começo do seu turno. Os registros do conjunto continuam valendo quando as criaturas entram, saem ou são substituídas.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-125",
+    "propostas": [
+      "R65-02-069"
+    ],
+    "bloco": "evocador--ev-multiplas",
+    "antes": "Cada invocação conserva ficha, básica e Movimento próprios. O conjunto tem uma Reação coletiva, separada da sua Reação pessoal.",
+    "depois": "Cada invocação tem ficha, básica e Movimento próprios. O conjunto tem uma Reação coletiva, separada da sua Reação pessoal.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-126",
+    "propostas": [
+      "R65-02-070"
+    ],
+    "bloco": "evocador--ev-multiplas",
+    "antes": "Os usos são compartilhados e renovam no começo do turno do invocador. Transferências e substituições conservam os registros.",
+    "depois": "Os usos são compartilhados e renovam no começo do turno do invocador. Os registros continuam valendo após transferências e substituições.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-127",
+    "propostas": [
+      "R65-02-071"
+    ],
+    "bloco": "evocador--ev-multiplas-entrada",
+    "antes": "Nas duas substituições, declare os pares antes de resolver: quem sai e quem assume seu lugar. Em cada par, a substituta recebe a básica restante da antecessora, se a transferência for permitida. Conserve o histórico de identidade e os usos já marcados do conjunto.",
+    "depois": "Nas duas substituições, declare os pares antes de resolver: quem sai e quem assume seu lugar. Em cada par, a substituta recebe a básica restante da antecessora, se a transferência for permitida. Mantenha o histórico de identidade e os usos já marcados do conjunto.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-128",
+    "propostas": [
+      "R65-03-042"
+    ],
+    "bloco": "evocador--ev-multiplas-entrada",
+    "antes": "Pague o PE de cada entrada ou retorno. Confira a posição e os requisitos de cada entidade.",
+    "depois": "Pague o PE de cada entrada ou retorno. Confira a posição e o que cada entidade exige para entrar ou voltar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-129",
+    "propostas": [
+      "R65-02-072",
+      "R65-03-043"
+    ],
+    "bloco": "evocador--ev-multiplas-entrada",
+    "antes": "**Exemplo de Manifestação em Grupo.** A ave ainda tem sua básica, mas o cão já atacou. Você declara duas substituições: a serpente assume o lugar da ave, e o vigia assume o lugar do cão. Paga as duas entradas. Se a serpente cumprir os requisitos de transferência, recebe a básica da ave. O vigia entra sem básica. Cada substituta recebe a orientação da sua troca e conserva o histórico do próprio corpo.",
+    "depois": "**Exemplo de Manifestação em Grupo.** A ave ainda tem sua básica, mas o cão já atacou. Você declara duas substituições: a serpente assume o lugar da ave, e o vigia assume o lugar do cão. Paga as duas entradas. Se a serpente cumprir as exigências da transferência, recebe a básica da ave. O vigia entra sem básica. Cada substituta recebe a orientação da sua troca e fica com o histórico do próprio corpo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-130",
+    "propostas": [
+      "R65-01-033"
+    ],
+    "bloco": "evocador--ev-multiplas-duplas",
+    "antes": "Os **dois primeiros espaços de feitiço conhecido** que você comprometer para obter invocações concedem **duas entidades cada**. Os espaços seguintes seguem a proporção comum.",
+    "depois": "Você recebe **duas entidades por espaço** nos **dois primeiros espaços de feitiço conhecido** que comprometer para obter invocações. Os espaços seguintes seguem a proporção comum.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-131",
+    "propostas": [
+      "R65-02-073"
+    ],
+    "bloco": "evocador--ev-multiplas-duplas",
+    "antes": "No nível 2, comprometer dois dos três espaços disponíveis permite adquirir quatro entidades e conservar um espaço para outra escolha permitida. Ter quatro no repertório é diferente de ter quatro já manifestadas antes da iniciativa.",
+    "depois": "No nível 2, comprometer dois dos três espaços disponíveis permite adquirir quatro entidades e deixar um espaço livre para outra escolha permitida. Ter quatro no repertório é diferente de ter quatro já manifestadas antes da iniciativa.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-132",
+    "propostas": [
+      "R65-01-034"
+    ],
+    "bloco": "evocador--ev-multiplas-duplas",
+    "antes": "Cada dupla ocupa uma vaga do repertório. Suas entidades têm fichas separadas, com capacidades e recursos próprios. Reescrever um espaço ocupado ao subir de nível usa a revisão comum daquele espaço, incluindo a dupla ligada a ele. Anote os dois primeiros espaços beneficiados. Trocar as entidades desses espaços não concede novas duplas a vagas posteriores.",
+    "depois": "Cada dupla ocupa uma vaga do repertório. Suas entidades têm fichas separadas, com capacidades e recursos próprios. Reescrever um espaço ocupado ao subir de nível usa a revisão comum daquele espaço, incluindo a dupla ligada a ele. Anote os dois primeiros espaços beneficiados. Trocar as entidades desses espaços não permite obter duplas em vagas posteriores.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-133",
+    "propostas": [
+      "R65-02-074"
+    ],
+    "bloco": "evocador--ev-multiplas-protecao",
+    "antes": "Pague os custos indicados junto dos custos normais das capacidades envolvidas. As intervenções de proteção exigem que a invocação protetora possa reagir. Os aprimoramentos e as outras intervenções conservam seus usos compartilhados.",
+    "depois": "Pague os custos indicados junto dos custos normais das capacidades envolvidas. As intervenções de proteção exigem que a invocação protetora possa reagir. Os aprimoramentos e as outras intervenções continuam com seus usos compartilhados.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-134",
+    "propostas": [
+      "R65-02-075",
+      "R65-03-044"
+    ],
+    "bloco": "evocador--ev-multiplas-conduzir",
+    "antes": "A executora usa sua ficha e cumpre os requisitos de percepção, trajeto, Forma e Restrições da capacidade. **Conduzir não dispensa contato nem afasta da executora uma Aura ou aplicação restrita ao próprio corpo.** Toque e Queima-Roupa conservam seus requisitos em relação à executora. Formas como Cone e Linha podem partir da apoiadora quando respeitarem todas as demais exigências. A executora paga sua básica. Você paga a Padrão do comando. Os PE e demais custos seguem o procedimento normal da especial.",
+    "depois": "A executora usa sua ficha e cumpre as exigências de percepção, trajeto, Forma e Restrições da capacidade. **Conduzir não dispensa contato nem afasta da executora uma Aura ou aplicação restrita ao próprio corpo.** Toque e Queima-Roupa continuam com as mesmas exigências para a executora. Formas como Cone e Linha podem partir da apoiadora quando respeitarem todas as demais exigências. A executora paga sua básica. Você paga a Padrão do comando. Os PE e demais custos seguem o procedimento normal da especial.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-135",
+    "propostas": [
+      "R65-02-076"
+    ],
+    "bloco": "evocador--ev-multiplas-retirada",
+    "antes": "*Exemplo: a serpente usa sua básica para Desengajar e cobre a retirada da ave, a 7,5 m dela. A ave pode sair do confronto usando seu próprio Movimento e conservar sua básica para uma especial comandada ou outra tarefa.*",
+    "depois": "*Exemplo: a serpente usa sua básica para Desengajar e cobre a retirada da ave, a 7,5 m dela. A ave pode sair do confronto usando seu próprio Movimento e guardar sua básica para uma especial comandada ou outra tarefa.*",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-136",
+    "propostas": [
+      "R65-02-077"
+    ],
+    "bloco": "evocador--ev-multiplas-retirada",
+    "antes": "A ave executa a especial, o auxiliar gasta sua básica para conduzi-la e o cão realiza a única básica ofensiva do conjunto. Uma quarta invocação conserva sua atuação para outra tarefa.",
+    "depois": "A ave executa a especial, o auxiliar gasta sua básica para conduzi-la e o cão realiza a única básica ofensiva do conjunto. Uma quarta invocação ainda pode usar sua atuação para outra tarefa.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-137",
+    "propostas": [
+      "R65-02-078"
+    ],
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "**Usos compartilhados.** Conserve o único uso ofensivo dos aprimoramentos e os registros de proteção, perícia e movimento do conjunto. Marque os benefícios quando forem aproveitados. Eles renovam no começo do seu próximo turno.",
+    "depois": "**Usos compartilhados.** Mantenha o registro do único uso ofensivo dos aprimoramentos e os registros de proteção, perícia e movimento do conjunto. Marque os benefícios quando forem aproveitados. Eles renovam no começo do seu próximo turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-138",
+    "propostas": [
+      "R65-02-079"
+    ],
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "**Mudar uma escolha.** Pelo custo normal de **2 Pontos de Vínculo**, Mudar o Aprimoramento modifica uma das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos demais principais que permanecerem ativos. A escolha que não for alterada conserva seus efeitos.",
+    "depois": "**Mudar uma escolha.** Pelo custo normal de **2 Pontos de Vínculo**, Mudar o Aprimoramento modifica uma das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos demais principais que permanecerem ativos. Os efeitos da escolha que ficar continuam valendo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-139",
+    "propostas": [
+      "R65-02-080"
+    ],
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "**Combinar Aprimoramentos.** Você pode pagar **4 PE** para manter **um adicional em uma das duas beneficiárias**, até o começo do seu próximo turno. O adicional pode repetir o principal da outra criatura, conservando o mesmo registro compartilhado de uso. Ele deve ser diferente do principal da própria beneficiária. Ao modificar uma combinação pela intervenção, conserve o prazo já pago.",
+    "depois": "**Combinar Aprimoramentos.** Você pode pagar **4 PE** para manter **um adicional em uma das duas beneficiárias**, até o começo do seu próximo turno. O adicional pode repetir o principal da outra criatura, com o mesmo registro compartilhado de uso. Ele deve ser diferente do principal da própria beneficiária. Ao modificar uma combinação pela intervenção, mantenha o prazo já pago.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-140",
+    "propostas": [
+      "R65-02-081"
+    ],
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "**Especial Combinada.** No nível 30 do Caminho, escolha uma das beneficiárias de principal como a participante exigida pelo comando. A habilidade conserva a Ação Completa, todas as básicas participantes e seus custos normais.",
+    "depois": "**Especial Combinada.** No nível 30 do Caminho, escolha uma das beneficiárias de principal como a participante exigida pelo comando. A habilidade ainda exige a Ação Completa, todas as básicas participantes e seus custos normais.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-141",
+    "propostas": [
+      "R65-02-082"
+    ],
+    "bloco": "evocador--ev-multiplas-aprimoramentos",
+    "antes": "A atiradora recebe Precisão à Distância e a executora da especial recebe Proteção Reforçada. Uma terceira invocação pode conduzir a especial, pagando a básica e o ponto da intervenção e oferecendo a precisão própria dela. A atiradora usa a única básica ofensiva. A executora conserva a proteção para uma tentativa posterior. Os usos ofensivos dos aprimoramentos continuam compartilhados.",
+    "depois": "A atiradora recebe Precisão à Distância e a executora da especial recebe Proteção Reforçada. Uma terceira invocação pode conduzir a especial, pagando a básica e o ponto da intervenção e oferecendo a precisão própria dela. A atiradora usa a única básica ofensiva. A executora ainda tem a proteção para uma tentativa posterior. Os usos ofensivos dos aprimoramentos continuam compartilhados.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-142",
+    "propostas": [
+      "R65-03-045"
+    ],
+    "bloco": "evocador--ev-multiplas-formacao",
+    "antes": "Pague os **PE normais da entrada ou retorno**. Confira as condições, a posição de chegada e os requisitos dos tipos envolvidos pelo capítulo **Invocações em campo**.",
+    "depois": "Pague os **PE normais da entrada ou retorno**. Confira as condições, a posição de chegada e as exigências dos tipos envolvidos no capítulo **Invocações em campo**.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-143",
+    "propostas": [
+      "R65-02-083"
+    ],
+    "bloco": "evocador--ev-multiplas-formacao",
+    "antes": "**Substituição.** A substituta recebe somente a básica ainda disponível e que puder ser transferida da antecessora. Conserve os registros de identidade, o Movimento de cada corpo e todos os usos compartilhados.",
+    "depois": "**Substituição.** A substituta recebe somente a básica ainda disponível e que puder ser transferida da antecessora. Mantenha os registros de identidade, o Movimento de cada corpo e todos os usos compartilhados.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-144",
+    "propostas": [
+      "R65-03-046"
+    ],
+    "bloco": "evocador--ev-multiplas-formacao",
+    "antes": "Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quando cumprir os requisitos, aplicando a orientação posterior normal. As demais entradas feitas nesse turno seguem seus próprios procedimentos.",
+    "depois": "Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quando cumprir as exigências de uso, aplicando a orientação posterior normal. As demais entradas feitas nesse turno seguem seus próprios procedimentos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-145",
+    "propostas": [
+      "R65-03-047"
+    ],
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "antes": "Para cada escolha, acrescente à ficha **uma capacidade básica de Classe 0, uma especial normal ou um talento de Categoria de Efeito 1**. O talento precisa pertencer à lista permitida para entidades em **Criar uma invocação** e cumprir seus requisitos.",
+    "depois": "Para cada escolha, acrescente à ficha **uma capacidade básica de Classe 0, uma especial normal ou um talento de Categoria de Efeito 1**. O talento precisa pertencer à lista permitida para entidades em **Criar uma invocação** e respeitar as exigências do talento.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-146",
+    "propostas": [
+      "R65-03-048"
+    ],
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "antes": "Anote as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.",
+    "depois": "Anote as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas próprias ações, seus PE, suas exigências e seus limites.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-147",
+    "propostas": [
+      "R65-02-084"
+    ],
+    "bloco": "evocador--ev-multiplas-repertorio",
+    "antes": "Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias conservam o repertório registrado.",
+    "depois": "Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias deixam o repertório registrado como está.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-148",
+    "propostas": [
+      "R65-01-035"
+    ],
+    "bloco": "evocador--ev-turnos",
+    "antes": "Hana começa com dois pontos guardados e recebe o terceiro. O lobo tem Acompanhar a Especial. Ela comanda uma especial de Classe 3 por Padrão, básica e 9 PE. Depois da resolução, paga um ponto para Abrir Espaço para o Parceiro. Seu deslocamento é 9 m, e ainda possui todo o Movimento. Anda 4,5 m desse deslocamento até alcançar o inimigo. Usa a Bônus para o ataque concedido. Restam dois pontos, 4,5 m de Movimento e o uso ofensivo fica gasto, mesmo se o golpe errar.",
+    "depois": "Hana começa com dois pontos guardados e recebe o terceiro. O lobo tem Acompanhar a Especial. Ela comanda uma especial de Classe 3 por Padrão, básica e 9 PE. Depois da resolução, paga um ponto para Abrir Espaço para o Parceiro. Seu deslocamento é 9 m, e ainda possui todo o Movimento. Anda 4,5 m desse deslocamento até alcançar o inimigo. Usa a Bônus para fazer o ataque que o aprimoramento permite. Restam dois pontos, 4,5 m de Movimento e o uso ofensivo fica gasto, mesmo se o golpe errar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-149",
+    "propostas": [
+      "R65-02-085"
+    ],
+    "bloco": "evocador--ev-turnos",
+    "antes": "O cão usa a única básica com dano do conjunto. A serpente usa Ajudar numa tarefa que possa apoiar. Ren conserva a Bônus e a coletiva. A segunda especial comandada e outra básica com dano estão indisponíveis naquele ciclo.",
+    "depois": "O cão usa a única básica com dano do conjunto. A serpente usa Ajudar numa tarefa que possa apoiar. Ren ainda tem a Bônus e a coletiva. A segunda especial comandada e outra básica com dano estão indisponíveis naquele ciclo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-150",
+    "propostas": [
+      "R65-01-036"
+    ],
+    "bloco": "incursor--inc-caminho",
+    "antes": "Escolha uma Trilha no nível 2. Ela concede benefícios nos níveis **2, 11, 19 e 27**. Nos níveis em que puder trocar de Trilha, substitua todos os benefícios da anterior pelos da nova. Você mantém um Caminho e uma Trilha.",
+    "depois": "Escolha uma Trilha no nível 2. Você recebe os benefícios da Trilha nos níveis **2, 11, 19 e 27**. Nos níveis em que puder trocar de Trilha, substitua todos os benefícios da anterior pelos da nova. Você mantém um Caminho e uma Trilha.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-151",
+    "propostas": [
+      "R65-02-086"
+    ],
+    "bloco": "incursor--inc-respostas",
+    "antes": "> **Exemplo:** você começa sem Fluidez e acerta um inimigo: primeira obtenção. Gasta-a em Passo Rápido. Mais tarde, um inimigo erra contra você: segunda obtenção. Você a conserva, mas não pode usar esse erro para Reflexo, pois estava sem Fluidez quando o ataque foi declarado.",
+    "depois": "> **Exemplo:** você começa sem Fluidez e acerta um inimigo: primeira obtenção. Gasta-a em Passo Rápido. Mais tarde, um inimigo erra contra você: segunda obtenção. Você fica com a Fluidez obtida e ainda não pode usar esse erro para Reflexo, pois estava sem Fluidez quando o ataque foi declarado.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-152",
+    "propostas": [
+      "R65-03-049"
+    ],
+    "bloco": "incursor--inc-fluidez-avancada",
+    "antes": "Quando o mesmo acontecimento permitir Passo Guardado e Reflexo, pode primeiro realizar o movimento e depois resolver o contra-ataque. Mantenha os requisitos de Reflexo: depois de um erro de ataque, o alvo continua sendo o inimigo que errou; depois de um TR Físico bem-sucedido, pode escolher uma criatura hostil ao seu alcance. O ataque ou efeito que provocou a resposta é resolvido antes de ambos.",
+    "depois": "Quando o mesmo acontecimento permitir Passo Guardado e Reflexo, pode primeiro realizar o movimento e depois resolver o contra-ataque. Siga as condições de Reflexo: depois de um erro de ataque, o alvo continua sendo o inimigo que errou; depois de um TR Físico bem-sucedido, pode escolher uma criatura hostil ao seu alcance. O ataque ou efeito que provocou a resposta é resolvido antes de ambos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-153",
+    "propostas": [
+      "R65-01-037",
+      "R65-03-050"
+    ],
+    "bloco": "incursor--inc-ritmo",
+    "antes": "Passa a poder percorrer paredes e atravessar espaços de criaturas até o limite do **seu deslocamento completo**, mantendo os demais requisitos. Amplia a travessia permitida; não concede movimento adicional. O novo limite também vale para as modalidades acrescentadas ao Movimento Acrobático pela sua Trilha, como a travessia de líquidos do Pugilista.",
+    "depois": "Passa a poder percorrer paredes e atravessar espaços de criaturas até o limite do **seu deslocamento completo**, respeitando as demais exigências. A travessia fica mais ampla e usa o movimento que você já tem. O novo limite também vale para as modalidades acrescentadas ao Movimento Acrobático pela sua Trilha, como a travessia de líquidos do Pugilista.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-154",
+    "propostas": [
+      "R65-02-087"
+    ],
+    "bloco": "incursor--inc-ritmo",
+    "antes": "Esse turno substitui seu turno habitual daquela rodada. Depois de terminá-lo, a criatura que iria agir começa o turno dela. Não joga novamente quando chegar sua posição habitual na iniciativa; nas rodadas seguintes, conserva essa posição.",
+    "depois": "Esse turno substitui seu turno habitual daquela rodada. Depois de terminá-lo, a criatura que iria agir começa o turno dela. Não joga novamente quando chegar sua posição habitual na iniciativa; nas rodadas seguintes, fica nessa posição.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-155",
+    "propostas": [
+      "R65-03-051"
+    ],
+    "bloco": "incursor--inc-ritmo",
+    "antes": "Suas ações e os demais custos e requisitos das habilidades continuam funcionando normalmente.",
+    "depois": "Suas ações e os demais custos e as exigências das habilidades continuam funcionando normalmente.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-156",
+    "propostas": [
+      "R65-03-052"
+    ],
+    "bloco": "incursor--inc-assassino",
+    "antes": "Armas com **Leve** ou **Fineza** estão identificadas no catálogo de Armas. O Volume e a propriedade Oculta não substituem esse requisito.",
+    "depois": "Armas com **Leve** ou **Fineza** estão identificadas no catálogo de Armas. O Volume e a propriedade Oculta não substituem Leve ou Fineza.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-157",
+    "propostas": [
+      "R65-01-038"
+    ],
+    "bloco": "incursor--inc-guarda",
+    "antes": "Você só pode utilizar essa opção se **ainda não tiver se deslocado por vontade própria naquela rodada**. Depois de utilizá-la, **não pode se deslocar por vontade própria até o fim da rodada**, incluindo movimentos adicionais concedidos por habilidades, como Passo Rápido e Passo Guardado. Deslocamentos forçados continuam sendo resolvidos normalmente.",
+    "depois": "Você só pode utilizar essa opção se **ainda não tiver se deslocado por vontade própria naquela rodada**. Depois de utilizá-la, **não pode se deslocar por vontade própria até o fim da rodada**, incluindo movimentos adicionais de habilidades, como Passo Rápido e Passo Guardado. Deslocamentos forçados continuam sendo resolvidos normalmente.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-158",
+    "propostas": [
+      "R65-01-039"
+    ],
+    "bloco": "incursor--inc-cirurgico",
+    "antes": "**Em um crítico com Golpe Cirúrgico**, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você **dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais concedidos por esta habilidade**. Role todos esses dados normalmente. Outros efeitos mantêm suas regras de crítico.",
+    "depois": "**Em um crítico com Golpe Cirúrgico**, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você **dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais desta habilidade**. Role todos esses dados normalmente. Outros efeitos mantêm suas regras de crítico.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-159",
+    "propostas": [
+      "R65-01-040"
+    ],
+    "bloco": "incursor--inc-cirurgico",
+    "antes": "> **Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e concede **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.",
+    "depois": "> **Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e acrescenta **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-160",
+    "propostas": [
+      "R65-03-053"
+    ],
+    "bloco": "incursor--inc-cortar",
+    "antes": "Se você utilizou **Instante Decisivo naquele ataque**, pode aplicar **Golpe Cirúrgico sem gastar outra Fluidez**, desde que acerte e cumpra todos os requisitos da habilidade.",
+    "depois": "Se você utilizou **Instante Decisivo naquele ataque**, pode aplicar **Golpe Cirúrgico sem gastar outra Fluidez**, desde que acerte e cumpra tudo o que a habilidade exige.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-161",
+    "propostas": [
+      "R65-01-041"
+    ],
+    "bloco": "incursor--inc-cortar",
+    "antes": "Esses **4 PE adicionais não concedem dados de dano**. O ataque continua sem poder recuperar Fluidez, e Golpe Cirúrgico mantém seu limite normal de uso.",
+    "depois": "Esses **4 PE adicionais não acrescentam dados de dano**. O ataque continua sem poder recuperar Fluidez, e Golpe Cirúrgico mantém seu limite normal de uso.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-162",
+    "propostas": [
+      "R65-03-054"
+    ],
+    "bloco": "incursor--inc-parkour",
+    "antes": "Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar uma ação**, uma vez por turno, mantendo os requisitos normais de alcance e visão.",
+    "depois": "Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar uma ação**, uma vez por turno, respeitando as exigências normais de alcance e visão.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-163",
+    "propostas": [
+      "R65-03-055"
+    ],
+    "bloco": "incursor--inc-brecha",
+    "antes": "Você pode utilizar **Golpe Cirúrgico ou Cortar a Fuga nesse ataque**, desde que possua Fluidez e cumpra os requisitos normais, pagando seus respectivos custos.",
+    "depois": "Você pode utilizar **Golpe Cirúrgico ou Cortar a Fuga nesse ataque**, desde que possua Fluidez e cumpra as exigências normais, pagando seus respectivos custos.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-164",
+    "propostas": [
+      "R65-03-056"
+    ],
+    "bloco": "incursor--inc-corpo",
+    "antes": "Canalizar ou Estímulo Muscular continua sendo acrescentado normalmente, seguindo seus requisitos e impedimentos.",
+    "depois": "Canalizar ou Estímulo Muscular continua sendo acrescentado normalmente, se suas exigências forem cumpridas e nenhum impedimento se aplicar.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-165",
+    "propostas": [
+      "R65-01-042"
+    ],
+    "bloco": "incursor--inc-corpo",
+    "antes": "Rajada Marcial só pode ser utilizada com a Ação Bônus concedida por Corpo Treinado, depois da Ação Atacar. Ela não exige Fluidez e segue os limites normais de obtenção e gasto desse estado.",
+    "depois": "Rajada Marcial só pode ser utilizada com a Ação Bônus de Corpo Treinado, depois da Ação Atacar. Ela não exige Fluidez e segue os limites normais de obtenção e gasto desse estado.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-166",
+    "propostas": [
+      "R65-03-057"
+    ],
+    "bloco": "incursor--inc-base",
+    "antes": "- **Enquanto estiver Agarrado por uma criatura:** ela realiza um **TR Físico contra a CD do Pugilista**. **Na falha, você escapa da contenção e pode deixar o agressor Agarrado por você, sem outro teste, desde que cumpra os requisitos normais para agarrá-lo.** No sucesso, ela mantém a contenção e a Fluidez permanece gasta.",
+    "depois": "- **Enquanto estiver Agarrado por uma criatura:** ela realiza um **TR Físico contra a CD do Pugilista**. **Na falha, você escapa da contenção e pode deixar o agressor Agarrado por você, sem outro teste, desde que cumpra o que normalmente precisa para agarrá-lo.** No sucesso, ela mantém a contenção e a Fluidez permanece gasta.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-167",
+    "propostas": [
+      "R65-01-043"
+    ],
+    "bloco": "incursor--inc-redirecionar",
+    "antes": "Corpo em Harmonia concede duas opções: **Rajada e Guarda** e **Redirecionar a Força**.",
+    "depois": "Corpo em Harmonia dá acesso a duas opções: **Rajada e Guarda** e **Redirecionar a Força**.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-168",
+    "propostas": [
+      "R65-03-058"
+    ],
+    "bloco": "incursor--inc-redirecionar",
+    "antes": "Para utilizar a habilidade, cumpra os requisitos abaixo:",
+    "depois": "Para usar a habilidade, cumpra as condições abaixo:",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-169",
+    "propostas": [
+      "R65-03-059"
+    ],
+    "bloco": "incursor--inc-malabarista",
+    "antes": "Você pode usar **Força ou Destreza no acerto e no dano dos ataques corpo a corpo e de arremesso com armas de uma mão**, escolhendo a cada ataque. Os demais requisitos da arma continuam valendo.",
+    "depois": "Você pode usar **Força ou Destreza no acerto e no dano dos ataques corpo a corpo e de arremesso com armas de uma mão**, escolhendo a cada ataque. As demais exigências da arma continuam valendo.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-170",
+    "propostas": [
+      "R65-01-044"
+    ],
+    "bloco": "incursor--inc-malabarista",
+    "antes": "Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.",
+    "depois": "Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já permitir mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-171",
+    "propostas": [
+      "R65-03-060"
+    ],
+    "bloco": "incursor--inc-malabarista",
+    "antes": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.",
+    "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e suas exigências normais. Adicionais de dano permanecem sujeitos às próprias regras.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-172",
+    "propostas": [
+      "R65-01-045"
+    ],
+    "bloco": "incursor--inc-continuacoes",
+    "antes": "**Lançamento Cruzado, Trajetória de Retorno e Finta de Retorno compartilham uma utilização por turno seu.** Cada uma acrescenta um ataque de arremesso. Escolha a forma de execução e pague seu custo; elas não concedem continuações separadas para o mesmo turno.",
+    "depois": "**Lançamento Cruzado, Trajetória de Retorno e Finta de Retorno compartilham uma utilização por turno seu.** Cada uma acrescenta um ataque de arremesso. Escolha a forma de execução e pague seu custo; o uso de uma delas gasta a continuação do turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-173",
+    "propostas": [
+      "R65-03-061"
+    ],
+    "bloco": "incursor--inc-continuacoes",
+    "antes": "[Mudar o Destino](#incursor--inc-destino), habilidade de nível 2, permite redirecionar um arremesso que errou contra outra criatura. Essa correção continua sendo parte do ataque corrigido. Depois da correção, considere o alvo final para os requisitos de uma continuação. Fluidez obtida por um acerto só pode ser aproveitada uma vez pelo mesmo acontecimento, segundo o Caminho.",
+    "depois": "[Mudar o Destino](#incursor--inc-destino), habilidade de nível 2, permite redirecionar um arremesso que errou contra outra criatura. Essa correção continua sendo parte do ataque corrigido. Depois da correção, use o alvo final para conferir se pode fazer uma continuação. Fluidez obtida por um acerto só pode ser aproveitada uma vez pelo mesmo acontecimento, segundo o Caminho.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-174",
+    "propostas": [
+      "R65-03-062"
+    ],
+    "bloco": "incursor--inc-destino",
+    "antes": "Essa é uma correção da tentativa que errou: não consome outro ataque disponível, não repete a tentativa contra a mesma criatura e não permite outra correção se a nova rolagem também errar. Use a nova rolagem para determinar acerto e crítico, e resolva o dano normal da arma no acerto. Considere a correção como parte do mesmo ataque para gatilhos que contam ataques realizados; o erro contra o primeiro alvo permanece um erro. A correção tem suas próprias condições de vantagem, desvantagem e cobertura. Efeitos escolhidos antes da rolagem continuam sujeitos aos próprios requisitos contra o novo alvo; efeitos ligados ao resultado do primeiro d20 não são transferidos para o novo resultado.",
+    "depois": "Essa é uma correção da tentativa que errou: não consome outro ataque disponível, não repete a tentativa contra a mesma criatura e não permite outra correção se a nova rolagem também errar. Use a nova rolagem para determinar acerto e crítico, e resolva o dano normal da arma no acerto. Considere a correção como parte do mesmo ataque para gatilhos que contam ataques realizados; o erro contra o primeiro alvo permanece um erro. A correção tem suas próprias condições de vantagem, desvantagem e cobertura. Efeitos escolhidos antes da rolagem continuam sujeitos às próprias exigências contra o novo alvo; efeitos ligados ao resultado do primeiro d20 não são transferidos para o novo resultado.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-175",
+    "propostas": [
+      "R65-02-088"
+    ],
+    "bloco": "incursor--inc-retorno",
+    "antes": "Essa execução utiliza **a mesma Fluidez e o mesmo limite de uso de Lançamento Cruzado**. Não exige gastar outra Fluidez com Ricochete e não recebe seu alcance adicional. O ataque de retorno tem sua própria rolagem, dano e crítico normais. A vítima conserva suas defesas e respostas normais.",
+    "depois": "Essa execução utiliza **a mesma Fluidez e o mesmo limite de uso de Lançamento Cruzado**. Não exige gastar outra Fluidez com Ricochete e não recebe seu alcance adicional. O ataque de retorno tem sua própria rolagem, dano e crítico normais. A vítima continua com suas defesas e respostas normais.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-176",
+    "propostas": [
+      "R65-02-089"
+    ],
+    "bloco": "incursor--inc-retorno",
+    "antes": "> **Exemplo.** Você acerta um inimigo com um kunai. Gasta Fluidez e 4 PE para fazê-lo atingir uma parede a 1,5 m da vítima e voltar contra ela. O percurso de retorno soma 3 m. Faça a nova rolagem de ataque. Se utilizou Ofensiva em Movimento, ainda possui seu outro ataque da Ação Atacar: a combinação custa 7 PE e Fluidez e conserva o total de até três ataques próprios.",
+    "depois": "> **Exemplo.** Você acerta um inimigo com um kunai. Gasta Fluidez e 4 PE para fazê-lo atingir uma parede a 1,5 m da vítima e voltar contra ela. O percurso de retorno soma 3 m. Faça a nova rolagem de ataque. Se utilizou Ofensiva em Movimento, ainda possui seu outro ataque da Ação Atacar: a combinação custa 7 PE e Fluidez e o total continua limitado a três ataques próprios.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-177",
+    "propostas": [
+      "R65-01-046",
+      "R65-03-063"
+    ],
+    "bloco": "incursor--inc-finta",
+    "antes": "Os 6 PE substituem o custo normal de 4 PE de Trajetória de Retorno. Esta execução consome a mesma utilização de Lançamento Cruzado e mantém o limite de uma continuação por turno, seus requisitos de arma, o ricochete em uma superfície sólida, o percurso livre de até 6 m e a nova rolagem de ataque. Não concede outra continuação naquele turno.",
+    "depois": "Os 6 PE substituem o custo normal de 4 PE de Trajetória de Retorno. Esta execução consome a mesma utilização de Lançamento Cruzado e mantém o limite de uma continuação por turno, as exigências de arma, o ricochete em uma superfície sólida, o percurso livre de até 6 m e a nova rolagem de ataque. Você não ganha outra continuação naquele turno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-178",
+    "propostas": [
+      "R65-02-090"
+    ],
+    "bloco": "incursor--inc-finta",
+    "antes": "O primeiro arremesso conserva sua resolução, dano e respostas normais. A Finta não desfaz um Aparar ou uma resposta já resolvida contra ele. O retorno continua sujeito às demais defesas, modificadores e efeitos aplicáveis, inclusive cancelamento normal de vantagem e desvantagem. Dano e crítico são normais; não há dados adicionais de dano.",
+    "depois": "O primeiro arremesso tem resolução, dano e respostas normais. A Finta não desfaz um Aparar ou uma resposta já resolvida contra ele. O retorno continua sujeito às demais defesas, modificadores e efeitos aplicáveis, inclusive cancelamento normal de vantagem e desvantagem. Dano e crítico são normais; não há dados adicionais de dano.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-179",
+    "propostas": [
+      "R65-02-091"
+    ],
+    "bloco": "incursor--inc-finta",
+    "antes": "Se utilizar Mudar o Destino para redirecionar um retorno que errou, a nova vítima conserva suas defesas normais e não recebe os benefícios específicos desta Finta: a proibição de Bloquear e a vantagem por ter bloqueado o arremesso inicial valem somente contra o alvo original desse retorno.",
+    "depois": "Se utilizar Mudar o Destino para redirecionar um retorno que errou, a nova vítima continua com suas defesas normais e não recebe os benefícios específicos desta Finta: a proibição de Bloquear e a vantagem por ter bloqueado o arremesso inicial valem somente contra o alvo original desse retorno.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-180",
+    "propostas": [
+      "R65-03-064"
+    ],
+    "bloco": "incursor--inc-finta",
+    "antes": "O limite passa a ser **uma recuperação entre o começo de um turno seu e o começo do próximo**. Se já recuperou uma arma no seu turno, essa utilização não fica disponível novamente antes do próximo começo de turno. Mantém alcance de 6 m, caminho livre, mão disponível e demais requisitos de recuperação.",
+    "depois": "O limite passa a ser **uma recuperação entre o começo de um turno seu e o começo do próximo**. Se já recuperou uma arma no seu turno, essa utilização não fica disponível novamente antes do próximo começo de turno. Mantém alcance de 6 m, caminho livre, mão disponível e demais exigências para recuperar a arma.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  },
+  {
+    "id": "R65-181",
+    "propostas": [
+      "R65-03-065"
+    ],
+    "bloco": "incursor--inc-perfeita",
+    "antes": "Ganhos de Fluidez pelos acertos seguem os limites normais do Caminho, sem novas obtenções extras. Manejo Contínuo pode recuperar a arma depois do último ataque, se estiver disponível e a arma cumprir seus requisitos. A execução não garante retorno à mão.",
+    "depois": "Ganhos de Fluidez pelos acertos seguem os limites normais do Caminho, sem novas obtenções extras. Manejo Contínuo pode recuperar a arma depois do último ataque, se estiver disponível e a arma atender às exigências da recuperação. A execução não garante retorno à mão.",
+    "motivo": "Linguagem simples aprovada no capítulo Caminhos e Trilhas."
+  }
+]

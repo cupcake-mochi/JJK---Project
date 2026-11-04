@@ -1,8 +1,8 @@
-# Fonte corrente R64
+# Fonte corrente R65
 
-LIVRO-COMPLETO.md é a edição R64 de 425 páginas usada pelos validadores. Ela simplifica “registre” e “conforme”, com dois títulos de Fundamento e as mesmas regras da R63.
+LIVRO-COMPLETO.md é a edição R65 de 425 páginas usada pelos validadores. Ela simplifica “conceder”, “conservar” e “requisito” em Caminhos e Trilhas.
 
-O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r64/. O antes e depois está em revisao-de-regras/alteracoes/R63-para-R64.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+O snapshot e a impressão digital atual ficam em revisao-de-regras/editorial-r65/. O antes e depois está em revisao-de-regras/alteracoes/R64-para-R65.json. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
 
 A composição atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/reacao-r63/composicao. As cadeias antigas de geração documentam versões anteriores.
 

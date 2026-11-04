@@ -1,0 +1,1278 @@
+{
+  "revisao": "R65",
+  "base": "R64",
+  "resultado": "aprovado",
+  "paginas": 425,
+  "blocos_alterados": [
+    "bastiao--bas-aliados",
+    "bastiao--bas-arrastao",
+    "bastiao--bas-bastiao",
+    "bastiao--bas-casca",
+    "bastiao--bas-combatente",
+    "bastiao--bas-defesa",
+    "bastiao--bas-mao",
+    "bastiao--bas-muro",
+    "bastiao--bas-oportunista",
+    "bastiao--bas-punho",
+    "emanador--ema-acorde",
+    "emanador--ema-artes",
+    "emanador--ema-base",
+    "emanador--ema-condutor",
+    "emanador--ema-contraponto",
+    "emanador--ema-desdobramento",
+    "emanador--ema-familiares",
+    "emanador--ema-forma",
+    "emanador--ema-instintiva",
+    "emanador--ema-manifestacao",
+    "emanador--ema-modulacoes",
+    "emanador--ema-propriedades",
+    "emanador--ema-propriedades-apoio",
+    "emanador--ema-repetir",
+    "evocador--ev-aprimoramentos",
+    "evocador--ev-combinada",
+    "evocador--ev-combinar",
+    "evocador--ev-complementar",
+    "evocador--ev-intervencoes",
+    "evocador--ev-multiplas",
+    "evocador--ev-multiplas-aprimoramentos",
+    "evocador--ev-multiplas-conduzir",
+    "evocador--ev-multiplas-duplas",
+    "evocador--ev-multiplas-entrada",
+    "evocador--ev-multiplas-formacao",
+    "evocador--ev-multiplas-protecao",
+    "evocador--ev-multiplas-repertorio",
+    "evocador--ev-multiplas-retirada",
+    "evocador--ev-parceria",
+    "evocador--ev-parceria-aprimoramentos",
+    "evocador--ev-parceria-cobrir",
+    "evocador--ev-parceria-complementar",
+    "evocador--ev-parceria-intervencoes",
+    "evocador--ev-parceria-resposta",
+    "evocador--ev-parceria-tecnicas",
+    "evocador--ev-posicao",
+    "evocador--ev-preparacao",
+    "evocador--ev-principal-continuidade",
+    "evocador--ev-principal-especial",
+    "evocador--ev-principal-protecao",
+    "evocador--ev-principal-reflexa",
+    "evocador--ev-principal-troca",
+    "evocador--ev-turnos",
+    "evocador--ev-usos",
+    "evocador--ev-vinculo",
+    "evocador--evocador",
+    "guia--guia",
+    "guia--guia-analista",
+    "guia--guia-emergencia",
+    "guia--guia-obra-uso",
+    "guia--guia-obras-maiores",
+    "guia--guia-resposta",
+    "guia--guia-socorrista",
+    "guia--guia-tratamento",
+    "incursor--inc-assassino",
+    "incursor--inc-base",
+    "incursor--inc-brecha",
+    "incursor--inc-caminho",
+    "incursor--inc-cirurgico",
+    "incursor--inc-continuacoes",
+    "incursor--inc-corpo",
+    "incursor--inc-cortar",
+    "incursor--inc-destino",
+    "incursor--inc-finta",
+    "incursor--inc-fluidez-avancada",
+    "incursor--inc-guarda",
+    "incursor--inc-malabarista",
+    "incursor--inc-parkour",
+    "incursor--inc-perfeita",
+    "incursor--inc-redirecionar",
+    "incursor--inc-respostas",
+    "incursor--inc-retorno",
+    "incursor--inc-ritmo",
+    "vanguarda--van-avanco",
+    "vanguarda--van-base",
+    "vanguarda--van-besta-conclusoes",
+    "vanguarda--van-bote",
+    "vanguarda--van-conclusoes",
+    "vanguarda--van-estocada",
+    "vanguarda--van-executor",
+    "vanguarda--van-executor-avanco",
+    "vanguarda--van-feiticos",
+    "vanguarda--van-fogo",
+    "vanguarda--van-fogo-avanco",
+    "vanguarda--van-sequencia",
+    "vanguarda--van-yumi"
+  ],
+  "trocas": 181,
+  "descricao": "Linguagem simples em Caminhos e Trilhas. Rótulos de Requisito e conteúdo de regra preservados.",
+  "conferencia_pdf": {
+    "resultado": "aprovado",
+    "paginas": 425,
+    "verificacoes": [
+      {
+        "verificacao": "Contagem das duas paletas corresponde ao manifesto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhum \"saldo\" impresso nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhuma palavra rara impressa nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Blocos seguem a ordem editorial entre páginas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sumário do capítulo 10 em ordem de página.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Regra Própria antecede o primeiro feitiço.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Dificultar a Resistência antecede o catálogo de intervenções.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Fonte da composição é idêntica à candidata.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto idêntico em todas as páginas entre paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "As duas paletas têm 425 páginas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Nenhum termo da rodada R64 impresso nas duas paletas: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Título aprovado na composição: Anote as consequências",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Título aprovado na composição: Preencha a ficha",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na clara, termos revistos: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na clara, onze usos preservados de Requisito: 11",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, título do exemplo na clara.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na noturna, termos revistos: []",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, capítulo 6 na noturna, onze usos preservados de Requisito: 11",
+        "aprovado": true
+      },
+      {
+        "verificacao": "R65, título do exemplo na noturna.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as linhas e células da candidata localizadas no PDF.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem glifos de substituição ou âncoras brutas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem estouro de margem nos blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem sobreposição entre blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todos os links internos chegam a páginas existentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto ocupa as mesmas posições nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Patentes antecedem as recompensas da guilda.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela semanal continua nas duas colunas com cabeçalho repetido.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ativação compartilhada antecede as quatro defesas de domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo contextualiza Kokusen antes da tabela.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Aquisição da Aptidão Própria antecede sua escrita.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Definição das rotas e montagem comum antecedem os exemplos.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lapidação e requisitos de Bênçãos antecedem as entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela de escolhas de Bênçãos tem quatorze links.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção da Incompleta antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Alerta sobre três barreiras antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Rescaldo apresentado antes da montagem do domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceções das modalidades antecedem o teste de Ritual.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo do Ritual identifica as duas tabelas como dezesseis entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vagas de pacto contextualizadas antes de Preço real.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Promessas e temporários continuam fora do limite de vagas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Coletiva e gasto da básica contextualizados na abertura.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparar e gatilhos antecedem Ordens pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ordem física segue antecipada, preparar, gatilhos e pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção dos corpos antecede a posição de entrada.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Capacidade e atuação básicas distinguidas antes do roteiro.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Classe real contextualizada antes de Família Livre.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Cão de sombra preservado antes das aquisições seguintes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vantagem da tentativa seguinte antecede a limitação de fontes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lista de ritual e criação acompanha o começo da primeira opção.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Colunas equilibradas na abertura de Criação de entidades.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparação da missão antecede a condução da sessão.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ferramentas de consulta apresentadas antes da busca de regra.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Recursos no começo da missão explicitados.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário contém 105 entradas sem duplicatas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Remissões de Talento, Expressão e Categoria levam à explicação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário preserva momento de Bloquear e recuperação das Sequelas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de ataque exige escolha da defesa antes da comparação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ataque separa escolha anterior e resultado de Bloquear.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Socorro antecede registro de duração.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de socorro define tratamento e conserva a exceção de inconsciência.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Índice contém 453 nomes únicos em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as entradas do Índice foram compostas na mesma ordem.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Números impressos e links dos 453 verbetes apontam ao destino correto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Novos destinos precisos chegam ao próprio subtítulo.",
+        "aprovado": true
+      }
+    ],
+    "conteudo_ausente": [],
+    "margens": [],
+    "sobreposicoes": [],
+    "links": {
+      "internos": 3436,
+      "externos": 4
+    },
+    "links_invalidos": [],
+    "diferencas_geometria": [],
+    "paginas_para_atencao_visual": [
+      {
+        "pagina": 5,
+        "ocupacao_esquerda": 0.23,
+        "ocupacao_direita": 0.21,
+        "tipo": "toc"
+      },
+      {
+        "pagina": 8,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 10,
+        "ocupacao_esquerda": 0.49,
+        "ocupacao_direita": 0.58,
+        "tipo": "content"
+      },
+      {
+        "pagina": 11,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 25,
+        "ocupacao_esquerda": 0.52,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 46,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 59,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.89,
+        "tipo": "content"
+      },
+      {
+        "pagina": 66,
+        "ocupacao_esquerda": 0.53,
+        "ocupacao_direita": 0.96,
+        "tipo": "content"
+      },
+      {
+        "pagina": 84,
+        "ocupacao_esquerda": 0.54,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 86,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.52,
+        "tipo": "content"
+      },
+      {
+        "pagina": 88,
+        "ocupacao_esquerda": 0.36,
+        "ocupacao_direita": 0.36,
+        "tipo": "content"
+      },
+      {
+        "pagina": 99,
+        "ocupacao_esquerda": 0.54,
+        "ocupacao_direita": 0.56,
+        "tipo": "content"
+      },
+      {
+        "pagina": 104,
+        "ocupacao_esquerda": 0.53,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 107,
+        "ocupacao_esquerda": 0.56,
+        "ocupacao_direita": 0.93,
+        "tipo": "content"
+      },
+      {
+        "pagina": 117,
+        "ocupacao_esquerda": 0.46,
+        "ocupacao_direita": 0.28,
+        "tipo": "content"
+      },
+      {
+        "pagina": 128,
+        "ocupacao_esquerda": 0.5,
+        "ocupacao_direita": 0.49,
+        "tipo": "content"
+      },
+      {
+        "pagina": 141,
+        "ocupacao_esquerda": 0.64,
+        "ocupacao_direita": 0.9,
+        "tipo": "content"
+      },
+      {
+        "pagina": 167,
+        "ocupacao_esquerda": 0.58,
+        "ocupacao_direita": 0.64,
+        "tipo": "content"
+      },
+      {
+        "pagina": 182,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 193,
+        "ocupacao_esquerda": 0.48,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 200,
+        "ocupacao_esquerda": 0.34,
+        "ocupacao_direita": 0.3,
+        "tipo": "content"
+      },
+      {
+        "pagina": 201,
+        "ocupacao_esquerda": 0.67,
+        "ocupacao_direita": 0.95,
+        "tipo": "content"
+      },
+      {
+        "pagina": 227,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 246,
+        "ocupacao_esquerda": 0.44,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 262,
+        "ocupacao_esquerda": 0.6,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 266,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 270,
+        "ocupacao_esquerda": 0.4,
+        "ocupacao_direita": 0.35,
+        "tipo": "content"
+      },
+      {
+        "pagina": 278,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.88,
+        "tipo": "content"
+      },
+      {
+        "pagina": 282,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.41,
+        "tipo": "content"
+      },
+      {
+        "pagina": 286,
+        "ocupacao_esquerda": 0.26,
+        "ocupacao_direita": 0.28,
+        "tipo": "content"
+      },
+      {
+        "pagina": 322,
+        "ocupacao_esquerda": 0.33,
+        "ocupacao_direita": 0.37,
+        "tipo": "content"
+      },
+      {
+        "pagina": 325,
+        "ocupacao_esquerda": 0.37,
+        "ocupacao_direita": 0.47,
+        "tipo": "content"
+      },
+      {
+        "pagina": 331,
+        "ocupacao_esquerda": 0.42,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 337,
+        "ocupacao_esquerda": 0.58,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 347,
+        "ocupacao_esquerda": 0.97,
+        "ocupacao_direita": 0.71,
+        "tipo": "content"
+      },
+      {
+        "pagina": 349,
+        "ocupacao_esquerda": 0.62,
+        "ocupacao_direita": 0.65,
+        "tipo": "content"
+      },
+      {
+        "pagina": 360,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.31,
+        "tipo": "content"
+      },
+      {
+        "pagina": 384,
+        "ocupacao_esquerda": 0.52,
+        "ocupacao_direita": 0.45,
+        "tipo": "content"
+      },
+      {
+        "pagina": 413,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.46,
+        "tipo": "content"
+      },
+      {
+        "pagina": 416,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.57,
+        "tipo": "content"
+      },
+      {
+        "pagina": 424,
+        "ocupacao_esquerda": 0.3,
+        "ocupacao_direita": 0.32,
+        "tipo": "content"
+      }
+    ]
+  },
+  "revisao_visual": {
+    "comparacao": "Texto, posições das palavras e imagem renderizada de todas as páginas frente à R64.",
+    "paletas": {
+      "claro": {
+        "paginas": 425,
+        "paginas_com_texto_alterado": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "paginas_com_imagem_alterada": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "paginas_visualmente_identicas": 352,
+        "paginas_renderizadas_para_revisao": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ]
+      },
+      "noturno": {
+        "paginas": 425,
+        "paginas_com_texto_alterado": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "paginas_com_imagem_alterada": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "paginas_visualmente_identicas": 352,
+        "paginas_renderizadas_para_revisao": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ]
+      }
+    },
+    "revisao_visual": {
+      "resultado": "aprovado",
+      "paginas_vistas": {
+        "claro": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "noturno": [
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          115,
+          116,
+          118,
+          119,
+          120,
+          121,
+          124,
+          125,
+          126,
+          127,
+          128,
+          130,
+          132,
+          135,
+          136,
+          137,
+          138,
+          139,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          176,
+          177,
+          179,
+          180,
+          181,
+          182,
+          184,
+          185,
+          186,
+          187,
+          189,
+          190,
+          191,
+          192,
+          193
+        ]
+      },
+      "sha256": {
+        "claro": "c84bb90175816e860b23d063926b981fd602cfc34bd93eb8432762946aaf1c51",
+        "noturno": "91a66389faf017306c7bda265e07ac3bb258f04242230f4f09f647e6dbbc97aa"
+      },
+      "metodo": "Comparação da imagem renderizada das 425 páginas de cada paleta com a R64. Inspeção das 73 páginas alteradas em cada paleta, em quatro folhas por PDF.",
+      "lado_a_lado_r64_r65": {
+        "claro": [
+          151,
+          152,
+          171,
+          172,
+          173
+        ],
+        "noturno": [
+          151,
+          152,
+          171,
+          172,
+          173
+        ]
+      },
+      "observacoes": [
+        "Aperfeiçoar o dano passou para a p. 152 com o texto associado. A p. 151 mantém a abertura de Catalisador com o texto de apresentação.",
+        "O exemplo de Aprimoramentos Distribuídos aparece inteiro na p. 171.",
+        "A tabela de Repertório do Conjunto aparece inteira na p. 172. Sua mudança reduziu a altura da coluna esquerda na p. 173. O texto de continuação permanece no topo da coluna."
+      ]
+    }
+  },
+  "sha256": {
+    "claro": "c84bb90175816e860b23d063926b981fd602cfc34bd93eb8432762946aaf1c51",
+    "noturno": "91a66389faf017306c7bda265e07ac3bb258f04242230f4f09f647e6dbbc97aa",
+    "texto": "f596a9449136165a97da4c5854eb271cde3c39c3bcb907dec8fd5fbab065cfb4"
+  }
+}

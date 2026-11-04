@@ -8,6 +8,16 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.375] - 04/11/2026
+
+### Alterado
+
+- R65 do Livro de Regras. Revisão de “conceder”, “conservar” e “requisito” no capítulo 6. As 181 trocas preservam regras, números, rótulos, âncoras e destinos.
+- Os dois PDFs têm 425 páginas. Foram revisadas 73 páginas em cada paleta. A composição passou em 65 verificações e a auditoria do Índice conferiu 453 verbetes. A comparação registrou 2 âncoras que mudaram de página.
+- A guarda da fonte reaplica o registro R64-para-R65. A checagem de Fundamento acompanha a nova redação de Queima-Roupa em Manifestação Técnica.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a candidata R65 pronta para publicação.
+
 ## [0.374] - 04/11/2026
 
 ### Alterado

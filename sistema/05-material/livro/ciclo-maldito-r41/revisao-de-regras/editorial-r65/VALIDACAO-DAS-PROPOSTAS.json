@@ -1,0 +1,388 @@
+{
+  "edicao": "R65",
+  "escopo": "Capítulo 6, Caminhos e Trilhas",
+  "base": "R64 (9ea841eb)",
+  "sha256_fonte_base": "8b69a31d4e253faac4dfdeafb4c72f57cc75f72e8517df46dfa6a73fe4bb82dd",
+  "resultado": "propostas validadas em cópia",
+  "lotes": [
+    {
+      "termo": "conceder",
+      "arquivo": "TROCAS-R65-01-CONCEDER.md",
+      "sha256": "68022f4461c1cd40f6694dca875b84486bec4b11b494f46da2c4ca8455641c32",
+      "trechos": 46,
+      "ocorrencias_avaliadas": 50,
+      "ocorrencias_preservadas": 0,
+      "validadores": [
+        {
+          "validador": "conferir-acao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-alma.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-aptidoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-atributos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bestiario.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bloquear.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-catalogo.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-criacao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-dano.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-descanso.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-equipamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-expansao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ferramenta.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ficha.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-fundamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-invocacoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-legados.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-manual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-marcial.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-nomes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-objeto.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-orcamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pactos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pericias.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-progressao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ritual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-sem-tecnica.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-xp.py",
+          "codigo_saida": 0
+        }
+      ]
+    },
+    {
+      "termo": "conservar",
+      "arquivo": "TROCAS-R65-02-CONSERVAR.md",
+      "sha256": "8ff4e2758bd70d8b041f62971c74a1a83ec7c014ea054b40b8b2000744d62bea",
+      "trechos": 91,
+      "ocorrencias_avaliadas": 95,
+      "ocorrencias_preservadas": 0,
+      "validadores": [
+        {
+          "validador": "conferir-acao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-alma.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-aptidoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-atributos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bestiario.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bloquear.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-catalogo.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-criacao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-dano.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-descanso.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-equipamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-expansao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ferramenta.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ficha.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-fundamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-invocacoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-legados.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-manual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-marcial.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-nomes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-objeto.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-orcamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pactos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pericias.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-progressao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ritual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-sem-tecnica.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-xp.py",
+          "codigo_saida": 0
+        }
+      ]
+    },
+    {
+      "termo": "requisito",
+      "arquivo": "TROCAS-R65-03-REQUISITO.md",
+      "sha256": "95ca15003dc4aa432cd78d69173f4020cf2886730d7c41b6b9ad12108235f1be",
+      "trechos": 65,
+      "ocorrencias_avaliadas": 78,
+      "ocorrencias_preservadas": 11,
+      "validadores": [
+        {
+          "validador": "conferir-acao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-alma.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-aptidoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-atributos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bestiario.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-bloquear.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-catalogo.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-criacao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-dano.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-descanso.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-equipamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-expansao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ferramenta.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ficha.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-fundamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-invocacoes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-legados.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-manual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-marcial.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-nomes.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-objeto.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-orcamento.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pactos.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-pericias.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-progressao.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-ritual.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-sem-tecnica.py",
+          "codigo_saida": 0
+        },
+        {
+          "validador": "conferir-xp.py",
+          "codigo_saida": 0
+        }
+      ]
+    }
+  ],
+  "trechos_distintos": 181,
+  "checagens": [
+    "Números por bloco preservados",
+    "Âncoras e destinos preservados",
+    "Rótulos de Requisito e títulos de seção preservados",
+    "Texto fora do capítulo idêntico",
+    "Fonte e PDFs correntes conferidos com a R64"
+  ],
+  "notas": [
+    "R65-02-027 atualiza a frase literal do validador de Fundamento apenas na cópia testada.",
+    "R65-02-067 propõe alterar o título interno do exemplo de Cobrir o Parceiro, para avaliação.",
+    "Validação progressiva na cópia, com cada lote somado aos anteriores. A composição e os PDFs da R65 aguardam aprovação das propostas."
+  ]
+}

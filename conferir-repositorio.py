@@ -135,7 +135,7 @@ def recorte_da_entrega():
     # o .pdf e o .docx de revisao, saiu do recorte; a 7.1 acusa se ele continuar la.
     livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
     for f in ('Ciclo-Maldito-Livro-de-Regras.pdf', 'Ciclo-Maldito-Livro-de-Regras-Noturno.pdf',
-              'EDICAO-ATUAL.json', 'REVISAO-R64.json'):
+              'EDICAO-ATUAL.json', 'REVISAO-R65.json'):
         pares.append((os.path.join(livro, f), os.path.join(ent, 'livro', f)))
     return pares
 
@@ -3044,17 +3044,17 @@ else:
 # permanece no histórico do Git. A edição atual confere o corpo de cada bloco,
 # o registro antes/depois e a impressão digital da fonte publicada.
 print()
-bloco('12. FONTE R64 E CADEIA DE ALTERAÇÕES')
+bloco('12. FONTE R65 E CADEIA DE ALTERAÇÕES')
 import json as _json53
 _BASE53 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ciclo-maldito-r41')
 _REV53 = os.path.join(_BASE53, 'revisao-de-regras', 'fundamento-r53')
 try:
     import hashlib as _hash53
-    _atual57 = os.path.join(_BASE53, 'revisao-de-regras', 'editorial-r64')
+    _atual57 = os.path.join(_BASE53, 'revisao-de-regras', 'editorial-r65')
     _fonte53 = _json53.load(open(os.path.join(_atual57, 'FONTE-PUBLICADA.json'), encoding='utf-8'))
     _bytes53 = open(os.path.join(_BASE53, 'LIVRO-COMPLETO.md'), 'rb').read()
     if _hash53.sha256(_bytes53).hexdigest() != _fonte53['sha256_texto']:
-        erro('12: impressão digital da fonte R64 difere da edição publicada')
+        erro('12: impressão digital da fonte R65 difere da edição publicada')
     _ant53 = _json53.load(open(os.path.join(_REV53, 'BLOCOS-R52.json'), encoding='utf-8'))
     _fim53 = _json53.load(open(os.path.join(_REV53, 'BLOCOS-R53.json'), encoding='utf-8'))
     _reg53 = _json53.load(open(os.path.join(_BASE53, 'revisao-de-regras', 'alteracoes', 'R52-para-R53.json'), encoding='utf-8'))
@@ -3077,7 +3077,7 @@ try:
         if r['antes'] != _ant53.get(k,'') or r['depois'] != _fim53.get(k,''):
             erro('12: antes/depois divergente em ' + k)
     _registros57 = len(_reg53)
-    for _n57 in range(54, 65):
+    for _n57 in range(54, 66):
         _proximo57 = _json53.load(open(os.path.join(_BASE53, 'revisao-de-regras', f'editorial-r{_n57}' if _n57 >= 58 else 'editorial-r57', f'BLOCOS-R{_n57}.json'), encoding='utf-8'))
         _registro57 = _json53.load(open(os.path.join(_BASE53, 'revisao-de-regras', 'alteracoes', f'R{_n57-1}-para-R{_n57}.json'), encoding='utf-8'))
         # R54/R57 registram blocos inteiros; R55/R56 registram substituições locais.
@@ -3113,13 +3113,13 @@ try:
         _registros57 += len(_registro57)
         _fim53 = _proximo57
     if set(_fim53) != set(_publicados53):
-        erro('12: identidades dos blocos publicados diferem da edição R64')
+        erro('12: identidades dos blocos publicados diferem da edição R65')
     for k, v in _fim53.items():
         if _conteudo53(v) != _conteudo53(_publicados53.get(k,'')):
             erro('12: texto publicado diverge do bloco final registrado: ' + k)
-    print(f'  {len(_publicados53)} blocos finais e {_registros57} registros da cadeia R52 a R64 conferidos.')
+    print(f'  {len(_publicados53)} blocos finais e {_registros57} registros da cadeia R52 a R65 conferidos.')
 except (OSError, ValueError, KeyError) as e:
-    erro('12: não foi possível conferir os registros da R64: ' + str(e))
+    erro('12: não foi possível conferir os registros da R65: ' + str(e))
 
 # --------------------------------------------------------------------------
 print()

@@ -1,0 +1,16 @@
+{
+  "ancoras": 1769,
+  "deslocadas": [
+    {
+      "ancora": "emanador--ema-correcao-sub-2",
+      "r64": 151,
+      "r65": 152
+    },
+    {
+      "ancora": "evocador--ev-multiplas-aprimoramentos-sub-1",
+      "r64": 172,
+      "r65": 171
+    }
+  ],
+  "aberturas_de_capitulo_iguais_a_r64": true
+}

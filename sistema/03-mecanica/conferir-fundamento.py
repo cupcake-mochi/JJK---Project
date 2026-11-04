@@ -105,7 +105,7 @@ for un,anc,trechos in [
     ('rotas','rotas',['mesma tabela de pontos e PE','O Restringido Sem Energia usa Técnica Marcial']),
     ('construcao','entidades-controle',['Condições Médias e Pesadas','especial comandada ativamente']),
     ('emanador','ema-forma',['As funções e a divisão dos pontos que sobram, registradas na ficha, continuam as mesmas','A troca não pode deixar a versão com mais pontos que sobram']),
-    ('emanador','ema-manifestacao',['Aura permanece centrada em você','Queima-Roupa conserva seus alvos']),
+    ('emanador','ema-manifestacao',['Aura permanece centrada em você','Queima-Roupa ainda limita seus alvos']),
     ('ritual','rit-parcelas',['Com Mais Um','menor parte','não amplia uma aplicação de cura ou apoio coletivo']),
     ('construcao','entidades-medidas',['A distância até um alvo ou ponto usa a Classe real','Classe real do uso + 1']),
     ('construcao','entidades-restricoes',['A dificuldade deve recair sobre quem executa']),
@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r64/BLOCOS-R64.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r65/BLOCOS-R65.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam

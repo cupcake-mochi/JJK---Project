@@ -1,12 +1,22 @@
-# Edição corrente R64
+# Edição corrente R65
 
-**Versão v0.374.**
+**Versão v0.375.**
+
+A R65 revisa Caminhos e Trilhas, com 181 trocas em 96 blocos. Os dez rótulos de Requisito e o título Requisitos da aplicação foram preservados. O exemplo de Cobrir o Parceiro passou a usar o título Reações na cobertura.
+
+Os dois PDFs têm 425 páginas. Foram revisadas 73 páginas em cada paleta. A composição passou em 65 verificações e a auditoria do Índice conferiu 453 verbetes. A comparação registrou 2 âncoras que mudaram de página.
+
+Fonte, trocas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r65/`. A cadeia de integridade cobre R52 a R65. A candidata está pronta para publicação.
+
+# Edição anterior R64
+
+*Versão v0.374.*
 
 Linguagem simples, aprovada em 04/11/2026. São 293 trocas que substituem 139 ocorrências de “registre” e “registrem” e 163 de “conforme”. Inclui os títulos Anote as consequências e Preencha a ficha. A edição preserva números, regras, âncoras e destinos de link.
 
 As duas paletas têm 425 páginas. As mesmas 190 páginas mudaram nas duas paletas e foram inspecionadas visualmente. Ativação e manutenção passou da página 317 para a 316. A auditoria do Índice conferiu os 453 verbetes.
 
-Fonte, listas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`. A cadeia de integridade cobre R52 a R64. A R64 foi publicada na Vercel em 04/11/2026. Os dois downloads públicos coincidiram com os hashes dos arquivos revisados. Registro em `editorial-r64/PUBLICACAO.json`.
+Fonte, listas e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/`. A cadeia de integridade cobre R52 a R64. A R64 foi publicada na Vercel em 04/11/2026. Os dois downloads públicos coincidiram com os hashes dos arquivos revisados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r64/PUBLICACAO.json`.
 
 # Edição anterior R63
 
