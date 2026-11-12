@@ -6,7 +6,9 @@ A R67 está composta nas duas paletas, com 422 páginas, como a R66. Mudaram 11 
 
 Antes da composição final, uma revisão de clareza ajustou seis trechos da R67, sem mudar número nem regra: a linha coletiva da tabela nova diz o valor de cada dado e que cada aliado recebe o total, sem dividir; a base do dano aparece como "Nenhuma", no lugar de "0"; a frase de abertura diz "o preço da Forma e o da base da função"; o exemplo mostra a conta inteira (8 dados, 5 da base Média e 3 da Aura; sobram 16); o Efeito Próprio principal vai "até Pesada", como no resto do livro; e a vida temporária é encaminhada para a tabela, fora da Aplicação sem dano.
 
-**Publicação pendente.** A Vercel publica a partir do `main`: o merge publica. Depois dele, conferir o download das duas URLs públicas contra os hashes do `EDICAO-ATUAL.json` e registrar o resultado num PUBLICACAO.json na pasta da edição, como na R66. A ficha digital ainda precisa da mesma mudança: as fórmulas da Máxima em `DADOS_R53` pagam a Forma com os pontos.
+A R67 foi publicada na Vercel em 12/11/2026. O download integral das duas URLs públicas confirmou os hashes dos PDFs aprovados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/PUBLICACAO.json`. **Quem publica é o repositório `JJK---PDF---RPG`**, onde fica a configuração da Vercel: o merge neste repositório não publica, e cada edição precisa do seu commit de publicação lá, como o `v0.378: publica R67` e o `v0.376: publica R66`.
+
+**Ficha pendente.** A ficha digital ainda precisa da mesma mudança: as fórmulas da Máxima em `DADOS_R53` pagam a Forma com os pontos.
 
 Fonte, registros e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/`. A composição está descrita em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/COMPOSICAO.md`.
 
