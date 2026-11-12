@@ -1,6 +1,16 @@
-# Edição corrente R66
+# Edição corrente R67, só o texto
 
-**Versão v0.376.**
+**Versão v0.377.**
+
+A R67 muda a regra da Técnica Máxima, por decisão do Mizuki em 12/11/2026. A Forma e a base da função saem dos dados-base, 1 ponto de preço = 1d8, como no feitiço comum, e os pontos de montagem 8/12/16 pagam só as Melhorias. A Máxima sem dano paga o Efeito Próprio principal nos dados e ganha o reforço de Controle. A vida temporária vira função da Máxima, com as bases do feitiço comum. São 17 trocas em 5 blocos. Os PDFs continuam os da R66 até a composição da R67.
+
+**PDF pendente.** Os PDFs publicados e o `EDICAO-ATUAL.json` continuam os da R66. Falta compor a R67 no ambiente da composição e publicar na Vercel depois do ok do Mizuki. A ficha digital precisa da mesma mudança: as fórmulas da Máxima em `DADOS_R53` ainda pagam a Forma com os pontos.
+
+Fonte, registros e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/`. A cadeia de integridade cobre R52 a R67. A conta que levou à decisão está fora do repositório, na pasta de trabalho do HD com a análise das técnicas dos jogadores (12/11/2026).
+
+# Edição anterior R66
+
+*Versão v0.376.*
 
 A R66 conclui seis etapas de revisão. São 422 páginas em cada paleta, 18 apontamentos resolvidos e um ajuste adicional na ficha de Bancada. O fechamento passou em 65 verificações gerais e 13 específicas. O texto das duas paletas é idêntico. Inclui o novo link da ficha digital e o limite por cena aprovado nas cinco habilidades e na explicação da dupla.
 

@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r66/BLOCOS-R66.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r67/BLOCOS-R67.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
@@ -167,6 +167,59 @@ for chave in ['evocador--ev-combinada','evocador--ev-parceria-resposta','incurso
     pos=_livro_md.index('<a id="'+chave+'"></a>')
     alterado=_livro_md[:pos]+_livro_md[pos:].replace('Uma vez por cena','Uma vez por combate',1)
     check('Contra-teste: rejeita retorno a combate em '+chave,not _frequencia_cena(alterado,chave))
+# R67 (12/11/2026, decisão do Mizuki): na Técnica Máxima a Forma e a base da função saem
+# dos dados-base, 1 ponto de preço = 1d8; os pontos de montagem pagam só as Melhorias. A Máxima
+# sem dano tem Efeito Próprio principal pago nos dados e o reforço de Controle; vida temporária
+# vira função. As contas abaixo saem do preço do modelo (f.preco), não do texto.
+bloco('9. TÉCNICA MÁXIMA: FORMA E FUNÇÃO NOS DADOS (R67)')
+def _bloco_md(texto, chave):
+    return texto.split('<a id="'+chave+'"></a>',1)[1].split('<!-- fonte:',1)[0]
+_FAIXAS=[(5,24,8,25),(6,28,12,30),(7,32,16,35)]
+_FORMA={'Projétil':'0','Aura':'Leve','Explosão':'Média'}
+def _p(c,n): return 0 if n=='0' else f.preco(c,n)
+def _max_dados(c,dados,forma,funcao):
+    base={'dano':'0','cura':'Média','vida_ind':'Leve','coletiva':'Média'}[funcao]
+    return dados-_p(c,_FORMA[forma])-_p(c,base)
+def _maxima_ok(texto):
+    mx=_bloco_md(texto,'fundamento--maxima');dom=_bloco_md(texto,'campo--inv-maxima')
+    tabela=[tuple(map(int,m)) for m in re.findall(r'^\| (?:17 a 20|21 a 25|26 a 30) \| (\d+)d8 \| (\d+) \| (\d+) \|$',mx,re.M)]
+    c5=_FAIXAS[0]
+    exp=_max_dados(5,24,'Explosão','dano');cura=_max_dados(5,24,'Projétil','cura')
+    vt=_max_dados(5,24,'Aura','coletiva');dexp=_max_dados(5,19,'Explosão','dano');dcura=_max_dados(5,19,'Projétil','cura')
+    return {
+     'tabela 24/28/32, 8/12/16, 25/30/35':tabela==[(d,p,pe) for _,d,p,pe in _FAIXAS],
+     'dados-base pagam Forma e função':'Os **dados-base** pagam a Forma e a base da função' in mx,
+     'pontos só para Melhorias':'**pontos de montagem** só para as Melhorias' in mx and 'pagar a Forma e as Melhorias' not in mx,
+     f'exemplo Explosão {exp}d8':f'tira 5 dos 24 dados e causa {exp}d8' in mx,
+     f'exemplo cura {cura}d8':f'tira a base Média e recupera {cura}d8' in mx,
+     f'exemplo vida temporária {vt} × 3 = {3*vt}':f'{vt} × 3 = {3*vt} de vida temporária' in mx,
+     'vida temporária individual Leve':'| Vida temporária individual | Leve | 3 de vida temporária. Exige Amparo. |' in mx,
+     'sem dano tem reforço de Controle':'recebe o **reforço de Controle**' in mx and 'fica indisponível nessa aplicação' not in mx,
+     'Efeito principal nos dados':'**Efeito Próprio principal**' in mx and 'seu preço sai dos dados-base' in mx,
+     'domada: Forma e função nos dados':'Os dados fixos pagam a Forma e a base da função' in dom and 'pagam Forma e Melhorias' not in dom,
+     f'domada: Explosão {dexp}d8 e cura {dcura}d8':f'ou {dexp}d8 com Explosão' in dom and f'recupera {dcura}d8' in dom,
+     'exemplos sem orçamento antigo':'Cabe nos orçamentos 8, 12 e 16' not in texto and 'dentro dos orçamentos 8/12/16' not in texto,
+    }
+for nome,ok in _maxima_ok(_livro_md).items():
+    check('R67: '+nome,ok)
+# Os dados que sobram sobem de faixa em faixa e nunca zeram, em toda Forma e função,
+# inclusive com o Efeito Próprio Pesado da Máxima sem dano.
+for forma in _FORMA:
+    for funcao in ('dano','cura','vida_ind','coletiva'):
+        if funcao=='coletiva' and forma=='Projétil':continue
+        seq=[_max_dados(c,d,forma,funcao) for c,d,_,_ in _FAIXAS]
+        check(f'R67: {forma}/{funcao} sobe de faixa e fica positivo {seq}',all(x>0 for x in seq) and seq==sorted(seq))
+    efeito=[d-_p(c,_FORMA[forma])-f.preco(c,'Pesada') for c,d,_,_ in _FAIXAS]
+    check(f'R67: sem dano com {forma} e Efeito Pesado cabe nos dados {efeito}',all(x>=0 for x in efeito))
+# Contra-testes: o texto antigo e um número errado precisam reprovar.
+def _reprova(antes,depois,chave):
+    assert _livro_md.count(antes)==1,antes
+    return not all(_maxima_ok(_livro_md.replace(antes,depois,1)).values())
+check('Contra-teste R67: volta da Forma paga nos pontos',_reprova('Use a coluna de **pontos de montagem** só para as Melhorias.','Use a coluna de **pontos de montagem** para pagar a Forma e as Melhorias.','x'))
+check('Contra-teste R67: Explosão com 24d8 no exemplo',_reprova('tira 5 dos 24 dados e causa 19d8','tira 5 dos 24 dados e causa 24d8','x'))
+check('Contra-teste R67: reforço de Controle retirado',_reprova('Nessa aplicação, a Máxima recebe o **reforço de Controle**','Nessa aplicação, a Máxima não recebe o reforço','x'))
+check('Contra-teste R67: domada volta a pagar Forma nos pontos',_reprova('Os dados fixos pagam a Forma e a base da função, como na Técnica Máxima pessoal.','Os pontos pagam Forma e Melhorias.','x'))
+check('Contra-teste R67: tabela com orçamento 8/8/12',_reprova('| 21 a 25 | 28d8 | 12 | 30 |','| 21 a 25 | 28d8 | 8 | 30 |','x'))
 print(f'\n{CHECAGENS} verificações; {len(ERROS)} falhas.')
 if ERROS:sys.exit(1)
 print('>>> TUDO OK: montagem comum R53, fontes e interfaces conferidas.')

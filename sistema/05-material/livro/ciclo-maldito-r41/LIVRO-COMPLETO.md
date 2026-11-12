@@ -10290,21 +10290,21 @@ Você pode Ampliar uma Liberação ou reescrevê-la pela troca de nível, manten
 <a id="fundamento--maxima"></a>
 #### Técnica Máxima
 
-No nível **17**, você desenvolve uma aplicação excepcional da técnica. Pode concentrar um ataque, restaurar aliados ou realizar um Efeito próprio de grande alcance. Escreva o resultado e seus limites antes da sessão, com o mestre.
+No nível **17**, você desenvolve uma aplicação excepcional da técnica. Pode concentrar um ataque, restaurar ou proteger aliados ou realizar um Efeito próprio de grande alcance. Escreva o resultado e seus limites antes da sessão, com o mestre.
 
-| Nível | Dados de dano ou cura | Pontos de montagem | PE |
+| Nível | Dados-base | Pontos de montagem | PE |
 |---|---|---|---|
 | 17 a 20 | 24d8 | 8 | 25 |
 | 21 a 25 | 28d8 | 12 | 30 |
 | 26 a 30 | 32d8 | 16 | 35 |
 
-Use a coluna de **pontos de montagem** para pagar a Forma e as Melhorias. A quantidade de dados permanece igual ao valor indicado na tabela para sua faixa de nível. Descarte os pontos que sobrarem após as compras.
+Os **dados-base** pagam a Forma e a base da função, como os pontos de um feitiço comum: cada ponto de preço tira 1d8. Os dados que restam formam o resultado da Máxima. Use a coluna de **pontos de montagem** só para as Melhorias. Descarte os pontos que sobrarem após as compras; eles não viram dados.
 
 ##### Montagem
 
-Escolha a Forma e até **quatro Melhorias**, usando os preços da sua maior Classe. Essa Classe também define as medidas e os valores das peças. Famílias Livres dão seu desconto normal; Fechadas continuam indisponíveis. A Forma não recebe desconto.
+Escolha a Forma e até **quatro Melhorias**, usando os preços da sua maior Classe. Essa Classe também define as medidas e os valores das peças. Famílias Livres dão seu desconto normal; Fechadas continuam indisponíveis. A Forma e a base da função não recebem desconto e não ocupam vaga de Melhoria.
 
-Escolha durante a criação se a Máxima causará dano, recuperará vida ou produzirá uma aplicação sem dano. Anote essa escolha e mantenha-a em todos os usos. Você recebe a Máxima pela progressão; ela fica fora dos espaços comuns e da troca por invocações.
+Escolha durante a criação se a Máxima causará dano, recuperará vida, concederá vida temporária ou produzirá uma aplicação sem dano. Anote essa escolha e mantenha-a em todos os usos. Você recebe a Máxima pela progressão; ela fica fora dos espaços comuns e da troca por invocações.
 
 ##### Ação e recarga
 
@@ -10320,15 +10320,26 @@ Você pode escrever um requisito necessário à ideia, como preparar duas marcas
 
 ##### Ataque, cura e utilidade
 
-##### Dano ou cura
+##### Dano, cura ou vida temporária
 
-Use os dados da faixa da Técnica Máxima. Na criação, anote dano ou cura e a Forma que entrega o resultado. A cura paga sua base Média; a aplicação coletiva paga também a Forma de área e exige Amparo e Área. Os dados de cura da Máxima não usam o teto comum. A cura coletiva alcança cada aliado válido na região.
+Use os dados da faixa da Técnica Máxima. Na criação, anote a função e a Forma que entrega o resultado. Tire dos dados o preço da Forma e a base da função, nos preços da sua maior Classe. Cada dado que resta vira o resultado indicado.
+
+| Função | Base tirada dos dados | Cada dado que resta |
+|---|---|---|
+| Dano | 0 | 1d8 de dano. |
+| Cura direta | Média | 1d8 de cura. Exige Amparo. |
+| Vida temporária individual | Leve | 3 de vida temporária. Exige Amparo. |
+| Cura ou vida temporária coletiva | Média, mais a Forma de área | A parte inteira para cada aliado válido na região. Exige Amparo e Área. |
+
+A cura e a vida temporária da Máxima não usam o teto de cura individual nem o teto coletivo dos feitiços comuns. A vida temporária respeita o limite de cada criatura, metade da vida máxima, e não se soma a outra vida temporária.
+
+> **Exemplo.** Na faixa 17 a 20, os preços são os da Classe 5. Uma Máxima de dano com Explosão tira 5 dos 24 dados e causa 19d8 em cada alvo da área. Uma cura individual com Projétil tira a base Média e recupera 19d8. Uma vida temporária coletiva com Aura tira a base Média e a Aura, 5 e 3: cada aliado na região recebe 16 × 3 = 48 de vida temporária, até metade da própria vida máxima.
 
 Quando o alvo passa no TR de uma Máxima de dano, recebe **três quartos do dano**. Aplique depois as demais defesas e o arredondamento de Dano. Frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa.
 
 ##### Um ataque com outra função
 
-Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre). São **2 dos 8 pontos** e duas Melhorias. Os pontos restantes se perdem. O dano continua **24d8 de Cortante**.
+Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil, que não tira dados, com Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre). São **2 dos 8 pontos** e duas Melhorias. Os pontos restantes se perdem. O dano continua **24d8 de Cortante**.
 
 > **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.
 
@@ -10336,9 +10347,11 @@ Mei pode usar o movimento de Passo para se retirar depois do ataque. Empurrão t
 
 ##### Aplicação sem dano
 
-Para criar uma Máxima de utilidade, defina sua função e descarte os dados de dano ou cura. O orçamento de montagem permanece o da tabela. O reforço de Controle dos feitiços comuns fica indisponível nessa aplicação.
+Para criar uma Máxima de utilidade, escreva sua função como um **Efeito Próprio principal**, de preço até Pesado. Ele é a função dessa Máxima: seu preço sai dos dados-base, junto com o da Forma, e os dados que restam são descartados. O Efeito principal não ocupa vaga de Melhoria, e os pontos de montagem ficam inteiros para as Melhorias.
 
-Uma Máxima benéfica pode aplicar as Melhorias escolhidas em um aliado disposto. Para conceder uma proteção especial em pontos de vida, crie um Efeito Próprio com quantidade definida. Os dados descartados e os pontos restantes da montagem ficam sem uso.
+Nessa aplicação, a Máxima recebe o **reforço de Controle** dos feitiços comuns: a rodada adicional e +2 na CD dos TRs próprios de Controle, quando aplicáveis.
+
+Uma Máxima benéfica pode aplicar as Melhorias escolhidas em um aliado disposto. Para conceder vida temporária, use a função de vida temporária, em Dano, cura ou vida temporária. Os dados descartados e os pontos restantes da montagem ficam sem uso.
 
 Compare o efeito pretendido com um feitiço comum e confira o custo em PE das duas opções. Se o feitiço comum já atender à proposta com menor custo, ele pode ocupar essa função no repertório. Os exemplos seguintes apresentam Passagem de Papel, preparada fora de combate, e Retirada de Emergência, usada durante uma luta.
 
@@ -10362,13 +10375,13 @@ Consulte a tabela abaixo antes de escolher as Melhorias de uma Técnica Máxima.
 
 ##### Efeito próprio em combate
 
-Uma Máxima sem dano nem cura pode usar **uma aplicação própria de utilidade em combate** quando seu Efeito Próprio autorizar esse uso e definir alvos, resolução, duração e limites. Essa permissão vale apenas para a aplicação registrada. Não libera o procedimento de Efeito fora de combate dos feitiços comuns durante uma luta.
+Uma Máxima sem dano, cura ou vida temporária pode usar **uma aplicação própria de utilidade em combate** quando seu Efeito Próprio principal autorizar esse uso e definir alvos, resolução, duração e limites. Essa permissão vale apenas para a aplicação registrada. Não libera o procedimento de Efeito fora de combate dos feitiços comuns durante uma luta.
 
 Uma capacidade criada com requisito de Técnica Máxima fica restrita a essa modalidade, mesmo quando seu preço cabe no orçamento de uma Classe comum. Para usar uma versão comum, prepare uma capacidade separada e adequada à Classe.
 
 ##### Progressão
 
-Ao atingir os níveis 21 e 26, atualize dados, pontos, preços e PE. Conserve as peças da aplicação. Se houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse momento. A mudança entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso.
+Ao atingir os níveis 21 e 26, atualize dados, pontos, preços e PE, e recalcule os dados que a Forma e a função tiram. Conserve as peças da aplicação. Se houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse momento. A mudança entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso.
 
 Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feitiço ao subir de nível. Uma correção exigida por mudança das regras não gasta essa revisão. Efeitos próprios só aumentam alvos, distâncias ou duração quando a ficha disser isso: mais pontos disponíveis não ampliam esses valores sozinhos.
 
@@ -10380,7 +10393,7 @@ Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga 
 
 ##### Montagem
 
-**Aplicação de utilidade (base 0) + Efeito Próprio: passagem entre marcas (Pesada).** Sem desconto de Família. O custo é 8, 9 ou 11 pontos, para maior Classe 5, 6 ou 7, nessa ordem. Cabe nos orçamentos 8, 12 e 16. Os dados de dano e cura são descartados.
+**Efeito Próprio principal: passagem entre marcas (Pesada).** Sem Forma de área e sem desconto de Família. O preço é 8, 9 ou 11, para maior Classe 5, 6 ou 7, nessa ordem, e sai dos 24, 28 ou 32 dados. Os dados que restam são descartados. Os 8, 12 ou 16 pontos de montagem ficam livres para Melhorias compatíveis.
 
 | Campo | Regra |
 |---|---|
@@ -10411,7 +10424,7 @@ Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impul
 
 ##### Montagem e uso
 
-**Aplicação própria de utilidade (base 0) + Efeito Próprio: retirada coletiva (Pesada, sem desconto).** São 8/9/11 pontos nas faixas 17/21/26, dentro dos orçamentos 8/12/16. Sem dano, cura ou vida temporária.
+**Efeito Próprio principal: retirada coletiva (Pesada, sem desconto).** O preço, 8/9/11 nas faixas 17/21/26, sai dos 24/28/32 dados, e os que restam são descartados. Os 8/12/16 pontos de montagem ficam livres para Melhorias. Sem dano, cura ou vida temporária.
 
 Use Ação Completa e pague **25/30/35 PE**, na quantidade indicada para a faixa. O efeito é instantâneo e usa a recarga normal da Máxima.
 
@@ -14180,13 +14193,13 @@ A Técnica Máxima conserva o procedimento, as Formas e as incompatibilidades de
 | 21 a 25 | 22d8 | 12 | 30 PE |
 | 26 a 30 | 26d8 | 16 | 35 PE |
 
-Os pontos pagam Forma e Melhorias, sem comprar dados adicionais. Não aceita Restrições. Sobras de pontos se perdem. Use os limites de peças e de dano da Técnica Máxima; uma ficha com peças proibidas de repetição ou multiplicação de dados não se torna permitida por pertencer a uma invocação. Quebra Coisa é permitida, segundo o Fundamento.
+Os dados fixos pagam a Forma e a base da função, como na Técnica Máxima pessoal. Os pontos pagam só as Melhorias, sem comprar dados adicionais. Não aceita Restrições. Sobras de pontos se perdem. Use os limites de peças e de dano da Técnica Máxima; uma ficha com peças proibidas de repetição ou multiplicação de dados não se torna permitida por pertencer a uma invocação. Quebra Coisa é permitida, segundo o Fundamento.
 
 Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE como numa especial. A aplicação pode ser usada **uma vez por cena**. O mestre pode permitir outro uso depois de **3 rodadas**, sem contar a rodada do uso. Sair e voltar não renova esse uso nem apaga essa espera.
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, se ela ainda tiver esses PE. Uma aplicação de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 com Projétil, ou 14d8 com Explosão, que tira 5 dados. Paga 25 PE: 13 de Kaito e 12 da reserva, se ela ainda tiver esses PE. Uma cura individual tira a base Média e recupera 14d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-dominio -->
 <a id="campo--inv-dominio"></a>
@@ -15413,7 +15426,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Técnica Marcial](#rotas--rota-marcial). Rota de criação de Katas sustentadas por um estilo e seu equipamento.
 
-[Técnica Máxima](#fundamento--maxima). Aplicação avançada com montagem e uso próprios, incluindo dano, cura ou utilidade.
+[Técnica Máxima](#fundamento--maxima). Aplicação avançada com montagem e uso próprios, incluindo dano, cura, vida temporária ou utilidade.
 
 [Teste de Resistência](#geral--resistencia). Rolagem para evitar ou encerrar um efeito, abreviada TR. A regra define atributo, CD e resultados.
 

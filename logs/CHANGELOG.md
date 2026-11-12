@@ -8,6 +8,25 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.377] - 12/11/2026
+
+### Decidido
+
+- **Técnica Máxima: a Forma e a base da função saem dos dados.** *Decisão do Mizuki em 12/11/2026, depois da análise da técnica de um jogador: com Explosão no nível 17 sobravam 3 dos 8 pontos, e a Máxima sem dano saía pior que um feitiço comum de Classe 5 com o mesmo Efeito.* Agora a Forma e a base da função tiram dados-base, 1 ponto de preço = 1d8, como no feitiço comum, e os pontos de montagem 8/12/16 pagam só as Melhorias. Explosão no nível 17 fica 19d8 + 8 pontos (antes 24d8 + 3); Projétil e Toque não mudam.
+- **Máxima sem dano:** o Efeito Próprio principal, até Pesada, é a função dela e é pago nos dados; os pontos ficam inteiros para as Melhorias. Ela ganha o reforço de Controle dos feitiços comuns (+1 rodada e +2 na CD). No nível 17 era Efeito + 0 pontos; agora é Efeito + 8.
+- **Vida temporária vira função da Máxima,** com as bases do feitiço comum: individual Leve (63/75/84 PV nas faixas 17/21/26), coletiva Média mais a Forma (Aura 48/57/63 PV para cada aliado). Não usa os tetos do feitiço comum, como já acontecia com a cura da Máxima; vale o limite de metade da vida máxima de quem recebe.
+- **A domada segue a mesma regra:** no nível 17, 19d8 com Projétil, 14d8 com Explosão e cura individual de 14d8. Ōgi e Auge mandam usar o procedimento do Fundamento e mudam junto, sem edição.
+
+### Alterado
+
+- Texto R67: 17 trocas em 5 blocos (`fundamento--maxima`, `fundamento--passagem`, `fundamento--retirada`, `campo--inv-maxima` e `consulta--consulta-glossario-6`). O antes e depois está em `alteracoes/R66-para-R67.json`; o snapshot, as trocas e o script, em `editorial-r67/`.
+- **Os PDFs continuam os da R66.** O `EDICAO-ATUAL.json` não mudou e a composição da R67 fica para outra rodada. O texto corrente está à frente do PDF, como na v0.361.
+- `conferir-fundamento.py` ganhou a seção 9: a tabela, os exemplos refeitos pela conta do preço, os dados que sobram subindo de faixa e nunca zerando em toda Forma e função (inclusive com o Efeito Pesado da Máxima sem dano), e cinco contra-testes. O arnês numa cópia isolada confirmou que a checagem acende.
+- Ponteiros da fonte corrente, de R66 para R67, no `conferir-repositorio.py`, nos dois `testar-integridade.py`, no `conferir-fundamento.py` e no `livro.py`.
+- Os manuscritos do Fundamento (`planejamento-editorial` e `fontes-editoriais`) não mudaram: estão congelados desde outubro, e a fonte da regra é o `LIVRO-COMPLETO.md`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`: falta compor e publicar o PDF da R67 e levar a regra para a ficha (`Ficha---RPG-JJK`, fórmulas da Máxima em `DADOS_R53`).
+
 ## [0.376] - 04/11/2026
 
 ### Alterado
