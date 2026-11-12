@@ -1,4 +1,12 @@
-# Fonte corrente R66
+# Fonte corrente R67
+
+LIVRO-COMPLETO.md é a edição R67, usada pelos validadores. É a R66 com a regra nova da Técnica Máxima: a Forma e a base da função saem dos dados-base, e os pontos de montagem pagam só as Melhorias. São 17 trocas em 5 blocos.
+
+O snapshot, as trocas e o script ficam em revisao-de-regras/editorial-r67/. O antes e depois está em revisao-de-regras/alteracoes/R66-para-R67.json. **Os PDFs ainda são os da R66**, com hashes em EDICAO-ATUAL.json; a composição da R67 fica para outra rodada.
+
+## Histórico da fonte e da geração
+
+# Fonte R66
 
 LIVRO-COMPLETO.md é a edição R66 de 422 páginas usada pelos validadores. Reúne a revisão de clareza, diagramação, navegação e frequência por cena aprovada pelo autor.
 
@@ -6,7 +14,6 @@ O snapshot e a impressão digital ficam em revisao-de-regras/editorial-r66/. O a
 
 A composição local atual está em /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-integral-pos-r65/composicao. Os scripts e as evidências estão preservados em editorial-r66/composicao e nas pastas de etapa.
 
-## Histórico da fonte e da geração
 
 # Fonte corrente R53
 

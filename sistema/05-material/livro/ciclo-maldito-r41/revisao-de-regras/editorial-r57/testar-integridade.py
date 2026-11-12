@@ -3,9 +3,9 @@ from pathlib import Path
 from unittest.mock import patch
 raiz=Path(__file__).resolve().parents[6]
 fonte=raiz/'sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md'
-registro=fonte.parent/'revisao-de-regras/alteracoes/R65-para-R66.json'
+registro=fonte.parent/'revisao-de-regras/alteracoes/R66-para-R67.json'
 codigo=(raiz/'conferir-repositorio.py').read_text()
-inicio=codigo.index("bloco('12. FONTE R66")
+inicio=codigo.index("bloco('12. FONTE R67")
 fim=codigo.index('# --------------------------------------------------------------------------',inicio)
 trecho=codigo[inicio:fim]
 texto=fonte.read_text()
