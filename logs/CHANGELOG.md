@@ -17,7 +17,9 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - `conferir-fundamento.py`: a checagem do exemplo da cura passou a ler os 5 dados da base Média do modelo de preço, e entraram duas checagens (a conta do exemplo coletivo e a linha coletiva da tabela) e um contra-teste. Perturbado numa cópia isolada, cada número novo acende a checagem certa.
 - `EDICAO-ATUAL.json` e os dois PDFs passam à R67; `REVISAO-R67.json` substitui o `REVISAO-R66.json` no `conferir-repositorio.py`. Composição e evidências em `editorial-r67/` (`COMPOSICAO.md`, `composicao/`, `evidencias/`).
 
-→ Continua em `sistema/ESTADO-ATUAL.md`: conferir a publicação da R67 na Vercel depois do merge e levar a regra para a ficha (`DADOS_R53`).
+- A R67 foi publicada na Vercel em 12/11/2026, pelo commit `v0.378: publica R67` no repositório `JJK---PDF---RPG`, que é de onde a Vercel publica. O download integral das duas URLs confirmou os hashes; registro em `editorial-r67/PUBLICACAO.json`, gerado por `editorial-r67/verificar_publicacao.py`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`: levar a regra da Máxima para a ficha (`DADOS_R53`) e conferir o bot Guias do Ciclo.
 
 ## [0.377] - 12/11/2026
 
