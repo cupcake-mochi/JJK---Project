@@ -2,7 +2,7 @@
 
 LIVRO-COMPLETO.md é a edição R67, usada pelos validadores. É a R66 com a regra nova da Técnica Máxima: a Forma e a base da função saem dos dados-base, e os pontos de montagem pagam só as Melhorias. São 17 trocas em 5 blocos.
 
-O snapshot, as trocas e o script ficam em revisao-de-regras/editorial-r67/. O antes e depois está em revisao-de-regras/alteracoes/R66-para-R67.json. **Os PDFs ainda são os da R66**, com hashes em EDICAO-ATUAL.json; a composição da R67 fica para outra rodada.
+O snapshot, as trocas e o script ficam em revisao-de-regras/editorial-r67/. O antes e depois está em revisao-de-regras/alteracoes/R66-para-R67.json. Os PDFs da R67 ficam na pasta acima, com hashes em EDICAO-ATUAL.json. A composição está descrita em revisao-de-regras/editorial-r67/COMPOSICAO.md.
 
 ## Histórico da fonte e da geração
 

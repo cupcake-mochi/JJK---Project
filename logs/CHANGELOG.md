@@ -8,6 +8,17 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.378] - 12/11/2026
+
+### Alterado
+
+- A R67 está composta nas duas paletas, com 422 páginas, como a R66. Mudaram 11 páginas, as mesmas nas duas: 276 a 281 (Técnica Máxima, Passagem de Papel e Retirada de Emergência), 376 e 377 (Técnica Máxima da domada), 410 (Glossário), e o número da Técnica Máxima no Sumário (4) e no Índice (420), que passou de 278 para 277. A composição passou nas 65 verificações, com os 453 verbetes do Índice conferidos, e o texto é idêntico nas duas paletas. A revisão visual passou pelas 11 páginas nas duas paletas e não achou título solto, coluna quebrada nem tabela estourada.
+- Antes da composição final, uma revisão de clareza ajustou seis trechos da R67, sem mudar número nem regra: a linha coletiva da tabela nova diz o valor de cada dado e que cada aliado recebe o total, sem dividir; a base do dano aparece como "Nenhuma", no lugar de "0"; a frase de abertura diz "o preço da Forma e o da base da função"; o exemplo mostra a conta inteira (8 dados, 5 da base Média e 3 da Aura; sobram 16); o Efeito Próprio principal vai "até Pesada", como no resto do livro; e a vida temporária é encaminhada para a tabela, fora da Aplicação sem dano. As 17 trocas de `R66-para-R67.json` já trazem a redação final; o script é `editorial-r67/revisar_clareza_r67.py`.
+- `conferir-fundamento.py`: a checagem do exemplo da cura passou a ler os 5 dados da base Média do modelo de preço, e entraram duas checagens (a conta do exemplo coletivo e a linha coletiva da tabela) e um contra-teste. Perturbado numa cópia isolada, cada número novo acende a checagem certa.
+- `EDICAO-ATUAL.json` e os dois PDFs passam à R67; `REVISAO-R67.json` substitui o `REVISAO-R66.json` no `conferir-repositorio.py`. Composição e evidências em `editorial-r67/` (`COMPOSICAO.md`, `composicao/`, `evidencias/`).
+
+→ Continua em `sistema/ESTADO-ATUAL.md`: conferir a publicação da R67 na Vercel depois do merge e levar a regra para a ficha (`DADOS_R53`).
+
 ## [0.377] - 12/11/2026
 
 ### Decidido

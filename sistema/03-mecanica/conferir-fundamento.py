@@ -191,7 +191,9 @@ def _maxima_ok(texto):
      'dados-base pagam Forma e função':'Os **dados-base** pagam a Forma e a base da função' in mx,
      'pontos só para Melhorias':'**pontos de montagem** só para as Melhorias' in mx and 'pagar a Forma e as Melhorias' not in mx,
      f'exemplo Explosão {exp}d8':f'tira 5 dos 24 dados e causa {exp}d8' in mx,
-     f'exemplo cura {cura}d8':f'tira a base Média e recupera {cura}d8' in mx,
+     f'exemplo cura {cura}d8':f'tira os {_p(5,"Média")} dados da base Média e recupera {cura}d8' in mx,
+     f'exemplo coletiva tira {_p(5,"Média")+_p(5,"Leve")} e sobram {vt}':f'tira {_p(5,"Média")+_p(5,"Leve")} dados, {_p(5,"Média")} da base Média e {_p(5,"Leve")} da Aura; sobram {vt}' in mx,
+     'linha coletiva sem dividir':'1d8 de cura ou 3 de vida temporária. Cada aliado válido na região recebe o total, sem dividir.' in mx and 'A parte inteira para cada aliado' not in mx,
      f'exemplo vida temporária {vt} × 3 = {3*vt}':f'{vt} × 3 = {3*vt} de vida temporária' in mx,
      'vida temporária individual Leve':'| Vida temporária individual | Leve | 3 de vida temporária. Exige Amparo. |' in mx,
      'sem dano tem reforço de Controle':'recebe o **reforço de Controle**' in mx and 'fica indisponível nessa aplicação' not in mx,
@@ -219,6 +221,7 @@ check('Contra-teste R67: volta da Forma paga nos pontos',_reprova('Use a coluna 
 check('Contra-teste R67: Explosão com 24d8 no exemplo',_reprova('tira 5 dos 24 dados e causa 19d8','tira 5 dos 24 dados e causa 24d8','x'))
 check('Contra-teste R67: reforço de Controle retirado',_reprova('Nessa aplicação, a Máxima recebe o **reforço de Controle**','Nessa aplicação, a Máxima não recebe o reforço','x'))
 check('Contra-teste R67: domada volta a pagar Forma nos pontos',_reprova('Os dados fixos pagam a Forma e a base da função, como na Técnica Máxima pessoal.','Os pontos pagam Forma e Melhorias.','x'))
+check('Contra-teste R67: exemplo coletivo com 18 dados',_reprova('; sobram 16, e cada aliado','; sobram 18, e cada aliado','x'))
 check('Contra-teste R67: tabela com orçamento 8/8/12',_reprova('| 21 a 25 | 28d8 | 12 | 30 |','| 21 a 25 | 28d8 | 8 | 30 |','x'))
 print(f'\n{CHECAGENS} verificações; {len(ERROS)} falhas.')
 if ERROS:sys.exit(1)

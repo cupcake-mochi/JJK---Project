@@ -10322,18 +10322,18 @@ Você pode escrever um requisito necessário à ideia, como preparar duas marcas
 
 ##### Dano, cura ou vida temporária
 
-Use os dados da faixa da Técnica Máxima. Na criação, anote a função e a Forma que entrega o resultado. Tire dos dados o preço da Forma e a base da função, nos preços da sua maior Classe. Cada dado que resta vira o resultado indicado.
+Use os dados da faixa da Técnica Máxima. Na criação, anote a função e a Forma que entrega o resultado. Tire dos dados o preço da Forma e o da base da função, nos preços da sua maior Classe. Cada dado que resta vira o resultado indicado.
 
 | Função | Base tirada dos dados | Cada dado que resta |
 |---|---|---|
-| Dano | 0 | 1d8 de dano. |
+| Dano | Nenhuma | 1d8 de dano. |
 | Cura direta | Média | 1d8 de cura. Exige Amparo. |
 | Vida temporária individual | Leve | 3 de vida temporária. Exige Amparo. |
-| Cura ou vida temporária coletiva | Média, mais a Forma de área | A parte inteira para cada aliado válido na região. Exige Amparo e Área. |
+| Cura ou vida temporária coletiva | Média, mais a Forma de área | 1d8 de cura ou 3 de vida temporária. Cada aliado válido na região recebe o total, sem dividir. Exige Amparo e Área. |
 
 A cura e a vida temporária da Máxima não usam o teto de cura individual nem o teto coletivo dos feitiços comuns. A vida temporária respeita o limite de cada criatura, metade da vida máxima, e não se soma a outra vida temporária.
 
-> **Exemplo.** Na faixa 17 a 20, os preços são os da Classe 5. Uma Máxima de dano com Explosão tira 5 dos 24 dados e causa 19d8 em cada alvo da área. Uma cura individual com Projétil tira a base Média e recupera 19d8. Uma vida temporária coletiva com Aura tira a base Média e a Aura, 5 e 3: cada aliado na região recebe 16 × 3 = 48 de vida temporária, até metade da própria vida máxima.
+> **Exemplo.** Na faixa 17 a 20, os preços são os da Classe 5. Uma Máxima de dano com Explosão tira 5 dos 24 dados e causa 19d8 em cada alvo da área. Uma cura individual com Projétil tira os 5 dados da base Média e recupera 19d8. Uma vida temporária coletiva com Aura tira 8 dados, 5 da base Média e 3 da Aura; sobram 16, e cada aliado na região recebe 16 × 3 = 48 de vida temporária, até metade da própria vida máxima.
 
 Quando o alvo passa no TR de uma Máxima de dano, recebe **três quartos do dano**. Aplique depois as demais defesas e o arredondamento de Dano. Frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa.
 
@@ -10347,11 +10347,11 @@ Mei pode usar o movimento de Passo para se retirar depois do ataque. Empurrão t
 
 ##### Aplicação sem dano
 
-Para criar uma Máxima de utilidade, escreva sua função como um **Efeito Próprio principal**, de preço até Pesado. Ele é a função dessa Máxima: seu preço sai dos dados-base, junto com o da Forma, e os dados que restam são descartados. O Efeito principal não ocupa vaga de Melhoria, e os pontos de montagem ficam inteiros para as Melhorias.
+Para criar uma Máxima de utilidade, escreva sua função como um **Efeito Próprio principal**, de preço até Pesada. Ele é a função dessa Máxima: seu preço sai dos dados-base, junto com o da Forma, e os dados que restam são descartados. O Efeito principal não ocupa vaga de Melhoria, e os pontos de montagem ficam inteiros para as Melhorias.
 
 Nessa aplicação, a Máxima recebe o **reforço de Controle** dos feitiços comuns: a rodada adicional e +2 na CD dos TRs próprios de Controle, quando aplicáveis.
 
-Uma Máxima benéfica pode aplicar as Melhorias escolhidas em um aliado disposto. Para conceder vida temporária, use a função de vida temporária, em Dano, cura ou vida temporária. Os dados descartados e os pontos restantes da montagem ficam sem uso.
+Uma Máxima benéfica pode aplicar as Melhorias escolhidas em um aliado disposto. Para conceder vida temporária, não use esta aplicação: escolha a função de vida temporária, na tabela de Dano, cura ou vida temporária. Os dados descartados e os pontos restantes da montagem ficam sem uso.
 
 Compare o efeito pretendido com um feitiço comum e confira o custo em PE das duas opções. Se o feitiço comum já atender à proposta com menor custo, ele pode ocupar essa função no repertório. Os exemplos seguintes apresentam Passagem de Papel, preparada fora de combate, e Retirada de Emergência, usada durante uma luta.
 

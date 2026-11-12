@@ -29,25 +29,25 @@ TROCAS = [
  ('fundamento--maxima',
   'Dano ou cura\n\nUse os dados da faixa da Técnica Máxima. Na criação, anote dano ou cura e a Forma que entrega o resultado. A cura paga sua base Média; a aplicação coletiva paga também a Forma de área e exige Amparo e Área. Os dados de cura da Máxima não usam o teto comum. A cura coletiva alcança cada aliado válido na região.',
   'Dano, cura ou vida temporária\n\n'
-  'Use os dados da faixa da Técnica Máxima. Na criação, anote a função e a Forma que entrega o resultado. Tire dos dados o preço da Forma e a base da função, nos preços da sua maior Classe. Cada dado que resta vira o resultado indicado.\n\n'
+  'Use os dados da faixa da Técnica Máxima. Na criação, anote a função e a Forma que entrega o resultado. Tire dos dados o preço da Forma e o da base da função, nos preços da sua maior Classe. Cada dado que resta vira o resultado indicado.\n\n'
   '| Função | Base tirada dos dados | Cada dado que resta |\n'
   '|---|---|---|\n'
-  '| Dano | 0 | 1d8 de dano. |\n'
+  '| Dano | Nenhuma | 1d8 de dano. |\n'
   '| Cura direta | Média | 1d8 de cura. Exige Amparo. |\n'
   '| Vida temporária individual | Leve | 3 de vida temporária. Exige Amparo. |\n'
-  '| Cura ou vida temporária coletiva | Média, mais a Forma de área | A parte inteira para cada aliado válido na região. Exige Amparo e Área. |\n\n'
+  '| Cura ou vida temporária coletiva | Média, mais a Forma de área | 1d8 de cura ou 3 de vida temporária. Cada aliado válido na região recebe o total, sem dividir. Exige Amparo e Área. |\n\n'
   'A cura e a vida temporária da Máxima não usam o teto de cura individual nem o teto coletivo dos feitiços comuns. A vida temporária respeita o limite de cada criatura, metade da vida máxima, e não se soma a outra vida temporária.\n\n'
-  '> **Exemplo.** Na faixa 17 a 20, os preços são os da Classe 5. Uma Máxima de dano com Explosão tira 5 dos 24 dados e causa 19d8 em cada alvo da área. Uma cura individual com Projétil tira a base Média e recupera 19d8. Uma vida temporária coletiva com Aura tira a base Média e a Aura, 5 e 3: cada aliado na região recebe 16 × 3 = 48 de vida temporária, até metade da própria vida máxima.'),
+  '> **Exemplo.** Na faixa 17 a 20, os preços são os da Classe 5. Uma Máxima de dano com Explosão tira 5 dos 24 dados e causa 19d8 em cada alvo da área. Uma cura individual com Projétil tira os 5 dados da base Média e recupera 19d8. Uma vida temporária coletiva com Aura tira 8 dados, 5 da base Média e 3 da Aura; sobram 16, e cada aliado na região recebe 16 × 3 = 48 de vida temporária, até metade da própria vida máxima.'),
  ('fundamento--maxima',
   'Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre).',
   'Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil, que não tira dados, com Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre).'),
  ('fundamento--maxima',
   'Para criar uma Máxima de utilidade, defina sua função e descarte os dados de dano ou cura. O orçamento de montagem permanece o da tabela. O reforço de Controle dos feitiços comuns fica indisponível nessa aplicação.',
-  'Para criar uma Máxima de utilidade, escreva sua função como um **Efeito Próprio principal**, de preço até Pesado. Ele é a função dessa Máxima: seu preço sai dos dados-base, junto com o da Forma, e os dados que restam são descartados. O Efeito principal não ocupa vaga de Melhoria, e os pontos de montagem ficam inteiros para as Melhorias.\n\n'
+  'Para criar uma Máxima de utilidade, escreva sua função como um **Efeito Próprio principal**, de preço até Pesada. Ele é a função dessa Máxima: seu preço sai dos dados-base, junto com o da Forma, e os dados que restam são descartados. O Efeito principal não ocupa vaga de Melhoria, e os pontos de montagem ficam inteiros para as Melhorias.\n\n'
   'Nessa aplicação, a Máxima recebe o **reforço de Controle** dos feitiços comuns: a rodada adicional e +2 na CD dos TRs próprios de Controle, quando aplicáveis.'),
  ('fundamento--maxima',
   'Para conceder uma proteção especial em pontos de vida, crie um Efeito Próprio com quantidade definida.',
-  'Para conceder vida temporária, use a função de vida temporária, em Dano, cura ou vida temporária.'),
+  'Para conceder vida temporária, não use esta aplicação: escolha a função de vida temporária, na tabela de Dano, cura ou vida temporária.'),
  ('fundamento--maxima',
   'Uma Máxima sem dano nem cura pode usar **uma aplicação própria de utilidade em combate** quando seu Efeito Próprio autorizar esse uso',
   'Uma Máxima sem dano, cura ou vida temporária pode usar **uma aplicação própria de utilidade em combate** quando seu Efeito Próprio principal autorizar esse uso'),
