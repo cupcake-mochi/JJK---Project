@@ -1,6 +1,18 @@
-# Edição corrente R67, só o texto
+# Edição corrente R67
 
-**Versão v0.377.**
+**Versão v0.378.**
+
+A R67 está composta nas duas paletas, com 422 páginas, como a R66. Mudaram 11 páginas, as mesmas nas duas: 276 a 281 (Técnica Máxima, Passagem de Papel e Retirada de Emergência), 376 e 377 (Técnica Máxima da domada), 410 (Glossário), e o número da Técnica Máxima no Sumário (4) e no Índice (420), que passou de 278 para 277. A composição passou nas 65 verificações, com os 453 verbetes do Índice conferidos, e o texto é idêntico nas duas paletas. A revisão visual passou pelas 11 páginas nas duas paletas e não achou título solto, coluna quebrada nem tabela estourada.
+
+Antes da composição final, uma revisão de clareza ajustou seis trechos da R67, sem mudar número nem regra: a linha coletiva da tabela nova diz o valor de cada dado e que cada aliado recebe o total, sem dividir; a base do dano aparece como "Nenhuma", no lugar de "0"; a frase de abertura diz "o preço da Forma e o da base da função"; o exemplo mostra a conta inteira (8 dados, 5 da base Média e 3 da Aura; sobram 16); o Efeito Próprio principal vai "até Pesada", como no resto do livro; e a vida temporária é encaminhada para a tabela, fora da Aplicação sem dano.
+
+**Publicação pendente.** A Vercel publica a partir do `main`: o merge publica. Depois dele, conferir o download das duas URLs públicas contra os hashes do `EDICAO-ATUAL.json` e registrar o resultado num PUBLICACAO.json na pasta da edição, como na R66. A ficha digital ainda precisa da mesma mudança: as fórmulas da Máxima em `DADOS_R53` pagam a Forma com os pontos.
+
+Fonte, registros e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/`. A composição está descrita em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/COMPOSICAO.md`.
+
+# Texto da R67
+
+*Versão v0.377.*
 
 A R67 muda a regra da Técnica Máxima, por decisão do Mizuki em 12/11/2026. A Forma e a base da função saem dos dados-base, 1 ponto de preço = 1d8, como no feitiço comum, e os pontos de montagem 8/12/16 pagam só as Melhorias. A Máxima sem dano paga o Efeito Próprio principal nos dados e ganha o reforço de Controle. A vida temporária vira função da Máxima, com as bases do feitiço comum. São 17 trocas em 5 blocos. Os PDFs continuam os da R66 até a composição da R67.
 

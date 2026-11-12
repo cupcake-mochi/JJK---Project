@@ -1,0 +1,74 @@
+{
+  "revisao": "R67",
+  "base": "R66",
+  "data": "2026-11-12",
+  "paletas": [
+    "claro",
+    "noturno"
+  ],
+  "paginas": [
+    4,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    376,
+    377,
+    410,
+    420
+  ],
+  "ancoras": [
+    {
+      "ancora": "fundamento--maxima",
+      "r66": 278,
+      "r67": 277
+    },
+    {
+      "ancora": "fundamento--proprio-sub-4",
+      "r66": 277,
+      "r67": 276
+    }
+  ],
+  "metodo": "Cada página que mudou foi aberta nas duas paletas e comparada com a mesma página da R66. A segunda rodada, depois dos ajustes de clareza, mudou só as páginas 278 e 279 contra a primeira, e as duas foram revistas de novo.",
+  "resultado": "Sem título solto, coluna quebrada, tabela estourada ou exemplo separado da regra.",
+  "observacoes": [
+    {
+      "paginas": [
+        276
+      ],
+      "nota": "Registro e repetição subiu para a 276 e preencheu o branco que sobrava na R66."
+    },
+    {
+      "paginas": [
+        278
+      ],
+      "nota": "A tabela Dano, cura ou vida temporária cabe inteira numa coluna, legível nas duas paletas."
+    },
+    {
+      "paginas": [
+        279,
+        280
+      ],
+      "nota": "A tabela de Melhorias da Técnica Máxima continua da 279 para a 280 com cabeçalho repetido, no mesmo ponto da R66. Progressão continua na coluna direita com etiqueta, como na R66."
+    },
+    {
+      "paginas": [
+        281
+      ],
+      "nota": "Termina na mesma palavra da R66; da 282 em diante nada mudou."
+    },
+    {
+      "paginas": [
+        4,
+        420
+      ],
+      "nota": "Só o número da Técnica Máxima, de 278 para 277, no Sumário e no Índice."
+    }
+  ],
+  "herdado_da_r66": [
+    "O título Ataque, cura e utilidade vem seguido direto pelo subtítulo, sem texto entre os dois.",
+    "A coluna Nível da tabela da Técnica Máxima quebra \"17 a 20\" em duas linhas."
+  ]
+}

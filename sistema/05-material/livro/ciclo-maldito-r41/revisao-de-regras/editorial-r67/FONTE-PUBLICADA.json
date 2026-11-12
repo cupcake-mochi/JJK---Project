@@ -1,8 +1,9 @@
 {
   "revisao": "R67",
-  "sha256_texto": "09fe789ae42bd1110118bf9ebcbf785dc9a667c18d7fa7a20f816ea1835f5333",
+  "sha256_texto": "46c2b02d5d5a6baeeb8e07d42afd1aefe028502648b1c06daafe52fc3427536f",
   "blocos": 576,
   "registros": 17,
-  "pdf": "pendente: os PDFs publicados e o EDICAO-ATUAL.json continuam os da R66",
-  "tipo": "Regra: Técnica Máxima com Forma e função pagas nos dados, decidida pelo autor em 12/11/2026."
+  "pdf": "composta em 12/11/2026: hashes em EDICAO-ATUAL.json",
+  "tipo": "Regra: Técnica Máxima com Forma e função pagas nos dados, decidida pelo autor em 12/11/2026.",
+  "composicao_local": "/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/revisao-r67/composicao"
 }
