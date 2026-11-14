@@ -6,7 +6,7 @@ A R68 corrige duas frases que ainda negavam o reforço de Controle à Técnica M
 
 Foi a primeira composição no Windows: a cadeia do Linux, copiada para o HD interno, roda com as versões de biblioteca do Python do Codex e as fontes copiadas para junto do gerador. Antes de trocar o texto, a R67 regerada no Windows saiu idêntica, byte a byte, aos PDFs publicados nas duas paletas. O passo a passo está em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/COMPOSICAO.md`.
 
-**Publicação pendente.** Quem publica é o repositório `JJK---PDF---RPG`: os dois PDFs, o `EDICAO-ATUAL.json` e o `REVISAO-R68.json` vão para a pasta `livro/` dele. Depois do push, conferir o download das duas URLs públicas contra os hashes do `EDICAO-ATUAL.json` e registrar num PUBLICACAO.json na pasta da R68, como o da R67.
+A R68 foi publicada na Vercel em 14/11/2026, pelo commit `v0.379: publica R68` no repositório `JJK---PDF---RPG`, que é de onde a Vercel publica. O download integral das duas URLs públicas confirmou os hashes dos PDFs aprovados. Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/PUBLICACAO.json`.
 
 **Ficha pendente.** A ficha digital ainda está na regra antiga da Máxima, e a Máxima sem dano dela precisa do reforço de Controle (`controle_sem_dano`).
 

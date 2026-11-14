@@ -16,8 +16,9 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 - Foi a primeira composição no Windows: a cadeia do Linux, copiada para o HD interno, roda com as versões de biblioteca do Python do Codex e as fontes copiadas para junto do gerador. Antes de trocar o texto, a R67 regerada no Windows saiu idêntica, byte a byte, aos PDFs publicados nas duas paletas. O passo a passo está em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/COMPOSICAO.md`.
 - `conferir-fundamento.py`, seção 9: duas checagens novas (a seção de Controle e a de Controle das entidades dão o reforço à Máxima sem dano, e só negam a Classe 0, à Liberação e à básica) e dois contra-testes que voltam as frases antigas. Perturbado numa cópia isolada, cada frase antiga acende a checagem certa.
 - Ponteiros da fonte corrente, de R67 para R68, no `conferir-repositorio.py`, nos dois `testar-integridade.py`, no `conferir-fundamento.py` e no `livro.py`. `EDICAO-ATUAL.json` e os dois PDFs passam à R68; `REVISAO-R68.json` substitui o `REVISAO-R67.json`.
+- A R68 foi publicada na Vercel em 14/11/2026, pelo commit `v0.379: publica R68` no repositório `JJK---PDF---RPG`. O download integral das duas URLs confirmou os hashes; registro em `editorial-r68/PUBLICACAO.json`, gerado por `editorial-r68/verificar_publicacao.py`.
 
-→ Continua em `sistema/ESTADO-ATUAL.md`: publicar a R68 pelo `JJK---PDF---RPG` e conferir as URLs; levar a regra da Máxima para a ficha.
+→ Continua em `sistema/ESTADO-ATUAL.md`: levar a regra da Máxima para a ficha (`DADOS_R53`), com o reforço de Controle na Máxima sem dano, e conferir o bot Guias do Ciclo.
 
 ## [0.378] - 12/11/2026
 
