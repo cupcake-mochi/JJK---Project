@@ -2,12 +2,12 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.378** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.379** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R67, livro completo com 422 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os hashes dos PDFs ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R68, livro completo com 422 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os hashes dos PDFs ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 
@@ -44,7 +44,7 @@ A R65 simplifica a redação de Caminhos e Trilhas. São 181 trocas em 96 blocos
 
 A R66 reúne a revisão de clareza e diagramação em seis etapas. Os 18 apontamentos e a ficha de Bancada foram resolvidos; os PDFs passam a 422 páginas. A frequência das cinco habilidades foi padronizada por cena, conforme aprovação do autor, e o link da ficha digital foi atualizado. Registros em sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r66/.
 
-A R67 muda a regra da Técnica Máxima, por decisão do Mizuki em 12/11/2026. A Forma e a base da função saem dos dados-base, 1 ponto de preço = 1d8, como no feitiço comum, e os pontos de montagem 8/12/16 pagam só as Melhorias. A Máxima sem dano paga o Efeito Próprio principal nos dados e ganha o reforço de Controle. A vida temporária vira função da Máxima, com as bases do feitiço comum. São 17 trocas em 5 blocos. Os PDFs da R67 foram compostos na v0.378, com 422 páginas e seis ajustes de clareza sem mudança de regra; o registro fica em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/`.
+A R67 muda a regra da Técnica Máxima, por decisão do Mizuki em 12/11/2026. A Forma e a base da função saem dos dados-base, 1 ponto de preço = 1d8, como no feitiço comum, e os pontos de montagem 8/12/16 pagam só as Melhorias. A Máxima sem dano paga o Efeito Próprio principal nos dados e ganha o reforço de Controle. A vida temporária vira função da Máxima, com as bases do feitiço comum. São 17 trocas em 5 blocos. Os PDFs da R67 foram compostos na v0.378, com 422 páginas e seis ajustes de clareza sem mudança de regra; o registro fica em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r67/`. A R68 corrige as duas seções de Controle que ainda negavam o reforço à Máxima sem dano; o registro fica em `editorial-r68/`.
 
 ---
 

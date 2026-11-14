@@ -1,0 +1,319 @@
+{
+  "revisao": "R68",
+  "base": "R67",
+  "resultado": "aprovado",
+  "paginas": 422,
+  "blocos_alterados": [
+    "construcao--entidades-controle",
+    "fundamento--controle"
+  ],
+  "trocas": 2,
+  "descricao": "Reforço de Controle da Técnica Máxima sem dano nas seções de Controle e de Controle das entidades, consequência da R67. Primeira composição no Windows.",
+  "paginas_alteradas": [
+    268,
+    395
+  ],
+  "ancoras_que_mudaram_de_pagina": [],
+  "conferencia_pdf": [
+    {
+      "verificacao": "Contagem das duas paletas corresponde ao manifesto.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Nenhum \"saldo\" impresso nas duas paletas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Nenhuma palavra rara impressa nas duas paletas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Blocos seguem a ordem editorial entre páginas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sumário do capítulo 10 em ordem de página.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Regra Própria antecede o primeiro feitiço.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Dificultar a Resistência antecede o catálogo de intervenções.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Fonte da composição é idêntica à candidata.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Texto idêntico em todas as páginas entre paletas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "As duas paletas têm 422 páginas após os ajustes de Mundo jujutsu, Híbrido e Vanguarda.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Nenhum termo da rodada R64 impresso nas duas paletas: []",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Título aprovado na composição: Anote as consequências",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Título aprovado na composição: Preencha a ficha",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, capítulo 6 na clara, termos revistos: []",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, capítulo 6 na clara, onze usos preservados de Requisito: 11",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, título do exemplo na clara.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, capítulo 6 na noturna, termos revistos: []",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, capítulo 6 na noturna, onze usos preservados de Requisito: 11",
+      "aprovado": true
+    },
+    {
+      "verificacao": "R65, título do exemplo na noturna.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Todas as linhas e células da candidata localizadas no PDF.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sem glifos de substituição ou âncoras brutas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sem estouro de margem nos blocos de texto.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Sem sobreposição entre blocos de texto.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Todos os links internos chegam a páginas existentes.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Texto ocupa as mesmas posições nas duas paletas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Patentes antecedem as recompensas da guilda.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Tabela semanal continua nas duas colunas com cabeçalho repetido.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ativação compartilhada antecede as quatro defesas de domínio.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Catálogo contextualiza Kokusen antes da tabela.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Aquisição da Aptidão Própria antecede sua escrita.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Definição das rotas e montagem comum antecedem os exemplos.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Lapidação e requisitos de Bênçãos antecedem as entradas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Tabela de escolhas de Bênçãos tem quatorze links.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Exceção da Incompleta antecede a tabela de disputa.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Alerta sobre três barreiras antecede a tabela de disputa.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Rescaldo apresentado antes da montagem do domínio.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Exceções das modalidades antecedem o teste de Ritual.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Catálogo do Ritual identifica as duas tabelas como dezesseis entradas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Vagas de pacto contextualizadas antes de Preço real.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Promessas e temporários continuam fora do limite de vagas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Coletiva e gasto da básica contextualizados na abertura.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Preparar e gatilhos antecedem Ordens pendentes.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ordem física segue antecipada, preparar, gatilhos e pendentes.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Exceção dos corpos antecede a posição de entrada.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Capacidade e atuação básicas distinguidas antes do roteiro.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Classe real contextualizada antes de Família Livre.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Cão de sombra preservado antes das aquisições seguintes.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Vantagem da tentativa seguinte antecede a limitação de fontes.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Lista de ritual e criação acompanha o começo da primeira opção.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Colunas equilibradas na abertura de Criação de entidades.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Preparação da missão antecede a condução da sessão.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ferramentas de consulta apresentadas antes da busca de regra.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Recursos no começo da missão explicitados.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Glossário contém 105 entradas sem duplicatas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Glossário em ordem alfabética.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Remissões de Talento, Expressão e Categoria levam à explicação.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Glossário preserva momento de Bloquear e recuperação das Sequelas.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Resumo de ataque exige escolha da defesa antes da comparação.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Ataque separa escolha anterior e resultado de Bloquear.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Socorro antecede registro de duração.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Resumo de socorro define tratamento e conserva a exceção de inconsciência.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Índice contém 453 nomes únicos em ordem alfabética.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Todas as entradas do Índice foram compostas na mesma ordem.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Números impressos e links dos 453 verbetes apontam ao destino correto.",
+      "aprovado": true
+    },
+    {
+      "verificacao": "Novos destinos precisos chegam ao próprio subtítulo.",
+      "aprovado": true
+    }
+  ],
+  "auditoria_indice": {
+    "entradas": 453,
+    "links_e_numeros_incorretos": [],
+    "aliases_sem_subtitulo": []
+  },
+  "revisao_visual": {
+    "revisao": "R68",
+    "base": "R67",
+    "data": "2026-11-14",
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "paginas": [
+      268,
+      395
+    ],
+    "ancoras": [],
+    "metodo": "Cada página cujo texto mudou foi renderizada nas duas paletas e comparada com a mesma página da R67. A comparação página a página (texto e pixels) não achou nenhuma outra página diferente.",
+    "resultado": "Sem título solto, coluna quebrada, tabela estourada ou exemplo separado da regra.",
+    "observacoes": [
+      {
+        "paginas": [
+          268
+        ],
+        "nota": "A frase nova da seção de Controle ocupa três linhas a mais na coluna direita e cabe no branco que sobrava acima do rodapé. O link Técnica Máxima leva à página 277 nas duas paletas."
+      },
+      {
+        "paginas": [
+          395
+        ],
+        "nota": "Controle das entidades ganha duas linhas; o exemplo de Prende desce junto e continua inteiro na coluna direita. A página 396 não mudou."
+      }
+    ]
+  },
+  "sha256": {
+    "claro": "748a0601df029fe9f64c0690be45db87972d2f08a7ec0deaef1cd88c4b139144",
+    "noturno": "5088300c7f01bf7beb2fa7bfba6cacd9e850f13694c7b778570cac97bf3720e5",
+    "texto": "d52c4c1f9de2d817c1743718e2517045e04ac2eeeee56685a5fded916836c95c"
+  }
+}

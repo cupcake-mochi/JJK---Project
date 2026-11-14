@@ -1,4 +1,10 @@
-# Fonte corrente R67
+# Fonte corrente R68
+
+LIVRO-COMPLETO.md é a edição R68, usada pelos validadores. É a R67 com duas frases corrigidas: as seções de Controle passam a dar o reforço à Técnica Máxima sem dano, pessoal e da domada. São 2 trocas em 2 blocos.
+
+O snapshot, as trocas e os scripts ficam em revisao-de-regras/editorial-r68/. O antes e depois está em revisao-de-regras/alteracoes/R67-para-R68.json. Os PDFs da R68 ficam na pasta acima, com hashes em EDICAO-ATUAL.json. A composição, a primeira feita no Windows, está descrita em revisao-de-regras/editorial-r68/COMPOSICAO.md.
+
+# Fonte R67
 
 LIVRO-COMPLETO.md é a edição R67, usada pelos validadores. É a R66 com a regra nova da Técnica Máxima: a Forma e a base da função saem dos dados-base, e os pontos de montagem pagam só as Melhorias. São 17 trocas em 5 blocos.
 

@@ -9972,7 +9972,7 @@ O +2 aumenta somente as CDs de Controle. Numa ficha por TR com peças de outras 
 
 Numa ficha de ataque, acerte primeiro. O alvo acertado faz depois o TR de Controle.
 
-Uma peça própria de Controle só recebe esses reforços quando seus estados, TRs e formas de término forem compatíveis e estiverem registrados com o mestre. O nome da Família não cria duração ou resistência inexistente. Precisão conserva seu bônus e pode somá-lo ao +2 quando aplicável. Classe 0, Liberação Máxima e Técnica Máxima não recebem este reforço de feitiço comum.
+Uma peça própria de Controle só recebe esses reforços quando seus estados, TRs e formas de término forem compatíveis e estiverem registrados com o mestre. O nome da Família não cria duração ou resistência inexistente. Precisão conserva seu bônus e pode somá-lo ao +2 quando aplicável. Classe 0 e Liberação Máxima não recebem este reforço de feitiço comum. A Técnica Máxima o recebe só na aplicação sem dano, descrita em [Técnica Máxima](#fundamento--maxima).
 
 ##### Rede de contenção
 
@@ -14846,7 +14846,7 @@ Uma especial pode abrir mão de dano para conter um alvo, retirar uma condição
 
 ##### Controle
 
-Uma especial comum usa o procedimento de [Controle](#fundamento--controle), em Montar sua aplicação: anote na criação a opção de dano limitado à Classe real em dados ou sem dano. Use a mesma tabela de efeitos compatíveis, CDs, duração, saídas e progressão. O orçamento e o desconto continuam sendo os da entidade. A básica e as aplicações máximas não recebem esse reforço comum.
+Uma especial comum usa o procedimento de [Controle](#fundamento--controle), em Montar sua aplicação: anote na criação a opção de dano limitado à Classe real em dados ou sem dano. Use a mesma tabela de efeitos compatíveis, CDs, duração, saídas e progressão. O orçamento e o desconto continuam sendo os da entidade. A básica e a Liberação Máxima não recebem esse reforço comum. A Técnica Máxima da domada o recebe só na aplicação sem dano, como a pessoal.
 
 Condições **Médias e Pesadas** são reservadas à **especial comandada ativamente**. Elas não entram na básica, num talento, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte **[Condições compráveis](#dano--condicoes)** para seus efeitos completos.
 
