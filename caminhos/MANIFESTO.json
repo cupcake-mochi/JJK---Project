@@ -9,7 +9,7 @@
     "Besta",
     "Arma de Fogo"
   ],
-  "quantidade_ideias_reservadas": 5,
+  "quantidade_ideias_reservadas": 3,
   "arquivos_fonte_sha256": {
     "Caminhos-e-Trilhas-consolidados-v04.zip": "2a5994f728c7721c5951ebd9165643b32ba08858b351d9805377804947ed680d",
     "Guia-v01-e-ideias-reservadas.zip": "af6cca1866c30149e9a60609bc05aa53907aef3c650ebe3aba37e05b2f76e210"
@@ -97,7 +97,7 @@
       "copia_integral": true
     },
     {
-      "arquivo": "02-Ideias-Reservadas/IDEIAS-RESERVADAS-RPG-JJK.docx",
+      "arquivo": "02-Ideias-Reservadas/Historico/IDEIAS-RESERVADAS-RPG-JJK-v0.2.docx",
       "bytes": 42918,
       "sha256": "a64d85ed5ee984f9e783e9c78d7b1214a0c7cd46edd3a6fc990905f380f94305",
       "arquivo_de_origem": "Guia-v01-e-ideias-reservadas.zip",
@@ -106,7 +106,7 @@
       "copia_integral": true
     },
     {
-      "arquivo": "02-Ideias-Reservadas/IDEIAS-RESERVADAS-RPG-JJK.md",
+      "arquivo": "02-Ideias-Reservadas/Historico/IDEIAS-RESERVADAS-RPG-JJK-v0.2.md",
       "bytes": 10204,
       "sha256": "574e01ebf48f847b87003a7945a44974ee9deb4b2f934133b5c7d4953fc0aadb",
       "arquivo_de_origem": "Guia-v01-e-ideias-reservadas.zip",
@@ -116,9 +116,10 @@
     },
     {
       "arquivo": "02-Ideias-Reservadas/LEIA-ME.md",
-      "bytes": 1301,
-      "sha256": "126739d6d3f0ac3a58fa1ddf35196781bd3e246eb97f638e47badf20c8ed23c8",
-      "novo_nesta_organizacao": true
+      "bytes": 885,
+      "sha256": "f6b1cee4606c02675151b2b7b367d12be41a5452eba7545444d8db9f7d45c09e",
+      "novo_nesta_organizacao": true,
+      "copia_integral": false
     },
     {
       "arquivo": "03-Notas/Estado-atual-e-pendencias.md",
@@ -131,6 +132,15 @@
       "bytes": 2035,
       "sha256": "47821e5e72e6bca26978bc9ec77ea3a06f0c70decbcc17597c700c4a6c6bdd83",
       "novo_nesta_organizacao": true
+    },
+    {
+      "arquivo": "02-Ideias-Reservadas/IDEIAS-RESERVADAS-RPG-JJK.md",
+      "bytes": 5176,
+      "sha256": "fa2506545b80586996d94633cfff8822284bd8fc47356f37a146d6a8019a1ab5",
+      "copia_integral": false,
+      "observacao": "Lista atual: três propostas; versão anterior preservada no histórico."
     }
-  ]
+  ],
+  "quantidade_ideias_no_banco_historico_v02": 5,
+  "atualizacao_ideias": "2026-10-26: Arquiteto de Campo e Desmonte do Adversário retirados da lista pendente por decisão do autor; banco v0.2 preservado no histórico."
 }
