@@ -1,6 +1,20 @@
-# Edição corrente R67
+# Edição corrente R68
 
-**Versão v0.378.**
+**Versão v0.379.**
+
+A R68 corrige duas frases que ainda negavam o reforço de Controle à Técnica Máxima sem dano, que a R67 deu: a da seção de Controle, no Fundamento, e a do Controle das entidades, em Construir invocações, onde a Máxima da domada passa a recebê-lo como a pessoal. Classe 0, Liberação Máxima e a básica continuam sem ele. O achado veio de quem levava a regra para a ficha, em 14/11/2026. São 2 trocas em 2 blocos; mudaram só as páginas 268 e 395, as mesmas nas duas paletas, e nenhuma âncora mudou de página. O livro continua com 422 páginas. A composição passou nas 65 verificações, com os 453 verbetes do Índice conferidos, e a revisão visual passou pelas duas páginas nas duas paletas.
+
+Foi a primeira composição no Windows: a cadeia do Linux, copiada para o HD interno, roda com as versões de biblioteca do Python do Codex e as fontes copiadas para junto do gerador. Antes de trocar o texto, a R67 regerada no Windows saiu idêntica, byte a byte, aos PDFs publicados nas duas paletas. O passo a passo está em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/COMPOSICAO.md`.
+
+**Publicação pendente.** Quem publica é o repositório `JJK---PDF---RPG`: os dois PDFs, o `EDICAO-ATUAL.json` e o `REVISAO-R68.json` vão para a pasta `livro/` dele. Depois do push, conferir o download das duas URLs públicas contra os hashes do `EDICAO-ATUAL.json` e registrar num PUBLICACAO.json na pasta da R68, como o da R67.
+
+**Ficha pendente.** A ficha digital ainda está na regra antiga da Máxima, e a Máxima sem dano dela precisa do reforço de Controle (`controle_sem_dano`).
+
+Fonte, registros e validações em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/`. A cadeia de integridade cobre R52 a R68.
+
+# Edição anterior R67
+
+*Versão v0.378.*
 
 A R67 está composta nas duas paletas, com 422 páginas, como a R66. Mudaram 11 páginas, as mesmas nas duas: 276 a 281 (Técnica Máxima, Passagem de Papel e Retirada de Emergência), 376 e 377 (Técnica Máxima da domada), 410 (Glossário), e o número da Técnica Máxima no Sumário (4) e no Índice (420), que passou de 278 para 277. A composição passou nas 65 verificações, com os 453 verbetes do Índice conferidos, e o texto é idêntico nas duas paletas. A revisão visual passou pelas 11 páginas nas duas paletas e não achou título solto, coluna quebrada nem tabela estourada.
 

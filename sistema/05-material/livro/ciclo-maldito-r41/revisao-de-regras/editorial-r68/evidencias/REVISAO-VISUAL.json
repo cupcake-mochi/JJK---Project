@@ -1,0 +1,14 @@
+{
+  "revisao": "R68",
+  "base": "R67",
+  "data": "2026-11-14",
+  "paletas": ["claro", "noturno"],
+  "paginas": [268, 395],
+  "ancoras": [],
+  "metodo": "Cada página cujo texto mudou foi renderizada nas duas paletas e comparada com a mesma página da R67. A comparação página a página (texto e pixels) não achou nenhuma outra página diferente.",
+  "resultado": "Sem título solto, coluna quebrada, tabela estourada ou exemplo separado da regra.",
+  "observacoes": [
+    {"paginas": [268], "nota": "A frase nova da seção de Controle ocupa três linhas a mais na coluna direita e cabe no branco que sobrava acima do rodapé. O link Técnica Máxima leva à página 277 nas duas paletas."},
+    {"paginas": [395], "nota": "Controle das entidades ganha duas linhas; o exemplo de Prende desce junto e continua inteiro na coluna direita. A página 396 não mudou."}
+  ]
+}

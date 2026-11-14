@@ -8,6 +8,17 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.379] - 14/11/2026
+
+### Alterado
+
+- A R68 corrige duas frases que ainda negavam o reforço de Controle à Técnica Máxima sem dano, que a R67 deu: a da seção de Controle, no Fundamento, e a do Controle das entidades, em Construir invocações, onde a Máxima da domada passa a recebê-lo como a pessoal. Classe 0, Liberação Máxima e a básica continuam sem ele. O achado veio de quem levava a regra para a ficha, em 14/11/2026. São 2 trocas em 2 blocos; mudaram só as páginas 268 e 395, as mesmas nas duas paletas, e nenhuma âncora mudou de página. O livro continua com 422 páginas. A composição passou nas 65 verificações, com os 453 verbetes do Índice conferidos, e a revisão visual passou pelas duas páginas nas duas paletas.
+- Foi a primeira composição no Windows: a cadeia do Linux, copiada para o HD interno, roda com as versões de biblioteca do Python do Codex e as fontes copiadas para junto do gerador. Antes de trocar o texto, a R67 regerada no Windows saiu idêntica, byte a byte, aos PDFs publicados nas duas paletas. O passo a passo está em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r68/COMPOSICAO.md`.
+- `conferir-fundamento.py`, seção 9: duas checagens novas (a seção de Controle e a de Controle das entidades dão o reforço à Máxima sem dano, e só negam a Classe 0, à Liberação e à básica) e dois contra-testes que voltam as frases antigas. Perturbado numa cópia isolada, cada frase antiga acende a checagem certa.
+- Ponteiros da fonte corrente, de R67 para R68, no `conferir-repositorio.py`, nos dois `testar-integridade.py`, no `conferir-fundamento.py` e no `livro.py`. `EDICAO-ATUAL.json` e os dois PDFs passam à R68; `REVISAO-R68.json` substitui o `REVISAO-R67.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`: publicar a R68 pelo `JJK---PDF---RPG` e conferir as URLs; levar a regra da Máxima para a ficha.
+
 ## [0.378] - 12/11/2026
 
 ### Alterado

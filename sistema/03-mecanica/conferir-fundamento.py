@@ -133,7 +133,7 @@ try:livro._catalogo_r53(mutado);falhou=False
 except livro.LivroMudou:falhou=True
 check('Remover metadado de Família provoca erro de leitura',falhou)
 base=Path(livro.R41).parent
-snapshot=json.loads((base/'revisao-de-regras/editorial-r67/BLOCOS-R67.json').read_text())
+snapshot=json.loads((base/'revisao-de-regras/editorial-r68/BLOCOS-R68.json').read_text())
 check('Snapshot final inclui 576 blocos',len(snapshot)==576)
 # R62 (03/11/2026): "saldo" saiu do texto do livro e a montagem diz "pontos que sobram".
 # Âncoras (fundamento-link-saldo, construcao--entidades-saldo) e chaves de código continuam
@@ -182,6 +182,7 @@ def _max_dados(c,dados,forma,funcao):
     return dados-_p(c,_FORMA[forma])-_p(c,base)
 def _maxima_ok(texto):
     mx=_bloco_md(texto,'fundamento--maxima');dom=_bloco_md(texto,'campo--inv-maxima')
+    ctl=_bloco_md(texto,'fundamento--controle');ent=_bloco_md(texto,'construcao--entidades-controle')
     tabela=[tuple(map(int,m)) for m in re.findall(r'^\| (?:17 a 20|21 a 25|26 a 30) \| (\d+)d8 \| (\d+) \| (\d+) \|$',mx,re.M)]
     c5=_FAIXAS[0]
     exp=_max_dados(5,24,'Explosão','dano');cura=_max_dados(5,24,'Projétil','cura')
@@ -201,6 +202,9 @@ def _maxima_ok(texto):
      'domada: Forma e função nos dados':'Os dados fixos pagam a Forma e a base da função' in dom and 'pagam Forma e Melhorias' not in dom,
      f'domada: Explosão {dexp}d8 e cura {dcura}d8':f'ou {dexp}d8 com Explosão' in dom and f'recupera {dcura}d8' in dom,
      'exemplos sem orçamento antigo':'Cabe nos orçamentos 8, 12 e 16' not in texto and 'dentro dos orçamentos 8/12/16' not in texto,
+     # R68: as seções de Controle não podem negar o reforço que a Máxima sem dano recebe.
+     'Controle dá o reforço à Máxima sem dano (R68)':'Classe 0 e Liberação Máxima não recebem este reforço' in ctl and 'A Técnica Máxima o recebe só na aplicação sem dano' in ctl and 'e Técnica Máxima não recebem' not in ctl,
+     'entidades: domada recebe o reforço sem dano (R68)':'A básica e a Liberação Máxima não recebem esse reforço' in ent and 'Técnica Máxima da domada o recebe só na aplicação sem dano' in ent and 'aplicações máximas não recebem' not in ent,
     }
 for nome,ok in _maxima_ok(_livro_md).items():
     check('R67: '+nome,ok)
@@ -223,6 +227,8 @@ check('Contra-teste R67: reforço de Controle retirado',_reprova('Nessa aplicaç
 check('Contra-teste R67: domada volta a pagar Forma nos pontos',_reprova('Os dados fixos pagam a Forma e a base da função, como na Técnica Máxima pessoal.','Os pontos pagam Forma e Melhorias.','x'))
 check('Contra-teste R67: exemplo coletivo com 18 dados',_reprova('; sobram 16, e cada aliado','; sobram 18, e cada aliado','x'))
 check('Contra-teste R67: tabela com orçamento 8/8/12',_reprova('| 21 a 25 | 28d8 | 12 | 30 |','| 21 a 25 | 28d8 | 8 | 30 |','x'))
+check('Contra-teste R68: Controle volta a negar o reforço à Técnica Máxima',_reprova('Classe 0 e Liberação Máxima não recebem este reforço de feitiço comum. A Técnica Máxima o recebe só na aplicação sem dano, descrita em [Técnica Máxima](#fundamento--maxima).','Classe 0, Liberação Máxima e Técnica Máxima não recebem este reforço de feitiço comum.','x'))
+check('Contra-teste R68: entidades voltam a negar o reforço às aplicações máximas',_reprova('A básica e a Liberação Máxima não recebem esse reforço comum. A Técnica Máxima da domada o recebe só na aplicação sem dano, como a pessoal.','A básica e as aplicações máximas não recebem esse reforço comum.','x'))
 print(f'\n{CHECAGENS} verificações; {len(ERROS)} falhas.')
 if ERROS:sys.exit(1)
 print('>>> TUDO OK: montagem comum R53, fontes e interfaces conferidas.')
