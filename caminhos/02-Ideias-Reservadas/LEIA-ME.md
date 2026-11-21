@@ -1,15 +1,15 @@
-# Ideias reservadas — como consultar
+# Ideias reservadas
 
-O banco foi preservado integralmente em Word e Markdown. As ideias não são novas habilidades concedidas pelas regras.
+A lista atual está em [Ideias reservadas](IDEIAS-RESERVADAS-RPG-JJK.md):
 
-| Ideia | Situação na coleção atual |
+| Ideia | Possível direção |
 |---|---|
-| Caça de Duas Distâncias | Reservada para possível Trilha de outro Caminho, ainda não definido. |
-| Desmonte do Adversário | Reservada como possível Trilha futura da Vanguarda; não substitui o Executor. |
-| Arquiteto de Campo | Conceito preservado. Já serviu de inspiração para o Arquiteto do Guia; as regras atuais estão no documento do Guia. |
-| Amplificador de Vínculos | Conceito reservado para possível especialização de suporte. |
-| Preparador Tático | Conceito reservado de planejamento, ferramentas e contingências. |
+| Caça de Duas Distâncias | Trilha de outro Caminho, ainda não definido. |
+| Amplificador de Vínculos | Suporte que conecta aliados e faz o auxílio circular. |
+| Preparador Tático | Planejamento, ferramentas e contingências. |
 
-O banco é um registro histórico anterior à conclusão das Trilhas do Guia. Por isso, ainda descreve Arquiteto como candidato e cita Analista e Socorrista como direções em exploração. Para jogar, use os capítulos atuais da pasta 01-Caminhos-e-Trilhas, não essas descrições antigas.
+São propostas para discussão, não regras aprovadas.
 
-A pasta **Historico** conserva o registro mais detalhado de Caça de Duas Distâncias e Desmonte do Adversário. Menções a Cerco Móvel nesse arquivo pertencem a uma fase abandonada do desenvolvimento do Batedor e não restabelecem aquela versão.
+Em 26/10/2026, Mizuki pediu a retirada de **Arquiteto de Campo**, que já foi desenvolvido, e de **Desmonte do Adversário** da lista de pendências. Seus registros continuam na pasta **Historico**, junto do banco v0.2 em Markdown e Word. Nenhuma regra ou Trilha atual foi removida.
+
+O histórico também cita versões antigas de Cerco Móvel e direções antigas do Guia. Para jogar, consulte o livro atual; essas notas não reabrem decisões encerradas.
